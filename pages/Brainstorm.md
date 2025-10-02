@@ -33,7 +33,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- Large-scale momentum: Jet streams and pressure gradients force air masses to run parallel.
 					- Self-sustenance: Thermal wind balance and secondary circulations sharpen the contrast.
 					- Rupture: Storms, cyclogenesis, severe weather outbreaks.
-					- E.g. the outflow trough extending from the eye of the merging double cyclone Imelda-Humberto
+					- E.g.: the outflow trough extending from the eye of the merging double cyclone Imelda-Humberto
 					  collapsed:: true
 						- ![DoubleHurricane-Imelda-Humberto-merged-outflow-trough-2025-10-02.png](../assets/Will/story/2025-10/DoubleHurricane-Imelda-Humberto-merged-outflow-trough-2025-10-02.png)
 				- Water (Oceanography)
@@ -41,7 +41,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- Large-scale momentum: Currents like the Gulf Stream trap contrasting waters side by side.
 					- Self-sustenance: Density differences + Coriolis dynamics reinforce the stratification.
 					- Rupture: Eddies, upwelling, mixing events that break the boundary.
-					- E.g.
+					- E.g.: the halocline between a fresh water body from a river and the salty ocean
+					  collapsed:: true
+						- ![halocline.jpg](../assets/Will/story/2025-10/halocline.jpg)
 				- Human (Society & Warfare)
 					- Lifestyle & cultural fronts: Urban vs rural, traditional vs modern, religious vs secular.
 					- Large-scale momentum: Institutions, economies, and social flows align people into parallel “streams of life”, limiting cross-mixing.
@@ -52,6 +54,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- Logistics and morale act as “momentum” sustaining the front.
 						- Skirmishes = turbulence; offensives = storms.
 						- The “front” collapses only through violent breakthrough.
+						- E.g.: the Western Front in 1915
+						  collapsed:: true
+							- ![Western_front_1915-16.jpg](../assets/Will/story/2025-10/Western_front_1915-16.jpg)
 		- DONE Continue with [planning](((67760c43-5cbd-4b4f-8fd9-5cedf804f56a))) to resolve [the conflict with company work](((6677b986-ada2-4c73-8a11-980cdf9cb6d4))).
 		  id:: 68663850-daa5-487e-ba48-fea228a2b188
 		  collapsed:: true
