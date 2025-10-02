@@ -27,6 +27,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Instability and rupture
 					- Fronts rarely last forever. Energy accumulates until instability erupts (storms, conflicts, revolutions, eddies).
 					- The front dissolves only through violent reorganization, through which the accumulated large-scale momentum are released.
+			- ((66537a44-f579-4fcc-a02b-2f32d0d409fc)): Statics are folded dynamics, inertia is condensed momentum, hence every front or wall is but a crease in the continuous flow..
 			- ((66725725-f76a-4328-b162-f469b87e871b))
 				- Air (Meteorology)
 					- Cold/Warm Fronts: Warm, moist tropical air vs cool, dense polar air.
