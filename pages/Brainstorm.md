@@ -8,7 +8,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
-		- A **dynamic front** in fuilds is a fold in continuity.
+		- A **dynamic front** in fluids is a fold in continuity.
 		  id:: 68de2e16-6431-4e02-94b9-a8a8244cf94d
 		  collapsed:: true
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A front is a sharp, self-sustaining boundary within a continuous medium, created and maintained by large-scale opposing flows despite small-scale tendencies to mix.
@@ -17,17 +17,37 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Core Principles
 				- Same medium, different properties
 					- The front divides regions of the *same substance* (air, water, people), but with contrasting properties (temperature, salinity, ideology, lifestyle).
-				- Opposing large-scale momentum
-					- Large-scale flows move in different or even orthogonal directions, preventing rapid mixing.
-					- Instead of colliding and homogenizing, the masses slide along each other, sharpening the divide.
 				- Small-scale mixing vs large-scale maintenance
 					- Microscale turbulence or individual exchanges promote blending.
 					- Macroscale dynamics reinforce separation, preserving the boundary.
-				- **Self-sustaining feedback**
+				- Opposing large-scale momentum & Self-sustaining feedback
+					- Large-scale flows move in different or even orthogonal directions, preventing rapid mixing.
+					- Instead of colliding and homogenizing, the masses slide along each other, sharpening the divide.
 					- The sharper the gradient, the stronger the induced circulation/identity/organization, which in turn reinforces the gradient.
-				- **Instability and rupture**
+				- Instability and rupture
 					- Fronts rarely last forever. Energy accumulates until instability erupts (storms, conflicts, revolutions, eddies).
-					- The front dissolves only through violent reorganization, not quiet fading.
+					- The front dissolves only through violent reorganization, through which the accumulated large-scale momentum are released.
+			- ((66725725-f76a-4328-b162-f469b87e871b))
+				- Air (Meteorology)
+					- Cold/Warm Fronts: Warm, moist tropical air vs cool, dense polar air.
+					- Large-scale momentum: Jet streams and pressure gradients force air masses to run parallel.
+					- Self-sustenance: Thermal wind balance and secondary circulations sharpen the contrast.
+					- Rupture: Storms, cyclogenesis, severe weather outbreaks.
+				- Water (Oceanography)
+					- Thermoclines & Haloclines: Warm vs cold water layers, salty vs fresh inflows.
+					- Large-scale momentum: Currents like the Gulf Stream trap contrasting waters side by side.
+					- Self-sustenance: Density differences + Coriolis dynamics reinforce the stratification.
+					- Rupture: Eddies, upwelling, mixing events that break the boundary.
+				- Human (Society & Warfare)
+					- Lifestyle & cultural fronts: Urban vs rural, traditional vs modern, religious vs secular.
+					- Large-scale momentum: Institutions, economies, and social flows align people into parallel “streams of life”, limiting cross-mixing.
+					- Self-sustenance: Identity and ideology harden at the boundary, making the front sharper over time.
+					- Rupture: Social unrest, revolutions, or bursts of conflict when pressure exceeds stability.
+					- [Warfare fronts](https://en.wikipedia.org/wiki/Front_(military)):
+						- Armies in opposing flows, facing each other across an invisible line.
+						- Logistics and morale act as “momentum” sustaining the front.
+						- Skirmishes = turbulence; offensives = storms.
+						- The “front” collapses only through violent breakthrough.
 		- DONE Continue with [planning](((67760c43-5cbd-4b4f-8fd9-5cedf804f56a))) to resolve [the conflict with company work](((6677b986-ada2-4c73-8a11-980cdf9cb6d4))).
 		  id:: 68663850-daa5-487e-ba48-fea228a2b188
 		  collapsed:: true
