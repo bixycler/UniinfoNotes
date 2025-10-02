@@ -48,7 +48,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :END:
 			- This scale of passiveness/activeness is also of object/subject, input/output, absorption/emission.
 			  id:: 68c764d5-17c7-4c1c-af2f-697fa222f729
-			  collapsed:: true
 			- Here's the ladder of 5 levels in the spectrum from the passive end to the active end.
 			- Open Passive
 			  logseq.order-list-type:: number
