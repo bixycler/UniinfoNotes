@@ -214,3 +214,5 @@ const FolderDivStyle = `
   style.innerHTML = FolderDivStyle;
   document.querySelector('body').append(style);
 }());
+
+//console.debug(`customElements.get('folder-div'): ${customElements.get('folder-div')}`)
