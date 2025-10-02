@@ -46,7 +46,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- ![halocline.jpg](../assets/Will/story/2025-10/halocline.jpg)
 				- Human (Society & Warfare)
 					- Lifestyle & cultural fronts: Urban vs rural, traditional vs modern, religious vs secular.
-					- Large-scale momentum: Institutions, economies, and social flows align people into parallel “streams of life”, limiting cross-mixing.
+					- Large-scale momentum: Institutions, economies, and social flows align people into parallel “streams of life”, limiting cross-mixing. In each person, their accumulated karma is also a macroscale momentum in their internal world.
 					- Self-sustenance: Identity and ideology harden at the boundary, making the front sharper over time.
 					- Rupture: Social unrest, revolutions, or bursts of conflict when pressure exceeds stability.
 					- [Warfare fronts](https://en.wikipedia.org/wiki/Front_(military)):
