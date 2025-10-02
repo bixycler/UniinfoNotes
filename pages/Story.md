@@ -5020,7 +5020,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Ref: [Every common UI menu icon and its use case](https://blog.logrocket.com/ux-design/every-common-ui-menu-icon/)
 			- 2nd, ...
 			  collapsed:: true
-				- ((68de2e16-6431-4e02-94b9-a8a8244cf94d))
+				- The outflow trough extending from the eye of the merging double cyclone Imelda-Humberto inspired this brainstorm: ((68de2e16-6431-4e02-94b9-a8a8244cf94d))
+					- ![DoubleHurricane-Imelda-Humberto-merged-outflow-trough-2025-10-02.png](../assets/Will/story/2025-10/DoubleHurricane-Imelda-Humberto-merged-outflow-trough-2025-10-02.png)
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((68dc9f21-1057-4ac0-be4c-61c9010d7f78))

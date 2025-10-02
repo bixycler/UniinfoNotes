@@ -11,8 +11,23 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- A **dynamic front** in fuilds is a fold in continuity.
 		  id:: 68de2e16-6431-4e02-94b9-a8a8244cf94d
 		  collapsed:: true
-			- It is not a material wall but an emergent line where opposing flows sustain a sharp division inside the same medium.
-			- From weather to water to war, fronts are both **surreal and tragic**: they exist only because forces keep them alive, and they dissolve only through rupture.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A front is a sharp, self-sustaining boundary within a continuous medium, created and maintained by large-scale opposing flows despite small-scale tendencies to mix.
+				- It is not a material wall but an emergent line where opposing flows sustain a sharp division inside the same medium.
+				- From weather to water to war, fronts are both **surreal and tragic**: they exist only because forces keep them alive, and they dissolve only through rupture.
+			- Core Principles
+				- Same medium, different properties
+					- The front divides regions of the *same substance* (air, water, people), but with contrasting properties (temperature, salinity, ideology, lifestyle).
+				- Opposing large-scale momentum
+					- Large-scale flows move in different or even orthogonal directions, preventing rapid mixing.
+					- Instead of colliding and homogenizing, the masses slide along each other, sharpening the divide.
+				- Small-scale mixing vs large-scale maintenance
+					- Microscale turbulence or individual exchanges promote blending.
+					- Macroscale dynamics reinforce separation, preserving the boundary.
+				- **Self-sustaining feedback**
+					- The sharper the gradient, the stronger the induced circulation/identity/organization, which in turn reinforces the gradient.
+				- **Instability and rupture**
+					- Fronts rarely last forever. Energy accumulates until instability erupts (storms, conflicts, revolutions, eddies).
+					- The front dissolves only through violent reorganization, not quiet fading.
 		- DONE Continue with [planning](((67760c43-5cbd-4b4f-8fd9-5cedf804f56a))) to resolve [the conflict with company work](((6677b986-ada2-4c73-8a11-980cdf9cb6d4))).
 		  id:: 68663850-daa5-487e-ba48-fea228a2b188
 		  collapsed:: true
