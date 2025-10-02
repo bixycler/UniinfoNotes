@@ -33,11 +33,15 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- Large-scale momentum: Jet streams and pressure gradients force air masses to run parallel.
 					- Self-sustenance: Thermal wind balance and secondary circulations sharpen the contrast.
 					- Rupture: Storms, cyclogenesis, severe weather outbreaks.
+					- E.g. the outflow trough extending from the eye of the merging double cyclone Imelda-Humberto
+					  collapsed:: true
+						- ![DoubleHurricane-Imelda-Humberto-merged-outflow-trough-2025-10-02.png](../assets/Will/story/2025-10/DoubleHurricane-Imelda-Humberto-merged-outflow-trough-2025-10-02.png)
 				- Water (Oceanography)
 					- Thermoclines & Haloclines: Warm vs cold water layers, salty vs fresh inflows.
 					- Large-scale momentum: Currents like the Gulf Stream trap contrasting waters side by side.
 					- Self-sustenance: Density differences + Coriolis dynamics reinforce the stratification.
 					- Rupture: Eddies, upwelling, mixing events that break the boundary.
+					- E.g.
 				- Human (Society & Warfare)
 					- Lifestyle & cultural fronts: Urban vs rural, traditional vs modern, religious vs secular.
 					- Large-scale momentum: Institutions, economies, and social flows align people into parallel “streams of life”, limiting cross-mixing.
