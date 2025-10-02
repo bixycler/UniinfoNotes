@@ -14,6 +14,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A front is a sharp, self-sustaining boundary within a continuous medium, created and maintained by large-scale opposing flows despite small-scale tendencies to mix.
 				- It is not a material wall but an emergent line where opposing flows sustain a sharp division inside the same medium.
 				- From weather to water to war, fronts are both **surreal and tragic**: they exist only because forces keep them alive, and they dissolve only through rupture.
+			- ((66537a44-f579-4fcc-a02b-2f32d0d409fc)): Statics are folded dynamics, inertia is condensed momentum, hence every front or wall is but a crease in the continuous flow.
 			- Core Principles
 				- Same medium, different properties
 					- The front divides regions of the *same substance* (air, water, people), but with contrasting properties (temperature, salinity, ideology, lifestyle).
@@ -27,7 +28,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Instability and rupture
 					- Fronts rarely last forever. Energy accumulates until instability erupts (storms, conflicts, revolutions, eddies).
 					- The front dissolves only through violent reorganization, through which the accumulated large-scale momentum are released.
-			- ((66537a44-f579-4fcc-a02b-2f32d0d409fc)): Statics are folded dynamics, inertia is condensed momentum, hence every front or wall is but a crease in the continuous flow..
 			- ((66725725-f76a-4328-b162-f469b87e871b))
 				- Air (Meteorology)
 					- Cold/Warm Fronts: Warm, moist tropical air vs cool, dense polar air.
