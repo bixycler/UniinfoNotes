@@ -8,6 +8,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
+		- A **dynamic front** in fuilds is a fold in continuity.
+		  id:: 68de2e16-6431-4e02-94b9-a8a8244cf94d
+		  collapsed:: true
+			- It is not a material wall but an emergent line where opposing flows sustain a sharp division inside the same medium.
+			- From weather to water to war, fronts are both **surreal and tragic**: they exist only because forces keep them alive, and they dissolve only through rupture.
 		- DONE Continue with [planning](((67760c43-5cbd-4b4f-8fd9-5cedf804f56a))) to resolve [the conflict with company work](((6677b986-ada2-4c73-8a11-980cdf9cb6d4))).
 		  id:: 68663850-daa5-487e-ba48-fea228a2b188
 		  collapsed:: true
