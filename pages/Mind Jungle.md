@@ -2304,7 +2304,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 68df2d82-e1d5-49c4-ac40-d45cf26f840c
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68df2d82-e1d5-49c4-ac40-d45cf26f840c)) is the part of the ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) limited within the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)), hence a structure of active ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))s, usually in the shape of a chain or a tree.
 				- Three nappes:
-					- While in everyday life, people normally focus on the operational intent cone of ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae))s,
+					- While in everyday life, people normally focus on the operative intent cone of ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae))s,
 					- in ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)), ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)) mainly deals with the observational intent double cone of ((66f93d8f-4fbf-4ed1-8bec-59bf92b6f2cd)) whose two nappes are
 						- the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)) of imaginals (mental images) and
 						- the ((66ea8df3-d2f3-4856-b24a-5095dd285f9b)) of concepts.
@@ -5062,6 +5062,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Outward, the road narrows toward a visual vanishing point on the skyline.
 					- Inward, the intent cone narrows toward a mental vanishing point on the “horizon within”.
 					- Both are perspectival infinities: finite to the eye, boundless in the journey.
+			- Functional and temporal classification of intents
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-10-03 Fri 19:32:13]
+			  :END:
+				- ((68df309b-c3e7-4121-895c-9c74d2359646)) crysallizing past experiences:
+				- ((3f718c7e-3449-49fa-8771-d50a5f8a8d48)) showing quality in the present:
+				- ((68df2ff2-cd0a-45e0-9309-969e0493404b)) driving actions in the future:
 	- ## extent
 	  id:: 66b1cfa4-3a39-4672-9da2-cd3bcef71702
 	  collapsed:: true
