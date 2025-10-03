@@ -2306,7 +2306,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Three nappes:
 					- While in everyday life, people normally focus on the operational intent cone of ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae))s,
 					- in ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)), ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)) mainly deals with the observational intent double cone of ((66f93d8f-4fbf-4ed1-8bec-59bf92b6f2cd)) whose two nappes are
-						- the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)) of mental images (imaginals) and
+						- the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)) of imaginals (mental images) and
 						- the ((66ea8df3-d2f3-4856-b24a-5095dd285f9b)) of concepts.
 			- cause–effect mirror circles
 			  id:: 6889a623-34cd-4b65-8a91-5cfdbb199b71
