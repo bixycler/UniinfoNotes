@@ -4979,7 +4979,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- intend
 		  id:: 68a7de4b-7072-4ec1-907e-5a0d9fdba859
 		  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) is an umbrella term capturing the abstract notion of “something intensively packed inside the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))”. E.g.: the daily used ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)) and [intentionality](https://en.wikipedia.org/wiki/Intentionality), the semantical ((66f93d8f-4fbf-4ed1-8bec-59bf92b6f2cd)), the ((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9)) in CIE, etc.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) is an umbrella term capturing the abstract notion of “something intensively packed inside the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))”. In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), “intent” covers from the volitional ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)) ([intentionality](https://en.wikipedia.org/wiki/Intentionality)), the semantical ((66f93d8f-4fbf-4ed1-8bec-59bf92b6f2cd)), the phenomenal ((68dfbe7e-1d78-4233-a799-516e68c2733e)), to the ((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9)) in CIE.
 		- intention
 		  id:: 66f93c78-15f5-43a7-8412-f7a5bc66e2ae
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((68df2ff2-cd0a-45e0-9309-969e0493404b))
@@ -4996,10 +4996,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Intension
 		- quale
 		  id:: 68dfbe7e-1d78-4233-a799-516e68c2733e
+		  ((68dfc116-5dc8-41a1-b448-b2e2ddc80068)) ((68dfc0c7-14fa-4582-9865-8b3d53e0ebdd))
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((3f718c7e-3449-49fa-8771-d50a5f8a8d48))
 			- phenomenal intent
 			  id:: 3f718c7e-3449-49fa-8771-d50a5f8a8d48
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((68dfbe7e-1d78-4233-a799-516e68c2733e))
+			- qualia
+			  id:: 68dfc0c7-14fa-4582-9865-8b3d53e0ebdd
+			  ((68dfc11b-c552-4a41-b4bb-0737db0f3f94)) ((68dfbe7e-1d78-4233-a799-516e68c2733e))
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Qualia
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- The general ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) versus the strongly volitional “intent” in common usage

@@ -96,6 +96,10 @@ collapsed:: true
 			  id:: 66c80da9-4cfb-4de7-b83d-8b70665207bf
 				- adjective of
 				  id:: 66c80e01-002b-42ae-9c60-49bf3fc6e159
+			- Plural:
+			  id:: 68dfc116-5dc8-41a1-b448-b2e2ddc80068
+				- plural of
+				  id:: 68dfc11b-c552-4a41-b4bb-0737db0f3f94
 		- Description:
 		  id:: 6651ecba-793d-43c5-8020-a9f260b032d8
 		  ((665ca47c-476a-4bef-b982-d9a31a669fb1)) ((66532914-003a-4bbb-9e97-6f1c87170d7d))
