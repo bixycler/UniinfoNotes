@@ -27,7 +27,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Refs
 				- ((68c14574-cea2-4325-a43e-d189f38522de))
 				- [intensibility](((68ac60bb-321e-44da-8f44-4f688e611d3e)))
-				-
+				- ((68d209a0-3386-46b0-a8f2-beb94d271916))
+				- ((68c76d9f-0ae4-4e93-b8de-1b79a3400fc8))
 			-
 		- A **dynamic front** in fluids is a fold in continuity.
 		  id:: 68de2e16-6431-4e02-94b9-a8a8244cf94d
@@ -128,9 +129,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- CS analogy: **AGI** like **uninet**, self-sustaining cognition, generating goals and activity without needing prompts.
 				- Physics: a pendulum clock escapement, Bénard convection cells, Belousov–Zhabotinsky oscillations, living organisms.
 				- Thermodynamics: dissipative structures, self-organizing far from equilibrium.
-			- The reactive can be further refined to [reaction to the trigger → reaction without target](((68ccaf71-1811-4929-8e74-976bdcd65829))).
-			- This is related to the levels of number: [Các tầng Ý nghĩa của các con Số](https://creatzynotes.blogspot.com/2023/06/cac-tang-y-nghia-cua-con-so.html)
-				- ((67b541c9-56f8-40dc-ab10-e83a7d50ce1d))
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- The reactive can be further refined to [reaction to the trigger → reaction without target](((68ccaf71-1811-4929-8e74-976bdcd65829))).
+				- This is related to the levels of number: [Các tầng Ý nghĩa của các con Số](https://creatzynotes.blogspot.com/2023/06/cac-tang-y-nghia-cua-con-so.html)
+					- ((67b541c9-56f8-40dc-ab10-e83a7d50ce1d))
+				- ((68994c7c-695a-49db-aae6-e776186f6a85))
 		- 🪜 Ladder of Awareness Stances
 		  id:: 68d0e81d-c8d2-4a97-a847-a3d5d191085b
 		  collapsed:: true
