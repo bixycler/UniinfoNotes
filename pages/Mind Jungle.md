@@ -5069,8 +5069,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  CLOCK: [2025-10-03 Fri 19:32:13]
 			  :END:
 				- ((68df309b-c3e7-4121-895c-9c74d2359646)) crysallizing past experiences: The accumulation of past experiences gradually forms intension, concept, notion, and store them into the memory.
-				- ((3f718c7e-3449-49fa-8771-d50a5f8a8d48)) showing quality in the present: In contact with object's content, whether externally or internally, the past intents are activated into aualia and mental images in the working memory.
-				- ((68df2ff2-cd0a-45e0-9309-969e0493404b)) driving actions to the future:
+				- ((3f718c7e-3449-49fa-8771-d50a5f8a8d48)) showing current quality: In contact with object's content, whether externally or internally, the corresponding dormant intents from the past are activated into qualia and mental images in the working memory.
+				- ((68df2ff2-cd0a-45e0-9309-969e0493404b)) driving future actions: The interaction between
 	- ## extent
 	  id:: 66b1cfa4-3a39-4672-9da2-cd3bcef71702
 	  collapsed:: true
