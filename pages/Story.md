@@ -4998,7 +4998,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- October 1st, ...
 			  collapsed:: true
 				- After a series of rainy days affected by storms, this morning i got back to the riverside for meditation and review.
-				- Today is both the birthday of my wife, Bell Lei, and the death anniversary of her grand grand mother.
+				- Today is both the birthday of my wife, Bell Lei, and the death anniversary of her maternal grand mother.
 				- The international buffet 🍽️ of (mobile) GUI icons for menu.
 				  collapsed:: true
 				  From American/English hamburger to Arabic kebab, Turkish döner, Japanese bento, and the common meatball worldwide! 😋
