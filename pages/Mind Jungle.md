@@ -2229,7 +2229,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((689ed6c2-2071-40c9-ac7d-64858153a391))
 						- [Anusayā](((66e7e6c2-3856-496b-99b7-75ac46547c86))), the [dormant intent](((686ce608-1a1b-4b57-993a-fe8e943dc916))), the [underlying tendency](https://suttacentral.net/define/anusay%C4%81?lang=en), the **attitude** of the mind in response to stimuli, determines both intention and what karmic fruit to be experienced.
 						  id:: 66e80666-5f29-4419-8db1-bf8cdce893e4
-							- This anusayā·cetanā is the obop at the apex of the ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)), which is the central part of the karmic ((667c0031-0a87-44c9-9e98-6d45893b095f)).
+							- This anusayā·cetanā is the hidden obop at the apex of the ((68df2d82-e1d5-49c4-ac40-d45cf26f840c)), which is the central part of the karmic ((667c0031-0a87-44c9-9e98-6d45893b095f)).
 								- > Give, and it will be given to you.
 								  
 								  -- Luke 6:38
@@ -4392,7 +4392,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((67ced16d-2fbb-4c5d-9061-5d8f490f6073)) ← ((67cea2ee-5f77-4576-8c1c-9e31d9b822c9))
 				- The [3 poisons due to momentum](((67cfb02d-b633-408c-b19e-1eeb7ed575b9)))
 				- ((684f9517-b730-4cc1-9eb1-54bb81ed78c4))
-				- ((6839229d-9eff-49e4-9480-6e2db6f61127)) caused by the ignorance of ((685156b0-2f3b-4aa9-8b87-636d38a02cd2))
+				- ((6839229d-9eff-49e4-9480-6e2db6f61127)) caused by the ignorance of ((68df2d82-e1d5-49c4-ac40-d45cf26f840c))
 				  id:: 688748a7-8228-4515-9fe4-38c232ce954e
 				  collapsed:: true
 				  :LOGBOOK:
@@ -5357,6 +5357,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 							- [fb note](https://www.facebook.com/share/p/qbfkFvBptBxobMLo) about Indra's Net
 							- Trip inside a 3D fractal (Kleinian) {{video https://youtu.be/XIzScwydxOE}}
+				- perception double cone
+				  id:: 68df36a4-6a3e-4fc9-b44a-c8e92f62aee1
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68df36a4-6a3e-4fc9-b44a-c8e92f62aee1)) is the combination of ((66ea8df3-d2f3-4856-b24a-5095dd285f9b)) & ((66ea8e12-7c30-449b-9139-bfd8d82394d7)) by the ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)).
 				- intent cone
 				  id:: 66ea8dbe-042e-41fc-a07c-841dcb5a737a
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) is the ((66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe)) of the subject's self. It's the particle on the ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)) representing the subject, which receives effects from the force field of the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)) and expresses the subject's will as both external action and reaction to the objects on the screen. Because this cone is extended from the root/center of the knowledge cone, it's the condensation of the whole mass of knowledge, hence has a very strong structure (hard form) to drive the ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)). The subject may have many selves (identities) to be activated by different present cones.
