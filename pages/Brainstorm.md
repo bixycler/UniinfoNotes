@@ -630,7 +630,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Active = circular effect flow = circle
 			- Passive = linear effect flow = arrow
 			- Passive input = unaware influence (out of view)
-			- Passive output = uncontrolled actions <= unaware
+			- Passive output = uncontrolled actions ⇐ unaware
 			- A passive i/o obop is a being lacking (mental) awareness, e.g. machine, program, function.
 				- Lacking awareness, it cannot learn from experience (i/o).
 				- The limited awareness of Turing machine limits its “learning” capacity to only data, not program, because that awareness is programmed by human.
