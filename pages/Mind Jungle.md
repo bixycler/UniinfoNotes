@@ -2305,9 +2305,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68df2d82-e1d5-49c4-ac40-d45cf26f840c)) is the part of the ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) limited within the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)), hence a structure of active ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))s, usually in the shape of a chain or a tree.
 				- Three nappes:
 					- While in everyday life, people normally focus on the operative intent cone of ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae))s,
-					- in ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)), ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)) mainly deals with the observational intent double cone of ((66f93d8f-4fbf-4ed1-8bec-59bf92b6f2cd)) whose two nappes are
-						- the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)) of imaginals (mental images) and
-						- the ((66ea8df3-d2f3-4856-b24a-5095dd285f9b)) of concepts.
+					- in ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)), ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)) mainly deals with the double cone of observation and learning:
+						- the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)) of qualia, imaginals (mental images), and
+						- the ((66ea8df3-d2f3-4856-b24a-5095dd285f9b)) of concepts, notions, intention.
 			- cause–effect mirror circles
 			  id:: 6889a623-34cd-4b65-8a91-5cfdbb199b71
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6889a623-34cd-4b65-8a91-5cfdbb199b71)) is the circular ((6851578b-9b1f-4367-878f-79b0b0b9be51)), where the base of the effect cone folds back to be the base of the cause cone, forming the external ((667c0031-0a87-44c9-9e98-6d45893b095f)) through the external world. The external effect circle contacts various internal effect circles through the intent double cone, which is modularized into layers of obops in the chain of active intents. This is the mirroring mechanism between the external world and internal world (knowledge cone).
@@ -5068,9 +5068,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :LOGBOOK:
 			  CLOCK: [2025-10-03 Fri 19:32:13]
 			  :END:
-				- ((68df309b-c3e7-4121-895c-9c74d2359646)) crysallizing past experiences: The accumulation of past experiences gradually forms intension, concept, notion, which are stored in memory as dormant intents.
-				- ((3f718c7e-3449-49fa-8771-d50a5f8a8d48)) showing current quality: In contact with object's content, whether externally or internally, the corresponding dormant intents from the past are activated into qualia and mental images in the working memory, which are cognitive intents.
-				- ((68df2ff2-cd0a-45e0-9309-969e0493404b)) driving future actions: The interaction between cognitive intents unfolds them into the empty space of possibility. This emptiness generates the [contative](https://en.wikipedia.org/wiki/Conation) intents that drive actions to fill in the void, to fulfill the potential.
+				- ((68df309b-c3e7-4121-895c-9c74d2359646)) crysallizing [past experiences](((66ea8df3-d2f3-4856-b24a-5095dd285f9b))): The accumulation of past experiences gradually forms intension, concept, notion, which are stored in memory as dormant intents.
+				- ((3f718c7e-3449-49fa-8771-d50a5f8a8d48)) showing [current quality](((66ea8e12-7c30-449b-9139-bfd8d82394d7))): In contact with object's content, whether externally or internally, the corresponding dormant intents from the past are activated into qualia and mental images in the working memory, which are cognitive intents.
+				- ((68df2ff2-cd0a-45e0-9309-969e0493404b)) driving future ((66727858-979d-4d95-8a90-7a749218cfba))s: The interaction between cognitive intents unfolds them into the empty space of possibility. This emptiness generates the [contative](https://en.wikipedia.org/wiki/Conation) intents that drive actions to fill in the void, to fulfill the potential.
 				- The experiences throughout the course of action will, in turn, be accumulated into new formative intents.
 	- ## extent
 	  id:: 66b1cfa4-3a39-4672-9da2-cd3bcef71702
