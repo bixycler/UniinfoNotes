@@ -3671,7 +3671,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- `Access-Control-Allow-Headers`
 						- `Access-Control-Expose-Headers`
 					- Third-party cookies & Safari’s ITP
-						- if the user's browser is configured to reject all third-party cookies, the `Set-Cookie` header in the response by the server would not work.
+						- If the user's browser is configured to reject all third-party cookies, the `Set-Cookie` header in the response by the server would not work.
 						- Cookie in the request may also be suppressed in normal third-party cookie policies.
 						- The enforced cookie policy may therefore nullify the capability described in this chapter, effectively preventing you from making **credentialed requests** whatsoever.
 						- Safari’s **ITP** will *not* send those cookies in iframes or AJAX if it thinks that these are “tracking” cookies, and often purges them after 7 days (sometimes 24h if set by JS).
