@@ -4979,20 +4979,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  ((66c80da7-c0e8-46d2-85e5-71318fd44eff)) ((68a7de4b-7072-4ec1-907e-5a0d9fdba859))
 		- intention
 		  id:: 66f93c78-15f5-43a7-8412-f7a5bc66e2ae
-		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((68df2f8a-3573-4776-afe3-e51cad3e3205)), ((68df2ff2-cd0a-45e0-9309-969e0493404b))
-			- op-intent
-			  id:: 68df2f8a-3573-4776-afe3-e51cad3e3205
-			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae))
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((68df2ff2-cd0a-45e0-9309-969e0493404b))
 			- operational intent
 			  id:: 68df2ff2-cd0a-45e0-9309-969e0493404b
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae))
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Intention
 		- intension
 		  id:: 66f93d8f-4fbf-4ed1-8bec-59bf92b6f2cd
-		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((68df30c8-8499-4b62-abcd-913fa4194130)), ((68df309b-c3e7-4121-895c-9c74d2359646))
-			- ob-intent
-			  id:: 68df30c8-8499-4b62-abcd-913fa4194130
-			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f93d8f-4fbf-4ed1-8bec-59bf92b6f2cd))
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((68df309b-c3e7-4121-895c-9c74d2359646))
 			- observational intent
 			  id:: 68df309b-c3e7-4121-895c-9c74d2359646
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f93d8f-4fbf-4ed1-8bec-59bf92b6f2cd))
