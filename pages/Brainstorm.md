@@ -8,6 +8,27 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
+		- DOING uninet = refinable program
+		  id:: 68df2364-c484-4ddd-b4b5-19ef90228ef4
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-10-03 Fri 08:14:14]
+		  CLOCK: [2025-10-03 Fri 08:15:06]
+		  CLOCK: [2025-10-03 Fri 08:15:08]
+		  :END:
+			- obop = if then = qualifier
+				- ob = if equal = potential = possible
+				- op = make equal = actual
+				- intensible ob vs extensible op
+			- programming paradigms have various ways to **extend the op from bottom up**: assignment, statement, function, object, ...
+			- now, uninet gives a way to **intend the ob from top down**: learn from history, take the common path to form new & more intensive intents.
+				- Through the accumulation of traces, the common naturally intensifies, the pattern naturally emerges.
+			- ANN & LLM are only learning top down, no bottom up structure, hence baseless.
+			- Refs
+				- ((68c14574-cea2-4325-a43e-d189f38522de))
+				- [intensibility](((68ac60bb-321e-44da-8f44-4f688e611d3e)))
+				-
+			-
 		- A **dynamic front** in fluids is a fold in continuity.
 		  id:: 68de2e16-6431-4e02-94b9-a8a8244cf94d
 		  collapsed:: true
@@ -58,38 +79,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- E.g.: the Western Front in 1915
 						  collapsed:: true
 							- ![Western_front_1915-16.jpg](../assets/Will/story/2025-10/Western_front_1915-16.jpg)
-		- DONE Continue with [planning](((67760c43-5cbd-4b4f-8fd9-5cedf804f56a))) to resolve [the conflict with company work](((6677b986-ada2-4c73-8a11-980cdf9cb6d4))).
-		  id:: 68663850-daa5-487e-ba48-fea228a2b188
-		  collapsed:: true
-		  :LOGBOOK:
-		  CLOCK: [2025-07-03 Thu 15:26:42]--[2025-07-03 Thu 16:33:25] =>  01:06:43
-		  CLOCK: [2025-10-01 Wed 10:50:09]--[2025-10-01 Wed 10:50:11] =>  00:00:02
-		  :END:
-			- First, plan the time of working hours.
-				- A working day should start from official works instead of personal works.
-					- This is a good strategy but difficult for me because the out-of-work thoughts from the last night will naturally continue in the morning, keeping me from focusing on other works.
-					- So, let's try using breathwork and meditation to switch the flow of thought from personal to official works.
-				- Previously, i designed a [⟪Back to Work!⟫ reminder](((67d2a63d-58de-4dbe-bbec-3ec8625737c7))) but ineffective.
-			- Second, plan the space of thoughts.
-				- Due to the ((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0)) and various deep intents, all works, including official works and even the balancing work, will trigger meta-thoughts deeply related to ((66537a44-f579-4fcc-a02b-2f32d0d409fc)). So the time planning only is not enough.
-					- My ((665379b7-e4f6-4240-8029-fd143e2230c7)) has already been supporting Unïnfo strongly: observing the intents & obops => expose them, detach them, and write them down to UniinfoNotes
-					  collapsed:: true
-						- I just flush my karma out to the Uniinfo: whatever i formulated, i'm free from it.
-						- [!] But it has not supported the official works yet!
-					- ⇒ Now, i must _**add official works** to my way_ for it to be more balanced: observing the requirements, the schedules and deadlines, etc.
-					- ⇒ [reduce self-circle](((669a5162-19e1-4c52-8888-ab7cbfe275ec))): reduce the radius of the core back to its **currently wholesome region**, instead of expanding to the distorted regions (fringe) around.
-					  id:: 686e0e73-d3cc-4250-804f-94a270b92fd9
-						- The fringe contains lots of “hairs” of tendency which attract stimuli and [awaken dormant intents](((686cc8c2-9215-4b84-840e-def48efd9447))).
-						- These “hairs” of tendency are the attitudes, emotions, feelings deep inside.
-						- Model of the fringed core
-						  collapsed:: true
-							- ![straw-raffia-placemats-with-fringe-natural.png](../assets/Will/story/2025-07/straw-raffia-placemats-with-fringe-natural.png){:width 200}
-				- **Assessment** is required for all thoughts & tasks: distance from herenow, relationship with others, degree of interest, applicable domains (personal, official, group, mankind), etc.
-			- DONE October 1st, after full 3 months, no surprise, it's been proven that planning is not for me. The [intent observation](((6889c11f-e881-432f-ba0f-876b61afc60c))) and [full engagement](((68be8447-81b0-4094-9964-1bd21e2e31e0))) are still best suited for me.
-			  :LOGBOOK:
-			  CLOCK: [2025-10-01 Wed 10:39:06]
-			  CLOCK: [2025-10-01 Wed 10:39:20]--[2025-10-01 Wed 10:49:17] =>  00:09:57
-			  :END:
 		- 🌈 The gradation of agency from passive to active
 		  id:: 68d209a0-3386-46b0-a8f2-beb94d271916
 		  collapsed:: true
@@ -656,6 +645,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- These practices are just skillful means that applies the truth into our own life.
 				- Without these skillful means, the self will still be destructed, the form and order will still be changed, but will take longer time and more sufferings.
 		- Thread theory of sound
+		  id:: 68872ffd-82c2-4612-841a-b19026fabe2a
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-07-28 Mon 15:44:46]
@@ -664,6 +654,38 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Just like ((66f40210-cca6-4d81-85e7-d0c54ef20451)) finds the deepest **common structure** in seemingly separate threads, the ear finds the deepest common cycle among frequencies – the perceived pitch. This is shown best in the complex tones [missing fundamental frequency](https://en.wikipedia.org/wiki/Missing_fundamental).
 			- Đàn bầu is played soley with [flageolet tones (pinched harmonics)](https://en.wikipedia.org/wiki/String_harmonic), which is an advanced technique on other instruments like violin, guitar, etc.
 				- The sound is pure, glassy, and floating, because it's made entirely from string harmonics – no pressed tones. That’s why the đàn bầu sounds so “airy” and “spiritual”.
+		- DONE Continue with [planning](((67760c43-5cbd-4b4f-8fd9-5cedf804f56a))) to resolve [the conflict with company work](((6677b986-ada2-4c73-8a11-980cdf9cb6d4))).
+		  id:: 68663850-daa5-487e-ba48-fea228a2b188
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-07-03 Thu 15:26:42]--[2025-07-03 Thu 16:33:25] =>  01:06:43
+		  CLOCK: [2025-10-01 Wed 10:50:09]--[2025-10-01 Wed 10:50:11] =>  00:00:02
+		  :END:
+			- First, plan the time of working hours.
+				- A working day should start from official works instead of personal works.
+					- This is a good strategy but difficult for me because the out-of-work thoughts from the last night will naturally continue in the morning, keeping me from focusing on other works.
+					- So, let's try using breathwork and meditation to switch the flow of thought from personal to official works.
+				- Previously, i designed a [⟪Back to Work!⟫ reminder](((67d2a63d-58de-4dbe-bbec-3ec8625737c7))) but ineffective.
+			- Second, plan the space of thoughts.
+				- Due to the ((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0)) and various deep intents, all works, including official works and even the balancing work, will trigger meta-thoughts deeply related to ((66537a44-f579-4fcc-a02b-2f32d0d409fc)). So the time planning only is not enough.
+					- My ((665379b7-e4f6-4240-8029-fd143e2230c7)) has already been supporting Unïnfo strongly: observing the intents & obops => expose them, detach them, and write them down to UniinfoNotes
+					  collapsed:: true
+						- I just flush my karma out to the Uniinfo: whatever i formulated, i'm free from it.
+						- [!] But it has not supported the official works yet!
+					- ⇒ Now, i must _**add official works** to my way_ for it to be more balanced: observing the requirements, the schedules and deadlines, etc.
+					- ⇒ [reduce self-circle](((669a5162-19e1-4c52-8888-ab7cbfe275ec))): reduce the radius of the core back to its **currently wholesome region**, instead of expanding to the distorted regions (fringe) around.
+					  id:: 686e0e73-d3cc-4250-804f-94a270b92fd9
+						- The fringe contains lots of “hairs” of tendency which attract stimuli and [awaken dormant intents](((686cc8c2-9215-4b84-840e-def48efd9447))).
+						- These “hairs” of tendency are the attitudes, emotions, feelings deep inside.
+						- Model of the fringed core
+						  collapsed:: true
+							- ![straw-raffia-placemats-with-fringe-natural.png](../assets/Will/story/2025-07/straw-raffia-placemats-with-fringe-natural.png){:width 200}
+				- **Assessment** is required for all thoughts & tasks: distance from herenow, relationship with others, degree of interest, applicable domains (personal, official, group, mankind), etc.
+			- DONE October 1st, after full 3 months, no surprise, it's been proven that planning is not for me. The [intent observation](((6889c11f-e881-432f-ba0f-876b61afc60c))) and [full engagement](((68be8447-81b0-4094-9964-1bd21e2e31e0))) are still best suited for me.
+			  :LOGBOOK:
+			  CLOCK: [2025-10-01 Wed 10:39:06]
+			  CLOCK: [2025-10-01 Wed 10:39:20]--[2025-10-01 Wed 10:49:17] =>  00:09:57
+			  :END:
 		- WAIT [long. ((67fcbbc6-915b-4d28-b9cf-098e916cdc86)) ⊥ ((67ed2855-1512-4db0-bc61-f714ea891106))] = [exp map](https://en.wikipedia.org/wiki/Exponential_map_(Lie_theory)) [real ⊥ imaginary]
 		  id:: 67fe23f7-3afe-4e77-be1d-fa8a15416bc3
 		  collapsed:: true

@@ -4135,6 +4135,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Last, the reviewing habit is driving me, now.
 				- The last result ([merge-squash-trim-mobile.sh](../assets/Linux/scripts/merge-squash-trim-mobile.sh)) is much simpler than the process of deriving it.
 			- 11th, position uninet relative to Turing machine and rotary system
+			  id:: 68c14574-cea2-4325-a43e-d189f38522de
 			  collapsed:: true
 				- Program (Turing machine) = [numeral/rotary system](((6846c7e1-239c-4b39-9ef4-9d2eaba17a52))) with branches and multiple radices
 				  collapsed:: true
@@ -5022,6 +5023,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- The outflow trough extending from the eye of the merging double cyclone Imelda-Humberto inspired this brainstorm: ((68de2e16-6431-4e02-94b9-a8a8244cf94d))
 					- ![DoubleHurricane-Imelda-Humberto-merged-outflow-trough-2025-10-02.png](../assets/Will/story/2025-10/DoubleHurricane-Imelda-Humberto-merged-outflow-trough-2025-10-02.png)
+			- 3rd,...
+			  collapsed:: true
+				- ((68df2364-c484-4ddd-b4b5-19ef90228ef4))
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((68dc9f21-1057-4ac0-be4c-61c9010d7f78))
