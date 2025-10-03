@@ -5026,8 +5026,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- ![DoubleHurricane-Imelda-Humberto-merged-outflow-trough-2025-10-02.png](../assets/Will/story/2025-10/DoubleHurricane-Imelda-Humberto-merged-outflow-trough-2025-10-02.png)
 			- 3rd,...
 			  collapsed:: true
-				- On the way to company, i decided to rename
-					- ((66ea4711-1392-4f5c-bea2-badc71a2fb9e))
+				- On the way to company, i decided to rename “intent–action double cone” to “perception–action double cone”
+					- ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)): ((66ea8df3-d2f3-4856-b24a-5095dd285f9b)) & ((66ea8e12-7c30-449b-9139-bfd8d82394d7)) = perception cone
 				- ((68df2364-c484-4ddd-b4b5-19ef90228ef4))
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
