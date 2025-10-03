@@ -2300,10 +2300,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) "intensive intent" + commitment -> vow (pranidhāna, a tool usually used in Mahayana)
 							- [Intention is the practice](https://www.lionsroar.com/intention-is-the-practice/)
 							  > On the Buddhist path, our intention deepens into commitment and then into vow. At that point, our intentions and our life become one.
-			- intent double cone
+			- intent triple cone
 			  id:: 68df2d82-e1d5-49c4-ac40-d45cf26f840c
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68df2d82-e1d5-49c4-ac40-d45cf26f840c)) is the part of the ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) limited within the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)), hence a structure of active ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))s, usually in the shape of a chain or a tree.
-					- Two nappes: While in everyday life, people normally focus on the operational intent cone of ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae))s, in ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)), ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)) mainly deals with the observational intent cone of ((66f93d8f-4fbf-4ed1-8bec-59bf92b6f2cd)).
+					- Three nappes: While in everyday life, people normally focus on the operational intent cone of ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae))s, in ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)), ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)) mainly deals with the observational intent cone of ((66f93d8f-4fbf-4ed1-8bec-59bf92b6f2cd)).
 			- cause–effect mirror circles
 			  id:: 6889a623-34cd-4b65-8a91-5cfdbb199b71
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6889a623-34cd-4b65-8a91-5cfdbb199b71)) is the circular ((6851578b-9b1f-4367-878f-79b0b0b9be51)), where the base of the effect cone folds back to be the base of the cause cone, forming the external ((667c0031-0a87-44c9-9e98-6d45893b095f)) through the external world. The external effect circle contacts various internal effect circles through the intent double cone, which is modularized into layers of obops in the chain of active intents. This is the mirroring mechanism between the external world and internal world (knowledge cone).
@@ -3836,7 +3836,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- From **heading** forward with hierarchical intents, to **turning** around with [equal intents](((68871ce1-eb57-4be3-ad48-45af6ccb5d49)))
 					  id:: 68882160-10b9-4bd2-998e-28efa9b215d6
 					  collapsed:: true
-						- The equalization is the transformation from the ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) with hierarchical intents to the intent circle with equal intents.
+						- The equalization is the transformation from the ((68df2d82-e1d5-49c4-ac40-d45cf26f840c)) with hierarchical intents to the intent circle with equal intents.
 						- This transformation leads to the change of the obop's operation.
 						- from view cone & [intent chain](((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))), to view circle & intent circle
 						- from primarily zoom in and secondarily turn, to primarily pan around and secondarily zoom in/out
@@ -5359,7 +5359,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- Trip inside a 3D fractal (Kleinian) {{video https://youtu.be/XIzScwydxOE}}
 				- perception double cone
 				  id:: 68df36a4-6a3e-4fc9-b44a-c8e92f62aee1
-					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68df36a4-6a3e-4fc9-b44a-c8e92f62aee1)) is the combination of ((66ea8df3-d2f3-4856-b24a-5095dd285f9b)) & ((66ea8e12-7c30-449b-9139-bfd8d82394d7)) by the ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)).
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68df36a4-6a3e-4fc9-b44a-c8e92f62aee1)), or simply “perception cone”, is the combination of ((66ea8df3-d2f3-4856-b24a-5095dd285f9b)) & ((66ea8e12-7c30-449b-9139-bfd8d82394d7)) by the ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)).
 				- intent cone
 				  id:: 66ea8dbe-042e-41fc-a07c-841dcb5a737a
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) is the ((66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe)) of the subject's self. It's the particle on the ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)) representing the subject, which receives effects from the force field of the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)) and expresses the subject's will as both external action and reaction to the objects on the screen. Because this cone is extended from the root/center of the knowledge cone, it's the condensation of the whole mass of knowledge, hence has a very strong structure (hard form) to drive the ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)). The subject may have many selves (identities) to be activated by different present cones.

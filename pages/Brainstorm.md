@@ -343,7 +343,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- The [verb version](((68a7de6e-fbe8-4fb9-8dc1-6279c066565f))) is “intending inward is parallel with extending outward”, which naturally follows the tendency of both sides.
 						- The “intending” action naturally flows “inward”, and the “extending” action naturally flows “outward”.
 					- That means they are just two sides of the same coin, which are opposite only by opposite views.
-					- Projecting this coin of duality to a cone shape, e.g. ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) or ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)), 
+					- Projecting this coin of duality to a cone shape, e.g. [intent cone](((68df2d82-e1d5-49c4-ac40-d45cf26f840c))) or ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)), 
 					  we have the [noun/adjective version](((687f7bca-3f80-4a42-93b0-2dd9996ff426))): 
 					  “the less intent, the more extent”, or “the lesser the intent, the greater the extent”.
 						- The noun/adjective version sounds paradoxical because we've fixed our view on a single direction.
