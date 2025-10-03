@@ -611,7 +611,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- The ((67f91046-34ed-4bb4-a006-db2c33aeabf7)) creates the notion of [will](https://en.wikipedia.org/wiki/Will_(philosophy)) as the internal intention of the external action.
 					  collapsed:: true
-						- The “will” is just the ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) at the tip of the ((66eaa51a-32c1-4f3a-830c-30aecb7c45a3)).
+						- The “will” is just the ((68df2d82-e1d5-49c4-ac40-d45cf26f840c)) at the tip of the ((66eaa51a-32c1-4f3a-830c-30aecb7c45a3)).
 						- ((66e7d7dd-5f88-472c-8694-beb7222929bb))
 						- Etymology of “will”: Modern English [“will” (intent, volition)](https://en.wiktionary.org/wiki/will#Etymology_2) ← Old English “\*willan, willian” ← Proto-Germanic “\*willjan” (wish, want)
 					- While the ((67f90c9f-2ee6-4265-9cb6-6a7c5091b775)) has a strong sense of direct agency, actually it's just a ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5)) of the whole ((669a5387-2a97-4311-a295-aa0afd9c4d76)).
@@ -2133,7 +2133,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- The future [light cone](https://en.wikipedia.org/wiki/Light_cone) in physics is a ((667bd931-8759-4008-8a9a-33e78a5cbdf3)).
 			- ### action cone
 			  id:: 6847e436-9a84-42c5-a853-75f6d626ed63
-			  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((66ea8dbe-042e-41fc-a07c-841dcb5a737a))
+			  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((68df36a4-6a3e-4fc9-b44a-c8e92f62aee1))
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6847e436-9a84-42c5-a853-75f6d626ed63)) is the part of ((667bd93a-cce4-4dbf-9831-725e4dffe463)) limited within the ((66c810a0-9861-4787-bdcf-1378219332be)) of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)). The cone shape is caused by the [tree structure](((667252dc-e610-4d07-bcd0-9ea6fb4499fd))) of the body which makes the action of the central operator spread out to peripherals. The tree structure of executions, like function calls in computer programs, also makes the the action spread out in time.
 		- ### actor
 		  id:: 669a26cb-50d8-4347-a5c4-7c0c3acf1211
@@ -2182,7 +2182,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 6851578b-9b1f-4367-878f-79b0b0b9be51
 		  collapsed:: true
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6851578b-9b1f-4367-878f-79b0b0b9be51)) is the ((667bef22-b272-4a7d-b613-3f1ed1a47329)) through an ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)). Because both nappes extend infinitely out to the external world, two “ends” of the double cone is connected by the ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) to form the ((6889a623-34cd-4b65-8a91-5cfdbb199b71)).
-				- Structure: ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) > ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) > ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) ⟨ ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) > ((66c8772a-9b29-45b0-b169-2fa847333e02)) < ((66727858-979d-4d95-8a90-7a749218cfba)) ⟩ < ((6847e436-9a84-42c5-a853-75f6d626ed63)) < ((667bd93a-cce4-4dbf-9831-725e4dffe463))
+				- Structure: ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) > ((68df36a4-6a3e-4fc9-b44a-c8e92f62aee1)) > ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) ⟨ ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) > ((66c8772a-9b29-45b0-b169-2fa847333e02)) < ((66727858-979d-4d95-8a90-7a749218cfba)) ⟩ < ((6847e436-9a84-42c5-a853-75f6d626ed63)) < ((667bd93a-cce4-4dbf-9831-725e4dffe463))
 					- Diagram
 					  id:: 68514e8a-899e-4ae3-9164-44058cf139fa
 						- ![CauseEffectCone](https://docs.google.com/drawings/d/e/2PACX-1vT-mk-5M1GkDtoHwER_IkMQAhi6M5N1zzScgIEaQ3BSdEPZdsSgYoSP3URUt0Q0KD0wy--7cDCzXWU8/pub?w=300)
@@ -4204,7 +4204,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  :LOGBOOK:
 						  CLOCK: [2025-07-30 Wed 14:09:41]
 						  :END:
-							- The [intent chain](((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))), like the [chain/train of thought](https://en.wikipedia.org/wiki/Train_of_thought), is modeled in Uninet Theory as the hierarchical ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) from the ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)) to the center obop, i.e. *behind the screen*.
+							- The [intent chain](((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))), like the [chain/train of thought](https://en.wikipedia.org/wiki/Train_of_thought), is modeled in Uninet Theory as the hierarchical ((68df2d82-e1d5-49c4-ac40-d45cf26f840c)) from the ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)) to the center obop, i.e. *behind the screen*.
 								- In projective geometry, the intent cone intends behind the ((68a7d179-b663-42bd-85b9-6c18be6b6c97)) toward the ((68a7d02f-7010-49b2-8dfa-a50e8b371066)).
 							- Because all intents are just accumulation of past actions (karma), like the [growth rings](https://simple.wikipedia.org/wiki/Growth_ring), the intent cone which determines how the world is seen (giving forms to object's content) is just a slice of the past reactivated.
 								- Growth rings model of intent cone
@@ -5039,7 +5039,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- From his University time, he had contemplated a lot about the 2 duals of intension/extension and form/content.
 					- When Will contemplated the ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) in 2020, he revived the [archaic word “intent”](((686cef15-5eab-44f1-b8d7-3d8a9edcfa69))) to capture the general meaning of both semantical “inten**s**ion” and volitional “inten**t**ion”. The word “intent” was chosen instead of “intension” in order to be parallel with the other 2 compoents: content–intent–extent.
 						- Actually, at first he thought that the term “intent” with general meaning was his own coinage... only to learn later that it was an archaic connotation.
-			- The verb ((68a7de4b-7072-4ec1-907e-5a0d9fdba859)) in Unïnfo has the general meaning parallel with its [noun “intent”](((687f7bca-3f80-4a42-93b0-2dd9996ff426))), as shown with the ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)): “to direct attention to and focus on a target within the subject”.
+			- The verb ((68a7de4b-7072-4ec1-907e-5a0d9fdba859)) in Unïnfo has the general meaning parallel with its [noun “intent”](((687f7bca-3f80-4a42-93b0-2dd9996ff426))), as shown with the ((68df2d82-e1d5-49c4-ac40-d45cf26f840c)): “to direct attention to and focus on a target within the subject”.
 			  id:: 68a7de6e-fbe8-4fb9-8dc1-6279c066565f
 			  collapsed:: true
 			  :LOGBOOK:
