@@ -5070,7 +5070,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :END:
 				- ((68df309b-c3e7-4121-895c-9c74d2359646)) crysallizing past experiences: The accumulation of past experiences gradually forms intension, concept, notion, which are stored in memory as dormant intents.
 				- ((3f718c7e-3449-49fa-8771-d50a5f8a8d48)) showing current quality: In contact with object's content, whether externally or internally, the corresponding dormant intents from the past are activated into qualia and mental images in the working memory, which are cognitive intents.
-				- ((68df2ff2-cd0a-45e0-9309-969e0493404b)) driving future actions: The interaction between cognitive intents unfolds them into
+				- ((68df2ff2-cd0a-45e0-9309-969e0493404b)) driving future actions: The interaction between cognitive intents unfolds them into the empty space of possibility. This emptiness generates the [contative](https://en.wikipedia.org/wiki/Conation) intents that drive actions to fill in the void, to fulfill the potential.
+				- The experiences throughout the course of action will, in turn, be accumulated into new formative intents.
 	- ## extent
 	  id:: 66b1cfa4-3a39-4672-9da2-cd3bcef71702
 	  collapsed:: true
