@@ -5053,7 +5053,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- The ambient light is “無為”: no intention, no attention, no direction
 				- It's different from the state of emptiness (infinite space) and the state of infinite consciousness.
 					- The infinite space is empty, nothing's there.
-					- The infinite consciousness merge the
+					- The infinite consciousness desolves the bodymind into the world, no separation's there.
+					- The lucid dream desolve only the self inent, leaving all other intents freely manifest themselves, usually in a space (dream) isolated from the external world.
+					- Though not as elegant as the states of emptiness and infinite consciousness, as well as other formess states, the lucid dream – like other form states – has useful function in the world and the life.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((68dc9f21-1057-4ac0-be4c-61c9010d7f78))
