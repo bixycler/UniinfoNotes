@@ -3670,7 +3670,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- `Access-Control-Allow-Methods`
 						- `Access-Control-Allow-Headers`
 						- `Access-Control-Expose-Headers`
-					- Third-party cookies & Safari’s ITP
+					- Third-party cookies & Safari's ITP
 						- If the user's browser is configured to reject all third-party cookies, the `Set-Cookie` header in the response by the server would not work.
 						- Cookie in the request may also be suppressed in normal third-party cookie policies.
 						- The enforced cookie policy may therefore nullify the capability described in this chapter, effectively preventing you from making **credentialed requests** whatsoever.
@@ -3705,11 +3705,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 										    "primary": "https://airtrip.jp"
 										  }
 										  ```
-										- These file must be accessible via a specific DNS record.
+										- These file must be publicly accessible directly (no redirect) with `Content-Type: application/json`
 									- Fork the GitHub repo [GoogleChrome/related-website-sets](https://github.com/GoogleChrome/related-website-sets), add `related_website_sets.json`, then submit a Pull Request back to the GoogleChrome's repository.
 										- The PR will trigger automated checks to ensure your JSON is correctly formatted and that the `.well-known` files exist and are valid on both domains.
 										- Once all checks pass, your RWS will be manually reviewed and, if approved, merged into the canonical list that Chrome consumes.
 									- Then, on the related sites, use the Storage Access API `document.requestStorageAccess()` to gain unprompted access to their own cross-site cookies.
+						- Safari ITP does not have a formal "Related Website Sets" mechanism like Google Chrome, but requires the use of **Storage Access API** with a user-driven request and prior interaction like a click.
 					- Preflight requests and credentials
 						- CORS-preflight requests must never include credentials.
 						- The response to a preflight request must specify `Access-Control-Allow-Credentials: true` to indicate that the actual request can be made with credentials.
