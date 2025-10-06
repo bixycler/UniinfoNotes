@@ -3677,7 +3677,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Safari’s **ITP** will *not* send those cookies in iframes or AJAX if it thinks that these are “tracking” cookies, and often purges them after 7 days (sometimes 24h if set by JS).
 						- Block 3rd-party cookies in Chrome Settings
 						  collapsed:: true
-							- ![block 3rd-party cookies in Chrome Settings](../assets/WebProgramming/block 3rd-party cookies in Chrome Settings.png)
+							- Settings screenshot
+							  collapsed:: true
+								- ![block 3rd-party cookies in Chrome Settings](../assets/WebProgramming/block 3rd-party cookies in Chrome Settings.png)
+							- `Allow related sites to see your activity in the group`
+							  > A company can define a group of sites that can use cookies to share your activity in the group. This is off in Incognito.
+								- Related Website Sets (RWS) is a way for a company to declare relationships among sites, so that browsers allow limited cross-site data access for specific purposes.
+								- [Google Privacy Sandbox](https://privacysandbox.google.com/cookies/related-website-sets)
 					- Preflight requests and credentials
 						- CORS-preflight requests must never include credentials.
 						- The response to a preflight request must specify `Access-Control-Allow-Credentials: true` to indicate that the actual request can be made with credentials.
