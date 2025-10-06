@@ -3710,7 +3710,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 										- The PR will trigger automated checks to ensure your JSON is correctly formatted and that the `.well-known` files exist and are valid on both domains.
 										- Once all checks pass, your RWS will be manually reviewed and, if approved, merged into the canonical list that Chrome consumes.
 									- Then, on the related sites, use the Storage Access API `document.requestStorageAccess()` to gain unprompted access to their own cross-site cookies.
-						- Safari ITP does not have a formal "Related Website Sets" mechanism like Google Chrome, but requires the use of **Storage Access API** with a user-driven request and prior interaction like a click.
+						- Safari ITP does not have a formal "Related Website Sets" mechanism like Google Chrome, but requires the use of **Storage Access API** always with a **user interaction** like a click.
+						- Google's RWS still requires Storage Access API `document.requestStorageAccess()`, but no user interaction is required after being granted.
 					- Preflight requests and credentials
 						- CORS-preflight requests must never include credentials.
 						- The response to a preflight request must specify `Access-Control-Allow-Credentials: true` to indicate that the actual request can be made with credentials.
