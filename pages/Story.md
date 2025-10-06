@@ -5051,7 +5051,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Then i tried to be benevolent in my sight, [don't stare at them anymore](https://creatzynotes.blogspot.com/2014/12/lan-au-ngoi-thien-nghiem-tuc-xep-bang.html)... After many years of practice, [today](((68e33ab4-06f1-435f-aa57-a1bb4386e09f))) i can observe them “behind the veil” in the lucid dreamlike state. Only with this ambient light, can i truly observe their whole life without destroying them at first sight. In other words, i don't scare them anymore!
 			- The ambient light in the state of [lucid dream](https://en.wikipedia.org/wiki/Lucid_dream)
 				- The ambient light is “無為”: no intention, no attention, no direction
-				- It's different from the state of emptiness and the state of
+				- It's different from the state of emptiness (infinite space) and the state of infinite consciousness.
+					- The infinite space is empty, nothing's there.
+					- The infinite consciousness merge the
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((68dc9f21-1057-4ac0-be4c-61c9010d7f78))
