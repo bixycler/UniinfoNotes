@@ -5032,9 +5032,23 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- ((68df2364-c484-4ddd-b4b5-19ef90228ef4))
 				- ((68dfc246-ea07-4c54-a0a4-2361f1a9055e))
 			- 6th, ...
+			  id:: 68e33ab4-06f1-435f-aa57-a1bb4386e09f
 			  collapsed:: true
 				- On the way to company, i wondered “what's the diff between my current way of intent observation and the ghost-killing light at the beginning of my liberation journey?”
-				- In the morning meditation at the riverside, through the dreamy experience, i recognized that such a dreamlike state is the liberation, the difference from the narrow spotlight with high intensity and destroying energy like laser of the ghost-killing light earlier.
+				- In the morning meditation at the riverside, through the dreamy experience, i recognized that such a dreamlike state is the liberation, the [difference from the narrow spotlight](((68e347d0-d515-42b2-a504-836f7985a597))) with high intensity and destroying energy like laser of the ghost-killing light earlier.
+				  id:: 68e33ab7-a407-4ee3-8c50-e3700bde0220
+		- DOING Killing light vs healing light
+		  id:: 68e347d0-d515-42b2-a504-836f7985a597
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-10-06 Mon 11:38:42]
+		  CLOCK: [2025-10-06 Mon 11:38:45]
+		  :END:
+			- Will's story of transformation from the spotlight of judgment to the ambient light of compassion
+				- For me, with no scare of darkness, i “host” many ghosts inside and i can feel their scare of light: darkness is their environment, their food, when being pulled out to light, they lose energy, paralyzed, then disappear.
+				- At first, i shone a narrow spotlight to them... with no intent of killing them, only tended to investigate them, but then i discovered that with only the light of consciousness, i can “resolve” them, the problems (caused by them) are gone simply with observation. That's a wonderful magic!
+				- However, later on, i learned that the problems were not resolved completely, rather just disappeared and hid deeper, and some even get stronger in the dark. It's taught me that such a “laser beam” with high intensity and destroying energy is so cruel to them, not the way to resolve.
+				- Then i tried to be benevolent in my sight, don't stare at them anymore... After many years of practice, [today](((68e33ab4-06f1-435f-aa57-a1bb4386e09f))) i can observe them “behind the veil” in the dreamlike state. Only with this ambient light, can i truly observe their whole life without destroying them at first sight. In other words, i don't scare them anymore!
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((68dc9f21-1057-4ac0-be4c-61c9010d7f78))

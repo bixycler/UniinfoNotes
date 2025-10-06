@@ -9,13 +9,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
-		- DOING Killing light vs healing light
-		  collapsed:: true
-		  :LOGBOOK:
-		  CLOCK: [2025-10-06 Mon 11:38:42]
-		  CLOCK: [2025-10-06 Mon 11:38:45]
-		  :END:
-			- Will's story
 		- DOING uninet = refinable program
 		  id:: 68df2364-c484-4ddd-b4b5-19ef90228ef4
 		  collapsed:: true
