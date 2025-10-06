@@ -5033,7 +5033,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- ((68dfc246-ea07-4c54-a0a4-2361f1a9055e))
 			- 6th, ...
 			  collapsed:: true
-				- In the morning meditation at the riverside, through the dreamy experience, i recognized that
+				- On the way to company, i wondered “what's the diff between my current way of intent observation and the ghost-chase-out light at the beginning of my liberation journey?”
+				- In the morning meditation at the riverside, through the dreamy experience, i recognized that such a dreamlike state is the liberation, the difference from the narrow spotlight with high intensity and distroying energy like lazer of the ghost-chase-out light earlier.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((68dc9f21-1057-4ac0-be4c-61c9010d7f78))
