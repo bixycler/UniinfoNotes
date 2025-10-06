@@ -5044,7 +5044,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  CLOCK: [2025-10-06 Mon 11:38:42]
 		  CLOCK: [2025-10-06 Mon 11:38:45]
 		  :END:
-			- Will's story of transformation from the spotlight of judgment to the ambient light of compassion
+			- Will's story of transformation from the **spotlight of judgment** to the **ambient light of compassion**
 				- For me, with no scare of darkness, i “host” many ghosts inside and i can feel their scare of light: darkness is their environment, their food, when being pulled out to light, they lose energy, paralyzed, then disappear.
 				- At first, i shone a narrow spotlight to them... with no intent of killing them, only tended to investigate them, but then i discovered that with only the light of consciousness, i can “resolve” them, the problems (caused by them) are gone simply with observation. That's a wonderful magic!
 				- However, later on, i learned that the problems were not resolved completely, rather just disappeared and hid deeper, and some even get stronger in the dark. It's taught me that such a “laser beam” with high intensity and destroying energy is so cruel to them, not the way to resolve.
