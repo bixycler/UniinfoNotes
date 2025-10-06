@@ -5051,11 +5051,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Then i tried to be benevolent in my sight, [don't stare at them anymore](https://creatzynotes.blogspot.com/2014/12/lan-au-ngoi-thien-nghiem-tuc-xep-bang.html)... After many years of practice, [today](((68e33ab4-06f1-435f-aa57-a1bb4386e09f))) i can observe them “behind the veil” in the lucid dreamlike state. Only with this ambient light, can i truly observe their whole life without destroying them at first sight. In other words, i don't scare them anymore!
 			- The ambient light in the state of [lucid dream](https://en.wikipedia.org/wiki/Lucid_dream)
 				- The ambient light is “無為”: no intention, no attention, no direction
+				- The ambient light just withdraws from the control of all intents, while still lets them play [before the eye](((68898917-e61f-4d23-9124-474efa9a9eee))) intead of killing them.
+				- UnInstead of cleaning the intents with concentration, i.e. replacing all intents with a single intent, like
 				- It's different from the state of emptiness (infinite space) and the state of infinite consciousness.
 					- The infinite space is empty, nothing's there.
 					- The infinite consciousness desolves the bodymind into the world, no separation's there.
 					- The lucid dream desolve only the self inent, leaving all other intents freely manifest themselves, usually in a space (dream) isolated from the external world.
-					- Though not as elegant as the states of emptiness and infinite consciousness, as well as other formess states, the lucid dream – like other form states – has useful function in the world and the life.
+					- Though not as elegant as the states of emptiness and infinite consciousness, as well as other formess states, the lucid dream – like other form states – has a useful function in the world and the life: liberated from intents while still let them function in daily life.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((68dc9f21-1057-4ac0-be4c-61c9010d7f78))
