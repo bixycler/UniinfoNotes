@@ -3685,8 +3685,29 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- [Google Privacy Sandbox](https://privacysandbox.google.com/cookies/related-website-sets): Related Website Sets (RWS) is a way for a company to declare relationships among sites, so that browsers allow limited cross-site data access for specific purposes.
 								- [RWS Submission Guidelines](https://github.com/GoogleChrome/related-website-sets/blob/main/RWS-Submission_Guidelines.md)
 									- An organization must designate a single **"Set Primary"** domain (the main site) and list all other related **"Set Members"** in a JSON file.
-									- This file must be hosted at a specific, well-known path on the primary domain and must also be accessible via a specific DNS record.
-									- The company then submits their RWS to a publicly-accessible GitHub repository managed by a third party. Chrome retrieves these sets periodically to enforce the defined relationships. This public list allows for transparency and review.
+										- `https://airtrip.jp/.well-known/related-website-set.json`
+										  ```json
+										  {
+										    "primary": "https://airtrip.jp",
+										    "associatedSites": [
+										      "https://skygate.co.jp"
+										    ],
+										    "serviceSites": [],
+										    "rationaleBySite": {
+										      "https://airtrip.jp": "The primary site.",
+										      "https://skygate.co.jp": "Allows for single sign-on (SSO) with the primary domain for a cohesive user experience across our applications."
+										    }
+										  }
+										  ```
+										- `https://skygate.co.jp/.well-known/related-website-set.json`
+										  ```json
+										  {
+										    "primary": "https://airtrip.jp"
+										  }
+										  ```
+										- These file must be accessible via a specific DNS record.
+									- The company then submits their RWS to a publicly-accessible GitHub repository managed by a third party.
+									- Chrome retrieves these sets periodically to enforce the defined relationships. This public list allows for transparency and review.
 					- Preflight requests and credentials
 						- CORS-preflight requests must never include credentials.
 						- The response to a preflight request must specify `Access-Control-Allow-Credentials: true` to indicate that the actual request can be made with credentials.
