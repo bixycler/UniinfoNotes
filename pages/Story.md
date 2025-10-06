@@ -5037,12 +5037,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- On the way to company, i wondered “what's the diff between my current way of intent observation and the ghost-killing light at the beginning of my liberation journey?”
 				- In the morning meditation at the riverside, through the dreamy experience, i recognized that such a dreamlike state is the liberation, the [difference from the narrow spotlight](((68e347d0-d515-42b2-a504-836f7985a597))) with high intensity and destroying energy like laser of the ghost-killing light earlier.
 				  id:: 68e33ab7-a407-4ee3-8c50-e3700bde0220
-		- DOING Killing light vs healing light
+		- Killing light vs healing light
 		  id:: 68e347d0-d515-42b2-a504-836f7985a597
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-10-06 Mon 11:38:42]
-		  CLOCK: [2025-10-06 Mon 11:38:45]
+		  CLOCK: [2025-10-06 Mon 11:38:45]--[2025-10-06 Mon 13:04:07] =>  01:25:22
 		  :END:
 			- Will's story of transformation from the **spotlight of judgment** to the **ambient light of compassion**
 				- For me, with no scare of darkness, i “host” many ghosts inside and i can feel their scare of light: darkness is their environment, their food, when being pulled out to light, they lose energy, paralyzed, then disappear.
@@ -5052,8 +5052,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- The ambient light in the state of [lucid dream](https://en.wikipedia.org/wiki/Lucid_dream)
 				- The ambient light is “無為”: no intention, no attention, no direction
 				- The ambient light just withdraws from the control of all intents, while still lets them play [before the eye](((68898917-e61f-4d23-9124-474efa9a9eee))) intead of killing them.
-				- UnInstead of cleaning the intents with concentration, i.e. replacing all intents with a single intent, like
-				- It's different from the state of emptiness (infinite space) and the state of infinite consciousness.
+					- This is different from other states of form meditation, where the intents are cleaned with concentration, i.e. all intents are replaced with a single intent.
+				- It's also different from the state of emptiness (infinite space) and the state of infinite consciousness.
 					- The infinite space is empty, nothing's there.
 					- The infinite consciousness desolves the bodymind into the world, no separation's there.
 					- The lucid dream desolve only the self inent, leaving all other intents freely manifest themselves, usually in a space (dream) isolated from the external world.
