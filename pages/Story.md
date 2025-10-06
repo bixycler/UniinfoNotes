@@ -3706,8 +3706,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 										  }
 										  ```
 										- These file must be accessible via a specific DNS record.
-									- The company then submits their RWS to a publicly-accessible GitHub repository managed by a third party.
-									- Chrome retrieves these sets periodically to enforce the defined relationships. This public list allows for transparency and review.
+									- Fork the GitHub repo [GoogleChrome/related-website-sets](https://github.com/GoogleChrome/related-website-sets), add `related_website_sets.json`, then submit a Pull Request back to the GoogleChrome's repository.
+										- The PR will trigger automated checks to ensure your JSON is correctly formatted and that the `.well-known` files exist and are valid on both domains.
+										- Once all checks pass, your RWS will be manually reviewed and, if approved, merged into the canonical list that Chrome consumes.
+									- Then, on the related sites, use the Storage Access API `document.requestStorageAccess()` to gain unprompted access to their own cross-site cookies.
 					- Preflight requests and credentials
 						- CORS-preflight requests must never include credentials.
 						- The response to a preflight request must specify `Access-Control-Allow-Credentials: true` to indicate that the actual request can be made with credentials.
