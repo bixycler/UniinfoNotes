@@ -20,7 +20,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- The replicative approach is always simpler and easier for both teacher and learner, provided a **large amount of explicit knowledge** (big data).
 				- But at its core, it's limited by its own training data.
 			- Currently, LLM fine tuning, i.e. secondary training after pre-training, is usually done with [RLHF](https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback) (RL from human feedback).
-			-
+			- Effect circles
+				- Effect circle of RL: (previous reward, state) → Agent (action model) → action → Environment → Interpreter → (reward, next state)
+				- Effect circle of LLM: (previous match/mismatch with training text, current text) → Predictor → next token → (reward = match/mismatch, next state = current text + next token)
+				- The key difference is the _**Environment** which is a **blackbox**_
 			- Ref: [Basics of Reinforcement Learning for LLMs](https://cameronrwolfe.substack.com/p/basics-of-reinforcement-learning)
 			- Examples of AI models trained exclusively through the RL loop
 				- DeepMind's models (AlphaGo, AlphaZero, MuZero) learned to master Chess, Shogi, and Go (and later other complex planning domains) **entirely through self-play**, starting with no human knowledge except the basic rules.
