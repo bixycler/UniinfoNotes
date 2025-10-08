@@ -9,13 +9,18 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
-		- DOING Reinforcement learning (RL) is currently the AI approach closest to uninet's effect circle.
+		- [Reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning) (RL) is currently the AI approach closest to uninet's effect circle.
 		  id:: 68e6334c-6b4c-487f-8999-24940497245f
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-10-08 Wed 16:47:58]
-		  CLOCK: [2025-10-08 Wed 16:48:00]
+		  CLOCK: [2025-10-08 Wed 16:48:00]--[2025-10-08 Wed 17:16:17] =>  00:28:17
 		  :END:
+			- The current LLMs are pre-trained with supervised learning, which is just a learning-by-heart, making them replicas of human mind, better in mimicking and imitation than thinking by themselves.
+				- The replicative approach is always simpler and easier for both teacher and learner, provided a **large amount of explicit knowledge** (big data).
+				- But at its core, it's limited by its own training data.
+			- Currently, LLM fine tuning, i.e. secondary training after pre-training, is usually done with [RLHF](https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback) (RL from human feedback).
+			-
 			- Ref: [Basics of Reinforcement Learning for LLMs](https://cameronrwolfe.substack.com/p/basics-of-reinforcement-learning)
 			- Examples of AI models trained exclusively through the RL loop
 				- DeepMind's models (AlphaGo, AlphaZero, MuZero) learned to master Chess, Shogi, and Go (and later other complex planning domains) **entirely through self-play**, starting with no human knowledge except the basic rules.
