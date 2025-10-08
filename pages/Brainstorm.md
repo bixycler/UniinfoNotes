@@ -33,7 +33,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- They use a powerful RL algorithm combined with Monte Carlo Tree Search (MCTS).
 				- Deep RL in **Robotics**: Many of the most advanced robotic control systems are trained entirely in simulation using RL.
 					- The agent (the robot's controller) is placed in a simulated physical environment and must learn to walk, grasp, or manipulate objects solely through the reward signal
-					- [FABRIK chain](((68c8c9e1-2b4d-4de7-b48a-2aaabab3af5c))), the ancestor of uninet's effect circle, is in deed very much robotic! 😊
+					- [FABRIK chain](((68c8c9e1-2b4d-4de7-b48a-2aaabab3af5c))), the ancestor of uninet's effect circle, is indeed very much robotic! 😊
 		- DOING uninet = refinable program
 		  id:: 68df2364-c484-4ddd-b4b5-19ef90228ef4
 		  collapsed:: true
