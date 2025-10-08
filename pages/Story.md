@@ -5074,6 +5074,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- On the way to company, i wondered “what's the diff between my current way of intent observation and the ghost-killing light at the beginning of my liberation journey?”
 				- In the morning meditation at the riverside, through the dreamy experience, i recognized that such a dreamlike state is the liberation, the [difference from the narrow spotlight](((68e347d0-d515-42b2-a504-836f7985a597))) with high intensity and destroying energy like laser of the ghost-killing light earlier.
 				  id:: 68e33ab7-a407-4ee3-8c50-e3700bde0220
+			- 8th,...
+			  collapsed:: true
+				- ((68e6334c-6b4c-487f-8999-24940497245f))
 		- Killing light vs healing light
 		  id:: 68e347d0-d515-42b2-a504-836f7985a597
 		  collapsed:: true
@@ -5098,5 +5101,4 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((68dc9f21-1057-4ac0-be4c-61c9010d7f78))
-		- ((68d9f101-7c97-4292-9c4c-52944f1d4a3e))
 		- ...
