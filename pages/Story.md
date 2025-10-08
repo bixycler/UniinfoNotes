@@ -5077,6 +5077,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 8th,...
 			  collapsed:: true
 				- ((68e6334c-6b4c-487f-8999-24940497245f))
+				- [Prompting Guide](https://www.promptingguide.ai/techniques): Chain of Thought (CoT), Tree of Thought (GoT), Graph of Thought (GoT), Prompt Chaining, Retrieval Augmented Generation (RAG), Reflexion
 		- Killing light vs healing light
 		  id:: 68e347d0-d515-42b2-a504-836f7985a597
 		  collapsed:: true
