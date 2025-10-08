@@ -16,7 +16,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  CLOCK: [2025-10-08 Wed 16:47:58]
 		  CLOCK: [2025-10-08 Wed 16:48:00]--[2025-10-08 Wed 17:16:17] =>  00:28:17
 		  :END:
-			- The current LLMs are pre-trained with supervised learning, which is just a learning-by-heart, making them replicas of human mind, better in mimicking and imitation than thinking by themselves.
+			- The current LLMs are pre-trained with supervised learning (SL), which is just a learning-by-heart, making them replicas of human mind, better in mimicking and imitation than thinking by themselves.
 				- The replicative approach is always simpler and easier for both teacher and learner, provided a **large amount of explicit knowledge** (big data).
 				- But at its core, it's limited by its own training data.
 			- Currently, LLM fine tuning, i.e. secondary training after pre-training, is usually done with [RLHF](https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback) (RL from human feedback).
@@ -26,13 +26,14 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- The Actor–Critic Architecture of the Agent is similar to the ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)).
 				- Effect circle of LLM: (previous match/mismatch with training text, current text) → Predictor → next token → (reward = match/mismatch, next state = current text + next token)
 				- The key difference is the **blackbox Environment** which enforces forward propagation of effect, disabling the backpropagation of ANN.
-				-
+				- The secondary difference is the dese reward of SL vs **sparse reward** of RL.
 			- Ref: [Basics of Reinforcement Learning for LLMs](https://cameronrwolfe.substack.com/p/basics-of-reinforcement-learning)
 			- Examples of AI models trained exclusively through the RL loop
 				- DeepMind's models (AlphaGo, AlphaZero, MuZero) learned to master Chess, Shogi, and Go (and later other complex planning domains) **entirely through self-play**, starting with no human knowledge except the basic rules.
 					- They use a powerful RL algorithm combined with Monte Carlo Tree Search (MCTS).
 				- Deep RL in **Robotics**: Many of the most advanced robotic control systems are trained entirely in simulation using RL.
 					- The agent (the robot's controller) is placed in a simulated physical environment and must learn to walk, grasp, or manipulate objects solely through the reward signal
+					- [FABRIK chain](((68c8c9e1-2b4d-4de7-b48a-2aaabab3af5c))), the ancestor of uninet's effect circle, is in deed very much robotic! 😊
 		- DOING uninet = refinable program
 		  id:: 68df2364-c484-4ddd-b4b5-19ef90228ef4
 		  collapsed:: true
