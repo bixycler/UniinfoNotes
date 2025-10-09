@@ -752,4 +752,6 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- ...
 		- ((68df2d82-e1d5-49c4-ac40-d45cf26f840c))
-		-
+		- The complement of the object is in the subject
+			- only the hot (subject) can feel the cold (object)
+			- The imbalance is caused by the partial view which is the ignorance of the object's complement in the subject.
