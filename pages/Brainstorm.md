@@ -390,6 +390,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Khi chỉ thấy niềm vui, ta đang đánh mất chính mình trong mong manh, hãy quay về với cái toàn thể bền vững hơn ở bên trong;
 				- Khi chỉ cảm thấy buồn đau, ta đang chìm đắm trong cực đoan, hãy quay về tìm sự cân bằng ổn định ở bên trong.
 				- Sao lại bên trong? Vì chỉ có nỗi buồn mới biết được thế nào là vui, và chỉ có niềm vui mới cảm nhận được nỗi buồn – mình, chính mình là chủ thể của những cảm nhận đó là nửa còn lại bị thiếu sót.
+			- The imbalance is caused by the partial view which is the ignorance of the object's complement in the subject.
+				-
 		- “Every empty point is the whole world, the whole life!”
 		  id:: 68b79197-1244-4b42-b79f-464cfc8433a1
 		  collapsed:: true
@@ -423,7 +425,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- That means all properties are expressions of corresponding intents in the subject, hence no property is absolutely intrinsic to the object.
 						- Quality: The colors (hues) are not intrinsic to the light, but are resulted from the combination of the extents of red, green and blue [cone cells](https://en.wikipedia.org/wiki/Cone_cell) in the human eye.
 						- Quantity: In the same room, a person with reference temperature lower than the room temperature feels “it's hot”, while another one with reference temperature higher than the room temperature feels “it's cold”.
-							- The paradoxical behavior of undressing in [terminal burrowing](https://en.wikipedia.org/wiki/Hypothermia#Terminal_burrowing) in the final stage of hypothermia is due to the subjective
+							- The paradoxical behavior of undressing in [terminal burrowing](https://en.wikipedia.org/wiki/Hypothermia#Terminal_burrowing) in the final stage of hypothermia is due to the subjective experience of “hot flash” in such freezing environments.
 					- However, a property can be [relatively](((6728aa9a-9fb2-4afa-864f-0eb049ac771b))) *more intrinsic* than another, when its dual – the corresponding intent – is *deeper* in the subject, hence more *obscure*.
 					- An extrinsic property is called “attribute”, which is attributed by the subject with a clear intent.
 						- Here, the extent is expressed as degree, intensity, gradation, strength, level, grade of the attribute.
