@@ -187,24 +187,6 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 			- ((67715dbd-5ba6-4fc8-bd3e-5fab97885ae7)) & ((67760c43-58c6-40eb-b874-40afae448966))
 		- ((671b29b6-68f7-47e1-b79c-f4d6284690a2))
 		- ((66e3c1b8-eb83-47d6-b71e-193549b47f93))
-		- symbols/signs for ((66c8941d-6427-4e5c-9009-3af349500d7b))
-		  id:: 684f951a-bbd6-4b6c-a59d-c7d677e965e8
-		  :LOGBOOK:
-		  CLOCK: [2024-08-23 Fri 12:16:21]
-		  CLOCK: [2025-10-09 Thu 15:27:05]
-		  :END:
-			- `<>`: opposite, dual
-				- `⬖`: left solid – right hollow
-				- `⬗`: left hollow – right solid
-				- The two halves represents yin & yang in `☯`.
-			- `=/=`: yin `⚋` (broken) and yang `⚊` (solid) intertwining together
-				- ![ComplementaryRelationSymbol](https://docs.google.com/drawings/d/e/2PACX-1vRkHdUZGJfynY1Uqq99mDK8tKxh60HuKarUb_h9-KY3xGN5amZBsrpqBrC10PZ3ZBLbSZSZsv9GVEl6/pub?w=120)
-				- The yin line is ***apparently* broken** just because it's lying under the yang line, hence its cross is **hidden**.
-				- The symbol is just the crossing part, i.e. the obop, of the whole double circle ([Möbius strip](https://en.wikipedia.org/wiki/M%C3%B6bius_strip))
-					- ![ComplementaryRelationCircle](https://docs.google.com/drawings/d/e/2PACX-1vSi8lyXiZkRegI5YPfEL2kwzd8bwcXWucYlfC3mEs_wla3LgcBNXR1h_wgeathrLaLZ6fjqPEa7ryhk/pub?w=240)
-				- That means the symbol is a local linearization of the global unity of duals.
-				- This symbol also resembles `≠`, but it replaces negation/separation with connectivity.
-				- It can be reverted to `=\=` to change direction in relation.
 		- WAIT view, projection, effect flow via wave propagation across a ((66c810a0-9861-4787-bdcf-1378219332be))
 		  :LOGBOOK:
 		  CLOCK: [2024-08-23 Fri 12:16:32]
