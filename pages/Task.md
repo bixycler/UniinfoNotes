@@ -194,8 +194,9 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 		  CLOCK: [2025-10-09 Thu 15:27:05]
 		  :END:
 			- `<>`: opposite
-			- `=/=`
-				-
+			- `=/=`: yin `⚋` (broken) and yang `⚊` (solid) intertwining together
+				- ![ComplementaryRelationSymbol](https://docs.google.com/drawings/d/e/2PACX-1vRkHdUZGJfynY1Uqq99mDK8tKxh60HuKarUb_h9-KY3xGN5amZBsrpqBrC10PZ3ZBLbSZSZsv9GVEl6/pub?w=120)
+				- This symbol also resembles
 		- WAIT view, projection, effect flow via wave propagation across a ((66c810a0-9861-4787-bdcf-1378219332be))
 		  :LOGBOOK:
 		  CLOCK: [2024-08-23 Fri 12:16:32]
