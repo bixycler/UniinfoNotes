@@ -195,7 +195,7 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 		  :END:
 			- `<>`: opposite
 			- `=/=`
-			-
+				-
 		- WAIT view, projection, effect flow via wave propagation across a ((66c810a0-9861-4787-bdcf-1378219332be))
 		  :LOGBOOK:
 		  CLOCK: [2024-08-23 Fri 12:16:32]
