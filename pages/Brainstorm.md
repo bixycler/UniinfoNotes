@@ -415,11 +415,13 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- the “living substance” is the mediator between the static and the dynamic, between the parts and the whole, the integrator of the whole.
 						- In Hegelian dialectic, the integrativity of the subject is [modeled as the full circle of negation](((68b7a9cd-4d53-4961-a386-37d869aee926))), i.e. the Negation of Negation, carried out by reflection from the object (the “other”).
 				- property = dual of intent = external expression of intent on object
+				  id:: 68e71a17-a2c3-46fd-8c37-a82f61a8ed63
 				  collapsed:: true
 					- Duality: property (quality, quantity) ⬗ intent (dimension, reference point)
 					- ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)): Any **property** of an object is determined by an **intent** of the subject.
 						- Measurement: The **value** of the property is the **extent** of the object's content relative to the _**reference point** of the intent_, which is called by many names: neutral point, standard, origin, center, baseline.
 					- That means all properties are expressions of corresponding intents in the subject, hence no property is absolutely intrinsic to the object.
+						-
 					- However, a property can be [relatively](((6728aa9a-9fb2-4afa-864f-0eb049ac771b))) *more intrinsic* than another, when its dual – the corresponding intent – is *deeper* in the subject, hence more *obscure*.
 					- An extrinsic property is called “attribute”, which is attributed by the subject with a clear intent.
 						- Here, the extent is expressed as degree, intensity, gradation, strength, level, grade of the attribute.
