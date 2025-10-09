@@ -421,7 +421,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)): Any **property** of an object is determined by an **intent** of the subject.
 						- Measurement: The **value** of the property is the **extent** of the object's content relative to the _**reference point** of the intent_, which is called by many names: neutral point, standard, origin, center, baseline.
 					- That means all properties are expressions of corresponding intents in the subject, hence no property is absolutely intrinsic to the object.
-						-
+						- Quality: The colors (hues) are not intrinsic to the light, but are resulted from the combination of the extents of red, green and blue [cone cells](https://en.wikipedia.org/wiki/Cone_cell) in the human eye.
+						- Quantity: In the same room, at the same temperature,
 					- However, a property can be [relatively](((6728aa9a-9fb2-4afa-864f-0eb049ac771b))) *more intrinsic* than another, when its dual – the corresponding intent – is *deeper* in the subject, hence more *obscure*.
 					- An extrinsic property is called “attribute”, which is attributed by the subject with a clear intent.
 						- Here, the extent is expressed as degree, intensity, gradation, strength, level, grade of the attribute.
