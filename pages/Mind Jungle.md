@@ -817,7 +817,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66c8941d-6427-4e5c-9009-3af349500d7b))
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Duality_(mathematics)
 		- Symbols:
-			- `☯`
+			- `☯` [taijitu](https://en.wikipedia.org/wiki/Taijitu)
 	- ## vector
 	  id:: 667d16f8-206e-4a85-80f3-24c2aa1bf4ad
 	  collapsed:: true
