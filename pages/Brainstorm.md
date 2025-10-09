@@ -422,8 +422,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- However, a property can be [relatively](((6728aa9a-9fb2-4afa-864f-0eb049ac771b))) *more intrinsic* than another, when its dual – the corresponding intent – is *deeper* in the subject, hence more *obscure*.
 					- An extrinsic property is called “attribute”, which is attributed by the subject with a clear intent.
 						- Here, the extent is expressed as degree, intensity, gradation, strength, level, grade of the attribute.
-					- In ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)),
-					-
+					- In ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)), each intent defines a ((671e0b94-9907-43bf-993d-d1aabec46e01)) of the ((675c03d8-3185-41a8-9f98-e869fabec793)), which is expressed as a dimension in the space of possibilities.
+						- Here, extent is the measurement, magnitude, amount, quantity in a particular dimension.
 			- The paradox of “the zero intent has infinite extent” is due to the **invisibility** of the complement [behind the eye](((68a520bf-adba-4d78-9e3d-5f41de9f8153))) – the subject and its intents.
 			  collapsed:: true
 				- This inverse variation becomes paradoxical only when the crutial role of the subject, the hidden one standing behind the scene, is forgotten.
