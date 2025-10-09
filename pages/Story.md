@@ -5071,6 +5071,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 9th, ...
 			  collapsed:: true
 				- ((684f951a-bbd6-4b6c-a59d-c7d677e965e8))
+				- Clarify that ((68e71355-f954-4c34-b7cc-009d32b6c7e0))
 		- Killing light vs healing light
 		  id:: 68e347d0-d515-42b2-a504-836f7985a597
 		  collapsed:: true

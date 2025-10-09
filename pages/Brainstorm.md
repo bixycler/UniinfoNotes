@@ -391,9 +391,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Khi chỉ cảm thấy buồn đau, ta đang chìm đắm trong cực đoan, hãy quay về tìm sự cân bằng ổn định ở bên trong.
 				- Sao lại bên trong? Vì chỉ có nỗi buồn mới biết được thế nào là vui, và chỉ có niềm vui mới cảm nhận được nỗi buồn – mình, chính mình là chủ thể của những cảm nhận đó là nửa còn lại bị thiếu sót.
 			- The [imbalance](((68ba49d7-6048-4d97-9fc1-cd573165db5f))) is caused by the **partial view** which is the *ignorance of the object's complement in the subject*.
+			  id:: 68e71355-f954-4c34-b7cc-009d32b6c7e0
 				- The imbalance drives action through the [hidden intents behind the eyes](((68a520bf-adba-4d78-9e3d-5f41de9f8153))) and the restoring force toward the balance.
 				- However, with fixed intents, the restored balance is unstable and dependent on external objects.
-				- Seeing our own intents as an insep
+				- Seeing our own intents as an inseparable dual of the objects in experience, we see the whole which is always in balance, then we can effectively restore the balace by adjusting both objects and intents.
 		- “Every empty point is the whole world, the whole life!”
 		  id:: 68b79197-1244-4b42-b79f-464cfc8433a1
 		  collapsed:: true
