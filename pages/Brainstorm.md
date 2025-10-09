@@ -390,8 +390,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Khi chỉ thấy niềm vui, ta đang đánh mất chính mình trong mong manh, hãy quay về với cái toàn thể bền vững hơn ở bên trong;
 				- Khi chỉ cảm thấy buồn đau, ta đang chìm đắm trong cực đoan, hãy quay về tìm sự cân bằng ổn định ở bên trong.
 				- Sao lại bên trong? Vì chỉ có nỗi buồn mới biết được thế nào là vui, và chỉ có niềm vui mới cảm nhận được nỗi buồn – mình, chính mình là chủ thể của những cảm nhận đó là nửa còn lại bị thiếu sót.
-			- The imbalance is caused by the partial view which is the ignorance of the object's complement in the subject.
-				-
+			- The [imbalance](((68ba49d7-6048-4d97-9fc1-cd573165db5f))) is caused by the **partial view** which is the *ignorance of the object's complement in the subject*.
+				- The imbalance drives action through the [hidden intents behind the eyes](((68a520bf-adba-4d78-9e3d-5f41de9f8153))) and the restoring force toward the balance.
+				- However, with fixed intents, the restored balance is unstable and dependent on external objects.
+				- Seeing our own intents as an insep
 		- “Every empty point is the whole world, the whole life!”
 		  id:: 68b79197-1244-4b42-b79f-464cfc8433a1
 		  collapsed:: true
@@ -481,7 +483,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- The large content is mostly composed of our intents internally,
 						- which is in the shape of a chain in task performing activities,
 						- or just a mess of intents when we're overloaded & agitated.
-					- In the [opaque vision](((68ba3dfc-1209-45e2-b8db-fb829bc10c62))) of everyday life, all these intents are continuously pushing us behind our eyes, forcing use to think, to talk, to do things after things nonstop.
+					- In the [opaque vision](((68ba3dfc-1209-45e2-b8db-fb829bc10c62))) of everyday life, all these intents are continuously pushing us [behind our eyes](((68a520bf-adba-4d78-9e3d-5f41de9f8153))), forcing use to think, to talk, to do things after things nonstop.
 					- This [intent pressure](((68b19896-8640-4e28-9c7f-f7ca41d1e680))) is what we call “engergy” (eustress) and “stress” (disstress).
 				- Keeping balance with a large content is much more difficult than with a small content.
 					- This is what i descibed as “walking on a thin line in mid-air” in [this blog](https://creatzynotes.blogspot.com/2021/03/3-cap-o-inh.html).
