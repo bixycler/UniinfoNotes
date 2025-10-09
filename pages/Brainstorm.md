@@ -416,7 +416,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- In Hegelian dialectic, the integrativity of the subject is [modeled as the full circle of negation](((68b7a9cd-4d53-4961-a386-37d869aee926))), i.e. the Negation of Negation, carried out by reflection from the object (the “other”).
 				- property = dual of intent
 				  collapsed:: true
-					- ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)): Any **property** of an object is an **extent** resulting from the measurement of the object's content by the subject's **intent**.
+					- ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)): Any **property** of an object is determined by an **intent** of the subject.
+						- The **value** of the property is the **extent** resulting from the measurement of the object's content.
 					-
 			- The paradox of “the zero intent has infinite extent” is due to the **invisibility** of the complement [behind the eye](((68a520bf-adba-4d78-9e3d-5f41de9f8153))) – the subject and its intents.
 			  collapsed:: true
