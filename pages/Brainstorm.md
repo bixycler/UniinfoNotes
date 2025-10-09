@@ -417,7 +417,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- property = dual of intent
 				  collapsed:: true
 					- ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)): Any **property** of an object is determined by an **intent** of the subject.
-						- The **value** of the property is the **extent** resulting from the measurement of the object's content.
+						- Measurement: The **value** of the property is the **extent** of the object's content relative to the _**reference point** of the intent_, which is called by many names: neutral point, standard, origin, center, baseline.
 					-
 			- The paradox of “the zero intent has infinite extent” is due to the **invisibility** of the complement [behind the eye](((68a520bf-adba-4d78-9e3d-5f41de9f8153))) – the subject and its intents.
 			  collapsed:: true
