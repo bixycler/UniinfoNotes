@@ -375,7 +375,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- The noun/adjective version sounds paradoxical because we've fixed our view on a single direction.
 				- 3. Law of Inverse Variation between Intension and Extension (Logic & Semantics)
 					- This [key principle in logic & semantics](https://philosophy.institute/logic/inverse-variation-principle-logic-extension-intension/) relates [intension and extension](https://en.wikipedia.org/wiki/Intension) – the two complements of a word.
-		- The role of the subject in all experiences via subject–object complementarity
+		- The role of the subject in all experiences via ((68e719d7-a5ea-469e-bf8a-44251dd8948a))
 		  id:: 68e7152a-b431-42e9-b97f-c2094e04ce86
 		  collapsed:: true
 			- “To lose yourself in joy is fragility, to sink yourself in grief is extremeness – in both, turn within to the stable whole and the balance.”
@@ -393,25 +393,31 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- “Every empty point is the whole world, the whole life!”
 		  id:: 68b79197-1244-4b42-b79f-464cfc8433a1
 		  collapsed:: true
-			- When the **subject** focuses on a single point, as its object, it draws the whole world into that point by the “subject–object complementarity”.
+			- When the **subject** focuses on a single point, as its object, it draws the whole world into that point by the ((68e719d7-a5ea-469e-bf8a-44251dd8948a)).
 			  collapsed:: true
 				- When that point object is “solid/opaque”, it reflects the [substance of the world](((68b7c353-edda-4d57-9a3b-36a8251fdb71))), the part of the world before the eye – the complement of the subject's intent behind the eye.
 				- When that point object is “empty/transparent”, the subject can see nothing but its own reflection of the whole world & life.
 				- In other words, through the empty point, the subject's actually looking back at its own worlds (an external one and a multitude of internal ones).
 				- The empty point outside reflects the empty center inside – the ((66c8772a-9b29-45b0-b169-2fa847333e02)) – hence the whole world is reflected by the subject through that point.
-			- ((670e1047-529a-4698-9ad0-5e6c73c18202)) = reflection of ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) (the essence of ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)))
-			  id:: 68b7c353-edda-4d57-9a3b-36a8251fdb71
-			  collapsed:: true
-				- Substance (mondern) = Circle = Body = carrier of action/change/arrow = underlying part of the object which is unchanged, i.e. “dead substance”
-					- While the modern scientific concept of “substance” ([matter](https://en.wikipedia.org/wiki/Matter)) is a “dead substance” exclusive to the objective world, the concept of [substance](https://plato.stanford.edu/entries/substance/#UndeIdea) in philosophy from the ancient time (Aristotle, Plato, ...) did include living beings, too.
-					- In Unïnfo, ((670e1047-529a-4698-9ad0-5e6c73c18202)) includes not only “dead substances” but also “living substances”, similar to the ancient philosophies and Hegen's [living substance](((68b7a9cd-4d53-4961-a386-37d869aee926))).
-				- Subject = Trinion = Obop (+ Object) = underlying driver of the world, i.e. “living substance”
-					- In dualistic view, the “subject” – as the opposite of object – is the obop itself, while in holistic view, the subject contains the object.
-					- Don't confuse this “living substance” as subject with the modern biological “living substance” ([protoplasm](https://en.wikipedia.org/wiki/Protoplasm)) as material that makes up living cells.
-				- Substance is to subject as abstraction/analysis is to integration
-					- While the “dead substance” is just a container, a purely static image of the whole, a part abstracted from the whole;
-					- the “living substance” is the mediator between the static and the dynamic, between the parts and the whole, the integrator of the whole.
-					- In Hegelian dialectic, the integrativity of the subject is [modeled as the full circle of negation](((68b7a9cd-4d53-4961-a386-37d869aee926))), i.e. the Negation of Negation, carried out by reflection from the object (the “other”).
+			- subject–object complementarity
+			  id:: 68e719d7-a5ea-469e-bf8a-44251dd8948a
+				- ((670e1047-529a-4698-9ad0-5e6c73c18202)) = reflection of ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) (the essence of ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)))
+				  id:: 68b7c353-edda-4d57-9a3b-36a8251fdb71
+				  collapsed:: true
+					- Substance (mondern) = Circle = Body = carrier of action/change/arrow = underlying part of the object which is unchanged, i.e. “dead substance”
+						- While the modern scientific concept of “substance” ([matter](https://en.wikipedia.org/wiki/Matter)) is a “dead substance” exclusive to the objective world, the concept of [substance](https://plato.stanford.edu/entries/substance/#UndeIdea) in philosophy from the ancient time (Aristotle, Plato, ...) did include living beings, too.
+						- In Unïnfo, ((670e1047-529a-4698-9ad0-5e6c73c18202)) includes not only “dead substances” but also “living substances”, similar to the ancient philosophies and Hegen's [living substance](((68b7a9cd-4d53-4961-a386-37d869aee926))).
+					- Subject = Trinion = Obop (+ Object) = underlying driver of the world, i.e. “living substance”
+						- In dualistic view, the “subject” – as the opposite of object – is the obop itself, while in holistic view, the subject contains the object.
+						- Don't confuse this “living substance” as subject with the modern biological “living substance” ([protoplasm](https://en.wikipedia.org/wiki/Protoplasm)) as material that makes up living cells.
+					- Substance is to subject as abstraction/analysis is to integration
+						- While the “dead substance” is just a container, a purely static image of the whole, a part abstracted from the whole;
+						- the “living substance” is the mediator between the static and the dynamic, between the parts and the whole, the integrator of the whole.
+						- In Hegelian dialectic, the integrativity of the subject is [modeled as the full circle of negation](((68b7a9cd-4d53-4961-a386-37d869aee926))), i.e. the Negation of Negation, carried out by reflection from the object (the “other”).
+				- property = dual of intent
+				  collapsed:: true
+					- ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)): Any **property** of an object is an **extent** resulting from the measurement of the object's content by the subject's **intent**.
+					-
 			- The paradox of “the zero intent has infinite extent” is due to the **invisibility** of the complement [behind the eye](((68a520bf-adba-4d78-9e3d-5f41de9f8153))) – the subject and its intents.
 			  collapsed:: true
 				- This inverse variation becomes paradoxical only when the crutial role of the subject, the hidden one standing behind the scene, is forgotten.
