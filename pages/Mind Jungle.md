@@ -818,19 +818,21 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Duality_(mathematics)
 		- Symbols:
 			- `☯`: [Taijitu (太極圖)](https://en.wikipedia.org/wiki/Taijitu) representing the unity of the opposites (yin & yang)
+			- `⬗` & `⬖`: Crystallized duality of hollow half (yin) and solid half (yang)
+			- `=/=` & `=\=`: Twisted thread of complementarity, shown as the hidden (apparently broken) part `⚋` (yin) being overcrossed and shadowed by the solid part `⚊` (yang)
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-				- symbols/signs for ((66c8941d-6427-4e5c-9009-3af349500d7b))
+				- Symbols/signs for ((66c8941d-6427-4e5c-9009-3af349500d7b))
 				  id:: 684f951a-bbd6-4b6c-a59d-c7d677e965e8
 				  collapsed:: true
 				  :LOGBOOK:
 				  CLOCK: [2024-08-23 Fri 12:16:21]
 				  CLOCK: [2025-10-09 Thu 15:27:05]
 				  :END:
-					- `☯`: [Taijitu (太極圖)
+					- While the Taijitu (太極圖) `☯` is well known, it's usually not used as a relational sign. So, here we design new signs for to express relation between duals.
 					- While `=/=` is the sign of relaxed thread of complementarity, `⬗` is the sign of crystallized duality.
 					- `<>`: opposite, dual
-						- `⬖`: left solid – right hollow
 						- `⬗`: left hollow – right solid
+						- `⬖`: left solid – right hollow
 						- The two halves represents yin & yang in `☯`.
 					- `=/=`: yin `⚋` (broken) and yang `⚊` (solid) intertwining together
 						- ![ComplementaryRelationSymbol](https://docs.google.com/drawings/d/e/2PACX-1vRkHdUZGJfynY1Uqq99mDK8tKxh60HuKarUb_h9-KY3xGN5amZBsrpqBrC10PZ3ZBLbSZSZsv9GVEl6/pub?w=120)
