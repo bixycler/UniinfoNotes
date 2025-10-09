@@ -200,7 +200,10 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 			- `=/=`: yin `⚋` (broken) and yang `⚊` (solid) intertwining together
 				- ![ComplementaryRelationSymbol](https://docs.google.com/drawings/d/e/2PACX-1vRkHdUZGJfynY1Uqq99mDK8tKxh60HuKarUb_h9-KY3xGN5amZBsrpqBrC10PZ3ZBLbSZSZsv9GVEl6/pub?w=120)
 				- The yin line is ***apparently* broken** just because it's lying under the yang line, hence its cross is **hidden**.
+				- The symbol is just the crossing part, i.e. the obop, of the whole double circle ([Möbius strip](https://en.wikipedia.org/wiki/M%C3%B6bius_strip))
+					- ![ComplementaryRelationCircle](https://docs.google.com/drawings/d/e/2PACX-1vSi8lyXiZkRegI5YPfEL2kwzd8bwcXWucYlfC3mEs_wla3LgcBNXR1h_wgeathrLaLZ6fjqPEa7ryhk/pub?w=240)
 				- This symbol also resembles `≠`
+				- It can be reverted to `=\=` for
 		- WAIT view, projection, effect flow via wave propagation across a ((66c810a0-9861-4787-bdcf-1378219332be))
 		  :LOGBOOK:
 		  CLOCK: [2024-08-23 Fri 12:16:32]
