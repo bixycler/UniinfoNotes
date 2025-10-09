@@ -442,7 +442,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			  CLOCK: [2025-09-05 Fri 09:24:36]
 			  :END:
 				- With a small content, we can easily stay statically in the self-balance of the [dome vision](((68ba4209-92bb-4394-bdc2-92cbcece014a))).
-				- With a large content, we naturally get imbalanced toward one end, being pushed toward action of that end.
+				- With a large content, we naturally get imbalanced toward one end, being pushed toward the action of that end.
 					- The large content is mostly composed of our intents internally,
 						- which is in the shape of a chain in task performing activities,
 						- or just a mess of intents when we're overloaded & agitated.
