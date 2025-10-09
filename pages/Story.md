@@ -3850,20 +3850,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Erin hurricane 2025 Aug 20th lightning
 					  ![Erin-hurricane-2025-Aug-20-lightning.mp4](../assets/Will/story/2025-08/Erin-hurricane-2025-Aug-20-lightning.mp4)
 					- I intended to add these clips to the album [Cyclone 🌀](https://photos.app.goo.gl/mc85bCpNVUo537ym6), but Google Photos has stopped supporting video play. So i just save them here! 😊
-			- September 2nd holidays, in an LSD trip, i got a the vision of ((68b79197-1244-4b42-b79f-464cfc8433a1)) and ((68b7ebd7-caee-4cae-b361-6540cfc23bf8)) From that vision, i extracted a down-to-earth explanation about [the role of the subject in all experiences](((68b79197-fc1d-4360-9993-e96e83e76e8a))).
+			- September 2nd holidays, in an LSD trip, i got a the vision of ((68b79197-1244-4b42-b79f-464cfc8433a1)) and ((68b7ebd7-caee-4cae-b361-6540cfc23bf8)) From that vision, i extracted a down-to-earth explanation about ((68e7152a-b431-42e9-b97f-c2094e04ce86)).
 			  collapsed:: true
 				- ((68b79197-1244-4b42-b79f-464cfc8433a1))
-				- “To lose yourself in joy is fragility, to sink yourself in grief is extremeness – in both, turn within to the stable whole and the balance.”
-				  id:: 68b79197-fc1d-4360-9993-e96e83e76e8a
-				  collapsed:: true
-					- When only joy is seen, you're losing yourself in fragility, seek the stable whole within;
-					- When only grief is felt, you're sinking yourself into extremeness, seek the balance within.
-					- Why within? Because only grief can experience joy, and only joy can experience grief – you, the subject of such experiences is the other missing half!
-					- तत् त्वम् असि (Tat tvam asi), “That thou art” – what you see is what you are.
-					- “Đánh mất mình trong niềm vui là mong manh, chìm đắm mình trong nỗi buồn là cực đoan – cả hai đều cần quay vào trong để trở về với cái toàn thể ổn định và sự cân bằng bền vững.”
-						- Khi chỉ thấy niềm vui, ta đang đánh mất chính mình trong mong manh, hãy quay về với cái toàn thể bền vững hơn ở bên trong;
-						- Khi chỉ cảm thấy buồn đau, ta đang chìm đắm trong cực đoan, hãy quay về tìm sự cân bằng ổn định ở bên trong.
-						- Sao lại bên trong? Vì chỉ có nỗi buồn mới biết được thế nào là vui, và chỉ có niềm vui mới cảm nhận được nỗi buồn – mình, chính mình là chủ thể của những cảm nhận đó là nửa còn lại bị thiếu sót.
+				- ((68e7152a-b431-42e9-b97f-c2094e04ce86))
 				- My wife got the first experience of going through the gate of death (cửa tử, 死門) for many times.
 				  id:: 68b7ebd7-caee-4cae-b361-6540cfc23bf8
 					- With this experience, she's got the vision of the whole circle of life in her mind, so that she's seen the only way for liberation is to go through it, but no other way to avoid or flee.

@@ -375,6 +375,21 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- The noun/adjective version sounds paradoxical because we've fixed our view on a single direction.
 				- 3. Law of Inverse Variation between Intension and Extension (Logic & Semantics)
 					- This [key principle in logic & semantics](https://philosophy.institute/logic/inverse-variation-principle-logic-extension-intension/) relates [intension and extension](https://en.wikipedia.org/wiki/Intension) – the two complements of a word.
+		- The role of the subject in all experiences via subject–object complementarity
+		  id:: 68e7152a-b431-42e9-b97f-c2094e04ce86
+		  collapsed:: true
+			- “To lose yourself in joy is fragility, to sink yourself in grief is extremeness – in both, turn within to the stable whole and the balance.”
+			  id:: 68b79197-fc1d-4360-9993-e96e83e76e8a
+			  collapsed:: true
+				- When only joy is seen, you're losing yourself in fragility, seek the stable whole within;
+				- When only grief is felt, you're sinking yourself into extremeness, seek the balance within.
+				- Why within? Because only grief can experience joy, and only joy can experience grief – you, the subject of such experiences is the other missing half!
+				- तत् त्वम् असि (Tat tvam asi), “That thou art” – what you see is what you are.
+			- “Đánh mất mình trong niềm vui là mong manh, chìm đắm mình trong nỗi buồn là cực đoan – cả hai đều cần quay vào trong để trở về với cái toàn thể ổn định và sự cân bằng bền vững.”
+			  collapsed:: true
+				- Khi chỉ thấy niềm vui, ta đang đánh mất chính mình trong mong manh, hãy quay về với cái toàn thể bền vững hơn ở bên trong;
+				- Khi chỉ cảm thấy buồn đau, ta đang chìm đắm trong cực đoan, hãy quay về tìm sự cân bằng ổn định ở bên trong.
+				- Sao lại bên trong? Vì chỉ có nỗi buồn mới biết được thế nào là vui, và chỉ có niềm vui mới cảm nhận được nỗi buồn – mình, chính mình là chủ thể của những cảm nhận đó là nửa còn lại bị thiếu sót.
 		- “Every empty point is the whole world, the whole life!”
 		  id:: 68b79197-1244-4b42-b79f-464cfc8433a1
 		  collapsed:: true
@@ -383,7 +398,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- When that point object is “solid/opaque”, it reflects the substance of the world, the part of the world before the eye, which is the complement of the subject/intent behind the eye.
 				- When that point object is “empty/transparent”, the subject can see nothing but its own reflection of the whole world & life.
 				- In other words, through the empty point, the subject's actually looking back at its own worlds (an external one and a multitude of internal ones).
-				- The empty point outside reflects the empty point inside, the ((66c8772a-9b29-45b0-b169-2fa847333e02)), hence the whole world is reflected by the subject through that point.
+				- The empty point outside reflects the empty center inside – the ((66c8772a-9b29-45b0-b169-2fa847333e02)) – hence the whole world is reflected by the subject through that point.
 			- ((670e1047-529a-4698-9ad0-5e6c73c18202)) = reflection of ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) (the essence of ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)))
 			  collapsed:: true
 				- Substance (mondern) = Circle = Body = carrier of action/change/arrow = underlying part of the object which is unchanged, i.e. “dead substance”
