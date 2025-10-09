@@ -810,7 +810,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  CLOCK: [2024-08-23 Fri 20:52:50]
 	  :END:
 	  ((665ca480-5ac8-4728-a331-2f68b48759d1)) ((667bf816-d1c8-4ac3-b315-764c14bfbb1f))
-		- ((665359c0-a89a-41b5-9f28-503f79107a08))
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((68e770c2-ddcf-4677-bd6d-9b6a790b5975))
+		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Complementarity_(physics)
+		- ### dual
+		  id:: 68e770c2-ddcf-4677-bd6d-9b6a790b5975
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66c8941d-6427-4e5c-9009-3af349500d7b))
+			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Duality_(mathematics)
+		- Symbols:
+			- `☯`
 	- ## vector
 	  id:: 667d16f8-206e-4a85-80f3-24c2aa1bf4ad
 	  collapsed:: true
