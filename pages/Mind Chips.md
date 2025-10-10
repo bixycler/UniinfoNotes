@@ -1,35 +1,38 @@
+- ---
 - add story of my hypophantasia and how it makes my mental images close to intension.
 - triple intent cone -> double intent cone + perception cone
 - content - intent - extent - attent
+  collapsed:: true
   Tend with, tend in, tend out, tend to
-    - attention = direction = scope of the viewcone = spotlight
-    - intent = the one holding the spotlight = intensity of the spotlight
-    - extent = the stage where the spotlight ranges 
-    - normal attention is outward toward the extent
-    - turning the attention inward to see the intent is an advanced technique (introspection)
-    - attention = attent + high intent
-    - attent = link between intent and extent = phase = remainder = meta-intent = meta-viewcone
+	- attention = direction = scope of the viewcone = spotlight
+	- intent = the one holding the spotlight = intensity of the spotlight
+	- extent = the stage where the spotlight ranges
+	- normal attention is outward toward the extent
+	- turning the attention inward to see the intent is an advanced technique (introspection)
+	- attention = attent + high intent
+	- attent = link between intent and extent = phase = remainder = meta-intent = meta-viewcone
 - LLM is at the end opposite to program
-    - [The Illusion of Thinking](https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf): Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity
-        - > We found that LRMs have limitations in exact computation: they fail to use explicit algorithms and reason inconsistently across puzzles.
-        - Large Reasoning Models (LRMs) are Large Language Models (LLMs) focused on step-by-step thinking. This is called Chain of Thought (CoT) which facilitates problem solving by guiding the model to articulate reasoning steps.
-        - After a threshold of problem complexity, the models simply stopped trying.
-        - Jing Hu: "AI is just sophisticated pattern matching, no thinking, no reasoning" and “AI can only do tasks accurately up to a certain degree of complexity.”
-    - [This article](https://www.forbes.com/sites/hessiejones/2025/08/04/despite-billions-in-investment-ai-reasoning-models-are-falling-short/) refers to predictive AI as an alternative to LLM, but it is not scalable.
-    - Another approach is setting up agents for LLMs, but the agent itself is a traditional program, hence unable to learn. 
-    - Uninet's approach: develop from the middle out.
-- ---
+  collapsed:: true
+	- [The Illusion of Thinking](https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf): Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity
+		- > We found that LRMs have limitations in exact computation: they fail to use explicit algorithms and reason inconsistently across puzzles.
+		- Large Reasoning Models (LRMs) are Large Language Models (LLMs) focused on step-by-step thinking. This is called Chain of Thought (CoT) which facilitates problem solving by guiding the model to articulate reasoning steps.
+		- After a threshold of problem complexity, the models simply stopped trying.
+		- Jing Hu: "AI is just sophisticated pattern matching, no thinking, no reasoning" and “AI can only do tasks accurately up to a certain degree of complexity.”
+	- [This article](https://www.forbes.com/sites/hessiejones/2025/08/04/despite-billions-in-investment-ai-reasoning-models-are-falling-short/) refers to predictive AI as an alternative to LLM, but it is not scalable.
+	- Another approach is setting up agents for LLMs, but the agent itself is a traditional program, hence unable to learn.
+	- Uninet's approach: develop from the middle out.
 - Temporal circle via effect circle
-    - 0 intent = ∞ extent =  -∞ (distant past of environment) = +∞ (distant future of self expression)
-    - past cone (cause cone): from distant space in distant past into intent
-    - 2 nappes of the double cone fold into the **effect flow spirorus**.
-    - future cone (effect cone): from intent out to circumference (content) of present, then out to distant space in distant future
-    - projective spacetime = log time × linear space 
-        - TODO draw this spacetime scaling applet of the spirorus
-        - apex of past/future cone is the vanishing point in future/past
-    - the 2 cones meet in the present 
-        - in linear spacetime, they translate as the present flows 
-        - in projective spacetime, they rotate as the present flows 
+  collapsed:: true
+	- 0 intent = ∞ extent =  -∞ (distant past of environment) = +∞ (distant future of self expression)
+	- past cone (cause cone): from distant space in distant past into intent
+	- 2 nappes of the double cone fold into the **effect flow spirorus**.
+	- future cone (effect cone): from intent out to circumference (content) of present, then out to distant space in distant future
+	- projective spacetime = log time × linear space
+		- TODO draw this spacetime scaling applet of the spirorus
+		- apex of past/future cone is the vanishing point in future/past
+	- the 2 cones meet in the present
+		- in linear spacetime, they translate as the present flows
+		- in projective spacetime, they rotate as the present flows
 - circular effect flow = circular causality = circular determinism = interdependency = interfusion = interpenetration = dependent origination
-    - this circular dependency is shown by the spirorus which is the structure of spacetime
+	- this circular dependency is shown by the spirorus which is the structure of spacetime
 - context value => new context()
