@@ -752,4 +752,6 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- ...
 		- ((68eca037-b18a-4046-9ac7-28fcf8334966))
+			- Closed eye result:
+			- Open eye result: [45/55](https://aphantasia.com/study/vviq/result?rid=0199dcbc-c906-7048-8ca3-c1f2e4f892f6)
 		- ((68df2d82-e1d5-49c4-ac40-d45cf26f840c))
