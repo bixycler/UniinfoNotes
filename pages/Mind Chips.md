@@ -35,4 +35,3 @@
 		- in projective spacetime, they rotate as the present flows
 - circular effect flow = circular causality = circular determinism = interdependency = interfusion = interpenetration = dependent origination
 	- this circular dependency is shown by the spirorus which is the structure of spacetime
-- Solid 3D: context value => new context()
