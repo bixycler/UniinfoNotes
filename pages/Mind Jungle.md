@@ -1504,6 +1504,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- Diagram
 								  collapsed:: true
 									- ![DynamicsPyramid](https://docs.google.com/drawings/d/e/2PACX-1vTZeIjOKk3h-3WXdc-xATjDF3YQsr2p0J1iwfFvBtIblsL-jg9aoILR7wiyYUDqXSg8-h3h94owrCFz/pub?w=1000)
+				- The κύκλος (cycle, circle) is the form; the κυβερνήτης ([cybernetics](https://en.wikipedia.org/wiki/Cybernetics), steersman) is the agent of that form.
+				  collapsed:: true
+					- Both are about circular motion & turning, and both have the first syllable transformed to "cy" with a very different pronunciation in English.
+					- AI is the runaway child of Cybernetics, the child that fears the dangerous sea of his father, thus sails only in simulation.
+					- From cybernetics to "cyber", the loop has collapsed into a straight wire:
+						- from self-regulation to remote control;
+						- from living feedback to mechanical command.
+				-
 		-
 	- ## world
 	  id:: 667cfac2-17f1-4cbd-9f6d-1e722ff2a870
