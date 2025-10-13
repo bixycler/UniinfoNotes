@@ -1,5 +1,4 @@
 - ---
-- add story of my hypophantasia and how it makes my mental images close to intension.
 - triple intent cone -> double intent cone + perception cone
 - content - intent - extent - attent
   collapsed:: true
