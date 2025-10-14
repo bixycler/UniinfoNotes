@@ -751,7 +751,5 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 	- ## Braindumping < ((68be32ad-ba39-4774-a67b-43a4fb114a3e))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- ...
-		- ((68eca037-b18a-4046-9ac7-28fcf8334966))
-			- Closed eye result: [33/55](https://aphantasia.com/study/vviq/result?rid=0199dcd3-1ea1-791c-91db-b9676b71743f), hypophantasia
-			- Open eye result: [45/55](https://aphantasia.com/study/vviq/result?rid=0199dcbc-c906-7048-8ca3-c1f2e4f892f6), at the low end of phantasia
+		-
 		- ((68df2d82-e1d5-49c4-ac40-d45cf26f840c))

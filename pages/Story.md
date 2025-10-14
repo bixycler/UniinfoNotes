@@ -5068,6 +5068,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- ((68e6334c-6b4c-487f-8999-24940497245f))
 				- [Prompting Guide](https://www.promptingguide.ai/techniques): Chain of Thought (CoT), Tree of Thought (GoT), Graph of Thought (GoT), Prompt Chaining, Retrieval Augmented Generation (RAG), Reflexion
+				- ![front between 2 anticyclones in North Pacific Ocean 2025-10-08.jpg](../front between 2 anticyclones in North Pacific Ocean 2025-10-08.jpg)
 			- 9th, ...
 			  collapsed:: true
 				- ((684f951a-bbd6-4b6c-a59d-c7d677e965e8))
