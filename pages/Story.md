@@ -5078,15 +5078,17 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Clarify that ((68e71355-f954-4c34-b7cc-009d32b6c7e0))
 			- 16th, ...
 			  collapsed:: true
-				- Emptiness is the great mirror:
-					- To the grasping mind, it reflects its hunger and fear.
-					- To the liberated mind, it reflects infinite possibility.
-				- [Nature abhors a vacuum](https://en.wikipedia.org/wiki/Horror_vacui_(philosophy)) & Timothy D. Wilson's 2014 experiment of “volutary electric shock to avoid boredom”
-					- Paper: [Just think: The challenges of the disengaged mind](https://www.science.org/doi/10.1126/science.1250830)
-					- Brief video: [Why Humans Choose Pain Over Boredom!](https://www.youtube.com/watch?v=gm8izYslTDo)
-					- Long episode: [Isolation - Mind Field (Ep 1)](https://youtu.be/iqKdEhx-dD4)
-					- Just like the vacuum, the emptiness “sucks” stimulation not because of the the emptiness itself (it has no self!), but becaue of the pressure of the “air”, the ambient condition around.
-					- The emptiness has no strength, all strengths are from the non-empty
+				- Emptiness sucks!
+					- [Nature abhors a vacuum](https://en.wikipedia.org/wiki/Horror_vacui_(philosophy)) & Timothy D. Wilson's 2014 experiment of “volutary electric shock to avoid boredom”
+						- Paper: [Just think: The challenges of the disengaged mind](https://www.science.org/doi/10.1126/science.1250830)
+						- Brief video: [Why Humans Choose Pain Over Boredom!](https://www.youtube.com/watch?v=gm8izYslTDo)
+						- Long episode: [Isolation - Mind Field (Ep 1)](https://youtu.be/iqKdEhx-dD4)
+					- Just like the vacuum, the emptiness “sucks” stimulation not because of the the emptiness itself (it has no self!), but because of the pressure of the “air”, the ambient condition around.
+					- The emptiness has no strength, all strengths are from the **habitual pressure** of desire, fear, and activity.
+					- Emptiness exerts no force; it is the stage upon which forces balance.
+					- Emptiness is the great mirror:
+						- To the grasping mind, it reflects its hunger and fear.
+						- To the liberated mind, it reflects infinite possibility.
 		- Killing light vs healing light
 		  id:: 68e347d0-d515-42b2-a504-836f7985a597
 		  collapsed:: true
