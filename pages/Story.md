@@ -5080,7 +5080,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Emptiness is the great mirror:
 					- To the grasping mind, it reflects its hunger and fear.
 					- To the liberated mind, it reflects infinite possibility.
-				- [Nature abhors a vacuum](https://en.wikipedia.org/wiki/Horror_vacui_(philosophy))
+				- [Nature abhors a vacuum](https://en.wikipedia.org/wiki/Horror_vacui_(philosophy)) & Wilson's 2014 experiment of “electric shock boredom”
 		- Killing light vs healing light
 		  id:: 68e347d0-d515-42b2-a504-836f7985a597
 		  collapsed:: true
