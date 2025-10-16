@@ -5079,11 +5079,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 16th, ...
 			  collapsed:: true
 				- Emptiness sucks!
-					- [Nature abhors a vacuum](https://en.wikipedia.org/wiki/Horror_vacui_(philosophy)) & Timothy D. Wilson's 2014 experiment of “volutary electric shock to avoid boredom”
+					- Mental [horror vacui](https://en.wikipedia.org/wiki/Horror_vacui_(philosophy)) & Timothy D. Wilson's 2014 experiment of “volutary electric shock to avoid boredom”
 						- Paper: [Just think: The challenges of the disengaged mind](https://www.science.org/doi/10.1126/science.1250830)
 						- Brief video: [Why Humans Choose Pain Over Boredom!](https://www.youtube.com/watch?v=gm8izYslTDo)
 						- Long episode: [Isolation - Mind Field (Ep 1)](https://youtu.be/iqKdEhx-dD4)
-					- Just like the vacuum, the emptiness “sucks” stimulation not because of the the emptiness itself (it has no self!), but because of the pressure of the “air”, the ambient condition around.
+					- Just like the vacuum, the emptiness “sucks” stimulation not because of the the emptiness itself (it has no self!), but because of the pressure of the “air”, of the ambient condition around.
 					- The emptiness has no strength, all strengths are from the **habitual pressure** of desire, fear, and activity.
 					- Emptiness exerts no force; it is the stage upon which forces balance.
 					- Emptiness is the great mirror:
@@ -5091,7 +5091,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- To the liberated mind, it reflects infinite possibility.
 						- To the restless mind, emptiness sucks! 😱
 						- To the liberated mind, emptiness balances. 😌
-					- *“Sucks!”* is the everyday speech form of *horror vacui*. 😆
+					- *“It sucks!”* is the everyday speech form of *horror vacui*. 😆
 		- Killing light vs healing light
 		  id:: 68e347d0-d515-42b2-a504-836f7985a597
 		  collapsed:: true
