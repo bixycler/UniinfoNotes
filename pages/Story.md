@@ -3854,6 +3854,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- ((68b79197-1244-4b42-b79f-464cfc8433a1))
 				- ((68e7152a-b431-42e9-b97f-c2094e04ce86))
+				  collapsed:: true
 				- My wife got the first experience of going through the gate of death (cửa tử, 死門) for many times.
 				  id:: 68b7ebd7-caee-4cae-b361-6540cfc23bf8
 					- With this experience, she's got the vision of the whole circle of life in her mind, so that she's seen the only way for liberation is to go through it, but no other way to avoid or flee.

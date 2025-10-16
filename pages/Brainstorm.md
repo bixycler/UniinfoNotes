@@ -6,6 +6,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	  id:: 6773eb97-ec58-4c48-a017-cd0de2d82e08
 		- ... ↓ to be flushed **down**! ↓
 		- ((68df2364-c484-4ddd-b4b5-19ef90228ef4))
+		  id:: 68663850-daa5-487e-ba48-fea228a2b188
+		  collapsed:: true
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
@@ -114,6 +116,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :END:
 			- This scale of passiveness/activeness is also of object/subject, input/output, absorption/emission.
 			  id:: 68c764d5-17c7-4c1c-af2f-697fa222f729
+			  collapsed:: true
 			- Here's the ladder of 5 levels in the spectrum from the passive end to the active end.
 			- Open Passive
 			  logseq.order-list-type:: number
@@ -379,7 +382,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  id:: 68e7152a-b431-42e9-b97f-c2094e04ce86
 		  collapsed:: true
 			- “To lose yourself in joy is fragility, to sink yourself in grief is extremeness – in both, turn within to the stable whole and the balance.”
-			  id:: 68b79197-fc1d-4360-9993-e96e83e76e8a
 			  collapsed:: true
 				- When only joy is seen, you're losing yourself in fragility, seek the stable whole within;
 				- When only grief is felt, you're sinking yourself into extremeness, seek the balance within.
@@ -722,7 +724,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Đàn bầu is played soley with [flageolet tones (pinched harmonics)](https://en.wikipedia.org/wiki/String_harmonic), which is an advanced technique on other instruments like violin, guitar, etc.
 				- The sound is pure, glassy, and floating, because it's made entirely from string harmonics – no pressed tones. That’s why the đàn bầu sounds so “airy” and “spiritual”.
 		- DONE Continue with [planning](((67760c43-5cbd-4b4f-8fd9-5cedf804f56a))) to resolve [the conflict with company work](((6677b986-ada2-4c73-8a11-980cdf9cb6d4))).
-		  id:: 68663850-daa5-487e-ba48-fea228a2b188
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-07-03 Thu 15:26:42]--[2025-07-03 Thu 16:33:25] =>  01:06:43
