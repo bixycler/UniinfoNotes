@@ -11,6 +11,38 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
+		- Emptiness sucks!
+		  id:: 68f0d8f7-bdb7-492a-b161-83479cce6aa8
+		  collapsed:: true
+			- Mental [horror vacui](https://en.wikipedia.org/wiki/Horror_vacui_(philosophy)) & Timothy D. Wilson's 2014 experiment of “volutary electric shock to avoid boredom”
+				- Paper: [Just think: The challenges of the disengaged mind](https://www.science.org/doi/10.1126/science.1250830)
+				- Brief video: [Why Humans Choose Pain Over Boredom!](https://www.youtube.com/watch?v=gm8izYslTDo)
+				- Long episode: [Isolation - Mind Field (Ep 1)](https://youtu.be/iqKdEhx-dD4)
+			- Just like the vacuum, the emptiness “sucks” stimulation not because of the the emptiness itself (it has no self!), but because of the “**air pressure**” of the ambient condition around.
+			- The emptiness has no strength, all strengths are from the **habitual/karmic pressure** of desire, fear, and activity.
+			- Emptiness exerts no force; it is the stage upon which forces balance.
+			- Emptiness is the great mirror:
+				- To the grasping mind, it reflects its hunger and fear.
+				- To the liberated mind, it reflects infinite possibility.
+				- To the restless mind, emptiness sucks! 😱
+				- To the liberated mind, emptiness balances. 😌
+			- *“It sucks!”* is the everyday speech form of *horror vacui*. 😆
+				- The old usage of the expression – back from 17th century – had already been linked to “draining”.
+					- Some even appeared earlier:
+						- “suck” money from someone (circa 1380),
+						- “suck” the blood from someone (to exhaust or drain, 1583),
+						- “suck” someone dry (to exhaust, 1592).
+				- Then the sexual connotation of oral sex (fellatio) came around 19-20th century, which *sucked* its usage down to the underground for a while.
+				  collapsed:: true
+					- Its **taboo** was due to vulgar usages like the sexual insult “you suck!”
+					- The taboo and the suction was not caused by the word “suck” itself, but was due to the **moral pressure** of the culture around it.
+					- This period, the taboo was so strong that its usage was suppressed even for the most innocent senses of “suck”.
+						- In Matthew 24:19, the original King James says:
+						  > “And woe unto them that are with child, and to them that **give suck** in those days!”
+						- But Webster’s 1833 “family-safe” version changed it to:
+						  > “And woe to them that are with child, and to them that **nurse infants** in those days!”
+				- And eventually, from the late 20th to 21st century, its usage has rocketed up with the normalized connotation of “disgusting, bad, unfavourable”.
+				- Ref: [Grammarphobia](https://grammarphobia.com/blog/2017/03/suck.html), [Etymonline](https://www.etymonline.com/word/suck)
 		- [Reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning) (RL) is currently the AI approach closest to uninet's effect circle.
 		  id:: 68e6334c-6b4c-487f-8999-24940497245f
 		  collapsed:: true
