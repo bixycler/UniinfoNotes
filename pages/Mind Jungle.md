@@ -946,7 +946,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- focal point
 				  id:: 6867b512-9b5a-4279-8c98-28ea1a3c7995
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66ab7477-c060-4d07-ab13-bc3d11246854))
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((66ab7477-c060-4d07-ab13-bc3d11246854)) of a ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) is the point having equal distance from all points in the circle, i.e. the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) of ((66e40f75-0573-484e-8cb6-b6b8071ffb8c)). The concept of center can be extended to center of mass, named “pre-center” (in ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe))), and even further to the origin, the center of perspectivity, named “pseudo-center” (in ((66e40f4b-34ae-499a-8192-0a0f4f580c7e))).
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((66ab7477-c060-4d07-ab13-bc3d11246854)) of a ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) is the point having equal distance from all points in the circle, i.e. the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) of ((66e40f75-0573-484e-8cb6-b6b8071ffb8c)). The concept of center can be extended to the center of mass, named “pre-center” (in ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe))), and even further to the origin, the ((66728236-5b19-425c-bb5f-dfc0dc8b79fd)), named “pseudo-center” (in ((66e40f4b-34ae-499a-8192-0a0f4f580c7e))).
 				  id:: 6716110f-c736-43d2-a8e8-f2d6d163bd4d
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- ((684f9515-8f95-4004-8aa8-04a10d1ebf11))
@@ -1005,7 +1005,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  :LOGBOOK:
 		  CLOCK: [2024-09-13 Fri 16:01:12]--[2024-09-25 Wed 20:05:54] =>  292:04:42
 		  :END:
-			- ((66e40f4b-34ae-499a-8192-0a0f4f580c7e)) > ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe)) > ((66e40f75-0573-484e-8cb6-b6b8071ffb8c))
+		  ((66e40f4b-34ae-499a-8192-0a0f4f580c7e)) > ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe)) > ((66e40f75-0573-484e-8cb6-b6b8071ffb8c))
 			- ![Levels of The Equal](https://docs.google.com/drawings/d/1ydOhAuBugiOYYoBHLJ5Z6-pQViKL1-GXKgFWLSbE9Sc/pub?w=800)
 			- point equality
 			  id:: 66e40f4b-34ae-499a-8192-0a0f4f580c7e
@@ -1035,7 +1035,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :LOGBOOK:
 			  CLOCK: [2024-09-13 Fri 19:52:12]
 			  :END:
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) equal intensity, uniform distribution, reach ((669a1bec-3347-4915-83e4-dcffc4d482d1))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66e40f75-0573-484e-8cb6-b6b8071ffb8c)) is the equal relation regarding intensity, a.k.a. uniform distribution, ((669a1bec-3347-4915-83e4-dcffc4d482d1)).
 				- Structure
 					- ((6678288e-699b-4325-bdba-bf6349fe0d57))s: ...
 					- ((665ca429-84e3-49ff-921e-c07d19cd99ba)): ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) ((667d15c6-67c4-4998-a549-c8b3f9de3d60))
