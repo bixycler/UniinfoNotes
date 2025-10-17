@@ -5097,7 +5097,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- “suck” money from someone (circa 1380),
 								- “suck” the blood from someone (to exhaust or drain, 1583),
 								- “suck” someone dry (to exhaust, 1592).
-						- Then the sexual connotation came around 19-20th century which "sucked" its usage down to the underground for a while. And eventually, from late 20th to 21st century, its usage has peaked up with the normalized connotation of "bad, unfavourable".
+						- Then the sexual connotation of oral sex (fellatio) came around 19-20th century, which *sucked* its usage down to the underground for a while, with its taboo due to vulgar usages like the sexual insult “you suck!”
+						- And eventually, from late 20th to 21st century, its usage has rocketed up with the normalized connotation of “bad, unfavourable”.
 						- Ref: [Grammarphobia](https://grammarphobia.com/blog/2017/03/suck.html), [Etymonline](https://www.etymonline.com/word/suck)
 		- Killing light vs healing light
 		  id:: 68e347d0-d515-42b2-a504-836f7985a597
