@@ -822,7 +822,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- `=/=` & `=\=`: Twisted thread of complementarity, shown as the hidden (apparently broken) part `⚋` (yin) being overcrossed and shadowed by the solid part `⚊` (yang)
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- Symbols/signs for ((66c8941d-6427-4e5c-9009-3af349500d7b))
-				  id:: 684f951a-bbd6-4b6c-a59d-c7d677e965e8
 				  collapsed:: true
 				  :LOGBOOK:
 				  CLOCK: [2024-08-23 Fri 12:16:21]
@@ -1024,7 +1023,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :LOGBOOK:
 			  CLOCK: [2024-09-13 Fri 19:52:06]
 			  :END:
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) equal ((66e42b30-1aa4-4b6f-8c54-b29fc09085c6)), conservation of amount (energy)
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) equal ((66e42b30-1aa4-4b6f-8c54-b29fc09085c6)), conservation of amount (energy). This is the common connotation of the word “equal”.
 				- Structure
 					- $|p| = |q|$ 
 					  ⇔ $|p| - |q| = 0$
