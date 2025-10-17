@@ -5102,8 +5102,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- In Matthew 24:19, the original King James says:
 								  > “And woe unto them that are with child, and to them that **give suck** in those days!”
 								- But Webster’s 1833 “family-safe” version changed it to:
-								- >
-						- And eventually, from late 20th to 21st century, its usage has rocketed up with the normalized connotation of “bad, unfavourable”.
+								  > “And woe to them that are with child, and to them that **nurse infants** in those days!”
+						- And eventually, from late 20th to 21st century, its usage has rocketed up with the normalized connotation of “disgusting, bad, unfavourable”.
 						- Ref: [Grammarphobia](https://grammarphobia.com/blog/2017/03/suck.html), [Etymonline](https://www.etymonline.com/word/suck)
 		- Killing light vs healing light
 		  id:: 68e347d0-d515-42b2-a504-836f7985a597
