@@ -1666,7 +1666,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ### viewpoint
 		  id:: 667272b8-88a8-4928-a22a-35035c9edf05
 		  collapsed:: true
-		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66728236-5b19-425c-bb5f-dfc0dc8b79fd))
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((68a7d02b-ebf4-4356-a98a-e881ae817f6a)), ((66728236-5b19-425c-bb5f-dfc0dc8b79fd))
 			- center of projection
 			  id:: 66728236-5b19-425c-bb5f-dfc0dc8b79fd
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667272b8-88a8-4928-a22a-35035c9edf05))
@@ -1696,15 +1696,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- cause cone
 			  id:: 667bda02-8dc9-488e-ba16-ea75c3d7895c
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When the large world is ((66c83149-6ee5-4a8c-b4eb-0308d1a11535))ed to a little image, it creates a [cone](https://en.wikipedia.org/wiki/Cone) shape called ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)), whose base is the world and apex is the ((68a7d02f-7010-49b2-8dfa-a50e8b371066)). The ((68875ace-d35f-44c6-9a9f-e7f7fc29f19d)) from the base to the apex is opposite to the ((68875bab-dd31-4bbd-bd31-3a821fc5310c)) from the apex to the base.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When the large world is ((66c83149-6ee5-4a8c-b4eb-0308d1a11535))ed to a little image, it creates a [cone](https://en.wikipedia.org/wiki/Cone) shape called ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)), whose base is the world and apex is the ((66728236-5b19-425c-bb5f-dfc0dc8b79fd)). The ((68875ace-d35f-44c6-9a9f-e7f7fc29f19d)) from the base to the apex is opposite to the ((68875bab-dd31-4bbd-bd31-3a821fc5310c)) from the apex to the base.
 				- view cone of an ((669a2487-054d-4408-ae41-189e34af81a9))
 					- ![ViewCone](https://docs.google.com/drawings/d/e/2PACX-1vTyqULvkXhaHRWBNVjM6jxDCuMnoh-o7n7bAMm7hOSGlRtL42FL59z4Dpey-4Sbo9bzkJVE-AQ9RFj1/pub?w=145&h=125)
 			- eye point
 			  id:: 68a7d02b-ebf4-4356-a98a-e881ae817f6a
-			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((68a7d02f-7010-49b2-8dfa-a50e8b371066))
-				- projection center
-				  id:: 68a7d02f-7010-49b2-8dfa-a50e8b371066
-				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((68a7d02b-ebf4-4356-a98a-e881ae817f6a))
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((667272b8-88a8-4928-a22a-35035c9edf05)), ((66728236-5b19-425c-bb5f-dfc0dc8b79fd))
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68a7d02b-ebf4-4356-a98a-e881ae817f6a)) is the apex of the ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) where all ((671b6fee-d1e3-43f0-a5a5-7033e48d6e56))s converge.
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- In biological eye, ((68a7d02b-ebf4-4356-a98a-e881ae817f6a)) is the [nodal point of the eye](https://en.wikipedia.org/wiki/Cardinal_point_(optics)#Nodal_points_and_the_eye).
@@ -1746,7 +1743,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- principal (orthogonal) lines = lines parallel to the viewing direction in 3D corresponding to image lines converging to the [principal vanishing point](((673a04c4-6c6a-4b75-b336-45a8f149550d)))
 						  id:: 6739fd3d-066d-46a6-b9f3-3dbab8c9d817
 						- ((68a7d179-b663-42bd-85b9-6c18be6b6c97)) = ((68a7d163-32b3-4903-8f4b-a45f7fac6b51)) is the plane where the world is projected onto.
-						- ((68a7d02f-7010-49b2-8dfa-a50e8b371066)) = ((68a7d02b-ebf4-4356-a98a-e881ae817f6a)) = apex of the view cone is the point where all light rays converge.
+						- ((66728236-5b19-425c-bb5f-dfc0dc8b79fd)) = ((68a7d02b-ebf4-4356-a98a-e881ae817f6a)) = apex of the view cone is the point where all light rays converge.
 						- perspective lines = orthogonals = parallel lines in 3D with image lines converging to a [vanishing point](((673a0211-a4ef-4548-acc5-f9141de253cb)))
 						  collapsed:: true
 							- Many ones define “orthogonal lines” as just the parallel lines with converging image lines, like [in Creative Glossary](http://www.creativeglossary.com/art-perspective/orthogonal-lines.html), [in GCELT](https://gcelt.org/what-are-converging-lines-in-art-unveiling-the-power-of-perspective/), [by DonCorgi](https://doncorgi.com/blog/types-of-perspective-drawing/), [in Rapid Fire Art](https://rapidfireart.com/2017/07/18/lesson-6-introduction-to-linear-perspectives/), [by Ms. Chang](http://www.mschangart.com/architecture/perspective-drawing), [by Helen South](https://www.liveabout.com/orthogonals-drawing-definition-1123067), etc.
@@ -4250,7 +4247,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  CLOCK: [2025-07-30 Wed 14:09:41]
 						  :END:
 							- The [intent chain](((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))), like the [chain/train of thought](https://en.wikipedia.org/wiki/Train_of_thought), is modeled in Uninet Theory as the hierarchical ((68df2d82-e1d5-49c4-ac40-d45cf26f840c)) from the ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)) to the center obop, i.e. *behind the screen*.
-								- In projective geometry, the intent cone intends behind the ((68a7d179-b663-42bd-85b9-6c18be6b6c97)) toward the ((68a7d02f-7010-49b2-8dfa-a50e8b371066)).
+								- In projective geometry, the intent cone intends behind the ((68a7d179-b663-42bd-85b9-6c18be6b6c97)) toward the ((66728236-5b19-425c-bb5f-dfc0dc8b79fd)).
 							- Because all intents are just accumulation of past actions (karma), like the [growth rings](https://simple.wikipedia.org/wiki/Growth_ring), the intent cone which determines how the world is seen (giving forms to object's content) is just a slice of the past reactivated.
 								- Growth rings model of intent cone
 								  collapsed:: true
