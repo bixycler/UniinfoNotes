@@ -1012,18 +1012,18 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :LOGBOOK:
 			  CLOCK: [2024-09-13 Fri 19:52:01]
 			  :END:
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) the most abstract ((66e43b94-9183-4d49-af85-8a7a1c194c12)), conservation of ((66e426ec-d29b-4614-932b-2c70693790d7)) (momentum)
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66e40f4b-34ae-499a-8192-0a0f4f580c7e)) is the equal relation regarding the most abstract ((66e43b94-9183-4d49-af85-8a7a1c194c12)), a.k.a. conservation of ((66e426ec-d29b-4614-932b-2c70693790d7)) (momentum).
 				- Structure
 					- $p + q = 0$
 					- ((6678288e-699b-4325-bdba-bf6349fe0d57))s: ((667d15b7-6364-49a9-ac58-c64d2a992b63))s
 					- ((665ca429-84e3-49ff-921e-c07d19cd99ba)): ((66ab675b-2778-4f51-80ad-20a8f6988691)) (closed loop)
-					- ((94e87dc9-71af-477c-aa70-0f448c2f1e20)): origin, center of perspectivity
+					- ((94e87dc9-71af-477c-aa70-0f448c2f1e20)): origin, ((66728236-5b19-425c-bb5f-dfc0dc8b79fd))
 			- mass equality
 			  id:: 66e40f58-c9dd-47f4-999d-2e4a2aa874fe
 			  :LOGBOOK:
 			  CLOCK: [2024-09-13 Fri 19:52:06]
 			  :END:
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) equal ((66e42b30-1aa4-4b6f-8c54-b29fc09085c6)), conservation of amount (energy). This is the common connotation of the word “equal”.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe)) is the equal relation regarding ((66e42b30-1aa4-4b6f-8c54-b29fc09085c6)), a.k.a. conservation of ((66e426df-90e4-43c0-9f02-c48c336e830d)) (energy). This is the common connotation of the word “equal”.
 				- Structure
 					- $|p| = |q|$ 
 					  ⇔ $|p| - |q| = 0$
