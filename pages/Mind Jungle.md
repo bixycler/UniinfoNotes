@@ -1025,8 +1025,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :END:
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe)) is the equal relation regarding ((66e42b30-1aa4-4b6f-8c54-b29fc09085c6)), a.k.a. conservation of ((66e426df-90e4-43c0-9f02-c48c336e830d)) (energy). This is the common connotation of the word “equal”.
 				- Structure
-					- $|p| = |q|$ 
-					  ⇔ $|p| - |q| = 0$
+					- $|p| + |q| = 1 = |p'| + |q'|$ 
+					  ⇔ $(|p| - |p'|) + (|q| - |q'|) = Δ|p| + Δ|q| = 0$
 					- ((6678288e-699b-4325-bdba-bf6349fe0d57))s: ((667d15c6-67c4-4998-a549-c8b3f9de3d60))s
 					- ((665ca429-84e3-49ff-921e-c07d19cd99ba)): symmetric loop
 					- ((94e87dc9-71af-477c-aa70-0f448c2f1e20)): center of mass
