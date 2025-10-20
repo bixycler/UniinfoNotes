@@ -5081,7 +5081,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- ((68f0d8f7-bdb7-492a-b161-83479cce6aa8))
 			- 20th,...
 			  collapsed:: true
-				- Newtonian [Lagrangian mechanics](https://en.wikipedia.org/wiki/Lagrangian_mechanics)
+				- Newtonian mechanics → [Lagrangian mechanics](https://en.wikipedia.org/wiki/Lagrangian_mechanics) → field equations
+					- The key in the law of “[stationary action](https://en.wikipedia.org/wiki/Hamilton%27s_principle) δS = 0” is not the value of S itself, but the hidden clause “for all variations δx(t)”! 😜
+					  collapsed:: true
+						- The full expression should be $⟪\; δS[x] = 0 \quad ∀δx(t) \;⟫$, or equivalently $⟪\; {δS[x] \over δx(t)} = 0 \;⟫$.
+						- The clause ⟪ ∀δx(t) ⟫ makes the global balance applied to the local balance at every point, via the [fundamental lemma of the calculus of variations](https://en.wikipedia.org/wiki/Fundamental_lemma_of_the_calculus_of_variations)!
+							- This technique of sweeping “all variations δx(t)”, esp. with [bump functions](https://en.wikipedia.org/wiki/Bump_function), is generalized to the test function in [distribution theory](https://en.wikipedia.org/wiki/Distribution_(mathematical_analysis)).
+						- Normally, out of equilibrium, there's only one way from the local integrated into the global.
+						- But at equilibrium, they become equivalent 😍
+					- Newton's 2nd law: $\sum {\bf F} = m \cdot d{\bf P}/dt$
 		- Killing light vs healing light
 		  id:: 68e347d0-d515-42b2-a504-836f7985a597
 		  collapsed:: true

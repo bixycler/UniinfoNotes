@@ -1,12 +1,4 @@
 - ---
-- The key in the law of “[stationary action](https://en.wikipedia.org/wiki/Hamilton%27s_principle) δS = 0” is not the value of S itself, but the hidden clause “for all variations δx(t)”! 😜
-  collapsed:: true
-	- The full expression should be $⟪\; δS[x] = 0 \quad ∀δx(t) \;⟫$, or equivalently $⟪\; {δS[x] \over δx(t)} = 0 \;⟫$.
-	- The clause ⟪ ∀δx(t) ⟫ makes the global balance applied to the local balance at every point, via the [fundamental lemma of the calculus of variations](https://en.wikipedia.org/wiki/Fundamental_lemma_of_the_calculus_of_variations)!
-		- This technique of sweeping “all variations δx(t)”, esp. with [bump functions](https://en.wikipedia.org/wiki/Bump_function), is generalized to the test function in [distribution theory](https://en.wikipedia.org/wiki/Distribution_(mathematical_analysis)).
-	- Normally, out of equilibrium, there's only one way from the local integrated into the global.
-	- But at equilibrium, they become equivalent 😍
-- ---
 - triple intent cone -> double intent cone + perception cone
 - 3 levels of equality: 1 - 2 - 3 circles folded from the same content thread 🥨 
   collapsed:: true
