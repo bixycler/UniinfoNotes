@@ -5094,6 +5094,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- (a) = applied force, (n) = normal (⟂) constraint force, (cs) = conservative (potential) force, (nc) = nonconservative force
 					- Cancel normal constraint force with virtual displacement $δ{\bf r}_i ⟂ {\bf F}_i^{(n)}$:   ${\bf F}_i^{(n)} ⋅ δ{\bf r}_i = 0 ⟹$
 					  ${\bf F}_i^{(a)} ⋅ δ{\bf r}_i = d{\bf P}_i/dt ⋅ δ{\bf r}_i$
+						- Kinetic engergy:
+						-
 		- Killing light vs healing light
 		  id:: 68e347d0-d515-42b2-a504-836f7985a597
 		  collapsed:: true
