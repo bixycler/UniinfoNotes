@@ -735,11 +735,12 @@ const shorthandMap = {
     "⟂": {
         "i": "75",
         "codePoint": "U+27C2",
-        "name": "perpendicular",
+        "name": "perpendicular to",
         "entities": "",
         "code": "=T",
         "keywords": [
-            "orthogonal to"
+            "orthogonal to",
+            "perpendicular"
         ]
     },
     "≡": {

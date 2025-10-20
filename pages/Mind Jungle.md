@@ -5166,6 +5166,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- The two symbols are indistinguishable to the human eyes: ⟂⊥
 						- In some fonts, they are rendered differently... just a little bit!
 					- I've add this [historical note](https://en.wikipedia.org/w/index.php?title=Up_tack&diff=1287329130&oldid=1287327431) to Wikipedia page [up tack](https://en.wikipedia.org/wiki/Up_tack#Perpendicular_symbol)
+					- I've updated [CreatZy shorthand](((66fe9e2e-13cf-4b31-96e7-1b050eed47c4))) `=T` from `⊥` (U+22A5) to `⟂` (U+27C2).
 	- ## relation
 	  id:: 667d0b78-fff6-49bc-90d5-165648ed56d3
 	  collapsed:: true
