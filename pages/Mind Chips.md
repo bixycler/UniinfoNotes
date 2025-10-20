@@ -1,24 +1,10 @@
-
-
-- [ELM](https://github.com/LaurieLonecrow/AsterMind-ELM) = SVM version of SLFN.
-  collapsed:: true
-	- Extreme Learning Machine (ELM) is a single-hidden-layer feedforward neural network (SLFN) that learns instantly by computing the output weights analytically in one shot, leaving the hidden layer random.
-	- The random hidden layer acts like the kennel in Support Vector Machine (SVM) to project the input into a high-dimensional space so that they can be classified simply by linear separation at the output layer.
-- ---
-- ---
-- attention is the spotlight projecting the flat space/graph of the world into a hyperbolic disk of present stage 
-  collapsed:: true
-	- attention is a selective magnifier, hence very projective compared to the flat Euclidean geometry.
-	- attention is the activation of the static (future = past there) up to be **dynamic** at the present herenow, then return it back to the static (past here).
-	- attention is the mechanism of intending (zooming in) into a direction.... Related to SCIFER?!🤔 It has the role of emotion.
-	- attention brings dormant intents up into the current intent stack/tree/circle to participate in the effect circle.
-	- in LLM, [attention mechanism](https://en.wikipedia.org/wiki/Attention_(machine_learning)) is what makes the flat & static probability space of ANN be more projective & dynamic like the possibility space in uninet.
 - ---
 - The key in the law of "stationary action δS = 0" is not the value of S itself, but the hidden clause "for all variations δx(t)"! 😜
   collapsed:: true
 	- This clause makes the global balance applied to the local balance at every point!
 	- Normally, out of equilibrium, there's only one way from the local integrated into the global.
 	- But at equilibrium, they become equivalent 😍
+- ---
 - triple intent cone -> double intent cone + perception cone
 - 3 levels of equality: 1 - 2 - 3 circles folded from the same content thread 🥨 
   collapsed:: true
@@ -51,17 +37,13 @@
 	- turning the attention inward to see the intent is an advanced technique (introspection)
 	- attention = attent + high intent
 	- attent = link between intent and extent = phase = remainder = meta-intent = meta-viewcone
-- ---
-- LLM is at the end opposite to program
+- attention is the spotlight projecting the flat space/graph of the world into a hyperbolic disk of present stage 
   collapsed:: true
-	- [The Illusion of Thinking](https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf): Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity
-		- > We found that LRMs have limitations in exact computation: they fail to use explicit algorithms and reason inconsistently across puzzles.
-		- Large Reasoning Models (LRMs) are Large Language Models (LLMs) focused on step-by-step thinking. This is called Chain of Thought (CoT) which facilitates problem solving by guiding the model to articulate reasoning steps.
-		- After a threshold of problem complexity, the models simply stopped trying.
-		- Jing Hu: "AI is just sophisticated pattern matching, no thinking, no reasoning" and “AI can only do tasks accurately up to a certain degree of complexity.”
-	- [This article](https://www.forbes.com/sites/hessiejones/2025/08/04/despite-billions-in-investment-ai-reasoning-models-are-falling-short/) refers to predictive AI as an alternative to LLM, but it is not scalable.
-	- Another approach is setting up agents for LLMs, but the agent itself is a traditional program, hence unable to learn.
-	- Uninet's approach: develop from the middle out.
+	- attention is a selective magnifier, hence very projective compared to the flat Euclidean geometry.
+	- attention is the activation of the static (future = past there) up to be **dynamic** at the present herenow, then return it back to the static (past here).
+	- attention is the mechanism of intending (zooming in) into a direction.... Related to SCIFER?!🤔 It has the role of emotion.
+	- attention brings dormant intents up into the current intent stack/tree/circle to participate in the effect circle.
+	- in LLM, [attention mechanism](https://en.wikipedia.org/wiki/Attention_(machine_learning)) is what makes the flat & static probability space of ANN be more projective & dynamic like the possibility space in uninet.
 - Temporal circle via effect circle
   collapsed:: true
 	- 0 intent = ∞ extent =  -∞ (distant past of environment) = +∞ (distant future of self expression)
@@ -76,3 +58,18 @@
 		- in projective spacetime, they rotate as the present flows
 - circular effect flow = circular causality = circular determinism = interdependency = interfusion = interpenetration = dependent origination
 	- this circular dependency is shown by the spirorus which is the structure of spacetime
+- ---
+- LLM is at the end opposite to program
+  collapsed:: true
+	- [The Illusion of Thinking](https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf): Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity
+		- > We found that LRMs have limitations in exact computation: they fail to use explicit algorithms and reason inconsistently across puzzles.
+		- Large Reasoning Models (LRMs) are Large Language Models (LLMs) focused on step-by-step thinking. This is called Chain of Thought (CoT) which facilitates problem solving by guiding the model to articulate reasoning steps.
+		- After a threshold of problem complexity, the models simply stopped trying.
+		- Jing Hu: "AI is just sophisticated pattern matching, no thinking, no reasoning" and “AI can only do tasks accurately up to a certain degree of complexity.”
+	- [This article](https://www.forbes.com/sites/hessiejones/2025/08/04/despite-billions-in-investment-ai-reasoning-models-are-falling-short/) refers to predictive AI as an alternative to LLM, but it is not scalable.
+	- Another approach is setting up agents for LLMs, but the agent itself is a traditional program, hence unable to learn.
+	- Uninet's approach: develop from the middle out.
+- [ELM](https://github.com/LaurieLonecrow/AsterMind-ELM) = SVM version of SLFN.
+  collapsed:: true
+	- Extreme Learning Machine (ELM) is a single-hidden-layer feedforward neural network (SLFN) that learns instantly by computing the output weights analytically in one shot, leaving the hidden layer random.
+	- The random hidden layer acts like the kennel in Support Vector Machine (SVM) to project the input into a high-dimensional space so that they can be classified simply by linear separation at the output layer.
