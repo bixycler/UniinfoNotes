@@ -1,5 +1,5 @@
 - ---
-- The key in the law of “stationary action δS = 0” is not the value of S itself, but the hidden clause “for all variations δx(t)”! 😜
+- The key in the law of “[stationary action](https://en.wikipedia.org/wiki/Hamilton%27s_principle) δS = 0” is not the value of S itself, but the hidden clause “for all variations δx(t)”! 😜
   collapsed:: true
 	- The full expression should be: $δS[x] = 0 \quad ∀δx(t)$.
 	- The clause ⟪ ∀δx(t) ⟫ makes the global balance applied to the local balance at every point!
