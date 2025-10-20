@@ -1,5 +1,46 @@
+
+
+- [ELM](https://github.com/LaurieLonecrow/AsterMind-ELM) = SVM version of SLFN.
+  collapsed:: true
+	- Extreme Learning Machine (ELM) is a single-hidden-layer feedforward neural network (SLFN) that learns instantly by computing the output weights analytically in one shot, leaving the hidden layer random.
+	- The random hidden layer acts like the kennel in Support Vector Machine (SVM) to project the input into a high-dimensional space so that they can be classified simply by linear separation at the output layer.
 - ---
+- ---
+- attention is the spotlight projecting the flat space/graph of the world into a hyperbolic disk of present stage 
+  collapsed:: true
+	- attention is a selective magnifier, hence very projective compared to the flat Euclidean geometry.
+	- attention is the activation of the static (future = past there) up to be **dynamic** at the present herenow, then return it back to the static (past here).
+	- attention is the mechanism of intending (zooming in) into a direction.... Related to SCIFER?!🤔 It has the role of emotion.
+	- attention brings dormant intents up into the current intent stack/tree/circle to participate in the effect circle.
+	- in LLM, [attention mechanism](https://en.wikipedia.org/wiki/Attention_(machine_learning)) is what makes the flat & static probability space of ANN be more projective & dynamic like the possibility space in uninet.
+- ---
+- The key in the law of "stationary action δS = 0" is not the value of S itself, but the hidden clause "for all variations δx(t)"! 😜
+  collapsed:: true
+	- This clause makes the global balance applied to the local balance at every point!
+	- Normally, out of equilibrium, there's only one way from the local integrated into the global.
+	- But at equilibrium, they become equivalent 😍
 - triple intent cone -> double intent cone + perception cone
+- 3 levels of equality: 1 - 2 - 3 circles folded from the same content thread 🥨 
+  collapsed:: true
+	- 1 circle of universe in monistic view for qualitative theory of Uniinfo, định tính
+		- conservation of quality via complementarity
+		- vacantistic obop = selfless empty point = pseudo-center = equal
+		- monistic obop = self center
+		- content = arrow
+	- 2 circles of subject & object in dualistic view for quantitative theory of Unithread, định lượng
+		- conservation of quantity via reflection between intent & extent
+		- intent × extent = 1 => log(intent) + log(extent) = 0 is the complementarity in monistic view
+		- intent = constant (self) => extent = sum of squares = const
+			- constancy of light velocity, energy conservation, ... conservation of content is due to the constancy of the self intent
+		- intent = curvature = density = 0 (selfless) => extent = radius = ∞ => flat spacetime (global energy density = 0) => monistic view
+		- dualistic obop = self center = massive point = pre-center, opposite of object center
+		- vacantistic obop = contact point between 2 circles = sensor
+		- content = circles
+	- 3 circles of obop, body & world in trialistic view for structural theory of uninet, định hình
+		- conservation of structure via maintenance of body in the world
+		- trialistic obop = selful point (collapsed middle circle) = center = mind
+			- central obop does pattern matching
+		- content = components = intertwined circles
 - content - intent - extent - attent
   collapsed:: true
   Tend with, tend in, tend out, tend to
@@ -10,6 +51,7 @@
 	- turning the attention inward to see the intent is an advanced technique (introspection)
 	- attention = attent + high intent
 	- attent = link between intent and extent = phase = remainder = meta-intent = meta-viewcone
+- ---
 - LLM is at the end opposite to program
   collapsed:: true
 	- [The Illusion of Thinking](https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf): Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity
