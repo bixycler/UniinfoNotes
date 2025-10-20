@@ -73,7 +73,7 @@ Character	Code-point	Unicode Name	HTML Entity	CreatZy Code	Additional Keywords
 ∩	U+2229	intersection	&cap;	=cap	cap
 ∪	U+222A	union	&cup;	=cup	cup
 ∥	U+2225	parallel to	&par;, &parallel;, &DoubleVerticalBar;, &spar;, &shortparallel;	=||	double vertical bar
-⊥	U+22A5	up tack	&bottom;, &bot;, &perp;, &UpTee;	=T	orthogonal to, perpendicular, bottom tack, up tee
+⟂	U+27C2	perpendicular	=T	orthogonal to, perpendicular
 ≡	U+2261	identical to	&equiv;, &Congruent;	===	equivalent, congruent
 ≢	U+2262	not identical to	&nequiv;, &NotCongruent;	=!==	not equivalent, not congruent
 ≠	U+2260	not equal to	&ne;, &NotEqual;	=!=	different from
