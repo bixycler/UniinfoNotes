@@ -3,7 +3,7 @@
   collapsed:: true
 	- The full expression should be $⟪\; δS[x] = 0 \quad ∀δx(t) \;⟫$, or equivalently $⟪\; {δS[x] \over δx(t)} = 0 \;⟫$.
 	- The clause ⟪ ∀δx(t) ⟫ makes the global balance applied to the local balance at every point!
-		- This technique of sweeping “all variations δx(t)” is also applied to the test function in [distribution theory](https://en.wikipedia.org/wiki/Distribution_(mathematical_analysis)).
+		- This technique of sweeping “all variations δx(t)” is generalized to the test function in [distribution theory](https://en.wikipedia.org/wiki/Distribution_(mathematical_analysis)).
 	- Normally, out of equilibrium, there's only one way from the local integrated into the global.
 	- But at equilibrium, they become equivalent 😍
 - ---
