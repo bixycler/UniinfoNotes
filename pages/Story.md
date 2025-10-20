@@ -5090,6 +5090,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Normally, out of equilibrium, there's only one way from the local integrated into the global.
 						- But at equilibrium, they become equivalent 😍
 					- Newton's 2nd law: $\sum {\bf F} = m \cdot d{\bf P}/dt$
+					- For each particle: $\sum {\bf F}_i = {\bf F}_i^{(a)} + {\bf F}_i^{(n)} = {\bf F}_i^{()} + {\bf F}_i^{(n)} + $
 		- Killing light vs healing light
 		  id:: 68e347d0-d515-42b2-a504-836f7985a597
 		  collapsed:: true
