@@ -5090,10 +5090,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Normally, out of equilibrium, there's only one way from the local integrated into the global.
 						- But at equilibrium, they become equivalent 😍
 					- Newton's 2nd law: ${\bf F} = d{\bf P}/dt$
-					- For each particle: ${\bf F}_i = {\bf F}_i^{(a)} + {\bf F}_i^{(n)} = {\bf F}_i^{(cs)} + {\bf F}_i^{(nc)} + {\bf F}_i^{(n)} = d{\bf P}_i/dt$
-						- (a) = applied force, (n) = normal (⟂) constraint force, (cs) = conservative (potential) force, (nc) = nonconservative force
-					- Cancel normal constraint force with virtual displacement $δ{\bf r}_i ⟂ {\bf F}_i^{(n)}$:   ${\bf F}_i^{(n)} ⋅ δ{\bf r}_i = 0 ⇒$
-						- This is the [D'Alembert's principle](https://en.wikipedia.org/wiki/D%27Alembert%27s_principle) for *dynamic equilibrium*.
+						- For each particle: ${\bf F}_i = {\bf F}_i^{(a)} + {\bf F}_i^{(n)} = {\bf F}_i^{(cs)} + {\bf F}_i^{(nc)} + {\bf F}_i^{(n)} = d{\bf P}_i/dt$
+							- (a) = applied force, (n) = normal (⟂) constraint force, (cs) = conservative (potential) force, (nc) = nonconservative force
+					- Cancel normal constraint force with virtual displacement $δ{\bf r}_i ⟂ {\bf F}_i^{(n)}$:   ${\bf F}_i^{(n)} ⋅ δ{\bf r}_i = 0 ⟹$
+					  ${\bf F}_i^{(a)} ⋅ δ{\bf r}_i = d{\bf P}_i/dt ⋅ δ{\bf r}_i$
 		- Killing light vs healing light
 		  id:: 68e347d0-d515-42b2-a504-836f7985a597
 		  collapsed:: true
