@@ -3287,6 +3287,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- The Sitemaps list in Google Search Console is empty, while it's clearly in the [robots.txt](((6880bfb6-37bd-4d5a-aa65-a366b19fed81)))!
 						- After a manual submit, it's shown with `Couldn't fetch` status!? 🤔
 							- This seems to be a [bug of Google Search Console](https://qr.ae/pC8a9H): my `sitemap.xml` is fetched successfully by Live Test.
+						- After 3 months,
 					- https://creatzynotes.blogspot.com/robots.txt
 					  id:: 6880bfb6-37bd-4d5a-aa65-a366b19fed81
 					  collapsed:: true
