@@ -1410,7 +1410,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- The intentional cause is “final” in the cause cone, but “first” in the effect cone.
 						- The external knowledge circle is the lowest circle in the tower of effect circles, under all active intents.
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-				- The ((667c0031-0a87-44c9-9e98-6d45893b095f)) in space generates the ((667d15b7-6364-49a9-ac58-c64d2a992b63)) in time, a.k.a. ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)). That time arrow extends the space into a meta-space, a.k.a. [spacetime](https://en.wikipedia.org/wiki/Spacetime). This extension can be continued to extend any (meta-)space to infinity.
+				- The ((667c0031-0a87-44c9-9e98-6d45893b095f)) in space generates the ((667d15b7-6364-49a9-ac58-c64d2a992b63)) in ((68fa164e-ef0e-4010-937d-ad9e0459f5f2)), i.e. ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)). That time arrow extends the space into a meta-space, a.k.a. [spacetime](https://en.wikipedia.org/wiki/Spacetime). This extension can be continued to extend any (meta-)space to infinity.
 				  id:: 667c001e-83b9-4de5-bf81-1c71898340a2
 				- Various ((667c0031-0a87-44c9-9e98-6d45893b095f))s: ((66f40210-cca6-4d81-85e7-d0c54ef20451)) = ((67b183f5-1cca-4473-917e-60c644dd5466)) = [Five Aggregates](https://en.wikipedia.org/wiki/Skandha)
 				  id:: 674ff584-00e3-40d8-9b77-21e9dca899dd
@@ -4466,7 +4466,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  :END:
 	  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf36a-581a-4abe-b544-2d849608a3e4))
 		- ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((68fa1647-2d46-433e-b1ca-29f757b5ef62))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68fa164e-ef0e-4010-937d-ad9e0459f5f2)) is the succession of ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342))s, each realized as a loop in the [coiling flow of time](((667bf36a-581a-4abe-b544-2d849608a3e4))).
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68fa164e-ef0e-4010-937d-ad9e0459f5f2)) is the ((67fcbbc6-915b-4d28-b9cf-098e916cdc86)) of ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342))s, each realized as a loop in the [coiling flow of time](((667bf36a-581a-4abe-b544-2d849608a3e4))).
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- Circular time versus linear time
 			  collapsed:: true
@@ -4475,7 +4475,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :END:
 				- **Circular time** in Unïnfo perspective:
 					- Time is defined by **change** which is the [difference from itself](((684f9517-30d7-40e6-b93f-3386123e381c))) (self-diff), making it intrinsically circular.
-					- Time is a **self-referential, coiling flow of effects** (self-ref) embodied by the Ω-thread.
+					- Time is a **self-referential, folding, coiling flow of effects** (self-ref) embodied by the Ω-thread.
 						- In the coil of time, each loop is a change.
 						- The past has been folded into the present, and the future will be unfolded from the present.
 					- No circles (self-ref, self-diff, self-def), no change, no actual time!
