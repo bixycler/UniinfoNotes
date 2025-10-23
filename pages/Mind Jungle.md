@@ -4475,12 +4475,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Time is not a linear, external axis; it is a **self-referential, coiling flow of effects**. The Ω-thread embodies this circularity: past, present, and future are folded into the same effect circle, emergent from self-reflective observation of the thread. Change exists only through this self-referential mechanism; without it, time becomes static and dead.
 					- Traditional definitions of time involved the observation of _**periodic** motion_ such as the apparent motion of the sun across the sky, the phases of the moon, and the passage of a free-swinging pendulum.
 						- The circular dial on the traditional [clock face](https://en.wikipedia.org/wiki/Clock_face) is the symbol of circular time, showing its very circular nature.
+					- Modern the [International Atomic Time](https://en.wikipedia.org/wiki/International_Atomic_Time)
 				- **Linear time** in popular physics and common mind:
 					- For most observers, time appears linear: a monotonic sequence of events measured by clocks and coordinates. Physics formalizes this as a straight axis, leading to the block-universe notion. Human cognition prefers linear sequences due to memory, language, and predictive reasoning. This externalization hides the internal circularity and treats change as a projection of pre-existing events.
 					- Linear minds try to escape the circular nature of time by stretching it into a straight line, but the self-ref is baked in, as shown in the Wikipedia page of [time](https://en.wikipedia.org/wiki/Time#Definition).
 					  > Multiple notions exist, and defining time in a manner applicable to all fields *without [circularity](https://en.wikipedia.org/wiki/Circular_definition)* has consistently eluded scholars.
 					- The [problem of time](https://en.wikipedia.org/wiki/Problem_of_time)
-						- The linear time is [frozen](https://en.wikipedia.org/wiki/Problem_of_time#The_frozen_formalism_problem), static, hence “dead”.
+						- The linear time is [frozen](https://en.wikipedia.org/wiki/Problem_of_time#The_frozen_formalism_problem), static, “dead”, just an axis in the [block universe](https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time)).
 				- **Established theories and philosophies:**
 				- **Physics:** Closed timelike curves and relativity hint at loops, but the block universe and linear time parameterizations dominate; time is mostly treated as an axis rather than a self-reflective flow.
 				- **Logic & Mathematics:** Strange loops, recursion theory, and fixed-point theorems formalize self-reference and circularity, showing paradoxes arise in linear-only perspectives.
