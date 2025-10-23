@@ -1382,32 +1382,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  collapsed:: true
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf36a-581a-4abe-b544-2d849608a3e4))
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) is the being's difference from its ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), hence a ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)), as shown in the ((6858b355-fba9-4e61-9f16-bc993a3df44b)). In particular, the change of an object $O$ (in time, space, spacetime, or configuration space) from position $A$ to position $B$ is the difference between $O$ at $A$ and $O$ at $B$, i.e. $O_B - O_A$. The change of ((665ca429-84e3-49ff-921e-c07d19cd99ba)) is ((669a58b9-eb34-41cd-8605-02e29b07e1b5)).
-				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-					- Circular time versus linear time
-					  collapsed:: true
-					  :LOGBOOK:
-					  CLOCK: [2025-10-23 Thu 18:13:09]
-					  :END:
-						- **Circular time** in Unïnfo perspective:
-							- Change is defined as **difference from itself**, making it intrinsically circular.
-							- Time is not a linear, external axis; it is a **self-referential, coiling flow of effects**. The Ω-thread embodies this circularity: past, present, and future are folded into the same effect circle, emergent from self-reflective observation of the thread. Change exists only through this self-referential mechanism; without it, time becomes static and dead.
-						- **Linear time** in popular physics and common mind:
-							- For most observers, time appears linear: a monotonic sequence of events measured by clocks and coordinates. Physics formalizes this as a straight axis, leading to the block-universe notion. Human cognition prefers linear sequences due to memory, language, and predictive reasoning. This externalization hides the internal circularity and treats change as a projection of pre-existing events.
-						- **Established theories and philosophies:**
-						- **Physics:** Closed timelike curves and relativity hint at loops, but the block universe and linear time parameterizations dominate; time is mostly treated as an axis rather than a self-reflective flow.
-						- **Logic & Mathematics:** Strange loops, recursion theory, and fixed-point theorems formalize self-reference and circularity, showing paradoxes arise in linear-only perspectives.
-						- **Philosophy:** Eternal recurrence (Nietzsche), Eastern cyclic time (Hinduism, Buddhism, Daoism), and process philosophy (Whitehead, Bergson) emphasize cyclical or relational aspects of change.
-						- **Systems theory / cybernetics:** Feedback loops and self-referential systems are circular, allowing emergent dynamics invisible to purely linear observation.
-						- **Differential equations (DEs) perspective:**
-						- External / physics view: DEs are often treated as formulas relating rates of change to states, producing linear trajectories upon integration.
-						- Internal / Unïnfo view: DEs are **intrinsically circular loops** – next state depends on current state, just like the effect circle. The “self-diff” definition is a verbal expression of this looping mechanism, revealing the circularity hidden in traditional linear interpretation.
-						- **Dual perspective synthesis:**
-						- To a **folding eye** (internal perspective), circular time appears as linearized in the external view: the rolling wheel produces the trace, which looks like a straight trajectory to external observers.
-						- To a **straight eye** (external perspective), linear time conceals the hidden fold – internally, the sequence contains loops, feedback, and self-reference. What looks simple and straight externally is actually a **strange loop** internally – potentially paradoxical and dynamic.
-						- **Implications:**
-						- Linear representations of time are convenient and practical but obscure the **living, emergent dynamics** of change.
-						- Circular time highlights the self-reflective nature of change and shows that the so-called "trajectory" is the shadow of deeper loops.
-						- The tension between circular and linear perspectives is central to understanding the true nature of time and change in Unïnfo – the external and internal views are complementary, revealing both the apparent order and the hidden dynamics.
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bf36a-581a-4abe-b544-2d849608a3e4)) is an ((667bef22-b272-4a7d-b613-3f1ed1a47329)) whose sink is viewed as coinciding with its source, and both are represented by the ((677e76ed-b324-4608-b146-90e8fcfa0c32)).
 				- ((667bf36a-581a-4abe-b544-2d849608a3e4)) is the characteristic of [cybernetics](https://en.wikipedia.org/wiki/Cybernetics).
 			- ### intentional cause
@@ -4475,16 +4449,47 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 66537a0b-d107-4f7e-b01f-bf624a647d8c
 	  collapsed:: true
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Universe
-	- ##  space
+	- ## space
+	  id:: 68fa1647-2d46-433e-b1ca-29f757b5ef62
+	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2025-10-23 Thu 18:49:30]
 	  :END:
+		- ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((68fa164e-ef0e-4010-937d-ad9e0459f5f2))
 	- ## time
+	  id:: 68fa164e-ef0e-4010-937d-ad9e0459f5f2
 	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2025-10-23 Thu 18:49:39]
 	  :END:
-		-
+		- ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((68fa1647-2d46-433e-b1ca-29f757b5ef62))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68fa164e-ef0e-4010-937d-ad9e0459f5f2)) is the ... of ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)).
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- Circular time versus linear time
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-10-23 Thu 18:13:09]
+			  :END:
+				- **Circular time** in Unïnfo perspective:
+					- Change is defined as **difference from itself**, making it intrinsically circular.
+					- Time is not a linear, external axis; it is a **self-referential, coiling flow of effects**. The Ω-thread embodies this circularity: past, present, and future are folded into the same effect circle, emergent from self-reflective observation of the thread. Change exists only through this self-referential mechanism; without it, time becomes static and dead.
+				- **Linear time** in popular physics and common mind:
+					- For most observers, time appears linear: a monotonic sequence of events measured by clocks and coordinates. Physics formalizes this as a straight axis, leading to the block-universe notion. Human cognition prefers linear sequences due to memory, language, and predictive reasoning. This externalization hides the internal circularity and treats change as a projection of pre-existing events.
+				- **Established theories and philosophies:**
+				- **Physics:** Closed timelike curves and relativity hint at loops, but the block universe and linear time parameterizations dominate; time is mostly treated as an axis rather than a self-reflective flow.
+				- **Logic & Mathematics:** Strange loops, recursion theory, and fixed-point theorems formalize self-reference and circularity, showing paradoxes arise in linear-only perspectives.
+				- **Philosophy:** Eternal recurrence (Nietzsche), Eastern cyclic time (Hinduism, Buddhism, Daoism), and process philosophy (Whitehead, Bergson) emphasize cyclical or relational aspects of change.
+				- **Systems theory / cybernetics:** Feedback loops and self-referential systems are circular, allowing emergent dynamics invisible to purely linear observation.
+				- **Differential equations (DEs) perspective:**
+				- External / physics view: DEs are often treated as formulas relating rates of change to states, producing linear trajectories upon integration.
+				- Internal / Unïnfo view: DEs are **intrinsically circular loops** – next state depends on current state, just like the effect circle. The “self-diff” definition is a verbal expression of this looping mechanism, revealing the circularity hidden in traditional linear interpretation.
+				- **Dual perspective synthesis:**
+				- To a **folding eye** (internal perspective), circular time appears as linearized in the external view: the rolling wheel produces the trace, which looks like a straight trajectory to external observers.
+				- To a **straight eye** (external perspective), linear time conceals the hidden fold – internally, the sequence contains loops, feedback, and self-reference. What looks simple and straight externally is actually a **strange loop** internally – potentially paradoxical and dynamic.
+				- **Implications:**
+				- Linear representations of time are convenient and practical but obscure the **living, emergent dynamics** of change.
+				- Circular time highlights the self-reflective nature of change and shows that the so-called "trajectory" is the shadow of deeper loops.
+				- The tension between circular and linear perspectives is central to understanding the true nature of time and change in Unïnfo – the external and internal views are complementary, revealing both the apparent order and the hidden dynamics.
 	- ## fluid
 	  id:: 671e2794-7edd-4840-8b5d-d2def6df7666
 	  collapsed:: true
