@@ -5083,6 +5083,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 20th,...
 			  collapsed:: true
 				- Newtonian mechanics → [Lagrangian mechanics](https://en.wikipedia.org/wiki/Lagrangian_mechanics) → field equations
+				  id:: 68f60c71-56b6-494e-b4bb-26f1f91e3282
 					- The key in the law of “[stationary action](https://en.wikipedia.org/wiki/Hamilton%27s_principle) δS = 0” is not the value of S itself, but the hidden clause “for all variations δx(t)”! 😜
 					  collapsed:: true
 						- The full expression should be $⟪\; δS[x] = 0 \quad ∀δx(t) \;⟫$, or equivalently $⟪\; {δS[x] \over δx(t)} = 0 \;⟫$.
