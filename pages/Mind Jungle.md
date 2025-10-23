@@ -4464,7 +4464,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  CLOCK: [2025-10-23 Thu 18:49:39]
 	  :END:
 		- ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((68fa1647-2d46-433e-b1ca-29f757b5ef62))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68fa164e-ef0e-4010-937d-ad9e0459f5f2)) is the ... of ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)).
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68fa164e-ef0e-4010-937d-ad9e0459f5f2)) is the succession of ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342))s, each realized as a loop in the [coil of time flow](((667bf36a-581a-4abe-b544-2d849608a3e4))).
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- Circular time versus linear time
 			  collapsed:: true
@@ -4474,7 +4474,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- **Circular time** in Unïnfo perspective:
 					- Time is defined by **change** which is the [difference from itself](((684f9517-30d7-40e6-b93f-3386123e381c))) (self-diff), making it intrinsically circular.
 					- Time is a **self-referential, coiling flow of effects** (self-ref) embodied by the Ω-thread.
-						- The past has been folded into the present, and the future will be unfolded into the same effect circle, emergent from self-reflective observation of the thread.
+						- In the coil of time, each loop is a change.
+						- The past has been folded into the present, and the future will be unfolded from the present.
 					- Change exists only through this self-referential mechanism; without it, time becomes static and dead.
 					- All practical time measurements are inherently circular.
 						- Ancient clocks used sundials, water clocks, or pendulums – all are **repeating cycles**.
