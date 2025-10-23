@@ -1382,6 +1382,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  collapsed:: true
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf36a-581a-4abe-b544-2d849608a3e4))
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) is the being's difference from its ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), hence a ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)), as shown in the ((6858b355-fba9-4e61-9f16-bc993a3df44b)). In particular, the change of an object $O$ (in time, space, spacetime, or configuration space) from position $A$ to position $B$ is the difference between $O$ at $A$ and $O$ at $B$, i.e. $O_B - O_A$. The change of ((665ca429-84e3-49ff-921e-c07d19cd99ba)) is ((669a58b9-eb34-41cd-8605-02e29b07e1b5)).
+				  id:: 684f9517-30d7-40e6-b93f-3386123e381c
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bf36a-581a-4abe-b544-2d849608a3e4)) is an ((667bef22-b272-4a7d-b613-3f1ed1a47329)) whose sink is viewed as coinciding with its source, and both are represented by the ((677e76ed-b324-4608-b146-90e8fcfa0c32)).
 				- ((667bf36a-581a-4abe-b544-2d849608a3e4)) is the characteristic of [cybernetics](https://en.wikipedia.org/wiki/Cybernetics).
 			- ### intentional cause
@@ -4471,15 +4472,15 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  CLOCK: [2025-10-23 Thu 18:13:09]
 			  :END:
 				- **Circular time** in Unïnfo perspective:
-					- Change is defined as **difference from itself**, making it intrinsically circular.
-					- Time is not a linear, external axis; it is a **self-referential, coiling flow of effects**. The Ω-thread embodies this circularity: past, present, and future are folded into the same effect circle, emergent from self-reflective observation of the thread. Change exists only through this self-referential mechanism; without it, time becomes static and dead.
-					- All practical time measurement is inherently circular.
-						- Ancient clocks used sundials, water clocks, or pendulums – all are repeating cycles.
+					- Time is defined by **change** which is the [difference from itself](((684f9517-30d7-40e6-b93f-3386123e381c))) (self-diff), making it intrinsically circular.
+					- Time is a **self-referential, coiling flow of effects** (self-ref) embodied by the Ω-thread.
+						- The past has been folded into the present, and the future will be unfolded into the same effect circle, emergent from self-reflective observation of the thread.
+					- Change exists only through this self-referential mechanism; without it, time becomes static and dead.
+					- All practical time measurements are inherently circular.
+						- Ancient clocks used sundials, water clocks, or pendulums – all are **repeating cycles**.
 						- Mechanical clocks and astronomical observations all rely on **periodicity**.
-						- Modern [International Atomic Time](https://en.wikipedia.org/wiki/International_Atomic_Time) refines the cycles to extreme precision, but they are still counting **repetitions events**, e.g. the [cesium-133 hyperfine transition](https://www.nist.gov/pml/time-and-frequency-division/time-realization/cesium-fountain-atomic-clocks).
-					- Traditional definitions of time involved the observation of _**periodic** motion_ such as the apparent motion of the sun across the sky, the phases of the moon, and the passage of a free-swinging pendulum.
-						- The circular dial on the traditional [clock face](https://en.wikipedia.org/wiki/Clock_face) is the symbol of circular time, showing its very circular nature.
-					- Modern the
+						- Modern [International Atomic Time](https://en.wikipedia.org/wiki/International_Atomic_Time) refines the cycles to extreme precision, but they are still counting **repetitive events**, e.g. the [cesium-133 hyperfine transition](https://www.nist.gov/pml/time-and-frequency-division/time-realization/cesium-fountain-atomic-clocks).
+						- The **circular dial** on the traditional [clock face](https://en.wikipedia.org/wiki/Clock_face) is the symbol of circular time, showing its very circular nature.
 				- **Linear time** in popular physics and common mind:
 					- For most observers, time appears linear: a monotonic sequence of events measured by clocks and coordinates. Physics formalizes this as a straight axis, leading to the block-universe notion. Human cognition prefers linear sequences due to memory, language, and predictive reasoning. This externalization hides the internal circularity and treats change as a projection of pre-existing events.
 					- Linear minds try to escape the circular nature of time by stretching it into a straight line, but the self-ref is baked in, as shown in the Wikipedia page of [time](https://en.wikipedia.org/wiki/Time#Definition).
