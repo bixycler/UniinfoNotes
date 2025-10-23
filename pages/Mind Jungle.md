@@ -380,7 +380,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Spell checking
 			  collapsed:: true
 				- Disable spell checking for codes
-				  collapsed:: true
 					- `Settings` > `Editor` > `Inspections` > `Spelling` > `Typo` > `Options` > uncheck `Process code` and `Process literals`
 	- ## CombiNat
 	  id:: 6675369a-1d13-48c5-8a77-d588aa8b59b8
