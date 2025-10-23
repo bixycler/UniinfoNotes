@@ -4478,13 +4478,15 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Time is a **self-referential, coiling flow of effects** (self-ref) embodied by the Ω-thread.
 						- In the coil of time, each loop is a change.
 						- The past has been folded into the present, and the future will be unfolded from the present.
-					- Change exists only through this self-referential mechanism; without it, time becomes static and dead.
+					- No circles (self-ref, self-diff, self-def), no change, no actual time!
+						- In Unïnfo's view, the [linear time](((68fa148f-0ab4-4a45-894a-7a9c96d87058))) is not a real and live time, but a projection of time which is virtual and “frozen dead”.
 					- All practical time measurements are inherently circular.
 						- Ancient clocks used sundials, water clocks, or pendulums – all are **repeating cycles**.
 						- Mechanical clocks and astronomical observations all rely on **periodicity**.
 						- Modern [International Atomic Time](https://en.wikipedia.org/wiki/International_Atomic_Time) refines the cycles to extreme precision, but they are still counting **repetitive events**, e.g. the [cesium-133 hyperfine transition](https://www.nist.gov/pml/time-and-frequency-division/time-realization/cesium-fountain-atomic-clocks).
 						- The **circular dial** on the traditional [clock face](https://en.wikipedia.org/wiki/Clock_face) is the symbol of circular time, showing its very circular nature.
 				- **Linear time** in popular physics and common mind:
+				  id:: 68fa148f-0ab4-4a45-894a-7a9c96d87058
 					- For most observers, time appears linear: a monotonic sequence of events measured by clocks and coordinates. Physics formalizes this as a straight axis, leading to the block-universe notion. Human cognition prefers linear sequences due to memory, language, and predictive reasoning. This externalization hides the internal circularity and treats change as a projection of pre-existing events.
 					- Linear minds try to escape the circular nature of time by stretching it into a straight line, but the self-ref is baked in, as shown in the Wikipedia page of [time](https://en.wikipedia.org/wiki/Time#Definition).
 					  > Multiple notions exist, and defining time in a manner applicable to all fields *without [circularity](https://en.wikipedia.org/wiki/Circular_definition)* has consistently eluded scholars.
