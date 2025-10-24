@@ -5385,6 +5385,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  :LOGBOOK:
 		  CLOCK: [2024-12-13 Fri 18:37:00]
 		  :END:
+			- Here-now Presentism
 			- Block universe
 			- Bulk universe: 4D spacetime is just a [brane](https://en.wikipedia.org/wiki/Brane_cosmology) within this bulk.
 			- Multiverse, parallel worlds
