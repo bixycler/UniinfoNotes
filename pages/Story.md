@@ -5098,6 +5098,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  ${\bf F}_i^{(a)} ⋅ δ{\bf r}_i = d{\bf p}_i/dt ⋅ δ{\bf r}_i$
 						- Kinetic engergy: $T = \int {\bf v} ⋅ d{\bf p} ⟹ dT/dv = {\bf p}$
 						- Potential engergy:
+					-
 		- Killing light vs healing light
 		  id:: 68e347d0-d515-42b2-a504-836f7985a597
 		  collapsed:: true
