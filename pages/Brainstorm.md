@@ -11,6 +11,14 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
+		- Full in quality = balance = zero point = wisdom = empty in quantity = free
+		  id:: 68ff4bc5-64a2-4210-add0-f6476ff1ee05
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-10-27 Mon 17:41:46]
+		  :END:
+			- ((66f4e208-37c7-4749-a448-0722f7f7af20)): full in quality (closed) + full in quantity (crystal)
+			- Be full in terms of quality instead of quantity
 		- Emptiness sucks!
 		  id:: 68f0d8f7-bdb7-492a-b161-83479cce6aa8
 		  collapsed:: true

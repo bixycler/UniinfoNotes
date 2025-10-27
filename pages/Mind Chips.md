@@ -1,8 +1,5 @@
 - ---
-- Be full in terms of quality instead of quantity
-	- Full in quality = balance = zero point = wisdom = empty in quantity = free
-- ---
-- triple intent cone -> double intent cone + perception cone
+- ((68df2d82-e1d5-49c4-ac40-d45cf26f840c)) -> double intent cone + perception cone
 - 3 levels of equality: 1 - 2 - 3 circles folded from the same content thread 🥨 
   collapsed:: true
 	- 1 circle of universe in monistic view for qualitative theory of Uniinfo, định tính

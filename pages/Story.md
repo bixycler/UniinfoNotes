@@ -5100,11 +5100,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Potential engergy:
 					-
 			- 25-26th, weekends, ...
+			  collapsed:: true
 				- [Triều cường tràn đê](https://thanhnien.vn/trieu-cuong-dang-cao-o-tphcm-nuoc-tran-bo-de-cuon-cuon-chay-vao-nha-dan-khu-thanh-da-185251024194232344.htm) ở Thanh Đa - Bình Quới, 24/10/2025, đỉnh triều cao nhất trong 6 năm qua.
 				  collapsed:: true
-					- [Hồng river floor is higher than Hanoi city.](https://www.tapchikientruc.com.vn/chuyen-muc/thuc-trang-ngap-ung-do-thi-ha-noi-giai-doan-2012-2022.html)
-						- > Nhiều khu vực ở Hà Nội có cao độ +5m, thấp hơn đáng kể so với lòng sông Hồng (có cao độ trung bình từ +7 đến +8m).
 					- [Basic theory of two tides](https://en.wikipedia.org/w/index.php?title=Tide&diff=prev&oldid=1318840901)
+					  collapsed:: true
 						- Common flaws:
 							- Treat tides as caused by the absolute strength of gravity (Sun vs Moon), rather than the differences in pull across Earth.
 							- Introduce centrifugal force as a cause of the bulges, confusing it with the equatorial bulge from Earth’s spin.
@@ -5134,8 +5134,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- [National Geographic](https://education.nationalgeographic.org/resource/cause-effect-tides/): correct and clear explanation, but merges tidal force with g force.
 								- > The tidal force exerted by the moon is strongest on the side of the Earth facing the moon. It is weakest on the side of the Earth facing the opposite direction. These differences in gravitational force allow the ocean to bulge outward in two places at the same time. One bulge occurs on the side of the Earth facing the moon. This is the moon’s direct tidal force pulling the ocean toward it. The other bulge occurs on the opposite side of the Earth. Here, the ocean bulges in the opposite direction of the moon, not toward it. The bulge may be understood as the moon’s tidal force pulling the planet (not the ocean) toward it.
 					- This reminds me of the high-school shortcuts masquerading as “physics truths”:
+					  collapsed:: true
 						- Bicycle/unicycle balance by gyroscopic effect: Traditional explanations in textbooks mentioned gyroscopic effect, but anyone who plays with bikes with a physics sense can see that geometry of steering and centrifugal effects do most of the stabilizing. Gyroscopic torque helps a little, but it’s mostly the rider/geometry negotiating the lean and turn.
 						- Candle-in-water experiment for O₂ fraction: This one’s a legendary misinterpretation. Students latch onto “the water level shows O₂ fraction”, ignoring the subtle thermodynamics. It’s really air cooling and contraction, not gas replacement, that moves the water. CO₂ isn’t the main actor here. The explanation sells a narrative that makes sense superficially but fails under scrutiny: why doesn't the produced CO₂ replace the burnt out O₂ (with the same mole) to occupy the space in the glass?!
+					- [Hồng river floor is higher than Hanoi city.](https://www.tapchikientruc.com.vn/chuyen-muc/thuc-trang-ngap-ung-do-thi-ha-noi-giai-doan-2012-2022.html)
+						- > Nhiều khu vực ở Hà Nội có cao độ +5m, thấp hơn đáng kể so với lòng sông Hồng (có cao độ trung bình từ +7 đến +8m).
+				- ((68ff4bc5-64a2-4210-add0-f6476ff1ee05))
 				- Llion Jones, a coauthor of the transformer architecture has been [sick of transformer](https://venturebeat.com/ai/sakana-ais-cto-says-hes-absolutely-sick-of-transformers-the-tech-that-powers)! 😆
 		- Killing light vs healing light
 		  id:: 68e347d0-d515-42b2-a504-836f7985a597
