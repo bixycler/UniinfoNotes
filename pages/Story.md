@@ -5103,19 +5103,26 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- [Triều cường tràn đê](https://thanhnien.vn/trieu-cuong-dang-cao-o-tphcm-nuoc-tran-bo-de-cuon-cuon-chay-vao-nha-dan-khu-thanh-da-185251024194232344.htm) ở Thanh Đa - Bình Quới, 24/10/2025, đỉnh triều cao nhất trong 6 năm qua.
 				  collapsed:: true
+					- “Hồ bơi vô cực” sông Sài Gòn ở bờ kè Thanh Đa (quán Cánh Diều)
+					  collapsed:: true
+						- ![SpringTide-ThanhDa-2025-10-24-2.png](../assets/Will/story/2025-10/SpringTide-ThanhDa-2025-10-24-2.png)
+						- ![SpringTide-ThanhDa-2025-10-24-1.png](../assets/Will/story/2025-10/SpringTide-ThanhDa-2025-10-24-1.png)
 					- [Basic theory of two tides](https://en.wikipedia.org/w/index.php?title=Tide&diff=prev&oldid=1318840901)
 					  collapsed:: true
 						- Common flaws:
+						  id:: 68ff4bc5-13a0-43a3-9587-0ef5b83c05c6
 							- Treat tides as caused by the absolute strength of gravity (Sun vs Moon), rather than the differences in pull across Earth.
 							- Introduce centrifugal force as a cause of the bulges, confusing it with the equatorial bulge from Earth’s spin.
 							- Use analogies (buckets, horizontal vs vertical pulls) that obscure the actual mechanism.
 							- Mention gravitational variation or tidal force but fail to link it clearly to the far-side bulge.
 						- Survey for explanations by well known sites
 							- [NASA](https://science.nasa.gov/moon/tides/): Highlights strongest/weakest pull but relies on analogies; connection to far-side bulge unclear.
+							  collapsed:: true
 								- > The Moon and Earth exert a gravitational pull on each other. On Earth, the Moon’s gravitational pull causes the oceans to bulge out on both the side closest to the Moon and the side farthest from the Moon. These bulges create high tides. The low points are where low tides occur.
 								- > It might seem strange that the ocean would bulge on the side farthest from the Moon as well as the side closest to it. This happens because the Moon’s gravity affects the entire Earth, pulling at every point on our planet. The strongest pull occurs on the points closest to the Moon, and the weakest on the points farthest away, but every bit of water is affected.
 								- > Now think about pouring a bucket of water out on a table. It’s easier to slide the water around on the table rather than lift it directly upwards. When the Moon’s gravity pulls at Earth, the water doesn’t float outward, it just gets pushed and squeezed around on the globe, directed by both gravitational pull and other forces, until it ultimately ends up bulging out on the side closest to the Moon and the side farthest away.
 							- [NOAA](https://www.nesdis.noaa.gov/about/k-12-education/oceans-coasts/what-causes-tides): Introduces tidal force and subtraction of average gravity, but explanation is long and technical with no clear reason for such a subtraction.
+							  collapsed:: true
 								- > The moon's gravitational pull generates something called the tidal force. The tidal force causes Earth—and its water—to bulge out on the side closest to the moon and the side farthest from the moon. These bulges of water are high tides.
 								- > When the moon's gravity pulls on the water in the oceans, however, someone's bound to notice. Water has a much easier time moving around, and the water wants to bulge in the direction of the moon. This is called the tidal force.
 								- > Because of the tidal force, the water on the side of the moon always wants to bulge out toward the moon. This bulge is what we call a high tide. As your part of the Earth rotates into this bulge of water, you might experience a high tide.
@@ -5125,15 +5132,18 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- > To get the tidal force—the force that causes the tides—we subtract this average gravitational pull on Earth from the gravitational pull at each location on Earth.
 								- > The result of the tidal force is a stretching and squashing of Earth. This is what causes the two tidal bulges.
 							- [How Stuff Works](https://science.howstuffworks.com/environmental/earth/geophysics/tide-cause.htm): Focuses on flow directions, missing the causal role of gravitational difference.
+							  collapsed:: true
 								- > Why do these bulges exist? In a nutshell, they're primarily caused by the moon's gravitational pull upon the Earth.
 								- > That force can have two separate components. It can pull matter "vertically," by which we mean perpendicularly to the Earth's surface. And it can also pull things "horizontally" — i.e., in a direction that runs parallel to the face of our planet.
 								- > It's no coincidence that the ocean bulges are highest right over those two spots. At the sublunar point and the antipodal point, the moon's gravitational pull lacks a horizontal component — something that is also missing at the two corners of the world that are located 90 degrees away from these spots.
 								- > Those four areas are unique in that regard; every other location on Earth experiences a horizontal force that pushes water molecules in the ocean toward either the sublunar point (where the moon's gravitational force is at its strongest) or the antipodal point (where the moon's gravitational pull is at its weakest). This is why the ocean bulges up over those two areas.
 							- [Britannica](https://www.britannica.com/science/tide): Mentions variation of g, but doesn’t explain far-side bulge explicitly.
+							  collapsed:: true
 								- > The tide-producing action of the Moon arises from the variations in its gravitational field over the surface of Earth as compared with its strength at Earth’s centre. The effect is that the water tends to accumulate on the parts of Earth’s surface directly toward and directly opposite the Moon and to be depleted elsewhere. The regions of accumulation move over the surface as the position of the Moon varies relative to Earth, mainly because of Earth’s rotation but also because of the Moon’s orbital motion around Earth.
 							- [National Geographic](https://education.nationalgeographic.org/resource/cause-effect-tides/): correct and clear explanation, but merges tidal force with g force.
+							  collapsed:: true
 								- > The tidal force exerted by the moon is strongest on the side of the Earth facing the moon. It is weakest on the side of the Earth facing the opposite direction. These differences in gravitational force allow the ocean to bulge outward in two places at the same time. One bulge occurs on the side of the Earth facing the moon. This is the moon’s direct tidal force pulling the ocean toward it. The other bulge occurs on the opposite side of the Earth. Here, the ocean bulges in the opposite direction of the moon, not toward it. The bulge may be understood as the moon’s tidal force pulling the planet (not the ocean) toward it.
-					- This reminds me of the high-school shortcuts masquerading as “physics truths”:
+					- The [persistent flaws in explanation of the two tidal buldges](((68ff4bc5-13a0-43a3-9587-0ef5b83c05c6))) remind me of the high-school shortcuts masquerading as “physics truths”:
 					  collapsed:: true
 						- Bicycle/unicycle balance by gyroscopic effect: Traditional explanations in textbooks mentioned gyroscopic effect, but anyone who plays with bikes with a physics sense can see that geometry of steering and centrifugal effects do most of the stabilizing. Gyroscopic torque helps a little, but it’s mostly the rider/geometry negotiating the lean and turn.
 						- Candle-in-water experiment for O₂ fraction: This one’s a legendary misinterpretation. Students latch onto “the water level shows O₂ fraction”, ignoring the subtle thermodynamics. It’s really air cooling and contraction, not gas replacement, that moves the water. CO₂ isn’t the main actor here. The explanation sells a narrative that makes sense superficially but fails under scrutiny: why doesn't the produced CO₂ replace the burnt out O₂ (with the same mole) to occupy the space in the glass?!
