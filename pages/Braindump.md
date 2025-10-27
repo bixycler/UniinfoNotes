@@ -752,6 +752,6 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- ...
 		- ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342))
-		- τ
+		- ((66f4e208-37c7-4749-a448-0722f7f7af20)): full in quality (closed) + full in quantity (crystal)
 		- ((68df2d82-e1d5-49c4-ac40-d45cf26f840c))
 		- ((68f60c71-56b6-494e-b4bb-26f1f91e3282))
