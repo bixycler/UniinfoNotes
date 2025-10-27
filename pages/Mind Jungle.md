@@ -4496,13 +4496,15 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  > Multiple notions exist, and defining time in a manner applicable to all fields *without [circularity](https://en.wikipedia.org/wiki/Circular_definition)* has consistently eluded scholars.
 					- The [problem of time](https://en.wikipedia.org/wiki/Problem_of_time)
 						- The linear time is [frozen](https://en.wikipedia.org/wiki/Problem_of_time#The_frozen_formalism_problem), static, “dead”, just an axis in the [block universe](https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time)).
+							- The [arrow of time](https://en.wikipedia.org/wiki/Arrow_of_time) cannot be found in such a static line.
 						- The linear time is universal and absolute in Quantum Mechanics, while being malleable and relative in General Relativity.
-							- Although GR's time is stilled stretched out, its complementarity with space and the deform of spacetime is
-				- **Established theories and philosophies:**
-					- **Physics:** Closed timelike curves and relativity hint at loops, but the block universe and linear time parameterizations dominate; time is mostly treated as an axis rather than a self-reflective flow.
-					- **Logic & Mathematics:** Strange loops, recursion theory, and fixed-point theorems formalize self-reference and circularity, showing paradoxes arise in linear-only perspectives.
-					- **Philosophy:** Eternal recurrence (Nietzsche), Eastern cyclic time (Hinduism, Buddhism, Daoism), and process philosophy (Whitehead, Bergson) emphasize cyclical or relational aspects of change.
-					- **Systems theory / cybernetics:** Feedback loops and self-referential systems are circular, allowing emergent dynamics invisible to purely linear observation.
+							- Although GR's time is stilled stretched out, its complementarity with space and the deformation of spacetime stem from the circular nature to spacetime.
+				- Established theories and philosophies:
+					- Physics: time is mostly treated as an axis rather than a self-reflective flow.
+						- Closed timelike curves and relativity hint at loops, but the block universe and linear time parameterizations dominate
+					- Logic & Mathematics: Strange loops, recursion theory, and fixed-point theorems formalize self-reference and circularity, showing paradoxes arise in linear-only perspectives.
+					- Philosophy: Eternal recurrence (Nietzsche), Eastern cyclic time (Hinduism, Buddhism, Daoism), and process philosophy (Whitehead, Bergson) emphasize cyclical or relational aspects of change.
+					- Systems theory & cybernetics: Feedback loops and self-referential systems are circular, allowing emergent dynamics invisible to purely linear observation.
 				- **Differential equations (DEs) perspective:**
 					- External / physics view: DEs are often treated as formulas relating rates of change to states, producing linear trajectories upon integration.
 					- Internal / Unïnfo view: DEs are **intrinsically circular loops** – next state depends on current state, just like the effect circle. The “self-diff” definition is a verbal expression of this looping mechanism, revealing the circularity hidden in traditional linear interpretation.
