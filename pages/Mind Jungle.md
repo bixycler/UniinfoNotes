@@ -4796,7 +4796,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) This is the ((67110213-d0ca-4449-811a-b51abf23bf65)), the other face of ((670d0183-aba2-438b-b749-1b550e4a906b)). While inter-form is the form viewed from the outside, for the external world to interact with this subject, co-inter-form is the form viewed from the inside, for the obop to interact with the external world. The co-inter-form is considered a part of the ((670d01e7-9f1c-4f50-8b74-d6a51d33f719)).
 			- abstract form
 			  id:: 670e0d9a-a926-49ca-951c-7013b2b29e8c
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((670e0d9a-a926-49ca-951c-7013b2b29e8c)) is a mere image of an object where the ((6678288e-699b-4325-bdba-bf6349fe0d57)) of that object is abstracted away. Abstract form is the normal meaning of the word “form”, but in ((6651ecba-793d-43c5-8020-a9f260b032d8)), we call it “mere form”, “abstract form”.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((670e0d9a-a926-49ca-951c-7013b2b29e8c)) is a mere image of an object where the ((6678288e-699b-4325-bdba-bf6349fe0d57)) of that object is abstracted away. Abstract form is the normal meaning of the word “form”, but in Unïnfo, we call it “mere form”, “abstract form”, “empty form”, and preserve the word “form” for ((66f4e208-37c7-4749-a448-0722f7f7af20)).
 			- concrete form
 			  id:: 66f4e208-37c7-4749-a448-0722f7f7af20
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), when talking about “form”, we usually mean ((66f4e208-37c7-4749-a448-0722f7f7af20)), which is the totality of ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f)) and its ((670de73b-6fe0-4366-9d81-2d631a3f3ca3)). Here we say:
