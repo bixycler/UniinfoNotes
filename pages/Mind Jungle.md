@@ -4473,6 +4473,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :LOGBOOK:
 			  CLOCK: [2025-10-23 Thu 18:13:09]
 			  :END:
+				- Dual perspectives:
+					- Internal perspective: To a **folding eye**, the “linear time” is just the circular time linearized: the rolling wheel produces the trace, which looks like a straight trajectory to external observers.
+						- Physics view: DEs are often treated as formulas relating rates of change to states, producing linear trajectories upon integration.
+					- External perspective: To a **straight eye**, the “circular time” is just the linear time folded: the timeline is folded back into complicated loops and spirals inside the subject's mind.
+				- Differential equations (DEs) perspective:
+					- Internal / Unïnfo view: DEs are **intrinsically circular loops** – next state depends on current state, just like the effect circle. The “self-diff” definition is a verbal expression of this looping mechanism, revealing the circularity hidden in traditional linear interpretation.
 				- **Circular time** in Unïnfo perspective:
 					- Time is defined by **change** which is the [difference from itself](((684f9517-30d7-40e6-b93f-3386123e381c))) (self-diff), making it intrinsically circular.
 					- Time is a **self-referential, folding, coiling flow of effects** (self-ref) embodied by the Ω-thread.
@@ -4505,16 +4511,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Logic & Mathematics: Strange loops, recursion theory, and fixed-point theorems formalize self-reference and circularity, showing paradoxes arise in linear-only perspectives.
 					- Philosophy: Eternal recurrence (Nietzsche), Eastern cyclic time (Hinduism, Buddhism, Daoism), and process philosophy (Whitehead, Bergson) emphasize cyclical or relational aspects of change.
 					- Systems theory & cybernetics: Feedback loops and self-referential systems are circular, allowing emergent dynamics invisible to purely linear observation.
-				- **Differential equations (DEs) perspective:**
-					- External / physics view: DEs are often treated as formulas relating rates of change to states, producing linear trajectories upon integration.
-					- Internal / Unïnfo view: DEs are **intrinsically circular loops** – next state depends on current state, just like the effect circle. The “self-diff” definition is a verbal expression of this looping mechanism, revealing the circularity hidden in traditional linear interpretation.
-				- **Dual perspective synthesis:**
-					- To a **folding eye** (internal perspective), circular time appears as linearized in the external view: the rolling wheel produces the trace, which looks like a straight trajectory to external observers.
-					- To a **straight eye** (external perspective), linear time conceals the hidden fold – internally, the sequence contains loops, feedback, and self-reference. What looks simple and straight externally is actually a **strange loop** internally – potentially paradoxical and dynamic.
-				- **Implications:**
-					- Linear representations of time are convenient and practical but obscure the **living, emergent dynamics** of change.
-					- Circular time highlights the self-reflective nature of change and shows that the so-called "trajectory" is the shadow of deeper loops.
-					- The tension between circular and linear perspectives is central to understanding the true nature of time and change in Unïnfo – the external and internal views are complementary, revealing both the apparent order and the hidden dynamics.
 	- ## fluid
 	  id:: 671e2794-7edd-4840-8b5d-d2def6df7666
 	  collapsed:: true
