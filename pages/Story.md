@@ -5151,6 +5151,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- > Nhiều khu vực ở Hà Nội có cao độ +5m, thấp hơn đáng kể so với lòng sông Hồng (có cao độ trung bình từ +7 đến +8m).
 				- ((68ff4bc5-64a2-4210-add0-f6476ff1ee05))
 				- Llion Jones, a coauthor of the transformer architecture has been [sick of transformer](https://venturebeat.com/ai/sakana-ais-cto-says-hes-absolutely-sick-of-transformers-the-tech-that-powers)! 😆
+			- 29th,...
+			  collapsed:: true
+				- [tldraw computer](https://computer.tldraw.com/p/nvFmYL2GyJxWHQHSqGYapY), a visual agentic AI with flowchart on canvas.
 		- Killing light vs healing light
 		  id:: 68e347d0-d515-42b2-a504-836f7985a597
 		  collapsed:: true
