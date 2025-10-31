@@ -921,8 +921,26 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :END:
 			- The [cyclone](https://en.wikipedia.org/wiki/Cyclone) and its [eye](https://en.wikipedia.org/wiki/Eye_(cyclone)) is a powerful image that i've used a lot from the begining of the balancing journey, and was first written down in the blog post “[3 cấp độ Định](https://creatzynotes.blogspot.com/2021/03/3-cap-o-inh.html)”.
 			- Cyclone and [bubble ring](https://en.wikipedia.org/wiki/Bubble_ring) are used to show the union of Circle and Arrow, as the **self-sustained subject** and **singularity**.
-			- Contemplating the cyclone, i see the ((6810ceeb-6af6-442b-9910-baae2c315c46)), the obop, [the role of wholeness](((66f29d57-a87f-4370-9f32-722922a7bff1))) in awareness and action, etc.
+			- Contemplating the cyclone, i see the ((6810ceeb-6af6-442b-9910-baae2c315c46)), the central obop, [the role of wholeness](((66f29d57-a87f-4370-9f32-722922a7bff1))) in awareness and action, etc.
+				- Being at the center of the self, the central obop is the nexus of communication and interaction for all components of the self-circle. It's the knot of effect threads and the focal point of effect flows within the self-circle.
+				  id:: 6867abcb-4e1c-493e-a38d-c7b8809dd6ad
 			- Thanks to its zero intent, the empty center = self-essence = Nibbāna = the non-self (Anattā) has infinite extent coverring everything, hence the great Self (Ātman).
+			- The more mature [the self becomes](((686670ae-d62c-4a7a-901b-a651027352b6))), the thinner its central obop is, until completely emty.
+				- Life cycle of the self
+				  id:: 686670ae-d62c-4a7a-901b-a651027352b6
+				  collapsed:: true
+					- id:: 69043439-614f-406a-8618-4253406958b8
+					  1. The formation of a self starts with the closure of its self-circle at the terminal obop, i.e. ((66e40f4b-34ae-499a-8192-0a0f4f580c7e)).
+					- 2. The self is sustained by the conserving its content in its body, i.e. ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe)).
+					- 3. The constant-sized body revolves around the obop, like the radius rotating around the center, drawing the next level of body, forming the external self-circle → [1](((69043439-614f-406a-8618-4253406958b8))).
+						- 3.1. Here, the first obop becomes the central obop, and many terminal obops emerges on the external self-circle.
+							- This folding of the body to encapsulate the central obop is like the [neurulation](https://en.wikipedia.org/wiki/Neurulation) process in human embryonic development.
+						- 3.2. The radial self-circle crystallizes into a fixed form, making the external self-circle a round circle, i.e. ((66e40f75-0573-484e-8cb6-b6b8071ffb8c)).
+							- Here, the radial self-circle has replicated into many component self-circles in the external self-circle.
+						- 3.3. The external self-circle crystallizes into a fixed form, making its central obop empty.
+							- Here, the central obop has been reflected by central obops of all the component self-circles.
+					- Examples
+						- Even though the intial “seed” at the center is solid (a concrete obop), like the [ice nucleus](https://en.wikipedia.org/wiki/Ice_nucleus), the more stable the self becomes, the thinner the center becomes. Eventually, the equilibrated self has only an emtpy center.
 			- The empty center is an **ideal obop**, an obop without self/intent, a “selfless obop”, i.e. the limit of obop when its intent approaches zero.
 				- The emtpy self-essence is just a focal point, a ((66728236-5b19-425c-bb5f-dfc0dc8b79fd)), an abstraction, not a concrete self.
 				- Being focused & projected from the ((669a5387-2a97-4311-a295-aa0afd9c4d76))s around, the visible self-essence (as an empty center) cannot exist on its own. In other words, the self-essence itself has no essence.
@@ -942,22 +960,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- In a ((6851578b-9b1f-4367-878f-79b0b0b9be51)) with multiple layers of self-circle,
 					- each self-circle has an obop which is just another self-circle inside, and
 					- the limit of this inward stepping is the self-essence, i.e. the apex of the double cone.
-			- Life cycle of the self
-			  id:: 686670ae-d62c-4a7a-901b-a651027352b6
-				- id:: 69043439-614f-406a-8618-4253406958b8
-				  1. The formation of a self starts with the closure of its self-circle at the terminal obop, i.e. ((66e40f4b-34ae-499a-8192-0a0f4f580c7e)).
-				- 2. The self is sustained by the conserving its content in its body, i.e. ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe)).
-				- 3. The constant-sized body revolves around the obop, like the radius rotating around the center, drawing the next level of body, forming the external self-circle → [1](((69043439-614f-406a-8618-4253406958b8))).
-					- 3.1. Here, the first obop becomes the central obop, and many terminal obops emerges on the external self-circle.
-						- This folding of the body to encapsulate the central obop is like the [neurulation](https://en.wikipedia.org/wiki/Neurulation) process in human embryonic development.
-					- 3.2. The radial self-circle crystallizes into a fixed form, making the external self-circle a round circle, i.e. ((66e40f75-0573-484e-8cb6-b6b8071ffb8c)).
-						- Here, the radial self-circle has replicated into many component self-circles in the external self-circle.
-					- 3.3. The external self-circle crystallizes into a fixed form, making its central obop empty.
-						- Here, the central obop has been reflected by central obops of all the component self-circles.
-				- Examples
-					- Even though the intial “seed” at the center is solid (a concrete obop), like the [ice nucleus](https://en.wikipedia.org/wiki/Ice_nucleus), the more stable the self becomes, the thinner the center becomes. Eventually, the equilibrated self has only an emtpy center.
-				- Being at the center of the self, the central obop is the nexus of communication and interaction for all components of the self-circle. It's the knot of effect threads and the focal point of effect flows within the self-circle.
-				  id:: 6867abcb-4e1c-493e-a38d-c7b8809dd6ad
 			- ((6667abd2-14eb-4145-b9e3-e6f3037b3117))
 			  collapsed:: true
 				- In Sep 2024, from the [chat with Huy](((681826b0-6116-418e-8aa1-188314a5eac6))), i added [a task](((66faa5fa-b843-490d-a7b3-a2400c11be86))) to...
