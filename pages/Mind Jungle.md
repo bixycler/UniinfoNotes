@@ -524,7 +524,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 686670ae-d62c-4a7a-901b-a651027352b6
 		  collapsed:: true
 			- id:: 69043439-614f-406a-8618-4253406958b8
-			  1. The formation of a self starts with the closure of its self-circle at the terminal obop, i.e. ((66e40f4b-34ae-499a-8192-0a0f4f580c7e)).
+			  1. The formation of a self starts with the closure of its ((669a5387-2a97-4311-a295-aa0afd9c4d76)) at the terminal obop, i.e. ((66e40f4b-34ae-499a-8192-0a0f4f580c7e)).
 			- 2. The self is sustained by the conserving its content in its body, i.e. ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe)).
 			- 3. The constant-sized body revolves around the obop, like the radius rotating around the center, drawing the next level of body, forming the external self-circle → [1](((69043439-614f-406a-8618-4253406958b8))).
 				- 3.1. Here, the first obop becomes the central obop, and many terminal obops emerges on the external self-circle.
@@ -535,7 +535,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Here, the central obop has been reflected by central obops of all the component self-circles.
 					- The empty center is the ((66c8772a-9b29-45b0-b169-2fa847333e02)) of the self, being [the focal point](((68665be1-f6a9-4121-859a-ec43ae37b5bf))) for all components to align themselves.
 					- The emptiness of the central obop (self-essence) mirrors the emptiness of the terminal obops.
-						- The dense & hard core of the self is not an obop, but the compression of many layers of inner self-circles. However, it's usually confused with the central obop because it encapsulates the obop, just like the eyewall of the storm.
+			- Over time, the ((6810ceeb-6af6-442b-9910-baae2c315c46)) becomes complicated with many layers of self-circles.
+			- The dense & hard core of the self is the hard self of the central obop, which is compressed from many layers of inner self-circles. However, it's usually confused with the central obop because it encapsulates the obop, just like the eyewall of the storm.
 			- Examples
 				- Cultural movements
 					- The founder is the solid seed that grows the movement.
@@ -591,11 +592,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  collapsed:: true
 					- Layers of the self, i.e. ((669a5387-2a97-4311-a295-aa0afd9c4d76))s, are the rain bands and the eyewall.
 					  id:: 684f9518-69b3-415b-9c0e-2ed68395f531
-						- To a self-circle, the  outer layer is the ((66c810a0-9861-4787-bdcf-1378219332be)) of that self-circle, the inner layer is the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) providing both ((66f267f7-01f9-47b9-8376-abd27fdf2930)) and ((66727858-979d-4d95-8a90-7a749218cfba)) to the body. The inner most layer, i.e. the eyewall, is the ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)).
+						- To a self-circle containing inner self-circles, the outer layer is its ((66c810a0-9861-4787-bdcf-1378219332be)), and the inner circles are selful ((94e87dc9-71af-477c-aa70-0f448c2f1e20))s providing both ((66f267f7-01f9-47b9-8376-abd27fdf2930)) and ((66727858-979d-4d95-8a90-7a749218cfba)) to the body.
 						  :LOGBOOK:
 						  CLOCK: [2025-05-16 Fri 14:23:32]
 						  :END:
-					- The eye, inside the eye wall, is the ((66c8772a-9b29-45b0-b169-2fa847333e02)).
+						- The inner most layer, i.e. the eyewall, is the ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)).
+					- The eye, inside the eye wall, is the ((66c8772a-9b29-45b0-b169-2fa847333e02)) which is the selfless obop.
 					  id:: 681826ad-768c-4671-b575-0d9f8ca64c6b
 					- The outflow cirrus shield is the ((66ab6161-0306-42d5-ac16-4155c69216f5)) of the self, i.e. the physical ((66c810a0-9861-4787-bdcf-1378219332be)), in contrast to the mental bodies (inner self-circles, ((67f90bf0-ebcd-46fa-b99d-eda9bbbd3522))).
 					- Rising and falling air flows are **effect fluxes**, i.e. segments of the ((667c0031-0a87-44c9-9e98-6d45893b095f)) through the ((6810d7ab-c35d-491e-9e2d-95c3024c276e)).
