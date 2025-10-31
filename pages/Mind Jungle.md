@@ -531,12 +531,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- This folding of the body to encapsulate the central obop is like the [neurulation](https://en.wikipedia.org/wiki/Neurulation) process in human embryonic development.
 				- 3.2. The radial self-circle crystallizes into a fixed form, making the external self-circle a round circle, i.e. ((66e40f75-0573-484e-8cb6-b6b8071ffb8c)).
 					- Here, the radial self-circle has replicated into many component self-circles in the external self-circle.
-				- 3.3. The external self-circle crystallizes into a fixed form, making its central obop empty.
-					- Here, the central obop has been reflected by central obops of all the component self-circles.
-					- The empty center is the ((66c8772a-9b29-45b0-b169-2fa847333e02)) of the self, being [the focal point](((68665be1-f6a9-4121-859a-ec43ae37b5bf))) for all components to align themselves.
-					- The emptiness of the central obop (self-essence) mirrors the emptiness of the terminal obops.
-			- Over time, the ((6810ceeb-6af6-442b-9910-baae2c315c46)) becomes complicated with many layers of self-circles.
-			- The dense & hard core of the self is the hard self of the central obop, which is compressed from many layers of inner self-circles. However, it's usually confused with the central obop because it encapsulates the obop, just like the eyewall of the storm.
+				- 3.3. Over time, the ((6810ceeb-6af6-442b-9910-baae2c315c46)) becomes complicated with many layers of self-circles.
+					- Many layers of inner self-circles are compressed (due to spatial distortion) into a dense & hard core of the self, being the hard self of the central obop.
+					-
+				- 3.4. The external self-circle crystallizes into a fixed form, making its inner most obop empty.
+					- Here, the inner most obop has been reflected by central obops of all the component self-circles.
+					- The empty center is the ((66c8772a-9b29-45b0-b169-2fa847333e02)), being [the focal point](((68665be1-f6a9-4121-859a-ec43ae37b5bf))) for all components to align themselves.
+					- The emptiness of the inner most obop (self-essence) mirrors the emptiness of the terminal obops.
 			- Examples
 				- Cultural movements
 					- The founder is the solid seed that grows the movement.
