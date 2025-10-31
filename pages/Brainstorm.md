@@ -948,10 +948,12 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  1. The formation of a self starts with the closure of its self-circle at the terminal obop, i.e. ((66e40f4b-34ae-499a-8192-0a0f4f580c7e)).
 				- 2. The self is sustained by the conserving its content in its body, i.e. ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe)).
 				- 3. The constant-sized body revolves around the obop, like the radius rotating around the center, drawing the next level of body, forming the external self-circle → [1](((69043439-614f-406a-8618-4253406958b8))).
-					- Here, the first obop becomes the central obop, and many terminal obops emerges on the external self-circle.
+					- 3.1. Here, the first obop becomes the central obop, and many terminal obops emerges on the external self-circle.
 						- This folding of the body to encapsulate the central obop is like the [neurulation](https://en.wikipedia.org/wiki/Neurulation) process in human embryonic development.
-					- The radial self-circle crystallizes into a fixed form, making the external self-circle a round circle, i.e. ((66e40f75-0573-484e-8cb6-b6b8071ffb8c)).
-					- The external self-circle crystallizes into a fixed form, making its central obop empty.
+					- 3.2. The radial self-circle crystallizes into a fixed form, making the external self-circle a round circle, i.e. ((66e40f75-0573-484e-8cb6-b6b8071ffb8c)).
+						- Here, the radial self-circle has replicated into many component self-circles in the external self-circle.
+					- 3.3. The external self-circle crystallizes into a fixed form, making its central obop empty.
+						- Here, the radial self-circle has been  central obop has been reflected by central obop of all of
 				- Examples
 					- Even though the intial “seed” at the center is solid (a concrete obop), like the [ice nucleus](https://en.wikipedia.org/wiki/Ice_nucleus), the more stable the self becomes, the thinner the center becomes. Eventually, the equilibrated self has only an emtpy center.
 				- Being at the center of the self, the obop is the nexus of communication and interaction for all components of the self-circle. It's the knot of effect threads and the focal point of effect flows within the self-circle.
