@@ -949,7 +949,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- The constant-sized body revolves around the obop, like the radius rotating around the center, drawing the next level of body, forming the external self-circle.
 					- Here, the first obop becomes the central obop, and many terminal obops emerges on the external self-circle.
 					- The radial self-circle crystallizes into a fixed form, making the external self-circle a round circle, i.e. ((66e40f75-0573-484e-8cb6-b6b8071ffb8c)).
-					- The external self-circle crystallizes into a fixed form, making the
+					- The external self-circle crystallizes into a fixed form, making its central obop empty.
 				- Examples
 					- Even though the intial “seed” at the center is solid (a concrete obop), like the [ice nucleus](https://en.wikipedia.org/wiki/Ice_nucleus), the more stable the self becomes, the thinner the center becomes. Eventually, the equilibrated self has only an emtpy center.
 				- Being at the center of the self, the obop is the nexus of communication and interaction for all components of the self-circle. It's the knot of effect threads and the focal point of effect flows within the self-circle.
