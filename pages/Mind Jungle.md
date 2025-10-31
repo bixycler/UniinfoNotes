@@ -534,6 +534,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- 3.3. The external self-circle crystallizes into a fixed form, making its central obop empty.
 					- Here, the central obop has been reflected by central obops of all the component self-circles.
 					- The empty center is the ((66c8772a-9b29-45b0-b169-2fa847333e02)) of the self, being [the focal point](((68665be1-f6a9-4121-859a-ec43ae37b5bf))) for all components to align themselves.
+					- The emptiness of the central obop (self-essence) mirrors the emptiness of the terminal obop.
+						- The dense & hard core of the self is not an obop, but its
 			- Examples
 				- Cultural movements
 					- The founder is the solid seed that grows the movement.
