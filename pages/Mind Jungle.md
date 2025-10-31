@@ -520,6 +520,23 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667c015e-6223-4f8a-ae84-a93a49f4ff94))
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Self
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) of a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) is a ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) of ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) from that subject to itself, i.e. the ((667c0031-0a87-44c9-9e98-6d45893b095f)) of that subject. Each subject may have many selves expressed as different ((669a5387-2a97-4311-a295-aa0afd9c4d76))s, but we ususally call the master self at the current moment “the self” and “the self-circle”. This circle can be seen as an [objective concept](https://en.wikipedia.org/wiki/Philosophy_of_self) of ((6810ceeb-6af6-442b-9910-baae2c315c46)), or as a subjective ((67f9100a-b749-4354-ae16-92dc74ff27da)).
+		- ### life cycle of self
+		  id:: 686670ae-d62c-4a7a-901b-a651027352b6
+		  collapsed:: true
+			- id:: 69043439-614f-406a-8618-4253406958b8
+			  1. The formation of a self starts with the closure of its self-circle at the terminal obop, i.e. ((66e40f4b-34ae-499a-8192-0a0f4f580c7e)).
+			- 2. The self is sustained by the conserving its content in its body, i.e. ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe)).
+			- 3. The constant-sized body revolves around the obop, like the radius rotating around the center, drawing the next level of body, forming the external self-circle → [1](((69043439-614f-406a-8618-4253406958b8))).
+				- 3.1. Here, the first obop becomes the central obop, and many terminal obops emerges on the external self-circle.
+					- This folding of the body to encapsulate the central obop is like the [neurulation](https://en.wikipedia.org/wiki/Neurulation) process in human embryonic development.
+				- 3.2. The radial self-circle crystallizes into a fixed form, making the external self-circle a round circle, i.e. ((66e40f75-0573-484e-8cb6-b6b8071ffb8c)).
+					- Here, the radial self-circle has replicated into many component self-circles in the external self-circle.
+				- 3.3. The external self-circle crystallizes into a fixed form, making its central obop empty.
+					- Here, the central obop has been reflected by central obops of all the component self-circles.
+			- Examples
+				- Crystals & snowflakes:
+					- Formation via [nucleation](https://en.wikipedia.org/wiki/Nucleation): The intial “seed” is solid (a concrete obop), like the [ice nucleus](https://en.wikipedia.org/wiki/Ice_nucleus),
+					- the more stable the self becomes, the thinner the center becomes. Eventually, the equilibrated self has only an emtpy center.
 		- ### self-circle
 		  id:: 669a5387-2a97-4311-a295-aa0afd9c4d76
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((6810d7ab-c35d-491e-9e2d-95c3024c276e))
