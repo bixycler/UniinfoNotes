@@ -4241,7 +4241,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6889c11f-e881-432f-ba0f-876b61afc60c))
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In order to reveal the ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) in the ((6889a623-34cd-4b65-8a91-5cfdbb199b71)) and escape its domination, we must look behind the ((669a2886-9e03-41a4-a790-24bf6b7dcd96))s.
 					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-						- Because ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) is what's behind the eyes, it is normally invisible, hidden boss.
+						- Because ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) is what's behind the eyes, it is normally an invisible, hidden boss.
 						  id:: 68a520bf-adba-4d78-9e3d-5f41de9f8153
 						  collapsed:: true
 						  :LOGBOOK:
@@ -4249,7 +4249,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  :END:
 							- The [intent chain](((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))), like the [chain/train of thought](https://en.wikipedia.org/wiki/Train_of_thought), is modeled in Uninet Theory as the hierarchical ((68df2d82-e1d5-49c4-ac40-d45cf26f840c)) from the ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)) to the center obop, i.e. *behind the screen*.
 								- In projective geometry, the intent cone intends behind the ((68a7d179-b663-42bd-85b9-6c18be6b6c97)) toward the ((66728236-5b19-425c-bb5f-dfc0dc8b79fd)).
-							- Because all intents are just accumulation of past actions (karma), like the [growth rings](https://simple.wikipedia.org/wiki/Growth_ring), the intent cone which determines how the world is seen (giving forms to object's content) is just a slice of the past reactivated.
+							- Because all intents are just accumulation of past actions (karma), like the [growth rings](https://simple.wikipedia.org/wiki/Growth_ring), the ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) which determines how the world is seen (giving forms to object's content) is just a slice of the past reactivated.
 								- Growth rings model of intent cone
 								  collapsed:: true
 									- ![intent-cone-growth-ring.png](../assets/Uniinfo/uninet/intent-cone-growth-ring.png){:width 300}
