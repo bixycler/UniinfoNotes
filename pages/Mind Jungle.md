@@ -533,7 +533,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Here, the radial self-circle has replicated into many component self-circles in the external self-circle.
 				- 3.3. The external self-circle crystallizes into a fixed form, making its central obop empty.
 					- Here, the central obop has been reflected by central obops of all the component self-circles.
-					- The empty center is the ((66c8772a-9b29-45b0-b169-2fa847333e02)) of the self, being the focal point for all components to align themselves.
+					- The empty center is the ((66c8772a-9b29-45b0-b169-2fa847333e02)) of the self, being [the focal point](((68665be1-f6a9-4121-859a-ec43ae37b5bf))) for all components to align themselves.
 			- Examples
 				- Crystals & snowflakes:
 					- Formation via [nucleation](https://en.wikipedia.org/wiki/Nucleation): The intial “seed” is solid (a concrete obop), like the [ice nucleus](https://en.wikipedia.org/wiki/Ice_nucleus), attracting contents from environment to grow the crystal.

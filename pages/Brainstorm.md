@@ -928,14 +928,15 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- The more mature [the self becomes](((686670ae-d62c-4a7a-901b-a651027352b6))), the thinner its central obop is, until completely emty.
 			- Thanks to its zero intent, the empty center = self-essence = Nibbāna = the non-self (Anattā) has infinite extent coverring everything, hence the great Self (Ātman).
 			- The empty center is an **ideal obop**, an obop without self/intent, a “selfless obop”, i.e. the limit of obop when its intent approaches zero.
+			  id:: 68665be1-f6a9-4121-859a-ec43ae37b5bf
 				- The emtpy self-essence is just a focal point, a ((66728236-5b19-425c-bb5f-dfc0dc8b79fd)), an abstraction, not a concrete self.
-				- Being focused & projected from the ((669a5387-2a97-4311-a295-aa0afd9c4d76))s around, the visible self-essence (as an empty center) cannot exist on its own. In other words, the self-essence itself has no essence.
+				- Being focused & projected from the ((669a5387-2a97-4311-a295-aa0afd9c4d76))s around, the self-essence (as an empty center) cannot exist on its own. In other words, the self-essence itself has no essence.
+				- When the self components all align and focus to the empty center, such a virtual point can be very stable, because it's stablized by the whole self-circle.
+					- An interesting example is the [spherical flexure joint](((68c76471-4656-43c9-8f5a-76b25a33b9d0))).
 				- The “invisible self-essence”, usually called “Nibbāna”, is immanent in everything. In other words, everything has a self-essence which is empty. This immanence is because nothing can obstruct a thing with zero intent, thus the zero-intent Nibbāna permeates everything.
 				- Though empty, the central role of the self-essence in the self makes it essential to every self.
 					- All parts of the self-circle are integrated by focusing on the same center. Via that center, they all are one, seeing/feeling/treating each other as the same ((66c810a0-9861-4787-bdcf-1378219332be)) of self.
 					- When a self-circle loses its center, it just ceases to exist as itself and disintegrates into smaller circles.
-					- When the self components all align and focus to the empty center, such a virtual point can be very stable, because it's stablized by the whole self-circle.
-						- An interesting example is the [spherical flexure joint](((68c76471-4656-43c9-8f5a-76b25a33b9d0))).
 					- Such essence of the empty center can be seen in the hub of the wheel.
 						- [wheel of dharma](https://en.wikipedia.org/wiki/Dharmachakra)
 							- ![Dharma_Wheel.svg](../assets/Uniinfo/Metaphysics/Dharma_Wheel.svg){:width 100}
