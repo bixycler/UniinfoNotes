@@ -533,6 +533,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Here, the radial self-circle has replicated into many component self-circles in the external self-circle.
 				- 3.3. The external self-circle crystallizes into a fixed form, making its central obop empty.
 					- Here, the central obop has been reflected by central obops of all the component self-circles.
+					- The empty center is the ((66c8772a-9b29-45b0-b169-2fa847333e02)) o
 			- Examples
 				- Crystals & snowflakes:
 					- Formation via [nucleation](https://en.wikipedia.org/wiki/Nucleation): The intial “seed” is solid (a concrete obop), like the [ice nucleus](https://en.wikipedia.org/wiki/Ice_nucleus), attracting contents from environment to grow the crystal.
@@ -541,8 +542,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- ![hollow-column-snowflake-diagram.jpg](../assets/physics/hollow-column-snowflake-diagram.jpg)
 						- ![hollow-column-snowflake-photo.jpg](../assets/physics/hollow-column-snowflake-photo.jpg)
 						- Ref: [Stunning Photos of Snowflakes and a Snow Flake Guide](https://fortifymylife.wordpress.com/2013/12/08/stunning-photos-of-snowflakes-and-a-snow-flake-guide/)
+				- Cultural founders:
+					- The founder is the solid seed that grows the movement.
+					- The movement often thrives when the founder’s control or presence fades.
+					- Passing away, the founder becomes the symbol in participants' hearts.
 				- Stars:
-					- Nuclear fusion eats the core that created the star. Eventually equilibrium breaks, the dense heart either collapses or blows apart, seeding new systems.
+					- Nuclear fusion eats the core that created the star.
+					- Eventually, the dense heart either collapses or blows apart, seeding new systems.
 		- ### self-circle
 		  id:: 669a5387-2a97-4311-a295-aa0afd9c4d76
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((6810d7ab-c35d-491e-9e2d-95c3024c276e))
