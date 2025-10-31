@@ -5154,6 +5154,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 29th,...
 			  collapsed:: true
 				- [tldraw computer](https://computer.tldraw.com/p/nvFmYL2GyJxWHQHSqGYapY), a visual agentic AI with flowchart on canvas.
+			- 31st, ...
+			  collapsed:: true
+				- ((68a7e4c1-b26f-41fc-9e2d-f62789a2a9d3))
+				- ((686670ae-d62c-4a7a-901b-a651027352b6))
 		- Killing light vs healing light
 		  id:: 68e347d0-d515-42b2-a504-836f7985a597
 		  collapsed:: true
@@ -5178,4 +5182,5 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((68dc9f21-1057-4ac0-be4c-61c9010d7f78))
+		  id:: 688c70c8-1772-4007-bdf0-d621db895411
 		- ...

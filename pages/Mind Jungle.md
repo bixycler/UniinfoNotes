@@ -4250,6 +4250,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- The [intent chain](((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))), like the [chain/train of thought](https://en.wikipedia.org/wiki/Train_of_thought), is modeled in Uninet Theory as the hierarchical ((68df2d82-e1d5-49c4-ac40-d45cf26f840c)) from the ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)) to the center obop, i.e. *behind the screen*.
 								- In projective geometry, the intent cone intends behind the ((68a7d179-b663-42bd-85b9-6c18be6b6c97)) toward the ((66728236-5b19-425c-bb5f-dfc0dc8b79fd)).
 							- Because all intents are just accumulation of past actions (karma), like the [growth rings](https://simple.wikipedia.org/wiki/Growth_ring), the ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) which determines how the world is seen (giving forms to object's content) is just a slice of the past reactivated.
+							  id:: 68a7e4c1-b26f-41fc-9e2d-f62789a2a9d3
 								- Growth rings model of intent cone
 								  collapsed:: true
 									- ![intent-cone-growth-ring.png](../assets/Uniinfo/uninet/intent-cone-growth-ring.png){:width 300}
