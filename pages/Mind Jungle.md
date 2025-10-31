@@ -534,8 +534,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- 3.3. The external self-circle crystallizes into a fixed form, making its central obop empty.
 					- Here, the central obop has been reflected by central obops of all the component self-circles.
 					- The empty center is the ((66c8772a-9b29-45b0-b169-2fa847333e02)) of the self, being [the focal point](((68665be1-f6a9-4121-859a-ec43ae37b5bf))) for all components to align themselves.
-					- The emptiness of the central obop (self-essence) mirrors the emptiness of the terminal obop.
-						- The dense & hard core of the self is not an obop, but its
+					- The emptiness of the central obop (self-essence) mirrors the emptiness of the terminal obops.
+						- The dense & hard core of the self is not an obop, but the compression of many layers of inner self-circles. However, it's usually confused with the central obop because it encapsulates the obop, just like the eyewall of the storm.
 			- Examples
 				- Cultural movements
 					- The founder is the solid seed that grows the movement.
@@ -586,11 +586,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6810ceeb-6af6-442b-9910-baae2c315c46)), i.e. the ((6678d596-9526-405a-968c-e73860e524f3)) of the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), contains all ((669a5387-2a97-4311-a295-aa0afd9c4d76))s as the spatial slice, called the ((6810d7ab-c35d-491e-9e2d-95c3024c276e)), as well ass the whole ((667c0031-0a87-44c9-9e98-6d45893b095f)) through that slice.
 				- Note: This “self-structure”, the structure of the whole self, is wider than the [self-concept](https://en.wikipedia.org/wiki/Self-concept), also called “self-structure” elsewhere, which is the structure of the ((669a5387-2a97-4311-a295-aa0afd9c4d76)) only.
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-				- Hurricane's structure represents the ((6810ceeb-6af6-442b-9910-baae2c315c46)).
+				- Storm's structure represents the ((6810ceeb-6af6-442b-9910-baae2c315c46)).
 				  id:: 673312a3-e94e-478f-9e21-bad72ef29d1b
 				  collapsed:: true
-					- Layers of the self, i.e. ((669a5387-2a97-4311-a295-aa0afd9c4d76))s, are the rain bands and the eye wall.
-						- To a self-circle, while the outer layer is the ((66c810a0-9861-4787-bdcf-1378219332be)) of that self-circle, the inner layer is the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) providing both ((66f267f7-01f9-47b9-8376-abd27fdf2930)) and ((66727858-979d-4d95-8a90-7a749218cfba)) for the body. The inner most layer, i.e. the eye wall, is the ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)).
+					- Layers of the self, i.e. ((669a5387-2a97-4311-a295-aa0afd9c4d76))s, are the rain bands and the eyewall.
+					  id:: 684f9518-69b3-415b-9c0e-2ed68395f531
+						- To a self-circle, the  outer layer is the ((66c810a0-9861-4787-bdcf-1378219332be)) of that self-circle, the inner layer is the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) providing both ((66f267f7-01f9-47b9-8376-abd27fdf2930)) and ((66727858-979d-4d95-8a90-7a749218cfba)) to the body. The inner most layer, i.e. the eyewall, is the ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)).
 						  :LOGBOOK:
 						  CLOCK: [2025-05-16 Fri 14:23:32]
 						  :END:
