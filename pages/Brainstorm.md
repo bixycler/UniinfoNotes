@@ -953,7 +953,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- 3.2. The radial self-circle crystallizes into a fixed form, making the external self-circle a round circle, i.e. ((66e40f75-0573-484e-8cb6-b6b8071ffb8c)).
 						- Here, the radial self-circle has replicated into many component self-circles in the external self-circle.
 					- 3.3. The external self-circle crystallizes into a fixed form, making its central obop empty.
-						- Here, the radial self-circle has been  central obop has been reflected by central obop of all of
+						- Here, the central obop has been reflected by central obops of all the component self-circles.
 				- Examples
 					- Even though the intial “seed” at the center is solid (a concrete obop), like the [ice nucleus](https://en.wikipedia.org/wiki/Ice_nucleus), the more stable the self becomes, the thinner the center becomes. Eventually, the equilibrated self has only an emtpy center.
 				- Being at the center of the self, the obop is the nexus of communication and interaction for all components of the self-circle. It's the knot of effect threads and the focal point of effect flows within the self-circle.
