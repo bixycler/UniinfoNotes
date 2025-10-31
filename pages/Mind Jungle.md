@@ -589,7 +589,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6810ceeb-6af6-442b-9910-baae2c315c46)), i.e. the ((6678d596-9526-405a-968c-e73860e524f3)) of the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), contains all ((669a5387-2a97-4311-a295-aa0afd9c4d76))s as the spatial slice, called the ((6810d7ab-c35d-491e-9e2d-95c3024c276e)), as well ass the whole ((667c0031-0a87-44c9-9e98-6d45893b095f)) through that slice.
 				- Note: This “self-structure”, the structure of the whole self, is wider than the [self-concept](https://en.wikipedia.org/wiki/Self-concept), also called “self-structure” elsewhere, which is the structure of the ((669a5387-2a97-4311-a295-aa0afd9c4d76)) only.
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-				- Storm's structure represents the ((6810ceeb-6af6-442b-9910-baae2c315c46)).
+				- The cyclone's structure represents the ((6810ceeb-6af6-442b-9910-baae2c315c46)).
 				  id:: 673312a3-e94e-478f-9e21-bad72ef29d1b
 				  collapsed:: true
 					- Layers of the self, i.e. ((669a5387-2a97-4311-a295-aa0afd9c4d76))s, are the rain bands and the eyewall.
@@ -599,7 +599,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  CLOCK: [2025-05-16 Fri 14:23:32]
 						  :END:
 						- The inner most layer, i.e. the eyewall, is the ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)).
-					- The eye, inside the eye wall, is the ((66c8772a-9b29-45b0-b169-2fa847333e02)) which is the selfless obop.
+					- The [cyclone eye](https://en.wikipedia.org/wiki/Eye_(cyclone)), inside the eyewall, is the ((66c8772a-9b29-45b0-b169-2fa847333e02)) which is the selfless obop.
 					  id:: 681826ad-768c-4671-b575-0d9f8ca64c6b
 					- The outflow cirrus shield is the ((66ab6161-0306-42d5-ac16-4155c69216f5)) of the self, i.e. the physical ((66c810a0-9861-4787-bdcf-1378219332be)), in contrast to the mental bodies (inner self-circles, ((67f90bf0-ebcd-46fa-b99d-eda9bbbd3522))).
 					- Rising and falling air flows are **effect fluxes**, i.e. segments of the ((667c0031-0a87-44c9-9e98-6d45893b095f)) through the ((6810d7ab-c35d-491e-9e2d-95c3024c276e)).

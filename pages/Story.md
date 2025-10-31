@@ -5159,6 +5159,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				-
 				- ((68a7e4c1-b26f-41fc-9e2d-f62789a2a9d3))
 				- ((686670ae-d62c-4a7a-901b-a651027352b6))
+				- Un interesting way of plotting prime numbers: [The Prime Scalar Field](https://theprimescalarfield.com/)
 		- Killing light vs healing light
 		  id:: 68e347d0-d515-42b2-a504-836f7985a597
 		  collapsed:: true
