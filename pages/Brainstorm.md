@@ -949,6 +949,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- 2. The self is sustained by the conserving its content in its body, i.e. ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe)).
 				- 3. The constant-sized body revolves around the obop, like the radius rotating around the center, drawing the next level of body, forming the external self-circle → [1](((69043439-614f-406a-8618-4253406958b8))).
 					- Here, the first obop becomes the central obop, and many terminal obops emerges on the external self-circle.
+						- This folding of the body to encapsulate the central obop is like the [neurulation](https://en.wikipedia.org/wiki/Neurulation) process in human embryonic development.
 					- The radial self-circle crystallizes into a fixed form, making the external self-circle a round circle, i.e. ((66e40f75-0573-484e-8cb6-b6b8071ffb8c)).
 					- The external self-circle crystallizes into a fixed form, making its central obop empty.
 				- Examples
