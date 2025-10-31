@@ -944,9 +944,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- the limit of this inward stepping is the self-essence, i.e. the apex of the double cone.
 			- Life cycle of the self
 			  id:: 686670ae-d62c-4a7a-901b-a651027352b6
-				- The formation of a self starts with the closure of its self-circle at the terminal obop, i.e. ((66e40f4b-34ae-499a-8192-0a0f4f580c7e)).
-				- The self is sustained by the conserving its content in its body, i.e. ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe)).
-				- The constant-sized body revolves around the obop, like the radius rotating around the center, drawing the next level of body, forming the external self-circle.
+				- id:: 69043439-614f-406a-8618-4253406958b8
+				  1. The formation of a self starts with the closure of its self-circle at the terminal obop, i.e. ((66e40f4b-34ae-499a-8192-0a0f4f580c7e)).
+				- 2. The self is sustained by the conserving its content in its body, i.e. ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe)).
+				- 3. The constant-sized body revolves around the obop, like the radius rotating around the center, drawing the next level of body, forming the external self-circle → [1](((69043439-614f-406a-8618-4253406958b8))).
 					- Here, the first obop becomes the central obop, and many terminal obops emerges on the external self-circle.
 					- The radial self-circle crystallizes into a fixed form, making the external self-circle a round circle, i.e. ((66e40f75-0573-484e-8cb6-b6b8071ffb8c)).
 					- The external self-circle crystallizes into a fixed form, making its central obop empty.
