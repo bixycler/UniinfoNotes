@@ -538,7 +538,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Here, the inner most obop has been reflected by central obops of all the component self-circles.
 					- Its intent has been cancelled out by the complete balance.
 					- The empty center is the ((66c8772a-9b29-45b0-b169-2fa847333e02)), being [the focal point](((68665be1-f6a9-4121-859a-ec43ae37b5bf))) for all components to align themselves.
-					- The emptiness of the inner most obop (self-essence) mirrors the emptiness of the terminal obops.
+					- The emptiness of the inner most obop (self-essence) mirrors the emptiness of the terminal obops, making the [grand circle](((6772a6cd-771f-4f24-9c3a-39c442234be5))) of ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2)).
 			- Examples
 				- Cultural movements
 					- The founder is the solid seed that grows the movement.
@@ -1077,7 +1077,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Structure
 					- ((6678288e-699b-4325-bdba-bf6349fe0d57))s: ...
 					- ((665ca429-84e3-49ff-921e-c07d19cd99ba)): ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) ((667d15c6-67c4-4998-a549-c8b3f9de3d60))
-					- ((94e87dc9-71af-477c-aa70-0f448c2f1e20)): ((66ab7477-c060-4d07-ab13-bc3d11246854))
+					- ((94e87dc9-71af-477c-aa70-0f448c2f1e20)): ((66ab7477-c060-4d07-ab13-bc3d11246854)) of symmetry
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- ((66ceeca0-a149-4fe0-85a8-9302f96eb669))
 		- ### equilibrium
