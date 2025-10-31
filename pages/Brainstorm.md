@@ -942,14 +942,16 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- In a ((6851578b-9b1f-4367-878f-79b0b0b9be51)) with multiple layers of self-circle,
 					- each self-circle has an obop which is just another self-circle inside, and
 					- the limit of this inward stepping is the self-essence, i.e. the apex of the double cone.
-			- The formation of a self starts with the closure of its self-circle, i.e. ((66e40f4b-34ae-499a-8192-0a0f4f580c7e)), 
+			- Life cycle of the self
 			  id:: 686670ae-d62c-4a7a-901b-a651027352b6
-			  sustained by the conservation of its content, i.e. ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe)), 
-			  and stablized by the central obop so that it can crystallize into a round circle i.e. ((66e40f75-0573-484e-8cb6-b6b8071ffb8c)).
+				- The formation of a self starts with the closure of its self-circle, i.e. ((66e40f4b-34ae-499a-8192-0a0f4f580c7e)),
+				- sustained by the conservation of its content, i.e. ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe)),
+				- and stablized by the central obop so that it can crystallize into a round circle i.e. ((66e40f75-0573-484e-8cb6-b6b8071ffb8c)).
 				- Even though the intial “seed” at the center is solid (a concrete obop), like the [ice nucleus](https://en.wikipedia.org/wiki/Ice_nucleus), the more stable the self becomes, the thinner the center becomes. Eventually, the equilibrated self has only an emtpy center.
 				- Being at the center of the self, the obop is the nexus of communication and interaction for all components of the self-circle. It's the knot of effect threads and the focal point of effect flows within the self-circle.
 				  id:: 6867abcb-4e1c-493e-a38d-c7b8809dd6ad
 			- ((6667abd2-14eb-4145-b9e3-e6f3037b3117))
+			  collapsed:: true
 				- In Sep 2024, from the [chat with Huy](((681826b0-6116-418e-8aa1-188314a5eac6))), i added [a task](((66faa5fa-b843-490d-a7b3-a2400c11be86))) to...
 					- write blog post "[Cái Thức thanh tịnh nơi Mắt bão](https://creatzynotes.blogspot.com/2024/09/cai-thuc-thanh-tinh-noi-mat-bao.html)";
 					- brainstorm: ((66f29d57-a87f-4370-9f32-722922a7bff1)); and
