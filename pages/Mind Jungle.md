@@ -533,9 +533,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Here, the radial self-circle has replicated into many component self-circles in the external self-circle.
 				- 3.3. Over time, the ((6810ceeb-6af6-442b-9910-baae2c315c46)) becomes complicated with many layers of self-circles.
 					- Many layers of inner self-circles are compressed (due to spatial distortion) into a dense & hard core of the self, being the hard self of the central obop.
-					-
+					- The inner most obops becomes more and more balanced, their intents cancel out approaching zero point.
 				- 3.4. The external self-circle crystallizes into a fixed form, making its inner most obop empty.
 					- Here, the inner most obop has been reflected by central obops of all the component self-circles.
+					- Its intent has been cancelled out by the complete balance.
 					- The empty center is the ((66c8772a-9b29-45b0-b169-2fa847333e02)), being [the focal point](((68665be1-f6a9-4121-859a-ec43ae37b5bf))) for all components to align themselves.
 					- The emptiness of the inner most obop (self-essence) mirrors the emptiness of the terminal obops.
 			- Examples
