@@ -536,7 +536,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Examples
 				- Crystals & snowflakes:
 					- Formation via [nucleation](https://en.wikipedia.org/wiki/Nucleation): The intial “seed” is solid (a concrete obop), like the [ice nucleus](https://en.wikipedia.org/wiki/Ice_nucleus), attracting contents from environment to grow the crystal.
-					- The more stable the crystal becomes, the thinner the center becomes. Eventually, the equilibrated self has only an emtpy center.
+					- As the crystal grows, the center can be emtpy, like axis of the hollow column.
+						- ![hollow-column-snowflake-diagram.jpg](../assets/physics/hollow-column-snowflake-diagram.jpg)
 		- ### self-circle
 		  id:: 669a5387-2a97-4311-a295-aa0afd9c4d76
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((6810d7ab-c35d-491e-9e2d-95c3024c276e))
