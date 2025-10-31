@@ -296,6 +296,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- move of joint = rotation (of previous joint) = shift = viewpoint change
 			- change of bone (size) = scaling = rotation on meta layer = viewscale change
 			- This [fixed point in thin air](https://www.thingiverse.com/thing:4841850) is interesting, as shown in [this video](https://youtu.be/ZKz0_kSFSP0). It's the static version of gyroscope, qigong, and my dream of levitating bench.
+			  id:: 68c76471-4656-43c9-8f5a-76b25a33b9d0
 				- Paper: [A new type of spherical flexure joint based on tetrahedron elements](https://www.sciencedirect.com/science/article/pii/S0141635921000726?via%3Dihub)
 				- Inversely, taking this [remote center of motion (RCM)](https://www.igi-global.com/dictionary/?p=Remote+Center+of+Motion) as the stationary base, the limbs can freely move around it.
 				- This virtual center is also the empty center of the self-essence. The whole bodymind moves just to keep this center stable.
@@ -933,6 +934,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Though empty, the central role of the self-essence in the self makes it essential to every self.
 					- All parts of the self-circle are integrated by focusing on the same center. Via that center, they all are one, seeing/feeling/treating each other as the same ((66c810a0-9861-4787-bdcf-1378219332be)) of self.
 					- When a self-circle loses its center, it just ceases to exist as itself and disintegrates into smaller circles.
+					- When the self components all align and focus to the empty center, such a virtual point can be very stable, because it's stablized by the whole self-circle.
+						- An interesting example is the [spherical flexure joint](((68c76471-4656-43c9-8f5a-76b25a33b9d0))).
 					- Such essence of the empty center can be seen in the hub of the wheel.
 						- [wheel of dharma](https://en.wikipedia.org/wiki/Dharmachakra)
 							- ![Dharma_Wheel.svg](../assets/Uniinfo/Metaphysics/Dharma_Wheel.svg){:width 100}
