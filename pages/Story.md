@@ -5191,7 +5191,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 1st-2nd, weekends ...
 			- 3rd, ...
 			  collapsed:: true
+				- The choices, the [free will](((67f91050-a86c-4176-87ca-91010a8fe3c0)))...
+					- I usually say that *i have no choice in life*, though i
 				- The implicit `default_server` of NGINX costed me hours!
+				  collapsed:: true
 					- Symptom: Being the first `server` in the config, it's been considered `default_server` implicitly by NGINX, which makes it match *any host* regardless of the `server_name` setting.
 						- [NGINX docs](https://nginx.org/en/docs/http/request_processing.html):
 						  > the default server is the first one — which is nginx’s standard default behaviour. It can also be set explicitly which server should be default, with the `default_server` parameter in the `listen` directive.
