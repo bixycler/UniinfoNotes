@@ -5191,14 +5191,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 1st-2nd, weekends ...
 			- 3rd, ...
 			  collapsed:: true
-				- The choices, the [free will](((67f91050-a86c-4176-87ca-91010a8fe3c0)))...
-					- I usually say that *i have no choices in life*: Although i may turn left, turn right, or turn back, but all of these turns are choiceless, they are all driven by external conditions and internal karma, not by myself, hence not my choices!
-					- However, in any direction, we do have choices.
-						- From the top down, the central obop can choose which action to take.
-						- From the bottom up, the terminal obop can choose which program to follow.
-					- My stance of “no choice” is atually an attachment to the absolute balance.
-					- The point of balance, the point of reference, the zero point, is actualy relative. Shifting it up, we have choices down there, shifting it down, we have choices up there.
-					- ⇒ The deeper freedom is the flexibility of the zero point.
 				- The implicit `default_server` of NGINX costed me hours!
 				  collapsed:: true
 					- Symptom: Being the first `server` in the config, it's been considered `default_server` implicitly by NGINX, which makes it match *any host* regardless of the `server_name` setting.
@@ -5213,6 +5205,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- “This must be done because it's soo small”... yeah, not very big, but still double-triple my first estimation.
 							- “This is unacceptable because it's too illogical!” Yep, it's illogical, should be avoided with better policy, like explicit default, but that the hard fact of life. Life is full of such illogical things!
 						- ⇒ Accepting the illogical, accepting the apparently small to be actually big, are what should be practised.
+				- ((69088fa3-22ca-4a2d-ba8e-4b334e0c5d9b))
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69085f61-6627-4c0a-a984-c2b5b411a292))

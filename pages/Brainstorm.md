@@ -11,6 +11,17 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
+		- The choices, the [free will](((67f91050-a86c-4176-87ca-91010a8fe3c0))), are both illusional (the absolute) and achievable (the relative).
+		  id:: 69088fa3-22ca-4a2d-ba8e-4b334e0c5d9b
+		  collapsed:: true
+			- I usually say that *i have no choices in life*: Although i may turn left, turn right, or turn back, but all of these turns are choiceless, they are all driven by external conditions and internal karma, not by myself, hence not my choices!
+			- However, in any direction, we do have choices.
+				- From the top down, the central obop can choose which action to take.
+				- From the bottom up, the terminal obop can choose which program to follow.
+			- My stance of “no choice” is atually an attachment to the absolute balance.
+			- The point of balance, the point of reference, the zero point, is actualy relative. Shifting it up, we have choices down there, shifting it down, we have choices up there.
+			- ⇒ The deeper freedom is the flexibility of the zero point.
+				- Because the zero point has no self to subjectively change, no “master” to give order, it can only be chaged by the condition (duyên) via release of attachments.
 		- Full in quality = balance = zero point = wisdom = empty in quantity = free
 		  id:: 68ff4bc5-64a2-4210-add0-f6476ff1ee05
 		  collapsed:: true
