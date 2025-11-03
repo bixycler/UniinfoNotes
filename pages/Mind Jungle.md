@@ -522,6 +522,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Self
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) of a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) is a ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) of ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) from that subject to itself, i.e. the ((667c0031-0a87-44c9-9e98-6d45893b095f)) of that subject. Each subject may have many selves expressed as different ((669a5387-2a97-4311-a295-aa0afd9c4d76))s, but we ususally call the master self at the current moment “the self” and “the self-circle”. This circle can be seen as an [objective concept](https://en.wikipedia.org/wiki/Philosophy_of_self) of ((6810ceeb-6af6-442b-9910-baae2c315c46)), or as a subjective ((67f9100a-b749-4354-ae16-92dc74ff27da)).
 		- ### life cycle of self
+		  id:: 690827cf-c19e-4fc4-ba25-5d225afe06ae
 		  collapsed:: true
 			- id:: 69043439-614f-406a-8618-4253406958b8
 			  1. The formation of a self starts with the closure of its ((669a5387-2a97-4311-a295-aa0afd9c4d76)) at the terminal obop, i.e. ((66e40f4b-34ae-499a-8192-0a0f4f580c7e)).

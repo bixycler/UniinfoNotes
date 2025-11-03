@@ -925,7 +925,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Contemplating the cyclone, i see the ((6810ceeb-6af6-442b-9910-baae2c315c46)), the central obop, [the role of wholeness](((66f29d57-a87f-4370-9f32-722922a7bff1))) in awareness and action, etc.
 				- Being at the center of the self, the central obop is the nexus of communication and interaction for all components of the self-circle. It's the knot of effect threads and the focal point of effect flows within the self-circle.
 				  id:: 6867abcb-4e1c-493e-a38d-c7b8809dd6ad
-				- The more mature [the self becomes](((686670ae-d62c-4a7a-901b-a651027352b6))), the thinner its central obop is, until completely emty.
+				- The more mature [the self becomes](((690827cf-c19e-4fc4-ba25-5d225afe06ae))), the thinner its central obop is, until completely emty.
 			- Thanks to its zero intent, the empty center = self-essence = Nibbāna = the non-self (Anattā) has infinite extent coverring everything, hence the great Self (Ātman).
 			- The empty center is an **ideal obop**, an obop without self/intent, a “selfless obop”, i.e. the limit of obop when its intent approaches zero.
 			  id:: 68665be1-f6a9-4121-859a-ec43ae37b5bf
