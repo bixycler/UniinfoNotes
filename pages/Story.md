@@ -5075,7 +5075,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- ![front between 2 anticyclones in North Pacific Ocean 2025-10-08.jpg](../assets/Will/story/2025-10/front between 2 anticyclones in North Pacific Ocean 2025-10-08.jpg)
 			- 9th, ...
 			  collapsed:: true
-				- ((684f951a-bbd6-4b6c-a59d-c7d677e965e8))
+				- ((68f1e075-0aa7-4498-8c35-32e44857eee8))
 				- Clarify that ((68e71355-f954-4c34-b7cc-009d32b6c7e0))
 			- 16th, ...
 			  collapsed:: true
@@ -5179,7 +5179,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- It's also different from the state of emptiness (infinite space) and the state of infinite consciousness.
 					- The infinite space is empty, nothing's there.
 					- The infinite consciousness desolves the bodymind into the world, no separation's there.
-					- The lucid dream desolve only the self inent, leaving all other intents freely manifest themselves, usually in a space (dream) isolated from the external world.
+					- The lucid dream desolve only the self intent, leaving all other intents freely manifest themselves, usually in a space (dream) isolated from the external world.
 					- Though not as elegant as the states of emptiness and infinite consciousness, as well as other formess states, the lucid dream – like other form states – has a useful function in the world and the life: liberated from intents while still let them function in daily life.
 		- DOING Start from the ((69086748-b6e9-47c0-810b-4a92f882d6bc))
 		  id:: 69085f61-6627-4c0a-a984-c2b5b411a292

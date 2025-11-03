@@ -864,6 +864,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- `=/=` & `=\=`: Twisted thread of complementarity, shown as the hidden (apparently broken) part `⚋` (yin) being overcrossed and shadowed by the solid part `⚊` (yang)
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- Symbols/signs for ((66c8941d-6427-4e5c-9009-3af349500d7b))
+				  id:: 68f1e075-0aa7-4498-8c35-32e44857eee8
 				  collapsed:: true
 				  :LOGBOOK:
 				  CLOCK: [2024-08-23 Fri 12:16:21]
