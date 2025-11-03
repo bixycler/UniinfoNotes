@@ -5181,8 +5181,21 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- The infinite consciousness desolves the bodymind into the world, no separation's there.
 					- The lucid dream desolve only the self inent, leaving all other intents freely manifest themselves, usually in a space (dream) isolated from the external world.
 					- Though not as elegant as the states of emptiness and infinite consciousness, as well as other formess states, the lucid dream – like other form states – has a useful function in the world and the life: liberated from intents while still let them function in daily life.
+		- DOING Start from the empty center
+		  id:: 69085f61-6627-4c0a-a984-c2b5b411a292
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-11-03 Mon 14:53:11]
+		  CLOCK: [2025-11-03 Mon 14:53:17]
+		  :END:
+			- 1st-2nd, weekends ...
+			- 3rd, ...
+			  collapsed:: true
+				- The implicit `default_server` of NGINX costed me hours!
+					-
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
+		- ((69085f61-6627-4c0a-a984-c2b5b411a292))
 		- ((68dc9f21-1057-4ac0-be4c-61c9010d7f78))
 		  id:: 688c70c8-1772-4007-bdf0-d621db895411
 		- ...
