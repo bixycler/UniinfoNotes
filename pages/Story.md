@@ -5200,9 +5200,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- E.g.: `prop=value`, `include /etc/nginx/sites-enabled/*`, `server {listen 80 default_server;}`, etc.
 						- This way, dev can look up to see if the case is a default or not.
 					- This time being caught up in this issue has shown that my perfectionism is still very strong!
-						- The eyewall, the self-circle just around the empty center, is too strong, dragging me around the all the classics:
-							- This must be done because it's "soo small"... yeah, not very big, but still double-triple my first estimation.
-							- This is unacceptable because it's too illogical! Yep, it's illogical, should be avoid with better
+						- The eyewall, the self-circle just around the empty center, is too strong, dragging me around with the all the classics:
+							- “This must be done because it's soo small”... yeah, not very big, but still double-triple my first estimation.
+							- “This is unacceptable because it's too illogical!” Yep, it's illogical, should be avoided with better policy, like explicit default, but that the hard fact of life. Life is full of such illogical things!
+						- ⇒ Accepting the illogical, accepting the apparently small to be actually big, are what should be practised.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69085f61-6627-4c0a-a984-c2b5b411a292))
