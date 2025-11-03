@@ -5192,7 +5192,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 3rd, ...
 			  collapsed:: true
 				- The implicit `default_server` of NGINX costed me hours!
-					-
+					- Symptom: Being the only `server`, it's been considered `default_server` implicitly by NGINX, which makes it match *any host* regardless of the `server_name` setting.
+					- In general, the _**implicit default** is absolutely evil!_
+					- Using **explicit defaults** is the middle way in the trade-off between convenience and clarity.
+						- E.g.: `prop=value`, `include /etc/nginx/sites-enabled/*`, `server {listen 80 default_server;}`, etc.
+						- This way, dev can look up to see if the case is a default or not.
+					- This time caught up
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69085f61-6627-4c0a-a984-c2b5b411a292))
