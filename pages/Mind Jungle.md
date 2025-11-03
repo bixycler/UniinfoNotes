@@ -380,6 +380,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Spell checking
 			  collapsed:: true
 				- Disable spell checking for codes
+				  collapsed:: true
 					- `Settings` > `Editor` > `Inspections` > `Spelling` > `Typo` > `Options` > uncheck `Process code` and `Process literals`
 	- ## CombiNat
 	  id:: 6675369a-1d13-48c5-8a77-d588aa8b59b8
@@ -521,7 +522,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Self
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) of a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) is a ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) of ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) from that subject to itself, i.e. the ((667c0031-0a87-44c9-9e98-6d45893b095f)) of that subject. Each subject may have many selves expressed as different ((669a5387-2a97-4311-a295-aa0afd9c4d76))s, but we ususally call the master self at the current moment “the self” and “the self-circle”. This circle can be seen as an [objective concept](https://en.wikipedia.org/wiki/Philosophy_of_self) of ((6810ceeb-6af6-442b-9910-baae2c315c46)), or as a subjective ((67f9100a-b749-4354-ae16-92dc74ff27da)).
 		- ### life cycle of self
-		  id:: 686670ae-d62c-4a7a-901b-a651027352b6
 		  collapsed:: true
 			- id:: 69043439-614f-406a-8618-4253406958b8
 			  1. The formation of a self starts with the closure of its ((669a5387-2a97-4311-a295-aa0afd9c4d76)) at the terminal obop, i.e. ((66e40f4b-34ae-499a-8192-0a0f4f580c7e)).
@@ -669,12 +669,15 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ### self-essence
 		  id:: 66c8772a-9b29-45b0-b169-2fa847333e02
 		  collapsed:: true
-		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f27ac0-b0b1-4dec-b256-5f4ab57e1972)), svabhāva, 自性
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((69086748-b6e9-47c0-810b-4a92f882d6bc)), ((66f27ac0-b0b1-4dec-b256-5f4ab57e1972)), svabhāva, 自性
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66c8772a-9b29-45b0-b169-2fa847333e02)) is the pure & ((66c8369a-ccb8-4f1f-b12b-bf7054cb79e4)) ((669a2697-56af-445c-9197-24aa498a5d5b)) within the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) which stays in the ((66ab7477-c060-4d07-ab13-bc3d11246854)) of the ((669a5387-2a97-4311-a295-aa0afd9c4d76)). Self-essence is an ((66537674-6cf9-4459-8bea-7c1858c694a3)) which cannot be seen directly and can only be felt indirectly via reflection, hence an ((69086748-b6e9-47c0-810b-4a92f882d6bc)).
+			- empty center
+			  id:: 69086748-b6e9-47c0-810b-4a92f882d6bc
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66c8772a-9b29-45b0-b169-2fa847333e02))
 			- Ātman (आत्मा, आत्मन्)
 			  id:: 66f27ac0-b0b1-4dec-b256-5f4ab57e1972
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66c8772a-9b29-45b0-b169-2fa847333e02))
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66f27ac0-b0b1-4dec-b256-5f4ab57e1972)) is the Sanskrit term that refering to "essence, breath", đại ngã, linh hồn bất diệt (của Thượng Đế). In Mahayana Buddhism, the Sanskrit term svabhāva (स्वभाव) = pa. सभाव = zh. 自性 = vi. tự tánh is used to denote the [Buddha-nature](https://en.wikipedia.org/wiki/Buddha-nature) = [Brahman](https://en.wikipedia.org/wiki/Brahman) in Hinduism.
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66c8772a-9b29-45b0-b169-2fa847333e02)) is the pure ((669a2697-56af-445c-9197-24aa498a5d5b)) within the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) which stays in the ((66ab7477-c060-4d07-ab13-bc3d11246854)) of the ((669a5387-2a97-4311-a295-aa0afd9c4d76)). Self-essence is an ((66537674-6cf9-4459-8bea-7c1858c694a3)) which cannot be seen directly and can only be felt indirectly via reflection.
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- The argument of whether the ((66c8772a-9b29-45b0-b169-2fa847333e02)) is changing or unchanging, as in ((66f27ac0-b0b1-4dec-b256-5f4ab57e1972)) versus Budda-nature versus [anattā](https://en.wikipedia.org/wiki/Anatt%C4%81) & [śūnyatā](https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81), is meaningless due to its intrinsic liar paradox: the self-essence is itself not a concrete self, but just an abstraction of the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)). In other words, 
 				  > while the concrete self has self-essence as its essence, the  self-essenee itself has no essence.

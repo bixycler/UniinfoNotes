@@ -914,7 +914,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  > Can you do it without understanding?!
 				- This scare has been from my childhood: due to my small memory, i must always tidy up everything, digest them, organize them tightly.
 				- And the attachment is due to my greed of getting everything!
-		- About the [hurricane's eye](((681826ad-768c-4671-b575-0d9f8ca64c6b))) 🌀: empty ((66ab7477-c060-4d07-ab13-bc3d11246854)) = ((66c8772a-9b29-45b0-b169-2fa847333e02)) = [Nibbāna/Nirvāṇa](https://en.wikipedia.org/wiki/Nirvana) = selfless obop = zero-limit of ((94e87dc9-71af-477c-aa70-0f448c2f1e20))
+		- About the [hurricane's eye](((681826ad-768c-4671-b575-0d9f8ca64c6b))) 🌀: ((69086748-b6e9-47c0-810b-4a92f882d6bc)) = ((66c8772a-9b29-45b0-b169-2fa847333e02)) = [Nibbāna/Nirvāṇa](https://en.wikipedia.org/wiki/Nirvana) = selfless obop = zero-limit of ((94e87dc9-71af-477c-aa70-0f448c2f1e20))
 		  id:: 684f9515-8f95-4004-8aa8-04a10d1ebf11
 		  collapsed:: true
 		  :LOGBOOK:
