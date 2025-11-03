@@ -5192,7 +5192,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 3rd, ...
 			  collapsed:: true
 				- The choices, the [free will](((67f91050-a86c-4176-87ca-91010a8fe3c0)))...
-					- I usually say that *i have no choice in life*, though i
+					- I usually say that *i have no choices in life*: Although i may turn left, turn right, or turn back, but all of these turns are choiceless, they are all driven by external conditions and internal karma, not by myself, hence not my choices!
+					-
 				- The implicit `default_server` of NGINX costed me hours!
 				  collapsed:: true
 					- Symptom: Being the first `server` in the config, it's been considered `default_server` implicitly by NGINX, which makes it match *any host* regardless of the `server_name` setting.
