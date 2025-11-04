@@ -8,7 +8,6 @@
 		- ANN thinks in sound (real-valued wave), uninet thinks in light (complex-valued wave). Output probability = projection (via softmax in ANN & squared modulus in QM)
 	- the more local, the more circular time is.
 	- the linear time is the limit of time circle whose radius approaches infinity, i.e. the universal time, the Ω-thread unfolded.
-- ---
 - stack-based processing = order = hard constraint = caught up in action = perfectionism
   collapsed:: true
 	- top down arrow = cause flow: input data, invocation control
@@ -19,8 +18,6 @@
 		- > “turn” counts as stillness in motion.
 		- “turn” is densely open just like the set of rational numbers on the real line.
 	- each pore is a window to another circle, either a downward branch or an upward stalk: question, problem, task, function (interface).
-- ---
-- Vô Danh thần tăng trong [Thiên Long Bát Bộ 2003 - Tập 34](https://youtu.be/2T_v4UjaABE)
 - ---
 - ((68df2d82-e1d5-49c4-ac40-d45cf26f840c)) -> double intent cone + perception cone
 - 3 levels of equality: 1 - 2 - 3 circles folded from the same content thread 🥨 
