@@ -31,6 +31,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- But the wisdom is that we should not limit ourselves to the negative acceptance without changing the situation. Instead, we should actively explore the unknown to make them clearer and use that new knowledge to solve the problem, hence **active acceptance**.
 					- This uncertainty is usually shown as probability, which is applied in thermodynamics, quantum mechanics, artificial intelligence, statistics.
 					- In ((671e1608-1350-4e87-99b6-5492cc6fb449)), the choice is between the subjective branch on the self-circle – “straight ahead” – and the objective branches turning out to adjacent autonotons.
+					  collapsed:: true
+						- ![Single-Open-Railway-Turnout.jpg](../assets/Uniinfo/uninet/Single-Open-Railway-Turnout.jpg)
 				- The normal choices are made based on the premise that “i know this is better in this situation”, which is just the old knowledge accumulated in the past and may not be right for the present. E.g.: `if`, `switch` in programming, daily life decisions.
 					- People usually think that their decisions are based on knowledge, without knowing that such knowledge  is not absolutely right and the the source of knowledge is the present moment, not the past.
 					- Due to this “without knowing”, such a certain choice is also based on ignorance, and that certainty is illusional.
