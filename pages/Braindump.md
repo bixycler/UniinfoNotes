@@ -669,6 +669,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 						  :END:
 						- DONE In brief, Trinion -[Equal]-> obop -[intent]-> qualiton
 						- DONE Furthermore, the qualiton in uninet is called "autonoton".
+						  id:: 684f9514-e919-4d85-b087-e02ef74e0869
 						  :LOGBOOK:
 						  CLOCK: [2025-05-06 Tue 11:38:13]--[2025-05-06 Tue 11:38:19] =>  00:00:06
 						  :END:

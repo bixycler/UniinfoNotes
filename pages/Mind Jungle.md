@@ -1198,13 +1198,20 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 671e0fcc-37b6-4f03-8e87-8923422ca8e0
 		  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((671e0f99-c35c-45f3-9f80-4d9cf00063de))
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) is a ((667d162c-16cf-44d3-81a5-29b1b885164f)) of ((66e426ec-d29b-4614-932b-2c70693790d7)) at the center (inner most ((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9))) of the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)). Through the process of [qualification](((681826ac-f5f2-4a84-a5f5-c110937ec85f))), the qualiton not only carries and sustains quality, but also applies that quality to ((671e0f99-c35c-45f3-9f80-4d9cf00063de))s to activate them into living qualitons. E.g., each [electron](https://en.wikipedia.org/wiki/Electron) is a qualiton of electricity which is a bundle of quanta (energy, spin, etc.) activated by the [prototype electron](https://en.wikipedia.org/wiki/One-electron_universe) (root qualiton).
-				- Etymology: qualiton = [quality](https://www.etymonline.com/word/quality) + [-on](https://www.etymonline.com/word/-on)
+				- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) qualiton = [quality](https://www.etymonline.com/word/quality) + [-on](https://www.etymonline.com/word/-on)
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- ((681826ac-f5f2-4a84-a5f5-c110937ec85f))
 				- ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) is to ((671e0f99-c35c-45f3-9f80-4d9cf00063de)) in Unithread, as ((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9)) is to ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)) in the CIE formula.
 			- autonoton
 			  id:: 671e1608-1350-4e87-99b6-5492cc6fb449
+			  ((68dfc116-5dc8-41a1-b448-b2e2ddc80068)) ((690960bc-0f6c-4ac4-9c73-3c030c9d4756)), autonotons 
 			  ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) in ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71))
+				- autonota
+				  id:: 690960bc-0f6c-4ac4-9c73-3c030c9d4756
+				  ((68dfc11b-c552-4a41-b4bb-0737db0f3f94)) ((671e1608-1350-4e87-99b6-5492cc6fb449))
+				- autonotic
+				  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((671e1608-1350-4e87-99b6-5492cc6fb449))
+				- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8))
 	- ## flow
 	  id:: 67fcbbc6-915b-4d28-b9cf-098e916cdc86
 	  collapsed:: true
