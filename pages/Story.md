@@ -5189,6 +5189,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  CLOCK: [2025-11-03 Mon 14:53:17]
 		  :END:
 			- 1st-2nd, weekends ...
+			  collapsed:: true
 				- Vô Danh thần tăng trong [Thiên Long Bát Bộ 2003 - Tập 34](https://youtu.be/2T_v4UjaABE)
 			- 3rd, ...
 			  collapsed:: true
