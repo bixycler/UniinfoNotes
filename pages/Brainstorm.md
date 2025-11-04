@@ -18,12 +18,14 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- However, in any direction, we do have choices.
 				- From the top down, the central obop can choose which action to take.
 				- From the bottom up, the terminal obop can choose which program to follow.
-			- My stance of “no choice” is atually an attachment to the absolute balance.
+			- My stance of “no choice” is actually an attachment to the absolute balance.
 			- The point of balance, the point of reference, the zero point, is actualy relative. Shifting it up, we have choices down there, shifting it down, we have choices up there.
 			- ⇒ The deeper freedom is the flexibility of the zero point.
-				- Because the zero point has no self to subjectively change, no “master” to give order, it can only be chaged by the condition (duyên) via release of attachments.
+				- Because the zero point has no self to subjectively change, no “master” to give order, it can only be chaged by conditions (duyên) via release of attachments.
 			- Compare this acceptance/wisdom-base freedom with knowledge/ignorance-based freedom
 				- Accepting my ignorance, i have the choice between exploring it (in favorable conditions) and applying the incomplete known solution (in adverse conditions).
+					- Here's the “choice” is not a decisive action but the action driven by conditions (tuỳ duyên).
+						- Compared to the normal decisive choices, this is no choice at all!
 					- This wisdom of [accepting own ignorance](https://en.wikipedia.org/wiki/I_know_that_I_know_nothing) is usually called by negative words like “[skepticism](https://en.wikipedia.org/wiki/Academic_Skepticism), [uncertainty](https://en.wikipedia.org/wiki/Uncertainty), random, chaos”.
 						- It's negative because at first, it reduces the activity, compared to strong activities of certain minds, and drives the subject toward observation rather than operation.
 						- But the wisdom is that we should not limit ourselves to the negative acceptance without changing the situation. Instead, we should actively explore the unknown to make them clearer and use that new knowledge to solve the problem, hence **active acceptance**.
