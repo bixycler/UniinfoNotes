@@ -24,6 +24,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Because the zero point has no self to subjectively change, no “master” to give order, it can only be chaged by the condition (duyên) via release of attachments.
 			- Compare this acceptance/wisdom-base freedom with knowledge/ignorance-based freedom
 				- Accepting my ignorance, i have the choice between exploring it (in favorable conditions) and applying the incomplete known solution (in adverse conditions).
+					- This wisdom of accepting own ignorance is usually called by negative words like “[uncertainty](https://en.wikipedia.org/wiki/Uncertainty), [skepticism](https://en.wikipedia.org/wiki/Academic_Skepticism), random, chaos”
 				- The normal choices are made based on the (illusional) premise that “i know this is better in this situation”, which is just the old knowledge accumulated in the past and may not be right for the present. E.g.: `if`, `switch` in programming, daily life decisions.
 					- People usually think that their decisions are based on knowledge, without knowing that such knowledge  is not absolutely right and the the source of knowledge is the present moment, not the past.
 					- Due to this “without knowing”, such a certain choice is also based on ignorance.
