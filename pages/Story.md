@@ -5208,6 +5208,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- “This is unacceptable because it's too illogical!” Yep, it's illogical, should be avoided with better policy, like explicit default, but that the hard fact of life. Life is full of such illogical things!
 						- ⇒ Accepting the illogical, accepting the apparently small to be actually big, are what should be practised.
 				- ((69088fa3-22ca-4a2d-ba8e-4b334e0c5d9b))
+			- 4th, ...
+			  collapsed:: true
+				- These days, i have ((67445065-15b2-475e-a704-78f140d487af)) frequently within the day.
+				-
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69085f61-6627-4c0a-a984-c2b5b411a292))
