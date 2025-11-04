@@ -22,9 +22,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- The point of balance, the point of reference, the zero point, is actualy relative. Shifting it up, we have choices down there, shifting it down, we have choices up there.
 			- ⇒ The deeper freedom is the flexibility of the zero point.
 				- Because the zero point has no self to subjectively change, no “master” to give order, it can only be chaged by the condition (duyên) via release of attachments.
-			- Compare this acceptance-base freedom with knowledge/ignorance-based freedom
+			- Compare this acceptance/wisdom-base freedom with knowledge/ignorance-based freedom
 				- Accepting my ignorance, i have the choice between exploring it (in favorable conditions) and applying the incomplete known solution (in adverse conditions).
-				- The normal choices made are based on the (illusional) assumption that “i know this is better in this situation”, which is
+				- The normal choices are made based on the (illusional) premise that “i know this is better in this situation”, which is just the old knowledge accumulated in the past and may not be right for the present. E.g.: `if`, `switch` in programming, daily life decisions.
+					- People usually think that their decisions are based on knowledge, without knowing that such knowledge  is not absolutely right and the the source of knowledge is the present moment, not the past.
+					- Due to this “without knowing”, such a certain choice is also based on ignorance.
 		- Full in quality = balance = zero point = wisdom = empty in quantity = free
 		  id:: 68ff4bc5-64a2-4210-add0-f6476ff1ee05
 		  collapsed:: true
