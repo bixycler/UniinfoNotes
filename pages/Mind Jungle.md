@@ -2409,9 +2409,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- external effect circle
 					  The base of the effect cone folds back, through the external world, to be the base of the cause cone, forming the external effect circle.
 					- knowledge circle
-					  The ((68df2d82-e1d5-49c4-ac40-d45cf26f840c)) reflects the  internal effect circle called “knowledge circle”.
-					- The external effect circle contacts various knowledge circles (internal effect circles) through the ((68df2d82-e1d5-49c4-ac40-d45cf26f840c)), which is modularized into layers of obops in the chain of active intents. This is the mirroring mechanism between the external world and internal world (knowledge cone).
-					- Structure: external ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) > ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s ((66c810a0-9861-4787-bdcf-1378219332be)) ( ((669a2886-9e03-41a4-a790-24bf6b7dcd96))s + ((66ea8d84-c766-4c47-b06c-a0b57a530096)) > ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) > ((6889abf7-7c3c-4ef5-80fe-3edca20268bd))s + knowledge cone base ) > external world
+					  As the ((68df2d82-e1d5-49c4-ac40-d45cf26f840c)) reflects the ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) into the obop, the external effect circle is mirrored into the internal effect circle called “knowledge circle”.
+					- The external effect circle and various knowledge circles keep contact together through layers of obops. This is the mirroring mechanism between the external world and internal world (knowledge cone).
+					- Structure: external ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) > ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s ((66c810a0-9861-4787-bdcf-1378219332be)) ( ((669a2886-9e03-41a4-a790-24bf6b7dcd96))s + formative intent cone > ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) >operative intent cone + ((6889abf7-7c3c-4ef5-80fe-3edca20268bd))s) > external world
 					- Diagram
 						- ![CauseEffectMirrorCircles](https://docs.google.com/drawings/d/e/2PACX-1vSq3nYCfegxupQJv3D7nIddp2tKbmf3YvzKeXQqd8kZ5hzTUN8lGNE9i-Tf8hXwSlIShgySaBgtXLRY/pub?w=500)
 		- Mutual exclusiveness
