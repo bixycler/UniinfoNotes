@@ -19,8 +19,6 @@
 		- > “turn” counts as stillness in motion.
 		- “turn” is densely open just like the set of rational numbers on the real line.
 	- each pore is a window to another circle, either a downward branch or an upward stalk: question, problem, task, function (interface).
-- from ignorance based freedom to acceptance base freedom
-	- accepting my ignorance, i have the choice between exploring it (in favorable condition) and applying the incomplete known solution (in adverse condition).
 - ---
 - Vô Danh thần tăng trong [Thiên Long Bát Bộ 2003 - Tập 34](https://youtu.be/2T_v4UjaABE)
 - automaton < [αὐτόμᾰτος](https://en.wiktionary.org/wiki/%CE%B1%E1%BD%90%CF%84%CF%8C%CE%BC%CE%B1%CF%84%CE%BF%CF%82) < αὐτο (auto) + μένος (ménos = think) = self-willed, not only self-moving 
