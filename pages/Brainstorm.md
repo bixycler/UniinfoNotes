@@ -25,11 +25,12 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Compare this acceptance/wisdom-base freedom with knowledge/ignorance-based freedom
 				- Accepting my ignorance, i have the choice between exploring it (in favorable conditions) and applying the incomplete known solution (in adverse conditions).
 					- This wisdom of accepting own ignorance is usually called by negative words like “[skepticism](https://en.wikipedia.org/wiki/Academic_Skepticism), [uncertainty](https://en.wikipedia.org/wiki/Uncertainty), random, chaos”.
+						- It's negative because at first, it reduces the activity, compared to strong activities of certain minds, and drive
 					- This uncertainty is usually shown as probability, which is applied in thermodynamics, quantum mechanics, artificial intelligence, statistics.
-					- In ((671e1608-1350-4e87-99b6-5492cc6fb449)), the choice is between the subjective branch on the self-circle – “straight ahead” – and the objective branch
+					- In ((671e1608-1350-4e87-99b6-5492cc6fb449)), the choice is between the subjective branch on the self-circle – “straight ahead” – and the objective branches turning out to adjacent autonotons.
 				- The normal choices are made based on the premise that “i know this is better in this situation”, which is just the old knowledge accumulated in the past and may not be right for the present. E.g.: `if`, `switch` in programming, daily life decisions.
 					- People usually think that their decisions are based on knowledge, without knowing that such knowledge  is not absolutely right and the the source of knowledge is the present moment, not the past.
-					- Due to this “without knowing”, such a certain choice is also based on ignorance.
+					- Due to this “without knowing”, such a certain choice is also based on ignorance, and that certainty is illusional.
 		- Full in quality = balance = zero point = wisdom = empty in quantity = free
 		  id:: 68ff4bc5-64a2-4210-add0-f6476ff1ee05
 		  collapsed:: true
