@@ -5210,7 +5210,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- ((69088fa3-22ca-4a2d-ba8e-4b334e0c5d9b))
 			- 4th, ...
 			  collapsed:: true
-				- These days, i have ((67445065-15b2-475e-a704-78f140d487af)) frequently within the day.
+				- These days, i have ((67445065-15b2-475e-a704-78f140d487af)) frequently within the day. And this time in this afternoon was interesting.
+					- After the meeting with the SSO team, i felt somehow agitated. Then i walked to the quiet bench at a resident
 				-
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
