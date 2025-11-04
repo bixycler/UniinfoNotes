@@ -14,7 +14,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- The choices, the [free will](((67f91050-a86c-4176-87ca-91010a8fe3c0))), are both illusional (the absolute) and achievable (the relative).
 		  id:: 69088fa3-22ca-4a2d-ba8e-4b334e0c5d9b
 		  collapsed:: true
-			- I usually say that *i have no choices in life*: Although i may turn left, turn right, or turn back, but all of these turns are choiceless, they are all driven by external conditions and internal karma, not by myself, hence not my choices!
+			- I usually say that *i have no choices in life*: Although i may turn left, turn right, or turn back, but all of these turns are choiceless, they are all driven by external conditions and internal conditions (karma), not by myself, hence not my choices!
 			- However, in any direction, we do have choices.
 				- From the top down, the central obop can choose which action to take.
 				- From the bottom up, the terminal obop can choose which program to follow.
