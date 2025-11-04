@@ -2397,12 +2397,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 68df2d82-e1d5-49c4-ac40-d45cf26f840c
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68df2d82-e1d5-49c4-ac40-d45cf26f840c)) is the reflection of the ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) into the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)), hence a structure of active ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))s, usually in the shape of a chain or a tree.
 				- Two nappes:
-					- While in everyday life, people normally focus on the **operative intent cone** of ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae))s,
+					- While in everyday life and classical maths & programming, people normally focus on the **operative intent cone** of ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae))s,
 					- in ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)), ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)) mainly deals with the **formative intent cone** for observation and learning through the ((68df36a4-6a3e-4fc9-b44a-c8e92f62aee1)):
 						- the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)) of qualia, imaginals (mental images), and
 						- the ((66ea8df3-d2f3-4856-b24a-5095dd285f9b)) of concepts, notions, intention.
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- ((68dfc246-ea07-4c54-a0a4-2361f1a9055e))
+					- Logics: inductive logic in the formative intent cone ↔ deductive logic in the operative intent cone
+					  :LOGBOOK:
+					  CLOCK: [2025-11-04 Tue 14:23:12]
+					  :END:
 			- cause–effect mirror circles
 			  id:: 6889a623-34cd-4b65-8a91-5cfdbb199b71
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6889a623-34cd-4b65-8a91-5cfdbb199b71)) are interlocking multiple ((667c0031-0a87-44c9-9e98-6d45893b095f))s formed by the folding of ((6851578b-9b1f-4367-878f-79b0b0b9be51)).
@@ -2411,7 +2415,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- knowledge circle
 					  As the ((68df2d82-e1d5-49c4-ac40-d45cf26f840c)) reflects the ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) into the obop, the external effect circle is mirrored into the internal effect circle called “knowledge circle”.
 					- The external effect circle and various knowledge circles keep contact together through layers of obops. This is the mirroring mechanism between the external world and internal world (knowledge cone).
-					- Structure: external ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) > ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s ((66c810a0-9861-4787-bdcf-1378219332be)) ( ((669a2886-9e03-41a4-a790-24bf6b7dcd96))s + formative intent cone > ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) >operative intent cone + ((6889abf7-7c3c-4ef5-80fe-3edca20268bd))s) > external world
+					- Structure: external ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) > ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s ((66c810a0-9861-4787-bdcf-1378219332be)) ( ((669a2886-9e03-41a4-a790-24bf6b7dcd96))s + formative intent cone > ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) > operative intent cone + ((6889abf7-7c3c-4ef5-80fe-3edca20268bd))s ) > external world
 					- Diagram
 						- ![CauseEffectMirrorCircles](https://docs.google.com/drawings/d/e/2PACX-1vSq3nYCfegxupQJv3D7nIddp2tKbmf3YvzKeXQqd8kZ5hzTUN8lGNE9i-Tf8hXwSlIShgySaBgtXLRY/pub?w=500)
 		- Mutual exclusiveness
