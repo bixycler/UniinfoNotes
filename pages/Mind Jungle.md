@@ -2276,9 +2276,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  collapsed:: true
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6851578b-9b1f-4367-878f-79b0b0b9be51)) is the ((667bef22-b272-4a7d-b613-3f1ed1a47329)) through an ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)). Because both nappes extend infinitely out to the external world, two “ends” of the double cone is connected by the ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) to form the ((6889a623-34cd-4b65-8a91-5cfdbb199b71)).
 				- Structure: ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) > ((68df36a4-6a3e-4fc9-b44a-c8e92f62aee1)) > ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) ⟨ ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) > ((66c8772a-9b29-45b0-b169-2fa847333e02)) < ((66727858-979d-4d95-8a90-7a749218cfba)) ⟩ < ((6847e436-9a84-42c5-a853-75f6d626ed63)) < ((667bd93a-cce4-4dbf-9831-725e4dffe463))
-					- Diagram
-					  id:: 68514e8a-899e-4ae3-9164-44058cf139fa
-						- ![CauseEffectCone](https://docs.google.com/drawings/d/e/2PACX-1vT-mk-5M1GkDtoHwER_IkMQAhi6M5N1zzScgIEaQ3BSdEPZdsSgYoSP3URUt0Q0KD0wy--7cDCzXWU8/pub?w=300)
+				- Diagram
+				  id:: 68514e8a-899e-4ae3-9164-44058cf139fa
+					- ![CauseEffectCone](https://docs.google.com/drawings/d/e/2PACX-1vT-mk-5M1GkDtoHwER_IkMQAhi6M5N1zzScgIEaQ3BSdEPZdsSgYoSP3URUt0Q0KD0wy--7cDCzXWU8/pub?w=300)
 			- perception–action double cone
 			  id:: 685156b0-2f3b-4aa9-8b87-636d38a02cd2
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) is the part of the ((6851578b-9b1f-4367-878f-79b0b0b9be51)) limited within the ((66c810a0-9861-4787-bdcf-1378219332be)) of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)), i.e. perception cone > obop < action cone. As both nappes intend infinitely into the internal world of the subject, the double cone has a complex structure: the double cone folds back on itself to be a single cone and is modularized into layers of ((68df2d82-e1d5-49c4-ac40-d45cf26f840c))s.
@@ -2405,8 +2405,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- ((68dfc246-ea07-4c54-a0a4-2361f1a9055e))
 			- cause–effect mirror circles
 			  id:: 6889a623-34cd-4b65-8a91-5cfdbb199b71
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6889a623-34cd-4b65-8a91-5cfdbb199b71)) is the circular ((6851578b-9b1f-4367-878f-79b0b0b9be51)), where the base of the effect cone folds back to be the base of the cause cone, forming the external ((667c0031-0a87-44c9-9e98-6d45893b095f)) through the external world. The external effect circle contacts various internal effect circles through the ((68df2d82-e1d5-49c4-ac40-d45cf26f840c)), which is modularized into layers of obops in the chain of active intents. This is the mirroring mechanism between the external world and internal world (knowledge cone).
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6889a623-34cd-4b65-8a91-5cfdbb199b71)) are the interlocking multiple ((667c0031-0a87-44c9-9e98-6d45893b095f))s circular ((6851578b-9b1f-4367-878f-79b0b0b9be51)). where the base of the effect cone folds back to be the base of the cause cone, forming the external effect circle through the external world. The external effect circle contacts various knowledge circles (internal effect circles) through the ((68df2d82-e1d5-49c4-ac40-d45cf26f840c)), which is modularized into layers of obops in the chain of active intents. This is the mirroring mechanism between the external world and internal world (knowledge cone).
 					- Structure: external ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) > ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s ((66c810a0-9861-4787-bdcf-1378219332be)) ( ((669a2886-9e03-41a4-a790-24bf6b7dcd96))s + ((66ea8d84-c766-4c47-b06c-a0b57a530096)) > ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) > ((6889abf7-7c3c-4ef5-80fe-3edca20268bd))s + knowledge cone base ) > external world
+					- Diagram
+						- ![CauseEffectMirrorCircles](https://docs.google.com/drawings/d/e/2PACX-1vSq3nYCfegxupQJv3D7nIddp2tKbmf3YvzKeXQqd8kZ5hzTUN8lGNE9i-Tf8hXwSlIShgySaBgtXLRY/pub?w=500)
 		- Mutual exclusiveness
 		  collapsed:: true
 		  “thấy không làm, làm không thấy”  
