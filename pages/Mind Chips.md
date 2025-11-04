@@ -1,3 +1,34 @@
+- circular time
+  collapsed:: true
+	- the constantly mixing of the past in the present is the **arrow of time** increasing entropy.
+		- information loss: n-to-1 function computation (action cone, deduction), thermodynamics, psychology, cosmic, wave function collapse = quantum decoherence + averaging
+		- intelligence = information gain = restoring arrow = knowledge learning (induction, observation) = seeing the future
+		- equilibrium (classical physics) = closed circle (simple circle): effect circle, deterministic machine
+		- wisdom = open circle (grand circle): knowledge circle, organism = nondeterministic system with quantum mechanics (exploring all possibilities)
+		- ANN thinks in sound (real-valued wave), uninet thinks in light (complex-valued wave). Output probability = projection (via softmax in ANN & squared modulus in QM)
+	- the more local, the more circular time is.
+	- the linear time is the limit of time circle whose radius approaches infinity, i.e. the universal time, the Ω-thread unfolded.
+- ---
+- stack-based processing = order = hard constraint = caught up in action = perfectionism
+  collapsed:: true
+	- top down arrow = cause flow: input data, invocation control
+	- bottom up arrow = effect flow: output data, returning control
+- circle-based working = circular order = Equivalence
+  collapsed:: true
+	- “turn” is the porous circle ◌🧽 that's whole in counting ([𝜏](https://en.wikipedia.org/wiki/Tau_(mathematics))) and partial in motion.
+		- > “turn” counts as stillness in motion.
+		- “turn” is densely open just like the set of rational numbers on the real line.
+	- each pore is a window to another circle, either a downward branch or an upward stalk: question, problem, task, function (interface).
+- from ignorance based freedom to acceptance base freedom
+	- accepting my ignorance, i have the choice between exploring it (in favorable condition) and applying the incomplete known solution (in adverse condition).
+- ---
+- Vô Danh thần tăng trong [Thiên Long Bát Bộ 2003 - Tập 34](https://youtu.be/2T_v4UjaABE)
+- automaton < [αὐτόμᾰτος](https://en.wiktionary.org/wiki/%CE%B1%E1%BD%90%CF%84%CF%8C%CE%BC%CE%B1%CF%84%CE%BF%CF%82) < αὐτο (auto) + μένος (ménos = think) = self-willed, not only self-moving 
+  collapsed:: true
+	- This decay of meaning is similar to the decaying of 自由 to "freedom".
+	- "autonoton" < "notion" < nōtus (Italian "noto") < nōscō (know)
+	- uninet = autonotic machine
+	- Following the age of automatization, now comes the age of autonotization.
 - ---
 - ((68df2d82-e1d5-49c4-ac40-d45cf26f840c)) -> double intent cone + perception cone
 - 3 levels of equality: 1 - 2 - 3 circles folded from the same content thread 🥨 
