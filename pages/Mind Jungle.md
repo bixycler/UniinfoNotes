@@ -1210,8 +1210,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  id:: 690960bc-0f6c-4ac4-9c73-3c030c9d4756
 				  ((68dfc11b-c552-4a41-b4bb-0737db0f3f94)) ((671e1608-1350-4e87-99b6-5492cc6fb449))
 				- autonotic
+				  id:: 69096146-d968-4da2-b2d6-5431aa3814d9
 				  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((671e1608-1350-4e87-99b6-5492cc6fb449))
-				- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8))
+				- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) autonoton = [auto](https://en.wiktionary.org/wiki/auto-) (self) + [notion](https://en.wiktionary.org/wiki/notion) ← [nōtus](https://en.wiktionary.org/wiki/notus#Latin) (Italian “noto”) ← nōscō (know)
+					- ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)) = ((69096146-d968-4da2-b2d6-5431aa3814d9)) machine, versus classical automatic machines
+					- automaton < [αὐτόμᾰτος](https://en.wiktionary.org/wiki/%CE%B1%E1%BD%90%CF%84%CF%8C%CE%BC%CE%B1%CF%84%CE%BF%CF%82) < αὐτο (auto) + μένος (ménos = think) = self-willed, not only self-moving
+						- This decay of meaning is similar to the decaying of 自由 to "freedom".
+						- Following the age of automatization, now comes the age of autonotization.
 	- ## flow
 	  id:: 67fcbbc6-915b-4d28-b9cf-098e916cdc86
 	  collapsed:: true
