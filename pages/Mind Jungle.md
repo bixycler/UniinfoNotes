@@ -2395,7 +2395,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  > On the Buddhist path, our intention deepens into commitment and then into vow. At that point, our intentions and our life become one.
 			- intent double cone
 			  id:: 68df2d82-e1d5-49c4-ac40-d45cf26f840c
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68df2d82-e1d5-49c4-ac40-d45cf26f840c)) is the part of the ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) limited within the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)), hence a structure of active ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))s, usually in the shape of a chain or a tree.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68df2d82-e1d5-49c4-ac40-d45cf26f840c)) is the reflection of the ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) into the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)), hence a structure of active ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))s, usually in the shape of a chain or a tree.
 				- Two nappes:
 					- While in everyday life, people normally focus on the **operative intent cone** of ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae))s,
 					- in ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)), ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)) mainly deals with the **formative intent cone** for observation and learning through the ((68df36a4-6a3e-4fc9-b44a-c8e92f62aee1)):
@@ -4492,7 +4492,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((67ced16d-2fbb-4c5d-9061-5d8f490f6073)) ← ((67cea2ee-5f77-4576-8c1c-9e31d9b822c9))
 				- The [3 poisons due to momentum](((67cfb02d-b633-408c-b19e-1eeb7ed575b9)))
 				- ((684f9517-b730-4cc1-9eb1-54bb81ed78c4))
-				- ((6839229d-9eff-49e4-9480-6e2db6f61127)) caused by the ignorance of ((68df2d82-e1d5-49c4-ac40-d45cf26f840c))
+				- ((6839229d-9eff-49e4-9480-6e2db6f61127)) caused by the ignorance about the ((68df2d82-e1d5-49c4-ac40-d45cf26f840c))
 				  id:: 688748a7-8228-4515-9fe4-38c232ce954e
 				  collapsed:: true
 				  :LOGBOOK:

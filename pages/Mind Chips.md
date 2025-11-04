@@ -19,7 +19,6 @@
 		- “turn” is densely open just like the set of rational numbers on the real line.
 	- each pore is a window to another circle, either a downward branch or an upward stalk: question, problem, task, function (interface).
 - ---
-- ((68df2d82-e1d5-49c4-ac40-d45cf26f840c)) -> double intent cone + perception cone
 - 3 levels of equality: 1 - 2 - 3 circles folded from the same content thread 🥨 
   collapsed:: true
 	- 1 circle of universe in monistic view for qualitative theory of Uniinfo, định tính

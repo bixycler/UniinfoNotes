@@ -5056,7 +5056,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- ![DoubleHurricane-Imelda-Humberto-merged-outflow-trough-2025-10-02.png](../assets/Will/story/2025-10/DoubleHurricane-Imelda-Humberto-merged-outflow-trough-2025-10-02.png)
 			- 3rd, intended to do the official work, but ended up working with intents the whole day.
 			  collapsed:: true
-				- On the way to company, i decided to rename “intent–action double cone” to [“perception–action double cone”](((685156b0-2f3b-4aa9-8b87-636d38a02cd2))) whose tip is the [“intent triple cone”](((68df2d82-e1d5-49c4-ac40-d45cf26f840c))).
+				- On the way to company, i decided to rename “intent–action double cone” to [“perception–action double cone”](((685156b0-2f3b-4aa9-8b87-636d38a02cd2))) whose tip is the ((68df2d82-e1d5-49c4-ac40-d45cf26f840c)).
 					- ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)): ((66ea8df3-d2f3-4856-b24a-5095dd285f9b)) & ((66ea8e12-7c30-449b-9139-bfd8d82394d7)) = ((68df36a4-6a3e-4fc9-b44a-c8e92f62aee1))
 				- ((68df2364-c484-4ddd-b4b5-19ef90228ef4))
 				- ((68dfc246-ea07-4c54-a0a4-2361f1a9055e))
