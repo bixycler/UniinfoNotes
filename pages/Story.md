@@ -5191,6 +5191,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 1st-2nd, weekends ...
 			  collapsed:: true
 				- Vô Danh thần tăng trong [Thiên Long Bát Bộ 2003 - Tập 34](https://youtu.be/2T_v4UjaABE)
+				- I saw the crutial key in my slavery is the **stack-based processing**.
+					- stack-based processing = order = hard constraint = caught up in action = perfectionism
+						- top down arrow = cause flow: input data, invocation control
+						- bottom up arrow = effect flow: output data, returning control
+					- circle-based working = circular order = Equivalence
+						- “turn” is the porous circle ◌🧽 that's whole in counting ([𝜏](https://en.wikipedia.org/wiki/Tau_(mathematics))) and partial in motion.
+							- > “turn” counts as stillness in motion.
+							- “turn” is densely open just like the set of rational numbers on the real line.
+						- each pore is a window to another circle, either a downward branch or an upward stalk: question, problem, task, function (interface).
 			- 3rd, ...
 			  collapsed:: true
 				- The implicit `default_server` of NGINX costed me hours!

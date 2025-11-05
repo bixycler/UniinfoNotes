@@ -4563,6 +4563,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Mechanical clocks and astronomical observations all rely on **periodicity**.
 						- Modern [International Atomic Time](https://en.wikipedia.org/wiki/International_Atomic_Time) refines the cycles to extreme precision, but they are still counting **repetitive events**, e.g. the [cesium-133 hyperfine transition](https://www.nist.gov/pml/time-and-frequency-division/time-realization/cesium-fountain-atomic-clocks).
 						- The **circular dial** on the traditional [clock face](https://en.wikipedia.org/wiki/Clock_face) is the symbol of circular time, showing its very circular nature.
+					- **Arrow of time** is the constantly *mixing of the past in the present*, increasing entropy.
+						- Information loss: n-to-1 function computation (action cone, deduction), thermodynamics, psychology, cosmic, wave function collapse = quantum decoherence + averaging
+						- Intelligence = information gain = restoring arrow = knowledge learning (induction, observation) = seeing the future
+						- Equilibrium (classical physics) = closed circle (simple circle): effect circle, deterministic machine
+						- Wisdom = open circle (grand circle): knowledge circle, organism = nondeterministic system with quantum mechanics (exploring all possibilities)
+						- ANN thinks in sound (real-valued wave), uninet thinks in light (complex-valued wave). Output probability = projection (via softmax in ANN & squared modulus in QM)
 				- **Linear time** in popular physics and common mind:
 				  id:: 68fa148f-0ab4-4a45-894a-7a9c96d87058
 					- For most observers, time appears linear: a monotonic sequence of events measured by clocks and coordinates.
