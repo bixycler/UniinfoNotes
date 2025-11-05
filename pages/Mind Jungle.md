@@ -4540,6 +4540,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68fa164e-ef0e-4010-937d-ad9e0459f5f2)) is the ((67fcbbc6-915b-4d28-b9cf-098e916cdc86)) of ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342))s, each realized as a loop in the [coiling flow of time](((667bf36a-581a-4abe-b544-2d849608a3e4))).
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- Circular time versus linear time
+			  id:: 690827cd-657e-4fb8-b78d-edc626994832
 			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2025-10-23 Thu 18:13:09]
@@ -4592,6 +4593,20 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Logic & Mathematics: Strange loops, recursion theory, and fixed-point theorems formalize self-reference and circularity, showing paradoxes arise in linear-only perspectives.
 					- Philosophy: Eternal recurrence (Nietzsche), Eastern cyclic time (Hinduism, Buddhism, Daoism), and process philosophy (Whitehead, Bergson) emphasize cyclical or relational aspects of change.
 					- Systems theory & cybernetics: Feedback loops and self-referential systems are circular, allowing emergent dynamics invisible to purely linear observation.
+			- Temporal circle via ((667c0031-0a87-44c9-9e98-6d45893b095f))
+			  id:: 68f5a6d2-3b0a-4443-a7e7-b64f4bdf217b
+			  collapsed:: true
+				- 0 intent = ∞ extent =  -∞ (distant past of environment) = +∞ (distant future of self expression)
+				- past cone (cause cone): from distant space in distant past into intent
+				- 2 nappes of the double cone fold into the **effect flow spirorus**.
+				- future cone (effect cone): from intent out to circumference (content) of present, then out to distant space in distant future
+				- projective spacetime = log time × linear space
+					- TODO draw this spacetime scaling applet of the spirorus
+					- apex of past/future cone is the vanishing point in future/past
+				- the 2 cones meet in the present
+					- in linear spacetime, they translate as the present flows
+					- in projective spacetime, they rotate as the present flows
+		- ...
 	- ## fluid
 	  id:: 671e2794-7edd-4840-8b5d-d2def6df7666
 	  collapsed:: true

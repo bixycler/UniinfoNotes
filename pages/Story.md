@@ -5103,19 +5103,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- trialistic obop = selful point (collapsed middle circle) = center = mind
 							- central obop does pattern matching
 						- content = components = intertwined circles
-				- Temporal circle via effect circle
-				  collapsed:: true
-					- 0 intent = ∞ extent =  -∞ (distant past of environment) = +∞ (distant future of self expression)
-					- past cone (cause cone): from distant space in distant past into intent
-					- 2 nappes of the double cone fold into the **effect flow spirorus**.
-					- future cone (effect cone): from intent out to circumference (content) of present, then out to distant space in distant future
-					- projective spacetime = log time × linear space
-						- TODO draw this spacetime scaling applet of the spirorus
-						- apex of past/future cone is the vanishing point in future/past
-					- the 2 cones meet in the present
-						- in linear spacetime, they translate as the present flows
-						- in projective spacetime, they rotate as the present flows
 				- **Attention** is the spotlight projecting the flat space/graph of the world into a [hyperbolic disk](https://en.wikipedia.org/wiki/Poincar%C3%A9_disk_model) of the present stage.
+				  id:: 68f5a6d2-5faa-4889-bd79-30e9c553c314
 				  collapsed:: true
 					- Attention is a selective magnifier, hence very projective compared to the flat Euclidean geometry.
 					- Attention is the activation of the static future (= past there) up to be **dynamic** at the present herenow, then return it back to the static (past here).
@@ -5133,6 +5122,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- turning the attention inward to see the intent is an advanced technique (introspection)
 						- attention = attent + high intent
 						- attent = link between intent and extent = ((68750097-13e5-4662-9791-8207ec18e8aa)) = remainder = meta-intent = meta-viewcone
+				- ((68f5a6d2-3b0a-4443-a7e7-b64f4bdf217b))
 				- ((68f5a6d2-8148-4975-b3cb-799fe37a3d72))
 			- 20th,...
 			  collapsed:: true
