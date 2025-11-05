@@ -3,6 +3,7 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 	- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://www.git-scm.com/
 	- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)) is a [free and open source](https://www.git-scm.com/about/free-and-open-source) distributed version control system (VCS), which is now the most popular VCS in the world.
 	- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+	  collapsed:: true
 		- File link: ((671f5784-d89b-4a4a-a6e7-f02a0805322f)) is supported by ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)) but ((671f5617-1163-4ffc-b65a-b3234e471db0)) is not.
 		  collapsed:: true
 			- Symlink has portability problem between Linux and Windows.

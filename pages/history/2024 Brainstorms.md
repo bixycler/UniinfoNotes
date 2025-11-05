@@ -231,14 +231,14 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 					- An oasis 🏝️ shaped like an egg, representing the life full of [diversity](https://en.wikipedia.org/wiki/Ecosystem_diversity), situated between two deserts (the left side entirely cold water Yin, the right side entirely hot sand Yang).
 					- Within the oasis, the order of Yin and Yang is reversed, meaning the left (Yin) contains Yang (red) and the right (Yang) contains Yin (green). This phenomenon of "Yin within Yang, Yang within Yin" is represented by the two small disks in the Taiji symbol: ☯️.
 					- In the center, there is a yellow region neutralizing Yin (green) and Yang (red), and at the bottom center, there is a black Buddha meditating 🧘‍♀️.
-				- The [middle way](https://en.wikipedia.org/wiki/Middle_Way) which most people see, represented by the yellow diamond shape 🔶 in the image, is the “just right” state, neither lacking (Yin) nor excessive (Yang). It’s a comfortable balance, neither cold nor hot, free from greed (due to lack, Yin) and aversion (anger, haste, Yang)... but this leads to **delusion**, becoming _**infatuated** with that comfortable balance_.
-				- **Nirvana**, or liberation, is the black area ♠️ at the bottom center, where the “meditating Buddha” sits. It’s also a balance... but a **dynamic balance** amid infinite turbulence, not a static balanced land like the yellow diamond above.
+				- The [middle way](https://en.wikipedia.org/wiki/Middle_Way) which most people see, represented by the yellow diamond shape 🔶 in the image, is the “just right” state, neither lacking (Yin) nor excessive (Yang). It's a comfortable balance, neither cold nor hot, free from greed (due to lack, Yin) and aversion (anger, haste, Yang)... but this leads to **delusion**, becoming _**infatuated** with that comfortable balance_.
+				- **Nirvana**, or liberation, is the black area ♠️ at the bottom center, where the “meditating Buddha” sits. It's also a balance... but a **dynamic balance** amid infinite turbulence, not a static balanced land like the yellow diamond above.
 				- The common path to liberation involves using the yellow land in the middle above to distance oneself from the two extremes first, then gradually practicing to descend into the turbulent jungle below where the “meditating Buddha” sits.
 				- This oasis is on the “edge of chaos”, i.e. the border between 2 extremes of completely static (Yin) and completely random (Yang).
 			- The oasis of Life
 				- The trip [zooming into the edge of chaos](https://photos.app.goo.gl/33w9EPJsk5MsAcaG6):
 					- From a distance, it looks like a single straight line clearly dividing Yin and Yang.
-					- As we move closer, we see it’s not like that at all, but filled with patterns of “Yin within Yang, Yang within Yin, and even androgyny” within it, ☯️.
+					- As we move closer, we see it's not like that at all, but filled with patterns of “Yin within Yang, Yang within Yin, and even androgyny” within it, ☯️.
 					- And deep inside, amidst the dense, turbulent jungles, there is a “Buddha meditating” in the midst of that forest 🧘‍♀️.
 		- In the view of ((667bef22-b272-4a7d-b613-3f1ed1a47329)), the boundary condition determines the behavior in its enclosed volume.
 			- The ((6835b162-293f-4b8c-8be2-2dbe83b741ce)) shows the integral relation between the boundary and its enclosed volume in a linear conservative fields.
@@ -246,7 +246,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			- [Holographic principle](https://en.wikipedia.org/wiki/Holographic_principle) in Quantum Physics
 			- Conic classification of boundary value problems (BVPs):
 			  collapsed:: true
-				- Elliptic BVPs describe equilibrium states with time-independent PDEs, e.g. Laplace’s or Poisson’s equation for electrostatics: $∇^2 u = f$.
+				- Elliptic BVPs describe equilibrium states with time-independent PDEs, e.g. Laplace's or Poisson's equation for electrostatics: $∇^2 u = f$.
 				- Parabolic BVPs model diffusion-like processes, where solutions smooth out over time, with a first-order time derivative PDEs, e.g. heat equation: $∂_t​ u = κ∇^2 u$.
 				- Hyperbolic BVPs model vibrations & wave propagation with second-order time and spatial derivative PDEs, e.g. wave equation: $∂_t^2 ​u = c^2 ∇^2 u$.
 				- Note: The Schrödinger equation encompasses all the three.
