@@ -5232,10 +5232,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- To a child as perceptive as Siddhartha, that dissonance would have been piercing: affection laced with anxiety, tenderness shadowed by control.
 						- The First Noble Truth could only have come from someone who *felt* that repression deeply, who knew how deep denial itself cuts. The four sights he met outside was not a revelation, but a _confirmation of his ever wondering and **angst inside**_.
 						- So his awakening was not a divine insight, but just a generational truth surfacing. He didn’t discover suffering – he uncovered what everyone around him had been too frightened to face.
-						- His renunciation wasn’t abandonment; it was the only way left to protect what couldn’t be defended by soldiers or walls.
-						- If the clan’s outer survival was doomed by politics and scale, he turned inward — seeking a form of safety that couldn’t be conquered. “Saving” the family became freeing them from the cycle of fear that had ruled their lives.
-						- The tragedy of those later invasions fits that reading: he could warn, teach, and open a path, but he couldn’t erase consequence. Even awakening doesn’t rewrite history; it changes how one meets it.
-						- So the prince who walked away from the palace wasn’t rejecting his lineage — he was completing it, carrying its buried wound toward light.
+						- Then, his renunciation wasn’t abandonment – it was the only way left to protect what couldn't be defended by soldiers or walls.
+							- If the clan's outer survival was doomed by politics and scale, he turned inward, seeking a form of safety that couldn't be conquered.
+							- “Saving” the family became freeing them from the cycle of fear that had ruled their lives.
+							- He couldn't keep the Shakya clan from being annexed by Kosala under King Vidūdabha, but he had saved his child, his wife, his mother, his relatives as well as anyone of his people having chance and condition to follow him.
+						- So the prince who walked away from the palace wasn't rejecting his lineage – he was completing it, carrying its buried wound toward light.
 					- So the circle ends where it began:
 					- what we call “advancement” is simply the next step forward — not inherently better, just further along the curve. Each stride pushes something behind the light of attention. Real progress, if there is such a thing, might be noticing that shadow as we walk.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
