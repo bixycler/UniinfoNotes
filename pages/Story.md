@@ -5082,7 +5082,57 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- ((68f0d8f7-bdb7-492a-b161-83479cce6aa8))
 			- 18-19th, weekends...
 			  collapsed:: true
-				-
+				- 3 levels of equality: 1 - 2 - 3 circles folded from the same content thread 🥨 
+				  collapsed:: true
+					- 1 circle of universe in monistic view for qualitative theory of Uniinfo, định tính
+						- conservation of quality via complementarity
+						- vacantistic obop = selfless empty point = pseudo-center = equal
+						- monistic obop = self center
+						- content = arrow
+					- 2 circles of subject & object in dualistic view for quantitative theory of Unithread, định lượng
+						- conservation of quantity via reflection between intent & extent
+						- intent × extent = 1 => log(intent) + log(extent) = 0 is the complementarity in monistic view
+						- intent = constant (self) => extent = sum of squares = const
+							- constancy of light velocity, energy conservation, ... conservation of content is due to the constancy of the self intent
+						- intent = curvature = density = 0 (selfless) => extent = radius = ∞ => flat spacetime (global energy density = 0) => monistic view
+						- dualistic obop = self center = massive point = pre-center, opposite of object center
+						- vacantistic obop = contact point between 2 circles = sensor
+						- content = circles
+					- 3 circles of obop, body & world in trialistic view for structural theory of uninet, định hình
+						- conservation of structure via maintenance of body in the world
+						- trialistic obop = selful point (collapsed middle circle) = center = mind
+							- central obop does pattern matching
+						- content = components = intertwined circles
+				- Temporal circle via effect circle
+				  collapsed:: true
+					- 0 intent = ∞ extent =  -∞ (distant past of environment) = +∞ (distant future of self expression)
+					- past cone (cause cone): from distant space in distant past into intent
+					- 2 nappes of the double cone fold into the **effect flow spirorus**.
+					- future cone (effect cone): from intent out to circumference (content) of present, then out to distant space in distant future
+					- projective spacetime = log time × linear space
+						- TODO draw this spacetime scaling applet of the spirorus
+						- apex of past/future cone is the vanishing point in future/past
+					- the 2 cones meet in the present
+						- in linear spacetime, they translate as the present flows
+						- in projective spacetime, they rotate as the present flows
+				- attention is the spotlight projecting the flat space/graph of the world into a hyperbolic disk of present stage 
+				  collapsed:: true
+					- attention is a selective magnifier, hence very projective compared to the flat Euclidean geometry.
+					- attention is the activation of the static (future = past there) up to be **dynamic** at the present herenow, then return it back to the static (past here).
+					- attention is the mechanism of intending (zooming in) into a direction.... Related to SCIFER?!🤔 It has the role of emotion.
+					- attention brings dormant intents up into the current intent stack/tree/circle to participate in the effect circle.
+					- in LLM, [attention mechanism](https://en.wikipedia.org/wiki/Attention_(machine_learning)) is what makes the flat & static probability space of ANN be more projective & dynamic like the possibility space in uninet.
+				- content - intent - extent - attent
+				  collapsed:: true
+				  Tend with, tend in, tend out, tend to
+					- attention = direction = scope of the viewcone = spotlight
+					- intent = the one holding the spotlight = intensity of the spotlight
+					- extent = the stage where the spotlight ranges
+					- normal attention is outward toward the extent
+					- turning the attention inward to see the intent is an advanced technique (introspection)
+					- attention = attent + high intent
+					- attent = link between intent and extent = ((68750097-13e5-4662-9791-8207ec18e8aa)) = remainder = meta-intent = meta-viewcone
+				- ((68f5a6d2-8148-4975-b3cb-799fe37a3d72))
 			- 20th,...
 			  collapsed:: true
 				- Newtonian mechanics → [Lagrangian mechanics](https://en.wikipedia.org/wiki/Lagrangian_mechanics) → field equations

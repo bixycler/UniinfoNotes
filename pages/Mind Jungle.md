@@ -1567,6 +1567,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- From cybernetics to "cyber", the loop has collapsed into a straight wire:
 						- from self-regulation to remote control;
 						- from living feedback to mechanical command.
+				- circular effect flow = circular causality = circular determinism = interdependency = interfusion = interpenetration = dependent origination
+				  id:: 68f5a6d2-8148-4975-b3cb-799fe37a3d72
+					- This circular dependency is shown by the spirorus which is the structure of spacetime.
 				-
 		-
 	- ## world
