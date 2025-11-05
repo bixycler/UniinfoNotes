@@ -1061,20 +1061,21 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- $p + q = 0$
 					- ((6678288e-699b-4325-bdba-bf6349fe0d57))s: ((667d15b7-6364-49a9-ac58-c64d2a992b63))s
 					- ((665ca429-84e3-49ff-921e-c07d19cd99ba)): ((66ab675b-2778-4f51-80ad-20a8f6988691)) (closed loop)
-					- ((94e87dc9-71af-477c-aa70-0f448c2f1e20)): vacantistic obop = origin, ((66728236-5b19-425c-bb5f-dfc0dc8b79fd))
+					- ((94e87dc9-71af-477c-aa70-0f448c2f1e20)): vacantistic obop = terminal obop = origin, ((66728236-5b19-425c-bb5f-dfc0dc8b79fd))
 			- mass equality
 			  id:: 66e40f58-c9dd-47f4-999d-2e4a2aa874fe
 			  :LOGBOOK:
 			  CLOCK: [2024-09-13 Fri 19:52:06]
 			  :END:
 			  2 circles of the ((675c03d8-3185-41a8-9f98-e869fabec793)): Ω = ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) + ((667cfa42-ade7-4310-9a7b-6d14d01c16da))
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe)) is the equal relation regarding ((66e42b30-1aa4-4b6f-8c54-b29fc09085c6)), a.k.a. conservation of ((66e426df-90e4-43c0-9f02-c48c336e830d)) (energy) (định lượng). This is the common connotation of the word “equal”. This conservation of quantity via reflection between intent & extent is the characteristic of the dualistic view of the [quantitative theory of Unithread](((66ac41d1-09e7-44b1-9290-ea7d5f02a817))).
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe)) is the equal relation regarding ((66e42b30-1aa4-4b6f-8c54-b29fc09085c6)), a.k.a. conservation of ((66e426df-90e4-43c0-9f02-c48c336e830d)) (energy) (định lượng). This is the common connotation of the word “equal”. This conservation of quantity via reflection between intent & extent is the characteristic of the dualistic view of the [quantitative theory of Unithread](((66ac41d1-09e7-44b1-9290-ea7d5f02a817))). The conservation of content is due to the **constancy of the self intent**
 				- Structure
 					- $|p| + |q| = 1 = |p'| + |q'|$ 
 					  ⇔ $(|p| - |p'|) + (|q| - |q'|) = Δ|p| + Δ|q| = 0$
 					- ((6678288e-699b-4325-bdba-bf6349fe0d57))s: ((667d15c6-67c4-4998-a549-c8b3f9de3d60))s
 					- ((665ca429-84e3-49ff-921e-c07d19cd99ba)): symmetric loop
-					- ((94e87dc9-71af-477c-aa70-0f448c2f1e20)): center of mass
+					- ((94e87dc9-71af-477c-aa70-0f448c2f1e20)): dualistic obop = center of mass
+						- vacantistic obop = contact point between 2 circles = sensor
 			- intent equality
 			  id:: 66e40f75-0573-484e-8cb6-b6b8071ffb8c
 			  :LOGBOOK:
@@ -1085,7 +1086,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Structure
 					- ((6678288e-699b-4325-bdba-bf6349fe0d57))s: components = intertwined circles
 					- ((665ca429-84e3-49ff-921e-c07d19cd99ba)): ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) ((667d15c6-67c4-4998-a549-c8b3f9de3d60))
-					- ((94e87dc9-71af-477c-aa70-0f448c2f1e20)): ((66ab7477-c060-4d07-ab13-bc3d11246854)) of symmetry
+					- ((94e87dc9-71af-477c-aa70-0f448c2f1e20)): trialistic obop = dualistic obop = central obop = ((66ab7477-c060-4d07-ab13-bc3d11246854)) of symmetry
+						- terminal vacantistic obop = sensor
+						- central vacantistic obop = empty center
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- ((66ceeca0-a149-4fe0-85a8-9302f96eb669))
 		- ### equilibrium

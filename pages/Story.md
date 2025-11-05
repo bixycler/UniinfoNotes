@@ -5092,7 +5092,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- conservation of quantity via reflection between intent & extent
 						- intent × extent = 1 => log(intent) + log(extent) = 0 is the complementarity in monistic view
 						- intent = constant (self) => extent = sum of squares = const
-							- constancy of light velocity, energy conservation, ... conservation of content is due to the constancy of the self intent
+							- constancy of light velocity, energy conservation, ... conservation of content is due to the **constancy of the self intent**
 						- intent = curvature = density = 0 (selfless) => extent = radius = ∞ => flat spacetime (global energy density = 0) => monistic view
 						- dualistic obop = self center = massive point = pre-center, opposite of object center
 						- vacantistic obop = contact point between 2 circles = sensor
