@@ -5080,6 +5080,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 16th, ...
 			  collapsed:: true
 				- ((68f0d8f7-bdb7-492a-b161-83479cce6aa8))
+			- 18-19th, weekends...
+			  collapsed:: true
+				-
 			- 20th,...
 			  collapsed:: true
 				- Newtonian mechanics → [Lagrangian mechanics](https://en.wikipedia.org/wiki/Lagrangian_mechanics) → field equations
@@ -5192,14 +5195,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- Vô Danh thần tăng trong [Thiên Long Bát Bộ 2003 - Tập 34](https://youtu.be/2T_v4UjaABE)
 				- I saw the crutial key in my slavery is the **stack-based processing**.
-					- stack-based processing = order = hard constraint = caught up in action = perfectionism
+					- stack-based processing = order = hard constraint = caught up in action = ((6678d594-9819-4624-abd6-d4ec62b3874f))
 						- top down arrow = cause flow: input data, invocation control
 						- bottom up arrow = effect flow: output data, returning control
-					- circle-based working = circular order = Equivalence
-						- “turn” is the porous circle ◌🧽 that's whole in counting ([𝜏](https://en.wikipedia.org/wiki/Tau_(mathematics))) and partial in motion.
-							- > “turn” counts as stillness in motion.
-							- “turn” is densely open just like the set of rational numbers on the real line.
-						- each pore is a window to another circle, either a downward branch or an upward stalk: question, problem, task, function (interface).
+					- circle-based working = circular order = [equalization](((68871ce1-eb57-4be3-ad48-45af6ccb5d49)))
+						- “Turn” is the porous circle ◌🧽 that's whole in counting ([𝜏](https://en.wikipedia.org/wiki/Tau_(mathematics))) and partial in motion.
+							- > “Turn” counts as stillness in motion.
+							- “Turn” is densely open just like the set of rational numbers on the real line.
+						- Each pore is a window to another circle, either a downward branch or an upward stalk: question, problem, task, function (interface).
 			- 3rd, ...
 			  collapsed:: true
 				- The implicit `default_server` of NGINX costed me hours!
