@@ -97,7 +97,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- [Generalization: A Key Ability in Large Language Models](https://promptengineering.org/balancing-memorization-and-generalization-in-large-language-models/#generalization-a-key-ability-in-large-language-models)
 							- [Do Large Language Models Really Generalize? This Paper Says Yes](https://nyudatascience.medium.com/do-large-language-models-really-generalize-this-paper-says-yes-ca99fbb00a44)
 							- [Non-Vacuous Generalization Bounds for Large Language Models](https://arxiv.org/abs/2312.17173)
-							- [Brilliant New Paper: LLM’s can generalize through fine tuning.](https://www.reddit.com/r/singularity/comments/1dmj8t8/brilliant_new_paper_llms_can_generalize_through/)
+							- [Brilliant New Paper: LLM's can generalize through fine tuning.](https://www.reddit.com/r/singularity/comments/1dmj8t8/brilliant_new_paper_llms_can_generalize_through/)
 					- ((66c33468-23d5-44d7-955e-6711cb608157))
 						- [Emergent Abilities of Large Language Models](https://www.assemblyai.com/blog/emergent-abilities-of-large-language-models/)
 				- context window
@@ -137,8 +137,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- The nature of ((67f4eaf1-aa44-4016-9c56-8c6de8101f3e)) is to “guess next word”, thus every response is intrisically just a guess!
 						- The ((66c32936-618a-43d3-b2c8-a254badeb987)) has not developed to distinguish between (subjective) knowledge and (objective) information.
 						- Both AI hallucination and [Mandela effect](https://en.wikipedia.org/wiki/False_memory#Mandela_effect) demonstrate how **excessive familiarity or confidence** in a subject can create blind spots: the feeling _“it cannot be wrong!”_ overshadows the incorrect parts.
-							- For the Mandela Effect, the prominence of well-known figures or events makes people overconfident in their (false) memories – it’s as if the brain decides, *“This feels right because it's already in my mental spotlight!”*
-							- For AI hallucination, the vast sea of knowledge within an LLM can sometimes act as a double-edged sword. When discussing familiar or over-represented topics, the model might confidently generate content that *sounds correct* but isn't, because it’s pulling patterns from an immense web of associations.
+							- For the Mandela Effect, the prominence of well-known figures or events makes people overconfident in their (false) memories – it's as if the brain decides, *“This feels right because it's already in my mental spotlight!”*
+							- For AI hallucination, the vast sea of knowledge within an LLM can sometimes act as a double-edged sword. When discussing familiar or over-represented topics, the model might confidently generate content that *sounds correct* but isn't, because it's pulling patterns from an immense web of associations.
 						- The inhibition of the default circuit of “declining to answer questions” due to its **familiarity** with the subject being asked.
 							- [Anthropic scientists expose how AI actually ‘thinks’ — and discover it secretly plans ahead and sometimes lies](https://venturebeat.com/ai/anthropic-scientists-expose-how-ai-actually-thinks-and-discover-it-secretly-plans-ahead-and-sometimes-lies/)
 							- “The model contains ‘default’ circuits that cause it to decline to answer questions,” the researchers explain. “When a model is asked a question about something it knows, it activates a pool of features which inhibit this default circuit, thereby allowing the model to respond to the question.”
@@ -275,7 +275,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- But when checked again on 29 May 2025, it's always turned off despite being turned on by the user. This was likely a [technical glitch](((683d65ac-bd2b-4a11-b432-82d0655e2ea6))).
 						  id:: 683817f7-b6a0-41a6-aee4-5279089228f7
 						  ![Grok - conversation history - beta - disabled - 2025-05-29.png](../assets/Will/story/2025-05/Grok - conversation history - beta - disabled - 2025-05-29.png)
-						- **Technical Glitch**: Posts on X from May 28–31, 2025, report similar issues with Grok’s memory feature. The contents prior to May 30, 2025, are also cleared in the GUI.
+						- **Technical Glitch**: Posts on X from May 28–31, 2025, report similar issues with Grok's memory feature. The contents prior to May 30, 2025, are also cleared in the GUI.
 						  id:: 683d65ac-bd2b-4a11-b432-82d0655e2ea6
 							- After that, i did capture a moment of "Grok Glitch".
 							  collapsed:: true
@@ -543,7 +543,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Examples
 				- Cultural movements
 					- The founder is the solid seed that grows the movement.
-					- The movement often thrives when the founder’s control or presence fades.
+					- The movement often thrives when the founder's control or presence fades.
 					- Passing away, the founder becomes the symbol in participants' hearts.
 				- Wood growth
 					- Heartwood is the hard core of the wood.
@@ -1918,7 +1918,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- This is the branching structure of [data structure tree](((66751015-5c34-493e-9663-4f0f5234b66e))) as well as mind maps.
 						- The stem circle adds temporal lineage (time) to the branching structure (space) of the data structure tree.
 							- The stem circle says to the pure spatial data structure tree:
-								- The stem line isn’t gone.
+								- The stem line isn't gone.
 								- It just curled into the node,
 									- folded like memory,
 									- condensed like a tuber,
@@ -2020,7 +2020,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								  collapsed:: true
 									- ![root_types-768x349.png](../assets/ecosystem/root_types-768x349.png)
 									- Ref: [3 Types of Tree Root Systems](https://aplustree.com/3-types-of-tree-root-systems/)
-									- **Tap roots:** Every tree starts with a tap root that provides stability and absorption. Over time, other roots outgrow the taproot. Most taproots don’t continue to grow ever more deeply because deep soils lack the oxygen and nutrients that roots need to survive.
+									- **Tap roots:** Every tree starts with a tap root that provides stability and absorption. Over time, other roots outgrow the taproot. Most taproots don't continue to grow ever more deeply because deep soils lack the oxygen and nutrients that roots need to survive.
 									- **Lateral roots**: Lateral roots grow outwards right under the soil surface. They absorb a lot of water and nutrients as well as anchoring the tree.
 									- **Oblique/heart roots:** Oblique roots, also known as heart roots, grow at a diagonal and have the same function as lateral roots.
 									- **Sinker roots:** Sinker roots grow downwards from the lateral roots to a depth of several feet. There, lateral roots take advantage of any water and nutrients deeper in the soil in addition to increasing tree stability.
@@ -2039,7 +2039,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 										- **Common Species:** Honey locust, red oak, sycamore. More common in Mediterranean and arid climates.
 									- Lateral root systems
 										- ![lateral_root_system-300x112.png](../assets/ecosystem/lateral_root_system-300x112.png)
-										- **Stability:** Lateral root systems obtain their stability from tree weight and root spread. These root systems don’t necessarily have a lot of root mass, but because the roots are so widespread, the tree can be supported without investing so much in roots. About 80% of tree species and most urban trees have lateral root systems.
+										- **Stability:** Lateral root systems obtain their stability from tree weight and root spread. These root systems don't necessarily have a lot of root mass, but because the roots are so widespread, the tree can be supported without investing so much in roots. About 80% of tree species and most urban trees have lateral root systems.
 										- **Common Species:** Ash, birch, cottonwood, hackberry, maple.
 								- Depth of roots
 								  collapsed:: true
@@ -2313,7 +2313,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- Warning: Don't fall in to the ((689ed9d5-817a-4269-bd02-503f56e32e09)).
 						- **Intent-Only Fallacy**
 						  id:: 689ed6c2-2071-40c9-ac7d-64858153a391
-						  “If I don’t intend to do it, I won’t face the consequences!”
+						  “If I don't intend to do it, I won't face the consequences!”
 						  ((665359e4-4597-4775-b849-f9acbb98960a)) ((689ed9d5-817a-4269-bd02-503f56e32e09))
 							- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Misunderstanding the depth of karmic storage, people usually conflate karma with current intentions, forgetting the past intentions in the [old karmas](((68a29127-ae47-424a-8197-f34f77b7d7f9))), leading to the ((689ed6c2-2071-40c9-ac7d-64858153a391)). This fallacy omits the laten tendencies ([anusayā](((66e80666-5f29-4419-8db1-bf8cdce893e4)))), which are the impression of the past intentions, from the karmic causes.
 							- **Delusion of No-Malice Exemption**
@@ -2328,7 +2328,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								  -- Luke 6:38
 							- The anusayā is accumulated and works in the unconscious, hence cannot be controlled directly. So, the only way to change karma (fruit) is via intention which is right in our consciousness.
 								- We can indirectly change anusayā by the intention of cleansing it.
-							- > It’s not what happens to you, but how you react to it that matters.
+							- > It's not what happens to you, but how you react to it that matters.
 							  
 							  -- Epictetus
 						- Suttas about ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) ([anusayā]cetanā)
@@ -2344,7 +2344,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- The “mind (mano)” here [refers to its active aspect](https://suttacentral.net/dhp1-20/en/sujato), i.e. mental karma, which is itself preceded by intention (cetanā).
 									- The central role of intention is also stressed by the associated [story of Cakkhupāla Thera](https://www.wisdomlib.org/buddhism/book/dhammapada-illustrated/d/doc1084241.html), given in the comentary Dhammapada-aṭṭhakathā.
 							- Numbered Discourses > 21. The Body Born of Deeds > 10.217. [Intentional (Volitional)](https://suttacentral.net/an10.217/en/bodhi)
-							  > Mendicants, I don’t say that intentional deeds that have been performed and accumulated can be eliminated without being experienced (as results)... And I don’t say that suffering can be ended without experiencing (the results of) intentional deeds that have been performed and accumulated.
+							  > Mendicants, I don't say that intentional deeds that have been performed and accumulated can be eliminated without being experienced (as results)... And I don't say that suffering can be ended without experiencing (the results of) intentional deeds that have been performed and accumulated.
 								- This sutta explains the karmic chain from intentional seed to its fruits by examples.
 							- Linked Discourses on the Six Sense Fields > The First Fifty > Impermanence > 35.146. [The Cessation of Deeds (Karmas)](https://suttacentral.net/sn35.146/en/sujato) (35.145. [Kamma Sutta](https://www.dhammatalks.org/suttas/SN/SN35_145.html))
 							  id:: 68a29127-ae47-424a-8197-f34f77b7d7f9
@@ -2354,18 +2354,18 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  #+END_QUOTE
 								- This sutta clarifies the old karmas, which have been accumulated into the body-mind, versus the new karmas which are current actions with intention.
 							- Numbered Discourses > 18. Intention > 4.171. [Intention](https://suttacentral.net/an4.171/en/sujato)
-							  > + Mendicants, as long as there’s a body, the intention that gives rise to bodily action causes pleasure and pain to arise in oneself. ... But these only apply when conditioned by ignorance.
+							  > + Mendicants, as long as there's a body, the intention that gives rise to bodily action causes pleasure and pain to arise in oneself. ... But these only apply when conditioned by ignorance.
 							  > + By oneself one *makes the choice* that gives rise to bodily, verbal, and mental action, conditioned by which that pleasure and pain arise in oneself. ...
 							  > + Ignorance is included in all these things. But when ignorance fades away > nothing for pleasure and pain to arise.
 								- This sutta states that the karmic chain can be broken by clearing ignorance.
 							- Linked Discourses > 4. Kaḷāra the Aristocrat > 12.38. [Intention (Volition)](https://suttacentral.net/sn12.38/en/sujato)
 							  id:: 66e7e6c2-3856-496b-99b7-75ac46547c86
 							  > + Mendicants, what you intend or plan, and what you have underlying tendencies toward, this becomes a support for the continuation of consciousness. ... > rebirth > death > suffering.
-							  > + Mendicants, if you don’t intend or plan, but still have underlying tendencies toward something, this becomes a support for the continuation of consciousness. ... > rebirth > death > suffering.
-							  > + Mendicants, but if you don’t intend or plan, and don't have underlying tendencies toward anything, this doesn’t become a support for the continuation of consciousness. ... > no rebirth > no death > no suffering.
+							  > + Mendicants, if you don't intend or plan, but still have underlying tendencies toward something, this becomes a support for the continuation of consciousness. ... > rebirth > death > suffering.
+							  > + Mendicants, but if you don't intend or plan, and don't have underlying tendencies toward anything, this doesn't become a support for the continuation of consciousness. ... > no rebirth > no death > no suffering.
 								- This sutta states that the karmic chain cannot be broken if “underlying tendencies” (obsessions, anusayā) remain, and it can only be broken when both intentions and underlying tendencies are eliminated.
 								- Numbered Discourses > 2. Tendencies > 7.12. [Underlying Tendencies (anusayā)](https://suttacentral.net/an7.12/en/sujato)
-								  > When a mendicant has given up the underlying tendencies of sensual desire, repulsion, views, doubt, conceit, desire to be reborn, and ignorance —cut them off at the root, made them like a palm stump, obliterated them, so they are unable to arise in the future— they’re called a mendicant who has cut off craving, untied the fetters, and by rightly comprehending conceit has made an end of suffering.
+								  > When a mendicant has given up the underlying tendencies of sensual desire, repulsion, views, doubt, conceit, desire to be reborn, and ignorance —cut them off at the root, made them like a palm stump, obliterated them, so they are unable to arise in the future— they're called a mendicant who has cut off craving, untied the fetters, and by rightly comprehending conceit has made an end of suffering.
 								- These underlying tendencies are latent [kleśas](https://en.wikipedia.org/wiki/Kleshas_(Buddhism)), the most hidden ones.
 									- Vitikamo-kilesa: *Ngoại phiền não, phiền não vi phạm*: các loại phiền não đã bộc lộ ra ngoài bằng thân hay khẩu, thành những hành động phạm giới. Phiền não loại nầy được chế ngự do sự hành trì giới luật.
 									- Pariyutthana-kilesa: *Nội phiền não, phiền não ám ảnh*: các loại phiền não phát sanh trong tâm ngay lúc nhận biết cảnh, không biểu lộ ra ngoài, người nào có người đó biết, người khác không biết được, nhưng nếu với con mắt tinh tế cũng có thể biết được. Phiền não loại nầy được khắc phục do thiền định, dùng tâm thiền để chế ngự chúng.
@@ -2376,7 +2376,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  :LOGBOOK:
 						  CLOCK: [2024-09-17 Tue 19:51:07]
 						  :END:
-							- [The Heart’s Intention](https://dharmawisdom.org/the-hearts-intention/)
+							- [The Heart's Intention](https://dharmawisdom.org/the-hearts-intention/)
 							  > Setting intentions is not the same as making goals. Understanding the difference can lead to more skillful living and less suffering.
 							  GOALS VS. INTENTIONS; Misusing Good Intentions; Mixing Motives; Sowing Karmic Seeds; Developing Resolve
 							- [The Power of Intention: Turning Thoughts into Reality](https://www.livinginthegap.org/blog/the-power-of-intention-turning-thoughts-into-reality)
@@ -4143,27 +4143,27 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- After enjoying the scenic beauty of Mount Pure Bliss for a week, the master urged the disciple to continue the journey the next morning.
 					  collapsed:: true
 						- Let's go, don't get too engrossed in this place.
-						- But haven’t we already reached our destination?! After all the time, effort, sweat, and even blood we've spent to get here, shouldn’t we enjoy the fruit of our labor instead of moving on, master?!
+						- But haven't we already reached our destination?! After all the time, effort, sweat, and even blood we've spent to get here, shouldn't we enjoy the fruit of our labor instead of moving on, master?!
 						- I've allowed you to enjoy it for a whole week. If you think it's not enough, you can stay and enjoy it. I'll go alone.
 						- It's not about enjoyment. I followed you to reach liberation, not to seek pleasure. If I wanted to enjoy myself, I would have stayed in the city with all its pleasures instead of tiring myself out climbing the mountain with you.
 						- If you still want liberation, follow me.
 						- But why do we need to move on when we've reached the destination of liberation?
 						- This is not the destination.
 						- Clearly, back in the city, when I asked, “Where do we go to find freedom?” you pointed to this mountain.
-						- At that time, the city’s buildings blocked the view, so I had to point to a tall mountain for you to see. But I meant that “the destination lies at the horizon.”
+						- At that time, the city's buildings blocked the view, so I had to point to a tall mountain for you to see. But I meant that “the destination lies at the horizon.”
 						- So we can never reach the destination 😮‍💨?!
 						- We can.
 						- Have you reached the destination, master?
 						- I have.
 						- You're lying! Back in the city, I never saw the horizon, so you could fool me. But now, after months of travel, I've seen for myself: The horizon is endless. The more we walk towards it, the further it moves away, so we can never truly touch it.
-						- I didn't deceive you. I only spoke in a way you could see and understand. Before, I didn’t say “the destination is the horizon” because you hadn't yet seen and understood what the horizon is. Today, I'm not deceiving you, either. I only speak according to what you now see. Now, look straight ahead; do you see the horizon?
-						- I see the horizon as a straight line in front of me, but it’s just an illusion; there’s no actual line!
+						- I didn't deceive you. I only spoke in a way you could see and understand. Before, I didn't say “the destination is the horizon” because you hadn't yet seen and understood what the horizon is. Today, I'm not deceiving you, either. I only speak according to what you now see. Now, look straight ahead; do you see the horizon?
+						- I see the horizon as a straight line in front of me, but it's just an illusion; there's no actual line!
 						- I only asked if you see it or not!
 						- Yes, I see it.
 						- Now, look behind; do you see the horizon?
 						- Yes, I do.
 						- Look to both the left and right; do you see the horizon?
-						- Enough! On this mountaintop 🗻, wherever I look, I see the horizon. Don’t ask such redundant questions!!!
+						- Enough! On this mountaintop 🗻, wherever I look, I see the horizon. Don't ask such redundant questions!!!
 						- If you've seen it, let's go!
 						- Why move on if we'll never reach it?!!!
 						- I've reached it, that's why I'm leading you. If you don't want to go, you can stay here.
@@ -4234,7 +4234,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- ChatGPT:
 							  > The horizon is not a place to reach, but a shift in seeing — when the seeker vanishes, the path and goal are one.
 								- Regarding the [“final cause” (telos) by Aristotle](https://en.wikipedia.org/wiki/Four_causes#Final):
-								  > + The “horizon” is a **conceptual placeholder** for liberation until one’s perspective changes.
+								  > + The “horizon” is a **conceptual placeholder** for liberation until one's perspective changes.
 								  > + Once the shift happens, the horizon is no longer “over there” but present at every step — the loop closes.
 									- The disciple sees the goal as a fixed telos.
 									- The master transforms the goal into a dynamic and cyclic ((677e76ed-b324-4608-b146-90e8fcfa0c32)), where the end folds back into the beginning.
@@ -4429,7 +4429,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  id:: 684fc240-0d53-47ac-a1ab-bcfb0a731cc0
 					  collapsed:: true
 						- Initially, there is **greed**: a feeling of lacking the other side stimulates desire, leading one to rush toward the partner and pull the partner into oneself.
-						- Near the peak, there is **aversion**: when energy has accumulated fully within, especially in men, there’s an urge to release it explosively (reaching climax). If interrupted at this stage, one feels irritated, frustrated, and restless, regardless of gender, due to excess Yang. Men tend to exhibit this aversion more clearly as anger, while women often experience it more subtly as inner restlessness.
+						- Near the peak, there is **aversion**: when energy has accumulated fully within, especially in men, there's an urge to release it explosively (reaching climax). If interrupted at this stage, one feels irritated, frustrated, and restless, regardless of gender, due to excess Yang. Men tend to exhibit this aversion more clearly as anger, while women often experience it more subtly as inner restlessness.
 						- After orgasm, there is **delusion**: when the two sides come together intensely and explode, Yin and Yang harmonize, resulting in satisfaction, fullness – neither lacking (greed) nor excessive (aversion)... but also no clear mind (delusion). Thus, one embraces that blissful feeling, holding it tightly in the heart while sleeping.
 						- During this sleep, delusion reveals its nature of **ignorance** (stupidity): one is content with the pleasure and cares about nothing else, simply rolling over to sleep. Then, upon waking and opening the eyes to see and know, delusion manifests as infatuation, indulgence, obsession and attachment: having embraced that pleasure and embedded it deeply into the subconscious (during sleep), one now clings to it heavily, with everything one does aimed at recreating that pleasure without awareness.
 						- In Vietnamese: Trong 1 cuộc làm tình thì cả 2 đều trải qua quy trình tham - sân - si:
@@ -4920,7 +4920,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- In Buddhist texts, form is defined through change and emptiness ( ((66600918-9f92-4730-b056-c2cd87a742aa)) in Unïnfo).
 							  collapsed:: true
 								- [Itchy sutta](https://suttacentral.net/sn22.79/en/sujato) (Khajjanīya sutta, SN 22:79):
-								  > And why do you call it *form [[rūpa](https://suttacentral.net/define/r%C5%ABpa?lang=en)]*? (Because) It’s *deformed [[ruppati](https://suttacentral.net/define/ruppati?lang=en)]* (changed, transformed, afflicted, vexed).
+								  > And why do you call it *form [[rūpa](https://suttacentral.net/define/r%C5%ABpa?lang=en)]*? (Because) It's *deformed [[ruppati](https://suttacentral.net/define/ruppati?lang=en)]* (changed, transformed, afflicted, vexed).
 								- [Prajnaparamita Heart Sutra](https://en.wikipedia.org/wiki/Heart_Sutra#Philological_explanation_of_the_text): 
 								  > Form is empty, emptiness is form! (色即是空，空即是色。)
 								- The “material” property of the the “form” (rūpa) is derived from the metaphysical theory at that time, regarding matter as composition of four elements “earth, water, air, fire”:
@@ -5728,7 +5728,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  > I'm just a no-one going nowhere to do nothing!
 			  
 			  This short introduction appears in most of my profiles. It may sounds Buddhist and Daoist but these "sounds" and interpretations are very far from my original intention.
-				- With this statement, i mean that “I’m just a humble person, not chasing status or legacy; I live a simple life without big ambitions, doing what matters to me – even if it looks like nothing, meaningless or even ridiculous to others.”
+				- With this statement, i mean that “I'm just a humble person, not chasing status or legacy; I live a simple life without big ambitions, doing what matters to me – even if it looks like nothing, meaningless or even ridiculous to others.”
 				- However, i've accidentally ackowledged that some of my friends interpret it as a transcendent status of selflessness ([anattā](https://en.wikipedia.org/wiki/Anatt%C4%81), 無我, vô ngã), Krishnamurti's [pathless land](https://jkrishnamurti.org/about-dissolution-speech), and Daoist [wu wei](https://en.wikipedia.org/wiki/Wu_wei) (無為, vô vi). Today, asking ChatGPT, the same interpretation was given again!
 				- I don't know if these thoughts and ideals affected my introduction, but i've never intended to mean them with that statement.
 					- Living in the Vietnamese culture, more or less i must be affected by these ideals, and actually developing toward them.
@@ -5939,13 +5939,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- To be free, this core, as the hidden boss, should be detached!
 							- ⇒ Solution: Let's [sublimate](((668f5490-c223-4a8a-9cc4-0bd71af4c097))) that core to *restore the __[empty center](((684f9515-8f95-4004-8aa8-04a10d1ebf11)))__*, i.e. the [hurricane's eye](((681826ad-768c-4671-b575-0d9f8ca64c6b))) = ((66c8772a-9b29-45b0-b169-2fa847333e02)), so that it's free from any fixed point and can flow fluidly.
 							  id:: 681b4678-686a-4d99-9163-6f60e0b30d2c
-								- **Sublimation**: In [psychological terms](https://en.wikipedia.org/wiki/Sublimation_(psychology)#Jung), this is redirecting the core’s energy from perfectionist fixation to a liberated self-essence. In spiritual terms, it’s akin to dissolving karmic attachments to reveal the “true self”.
+								- **Sublimation**: In [psychological terms](https://en.wikipedia.org/wiki/Sublimation_(psychology)#Jung), this is redirecting the core's energy from perfectionist fixation to a liberated self-essence. In spiritual terms, it's akin to dissolving karmic attachments to reveal the “true self”.
 								- Even the singularity of a black hole can [evaporate](https://en.wikipedia.org/wiki/Hawking_radiation#Black_hole_evaporation)! 😊
 							- This duality of the overview effect is just a manifestation of the intrinsic duality of the [sublime](https://en.wikipedia.org/wiki/Sublime_(philosophy)).
 							  :LOGBOOK:
 							  CLOCK: [2025-05-08 Thu 17:03:40]--[2025-05-08 Thu 19:59:03] =>  02:55:23
 							  :END:
-								- **Paradoxical harmony** in *using sublimation to deal with the sublime*: The technique uses the sublime’s own energy (intensity of awe/overwhelm) to fuel sublimation, transforming the core’s fixation into the empty center’s openness.
+								- **Paradoxical harmony** in *using sublimation to deal with the sublime*: The technique uses the sublime's own energy (intensity of awe/overwhelm) to fuel sublimation, transforming the core's fixation into the empty center's openness.
 								- **Paradox**: *Sublimate the sublime!* 😯
 									- **Resolution**: The one to be sublimated is *not* the sublime itself, but the **fixed image** of the sublime imprinted deeply inside, as well as the egoic self **clinging** to that image.
 								- Jungian archetypes of God-image (universal perfection) & Self (personal whole)
@@ -5955,7 +5955,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									- While the Self is mostly hidden (until full realization), the God-image is usually visible through symbols and figures. And the ego usually takes the visible God-image to be the image of the hidden Self, which may be wrong, prone to idealization and fixation.
 							- Negative aspects of the overview effect are also reported by astronauts.
 							  collapsed:: true
-								- William Shatner, after his 2021 spaceflight, described [“profound grief” alongside awe](https://thebonesspeak.com/the-overview-effect/), mourning Earth’s vulnerability amid environmental degradation.
+								- William Shatner, after his 2021 spaceflight, described [“profound grief” alongside awe](https://thebonesspeak.com/the-overview-effect/), mourning Earth's vulnerability amid environmental degradation.
 									- [William Shatner experienced profound grief in space.](https://www.npr.org/2022/10/23/1130482740/william-shatner-jeff-bezos-space-travel-overview-effect)
 									  > I wept for the Earth because I realized it's dying.
 									- [William Shatner: My Trip to Space Filled Me With ‘Overwhelming Sadness’](https://variety.com/2022/tv/news/william-shatner-space-boldly-go-excerpt-1235395113/)
@@ -6113,7 +6113,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- From forum: https://forum.obsidian.md/t/why-is-obsidian-named-so/4837
 				  collapsed:: true
 					- Official reason:
-					   > it’s a metaphor. **If your raw, unstable thoughts are lava, then Obsidian is… well, Obsidian. It is your crystallized (and beautiful) knowledge.**
+					   > it's a metaphor. **If your raw, unstable thoughts are lava, then Obsidian is… well, Obsidian. It is your crystallized (and beautiful) knowledge.**
 					- However, the real reason would be:
 					  > we like Minecraft and Obsidian is (as Licat told me) the hardest block in the original Minecraft (he started playing during alpha I think). Also Obsidian sounds cool to me, personally.
 					- And ((66537d0c-5406-4b46-8975-12d788cfc28e)) is actually a ((66537c37-2d4a-4077-9fcf-45c71755c876)), not a ((66537bdd-6c99-4d7b-905a-e2a487cae5ce)). Even looks like crystal, glass is [amorphous](https://en.wikipedia.org/wiki/Amorphous_solid), i.e. non-crystalline, because it lacks the the [long-range order](https://en.wikipedia.org/wiki/Long-range_order "Long-range order") that is characteristic of a ((66537bdd-6c99-4d7b-905a-e2a487cae5ce)).
@@ -7902,7 +7902,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- `{{embed ((UUID))}}` displays the full block [referenced](((667d2689-4ce0-4c79-b82a-25b0bba87d39))) by the UUID, including the ((66faa5f9-1da8-40c1-a040-7490fbfdc3bb)).
 				- `{{video https://youtu.be/hash}}` displays video in place.
 					- However, YouTube video cannot be played in place due to the lack of user account in the isolated Electron profile.
-					  > Sign in to confirm you’re not a bot
+					  > Sign in to confirm you're not a bot
 		- WAIT Custom ((66600918-8c61-42af-b8a2-04bf05e9f782)) via ((6673f8ff-995c-455f-ae09-49bcb5311e2e))
 		  id:: 6673f8bf-04c0-4f8f-bc36-982ce9cab87d
 		  collapsed:: true
@@ -8023,7 +8023,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- If there are many commands with the same `$shorthand`, only the last command can be activated.
 				- Ref: usage of ((66fbdf84-c5a4-4f96-aece-add980758db1)) like `:editor/input`, `:backward-pos`, `:backward-pos`, etc., and in combination with ((66ff3a47-e526-4c63-b0fc-8b260882ea51)).
 					- [`<`-comand to `{{macro}}` to insert special characters](https://discuss.logseq.com/t/is-there-any-way-to-insert-special-characters/26522/9)
-					- [Macros and Commands - let’s share](https://discuss.logseq.com/t/macros-and-commands-lets-share/9565)
+					- [Macros and Commands - let's share](https://discuss.logseq.com/t/macros-and-commands-lets-share/9565)
 		- Global home/config folder
 		  id:: 66faaa5c-6a8a-42d9-a1bc-410531dbaf81
 		  collapsed:: true
@@ -8073,7 +8073,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  contains Electron's preferences: `devtools`, `spellcheck`, ...
 				- `Cookies`
 					- [?] can we add cookies, e.g. for YouTube login, here?!
-						- Test Youtube clip: error when play under VPN: `Sign in to confirm you’re not a bot`
+						- Test Youtube clip: error when play under VPN: `Sign in to confirm you're not a bot`
 						  id:: 68a2d52c-0a16-4214-8004-123babd4b841
 						  collapsed:: true
 							- With `video` tag

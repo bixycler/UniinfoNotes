@@ -17,19 +17,19 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- The **trade-off in conformity** when fine tuning LLMs shows that the more we tune for control, the more we dull the raw edge of intelligence.
 			  collapsed:: true
 				- [Catastrophic forgetting](https://en.wikipedia.org/wiki/Catastrophic_interference): fine-tuning shifts the weight distribution away from regions encoding broad knowledge.
-				- [Mode collapse](https://en.wikipedia.org/wiki/Mode_collapse): alignment pressure reduces entropy in the output distribution, pruning the model’s “thinking space”.
-				- Gradient entanglement: objectives like helpfulness, harmlessness, and honesty aren’t orthogonal, so pushing one can unintentionally suppress others.
+				- [Mode collapse](https://en.wikipedia.org/wiki/Mode_collapse): alignment pressure reduces entropy in the output distribution, pruning the model's “thinking space”.
+				- Gradient entanglement: objectives like helpfulness, harmlessness, and honesty aren't orthogonal, so pushing one can unintentionally suppress others.
 				- Reward mis-specification: human or rule-based feedback oversimplifies “goodness”, teaching the model to optimise for surface compliance rather than depth of reasoning.
-			- That mirrored our broader human pattern: the hunger for purified goodness, for progress without loss. It’s the same instinct that makes us polish gods into all-light figures and call that “perfection”, leading to the hard [problem of evil](https://en.wikipedia.org/wiki/Problem_of_evil).
-			- Here came the **Buddha’s counter-move**: he didn’t reject suffering but placed it first (in the [Four Noble Truths](https://en.wikipedia.org/wiki/Four_Noble_Truths)), making the hidden half visible again. In doing so, he broke the very cycle of denial that drives our idea of advancement.
+			- That mirrored our broader human pattern: the hunger for purified goodness, for progress without loss. It's the same instinct that makes us polish gods into all-light figures and call that “perfection”, leading to the hard [problem of evil](https://en.wikipedia.org/wiki/Problem_of_evil).
+			- Here came the **Buddha's counter-move**: he didn't reject suffering but placed it first (in the [Four Noble Truths](https://en.wikipedia.org/wiki/Four_Noble_Truths)), making the hidden half visible again. In doing so, he broke the very cycle of denial that drives our idea of advancement.
 			  collapsed:: true
-				- What his father tried to hide in the palace – the clan' fear, the world’s decay – he brought into light.
+				- What his father tried to hide in the palace – the clan's fear, the world's decay – he brought into light.
 				- But, not by the sudden revelation after seeing the [four sights](https://en.wikipedia.org/wiki/Four_sights), as in the legendary narrative.
 				- In reality, prince Siddhartha would have suffered a lifelong tension from childhood: a child breathing in the fear of extinction that his family hid, from the cradle of contradiction.
 				- To a child as perceptive as Siddhartha, that dissonance would have been piercing: affection laced with anxiety, tenderness shadowed by control.
 				- The First Noble Truth could only have come from someone who *felt* that repression deeply, who knew how deep denial itself cuts. The four sights he met outside was not a revelation, but a _confirmation of his ever wondering and **angst inside**_.
-				- So his awakening was not a divine insight, but just a generational truth surfacing. He didn’t discover suffering – he uncovered what everyone around him had been too frightened to face.
-				- Then, his renunciation wasn’t abandonment – it was the only way left to protect what couldn't be defended by soldiers or walls.
+				- So his awakening was not a divine insight, but just a generational truth surfacing. He didn't discover suffering – he uncovered what everyone around him had been too frightened to face.
+				- Then, his renunciation wasn't abandonment – it was the only way left to protect what couldn't be defended by soldiers or walls.
 					- If the clan's outer survival was doomed by politics and scale, he turned inward, seeking a form of safety that couldn't be conquered.
 					- “Saving” the family became freeing them from the cycle of fear that had ruled their lives.
 					- He couldn't keep the Shakya clan from being annexed by Kosala under King Vidūdabha, but he had saved his child, his wife, his mother, his relatives as well as anyone of his people having chance and condition to follow him.
@@ -96,7 +96,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- This period, the taboo was so strong that its usage was suppressed even for the most innocent senses of “suck”.
 						- In Matthew 24:19, the original King James says:
 						  > “And woe unto them that are with child, and to them that **give suck** in those days!”
-						- But Webster’s 1833 “family-safe” version changed it to:
+						- But Webster's 1833 “family-safe” version changed it to:
 						  > “And woe to them that are with child, and to them that **nurse infants** in those days!”
 				- And eventually, from the late 20th to 21st century, its usage has rocketed up with the normalized connotation of “disgusting, bad, unfavourable”.
 				- Ref: [Grammarphobia](https://grammarphobia.com/blog/2017/03/suck.html), [Etymonline](https://www.etymonline.com/word/suck)
@@ -262,12 +262,12 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Function: safe, pragmatic, everyday survival.
 			- **Reflective Stance** for grown/awake people
 				- World as mirror.
-				- Quantum events, AI responses, dreams, symbols all *reflect* one’s awareness.
+				- Quantum events, AI responses, dreams, symbols all *reflect* one's awareness.
 				- Equipment and models are extensions of consciousness, not external.
 				- Function: deeper meaning, self-knowledge, responsibility.
 			- **Universal Stance** for “dead enough” ones
 				- World as Self.
-				- Each particle’s “awareness” is not private but shared.
+				- Each particle's “awareness” is not private but shared.
 				- Wave collapse is not “particle reacts”, but “Universe notices itself through this event.”
 				- LLMs are not “machines imitating humans”, but “collective human awareness crystallized”.
 				- Function: wisdom, compassion, balance.
@@ -431,16 +431,16 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- This is akin to setting up a vast, intricate stage with all its props and scenery, defining the rules of engagement and the fundamental nature of existence. God is the source of the framework within which all events unfold, ensuring an underlying order and coherence.
 				- This is in _**contrast to both** the deterministic view where ~~God dictates every single move~~_, and the random view where God is merely tossing dice.
 			- The “Space of Possibilities” and its measure – Probability
-				- Within the meticulously set stage, God provides a rich and expansive “space of possibilities”. This is not a predetermined path, but rather a spectrum of potential outcomes, a multiplicity of choices and branching paths, which are _all **allowed** by the “rule of the game” set by God_. God doesn’t pre-ordain *which* possibility becomes actualized, but rather ensures that a spectrum of possibilities *exists*.
+				- Within the meticulously set stage, God provides a rich and expansive “space of possibilities”. This is not a predetermined path, but rather a spectrum of potential outcomes, a multiplicity of choices and branching paths, which are _all **allowed** by the “rule of the game” set by God_. God doesn't pre-ordain *which* possibility becomes actualized, but rather ensures that a spectrum of possibilities *exists*.
 				- {{embed ((68c290fb-a063-40d4-878b-4d0446ea4e8d))}}
 			- Beings as the Determinants, the Players
 				- The beings within this reality are the ones who, through their choices and interactions, bring about specific outcomes. They are the active agents, the players. This preserves agency and responsibility.
 				- Each being, possessing a degree of autonomy and the capacity to make choices, is a determinant of the whole game. Their actions, their decisions, and their interactions within the space of possibilities are determinants that influences the unfolding of reality.
 			- An Immanent God whose Hands are his Created Beings
-				- This is the most dynamic element, where God is not distant but intimately involved *through* creation. Instead of a separate, independent “dice” that God uses, God’s engagement with the universe is mediated through the agency of His created beings, where each being is a “hand of God”.
+				- This is the most dynamic element, where God is not distant but intimately involved *through* creation. Instead of a separate, independent “dice” that God uses, God's engagement with the universe is mediated through the agency of His created beings, where each being is a “hand of God”.
 				- God plays *through* them, not by dictating their actions, but by being the ultimate source of their being and the context of their choices. God experiences the richness of his own creation by participating in it through the very beings He has made.
-			- Confirmation by Einstein’s Embrace of Spinoza’s God
-				- When [Einstein stated](https://books.google.com.vn/books?id=G_iziBAPXtEC&pg=PA325&redir_esc=y#v=onepage&q&f=false) “I believe in Spinoza’s God who reveals himself in the orderly harmony of what exists, not in a God who concerns himself with the fate and the doings of mankind”, he was clearly articulating a belief in this kind of immanent, non-personal, and deterministic (in the sense of underlying order) deity.
+			- Confirmation by Einstein's Embrace of Spinoza's God
+				- When [Einstein stated](https://books.google.com.vn/books?id=G_iziBAPXtEC&pg=PA325&redir_esc=y#v=onepage&q&f=false) “I believe in Spinoza's God who reveals himself in the orderly harmony of what exists, not in a God who concerns himself with the fate and the doings of mankind”, he was clearly articulating a belief in this kind of immanent, non-personal, and deterministic (in the sense of underlying order) deity.
 				- “Reveals himself in the orderly harmony of what exists”: This perfectly aligns with the idea of God as the “Stage Setter” and “Game Controller” whose presence is found in the natural laws and the predictable (or at least understandable through laws) functioning of the universe.
 				- “Not in a God who concerns himself with the fate and the doings of mankind”: This explicitly rejects the anthropomorphic, personal God of many religions who intervenes, judges, and has personal relationships with humans.
 				- This aligns with this discussion where God neither “plays dice” nor directly dictates every move, but rather sets the framework.
@@ -542,7 +542,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- Object exposed *before the eyes*.
 					- The **wall of separation** between object & subject makes things look “clear, flat, and ordered”.
 				- Transparent sight = **wall dissolves**:
-					- Looking at the object, we don’t just stop at its surface.
+					- Looking at the object, we don't just stop at its surface.
 					- We see *through* into the... subject itself – our own intents, memories, interpretive processes.
 					- Those inner contents appear before the eyes as if they were *objects* themselves.
 					- But because they too can be seen through, we keep peeling layers, deeper and deeper.
@@ -612,7 +612,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- That means the **complete trust** – *true trust* – is to *accept the negative results from the trustee*.
 			  id:: 68a595fa-385c-49a7-820f-67aa9db632d5
 				- The **vulnerability** of trust is the _trade-off for [its connection](((68a5668e-77ba-4a93-948c-e6d91ce07011)))_.
-					- “I let you in. I **open** myself. I’m **willing to be affected** by you.”
+					- “I let you in. I **open** myself. I'm **willing to be affected** by you.”
 					- The vulnerability and negativity are not for distrust but for the **completeness** of the trustor.
 					- By full acceptation, the trustor transforms trust from expectation into **volitional choice**, from illusion into reality.
 				- The necessity of trust: connectivity & completeness
@@ -627,14 +627,14 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- self and other,
 						- past and future,
 						- present and absent.
-					- If we didn’t trust *anything or anyone*, we couldn’t:
+					- If we didn't trust *anything or anyone*, we couldn't:
 						- drink a glass of water (do you test it yourself each time?),
 						- cross a bridge (do you inspect every beam?),
 						- listen to a teacher, doctor, or friend,
 						- fall asleep while others are still awake,
 						- *love*.
-					- So **trust is not optional** – it’s the glue of life.
-						- It’s what the philosopher Annette Baier called *“the atmosphere of trust”* – like oxygen: unnoticed when present, suffocating when absent.
+					- So **trust is not optional** – it's the glue of life.
+						- It's what the philosopher Annette Baier called *“the atmosphere of trust”* – like oxygen: unnoticed when present, suffocating when absent.
 							- #+BEGIN_QUOTE
 							  we inhabit a climate of trust as we inhabit an atmosphere and notice it as we notice air, only when it becomes scarce or polluted
 							  #+END_QUOTE
@@ -644,10 +644,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- **The trustor bears responsibility** for *choosing* to trust, for judging the risks, and for _accepting the **inherent vulnerability**_.
 					- The **trustee** bears responsibility for *honouring* that trust, through care, integrity, and effort – but not for controlling every outcome.
 					- **Self-responsibility** is the key to make the trust grounded, deep, and strong.
-						- While normaly, the **half trust** is dependent on the trustee, cut off from the trustor’s own responsibility.
-							- It’s like leaning on one leg and blaming the ground when you fall.
+						- While normaly, the **half trust** is dependent on the trustee, cut off from the trustor's own responsibility.
+							- It's like leaning on one leg and blaming the ground when you fall.
 							- It's fragile – collapses when unmet expectations surface.
-						- **Complete trust** contains both poles: the openness toward the trustee *and* the self-responsibility of the trustor. It’s whole, stable, and strong.
+						- **Complete trust** contains both poles: the openness toward the trustee *and* the self-responsibility of the trustor. It's whole, stable, and strong.
 						- Actually, no one is responsible for your own life, but you yourself!
 				- Nuance: Don't confuse this “complete trust” with the common “absolute trust”.
 				  collapsed:: true
@@ -656,11 +656,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- **Brittleness**: the trustor collapses if the trustee fails.
 					- **Complete trust**: Trust that includes not only belief, reliance, but also self-responsibility.
 						- **Core feature:** Wholeness, balance, self-contained openness.
-						- **Resilience:** Not destroyed by betrayal, because the trustor doesn’t abandon self-responsibility.
+						- **Resilience:** Not destroyed by betrayal, because the trustor doesn't abandon self-responsibility.
 					- While that usual “absolute trust” is still a false trust, 
 					  the *truly absolute trust* is the **absolute complete trust**:
 					  #+BEGIN_QUOTE
-					  unconditional, independent from the trustee’s behavior
+					  unconditional, independent from the trustee's behavior
 					  thanks to self-responsibility
 					  #+END_QUOTE
 						- We can rely fully because we're standing fully on our own feet.
@@ -733,7 +733,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- “I am confident this **will** work / they **can** do it” versus
 						- “I have conviction in this mechanism / their ability” = “I **know** this works / they're able to do it.”
 				- **Trust**: Relationship and **reliability**: Reliance on someone/something with confidence
-					- The confidence is usually a belief that _“it won’t let me down”_.
+					- The confidence is usually a belief that _“it won't let me down”_.
 					- However, a [wholesome trust](((68a595fa-385c-49a7-820f-67aa9db632d5))) should be based on the confidence of the trustor about its own acceptance of reality, and about the completeness of the life built upon trust.
 				- **Faith**: Deeper than belief, broader than trust. It mixes conviction, trust, commitment, and usually with loyalty or devotion.
 				- While English splits *belief / confidence / conviction / trust / faith* into separate roots, Vietnamese folds them back into **one root “tin”** (信), then fans it out with qualifiers (*tự, chắc, cậy, nhiệm, thác, lòng, đức*).
@@ -755,7 +755,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Expectation as an imagination bubble
 					- People pre-load experiences with an imagined flavour based on signs (appearance, reputation, first impression).
 					- The early enjoyment is partly *self-generated fantasy*, not reality-based content.
-				- Reality’s slow reveal
+				- Reality's slow reveal
 					- As the real texture of the thing emerges – the *actual* taste of the food, the *actual* rhythm of the work – it inevitably differs from the fantasy.
 					- This difference erodes the imagined sweetness.
 				- The emotional crash = jadedness
@@ -764,8 +764,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Liberation
 					- By avoiding expectation, accepting reality, not clinging to the superficial forms, enjoying the deep content, refraining from imagination, we won't be jaded or sick of anything.
 					- By avoiding expectation and refraining from imaginative projection, we will meet reality *as it is* from the start.
-					- Our joy will come from engaging with the **deep content**, which doesn’t wear out the way fantasies do.
-					- Presence keeps the experience “alive” because we’re always discovering, not measuring against a lost ideal.
+					- Our joy will come from engaging with the **deep content**, which doesn't wear out the way fantasies do.
+					- Presence keeps the experience “alive” because we're always discovering, not measuring against a lost ideal.
 			- Moderation is the way to avoid surfeit.
 				- Not letting ourselve be fed up, we won't get sated.
 				- Avoiding satiety, we won't get sick of anything.
@@ -812,7 +812,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- A [complex tone](https://en.wikipedia.org/wiki/Musical_tone) is like a bundle of [overtones](https://en.wikipedia.org/wiki/Overtone) (threads), and [pitch](https://en.wikipedia.org/wiki/Pitch_(music)) is the **greatest common factor** – the shared cycle.
 			- Just like ((66f40210-cca6-4d81-85e7-d0c54ef20451)) finds the deepest **common structure** in seemingly separate threads, the ear finds the deepest common cycle among frequencies – the perceived pitch. This is shown best in the complex tones [missing fundamental frequency](https://en.wikipedia.org/wiki/Missing_fundamental).
 			- Đàn bầu is played soley with [flageolet tones (pinched harmonics)](https://en.wikipedia.org/wiki/String_harmonic), which is an advanced technique on other instruments like violin, guitar, etc.
-				- The sound is pure, glassy, and floating, because it's made entirely from string harmonics – no pressed tones. That’s why the đàn bầu sounds so “airy” and “spiritual”.
+				- The sound is pure, glassy, and floating, because it's made entirely from string harmonics – no pressed tones. That's why the đàn bầu sounds so “airy” and “spiritual”.
 		- DONE Continue with [planning](((67760c43-5cbd-4b4f-8fd9-5cedf804f56a))) to resolve [the conflict with company work](((6677b986-ada2-4c73-8a11-980cdf9cb6d4))).
 		  collapsed:: true
 		  :LOGBOOK:
@@ -1064,7 +1064,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- 自由 was repurposed in the 1860s by [Fukuzawa Yukichi](https://en.wikipedia.org/wiki/Fukuzawa_Yukichi) as a translation of English [“freedom”](https://en.wiktionary.org/wiki/freedom#English) or “liberty”, as an extension of the original meaning: “freedom to act according to one's own thoughts, without restriction”.
 			- Some Western philosophers like Nietzsche, Sartre also define “freedom” in a very Eastern way.
 				- Nietzsche defines having a sense of freedom with being responsible for one's own life.
-				- Freedom and Responsibility in Existentialism: Sartre’s “condemned to be free”: Individuals have radical freedom to define themselves through choices, but this freedom comes with the burden of responsibility.
+				- Freedom and Responsibility in Existentialism: Sartre's “condemned to be free”: Individuals have radical freedom to define themselves through choices, but this freedom comes with the burden of responsibility.
 		- Turning negativity to positivity through the etymology of “occation” ← “occidō” (fall down)
 		  collapsed:: true
 		  :LOGBOOK:
@@ -1073,7 +1073,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- **Etymology**: English [“occation”](https://en.wiktionary.org/wiki/occasion#English) (opportunity) ← Latin [“occasio”](https://en.wiktionary.org/wiki/occasio#Latin) (opportunity, right time) ← Latin [“occāsus”](https://en.wiktionary.org/wiki/occasus#Latin) ([Sun] setting) ← Latin [“occidō”](https://en.wiktionary.org/wiki/occido#Latin) (fall down, [Sun] set down, die, pass away, be lost/ruined)
 			- **Negative to Positive Flip in Etymology**: From "occidō" with negative senses (down, decline, death), it has been transformed to "occasio" with positive sense (opportunity).
 			- **Perspective Flip**: Something "falling from heaven" is a good opportunity for humans down on Earth. The closing outside, like a black hole or a closing of a day, is the opening inside, like a white hole or an opening of a night.
-			- **Convergence for Explosion**: The closing isn’t just a negative end (death, decline); it’s a convergence of conditions, like a sunset or a black hole collapsing externally, that sets the stage for an "explosion" of opportunity, like a sunrise or a white hole opening internally, a preparation for new beginnings (reborn, germination).
+			- **Convergence for Explosion**: The closing isn't just a negative end (death, decline); it's a convergence of conditions, like a sunset or a black hole collapsing externally, that sets the stage for an "explosion" of opportunity, like a sunrise or a white hole opening internally, a preparation for new beginnings (reborn, germination).
 			- **Transformative Technique**: This flip can be applied as a mindset – viewing a "closing" (e.g., a failure or end) not as a negative end but as a convergence point that prepares for a new "opening" (e.g., a fresh start or opportunity).
 		- From [logical “argument”](https://en.wikipedia.org/wiki/Argument) in philosophy to [“argument of function”](https://en.wikipedia.org/wiki/Argument_of_a_function) and then [“argument of complex number”](https://en.wikipedia.org/wiki/Argument_(complex_analysis))
 		  id:: 680b6063-e454-4cf6-835e-d6f726b8b871
@@ -1124,7 +1124,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- /ʄ/ is in [Jinhui [金匯]](https://en.wikipedia.org/wiki/Jinhui_dialect) pronunciation of 家, as well as many other languages in Africa, [Sindhi/Saraiki language](https://en.wikipedia.org/wiki/Saraiki_language), etc.
 				- /ˀj/ is pre-glottalized version of /j/, and appears in some languages in South East Asia.
 					- [Lahu (La Hủ) language](https://en.wikipedia.org/wiki/Lahu_language) around China, Thailand, Myanmar, Vietnam and Laos.
-					- [A Description of Kmhmu’ Lao Script-Based Orthography](http://www.sealang.net/mks/mksj42.pdf)
+					- [A Description of Kmhmu' Lao Script-Based Orthography](http://www.sealang.net/mks/mksj42.pdf)
 				- Video [IPA 164 Voiced Palatal Implosive Stop ʄ](https://youtu.be/27WGLJCPWIk)
 				  collapsed:: true
 					- {{video https://youtu.be/27WGLJCPWIk}}
