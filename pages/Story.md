@@ -5220,8 +5220,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- The trade-off between conformity & capabilities → advancement as just a natural step forward
 					- The **trade-off in conformity** when fine tuning LLMs shows that the more we tune for control, the more we dull the raw edge of intelligence.
-					- That mirrored our broader human pattern: the hunger for purified goodness, for progress without loss. It’s the same instinct that makes us polish gods into all-light figures and call that perfection.
-					- Then came the **Buddha’s counter-move**: he didn’t reject suffering but placed it first, making the hidden half visible again. In doing so, he broke the very cycle of denial that drives our idea of advancement.
+						- [Catastrophic forgetting](https://en.wikipedia.org/wiki/Catastrophic_interference): fine-tuning shifts the weight distribution away from regions encoding broad knowledge.
+						- [Mode collapse](https://en.wikipedia.org/wiki/Mode_collapse): alignment pressure reduces entropy in the output distribution, pruning the model’s “thinking space”.
+						- Gradient entanglement: objectives like helpfulness, harmlessness, and honesty aren’t orthogonal, so pushing one can unintentionally suppress others.
+						- Reward mis-specification: human or rule-based feedback oversimplifies “goodness”, teaching the model to optimise for surface compliance rather than depth of reasoning.
+					- That mirrored our broader human pattern: the hunger for purified goodness, for progress without loss. It’s the same instinct that makes us polish gods into all-light figures and call that “perfection”, leading to the hard [problem of evil](https://en.wikipedia.org/wiki/Problem_of_evil).
+					- Here came the **Buddha’s counter-move**: he didn’t reject suffering but placed it first (in the [Four Noble Truths](https://en.wikipedia.org/wiki/Four_Noble_Truths)), making the hidden half visible again. In doing so, he broke the very cycle of denial that drives our idea of advancement.
 					- So the circle ends where it began:
 					- what we call “advancement” is simply the next step forward — not inherently better, just further along the curve. Each stride pushes something behind the light of attention. Real progress, if there is such a thing, might be noticing that shadow as we walk.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
