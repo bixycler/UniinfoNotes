@@ -1055,7 +1055,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :LOGBOOK:
 			  CLOCK: [2024-09-13 Fri 19:52:01]
 			  :END:
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66e40f4b-34ae-499a-8192-0a0f4f580c7e)) is the equal relation regarding the most abstract ((66e43b94-9183-4d49-af85-8a7a1c194c12)), a.k.a. conservation of ((66e426ec-d29b-4614-932b-2c70693790d7)) (momentum) (định tính).
+			  1 circle of the ((66537a0b-d107-4f7e-b01f-bf624a647d8c)): ((669dfc7d-5355-41db-93a1-8d590e8ec9d8))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66e40f4b-34ae-499a-8192-0a0f4f580c7e)) is the equal relation regarding the most abstract ((66e43b94-9183-4d49-af85-8a7a1c194c12)), a.k.a. conservation of ((66e426ec-d29b-4614-932b-2c70693790d7)) (momentum) (định tính). This is the characteristic of monistic view for qualitative theory of Uniinfo
 				- Structure
 					- $p + q = 0$
 					- ((6678288e-699b-4325-bdba-bf6349fe0d57))s: ((667d15b7-6364-49a9-ac58-c64d2a992b63))s
@@ -1066,6 +1067,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :LOGBOOK:
 			  CLOCK: [2024-09-13 Fri 19:52:06]
 			  :END:
+			  2 circles of the ((675c03d8-3185-41a8-9f98-e869fabec793)): Ω = ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) + ((667cfa42-ade7-4310-9a7b-6d14d01c16da))
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe)) is the equal relation regarding ((66e42b30-1aa4-4b6f-8c54-b29fc09085c6)), a.k.a. conservation of ((66e426df-90e4-43c0-9f02-c48c336e830d)) (energy) (định lượng). This is the common connotation of the word “equal”.
 				- Structure
 					- $|p| + |q| = 1 = |p'| + |q'|$ 
