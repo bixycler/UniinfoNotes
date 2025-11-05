@@ -1061,7 +1061,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- $p + q = 0$
 					- ((6678288e-699b-4325-bdba-bf6349fe0d57))s: ((667d15b7-6364-49a9-ac58-c64d2a992b63))s
 					- ((665ca429-84e3-49ff-921e-c07d19cd99ba)): ((66ab675b-2778-4f51-80ad-20a8f6988691)) (closed loop)
-					- ((94e87dc9-71af-477c-aa70-0f448c2f1e20)): origin, ((66728236-5b19-425c-bb5f-dfc0dc8b79fd))
+					- ((94e87dc9-71af-477c-aa70-0f448c2f1e20)): vacantistic obop = origin, ((66728236-5b19-425c-bb5f-dfc0dc8b79fd))
 			- mass equality
 			  id:: 66e40f58-c9dd-47f4-999d-2e4a2aa874fe
 			  :LOGBOOK:
@@ -1080,7 +1080,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :LOGBOOK:
 			  CLOCK: [2024-09-13 Fri 19:52:12]
 			  :END:
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66e40f75-0573-484e-8cb6-b6b8071ffb8c)) is the equal relation regarding intensity, a.k.a. ((669a1bec-3347-4915-83e4-dcffc4d482d1)) – the conservation of structure (định hình) via maintenance of body in the world.
+			  3 circles of the uninet: ((94e87dc9-71af-477c-aa70-0f448c2f1e20)), ((66c810a0-9861-4787-bdcf-1378219332be)), ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66e40f75-0573-484e-8cb6-b6b8071ffb8c)) is the equal relation regarding intensity, a.k.a. ((669a1bec-3347-4915-83e4-dcffc4d482d1)) – the conservation of structure (định hình). This conservation of structure via maintenance of body in the world is the characteristic of the trialistic view of ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)).
 				- Structure
 					- ((6678288e-699b-4325-bdba-bf6349fe0d57))s: components = intertwined circles
 					- ((665ca429-84e3-49ff-921e-c07d19cd99ba)): ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) ((667d15c6-67c4-4998-a549-c8b3f9de3d60))
