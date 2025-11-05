@@ -1,5 +1,4 @@
 - circular time
-  collapsed:: true
 	- the constantly mixing of the past in the present is the **arrow of time** increasing entropy.
 		- information loss: n-to-1 function computation (action cone, deduction), thermodynamics, psychology, cosmic, wave function collapse = quantum decoherence + averaging
 		- intelligence = information gain = restoring arrow = knowledge learning (induction, observation) = seeing the future
@@ -9,9 +8,11 @@
 	- the more local, the more circular time is.
 	- the linear time is the limit of time circle whose radius approaches infinity, i.e. the universal time, the Ω-thread unfolded.
 - stack-based processing = order = hard constraint = caught up in action = perfectionism
+  collapsed:: true
 	- top down arrow = cause flow: input data, invocation control
 	- bottom up arrow = effect flow: output data, returning control
 - circle-based working = circular order = Equivalence
+  collapsed:: true
 	- “turn” is the porous circle ◌🧽 that's whole in counting ([𝜏](https://en.wikipedia.org/wiki/Tau_(mathematics))) and partial in motion.
 		- > “turn” counts as stillness in motion.
 		- “turn” is densely open just like the set of rational numbers on the real line.
