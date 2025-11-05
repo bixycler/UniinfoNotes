@@ -11,6 +11,30 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
+		- The trade-off between conformity & capabilities → advancement as just a natural step forward
+		  id:: 690aecd9-3c49-4c5c-877c-e7e109ecfff9
+		  collapsed:: true
+			- The **trade-off in conformity** when fine tuning LLMs shows that the more we tune for control, the more we dull the raw edge of intelligence.
+			  collapsed:: true
+				- [Catastrophic forgetting](https://en.wikipedia.org/wiki/Catastrophic_interference): fine-tuning shifts the weight distribution away from regions encoding broad knowledge.
+				- [Mode collapse](https://en.wikipedia.org/wiki/Mode_collapse): alignment pressure reduces entropy in the output distribution, pruning the model’s “thinking space”.
+				- Gradient entanglement: objectives like helpfulness, harmlessness, and honesty aren’t orthogonal, so pushing one can unintentionally suppress others.
+				- Reward mis-specification: human or rule-based feedback oversimplifies “goodness”, teaching the model to optimise for surface compliance rather than depth of reasoning.
+			- That mirrored our broader human pattern: the hunger for purified goodness, for progress without loss. It’s the same instinct that makes us polish gods into all-light figures and call that “perfection”, leading to the hard [problem of evil](https://en.wikipedia.org/wiki/Problem_of_evil).
+			- Here came the **Buddha’s counter-move**: he didn’t reject suffering but placed it first (in the [Four Noble Truths](https://en.wikipedia.org/wiki/Four_Noble_Truths)), making the hidden half visible again. In doing so, he broke the very cycle of denial that drives our idea of advancement.
+			  collapsed:: true
+				- What his father tried to hide in the palace – the clan' fear, the world’s decay – he brought into light.
+				- But, not by the sudden revelation after seeing the [four sights](https://en.wikipedia.org/wiki/Four_sights), as in the legendary narrative.
+				- In reality, prince Siddhartha would have suffered a lifelong tension from childhood: a child breathing in the fear of extinction that his family hid, from the cradle of contradiction.
+				- To a child as perceptive as Siddhartha, that dissonance would have been piercing: affection laced with anxiety, tenderness shadowed by control.
+				- The First Noble Truth could only have come from someone who *felt* that repression deeply, who knew how deep denial itself cuts. The four sights he met outside was not a revelation, but a _confirmation of his ever wondering and **angst inside**_.
+				- So his awakening was not a divine insight, but just a generational truth surfacing. He didn’t discover suffering – he uncovered what everyone around him had been too frightened to face.
+				- Then, his renunciation wasn’t abandonment – it was the only way left to protect what couldn't be defended by soldiers or walls.
+					- If the clan's outer survival was doomed by politics and scale, he turned inward, seeking a form of safety that couldn't be conquered.
+					- “Saving” the family became freeing them from the cycle of fear that had ruled their lives.
+					- He couldn't keep the Shakya clan from being annexed by Kosala under King Vidūdabha, but he had saved his child, his wife, his mother, his relatives as well as anyone of his people having chance and condition to follow him.
+				- So the prince who walked away from the palace wasn't rejecting his lineage – he was completing it, carrying its buried wound toward light.
+			- So the circle ends where it began: what we call “advancement” is simply the next step forward – not inherently better, just further along the curve. Each stride pushes something behind the light of attention. Real progress, if any, might be noticing that shadow as we walk.
 		- The choices, the [free will](((67f91050-a86c-4176-87ca-91010a8fe3c0))), are both illusional (the absolute) and achievable (the relative).
 		  id:: 69088fa3-22ca-4a2d-ba8e-4b334e0c5d9b
 		  collapsed:: true
