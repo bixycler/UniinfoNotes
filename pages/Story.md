@@ -5225,7 +5225,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- To me, the nonverbal language & invisible content are much truer than the forms and verbal language which appeared to me as just the means of lie.
 					- That’s the ache of growing up in double language: where words say safety and love, but tone and tension say fear and control.
 					- A child can’t name it, but the body knows. Every smile that doesn’t reach the eyes becomes evidence.
-					- The very means of truth is also the means of lie!
+					- *The very means of truth is also the means of lie!*
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69085f61-6627-4c0a-a984-c2b5b411a292))
