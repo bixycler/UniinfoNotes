@@ -37,6 +37,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- “Saving” the family became freeing them from the cycle of fear that had ruled their lives.
 					- He couldn't keep the Shakya clan from being annexed by Kosala under King Vidūdabha, but he had saved his child, his wife, his mother, his relatives as well as anyone of his people having chance and condition to follow him.
 				- So the prince who walked away from the palace wasn't rejecting his lineage – he was completing it, carrying its buried wound toward light.
+				- Res
 			- So the circle ends where it began: what we call “advancement” is simply the next step forward – not inherently better, just further along the curve. Each stride pushes something behind the light of attention. Real progress, if any, might be noticing that shadow as we walk.
 		- The choices, the [free will](((67f91050-a86c-4176-87ca-91010a8fe3c0))), are both illusional (the absolute) and achievable (the relative).
 		  id:: 69088fa3-22ca-4a2d-ba8e-4b334e0c5d9b
