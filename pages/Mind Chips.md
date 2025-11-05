@@ -5,7 +5,6 @@
 		- equilibrium (classical physics) = closed circle (simple circle): effect circle, deterministic machine
 		- wisdom = open circle (grand circle): knowledge circle, organism = nondeterministic system with quantum mechanics (exploring all possibilities)
 		- ANN thinks in sound (real-valued wave), uninet thinks in light (complex-valued wave). Output probability = projection (via softmax in ANN & squared modulus in QM)
-	- the more local, the more circular time is.
 	- the linear time is the limit of time circle whose radius approaches infinity, i.e. the universal time, the Ω-thread unfolded.
 - stack-based processing = order = hard constraint = caught up in action = perfectionism
   collapsed:: true
