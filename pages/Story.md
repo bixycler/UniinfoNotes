@@ -5083,6 +5083,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 18-19th, weekends...
 			  collapsed:: true
 				- ((66e3fe46-dc79-472a-a059-f5ccf5afb437)): 1 - 2 - 3 circles folded from the same content thread 🥨
+				  collapsed:: true
 					- 1 circle of universe in monistic view for qualitative theory of Uniinfo, định tính
 						- conservation of quality via complementarity
 						- vacantistic obop = selfless empty point = pseudo-center = equal
@@ -5102,27 +5103,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- trialistic obop = selful point (collapsed middle circle) = center = mind
 							- central obop does pattern matching
 						- content = components = intertwined circles
-				- **Attention** is the spotlight projecting the flat space/graph of the world into a [hyperbolic disk](https://en.wikipedia.org/wiki/Poincar%C3%A9_disk_model) of the present stage.
-				  id:: 68f5a6d2-5faa-4889-bd79-30e9c553c314
-				  collapsed:: true
-					- Attention is a selective magnifier, hence very projective compared to the flat Euclidean geometry.
-					- Attention is the activation of the static future (= past there) up to be **dynamic** at the present herenow, then return it back to the static (past here).
-					- Attention is the mechanism of intending (zooming in) into a direction. It has the role of emotion.
-						- Related to ((66f40210-cca6-4d81-85e7-d0c54ef20451))?!🤔
-					- Attention brings dormant intents up into the current intent stack/tree/circle to participate in the effect circle.
-					- In LLM, ((66c32936-618a-43d3-b2c8-a254badeb987)) is what makes the flat & static probability space of ANN be more projective & dynamic like the possibility space in uninet.
-					- CIEA: content – intent – extent – attent
-					  collapsed:: true
-					  Tend with, tend in, tend out, tend to
-						- attention = direction = scope of the viewcone = spotlight
-						- intent = the one holding the spotlight = intensity of the spotlight
-						- extent = the stage where the spotlight ranges
-						- normal attention is outward toward the extent
-						- turning the attention inward to see the intent is an advanced technique (introspection)
-						- attention = attent + high intent
-						- attent = link between intent and extent = ((68750097-13e5-4662-9791-8207ec18e8aa)) = remainder = meta-intent = meta-viewcone
 				- ((68f5a6d2-3b0a-4443-a7e7-b64f4bdf217b))
 				- ((68f5a6d2-8148-4975-b3cb-799fe37a3d72))
+				- ((68f5a6d2-5faa-4889-bd79-30e9c553c314))
 			- 20th,...
 			  collapsed:: true
 				- Newtonian mechanics → [Lagrangian mechanics](https://en.wikipedia.org/wiki/Lagrangian_mechanics) → field equations

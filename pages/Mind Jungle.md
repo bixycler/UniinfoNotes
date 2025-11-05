@@ -1068,7 +1068,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  CLOCK: [2024-09-13 Fri 19:52:06]
 			  :END:
 			  2 circles of the ((675c03d8-3185-41a8-9f98-e869fabec793)): Ω = ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) + ((667cfa42-ade7-4310-9a7b-6d14d01c16da))
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe)) is the equal relation regarding ((66e42b30-1aa4-4b6f-8c54-b29fc09085c6)), a.k.a. conservation of ((66e426df-90e4-43c0-9f02-c48c336e830d)) (energy) (định lượng). This is the common connotation of the word “equal”. This conservation of quantity via reflection between intent & extent is the characteristic of the dualistic view of the [quantitative theory of Unithread](((66ac41d1-09e7-44b1-9290-ea7d5f02a817))). The conservation of content is due to the **constancy of the self intent**
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe)) is the equal relation regarding ((66e42b30-1aa4-4b6f-8c54-b29fc09085c6)), a.k.a. conservation of ((66e426df-90e4-43c0-9f02-c48c336e830d)) (energy) (định lượng). This is the common connotation of the word “equal”. This conservation of quantity via reflection between intent & extent is the characteristic of the dualistic view of the [quantitative theory of Unithread](((66ac41d1-09e7-44b1-9290-ea7d5f02a817))). The conservation of content's quantity is due to the **constancy of the self intent**.
 				- Structure
 					- $|p| + |q| = 1 = |p'| + |q'|$ 
 					  ⇔ $(|p| - |p'|) + (|q| - |q'|) = Δ|p| + Δ|q| = 0$
