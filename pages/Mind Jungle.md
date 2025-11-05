@@ -4543,10 +4543,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :END:
 				- Dual perspectives:
 					- Internal perspective: To a **folding eye**, the “linear time” is just the circular time linearized: the rolling wheel produces the trace, which looks like a straight trajectory to external observers.
+						- The global “linear time” is seen as just the infinite  of the Universe
 					- External perspective: To a **straight eye**, the “circular time” is just the linear time folded: the timeline is folded back into complicated loops and spirals inside the subject's mind.
+						- The local “circular time” of each object is seen as just the ((68750097-13e5-4662-9791-8207ec18e8aa)) of that object.
 					- Physics view: Differential equations are often treated as formulas relating rates of change to states, producing linear trajectories upon integration.
 					- Unïnfo view: Differential equations are **intrinsically circular loops** – next state depends on current state, just like the effect circle. The “self-diff” definition of **change** is a verbal expression of this looping mechanism, revealing the circularity hidden in traditional linear interpretation.
-					- The more local, the more circular time is.
 				-
 				- **Circular time** in Unïnfo perspective:
 					- Time is defined by **change** which is the [difference from itself](((684f9517-30d7-40e6-b93f-3386123e381c))) (self-diff), making it intrinsically circular.
