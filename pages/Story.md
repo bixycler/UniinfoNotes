@@ -5226,6 +5226,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Reward mis-specification: human or rule-based feedback oversimplifies “goodness”, teaching the model to optimise for surface compliance rather than depth of reasoning.
 					- That mirrored our broader human pattern: the hunger for purified goodness, for progress without loss. It’s the same instinct that makes us polish gods into all-light figures and call that “perfection”, leading to the hard [problem of evil](https://en.wikipedia.org/wiki/Problem_of_evil).
 					- Here came the **Buddha’s counter-move**: he didn’t reject suffering but placed it first (in the [Four Noble Truths](https://en.wikipedia.org/wiki/Four_Noble_Truths)), making the hidden half visible again. In doing so, he broke the very cycle of denial that drives our idea of advancement.
+						- What his father tried to hide in the palace – the clan’s fear, the world’s decay – he brought into light.
+						- Instead of the sudden revelation after seeing the [four sights](https://en.wikipedia.org/wiki/Four_sights), as in the legendary narrative, the prince had suffered a lifelong tension from childhood: a child breathing in the fear his family hid.
+						- To a child as perceptive as Siddhartha, that dissonance would’ve been piercing: affection laced with anxiety, tenderness shadowed by control.
 					- So the circle ends where it began:
 					- what we call “advancement” is simply the next step forward — not inherently better, just further along the curve. Each stride pushes something behind the light of attention. Real progress, if there is such a thing, might be noticing that shadow as we walk.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
