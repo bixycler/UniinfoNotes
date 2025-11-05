@@ -11,7 +11,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
-		- The trade-off between conformity (alignment) & capabilities (performance) → advancement as just a natural step forward
+		- The trade-off between conformity (alignment) & capabilities (performance) → Buddha's actual suffering → advancement as just a natural step forward
 		  id:: 690aecd9-3c49-4c5c-877c-e7e109ecfff9
 		  collapsed:: true
 		  :LOGBOOK:
