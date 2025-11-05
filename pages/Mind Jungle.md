@@ -1042,7 +1042,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  equal in shape
 			- balance
 			  equal in exchange
-		- WAIT Levels of ((66e41e14-6c0c-41d7-9089-92916d47d7e0))
+		- Three levels of ((66e41e14-6c0c-41d7-9089-92916d47d7e0))
 		  id:: 66e3fe46-dc79-472a-a059-f5ccf5afb437
 		  collapsed:: true
 		  :LOGBOOK:
@@ -1078,9 +1078,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :LOGBOOK:
 			  CLOCK: [2024-09-13 Fri 19:52:12]
 			  :END:
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66e40f75-0573-484e-8cb6-b6b8071ffb8c)) is the equal relation regarding intensity, a.k.a. uniform distribution, ((669a1bec-3347-4915-83e4-dcffc4d482d1)).
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66e40f75-0573-484e-8cb6-b6b8071ffb8c)) is the equal relation regarding intensity, a.k.a. ((669a1bec-3347-4915-83e4-dcffc4d482d1)) – the conservation of structure via maintenance of body in the world.
 				- Structure
-					- ((6678288e-699b-4325-bdba-bf6349fe0d57))s: ...
+					- ((6678288e-699b-4325-bdba-bf6349fe0d57))s: components = intertwined circles
 					- ((665ca429-84e3-49ff-921e-c07d19cd99ba)): ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) ((667d15c6-67c4-4998-a549-c8b3f9de3d60))
 					- ((94e87dc9-71af-477c-aa70-0f448c2f1e20)): ((66ab7477-c060-4d07-ab13-bc3d11246854)) of symmetry
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))

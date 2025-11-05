@@ -5082,8 +5082,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- ((68f0d8f7-bdb7-492a-b161-83479cce6aa8))
 			- 18-19th, weekends...
 			  collapsed:: true
-				- 3 levels of equality: 1 - 2 - 3 circles folded from the same content thread 🥨 
-				  collapsed:: true
+				- ((66e3fe46-dc79-472a-a059-f5ccf5afb437)): 1 - 2 - 3 circles folded from the same content thread 🥨
 					- 1 circle of universe in monistic view for qualitative theory of Uniinfo, định tính
 						- conservation of quality via complementarity
 						- vacantistic obop = selfless empty point = pseudo-center = equal
