@@ -3917,10 +3917,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Returning to Vietnam, [around 2010](https://tamsudoithuong.blogspot.com/2010/09/hom-nay-len-truong-nhung-cung-chang-lam.html), he generalized that circle of arrows to capture the static and dynamic aspects of all things.
 				- After 3 years, at [the end of 2013](https://www.facebook.com/share/17ev2Leidr/), he nailed down the third component – the Equal – to complete the equation ⟪○ = ↑⟫.
 				- #### ☯️ Ancestor Loop 🔄
-					- Two NOTs loop back,
+					- Two NOT gates loop to learn,
 					  lightning caught in thought,
 					  each completes the other's turn – 
-					  and stillness hums, self-taught.
+					  a stable state, self-taught.
 					  From that quiet spark of mind
 					  rose computer and Unïnfo, likewise.
 	- ## question
