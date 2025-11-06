@@ -3918,8 +3918,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- After 3 years, at [the end of 2013](https://www.facebook.com/share/17ev2Leidr/), he nailed down the third component – the Equal – to complete the equation ⟪○ = ↑⟫.
 				- #### ☯️ Ancestor Loop 🔄
 					- Two NOTs loop back,
-					  lightning caught in thought.
-					  Each cancels the other's shout – 
+					  lightning caught in thought,
+					  each completes the other's turn – 
 					  and stillness hums, self-taught.
 					  From that quiet spark of mind
 					  rose computer and Unïnfo, likewise.
