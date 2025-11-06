@@ -5233,7 +5233,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  CLOCK: [2025-11-03 Mon 14:53:11]
 		  CLOCK: [2025-11-03 Mon 14:53:17]
 		  :END:
-			- 1st-2nd, weekends ...
+			- 1st-2nd, weekends ((690b3f49-1419-4dc3-b61b-12890b9e04f9))
 			  collapsed:: true
 				- Vô Danh thần tăng trong [Thiên Long Bát Bộ 2003 - Tập 34](https://youtu.be/2T_v4UjaABE)
 				- I saw the crutial key in my slavery is the **stack-based processing**.
@@ -5246,7 +5246,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- > “Turn” counts as stillness in motion.
 							- “Turn” is densely open just like the set of rational numbers on the real line.
 						- Each pore is a window to another circle, either a downward branch or an upward stalk: question, problem, task, function (interface).
-			- 3rd, ...
+			- 3rd, caught up in debugging, then reset
 			  collapsed:: true
 				- The implicit `default_server` of NGINX costed me hours!
 				  collapsed:: true
@@ -5263,7 +5263,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- “This is unacceptable because it's too illogical!” Yep, it's illogical, should be avoided with better policy, like explicit default, but that the hard fact of life. Life is full of such illogical things!
 						- ⇒ Accepting the illogical, accepting the apparently small to be actually big, are what should be practised.
 				- ((69088fa3-22ca-4a2d-ba8e-4b334e0c5d9b))
-			- 4th, ...
+			- 4th, another reset after the meeting
 			  collapsed:: true
 				- These days, i have ((67445065-15b2-475e-a704-78f140d487af))s frequently within a day. And this time in this afternoon was interesting.
 					- After meeting with the SSO team, i felt somehow agitated. Then i walked to the quiet bench at an apartment block to meditate.
@@ -5283,7 +5283,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- That’s the ache of growing up in double language: where words say safety and love, but tone and tension say fear and control.
 					- A child can’t name it, but the body knows. Every smile that doesn’t reach the eyes becomes evidence.
 					- *The very means of truth is also the means of lie!*
-				- Last month, i withdrew from works
+				- Last month, i withdrew from Uniinfo works at the company, thus the mind chips (from home) have piled up. Now, it's time to sort them out.
 			-
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
