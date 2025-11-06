@@ -3904,6 +3904,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- About the Balance, both the West and the East had focused on the moral balance, e.g. the inscription “Nothing in excess” in the temple of Apollo at Delphi, the “middle way” in Buddhism, the “Doctrine of the Mean” (中庸, Zhōngyōng) in Confucianism. Then in modern science, the role of Balance has been shown to be universal via equations.
 			- Blog post [Mọi thứ đều có Ba, để Ba sinh ra mọi thứ](https://creatzynotes.blogspot.com/2020/11/ba-sinh-moi-thu-moi-thu-sinh-ba.html)
 			- History of the discovery of the Trinion
+			  id:: 690c716b-e17d-4060-a5eb-e78f9b85686b
 			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2025-11-06 Thu 16:59:33]
@@ -3915,7 +3916,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  ![StaticStateLatch](https://docs.google.com/drawings/d/e/2PACX-1vTZgh3C-7zppvaMLzmV8h2LlwVZM80UwN0AWpHx_vsnNz8oJNMRDxo7xM_IVlWj1iO9vKOKNHEiWiUZ/pub?w=120)
 				- Returning to Vietnam, [around 2010](https://tamsudoithuong.blogspot.com/2010/09/hom-nay-len-truong-nhung-cung-chang-lam.html), he generalized that circle of arrows to capture the static and dynamic aspects of all things.
 				- After 3 years, at [the end of 2013](https://www.facebook.com/share/17ev2Leidr/), he nailed down the third component – the Equal – to complete the equation ⟪○ = ↑⟫.
-				- #### Ancestor Loop 🔄
+				- #### ☯️ Ancestor Loop 🔄
 					- Two NOTs loop back,
 					  lightning caught in thought.
 					  Each cancels the other's shout – 

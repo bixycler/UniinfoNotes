@@ -5288,6 +5288,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- Share with Huy the memory of my first experience with the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) equation ⟪○ = ↑⟫
 				  collapsed:: true
+				  ⇒ ((690c716b-e17d-4060-a5eb-e78f9b85686b))
 					- Còn về ((67445065-15b2-475e-a704-78f140d487af)), tại sao các máy cơ khí, điện từ không có nút reset mà sang các máy điện tử đều có nút reset là có nguyên nhân của nó: stateless vs stateful.
 						- Các máy analog là stateless nên ko tích luỹ error được. Chính xác hơn thì những micro-error vẫn tích luỹ nhưng nằm ngoài thiết kế của hệ thống, thuộc vào dạng "built-in physics" như quantum rồi, nên không có cách nào để reset, hư quá thì thay cái mới thôi (sửa chữa).
 						- Còn các máy điện tử là stateful nên phần lớn error tích luỹ ở tầng system state, là thứ có thể reset dễ dàng. Còn những micro-error ở tầng vật lý bên dưới thì cũng chịu chết, vẫn phải mổ ra sửa chữa thay mới như xưa thôi.
