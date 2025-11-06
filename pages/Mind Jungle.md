@@ -3908,7 +3908,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :LOGBOOK:
 			  CLOCK: [2025-11-06 Thu 16:59:33]
 			  :END:
-				- Learning about [flip-flops](https://en.wikipedia.org/wiki/Flip-flop_(electronics)) in Osaka University, i got the first moment of eureka: Wow, we can catch the lightning fast electricity into a static state simply with a close loop!
+				- Learning about [flip-flops](https://en.wikipedia.org/wiki/Flip-flop_(electronics)) in Osaka University, i got the first moment of eureka: 
+				  > Wow, we can catch the lightning fast electricity into a static state simply with a closed loop!
+				-
 	- ## question
 	  collapsed:: true
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Question
