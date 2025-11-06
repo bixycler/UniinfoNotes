@@ -5300,7 +5300,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Tui còn nhớ rõ lúc đó tui đạp xe trên đường phố Ôsaka và ngẫm về cái vòng tròn vi diệu này: 
 						  > Ồ tuyệt vời, chỉ cần ráp lại vòng tròn là mình đã có thể "bắt được dòng điện nhốt nó vào 1 chỗ đứng yên" rồi 
 						  > ==> Bản chất của tĩnh chỉ là sự chuyển động lòng vòng 1 chỗ!
-						- ![StaticStateFlipFlop](https://docs.google.com/drawings/d/e/2PACX-1vTZgh3C-7zppvaMLzmV8h2LlwVZM80UwN0AWpHx_vsnNz8oJNMRDxo7xM_IVlWj1iO9vKOKNHEiWiUZ/pub?w=200)
+						- Cái flip-flop trên là vẽ theo style mạch điện với I/O nên hơi phức tạp vì có thêm 2 đầu input (S, R) + 2 đầu output (Q, -Q).
+						- Còn theo style Uniinfo thì chỉ đơn giản như vầy: `0 = +1 - 1`.
+							- ![StaticStateFlipFlop](https://docs.google.com/drawings/d/e/2PACX-1vTZgh3C-7zppvaMLzmV8h2LlwVZM80UwN0AWpHx_vsnNz8oJNMRDxo7xM_IVlWj1iO9vKOKNHEiWiUZ/pub?w=110)
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69085f61-6627-4c0a-a984-c2b5b411a292))
