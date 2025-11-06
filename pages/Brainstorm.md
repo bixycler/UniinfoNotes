@@ -168,13 +168,14 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- programming paradigms have various ways to **extend the op from bottom up**: assignment, statement, function, object, ...
 			- now, uninet gives a way to **intend the ob from top down**: learn from history, take the common path to form new & more intensive intents.
 				- Through the accumulation of traces, the common naturally intensifies, the pattern naturally emerges.
-			- ANN & LLM are only learning top down, no bottom up structure, hence baseless.
+			- ANN & LLM are opposite to classic program: only learning top down, no bottom up structure, hence baseless.
 			- Refs
 				- ((68c14574-cea2-4325-a43e-d189f38522de))
 				- [intensibility](((68ac60bb-321e-44da-8f44-4f688e611d3e)))
 				- ((68d209a0-3386-46b0-a8f2-beb94d271916))
 				- ((68c76d9f-0ae4-4e93-b8de-1b79a3400fc8))
-			-
+				- ((690bf59d-668c-4a86-81d9-8927336aea10))
+				- ((690b3f49-1419-4dc3-b61b-12890b9e04f9))
 		- A **dynamic front** in fluids is a fold in continuity.
 		  id:: 68de2e16-6431-4e02-94b9-a8a8244cf94d
 		  collapsed:: true

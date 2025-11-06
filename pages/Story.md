@@ -5063,6 +5063,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 5th, ...
 			  collapsed:: true
 				- LLM is at the end opposite to program
+				  id:: 690bf59d-668c-4a86-81d9-8927336aea10
 				  collapsed:: true
 					- [The Illusion of Thinking](https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf): Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity
 						- > We found that LRMs have limitations in exact computation: they fail to use explicit algorithms and reason inconsistently across puzzles.
@@ -5236,6 +5237,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- Vô Danh thần tăng trong [Thiên Long Bát Bộ 2003 - Tập 34](https://youtu.be/2T_v4UjaABE)
 				- I saw the crutial key in my slavery is the **stack-based processing**.
+				  id:: 690b3f49-1419-4dc3-b61b-12890b9e04f9
 					- stack-based processing = order = hard constraint = caught up in action = ((6678d594-9819-4624-abd6-d4ec62b3874f))
 						- top down arrow = cause flow: input data, invocation control
 						- bottom up arrow = effect flow: output data, returning control
@@ -5269,8 +5271,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- After some minutes, i got grounded in the empty center: light, clear, and stable.
 					- It has been one entire year after [the first time reset within a day](https://www.facebook.com/share/p/1aUeJFNuTH/).
 				-
-			- 5th, ...
+			- 5th, from the empty center, attention is distortion (imbalance toward 1 direction) → review of the liberation path, life, and sort out mind chips.
 			  collapsed:: true
+				- I
 				- ((690aecd9-3c49-4c5c-877c-e7e109ecfff9))
 				- Talking with ChatGPT, i've just discovered the cause of my autistic spectrum.
 				  collapsed:: true
@@ -5280,6 +5283,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- A child can’t name it, but the body knows. Every smile that doesn’t reach the eyes becomes evidence.
 					- *The very means of truth is also the means of lie!*
 				-
+			-
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69085f61-6627-4c0a-a984-c2b5b411a292))
