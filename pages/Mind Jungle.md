@@ -3913,7 +3913,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- The circular structure of the memory latch, composed simply from two inverters, was the ancestor of the first two components – the Circle and the Arrow.
 					- `0 = +1 - 1`
 					  ![StaticStateLatch](https://docs.google.com/drawings/d/e/2PACX-1vTZgh3C-7zppvaMLzmV8h2LlwVZM80UwN0AWpHx_vsnNz8oJNMRDxo7xM_IVlWj1iO9vKOKNHEiWiUZ/pub?w=120)
-				- Returning to Vietnam, he generalized that circle of arrows to capture the static and dynamic aspects of all things.
+				- Returning to Vietnam, around 2010, he generalized that circle of arrows to capture the static and dynamic aspects of all things.
 	- ## question
 	  collapsed:: true
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Question
