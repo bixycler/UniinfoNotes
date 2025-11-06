@@ -3418,7 +3418,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  Ưng tác như thị quán.
 							- Tất cả pháp hữu vi
 							  Như mộng ảo, bóng nước
-							  Như sương mai, chớp lóe
+							  Như sương mai, chớp loé
 							  Nên quán sát như vậy.
 								- “Bóng nước” can be either the mirror image on water, or the water bubble.
 				- Flow ࿐༄ + Form 🐚 = Flower 🌸
