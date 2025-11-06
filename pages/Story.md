@@ -5284,7 +5284,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- A child can’t name it, but the body knows. Every smile that doesn’t reach the eyes becomes evidence.
 					- *The very means of truth is also the means of lie!*
 				- Last month, i withdrew from Uniinfo works at the company, thus the mind chips (from home) have piled up. Now, it's time to sort them out.
-			-
+			- 6th, ...
+			  collapsed:: true
+				- Share with Huy the memory of my first experience with the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) equation ⟪○ = ↑⟫
+					-
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69085f61-6627-4c0a-a984-c2b5b411a292))
