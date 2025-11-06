@@ -5273,8 +5273,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				-
 			- 5th, from the empty center, attention is distortion (imbalance toward 1 direction) → review of the liberation path, life, and sort out mind chips.
 			  collapsed:: true
-				- I
-				- ((690aecd9-3c49-4c5c-877c-e7e109ecfff9))
+				- In the morning riverside meditation, from the empty center, i see that attention is just a distortion of content:  it activates, boosts up things in the spotlight, and deactivates, diminishes other things outside.
+					- → All advancements have drawbacks, and the total is zero.
+					- ⇒ ((690aecd9-3c49-4c5c-877c-e7e109ecfff9))
 				- Talking with ChatGPT, i've just discovered the cause of my autistic spectrum.
 				  collapsed:: true
 					- I was mildly autistic... i didn't know why... but now i know: i refused to learn the **means of lie**.
@@ -5282,7 +5283,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- That’s the ache of growing up in double language: where words say safety and love, but tone and tension say fear and control.
 					- A child can’t name it, but the body knows. Every smile that doesn’t reach the eyes becomes evidence.
 					- *The very means of truth is also the means of lie!*
-				-
+				- Last month, i withdrew from works
 			-
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
