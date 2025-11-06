@@ -1,6 +1,5 @@
 
-- attention = focus of energy = activation 
-    - -> stored to intent = distortion
+
 - LLM is at the end opposite to program
   collapsed:: true
 	- [The Illusion of Thinking](https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf): Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity

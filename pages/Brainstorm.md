@@ -11,25 +11,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
-		- **Attention** is the spotlight projecting the flat space/graph of the world into a [hyperbolic disk](https://en.wikipedia.org/wiki/Poincar%C3%A9_disk_model) of the present stage.
-		  id:: 68f5a6d2-5faa-4889-bd79-30e9c553c314
-		  collapsed:: true
-			- Attention is a selective magnifier, hence very projective compared to the flat Euclidean geometry.
-			- Attention is the activation of the static future (= past there) up to be **dynamic** at the present herenow, then return it back to the static (past here).
-			- Attention is the mechanism of intending (zooming in) into a direction. It has the role of emotion.
-				- Related to ((66f40210-cca6-4d81-85e7-d0c54ef20451))?!🤔
-			- Attention brings dormant intents up into the current intent stack/tree/circle to participate in the effect circle.
-			- In LLM, ((66c32936-618a-43d3-b2c8-a254badeb987)) is what makes the flat & static probability space of ANN be more projective & dynamic like the possibility space in uninet.
-			- CIEA: content – intent – extent – attent
-			  collapsed:: true
-			  Tend with, tend in, tend out, tend to
-				- attention = direction = scope of the viewcone = spotlight
-				- intent = the one holding the spotlight = intensity of the spotlight
-				- extent = the stage where the spotlight ranges
-				- normal attention is outward toward the extent
-				- turning the attention inward to see the intent is an advanced technique (introspection)
-				- attention = attent + high intent
-				- attent = link between intent and extent = ((68750097-13e5-4662-9791-8207ec18e8aa)) = remainder = meta-intent = meta-viewcone
 		- The trade-off between conformity (alignment) & capabilities (performance) → Buddha's actual suffering → advancement as just a natural step forward
 		  id:: 690aecd9-3c49-4c5c-877c-e7e109ecfff9
 		  collapsed:: true
@@ -92,6 +73,29 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :END:
 			- ((66f4e208-37c7-4749-a448-0722f7f7af20)): full in quality (closed) + full in quantity (crystal)
 			- Be full in terms of quality instead of quantity
+		- **Attention** is the spotlight projecting the flat space/graph of the world into a [hyperbolic disk](https://en.wikipedia.org/wiki/Poincar%C3%A9_disk_model) of the present stage.
+		  id:: 68f5a6d2-5faa-4889-bd79-30e9c553c314
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-10-19 Sun 08:12:41]
+		  :END:
+			- Attention is a selective magnifier, hence very projective compared to the flat Euclidean geometry.
+			- Attention is the activation of the static future (= past there) up to be **dynamic** at the present herenow, then return it back to the static (past here).
+			- Attention is the mechanism of intending (zooming in) into a direction. It has the role of emotion.
+				- Related to ((66f40210-cca6-4d81-85e7-d0c54ef20451))?!🤔
+			- Attention brings dormant intents up into the current intent stack/tree/circle to participate in the effect circle.
+			- In LLM, ((66c32936-618a-43d3-b2c8-a254badeb987)) is what makes the flat & static probability space of ANN be more projective & dynamic like the possibility space in uninet.
+			- CIEA: content – intent – extent – attent
+			  collapsed:: true
+			  Tend with, tend in, tend out, tend to
+				- attention = direction = scope of the viewcone = spotlight = focus of energy = activation
+				- intent = the one holding the spotlight = intensity of the spotlight
+				- extent = the stage where the spotlight ranges
+				- normal attention is outward toward the extent
+				- turning the attention inward to see the intent is an advanced technique (introspection)
+				- attention = attent + high intent
+				- attent = link between intent and extent = ((68750097-13e5-4662-9791-8207ec18e8aa)) = remainder = meta-intent = meta-viewcone
+				- attention of viewcone → formative intent (distortion of content) → intention of action cone
 		- Emptiness sucks!
 		  id:: 68f0d8f7-bdb7-492a-b161-83479cce6aa8
 		  collapsed:: true
