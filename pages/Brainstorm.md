@@ -95,7 +95,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- turning the attention inward to see the intent is an advanced technique (introspection)
 				- attention = attent + high intent
 				- attent = link between intent and extent = ((68750097-13e5-4662-9791-8207ec18e8aa)) = remainder = meta-intent = meta-viewcone
-				- attention of viewcone → formative intent (distortion of content) → intention of action cone
+				- attention of viewcone → formative intent (distortion of content) → operative intent + attent → intention of action cone
 		- Emptiness sucks!
 		  id:: 68f0d8f7-bdb7-492a-b161-83479cce6aa8
 		  collapsed:: true

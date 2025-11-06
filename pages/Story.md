@@ -5060,6 +5060,18 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)): ((66ea8df3-d2f3-4856-b24a-5095dd285f9b)) & ((66ea8e12-7c30-449b-9139-bfd8d82394d7)) = ((68df36a4-6a3e-4fc9-b44a-c8e92f62aee1))
 				- ((68df2364-c484-4ddd-b4b5-19ef90228ef4))
 				- ((68dfc246-ea07-4c54-a0a4-2361f1a9055e))
+			- 5th, ...
+			  collapsed:: true
+				- LLM is at the end opposite to program
+				  collapsed:: true
+					- [The Illusion of Thinking](https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf): Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity
+						- > We found that LRMs have limitations in exact computation: they fail to use explicit algorithms and reason inconsistently across puzzles.
+						- Large Reasoning Models (LRMs) are Large Language Models (LLMs) focused on step-by-step thinking. This is called Chain of Thought (CoT) which facilitates problem solving by guiding the model to articulate reasoning steps.
+						- After a threshold of problem complexity, the models simply stopped trying.
+						- Jing Hu: "AI is just sophisticated pattern matching, no thinking, no reasoning" and “AI can only do tasks accurately up to a certain degree of complexity.”
+					- [This article](https://www.forbes.com/sites/hessiejones/2025/08/04/despite-billions-in-investment-ai-reasoning-models-are-falling-short/) refers to predictive AI as an alternative to LLM, but it is not scalable.
+					- Another approach is setting up agents for LLMs, but the agent itself is a traditional program, hence unable to learn.
+					- Uninet's approach: develop from the middle out.
 			- 6th, ...
 			  id:: 68e33ab4-06f1-435f-aa57-a1bb4386e09f
 			  collapsed:: true
@@ -5077,6 +5089,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- ((68f1e075-0aa7-4498-8c35-32e44857eee8))
 				- Clarify that ((68e71355-f954-4c34-b7cc-009d32b6c7e0))
+			- 15th,...
+			  collapsed:: true
+				- [ELM](https://github.com/LaurieLonecrow/AsterMind-ELM) = SVM version of SLFN.
+				  collapsed:: true
+					- Extreme Learning Machine (ELM) is a single-hidden-layer feedforward neural network (SLFN) that learns instantly by computing the output weights analytically in one shot, leaving the hidden layer random.
+					- The random hidden layer acts like the kennel in Support Vector Machine (SVM) to project the input into a high-dimensional space so that they can be classified simply by linear separation at the output layer.
 			- 16th, ...
 			  collapsed:: true
 				- ((68f0d8f7-bdb7-492a-b161-83479cce6aa8))
