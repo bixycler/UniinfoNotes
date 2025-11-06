@@ -3903,6 +3903,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Historically, while the West (Europe) has a long tradition of philosophy based on the Static, i.e. “existence” via “form”, “category”, “essence”, “element”, the East (from Islamic world, India, to China) has a long tradition of philosophy based on the Dynamic, e.g. “anicca” (अनिच्च, en. “impermanence”), “saṅkhāra” (सङ्खार, en. “formation”), “xíng” (行, en. “phase of transformation”), “yi” (易, en. “change”).
 					- About the Balance, both the West and the East had focused on the moral balance, e.g. the inscription “Nothing in excess” in the temple of Apollo at Delphi, the “middle way” in Buddhism, the “Doctrine of the Mean” (中庸, Zhōngyōng) in Confucianism. Then in modern science, the role of Balance has been shown to be universal via equations.
 			- Blog post [Mọi thứ đều có Ba, để Ba sinh ra mọi thứ](https://creatzynotes.blogspot.com/2020/11/ba-sinh-moi-thu-moi-thu-sinh-ba.html)
+			- History of the discovery of the Trinion
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-11-06 Thu 16:59:33]
+			  :END:
+				- Learning about [flip-flops](https://en.wikipedia.org/wiki/Flip-flop_(electronics)) in Osaka University, i got the first moment of eureka: Wow, we can catch the lightning fast electricity into a static state simply with a close loop!
 	- ## question
 	  collapsed:: true
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Question
