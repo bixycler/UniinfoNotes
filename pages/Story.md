@@ -5315,7 +5315,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  > ...the first distinction, the Mark and the observer are not only interchangeable, but, in the form, identical.
 			- 7th, ...
 			  collapsed:: true
-				- Arrow continuation
+				- Arrow continuation: I/O, momentum, past to present mixing, pattern matching, relation
 				- Circle separation
 				-
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
