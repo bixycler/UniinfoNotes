@@ -5286,24 +5286,33 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Last month, i withdrew from Uniinfo works at the company, thus the mind chips (from home) have piled up. Now, it's time to sort them out.
 			- 6th, ...
 			  collapsed:: true
-				- Share with Huy the memory of my first experience with the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) equation ⟪○ = ↑⟫
-				  collapsed:: true
-				  ⇒ ((690c716b-e17d-4060-a5eb-e78f9b85686b))
-					- Còn về ((67445065-15b2-475e-a704-78f140d487af)), tại sao các máy cơ khí, điện từ không có nút reset mà sang các máy điện tử đều có nút reset là có nguyên nhân của nó: stateless vs stateful.
-						- Các máy analog là stateless nên ko tích luỹ error được. Chính xác hơn thì những micro-error vẫn tích luỹ nhưng nằm ngoài thiết kế của hệ thống, thuộc vào dạng "built-in physics" như quantum rồi, nên không có cách nào để reset, hư quá thì thay cái mới thôi (sửa chữa).
-						- Còn các máy điện tử là stateful nên phần lớn error tích luỹ ở tầng system state, là thứ có thể reset dễ dàng. Còn những micro-error ở tầng vật lý bên dưới thì cũng chịu chết, vẫn phải mổ ra sửa chữa thay mới như xưa thôi.
-					- ở tầng software thì chỉ thấy được state qua memory, chứ hồi lập trình cho mấy con chip bên ĐH Ôsaka, tui cảm nhận rõ về state & "lạc state" hơn.
-					- Bài toán cụ thể là 5-counter: chỉ đơn giản quay vòng 0 > 1 > 2 > 3 > 4 > 0, nhưng viết xuống mã máy thì hơi cực, phải lập bảng để đưa các cổng AND, NOT, OR, NOR, NAND vào chạy cho mỗi transition, như từ 3 -> 4 (11-> 100) phải đổi từng bit như thế nào.
-					- Ở đây, hầu hết các bạn cứ hì hục sao ra kết quả chạy được là vỗ tay rồi.
-					- Còn tui thì thấy rõ là 5 state không thể nhét vừa vào 2 bit ==> cần 3 bít ==> dư 3 state ==> có 3 khả năng "đi lạc" ==> trong các cách assign 3 bit cho 5 state khác nhau thì không phải cứ assign theo thứ tự (000, 001, 010, 011, 100) là tốt nhất, mà cách tốt nhất là cách làm sao cho khả năng đi lạc bị hạn chế nhất.
-					- Cái công thức "Vòng tròn = Mũi tên" cũng có gốc từ chỗ lập trình mấy con chip đó 😊! Các cổng vẽ ra đúng hình mũi tên luôn, và chỉ cần ghép 2 cổng NOT (hoặc NOR, NAND) lại là thành 1 vòng tròn state: `q =  not( not(q) )`
-						- ![R-S-flip-flop.gif](../assets/Uniinfo/R-S-flip-flop.gif){:width 240}
-						- Tui còn nhớ rõ lúc đó tui đạp xe trên đường phố Ôsaka và ngẫm về cái vòng tròn vi diệu này: 
-						  > Ồ tuyệt vời, chỉ cần ráp lại vòng tròn là mình đã có thể "bắt được dòng điện nhốt nó vào 1 chỗ đứng yên" rồi 
-						  > ==> Bản chất của tĩnh chỉ là sự chuyển động lòng vòng 1 chỗ!
-						- Cái flip-flop trên là vẽ theo style mạch điện với I/O nên hơi phức tạp vì có thêm 2 đầu input (S, R) + 2 đầu output (Q, -Q).
-						- Còn theo style Uniinfo thì chỉ đơn giản như vầy: `0 = +1 - 1`.
-							- ![StaticStateLatch](https://docs.google.com/drawings/d/e/2PACX-1vTZgh3C-7zppvaMLzmV8h2LlwVZM80UwN0AWpHx_vsnNz8oJNMRDxo7xM_IVlWj1iO9vKOKNHEiWiUZ/pub?w=120)
+				- ((690c716b-e17d-4060-a5eb-e78f9b85686b))
+					- Gemini introduced [LoF](https://en.wikipedia.org/wiki/Laws_of_Form), a very similar theory.
+						- Distinction (mark, cross) = Arrow
+						- Re-Entry (self-reference, recursion) = Circle & Equal
+							- "The value of the Mark is the Mark."
+							- This is written in the 11th chapter [Equations of the Second Degree](https://en.wikipedia.org/wiki/Laws_of_Form#Equations_of_the_second_degree_(Chapter_11))
+							- odd-depth reentry = oscillation = time = $i$-unit value
+						- Panpsychism
+							- > ...the first distinction, the Mark and the observer are not only interchangeable, but, in the form, identical.
+					- Share with Huy the memory of my first experience with the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) equation ⟪○ = ↑⟫
+					  collapsed:: true
+						- Còn về ((67445065-15b2-475e-a704-78f140d487af)), tại sao các máy cơ khí, điện từ không có nút reset mà sang các máy điện tử đều có nút reset là có nguyên nhân của nó: stateless vs stateful.
+							- Các máy analog là stateless nên ko tích luỹ error được. Chính xác hơn thì những micro-error vẫn tích luỹ nhưng nằm ngoài thiết kế của hệ thống, thuộc vào dạng "built-in physics" như quantum rồi, nên không có cách nào để reset, hư quá thì thay cái mới thôi (sửa chữa).
+							- Còn các máy điện tử là stateful nên phần lớn error tích luỹ ở tầng system state, là thứ có thể reset dễ dàng. Còn những micro-error ở tầng vật lý bên dưới thì cũng chịu chết, vẫn phải mổ ra sửa chữa thay mới như xưa thôi.
+						- ở tầng software thì chỉ thấy được state qua memory, chứ hồi lập trình cho mấy con chip bên ĐH Ôsaka, tui cảm nhận rõ về state & "lạc state" hơn.
+						- Bài toán cụ thể là 5-counter: chỉ đơn giản quay vòng 0 > 1 > 2 > 3 > 4 > 0, nhưng viết xuống mã máy thì hơi cực, phải lập bảng để đưa các cổng AND, NOT, OR, NOR, NAND vào chạy cho mỗi transition, như từ 3 -> 4 (11-> 100) phải đổi từng bit như thế nào.
+						- Ở đây, hầu hết các bạn cứ hì hục sao ra kết quả chạy được là vỗ tay rồi.
+						- Còn tui thì thấy rõ là 5 state không thể nhét vừa vào 2 bit ==> cần 3 bít ==> dư 3 state ==> có 3 khả năng "đi lạc" ==> trong các cách assign 3 bit cho 5 state khác nhau thì không phải cứ assign theo thứ tự (000, 001, 010, 011, 100) là tốt nhất, mà cách tốt nhất là cách làm sao cho khả năng đi lạc bị hạn chế nhất.
+						- Cái công thức "Vòng tròn = Mũi tên" cũng có gốc từ chỗ lập trình mấy con chip đó 😊! Các cổng vẽ ra đúng hình mũi tên luôn, và chỉ cần ghép 2 cổng NOT (hoặc NOR, NAND) lại là thành 1 vòng tròn state: `q =  not( not(q) )`
+							- ![R-S-flip-flop.gif](../assets/Uniinfo/R-S-flip-flop.gif){:width 240}
+							- Tui còn nhớ rõ lúc đó tui đạp xe trên đường phố Ôsaka và ngẫm về cái vòng tròn vi diệu này: 
+							  > Ồ tuyệt vời, chỉ cần ráp lại vòng tròn là mình đã có thể "bắt được dòng điện nhốt nó vào 1 chỗ đứng yên" rồi 
+							  > ==> Bản chất của tĩnh chỉ là sự chuyển động lòng vòng 1 chỗ!
+							- Cái flip-flop trên là vẽ theo style mạch điện với I/O nên hơi phức tạp vì có thêm 2 đầu input (S, R) + 2 đầu output (Q, -Q).
+							- Còn theo style Uniinfo thì chỉ đơn giản như vầy: `0 = +1 - 1`.
+								- ![StaticStateLatch](https://docs.google.com/drawings/d/e/2PACX-1vTZgh3C-7zppvaMLzmV8h2LlwVZM80UwN0AWpHx_vsnNz8oJNMRDxo7xM_IVlWj1iO9vKOKNHEiWiUZ/pub?w=120)
+				- ...
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69085f61-6627-4c0a-a984-c2b5b411a292))
