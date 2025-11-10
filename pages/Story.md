@@ -5338,9 +5338,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- Saturday sleep all day, Sunday meditate all day.
 					- Paying attention to the breath, i dive deep into the bodymind.
-					- At that depth, i have a choice between keep the attention on breath and release attention.
-					- With loose attention
-				- Let's see how it'll be after this deep reset 🤔
+					- At that depth, i have a choice between keeping the attention on breath and releasing attention.
+					- With attention on breath, the mind is empty.
+					- With loose attention, the dreamy scenes pop up randomly.
+						- Which direction is attended, the scene will be laid out in that direction.
+				- Let's see how it'll be after this deep reset 🤔.
+			- 10th, ...
+				-
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69085f61-6627-4c0a-a984-c2b5b411a292))
