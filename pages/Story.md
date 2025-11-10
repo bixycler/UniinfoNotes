@@ -5313,10 +5313,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Panpsychism
 						- The book's closing remarks
 						  > ...the first distinction, the Mark and the observer are not only interchangeable, but, in the form, identical.
-			- 7th, ...
+			- 7th, continuation...
 			  collapsed:: true
-				- Arrow continuation: I/O, momentum, past to present mixing, pattern matching, relation
-				- Circle separation
+				- Arrow continuation: I/O, momentum, mixing past into present, pattern matching, relation
+				- Circle separation: as a whole itself, the circle like a particle has no connection to others.
 				- Physicists, from Schrodinger, have been trying hard to [eliminate i from quantum](https://www.quantamagazine.org/physicists-take-the-imaginary-numbers-out-of-quantum-mechanics-20251107/)... without satisfaction! 😂
 					- [ChatGPT about imaginary numbers in QM](https://chatgpt.com/share/690e3f3a-2a54-8002-b2d4-62eb94fa2a3b)
 					- ⇒ Unïnfo is just another player!
@@ -5334,7 +5334,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- My close friend once asked me:
 							- Have you done with Uniinfo? Is it ready to save the world?
 							- No, i don't have ability to save the world. I'm saving myself first: anything i've flushed out to Uniinfo is a thing that i release to be lighter; when i can release all of these karma, i'll be free, liberated 😊
-			-
+			- 8-9th, weekends, deep reset
+			  collapsed:: true
+				- Saturday sleep all day, Sunday meditate all day.
+					- Paying attention to the breath, i dive deep into the bodymind.
+					- At that depth, i have a choice between keep the attention on breath and release attention.
+					- With loose attention
+				- Let's see how it'll be after this deep reset 🤔
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69085f61-6627-4c0a-a984-c2b5b411a292))

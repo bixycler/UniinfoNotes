@@ -1,2 +1,0 @@
-- Saturday sleep all day, Sunday meditate all day.
-	- Let's see how it'll be after this deep reset 🤔
