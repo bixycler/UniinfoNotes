@@ -2432,13 +2432,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Diagram
 						- ![CauseEffectMirrorCircles](https://docs.google.com/drawings/d/e/2PACX-1vSq3nYCfegxupQJv3D7nIddp2tKbmf3YvzKeXQqd8kZ5hzTUN8lGNE9i-Tf8hXwSlIShgySaBgtXLRY/pub?w=500)
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-					- DOING The ((6909a541-f4da-48ce-af9e-31f499125b00)) is to ((6909a3ff-8c16-4222-967a-f019759ca65c)) as ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) is to
+					- The ((6909a541-f4da-48ce-af9e-31f499125b00)) is to ((6909a3ff-8c16-4222-967a-f019759ca65c)) as ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) is to ((66b1cfa4-3a39-4672-9da2-cd3bcef71702)).
 					  collapsed:: true
 					  :LOGBOOK:
 					  CLOCK: [2025-11-11 Tue 11:10:00]
-					  CLOCK: [2025-11-11 Tue 11:10:08]
+					  CLOCK: [2025-11-11 Tue 11:10:08]--[2025-11-11 Tue 11:14:21] =>  00:04:13
 					  :END:
-						-
+						- The knowledge circle includes intent cones in the obop, while the effect circle includes the double cones extended from the obop to the body (perception–action) and to the world (cause–effect).
+						- In dimensional view, the knowledge circle is othogonal to the effect circle: it's in the .
 		- Mutual exclusiveness
 		  collapsed:: true
 		  “thấy không làm, làm không thấy”  
@@ -5336,7 +5337,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- extension
 		  id:: 66f949a4-675e-4c43-8da3-f2754ba2e128
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66b1cfa4-3a39-4672-9da2-cd3bcef71702))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66b1cfa4-3a39-4672-9da2-cd3bcef71702)) is an umbrella term capturing the abstract notion of "the part of ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) extended from the ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))": the ((66ab6161-0306-42d5-ac16-4155c69216f5)) whose a special case is the daily used [extent](https://en.wiktionary.org/wiki/extent#Noun), the semantical [extension](https://en.wikipedia.org/wiki/Extension_(semantics)), the ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)) in CIE, etc. Note that the semantical "extension" here refers to the ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of the collection of objects referenced by the intension, where that form is just an image inside the subject.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66b1cfa4-3a39-4672-9da2-cd3bcef71702)) is an umbrella term capturing the abstract notion of “the part of ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) extended from the ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))”: the ((66ab6161-0306-42d5-ac16-4155c69216f5)) whose a special case is the daily used [extent](https://en.wiktionary.org/wiki/extent#Noun), the semantical [extension](https://en.wikipedia.org/wiki/Extension_(semantics)), the ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)) in CIE, etc. Note that the semantical “extension” here refers to the ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of the collection of objects referenced by the intension, where that form is just an image inside the subject.
 	- ## independent
 	  id:: 671b160c-0589-4f83-a778-a9fb4df6783a
 	  collapsed:: true
