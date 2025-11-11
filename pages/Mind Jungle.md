@@ -2439,7 +2439,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  CLOCK: [2025-11-11 Tue 11:10:08]--[2025-11-11 Tue 11:14:21] =>  00:04:13
 					  :END:
 						- The knowledge circle includes intent cones in the obop, while the effect circle includes the double cones extended from the obop to the body (perception–action) and to the world (cause–effect).
-						- In dimensional view, the knowledge circle is othogonal to the effect circle: it's in the .
+						- In dimensional view, the knowledge circle is othogonal to the effect circle.
+							- Knowledge circle has the $i$ dimension of *internal, imginary, temporal*, in contrast to the effect circle's dimension $e$ of *external, real, spatial*.
 		- Mutual exclusiveness
 		  collapsed:: true
 		  “thấy không làm, làm không thấy”  
