@@ -5343,8 +5343,18 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- With loose attention, the dreamy scenes pop up randomly.
 						- Which direction is attended, the scene will be laid out in that direction.
 				- Let's see how it'll be after this deep reset 🤔.
-			- 10th, ...
-				-
+			- 10th, reset after returning home, then work review leading to vision about forms.
+			  collapsed:: true
+				- Morning, sleepy meditation.
+				- Afternoon till night, refactored codes in company's project ⇒ some mental strain with a little headache.
+				- Returning home, got hiccup after dinner ⇒ meditate ⇒ saw mild irritation in sinus.
+				- ⇒ Reviewed about previous work
+					- Should dump notes out to reduce mental load ⇒ see following patterns echo from Unithread & uninet
+					- Form = the common content via thread projection
+						- common pattern = interference
+						- chromatics: phase coherence in thread-based interpretation, instead of vector-based.
+						-
+					- diff forms = diff views
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69085f61-6627-4c0a-a984-c2b5b411a292))
