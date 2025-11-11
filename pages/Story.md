@@ -5356,11 +5356,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- ((69128c15-b49b-4b95-98ec-eeaad519d42b))
 					- Different forms are different views of the same object.
 					- This reminded me of the “god x-screesaver” named [strange](https://linux.die.net/man/1/strange) which inspired my view of continuous transformation between form & content, particle & wave.
+					  collapsed:: true
 						- History, as shown in [the 2019 fb post “Tan rã rồi Tái hiện (Dissolve & Reappear)”](https://www.facebook.com/share/p/1ETqaKvpjn/):
 							- Một ngày nọ ở ĐH Osaka, khi duyệt qua các screensaver cho màn hình máy tính FreeBSD của mình, mình bị bắt mắt bởi một screensaver tên "strange" của XScreenSaver (bộ screensaver kinh điển của hệ thống X).
 							- Lúc đó mình chẳng biết ý nghĩa của những "chấm trên màn hình" đó là gì, chỉ thấy nó giống ý tưởng của mình về thế giới lượng tử, nơi các "hạt" tan rã ra thành các "sóng" biểu hiện bởi "cả mớ chấm" trải ra khắp nơi, rồi các sóng đó lại bị "sụp đổ" thành các "hạt". Qua đó mà thấy rõ các hạt "teleport" từ chỗ này qua chỗ kia thông qua các sóng.
-							- I mentioned it in [a 2007 journal at JAIST](https://tamsudoithuong.blogspot.com/2007/11/ny-tui-ang-trn-thy-trn-bn-trn-lng-tm-i.html).
-							-
+						- I mentioned it in [a 2007 journal at JAIST](https://tamsudoithuong.blogspot.com/2007/11/ny-tui-ang-trn-thy-trn-bn-trn-lng-tm-i.html).
+						- I excavated it in [2019 at Universal Technology Solutions](https://tamsudoithuong.blogspot.com/2019/06/moi-ay-het-mot-tuan-nhanh-qua-la-nhanh.html), to acknowledge that it's about *strange attractor*, and wrote the fb post “Tan rã rồi Tái hiện (Dissolve & Reappear)”.
+							- Thứ 6, mình lên cty để đưa máy cho chị lao công. Rồi tìm lại cái screensaver thần thánh trong X system gây ấn tượng đầu tiên ngày xưa của mình về pháp "tan rã rồi tái hiện", mình thấy nó có tên "strange", và... ồ không ngờ chính là **strange attractor** quái vật trong làng Complex Science, và nó chính là một thể hiện của pháp "tan rã rồi tái hiện" rồi!
+						-
 			- 11th, ...
 			  collapsed:: true
 				- Chatting with Huy, i realized that what i call “machines” with my adversion is actuall “mara” in Buddha's language.
