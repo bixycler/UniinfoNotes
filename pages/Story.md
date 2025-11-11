@@ -5353,7 +5353,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Form = the common content via thread projection
 						- common pattern = interference
 						- chromatics: phase coherence in thread-based interpretation, instead of vector-based.
-						-
+						- ((69128c15-b49b-4b95-98ec-eeaad519d42b))
 					- diff forms = diff views
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c

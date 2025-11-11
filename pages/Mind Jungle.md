@@ -1049,7 +1049,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  CLOCK: [2024-09-13 Fri 16:01:12]--[2024-09-25 Wed 20:05:54] =>  292:04:42
 		  :END:
 		  ((66e40f4b-34ae-499a-8192-0a0f4f580c7e)) > ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe)) > ((66e40f75-0573-484e-8cb6-b6b8071ffb8c))
-			- ![Levels of The Equal](https://docs.google.com/drawings/d/1ydOhAuBugiOYYoBHLJ5Z6-pQViKL1-GXKgFWLSbE9Sc/pub?w=800)
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8))
+				- Diagram
+					- ![Levels of The Equal](https://docs.google.com/drawings/d/1ydOhAuBugiOYYoBHLJ5Z6-pQViKL1-GXKgFWLSbE9Sc/pub?w=800)
 			- point equality
 			  id:: 66e40f4b-34ae-499a-8192-0a0f4f580c7e
 			  :LOGBOOK:
@@ -4931,11 +4933,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- The concrete form is united with its crystallized content, and Hegel also showed this unity via the [world of appearance](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm).
 					  collapsed:: true
 						- {{embed ((670d1f75-b9a6-490a-9759-9f09189167b7))}}
-					- DOING ((66f4e208-37c7-4749-a448-0722f7f7af20)) is full both in quality (closed) and in quantity (crystal).
+					- ((66f4e208-37c7-4749-a448-0722f7f7af20)) is full both in quality (closed) and in quantity (crystal).
+					  id:: 69128c15-b49b-4b95-98ec-eeaad519d42b
 					  collapsed:: true
 					  :LOGBOOK:
 					  CLOCK: [2025-11-11 Tue 08:06:35]
-					  CLOCK: [2025-11-11 Tue 08:06:38]
+					  CLOCK: [2025-11-11 Tue 08:06:38]--[2025-11-11 Tue 08:26:28] =>  00:19:50
 					  :END:
 						- The closedness in space, equivalent to the repetition in time, accumulates large (intensive) amount of content, hence crystallization.
 						- Quantity shown by probability density
@@ -4943,7 +4946,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- AI learning with probability.
 							- Wavefunction density in quantum mechanics.
 							- Density in materials.
-							- on [oscilloscope](https://en.wikipedia.org/wiki/Oscilloscope)
+							- Traces on [oscilloscope](https://en.wikipedia.org/wiki/Oscilloscope) display clearly show the transition from fleeting form with low density to lasting form with high density.
+						- Quality shown by structure
+							- ((66e3fe46-dc79-472a-a059-f5ccf5afb437)) show 3 levels of structural quality.
 			- The unity of ((66ab6161-0306-42d5-ac16-4155c69216f5)) and ((6678d596-9526-405a-968c-e73860e524f3)) via ((670e0fef-2a46-450b-b043-176cccfc804a))
 			  id:: 670e0b40-f9a8-496a-989a-692dbb375f38
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The obop of the ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5)) sees the ((670d0138-9012-4f3e-a9bd-997443fb22a3)) of its body through the ((670d0138-8f58-428b-808e-24c05a5239fb)) of the ((66532bb2-7680-461b-80b2-71fc96c89fb9))s, thus the appearance is external to the components but internal to the composite. There, both parts of the composite's structure are appearances of the components:
