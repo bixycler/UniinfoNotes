@@ -4937,8 +4937,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  CLOCK: [2025-11-11 Tue 08:06:35]
 					  CLOCK: [2025-11-11 Tue 08:06:38]
 					  :END:
-						- The closedness in space, through time, accumulates large (intensive) amount of content, hence crystallization.
-						-
+						- The closedness in space, equivalent to the repetition in time, accumulates large (intensive) amount of content, hence crystallization.
+						- Quantity shown by probability density
+							- Accumulation of karmic dust into karma storage.
+								- AI learning with probability.
+							- Wavefunction density in quantum mechanics.
+							- Density in materials.
+							- on [oscilloscope](https://en.wikipedia.org/wiki/Oscilloscope)
 			- The unity of ((66ab6161-0306-42d5-ac16-4155c69216f5)) and ((6678d596-9526-405a-968c-e73860e524f3)) via ((670e0fef-2a46-450b-b043-176cccfc804a))
 			  id:: 670e0b40-f9a8-496a-989a-692dbb375f38
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The obop of the ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5)) sees the ((670d0138-9012-4f3e-a9bd-997443fb22a3)) of its body through the ((670d0138-8f58-428b-808e-24c05a5239fb)) of the ((66532bb2-7680-461b-80b2-71fc96c89fb9))s, thus the appearance is external to the components but internal to the composite. There, both parts of the composite's structure are appearances of the components:
