@@ -5355,6 +5355,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- chromatics: phase coherence in thread-based interpretation, instead of vector-based.
 						- ((69128c15-b49b-4b95-98ec-eeaad519d42b))
 					- Different forms are different views of the same object.
+			- 11th, ...
+			  collapsed:: true
+				- Chatting with Huy, i realized that what i call “machines” with my adversion is actuall “mara” in Buddha's language.
+					- Both are what the pactitioner sees inside in meditation, the machinary that we all are slaved to .
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69085f61-6627-4c0a-a984-c2b5b411a292))
