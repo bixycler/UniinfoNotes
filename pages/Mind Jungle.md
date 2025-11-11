@@ -3937,13 +3937,15 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  a stable state, self-taught.
 					  From that quiet spark of mind
 					  rose computer and Unïnfo, likewise.
-			- Unïnfo brings life to the [classical logic](https://en.wikipedia.org/wiki/Law_of_thought).
+			- Unïnfo brings life to the [classical logic](https://en.wikipedia.org/wiki/Classical_logic).
 			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2025-11-11 Tue 19:15:34]
 			  :END:
 				- While Aristotle called the Law of Non-contradiction “the most certain of all principles”, Will was also concerned about it the most, which lead him to the construction of Unïnfo.
 					- Ref: blog post [The Implied Axioms of Science](https://creatzyitnotes.blogspot.com/2007/11/implied-axioms-of-science.html)
+					- Acknowledging the difference but not accepting the exclusion, he arrived at the first postulate of Unïnfo, the Diff (Arrow), just a moment before the zero-th postulate, the Existence (Circle), and long before the third, the Unification (Equal).
+				- The Trinion brings life to the absolute & static (dead) [laws of thoughts](https://en.wikipedia.org/wiki/Law_of_thought).
 					-
 	- ## question
 	  collapsed:: true
