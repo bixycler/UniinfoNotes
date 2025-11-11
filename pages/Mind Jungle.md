@@ -3937,6 +3937,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  a stable state, self-taught.
 					  From that quiet spark of mind
 					  rose computer and Unïnfo, likewise.
+			- Unïnfo brings life to the [classic logic](https://en.wikipedia.org/wiki/Law_of_thought).
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-11-11 Tue 19:15:34]
+			  :END:
+				- While Aristotle called the Law of Non-contradiction “the most certain of all principles”, it was also my most concerned law
+					- Blog post [The Implied Axioms of Science](https://creatzyitnotes.blogspot.com/2007/11/implied-axioms-of-science.html)
 	- ## question
 	  collapsed:: true
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Question
