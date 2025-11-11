@@ -2422,13 +2422,23 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 6889a623-34cd-4b65-8a91-5cfdbb199b71
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6889a623-34cd-4b65-8a91-5cfdbb199b71)), or simply “mirror circles”, are interlocking multiple ((667c0031-0a87-44c9-9e98-6d45893b095f))s formed by the folding of ((6851578b-9b1f-4367-878f-79b0b0b9be51)).
 					- external effect circle
+					  id:: 6909a3ff-8c16-4222-967a-f019759ca65c
 					  The base of the effect cone folds back, through the external world, to be the base of the cause cone, forming the external effect circle.
 					- knowledge circle
+					  id:: 6909a541-f4da-48ce-af9e-31f499125b00
 					  As the ((68df2d82-e1d5-49c4-ac40-d45cf26f840c)) reflects the ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) into the obop, the external effect circle is mirrored into the internal effect circle called “knowledge circle”.
 					- The external effect circle and various knowledge circles keep contact together through layers of obops. This is the mirroring mechanism between the external world and internal world (knowledge cone).
 					- Structure: external ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) > ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s ((66c810a0-9861-4787-bdcf-1378219332be)) ( ((669a2886-9e03-41a4-a790-24bf6b7dcd96))s + formative intent cone > ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) > operative intent cone + ((6889abf7-7c3c-4ef5-80fe-3edca20268bd))s ) > external world
 					- Diagram
 						- ![CauseEffectMirrorCircles](https://docs.google.com/drawings/d/e/2PACX-1vSq3nYCfegxupQJv3D7nIddp2tKbmf3YvzKeXQqd8kZ5hzTUN8lGNE9i-Tf8hXwSlIShgySaBgtXLRY/pub?w=500)
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- DOING The ((6909a541-f4da-48ce-af9e-31f499125b00)) is to ((6909a3ff-8c16-4222-967a-f019759ca65c)) as ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) is to
+					  collapsed:: true
+					  :LOGBOOK:
+					  CLOCK: [2025-11-11 Tue 11:10:00]
+					  CLOCK: [2025-11-11 Tue 11:10:08]
+					  :END:
+						-
 		- Mutual exclusiveness
 		  collapsed:: true
 		  “thấy không làm, làm không thấy”  
