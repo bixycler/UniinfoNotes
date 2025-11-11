@@ -3947,7 +3947,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Acknowledging the difference but not accepting the exclusion, he arrived at the first postulate of Unïnfo, the Diff (Arrow), just a moment before the zero-th postulate, the Existence (Circle), and long before the third, the Unification (Equal).
 				- The Trinion brings life to the absolute & static (dead) [laws of thoughts](https://en.wikipedia.org/wiki/Law_of_thought).
 					- The **Circle** brings **form** to the trivial identity $A = A$ (Law of Identity): The $A$ is not a point, but a full circle $A → B → ... → Z → A$.
-					- The **Arrow** brings **motion** in to connect the 2 ends $A$ and $¬A$ (Law of Non-contradiction): A and not-A are not exclusive, but a transition from one to the other.
+					- The **Arrow** brings **motion** in to connect the 2 ends $A$ and $¬A$ (Law of Non-contradiction): “A” and “not-A” are not exclusive, but a transition from one to the other.
 					- The **Equal** brings **freedom** to the forbidden middle (Law of Excluded Middle): The forbidden one is released and placed at the central role of connecting, balancing the ends.
 	- ## question
 	  collapsed:: true
