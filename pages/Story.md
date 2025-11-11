@@ -5363,7 +5363,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- I mentioned it in [a 2007 journal at JAIST](https://tamsudoithuong.blogspot.com/2007/11/ny-tui-ang-trn-thy-trn-bn-trn-lng-tm-i.html).
 						- I excavated it in [2019 at Universal Technology Solutions](https://tamsudoithuong.blogspot.com/2019/06/moi-ay-het-mot-tuan-nhanh-qua-la-nhanh.html), to acknowledge that it's about *strange attractor*, and wrote the fb post “Tan rã rồi Tái hiện (Dissolve & Reappear)”.
 							- Thứ 6, mình lên cty để đưa máy cho chị lao công. Rồi tìm lại cái screensaver thần thánh trong X system gây ấn tượng đầu tiên ngày xưa của mình về pháp "tan rã rồi tái hiện", mình thấy nó có tên "strange", và... ồ không ngờ chính là **strange attractor** quái vật trong làng Complex Science, và nó chính là một thể hiện của pháp "tan rã rồi tái hiện" rồi!
-						-
 			- 11th, ...
 			  collapsed:: true
 				- Chatting with Huy, i realized that what i call “machines” with my adversion is actuall “mara” in Buddha's language.
