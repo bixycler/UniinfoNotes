@@ -5356,6 +5356,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- ((69128c15-b49b-4b95-98ec-eeaad519d42b))
 					- Different forms are different views of the same object.
 					- This reminded me of the “god x-screesaver” named [strange](https://linux.die.net/man/1/strange) which inspired my view of continuous transformation between form & content, particle & wave.
+					  id:: 69131be4-8e84-4fbc-bc58-5ec5164e76d4
 					  collapsed:: true
 						- History, as shown in [the 2019 fb post “Tan rã rồi Tái hiện (Dissolve & Reappear)”](https://www.facebook.com/share/p/1ETqaKvpjn/):
 							- Một ngày nọ ở ĐH Osaka, khi duyệt qua các screensaver cho màn hình máy tính FreeBSD của mình, mình bị bắt mắt bởi một screensaver tên "strange" của XScreenSaver (bộ screensaver kinh điển của hệ thống X).
