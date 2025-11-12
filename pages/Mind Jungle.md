@@ -4952,6 +4952,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- concrete form
 			  id:: 66f4e208-37c7-4749-a448-0722f7f7af20
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), when talking about “form”, we usually mean ((66f4e208-37c7-4749-a448-0722f7f7af20)), which is the totality of ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f)) and its ((670de73b-6fe0-4366-9d81-2d631a3f3ca3)). Here we say:
+				  id:: 684f9517-b893-45e0-a72d-adcc0cf95829
 				  > (concrete) form is the [crystallization](((66faa5f9-0b7a-49ca-a5f5-62eeba03ab2b))) of content.
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- The concrete form is united with its crystallized content, and Hegel also showed this unity via the [world of appearance](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm).
@@ -5750,6 +5751,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 665c82c0-ee06-4f43-95b8-73dbbe956080
 	  collapsed:: true
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((665c82c0-ee06-4f43-95b8-73dbbe956080)) is an image of the mind which reflects concepts (like [concept map](https://en.wikipedia.org/wiki/Concept_map)), relation and reasoning between these concepts (like [argument map](https://en.wikipedia.org/wiki/Argument_map)), tree views from important concepts (like [mind map](https://en.wikipedia.org/wiki/Mind_map)). Overall, it's a kind of [knowledge graph](https://en.wikipedia.org/wiki/Knowledge_graph).
+		  id:: 684f9517-b384-4c3c-8886-bcab29fe618c
 	- ## History
 	  id:: 6667ac3c-8fff-43aa-92ac-fca2002e58f4
 	  collapsed:: true
