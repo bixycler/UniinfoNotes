@@ -6360,6 +6360,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Integrations: multiplayer collaboration, Slack, Google (Workspace, Docs), GitHub, AI (non-free), etc.
 				- Source code: They host [repos on GitHub](https://github.com/outline) in which [rich-markdown-editor](https://github.com/outline/rich-markdown-editor) is open-source.
 				- For Google account, only Workspace account is supported, personal account is not supported.
+			- [Trilium Notes](https://triliumnotes.org/) ([dev from 2017](https://console.substack.com/p/console-169) to 2024) open-source focus on tree-based organization of notes and WYSIWYG like a word processor. Community is still thin, because the codebase has just been transfered to TriliumNext community since 2024.
+			  :LOGBOOK:
+			  CLOCK: [2025-11-13 Thu 09:25:53]
+			  :END:
 			- [zt](https://github.com/c2d7fa/zt) on Emacs
 		- Reviews
 		  collapsed:: true
