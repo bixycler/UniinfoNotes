@@ -6376,8 +6376,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- If I gave you $10 million to invest in one thing right now, where would you put it?
 						- > $10 million is both a lot and not a lot of money, so I’d look for places where you get the most bang for the buck.
 						- > In my mind, projects like GIMP, Kdenlive or Audacity are underfunded, but “simple enough” that a couple of full time dedicated contributors could make a big difference. These apps are critical for the public perception of Linux (BSDs …) as a complete en user platform, but they lack the necessary corporate backing.
-					- Are there any overarching goals of Trilium Notes that drive design or implementation? If so, what trade-offs have been made in Trilium Notes as a consequence of these goals?
-						- > One goal which comes to my mind is the long term sustainability as a hobby project. A surprising share of even quite prominent open source projects are largely driven by a single person, and that applies to Trilium as well. So I try to protect myself against burnout, by making sure I do a lot of the fun stuff and limit the boring (or outright frustrating) work to a minimum.
 					- Is Trilium Notes intended to eventually be monetized if it isn’t monetized already? If so, how? If it’s already monetized, what is your main source of revenue?
 						- > No, there’s never been a plan to monetize Trilium. I think it’s very difficult to make a living in this segment of personal note-taking / knowledge base tools and basically impossible to “make it big”.
 						- > The only path to that is targeting companies by building in multi-user support, various authentication methods, fine-grained ACL and other enterprise features, but I believe that’s fundamentally a different product which forces some compromises for personal note-taking.
@@ -6385,6 +6383,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- What motivates you to continue contributing to Trilium Notes?
 						- > That’s a surprisingly difficult question. I started the project to scratch my own itch, but the app has long already fulfilled my personal needs.
 						- > I guess now it’s a combination of being a fun thing to do, feeling some kind of responsibility towards the existing users and a general perfectionism. I heard that OSS projects thrive on shame of their authors and I guess there’s some truth in it.
+					- Are there any overarching goals of Trilium Notes that drive design or implementation? If so, what trade-offs have been made in Trilium Notes as a consequence of these goals?
+						- > One goal which comes to my mind is the long term sustainability as a hobby project. A surprising share of even quite prominent open source projects are largely driven by a single person, and that applies to Trilium as well. So I try to protect myself against burnout, by making sure I do a lot of the fun stuff and limit the boring (or outright frustrating) work to a minimum.
+					- Have you ever experienced burnout? How did you deal with it?
+						- > Avoiding burnout is the big part of my thinking / strategy outlined above in talking about the long term project sustainability. Basically I’m trying to work on fun things and avoid the boring things (unless really necessary), even at the cost of a wider user adoption.
+						- > The great advantage of building an open source software is that can just do your own thing at your own pace, people using it is “just” a nice bonus. You usually don’t have the same freedom with commercial products where your existence depends on the product success/adoption.
 			- [zt](https://github.com/c2d7fa/zt) on Emacs
 		- Reviews
 		  collapsed:: true
