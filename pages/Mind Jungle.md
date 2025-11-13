@@ -6360,12 +6360,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Integrations: multiplayer collaboration, Slack, Google (Workspace, Docs), GitHub, AI (non-free), etc.
 				- Source code: They host [repos on GitHub](https://github.com/outline) in which [rich-markdown-editor](https://github.com/outline/rich-markdown-editor) is open-source.
 				- For Google account, only Workspace account is supported, personal account is not supported.
-			- [Trilium Notes](https://triliumnotes.org/) ([dev from 2017](https://console.substack.com/p/console-169) to 2024) open-source focus on tree-based organization of notes and WYSIWYG like a word processor. Community is still thin, because the codebase has just been transfered to TriliumNext community since 2024.
+			- [Trilium Notes](https://triliumnotes.org/) ([dev from 2017](https://console.substack.com/p/console-169) to 2024): an [open-source](https://github.com/TriliumNext/Trilium) focusing on tree-based organization of notes and WYSIWYG like a word processor. Community is still thin, because the codebase has just been transfered to TriliumNext community since 2024.
 			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2025-11-13 Thu 09:25:53]
 			  :END:
-				- This app was built upon the pure personal passion of the author `zadam`, as shared on [Console #169](https://console.substack.com/p/console-169).
+				- This app was built upon the pure personal passion of the author [zadam](https://github.com/zadam), as shared on [Console #169](https://console.substack.com/p/console-169).
 				  id:: 691545ea-1b97-4600-964b-c0cc02a61cb5
 				  collapsed:: true
 					- Why was Trilium Notes started?
@@ -6388,7 +6388,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Have you ever experienced burnout? How did you deal with it?
 						- > Avoiding burnout is the big part of my thinking / strategy outlined above in talking about the long term project sustainability. Basically I’m trying to work on fun things and avoid the boring things (unless really necessary), even at the cost of a wider user adoption.
 						- > The great advantage of building an open source software is that can just do your own thing at your own pace, people using it is “just” a nice bonus. You usually don’t have the same freedom with commercial products where your existence depends on the product success/adoption.
-					-
 			- [zt](https://github.com/c2d7fa/zt) on Emacs
 		- Reviews
 		  collapsed:: true
