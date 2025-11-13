@@ -6388,6 +6388,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Have you ever experienced burnout? How did you deal with it?
 						- > Avoiding burnout is the big part of my thinking / strategy outlined above in talking about the long term project sustainability. Basically I’m trying to work on fun things and avoid the boring things (unless really necessary), even at the cost of a wider user adoption.
 						- > The great advantage of building an open source software is that can just do your own thing at your own pace, people using it is “just” a nice bonus. You usually don’t have the same freedom with commercial products where your existence depends on the product success/adoption.
+					-
 			- [zt](https://github.com/c2d7fa/zt) on Emacs
 		- Reviews
 		  collapsed:: true
