@@ -5371,7 +5371,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Both are what the practitioner sees inside through meditation, the machinary that we all are slaved to .
 			- 13th,...
 			  collapsed:: true
-				- My fellow An has found an interesting open-source PKB note taking app, , with
+				- My colleague An has found an interesting open-source PKB note taking app, [Trilium Notes](https://triliumnotes.org/), with [an interesting interview](((691545ea-1b97-4600-964b-c0cc02a61cb5))) with the author `zadam`.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69085f61-6627-4c0a-a984-c2b5b411a292))
