@@ -6361,9 +6361,24 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Source code: They host [repos on GitHub](https://github.com/outline) in which [rich-markdown-editor](https://github.com/outline/rich-markdown-editor) is open-source.
 				- For Google account, only Workspace account is supported, personal account is not supported.
 			- [Trilium Notes](https://triliumnotes.org/) ([dev from 2017](https://console.substack.com/p/console-169) to 2024) open-source focus on tree-based organization of notes and WYSIWYG like a word processor. Community is still thin, because the codebase has just been transfered to TriliumNext community since 2024.
+			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2025-11-13 Thu 09:25:53]
 			  :END:
+				- This app was built upon the pure personal of the author `zadam`, as shared on [Console #169](https://console.substack.com/p/console-169).
+					- If I gave you $10 million to invest in one thing right now, where would you put it?
+						- > $10 million is both a lot and not a lot of money, so I’d look for places where you get the most bang for the buck.
+						- > In my mind, projects like GIMP, Kdenlive or Audacity are underfunded, but “simple enough” that a couple of full time dedicated contributors could make a big difference. These apps are critical for the public perception of Linux (BSDs …) as a complete en user platform, but they lack the necessary corporate backing.
+					- Why was Trilium Notes started?
+						- > Back in 2017 there wasn’t a lot of choice in note-taking software. I used to use proprietary software called Notecase Pro. I like its free-form tree based structure, WYSIWYG editor and some other features, but it had only rudimentary sync capabilities, so I decided to build a web app which I could use at work and all my notes would sync with Notecase Pro at home.
+						- >
+					- Is Trilium Notes intended to eventually be monetized if it isn’t monetized already? If so, how? If it’s already monetized, what is your main source of revenue?
+						- > No, there’s never been a plan to monetize Trilium. I think it’s very difficult to make a living in this segment of personal note-taking / knowledge base tools and basically impossible to “make it big”.
+						- > The only path to that is targeting companies by building in multi-user support, various authentication methods, fine-grained ACL and other enterprise features, but I believe that’s fundamentally a different product which forces some compromises for personal note-taking.
+						- > I get donations on GitHub and PayPal which provide “beer money”. It’s also very nice to see that users are seeing value in my work and are willing to support it in real terms.
+					- What motivates you to continue contributing to Trilium Notes?
+						- > That’s a surprisingly difficult question. I started the project to scratch my own itch, but the app has long already fulfilled my personal needs.
+						- > I guess now it’s a combination of being a fun thing to do, feeling some kind of responsibility towards the existing users and a general perfectionism. I heard that OSS projects thrive on shame of their authors and I guess there’s some truth in it.
 			- [zt](https://github.com/c2d7fa/zt) on Emacs
 		- Reviews
 		  collapsed:: true
