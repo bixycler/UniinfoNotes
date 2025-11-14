@@ -1,0 +1,6 @@
+- CIEA: mix - match - unmix = cause - action - effect 
+    - formation = mixmatch of arrows into circles 
+    - Note: Don't [confuse](https://en.wiktionary.org/wiki/mixmatch#English) mixmatch with mismatch like the pop culture.
+- The chosen path is the one that's closer, clearer, easier, having denser and more vivid form.
+    - Although i'd seen the pull of the graph DB from lunch, i ended up caught up into it till the end of the day.
+    - When irritated, sick, aroused, or in extreme conditions, the form is magnified, intensified, thus the attention is concentrated.
