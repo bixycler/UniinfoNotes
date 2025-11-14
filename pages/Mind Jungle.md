@@ -5376,8 +5376,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :LOGBOOK:
 			  CLOCK: [2025-11-14 Fri 16:05:12]
 			  :END:
-				- Math wall = infinite(simal) limit
-					-
+				- Maths wall = infinite(simal) limit
+					- By means of limit, maths have made their walls “absolute independence”.
 				- Physics wall = very large/small constants
 				- Complex wall = big gaps between micro & macro scale
 		- ### orthogonal
