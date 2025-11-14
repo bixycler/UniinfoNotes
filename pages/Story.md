@@ -5374,7 +5374,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- My colleague An has found an interesting open-source PKB note taking app, [Trilium Notes](https://triliumnotes.org/), with [an interesting interview](((691545ea-1b97-4600-964b-c0cc02a61cb5))) with the author `zadam`.
 			- 14th, ...
 			  collapsed:: true
-				- “Contact first, concept second.”
+				- “Contact first, concept second”
 					- open reception (immediacy) > closed reception (mediation)
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
