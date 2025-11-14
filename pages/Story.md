@@ -5366,7 +5366,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Thứ 6, mình lên cty để đưa máy cho chị lao công. Rồi tìm lại cái screensaver thần thánh trong X system gây ấn tượng đầu tiên ngày xưa của mình về pháp "tan rã rồi tái hiện", mình thấy nó có tên "strange", và... ồ không ngờ chính là **strange attractor** quái vật trong làng Complex Science, và nó chính là một thể hiện của pháp "tan rã rồi tái hiện" rồi!
 			- 11th, ...
 			  id:: 6912c72d-5fde-409f-ae7d-d9ea788962e8
-			  collapsed:: true
 				- Chatting with Huy, i realized that what i call “machines” with my adversion is actuall “mara” in Buddha's language.
 					- Both are what the practitioner sees inside through meditation, the machinary that we all are slaved to .
 			- 13th,...
