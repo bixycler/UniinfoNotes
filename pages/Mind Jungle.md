@@ -5366,6 +5366,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((66e4299e-0af8-47ee-adae-c13fb57fd15d))
 			- In maths: [independent variable](https://en.wikipedia.org/wiki/Dependent_and_independent_variables), [stochastically independent](https://en.wikipedia.org/wiki/Independence_(probability_theory)), [logically independent](https://en.wikipedia.org/wiki/Independence_(mathematical_logic)), [perpendicular](https://en.wikipedia.org/wiki/Perpendicular), [orthogonal](https://en.wikipedia.org/wiki/Orthogonality), [linear independence](https://en.wikipedia.org/wiki/Linear_independence), [algebraic independence](https://en.wikipedia.org/wiki/Algebraic_independence), [independent set](https://en.wikipedia.org/wiki/Independent_set_(graph_theory)), [disjoint sets](https://en.wikipedia.org/wiki/Disjoint_sets)
 			- In politics: [independence](https://en.wikipedia.org/wiki/Independence), [independent city](https://en.wikipedia.org/wiki/Independent_city), [independent politician](https://en.wikipedia.org/wiki/Independent_politician), etc.
+			- In complex systems: emergent autonomy
+			- In Holographic Universe: scale decoupling/invariance
+			- In General Relativity: [background independence](https://en.wikipedia.org/wiki/Background_independence)
 		- ### orthogonal
 		  id:: 671b206e-c50c-47b0-903d-73e97d512d13
 		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((671b27ce-a9c8-48d7-b0b5-e056484a6747))

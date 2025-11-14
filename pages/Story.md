@@ -5377,11 +5377,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- “Contact first, concept second”
 					- open reception (immediacy) > closed reception (mediation)
 				- emergent independence
-					- All independences are emergent independence, not absolute independence.
+					- All independences are not absolute independence, but emergent independence built by walls of distance.
 					- Maths: orthogonal, statistical independence, perpendicular
+						- Math wall = infinite(simal) limit
 					- Complex systems: emergent autonomy
+						- Complex wall = big gaps between micro & macro scale
 					- Holographic Universe: scale decoupling/invariance
 					- General Relativity: background independence
+					- Physics wall = very large/small constants
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69085f61-6627-4c0a-a984-c2b5b411a292))
