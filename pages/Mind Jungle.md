@@ -2840,7 +2840,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) theory, all forms are generated through the ((66f40210-cca6-4d81-85e7-d0c54ef20451)) mechanism by the ((687f5b57-04c6-4e38-9b67-4a22cbf6e3df)) between the ((66b1cfa4-2537-4361-a626-da81ca5b4e6f)) and the ((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9)) $c⋇i$.
 			  id:: 6735b187-6f6a-4dee-9f22-b7db6f8af855
 				- ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) ... [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) with remainder: sustent = content + form, intent - extent - remainder
-				- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “SCIFER” is pronounced [“cipher”](https://en.wiktionary.org/wiki/cipher#English) /ˈsaɪfə/, or [“chiffre”](https://en.wiktionary.org/wiki/chiffre#French) /ʃifʁ/ in French (with the name reordered as “SCIFRE”).
+				- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “SCIFER” is pronounced [“cipher”](https://en.wiktionary.org/wiki/cipher#English) /ˈsaɪ.fə/, or [“chiffre”](https://en.wiktionary.org/wiki/chiffre#French) /ʃi.fʁ/ in French (with the name reordered as “SCIFRE”).
 				- Typsetting: To highlight the relation with the CIE, SCIFER may be typeset as $_{S}CI_{F}E^{R}$.
 				- Duals: form-content, sustent-extent, intent-extent, extent-phase
 					- extent-phase: the intent sees the _**extent** of the **content**_ (as it looks outward), and the _**phase** of the **remainder**_ (as it looks inward).
