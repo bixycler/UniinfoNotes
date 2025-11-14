@@ -5362,13 +5362,24 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- independence
 		  id:: 671b1eef-0820-4e03-8e8f-e9342ca18b26
 		  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((671b160c-0589-4f83-a778-a9fb4df6783a))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) An object A is ((671b160c-0589-4f83-a778-a9fb4df6783a)) from another object B when there is no ((667d0b78-fff6-49bc-90d5-165648ed56d3)) A ← B within the given scope of consideration. ((671b1616-9958-48d9-95ba-9fc8e76f2867)) is always ((66c80cbf-6626-4cb7-9b58-8ac3396e03da)) to some scope of consideration, and the "absolute independency" is just the independency relative to the universal scope.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) An object A is ((671b160c-0589-4f83-a778-a9fb4df6783a)) from another object B when there is no ((667d0b78-fff6-49bc-90d5-165648ed56d3)) A ← B within the given scope of consideration. ((671b1616-9958-48d9-95ba-9fc8e76f2867)) is always ((66c80cbf-6626-4cb7-9b58-8ac3396e03da)) to some scope of consideration, and the “absolute independency” is just the independency relative to the universal scope.
 		- ((66e4299e-0af8-47ee-adae-c13fb57fd15d))
 			- In maths: [independent variable](https://en.wikipedia.org/wiki/Dependent_and_independent_variables), [stochastically independent](https://en.wikipedia.org/wiki/Independence_(probability_theory)), [logically independent](https://en.wikipedia.org/wiki/Independence_(mathematical_logic)), [perpendicular](https://en.wikipedia.org/wiki/Perpendicular), [orthogonal](https://en.wikipedia.org/wiki/Orthogonality), [linear independence](https://en.wikipedia.org/wiki/Linear_independence), [algebraic independence](https://en.wikipedia.org/wiki/Algebraic_independence), [independent set](https://en.wikipedia.org/wiki/Independent_set_(graph_theory)), [disjoint sets](https://en.wikipedia.org/wiki/Disjoint_sets)
 			- In politics: [independence](https://en.wikipedia.org/wiki/Independence), [independent city](https://en.wikipedia.org/wiki/Independent_city), [independent politician](https://en.wikipedia.org/wiki/Independent_politician), etc.
 			- In complex systems: emergent autonomy
-			- In Holographic Universe: scale decoupling/invariance
+			- In Holographic Universe: scale separation/invariance
 			- In General Relativity: [background independence](https://en.wikipedia.org/wiki/Background_independence)
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- All independences are *emergent independence* built by walls of distance.
+			  id:: 6916f0bf-dec9-4dff-a8c9-999c63adb522
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-11-14 Fri 16:05:12]
+			  :END:
+				- Math wall = infinite(simal) limit
+					-
+				- Physics wall = very large/small constants
+				- Complex wall = big gaps between micro & macro scale
 		- ### orthogonal
 		  id:: 671b206e-c50c-47b0-903d-73e97d512d13
 		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((671b27ce-a9c8-48d7-b0b5-e056484a6747))
