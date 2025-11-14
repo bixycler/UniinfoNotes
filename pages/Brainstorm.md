@@ -85,7 +85,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Related to ((66f40210-cca6-4d81-85e7-d0c54ef20451))?!🤔
 			- Attention brings dormant intents up into the current intent stack/tree/circle to participate in the effect circle.
 			- In LLM, ((66c32936-618a-43d3-b2c8-a254badeb987)) is what makes the flat & static probability space of ANN be more projective & dynamic like the possibility space in uninet.
-			- CIEA: content – intent – extent – attent
+			- CIEA /saɪ̯ə/: content – intent – extent – attent
+			  id:: 68f5a6d2-bba0-4082-b012-7b475e812f4f
 			  collapsed:: true
 			  Tend with, tend in, tend out, tend to
 				- attention = direction = scope of the viewcone = spotlight = focus of energy = activation

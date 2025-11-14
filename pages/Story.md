@@ -5366,8 +5366,17 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Thứ 6, mình lên cty để đưa máy cho chị lao công. Rồi tìm lại cái screensaver thần thánh trong X system gây ấn tượng đầu tiên ngày xưa của mình về pháp "tan rã rồi tái hiện", mình thấy nó có tên "strange", và... ồ không ngờ chính là **strange attractor** quái vật trong làng Complex Science, và nó chính là một thể hiện của pháp "tan rã rồi tái hiện" rồi!
 			- 11th, ...
 			  id:: 6912c72d-5fde-409f-ae7d-d9ea788962e8
+			  collapsed:: true
 				- Chatting with Huy, i realized that what i call “machines” with my adversion is actuall “mara” in Buddha's language.
 					- Both are what the practitioner sees inside through meditation, the machinary that we all are slaved to .
+			- 12th, ...
+			  collapsed:: true
+				- The chosen path is the one that's closer, clearer, easier, having denser and more vivid form.
+					- Although i'd seen the pull of the graph DB from lunch, i ended up caught up into it till the end of the day.
+					- When irritated, sick, aroused, or in extreme conditions, the form is magnified, intensified, thus the attention is concentrated.
+				- [CIEA](((68f5a6d2-bba0-4082-b012-7b475e812f4f))): mix - match - unmix = cause - action - effect
+					- formation = mixmatch of arrows into circles
+					- Note: Don't [confuse](https://en.wiktionary.org/wiki/mixmatch#English) mixmatch with mismatch like the pop culture.
 			- 13th,...
 			  collapsed:: true
 				- My colleague An has found an interesting open-source PKB note taking app, [Trilium Notes](https://triliumnotes.org/), with [an interesting interview](((691545ea-1b97-4600-964b-c0cc02a61cb5))) with the author `zadam`.
