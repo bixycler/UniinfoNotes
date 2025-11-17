@@ -5395,7 +5395,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- > The Unitorus symbol is the [emblem](https://en.wikipedia.org/wiki/Emblem) of Unïnfo.
 			- 17th, ...
 			  collapsed:: true
-				- These days, my company works have accumulated into the form of the process of
+				- These days, my company works have accumulated into the form of the process of circle formation from various threads.
+					- The common parts of different threads just repeat over and over, impressing on my mind the circle forms of these commons.
+					- The uncommon parts of these threads just cancel out, leaving the commons vividly.
+					- Various forms emerge from different views of the same content ⇒ viewcone navigation of the graph is the key of formation.
+						- The graph must be projected onto tree (viewcone) for continuous traversal.
+						- The tree folding
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69085f61-6627-4c0a-a984-c2b5b411a292))
