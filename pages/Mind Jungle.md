@@ -5568,7 +5568,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- |Ω| = 1
 		  id:: 678e228f-1182-4605-9aad-f66f6fbb57bd
 		  The mass (amount of content) of the ((675c03d8-3185-41a8-9f98-e869fabec793)) is [1](((67505a68-91b9-4abb-bf92-4dddad8c5803))).
-		- DOING Compared with other models of the Universe
+		- TODO Compared with other models of the Universe
 		  :LOGBOOK:
 		  CLOCK: [2024-12-13 Fri 18:37:00]
 		  :END:

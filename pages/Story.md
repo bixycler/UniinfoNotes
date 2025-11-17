@@ -5375,6 +5375,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Although i'd seen the pull of the graph DB from lunch, i ended up caught up into it till the end of the day.
 					- When irritated, sick, aroused, or in extreme conditions, the form is magnified, intensified, thus the attention is concentrated.
 				- [CIEA](((68f5a6d2-bba0-4082-b012-7b475e812f4f))): mix - match - unmix = cause - action - effect
+				  id:: 6916a4cf-2ac4-4843-a77c-9feae00db79c
 					- formation = mixmatch of arrows into circles
 					- Note: Don't [confuse](https://en.wiktionary.org/wiki/mixmatch#English) mixmatch with mismatch like the pop culture.
 			- 13th,...
@@ -5395,14 +5396,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- > The Unitorus symbol is the [emblem](https://en.wikipedia.org/wiki/Emblem) of Unïnfo.
 			- 17th, ...
 			  collapsed:: true
-				- These days, my company works have accumulated into the form of the process of circle formation from various threads.
+				- These days, my company works have accumulated into the form of the process where circles are formed by [mixmatching](((6916a4cf-2ac4-4843-a77c-9feae00db79c))) various threads.
 					- The common parts of different threads just repeat over and over, impressing on my mind the circle forms of these commons.
-					- The uncommon parts of these threads just cancel out, leaving the commons vividly.
+					- The uncommon parts of these threads just cancel out, leaving only the commons visible.
 					- Various forms emerge from different views of the same content ⇒ viewcone navigation of the graph is the key of formation.
 						- The graph must be projected onto tree (viewcone) for continuous traversal.
 						- The tree (un)folding aids changing view.
 					- The (un)commons should be extracted with **wave interference** & [path integral](https://en.wikipedia.org/wiki/Path_integral_formulation).
-						- This is the [qualification](((681826ac-f5f2-4a84-a5f5-c110937ec85f))) “content = intent” of the ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)).
+						- This is the “content = intent” [qualification](((681826ac-f5f2-4a84-a5f5-c110937ec85f))) of the ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)).
+			-
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69085f61-6627-4c0a-a984-c2b5b411a292))
