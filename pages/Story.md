@@ -5400,7 +5400,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- The uncommon parts of these threads just cancel out, leaving the commons vividly.
 					- Various forms emerge from different views of the same content ⇒ viewcone navigation of the graph is the key of formation.
 						- The graph must be projected onto tree (viewcone) for continuous traversal.
-						- The tree folding
+						- The tree (un)folding aids changing view.
+					- The (un)commons should be extracted with **wave interference** & [path integral](https://en.wikipedia.org/wiki/Path_integral_formulation).
+						- This is the [qualification](((681826ac-f5f2-4a84-a5f5-c110937ec85f))) “content = intent” of the ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)).
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69085f61-6627-4c0a-a984-c2b5b411a292))
