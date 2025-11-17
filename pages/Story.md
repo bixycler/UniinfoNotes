@@ -5385,6 +5385,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- “Contact first, concept second”
 					- open reception (immediacy) > closed reception (mediation)
 				- ((6916f0bf-dec9-4dff-a8c9-999c63adb522))
+			- 15-16th, weekends
+			  collapsed:: true
+				- why i'm caught up?
+					- cause: full bodymind immersion (deep dive)
+					- expressions: concentration, passion, absorption, tripping,... and being caught up in the flow
+				- The [Unitorus](((68594391-f2b0-4501-86ec-af8b67346db9))) is a [spirorus](https://creatzynotes.blogspot.com/2013/08/spirorus-structure-of-spacetime.html)!
+					- Spirorus is a (p, q) [torus knot/link](https://en.wikipedia.org/wiki/Torus_knot), but preferring *incommensurable* pair (p, q), hence a [torus flow](https://en.wikipedia.org/wiki/Linear_flow_on_the_torus).
+					- > The Unitorus symbol is the [emblem](https://en.wikipedia.org/wiki/Emblem) of Unïnfo.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69085f61-6627-4c0a-a984-c2b5b411a292))

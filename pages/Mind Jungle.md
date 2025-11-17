@@ -3686,7 +3686,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- ((66723642-58f1-4a74-bba3-0108f14c6bac)): ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)), ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)), ((685a47f5-728a-4b34-95c5-d8e3bba5aad1))
 					- ((678e2046-54ac-4284-865d-6f3e38f589a1))
 					- ((686e6e72-13f8-4dc9-a8e2-de35519f57d7))
-				- [Unitorus](https://bixycler.github.io/Uniinfo/Unitorus/UniTorus.html) – The Symbolic Icon of Unïnfo
+				- [Unitorus](https://bixycler.github.io/Uniinfo/Unitorus/UniTorus.html) – The emblem of Unïnfo
+				  id:: 68594391-f2b0-4501-86ec-af8b67346db9
 					- ![Unitorus-0720°-white.png](../assets/Uniinfo/Unitorus-0720°-white.png){:height 40, :width 60}
 			- ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) Theory [Ʊ]
 				- The ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) [((66f3c32c-9b5a-4e5a-95cc-411256b40b4f))]: ((66b1cfa4-2537-4361-a626-da81ca5b4e6f)) ÷ ((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9)) = ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8))
