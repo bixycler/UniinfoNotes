@@ -4754,7 +4754,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  :LOGBOOK:
 	  CLOCK: [2025-11-17 Mon 15:43:45]
 	  :END:
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) To ((691ae014-cb3b-407f-b84b-582f0025c37c)) is to tranform an arrow to a ((667d15c6-67c4-4998-a549-c8b3f9de3d60)).
+	  ((691ae2bd-a60f-4db2-8132-bf54e9dee1b0)) ((691ae231-4659-41b8-9c1a-8e702a04753d))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) To ((691ae014-cb3b-407f-b84b-582f0025c37c)) is to [transform](((669a58b9-eb34-41cd-8605-02e29b07e1b5))) an ((667d15b7-6364-49a9-ac58-c64d2a992b63)) to a ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) by matching its head with its tail.
+		- unfold
+		  id:: 691ae231-4659-41b8-9c1a-8e702a04753d
+		  ((691ae2c3-74aa-4b95-afb6-ed174be00978)) ((691ae014-cb3b-407f-b84b-582f0025c37c))
 		- ### foldable
 		  id:: 66537617-23c2-43a9-9a14-5e18fe9aa36f
 		  collapsed:: true

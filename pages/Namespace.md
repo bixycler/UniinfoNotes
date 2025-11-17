@@ -156,12 +156,15 @@ collapsed:: true
 			  id:: 66600918-9cef-4a33-bdeb-3b64d71c7034
 			- moved to
 			  id:: 680a04eb-125e-4e9e-b691-3b7be523359c
+		- Opposite:
+		  id:: 691ae2bd-a60f-4db2-8132-bf54e9dee1b0
+			- opposite of
+			  id:: 691ae2c3-74aa-4b95-afb6-ed174be00978
 	- Composite:
 	  id:: 6652048c-27b3-47b6-84e5-25af8d9ce801
 	  ((665ca47c-476a-4bef-b982-d9a31a669fb1)) ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5))
 		- Component:
 		  id:: 66532ccc-ae21-4940-8714-715060d6bd90
-		  collapsed:: true
 		  ((665ca47c-476a-4bef-b982-d9a31a669fb1)) ((66532bb2-7680-461b-80b2-71fc96c89fb9))
 		- Complementarity:
 		  id:: 667bf816-d1c8-4ac3-b315-764c14bfbb1f
