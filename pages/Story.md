@@ -5420,7 +5420,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Sometimes, both threads are extracted side by side (left & right) to mixmatch in front of the eyes, which is very similar to `diff` algorithms.
 							- Except this case, most of the time, there are multiple intents observing the object _concurrently_, extracting **_multiple levels of abstraction_** (at different wave lengths, different scales, orders of derivatives), not limited to a flat `diff`.
 				- When the active intents are too many, i clear memory by flushing them down to storage, and reset the bodymind.
-			-
+			- 18th,...
+			  collapsed:: true
+				- CIE chromatics
+					- Linear addition of colors  [Grassmann's laws](https://en.wikipedia.org/wiki/Grassmann%27s_laws_(color_science))
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69085f61-6627-4c0a-a984-c2b5b411a292))
