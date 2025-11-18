@@ -5432,8 +5432,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- CIE chromatics uses the **linear IHS** space from 1980s.
 						- Orthonormal rotation of the RGB cube:
 							- $I = (R+G+B)/√3$
-							- $C1 = (R–G)/√2$
-							- $C2 = (R+G–2B)/√6$
+							- $C_1 = (R–G)/√2$
+							- $C_2 = (R+G–2B)/√6$
 						- Refs
 							- Yu-Ichi Ohta, et al., 1980, [Color Information for Region Segmentation](https://www.ri.cmu.edu/pub_files/pub4/ohta_y_1980_1/ohta_y_1980_1.pdf)
 								- The paper introduced new linear spaces I_{1}I_{2}I_{3}, I_{1}I_{2}'I_{3}', and compare with other linear and nonlinear spaces about their effectiveness in image segmentation.
