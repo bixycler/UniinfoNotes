@@ -5401,20 +5401,19 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Various forms emerge from different views of the same content ⇒ viewcone navigation of the graph is the key of formation.
 					- The graph must be projected onto tree (viewcone) for continuous traversal.
 					- The tree ((691ae014-cb3b-407f-b84b-582f0025c37c))ing aids changing view.
-				- The (un)commons should be extracted with **wave interference** & [path integral](https://en.wikipedia.org/wiki/Path_integral_formulation).
-					- This is the “content = intent” [qualification](((681826ac-f5f2-4a84-a5f5-c110937ec85f))) of the ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)).
+				- View by **_concurrent_ intents**: Fourier transform, wave interference, SCIFER chromatics
+					- The (un)commons should be extracted with mixmatching via **wave interference** & [path integral](https://en.wikipedia.org/wiki/Path_integral_formulation).
+					- Mixmatch = mix by addition & match by interference = circle dynamic = the “content = intent” [qualification](((681826ac-f5f2-4a84-a5f5-c110937ec85f))) of the ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)).
 				- For each object, i read it again and again, to view it in different aspects.
 					- Each pass with a different attention, shows a different angle of the object, viewed from a different intent set.
 					- Changing attention = changing view angle = turning = object rotation = mixmatching object content with different subject intents
 					- At each angle, a set/chain of intents is activated to observe the object _concurrently_.
-						- => Formation: project the object into this specific set of operative intents, to update them, and generate new formative intents.
+						- ⇒ Formation: project the object into this specific set of operative intents, to update them, and generate new formative intents.
 						- The object content thread is folded by these intents, creating a view := a circle of folded subcircles & unfolded arrows.
 					- Different passes pull different threads of the object, then mixmatch together (old pass with new pass).
-						- => The _intrinsic form_ of the object **emerges**, not only extrinsic forms are extracted.
+						- ⇒ The _intrinsic form_ of the object **emerges**, not only extrinsic forms are extracted.
 						- Sometimes, both threads are extracted side by side (left & right) to mixmatch in front of the eyes, which is very similar to `diff` algorithms.
 							- Except this case, most of the time, there are multiple intents observing the object _concurrently_, extracting **_multiple levels of abstraction_** (at different wave lengths, different scales, orders of derivatives), not limited to a flat `diff`.
-				- View by concurrent intents: Fourier transform, wave interference, SCIFER chromatics
-					- Mixmatch = mix by addition & match by interference = circle dynamic
 				- When the active intents are too many, i clear memory by flushing them down to storage, and reset the bodymind.
 			-
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
