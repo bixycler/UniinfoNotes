@@ -5432,7 +5432,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- CIE chromatics uses the **linear IHS** space from 1980s.
 						- Refs
 							- Yu-Ichi Ohta, et al., 1980, [Color Information for Region Segmentation](https://www.ri.cmu.edu/pub_files/pub4/ohta_y_1980_1/ohta_y_1980_1.pdf)
-								-
+								- The paper introduce new linear spaces I
 							- Alvy Ray Smith, 1978, [Color Gamut Transform Pairs](https://alvyray.com/Papers/CG/color78.pdf)
 								- In this paper, Smith introduced a “simple linear space” IQY (from 1975, for TV signal), but mainly discussed 2 the nonlinear spaces HSL, HSV. This HSV used trig functions which is different from the modern HSV with no trig.
 					- Reciprocal relation ($c/i = e$) between luminance and desaturation is shown with [MacAdam ellipse](https://en.wikipedia.org/wiki/MacAdam_ellipse).
