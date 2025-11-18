@@ -5404,8 +5404,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- View by **_concurrent_ intents**: Fourier transform, wave interference, SCIFER chromatics
 					- The (un)commons should be extracted with mixmatching via **wave interference** & [path integral](https://en.wikipedia.org/wiki/Path_integral_formulation).
 					- Mixmatch = mix by addition & match by interference = circle dynamic = the “content = intent” [qualification](((681826ac-f5f2-4a84-a5f5-c110937ec85f))) of the ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)).
-						-
-						- Match: decoherence / einselection
+						- Mix: superposition, (quantum information) scrambling = fast mixing of information
+						- Match: interference, decoherence/einselection
+						- Nature's always mixing all possibilities and then selectively matching the ones whose phases align.
 					- In complex systems, the “memory loss” (of initial conditions) is due to [mixing](https://en.wikipedia.org/wiki/Mixing_(mathematics))/[ergodicity](https://en.wikipedia.org/wiki/Ergodicity), 
 					  averaging / coarse-graining (entropy increase), attractor convergence / asymptotic stability / equilibration / thermalization.
 				- For each object, i read it again and again, to view it in different aspects.
