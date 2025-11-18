@@ -5428,7 +5428,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- This linearity is available in trichromatic color spaces like [LMS](https://en.wikipedia.org/wiki/LMS_color_space) (directly from cone cells), [XYZ](https://en.wikipedia.org/wiki/CIE_1931_color_space) (CIE 1931 standard), and [RGB](https://en.wikipedia.org/wiki/RGB_color_spaces), but *not* in their non-linear transformed spaces like:
 							- saturation-based [HSL & HSV & HSI](https://en.wikipedia.org/wiki/HSL_and_HSV),
 							- perceptual uniform [CIELUV](https://en.wikipedia.org/wiki/CIELUV) & [CIELAB](https://en.wikipedia.org/wiki/CIELAB_color_space),
-							- [gamma-corrected](https://en.wikipedia.org/wiki/Gamma_correction) for display [sRGB](https://en.wikipedia.org/wiki/SRGB),
+							- [gamma-corrected](https://en.wikipedia.org/wiki/Gamma_correction) (for display) [sRGB](https://en.wikipedia.org/wiki/SRGB), [Adobe RGB](https://en.wikipedia.org/wiki/Adobe_RGB_color_space), ...
 					- Reciprocal relation ($c/i = e$) between luminance and desaturation is shown with [MacAdam ellipse](https://en.wikipedia.org/wiki/MacAdam_ellipse).
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
