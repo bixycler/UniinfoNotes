@@ -5425,6 +5425,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- CIE chromatics
 					- Linear addition of colors, i.e. [Grassmann's laws](https://en.wikipedia.org/wiki/Grassmann%27s_laws_(color_science)), is due to the linear addtion of cone cells in human eyes.
 						- This linearity corresponds to the vector addition counterpart.
+						- This linearity is available in colorspaces [LMS](https://en.wikipedia.org/wiki/LMS_color_space) (directly from cone cells), [RGB]()
 					- Reciprocal relation ($c/i = e$) between luminance and desaturation is shown with [MacAdam ellipse](https://en.wikipedia.org/wiki/MacAdam_ellipse).
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
