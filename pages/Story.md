@@ -5394,16 +5394,28 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- The [Unitorus](((68594391-f2b0-4501-86ec-af8b67346db9))) is a [spirorus](https://creatzynotes.blogspot.com/2013/08/spirorus-structure-of-spacetime.html)!
 					- Spirorus is a (p, q) [torus knot/link](https://en.wikipedia.org/wiki/Torus_knot), but preferring *incommensurable* pair (p, q), hence a [torus flow](https://en.wikipedia.org/wiki/Linear_flow_on_the_torus).
 					- > The Unitorus symbol is the [emblem](https://en.wikipedia.org/wiki/Emblem) of Unïnfo.
-			- 17th, ...
+			- 17th, These days, my company works have accumulated into the form of the process where circles are formed by [mixmatching](((6916a4cf-2ac4-4843-a77c-9feae00db79c))) various threads.
 			  collapsed:: true
-				- These days, my company works have accumulated into the form of the process where circles are formed by [mixmatching](((6916a4cf-2ac4-4843-a77c-9feae00db79c))) various threads.
-					- The common parts of different threads just repeat over and over, impressing on my mind the circle forms of these commons.
-					- The uncommon parts of these threads just cancel out, leaving only the commons visible.
-					- Various forms emerge from different views of the same content ⇒ viewcone navigation of the graph is the key of formation.
-						- The graph must be projected onto tree (viewcone) for continuous traversal.
-						- The tree ((691ae014-cb3b-407f-b84b-582f0025c37c))ing aids changing view.
-					- The (un)commons should be extracted with **wave interference** & [path integral](https://en.wikipedia.org/wiki/Path_integral_formulation).
-						- This is the “content = intent” [qualification](((681826ac-f5f2-4a84-a5f5-c110937ec85f))) of the ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)).
+				- The common parts of different threads just repeat over and over, impressing on my mind the circle forms of these commons.
+				- The uncommon parts of these threads just cancel out, leaving only the commons visible.
+				- Various forms emerge from different views of the same content ⇒ viewcone navigation of the graph is the key of formation.
+					- The graph must be projected onto tree (viewcone) for continuous traversal.
+					- The tree ((691ae014-cb3b-407f-b84b-582f0025c37c))ing aids changing view.
+				- The (un)commons should be extracted with **wave interference** & [path integral](https://en.wikipedia.org/wiki/Path_integral_formulation).
+					- This is the “content = intent” [qualification](((681826ac-f5f2-4a84-a5f5-c110937ec85f))) of the ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)).
+				- For each object, i read it again and again, to view it in different aspects.
+					- Each pass with a different attention, shows a different angle of the object, viewed from a different intent set.
+					- Changing attention = changing view angle = turning = object rotation = mixmatching object content with different subject intents
+					- At each angle, a set/chain of intents is activated to observe the object _concurrently_.
+						- => Formation: project the object into this specific set of operative intents, to update them, and generate new formative intents.
+						- The object content thread is folded by these intents, creating a view := a circle of folded subcircles & unfolded arrows.
+					- Different passes pull different threads of the object, then mixmatch together (old pass with new pass).
+						- => The _intrinsic form_ of the object **emerges**, not only extrinsic forms are extracted.
+						- Sometimes, both threads are extracted side by side (left & right) to mixmatch in front of the eyes, which is very similar to `diff` algorithms.
+							- Except this case, most of the time, there are multiple intents observing the object _concurrently_, extracting **_multiple levels of abstraction_** (at different wave lengths, different scales, orders of derivatives), not limited to a flat `diff`.
+				- View by concurrent intents: Fourier transform, wave interference, SCIFER chromatics
+					- Mixmatch = mix by addition & match by interference = circle dynamic
+				- When the active intents are too many, i clear memory by flushing them down to storage, and reset the bodymind.
 			-
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c

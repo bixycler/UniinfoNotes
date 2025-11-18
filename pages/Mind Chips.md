@@ -1,2 +1,3 @@
-- sửa dấu gạch nối "--" trong bài [giấc mơ thú vị](https://creatzynotes.blogspot.com/2023/10/mot-giac-mo-thu-vi-y-nghia-sau-sac.html), và nháy kép trong bài [tương đối](https://creatzynotes.blogspot.com/2024/05/tinh-tuong-oi-tri-tue-ve-tinh-binh-ang.html)
+- ---
+- TODO sửa dấu gạch nối "--" trong bài [giấc mơ thú vị](https://creatzynotes.blogspot.com/2023/10/mot-giac-mo-thu-vi-y-nghia-sau-sac.html), và nháy kép trong bài [tương đối](https://creatzynotes.blogspot.com/2024/05/tinh-tuong-oi-tri-tue-ve-tinh-binh-ang.html)
 	- extract the smart quote function in markdown rendering app to apply!
