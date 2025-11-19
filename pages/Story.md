@@ -5423,6 +5423,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 18th,...
 			  collapsed:: true
 				- CIE chromatics
+				  id:: 691c18e8-ae41-4073-8b18-c8a5fa30e1ec
 					- Linear addition of colors, i.e. [Grassmann's laws](https://en.wikipedia.org/wiki/Grassmann%27s_laws_(color_science)), is due to the linear addtion of cone cells in human eyes.
 						- This linearity corresponds to the vector addition counterpart.
 						- This linearity is available in trichromatic color spaces like [LMS](https://en.wikipedia.org/wiki/LMS_color_space) (directly from cone cells), [XYZ](https://en.wikipedia.org/wiki/CIE_1931_color_space) (CIE 1931 standard), [RGB](https://en.wikipedia.org/wiki/RGB_color_spaces), and the chromatic [xyY](https://en.wikipedia.org/wiki/CIE_1931_color_space#CIE_xyY_color_space), but *not* in their non-linear transformed spaces like:
@@ -5452,6 +5453,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- There are many deeper super^{n}-intents holding the super-inent, creating the root system.
 					- The tighter and deeper the formative root system, the stronger the contraction it exerts on the operative shoot system.
 				- Being such a (self) problematic person is both cursed by the troubles generated all the time, and blessed by the insight about internal working when observing the struggling.
+				- I've just done a quick reset at the riverside.
+				  :LOGBOOK:
+				  CLOCK: [2025-11-19 Wed 15:42:58]
+				  :END:
+					- I saw the urge to proceed with the resolution, just found in the morning, about the [CIE chromatics](((691c18e8-ae41-4073-8b18-c8a5fa30e1ec))).
+					  :LOGBOOK:
+					  CLOCK: [2025-11-19 Wed 15:42:58]
+					  :END:
+						- The urge to continue the chat with Grok to make sure what it meant about my
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69085f61-6627-4c0a-a984-c2b5b411a292))
