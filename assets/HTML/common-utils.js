@@ -148,13 +148,13 @@ async function fetchFile(url, req, msg='Fetch'){
  1. foo " spaced " bar
  2. foo"inword"baz
  3. `code`'s possessive
- // handled by external logics, e.g. function normalize(md)
+ // handled by function replaceQuotes(ln)
  4. `foo "inline codes" bar`
  5. ```foo "code blocks" bar```
  6. <tag id="HTML">
 */
   const curlyQuote = { '"<':'“', '>"':'”',   "'<":"‘", ">'":"’" };
-function replaceQuotes(ln){
+function replaceQuotesSimple(ln){
   let nln = '', li = 0, stack = [], L = ln.length-1, q;
   for(let i in ln){ i = Number(i);
     if(!(ln[i] in {"'":0, '"':1})){ continue; }
@@ -182,19 +182,23 @@ function replaceQuotes(ln){
 /** Process quotes outside of inline codes & HTML tags
  */
 function replaceQuotes(ln){
-  ln = nln; nln = ''; li = 0;
+  const patCI = /`([^`]+)`/; // inline codes
+  const patHtml = /<[^>]+>/; // HTML tag
+  const patCIHtmlAll = new RegExp(patCI.source+'|'+patHtml.source, 'g');
+
+  nln = ''; li = 0;
   m = ln.matchAll(patCIHtmlAll);
   m = m ? Array.from(m) : [];
   m.push({index:ln.length, 0:''}); // add a "line-end match" for processing the trailing text
   for(let mi of m){ let l = ln.slice(li,mi.index);
-    l = replaceQuotes(l);
+    l = replaceQuotesSimple(l);
     nln += l + mi[0];
     li = mi.index + mi[0].length;
-    if(mi[0].length > 0){ // retain the last markup char of inline codes & HTML tags for replaceQuotes() to recognize them
+    if(mi[0].length > 0){ // retain the last markup char of inline codes & HTML tags for replaceQuotesSimple() to recognize them
       li--; nln = nln.slice(0,-1);
     }
   }
-
+  return nln;
 }
 
 /**
