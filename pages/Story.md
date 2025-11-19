@@ -5441,6 +5441,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Alvy Ray Smith, 1978, [Color Gamut Transform Pairs](https://alvyray.com/Papers/CG/color78.pdf)
 								- In this paper, Smith introduced a “simple linear space” IQY (from 1975, for TV signal), but mainly discussed 2 the nonlinear spaces HSL, HSV. This HSV used trig functions which is different from the modern HSV with no trig.
 					- Reciprocal relation ($c/i = e$) between luminance and desaturation is shown with [MacAdam ellipse](https://en.wikipedia.org/wiki/MacAdam_ellipse).
+			- 19th,..
+			  collapsed:: true
+				- These days, i see clearly how the mental gap (question, problem, unknown, ...) makes the bodymind contract to focus on it, to find solution)
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69085f61-6627-4c0a-a984-c2b5b411a292))
