@@ -5430,7 +5430,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- perceptual uniform [CIELUV](https://en.wikipedia.org/wiki/CIELUV) & [CIELAB](https://en.wikipedia.org/wiki/CIELAB_color_space),
 							- [gamma-corrected](https://en.wikipedia.org/wiki/Gamma_correction) (for display) [sRGB](https://en.wikipedia.org/wiki/SRGB), [Adobe RGB](https://en.wikipedia.org/wiki/Adobe_RGB_color_space), ...
 					- CIE chromatics uses the **linear IHS** space from 1980s.
-						- Orthonormal rotation of the RGB cube (orthonormalized [Ohta space](((691c688b-56b4-4a45-b8a4-8e0bbacb28f8)))):
+						- Orthonormal rotation of the RGB cube (orthonormalized [Ohta color space](((691c688b-56b4-4a45-b8a4-8e0bbacb28f8)))):
 							- $I = (R+G+B)/√3$
 							- $C_1 = (R–G)/√2$
 							- $C_2 = (R+G–2B)/√6$
