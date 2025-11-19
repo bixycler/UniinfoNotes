@@ -5461,7 +5461,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  :LOGBOOK:
 					  CLOCK: [2025-11-19 Wed 15:42:58]
 					  :END:
-						- The urge to continue the chat with Grok to make sure what it meant about my
+						- The urge to continue the chat with Grok to make sure what it meant in the response to my revision of the chromatic vector to $\sin(θ/2)$ yesterday.
+						- The urge to update UniinfoNotes, etc.
+					- With painful experiences, i saw that all these things would lead to serious entanglement and usualy engulfment.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69085f61-6627-4c0a-a984-c2b5b411a292))
