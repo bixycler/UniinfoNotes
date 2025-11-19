@@ -5448,7 +5448,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- The super-intent – closed and formed long ago – pulls back two gapping ends to heal it, creating the first operative intent enclosing the gap.
 					- Then the 1st creates the 2nd, 2rd → 3rd,... → many gapped intents, lining up the operative intent sequence.
 					- ⇒ Intent types: formative = closed <> operative = gapped
-					- The tighter
+					- There are many deeper super^n intents holding the super-inent, creating the root system.
+					- The tighter and deeper the formative root system, the stronger the contraction it exerts on the operative shoot system.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69085f61-6627-4c0a-a984-c2b5b411a292))
