@@ -5445,7 +5445,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- These days, i see clearly how the gap (question, problem, unknown, sick, pain, ...) makes the bodymind contract, to focus on it, to find solution, to work for it, ... and how the click of answer/solution releases such contraction, relaxes the bodymind.
 					- The contraction is caused by the formative super-intent of the gap, which is still whole.
-					- The super-intent – whole and formed long ago – pulls back two gapping ends to heal it, creating the first operative intent at th
+					- The super-intent – closed and formed long ago – pulls back two gapping ends to heal it, creating the first operative intent enclosing the gap.
+					- Then the 1st creates the 2nd, 2rd → 3rd,... → many gapped intents, lining up the operative intent sequence.
+					- ⇒ Intent types: formative = closed <> operative = gapped
+					- The tighter
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69085f61-6627-4c0a-a984-c2b5b411a292))
