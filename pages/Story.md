@@ -5467,7 +5467,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- So, a big laugh “haha, why the urge?!”
 						- The urge feels like grasping the light at the end of the tunnel, grasping the first breath after a long dive, but it's so illusory!
 						- First, it's not the end anyway. Then, it's just [the start](((684f9517-33c3-4a20-9fd1-936d9cc98fee))), so let's start it stably.
-						-
+					- The urge causes urgent feeling which just reflects lots of urgencies in the past experiences.
+					- Recognizing such an urgency is just an image of the past, not the present, i let it go, reset, returned to the empty center, and took a nap.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69085f61-6627-4c0a-a984-c2b5b411a292))
