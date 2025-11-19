@@ -5450,7 +5450,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- ⇒ Intent types: formative = closed <> operative = gapped
 					- There are many deeper super^{n}-intents holding the super-inent, creating the root system.
 					- The tighter and deeper the formative root system, the stronger the contraction it exerts on the operative shoot system.
-				- Being such a (self) problematic person,
+				- Being such a (self) problematic person is both cursed by the troubles generated all the time, and blessed by the sight about internal working when observing the struggling.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69085f61-6627-4c0a-a984-c2b5b411a292))
