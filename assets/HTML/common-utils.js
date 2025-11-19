@@ -138,6 +138,16 @@ async function fetchFile(url, req, msg='Fetch'){
   return blob;
 }
 
+/** Copy `text` to clipboard */
+async function copyTextToClipboard(text) {
+  try {
+    await navigator.clipboard.writeText(text);
+    console.debug('Text copied to clipboard:', text);
+  } catch (err) {
+    console.error('Failed to copy text: ', err);
+  }
+}
+
 /** A.K.A. “smart quotes!”
  Replace:
  1. foo "some words" bar
@@ -179,8 +189,7 @@ function replaceQuotesSimple(ln){
   return nln;
 }
 
-/** Process quotes outside of inline codes & HTML tags
- */
+/** Process quotes outside of inline codes & HTML tags */
 function replaceQuotes(ln){
   const patCI = /`([^`]+)`/; // inline codes
   const patHtml = /<[^>]+>/; // HTML tag
@@ -241,3 +250,4 @@ function balancedBracketsRegexPattern(open='[', close=']', excludes='', depth=1,
   pattern = new RegExp(openBrackets + innermostPair + closeBrackets);
   return pattern;
 }
+

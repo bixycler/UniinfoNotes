@@ -17,7 +17,7 @@
     <li>Replace Straight Quotes with Curly Quotes</li>
   </ul>
 
-  <script src="common-utils.js"></script>
+  <script source="common-utils.js"></script>
 
   <label class="label" for="source">Source text</label>
   <textarea id="source" placeholder="Paste or type text with straight quotes here"></textarea>
@@ -25,6 +25,7 @@
   <div class="controls">
     <button id="replaceBtn" type="button">Replace Quotes</button>
     <button id="clearBtn" type="button">Clear</button>
+    <button id="copyBtn" type="button">Copy Result</button>
     <label style="margin-left:12px"><input id="live" type="checkbox"> Live update</label>
   </div>
 
@@ -32,20 +33,15 @@
   <textarea id="result" readonly placeholder="Result will appear here"></textarea>
 
   <script>
-    const src = document.getElementById('source');
-    const res = document.getElementById('result');
-    const btn = document.getElementById('replaceBtn');
-    const clearBtn = document.getElementById('clearBtn');
-    const live = document.getElementById('live');
-
     function applyReplace() {
       // Use replaceQuotes(ln) in common-utils.js to replace straight quotes with curly quotes
-      res.value = replaceQuotes(src.value);
+      result.value = replaceQuotes(source.value);
     }
 
-    btn.addEventListener('click', applyReplace);
-    clearBtn.addEventListener('click', () => { src.value = ''; res.value = ''; });
-    src.addEventListener('input', () => { if (live.checked) applyReplace(); });
+    source.addEventListener('input', () => { if (live.checked) applyReplace(); });
+    replaceBtn.addEventListener('click', applyReplace);
+    clearBtn.addEventListener('click', () => { source.value = ''; result.value = ''; });
+    copyBtn.addEventListener('click', () => { copyTextToClipboard(result.value); });
   </script>
 </body>
 </html></div>
