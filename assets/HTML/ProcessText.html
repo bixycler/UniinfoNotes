@@ -14,15 +14,15 @@
     <li>Replace straight quotes with curly quotes</li>
   </ul>
 
-  <script source="common-utils.js"></script>
+  <script src="common-utils.js"></script>
 
   <label class="label" for="source">Source text</label>
   <textarea id="source" placeholder="Paste or type text to be processed here"></textarea>
 
   <div class="controls">
     <button id="replaceBtn" type="button">Replace Quotes</button>
-    <button id="clearBtn" type="button">Clear</button>
     <button id="copyBtn" type="button">Copy Result</button>
+    <button id="clearBtn" type="button">Clear</button>
     <label style="margin-left:12px"><input id="live" type="checkbox"> Live update</label>
   </div>
 
@@ -37,8 +37,8 @@
 
     source.addEventListener('input', () => { if (live.checked) applyReplace(); });
     replaceBtn.addEventListener('click', applyReplace);
-    clearBtn.addEventListener('click', () => { source.value = ''; result.value = ''; });
     copyBtn.addEventListener('click', () => { copyTextToClipboard(result.value); });
+    clearBtn.addEventListener('click', () => { source.value = ''; result.value = ''; });
   </script>
 </body>
 </html></div>
