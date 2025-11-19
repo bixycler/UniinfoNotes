@@ -179,6 +179,24 @@ function replaceQuotes(ln){
   return nln;
 }
 
+/** Process quotes outside of inline codes & HTML tags
+ */
+function replaceQuotes(ln){
+  ln = nln; nln = ''; li = 0;
+  m = ln.matchAll(patCIHtmlAll);
+  m = m ? Array.from(m) : [];
+  m.push({index:ln.length, 0:''}); // add a "line-end match" for processing the trailing text
+  for(let mi of m){ let l = ln.slice(li,mi.index);
+    l = replaceQuotes(l);
+    nln += l + mi[0];
+    li = mi.index + mi[0].length;
+    if(mi[0].length > 0){ // retain the last markup char of inline codes & HTML tags for replaceQuotes() to recognize them
+      li--; nln = nln.slice(0,-1);
+    }
+  }
+
+}
+
 /**
  Examples:
   [A [very [very [very]...] messy] link](http://to(some(weird(...))).href "with link tip")
