@@ -163,8 +163,8 @@ async function copyTextToClipboard(text) {
  5. ```foo "code blocks" bar```
  6. <tag id="HTML">
 */
-  const curlyQuote = { '"<':'“', '>"':'”',   "'<":"‘", ">'":"’" };
 function replaceQuotesSimple(ln){
+  const curlyQuote = { '"<':'“', '>"':'”',   "'<":"‘", ">'":"’" };
   let nln = '', li = 0, stack = [], L = ln.length-1, q;
   for(let i in ln){ i = Number(i);
     if(!(ln[i] in {"'":0, '"':1})){ continue; }
