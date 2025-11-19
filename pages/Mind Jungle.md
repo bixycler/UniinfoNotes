@@ -8146,6 +8146,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					    });
 					  }
 					  ```
+			- DONE Smart quote function `replaceQuotes`() in [common-utils.js](../assets/HTML/common-utils.js).
+			  :LOGBOOK:
+			  CLOCK: [2025-11-19 Wed 18:56:03]
+			  CLOCK: [2025-11-19 Wed 18:56:05]--[2025-11-19 Wed 18:56:20] =>  00:00:15
+			  :END:
 		- Settings: via [[logseq/config.edn]] and menu `Settings`
 		  id:: 6735b187-e461-441e-976a-b81bea23104e
 		  collapsed:: true
