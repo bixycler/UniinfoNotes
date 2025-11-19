@@ -5426,6 +5426,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Linear addition of colors, i.e. [Grassmann's laws](https://en.wikipedia.org/wiki/Grassmann%27s_laws_(color_science)), is due to the linear addtion of cone cells in human eyes.
 						- This linearity corresponds to the vector addition counterpart.
 						- This linearity is available in trichromatic color spaces like [LMS](https://en.wikipedia.org/wiki/LMS_color_space) (directly from cone cells), [XYZ](https://en.wikipedia.org/wiki/CIE_1931_color_space) (CIE 1931 standard), [RGB](https://en.wikipedia.org/wiki/RGB_color_spaces), and the chromatic [xyY](https://en.wikipedia.org/wiki/CIE_1931_color_space#CIE_xyY_color_space), but *not* in their non-linear transformed spaces like:
+						  collapsed:: true
 							- saturation-based [HSL & HSV & HSI](https://en.wikipedia.org/wiki/HSL_and_HSV),
 							- perceptual uniform [CIELUV](https://en.wikipedia.org/wiki/CIELUV) & [CIELAB](https://en.wikipedia.org/wiki/CIELAB_color_space),
 							- [gamma-corrected](https://en.wikipedia.org/wiki/Gamma_correction) (for display) [sRGB](https://en.wikipedia.org/wiki/SRGB), [Adobe RGB](https://en.wikipedia.org/wiki/Adobe_RGB_color_space), ...
@@ -5435,12 +5436,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- $C_1 = (R–G)/√2$
 							- $C_2 = (R+G–2B)/√6$
 						- Refs
+						  collapsed:: true
 							- Yu-Ichi Ohta, et al., 1980, [Color Information for Region Segmentation](https://www.ri.cmu.edu/pub_files/pub4/ohta_y_1980_1/ohta_y_1980_1.pdf)
 							  id:: 691c688b-56b4-4a45-b8a4-8e0bbacb28f8
 								- The paper introduced new linear spaces I_{1}I_{2}I_{3}, I_{1}I_{2}'I_{3}', and compare with other linear and nonlinear spaces about their effectiveness in image segmentation.
 							- Alvy Ray Smith, 1978, [Color Gamut Transform Pairs](https://alvyray.com/Papers/CG/color78.pdf)
 								- In this paper, Smith introduced a “simple linear space” IQY (from 1975, for TV signal), but mainly discussed 2 the nonlinear spaces HSL, HSV. This HSV used trig functions which is different from the modern HSV with no trig.
-					- Reciprocal relation ($c/i = e$) between luminance and desaturation is shown with [MacAdam ellipse](https://en.wikipedia.org/wiki/MacAdam_ellipse).
 			- 19th,..
 			  collapsed:: true
 				- These days, i see clearly how the gap (question, problem, unknown, sick, pain, ...) makes the bodymind contract, to focus on it, to find solution, to work for it, ... and how the click of answer/solution releases such contraction, relaxes the bodymind.
