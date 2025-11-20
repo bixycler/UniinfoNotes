@@ -5469,6 +5469,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- First, it's not the end anyway. Then, it's just [the start](((684f9517-33c3-4a20-9fd1-936d9cc98fee))), so let's start it stably.
 					- The urge causes urgent feeling which just reflects lots of urgencies in the past experiences.
 					- Recognizing such an urgency is just an image of the past, not the present, i let it go, reset, returned to the empty center, and took a nap.
+			- 20th,...
+			  collapsed:: true
+				- Last night, i was caught up in discussion with Grok about the [CIE chromatics](((691c18e8-ae41-4073-8b18-c8a5fa30e1ec))).
+					- I showed my pure integration result of the phase vector $p = c⋅\sinc (e/2)$
+					- Grok used geometric formular of circular arc [centroid](https://en.wikipedia.org/wiki/List_of_centroids), resulting $p = i⋅\sinc (e/2)$
+					- Stepped into the bathroom,
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69085f61-6627-4c0a-a984-c2b5b411a292))
