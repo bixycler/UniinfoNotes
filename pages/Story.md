@@ -5474,7 +5474,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Last night, i was caught up in discussion with Grok about the [CIE chromatics](((691c18e8-ae41-4073-8b18-c8a5fa30e1ec))).
 					- I showed my pure integration result of the phase vector $p = c⋅\sinc (e/2)$
 					- Grok used geometric formular of circular arc [centroid](https://en.wikipedia.org/wiki/List_of_centroids), resulting $p = i⋅\sinc (e/2)$
-					- Stepped into the bathroom,
+					- Stepped into the bathroom, stuck with such discrepancy until the final resolution that the formula by Grok is not physical but geometrical.
+						- Multiplying the scalar (mass), we recover the physical formular: $p = e⋅i⋅\sinc (e/2) = c⋅\sinc (e/2)$
+					- The geometric formular is another beast, the intent vector $\vec{i} = i⋅\sinc (e/2)$
+						- So that we have the parallel between scalar and vector integration.
+						- $dc = i⋅de \; ⇒ \; c = \int{i⋅de} = i⋅e$
+						- $d\vec{p} = \vec{i}⋅de \; ⇒ \; \vec{p} = \int{\vec{i}⋅de} = (c⋅\sinc (e/2), φ)$
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69085f61-6627-4c0a-a984-c2b5b411a292))
