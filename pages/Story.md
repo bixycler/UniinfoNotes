@@ -5480,6 +5480,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- So that we have the parallel between scalar and vector integration.
 						- $dc = i⋅de \; ⇒ \; c = \int{i⋅de} = i⋅e$
 						- $d\vec{p} = \vec{i}⋅de \; ⇒ \; \vec{p} = \int{\vec{i}⋅de} = (c⋅\sinc (e/2), φ)$
+				- Today, i wrote fabric task `build_deploy_notify` for the company, and discussed with ChatGPT about intensionalization → qualification → quantization.
+					- The 1st intensionalization of objects → 1st quantization with wavefunction
+					- The 2nd intensionalization of dimensions → 2nd quantization of fields
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69085f61-6627-4c0a-a984-c2b5b411a292))
