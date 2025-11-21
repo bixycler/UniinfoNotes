@@ -5472,19 +5472,19 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 20th,...
 			  collapsed:: true
 				- Last night, i was caught up in discussion with Grok about the [CIE chromatics](((691c18e8-ae41-4073-8b18-c8a5fa30e1ec))).
-					- I showed my pure integration result of the phase vector $p = c⋅\sinc (e/2)$
+					- I showed my pure integration result of the phase vector $|\vec{c}| = c⋅\sinc (e/2)$
 					- Grok used geometric formular of circular arc [centroid](https://en.wikipedia.org/wiki/List_of_centroids), resulting $i⋅\sinc (e/2)$
 					- Stepped into the bathroom, stuck with such discrepancy until the final resolution that the formula by Grok is not physical but geometrical.
-						- Multiplying the scalar factor of extent mass, we recover the physical formular: $p = e⋅i⋅\sinc (e/2) = c⋅\sinc (e/2)$
+						- Multiplying the scalar factor of extent mass, we recover the physical formular: $|\vec{c}| = e⋅i⋅\sinc (e/2) = c⋅\sinc (e/2)$
 					- The geometric formular is another beast, the intent vector $\vec{i} = (i⋅\sinc (e/2), φ)$ for uninform distribution of chromatic mass on circular arc whose midpoint is at phase $φ$.
 						- So that we have the parallel between scalar and vector integration.
 						- $dc = i⋅de \; ⇒ \; c = \int{i⋅de} = i⋅e$
-						- $d\vec{p} = \vec{i}⋅de \; ⇒ \; \vec{p} = \int{\vec{i}⋅de} = (c⋅\sinc (e/2), φ)$
+						- $d\vec{c} = \vec{i}⋅de \; ⇒ \; |\vec{c}| = |\int{\vec{i}⋅de}| = c⋅\sinc (e/2)$
 						- Pure geometric centroid: $\vec{g} = (\sinc (e/2), φ)$
 							- The arc is on the unit circle with angular extent $e$ and mass density $i$.
 						- Scaled centroid by intent mass = intent vector: $\vec{i} = (i⋅\sinc (e/2), φ)$
 							- The arc is on the intent circle with angular extent $e$ and unit mass density.
-						- Physical center of mass = phasor: $\vec{p} = (c⋅\sinc (e/2), φ)$
+						- Physical center of mass = phasor: $\vec{c} = (c⋅\sinc (e/2), φ)$
 				- Today, i wrote fabric task `build_deploy_notify` for the company, and discussed with ChatGPT about intensionalization → qualification → quantization.
 					- The 1st intensionalization of objects → 1st quantization with wavefunction
 					- The 2nd intensionalization of dimensions → 2nd quantization of fields
