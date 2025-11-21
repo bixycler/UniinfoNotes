@@ -5476,7 +5476,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Grok used geometric formular of circular arc [centroid](https://en.wikipedia.org/wiki/List_of_centroids), resulting $i⋅\sinc (e/2)$
 					- Stepped into the bathroom, stuck with such discrepancy until the final resolution that the formula by Grok is not physical but geometrical.
 						- Multiplying the scalar factor of extent mass, we recover the physical formular: $|\vec{c}| = e⋅i⋅\sinc (e/2) = c⋅\sinc (e/2)$
-						- This is because the CIE chromatics is projective from the origin, not flat geometry
+						- This is because the CIE chromatics is projective from the origin, i.e. [homogeneous](https://en.wikipedia.org/wiki/Homogeneous_coordinates), not a flat geometry.
+						- In flat geometry, the “extent mass” is the measures like angle, length, area, volume, etc.
 					- The geometric formular by Grok is another beast, the intent vector $\vec{i} = (i⋅\sinc (e/2), \bar{e})$ for uninform distribution of chromatic mass on circular arc whose midpoint is at phase $φ = \bar{e}$.
 						- So that we have the parallel between scalar and vector integration.
 						- $dc = i⋅de \; ⇒ \; c = \int{i⋅de} = i⋅e$
