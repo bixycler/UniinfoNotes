@@ -3,7 +3,16 @@
 githost=mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com
 hosts=(mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com
     mgmt-repo1-clb-243604401.ap-northeast-1.elb.amazonaws.com
-    mgmt-tools-alb-1633637944.ap-northeast-1.elb.amazonaws.com)
+    mgmt-tools-alb-1633637944.ap-northeast-1.elb.amazonaws.com
+    pre1-mastest.c1wbmxxj2vu5.ap-northeast-1.rds.amazonaws.com
+    pre1-sgmvtest-20240315.c1wbmxxj2vu5.ap-northeast-1.rds.amazonaws.com
+    pre1-myskyg.c1wbmxxj2vu5.ap-northeast-1.rds.amazonaws.com
+    pre1-mysgca.c1wbmxxj2vu5.ap-northeast-1.rds.amazonaws.com
+    pre1-sigdb-20230614.c1wbmxxj2vu5.ap-northeast-1.rds.amazonaws.com
+    pre1-somali.c1wbmxxj2vu5.ap-northeast-1.rds.amazonaws.com
+    pre1-domtourdb.c1wbmxxj2vu5.ap-northeast-1.rds.amazonaws.com
+    pre1-sessiondb-cluster.cluster-c1wbmxxj2vu5.ap-northeast-1.rds.amazonaws.com
+)
 logf=log-cname-ips.log
 cd ${HOME}/tmp/
 echo "Monitoring hosts:"
