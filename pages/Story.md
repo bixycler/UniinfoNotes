@@ -5471,22 +5471,23 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Recognizing such an urgency is just an image of the past, not the present, i let it go, reset, returned to the empty center, and took a nap.
 			- 20th,...
 			  collapsed:: true
-				- Last night, i was caught up in discussion with Grok about the [CIE chromatics](((691c18e8-ae41-4073-8b18-c8a5fa30e1ec))).
+				- Last night, i was caught up in discussion with Grok about the [CIE chromatics](((691c18e8-ae41-4073-8b18-c8a5fa30e1ec))), for the uninform distribution of chromatic mass $c$ on circular arc $e$, whose midpoint is at phase $φ = \bar{e}$, and distribution density is the intent $i$.
 					- I showed my pure integration result of the phase vector $|\vec{c}| = c⋅\sinc (e/2)$
 					- Grok used geometric formular of circular arc [centroid](https://en.wikipedia.org/wiki/List_of_centroids), resulting $i⋅\sinc (e/2)$
 					- Stepped into the bathroom, stuck with such discrepancy until the final resolution that the formula by Grok is not physical but geometrical.
 						- Multiplying the scalar factor of extent mass, we recover the physical formular: $|\vec{c}| = e⋅i⋅\sinc (e/2) = c⋅\sinc (e/2)$
 						- This is because the CIE chromatics is projective from the origin, i.e. [homogeneous](https://en.wikipedia.org/wiki/Homogeneous_coordinates), not a flat geometry.
 						- In flat geometry, the “extent mass” is the measures like angle, length, area, volume, etc.
-					- The geometric formular by Grok is another beast, the intent vector $\vec{i} = (i⋅\sinc (e/2), \bar{e})$ for uninform distribution of chromatic mass on circular arc whose midpoint is at phase $φ = \bar{e}$.
+					- The geometric formular by Grok is another beast, the intent vector $\vec{i} = (i⋅\sinc (e/2), \bar{e})$.
 						- So that we have the parallel between scalar and vector integration.
 						- $dc = i⋅de \; ⇒ \; c = \int{i⋅de} = i⋅e$
 						- $d\vec{c} = \vec{i}⋅de \; ⇒ \; \vec{c} = \int{\vec{i}⋅de} = (c⋅\sinc (e/2), \bar{e})$
-						- Pure geometric centroid: $\vec{e} = (\sinc (e/2), \bar{e})$
+						- Pure geometric centroid: $\vec{\bar e} = (\sinc (e/2), \bar{e})$
 							- The arc is on the unit circle with angular extent $e$ and mass density $i$.
+							- Projective vector is scaled by extent mass: $\vec{e} = (e⋅\sinc (e/2), \bar{e})$.
 						- Scaled centroid by intent mass = intent vector: $\vec{i} = (i⋅\sinc (e/2), \bar{e})$
 							- Scaled centroid: The arc is on the intent circle with angular extent $e$ and unit mass density.
-							- Intent vector is
+							- Intent vector is projective
 						- Physical center of mass = phasor: $\vec{c} = (c⋅\sinc (e/2), \bar{e})$
 				- Today, i wrote fabric task `build_deploy_notify` for the company, and discussed with ChatGPT about intensionalization → qualification → quantization.
 					- The 1st intensionalization of objects → 1st quantization with wavefunction
