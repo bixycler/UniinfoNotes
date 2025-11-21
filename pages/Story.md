@@ -5482,13 +5482,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- So that we have the parallel between scalar and vector integration.
 							- $dc = i⋅de \; ⇒ \; c = \int{i⋅de} = i⋅e$
 							- $d\vec{c} = \vec{i}⋅de \; ⇒ \; \vec{c} = \int{\vec{i}⋅de} = (c⋅\sinc (e/2), \bar{e})$
-						- Pure geometric centroid: $\vec{\bar e} = (\sinc (e/2), \bar{e})$
+						- Pure geometric centroid: $\vec{φ} = (\sinc (e/2), \bar{e})$
 							- The arc is on the unit circle with angular extent $e$ and mass density $i$.
-							- Projective vector is scaled by extent mass: $\vec{e} = (e⋅\sinc (e/2), \bar{e})$.
-						- Scaled centroid by intent mass = intent vector: $\vec{i} = (i⋅\sinc (e/2), \bar{e})$
+							- Projective vector of extent is scaled by extent mass: $\vec{e} = e⋅\vec{φ}$.
+						- Scaled centroid by intent mass = intent vector: $\vec{i} = i⋅\vec{φ}$
 							- Scaled centroid: The arc is on the intent circle with angular extent $e$ and unit mass density.
-							- Intent vector is projective
-						- Physical center of mass = phasor: $\vec{c} = (c⋅\sinc (e/2), \bar{e})$
+							- Intent vector is projective vector of intent, scaled by intent mass from unit circle.
+							- The whole phase vector is projective vector of the whole mass, scaled by both intent and extent from unit circle.
+						- Physical center of mass = phasor: $\vec{c} = c⋅\vec{φ}$
 				- Today, i wrote fabric task `build_deploy_notify` for the company, and discussed with ChatGPT about intensionalization → qualification → quantization.
 					- The 1st intensionalization of objects → 1st quantization with wavefunction
 					- The 2nd intensionalization of dimensions → 2nd quantization of fields
