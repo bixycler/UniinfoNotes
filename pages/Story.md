@@ -5471,7 +5471,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Recognizing such an urgency is just an image of the past, not the present, i let it go, reset, returned to the empty center, and took a nap.
 			- 20th,...
 			  collapsed:: true
-				- Last night, i was caught up in discussion with Grok about the [CIE chromatics](((691c18e8-ae41-4073-8b18-c8a5fa30e1ec))), for the uninform distribution of chromatic mass $c$ on circular arc $e$, whose midpoint is at phase $φ = \bar{e}$, and distribution density is the intent $i$.
+				- Last night, i was caught up in discussion with Grok about the [CIE chromatics](((691c18e8-ae41-4073-8b18-c8a5fa30e1ec))), for the uninform distribution of chromatic mass $c$ on circular arc of angle $e$, whose midpoint is at phase $φ = \bar{e}$, and distribution density is $i$.
 					- I showed my pure integration result of the phase vector $|\vec{c}| = c⋅\sinc (e/2)$
 					- Grok used geometric formular of circular arc [centroid](https://en.wikipedia.org/wiki/List_of_centroids), resulting $i⋅\sinc (e/2)$
 					- Stepped into the bathroom, stuck with such discrepancy until the final resolution that the formula by Grok is not physical but geometrical.
@@ -5480,8 +5480,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- In flat geometry, the “extent mass” is the measures like angle, length, area, volume, etc.
 					- The geometric formular by Grok is another beast, the intent vector $\vec{i} = (i⋅\sinc (e/2), \bar{e})$.
 						- So that we have the parallel between scalar and vector integration.
-						- $dc = i⋅de \; ⇒ \; c = \int{i⋅de} = i⋅e$
-						- $d\vec{c} = \vec{i}⋅de \; ⇒ \; \vec{c} = \int{\vec{i}⋅de} = (c⋅\sinc (e/2), \bar{e})$
+							- $dc = i⋅de \; ⇒ \; c = \int{i⋅de} = i⋅e$
+							- $d\vec{c} = \vec{i}⋅de \; ⇒ \; \vec{c} = \int{\vec{i}⋅de} = (c⋅\sinc (e/2), \bar{e})$
 						- Pure geometric centroid: $\vec{\bar e} = (\sinc (e/2), \bar{e})$
 							- The arc is on the unit circle with angular extent $e$ and mass density $i$.
 							- Projective vector is scaled by extent mass: $\vec{e} = (e⋅\sinc (e/2), \bar{e})$.
