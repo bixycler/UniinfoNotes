@@ -5476,10 +5476,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Grok used geometric formular of circular arc [centroid](https://en.wikipedia.org/wiki/List_of_centroids), resulting $i⋅\sinc (e/2)$
 					- Stepped into the bathroom, stuck with such discrepancy until the final resolution that the formula by Grok is not physical but geometrical.
 						- Multiplying the scalar factor of extent mass, we recover the physical formular: $|\vec{c}| = e⋅i⋅\sinc (e/2) = c⋅\sinc (e/2)$
-					- The geometric formular is another beast, the intent vector $\vec{i} = (i⋅\sinc (e/2), φ)$ for uninform distribution of chromatic mass on circular arc whose midpoint is at phase $φ$.
+					- The geometric formular by Grok is another beast, the intent vector $\vec{i} = (i⋅\sinc (e/2), φ)$ for uninform distribution of chromatic mass on circular arc whose midpoint is at phase $φ$.
 						- So that we have the parallel between scalar and vector integration.
 						- $dc = i⋅de \; ⇒ \; c = \int{i⋅de} = i⋅e$
-						- $d\vec{c} = \vec{i}⋅de \; ⇒ \; |\vec{c}| = |\int{\vec{i}⋅de}| = c⋅\sinc (e/2)$
+						- $d\vec{c} = \vec{i}⋅de \; ⇒ \; \vec{c} = \int{\vec{i}⋅de} = (c⋅\sinc (e/2), φ)$
 						- Pure geometric centroid: $\vec{g} = (\sinc (e/2), φ)$
 							- The arc is on the unit circle with angular extent $e$ and mass density $i$.
 						- Scaled centroid by intent mass = intent vector: $\vec{i} = (i⋅\sinc (e/2), φ)$
