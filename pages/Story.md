@@ -5483,7 +5483,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Pure geometric centroid: $\vec{g} = (\sinc (e/2), φ)$
 							- The arc is on the unit circle with angular extent $e$ and mass density $i$.
 						- Scaled centroid by intent mass = intent vector: $\vec{i} = (i⋅\sinc (e/2), φ)$
-							- The arc is on the intent circle with angular extent $e$ and mass density 1.
+							- The arc is on the intent circle with angular extent $e$ and unit mass density.
 						- Physical center of mass = phasor: $\vec{p} = (c⋅\sinc (e/2), φ)$
 				- Today, i wrote fabric task `build_deploy_notify` for the company, and discussed with ChatGPT about intensionalization → qualification → quantization.
 					- The 1st intensionalization of objects → 1st quantization with wavefunction
