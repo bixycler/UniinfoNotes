@@ -5481,7 +5481,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- The geometric formular by Grok is another beast, the intent vector $\vec{i} = (i⋅\sinc (e/2), \bar{e})$.
 						- So that we have the parallel between scalar and vector integration.
 							- $dc = i⋅de \; ⇒ \; c = \int{i⋅de} = i⋅e$
-							- $d\vec{c} = \vec{i}⋅de \; ⇒ \; \vec{c} = \int{\vec{i}⋅de} = (c⋅\sinc (e/2), \bar{e})$
+							- $d\vec{c} = \vec{i}⋅de \; ⇒ \; \vec{c} = \int{\vec{i}⋅de} = (c⋅\sinc (e/2), \bar{e}) = c⋅\vec{φ}$
 						- Pure geometric centroid: $\vec{φ} = (\sinc (e/2), \bar{e})$
 							- The arc is on the unit circle with angular extent $e$ and mass density $i$.
 							- Projective vector of extent is scaled by extent mass: $\vec{e} = e⋅\vec{φ}$.
