@@ -13,11 +13,11 @@
 				- [Critical point: Could One Physics Theory Unlock the Mysteries of the Brain?](https://youtu.be/hjGFp7lMi9A)
 				- [Percolation: a Mathematical Phase Transition](https://youtu.be/a-767WnbaCQ)
 	- ## Artificial General Inteligence <a class="logseq-meta" id="66c2fec4-d5ac-47e6-9109-a3623904dc34" data-collapsed="true" data-logbook="CLOCK: [2024-08-19 Mon 15:12:22]--[2024-08-19 Mon 15:24:15] =&gt;  00:11:53&#10;" ></a>
-	  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [AGI](#e12b7b64-ffdf-4283-8010-03abfc1c99ef)
+	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [AGI](#e12b7b64-ffdf-4283-8010-03abfc1c99ef)
 		- AGI <a class="logseq-meta" id="e12b7b64-ffdf-4283-8010-03abfc1c99ef" ></a>
 		  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">Artificial General Inteligence</span>](#66c2fec4-d5ac-47e6-9109-a3623904dc34)
 	- ## Artificial Inteligence <a class="logseq-meta" id="66c2fe59-2e41-4273-9171-b78f51a9b18e" data-collapsed="true" data-logbook="CLOCK: [2024-08-19 Mon 15:12:22]&#10;" ></a>
-	  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [AI](#66c2fe83-1dd7-4c95-9f33-92249c3e0e86)
+	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [AI](#66c2fe83-1dd7-4c95-9f33-92249c3e0e86)
 		- AI <a class="logseq-meta" id="66c2fe83-1dd7-4c95-9f33-92249c3e0e86" ></a>
 		  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">Artificial Inteligence</span>](#66c2fe59-2e41-4273-9171-b78f51a9b18e)
 		- Multimodal AI <a class="logseq-meta" id="66c2ff0a-9ad0-4058-b5aa-a7fff563a3aa" data-collapsed="true" ></a>
@@ -291,7 +291,7 @@
 				- Features: only text chat.
 				- Tülu is open sourced.
 	- ## Linux
-	  <br>[moved to](#680a04eb-125e-4e9e-b691-3b7be523359c) [66949495-3846-4f89-9ea5-c62b624d282c](#66949495-3846-4f89-9ea5-c62b624d282c)
+	  [moved to](#680a04eb-125e-4e9e-b691-3b7be523359c) [66949495-3846-4f89-9ea5-c62b624d282c](#66949495-3846-4f89-9ea5-c62b624d282c)
 	- ## ItelliJ <a class="logseq-meta" data-collapsed="true" ></a>
 		- Settings <a class="logseq-meta" data-collapsed="true" ></a>
 			- Spell checking <a class="logseq-meta" data-collapsed="true" ></a>
@@ -392,7 +392,7 @@
 		- ### unconsciousness <a class="logseq-meta" id="67f90ce8-d597-47a0-ad73-43b9e546c096" data-logbook="CLOCK: [2025-04-11 Fri 19:36:03]&#10;" ></a>
 			- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) ālāya-vijñāna
 	- ## self <a class="logseq-meta" id="667c015e-6223-4f8a-ae84-a93a49f4ff94" data-collapsed="true" ></a>
-	  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [bản thân](#66f27465-07bf-441d-95a7-33f10fc3e2e4), [mình](#66f273da-2bcc-449e-b0f6-83f384a57bfe)
+	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [bản thân](#66f27465-07bf-441d-95a7-33f10fc3e2e4), [mình](#66f273da-2bcc-449e-b0f6-83f384a57bfe)
 		- bản thân <a class="logseq-meta" id="66f27465-07bf-441d-95a7-33f10fc3e2e4" ></a>
 		  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">self</span>](#667c015e-6223-4f8a-ae84-a93a49f4ff94)
 		- mình <a class="logseq-meta" id="66f273da-2bcc-449e-b0f6-83f384a57bfe" ></a>
@@ -434,7 +434,7 @@
 					- Nuclear fusion eats the core that created the star.
 					- Eventually, the dense heart either collapses or blows apart, seeding new systems.
 		- ### self-circle <a class="logseq-meta" id="669a5387-2a97-4311-a295-aa0afd9c4d76" ></a>
-		  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [spatial self](#6810d7ab-c35d-491e-9e2d-95c3024c276e)
+		  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [spatial self](#6810d7ab-c35d-491e-9e2d-95c3024c276e)
 			- spatial self <a class="logseq-meta" id="6810d7ab-c35d-491e-9e2d-95c3024c276e" ></a>
 			  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h3">self-circle</span>](#669a5387-2a97-4311-a295-aa0afd9c4d76)
 			- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h3">self-circle</span>](#669a5387-2a97-4311-a295-aa0afd9c4d76) is the [totality](#66c87463-4f07-420a-b12e-f456154f7dc8) of everything that a [<span class="link-h2">subject</span>](#667cfa3e-9856-43f0-956b-ebb4ff31d8eb) sees as itself and belonging to itself. There are various self circles:
@@ -450,7 +450,7 @@
 						- by Belk in the 1988 paper [“Possessions and the extended self”](https://www.jstor.org/stable/2489522),
 				- Inside, we have many intensions of the body: [<span class="link-h2">mind</span>](#67f90bf0-ebcd-46fa-b99d-eda9bbbd3522) (including [self-concept](https://en.wikipedia.org/wiki/Self-concept), [self-image](https://en.wikipedia.org/wiki/Self-image), [narative self](https://en.wikipedia.org/wiki/Narrative_identity), etc.), [<span class="link-h3">consciousness</span>](#67f90c9f-2ee6-4265-9cb6-6a7c5091b775), [<span class="link-h3">subconsciousness</span>](#67f90ce4-e12a-4133-bdec-b73684152322), [<span class="link-h3">unconsciousness</span>](#67f90ce8-d597-47a0-ad73-43b9e546c096), [<span class="link-h3">self-essence</span>](#66c8772a-9b29-45b0-b169-2fa847333e02)
 		- ### self-structure <a class="logseq-meta" id="6810ceeb-6af6-442b-9910-baae2c315c46" data-logbook="CLOCK: [2025-04-29 Tue 20:06:56]&#10;CLOCK: [2025-04-29 Tue 20:06:57]&#10;" ></a>
-		  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [form of self](#68186996-419d-4370-bc26-60e56869f3d0)
+		  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [form of self](#68186996-419d-4370-bc26-60e56869f3d0)
 			- form of self <a class="logseq-meta" id="68186996-419d-4370-bc26-60e56869f3d0" ></a>
 			  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h3">self-structure</span>](#6810ceeb-6af6-442b-9910-baae2c315c46)
 			- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h3">self-structure</span>](#6810ceeb-6af6-442b-9910-baae2c315c46), i.e. the [<span class="link-h2">structure</span>](#6678d596-9526-405a-968c-e73860e524f3) of the [<span class="link-h2">self</span>](#667c015e-6223-4f8a-ae84-a93a49f4ff94), contains all [<span class="link-h3">self-circle</span>](#669a5387-2a97-4311-a295-aa0afd9c4d76)s as the spatial slice, called the [spatial self](#6810d7ab-c35d-491e-9e2d-95c3024c276e), as well ass the whole [effect circle](#667c0031-0a87-44c9-9e98-6d45893b095f) through that slice.
@@ -502,7 +502,7 @@
 			- sense of free will <a class="logseq-meta" id="67f91050-a86c-4176-87ca-91010a8fe3c0" ></a>
 				- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) The [sense of free will](#67f91050-a86c-4176-87ca-91010a8fe3c0) is the feeling that “I have [free will](https://en.wikipedia.org/wiki/Free_will)” which is the ability make conscious choices and decisions independently, without being determined by prior or external causes. Here, “free will” = “free” [[<span class="link-h2">independent</span>](#671b160c-0589-4f83-a778-a9fb4df6783a), [sense of separateness](#6810327c-f633-4537-84a1-ca36a8d49d65)] + “will” [intention, determination, [sense of agency](#67f91046-34ed-4bb4-a006-db2c33aeabf7)].
 		- ### self-essence <a class="logseq-meta" id="66c8772a-9b29-45b0-b169-2fa847333e02" data-collapsed="true" ></a>
-		  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [empty center](#69086748-b6e9-47c0-810b-4a92f882d6bc), [Ātman (आत्मा, आत्मन्)](#66f27ac0-b0b1-4dec-b256-5f4ab57e1972), svabhāva, 自性
+		  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [empty center](#69086748-b6e9-47c0-810b-4a92f882d6bc), [Ātman (आत्मा, आत्मन्)](#66f27ac0-b0b1-4dec-b256-5f4ab57e1972), svabhāva, 自性
 			- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h3">self-essence</span>](#66c8772a-9b29-45b0-b169-2fa847333e02) is the pure & [abstract](#66c8369a-ccb8-4f1f-b12b-bf7054cb79e4) [observer](#669a2697-56af-445c-9197-24aa498a5d5b) within the [<span class="link-h2">subject</span>](#667cfa3e-9856-43f0-956b-ebb4ff31d8eb) which stays in the [<span class="link-h4">center</span>](#66ab7477-c060-4d07-ab13-bc3d11246854) of the [<span class="link-h3">self-circle</span>](#669a5387-2a97-4311-a295-aa0afd9c4d76). Self-essence is an [<span class="link-h2">abstraction</span>](#66537674-6cf9-4459-8bea-7c1858c694a3) which cannot be seen directly and can only be felt indirectly via reflection, hence an [empty center](#69086748-b6e9-47c0-810b-4a92f882d6bc).
 			- empty center <a class="logseq-meta" id="69086748-b6e9-47c0-810b-4a92f882d6bc" ></a>
 			  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h3">self-essence</span>](#66c8772a-9b29-45b0-b169-2fa847333e02)
@@ -514,7 +514,7 @@
 				  <br>> while the concrete self has self-essence as its essence, the  self-essenee itself has no essence.
 				- [684f9515-8f95-4004-8aa8-04a10d1ebf11](#684f9515-8f95-4004-8aa8-04a10d1ebf11)
 	- ## subject <a class="logseq-meta" id="667cfa3e-9856-43f0-956b-ebb4ff31d8eb" data-collapsed="true" ></a>
-	  <br>[Dual:](#6699ea73-dc77-4227-a293-b501f2eb1759) [<span class="link-h2">object</span>](#667cfa42-ade7-4310-9a7b-6d14d01c16da)
+	  [Dual:](#6699ea73-dc77-4227-a293-b501f2eb1759) [<span class="link-h2">object</span>](#667cfa42-ade7-4310-9a7b-6d14d01c16da)
 	  <br>[Adjective:](#66c80da9-4cfb-4de7-b83d-8b70665207bf) [subjective](#66c88055-a994-4e59-a7dc-83f3331a6e1d)
 		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) A [<span class="link-h2">subject</span>](#667cfa3e-9856-43f0-956b-ebb4ff31d8eb) is a thing that can [see](#66c811a9-e8c7-42c5-bdc9-25fbd023f93a) and [do](#66c845fe-6e8e-412e-902e-34ae8d728f90), i.e. a [seer–doer](#5d7a0798-907d-46b7-8481-99d3be30de9e).
 		- [Commentaries:](#665359ff-79f1-4669-b10b-f2b0e633a7c1)
@@ -539,7 +539,7 @@
 			- subjectivity <a class="logseq-meta" id="6728a766-210b-462b-8fd4-aee04981b4f9" ></a>
 			  <br>[noun of](#66c80dde-a097-4744-8af8-c6e26dcfdda2) [subjective](#66c88055-a994-4e59-a7dc-83f3331a6e1d)
 	- ## object <a class="logseq-meta" id="667cfa42-ade7-4310-9a7b-6d14d01c16da" data-collapsed="true" ></a>
-	  <br>[Dual:](#6699ea73-dc77-4227-a293-b501f2eb1759) [<span class="link-h2">subject</span>](#667cfa3e-9856-43f0-956b-ebb4ff31d8eb) 
+	  [Dual:](#6699ea73-dc77-4227-a293-b501f2eb1759) [<span class="link-h2">subject</span>](#667cfa3e-9856-43f0-956b-ebb4ff31d8eb) 
 	  <br>[Adjective:](#66c80da9-4cfb-4de7-b83d-8b70665207bf) [objective](#66c82f42-16bb-4886-a32b-5c246187cfee)
 		- objective <a class="logseq-meta" id="66c82f42-16bb-4886-a32b-5c246187cfee" ></a>
 		  <br>[adjective of](#66c80e01-002b-42ae-9c60-49bf3fc6e159) [<span class="link-h2">object</span>](#667cfa42-ade7-4310-9a7b-6d14d01c16da)
@@ -586,7 +586,7 @@
 	- ## body <a class="logseq-meta" id="66c810a0-9861-4787-bdcf-1378219332be" data-collapsed="true" data-logbook="CLOCK: [2024-08-23 Fri 11:31:32]&#10;" ></a>
 		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h2">body</span>](#66c810a0-9861-4787-bdcf-1378219332be) is the thing that is [see](#66c811a9-e8c7-42c5-bdc9-25fbd023f93a)n by the [<span class="link-h2">subject</span>](#667cfa3e-9856-43f0-956b-ebb4ff31d8eb) when it looks at itself. Basically, body of a subject is just an [<span class="link-h2">abstraction</span>](#66537674-6cf9-4459-8bea-7c1858c694a3) of that subject where the ability to see is abstracted. In modern science, body means the matter, the material/physical part of the subject, but in [<span class="link-h2">Unïnfo Theory</span>](#669dfc9f-b5e2-448a-b6f4-be13c5bfbccb), body also includes all information of the subject, e.g. [body of knowledge](https://en.wikipedia.org/wiki/Body_of_knowledge), [text corpus](https://en.wikipedia.org/wiki/Text_corpus).
 	- ## particle <a class="logseq-meta" id="667d162c-16cf-44d3-81a5-29b1b885164f" data-collapsed="true" ></a>
-	  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [corpuscle](#66c80fad-4e06-449c-9d63-00f906601b06)
+	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [corpuscle](#66c80fad-4e06-449c-9d63-00f906601b06)
 		- corpuscle <a class="logseq-meta" id="66c80fad-4e06-449c-9d63-00f906601b06" ></a>
 		  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">particle</span>](#667d162c-16cf-44d3-81a5-29b1b885164f)
 		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) A [<span class="link-h2">particle</span>](#667d162c-16cf-44d3-81a5-29b1b885164f) is an [<span class="link-h2">object</span>](#667cfa42-ade7-4310-9a7b-6d14d01c16da) whose [<span class="link-h2">structure</span>](#6678d596-9526-405a-968c-e73860e524f3) is a [<span class="link-h2">circle</span>](#667d15c6-67c4-4998-a549-c8b3f9de3d60). Even though a particle can have large size, like the [Earth](https://en.wikipedia.org/wiki/Earth), in physics we usually deal with small particles and treat them as [point particles](https://en.wikipedia.org/wiki/Point_particle).
@@ -595,7 +595,7 @@
 			- "particle" was originally just a small part as opposed to the larger whole. However, scaling smaller and smaller, the [elementary particles](https://en.wikipedia.org/wiki/Elementary_particle) turn out to be the [<span class="link-h2">whole</span>](#66c8046e-c5fe-4f27-b3cf-40f5f39b646b)s. This [relativity](#66c80dc7-8ed4-4cd1-8989-e75a42f31c60) between the whole and the parts is captured well by the concept of [<span class="link-h2">particle</span>](#667d162c-16cf-44d3-81a5-29b1b885164f).
 			- "corpusc[u]le", as a small body (corpus), is nearer to the [<span class="link-h2">whole</span>](#66c8046e-c5fe-4f27-b3cf-40f5f39b646b) than the term "particle".
 	- ## whole <a class="logseq-meta" id="66c8046e-c5fe-4f27-b3cf-40f5f39b646b" data-collapsed="true" data-logbook="CLOCK: [2024-08-23 Fri 10:39:31]&#10;" ></a>
-	  <br>[Name:](#665ca48e-f7c1-4541-b5cf-486d86b02997) [Whole:](#6699e5f2-7788-46c7-8233-87699a65ca30) 
+	  [Name:](#665ca48e-f7c1-4541-b5cf-486d86b02997) [Whole:](#6699e5f2-7788-46c7-8233-87699a65ca30) 
 	  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [totality](#66c87463-4f07-420a-b12e-f456154f7dc8)
 		- totality <a class="logseq-meta" id="66c87463-4f07-420a-b12e-f456154f7dc8" ></a>
 		  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">whole</span>](#66c8046e-c5fe-4f27-b3cf-40f5f39b646b)
@@ -615,9 +615,9 @@
 			- [Commentaries:](#665359ff-79f1-4669-b10b-f2b0e633a7c1)
 				- [Layers of re-re-re-...presentatives are just like the layers of ((665ca429-84e3-49ff-921e-c07d19cd99ba))s and ((66ab6161-0306-42d5-ac16-4155c69216f5))s in Hegel's world of [appearances](((67123b17-b024-414a-a5dd-ba05965eefe7)))](#684f9518-6f65-4534-b296-184d3df8dd6b)
 			- #### Representative Rule <a class="logseq-meta" id="6732cf59-2785-4c8b-9fb3-5bee5d1a2f31" ></a>
-			  <br>A [<span class="link-h3">representative</span>](#6732cf13-5b1b-499d-80ec-4c5b407e9cc5) is an _abstraction_ of the [<span class="link-h2">whole</span>](#66c8046e-c5fe-4f27-b3cf-40f5f39b646b) which represents the whole to govern the parts.
+			  A [<span class="link-h3">representative</span>](#6732cf13-5b1b-499d-80ec-4c5b407e9cc5) is an _abstraction_ of the [<span class="link-h2">whole</span>](#66c8046e-c5fe-4f27-b3cf-40f5f39b646b) which represents the whole to govern the parts.
 			- #### Representative Nature <a class="logseq-meta" id="67331da7-8b10-4890-ae51-9a92796c5af3" ></a>
-			  <br>While a representative represents the whole, it's not the whole, just a part of the whole. That means any representative is still incomplete and reflects the whole with distortion.
+			  While a representative represents the whole, it's not the whole, just a part of the whole. That means any representative is still incomplete and reflects the whole with distortion.
 		- [<span class="link-h3">self-structure</span>](#6810ceeb-6af6-442b-9910-baae2c315c46) of the [<span class="link-h2">whole</span>](#66c8046e-c5fe-4f27-b3cf-40f5f39b646b) <a class="logseq-meta" id="67330a8d-c966-442c-8948-a9a2dd10ab60" ></a>
 			- The internal [effect circle](#667c0031-0a87-44c9-9e98-6d45893b095f) of the whole is from the center, through layers of [<span class="link-h3">representative</span>](#6732cf13-5b1b-499d-80ec-4c5b407e9cc5)s to individual parts, and back to the center also through layers of representatives but in different routes and maners.
 				- In the opposite direction, each part is [watch](#66c835f5-58ee-485f-914c-3d95167feeb3)ing and heading toward its representative.
@@ -636,11 +636,11 @@
 					- In the Vietnamese idiom “đuổi hình bắt bóng”, the visualization is clearer: one chases the vivid but form (hình) in order to catch its entity but actually can only catch the illusive shadow (bóng).
 					- A better analogy of the vivid form is the image reflection on water surface.
 	- ## complement <a class="logseq-meta" id="66c8941d-6427-4e5c-9009-3af349500d7b" data-collapsed="true" data-logbook="CLOCK: [2024-08-23 Fri 20:52:50]&#10;" ></a>
-	  <br>[form of](#665ca480-5ac8-4728-a331-2f68b48759d1) [Complementarity:](#667bf816-d1c8-4ac3-b315-764c14bfbb1f)
+	  [form of](#665ca480-5ac8-4728-a331-2f68b48759d1) [Complementarity:](#667bf816-d1c8-4ac3-b315-764c14bfbb1f)
 	  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [<span class="link-h3">dual</span>](#68e770c2-ddcf-4677-bd6d-9b6a790b5975)
 		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Complementarity_(physics)
 		- ### dual <a class="logseq-meta" id="68e770c2-ddcf-4677-bd6d-9b6a790b5975" ></a>
-		  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">complement</span>](#66c8941d-6427-4e5c-9009-3af349500d7b)
+		  [alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">complement</span>](#66c8941d-6427-4e5c-9009-3af349500d7b)
 			- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Duality_(mathematics)
 		- Symbols:
 			- `☯`: [Taijitu (太極圖)](https://en.wikipedia.org/wiki/Taijitu) symbol representing the unity of the opposites (yin & yang)
@@ -698,7 +698,7 @@
 			- domain → range: mapping
 			- input → output: function, process
 	- ## circle <a class="logseq-meta" id="667d15c6-67c4-4998-a549-c8b3f9de3d60" data-collapsed="true" ></a>
-	  <br>[Adjective:](#66c80da9-4cfb-4de7-b83d-8b70665207bf) [circular](#66e41705-54b1-4677-a595-fd01cb88a4fb)
+	  [Adjective:](#66c80da9-4cfb-4de7-b83d-8b70665207bf) [circular](#66e41705-54b1-4677-a595-fd01cb88a4fb)
 		- circular <a class="logseq-meta" id="66e41705-54b1-4677-a595-fd01cb88a4fb" ></a>
 		  <br>[adjective of](#66c80e01-002b-42ae-9c60-49bf3fc6e159) [<span class="link-h2">circle</span>](#667d15c6-67c4-4998-a549-c8b3f9de3d60)
 		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) From the perfect shape of [geometrical circle](https://en.wikipedia.org/wiki/Circle), [<span class="link-h2">circle</span>](#667d15c6-67c4-4998-a549-c8b3f9de3d60) is abstracted to be the [<span class="link-h2">form</span>](#665ca429-84e3-49ff-921e-c07d19cd99ba) of any **closed** [<span class="link-h2">thread</span>](#667d0d2e-15c7-4989-a183-69a9a5c6bf8a). To be precise, this abstraction should be called [cycle](#66ab675b-2778-4f51-80ad-20a8f6988691), but in Unïnfo we usually call it “circle” as an abuse of terminology. The true circle is a [<span class="link-h3">round</span>](#66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f) [loop](#66ab6761-b62d-486b-bd15-44a4ecee8a99) which can [degenerate](https://en.wikipedia.org/wiki/Degenerate_energy_levels) into all non-round loops via distortion. In [Unïnfo](#66537a44-f579-4fcc-a02b-2f32d0d409fc), [<span class="link-h2">circle</span>](#667d15c6-67c4-4998-a549-c8b3f9de3d60) is the [<span class="link-h2">form</span>](#665ca429-84e3-49ff-921e-c07d19cd99ba) of all forms.
@@ -722,7 +722,7 @@
 				- $ds_i/ds_o = 1 - κ⋅w$ for the ratio between inside arc $s_i$ and outside arc $s_o$ separted by width $w$.
 				- [?] Relation to [refraction](https://en.wikipedia.org/wiki/Refraction)?
 		- ### round <a class="logseq-meta" id="66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f" data-collapsed="true" ></a>
-		  <br>[Noun:](#66c80d5c-181f-4f06-a285-0624a65e9951) [roundness](#67ee0ea8-b68d-4adc-8d57-2f0a7be16d22)
+		  [Noun:](#66c80d5c-181f-4f06-a285-0624a65e9951) [roundness](#67ee0ea8-b68d-4adc-8d57-2f0a7be16d22)
 			- roundness <a class="logseq-meta" id="67ee0ea8-b68d-4adc-8d57-2f0a7be16d22" ></a>
 			  <br>[noun of](#66c80dde-a097-4744-8af8-c6e26dcfdda2) [<span class="link-h3">round</span>](#66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)
 			- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) A [shape](#66ab6170-ea0d-4bd7-be7a-2e226a7ea7ee) is [<span class="link-h3">round</span>](#66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f) when every point in that shape has the same distance, called [<span class="link-h4">radius</span>](#670ce8c2-8c54-42c6-84cd-93703c1fa60f), to a fixed point called [<span class="link-h4">center</span>](#66ab7477-c060-4d07-ab13-bc3d11246854), i.e. it has [circular symetry](https://en.wikipedia.org/wiki/Circular_symmetry). A round cycle is a perfect and [equilibrated](#66e3ed78-8815-4dcc-964c-5bc8325405dd) [<span class="link-h2">circle</span>](#667d15c6-67c4-4998-a549-c8b3f9de3d60), i.e. a **true circle**.
@@ -734,7 +734,7 @@
 				- [66faa5f8-b0b8-4b3f-9a29-1901f315419e](#66faa5f8-b0b8-4b3f-9a29-1901f315419e)
 				- [670cd7d1-8380-49db-a47c-6aa132256596](#670cd7d1-8380-49db-a47c-6aa132256596)
 			- #### center <a class="logseq-meta" id="66ab7477-c060-4d07-ab13-bc3d11246854" ></a>
-			  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [focal point](#6867b512-9b5a-4279-8c98-28ea1a3c7995)
+			  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [focal point](#6867b512-9b5a-4279-8c98-28ea1a3c7995)
 				- focal point <a class="logseq-meta" id="6867b512-9b5a-4279-8c98-28ea1a3c7995" ></a>
 				  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h4">center</span>](#66ab7477-c060-4d07-ab13-bc3d11246854)
 				- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) The [<span class="link-h4">center</span>](#66ab7477-c060-4d07-ab13-bc3d11246854) of a [<span class="link-h2">circle</span>](#667d15c6-67c4-4998-a549-c8b3f9de3d60) is the point having equal distance from all points in the circle, i.e. the [obop](#94e87dc9-71af-477c-aa70-0f448c2f1e20) of [intent equality](#66e40f75-0573-484e-8cb6-b6b8071ffb8c). The concept of center can be extended to the center of mass, named “pre-center” (in [mass equality](#66e40f58-c9dd-47f4-999d-2e4a2aa874fe)), and even further to the origin, the [center of projection](#66728236-5b19-425c-bb5f-dfc0dc8b79fd), named “pseudo-center” (in [point equality](#66e40f4b-34ae-499a-8192-0a0f4f580c7e)). <a class="logseq-meta" id="6716110f-c736-43d2-a8e8-f2d6d163bd4d" ></a>
@@ -742,11 +742,11 @@
 					- [684f9515-8f95-4004-8aa8-04a10d1ebf11](#684f9515-8f95-4004-8aa8-04a10d1ebf11)
 			- #### radius <a class="logseq-meta" id="670ce8c2-8c54-42c6-84cd-93703c1fa60f" ></a>
 		- ### rotation <a class="logseq-meta" id="67ed2855-1512-4db0-bc61-f714ea891106" data-logbook="CLOCK: [2025-04-02 Wed 19:09:10]&#10;" ></a>
-		  <br>[Verb:](#66c80da7-c0e8-46d2-85e5-71318fd44eff) [rotate](#67ed285c-62ef-4608-9f6e-b642c7bc5d77)
+		  [Verb:](#66c80da7-c0e8-46d2-85e5-71318fd44eff) [rotate](#67ed285c-62ef-4608-9f6e-b642c7bc5d77)
 			- rotate <a class="logseq-meta" id="67ed285c-62ef-4608-9f6e-b642c7bc5d77" ></a>
 			  <br>[verb of](#66c80dfd-95e2-4b5a-bd56-06e8307e81ca) [<span class="link-h3">rotation</span>](#67ed2855-1512-4db0-bc61-f714ea891106)
 		- ### conic section <a class="logseq-meta" id="67ed249b-742e-4944-b048-dd6bf68d45fd" data-collapsed="true" data-logbook="CLOCK: [2025-04-02 Wed 18:51:25]&#10;" ></a>
-		  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [conic](#67ed24b6-777e-40b2-9c42-fbafe7a66a82)
+		  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [conic](#67ed24b6-777e-40b2-9c42-fbafe7a66a82)
 			- conic <a class="logseq-meta" id="67ed24b6-777e-40b2-9c42-fbafe7a66a82" ></a>
 			  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h3">conic section</span>](#67ed249b-742e-4944-b048-dd6bf68d45fd)
 			- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) [conic section](https://en.wikipedia.org/wiki/Conic_section)
@@ -757,7 +757,7 @@
 					- [67e29bdb-9bce-4cb8-b993-79aa130a1831](#67e29bdb-9bce-4cb8-b993-79aa130a1831)
 					- [67ed2751-76d5-4bf1-9fc7-27c14ef6d1fa](#67ed2751-76d5-4bf1-9fc7-27c14ef6d1fa)
 	- ## equal <a class="logseq-meta" id="6653751a-a1b4-44b0-a81e-0a446eb8918c" data-collapsed="true" ></a>
-	  <br>[Noun:](#66c80d5c-181f-4f06-a285-0624a65e9951) [equality](#66e41e14-6c0c-41d7-9089-92916d47d7e0)
+	  [Noun:](#66c80d5c-181f-4f06-a285-0624a65e9951) [equality](#66e41e14-6c0c-41d7-9089-92916d47d7e0)
 		- equality <a class="logseq-meta" id="66e41e14-6c0c-41d7-9089-92916d47d7e0" ></a>
 		  <br>[noun of](#66c80dde-a097-4744-8af8-c6e26dcfdda2) [<span class="link-h2">equal</span>](#6653751a-a1b4-44b0-a81e-0a446eb8918c)
 		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) From the [mathematical equality](https://en.wikipedia.org/wiki/Equality_(mathematics)), [<span class="link-h2">equal</span>](#6653751a-a1b4-44b0-a81e-0a446eb8918c) is generalized to the [third component](#66f3d5cc-0d68-47bb-b09a-87cda33c7354) of the [<span class="link-h2">Trinion</span>](#669dfc7d-5355-41db-93a1-8d590e8ec9d8) which represent various aspects of the Universe, from simple equality, balance, to symmetry, [<span class="link-h3">equilibrium</span>](#669a1bec-3347-4915-83e4-dcffc4d482d1), [equanimity](#669a3da2-1e6c-48bd-950f-af1ea1ceda25), etc.
@@ -803,7 +803,7 @@
 		- [Commentaries:](#665359ff-79f1-4669-b10b-f2b0e633a7c1)
 			- [66ceeca0-a149-4fe0-85a8-9302f96eb669](#66ceeca0-a149-4fe0-85a8-9302f96eb669)
 		- ### equilibrium <a class="logseq-meta" id="669a1bec-3347-4915-83e4-dcffc4d482d1" data-collapsed="true" ></a>
-		  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [balance](#669a1d82-91c8-40fd-81f5-e8ffe56e9e9c)
+		  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [balance](#669a1d82-91c8-40fd-81f5-e8ffe56e9e9c)
 		  <br>[Verb:](#66c80da7-c0e8-46d2-85e5-71318fd44eff) [equilibrate](#66e3ed38-3108-4d43-944d-9d2c8d1a90f2)
 		  <br>[Adjective:](#66c80da9-4cfb-4de7-b83d-8b70665207bf) [equilibrated](#66e3ed78-8815-4dcc-964c-5bc8325405dd)
 			- balance <a class="logseq-meta" id="669a1d82-91c8-40fd-81f5-e8ffe56e9e9c" ></a>
@@ -840,7 +840,7 @@
 			- Buddhism: [upekṣā](https://en.wikipedia.org/wiki/Upek%E1%B9%A3%C4%81), [xả](https://vi.wikipedia.org/wiki/Bu%C3%B4ng_x%E1%BA%A3)
 			- [Etymology:](#669a1e5f-734c-41c1-bf1c-21813b6e81d8) equanimity = equal + mind
 	- ## quantity <a class="logseq-meta" id="66e426df-90e4-43c0-9f02-c48c336e830d" data-collapsed="true" ></a>
-	  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [amount](#66e42b30-1aa4-4b6f-8c54-b29fc09085c6)
+	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [amount](#66e42b30-1aa4-4b6f-8c54-b29fc09085c6)
 	  <br>[Complement:](#6699e4db-2e75-4427-94bb-96dfe0367dd1) [<span class="link-h2">quality</span>](#66e426ec-d29b-4614-932b-2c70693790d7)
 		- amount <a class="logseq-meta" id="66e42b30-1aa4-4b6f-8c54-b29fc09085c6" ></a>
 		  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">quantity</span>](#66e426df-90e4-43c0-9f02-c48c336e830d)
@@ -857,7 +857,7 @@
 		- [Commentaries:](#665359ff-79f1-4669-b10b-f2b0e633a7c1)
 			- [66c7fdec-59db-4f96-a8a7-913247586534](#66c7fdec-59db-4f96-a8a7-913247586534)
 		- ### quantum <a class="logseq-meta" id="671e0f99-c35c-45f3-9f80-4d9cf00063de" ></a>
-		  <br>[Complement:](#6699e4db-2e75-4427-94bb-96dfe0367dd1) [<span class="link-h3">qualiton</span>](#671e0fcc-37b6-4f03-8e87-8923422ca8e0)
+		  [Complement:](#6699e4db-2e75-4427-94bb-96dfe0367dd1) [<span class="link-h3">qualiton</span>](#671e0fcc-37b6-4f03-8e87-8923422ca8e0)
 			- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Quantum
 			- datum <a class="logseq-meta" id="671e1634-9974-4845-b4bc-449ea3fe106a" ></a>
 			  <br>[<span class="link-h3">quantum</span>](#671e0f99-c35c-45f3-9f80-4d9cf00063de) in [<span class="link-h2">uninet</span>](#669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)
@@ -867,7 +867,7 @@
 			- [Cardinality of the continuum](https://en.wikipedia.org/wiki/Cardinality_of_the_continuum): |continuum| = |(0, 1)| = |ℝ| = |ℝ^N| = |the set of all continuous functions from ℝ to ℝ|
 			- In Quantum Mechanics, the wave function of N particles requires 3N dimensions of information. Some wave function realists like [David Z. Albert and Alyssa Ney](https://academic.oup.com/book/32659) state that the physical space is actually 3N-dimensional.
 	- ## quality <a class="logseq-meta" id="66e426ec-d29b-4614-932b-2c70693790d7" data-collapsed="true" ></a>
-	  <br>[Complement:](#6699e4db-2e75-4427-94bb-96dfe0367dd1) [<span class="link-h2">quantity</span>](#66e426df-90e4-43c0-9f02-c48c336e830d)
+	  [Complement:](#6699e4db-2e75-4427-94bb-96dfe0367dd1) [<span class="link-h2">quantity</span>](#66e426df-90e4-43c0-9f02-c48c336e830d)
 		- [Expressions:](#66e4299e-0af8-47ee-adae-c13fb57fd15d)
 			- [<span class="link-h3">direction</span>](#66e42d39-a296-4ed9-a686-4cb213783830)
 			  <br>quality of [<span class="link-h2">arrow</span>](#667d15b7-6364-49a9-ac58-c64d2a992b63)
@@ -881,7 +881,7 @@
 		- ### direction <a class="logseq-meta" id="66e42d39-a296-4ed9-a686-4cb213783830" ></a>
 			- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h3">direction</span>](#66e42d39-a296-4ed9-a686-4cb213783830) is an [<span class="link-h2">abstraction</span>](#66537674-6cf9-4459-8bea-7c1858c694a3) of [<span class="link-h2">arrow</span>](#667d15b7-6364-49a9-ac58-c64d2a992b63) where its [<span class="link-h3">magnitude</span>](#67bc2fc9-8389-4455-ace9-4aac8de73e1d) is abstracted away, leaving only its [intent](#66f3c97f-94e8-4783-96c5-fe9cadf4f9a9), i.e. a unit arrow. In vector notation, an arrow $\vec v$, with magnitude $v = |\vec v|$, has direction represented by the unit vector ${\hat v} = {\vec v}/v$. While being unit/intent on the longitudinal direction, the direction itself has its own content represented by the circular extent on the transverse direction called [<span class="link-h4">phase</span>](#68750097-13e5-4662-9791-8207ec18e8aa).
 		- ### qualiton <a class="logseq-meta" id="671e0fcc-37b6-4f03-8e87-8923422ca8e0" ></a>
-		  <br>[Complement:](#6699e4db-2e75-4427-94bb-96dfe0367dd1) [<span class="link-h3">quantum</span>](#671e0f99-c35c-45f3-9f80-4d9cf00063de)
+		  [Complement:](#6699e4db-2e75-4427-94bb-96dfe0367dd1) [<span class="link-h3">quantum</span>](#671e0f99-c35c-45f3-9f80-4d9cf00063de)
 			- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) A [<span class="link-h3">qualiton</span>](#671e0fcc-37b6-4f03-8e87-8923422ca8e0) is a [<span class="link-h2">particle</span>](#667d162c-16cf-44d3-81a5-29b1b885164f) of [<span class="link-h2">quality</span>](#66e426ec-d29b-4614-932b-2c70693790d7) at the center (inner most [intent](#66f3c97f-94e8-4783-96c5-fe9cadf4f9a9)) of the [obop](#94e87dc9-71af-477c-aa70-0f448c2f1e20). Through the process of [qualification](#681826ac-f5f2-4a84-a5f5-c110937ec85f), the qualiton not only carries and sustains quality, but also applies that quality to [<span class="link-h3">quantum</span>](#671e0f99-c35c-45f3-9f80-4d9cf00063de)s to activate them into living qualitons. E.g., each [electron](https://en.wikipedia.org/wiki/Electron) is a qualiton of electricity which is a bundle of quanta (energy, spin, etc.) activated by the [prototype electron](https://en.wikipedia.org/wiki/One-electron_universe) (root qualiton).
 				- [Etymology:](#669a1e5f-734c-41c1-bf1c-21813b6e81d8) qualiton = [quality](https://www.etymonline.com/word/quality) + [-on](https://www.etymonline.com/word/-on)
 			- [Commentaries:](#665359ff-79f1-4669-b10b-f2b0e633a7c1)
@@ -900,7 +900,7 @@
 					- automaton ← [αὐτόμᾰτος](https://en.wiktionary.org/wiki/%CE%B1%E1%BD%90%CF%84%CF%8C%CE%BC%CE%B1%CF%84%CE%BF%CF%82) ← αὐτο (auto) + μένος (ménos = think) = self-willed, not only self-moving
 						- The decay of meaning of “automaton” to mere self-moving is similar to the decaying of [自由](https://en.wiktionary.org/wiki/%E8%87%AA%E7%94%B1#Etymology_2) to [freedom](https://en.wikipedia.org/wiki/Freedom).
 	- ## flow <a class="logseq-meta" id="67fcbbc6-915b-4d28-b9cf-098e916cdc86" data-collapsed="true" data-logbook="CLOCK: [2025-04-14 Mon 14:40:16]&#10;" ></a>
-	  <br>[Verb:](#66c80da7-c0e8-46d2-85e5-71318fd44eff) [flow](#67fccdf3-f1a4-45ee-b16a-43e003af85e9)
+	  [Verb:](#66c80da7-c0e8-46d2-85e5-71318fd44eff) [flow](#67fccdf3-f1a4-45ee-b16a-43e003af85e9)
 	  <br>[Adjective:](#66c80da9-4cfb-4de7-b83d-8b70665207bf) [flowing](#67fcce23-bec7-4fde-92c9-56c4f194a118)
 		- flow <a class="logseq-meta" id="67fccdf3-f1a4-45ee-b16a-43e003af85e9" ></a>
 		  <br>[verb of](#66c80dfd-95e2-4b5a-bd56-06e8307e81ca) [<span class="link-h2">flow</span>](#67fcbbc6-915b-4d28-b9cf-098e916cdc86)
@@ -910,7 +910,7 @@
 		- [Commentaries:](#665359ff-79f1-4669-b10b-f2b0e633a7c1)
 			- [67fe23f7-3afe-4e77-be1d-fa8a15416bc3](#67fe23f7-3afe-4e77-be1d-fa8a15416bc3)
 		- ### source <a class="logseq-meta" id="67fcbdea-2ade-4264-b8c4-c419c6fc2779" data-collapsed="true" data-logbook="CLOCK: [2025-04-14 Mon 14:49:05]&#10;" ></a>
-		  <br>[Dual:](#6699ea73-dc77-4227-a293-b501f2eb1759) [<span class="link-h3">sink</span>](#67fcbdf7-37e7-4beb-8b1f-f80961596006)
+		  [Dual:](#6699ea73-dc77-4227-a293-b501f2eb1759) [<span class="link-h3">sink</span>](#67fcbdf7-37e7-4beb-8b1f-f80961596006)
 			- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) [sources and sinks](https://en.wikipedia.org/wiki/Sources_and_sinks)
 			- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) a [<span class="link-h3">source</span>](#67fcbdea-2ade-4264-b8c4-c419c6fc2779) of a [<span class="link-h2">flow</span>](#67fcbbc6-915b-4d28-b9cf-098e916cdc86) is a region where the flow has non-zero [divergence](https://en.wikipedia.org/wiki/Divergence). Strictly speaking, a (positive) source is where the flow diverges (with positive divergence), and a [<span class="link-h3">sink</span>](#67fcbdf7-37e7-4beb-8b1f-f80961596006) is where the flow converges (with negative divergence), but here “sink” is consider to be just a “negative source”.
 			- [Examples:](#66725725-f76a-4328-b162-f469b87e871b)
@@ -922,10 +922,10 @@
 			- [Commentaries:](#665359ff-79f1-4669-b10b-f2b0e633a7c1)
 				- [67f4eae9-34ed-4303-8dc0-8320a5fa6dd2](#67f4eae9-34ed-4303-8dc0-8320a5fa6dd2)
 		- ### sink <a class="logseq-meta" id="67fcbdf7-37e7-4beb-8b1f-f80961596006" data-logbook="CLOCK: [2025-04-14 Mon 14:49:05]&#10;" ></a>
-		  <br>= negative [<span class="link-h3">source</span>](#67fcbdea-2ade-4264-b8c4-c419c6fc2779)
+		  = negative [<span class="link-h3">source</span>](#67fcbdea-2ade-4264-b8c4-c419c6fc2779)
 		  <br>[Dual:](#6699ea73-dc77-4227-a293-b501f2eb1759) [<span class="link-h3">source</span>](#67fcbdea-2ade-4264-b8c4-c419c6fc2779)
 		- ### medium <a class="logseq-meta" id="67fdda4a-dfc1-42d7-846a-ba64252e11c1" data-logbook="CLOCK: [2025-04-15 Tue 11:02:36]&#10;" ></a>
-		  <br>= [<span class="link-h3">source</span>](#67fcbdea-2ade-4264-b8c4-c419c6fc2779) + [<span class="link-h3">sink</span>](#67fcbdf7-37e7-4beb-8b1f-f80961596006)
+		  = [<span class="link-h3">source</span>](#67fcbdea-2ade-4264-b8c4-c419c6fc2779) + [<span class="link-h3">sink</span>](#67fcbdf7-37e7-4beb-8b1f-f80961596006)
 			- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h3">medium</span>](#67fdda4a-dfc1-42d7-846a-ba64252e11c1) is the combination of both [<span class="link-h3">source</span>](#67fcbdea-2ade-4264-b8c4-c419c6fc2779) and [<span class="link-h3">sink</span>](#67fcbdf7-37e7-4beb-8b1f-f80961596006) into one place for the flow to pass through.
 			- #### portal <a class="logseq-meta" id="67fe1736-f1b6-4289-8b89-43e5387d4f3e" data-logbook="CLOCK: [2025-04-15 Tue 15:33:24]&#10;" ></a>
 				- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h4">portal</span>](#67fe1736-f1b6-4289-8b89-43e5387d4f3e) is a dense [<span class="link-h3">medium</span>](#67fdda4a-dfc1-42d7-846a-ba64252e11c1) where a large amount (or all) of the flow passes through. In [Unithread](#66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d), [obop](#94e87dc9-71af-477c-aa70-0f448c2f1e20) is the portal of [<span class="link-h2">effect flow</span>](#667bef22-b272-4a7d-b613-3f1ed1a47329).
@@ -947,17 +947,17 @@
 				- all balance will be broken spontaneously = radioactive decay = all circles will be open = intrinsic dynamic
 				- black hole distortion: inside intrinsic static <> outside intrinsic dynamic <=> Zeno arrow paradox
 		- ### circular flow <a class="logseq-meta" id="67fcbee7-da00-45d8-bb21-deefb95d164e" data-logbook="CLOCK: [2025-04-14 Mon 14:49:05]&#10;" ></a>
-		  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [circuit](#67fcbefb-63b6-438a-a676-82293350d71b)
+		  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [circuit](#67fcbefb-63b6-438a-a676-82293350d71b)
 			- circuit <a class="logseq-meta" id="67fcbefb-63b6-438a-a676-82293350d71b" ></a>
 			  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h3">circular flow</span>](#67fcbee7-da00-45d8-bb21-deefb95d164e)
 		- ### current <a class="logseq-meta" id="67fcc081-80b9-4179-a6b0-6307adba595a" data-logbook="CLOCK: [2025-04-14 Mon 14:49:05]&#10;" ></a>
-		  <br>[Adjective:](#66c80da9-4cfb-4de7-b83d-8b70665207bf) [current](#67fccd8a-8eb9-47ca-bd1a-1c2a78d1bf93)
+		  [Adjective:](#66c80da9-4cfb-4de7-b83d-8b70665207bf) [current](#67fccd8a-8eb9-47ca-bd1a-1c2a78d1bf93)
 			- current <a class="logseq-meta" id="67fccd8a-8eb9-47ca-bd1a-1c2a78d1bf93" ></a>
 			  <br>[adjective of](#66c80e01-002b-42ae-9c60-49bf3fc6e159) [<span class="link-h3">current</span>](#67fcc081-80b9-4179-a6b0-6307adba595a)
 				- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) Being [current](#67fccd8a-8eb9-47ca-bd1a-1c2a78d1bf93) means being in the [flowing](#67fcce23-bec7-4fde-92c9-56c4f194a118) state of the now.
 			- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h3">current</span>](#67fcc081-80b9-4179-a6b0-6307adba595a) is an established [<span class="link-h2">flow</span>](#67fcbbc6-915b-4d28-b9cf-098e916cdc86) which is usually stable in time. Its establishment and stability is thanks to the underlying circularity, thus current is just the visible part of an underlying [circuit](#67fcbefb-63b6-438a-a676-82293350d71b).
 	- ## reference flow <a class="logseq-meta" id="667bef50-a33a-4275-9ca3-e9d801ab5a81" data-collapsed="true" ></a>
-	  <br>[Dual:](#6699ea73-dc77-4227-a293-b501f2eb1759) [<span class="link-h2">effect flow</span>](#667bef22-b272-4a7d-b613-3f1ed1a47329)
+	  [Dual:](#6699ea73-dc77-4227-a293-b501f2eb1759) [<span class="link-h2">effect flow</span>](#667bef22-b272-4a7d-b613-3f1ed1a47329)
 		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h2">reference flow</span>](#667bef50-a33a-4275-9ca3-e9d801ab5a81) is the [<span class="link-h2">flow</span>](#67fcbbc6-915b-4d28-b9cf-098e916cdc86) of [<span class="link-h2">view</span>](#66723642-58f1-4a74-bba3-0108f14c6bac)s where view is the underlying transformation. In microview, each reference flow is drawn by an [<span class="link-h3">eye</span>](#669a2487-054d-4408-ae41-189e34af81a9).
 		- [Complementarity:](#667bf816-d1c8-4ac3-b315-764c14bfbb1f) [<span class="link-h2">reference flow</span>](#667bef50-a33a-4275-9ca3-e9d801ab5a81) is in opposite direction with [<span class="link-h2">effect flow</span>](#667bef22-b272-4a7d-b613-3f1ed1a47329). This opposition is in the sense of 2 complement arrows in a circle (🔄), and does not mean the exactly backward flow. <a class="logseq-meta" id="667bf653-a1ea-4a02-8669-a1a70901e9c3" data-collapsed="true" ></a>
 			- In space, all [<span class="link-h2">reference flow</span>](#667bef50-a33a-4275-9ca3-e9d801ab5a81) has a corresponding [<span class="link-h2">effect flow</span>](#667bef22-b272-4a7d-b613-3f1ed1a47329), and they are usually refined to the degree that they seem to be exactly backward of each other, due to complement circles being refined to points.
@@ -984,7 +984,7 @@
 							  <br>"Giúp người hay hại người cũng đều vì mình cả!"
 							  <br>is the saying that i usually say.
 	- ## effect flow <a class="logseq-meta" id="667bef22-b272-4a7d-b613-3f1ed1a47329" data-collapsed="true" ></a>
-	  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) tác lưu, luồng tác dụng
+	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) tác lưu, luồng tác dụng
 	  <br>[Dual:](#6699ea73-dc77-4227-a293-b501f2eb1759) [<span class="link-h2">reference flow</span>](#667bef50-a33a-4275-9ca3-e9d801ab5a81)
 		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h2">effect flow</span>](#667bef22-b272-4a7d-b613-3f1ed1a47329) is the [<span class="link-h2">flow</span>](#67fcbbc6-915b-4d28-b9cf-098e916cdc86) of [<span class="link-h2">action</span>](#66727858-979d-4d95-8a90-7a749218cfba)s. Because action is defined by its underlying [transformation](#669a58b9-eb34-41cd-8605-02e29b07e1b5), effect flow is just the dynamic aspect of [<span class="link-h2">thread</span>](#667d0d2e-15c7-4989-a183-69a9a5c6bf8a). In microview, each effect flow is drawn by an [<span class="link-h3">actor</span>](#669a26cb-50d8-4347-a5c4-7c0c3acf1211). In effect flow, each [<span class="link-h3">effect</span>](#677f509b-f2db-47b1-aafb-5a475334b532) is also the [<span class="link-h3">cause</span>](#677f7108-ffa5-4ea7-9a69-eaa355a7569e) of next actions. That means there's neither pure effect nor pure cause in [<span class="link-h3">circular effect flow</span>](#667bf36a-581a-4abe-b544-2d849608a3e4), and only non-circular effect flow has such terminals. The effect flow is [interpenetrative](#66eb7dae-2032-434b-9106-756d4aad7cdb) thanks to its mutual [<span class="link-h3">influence</span>](#677f7100-e650-464a-a835-15a9f28df649)s inside. <a class="logseq-meta" id="6835b165-492a-4b22-94b1-3d2a3b42ca2a" ></a>
 			- effect flow is a **dynamic continuum** of [<span class="link-h3">effect</span>](#677f509b-f2db-47b1-aafb-5a475334b532) = [<span class="link-h3">cause</span>](#677f7108-ffa5-4ea7-9a69-eaa355a7569e) = [action](#6835b165-75f8-465e-84d4-b7b0f68b4dcb) = [<span class="link-h3">influence</span>](#677f7100-e650-464a-a835-15a9f28df649) = [<span class="link-h3">condition</span>](#677f7104-7fc4-4034-bb08-0dabd80a586f). <a class="logseq-meta" id="683eac41-53d2-4341-a732-a6a923962629" data-logbook="CLOCK: [2025-06-03 Tue 15:06:25]&#10;" ></a>
@@ -1021,30 +1021,30 @@
 			- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) The [<span class="link-h2">action</span>](#66727858-979d-4d95-8a90-7a749218cfba) arrows from [<span class="link-h3">cause</span>](#677f7108-ffa5-4ea7-9a69-eaa355a7569e)s to [<span class="link-h3">effect</span>](#677f509b-f2db-47b1-aafb-5a475334b532)s represent the direction of the [<span class="link-h2">effect flow</span>](#667bef22-b272-4a7d-b613-3f1ed1a47329). Relative to the choice of [<span class="link-h2">self</span>](#667c015e-6223-4f8a-ae84-a93a49f4ff94), the primary action of the self from the primary cause to the primary effect are specified, and are simply called “the action from the cause to the effect”. Other secondary actions are [<span class="link-h3">influence</span>](#677f7100-e650-464a-a835-15a9f28df649)s from the surrounding [<span class="link-h3">condition</span>](#677f7104-7fc4-4034-bb08-0dabd80a586f)s on the self. <a class="logseq-meta" data-collapsed="true" ></a>
 				- ![EffectFlow-CauseConditionActionEffect](https://docs.google.com/drawings/d/e/2PACX-1vRuRJyGQru5ZcIAZLcwMqwjv35U5sXAzGX9KEV5SUbsY5H3LPpm5yWAvn0gK9yNrwv4ob3k1XoMe-tb/pub?w=500){:height 304, :width 500}
 			- ### cause <a class="logseq-meta" id="677f7108-ffa5-4ea7-9a69-eaa355a7569e" ></a>
-			  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) tác nhân
+			  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) tác nhân
 				- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) In general, a [<span class="link-h3">cause</span>](#677f7108-ffa5-4ea7-9a69-eaa355a7569e) is any source of an [<span class="link-h2">action</span>](#66727858-979d-4d95-8a90-7a749218cfba). But the term “cause” is usually limited to the primary cause of the primary action of the self, hence the [<span class="link-h3">source</span>](#67fcbdea-2ade-4264-b8c4-c419c6fc2779) of the effect flow. Particularly, cause is the [<span class="link-h3">change</span>](#667c008f-cd1f-4a6b-a9c8-d6efa1d8d342) of the source body of the action.
 			- ### condition <a class="logseq-meta" id="677f7104-7fc4-4034-bb08-0dabd80a586f" ></a>
-			  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) điều kiện, duyên
+			  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) điều kiện, duyên
 				- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) Relative to a self, [<span class="link-h3">condition</span>](#677f7104-7fc4-4034-bb08-0dabd80a586f) is the source of [<span class="link-h3">influence</span>](#677f7100-e650-464a-a835-15a9f28df649) upon the primary action of the self. In the selfless view, “condition” is any [<span class="link-h3">cause</span>](#677f7108-ffa5-4ea7-9a69-eaa355a7569e) of any action.
 			- ### influence <a class="logseq-meta" id="677f7100-e650-464a-a835-15a9f28df649" ></a>
-			  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) ảnh hưởng
+			  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) ảnh hưởng
 				- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) Relative to a self, [<span class="link-h3">influence</span>](#677f7100-e650-464a-a835-15a9f28df649) is the action of the surrounding [<span class="link-h3">condition</span>](#677f7104-7fc4-4034-bb08-0dabd80a586f) upon the primary action of the self. In the selfless view, “influence” is any [<span class="link-h2">action</span>](#66727858-979d-4d95-8a90-7a749218cfba).
 				- [Etymology:](#669a1e5f-734c-41c1-bf1c-21813b6e81d8) “Influence” is the “flow into” some body. This inflow is the driving force underlying the [interpenetrative nature](#66eb7dae-2032-434b-9106-756d4aad7cdb) of the effect flow, as what [dependent origination](https://en.wikipedia.org/wiki/Prat%C4%ABtyasamutp%C4%81da) principle is to causality.
 			- [<span class="link-h2">action</span>](#66727858-979d-4d95-8a90-7a749218cfba) of [<span class="link-h2">effect flow</span>](#667bef22-b272-4a7d-b613-3f1ed1a47329) <a class="logseq-meta" id="6835b165-75f8-465e-84d4-b7b0f68b4dcb" ></a>
 			  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) tác động, hành
 				- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) In general, [<span class="link-h2">action</span>](#66727858-979d-4d95-8a90-7a749218cfba) is any [transformation](#669a58b9-eb34-41cd-8605-02e29b07e1b5) within an effect flow. But the term “action” is usually limited to the primaray action of the subject self.
 			- ### effect <a class="logseq-meta" id="677f509b-f2db-47b1-aafb-5a475334b532" ></a>
-			  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) tác dụng
+			  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) tác dụng
 				- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h3">effect</span>](#677f509b-f2db-47b1-aafb-5a475334b532) is the target of [<span class="link-h2">action</span>](#66727858-979d-4d95-8a90-7a749218cfba) arrow in effect flow. Particularly, effect is the [<span class="link-h3">change</span>](#667c008f-cd1f-4a6b-a9c8-d6efa1d8d342) of the target body resulted from the action. That means the effect is just an [<span class="link-h3">influence</span>](#677f7100-e650-464a-a835-15a9f28df649) on the target body.
 				- #### side effect
-				  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) tác dụng phụ
+				  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) tác dụng phụ
 		- ### circular effect flow <a class="logseq-meta" id="667bf36a-581a-4abe-b544-2d849608a3e4" ></a>
-		  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [self-effect](#667bff0e-d45d-4d41-8683-51c3cf76c0bc), [effect circle](#667c0031-0a87-44c9-9e98-6d45893b095f)
+		  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [self-effect](#667bff0e-d45d-4d41-8683-51c3cf76c0bc), [effect circle](#667c0031-0a87-44c9-9e98-6d45893b095f)
 		  <br>[Complement:](#6699e4db-2e75-4427-94bb-96dfe0367dd1) [circular reference flow](#667bf520-a80c-4b6d-98d8-1f71cae6fb56)
 			- effect circle <a class="logseq-meta" id="667c0031-0a87-44c9-9e98-6d45893b095f" ></a>
 			  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h3">circular effect flow</span>](#667bf36a-581a-4abe-b544-2d849608a3e4)
 			- ### change <a class="logseq-meta" id="667c008f-cd1f-4a6b-a9c8-d6efa1d8d342" data-collapsed="true" ></a>
-			  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [self-effect](#667bff0e-d45d-4d41-8683-51c3cf76c0bc)
+			  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [self-effect](#667bff0e-d45d-4d41-8683-51c3cf76c0bc)
 				- self-effect <a class="logseq-meta" id="667bff0e-d45d-4d41-8683-51c3cf76c0bc" ></a>
 				  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h3">change</span>](#667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)
 					- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [self-effect](#667bff0e-d45d-4d41-8683-51c3cf76c0bc) is a [turn](https://en.wikipedia.org/wiki/Turn_(angle)) in the [<span class="link-h3">circular effect flow</span>](#667bf36a-581a-4abe-b544-2d849608a3e4).
@@ -1161,7 +1161,7 @@
 			- light ray <a class="logseq-meta" id="671b6fee-d1e3-43f0-a5a5-7033e48d6e56" ></a>
 			  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [((667d15b7-6364-49a9-ac58-c64d2a992b63)) of ((671b6c19-7dee-4548-9154-a5eddbe870fc))](#671b6f87-7492-4eab-af49-e3c89bc8c860)
 	- ## view <a class="logseq-meta" id="66723642-58f1-4a74-bba3-0108f14c6bac" data-collapsed="true" ></a>
-	  <br>[Complement:](#6699e4db-2e75-4427-94bb-96dfe0367dd1) [<span class="link-h2">action</span>](#66727858-979d-4d95-8a90-7a749218cfba)
+	  [Complement:](#6699e4db-2e75-4427-94bb-96dfe0367dd1) [<span class="link-h2">action</span>](#66727858-979d-4d95-8a90-7a749218cfba)
 	  <br>[Whole:](#6699e5f2-7788-46c7-8233-87699a65ca30) [<span class="link-h2">view–control</span>](#66725144-6bc9-4c9f-ba48-2cef02651e52)
 	  <br>[Verb:](#66c80da7-c0e8-46d2-85e5-71318fd44eff) [view](#66c811a1-b48b-4f91-9c47-b60be42ee7f4), [see](#66c811a9-e8c7-42c5-bdc9-25fbd023f93a), [sense](#66c86420-37bf-4267-bd6f-8d683aaa42d8)
 		- view <a class="logseq-meta" id="66c811a1-b48b-4f91-9c47-b60be42ee7f4" ></a>
@@ -1178,7 +1178,7 @@
 			- In Buddhism, a [view](https://en.wikipedia.org/wiki/View_(Buddhism)) is a product of [mental conditioning](https://en.wikipedia.org/wiki/Sankhara), and "[Right view](https://en.wikipedia.org/wiki/Noble_Eightfold_Path#Right_view)" is the neutral [<span class="link-h2">view</span>](#66723642-58f1-4a74-bba3-0108f14c6bac) detached from all conditioning, escaped from the "jungle of views".
 		- [Commentaries:](#665359ff-79f1-4669-b10b-f2b0e633a7c1)
 		- ### projection <a class="logseq-meta" id="6653769c-3334-46fa-a1d5-4ce6a7fc23e8" data-collapsed="true" ></a>
-		  <br>[Verb:](#66c80da7-c0e8-46d2-85e5-71318fd44eff) [project](#66c83149-6ee5-4a8c-b4eb-0308d1a11535), [look](#66c82fd4-41e3-43b0-b850-b2b68be68ad5)
+		  [Verb:](#66c80da7-c0e8-46d2-85e5-71318fd44eff) [project](#66c83149-6ee5-4a8c-b4eb-0308d1a11535), [look](#66c82fd4-41e3-43b0-b850-b2b68be68ad5)
 		  <br>[Adjective:](#66c80da9-4cfb-4de7-b83d-8b70665207bf) [projectional](#685a9913-6bf4-41e4-89d1-5000a2b2f9d5)
 			- project <a class="logseq-meta" id="66c83149-6ee5-4a8c-b4eb-0308d1a11535" ></a>
 			  <br>[verb of](#66c80dfd-95e2-4b5a-bd56-06e8307e81ca) [<span class="link-h3">projection</span>](#6653769c-3334-46fa-a1d5-4ce6a7fc23e8)
@@ -1215,12 +1215,12 @@
 			- arrow projection <a class="logseq-meta" id="670dd4d7-ed37-4954-8379-63138fa072d6" ></a>
 			  <br>the most general type of projection.
 			- #### cone projection <a class="logseq-meta" id="670ce218-a01f-4609-b7f2-beda7cf2ebc3" data-logbook="CLOCK: [2024-10-15 Tue 09:38:46]&#10;" ></a>
-			  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [viewcone](#667251ec-d4f7-4c09-adff-73e04a4b22ed)
+			  [alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [viewcone](#667251ec-d4f7-4c09-adff-73e04a4b22ed)
 			  <br>[<span class="link-h3">ε-abstraction</span>](#676545b3-2d9f-43af-8ff0-3543dbe73159)
 				- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) The most common type of projection is [<span class="link-h4">cone projection</span>](#670ce218-a01f-4609-b7f2-beda7cf2ebc3) where projection arrow is a [<span class="link-h3">view cone</span>](#6672513b-c4b0-4c88-8b30-c60a3c6555a7): the world at the cone base is projected to its image at the cone apex.
 					- A two-way projection within a double cone is called [<span class="link-h3">obop projection</span>](#68908fbd-acc3-41a6-8c38-17ee1f014223).
 			- #### wrapping projection <a class="logseq-meta" id="670cdcb4-3c85-45af-8c30-3c3284ed37df" data-logbook="CLOCK: [2024-10-14 Mon 16:04:06]&#10;" ></a>
-			  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [pipe wrapping](#67ee3a68-db55-49a9-947a-9399b4c3e3fa)
+			  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [pipe wrapping](#67ee3a68-db55-49a9-947a-9399b4c3e3fa)
 			  <br>[<span class="link-h3">φ-abstraction</span>](#676545e8-429c-41e7-97ed-12cc8e8870d4)
 				- pipe wrapping <a class="logseq-meta" id="67ee3a68-db55-49a9-947a-9399b4c3e3fa" ></a>
 				  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h4">wrapping projection</span>](#670cdcb4-3c85-45af-8c30-3c3284ed37df)
@@ -1230,28 +1230,28 @@
 						- wrapping projection is within the space only, while cone projection is the diagonal between space and time.
 					- n-th term in Fourier series = wrapping with $dr_0/n$
 			- #### winding projection <a class="logseq-meta" id="67654ecb-896a-4421-95e5-f72c07fc62a4" data-logbook="CLOCK: [2024-12-20 Fri 18:21:59]&#10;" ></a>
-			  <br>[<span class="link-h3">ω-abstraction</span>](#67654618-70d2-49cd-88b7-f7c4e161dfd9)
+			  [<span class="link-h3">ω-abstraction</span>](#67654618-70d2-49cd-88b7-f7c4e161dfd9)
 				- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8)
 		- ### observation <a class="logseq-meta" id="66c835e9-83df-4f36-a133-e5ba5926e4ef" data-collapsed="true" ></a>
-		  <br>[Verb:](#66c80da7-c0e8-46d2-85e5-71318fd44eff) [observe](#66c835f1-29a9-4e07-90b8-92bcd89cdb9b), [watch](#66c835f5-58ee-485f-914c-3d95167feeb3)
+		  [Verb:](#66c80da7-c0e8-46d2-85e5-71318fd44eff) [observe](#66c835f1-29a9-4e07-90b8-92bcd89cdb9b), [watch](#66c835f5-58ee-485f-914c-3d95167feeb3)
 			- observe <a class="logseq-meta" id="66c835f1-29a9-4e07-90b8-92bcd89cdb9b" ></a>
 			  <br>[verb of](#66c80dfd-95e2-4b5a-bd56-06e8307e81ca) [<span class="link-h3">observation</span>](#66c835e9-83df-4f36-a133-e5ba5926e4ef)
 			- watch <a class="logseq-meta" id="66c835f5-58ee-485f-914c-3d95167feeb3" ></a>
 			  <br>[verb of](#66c80dfd-95e2-4b5a-bd56-06e8307e81ca) [<span class="link-h3">observation</span>](#66c835e9-83df-4f36-a133-e5ba5926e4ef)
 		- ### viewpoint <a class="logseq-meta" id="667272b8-88a8-4928-a22a-35035c9edf05" data-collapsed="true" ></a>
-		  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [eye point](#68a7d02b-ebf4-4356-a98a-e881ae817f6a), [center of projection](#66728236-5b19-425c-bb5f-dfc0dc8b79fd)
+		  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [eye point](#68a7d02b-ebf4-4356-a98a-e881ae817f6a), [center of projection](#66728236-5b19-425c-bb5f-dfc0dc8b79fd)
 			- center of projection <a class="logseq-meta" id="66728236-5b19-425c-bb5f-dfc0dc8b79fd" ></a>
 			  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h3">viewpoint</span>](#667272b8-88a8-4928-a22a-35035c9edf05)
 			- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h3">viewpoint</span>](#667272b8-88a8-4928-a22a-35035c9edf05) is the position of the sensor (of the subject) where the world is projected to the coresponding [<span class="link-h2">view</span>](#66723642-58f1-4a74-bba3-0108f14c6bac). <a class="logseq-meta" id="66728162-7ad9-4b46-b7ce-dfffc58254bc" ></a>
 			- [Commentaries:](#665359ff-79f1-4669-b10b-f2b0e633a7c1)
 				- "Point of view" is an ambiguous term, whose literal meaning is a [<span class="link-h3">viewpoint</span>](#667272b8-88a8-4928-a22a-35035c9edf05), but its figurative meaning is a [perspective](#667259a0-aa2e-49fa-bcbd-b3768a9f30b2).
 		- ### view scale <a class="logseq-meta" id="68c763ce-b8e4-4091-b3b8-e188a16ea431" data-collapsed="true" ></a>
-		  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [viewscale](#68c763fb-ca93-4f2d-b20f-ae8cbf5cf8e2)
+		  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [viewscale](#68c763fb-ca93-4f2d-b20f-ae8cbf5cf8e2)
 			- viewscale <a class="logseq-meta" id="68c763fb-ca93-4f2d-b20f-ae8cbf5cf8e2" ></a>
 			  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h3">view scale</span>](#68c763ce-b8e4-4091-b3b8-e188a16ea431)
 			-
 		- ### view cone <a class="logseq-meta" id="6672513b-c4b0-4c88-8b30-c60a3c6555a7" data-collapsed="true" ></a>
-		  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [viewcone](#667251ec-d4f7-4c09-adff-73e04a4b22ed), [perspective](#667259a0-aa2e-49fa-bcbd-b3768a9f30b2), [cause cone](#667bda02-8dc9-488e-ba16-ea75c3d7895c), [<span class="link-h4">cone projection</span>](#670ce218-a01f-4609-b7f2-beda7cf2ebc3)
+		  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [viewcone](#667251ec-d4f7-4c09-adff-73e04a4b22ed), [perspective](#667259a0-aa2e-49fa-bcbd-b3768a9f30b2), [cause cone](#667bda02-8dc9-488e-ba16-ea75c3d7895c), [<span class="link-h4">cone projection</span>](#670ce218-a01f-4609-b7f2-beda7cf2ebc3)
 		  <br>[Complement:](#6699e4db-2e75-4427-94bb-96dfe0367dd1) [light cone](#667bd931-8759-4008-8a9a-33e78a5cbdf3)
 			- viewcone <a class="logseq-meta" id="667251ec-d4f7-4c09-adff-73e04a4b22ed" ></a>
 			  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h3">view cone</span>](#6672513b-c4b0-4c88-8b30-c60a3c6555a7)
@@ -1493,7 +1493,7 @@
 		- ### scope <a class="logseq-meta" id="685a47e4-21f2-40d6-b80c-d3adf401489b" data-collapsed="true" ></a>
 			- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h3">scope</span>](#685a47e4-21f2-40d6-b80c-d3adf401489b) is the base of the [<span class="link-h3">view cone</span>](#6672513b-c4b0-4c88-8b30-c60a3c6555a7), defining which objects to be [view](#66c811a1-b48b-4f91-9c47-b60be42ee7f4)ed, i.e. the content of the view.
 		- ### view frame <a class="logseq-meta" id="685a47f5-728a-4b34-95c5-d8e3bba5aad1" data-collapsed="true" ></a>
-		  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [viewframe](#685a480b-1739-4057-aaa8-c099dc95142e), [lens](#685a50e9-6854-42a5-a6cf-5190765881ff)
+		  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [viewframe](#685a480b-1739-4057-aaa8-c099dc95142e), [lens](#685a50e9-6854-42a5-a6cf-5190765881ff)
 			- viewframe <a class="logseq-meta" id="685a480b-1739-4057-aaa8-c099dc95142e" ></a>
 			  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h3">view frame</span>](#685a47f5-728a-4b34-95c5-d8e3bba5aad1)
 			- lens <a class="logseq-meta" id="685a50e9-6854-42a5-a6cf-5190765881ff" ></a>
@@ -1519,7 +1519,7 @@
 		  <br>the [perspective](#667259a0-aa2e-49fa-bcbd-b3768a9f30b2) about the [<span class="link-h2">world</span>](#667cfac2-17f1-4cbd-9f6d-1e722ff2a870)
 			- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Worldview
 		- ### eye <a class="logseq-meta" id="669a2487-054d-4408-ae41-189e34af81a9" data-collapsed="true" ></a>
-		  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [viewer](#66c8613b-ce1a-4263-b24d-fc2172d5b59f), [observer](#669a2697-56af-445c-9197-24aa498a5d5b), [sensor](#669a2886-9e03-41a4-a790-24bf6b7dcd96), [projector](#66c85d4d-64de-48d9-b384-eebdc2635ab2)
+		  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [viewer](#66c8613b-ce1a-4263-b24d-fc2172d5b59f), [observer](#669a2697-56af-445c-9197-24aa498a5d5b), [sensor](#669a2886-9e03-41a4-a790-24bf6b7dcd96), [projector](#66c85d4d-64de-48d9-b384-eebdc2635ab2)
 		  <br>[Dual:](#6699ea73-dc77-4227-a293-b501f2eb1759) [hand](#b67b7276-441e-43f2-a5c1-81e3cbe0659e)
 		  <br>[Whole:](#6699e5f2-7788-46c7-8233-87699a65ca30) [<span class="link-h2">observer–operator</span>](#669a2c12-1dad-42a0-ab31-f03642b4aa8a)
 			- viewer <a class="logseq-meta" id="66c8613b-ce1a-4263-b24d-fc2172d5b59f" ></a>
@@ -1538,7 +1538,7 @@
 			- #### eyeball <a class="logseq-meta" id="66c87a15-e49f-4c86-8f31-f21042f4892c" ></a>
 				- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h4">eyeball</span>](#66c87a15-e49f-4c86-8f31-f21042f4892c) is the [<span class="link-h2">body</span>](#66c810a0-9861-4787-bdcf-1378219332be) of the [<span class="link-h3">eye</span>](#669a2487-054d-4408-ae41-189e34af81a9).
 	- ## action <a class="logseq-meta" id="66727858-979d-4d95-8a90-7a749218cfba" data-collapsed="true" ></a>
-	  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [operation](#6672785f-ac9e-42ba-921e-0264d0d83ae2)
+	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [operation](#6672785f-ac9e-42ba-921e-0264d0d83ae2)
 	  <br>[Complement:](#6699e4db-2e75-4427-94bb-96dfe0367dd1) [<span class="link-h2">view</span>](#66723642-58f1-4a74-bba3-0108f14c6bac)
 	  <br>[Whole:](#6699e5f2-7788-46c7-8233-87699a65ca30) [<span class="link-h2">view–control</span>](#66725144-6bc9-4c9f-ba48-2cef02651e52)
 	  <br>[Verb:](#66c80da7-c0e8-46d2-85e5-71318fd44eff) [act](#66c845ea-635f-4be1-a220-2c7a5049ef83), [do](#66c845fe-6e8e-412e-902e-34ae8d728f90)
@@ -1596,10 +1596,10 @@
 			- [Examples:](#66725725-f76a-4328-b162-f469b87e871b)
 				- The future [light cone](https://en.wikipedia.org/wiki/Light_cone) in physics is a [light cone](#667bd931-8759-4008-8a9a-33e78a5cbdf3).
 			- ### action cone <a class="logseq-meta" id="6847e436-9a84-42c5-a853-75f6d626ed63" ></a>
-			  <br>[Complement:](#6699e4db-2e75-4427-94bb-96dfe0367dd1) [perception double cone](#68df36a4-6a3e-4fc9-b44a-c8e92f62aee1)
+			  [Complement:](#6699e4db-2e75-4427-94bb-96dfe0367dd1) [perception double cone](#68df36a4-6a3e-4fc9-b44a-c8e92f62aee1)
 				- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h3">action cone</span>](#6847e436-9a84-42c5-a853-75f6d626ed63) is the part of [effect cone](#667bd93a-cce4-4dbf-9831-725e4dffe463) limited within the [<span class="link-h2">body</span>](#66c810a0-9861-4787-bdcf-1378219332be) of the [<span class="link-h2">subject</span>](#667cfa3e-9856-43f0-956b-ebb4ff31d8eb). The cone shape is caused by the [tree structure](#667252dc-e610-4d07-bcd0-9ea6fb4499fd) of the body which makes the action of the central operator spread out to peripherals. The tree structure of executions, like function calls in computer programs, also makes the the action spread out in time.
 		- ### actor <a class="logseq-meta" id="669a26cb-50d8-4347-a5c4-7c0c3acf1211" ></a>
-		  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [effector](#6889abf7-7c3c-4ef5-80fe-3edca20268bd), [hand](#b67b7276-441e-43f2-a5c1-81e3cbe0659e)
+		  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [effector](#6889abf7-7c3c-4ef5-80fe-3edca20268bd), [hand](#b67b7276-441e-43f2-a5c1-81e3cbe0659e)
 		  <br>[Complement:](#6699e4db-2e75-4427-94bb-96dfe0367dd1) [viewer](#66c8613b-ce1a-4263-b24d-fc2172d5b59f)
 		  <br>[Whole:](#6699e5f2-7788-46c7-8233-87699a65ca30) [<span class="link-h2">observer–operator</span>](#669a2c12-1dad-42a0-ab31-f03642b4aa8a)
 			- effector <a class="logseq-meta" id="6889abf7-7c3c-4ef5-80fe-3edca20268bd" ></a>
@@ -1610,7 +1610,7 @@
 			  <br>[Dual:](#6699ea73-dc77-4227-a293-b501f2eb1759) [<span class="link-h3">eye</span>](#669a2487-054d-4408-ae41-189e34af81a9)
 			- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h3">actor</span>](#669a26cb-50d8-4347-a5c4-7c0c3acf1211) of an [<span class="link-h2">action</span>](#66727858-979d-4d95-8a90-7a749218cfba) is the [<span class="link-h2">body</span>](#66c810a0-9861-4787-bdcf-1378219332be) that performs that action. When calling a body an “actor”, we emphasize its **role** of performing action as opposed to the [viewer](#66c8613b-ce1a-4263-b24d-fc2172d5b59f) role of the subject of that body. For a body specialized in action, we call it [effector](#6889abf7-7c3c-4ef5-80fe-3edca20268bd) or [hand](#b67b7276-441e-43f2-a5c1-81e3cbe0659e).
 	- ## view–control <a class="logseq-meta" id="66725144-6bc9-4c9f-ba48-2cef02651e52" data-collapsed="true" ></a>
-	  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [viewcontrol](#66727388-ed2b-4f62-b8d7-ed70a0ad4ef3)
+	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [viewcontrol](#66727388-ed2b-4f62-b8d7-ed70a0ad4ef3)
 		- viewcontrol <a class="logseq-meta" id="66727388-ed2b-4f62-b8d7-ed70a0ad4ef3" ></a>
 		  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">view–control</span>](#66725144-6bc9-4c9f-ba48-2cef02651e52)
 		- [Complementary components:](#6699eb54-ce9e-4472-a784-c59ffd47f02b) [<span class="link-h2">view</span>](#66723642-58f1-4a74-bba3-0108f14c6bac), [<span class="link-h2">action</span>](#66727858-979d-4d95-8a90-7a749218cfba)
@@ -1786,7 +1786,7 @@
 			- Each [<span class="link-h2">action</span>](#66727858-979d-4d95-8a90-7a749218cfba) arrow toward an [<span class="link-h2">object</span>](#667cfa42-ade7-4310-9a7b-6d14d01c16da) has a corresponding [<span class="link-h3">projection</span>](#6653769c-3334-46fa-a1d5-4ce6a7fc23e8) arrow backward from that object. <a class="logseq-meta" data-logbook="CLOCK: [2024-08-23 Fri 16:14:01]&#10;" ></a>
 			- [A subject guides its ((66727858-979d-4d95-8a90-7a749218cfba))s via its self-positioning in the ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)), i.e. via the ((667c0481-27f1-4cd4-adcc-390de0e56cb7)) including both the world and its ((667c015e-6223-4f8a-ae84-a93a49f4ff94)). All subject's actions are toward the target ((669a1bec-3347-4915-83e4-dcffc4d482d1)) which is the ((667c0481-27f1-4cd4-adcc-390de0e56cb7)) accurately matching the corresponding ((667c0031-0a87-44c9-9e98-6d45893b095f)) from itself via the world back to itself.](#66b1cfa4-ec86-433e-b5ea-c52c991717c1)
 	- ## observer–operator <a class="logseq-meta" id="669a2c12-1dad-42a0-ab31-f03642b4aa8a" data-collapsed="true" ></a>
-	  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [obop](#94e87dc9-71af-477c-aa70-0f448c2f1e20), [☉](#66f3b94d-6cf8-461a-9312-c9973ac739fe), [◉](#66f3ba0f-ec07-42f2-8ab1-fef0ec30b57d), [seer–doer](#5d7a0798-907d-46b7-8481-99d3be30de9e), [viewer–actor](#fa0b2bc6-05ac-418f-9a86-17635936a656)
+	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [obop](#94e87dc9-71af-477c-aa70-0f448c2f1e20), [☉](#66f3b94d-6cf8-461a-9312-c9973ac739fe), [◉](#66f3ba0f-ec07-42f2-8ab1-fef0ec30b57d), [seer–doer](#5d7a0798-907d-46b7-8481-99d3be30de9e), [viewer–actor](#fa0b2bc6-05ac-418f-9a86-17635936a656)
 	  <br>[Complementary components:](#6699eb54-ce9e-4472-a784-c59ffd47f02b) [<span class="link-h3">eye</span>](#669a2487-054d-4408-ae41-189e34af81a9), [<span class="link-h3">actor</span>](#669a26cb-50d8-4347-a5c4-7c0c3acf1211)
 		- obop <a class="logseq-meta" id="94e87dc9-71af-477c-aa70-0f448c2f1e20" data-collapsed="true" ></a>
 		  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">observer–operator</span>](#669a2c12-1dad-42a0-ab31-f03642b4aa8a)
@@ -1839,7 +1839,7 @@
 			- [66f29d57-a87f-4370-9f32-722922a7bff1](#66f29d57-a87f-4370-9f32-722922a7bff1)
 			- [684f9515-8f95-4004-8aa8-04a10d1ebf11](#684f9515-8f95-4004-8aa8-04a10d1ebf11)
 	- ## aware <a class="logseq-meta" id="66f267bf-5272-4dde-99a1-b220ba5bd852" data-collapsed="true" data-logbook="CLOCK: [2024-09-24 Tue 14:18:27]&#10;CLOCK: [2024-09-24 Tue 14:18:35]&#10;" ></a>
-	  <br>[Noun:](#66c80d5c-181f-4f06-a285-0624a65e9951) [awareness](#66f267f7-01f9-47b9-8376-abd27fdf2930)
+	  [Noun:](#66c80d5c-181f-4f06-a285-0624a65e9951) [awareness](#66f267f7-01f9-47b9-8376-abd27fdf2930)
 	  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) thức, nhận biết
 		- awareness <a class="logseq-meta" id="66f267f7-01f9-47b9-8376-abd27fdf2930" ></a>
 		  <br>[noun of](#66c80dde-a097-4744-8af8-c6e26dcfdda2) [<span class="link-h2">aware</span>](#66f267bf-5272-4dde-99a1-b220ba5bd852)
@@ -1899,7 +1899,7 @@
 		  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [<span class="link-h3">perception</span>](#672ac78d-01b2-48c9-b85b-1fbe946760eb)
 			- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [concrete awareness](#672ac785-4f28-4dd0-a36c-07afef0ee83f) is being aware of some form in the content brought to the obop, i.e. the whole equation ⟪form = content⟫, in contrast to the [abstract awareness](#68995ab6-2839-4aa2-a9db-678eeef62541) which is only the [<span class="link-h2">equal</span>](#6653751a-a1b4-44b0-a81e-0a446eb8918c) ⟪=⟫ in that equation.
 			- ### perception <a class="logseq-meta" id="672ac78d-01b2-48c9-b85b-1fbe946760eb" ></a>
-			  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [concrete awareness](#672ac785-4f28-4dd0-a36c-07afef0ee83f)
+			  [alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [concrete awareness](#672ac785-4f28-4dd0-a36c-07afef0ee83f)
 			  <br>= sensation + awareness
 				- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h3">perception</span>](#672ac78d-01b2-48c9-b85b-1fbe946760eb) is being aware of some form brought to the [Now, in commit `03a0b563`, i just change the id of `perceptual screen` to the new one ``](#66ea4711-1392-4f5c-bea2-badc71a2fb9e) through sensation content.
 		- abstract awareness <a class="logseq-meta" id="68995ab6-2839-4aa2-a9db-678eeef62541" ></a>
@@ -1913,7 +1913,7 @@
 			  <br>[noun of](#66c80dde-a097-4744-8af8-c6e26dcfdda2) [self-aware](#672a0c51-a6cb-4570-b9ef-266d3e31763d)
 			  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [consciousness](#66f2681b-796a-4e25-b778-ba4fb6419425)
 			- ### conscious <a class="logseq-meta" id="66f267df-e3b0-444b-a721-1225ca59d292" data-collapsed="true" data-logbook="CLOCK: [2024-09-24 Tue 14:19:07]&#10;CLOCK: [2024-09-24 Tue 14:19:10]&#10;" ></a>
-			  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [self-aware](#672a0c51-a6cb-4570-b9ef-266d3e31763d) 
+			  [alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [self-aware](#672a0c51-a6cb-4570-b9ef-266d3e31763d) 
 			  <br>[Noun:](#66c80d5c-181f-4f06-a285-0624a65e9951) [consciousness](#66f2681b-796a-4e25-b778-ba4fb6419425)
 			  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [ý thức](#66f2750c-a5ee-4ea6-aba5-f6587397ab5e)
 				- consciousness <a class="logseq-meta" id="66f2681b-796a-4e25-b778-ba4fb6419425" ></a>
@@ -1926,7 +1926,7 @@
 			- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) While the [self-effect](#667bff0e-d45d-4d41-8683-51c3cf76c0bc) defines the objective [form of self](#68186996-419d-4370-bc26-60e56869f3d0), the subjective [<span class="link-h3">sense of self</span>](#67f9100a-b749-4354-ae16-92dc74ff27da) is created by the [self-awareness](#672a0c61-ae93-440a-84e6-13778c8e91ca). It also maintains the [worldview](#6731b8c8-0ab1-4c16-8783-408258f67a4a) integrated from the subject's experiences. All actions of the subject are to keep this worldview integrative. <a class="logseq-meta" id="681826ac-495a-4eee-8b78-101b95b5a28f" ></a>
 			- Ref: [human self-awareness](https://en.wikipedia.org/wiki/Self-awareness)
 	- ## sense <a class="logseq-meta" id="6731c3c6-aee6-468d-a86c-0d470c4a6706" data-collapsed="true" data-logbook="CLOCK: [2024-11-11 Mon 15:53:50]&#10;" ></a>
-	  <br>[Adjective:](#66c80da9-4cfb-4de7-b83d-8b70665207bf) [sensitive](#6731c3ce-d9ae-4413-bada-7527ad5125b0), [sensate](#6731c4c4-e803-4de7-9961-e879a8c9c8b9)
+	  [Adjective:](#66c80da9-4cfb-4de7-b83d-8b70665207bf) [sensitive](#6731c3ce-d9ae-4413-bada-7527ad5125b0), [sensate](#6731c4c4-e803-4de7-9961-e879a8c9c8b9)
 	  <br>[Noun:](#66c80d5c-181f-4f06-a285-0624a65e9951) [sensor](#669a2886-9e03-41a4-a790-24bf6b7dcd96)
 		- sensate <a class="logseq-meta" id="6731c4c4-e803-4de7-9961-e879a8c9c8b9" ></a>
 		  <br>[adjective of](#66c80e01-002b-42ae-9c60-49bf3fc6e159) [<span class="link-h2">sense</span>](#6731c3c6-aee6-468d-a86c-0d470c4a6706)
@@ -1944,7 +1944,7 @@
 	- ## `in`-`ex` partition <a class="logseq-meta" data-collapsed="true" ></a>
 		-
 	- ## CIE <a class="logseq-meta" id="66b1cfa4-e22c-4424-bf19-a6ce4649da77" data-collapsed="true" ></a>
-	  <br>[content](#66b1cfa4-2537-4361-a626-da81ca5b4e6f) ÷ [intent](#66f3c97f-94e8-4783-96c5-fe9cadf4f9a9) = [extent](#66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)
+	  [content](#66b1cfa4-2537-4361-a626-da81ca5b4e6f) ÷ [intent](#66f3c97f-94e8-4783-96c5-fe9cadf4f9a9) = [extent](#66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)
 	  <br>content = intent × extent
 	  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [Ψ](#66f3c32c-9b5a-4e5a-95cc-411256b40b4f)
 		- Ψ <a class="logseq-meta" id="66f3c32c-9b5a-4e5a-95cc-411256b40b4f" data-collapsed="true" ></a>
@@ -2031,7 +2031,7 @@
 				- Thuộc tính mở rộng: nội dung, kích thước (ngoại diên)
 				- Function = hàm: The old meaning of “*function as a container of variables and parameters*” ([Bernoulli 1718, Euler 1748](https://en.wikipedia.org/wiki/History_of_the_function_concept)), as captured by the Sino-Vietnamese term “hàm” [函], is retrieved here in the partition “extensive - intensive”. The modern meaning of “function as a mapping” was introduced by Dirichlet in 1837.
 		- ### SCIFER <a class="logseq-meta" id="66f40210-cca6-4d81-85e7-d0c54ef20451" data-collapsed="true" data-logbook="CLOCK: [2024-09-25 Wed 19:29:20]&#10;" ></a>
-		  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [∅](#687f528d-f612-40ef-8731-75ed54d0a960)
+		  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [∅](#687f528d-f612-40ef-8731-75ed54d0a960)
 			- ∅ <a class="logseq-meta" id="687f528d-f612-40ef-8731-75ed54d0a960" ></a>
 			  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h3">SCIFER</span>](#66f40210-cca6-4d81-85e7-d0c54ef20451)
 			- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) In [Unithread](#66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d) theory, all forms are generated through the [<span class="link-h3">SCIFER</span>](#66f40210-cca6-4d81-85e7-d0c54ef20451) mechanism by the [<span class="link-h3">interunion</span>](#687f5b57-04c6-4e38-9b67-4a22cbf6e3df) between the [content](#66b1cfa4-2537-4361-a626-da81ca5b4e6f) and the [intent](#66f3c97f-94e8-4783-96c5-fe9cadf4f9a9) $c⋇i$. <a class="logseq-meta" id="6735b187-6f6a-4dee-9f22-b7db6f8af855" ></a>
@@ -2219,10 +2219,10 @@
 				- [intent equality](#66e40f75-0573-484e-8cb6-b6b8071ffb8c)
 					- all levels of $s_k$
 	- ## FoC <a class="logseq-meta" id="66f3b5e5-496a-4545-be7a-b1df2d94bd11" data-collapsed="true" data-logbook="CLOCK: [2024-09-25 Wed 14:04:07]&#10;" ></a>
-	  <br>[<span class="link-h2">form</span>](#665ca429-84e3-49ff-921e-c07d19cd99ba) ☉ [<span class="link-h2">content</span>](#6678288e-699b-4325-bdba-bf6349fe0d57)
+	  [<span class="link-h2">form</span>](#665ca429-84e3-49ff-921e-c07d19cd99ba) ☉ [<span class="link-h2">content</span>](#6678288e-699b-4325-bdba-bf6349fe0d57)
 	  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [<span class="link-h3">being</span>](#678e1c3f-6202-45aa-8527-f4bdad9927b9)
 		- ### being <a class="logseq-meta" id="678e1c3f-6202-45aa-8527-f4bdad9927b9" ></a>
-		  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">FoC</span>](#66f3b5e5-496a-4545-be7a-b1df2d94bd11)
+		  [alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">FoC</span>](#66f3b5e5-496a-4545-be7a-b1df2d94bd11)
 			- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) Each [<span class="link-h3">being</span>](#678e1c3f-6202-45aa-8527-f4bdad9927b9) is an [instance](#66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe) of the [<span class="link-h2">Trinion</span>](#669dfc7d-5355-41db-93a1-8d590e8ec9d8), which is a [concrete](#68932044-a013-4cc6-b468-df8f3a43103c) thing containing the three components: [<span class="link-h2">form</span>](#665ca429-84e3-49ff-921e-c07d19cd99ba) (○), [<span class="link-h2">content</span>](#6678288e-699b-4325-bdba-bf6349fe0d57) (↑) and [obop](#94e87dc9-71af-477c-aa70-0f448c2f1e20) (☉, =). Containing obop, all beings are [<span class="link-h2">subject</span>](#667cfa3e-9856-43f0-956b-ebb4ff31d8eb)s.
 			- [<span class="link-h2">abstraction</span>](#66537674-6cf9-4459-8bea-7c1858c694a3)s of being
 				- Abstracting the obop, the [<span class="link-h2">body</span>](#66c810a0-9861-4787-bdcf-1378219332be) of a being is an [<span class="link-h2">object</span>](#667cfa42-ade7-4310-9a7b-6d14d01c16da).
@@ -2286,7 +2286,7 @@
 				- sustent <a class="logseq-meta" id="687f322c-2334-46e5-816b-57889e5c6b89" ></a>
 				  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [**universal content**](#678e1d31-4874-4df6-bfb4-60822a6b5546)
 		- ### FoC dynamics <a class="logseq-meta" id="6858b355-fba9-4e61-9f16-bc993a3df44b" data-collapsed="true" ></a>
-		  <br>[differentiation](#1a22a090-6786-4114-8aad-35b122783bff) of content → partiality of form → [<span class="link-h3">change</span>](#667c008f-cd1f-4a6b-a9c8-d6efa1d8d342) of obop
+		  [differentiation](#1a22a090-6786-4114-8aad-35b122783bff) of content → partiality of form → [<span class="link-h3">change</span>](#667c008f-cd1f-4a6b-a9c8-d6efa1d8d342) of obop
 		  <br>part ⇒ diff ⇒ change
 			- Differentiation: Every component is differentiated from the Trinion, hence equal to the Trinion in some aspect but not the whole Trinion.
 				- The closed form (Circle) is the image of the Trinion but not the whole Trinion.
@@ -2704,7 +2704,7 @@
 					- if em-dashes are used, they may include spaces — like this — for a lighter tone.
 				- [CreatZy style](#684f951b-4f21-4783-a4a6-3fe5d638c64c) uses spaced en-dash in stead of closed em-dash for interruption, because the closed (unspaced) em-dash looks like a word connector, e.g. “Bose—Einstein”, which is misleading.
 	- ## Universal Information <a class="logseq-meta" id="66537a41-f229-4891-803e-828573eb44f3" data-collapsed="true" ></a>
-	  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [Unïnfo](#66537a44-f579-4fcc-a02b-2f32d0d409fc)
+	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [Unïnfo](#66537a44-f579-4fcc-a02b-2f32d0d409fc)
 		- Unïnfo <a class="logseq-meta" id="66537a44-f579-4fcc-a02b-2f32d0d409fc" ></a>
 		  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">Universal Information</span>](#66537a41-f229-4891-803e-828573eb44f3)
 			- [Etymology:](#669a1e5f-734c-41c1-bf1c-21813b6e81d8) “**Uni**versal **Info**rmation” → “Uni-info” /ˈjuːnɪˌɪnfoʊ/ → “Uniinfo” → “Unïnfo” /ˈjuːniːnfoʊ/
@@ -2724,7 +2724,7 @@
 				- Later on, when studying the [Unithread](#66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d) Theory, he discovered the invisible [sustent](#687f322c-2334-46e5-816b-57889e5c6b89) underlying the visible [extent](#66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)s (information, energy, mass, charges, ...).
 				- That means, instead of “information”, the “universal substance underlying everything” is formally modeled as the  [<span class="link-h2">Omnifold</span>](#675c03d8-3185-41a8-9f98-e869fabec793) and the [<span class="link-h3">Ω-thread</span>](#66ab75a1-f4a0-4bab-a002-8e573546623a), which capture not only information but also _the underlying **sustent** that carries information_.
 	- ## Unïnfo Theory <a class="logseq-meta" id="669dfc9f-b5e2-448a-b6f4-be13c5bfbccb" data-collapsed="true" ></a>
-	  <br>The Theory of [<span class="link-h2">Universal Information</span>](#66537a41-f229-4891-803e-828573eb44f3)
+	  The Theory of [<span class="link-h2">Universal Information</span>](#66537a41-f229-4891-803e-828573eb44f3)
 		- GitHub: https://github.com/bixycler/Uniinfo
 		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) The published theoretical part of the [Unïnfo](#66537a44-f579-4fcc-a02b-2f32d0d409fc).
 			- The metaphysical theory of Unïnfo [𝕄]
@@ -2748,7 +2748,7 @@
 			- Knowledge Theory [𝕂]
 			- uninet [**ᔕ**]
 	- ## Trinion <a class="logseq-meta" id="669dfc7d-5355-41db-93a1-8d590e8ec9d8" data-collapsed="true" ></a>
-	  <br>[Circle](#66f3d561-424a-4e1d-be55-98ac39c48502) [Equal](#66f3d5cc-0d68-47bb-b09a-87cda33c7354) [Arrow](#66f3d5ca-a982-4d12-b307-fd4812adeb3b)
+	  [Circle](#66f3d561-424a-4e1d-be55-98ac39c48502) [Equal](#66f3d5cc-0d68-47bb-b09a-87cda33c7354) [Arrow](#66f3d5ca-a982-4d12-b307-fd4812adeb3b)
 	  <br>○ = ↑
 	  <br>“A platform, not a foundation.”
 		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) In [<span class="link-h2">Unïnfo Theory</span>](#669dfc9f-b5e2-448a-b6f4-be13c5bfbccb), every concrete thing, i.e. [<span class="link-h3">being</span>](#678e1c3f-6202-45aa-8527-f4bdad9927b9), is made of [Three components of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8))](#66f3d4a2-375f-4098-9228-66c611f0da90): Circle, Arrow and Equal. These components are described in the [three postulates](#66f3d61c-35d0-46ae-9786-752af40e64c4). Corresponding to the three components, there are [three intrinsics](#66f3e0be-7d8c-45d6-92c3-6bad456555c9) of the Trinion – the _static_, the _dynamic_ and the _balance_ – which show the [<span class="link-h3">Vacantism</span>](#66f3ed94-4f20-4166-8e9b-2e8ba53aaad2) of [Unïnfo](#66537a44-f579-4fcc-a02b-2f32d0d409fc). Vacantism means that the [<span class="link-h2">Trinion</span>](#669dfc7d-5355-41db-93a1-8d590e8ec9d8) is neither the ultimate truth, nor the [first principle](https://en.wikipedia.org/wiki/First_principle), nor the primordial existence, but just the experiential launchpad for the theory of [Unïnfo](#66537a44-f579-4fcc-a02b-2f32d0d409fc).
@@ -2811,7 +2811,7 @@
 				   <br>In stead of extending the view to the whole, when we reduce the self to zero, just look at the contact point, the incidence point, we see the contacting parties always balance each other.
 					- ![Intrinsic balance - micro.png](../assets/Uniinfo/Intrinsic balance - micro.png)
 		- ### Vacantism <a class="logseq-meta" id="66f3ed94-4f20-4166-8e9b-2e8ba53aaad2" data-collapsed="true" ></a>
-		  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [vô nguyên](#66f3f2ad-5b53-4322-889a-f2c85f135fbf), [無元](#66f3f2ca-cb22-4357-82aa-c8fcf8cc7b3e)
+		  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [vô nguyên](#66f3f2ad-5b53-4322-889a-f2c85f135fbf), [無元](#66f3f2ca-cb22-4357-82aa-c8fcf8cc7b3e)
 		  <br>“An openness, not a nothingness.”
 		  <br>[Adjective:](#66c80da9-4cfb-4de7-b83d-8b70665207bf) [vacantistic](#68b95b62-9e60-4ef2-9540-f563c76a5d17)
 			- vô nguyên <a class="logseq-meta" id="66f3f2ad-5b53-4322-889a-f2c85f135fbf" ></a>
@@ -2957,7 +2957,7 @@
 		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [balance](#669a1d82-91c8-40fd-81f5-e8ffe56e9e9c) is the natural [<span class="link-h2">Way</span>](#665379e5-5bf4-4e00-ab03-9f41ff14cccc) of the [<span class="link-h2">Universe</span>](#66537a0b-d107-4f7e-b01f-bf624a647d8c) and should be the chosen way of life. In Buddhism, it's called [Middle Way](https://en.wikipedia.org/wiki/Middle_Way), and in Taoism, it's called simply [The Way](https://en.wikipedia.org/wiki/Tao).
 		- refinement techniques <a class="logseq-meta" id="67b541d0-f477-4c3a-b444-fb522c3fdc4f" data-collapsed="true" ></a>
 			- ### equalize <a class="logseq-meta" id="68871ce1-eb57-4be3-ad48-45af6ccb5d49" data-collapsed="true" ></a>
-			  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [detach–attach](#68871d20-c27b-4b0d-8342-b8af093e5849)
+			  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [detach–attach](#68871d20-c27b-4b0d-8342-b8af093e5849)
 				- detach–attach <a class="logseq-meta" id="68871d20-c27b-4b0d-8342-b8af093e5849" ></a>
 				  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h3">equalize</span>](#68871ce1-eb57-4be3-ad48-45af6ccb5d49)
 					- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) In equanimity of meditation, with zero current self-circle, [observing](#6889c11f-e881-432f-ba0f-876b61afc60c) the field of dormant intents, use the “inner hands” to *detach the attachments/likes, and attach the detachments/dislikes*, all to the _equal distance of “**one arm's length**”_. When all intents are equalized, the [obop](#94e87dc9-71af-477c-aa70-0f448c2f1e20) is effectively placed at the **center** of the karmic [<span class="link-h3">self-circle</span>](#669a5387-2a97-4311-a295-aa0afd9c4d76) (from the past, not the current self-circle). From the empty center, the obop freely handles intents on the circumference via [transverse movements around view circle](#68882160-10b9-4bd2-998e-28efa9b215d6), instead of longitudinal motions along view cone.
@@ -2995,7 +2995,7 @@
 						- My first description of the empty center, as a vacant room, in the post [Chấp nhận được là tình thương](https://creatzynotes.blogspot.com/2021/02/chap-nhan-uoc-la-tinh-thuong.html?m=1)
 							- > Chấp nhận một cái thì trước mắt liền sáng ra, sáng rực rỡ mà không hề chói loá. Chẳng biết diễn tả cái nơi sáng rực đó thế nào, nhưng đại loại nó như cái bàn tròn mà không có bàn, cái hội trường mà không có tường và bàn ghế. Ở đó mọi người biết nhau hết mà không cần gọi tên, thấy nhau hết từ trong ra ngoài mà không chút ngại ngần.
 			- ### let-go <a class="logseq-meta" id="669a4f1e-4205-4874-b1b0-0fc9f6bb0e8d" data-collapsed="true" ></a>
-			  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) buông xả, [relax–reduce](#669a5162-19e1-4c52-8888-ab7cbfe275ec), [accept–release](#68773fad-d653-4536-87b5-d4b493753b41)
+			  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) buông xả, [relax–reduce](#669a5162-19e1-4c52-8888-ab7cbfe275ec), [accept–release](#68773fad-d653-4536-87b5-d4b493753b41)
 				- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) This is the main technique to achieve [equanimity](#669a3da2-1e6c-48bd-950f-af1ea1ceda25).
 				- relax–reduce <a class="logseq-meta" id="669a5162-19e1-4c52-8888-ab7cbfe275ec" ></a>
 				  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h3">let-go</span>](#669a4f1e-4205-4874-b1b0-0fc9f6bb0e8d)
@@ -3013,7 +3013,7 @@
 							- Không sao hết! Mọi thứ rồi sẽ qua, không sao hết!
 							- Không tham đắm! Hay mấy rồi cũng qua, không tham đắm!
 			- ### reset <a class="logseq-meta" id="67445065-15b2-475e-a704-78f140d487af" data-collapsed="true" ></a>
-			  <br>unload the intent structure
+			  unload the intent structure
 				- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) Instead of ~~[aiming at the destination](#684f9517-db29-4079-8674-09e0ffaff6ba)~~, let's [reset](#67445065-15b2-475e-a704-78f140d487af) the mind to _**start** the new journey!_ Start from resetting the [attitude](#684f9517-33c3-4a20-9fd1-936d9cc98fee), then [**detach the self** by **exposing the [hidden boss](((684f9517-d0a4-43f7-bfb2-766340b63655)))**](#674c11d4-894a-46d1-b653-5e8148773d7a), with continous [training the non-attached looking](#684f9517-48e7-46ae-943d-8744cdd07564) which is supported by [microreset](#67cff615-ec0d-4831-9851-59410cb89cf1).
 				- Reset button <a class="logseq-meta" data-collapsed="true" ></a>
 					- ![reset button](../assets/Will/story/2024-10/fixing-water-heater-reset-button-that-won_t-click-in-2-steps.png){:width 200}
@@ -3225,7 +3225,7 @@
 						- “When you have reached the top of the mountain, keep climbing!”
 						  <br>a (Tibetan Zen) proverb
 			- ### sublime–channel <a class="logseq-meta" id="668f5490-c223-4a8a-9cc4-0bd71af4c097" data-collapsed="true" ></a>
-			  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) thăng hoa – dẫn lưu
+			  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) thăng hoa – dẫn lưu
 				- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) First, use breathwork to dissolve, to _sublimate_ the hard [<span class="link-h3">self-circle</span>](#669a5387-2a97-4311-a295-aa0afd9c4d76) into a fluid (qi, khí, 氣), then use qigong (氣功) & [ujjayi breath](#66952126-bf33-40e1-a208-369df7aa9488) to transform & _channel_ the fluid to the required target form. The process should repeat until we reach [equilibrium](#669a58b9-2104-4d4c-b68f-7a45e2adb915).
 				- **Ujjayi** breathing technique for [<span class="link-h3">sublime–channel</span>](#668f5490-c223-4a8a-9cc4-0bd71af4c097) <a class="logseq-meta" id="66952126-bf33-40e1-a208-369df7aa9488" data-collapsed="true" data-logbook="CLOCK: [2024-07-15 Mon 20:28:28]&#10;" ></a>
 					- With the sublime–channeling mind, i've found that my breath is "strong & noisy inside", which is very similar to the [Ujjayi Pranayama](https://en.wikipedia.org/wiki/Ujjayi) of yoga. <a class="logseq-meta" id="66b1cfa3-93c4-4de3-8904-06fb065ded70" ></a>
@@ -3244,7 +3244,7 @@
 					- [August 5th 2025](#6892ac8b-8b7c-4129-8a62-5c38065f7898), i saw that sublime–channel technique has the effect of dissolving intents, helping [intents penetration](#689029a3-c02b-4cb9-b1bd-205f12c97391) in the [intents equalization](#68871ce1-eb57-4be3-ad48-45af6ccb5d49).
 				- [Commentaries:](#665359ff-79f1-4669-b10b-f2b0e633a7c1)
 			- ### subtilize <a class="logseq-meta" id="66aded27-9701-4b6e-85e8-22049ddbe2d2" data-collapsed="true" data-logbook="CLOCK: [2024-08-17 Sat 19:09:56]&#10;CLOCK: [2025-03-11 Tue 15:35:24]--[2025-03-11 Tue 15:51:15] =&gt;  00:15:51&#10;" ></a>
-			  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [microreset](#67cff615-ec0d-4831-9851-59410cb89cf1)
+			  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [microreset](#67cff615-ec0d-4831-9851-59410cb89cf1)
 				- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) The [<span class="link-h3">self-circle</span>](#669a5387-2a97-4311-a295-aa0afd9c4d76) is repeatedly broken down into smaller circles, which eventually lead to selflessness.
 				- microreset <a class="logseq-meta" id="67cff615-ec0d-4831-9851-59410cb89cf1" ></a>
 				  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h3">subtilize</span>](#66aded27-9701-4b6e-85e8-22049ddbe2d2)
@@ -3252,7 +3252,7 @@
 					- [History:](#6667abd2-14eb-4145-b9e3-e6f3037b3117) <a class="logseq-meta" data-collapsed="true" ></a>
 						- I discovered this technique in the middle of the 3 months lockdown for Covid-19 in Vietnam around 2021 July-September.
 			- ### introspect <a class="logseq-meta" id="6889c11f-e881-432f-ba0f-876b61afc60c" data-collapsed="true" ></a>
-			  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [look behind the eyes](#68898917-e61f-4d23-9124-474efa9a9eee)
+			  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [look behind the eyes](#68898917-e61f-4d23-9124-474efa9a9eee)
 				- look behind the eyes <a class="logseq-meta" id="68898917-e61f-4d23-9124-474efa9a9eee" data-logbook="CLOCK: [2025-07-30 Wed 09:53:20]--[2025-07-30 Wed 19:37:45] =&gt;  09:44:25&#10;" ></a>
 				  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h3">introspect</span>](#6889c11f-e881-432f-ba0f-876b61afc60c)
 					- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) In order to reveal the [perception–action double cone](#685156b0-2f3b-4aa9-8b87-636d38a02cd2) in the [cause–effect mirror circles](#6889a623-34cd-4b65-8a91-5cfdbb199b71) and escape its domination, we must look behind the [sensor](#669a2886-9e03-41a4-a790-24bf6b7dcd96)s.
@@ -3326,7 +3326,7 @@
 		- 3 directions <a class="logseq-meta" id="68392a13-c350-4962-bd37-b819c8e1f931" data-collapsed="true" data-logbook="CLOCK: [2025-06-02 Mon 14:34:06]--[2025-06-17 Tue 10:30:49] =&gt;  355:56:43&#10;" ></a>
 			- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [3 directions](#68392a13-c350-4962-bd37-b819c8e1f931) are {negative, positive, neutral} denoted by {-1/0, +1/0, 0/1}.
 			- ### 3 poisons <a class="logseq-meta" id="6839229d-9eff-49e4-9480-6e2db6f61127" ></a>
-			  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [3 unwholesome roots](#68392b10-f06b-4e84-b79d-8a44af03857a), 3 chất độc, 3 gốc bất thiện
+			  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [3 unwholesome roots](#68392b10-f06b-4e84-b79d-8a44af03857a), 3 chất độc, 3 gốc bất thiện
 				- 3 unwholesome roots <a class="logseq-meta" id="68392b10-f06b-4e84-b79d-8a44af03857a" ></a>
 				  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h3">3 poisons</span>](#6839229d-9eff-49e4-9480-6e2db6f61127)
 				- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) [Three poisons](https://en.wikipedia.org/wiki/Three_poisons)
@@ -3350,7 +3350,7 @@
 							- Lúc ngủ này thì si thể hiện bản chất vô minh (ngu si), ta sướng là được rồi không cần quan tâm gì nữa hết, lăn ra ngủ. Nhưng sau đó, lúc thức dậy mở mắt ra để thấy biết thì si thể hiện ra ở chỗ "si mê": do mình đã ôm cái sướng đó cài sâu nó vào trong vô thức (lúc ngủ), nên giờ mình chấp nó một cách nặng nề, mọi thứ mình làm đều chỉ để tìm lại cái sướng đó mà không biết.
 					- [Antidote ((6839229d-9eff-49e4-9480-6e2db6f61127)) with [intent equalization](((68871ce1-eb57-4be3-ad48-45af6ccb5d49))).](#6888276c-d9cc-4843-8f4f-0b3de82fc9d1)
 			- ### 3 antidotes <a class="logseq-meta" id="68392a1f-6685-4d0f-9de8-4ae42964e249" ></a>
-			  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [3 wholesome roots](#68392b40-7afb-4c60-af0a-07abfbcea926), 3 thuốc giải, 3 gốc thiện lành
+			  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [3 wholesome roots](#68392b40-7afb-4c60-af0a-07abfbcea926), 3 thuốc giải, 3 gốc thiện lành
 				- 3 wholesome roots <a class="logseq-meta" id="68392b40-7afb-4c60-af0a-07abfbcea926" ></a>
 				  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h3">3 antidotes</span>](#68392a1f-6685-4d0f-9de8-4ae42964e249)
 				- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) [Three wholesome mental factors](https://en.wikipedia.org/wiki/Three_poisons#Opposite_wholesome_qualities)
@@ -3406,7 +3406,7 @@
 	- ## space <a class="logseq-meta" id="68fa1647-2d46-433e-b1ca-29f757b5ef62" data-collapsed="true" data-logbook="CLOCK: [2025-10-23 Thu 18:49:30]&#10;" ></a>
 		- [Complement:](#6699e4db-2e75-4427-94bb-96dfe0367dd1) [<span class="link-h2">time</span>](#68fa164e-ef0e-4010-937d-ad9e0459f5f2)
 	- ## time <a class="logseq-meta" id="68fa164e-ef0e-4010-937d-ad9e0459f5f2" data-collapsed="true" data-logbook="CLOCK: [2025-10-23 Thu 18:49:39]&#10;" ></a>
-	  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h3">circular effect flow</span>](#667bf36a-581a-4abe-b544-2d849608a3e4)
+	  [alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h3">circular effect flow</span>](#667bf36a-581a-4abe-b544-2d849608a3e4)
 		- [Complement:](#6699e4db-2e75-4427-94bb-96dfe0367dd1) [<span class="link-h2">space</span>](#68fa1647-2d46-433e-b1ca-29f757b5ef62)
 		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h2">time</span>](#68fa164e-ef0e-4010-937d-ad9e0459f5f2) is the [<span class="link-h2">flow</span>](#67fcbbc6-915b-4d28-b9cf-098e916cdc86) of [<span class="link-h3">change</span>](#667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)s, each realized as a loop in the [coiling flow of time](#667bf36a-581a-4abe-b544-2d849608a3e4).
 		- [Commentaries:](#665359ff-79f1-4669-b10b-f2b0e633a7c1)
@@ -3475,7 +3475,7 @@
 	- ## gas <a class="logseq-meta" id="671e2778-b438-4114-9c51-aa73bfb0cfe6" ></a>
 	- ## liquid <a class="logseq-meta" id="671e277d-2d1e-42c5-8ea7-58e519a69dca" ></a>
 	- ## condensate <a class="logseq-meta" id="671e2782-2098-41a3-83a7-e042bfb468d7" data-collapsed="true" data-logbook="CLOCK: [2024-10-27 Sun 20:29:57]&#10;" ></a>
-	  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [condensed matter](#671e31f7-b52b-492c-93cb-3233fa40db5a)
+	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [condensed matter](#671e31f7-b52b-492c-93cb-3233fa40db5a)
 	  <br>[Noun:](#66c80d5c-181f-4f06-a285-0624a65e9951) [condensity](#671e3a95-03cf-4fe8-b7c7-c3d7bbe466ec)
 	  <br>[Verb:](#66c80da7-c0e8-46d2-85e5-71318fd44eff) [condense](#671e3d98-0006-43be-b714-247f3d3a0c49)
 		- condensed matter <a class="logseq-meta" id="671e31f7-b52b-492c-93cb-3233fa40db5a" data-collapsed="true" ></a>
@@ -3492,7 +3492,7 @@
 			- condensation <a class="logseq-meta" id="6729b7cf-83b8-4a42-aac7-ec8cf16fa734" ></a>
 			  <br>[noun of](#66c80dde-a097-4744-8af8-c6e26dcfdda2) [condense](#671e3d98-0006-43be-b714-247f3d3a0c49)
 	- ## solid <a class="logseq-meta" id="669a58b9-8e69-43d2-9f59-fedf31bf0670" data-collapsed="true" ></a>
-	  <br>[Noun:](#66c80d5c-181f-4f06-a285-0624a65e9951) [solidity](#671b4cb2-ca87-4e90-89ae-49cebeb573e0)
+	  [Noun:](#66c80d5c-181f-4f06-a285-0624a65e9951) [solidity](#671b4cb2-ca87-4e90-89ae-49cebeb573e0)
 	  <br>[Verb:](#66c80da7-c0e8-46d2-85e5-71318fd44eff) [solidify](#671b4d62-4337-4557-809c-8693593f1260)
 		- solidity <a class="logseq-meta" id="671b4cb2-ca87-4e90-89ae-49cebeb573e0" ></a>
 		  <br>[noun of](#66c80dde-a097-4744-8af8-c6e26dcfdda2) [<span class="link-h2">solid</span>](#669a58b9-8e69-43d2-9f59-fedf31bf0670)
@@ -3511,7 +3511,7 @@
 			- Even looks like crystal, glass is [amorphous](https://en.wikipedia.org/wiki/Amorphous_solid), i.e. non-crystalline, because it lacks the the [long-range order](https://en.wikipedia.org/wiki/Long-range_order "Long-range order") that is characteristic of a [crystal](https://en.wikipedia.org/wiki/Crystal "Crystal").
 			- It's even not a "solid" in the normal sense because it's the [hybrid of liquid and crystal](https://en.wikipedia.org/wiki/Structure_of_liquids_and_glasses)! It's [more liquid than solid](https://en.wikipedia.org/wiki/Glass#Formation_from_a_supercooled_liquid) due to [glass–liquid transition](https://en.wikipedia.org/wiki/Glass_transition) instead of the normal first-order [phase transition](https://en.wikipedia.org/wiki/Phase_transition "Phase transition").
 	- ## crystal <a class="logseq-meta" id="66537bdd-6c99-4d7b-905a-e2a487cae5ce" data-collapsed="true" ></a>
-	  <br>[Verb:](#66c80da7-c0e8-46d2-85e5-71318fd44eff) [crystallize](#671e35d5-231a-4ed4-8c4a-6b200f6ccf20)
+	  [Verb:](#66c80da7-c0e8-46d2-85e5-71318fd44eff) [crystallize](#671e35d5-231a-4ed4-8c4a-6b200f6ccf20)
 	  <br>[Adjective:](#66c80da9-4cfb-4de7-b83d-8b70665207bf) [crystal](#6818a270-b75b-44ee-bbd2-0032846e4cb8)
 		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Crystal
 		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) A [solid](https://en.wikipedia.org/wiki/Solid "Solid") material whose constituents (such as [atoms](https://en.wikipedia.org/wiki/Atom "Atom"), [molecules](https://en.wikipedia.org/wiki/Molecule "Molecule"), or [ions](https://en.wikipedia.org/wiki/Ion "Ion")) are arranged in [crystal structure](https://en.wikipedia.org/wiki/Crystal_structure)  which is a periodic [long-range order](https://en.wikipedia.org/wiki/Long-range_order "Long-range order") that extends in all directions called [<span class="link-h2">lattice</span>](#66537b4c-fa0a-4e95-b854-096e9802aa09) in math.
@@ -3527,12 +3527,12 @@
 		- [Commentaries:](#665359ff-79f1-4669-b10b-f2b0e633a7c1) The lattice group and lattice graph are equivalent which are generalized from the 3D crystal lattice, but the lattice order is different.
 			- There's a hybrid of lattice order with group theory called [ℓ-group](https://encyclopediaofmath.org/wiki/Lattice-ordered_group), i.e. "lattice-ordered group" as a special case of [partially ordered group](https://en.wikipedia.org/wiki/Partially_ordered_group).
 	- ## fold <a class="logseq-meta" id="691ae014-cb3b-407f-b84b-582f0025c37c" data-collapsed="true" data-logbook="CLOCK: [2025-11-17 Mon 15:43:45]&#10;" ></a>
-	  <br>[Opposite:](#691ae2bd-a60f-4db2-8132-bf54e9dee1b0) [unfold](#691ae231-4659-41b8-9c1a-8e702a04753d)
+	  [Opposite:](#691ae2bd-a60f-4db2-8132-bf54e9dee1b0) [unfold](#691ae231-4659-41b8-9c1a-8e702a04753d)
 		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) To [<span class="link-h2">fold</span>](#691ae014-cb3b-407f-b84b-582f0025c37c) is to [transform](#669a58b9-eb34-41cd-8605-02e29b07e1b5) an [<span class="link-h2">arrow</span>](#667d15b7-6364-49a9-ac58-c64d2a992b63) to a [<span class="link-h2">circle</span>](#667d15c6-67c4-4998-a549-c8b3f9de3d60) by matching its head with its tail.
 		- unfold <a class="logseq-meta" id="691ae231-4659-41b8-9c1a-8e702a04753d" ></a>
 		  <br>[opposite of](#691ae2c3-74aa-4b95-afb6-ed174be00978) [<span class="link-h2">fold</span>](#691ae014-cb3b-407f-b84b-582f0025c37c)
 		- ### foldable <a class="logseq-meta" id="66537617-23c2-43a9-9a14-5e18fe9aa36f" data-collapsed="true" ></a>
-		  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [collapsible](#665c9fb6-841c-4ee9-93a1-d17b5811a98e), [abstractable](#665c9fb9-28e8-48e3-bd81-f773549f145d)
+		  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [collapsible](#665c9fb6-841c-4ee9-93a1-d17b5811a98e), [abstractable](#665c9fb9-28e8-48e3-bd81-f773549f145d)
 			- collapsible <a class="logseq-meta" id="665c9fb6-841c-4ee9-93a1-d17b5811a98e" ></a>
 			  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h3">foldable</span>](#66537617-23c2-43a9-9a14-5e18fe9aa36f)
 			- abstractable <a class="logseq-meta" id="665c9fb9-28e8-48e3-bd81-f773549f145d" ></a>
@@ -3546,7 +3546,7 @@
 				- The [tab](https://en.wikipedia.org/wiki/Tab_(interface)) in [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface)
 			- In [Obsidian](https://help.obsidian.md/Editing+and+formatting/Folding):  Headings, indented blocks.
 	- ## abstraction <a class="logseq-meta" id="66537674-6cf9-4459-8bea-7c1858c694a3" data-collapsed="true" ></a>
-	  <br>[Dual:](#6699ea73-dc77-4227-a293-b501f2eb1759) [<span class="link-h2">concretization</span>](#68932036-e868-4468-a891-70cdf09ea904)
+	  [Dual:](#6699ea73-dc77-4227-a293-b501f2eb1759) [<span class="link-h2">concretization</span>](#68932036-e868-4468-a891-70cdf09ea904)
 	  <br>[Adjective:](#66c80da9-4cfb-4de7-b83d-8b70665207bf) [abstract](#66c8369a-ccb8-4f1f-b12b-bf7054cb79e4)
 	  <br>[Verb:](#66c80da7-c0e8-46d2-85e5-71318fd44eff) [abstract](#66c8369a-ccb8-4f1f-b12b-bf7054cb79e4)
 		- abstract <a class="logseq-meta" id="66c8369a-ccb8-4f1f-b12b-bf7054cb79e4" ></a>
@@ -3556,26 +3556,26 @@
 		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Abstraction <a class="logseq-meta" id="6716110e-5f12-4484-97ca-fde30d4ff0d3" ></a>
 		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h2">abstraction</span>](#66537674-6cf9-4459-8bea-7c1858c694a3) is the process of abstracting details, i.e. removing details that are irrelevant to the [<span class="link-h2">subject</span>](#667cfa3e-9856-43f0-956b-ebb4ff31d8eb)'s focus, from an [<span class="link-h2">object</span>](#667cfa42-ade7-4310-9a7b-6d14d01c16da), to get a more concise object that can be handled easier compared to the original object with full details. The result of that process is called by many names: abstract, abstraction, summary, name, title, key, etc. Abstraction is related to [<span class="link-h3">projection</span>](#6653769c-3334-46fa-a1d5-4ce6a7fc23e8) via the [<span class="link-h3">SCIFER helix</span>](#687505e2-062a-4267-98bc-ed0e9f6dced3): [<span class="link-h3">ω-abstraction</span>](#67654618-70d2-49cd-88b7-f7c4e161dfd9) = circle [<span class="link-h4">winding projection</span>](#67654ecb-896a-4421-95e5-f72c07fc62a4); [<span class="link-h3">φ-abstraction</span>](#676545e8-429c-41e7-97ed-12cc8e8870d4) = pipe [<span class="link-h4">wrapping projection</span>](#670cdcb4-3c85-45af-8c30-3c3284ed37df); [<span class="link-h3">ε-abstraction</span>](#676545b3-2d9f-43af-8ff0-3543dbe73159) = [<span class="link-h4">cone projection</span>](#670ce218-a01f-4609-b7f2-beda7cf2ebc3).
 		- ### ω-abstraction <a class="logseq-meta" id="67654618-70d2-49cd-88b7-f7c4e161dfd9" data-logbook="CLOCK: [2024-12-20 Fri 18:22:22]&#10;" ></a>
-		  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [extent abstraction](#676550af-8792-4eef-afd7-ae0d949d78a4)
+		  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [extent abstraction](#676550af-8792-4eef-afd7-ae0d949d78a4)
 		  <br>circle [<span class="link-h4">winding projection</span>](#67654ecb-896a-4421-95e5-f72c07fc62a4)
 			- extent abstraction <a class="logseq-meta" id="676550af-8792-4eef-afd7-ae0d949d78a4" ></a>
 			  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h3">ω-abstraction</span>](#67654618-70d2-49cd-88b7-f7c4e161dfd9)
 			- ω-expansion = circle unwinding = multiply with extext
 		- ### φ-abstraction <a class="logseq-meta" id="676545e8-429c-41e7-97ed-12cc8e8870d4" data-logbook="CLOCK: [2024-12-20 Fri 18:22:29]&#10;" ></a>
-		  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [phase abstraction](#676550e5-6420-425a-97a8-33e5c4a5963e)
+		  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [phase abstraction](#676550e5-6420-425a-97a8-33e5c4a5963e)
 		  <br>pipe [<span class="link-h4">wrapping projection</span>](#670cdcb4-3c85-45af-8c30-3c3284ed37df)
 			- phase abstraction <a class="logseq-meta" id="676550e5-6420-425a-97a8-33e5c4a5963e" ></a>
 			  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h3">φ-abstraction</span>](#676545e8-429c-41e7-97ed-12cc8e8870d4)
 			- rounding = abstracting remainder, leaving quotient (extent) & denominator (intent)
 			- φ-extension = add phase refinement (remainder/denominator) to extent
 		- ### ε-abstraction <a class="logseq-meta" id="676545b3-2d9f-43af-8ff0-3543dbe73159" data-logbook="CLOCK: [2024-12-20 Fri 18:22:34]&#10;" ></a>
-		  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [intent abstraction](#67655101-067d-45ab-9943-49e209af44d7)
+		  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [intent abstraction](#67655101-067d-45ab-9943-49e209af44d7)
 		  <br>[<span class="link-h4">cone projection</span>](#670ce218-a01f-4609-b7f2-beda7cf2ebc3)
 			- intent abstraction <a class="logseq-meta" id="67655101-067d-45ab-9943-49e209af44d7" ></a>
 			  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h3">ε-abstraction</span>](#676545b3-2d9f-43af-8ff0-3543dbe73159)
 			- ε-expansion = cone action = multiply with intent
 	- ## concretization <a class="logseq-meta" id="68932036-e868-4468-a891-70cdf09ea904" data-collapsed="true" ></a>
-	  <br>[Dual:](#6699ea73-dc77-4227-a293-b501f2eb1759) [<span class="link-h2">abstraction</span>](#66537674-6cf9-4459-8bea-7c1858c694a3)
+	  [Dual:](#6699ea73-dc77-4227-a293-b501f2eb1759) [<span class="link-h2">abstraction</span>](#66537674-6cf9-4459-8bea-7c1858c694a3)
 	  <br>[Adjective:](#66c80da9-4cfb-4de7-b83d-8b70665207bf) [concrete](#68932044-a013-4cc6-b468-df8f3a43103c)
 		- concrete <a class="logseq-meta" id="68932044-a013-4cc6-b468-df8f3a43103c" ></a>
 		  <br>[Dual:](#6699ea73-dc77-4227-a293-b501f2eb1759) [abstract](#66c8369a-ccb8-4f1f-b12b-bf7054cb79e4)
@@ -3591,7 +3591,7 @@
 		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Name
 		- E.g. Buddhist name in the pair "[name & form](https://en.wikipedia.org/wiki/Namarupa)"
 	- ## form <a class="logseq-meta" id="665ca429-84e3-49ff-921e-c07d19cd99ba" data-collapsed="true" ></a>
-	  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [hình thức](#66f4ec9a-6a38-4b02-bd52-5bf031eaf6fa)
+	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [hình thức](#66f4ec9a-6a38-4b02-bd52-5bf031eaf6fa)
 	  <br>[Dual:](#6699ea73-dc77-4227-a293-b501f2eb1759) [<span class="link-h2">content</span>](#6678288e-699b-4325-bdba-bf6349fe0d57)
 	  <br>[Adjective:](#66c80da9-4cfb-4de7-b83d-8b70665207bf) [formal](#67330c03-4e27-414f-bdc5-e5e7e0bed6bd)
 		- [form of](#665ca480-5ac8-4728-a331-2f68b48759d1) [Form:](#665ca47c-476a-4bef-b982-d9a31a669fb1)
@@ -3771,14 +3771,14 @@
 		- formal <a class="logseq-meta" id="67330c03-4e27-414f-bdc5-e5e7e0bed6bd" ></a>
 		  <br>[adjective of](#66c80e01-002b-42ae-9c60-49bf3fc6e159) [<span class="link-h2">form</span>](#665ca429-84e3-49ff-921e-c07d19cd99ba)
 	- ## appearance <a class="logseq-meta" id="66ab6161-0306-42d5-ac16-4155c69216f5" data-collapsed="true" ></a>
-	  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [shape](#66ab6170-ea0d-4bd7-be7a-2e226a7ea7ee)
+	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [shape](#66ab6170-ea0d-4bd7-be7a-2e226a7ea7ee)
 	  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [external form](#670d0138-8f58-428b-808e-24c05a5239fb)
 		- shape <a class="logseq-meta" id="66ab6170-ea0d-4bd7-be7a-2e226a7ea7ee" data-collapsed="true" ></a>
 		  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">appearance</span>](#66ab6161-0306-42d5-ac16-4155c69216f5)
 			- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [shape](#66ab6170-ea0d-4bd7-be7a-2e226a7ea7ee) is somehow more abstract than [<span class="link-h2">appearance</span>](#66ab6161-0306-42d5-ac16-4155c69216f5), e.g. [geometrical shape](https://en.wikipedia.org/wiki/Shape) excludes some details like texture, color, etc.
 		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h2">appearance</span>](#66ab6161-0306-42d5-ac16-4155c69216f5) of an [<span class="link-h2">object</span>](#667cfa42-ade7-4310-9a7b-6d14d01c16da) is the [external form](#670d0138-8f58-428b-808e-24c05a5239fb) of that object.
 	- ## structure <a class="logseq-meta" id="6678d596-9526-405a-968c-e73860e524f3" data-collapsed="true" ></a>
-	  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [configuration](#66ab6059-7a9d-4419-99be-69c9944a543f)
+	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [configuration](#66ab6059-7a9d-4419-99be-69c9944a543f)
 	  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [internal form](#670d0138-9012-4f3e-a9bd-997443fb22a3)
 		- configuration <a class="logseq-meta" id="66ab6059-7a9d-4419-99be-69c9944a543f" ></a>
 		  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">structure</span>](#6678d596-9526-405a-968c-e73860e524f3)
@@ -3791,7 +3791,7 @@
 			- ### network <a class="logseq-meta" id="667d1a95-b621-49cd-8a72-a074c963c92a" ></a>
 				- Example: [network](https://en.wikipedia.org/wiki/Network_theory), [mathematical graph](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics))
 	- ## interface <a class="logseq-meta" id="670e0fef-2a46-450b-b043-176cccfc804a" data-collapsed="true" data-logbook="CLOCK: [2024-10-15 Tue 13:47:19]&#10;" ></a>
-	  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [inter-form](#670d0183-aba2-438b-b749-1b550e4a906b)
+	  [alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [inter-form](#670d0183-aba2-438b-b749-1b550e4a906b)
 	  <br>[Dual:](#6699ea73-dc77-4227-a293-b501f2eb1759) [cointerface](#67110213-d0ca-4449-811a-b51abf23bf65)
 		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h2">interface</span>](#670e0fef-2a46-450b-b043-176cccfc804a) is the common boundary of two [bodies](#66c810a0-9861-4787-bdcf-1378219332be) where they interact with each other.
 		- [Examples:](#66725725-f76a-4328-b162-f469b87e871b)
@@ -3823,18 +3823,18 @@
 					  <br>(f) ->
 					  <br>```
 	- ## substance <a class="logseq-meta" id="670e1047-529a-4698-9ad0-5e6c73c18202" data-collapsed="true" data-logbook="CLOCK: [2024-10-15 Tue 13:48:45]&#10;" ></a>
-	  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [chất](#670e1053-773e-4cbb-9b5f-8bf9715759f7), [closed form](#670d0160-ee4c-4b5f-b95f-80b0c2f3825f)
+	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [chất](#670e1053-773e-4cbb-9b5f-8bf9715759f7), [closed form](#670d0160-ee4c-4b5f-b95f-80b0c2f3825f)
 		- chất <a class="logseq-meta" id="670e1053-773e-4cbb-9b5f-8bf9715759f7" ></a>
 		  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">substance</span>](#670e1047-529a-4698-9ad0-5e6c73c18202)
 		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://plato.stanford.edu/entries/substance/
 	- ## essence <a class="logseq-meta" id="670e105b-5244-4f95-9f90-c99acdbce0e4" data-collapsed="true" data-logbook="CLOCK: [2024-10-15 Tue 13:49:03]&#10;" ></a>
-	  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [bản chất](#670e106c-ed23-4496-a774-678a9a1fbb91)
+	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [bản chất](#670e106c-ed23-4496-a774-678a9a1fbb91)
 	  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [round form](#670e14c0-70c6-49ff-9bde-89db60b610c2)
 		- bản chất <a class="logseq-meta" id="670e106c-ed23-4496-a774-678a9a1fbb91" ></a>
 		  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">essence</span>](#670e105b-5244-4f95-9f90-c99acdbce0e4)
 		- Variations: [<span class="link-h3">self-essence</span>](#66c8772a-9b29-45b0-b169-2fa847333e02)
 	- ## content <a class="logseq-meta" id="6678288e-699b-4325-bdba-bf6349fe0d57" data-collapsed="true" ></a>
-	  <br>[Dual:](#6699ea73-dc77-4227-a293-b501f2eb1759) [<span class="link-h2">form</span>](#665ca429-84e3-49ff-921e-c07d19cd99ba)
+	  [Dual:](#6699ea73-dc77-4227-a293-b501f2eb1759) [<span class="link-h2">form</span>](#665ca429-84e3-49ff-921e-c07d19cd99ba)
 		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h2">content</span>](#6678288e-699b-4325-bdba-bf6349fe0d57) is an umbrella term capturing the abstract notion of "something packed inside the [<span class="link-h2">object</span>](#667cfa42-ade7-4310-9a7b-6d14d01c16da)": the daily used [content](https://en.wiktionary.org/wiki/content#Noun_2), the dynamic content in [<span class="link-h2">FoC</span>](#66f3b5e5-496a-4545-be7a-b1df2d94bd11), the [content](#66b1cfa4-2537-4361-a626-da81ca5b4e6f) in CIE, etc.
 		- types of content regarding [types of forms](#66f6682b-744a-49b8-8e11-8e020fc24acc) <a class="logseq-meta" id="684f9517-cd97-4d6a-87f3-89ef73c78f0a" ></a>
 			- crystallized content <a class="logseq-meta" id="670de73b-6fe0-4366-9d81-2d631a3f3ca3" ></a>
@@ -3873,7 +3873,7 @@
 			  <br>[loaded content](#670dee3b-4d37-4852-993c-bdb9cdd2c3bc) (amount) ≤ [self content](#670e363d-c1eb-402a-8283-b4a3a2e65a59) (substance)
 				- This law is the [triangle inequality](https://en.wikipedia.org/wiki/Triangle_inequality) of the [Unithread](#66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d) and is related to the [Law of transformation between quantity & quality](https://www.marxists.org/reference/archive/spirkin/works/dialectical-materialism/ch02-s09.html) in Dialectical Materialism.
 	- ## intent <a class="logseq-meta" id="66b1cfa4-01ef-4ee8-9409-32c9884c39cd" data-collapsed="true" ></a>
-	  <br>[Verb:](#66c80da7-c0e8-46d2-85e5-71318fd44eff) [intend](#68a7de4b-7072-4ec1-907e-5a0d9fdba859)
+	  [Verb:](#66c80da7-c0e8-46d2-85e5-71318fd44eff) [intend](#68a7de4b-7072-4ec1-907e-5a0d9fdba859)
 		- intend <a class="logseq-meta" id="68a7de4b-7072-4ec1-907e-5a0d9fdba859" ></a>
 		  <br>[verb of](#66c80dfd-95e2-4b5a-bd56-06e8307e81ca) [<span class="link-h2">intent</span>](#66b1cfa4-01ef-4ee8-9409-32c9884c39cd)
 		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h2">intent</span>](#66b1cfa4-01ef-4ee8-9409-32c9884c39cd) is an umbrella term capturing the abstract notion of “something intensively packed inside the [<span class="link-h2">subject</span>](#667cfa3e-9856-43f0-956b-ebb4ff31d8eb)”. In [Unïnfo](#66537a44-f579-4fcc-a02b-2f32d0d409fc), “intent” covers from the volitional [intention](#66f93c78-15f5-43a7-8412-f7a5bc66e2ae) ([intentionality](https://en.wikipedia.org/wiki/Intentionality)), the semantical [intension](#66f93d8f-4fbf-4ed1-8bec-59bf92b6f2cd), the phenomenal [quale](#68dfbe7e-1d78-4233-a799-516e68c2733e), to the [intent](#66f3c97f-94e8-4783-96c5-fe9cadf4f9a9) in CIE.
@@ -3953,12 +3953,12 @@
 				- [operative intent](#68df2ff2-cd0a-45e0-9309-969e0493404b) driving future [<span class="link-h2">action</span>](#66727858-979d-4d95-8a90-7a749218cfba)s: The interaction between cognitive intents unfolds them into the empty space of possibility. This emptiness generates the [contative](https://en.wikipedia.org/wiki/Conation) intents that drive actions to fill in the void, to fulfill the potential.
 				- The experiences throughout the course of action will, in turn, be accumulated into new formative intents.
 	- ## extent <a class="logseq-meta" id="66b1cfa4-3a39-4672-9da2-cd3bcef71702" data-collapsed="true" ></a>
-	  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [extension](#66f949a4-675e-4c43-8da3-f2754ba2e128)
+	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [extension](#66f949a4-675e-4c43-8da3-f2754ba2e128)
 		- extension <a class="logseq-meta" id="66f949a4-675e-4c43-8da3-f2754ba2e128" ></a>
 		  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">extent</span>](#66b1cfa4-3a39-4672-9da2-cd3bcef71702)
 		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h2">extent</span>](#66b1cfa4-3a39-4672-9da2-cd3bcef71702) is an umbrella term capturing the abstract notion of “the part of [<span class="link-h2">subject</span>](#667cfa3e-9856-43f0-956b-ebb4ff31d8eb) extended from the [<span class="link-h2">intent</span>](#66b1cfa4-01ef-4ee8-9409-32c9884c39cd)”: the [<span class="link-h2">appearance</span>](#66ab6161-0306-42d5-ac16-4155c69216f5) whose a special case is the daily used [extent](https://en.wiktionary.org/wiki/extent#Noun), the semantical [extension](https://en.wikipedia.org/wiki/Extension_(semantics)), the [extent](#66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8) in CIE, etc. Note that the semantical “extension” here refers to the [<span class="link-h2">form</span>](#665ca429-84e3-49ff-921e-c07d19cd99ba) of the collection of objects referenced by the intension, where that form is just an image inside the subject.
 	- ## independent <a class="logseq-meta" id="671b160c-0589-4f83-a778-a9fb4df6783a" data-collapsed="true" ></a>
-	  <br>[Noun:](#66c80d5c-181f-4f06-a285-0624a65e9951) [independency](#671b1616-9958-48d9-95ba-9fc8e76f2867), [independence](#671b1eef-0820-4e03-8e8f-e9342ca18b26)
+	  [Noun:](#66c80d5c-181f-4f06-a285-0624a65e9951) [independency](#671b1616-9958-48d9-95ba-9fc8e76f2867), [independence](#671b1eef-0820-4e03-8e8f-e9342ca18b26)
 		- independency <a class="logseq-meta" id="671b1616-9958-48d9-95ba-9fc8e76f2867" ></a>
 		  <br>[noun of](#66c80dde-a097-4744-8af8-c6e26dcfdda2) [<span class="link-h2">independent</span>](#671b160c-0589-4f83-a778-a9fb4df6783a)
 		- independence <a class="logseq-meta" id="671b1eef-0820-4e03-8e8f-e9342ca18b26" ></a>
@@ -3977,7 +3977,7 @@
 				- Physics wall = very large/small constants
 				- Complex wall = big gaps between micro & macro scales
 		- ### orthogonal <a class="logseq-meta" id="671b206e-c50c-47b0-903d-73e97d512d13" ></a>
-		  <br>[Noun:](#66c80d5c-181f-4f06-a285-0624a65e9951) [orthogonality](#671b27ce-a9c8-48d7-b0b5-e056484a6747)
+		  [Noun:](#66c80d5c-181f-4f06-a285-0624a65e9951) [orthogonality](#671b27ce-a9c8-48d7-b0b5-e056484a6747)
 			- orthogonality <a class="logseq-meta" id="671b27ce-a9c8-48d7-b0b5-e056484a6747" ></a>
 			  <br>[noun of](#66c80dde-a097-4744-8af8-c6e26dcfdda2) [<span class="link-h3">orthogonal</span>](#671b206e-c50c-47b0-903d-73e97d512d13)
 			- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [orthogonality](#671b27ce-a9c8-48d7-b0b5-e056484a6747) is a special kind of [independency](#671b1616-9958-48d9-95ba-9fc8e76f2867).
@@ -3996,7 +3996,7 @@
 					- I've add this [historical note](https://en.wikipedia.org/w/index.php?title=Up_tack&diff=1287329130&oldid=1287327431) to Wikipedia page [up tack](https://en.wikipedia.org/wiki/Up_tack#Perpendicular_symbol)
 					- I've updated [CreatZy shorthand](#66fe9e2e-13cf-4b31-96e7-1b050eed47c4) `=T` from `⊥` (U+22A5) to `⟂` (U+27C2).
 	- ## relation <a class="logseq-meta" id="667d0b78-fff6-49bc-90d5-165648ed56d3" data-collapsed="true" ></a>
-	  <br>[Name:](#665ca48e-f7c1-4541-b5cf-486d86b02997) [Relation:](#66600918-367c-413c-863d-2cf11a89c437)
+	  [Name:](#665ca48e-f7c1-4541-b5cf-486d86b02997) [Relation:](#66600918-367c-413c-863d-2cf11a89c437)
 	  <br>[Adjective:](#66c80da9-4cfb-4de7-b83d-8b70665207bf) [related](#671b1669-d31e-4965-adf4-2862cbefdfa8), [<span class="link-h3">relative</span>](#66c80cbf-6626-4cb7-9b58-8ac3396e03da)
 		- related <a class="logseq-meta" id="671b1669-d31e-4965-adf4-2862cbefdfa8" ></a>
 		  <br>[adjective of](#66c80e01-002b-42ae-9c60-49bf3fc6e159) [<span class="link-h2">relation</span>](#667d0b78-fff6-49bc-90d5-165648ed56d3)
@@ -4006,7 +4006,7 @@
 				- Example: [binary relation](https://en.wikipedia.org/wiki/Binary_relation) and [relation](https://en.wikipedia.org/wiki/Relation_(mathematics)) in Maths.
 		- [Commentaries:](#665359ff-79f1-4669-b10b-f2b0e633a7c1)
 		- ### relative <a class="logseq-meta" id="66c80cbf-6626-4cb7-9b58-8ac3396e03da" data-collapsed="true" data-logbook="CLOCK: [2024-08-23 Fri 11:15:34]&#10;" ></a>
-		  <br>[adjective of](#66c80e01-002b-42ae-9c60-49bf3fc6e159) [<span class="link-h2">relation</span>](#667d0b78-fff6-49bc-90d5-165648ed56d3) 
+		  [adjective of](#66c80e01-002b-42ae-9c60-49bf3fc6e159) [<span class="link-h2">relation</span>](#667d0b78-fff6-49bc-90d5-165648ed56d3) 
 		  <br>[Noun:](#66c80d5c-181f-4f06-a285-0624a65e9951) [relativity](#66c80dc7-8ed4-4cd1-8989-e75a42f31c60)
 		  <br>[Dual:](#6699ea73-dc77-4227-a293-b501f2eb1759) [absolute](#6729b71b-e8ea-414d-8202-b66c1fc2d67d)
 			- relativity <a class="logseq-meta" id="66c80dc7-8ed4-4cd1-8989-e75a42f31c60" ></a>
@@ -4033,7 +4033,7 @@
 			- 作流脈
 			  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [effect thread](#68522d55-b6a4-4f70-853c-4335510de6f7)
 		- ### Ω-thread <a class="logseq-meta" id="66ab75a1-f4a0-4bab-a002-8e573546623a" ></a>
-		  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [omnithread](#67a17ea8-2d20-45fa-9fe6-e998541aa3a5), [effect thread](#68522d55-b6a4-4f70-853c-4335510de6f7), mạch ôông
+		  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [omnithread](#67a17ea8-2d20-45fa-9fe6-e998541aa3a5), [effect thread](#68522d55-b6a4-4f70-853c-4335510de6f7), mạch ôông
 			- omnithread <a class="logseq-meta" id="67a17ea8-2d20-45fa-9fe6-e998541aa3a5" ></a>
 			  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h3">Ω-thread</span>](#66ab75a1-f4a0-4bab-a002-8e573546623a)
 			- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h3">Ω-thread</span>](#66ab75a1-f4a0-4bab-a002-8e573546623a) is the representation of the [<span class="link-h2">Trinion</span>](#669dfc7d-5355-41db-93a1-8d590e8ec9d8) in mathematical language as a [loop](#66ab6761-b62d-486b-bd15-44a4ecee8a99) of [<span class="link-h2">thread</span>](#667d0d2e-15c7-4989-a183-69a9a5c6bf8a), and is the central object of the [Unithread](#66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d) theory. Each Ω-thread is an [instance](#66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe) of the Trinion, corresponding to a particular configuration/view of the Universe from a particular [<span class="link-h3">viewpoint</span>](#667272b8-88a8-4928-a22a-35035c9edf05), as described in the [Law of the same content](#678e2046-54ac-4284-865d-6f3e38f589a1). An Ω-thread can be relaxed into a [<span class="link-h2">circle</span>](#667d15c6-67c4-4998-a549-c8b3f9de3d60), or can be folded into the [<span class="link-h2">Omnifold</span>](#675c03d8-3185-41a8-9f98-e869fabec793) (Ω) which includes all possible Ω-threads. In contrast to the whole Ω-thread which is a concrete [<span class="link-h3">being</span>](#678e1c3f-6202-45aa-8527-f4bdad9927b9), a part (chunk, segment) of it, simply called a “**thread**”, can capture an abstract concept or information, i.e. [extent](#66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8). <a class="logseq-meta" id="681826ac-5a8d-4240-95fd-183e03b9ef66" ></a>
@@ -4061,7 +4061,7 @@
 						- [“Dimensionless quantity” in physics](https://en.wikipedia.org/wiki/Dimensionless_quantity) may be called “scalar” in Unïnfo, but we use the term “dimensionless” for clarity.
 				- The mass (amount of content) is not only dimensionless but also nondirectional, a.k.a. “absolute value”.
 	- ## Universal Thread <a class="logseq-meta" id="66ac41d1-09e7-44b1-9290-ea7d5f02a817" data-collapsed="true" ></a>
-	  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [Unithread](#66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)
+	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [Unithread](#66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)
 		- Unithread <a class="logseq-meta" id="66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d" ></a>
 		  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">Universal Thread</span>](#66ac41d1-09e7-44b1-9290-ea7d5f02a817)
 		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [Unithread](#66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d) is the representation of [Unïnfo](#66537a44-f579-4fcc-a02b-2f32d0d409fc) in mathematical language, where everything is represented by the [<span class="link-h3">Ω-thread</span>](#66ab75a1-f4a0-4bab-a002-8e573546623a). [Unithread](#66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d) is to [Unïnfo](#66537a44-f579-4fcc-a02b-2f32d0d409fc) as [representation theory](https://en.wikipedia.org/wiki/Representation_theory) is to [category theory](https://en.wikipedia.org/wiki/Category_theory) in modern mathematics.
@@ -4085,7 +4085,7 @@
 					- [67836d26-c378-4cc2-9b8d-ecf9ee7f57c1](#67836d26-c378-4cc2-9b8d-ecf9ee7f57c1)
 			- interunion <a class="logseq-meta" id="67a9876d-03ee-4f1f-85be-619fb54c8bc6" ></a>
 	- ## Omnifold <a class="logseq-meta" id="675c03d8-3185-41a8-9f98-e869fabec793" data-collapsed="true" data-logbook="CLOCK: [2024-12-13 Fri 16:59:25]&#10;" ></a>
-	  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [Ω](#678e23b4-0fbe-4a5d-923f-6252405053df)
+	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [Ω](#678e23b4-0fbe-4a5d-923f-6252405053df)
 		- Ω <a class="logseq-meta" id="678e23b4-0fbe-4a5d-923f-6252405053df" ></a>
 		  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">Omnifold</span>](#675c03d8-3185-41a8-9f98-e869fabec793)
 		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) In [Unithread](#66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d), [<span class="link-h2">Omnifold</span>](#675c03d8-3185-41a8-9f98-e869fabec793) is the [sustent](#687f322c-2334-46e5-816b-57889e5c6b89) of the [<span class="link-h2">Universe</span>](#66537a0b-d107-4f7e-b01f-bf624a647d8c), which is equivalent to the [<span class="link-h2">Trinion</span>](#669dfc7d-5355-41db-93a1-8d590e8ec9d8) in [Unïnfo](#66537a44-f579-4fcc-a02b-2f32d0d409fc). Omnifold is the [<span class="link-h3">Ω-thread</span>](#66ab75a1-f4a0-4bab-a002-8e573546623a) [<span class="link-h2">fold</span>](#691ae014-cb3b-407f-b84b-582f0025c37c)ed and crumpled into a “blob” that contains **all possible forms** in infinite dimensional space. That means, extensionally, Omnifold is just a nondimensional & nondirectional point, while intensionally, it's [omnidimensional](#67505a68-91b9-4abb-bf92-4dddad8c5803) & [omnidirectional](#67505a65-19d8-415a-8b80-c955a8768647).
@@ -4125,14 +4125,14 @@
 			- Diagram
 				- ![Viewcones around Conscious Circles](https://docs.google.com/drawings/d/1h0su4VoxKa65qDatsEnPr4sDQg1HXRPKNvlgt36F0GU/pub?w=960)
 			- ### perceptual screen <a class="logseq-meta" id="66ea4711-1392-4f5c-bea2-badc71a2fb9e" data-logbook="CLOCK: [2024-09-13 Fri 12:23:24]&#10;" ></a>
-			  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) tưởng uẩn, màn hình tri giác
+			  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) tưởng uẩn, màn hình tri giác
 				- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) Just as the retina is where the visual image is projected, [Now, in commit `03a0b563`, i just change the id of `perceptual screen` to the new one ``](#66ea4711-1392-4f5c-bea2-badc71a2fb9e) is where the [mental image](https://en.wikipedia.org/wiki/Mental_image) is projected via [**instantiation**](#66ea4597-f085-4f38-95f7-91bf5cd61b1c). This screen is related to the [mental workspace](https://en.wikipedia.org/wiki/Global_workspace_theory) and the [working memory](https://en.wikipedia.org/wiki/Working_memory). This screen is the stage where the [<span class="link-h3">conscious circle</span>](#66ea5808-8452-4ae9-8eb8-2ef64004bfcf) of interaction between the [present cone](#66ea8e12-7c30-449b-9139-bfd8d82394d7), as a force field, and the [intent cone](#66ea8dbe-042e-41fc-a07c-841dcb5a737a), as a particle in that force field, takes place.
 				- **instantiation** <a class="logseq-meta" id="66ea4597-f085-4f38-95f7-91bf5cd61b1c" data-logbook="CLOCK: [2024-09-18 Wed 10:19:59]--[2024-09-18 Wed 16:29:05] =&gt;  06:09:06&#10;" ></a>
 					- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) When a signal from the [Now, in commit `03a0b563`, i just change the id of `perceptual screen` to the new one ``](#66ea4711-1392-4f5c-bea2-badc71a2fb9e) reaches a node in the [knowledge cone](#66ea8d84-c766-4c47-b06c-a0b57a530096), that node is activated and it creates a new [instance](#66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe) of itself on the screen. This new instance is combined to the source of the signal to develop the [present cone](#66ea8e12-7c30-449b-9139-bfd8d82394d7), similar to the [object construction in OOP](https://en.wikipedia.org/wiki/Instance_(computer_science)). Each cycle of this process is call an [**instantiation**](#66ea4597-f085-4f38-95f7-91bf5cd61b1c). Each object on the screen is usually composed of several instances of several [past cone](#66ea8df3-d2f3-4856-b24a-5095dd285f9b)s. Only some special objects like the self body, the named objects, have a single corresponding past cone as its id knowledge. The instantiation is related to the “participation” in Plato's [Theory of Forms](https://en.wikipedia.org/wiki/Theory_of_forms). <a class="logseq-meta" id="66ea9a0f-72df-42b6-8d72-fcc021ed5776" data-logbook="CLOCK: [2024-09-18 Wed 16:22:05]&#10;" ></a>
 					- instance <a class="logseq-meta" id="66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe" ></a>
 						- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) An [instance](#66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe) is a [concrete](#68932044-a013-4cc6-b468-df8f3a43103c) [<span class="link-h3">being</span>](#678e1c3f-6202-45aa-8527-f4bdad9927b9) activated by another being from an abstract model. We say that “the instance of a model is instantiated from that model.”
 			- ### conscious circle <a class="logseq-meta" id="66ea5808-8452-4ae9-8eb8-2ef64004bfcf" data-logbook="CLOCK: [2024-09-18 Wed 11:37:05]&#10;" ></a>
-			  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [consciousness](#66f2681b-796a-4e25-b778-ba4fb6419425)
+			  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [consciousness](#66f2681b-796a-4e25-b778-ba4fb6419425)
 				- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) The [intent cone](#66ea8dbe-042e-41fc-a07c-841dcb5a737a) interacts with objects on the [Now, in commit `03a0b563`, i just change the id of `perceptual screen` to the new one ``](#66ea4711-1392-4f5c-bea2-badc71a2fb9e) in the way a particle interacts with a force field. The [effect circle](#667c0031-0a87-44c9-9e98-6d45893b095f) between the intent cone and the whole [present cone](#66ea8e12-7c30-449b-9139-bfd8d82394d7) is called the [<span class="link-h3">conscious circle</span>](#66ea5808-8452-4ae9-8eb8-2ef64004bfcf), which comprises many individual effect circles between the intent cone and individual objects which are also called conscious circles.
 					- The main effect of this circle is maintaining [consciousness](#66f2681b-796a-4e25-b778-ba4fb6419425) of the subject and its side effects are [effect cone](#66eaa51a-32c1-4f3a-830c-30aecb7c45a3) of action and [learning cone](#66eaa550-4e1e-4126-8004-bf3cb8956829) of knowledge. This circle is also the one that [mixes](#66eac7d3-f1e6-420c-a2a5-1424c86d4185) objects' [<span class="link-h2">appearance</span>](#66ab6161-0306-42d5-ac16-4155c69216f5)s up to make [<span class="link-h2">structure</span>](#6678d596-9526-405a-968c-e73860e524f3)s in the knowledge cone. That means [<span class="link-h3">conscious circle</span>](#66ea5808-8452-4ae9-8eb8-2ef64004bfcf) is actually a [transformation](#669a58b9-eb34-41cd-8605-02e29b07e1b5) between the intent cone and the present cone.
 					- This circle is similar to the [viññāṇa](https://en.wikipedia.org/wiki/Vij%C3%B1%C4%81na) in Buddhism and is related to the [closed-loop perception](https://en.wikipedia.org/wiki/Perception#Closed-loop_perception).
@@ -4257,7 +4257,7 @@
 		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Brainstorming
 		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h2">brainstorming</span>](#665c92d1-565b-4911-a706-b32af429c3aa) is a thinking technique to spontaneously dump all ideas out quickly without careful organizing, resulting [brainstorms](https://en.wiktionary.org/wiki/brainstorm#Noun). Compared to [<span class="link-h2">braindumping</span>](#6667bf32-ab6a-4d64-842d-45d49137e694), [<span class="link-h2">brainstorming</span>](#665c92d1-565b-4911-a706-b32af429c3aa) is more about ideas about specific topics instead of [“dumping everything inside out”](#6773e4f5-22e4-4628-889f-e8c757fa77a0).
 	- ## Will LÊ <a class="logseq-meta" id="66536578-c4d3-43f1-b35c-bf71120f0570" data-collapsed="true" ></a>
-	  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [Will Lei](#681d5fb1-9484-4c78-b2b8-966d6ac1d3d8)
+	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [Will Lei](#681d5fb1-9484-4c78-b2b8-966d6ac1d3d8)
 		- Vietnamese name: LÊ Xuân Định
 		- English name: Will LÊ <a class="logseq-meta" id="d7d9077b-f4eb-409c-a895-8dba07aea996" ></a>
 		  <br>means “LÊ Định” in Vietnamese, omitting the middle name “Xuân”.
@@ -4519,7 +4519,7 @@
 			-
 		-
 	- ## Git
-	  <br>[moved to](#680a04eb-125e-4e9e-b691-3b7be523359c) [((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))](#666ba1e2-19d1-409e-b30e-42a99b7e4ec0)
+	  [moved to](#680a04eb-125e-4e9e-b691-3b7be523359c) [((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))](#666ba1e2-19d1-409e-b30e-42a99b7e4ec0)
 	- ## GitHub <a class="logseq-meta" id="66536662-052f-46a4-a624-38858bffb334" data-collapsed="true" ></a>
 		- [Official website:](#665359c3-61fd-4858-a117-ecbcd6fbc9ea) https://github.com/ <a class="logseq-meta" id="66536669-edd2-4c36-a4da-52f25a090459" ></a>
 		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/GitHub
@@ -4544,7 +4544,7 @@
 			- Custom page from GitHub Actions <a class="logseq-meta" id="671504da-2c66-46e4-af83-f99b9f488d6d" ></a>
 				- This will deploy a website using an action defined by `.github/workflows/$custom_publish_action.yml`, e.g.  Logseq's [publish-SPA](https://github.com/logseq/publish-spa) action.
 		- ### GitHub Copilot
-		  <br>Chatbot: [GitHub Copilot](#68512d0a-e273-4cb5-8365-834c5c811d7d)
+		  Chatbot: [GitHub Copilot](#68512d0a-e273-4cb5-8365-834c5c811d7d)
 			- The free plan has limits on number of code suggestions and chat messages. <a class="logseq-meta" data-collapsed="true" ></a>
 				- They increases gradually: (2k suggestions + 50 messages)/month → (4k suggestions + 500 messages)/month → ...
 				- **Regardless of length**, any suggestion counts as a "completion", any chat response counts as a "message".
@@ -4638,11 +4638,11 @@
 					- Obsidian community plugin: [obsidian-importer](obsidian://show-plugin?id=obsidian-importer)
 					- GitHub: https://github.com/obsidianmd/obsidian-importer
 	- ## keyboard shortcut <a class="logseq-meta" id="665367a6-29d7-4fd2-a33b-6d94de8172e8" data-collapsed="true" ></a>
-	  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [<span class="link-h2">hotkey</span>](#66536710-7441-4fb8-986b-50d2eec762d7)
+	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [<span class="link-h2">hotkey</span>](#66536710-7441-4fb8-986b-50d2eec762d7)
 		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Keyboard_shortcut
 		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) a key or a series of [keys](https://en.wikipedia.org/wiki/Computer_keyboard "Computer keyboard") to quickly invoke a [software program](https://en.wikipedia.org/wiki/Software_program "Software program") or perform a preprogrammed action.
 	- ## hotkey <a class="logseq-meta" id="66536710-7441-4fb8-986b-50d2eec762d7" data-collapsed="true" ></a>
-	  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">keyboard shortcut</span>](#665367a6-29d7-4fd2-a33b-6d94de8172e8)
+	  [alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">keyboard shortcut</span>](#665367a6-29d7-4fd2-a33b-6d94de8172e8)
 		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h2">hotkey</span>](#66536710-7441-4fb8-986b-50d2eec762d7) is an [alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">keyboard shortcut</span>](#665367a6-29d7-4fd2-a33b-6d94de8172e8), usually used by [Windows](https://en.wikipedia.org/wiki/Microsoft_Windows), [<span class="link-h2">Obsidian</span>](#66535660-643e-471a-a332-8f2306c5494f), etc.
 		- [[Table of Hotkey Assigned Commands in this Vault]] <a class="logseq-meta" id="66600918-9d88-4640-844b-35b9ed433b4a" ></a>
 	- ## wiki <a class="logseq-meta" id="66536a32-fddd-465f-a47f-fa8e0ea9c8db" data-collapsed="true" ></a>
@@ -6307,7 +6307,7 @@
 				- Usually at CPU high cost!
 			- [Lattics](https://lattics.com/) with settable font, but only 2 versions: Windows & MacOS, no Linux, no Web
 	- ## Database
-	  <br>[moved to](#680a04eb-125e-4e9e-b691-3b7be523359c) [Commit `96af6cac` added `` to `Database` block to be reffed by the item `Database` in `Mind Jungle`.](#68089c74-7fbd-471b-9283-febf6b48cd0d)
+	  [moved to](#680a04eb-125e-4e9e-b691-3b7be523359c) [Commit `96af6cac` added `` to `Database` block to be reffed by the item `Database` in `Mind Jungle`.](#68089c74-7fbd-471b-9283-febf6b48cd0d)
 	- ## hyperlink <a class="logseq-meta" id="66536cad-a232-4b90-bf32-439144aac1ec" data-collapsed="true" ></a>
 		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Hyperlink
 		- [HTML Anchor](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a) `<a>` <a class="logseq-meta" data-collapsed="true" data-logbook="CLOCK: [2024-08-03 Sat 20:42:25]&#10;" ></a>
@@ -6382,14 +6382,14 @@
 	- ## formal methods <a class="logseq-meta" id="6653711b-1c5f-4a34-b01a-e673b9bb694c" data-collapsed="true" ></a>
 		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Formal_methods
 	- ## Japan Advanced Institute of Science and Technology <a class="logseq-meta" id="665370ae-659d-4fb1-9bdb-6e857e3f5bf3" data-collapsed="true" ></a>
-	  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [JAIST](#665370bb-9619-46b2-97be-a7b52684a56c)
+	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [JAIST](#665370bb-9619-46b2-97be-a7b52684a56c)
 		- JAIST <a class="logseq-meta" id="665370bb-9619-46b2-97be-a7b52684a56c" ></a>
 		  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">Japan Advanced Institute of Science and Technology</span>](#665370ae-659d-4fb1-9bdb-6e857e3f5bf3)
 		- [Official website:](#665359c3-61fd-4858-a117-ecbcd6fbc9ea) https://www.jaist.ac.jp
 		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) There are 3 schools: Information Science, Knowledge Science, and Materials Science.
 		- Harusada's: I've done my master course in the Graduate School of Information Science about [<span class="link-h2">formal methods</span>](#6653711b-1c5f-4a34-b01a-e673b9bb694c), from 2007 to 2009.
 	- ## Osaka University <a class="logseq-meta" id="66536ec6-1a32-431b-b2e2-c73813f5d19f" data-collapsed="true" ></a>
-	  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [Handai](#665c9c28-dfdc-4a7a-8f82-d1367db0c5be), [阪大](#665c9c2b-8030-46cc-90b2-08816d369105)
+	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [Handai](#665c9c28-dfdc-4a7a-8f82-d1367db0c5be), [阪大](#665c9c2b-8030-46cc-90b2-08816d369105)
 		- Handai <a class="logseq-meta" id="665c9c28-dfdc-4a7a-8f82-d1367db0c5be" ></a>
 		  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">Osaka University</span>](#66536ec6-1a32-431b-b2e2-c73813f5d19f)
 		- 阪大 <a class="logseq-meta" id="665c9c2b-8030-46cc-90b2-08816d369105" ></a>
@@ -6398,7 +6398,7 @@
 		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) A comprehensive university with 6 faculties: science, engineering, medicine, letters, law & economics, and Arts & Humanities. It merged the old [Osaka Gaidai](#66537146-078d-4a65-b33a-2a0162f15d8c) in 2007.
 		- [Harusada](#66536578-c4d3-43f1-b35c-bf71120f0570)'s: I've done my undergraduate course of Computer Science in Toyonaka campus, from 2003 to 2007.
 	- ## Osaka University of Foreign Studies <a class="logseq-meta" id="66537146-078d-4a65-b33a-2a0162f15d8c" data-collapsed="true" ></a>
-	  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [Osaka Gaidai](#66537151-5913-4bcf-b4fe-b8e90a69f5af), [大阪外大](#665c9f25-ec8b-4fb8-ad1d-349cbd0b9010)
+	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [Osaka Gaidai](#66537151-5913-4bcf-b4fe-b8e90a69f5af), [大阪外大](#665c9f25-ec8b-4fb8-ad1d-349cbd0b9010)
 		- Osaka Gaidai <a class="logseq-meta" id="66537151-5913-4bcf-b4fe-b8e90a69f5af" ></a>
 		  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">Osaka University of Foreign Studies</span>](#66537146-078d-4a65-b33a-2a0162f15d8c)
 		- 大阪外大 <a class="logseq-meta" id="665c9f25-ec8b-4fb8-ad1d-349cbd0b9010" ></a>
@@ -6406,7 +6406,7 @@
 		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) It was dedicated to area studies and the study of foreign languages and their related cultures. It was merged to [<span class="link-h2">Osaka University</span>](#66536ec6-1a32-431b-b2e2-c73813f5d19f) in 2007.
 		- [Harusada](#66536578-c4d3-43f1-b35c-bf71120f0570)'s: I've done my Japanese course here from 2002 to 2003.
 	- ## Viet Nam National University Ho Chi Minh City <a class="logseq-meta" id="6710fbad-2dbd-481d-92db-b4d7d2e20a93" data-collapsed="true" ></a>
-	  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [HCMUS](#6710fc09-fc5f-447b-9faf-5ea31b29c1fb), [VNUHCM-US](#6710fbf3-db4d-4b17-858c-fe3047cbb7e7)
+	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [HCMUS](#6710fc09-fc5f-447b-9faf-5ea31b29c1fb), [VNUHCM-US](#6710fbf3-db4d-4b17-858c-fe3047cbb7e7)
 		- VNUHCM-US <a class="logseq-meta" id="6710fbf3-db4d-4b17-858c-fe3047cbb7e7" ></a>
 		  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">Viet Nam National University Ho Chi Minh City</span>](#6710fbad-2dbd-481d-92db-b4d7d2e20a93)
 		- HCMUS <a class="logseq-meta" id="6710fc09-fc5f-447b-9faf-5ea31b29c1fb" ></a>
@@ -6416,17 +6416,17 @@
 			- I did my first 1.5 years of undergraduate course of Information Technology in Thủ Đức campus of [VNUHCM](#6710fd6d-e8fb-4b24-b280-726187b7c6ce), from 2000 to 2002.
 			- After returning from [JAIST](#665370bb-9619-46b2-97be-a7b52684a56c), i teach IT here from 2027 to 2014 + 2016.
 	- ## Viet Nam National University Ho Chi Minh City <a class="logseq-meta" id="6710fcba-e545-4f3d-b74b-4373280534d9" data-collapsed="true" ></a>
-	  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [VNUHCM](#6710fd6d-e8fb-4b24-b280-726187b7c6ce)
+	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [VNUHCM](#6710fd6d-e8fb-4b24-b280-726187b7c6ce)
 		- VNUHCM <a class="logseq-meta" id="6710fd6d-e8fb-4b24-b280-726187b7c6ce" ></a>
 		  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">Viet Nam National University Ho Chi Minh City</span>](#6710fcba-e545-4f3d-b74b-4373280534d9)
 		- [Official website:](#665359c3-61fd-4858-a117-ecbcd6fbc9ea) https://vnuhcm.edu.vn/
 	- ## Extensible Markup Language <a class="logseq-meta" id="6653624a-5679-4bc5-bd7e-fdee34516314" data-collapsed="true" ></a>
-	  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [XML](#6720c001-a22b-47e9-93f6-c0b65d389dfd)
+	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [XML](#6720c001-a22b-47e9-93f6-c0b65d389dfd)
 		- XML <a class="logseq-meta" id="6720c001-a22b-47e9-93f6-c0b65d389dfd" ></a>
 		  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">Extensible Markup Language</span>](#6653624a-5679-4bc5-bd7e-fdee34516314)
 		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/XML
 	- ## Hypertext Markup Language <a class="logseq-meta" id="665361eb-5339-451e-957d-362b946d796d" data-collapsed="true" ></a>
-	  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [HTML](#6720bf1a-fa1f-4c1d-ba6f-2527a47621eb)
+	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [HTML](#6720bf1a-fa1f-4c1d-ba6f-2527a47621eb)
 		- HTML <a class="logseq-meta" id="6720bf1a-fa1f-4c1d-ba6f-2527a47621eb" ></a>
 		  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">Hypertext Markup Language</span>](#665361eb-5339-451e-957d-362b946d796d)
 		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/HTML
@@ -6479,7 +6479,7 @@
 			- #### NGINX
 		-
 	- ## Portable Document Format <a class="logseq-meta" id="6720be1c-fb4d-47a9-9dbd-d5cc87cec103" data-collapsed="true" ></a>
-	  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [PDF](#6720be20-0d0e-478d-bdbe-1b6d33d126a0)
+	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [PDF](#6720be20-0d0e-478d-bdbe-1b6d33d126a0)
 		- PDF <a class="logseq-meta" id="6720be20-0d0e-478d-bdbe-1b6d33d126a0" ></a>
 		  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">Portable Document Format</span>](#6720be1c-fb4d-47a9-9dbd-d5cc87cec103)
 		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/PDF
@@ -6507,7 +6507,7 @@
 				  <br>repo_reenable_on_distupgrade="true"
 				  <br>```
 	- ## vacancy <a class="logseq-meta" id="66600918-9f92-4730-b056-c2cd87a742aa" data-collapsed="true" ></a>
-	  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [Emptiness](#66691d61-b8e9-4618-ac98-145056b646f4)
+	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [Emptiness](#66691d61-b8e9-4618-ac98-145056b646f4)
 		- Emptiness <a class="logseq-meta" id="66691d61-b8e9-4618-ac98-145056b646f4" ></a>
 		  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">vacancy</span>](#66600918-9f92-4730-b056-c2cd87a742aa)
 			- Buddhist: [śūnyatā (Sanskrit: शून्यता; Pali: suññatā)](https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81)
@@ -6522,14 +6522,14 @@
 			  <br>plural of [<span class="link-h2">search criterion</span>](#66fe763b-09bc-4446-89bb-58a562d2759a)
 		- ## search key <a class="logseq-meta" id="66fe71f9-a903-4797-9041-a66f102bda49" ></a>
 		- ## search scope <a class="logseq-meta" id="66fe72c4-3ad3-41a2-b1bc-dd70a97176fd" ></a>
-		  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [search space](#66fe754c-1858-4aff-bf23-510cd9ebb5b0)
+		  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [search space](#66fe754c-1858-4aff-bf23-510cd9ebb5b0)
 			- search space <a class="logseq-meta" id="66fe754c-1858-4aff-bf23-510cd9ebb5b0" ></a>
 			  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">search scope</span>](#66fe72c4-3ad3-41a2-b1bc-dd70a97176fd)
 			- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h2">search scope</span>](#66fe72c4-3ad3-41a2-b1bc-dd70a97176fd) is the place where the [<span class="link-h1">search</span>](#66fe70ac-04d0-45b5-b771-b072cc0fa7be) is taken placed.
 	- ## JavaScript <a class="logseq-meta" id="6716110e-aa2d-41c9-8ae3-be3ceed55407" ></a>
-	  <br>[moved to](#680a04eb-125e-4e9e-b691-3b7be523359c) [6708aad1-5efb-4b3f-ad99-e3ae2e73fcb4](#6708aad1-5efb-4b3f-ad99-e3ae2e73fcb4)
+	  [moved to](#680a04eb-125e-4e9e-b691-3b7be523359c) [6708aad1-5efb-4b3f-ad99-e3ae2e73fcb4](#6708aad1-5efb-4b3f-ad99-e3ae2e73fcb4)
 	- ## D2: Declarative Diagramming <a class="logseq-meta" id="6751697f-aa5b-4ade-b97c-9ea1f1406581" data-collapsed="true" ></a>
-	  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [D2](#67516994-d999-4095-bea1-7b3861089890)
+	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [D2](#67516994-d999-4095-bea1-7b3861089890)
 		- D2 <a class="logseq-meta" id="67516994-d999-4095-bea1-7b3861089890" ></a>
 		  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">D2: Declarative Diagramming</span>](#6751697f-aa5b-4ade-b97c-9ea1f1406581)
 		- [Official website:](#665359c3-61fd-4858-a117-ecbcd6fbc9ea) https://d2lang.com/
