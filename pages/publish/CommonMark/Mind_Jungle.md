@@ -1,5 +1,5 @@
 # Mind Jungle
-	- [Description:] This is the [](((665c82c0-ee06-4f43-95b8-73dbbe956080) "## Mind Jungle")) for [](((66536578-c4d3-43f1-b35c-bf71120f0570)) "## Will LÊ").
+	- [Description:] This is the [](((665c82c0-ee06-4f43-95b8-73dbbe956080)) "## Mind Jungle") for [](((66536578-c4d3-43f1-b35c-bf71120f0570)) "## Will LÊ").
 	-
 	-
 	- ## complex system
