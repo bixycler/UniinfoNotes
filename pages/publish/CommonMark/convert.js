@@ -190,17 +190,46 @@ function convertFile(inputPath, outputPath, uuidMap) {
                 continue;
             }
 
+            // Handle Line Breaks for continuation lines
+            // If not a new block (no bullet), not metadata (already handled), and has content
+            if (!ln.match(PAT_ITEM) && ln.trim().length > 0) {
+                // Find where the text starts (skip indentation)
+                const textStart = ln.search(/\S/);
+                if (textStart > -1) {
+                    // Insert <br> before the text
+                    ln = ln.substring(0, textStart) + '<br>' + ln.substring(textStart);
+                }
+            }
+
             // Process Links in the current line
             // 1. Complex links: [](((uuid)) "title") -> [Title](#uuid)
             ln = ln.replace(PAT_LINK_REF, (match, text, uuid, title) => {
                 // If text is empty, try to find title from map
                 let displayTitle = text || title || uuidMap[uuid] || uuid;
+
+                // Handle Header Styling: [## Title] -> [<span class="link-h2">Title</span>]
+                const headerMatch = displayTitle.match(/^(#+)\s+(.*)$/);
+                if (headerMatch) {
+                    const level = headerMatch[1].length;
+                    const content = headerMatch[2];
+                    displayTitle = `<span class=\"link-h${level}\">${content}</span>`;
+                }
+
                 return `[${displayTitle}](#${uuid})`;
             });
 
             // 2. Simple refs: ((uuid)) -> [Title](#uuid)
             ln = ln.replace(PAT_UUID_REF, (match, uuid) => {
                 let title = uuidMap[uuid] || uuid;
+
+                // Handle Header Styling for simple refs too
+                const headerMatch = title.match(/^(#+)\s+(.*)$/);
+                if (headerMatch) {
+                    const level = headerMatch[1].length;
+                    const content = headerMatch[2];
+                    title = `<span class=\"link-h${level}\">${content}</span>`;
+                }
+
                 return `[${title}](#${uuid})`;
             });
 
