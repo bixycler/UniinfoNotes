@@ -11,7 +11,7 @@ const OUTPUT_FILE = path.join(BASE_DIR, 'publish/CommonMark/Mind_Jungle.md');
 const PAT_PROP = /^\s*(\w+):: (.*)$/;
 const PAT_LB_START = /^\s*:(logbook|LOGBOOK):$/;
 const PAT_LB_END = /^\s*:END:$/;
-const PAT_ITEM = /^(\t*)- /;
+const PAT_ITEM = /^(\t*)-( |$)/;
 const PAT_UUID_REF = /\(\(([0-9a-fA-F-]{36})\)\)/g;
 const PAT_LINK_REF = /\[([^\[\]]*)\]\(\(\(([0-9a-fA-F-]{36})\)\)(?: "([^"]*)")?\)/g;
 const PAT_ID_PROP = /id::\s*([0-9a-fA-F-]{36})/;
@@ -126,6 +126,9 @@ function convertFile(inputPath, outputPath, uuidMap) {
         let inLogbook = false;
         let meta = '';
 
+        let currentBlockIsHeader = false;
+        let hasAddedContinuationContent = false;
+
         for (let i = 0; i < lines.length; i++) {
             let ln = lines[i];
 
@@ -187,17 +190,39 @@ function convertFile(inputPath, outputPath, uuidMap) {
 
                 // Append to nmd and continue (skip link processing as it's empty)
                 nmd += ln + '\n';
+
+                // Treat as new block
+                currentBlockIsHeader = false;
+                hasAddedContinuationContent = false;
+
                 continue;
+            }
+
+            // Check if this is a new block
+            if (ln.match(PAT_ITEM)) {
+                // Check if it's a header block (e.g. "- ## Title")
+                // Regex: indent, dash, space, one or more #, space
+                currentBlockIsHeader = ln.match(/^\s*-\s+#+\s/);
+                hasAddedContinuationContent = false;
             }
 
             // Handle Line Breaks for continuation lines
             // If not a new block (no bullet), not metadata (already handled), and has content
-            if (!ln.match(PAT_ITEM) && ln.trim().length > 0) {
+            // Also exclude headers starting with #
+            if (!ln.match(PAT_ITEM) && ln.trim().length > 0 && !ln.trim().startsWith('#')) {
                 // Find where the text starts (skip indentation)
                 const textStart = ln.search(/\S/);
                 if (textStart > -1) {
-                    // Insert <br> before the text
-                    ln = ln.substring(0, textStart) + '<br>' + ln.substring(textStart);
+                    let needBr = true;
+                    if (currentBlockIsHeader && !hasAddedContinuationContent) {
+                        needBr = false;
+                    }
+
+                    if (needBr) {
+                        // Insert <br> before the text
+                        ln = ln.substring(0, textStart) + '<br>' + ln.substring(textStart);
+                    }
+                    hasAddedContinuationContent = true;
                 }
             }
 
