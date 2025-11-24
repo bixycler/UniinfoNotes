@@ -253,7 +253,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- Retrieved subgraph is combined with chunked text for final answer generation.
 					- MemFree
 						- ((665f1a5c-6c98-4785-a177-3cd01507595d)) https://github.com/memfreeme/memfree
-				-
+				- agent
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2025-11-24 Mon 14:42:55]
+				  :END:
+					- Antigravity
+					  collapsed:: true
+					  The agent-based IDE from Google
+						- Agent data are stored in `$HOME/.gemini/antigravity/brain/$hash/`.
+							- `task.md`, `task.md.metadata.json`, `walkthrough.md`, `walkthrough.md.metadata.json`, `implementation_plan.md`,
 		- AI chatbots
 		  id:: 67a5fae8-8e1d-4dd6-818d-a8462f6b54db
 		  collapsed:: true
