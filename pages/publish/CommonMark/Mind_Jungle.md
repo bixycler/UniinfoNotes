@@ -1,7 +1,7 @@
 # Mind Jungle <a class="logseq-meta" id="6651e92e-fb34-4d24-a386-d9698c2e93f7" ></a>
 	- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) This is the [<span class="link-h2">Mind Jungle</span>](#665c82c0-ee06-4f43-95b8-73dbbe956080) for [<span class="link-h2">Will LÊ</span>](#66536578-c4d3-43f1-b35c-bf71120f0570). <a class="logseq-meta" id="66600918-70a9-49da-ac23-5bfbbf006854" ></a>
-	-
-	-
+	- <zwsp>
+	- <zwsp>
 	- ## complex system <a class="logseq-meta" id="66c30abb-c97b-426b-a1ee-d9f795d18fb2" data-collapsed="true" data-logbook="CLOCK: [2024-08-19 Mon 16:05:06]--[2024-08-19 Mon 20:50:10] =&gt;  04:45:04&#10;" ></a>
 		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) [complex system](https://en.wikipedia.org/wiki/Complex_system)
 		- emergence <a class="logseq-meta" id="66c30b69-5b96-4793-bcce-bce51553a454" ></a>
@@ -401,7 +401,7 @@
 		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) A [<span class="link-h2">self</span>](#667c015e-6223-4f8a-ae84-a93a49f4ff94) of a [<span class="link-h2">subject</span>](#667cfa3e-9856-43f0-956b-ebb4ff31d8eb) is a [<span class="link-h2">circle</span>](#667d15c6-67c4-4998-a549-c8b3f9de3d60) of [<span class="link-h3">projection</span>](#6653769c-3334-46fa-a1d5-4ce6a7fc23e8) from that subject to itself, i.e. the [effect circle](#667c0031-0a87-44c9-9e98-6d45893b095f) of that subject. Each subject may have many selves expressed as different [<span class="link-h3">self-circle</span>](#669a5387-2a97-4311-a295-aa0afd9c4d76)s, but we ususally call the master self at the current moment “the self” and “the self-circle”. This circle can be seen as an [objective concept](https://en.wikipedia.org/wiki/Philosophy_of_self) of [<span class="link-h3">self-structure</span>](#6810ceeb-6af6-442b-9910-baae2c315c46), or as a subjective [<span class="link-h3">sense of self</span>](#67f9100a-b749-4354-ae16-92dc74ff27da).
 		- ### life cycle of self <a class="logseq-meta" id="690827cf-c19e-4fc4-ba25-5d225afe06ae" data-collapsed="true" ></a>
 			-  <a class="logseq-meta" id="69043439-614f-406a-8618-4253406958b8" ></a>
-			  <br>1. The formation of a self starts with the closure of its [<span class="link-h3">self-circle</span>](#669a5387-2a97-4311-a295-aa0afd9c4d76) at the terminal obop, i.e. [point equality](#66e40f4b-34ae-499a-8192-0a0f4f580c7e).
+			  1. The formation of a self starts with the closure of its [<span class="link-h3">self-circle</span>](#669a5387-2a97-4311-a295-aa0afd9c4d76) at the terminal obop, i.e. [point equality](#66e40f4b-34ae-499a-8192-0a0f4f580c7e).
 			- 2. The self is sustained by the conserving its content in its body, i.e. [mass equality](#66e40f58-c9dd-47f4-999d-2e4a2aa874fe).
 			- 3. The constant-sized body revolves around the obop, like the radius rotating around the center, drawing the next level of body, forming the external self-circle → [1](#69043439-614f-406a-8618-4253406958b8).
 				- 3.1. Here, the first obop becomes the central obop, and many terminal obops emerges on the external self-circle.
@@ -530,7 +530,7 @@
 				- Similar ideas
 					- The [Foundational Questions Institute (FQxI)](https://fqxi.org/) grants to researchers around the globe to work on issues ranging from the origin of the **arrow of time** in quantum gravity to the nature of **consciousness**.
 					- [George Rush](https://www.quora.com/profile/George-Rush-4) > [Do particle physicists consider particles conscious? If not, I think they should start as I have proof they might be.](https://www.quora.com/Do-particle-physicists-consider-particles-conscious-If-not-I-think-they-should-start-as-I-have-proof-they-might-be)
-					-
+					- <zwsp>
 		- subjective <a class="logseq-meta" id="66c88055-a994-4e59-a7dc-83f3331a6e1d" ></a>
 		  <br>[adjective of](#66c80e01-002b-42ae-9c60-49bf3fc6e159) [<span class="link-h2">subject</span>](#667cfa3e-9856-43f0-956b-ebb4ff31d8eb)
 		  <br>[Noun:](#66c80d5c-181f-4f06-a285-0624a65e9951) [subjectivity](#6728a766-210b-462b-8fd4-aee04981b4f9)
@@ -573,7 +573,7 @@
 				- By definition, all universal properties of the whole is objective and non-universal properties are subjective to some part(s) within the whole.
 					- [⇐](#66602f61-b849-41a9-bdb8-ec91b96adaec) This statement is resulted from the definition of objectivity & subjectivity when extending the "group of subjects" to a whole.
 				- [<span class="link-h4">Representative Rule</span>](#6732cf59-2785-4c8b-9fb3-5bee5d1a2f31): The law is an abstraction of the whole which represents the whole to govern the parts.
-					-
+					- <zwsp>
 				- The objective and subjective views of the [<span class="link-h2">equal</span>](#6653751a-a1b4-44b0-a81e-0a446eb8918c) (as the law):
 					- Objective view of the whole: **intrinsic balance**: The conversation laws, or actually the root law of [Conservation of content](#67a983b4-f6ad-4abb-b611-7952168d83a2) states that the whole is always in balance, i.e. when this part is added, the other part is subtracted, when this dimension is multiplied, the other dimension is divided.
 						- This law is the intrinsic nature of the whole, i.e. an abstraction of the whole, representing the whole, but not actually the whole.
@@ -664,7 +664,7 @@
 						- It can be reverted to `=\=` to change direction in relation.
 	- ## vector <a class="logseq-meta" id="667d16f8-206e-4a85-80f3-24c2aa1bf4ad" data-collapsed="true" ></a>
 		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) A [<span class="link-h2">vector</span>](#667d16f8-206e-4a85-80f3-24c2aa1bf4ad) is an [<span class="link-h2">object</span>](#667cfa42-ade7-4310-9a7b-6d14d01c16da) whose [<span class="link-h2">structure</span>](#6678d596-9526-405a-968c-e73860e524f3) is an [<span class="link-h2">arrow</span>](#667d15b7-6364-49a9-ac58-c64d2a992b63). Due to the dynamic nature of the arrow, a vector is a carrier of motion, like [velocity vector](https://en.wikipedia.org/wiki/Euclidean_vector), a carrier of direction, like [aircraft vector](https://www.paramountbusinessjets.com/aviation-terminology/vector), [thrust vector](https://en.wikipedia.org/wiki/Thrust_vectoring), or a carrier of biological material, like [disease vector](https://en.wikipedia.org/wiki/Disease_vector). <a class="logseq-meta" id="66faa5f9-42fd-4fb0-abab-49ffa4aa5d80" ></a>
-		-
+		- <zwsp>
 	- ## point <a class="logseq-meta" id="66e43b94-9183-4d49-af85-8a7a1c194c12" data-collapsed="true" ></a>
 		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) A [<span class="link-h2">point</span>](#66e43b94-9183-4d49-af85-8a7a1c194c12) is an [<span class="link-h2">abstraction</span>](#66537674-6cf9-4459-8bea-7c1858c694a3) of a [<span class="link-h2">circle</span>](#667d15c6-67c4-4998-a549-c8b3f9de3d60) so that it has no [<span class="link-h3">magnitude</span>](#67bc2fc9-8389-4455-ace9-4aac8de73e1d), e.g. the [<span class="link-h4">center</span>](#66ab7477-c060-4d07-ab13-bc3d11246854) of a circle, through a [<span class="link-h3">view cone</span>](#6672513b-c4b0-4c88-8b30-c60a3c6555a7) whose base is the original circle and apex is the resulting point. While the quantity (magnitude) of the circle is abstracted, its quality is still preserved in the point, as an identifier of the circle, via its connection with the circle through the viewcone. When the viewcone is further abstracted away, the resulting image of that point on the screen is a [dot](#66e43ebf-bbaa-4bfc-9601-a5ee40398677) which is an abstraction of the original circle's [<span class="link-h2">quality</span>](#66e426ec-d29b-4614-932b-2c70693790d7).
 			- In [Unïnfo](#66537a44-f579-4fcc-a02b-2f32d0d409fc), the term “point” is preserved only for the apex or vertex which must be the abstraction or intersection of other larger forms, while the separated, isolated [geometric point](#671dfbf3-c985-463f-9a1d-3e3994fbdb62) is called “dot”. Literally, when the tip of a pen, i.e. *pen “point”*, touches the paper, a “dot” is created as an image of that point. <a class="logseq-meta" data-collapsed="true" ></a>
@@ -675,7 +675,7 @@
 			  <br>image of point on screen
 			- geometric point <a class="logseq-meta" id="671dfbf3-c985-463f-9a1d-3e3994fbdb62" ></a>
 				- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) From [vertex point](https://en.wikipedia.org/wiki/Vertex_(geometry)), which is original [<span class="link-h2">point</span>](#66e43b94-9183-4d49-af85-8a7a1c194c12), “[point](https://en.wikipedia.org/wiki/Point_(geometry))” in geometry has been abstracted to the isolated [dot](#66e43ebf-bbaa-4bfc-9601-a5ee40398677) on the screen.
-		-
+		- <zwsp>
 	- ## arrow <a class="logseq-meta" id="667d15b7-6364-49a9-ac58-c64d2a992b63" data-collapsed="true" ></a>
 		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) From the [physical arrow](https://en.wikipedia.org/wiki/Arrow) [projectile](https://en.wikipedia.org/wiki/Projectile), [<span class="link-h2">arrow</span>](#667d15b7-6364-49a9-ac58-c64d2a992b63) is abstracted into a [symbol (→)](https://en.wikipedia.org/wiki/Arrow_(symbol)) representing many aspects of meaning, including direction "from A to B" (A → B), differentiation "B is different from A" (B ← A), relation "A is related to B" (A → B), mapping, transformation, projection, etc.
 		- Components: tail ⤚[body]→ head <a class="logseq-meta" data-collapsed="true" ></a>
@@ -1133,7 +1133,7 @@
 								- [<span class="link-h3">action cone</span>](#6847e436-9a84-42c5-a853-75f6d626ed63): The motion of the particle is action, thus the action cone includes force → momentum, and its effect is the position.
 							- Universe: spatial distribution = distribution of point masses = energy field = wave field
 						- [Commentaries:](#665359ff-79f1-4669-b10b-f2b0e633a7c1)
-							-
+							- <zwsp>
 						- Pyramid of Dynamics <a class="logseq-meta" id="67bd787d-4b28-42a0-a7b6-ba4bd60e5523" ></a>
 						  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [Dynamics Pyramid](#67baf139-aa0c-436e-9e21-983323833c71)
 							- Dynamics Pyramid <a class="logseq-meta" id="67baf139-aa0c-436e-9e21-983323833c71" ></a>
@@ -1148,8 +1148,8 @@
 						- from living feedback to mechanical command.
 				- circular effect flow = circular causality = circular determinism = interdependency = interfusion = interpenetration = dependent origination <a class="logseq-meta" id="68f5a6d2-8148-4975-b3cb-799fe37a3d72" ></a>
 					- This circular dependency is shown by the spirorus which is the structure of spacetime.
-				-
-		-
+				- <zwsp>
+		- <zwsp>
 	- ## world <a class="logseq-meta" id="667cfac2-17f1-4cbd-9f6d-1e722ff2a870" data-collapsed="true" ></a>
 		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) A [<span class="link-h2">world</span>](#667cfac2-17f1-4cbd-9f6d-1e722ff2a870) is a place where at least one [<span class="link-h2">subject</span>](#667cfa3e-9856-43f0-956b-ebb4ff31d8eb) lives with many [<span class="link-h2">object</span>](#667cfa42-ade7-4310-9a7b-6d14d01c16da)s. A world usually contains many objects and many subjects.
 		- [((66725725-f76a-4328-b162-f469b87e871b))](#66725708-3dc4-43f5-a180-6b331c6a160f) <a class="logseq-meta" data-collapsed="true" ></a>
@@ -1249,7 +1249,7 @@
 		  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [viewscale](#68c763fb-ca93-4f2d-b20f-ae8cbf5cf8e2)
 			- viewscale <a class="logseq-meta" id="68c763fb-ca93-4f2d-b20f-ae8cbf5cf8e2" ></a>
 			  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h3">view scale</span>](#68c763ce-b8e4-4091-b3b8-e188a16ea431)
-			-
+			- <zwsp>
 		- ### view cone <a class="logseq-meta" id="6672513b-c4b0-4c88-8b30-c60a3c6555a7" data-collapsed="true" ></a>
 		  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [viewcone](#667251ec-d4f7-4c09-adff-73e04a4b22ed), [perspective](#667259a0-aa2e-49fa-bcbd-b3768a9f30b2), [cause cone](#667bda02-8dc9-488e-ba16-ea75c3d7895c), [<span class="link-h4">cone projection</span>](#670ce218-a01f-4609-b7f2-beda7cf2ebc3)
 		  <br>[Complement:](#6699e4db-2e75-4427-94bb-96dfe0367dd1) [light cone](#667bd931-8759-4008-8a9a-33e78a5cbdf3)
@@ -1830,7 +1830,7 @@
 				- ![ObopProjection](https://docs.google.com/drawings/d/e/2PACX-1vQA55wTGcMRsbygwBRJI8bhxrphLFalKHVYNWbgcXhIqCzwtIyp7t93dYv37FatAFgU6OEkSb1VKA36/pub?w=320)
 				- The obop yields an inner product $⟨M,W⟩$ whose angle is 
 				  <br>$$θ = cos^{-1}\left({⟨M,W⟩\over |M|⋅|W|}\right) = \frac{M_2M_1}{M_2W_1W_2M_1} = \frac{W_2W_1}{W_2M_1M_2W_1}$$
-				-
+				- <zwsp>
 		- [Commentaries:](#665359ff-79f1-4669-b10b-f2b0e633a7c1)
 			- In the [<span class="link-h2">CIE</span>](#66b1cfa4-e22c-4424-bf19-a6ce4649da77) model of [obop](#94e87dc9-71af-477c-aa70-0f448c2f1e20), the core of obop is the [<span class="link-h2">intent</span>](#66b1cfa4-01ef-4ee8-9409-32c9884c39cd) that observes the content to produce the extent which is used to operate the [<span class="link-h2">body</span>](#66c810a0-9861-4787-bdcf-1378219332be). The intent can be composed of many sub-itents in many layers, where the “atomic intent” at the basic layer is the [<span class="link-h3">qualiton</span>](#671e0fcc-37b6-4f03-8e87-8923422ca8e0). <a class="logseq-meta" id="66e79e0c-8be2-49a4-b4d7-5c1fddefeabf" data-collapsed="true" data-logbook="CLOCK: [2024-09-16 Mon 18:54:11]&#10;" ></a>
 				- At the "operator" side of the obop, the extent is the (mental) [<span class="link-h2">action</span>](#66727858-979d-4d95-8a90-7a749218cfba) ([saṅkhāra](https://en.wikipedia.org/wiki/Sa%E1%B9%85kh%C4%81ra)) and its intent is the master of that action, i.e. the volition or [cetanā](https://en.wikipedia.org/wiki/Cetan%C4%81) in Buddhism.
@@ -1942,7 +1942,7 @@
 			- sensitivity <a class="logseq-meta" id="6731c3f4-cb64-454e-b104-002b6c9d57a3" ></a>
 			  <br>[noun of](#66c80dde-a097-4744-8af8-c6e26dcfdda2) [sensitive](#6731c3ce-d9ae-4413-bada-7527ad5125b0)
 	- ## `in`-`ex` partition <a class="logseq-meta" data-collapsed="true" ></a>
-		-
+		- <zwsp>
 	- ## CIE <a class="logseq-meta" id="66b1cfa4-e22c-4424-bf19-a6ce4649da77" data-collapsed="true" ></a>
 	  [content](#66b1cfa4-2537-4361-a626-da81ca5b4e6f) ÷ [intent](#66f3c97f-94e8-4783-96c5-fe9cadf4f9a9) = [extent](#66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)
 	  <br>content = intent × extent
@@ -2658,7 +2658,7 @@
 				  <br>○, ◯, ⥁, ☉, ©, 🄯
 				- `<:)`, `<:))`, `<:D`, `<:(`, `<:p`, `<:*3`, `<..<3`, `<..+^`, `<../-`, `<..v`, `<..x`, `<..O`, `<..8`
 				  <br>😊, 😄, 😁, 🙁, 😛, 😘, ❤️, 👍, ➡️, ✔️, ❌, ⭕, ♾️
-			-
+			- <zwsp>
 		- Writing styles & formats <a class="logseq-meta" id="67187bb2-8a3a-4541-9f19-40e217ce7eb0" data-collapsed="true" data-logbook="CLOCK: [2024-10-23 Wed 12:04:05]--[2024-10-23 Wed 15:27:28] =&gt;  03:23:23&#10;" ></a>
 			- CreatZy style <a class="logseq-meta" id="684f951b-4f21-4783-a4a6-3fe5d638c64c" ></a>
 			  <br>the prefered style in UniinfoNotes
@@ -2825,7 +2825,7 @@
 				- The vacantism is also expressed in Tao Te Ching as the following:
 					-  <a class="logseq-meta" id="684f9517-7e89-4efb-9b6c-16bf3458ce67" ></a>
 					  #+BEGIN_QUOTE
-					  <br>“The Way is vacant, yet never used up.  
+					  “The Way is vacant, yet never used up.  
 					  <br>Immeasurable abyss it is, as the ancestor of all things!”  
 					  <br>「道沖而用之或不盈。  
 					  <br>淵兮似萬物之宗。」
@@ -2833,7 +2833,7 @@
 					  <br>— [Chapter 4. The Sourceless](https://en.wikisource.org/wiki/Translation:Tao_Te_Ching#Chapter_4_(%E7%AC%AC%E5%9B%9B%E7%AB%A0)), Tao Te Ching
 					-  <a class="logseq-meta" id="684f9517-afac-49ba-97e3-b88529d74b24" ></a>
 					  #+BEGIN_QUOTE
-					  <br>“The door and windows are cut out to form a room;  
+					  “The door and windows are cut out to form a room;  
 					  <br>thanks to its vacancy, the room is usable.”
 					  <br>「鑿戶牖以為室，當其無，有室之用。」
 					  #+END_QUOTE 
@@ -2849,7 +2849,7 @@
 					- Basically [<span class="link-h3">Vacantism</span>](#66f3ed94-4f20-4166-8e9b-2e8ba53aaad2) simply means “**no first**” or [“no prime” (無元)](#68594391-d60e-40af-9285-0591b598288e), because in [Unïnfo](#66537a44-f579-4fcc-a02b-2f32d0d409fc), every concrete thing is circular, thus the whole Universe is circular and nothing can be absolutely “the first”. <a class="logseq-meta" id="68b96854-7e4a-45a9-b0ef-1d8fb57e5fa3" ></a>
 					- This denial of the any [first principle](https://en.wikipedia.org/wiki/First_principle), or primordial substance, or [essence](https://en.wikipedia.org/wiki/Essence), makes Vacantism equivalent to [non-foundationalism](https://en.wikipedia.org/wiki/Anti-foundationalism) and [non-essentialism](https://en.wikipedia.org/wiki/Non-essentialism). The vacancy of Vacantism is equivalent to “[śūnyatā](https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81)” which is usually translated to “emptiness” in English. However, because such words like “empty”, “void”, “nothing”, “zero”, “null”, “nil” have negative meaning, it's usually confused with [nihilism](https://en.wikipedia.org/wiki/Nihilism) which is denied by Buddhism, Taoism, and Vacantism. Because everything in Unïnfo is relative to [perspective](#667259a0-aa2e-49fa-bcbd-b3768a9f30b2), Vacantism is a kind of [perspectivism](https://en.wikipedia.org/wiki/Perspectivism) which is a non-nihilistic [relativism](https://en.wikipedia.org/wiki/Relativism). <a class="logseq-meta" id="66f3ee6f-9f62-4f7f-ad00-34f5d4b0c800" ></a>
 						-  <a class="logseq-meta" id="684f9517-3cbd-495d-8e40-85932d03bbe0" ></a>
-						  <br>> “Non-action but nothing is not done!”
+						  > “Non-action but nothing is not done!”
 						  <br>「無為而無不為。」
 						  
 						  <br>— [Chapter 48. Forget the knowledge](https://en.wikisource.org/wiki/Translation:Tao_Te_Ching#Chapter_48_(%E7%AC%AC%E5%9B%9B%E5%8D%81%E5%85%AB%E7%AB%A0)), Tao Te Ching
@@ -4217,7 +4217,7 @@
 				- Before merging to `store`, flush contents of block `To be merged` to an `[m]` commit in `log` branch.
 		- DOING ### Task list <a class="logseq-meta" id="67715dbd-5ba6-4fc8-bd3e-5fab97885ae7" data-logbook="CLOCK: [2024-12-29 Sun 22:23:50]&#10;" ></a>
 			- This contains all global (context-free) tasks, as well as links of in-context tasks.
-			-
+			- <zwsp>
 		- ### Workflow
 			- New works will be carried out from the [<span class="link-h3">Workstack</span>](#6653538a-22d3-4807-ad13-a64ac543edba), whose statuses are tracked in [`WIPs` and `To be merged`](#67714f65-8591-43ed-8af6-6aa8b9e101e0), and their bodies should be placed in document storages like [<span class="link-h2">Mind Jungle</span>](#665c82c0-ee06-4f43-95b8-73dbbe956080), [6653538a-30aa-423f-be89-848ad9c7e331](#6653538a-30aa-423f-be89-848ad9c7e331), etc. Old works from document storages may be continued to be worked with by linking them back to the [<span class="link-h3">Workspace</span>](#665d1a03-4c61-4d81-ac58-a5a1a7efe568).
 			- In the course of working on the current task,
@@ -4282,7 +4282,7 @@
 				- HTV staff ID: `230320029`
 		- [Commentaries:](#665359ff-79f1-4669-b10b-f2b0e633a7c1)
 			-  <a class="logseq-meta" id="6880a9a5-b5d3-4542-b378-31cf40ea8476" data-collapsed="true" ></a>
-			  <br>> I'm just a no-one going nowhere to do nothing!
+			  > I'm just a no-one going nowhere to do nothing!
 			  
 			  <br>This short introduction appears in most of my profiles. It may sounds Buddhist and Daoist but these "sounds" and interpretations are very far from my original intention.
 				- With this statement, i mean that “I'm just a humble person, not chasing status or legacy; I live a simple life without big ambitions, doing what matters to me – even if it looks like nothing, meaningless or even ridiculous to others.”
@@ -4515,9 +4515,9 @@
 				- <<End Questions>>
 				  <br>--------------------
 			- ...
-			-
-			-
-		-
+			- <zwsp>
+			- <zwsp>
+		- <zwsp>
 	- ## Git
 	  [moved to](#680a04eb-125e-4e9e-b691-3b7be523359c) [((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))](#666ba1e2-19d1-409e-b30e-42a99b7e4ec0)
 	- ## GitHub <a class="logseq-meta" id="66536662-052f-46a4-a624-38858bffb334" data-collapsed="true" ></a>
@@ -4996,7 +4996,7 @@
 									  <br>@@ -1,14 +1,14 @@
 									   ## Git
 									  - <a class="logseq-meta" id="666ba1e2-19d1-409e-b30e-42a99b7e4ec0" ></a>
-									  <br>+id:: 66aded24-8ec4-4bc5-b7a5-972025161721
+									  +id:: 66aded24-8ec4-4bc5-b7a5-972025161721
 									  <br>```
 									- This UUID of `Git > Git` is automatically changed by Logseq to avoid collision with UUID of `Mind Jungle > Git`.
 								- The old `666ba1e2-19d1-409e-b30e-42a99b7e4ec0` still remains in many refs
@@ -6477,7 +6477,7 @@
 			- Modern IDEs like IntelliJ, Visual Studio Code, support live simple HTTP server right from the opening HTML file.
 			- #### Apache
 			- #### NGINX
-		-
+		- <zwsp>
 	- ## Portable Document Format <a class="logseq-meta" id="6720be1c-fb4d-47a9-9dbd-d5cc87cec103" data-collapsed="true" ></a>
 	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [PDF](#6720be20-0d0e-478d-bdbe-1b6d33d126a0)
 		- PDF <a class="logseq-meta" id="6720be20-0d0e-478d-bdbe-1b6d33d126a0" ></a>
@@ -6547,4 +6547,4 @@
 		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h2">pendulum wave</span>](#676539ca-ff29-4749-ab33-b00dfe8fb936) is a physics toy using spatial [aliasing](https://en.wikipedia.org/wiki/Aliasing#Sampling_sinusoidal_functions) to demonstrate the [emergence](#66c30b69-5b96-4793-bcce-bce51553a454) of various types of waveforms in a simple array of uncoupled [simple pendulums](https://en.wikipedia.org/wiki/Simple_pendulum) with [monotonically](https://en.wikipedia.org/wiki/Monotonic) increasing lengths: from travelling waves, [standing waves](https://en.wikipedia.org/wiki/Standing_wave), to [beats](https://en.wikipedia.org/wiki/Beat_(acoustics)), and [chaos](https://en.wikipedia.org/wiki/Chaos_theory).
 			- Aliasing as well as the [Gestalt priciple of continuation](https://en.wikipedia.org/wiki/Principles_of_grouping#Good_continuation) is the basic connection in [Unithread](#66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d), particularly shown as the [<span class="link-h3">ω-abstraction</span>](#67654618-70d2-49cd-88b7-f7c4e161dfd9) in [<span class="link-h3">SCIFER</span>](#66f40210-cca6-4d81-85e7-d0c54ef20451) mechanism.
 			- This aliasing can also be in in [oscilloscope](https://en.wikipedia.org/wiki/Oscilloscope).
--
+- <zwsp>

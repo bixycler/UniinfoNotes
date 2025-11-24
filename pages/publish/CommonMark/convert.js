@@ -127,6 +127,7 @@ function convertFile(inputPath, outputPath, uuidMap) {
         let meta = '';
 
         let currentBlockIsHeader = false;
+        let currentBlockIsEmptyTitle = false;
         let hasAddedContinuationContent = false;
 
         for (let i = 0; i < lines.length; i++) {
@@ -191,8 +192,9 @@ function convertFile(inputPath, outputPath, uuidMap) {
                 // Append to nmd and continue (skip link processing as it's empty)
                 nmd += ln + '\n';
 
-                // Treat as new block
+                // Treat as new block with empty title
                 currentBlockIsHeader = false;
+                currentBlockIsEmptyTitle = true;
                 hasAddedContinuationContent = false;
 
                 continue;
@@ -203,7 +205,14 @@ function convertFile(inputPath, outputPath, uuidMap) {
                 // Check if it's a header block (e.g. "- ## Title")
                 // Regex: indent, dash, space, one or more #, space
                 currentBlockIsHeader = ln.match(/^\s*-\s+#+\s/);
+                currentBlockIsEmptyTitle = false;
                 hasAddedContinuationContent = false;
+
+                // Check for empty item (just dash or dash + space)
+                if (ln.trim() === '-') {
+                    // Replace end of line with " <zwsp>"
+                    ln = ln.replace(/-(\s*)$/, '- <zwsp>');
+                }
             }
 
             // Handle Line Breaks for continuation lines
@@ -214,7 +223,8 @@ function convertFile(inputPath, outputPath, uuidMap) {
                 const textStart = ln.search(/\S/);
                 if (textStart > -1) {
                     let needBr = true;
-                    if (currentBlockIsHeader && !hasAddedContinuationContent) {
+                    // Suppress <br> if it's the first continuation line of a header or empty title block
+                    if ((currentBlockIsHeader || currentBlockIsEmptyTitle) && !hasAddedContinuationContent) {
                         needBr = false;
                     }
 
