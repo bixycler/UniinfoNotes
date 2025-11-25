@@ -45,10 +45,10 @@ cnamehostsf=${HOME}/hosts/active/cname.hosts
 cd ${HOME}/tmp/
 echo "Monitoring hosts:"
 printf '  %s\n' ${cnames[*]@K}
-declare -A cnameIPs
+declare -A cnameIP
 seconds=0
 while true; do
-    IPupdates=(); cnameIPs=(); ttls=()
+    IPupdates=(); cnameIP=(); ttls=()
     dt=$(date '+%Y-%m-%d_%H:%M:%S')
     for host in ${hosts[@]}; do
         IPs=(); ttl=0; st="${host}:${dt}"
@@ -58,7 +58,7 @@ while true; do
             IPs=($(dig +short ${cnames[$host]} 2>/dev/null | sort))
             ttl=$(dig +noall +answer +ttlid ${cnames[$host]} 2>/dev/null | tail -1 | awk '{print $2}')
         done
-        cnameIPs[$host]=(${IPs[@]})
+        cnameIP[$host]=${IPs[0]}
         ttls+=($ttl)
         # Check the dug IPs against the stored IPs
         oIPs=($(cat ${host}.ip.log))
@@ -76,10 +76,8 @@ while true; do
     if [[ ${#IPupdates[@]} -gt 0 ]]; then 
         echo '### IPs from CNAME records ###' > $cnamehostsf
         for host in ${hosts[@]}; do
-            echo -e "\n"
-            for ip in ${cnameIPs[$host]}; do
-                echo ${ip} ${host} >> $cnamehostsf
-            done
+            echo -e "\n" >> $cnamehostsf
+            echo ${cnameIP[$host]} ${host} >> $cnamehostsf
             echo '#CNAME' ${cnames[$host]} >> $cnamehostsf
         done
     fi
