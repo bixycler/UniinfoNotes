@@ -63,7 +63,8 @@ while true; do
             IPs=($(dig +short ${cnames[$host]} 2>/dev/null | sort))
             ttl=$(dig +noall +answer +ttlid ${cnames[$host]} 2>/dev/null | tail -1 | awk '{print $2}')
         done
-        ip=${IPs[0]}; cnameIP[$host]=${ip}
+        ips=(${IPs[0]}); ip=${ips[0]} # strip the comment (;; ...)
+        cnameIP[$host]=${ip}
         ttls+=($ttl)
         # Check the dug IP against the stored IP
         oip=$(cat ${iplogf})
