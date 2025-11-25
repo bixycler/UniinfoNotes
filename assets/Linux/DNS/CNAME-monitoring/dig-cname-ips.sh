@@ -84,6 +84,11 @@ while true; do
             echo '#CNAME' ${cnames[$host]} >> $cnamehostsf
         done
     fi
+    # Update IP Table NAT/OUTPUT to redirect DB hosts to localhost ports, which are forwarded to *.amazonaws.com by SSH tunnel-aws
+    #sudo iptables --table nat --append OUTPUT --protocol tcp \
+    #--destination dbm.lan.skygate.co.jp --dport 1521 \
+    #--jump DNAT --to-destination 127.0.0.1:1524
+
     # Sleep in TTL
     ttls=($(printf "%s\n" "${ttls[@]}" | sort -n))
     #echo -e "\n+ TTLs:" ${ttls[*]} # DEBUG
