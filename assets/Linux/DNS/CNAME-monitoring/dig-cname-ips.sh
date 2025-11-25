@@ -16,7 +16,7 @@ declare -A cnames=([$githost]=${gitcname}
     [somali-master.lan.skygate.co.jp]=pre1-somali.c1wbmxxj2vu5.ap-northeast-1.rds.amazonaws.com
     [somali-slave.lan.skygate.co.jp]=pre1-somali.c1wbmxxj2vu5.ap-northeast-1.rds.amazonaws.com
     [domtourdb.lan.skygate.co.jp]=pre1-domtourdb.c1wbmxxj2vu5.ap-northeast-1.rds.amazonaws.com
-    [sessiondb]=pre1-sessiondb-cluster.cluster-c1wbmxxj2vu5.ap-northeast-1.rds.amazonaws.com
+    [sessiondb.lan.skygate.co.jp]=pre1-sessiondb-cluster.cluster-c1wbmxxj2vu5.ap-northeast-1.rds.amazonaws.com
 )
 # Management hosts have TTL = 1 minute
 mgmthosts=($githost
@@ -34,7 +34,7 @@ dbhosts=(
     somali-master.lan.skygate.co.jp
     somali-slave.lan.skygate.co.jp
     domtourdb.lan.skygate.co.jp
-    sessiondb
+    sessiondb.lan.skygate.co.jp
 )
 # All hosts
 hosts=(${mgmthosts[@]} ${dbhosts[@]}) 
