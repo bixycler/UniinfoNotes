@@ -1,13 +1,15 @@
 #!/bin/bash
 
+# Dig CNAME records for IP to update cname.hosts
+
 # Management hosts have TTL = 1 minute
 gitcname=mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com
-declare -A mgmthosts=([git1.lan.skygate.co.jp]=${gitcname}
+declare -A mgmtcnames=([git1.lan.skygate.co.jp]=${gitcname}
     [repo1.lan.skygate.co.jp]=mgmt-repo1-clb-243604401.ap-northeast-1.elb.amazonaws.com
-    [repo1.lan.skygate.co.jp]=mgmt-tools-alb-1633637944.ap-northeast-1.elb.amazonaws.com
+    [docker-registry-web.dena-travel.internal]=mgmt-tools-alb-1633637944.ap-northeast-1.elb.amazonaws.com
 )
 # DB hosts have very short TTL: 5 seconds!
-declare -A dbhosts=( 
+declare -A dbcnames=( 
     [dbm.lan.skygate.co.jp]=pre1-mastest.c1wbmxxj2vu5.ap-northeast-1.rds.amazonaws.com
     [view.lan.skygate.co.jp]=pre1-sgmvtest-20240315.c1wbmxxj2vu5.ap-northeast-1.rds.amazonaws.com
     [mymaster.lan.skygate.co.jp]=pre1-myskyg.c1wbmxxj2vu5.ap-northeast-1.rds.amazonaws.com
@@ -19,7 +21,7 @@ declare -A dbhosts=(
     [domtourdb.lan.skygate.co.jp]=pre1-domtourdb.c1wbmxxj2vu5.ap-northeast-1.rds.amazonaws.com
     [sessiondb]=pre1-sessiondb-cluster.cluster-c1wbmxxj2vu5.ap-northeast-1.rds.amazonaws.com
 )
-hosts=(${mgmthosts[@]} ${dbhosts[@]}) # DB hosts have very short TTL: 5 seconds!
+hosts=(${!mgmtcnames[@]} ${!dbcnames[@]}) 
 
 logf=log-cname-ips.log
 cnamehostsf=${HOME}/hosts/active/cname.hosts
