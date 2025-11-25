@@ -1,7 +1,7 @@
 #!/bin/bash
 
 githost=mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com
-hosts=(mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com
+hosts=(${githost}
     mgmt-repo1-clb-243604401.ap-northeast-1.elb.amazonaws.com
     mgmt-tools-alb-1633637944.ap-northeast-1.elb.amazonaws.com
     pre1-mastest.c1wbmxxj2vu5.ap-northeast-1.rds.amazonaws.com
@@ -36,7 +36,7 @@ while true; do
             echo "${st}:" ${IPs} >> ${logf}
             echo -e "\n${st}"; printf '  %s\n' ${IPs}
         else :
-            #echo -e "\n= ${host}:${dt}:" ${IPs} # DEBUG
+            echo -e "\n= ${host}:${dt}:" ${IPs} # DEBUG
         fi
     done
     ((minute++))
