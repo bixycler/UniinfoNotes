@@ -34,19 +34,19 @@ while true; do
         done
         ttls+=($ttl)
         oIPs=($(cat ${host}.ip.log))
-        if [[ "${IPs}" != "${oIPs}" ]]; then
+        if [[ "${IPs[*]}" != "${oIPs[*]}" ]]; then
             printf "%s\n" "${IPs[@]}" > ${host}.ip.log
-            echo "${st}:" ${IPs} >> ${logf}
+            echo "${st}:" ${IPs[*]} >> ${logf}
             echo -e "\n${st}"; printf "  %s\n" ${IPs[@]}
         else :
-            echo -e "\n= ${st}:" ${IPs} # DEBUG
+            #echo -e "\n= ${st}:" ${IPs[*]} # DEBUG
         fi
     done
     ttls=($(printf "%s\n" "${ttls[@]}" | sort -n))
-    echo -e "\n+ TTLs:" ${ttls} # DEBUG
+    #echo -e "\n+ TTLs:" ${ttls[*]} # DEBUG
     ttl=${ttls[0]}
     ((seconds+=ttl))
-    echo -n " ${seconds}s"
+    echo -n " ${seconds}+${ttl}s"
     sleep ${ttl}
 done
 
