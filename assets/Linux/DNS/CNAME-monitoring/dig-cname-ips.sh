@@ -40,10 +40,10 @@ dbhosts=(
 hosts=(${mgmthosts[@]} ${dbhosts[@]}) 
 
 logdir=${HOME}/tmp
-iplogdif=${logdir}/dig-cname-ips
+iplogdir=${logdir}/dig-cname-ips
 logf=${logdir}/dig-cname-ips.log
 cnamehostsf=${HOME}/hosts/active/cname.hosts
-mkdir -p ${iplogdir} 2>/dev/null
+mkdir -pv ${iplogdir} 2>/dev/null
 
 echo "Monitoring hosts:"
 printf '  %s\n' ${cnames[*]@K}
@@ -79,7 +79,7 @@ while true; do
     if [[ ${#IPupdates[@]} -gt 0 ]]; then 
         echo '### IPs from CNAME records ###' > $cnamehostsf
         for host in ${hosts[@]}; do
-            echo -e "\n" >> $cnamehostsf
+            echo >> $cnamehostsf
             echo ${cnameIP[$host]} ${host} >> $cnamehostsf
             echo '#CNAME' ${cnames[$host]} >> $cnamehostsf
         done
