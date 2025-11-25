@@ -15,7 +15,7 @@ dbhosts=(
     pre1-domtourdb.c1wbmxxj2vu5.ap-northeast-1.rds.amazonaws.com
     pre1-sessiondb-cluster.cluster-c1wbmxxj2vu5.ap-northeast-1.rds.amazonaws.com
 )
-hosts=(${mgmthosts[@]}) #${dbhosts[@]}) # DB hosts have too short TTL: 5 seconds!
+hosts=(${mgmthosts[@]} ${dbhosts[@]}) # DB hosts have too short TTL: 5 seconds!
 
 logf=log-cname-ips.log
 cd ${HOME}/tmp/
@@ -27,14 +27,14 @@ while true; do
     dt=$(date '+%Y-%m-%d_%H:%M:%S')
     for host in ${hosts[@]}; do
         IPs=(); ttl=0; st="${host}:${dt}"
-        while [[ ${#IPs[@]} -lt 1 ]]; do # retry
+        while [[ ${#IPs[@]} -lt 1 ]]; do # dig $host for IP & TTL
             sleep 0.01 # try to avoid the expiration threshold (TTL = 0) 
             IPs=($(dig +short ${host} | sort))
             ttl=$(dig +noall +answer +ttlid ${host} | tail -1 | awk '{print $2}')
         done
         ttls+=($ttl)
         oIPs=($(cat ${host}.ip.log))
-        if [[ "${IPs[*]}" != "${oIPs[*]}" ]]; then
+        if [[ "${IPs[*]}" != "${oIPs[*]}" ]]; then # IP update
             printf "%s\n" "${IPs[@]}" > ${host}.ip.log
             echo "${st}:" ${IPs[*]} >> ${logf}
             echo -e "\n${st}"; printf "  %s\n" ${IPs[@]}
@@ -43,8 +43,9 @@ while true; do
         fi
     done
     ttls=($(printf "%s\n" "${ttls[@]}" | sort -n))
-    echo -e "\n+ TTLs:" ${ttls[*]} # DEBUG
-    ttl=${ttls[0]}
+    #echo -e "\n+ TTLs:" ${ttls[*]} # DEBUG
+    #ttl=${ttls[0]} # the least TTL
+    ttl=$(dig +noall +answer +ttlid ${githost} | tail -1 | awk '{print $2}')
     ((seconds+=ttl))
     echo -n " ${seconds}+${ttl}s"
     sleep ${ttl}
