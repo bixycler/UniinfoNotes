@@ -23,7 +23,7 @@ declare -A dbcnames=(
 )
 hosts=(${!mgmtcnames[@]} ${!dbcnames[@]}) 
 
-logf=log-cname-ips.log
+logf=dig-cname-ips.log
 cnamehostsf=${HOME}/hosts/active/cname.hosts
 
 cd ${HOME}/tmp/
