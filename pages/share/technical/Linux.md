@@ -1353,7 +1353,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 		- #### nano
 		  collapsed:: true
 			-
-	- ### DNS & `hosts`
+	- ### DNS, `hosts`, NAT
 	  id:: 675141bb-5c74-4906-b6ee-63ac3a237ef0
 	  collapsed:: true
 	  :LOGBOOK:
@@ -1679,6 +1679,13 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. 60	IN A 3.115.124.176
 					  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. 60	IN A 54.199.127.69
 					  ```
+		- DOING NAT Port Forwarding & SSH Tunneling
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-11-25 Tue 20:23:06]
+		  CLOCK: [2025-11-25 Tue 20:23:21]
+		  :END:
+			-
 	- ### FreeDesktop/XDG
 	  id:: 669499f7-76c4-4ff8-a27e-be9768a6258c
 	  :LOGBOOK:
