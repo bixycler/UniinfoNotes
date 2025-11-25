@@ -10,6 +10,7 @@ declare -A cnames=([$githost]=${gitcname}
     [dbm.lan.skygate.co.jp]=pre1-mastest.c1wbmxxj2vu5.ap-northeast-1.rds.amazonaws.com
     [view.lan.skygate.co.jp]=pre1-sgmvtest-20240315.c1wbmxxj2vu5.ap-northeast-1.rds.amazonaws.com
     [mymaster.lan.skygate.co.jp]=pre1-myskyg.c1wbmxxj2vu5.ap-northeast-1.rds.amazonaws.com
+    [myslave.lan.skygate.co.jp]=pre1-myskyg.c1wbmxxj2vu5.ap-northeast-1.rds.amazonaws.com
     [mycache.lan.skygate.co.jp]=pre1-mysgca.c1wbmxxj2vu5.ap-northeast-1.rds.amazonaws.com
     [mysig-master.lan.skygate.co.jp]=pre1-sigdb-20230614.c1wbmxxj2vu5.ap-northeast-1.rds.amazonaws.com
     [mysig-slave.lan.skygate.co.jp]=pre1-sigdb-20230614.c1wbmxxj2vu5.ap-northeast-1.rds.amazonaws.com
@@ -28,6 +29,7 @@ dbhosts=(
     dbm.lan.skygate.co.jp
     view.lan.skygate.co.jp
     mymaster.lan.skygate.co.jp
+    myslave.lan.skygate.co.jp
     mycache.lan.skygate.co.jp
     mysig-master.lan.skygate.co.jp
     mysig-slave.lan.skygate.co.jp
