@@ -1399,7 +1399,9 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			  ```
 			- ((675686a5-3d59-402f-9640-12b991182e32))
 				- Static IP cannot be set (in `hosts` file), due to the [IP update of `CNAME` in work time](((675653ab-ea7c-4d8b-8ef6-a378591b6443))).
-				- Or we must run a background script, like ![log-cname-ips.sh](../assets/Linux/DNS/CNAME-monitoring/log-cname-ips.sh), to detect IP change of `CNAME` then update `hosts` file accordingly.
+				- Or we must run a background script, like ![dig-cname-ips.sh](../assets/Linux/DNS/CNAME-monitoring/dig-cname-ips.sh), to detect IP change of `CNAME` then update `hosts` file accordingly.
+				  id:: 684f951e-5f86-4b1c-9b08-e550ad283d4a
+					- The digging itself
 			- The history of hunting `A` records is so complicated
 			  collapsed:: true
 				- `dig git1.lan.skygate.co.jp` with `CNAME`
@@ -1679,13 +1681,18 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. 60	IN A 3.115.124.176
 					  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. 60	IN A 54.199.127.69
 					  ```
-		- DOING NAT Port Forwarding & SSH Tunneling
+		- NAT Port Forwarding & SSH Tunneling
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-11-25 Tue 20:23:06]
-		  CLOCK: [2025-11-25 Tue 20:23:21]
+		  CLOCK: [2025-11-25 Tue 20:23:21]--[2025-11-25 Tue 20:26:36] =>  00:03:15
 		  :END:
-			-
+			- app --[connect]--> dbm.lan...jp:1521 ==[`iptables`]==> localhost:1524 ==[SSH tunnel]==> pre1-mastest...amazonaws.com:1521
+				- In `~/.ssh/config`, we foward local ports to CNAME hosts,
+				     e.g.: `Host` tunnel-aws `LocalForward` 1524 pre1-mastest...amazonaws.com:1521
+				- In `iptables` NAT, we forward `OUTPUT` from the hosts & ports accessed by the app to the local ports, so that it will be SSH tunneled to the target CNAME hosts.
+				    E.g.: dbm.lan.skygate.co.jp  tcp dpt:1521 to:127.0.0.1:1524
+				- For the host `dbm.lan.skygate.co.jp` to be resolved to the IP of its CNAME, we must [frequently dig CNAME for IPs](((684f951e-5f86-4b1c-9b08-e550ad283d4a))), and update the dug IPs to the `hosts` file `~/hosts/cname.hosts` to be served by `dnsmasq`.
 	- ### FreeDesktop/XDG
 	  id:: 669499f7-76c4-4ff8-a27e-be9768a6258c
 	  :LOGBOOK:
