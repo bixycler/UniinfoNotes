@@ -15,7 +15,7 @@ dbhosts=(
     pre1-domtourdb.c1wbmxxj2vu5.ap-northeast-1.rds.amazonaws.com
     pre1-sessiondb-cluster.cluster-c1wbmxxj2vu5.ap-northeast-1.rds.amazonaws.com
 )
-hosts=(${mgmthosts[@]} ${dbhosts[@]})
+hosts=(${mgmthosts[@]} ${dbhosts[@]}) # DB hosts have too short TTL: 5 seconds!
 
 logf=log-cname-ips.log
 cd ${HOME}/tmp/
@@ -28,7 +28,7 @@ while true; do
     for host in ${hosts[@]}; do
         IPs=(); ttl=0; st="${host}:${dt}"
         while [[ ${#IPs[@]} -lt 1 ]]; do # retry
-            sleep 0.1 # try to avoid the expiration threshold (TTL = 0) 
+            sleep 0.01 # try to avoid the expiration threshold (TTL = 0) 
             IPs=($(dig +short ${host} | sort))
             ttl=$(dig +noall +answer +ttlid ${host} | tail -1 | awk '{print $2}')
         done
@@ -43,7 +43,7 @@ while true; do
         fi
     done
     ttls=($(printf "%s\n" "${ttls[@]}" | sort -n))
-    #echo -e "\n+ TTLs:" ${ttls[*]} # DEBUG
+    echo -e "\n+ TTLs:" ${ttls[*]} # DEBUG
     ttl=${ttls[0]}
     ((seconds+=ttl))
     echo -n " ${seconds}+${ttl}s"
