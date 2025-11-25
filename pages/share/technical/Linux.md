@@ -1401,7 +1401,9 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- Static IP cannot be set (in `hosts` file), due to the [IP update of `CNAME` in work time](((675653ab-ea7c-4d8b-8ef6-a378591b6443))).
 				- Or we must run a background script, like ![dig-cname-ips.sh](../assets/Linux/DNS/CNAME-monitoring/dig-cname-ips.sh), to detect IP change of `CNAME` then update `hosts` file accordingly.
 				  id:: 684f951e-5f86-4b1c-9b08-e550ad283d4a
-					- The digging itself
+					- The digging itself is enough to make `dnsmasq` return IPs (A records) for the aliases, like `git1`.
+					- But these IPs have a short life time (TTL), after which we must dig again.
+					- Because the DB hosts have very short TTL (only 5 seconds), we update the dug IPs to the `hosts` file `~/hosts/cname.hosts`, instead.
 			- The history of hunting `A` records is so complicated
 			  collapsed:: true
 				- `dig git1.lan.skygate.co.jp` with `CNAME`
