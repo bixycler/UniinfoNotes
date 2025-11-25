@@ -39,10 +39,12 @@ dbhosts=(
 # All hosts
 hosts=(${mgmthosts[@]} ${dbhosts[@]}) 
 
-logf=dig-cname-ips.log
+logdir=${HOME}/tmp
+iplogdif=${logdir}/dig-cname-ips
+logf=${logdir}/dig-cname-ips.log
 cnamehostsf=${HOME}/hosts/active/cname.hosts
+mkdir -p ${iplogdir} 2>/dev/null
 
-cd ${HOME}/tmp/
 echo "Monitoring hosts:"
 printf '  %s\n' ${cnames[*]@K}
 declare -A cnameIP
@@ -52,6 +54,7 @@ while true; do
     dt=$(date '+%Y-%m-%d_%H:%M:%S')
     for host in ${hosts[@]}; do
         IPs=(); ttl=0; st="${host}:${dt}"
+        iplogf=${iplogdir}/${host}.ip.log
         # Dig CNAME of $host for IP & TTL
         while [[ ${#IPs[@]} -lt 1 ]]; do 
             sleep 0.01 # try to avoid the expiration threshold (TTL = 0) 
@@ -61,10 +64,10 @@ while true; do
         cnameIP[$host]=${IPs[0]}
         ttls+=($ttl)
         # Check the dug IPs against the stored IPs
-        oIPs=($(cat ${host}.ip.log))
+        oIPs=($(cat ${iplogf}))
         if [[ "${IPs[*]}" != "${oIPs[*]}" ]]; then # IP update
             IPupdates+=($host)
-            printf "%s\n" "${IPs[@]}" > ${host}.ip.log
+            printf "%s\n" "${IPs[@]}" > ${iplogf}
             echo "${st}:" ${IPs[*]} >> ${logf}
             echo -e "\n${st}"; printf "  %s\n" ${IPs[@]}
         else :
