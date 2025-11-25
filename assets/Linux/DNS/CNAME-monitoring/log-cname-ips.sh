@@ -15,7 +15,7 @@ dbhosts=(
     pre1-domtourdb.c1wbmxxj2vu5.ap-northeast-1.rds.amazonaws.com
     pre1-sessiondb-cluster.cluster-c1wbmxxj2vu5.ap-northeast-1.rds.amazonaws.com
 )
-hosts=(${mgmthosts[@]} ${dbhosts[@]}) # DB hosts have too short TTL: 5 seconds!
+hosts=(${mgmthosts[@]}) #${dbhosts[@]}) # DB hosts have too short TTL: 5 seconds!
 
 logf=log-cname-ips.log
 cd ${HOME}/tmp/
