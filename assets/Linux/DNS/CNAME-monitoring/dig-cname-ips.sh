@@ -63,15 +63,15 @@ while true; do
             IPs=($(dig +short ${cnames[$host]} 2>/dev/null | sort))
             ttl=$(dig +noall +answer +ttlid ${cnames[$host]} 2>/dev/null | tail -1 | awk '{print $2}')
         done
-        cnameIP[$host]=${IPs[0]}
+        ip=${IPs[0]}; cnameIP[$host]=${ip}
         ttls+=($ttl)
-        # Check the dug IPs against the stored IPs
-        oIPs=($(cat ${iplogf}))
-        if [[ "${IPs[*]}" != "${oIPs[*]}" ]]; then # IP update
+        # Check the dug IP against the stored IP
+        oip=$(cat ${iplogf})
+        if [[ "${ip}" != "${oip}" ]]; then # IP update
             IPupdates+=($host)
-            printf "%s\n" "${IPs[@]}" > ${iplogf}
-            echo "${st}:" ${IPs[*]} >> ${logf}
-            echo -e "\n${st}"; printf "  %s\n" ${IPs[@]}
+            printf "%s\n" "${ip}" > ${iplogf}
+            echo "${st}:" ${ip} "< ${IPs[@]}" >> ${logf}
+            echo -e "\n${st}: ${ip}"; printf "  %s\n" "${IPs[@]}"
         else :
             #echo -e "\n= ${st}:" ${IPs[*]} # DEBUG
         fi
