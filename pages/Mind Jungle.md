@@ -1456,7 +1456,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 69267f67-5e59-48d3-a11c-1e794e85dd1e
 			  ((691ae2bd-a60f-4db2-8132-bf54e9dee1b0)) ((677f7100-e650-464a-a835-15a9f28df649))
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Relative to a self, ((69267f67-5e59-48d3-a11c-1e794e85dd1e)) is the outflow of effect from the self affecting its environment. For the common sense of “influence”, “effluence” can be seen as “outbound influence”.
-				- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) “Influence” is the “flow out” of some body. “Effluence” is traditionally used to refer to the emanation of a divine source in theology and phylosophy. Here, it's normalized to be the emanation of any self.
+				- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) “Influence” is the “flow out” of some body. The term “effluence” is traditionally used to refer to the emanation of a divine source in theology and phylosophy. Here, it's normalized to be the emanation of any self.
 		- ### circular effect flow
 		  id:: 667bf36a-581a-4abe-b544-2d849608a3e4
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)), ((667c0031-0a87-44c9-9e98-6d45893b095f))
