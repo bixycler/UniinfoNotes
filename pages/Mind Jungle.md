@@ -1455,7 +1455,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ### effluence
 			  id:: 69267f67-5e59-48d3-a11c-1e794e85dd1e
 			  ((691ae2bd-a60f-4db2-8132-bf54e9dee1b0)) ((677f7100-e650-464a-a835-15a9f28df649))
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Relative to a self, ((677f7100-e650-464a-a835-15a9f28df649)) is the action of the surrounding ((677f7104-7fc4-4034-bb08-0dabd80a586f)) upon the primary action of the self. In the selfless view, “influence” is any ((66727858-979d-4d95-8a90-7a749218cfba)).
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((69267f67-5e59-48d3-a11c-1e794e85dd1e)) is the outflow . “Effluence” can be seen as “outbound influence”.
 				- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) “Influence” is the “flow into” some body. This inflow is the driving force underlying the [interpenetrative nature](((66eb7dae-2032-434b-9106-756d4aad7cdb))) of the effect flow, as what [dependent origination](https://en.wikipedia.org/wiki/Prat%C4%ABtyasamutp%C4%81da) principle is to causality.
 		- ### circular effect flow
 		  id:: 667bf36a-581a-4abe-b544-2d849608a3e4
