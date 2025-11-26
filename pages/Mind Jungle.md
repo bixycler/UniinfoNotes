@@ -1424,10 +1424,35 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Relativity of the self: There are many different offices in the field. A field agent can choose one office to work for, which it considers as “*my office* giving *my cause* for me to produce *my effect*”, here called “the office”, “the cause” and “the effect”. Actually, the effect of “the cause” is not only “the effect” but also included in the outcomes of all other missions that have interactions with this field agent. That means the linear relation from “the cause” to “the effect” is just relative to the choice of office, i.e. of the self.
 		- Components of ((667bef22-b272-4a7d-b613-3f1ed1a47329))
 		  id:: 677f9ae2-f7bc-47a7-a7e3-4dda29d9d834
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((66727858-979d-4d95-8a90-7a749218cfba)) arrows from ((677f7108-ffa5-4ea7-9a69-eaa355a7569e))s to ((677f509b-f2db-47b1-aafb-5a475334b532))s represent the direction of the ((667bef22-b272-4a7d-b613-3f1ed1a47329)). Relative to the choice of ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), the **primary action** of the self from the primary cause to the primary effect are specified, and are simply called “the action from the cause to the effect”. Secondary to the “the action”, other actions includes ((677f7100-e650-464a-a835-15a9f28df649))s of the surrounding ((677f7104-7fc4-4034-bb08-0dabd80a586f))s on the self, and ((69267f67-5e59-48d3-a11c-1e794e85dd1e))s from the self back to environment. While the primary action expresses the flowing aspect, the secondary actions (influences and effluences) express the “wave propagation” aspect of the flow.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((66727858-979d-4d95-8a90-7a749218cfba)) arrows from ((677f7108-ffa5-4ea7-9a69-eaa355a7569e))s to ((677f509b-f2db-47b1-aafb-5a475334b532))s represent the direction of the ((667bef22-b272-4a7d-b613-3f1ed1a47329)). Relative to the choice of ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), the **primary action** of the self from the primary cause to the primary effect are specified, and are simply called “the action from the cause to the effect”. Secondary to the “the action”, other actions includes ((677f7100-e650-464a-a835-15a9f28df649))s of the surrounding ((677f7104-7fc4-4034-bb08-0dabd80a586f))s on the self, and ((69267f67-5e59-48d3-a11c-1e794e85dd1e))s from the self back to environment.
 			  collapsed:: true
 				- [EffectFlow-CauseConditionActionEffect](https://docs.google.com/drawings/d/1uS-8u6nr4pyRzJH6fOLm2ggm4TSEqPHWosKTT5OCdzA/)
 				  ![EffectFlow-CauseConditionActionEffect](https://docs.google.com/drawings/d/e/2PACX-1vRuRJyGQru5ZcIAZLcwMqwjv35U5sXAzGX9KEV5SUbsY5H3LPpm5yWAvn0gK9yNrwv4ob3k1XoMe-tb/pub?w=500){:height 304, :width 500}
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- Convective primary flow versus diffusive secondary flows
+				  id:: 6926d573-2c8b-4a9e-941a-269335cf0885
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2025-11-26 Wed 17:24:55]
+				  CLOCK: [2025-11-26 Wed 17:24:58]--[2025-11-26 Wed 18:00:37] =>  00:35:39
+				  :END:
+					- **Primary flow** by the primary action
+						- Carries the main agent of the action.
+						- Maintains identity and continuity of the self.
+						- Longitudinal, axial, direct, progressive, streamline, purposeful, teleological.
+					- **Secondary flows** by influences and effluences
+						- Dispersive effects radiating from the primary.
+						- Spreading influence without carrying the main agent.
+						- Transverse, radial, wavefront, side-effects, byproducts, emanations.
+					- Examples
+						- **Circular wave** with a clean space/time split
+							- In a circular wave propagating in 2D space (or spherical wave in 3D), the effect flow exhibits a clean separation between its convection and diffusion by time and space.
+							- Primary flow in time: The invisible temporal propagation of the wave – the continuous advancement of the whole wave through time. This is the “through-line” carrying the effect forward in the direction orthogonal to the spatial dimensions.
+							- Secondary flow in space: The visible spatial spreading – the radial expansion of the wavefront outward from the source. This is the effluence radiating in all spatial directions perpendicular to the temporal convection.
+						- **Flying bullet** in spacetime
+							- In a bullet flying through air, while the diffusion manifest spatially, the convection is both temporal and spatial.
+							- Primary flow in spacetime: The bullet's trajectory (worldline) through spacetime – the directed transport of the projectile itself from cause (firing) to effect (impact). This flow maintains the agent's identity as a bullet.
+							- Secondary flow in space: The sound wave, shock wave, and turbulent wake left behind in the air – the dispersive spreading of influence radiating from the bullet's path. These are side effects that propagate outward from the primary trajectory without carrying the bullet itself.
 			- ### cause
 			  id:: 677f7108-ffa5-4ea7-9a69-eaa355a7569e
 			  ((665359e4-4597-4775-b849-f9acbb98960a)) tác nhân
