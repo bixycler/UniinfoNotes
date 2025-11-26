@@ -2,10 +2,38 @@ const fs = require('fs');
 const path = require('path');
 
 // Configuration
-const BASE_DIR = '/home/dinhlx/source/UniinfoNotes/pages';
-const NAMESPACE_FILE = path.join(BASE_DIR, 'Namespace.md');
-const INPUT_FILE = path.join(BASE_DIR, 'Mind Jungle.md');
-const OUTPUT_FILE = path.join(BASE_DIR, 'publish/CommonMark/Mind_Jungle.md');
+const args = process.argv.slice(2);
+
+if (args.length < 1) {
+    console.error('Usage: node convert.js <input_file> [output_file]');
+    process.exit(1);
+}
+
+const INPUT_FILE = path.resolve(args[0]);
+const BASE_DIR = path.dirname(INPUT_FILE); // Assuming Namespace is relative to input or in a fixed location relative to repo
+
+// Try to find Namespace.md. 
+// Strategy: Look in the same directory as input, or go up until found, or assume fixed path if known structure.
+// Given the user's repo structure seems to be `pages/`, we can try to find `pages/Namespace.md`.
+// For now, let's assume it's in the same directory as the input file, or we can fallback to a fixed path if we knew the repo root.
+// Let's rely on the input file's directory for now.
+const NAMESPACE_FILE = path.join(path.dirname(INPUT_FILE), 'Namespace.md');
+
+// Output file
+let OUTPUT_FILE;
+if (args[1]) {
+    OUTPUT_FILE = path.resolve(args[1]);
+} else {
+    // Default: pages/publish/CommonMark/<filename>
+    // We need to construct this relative to the input file's location if possible, 
+    // or just put it in a 'publish/CommonMark' subdirectory of the input directory.
+    const fileName = path.basename(INPUT_FILE);
+    OUTPUT_FILE = path.join(path.dirname(INPUT_FILE), 'publish', 'CommonMark', fileName);
+}
+
+console.log(`Input: ${INPUT_FILE}`);
+console.log(`Namespace: ${NAMESPACE_FILE}`);
+console.log(`Output: ${OUTPUT_FILE}`);
 
 // Regex Patterns
 const PAT_PROP = /^\s*(\w+):: (.*)$/;
@@ -28,6 +56,10 @@ function escapeXML(str) {
 // 1. Load Namespace Mapping (UUID -> Title)
 function loadNamespace(filePath) {
     const mapping = {};
+    if (!fs.existsSync(filePath)) {
+        console.warn(`Warning: Namespace file not found at ${filePath}`);
+        return mapping;
+    }
     try {
         const content = fs.readFileSync(filePath, 'utf8');
         const lines = content.split('\n');
