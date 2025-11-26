@@ -1424,9 +1424,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Relativity of the self: There are many different offices in the field. A field agent can choose one office to work for, which it considers as “*my office* giving *my cause* for me to produce *my effect*”, here called “the office”, “the cause” and “the effect”. Actually, the effect of “the cause” is not only “the effect” but also included in the outcomes of all other missions that have interactions with this field agent. That means the linear relation from “the cause” to “the effect” is just relative to the choice of office, i.e. of the self.
 		- Components of ((667bef22-b272-4a7d-b613-3f1ed1a47329))
 		  id:: 677f9ae2-f7bc-47a7-a7e3-4dda29d9d834
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((66727858-979d-4d95-8a90-7a749218cfba)) arrows from ((677f7108-ffa5-4ea7-9a69-eaa355a7569e))s to ((677f509b-f2db-47b1-aafb-5a475334b532))s represent the direction of the ((667bef22-b272-4a7d-b613-3f1ed1a47329)). Relative to the choice of ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), the primary action of the self from the primary cause to the primary effect are specified, and are simply called “the action from the cause to the effect”. Other secondary actions are ((677f7100-e650-464a-a835-15a9f28df649))s from the surrounding ((677f7104-7fc4-4034-bb08-0dabd80a586f))s on the self, and effluences from the self back to environment.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((66727858-979d-4d95-8a90-7a749218cfba)) arrows from ((677f7108-ffa5-4ea7-9a69-eaa355a7569e))s to ((677f509b-f2db-47b1-aafb-5a475334b532))s represent the direction of the ((667bef22-b272-4a7d-b613-3f1ed1a47329)). Relative to the choice of ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), the **primary action** of the self from the primary cause to the primary effect are specified, and are simply called “the action from the cause to the effect”. Secondary to the “the action”, other actions includes ((677f7100-e650-464a-a835-15a9f28df649))s from the surrounding ((677f7104-7fc4-4034-bb08-0dabd80a586f))s on the self, and effluences from the self back to environment.
 			  collapsed:: true
-				- ![EffectFlow-CauseConditionActionEffect](https://docs.google.com/drawings/d/e/2PACX-1vRuRJyGQru5ZcIAZLcwMqwjv35U5sXAzGX9KEV5SUbsY5H3LPpm5yWAvn0gK9yNrwv4ob3k1XoMe-tb/pub?w=500){:height 304, :width 500}
+				- [EffectFlow-CauseConditionActionEffect](https://docs.google.com/drawings/d/1uS-8u6nr4pyRzJH6fOLm2ggm4TSEqPHWosKTT5OCdzA/)
+				  ![EffectFlow-CauseConditionActionEffect](https://docs.google.com/drawings/d/e/2PACX-1vRuRJyGQru5ZcIAZLcwMqwjv35U5sXAzGX9KEV5SUbsY5H3LPpm5yWAvn0gK9yNrwv4ob3k1XoMe-tb/pub?w=500){:height 304, :width 500}
 			- ### cause
 			  id:: 677f7108-ffa5-4ea7-9a69-eaa355a7569e
 			  ((665359e4-4597-4775-b849-f9acbb98960a)) tác nhân
@@ -1450,6 +1451,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((677f509b-f2db-47b1-aafb-5a475334b532)) is the target of ((66727858-979d-4d95-8a90-7a749218cfba)) arrow in effect flow. Particularly, effect is the ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) of the target body resulted from the action. That means the effect is just an ((677f7100-e650-464a-a835-15a9f28df649)) on the target body.
 				- #### side effect
 				  ((665359e4-4597-4775-b849-f9acbb98960a)) tác dụng phụ
+			- ### effluence
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) ảnh hưởng
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Relative to a self, ((677f7100-e650-464a-a835-15a9f28df649)) is the action of the surrounding ((677f7104-7fc4-4034-bb08-0dabd80a586f)) upon the primary action of the self. In the selfless view, “influence” is any ((66727858-979d-4d95-8a90-7a749218cfba)).
+				- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) “Influence” is the “flow into” some body. This inflow is the driving force underlying the [interpenetrative nature](((66eb7dae-2032-434b-9106-756d4aad7cdb))) of the effect flow, as what [dependent origination](https://en.wikipedia.org/wiki/Prat%C4%ABtyasamutp%C4%81da) principle is to causality.
 		- ### circular effect flow
 		  id:: 667bf36a-581a-4abe-b544-2d849608a3e4
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)), ((667c0031-0a87-44c9-9e98-6d45893b095f))
