@@ -24,10 +24,8 @@ let OUTPUT_FILE;
 if (args[1]) {
     OUTPUT_FILE = path.resolve(args[1]);
 } else {
-    // Default: pages/publish/CommonMark/<filename>
-    // We need to construct this relative to the input file's location if possible, 
-    // or just put it in a 'publish/CommonMark' subdirectory of the input directory.
-    const fileName = path.basename(INPUT_FILE);
+    // Default: pages/publish/CommonMark/<filename>.cm.md
+    const fileName = path.basename(INPUT_FILE, path.extname(INPUT_FILE)) + '.cm.md';
     OUTPUT_FILE = path.join(path.dirname(INPUT_FILE), 'publish', 'CommonMark', fileName);
 }
 
@@ -164,6 +162,7 @@ function convertFile(inputPath, outputPath, uuidMap) {
 
         for (let i = 0; i < lines.length; i++) {
             let ln = lines[i];
+
 
             // Handle Metadata Block
             if (ln.match(PAT_LB_START)) {
