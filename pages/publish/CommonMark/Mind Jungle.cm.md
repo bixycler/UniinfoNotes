@@ -1063,7 +1063,7 @@
 			- ### effluence <a class="logseq-meta" id="69267f67-5e59-48d3-a11c-1e794e85dd1e" ></a>
 			  [Opposite:](#691ae2bd-a60f-4db2-8132-bf54e9dee1b0) [<span class="link-h3">influence</span>](#677f7100-e650-464a-a835-15a9f28df649)
 				- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) Relative to a self, [<span class="link-h3">effluence</span>](#69267f67-5e59-48d3-a11c-1e794e85dd1e) is the outflow of effect from the self affecting its environment. For the common sense of “influence”, “effluence” can be seen as “outbound influence”.
-				- [Etymology:](#669a1e5f-734c-41c1-bf1c-21813b6e81d8) “Influence” is the “flow out” of some body. The term “effluence” is traditionally used to refer to the emanation of a divine source in theology and phylosophy. Here, it's normalized to be the emanation of any self.
+				- [Etymology:](#669a1e5f-734c-41c1-bf1c-21813b6e81d8) “Effluence” is the “flow out” of some body. The term “effluence” is traditionally used to refer to the emanation of a divine source in theology and phylosophy. Here, it's normalized to be the emanation of any self.
 		- ### circular effect flow <a class="logseq-meta" id="667bf36a-581a-4abe-b544-2d849608a3e4" ></a>
 		  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [self-effect](#667bff0e-d45d-4d41-8683-51c3cf76c0bc), [effect circle](#667c0031-0a87-44c9-9e98-6d45893b095f)
 		  <br>[Complement:](#6699e4db-2e75-4427-94bb-96dfe0367dd1) [circular reference flow](#667bf520-a80c-4b6d-98d8-1f71cae6fb56)
