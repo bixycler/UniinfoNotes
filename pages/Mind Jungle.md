@@ -1439,11 +1439,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- **Primary flow** by the primary action
 						- Carries the main agent of the action.
 						- Maintains identity and continuity of the self.
-						- Longitudinal, axial, direct, progressive, streamline, purposeful, teleological.
+						- Longitudinal, axial, convective, direct, progressive, streamline, purposeful, teleological.
 					- **Secondary flows** by influences and effluences
 						- Dispersive effects radiating from the primary.
 						- Spreading influence without carrying the main agent.
-						- Transverse, radial, wavefront, side-effects, byproducts, emanations.
+						- Transverse, radial, diffusive, wavefront, side-effects, byproducts, emanations.
+					- The [convection–diffusion equation](https://en.wikipedia.org/wiki/Convection%E2%80%93diffusion_equation) describes both aspects of the flow.
 					- Examples
 						- **Circular wave** with a clean space/time split
 							- In a circular wave propagating in 2D space (or spherical wave in 3D), the effect flow exhibits a clean separation between its convection and diffusion by time and space.
