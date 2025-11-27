@@ -4886,9 +4886,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Reifying the unknown: We risk treating an abstract name (e.g., “A”) as an objective, independently existing entity within a closed system ([“The Black Box”](((692821f8-dbc0-4653-b31f-22e5c4d5fac1)))), even when we have no operational way to verify its properties or distinguish it from “B”.
 					- Ignoring the process: By focusing purely on the elegant name (the symbol ∞), we can neglect the underlying structure of the recursive construction that generated the concept in the first place. The value is in the algorithm, not the unreachable result.
 					- Physical miscalculation: Applying the fallacy to physics leads to errors when mathematical declarations (e.g., particles A and B are “different by name”) contradict physical reality (the particles are observationally identical), as shown in [Gibbs paradox](https://en.wikipedia.org/wiki/Gibbs_paradox) about entropy of [indistinguishable particles](https://en.wikipedia.org/wiki/Indistinguishable_particles).
+				- ...
 				- The "Choice in Black Box Experiment": challenging the [Law of Excluded Middle](https://en.wikipedia.org/wiki/Law_of_excluded_middle)
 				  id:: 692821f8-dbc0-4653-b31f-22e5c4d5fac1
-				- ...
+				  collapsed:: true
+					- This thought experiment challenges the classical Law of Excluded Middle by demanding empirical, constructive proof of identity and existence.
+					- Setup: Two balls, A and B, are placed in a black box. An attempt is made to pick one ball out and name it “C”.
+					- Classical conclusion: The classical mathematician asserts: “C is either A or B” ($C = A ∨ C = B$). This relies on the declarative premise that only A and B exist in the box and that their identities are fixed and *knowable in absentia*.
+					- Constructive counterargument: The classical conclusion is flawed because it makes non-constructive assumptions:
+						- Existence is not guaranteed: The box might be “wild” enough that no ball can be retrieved (non-constructive existence).
+						- Identity is not guaranteed: Until the ball is observed and structurally identified, it could be anything, even a “ghost” creation in the dark. The name “C” does not inherit the properties of A or B until an observational operation confirms the structural match. The statement $C = A ∨ C = B$ cannot be proven constructively without opening the box.
 		- ### ω-abstraction
 		  id:: 67654618-70d2-49cd-88b7-f7c4e161dfd9
 		  :LOGBOOK:
