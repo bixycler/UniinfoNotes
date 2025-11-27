@@ -4872,6 +4872,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  CLOCK: [2025-11-27 Thu 16:24:17]
 			  :END:
 				- The power lies in our recursive mind's ability to name, while the fallacy lies in forgetting that these names are merely internal cognitive tools, not independent external reality.
+				- ...
 				- The power of abstraction: enabling thought and communication
 				  id:: 6926be1b-910d-4e6e-990d-947440c86fdb
 				  collapsed:: true
@@ -4888,12 +4889,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Physical miscalculation: Applying the fallacy to physics leads to errors when mathematical declarations (e.g., particles A and B are “different by name”) contradict physical reality (the particles are observationally identical), as shown in [Gibbs paradox](https://en.wikipedia.org/wiki/Gibbs_paradox) about entropy of [indistinguishable particles](https://en.wikipedia.org/wiki/Indistinguishable_particles).
 				- The “Diff Problem”: challenging declarative identity
 				  id:: 6928252f-3bf8-4c1b-82a3-965da2e6b65b
+				  collapsed:: true
 					- The Diff Problem exposes the flaw in defining difference and sameness through mere declaration or naming in classical logic. It demands an operational specification for distinction.
-					-
-					- Classical math approach (declarative): Objects A and B are declared different, and assigned distinct names. The assertion $A ≠ B$ and $A = B$ are taken as a foundational truth. This leads to issues, such as the [Gibbs Paradox](https://en.wikipedia.org/wiki/Gibbs_paradox) in physics, where the name (identity) is confused with the structure (observational properties).
+					- Problem: How to know A is different from B?
+					- Classical math approach (declarative): Objects A and B are declared different, and assigned distinct names. The assertion $A ≠ B$ is taken for granted. This leads to issues, such as the [Gibbs Paradox](https://en.wikipedia.org/wiki/Gibbs_paradox) in physics, where the name (identity) is confused with the structure (observational properties).
 					- Constructivist approach (operational): Names are subjective labels; true distinction lies solely within the structure and observable properties of the objects. One cannot simply declare $A ≠ B$; one must provide a constructive algorithm that operationally demonstrates a difference. A declaration of difference without an operational proof is an “ignorant arrogance”.
 				- The “Choice in Black Box Experiment”: challenging the [Law of Excluded Middle](https://en.wikipedia.org/wiki/Law_of_excluded_middle)
 				  id:: 692821f8-dbc0-4653-b31f-22e5c4d5fac1
+				  collapsed:: true
 					- This thought experiment challenges the classical Law of Excluded Middle by demanding empirical, constructive proof of identity and existence.
 					- Setup: Two balls, A and B, are placed in a black box. An attempt is made to pick one ball out and name it “C”.
 					- Classical conclusion: The classical mathematician asserts: “C is either A or B” ($C = A ∨ C = B$). This relies on the declarative premise that only A and B exist in the box and that their identities are fixed and *knowable in absentia*.
