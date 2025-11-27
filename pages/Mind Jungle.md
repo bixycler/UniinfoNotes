@@ -4873,6 +4873,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :END:
 				- The power lies in our recursive mind's ability to name, while the fallacy lies in forgetting that these names are merely internal cognitive tools, not independent external reality.
 				- ...
+					- The mechanism: recursively naming the ignorance
+					  id:: 69282889-f206-4999-a84e-9692ac0f6d12
+					  collapsed:: true
+						- The ability to operate in this abstract, non-constructive realm stems from a single, foundational cognitive maneuver: applying a recursive naming convention to acknowledge different boundaries of our current, constructive knowledge with different names. This process is how the human mind bridges the gap between the computationally finite and the mathematically infinite.
+						- 1. Encountering the limit, i.e. ignorance: We perform a constructive process (e.g., counting, defining a set) and reach a point where the process is infinite or non-terminating (the computational limit). We cannot physically build the next step or the final collection.
+						- 2. The naming operation, i.e. ((676545b3-2d9f-43af-8ff0-3543dbe73159)): We stop the constructive process and assign a simple, finite label (a ((665cab38-f8e8-472e-b0a1-60776d492835))) to the unreached totality or the next step we cannot take. This name symbolizes *the gap in our operational knowledge*, e.g., calling the collection of all natural numbers “ℕ”.
+						- 3. Recursive application: We treat this new name *as if it were a complete*, first-class citizen in our mental model. We can then apply the original constructive/recursive rules again, using the newly named entity as a starting point.
+						- ((66725725-f76a-4328-b162-f469b87e871b))
+							- [Ordinal numbers](https://en.wikipedia.org/wiki/Ordinal_number): “Gather all bags constructed into a new bag”. The moment we “gather” an infinite collection into a single mental object is the act of naming our computational ignorance of traversing the entire sequence. We name it ω, then recursively apply the successor operation to get ω+1, ω+2, etc., naming our ignorance recursively.
+							- The [limit operator](https://en.wikipedia.org/wiki/Limit_(mathematics)): We know how to build a sequence $S_n$, but we cannot compute the infinite number of its terms. So, we name the idea of that final value “$\lim_{n → ∞}S_n$”. And then we use that name in further, complex equations, building abstract knowledge on top of a single symbol that represents an uncomputable process.
 				- The power of abstraction: enabling thought and communication
 				  id:: 6926be1b-910d-4e6e-990d-947440c86fdb
 				  collapsed:: true
