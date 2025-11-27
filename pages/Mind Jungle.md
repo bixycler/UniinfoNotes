@@ -272,6 +272,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- [MCP](https://en.wikipedia.org/wiki/Model_Context_Protocol) Servers: for LLMs to integrate and share data with external tools, systems, and data sources.
 							- Export: export the conversation to Markdown.
 						- Debug & issues
+							- Insecure permissions (`nobody:nogroup`)
+								- ```
+								  [oh-my-zsh] Insecure completion-dependent directories detected:
+								  -rw-r--r-- 1 nobody nogroup 2554 Thg 11 26 08:26 /usr/share/zsh/vendor-completions/_antigravity
+								  ```
 							- Startup automatically with 100% CPU load, likely due to a "new update available"
 								- The update get 154 MB of the new `antigravity` from [antigravity-auto-updater-dev](https://us-central1-apt.pkg.dev/projects/antigravity-auto-updater-dev)
 									- Could not execute systemctl:  at `/usr/bin/deb-systemd-invoke` line 142.
