@@ -8,10 +8,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ((68df2364-c484-4ddd-b4b5-19ef90228ef4))
 		  id:: 68663850-daa5-487e-ba48-fea228a2b188
 		  collapsed:: true
-		- Recursivly naming the ignorance – the power and fallacy of abstraction.
-		  :LOGBOOK:
-		  CLOCK: [2025-11-27 Thu 16:24:17]
-		  :END:
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
