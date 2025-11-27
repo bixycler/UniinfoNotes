@@ -271,6 +271,22 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- Customizations: Rules, Workflows
 							- [MCP](https://en.wikipedia.org/wiki/Model_Context_Protocol) Servers: for LLMs to integrate and share data with external tools, systems, and data sources.
 							- Export: export the conversation to Markdown.
+						- Debug & issues
+							- Startup automatically with 100% CPU load, likely due to a "new update available"
+								- The update get 154 MB of the new `antigravity` from [antigravity-auto-updater-dev](https://us-central1-apt.pkg.dev/projects/antigravity-auto-updater-dev)
+									- Could not execute systemctl:  at `/usr/bin/deb-systemd-invoke` line 142.
+									- After update, the 2 `antigravity` process consuming 100% CPU is still running.
+								- `pstree`: `systemd` >
+									- `NetworkManager`, `accounts-daemon`, `cron`, `nginx`, `ollama`, ...
+									- `gdm3` > `gdm-session-worker` > `gdm-wayland-session` > `gnome-session-b`
+									- `systemd` >
+										- `antigravity`---18*[{`antigravity`}]
+										- 3\*[`antigravity`---6*[{`antigravity`}]]
+										- 3\*[`antigravity`---12*[{`antigravity`}]]
+										- 2\*[`antigravity`---17*[{`antigravity`}]]
+										- ...
+										- `gnome-session-b`
+										- `gnome-terminal`
 		- AI chatbots
 		  id:: 67a5fae8-8e1d-4dd6-818d-a8462f6b54db
 		  collapsed:: true
