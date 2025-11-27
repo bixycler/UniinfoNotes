@@ -4866,23 +4866,22 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 6716110e-5f12-4484-97ca-fde30d4ff0d3
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66537674-6cf9-4459-8bea-7c1858c694a3)) is the process of abstracting details, i.e. removing details that are irrelevant to the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s focus, from an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)), to get a more concise object that can be handled easier compared to the original object with full details. The result of that process is called by many names: abstract, abstraction, summary, name, title, key, etc. Abstraction is related to ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) via the ((687505e2-062a-4267-98bc-ed0e9f6dced3)): ((67654618-70d2-49cd-88b7-f7c4e161dfd9)) = circle ((67654ecb-896a-4421-95e5-f72c07fc62a4)); ((676545e8-429c-41e7-97ed-12cc8e8870d4)) = pipe ((670cdcb4-3c85-45af-8c30-3c3284ed37df)); ((676545b3-2d9f-43af-8ff0-3543dbe73159)) = ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)).
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-			- Recursivly naming the ignorance – the power and fallacy of abstraction.
+			- Recursively naming the ignorance – the power and fallacy of abstraction.
+			  id:: 692818bf-7a44-4804-b444-1bdb45e3ddb4
 			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2025-11-27 Thu 16:24:17]
 			  :END:
 				- The power lies in our recursive mind's ability to name, while the fallacy lies in forgetting that these names are merely internal cognitive tools, not independent external reality.
-				- ...
-					- The mechanism: recursively naming the ignorance
-					  id:: 69282889-f206-4999-a84e-9692ac0f6d12
-					  collapsed:: true
-						- The ability to operate in this abstract, non-constructive realm stems from a single, foundational cognitive maneuver: applying a recursive naming convention to acknowledge different boundaries of our current, constructive knowledge with different names. This process is how the human mind bridges the gap between the computationally finite and the mathematically infinite.
-						- 1. Encountering the limit, i.e. ignorance: We perform a constructive process (e.g., counting, defining a set) and reach a point where the process is infinite or non-terminating (the computational limit). We cannot physically build the next step or the final collection.
-						- 2. The naming operation, i.e. ((676545b3-2d9f-43af-8ff0-3543dbe73159)): We stop the constructive process and assign a simple, finite label (a ((665cab38-f8e8-472e-b0a1-60776d492835))) to the unreached totality or the next step we cannot take. This name symbolizes *the gap in our operational knowledge*, e.g., calling the collection of all natural numbers “ℕ”.
-						- 3. Recursive application: We treat this new name *as if it were a complete*, first-class citizen in our mental model. We can then apply the original constructive/recursive rules again, using the newly named entity as a starting point.
-						- ((66725725-f76a-4328-b162-f469b87e871b))
-							- [Ordinal numbers](https://en.wikipedia.org/wiki/Ordinal_number): “Gather all bags constructed into a new bag”. The moment we “gather” an infinite collection into a single mental object is the act of naming our computational ignorance of traversing the entire sequence. We name it ω, then recursively apply the successor operation to get ω+1, ω+2, etc., naming our ignorance recursively.
-							- The [limit operator](https://en.wikipedia.org/wiki/Limit_(mathematics)): We know how to build a sequence $S_n$, but we cannot compute the infinite number of its terms. So, we name the idea of that final value “$\lim_{n → ∞}S_n$”. And then we use that name in further, complex equations, building abstract knowledge on top of a single symbol that represents an uncomputable process.
+				- The mechanism: recursively naming the ignorance
+				  id:: 69282889-f206-4999-a84e-9692ac0f6d12
+					- The ability to operate in this abstract, non-constructive realm stems from a single, foundational cognitive maneuver: applying a recursive naming convention to acknowledge different boundaries of our current, constructive knowledge with different names. This process is how the human mind bridges the gap between the computationally finite and the mathematically infinite.
+					- 1. Encountering the limit, i.e. ignorance: We perform a constructive process (e.g., counting, defining a set) and reach a point where the process is infinite or non-terminating (the computational limit). We cannot physically build the next step or the final collection.
+					- 2. The naming operation, i.e. ((676545b3-2d9f-43af-8ff0-3543dbe73159)): We stop the constructive process and assign a simple, finite label (a ((665cab38-f8e8-472e-b0a1-60776d492835))) to the unreached totality or the next step we cannot take. This name symbolizes *the gap in our operational knowledge*, e.g., calling the collection of all natural numbers “ℕ”.
+					- 3. Recursive application: We treat this new name *as if it were a complete*, first-class citizen in our mental model. We can then apply the original constructive/recursive rules again, using the newly named entity as a starting point.
+					- ((66725725-f76a-4328-b162-f469b87e871b))
+						- [Ordinal numbers](https://en.wikipedia.org/wiki/Ordinal_number): “Gather all bags constructed into a new bag”. The moment we “gather” an infinite collection into a single mental object is the act of naming our computational ignorance of traversing the entire sequence. We name it ω, then recursively apply the successor operation to get ω+1, ω+2, etc., naming our ignorance recursively.
+						- The [limit operator](https://en.wikipedia.org/wiki/Limit_(mathematics)): We know how to build a sequence $S_n$, but we cannot compute the infinite number of its terms. So, we name the idea of that final value “$\lim_{n → ∞}S_n$”. And then we use that name in further, complex equations, building abstract knowledge on top of a single symbol that represents an uncomputable process.
 				- The power of abstraction: enabling thought and communication
 				  id:: 6926be1b-910d-4e6e-990d-947440c86fdb
 				  collapsed:: true
@@ -4913,6 +4912,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Constructive counterargument: The classical conclusion is flawed because it makes non-constructive assumptions:
 						- Existence is not guaranteed: The box might be “wild” enough that no ball can be retrieved (non-constructive existence).
 						- Identity is not guaranteed: Until the ball is observed and structurally identified, it could be anything, even a “ghost” creation in the dark. The name “C” does not inherit the properties of A or B until an observational operation confirms the structural match. The statement $C = A ∨ C = B$ cannot be proven constructively without opening the box.
+				- ...
 		- ### ω-abstraction
 		  id:: 67654618-70d2-49cd-88b7-f7c4e161dfd9
 		  :LOGBOOK:
