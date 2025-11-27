@@ -4880,6 +4880,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Facilitating higher-order reasoning: Abstraction enables us to move up levels of thought. By simply declaring the existence of a set of all natural numbers (ℕ), we can then define operations and structures upon that named set (like calculus or group theory) without constantly having to re-derive the foundational set constructively every time.
 					- Universal communication: Shared labels like “infinity” provide a common ground for mathematicians to communicate about shared mental constructs, even if the underlying constructive process remains beyond any single individual's complete execution.
 					- Inspiration for computation: The abstract, non-constructive ideals of mathematics often serve as blue sky inspiration for computer science models, leading to recursive programming paradigms, [type theory](https://en.wikipedia.org/wiki/Type_theory), etc.
+				- The fallacy of abstraction: conflating name with objective existence
+				  collapsed:: true
+					- The fallacy of declaration: The primary fallacy is confusing the act of naming with the proof of existence or distinction. Classic math declares existence by naming, then derives further existence via logic to achieve [“existence proof”](https://en.wikipedia.org/wiki/Existence_theorem) of objects that cannot be [constructed](https://en.wikipedia.org/wiki/Constructive_proof) nor observed.
+					- Reifying the unknown: We risk treating an abstract name (e.g., “A”) as an objective, independently existing entity within a closed system ([“The Black Box”](((692821f8-dbc0-4653-b31f-22e5c4d5fac1)))), even when we have no operational way to verify its properties or distinguish it from “B”.
+					- Ignoring the process: By focusing purely on the elegant name (the symbol ∞), we can neglect the underlying structure of the recursive construction that generated the concept in the first place. The value is in the algorithm, not the unreachable result.
+					- Physical miscalculation: Applying the fallacy to physics leads to errors when mathematical declarations (e.g., particles A and B are “different by name”) contradict physical reality (the particles are observationally identical), as shown in [Gibbs paradox](https://en.wikipedia.org/wiki/Gibbs_paradox) about entropy of [indistinguishable particles](https://en.wikipedia.org/wiki/Indistinguishable_particles).
+				- The "Choice in Black Box Experiment": challenging the [Law of Excluded Middle](https://en.wikipedia.org/wiki/Law_of_excluded_middle)
+				  id:: 692821f8-dbc0-4653-b31f-22e5c4d5fac1
 				- ...
 		- ### ω-abstraction
 		  id:: 67654618-70d2-49cd-88b7-f7c4e161dfd9

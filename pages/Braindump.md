@@ -753,11 +753,6 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 	- ## Braindumping < ((68be32ad-ba39-4774-a67b-43a4fb114a3e))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- ...
-		- The fallacy of abstraction: conflating name with objective existence
-		  collapsed:: true
-			- The fallacy of declaration: The primary fallacy is confusing the act of naming with the proof of existence or distinction. Classic math declares existence by naming, then derives further existence via logic to  [“existence proof”](https://en.wikipedia.org/wiki/Existence_theorem) which cannot be constructed nor observed.
-			      • Reifying the Unknown: We risk treating an abstract name (e.g., "A") as an objective, independently existing entity within a closed system ("The Black Box"), even when we have no operational way to verify its properties or distinguish it from "B".
-			      • Ignoring the Process: By focusing purely on the elegant name (the symbol ), we can neglect the underlying structure of the recursive construction that generated the concept in the first place. The value is in the algorithm, not the unreachable result.
-			      • Physical Miscalculation: As you noted with entropy/Gibbs paradox, applying the fallacy to physics leads to errors when mathematical declarations (e.g., particles A and B are "different by name") contradict physical reality (the particles are observationally identical).
+		- Choice in Black Box Experiment
 		- TODO Update [Unitorus](https://www.youtube.com/watch?v=7OR_6L2zyHE)
 		- ((68f60c71-56b6-494e-b4bb-26f1f91e3282))
