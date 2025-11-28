@@ -1685,15 +1685,15 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- 1. The first-order self-effect with scaling factor $λ$:  Let's rewrite $f' = λ⋅f$ in differentials to see its internal structure.
 						- $df(x) = f'(x)⋅dx = d_λ[f(x)] = λ⋅f(x)⋅dx$
 						- Here, we define the differential operator $d_{λ}$ for $λ$-scaled self-effect to be multiplication by $λ⋅dx$.
-					- 2. The $n$-th order self-effect from 1st order: Applying $d_{λ}$ recursively $n$ times, we get the $n$-th order with scaling factor $λ^{n}$. 
-					  $d^n f(x) = d^n_λ[f(x)] = λ⋅(λ⋅(...(λ⋅f(x)⋅dx)...)⋅dx)⋅dx$ 
-					  $d^n f(x)=λ^n⋅f(x)⋅(dx)^n$
-					  $f^{(n)} = λ^n⋅f$
-					- 3. Set the $n$-th order scaling factor to unity: To get the “unit self-effect” ⟪ $f^{(n)}=f$ ⟫, we set its scaling factor $λ^n = 1$. Then the first-order scaling factor $λ$ becomes an $n$-th root of unity: 
-					  $f^{(n)} = λ^n⋅f = f \; ⟹ \; λ^{n}=1 \; ⟹ \; λ = \sqrt[n]{1}$
+					- 2. The $n$-th order self-effect from 1st order: Applying $d_{λ}$ recursively $n$ times, we get the $n$-th order with scaling factor $λ^{n}$.
+						- $d^n f(x) = d^n_λ[f(x)] = λ⋅(λ⋅(...(λ⋅f(x)⋅dx)...)⋅dx)⋅dx$
+						- $d^n f(x)=λ^n⋅f(x)⋅(dx)^n$
+						- $f^{(n)} = λ^n⋅f$
+					- 3. Set the $n$-th order scaling factor to unity: To get the “unit self-effect” ⟪ $f^{(n)}=f$ ⟫, we set its scaling factor $λ^n = 1$. Then the first-order scaling factor $λ$ becomes an $n$-th root of unity:
+						- $f^{(n)} = λ^n⋅f = f \; ⟹ \; λ^{n}=1 \; ⟹ \; λ = \sqrt[n]{1}$
 						- The trivial value is $λ = 1$, because $1^n = 1$, but it's not the only one.
-					- 4. Fan the roots out by different derivatives: By choosing different values for different orders of derivative $f^{(k)}, k: 1..n$, we obtain $n$ different values for $n$-th roots of unity from $k$-th order scaling factor $λ^k$. 
-					  $(λ^k)^n = (λ^n)^k = 1^k = 1$ and $λ^k ≠ λ^m$ for $k ≠ m$ in $1..n$.
+					- 4. Fan the roots out by different derivatives: By choosing different values for different orders of derivative $f^{(k)}, k: 1..n$, we obtain $n$ different values for $n$-th root of unity from $k$-th order scaling factor – each $k$ gives a root value $λ^k$.
+						- $(λ^k)^n = (λ^n)^k = 1^k = 1$ and $λ^k ≠ λ^m$ for $k ≠ m$ in $1..n$.
 						- The $n$-th unit $j_n$ is defined to be the first-order scaling factor $λ$, which is the first root in $n$ roots.
 						  $j_n := λ = \sqrt[n]{1}$
 		- ...
