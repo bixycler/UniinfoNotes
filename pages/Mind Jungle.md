@@ -1601,49 +1601,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- [Vairocana](https://en.wikipedia.org/wiki/Vairocana) buddha (Đại Nhật phật): center, space, white, aware, [Dharmadhātu](https://en.wikipedia.org/wiki/Dharmadhatu) → [Suchness](https://en.wikipedia.org/wiki/Suchness) wisdom (Tathātā-jñāna, Chân như trí [真如智], Dharmadhātu-svabhāva-jñāna, Pháp giới thể tánh trí [法界體性智])
 						- References
 							- [五智](https://buddhaspace.org/dict/fk/data/%25E4%25BA%2594%25E6%2599%25BA.html)
-					- Emergence of `exp()`, “negativity” $-1$, and “imaginarity” $i$ through effect circles & [roots of unity](https://en.wikipedia.org/wiki/Root_of_unity)
-					  id:: 67bbde62-70fc-4d3d-9f65-dcea280db516
-						- Let $j_n$ be the $n$^{th} unit arising from $n$^{th} order self effect.
-						- The `exp()` function arises from the the differential equation $f' = f ⇒ j_1 = \sqrt[1]{1} = 1$.
-						- The negative unit $-1$ arises from the the differential equation $f'' = f ⇒ j_2 = \sqrt[2]{1} = -1$.
-						- The [imaginary unit](https://en.wikipedia.org/wiki/Imaginary_unit) $i$ arises from the the differential equation $f^{(4)} = f$, or $f'' = - f ⇒ j_4 = \sqrt[4]{1} = i$.
-							- This gives rise to the ((67bd3614-2520-4a5d-8b3f-44f60901844e)).
-					- Circle Dynamic
-					  id:: 67bd3614-2520-4a5d-8b3f-44f60901844e
-						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67bd3614-2520-4a5d-8b3f-44f60901844e)) is the basic dynamic...
-					- Circle of Dynamics
-					  id:: 67bd7811-ce55-402f-8fb2-08b59fb271c9
-					  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((67b183f5-1cca-4473-917e-60c644dd5466))
-						- Dynamics Circle
-						  id:: 67b183f5-1cca-4473-917e-60c644dd5466
-						  ((665359e4-4597-4775-b849-f9acbb98960a)) ((67bd7811-ce55-402f-8fb2-08b59fb271c9))
-						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67b183f5-1cca-4473-917e-60c644dd5466)) is the ((667c0031-0a87-44c9-9e98-6d45893b095f)) of [physical dynamics](https://en.wikipedia.org/wiki/Dynamics_(mechanics)) cycling up and down the ((67bd787d-4b28-42a0-a7b6-ba4bd60e5523)).
-							- Circle: distribution (position) → density (yank) → [curvature = force](((67b5c77d-c42c-4dc5-8d47-fd82f535177a))) → momentum → position (distribution) → ...
-								- ((67b183f5-dba7-4a11-8a72-3c619e3709ea))
-								- The circle is composed of 2 arrows, [view cone](((684f9517-c0d3-48cb-bf23-3d71963551e5))) + [effect cone](((684f9517-b417-47da-ab50-38f625511e9d))), hence just the ((6851578b-9b1f-4367-878f-79b0b0b9be51)) wrapped around, like the Ouroboros and the taijitu ☯️ (☯).
-							- ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)): spatial distribution → density → curvature
-							  id:: 684f9517-c0d3-48cb-bf23-3d71963551e5
-								- This is the characteristic of waves, plants, networks.
-								- Observing mechanism: differentiation in space
-							- [Obop](((94e87dc9-71af-477c-aa70-0f448c2f1e20))) point: ((67b5c77d-c42c-4dc5-8d47-fd82f535177a)) is the [wave equation](https://en.wikipedia.org/wiki/Wave_equation) established based on the ((67bd3614-2520-4a5d-8b3f-44f60901844e)).
-								- This equation operates the body and express
-							- ((667bd93a-cce4-4dbf-9831-725e4dffe463)): force (mass acceleration) → momentum (mass velocity) → point mass (mass position)
-							  id:: 684f9517-b417-47da-ab50-38f625511e9d
-								- This is the characteristic of particles, animals.
-								- Operating mechanism: integration over time
-								- ((6847e436-9a84-42c5-a853-75f6d626ed63)): The motion of the particle is action, thus the action cone includes force → momentum, and its effect is the position.
-							- Universe: spatial distribution = distribution of point masses = energy field = wave field
-						- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-							-
-						- Pyramid of Dynamics
-						  id:: 67bd787d-4b28-42a0-a7b6-ba4bd60e5523
-						  ((665359e4-4597-4775-b849-f9acbb98960a)) ((67baf139-aa0c-436e-9e21-983323833c71))
-							- Dynamics Pyramid
-							  id:: 67baf139-aa0c-436e-9e21-983323833c71
-							  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((67bd787d-4b28-42a0-a7b6-ba4bd60e5523))
-								- Diagram
-								  collapsed:: true
-									- ![DynamicsPyramid](https://docs.google.com/drawings/d/e/2PACX-1vTZeIjOKk3h-3WXdc-xATjDF3YQsr2p0J1iwfFvBtIblsL-jg9aoILR7wiyYUDqXSg8-h3h94owrCFz/pub?w=1000)
 				- The κύκλος (cycle, circle) is the form; the κυβερνήτης ([cybernetics](https://en.wikipedia.org/wiki/Cybernetics), steersman) is the agent of that form.
 				  collapsed:: true
 					- Both are about circular motion & turning, and both have the first syllable transformed to "cy" with a very different pronunciation in English.
@@ -1663,6 +1620,62 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  CLOCK: [2025-11-28 Fri 10:46:55]
 	  :END:
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((69291b2c-dda9-4877-bf3e-7e84a519e218)) is the study of ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)). From the [classical physiscs dynamics](https://en.wikipedia.org/wiki/Dynamics_(mechanics)) studying force and its effect on motion, it has been abstracted to [calculus](https://en.wikipedia.org/wiki/Calculus) ([differential calculus](https://en.wikipedia.org/wiki/Differential_calculus) for rate of change, and [integral calculus](https://en.wikipedia.org/wiki/Integral_calculus) for accumulation of change), then generalized to the modern [dynamical systems theory](https://en.wikipedia.org/wiki/Dynamical_systems_theory) since 20th century.
+		- Circle of Dynamics
+		  id:: 67bd7811-ce55-402f-8fb2-08b59fb271c9
+		  collapsed:: true
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((67b183f5-1cca-4473-917e-60c644dd5466))
+			- Dynamics Circle
+			  id:: 67b183f5-1cca-4473-917e-60c644dd5466
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((67bd7811-ce55-402f-8fb2-08b59fb271c9))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67b183f5-1cca-4473-917e-60c644dd5466)) is the ((667c0031-0a87-44c9-9e98-6d45893b095f)) of [physical dynamics](https://en.wikipedia.org/wiki/Dynamics_(mechanics)) cycling up and down the ((67bd787d-4b28-42a0-a7b6-ba4bd60e5523)).
+				- Circle: distribution (position) → density (yank) → [curvature = force](((67b5c77d-c42c-4dc5-8d47-fd82f535177a))) → momentum → position (distribution) → ...
+					- ((67b183f5-dba7-4a11-8a72-3c619e3709ea))
+					- The circle is composed of 2 arrows, [view cone](((684f9517-c0d3-48cb-bf23-3d71963551e5))) + [effect cone](((684f9517-b417-47da-ab50-38f625511e9d))), hence just the ((6851578b-9b1f-4367-878f-79b0b0b9be51)) wrapped around, like the Ouroboros and the taijitu ☯️ (☯).
+				- ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)): spatial distribution → density → curvature
+				  id:: 684f9517-c0d3-48cb-bf23-3d71963551e5
+					- This is the characteristic of waves, plants, networks.
+					- Observing mechanism: differentiation in space
+				- [Obop](((94e87dc9-71af-477c-aa70-0f448c2f1e20))) point: ((67b5c77d-c42c-4dc5-8d47-fd82f535177a)) is the [wave equation](https://en.wikipedia.org/wiki/Wave_equation) established based on the ((67bd3614-2520-4a5d-8b3f-44f60901844e)).
+					- This equation operates the body and express
+				- ((667bd93a-cce4-4dbf-9831-725e4dffe463)): force (mass acceleration) → momentum (mass velocity) → point mass (mass position)
+				  id:: 684f9517-b417-47da-ab50-38f625511e9d
+					- This is the characteristic of particles, animals.
+					- Operating mechanism: integration over time
+					- ((6847e436-9a84-42c5-a853-75f6d626ed63)): The motion of the particle is action, thus the action cone includes force → momentum, and its effect is the position.
+				- Universe: spatial distribution = distribution of point masses = energy field = wave field
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				-
+		- Pyramid of Dynamics
+		  id:: 67bd787d-4b28-42a0-a7b6-ba4bd60e5523
+		  collapsed:: true
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((67baf139-aa0c-436e-9e21-983323833c71))
+			- Dynamics Pyramid
+			  id:: 67baf139-aa0c-436e-9e21-983323833c71
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((67bd787d-4b28-42a0-a7b6-ba4bd60e5523))
+				- Diagram
+				  collapsed:: true
+					- ![DynamicsPyramid](https://docs.google.com/drawings/d/e/2PACX-1vTZeIjOKk3h-3WXdc-xATjDF3YQsr2p0J1iwfFvBtIblsL-jg9aoILR7wiyYUDqXSg8-h3h94owrCFz/pub?w=1000)
+		- Circle Dynamic
+		  id:: 67bd3614-2520-4a5d-8b3f-44f60901844e
+		  collapsed:: true
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67bd3614-2520-4a5d-8b3f-44f60901844e)) is the basic dynamic...
+		- `exp()`, the [eigenfunction](https://en.wikipedia.org/wiki/Eigenfunction) of linear differential operator, is the basic obop.
+		  collapsed:: true
+			- DE: $d f(x) = f(x) dx$
+			- The micro image projected from the macro world is the driving force of the body.
+			- Obop form: $d f(x)$
+			- Ob: $d$ (diff); op: `+=` (accumulation, cumulative sum)
+			- Viewcone: the extent $f(x)$ at the base is projected by $dx$ to the image $d f(x)$ at the apex.
+			- Dynamic circle: $f(x)$ ⤚[view]→ $d f(x) = f(x) dx$ ⤚[accum]→ $f(x)$
+		- Emergence of `exp()`, “negativity” $-1$, and “imaginarity” $i$ through effect circles & [roots of unity](https://en.wikipedia.org/wiki/Root_of_unity)
+		  id:: 67bbde62-70fc-4d3d-9f65-dcea280db516
+		  collapsed:: true
+			- Let $j_n$ be the $n$^{th} unit arising from $n$^{th} order self effect.
+			- The `exp()` function arises from the the differential equation $f' = f ⇒ j_1 = \sqrt[1]{1} = 1$.
+			- The negative unit $-1$ arises from the the differential equation $f'' = f ⇒ j_2 = \sqrt[2]{1} = -1$.
+			- The [imaginary unit](https://en.wikipedia.org/wiki/Imaginary_unit) $i$ arises from the the differential equation $f^{(4)} = f$, or $f'' = - f ⇒ j_4 = \sqrt[4]{1} = i$.
+				- This gives rise to the ((67bd3614-2520-4a5d-8b3f-44f60901844e)).
+		- ...
 	- ## world
 	  id:: 667cfac2-17f1-4cbd-9f6d-1e722ff2a870
 	  collapsed:: true

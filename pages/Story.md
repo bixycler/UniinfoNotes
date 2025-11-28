@@ -5499,13 +5499,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 27th,...
 			  collapsed:: true
 				- ((67bd3614-2520-4a5d-8b3f-44f60901844e)) from ((67b183f5-1cca-4473-917e-60c644dd5466)) and [recursive identities of diff equations](((67bbde62-70fc-4d3d-9f65-dcea280db516)))
-					- `exp()`, the [eigenfunction](https://en.wikipedia.org/wiki/Eigenfunction) of linear differential operator, is the basic obop.
-						- DE: $d f(x) = f(x) dx$
-						- The micro image projected from the macro world is the driving force of the body.
-						- Obop form: $d f(x)$
-						- Ob: $d$ (diff); op: `+=` (accumulation, cumulative sum)
-						- Viewcone: the extent $f(x)$ at the base is projected by $dx$ to the image $d f(x)$ at the apex.
-						- Dynamic circle: $f(x)$ ⤚[view]→ $d f(x) = f(x) dx$ ⤚[accum]→ $f(x)$
 				- Write this note with the help of Google Search AI Mode: ((692818bf-7a44-4804-b444-1bdb45e3ddb4))
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
