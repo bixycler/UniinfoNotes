@@ -760,8 +760,11 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			  :END:
 				- 1. Define the general $n$-th order self-effect: We introduce a generic scaling factor $λ_{n}$ for the $n$-th order relation: 
 				  $d^{n}f(x)=λ_{n}⋅f(x)⋅(dx)^{n}$
-				- 2. Derive $n$-th order from $1$-st order recursively: We assume the most basic operation is a consistent first-order scaling $λ=λ_{1}$ . Applying this simple scaling factor $n$ times recursively leads inherently to the $n$-th order scaling being $λ^{n}$ : 
-				  $d^{n}f(x)=λ⋅(λ⋅(...(λ⋅f(x)⋅dx)⋅dx)...)⋅dx$ $d^{n}f(x)=λ^{n}⋅f(x)⋅(dx)^{n}$
-				- 3. Set the Specific Condition to Unity: We set the system condition to a "unit self-effect" by requiring $λ_{n}=1$ (as in your original $f^{(n)}=f$ equation): $λ^{n}⋅f(x)⋅(dx)^{n}=1⋅f(x)⋅(dx)^{n}$ Solve for the Consistent Scale Factor: This forces the universal scaling factor $λ$ to satisfy $λ^{n}=1$ .
+				- 2. Derive $n$-th order from $1$-st order recursively: We assume the most basic operation is a consistent first-order scaling $λ=λ_{1}$. Applying this simple scaling factor $n$ times recursively leads inherently to the $n$-th order scaling being $λ^{n}$ : 
+				  $d^{n}f(x)=λ⋅(λ⋅(...(λ⋅f(x)⋅dx)...)⋅dx)⋅dx$ 
+				  $d^{n}f(x)=λ^{n}⋅f(x)⋅(dx)^{n}$
+				- 3. Set the $n$-th order scaling factor to unity: To get the “unit self-effect” $f^{(n)}=f$, we set $λ_{n}=1$: 
+				  $λ^{n}⋅f(x)⋅(dx)^{n}=1⋅f(x)⋅(dx)^{n}$
+				- 4. Solve for the consistent scale factor: This forces the universal scaling factor $λ$ to satisfy $λ^{n}=1$.
 		- TODO Update [Unitorus](https://www.youtube.com/watch?v=7OR_6L2zyHE)
 		- ((68f60c71-56b6-494e-b4bb-26f1f91e3282))
