@@ -1656,6 +1656,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- This circular dependency is shown by the spirorus which is the structure of spacetime.
 				-
 		-
+	-
 	- ## world
 	  id:: 667cfac2-17f1-4cbd-9f6d-1e722ff2a870
 	  collapsed:: true
