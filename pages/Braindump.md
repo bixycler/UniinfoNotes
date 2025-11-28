@@ -759,8 +759,8 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			  CLOCK: [2025-11-28 Fri 12:18:02]
 			  :END:
 				- 1. The general first-order self-effect with scaling factor $λ$:  Let's rewrite $f' = λ⋅f$ in differentials to see its internal structure.
-				  $df(x) = f'(x)⋅dx = λ⋅f(x)⋅dx$
-					- Here, the
+				  $df(x) = f'(x)⋅dx = d_{λ}[f(x)] = λ⋅f(x)⋅dx$
+					- Here, we define the differential operator $d_{λ}$ for $λ$-scaled self-effect to be multiplication by $λ⋅dx$.
 				- 1. Define the general $n$-th order self-effect: We introduce a generic scaling factor $λ_{n}$ for the $n$-th order relation: 
 				  $d^{n}f(x)=λ_{n}⋅f(x)⋅(dx)^{n}$
 				- 2. Derive $n$-th order from $1$-st order recursively: Let $λ=λ_{1}$, we get the first-order  and apply  $n$ times recursively leads inherently to the $n$-th order scaling being $λ^{n}$ : 
