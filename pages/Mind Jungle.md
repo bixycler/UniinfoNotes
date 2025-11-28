@@ -1619,7 +1619,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  :LOGBOOK:
 	  CLOCK: [2025-11-28 Fri 10:46:55]
 	  :END:
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((69291b2c-dda9-4877-bf3e-7e84a519e218)) is the study of ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)). From the [classical physiscs dynamics](https://en.wikipedia.org/wiki/Dynamics_(mechanics)) studying force and its effect on motion, it has been abstracted to [calculus](https://en.wikipedia.org/wiki/Calculus) ([differential calculus](https://en.wikipedia.org/wiki/Differential_calculus) for rate of change, and [integral calculus](https://en.wikipedia.org/wiki/Integral_calculus) for accumulation of change, [calculus of variations](https://en.wikipedia.org/wiki/Calculus_of_variations) for ), then generalized to the modern [dynamical systems theory](https://en.wikipedia.org/wiki/Dynamical_systems_theory) since 20th century.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((69291b2c-dda9-4877-bf3e-7e84a519e218)) is the study of ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)). From the [classical physiscs dynamics](https://en.wikipedia.org/wiki/Dynamics_(mechanics)) studying force and its effect on motion, it has been abstracted to [calculus](https://en.wikipedia.org/wiki/Calculus) ([differential calculus](https://en.wikipedia.org/wiki/Differential_calculus) for rate of change, and [integral calculus](https://en.wikipedia.org/wiki/Integral_calculus) for accumulation of change, [calculus of variations](https://en.wikipedia.org/wiki/Calculus_of_variations) for stationary function of functional), then it has been generalized to the modern [dynamical systems theory](https://en.wikipedia.org/wiki/Dynamical_systems_theory) since 20th century.
 		- ### Circle of Dynamics
 		  id:: 67bd7811-ce55-402f-8fb2-08b59fb271c9
 		  collapsed:: true
@@ -1660,25 +1660,26 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  collapsed:: true
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67bd3614-2520-4a5d-8b3f-44f60901844e)) is the basic dynamic...
 		- ### Calculus of Dynamics
+		  id:: 69292bbb-c2dc-496d-9a04-bb4529407b25
+		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-11-28 Fri 11:57:58]
 		  :END:
-		- `exp()`, the [eigenfunction](https://en.wikipedia.org/wiki/Eigenfunction) of linear differential operator, is the basic obop.
-		  collapsed:: true
-			- DE: $d f(x) = f(x) dx$
-			- The micro image projected from the macro world is the driving force of the body.
-			- Obop form: $d f(x)$
-			- Ob: $d$ (diff); op: `+=` (accumulation, cumulative sum)
-			- Viewcone: the extent $f(x)$ at the base is projected by $dx$ to the image $d f(x)$ at the apex.
-			- Dynamic circle: $f(x)$ ⤚[view]→ $d f(x) = f(x) dx$ ⤚[accum]→ $f(x)$
-		- Emergence of `exp()`, “negativity” $-1$, and “imaginarity” $i$ through effect circles & [roots of unity](https://en.wikipedia.org/wiki/Root_of_unity)
-		  id:: 67bbde62-70fc-4d3d-9f65-dcea280db516
-		  collapsed:: true
-			- Let $j_n$ be the $n$^{th} unit arising from $n$^{th} order self effect.
-			- The `exp()` function arises from the the differential equation $f' = f ⇒ j_1 = \sqrt[1]{1} = 1$.
-			- The negative unit $-1$ arises from the the differential equation $f'' = f ⇒ j_2 = \sqrt[2]{1} = -1$.
-			- The [imaginary unit](https://en.wikipedia.org/wiki/Imaginary_unit) $i$ arises from the the differential equation $f^{(4)} = f$, or $f'' = - f ⇒ j_4 = \sqrt[4]{1} = i$.
-				- This gives rise to the ((67bd3614-2520-4a5d-8b3f-44f60901844e)).
+			- `exp()`, the [eigenfunction](https://en.wikipedia.org/wiki/Eigenfunction) of linear differential operator, is the basic obop.
+			  collapsed:: true
+				- DE: $d f(x) = f(x) dx$
+				- The micro image projected from the macro world is the driving force of the body.
+				- Obop form: $d f(x)$
+				- Ob: $d$ (diff); op: `+=` (accumulation, cumulative sum)
+				- Viewcone: the extent $f(x)$ at the base is projected by $dx$ to the image $d f(x)$ at the apex.
+				- Dynamic circle: $f(x)$ ⤚[view]→ $d f(x) = f(x) dx$ ⤚[accum]→ $f(x)$
+			- Emergence of `exp()`, “negativity” $-1$, and “imaginarity” $i$ through effect circles & [roots of unity](https://en.wikipedia.org/wiki/Root_of_unity)
+			  id:: 67bbde62-70fc-4d3d-9f65-dcea280db516
+				- Let $j_n$ be the $n$^{th} unit arising from $n$^{th} order self effect.
+				- The `exp()` function arises from the the differential equation $f' = f ⇒ j_1 = \sqrt[1]{1} = 1$.
+				- The negative unit $-1$ arises from the the differential equation $f'' = f ⇒ j_2 = \sqrt[2]{1} = -1$.
+				- The [imaginary unit](https://en.wikipedia.org/wiki/Imaginary_unit) $i$ arises from the the differential equation $f^{(4)} = f$, or $f'' = - f ⇒ j_4 = \sqrt[4]{1} = i$.
+					- This gives rise to the ((67bd3614-2520-4a5d-8b3f-44f60901844e)).
 		- ...
 	- ## world
 	  id:: 667cfac2-17f1-4cbd-9f6d-1e722ff2a870

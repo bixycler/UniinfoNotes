@@ -5498,7 +5498,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- With the help of Antigravity, i wrote this commentary: ((6926d573-2c8b-4a9e-941a-269335cf0885))
 			- 27th,...
 			  collapsed:: true
-				- ((67bd3614-2520-4a5d-8b3f-44f60901844e)) from ((67b183f5-1cca-4473-917e-60c644dd5466)) and [recursive identities of diff equations](((67bbde62-70fc-4d3d-9f65-dcea280db516)))
+				- ((67bd3614-2520-4a5d-8b3f-44f60901844e)) from ((67b183f5-1cca-4473-917e-60c644dd5466)) and ((69292bbb-c2dc-496d-9a04-bb4529407b25))
+					- I was reminded of the legendary book i caught on an old bookshelf in my freshman year:
+					  collapsed:: true
+						- ![Dynamics: The Geometry of Behavior](../assets/Will/story/2025-11/Dynamics - The Geometry of Behavior.cover.jpg){:width 400}
 				- Write this note with the help of Google Search AI Mode: ((692818bf-7a44-4804-b444-1bdb45e3ddb4))
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
