@@ -758,14 +758,12 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			  :LOGBOOK:
 			  CLOCK: [2025-11-28 Fri 12:18:02]
 			  :END:
-				- 1. The general first-order self-effect with scaling factor $λ$:  Let's rewrite $f' = λ⋅f$ in differentials to see its internal structure.
-				  $df(x) = f'(x)⋅dx = d_{λ}[f(x)] = λ⋅f(x)⋅dx$
+				- 1. The first-order self-effect with scaling factor $λ$:  Let's rewrite $f' = λ⋅f$ in differentials to see its internal structure.
+				  $df(x) = f'(x)⋅dx = d_λ[f(x)] = λ⋅f(x)⋅dx$
 					- Here, we define the differential operator $d_{λ}$ for $λ$-scaled self-effect to be multiplication by $λ⋅dx$.
-				- 1. Define the general $n$-th order self-effect: We introduce a generic scaling factor $λ_{n}$ for the $n$-th order relation: 
-				  $d^{n}f(x)=λ_{n}⋅f(x)⋅(dx)^{n}$
-				- 2. Derive $n$-th order from $1$-st order recursively: Let $λ=λ_{1}$, we get the first-order  and apply  $n$ times recursively leads inherently to the $n$-th order scaling being $λ^{n}$ : 
-				  $d^{n}f(x)=λ⋅(λ⋅(...(λ⋅f(x)⋅dx)...)⋅dx)⋅dx$ 
-				  $d^{n}f(x)=λ^{n}⋅f(x)⋅(dx)^{n}$
+				- 1. The $n$-th order self-effect from 1st order: Applying $d_{λ}$ recursively $n$ times, we get the $n$-th order with scaling factor $λ^{n}$. 
+				  $d^n f(x) = d^n_λ[f(x)] = λ⋅(λ⋅(...(λ⋅f(x)⋅dx)...)⋅dx)⋅dx$ 
+				  $d^n f(x)=λ^n⋅f(x)⋅(dx)^n$
 				- 3. Set the $n$-th order scaling factor to unity: To get the “unit self-effect” $f^{(n)}=f$, we set $λ_{n}=1$. Then the first-order scaling factor $λ$ becomes the $n$-order root of unity via $λ^{n}=1$: 
 				  $λ^{n}⋅f(x)⋅(dx)^{n}=1⋅f(x)⋅(dx)^{n}$
 				  $λ^{n}=1 ⇒ λ = \sqrt[n]{1}$
