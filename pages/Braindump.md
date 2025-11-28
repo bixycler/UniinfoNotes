@@ -761,12 +761,12 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				- 1. The first-order self-effect with scaling factor $λ$:  Let's rewrite $f' = λ⋅f$ in differentials to see its internal structure.
 				  $df(x) = f'(x)⋅dx = d_λ[f(x)] = λ⋅f(x)⋅dx$
 					- Here, we define the differential operator $d_{λ}$ for $λ$-scaled self-effect to be multiplication by $λ⋅dx$.
-				- 1. The $n$-th order self-effect from 1st order: Applying $d_{λ}$ recursively $n$ times, we get the $n$-th order with scaling factor $λ^{n}$. 
+				- 2. The $n$-th order self-effect from 1st order: Applying $d_{λ}$ recursively $n$ times, we get the $n$-th order with scaling factor $λ^{n}$. 
 				  $d^n f(x) = d^n_λ[f(x)] = λ⋅(λ⋅(...(λ⋅f(x)⋅dx)...)⋅dx)⋅dx$ 
 				  $d^n f(x)=λ^n⋅f(x)⋅(dx)^n$
-				- 3. Set the $n$-th order scaling factor to unity: To get the “unit self-effect” $f^{(n)}=f$, we set $λ_{n}=1$. Then the first-order scaling factor $λ$ becomes the $n$-order root of unity via $λ^{n}=1$: 
-				  $λ^{n}⋅f(x)⋅(dx)^{n}=1⋅f(x)⋅(dx)^{n}$
-				  $λ^{n}=1 ⇒ λ = \sqrt[n]{1}$
+				  $f^{(n)} = λ^n⋅f$
+				- 3. Set the $n$-th order scaling factor to unity: To get the “unit self-effect” ⟪ $f^{(n)}=f$ ⟫, we set its scaling factor $λ^n = 1$. Then the first-order scaling factor $λ$ becomes an $n$-order root of unity: 
+				  $f^{(n)} = λ^n⋅f = f \; ⟹ \; λ^{n}=1 \; ⟹ \; λ = \sqrt[n]{1}$
 				- 4. Solve for the consistent scale factor: This forces the universal scaling factor $λ$ to satisfy $λ^{n}=1$.
 		- TODO Update [Unitorus](https://www.youtube.com/watch?v=7OR_6L2zyHE)
 		- ((68f60c71-56b6-494e-b4bb-26f1f91e3282))
