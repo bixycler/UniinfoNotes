@@ -1564,6 +1564,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- ![EffectCircle](https://docs.google.com/drawings/d/e/2PACX-1vR9OJ5byY9Gqnzh6djhbbAmP2FMOOrhHjYT8cW9dee3DT-2-PtnffiOmHvmzehNgmMWaPL4lj2butTo/pub?w=800){:height 684, :width 790}
 						  id:: 6835b165-8a07-4156-9440-a4536b5c8be3
 						- Directions and colors
+						  collapsed:: true
 							- Like the [compass rose](https://en.wikipedia.org/wiki/Compass_rose) (for people in the [Northern Hemisphere](https://en.wikipedia.org/wiki/Northern_Hemisphere)), the **West** (position of **Amitabha** buddha) is on the **left**.
 								- Note that this is different from the common configuration where Amitabha buddha at the West is shown on the top.
 							- On the right, water (blue) is falling down to the earth (yellow) at the bottom;
@@ -1616,7 +1617,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Dynamics Circle
 						  id:: 67b183f5-1cca-4473-917e-60c644dd5466
 						  ((665359e4-4597-4775-b849-f9acbb98960a)) ((67bd7811-ce55-402f-8fb2-08b59fb271c9))
-						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67b183f5-1cca-4473-917e-60c644dd5466)) is the ((667c0031-0a87-44c9-9e98-6d45893b095f)) of [physical dynamics](https://en.wikipedia.org/wiki/Dynamics_(mechanics)).
+						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67b183f5-1cca-4473-917e-60c644dd5466)) is the ((667c0031-0a87-44c9-9e98-6d45893b095f)) of [physical dynamics](https://en.wikipedia.org/wiki/Dynamics_(mechanics)) cycling up and down the ((67bd787d-4b28-42a0-a7b6-ba4bd60e5523)).
 							- Circle: distribution (position) → density (yank) → [curvature = force](((67b5c77d-c42c-4dc5-8d47-fd82f535177a))) → momentum → position (distribution) → ...
 								- ((67b183f5-dba7-4a11-8a72-3c619e3709ea))
 								- The circle is composed of 2 arrows, [view cone](((684f9517-c0d3-48cb-bf23-3d71963551e5))) + [effect cone](((684f9517-b417-47da-ab50-38f625511e9d))), hence just the ((6851578b-9b1f-4367-878f-79b0b0b9be51)) wrapped around, like the Ouroboros and the taijitu ☯️ (☯).
