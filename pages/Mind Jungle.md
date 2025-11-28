@@ -1673,10 +1673,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Ob: $d$ (diff); op: `+=` (accumulation, cumulative sum)
 				- Viewcone: the extent $f(x)$ at the base is projected by $dx$ to the image $d f(x)$ at the apex.
 				- Dynamic circle: $f(x)$ ⤚[view]→ $d f(x) = f(x) dx$ ⤚[accum]→ $f(x)$
-			- DOING \( \lambda _{n} \) ...
-			  :LOGBOOK:
-			  CLOCK: [2025-11-28 Fri 12:18:02]
-			  :END:
 			- Emergence of `exp()`, “negativity” $-1$, and “imaginarity” $i$ through effect circles & [roots of unity](https://en.wikipedia.org/wiki/Root_of_unity)
 			  id:: 67bbde62-70fc-4d3d-9f65-dcea280db516
 				- Let $j_n$ be the $n$^{th} unit arising from $n$^{th} order self effect.
