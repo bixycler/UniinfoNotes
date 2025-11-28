@@ -755,6 +755,8 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		- ...
 		- collapsed:: true
 		  4. Fan the roots out by different derivatives
-			- 4.1.
+			- 4.1. First order:
+			- 4.2. Second order:
+			- 4.1. Second order:
 		- TODO Update [Unitorus](https://www.youtube.com/watch?v=7OR_6L2zyHE)
 		- ((68f60c71-56b6-494e-b4bb-26f1f91e3282))
