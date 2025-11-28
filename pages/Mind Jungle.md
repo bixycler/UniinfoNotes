@@ -1662,7 +1662,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  :LOGBOOK:
 	  CLOCK: [2025-11-28 Fri 10:46:55]
 	  :END:
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((69291b2c-dda9-4877-bf3e-7e84a519e218)) is the study of ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)). From the [classical physiscs dynamics](https://en.wikipedia.org/wiki/Dynamics_(mechanics)) studying force and its effect on motion, it has been abstracted to [calculus](https://en.wikipedia.org/wiki/Calculus) – [differential calculus](https://en.wikipedia.org/wiki/Differential_calculus) studing rate of change, and [integral calculus](https://en.wikipedia.org/wiki/Integral_calculus) studying accumulation of change – then generalized to the modern [dynamical systems theory](https://en.wikipedia.org/wiki/Dynamical_systems_theory).
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((69291b2c-dda9-4877-bf3e-7e84a519e218)) is the study of ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)). From the [classical physiscs dynamics](https://en.wikipedia.org/wiki/Dynamics_(mechanics)) studying force and its effect on motion, it has been abstracted to [calculus](https://en.wikipedia.org/wiki/Calculus) ([differential calculus](https://en.wikipedia.org/wiki/Differential_calculus) for rate of change, and [integral calculus](https://en.wikipedia.org/wiki/Integral_calculus) for accumulation of change), then generalized to the modern [dynamical systems theory](https://en.wikipedia.org/wiki/Dynamical_systems_theory) since 20th century.
 	- ## world
 	  id:: 667cfac2-17f1-4cbd-9f6d-1e722ff2a870
 	  collapsed:: true
