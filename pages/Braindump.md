@@ -767,6 +767,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				  $f^{(n)} = λ^n⋅f$
 				- 3. Set the $n$-th order scaling factor to unity: To get the “unit self-effect” ⟪ $f^{(n)}=f$ ⟫, we set its scaling factor $λ^n = 1$. Then the first-order scaling factor $λ$ becomes an $n$-order root of unity: 
 				  $f^{(n)} = λ^n⋅f = f \; ⟹ \; λ^{n}=1 \; ⟹ \; λ = \sqrt[n]{1}$
-				- 4. Fan the roots out by different derivatives: By choosing different values $λ^{n}=1$.
+				- 4. Fan the roots out by different derivatives: By choosing different values for different orders of derivative $f^{(k)}, k < n$, we obtain different values for $\sqrt[n]{1}$. The $n$-th unit $j_n$ is defined to be the first-order scaling  first root in $n$ roots.
+				  $j_n := λ$
 		- TODO Update [Unitorus](https://www.youtube.com/watch?v=7OR_6L2zyHE)
 		- ((68f60c71-56b6-494e-b4bb-26f1f91e3282))
