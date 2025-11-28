@@ -1619,8 +1619,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  :LOGBOOK:
 	  CLOCK: [2025-11-28 Fri 10:46:55]
 	  :END:
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((69291b2c-dda9-4877-bf3e-7e84a519e218)) is the study of ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)). From the [classical physiscs dynamics](https://en.wikipedia.org/wiki/Dynamics_(mechanics)) studying force and its effect on motion, it has been abstracted to [calculus](https://en.wikipedia.org/wiki/Calculus) ([differential calculus](https://en.wikipedia.org/wiki/Differential_calculus) for rate of change, and [integral calculus](https://en.wikipedia.org/wiki/Integral_calculus) for accumulation of change), then generalized to the modern [dynamical systems theory](https://en.wikipedia.org/wiki/Dynamical_systems_theory) since 20th century.
-		- Circle of Dynamics
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((69291b2c-dda9-4877-bf3e-7e84a519e218)) is the study of ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)). From the [classical physiscs dynamics](https://en.wikipedia.org/wiki/Dynamics_(mechanics)) studying force and its effect on motion, it has been abstracted to [calculus](https://en.wikipedia.org/wiki/Calculus) ([differential calculus](https://en.wikipedia.org/wiki/Differential_calculus) for rate of change, and [integral calculus](https://en.wikipedia.org/wiki/Integral_calculus) for accumulation of change, [calculus of variations](https://en.wikipedia.org/wiki/Calculus_of_variations) for ), then generalized to the modern [dynamical systems theory](https://en.wikipedia.org/wiki/Dynamical_systems_theory) since 20th century.
+		- ### Circle of Dynamics
 		  id:: 67bd7811-ce55-402f-8fb2-08b59fb271c9
 		  collapsed:: true
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((67b183f5-1cca-4473-917e-60c644dd5466))
@@ -1645,7 +1645,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Universe: spatial distribution = distribution of point masses = energy field = wave field
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				-
-		- Pyramid of Dynamics
+		- ### Pyramid of Dynamics
 		  id:: 67bd787d-4b28-42a0-a7b6-ba4bd60e5523
 		  collapsed:: true
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((67baf139-aa0c-436e-9e21-983323833c71))
@@ -1655,10 +1655,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Diagram
 				  collapsed:: true
 					- ![DynamicsPyramid](https://docs.google.com/drawings/d/e/2PACX-1vTZeIjOKk3h-3WXdc-xATjDF3YQsr2p0J1iwfFvBtIblsL-jg9aoILR7wiyYUDqXSg8-h3h94owrCFz/pub?w=1000)
-		- Circle Dynamic
+		- ### Circle Dynamic
 		  id:: 67bd3614-2520-4a5d-8b3f-44f60901844e
 		  collapsed:: true
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67bd3614-2520-4a5d-8b3f-44f60901844e)) is the basic dynamic...
+		- ### Calculus of Dynamics
+		  :LOGBOOK:
+		  CLOCK: [2025-11-28 Fri 11:57:58]
+		  :END:
 		- `exp()`, the [eigenfunction](https://en.wikipedia.org/wiki/Eigenfunction) of linear differential operator, is the basic obop.
 		  collapsed:: true
 			- DE: $d f(x) = f(x) dx$
