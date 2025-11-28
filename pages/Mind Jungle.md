@@ -1665,7 +1665,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  :LOGBOOK:
 		  CLOCK: [2025-11-28 Fri 11:57:58]
 		  :END:
-			- `exp()`, the [eigenfunction](https://en.wikipedia.org/wiki/Eigenfunction) of linear differential operator, is the basic obop.
+			- `exp()`, the [eigenfunction](https://en.wikipedia.org/wiki/Eigenfunction) of linear differential operator, is the basic ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)).
 			  collapsed:: true
 				- DE: $d f(x) = f(x) dx$
 				- The micro image projected from the macro world is the driving force of the body.
@@ -1673,13 +1673,29 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Ob: $d$ (diff); op: `+=` (accumulation, cumulative sum)
 				- Viewcone: the extent $f(x)$ at the base is projected by $dx$ to the image $d f(x)$ at the apex.
 				- Dynamic circle: $f(x)$ ⤚[view]→ $d f(x) = f(x) dx$ ⤚[accum]→ $f(x)$
-			- Emergence of `exp()`, “negativity” $-1$, and “imaginarity” $i$ through effect circles & [roots of unity](https://en.wikipedia.org/wiki/Root_of_unity)
+			- The [roots of unity](https://en.wikipedia.org/wiki/Root_of_unity) and $n$-th unit $j_n$ (like “negativity” $j_2 = -1$, and “imaginarity” $j_4 = i$) are derived from the $n$-th order ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)) differential equation $f^{(n)} = f$.
 			  id:: 67bbde62-70fc-4d3d-9f65-dcea280db516
-				- Let $j_n$ be the $n$^{th} unit arising from $n$^{th} order self effect.
-				- The `exp()` function arises from the the differential equation $f' = f ⇒ j_1 = \sqrt[1]{1} = 1$.
-				- The negative unit $-1$ arises from the the differential equation $f'' = f ⇒ j_2 = \sqrt[2]{1} = -1$.
-				- The [imaginary unit](https://en.wikipedia.org/wiki/Imaginary_unit) $i$ arises from the the differential equation $f^{(4)} = f$, or $f'' = - f ⇒ j_4 = \sqrt[4]{1} = i$.
+				- Let $j_n$ be the $n$^{th} unit arising from $n$^{th} order self-effect.
+				- The `exp()` function arises from the first order: $f' = f ⇒ j_1 = \sqrt[1]{1} = 1$.
+				- The negative unit $-1$ arises from the second order: $f'' = f ⇒ j_2 = \sqrt[2]{1} = -1$.
+				- The [imaginary unit](https://en.wikipedia.org/wiki/Imaginary_unit) $i$ arises from the fourth order: $f^{(4)} = f$, or $f'' = - f ⇒ j_4 = \sqrt[4]{1} = i$.
 					- This gives rise to the ((67bd3614-2520-4a5d-8b3f-44f60901844e)).
+				- Derivation
+				  collapsed:: true
+					- 1. The first-order self-effect with scaling factor $λ$:  Let's rewrite $f' = λ⋅f$ in differentials to see its internal structure.
+						- $df(x) = f'(x)⋅dx = d_λ[f(x)] = λ⋅f(x)⋅dx$
+						- Here, we define the differential operator $d_{λ}$ for $λ$-scaled self-effect to be multiplication by $λ⋅dx$.
+					- 2. The $n$-th order self-effect from 1st order: Applying $d_{λ}$ recursively $n$ times, we get the $n$-th order with scaling factor $λ^{n}$. 
+					  $d^n f(x) = d^n_λ[f(x)] = λ⋅(λ⋅(...(λ⋅f(x)⋅dx)...)⋅dx)⋅dx$ 
+					  $d^n f(x)=λ^n⋅f(x)⋅(dx)^n$
+					  $f^{(n)} = λ^n⋅f$
+					- 3. Set the $n$-th order scaling factor to unity: To get the “unit self-effect” ⟪ $f^{(n)}=f$ ⟫, we set its scaling factor $λ^n = 1$. Then the first-order scaling factor $λ$ becomes an $n$-th root of unity: 
+					  $f^{(n)} = λ^n⋅f = f \; ⟹ \; λ^{n}=1 \; ⟹ \; λ = \sqrt[n]{1}$
+						- The trivial value is $λ = 1$, because $1^n = 1$, but it's not the only one.
+					- 4. Fan the roots out by different derivatives: By choosing different values for different orders of derivative $f^{(k)}, k: 1..n$, we obtain $n$ different values for $n$-th roots of unity from $k$-th order scaling factor $λ^k$. 
+					  $(λ^k)^n = (λ^n)^k = 1^k = 1$ and $λ^k ≠ λ^m$ for $k ≠ m$ in $1..n$.
+						- The $n$-th unit $j_n$ is defined to be the first-order scaling factor $λ$, which is the first root in $n$ roots.
+						  $j_n := λ = \sqrt[n]{1}$
 		- ...
 	- ## world
 	  id:: 667cfac2-17f1-4cbd-9f6d-1e722ff2a870
