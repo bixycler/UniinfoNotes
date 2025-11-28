@@ -753,10 +753,10 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 	- ## Braindumping < ((68be32ad-ba39-4774-a67b-43a4fb114a3e))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- ...
-			- DOING  ...
+			- The [roots of unity](https://en.wikipedia.org/wiki/Root_of_unity) and $n$-th unit $j_n$ (like “negativity” $j_2 = -1$, and “imaginarity” $j_4 = i$) are derived from $n$-th order ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)).
 			  collapsed:: true
 			  :LOGBOOK:
-			  CLOCK: [2025-11-28 Fri 12:18:02]
+			  CLOCK: [2025-11-28 Fri 12:18:02]--[2025-11-28 Fri 19:15:47] =>  06:57:45
 			  :END:
 				- 1. The first-order self-effect with scaling factor $λ$:  Let's rewrite $f' = λ⋅f$ in differentials to see its internal structure.
 				  $df(x) = f'(x)⋅dx = d_λ[f(x)] = λ⋅f(x)⋅dx$
@@ -765,7 +765,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				  $d^n f(x) = d^n_λ[f(x)] = λ⋅(λ⋅(...(λ⋅f(x)⋅dx)...)⋅dx)⋅dx$ 
 				  $d^n f(x)=λ^n⋅f(x)⋅(dx)^n$
 				  $f^{(n)} = λ^n⋅f$
-				- 3. Set the $n$-th order scaling factor to unity: To get the “unit self-effect” ⟪ $f^{(n)}=f$ ⟫, we set its scaling factor $λ^n = 1$. Then the first-order scaling factor $λ$ becomes an $n$-order root of unity: 
+				- 3. Set the $n$-th order scaling factor to unity: To get the “unit self-effect” ⟪ $f^{(n)}=f$ ⟫, we set its scaling factor $λ^n = 1$. Then the first-order scaling factor $λ$ becomes an $n$-th root of unity: 
 				  $f^{(n)} = λ^n⋅f = f \; ⟹ \; λ^{n}=1 \; ⟹ \; λ = \sqrt[n]{1}$
 					- The trivial value is $λ = 1$, because $1^n = 1$, but it's not the only one.
 				- 4. Fan the roots out by different derivatives: By choosing different values for different orders of derivative $f^{(k)}, k: 1..n$, we obtain $n$ different values for $n$-th roots of unity from $k$-th order scaling factor $λ^k$. 
