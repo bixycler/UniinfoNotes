@@ -755,9 +755,9 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		- ...
 		- 1+4. Fan the roots out by different derivatives
 		  collapsed:: true
-			- 1.1. The $\exp()$ function arises from the first order:
+			- 1.1. The $\exp()$ function arises from the first order: Applying the definition of differential to the equation, we directly get the result function to be
 			- 1.2. The $\exp(x)$ function happens to be the natural [exponentiation](https://en.wikipedia.org/wiki/Exponentiation) $e^x$:
 			- 4.1. The negative unit $-1$ arises from the second order:
-			- 4.2. The imaginary unit $i$ arises from the fourth order:
+			- 4.2. The imaginary unit $i$ and $\sin()$ function arise from the fourth order:
 		- TODO Update [Unitorus](https://www.youtube.com/watch?v=7OR_6L2zyHE)
 		- ((68f60c71-56b6-494e-b4bb-26f1f91e3282))

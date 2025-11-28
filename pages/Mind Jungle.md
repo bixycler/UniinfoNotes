@@ -1676,9 +1676,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- The [roots of unity](https://en.wikipedia.org/wiki/Root_of_unity) and $n$-th unit $j_n$ (like “negativity” $j_2 = -1$, and “imaginarity” $j_4 = i$) are derived from the $n$-th order ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)) differential equation $f^{(n)} = f$.
 			  id:: 67bbde62-70fc-4d3d-9f65-dcea280db516
 				- Let $j_n$ be the $n$^{th} unit arising from $n$^{th} order self-effect.
-				- The `exp()` function arises from the first order: $f' = f ⇒ j_1 = \sqrt[1]{1} = 1$.
+				- The $\exp()$ function arises from the first order: $f' = f ⇒ j_1 = \sqrt[1]{1} = 1$.
 				- The negative unit $-1$ arises from the second order: $f'' = f ⇒ j_2 = \sqrt[2]{1} = -1$.
-				- The [imaginary unit](https://en.wikipedia.org/wiki/Imaginary_unit) $i$ arises from the fourth order: $f^{(4)} = f$, or $f'' = - f ⇒ j_4 = \sqrt[4]{1} = i$.
+				- The [imaginary unit](https://en.wikipedia.org/wiki/Imaginary_unit) $i$ and $\sin()$ function arise from the fourth order: $f^{(4)} = f$, or $f'' = - f ⇒ j_4 = \sqrt[4]{1} = i$.
 					- This gives rise to the ((67bd3614-2520-4a5d-8b3f-44f60901844e)).
 				- Derivation
 				  collapsed:: true
