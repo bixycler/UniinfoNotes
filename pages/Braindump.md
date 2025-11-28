@@ -759,6 +759,10 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				- $df(x) = f(x+dx) - f(x) = λ⋅f(x)⋅dx$
 				- $f(x+dx) = f(x) + f(x)⋅λ⋅dx = (1 + λ⋅dx)f(x)$
 				- $f(x) = (1 + λ⋅dx)f(x-dx) = (1 + λ⋅dx)^2 f(x-2dx) =...= (1 + λ⋅dx)^{x/dx}$
+				- Let $ε = dx$ and $N = x/ε$, we have
+				  $f(x) = \exp(λ⋅x)$ 
+				  $:= \lim_{ε→0}(1 + λ⋅ε)^{x/ε}$ 
+				  $= \lim_{N→∞}(1 + {λ⋅x/N})^N$
 			- 1.2. The $\exp(x)$ function happens to be the natural [exponentiation](https://en.wikipedia.org/wiki/Exponentiation) $e^x$:
 			- 4.1. The negative unit $-1$ arises from the second order:
 			- 4.2. The imaginary unit $i$ and $\sin()$ function arise from the fourth order:
