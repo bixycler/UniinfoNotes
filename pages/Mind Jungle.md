@@ -1107,6 +1107,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- These effect circles are the cells of uninet, called ((671e1608-1350-4e87-99b6-5492cc6fb449)).
 						- Compared to [gradient descent](https://en.wikipedia.org/wiki/Gradient_descent): $\dot{x} = −∇V(x)$
 							- No predefined potential landscape $V$ is required in unitnet, i.e. “background-independent” like General Relativity.
+								- Actually, uninet, as well as the whole Unïnfo, requires a single qualifier – the ((6653751a-a1b4-44b0-a81e-0a446eb8918c)) – from which all other intents emerge through interaction between effect circles.
 							- Unlike predefined [loss function](https://en.wikipedia.org/wiki/Loss_function) in [machine learning](https://en.wikipedia.org/wiki/Machine_learning), the intentional cause of autonoton emerges through learning: ((68df309b-c3e7-4121-895c-9c74d2359646)) → ((68df2ff2-cd0a-45e0-9309-969e0493404b)).
 							- [Reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning) is the closest to uninet, thanks to its self-learnt **target/advantage** inside the loss (the Bellman target, the advantage estimate A(s,a), GAE, etc.).
 					- Time = head-to-tail continuation = addition of arrows = quantum-wise addition
