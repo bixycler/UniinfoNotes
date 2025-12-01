@@ -1,26 +1,17 @@
 - Satyagraha (truth force) by the principle of [means = ends](https://en.wikipedia.org/wiki/Satyagraha#Means_and_ends)
 - 廢, 癈: [物極必反](https://en.wiktionary.org/wiki/%E7%89%A9%E6%A5%B5%E5%BF%85%E5%8F%8D), [過猶不及](https://en.wiktionary.org/wiki/%E9%81%8E%E7%8C%B6%E4%B8%8D%E5%8F%8A)
 - ---
-- View cone = 1-to-all relation $v(A) = V(A)dt$: its accumulation A `+=` v(A) = $(1 + v)(A)$ = (self + image)(A) over time becomes exp: $A(t) = [(1 + V dt)^{t/dt}](A(0)) = \exp(V t)(A(0))$
-    - Philosopher view cone (meta), power set, simplices: $V = dt = 1 => P(S) = (1+1)^S$
-    - Binomial power $(1 + x)^n$
-    - Extensional view: particle moving in spacetime: V is tangent vector of A state space in direction $d(V)$, i.e. V(A) is the tendency of A's transition in the flow of direction $d(V)$. Path A(0) -> A(t) is the projection of tangent vector V t onto state space. Circle is a basic tangent space.
-    - Intensional view: wave of threads weaving network in body:
-- Dynamics pyramid's circle: 
-    - view cone of space differential up ->
-    - action cone of time integration down -> 
-    - effect cone of wave in the world at the base of the pyramid
 - uninet: quantum to time to space to self
-    - each quantum is a phase circle storing datum for the corresponding qualiton: x, y, z, ...
-    - Time = head-to-tail continuation = addition of arrows = quantum-wise addition
-        - Point equality: magnitude is relative and scalable, only order (relation) between points on thread conserves. (Topo compound thread)
-        - Quanta are independent from each other
-    - Space = rotation = multiplication of arrows with  attent arrow = projection by view = distortion to form
-        - different views = different products (multiplications)
-        - mass equally: the amount of thread conserves.
-        -  in rotation, quanta are linked into a loop (projective compound thread)
-    - Self = round form = exp(x) equals x = maintenance of self-image
-        - Intent/structure equality: 
-        - all quanta are linked to weave a compound thread
-        - quantum loop has at least 4 quanta 
+	- each quantum is a phase circle storing datum for the corresponding qualiton: x, y, z, ...
+	- Time = head-to-tail continuation = addition of arrows = quantum-wise addition
+		- Point equality: magnitude is relative and scalable, only order (relation) between points on thread conserves. (Topo compound thread)
+		- Quanta are independent from each other
+	- Space = rotation = multiplication of arrows with  attent arrow = projection by view = distortion to form
+		- different views = different products (multiplications)
+		- mass equally: the amount of thread conserves.
+		- in rotation, quanta are linked into a loop (projective compound thread)
+	- Self = round form = exp(x) equals x = maintenance of self-image
+		- Intent/structure equality:
+		- all quanta are linked to weave a compound thread
+		- quantum loop has at least 4 quanta
 -

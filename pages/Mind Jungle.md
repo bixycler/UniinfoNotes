@@ -1627,9 +1627,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Dynamics Circle
 			  id:: 67b183f5-1cca-4473-917e-60c644dd5466
 			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((67bd7811-ce55-402f-8fb2-08b59fb271c9))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67b183f5-1cca-4473-917e-60c644dd5466)) is the ((667c0031-0a87-44c9-9e98-6d45893b095f)) of [physical dynamics](https://en.wikipedia.org/wiki/Dynamics_(mechanics)) cycling up and down the ((67bd787d-4b28-42a0-a7b6-ba4bd60e5523)).
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67b183f5-1cca-4473-917e-60c644dd5466)) is the ((667c0031-0a87-44c9-9e98-6d45893b095f)) of cycling around the ((67bd787d-4b28-42a0-a7b6-ba4bd60e5523)).
 				- Circle: distribution (position) → density (yank) → [curvature = force](((67b5c77d-c42c-4dc5-8d47-fd82f535177a))) → momentum → position (distribution) → ...
 					- ((67b183f5-dba7-4a11-8a72-3c619e3709ea))
+					- view cone of space differential up ->
+					- action cone of time integration down ->
+					- effect cone of wave in the world at the base of the pyramid
 					- The circle is composed of 2 arrows, [view cone](((684f9517-c0d3-48cb-bf23-3d71963551e5))) + [effect cone](((684f9517-b417-47da-ab50-38f625511e9d))), hence just the ((6851578b-9b1f-4367-878f-79b0b0b9be51)) wrapped around, like the Ouroboros and the taijitu ☯️ (☯).
 				- ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)): spatial distribution → density → curvature
 				  id:: 684f9517-c0d3-48cb-bf23-3d71963551e5
@@ -1655,6 +1658,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Diagram
 				  collapsed:: true
 					- ![DynamicsPyramid](https://docs.google.com/drawings/d/e/2PACX-1vTZeIjOKk3h-3WXdc-xATjDF3YQsr2p0J1iwfFvBtIblsL-jg9aoILR7wiyYUDqXSg8-h3h94owrCFz/pub?w=1000)
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From [physical dynamics](https://en.wikipedia.org/wiki/Dynamics_(mechanics)), [physical quantities](https://en.wikipedia.org/wiki/Physical_quantity) are arranged into the ((67bd787d-4b28-42a0-a7b6-ba4bd60e5523)).
 		- ### Circle Dynamic
 		  id:: 67bd3614-2520-4a5d-8b3f-44f60901844e
 		  collapsed:: true
@@ -1670,9 +1674,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- DE: $d f(x) = f(x) dx$
 				- The micro image projected from the macro world is the driving force of the body.
 				- Obop form: $d f(x)$
-				- Ob: $d$ (diff); op: `+=` (accumulation, cumulative sum)
+				- Ob: $d$ (diff); op: `+=` (accumulation, cumulative sum) $(1 + d)$
 				- Viewcone: the extent $f(x)$ at the base is projected by $dx$ to the image $d f(x)$ at the apex.
 				- Dynamic circle: $f(x)$ ⤚[view]→ $d f(x) = f(x) dx$ ⤚[accum]→ $f(x)$
+				- View cone = 1-to-all relation $v(A) = V(A)dt$: its accumulation A `+=` v(A) = $(1 + v)(A)$ = (self + image)(A) over time becomes exp: $A(t) = [(1 + V dt)^{t/dt}](A(0)) = \exp(V t)(A(0))$
+					- Philosopher view cone (meta), power set, simplices: $V = dt = 1 => P(S) = (1+1)^S$
+					- Binomial power $(1 + x)^n$
+					- Extensional view: particle moving in spacetime: V is tangent vector of A state space in direction $d(V)$, i.e. V(A) is the tendency of A's transition in the flow of direction $d(V)$. Path A(0) -> A(t) is the projection of tangent vector V t onto state space. Circle is a basic tangent space.
+					- Intensional view: wave of threads weaving network in body:...
 			- The [roots of unity](https://en.wikipedia.org/wiki/Root_of_unity) and $n$-th unit $j_n$ (like “negativity” $j_2 = -1$, and “imaginarity” $j_4 = i$) are derived from the $n$-th order ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)) differential equation $f^{(n)} = f$.
 			  id:: 67bbde62-70fc-4d3d-9f65-dcea280db516
 				- Let $j_n$ be the $n$^{th} unit arising from $n$^{th} order self-effect.
