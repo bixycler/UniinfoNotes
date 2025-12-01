@@ -1108,6 +1108,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Compared to [gradient descent](https://en.wikipedia.org/wiki/Gradient_descent): $\dot{x} = −∇V(x)$
 							- No predefined potential landscape $V$ is required in unitnet, i.e. “background-independent” like General Relativity.
 							- Unlike predefined [loss function](https://en.wikipedia.org/wiki/Loss_function) in [machine learning](https://en.wikipedia.org/wiki/Machine_learning), the intentional cause of autonoton emerges through learning: ((68df309b-c3e7-4121-895c-9c74d2359646)) → ((68df2ff2-cd0a-45e0-9309-969e0493404b)).
+							- [Reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning) is the closest to uninet, thanks to its self-learnt **target/advantage** inside the loss (the Bellman target, the advantage estimate A(s,a), GAE, etc.).
 					- Time = head-to-tail continuation = addition of arrows = quantum-wise addition
 						- Point equality: magnitude is relative and scalable, only order (relation) between points on thread conserves. (topo compound thread)
 						- Quanta are independent from each other
