@@ -1103,12 +1103,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Uninet is a field of quanta related together by ((69292bbb-c2dc-496d-9a04-bb4529407b25)).
 						- Each quantum is a phase circle storing datum for the corresponding qualiton: $x, y, z, ...$
 						- These phase circles concatenate to form the ((66ab75a1-f4a0-4bab-a002-8e573546623a)), and they ((687743fd-9d45-45be-b9fd-3055cbb8a938)) together to spin self threads.
+						- Some phase circles links together to form ((667c0031-0a87-44c9-9e98-6d45893b095f))s
 					- Time = head-to-tail continuation = addition of arrows = quantum-wise addition
 						- Point equality: magnitude is relative and scalable, only order (relation) between points on thread conserves. (Topo compound thread)
 						- Quanta are independent from each other
 					- Space = rotation = multiplication of arrows with  attent arrow = projection by view = distortion to form
 						- different views = different products (multiplications)
-						- mass equally: the amount of thread conserves.
+						- mass equality: the amount of thread conserves.
 						- in rotation, quanta are linked into a loop (projective compound thread)
 					- Self = round form = exp(x) equals x = maintenance of self-image
 						- Intent/structure equality:
@@ -2437,6 +2438,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- force = ((67bc1f83-d9c4-4ee0-ac61-0de196425208)) 
 			  id:: 67b5c77d-c42c-4dc5-8d47-fd82f535177a
 			  collapsed:: true
+			  ob = op
 			  ⇒ F_{in} + F_{ex} = 0 
 			  ⇔ my curvature + your curvature = 0 
 			  ⇔ |my distortion| = |your distortion|
