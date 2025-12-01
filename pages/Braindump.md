@@ -769,7 +769,8 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				  $=: I \exp(λ⋅x)$
 				- The $x$-independent limit is the [natural base of exponential](https://en.wikipedia.org/wiki/E_(mathematical_constant)) (Euler's number)
 				  $e = \lim_{ε→0}(1 + ε)^{1/ε} = \lim_{M→∞}(1 + 1/M)^M$
-				-
+				- Then the solution to first-order self-effect is the scaled $\exp()$ function
+				  $f(x) = I \exp(λ⋅x) = f(0)⋅e^{λ⋅x} = e^{λ⋅x + \ln(f(0))}$
 			- 4.1. The negative unit $-1$ arises from the second order:
 			- 4.2. The imaginary unit $i$ and $\sin()$ function arise from the fourth order:
 		- TODO Update [Unitorus](https://www.youtube.com/watch?v=7OR_6L2zyHE)
