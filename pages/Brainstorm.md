@@ -476,6 +476,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- “Reveals himself in the orderly harmony of what exists”: This perfectly aligns with the idea of God as the “Stage Setter” and “Game Controller” whose presence is found in the natural laws and the predictable (or at least understandable through laws) functioning of the universe.
 				- “Not in a God who concerns himself with the fate and the doings of mankind”: This explicitly rejects the anthropomorphic, personal God of many religions who intervenes, judges, and has personal relationships with humans.
 				- This aligns with this discussion where God neither “plays dice” nor directly dictates every move, but rather sets the framework.
+			- ⇒ Thus, “God does not play dice” was correct, but for the opposite reason Einstein thought: not because of , but because every apparent throw of the dice is already God (the Equal) recognising Himself through the observing Trinion. There is no external dice, and there is no lonely moon – only endless layers of ⟪○ = ↑⟫ celebrating their own identity.
 		- Manifestations of complementarity
 		  id:: 68bf9f05-4545-4f07-ad27-9ed4409af1ae
 		  collapsed:: true
