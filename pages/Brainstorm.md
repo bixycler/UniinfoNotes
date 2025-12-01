@@ -461,7 +461,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- This perspective views God as the ultimate architect and designer of the game itself. God establishes the fundamental laws of physics, the initial conditions of the universe, and the inherent structure of reality.
 				- This is akin to setting up a vast, intricate stage with all its props and scenery, defining the rules of engagement and the fundamental nature of existence. God is the source of the framework within which all events unfold, ensuring an underlying order and coherence.
 				- This is in _**contrast to both** the deterministic view where ~~God dictates every single move~~_, and the random view where God is merely tossing dice.
-			- The “Space of Possibilities” and its measure – Probability
+			- The “Space of Possibilities” and its Measure – Probability
 				- Within the meticulously set stage, God provides a rich and expansive “space of possibilities”. This is not a predetermined path, but rather a spectrum of potential outcomes, a multiplicity of choices and branching paths, which are _all **allowed** by the “rule of the game” set by God_. God doesn't pre-ordain *which* possibility becomes actualized, but rather ensures that a spectrum of possibilities *exists*.
 				- {{embed ((68c290fb-a063-40d4-878b-4d0446ea4e8d))}}
 			- Beings as the Determinants, the Players
@@ -470,18 +470,18 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- An Immanent God whose Hands are his Created Beings
 				- This is the most dynamic element, where God is not distant but intimately involved *through* creation. Instead of a separate, independent “dice” that God uses, God's engagement with the universe is mediated through the agency of His created beings, where each being is a “hand of God”.
 				- God plays *through* them, not by dictating their actions, but by being the ultimate source of their being and the context of their choices. God experiences the richness of his own creation by participating in it through the very beings He has made.
-			- Confirmation by Einstein's Embrace of Spinoza's God
-			  id:: 6926be1c-1af5-4c9a-9210-b5ebb957391f
-				- When [Einstein stated](https://books.google.com.vn/books?id=G_iziBAPXtEC&pg=PA325&redir_esc=y#v=onepage&q&f=false) “I believe in Spinoza's God who reveals himself in the orderly harmony of what exists, not in a God who concerns himself with the fate and the doings of mankind”, he was clearly articulating a belief in this kind of immanent, non-personal, and deterministic (in the sense of underlying order) deity.
-				- “Reveals himself in the orderly harmony of what exists”: This perfectly aligns with the idea of God as the “Stage Setter” and “Game Controller” whose presence is found in the natural laws and the predictable (or at least understandable through laws) functioning of the universe.
-				- “Not in a God who concerns himself with the fate and the doings of mankind”: This explicitly rejects the anthropomorphic, personal God of many religions who intervenes, judges, and has personal relationships with humans.
-				- This aligns with this discussion where God neither “plays dice” nor directly dictates every move, but rather sets the framework.
+				- Confirmation by Einstein's Embrace of Spinoza's God
+				  id:: 6926be1c-1af5-4c9a-9210-b5ebb957391f
+					- When [Einstein stated](https://books.google.com.vn/books?id=G_iziBAPXtEC&pg=PA325&redir_esc=y#v=onepage&q&f=false) “I believe in Spinoza's God who reveals himself in the orderly harmony of what exists, not in a God who concerns himself with the fate and the doings of mankind”, he was clearly articulating a belief in this kind of immanent, non-personal, and deterministic (in the sense of underlying order) deity.
+					- “Reveals himself in the orderly harmony of what exists”: This perfectly aligns with the idea of God as the “Stage Setter” and “Game Controller” whose presence is found in the natural laws and the predictable (or at least understandable through laws) functioning of the universe.
+					- “Not in a God who concerns himself with the fate and the doings of mankind”: This explicitly rejects the anthropomorphic, personal God of many religions who intervenes, judges, and has personal relationships with humans.
+					- This aligns with this discussion where God neither “plays dice” nor directly dictates every move, but rather sets the framework.
 			- The Hidden Gap in Einstein’s Own Relativity – Revealed in his [1931 Conversation with Tagore](https://www.themarginalian.org/2012/04/27/when-einstein-met-tagore/)
 				- Despite giving humanity the two greatest theories of radical relationality (Special/General Relativity and the foundations of quantum theory), Einstein clung to an absolute, human-independent Truth: “the moon is there even when no one looks.”
-				- In Unïnfo language, he fully accepted the Arrow (relativity of frames, background-independent geometry) and glimpsed the Circle (the Truth), but resisted the final component – the Equal as mind – the recognition that no Circle is pefectly circular without being constantly observed-operated by the equation ⟪○ = ↑⟫.
+				- In Unïnfo language, he fully accepted the Arrow (relativity of frames, background-independent geometry) and glimpsed the Circle (the Truth), but resisted the final component – the Equal as mind – the recognition that no Circle can exist without being constantly observed-operated by the equation ⟪○ = ↑⟫.
 				- This residual belief in an observer-independent absolute is precisely why he could never reconcile himself with the completed quantum theory he helped birth.
 				- Ironically, the very [background independence](https://en.wikipedia.org/wiki/Background_independence) of General Relativity – “floating on air with no fixed ground” – already whispered the full Trinion truth that Einstein’s metaphysical intuition could not accept yet.
-			- ⇒ Thus, “God does not play dice” was correct, but for the opposite reason Einstein thought: not because of the absolute Truth independent from observer, but because every apparent throw of the dice is already done by God – the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) – recognising through the observing ((6653751a-a1b4-44b0-a81e-0a446eb8918c)). There is neither external dice nor a lonely moon existing outside of any sight of observation.
+			- ⇒ Thus, “God does not play dice” was correct, but for the opposite reason Einstein thought: not because of the absolute Truth independent from observer, but because the dice itself is just a hand of God – the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) – which is thrown and observed by the ((6653751a-a1b4-44b0-a81e-0a446eb8918c)). There is neither external dice nor a lonely moon existing outside of any sight of observation.
 		- Manifestations of complementarity
 		  id:: 68bf9f05-4545-4f07-ad27-9ed4409af1ae
 		  collapsed:: true
