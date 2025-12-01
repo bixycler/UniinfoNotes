@@ -1103,9 +1103,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Uninet is a field of quanta related together by ((69292bbb-c2dc-496d-9a04-bb4529407b25)).
 						- Each quantum is a phase circle storing datum for the corresponding qualiton: $x, y, z, ...$
 						- These phase circles concatenate to form the ((66ab75a1-f4a0-4bab-a002-8e573546623a)), and they ((687743fd-9d45-45be-b9fd-3055cbb8a938)) together to spin self threads.
-						- Some phase circles links together to form ((667c0031-0a87-44c9-9e98-6d45893b095f))s
+						- Some phase circles links together to form ((667c0031-0a87-44c9-9e98-6d45893b095f))s driven by the diff/error in that circle to reach the balance/round form.
 					- Time = head-to-tail continuation = addition of arrows = quantum-wise addition
-						- Point equality: magnitude is relative and scalable, only order (relation) between points on thread conserves. (Topo compound thread)
+						- Point equality: magnitude is relative and scalable, only order (relation) between points on thread conserves. (topo compound thread)
 						- Quanta are independent from each other
 					- Space = rotation = multiplication of arrows with  attent arrow = projection by view = distortion to form
 						- different views = different products (multiplications)
@@ -1115,6 +1115,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Intent/structure equality:
 						- all quanta are linked to weave a compound thread
 						- quantum loop has at least 4 quanta for ((67bd3614-2520-4a5d-8b3f-44f60901844e))
+					- TODO Merge “topo/projective compound thread” here with [projective/compound threads](((67e3b3e4-66d6-4c72-92d1-faeef2cf2165))) previously.
 			- point equality
 			  id:: 66e40f4b-34ae-499a-8192-0a0f4f580c7e
 			  :LOGBOOK:
