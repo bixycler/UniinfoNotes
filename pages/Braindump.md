@@ -762,13 +762,13 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				- Recursively apply the factorization until $f(0)$
 				  $f(x) = (1 + λ⋅dx)f(x-dx) = (1 + λ⋅dx)^2 f(x-2dx) =...$
 				  $= (1 + λ⋅dx)^{x/dx} f(0)$
-				- Let $ε = dx$, $M = 1/ε$, $N = x/ε = x⋅M$, and $I = f(0)$ we have
+				- Let $ε = λ⋅dx$, $M = 1/ε$, $N = x/dx = λ⋅x⋅M$, and $I = f(0)$ we have
 				  $f(x)$ 
-				  $= I⋅ \lim_{ε→0}(1 + λ⋅ε)^{x/ε} = I⋅ (\lim_{ε→0}(1 + λ⋅ε)^{1/ε})^x$ 
-				  $= I⋅ \lim_{N→∞}(1 + {λ⋅x/N})^N = I⋅ (\lim_{M→∞}(1 + {λ⋅1/M})^M)^x$
+				  $= I⋅ \lim_{ε→0}(1 + ε)^{λ⋅x/ε} = I⋅ (\lim_{ε→0}(1 + ε)^{1/ε})^{λ⋅x}$ 
+				  $= I⋅ \lim_{N→∞}(1 + {λ⋅x/N})^N = I⋅ (\lim_{M→∞}(1 + {1/M})^M)^{λ⋅x}$
 				  $=: I \exp(λ⋅x)$
 				- The $x$-independent limit is the [natural base of exponential](https://en.wikipedia.org/wiki/E_(mathematical_constant)) (Euler's number)
-				  $e = \lim_{ε→0}(1 + λ⋅ε)^{1/ε} = \lim_{M→∞}(1 + λ/M)^M$
+				  $e = \lim_{ε→0}(1 + ε)^{1/ε} = \lim_{M→∞}(1 + 1/M)^M$
 				-
 			- 4.1. The negative unit $-1$ arises from the second order:
 			- 4.2. The imaginary unit $i$ and $\sin()$ function arise from the fourth order:
