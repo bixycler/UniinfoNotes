@@ -1648,10 +1648,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- The “final cause” in [4 causes by Aristotle](https://en.wikipedia.org/wiki/Four_causes) corresponds to this half of the intentional cause.
 						- ⇒ The intentional cause is “final” in the ((667bda02-8dc9-488e-ba16-ea75c3d7895c)), but “first” in the ((667bd93a-cce4-4dbf-9831-725e4dffe463)).
 						- The external knowledge circle is the lowest circle in the tower of effect circles, under all active intents.
-					- I don't use the term “final cause” (like Aristotle) because [the goal is the horizon](((67445223-9459-4aa9-b102-70c63943577b))):
+					- The first cause is also the final cause – unified in the intentional cause
 					  collapsed:: true
-					  1) _in a single circle_, it's both the first (as the seed), and the last (as the purpose), and 
-					  2) throughout the never ending cycle of effect, it will never be “final”.
+						- I don't use the term “final cause” (like Aristotle) because [the goal is the horizon](((67445223-9459-4aa9-b102-70c63943577b))):
+							- 1) _in a single circle_, it's both the first (as the seed), and the last (as the purpose), and
+							- 2) throughout the never ending cycle of effect, it will never be “final”.
 						- At first, as a seed, the intent gives rise to the whole tree, i.e. ((66c810a0-9861-4787-bdcf-1378219332be)) of karma.
 						- At last, the fruits are selected by the intent to satisfy the criteria of the purpose.
 		-
