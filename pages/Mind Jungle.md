@@ -1555,6 +1555,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Diagram
 					  collapsed:: true
 						- ![OuroborosTrinion](https://docs.google.com/drawings/d/e/2PACX-1vRqW5erSVHBkU5Zbt-UntR9Yo-49Dx9C58evxiLUTsdPOYCPLEppLbk6nXsjaPcJvtklBwqHel-5pVw/pub?w=300)
+				- ((66725725-f76a-4328-b162-f469b87e871b))
+					- Physics: Potential gradient: voltage, pressure, mass–energy curvature, chemical potential, temperature gradient
+					- Error signal in control theory & cybernetics, prediction error in neuroscience
+					- Uncertainty & information gap in Information theory & computation, [loss function](https://en.wikipedia.org/wiki/Loss_function) in ANN
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- ((677e76ed-b324-4608-b146-90e8fcfa0c32)) in knowledge circle = intent (know-why) = arrow returning to the root obop = qualifier = verifier = complement of the result/answer of the problem/question (know-where, know-what, formal cause)
 					  id:: 68a7e246-8407-4e89-b393-912db172e4fe
