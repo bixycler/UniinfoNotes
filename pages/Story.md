@@ -5515,7 +5515,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Proposed to bosses of the company HTV/Airtrip to set up an AI lab for knowledge management.
 			- Dec 1st,...
 			  collapsed:: true
-				- The [resonance between the Law of Balance Restoration and Return to God](((692d69f0-ff24-4d71-a95c-2e27ebb28c7d))) reminds me about Einstein's faith in Spinoza’s God and his mail reply to
+				- The [resonance between the Law of Balance Restoration and Return to God](((692d69f0-ff24-4d71-a95c-2e27ebb28c7d))) reminds me about Einstein's [faith in Spinoza’s God](((6926be1c-1af5-4c9a-9210-b5ebb957391f))) and his mail reply to Phyllis Wright, a sixth-grade girl, about the question [Do Scientists Pray?](https://www.themarginalian.org/2013/07/11/do-scientists-pray-einstein-letter-science-religion/).
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69085f61-6627-4c0a-a984-c2b5b411a292))

@@ -1634,6 +1634,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Uncertainty & information gap in Information theory & computation, [loss function](https://en.wikipedia.org/wiki/Loss_function) in [machine learning](https://en.wikipedia.org/wiki/Machine_learning)
 					- Conflict in [dialectics](https://en.wikipedia.org/wiki/Dialectic) of [homeostasis](https://en.wikipedia.org/wiki/Homeostasis), personal growth, social and organizational evolution
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- The first cause is also the final cause – unified in the intentional cause
+					  collapsed:: true
+						- I don't use the term “final cause” like Aristotle because [the goal is the horizon](((67445223-9459-4aa9-b102-70c63943577b))):
+							- 1) _in a single circle_, it's both the first (as the seed), and the last (as the purpose), and
+							- 2) throughout the never ending cycle of effect, it will never be “final”.
+						- At first, as a seed, the intent gives rise to the whole tree, i.e. ((66c810a0-9861-4787-bdcf-1378219332be)) of karma.
+						- At last, the fruits are selected by the intent to satisfy the criteria of the purpose.
+						- The statement that “the first cause is also the final cause” is similar to [Aquinas' 5th Way](https://en.wikipedia.org/wiki/Five_Ways_(Aquinas)#Fifth_way:_Argument_from_Final_Cause_or_Ends), but for the immanent God – the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) – instead of a transcendent God.
+						  id:: 692d69f0-ff24-4d71-a95c-2e27ebb28c7d
+							- ((6667c99a-792f-4230-9fc6-c5fae874daef)) = Return to God (exitus–reditus) = ((c96a6d20-a0f6-48bd-9d70-9bc00b6b3c69))
 					- ((677e76ed-b324-4608-b146-90e8fcfa0c32)) in knowledge circle = intent (know-why) = arrow returning to the root obop = qualifier = verifier = complement of the result/answer of the problem/question (know-where, know-what, formal cause)
 					  id:: 68a7e246-8407-4e89-b393-912db172e4fe
 					  collapsed:: true
@@ -1648,16 +1658,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- The “final cause” in [4 causes by Aristotle](https://en.wikipedia.org/wiki/Four_causes) corresponds to this half of the intentional cause.
 						- ⇒ The intentional cause is “final” in the ((667bda02-8dc9-488e-ba16-ea75c3d7895c)), but “first” in the ((667bd93a-cce4-4dbf-9831-725e4dffe463)).
 						- The external knowledge circle is the lowest circle in the tower of effect circles, under all active intents.
-					- The first cause is also the final cause – unified in the intentional cause
-					  collapsed:: true
-						- I don't use the term “final cause” like Aristotle because [the goal is the horizon](((67445223-9459-4aa9-b102-70c63943577b))):
-							- 1) _in a single circle_, it's both the first (as the seed), and the last (as the purpose), and
-							- 2) throughout the never ending cycle of effect, it will never be “final”.
-						- At first, as a seed, the intent gives rise to the whole tree, i.e. ((66c810a0-9861-4787-bdcf-1378219332be)) of karma.
-						- At last, the fruits are selected by the intent to satisfy the criteria of the purpose.
-						- The statement that “the first cause is also the final cause” is similar to [Aquinas' 5th Way](https://en.wikipedia.org/wiki/Five_Ways_(Aquinas)#Fifth_way:_Argument_from_Final_Cause_or_Ends), but for the immanent God – the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) – instead of a transcendent God.
-						  id:: 692d69f0-ff24-4d71-a95c-2e27ebb28c7d
-							- ((6667c99a-792f-4230-9fc6-c5fae874daef)) = Return to God (exitus–reditus) = ((c96a6d20-a0f6-48bd-9d70-9bc00b6b3c69))
 		-
 	- ## dynamics
 	  id:: 69291b2c-dda9-4877-bf3e-7e84a519e218
