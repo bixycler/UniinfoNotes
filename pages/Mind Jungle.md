@@ -1551,7 +1551,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  id:: 684f9517-30d7-40e6-b93f-3386123e381c
 			- ### intentional cause
 			  id:: 677e76ed-b324-4608-b146-90e8fcfa0c32
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((677e76ed-b324-4608-b146-90e8fcfa0c32)) = ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)) = the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) of the ((667c0031-0a87-44c9-9e98-6d45893b095f)) =  [the horizon](((67445223-9459-4aa9-b102-70c63943577b)))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((677e76ed-b324-4608-b146-90e8fcfa0c32)) is the ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)) of the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) of the ((667c0031-0a87-44c9-9e98-6d45893b095f)). As the first cause (source), it's the operator driving the effect flow, and as the final cause (sink), it's the observer qualifying the ((669a1bec-3347-4915-83e4-dcffc4d482d1)) of the effect circle.
 					- Diagram
 					  collapsed:: true
 						- ![OuroborosTrinion](https://docs.google.com/drawings/d/e/2PACX-1vRqW5erSVHBkU5Zbt-UntR9Yo-49Dx9C58evxiLUTsdPOYCPLEppLbk6nXsjaPcJvtklBwqHel-5pVw/pub?w=300)
