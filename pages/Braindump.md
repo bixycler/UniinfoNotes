@@ -757,13 +757,17 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  collapsed:: true
 			- 1.1. The $\exp()$ function arises from the first order: Applying the definition of differential to the equation, we directly get the result function to be a limit of repeated multiplication, i.e. [exponentiation](https://en.wikipedia.org/wiki/Exponentiation).
 				- $df(x) = f(x+dx) - f(x) = λ⋅f(x)⋅dx$
-				- $f(x+dx) = f(x) + f(x)⋅λ⋅dx = (1 + λ⋅dx)f(x)$
+				- we can factorize $f(x)$ out
+				  $f(x+dx) = f(x) + f(x)⋅λ⋅dx = (1 + λ⋅dx)f(x)$
 				- $f(x) = (1 + λ⋅dx)f(x-dx) = (1 + λ⋅dx)^2 f(x-2dx) =...$
 				  $= (1 + λ⋅dx)^{x/dx} f(0)$
-				- Let $ε = dx$, $N = x/ε$, $M = 1/ε = x⋅N$, and $I = f(0)$ we have
+				- Let $ε = dx$, $M = 1/ε$, $N = x/ε = x⋅M$, and $I = f(0)$ we have
 				  $f(x) = I \exp(λ⋅x)$ 
 				  $:= I⋅ \lim_{ε→0}(1 + λ⋅ε)^{x/ε} = I⋅ (\lim_{ε→0}(1 + λ⋅ε)^{1/ε})^x$ 
 				  $= I⋅ \lim_{N→∞}(1 + {λ⋅x/N})^N = I⋅ (\lim_{M→∞}(1 + {λ⋅1/M})^M)^x$
+				- The $x$-independent limit is the [natural base of exponential](https://en.wikipedia.org/wiki/E_(mathematical_constant)) (Euler's number)
+				  $e = \lim_{ε→0}(1 + λ⋅ε)^{1/ε} = \lim_{M→∞}(1 + λ/M)^M$
+				-
 			- 4.1. The negative unit $-1$ arises from the second order:
 			- 4.2. The imaginary unit $i$ and $\sin()$ function arise from the fourth order:
 		- TODO Update [Unitorus](https://www.youtube.com/watch?v=7OR_6L2zyHE)
