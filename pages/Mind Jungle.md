@@ -1650,7 +1650,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- The external knowledge circle is the lowest circle in the tower of effect circles, under all active intents.
 					- The first cause is also the final cause – unified in the intentional cause
 					  collapsed:: true
-						- I don't use the term “final cause” (like Aristotle) because [the goal is the horizon](((67445223-9459-4aa9-b102-70c63943577b))):
+						- I don't use the term “final cause” like Aristotle because [the goal is the horizon](((67445223-9459-4aa9-b102-70c63943577b))):
 							- 1) _in a single circle_, it's both the first (as the seed), and the last (as the purpose), and
 							- 2) throughout the never ending cycle of effect, it will never be “final”.
 						- At first, as a seed, the intent gives rise to the whole tree, i.e. ((66c810a0-9861-4787-bdcf-1378219332be)) of karma.
