@@ -1104,7 +1104,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Each quantum is a phase circle storing datum for the corresponding qualiton: $x, y, z, ...$
 						- These phase circles concatenate to form the ((66ab75a1-f4a0-4bab-a002-8e573546623a)), and they ((687743fd-9d45-45be-b9fd-3055cbb8a938)) together to spin self threads.
 						- Some phase circles links together to form ((667c0031-0a87-44c9-9e98-6d45893b095f))s driven by the diff/error in that circle to reach the balance/round form.
-						- Uninet is built upon the basic cells of effect circles called ((671e1608-1350-4e87-99b6-5492cc6fb449)).
+							- These effect circles are the cells of uninet, called ((671e1608-1350-4e87-99b6-5492cc6fb449)).
 						- Compared to [gradient descent](https://en.wikipedia.org/wiki/Gradient_descent): $\dot{x} = −∇V(x)$
 							- No predefined landscape/potential $V$ is required in unitnet, i.e. “background-independent” like General Relativity.
 					- Time = head-to-tail continuation = addition of arrows = quantum-wise addition
@@ -1194,8 +1194,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  CLOCK: [2024-06-11 Tue 10:50:54]
 			  CLOCK: [2024-09-13 Fri 15:34:45]
 			  :END:
-			  “Balance is the ((677e76ed-b324-4608-b146-90e8fcfa0c32)) of all forces.”
+			  “(Im)Balance is the ((677e76ed-b324-4608-b146-90e8fcfa0c32)) of all forces.”
 				- All forces are caused by the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) to cancel its imbalance, hence **restoring forces**.
+				- Intentional cause: imbalance is the first cause (op), and balance is the final cause (ob).
 				- This is the generalized version of the [law of entropy](https://en.wikipedia.org/wiki/Second_law_of_thermodynamics#Direction_of_spontaneous_processes).
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- ((66960ee2-d6dd-404b-a9d0-96340fce3cd2))
