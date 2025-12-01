@@ -1091,7 +1091,26 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  ((66e40f4b-34ae-499a-8192-0a0f4f580c7e)) > ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe)) > ((66e40f75-0573-484e-8cb6-b6b8071ffb8c))
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8))
 				- Diagram
+				  collapsed:: true
 					- ![Levels of The Equal](https://docs.google.com/drawings/d/1ydOhAuBugiOYYoBHLJ5Z6-pQViKL1-GXKgFWLSbE9Sc/pub?w=800)
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- uninet: quantum → time → space → self
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2025-12-01 Mon 10:22:02]
+				  :END:
+					- Each quantum is a phase circle storing datum for the corresponding qualiton: x, y, z, ...
+					- Time = head-to-tail continuation = addition of arrows = quantum-wise addition
+						- Point equality: magnitude is relative and scalable, only order (relation) between points on thread conserves. (Topo compound thread)
+						- Quanta are independent from each other
+					- Space = rotation = multiplication of arrows with  attent arrow = projection by view = distortion to form
+						- different views = different products (multiplications)
+						- mass equally: the amount of thread conserves.
+						- in rotation, quanta are linked into a loop (projective compound thread)
+					- Self = round form = exp(x) equals x = maintenance of self-image
+						- Intent/structure equality:
+						- all quanta are linked to weave a compound thread
+						- quantum loop has at least 4 quanta
 			- point equality
 			  id:: 66e40f4b-34ae-499a-8192-0a0f4f580c7e
 			  :LOGBOOK:
@@ -1628,12 +1647,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 67b183f5-1cca-4473-917e-60c644dd5466
 			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((67bd7811-ce55-402f-8fb2-08b59fb271c9))
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67b183f5-1cca-4473-917e-60c644dd5466)) is the ((667c0031-0a87-44c9-9e98-6d45893b095f)) of cycling around the ((67bd787d-4b28-42a0-a7b6-ba4bd60e5523)).
-				- Circle: distribution (position) → density (yank) → [curvature = force](((67b5c77d-c42c-4dc5-8d47-fd82f535177a))) → momentum → position (distribution) → ...
+				- Circle: distribution (positions of masses) → density (yank) → [curvature = force](((67b5c77d-c42c-4dc5-8d47-fd82f535177a))) → momentum → position → distribution
 					- ((67b183f5-dba7-4a11-8a72-3c619e3709ea))
-					- view cone of space differential up ->
-					- action cone of time integration down ->
-					- effect cone of wave in the world at the base of the pyramid
 					- The circle is composed of 2 arrows, [view cone](((684f9517-c0d3-48cb-bf23-3d71963551e5))) + [effect cone](((684f9517-b417-47da-ab50-38f625511e9d))), hence just the ((6851578b-9b1f-4367-878f-79b0b0b9be51)) wrapped around, like the Ouroboros and the taijitu ☯️ (☯).
+						- view cone of space differential up →
+						- action cone of time integration down →
+						- effect cone of wave in the world at the base of the pyramid
 				- ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)): spatial distribution → density → curvature
 				  id:: 684f9517-c0d3-48cb-bf23-3d71963551e5
 					- This is the characteristic of waves, plants, networks.

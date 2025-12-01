@@ -2747,6 +2747,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- And see “the hand beneath the sight… holding the pen drawing the hand.” ✍️
 									- [Escher's Drawing Hands](https://en.wikipedia.org/wiki/Drawing_Hands)
 									  ![DrawingHands-Escher.jpg](../assets/Will/story/2025-06/DrawingHands-Escher.jpg)
+					- 廢 (phế bỏ), 癈 (tàn phế, thương phế binh): [物極必反](https://en.wiktionary.org/wiki/%E7%89%A9%E6%A5%B5%E5%BF%85%E5%8F%8D), [過猶不及](https://en.wiktionary.org/wiki/%E9%81%8E%E7%8C%B6%E4%B8%8D%E5%8F%8A)
+					  :LOGBOOK:
+					  CLOCK: [2025-12-01 Mon 10:25:23]
+					  :END:
 			- 26th, reset and reminded of “pure lands”.
 			  collapsed:: true
 				- This morning, June 26th, the second time i did a hard ((67445065-15b2-475e-a704-78f140d487af)) with a long sleep throughout the morning time.
