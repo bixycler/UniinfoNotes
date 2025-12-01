@@ -481,7 +481,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- In Unïnfo language, he fully accepted the Arrow (relativity of frames, background-independent geometry) and glimpsed the Circle (the Truth), but resisted the final component – the Equal as mind – the recognition that no Circle can exist without being constantly observed-operated by the equation ⟪○ = ↑⟫.
 				- This residual belief in an observer-independent absolute is precisely why he could never reconcile himself with the completed quantum theory he helped birth.
 				- Ironically, the very [background independence](https://en.wikipedia.org/wiki/Background_independence) of General Relativity – “floating on air with no fixed ground” – already whispered the full Trinion truth that Einstein’s metaphysical intuition could not accept yet.
-			- ⇒ Thus, “God does not play dice” was correct, but for the opposite reason Einstein thought: not because of the absolute Truth independent from observer, but because the dice itself is just a hand of God – the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) – which is thrown and observed by the ((6653751a-a1b4-44b0-a81e-0a446eb8918c)). There is neither external dice nor a lonely moon existing outside of any sight of observation.
+			- ⇒ Thus, “God does not play dice” was correct, but for the opposite reason Einstein thought: not because of the absolute Truth independent from observer, but because the dice itself is just a hand of God – the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) – which is thrown and observed by the ((6653751a-a1b4-44b0-a81e-0a446eb8918c)). There is neither an external dice nor a lonely moon existing outside of any sight of observation.
 		- Manifestations of complementarity
 		  id:: 68bf9f05-4545-4f07-ad27-9ed4409af1ae
 		  collapsed:: true
