@@ -1655,7 +1655,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- 2) throughout the never ending cycle of effect, it will never be “final”.
 						- At first, as a seed, the intent gives rise to the whole tree, i.e. ((66c810a0-9861-4787-bdcf-1378219332be)) of karma.
 						- At last, the fruits are selected by the intent to satisfy the criteria of the purpose.
-						- The statement that “the first cause sounds also the final cause” is similar to [Anquinas' 5th Way](https://en.wikipedia.org/wiki/Five_Ways_(Aquinas)#Fifth_way:_Argument_from_Final_Cause_or_Ends)
+						- The statement that “the first cause is also the final cause” is similar to [Anquinas' 5th Way](https://en.wikipedia.org/wiki/Five_Ways_(Aquinas)#Fifth_way:_Argument_from_Final_Cause_or_Ends), but for the immanent God – the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) – instead of a transcendent God.
 		-
 	- ## dynamics
 	  id:: 69291b2c-dda9-4877-bf3e-7e84a519e218
