@@ -1538,48 +1538,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 667c0031-0a87-44c9-9e98-6d45893b095f
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf36a-581a-4abe-b544-2d849608a3e4))
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bf36a-581a-4abe-b544-2d849608a3e4)) is an ((667bef22-b272-4a7d-b613-3f1ed1a47329)) whose sink is viewed as coinciding with its source, and both are represented by the ((677e76ed-b324-4608-b146-90e8fcfa0c32)).
-				- ((667bf36a-581a-4abe-b544-2d849608a3e4)) is the characteristic of [cybernetics](https://en.wikipedia.org/wiki/Cybernetics).
-			- ### change
-			  id:: 667c008f-cd1f-4a6b-a9c8-d6efa1d8d342
-			  collapsed:: true
-			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((667bff0e-d45d-4d41-8683-51c3cf76c0bc))
-				- self-effect
-				  id:: 667bff0e-d45d-4d41-8683-51c3cf76c0bc
-				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342))
-					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)) is a [turn](https://en.wikipedia.org/wiki/Turn_(angle)) in the ((667bf36a-581a-4abe-b544-2d849608a3e4)).
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) is the being's difference from its ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), hence a ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)), as shown in the ((6858b355-fba9-4e61-9f16-bc993a3df44b)). In particular, the change of an object $O$ (in time, space, spacetime, or configuration space) from position $A$ to position $B$ is the difference between $O$ at $A$ and $O$ at $B$, i.e. $O_B - O_A$. The change of ((665ca429-84e3-49ff-921e-c07d19cd99ba)) is ((669a58b9-eb34-41cd-8605-02e29b07e1b5)).
-				  id:: 684f9517-30d7-40e6-b93f-3386123e381c
-			- ### intentional cause
-			  id:: 677e76ed-b324-4608-b146-90e8fcfa0c32
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((677e76ed-b324-4608-b146-90e8fcfa0c32)) is the ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)) of the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) of the ((667c0031-0a87-44c9-9e98-6d45893b095f)). As the first cause (source), it's the operator driving the effect flow, and as the final cause (sink), it's the observer qualifying the ((669a1bec-3347-4915-83e4-dcffc4d482d1)) of the effect circle.
-					- Diagram
-					  collapsed:: true
-						- ![OuroborosTrinion](https://docs.google.com/drawings/d/e/2PACX-1vRqW5erSVHBkU5Zbt-UntR9Yo-49Dx9C58evxiLUTsdPOYCPLEppLbk6nXsjaPcJvtklBwqHel-5pVw/pub?w=300)
-				- ((66725725-f76a-4328-b162-f469b87e871b))
-					- Physics: Potential gradient: voltage, pressure, mass–energy curvature, chemical potential, temperature gradient
-					- Error signal in control theory & cybernetics, prediction error in neuroscience
-					- Uncertainty & information gap in Information theory & computation, [loss function](https://en.wikipedia.org/wiki/Loss_function) in ANN
-				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-					- ((677e76ed-b324-4608-b146-90e8fcfa0c32)) in knowledge circle = intent (know-why) = arrow returning to the root obop = qualifier = verifier = complement of the result/answer of the problem/question (know-where, know-what, formal cause)
-					  id:: 68a7e246-8407-4e89-b393-912db172e4fe
-					  collapsed:: true
-					  :LOGBOOK:
-					  CLOCK: [2025-08-17 Sun 20:22:03]
-					  :END:
-						- First cause: The problem/question is the gap in the circle, the absence of the result/answer.
-							- This absence breaks the circle, leading to the urge to heal it, to make it complete by finding solution/answer.
-						- View cone projects the process of resolution (quest, solving, working out, reasoning, proof, derivation, exploration, etc.), i.e. know-how (efficient cause), to the result/answer (know-where, know-what, formal cause).
-						- Final cause: The verification/qualification of the solution/answer closes the effect circle.
-							- ((6667c99a-792f-4230-9fc6-c5fae874daef)): As long as there's still gaps, mismatch, imbalance, unknown, inequality, and so on, there's still motion – transition of effect circle – toward balance, the final target.
-							- The “final cause” in [4 causes by Aristotle](https://en.wikipedia.org/wiki/Four_causes) corresponds to this half of the intentional cause.
-						- ⇒ The intentional cause is “final” in the ((667bda02-8dc9-488e-ba16-ea75c3d7895c)), but “first” in the ((667bd93a-cce4-4dbf-9831-725e4dffe463)).
-						- The external knowledge circle is the lowest circle in the tower of effect circles, under all active intents.
-					- I don't use the term “final cause” (like Aristotle) because [the goal is the horizon](((67445223-9459-4aa9-b102-70c63943577b))):
-					  collapsed:: true
-					  1) _in a single circle_, it's both the first (as the seed), and the last (as the purpose), and 
-					  2) throughout the never ending cycle of effect, it will never be “final”.
-						- At first, as a seed, the intent gives rise to the whole tree, i.e. ((66c810a0-9861-4787-bdcf-1378219332be)) of karma.
-						- At last, the fruits are selected by the intent to satisfy the criteria of the purpose.
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- The ((667c0031-0a87-44c9-9e98-6d45893b095f)) in space generates the ((667d15b7-6364-49a9-ac58-c64d2a992b63)) in ((68fa164e-ef0e-4010-937d-ad9e0459f5f2)), i.e. ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)). That time arrow extends the space into a meta-space, a.k.a. [spacetime](https://en.wikipedia.org/wiki/Spacetime). This extension can be continued to extend any (meta-)space to infinity.
 				  id:: 667c001e-83b9-4de5-bf81-1c71898340a2
@@ -1643,7 +1601,50 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- circular effect flow = circular causality = circular determinism = interdependency = interfusion = interpenetration = dependent origination
 				  id:: 68f5a6d2-8148-4975-b3cb-799fe37a3d72
 					- This circular dependency is shown by the spirorus which is the structure of spacetime.
+				- ((667bf36a-581a-4abe-b544-2d849608a3e4)) is the characteristic of [cybernetics](https://en.wikipedia.org/wiki/Cybernetics).
 				-
+			- ### change
+			  id:: 667c008f-cd1f-4a6b-a9c8-d6efa1d8d342
+			  collapsed:: true
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((667bff0e-d45d-4d41-8683-51c3cf76c0bc))
+				- self-effect
+				  id:: 667bff0e-d45d-4d41-8683-51c3cf76c0bc
+				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342))
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)) is a [turn](https://en.wikipedia.org/wiki/Turn_(angle)) in the ((667bf36a-581a-4abe-b544-2d849608a3e4)).
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) is the being's difference from its ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), hence a ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)), as shown in the ((6858b355-fba9-4e61-9f16-bc993a3df44b)). In particular, the change of an object $O$ (in time, space, spacetime, or configuration space) from position $A$ to position $B$ is the difference between $O$ at $A$ and $O$ at $B$, i.e. $O_B - O_A$. The change of ((665ca429-84e3-49ff-921e-c07d19cd99ba)) is ((669a58b9-eb34-41cd-8605-02e29b07e1b5)).
+				  id:: 684f9517-30d7-40e6-b93f-3386123e381c
+			- ### intentional cause
+			  id:: 677e76ed-b324-4608-b146-90e8fcfa0c32
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((677e76ed-b324-4608-b146-90e8fcfa0c32)) is the ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)) of the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) of the ((667c0031-0a87-44c9-9e98-6d45893b095f)). As the first cause (source), it's the operator driving the effect flow, and as the final cause (sink), it's the observer qualifying the ((669a1bec-3347-4915-83e4-dcffc4d482d1)) of the effect circle.
+					- Diagram
+					  collapsed:: true
+						- ![OuroborosTrinion](https://docs.google.com/drawings/d/e/2PACX-1vRqW5erSVHBkU5Zbt-UntR9Yo-49Dx9C58evxiLUTsdPOYCPLEppLbk6nXsjaPcJvtklBwqHel-5pVw/pub?w=300)
+				- ((66725725-f76a-4328-b162-f469b87e871b))
+					- Physics: Potential gradient: voltage, pressure, mass–energy curvature, chemical potential, temperature gradient
+					- Error signal in control theory & cybernetics, prediction error in neuroscience
+					- Uncertainty & information gap in Information theory & computation, [loss function](https://en.wikipedia.org/wiki/Loss_function) in [machine learning]()
+					- Conflict in [dialectics](https://en.wikipedia.org/wiki/Dialectic) of [homeostasis](https://en.wikipedia.org/wiki/Homeostasis), personal growth, social and organizational evolution
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- ((677e76ed-b324-4608-b146-90e8fcfa0c32)) in knowledge circle = intent (know-why) = arrow returning to the root obop = qualifier = verifier = complement of the result/answer of the problem/question (know-where, know-what, formal cause)
+					  id:: 68a7e246-8407-4e89-b393-912db172e4fe
+					  collapsed:: true
+					  :LOGBOOK:
+					  CLOCK: [2025-08-17 Sun 20:22:03]
+					  :END:
+						- First cause: The problem/question is the gap in the circle, the absence of the result/answer.
+							- This absence breaks the circle, leading to the urge to heal it, to make it complete by finding solution/answer.
+						- View cone projects the process of resolution (quest, solving, working out, reasoning, proof, derivation, exploration, etc.), i.e. know-how (efficient cause), to the result/answer (know-where, know-what, formal cause).
+						- Final cause: The verification/qualification of the solution/answer closes the effect circle.
+							- ((6667c99a-792f-4230-9fc6-c5fae874daef)): As long as there's still gaps, mismatch, imbalance, unknown, inequality, and so on, there's still motion – transition of effect circle – toward balance, the final target.
+							- The “final cause” in [4 causes by Aristotle](https://en.wikipedia.org/wiki/Four_causes) corresponds to this half of the intentional cause.
+						- ⇒ The intentional cause is “final” in the ((667bda02-8dc9-488e-ba16-ea75c3d7895c)), but “first” in the ((667bd93a-cce4-4dbf-9831-725e4dffe463)).
+						- The external knowledge circle is the lowest circle in the tower of effect circles, under all active intents.
+					- I don't use the term “final cause” (like Aristotle) because [the goal is the horizon](((67445223-9459-4aa9-b102-70c63943577b))):
+					  collapsed:: true
+					  1) _in a single circle_, it's both the first (as the seed), and the last (as the purpose), and 
+					  2) throughout the never ending cycle of effect, it will never be “final”.
+						- At first, as a seed, the intent gives rise to the whole tree, i.e. ((66c810a0-9861-4787-bdcf-1378219332be)) of karma.
+						- At last, the fruits are selected by the intent to satisfy the criteria of the purpose.
 		-
 	- ## dynamics
 	  id:: 69291b2c-dda9-4877-bf3e-7e84a519e218
