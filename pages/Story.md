@@ -5512,7 +5512,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 29-30th, weekends
 			  collapsed:: true
 				- Contemplated the $\exp()$ in ((69292bbb-c2dc-496d-9a04-bb4529407b25)), ((692cf172-d3fe-4390-80fe-52a8c21bd107))
-				-
+				- Proposed to bosses of the company HTV/Airtrip to set up an AI lab for knowledge management.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69085f61-6627-4c0a-a984-c2b5b411a292))

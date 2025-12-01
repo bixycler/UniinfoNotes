@@ -1100,8 +1100,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  :LOGBOOK:
 				  CLOCK: [2025-12-01 Mon 10:22:02]
 				  :END:
-					- Uninet is a field of quanta
-					- Each quantum is a phase circle storing datum for the corresponding qualiton: x, y, z, ...
+					- Uninet is a field of quanta related together by ((69292bbb-c2dc-496d-9a04-bb4529407b25)).
+						- Each quantum is a phase circle storing datum for the corresponding qualiton: x, y, z, ...
+						- These phase circles are concatenated to form the ((66ab75a1-f4a0-4bab-a002-8e573546623a)), and they ((687743fd-9d45-45be-b9fd-3055cbb8a938)) together to spin self threads.
 					- Time = head-to-tail continuation = addition of arrows = quantum-wise addition
 						- Point equality: magnitude is relative and scalable, only order (relation) between points on thread conserves. (Topo compound thread)
 						- Quanta are independent from each other
