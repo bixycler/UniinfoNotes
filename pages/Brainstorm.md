@@ -168,6 +168,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- intensible ob vs extensible op
 			- programming paradigms have various ways to **extend the op from bottom up**: assignment, statement, function, object, ...
 			- now, uninet gives a way to **intend the ob from top down**: learn from history, take the common path to form new & more intensive intents.
+			  id:: 6926be1c-89bc-45f8-b7f4-b810ec832242
 				- Through the accumulation of traces, the common naturally intensifies, the pattern naturally emerges.
 			- ANN & LLM are opposite to classic program: only learning top down, no bottom up structure, hence baseless.
 			- Refs
