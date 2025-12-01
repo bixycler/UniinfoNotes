@@ -1104,6 +1104,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Each quantum is a phase circle storing datum for the corresponding qualiton: $x, y, z, ...$
 						- These phase circles concatenate to form the ((66ab75a1-f4a0-4bab-a002-8e573546623a)), and they ((687743fd-9d45-45be-b9fd-3055cbb8a938)) together to spin self threads.
 						- Some phase circles links together to form ((667c0031-0a87-44c9-9e98-6d45893b095f))s driven by the diff/error in that circle to reach the balance/round form.
+						- Uninet is built upon the basic cells of effect circles called ((671e1608-1350-4e87-99b6-5492cc6fb449)).
+						- Compared to [gradient descent](https://en.wikipedia.org/wiki/Gradient_descent): $\dot{x} = −∇V(x)$
+							- No predefined landscape/potential $V$ is required in unitnet, i.e. “background-independent” like General Relativity.
 					- Time = head-to-tail continuation = addition of arrows = quantum-wise addition
 						- Point equality: magnitude is relative and scalable, only order (relation) between points on thread conserves. (topo compound thread)
 						- Quanta are independent from each other
