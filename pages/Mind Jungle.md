@@ -1596,6 +1596,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- References
 							- [五智](https://buddhaspace.org/dict/fk/data/%25E4%25BA%2594%25E6%2599%25BA.html)
 				- The κύκλος (cycle, circle) is the form; the κυβερνήτης ([cybernetics](https://en.wikipedia.org/wiki/Cybernetics), steersman) is the agent of that form.
+				  id:: 67bbde62-70fc-4d3d-9f65-dcea280db516
 				  collapsed:: true
 					- Both are about circular motion & turning, and both have the first syllable transformed to "cy" with a very different pronunciation in English.
 					- AI is the runaway child of Cybernetics, the child that fears the dangerous sea of his father, thus sails only in simulation.
@@ -1694,6 +1695,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  collapsed:: true
 					- ![DynamicsPyramid](https://docs.google.com/drawings/d/e/2PACX-1vTZeIjOKk3h-3WXdc-xATjDF3YQsr2p0J1iwfFvBtIblsL-jg9aoILR7wiyYUDqXSg8-h3h94owrCFz/pub?w=1000)
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From [physical dynamics](https://en.wikipedia.org/wiki/Dynamics_(mechanics)), [physical quantities](https://en.wikipedia.org/wiki/Physical_quantity) are arranged into the ((67bd787d-4b28-42a0-a7b6-ba4bd60e5523)).
+			  collapsed:: true
 		- ### Circle Dynamic
 		  id:: 67bd3614-2520-4a5d-8b3f-44f60901844e
 		  collapsed:: true
@@ -1721,7 +1723,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Extensional view: particle moving in spacetime: V is tangent vector of A state space in direction $d(V)$, i.e. V(A) is the tendency of A's transition in direction $d(V)$. Path A(0) -> A(t) is the projection of tangent vector V t onto state space. Circle is a basic tangent space.
 					- Intensional view: wave of threads weaving network in body:...
 			- The [roots of unity](https://en.wikipedia.org/wiki/Root_of_unity) and $n$-th unit $j_n$ (like “negativity” $j_2 = -1$, and “imaginarity” $j_4 = i$) are derived from the $n$-th order ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)) differential equation $f^{(n)} = f$.
-			  id:: 67bbde62-70fc-4d3d-9f65-dcea280db516
 				- Let $j_n$ be the $n$^{th} unit arising from $n$^{th} order self-effect.
 				- The $\exp()$ function arises from the first order: $f' = f ⇒ j_1 = \sqrt[1]{1} = 1$.
 				- The negative unit $-1$ arises from the second order: $f'' = f ⇒ j_2 = \sqrt[2]{1} = -1$.
