@@ -1653,20 +1653,18 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Circle: distribution (positions of masses) → density (yank) → [curvature = force](((67b5c77d-c42c-4dc5-8d47-fd82f535177a))) → momentum → position → distribution
 					- ((67b183f5-dba7-4a11-8a72-3c619e3709ea))
 					- The circle is composed of 2 arrows, [view cone](((684f9517-c0d3-48cb-bf23-3d71963551e5))) + [effect cone](((684f9517-b417-47da-ab50-38f625511e9d))), hence just the ((6851578b-9b1f-4367-878f-79b0b0b9be51)) wrapped around, like the Ouroboros and the taijitu ☯️ (☯).
-						- view cone of space differential up to the apex “curvature = force” →
-						- action cone of time integration down →
-						- effect cone of wave in the world at the base of the pyramid, from indiviual particles to the whole field →
 				- ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)): spatial distribution → density → curvature
 				  id:: 684f9517-c0d3-48cb-bf23-3d71963551e5
 					- This is the characteristic of waves, plants, networks.
-					- Observing mechanism: differentiation in space
+					- Observing mechanism: differentiation in space up the Dynamics Pyramid
 				- [Obop](((94e87dc9-71af-477c-aa70-0f448c2f1e20))) point: ((67b5c77d-c42c-4dc5-8d47-fd82f535177a)) is the [wave equation](https://en.wikipedia.org/wiki/Wave_equation) established based on the ((67bd3614-2520-4a5d-8b3f-44f60901844e)).
 					- This equation operates the body and express
-				- ((667bd93a-cce4-4dbf-9831-725e4dffe463)): force (mass acceleration) → momentum (mass velocity) → point mass (mass position)
+				- ((6847e436-9a84-42c5-a853-75f6d626ed63)): force (mass acceleration) → momentum (mass velocity) → point mass (mass position)
 				  id:: 684f9517-b417-47da-ab50-38f625511e9d
 					- This is the characteristic of particles, animals.
-					- Operating mechanism: integration over time
+					- Operating mechanism: integration over time down the Dynamics Pyramid
 					- ((6847e436-9a84-42c5-a853-75f6d626ed63)): The motion of the particle is action, thus the action cone includes force → momentum, and its effect is the position.
+				- ((667bd93a-cce4-4dbf-9831-725e4dffe463)): wave in the world at the base of the pyramid, from indiviual particles to the whole field, closing the ((6909a3ff-8c16-4222-967a-f019759ca65c)).
 				- Universe: spatial distribution = distribution of point masses = energy field = wave field
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				-
