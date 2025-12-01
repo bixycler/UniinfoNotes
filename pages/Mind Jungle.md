@@ -1106,7 +1106,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Some phase circles links together to form ((667c0031-0a87-44c9-9e98-6d45893b095f))s driven by the diff/error in that circle to reach the balance/round form.
 							- These effect circles are the cells of uninet, called ((671e1608-1350-4e87-99b6-5492cc6fb449)).
 						- Compared to [gradient descent](https://en.wikipedia.org/wiki/Gradient_descent): $\dot{x} = −∇V(x)$
-							- No predefined landscape/potential $V$ is required in unitnet, i.e. “background-independent” like General Relativity.
+							- No predefined potential landscape $V$ is required in unitnet, i.e. “background-independent” like General Relativity.
+							- Unlike predefined [loss function](https://en.wikipedia.org/wiki/Loss_function) in [machine learning](https://en.wikipedia.org/wiki/Machine_learning), the intentional cause of autonoton emerges through learning: ((68df309b-c3e7-4121-895c-9c74d2359646)) → ((68df2ff2-cd0a-45e0-9309-969e0493404b)).
 					- Time = head-to-tail continuation = addition of arrows = quantum-wise addition
 						- Point equality: magnitude is relative and scalable, only order (relation) between points on thread conserves. (topo compound thread)
 						- Quanta are independent from each other
