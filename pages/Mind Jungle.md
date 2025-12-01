@@ -1568,10 +1568,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  :LOGBOOK:
 					  CLOCK: [2025-08-17 Sun 20:22:03]
 					  :END:
-						- Problem/question is the absence of the result/answer.
+						- First cause: problem/question is the gap in the circle, the absence of the result/answer.
 							- This absence breaks the circle, leading to the urge to heal it, to make it complete by finding solution/answer.
 						- View cone projects the process of resolution (quest, solving, working out, reasoning, proof, derivation, exploration, etc.), i.e. know-how (efficient cause), to the result/answer (know-where, know-what, formal cause).
-						- The intentional cause is “final” in the cause cone, but “first” in the effect cone.
+						- Final cause: The effect circle
+						- ⇒ The intentional cause is “final” in the ((667bda02-8dc9-488e-ba16-ea75c3d7895c)), but “first” in the ((667bd93a-cce4-4dbf-9831-725e4dffe463)).
 						- The external knowledge circle is the lowest circle in the tower of effect circles, under all active intents.
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- The ((667c0031-0a87-44c9-9e98-6d45893b095f)) in space generates the ((667d15b7-6364-49a9-ac58-c64d2a992b63)) in ((68fa164e-ef0e-4010-937d-ad9e0459f5f2)), i.e. ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)). That time arrow extends the space into a meta-space, a.k.a. [spacetime](https://en.wikipedia.org/wiki/Spacetime). This extension can be continued to extend any (meta-)space to infinity.
