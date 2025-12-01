@@ -5509,6 +5509,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Write this note with the help of Google Search AI Mode: ((692818bf-7a44-4804-b444-1bdb45e3ddb4))
 				- Satyagraha (truth force) by the principle of [means = ends](https://en.wikipedia.org/wiki/Satyagraha#Means_and_ends) by [Mahatma Gandhi](https://en.wikipedia.org/wiki/Mahatma_Gandhi)
 					- This resonates with my approach which avoids abusing means and prefers a direct path toward the end.
+			- 29-30th, weekends
+			  collapsed:: true
+				- Contemplated the $\exp()$ in ((69292bbb-c2dc-496d-9a04-bb4529407b25)), ((692cf172-d3fe-4390-80fe-52a8c21bd107))
+				-
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69085f61-6627-4c0a-a984-c2b5b411a292))

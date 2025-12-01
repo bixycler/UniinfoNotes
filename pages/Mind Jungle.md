@@ -1095,10 +1095,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- ![Levels of The Equal](https://docs.google.com/drawings/d/1ydOhAuBugiOYYoBHLJ5Z6-pQViKL1-GXKgFWLSbE9Sc/pub?w=800)
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- uninet: quantum → time → space → self
+				  id:: 692cf172-d3fe-4390-80fe-52a8c21bd107
 				  collapsed:: true
 				  :LOGBOOK:
 				  CLOCK: [2025-12-01 Mon 10:22:02]
 				  :END:
+					- Uninet is a field of quanta
 					- Each quantum is a phase circle storing datum for the corresponding qualiton: x, y, z, ...
 					- Time = head-to-tail continuation = addition of arrows = quantum-wise addition
 						- Point equality: magnitude is relative and scalable, only order (relation) between points on thread conserves. (Topo compound thread)
@@ -1702,7 +1704,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  $A(t) = [(1 + V dt)^{t/dt}](A(0)) = \exp(V t)(A(0))$
 					- Philosopher view cone (meta), power set, simplices: $V = dt = 1 => P(S) = (1+1)^S$
 					- Binomial power $(1 + x)^n$
-					- Extensional view: particle moving in spacetime: V is tangent vector of A state space in direction $d(V)$, i.e. V(A) is the tendency of A's transition in the flow of direction $d(V)$. Path A(0) -> A(t) is the projection of tangent vector V t onto state space. Circle is a basic tangent space.
+					- Extensional view: particle moving in spacetime: V is tangent vector of A state space in direction $d(V)$, i.e. V(A) is the tendency of A's transition in direction $d(V)$. Path A(0) -> A(t) is the projection of tangent vector V t onto state space. Circle is a basic tangent space.
 					- Intensional view: wave of threads weaving network in body:...
 			- The [roots of unity](https://en.wikipedia.org/wiki/Root_of_unity) and $n$-th unit $j_n$ (like “negativity” $j_2 = -1$, and “imaginarity” $j_4 = i$) are derived from the $n$-th order ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)) differential equation $f^{(n)} = f$.
 			  id:: 67bbde62-70fc-4d3d-9f65-dcea280db516
