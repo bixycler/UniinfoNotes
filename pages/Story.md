@@ -2747,7 +2747,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- And see “the hand beneath the sight… holding the pen drawing the hand.” ✍️
 									- [Escher's Drawing Hands](https://en.wikipedia.org/wiki/Drawing_Hands)
 									  ![DrawingHands-Escher.jpg](../assets/Will/story/2025-06/DrawingHands-Escher.jpg)
-					- 廢 (phế bỏ), 癈 (tàn phế, thương phế binh): [物極必反](https://en.wiktionary.org/wiki/%E7%89%A9%E6%A5%B5%E5%BF%85%E5%8F%8D), [過猶不及](https://en.wiktionary.org/wiki/%E9%81%8E%E7%8C%B6%E4%B8%8D%E5%8F%8A)
+					- 廢 (phế bỏ), 癈 (tàn phế, thương phế binh): [物極必反](https://en.wiktionary.org/wiki/%E7%89%A9%E6%A5%B5%E5%BF%85%E5%8F%8D) (vật cực tất phản, thái quá tất phản), [過猶不及](https://en.wiktionary.org/wiki/%E9%81%8E%E7%8C%B6%E4%B8%8D%E5%8F%8A)
 					  :LOGBOOK:
 					  CLOCK: [2025-12-01 Mon 10:25:23]
 					  :END:
@@ -5507,6 +5507,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  collapsed:: true
 						- ![Dynamics: The Geometry of Behavior](../assets/Will/story/2025-11/Dynamics - The Geometry of Behavior.cover.jpg){:width 400}
 				- Write this note with the help of Google Search AI Mode: ((692818bf-7a44-4804-b444-1bdb45e3ddb4))
+				- Satyagraha (truth force) by the principle of [means = ends](https://en.wikipedia.org/wiki/Satyagraha#Means_and_ends) by [Mahatma Gandhi](https://en.wikipedia.org/wiki/Mahatma_Gandhi)
+					- This resonates with my approach which avoids abusing means and prefers a direct path toward the end.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69085f61-6627-4c0a-a984-c2b5b411a292))

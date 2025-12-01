@@ -1688,7 +1688,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  :LOGBOOK:
 		  CLOCK: [2025-11-28 Fri 11:57:58]
 		  :END:
-			- `exp()`, the [eigenfunction](https://en.wikipedia.org/wiki/Eigenfunction) of linear differential operator, is the basic ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)).
+			- $\exp()$, the [eigenfunction](https://en.wikipedia.org/wiki/Eigenfunction) of linear differential operator, is the basic ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)).
 			  collapsed:: true
 				- DE: $d f(x) = f(x) dx$
 				- The micro image projected from the macro world is the driving force of the body.
@@ -1696,7 +1696,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Ob: $d$ (diff); op: `+=` (accumulation, cumulative sum) $(1 + d)$
 				- Viewcone: the extent $f(x)$ at the base is projected by $dx$ to the image $d f(x)$ at the apex.
 				- Dynamic circle: $f(x)$ ⤚[view]→ $d f(x) = f(x) dx$ ⤚[accum]→ $f(x)$
-				- View cone = 1-to-all relation $v(A) = V(A)dt$: its accumulation A `+=` v(A) = $(1 + v)(A)$ = (self + image)(A) over time becomes exp: $A(t) = [(1 + V dt)^{t/dt}](A(0)) = \exp(V t)(A(0))$
+				- View cone = 1-to-all relation $v(A) = V(A)dt$: its accumulation 
+				  A `+=` v(A) = $(1 + v)(A)$ = (self + image)(A) 
+				  over time becomes $\exp()$: 
+				  $A(t) = [(1 + V dt)^{t/dt}](A(0)) = \exp(V t)(A(0))$
 					- Philosopher view cone (meta), power set, simplices: $V = dt = 1 => P(S) = (1+1)^S$
 					- Binomial power $(1 + x)^n$
 					- Extensional view: particle moving in spacetime: V is tangent vector of A state space in direction $d(V)$, i.e. V(A) is the tendency of A's transition in the flow of direction $d(V)$. Path A(0) -> A(t) is the projection of tangent vector V t onto state space. Circle is a basic tangent space.

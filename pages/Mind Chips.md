@@ -1,3 +1,0 @@
-- Satyagraha (truth force) by the principle of [means = ends](https://en.wikipedia.org/wiki/Satyagraha#Means_and_ends)
-- ---
--
