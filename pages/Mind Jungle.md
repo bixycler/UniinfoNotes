@@ -1551,29 +1551,31 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  id:: 684f9517-30d7-40e6-b93f-3386123e381c
 			- ### intentional cause
 			  id:: 677e76ed-b324-4608-b146-90e8fcfa0c32
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((677e76ed-b324-4608-b146-90e8fcfa0c32)) = ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)) = the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) of the ((667c0031-0a87-44c9-9e98-6d45893b095f)) = “final cause” in [4 causes by Aristotle](https://en.wikipedia.org/wiki/Four_causes) = [the horizon](((67445223-9459-4aa9-b102-70c63943577b)))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((677e76ed-b324-4608-b146-90e8fcfa0c32)) = ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)) = the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) of the ((667c0031-0a87-44c9-9e98-6d45893b095f)) =  [the horizon](((67445223-9459-4aa9-b102-70c63943577b)))
 					- Diagram
 					  collapsed:: true
 						- ![OuroborosTrinion](https://docs.google.com/drawings/d/e/2PACX-1vRqW5erSVHBkU5Zbt-UntR9Yo-49Dx9C58evxiLUTsdPOYCPLEppLbk6nXsjaPcJvtklBwqHel-5pVw/pub?w=300)
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-					- I don't use the term “final cause” because [the goal is the horizon](((67445223-9459-4aa9-b102-70c63943577b))):
-					  collapsed:: true
-					  1) _in a single circle_, it's both the first (as the seed), and the last (as the purpose), and 
-					  2) throughout the never ending cycle of effect, it will never be “final”.
-						- At first, as a seed, the intent gives rise to the whole tree, i.e. ((66c810a0-9861-4787-bdcf-1378219332be)) of karma.
-						- At last, the fruits are selected by the intent to satisfy the criteria of the purpose.
 					- ((677e76ed-b324-4608-b146-90e8fcfa0c32)) in knowledge circle = intent (know-why) = arrow returning to the root obop = qualifier = verifier = complement of the result/answer of the problem/question (know-where, know-what, formal cause)
 					  id:: 68a7e246-8407-4e89-b393-912db172e4fe
 					  collapsed:: true
 					  :LOGBOOK:
 					  CLOCK: [2025-08-17 Sun 20:22:03]
 					  :END:
-						- First cause: problem/question is the gap in the circle, the absence of the result/answer.
+						- First cause: The problem/question is the gap in the circle, the absence of the result/answer.
 							- This absence breaks the circle, leading to the urge to heal it, to make it complete by finding solution/answer.
 						- View cone projects the process of resolution (quest, solving, working out, reasoning, proof, derivation, exploration, etc.), i.e. know-how (efficient cause), to the result/answer (know-where, know-what, formal cause).
-						- Final cause: The effect circle
+						- Final cause: The verification/qualification of the solution/answer closes the effect circle.
+							- ((6667c99a-792f-4230-9fc6-c5fae874daef)): As long as there's still gaps, mismatch, imbalance, unknown, inequality, and so on, there's still motion – transition of effect circle – toward balance, the final target.
+							- The “final cause” in [4 causes by Aristotle](https://en.wikipedia.org/wiki/Four_causes) corresponds to this half of the intentional cause.
 						- ⇒ The intentional cause is “final” in the ((667bda02-8dc9-488e-ba16-ea75c3d7895c)), but “first” in the ((667bd93a-cce4-4dbf-9831-725e4dffe463)).
 						- The external knowledge circle is the lowest circle in the tower of effect circles, under all active intents.
+					- I don't use the term “final cause” (like Aristotle) because [the goal is the horizon](((67445223-9459-4aa9-b102-70c63943577b))):
+					  collapsed:: true
+					  1) _in a single circle_, it's both the first (as the seed), and the last (as the purpose), and 
+					  2) throughout the never ending cycle of effect, it will never be “final”.
+						- At first, as a seed, the intent gives rise to the whole tree, i.e. ((66c810a0-9861-4787-bdcf-1378219332be)) of karma.
+						- At last, the fruits are selected by the intent to satisfy the criteria of the purpose.
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- The ((667c0031-0a87-44c9-9e98-6d45893b095f)) in space generates the ((667d15b7-6364-49a9-ac58-c64d2a992b63)) in ((68fa164e-ef0e-4010-937d-ad9e0459f5f2)), i.e. ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)). That time arrow extends the space into a meta-space, a.k.a. [spacetime](https://en.wikipedia.org/wiki/Spacetime). This extension can be continued to extend any (meta-)space to infinity.
 				  id:: 667c001e-83b9-4de5-bf81-1c71898340a2
