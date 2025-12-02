@@ -5024,7 +5024,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- no setter call inside effect/memo function, so that no frame is left in call stack (actually empty frames are still left).
 					- test effect circle branching before memo function returns
 					- test diamond effect flow
-		- DOING Back to intent observation
+		- WAIT Back to intent observation
 		  id:: 68dc9f21-1057-4ac0-be4c-61c9010d7f78
 		  collapsed:: true
 		  :LOGBOOK:
@@ -5237,6 +5237,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  CLOCK: [2025-11-03 Mon 14:53:11]
 		  CLOCK: [2025-11-03 Mon 14:53:17]
 		  :END:
+			- ((68dc9f21-1057-4ac0-be4c-61c9010d7f78))
 			- 1st-2nd, weekends ((690b3f49-1419-4dc3-b61b-12890b9e04f9))
 			  collapsed:: true
 				- Vô Danh thần tăng trong [Thiên Long Bát Bộ 2003 - Tập 34](https://youtu.be/2T_v4UjaABE)
@@ -5513,12 +5514,33 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- Contemplated the $\exp()$ in ((69292bbb-c2dc-496d-9a04-bb4529407b25)), ((692cf172-d3fe-4390-80fe-52a8c21bd107))
 				- Proposed to bosses of the company HTV/Airtrip to set up an AI lab for knowledge management.
-			- Dec 1st,...
+		- DOING Cultivate the Balance
+		  id:: 692e5569-b7e9-458e-a3a2-44f7ed57a8f1
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-12-02 Tue 09:57:02]
+		  CLOCK: [2025-12-02 Tue 09:57:40]
+		  :END:
+			- 1st,...
 			  collapsed:: true
 				- The [resonance between the Law of Balance Restoration and Return to God](((692d69f0-ff24-4d71-a95c-2e27ebb28c7d))) reminds me about Einstein's [faith in Spinoza’s God](((6926be1c-1af5-4c9a-9210-b5ebb957391f))) and his mail reply to Phyllis Wright, a sixth-grade girl, about the question [Do Scientists Pray?](https://www.themarginalian.org/2013/07/11/do-scientists-pray-einstein-letter-science-religion/).
+			- 2nd,...
+			  collapsed:: true
+				- About the title “Lord Buddha”
+					- In Sinhala: බුදු රජාණන් වහන්සේ (Budu rajānan wahanse) = Venerable King Buddha
+					- [“Bhagavān”](https://en.wikipedia.org/wiki/Bhagavan) in Indian meaning “wealth owner” or “blessed one” used as title for deities like Vishnu, Shiva, Krishna, Durga, and also for the Buddha
+					- “Phra/Preah/Pha” in Thai/Khmer/Laotian from Pali word “vara” meaning “excellent” or “noble”
+					- In Hinduism, the historical Buddha is sometimes considered the ninth avatar (incarnation) of the Lord Vishnu, hence Lord Buddha.
+					- The better title is “The Exalted Buddha” which preserves the prefix but avoid the problematic monarchical or creator-deity connotations of “Lord”.
+				- Tagore's poems about freedom & harmony
+					- [Gitanjali 28](https://poets.org/poem/gitanjali-28): the inner paradox of wanting freedom while being tied to the very things one wants to escape.
+					- [Free Love](https://allpoetry.com/Free-Love): (unverified attribution to Tagore) The speaker's conventional relationships seek to confine them, while the greater love they experience provides liberation.
+					- [This is my prayer to thee, my lord](https://poetryarchive.org/poem/poem-36-gitanjali/) (Gitanjali 36): themes related to personal strength and freedom from inner failings.
+					- [Gitanjali 2](https://poets.org/poem/gitanjali-2) How artistic and spiritual expression can lead to a profound relationship with the divine, transforming life's discords into harmony, a feeling of freedom and liberation, symbolizing a connection between the earthly and the divine.
+			-
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
+		- ((692e5569-b7e9-458e-a3a2-44f7ed57a8f1))
 		- ((69085f61-6627-4c0a-a984-c2b5b411a292))
-		- ((68dc9f21-1057-4ac0-be4c-61c9010d7f78))
-		  id:: 688c70c8-1772-4007-bdf0-d621db895411
 		- ...
+		  id:: 688c70c8-1772-4007-bdf0-d621db895411
