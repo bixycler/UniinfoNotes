@@ -5540,8 +5540,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 3rd,...
 			  collapsed:: true
 				- How to balance all of these? I don't know!
+				  :LOGBOOK:
+				  CLOCK: [2025-12-02 Tue 10:13:38]
+				  :END:
 					- Everything around is meaningless when the inside is corrupt
-					- People all around seems to be so good, doing so well, that i cannot catch up
+					- People all around seem to be so good, doing so well, that i cannot catch up
+					- What can i do with all the images inside?
+					- Neither can i ignore them, nor can i balance them with requirements out there!
+					- Dumping all my guts in here doesn't make me feel any better...
+					- It doesn't change the requirements out there!
+					- I admit that i'm helpless!
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((692e5569-b7e9-458e-a3a2-44f7ed57a8f1))
