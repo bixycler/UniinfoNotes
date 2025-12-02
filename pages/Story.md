@@ -5537,7 +5537,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- [Free Love](https://allpoetry.com/Free-Love): (unverified attribution to Tagore) The speaker's conventional relationships seek to confine them, while the greater love they experience provides liberation.
 					- [This is my prayer to thee, my lord](https://poetryarchive.org/poem/poem-36-gitanjali/) (Gitanjali 36): themes related to personal strength and freedom from inner failings.
 					- [Gitanjali 2](https://poets.org/poem/gitanjali-2) How artistic and spiritual expression can lead to a profound relationship with the divine, transforming life's discords into harmony, a feeling of freedom and liberation, symbolizing a connection between the earthly and the divine.
-			-
+			- 3rd,...
+			  collapsed:: true
+				- How to balance all of these? I don't know!
+					- Everything around is meaningless when the inside is corrupt
+					- People all around seems to be so good, doing so well, that i cannot catch up
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((692e5569-b7e9-458e-a3a2-44f7ed57a8f1))
