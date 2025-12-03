@@ -5551,7 +5551,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 3rd,...
 			  collapsed:: true
 				- Suffering = clung unpleasantness
-					-
+					- The unpleasantness, even at severe levels like pain and distress, is not suffering when it's not received with **avoidance**, **resistance**, and **aversion**.
+					- Etymologically, “suffer” = sub-ferō = “carry under (one's self)” = hold on
+					- In Stoic philosophy: suffering = pain × resistance
 					- ((6926be27-4548-48b8-9964-c8158919974d))
 					- ((6926be1c-a853-407b-92c7-aba8aaa39194))
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
