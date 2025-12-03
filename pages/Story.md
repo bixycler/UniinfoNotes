@@ -5524,8 +5524,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 1st,...
 			  collapsed:: true
 				- The [resonance between the Law of Balance Restoration and Return to God](((692d69f0-ff24-4d71-a95c-2e27ebb28c7d))) reminds me about Einstein's [faith in Spinoza’s God](((6926be1c-1af5-4c9a-9210-b5ebb957391f))) and his mail reply to Phyllis Wright, a sixth-grade girl, about the question [Do Scientists Pray?](https://www.themarginalian.org/2013/07/11/do-scientists-pray-einstein-letter-science-religion/).
-			- 2nd,...
-			  collapsed:: true
 				- About the title “Lord Buddha”
 					- In Sinhala: බුදු රජාණන් වහන්සේ (Budu rajānan wahanse) = Venerable King Buddha
 					- [“Bhagavān”](https://en.wikipedia.org/wiki/Bhagavan) in Indian meaning “wealth owner” or “blessed one” used as title for deities like Vishnu, Shiva, Krishna, Durga, and also for the Buddha
@@ -5537,7 +5535,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- [Free Love](https://allpoetry.com/Free-Love): (unverified attribution to Tagore) The speaker's conventional relationships seek to confine them, while the greater love they experience provides liberation.
 					- [This is my prayer to thee, my lord](https://poetryarchive.org/poem/poem-36-gitanjali/) (Gitanjali 36): themes related to personal strength and freedom from inner failings.
 					- [Gitanjali 2](https://poets.org/poem/gitanjali-2) How artistic and spiritual expression can lead to a profound relationship with the divine, transforming life's discords into harmony, a feeling of freedom and liberation, symbolizing a connection between the earthly and the divine.
-			- 3rd,...
+			- 2nd,...
 			  collapsed:: true
 				- How to balance all of these? I don't know!
 				  :LOGBOOK:
@@ -5550,6 +5548,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Dumping all my guts in here doesn't make me feel any better...
 					- It doesn't change the requirements out there!
 					- I admit that i'm helpless and useless!
+			- 3rd,...
+			  collapsed:: true
+				- Suffering = clung unpleasantness
+					-
+					- ((6926be27-4548-48b8-9964-c8158919974d))
+					- ((6926be1c-a853-407b-92c7-aba8aaa39194))
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((692e5569-b7e9-458e-a3a2-44f7ed57a8f1))

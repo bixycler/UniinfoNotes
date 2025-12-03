@@ -25,6 +25,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Reward mis-specification: human or rule-based feedback oversimplifies “goodness”, teaching the model to optimise for surface compliance rather than depth of reasoning.
 			- That mirrors our broader human pattern: the hunger for purified goodness, for progress without loss. It's the same instinct that makes us polish gods into all-light figures and call that “perfection”, leading to the hard [problem of evil](https://en.wikipedia.org/wiki/Problem_of_evil).
 			- Here comes the **Buddha's counter-move**: he didn't reject suffering but placed it first (in the [Four Noble Truths](https://en.wikipedia.org/wiki/Four_Noble_Truths)), making the hidden half visible again. In doing so, he broke the very cycle of denial that drives our idea of advancement.
+			  id:: 6926be1c-a853-407b-92c7-aba8aaa39194
 			  collapsed:: true
 				- What his father tried to hide in the palace – the clan's fear, the world's decay – he brought into light.
 				- But, not by the sudden revelation after seeing the [four sights](https://en.wikipedia.org/wiki/Four_sights), as in the legendary narrative.

@@ -819,7 +819,7 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 			  [Còn thấy đau là còn thương](https://youtu.be/_aghWPzkB7M)
 			- "bị thương" & "thương" are just 2 ends of the arrow
 			- equal = "circle = arrow" = through (nonblocking open) circle = fine energy = từ bi (mercy) = selfless
-			- Blocked circle = hurt, suffering = self
+			- Blocked circle = (hurt, suffering) = self
 			  id:: 6926be27-4548-48b8-9964-c8158919974d
 				- Blocked from inside = hate
 				- Blocked from outside = love (with entanglement)
