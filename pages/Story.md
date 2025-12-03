@@ -5552,8 +5552,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- Suffering = clung unpleasantness
 					- The unpleasantness, even at severe levels like pain and distress, is not suffering when it's not received with **avoidance**, **resistance**, and **aversion**.
-					- Etymologically, “suffer” = sub-ferō = “carry under (one's self)” = hold on
+					- Etymologically, “suffer” = sub-ferō = “carry under (one's self)” = hold on, so suffering is characterized by attachment.
 					- In Stoic philosophy: suffering = pain × resistance
+					- Against Hedonic Ideal: Many people seek enlightenment as a pleasant endpoint – a state where only good things happen and everything feels good – which is not the reality and not the true meaning of [Nibbāna](https://en.wikipedia.org/wiki/Nirvana).
+					- Nibbāna, the “cessation of suffering”, is *not the end of pain*, but the _end of the **struggle** against pain_
 					- ((6926be27-4548-48b8-9964-c8158919974d))
 					- ((6926be1c-a853-407b-92c7-aba8aaa39194))
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
