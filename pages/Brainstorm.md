@@ -12,6 +12,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
 		- Suffering = clung unpleasantness
+		  id:: 692fd176-f919-4899-beb2-57ec70791703
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-12-03 Wed 13:24:40]
