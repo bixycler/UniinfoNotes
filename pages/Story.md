@@ -5550,7 +5550,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- I admit that i'm helpless and useless!
 			- 3rd,...
 			  collapsed:: true
-				- I've just been evicted from the current project in the company due to my delays.
+				- I've just been evicted from the current project in the company due to my delays these weeks.
 				- ((692fd176-f919-4899-beb2-57ec70791703))
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
