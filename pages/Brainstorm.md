@@ -23,6 +23,18 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Note: don't confuse this *interactive system design* – the design of interactive system structure – with the [interaction design (IxD)](https://en.wikipedia.org/wiki/Interaction_design) for UI/UX in [human–computer interaction (HCI)](https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction), and the rather ambiguous [interactive media design](https://en.wikipedia.org/wiki/Interactive_design) in creative media utilization.
 				- Currently, in 2025, there are similar approaches: [reactive programming](https://en.wikipedia.org/wiki/Reactive_programming), [agent-based model (ABM)](https://en.wikipedia.org/wiki/Agent-based_model), [actor model](https://en.wikipedia.org/wiki/Actor_model), [process calculus](https://en.wikipedia.org/wiki/Process_calculus), [interactive computation](https://www.researchgate.net/publication/266710571_Interactive_Computation_The_New_Paradigm), [interaction-oriented programming (IOP)](https://www.lancaster.ac.uk/staff/chopraak/pdfs/pdoc-iop.pdf)
 				- The [Persistent Turing Machine (PTM)](https://www.researchgate.net/publication/225181994_Persistent_Turing_Machines_as_a_Model_of_Interactive_Computation) model is used to prove that *interactive computation is strictly __more expressive__ than algorithmic computation*.
+					- Why people *still* say “a computer is a Universal TM”
+					- Because the TM model was historically:
+						- easier to formalize
+						- good for proving computability
+						- convenient for reasoning about algorithms
+						- useful for compiler theory
+						- taught in curricula before interactive systems existed
+						- deeply entrenched in theoretical CS
+					- But it only models **algorithmic computation**, not **interactive computation**.
+					- Goldin and Wegner’s bold claim is exactly this:
+						- _Turing Machines do NOT capture what real computers do._
+						  Not even close!
 				- In cognitive science, [enactivism](https://en.wikipedia.org/wiki/Enactivism) is the theory model of this functional design.
 				- [2nd-order cybernetics](https://en.wikipedia.org/wiki/Second-order_cybernetics) is also related in philosophy, since it studies **observing systems**, in contrast to first-order cybernetics studying observed systems.
 			- System structure
