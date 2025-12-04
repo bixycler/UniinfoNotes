@@ -11,14 +11,14 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
-		- DOING Traditional functional design versus ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71))'s interactive design
+		- Traditional functional design versus ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71))'s interactive design
 		  id:: 69315b47-7676-483f-9aa2-72e3f4d02194
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-12-04 Thu 16:58:33]
-		  CLOCK: [2025-12-04 Thu 16:58:38]
+		  CLOCK: [2025-12-04 Thu 16:58:38]--[2025-12-04 Thu 17:31:39] =>  00:33:01
 		  :END:
-			- Functional design is arrow-first, control-first, deterministic behavior ensured.
+			- [Functional design](https://en.wikipedia.org/wiki/Function_model) is arrow-first, control-first, deterministic behavior ensured.
 			- Interactive design is circle-first, reciprocity-first, emergence enabled.
 			- System structure
 				- Functional: systems are static chains/graphs of arrows connecting static points (states, data holders); static circles (control loops, feedback loops) are secondary structure of arrows.
@@ -34,11 +34,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- User becomes a participant inside the system’s circle of effects.
 			- Treatment of state emergence
 				- Functional: emergence is error (exception, nondeterminism, instability) to be eliminated.
-					- Priority: determinism, prescription, stability; prevent the unexpected.
+					- Priority: **determinism**, prescription, stability; prevent the unexpected.
 					- State is extensional – just a point in the graph – and extrinsic/external; function purity (stateless) and predictability are goals.
 				- Interactive: emergence is natural and expected, an outcome of reciprocal interactions.
-					- Priority: adaptability, negotiation, emergence; cultivate the unexpected.
-					- State is intensional –  – and intrinsic, living inside each circle and evolving via interactions.
+					- Priority: **adaptability**, negotiation, emergence; cultivate the unexpected.
+					- State is intensional – a refinable fabric of effect circles – and intrinsic, living inside each circle and evolving via interactions.
 		- Suffering = clung unpleasantness
 		  id:: 692fd176-f919-4899-beb2-57ec70791703
 		  collapsed:: true
