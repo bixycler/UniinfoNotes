@@ -32,20 +32,13 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Interactive: influence is **two-way (circular)** – component ↔ component; user ↔ system.
 					- **Reciprocity** is foundational; behavior co-arises from ongoing interaction.
 					- User becomes a participant inside the system’s circle of effects.
-			- Treatment of emergence
+			- Treatment of state emergence
 				- Functional: emergence is error (exception, nondeterminism, instability) to be eliminated.
-					- Functional: determinism, prescription, stability; prevent the unexpected.
-				- Interactive: emergence is natural and expected, an outcome of reciprocal loops.
-					- Interactive: adaptability, negotiation, emergence; cultivate the unexpected.
-			- 6. Temporal mode
-			- Functional: single-pass, feedforward, stepwise execution; loops are control structures, not dialogue.
-			- Interactive: continuous, event-driven, responsive; loops are the fabric of behavior itself.
-			- 7. State
-			- Functional: state is secondary or external; purity and predictability are goals.
-			- Interactive: state is intrinsic, living inside each circle and evolving via interactions.
-			- 9. System identity
-			- Functional: identity = composition of arrows.
-			- Interactive: identity = configuration of circles and their ongoing interactions.
+					- Priority: determinism, prescription, stability; prevent the unexpected.
+					- State is extensional – just a point in the graph – and extrinsic/external; function purity (stateless) and predictability are goals.
+				- Interactive: emergence is natural and expected, an outcome of reciprocal interactions.
+					- Priority: adaptability, negotiation, emergence; cultivate the unexpected.
+					- State is intensional –  – and intrinsic, living inside each circle and evolving via interactions.
 		- Suffering = clung unpleasantness
 		  id:: 692fd176-f919-4899-beb2-57ec70791703
 		  collapsed:: true
