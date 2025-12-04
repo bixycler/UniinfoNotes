@@ -24,7 +24,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Currently, in 2025, there are similar approaches: [reactive programming](https://en.wikipedia.org/wiki/Reactive_programming), [agent-based model (ABM)](https://en.wikipedia.org/wiki/Agent-based_model), [actor model](https://en.wikipedia.org/wiki/Actor_model), [process calculus](https://en.wikipedia.org/wiki/Process_calculus), [interactive computation](https://www.researchgate.net/publication/266710571_Interactive_Computation_The_New_Paradigm), [interaction-oriented programming (IOP)](https://www.lancaster.ac.uk/staff/chopraak/pdfs/pdoc-iop.pdf)
 				- The [Persistent Turing Machine (PTM)](https://www.researchgate.net/publication/225181994_Persistent_Turing_Machines_as_a_Model_of_Interactive_Computation) model is used to prove that *interactive computation is strictly __more expressive__ than algorithmic computation*.
 				  collapsed:: true
-					- PDF: [Persistent Turing Machine as a Model of Interactive Computation](../assets/Uniinfo/uninet/Persistent Turing Machine.pdf)
+					- PDFs:
+						- [Persistent Turing Machine as a Model of Interactive Computation](../assets/Uniinfo/uninet/Persistent Turing Machine.pdf)
+						- [Paraconsistency of Interactive Computation](https://arxiv.org/pdf/cs/0207074): Show that [paraconsistency](https://en.wikipedia.org/wiki/Paraconsistent_logic) is a necessary property for a logic that can model interactive computation.
 					- Why people *still* say “a computer is a Universal TM”
 					- Because the TM model was historically:
 						- easier to formalize
@@ -37,6 +39,38 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- Goldin and Wegner’s bold claim is exactly this:
 						- _Turing Machines do NOT capture what real computers do._
 						  Not even close!
+					- TODO Update Wikipedia [Turing Machine > Comparison with real machines > Interaction](https://en.wikipedia.org/wiki/Turing_machine#Interaction)
+					  :LOGBOOK:
+					  CLOCK: [2025-12-04 Thu 20:21:00]
+					  :END:
+						- ```
+						  #### Interaction
+						  
+						  In the early days of computing, computer use was typically limited to batch
+						  processing, i.e., non-interactive tasks, each producing output data from given
+						  input data. Computability theory, which studies computability of functions from
+						  inputs to outputs and for which Turing machines were invented, reflects this
+						  practice.
+						  
+						  Since the 1970s, interactive use of computers became much more common. A
+						  standard Turing machine models computation as a closed, one-shot function
+						  evaluation: the entire input must be present before execution begins, and the
+						  output is produced only after the machine halts. This model does not capture
+						  ongoing interaction, where inputs and outputs may occur incrementally during
+						  execution.
+						  
+						  Several extensions of the Turing model have been proposed to formalize
+						  interactive computation. One notable example is the Persistent Turing Machine
+						  (PTM), introduced by Goldin and Wegner, which allows a machine to receive new
+						  inputs and produce outputs throughout an unbounded computation while preserving
+						  persistent state. PTMs model *open* systems that interact continuously with an
+						  external environment and therefore cannot be reduced to classical,
+						  function-based Turing-machine computation.
+						  
+						  When describing interactivity in practice, alternatives such as I/O automata,
+						  process calculi, or other models of concurrent systems are also commonly used.
+						  
+						  ```
 				- In cognitive science, [enactivism](https://en.wikipedia.org/wiki/Enactivism) is the theory model of this functional design.
 				- [2nd-order cybernetics](https://en.wikipedia.org/wiki/Second-order_cybernetics) is also related in philosophy, since it studies **observing systems**, in contrast to first-order cybernetics studying observed systems.
 			- System structure
