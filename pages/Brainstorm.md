@@ -20,7 +20,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :END:
 			- [Functional design](https://en.wikipedia.org/wiki/Function_model) is arrow-first, control-first, deterministic behavior ensured.
 			- Interactive design is circle-first, reciprocity-first, emergence enabled.
-				- Note: don't confuse this interactive design of system structure with the [interaction design (IxD)](https://en.wikipedia.org/wiki/Interaction_design) for UI/UX in [human–computer interaction (HCI)](https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction), and the rather ambiguous [interactive media design](https://en.wikipedia.org/wiki/Interactive_design) in creative media utilization.
+				- Note: don't confuse this *interactive system design* – the design of interactive system structure – with the [interaction design (IxD)](https://en.wikipedia.org/wiki/Interaction_design) for UI/UX in [human–computer interaction (HCI)](https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction), and the rather ambiguous [interactive media design](https://en.wikipedia.org/wiki/Interactive_design) in creative media utilization.
 			- System structure
 				- Functional: systems are static chains/graphs of arrows connecting static points (states, data holders); static circles (control loops, feedback loops) are secondary structure of arrows.
 					- The ((667d15b7-6364-49a9-ac58-c64d2a992b63)) is primitive – a one-way transformation $f : X → Y$.
