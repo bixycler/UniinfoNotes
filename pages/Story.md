@@ -5562,7 +5562,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- The `HALT` state was [added by Post](https://plato.stanford.edu/archives/sum2025/entries/turing-machine/#PostDefi) later to formulate his _decision problem_.
 							- Turing designed a-machines to compute real numbers, hence a *well-behaving a-machine* should in fact [never halt](https://plato.stanford.edu/archives/sum2025/entries/turing-machine/#TuriBasiProbCIRCPRINEnts) and print out an infinite sequence of figures, which he called “circle-free machine” for “satisfactory real number”.
 							- An “circular” a-machine is the one that is not circle-free, ***fails*** to continue its computational task, gets stuck, falls into exceptional states. This is not a machine that successfully halts at final/accepting states like the deciders of Post.
-						- 2. The tape is open to I/O between computation steps. Between the state transitions, at each stationary state (Turing's m-configuration or “page”), external entities can read and write to the tape. This I/O enable interaction with
+						- 2. The tape is open to I/O between computation steps. Between the state transitions, at each stationary state (Turing's m-configuration or “page”), external entities can read and write to the tape. This I/O enable interaction with the environment while running.
+					- TM ⊂ PTM ⊂ OTM: (TM + interaction = PTM) + mutation = OTM
+						- Persistent Turing Machine is strictly more expressive than TM in interaction.
+						- Open Turing Machine is strictly more expressive than PTM in the mutation of the persistent state.
 					- [universal Turing machine](https://en.wikipedia.org/wiki/Universal_Turing_machine)
 				- Empty center versus Hardcore center
 					- empty center = zero intent = annihilated point due to full circle uniform ditribution
