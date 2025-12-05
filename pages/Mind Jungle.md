@@ -2691,7 +2691,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  ((6699eb54-ce9e-4472-a784-c59ffd47f02b)) ((669a2487-054d-4408-ae41-189e34af81a9)), ((669a26cb-50d8-4347-a5c4-7c0c3acf1211))
 		- obop
 		  id:: 94e87dc9-71af-477c-aa70-0f448c2f1e20
-		  collapsed:: true
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a))
 		  ((6699eb54-ce9e-4472-a784-c59ffd47f02b)) ((669a2487-054d-4408-ae41-189e34af81a9)), ((669a26cb-50d8-4347-a5c4-7c0c3acf1211))
 			- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “obop” is pronounced “ob-op” /əbˈɒp/, not “o-bop”.
