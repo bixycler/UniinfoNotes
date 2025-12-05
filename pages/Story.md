@@ -5557,10 +5557,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- ((69315b47-7676-483f-9aa2-72e3f4d02194))
 				- Open Turing Machine (OTM)
 					- OTM models physical computer by relaxing 2 restrictions of TM: no `HALT` state, and the tape is open to I/O.
-						- No `HALT` state: This is the original “a-machine” (automatic machine) designed by Turing in 1935 to answer the question of _what is a “mechanical process”_.
+						- collapsed:: true
+						  1. No `HALT` state: This is the original “a-machine” (automatic machine) designed by Turing in 1935 to answer the question of _what is a “mechanical process”_.
 							- The `HALT` state was [added by Post](https://plato.stanford.edu/archives/sum2025/entries/turing-machine/#PostDefi) later to formulate his _decision problem_.
 							- Turing designed a-machines to compute real numbers, hence a *well-behaving a-machine* should in fact [never halt](https://plato.stanford.edu/archives/sum2025/entries/turing-machine/#TuriBasiProbCIRCPRINEnts) and print out an infinite sequence of figures, which he called “circle-free machine” for “satisfactory real number”.
-							- An “circular” a-machine is the one that is not circle-free, ***fails*** to continue its computational task, gets stuck, falls into exceptional states. This is not a successfully halted
+							- An “circular” a-machine is the one that is not circle-free, ***fails*** to continue its computational task, gets stuck, falls into exceptional states. This is not a machine that successfully halts at final/accepting states like the deciders of Post.
+						- 2. The tape is open to I/O between computation steps. Between the state transitions, at each stationary state (Turing's m-configuration or “page”), external entities can read and write to the tape. This I/O enable interaction with
 					- [universal Turing machine](https://en.wikipedia.org/wiki/Universal_Turing_machine)
 				- Empty center versus Hardcore center
 					- empty center = zero intent = annihilated point due to full circle uniform ditribution
