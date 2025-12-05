@@ -1,7 +1,8 @@
 # Name Lists
 id:: 676e5861-1220-40e4-9546-e319e17df1aa
 collapsed:: true
-	- collapsed:: true
+	- query-table:: false
+	  collapsed:: true
 	  #+BEGIN_QUERY
 	  {:title [:h2 "List of Composite Names"]
 	   :inputs [ 
