@@ -5559,7 +5559,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- OTM models physical computer by relaxing 2 restrictions of TM: no `HALT` state, and the tape is open to I/O.
 						- No `HALT` state: This is the original “a-machine” (automatic machine) designed by Turing in 1935 to answer the question of _what is a “mechanical process”_.
 							- The `HALT` state was [added by Post](https://plato.stanford.edu/archives/sum2025/entries/turing-machine/#PostDefi) later to formulate his _decision problem_.
-							- Turing designed a-machines to compute real numbers, hence a “well-behaving” a-machine should in fact never halt and print out an infinite sequence of figures, which he called “circle-free” & “satisfactory”.
+							- Turing designed a-machines to compute real numbers, hence a *well-behaving a-machine* should in fact [never halt](https://plato.stanford.edu/archives/sum2025/entries/turing-machine/#TuriBasiProbCIRCPRINEnts) and print out an infinite sequence of figures, which he called “circle-free machine” for “satisfactory real number”.
+							- An a-machine that is not circle-free is called “circular”, meaning deadlock, stuck, fails to continue its computational task.
 					- [universal Turing machine](https://en.wikipedia.org/wiki/Universal_Turing_machine)
 				- Empty center versus Hardcore center
 					- empty center = zero intent = annihilated point due to full circle uniform ditribution
