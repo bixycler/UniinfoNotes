@@ -5556,7 +5556,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- ((69315b47-7676-483f-9aa2-72e3f4d02194))
 				- Open Turing Machine (OTM)
-					- OTM models physical computer by relaxing 2 restrictions of TM: .
+					- OTM models physical computer by relaxing 2 restrictions of TM: no `HALT` state, and the tape is open to I/O while.
 					- [universal Turing machine](https://en.wikipedia.org/wiki/Universal_Turing_machine)
 				- Empty center versus Hardcore center
 					- empty center = zero intent = annihilated point due to full circle uniform ditribution
