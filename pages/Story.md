@@ -5566,7 +5566,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- TM ⊂ PTM ⊂ OTM: (TM + interaction = PTM) + mutation = OTM
 						- Persistent Turing Machine is strictly more expressive than TM in interaction.
 						- Open Turing Machine is strictly more expressive than PTM in the mutation of the persistent state.
-					- [universal Turing machine](https://en.wikipedia.org/wiki/Universal_Turing_machine)
+							- PTM's “persistent state” is in fact Turing's [state of progress](https://en.wikipedia.org/wiki/Turing_machine#The_%22state%22) including both m-configuration and tape configuration.
+					- [Universal Turing Machine](https://en.wikipedia.org/wiki/Universal_Turing_machine)
+						-
 				- Empty center versus Hardcore center
 					- empty center = zero intent = annihilated point due to full circle uniform ditribution
 					- hardcore center = infinite intent = singularity
