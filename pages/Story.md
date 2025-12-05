@@ -5131,7 +5131,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- ((68f5a6d2-5faa-4889-bd79-30e9c553c314))
 			- 20th,...
 			  collapsed:: true
-				- Newtonian mechanics → [Lagrangian mechanics](https://en.wikipedia.org/wiki/Lagrangian_mechanics) → field equations
+				- WAIT Newtonian mechanics → [Lagrangian mechanics](https://en.wikipedia.org/wiki/Lagrangian_mechanics) → field equations
 				  id:: 68f60c71-56b6-494e-b4bb-26f1f91e3282
 					- The key in the law of “[stationary action](https://en.wikipedia.org/wiki/Hamilton%27s_principle) δS = 0” is not the value of S itself, but the hidden clause “for all variations δx(t)”! 😜
 					  collapsed:: true
@@ -5562,6 +5562,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- empty center = zero intent = annihilated point due to full circle uniform ditribution
 					- hardcore center = infinite intent = singularity
 					- Inside a hard core is usualy an empty center, like the storm's eye inside the eyewall.
+				-
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((692e5569-b7e9-458e-a3a2-44f7ed57a8f1))

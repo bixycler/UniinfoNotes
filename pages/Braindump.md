@@ -754,4 +754,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- ...
 		- TODO Update [Unitorus](https://www.youtube.com/watch?v=7OR_6L2zyHE)
-		- ((68f60c71-56b6-494e-b4bb-26f1f91e3282))
+		- TODO `FabrikDemo-SolidD3` -> `FabrikDemo-SolidSvg`
+		  :LOGBOOK:
+		  CLOCK: [2025-12-05 Fri 18:02:26]
+		  :END:
