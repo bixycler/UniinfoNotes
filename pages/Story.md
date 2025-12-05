@@ -5556,7 +5556,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- ((69315b47-7676-483f-9aa2-72e3f4d02194))
 				- Open Turing Machine (OTM)
-					- OTM models physical computer by relaxing 2 restrictions of TM: no `HALT` state, and the tape is open to I/O while.
+					- OTM models physical computer by relaxing 2 restrictions of TM: no `HALT` state, and the tape is open to I/O.
+						- No `HALT` state: This is the original “a-machine” (automatic machine) designed by Turing in 1935 to answer the question of _what is a “mechanical process”_.
+							- The `HALT` state was added by Post later to formulate his _decision problem_.
+							- Turing called
 					- [universal Turing machine](https://en.wikipedia.org/wiki/Universal_Turing_machine)
 				- Empty center versus Hardcore center
 					- empty center = zero intent = annihilated point due to full circle uniform ditribution
