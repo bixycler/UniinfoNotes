@@ -267,6 +267,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Through the accumulation of traces, the common naturally intensifies, the pattern naturally emerges.
 			- ANN & LLM are opposite to classic program: only learning top down, no bottom up structure, hence baseless.
 			- Refs
+				- ((69315b47-7676-483f-9aa2-72e3f4d02194))
 				- ((68c14574-cea2-4325-a43e-d189f38522de))
 				- [intensibility](((68ac60bb-321e-44da-8f44-4f688e611d3e)))
 				- ((68d209a0-3386-46b0-a8f2-beb94d271916))
