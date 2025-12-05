@@ -13,7 +13,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
 		- Traditional functional design versus ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71))'s interactive design
 		  id:: 69315b47-7676-483f-9aa2-72e3f4d02194
-		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-12-04 Thu 16:58:33]
 		  CLOCK: [2025-12-04 Thu 16:58:38]--[2025-12-04 Thu 17:31:39] =>  00:33:01
@@ -71,6 +70,24 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						  process calculi, or other models of concurrent systems are also commonly used.
 						  
 						  ```
+				- Open Turing Machine (OTM)
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2025-12-05 Fri 14:43:08]
+				  :END:
+					- OTM models physical computer by relaxing 2 restrictions of TM: no `HALT` state, and the tape is open to I/O.
+						- 1. No `HALT` state: This is the original “a-machine” (automatic machine) designed by Turing in 1935 to answer the question of _what is a “mechanical process”_.
+							- The `HALT` state was [added by Post](https://plato.stanford.edu/archives/sum2025/entries/turing-machine/#PostDefi) later to formulate his _decision problem_.
+							- Turing designed a-machines to compute real numbers, hence a *well-behaving a-machine* should in fact [never halt](https://plato.stanford.edu/archives/sum2025/entries/turing-machine/#TuriBasiProbCIRCPRINEnts) and print out an infinite sequence of figures, which he called “circle-free machine” for “satisfactory real number”.
+							- An “circular” a-machine is the one that is not circle-free, ***fails*** to continue its computational task, gets stuck, falls into exceptional states. This is not a machine that successfully halts at final/accepting states like the deciders of Post.
+						- 2. The tape is open to I/O between computation steps. Between the state transitions, at each stationary state (Turing's m-configuration or “page”), external entities can read and write to the tape. This I/O enable interaction with the environment while running.
+					- TM ⊂ PTM ⊂ OTM: (TM + interaction = PTM) + mutation = OTM
+						- Persistent Turing Machine is strictly more expressive than TM in interaction.
+						- Open Turing Machine is strictly more expressive than PTM in the mutation of the persistent state.
+							- PTM's “persistent state” is in fact Turing's [state of progress](https://en.wikipedia.org/wiki/Turing_machine#The_%22state%22) including both m-configuration and tape configuration.
+					- [Universal Turing Machine (UTM)](https://en.wikipedia.org/wiki/Universal_Turing_machine)
+						- [Von Neuman machine](https://en.wikipedia.org/wiki/Von_Neumann_architecture) = UTM + openness = OUTM
+						- [Havard machine](https://en.wikipedia.org/wiki/Harvard_architecture) = TM + openness = OTM
 				- In cognitive science, [enactivism](https://en.wikipedia.org/wiki/Enactivism) is the theory model of this functional design.
 				- [2nd-order cybernetics](https://en.wikipedia.org/wiki/Second-order_cybernetics) is also related in philosophy, since it studies **observing systems**, in contrast to first-order cybernetics studying observed systems.
 			- System structure
