@@ -5565,18 +5565,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				-
 			- 6-7th, weekends,...
 			  collapsed:: true
-				- uninet: state = mind in body, not object in space
-				  collapsed:: true
-					- TM:
-						- automaton: extensional state = point in space
-						- tape: Intensional state = object in space
-					- uninet: state = mind = intent sequence/tree = attention = working memory = activated parts of the body of knowledge = arrow in circle
-					- TM's read/write head = uninet's obop = I/O gate
-						- observer receives external signals to activate corresponding part of knowledge into state
-						- operator drives the state following the activated arrows
-						- in TM, it simply drive the state to the next state
-					- Corkei's agentic AI = top state
-					- Each autonotion (node) has its own knowledge, accumulated from its own history, and activated to the state at this node, spreading to next nodes.
+				- ((69364644-747f-4995-815f-7ac637e9ea0b))
 				- Chats with Huy
 					- The full range of programming from human to machine
 					  collapsed:: true

@@ -194,7 +194,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :END:
 			- Attention is a selective magnifier, hence very projective compared to the flat Euclidean geometry.
 			- Attention is the activation of the static future (= past there) up to be **dynamic** at the present herenow, then return it back to the static (past here).
-			- Attention is the mechanism of intending (zooming in) into a direction. It has the role of emotion.
+			- While intending is zooming in, attention is the direction of that intent. It has the role of emotion.
 				- Related to ((66f40210-cca6-4d81-85e7-d0c54ef20451))?!🤔
 			- Attention brings dormant intents up into the current intent stack/tree/circle to participate in the effect circle.
 			- In LLM, ((66c32936-618a-43d3-b2c8-a254badeb987)) is what makes the flat & static probability space of ANN be more projective & dynamic like the possibility space in uninet.
@@ -275,6 +275,18 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  CLOCK: [2025-10-03 Fri 08:15:06]
 		  CLOCK: [2025-10-03 Fri 08:15:08]
 		  :END:
+			- state = mind = intent sequence/tree = [attention](((68f5a6d2-5faa-4889-bd79-30e9c553c314))) = working memory = the parts of the body of knowledge activated by center-projection = arrow in circle
+			  id:: 69364644-747f-4995-815f-7ac637e9ea0b
+				- Turing Machine:
+					- automaton: extensional state = point in space
+					- tape: Intensional state = object in space
+				- TM's read/write head = uninet's obop = I/O gate
+					- observer receives external signals to activate corresponding part of knowledge into state
+					- operator drives the state following the activated arrows
+					- in TM, it simply drive the state to the next state
+				- Corkei's agentic AI = top state
+				- Each autonotion (node) has its own knowledge, accumulated from its own history, and activated to the state at this node, spreading to next nodes.
+			-
 			- obop = if then = qualifier
 				- ob = if equal = potential = possible
 				- op = make equal = actual
