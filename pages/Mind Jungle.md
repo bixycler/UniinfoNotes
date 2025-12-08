@@ -1229,7 +1229,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 69367cf5-9894-4fb8-a293-2b1109777fc9
 		  coincidentia oppositorum
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Unity_of_opposites
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((69367cf5-9894-4fb8-a293-2b1109777fc9)) is the meaning duality of all ((69367d7f-9ca8-4202-9ac7-1085cde52513))s, e.g. ⟪A = B⟫ – the *extended meaning* is that two sides of the equation are aparently different, as shown in their **different** forms/symbols/expressions (“A” verus “B”) – and the *intended meaning* is that they have the **same** underlying content/extent/value.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((69367cf5-9894-4fb8-a293-2b1109777fc9)) is the meaning duality of all ((69367d7f-9ca8-4202-9ac7-1085cde52513))s, e.g. ⟪A = B⟫ – the *formal meaning* is that two sides of the equation are aparently different, as shown in their **different** forms/symbols/expressions (“A” verus “B”) – and the *intended meaning* is that they have the **same** underlying content/extent/value.
 	- ## quantity
 	  id:: 66e426df-90e4-43c0-9f02-c48c336e830d
 	  collapsed:: true

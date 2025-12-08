@@ -297,13 +297,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- obop = `if then` = qualifier = ((677e76ed-b324-4608-b146-90e8fcfa0c32))
 				- ob = (`if`) equal match = potential = possible = static criteria
 					- The effect circle is triggered by observing the match of external **abstract form** (porous circle) with an intent in the body.
-					- The abstract form is both the (positive) first cause – matching with external form – and the final cause – the target ideal form for the effect flow to restore to.
+					- The abstract form is both the (formal) first cause – matching with external form – and the final cause – the target ideal form for the effect flow to restore to.
 				- op = (`then`) make equal the variable/pore/opening = actual = dynamic behavior
-					- The effect circle is driven by operator, using the external **concrete content** (solid arrow) to close the gap between knowledge and info, potential and actual, to restore the ideal equality qualified by the observer.
-					- The gap/unknown/diff is the negative first cause which is dual to and inseparable from the positive first cause (equal, match) in all equations.
-						- ⟪A = B⟫ has two inseparable meanings:
-							- positive meaning: A's extent is equal to B's extent
-							- negative meaning: there must be an inherent difference between A and B, as shown in their different symbols, for the equation to be non-trivial.
+					- The effect circle is driven by the operator, using the external **concrete content** (solid arrow) to close the gap between knowledge and info, potential and actual, to restore the ideal equality qualified by the observer.
+					- ((69367cf5-9894-4fb8-a293-2b1109777fc9)): The gap/unknown/diff is the intentional first cause which is dual to and inseparable from the formal first cause (equal, match).
 				- intensible ob vs extensible op
 			- programming paradigms have various ways to **extend the op from bottom up**: assignment, statement, function, object, ...
 			- now, uninet gives a way to **intend the ob from top down**: learn from history, take the common path to form new & more intensive intents.
