@@ -5563,6 +5563,22 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- hardcore center = infinite intent = singularity
 					- Inside a hard core is usualy an empty center, like the storm's eye inside the eyewall.
 				-
+			- 6-7th, weekends,...
+			  collapsed:: true
+				- Chats with Huy
+					- The full range of programming from human to machine
+					  collapsed:: true
+						- Dạo này nhờ agentic AI mà tui "chạy" được lý thuyết của mình trên máy tính, đó giờ toàn phải chạy trong đầu. State machine agent nó chạy y như automaton, chỉ khác là state được định nghĩa bằng ngôn ngữ tự nhiên và transition cũng bằng ngôn ngữ tự nhiên, rồi được chạy bằng AI. 😉
+						- Lập trình top-down vậy tự nhiên cho con người hơn nhiều so với mô hình thác nước cổ điển (design top down, build bottom up).
+						- Còn giờ là tui lập trình từ trên xuống ra một hệ thống phủ liên tục từ đỉnh trừu tượng tới đáy cụ thể: Trên cùng là tư duy con người, kế tiếp là deep-thinking model, rồi tới thinking model, non-thinking model, simple model, và cuối cùng là chương trình truyền thống. Và hệ thống này có 2 chiều hoạt động song song theo mô hình obop (observer-operator):
+							- Operation top down: các ý tưởng đi từ trên đỉnh xuống, thành thiết kế, thành plan, rồi chương trình cổ điển, rồi data & action.
+							- Observation bottom up: dữ liệu và tác động từ môi trường được tiếp nhận ở tầng đáy, qua chương trình feedback lên thành kinh nghiệm, để cập nhật thiết kế, và kết tinh thành những ý tưởng mới.
+					- The dice 🎲 example of wave-particle duality
+					  collapsed:: true
+						-
+				- News
+					- [‘Reverse Mathematics’ Illuminates Why Hard Problems Are Hard](https://www.quantamagazine.org/reverse-mathematics-illuminates-why-hard-problems-are-hard-20251201/): Instead of starting with a standard set of axioms and proving a theorem, they swapped in a theorem for one of the axioms and then proved that axiom. They used this approach, called **reverse mathematics**, to prove that many distinct theorems in complexity theory are actually exactly equivalent.
+					- [Flat vs curved spacetime view of black hole](https://scitechdaily.com/new-theory-suggests-weve-been-wrong-about-black-holes-for-60-years/)
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((692e5569-b7e9-458e-a3a2-44f7ed57a8f1))
