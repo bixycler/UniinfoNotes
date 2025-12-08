@@ -196,7 +196,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Attention is the activation of the static future (= past there) up to be **dynamic** at the present herenow, then return it back to the static (past here).
 			- While intending is zooming in, attention is the direction of that intent. It has the role of emotion.
 				- Related to ((66f40210-cca6-4d81-85e7-d0c54ef20451))?!🤔
-			- Attention brings dormant intents up into the current intent stack/tree/circle to participate in the effect circle.
+			- Attention brings dormant formative intents up into the current operative intent stack/tree/circle to participate in the effect circle.
 			- In LLM, ((66c32936-618a-43d3-b2c8-a254badeb987)) is what makes the flat & static probability space of ANN be more projective & dynamic like the possibility space in uninet.
 			- CIEA (/saɪ̯ə/ or /siːə/ “seer”): content – intent – extent – attent
 			  id:: 68f5a6d2-bba0-4082-b012-7b475e812f4f
@@ -297,10 +297,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- obop = `if then` = qualifier = ((677e76ed-b324-4608-b146-90e8fcfa0c32))
 				- ob = (`if`) equal match = potential = possible = static criteria
 					- The effect circle is triggered by observing the match of external **abstract form** (porous circle) with an intent in the body.
-					- The abstract form is both the (formal) first cause – matching with external form – and the final cause – the target ideal form for the effect flow to restore to.
+					- The abstract form is both the (intentional) first cause – matching with external form – and the final cause – the target ideal form for the effect flow to restore to.
 				- op = (`then`) make equal the variable/pore/opening = actual = dynamic behavior
 					- The effect circle is driven by the operator, using the external **concrete content** (solid arrow) to close the gap between knowledge and info, potential and actual, to restore the ideal equality qualified by the observer.
-					- ((69367cf5-9894-4fb8-a293-2b1109777fc9)): The gap/unknown/diff is the intentional first cause which is dual to and inseparable from the formal first cause (equal, match).
+					- ((69367cf5-9894-4fb8-a293-2b1109777fc9)): The gap/unknown/diff is the formal first cause which is dual to and inseparable from the intentional first cause (equal, match).
 				- intensible ob vs extensible op
 			- programming paradigms have various ways to **extend the op from bottom up**: assignment, statement, function, object, ...
 			- now, uninet gives a way to **intend the ob from top down**: learn from history, take the common path to form new & more intensive intents.
