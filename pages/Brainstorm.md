@@ -279,14 +279,15 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			  id:: 69364644-747f-4995-815f-7ac637e9ea0b
 				- Turing Machine:
 					- automaton: extensional state = point in space
-					- tape: Intensional state = object in space
+					- tape: intensional state = object in space
 				- TM's read/write head = uninet's obop = I/O gate
-					- observer receives external signals to activate corresponding part of knowledge into state
-					- operator drives the state following the activated arrows
-					- in TM, it simply drive the state to the next state
+					- Observer receives external signals to attend to the corresponding part of knowledge, projecting/activating it into the current state
+					- Operator drives the state following the activated arrows
+					- In TM, it simply drive the state to the next state
 				- Corkei's agentic AI = top state
-				- Each autonotion (node) has its own knowledge, accumulated from its own history, and activated to the state at this node, spreading to next nodes.
-			-
+				- Each autonotion (node) has its own knowledge, accumulated from its own history, and activated to the state at this node, spreading to next nodes in the cone of attention.
+			- body = knowledge accumulated from effect flows in the history = circle
+				- Each circle is
 			- obop = if then = qualifier
 				- ob = if equal = potential = possible
 				- op = make equal = actual
