@@ -5253,6 +5253,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- > “Turn” counts as stillness in motion.
 							- “Turn” is densely open just like the set of rational numbers on the real line.
 						- Each pore is a window to another circle, either a downward branch or an upward stalk: question, problem, task, function (interface).
+						- My ((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0))
 			- 3rd, caught up in debugging, then reset
 			  collapsed:: true
 				- The implicit `default_server` of NGINX costed me hours!
