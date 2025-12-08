@@ -2944,12 +2944,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- [This mechanism shrinks when pulled](https://youtu.be/-QTkPfq7w1A)
 					  collapsed:: true
 						- {{video https://youtu.be/-QTkPfq7w1A}}
-			- July 3rd, just review my issues and started [designing plans](((68663850-daa5-487e-ba48-fea228a2b188))).
+			- July 3rd, just review my issues and started [designing plans](((6926be1c-549f-4657-9760-eed54a585661))).
 			  collapsed:: true
 				- After more than a month in this thread of [releasing to heal the broken bodymind](((68366fff-92cf-41a7-ab2d-0c1f77d0effb))), i see...
 					- while all tasks are left untouched and no new tasks are (formally) listed, **new contents** are constantly produced **everyday** (including some hidden tasks).
 					- The issue of being **caught up** still persists.
-					- ⇒ ((68663850-daa5-487e-ba48-fea228a2b188))
+					- ⇒ ((6926be1c-549f-4657-9760-eed54a585661))
 				- I completed this brainstorm to flush it: ((684f9515-8f95-4004-8aa8-04a10d1ebf11))
 			- 4th, from a simple question of "seeding or seedling?", i'd chatted with ChatGPT for most of the time, then returned to update the brainstorm [about the hurricane's eye, center and self-essence](((684f9515-8f95-4004-8aa8-04a10d1ebf11))).
 				- In that course, i saw many other intents popped up but i refrained from them.
@@ -2982,7 +2982,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  stalks of discourse  
 					  from their stem-circles  
 					  of condensed ego!
-			- 7th, today, i've built up enough intent to execute the [plan for sharing time with official works](((68663850-daa5-487e-ba48-fea228a2b188))).
+			- 7th, today, i've built up enough intent to execute the [plan for sharing time with official works](((6926be1c-549f-4657-9760-eed54a585661))).
 			  :LOGBOOK:
 			  CLOCK: [2025-07-07 Mon 09:21:20]
 			  :END:
@@ -3089,7 +3089,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  /etc/apt/apt.conf.d/10periodic:APT::Periodic::Unattended-Upgrade "0";
 							  /etc/apt/apt.conf.d/20auto-upgrades:APT::Periodic::Unattended-Upgrade "0";
 							  ```
-		- Try to execute the [plan to share time with official works](((68663850-daa5-487e-ba48-fea228a2b188))), July 2025.
+		- Try to execute the [plan to share time with official works](((6926be1c-549f-4657-9760-eed54a585661))), July 2025.
 		  id:: 686b390a-7953-4069-9c04-17c7f9a777a7
 		  collapsed:: true
 		  :LOGBOOK:
@@ -3449,9 +3449,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  :LOGBOOK:
 			  CLOCK: [2025-07-29 Tue 20:27:01]--[2025-07-29 Tue 20:33:18] =>  00:06:17
 			  :END:
-				- Although the [plan](((68663850-daa5-487e-ba48-fea228a2b188))) has not been applied well, the practical methods for intent management have been developed quite well.
+				- Although the [plan](((6926be1c-549f-4657-9760-eed54a585661))) has not been applied well, the practical methods for intent management have been developed quite well.
 				- So, let's wrap it up for the new month coming.
-		- Try to harmonize the personal ((67b541d0-f477-4c3a-b444-fb522c3fdc4f)) with the [working plan](((68663850-daa5-487e-ba48-fea228a2b188))), from August 2nd to September 7th.
+		- Try to harmonize the personal ((67b541d0-f477-4c3a-b444-fb522c3fdc4f)) with the [working plan](((6926be1c-549f-4657-9760-eed54a585661))), from August 2nd to September 7th.
 		  id:: 688c70aa-8fdf-4cc8-aeb7-ffd47b86cee0
 		  collapsed:: true
 		  :LOGBOOK:

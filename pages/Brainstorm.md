@@ -13,6 +13,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
 		- Traditional functional design versus ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71))'s interactive design
 		  id:: 69315b47-7676-483f-9aa2-72e3f4d02194
+		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-12-04 Thu 16:58:33]
 		  CLOCK: [2025-12-04 Thu 16:58:38]--[2025-12-04 Thu 17:31:39] =>  00:33:01
