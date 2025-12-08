@@ -1069,10 +1069,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 6653751a-a1b4-44b0-a81e-0a446eb8918c
 	  collapsed:: true
 	  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((66e41e14-6c0c-41d7-9089-92916d47d7e0))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From the [mathematical equality](https://en.wikipedia.org/wiki/Equality_(mathematics)), ((6653751a-a1b4-44b0-a81e-0a446eb8918c)) is generalized to the [third component](((66f3d5cc-0d68-47bb-b09a-87cda33c7354))) of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) which represent various aspects of the Universe, from simple equality, balance, to symmetry, ((669a1bec-3347-4915-83e4-dcffc4d482d1)), ((669a3da2-1e6c-48bd-950f-af1ea1ceda25)), etc.
 		- equality
 		  id:: 66e41e14-6c0c-41d7-9089-92916d47d7e0
 		  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((6653751a-a1b4-44b0-a81e-0a446eb8918c))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From the [mathematical equality](https://en.wikipedia.org/wiki/Equality_(mathematics)), ((6653751a-a1b4-44b0-a81e-0a446eb8918c)) is generalized to the [third component](((66f3d5cc-0d68-47bb-b09a-87cda33c7354))) of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) which represent various aspects of the Universe, from simple equality, balance, to symmetry, ((669a1bec-3347-4915-83e4-dcffc4d482d1)), ((669a3da2-1e6c-48bd-950f-af1ea1ceda25)), etc.
+		- equation
+		  id:: 69367d7f-9ca8-4202-9ac7-1085cde52513
+		  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((6653751a-a1b4-44b0-a81e-0a446eb8918c))
 		- ((66e4299e-0af8-47ee-adae-c13fb57fd15d))
 		  collapsed:: true
 			- equal
@@ -1222,6 +1225,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Equanimity
 			- Buddhism: [upekṣā](https://en.wikipedia.org/wiki/Upek%E1%B9%A3%C4%81), [xả](https://vi.wikipedia.org/wiki/Bu%C3%B4ng_x%E1%BA%A3)
 			- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) equanimity = equal + mind
+		- ### unity of opposites
+		  id:: 69367cf5-9894-4fb8-a293-2b1109777fc9
+		  coincidentia oppositorum
+			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Unity_of_opposites
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((69367cf5-9894-4fb8-a293-2b1109777fc9)) is the meaning duality of all ((69367d7f-9ca8-4202-9ac7-1085cde52513))s:
 	- ## quantity
 	  id:: 66e426df-90e4-43c0-9f02-c48c336e830d
 	  collapsed:: true
