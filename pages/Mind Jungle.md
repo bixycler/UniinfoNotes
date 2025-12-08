@@ -1229,7 +1229,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 69367cf5-9894-4fb8-a293-2b1109777fc9
 		  coincidentia oppositorum
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Unity_of_opposites
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((69367cf5-9894-4fb8-a293-2b1109777fc9)) is the meaning duality of all ((69367d7f-9ca8-4202-9ac7-1085cde52513))s – the negative meaning is that two sides of the equation are aparently different, as shown in their different forms/symbols/expressions, e.g. ⟪A = B⟫ – and the positive meaning is that their underlying content/extent/value is
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((69367cf5-9894-4fb8-a293-2b1109777fc9)) is the meaning duality of all ((69367d7f-9ca8-4202-9ac7-1085cde52513))s, e.g. ⟪A = B⟫ – the *extended meaning* is that two sides of the equation are aparently different, as shown in their **different** forms/symbols/expressions (“A” verus “B”) – and the *intended meaning* is that they have the **same** underlying content/extent/value.
 	- ## quantity
 	  id:: 66e426df-90e4-43c0-9f02-c48c336e830d
 	  collapsed:: true
@@ -3347,7 +3347,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Law of the same content
 			  id:: 678e2046-54ac-4284-865d-6f3e38f589a1
 			  ((665ca495-93b4-47d4-a022-ce511b021a3d)) « ((678e1960-58d6-4cf3-8fe3-25f2f4489b33)) »
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The total content of any ((678e1c3f-6202-45aa-8527-f4bdad9927b9)), i.e. all arrows of any being, is the ((678e1d31-4874-4df6-bfb4-60822a6b5546)) of the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)). One being differs from other beings only through its form. That means each being (each instance of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8))), is just the ((66537a0b-d107-4f7e-b01f-bf624a647d8c)) manifesting in a particular form.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The total content of any ((678e1c3f-6202-45aa-8527-f4bdad9927b9)), i.e. all arrows of any being, is the ((678e1d31-4874-4df6-bfb4-60822a6b5546)) of the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)). One being differs from other beings only through its form. That means each being (each instance of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8))), is just the ((66537a0b-d107-4f7e-b01f-bf624a647d8c)) manifesting in a particular form. This is the strong form of the ((69367cf5-9894-4fb8-a293-2b1109777fc9)).
 			- Conservation of content
 			  id:: 67a983b4-f6ad-4abb-b611-7952168d83a2
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67a983b4-f6ad-4abb-b611-7952168d83a2)) is a special case of the ((678e2046-54ac-4284-865d-6f3e38f589a1)) when considering a single being throughout time.
@@ -4081,7 +4081,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) English “vacantism” ← “[vacant](https://en.wiktionary.org/wiki/vacant)” ← Latin “[vacans](https://en.wiktionary.org/wiki/vacans#Latin)” ← “[vacō](https://en.wiktionary.org/wiki/vaco#Latin)” (empty, void, unoccupied, free [time]) ← PIE “[*h₁weh₂-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81weh%E2%82%82-)” (empty, extinguished) → English “void”, “want”, “vain”, “vacant”, “vacuum”, etc.
 		- Numbering
 		  collapsed:: true
-			- The equation ⟪○ = ↑⟫ is the One that unifies the Two opposites (○, ↑) via the Third (=). This is called [the unity of opposites](https://en.wikipedia.org/wiki/Unity_of_opposites) (☯). Hence, the Unïnfo seems to be [trialistic](https://en.wikipedia.org/wiki/Pluralism_(philosophy)) (due to the Three components), or [dualistic](https://en.wikipedia.org/wiki/Dualism_in_cosmology) (due to the Two opposites), or [monistic](https://en.wikipedia.org/wiki/Monism) (due to the One equation), but actually it's ((68b95b62-9e60-4ef2-9540-f563c76a5d17)) as reflected by the intrinsics of the Zero (the Trinion).
+			- The equation ⟪○ = ↑⟫ is the One that unifies the Two opposites (○, ↑) via the Third (=). This is called ((69367cf5-9894-4fb8-a293-2b1109777fc9)) (☯). Hence, the Unïnfo seems to be [trialistic](https://en.wikipedia.org/wiki/Pluralism_(philosophy)) (due to the Three components), or [dualistic](https://en.wikipedia.org/wiki/Dualism_in_cosmology) (due to the Two opposites), or [monistic](https://en.wikipedia.org/wiki/Monism) (due to the One equation), but actually it's ((68b95b62-9e60-4ef2-9540-f563c76a5d17)) as reflected by the intrinsics of the Zero (the Trinion).
 			  id:: 684f9517-64ce-41bd-a88c-0476cbfa790d
 				- > “The Way generates the One; the One generates the Two; the Two generates the Three; the Three generates all things.”
 				  「道生一，一生二，二生三，三生萬物。」
