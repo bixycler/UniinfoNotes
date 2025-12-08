@@ -5565,6 +5565,18 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				-
 			- 6-7th, weekends,...
 			  collapsed:: true
+				- uninet: state = mind in body, not object in space
+				  collapsed:: true
+					- TM:
+						- automaton: extensional state = point in space
+						- tape: Intensional state = object in space
+					- uninet: state = mind = intent sequence/tree = attention = working memory = activated parts of the body of knowledge = arrow in circle
+					- TM's read/write head = uninet's obop = I/O gate
+						- observer receives external signals to activate corresponding part of knowledge into state
+						- operator drives the state following the activated arrows
+						- in TM, it simply drive the state to the next state
+					- Corkei's agentic AI = top state
+					- Each autonotion (node) has its own knowledge, accumulated from its own history, and activated to the state at this node, spreading to next nodes.
 				- Chats with Huy
 					- The full range of programming from human to machine
 					  collapsed:: true
@@ -5573,9 +5585,21 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Còn giờ là tui lập trình từ trên xuống ra một hệ thống phủ liên tục từ đỉnh trừu tượng tới đáy cụ thể: Trên cùng là tư duy con người, kế tiếp là deep-thinking model, rồi tới thinking model, non-thinking model, simple model, và cuối cùng là chương trình truyền thống. Và hệ thống này có 2 chiều hoạt động song song theo mô hình obop (observer-operator):
 							- Operation top down: các ý tưởng đi từ trên đỉnh xuống, thành thiết kế, thành plan, rồi chương trình cổ điển, rồi data & action.
 							- Observation bottom up: dữ liệu và tác động từ môi trường được tiếp nhận ở tầng đáy, qua chương trình feedback lên thành kinh nghiệm, để cập nhật thiết kế, và kết tinh thành những ý tưởng mới.
-					- The dice 🎲 example of wave-particle duality
+					- The dice 🎲 example of wave–particle duality
 					  collapsed:: true
-						-
+						- À, hôm nay quán làn sóng toát ra từ hạt và tụ lại thành một hạt thế nào, tui thấy ví dụ con xúc xắc khá dễ hiểu:
+							- Hạt nguồn tĩnh = ổn định 1 mặt: con xúc xắc nằm trên bàn, lật lên 1 trong 6 mặt, gọi là "mặt thật" như trong "số thực". 5 mặt còn lại không thấy nên gọi là "mặt ảo", nhưng kỳ thực nó là phức hợp gồm cả 6 mặt, như số phức.
+							- Sóng lan truyền động = thực ảo xoay vòng: khi đổ xí ngầu, con xúc xắc bị lăn lộn làm các mặt liên tục xoay chuyển, không còn thấy rõ mặt nào, vừa thực đó liền ảo đó, vừa ẩn đó liền hiện đó, nên gọi là "chồng chập trạng thái", các mặt "trộn trạo với nhau".
+							- Hạt đích = cân bằng trở lại: khi năng lượng vận động bị tán ra môi trường qua ma sát thì con xúc xắc phải dừng lại. Nhưng vì cấu trúc của nó không thể dừng trên 1 đỉnh (không ổn định), nó buộc phải dừng ở 1 trong các mặt của nó, tức trở lại hạt 1 mặt. Chỉ những trường hợp rất hiếm thì mới có 1 con dừng ở đỉnh để hiển thị cho thấy nhiều mặt cùng 1 lúc, như ái nam ái nữ, nửa người nửa thú, nhưng đều là "bệnh hoạn", không ổn định, và nhanh chóng bị môi trường tác động làm cho nó sụp đổ về 1 mặt.
+						- => Tính hạt là sự ổn định của vòng tròn trong trạng thái bị ràng buộc (bound state), tính sóng là sự vận động liên tục của mũi tên (xoay vòng) ↻ ở trạng thái bị phóng thích khỏi ràng buộc (unbound state).
+						- Cùng con xúc xắc đó, dùng trong xác suất lẫn lượng tử 😆, số thực số ảo, chồng chập trạng thái. 😎😵‍💫😵😫😩😣😖👻🌞🌝🤖👽👾
+						- Do con người thường chỉ thấy "hạt tâm thức" của mình chứ không thấy được "sóng tâm thức"  lan truyền thế nào, nên Phật chỉ nói chỗ xuất ra (tử) và chỗ nhập vào (tái sinh), là những thứ rõ ràng mọi người thấy được.
+							- Hôm trước nói vụ "nguyên con mà không nguyên con"... tui chưa biết nói sao cho suôn. Thì nay tui chỉ sửa lại đúng 1 chữ cuối là suôn:
+							  **nguyên con mà _không nguyên dạng_**
+							- Cái con xúc xắc đó nó luôn là nguyên con, nhưng khi dừng lại thì nó phải chọn một mặt (form) nào đó. Content của nó là tất cả các mặt, nhưng chỉ có 1 mặt được hiển bày, gọi là form. Những mặt kia không hề mất đi mà chỉ bị ẩn đi, quên đi thôi, chỉ khi nhìn vào trong ta mới thấy. Mọi người vốn đều nguyên con, có đủ thiện ác, nam nữ, âm dương, nhưng chỉ thấy 1 mặt nên chấp vào mặt đó, cho rằng cái mặt này là "mình" và chỉ muốn giữ nguyên cái mặt đó thôi, tức muốn giữ nguyên dạng, không phải nguyên con.
+							- Nhìn vào trong tui cũng thấy nhiều mặt khác của mình, làm nam làm nữ, làm vua làm đĩ, làm thánh làm cướp, v.v. nhưng không thể trace ra là những "đời" đó ở đâu khi nào. Nên tui nghĩ ... (cả gan dám nói)... ông Phật cũng vậy thôi, ổng thấy đời đời kiếp kiếp ở ngay tại đây chứ cũng chẳng biết hết quá trình lan truyền của nó đâu.
+							- => Cái "nguyên" chính là cái tổng thể âm dương, trong ngoài, trắng đen, phải trái, tức vòng tròn, chứ không phải là một mặt 1 form nào đó.
+						- Nên nói các form đều "ảo" không có nghĩa là phủ định sự tồn tại của nó, chỉ phủ định sự tuyệt đối "thật" của nó thôi. Ảo chỉ là cái không hiện ra cho thấy rõ, cái mập mờ ẩn núp bên trong.
 				- News
 					- [‘Reverse Mathematics’ Illuminates Why Hard Problems Are Hard](https://www.quantamagazine.org/reverse-mathematics-illuminates-why-hard-problems-are-hard-20251201/): Instead of starting with a standard set of axioms and proving a theorem, they swapped in a theorem for one of the axioms and then proved that axiom. They used this approach, called **reverse mathematics**, to prove that many distinct theorems in complexity theory are actually exactly equivalent.
 					- [Flat vs curved spacetime view of black hole](https://scitechdaily.com/new-theory-suggests-weve-been-wrong-about-black-holes-for-60-years/)

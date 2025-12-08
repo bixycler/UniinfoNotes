@@ -965,6 +965,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Đàn bầu is played soley with [flageolet tones (pinched harmonics)](https://en.wikipedia.org/wiki/String_harmonic), which is an advanced technique on other instruments like violin, guitar, etc.
 				- The sound is pure, glassy, and floating, because it's made entirely from string harmonics – no pressed tones. That's why the đàn bầu sounds so “airy” and “spiritual”.
 		- DONE Continue with [planning](((67760c43-5cbd-4b4f-8fd9-5cedf804f56a))) to resolve [the conflict with company work](((6677b986-ada2-4c73-8a11-980cdf9cb6d4))).
+		  id:: 6926be1c-549f-4657-9760-eed54a585661
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-07-03 Thu 15:26:42]--[2025-07-03 Thu 16:33:25] =>  01:06:43
