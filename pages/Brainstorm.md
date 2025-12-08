@@ -301,7 +301,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- op = (`then`) make equal the variable/pore/opening = actual = dynamic behavior
 					- The effect circle is driven by operator, using the external **concrete content** (solid arrow) to close the gap between knowledge and info, potential and actual, to restore the ideal equality qualified by the observer.
 					- The gap/unknown/diff is the negative first cause which is dual to and inseparable from the positive first cause (equal, match) in all equations.
-						- ⟪A = B⟫ has positive meaning of the equality of A's extent and B'extent
+						- ⟪A = B⟫ has two inseparable meanings:
+							- positive meaning: A's extent is equal to B'extent
+							- negative meaning: there must be an inherent difference between A and B, as shown with their different symbols, for the equation to be non-trivial.
 				- intensible ob vs extensible op
 			- programming paradigms have various ways to **extend the op from bottom up**: assignment, statement, function, object, ...
 			- now, uninet gives a way to **intend the ob from top down**: learn from history, take the common path to form new & more intensive intents.
