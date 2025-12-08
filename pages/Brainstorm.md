@@ -296,9 +296,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- ((676545e8-429c-41e7-97ed-12cc8e8870d4)) ⟪-1 + 1 = 0⟫: Some pores are abstracted from concrete segments (arrows) of past paths. Each set of complement arrows cancel out into an empty pore.
 			- obop = `if then` = qualifier = ((677e76ed-b324-4608-b146-90e8fcfa0c32))
 				- ob = (`if`) equal match = potential = possible = static criteria
-					- The observer matches external **abstract form** (porous circle) with an intent in the body whose distance from the current state center is $d$.
+					- The observer matches an external **abstract form** (porous circle) with an ideal intent in the body whose distance from the current state center is $d$.
 						- $d$ is the gap between knowledge and info, potential and actual, ideal and reality.
-					- The current state is activated by the current environment and mental factors like emotion.
+					- For each ideal intent, there's a corresponding actual state grounded by the current environment.
+						- When the ideal intent is distant and strong enough, it can generate an imaginary state in the body, existing in parallel with the actual state, so that the attention can switch between them.
 				- Restoring force: The effect circle is triggered by the distance $d$ to zero it down.
 					- The restoring force is proportional to self-idealness of the intent form and reciprocal of the distance $d$.
 					- This is the [life equation](https://creatzynotes.blogspot.com/2021/04/tuy-duyen-thuan-tu-nhien-oi-dien-va.html) between the want and the get.
