@@ -271,9 +271,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  id:: 68df2364-c484-4ddd-b4b5-19ef90228ef4
 		  collapsed:: true
 		  :LOGBOOK:
-		  CLOCK: [2025-10-03 Fri 08:14:14]
-		  CLOCK: [2025-10-03 Fri 08:15:06]
-		  CLOCK: [2025-10-03 Fri 08:15:08]
+		  CLOCK: [2025-10-03 Fri 08:15:08]--[2025-12-08 Mon 18:33:07] =>  1594:17:59
+		  CLOCK: [2025-12-08 Mon 18:33:51]
 		  :END:
 			- state = mind = intent sequence/tree = [attention](((68f5a6d2-5faa-4889-bd79-30e9c553c314))) = working memory = the parts of the body of knowledge activated by center-projection = arrow in circle
 			  id:: 69364644-747f-4995-815f-7ac637e9ea0b
@@ -294,7 +293,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					  id:: 69364e66-5a66-4e63-830a-50dc530205be
 					- Some pores are names received/inherited from others.
 					- ((676545e8-429c-41e7-97ed-12cc8e8870d4)) ⟪-1 + 1 = 0⟫: Some pores are abstracted from concrete segments (arrows) of past paths. Each set of complement arrows cancel out into an empty pore.
-			- obop = `if then` = qualifier = ((677e76ed-b324-4608-b146-90e8fcfa0c32))
+			- obop = `if then` = qualifier = ((677e76ed-b324-4608-b146-90e8fcfa0c32)) = ((66f267f7-01f9-47b9-8376-abd27fdf2930))
+			  id:: 6926be1c-045f-4cc8-8df3-129862ecf3de
 				- ob = (`if`) equal match = potential = possible = static criteria
 					- The observer matches an external **abstract form** (porous circle) with an ideal intent in the body whose distance from the current state center is $d$.
 						- $d$ is the gap between knowledge and info, potential and actual, ideal and reality.
