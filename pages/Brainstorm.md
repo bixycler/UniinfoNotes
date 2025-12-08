@@ -287,7 +287,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Corkei's agentic AI = top state
 				- Each autonotion (node) has its own knowledge, accumulated from its own history, and activated to the state at this node, spreading to next nodes in the cone of attention.
 			- body = knowledge accumulated from effect flows in the history = circle
-				- Each circle is
+				- Each circle is [porous](((6926be23-4a65-4138-8864-3e293fd37119))) with many pores opening to other circles as relations, and to environment as ignorance/question/problem.
+					- Each pore is a whole unknown world [abstracted into a name](((692818bf-7a44-4804-b444-1bdb45e3ddb4))) ε-abstraction , e.g. function name, object name.
 			- obop = if then = qualifier
 				- ob = if equal = potential = possible
 				- op = make equal = actual

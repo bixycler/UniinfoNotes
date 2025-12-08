@@ -5247,7 +5247,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- top down arrow = cause flow: input data, invocation control
 						- bottom up arrow = effect flow: output data, returning control
 					- circle-based working = circular order = [equalization](((68871ce1-eb57-4be3-ad48-45af6ccb5d49)))
+					  id:: 6926be23-4a65-4138-8864-3e293fd37119
 						- “Turn” is the porous circle ◌🧽 that's whole in counting ([𝜏](https://en.wikipedia.org/wiki/Tau_(mathematics))) and partial in motion.
+						  id:: 6926be23-30a6-4054-82c8-78fc2566f57e
 							- > “Turn” counts as stillness in motion.
 							- “Turn” is densely open just like the set of rational numbers on the real line.
 						- Each pore is a window to another circle, either a downward branch or an upward stalk: question, problem, task, function (interface).
