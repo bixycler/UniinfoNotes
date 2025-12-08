@@ -296,12 +296,14 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- ((676545e8-429c-41e7-97ed-12cc8e8870d4)) ⟪-1 + 1 = 0⟫: Some pores are abstracted from concrete segments (arrows) of past paths. Each set of complement arrows cancel out into an empty pore.
 			- obop = `if then` = qualifier = ((677e76ed-b324-4608-b146-90e8fcfa0c32))
 				- ob = (`if`) equal match = potential = possible = static criteria
-					- The observer matches external **abstract form** (porous circle) with an intent in the body whose distance from the current  is .
-					- The effect circle is triggered by
-					- The abstract form is both the (intentional) first cause – matching with external form – and the final cause – the target ideal form for the effect flow to restore to.
-					- ((69367cf5-9894-4fb8-a293-2b1109777fc9)): The gap/unknown/diff is the actual first cause which is dual to and inseparable from the intentional first cause (equal, match).
+					- The observer matches external **abstract form** (porous circle) with an intent in the body whose distance from the current state center is $d$.
+						-
+					- Restoring force: The effect circle is triggered by the distance $d$ to zero it down.
+						- The restoring force is proportional to self-idealness of the intent form and reciprocal of the distance $d$.
+					- The intent form is both the (intentional) first cause – matching with external form – and the final cause – the target ideal form for the effect flow to restore to.
+					- ((69367cf5-9894-4fb8-a293-2b1109777fc9)): The gap/unknown/diff $d$ is the actual first cause which is dual to and inseparable from the intentional first cause (equal, match).
 				- op = (`then`) make equal the variable/pore/opening = actual = dynamic behavior
-					- The effect circle is driven by the operator, using the external **concrete content** (solid arrow) to close the gap between knowledge and info, potential and actual, to restore the ideal equality qualified by the observer.
+					- The effect circle is driven by the operator, using the external **concrete content** (solid arrow) to close the the distance $d$.
 				- intensible ob vs extensible op
 			- programming paradigms have various ways to **extend the op from bottom up**: assignment, statement, function, object, ...
 			- now, uninet gives a way to **intend the ob from top down**: learn from history, take the common path to form new & more intensive intents.
