@@ -298,12 +298,13 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- ob = (`if`) equal match = potential = possible = static criteria
 					- The observer matches external **abstract form** (porous circle) with an intent in the body whose distance from the current state center is $d$.
 						- $d$ is the gap between knowledge and info, potential and actual, ideal and reality.
-					- Restoring force: The effect circle is triggered by the op to close distance $d$ by transitioning the state.
-						- The restoring force is proportional to self-idealness of the intent form and reciprocal of the distance $d$.
-					- The intent form is both the (intentional) first cause – matching with external form – and the final cause – the target ideal form for the effect flow to restore to.
-					- ((69367cf5-9894-4fb8-a293-2b1109777fc9)): The gap/unknown/diff $d$ is the actual first cause which is dual to and inseparable from the intentional first cause (equal, match).
 				- op = (`then`) make equal the variable/pore/opening = actual = dynamic behavior
 					- The effect circle is driven by the operator, using the external **concrete content** (solid arrow) to close the the distance $d$.
+				- Restoring force: The effect circle is triggered by the distance $d$ to transitioning the state toward the ideal form (intent).
+					- The restoring force is proportional to self-idealness of the intent form and reciprocal of the distance $d$.
+					-
+				- The intent form is both the (intentional) first cause – matching with external form – and the final cause – the target ideal form for the effect flow to restore to.
+				- ((69367cf5-9894-4fb8-a293-2b1109777fc9)): The gap/unknown/diff $d$ is the actual first cause which is dual to and inseparable from the intentional first cause (equal, match).
 				- intensible ob vs extensible op
 			- programming paradigms have various ways to **extend the op from bottom up**: assignment, statement, function, object, ...
 			- now, uninet gives a way to **intend the ob from top down**: learn from history, take the common path to form new & more intensive intents.
