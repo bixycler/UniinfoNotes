@@ -297,8 +297,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- obop = `if then` = qualifier = ((677e76ed-b324-4608-b146-90e8fcfa0c32))
 				- ob = (`if`) equal match = potential = possible = static criteria
 					- The observer matches external **abstract form** (porous circle) with an intent in the body whose distance from the current state center is $d$.
-						-
-					- Restoring force: The effect circle is triggered by the distance $d$ to zero it down.
+						- $d$ is the gap between knowledge and info, potential and actual, ideal and reality.
+					- Restoring force: The effect circle is triggered by the op to close distance $d$ by transitioning the state.
 						- The restoring force is proportional to self-idealness of the intent form and reciprocal of the distance $d$.
 					- The intent form is both the (intentional) first cause – matching with external form – and the final cause – the target ideal form for the effect flow to restore to.
 					- ((69367cf5-9894-4fb8-a293-2b1109777fc9)): The gap/unknown/diff $d$ is the actual first cause which is dual to and inseparable from the intentional first cause (equal, match).
