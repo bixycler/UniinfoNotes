@@ -295,10 +295,12 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- Some pores are names received/inherited from others.
 					- ((676545e8-429c-41e7-97ed-12cc8e8870d4)) ⟪-1 + 1 = 0⟫: Some pores are abstracted from concrete segments (arrows) of past paths. Each set of complement arrows cancel out into an empty pore.
 			- obop = `if then` = qualifier = ((677e76ed-b324-4608-b146-90e8fcfa0c32))
-				- ob = final cause = (`if`) equal match = potential = possible = static criteria
-					- The effect circle is triggered by the match of external content with an intent in the body.
-				- op = first cause = (`then`) make equal the variable/pore/opening = actual = dynamic behavior
-					- The effect circle is driven by the gap between knowledge and info, potential and actual.
+				- ob = (`if`) equal match = potential = possible = static criteria
+					- The effect circle is triggered by observing the match of external **abstract form** (porous circle) with an intent in the body.
+					- The abstract form is both the first cause – matching with external form – and the final cause – the target ideal form for the effect flow to restore to.
+				- op = (`then`) make equal the variable/pore/opening = actual = dynamic behavior
+					- The effect circle is driven by operator, using the external **concrete content** (solid arrow) to close the gap between knowledge and info, potential and actual, to restore the ideal equality qualified by the observer.
+					- The gap/unknown/
 				- intensible ob vs extensible op
 			- programming paradigms have various ways to **extend the op from bottom up**: assignment, statement, function, object, ...
 			- now, uninet gives a way to **intend the ob from top down**: learn from history, take the common path to form new & more intensive intents.
