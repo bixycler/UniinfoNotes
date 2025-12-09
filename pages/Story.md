@@ -5599,6 +5599,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 9th, i've confirmed that *all of my activities lead to the Unïnfo*, hence my inherit difficulty in focusing on other tasks due to the great suction of such a black hole.
 			  collapsed:: true
 				- That's the “universal” part of the Unïnfo. It's not given to me from anywhere else, but has just emerged right from within myself, esp. my formal/official works.
+				- Shared with Huy:
+					- Cái "giới" mà tui đang tập bây giờ ko phải là 5 giới ở đời, mà là separation of concerns: dựng lên hàng rào giữa Uniinfo và công việc "cơ não". Sự tách biệt, những bức tường, hàng rào là thứ đã làm tui quá đau nên bên trong tui đã hình thành cơ chế tự vệ là "phá vỡ mọi rào cản, mọi biên giới, mọi luật lệ".... chỉ để mình chứng thực rằng khi xuyên qua những biên giới đó, mình làm tổn thương người mình thương, làm đau khổ cho chính mình... thì mới chấp nhận được là "bản chất luôn có khổ, chia cắt cũng khổ, mà nhập nhằng cũng khổ" nên chỉ có 1 giải pháp là "chấp nhận khổ để giữ cân bằng, để dãn cái khổ ra không để nó dồn lại một cục thôi".
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((692e5569-b7e9-458e-a3a2-44f7ed57a8f1))
