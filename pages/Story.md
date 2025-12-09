@@ -5596,6 +5596,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- [‘Reverse Mathematics’ Illuminates Why Hard Problems Are Hard](https://www.quantamagazine.org/reverse-mathematics-illuminates-why-hard-problems-are-hard-20251201/): Instead of starting with a standard set of axioms and proving a theorem, they swapped in a theorem for one of the axioms and then proved that axiom. They used this approach, called **reverse mathematics**, to prove that many distinct theorems in complexity theory are actually exactly equivalent.
 					- [Flat vs curved spacetime view of black hole](https://scitechdaily.com/new-theory-suggests-weve-been-wrong-about-black-holes-for-60-years/)
 			- 8th, ((6926be1c-045f-4cc8-8df3-129862ecf3de))
+			- 9th, i've confirmed that *all of my activities lead to the Unïnfo*, hence my inherit difficulty in focusing on other tasks due to the great suction of the black hole.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((692e5569-b7e9-458e-a3a2-44f7ed57a8f1))
