@@ -5605,7 +5605,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Theo cách nói vô ngã thì Gandhi tuy bỏ được cái Tôi cá nhân, nhưng lại vướng cái Tôi quốc gia, dân tộc.
 				- Unity has strength over external force, but not always good internally.
 					- The parody of the Japanese “Lesson of the Three Arrows” ([三本の矢](https://ja.wikipedia.org/wiki/%E4%B8%89%E5%AD%90%E6%95%99%E8%A8%93%E7%8A%B6), from [Mōri Motonari](https://en.wikipedia.org/wiki/M%C5%8Dri_Motonari)) in the TV series [志村けんのだいじょうぶだぁ](https://ja.wikipedia.org/wiki/%E5%BF%97%E6%9D%91%E3%81%91%E3%82%93%E3%81%AE%E3%81%A0%E3%81%84%E3%81%98%E3%82%87%E3%81%86%E3%81%B6%E3%81%A0%E3%81%81) (It'll Be Alright, Ken Shimura)
-						- From Wikipedia page of the lesson:
+						- From Wikipedia page of the lesson, [Works Incorporating the Lesson in Dramas, etc.](https://ja.wikipedia.org/wiki/%E4%B8%89%E5%AD%90%E6%95%99%E8%A8%93%E7%8A%B6#%E4%B8%89%E7%9F%A2%EF%BC%88%E3%81%95%E3%82%93%E3%81%97%EF%BC%89%E3%81%AE%E8%A8%93%EF%BC%88%E3%81%8A%E3%81%97%EF%BC%89%E3%81%88%E3%81%AB%E7%94%B1%E6%9D%A5%E3%81%99%E3%82%8B%E3%82%82%E3%81%AE):
+							- **Parody Setup:** An elderly lord attempts to preach the lesson of unity to his three sons.
+							- **Punchline Type A (The Wrong Break):** The arrows break **even when they are bundled** as three or more.
+							- **Punchline Type B (The Self-Destruction):** The single arrow is impossible to break. When the lord forces it, the punchline is either:
+								- The **lord breaks his own bone** (e.g., his arm).
+								- A **pillar breaks**, leading to the **complete destruction of the mansion**.
+							- **Conclusion:** In either version, the lord ultimately gives up on the lesson and tells his sons: **"Do as you like"** (好きにしろ).
 						- [弓矢のコント集](https://www.nicovideo.jp/watch/sm22176165)
 						- [志村けん 3本の矢① shimura ken](https://www.youtube.com/watch?v=zPZYKOGy4T8)
 						  collapsed:: true
