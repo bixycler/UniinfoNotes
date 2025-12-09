@@ -5605,6 +5605,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Theo cách nói vô ngã thì Gandhi tuy bỏ được cái Tôi cá nhân, nhưng lại vướng cái Tôi quốc gia, dân tộc.
 				- Unity has strength over external force, but not always good internally.
 					- The parody of the Japanese “Lesson of the Three Arrows” ([三本の矢](https://ja.wikipedia.org/wiki/%E4%B8%89%E5%AD%90%E6%95%99%E8%A8%93%E7%8A%B6), from [Mōri Motonari](https://en.wikipedia.org/wiki/M%C5%8Dri_Motonari)) in the TV series [志村けんのだいじょうぶだぁ](https://ja.wikipedia.org/wiki/%E5%BF%97%E6%9D%91%E3%81%91%E3%82%93%E3%81%AE%E3%81%A0%E3%81%84%E3%81%98%E3%82%87%E3%81%86%E3%81%B6%E3%81%A0%E3%81%81) (It'll Be Alright, Ken Shimura)
+						- From Wikipedia page of the lesson:
 						- [弓矢のコント集](https://www.nicovideo.jp/watch/sm22176165)
 						- [志村けん 3本の矢① shimura ken](https://www.youtube.com/watch?v=zPZYKOGy4T8)
 						  collapsed:: true
