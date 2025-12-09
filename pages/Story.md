@@ -5619,6 +5619,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- [志村けん ３本の矢② shimura ken](https://www.youtube.com/watch?v=h8XfnkRjbMA)
 						  collapsed:: true
 							- {{video https://www.youtube.com/watch?v=h8XfnkRjbMA}}
+						- [](https://x.com/onodashimuracha/status/1230168518596804608)
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((692e5569-b7e9-458e-a3a2-44f7ed57a8f1))
