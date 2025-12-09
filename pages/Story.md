@@ -5613,13 +5613,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- A **pillar breaks**, leading to the **complete destruction of the mansion**.
 							- **Conclusion:** In either version, the lord ultimately gives up on the lesson and tells his sons: **"Do as you like"** (好きにしろ).
 						- [弓矢のコント集](https://www.nicovideo.jp/watch/sm22176165): both type A & type B punchlines
-						- [志村けん 3本の矢① shimura ken](https://www.youtube.com/watch?v=zPZYKOGy4T8)
+						- [志村けん 3本の矢① shimura ken](https://www.youtube.com/watch?v=zPZYKOGy4T8): Type A punchline
 						  collapsed:: true
 							- {{video https://www.youtube.com/watch?v=zPZYKOGy4T8}}
-						- [志村けん ３本の矢② shimura ken](https://www.youtube.com/watch?v=h8XfnkRjbMA)
+						- [志村けん ３本の矢② shimura ken](https://www.youtube.com/watch?v=h8XfnkRjbMA): Type B punchline
 						  collapsed:: true
 							- {{video https://www.youtube.com/watch?v=h8XfnkRjbMA}}
-						- [3月4日(水)夜7時 (Special)](https://x.com/onodashimuracha/status/1230168518596804608): Type B punchline
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((692e5569-b7e9-458e-a3a2-44f7ed57a8f1))
