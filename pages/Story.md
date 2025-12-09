@@ -5612,7 +5612,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- The **lord breaks his own bone** (e.g., his arm).
 								- A **pillar breaks**, leading to the **complete destruction of the mansion**.
 							- **Conclusion:** In either version, the lord ultimately gives up on the lesson and tells his sons: **"Do as you like"** (好きにしろ).
-						- [弓矢のコント集](https://www.nicovideo.jp/watch/sm22176165)
+						- [弓矢のコント集](https://www.nicovideo.jp/watch/sm22176165): both type A & type B punchlines
 						- [志村けん 3本の矢① shimura ken](https://www.youtube.com/watch?v=zPZYKOGy4T8)
 						  collapsed:: true
 							- {{video https://www.youtube.com/watch?v=zPZYKOGy4T8}}
