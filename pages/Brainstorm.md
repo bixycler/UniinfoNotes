@@ -306,8 +306,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- op = (`then`) make equal the variable/pore/opening = actual = dynamic behavior
 					- The effect circle is driven by the operator, using the external **concrete content** (solid arrow) to close the the distance $d$.
 					- The distance is closed by both transitioning the state toward the ideal form (intent) and updating the ideal via learning.
-				- Rotation:
-					- The ob projects radially from external form back to an ideal intent
+				- Operation = Rotation = ((67a98760-71fa-4033-9c42-f3025d632d04))
+					- The ob projects radially from external form back to an ideal intent $i$ at phase $\hat{i}$.
+					- The op tries to rotate the current state $p$ an angle $\hat{d} = \hat{i} - \hat{p}$ acrossing distance $d = i - p$.
 				- The intent form is both the (intentional) first cause – matching with external form – and the final cause – the target ideal form for the effect flow to restore to.
 				- ((69367cf5-9894-4fb8-a293-2b1109777fc9)): The gap/unknown/diff $d$ is the actual first cause which is dual to and inseparable from the intentional first cause (equal, match).
 				- intensible ob vs extensible op
