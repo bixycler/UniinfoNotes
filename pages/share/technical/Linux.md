@@ -1,8 +1,8 @@
-## Linux
-id:: 66949495-3846-4f89-9ea5-c62b624d282c
-:LOGBOOK:
-CLOCK: [2024-07-15 Mon 11:04:21]
-:END:
+- ## Linux
+  id:: 66949495-3846-4f89-9ea5-c62b624d282c
+  :LOGBOOK:
+  CLOCK: [2024-07-15 Mon 11:04:21]
+  :END:
 	- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Linux
 	- Distributions
 	  id:: 66faa5fa-fdde-4dd5-a27f-442cea4ba47a
@@ -33,14 +33,11 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 		  collapsed:: true
 		  file index-data node
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Inode
-			- hard link
-			  id:: 671f5617-1163-4ffc-b65a-b3234e471db0
-			  is just an alias, i.e. a full-path-name, for an ((671f438b-617a-4fc5-88ee-e42f07b67b50)).
+			- id:: 671f5617-1163-4ffc-b65a-b3234e471db0
 				- All aliases are equivalent, no source/main name like ((671f5784-d89b-4a4a-a6e7-f02a0805322f)).
 				- `mv`/`rm` just move/remove names, not the inode. The inode is only removed when there's no name pointing to it.
 				- New MacOS (10.5+) and some (old) Linux distributions allow hard link of directory, but most modern Linux distributions prohibit it due to its ambiguousness
-		- symbolic link (symlink)
-		  id:: 671f5784-d89b-4a4a-a6e7-f02a0805322f
+		- id:: 671f5784-d89b-4a4a-a6e7-f02a0805322f
 		  collapsed:: true
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Symbolic_link
 			- Mimics:
