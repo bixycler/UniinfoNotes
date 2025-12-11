@@ -309,7 +309,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Operation = Rotation = ((67a98760-71fa-4033-9c42-f3025d632d04))
 					- The ob radially projects the external form back to the ideal intent $i$ at phase $\hat{i}$.
 					- The op tries to rotate the current state $p$ an angle $\hat{d} = \hat{i} - \hat{p}$ acrossing distance $d = i - p$.
-					- The effect circle circulates between $\hat{i}$ & $\hat{p}$ to reduce $\hat{d}$ to zero, and the final destination $i_f$ is usually more concrete (outward) than the original ideal $i_0$.
+					- Effect circle: the state circulates between $\hat{i}$ & $\hat{p}$ to reduce $\hat{d}$ to zero, and the final destination $i_f$ is usually more concrete (outward) than the original ideal $i_0$.
 				- The intent form is both the (intentional) first cause – matching with external form – and the final cause – the target ideal form for the effect flow to restore to.
 				- ((69367cf5-9894-4fb8-a293-2b1109777fc9)): The gap/unknown/diff $d$ is the actual first cause which is dual to and inseparable from the intentional first cause (equal, match).
 				- intensible ob vs extensible op
