@@ -11,6 +11,28 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
+		- Round-trip projection determines norm, roundness, orthogonality
+		  id:: 693f644f-a884-4ea5-8ae4-775ae7bb6e43
+		  collapsed:: true
+			- Square in norm squared is the double protection: the self is projected to a base then projected back to the self's base, i.e. the self-image via round-trip projection.
+			- Pythagorean theorem: 1 = self = sum of self-images via complement orthogonal bases
+				- Geometry: Einstein's proof, but with projection interpretation
+				- Vector multiplication:
+					- The common way of pure algebraic distribution is nearly meaningless: $c^2 = (a+b)^2 = a^2 + b^2 + 2ab$
+					- The 1-way projection distribution is clearer about the addition of images: $c^2 = (a+b)c = ac + bc$
+						- This is the linearity
+					- The round-trip projection distribution shows the meaning of complementarity (orthogonality, norm):
+						- $a = i_a c = k_a c$
+						- $ac = a i_c c = i_a c i_c c = k_a^2 c^2 = a^2$
+						- $c^2 = ac + bc = (k_a^2 + k_b^2)c^2$
+						- $k_a^2 + k_b^2 = 1$
+			- Effect circle generates imaginary unit $i$ and orthogonality
+			- Round trip signaling generates spacetime relativity
+			- Linearity = linear addition of each sense base
+			- Orthogonal Complementarity = effect circle around all sense bases of the obop
+				- Phase is position in that circle, where ob := 0
+				- Different distributions of content in the circle yield different Orthogonal Complementarities.
+				- This circle is (similar to) the unit circle of roots of unity, where each root is a base.
 		- Traditional functional design versus ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71))'s interactive design
 		  id:: 69315b47-7676-483f-9aa2-72e3f4d02194
 		  collapsed:: true

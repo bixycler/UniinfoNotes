@@ -5645,6 +5645,17 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- ...
 					- Heisenberg's matrix formulation closely matches Uniinfo's intensionalization.
 					- The [principle of max entropy](https://www.popularmechanics.com/science/math/a69623099/breaking-law/) in material breaking matches the law of stationary actions.
+					- ((693f644f-a884-4ea5-8ae4-775ae7bb6e43))
+				- A dream about various things (diversity), but only things relevant to the current topics were recorded.
+				  collapsed:: true
+					- The transition from my state of a “useless machine” in the previous project, to the enthusiasm in the current project of “problem solving”, has shown how strong i'm sucked into the problems.
+						- The art = the opposite of mechanical, is pressing inside.
+						- The limit of the known, accepting the unknown (problem, question, gap).
+						- TODO copy chat with leader Quân
+						- [Beaver "Technology"](https://youtu.be/bxEd_wbxYX0)
+					- obop as 2 phases where ob = 0 = 1 (whole, immediate) and op = 1/2 (intermediate)  => matching & phase coherence & wave interference => Schrodinger's wave function formulation
+					- Huygens principle = exploring every possibilities => Feynman's path integral formulation
+				-
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((692e5569-b7e9-458e-a3a2-44f7ed57a8f1))
