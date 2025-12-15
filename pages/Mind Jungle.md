@@ -1715,7 +1715,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  collapsed:: true
 		- ### Circle Dynamic
 		  id:: 67bd3614-2520-4a5d-8b3f-44f60901844e
-		  collapsed:: true
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67bd3614-2520-4a5d-8b3f-44f60901844e)) is the basic dynamic...
 		- ### Calculus of Dynamics
 		  id:: 69292bbb-c2dc-496d-9a04-bb4529407b25
@@ -3375,6 +3374,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- The Equal of the obop is tricky and contradictory: “Circle = Arrow” while they are apparently different!
 				- Different things being equal is the nature of Circle, i.e. ((66f3e66a-8afb-4b20-bf85-111bc4aee09c)).
 				- Contradiction is the nature of Arrow, i.e. ((66f3e588-9094-45af-9dff-2225c3ac39ab)).
+				  id:: 6926be20-fe64-46a4-96e4-d53fae9045df
 					- Contradiction is discussed in [dialectical materialism](https://en.wikipedia.org/wiki/Dialectical_materialism) via the statement “conflict is the driving force of change and transformation”.
 				- Positively, Equal is the “unifier” in dynamic sense, but negatively, Equal is the “liar” in static sense. And i usually say “*the [Liar Paradox](https://en.wikipedia.org/wiki/Liar_paradox) is the creator of all things!*”
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
@@ -3413,7 +3413,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									  “Quảng đức nhược bất túc” 
 									  “Those with noble Virtue seem lacking”
 									  “Người có Đức lớn dường như thiếu Đức”
-				- FoC dynamics ~ circle dynamics: equal = center, arrows = out & in radius, circle = trajectory of the arrowhead
+				- FoC dynamics ~ ((67bd3614-2520-4a5d-8b3f-44f60901844e)): equal = center, arrows = out & in radius, circle = trajectory of the arrowhead
 				  id:: 686e580a-876e-47cf-b2cc-1381bc64cdb9
 				  collapsed:: true
 					- point equal: the init close loop of arrows
