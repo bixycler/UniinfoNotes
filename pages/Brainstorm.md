@@ -29,10 +29,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Effect circle generates imaginary unit $i$ and orthogonality
 			- Round trip signaling generates spacetime relativity
 			- Linearity = linear addition of each sense base
-			- Orthogonal Complementarity = effect circle around all sense bases of the obop
+			- Orthogonal Complementarity = effect circle around all sense bases of the obop = ((67bd3614-2520-4a5d-8b3f-44f60901844e))
 				- Phase is position in that circle, where ob := 0
 				- Different distributions of content in the circle yield different Orthogonal Complementarities.
-				- This circle is (similar to) the unit circle of roots of unity, where each root is a base.
+				- This circle is (similar to) the unit circle of [roots of unity](((692d5030-9310-4835-a021-87e88136446e))), where each root is a base.
 		- Traditional functional design versus ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71))'s interactive design
 		  id:: 69315b47-7676-483f-9aa2-72e3f4d02194
 		  collapsed:: true

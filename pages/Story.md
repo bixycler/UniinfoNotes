@@ -5654,15 +5654,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Nhưng đợt này anh vừa hé lộ sự thật ra cho Hải (hôm anh xin về sớm trốn họp đó), thì hôm sau đã bị "đuổi" khỏi dự án đó liền... cũng làm anh hơi sốc 🥴.
 							- Sự chuyển dự án ngay và luôn đó như một cú tát thẳng vào mặt cho anh tỉnh ngộ: mày vẫn vậy thôi, chẳng khá hơn được tí nào đâu, đừng cố đấm ăn xôi nữa, làm hỏng hết nồi xôi của người ta chứ chả ăn được miếng xôi nào đâu 😜!
 						- [Beaver "Technology"](https://youtu.be/bxEd_wbxYX0)
+					- ((693f644f-3825-41c0-81db-cc67de9263ea))
 					- ((693f644f-d49a-4e43-aa32-c5696dcce2e6))
-				- Other contemplation
-					- obop as 2 phases where ob = 0 = 1 (whole, immediate) and op = 1/2 (intermediate)  => matching & phase coherence & wave interference => Schrodinger's wave function formulation
+				- Contemplations
+					- obop as 2 phases where ob = 0 = 1 (whole, immediate) and op = 1/2 (intermediate)  => matching & phase coherence & wave interference => Schrodinger's [wave function formulation](https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation)
+					  id:: 693f644f-3825-41c0-81db-cc67de9263ea
 					- [Huygens principle](https://en.wikipedia.org/wiki/Huygens%E2%80%93Fresnel_principle) = exploring every possibilities => Feynman's [path integral formulation](https://en.wikipedia.org/wiki/Path_integral_formulation)
 					  id:: 693f644f-d49a-4e43-aa32-c5696dcce2e6
-					- Heisenberg's matrix formulation closely matches Uniinfo's intensionalization.
+					- Heisenberg's [matrix formulation](https://en.wikipedia.org/wiki/Matrix_mechanics) closely matches Uniinfo's intensionalization: observables = sense bases
 					- The [principle of max entropy](https://www.popularmechanics.com/science/math/a69623099/breaking-law/) in material breaking matches the law of stationary actions.
 					- ((693f644f-a884-4ea5-8ae4-775ae7bb6e43))
-				-
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((692e5569-b7e9-458e-a3a2-44f7ed57a8f1))
