@@ -5620,9 +5620,35 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- [志村けん ３本の矢② shimura ken](https://www.youtube.com/watch?v=h8XfnkRjbMA): Type B punchline
 						  collapsed:: true
 							- {{video https://www.youtube.com/watch?v=h8XfnkRjbMA}}
+			- 13-14th, weekends
+			  collapsed:: true
+				- While the order of acceleration → velocity → position is the natural and correct causal chain in physics, abstractions like infinity, infinitesimal leads to the **artificial “independence”** between derivatives, like in [Euler method](https://en.wikipedia.org/wiki/Euler_method) and [phase space](https://en.wikipedia.org/wiki/Phase_space). 
+				  collapsed:: true
+					- Artificial: such “independence” is the result of abstracting dependency away by taking limit, which is fine by infinity.
+						- With Heisenberg uncertainty, Quantum mechanics has shown that such infinitesimal, pointwise kinematic attributes like “instantaneous velocity”, have no operational or physical reality.
+						- The term “uncertainty” in QM is misleading. It should be “correlation” or “interdependence” which is derived from the non-commutativity of observables.
+					- It's interesting that such artifacts have been proven to have severe subsequences, like the lack of [numerical stability](https://en.wikipedia.org/wiki/Numerical_stability) in simulation.
+					- And today, i saw a [video](https://youtu.be/nCg3aXn5F3M) saying that by simply following the right casual chain, updating velocity first then used that **updated velocity** to update position, does restore numeric stability! 😜
+					- Until now, i've never imagined that people can do position update before velocity update. How can such an anti-casuality action be done 🤔?!
+					- The orbit of 2-shear map on phase space is an ellipse.
+						- For a time step $h$, the harmonic oscillator is:
+							- $a = - h x$
+							- $v' = v - h x$
+							- $x' = x + h v'$
+							- orbit: $x^2 + v^2 - h x v = R$
+								- $R = 1$ for 4 inits (0, ±1) and (±1, 0)
+						- The cross-term $h v x$ is the result of off-diagonal elements in the matrix, showing the correlation between x & v, just like in QM.
+				- Google sessions 
+				  collapsed:: true
+					- Android: Galaxy A06 5G (main, prompt), SM-A066B (= Galaxy A06 5G, Google [system] app for security check)
+					- Linux: CPU000375 (HTV), OptiPlex 3050 (Antigravity @ HTV)
+				- ...
+					- Heisenberg's matrix formulation closely matches Uniinfo's intensionalization.
+					- [the principle of max entropy](https://www.popularmechanics.com/science/math/a69623099/breaking-law/) in material breaking
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((692e5569-b7e9-458e-a3a2-44f7ed57a8f1))
+		  id:: 692e55d7-ad53-4cdc-bc65-2e698daa0ef9
 		- ((69085f61-6627-4c0a-a984-c2b5b411a292))
 		- ...
 		  id:: 688c70c8-1772-4007-bdf0-d621db895411
