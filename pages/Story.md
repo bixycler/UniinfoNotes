@@ -5654,9 +5654,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Nhưng đợt này anh vừa hé lộ sự thật ra cho Hải (hôm anh xin về sớm trốn họp đó), thì hôm sau đã bị "đuổi" khỏi dự án đó liền... cũng làm anh hơi sốc 🥴.
 							- Sự chuyển dự án ngay và luôn đó như một cú tát thẳng vào mặt cho anh tỉnh ngộ: mày vẫn vậy thôi, chẳng khá hơn được tí nào đâu, đừng cố đấm ăn xôi nữa, làm hỏng hết nồi xôi của người ta chứ chả ăn được miếng xôi nào đâu 😜!
 						- [Beaver "Technology"](https://youtu.be/bxEd_wbxYX0)
+					- ((693f644f-d49a-4e43-aa32-c5696dcce2e6))
+				- Other contemplation
 					- obop as 2 phases where ob = 0 = 1 (whole, immediate) and op = 1/2 (intermediate)  => matching & phase coherence & wave interference => Schrodinger's wave function formulation
 					- [Huygens principle](https://en.wikipedia.org/wiki/Huygens%E2%80%93Fresnel_principle) = exploring every possibilities => Feynman's [path integral formulation](https://en.wikipedia.org/wiki/Path_integral_formulation)
-				- Other contemplation
+					  id:: 693f644f-d49a-4e43-aa32-c5696dcce2e6
 					- Heisenberg's matrix formulation closely matches Uniinfo's intensionalization.
 					- The [principle of max entropy](https://www.popularmechanics.com/science/math/a69623099/breaking-law/) in material breaking matches the law of stationary actions.
 					- ((693f644f-a884-4ea5-8ae4-775ae7bb6e43))
