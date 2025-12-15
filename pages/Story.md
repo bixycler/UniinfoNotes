@@ -5644,7 +5644,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Linux: CPU000375 (HTV), OptiPlex 3050 (Antigravity @ HTV)
 				- ...
 					- Heisenberg's matrix formulation closely matches Uniinfo's intensionalization.
-					- [the principle of max entropy](https://www.popularmechanics.com/science/math/a69623099/breaking-law/) in material breaking
+					- The [principle of max entropy](https://www.popularmechanics.com/science/math/a69623099/breaking-law/) in material breaking matches the law of stationary actions.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((692e5569-b7e9-458e-a3a2-44f7ed57a8f1))
