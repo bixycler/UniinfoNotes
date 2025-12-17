@@ -21,17 +21,17 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- The common way of pure algebraic distribution is nearly meaningless: $c^2 = (a+b)^2 = a^2 + b^2 + 2ab = a^2 + b^2$
 						- Only one meaning is the orthogonality $a⋅b = 0$.
 					- The 1-way projection distribution is clearer about the addition of images: $c^2 = (a+b)c = ac + bc$
-						- This is the linearity of vector $c = a + b$ projected to linearity of their images on an axis $ac
+						- This is the linearity of vector $c = a + b$ projected to linearity of their images on an axis $c^2 = ac + bc$.
 					- The round-trip projection distribution shows the meaning of complementarity (orthogonality, norm):
 						- $a = i_a c = k_a c$
-						- $ac = a i_c c = i_a c i_c c = k_a^2 c^2 = a^2$
+						- $ac = a⋅i_c c = i_a c ⋅ i_c c = k_a^2 c^2 = a^2$
 						- $c^2 = ac + bc = (k_a^2 + k_b^2)c^2$
 						- $k_a^2 + k_b^2 = 1$
 			- Effect circle generates imaginary unit $i$ and orthogonality
 			- Round trip signaling generates spacetime relativity
 			- Linearity = linear addition of each sense base
 			- Orthogonal Complementarity = effect circle around all sense bases of the obop = ((67bd3614-2520-4a5d-8b3f-44f60901844e))
-				- Phase is position in that circle, where ob := 0
+				- Phase is position in that circle, where ob := 0.
 				- Different distributions of content in the circle yield different Orthogonal Complementarities.
 				- This circle is (similar to) the unit circle of [roots of unity](((692d5030-9310-4835-a021-87e88136446e))), where each root is a base.
 		- Traditional functional design versus ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71))'s interactive design
