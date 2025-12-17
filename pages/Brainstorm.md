@@ -18,9 +18,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Pythagorean theorem: 1 = self = sum of self-images via complement orthogonal bases
 				- Geometry: Einstein's proof, but with projection interpretation
 				- Vector multiplication:
-					- The common way of pure algebraic distribution is nearly meaningless: $c^2 = (a+b)^2 = a^2 + b^2 + 2ab$
+					- The common way of pure algebraic distribution is nearly meaningless: $c^2 = (a+b)^2 = a^2 + b^2 + 2ab = a^2 + b^2$
+						- Only one meaning is the orthogonality $a⋅b = 0$.
 					- The 1-way projection distribution is clearer about the addition of images: $c^2 = (a+b)c = ac + bc$
-						- This is the linearity
+						- This is the linearity of vector $c = a + b$ projected to linearity of their images on an axis $ac
 					- The round-trip projection distribution shows the meaning of complementarity (orthogonality, norm):
 						- $a = i_a c = k_a c$
 						- $ac = a i_c c = i_a c i_c c = k_a^2 c^2 = a^2$
