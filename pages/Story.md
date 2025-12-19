@@ -5664,7 +5664,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Heisenberg's [matrix formulation](https://en.wikipedia.org/wiki/Matrix_mechanics) closely matches Uniinfo's intensionalization: observables = sense bases
 					- The [principle of max entropy](https://www.popularmechanics.com/science/math/a69623099/breaking-law/) in material breaking matches the law of stationary actions.
 					- ((693f644f-a884-4ea5-8ae4-775ae7bb6e43))
-						- Shared with Huy:
+						- Shared with Huy on 19th Dec:
 						  collapsed:: true
 							- Còn những định lý cơ bản như ĐL Pythagore thì có mấy trăm cách chứng minh rồi mà tui vẫn thấy chưa có cái nào thoả mãn... vì đều dựa trên những tiền đề của hình học. Trong Unithread thì spacetime và hình học không phải là cơ bản mà chỉ là emergence từ cái mớ sợi mạch bùi nhùi kia.... nên tui vẫn cứ thắc mắc "tại sao $c^2 = a^2 + b^2$ ?!"
 							- Mãi tới cuối tuần vừa rồi, tui mới thấy ra được ý nghĩa "thread" của nó, và nó được thể hiện qua cách chứng minh của Einstein thời thiếu niên:
@@ -5676,8 +5676,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 										- Ặc, một ý nghĩa **tự kỷ** vãi! 🤪
 									- Còn ý nghĩa của Einstein thì khác, Einstein nói về tỉ lệ diện tích giữa các hình đồng dạng.
 								- Công thức: tỉ lệ phép chiếu qua 2 góc B & A là
-									- $k_a = \cos(B) = a/c = c_a/a => c_a⋅c = a^2$
-									- $k_b = \cos(A) = b/c = c_b/a => c_b⋅c = b^2$
+									- $k_a = \cos(B) = a/c = c_a/a ⇒ c_a⋅c = a^2$
+									- $k_b = \cos(A) = b/c = c_b/a ⇒ c_b⋅c = b^2$
 									- $⇒ c^2 = (c_a + c_b)⋅c = c_a⋅c + c_b⋅c = a^2 + b^2$
 							- Einstein chứng minh cách này hồi khoảng 12 tuổi!
 							  collapsed:: true
