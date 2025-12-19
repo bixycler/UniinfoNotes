@@ -5667,14 +5667,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 19th,...
 			  collapsed:: true
 				- Xmas: i've just prepared presents for the Lab and the Company.
-				  Lab: date?
-				  https://www.chatwork.com/#!rid97370046-2048311059521220608
-				  Cty: 15h00 ngày 23/12/2025 (Thứ 3)
-				  https://www.chatwork.com/#!rid81746279-2048727351898157056
-				- YEP
-				  Lab: 15h00 ngày 30/12/2025 (Thứ 3)
-				  Cty: Chiều thứ Sáu, ngày 23/01/2026
-				  https://www.chatwork.com/#!rid81746279-2053380260107661312
+				  Lab: [22/12/2025 (Thứ 2)](https://www.chatwork.com/#!rid97370046-2048311059521220608)
+				  Cty: [15h00 ngày 23/12/2025 (Thứ 3)](https://www.chatwork.com/#!rid81746279-2048727351898157056)
+				- YEP: This year will be the first time i attend YEP of the Company.
+				  Lab: [15h00 ngày 30/12/2025 (Thứ 3)](https://www.chatwork.com/#!rid97370046-2053412020795215872)
+				  Cty: [Chiều thứ Sáu, ngày 23/01/2026](https://www.chatwork.com/#!rid81746279-2053380260107661312)
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((692e5569-b7e9-458e-a3a2-44f7ed57a8f1))
