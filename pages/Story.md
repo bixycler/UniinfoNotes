@@ -5687,6 +5687,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- Mình không thể tự thấy chính mình, by def! Nhưng mình có thể thấy được mình thông qua phép soi gương toàn diện.
 			- 19th,...
 			  collapsed:: true
+				- [tldraw's Computer](https://computer.tldraw.com/p/nvFmYL2GyJxWHQHSqGYapY?signed_in=false) vs [Google's Opal](https://opal.google/)
 				- Xmas: i've just prepared presents for the Lab and the Company.
 				  Lab: [22/12/2025 (Thứ 2)](https://www.chatwork.com/#!rid97370046-2048311059521220608)
 				  Cty: [15h00 ngày 23/12/2025 (Thứ 3)](https://www.chatwork.com/#!rid81746279-2048727351898157056)
