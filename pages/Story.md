@@ -5691,7 +5691,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- tldraw's Computer allow loops, but lack advanced prompting
 					- Google's Opal provide advanced prompting but lack loops.
 				- Xmas: i've just prepared presents for the Lab and the Company.
-				  Lab: [22/12/2025 (Thứ 2)](https://www.chatwork.com/#!rid97370046-2048311059521220608)
+				  Lab: [14h ngày 25/12/2025 (Thứ 5)](https://www.chatwork.com/#!rid97370046-2048311059521220608)
 				  Cty: [15h00 ngày 23/12/2025 (Thứ 3)](https://www.chatwork.com/#!rid81746279-2048727351898157056)
 				- YEP: This year will be the first time i attend YEP of the Company.
 				  Lab: [15h00 ngày 30/12/2025 (Thứ 3)](https://www.chatwork.com/#!rid97370046-2053412020795215872)
