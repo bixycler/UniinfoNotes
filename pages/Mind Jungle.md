@@ -187,6 +187,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- Embedding length: 2560
 							- Quantization: `Q4_K_M` (4-bit)
 							- Capabilities: completion, vision (image recognition)
+						- Gemma 3 (1B) by Google (in Bard family): a lightweight text-only model with 32k context window
+						  collapsed:: true
+							- Context window: 131k tokens
+							- Embedding length: 1152
+							- Quantization: `Q4_K_M` (4-bit)
+							- Capabilities: completion
 					- [Open WebUI](https://github.com/open-webui/open-webui)
 						- Open WebUI supports [RAG](https://en.wikipedia.org/wiki/Retrieval-augmented_generation).
 					- [LocalAI](https://github.com/mudler/LocalAI)
