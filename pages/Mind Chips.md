@@ -17,3 +17,4 @@
 	- $f(t) = \exp(t)$: ob viewcone = $f(t) dt$; op = `+=`
 	- Neuron: ob viewcone = tree of dendrites; op = activation (action potential passed through axon)
 	-
+- ((68e6334c-6b4c-487f-8999-24940497245f))

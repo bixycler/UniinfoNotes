@@ -59,6 +59,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 66c3000d-51bb-4d1b-b298-0f66304a6e64
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66c2fff8-94e2-4633-9a37-ee3972e5fd11))
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) [neural network (machine learning)](https://en.wikipedia.org/wiki/Neural_network_(machine_learning))
+			- backpropagation
+			  id:: 694a8694-12dc-43b9-9548-b2eb55d7ad50
+			  collapsed:: true
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((694a86b4-3e91-49fa-827f-3e910180920f))
+				- backprop
+				  id:: 694a86b4-3e91-49fa-827f-3e910180920f
+				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((694a8694-12dc-43b9-9548-b2eb55d7ad50))
+				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Backpropagation
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- In real life, ((694a86b4-3e91-49fa-827f-3e910180920f)) is usually not available due to complex environment. There, other
 			- large language model
 			  id:: 66c30085-818a-411c-be4a-01d40a6c618d
 			  collapsed:: true
