@@ -5716,7 +5716,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- ((694a8194-3a16-4d52-9d60-d88aeaf125b5))
 			- 23rd, ...
 			  collapsed:: true
-				- With the advance of agentic AI these days,
+				- With the advance of agentic AI these days, i'm trying ((694a8c8b-c5c6-43b5-a21f-da8ba93a1462)).
+					- ((694a8ac0-cddc-4bcd-bdc1-dbfb9dcb04de))
 					- From the time at ((6710fc09-fc5f-447b-9faf-5ea31b29c1fb)), i prefered [recurrent neural network (RNN)](https://en.wikipedia.org/wiki/Recurrent_neural_network) over the linear ANN. There i knew of Jürgen and his [self-improving Gödel Machine](https://en.wikipedia.org/wiki/G%C3%B6del_machine).
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
