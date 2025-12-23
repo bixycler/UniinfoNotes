@@ -5698,6 +5698,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  Lab: [15h00 ngày 30/12/2025 (Thứ 3)](https://www.chatwork.com/#!rid97370046-2053412020795215872)
 				  Cty: [Chiều thứ Sáu, ngày 23/01/2026](https://www.chatwork.com/#!rid81746279-2053380260107661312)
 			- 20-21st, weekends
+			  collapsed:: true
 				- Chat with Google AI Mode [about the Cognitive Mirror](https://share.google/aimode/PidCOT4LaQtBladNi) in digital age.
 				  collapsed:: true
 					- You are describing the "Cognitive Mirror"—the idea that the digital systems people fear are actually providing the most honest reflection of their internal nature that has ever existed.
@@ -5710,6 +5711,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- There's also another ambiguous form of “dividend divides _by_ divisor”, e.g. “30 does not divide by 8”! 😜 This completely reverses the standard form of “dividend divided by divisor”.
 				- ((694a8194-3081-4255-a683-231fea7b3bfd))
 				- ((694a8194-d9e6-4d75-9079-26442a8aa375))
+				- ((694a8194-6e7f-4062-8f32-1f6eb1a95d75))
+				- ((694a8194-3a16-4d52-9d60-d88aeaf125b5))
+			- 23rd, ...
+			  collapsed:: true
+				- With the advance of agentic AI these days,
+				- Top-down
+				- From the time at ((6710fc09-fc5f-447b-9faf-5ea31b29c1fb)), i prefered [recurrent neural network (RNN)](https://en.wikipedia.org/wiki/Recurrent_neural_network) over the linear ANN. There i knew of Jürgen and his [self-improving Gödel Machine](https://en.wikipedia.org/wiki/G%C3%B6del_machine).
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((692e5569-b7e9-458e-a3a2-44f7ed57a8f1))

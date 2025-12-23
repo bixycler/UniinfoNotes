@@ -68,7 +68,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((694a8694-12dc-43b9-9548-b2eb55d7ad50))
 				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Backpropagation
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-					- In real life, ((694a86b4-3e91-49fa-827f-3e910180920f)) is usually not available due to complex environment. There, other
+					- In real life, ((694a86b4-3e91-49fa-827f-3e910180920f)) is usually not available due to complex environment. There, other methods like [reinforcement learning](((68e6334c-6b4c-487f-8999-24940497245f))) must be used, instead.
+					- ((694a86b4-3e91-49fa-827f-3e910180920f))-free models: Basically, the global target (loss function) and global effect (backprop) are replaced by the local ones.
+					  id:: 694a8194-6e7f-4062-8f32-1f6eb1a95d75
+					  collapsed:: true
+						- [Equilibrium Propagation (EP)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5415673/) is like a neutral FABRIK: each weight is updated according to its 2 ends (neurons' state/value) only.
+						- EP is a special kind of Contrastive Hebbian Learning and Contrastive Divergence, which are in the general class of local learning rules.
+						- [Predictive Coding](https://youtu.be/l-OLgbdZ3kk) uses 2 types of neuron for each node, just like the obop model: prediction = op, error = ob.
 			- large language model
 			  id:: 66c30085-818a-411c-be4a-01d40a6c618d
 			  collapsed:: true
@@ -2776,6 +2782,21 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- At the "observer" side of the obop, the intent itself is the ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) which is driven by the underlying tendency, or attitude, or [anusayā](((66e7e6c2-3856-496b-99b7-75ac46547c86))) in Buddhism.
 			- ((66f29d57-a87f-4370-9f32-722922a7bff1))
 			- ((684f9515-8f95-4004-8aa8-04a10d1ebf11))
+			- Obop model in various fields
+			  id:: 694a8194-3a16-4d52-9d60-d88aeaf125b5
+			  collapsed:: true
+				- Unithread: ob viewcone = input circle; op = output arrow
+					- FoC: ob = division = content -> form; op = multiplication = form -> content
+						- In function: form = parameter; content = variable value
+						- Network: form = connection weight; content = node values (state)
+						- Uninet: no static distinction between form & content. Their roles are relative to position.
+							- In the sequence of sustents, lower intent = higher content
+					- Quantum: only when the whole input circle receives full data, is the op activated to [take action](((6847e7fa-0d57-425c-b035-1a62db7725e6))).
+					- Qualiton: The whole input circle is qualified by matching with its internal image.
+				- Water scoop: ob viewcone = scoop; op = pounding
+				- $f(t) = \exp(t)$: ob viewcone = $f(t) dt$; op = `+=`
+				- Neuron: ob viewcone = tree of dendrites; op = activation (action potential passed through axon)
+		-
 	- ## aware
 	  id:: 66f267bf-5272-4dde-99a1-b220ba5bd852
 	  collapsed:: true
