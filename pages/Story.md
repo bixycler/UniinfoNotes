@@ -5577,6 +5577,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Còn giờ là tui lập trình từ trên xuống ra một hệ thống phủ liên tục từ đỉnh trừu tượng tới đáy cụ thể: Trên cùng là tư duy con người, kế tiếp là deep-thinking model, rồi tới thinking model, non-thinking model, simple model, và cuối cùng là chương trình truyền thống. Và hệ thống này có 2 chiều hoạt động song song theo mô hình obop (observer-operator):
 							- Operation top down: các ý tưởng đi từ trên đỉnh xuống, thành thiết kế, thành plan, rồi chương trình cổ điển, rồi data & action.
 							- Observation bottom up: dữ liệu và tác động từ môi trường được tiếp nhận ở tầng đáy, qua chương trình feedback lên thành kinh nghiệm, để cập nhật thiết kế, và kết tinh thành những ý tưởng mới.
+						- ((694a8ac0-cddc-4bcd-bdc1-dbfb9dcb04de))
 					- The dice 🎲 example of wave–particle duality
 					  collapsed:: true
 						- À, hôm nay quán làn sóng toát ra từ hạt và tụ lại thành một hạt thế nào, tui thấy ví dụ con xúc xắc khá dễ hiểu:
@@ -5716,8 +5717,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 23rd, ...
 			  collapsed:: true
 				- With the advance of agentic AI these days,
-				- Top-down
-				- From the time at ((6710fc09-fc5f-447b-9faf-5ea31b29c1fb)), i prefered [recurrent neural network (RNN)](https://en.wikipedia.org/wiki/Recurrent_neural_network) over the linear ANN. There i knew of Jürgen and his [self-improving Gödel Machine](https://en.wikipedia.org/wiki/G%C3%B6del_machine).
+					- From the time at ((6710fc09-fc5f-447b-9faf-5ea31b29c1fb)), i prefered [recurrent neural network (RNN)](https://en.wikipedia.org/wiki/Recurrent_neural_network) over the linear ANN. There i knew of Jürgen and his [self-improving Gödel Machine](https://en.wikipedia.org/wiki/G%C3%B6del_machine).
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((692e5569-b7e9-458e-a3a2-44f7ed57a8f1))

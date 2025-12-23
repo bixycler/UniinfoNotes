@@ -11,6 +11,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
+		- The full range of programming from human to machine: Human thought → deep-thinking model → thinking model → non-thinking model → simple model → traditional programs
+		  id:: 694a8ac0-cddc-4bcd-bdc1-dbfb9dcb04de
+		  collapsed:: true
+			- Both ways of top-to-bottom and bottom-to-top works in the obop model.
+			- Agentic AI support top-down development, while ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)) support bottom-up part.
 		- 4M Framework: micro–meso–macro–mega
 		  id:: 694a8194-3081-4255-a683-231fea7b3bfd
 		  collapsed:: true
