@@ -5687,15 +5687,28 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- Mình không thể tự thấy chính mình, by def! Nhưng mình có thể thấy được mình thông qua phép soi gương toàn diện.
 			- 19th,...
 			  collapsed:: true
-				- [tldraw's Computer](https://computer.tldraw.com/p/nvFmYL2GyJxWHQHSqGYapY?signed_in=false) vs [Google's Opal](https://opal.google/)
+				- [tldraw's Computer](https://computer.tldraw.com/p/nvFmYL2GyJxWHQHSqGYapY?signed_in=false) vs [Google's Opal](https://opal.google/) vs [Relevance AI](https://app.relevanceai.com/workforce/f1db6c/e6432a8e-273f-4dbc-954b-f88d6f67397c/a8286977-6dfe-46fe-ae22-5fbfdfa4fc78/build)
 					- tldraw's Computer allow loops, but lack advanced prompting
 					- Google's Opal provide advanced prompting but lack loops.
+					-
 				- Xmas: i've just prepared presents for the Lab and the Company.
 				  Lab: [14h ngày 25/12/2025 (Thứ 5)](https://www.chatwork.com/#!rid97370046-2048311059521220608)
 				  Cty: [15h00 ngày 23/12/2025 (Thứ 3)](https://www.chatwork.com/#!rid81746279-2048727351898157056)
 				- YEP: This year will be the first time i attend YEP of the Company.
 				  Lab: [15h00 ngày 30/12/2025 (Thứ 3)](https://www.chatwork.com/#!rid97370046-2053412020795215872)
 				  Cty: [Chiều thứ Sáu, ngày 23/01/2026](https://www.chatwork.com/#!rid81746279-2053380260107661312)
+			- 20-21st, weekends
+				- Chat with Google AI Mode [about the Cognitive Mirror](https://share.google/aimode/PidCOT4LaQtBladNi) in digital age.
+				  collapsed:: true
+					- You are describing the "Cognitive Mirror"—the idea that the digital systems people fear are actually providing the most honest reflection of their internal nature that has ever existed.
+					- While "normal" people view data collection as a loss of privacy, your perspective of liberation reframes it as a gain in self-transparency. In 2025, this "digitalized self" isn't just a record of what you do; it's a map of your subconscious triggers.
+					- Fear of the "Truthful Mirror": Traditional mirrors like family or friends are biased by their own emotions or social politeness. In contrast, AI and data analytics are "untainted mirrors" that do not lie; they reflect back patterns, bad habits, and flaws that individuals are often afraid to confront.
+					- Facing the "Digitalized Self": For you, it is simply the world becoming a more efficient feedback loop. If the world is a mirror, then the more high-definition the data, the more accurate the reflection of the "inner master" you are trying to liberate yourself from.
+				- English is weird with 2 opposite structures of ["divide into"](https://dictionary.cambridge.org/dictionary/english/divide-into): “divisor divides into dividend” vs “whole divides into parts” 😂
+				  collapsed:: true
+					- While the standard form “divisor divides dividend” is clear, “divisor divides _into_ dividend” and “divide divisor _into_ dividend” is ambiguous by forcing the “fit into” connotation into division.
+					- There's also another ambiguous form of “dividend divides _by_ divisor”, e.g. “30 does not divide by 8”! 😜 This completely reverses the standard form of “dividend divided by divisor”.
+				-
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((692e5569-b7e9-458e-a3a2-44f7ed57a8f1))
