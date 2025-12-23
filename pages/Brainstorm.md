@@ -19,6 +19,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Top-down development via ((694a8c8b-c5c6-43b5-a21f-da8ba93a1462)), and bottom-up implementation via ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)).
 			- Self-modifying agentic AI
 			  id:: 694a8c8b-c5c6-43b5-a21f-da8ba93a1462
+				- [Darwin Gödel Machine](https://arxiv.org/abs/2505.22954) ([github](https://github.com/jennyzzt/dgm/)), [Huxley-Gödel Machine](https://arxiv.org/abs/2510.21614) ([github](https://github.com/metauto-ai/HGM)): self-improving system that iteratively modifies its own code
+				  id:: 694a916a-d6bb-4d7a-a922-c1748b15ad62
+				- [Self-Evolving Agentic Workflows (SEW)](https://arxiv.org/abs/2505.18646) ([ChatPaper](https://chatpaper.com/paper/141315)):
+				- [Live-SWE-agent]()
 		- 4M Framework: micro–meso–macro–mega
 		  id:: 694a8194-3081-4255-a683-231fea7b3bfd
 		  collapsed:: true
