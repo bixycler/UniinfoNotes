@@ -5690,7 +5690,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- [tldraw's Computer](https://computer.tldraw.com/p/nvFmYL2GyJxWHQHSqGYapY?signed_in=false) vs [Google's Opal](https://opal.google/) vs [Relevance AI](https://app.relevanceai.com/workforce/f1db6c/e6432a8e-273f-4dbc-954b-f88d6f67397c/a8286977-6dfe-46fe-ae22-5fbfdfa4fc78/build)
 					- tldraw's Computer allow loops, but lack advanced prompting
 					- Google's Opal provide advanced prompting but lack loops.
-					-
+					- Relevance AI is tricky in looping... seems not prefer loop.
 				- Xmas: i've just prepared presents for the Lab and the Company.
 				  Lab: [14h ngày 25/12/2025 (Thứ 5)](https://www.chatwork.com/#!rid97370046-2048311059521220608)
 				  Cty: [15h00 ngày 23/12/2025 (Thứ 3)](https://www.chatwork.com/#!rid81746279-2048727351898157056)
@@ -5708,7 +5708,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  collapsed:: true
 					- While the standard form “divisor divides dividend” is clear, “divisor divides _into_ dividend” and “divide divisor _into_ dividend” is ambiguous by forcing the “fit into” connotation into division.
 					- There's also another ambiguous form of “dividend divides _by_ divisor”, e.g. “30 does not divide by 8”! 😜 This completely reverses the standard form of “dividend divided by divisor”.
-				-
+				- ((694a8194-3081-4255-a683-231fea7b3bfd))
+				- ((694a8194-d9e6-4d75-9079-26442a8aa375))
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((692e5569-b7e9-458e-a3a2-44f7ed57a8f1))

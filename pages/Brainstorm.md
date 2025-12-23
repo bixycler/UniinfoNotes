@@ -11,6 +11,34 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
+		- 4M Framework: micro–meso–macro–mega
+		  id:: 694a8194-3081-4255-a683-231fea7b3bfd
+		  collapsed:: true
+			- ![4M-Framework.png](../assets/Will/story/2025-12/4M-Framework.png){:width 250}
+				- [Understanding Academic Integrity from a Teaching and Learning Perspective: Engaging with the 4M Framework](https://www.researchgate.net/publication/343917710_Understanding_Academic_Integrity_from_a_Teaching_and_Learning_Perspective_Engaging_with_the_4M_Framework)
+			- Micro ($\epsilon$): The realm of units, individuals, atoms
+				- Scientific: The realm of individual atoms, molecules, or cells.
+				- Social: Focused on the individual person, their specific behaviors, and one-on-one interactions.
+			- Meso ($\omicron$): The "middle" realm of groups
+				- Scientific: The bridge where individual fluctuations (like thermal noise) begin to affect the average properties of a material.
+				- Social: The level of departments, local communities, or small social networks.
+			- Macro ($\eta$): The realm of organisms & organizations, where [entropy](https://en.wikipedia.org/wiki/Entropy_(information_theory)#Definition) becomes a deterministic law
+				- Scientific: The scale where objects are visible to the human naked eye and obey classical mechanics.
+				- Social: The level of entire institutions, national policies, or whole organizations.
+			- Mega ($\Omega$): The realm of the total, globe, universe
+				- Scientific: The scale of entire systems, regional distributions, or the cosmos.
+				- Social: The largest possible lens, representing international communities, global ideologies, or planetary systems.
+			- Notes
+				- While "meso" = "middle" is best for the human size, it's been used for the lower scale like [mesoscopic physics](https://en.wikipedia.org/wiki/Mesoscopic_physics). So i use "macro" to denote human scale, following the tradition.
+				- The "macro" and the "mega" are usually used interchangeably, either as the human size like [macroscopic/megascopic scale](https://en.wikipedia.org/wiki/Macroscopic_scale), or as the cosmic size like [macroscope](https://en.wikipedia.org/wiki/Macroscope_(science_concept)).
+		- 3 ways to the target: chord, minor arc, major arc
+		  id:: 694a8194-d9e6-4d75-9079-26442a8aa375
+		  collapsed:: true
+			- Circles: effect circle, knowledge circle
+			- ![Arcs and chord.png](../assets/Will/story/2025-12/Arcs and chord.png){:width 200}
+			- The **final result** is the straight chord $AZ$, the formula “$A = Z$”, the abstract, the means, the cable transport directly from the base to the mountaintop, the external form.
+			- The [proof](https://en.wikipedia.org/wiki/Mathematical_proof) is the minor arc $⌒AZ$, the program, the machinery of the means, the paved road, the road on map, the internal form.
+			- The **whole process** of discovery is the major arc $⌒ABC...Z$, the wave, the content, the every path through the forest.
 		- Round-trip projection determines norm, roundness, orthogonality
 		  id:: 693f644f-a884-4ea5-8ae4-775ae7bb6e43
 		  collapsed:: true
