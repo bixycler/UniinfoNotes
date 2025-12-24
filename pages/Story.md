@@ -5734,13 +5734,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- Phase 2: The acute warning in young adult age
 				- Symptom: Stomachache & constipation, with onset around 20 years old, has become the "caution light".
 					- The bloating comes first, when i don't release stress enough, it will progress to stomachache.
-					-
+					- My average interval between bowel movements was 2–3 days, sometimes up to 4–5 days.
 				- Mechanism: This introduced an acute, immediate "caution light". The stomachaches signaled that my body was diverting blood flow and energy away from digestion during high-stress periods or difficult tasks, a classic short-term stress response. This symptom highlighted the direct link between immediate cognitive load and physical distress.
-					- Neural Pathway: High **SNS activity** ([sympathetic nervous system](https://en.wikipedia.org/wiki/Sympathetic_nervous_system)). Stress from "hard tasks" triggered the [Fight-or-Flight response](https://en.wikipedia.org/wiki/Fight-or-flight_response).
+					- Neural Pathway: High **SNS activity** ([sympathetic nervous system](https://en.wikipedia.org/wiki/Sympathetic_nervous_system)). Stress triggered the [Fight-or-Flight response](https://en.wikipedia.org/wiki/Fight-or-flight_response).
 					- Hormonal Driver: Epinephrine (Adrenaline) and Norepinephrine.
 					- Physiological Result:
-						- **Vasoconstriction:** Blood was diverted away from the stomach/gut toward the heart and muscles, causing the physical "knot" of a stomachache.
-						- **Inhibited Motility:** The SNS signaled the colon to stop moving (leading to your 2-3 day constipation intervals) to conserve energy for the perceived "threat" of the task.
+						- **Vasoconstriction:** Blood was diverted away from the stomach/gut toward the heart and muscles, causing the digestion slowing down.
+						- **Inhibited Motility:** The SNS signaled the colon to stop moving (leading to my 2-3 day constipation intervals) to conserve energy for the perceived "threat" of the task.
+						- **Gas Trap:** Food sits longer in the stomach and intestines, where it begins to ferment, producing gas.
+						- **Abdominal Tension:** The core muscles unconsciously tighten, which traps the gas and creates the "swollen" or bloated feeling.
+						-
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((692e5569-b7e9-458e-a3a2-44f7ed57a8f1))
