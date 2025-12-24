@@ -5722,6 +5722,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- ((694bb272-f93a-46a9-9f8b-6c629138fbf9))
 					- [Chat with Google AI Mode](https://share.google/aimode/1uTeDq3Xtp7HWOZOB)
+					- [Translated to Vietnamese](https://docs.google.com/document/d/e/2PACX-1vQe5Z-aqzuxagMhQL7gWAp7nMelWFCopuaql4xaWG0qxzXeXWNULmbVRlr3LHck3HlDoQYpZyFsPMuA/pub) for my wife
 		- My life journey through the gut–brain–skin axis
 		  id:: 694bb272-f93a-46a9-9f8b-6c629138fbf9
 		  collapsed:: true
