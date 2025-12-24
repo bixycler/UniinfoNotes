@@ -5720,8 +5720,17 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Now, Google AI Mode introduces its practical implementations like ((694a916a-d6bb-4d7a-a922-c1748b15ad62))
 			- 24th,...
 			  collapsed:: true
-				-
-				- [Chat with Google AI Mode](https://share.google/aimode/1uTeDq3Xtp7HWOZOB)
+				- ((694bb272-f93a-46a9-9f8b-6c629138fbf9))
+					- [Chat with Google AI Mode](https://share.google/aimode/1uTeDq3Xtp7HWOZOB)
+		- My life journey through the gut–brain–skin axis
+		  id:: 694bb272-f93a-46a9-9f8b-6c629138fbf9
+		  collapsed:: true
+			- Phase 1: The Chronic Background (Age 13+)
+				- Symptom: Psoriasis (The Long-Term "Watchman")
+				- Mechanism: This was my body's initial, long-term indicator of **chronic stress and inflammation**, likely stemming from unresolved childhood stress. Psoriasis served as a deep, cumulative warning sign that my HPA axis (stress response system) was overloaded, establishing a baseline of systemic inflammation.
+				- Neural Pathway: Chronic activation of the **HPA Axis** ([Hypothalamic-Pituitary-Adrenal](https://en.wikipedia.org/wiki/Hypothalamic%E2%80%93pituitary%E2%80%93adrenal_axis)). Prolonged childhood stress kept my brain in a "state of alarm."
+				- **Hormonal Driver:** Elevated **Cortisol**. Constant cortisol release eventually causes "glucocorticoid resistance," where the immune system loses its "off switch."
+				- **Physiological Result:** This triggered **pro-inflammatory cytokines** (like IL-17). These proteins accelerated skin cell turnover from the normal 28 days to just 3–5 days, creating psoriasis plaques as a visible record of internal inflammation.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((692e5569-b7e9-458e-a3a2-44f7ed57a8f1))
