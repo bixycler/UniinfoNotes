@@ -5743,7 +5743,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- **Inhibited Motility:** The SNS signaled the colon to stop moving (leading to my 2-3 day constipation intervals) to conserve energy for the perceived "threat" of the task.
 						- **Gas Trap:** Food sits longer in the stomach and intestines, where it begins to ferment, producing gas.
 						- **Abdominal Tension:** The core muscles unconsciously tighten, which traps the gas and creates the "swollen" or bloated feeling.
-						-
+						- **Acid Surge:** Without proper relaxation, the physiological pressure intensifies, stress hormones like **cortisol** and **adrenaline** signal the stomach to overproduce gastric juices.
+						- **Reduced Protective Barrier:** At the same time, stress reduces the production of protective mucus that normally lines the stomach.
+						- **Chemical Irritation:** Without food to process (or with food sitting too long), this excess acid begins to irritate the sensitive stomach lining, leading to [stress-induced gastritis](https://en.wikipedia.org/wiki/Gastritis#Stress,_injury,_and_illness).
+			- Phase 3: The conscious ((67445065-15b2-475e-a704-78f140d487af)) & [biofeedback](https://en.wikipedia.org/wiki/Biofeedback) in middle age
+				- Symptom: Conscious gut motility during relaxation/insight (onset around 40 years old).
+				- Mechanism: This is the result of your natural and formal training to "let go." You developed the skill of manually activating your **parasympathetic nervous system** (rest-and-digest) via the **vagus nerve**. Instead of stress paralyzing your gut (as it did in youth constipation), your trained "reset" now immediately triggers healthy peristalsis and evacuation when you reach clarity or relax.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((692e5569-b7e9-458e-a3a2-44f7ed57a8f1))
