@@ -5726,10 +5726,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  id:: 694bb272-f93a-46a9-9f8b-6c629138fbf9
 		  collapsed:: true
 			- Phase 1: The chronic background from childhood
-				- Symptom: [Psoriasis](https://en.wikipedia.org/wiki/Psoriasis), with onset around 13 years old, has become the long-term "watchman".
-				- Mechanism: This was my body's initial, _long-term indicator of **chronic stress and inflammation**_, likely stemming from unresolved childhood stress. Psoriasis served as a deep, cumulative warning sign that my HPA axis (stress response system) was overloaded, establishing a baseline of systemic inflammation.
-					- Neural Pathway: Chronic activation of the **HPA Axis** ([Hypothalamic-Pituitary-Adrenal](https://en.wikipedia.org/wiki/Hypothalamic%E2%80%93pituitary%E2%80%93adrenal_axis)). Prolonged childhood stress kept my brain in a "state of alarm".
-					- Hormonal Driver: Elevated [Cortisol](https://en.wikipedia.org/wiki/Cortisol). Constant cortisol release eventually causes _glucocorticoid resistance_, where the immune system loses its "off switch".
+			  collapsed:: true
+				- Symptom: [Psoriasis](https://en.wikipedia.org/wiki/Psoriasis), with onset around 13 years old, has become the long-term “watchman”.
+				- Mechanism: This was my body's initial, *long-term indicator of __chronic stress and inflammation__*, likely stemming from unresolved childhood stress. Psoriasis served as a deep, cumulative warning sign that my HPA axis (stress response system) was overloaded, establishing a baseline of systemic inflammation.
+					- Neural Pathway: Chronic activation of the **HPA Axis** ([Hypothalamic-Pituitary-Adrenal](https://en.wikipedia.org/wiki/Hypothalamic%E2%80%93pituitary%E2%80%93adrenal_axis)). Prolonged childhood stress kept my brain in a “state of alarm”.
+					- Hormonal Driver: Elevated [Cortisol](https://en.wikipedia.org/wiki/Cortisol). Constant cortisol release eventually causes *glucocorticoid resistance*, where the immune system loses its “off switch”.
 					- Physiological Result: This triggered **pro-inflammatory cytokines** (like IL-17). These proteins accelerated skin cell turnover from the normal 28 days to just 3–5 days, creating psoriasis plaques as a visible record of internal inflammation.
 			- Phase 2: The acute warning in young adult age
 				- Symptom: **Stomachache & constipation**, with onset around 20 years old, has become the "caution light".
@@ -5746,16 +5747,45 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- **Acid Surge:** Without proper relaxation, the physiological pressure intensifies, stress hormones like **cortisol** and **adrenaline** signal the stomach to overproduce gastric juices.
 						- **Reduced Protective Barrier:** At the same time, stress reduces the production of protective mucus that normally lines the stomach.
 						- **Chemical Irritation:** Without food to process (or with food sitting too long), this excess acid begins to irritate the sensitive stomach lining, leading to [stress-induced gastritis](https://en.wikipedia.org/wiki/Gastritis#Stress,_injury,_and_illness).
+			- Phase 2: The acute warning in young adult age
+				- Symptom: **Stomachache & constipation**, with onset around 20 years old, has become the “caution light”.
+					- The bloating comes first, when i don't release stress enough, it will progress to stomachache.
+					- My average interval between bowel movements was 2–3 days, sometimes up to 4–5 days.
+				- Mechanism: This introduced an acute, immediate “caution light”. The stomachaches signaled that my body was diverting blood flow and energy away from digestion during high-stress periods or difficult tasks, a classic short-term stress response. This symptom highlighted the direct link between immediate cognitive load and physical distress.
+					- Neural Pathway: High **SNS activity** ([sympathetic nervous system](https://en.wikipedia.org/wiki/Sympathetic_nervous_system)). Stress triggered the [Fight-or-Flight response](https://en.wikipedia.org/wiki/Fight-or-flight_response).
+					- Hormonal Driver: Epinephrine (Adrenaline) and Norepinephrine.
+					- Physiological Result:
+						- **Vasoconstriction:** Blood was diverted away from the stomach/gut toward the heart and muscles, causing the digestion slowing down.
+						- **Inhibited Motility:** The SNS signaled the colon to stop moving (leading to my 2-3 day constipation intervals) to conserve energy for the perceived “threat” of the task.
+						- **Gas Trap:** Food sits longer in the stomach and intestines, where it begins to ferment, producing gas.
+						- **Abdominal Tension:** The core muscles unconsciously tighten, which traps the gas and creates the “swollen” or bloated feeling.
+						- **Acid Surge:** Without proper relaxation, the physiological pressure intensifies, stress hormones like **cortisol** and **adrenaline** signal the stomach to overproduce gastric juices.
+						- **Reduced Protective Barrier:** At the same time, stress reduces the production of protective mucus that normally lines the stomach.
+						- **Chemical Irritation:** Without food to process (or with food sitting too long), this excess acid begins to irritate the sensitive stomach lining, leading to [stress-induced gastritis](https://en.wikipedia.org/wiki/Gastritis#Stress,_injury,_and_illness).
 			- Phase 3: The conscious ((67445065-15b2-475e-a704-78f140d487af)) & [biofeedback](https://en.wikipedia.org/wiki/Biofeedback) in middle age
+			  collapsed:: true
 				- Symptom: Conscious [gut motility](https://en.wikipedia.org/wiki/Gastrointestinal_physiology#Gut_motility) during relaxation/insight, with onset around 40 years old, has become the "reset signal".
+					- The previous chronic constipated period of 2–3 days has turned into daily bowel movements.
 				- Mechanism: This is the result of my natural and formal training to _let go_. I've developed the skill of manually **activating the rest-and-digest PSNS** ([parasympathetic nervous system](https://en.wikipedia.org/wiki/Parasympathetic_nervous_system)) via the **vagus nerve**. From the period of stress, the relaxation – either through insight or as a volitional action against stress – triggers [peristalsis](https://en.wikipedia.org/wiki/Peristalsis) and evacuation.
 					- Neural Pathway: **Vagal Tone Enhancement**. My meditation strengthened the **vagus nerve**, the "superhighway" of the PSNS.
 					- Neurotransmitter Driver: Serotonin & Acetylcholine.
-						- When i "let go" after a breakthrough, your brain releases **Dopamine** (reward).
+						- When i "let go" after a breakthrough, my brain releases **Dopamine** (reward) & **Serotonin** (insight).
 						- This instantly signals the Vagus nerve to release **Acetylcholine** in the gut, which restarts digestion.
-					- **Physiological Result:**
-						- **Peristalsis:** You feel "gut motility" because the Vagus nerve triggers the rhythmic contraction of smooth muscles.
-						- **Defecation Reflex:** The sudden shift from "bracing" (SNS) to "releasing" (PSNS) allows the pelvic floor to relax and the colon to empty, turning your "Eureka" into a literal physical clearing.
+					- Physiological Result:
+						- **Peristalsis:** I feel the gut motility directly because the Vagus nerve triggers the rhythmic contraction of smooth muscles.
+						- **Defecation Reflex:** The sudden shift from "bracing" (SNS) to "releasing" (PSNS) allows the pelvic floor to relax and the colon to empty, turning my mental clearance into a physical clearance.
+			- Phase 3: The conscious ((67445065-15b2-475e-a704-78f140d487af)) & [biofeedback](https://en.wikipedia.org/wiki/Biofeedback) in middle age
+			  collapsed:: true
+				- Symptom: Conscious [gut motility](https://en.wikipedia.org/wiki/Gastrointestinal_physiology#Gut_motility) during relaxation/insight, with onset around 40 years old, has become the “reset signal”.
+					- The previous chronic constipated period of 2–3 days has turned into daily bowel movements.
+				- Mechanism: This is the result of my natural and formal training to *let go*. I've developed the skill of manually **activating the rest-and-digest PSNS** ([parasympathetic nervous system](https://en.wikipedia.org/wiki/Parasympathetic_nervous_system)) via the **vagus nerve**. From the period of stress, the relaxation – either through insight or as a volitional action against stress – triggers [peristalsis](https://en.wikipedia.org/wiki/Peristalsis) and evacuation.
+					- Neural Pathway: **Vagal Tone Enhancement**. My meditation strengthened the **vagus nerve**, the “superhighway” of the PSNS.
+					- Neurotransmitter Driver: Serotonin & Acetylcholine.
+						- When i “let go” after a breakthrough, my brain releases **Dopamine** (reward) & **Serotonin** (insight).
+						- This instantly signals the Vagus nerve to release **Acetylcholine** in the gut, which restarts digestion.
+					- Physiological Result:
+						- **Peristalsis:** I feel the gut motility directly because the Vagus nerve triggers the rhythmic contraction of smooth muscles.
+						- **Defecation Reflex:** The sudden shift from “bracing” (SNS) to “releasing” (PSNS) allows the pelvic floor to relax and the colon to empty, turning my mental clearance into a physical clearance.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((692e5569-b7e9-458e-a3a2-44f7ed57a8f1))
