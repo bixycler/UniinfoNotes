@@ -33,7 +33,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Micro ($\epsilon$): The realm of units, individuals, atoms
 				- Scientific: The realm of individual atoms, molecules, or cells.
 				- Social: Focused on the individual person, their specific behaviors, and one-on-one interactions.
-			- Meso ($\omicron$): The "middle" realm of groups
+			- Meso ($\omicron$): The “middle” realm of groups
 				- Scientific: The bridge where individual fluctuations (like thermal noise) begin to affect the average properties of a material.
 				- Social: The level of departments, local communities, or small social networks.
 			- Macro ($\eta$): The realm of organisms & organizations, where [entropy](https://en.wikipedia.org/wiki/Entropy_(information_theory)#Definition) becomes a deterministic law
@@ -43,8 +43,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Scientific: The scale of entire systems, regional distributions, or the cosmos.
 				- Social: The largest possible lens, representing international communities, global ideologies, or planetary systems.
 			- Notes
-				- While "meso" = "middle" is best for the human size, it's been used for the lower scale like [mesoscopic physics](https://en.wikipedia.org/wiki/Mesoscopic_physics). So i use "macro" to denote human scale, following the tradition.
-				- The "macro" and the "mega" are usually used interchangeably, either as the human size like [macroscopic/megascopic scale](https://en.wikipedia.org/wiki/Macroscopic_scale), or as the cosmic size like [macroscope](https://en.wikipedia.org/wiki/Macroscope_(science_concept)).
+				- While “meso” = “middle” is best for the human size, it's been used for the lower scale like [mesoscopic physics](https://en.wikipedia.org/wiki/Mesoscopic_physics). So i use "macro" to denote human scale, following the tradition.
+				- The “macro” and the “mega” are usually used interchangeably, either as the human size like [macroscopic/megascopic scale](https://en.wikipedia.org/wiki/Macroscopic_scale), or as the cosmic size like [macroscope](https://en.wikipedia.org/wiki/Macroscope_(science_concept)).
 		- 3 ways to the target: chord, minor arc, major arc
 		  id:: 694a8194-d9e6-4d75-9079-26442a8aa375
 		  collapsed:: true
