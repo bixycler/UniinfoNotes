@@ -5728,12 +5728,17 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- Phase 1: The chronic background from childhood
 				- Symptom: [Psoriasis](https://en.wikipedia.org/wiki/Psoriasis), with onset around 13 years old, has become the long-term "watchman".
 				- Mechanism: This was my body's initial, _long-term indicator of **chronic stress and inflammation**_, likely stemming from unresolved childhood stress. Psoriasis served as a deep, cumulative warning sign that my HPA axis (stress response system) was overloaded, establishing a baseline of systemic inflammation.
-					- Neural Pathway: Chronic activation of the **HPA Axis** ([Hypothalamic-Pituitary-Adrenal](https://en.wikipedia.org/wiki/Hypothalamic%E2%80%93pituitary%E2%80%93adrenal_axis)). Prolonged childhood stress kept my brain in a "state of alarm."
+					- Neural Pathway: Chronic activation of the **HPA Axis** ([Hypothalamic-Pituitary-Adrenal](https://en.wikipedia.org/wiki/Hypothalamic%E2%80%93pituitary%E2%80%93adrenal_axis)). Prolonged childhood stress kept my brain in a "state of alarm".
 					- Hormonal Driver: Elevated [Cortisol](https://en.wikipedia.org/wiki/Cortisol). Constant cortisol release eventually causes _glucocorticoid resistance_, where the immune system loses its "off switch".
 					- Physiological Result: This triggered **pro-inflammatory cytokines** (like IL-17). These proteins accelerated skin cell turnover from the normal 28 days to just 3–5 days, creating psoriasis plaques as a visible record of internal inflammation.
-			- Phase 2: The acute warning in teenage
-				- Symptom: Stomachaches (onset around 20 years old).
-				- Mechanism: This introduced an acute, immediate "caution light." The stomachaches signaled that your body was diverting blood flow and energy away from digestion during high-stress periods or difficult tasks, a classic short-term stress response. This symptom highlighted the direct link between immediate cognitive load and physical distress.
+			- Phase 2: The acute warning in young adult age
+				- Symptom: Stomachache & constipation, with onset around 20 years old, has become the "caution light".
+				- Mechanism: This introduced an acute, immediate "caution light". The stomachaches signaled that my body was diverting blood flow and energy away from digestion during high-stress periods or difficult tasks, a classic short-term stress response. This symptom highlighted the direct link between immediate cognitive load and physical distress.
+					- Neural Pathway: High **SNS activity** ([sympathetic nervous system](https://en.wikipedia.org/wiki/Sympathetic_nervous_system)). Stress from "hard tasks" triggered the [Fight-or-Flight response](https://en.wikipedia.org/wiki/Fight-or-flight_response).
+					- Hormonal Driver: Epinephrine (Adrenaline) and Norepinephrine.
+					- Physiological Result:
+						- **Vasoconstriction:** Blood was diverted away from the stomach/gut toward the heart and muscles, causing the physical "knot" of a stomachache.
+						- **Inhibited Motility:** The SNS signaled the colon to stop moving (leading to your 2-3 day constipation intervals) to conserve energy for the perceived "threat" of the task.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((692e5569-b7e9-458e-a3a2-44f7ed57a8f1))
