@@ -5752,7 +5752,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- Phase 3: The conscious ((67445065-15b2-475e-a704-78f140d487af)) & [biofeedback](https://en.wikipedia.org/wiki/Biofeedback) in middle age
 				- Symptom: Conscious [gut motility](https://en.wikipedia.org/wiki/Gastrointestinal_physiology#Gut_motility) during relaxation/insight, with onset around 40 years old, has become the “reset signal”.
 					- The previous chronic constipated period of 2–3 days has turned into daily bowel movements.
-				- Mechanism: This is the result of my natural and formal training to *let go*. I've developed the skill of manually **activating the rest-and-digest PSNS** ([parasympathetic nervous system](https://en.wikipedia.org/wiki/Parasympathetic_nervous_system)) via the **vagus nerve**. From the period of stress, the relaxation – either through insight or as a volitional action against stress – triggers [peristalsis](https://en.wikipedia.org/wiki/Peristalsis) and evacuation.
+				- Mechanism: This is the result of my natural and formal training to *let go*. I've developed the skill of manually **activating the rest-and-digest PSNS** ([parasympathetic nervous system](https://en.wikipedia.org/wiki/Parasympathetic_nervous_system)) via the **vagus nerve**. From the period of stress, the transition to relaxation – either through insight or as a volitional action against stress – triggers [peristalsis](https://en.wikipedia.org/wiki/Peristalsis) and evacuation.
 				  collapsed:: true
 					- Neural Pathway: **Vagal Tone Enhancement**. My meditation strengthened the **vagus nerve**, the “superhighway” of the PSNS.
 					- Neurotransmitter Driver: Serotonin & Acetylcholine.
