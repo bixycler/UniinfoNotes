@@ -5718,6 +5718,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- With the advance of agentic AI these days, i'm trying ((694a8c8b-c5c6-43b5-a21f-da8ba93a1462)).
 					- From the time at ((6710fc09-fc5f-447b-9faf-5ea31b29c1fb)), i prefered [recurrent neural network (RNN)](https://en.wikipedia.org/wiki/Recurrent_neural_network) over the linear ANN. There i knew of Jürgen and his theoretical model of [self-improving Gödel Machine](https://en.wikipedia.org/wiki/G%C3%B6del_machine).
 					- Now, Google AI Mode introduces its practical implementations like ((694a916a-d6bb-4d7a-a922-c1748b15ad62))
+			- 24th,...
+			  collapsed:: true
+				- [Chat with Google AI Mode](https://share.google/aimode/1uTeDq3Xtp7HWOZOB)
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((692e5569-b7e9-458e-a3a2-44f7ed57a8f1))
