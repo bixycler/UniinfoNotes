@@ -5732,7 +5732,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Hormonal Driver: Elevated [Cortisol](https://en.wikipedia.org/wiki/Cortisol). Constant cortisol release eventually causes _glucocorticoid resistance_, where the immune system loses its "off switch".
 					- Physiological Result: This triggered **pro-inflammatory cytokines** (like IL-17). These proteins accelerated skin cell turnover from the normal 28 days to just 3–5 days, creating psoriasis plaques as a visible record of internal inflammation.
 			- Phase 2: The acute warning in young adult age
-				- Symptom: Stomachache & constipation, with onset around 20 years old, has become the "caution light".
+				- Symptom: **Stomachache & constipation**, with onset around 20 years old, has become the "caution light".
 					- The bloating comes first, when i don't release stress enough, it will progress to stomachache.
 					- My average interval between bowel movements was 2–3 days, sometimes up to 4–5 days.
 				- Mechanism: This introduced an acute, immediate "caution light". The stomachaches signaled that my body was diverting blood flow and energy away from digestion during high-stress periods or difficult tasks, a classic short-term stress response. This symptom highlighted the direct link between immediate cognitive load and physical distress.
@@ -5747,8 +5747,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- **Reduced Protective Barrier:** At the same time, stress reduces the production of protective mucus that normally lines the stomach.
 						- **Chemical Irritation:** Without food to process (or with food sitting too long), this excess acid begins to irritate the sensitive stomach lining, leading to [stress-induced gastritis](https://en.wikipedia.org/wiki/Gastritis#Stress,_injury,_and_illness).
 			- Phase 3: The conscious ((67445065-15b2-475e-a704-78f140d487af)) & [biofeedback](https://en.wikipedia.org/wiki/Biofeedback) in middle age
-				- Symptom: Conscious gut motility during relaxation/insight (onset around 40 years old).
-				- Mechanism: This is the result of your natural and formal training to "let go." You developed the skill of manually activating your **parasympathetic nervous system** (rest-and-digest) via the **vagus nerve**. Instead of stress paralyzing your gut (as it did in youth constipation), your trained "reset" now immediately triggers healthy peristalsis and evacuation when you reach clarity or relax.
+				- Symptom: Conscious [gut motility](https://en.wikipedia.org/wiki/Gastrointestinal_physiology#Gut_motility) during relaxation/insight, with onset around 40 years old, has become the "reset signal".
+				- Mechanism: This is the result of my natural and formal training to _let go_. I've developed the skill of manually **activating the rest-and-digest PSNS** ([parasympathetic nervous system](https://en.wikipedia.org/wiki/Parasympathetic_nervous_system)) via the **vagus nerve**. Instead of stress paralyzing my gut (as it did in youth constipation), my trained "reset" now immediately triggers peristalsis and evacuation when you reach clarity or relax.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((692e5569-b7e9-458e-a3a2-44f7ed57a8f1))
