@@ -5733,6 +5733,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Physiological Result: This triggered **pro-inflammatory cytokines** (like IL-17). These proteins accelerated skin cell turnover from the normal 28 days to just 3–5 days, creating psoriasis plaques as a visible record of internal inflammation.
 			- Phase 2: The acute warning in young adult age
 				- Symptom: Stomachache & constipation, with onset around 20 years old, has become the "caution light".
+					- The bloating comes first, when i don't release stress enough, it will progress to stomachache.
+					-
 				- Mechanism: This introduced an acute, immediate "caution light". The stomachaches signaled that my body was diverting blood flow and energy away from digestion during high-stress periods or difficult tasks, a classic short-term stress response. This symptom highlighted the direct link between immediate cognitive load and physical distress.
 					- Neural Pathway: High **SNS activity** ([sympathetic nervous system](https://en.wikipedia.org/wiki/Sympathetic_nervous_system)). Stress from "hard tasks" triggered the [Fight-or-Flight response](https://en.wikipedia.org/wiki/Fight-or-flight_response).
 					- Hormonal Driver: Epinephrine (Adrenaline) and Norepinephrine.
