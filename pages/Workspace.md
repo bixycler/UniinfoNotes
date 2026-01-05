@@ -34,18 +34,16 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  ^ **Element** search
 			- {{search-query [:h3 "Element Search Result"], 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, 66533703-505d-432d-8368-6058eefb45f6, 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, true, false}}
 			  query-table:: false
-		- ‎MarkTechPost
+		- ‎trinion
 		  id:: 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2
 		  case-sensitive:: false
 		  whole-word:: false
 		  filter::
 		  child-filter::
-		  search-scope:: Specific blocks:  ((695bb073-36ea-4c04-a9f2-ca173b91c573))
-		  search-scope-page:: 
+		  search-scope:: Specific blocks:
+		  search-scope-page:: Main docs: [[Mind Jungle]], [[Task]], [[Git]], [[Linux]], [[JavaScript]], [[Database]]; Extended: [[Brainstorm]], [[Story]], [[Braindump]], [[Workspace]];  History: [[2024 Brainstorms]], [[2024 Stories]], [[Mind Chips]];
 		  collapsed:: true
-		  Main docs: [[Mind Jungle]], [[Task]], [[Git]], [[Linux]], [[JavaScript]], [[Database]]; Extended: [[Brainstorm]], [[Story]], [[Braindump]], [[Workspace]];  History: [[2024 Brainstorms]], [[2024 Stories]], [[Mind Chips]];
 		  Old History: [[2024 Tasks]], [[2020 Mind Chips]], [[2021 Mind Chips]], [[2022 Mind Chips]], [[2023 Mind Chips]], [[2024 Mind Chips]], [[2025 Mind Chips]];
-			- ### [`‎MarkTechPost`](https://github.com/bixycler/MindChips/commit/b735122d6c8c4b04aa0b298243b6b22b1754b165#diff-23bd13301797d9ee3e40e65029ea96005f23942d453e8c23565bdecd969dacf7)
 			- {{search-query [:h3 "Full-text Search Result"], 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, true, true}}
 			  query-table:: false
 		- **Instruction**: Input Regex pattern to the first line, then just open (unfold) that block to see the result, which will be automatically updated in the Right Sidebar, but not in the Main Edit Pane.
