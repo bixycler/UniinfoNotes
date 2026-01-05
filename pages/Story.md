@@ -5713,16 +5713,37 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- ((694a8194-d9e6-4d75-9079-26442a8aa375))
 				- ((694a8194-6e7f-4062-8f32-1f6eb1a95d75))
 				- ((694a8194-3a16-4d52-9d60-d88aeaf125b5))
-			- 23rd, ...
+			- 23rd, With the advance of agentic AI these days, i'm trying ((694a8c8b-c5c6-43b5-a21f-da8ba93a1462)).
 			  collapsed:: true
-				- With the advance of agentic AI these days, i'm trying ((694a8c8b-c5c6-43b5-a21f-da8ba93a1462)).
-					- From the time at ((6710fc09-fc5f-447b-9faf-5ea31b29c1fb)), i prefered [recurrent neural network (RNN)](https://en.wikipedia.org/wiki/Recurrent_neural_network) over the linear ANN. There i knew of Jürgen and his theoretical model of [self-improving Gödel Machine](https://en.wikipedia.org/wiki/G%C3%B6del_machine).
-					- Now, Google AI Mode introduces its practical implementations like ((694a916a-d6bb-4d7a-a922-c1748b15ad62))
-			- 24th,...
+				- From the time at ((6710fc09-fc5f-447b-9faf-5ea31b29c1fb)), i prefered [recurrent neural network (RNN)](https://en.wikipedia.org/wiki/Recurrent_neural_network) over the linear ANN. There i knew of Jürgen and his theoretical model of [self-improving Gödel Machine](https://en.wikipedia.org/wiki/G%C3%B6del_machine).
+				- Now, Google AI Mode introduces its practical implementations like ((694a916a-d6bb-4d7a-a922-c1748b15ad62))
+			- 24th, ((694bb272-f93a-46a9-9f8b-6c629138fbf9))
 			  collapsed:: true
-				- ((694bb272-f93a-46a9-9f8b-6c629138fbf9))
-					- [Chat with Google AI Mode](https://share.google/aimode/1uTeDq3Xtp7HWOZOB)
-					- [Translated to Vietnamese](https://docs.google.com/document/d/e/2PACX-1vQe5Z-aqzuxagMhQL7gWAp7nMelWFCopuaql4xaWG0qxzXeXWNULmbVRlr3LHck3HlDoQYpZyFsPMuA/pub) for my wife
+				- [Chat with Google AI Mode](https://share.google/aimode/1uTeDq3Xtp7HWOZOB)
+				- [Translated to Vietnamese](https://docs.google.com/document/d/e/2PACX-1vQe5Z-aqzuxagMhQL7gWAp7nMelWFCopuaql4xaWG0qxzXeXWNULmbVRlr3LHck3HlDoQYpZyFsPMuA/pub) for my wife
+			- 28-30th, ...
+				- Autonoton from computer science view, as a function: (InputHistory, input) -> (CurrentState, input) -> (NextState, output) -> (OutputHistory, output)
+				  collapsed:: true
+					- State = A condensed image of the world (history in time and landscape in space) projected into mind.
+					- Projection mechanism is determined by knowledge
+					- Knowledge = The internal consistency developed by the system, from deeper history.
+				- State = attent = internal view cone = intent tree in knowledge graph
+				  collapsed:: true
+					- Apex = root node = hard core of distant past
+					- Base = bubbles of present
+					- Selective Branching: only relevant & attending links in the graph are unfolded into intent tree, others are folded.
+				- Phase Transitions of information:
+				  collapsed:: true
+					- Information (Vapor): High entropy, chaotic, and unpatterned. This is the raw "Sequence of Inputs" (history).
+					- Obop/Fluidware (Liquid, [Dissipative Structure](https://en.wikipedia.org/wiki/Dissipative_system)): A stateful program in motion, it's organized but fluid, constantly "eating" new history to maintain its shape.
+					- Learning (Freezing): As the same patterns recur, the information loses "latent heat" (uncertainty). It begins to lock into place.
+					- Knowledge (Crystal): The final, low-entropy structure. It is rigid and provides a "Way of Projection." When a new drop of vapor (new input) hits this crystal, its path is determined by the existing frozen structure.
+				- MIT has researched a [knowledge CRYSTAL](https://atalupadhyay.wordpress.com/2025/03/03/building-self-organizing-knowledge-graphs-with-ai-agents-the-crystal-approach/) approach for agentic AI, very similar to mine.
+				  collapsed:: true
+					- Paper: [Agentic Deep Graph Reasoning Yields Self-Organizing Knowledge Networks](https://arxiv.org/html/2502.13025v1)
+					- [PRefLexOR](https://github.com/lamm-mit/PRefLexOR): Preference-based Recursive Language Modeling
+						- Paper: [PRefLexOR: Preference-based Recursive Language Modeling for Exploratory Optimization of Reasoning and Agentic Thinking](https://arxiv.org/abs/2410.12375)
+				-
 		- My life journey through the gut–brain–skin axis, with the “guadian symptoms”
 		  id:: 694bb272-f93a-46a9-9f8b-6c629138fbf9
 		  collapsed:: true
