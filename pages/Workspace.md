@@ -42,6 +42,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  child-filter::
 		  search-scope:: Specific blocks:  ((695bb073-36ea-4c04-a9f2-ca173b91c573))
 		  search-scope-page:: 
+		  collapsed:: true
 		  Main docs: [[Mind Jungle]], [[Task]], [[Git]], [[Linux]], [[JavaScript]], [[Database]]; Extended: [[Brainstorm]], [[Story]], [[Braindump]], [[Workspace]];  History: [[2024 Brainstorms]], [[2024 Stories]], [[Mind Chips]];
 		  Old History: [[2024 Tasks]], [[2020 Mind Chips]], [[2021 Mind Chips]], [[2022 Mind Chips]], [[2023 Mind Chips]], [[2024 Mind Chips]], [[2025 Mind Chips]];
 			- ### [`‎MarkTechPost`](https://github.com/bixycler/MindChips/commit/b735122d6c8c4b04aa0b298243b6b22b1754b165#diff-23bd13301797d9ee3e40e65029ea96005f23942d453e8c23565bdecd969dacf7)

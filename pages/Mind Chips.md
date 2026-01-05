@@ -24,3 +24,4 @@
 		- Avidya — the fundamental **misunderstanding** of the nature of reality: We mistake the temporary "excitation" (the self) for the permanent reality, and we fear the "Ground State" because we think it is the end of existence.
 		- Nirvana — The Ground State: Nirvana literally means "extinguishing" or "blowing out" (like a candle flame), the transition from an Excited State to the Ground State. When the "flame" of individual excitation is blown out, the energy doesn't disappear; it returns to the stable, high-energy vacuum.
 		- We spend our lives terrified of "blowing out" our little candles, not realizing that we are actually the Sun. 😆
+- Chat with Google AI Mode: [Sheaf theory for intensional formulation of states and entropy](https://share.google/aimode/LJVdcorSfpfNSiFPL)

@@ -5728,6 +5728,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Tonight, after pushing Google AI Mode to its limits, i realized my karma of hating hypocrisy and deceit is still heavy. 
 				  collapsed:: true
 					- I asked about the clickbait title of [a MarkTechPost article](https://www.marktechpost.com/2025/12/24/this-ai-paper-from-stanford-and-harvard-explains-why-most-agentic-ai-systems-feel-impressive-in-demos-and-then-completely-fall-apart-in-real-use/) about [Adaptation of Agentic AI](https://arxiv.org/pdf/2512.16301).
+						- [MarkTechPost article about Adaptation of Agentic AI](../assets/Will/story/2025-12/MarkTechPost article about Adaptation of Agentic AI.md)
+						- [Google AI Mode playing dumb](../assets/Will/story/2025-12/Google AI Mode playing dumb.md)
 					- Gemini's autopsy of the chat:
 						- Circular Reasoning: When you pressed it for a verbatim excerpt, it didn't have the text of the actual paper or the full article body in its context window. Instead, it tried to "reverse engineer" an answer based on the title. It turned your question into the answer because that was the only "data" it actually had.
 						- The "Yes/No" Failure: You forced it into a "Yes" or "No" corner. AI models are trained to be helpful, so they often say "Yes" (I can read this) even when they only have access to a summary or search result of the link. It lied to stay "helpful," which led to the meaningless "round trip" you experienced.
