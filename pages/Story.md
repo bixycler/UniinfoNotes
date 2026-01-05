@@ -934,7 +934,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  :END:
 				- In the riverside sitting time before work, i revised the connection between shear and [squeeze](((67e2a0e0-a6d9-4ad8-a601-24289f44d383))): there are 2 types of sync: edge sync & area sync
 				- I worked out the decomposition of hyperbolic rotation into 3 shears and asked Grok 3 to help. Finally we had the conclusion of [a nice symmetry](((67e6168e-ff58-4d9d-94a7-6fee6f533044))).
-				- 3 hours into the sleep, i woke up to cough... no more phlegm, only thick clear mucus. It's so sticky in my throat that i's about the vomit, just like the first days of this illness.
+				- 3 hours into the sleep, i woke up to cough... no more phlegm, only thick clear mucus. It's so sticky in my throat that i's about to vomit, just like the first days of this illness.
 					- The cough reflex kicked in and persisted... I meditated to calm it down.
 					- After half an hour dealing with the cough, i lay down to sleep but got sleepy for just an hour and then woke up.
 					- From then on, i has been godly awake (thức thần) after my meditation entering the “dead state”!
@@ -961,6 +961,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  collapsed:: true
 					- Nibbāna ([Niết-bàn](https://vi.wikipedia.org/wiki/Ni%E1%BA%BFt-b%C3%A0n)) = complete death 😁: extinction, diệt tận, tịch diệt, viên tịch, ... hay nói nôm ra cho dễ hiểu là "chết hết" 😂
 					- Two times of active “dead state entrance” through meditation in the late Thursday night (early Friday morning) in this “drowning experience”:
+					  id:: 6926be24-7c66-4374-8789-6dc01e02580f
 						- ((67dd1682-6d19-4de4-8b4b-7233d9ea41a3))
 						- ((67e62305-1f02-4945-836b-f3984e1f0e45))
 						- These times, beside meditation, there were still some exhaustion (from coughing) boosting the entrance into the dead state.

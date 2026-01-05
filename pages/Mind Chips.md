@@ -12,7 +12,7 @@
 	- As a man, the arrow coils up into a deep urge underlying all actions.
 		- That arrow continuously transforms the view in space to push it forward in time.
 		- So time is constantly flowing inside no matter how static the outside.
-- Remember the previous trip: At ground state, i see the total entropy doesn't increase, it just stays as is, the external increase is balanced by the internal decrease, and vice versa.
+- Remember [the previous trips](((6926be24-7c66-4374-8789-6dc01e02580f))): At ground state, i see the total entropy doesn't increase, it just stays as is, the external increase is balanced by the internal decrease, and vice versa.
   collapsed:: true
 	- That's why i say “it's never enough for an individual, but never lacking for the whole.”
 	- Will: I see the fundamental "flaw" in "ever increasing entropy" theory lies in the particle-based view, which is inherent to thermodynamics and the ego/self. That's why i asked about the "identity difference" earlier. We see "entropy increases" due to our ego-centric view of everyday life, as a super massive particle (in de Broglie's language).
