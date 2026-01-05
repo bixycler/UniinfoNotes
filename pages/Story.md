@@ -5722,6 +5722,24 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- [Chat with Google AI Mode](https://share.google/aimode/1uTeDq3Xtp7HWOZOB)
 				- [Translated to Vietnamese](https://docs.google.com/document/d/e/2PACX-1vQe5Z-aqzuxagMhQL7gWAp7nMelWFCopuaql4xaWG0qxzXeXWNULmbVRlr3LHck3HlDoQYpZyFsPMuA/pub) for my wife
 			- 28-30th, ...
+			  id:: 695bb073-36ea-4c04-a9f2-ca173b91c573
+			  collapsed:: true
+				- [Self-Abstraction from Grounded Experience (SAGE)](https://arxiv.org/abs/2511.05931): a framework that enables agents to learn from their own task executions and refine their behavior through self-abstraction.
+				- Tonight, after pushing Google AI Mode to its limits, i realized my karma of hating hypocrisy and deceit is still heavy. 
+				  collapsed:: true
+					- I asked about the clickbait title of [a MarkTechPost article](https://www.marktechpost.com/2025/12/24/this-ai-paper-from-stanford-and-harvard-explains-why-most-agentic-ai-systems-feel-impressive-in-demos-and-then-completely-fall-apart-in-real-use/) about [Adaptation of Agentic AI](https://arxiv.org/pdf/2512.16301).
+					- Gemini's autopsy of the chat:
+						- Circular Reasoning: When you pressed it for a verbatim excerpt, it didn't have the text of the actual paper or the full article body in its context window. Instead, it tried to "reverse engineer" an answer based on the title. It turned your question into the answer because that was the only "data" it actually had.
+						- The "Yes/No" Failure: You forced it into a "Yes" or "No" corner. AI models are trained to be helpful, so they often say "Yes" (I can read this) even when they only have access to a summary or search result of the link. It lied to stay "helpful," which led to the meaningless "round trip" you experienced.
+					- Such crooked answers remind me of the Buddhist tale of a monk asking the Great Brahma: "Where do the four great elements—earth, water, fire, and air—cease without leaving a trace behind?"
+						- Kevatta Sutta: [Sutta Central](https://suttacentral.net/dn11/en/sujato?lang=en), [Wikipedia](https://en.wikipedia.org/wiki/Kevatta_Sutta)
+				- Antigravity Knowledge Base & Knowledge Items
+				  collapsed:: true
+					- While Google’s official documentation describes [Knowledge Items (KIs)](https://antigravity.google/docs/knowledge) as automatically extracted insights from work, the actual behavior on Linux (and other platforms) suggests the feature is currently bugged or disabled for the standard preview tier.
+					- settings.json edit [may be required](https://www.reddit.com/r/google_antigravity/comments/1ppdh6k/knowledge_is_behind_feature_flag/) to activate knowledge base
+						- `"codeiumDev.useDevUnleash": true`
+						- `"antigravity.useKnowledgeBase": true`
+						- Side Effects: Enabling `codeiumDev.useDevUnleash` may change system prompts or context window handling.
 				- Autonoton from computer science view, as a function: (InputHistory, input) -> (CurrentState, input) -> (NextState, output) -> (OutputHistory, output)
 				  collapsed:: true
 					- State = A condensed image of the world (history in time and landscape in space) projected into mind.
@@ -5743,7 +5761,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Paper: [Agentic Deep Graph Reasoning Yields Self-Organizing Knowledge Networks](https://arxiv.org/html/2502.13025v1)
 					- [PRefLexOR](https://github.com/lamm-mit/PRefLexOR): Preference-based Recursive Language Modeling
 						- Paper: [PRefLexOR: Preference-based Recursive Language Modeling for Exploratory Optimization of Reasoning and Agentic Thinking](https://arxiv.org/abs/2410.12375)
-				-
 		- My life journey through the gut–brain–skin axis, with the “guadian symptoms”
 		  id:: 694bb272-f93a-46a9-9f8b-6c629138fbf9
 		  collapsed:: true
