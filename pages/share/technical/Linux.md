@@ -1368,6 +1368,7 @@
 		- `dig`
 		  a flexible tool for interrogating DNS name servers.
 		- `dnsmasq`
+		  id:: 67864319-c2d5-4ba3-98a2-958f1e07cf53
 		  a lightweight DNS, TFTP, PXE, router advertisement and DHCP server.
 		- [DNS records](https://en.wikipedia.org/wiki/List_of_DNS_record_types) in [`.zone` file](https://en.wikipedia.org/wiki/Zone_file)
 		  collapsed:: true
