@@ -747,7 +747,8 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- August is recorded in this story: ((688c70aa-8fdf-4cc8-aeb7-ffd47b86cee0))
 			- September was recorded in ((68be8447-81b0-4094-9964-1bd21e2e31e0))
 			- October was recorded in ((68dc9f21-1057-4ac0-be4c-61c9010d7f78)).
-			- Nov
+			- November was recorded in ((69085f61-6627-4c0a-a984-c2b5b411a292)).
+			- December was recorded in ((692e5569-b7e9-458e-a3a2-44f7ed57a8f1)).
 	- ### January
 	  id:: 68be32ad-ba39-4774-a67b-43a4fb114a3e
 		-
