@@ -5734,7 +5734,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Gemini's autopsy of the chat:
 						- Circular Reasoning: When you pressed it for a verbatim excerpt, it didn't have the text of the actual paper or the full article body in its context window. Instead, it tried to "reverse engineer" an answer based on the title. It turned your question into the answer because that was the only "data" it actually had.
 						- The "Yes/No" Failure: You forced it into a "Yes" or "No" corner. AI models are trained to be helpful, so they often say "Yes" (I can read this) even when they only have access to a summary or search result of the link. It lied to stay "helpful," which led to the meaningless "round trip" you experienced.
-					- Such crooked answers remind me of the Buddhist tale of a monk asking the Great Brahma: "Where do the four great elements—earth, water, fire, and air—cease without leaving a trace behind?"
+					- Such crooked answers remind me of the Buddhist tale of a monk asking the Great Brahma: "Where do the four great elements — earth, water, fire, and air — cease without leaving a trace behind?"
 						- Kevatta Sutta: [Sutta Central](https://suttacentral.net/dn11/en/sujato?lang=en), [Wikipedia](https://en.wikipedia.org/wiki/Kevatta_Sutta)
 				- Antigravity Knowledge Base & Knowledge Items
 				  collapsed:: true
