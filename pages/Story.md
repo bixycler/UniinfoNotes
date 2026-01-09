@@ -2987,7 +2987,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  :LOGBOOK:
 			  CLOCK: [2025-07-07 Mon 09:21:20]
 			  :END:
-		- WAIT Both Chrome & Edge versions are from Sep 2024!?
+		- Both Chrome & Edge versions are from Sep 2024 due to disabled auto-update
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
 		  :LOGBOOK:
@@ -3085,6 +3085,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- [How do I turn off automatic updates COMPLETELY and FOR REAL?](https://askubuntu.com/q/1322292/1722530)
 						- [Completely disable auto updates & automatic checks for updates](https://forum.zorin.com/t/completely-disable-auto-updates-automatic-checks-for-updates/20043)
 				- Make sure all of these actions are reset, except the `autostart/update-notifier.desktop`:`X-GNOME-Autostart-enabled=false` and Unattended Upgrade
+				  id:: 6926be23-574a-48d5-8aa6-3466affdb1b1
 				  collapsed:: true
 					- Unmask `apt-news` & `esm-cache` which were masked due to [their unuse](https://askubuntu.com/a/1452520).
 						- ```sh
@@ -5086,11 +5087,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- no setter call inside effect/memo function, so that no frame is left in call stack (actually empty frames are still left).
 					- test effect circle branching before memo function returns
 					- test diamond effect flow
-		- WAIT Back to intent observation
+		- DOING Back to intent observation
 		  id:: 68dc9f21-1057-4ac0-be4c-61c9010d7f78
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-10-01 Wed 10:53:14]
+		  CLOCK: [2026-01-09 Fri 16:37:47]
 		  :END:
 			- October 1st, first day back to riverside meditation
 			  collapsed:: true
@@ -5192,7 +5194,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- ((68f5a6d2-8148-4975-b3cb-799fe37a3d72))
 				- ((68f5a6d2-5faa-4889-bd79-30e9c553c314))
 			- 20th,...
-			  collapsed:: true
 				- WAIT Newtonian mechanics → [Lagrangian mechanics](https://en.wikipedia.org/wiki/Lagrangian_mechanics) → field equations
 				  id:: 68f60c71-56b6-494e-b4bb-26f1f91e3282
 					- The key in the law of “[stationary action](https://en.wikipedia.org/wiki/Hamilton%27s_principle) δS = 0” is not the value of S itself, but the hidden clause “for all variations δx(t)”! 😜
@@ -5210,7 +5211,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Kinetic engergy: $T = \int {\bf v} ⋅ d{\bf p} ⟹ dT/dv = {\bf p}$
 						- Potential engergy:
 					-
-			- 25-26th, weekends, ...
+			- 25-26th, weekends, the flood due to the peak spring tide – highest in the last 6 years – and dike overflow
 			  collapsed:: true
 				- [Triều cường tràn đê](https://thanhnien.vn/trieu-cuong-dang-cao-o-tphcm-nuoc-tran-bo-de-cuon-cuon-chay-vao-nha-dan-khu-thanh-da-185251024194232344.htm) ở Thanh Đa - Bình Quới, 24/10/2025, đỉnh triều cao nhất trong 6 năm qua.
 				  collapsed:: true
@@ -5262,12 +5263,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- > Nhiều khu vực ở Hà Nội có cao độ +5m, thấp hơn đáng kể so với lòng sông Hồng (có cao độ trung bình từ +7 đến +8m).
 				- ((68ff4bc5-64a2-4210-add0-f6476ff1ee05))
 				- Llion Jones, a coauthor of the transformer architecture has been [sick of transformer](https://venturebeat.com/ai/sakana-ais-cto-says-hes-absolutely-sick-of-transformers-the-tech-that-powers)! 😆
-			- 29th,...
+			- 29th, [tldraw computer](https://computer.tldraw.com/p/nvFmYL2GyJxWHQHSqGYapY), a visual agentic AI with flowchart on canvas.
+			- 31st, look behind the eyes, and contemplate the life cycle of self
 			  collapsed:: true
-				- [tldraw computer](https://computer.tldraw.com/p/nvFmYL2GyJxWHQHSqGYapY), a visual agentic AI with flowchart on canvas.
-			- 31st, ...
-			  collapsed:: true
-				-
 				- ((68a7e4c1-b26f-41fc-9e2d-f62789a2a9d3))
 				- ((690827cf-c19e-4fc4-ba25-5d225afe06ae))
 				- An interesting way of plotting prime numbers: [The Prime Scalar Field](https://theprimescalarfield.com/)
