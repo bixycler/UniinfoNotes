@@ -5739,26 +5739,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  id:: 695baffd-7623-4b5e-ab19-d6998b923ac5
 					- While Google’s official documentation describes [Knowledge Items (KIs)](https://antigravity.google/docs/knowledge) as automatically extracted insights from work, the actual behavior on Linux (and other platforms) suggests the feature is currently bugged or disabled for the standard preview tier. 
 					  id:: 695baffd-4e8a-4e06-8ba5-718ebaa8ac91
-					- Editing of `settings.json` (in `~/.config/Antigravity/User`) [may be required](https://www.reddit.com/r/google_antigravity/comments/1ppdh6k/knowledge_is_behind_feature_flag/) to activate knowledge base
+					- Editing of `settings.json` (in `~/.config/Antigravity/User`) is [required](https://www.reddit.com/r/google_antigravity/comments/1ppdh6k/knowledge_is_behind_feature_flag/) to activate knowledge base:
 						- `"codeiumDev.useDevUnleash": true`
-						- `"antigravity.useKnowledgeBase": true`
+						- `"antigravity.useKnowledgeBase": true` ← This is just a hallucation of Google AI Mode 😁
 						- Side Effects: Enabling `codeiumDev.useDevUnleash` may change system prompts or context window handling.
-						- Antigravity's confirmation: The activation was successful. My "mind" (system prompt) now includes this critical section:
+						- Antigravity's confirmation: The activation was successful. My "mind" (system prompt) now includes these critical sections:
 							- `<knowledge_discovery>`: This is a comprehensive guide on how I should interact with the **Knowledge Items (KI) System**. It gives me clear instructions on checking KI summaries before starting research and how to build upon existing knowledge artifacts.
-							- `<persistent_context>`:
-							- it details exactly how I should retrieve information from past conversations and Knowledge Items (KIs). It explains:
-							- **When to Use Conversation Logs**: When I need raw details or specifically referenced past discussions.
-							- **When to Use Knowledge Items**: For distilled, curated knowledge on specific topics.
-							- **How to Use Search Tools**: Using tools like 
-							  
-							  ```
-							  codebase_search
-							  ```
-							  
-							  or 
-							  
-							  ```
-							  `grep_search` if I can't find a direct link to a past session.
+							- `<persistent_context>`: This details how I should retrieve information from past conversations and Knowledge Items (KIs). It explains:
+								- **When to Use Conversation Logs**: When I need raw details or specifically referenced past discussions.
+								- **When to Use Knowledge Items**: For distilled, curated knowledge on specific topics.
+								- **How to Use Search Tools**: Using tools like `codebase_search` or `grep_search` if I can't find a direct link to a past session.
 					- DOING Asking the agent of Antigravity itself: 
 					  :LOGBOOK:
 					  CLOCK: [2026-01-09 Fri 09:16:09]
