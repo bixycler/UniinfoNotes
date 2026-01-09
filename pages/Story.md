@@ -5697,7 +5697,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- YEP: This year will be the first time i attend YEP of the Company.
 				  Lab: [15h00 ngày 30/12/2025 (Thứ 3)](https://www.chatwork.com/#!rid97370046-2053412020795215872)
 				  Cty: [Chiều thứ Sáu, ngày 23/01/2026](https://www.chatwork.com/#!rid81746279-2053380260107661312)
-			- 20-21st, weekends
+			- 20-21st, weekends with various brainstorms: 4M (micro-meso-macro-mega), backprop-free models, and obop model in various fields
 			  collapsed:: true
 				- Chat with Google AI Mode [about the Cognitive Mirror](https://share.google/aimode/PidCOT4LaQtBladNi) in digital age.
 				  collapsed:: true
@@ -5721,22 +5721,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- [Chat with Google AI Mode](https://share.google/aimode/1uTeDq3Xtp7HWOZOB)
 				- [Translated to Vietnamese](https://docs.google.com/document/d/e/2PACX-1vQe5Z-aqzuxagMhQL7gWAp7nMelWFCopuaql4xaWG0qxzXeXWNULmbVRlr3LHck3HlDoQYpZyFsPMuA/pub) for my wife
-			- 28-30th, ...
+			- 28-30th, about knowledge system of AI agents and the state/attent upon it
 			  id:: 695bb073-36ea-4c04-a9f2-ca173b91c573
 			  collapsed:: true
 				- [Self-Abstraction from Grounded Experience (SAGE)](https://arxiv.org/abs/2511.05931): a framework that enables agents to learn from their own task executions and refine their behavior through self-abstraction.
-				- Tonight, after pushing Google AI Mode to its limits, i realized my karma of hating hypocrisy and deceit is still heavy. 
-				  collapsed:: true
-					- I asked about the clickbait title of [a MarkTechPost article](https://www.marktechpost.com/2025/12/24/this-ai-paper-from-stanford-and-harvard-explains-why-most-agentic-ai-systems-feel-impressive-in-demos-and-then-completely-fall-apart-in-real-use/) about [Adaptation of Agentic AI](https://arxiv.org/pdf/2512.16301).
-						- [MarkTechPost article about Adaptation of Agentic AI](../assets/Will/story/2025-12/MarkTechPost article about Adaptation of Agentic AI.md)
-						- [Google AI Mode playing dumb](../assets/Will/story/2025-12/Google AI Mode playing dumb.md)
-					- Gemini's autopsy of the chat:
-						- Circular Reasoning: When you pressed it for a verbatim excerpt, it didn't have the text of the actual paper or the full article body in its context window. Instead, it tried to "reverse engineer" an answer based on the title. It turned your question into the answer because that was the only "data" it actually had.
-						- The "Yes/No" Failure: You forced it into a "Yes" or "No" corner. AI models are trained to be helpful, so they often say "Yes" (I can read this) even when they only have access to a summary or search result of the link. It lied to stay "helpful," which led to the meaningless "round trip" you experienced.
-					- Such crooked answers remind me of the Buddhist tale of a monk asking the Great Brahma: "Where do the four great elements — earth, water, fire, and air — cease without leaving a trace behind?"
-						- Kevatta Sutta: [Sutta Central](https://suttacentral.net/dn11/en/sujato?lang=en), [Wikipedia](https://en.wikipedia.org/wiki/Kevatta_Sutta)
 				- Antigravity Knowledge Base & Knowledge Items
 				  id:: 695baffd-7623-4b5e-ab19-d6998b923ac5
+				  collapsed:: true
 					- While Google’s official documentation describes [Knowledge Items (KIs)](https://antigravity.google/docs/knowledge) as automatically extracted insights from work, the actual behavior on Linux (and other platforms) suggests the feature is currently bugged or disabled for the standard preview tier. 
 					  id:: 695baffd-4e8a-4e06-8ba5-718ebaa8ac91
 					- Editing of `settings.json` (in `~/.config/Antigravity/User`) is [required](https://www.reddit.com/r/google_antigravity/comments/1ppdh6k/knowledge_is_behind_feature_flag/) to activate knowledge base:
@@ -5744,10 +5735,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- `"antigravity.useKnowledgeBase": true` ← This is just a hallucation of Google AI Mode 😁
 						- Side Effects: Enabling `codeiumDev.useDevUnleash` may change system prompts or context window handling.
 						- ((69607f31-69b2-4fc9-ac24-83912bc13a0c))
-					- DOING Asking the agent of Antigravity itself: 
+					- Asking the agent of Antigravity itself:
 					  :LOGBOOK:
 					  CLOCK: [2026-01-09 Fri 09:16:09]
-					  CLOCK: [2026-01-09 Fri 09:16:11]
+					  CLOCK: [2026-01-09 Fri 09:16:11]--[2026-01-09 Fri 14:44:56] =>  05:28:45
 					  :END:
 						- At first, it didn't know the concept intrinsically, and search all over of my repo without success. 😁
 						- After i provided it the [link](https://antigravity.google/docs/knowledge), it opened browser, navigate around to read many pages there, with many tabs opened 😉.
@@ -5773,27 +5764,22 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- ((6960913e-1087-4e27-837c-aa0a98b98f6e))
 							- ((6960929c-0ac9-43c6-8357-0e3e9ca1ed54))
 						- The [Knowledge system](((69609135-7b69-4dfb-bb53-19d08c4b77ad))) has been activated but no item can be commit! 🤔
-				- Autonoton from computer science view, as a function: (InputHistory, input) -> (CurrentState, input) -> (NextState, output) -> (OutputHistory, output)
-				  collapsed:: true
-					- State = A condensed image of the world (history in time and landscape in space) projected into mind.
-					- Projection mechanism is determined by knowledge
-					- Knowledge = The internal consistency developed by the system, from deeper history.
-				- State = attent = internal view cone = intent tree in knowledge graph
-				  collapsed:: true
-					- Apex = root node = hard core of distant past
-					- Base = bubbles of present
-					- Selective Branching: only relevant & attending links in the graph are unfolded into intent tree, others are folded.
-				- Phase Transitions of information:
-				  collapsed:: true
-					- Information (Vapor): High entropy, chaotic, and unpatterned. This is the raw "Sequence of Inputs" (history).
-					- Obop/Fluidware (Liquid, [Dissipative Structure](https://en.wikipedia.org/wiki/Dissipative_system)): A stateful program in motion, it's organized but fluid, constantly "eating" new history to maintain its shape.
-					- Learning (Freezing): As the same patterns recur, the information loses "latent heat" (uncertainty). It begins to lock into place.
-					- Knowledge (Crystal): The final, low-entropy structure. It is rigid and provides a "Way of Projection." When a new drop of vapor (new input) hits this crystal, its path is determined by the existing frozen structure.
 				- MIT has researched a [knowledge CRYSTAL](https://atalupadhyay.wordpress.com/2025/03/03/building-self-organizing-knowledge-graphs-with-ai-agents-the-crystal-approach/) approach for agentic AI, very similar to mine.
 				  collapsed:: true
 					- Paper: [Agentic Deep Graph Reasoning Yields Self-Organizing Knowledge Networks](https://arxiv.org/html/2502.13025v1)
 					- [PRefLexOR](https://github.com/lamm-mit/PRefLexOR): Preference-based Recursive Language Modeling
 						- Paper: [PRefLexOR: Preference-based Recursive Language Modeling for Exploratory Optimization of Reasoning and Agentic Thinking](https://arxiv.org/abs/2410.12375)
+				- ((695baffd-7826-4a1f-a3ce-afd7f85fd289))
+				- Tonight, after pushing Google AI Mode to its limits, i realized my karma of hating hypocrisy and deceit is still heavy. 
+				  collapsed:: true
+					- I asked about the clickbait title of [a MarkTechPost article](https://www.marktechpost.com/2025/12/24/this-ai-paper-from-stanford-and-harvard-explains-why-most-agentic-ai-systems-feel-impressive-in-demos-and-then-completely-fall-apart-in-real-use/) about [Adaptation of Agentic AI](https://arxiv.org/pdf/2512.16301).
+						- [MarkTechPost article about Adaptation of Agentic AI](../assets/Will/story/2025-12/MarkTechPost article about Adaptation of Agentic AI.md)
+						- [Google AI Mode playing dumb](../assets/Will/story/2025-12/Google AI Mode playing dumb.md)
+					- Gemini's autopsy of the chat:
+						- Circular Reasoning: When you pressed it for a verbatim excerpt, it didn't have the text of the actual paper or the full article body in its context window. Instead, it tried to "reverse engineer" an answer based on the title. It turned your question into the answer because that was the only "data" it actually had.
+						- The "Yes/No" Failure: You forced it into a "Yes" or "No" corner. AI models are trained to be helpful, so they often say "Yes" (I can read this) even when they only have access to a summary or search result of the link. It lied to stay "helpful," which led to the meaningless "round trip" you experienced.
+					- Such crooked answers remind me of the Buddhist tale of a monk asking the Great Brahma: "Where do the four great elements — earth, water, fire, and air — cease without leaving a trace behind?"
+						- Kevatta Sutta: [Sutta Central](https://suttacentral.net/dn11/en/sujato?lang=en), [Wikipedia](https://en.wikipedia.org/wiki/Kevatta_Sutta)
 		- My life journey through the gut–brain–skin axis, with the “guadian symptoms”
 		  id:: 694bb272-f93a-46a9-9f8b-6c629138fbf9
 		  collapsed:: true

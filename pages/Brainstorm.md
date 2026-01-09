@@ -11,6 +11,21 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
+		- Autonoton from computer science view, as a function: (InputHistory, input) -> (CurrentState, input) -> (NextState, output) -> (OutputHistory, output)
+		  id:: 695baffd-7826-4a1f-a3ce-afd7f85fd289
+		  collapsed:: true
+			- State = A condensed image of the world (history in time and landscape in space) projected into mind.
+			- Projection mechanism is determined by knowledge
+			- Knowledge = The internal consistency developed by the system, from deeper history.
+			- State = attent = internal view cone = intent tree in knowledge graph
+				- Apex = root node = hard core of distant past
+				- Base = bubbles of present
+				- Selective Branching: only relevant & attending links in the graph are unfolded into intent tree, others are folded.
+			- Phase Transitions of information:
+				- Information (Vapor): High entropy, chaotic, and unpatterned. This is the raw "Sequence of Inputs" (history).
+				- Obop/Fluidware (Liquid, [Dissipative Structure](https://en.wikipedia.org/wiki/Dissipative_system)): A stateful program in motion, it's organized but fluid, constantly "eating" new history to maintain its shape.
+				- Learning (Freezing): As the same patterns recur, the information loses "latent heat" (uncertainty). It begins to lock into place.
+				- Knowledge (Crystal): The final, low-entropy structure. It is rigid and provides a "Way of Projection." When a new drop of vapor (new input) hits this crystal, its path is determined by the existing frozen structure.
 		- The full range of programming from human to machine
 		  id:: 694a8ac0-cddc-4bcd-bdc1-dbfb9dcb04de
 		  collapsed:: true
