@@ -5749,6 +5749,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- **When to Use Conversation Logs**: When I need raw details or specifically referenced past discussions.
 								- **When to Use Knowledge Items**: For distilled, curated knowledge on specific topics.
 								- **How to Use Search Tools**: Using tools like `codebase_search` or `grep_search` if I can't find a direct link to a past session.
+							- `<ephemeral_message>`: This section is upgraded from the standard "task reminder" mode to the advanced knowledge-aware version.
 					- DOING Asking the agent of Antigravity itself: 
 					  :LOGBOOK:
 					  CLOCK: [2026-01-09 Fri 09:16:09]
