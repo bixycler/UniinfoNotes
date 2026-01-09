@@ -5737,10 +5737,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Kevatta Sutta: [Sutta Central](https://suttacentral.net/dn11/en/sujato?lang=en), [Wikipedia](https://en.wikipedia.org/wiki/Kevatta_Sutta)
 				- Antigravity Knowledge Base & Knowledge Items
 				  id:: 695baffd-7623-4b5e-ab19-d6998b923ac5
-				  collapsed:: true
 					- While Google’s official documentation describes [Knowledge Items (KIs)](https://antigravity.google/docs/knowledge) as automatically extracted insights from work, the actual behavior on Linux (and other platforms) suggests the feature is currently bugged or disabled for the standard preview tier. 
 					  id:: 695baffd-4e8a-4e06-8ba5-718ebaa8ac91
-					- Editing of `settings.json` (in `~/.config/Antigravity`) [may be required](https://www.reddit.com/r/google_antigravity/comments/1ppdh6k/knowledge_is_behind_feature_flag/) to activate knowledge base
+					- Editing of `settings.json` (in `~/.config/Antigravity/User`) [may be required](https://www.reddit.com/r/google_antigravity/comments/1ppdh6k/knowledge_is_behind_feature_flag/) to activate knowledge base
 						- `"codeiumDev.useDevUnleash": true`
 						- `"antigravity.useKnowledgeBase": true`
 						- Side Effects: Enabling `codeiumDev.useDevUnleash` may change system prompts or context window handling.
