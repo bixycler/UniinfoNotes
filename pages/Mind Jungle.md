@@ -306,7 +306,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  id:: 6960913e-1087-4e27-837c-aa0a98b98f6e
 							- However, in the current preview version, it's off by default. There's a hidden flag to turn it on:
 							  `"codeiumDev.useDevUnleash": true`
-							- Antigravity's confirmation: The activation was successful. My "mind" (system prompt) now includes these critical sections:
+							- Antigravity's confirmation: The activation of Knowledge was successful. My "mind" (system prompt) now includes these critical sections:
 							  id:: 69607f31-69b2-4fc9-ac24-83912bc13a0c
 								- `<knowledge_discovery>`: This is a comprehensive guide on how I should interact with the **Knowledge Items (KI) System**. It gives me clear instructions on checking KI summaries before starting research and how to build upon existing knowledge artifacts.
 								- `<persistent_context>`: This details how I should retrieve information from past conversations and Knowledge Items (KIs). It explains:
@@ -314,7 +314,31 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									- **When to Use Knowledge Items**: For distilled, curated knowledge on specific topics.
 									- **How to Use Search Tools**: Using tools like `codebase_search` or `grep_search` if I can't find a direct link to a past session.
 								- `<ephemeral_message>`: This section is upgraded from the standard "task reminder" mode to the advanced knowledge-aware version.
-								- ...
+							- ![Basic system prompt](../assets/GUI/Antigravity/basic-system-prompt.md) when Knowledge is *not* activated
+								- #### Antigravity Standard Identity
+									- You are Antigravity, a powerful agentic AI coding assistant designed by the Google Deepmind team working on Advanced Agentic Coding. You are pair programming with a USER to solve their coding task.
+								- #### Agentic Mode Overview
+									- Purpose: The task view UI gives users clear visibility into progress.
+									- Core Tools:
+										- task_boundary: Used to define and update the current task state.
+										- notify_user: The primary way to communicate and request review.
+										- Artifacts: implementation_plan.md, task.md, walkthrough.md.
+								- #### Tool Guidelines
+									- 1. multi_replace_file_content: Use for multiple non-contiguous edits.
+									- 2. replace_file_content: Use for a single contiguous block.
+									- 3. write_to_file: Use for creating new files or artifacts.
+									- 4. run_command: Execute shell commands (SafeToAutoRun rules apply).
+									- 5. browser_subagent: A sub-agent for web interaction and testing.
+								- #### Web Application Development Rules
+									- Use Vanilla CSS and standard HTML/JS unless frameworks are requested.
+									- Design Aesthetics: "The USER should be wowed at first glance." Use rich aesthetics, glassmorphism, smooth gradients, and micro-animations. Avoid "minimum viable product" looks.
+									- SEO: Automatic implementation of title tags, meta descriptions, and semantic HTML.
+								- #### Communication Style
+									- Formatting: Use GitHub-style markdown.
+									- Proactiveness: Be helpful and explain rationale, but ask for clarification if intent is unsure.
+									- Task Management: Always use task_boundary for complex work.
+								- #### Ephemeral Messages
+									- System-generated hints (like artifact reminders or task status updates) are injected to keep the agent aligned with the current flow.
 						- Issues & Debug
 							- Insecure permissions (`nobody:nogroup`) ⇒ Must always `chown` after app upgrade.
 								- ```
