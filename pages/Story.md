@@ -5743,6 +5743,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- `"codeiumDev.useDevUnleash": true`
 						- `"antigravity.useKnowledgeBase": true`
 						- Side Effects: Enabling `codeiumDev.useDevUnleash` may change system prompts or context window handling.
+					- DOING Asking the agen
+					  :LOGBOOK:
+					  CLOCK: [2026-01-09 Fri 09:16:09]
+					  CLOCK: [2026-01-09 Fri 09:16:11]
+					  :END:
 				- Autonoton from computer science view, as a function: (InputHistory, input) -> (CurrentState, input) -> (NextState, output) -> (OutputHistory, output)
 				  collapsed:: true
 					- State = A condensed image of the world (history in time and landscape in space) projected into mind.
