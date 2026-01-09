@@ -1710,7 +1710,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- installed in `/usr/share/applications/` and `~/.local/share/applications/`
 		- Autostart
 		  id:: 66b1cfa4-1438-4699-9f02-b84075f2a167
-			- `.desktop` files in `~/.config/autostart/`
+			- `.desktop` files in `~/.config/autostart/` and `/etc/xdg/autostart/`
 			- Startup Applications Preference: app drawer search (`startup`, `applications`)
 		- XDG Base Directory
 		  id:: 66949bc7-a1ae-4da3-b889-efbe35abf56d
@@ -1939,11 +1939,13 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 						- `update-notifier`
 						  id:: 6835acfc-5c1c-40c0-b008-93979afa8f36
 						  ![update-notifier-icon.png](../assets/Linux/APT/update-notifier-icon.png){:width 32} popup `UpdatesAvailable`
-							- This is the one that triggers
+							- This is the one that ***triggers*** ((6835a6bf-bdd4-46d5-9d07-e24744e16000)), not only a “notifier”, which is **autostarted** via XDG ((66b1cfa4-1438-4699-9f02-b84075f2a167)).
 					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 						- Automatic software update/notification
 						  id:: 68358033-084f-461c-b470-5311a5127f0c
 						  collapsed:: true
+							- ((6835a6bf-bdd4-46d5-9d07-e24744e16000)): `/etc/xdg/autostart/update-notifier.desktop` → `update-notifier` → `update-manager` →
+								-
 							- Unattended Upgrade
 							  id:: 683580d0-c9c6-4708-acb6-7c21817be3dc
 								- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://wiki.debian.org/UnattendedUpgrades
@@ -1955,7 +1957,6 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 									  ```
 										- which can be modified interactively with `sudo dpkg-reconfigure unattended-upgrades`
 									- From Debian 12 (Bookworm) = Ubuntu 22.04 (Jammy Jellyfish), ((683580d0-c9c6-4708-acb6-7c21817be3dc)) is *no longer a default* install with Gnome. Download and upgrade schedules are set up by ((6835789b-9394-42ff-8c03-8c19763deda6)) using `systemd` timers with [apt-daily[-upgrade].service](https://wiki.debian.org/UnattendedUpgrades#Modifying_download_and_upgrade_schedules_.28on_systemd.29). The default behaviour in Gnome for upgrades detected via APT is now to advise of availability, and not to install by default.
-							-
 				- Synaptic
 				  id:: 683573db-769c-4215-b55b-196dc57082c2
 					- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Synaptic_(software)
