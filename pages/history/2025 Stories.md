@@ -5832,6 +5832,7 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 					- **Reduced Protective Barrier:** At the same time, stress reduces the production of protective mucus that normally lines the stomach.
 					- **Chemical Irritation:** Without food to process (or with food sitting too long), this excess acid begins to irritate the sensitive stomach lining, leading to [stress-induced gastritis](https://en.wikipedia.org/wiki/Gastritis#Stress,_injury,_and_illness).
 		- Phase 3: The conscious ((67445065-15b2-475e-a704-78f140d487af)) & [biofeedback](https://en.wikipedia.org/wiki/Biofeedback) in middle age
+		  id:: 694bc610-c76f-47db-8210-f02b733096f0
 			- Symptom: Conscious [gut motility](https://en.wikipedia.org/wiki/Gastrointestinal_physiology#Gut_motility) during relaxation/insight, with onset around 40 years old, has become the “reset signal”.
 				- The previous chronic constipation period of 2–3 days has turned into daily bowel movements.
 			- Mechanism: This is the result of my natural and formal training to *let go*. I've developed the skill of manually **activating the rest-and-digest PSNS** ([parasympathetic nervous system](https://en.wikipedia.org/wiki/Parasympathetic_nervous_system)) via the **vagus nerve**. After the period of stress, the relaxation – either through insight or as a volitional action against stress – triggers [peristalsis](https://en.wikipedia.org/wiki/Peristalsis) and evacuation.

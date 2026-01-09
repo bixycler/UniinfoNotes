@@ -63,10 +63,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- From July to November, in the environment of uninteresting (mechanical) works and unfavorable leader (distant from me), i struggled in vain to do official works.
 				- After just a month of daily journaling, i've seen clearly that [i'm helpless with my karma](((6926be23-764f-4670-8f95-8a4da43ace96))). The helpless wrestle the next 4 months ended up in the final collapsed on [Dec 2nd](((692e55b4-90f1-42dd-a8e1-98fdcc16332e))).
 				- Last month, December, returning to my favorable environment, it's shown that all of my “commitment” to the official works is from my karmic hooks, not any self-control at all! That means i have no commitment myself.
+			- While no planning nor self-control are effective, my long-term training has some visible results in my bodymind: ((67445065-15b2-475e-a704-78f140d487af)) has become [reflexive](((694bc610-c76f-47db-8210-f02b733096f0))).
 			- ((66536e1b-6466-4153-90d6-583003d99a81)) really lags in large pages like [[Mind Jungle]] and [[Story]].
 				- They have similar size of 700+kB, while rather different lines number (9k vs 6k).
 				- So, the size does matter, not the lines.
-			- [!] `publish/CommonMark/Mind Jungle.cm.md` has invalid Advanced Query due to redundant `<br>`
+			- TODO [!] `publish/CommonMark/Mind Jungle.cm.md` has invalid Advanced Query due to redundant `<br>`
+			  id:: 6960d920-8f7f-46cb-9515-107ace0e0716
 			  collapsed:: true
 				- ```markdown
 				  - #+BEGIN_CENTER
