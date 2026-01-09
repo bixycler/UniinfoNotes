@@ -342,7 +342,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- #### Ephemeral Messages
 									- System-generated hints (like artifact reminders or task status updates) are injected to keep the agent aligned with the current flow.
 							- ![Knowledge system prompt](../assets/GUI/Antigravity/knowledge-system-prompt.md) (parts diff from the basic one)
-							  collapsed:: true
 								- #### Antigravity Identity (with Memory)
 									- You are Antigravity, a powerful agentic AI coding assistant designed by the Google Deepmind team working on Advanced Agentic Coding. You have a long-term memory system called "Knowledge" to track patterns and insights.
 								- #### `<knowledge_discovery>`
