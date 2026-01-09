@@ -5743,6 +5743,22 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- `"codeiumDev.useDevUnleash": true`
 						- `"antigravity.useKnowledgeBase": true`
 						- Side Effects: Enabling `codeiumDev.useDevUnleash` may change system prompts or context window handling.
+						- Antigravity's confirmation: The activation was successful. My "mind" (system prompt) now includes this critical section:
+							- `<knowledge_discovery>`: This is a comprehensive guide on how I should interact with the **Knowledge Items (KI) System**. It gives me clear instructions on checking KI summaries before starting research and how to build upon existing knowledge artifacts.
+							- `<persistent_context>`:
+							- it details exactly how I should retrieve information from past conversations and Knowledge Items (KIs). It explains:
+							- **When to Use Conversation Logs**: When I need raw details or specifically referenced past discussions.
+							- **When to Use Knowledge Items**: For distilled, curated knowledge on specific topics.
+							- **How to Use Search Tools**: Using tools like 
+							  
+							  ```
+							  codebase_search
+							  ```
+							  
+							  or 
+							  
+							  ```
+							  `grep_search` if I can't find a direct link to a past session.
 					- DOING Asking the agent of Antigravity itself: 
 					  :LOGBOOK:
 					  CLOCK: [2026-01-09 Fri 09:16:09]
