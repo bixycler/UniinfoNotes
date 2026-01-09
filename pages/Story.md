@@ -5751,7 +5751,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  CLOCK: [2026-01-09 Fri 09:16:11]
 					  :END:
 						- At first, it didn't know the concept intrinsically, and search all over of my repo without success. 😁
-						- After i provided it the [link](https://antigravity.google/docs/knowledge), it opened browser, navigate around to read many pages there, with many tabs opened 😉. Then it concluded:
+						- After i provided it the [link](https://antigravity.google/docs/knowledge), it opened browser, navigate around to read many pages there, with many tabs opened 😉.
+							- ```sh
+							  cd ~/.gemini/antigravity
+							  convert -delay 20 -loop 0 browser_recordings/599365e1-f037-47cc-b5b0-beedf1c2b102/*.jpg AntigravityBrowsingWeb.gif
+							  ```
+						- Then it concluded:
 						- **Researching Knowledge Items Access**
 							- *Thought*: I have researched Knowledge Items (KIs) through the Antigravity documentation and explored local storage. I've confirmed that KIs are integrated into my internal memory system and are *automatically studied when relevant, rather than being accessed via a dedicated tool call* like an MCP resource. I am now preparing to explain this to the user.
 							- Yes, I can access **Knowledge Items (KIs)**, but it works differently than a standard tool call like a file read or an external API.
