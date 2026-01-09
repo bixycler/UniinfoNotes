@@ -5740,7 +5740,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  collapsed:: true
 					- While Google’s official documentation describes [Knowledge Items (KIs)](https://antigravity.google/docs/knowledge) as automatically extracted insights from work, the actual behavior on Linux (and other platforms) suggests the feature is currently bugged or disabled for the standard preview tier. 
 					  id:: 695baffd-4e8a-4e06-8ba5-718ebaa8ac91
-					- settings.json edit [may be required](https://www.reddit.com/r/google_antigravity/comments/1ppdh6k/knowledge_is_behind_feature_flag/) to activate knowledge base
+					- Editing of `settings.json` (in `~/.config/Antigravity`) [may be required](https://www.reddit.com/r/google_antigravity/comments/1ppdh6k/knowledge_is_behind_feature_flag/) to activate knowledge base
 						- `"codeiumDev.useDevUnleash": true`
 						- `"antigravity.useKnowledgeBase": true`
 						- Side Effects: Enabling `codeiumDev.useDevUnleash` may change system prompts or context window handling.
@@ -5767,7 +5767,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- **Local Persistence**: I can see the underlying persistent memory files being managed in the  `/home/dinhlx/.gemini/antigravity/` directory (e.g., in the `implicit` and `context_state` folders), although these are stored in high-level binary formats like Protocol Buffers.
 						- Thanks to the agent's research, i've got:
 							- The KIs would be extracted from `Walkthrough` docs.
-							- The agent rules are stored in `~/.gemini/GEMINI.md`
+							- The [agent rules](((6926be21-cae1-40e9-83a8-2f88aeaaebd6))) are stored in `~/.gemini/GEMINI.md`
 				- Autonoton from computer science view, as a function: (InputHistory, input) -> (CurrentState, input) -> (NextState, output) -> (OutputHistory, output)
 				  collapsed:: true
 					- State = A condensed image of the world (history in time and landscape in space) projected into mind.
