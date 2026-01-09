@@ -298,6 +298,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- [MCP](https://en.wikipedia.org/wiki/Model_Context_Protocol) Servers: for LLMs to integrate and share data with external tools, systems, and data sources.
 							- Export: export the conversation to Markdown.
 						- [Knowledge Items (KIs)](https://antigravity.google/docs/knowledge)
+							- KIs are part of agent persistent long-term memory. The system will automatically fetch summaries of relevant KIs to inform agent context and reasoning.
 							- The KIs would be extracted from `Walkthrough` docs.
 							  id:: 6960913e-1087-4e27-837c-aa0a98b98f6e
 							- However, in the current preview version, it's off by default. There's a hidden flag to turn it on:
