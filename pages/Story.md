@@ -5087,12 +5087,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- no setter call inside effect/memo function, so that no frame is left in call stack (actually empty frames are still left).
 					- test effect circle branching before memo function returns
 					- test diamond effect flow
-		- DOING Back to intent observation
+		- Back to intent observation
 		  id:: 68dc9f21-1057-4ac0-be4c-61c9010d7f78
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-10-01 Wed 10:53:14]
-		  CLOCK: [2026-01-09 Fri 16:37:47]
+		  CLOCK: [2026-01-09 Fri 16:37:47]--[2026-01-09 Fri 16:52:49] =>  00:15:02
 		  :END:
 			- October 1st, first day back to riverside meditation
 			  collapsed:: true
@@ -5128,46 +5128,37 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)): ((66ea8df3-d2f3-4856-b24a-5095dd285f9b)) & ((66ea8e12-7c30-449b-9139-bfd8d82394d7)) = ((68df36a4-6a3e-4fc9-b44a-c8e92f62aee1))
 				- ((68df2364-c484-4ddd-b4b5-19ef90228ef4))
 				- ((68dfc246-ea07-4c54-a0a4-2361f1a9055e))
-			- 5th, ...
+			- 5th, LLM is at the end opposite to program
 			  collapsed:: true
-				- LLM is at the end opposite to program
-				  id:: 690bf59d-668c-4a86-81d9-8927336aea10
-				  collapsed:: true
-					- [The Illusion of Thinking](https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf): Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity
-						- > We found that LRMs have limitations in exact computation: they fail to use explicit algorithms and reason inconsistently across puzzles.
-						- Large Reasoning Models (LRMs) are Large Language Models (LLMs) focused on step-by-step thinking. This is called Chain of Thought (CoT) which facilitates problem solving by guiding the model to articulate reasoning steps.
-						- After a threshold of problem complexity, the models simply stopped trying.
-						- Jing Hu: "AI is just sophisticated pattern matching, no thinking, no reasoning" and “AI can only do tasks accurately up to a certain degree of complexity.”
-					- [This article](https://www.forbes.com/sites/hessiejones/2025/08/04/despite-billions-in-investment-ai-reasoning-models-are-falling-short/) refers to predictive AI as an alternative to LLM, but it is not scalable.
-					- Another approach is setting up agents for LLMs, but the agent itself is a traditional program, hence unable to learn.
-					- Uninet's approach: develop from the middle out.
-			- 6th, ...
+				- [The Illusion of Thinking](https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf): Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity
+					- > We found that LRMs have limitations in exact computation: they fail to use explicit algorithms and reason inconsistently across puzzles.
+					- Large Reasoning Models (LRMs) are Large Language Models (LLMs) focused on step-by-step thinking. This is called Chain of Thought (CoT) which facilitates problem solving by guiding the model to articulate reasoning steps.
+					- After a threshold of problem complexity, the models simply stopped trying.
+					- Jing Hu: "AI is just sophisticated pattern matching, no thinking, no reasoning" and “AI can only do tasks accurately up to a certain degree of complexity.”
+				- [This article](https://www.forbes.com/sites/hessiejones/2025/08/04/despite-billions-in-investment-ai-reasoning-models-are-falling-short/) refers to predictive AI as an alternative to LLM, but it is not scalable.
+				- Another approach is setting up agents for LLMs, but the agent itself is a traditional program, hence unable to learn.
+				- Uninet's approach: develop from the middle out.
+			- 6th, killing light vs healing light
 			  id:: 68e33ab4-06f1-435f-aa57-a1bb4386e09f
-			  collapsed:: true
 				- On the way to company, i wondered “what's the diff between my current way of intent observation and the ghost-killing light at the beginning of my liberation journey?”
 				- In the morning meditation at the riverside, through the dreamy experience, i recognized that such a dreamlike state is the liberation, the [difference from the narrow spotlight](((68e347d0-d515-42b2-a504-836f7985a597))) with high intensity and destroying energy like laser of the ghost-killing light earlier.
 				  id:: 68e33ab7-a407-4ee3-8c50-e3700bde0220
-			- 8th,...
+			- 8th, wandering about AI
 			  collapsed:: true
 				- ((68e6334c-6b4c-487f-8999-24940497245f))
 				- [Prompting Guide](https://www.promptingguide.ai/techniques): Chain of Thought (CoT), Tree of Thought (GoT), Graph of Thought (GoT), Prompt Chaining, Retrieval Augmented Generation (RAG), Reflexion
 				- A sharp front between 2 anticyclones in North Pacific Ocean
 				  collapsed:: true
 					- ![front between 2 anticyclones in North Pacific Ocean 2025-10-08.jpg](../assets/Will/story/2025-10/front between 2 anticyclones in North Pacific Ocean 2025-10-08.jpg)
-			- 9th, ...
-			  collapsed:: true
+			- 9th, complete the symbols/signs for complement
 				- ((68f1e075-0aa7-4498-8c35-32e44857eee8))
 				- Clarify that ((68e71355-f954-4c34-b7cc-009d32b6c7e0))
-			- 15th,...
+			- 15th, [ELM](https://github.com/LaurieLonecrow/AsterMind-ELM) = SVM version of SLFN.
 			  collapsed:: true
-				- [ELM](https://github.com/LaurieLonecrow/AsterMind-ELM) = SVM version of SLFN.
-				  collapsed:: true
-					- Extreme Learning Machine (ELM) is a single-hidden-layer feedforward neural network (SLFN) that learns instantly by computing the output weights analytically in one shot, leaving the hidden layer random.
-					- The random hidden layer acts like the kennel in Support Vector Machine (SVM) to project the input into a high-dimensional space so that they can be classified simply by linear separation at the output layer.
-			- 16th, ...
-			  collapsed:: true
-				- ((68f0d8f7-bdb7-492a-b161-83479cce6aa8))
-			- 18-19th, weekends...
+				- Extreme Learning Machine (ELM) is a single-hidden-layer feedforward neural network (SLFN) that learns instantly by computing the output weights analytically in one shot, leaving the hidden layer random.
+				- The random hidden layer acts like the kennel in Support Vector Machine (SVM) to project the input into a high-dimensional space so that they can be classified simply by linear separation at the output layer.
+			- 16th, ((68f0d8f7-bdb7-492a-b161-83479cce6aa8))
+			- 18-19th, weekends, various brainstorms about 3 levels of equality, temporal circle, effect circle, attention
 			  collapsed:: true
 				- ((66e3fe46-dc79-472a-a059-f5ccf5afb437)): 1 - 2 - 3 circles folded from the same content thread 🥨
 				  collapsed:: true
@@ -5193,24 +5184,23 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- ((68f5a6d2-3b0a-4443-a7e7-b64f4bdf217b))
 				- ((68f5a6d2-8148-4975-b3cb-799fe37a3d72))
 				- ((68f5a6d2-5faa-4889-bd79-30e9c553c314))
-			- 20th,...
-				- WAIT Newtonian mechanics → [Lagrangian mechanics](https://en.wikipedia.org/wiki/Lagrangian_mechanics) → field equations
-				  id:: 68f60c71-56b6-494e-b4bb-26f1f91e3282
-					- The key in the law of “[stationary action](https://en.wikipedia.org/wiki/Hamilton%27s_principle) δS = 0” is not the value of S itself, but the hidden clause “for all variations δx(t)”! 😜
-					  collapsed:: true
-						- The full expression should be $⟪\; δS[x] = 0 \quad ∀δx(t) \;⟫$, or equivalently $⟪\; {δS[x] \over δx(t)} = 0 \;⟫$.
-						- The clause ⟪ ∀δx(t) ⟫ makes the global balance applied to the local balance at every point, via the [fundamental lemma of the calculus of variations](https://en.wikipedia.org/wiki/Fundamental_lemma_of_the_calculus_of_variations)!
-							- This technique of sweeping “all variations δx(t)”, esp. with [bump functions](https://en.wikipedia.org/wiki/Bump_function), is generalized to the test function in [distribution theory](https://en.wikipedia.org/wiki/Distribution_(mathematical_analysis)).
-						- Normally, out of equilibrium, there's only one way from the local integrated into the global.
-						- But at equilibrium, they become equivalent 😍
-					- Newton's 2nd law: ${\bf F} = d{\bf p}/dt$
-						- For each particle: ${\bf F}_i = {\bf F}_i^{(a)} + {\bf F}_i^{(n)} = {\bf F}_i^{(cs)} + {\bf F}_i^{(nc)} + {\bf F}_i^{(n)} = d{\bf p}_i/dt$
-							- (a) = applied force, (n) = normal (⟂) constraint force, (cs) = conservative (potential) force, (nc) = nonconservative force
-					- Cancel normal constraint force with virtual displacement $δ{\bf r}_i ⟂ {\bf F}_i^{(n)}$:   ${\bf F}_i^{(n)} ⋅ δ{\bf r}_i = 0 ⟹$
-					  ${\bf F}_i^{(a)} ⋅ δ{\bf r}_i = d{\bf p}_i/dt ⋅ δ{\bf r}_i$
-						- Kinetic engergy: $T = \int {\bf v} ⋅ d{\bf p} ⟹ dT/dv = {\bf p}$
-						- Potential engergy:
-					-
+			- WAIT 20th, Newtonian mechanics → [Lagrangian mechanics](https://en.wikipedia.org/wiki/Lagrangian_mechanics) → field equations
+			  collapsed:: true
+				- The key in the law of “[stationary action](https://en.wikipedia.org/wiki/Hamilton%27s_principle) δS = 0” is not the value of S itself, but the hidden clause “for all variations δx(t)”! 😜
+				  collapsed:: true
+					- The full expression should be $⟪\; δS[x] = 0 \quad ∀δx(t) \;⟫$, or equivalently $⟪\; {δS[x] \over δx(t)} = 0 \;⟫$.
+					- The clause ⟪ ∀δx(t) ⟫ makes the global balance applied to the local balance at every point, via the [fundamental lemma of the calculus of variations](https://en.wikipedia.org/wiki/Fundamental_lemma_of_the_calculus_of_variations)!
+						- This technique of sweeping “all variations δx(t)”, esp. with [bump functions](https://en.wikipedia.org/wiki/Bump_function), is generalized to the test function in [distribution theory](https://en.wikipedia.org/wiki/Distribution_(mathematical_analysis)).
+					- Normally, out of equilibrium, there's only one way from the local integrated into the global.
+					- But at equilibrium, they become equivalent 😍
+				- Newton's 2nd law: ${\bf F} = d{\bf p}/dt$
+					- For each particle: ${\bf F}_i = {\bf F}_i^{(a)} + {\bf F}_i^{(n)} = {\bf F}_i^{(cs)} + {\bf F}_i^{(nc)} + {\bf F}_i^{(n)} = d{\bf p}_i/dt$
+						- (a) = applied force, (n) = normal (⟂) constraint force, (cs) = conservative (potential) force, (nc) = nonconservative force
+				- Cancel normal constraint force with virtual displacement $δ{\bf r}_i ⟂ {\bf F}_i^{(n)}$:   ${\bf F}_i^{(n)} ⋅ δ{\bf r}_i = 0 ⟹$
+				  ${\bf F}_i^{(a)} ⋅ δ{\bf r}_i = d{\bf p}_i/dt ⋅ δ{\bf r}_i$
+					- Kinetic engergy: $T = \int {\bf v} ⋅ d{\bf p} ⟹ dT/dv = {\bf p}$
+					- Potential engergy:
+				-
 			- 25-26th, weekends, the flood due to the peak spring tide – highest in the last 6 years – and dike overflow
 			  collapsed:: true
 				- [Triều cường tràn đê](https://thanhnien.vn/trieu-cuong-dang-cao-o-tphcm-nuoc-tran-bo-de-cuon-cuon-chay-vao-nha-dan-khu-thanh-da-185251024194232344.htm) ở Thanh Đa - Bình Quới, 24/10/2025, đỉnh triều cao nhất trong 6 năm qua.
