@@ -738,8 +738,8 @@ id:: 67760c3e-10a7-4621-8623-383f44bdaf3c
 	- ### July – December
 	  id:: 68662950-3ada-42ea-928d-9700209e1501
 		- ((686b390a-7953-4069-9c04-17c7f9a777a7))
-		- August is recorded in this story: ((688c70aa-8fdf-4cc8-aeb7-ffd47b86cee0))
-		- September was recorded in ((68be8447-81b0-4094-9964-1bd21e2e31e0))
-		- October was recorded in ((68dc9f21-1057-4ac0-be4c-61c9010d7f78)).
-		- November was recorded in ((69085f61-6627-4c0a-a984-c2b5b411a292)).
-		- December was recorded in ((692e5569-b7e9-458e-a3a2-44f7ed57a8f1)).
+		- ((688c70aa-8fdf-4cc8-aeb7-ffd47b86cee0))
+		- ((68be8447-81b0-4094-9964-1bd21e2e31e0))
+		- ((68dc9f21-1057-4ac0-be4c-61c9010d7f78)).
+		- ((69085f61-6627-4c0a-a984-c2b5b411a292)).
+		- ((692e5569-b7e9-458e-a3a2-44f7ed57a8f1)).

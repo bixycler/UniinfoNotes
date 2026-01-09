@@ -59,11 +59,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  CLOCK: [2026-01-08 Thu 17:17:28]
 		  CLOCK: [2026-01-08 Thu 17:17:30]
 		  :END:
+			- The journals in ((68662950-3ada-42ea-928d-9700209e1501)) have clearly shown my karma and slavery: No self-control at all, completely useless in unfavorable situations!
+				- From July to November, in the environment of uninteresting (mechanical) works and unfavorable leader (distant from me), i struggled in vain to do official works.
+				- Before the final collapse on [Dec 2nd](((692e55b4-90f1-42dd-a8e1-98fdcc16332e))),
 			- ((66536e1b-6466-4153-90d6-583003d99a81)) really lags in large pages like [[Mind Jungle]] and [[Story]].
 			  collapsed:: true
 				- They have similar size of 700+kB, while rather different lines number (9k vs 6k).
 				- So, the size does matter, not the lines.
-			- `publish/CommonMark/Mind Jungle.cm.md` has invalid Advanced Query due to redundant `<br>`
+			- [!] `publish/CommonMark/Mind Jungle.cm.md` has invalid Advanced Query due to redundant `<br>`
 			  collapsed:: true
 				- ```markdown
 				  - #+BEGIN_CENTER
@@ -84,7 +87,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				    #+END_QUERY
 				  
 				  ```
-			-
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((695f83ed-08ed-4265-b6c1-7bed98a40028))

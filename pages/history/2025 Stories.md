@@ -5575,6 +5575,7 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 				- [This is my prayer to thee, my lord](https://poetryarchive.org/poem/poem-36-gitanjali/) (Gitanjali 36): themes related to personal strength and freedom from inner failings.
 				- [Gitanjali 2](https://poets.org/poem/gitanjali-2) How artistic and spiritual expression can lead to a profound relationship with the divine, transforming life's discords into harmony, a feeling of freedom and liberation, symbolizing a connection between the earthly and the divine.
 		- 2nd, How to balance all of these? I don't know!
+		  id:: 692e55b4-90f1-42dd-a8e1-98fdcc16332e
 		  collapsed:: true
 			- Everything around is meaningless when the inside is corrupt
 			- People all around seem to be so good, doing so well, that i cannot catch up
