@@ -5505,7 +5505,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 26th, With the help of Gemini, i wrote this commentary: ((6926d573-2c8b-4a9e-941a-269335cf0885))
 			  collapsed:: true
 			- 27th,...
-			  collapsed:: true
 				- ((67bd3614-2520-4a5d-8b3f-44f60901844e)) from ((67b183f5-1cca-4473-917e-60c644dd5466)) and ((69292bbb-c2dc-496d-9a04-bb4529407b25))
 					- I was reminded of the legendary book i caught on an old bookshelf in my freshman year:
 					  collapsed:: true
@@ -5514,17 +5513,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Satyagraha (truth force) by the principle of [means = ends](https://en.wikipedia.org/wiki/Satyagraha#Means_and_ends) by [Mahatma Gandhi](https://en.wikipedia.org/wiki/Mahatma_Gandhi)
 					- This resonates with my approach which avoids abusing means and prefers a direct path toward the end.
 			- 29-30th, weekends
-			  collapsed:: true
 				- Contemplated the $\exp()$ in ((69292bbb-c2dc-496d-9a04-bb4529407b25)), ((692cf172-d3fe-4390-80fe-52a8c21bd107))
 				- Proposed to bosses of the company HTV/Airtrip to set up an AI lab for knowledge management.
-		- DOING Cultivate the Balance
+		- Cultivate the Balance
 		  id:: 692e5569-b7e9-458e-a3a2-44f7ed57a8f1
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-12-02 Tue 09:57:02]
-		  CLOCK: [2025-12-02 Tue 09:57:40]
+		  CLOCK: [2025-12-02 Tue 09:57:40]--[2026-01-09 Fri 15:08:53] =>  917:11:13
 		  :END:
-			- 1st,...
+			- 1st, miscellaneous wanderings: the title “Lord Buddha”, Tagore's poems about freedom & harmony
 			  collapsed:: true
 				- The [resonance between the Law of Balance Restoration and Return to God](((692d69f0-ff24-4d71-a95c-2e27ebb28c7d))) reminds me about Einstein's [faith in Spinoza’s God](((6926be1c-1af5-4c9a-9210-b5ebb957391f))) and his mail reply to Phyllis Wright, a sixth-grade girl, about the question [Do Scientists Pray?](https://www.themarginalian.org/2013/07/11/do-scientists-pray-einstein-letter-science-religion/).
 				- About the title “Lord Buddha”
@@ -5538,35 +5536,24 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- [Free Love](https://allpoetry.com/Free-Love): (unverified attribution to Tagore) The speaker's conventional relationships seek to confine them, while the greater love they experience provides liberation.
 					- [This is my prayer to thee, my lord](https://poetryarchive.org/poem/poem-36-gitanjali/) (Gitanjali 36): themes related to personal strength and freedom from inner failings.
 					- [Gitanjali 2](https://poets.org/poem/gitanjali-2) How artistic and spiritual expression can lead to a profound relationship with the divine, transforming life's discords into harmony, a feeling of freedom and liberation, symbolizing a connection between the earthly and the divine.
-			- 2nd,...
+			- 2nd, How to balance all of these? I don't know!
 			  collapsed:: true
-				- How to balance all of these? I don't know!
-				  :LOGBOOK:
-				  CLOCK: [2025-12-02 Tue 10:13:38]
-				  :END:
-					- Everything around is meaningless when the inside is corrupt
-					- People all around seem to be so good, doing so well, that i cannot catch up
-					- What can i do with all the images inside?
-					- Neither can i ignore them, nor can i balance them with requirements out there!
-					- Dumping all my guts in here doesn't make me feel any better...
-					- It doesn't change the requirements out there!
-					- I admit that i'm helpless and useless!
-			- 3rd,...
-			  collapsed:: true
-				- I've just been evicted from the current project in the company due to my delays these weeks.
+				- Everything around is meaningless when the inside is corrupt
+				- People all around seem to be so good, doing so well, that i cannot catch up
+				- What can i do with all the images inside?
+				- Neither can i ignore them, nor can i balance them with requirements out there!
+				- Dumping all my guts in here doesn't make me feel any better...
+				- It doesn't change the requirements out there!
+				- I admit that i'm helpless and useless!
+			- 3rd, i've just been evicted from the current project in the company due to my delays these weeks.
 				- ((692fd176-f919-4899-beb2-57ec70791703))
-			- 4th,...
+			- 4th, ((69315b47-7676-483f-9aa2-72e3f4d02194))
+			- 5th, Empty center versus Hardcore center
 			  collapsed:: true
-				- ((69315b47-7676-483f-9aa2-72e3f4d02194))
-			- 5th,...
-			  collapsed:: true
-				- Empty center versus Hardcore center
-				  collapsed:: true
-					- empty center = zero intent = annihilated point due to full circle uniform ditribution
-					- hardcore center = infinite intent = singularity
-					- Inside a hard core is usualy an empty center, like the storm's eye inside the eyewall.
-				-
-			- 6-7th, weekends,...
+				- empty center = zero intent = annihilated point due to full circle uniform ditribution
+				- hardcore center = infinite intent = singularity
+				- Inside a hard core is usualy an empty center, like the storm's eye inside the eyewall.
+			- 6-7th, weekends with brainstorms about attention as an activated state/part of the knowledge
 			  collapsed:: true
 				- ((69364644-747f-4995-815f-7ac637e9ea0b))
 				- Chats with Huy
