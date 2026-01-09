@@ -1,6 +1,5 @@
-- ## 2025 Stories
-  id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
-  collapsed:: true
+## 2025 Stories
+id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 	- Disconnect from the outside to reconnect to the inside
 	  id:: 677e2745-6664-407e-ab5f-3c18319e2e6b
 	  collapsed:: true

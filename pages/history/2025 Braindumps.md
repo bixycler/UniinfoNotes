@@ -1,6 +1,5 @@
 ## 2025 Braindumps
 id:: 67760c3e-10a7-4621-8623-383f44bdaf3c
-collapsed:: true
 	- ### January
 	  id:: 677e7eda-0c5e-413a-8c08-3a1d39352ba9
 	  collapsed:: true

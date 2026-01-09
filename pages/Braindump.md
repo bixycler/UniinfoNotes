@@ -8,7 +8,6 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 	  id:: 6960e589-a505-4522-b1e8-687dc035ac38
 	- ### January
 	  id:: 68be32ad-ba39-4774-a67b-43a4fb114a3e
-		-
 	- ## Braindumping < ((68be32ad-ba39-4774-a67b-43a4fb114a3e))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- ...
