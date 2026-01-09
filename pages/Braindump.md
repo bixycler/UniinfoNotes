@@ -761,6 +761,10 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  CLOCK: [2026-01-08 Thu 17:17:28]
 		  CLOCK: [2026-01-08 Thu 17:17:30]
 		  :END:
+			- ((66536e1b-6466-4153-90d6-583003d99a81)) really lags in large pages like [[Mind Jungle]] and [[Story]].
+			  collapsed:: true
+				- They have similar size of 700+kB, while rather different lines number (9k vs 6k).
+				- So, the size does matter, not the lines.
 		- TODO Update [Unitorus](https://www.youtube.com/watch?v=7OR_6L2zyHE)
 		- TODO `FabrikDemo-SolidD3` -> `FabrikDemo-SolidSvg`
 		  :LOGBOOK:

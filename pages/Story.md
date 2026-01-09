@@ -5753,31 +5753,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- At first, it didn't know the concept intrinsically, and search all over of my repo without success. 😁
 						- After i provided it the [link](https://antigravity.google/docs/knowledge), it opened browser, navigate around to read many pages there. Then it concluded:
 						- **Researching Knowledge Items Access**
-							- I have researched Knowledge Items (KIs) through the Antigravity documentation and explored local storage. I've confirmed that KIs are integrated into my internal memory system and are *automatically studied when relevant, rather than being accessed via a dedicated tool call* like an MCP resource. I am now preparing to explain this to the user.
+							- *Thought*: I have researched Knowledge Items (KIs) through the Antigravity documentation and explored local storage. I've confirmed that KIs are integrated into my internal memory system and are *automatically studied when relevant, rather than being accessed via a dedicated tool call* like an MCP resource. I am now preparing to explain this to the user.
 							- Yes, I can access **Knowledge Items (KIs)**, but it works differently than a standard tool call like a file read or an external API.
 							- Based on my research into the Antigravity documentation and my own architecture:
 								- **Automatic Integration**: KIs are part of my **persistent long-term memory**. The system automatically provides me with summaries of relevant KIs from past sessions to inform my context and reasoning.
 								- **Contextual "Study"**: When I encounter a problem or instruction that matches a known pattern in the Knowledge store, the system automatically retrieves the associated **Artifacts** (code snippets, logic rules, or past insights) for me to "study" and apply.
 								- **No Manual List Tool**: Currently, there isn't a manual "fetch" or "list" tool in my command set for KIs. They are treated as internal context rather than external resources (like MCP servers).
-								- **Local Persistence**: I can see the underlying persistent memory files being managed in the 
-								  
-								  ```
-								  /home/dinhlx/.gemini/antigravity/
-								  ```
-								  
-								  directory (e.g., in the 
-								  
-								  ```
-								  implicit
-								  ```
-								  
-								  and 
-								  
-								  ```
-								  context_state
-								  ```
-								  
-								  folders), although these are stored in high-level binary formats like Protocol Buffers.
+								- **Local Persistence**: I can see the underlying persistent memory files being managed in the  `/home/dinhlx/.gemini/antigravity/` directory (e.g., in the `implicit` and `context_state` folders), although these are stored in high-level binary formats like Protocol Buffers.
 				- Autonoton from computer science view, as a function: (InputHistory, input) -> (CurrentState, input) -> (NextState, output) -> (OutputHistory, output)
 				  collapsed:: true
 					- State = A condensed image of the world (history in time and landscape in space) projected into mind.
