@@ -5323,7 +5323,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- The book's closing remarks
 						  > ...the first distinction, the Mark and the observer are not only interchangeable, but, in the form, identical.
 			- 7th, continuation...
-			  collapsed:: true
 				- Arrow continuation: I/O, momentum, mixing past into present, pattern matching, relation
 				- Circle separation: as a whole itself, the circle like a particle has no connection to others.
 				- Physicists, from Schrodinger, have been trying hard to [eliminate i from quantum](https://www.quantamagazine.org/physicists-take-the-imaginary-numbers-out-of-quantum-mechanics-20251107/)... without satisfaction! 😂
@@ -5373,12 +5372,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- I mentioned it in [a 2007 journal at JAIST](https://tamsudoithuong.blogspot.com/2007/11/ny-tui-ang-trn-thy-trn-bn-trn-lng-tm-i.html).
 						- I excavated it in [2019 at Universal Technology Solutions](https://tamsudoithuong.blogspot.com/2019/06/moi-ay-het-mot-tuan-nhanh-qua-la-nhanh.html), to acknowledge that it's about [strange attractors](https://en.wikipedia.org/wiki/Attractor#Strange_attractor), and wrote the fb post “Tan rã rồi Tái hiện (Dissolve & Reappear)”.
 							- Thứ 6, mình lên cty để đưa máy cho chị lao công. Rồi tìm lại cái screensaver thần thánh trong X system gây ấn tượng đầu tiên ngày xưa của mình về pháp "tan rã rồi tái hiện", mình thấy nó có tên "strange", và... ồ không ngờ chính là **strange attractor** quái vật trong làng Complex Science, và nó chính là một thể hiện của pháp "tan rã rồi tái hiện" rồi!
-			- 11th, ...
+			- 11th, Chatting with Huy, i realized that what i call “machines” with my adversion is actuall “mara” in Buddha's language.
 			  id:: 6912c72d-5fde-409f-ae7d-d9ea788962e8
-			  collapsed:: true
-				- Chatting with Huy, i realized that what i call “machines” with my adversion is actuall “mara” in Buddha's language.
-					- Both are what the practitioner sees inside through meditation, the machinary that we all are slaved to .
-			- 12th, ...
+				- Both are what the practitioner sees inside through meditation, the machinary that we all are slaved to .
+			- 12th, still caught up, up and up with CIEA
 			  collapsed:: true
 				- The chosen path is the one that's closer, clearer, easier, having denser and more vivid form.
 					- Although i'd seen the pull of the graph DB from lunch, i ended up caught up into it till the end of the day.
@@ -5387,15 +5384,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  id:: 6916a4cf-2ac4-4843-a77c-9feae00db79c
 					- formation = mixmatch of arrows into circles
 					- Note: Don't [confuse](https://en.wiktionary.org/wiki/mixmatch#English) mixmatch with mismatch like the pop culture.
-			- 13th,...
-			  collapsed:: true
-				- My colleague An has found an interesting open-source PKB note taking app, [Trilium Notes](https://triliumnotes.org/), with [an interesting interview](((691545ea-1b97-4600-964b-c0cc02a61cb5))) with the author `zadam`.
-			- 14th, ...
+			- 13th, My colleague An has found an interesting open-source PKB note taking app, [Trilium Notes](https://triliumnotes.org/), with [an interesting interview](((691545ea-1b97-4600-964b-c0cc02a61cb5))) with the author `zadam`.
+			- 14th, independence = wall of ∞ distance
 			  collapsed:: true
 				- “Contact first, concept second”
 					- open reception (immediacy) > closed reception (mediation)
 				- ((6916f0bf-dec9-4dff-a8c9-999c63adb522))
-			- 15-16th, weekends
+			- 15-16th, weekends with spirals and spirorus!
 			  collapsed:: true
 				- why i'm caught up?
 					- cause: full bodymind immersion (deep dive)
@@ -5429,30 +5424,28 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Sometimes, both threads are extracted side by side (left & right) to mixmatch in front of the eyes, which is very similar to `diff` algorithms.
 							- Except this case, most of the time, there are multiple intents observing the object _concurrently_, extracting **_multiple levels of abstraction_** (at different wave lengths, different scales, orders of derivatives), not limited to a flat `diff`.
 				- When the active intents are too many, i clear memory by flushing them down to storage, and reset the bodymind.
-			- 18th,...
+			- 18th, CIE chromatics
 			  collapsed:: true
-				- CIE chromatics
-				  id:: 691c18e8-ae41-4073-8b18-c8a5fa30e1ec
-					- Linear addition of colors, i.e. [Grassmann's laws](https://en.wikipedia.org/wiki/Grassmann%27s_laws_(color_science)), is due to the linear addtion of cone cells in human eyes.
-						- This linearity corresponds to the vector addition counterpart.
-						- This linearity is available in trichromatic color spaces like [LMS](https://en.wikipedia.org/wiki/LMS_color_space) (directly from cone cells), [XYZ](https://en.wikipedia.org/wiki/CIE_1931_color_space) (CIE 1931 standard), [RGB](https://en.wikipedia.org/wiki/RGB_color_spaces), and the chromatic [xyY](https://en.wikipedia.org/wiki/CIE_1931_color_space#CIE_xyY_color_space), but *not* in their non-linear transformed spaces like:
-						  collapsed:: true
-							- saturation-based [HSL & HSV & HSI](https://en.wikipedia.org/wiki/HSL_and_HSV),
-							- perceptual uniform [CIELUV](https://en.wikipedia.org/wiki/CIELUV) & [CIELAB](https://en.wikipedia.org/wiki/CIELAB_color_space),
-							- [gamma-corrected](https://en.wikipedia.org/wiki/Gamma_correction) (for display) [sRGB](https://en.wikipedia.org/wiki/SRGB), [Adobe RGB](https://en.wikipedia.org/wiki/Adobe_RGB_color_space), ...
-					- CIE chromatics uses the **linear IHS** space from 1980s.
-						- Orthonormal rotation of the RGB cube (orthonormalized [Ohta color space](((691c688b-56b4-4a45-b8a4-8e0bbacb28f8)))):
-							- $I = (R+G+B)/√3$
-							- $C_1 = (R–G)/√2$
-							- $C_2 = (R+G–2B)/√6$
-						- Refs
-						  collapsed:: true
-							- Yu-Ichi Ohta, et al., 1980, [Color Information for Region Segmentation](https://www.ri.cmu.edu/pub_files/pub4/ohta_y_1980_1/ohta_y_1980_1.pdf)
-							  id:: 691c688b-56b4-4a45-b8a4-8e0bbacb28f8
-								- The paper introduced new linear spaces I_{1}I_{2}I_{3}, I_{1}I_{2}'I_{3}', and compare with other linear and nonlinear spaces about their effectiveness in image segmentation.
-							- Alvy Ray Smith, 1978, [Color Gamut Transform Pairs](https://alvyray.com/Papers/CG/color78.pdf)
-								- In this paper, Smith introduced a “simple linear space” IQY (from 1975, for TV signal), but mainly discussed 2 the nonlinear spaces HSL, HSV. This HSV used trig functions which is different from the modern HSV with no trig.
-			- 19th,..
+				- Linear addition of colors, i.e. [Grassmann's laws](https://en.wikipedia.org/wiki/Grassmann%27s_laws_(color_science)), is due to the linear addtion of cone cells in human eyes.
+					- This linearity corresponds to the vector addition counterpart.
+					- This linearity is available in trichromatic color spaces like [LMS](https://en.wikipedia.org/wiki/LMS_color_space) (directly from cone cells), [XYZ](https://en.wikipedia.org/wiki/CIE_1931_color_space) (CIE 1931 standard), [RGB](https://en.wikipedia.org/wiki/RGB_color_spaces), and the chromatic [xyY](https://en.wikipedia.org/wiki/CIE_1931_color_space#CIE_xyY_color_space), but *not* in their non-linear transformed spaces like:
+					  collapsed:: true
+						- saturation-based [HSL & HSV & HSI](https://en.wikipedia.org/wiki/HSL_and_HSV),
+						- perceptual uniform [CIELUV](https://en.wikipedia.org/wiki/CIELUV) & [CIELAB](https://en.wikipedia.org/wiki/CIELAB_color_space),
+						- [gamma-corrected](https://en.wikipedia.org/wiki/Gamma_correction) (for display) [sRGB](https://en.wikipedia.org/wiki/SRGB), [Adobe RGB](https://en.wikipedia.org/wiki/Adobe_RGB_color_space), ...
+				- CIE chromatics uses the **linear IHS** space from 1980s.
+					- Orthonormal rotation of the RGB cube (orthonormalized [Ohta color space](((691c688b-56b4-4a45-b8a4-8e0bbacb28f8)))):
+						- $I = (R+G+B)/√3$
+						- $C_1 = (R–G)/√2$
+						- $C_2 = (R+G–2B)/√6$
+					- Refs
+					  collapsed:: true
+						- Yu-Ichi Ohta, et al., 1980, [Color Information for Region Segmentation](https://www.ri.cmu.edu/pub_files/pub4/ohta_y_1980_1/ohta_y_1980_1.pdf)
+						  id:: 691c688b-56b4-4a45-b8a4-8e0bbacb28f8
+							- The paper introduced new linear spaces I_{1}I_{2}I_{3}, I_{1}I_{2}'I_{3}', and compare with other linear and nonlinear spaces about their effectiveness in image segmentation.
+						- Alvy Ray Smith, 1978, [Color Gamut Transform Pairs](https://alvyray.com/Papers/CG/color78.pdf)
+							- In this paper, Smith introduced a “simple linear space” IQY (from 1975, for TV signal), but mainly discussed 2 the nonlinear spaces HSL, HSV. This HSV used trig functions which is different from the modern HSV with no trig.
+			- 19th, the cycle of contraction and relaxation
 			  collapsed:: true
 				- These days, i see clearly how the gap (question, problem, unknown, sick, pain, ...) makes the bodymind contract, to focus on it, to find solution, to work for it, ... and how the click of answer/solution releases such contraction, relaxes the bodymind.
 					- The contraction is caused by the formative super-intent of the gap, which is still whole.
@@ -5478,7 +5471,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- First, it's not the end anyway. Then, it's just [the start](((684f9517-33c3-4a20-9fd1-936d9cc98fee))), so let's start it stably.
 					- The urge causes urgent feeling which just reflects lots of urgencies in the past experiences.
 					- Recognizing such an urgency is just an image of the past, not the present, i let it go, reset, returned to the empty center, and took a nap.
-			- 20th,...
+			- 20th, refined the [CIE chromatics](((691c18e8-ae41-4073-8b18-c8a5fa30e1ec))), and the equivalence between Unïnfo's intensionalization and QM's quantization
 			  collapsed:: true
 				- Last night, i was caught up in discussion with Grok about the [CIE chromatics](((691c18e8-ae41-4073-8b18-c8a5fa30e1ec))), for the uninform distribution of chromatic mass $c$ on circular arc of angle $e$, whose midpoint is at phase $φ = \bar{e}$, and distribution density is $i$.
 					- I showed my pure integration result of the phase vector $|\vec{c}| = c⋅\sinc (e/2)$
@@ -5504,7 +5497,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- The 2nd intensionalization of dimensions → 2nd quantization of fields
 			- 26th, With the help of Gemini, i wrote this commentary: ((6926d573-2c8b-4a9e-941a-269335cf0885))
 			  collapsed:: true
-			- 27th,...
+			- 27th, all about circle: circle dynamic, dynamics circle, and the recursive naming of the ignorance
+			  collapsed:: true
 				- ((67bd3614-2520-4a5d-8b3f-44f60901844e)) from ((67b183f5-1cca-4473-917e-60c644dd5466)) and ((69292bbb-c2dc-496d-9a04-bb4529407b25))
 					- I was reminded of the legendary book i caught on an old bookshelf in my freshman year:
 					  collapsed:: true
