@@ -5502,9 +5502,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Today, i wrote fabric task `build_deploy_notify` for the company, and discussed with ChatGPT about intensionalization → qualification → quantization.
 					- The 1st intensionalization of objects → 1st quantization with wavefunction
 					- The 2nd intensionalization of dimensions → 2nd quantization of fields
-			- 26th,...
+			- 26th, With the help of Gemini, i wrote this commentary: ((6926d573-2c8b-4a9e-941a-269335cf0885))
 			  collapsed:: true
-				- With the help of Antigravity, i wrote this commentary: ((6926d573-2c8b-4a9e-941a-269335cf0885))
 			- 27th,...
 			  collapsed:: true
 				- ((67bd3614-2520-4a5d-8b3f-44f60901844e)) from ((67b183f5-1cca-4473-917e-60c644dd5466)) and ((69292bbb-c2dc-496d-9a04-bb4529407b25))
@@ -5758,6 +5757,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  ```
 						- Then it concluded:
 						- **Researching Knowledge Items Access**
+						  collapsed:: true
 							- *Thought*: I have researched Knowledge Items (KIs) through the Antigravity documentation and explored local storage. I've confirmed that KIs are integrated into my internal memory system and are *automatically studied when relevant, rather than being accessed via a dedicated tool call* like an MCP resource. I am now preparing to explain this to the user.
 							- Yes, I can access **Knowledge Items (KIs)**, but it works differently than a standard tool call like a file read or an external API.
 							- Based on my research into the Antigravity documentation and my own architecture:
@@ -5765,6 +5765,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- **Contextual "Study"**: When I encounter a problem or instruction that matches a known pattern in the Knowledge store, the system automatically retrieves the associated **Artifacts** (code snippets, logic rules, or past insights) for me to "study" and apply.
 								- **No Manual List Tool**: Currently, there isn't a manual "fetch" or "list" tool in my command set for KIs. They are treated as internal context rather than external resources (like MCP servers).
 								- **Local Persistence**: I can see the underlying persistent memory files being managed in the  `/home/dinhlx/.gemini/antigravity/` directory (e.g., in the `implicit` and `context_state` folders), although these are stored in high-level binary formats like Protocol Buffers.
+						- Thanks to the agent's research, i've got:
+							- The KIs would be extracted from `Walkthrough` docs.
+							- The agent rules are stored in `~/.gemini/GEMINI.md`
 				- Autonoton from computer science view, as a function: (InputHistory, input) -> (CurrentState, input) -> (NextState, output) -> (OutputHistory, output)
 				  collapsed:: true
 					- State = A condensed image of the world (history in time and landscape in space) projected into mind.

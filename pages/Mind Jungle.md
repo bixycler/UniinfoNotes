@@ -283,6 +283,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Antigravity
 					  collapsed:: true
 					  The agent-based IDE from Google
+						- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Google_Antigravity
 						- Agent data are stored in `$HOME/.gemini/antigravity/brain/$hash/`.
 							- `task.md`, `task.md.metadata.json`, `walkthrough.md`, `walkthrough.md.metadata.json`, `implementation_plan.md`,
 						- It has helped me in this task: ((667d2479-487a-49ab-949f-722eb47a16ef))
@@ -291,6 +292,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  collapsed:: true
 								- ![Antigravity-Customizations.png](../assets/GUI/Antigravity/Antigravity-Customizations.png)
 							- Customizations: Rules, Workflows
+							  id:: 6926be21-cae1-40e9-83a8-2f88aeaaebd6
 							- [MCP](https://en.wikipedia.org/wiki/Model_Context_Protocol) Servers: for LLMs to integrate and share data with external tools, systems, and data sources.
 							- Export: export the conversation to Markdown.
 						- Issues & Debug
