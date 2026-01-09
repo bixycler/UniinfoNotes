@@ -5129,6 +5129,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- ((68df2364-c484-4ddd-b4b5-19ef90228ef4))
 				- ((68dfc246-ea07-4c54-a0a4-2361f1a9055e))
 			- 5th, LLM is at the end opposite to program
+			  id:: 690bf59d-668c-4a86-81d9-8927336aea10
 			  collapsed:: true
 				- [The Illusion of Thinking](https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf): Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity
 					- > We found that LRMs have limitations in exact computation: they fail to use explicit algorithms and reason inconsistently across puzzles.
