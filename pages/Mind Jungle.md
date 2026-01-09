@@ -298,6 +298,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- [MCP](https://en.wikipedia.org/wiki/Model_Context_Protocol) Servers: for LLMs to integrate and share data with external tools, systems, and data sources.
 							- Export: export the conversation to Markdown.
 						- DOING Knowledge Items ([KIs](https://antigravity.google/docs/knowledge))
+						  id:: 69609135-7b69-4dfb-bb53-19d08c4b77ad
 						  :LOGBOOK:
 						  CLOCK: [2026-01-09 Fri 13:00:30]
 						  :END:
@@ -369,6 +370,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									  ... (Standard rules for CSS, Design Aesthetics, and SEO follow) ...
 								- #### `<ephemeral_message>`
 									- System-generated context injections. In this mode, ephemeral messages include artifacts reminders and specific metadata about Knowledge Store status and persistent memory hints.
+							- [!] After activated, `~/.gemini/antigravity/knowledge/` was generated but cannot be populated (only one `knowledge.lock` there).
 						- Issues & Debug
 							- Insecure permissions (`nobody:nogroup`) ⇒ Must always `chown root:root` after app upgrade.
 							  collapsed:: true
