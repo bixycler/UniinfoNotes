@@ -3521,6 +3521,7 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 				- equalization is reflected right in the name “Balance Way” from the beginning.
 			- In the struggle to return to the company works, in the last days of July, i just re-experienced these techniques in a deeper level and more concretely. So, i documented them as a guideline for further training and deeper realization.
 		- The struggle has shown me clearly that the karma is as heavy as the mountain, and my attachment to seeing through that mountain is no less delusive than moving it.
+		  id:: 6926be23-764f-4670-8f95-8a4da43ace96
 			- So, just return to the Socratic attitude: **accept the ignorance!**
 			- While people cling to their ability to do things, i.e. ((67f91046-34ed-4bb4-a006-db2c33aeabf7)), i cling to my ability to see things, i.e. ((66f267f7-01f9-47b9-8376-abd27fdf2930)) (sentience and cognizance).
 				- While the attachment to awareness is subtler, it's also a part of the ((67f9100a-b749-4354-ae16-92dc74ff27da)).
@@ -5321,7 +5322,6 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 				- Closing the eyes, i felt dizzy within, then the resetting process with normal symptoms of yawning and burping.
 				- After some minutes, i got grounded in the empty center: light, clear, and stable.
 				- It has been one entire year after [the first time reset within a day](https://www.facebook.com/share/p/1aUeJFNuTH/).
-			-
 		- 5th, from the empty center, attention is distortion (imbalance toward 1 direction) → review of the liberation path, life, and sort out mind chips.
 		  collapsed:: true
 			- In the morning riverside meditation, from the empty center, i see that attention is just a distortion of content:  it activates, boosts up things in the spotlight, and deactivates, diminishes other things outside.
