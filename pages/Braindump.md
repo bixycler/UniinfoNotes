@@ -765,6 +765,27 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			  collapsed:: true
 				- They have similar size of 700+kB, while rather different lines number (9k vs 6k).
 				- So, the size does matter, not the lines.
+			- `publish/CommonMark/Mind Jungle.cm.md` has invalid Advanced Query due to redundant `<br>`
+			  collapsed:: true
+				- ```markdown
+				  - #+BEGIN_CENTER
+				    <br>`<Center` 
+				    #+END_CENTER
+				  - `<Comment`
+				    #+BEGIN_COMMENT
+				    <br>This "comment" is a hidden text, just like a "comment" in programming language is hidden from the machine.
+				    #+END_COMMENT
+				    <br>for hidden text
+				  - ``` js
+				    <br><Src.js
+				    <br>```
+				  - `<Query`
+				    <br>query-table:: false
+				    #+BEGIN_QUERY
+				    <br>{:title "Advanced Query" :query  [:find ?x :in $ ?x ] :inputs ["Ex"]}
+				    #+END_QUERY
+				  
+				  ```
 		- TODO Update [Unitorus](https://www.youtube.com/watch?v=7OR_6L2zyHE)
 		- TODO `FabrikDemo-SolidD3` -> `FabrikDemo-SolidSvg`
 		  :LOGBOOK:
