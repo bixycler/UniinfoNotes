@@ -3019,14 +3019,71 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  collapsed:: true
 								- ![Wayland-tooltip-OK.png](../assets/GUI/Wayland/dropdown-topleft/Wayland-tooltip-OK.png)
 								- ![X11-dropdown-OK.png](../assets/GUI/Wayland/dropdown-topleft/X11-dropdown-OK.png)
-				- DOING Migrate `docs/DevlopmentEnvironment/Ubuntu-update.md` to ((68358033-084f-461c-b470-5311a5127f0c)) & ((68358161-eb10-4c78-805e-88f9f460d376)).
+				- DONE Migrate `docs/DevlopmentEnvironment/Ubuntu-update.md` to ((68358033-084f-461c-b470-5311a5127f0c)) & ((68358161-eb10-4c78-805e-88f9f460d376)).
 				  collapsed:: true
 				  :LOGBOOK:
 				  CLOCK: [2025-05-27 Tue 14:39:27]
 				  CLOCK: [2025-05-27 Tue 14:39:29]
-				  CLOCK: [2026-01-09 Fri 16:21:27]
+				  CLOCK: [2026-01-09 Fri 16:21:27]--[2026-01-09 Fri 16:34:11] =>  00:12:44
 				  :END:
-					- Config trials from Aug 17 2022
+					- Config trials from Aug 2023
+						- **Reboot** flow: Aug 17
+							- 10:29:45: **`reboot`** -> `update-notifier: update_check(); /usr/lib/update-notifier/apt-check`
+							- 10:29:47: `systemd` started `snapd`
+							- 10:30:22: `/var/lib/update-notifier/updates-available`
+							- 10:30:28: `/var/lib/apt/periodic/update-success-stamp`
+							- 10:30:31: `dconf /org/gnome/software/check-timestamp`  
+							  ... `firefox` update notification has been shown in GNOME Software docks (1. the notification list on system tray next to calendar, 2. tab "Updates" of app "Ubuntu Software"), but no popup `UpdatesAvailable` shown.  
+							  => `UpdatesAvailable` popup is for security updates by [`aptdaemon`](https://pythonhosted.org/aptdaemon/aptdaemon.client.html).
+							- 11:21:00: `dinhlx` clicked the update notification to update `firefox`
+							- 11:22:05: `snapd` installed updates for `firefox` -> `dconf /org/gnome/software/{update-notification-timestamp,online-updates-timestamp}`
+						- Reboot flow with `/var/lib/update-notifier/updates-available` touched by `packagekit.service` because [PackageKit provide automatic updates](https://en.wikipedia.org/wiki/PackageKit).  
+						  Architecture: APT [backend] > PackageKit > [frontend] GNOME Software (or `gnome-packagekit`)
+							- 20:05:18: `org.freedesktop.packagekit.system-sources-refresh` -> `/var/lib/update-notifier/updates-available`
+							- 20:05:23: `org.freedesktop.packagekit.system-sources-refresh` -> `/var/lib/apt/periodic/update-success-stamp`
+							- 20:05:27: `packagekitd` Failed to fetch http://vn.archive.ubuntu.com/ubuntu/dists/jammy/InRelease
+							    -> `dconf /org/gnome/software/check-timestamp`
+						- Masked services:
+						  ```
+						  sudo systemctl mask esm-cache.service
+						  sudo systemctl mask apt-news.service
+						  sudo systemctl mask packagekit.service
+						  ```
+						- But `dconf /org/gnome/software/check-timestamp` is still set at startup!?!
+						- → Nofification for security updates are still shown in system tray, but when clicked, no action can be taken, and tab "Updates" of app "Ubuntu Software" shows "Up to date". This is because `packagekit.service` has been disabled.
+						  => There's a hidden channel for Snap (& security) updates... checked every morning (`dconf /org/gnome/software/check-timestamp`)!!!
+					- Days later
+						- Try manually `apt update`:
+							- Fetching from repos ok
+							- Error: GDBus.Error:org.freedesktop.systemd1.UnitMasked: Unit packagekit.service is masked.    
+							  → Hooks to frontend GNOME Software is broken by maked packagekit.
+							- Still "25 packages can be upgraded."
+							- Updates can be seen with `apt list --upgradable` but not in Ubuntu Software / Updates.
+							- `/var/lib/apt/periodic/update-success-stamp` touched.
+							- `/var/lib/update-notifier/updates-available` touched.
+							- ➡️ If `update-notifier` is running (at startup), it will launch `update-manager` popup `UpdatesAvailable` if `regular-auto-launch-interval` reached or there are security updates.
+						- Try manually `update-manager`:
+							- Fetching from repos (again)
+							- `/var/lib/apt/periodic/update-success-stamp` touched.
+							- `/var/lib/update-notifier/updates-available` (already) touched.
+							- Apply all updates successfully.
+							- ➡️ `update-manager` does not use `packagekit`.
+						- Unmasked services:
+						  ```shell
+						  sudo systemctl unmask packagekit.service
+						  ```
+						- Reboot, `snapd` update is shown in GNOME Software docks.
+					- For a long time (like a month), there's no automatic update notification, except `snapd` updates.  
+					  => Only `X-GNOME-Autostart-enabled=false` is needed for disabling automatic update notification:  
+					  `grep "X-GNOME-Autostart-enabled=false" /etc/xdg/autostart/update-notifier.desktop`  
+					  => Unneeded settings for disabling automatic update notification:
+						- `packagekit` masking: `sudo systemctl status packagekit.service` is running.
+						- `gsettings set com.ubuntu.update-notifier no-show-notifications true`: `dconf read /com/ubuntu/update-notifier/no-show-notifications` returns empty.
+						- `unattended-upgrades` masking: `systemctl status unattended-upgrades.service` is running.
+					- Ref:
+						- [How To Disable Update Manager Pop-up in Ubuntu](https://devicetests.com/disable-update-manager-pop-up-ubuntu)
+						- [How do I turn off automatic updates COMPLETELY and FOR REAL?](https://askubuntu.com/q/1322292/1722530)
+						- [Completely disable auto updates & automatic checks for updates](https://forum.zorin.com/t/completely-disable-auto-updates-automatic-checks-for-updates/20043)
 				- Make sure all of these actions are reset, except the `autostart/update-notifier.desktop`:`X-GNOME-Autostart-enabled=false` and Unattended Upgrade
 				  collapsed:: true
 					- Unmask `apt-news` & `esm-cache` which were masked due to [their unuse](https://askubuntu.com/a/1452520).
