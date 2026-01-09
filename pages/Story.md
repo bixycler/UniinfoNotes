@@ -5474,6 +5474,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Except this case, most of the time, there are multiple intents observing the object _concurrently_, extracting **_multiple levels of abstraction_** (at different wave lengths, different scales, orders of derivatives), not limited to a flat `diff`.
 				- When the active intents are too many, i clear memory by flushing them down to storage, and reset the bodymind.
 			- 18th, CIE chromatics
+			  id:: 691c18e8-ae41-4073-8b18-c8a5fa30e1ec
 			  collapsed:: true
 				- Linear addition of colors, i.e. [Grassmann's laws](https://en.wikipedia.org/wiki/Grassmann%27s_laws_(color_science)), is due to the linear addtion of cone cells in human eyes.
 					- This linearity corresponds to the vector addition counterpart.
@@ -5850,8 +5851,5 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- **Defecation Reflex:** The sudden shift from “bracing” (SNS) to “releasing” (PSNS) allows the pelvic floor to relax and the colon to empty, turning my mental clearance into a physical clearance.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
-		- ((692e5569-b7e9-458e-a3a2-44f7ed57a8f1))
-		  id:: 692e55d7-ad53-4cdc-bc65-2e698daa0ef9
-		- ((69085f61-6627-4c0a-a984-c2b5b411a292))
 		- ...
 		  id:: 688c70c8-1772-4007-bdf0-d621db895411
