@@ -3145,7 +3145,7 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 						  /etc/apt/apt.conf.d/10periodic:APT::Periodic::Unattended-Upgrade "0";
 						  /etc/apt/apt.conf.d/20auto-upgrades:APT::Periodic::Unattended-Upgrade "0";
 						  ```
-	- Try to execute the [plan to share time with official works](((6926be1c-549f-4657-9760-eed54a585661))), July 2025.
+	- July journal: Try to execute the [plan to share time with official works](((6926be1c-549f-4657-9760-eed54a585661))), July 2025.
 	  id:: 686b390a-7953-4069-9c04-17c7f9a777a7
 	  collapsed:: true
 	  :LOGBOOK:
@@ -3507,7 +3507,7 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 		  :END:
 			- Although the [plan](((6926be1c-549f-4657-9760-eed54a585661))) has not been applied well, the practical methods for intent management have been developed quite well.
 			- So, let's wrap it up for the new month coming.
-	- Try to harmonize the personal ((67b541d0-f477-4c3a-b444-fb522c3fdc4f)) with the [working plan](((6926be1c-549f-4657-9760-eed54a585661))), from August 2nd to September 7th.
+	- August journal: Try to harmonize the personal ((67b541d0-f477-4c3a-b444-fb522c3fdc4f)) with the [working plan](((6926be1c-549f-4657-9760-eed54a585661))), from August 2nd to September 7th.
 	  id:: 688c70aa-8fdf-4cc8-aeb7-ffd47b86cee0
 	  collapsed:: true
 	  :LOGBOOK:
@@ -4155,7 +4155,7 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 			  > The **living substance**, further, is that being which is truly **subject**, or, what is the same thing, is truly realised and actual (*wirklich*) solely in the process of positing itself, or in mediating with its own self its transitions from one state or position to the opposite. 
 			  > [*Negation of Negation*]: As subject it is pure and simple negativity, and just on that account a process of splitting up what is simple and undifferentiated, a process of duplicating and setting factors in opposition, which [process] in turn is the negation of this indifferent diversity and of the opposition of factors it entails. 
 			  > [Self-restoring Sameness]: True reality is merely this process of **reinstating self-identity**, of **reflecting** into its own self in and *from its other*, and is not an original and primal unity as such, not an immediate unity as such. It is the process of its own becoming, _the **circle** which presupposes its end as its purpose, and has its end for its beginning_; it becomes concrete and actual only by being carried out, and by the end it involves.
-	- Try to live fully in the present, September 2025.
+	- September journal: Try to live fully in the present, September 2025.
 	  id:: 68be8447-81b0-4094-9964-1bd21e2e31e0
 	  collapsed:: true
 	  :LOGBOOK:
@@ -5080,7 +5080,7 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 				- no setter call inside effect/memo function, so that no frame is left in call stack (actually empty frames are still left).
 				- test effect circle branching before memo function returns
 				- test diamond effect flow
-	- Back to intent observation
+	- October journal: Back to intent observation
 	  id:: 68dc9f21-1057-4ac0-be4c-61c9010d7f78
 	  collapsed:: true
 	  :LOGBOOK:
@@ -5274,7 +5274,7 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 				- The infinite consciousness desolves the bodymind into the world, no separation's there.
 				- The lucid dream desolve only the self intent, leaving all other intents freely manifest themselves, usually in a space (dream) isolated from the external world.
 				- Though not as elegant as the states of emptiness and infinite consciousness, as well as other formess states, the lucid dream – like other form states – has a useful function in the world and the life: liberated from intents while still let them function in daily life.
-	- Start from the ((69086748-b6e9-47c0-810b-4a92f882d6bc))
+	- November journal: Start from the ((69086748-b6e9-47c0-810b-4a92f882d6bc))
 	  id:: 69085f61-6627-4c0a-a984-c2b5b411a292
 	  collapsed:: true
 	  :LOGBOOK:
@@ -5553,7 +5553,7 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 		- 29-30th, weekends
 			- Contemplated the $\exp()$ in ((69292bbb-c2dc-496d-9a04-bb4529407b25)), ((692cf172-d3fe-4390-80fe-52a8c21bd107))
 			- Proposed to bosses of the company HTV/Airtrip to set up an AI lab for knowledge management.
-	- Cultivate the Balance
+	- December journal: Cultivate the Balance
 	  id:: 692e5569-b7e9-458e-a3a2-44f7ed57a8f1
 	  collapsed:: true
 	  :LOGBOOK:

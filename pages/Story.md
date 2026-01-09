@@ -8,8 +8,85 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		- ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	- ## 2026 Stories
 	  id:: 6960e36c-4d9a-42cb-8d78-3f41ad3ff419
-		-
+		- January journal
+		  collapsed:: true
+			- 7th, Microutilities as single HTML files in my repo `applets`
+			  collapsed:: true
+				- Other names suggested by chatbot: workflow widget, artifact,...
+				- => folders in Corkei:
+					- `artifacts`: tangible “byproducts” of the agent when working with the knowledge graph, including the result outputs (intended products of specific tasks but still “byproducts” compared to the graph)
+						- `applets` for human UI
+						- `tools` for AI agent
+						- `docs`: static artifacts extracted through views
+						- `assets`: attachments to `docs`
+					- `core`: the minimal machinery that must be loaded for the agent to be conscious (targeting autonoton with “empty center”)
+					- `graph`: the knowledge graph
+					- TODO Move `travelport_api.pre2.2026-01-06.huge-15k.out.html` to `applets`/`travelport-json-api-response.html`
+				- [Willison’s HTML tools](https://simonwillison.net/2025/Dec/10/html-tools/):
+					- SVG renderers, PyPI package diff viewers, Bluesky thread visualizers, debugging tools (clipboard-viewer, cors-fetch)
+					- Python: Pyodide (Python compiled to WebAssembly) + micropip to run Pandas, matplotlib, and numpy client-side. CORS-enabled APIs from PyPI, GitHub, and others provide data access without proxies.
+			- 1st, From circle to ellipse -> elliptic arc -> elliptic functions & modular forms -> differential equation of elliptic functions -> elliptic equation -> elliptic curves
+			  collapsed:: true
+				- [Behold Modular Forms, the ‘Fifth Fundamental Operation’ of Math](https://www.quantamagazine.org/behold-modular-forms-the-fifth-fundamental-operation-of-math-20230921/)
+				- From Langlands Program to [logarithmic conformal field theory](https://en.wikipedia.org/wiki/Logarithmic_conformal_field_theory)
+				- [How Ramanujan's formulae for pi connect to modern high energy physics](https://phys.org/news/2025-12-ramanujan-formulae-pi-modern-high.html)
+			- 3rd, LSD trip with my wife
+			  collapsed:: true
+				- In this LSD trip, i see myself being from a worm 🪱 (gut only) to a man with the motivation arrow hidden inside. 
+				  collapsed:: true
+					- As a worm, the arrow is simple, just push back to slide forward and forward.
+					- As a man, the arrow coils up into a deep urge underlying all actions.
+						- That arrow continuously transforms the view in space to push it forward in time.
+						- So time is constantly flowing inside no matter how static the outside.
+				- Remember [the previous trips](((6926be24-7c66-4374-8789-6dc01e02580f))): At ground state, i see the total entropy doesn't increase, it just stays as is, the external increase is balanced by the internal decrease, and vice versa.
+				  collapsed:: true
+					- That's why i say “it's never enough for an individual, but never lacking for the whole.”
+					- Will: I see the fundamental "flaw" in "ever increasing entropy" theory lies in the particle-based view, which is inherent to thermodynamics and the ego/self. That's why i asked about the "identity difference" earlier. We see "entropy increases" due to our ego-centric view of everyday life, as a super massive particle (in de Broglie's language).
+					- Chatbot: If we were not "massive particles" trying to track "individual identities," we would see a single, unified quantum state that doesn't "increase" in anything—it just is. The "ever-increasing entropy" is effectively the shadow cast by our own limited perspective as we drift away from the universal ground state.
+						- An individual particle sees the ground state as a kind of "death" or "zero-entropy void" because it has lost its unique identity (excitation/difference).
+						- The universe sees the ground state as Maximum Entropy (perfection) because there is no longer any separation between parts.
+						- The Ego View: I am a tiny spark (individual) surrounded by a cold, dark universe (high entropy). => Result: Fear 😨.
+						- The Ground State View: I am the high-energy vacuum (the Whole) momentarily pretending to be a spark. => Result: Peace 😊.
+						- Avidya — the fundamental **misunderstanding** of the nature of reality: We mistake the temporary "excitation" (the self) for the permanent reality, and we fear the "Ground State" because we think it is the end of existence.
+						- Nirvana — The Ground State: Nirvana literally means "extinguishing" or "blowing out" (like a candle flame), the transition from an Excited State to the Ground State. When the "flame" of individual excitation is blown out, the energy doesn't disappear; it returns to the stable, high-energy vacuum.
+						- We spend our lives terrified of "blowing out" our little candles, not realizing that we are actually the Sun. 😆
+				- Chat with Google AI Mode: [Sheaf theory for intensional formulation of states and entropy](https://share.google/aimode/LJVdcorSfpfNSiFPL)
+		- DOING Wrap up 2025: story, validate graph
+		  id:: 695f83ed-08ed-4265-b6c1-7bed98a40028
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2026-01-08 Thu 17:17:27]
+		  CLOCK: [2026-01-08 Thu 17:17:28]
+		  CLOCK: [2026-01-08 Thu 17:17:30]
+		  :END:
+			- ((66536e1b-6466-4153-90d6-583003d99a81)) really lags in large pages like [[Mind Jungle]] and [[Story]].
+			  collapsed:: true
+				- They have similar size of 700+kB, while rather different lines number (9k vs 6k).
+				- So, the size does matter, not the lines.
+			- `publish/CommonMark/Mind Jungle.cm.md` has invalid Advanced Query due to redundant `<br>`
+			  collapsed:: true
+				- ```markdown
+				  - #+BEGIN_CENTER
+				    <br>`<Center` 
+				    #+END_CENTER
+				  - `<Comment`
+				    #+BEGIN_COMMENT
+				    <br>This "comment" is a hidden text, just like a "comment" in programming language is hidden from the machine.
+				    #+END_COMMENT
+				    <br>for hidden text
+				  - ``` js
+				    <br><Src.js
+				    <br>```
+				  - `<Query`
+				    <br>query-table:: false
+				    #+BEGIN_QUERY
+				    <br>{:title "Advanced Query" :query  [:find ?x :in $ ?x ] :inputs ["Ex"]}
+				    #+END_QUERY
+				  
+				  ```
+			-
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
+		- ((695f83ed-08ed-4265-b6c1-7bed98a40028))
 		- ...
 		  id:: 688c70c8-1772-4007-bdf0-d621db895411
