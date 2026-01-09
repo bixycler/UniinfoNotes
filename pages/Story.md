@@ -5743,13 +5743,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- `"codeiumDev.useDevUnleash": true`
 						- `"antigravity.useKnowledgeBase": true` ← This is just a hallucation of Google AI Mode 😁
 						- Side Effects: Enabling `codeiumDev.useDevUnleash` may change system prompts or context window handling.
-						- Antigravity's confirmation: The activation was successful. My "mind" (system prompt) now includes these critical sections:
-							- `<knowledge_discovery>`: This is a comprehensive guide on how I should interact with the **Knowledge Items (KI) System**. It gives me clear instructions on checking KI summaries before starting research and how to build upon existing knowledge artifacts.
-							- `<persistent_context>`: This details how I should retrieve information from past conversations and Knowledge Items (KIs). It explains:
-								- **When to Use Conversation Logs**: When I need raw details or specifically referenced past discussions.
-								- **When to Use Knowledge Items**: For distilled, curated knowledge on specific topics.
-								- **How to Use Search Tools**: Using tools like `codebase_search` or `grep_search` if I can't find a direct link to a past session.
-							- `<ephemeral_message>`: This section is upgraded from the standard "task reminder" mode to the advanced knowledge-aware version.
+						- ((69607f31-69b2-4fc9-ac24-83912bc13a0c))
 					- DOING Asking the agent of Antigravity itself: 
 					  :LOGBOOK:
 					  CLOCK: [2026-01-09 Fri 09:16:09]
@@ -5774,8 +5768,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- **No Manual List Tool**: Currently, there isn't a manual "fetch" or "list" tool in my command set for KIs. They are treated as internal context rather than external resources (like MCP servers).
 								- **Local Persistence**: I can see the underlying persistent memory files being managed in the  `/home/dinhlx/.gemini/antigravity/` directory (e.g., in the `implicit` and `context_state` folders), although these are stored in high-level binary formats like Protocol Buffers.
 						- Thanks to the agent's research, i've got:
-							- The KIs would be extracted from `Walkthrough` docs.
-							- The [agent rules](((6926be21-cae1-40e9-83a8-2f88aeaaebd6))) are stored in `~/.gemini/GEMINI.md`
+							- ((6960913e-1087-4e27-837c-aa0a98b98f6e))
+							- ((6960929c-0ac9-43c6-8357-0e3e9ca1ed54))
 				- Autonoton from computer science view, as a function: (InputHistory, input) -> (CurrentState, input) -> (NextState, output) -> (OutputHistory, output)
 				  collapsed:: true
 					- State = A condensed image of the world (history in time and landscape in space) projected into mind.

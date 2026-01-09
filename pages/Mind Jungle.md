@@ -293,10 +293,26 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- ![Antigravity-Customizations.png](../assets/GUI/Antigravity/Antigravity-Customizations.png)
 							- Customizations: Rules, Workflows
 							  id:: 6926be21-cae1-40e9-83a8-2f88aeaaebd6
+								- The agent rules are stored in `~/.gemini/GEMINI.md`
+								  id:: 6960929c-0ac9-43c6-8357-0e3e9ca1ed54
 							- [MCP](https://en.wikipedia.org/wiki/Model_Context_Protocol) Servers: for LLMs to integrate and share data with external tools, systems, and data sources.
 							- Export: export the conversation to Markdown.
+						- [Knowledge Items (KIs)](https://antigravity.google/docs/knowledge)
+							- The KIs would be extracted from `Walkthrough` docs.
+							  id:: 6960913e-1087-4e27-837c-aa0a98b98f6e
+							- However, in the current preview version, it's off by default. There's a hidden flag to turn it on:
+							  `"codeiumDev.useDevUnleash": true`
+								- Antigravity's confirmation: The activation was successful. My "mind" (system prompt) now includes these critical sections:
+								  id:: 69607f31-69b2-4fc9-ac24-83912bc13a0c
+									- `<knowledge_discovery>`: This is a comprehensive guide on how I should interact with the **Knowledge Items (KI) System**. It gives me clear instructions on checking KI summaries before starting research and how to build upon existing knowledge artifacts.
+									- `<persistent_context>`: This details how I should retrieve information from past conversations and Knowledge Items (KIs). It explains:
+										- **When to Use Conversation Logs**: When I need raw details or specifically referenced past discussions.
+										- **When to Use Knowledge Items**: For distilled, curated knowledge on specific topics.
+										- **How to Use Search Tools**: Using tools like `codebase_search` or `grep_search` if I can't find a direct link to a past session.
+									- `<ephemeral_message>`: This section is upgraded from the standard "task reminder" mode to the advanced knowledge-aware version.
+								- ...
 						- Issues & Debug
-							- Insecure permissions (`nobody:nogroup`) ⇒ Must always
+							- Insecure permissions (`nobody:nogroup`) ⇒ Must always `chown` after app upgrade.
 								- ```
 								  [oh-my-zsh] Insecure completion-dependent directories detected:
 								  -rw-r--r-- 1 nobody nogroup 2554 Thg 11 26 08:26 /usr/share/zsh/vendor-completions/_antigravity
