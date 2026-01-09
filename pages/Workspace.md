@@ -34,7 +34,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  ^ **Element** search
 			- {{search-query [:h3 "Element Search Result"], 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, 66533703-505d-432d-8368-6058eefb45f6, 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, true, false}}
 			  query-table:: false
-		- ANN & LLM are opposite to classic program
+		- experiences
 		  id:: 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2
 		  case-sensitive:: false
 		  whole-word:: false
@@ -59,8 +59,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			- #### To be merged
 			  id:: 67164cc1-e500-4889-9b6d-12d8dd7fc029
 			  collapsed:: true
-				- Add FABRIK Demo
-				-
+				- ((695f83ed-08ed-4265-b6c1-7bed98a40028))
 				- Add [FABRIK Demo](((68c76471-6ca1-4c46-8abf-f68b021f06f9)))
 				- Remove `.obsidian/`
 			- #### WIPs < ((67164cc1-e500-4889-9b6d-12d8dd7fc029))

@@ -9,6 +9,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 	- ## 2026 Stories
 	  id:: 6960e36c-4d9a-42cb-8d78-3f41ad3ff419
 		- January journal
+		  id:: 6960ec3a-b9a9-4fcd-b2f7-4424575c3da4
 		  collapsed:: true
 			- 7th, Microutilities as single HTML files in my repo `applets`
 			  collapsed:: true
@@ -51,17 +52,18 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Nirvana — The Ground State: Nirvana literally means "extinguishing" or "blowing out" (like a candle flame), the transition from an Excited State to the Ground State. When the "flame" of individual excitation is blown out, the energy doesn't disappear; it returns to the stable, high-energy vacuum.
 						- We spend our lives terrified of "blowing out" our little candles, not realizing that we are actually the Sun. 😆
 				- Chat with Google AI Mode: [Sheaf theory for intensional formulation of states and entropy](https://share.google/aimode/LJVdcorSfpfNSiFPL)
-		- DOING Wrap up 2025: story, validate graph
+		- Wrap up 2025 with my karma clearly shown through daily journaling.
 		  id:: 695f83ed-08ed-4265-b6c1-7bed98a40028
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2026-01-08 Thu 17:17:27]
 		  CLOCK: [2026-01-08 Thu 17:17:28]
-		  CLOCK: [2026-01-08 Thu 17:17:30]
+		  CLOCK: [2026-01-08 Thu 17:17:30]--[2026-01-09 Fri 19:41:19] =>  26:23:49
 		  :END:
 			- The journals in ((68662950-3ada-42ea-928d-9700209e1501)) have clearly shown my karma and slavery: No self-control at all, completely useless in unfavorable situations!
 				- From July to November, in the environment of uninteresting (mechanical) works and unfavorable leader (distant from me), i struggled in vain to do official works.
 				- After just a month of daily journaling, i've seen clearly that [i'm helpless with my karma](((6926be23-764f-4670-8f95-8a4da43ace96))). The helpless wrestle the next 4 months ended up in the final collapsed on [Dec 2nd](((692e55b4-90f1-42dd-a8e1-98fdcc16332e))).
+					- I called it “the worst (unexplainable) experiences of self-control” in commit [db864814](https://github.com/bixycler/UniinfoNotes/commit/db864814).
 				- Last month, December, returning to my favorable environment, it's shown that all of my “commitment” to the official works is from my karmic hooks, not any self-control at all! That means i have no commitment myself.
 			- While no planning nor self-control are effective, my long-term training has some visible results in my bodymind: ((67445065-15b2-475e-a704-78f140d487af)) has become [reflexive](((694bc610-c76f-47db-8210-f02b733096f0))).
 			- ((66536e1b-6466-4153-90d6-583003d99a81)) really lags in large pages like [[Mind Jungle]] and [[Story]].
@@ -91,6 +93,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  ```
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
-		- ((695f83ed-08ed-4265-b6c1-7bed98a40028))
+		- ((6960ec3a-b9a9-4fcd-b2f7-4424575c3da4))
 		- ...
 		  id:: 688c70c8-1772-4007-bdf0-d621db895411
