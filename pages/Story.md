@@ -5620,7 +5620,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- [志村けん ３本の矢② shimura ken](https://www.youtube.com/watch?v=h8XfnkRjbMA): Type B punchline
 						  collapsed:: true
 							- {{video https://www.youtube.com/watch?v=h8XfnkRjbMA}}
-			- 13-14th, weekends
+			- 13-14th, weekends with various brainstorms: the effect circle in dynamic circle (acceleration → velocity → position), round-trip projection in Pythagorean theorem, wave propagation = exploring all possibilities, etc.
 			  collapsed:: true
 				- While the order of acceleration → velocity → position is the natural and correct causal chain in physics, abstractions like infinity, infinitesimal leads to the **artificial “independence”** between derivatives, like in [Euler method](https://en.wikipedia.org/wiki/Euler_method) and [phase space](https://en.wikipedia.org/wiki/Phase_space). 
 				  collapsed:: true
@@ -5638,7 +5638,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- orbit: $x^2 + v^2 - h x v = R$
 								- $R = 1$ for 4 inits (0, ±1) and (±1, 0)
 						- The cross-term $h v x$ is the result of off-diagonal elements in the matrix, showing the correlation between x & v, just like in QM.
-				- Google sessions 
+				- My current Google sessions
 				  collapsed:: true
 					- Android: Galaxy A06 5G (main, prompt), SM-A066B (= Galaxy A06 5G, Google [system] app for security check)
 					- Linux: CPU000375 (HTV), OptiPlex 3050 (Antigravity @ HTV)
@@ -5659,7 +5659,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Contemplations
 					- obop as 2 phases where ob = 0 = 1 (whole, immediate) and op = 1/2 (intermediate)  => matching & phase coherence & wave interference => Schrodinger's [wave function formulation](https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation)
 					  id:: 693f644f-3825-41c0-81db-cc67de9263ea
-					- [Huygens principle](https://en.wikipedia.org/wiki/Huygens%E2%80%93Fresnel_principle) = exploring every possibilities => Feynman's [path integral formulation](https://en.wikipedia.org/wiki/Path_integral_formulation)
+					- [Huygens principle](https://en.wikipedia.org/wiki/Huygens%E2%80%93Fresnel_principle) = exploring all possibilities => Feynman's [path integral formulation](https://en.wikipedia.org/wiki/Path_integral_formulation)
 					  id:: 693f644f-d49a-4e43-aa32-c5696dcce2e6
 					- Heisenberg's [matrix formulation](https://en.wikipedia.org/wiki/Matrix_mechanics) closely matches Uniinfo's intensionalization: observables = sense bases
 					- The [principle of max entropy](https://www.popularmechanics.com/science/math/a69623099/breaking-law/) in material breaking matches the law of stationary actions.
@@ -5685,7 +5685,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Round-trip projection là cái vòng tròn cơ bản của Unithread: nhìn thấy mình trong người/vật khác.
 								- Nói theo ngôn ngữ bình dân thì như vầy: Cứ đi soi tất cả những tấm gương, gương phẳng, gương lồi, gương lõm, gương dị dạng, gương AI, gương người (hỏi nhận xét của người khác về mình).... tổng lại những hình ảnh đó, trừ đi phần giao nhau (để trở thành tổng trực giao) thì ra chính mình.
 								- Mình không thể tự thấy chính mình, by def! Nhưng mình có thể thấy được mình thông qua phép soi gương toàn diện.
-			- 19th,...
+			- 19th, workflow-only (codeless) AI agents
 			  collapsed:: true
 				- [tldraw's Computer](https://computer.tldraw.com/p/nvFmYL2GyJxWHQHSqGYapY?signed_in=false) vs [Google's Opal](https://opal.google/) vs [Relevance AI](https://app.relevanceai.com/workforce/f1db6c/e6432a8e-273f-4dbc-954b-f88d6f67397c/a8286977-6dfe-46fe-ae22-5fbfdfa4fc78/build)
 					- tldraw's Computer allow loops, but lack advanced prompting
