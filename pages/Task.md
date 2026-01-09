@@ -132,13 +132,11 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 				- `ab759f3b`: Replace Unïnfo with Unïnfo in `Mind Jungle.md`
 				- `1ba482c0`: [WIP] Replace Unïnfo with Unïnfo in other pages: `Brainstorm.md`, `Braindump.md`, `Story.md`, `Mind Chips.md`, `2024 Tasks.md`
 				- `c05ef117`: Replace Unïnfo with Unïnfo in other files: `README.md`, `Theoretical/*`, `logseq/global/config.edn`, `assets/*`
-	- ## Current Tasks < ((677614c4-ea7d-47c0-89ee-afbacceb56e9)) > ((67763106-205f-4e01-affc-a68e1d8e53a9))
-	  id:: 677630fe-ea99-436f-b39f-8bd2295e2eaf
-		- DOING [!] Làm lại thẻ VCB
+		- DONE [!] Làm lại thẻ VCB
 		  id:: 686e580a-a0d6-4e0c-981c-e15665b8e4d0
 		  collapsed:: true
 		  :LOGBOOK:
-		  CLOCK: [2025-08-27 Wed 10:59:07]
+		  CLOCK: [2025-08-27 Wed 10:59:07]--[2025-09-11 Thu 20:27:34] =>  369:28:27
 		  :END:
 			- 27th Aug 2025, walked to the bank to do the card issuing precedure.
 			  :LOGBOOK:
@@ -148,6 +146,14 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 			  :LOGBOOK:
 			  CLOCK: [2025-08-27 Wed 11:01:20]
 			  :END:
+				- Yes: notification in mobile
+				  :LOGBOOK:
+				  CLOCK: [2025-09-10 Wed 16:32:49]
+				  :END:
+				  > Your Vietcombank Connect24 card has been sent to registered address. Please visit transaction office/branch to receive your card.
+			- DONE 11th Sep, go get it!
+	- ## Current Tasks < ((677614c4-ea7d-47c0-89ee-afbacceb56e9)) > ((67763106-205f-4e01-affc-a68e1d8e53a9))
+	  id:: 677630fe-ea99-436f-b39f-8bd2295e2eaf
 		- TODO Update [CT scans of Bell Lê](((684f951d-8174-4c48-90e9-7f14566b8697))).
 		- ...
 	- ## Future Tasks
@@ -181,11 +187,6 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 			- ((67715dbd-5ba6-4fc8-bd3e-5fab97885ae7)) & ((67760c43-58c6-40eb-b874-40afae448966))
 		- ((671b29b6-68f7-47e1-b79c-f4d6284690a2))
 		- ((66e3c1b8-eb83-47d6-b71e-193549b47f93))
-		- WAIT symbols for ((66c8941d-6427-4e5c-9009-3af349500d7b))
-		  :LOGBOOK:
-		  CLOCK: [2024-08-23 Fri 12:16:21]
-		  CLOCK: [2024-08-23 Fri 12:16:24]--[2025-01-02 Thu 13:27:34] =>  3169:11:10
-		  :END:
 		- WAIT view, projection, effect flow via wave propagation across a ((66c810a0-9861-4787-bdcf-1378219332be))
 		  :LOGBOOK:
 		  CLOCK: [2024-08-23 Fri 12:16:32]

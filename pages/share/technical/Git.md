@@ -3,6 +3,7 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 	- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://www.git-scm.com/
 	- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)) is a [free and open source](https://www.git-scm.com/about/free-and-open-source) distributed version control system (VCS), which is now the most popular VCS in the world.
 	- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+	  collapsed:: true
 		- File link: ((671f5784-d89b-4a4a-a6e7-f02a0805322f)) is supported by ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)) but ((671f5617-1163-4ffc-b65a-b3234e471db0)) is not.
 		  collapsed:: true
 			- Symlink has portability problem between Linux and Windows.
@@ -106,8 +107,9 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 		  id:: 67163453-4d1b-492d-ab06-532cb37e7431
 		  `git worktree`
 			- Official docs: [Manage multiple working trees](https://git-scm.com/docs/git-worktree)
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) We can configure many separate ((67152d29-5cee-475d-a01b-bbc9c9ad3417))s as separate ((66723642-58f1-4a74-bba3-0108f14c6bac))s of the same repo, e.g. to checkout and manage different branches with no need to clone the same remote repo into many local repos.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) We can configure many separate views as separate views of the same repo, e.g. to checkout and manage different branches with no need to clone the same remote repo into many local repos.
 			- Commands
+			  id:: 68500a6e-0c83-4650-8bcd-9f1602b80ee9
 				- ```sh
 				  git worktree add ${path_to}/${view} [ ${branch_or_commit} ]
 				  git worktree list
@@ -131,7 +133,7 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 	  collapsed:: true
 	  `gitdir: ${external_path}/${GIT_DIR}`
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67152b95-02b4-473b-a88b-6cbab4b46749)) is a file pointing to an external ((67152861-f595-4ad1-88a9-9363082d03eb)) which has default name `.git` and place similar to `$GIT_DIR`. This is a convenient way to **separate** `$GIT_DIR` from ((67152d29-5cee-475d-a01b-bbc9c9ad3417)), so that Git repo will not be affected _even when the whole working tree is cleared up_.
-		- Use cases: ((67163453-4d1b-492d-ab06-532cb37e7431)), ((67151eb0-94a3-47bb-a7f9-25561690e75d)), [`.logseq/git/`](((6716110e-3c2b-45e8-99a0-d8263b6a42b2)))
+		- Use cases: ((67163453-4d1b-492d-ab06-532cb37e7431)), ((67151eb0-94a3-47bb-a7f9-25561690e75d)), `.logseq/git/` in ((66536e1b-6466-4153-90d6-583003d99a81))
 	- nested repository
 	  collapsed:: true
 		- When adding folder `$subrepo` containing `.git` to another (outer) git repo, its contents cannot be added. Only one *file* `$subrepo` is added as an anchor to the current `HEAD` commit of a nested repo.

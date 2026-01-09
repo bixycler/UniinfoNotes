@@ -482,18 +482,14 @@
     ["parallel to" "∥"]
     ;U+2225
     ["double vertical bar" "∥"]
-    ;U+22A5
-    ["=T" "⊥"]
-    ;U+22A5
-    ["up tack" "⊥"]
-    ;U+22A5
-    ["orthogonal to" "⊥"]
-    ;U+22A5
-    ["perpendicular" "⊥"]
-    ;U+22A5
-    ["bottom tack" "⊥"]
-    ;U+22A5
-    ["up tee" "⊥"]
+    ;U+27C2
+    ["=T" "⟂"]
+    ;U+27C2
+    ["perpendicular to" "⟂"]
+    ;U+27C2
+    ["orthogonal to" "⟂"]
+    ;U+27C2
+    ["perpendicular" "⟂"]
     ;U+2261
     ["===" "≡"]
     ;U+2261

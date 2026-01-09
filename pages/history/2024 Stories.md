@@ -819,12 +819,14 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 			  [Còn thấy đau là còn thương](https://youtu.be/_aghWPzkB7M)
 			- "bị thương" & "thương" are just 2 ends of the arrow
 			- equal = "circle = arrow" = through (nonblocking open) circle = fine energy = từ bi (mercy) = selfless
-			- Blocked circle = hurt, suffering = self
+			- Blocked circle = (hurt, suffering) = self
+			  id:: 6926be27-4548-48b8-9964-c8158919974d
 				- Blocked from inside = hate
 				- Blocked from outside = love (with entanglement)
 			- belief in the circles:
 				- External circles: illogical & hurt are just a partial view.
 					- The whole view: everything has its own logic; as long as it can keep from showing suffering, it's sufferings are balanced by the other parts.
+					  id:: 6926be27-4dde-4f3c-bcb4-1e2fc73d5bc6
 					- ==> No need to intervene/interfere!!!
 				- Internal circles: believe in my parts 
 				  ==> don't hold them tight, can let them go to return to the center of zero (selfless) to dodge the opposite arrow 💘, then we can gather again without problem

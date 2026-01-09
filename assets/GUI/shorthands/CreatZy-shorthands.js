@@ -732,17 +732,15 @@ const shorthandMap = {
             "double vertical bar"
         ]
     },
-    "⊥": {
+    "⟂": {
         "i": "75",
-        "codePoint": "U+22A5",
-        "name": "up tack",
-        "entities": "&bottom;, &bot;, &perp;, &UpTee;",
+        "codePoint": "U+27C2",
+        "name": "perpendicular to",
+        "entities": "",
         "code": "=T",
         "keywords": [
             "orthogonal to",
-            "perpendicular",
-            "bottom tack",
-            "up tee"
+            "perpendicular"
         ]
     },
     "≡": {

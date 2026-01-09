@@ -1,7 +1,8 @@
 # Name Lists
 id:: 676e5861-1220-40e4-9546-e319e17df1aa
 collapsed:: true
-	- collapsed:: true
+	- query-table:: false
+	  collapsed:: true
 	  #+BEGIN_QUERY
 	  {:title [:h2 "List of Composite Names"]
 	   :inputs [ 
@@ -96,6 +97,10 @@ collapsed:: true
 			  id:: 66c80da9-4cfb-4de7-b83d-8b70665207bf
 				- adjective of
 				  id:: 66c80e01-002b-42ae-9c60-49bf3fc6e159
+			- Plural:
+			  id:: 68dfc116-5dc8-41a1-b448-b2e2ddc80068
+				- plural of
+				  id:: 68dfc11b-c552-4a41-b4bb-0737db0f3f94
 		- Description:
 		  id:: 6651ecba-793d-43c5-8020-a9f260b032d8
 		  ((665ca47c-476a-4bef-b982-d9a31a669fb1)) ((66532914-003a-4bbb-9e97-6f1c87170d7d))
@@ -142,6 +147,8 @@ collapsed:: true
 		  id:: 665caf87-7dd9-4e9e-9ebc-7df259e7d711
 			- ⇒
 			  id:: 66602f68-e23f-4b24-921e-b1a9fc0cc731
+			- ➡️
+			  id:: 6687cfbe-9a41-4cb9-883c-c4655b8fa96c
 			- So,
 			  id:: 665dc545-151a-485a-84b7-1310fef5151c
 			- Thus,
@@ -152,15 +159,19 @@ collapsed:: true
 			  id:: 66600918-9cef-4a33-bdeb-3b64d71c7034
 			- moved to
 			  id:: 680a04eb-125e-4e9e-b691-3b7be523359c
+		- Opposite:
+		  id:: 691ae2bd-a60f-4db2-8132-bf54e9dee1b0
+			- opposite of
+			  id:: 691ae2c3-74aa-4b95-afb6-ed174be00978
 	- Composite:
 	  id:: 6652048c-27b3-47b6-84e5-25af8d9ce801
 	  ((665ca47c-476a-4bef-b982-d9a31a669fb1)) ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5))
 		- Component:
 		  id:: 66532ccc-ae21-4940-8714-715060d6bd90
-		  collapsed:: true
 		  ((665ca47c-476a-4bef-b982-d9a31a669fb1)) ((66532bb2-7680-461b-80b2-71fc96c89fb9))
 		- Complementarity:
 		  id:: 667bf816-d1c8-4ac3-b315-764c14bfbb1f
+		  ((665ca47c-476a-4bef-b982-d9a31a669fb1)) ((66c8941d-6427-4e5c-9009-3af349500d7b))
 			- Complement:
 			  id:: 6699e4db-2e75-4427-94bb-96dfe0367dd1
 				- Dual:

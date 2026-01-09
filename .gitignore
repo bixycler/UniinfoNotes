@@ -1,7 +1,5 @@
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
-logseq/bak
-logseq/.recycle
+/logseq/bak
+/logseq/.recycle
 .idea/
 *.iml
 *.swp

@@ -16,6 +16,7 @@ fi
 
 APPIMAGE_URL="https://cdn.anythingllm.com/latest/AnythingLLMDesktop.AppImage"
 APPIMAGE_FILE="AnythingLLMDesktop.AppImage"
+EXE_FILE="$HOME/.local/bin/AnythingLLMDesktop"
 EXTRACTED_DIR="anythingllm-desktop"
 OUTDIR="$HOME/AnythingLLMDesktop"
 
@@ -26,15 +27,13 @@ status "Downloading latest AnythingLLM Desktop..."
 curl --fail --show-error --location --progress-bar -o $OUTDIR/$APPIMAGE_FILE $APPIMAGE_URL
 
 cd $OUTDIR
-chmod +x $APPIMAGE_FILE;
 status "Extracting..."
 ./$APPIMAGE_FILE --appimage-extract >/dev/null;
-rm -rf $APPIMAGE_FILE
 mv squashfs-root $EXTRACTED_DIR
-ln -sf $EXTRACTED_DIR/AppRun start
+rm -rf $EXE_FILE
+ln -sfv $EXTRACTED_DIR/AppRun $EXE_FILE
 
-status "AnythingLLMDesktop is ready to run with $OUTDIR/start."
-status "\e[36mHeads up!\e[0mYou can rerun this installer anytime to get the latest version of AnythingLLM without effecting your existing data."
+status "AnythingLLMDesktop is ready to run with $EXE_FILE."
+status "You can rerun this installer anytime to get the latest version of AnythingLLM without effecting your existing data."
 status "Documentation: https://docs.anythingllm.com"
 status "Issues: https://github.com/Mintplex-Labs/anything-llm"
-status "\e[36mThanks for using AnythingLLM!\e[0m"

@@ -1353,7 +1353,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 		- #### nano
 		  collapsed:: true
 			-
-	- ### DNS & `hosts`
+	- ### DNS, `hosts`, NAT
 	  id:: 675141bb-5c74-4906-b6ee-63ac3a237ef0
 	  collapsed:: true
 	  :LOGBOOK:
@@ -1368,6 +1368,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 		- `dig`
 		  a flexible tool for interrogating DNS name servers.
 		- `dnsmasq`
+		  id:: 67864319-c2d5-4ba3-98a2-958f1e07cf53
 		  a lightweight DNS, TFTP, PXE, router advertisement and DHCP server.
 		- [DNS records](https://en.wikipedia.org/wiki/List_of_DNS_record_types) in [`.zone` file](https://en.wikipedia.org/wiki/Zone_file)
 		  collapsed:: true
@@ -1399,7 +1400,11 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			  ```
 			- ((675686a5-3d59-402f-9640-12b991182e32))
 				- Static IP cannot be set (in `hosts` file), due to the [IP update of `CNAME` in work time](((675653ab-ea7c-4d8b-8ef6-a378591b6443))).
-				- Or we must run a background script, like ![log-cname-ips.sh](../assets/Linux/DNS/CNAME-monitoring/log-cname-ips.sh), to detect IP change of `CNAME` then update `hosts` file accordingly.
+				- Or we must run a background script, like ![dig-cname-ips.sh](../assets/Linux/DNS/CNAME-monitoring/dig-cname-ips.sh), to detect IP change of `CNAME` then update `hosts` file accordingly.
+				  id:: 684f951e-5f86-4b1c-9b08-e550ad283d4a
+					- The digging itself is enough to make `dnsmasq` return IPs (A records) for the aliases, like `git1`.
+					- But these IPs have a short life time (TTL), after which we must dig again.
+					- Because the DB hosts have very short TTL (only 5 seconds), we update the dug IPs to the `hosts` file `~/hosts/cname.hosts`, instead.
 			- The history of hunting `A` records is so complicated
 			  collapsed:: true
 				- `dig git1.lan.skygate.co.jp` with `CNAME`
@@ -1679,6 +1684,18 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. 60	IN A 3.115.124.176
 					  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. 60	IN A 54.199.127.69
 					  ```
+		- NAT Port Forwarding & SSH Tunneling
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-11-25 Tue 20:23:06]
+		  CLOCK: [2025-11-25 Tue 20:23:21]--[2025-11-25 Tue 20:26:36] =>  00:03:15
+		  :END:
+			- app --[connect]--> dbm.lan...jp:1521 ==[`iptables`]==> localhost:1524 ==[SSH tunnel]==> pre1-mastest...amazonaws.com:1521
+				- In `~/.ssh/config`, we foward local ports to CNAME hosts,
+				     e.g.: `Host` tunnel-aws `LocalForward` 1524 pre1-mastest...amazonaws.com:1521
+				- In `iptables` NAT, we forward `OUTPUT` from the hosts & ports accessed by the app to the local ports, so that it will be SSH tunneled to the target CNAME hosts.
+				    E.g.: dbm.lan.skygate.co.jp  tcp dpt:1521 to:127.0.0.1:1524
+				- For the host `dbm.lan.skygate.co.jp` to be resolved to the IP of its CNAME, we must [frequently dig CNAME for IPs](((684f951e-5f86-4b1c-9b08-e550ad283d4a))), and update the dug IPs to the `hosts` file `~/hosts/cname.hosts` to be served by `dnsmasq`.
 	- ### FreeDesktop/XDG
 	  id:: 669499f7-76c4-4ff8-a27e-be9768a6258c
 	  :LOGBOOK:
@@ -1693,7 +1710,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- installed in `/usr/share/applications/` and `~/.local/share/applications/`
 		- Autostart
 		  id:: 66b1cfa4-1438-4699-9f02-b84075f2a167
-			- `.desktop` files in `~/.config/autostart/`
+			- `.desktop` files in `~/.config/autostart/` and `/etc/xdg/autostart/`
 			- Startup Applications Preference: app drawer search (`startup`, `applications`)
 		- XDG Base Directory
 		  id:: 66949bc7-a1ae-4da3-b889-efbe35abf56d
@@ -1901,7 +1918,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 						- This is a simple GUI to browse available/installed/updatable apps.
 					- App “Software & Updates”
 					  ![software-properties-gtk-icon.png](../assets/Linux/APT/software-properties-gtk-icon.png){:width 32} `software-properties-gtk`
-						- This is the GUI for various APT settings: [repositories](((68357c0a-641a-4bf6-8e98-41c43810ca07))) in 2 tabs `Ubuntu Software` & `Other Software`, updates in tab `Updates`, trusted software providers in tab `Authentication`.
+						- This is the GUI for various **APT settings**: [repositories](((68357c0a-641a-4bf6-8e98-41c43810ca07))) in 2 tabs `Ubuntu Software` & `Other Software`, updates in tab `Updates`, trusted software providers in tab `Authentication`.
 						- Tab `Updates`
 						  collapsed:: true
 							- **OS upgrade**: Option "**Notify me of a new Ubuntu version**" → `/etc/update-manager/release-upgrades`
@@ -1917,27 +1934,63 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					- App “Software Updater”
 					  id:: 6835a6bf-bdd4-46d5-9d07-e24744e16000
 					  ![update-manager-icon.png](../assets/Linux/APT/update-manager-icon.png){:width 32} `update-manager`
-						- This is the one that check for updates and do update, which is **launched everyday** by ((6835acfc-5c1c-40c0-b008-93979afa8f36)) which is daily triggered by [apt-daily[-upgrade].service](https://wiki.debian.org/UnattendedUpgrades#Modifying_download_and_upgrade_schedules_.28on_systemd.29).
-						- It can automatically do update via the [`unattended-upgrades.service`](https://wiki.debian.org/UnattendedUpgrades), if the flag `APT::Periodic::Unattended-Upgrade` in `/etc/apt/apt.conf.d/{10periodic,20auto-upgrades}` is on.
+						- This is the one that **_check_ for updates** and do update, which is **launched everyday** by ((6835acfc-5c1c-40c0-b008-93979afa8f36)) which is daily triggered by [apt-daily[-upgrade].service](https://wiki.debian.org/UnattendedUpgrades#Modifying_download_and_upgrade_schedules_.28on_systemd.29).
+						- It can automatically do update via the ((683580d0-c9c6-4708-acb6-7c21817be3dc)), if the flag `APT::Periodic::Unattended-Upgrade` in `/etc/apt/apt.conf.d/{10periodic,20auto-upgrades}` is on.
 						- `update-notifier`
 						  id:: 6835acfc-5c1c-40c0-b008-93979afa8f36
 						  ![update-notifier-icon.png](../assets/Linux/APT/update-notifier-icon.png){:width 32} popup `UpdatesAvailable`
+							- This is the one that ***triggers*** ((6835a6bf-bdd4-46d5-9d07-e24744e16000)), not only a “notifier”, which is **autostarted** via XDG ((66b1cfa4-1438-4699-9f02-b84075f2a167)).
 					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 						- Automatic software update/notification
 						  id:: 68358033-084f-461c-b470-5311a5127f0c
 						  collapsed:: true
+							- ((6835a6bf-bdd4-46d5-9d07-e24744e16000)): (`/etc/xdg/autostart/update-notifier.desktop` → `update-notifier`) & `apt-daily[-upgrade].service` → `update-manager` → `sudo apt upgrade`
+								- To **_disable_ automatic update**, we must remove `update-notifier` from startup:
+								  ```sh
+								  sudo echo "X-GNOME-Autostart-enabled=false" >> /etc/xdg/autostart/update-notifier.desktop
+								  ```
+									- → No more popup, but still notificaton in GNOME Software docks.
+									- → But the popup `UpdatesAvailable` pane of `update-manager` is still launched automatically for **security updates**.
+										- Because it's hardcoded in [script `/usr/lib/python3/dist-packages/UpdateManager/UpdatesAvailable.py`](https://git.launchpad.net/ubuntu/+source/update-manager/tree/UpdateManager/UpdatesAvailable.py).
+								- Note that turning on the flag `no-show-notifications` does _not_ work
+									- ```sh
+									  gsettings set com.ubuntu.update-notifier no-show-notifications true
+									  ```
 							- Unattended Upgrade
 							  id:: 683580d0-c9c6-4708-acb6-7c21817be3dc
 								- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://wiki.debian.org/UnattendedUpgrades
-								- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((683580d0-c9c6-4708-acb6-7c21817be3dc)) is the service to keep the computer current with the latest security (and other) updates **automatically**. The `unattended-upgrades.service` references the following settings:
+								- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((683580d0-c9c6-4708-acb6-7c21817be3dc)) is the service to keep the computer current with the latest security (and other) updates **automatically**. The [`unattended-upgrades.service`](https://wiki.debian.org/UnattendedUpgrades) references the following settings:
 									- `/etc/apt/apt.conf.d`/{`20auto-upgrades`,`02periodic`}
 									  ```c++
 									  APT::Periodic::Update-Package-Lists "1";
 									  APT::Periodic::Unattended-Upgrade "1";
 									  ```
 										- which can be modified interactively with `sudo dpkg-reconfigure unattended-upgrades`
-									- From Debian 12 (Bookworm) = Ubuntu 22.04 (Jammy Jellyfish), ((683580d0-c9c6-4708-acb6-7c21817be3dc)) is *no longer a default* install with Gnome. Download and upgrade schedules are set up by ((6835789b-9394-42ff-8c03-8c19763deda6)) using `systemd` timers with [apt-daily[-upgrade].service](https://wiki.debian.org/UnattendedUpgrades#Modifying_download_and_upgrade_schedules_.28on_systemd.29). The default behaviour in Gnome for upgrades detected via APT is now to advise of availability, and not to install by default.
-								-
+									- From Debian 12 (Bookworm) = Ubuntu 22.04 (Jammy Jellyfish), ((683580d0-c9c6-4708-acb6-7c21817be3dc)) is *no longer a default* install with Gnome. Download and upgrade schedules are set up by ((6835789b-9394-42ff-8c03-8c19763deda6)) using `systemd` timers with [apt-daily[-upgrade].service](https://wiki.debian.org/UnattendedUpgrades#Modifying_download_and_upgrade_schedules_.28on_systemd.29). The default behaviour in Gnome for upgrades detected via APT is now to advise of availability, and not to install by default.
+							- Places to check for activities (logs & timestamps)
+							  collapsed:: true
+								- `apt`:
+									- `/var/log/apt/history.log`: command log
+									- `/var/log/apt/term.log`: detail log
+								- `apt update`:
+									- `/var/lib/apt/periodic/update-success-stamp` touched by `/etc/apt/apt.conf.d/15update-stamp`
+								- `dpkg`:
+									- `/var/log/dpkg.log`: command log
+								- `/usr/lib/apt/apt.systemd.daily`: E.g., last upgrade = Apr 19; last update & download = Jun 12
+									- `UPDATE_STAMP=/var/lib/apt/periodic/update-stamp` ← `apt update`: update package lists
+									- `DOWNLOAD_UPGRADEABLE_STAMP=/var/lib/apt/periodic/download-upgradeable-stamp` ← `apt-get --download-only && unattended-upgrade --download-only`
+									- `UPGRADE_STAMP=/var/lib/apt/periodic/upgrade-stamp` ← `apt upgrade` (`unattended-upgrade`)
+								- `/usr/bin/unattended-upgrade`: E.g., last = Apr 19
+									- `${Dir::State}/periodic/unattended-upgrades-stamp`
+									- `/var/log/unattended-upgrades/unattended-upgrades{,-dpkg,-shutdown}.log`
+								- `update-notifier`:
+									- `/var/lib/update-notifier/{updates-available,dpkg-run-stamp}` touched by `/etc/apt/apt.conf.d/99update-notifier`
+								- `update-notifier-download`: Download data for packages that failed at package install time
+									- `update-notifier-download.{timer->service}` starts at boot time -> `/lib/systemd/system/update-notifier-download.service`
+									- `/usr/share/package-data-downloads` -> `/var/lib/update-notifier/package-data-downloads`
+								- `update-notifier-motd.timer`: Check to see whether there is a new version of Ubuntu available
+									- `update-notifier-motd.{timer->service}` run every week (Sunday) -> `/usr/lib/ubuntu-release-upgrader/release-upgrade-motd` -> `/usr/lib/ubuntu-release-upgrader/check-new-release`
+									- `/var/lib/ubuntu-release-upgrader/release-upgrade-available`
 				- Synaptic
 				  id:: 683573db-769c-4215-b55b-196dc57082c2
 					- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Synaptic_(software)
