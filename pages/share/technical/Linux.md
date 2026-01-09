@@ -1944,8 +1944,18 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 						- Automatic software update/notification
 						  id:: 68358033-084f-461c-b470-5311a5127f0c
 						  collapsed:: true
-							- ((6835a6bf-bdd4-46d5-9d07-e24744e16000)): `/etc/xdg/autostart/update-notifier.desktop` → `update-notifier` → `update-manager` →
-								-
+							- ((6835a6bf-bdd4-46d5-9d07-e24744e16000)): (`/etc/xdg/autostart/update-notifier.desktop` → `update-notifier`) & `apt-daily[-upgrade].service` → `update-manager` → `sudo apt upgrade`
+								- To **_disable_ automatic update**, we must remove `update-notifier` from startup:
+								  ```sh
+								  sudo echo "X-GNOME-Autostart-enabled=false" >> /etc/xdg/autostart/update-notifier.desktop
+								  ```
+									- → No more popup, but still notificaton in GNOME Software docks.
+									- → But the popup `UpdatesAvailable` pane of `update-manager` is still launched automatically for **security updates**.
+										- Because it's hardcoded in [script `/usr/lib/python3/dist-packages/UpdateManager/UpdatesAvailable.py`](https://git.launchpad.net/ubuntu/+source/update-manager/tree/UpdateManager/UpdatesAvailable.py).
+								- Note that turning on the flag `no-show-notifications` does _not_ work
+									- ```sh
+									  gsettings set com.ubuntu.update-notifier no-show-notifications true
+									  ```
 							- Unattended Upgrade
 							  id:: 683580d0-c9c6-4708-acb6-7c21817be3dc
 								- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://wiki.debian.org/UnattendedUpgrades
