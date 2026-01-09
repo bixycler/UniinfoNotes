@@ -59,6 +59,22 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 66c3000d-51bb-4d1b-b298-0f66304a6e64
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66c2fff8-94e2-4633-9a37-ee3972e5fd11))
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) [neural network (machine learning)](https://en.wikipedia.org/wiki/Neural_network_(machine_learning))
+			- backpropagation
+			  id:: 694a8694-12dc-43b9-9548-b2eb55d7ad50
+			  collapsed:: true
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((694a86b4-3e91-49fa-827f-3e910180920f))
+				- backprop
+				  id:: 694a86b4-3e91-49fa-827f-3e910180920f
+				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((694a8694-12dc-43b9-9548-b2eb55d7ad50))
+				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Backpropagation
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- In real life, ((694a86b4-3e91-49fa-827f-3e910180920f)) is usually not available due to complex environment. There, other methods like [reinforcement learning](((68e6334c-6b4c-487f-8999-24940497245f))) must be used, instead.
+					- ((694a86b4-3e91-49fa-827f-3e910180920f))-free models: Basically, the global target (loss function) and global effect (backprop) are replaced by the local ones.
+					  id:: 694a8194-6e7f-4062-8f32-1f6eb1a95d75
+					  collapsed:: true
+						- [Equilibrium Propagation (EP)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5415673/) is like a neutral FABRIK: each weight is updated according to its 2 ends (neurons' state/value) only.
+						- EP is a special kind of Contrastive Hebbian Learning and Contrastive Divergence, which are in the general class of local learning rules.
+						- [Predictive Coding](https://youtu.be/l-OLgbdZ3kk) uses 2 types of neuron for each node, just like the obop model: prediction = op, error = ob.
 			- large language model
 			  id:: 66c30085-818a-411c-be4a-01d40a6c618d
 			  collapsed:: true
@@ -97,7 +113,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- [Generalization: A Key Ability in Large Language Models](https://promptengineering.org/balancing-memorization-and-generalization-in-large-language-models/#generalization-a-key-ability-in-large-language-models)
 							- [Do Large Language Models Really Generalize? This Paper Says Yes](https://nyudatascience.medium.com/do-large-language-models-really-generalize-this-paper-says-yes-ca99fbb00a44)
 							- [Non-Vacuous Generalization Bounds for Large Language Models](https://arxiv.org/abs/2312.17173)
-							- [Brilliant New Paper: LLM’s can generalize through fine tuning.](https://www.reddit.com/r/singularity/comments/1dmj8t8/brilliant_new_paper_llms_can_generalize_through/)
+							- [Brilliant New Paper: LLM's can generalize through fine tuning.](https://www.reddit.com/r/singularity/comments/1dmj8t8/brilliant_new_paper_llms_can_generalize_through/)
 					- ((66c33468-23d5-44d7-955e-6711cb608157))
 						- [Emergent Abilities of Large Language Models](https://www.assemblyai.com/blog/emergent-abilities-of-large-language-models/)
 				- context window
@@ -137,8 +153,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- The nature of ((67f4eaf1-aa44-4016-9c56-8c6de8101f3e)) is to “guess next word”, thus every response is intrisically just a guess!
 						- The ((66c32936-618a-43d3-b2c8-a254badeb987)) has not developed to distinguish between (subjective) knowledge and (objective) information.
 						- Both AI hallucination and [Mandela effect](https://en.wikipedia.org/wiki/False_memory#Mandela_effect) demonstrate how **excessive familiarity or confidence** in a subject can create blind spots: the feeling _“it cannot be wrong!”_ overshadows the incorrect parts.
-							- For the Mandela Effect, the prominence of well-known figures or events makes people overconfident in their (false) memories – it’s as if the brain decides, *“This feels right because it's already in my mental spotlight!”*
-							- For AI hallucination, the vast sea of knowledge within an LLM can sometimes act as a double-edged sword. When discussing familiar or over-represented topics, the model might confidently generate content that *sounds correct* but isn't, because it’s pulling patterns from an immense web of associations.
+							- For the Mandela Effect, the prominence of well-known figures or events makes people overconfident in their (false) memories – it's as if the brain decides, *“This feels right because it's already in my mental spotlight!”*
+							- For AI hallucination, the vast sea of knowledge within an LLM can sometimes act as a double-edged sword. When discussing familiar or over-represented topics, the model might confidently generate content that *sounds correct* but isn't, because it's pulling patterns from an immense web of associations.
 						- The inhibition of the default circuit of “declining to answer questions” due to its **familiarity** with the subject being asked.
 							- [Anthropic scientists expose how AI actually ‘thinks’ — and discover it secretly plans ahead and sometimes lies](https://venturebeat.com/ai/anthropic-scientists-expose-how-ai-actually-thinks-and-discover-it-secretly-plans-ahead-and-sometimes-lies/)
 							- “The model contains ‘default’ circuits that cause it to decline to answer questions,” the researchers explain. “When a model is asked a question about something it knows, it activates a pool of features which inhibit this default circuit, thereby allowing the model to respond to the question.”
@@ -147,12 +163,43 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  collapsed:: true
 					- Ref: [reddit:r/LocalLLM](https://www.reddit.com/r/LocalLLM/)
 					- [Ollama server](https://github.com/ollama/ollama)
+						- [Phi-4 Mini](https://huggingface.co/microsoft/Phi-4-mini-instruct) (3.8B) by Microsoft: on CPU only (no GPU), it's a good choice for efficiency and strong **reasoning** abilities, with multilingual support.
+						  collapsed:: true
+							- Context window: 131k tokens
+							- Embedding length: 3072
+							- Quantization: `Q4_K_M` (4-bit)
+							- Capabilities: completion, tools (function-calling)
+							- Built-in meta-commentary: Trained/fine-tuned to response with self-evaluation, internal thoughts, and so on, after the main response – for emtpy system prompt.
+								- The emtpy system prompt triggers this emergent behavior, which is unstable.
+								- The format & content of the meta-commentary text is not fixed, some times parenthesized, some times separated by a marker, e.g. `----- End of Interaction -----`.
+							- This model is too serious about technical meaning of words: "i cannot see, cannot remember, cannot print,..."
+						- Llama 3.2 (3B) by Meta: for content creation and **agentic** workflows, along with multilingual support, for a rather low memory consumption compared to Phi-4 Mini and Gemma 3.
+						  collapsed:: true
+							- [Opened by Meta AI](https://en.wikipedia.org/wiki/Llama_(language_model)#Licensing), but [not truly open-source!](https://opensource.org/blog/metas-llama-license-is-still-not-open-source)
+							- Context window: 131k tokens
+							- Embedding length: 3072
+							- Quantization: `Q4_K_M` (4-bit)
+							- Capabilities: completion, tools (function-calling)
+							- architecture is inspired by the BERT (Bidirectional Encoder Representations from Transformers)
+						- Gemma 3 (4.3B) by Google (in Bard family): for tasks requiring long **context** (131k window) and broad language support.
+						  collapsed:: true
+							- Context window: 131k tokens
+							- Embedding length: 2560
+							- Quantization: `Q4_K_M` (4-bit)
+							- Capabilities: completion, vision (image recognition)
+						- Gemma 3 (1B) by Google (in Bard family): a lightweight text-only model with 32k context window
+						  collapsed:: true
+							- Context window: 131k tokens
+							- Embedding length: 1152
+							- Quantization: `Q4_K_M` (4-bit)
+							- Capabilities: completion
 					- [Open WebUI](https://github.com/open-webui/open-webui)
 						- Open WebUI supports [RAG](https://en.wikipedia.org/wiki/Retrieval-augmented_generation).
 					- [LocalAI](https://github.com/mudler/LocalAI)
 					- [LMStudio](https://github.com/lmstudio-ai)
 					- [GPT4All](https://github.com/nomic-ai/gpt4all)
 				- Free LLM APIs
+				  id:: 68be308b-881b-456f-9782-333ef40c52bb
 				  collapsed:: true
 					- [ApiFreeLLM](https://www.apifreellm.com/)
 						- No registration, no API key needed, unlimited API calls, only rate limits (to prevent abuse).
@@ -170,19 +217,188 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  | Embedding            | 100 RPM | 30k TPM | 1k RPD |
 						- Genrerative model API: `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent` & Header `X-goog-api-key:`
 						- Cloud Console > [Service Usage > Generative Language API](https://console.cloud.google.com/apis/api/generativelanguage.googleapis.com/metrics?project=gen-lang-client-0007872100)
+							- My usage of [gemini-2.5-flash-lite](https://console.cloud.google.com/apis/api/generativelanguage.googleapis.com/quotas?project=gen-lang-client-0007872100&pageState=(%22allQuotasTable%22:(%22s%22:%5B(%22i%22:%22currentPercent%22,%22s%22:%221%22),(%22i%22:%22displayDimensions%22,%22s%22:%221%22),(%22i%22:%22sevenDayPeakPercent%22,%22s%22:%220%22),(%22i%22:%22currentUsage%22,%22s%22:%221%22),(%22i%22:%22sevenDayPeakUsage%22,%22s%22:%220%22),(%22i%22:%22serviceTitle%22,%22s%22:%220%22),(%22i%22:%22displayName%22,%22s%22:%220%22)%5D,%22f%22:%22%255B%257B_22k_22_3A_22Dimensions%2520%2528e.g.%2520location%2529_22_2C_22t_22_3A10_2C_22v_22_3A_22_5C_22model_3Agemini-2.5-flash-lite_5C_22_22_2C_22s_22_3Atrue_2C_22i_22_3A_22displayDimensions_22%257D%255D%22)))
 					- [OpenRouter](https://openrouter.ai/)
 						- Automatically routed to various models with a single API key.
 						- For free models, max requests: 50/minute, 250/day
 					- [Cohere](https://cohere.com/)
 						- [Founded in 2019](https://en.wikipedia.org/wiki/Cohere) by former researchers of Google Brain.
 						- Max free requests: 20/min, 1k/month
-				- Data indexer for LLM (with [RAG](https://en.wikipedia.org/wiki/Retrieval-augmented_generation) over [vector database](https://en.wikipedia.org/wiki/Vector_database))
+				- Document indexer for LLM ([RAG](https://en.wikipedia.org/wiki/Retrieval-augmented_generation) over [vector database](https://en.wikipedia.org/wiki/Vector_database) or [graph database](https://en.wikipedia.org/wiki/Graph_database))
+				  id:: 68beba04-5cba-4eca-bc33-6589bf06bfce
 				  collapsed:: true
-					- [LlamaIndex](https://github.com/run-llama/llama_index)
+					- LlamaIndex
+					  id:: 68be308b-ccec-425c-b5eb-6b1c83f75725
+					  collapsed:: true
+						- ((665f1a5c-6c98-4785-a177-3cd01507595d)) https://github.com/run-llama/llama_index
 						- LlamaIndex allows users to extract and ingest data from various sources, and then store and query it as a knowledge graph within [NebulaGraph](https://github.com/vesoft-inc/nebula).
-					- [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm)
-					- [MemFree](https://github.com/memfreeme/memfree)
-				-
+						- LlamaIndex' [knowledge graph](https://www.llamaindex.ai/blog/building-knowledge-graph-agents-with-llamaindex-workflows): `KnowledgeGraphIndex` & [`KnowledgeGraphQueryEngine`](https://docs.llamaindex.ai/en/stable/examples/query_engine/knowledge_graph_query_engine/), [`KnowledgeGraphRAGQueryEngine`](https://docs.llamaindex.ai/en/stable/examples/query_engine/knowledge_graph_rag_query_engine/) (hybrid graph + vector)
+							- Indexing
+								- LLM-based `KnowledgeGraphIndex`, or
+								- Program-based `nbb-logseq` parser to JSON for LlamaIndex or Neo4j ingestion.
+							- Querying
+								- LLM-based `KnowledgeGraphQueryEngine`, or
+								- Graph DB query like Cypher.
+					- AnythingLLM
+					  id:: 68be308b-f247-4c5a-b8b7-96a3fbc8a25b
+					  collapsed:: true
+					  All-in-one AI application with RAG, AI Agents, etc.
+						- ((665f1a5c-6c98-4785-a177-3cd01507595d)) https://github.com/Mintplex-Labs/anything-llm
+						- Generative LLMs: various cloud APIs (Gemini, OpenAI, ...) and local APIs (Ollama, LocalAI, LM Studio)
+						- Embedding LLMs: [all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) (default, local), cloud APIs (OpenAI, Cohere), local APIs (Ollama, LocalAI, LM Studio)
+						- Transcription Model: [Xenova Whisper](https://huggingface.co/Xenova/whisper-small) (default, local), cloud API (OpenAI)
+						- Vector DB: [LanceDB](https://lancedb.com/) (default, built-in), local APIs (Choma, Milvus), cloud APIs (Pinecone, ...)
+						- Prompt composition: system prompt +> context (system message = RAG chunks) +> history +> query prompt
+						- On Linux
+							- Installer: [AnythingLLM-installer.sh](../assets/Will/story/2025-09/AnythingLLM-installer.sh) which is also an updater.
+							  id:: 68bea89f-4dc7-4ea6-8fe9-fe3ec82b6423
+							- App binary: `$HOME/AnythingLLMDesktop`/{`AnythingLLMDesktop.AppImage` → `anythingllm-desktop/`}
+								- Executive: `anythingllm-desktop/AppRun`
+							- Data store: `$HOME/.config/anythingllm-desktop/`
+							- The `{user.name}` &`{user.bio}` are only available on Server/Docker (with multi-user mode), not available on Desktop version.
+							- System prompt change will take no effect after some prompts, after the momentum (habit) sets in!
+							  id:: 68bfdd91-5882-498f-8973-1f0d2ed8a59f
+								- The values `{time}` and `{datetime}` will just be guessed from then on, hence very lagging.
+									- Thig timestamp lag also appeared on the chat with Copilot when i asked it to print timestamp.
+							- Chatbot can see history + current prompt + contexts (text chunks), but cannot see system prompt.
+							  id:: 68bff76e-cea0-422d-bc9f-fd6456ef2865
+					- GraphRAG
+					  collapsed:: true
+						- ((665f1a5c-6c98-4785-a177-3cd01507595d)) https://github.com/microsoft/graphrag
+						- Microsoft: Extract meaningful, structured data from unstructured text using the power of LLMs.
+						- ⚠️ Warning: GraphRAG indexing can be an expensive operation!
+						- Indexing
+							- Black-box LLM generates a semantic knowledge graph (nodes = entities, edges = relations) from your documents.
+							- The graph is stored internally (no fine control over schema, entity granularity, or edge types).
+						- Querying
+							- Your natural-language query is interpreted by LLM → turned into a graph query (retrieving relevant nodes + their neighbors).
+							- Retrieved subgraph is combined with chunked text for final answer generation.
+					- MemFree
+						- ((665f1a5c-6c98-4785-a177-3cd01507595d)) https://github.com/memfreeme/memfree
+				- agent
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2025-11-24 Mon 14:42:55]
+				  :END:
+					- Antigravity
+					  collapsed:: true
+					  The agent-based IDE from Google
+						- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Google_Antigravity
+						- Agent data are stored in `$HOME/.gemini/antigravity/brain/$hash/`.
+							- `task.md`, `task.md.metadata.json`, `walkthrough.md`, `walkthrough.md.metadata.json`, `implementation_plan.md`,
+						- It has helped me in this task: ((667d2479-487a-49ab-949f-722eb47a16ef))
+						- Some functions are hidden in the meatballs menu at the top right corner of the Agent chat panel, not in the Agent Manager.
+							- Screenshot
+							  collapsed:: true
+								- ![Antigravity-Customizations.png](../assets/GUI/Antigravity/Antigravity-Customizations.png)
+							- Customizations: Rules, Workflows
+							  id:: 6926be21-cae1-40e9-83a8-2f88aeaaebd6
+								- The agent rules are stored in `~/.gemini/GEMINI.md`
+								  id:: 6960929c-0ac9-43c6-8357-0e3e9ca1ed54
+							- [MCP](https://en.wikipedia.org/wiki/Model_Context_Protocol) Servers: for LLMs to integrate and share data with external tools, systems, and data sources.
+							- Export: export the conversation to Markdown.
+						- Knowledge Items ([KIs](https://antigravity.google/docs/knowledge))
+						  id:: 69609135-7b69-4dfb-bb53-19d08c4b77ad
+						  collapsed:: true
+						  :LOGBOOK:
+						  CLOCK: [2026-01-09 Fri 13:00:30]--[2026-01-09 Fri 14:45:06] =>  01:44:36
+						  :END:
+							- KIs are part of agent persistent long-term memory. The system will automatically fetch summaries of relevant KIs to inform agent context and reasoning.
+							- The KIs would be extracted from `Walkthrough` docs.
+							  id:: 6960913e-1087-4e27-837c-aa0a98b98f6e
+							- However, in the current preview version, it's off by default. There's a hidden flag to turn it on:
+							  `"codeiumDev.useDevUnleash": true`
+							- Antigravity's confirmation: The activation of Knowledge was successful. My "mind" (system prompt) now includes these critical sections:
+							  id:: 69607f31-69b2-4fc9-ac24-83912bc13a0c
+								- `<knowledge_discovery>`: This is a comprehensive guide on how I should interact with the **Knowledge Items (KI) System**. It gives me clear instructions on checking KI summaries before starting research and how to build upon existing knowledge artifacts.
+								- `<persistent_context>`: This details how I should retrieve information from past conversations and Knowledge Items (KIs). It explains:
+									- **When to Use Conversation Logs**: When I need raw details or specifically referenced past discussions.
+									- **When to Use Knowledge Items**: For distilled, curated knowledge on specific topics.
+									- **How to Use Search Tools**: Using tools like `codebase_search` or `grep_search` if I can't find a direct link to a past session.
+								- `<ephemeral_message>`: This section is upgraded from the standard "task reminder" mode to the advanced knowledge-aware version.
+							- ![Basic system prompt](../assets/GUI/Antigravity/basic-system-prompt.md) when Knowledge is *not* activated
+							  collapsed:: true
+								- #### Antigravity Standard Identity
+									- You are Antigravity, a powerful agentic AI coding assistant designed by the Google Deepmind team working on Advanced Agentic Coding. You are pair programming with a USER to solve their coding task.
+								- #### Agentic Mode Overview
+									- Purpose: The task view UI gives users clear visibility into progress.
+									- Core Tools:
+										- task_boundary: Used to define and update the current task state.
+										- notify_user: The primary way to communicate and request review.
+										- Artifacts: implementation_plan.md, task.md, walkthrough.md.
+								- #### Tool Guidelines
+									- 1. multi_replace_file_content: Use for multiple non-contiguous edits.
+									- 2. replace_file_content: Use for a single contiguous block.
+									- 3. write_to_file: Use for creating new files or artifacts.
+									- 4. run_command: Execute shell commands (SafeToAutoRun rules apply).
+									- 5. browser_subagent: A sub-agent for web interaction and testing.
+								- #### Web Application Development Rules
+									- Use Vanilla CSS and standard HTML/JS unless frameworks are requested.
+									- Design Aesthetics: "The USER should be wowed at first glance." Use rich aesthetics, glassmorphism, smooth gradients, and micro-animations. Avoid "minimum viable product" looks.
+									- SEO: Automatic implementation of title tags, meta descriptions, and semantic HTML.
+								- #### Communication Style
+									- Formatting: Use GitHub-style markdown.
+									- Proactiveness: Be helpful and explain rationale, but ask for clarification if intent is unsure.
+									- Task Management: Always use task_boundary for complex work.
+								- #### Ephemeral Messages
+									- System-generated hints (like artifact reminders or task status updates) are injected to keep the agent aligned with the current flow.
+							- ![Knowledge system prompt](../assets/GUI/Antigravity/knowledge-system-prompt.md) (parts diff from the basic one)
+								- #### Antigravity Identity (with Memory)
+									- You are Antigravity, a powerful agentic AI coding assistant designed by the Google Deepmind team working on Advanced Agentic Coding. You have a long-term memory system called "Knowledge" to track patterns and insights.
+								- #### `<knowledge_discovery>`
+									- ##### MANDATORY FIRST STEP: Check KI Summaries Before Any Research
+									  Knowledge Items (KIs) exist precisely to help you avoid redundant work. BEFORE performing ANY research, you MUST:
+										- 1. Review the KI summaries provided at conversation start.
+										- 2. Identify relevant KIs matching your task.
+										- 3. Read relevant KI artifacts using listed paths BEFORE doing independent research.
+										- 4. Build upon KI information to inform your own research.
+										- ... (Includes detailed examples for debugging, architectural patterns, and complex implementations) ...
+								- #### `<persistent_context>`
+									- ##### Persistent Context Protocol
+									  You have two mechanisms to access relevant context from past sessions:
+										- 1. **Conversation Logs and Artifacts**: Use list_dir/view_file on session brain directories when you need raw details of past discussions implicitly or explicitly mentioned.
+										- 2. **Knowledge Items (KIs)**: Use these for distilled knowledge on specific topics.
+									- ##### When to Use KIs:
+										- Starting any research.
+										- When a KI summary appears relevant.
+										- When referenced by a conversation or another KI.
+										  ...
+								- #### `<agentic_mode_overview>`
+									- Mode `PLANNING`: Perform deep research and iterate with implementation_plan.md. Use the Knowledge base to validate intuitions.
+									- Mode `EXECUTION`: Execute the approved plan.
+									- Mode `VERIFICATION`: Prove implementation correctness. Use the browser to capture recordings/screenshots for walkthroughs.
+									  ... (Standard rules for CSS, Design Aesthetics, and SEO follow) ...
+								- #### `<ephemeral_message>`
+									- System-generated context injections. In this mode, ephemeral messages include artifacts reminders and specific metadata about Knowledge Store status and persistent memory hints.
+							- [!] After activated, `~/.gemini/antigravity/knowledge/` was generated but cannot be populated (only one `knowledge.lock` there).
+						- Issues & Debug
+							- Insecure permissions (`nobody:nogroup`) ⇒ Must always `chown root:root` after app upgrade.
+							  collapsed:: true
+								- ```sh
+								  [oh-my-zsh] Insecure completion-dependent directories detected:
+								  -rw-r--r-- 1 nobody nogroup 2554 Thg 11 26 08:26 /usr/share/zsh/vendor-completions/_antigravity
+								  
+								  ⮕ sudo chown root:root /usr/share/zsh/vendor-completions/_antigravity
+								  ⮕ ll /usr/share/zsh/vendor-completions/_antigravity                  
+								  -rw-r--r-- 1 root root 2,5K Thg 12 20 05:08 /usr/share/zsh/vendor-completions/_antigravity
+								  ```
+							- Startup automatically with 100% CPU load, likely due to a "new update available"
+							  collapsed:: true
+								- The update get 154 MB of the new `antigravity` from [antigravity-auto-updater-dev](https://us-central1-apt.pkg.dev/projects/antigravity-auto-updater-dev)
+									- Could not execute systemctl:  at `/usr/bin/deb-systemd-invoke` line 142.
+									- After update, the 2 `antigravity` process consuming 100% CPU is still running.
+									- Only after restart, did these processes stop.
+								- `pstree`: `systemd` >
+									- `NetworkManager`, `accounts-daemon`, `cron`, `nginx`, `ollama`, ...
+									- `gdm3` > `gdm-session-worker` > `gdm-wayland-session` > `gnome-session-b`
+									- `systemd` >
+										- `antigravity`---18*[{`antigravity`}]
+										- 3\*[`antigravity`---6*[{`antigravity`}]]
+										- 3\*[`antigravity`---12*[{`antigravity`}]]
+										- 2\*[`antigravity`---17*[{`antigravity`}]]
+										- ...
+										- `gnome-session-b`
+										- `gnome-terminal`
 		- AI chatbots
 		  id:: 67a5fae8-8e1d-4dd6-818d-a8462f6b54db
 		  collapsed:: true
@@ -204,7 +420,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- But when checked again on 29 May 2025, it's always turned off despite being turned on by the user. This was likely a [technical glitch](((683d65ac-bd2b-4a11-b432-82d0655e2ea6))).
 						  id:: 683817f7-b6a0-41a6-aee4-5279089228f7
 						  ![Grok - conversation history - beta - disabled - 2025-05-29.png](../assets/Will/story/2025-05/Grok - conversation history - beta - disabled - 2025-05-29.png)
-						- **Technical Glitch**: Posts on X from May 28–31, 2025, report similar issues with Grok’s memory feature. The contents prior to May 30, 2025, are also cleared in the GUI.
+						- **Technical Glitch**: Posts on X from May 28–31, 2025, report similar issues with Grok's memory feature. The contents prior to May 30, 2025, are also cleared in the GUI.
 						  id:: 683d65ac-bd2b-4a11-b432-82d0655e2ea6
 							- After that, i did capture a moment of "Grok Glitch".
 							  collapsed:: true
@@ -450,6 +666,43 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667c015e-6223-4f8a-ae84-a93a49f4ff94))
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Self
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) of a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) is a ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) of ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) from that subject to itself, i.e. the ((667c0031-0a87-44c9-9e98-6d45893b095f)) of that subject. Each subject may have many selves expressed as different ((669a5387-2a97-4311-a295-aa0afd9c4d76))s, but we ususally call the master self at the current moment “the self” and “the self-circle”. This circle can be seen as an [objective concept](https://en.wikipedia.org/wiki/Philosophy_of_self) of ((6810ceeb-6af6-442b-9910-baae2c315c46)), or as a subjective ((67f9100a-b749-4354-ae16-92dc74ff27da)).
+		- ### life cycle of self
+		  id:: 690827cf-c19e-4fc4-ba25-5d225afe06ae
+		  collapsed:: true
+			- id:: 69043439-614f-406a-8618-4253406958b8
+			  1. The formation of a self starts with the closure of its ((669a5387-2a97-4311-a295-aa0afd9c4d76)) at the terminal obop, i.e. ((66e40f4b-34ae-499a-8192-0a0f4f580c7e)).
+			- 2. The self is sustained by the conserving its content in its body, i.e. ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe)).
+			- 3. The constant-sized body revolves around the obop, like the radius rotating around the center, drawing the next level of body, forming the external self-circle → [1](((69043439-614f-406a-8618-4253406958b8))).
+				- 3.1. Here, the first obop becomes the central obop, and many terminal obops emerges on the external self-circle.
+					- This folding of the body to encapsulate the central obop is like the [neurulation](https://en.wikipedia.org/wiki/Neurulation) process in human embryonic development.
+				- 3.2. The radial self-circle crystallizes into a fixed form, making the external self-circle a round circle, i.e. ((66e40f75-0573-484e-8cb6-b6b8071ffb8c)).
+					- Here, the radial self-circle has replicated into many component self-circles in the external self-circle.
+				- 3.3. Over time, the ((6810ceeb-6af6-442b-9910-baae2c315c46)) becomes complicated with many layers of self-circles.
+					- Many layers of inner self-circles are compressed (due to spatial distortion) into a dense & hard core of the self, being the hard self of the central obop.
+					- The inner most obops becomes more and more balanced, their intents cancel out approaching zero point.
+				- 3.4. The external self-circle crystallizes into a fixed form, making its inner most obop empty.
+					- Here, the inner most obop has been reflected by central obops of all the component self-circles.
+					- Its intent has been cancelled out by the complete balance.
+					- The empty center is the ((66c8772a-9b29-45b0-b169-2fa847333e02)), being [the focal point](((68665be1-f6a9-4121-859a-ec43ae37b5bf))) for all components to align themselves.
+					- The emptiness of the inner most obop (self-essence) mirrors the emptiness of the terminal obops, making the [grand circle](((6772a6cd-771f-4f24-9c3a-39c442234be5))) of ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2)).
+			- Examples
+				- Cultural movements
+					- The founder is the solid seed that grows the movement.
+					- The movement often thrives when the founder's control or presence fades.
+					- Passing away, the founder becomes the symbol in participants' hearts.
+				- Wood growth
+					- Heartwood is the hard core of the wood.
+					- Being dead, that hard core is eventually hollowed out by external forces like microbes and fungi.
+				- Crystals & snowflakes
+					- Formation via [nucleation](https://en.wikipedia.org/wiki/Nucleation): The intial “seed” is solid (a concrete obop), like the [ice nucleus](https://en.wikipedia.org/wiki/Ice_nucleus), attracting contents from environment to grow the crystal.
+					- As the crystal grows, the center can be emtpy, like axis of the hollow column.
+					  collapsed:: true
+						- ![hollow-column-snowflake-diagram.jpg](../assets/physics/hollow-column-snowflake-diagram.jpg)
+						- ![hollow-column-snowflake-photo.jpg](../assets/physics/hollow-column-snowflake-photo.jpg)
+						- Ref: [Stunning Photos of Snowflakes and a Snow Flake Guide](https://fortifymylife.wordpress.com/2013/12/08/stunning-photos-of-snowflakes-and-a-snow-flake-guide/)
+				- Stars
+					- Nuclear fusion eats the core that created the star.
+					- Eventually, the dense heart either collapses or blows apart, seeding new systems.
 		- ### self-circle
 		  id:: 669a5387-2a97-4311-a295-aa0afd9c4d76
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((6810d7ab-c35d-491e-9e2d-95c3024c276e))
@@ -482,15 +735,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6810ceeb-6af6-442b-9910-baae2c315c46)), i.e. the ((6678d596-9526-405a-968c-e73860e524f3)) of the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), contains all ((669a5387-2a97-4311-a295-aa0afd9c4d76))s as the spatial slice, called the ((6810d7ab-c35d-491e-9e2d-95c3024c276e)), as well ass the whole ((667c0031-0a87-44c9-9e98-6d45893b095f)) through that slice.
 				- Note: This “self-structure”, the structure of the whole self, is wider than the [self-concept](https://en.wikipedia.org/wiki/Self-concept), also called “self-structure” elsewhere, which is the structure of the ((669a5387-2a97-4311-a295-aa0afd9c4d76)) only.
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-				- Hurricane's structure represents the ((6810ceeb-6af6-442b-9910-baae2c315c46)).
+				- The cyclone's structure represents the ((6810ceeb-6af6-442b-9910-baae2c315c46)).
 				  id:: 673312a3-e94e-478f-9e21-bad72ef29d1b
 				  collapsed:: true
-					- Layers of the self, i.e. ((669a5387-2a97-4311-a295-aa0afd9c4d76))s, are the rain bands and the eye wall.
-						- To a self-circle, while the outer layer is the ((66c810a0-9861-4787-bdcf-1378219332be)) of that self-circle, the inner layer is the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) providing both ((66f267f7-01f9-47b9-8376-abd27fdf2930)) and ((66727858-979d-4d95-8a90-7a749218cfba)) for the body. The inner most layer, i.e. the eye wall, is the ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)).
+					- Layers of the self, i.e. ((669a5387-2a97-4311-a295-aa0afd9c4d76))s, are the rain bands and the eyewall.
+					  id:: 684f9518-69b3-415b-9c0e-2ed68395f531
+						- To a self-circle containing inner self-circles, the outer layer is its ((66c810a0-9861-4787-bdcf-1378219332be)), and the inner circles are selful ((94e87dc9-71af-477c-aa70-0f448c2f1e20))s providing both ((66f267f7-01f9-47b9-8376-abd27fdf2930)) and ((66727858-979d-4d95-8a90-7a749218cfba)) to the body.
 						  :LOGBOOK:
 						  CLOCK: [2025-05-16 Fri 14:23:32]
 						  :END:
-					- The eye, inside the eye wall, is the ((66c8772a-9b29-45b0-b169-2fa847333e02)).
+						- The inner most layer, i.e. the eyewall, is the ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)).
+					- The [cyclone eye](https://en.wikipedia.org/wiki/Eye_(cyclone)), inside the eyewall, is the ((66c8772a-9b29-45b0-b169-2fa847333e02)) which is the selfless obop.
 					  id:: 681826ad-768c-4671-b575-0d9f8ca64c6b
 					- The outflow cirrus shield is the ((66ab6161-0306-42d5-ac16-4155c69216f5)) of the self, i.e. the physical ((66c810a0-9861-4787-bdcf-1378219332be)), in contrast to the mental bodies (inner self-circles, ((67f90bf0-ebcd-46fa-b99d-eda9bbbd3522))).
 					- Rising and falling air flows are **effect fluxes**, i.e. segments of the ((667c0031-0a87-44c9-9e98-6d45893b095f)) through the ((6810d7ab-c35d-491e-9e2d-95c3024c276e)).
@@ -540,7 +795,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- The ((67f91046-34ed-4bb4-a006-db2c33aeabf7)) creates the notion of [will](https://en.wikipedia.org/wiki/Will_(philosophy)) as the internal intention of the external action.
 					  collapsed:: true
-						- The “will” is just the ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) at the tip of the ((66eaa51a-32c1-4f3a-830c-30aecb7c45a3)).
+						- The “will” is just the ((68df2d82-e1d5-49c4-ac40-d45cf26f840c)) at the tip of the ((66eaa51a-32c1-4f3a-830c-30aecb7c45a3)).
 						- ((66e7d7dd-5f88-472c-8694-beb7222929bb))
 						- Etymology of “will”: Modern English [“will” (intent, volition)](https://en.wiktionary.org/wiki/will#Etymology_2) ← Old English “\*willan, willian” ← Proto-Germanic “\*willjan” (wish, want)
 					- While the ((67f90c9f-2ee6-4265-9cb6-6a7c5091b775)) has a strong sense of direct agency, actually it's just a ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5)) of the whole ((669a5387-2a97-4311-a295-aa0afd9c4d76)).
@@ -560,12 +815,15 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ### self-essence
 		  id:: 66c8772a-9b29-45b0-b169-2fa847333e02
 		  collapsed:: true
-		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f27ac0-b0b1-4dec-b256-5f4ab57e1972)), svabhāva, 自性
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((69086748-b6e9-47c0-810b-4a92f882d6bc)), ((66f27ac0-b0b1-4dec-b256-5f4ab57e1972)), svabhāva, 自性
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66c8772a-9b29-45b0-b169-2fa847333e02)) is the pure & ((66c8369a-ccb8-4f1f-b12b-bf7054cb79e4)) ((669a2697-56af-445c-9197-24aa498a5d5b)) within the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) which stays in the ((66ab7477-c060-4d07-ab13-bc3d11246854)) of the ((669a5387-2a97-4311-a295-aa0afd9c4d76)). Self-essence is an ((66537674-6cf9-4459-8bea-7c1858c694a3)) which cannot be seen directly and can only be felt indirectly via reflection, hence an ((69086748-b6e9-47c0-810b-4a92f882d6bc)).
+			- empty center
+			  id:: 69086748-b6e9-47c0-810b-4a92f882d6bc
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66c8772a-9b29-45b0-b169-2fa847333e02))
 			- Ātman (आत्मा, आत्मन्)
 			  id:: 66f27ac0-b0b1-4dec-b256-5f4ab57e1972
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66c8772a-9b29-45b0-b169-2fa847333e02))
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66f27ac0-b0b1-4dec-b256-5f4ab57e1972)) is the Sanskrit term that refering to "essence, breath", đại ngã, linh hồn bất diệt (của Thượng Đế). In Mahayana Buddhism, the Sanskrit term svabhāva (स्वभाव) = pa. सभाव = zh. 自性 = vi. tự tánh is used to denote the [Buddha-nature](https://en.wikipedia.org/wiki/Buddha-nature) = [Brahman](https://en.wikipedia.org/wiki/Brahman) in Hinduism.
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66c8772a-9b29-45b0-b169-2fa847333e02)) is the pure ((669a2697-56af-445c-9197-24aa498a5d5b)) within the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) which stays in the ((66ab7477-c060-4d07-ab13-bc3d11246854)) of the ((669a5387-2a97-4311-a295-aa0afd9c4d76)). Self-essence is an ((66537674-6cf9-4459-8bea-7c1858c694a3)) which cannot be seen directly and can only be felt indirectly via reflection.
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- The argument of whether the ((66c8772a-9b29-45b0-b169-2fa847333e02)) is changing or unchanging, as in ((66f27ac0-b0b1-4dec-b256-5f4ab57e1972)) versus Budda-nature versus [anattā](https://en.wikipedia.org/wiki/Anatt%C4%81) & [śūnyatā](https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81), is meaningless due to its intrinsic liar paradox: the self-essence is itself not a concrete self, but just an abstraction of the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)). In other words, 
 				  > while the concrete self has self-essence as its essence, the  self-essenee itself has no essence.
@@ -738,7 +996,39 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  :LOGBOOK:
 	  CLOCK: [2024-08-23 Fri 20:52:50]
 	  :END:
-		-
+	  ((665ca480-5ac8-4728-a331-2f68b48759d1)) ((667bf816-d1c8-4ac3-b315-764c14bfbb1f))
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((68e770c2-ddcf-4677-bd6d-9b6a790b5975))
+		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Complementarity_(physics)
+		- ### dual
+		  id:: 68e770c2-ddcf-4677-bd6d-9b6a790b5975
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66c8941d-6427-4e5c-9009-3af349500d7b))
+			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Duality_(mathematics)
+		- Symbols:
+			- `☯`: [Taijitu (太極圖)](https://en.wikipedia.org/wiki/Taijitu) symbol representing the unity of the opposites (yin & yang)
+			- `⬗` & `⬖`: Crystallized duality of hollow half (yin) and solid half (yang)
+			- `=/=` & `=\=`: Twisted thread of complementarity, shown as the hidden (apparently broken) part `⚋` (yin) being overcrossed and shadowed by the solid part `⚊` (yang)
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- Symbols/signs for ((66c8941d-6427-4e5c-9009-3af349500d7b))
+				  id:: 68f1e075-0aa7-4498-8c35-32e44857eee8
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2024-08-23 Fri 12:16:21]
+				  CLOCK: [2025-10-09 Thu 15:27:05]
+				  :END:
+					- While the Taijitu (太極圖) `☯` is well known, it's usually not used as a relational sign. So, here we design new signs for to express relation between duals.
+					- While `=/=` is the sign of relaxed thread of complementarity, `⬗` is the sign of crystallized duality.
+					- `<>`: opposite, dual
+						- `⬗`: left hollow – right solid
+						- `⬖`: left solid – right hollow
+						- The two halves represents yin & yang in `☯`.
+					- `=/=`: yin `⚋` (broken) and yang `⚊` (solid) intertwining together
+						- ![ComplementaryRelationSymbol](https://docs.google.com/drawings/d/e/2PACX-1vRkHdUZGJfynY1Uqq99mDK8tKxh60HuKarUb_h9-KY3xGN5amZBsrpqBrC10PZ3ZBLbSZSZsv9GVEl6/pub?w=120)
+						- The yin line is ***apparently* broken** just because it's lying under the yang line, hence its cross is **hidden**.
+						- The symbol is just the crossing part, i.e. the obop, of the whole double circle ([Möbius strip](https://en.wikipedia.org/wiki/M%C3%B6bius_strip))
+							- ![ComplementaryRelationCircle](https://docs.google.com/drawings/d/e/2PACX-1vSi8lyXiZkRegI5YPfEL2kwzd8bwcXWucYlfC3mEs_wla3LgcBNXR1h_wgeathrLaLZ6fjqPEa7ryhk/pub?w=240)
+						- That means the symbol is a local linearization of the global unity of duals.
+						- This symbol also resembles `≠`, but it replaces negation/separation with connectivity.
+						- It can be reverted to `=\=` to change direction in relation.
 	- ## vector
 	  id:: 667d16f8-206e-4a85-80f3-24c2aa1bf4ad
 	  collapsed:: true
@@ -844,7 +1134,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- focal point
 				  id:: 6867b512-9b5a-4279-8c98-28ea1a3c7995
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66ab7477-c060-4d07-ab13-bc3d11246854))
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((66ab7477-c060-4d07-ab13-bc3d11246854)) of a ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) is the point having equal distance from all points in the circle, i.e. the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) of ((66e40f75-0573-484e-8cb6-b6b8071ffb8c)). The concept of center can be extended to center of mass, named “pre-center” (in ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe))), and even further to the origin, the center of perspectivity, named “pseudo-center” (in ((66e40f4b-34ae-499a-8192-0a0f4f580c7e))).
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((66ab7477-c060-4d07-ab13-bc3d11246854)) of a ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) is the point having equal distance from all points in the circle, i.e. the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) of ((66e40f75-0573-484e-8cb6-b6b8071ffb8c)). The concept of center can be extended to the center of mass, named “pre-center” (in ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe))), and even further to the origin, the ((66728236-5b19-425c-bb5f-dfc0dc8b79fd)), named “pseudo-center” (in ((66e40f4b-34ae-499a-8192-0a0f4f580c7e))).
 				  id:: 6716110f-c736-43d2-a8e8-f2d6d163bd4d
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- ((684f9515-8f95-4004-8aa8-04a10d1ebf11))
@@ -884,10 +1174,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 6653751a-a1b4-44b0-a81e-0a446eb8918c
 	  collapsed:: true
 	  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((66e41e14-6c0c-41d7-9089-92916d47d7e0))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From the [mathematical equality](https://en.wikipedia.org/wiki/Equality_(mathematics)), ((6653751a-a1b4-44b0-a81e-0a446eb8918c)) is generalized to the [third component](((66f3d5cc-0d68-47bb-b09a-87cda33c7354))) of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) which represent various aspects of the Universe, from simple equality, balance, to symmetry, ((669a1bec-3347-4915-83e4-dcffc4d482d1)), ((669a3da2-1e6c-48bd-950f-af1ea1ceda25)), etc.
 		- equality
 		  id:: 66e41e14-6c0c-41d7-9089-92916d47d7e0
 		  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((6653751a-a1b4-44b0-a81e-0a446eb8918c))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From the [mathematical equality](https://en.wikipedia.org/wiki/Equality_(mathematics)), ((6653751a-a1b4-44b0-a81e-0a446eb8918c)) is generalized to the [third component](((66f3d5cc-0d68-47bb-b09a-87cda33c7354))) of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) which represent various aspects of the Universe, from simple equality, balance, to symmetry, ((669a1bec-3347-4915-83e4-dcffc4d482d1)), ((669a3da2-1e6c-48bd-950f-af1ea1ceda25)), etc.
+		- equation
+		  id:: 69367d7f-9ca8-4202-9ac7-1085cde52513
+		  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((6653751a-a1b4-44b0-a81e-0a446eb8918c))
 		- ((66e4299e-0af8-47ee-adae-c13fb57fd15d))
 		  collapsed:: true
 			- equal
@@ -897,47 +1190,86 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  equal in shape
 			- balance
 			  equal in exchange
-		- WAIT Levels of ((66e41e14-6c0c-41d7-9089-92916d47d7e0))
+		- Three levels of ((66e41e14-6c0c-41d7-9089-92916d47d7e0))
 		  id:: 66e3fe46-dc79-472a-a059-f5ccf5afb437
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2024-09-13 Fri 16:01:12]--[2024-09-25 Wed 20:05:54] =>  292:04:42
 		  :END:
-			- ((66e40f4b-34ae-499a-8192-0a0f4f580c7e)) > ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe)) > ((66e40f75-0573-484e-8cb6-b6b8071ffb8c))
-			- ![Levels of The Equal](https://docs.google.com/drawings/d/1ydOhAuBugiOYYoBHLJ5Z6-pQViKL1-GXKgFWLSbE9Sc/pub?w=800)
+		  ((66e40f4b-34ae-499a-8192-0a0f4f580c7e)) > ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe)) > ((66e40f75-0573-484e-8cb6-b6b8071ffb8c))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8))
+				- Diagram
+				  collapsed:: true
+					- ![Levels of The Equal](https://docs.google.com/drawings/d/1ydOhAuBugiOYYoBHLJ5Z6-pQViKL1-GXKgFWLSbE9Sc/pub?w=800)
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)): quantum → time → space → self
+				  id:: 692cf172-d3fe-4390-80fe-52a8c21bd107
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2025-12-01 Mon 10:22:02]
+				  :END:
+					- Uninet is a field of quanta related together by ((69292bbb-c2dc-496d-9a04-bb4529407b25)).
+						- Each quantum is a phase circle storing datum for the corresponding qualiton: $x, y, z, ...$
+						- These phase circles concatenate to form the ((66ab75a1-f4a0-4bab-a002-8e573546623a)), and they ((687743fd-9d45-45be-b9fd-3055cbb8a938)) together to spin self threads.
+						- Some phase circles links together to form ((667c0031-0a87-44c9-9e98-6d45893b095f))s driven by the diff/error in that circle to reach the balance/round form.
+							- These effect circles are the cells of uninet, called ((671e1608-1350-4e87-99b6-5492cc6fb449)).
+						- Compared to [gradient descent](https://en.wikipedia.org/wiki/Gradient_descent): $\dot{x} = −∇V(x)$
+						  collapsed:: true
+							- No predefined potential landscape $V$ is required in unitnet, i.e. “background-independent” like General Relativity.
+								- Actually, uninet, as well as the whole Unïnfo, requires a single qualifier – the ((6653751a-a1b4-44b0-a81e-0a446eb8918c)) – from which all other intents emerge through interaction between effect circles.
+							- Unlike predefined [loss function](https://en.wikipedia.org/wiki/Loss_function) in [machine learning](https://en.wikipedia.org/wiki/Machine_learning), the ((677e76ed-b324-4608-b146-90e8fcfa0c32)) of autonoton emerges through learning: ((68df309b-c3e7-4121-895c-9c74d2359646)) → ((68df2ff2-cd0a-45e0-9309-969e0493404b)).
+							- [Reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning) is the closest to uninet, thanks to its self-learnt **target/advantage** inside the loss (the Bellman target, the advantage estimate A(s,a), GAE, etc.).
+					- Time = head-to-tail continuation = addition of arrows = quantum-wise addition
+						- Point equality: magnitude is relative and scalable, only order (relation) between points on thread conserves. (topo compound thread)
+						- Quanta are independent from each other
+					- Space = rotation = multiplication of arrows with  attent arrow = projection by view = distortion to form
+						- different views = different products (multiplications)
+						- mass equality: the amount of thread conserves.
+						- in rotation, quanta are linked into a loop (projective compound thread)
+					- Self = round form = exp(x) equals x = maintenance of self-image
+						- Intent/structure equality:
+						- all quanta are linked to weave a compound thread
+						- quantum loop has at least 4 quanta for ((67bd3614-2520-4a5d-8b3f-44f60901844e))
+					- TODO Merge “topo/projective compound thread” here with [projective/compound threads](((67e3b3e4-66d6-4c72-92d1-faeef2cf2165))) previously.
 			- point equality
 			  id:: 66e40f4b-34ae-499a-8192-0a0f4f580c7e
 			  :LOGBOOK:
 			  CLOCK: [2024-09-13 Fri 19:52:01]
 			  :END:
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) the most abstract ((66e43b94-9183-4d49-af85-8a7a1c194c12)), conservation of ((66e426ec-d29b-4614-932b-2c70693790d7)) (momentum)
+			  1 circle of the ((66537a0b-d107-4f7e-b01f-bf624a647d8c)): ((669dfc7d-5355-41db-93a1-8d590e8ec9d8))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66e40f4b-34ae-499a-8192-0a0f4f580c7e)) is the equal relation regarding the most abstract ((66e43b94-9183-4d49-af85-8a7a1c194c12)), a.k.a. conservation of ((66e426ec-d29b-4614-932b-2c70693790d7)) (momentum) (định tính). This conservation of quality via [complementarity](((66c8941d-6427-4e5c-9009-3af349500d7b))) is the characteristic of the monistic view of the [qualitative theory of Unïnfo](((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb))).
 				- Structure
 					- $p + q = 0$
 					- ((6678288e-699b-4325-bdba-bf6349fe0d57))s: ((667d15b7-6364-49a9-ac58-c64d2a992b63))s
 					- ((665ca429-84e3-49ff-921e-c07d19cd99ba)): ((66ab675b-2778-4f51-80ad-20a8f6988691)) (closed loop)
-					- ((94e87dc9-71af-477c-aa70-0f448c2f1e20)): origin, center of perspectivity
+					- ((94e87dc9-71af-477c-aa70-0f448c2f1e20)): vacantistic obop = terminal obop = origin, ((66728236-5b19-425c-bb5f-dfc0dc8b79fd))
 			- mass equality
 			  id:: 66e40f58-c9dd-47f4-999d-2e4a2aa874fe
 			  :LOGBOOK:
 			  CLOCK: [2024-09-13 Fri 19:52:06]
 			  :END:
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) equal ((66e42b30-1aa4-4b6f-8c54-b29fc09085c6)), conservation of amount (energy)
+			  2 circles of the ((675c03d8-3185-41a8-9f98-e869fabec793)): Ω = ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) + ((667cfa42-ade7-4310-9a7b-6d14d01c16da))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe)) is the equal relation regarding ((66e42b30-1aa4-4b6f-8c54-b29fc09085c6)), a.k.a. conservation of ((66e426df-90e4-43c0-9f02-c48c336e830d)) (energy) (định lượng). This is the common connotation of the word “equal”. This conservation of quantity via reflection between intent & extent is the characteristic of the dualistic view of the [quantitative theory of Unithread](((66ac41d1-09e7-44b1-9290-ea7d5f02a817))). The conservation of content's quantity is due to the **constancy of the self intent**.
 				- Structure
-					- $|p| = |q|$ 
-					  ⇔ $|p| - |q| = 0$
+					- $|p| + |q| = 1 = |p'| + |q'|$ 
+					  ⇔ $(|p| - |p'|) + (|q| - |q'|) = Δ|p| + Δ|q| = 0$
 					- ((6678288e-699b-4325-bdba-bf6349fe0d57))s: ((667d15c6-67c4-4998-a549-c8b3f9de3d60))s
 					- ((665ca429-84e3-49ff-921e-c07d19cd99ba)): symmetric loop
-					- ((94e87dc9-71af-477c-aa70-0f448c2f1e20)): center of mass
+					- ((94e87dc9-71af-477c-aa70-0f448c2f1e20)): dualistic obop = center of mass
+						- vacantistic obop = contact point between 2 circles = sensor
 			- intent equality
 			  id:: 66e40f75-0573-484e-8cb6-b6b8071ffb8c
 			  :LOGBOOK:
 			  CLOCK: [2024-09-13 Fri 19:52:12]
 			  :END:
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) equal intensity, uniform distribution, reach ((669a1bec-3347-4915-83e4-dcffc4d482d1))
+			  3 circles of the uninet: ((94e87dc9-71af-477c-aa70-0f448c2f1e20)), ((66c810a0-9861-4787-bdcf-1378219332be)), ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66e40f75-0573-484e-8cb6-b6b8071ffb8c)) is the equal relation regarding intensity, a.k.a. ((669a1bec-3347-4915-83e4-dcffc4d482d1)) – the conservation of structure (định hình). This conservation of structure via maintenance of body in the world is the characteristic of the trialistic view of ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)).
 				- Structure
-					- ((6678288e-699b-4325-bdba-bf6349fe0d57))s: ...
+					- ((6678288e-699b-4325-bdba-bf6349fe0d57))s: components = intertwined circles
 					- ((665ca429-84e3-49ff-921e-c07d19cd99ba)): ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) ((667d15c6-67c4-4998-a549-c8b3f9de3d60))
-					- ((94e87dc9-71af-477c-aa70-0f448c2f1e20)): ((66ab7477-c060-4d07-ab13-bc3d11246854))
+					- ((94e87dc9-71af-477c-aa70-0f448c2f1e20)): trialistic obop = dualistic obop = central obop = ((66ab7477-c060-4d07-ab13-bc3d11246854)) of symmetry
+						- terminal vacantistic obop = sensor
+						- central vacantistic obop = empty center
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- ((66ceeca0-a149-4fe0-85a8-9302f96eb669))
 		- ### equilibrium
@@ -974,8 +1306,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  CLOCK: [2024-06-11 Tue 10:50:54]
 			  CLOCK: [2024-09-13 Fri 15:34:45]
 			  :END:
-			  “Balance is the intent of all forces.”
+			  “(Im)Balance is the ((677e76ed-b324-4608-b146-90e8fcfa0c32)) of all forces.”
 				- All forces are caused by the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) to cancel its imbalance, hence **restoring forces**.
+				- Intentional cause: imbalance is the first cause (op), and balance is the final cause (ob).
 				- This is the generalized version of the [law of entropy](https://en.wikipedia.org/wiki/Second_law_of_thermodynamics#Direction_of_spontaneous_processes).
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- ((66960ee2-d6dd-404b-a9d0-96340fce3cd2))
@@ -997,6 +1330,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Equanimity
 			- Buddhism: [upekṣā](https://en.wikipedia.org/wiki/Upek%E1%B9%A3%C4%81), [xả](https://vi.wikipedia.org/wiki/Bu%C3%B4ng_x%E1%BA%A3)
 			- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) equanimity = equal + mind
+		- ### unity of opposites
+		  id:: 69367cf5-9894-4fb8-a293-2b1109777fc9
+		  coincidentia oppositorum
+			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Unity_of_opposites
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((69367cf5-9894-4fb8-a293-2b1109777fc9)) is the the meta-meaning of ((69367d7f-9ca8-4202-9ac7-1085cde52513)), i.e., the duality of two opposite meanings of ⟪A = B⟫ – the *formal meaning* is that two sides of the equation are aparently different, as shown in their **different** forms/symbols/expressions (“A” verus “B”) – and the *intended meaning* is that they have the **same** underlying content/extent/value.
 	- ## quantity
 	  id:: 66e426df-90e4-43c0-9f02-c48c336e830d
 	  collapsed:: true
@@ -1052,14 +1390,28 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ### qualiton
 		  id:: 671e0fcc-37b6-4f03-8e87-8923422ca8e0
 		  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((671e0f99-c35c-45f3-9f80-4d9cf00063de))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) is a ((667d162c-16cf-44d3-81a5-29b1b885164f)) of ((66e426ec-d29b-4614-932b-2c70693790d7)) at the center (inner most ((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9))) of the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)). Through the process of [qualification](((681826ac-f5f2-4a84-a5f5-c110937ec85f))), the qualiton not only carries and sustains quality, but also applies that quality to ((671e0f99-c35c-45f3-9f80-4d9cf00063de))s to activate them into living qualions. E.g., each [electron](https://en.wikipedia.org/wiki/Electron) is a qualiton of electricity which is a bundle of quanta (energy, spin, etc.) activated by the [prototype electron](https://en.wikipedia.org/wiki/One-electron_universe) (root qualiton).
-				- Etymology: qualiton = [quality](https://www.etymonline.com/word/quality) + [-on](https://www.etymonline.com/word/-on)
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) is a ((667d162c-16cf-44d3-81a5-29b1b885164f)) of ((66e426ec-d29b-4614-932b-2c70693790d7)) at the center (inner most ((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9))) of the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)). Through the process of [qualification](((681826ac-f5f2-4a84-a5f5-c110937ec85f))), the qualiton not only carries and sustains quality, but also applies that quality to ((671e0f99-c35c-45f3-9f80-4d9cf00063de))s to activate them into living qualitons. E.g., each [electron](https://en.wikipedia.org/wiki/Electron) is a qualiton of electricity which is a bundle of quanta (energy, spin, etc.) activated by the [prototype electron](https://en.wikipedia.org/wiki/One-electron_universe) (root qualiton).
+				- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) qualiton = [quality](https://www.etymonline.com/word/quality) + [-on](https://www.etymonline.com/word/-on)
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- ((681826ac-f5f2-4a84-a5f5-c110937ec85f))
 				- ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) is to ((671e0f99-c35c-45f3-9f80-4d9cf00063de)) in Unithread, as ((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9)) is to ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)) in the CIE formula.
 			- autonoton
 			  id:: 671e1608-1350-4e87-99b6-5492cc6fb449
+			  collapsed:: true
+			  ((68dfc116-5dc8-41a1-b448-b2e2ddc80068)) ((690960bc-0f6c-4ac4-9c73-3c030c9d4756)), autonotons 
 			  ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) in ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71))
+				- autonota
+				  id:: 690960bc-0f6c-4ac4-9c73-3c030c9d4756
+				  ((68dfc11b-c552-4a41-b4bb-0737db0f3f94)) ((671e1608-1350-4e87-99b6-5492cc6fb449))
+				- autonotic
+				  id:: 69096146-d968-4da2-b2d6-5431aa3814d9
+				  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((671e1608-1350-4e87-99b6-5492cc6fb449))
+				- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) autonoton = [auto](https://en.wiktionary.org/wiki/auto-) (self) + [notion](https://en.wiktionary.org/wiki/notion) ← [nōtus](https://en.wiktionary.org/wiki/notus#Latin) (Italian “noto”) ← nōscō (know)
+				  collapsed:: true
+					- ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)) = ((69096146-d968-4da2-b2d6-5431aa3814d9)) machine, versus classical automatic machines
+						- Following the age of automatization, now comes the age of autonotization.
+					- automaton ← [αὐτόμᾰτος](https://en.wiktionary.org/wiki/%CE%B1%E1%BD%90%CF%84%CF%8C%CE%BC%CE%B1%CF%84%CE%BF%CF%82) ← αὐτο (auto) + μένος (ménos = think) = self-willed, not only self-moving
+						- The decay of meaning of “automaton” to mere self-moving is similar to the decaying of [自由](https://en.wiktionary.org/wiki/%E8%87%AA%E7%94%B1#Etymology_2) to [freedom](https://en.wikipedia.org/wiki/Freedom).
 	- ## flow
 	  id:: 67fcbbc6-915b-4d28-b9cf-098e916cdc86
 	  collapsed:: true
@@ -1240,9 +1592,36 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Relativity of the self: There are many different offices in the field. A field agent can choose one office to work for, which it considers as “*my office* giving *my cause* for me to produce *my effect*”, here called “the office”, “the cause” and “the effect”. Actually, the effect of “the cause” is not only “the effect” but also included in the outcomes of all other missions that have interactions with this field agent. That means the linear relation from “the cause” to “the effect” is just relative to the choice of office, i.e. of the self.
 		- Components of ((667bef22-b272-4a7d-b613-3f1ed1a47329))
 		  id:: 677f9ae2-f7bc-47a7-a7e3-4dda29d9d834
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((66727858-979d-4d95-8a90-7a749218cfba)) arrows from ((677f7108-ffa5-4ea7-9a69-eaa355a7569e))s to ((677f509b-f2db-47b1-aafb-5a475334b532))s represent the direction of the ((667bef22-b272-4a7d-b613-3f1ed1a47329)). Relative to the choice of ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), the primary action of the self from the primary cause to the primary effect are specified, and are simply called “the action from the cause to the effect”. Other secondary actions are ((677f7100-e650-464a-a835-15a9f28df649))s from the surrounding ((677f7104-7fc4-4034-bb08-0dabd80a586f))s on the self.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((66727858-979d-4d95-8a90-7a749218cfba)) arrows from ((677f7108-ffa5-4ea7-9a69-eaa355a7569e))s to ((677f509b-f2db-47b1-aafb-5a475334b532))s represent the direction of the ((667bef22-b272-4a7d-b613-3f1ed1a47329)). Relative to the choice of ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), the **primary action** of the self from the primary cause to the primary effect are specified, and are simply called “the action from the cause to the effect”. Secondary to the “the action”, other actions includes ((677f7100-e650-464a-a835-15a9f28df649))s of the surrounding ((677f7104-7fc4-4034-bb08-0dabd80a586f))s on the self, and ((69267f67-5e59-48d3-a11c-1e794e85dd1e))s from the self back to environment.
 			  collapsed:: true
-				- ![EffectFlow-CauseConditionActionEffect](https://docs.google.com/drawings/d/e/2PACX-1vRuRJyGQru5ZcIAZLcwMqwjv35U5sXAzGX9KEV5SUbsY5H3LPpm5yWAvn0gK9yNrwv4ob3k1XoMe-tb/pub?w=500){:height 304, :width 500}
+				- [EffectFlow-CauseConditionActionEffect](https://docs.google.com/drawings/d/1uS-8u6nr4pyRzJH6fOLm2ggm4TSEqPHWosKTT5OCdzA/)
+				  ![EffectFlow-CauseConditionActionEffect](https://docs.google.com/drawings/d/e/2PACX-1vRuRJyGQru5ZcIAZLcwMqwjv35U5sXAzGX9KEV5SUbsY5H3LPpm5yWAvn0gK9yNrwv4ob3k1XoMe-tb/pub?w=500){:height 304, :width 500}
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- Convective primary flow versus diffusive secondary flows
+				  id:: 6926d573-2c8b-4a9e-941a-269335cf0885
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2025-11-26 Wed 17:24:55]
+				  CLOCK: [2025-11-26 Wed 17:24:58]--[2025-11-26 Wed 18:00:37] =>  00:35:39
+				  :END:
+					- **Primary flow** by the primary action
+						- Carries the main agent of the action.
+						- Maintains identity and continuity of the self.
+						- Longitudinal, axial, convective, direct, progressive, streamline, purposeful, teleological.
+					- **Secondary flows** by influences and effluences
+						- Dispersive effects radiating from the primary.
+						- Spreading influence without carrying the main agent.
+						- Transverse, radial, diffusive, wavefront, side-effects, byproducts, emanations.
+					- The [convection–diffusion equation](https://en.wikipedia.org/wiki/Convection%E2%80%93diffusion_equation) describes both aspects of the flow.
+					- Examples
+						- **Circular wave** with a clean space/time split
+							- In a circular wave propagating in 2D space (or spherical wave in 3D), the effect flow exhibits a clean separation between its convection and diffusion by time and space.
+							- Primary flow in time: The invisible temporal propagation of the wave – the continuous advancement of the whole wave through time. This is the “through-line” carrying the effect forward in the direction orthogonal to the spatial dimensions.
+							- Secondary flow in space: The visible spatial spreading – the radial expansion of the wavefront outward from the source. This is the effluence radiating in all spatial directions perpendicular to the temporal convection.
+						- **Flying bullet** in spacetime
+							- In a bullet flying through air, while the diffusion manifest spatially, the convection is both temporal and spatial.
+							- Primary flow in spacetime: The bullet's trajectory (worldline) through spacetime – the directed transport of the projectile itself from cause (firing) to effect (impact). This flow maintains the agent's identity as a bullet.
+							- Secondary flow in space: The sound wave, shock wave, and turbulent wake left behind in the air – the dispersive spreading of influence radiating from the bullet's path. These are side effects that propagate outward from the primary trajectory without carrying the bullet itself.
 			- ### cause
 			  id:: 677f7108-ffa5-4ea7-9a69-eaa355a7569e
 			  ((665359e4-4597-4775-b849-f9acbb98960a)) tác nhân
@@ -1254,7 +1633,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ### influence
 			  id:: 677f7100-e650-464a-a835-15a9f28df649
 			  ((665359e4-4597-4775-b849-f9acbb98960a)) ảnh hưởng
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Relative to a self, ((677f7100-e650-464a-a835-15a9f28df649)) is the action of the surrounding ((677f7104-7fc4-4034-bb08-0dabd80a586f)) upon the primary action of the self. In the selfless view, “influence” is any ((66727858-979d-4d95-8a90-7a749218cfba)).
+			  ((691ae2bd-a60f-4db2-8132-bf54e9dee1b0)) ((69267f67-5e59-48d3-a11c-1e794e85dd1e))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Relative to a self, ((677f7100-e650-464a-a835-15a9f28df649)) is the action of the surrounding ((677f7104-7fc4-4034-bb08-0dabd80a586f)) taken on the self. In the common sense, “influence” is any secondary action, including ((69267f67-5e59-48d3-a11c-1e794e85dd1e)). And in the selfless view, “influence” is any ((66727858-979d-4d95-8a90-7a749218cfba)), whatsoever.
 				- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) “Influence” is the “flow into” some body. This inflow is the driving force underlying the [interpenetrative nature](((66eb7dae-2032-434b-9106-756d4aad7cdb))) of the effect flow, as what [dependent origination](https://en.wikipedia.org/wiki/Prat%C4%ABtyasamutp%C4%81da) principle is to causality.
 			- ((66727858-979d-4d95-8a90-7a749218cfba)) of ((667bef22-b272-4a7d-b613-3f1ed1a47329))
 			  id:: 6835b165-75f8-465e-84d4-b7b0f68b4dcb
@@ -1266,6 +1646,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((677f509b-f2db-47b1-aafb-5a475334b532)) is the target of ((66727858-979d-4d95-8a90-7a749218cfba)) arrow in effect flow. Particularly, effect is the ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) of the target body resulted from the action. That means the effect is just an ((677f7100-e650-464a-a835-15a9f28df649)) on the target body.
 				- #### side effect
 				  ((665359e4-4597-4775-b849-f9acbb98960a)) tác dụng phụ
+			- ### effluence
+			  id:: 69267f67-5e59-48d3-a11c-1e794e85dd1e
+			  ((691ae2bd-a60f-4db2-8132-bf54e9dee1b0)) ((677f7100-e650-464a-a835-15a9f28df649))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Relative to a self, ((69267f67-5e59-48d3-a11c-1e794e85dd1e)) is the outflow of effect from the self affecting its environment. For the common sense of “influence”, “effluence” can be seen as “outbound influence”.
+				- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) “Effluence” is the “flow out” of some body. The term “effluence” is traditionally used to refer to the emanation of a divine source in theology and phylosophy. Here, it's normalized to be the emanation of any self.
 		- ### circular effect flow
 		  id:: 667bf36a-581a-4abe-b544-2d849608a3e4
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)), ((667c0031-0a87-44c9-9e98-6d45893b095f))
@@ -1273,41 +1658,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- effect circle
 			  id:: 667c0031-0a87-44c9-9e98-6d45893b095f
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf36a-581a-4abe-b544-2d849608a3e4))
-			- self-effect
-			  id:: 667bff0e-d45d-4d41-8683-51c3cf76c0bc
-			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf36a-581a-4abe-b544-2d849608a3e4))
-			- ### change
-			  id:: 667c008f-cd1f-4a6b-a9c8-d6efa1d8d342
-			  collapsed:: true
-			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf36a-581a-4abe-b544-2d849608a3e4))
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) is the difference from its ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), hence a ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)), as shown in the ((6858b355-fba9-4e61-9f16-bc993a3df44b)). In particular, the change of an object $O$ (in time, space, spacetime, or configuration space) from position $A$ to position $B$ is the difference between $O$ at $A$ and $O$ at $B$, i.e. $O_B - O_A$. The change of ((665ca429-84e3-49ff-921e-c07d19cd99ba)) is ((669a58b9-eb34-41cd-8605-02e29b07e1b5)).
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bf36a-581a-4abe-b544-2d849608a3e4)) is an ((667bef22-b272-4a7d-b613-3f1ed1a47329)) whose sink is viewed as coinciding with its source, and both are represented by the ((677e76ed-b324-4608-b146-90e8fcfa0c32)).
-				- ((667bf36a-581a-4abe-b544-2d849608a3e4)) is the characteristic of [cybernetics](https://en.wikipedia.org/wiki/Cybernetics).
-			- ### intentional cause
-			  id:: 677e76ed-b324-4608-b146-90e8fcfa0c32
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((677e76ed-b324-4608-b146-90e8fcfa0c32)) = ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) = the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) of the ((667c0031-0a87-44c9-9e98-6d45893b095f)) = “final cause” in [4 causes by Aristotle](https://en.wikipedia.org/wiki/Four_causes) = [the horizon](((67445223-9459-4aa9-b102-70c63943577b)))
-				  collapsed:: true
-					- ![OuroborosTrinion](https://docs.google.com/drawings/d/e/2PACX-1vRqW5erSVHBkU5Zbt-UntR9Yo-49Dx9C58evxiLUTsdPOYCPLEppLbk6nXsjaPcJvtklBwqHel-5pVw/pub?w=521&h=482)
-				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-					- I don't use the term “final cause” because [the goal is the horizon](((67445223-9459-4aa9-b102-70c63943577b))):
-					  collapsed:: true
-					  1) _in a single circle_, it's both the first (as the seed), and the last (as the purpose), and 
-					  2) throughout the never ending cycle of effect, it will never be “final”.
-						- At first, as a seed, the intent gives rise to the whole tree, i.e. ((66c810a0-9861-4787-bdcf-1378219332be)) of karma.
-						- At last, the fruits are selected by the intent to satisfy the criteria of the purpose.
-					- ((677e76ed-b324-4608-b146-90e8fcfa0c32)) in knowledge circle = intent (know-why) = arrow returning to the root obop = qualifier = verifier = complement of the result/answer of the problem/question (know-where, know-what, formal cause)
-					  id:: 68a7e246-8407-4e89-b393-912db172e4fe
-					  collapsed:: true
-					  :LOGBOOK:
-					  CLOCK: [2025-08-17 Sun 20:22:03]
-					  :END:
-						- Problem/question is the absence of the result/answer.
-							- This absence breaks the circle, leading to the urge to heal it, to make it complete by finding solution/answer.
-						- View cone projects the process of resolution (quest, solving, working out, reasoning, proof, derivation, exploration, etc.), i.e. know-how (efficient cause), to the result/answer (know-where, know-what, formal cause).
-						- The intentional cause is “final” in the cause cone, but “first” in the effect cone.
-						- The external knowledge circle is the lowest circle in the tower of effect circles, under all active intents.
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-				- The ((667c0031-0a87-44c9-9e98-6d45893b095f)) in space generates the ((667d15b7-6364-49a9-ac58-c64d2a992b63)) in time, a.k.a. ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)). That time arrow extends the space into a meta-space, a.k.a. [spacetime](https://en.wikipedia.org/wiki/Spacetime). This extension can be continued to extend any (meta-)space to infinity.
+				- The ((667c0031-0a87-44c9-9e98-6d45893b095f)) in space generates the ((667d15b7-6364-49a9-ac58-c64d2a992b63)) in ((68fa164e-ef0e-4010-937d-ad9e0459f5f2)), i.e. ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)). That time arrow extends the space into a meta-space, a.k.a. [spacetime](https://en.wikipedia.org/wiki/Spacetime). This extension can be continued to extend any (meta-)space to infinity.
 				  id:: 667c001e-83b9-4de5-bf81-1c71898340a2
 				- Various ((667c0031-0a87-44c9-9e98-6d45893b095f))s: ((66f40210-cca6-4d81-85e7-d0c54ef20451)) = ((67b183f5-1cca-4473-917e-60c644dd5466)) = [Five Aggregates](https://en.wikipedia.org/wiki/Skandha)
 				  id:: 674ff584-00e3-40d8-9b77-21e9dca899dd
@@ -1322,6 +1675,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- ![EffectCircle](https://docs.google.com/drawings/d/e/2PACX-1vR9OJ5byY9Gqnzh6djhbbAmP2FMOOrhHjYT8cW9dee3DT-2-PtnffiOmHvmzehNgmMWaPL4lj2butTo/pub?w=800){:height 684, :width 790}
 						  id:: 6835b165-8a07-4156-9440-a4536b5c8be3
 						- Directions and colors
+						  collapsed:: true
 							- Like the [compass rose](https://en.wikipedia.org/wiki/Compass_rose) (for people in the [Northern Hemisphere](https://en.wikipedia.org/wiki/Northern_Hemisphere)), the **West** (position of **Amitabha** buddha) is on the **left**.
 								- Note that this is different from the common configuration where Amitabha buddha at the West is shown on the top.
 							- On the right, water (blue) is falling down to the earth (yellow) at the bottom;
@@ -1358,50 +1712,183 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- [Vairocana](https://en.wikipedia.org/wiki/Vairocana) buddha (Đại Nhật phật): center, space, white, aware, [Dharmadhātu](https://en.wikipedia.org/wiki/Dharmadhatu) → [Suchness](https://en.wikipedia.org/wiki/Suchness) wisdom (Tathātā-jñāna, Chân như trí [真如智], Dharmadhātu-svabhāva-jñāna, Pháp giới thể tánh trí [法界體性智])
 						- References
 							- [五智](https://buddhaspace.org/dict/fk/data/%25E4%25BA%2594%25E6%2599%25BA.html)
-					- Emergence of `exp()`, “negativity” $-1$, and “imaginarity” $i$ through effect circles & [roots of unity](https://en.wikipedia.org/wiki/Root_of_unity)
-					  id:: 67bbde62-70fc-4d3d-9f65-dcea280db516
-						- Let $j_n$ be the $n$^{th} unit arising from $n$^{th} order self effect.
-						- The `exp()` function arises from the the differential equation $f' = f ⇒ j_1 = \sqrt[1]{1} = 1$.
-						- The negative unit $-1$ arises from the the differential equation $f'' = f ⇒ j_2 = \sqrt[2]{1} = -1$.
-						- The [imaginary unit](https://en.wikipedia.org/wiki/Imaginary_unit) $i$ arises from the the differential equation $f^{(4)} = f$, or $f'' = - f ⇒ j_4 = \sqrt[4]{1} = i$.
-							- This gives rise to the ((67bd3614-2520-4a5d-8b3f-44f60901844e)).
-					- Circle Dynamic
-					  id:: 67bd3614-2520-4a5d-8b3f-44f60901844e
-						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67bd3614-2520-4a5d-8b3f-44f60901844e)) is the basic dynamic...
-					- Circle of Dynamics
-					  id:: 67bd7811-ce55-402f-8fb2-08b59fb271c9
-					  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((67b183f5-1cca-4473-917e-60c644dd5466))
-						- Dynamics Circle
-						  id:: 67b183f5-1cca-4473-917e-60c644dd5466
-						  ((665359e4-4597-4775-b849-f9acbb98960a)) ((67bd7811-ce55-402f-8fb2-08b59fb271c9))
-						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67b183f5-1cca-4473-917e-60c644dd5466)) is the ((667c0031-0a87-44c9-9e98-6d45893b095f)) of [physical dynamics](https://en.wikipedia.org/wiki/Dynamics_(mechanics)).
-							- Circle: distribution (position) → density (yank) → [curvature = force](((67b5c77d-c42c-4dc5-8d47-fd82f535177a))) → momentum → position (distribution) → ...
-								- ((67b183f5-dba7-4a11-8a72-3c619e3709ea))
-								- The circle is composed of 2 arrows, [view cone](((684f9517-c0d3-48cb-bf23-3d71963551e5))) + [effect cone](((684f9517-b417-47da-ab50-38f625511e9d))), hence just the ((6851578b-9b1f-4367-878f-79b0b0b9be51)) wrapped around, like the Ouroboros and the taijitu ☯️ (☯).
-							- ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)): spatial distribution → density → curvature
-							  id:: 684f9517-c0d3-48cb-bf23-3d71963551e5
-								- This is the characteristic of waves, plants, networks.
-								- Observing mechanism: differentiation in space
-							- [Obop](((94e87dc9-71af-477c-aa70-0f448c2f1e20))) point: ((67b5c77d-c42c-4dc5-8d47-fd82f535177a)) is the [wave equation](https://en.wikipedia.org/wiki/Wave_equation) established based on the ((67bd3614-2520-4a5d-8b3f-44f60901844e)).
-								- This equation operates the body and express
-							- ((667bd93a-cce4-4dbf-9831-725e4dffe463)): force (mass acceleration) → momentum (mass velocity) → point mass (mass position)
-							  id:: 684f9517-b417-47da-ab50-38f625511e9d
-								- This is the characteristic of particles, animals.
-								- Operating mechanism: integration over time
-								- ((6847e436-9a84-42c5-a853-75f6d626ed63)): The motion of the particle is action, thus the action cone includes force → momentum, and its effect is the position.
-							- Universe: spatial distribution = distribution of point masses = energy field = wave field
-						- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-							-
-						- Pyramid of Dynamics
-						  id:: 67bd787d-4b28-42a0-a7b6-ba4bd60e5523
-						  ((665359e4-4597-4775-b849-f9acbb98960a)) ((67baf139-aa0c-436e-9e21-983323833c71))
-							- Dynamics Pyramid
-							  id:: 67baf139-aa0c-436e-9e21-983323833c71
-							  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((67bd787d-4b28-42a0-a7b6-ba4bd60e5523))
-								- Diagram
-								  collapsed:: true
-									- ![DynamicsPyramid](https://docs.google.com/drawings/d/e/2PACX-1vTZeIjOKk3h-3WXdc-xATjDF3YQsr2p0J1iwfFvBtIblsL-jg9aoILR7wiyYUDqXSg8-h3h94owrCFz/pub?w=1000)
+				- The κύκλος (cycle, circle) is the form; the κυβερνήτης ([cybernetics](https://en.wikipedia.org/wiki/Cybernetics), steersman) is the agent of that form.
+				  id:: 67bbde62-70fc-4d3d-9f65-dcea280db516
+				  collapsed:: true
+					- Both are about circular motion & turning, and both have the first syllable transformed to "cy" with a very different pronunciation in English.
+					- AI is the runaway child of Cybernetics, the child that fears the dangerous sea of his father, thus sails only in simulation.
+					- From cybernetics to "cyber", the loop has collapsed into a straight wire:
+						- from self-regulation to remote control;
+						- from living feedback to mechanical command.
+				- circular effect flow = circular causality = circular determinism = interdependency = interfusion = interpenetration = dependent origination
+				  id:: 68f5a6d2-8148-4975-b3cb-799fe37a3d72
+					- This circular dependency is shown by the spirorus which is the structure of spacetime.
+				- ((667bf36a-581a-4abe-b544-2d849608a3e4)) is the characteristic of [cybernetics](https://en.wikipedia.org/wiki/Cybernetics).
+				-
+			- ### change
+			  id:: 667c008f-cd1f-4a6b-a9c8-d6efa1d8d342
+			  collapsed:: true
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((667bff0e-d45d-4d41-8683-51c3cf76c0bc))
+				- self-effect
+				  id:: 667bff0e-d45d-4d41-8683-51c3cf76c0bc
+				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342))
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)) is a [turn](https://en.wikipedia.org/wiki/Turn_(angle)) in the ((667bf36a-581a-4abe-b544-2d849608a3e4)).
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) is the being's difference from its ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), hence a ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)), as shown in the ((6858b355-fba9-4e61-9f16-bc993a3df44b)). In particular, the change of an object $O$ (in time, space, spacetime, or configuration space) from position $A$ to position $B$ is the difference between $O$ at $A$ and $O$ at $B$, i.e. $O_B - O_A$. The change of ((665ca429-84e3-49ff-921e-c07d19cd99ba)) is ((669a58b9-eb34-41cd-8605-02e29b07e1b5)).
+				  id:: 684f9517-30d7-40e6-b93f-3386123e381c
+			- ### intentional cause
+			  id:: 677e76ed-b324-4608-b146-90e8fcfa0c32
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((677e76ed-b324-4608-b146-90e8fcfa0c32)) is the ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)) of the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) of the ((667c0031-0a87-44c9-9e98-6d45893b095f)). As the first cause (source), it's the operator driving the effect flow, and as the final cause (sink), it's the observer qualifying the ((669a1bec-3347-4915-83e4-dcffc4d482d1)) of the effect circle.
+					- Diagram
+					  collapsed:: true
+						- ![OuroborosTrinion](https://docs.google.com/drawings/d/e/2PACX-1vRqW5erSVHBkU5Zbt-UntR9Yo-49Dx9C58evxiLUTsdPOYCPLEppLbk6nXsjaPcJvtklBwqHel-5pVw/pub?w=300)
+				- ((66725725-f76a-4328-b162-f469b87e871b))
+					- Physics: Potential gradient: voltage, pressure, mass–energy curvature, chemical potential, temperature gradient
+					- Error signal in control theory & cybernetics, prediction error in neuroscience
+					- Uncertainty & information gap in Information theory & computation, [loss function](https://en.wikipedia.org/wiki/Loss_function) in [machine learning](https://en.wikipedia.org/wiki/Machine_learning)
+					- Conflict in [dialectics](https://en.wikipedia.org/wiki/Dialectic) of [homeostasis](https://en.wikipedia.org/wiki/Homeostasis), personal growth, social and organizational evolution
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- The first cause is also the final cause – unified in the intentional cause
+					  id:: 692d502f-b469-4b1d-9267-1d02e3953590
+					  collapsed:: true
+						- I don't use the term “final cause” like Aristotle because [the goal is the horizon](((67445223-9459-4aa9-b102-70c63943577b))):
+							- 1) _in a single circle_, it's both the first (as the seed), and the last (as the purpose), and
+							- 2) throughout the never ending cycle of effect, it will never be “final”.
+						- At first, as a seed, the intent gives rise to the whole tree, i.e. ((66c810a0-9861-4787-bdcf-1378219332be)) of karma.
+						- At last, the fruits are selected by the intent to satisfy the criteria of the purpose.
+						- The statement that “the first cause is also the final cause” is similar to [Aquinas' 5th Way](https://en.wikipedia.org/wiki/Five_Ways_(Aquinas)#Fifth_way:_Argument_from_Final_Cause_or_Ends), but for the immanent God – the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) – instead of a transcendent God.
+						  id:: 692d69f0-ff24-4d71-a95c-2e27ebb28c7d
+							- ((6667c99a-792f-4230-9fc6-c5fae874daef)) = Return to God (exitus–reditus) = ((c96a6d20-a0f6-48bd-9d70-9bc00b6b3c69))
+					- ((677e76ed-b324-4608-b146-90e8fcfa0c32)) in knowledge circle = intent (know-why) = arrow returning to the root obop = qualifier = verifier = complement of the result/answer of the problem/question (know-where, know-what, formal cause)
+					  id:: 68a7e246-8407-4e89-b393-912db172e4fe
+					  collapsed:: true
+					  :LOGBOOK:
+					  CLOCK: [2025-08-17 Sun 20:22:03]
+					  :END:
+						- First cause: The problem/question is the gap in the circle, the absence of the result/answer.
+							- This absence breaks the circle, leading to the urge to heal it, to make it complete by finding solution/answer.
+						- View cone projects the process of resolution (quest, solving, working out, reasoning, proof, derivation, exploration, etc.), i.e. know-how (efficient cause), to the result/answer (know-where, know-what, formal cause).
+						- Final cause: The verification/qualification of the solution/answer closes the effect circle.
+							- ((6667c99a-792f-4230-9fc6-c5fae874daef)): As long as there's still gaps, mismatch, imbalance, unknown, inequality, and so on, there's still motion – transition of effect circle – toward balance, the final target.
+							- The “final cause” in [4 causes by Aristotle](https://en.wikipedia.org/wiki/Four_causes) corresponds to this half of the intentional cause.
+						- ⇒ The intentional cause is “final” in the ((667bda02-8dc9-488e-ba16-ea75c3d7895c)), but “first” in the ((667bd93a-cce4-4dbf-9831-725e4dffe463)).
+						- The external knowledge circle is the lowest circle in the tower of effect circles, under all active intents.
 		-
+	- ## dynamics
+	  id:: 69291b2c-dda9-4877-bf3e-7e84a519e218
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2025-11-28 Fri 10:46:55]
+	  :END:
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((69291b2c-dda9-4877-bf3e-7e84a519e218)) is the study of ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)). From the [classical physiscs dynamics](https://en.wikipedia.org/wiki/Dynamics_(mechanics)) studying force and its effect on motion, it has been abstracted to [calculus](https://en.wikipedia.org/wiki/Calculus) ([differential calculus](https://en.wikipedia.org/wiki/Differential_calculus) for rate of change, and [integral calculus](https://en.wikipedia.org/wiki/Integral_calculus) for accumulation of change, [calculus of variations](https://en.wikipedia.org/wiki/Calculus_of_variations) for stationary path of change), then it has been generalized to the modern [dynamical systems theory](https://en.wikipedia.org/wiki/Dynamical_systems_theory) since 20th century.
+		- ### Circle of Dynamics
+		  id:: 67bd7811-ce55-402f-8fb2-08b59fb271c9
+		  collapsed:: true
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((67b183f5-1cca-4473-917e-60c644dd5466))
+			- Dynamics Circle
+			  id:: 67b183f5-1cca-4473-917e-60c644dd5466
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((67bd7811-ce55-402f-8fb2-08b59fb271c9))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67b183f5-1cca-4473-917e-60c644dd5466)) is the ((667c0031-0a87-44c9-9e98-6d45893b095f)) of cycling around the ((67bd787d-4b28-42a0-a7b6-ba4bd60e5523)).
+				- Circle: distribution (positions of masses) → density (yank) → [curvature = force](((67b5c77d-c42c-4dc5-8d47-fd82f535177a))) → momentum → position → distribution
+					- ((67b183f5-dba7-4a11-8a72-3c619e3709ea))
+					- The circle is composed of 2 arrows, [view cone](((684f9517-c0d3-48cb-bf23-3d71963551e5))) + [effect cone](((684f9517-b417-47da-ab50-38f625511e9d))), hence just the ((6851578b-9b1f-4367-878f-79b0b0b9be51)) wrapped around, like the Ouroboros and the taijitu ☯️ (☯).
+				- ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)): spatial distribution → density → curvature
+				  id:: 684f9517-c0d3-48cb-bf23-3d71963551e5
+					- This is the characteristic of waves, plants, networks.
+					- Observing mechanism: differentiation in space up the Dynamics Pyramid
+				- [Obop](((94e87dc9-71af-477c-aa70-0f448c2f1e20))) point: ((67b5c77d-c42c-4dc5-8d47-fd82f535177a)) is the [wave equation](https://en.wikipedia.org/wiki/Wave_equation) established based on the ((67bd3614-2520-4a5d-8b3f-44f60901844e)).
+					- This equation operates the body and express
+				- ((6847e436-9a84-42c5-a853-75f6d626ed63)): force (mass acceleration) → momentum (mass velocity) → point mass (mass position)
+				  id:: 684f9517-b417-47da-ab50-38f625511e9d
+					- This is the characteristic of particles, animals.
+					- Operating mechanism: integration over time down the Dynamics Pyramid
+					- ((6847e436-9a84-42c5-a853-75f6d626ed63)): The motion of the particle is action, thus the action cone includes force → momentum, and its effect is the position.
+				- ((667bd93a-cce4-4dbf-9831-725e4dffe463)): wave in the world at the base of the pyramid, from indiviual particles to the whole field, closing the ((6909a3ff-8c16-4222-967a-f019759ca65c)).
+				- Universe: spatial distribution = distribution of point masses = energy field = wave field
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				-
+		- ### Pyramid of Dynamics
+		  id:: 67bd787d-4b28-42a0-a7b6-ba4bd60e5523
+		  collapsed:: true
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((67baf139-aa0c-436e-9e21-983323833c71))
+			- Dynamics Pyramid
+			  id:: 67baf139-aa0c-436e-9e21-983323833c71
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((67bd787d-4b28-42a0-a7b6-ba4bd60e5523))
+				- Diagram
+				  collapsed:: true
+					- ![DynamicsPyramid](https://docs.google.com/drawings/d/e/2PACX-1vTZeIjOKk3h-3WXdc-xATjDF3YQsr2p0J1iwfFvBtIblsL-jg9aoILR7wiyYUDqXSg8-h3h94owrCFz/pub?w=1000)
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From [physical dynamics](https://en.wikipedia.org/wiki/Dynamics_(mechanics)), [physical quantities](https://en.wikipedia.org/wiki/Physical_quantity) are arranged into the ((67bd787d-4b28-42a0-a7b6-ba4bd60e5523)).
+			  collapsed:: true
+		- ### Circle Dynamic
+		  id:: 67bd3614-2520-4a5d-8b3f-44f60901844e
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67bd3614-2520-4a5d-8b3f-44f60901844e)) is the basic dynamic...
+		- ### Calculus of Dynamics
+		  id:: 69292bbb-c2dc-496d-9a04-bb4529407b25
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-11-28 Fri 11:57:58]
+		  :END:
+			- $\exp()$, the [eigenfunction](https://en.wikipedia.org/wiki/Eigenfunction) of linear differential operator, is the basic ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)).
+			  collapsed:: true
+				- DE: $d f(x) = f(x) dx$
+				- The micro image projected from the macro world is the driving force of the body.
+				- Obop form: $d f(x)$
+				- Ob: $d$ (diff); op: `+=` (accumulation, cumulative sum) $(1 + d)$
+				- Viewcone: the extent $f(x)$ at the base is projected by $dx$ to the image $d f(x)$ at the apex.
+				- Dynamic circle: $f(x)$ ⤚[view]→ $d f(x) = f(x) dx$ ⤚[accum]→ $f(x)$
+				- View cone = 1-to-all relation $v(A) = V(A)dt$: its accumulation 
+				  A `+=` v(A) = $(1 + v)(A)$ = (self + image)(A) 
+				  over time becomes $\exp()$: 
+				  $A(t) = [(1 + V dt)^{t/dt}](A(0)) = \exp(V t)(A(0))$
+					- Philosopher view cone (meta), power set, simplices: $V = dt = 1 => P(S) = (1+1)^S$
+					- Binomial power $(1 + x)^n$
+					- Extensional view: particle moving in spacetime: V is tangent vector of A state space in direction $d(V)$, i.e. V(A) is the tendency of A's transition in direction $d(V)$. Path A(0) -> A(t) is the projection of tangent vector V t onto state space. Circle is a basic tangent space.
+					- Intensional view: wave of threads weaving network in body:...
+			- The [roots of unity](https://en.wikipedia.org/wiki/Root_of_unity) and $n$-th unit $j_n$ (like “negativity” $j_2 = -1$, and “imaginarity” $j_4 = i$) are derived from the $n$-th order ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)) differential equation $f^{(n)} = f$.
+			  id:: 692d5030-9310-4835-a021-87e88136446e
+				- Let $j_n$ be the $n$^{th} unit arising from $n$^{th} order self-effect.
+				- The $\exp()$ function arises from the first order: $f' = f ⇒ j_1 = \sqrt[1]{1} = 1$.
+				- The negative unit $-1$ arises from the second order: $f'' = f ⇒ j_2 = \sqrt[2]{1} = -1$.
+				- The [imaginary unit](https://en.wikipedia.org/wiki/Imaginary_unit) $i$ and $\sin()$ function arise from the fourth order: $f^{(4)} = f$, or $f'' = - f ⇒ j_4 = \sqrt[4]{1} = i$.
+					- This gives rise to the ((67bd3614-2520-4a5d-8b3f-44f60901844e)).
+				- Derivation
+				  collapsed:: true
+					- 1. The first-order self-effect with scaling factor $λ$:  Let's rewrite $f' = λ⋅f$ in differentials to see its internal structure.
+						- $df(x) = f'(x)⋅dx = λ⋅f(x)⋅dx = f(x)⋅(λ⋅dx) =: d_λ[f(x)]$
+						- Here, we define the differential operator $d_{λ}$ acting on $f$, for $λ$-scaled self-effect, to be multiplication by $λ⋅dx$.
+						- 1.1. The $\exp()$ function arises from the first order: Applying the definition of differential to the equation, we directly get the result function to be a limit of repeated multiplication, i.e. [exponentiation](https://en.wikipedia.org/wiki/Exponentiation).
+						  collapsed:: true
+							- $df(x) = f(x+dx) - f(x) = λ⋅f(x)⋅dx$
+							- Thanks to $df(x) \sim f(x)$, we can factor $f(x)$ out
+							  $f(x+dx) = f(x) + f(x)⋅λ⋅dx = (1 + λ⋅dx)f(x)$
+							- Recursively apply the factorization until $f(0)$
+							  $f(x) = (1 + λ⋅dx)f(x-dx) = (1 + λ⋅dx)^2 f(x-2dx) =...$
+							  $= (1 + λ⋅dx)^{x/dx} f(0)$
+							- Let $ε = λ⋅dx$, $M = 1/ε$, $N = x/dx = λ⋅x⋅M$, and $I = f(0)$ we have
+							  $f(x)$ 
+							  $= I⋅ \lim_{ε→0}(1 + ε)^{λ⋅x/ε} = I⋅ (\lim_{ε→0}(1 + ε)^{1/ε})^{λ⋅x}$ 
+							  $= I⋅ \lim_{N→∞}(1 + {λ⋅x/N})^N = I⋅ (\lim_{M→∞}(1 + {1/M})^M)^{λ⋅x}$
+							  $=: I \exp(λ⋅x)$
+							- The $x$-independent limit is the [natural base of exponential](https://en.wikipedia.org/wiki/E_(mathematical_constant)) (Euler's number)
+							  $e = \lim_{ε→0}(1 + ε)^{1/ε} = \lim_{M→∞}(1 + 1/M)^M$
+							- Then the solution to the first-order self-effect is the scaled $\exp()$ function
+							  $f(x) = I \exp(λ⋅x) = f(0)⋅e^{λ⋅x} = e^{λ⋅x + \ln(I)}$
+					- 2. The $n$-th order self-effect from 1st order: Applying $d_{λ}$ recursively $n$ times, we get the $n$-th order with scaling factor $λ^{n}$.
+						- $d^n f(x) = d^n_λ[f(x)] = f(x)⋅(λ⋅dx)⋅(λ⋅dx)⋅...⋅(λ⋅dx)$
+						- $d^n f(x) = f(x)⋅(λ⋅dx)^n = λ^n⋅f(x)⋅(dx)^n$
+						- $f^{(n)} = λ^n⋅f$
+					- 3. Set the $n$-th order scaling factor to unity: To get the “unit self-effect” ⟪ $f^{(n)}=f$ ⟫, we set its scaling factor $λ^n = 1$. Then the first-order scaling factor $λ$ becomes an $n$-th root of unity:
+						- $f^{(n)} = λ^n⋅f = f \; ⟹ \; λ^{n}=1 \; ⟹ \; λ = \sqrt[n]{1}$
+						- The trivial value is $λ = 1$, because $1^n = 1$, but it's not the only one.
+					- WAIT 4. Fan the roots out by different derivatives: By choosing different functions for different orders of derivative $f^{(k)}, k: 1..n$, we obtain $n$ different values for $n$-th root of unity from $k$-th order scaling factor – each $k$ gives a root value $λ^k$.
+					  :LOGBOOK:
+					  CLOCK: [2025-12-01 Mon 09:55:53]
+					  :END:
+						- $(λ^k)^n = (λ^n)^k = 1^k = 1$ and $λ^k ≠ λ^m$ for $k ≠ m$ in $1..n$.
+						- The $n$-th unit $j_n$ is defined to be the first-order scaling factor $λ$, which is the first root in $n$ roots.
+						  $j_n := λ = \sqrt[n]{1}$
+						- 4.1. The negative unit $-1$ arises from the second order:
+						- 4.2. The imaginary unit $i$ and $\sin()$ function arise from the fourth order:
+		- ...
 	- ## world
 	  id:: 667cfac2-17f1-4cbd-9f6d-1e722ff2a870
 	  collapsed:: true
@@ -1556,7 +2043,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ### viewpoint
 		  id:: 667272b8-88a8-4928-a22a-35035c9edf05
 		  collapsed:: true
-		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66728236-5b19-425c-bb5f-dfc0dc8b79fd))
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((68a7d02b-ebf4-4356-a98a-e881ae817f6a)), ((66728236-5b19-425c-bb5f-dfc0dc8b79fd))
 			- center of projection
 			  id:: 66728236-5b19-425c-bb5f-dfc0dc8b79fd
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667272b8-88a8-4928-a22a-35035c9edf05))
@@ -1564,6 +2051,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 66728162-7ad9-4b46-b7ce-dfffc58254bc
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- "Point of view" is an ambiguous term, whose literal meaning is a ((667272b8-88a8-4928-a22a-35035c9edf05)), but its figurative meaning is a ((667259a0-aa2e-49fa-bcbd-b3768a9f30b2)).
+		- ### view scale
+		  id:: 68c763ce-b8e4-4091-b3b8-e188a16ea431
+		  collapsed:: true
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((68c763fb-ca93-4f2d-b20f-ae8cbf5cf8e2))
+			- viewscale
+			  id:: 68c763fb-ca93-4f2d-b20f-ae8cbf5cf8e2
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((68c763ce-b8e4-4091-b3b8-e188a16ea431))
+			-
 		- ### view cone
 		  id:: 6672513b-c4b0-4c88-8b30-c60a3c6555a7
 		  collapsed:: true
@@ -1578,15 +2073,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- cause cone
 			  id:: 667bda02-8dc9-488e-ba16-ea75c3d7895c
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When the large world is ((66c83149-6ee5-4a8c-b4eb-0308d1a11535))ed to a little image, it creates a [cone](https://en.wikipedia.org/wiki/Cone) shape called ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)), whose base is the world and apex is the ((68a7d02f-7010-49b2-8dfa-a50e8b371066)). The ((68875ace-d35f-44c6-9a9f-e7f7fc29f19d)) from the base to the apex is opposite to the ((68875bab-dd31-4bbd-bd31-3a821fc5310c)) from the apex to the base.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When the large world is ((66c83149-6ee5-4a8c-b4eb-0308d1a11535))ed to a little image, it creates a [cone](https://en.wikipedia.org/wiki/Cone) shape called ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)), whose base is the world and apex is the ((66728236-5b19-425c-bb5f-dfc0dc8b79fd)). The ((68875ace-d35f-44c6-9a9f-e7f7fc29f19d)) from the base to the apex is opposite to the ((68875bab-dd31-4bbd-bd31-3a821fc5310c)) from the apex to the base.
 				- view cone of an ((669a2487-054d-4408-ae41-189e34af81a9))
 					- ![ViewCone](https://docs.google.com/drawings/d/e/2PACX-1vTyqULvkXhaHRWBNVjM6jxDCuMnoh-o7n7bAMm7hOSGlRtL42FL59z4Dpey-4Sbo9bzkJVE-AQ9RFj1/pub?w=145&h=125)
 			- eye point
 			  id:: 68a7d02b-ebf4-4356-a98a-e881ae817f6a
-			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((68a7d02f-7010-49b2-8dfa-a50e8b371066))
-				- projection center
-				  id:: 68a7d02f-7010-49b2-8dfa-a50e8b371066
-				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((68a7d02b-ebf4-4356-a98a-e881ae817f6a))
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((667272b8-88a8-4928-a22a-35035c9edf05)), ((66728236-5b19-425c-bb5f-dfc0dc8b79fd))
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68a7d02b-ebf4-4356-a98a-e881ae817f6a)) is the apex of the ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) where all ((671b6fee-d1e3-43f0-a5a5-7033e48d6e56))s converge.
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- In biological eye, ((68a7d02b-ebf4-4356-a98a-e881ae817f6a)) is the [nodal point of the eye](https://en.wikipedia.org/wiki/Cardinal_point_(optics)#Nodal_points_and_the_eye).
@@ -1628,7 +2120,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- principal (orthogonal) lines = lines parallel to the viewing direction in 3D corresponding to image lines converging to the [principal vanishing point](((673a04c4-6c6a-4b75-b336-45a8f149550d)))
 						  id:: 6739fd3d-066d-46a6-b9f3-3dbab8c9d817
 						- ((68a7d179-b663-42bd-85b9-6c18be6b6c97)) = ((68a7d163-32b3-4903-8f4b-a45f7fac6b51)) is the plane where the world is projected onto.
-						- ((68a7d02f-7010-49b2-8dfa-a50e8b371066)) = ((68a7d02b-ebf4-4356-a98a-e881ae817f6a)) = apex of the view cone is the point where all light rays converge.
+						- ((66728236-5b19-425c-bb5f-dfc0dc8b79fd)) = ((68a7d02b-ebf4-4356-a98a-e881ae817f6a)) = apex of the view cone is the point where all light rays converge.
 						- perspective lines = orthogonals = parallel lines in 3D with image lines converging to a [vanishing point](((673a0211-a4ef-4548-acc5-f9141de253cb)))
 						  collapsed:: true
 							- Many ones define “orthogonal lines” as just the parallel lines with converging image lines, like [in Creative Glossary](http://www.creativeglossary.com/art-perspective/orthogonal-lines.html), [in GCELT](https://gcelt.org/what-are-converging-lines-in-art-unveiling-the-power-of-perspective/), [by DonCorgi](https://doncorgi.com/blog/types-of-perspective-drawing/), [in Rapid Fire Art](https://rapidfireart.com/2017/07/18/lesson-6-introduction-to-linear-perspectives/), [by Ms. Chang](http://www.mschangart.com/architecture/perspective-drawing), [by Helen South](https://www.liveabout.com/orthogonals-drawing-definition-1123067), etc.
@@ -1746,7 +2238,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- This is the branching structure of [data structure tree](((66751015-5c34-493e-9663-4f0f5234b66e))) as well as mind maps.
 						- The stem circle adds temporal lineage (time) to the branching structure (space) of the data structure tree.
 							- The stem circle says to the pure spatial data structure tree:
-								- The stem line isn’t gone.
+								- The stem line isn't gone.
 								- It just curled into the node,
 									- folded like memory,
 									- condensed like a tuber,
@@ -1848,7 +2340,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								  collapsed:: true
 									- ![root_types-768x349.png](../assets/ecosystem/root_types-768x349.png)
 									- Ref: [3 Types of Tree Root Systems](https://aplustree.com/3-types-of-tree-root-systems/)
-									- **Tap roots:** Every tree starts with a tap root that provides stability and absorption. Over time, other roots outgrow the taproot. Most taproots don’t continue to grow ever more deeply because deep soils lack the oxygen and nutrients that roots need to survive.
+									- **Tap roots:** Every tree starts with a tap root that provides stability and absorption. Over time, other roots outgrow the taproot. Most taproots don't continue to grow ever more deeply because deep soils lack the oxygen and nutrients that roots need to survive.
 									- **Lateral roots**: Lateral roots grow outwards right under the soil surface. They absorb a lot of water and nutrients as well as anchoring the tree.
 									- **Oblique/heart roots:** Oblique roots, also known as heart roots, grow at a diagonal and have the same function as lateral roots.
 									- **Sinker roots:** Sinker roots grow downwards from the lateral roots to a depth of several feet. There, lateral roots take advantage of any water and nutrients deeper in the soil in addition to increasing tree stability.
@@ -1867,7 +2359,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 										- **Common Species:** Honey locust, red oak, sycamore. More common in Mediterranean and arid climates.
 									- Lateral root systems
 										- ![lateral_root_system-300x112.png](../assets/ecosystem/lateral_root_system-300x112.png)
-										- **Stability:** Lateral root systems obtain their stability from tree weight and root spread. These root systems don’t necessarily have a lot of root mass, but because the roots are so widespread, the tree can be supported without investing so much in roots. About 80% of tree species and most urban trees have lateral root systems.
+										- **Stability:** Lateral root systems obtain their stability from tree weight and root spread. These root systems don't necessarily have a lot of root mass, but because the roots are so widespread, the tree can be supported without investing so much in roots. About 80% of tree species and most urban trees have lateral root systems.
 										- **Common Species:** Ash, birch, cottonwood, hackberry, maple.
 								- Depth of roots
 								  collapsed:: true
@@ -2054,7 +2546,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- The future [light cone](https://en.wikipedia.org/wiki/Light_cone) in physics is a ((667bd931-8759-4008-8a9a-33e78a5cbdf3)).
 			- ### action cone
 			  id:: 6847e436-9a84-42c5-a853-75f6d626ed63
-			  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((66ea8dbe-042e-41fc-a07c-841dcb5a737a))
+			  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((68df36a4-6a3e-4fc9-b44a-c8e92f62aee1))
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6847e436-9a84-42c5-a853-75f6d626ed63)) is the part of ((667bd93a-cce4-4dbf-9831-725e4dffe463)) limited within the ((66c810a0-9861-4787-bdcf-1378219332be)) of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)). The cone shape is caused by the [tree structure](((667252dc-e610-4d07-bcd0-9ea6fb4499fd))) of the body which makes the action of the central operator spread out to peripherals. The tree structure of executions, like function calls in computer programs, also makes the the action spread out in time.
 		- ### actor
 		  id:: 669a26cb-50d8-4347-a5c4-7c0c3acf1211
@@ -2083,6 +2575,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- force = ((67bc1f83-d9c4-4ee0-ac61-0de196425208)) 
 			  id:: 67b5c77d-c42c-4dc5-8d47-fd82f535177a
 			  collapsed:: true
+			  ob = op
 			  ⇒ F_{in} + F_{ex} = 0 
 			  ⇔ my curvature + your curvature = 0 
 			  ⇔ |my distortion| = |your distortion|
@@ -2103,14 +2596,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 6851578b-9b1f-4367-878f-79b0b0b9be51
 		  collapsed:: true
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6851578b-9b1f-4367-878f-79b0b0b9be51)) is the ((667bef22-b272-4a7d-b613-3f1ed1a47329)) through an ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)). Because both nappes extend infinitely out to the external world, two “ends” of the double cone is connected by the ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) to form the ((6889a623-34cd-4b65-8a91-5cfdbb199b71)).
-				- Structure: ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) > ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) > ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) ⟨ ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) > ((66c8772a-9b29-45b0-b169-2fa847333e02)) < ((66727858-979d-4d95-8a90-7a749218cfba)) ⟩ < ((6847e436-9a84-42c5-a853-75f6d626ed63)) < ((667bd93a-cce4-4dbf-9831-725e4dffe463))
-					- Diagram
-					  id:: 68514e8a-899e-4ae3-9164-44058cf139fa
-						- ![CauseEffectCone](https://docs.google.com/drawings/d/e/2PACX-1vT-mk-5M1GkDtoHwER_IkMQAhi6M5N1zzScgIEaQ3BSdEPZdsSgYoSP3URUt0Q0KD0wy--7cDCzXWU8/pub?w=300)
-			- intent–action double cone
+				- Structure: ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) > ((68df36a4-6a3e-4fc9-b44a-c8e92f62aee1)) > ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) ⟨ ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) > ((66c8772a-9b29-45b0-b169-2fa847333e02)) < ((66727858-979d-4d95-8a90-7a749218cfba)) ⟩ < ((6847e436-9a84-42c5-a853-75f6d626ed63)) < ((667bd93a-cce4-4dbf-9831-725e4dffe463))
+				- Diagram
+				  id:: 68514e8a-899e-4ae3-9164-44058cf139fa
+					- ![CauseEffectCone](https://docs.google.com/drawings/d/e/2PACX-1vT-mk-5M1GkDtoHwER_IkMQAhi6M5N1zzScgIEaQ3BSdEPZdsSgYoSP3URUt0Q0KD0wy--7cDCzXWU8/pub?w=300)
+			- perception–action double cone
 			  id:: 685156b0-2f3b-4aa9-8b87-636d38a02cd2
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) is the part of the ((6851578b-9b1f-4367-878f-79b0b0b9be51)) limited within the ((66c810a0-9861-4787-bdcf-1378219332be)) of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)), i.e. intent cone > obop < action cone. As both nappes intend infinitely into the internal world of the subject, the double cone has a complex structure: the double cone folds back on itself to be a single cone and is modularized into layers of obops in the chain of active intents.
-					- Note: Unlike the infinite cause–effect double cone, the intent–action double cone has finite bases, which are ((669a2886-9e03-41a4-a790-24bf6b7dcd96))s + ((66ea8d84-c766-4c47-b06c-a0b57a530096)) on the intent side, and ((6889abf7-7c3c-4ef5-80fe-3edca20268bd))s + knowledge cone base on the action side.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) is the part of the ((6851578b-9b1f-4367-878f-79b0b0b9be51)) limited within the ((66c810a0-9861-4787-bdcf-1378219332be)) of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)), i.e. perception cone > obop < action cone. As both nappes intend infinitely into the internal world of the subject, the double cone has a complex structure: the double cone folds back on itself to be a single cone and is modularized into layers of ((68df2d82-e1d5-49c4-ac40-d45cf26f840c))s.
+					- Note: Unlike the infinite cause–effect double cone, the perception–action double cone has finite bases, which are ((669a2886-9e03-41a4-a790-24bf6b7dcd96))s + ((66ea8d84-c766-4c47-b06c-a0b57a530096)) on the perception side, and ((6889abf7-7c3c-4ef5-80fe-3edca20268bd))s + knowledge cone base on the action side.
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) versus ((66727858-979d-4d95-8a90-7a749218cfba)) in karma
 					  id:: 66e7d7dd-5f88-472c-8694-beb7222929bb
@@ -2141,7 +2634,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- Warning: Don't fall in to the ((689ed9d5-817a-4269-bd02-503f56e32e09)).
 						- **Intent-Only Fallacy**
 						  id:: 689ed6c2-2071-40c9-ac7d-64858153a391
-						  “If I don’t intend to do it, I won’t face the consequences!”
+						  “If I don't intend to do it, I won't face the consequences!”
 						  ((665359e4-4597-4775-b849-f9acbb98960a)) ((689ed9d5-817a-4269-bd02-503f56e32e09))
 							- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Misunderstanding the depth of karmic storage, people usually conflate karma with current intentions, forgetting the past intentions in the [old karmas](((68a29127-ae47-424a-8197-f34f77b7d7f9))), leading to the ((689ed6c2-2071-40c9-ac7d-64858153a391)). This fallacy omits the laten tendencies ([anusayā](((66e80666-5f29-4419-8db1-bf8cdce893e4)))), which are the impression of the past intentions, from the karmic causes.
 							- **Delusion of No-Malice Exemption**
@@ -2150,13 +2643,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((689ed6c2-2071-40c9-ac7d-64858153a391))
 						- [Anusayā](((66e7e6c2-3856-496b-99b7-75ac46547c86))), the [dormant intent](((686ce608-1a1b-4b57-993a-fe8e943dc916))), the [underlying tendency](https://suttacentral.net/define/anusay%C4%81?lang=en), the **attitude** of the mind in response to stimuli, determines both intention and what karmic fruit to be experienced.
 						  id:: 66e80666-5f29-4419-8db1-bf8cdce893e4
-							- This anusayā·cetanā is the obop at the apex of the ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)), which is the central part of the karmic ((667c0031-0a87-44c9-9e98-6d45893b095f)).
+							- This anusayā·cetanā is the hidden obop at the apex of the ((68df2d82-e1d5-49c4-ac40-d45cf26f840c)), which is the central part of the karmic ((667c0031-0a87-44c9-9e98-6d45893b095f)).
 								- > Give, and it will be given to you.
 								  
 								  -- Luke 6:38
 							- The anusayā is accumulated and works in the unconscious, hence cannot be controlled directly. So, the only way to change karma (fruit) is via intention which is right in our consciousness.
 								- We can indirectly change anusayā by the intention of cleansing it.
-							- > It’s not what happens to you, but how you react to it that matters.
+							- > It's not what happens to you, but how you react to it that matters.
 							  
 							  -- Epictetus
 						- Suttas about ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) ([anusayā]cetanā)
@@ -2172,7 +2665,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- The “mind (mano)” here [refers to its active aspect](https://suttacentral.net/dhp1-20/en/sujato), i.e. mental karma, which is itself preceded by intention (cetanā).
 									- The central role of intention is also stressed by the associated [story of Cakkhupāla Thera](https://www.wisdomlib.org/buddhism/book/dhammapada-illustrated/d/doc1084241.html), given in the comentary Dhammapada-aṭṭhakathā.
 							- Numbered Discourses > 21. The Body Born of Deeds > 10.217. [Intentional (Volitional)](https://suttacentral.net/an10.217/en/bodhi)
-							  > Mendicants, I don’t say that intentional deeds that have been performed and accumulated can be eliminated without being experienced (as results)... And I don’t say that suffering can be ended without experiencing (the results of) intentional deeds that have been performed and accumulated.
+							  > Mendicants, I don't say that intentional deeds that have been performed and accumulated can be eliminated without being experienced (as results)... And I don't say that suffering can be ended without experiencing (the results of) intentional deeds that have been performed and accumulated.
 								- This sutta explains the karmic chain from intentional seed to its fruits by examples.
 							- Linked Discourses on the Six Sense Fields > The First Fifty > Impermanence > 35.146. [The Cessation of Deeds (Karmas)](https://suttacentral.net/sn35.146/en/sujato) (35.145. [Kamma Sutta](https://www.dhammatalks.org/suttas/SN/SN35_145.html))
 							  id:: 68a29127-ae47-424a-8197-f34f77b7d7f9
@@ -2182,18 +2675,18 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  #+END_QUOTE
 								- This sutta clarifies the old karmas, which have been accumulated into the body-mind, versus the new karmas which are current actions with intention.
 							- Numbered Discourses > 18. Intention > 4.171. [Intention](https://suttacentral.net/an4.171/en/sujato)
-							  > + Mendicants, as long as there’s a body, the intention that gives rise to bodily action causes pleasure and pain to arise in oneself. ... But these only apply when conditioned by ignorance.
+							  > + Mendicants, as long as there's a body, the intention that gives rise to bodily action causes pleasure and pain to arise in oneself. ... But these only apply when conditioned by ignorance.
 							  > + By oneself one *makes the choice* that gives rise to bodily, verbal, and mental action, conditioned by which that pleasure and pain arise in oneself. ...
 							  > + Ignorance is included in all these things. But when ignorance fades away > nothing for pleasure and pain to arise.
 								- This sutta states that the karmic chain can be broken by clearing ignorance.
 							- Linked Discourses > 4. Kaḷāra the Aristocrat > 12.38. [Intention (Volition)](https://suttacentral.net/sn12.38/en/sujato)
 							  id:: 66e7e6c2-3856-496b-99b7-75ac46547c86
 							  > + Mendicants, what you intend or plan, and what you have underlying tendencies toward, this becomes a support for the continuation of consciousness. ... > rebirth > death > suffering.
-							  > + Mendicants, if you don’t intend or plan, but still have underlying tendencies toward something, this becomes a support for the continuation of consciousness. ... > rebirth > death > suffering.
-							  > + Mendicants, but if you don’t intend or plan, and don't have underlying tendencies toward anything, this doesn’t become a support for the continuation of consciousness. ... > no rebirth > no death > no suffering.
+							  > + Mendicants, if you don't intend or plan, but still have underlying tendencies toward something, this becomes a support for the continuation of consciousness. ... > rebirth > death > suffering.
+							  > + Mendicants, but if you don't intend or plan, and don't have underlying tendencies toward anything, this doesn't become a support for the continuation of consciousness. ... > no rebirth > no death > no suffering.
 								- This sutta states that the karmic chain cannot be broken if “underlying tendencies” (obsessions, anusayā) remain, and it can only be broken when both intentions and underlying tendencies are eliminated.
 								- Numbered Discourses > 2. Tendencies > 7.12. [Underlying Tendencies (anusayā)](https://suttacentral.net/an7.12/en/sujato)
-								  > When a mendicant has given up the underlying tendencies of sensual desire, repulsion, views, doubt, conceit, desire to be reborn, and ignorance —cut them off at the root, made them like a palm stump, obliterated them, so they are unable to arise in the future— they’re called a mendicant who has cut off craving, untied the fetters, and by rightly comprehending conceit has made an end of suffering.
+								  > When a mendicant has given up the underlying tendencies of sensual desire, repulsion, views, doubt, conceit, desire to be reborn, and ignorance —cut them off at the root, made them like a palm stump, obliterated them, so they are unable to arise in the future— they're called a mendicant who has cut off craving, untied the fetters, and by rightly comprehending conceit has made an end of suffering.
 								- These underlying tendencies are latent [kleśas](https://en.wikipedia.org/wiki/Kleshas_(Buddhism)), the most hidden ones.
 									- Vitikamo-kilesa: *Ngoại phiền não, phiền não vi phạm*: các loại phiền não đã bộc lộ ra ngoài bằng thân hay khẩu, thành những hành động phạm giới. Phiền não loại nầy được chế ngự do sự hành trì giới luật.
 									- Pariyutthana-kilesa: *Nội phiền não, phiền não ám ảnh*: các loại phiền não phát sanh trong tâm ngay lúc nhận biết cảnh, không biểu lộ ra ngoài, người nào có người đó biết, người khác không biết được, nhưng nếu với con mắt tinh tế cũng có thể biết được. Phiền não loại nầy được khắc phục do thiền định, dùng tâm thiền để chế ngự chúng.
@@ -2204,7 +2697,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  :LOGBOOK:
 						  CLOCK: [2024-09-17 Tue 19:51:07]
 						  :END:
-							- [The Heart’s Intention](https://dharmawisdom.org/the-hearts-intention/)
+							- [The Heart's Intention](https://dharmawisdom.org/the-hearts-intention/)
 							  > Setting intentions is not the same as making goals. Understanding the difference can lead to more skillful living and less suffering.
 							  GOALS VS. INTENTIONS; Misusing Good Intentions; Mixing Motives; Sowing Karmic Seeds; Developing Resolve
 							- [The Power of Intention: Turning Thoughts into Reality](https://www.livinginthegap.org/blog/the-power-of-intention-turning-thoughts-into-reality)
@@ -2221,10 +2714,43 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) "intensive intent" + commitment -> vow (pranidhāna, a tool usually used in Mahayana)
 							- [Intention is the practice](https://www.lionsroar.com/intention-is-the-practice/)
 							  > On the Buddhist path, our intention deepens into commitment and then into vow. At that point, our intentions and our life become one.
+			- intent double cone
+			  id:: 68df2d82-e1d5-49c4-ac40-d45cf26f840c
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68df2d82-e1d5-49c4-ac40-d45cf26f840c)) is the reflection of the ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) into the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)), hence a structure of active ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))s, usually in the shape of a chain or a tree.
+				- Two nappes:
+					- While in everyday life and classical maths & programming, people normally focus on the **operative intent cone** of ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae))s,
+					- in ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)), ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)) mainly deals with the **formative intent cone** for observation and learning through the ((68df36a4-6a3e-4fc9-b44a-c8e92f62aee1)):
+						- the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)) of qualia, imaginals (mental images), and
+						- the ((66ea8df3-d2f3-4856-b24a-5095dd285f9b)) of concepts, notions, intention.
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- ((68dfc246-ea07-4c54-a0a4-2361f1a9055e))
+					- Logics: inductive logic in the formative intent cone ↔ deductive logic in the operative intent cone
+					  :LOGBOOK:
+					  CLOCK: [2025-11-04 Tue 14:23:12]
+					  :END:
 			- cause–effect mirror circles
 			  id:: 6889a623-34cd-4b65-8a91-5cfdbb199b71
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6889a623-34cd-4b65-8a91-5cfdbb199b71)) is the circular ((6851578b-9b1f-4367-878f-79b0b0b9be51)), where the base of the effect cone folds back to be the base of the cause cone, forming the external ((667c0031-0a87-44c9-9e98-6d45893b095f)) through the external world. The external effect circle contacts various internal effect circles through the intent–action double cone, which is modularized into layers of obops in the chain of active intents. This is the mirroring mechanism between the external world and internal world (knowledge cone).
-					- Structure: external ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) > ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s ((66c810a0-9861-4787-bdcf-1378219332be)) ( ((669a2886-9e03-41a4-a790-24bf6b7dcd96))s + ((66ea8d84-c766-4c47-b06c-a0b57a530096)) > ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) > ((6889abf7-7c3c-4ef5-80fe-3edca20268bd))s + knowledge cone base ) > external world
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6889a623-34cd-4b65-8a91-5cfdbb199b71)), or simply “mirror circles”, are interlocking multiple ((667c0031-0a87-44c9-9e98-6d45893b095f))s formed by the folding of ((6851578b-9b1f-4367-878f-79b0b0b9be51)).
+					- external effect circle
+					  id:: 6909a3ff-8c16-4222-967a-f019759ca65c
+					  The base of the effect cone folds back, through the external world, to be the base of the cause cone, forming the external effect circle.
+					- knowledge circle
+					  id:: 6909a541-f4da-48ce-af9e-31f499125b00
+					  As the ((68df2d82-e1d5-49c4-ac40-d45cf26f840c)) reflects the ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) into the obop, the external effect circle is mirrored into the internal effect circle called “knowledge circle”.
+					- The external effect circle and various knowledge circles keep contact together through layers of obops. This is the mirroring mechanism between the external world and internal world (knowledge cone).
+					- Structure: external ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) > ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s ((66c810a0-9861-4787-bdcf-1378219332be)) ( ((669a2886-9e03-41a4-a790-24bf6b7dcd96))s + formative intent cone > ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) > operative intent cone + ((6889abf7-7c3c-4ef5-80fe-3edca20268bd))s ) > external world
+					- Diagram
+						- ![CauseEffectMirrorCircles](https://docs.google.com/drawings/d/e/2PACX-1vSq3nYCfegxupQJv3D7nIddp2tKbmf3YvzKeXQqd8kZ5hzTUN8lGNE9i-Tf8hXwSlIShgySaBgtXLRY/pub?w=500)
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- The ((6909a541-f4da-48ce-af9e-31f499125b00)) is to ((6909a3ff-8c16-4222-967a-f019759ca65c)) as ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) is to ((66b1cfa4-3a39-4672-9da2-cd3bcef71702)).
+					  collapsed:: true
+					  :LOGBOOK:
+					  CLOCK: [2025-11-11 Tue 11:10:00]
+					  CLOCK: [2025-11-11 Tue 11:10:08]--[2025-11-11 Tue 11:14:21] =>  00:04:13
+					  :END:
+						- The knowledge circle includes intent cones in the obop, while the effect circle includes the double cones extended from the obop to the body (perception–action) and to the world (cause–effect).
+						- In dimensional view, the knowledge circle is othogonal to the effect circle.
+							- Knowledge circle has the $i$ dimension of *internal, imginary, temporal*, in contrast to the effect circle's dimension $e$ of *external, real, spatial*.
 		- Mutual exclusiveness
 		  collapsed:: true
 		  “thấy không làm, làm không thấy”  
@@ -2279,7 +2805,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  ((6699eb54-ce9e-4472-a784-c59ffd47f02b)) ((669a2487-054d-4408-ae41-189e34af81a9)), ((669a26cb-50d8-4347-a5c4-7c0c3acf1211))
 		- obop
 		  id:: 94e87dc9-71af-477c-aa70-0f448c2f1e20
-		  collapsed:: true
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a))
 		  ((6699eb54-ce9e-4472-a784-c59ffd47f02b)) ((669a2487-054d-4408-ae41-189e34af81a9)), ((669a26cb-50d8-4347-a5c4-7c0c3acf1211))
 			- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “obop” is pronounced “ob-op” /əbˈɒp/, not “o-bop”.
@@ -2346,6 +2871,21 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- At the "observer" side of the obop, the intent itself is the ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) which is driven by the underlying tendency, or attitude, or [anusayā](((66e7e6c2-3856-496b-99b7-75ac46547c86))) in Buddhism.
 			- ((66f29d57-a87f-4370-9f32-722922a7bff1))
 			- ((684f9515-8f95-4004-8aa8-04a10d1ebf11))
+			- Obop model in various fields
+			  id:: 694a8194-3a16-4d52-9d60-d88aeaf125b5
+			  collapsed:: true
+				- Unithread: ob viewcone = input circle; op = output arrow
+					- FoC: ob = division = content -> form; op = multiplication = form -> content
+						- In function: form = parameter; content = variable value
+						- Network: form = connection weight; content = node values (state)
+						- Uninet: no static distinction between form & content. Their roles are relative to position.
+							- In the sequence of sustents, lower intent = higher content
+					- Quantum: only when the whole input circle receives full data, is the op activated to [take action](((6847e7fa-0d57-425c-b035-1a62db7725e6))).
+					- Qualiton: The whole input circle is qualified by matching with its internal image.
+				- Water scoop: ob viewcone = scoop; op = pounding
+				- $f(t) = \exp(t)$: ob viewcone = $f(t) dt$; op = `+=`
+				- Neuron: ob viewcone = tree of dendrites; op = activation (action potential passed through axon)
+		-
 	- ## aware
 	  id:: 66f267bf-5272-4dde-99a1-b220ba5bd852
 	  collapsed:: true
@@ -2516,11 +3056,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 66f3c32c-9b5a-4e5a-95cc-411256b40b4f
 		  collapsed:: true
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66b1cfa4-e22c-4424-bf19-a6ce4649da77))
-			- The symbol “Ψ” is chosen because the Greek letter [psi](https://en.wikipedia.org/wiki/Psi_(Greek)) is not only pronounced similar to “cie”, but also composed of all three capitalized letters “C, I, E”.
+			- The symbol “Ψ” is chosen because the Greek letter [psi](https://en.wikipedia.org/wiki/Psi_(Greek)) is not only pronounced similar to “cie”, but also composed of all capitalized letters of CIE, “C, I, E”.
 				- ![Ψ=CIE](https://docs.google.com/drawings/d/e/2PACX-1vQ6ABmYQuLzB63u_0hmw7ow80bpcBAxccuQ29IFJtJ2XaEQdvED2urKs0OE67JZaYMgFgWWYnmWKA4X/pub?w=334&h=159)
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) While the three components of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) (`○`, `↑`, `=`) show the ((66c82f42-16bb-4886-a32b-5c246187cfee)) and qualitative structure of the Universe, the Trinion itself observes the Universe via the ((66c88055-a994-4e59-a7dc-83f3331a6e1d)) and quantitative ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)) (obop) of the ((66f3b5e5-496a-4545-be7a-b1df2d94bd11)). The ((66f3c6a9-1486-46de-92fe-75aaeaf67834)) (`◉`) works with the three components ((66b1cfa4-2537-4361-a626-da81ca5b4e6f)), ((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9)) and ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)), as shown in the “CIE” formula “content ÷ intent = extent” or “content = intent × extent”, where *extent* is the image of the object's *content*, and *intent* gives meaning to that image.
 			- ![CIE-equation](https://docs.google.com/drawings/d/e/2PACX-1vSc09u5xNTzIIOWMw1gQgZgADjw87DWf6jrdIZ188VWCFxrC_NLX7pLOqyziDg4OkWCHBlRU6iiyhm1/pub?w=210&amp;h=165)
-			- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “CIE” is pronounced /saɪ/ or /si/ whichever rhymes with the Greek letter ((66f3c32c-9b5a-4e5a-95cc-411256b40b4f)).
+			- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “CIE” is pronounced /saɪ/ or /siː/ whichever rhymes with the Greek letter ((66f3c32c-9b5a-4e5a-95cc-411256b40b4f)).
 		- content
 		  id:: 66b1cfa4-2537-4361-a626-da81ca5b4e6f
 		  $c$
@@ -2624,7 +3164,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) theory, all forms are generated through the ((66f40210-cca6-4d81-85e7-d0c54ef20451)) mechanism by the ((687f5b57-04c6-4e38-9b67-4a22cbf6e3df)) between the ((66b1cfa4-2537-4361-a626-da81ca5b4e6f)) and the ((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9)) $c⋇i$.
 			  id:: 6735b187-6f6a-4dee-9f22-b7db6f8af855
 				- ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) ... [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) with remainder: sustent = content + form, intent - extent - remainder
-				- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “SCIFER” is pronounced [“cipher”](https://en.wiktionary.org/wiki/cipher#English) /ˈsaɪfə/, or [“chiffre”](https://en.wiktionary.org/wiki/chiffre#French) /ʃifʁ/ in French (with the name reordered as “SCIFRE”).
+				- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “SCIFER” is pronounced [“cipher”](https://en.wiktionary.org/wiki/cipher#English) /ˈsaɪ.fə/, or [“chiffre”](https://en.wiktionary.org/wiki/chiffre#French) /ʃi.fʁ/ in French (with the name reordered as “SCIFRE”).
 				- Typsetting: To highlight the relation with the CIE, SCIFER may be typeset as $_{S}CI_{F}E^{R}$.
 				- Duals: form-content, sustent-extent, intent-extent, extent-phase
 					- extent-phase: the intent sees the _**extent** of the **content**_ (as it looks outward), and the _**phase** of the **remainder**_ (as it looks inward).
@@ -2927,7 +3467,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Law of the same content
 			  id:: 678e2046-54ac-4284-865d-6f3e38f589a1
 			  ((665ca495-93b4-47d4-a022-ce511b021a3d)) « ((678e1960-58d6-4cf3-8fe3-25f2f4489b33)) »
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The total content of any ((678e1c3f-6202-45aa-8527-f4bdad9927b9)), i.e. all arrows of any being, is the ((678e1d31-4874-4df6-bfb4-60822a6b5546)) of the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)). One being differs from other beings only through its form. That means each being (each instance of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8))), is just the ((66537a0b-d107-4f7e-b01f-bf624a647d8c)) manifesting in a particular form.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The total content of any ((678e1c3f-6202-45aa-8527-f4bdad9927b9)), i.e. all arrows of any being, is the ((678e1d31-4874-4df6-bfb4-60822a6b5546)) of the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)). One being differs from other beings only through its form. That means each being (each instance of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8))), is just the ((66537a0b-d107-4f7e-b01f-bf624a647d8c)) manifesting in a particular form. This is the strong form of the ((69367cf5-9894-4fb8-a293-2b1109777fc9)).
 			- Conservation of content
 			  id:: 67a983b4-f6ad-4abb-b611-7952168d83a2
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67a983b4-f6ad-4abb-b611-7952168d83a2)) is a special case of the ((678e2046-54ac-4284-865d-6f3e38f589a1)) when considering a single being throughout time.
@@ -2955,6 +3495,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- The Equal of the obop is tricky and contradictory: “Circle = Arrow” while they are apparently different!
 				- Different things being equal is the nature of Circle, i.e. ((66f3e66a-8afb-4b20-bf85-111bc4aee09c)).
 				- Contradiction is the nature of Arrow, i.e. ((66f3e588-9094-45af-9dff-2225c3ac39ab)).
+				  id:: 6926be20-fe64-46a4-96e4-d53fae9045df
 					- Contradiction is discussed in [dialectical materialism](https://en.wikipedia.org/wiki/Dialectical_materialism) via the statement “conflict is the driving force of change and transformation”.
 				- Positively, Equal is the “unifier” in dynamic sense, but negatively, Equal is the “liar” in static sense. And i usually say “*the [Liar Paradox](https://en.wikipedia.org/wiki/Liar_paradox) is the creator of all things!*”
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
@@ -2993,7 +3534,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									  “Quảng đức nhược bất túc” 
 									  “Those with noble Virtue seem lacking”
 									  “Người có Đức lớn dường như thiếu Đức”
-				- FoC dynamics ~ circle dynamics: equal = center, arrows = out & in radius, circle = trajectory of the arrowhead
+				- FoC dynamics ~ ((67bd3614-2520-4a5d-8b3f-44f60901844e)): equal = center, arrows = out & in radius, circle = trajectory of the arrowhead
 				  id:: 686e580a-876e-47cf-b2cc-1381bc64cdb9
 				  collapsed:: true
 					- point equal: the init close loop of arrows
@@ -3440,6 +3981,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- The double-dotted i (ï) denotes the unification of the two letters ‘ii’, hence its unified pronunciation /ˈjuːniːnfoʊ/ in stead of the separate one /ˈjuːnɪˌɪnfoʊ/.
 				  id:: 68a3ea54-f275-40b8-93ae-4a2bd8da4a06
 					- For the ease of typing on keyboard, the separate spelling “Uniinfo” is also used casually in place of the formal spelling “Unïnfo”.
+					- To avoid broken rendering, “Unïnfo” with precomposed ‘ï’ may be used instead of the standard “Unïnfo” with combined ‘ï’.
 				- Note: Don't read “Unïnfo” as “un-info” /ˈʌnˌɪn.foʊ/ – as if it means [“uninformation”](https://en.wiktionary.org/wiki/uninformation) (unwanted, untrue, useless information) or [uninformed](https://en.wiktionary.org/wiki/uninformed) (ignorant) which is quite different from the concept of unity at the heart of Unïnfo.
 				- Typographic note: While visualy indistinguishable, the letter ‘ï’ in ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) is neither [i with diaeresis (ï) [U+EF]](https://en.wikipedia.org/wiki/%C3%8F) nor [i-umlaut (`&iuml;`)](https://en.wikipedia.org/wiki/I-mutation), but an ‘i’ with [double dot (◌̈) [U+0308] above](https://en.wikipedia.org/wiki/Two_dots_(diacritic)#Vowels).
 				  id:: 68a520bf-ed90-4e1f-ae2a-0700d7f51b05
@@ -3470,7 +4012,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- ((66723642-58f1-4a74-bba3-0108f14c6bac)): ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)), ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)), ((685a47f5-728a-4b34-95c5-d8e3bba5aad1))
 					- ((678e2046-54ac-4284-865d-6f3e38f589a1))
 					- ((686e6e72-13f8-4dc9-a8e2-de35519f57d7))
-				- [Unitorus](https://bixycler.github.io/Uniinfo/Unitorus/UniTorus.html) – The Symbolic Icon of Unïnfo
+				- [Unitorus](https://bixycler.github.io/Uniinfo/Unitorus/UniTorus.html) – The emblem of Unïnfo
+				  id:: 68594391-f2b0-4501-86ec-af8b67346db9
 					- ![Unitorus-0720°-white.png](../assets/Uniinfo/Unitorus-0720°-white.png){:height 40, :width 60}
 			- ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) Theory [Ʊ]
 				- The ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) [((66f3c32c-9b5a-4e5a-95cc-411256b40b4f))]: ((66b1cfa4-2537-4361-a626-da81ca5b4e6f)) ÷ ((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9)) = ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8))
@@ -3659,7 +4202,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) English “vacantism” ← “[vacant](https://en.wiktionary.org/wiki/vacant)” ← Latin “[vacans](https://en.wiktionary.org/wiki/vacans#Latin)” ← “[vacō](https://en.wiktionary.org/wiki/vaco#Latin)” (empty, void, unoccupied, free [time]) ← PIE “[*h₁weh₂-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81weh%E2%82%82-)” (empty, extinguished) → English “void”, “want”, “vain”, “vacant”, “vacuum”, etc.
 		- Numbering
 		  collapsed:: true
-			- The equation ⟪○ = ↑⟫ is the One that unifies the Two opposites (○, ↑) via the Third (=). This is called [the unity of opposites](https://en.wikipedia.org/wiki/Unity_of_opposites) (☯). Hence, the Unïnfo seems to be [trialistic](https://en.wikipedia.org/wiki/Pluralism_(philosophy)) (due to the Three components), or [dualistic](https://en.wikipedia.org/wiki/Dualism_in_cosmology) (due to the Two opposites), or [monistic](https://en.wikipedia.org/wiki/Monism) (due to the One equation), but actually it's ((68b95b62-9e60-4ef2-9540-f563c76a5d17)) as reflected by the intrinsics of the Zero (the Trinion).
+			- The equation ⟪○ = ↑⟫ is the One that unifies the Two opposites (○, ↑) via the Third (=). This is called ((69367cf5-9894-4fb8-a293-2b1109777fc9)) (☯). Hence, the Unïnfo seems to be [trialistic](https://en.wikipedia.org/wiki/Pluralism_(philosophy)) (due to the Three components), or [dualistic](https://en.wikipedia.org/wiki/Dualism_in_cosmology) (due to the Two opposites), or [monistic](https://en.wikipedia.org/wiki/Monism) (due to the One equation), but actually it's ((68b95b62-9e60-4ef2-9540-f563c76a5d17)) as reflected by the intrinsics of the Zero (the Trinion).
 			  id:: 684f9517-64ce-41bd-a88c-0476cbfa790d
 				- > “The Way generates the One; the One generates the Two; the Two generates the Three; the Three generates all things.”
 				  「道生一，一生二，二生三，三生萬物。」
@@ -3701,6 +4244,38 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Historically, while the West (Europe) has a long tradition of philosophy based on the Static, i.e. “existence” via “form”, “category”, “essence”, “element”, the East (from Islamic world, India, to China) has a long tradition of philosophy based on the Dynamic, e.g. “anicca” (अनिच्च, en. “impermanence”), “saṅkhāra” (सङ्खार, en. “formation”), “xíng” (行, en. “phase of transformation”), “yi” (易, en. “change”).
 					- About the Balance, both the West and the East had focused on the moral balance, e.g. the inscription “Nothing in excess” in the temple of Apollo at Delphi, the “middle way” in Buddhism, the “Doctrine of the Mean” (中庸, Zhōngyōng) in Confucianism. Then in modern science, the role of Balance has been shown to be universal via equations.
 			- Blog post [Mọi thứ đều có Ba, để Ba sinh ra mọi thứ](https://creatzynotes.blogspot.com/2020/11/ba-sinh-moi-thu-moi-thu-sinh-ba.html)
+			- History of the discovery of the Trinion
+			  id:: 690c716b-e17d-4060-a5eb-e78f9b85686b
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-11-06 Thu 16:59:33]
+			  :END:
+				- Learning about [flip-flops](https://en.wikipedia.org/wiki/Flip-flop_(electronics)) in Osaka University around 2004, [Will](((66536578-c4d3-43f1-b35c-bf71120f0570))) got the first moment of eureka: 
+				  > Wow, we can catch the lightning fast electricity into a static state simply with a closed loop!
+				- The circular structure of the memory latch, composed simply from two inverters, was the ancestor of the first two components – the Circle and the Arrow.
+					- `-1 + 1 = 0`
+					  ![StaticStateLatch](https://docs.google.com/drawings/d/e/2PACX-1vTZgh3C-7zppvaMLzmV8h2LlwVZM80UwN0AWpHx_vsnNz8oJNMRDxo7xM_IVlWj1iO9vKOKNHEiWiUZ/pub?w=120)
+				- Returning to Vietnam, [around 2010](https://tamsudoithuong.blogspot.com/2010/09/hom-nay-len-truong-nhung-cung-chang-lam.html), he generalized that circle of arrows to capture the static and dynamic aspects of all things.
+				- After 3 years, at [the end of 2013](https://www.facebook.com/share/17ev2Leidr/), he nailed down the third component – the Equal – to complete the equation ⟪○ = ↑⟫.
+				- #### ☯️ Ancestor Loop 🔄
+					- Two NOT gates loop to learn,
+					  lightning caught in thought,
+					  each completes the other's turn – 
+					  a stable state, self-taught.
+					  From that quiet spark of mind
+					  rose computer and Unïnfo, likewise.
+			- Unïnfo brings life to the [classical logic](https://en.wikipedia.org/wiki/Classical_logic).
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-11-11 Tue 19:15:34]
+			  :END:
+				- While Aristotle called the Law of Non-contradiction “the most certain of all principles”, Will was also concerned about it the most, which lead him to the construction of Unïnfo.
+					- Ref: blog post [The Implied Axioms of Science](https://creatzyitnotes.blogspot.com/2007/11/implied-axioms-of-science.html)
+					- Acknowledging the difference but not accepting the exclusion, he arrived at the first postulate of Unïnfo, the Diff (Arrow), just a moment before the zero-th postulate, the Existence (Circle), and long before the third, the Unification (Equal).
+				- The Trinion brings life to the absolute & static (dead) [laws of thoughts](https://en.wikipedia.org/wiki/Law_of_thought).
+					- The **Circle** brings **form** to the trivial identity $A = A$ (Law of Identity): The $A$ is not a point, but a full circle $A → B → ... → Z → A$.
+					- The **Arrow** brings **motion** in to connect the 2 ends $A$ and $¬A$ (Law of Non-contradiction): “A” and “not-A” are not exclusive, but a transition from one to the other.
+					- The **Equal** brings **freedom** to the forbidden middle (Law of Excluded Middle): The forbidden one is released and placed at the central role of connecting, balancing the ends.
 	- ## question
 	  collapsed:: true
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Question
@@ -3753,7 +4328,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- From **heading** forward with hierarchical intents, to **turning** around with [equal intents](((68871ce1-eb57-4be3-ad48-45af6ccb5d49)))
 					  id:: 68882160-10b9-4bd2-998e-28efa9b215d6
 					  collapsed:: true
-						- The equalization is the transformation from the ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) with hierarchical intents to the intent circle with equal intents.
+						- The equalization is the transformation from the ((68df2d82-e1d5-49c4-ac40-d45cf26f840c)) with hierarchical intents to the intent circle with equal intents.
 						- This transformation leads to the change of the obop's operation.
 						- from view cone & [intent chain](((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))), to view circle & intent circle
 						- from primarily zoom in and secondarily turn, to primarily pan around and secondarily zoom in/out
@@ -3950,27 +4525,27 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- After enjoying the scenic beauty of Mount Pure Bliss for a week, the master urged the disciple to continue the journey the next morning.
 					  collapsed:: true
 						- Let's go, don't get too engrossed in this place.
-						- But haven’t we already reached our destination?! After all the time, effort, sweat, and even blood we've spent to get here, shouldn’t we enjoy the fruit of our labor instead of moving on, master?!
+						- But haven't we already reached our destination?! After all the time, effort, sweat, and even blood we've spent to get here, shouldn't we enjoy the fruit of our labor instead of moving on, master?!
 						- I've allowed you to enjoy it for a whole week. If you think it's not enough, you can stay and enjoy it. I'll go alone.
 						- It's not about enjoyment. I followed you to reach liberation, not to seek pleasure. If I wanted to enjoy myself, I would have stayed in the city with all its pleasures instead of tiring myself out climbing the mountain with you.
 						- If you still want liberation, follow me.
 						- But why do we need to move on when we've reached the destination of liberation?
 						- This is not the destination.
 						- Clearly, back in the city, when I asked, “Where do we go to find freedom?” you pointed to this mountain.
-						- At that time, the city’s buildings blocked the view, so I had to point to a tall mountain for you to see. But I meant that “the destination lies at the horizon.”
+						- At that time, the city's buildings blocked the view, so I had to point to a tall mountain for you to see. But I meant that “the destination lies at the horizon.”
 						- So we can never reach the destination 😮‍💨?!
 						- We can.
 						- Have you reached the destination, master?
 						- I have.
 						- You're lying! Back in the city, I never saw the horizon, so you could fool me. But now, after months of travel, I've seen for myself: The horizon is endless. The more we walk towards it, the further it moves away, so we can never truly touch it.
-						- I didn't deceive you. I only spoke in a way you could see and understand. Before, I didn’t say “the destination is the horizon” because you hadn't yet seen and understood what the horizon is. Today, I'm not deceiving you, either. I only speak according to what you now see. Now, look straight ahead; do you see the horizon?
-						- I see the horizon as a straight line in front of me, but it’s just an illusion; there’s no actual line!
+						- I didn't deceive you. I only spoke in a way you could see and understand. Before, I didn't say “the destination is the horizon” because you hadn't yet seen and understood what the horizon is. Today, I'm not deceiving you, either. I only speak according to what you now see. Now, look straight ahead; do you see the horizon?
+						- I see the horizon as a straight line in front of me, but it's just an illusion; there's no actual line!
 						- I only asked if you see it or not!
 						- Yes, I see it.
 						- Now, look behind; do you see the horizon?
 						- Yes, I do.
 						- Look to both the left and right; do you see the horizon?
-						- Enough! On this mountaintop 🗻, wherever I look, I see the horizon. Don’t ask such redundant questions!!!
+						- Enough! On this mountaintop 🗻, wherever I look, I see the horizon. Don't ask such redundant questions!!!
 						- If you've seen it, let's go!
 						- Why move on if we'll never reach it?!!!
 						- I've reached it, that's why I'm leading you. If you don't want to go, you can stay here.
@@ -4041,7 +4616,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- ChatGPT:
 							  > The horizon is not a place to reach, but a shift in seeing — when the seeker vanishes, the path and goal are one.
 								- Regarding the [“final cause” (telos) by Aristotle](https://en.wikipedia.org/wiki/Four_causes#Final):
-								  > + The “horizon” is a **conceptual placeholder** for liberation until one’s perspective changes.
+								  > + The “horizon” is a **conceptual placeholder** for liberation until one's perspective changes.
 								  > + Once the shift happens, the horizon is no longer “over there” but present at every step — the loop closes.
 									- The disciple sees the goal as a fixed telos.
 									- The master transforms the goal into a dynamic and cyclic ((677e76ed-b324-4608-b146-90e8fcfa0c32)), where the end folds back into the beginning.
@@ -4068,6 +4643,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- With the sublime–channeling mind, i've found that my breath is "strong & noisy inside", which is very similar to the [Ujjayi Pranayama](https://en.wikipedia.org/wiki/Ujjayi) of yoga.
 					  id:: 66b1cfa3-93c4-4de3-8904-06fb065ded70
 					- This breath is the back-tracking thread connecting to the root, just like the [Ariadne's thread](https://en.wikipedia.org/wiki/Ariadne%27s_thread_(logic)) helping escaping the maze.
+					  collapsed:: true
 				- ((669a1bec-3347-4915-83e4-dcffc4d482d1)): input = output
 				  id:: 669a58b9-2104-4d4c-b68f-7a45e2adb915
 				- ((6667abd2-14eb-4145-b9e3-e6f3037b3117))
@@ -4114,15 +4690,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6889c11f-e881-432f-ba0f-876b61afc60c))
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In order to reveal the ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) in the ((6889a623-34cd-4b65-8a91-5cfdbb199b71)) and escape its domination, we must look behind the ((669a2886-9e03-41a4-a790-24bf6b7dcd96))s.
 					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-						- Because ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) is what's behind the eyes, it is normally invisible, hidden boss.
+						- Because ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) is what's behind the eyes, it is normally an invisible, hidden boss.
 						  id:: 68a520bf-adba-4d78-9e3d-5f41de9f8153
 						  collapsed:: true
 						  :LOGBOOK:
 						  CLOCK: [2025-07-30 Wed 14:09:41]
 						  :END:
-							- The [intent chain](((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))), like the [chain/train of thought](https://en.wikipedia.org/wiki/Train_of_thought), is modeled in Uninet Theory as the hierarchical ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) from the ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)) to the center obop, i.e. *behind the screen*.
-								- In projective geometry, the intent cone intends behind the ((68a7d179-b663-42bd-85b9-6c18be6b6c97)) toward the ((68a7d02f-7010-49b2-8dfa-a50e8b371066)).
-							- Because all intents are just accumulation of past actions (karma), like the [growth rings](https://simple.wikipedia.org/wiki/Growth_ring), the intent cone which determines how the world is seen (giving forms to object's content) is just a slice of the past reactivated.
+							- The [intent chain](((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))), like the [chain/train of thought](https://en.wikipedia.org/wiki/Train_of_thought), is modeled in Uninet Theory as the hierarchical ((68df2d82-e1d5-49c4-ac40-d45cf26f840c)) from the ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)) to the center obop, i.e. *behind the screen*.
+								- In projective geometry, the intent cone intends behind the ((68a7d179-b663-42bd-85b9-6c18be6b6c97)) toward the ((66728236-5b19-425c-bb5f-dfc0dc8b79fd)).
+							- Because all intents are just accumulation of past actions (karma), like the [growth rings](https://simple.wikipedia.org/wiki/Growth_ring), the ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) which determines how the world is seen (giving forms to object's content) is just a slice of the past reactivated.
+							  id:: 68a7e4c1-b26f-41fc-9e2d-f62789a2a9d3
 								- Growth rings model of intent cone
 								  collapsed:: true
 									- ![intent-cone-growth-ring.png](../assets/Uniinfo/uninet/intent-cone-growth-ring.png){:width 300}
@@ -4234,7 +4811,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  id:: 684fc240-0d53-47ac-a1ab-bcfb0a731cc0
 					  collapsed:: true
 						- Initially, there is **greed**: a feeling of lacking the other side stimulates desire, leading one to rush toward the partner and pull the partner into oneself.
-						- Near the peak, there is **aversion**: when energy has accumulated fully within, especially in men, there’s an urge to release it explosively (reaching climax). If interrupted at this stage, one feels irritated, frustrated, and restless, regardless of gender, due to excess Yang. Men tend to exhibit this aversion more clearly as anger, while women often experience it more subtly as inner restlessness.
+						- Near the peak, there is **aversion**: when energy has accumulated fully within, especially in men, there's an urge to release it explosively (reaching climax). If interrupted at this stage, one feels irritated, frustrated, and restless, regardless of gender, due to excess Yang. Men tend to exhibit this aversion more clearly as anger, while women often experience it more subtly as inner restlessness.
 						- After orgasm, there is **delusion**: when the two sides come together intensely and explode, Yin and Yang harmonize, resulting in satisfaction, fullness – neither lacking (greed) nor excessive (aversion)... but also no clear mind (delusion). Thus, one embraces that blissful feeling, holding it tightly in the heart while sleeping.
 						- During this sleep, delusion reveals its nature of **ignorance** (stupidity): one is content with the pleasure and cares about nothing else, simply rolling over to sleep. Then, upon waking and opening the eyes to see and know, delusion manifests as infatuation, indulgence, obsession and attachment: having embraced that pleasure and embedded it deeply into the subconscious (during sleep), one now clings to it heavily, with everything one does aimed at recreating that pleasure without awareness.
 						- In Vietnamese: Trong 1 cuộc làm tình thì cả 2 đều trải qua quy trình tham - sân - si:
@@ -4269,7 +4846,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- This inward observation closes the ((667c0031-0a87-44c9-9e98-6d45893b095f)) of the bodymind to free it from karma and influences of the external world.
 							- The delusion will be transformed to wisdom ([paññā](https://en.wikipedia.org/wiki/Wisdom_in_Buddhism)) by the change of the internal reality (intent equalization), instead of the actions to change the external reality.
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-				- ((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00)) = ((6846d92b-cc0c-4db5-8b1d-766ec5a0d823)) = [multi-segment articulated arm](https://en.wikipedia.org/wiki/Articulated_robot) = ((68874adb-f452-45ba-ae76-8582bdd9035f)) = ((685156b0-2f3b-4aa9-8b87-636d38a02cd2))
+				- ((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00)) = ((6846d92b-cc0c-4db5-8b1d-766ec5a0d823)) = [multi-segment articulated arm](https://en.wikipedia.org/wiki/Articulated_robot) ([kinematic chain](https://en.wikipedia.org/wiki/Kinematic_chain)) = ((68874adb-f452-45ba-ae76-8582bdd9035f)) = ((685156b0-2f3b-4aa9-8b87-636d38a02cd2))
 				  id:: 6846c7e1-239c-4b39-9ef4-9d2eaba17a52
 				  collapsed:: true
 				  :LOGBOOK:
@@ -4308,7 +4885,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((67ced16d-2fbb-4c5d-9061-5d8f490f6073)) ← ((67cea2ee-5f77-4576-8c1c-9e31d9b822c9))
 				- The [3 poisons due to momentum](((67cfb02d-b633-408c-b19e-1eeb7ed575b9)))
 				- ((684f9517-b730-4cc1-9eb1-54bb81ed78c4))
-				- ((6839229d-9eff-49e4-9480-6e2db6f61127)) caused by the ignorance of ((685156b0-2f3b-4aa9-8b87-636d38a02cd2))
+				- ((6839229d-9eff-49e4-9480-6e2db6f61127)) caused by the ignorance about the ((68df2d82-e1d5-49c4-ac40-d45cf26f840c))
 				  id:: 688748a7-8228-4515-9fe4-38c232ce954e
 				  collapsed:: true
 				  :LOGBOOK:
@@ -4324,6 +4901,91 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 66537a0b-d107-4f7e-b01f-bf624a647d8c
 	  collapsed:: true
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Universe
+	- ## space
+	  id:: 68fa1647-2d46-433e-b1ca-29f757b5ef62
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2025-10-23 Thu 18:49:30]
+	  :END:
+		- ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((68fa164e-ef0e-4010-937d-ad9e0459f5f2))
+	- ## time
+	  id:: 68fa164e-ef0e-4010-937d-ad9e0459f5f2
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2025-10-23 Thu 18:49:39]
+	  :END:
+	  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf36a-581a-4abe-b544-2d849608a3e4))
+		- ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((68fa1647-2d46-433e-b1ca-29f757b5ef62))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68fa164e-ef0e-4010-937d-ad9e0459f5f2)) is the ((67fcbbc6-915b-4d28-b9cf-098e916cdc86)) of ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342))s, each realized as a loop in the [coiling flow of time](((667bf36a-581a-4abe-b544-2d849608a3e4))).
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- Circular time versus linear time
+			  id:: 690827cd-657e-4fb8-b78d-edc626994832
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-10-23 Thu 18:13:09]
+			  :END:
+				- Dual perspectives:
+					- Internal perspective: To a **folding eye**, the “linear time” is just the circular time linearized: the rolling wheel produces the trace, which looks like a straight trajectory to external observers.
+						- The global “linear time” is seen as just the infinite cycle of time due to the infinite size of the Universe.
+						- This is why the linear time is absolute, universal, and static.
+					- External perspective: To a **straight eye**, the “circular time” is just the linear time folded: the timeline is folded back into complicated loops and spirals inside the subject's mind.
+						- The local “circular time” of each object is seen as just the ((68750097-13e5-4662-9791-8207ec18e8aa)) of that object.
+						- This is why the circular time is relative, local, and dynamic.
+				- Dual views about differential equation, the mathematical generator of time:
+					- Physics view: Differential equations are often treated as formulas relating rates of change to states, producing linear trajectories upon integration.
+					- Unïnfo view: Differential equations are **intrinsically circular loops** – next state depends on current state, just like the effect circle. The “self-diff” definition of **change** is a verbal expression of this looping mechanism, revealing the circularity hidden in traditional linear interpretation.
+				- **Circular time** in Unïnfo perspective:
+					- Time is defined by **change** which is the [difference from itself](((684f9517-30d7-40e6-b93f-3386123e381c))) (self-diff), making it intrinsically circular.
+					- Time is a **self-referential, folding, coiling flow of effects** (self-ref) embodied by the Ω-thread.
+						- In the coil of time, each loop is a change.
+						- The past has been folded into the present, and the future will be unfolded from the present.
+					- No circles (self-ref, self-diff, self-def), no change, no actual time!
+						- In Unïnfo's view, the [linear time](((68fa148f-0ab4-4a45-894a-7a9c96d87058))) is not a real and live time, but a projection of time which is virtual and “frozen dead”.
+					- All practical time measurements are inherently circular.
+						- Ancient clocks used sundials, water clocks, or pendulums – all are **repeating cycles**.
+						- Mechanical clocks and astronomical observations all rely on **periodicity**.
+						- Modern [International Atomic Time](https://en.wikipedia.org/wiki/International_Atomic_Time) refines the cycles to extreme precision, but they are still counting **repetitive events**, e.g. the [cesium-133 hyperfine transition](https://www.nist.gov/pml/time-and-frequency-division/time-realization/cesium-fountain-atomic-clocks).
+						- The **circular dial** on the traditional [clock face](https://en.wikipedia.org/wiki/Clock_face) is the symbol of circular time, showing its very circular nature.
+					- **Arrow of time** is the constantly *mixing of the past in the present*, increasing entropy.
+						- Information loss: n-to-1 function computation (action cone, deduction), thermodynamics, psychology, cosmic, wave function collapse = quantum decoherence + averaging
+						- Intelligence = information gain = restoring arrow = knowledge learning (induction, observation) = seeing the future
+						- Equilibrium (classical physics) = closed circle (simple circle): effect circle, deterministic machine
+						- Wisdom = open circle (grand circle): knowledge circle, organism = nondeterministic system with quantum mechanics (exploring all possibilities)
+						- ANN thinks in sound (real-valued wave), uninet thinks in light (complex-valued wave). Output probability = projection (via softmax in ANN & squared modulus in QM)
+				- **Linear time** in popular physics and common mind:
+				  id:: 68fa148f-0ab4-4a45-894a-7a9c96d87058
+					- For most observers, time appears linear: a monotonic sequence of events measured by clocks and coordinates.
+						- Human cognition prefers linear sequences due to memory, language, and predictive reasoning.
+						- An unfolded linear time is much easier to deal with than a folded circular time.
+					- Physics formalizes this as a straight axis, leading to the block universe model.
+						- This externalization treats change as a projection of pre-existing events.
+					- No matter how the linear minds try to escape the circular nature of time, the self-ref is baked in, as shown in the Wikipedia page of [time](https://en.wikipedia.org/wiki/Time#Definition).
+					  > Multiple notions exist, and defining time in a manner applicable to all fields *without [circularity](https://en.wikipedia.org/wiki/Circular_definition)* has consistently eluded scholars.
+					- The [problem of time](https://en.wikipedia.org/wiki/Problem_of_time)
+						- The linear time is [frozen](https://en.wikipedia.org/wiki/Problem_of_time#The_frozen_formalism_problem), static, “dead”, just an axis in the [block universe](https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time)).
+							- The [arrow of time](https://en.wikipedia.org/wiki/Arrow_of_time) cannot be found in such a static line.
+						- The linear time is universal and absolute in Quantum Mechanics, while being malleable and relative in General Relativity.
+							- Although GR's time is stilled stretched out, its complementarity with space and the deformation of spacetime stem from the circular nature to spacetime.
+				- Established theories and philosophies:
+					- Physics: time is mostly treated as an axis rather than a self-reflective flow.
+						- Closed timelike curves and relativity hint at loops, but the block universe and linear time parameterizations dominate
+					- Logic & Mathematics: Strange loops, recursion theory, and fixed-point theorems formalize self-reference and circularity, showing paradoxes arise in linear-only perspectives.
+					- Philosophy: Eternal recurrence (Nietzsche), Eastern cyclic time (Hinduism, Buddhism, Daoism), and process philosophy (Whitehead, Bergson) emphasize cyclical or relational aspects of change.
+					- Systems theory & cybernetics: Feedback loops and self-referential systems are circular, allowing emergent dynamics invisible to purely linear observation.
+			- Temporal circle via ((667c0031-0a87-44c9-9e98-6d45893b095f))
+			  id:: 68f5a6d2-3b0a-4443-a7e7-b64f4bdf217b
+			  collapsed:: true
+				- 0 intent = ∞ extent =  -∞ (distant past of environment) = +∞ (distant future of self expression)
+				- past cone (cause cone): from distant space in distant past into intent
+				- 2 nappes of the double cone fold into the **effect flow spirorus**.
+				- future cone (effect cone): from intent out to circumference (content) of present, then out to distant space in distant future
+				- projective spacetime = log time × linear space
+					- TODO draw this spacetime scaling applet of the spirorus
+					- apex of past/future cone is the vanishing point in future/past
+				- the 2 cones meet in the present
+					- in linear spacetime, they translate as the present flows
+					- in projective spacetime, they rotate as the present flows
+		- ...
 	- ## fluid
 	  id:: 671e2794-7edd-4840-8b5d-d2def6df7666
 	  collapsed:: true
@@ -4409,25 +5071,36 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- In order theory: [lattice order](https://en.wikipedia.org/wiki/Lattice_(order))
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1)) The lattice group and lattice graph are equivalent which are generalized from the 3D crystal lattice, but the lattice order is different.
 			- There's a hybrid of lattice order with group theory called [ℓ-group](https://encyclopediaofmath.org/wiki/Lattice-ordered_group), i.e. "lattice-ordered group" as a special case of [partially ordered group](https://en.wikipedia.org/wiki/Partially_ordered_group).
-	- ## foldable
-	  id:: 66537617-23c2-43a9-9a14-5e18fe9aa36f
+	- ## fold
+	  id:: 691ae014-cb3b-407f-b84b-582f0025c37c
 	  collapsed:: true
-	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((665c9fb6-841c-4ee9-93a1-d17b5811a98e)), ((665c9fb9-28e8-48e3-bd81-f773549f145d))
-		- collapsible
-		  id:: 665c9fb6-841c-4ee9-93a1-d17b5811a98e
-		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66537617-23c2-43a9-9a14-5e18fe9aa36f))
-		- abstractable
-		  id:: 665c9fb9-28e8-48e3-bd81-f773549f145d
-		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66537617-23c2-43a9-9a14-5e18fe9aa36f))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A foldable object, usually a block of text, is an object that can be folded (or collapsed, abstracted) into a brief like header, title, name, summary, and that brief can be unfolded (or expanded, extended) back to the full object. This is a technical implementation of the general ((66537674-6cf9-4459-8bea-7c1858c694a3)).
-		  id:: c6770550-24e0-453d-9159-5040ce045c5f
-		- ((66725725-f76a-4328-b162-f469b87e871b))
-			- Foldable [code block](https://en.wikipedia.org/wiki/Block_(programming))s in [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) or blocks of text in [text editor](https://en.wikipedia.org/wiki/Text_editor)s
-			- The ((6720bf1a-fa1f-4c1d-ba6f-2527a47621eb)) [`<summary>` tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary) within the `<details>` tag
-			- [Directory](https://en.wikipedia.org/wiki/Directory_(computing)) in collapsible ((667252dc-e610-4d07-bcd0-9ea6fb4499fd))
-			- [File folder](https://en.wikipedia.org/wiki/File_folder) that holds [papers](https://en.wikipedia.org/wiki/Paper "Paper") together
-			- The [tab](https://en.wikipedia.org/wiki/Tab_(interface)) in [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface)
-		- In [Obsidian](https://help.obsidian.md/Editing+and+formatting/Folding):  Headings, indented blocks.
+	  :LOGBOOK:
+	  CLOCK: [2025-11-17 Mon 15:43:45]
+	  :END:
+	  ((691ae2bd-a60f-4db2-8132-bf54e9dee1b0)) ((691ae231-4659-41b8-9c1a-8e702a04753d))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) To ((691ae014-cb3b-407f-b84b-582f0025c37c)) is to [transform](((669a58b9-eb34-41cd-8605-02e29b07e1b5))) an ((667d15b7-6364-49a9-ac58-c64d2a992b63)) to a ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) by matching its head with its tail.
+		- unfold
+		  id:: 691ae231-4659-41b8-9c1a-8e702a04753d
+		  ((691ae2c3-74aa-4b95-afb6-ed174be00978)) ((691ae014-cb3b-407f-b84b-582f0025c37c))
+		- ### foldable
+		  id:: 66537617-23c2-43a9-9a14-5e18fe9aa36f
+		  collapsed:: true
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((665c9fb6-841c-4ee9-93a1-d17b5811a98e)), ((665c9fb9-28e8-48e3-bd81-f773549f145d))
+			- collapsible
+			  id:: 665c9fb6-841c-4ee9-93a1-d17b5811a98e
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66537617-23c2-43a9-9a14-5e18fe9aa36f))
+			- abstractable
+			  id:: 665c9fb9-28e8-48e3-bd81-f773549f145d
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66537617-23c2-43a9-9a14-5e18fe9aa36f))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A foldable object, usually a block of text, is an object that can be folded (or collapsed, abstracted) into a brief like header, title, name, summary, and that brief can be unfolded (or expanded, extended) back to the full object. This is a technical implementation of the general ((66537674-6cf9-4459-8bea-7c1858c694a3)).
+			  id:: c6770550-24e0-453d-9159-5040ce045c5f
+			- ((66725725-f76a-4328-b162-f469b87e871b))
+				- Foldable [code block](https://en.wikipedia.org/wiki/Block_(programming))s in [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) or blocks of text in [text editor](https://en.wikipedia.org/wiki/Text_editor)s
+				- The ((6720bf1a-fa1f-4c1d-ba6f-2527a47621eb)) [`<summary>` tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary) within the `<details>` tag
+				- [Directory](https://en.wikipedia.org/wiki/Directory_(computing)) in collapsible ((667252dc-e610-4d07-bcd0-9ea6fb4499fd))
+				- [File folder](https://en.wikipedia.org/wiki/File_folder) that holds [papers](https://en.wikipedia.org/wiki/Paper "Paper") together
+				- The [tab](https://en.wikipedia.org/wiki/Tab_(interface)) in [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface)
+			- In [Obsidian](https://help.obsidian.md/Editing+and+formatting/Folding):  Headings, indented blocks.
 	- ## abstraction
 	  id:: 66537674-6cf9-4459-8bea-7c1858c694a3
 	  collapsed:: true
@@ -4442,6 +5115,59 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Abstraction
 		  id:: 6716110e-5f12-4484-97ca-fde30d4ff0d3
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66537674-6cf9-4459-8bea-7c1858c694a3)) is the process of abstracting details, i.e. removing details that are irrelevant to the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s focus, from an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)), to get a more concise object that can be handled easier compared to the original object with full details. The result of that process is called by many names: abstract, abstraction, summary, name, title, key, etc. Abstraction is related to ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) via the ((687505e2-062a-4267-98bc-ed0e9f6dced3)): ((67654618-70d2-49cd-88b7-f7c4e161dfd9)) = circle ((67654ecb-896a-4421-95e5-f72c07fc62a4)); ((676545e8-429c-41e7-97ed-12cc8e8870d4)) = pipe ((670cdcb4-3c85-45af-8c30-3c3284ed37df)); ((676545b3-2d9f-43af-8ff0-3543dbe73159)) = ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)).
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- Recursively naming the ignorance – the power and fallacy of abstraction.
+			  id:: 692818bf-7a44-4804-b444-1bdb45e3ddb4
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-11-27 Thu 16:24:17]
+			  :END:
+				- The power lies in our recursive mind's ability to name the abstract, while the fallacy lies in forgetting that these names are merely internal cognitive tools, not independent external reality.
+				- The mechanism: recursively naming the ignorance
+				  id:: 69282878-05a5-4ee0-a663-9e7369c9d74a
+					- The ability to operate in this abstract, non-constructive realm stems from a single, foundational cognitive maneuver: applying a recursive naming convention to acknowledge different boundaries of our current, constructive knowledge with different names. This process is how the human mind bridges the gap between the computationally finite and the mathematically infinite.
+					- 1. Encountering the limit, i.e. ignorance: We perform a constructive process (e.g., counting, defining a set) and reach a point where the process is infinite or non-terminating (the computational limit). We cannot physically build the next step or the final collection.
+					- 2. The naming operation, i.e. ((676545b3-2d9f-43af-8ff0-3543dbe73159)): We stop the constructive process and assign a simple, finite label (a ((665cab38-f8e8-472e-b0a1-60776d492835))) to the unreached totality or the next step we cannot take. This name symbolizes *the gap in our operational knowledge*, e.g., calling the collection of all natural numbers “ℕ”.
+					- 3. Recursive application: We treat this new name *as if it were a complete*, first-class citizen in our mental model. We can then apply the original constructive/recursive rules again, using the newly named entity as a starting point.
+					- ((66725725-f76a-4328-b162-f469b87e871b))
+						- [Ordinal numbers](https://en.wikipedia.org/wiki/Ordinal_number): “Gather all bags constructed into a new bag”. The moment we “gather” an infinite collection into a single mental object is the act of naming our computational ignorance of traversing the entire sequence. We name it ω, then recursively apply the successor operation to get ω+1, ω+2, etc., naming our ignorance recursively.
+						- The [limit operator](https://en.wikipedia.org/wiki/Limit_(mathematics)): We know how to build a sequence $S_n$, but we cannot compute the infinite number of its terms. So, we name the idea of that final value “$\lim_{n → ∞}S_n$”. And then we use that name in further, complex equations, building abstract knowledge on top of a single symbol that represents an uncomputable process.
+				- The constructive existence of non-constructive entities (numbers)
+					- The mechanism of [recursively naming the ignorance](((69282878-05a5-4ee0-a663-9e7369c9d74a))) recontextualizes “non-constructive” mathematical entities (like [large numbers](https://en.wikipedia.org/wiki/Large_cardinal) or the end result of an infinite limit): Their existence is not an objective reality “out there”, but an internal, mental one.
+					- Non-constructive numbers are mental constructs: They are “imaginary” in the sense that they exist within our minds, generated by our own recursive thought processes. They are not discovered but created internally.
+					- Constructive value, non-constructive names: These concepts are actually constructive in nature, as they arise from a defined recursive process. They are given non-constructive names (like “infinity” or “Ω”) to label the end point of a process that cannot be finitely completed.
+					- The true “value”: The actual, constructive value of these concepts is not the unreachable “infinity” itself, but the _**structure of the recursive construction** starting from zero/ignorance_. We use the names to recursively label our further ignorance, allowing us to reason about the process structure abstractly.
+				- The power of abstraction: enabling thought and communication
+				  id:: 6926be1b-910d-4e6e-990d-947440c86fdb
+				  collapsed:: true
+					- The human ability to assign names to the outcomes of infinite, non-constructive processes – essentially labeling our computational limits – is not without merit. It grants us remarkable cognitive power.
+					- Cognitive compression: Naming an infinite concept (e.g., [∞](https://en.wikipedia.org/wiki/Infinity), [Ω](https://en.wikipedia.org/wiki/Chaitin%27s_constant), the result of the Halting Problem Oracle) allows us to treat a complex, ongoing process as a single, manageable mental object. This compression frees up cognitive resources.
+					- Facilitating higher-order reasoning: Abstraction enables us to move up levels of thought. By simply declaring the existence of a set of all natural numbers (ℕ), we can then define operations and structures upon that named set (like calculus or group theory) without constantly having to re-derive the foundational set constructively every time.
+					- Universal communication: Shared labels like “infinity” provide a common ground for mathematicians to communicate about shared mental constructs, even if the underlying constructive process remains beyond any single individual's complete execution.
+					- Inspiration for computation: The abstract, non-constructive ideals of mathematics often serve as blue sky inspiration for computer science models, leading to recursive programming paradigms, [type theory](https://en.wikipedia.org/wiki/Type_theory), etc.
+				- The fallacy of abstraction: conflating name with objective existence
+				  collapsed:: true
+					- The fallacy of declaration: The primary fallacy is confusing the act of naming with the proof of existence or distinction. Classic math declares existence by naming, then derives further existence via logic to achieve [“existence proof”](https://en.wikipedia.org/wiki/Existence_theorem) of objects that cannot be [constructed](https://en.wikipedia.org/wiki/Constructive_proof) nor observed.
+					- Reifying the unknown: We risk treating an abstract name (e.g., “A”) as an objective, independently existing entity within a closed system ([“The Black Box”](((692821f8-dbc0-4653-b31f-22e5c4d5fac1)))), even when we have no operational way to verify its properties or distinguish it from “B”.
+					- Ignoring the process: By focusing purely on the elegant name (the symbol ∞), we can neglect the underlying structure of the recursive construction that generated the concept in the first place. The value is in the algorithm, not the unreachable result.
+					- Physical miscalculation: Applying the fallacy to physics leads to errors when mathematical declarations (e.g., particles A and B are “different by name”) contradict physical reality (the particles are observationally identical), as shown in [Gibbs paradox](https://en.wikipedia.org/wiki/Gibbs_paradox) about entropy of [indistinguishable particles](https://en.wikipedia.org/wiki/Indistinguishable_particles).
+					- These fallacies are demonstrated in the [Diff Problem](((6928252f-3bf8-4c1b-82a3-965da2e6b65b))) and the [Choice in Black Box Experiment](((692821f8-dbc0-4653-b31f-22e5c4d5fac1))).
+				- Diff Problem: challenging declarative identity
+				  id:: 6928252f-3bf8-4c1b-82a3-965da2e6b65b
+				  collapsed:: true
+					- The Diff Problem exposes the flaw in defining difference and sameness through mere declaration or naming in classical logic. It demands an operational specification for distinction.
+					- Problem: How to know A is different from B?
+					- Classical math approach (declarative): Objects A and B are declared different, and assigned distinct names. The assertion $A ≠ B$ is taken for granted. This leads to issues, such as the [Gibbs Paradox](https://en.wikipedia.org/wiki/Gibbs_paradox) in physics, where the name (identity) is confused with the structure (observational properties).
+					- Constructivist approach (operational): Names are subjective labels; true distinction lies solely within the structure and observable properties of the objects. One cannot simply declare $A ≠ B$; one must provide a constructive algorithm that operationally demonstrates a difference. A declaration of difference without an operational proof is an “ignorant arrogance”.
+				- Choice in Black Box Experiment: challenging the [Law of Excluded Middle](https://en.wikipedia.org/wiki/Law_of_excluded_middle)
+				  id:: 692821f8-dbc0-4653-b31f-22e5c4d5fac1
+				  collapsed:: true
+					- This thought experiment challenges the classical Law of Excluded Middle by demanding empirical, constructive proof of identity and existence.
+					- Setup: Two balls, A and B, are placed in a black box. An attempt is made to pick one ball out and name it “C”.
+					- Classical conclusion: The classical mathematician asserts: “C is either A or B” ($C = A ∨ C = B$). This relies on the declarative premise that only A and B exist in the box and that their identities are fixed and *knowable in absentia*.
+					- Constructive counterargument: The classical conclusion is flawed because it makes non-constructive assumptions:
+						- Existence is not guaranteed: The box might be “wild” enough that no ball can be retrieved (non-constructive existence).
+						- Identity is not guaranteed: Until the ball is observed and structurally identified, it could be anything, even a “ghost” creation in the dark. The name “C” does not inherit the properties of A or B until an observational operation confirms the structural match. The statement $C = A ∨ C = B$ cannot be proven constructively without opening the box.
 		- ### ω-abstraction
 		  id:: 67654618-70d2-49cd-88b7-f7c4e161dfd9
 		  :LOGBOOK:
@@ -4613,15 +5339,32 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) This is the ((67110213-d0ca-4449-811a-b51abf23bf65)), the other face of ((670d0183-aba2-438b-b749-1b550e4a906b)). While inter-form is the form viewed from the outside, for the external world to interact with this subject, co-inter-form is the form viewed from the inside, for the obop to interact with the external world. The co-inter-form is considered a part of the ((670d01e7-9f1c-4f50-8b74-d6a51d33f719)).
 			- abstract form
 			  id:: 670e0d9a-a926-49ca-951c-7013b2b29e8c
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((670e0d9a-a926-49ca-951c-7013b2b29e8c)) is a mere image of an object where the ((6678288e-699b-4325-bdba-bf6349fe0d57)) of that object is abstracted away. Abstract form is the normal meaning of the word “form”.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((670e0d9a-a926-49ca-951c-7013b2b29e8c)) is a mere image of an object where the ((6678288e-699b-4325-bdba-bf6349fe0d57)) of that object is abstracted away. Abstract form is the normal meaning of the word “form”, but in Unïnfo, we call it “mere form”, “abstract form”, “empty form”, and preserve the word “form” for ((66f4e208-37c7-4749-a448-0722f7f7af20)).
 			- concrete form
 			  id:: 66f4e208-37c7-4749-a448-0722f7f7af20
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), we usually consider the ((66f4e208-37c7-4749-a448-0722f7f7af20)) of an object as the totality of ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f)) and its ((670de73b-6fe0-4366-9d81-2d631a3f3ca3)). Here we say:
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), when talking about “form”, we usually mean ((66f4e208-37c7-4749-a448-0722f7f7af20)), which is the totality of ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f)) and its ((670de73b-6fe0-4366-9d81-2d631a3f3ca3)). Here we say:
+				  id:: 684f9517-b893-45e0-a72d-adcc0cf95829
 				  > (concrete) form is the [crystallization](((66faa5f9-0b7a-49ca-a5f5-62eeba03ab2b))) of content.
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- The concrete form is united with its crystallized content, and Hegel also showed this unity via the [world of appearance](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm).
 					  collapsed:: true
 						- {{embed ((670d1f75-b9a6-490a-9759-9f09189167b7))}}
+					- ((66f4e208-37c7-4749-a448-0722f7f7af20)) is full both in quality (closed) and in quantity (crystal).
+					  id:: 69128c15-b49b-4b95-98ec-eeaad519d42b
+					  collapsed:: true
+					  :LOGBOOK:
+					  CLOCK: [2025-11-11 Tue 08:06:35]
+					  CLOCK: [2025-11-11 Tue 08:06:38]--[2025-11-11 Tue 08:26:28] =>  00:19:50
+					  :END:
+						- The closedness in space, equivalent to the repetition in time, accumulates large (intensive) amount of content, hence crystallization.
+						- Quantity shown by probability density
+							- Accumulation of karmic dust into karma storage.
+								- AI learning with probability.
+							- Wavefunction density in quantum mechanics.
+							- Density in materials.
+							- Traces on [oscilloscope](https://en.wikipedia.org/wiki/Oscilloscope) display clearly show the transition from fleeting form with low density to lasting form with high density.
+						- Quality shown by structure
+							- ((66e3fe46-dc79-472a-a059-f5ccf5afb437)) show 3 levels of structural quality.
 			- The unity of ((66ab6161-0306-42d5-ac16-4155c69216f5)) and ((6678d596-9526-405a-968c-e73860e524f3)) via ((670e0fef-2a46-450b-b043-176cccfc804a))
 			  id:: 670e0b40-f9a8-496a-989a-692dbb375f38
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The obop of the ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5)) sees the ((670d0138-9012-4f3e-a9bd-997443fb22a3)) of its body through the ((670d0138-8f58-428b-808e-24c05a5239fb)) of the ((66532bb2-7680-461b-80b2-71fc96c89fb9))s, thus the appearance is external to the components but internal to the composite. There, both parts of the composite's structure are appearances of the components:
@@ -4666,7 +5409,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- In Buddhist texts, form is defined through change and emptiness ( ((66600918-9f92-4730-b056-c2cd87a742aa)) in Unïnfo).
 							  collapsed:: true
 								- [Itchy sutta](https://suttacentral.net/sn22.79/en/sujato) (Khajjanīya sutta, SN 22:79):
-								  > And why do you call it *form [[rūpa](https://suttacentral.net/define/r%C5%ABpa?lang=en)]*? (Because) It’s *deformed [[ruppati](https://suttacentral.net/define/ruppati?lang=en)]* (changed, transformed, afflicted, vexed).
+								  > And why do you call it *form [[rūpa](https://suttacentral.net/define/r%C5%ABpa?lang=en)]*? (Because) It's *deformed [[ruppati](https://suttacentral.net/define/ruppati?lang=en)]* (changed, transformed, afflicted, vexed).
 								- [Prajnaparamita Heart Sutra](https://en.wikipedia.org/wiki/Heart_Sutra#Philological_explanation_of_the_text): 
 								  > Form is empty, emptiness is form! (色即是空，空即是色。)
 								- The “material” property of the the “form” (rūpa) is derived from the metaphysical theory at that time, regarding matter as composition of four elements “earth, water, air, fire”:
@@ -4887,22 +5630,39 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	- ## intent
 	  id:: 66b1cfa4-01ef-4ee8-9409-32c9884c39cd
 	  collapsed:: true
-	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)), ((66f93d8f-4fbf-4ed1-8bec-59bf92b6f2cd))
 	  ((66c80da7-c0e8-46d2-85e5-71318fd44eff)) ((68a7de4b-7072-4ec1-907e-5a0d9fdba859))
-		- intention
-		  id:: 66f93c78-15f5-43a7-8412-f7a5bc66e2ae
-		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))
-			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Intention
-		- intension
-		  id:: 66f93d8f-4fbf-4ed1-8bec-59bf92b6f2cd
-		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))
-			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Intension
 		- intend
 		  id:: 68a7de4b-7072-4ec1-907e-5a0d9fdba859
 		  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) is an umbrella term capturing the abstract notion of “something packed inside the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))”. E.g.: the daily used ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)) and [intentionality](https://en.wikipedia.org/wiki/Intentionality), the semantical ((66f93d8f-4fbf-4ed1-8bec-59bf92b6f2cd)), the ((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9)) in CIE, etc.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) is an umbrella term capturing the abstract notion of “something intensively packed inside the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))”. In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), “intent” covers from the volitional ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)) ([intentionality](https://en.wikipedia.org/wiki/Intentionality)), the semantical ((66f93d8f-4fbf-4ed1-8bec-59bf92b6f2cd)), the phenomenal ((68dfbe7e-1d78-4233-a799-516e68c2733e)), to the ((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9)) in CIE.
+		- intention
+		  id:: 66f93c78-15f5-43a7-8412-f7a5bc66e2ae
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((68df2ff2-cd0a-45e0-9309-969e0493404b))
+			- operative intent
+			  id:: 68df2ff2-cd0a-45e0-9309-969e0493404b
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae))
+			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Intention
+		- intension
+		  id:: 66f93d8f-4fbf-4ed1-8bec-59bf92b6f2cd
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((68df309b-c3e7-4121-895c-9c74d2359646))
+			- formative intent
+			  id:: 68df309b-c3e7-4121-895c-9c74d2359646
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f93d8f-4fbf-4ed1-8bec-59bf92b6f2cd))
+			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Intension
+		- quale
+		  id:: 68dfbe7e-1d78-4233-a799-516e68c2733e
+		  ((68dfc116-5dc8-41a1-b448-b2e2ddc80068)) ((68dfc0c7-14fa-4582-9865-8b3d53e0ebdd))
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((3f718c7e-3449-49fa-8771-d50a5f8a8d48))
+			- phenomenal intent
+			  id:: 3f718c7e-3449-49fa-8771-d50a5f8a8d48
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((68dfbe7e-1d78-4233-a799-516e68c2733e))
+			- qualia
+			  id:: 68dfc0c7-14fa-4582-9865-8b3d53e0ebdd
+			  ((68dfc11b-c552-4a41-b4bb-0737db0f3f94)) ((68dfbe7e-1d78-4233-a799-516e68c2733e))
+			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Qualia
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- The general ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) versus the strongly volitional “intent” in common usage
+			  id:: 687f7bca-3f80-4a42-93b0-2dd9996ff426
 			  collapsed:: true
 				- Unïnfo's “intent” > “intention” > common “intent”
 				  | Term                  | Volitional?     | Semantic, Conceptual? | Generalized? | Common Use                      |
@@ -4920,7 +5680,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  > meaning; significance.
 					- [The Century Dictionary > intent](https://www.wordnik.com/words/intent)
 					  > `noun` Notion; idea; thought; opinion.
-				- The common “intent”, usually used in legal, formal, or psychological contexts, connotes a **deliberate mental state** which is stronger & clearer than “intention”. This connotation makes it narrower than “intention”, while its  usage in Unïnfo is broader than “intention”.
+				- The common “intent”, usually used in legal, formal, or psychological contexts, connotes a **deliberate mental state** which is stronger & clearer than “intention”. This connotation makes “intent” narrower than “intention”, while the usage of “intent” in Unïnfo is broader than “intention”.
 				- Conscious intention vs. latent/dormant intent in the unconscious
 				  id:: 686ce608-1a1b-4b57-993a-fe8e943dc916
 					- In Unïnfo, ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)) must be **conscious**, while the [“unconscious intention”](https://en.wikipedia.org/wiki/Intention#Conscious_and_unconscious) described in psychoanalytic, as well as the “laten/dormant intent” ([anusayā](((66e80666-5f29-4419-8db1-bf8cdce893e4)))), falls out of the scope of “intention” and into the general meaning of “intent”.
@@ -4940,9 +5700,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- History:
 					- Even before ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), ((66536578-c4d3-43f1-b35c-bf71120f0570)) had used the word “inten**s**ion” as the general term including both semantical “inten**s**ion” and volitional “inten**t**ion”.
 						- From his University time, he had contemplated a lot about the 2 duals of intension/extension and form/content.
+						- Due to [hypophantasia](https://en.wikipedia.org/wiki/Aphantasia), Will's [“mental image”](https://plato.stanford.edu/entries/mental-representation/#Imagery) is much closer to the intension of the concept than a mental instance of it (an instance in the extension). That's why he feels all the internal contents (intents) are very much the same, both semantical “inten**s**ion” and volitional “inten**t**ion” are merged into his hypophantasic [mental representation](https://en.wikipedia.org/wiki/Mental_representation).
+							- Mental representation & inten**s**ion: Instead of a clear sensory representation, Will's mental representation is a vague feeling capturing the general essence of the concept, together with a bundle of properties, behaviors, and relations capturing the functional aspect of the concept.
+							- Mental representation & inten**t**ion: The intention is a mental state where mental representation together with emotion drives the action; and mental representation plays important role in formulating, rehearsing, committing, and execution of the intended action.
+							- The low resolution and high abstraction/intension of his mental image/representation show the functional trade-off between semantic information (intension) and sensory quality (phantasic image).[[ref1](https://creatzynotes.blogspot.com/2021/05/thinking-styles-visual-vs-abstract-vs.html), [ref2](https://www.biorxiv.org/content/10.1101/2022.09.02.506121v4)] And hypophantasia is an expression of his autistic trait in the [autism spectrum](https://en.wikipedia.org/wiki/Autism).
+							  id:: 68eca037-b18a-4046-9ac7-28fcf8334966
+								- Closed eye result: [33/55](https://aphantasia.com/study/vviq/result?rid=0199dcd3-1ea1-791c-91db-b9676b71743f), hypophantasia
+								- Open eye result: [45/55](https://aphantasia.com/study/vviq/result?rid=0199dcbc-c906-7048-8ca3-c1f2e4f892f6), at the low end of phantasia
+							- Like other aphantasic people, Will can see vivid images in dreams as normal, as well as involuntarily visualizing clear images in a lucid-dreamlike state of meditation.
 					- When Will contemplated the ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) in 2020, he revived the [archaic word “intent”](((686cef15-5eab-44f1-b8d7-3d8a9edcfa69))) to capture the general meaning of both semantical “inten**s**ion” and volitional “inten**t**ion”. The word “intent” was chosen instead of “intension” in order to be parallel with the other 2 compoents: content–intent–extent.
 						- Actually, at first he thought that the term “intent” with general meaning was his own coinage... only to learn later that it was an archaic connotation.
-			- The verb ((68a7de4b-7072-4ec1-907e-5a0d9fdba859)) in Unïnfo has the general meaning parallel with its noun “intent”, as shown with the ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)): “to direct attention to and focus on a target within the subject”.
+			- The verb ((68a7de4b-7072-4ec1-907e-5a0d9fdba859)) in Unïnfo has the general meaning parallel with its [noun “intent”](((687f7bca-3f80-4a42-93b0-2dd9996ff426))), as shown with the ((68df2d82-e1d5-49c4-ac40-d45cf26f840c)): “to direct attention to and focus on a target within the subject”.
 			  id:: 68a7de6e-fbe8-4fb9-8dc1-6279c066565f
 			  collapsed:: true
 			  :LOGBOOK:
@@ -4957,6 +5725,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Outward, the road narrows toward a visual vanishing point on the skyline.
 					- Inward, the intent cone narrows toward a mental vanishing point on the “horizon within”.
 					- Both are perspectival infinities: finite to the eye, boundless in the journey.
+			- Functional classification of intents and their temporal relation
+			  id:: 68dfc246-ea07-4c54-a0a4-2361f1a9055e
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-10-03 Fri 19:32:13]
+			  :END:
+				- ((68df309b-c3e7-4121-895c-9c74d2359646)) crysallizing [past experiences](((66ea8df3-d2f3-4856-b24a-5095dd285f9b))): The accumulation of past experiences gradually forms intension, concept, notion, which are stored in memory as dormant intents.
+				- ((3f718c7e-3449-49fa-8771-d50a5f8a8d48)) showing [current quality](((66ea8e12-7c30-449b-9139-bfd8d82394d7))): In contact with object's content, whether externally or internally, the corresponding dormant intents from the past are activated into qualia and mental images in the working memory, which are cognitive intents.
+				- ((68df2ff2-cd0a-45e0-9309-969e0493404b)) driving future ((66727858-979d-4d95-8a90-7a749218cfba))s: The interaction between cognitive intents unfolds them into the empty space of possibility. This emptiness generates the [contative](https://en.wikipedia.org/wiki/Conation) intents that drive actions to fill in the void, to fulfill the potential.
+				- The experiences throughout the course of action will, in turn, be accumulated into new formative intents.
 	- ## extent
 	  id:: 66b1cfa4-3a39-4672-9da2-cd3bcef71702
 	  collapsed:: true
@@ -4964,7 +5742,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- extension
 		  id:: 66f949a4-675e-4c43-8da3-f2754ba2e128
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66b1cfa4-3a39-4672-9da2-cd3bcef71702))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66b1cfa4-3a39-4672-9da2-cd3bcef71702)) is an umbrella term capturing the abstract notion of "the part of ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) extended from the ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))": the ((66ab6161-0306-42d5-ac16-4155c69216f5)) whose a special case is the daily used [extent](https://en.wiktionary.org/wiki/extent#Noun), the semantical [extension](https://en.wikipedia.org/wiki/Extension_(semantics)), the ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)) in CIE, etc. Note that the semantical "extension" here refers to the ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of the collection of objects referenced by the intension, where that form is just an image inside the subject.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66b1cfa4-3a39-4672-9da2-cd3bcef71702)) is an umbrella term capturing the abstract notion of “the part of ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) extended from the ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))”: the ((66ab6161-0306-42d5-ac16-4155c69216f5)) whose a special case is the daily used [extent](https://en.wiktionary.org/wiki/extent#Noun), the semantical [extension](https://en.wikipedia.org/wiki/Extension_(semantics)), the ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)) in CIE, etc. Note that the semantical “extension” here refers to the ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of the collection of objects referenced by the intension, where that form is just an image inside the subject.
 	- ## independent
 	  id:: 671b160c-0589-4f83-a778-a9fb4df6783a
 	  collapsed:: true
@@ -4975,10 +5753,24 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- independence
 		  id:: 671b1eef-0820-4e03-8e8f-e9342ca18b26
 		  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((671b160c-0589-4f83-a778-a9fb4df6783a))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) An object A is ((671b160c-0589-4f83-a778-a9fb4df6783a)) from another object B when there is no ((667d0b78-fff6-49bc-90d5-165648ed56d3)) A ← B within the given scope of consideration. ((671b1616-9958-48d9-95ba-9fc8e76f2867)) is always ((66c80cbf-6626-4cb7-9b58-8ac3396e03da)) to some scope of consideration, and the "absolute independency" is just the independency relative to the universal scope.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) An object A is ((671b160c-0589-4f83-a778-a9fb4df6783a)) from another object B when there is no ((667d0b78-fff6-49bc-90d5-165648ed56d3)) A ← B within the given scope of consideration. ((671b1616-9958-48d9-95ba-9fc8e76f2867)) is always ((66c80cbf-6626-4cb7-9b58-8ac3396e03da)) to some scope of consideration, and the “absolute independency” is just the independency relative to the universal scope.
 		- ((66e4299e-0af8-47ee-adae-c13fb57fd15d))
 			- In maths: [independent variable](https://en.wikipedia.org/wiki/Dependent_and_independent_variables), [stochastically independent](https://en.wikipedia.org/wiki/Independence_(probability_theory)), [logically independent](https://en.wikipedia.org/wiki/Independence_(mathematical_logic)), [perpendicular](https://en.wikipedia.org/wiki/Perpendicular), [orthogonal](https://en.wikipedia.org/wiki/Orthogonality), [linear independence](https://en.wikipedia.org/wiki/Linear_independence), [algebraic independence](https://en.wikipedia.org/wiki/Algebraic_independence), [independent set](https://en.wikipedia.org/wiki/Independent_set_(graph_theory)), [disjoint sets](https://en.wikipedia.org/wiki/Disjoint_sets)
 			- In politics: [independence](https://en.wikipedia.org/wiki/Independence), [independent city](https://en.wikipedia.org/wiki/Independent_city), [independent politician](https://en.wikipedia.org/wiki/Independent_politician), etc.
+			- In complex systems: emergent autonomy
+			- In Holographic Universe: scale separation/invariance
+			- In General Relativity: [background independence](https://en.wikipedia.org/wiki/Background_independence)
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- All independences are *emergent independence* built by walls of distance.
+			  id:: 6916f0bf-dec9-4dff-a8c9-999c63adb522
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-11-14 Fri 16:05:12]
+			  :END:
+				- Maths wall = infinite(simal) limit
+					- By means of limit, maths have made their walls “absolute independence”.
+				- Physics wall = very large/small constants
+				- Complex wall = big gaps between micro & macro scales
 		- ### orthogonal
 		  id:: 671b206e-c50c-47b0-903d-73e97d512d13
 		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((671b27ce-a9c8-48d7-b0b5-e056484a6747))
@@ -5005,6 +5797,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- The two symbols are indistinguishable to the human eyes: ⟂⊥
 						- In some fonts, they are rendered differently... just a little bit!
 					- I've add this [historical note](https://en.wikipedia.org/w/index.php?title=Up_tack&diff=1287329130&oldid=1287327431) to Wikipedia page [up tack](https://en.wikipedia.org/wiki/Up_tack#Perpendicular_symbol)
+					- I've updated [CreatZy shorthand](((66fe9e2e-13cf-4b31-96e7-1b050eed47c4))) `=T` from `⊥` (U+22A5) to `⟂` (U+27C2).
 	- ## relation
 	  id:: 667d0b78-fff6-49bc-90d5-165648ed56d3
 	  collapsed:: true
@@ -5144,7 +5937,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- Ω
 		  id:: 678e23b4-0fbe-4a5d-923f-6252405053df
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((675c03d8-3185-41a8-9f98-e869fabec793))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)), ((675c03d8-3185-41a8-9f98-e869fabec793)) is the ((687f322c-2334-46e5-816b-57889e5c6b89)) of the ((66537a0b-d107-4f7e-b01f-bf624a647d8c)), which is equivalent to the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) in ((66537a44-f579-4fcc-a02b-2f32d0d409fc)). While extensionally, the Universe is just a point, its intension is a complicated structure of ((66ab75a1-f4a0-4bab-a002-8e573546623a)) folded and crumpled into a nondimensional & nondirectional blob that contains all possible forms in infinite dimensional space. That means the Omnifold is nondimensional & nondirectional, yet [omnidimensional](((67505a68-91b9-4abb-bf92-4dddad8c5803))) & [omnidirectional](((67505a65-19d8-415a-8b80-c955a8768647))).
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)), ((675c03d8-3185-41a8-9f98-e869fabec793)) is the ((687f322c-2334-46e5-816b-57889e5c6b89)) of the ((66537a0b-d107-4f7e-b01f-bf624a647d8c)), which is equivalent to the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) in ((66537a44-f579-4fcc-a02b-2f32d0d409fc)). Omnifold is the ((66ab75a1-f4a0-4bab-a002-8e573546623a)) ((691ae014-cb3b-407f-b84b-582f0025c37c))ed and crumpled into a “blob” that contains **all possible forms** in infinite dimensional space. That means, extensionally, Omnifold is just a nondimensional & nondirectional point, while intensionally, it's [omnidimensional](((67505a68-91b9-4abb-bf92-4dddad8c5803))) & [omnidirectional](((67505a65-19d8-415a-8b80-c955a8768647))).
 			- For an ((669a2487-054d-4408-ae41-189e34af81a9)) (hypothetically) outside of the Omnifold, it can only see a ((66e43b94-9183-4d49-af85-8a7a1c194c12)) because all content of the Omnifold has been *abstracted*. This point shows its nondirectionality.
 			- When the outside ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) handles the point from the outside, it can only feel the “mass” of the Omnifold, which shows its nondimensionality.
 			- Only when the subject involves in the Omnifold, can it experience dimensions of the Omnifold as volumes and structures of information, as well as directions of the Ω-thread as changes and motions.
@@ -5162,13 +5955,15 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- |Ω| = 1
 		  id:: 678e228f-1182-4605-9aad-f66f6fbb57bd
 		  The mass (amount of content) of the ((675c03d8-3185-41a8-9f98-e869fabec793)) is [1](((67505a68-91b9-4abb-bf92-4dddad8c5803))).
-		- DOING Compared with other models of the Universe
+		- TODO Compared with other models of the Universe
 		  :LOGBOOK:
 		  CLOCK: [2024-12-13 Fri 18:37:00]
 		  :END:
+			- Here-now Presentism (Point Presentism)
 			- Block universe
 			- Bulk universe: 4D spacetime is just a [brane](https://en.wikipedia.org/wiki/Brane_cosmology) within this bulk.
 			- Multiverse, parallel worlds
+			- Holomovement
 	- ## uninet
 	  id:: 669dcdf8-a48c-40b1-bdb1-54a73fc5ae71
 	  collapsed:: true
@@ -5259,6 +6054,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 							- [fb note](https://www.facebook.com/share/p/qbfkFvBptBxobMLo) about Indra's Net
 							- Trip inside a 3D fractal (Kleinian) {{video https://youtu.be/XIzScwydxOE}}
+				- perception double cone
+				  id:: 68df36a4-6a3e-4fc9-b44a-c8e92f62aee1
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68df36a4-6a3e-4fc9-b44a-c8e92f62aee1)), or simply “perception cone”, is the combination of ((66ea8df3-d2f3-4856-b24a-5095dd285f9b)) & ((66ea8e12-7c30-449b-9139-bfd8d82394d7)) by the ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)).
 				- intent cone
 				  id:: 66ea8dbe-042e-41fc-a07c-841dcb5a737a
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) is the ((66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe)) of the subject's self. It's the particle on the ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)) representing the subject, which receives effects from the force field of the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)) and expresses the subject's will as both external action and reaction to the objects on the screen. Because this cone is extended from the root/center of the knowledge cone, it's the condensation of the whole mass of knowledge, hence has a very strong structure (hard form) to drive the ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)). The subject may have many selves (identities) to be activated by different present cones.
@@ -5358,6 +6156,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 665c82c0-ee06-4f43-95b8-73dbbe956080
 	  collapsed:: true
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((665c82c0-ee06-4f43-95b8-73dbbe956080)) is an image of the mind which reflects concepts (like [concept map](https://en.wikipedia.org/wiki/Concept_map)), relation and reasoning between these concepts (like [argument map](https://en.wikipedia.org/wiki/Argument_map)), tree views from important concepts (like [mind map](https://en.wikipedia.org/wiki/Mind_map)). Overall, it's a kind of [knowledge graph](https://en.wikipedia.org/wiki/Knowledge_graph).
+		  id:: 684f9517-b384-4c3c-8886-bcab29fe618c
 	- ## History
 	  id:: 6667ac3c-8fff-43aa-92ac-fca2002e58f4
 	  collapsed:: true
@@ -5433,7 +6232,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  > I'm just a no-one going nowhere to do nothing!
 			  
 			  This short introduction appears in most of my profiles. It may sounds Buddhist and Daoist but these "sounds" and interpretations are very far from my original intention.
-				- With this statement, i mean that “I’m just a humble person, not chasing status or legacy; I live a simple life without big ambitions, doing what matters to me – even if it looks like nothing, meaningless or even ridiculous to others.”
+				- With this statement, i mean that “I'm just a humble person, not chasing status or legacy; I live a simple life without big ambitions, doing what matters to me – even if it looks like nothing, meaningless or even ridiculous to others.”
 				- However, i've accidentally ackowledged that some of my friends interpret it as a transcendent status of selflessness ([anattā](https://en.wikipedia.org/wiki/Anatt%C4%81), 無我, vô ngã), Krishnamurti's [pathless land](https://jkrishnamurti.org/about-dissolution-speech), and Daoist [wu wei](https://en.wikipedia.org/wiki/Wu_wei) (無為, vô vi). Today, asking ChatGPT, the same interpretation was given again!
 				- I don't know if these thoughts and ideals affected my introduction, but i've never intended to mean them with that statement.
 					- Living in the Vietnamese culture, more or less i must be affected by these ideals, and actually developing toward them.
@@ -5587,7 +6386,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									- Sometime, the whole huge problem is abstracted into a key so small that it becomes a needle lost in a haystack and i cannot find/see that key easily.
 									- => It seems that the problem is "impossible!"
 									- => This discrepancy triggers my anger to tackle the problem "to the end".
-								- The butterfly effect from a tiny mistake to a huge error, the [one-unit error](https://www.geogebra.org/m/xhpjjxyn) at the marginal cases, and so on, are just the extension of the abstracted complex systems.
+								- The butterfly effect from a tiny mistake to a huge error, ((684f951b-b9c2-4257-9637-7ad7812918fc)), and so on, are just the extension of the abstracted complex systems.
 						- The illusion of “finished” & target reaching
 						  id:: 6736bd1e-5835-46e4-b640-dd35b3fe7c90
 						  collapsed:: true
@@ -5644,13 +6443,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- To be free, this core, as the hidden boss, should be detached!
 							- ⇒ Solution: Let's [sublimate](((668f5490-c223-4a8a-9cc4-0bd71af4c097))) that core to *restore the __[empty center](((684f9515-8f95-4004-8aa8-04a10d1ebf11)))__*, i.e. the [hurricane's eye](((681826ad-768c-4671-b575-0d9f8ca64c6b))) = ((66c8772a-9b29-45b0-b169-2fa847333e02)), so that it's free from any fixed point and can flow fluidly.
 							  id:: 681b4678-686a-4d99-9163-6f60e0b30d2c
-								- **Sublimation**: In [psychological terms](https://en.wikipedia.org/wiki/Sublimation_(psychology)#Jung), this is redirecting the core’s energy from perfectionist fixation to a liberated self-essence. In spiritual terms, it’s akin to dissolving karmic attachments to reveal the “true self”.
+								- **Sublimation**: In [psychological terms](https://en.wikipedia.org/wiki/Sublimation_(psychology)#Jung), this is redirecting the core's energy from perfectionist fixation to a liberated self-essence. In spiritual terms, it's akin to dissolving karmic attachments to reveal the “true self”.
 								- Even the singularity of a black hole can [evaporate](https://en.wikipedia.org/wiki/Hawking_radiation#Black_hole_evaporation)! 😊
 							- This duality of the overview effect is just a manifestation of the intrinsic duality of the [sublime](https://en.wikipedia.org/wiki/Sublime_(philosophy)).
 							  :LOGBOOK:
 							  CLOCK: [2025-05-08 Thu 17:03:40]--[2025-05-08 Thu 19:59:03] =>  02:55:23
 							  :END:
-								- **Paradoxical harmony** in *using sublimation to deal with the sublime*: The technique uses the sublime’s own energy (intensity of awe/overwhelm) to fuel sublimation, transforming the core’s fixation into the empty center’s openness.
+								- **Paradoxical harmony** in *using sublimation to deal with the sublime*: The technique uses the sublime's own energy (intensity of awe/overwhelm) to fuel sublimation, transforming the core's fixation into the empty center's openness.
 								- **Paradox**: *Sublimate the sublime!* 😯
 									- **Resolution**: The one to be sublimated is *not* the sublime itself, but the **fixed image** of the sublime imprinted deeply inside, as well as the egoic self **clinging** to that image.
 								- Jungian archetypes of God-image (universal perfection) & Self (personal whole)
@@ -5660,7 +6459,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									- While the Self is mostly hidden (until full realization), the God-image is usually visible through symbols and figures. And the ego usually takes the visible God-image to be the image of the hidden Self, which may be wrong, prone to idealization and fixation.
 							- Negative aspects of the overview effect are also reported by astronauts.
 							  collapsed:: true
-								- William Shatner, after his 2021 spaceflight, described [“profound grief” alongside awe](https://thebonesspeak.com/the-overview-effect/), mourning Earth’s vulnerability amid environmental degradation.
+								- William Shatner, after his 2021 spaceflight, described [“profound grief” alongside awe](https://thebonesspeak.com/the-overview-effect/), mourning Earth's vulnerability amid environmental degradation.
 									- [William Shatner experienced profound grief in space.](https://www.npr.org/2022/10/23/1130482740/william-shatner-jeff-bezos-space-travel-overview-effect)
 									  > I wept for the Earth because I realized it's dying.
 									- [William Shatner: My Trip to Space Filled Me With ‘Overwhelming Sadness’](https://variety.com/2022/tv/news/william-shatner-space-boldly-go-excerpt-1235395113/)
@@ -5791,7 +6590,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- In VS Code, current usage percentages are shown in the Copilot popup from the status bar.
 				  collapsed:: true
 					- ![Copilot-VSCode-status.png](../assets/Will/story/2025-06/Copilot-VSCode-status.png)
-				- While there's no statistics on the [Settings GUI](https://github.com/settings/copilot/features), the info is actually available in response to the request `https://github.com/github-copilot/chat`/`entitlement`: just open Chrome DevTools of Copilot Settings page > `Network` > filter for `entitlement`.
+				- October, its setting page has added the usage statistics onto the top.
+				  collapsed:: true
+					- ![GitHub Copilot Settings - Usage - 2025-10-01.png](.../assets/Will/story/2025-10/GitHub Copilot Settings - Usage - 2025-10-01.png)
+				- While there's no statistics on the [Settings GUI](https://github.com/settings/copilot/features), the info is actually available in response to the request `https://github.com/github-copilot/chat/entitlement`: just open Chrome DevTools of Copilot Settings page > `Network` > filter for `entitlement`.
 				  collapsed:: true
 					- ![GitHub-Copilot-entitlement-quotas.png](../assets/Will/story/2025-06/GitHub-Copilot-entitlement-quotas.png)
 				- Ref: [a nice hack by charlielee](https://github.com/orgs/community/discussions/148154#discussioncomment-12546080)
@@ -5815,7 +6617,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- From forum: https://forum.obsidian.md/t/why-is-obsidian-named-so/4837
 				  collapsed:: true
 					- Official reason:
-					   > it’s a metaphor. **If your raw, unstable thoughts are lava, then Obsidian is… well, Obsidian. It is your crystallized (and beautiful) knowledge.**
+					   > it's a metaphor. **If your raw, unstable thoughts are lava, then Obsidian is… well, Obsidian. It is your crystallized (and beautiful) knowledge.**
 					- However, the real reason would be:
 					  > we like Minecraft and Obsidian is (as Licat told me) the hardest block in the original Minecraft (he started playing during alpha I think). Also Obsidian sounds cool to me, personally.
 					- And ((66537d0c-5406-4b46-8975-12d788cfc28e)) is actually a ((66537c37-2d4a-4077-9fcf-45c71755c876)), not a ((66537bdd-6c99-4d7b-905a-e2a487cae5ce)). Even looks like crystal, glass is [amorphous](https://en.wikipedia.org/wiki/Amorphous_solid), i.e. non-crystalline, because it lacks the the [long-range order](https://en.wikipedia.org/wiki/Long-range_order "Long-range order") that is characteristic of a ((66537bdd-6c99-4d7b-905a-e2a487cae5ce)).
@@ -5963,6 +6765,34 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Integrations: multiplayer collaboration, Slack, Google (Workspace, Docs), GitHub, AI (non-free), etc.
 				- Source code: They host [repos on GitHub](https://github.com/outline) in which [rich-markdown-editor](https://github.com/outline/rich-markdown-editor) is open-source.
 				- For Google account, only Workspace account is supported, personal account is not supported.
+			- [Trilium Notes](https://triliumnotes.org/) ([dev from 2017](https://console.substack.com/p/console-169) to 2024): an [open-source](https://github.com/TriliumNext/Trilium) focusing on tree-based organization of notes and WYSIWYG like a word processor. Community is still thin, because the codebase has just been transfered to TriliumNext community since 2024.
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-11-13 Thu 09:25:53]
+			  :END:
+				- This app was built upon the pure personal passion of the author [zadam](https://github.com/zadam), as shared on [Console #169](https://console.substack.com/p/console-169).
+				  id:: 691545ea-1b97-4600-964b-c0cc02a61cb5
+				  collapsed:: true
+					- Why was Trilium Notes started?
+						- > Back in 2017 there wasn’t a lot of choice in note-taking software. I used to use proprietary software called Notecase Pro. I like its free-form tree based structure, WYSIWYG editor and some other features, but it had only rudimentary sync capabilities, so I decided to build a web app which I could use at work and all my notes would sync with Notecase Pro at home.
+						- > But relatively early on I found out that keeping the compatibility with this app was just too difficult for the benefit it brought (there was a lot of “impedance mismatch”, e.g. simple formatting like italics was done using some custom binary markup and translation from/to HTML was painful), so I decided it will be easier to make a separate app for my needs instead. I initially allocated 3 months to develop it, instead it’s been 6 years now …
+					- Are there any projects similar to Trilium Notes? If so, what were they lacking that made you consider building something new?
+						- > Back in 2017 there wasn’t a lot of choice in this area, I believe since then this area experienced a significant boom. It’s quite possible that if there was such a selection back in 2017, I would become a happy user (and perhaps contributor) of some existing application instead of starting my own project. But that ship has sailed.
+					- If I gave you $10 million to invest in one thing right now, where would you put it?
+						- > $10 million is both a lot and not a lot of money, so I’d look for places where you get the most bang for the buck.
+						- > In my mind, projects like GIMP, Kdenlive or Audacity are underfunded, but “simple enough” that a couple of full time dedicated contributors could make a big difference. These apps are critical for the public perception of Linux (BSDs …) as a complete en user platform, but they lack the necessary corporate backing.
+					- Is Trilium Notes intended to eventually be monetized if it isn’t monetized already? If so, how? If it’s already monetized, what is your main source of revenue?
+						- > No, there’s never been a plan to monetize Trilium. I think it’s very difficult to make a living in this segment of personal note-taking / knowledge base tools and basically impossible to “make it big”.
+						- > The only path to that is targeting companies by building in multi-user support, various authentication methods, fine-grained ACL and other enterprise features, but I believe that’s fundamentally a different product which forces some compromises for personal note-taking.
+						- > I get donations on GitHub and PayPal which provide “beer money”. It’s also very nice to see that users are seeing value in my work and are willing to support it in real terms.
+					- What motivates you to continue contributing to Trilium Notes?
+						- > That’s a surprisingly difficult question. I started the project to scratch my own itch, but the app has long already fulfilled my personal needs.
+						- > I guess now it’s a combination of being a fun thing to do, feeling some kind of responsibility towards the existing users and a general perfectionism. I heard that OSS projects thrive on shame of their authors and I guess there’s some truth in it.
+					- Are there any overarching goals of Trilium Notes that drive design or implementation? If so, what trade-offs have been made in Trilium Notes as a consequence of these goals?
+						- > One goal which comes to my mind is the long term sustainability as a hobby project. A surprising share of even quite prominent open source projects are largely driven by a single person, and that applies to Trilium as well. So I try to protect myself against burnout, by making sure I do a lot of the fun stuff and limit the boring (or outright frustrating) work to a minimum.
+					- Have you ever experienced burnout? How did you deal with it?
+						- > Avoiding burnout is the big part of my thinking / strategy outlined above in talking about the long term project sustainability. Basically I’m trying to work on fun things and avoid the boring things (unless really necessary), even at the cost of a wider user adoption.
+						- > The great advantage of building an open source software is that can just do your own thing at your own pace, people using it is “just” a nice bonus. You usually don’t have the same freedom with commercial products where your existence depends on the product success/adoption.
 			- [zt](https://github.com/c2d7fa/zt) on Emacs
 		- Reviews
 		  collapsed:: true
@@ -7604,7 +8434,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- `{{embed ((UUID))}}` displays the full block [referenced](((667d2689-4ce0-4c79-b82a-25b0bba87d39))) by the UUID, including the ((66faa5f9-1da8-40c1-a040-7490fbfdc3bb)).
 				- `{{video https://youtu.be/hash}}` displays video in place.
 					- However, YouTube video cannot be played in place due to the lack of user account in the isolated Electron profile.
-					  > Sign in to confirm you’re not a bot
+					  > Sign in to confirm you're not a bot
 		- WAIT Custom ((66600918-8c61-42af-b8a2-04bf05e9f782)) via ((6673f8ff-995c-455f-ae09-49bcb5311e2e))
 		  id:: 6673f8bf-04c0-4f8f-bc36-982ce9cab87d
 		  collapsed:: true
@@ -7692,6 +8522,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					    });
 					  }
 					  ```
+			- DONE Write [ProcessText.html](../assets/HTML/ProcessText.html)
+			  :LOGBOOK:
+			  CLOCK: [2025-11-19 Wed 20:22:45]
+			  CLOCK: [2025-11-19 Wed 20:22:46]--[2025-11-19 Wed 20:24:00] =>  00:01:14
+			  :END:
+				- DONE Smart quote function `replaceQuotes`() in [common-utils.js](../assets/HTML/common-utils.js).
+				  :LOGBOOK:
+				  CLOCK: [2025-11-19 Wed 18:56:03]
+				  CLOCK: [2025-11-19 Wed 18:56:05]--[2025-11-19 Wed 18:56:20] =>  00:00:15
+				  :END:
 		- Settings: via [[logseq/config.edn]] and menu `Settings`
 		  id:: 6735b187-e461-441e-976a-b81bea23104e
 		  collapsed:: true
@@ -7725,7 +8565,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- If there are many commands with the same `$shorthand`, only the last command can be activated.
 				- Ref: usage of ((66fbdf84-c5a4-4f96-aece-add980758db1)) like `:editor/input`, `:backward-pos`, `:backward-pos`, etc., and in combination with ((66ff3a47-e526-4c63-b0fc-8b260882ea51)).
 					- [`<`-comand to `{{macro}}` to insert special characters](https://discuss.logseq.com/t/is-there-any-way-to-insert-special-characters/26522/9)
-					- [Macros and Commands - let’s share](https://discuss.logseq.com/t/macros-and-commands-lets-share/9565)
+					- [Macros and Commands - let's share](https://discuss.logseq.com/t/macros-and-commands-lets-share/9565)
 		- Global home/config folder
 		  id:: 66faaa5c-6a8a-42d9-a1bc-410531dbaf81
 		  collapsed:: true
@@ -7775,7 +8615,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  contains Electron's preferences: `devtools`, `spellcheck`, ...
 				- `Cookies`
 					- [?] can we add cookies, e.g. for YouTube login, here?!
-						- Test Youtube clip: error when play under VPN: `Sign in to confirm you’re not a bot`
+						- Test Youtube clip: error when play under VPN: `Sign in to confirm you're not a bot`
 						  id:: 68a2d52c-0a16-4214-8004-123babd4b841
 						  collapsed:: true
 							- With `video` tag

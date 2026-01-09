@@ -8,5 +8,6 @@
  :hidden ["assets" "/assets" "../assets"]
  :ui/auto-expand-block-refs? false
  :ui/show-brackets? false
+ :shortcuts {:plugin.logseq-git/logseq-plugin-git-commit&push ["shift+ctrl+s"]}
 
 }
