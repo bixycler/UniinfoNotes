@@ -297,7 +297,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								  id:: 6960929c-0ac9-43c6-8357-0e3e9ca1ed54
 							- [MCP](https://en.wikipedia.org/wiki/Model_Context_Protocol) Servers: for LLMs to integrate and share data with external tools, systems, and data sources.
 							- Export: export the conversation to Markdown.
-						- DOING [Knowledge Items (KIs)](https://antigravity.google/docs/knowledge)
+						- DOING Knowledge Items ([KIs](https://antigravity.google/docs/knowledge))
 						  :LOGBOOK:
 						  CLOCK: [2026-01-09 Fri 13:00:30]
 						  :END:
@@ -370,10 +370,15 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- #### `<ephemeral_message>`
 									- System-generated context injections. In this mode, ephemeral messages include artifacts reminders and specific metadata about Knowledge Store status and persistent memory hints.
 						- Issues & Debug
-							- Insecure permissions (`nobody:nogroup`) ⇒ Must always `chown` after app upgrade.
-								- ```
+							- Insecure permissions (`nobody:nogroup`) ⇒ Must always `chown root:root` after app upgrade.
+							  collapsed:: true
+								- ```sh
 								  [oh-my-zsh] Insecure completion-dependent directories detected:
 								  -rw-r--r-- 1 nobody nogroup 2554 Thg 11 26 08:26 /usr/share/zsh/vendor-completions/_antigravity
+								  
+								  ⮕ sudo chown root:root /usr/share/zsh/vendor-completions/_antigravity
+								  ⮕ ll /usr/share/zsh/vendor-completions/_antigravity                  
+								  -rw-r--r-- 1 root root 2,5K Thg 12 20 05:08 /usr/share/zsh/vendor-completions/_antigravity
 								  ```
 							- Startup automatically with 100% CPU load, likely due to a "new update available"
 							  collapsed:: true

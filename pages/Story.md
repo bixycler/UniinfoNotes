@@ -5772,6 +5772,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Thanks to the agent's research, i've got:
 							- ((6960913e-1087-4e27-837c-aa0a98b98f6e))
 							- ((6960929c-0ac9-43c6-8357-0e3e9ca1ed54))
+						- The
 				- Autonoton from computer science view, as a function: (InputHistory, input) -> (CurrentState, input) -> (NextState, output) -> (OutputHistory, output)
 				  collapsed:: true
 					- State = A condensed image of the world (history in time and landscape in space) projected into mind.
