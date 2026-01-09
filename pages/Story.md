@@ -5759,7 +5759,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- After i provided it the [link](https://antigravity.google/docs/knowledge), it opened browser, navigate around to read many pages there, with many tabs opened 😉.
 							- ```sh
 							  cd ~/.gemini/antigravity
-							  convert -delay 20 -loop 0 browser_recordings/599365e1-f037-47cc-b5b0-beedf1c2b102/*.jpg AntigravityBrowsingWeb.gif
+							  ffmpeg -framerate 24 -pattern_type glob -i 'browser_recordings/599365e1-f037-47cc-b5b0-beedf1c2b102/*.jpg' AntigravityBrowsingWeb.webm
+							  # GIF is too large for 24 fps!
+							  convert -delay 4 -loop 0 browser_recordings/599365e1-f037-47cc-b5b0-beedf1c2b102/*.jpg AntigravityBrowsingWeb.gif
 							  ```
 						- Then it concluded:
 						- **Researching Knowledge Items Access**
