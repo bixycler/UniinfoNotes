@@ -3025,6 +3025,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  CLOCK: [2025-05-27 Tue 14:39:29]
 				  :END:
 				- Make sure all of these actions are reset, except the `autostart/update-notifier.desktop`:`X-GNOME-Autostart-enabled=false` and Unattended Upgrade
+				  collapsed:: true
 					- Unmask `apt-news` & `esm-cache` which were masked due to [their unuse](https://askubuntu.com/a/1452520).
 						- ```sh
 						  sudo systemctl unmask esm-cache.service
@@ -5231,14 +5232,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- The infinite consciousness desolves the bodymind into the world, no separation's there.
 					- The lucid dream desolve only the self intent, leaving all other intents freely manifest themselves, usually in a space (dream) isolated from the external world.
 					- Though not as elegant as the states of emptiness and infinite consciousness, as well as other formess states, the lucid dream – like other form states – has a useful function in the world and the life: liberated from intents while still let them function in daily life.
-		- DOING Start from the ((69086748-b6e9-47c0-810b-4a92f882d6bc))
+		- Start from the ((69086748-b6e9-47c0-810b-4a92f882d6bc))
 		  id:: 69085f61-6627-4c0a-a984-c2b5b411a292
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-11-03 Mon 14:53:11]
-		  CLOCK: [2025-11-03 Mon 14:53:17]
+		  CLOCK: [2025-11-03 Mon 14:53:17]--[2026-01-09 Fri 15:25:09] =>  1608:31:52
 		  :END:
-			- ((68dc9f21-1057-4ac0-be4c-61c9010d7f78))
 			- 1st-2nd, weekends ((690b3f49-1419-4dc3-b61b-12890b9e04f9))
 			  collapsed:: true
 				- Vô Danh thần tăng trong [Thiên Long Bát Bộ 2003 - Tập 34](https://youtu.be/2T_v4UjaABE)
@@ -5322,7 +5322,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Panpsychism
 						- The book's closing remarks
 						  > ...the first distinction, the Mark and the observer are not only interchangeable, but, in the form, identical.
-			- 7th, continuation...
+			- 7th, continuation of arrow vs separation of circle
+			  collapsed:: true
 				- Arrow continuation: I/O, momentum, mixing past into present, pattern matching, relation
 				- Circle separation: as a whole itself, the circle like a particle has no connection to others.
 				- Physicists, from Schrodinger, have been trying hard to [eliminate i from quantum](https://www.quantamagazine.org/physicists-take-the-imaginary-numbers-out-of-quantum-mechanics-20251107/)... without satisfaction! 😂
