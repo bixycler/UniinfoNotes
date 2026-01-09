@@ -61,9 +61,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :END:
 			- The journals in ((68662950-3ada-42ea-928d-9700209e1501)) have clearly shown my karma and slavery: No self-control at all, completely useless in unfavorable situations!
 				- From July to November, in the environment of uninteresting (mechanical) works and unfavorable leader (distant from me), i struggled in vain to do official works.
-				- Just after a month of daily journaling, i've seen clearly that [i'm helpless with my karma](((6926be23-764f-4670-8f95-8a4da43ace96))) the finally collapsed on [Dec 2nd](((692e55b4-90f1-42dd-a8e1-98fdcc16332e))),
+				- After just a month of daily journaling, i've seen clearly that [i'm helpless with my karma](((6926be23-764f-4670-8f95-8a4da43ace96))). The helpless wrestle the next 4 months ended up in the final collapsed on [Dec 2nd](((692e55b4-90f1-42dd-a8e1-98fdcc16332e))).
+				- Last month, December, returning to my favorable environment, it's shown that all of my “commitment” to the official works is from my karmic hooks, not any self-control at all! That means i have no commitment myself.
 			- ((66536e1b-6466-4153-90d6-583003d99a81)) really lags in large pages like [[Mind Jungle]] and [[Story]].
-			  collapsed:: true
 				- They have similar size of 700+kB, while rather different lines number (9k vs 6k).
 				- So, the size does matter, not the lines.
 			- [!] `publish/CommonMark/Mind Jungle.cm.md` has invalid Advanced Query due to redundant `<br>`

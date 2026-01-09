@@ -4216,7 +4216,6 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 				- [3D sculpting](https://en.wikipedia.org/wiki/Digital_sculpting) with push, pull, smooth, grab, pinch, is much easier than modeling from curves up.
 				- AI & human: acting out of habit is easier than dealing with awareness.
 			- Driving intents:
-			  collapsed:: true
 				- First, the feeling of "simple" pushed me to dive in.
 				- In the middle, while the effect circle had not settled, the stronger push was from:
 					- the fear of wasting effort,
