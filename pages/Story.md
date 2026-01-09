@@ -5751,6 +5751,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  :END:
 						- At first, it didn't know the concept intrinsically, and search all over of my repo without success. 😁
 						- After i provided it the [link](https://antigravity.google/docs/knowledge), it opened browser, navigate around to read many pages there, with many tabs opened 😉.
+						  collapsed:: true
+							- ![AntigravityBrowsingWeb-demo-20secs.webm](../assets/GUI/Antigravity/AntigravityBrowsingWeb-demo-20secs.webm)
 							- ```sh
 							  cd ~/.gemini/antigravity
 							  ffmpeg -framerate 24 -pattern_type glob -i 'browser_recordings/599365e1-f037-47cc-b5b0-beedf1c2b102/*.jpg' AntigravityBrowsingWeb.webm
