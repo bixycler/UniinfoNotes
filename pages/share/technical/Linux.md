@@ -1967,6 +1967,30 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 									  ```
 										- which can be modified interactively with `sudo dpkg-reconfigure unattended-upgrades`
 									- From Debian 12 (Bookworm) = Ubuntu 22.04 (Jammy Jellyfish), ((683580d0-c9c6-4708-acb6-7c21817be3dc)) is *no longer a default* install with Gnome. Download and upgrade schedules are set up by ((6835789b-9394-42ff-8c03-8c19763deda6)) using `systemd` timers with [apt-daily[-upgrade].service](https://wiki.debian.org/UnattendedUpgrades#Modifying_download_and_upgrade_schedules_.28on_systemd.29). The default behaviour in Gnome for upgrades detected via APT is now to advise of availability, and not to install by default.
+							- Places to check for activities (logs & timestamps)
+							  collapsed:: true
+								- `apt`:
+									- `/var/log/apt/history.log`: command log
+									- `/var/log/apt/term.log`: detail log
+								- `apt update`:
+									- `/var/lib/apt/periodic/update-success-stamp` touched by `/etc/apt/apt.conf.d/15update-stamp`
+								- `dpkg`:
+									- `/var/log/dpkg.log`: command log
+								- `/usr/lib/apt/apt.systemd.daily`: E.g., last upgrade = Apr 19; last update & download = Jun 12
+									- `UPDATE_STAMP=/var/lib/apt/periodic/update-stamp` ← `apt update`: update package lists
+									- `DOWNLOAD_UPGRADEABLE_STAMP=/var/lib/apt/periodic/download-upgradeable-stamp` ← `apt-get --download-only && unattended-upgrade --download-only`
+									- `UPGRADE_STAMP=/var/lib/apt/periodic/upgrade-stamp` ← `apt upgrade` (`unattended-upgrade`)
+								- `/usr/bin/unattended-upgrade`: E.g., last = Apr 19
+									- `${Dir::State}/periodic/unattended-upgrades-stamp`
+									- `/var/log/unattended-upgrades/unattended-upgrades{,-dpkg,-shutdown}.log`
+								- `update-notifier`:
+									- `/var/lib/update-notifier/{updates-available,dpkg-run-stamp}` touched by `/etc/apt/apt.conf.d/99update-notifier`
+								- `update-notifier-download`: Download data for packages that failed at package install time
+									- `update-notifier-download.{timer->service}` starts at boot time -> `/lib/systemd/system/update-notifier-download.service`
+									- `/usr/share/package-data-downloads` -> `/var/lib/update-notifier/package-data-downloads`
+								- `update-notifier-motd.timer`: Check to see whether there is a new version of Ubuntu available
+									- `update-notifier-motd.{timer->service}` run every week (Sunday) -> `/usr/lib/ubuntu-release-upgrader/release-upgrade-motd` -> `/usr/lib/ubuntu-release-upgrader/check-new-release`
+									- `/var/lib/ubuntu-release-upgrader/release-upgrade-available`
 				- Synaptic
 				  id:: 683573db-769c-4215-b55b-196dc57082c2
 					- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Synaptic_(software)

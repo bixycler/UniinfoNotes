@@ -3019,11 +3019,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  collapsed:: true
 								- ![Wayland-tooltip-OK.png](../assets/GUI/Wayland/dropdown-topleft/Wayland-tooltip-OK.png)
 								- ![X11-dropdown-OK.png](../assets/GUI/Wayland/dropdown-topleft/X11-dropdown-OK.png)
-				- WAIT Migrate `docs/DevlopmentEnvironment/Ubuntu-update.md` to ((68358033-084f-461c-b470-5311a5127f0c)) & ((68358161-eb10-4c78-805e-88f9f460d376)).
+				- DOING Migrate `docs/DevlopmentEnvironment/Ubuntu-update.md` to ((68358033-084f-461c-b470-5311a5127f0c)) & ((68358161-eb10-4c78-805e-88f9f460d376)).
+				  collapsed:: true
 				  :LOGBOOK:
 				  CLOCK: [2025-05-27 Tue 14:39:27]
 				  CLOCK: [2025-05-27 Tue 14:39:29]
+				  CLOCK: [2026-01-09 Fri 16:21:27]
 				  :END:
+					- Config trials from Aug 17 2022
 				- Make sure all of these actions are reset, except the `autostart/update-notifier.desktop`:`X-GNOME-Autostart-enabled=false` and Unattended Upgrade
 				  collapsed:: true
 					- Unmask `apt-news` & `esm-cache` which were masked due to [their unuse](https://askubuntu.com/a/1452520).
