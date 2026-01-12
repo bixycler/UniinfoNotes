@@ -11,21 +11,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		- January journal
 		  id:: 6960ec3a-b9a9-4fcd-b2f7-4424575c3da4
 		  collapsed:: true
-			- 7th, Microutilities as single HTML files in my repo `applets`
-			  collapsed:: true
-				- Other names suggested by chatbot: workflow widget, artifact,...
-				- => folders in Corkei:
-					- `artifacts`: tangible “byproducts” of the agent when working with the knowledge graph, including the result outputs (intended products of specific tasks but still “byproducts” compared to the graph)
-						- `applets` for human UI
-						- `tools` for AI agent
-						- `docs`: static artifacts extracted through views
-						- `assets`: attachments to `docs`
-					- `core`: the minimal machinery that must be loaded for the agent to be conscious (targeting autonoton with “empty center”)
-					- `graph`: the knowledge graph
-					- TODO Move `travelport_api.pre2.2026-01-06.huge-15k.out.html` to `applets`/`travelport-json-api-response.html`
-				- [Willison’s HTML tools](https://simonwillison.net/2025/Dec/10/html-tools/):
-					- SVG renderers, PyPI package diff viewers, Bluesky thread visualizers, debugging tools (clipboard-viewer, cors-fetch)
-					- Python: Pyodide (Python compiled to WebAssembly) + micropip to run Pandas, matplotlib, and numpy client-side. CORS-enabled APIs from PyPI, GitHub, and others provide data access without proxies.
 			- 1st, From circle to ellipse -> elliptic arc -> elliptic functions & modular forms -> differential equation of elliptic functions -> elliptic equation -> elliptic curves
 			  collapsed:: true
 				- [Behold Modular Forms, the ‘Fifth Fundamental Operation’ of Math](https://www.quantamagazine.org/behold-modular-forms-the-fifth-fundamental-operation-of-math-20230921/)
@@ -52,6 +37,21 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Nirvana — The Ground State: Nirvana literally means "extinguishing" or "blowing out" (like a candle flame), the transition from an Excited State to the Ground State. When the "flame" of individual excitation is blown out, the energy doesn't disappear; it returns to the stable, high-energy vacuum.
 						- We spend our lives terrified of "blowing out" our little candles, not realizing that we are actually the Sun. 😆
 				- Chat with Google AI Mode: [Sheaf theory for intensional formulation of states and entropy](https://share.google/aimode/LJVdcorSfpfNSiFPL)
+			- 7th, Microutilities as single HTML files in my repo `applets`
+			  collapsed:: true
+				- Other names suggested by chatbot: workflow widget, artifact,...
+				- => folders in Corkei:
+					- `artifacts`: tangible “byproducts” of the agent when working with the knowledge graph, including the result outputs (intended products of specific tasks but still “byproducts” compared to the graph)
+						- `applets` for human UI
+						- `tools` for AI agent
+						- `docs`: static artifacts extracted through views
+						- `assets`: attachments to `docs`
+					- `core`: the minimal machinery that must be loaded for the agent to be conscious (targeting autonoton with “empty center”)
+					- `graph`: the knowledge graph
+					- TODO Move `travelport_api.pre2.2026-01-06.huge-15k.out.html` to `applets`/`travelport-json-api-response.html`
+				- [Willison’s HTML tools](https://simonwillison.net/2025/Dec/10/html-tools/):
+					- SVG renderers, PyPI package diff viewers, Bluesky thread visualizers, debugging tools (clipboard-viewer, cors-fetch)
+					- Python: Pyodide (Python compiled to WebAssembly) + micropip to run Pandas, matplotlib, and numpy client-side. CORS-enabled APIs from PyPI, GitHub, and others provide data access without proxies.
 		- Wrap up 2025 with my karma clearly shown through daily journaling.
 		  id:: 695f83ed-08ed-4265-b6c1-7bed98a40028
 		  collapsed:: true
