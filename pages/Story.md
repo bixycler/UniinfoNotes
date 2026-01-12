@@ -52,6 +52,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- [Willison’s HTML tools](https://simonwillison.net/2025/Dec/10/html-tools/):
 					- SVG renderers, PyPI package diff viewers, Bluesky thread visualizers, debugging tools (clipboard-viewer, cors-fetch)
 					- Python: Pyodide (Python compiled to WebAssembly) + micropip to run Pandas, matplotlib, and numpy client-side. CORS-enabled APIs from PyPI, GitHub, and others provide data access without proxies.
+				-
 		- Wrap up 2025 with my karma clearly shown through daily journaling.
 		  id:: 695f83ed-08ed-4265-b6c1-7bed98a40028
 		  collapsed:: true
