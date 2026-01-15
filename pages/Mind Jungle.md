@@ -303,8 +303,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  :LOGBOOK:
 						  CLOCK: [2026-01-09 Fri 13:00:30]--[2026-01-09 Fri 14:45:06] =>  01:44:36
 						  :END:
-							- Update: Version 1.14.2 Jan 13, 2026, has added settings to allow disabling conversation history and knowledge.
+							- Update: Version 1.14.2 Jan 13, 2026, has added settings to allow en/disabling conversation history and knowledge.
 								- I've removed the flag `"codeiumDev.useDevUnleash": true` from `~/.config/Antigravity/User/settings.json`, and the agent confirmed that it know how to handle knowledge: Knowledge Store, Conversation History Access, Workflows System, Skills System, Artifacts for Documentation.
+								- Now, it has conversation summaries presented in its mind, but still no way to read/write KIs.
 							- KIs are part of agent persistent long-term memory. The system will automatically fetch summaries of relevant KIs to inform agent context and reasoning.
 							- The KIs would be extracted from `Walkthrough` docs.
 							  id:: 6960913e-1087-4e27-837c-aa0a98b98f6e
