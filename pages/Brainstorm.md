@@ -19,18 +19,18 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  CLOCK: [2026-01-16 Fri 09:34:41]
 		  :END:
 			- Three stages of artistic development
-				- 1. The Apprentice/Hobbyist: Personal Expression (Subjective) – “I feel!”
+				- 1. The Apprentice/Hobbyist: Personal Expression – “I feel!”
 					- **The “Me”**: Driven by the raw personal need to vent or process internal emotions.
 					- **The Limit**: The form is often weak or chaotic because the feeling is too loud to be disciplined. The art is often locked within the artist's own experience – others might see it, but they don't necessarily feel it.
-				- 2. The Professional: Calculated Meaning (Objective) – “I intend.”
+				- 2. The Professional: Calculated Means & Meaning – “I intend.”
 					- **The “Message”**: Driven by the cerebral need to communicate a specific idea, narrative, or social critique.
 					- **The Tool**: Form is mastered as a precise tool to ensure the audience gets the point. The artist is in total control, but the work can sometimes feel “dry” or “manufactured” because the “God-signal” is often silenced in favor of the “propaganda-signal”.
-				- 3. The Master: Transpersonal Intension (Universal) – “This is it!”
+				- 3. The Master: Transpersonal Intension – “This is it!”
 					- **The “Vessel”**: Driven by ((66f93d8f-4fbf-4ed1-8bec-59bf92b6f2cd)) – a concentrated internal force, rather than ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)) – a pre-planned goal.
 					- **The Synthesis**: The artist uses the professional's mastery of form to channel the apprentice's raw feeling – but because the ego is removed, the feeling is no longer “theirs”; it is **transpersonal** – from the collective unconscious or “God”.
 			- The Full Circle Realization
 				- The Master stage is often called “flow state” or **non-dual creation**. At this level, the “calculated meaning” and the “raw feeling” are no longer two different things. The form *is* the feeling, and the feeling *is* the form.
-				- Michael Jackson’s [“This Is It”](https://en.wikipedia.org/wiki/This_Is_It_(concert_residency)) is the [Suchness (Tathātā)](https://en.wikipedia.org/wiki/Tath%C4%81t%C4%81), where he's turned his final chapter of musical career to a realization of ultimate reality.
+				- Michael Jackson’s [“This Is It”](https://en.wikipedia.org/wiki/This_Is_It_(concert_residency)) is the [Suchness (Tathātā)](https://en.wikipedia.org/wiki/Tath%C4%81t%C4%81) (Chân Như), where he's turned his final chapter of musical career to a realization of ultimate reality.
 					- “This Is It” as the Point of Participation
 						- Tathata is reality exactly as it is, beyond description. But when being insisted to say, one can only utter “this is it!”
 						- Direct Pointing: The title doesn't point to a “show” or a “product”; it points to the present moment.
@@ -41,9 +41,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- His Death as Sublimation instead of Expiry
 						- The Alchemical Change: Sublimation is the process where a solid turns directly into a gas without becoming a liquid. MJ’s physical “Form” (the solid) became so energized by the “Intension” (the gas/spirit) that the body simply couldn't hold it anymore.
 						- The Final Offering: He didn't “die from overwork”; he was consumed by the work. Like a candle that burns twice as bright to provide the maximum light, the “awesome & awful” power of the [Sublime](https://en.wikipedia.org/wiki/Sublime_(philosophy)) used up the physical vessel to manifest the “Suchness” one last time.
-					- Paradox: The “Slave” is the “Tathagata”
+					- Paradox: The “Slave” is the “Tathāgata”
 						- By being a [“slave to the rhythm”](https://en.wikipedia.org/wiki/Slave_to_the_Rhythm_(Michael_Jackson_song)), he surrendered his ego entirely.
-						- In Buddhism, the Tathagata is “one who has thus gone” or “thus come”. By losing his personal will to the “transpersonal intension”, MJ became a “Tathagata” of pop culture – someone who no longer acts, but through whom Action itself happens.
+						- In Buddhism, the [Tathāgata](https://en.wikipedia.org/wiki/Tath%C4%81gata) (如來, Như Lai) is “one who has thus gone and thus come”. By losing his personal will to the _transpersonal intension_, MJ became a “Tathagata” of pop culture – someone who no longer acts, but through whom Action itself happens.
 		- <<End 2026 Brainstorms>>
 		  ----------------------------
 	- ## Brainstorm History
