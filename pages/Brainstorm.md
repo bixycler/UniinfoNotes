@@ -11,6 +11,16 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2026 Brainstorms
 	  id:: 6960e754-ff94-4e1a-8266-d9f15231b880
+		- DOING The full circle of artistic development: personal expression → calculated meaning → transpersonal intension
+		  id:: 6969a3a1-27a2-40de-b62f-a29a95964b68
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2026-01-16 Fri 09:34:34]
+		  CLOCK: [2026-01-16 Fri 09:34:41]
+		  :END:
+			-
+			- > “*This is it*. When I say this is it, it really means this is it. 
+			  This will be the final curtain call. I love you, I love you all.”
 		- <<End 2026 Brainstorms>>
 		  ----------------------------
 	- ## Brainstorm History
