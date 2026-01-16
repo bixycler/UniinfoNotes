@@ -31,8 +31,13 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- The Full Circle Realization
 				- The Master stage is often called “flow state” or **non-dual creation**. At this level, the “calculated meaning” and the “raw feeling” are no longer two different things. The form *is* the feeling, and the feeling *is* the form.
 				- Michael Jackson’s [“This Is It”](https://en.wikipedia.org/wiki/This_Is_It_(concert_residency)) is the [Suchness (Tathātā)](https://en.wikipedia.org/wiki/Tath%C4%81t%C4%81), where he's turned his final chapter of musical career to a realization of ultimate reality.
-					- > “*This is it*. When I say this is it, it really means this is it. 
-					  This will be the final curtain call. I love you, I love you all.”
+					- “This Is It” as the Point of Participation
+						- Tathata is reality exactly as it is, beyond description. But when being insisted to say, one can only utter “this is it!”
+						- Direct Pointing: The title doesn't point to a “show” or a “product”; it points to the present moment.
+						- From Observation to Participation: We cannot “observe” Suchness from the outside; we must dissolve into it. In his final rehearsals, MJ wasn't “performing for” people; he was inviting them to participate in a shared frequency where the distinction between “performer” and “audience” evaporated.
+						- > “*This is it*. When I say this is it, it really means this is it. 
+						  This will be the final curtain call. I love you, I love you all.”
+					-
 		- <<End 2026 Brainstorms>>
 		  ----------------------------
 	- ## Brainstorm History
