@@ -55,7 +55,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				-
 			- 16th, ...
 			  collapsed:: true
-				- ((6969a3a1-27a2-40de-b62f-a29a95964b68))
+				- On the way to compary, contemplating whether art is a deceptive moonlight (nghệ thuật là ánh trăng lừa dối), i rember a discussion with Mr. Huy about form versus content in art, then this brainstorm rose: ((6969a3a1-27a2-40de-b62f-a29a95964b68))
 		- Wrap up 2025 with my karma clearly shown through daily journaling.
 		  id:: 695f83ed-08ed-4265-b6c1-7bed98a40028
 		  collapsed:: true
