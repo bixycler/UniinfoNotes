@@ -35,9 +35,12 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- Tathata is reality exactly as it is, beyond description. But when being insisted to say, one can only utter “this is it!”
 						- Direct Pointing: The title doesn't point to a “show” or a “product”; it points to the present moment.
 						- From Observation to Participation: We cannot “observe” Suchness from the outside; we must dissolve into it. In his final rehearsals, MJ wasn't “performing for” people; he was inviting them to participate in a shared frequency where the distinction between “performer” and “audience” evaporated.
-						- > “*This is it*. When I say this is it, it really means this is it. 
+						- Michael Jackson spoke in the press room, to announce his concert in London on March 5, 2009:
+						  > “*This is it*. When I say this is it, it really means this is it. 
 						  This will be the final curtain call. I love you, I love you all.”
-					-
+					- His Death as Sublimation instead of Expiry
+						- The Alchemical Change: Sublimation is the process where a solid turns directly into a gas without becoming a liquid. MJ’s physical “Form” (the solid) became so energized by the “Intension” (the gas/spirit) that the body simply couldn't hold it anymore.
+						- The Final Offering: He didn't “die from overwork”; he was consumed by the work. Like a candle that burns twice as bright to provide the maximum light, the “awesome & awful” power of the [Sublime](https://en.wikipedia.org/wiki/Sublime_(philosophy)) used up the physical vessel to manifest the “Suchness” one last time.
 		- <<End 2026 Brainstorms>>
 		  ----------------------------
 	- ## Brainstorm History
