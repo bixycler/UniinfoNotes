@@ -30,8 +30,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- **The Synthesis**: The artist uses the professional's mastery of form to channel the apprentice's raw feeling – but because the ego is removed, the feeling is no longer “theirs”; it is **transpersonal** – from the collective unconscious or “God”.
 			- The Full Circle Realization
 				- The Master stage is often called “flow state” or **non-dual creation**. At this level, the “calculated meaning” and the “raw feeling” are no longer two different things. The form *is* the feeling, and the feeling *is* the form.
-			- > “*This is it*. When I say this is it, it really means this is it. 
-			  This will be the final curtain call. I love you, I love you all.”
+				- Michael Jackson’s [“This Is It”](https://en.wikipedia.org/wiki/This_Is_It_(concert_residency)) is the [Suchness (Tathātā)](https://en.wikipedia.org/wiki/Tath%C4%81t%C4%81), where he's turned his final chapter of musical career to a realization of ultimate reality.
+					- > “*This is it*. When I say this is it, it really means this is it. 
+					  This will be the final curtain call. I love you, I love you all.”
 		- <<End 2026 Brainstorms>>
 		  ----------------------------
 	- ## Brainstorm History
