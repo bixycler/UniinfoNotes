@@ -59,6 +59,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- At the Apex, Formalism is no longer a “calculated means” – it has become The Vessel.
 					- Role: The form is now so perfect and frictionless that it allows the *transpersonal intension* to pass through without distortion.
 					- The Non-Dual Result: At this stage, we cannot separate “form” from “content” – they have merged into the “Suchness” and the “Sublime”.
+					- The “Extreme Formalism” – [“Art for art's sake”](https://en.wikipedia.org/wiki/Art_for_art%27s_sake): The artwork's meaning is self-contained within the piece itself, independent of the artist's intentions or historical background.
+						- At its extreme, formalism in art history posits that everything necessary to comprehending a work of art is contained within the work of art.
+						- The context of the work, including the reason for its creation, the historical background, and the life of the artist, that is, its conceptual aspect is considered to be external to the artistic medium itself, and therefore of secondary importance.
 		- <<End 2026 Brainstorms>>
 		  ----------------------------
 	- ## Brainstorm History
