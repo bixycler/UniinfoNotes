@@ -41,6 +41,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- His Death as Sublimation instead of Expiry
 						- The Alchemical Change: Sublimation is the process where a solid turns directly into a gas without becoming a liquid. MJ’s physical “Form” (the solid) became so energized by the “Intension” (the gas/spirit) that the body simply couldn't hold it anymore.
 						- The Final Offering: He didn't “die from overwork”; he was consumed by the work. Like a candle that burns twice as bright to provide the maximum light, the “awesome & awful” power of the [Sublime](https://en.wikipedia.org/wiki/Sublime_(philosophy)) used up the physical vessel to manifest the “Suchness” one last time.
+					- Paradox: The “Slave” is the “Tathagata”
+						- By being a [“slave to the rhythm”](https://en.wikipedia.org/wiki/Slave_to_the_Rhythm_(Michael_Jackson_song)), he surrendered his ego entirely.
+						- In Buddhism, the Tathagata is “one who has thus gone” or “thus come”. By losing his personal will to the “transpersonal intension”, MJ became a “Tathagata” of pop culture – someone who no longer acts, but through whom Action itself happens.
 		- <<End 2026 Brainstorms>>
 		  ----------------------------
 	- ## Brainstorm History
