@@ -51,7 +51,14 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- This is the “home” of traditional Formalism. At this stage, the artist uses form (the “calculated means”) to control the outcome.
 					- Role: Here, Formalism is disciplinary. The artist studies the “laws” of the medium (rhythm, anatomy, music theory) to ensure their “intended meaning” isn't lost.
 					- The Logic: “If I want the audience to feel X, I must use form Y.” The artist is the master of the form, using it like a craftsman uses a hammer.
+				- The Transition Stage 2→3: Formalism as “Asceticism”
+					- To move from the Professional to the Master, Formalism undergoes a transformation. It ceases to be a tool for the “ego” and becomes a spiritual discipline.
+					- Role: The artist becomes so obsessed with the perfection of the form that they begin to “burn away” their own personal opinions and shortcuts.
+					- The Process: By pushing Formalism to its absolute limit (like Michael Jackson practicing a single slide for 8 hours), the artist exhausts their own “intention”, leaving only “intension”. They become so proficient that the form becomes automatic.
 				- Stage 3 (Master): Formalism is transcended through perfection – the “vessel” is so well-made it becomes one with the water inside it.
+					- At the Apex, Formalism is no longer a “calculated means” – it has become The Vessel.
+					- Role: The form is now so perfect and frictionless that it allows the *transpersonal intension* to pass through without distortion.
+					- The Non-Dual Result: At this stage, we cannot separate “form” from “content” – they have merged into the “Suchness” and the “Sublime”.
 		- <<End 2026 Brainstorms>>
 		  ----------------------------
 	- ## Brainstorm History
