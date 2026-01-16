@@ -31,6 +31,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- The Full Circle Realization
 				- The Master stage is often called “flow state” or **non-dual creation**. At this level, the “calculated meaning” and the “raw feeling” are no longer two different things. The form *is* the feeling, and the feeling *is* the form.
 				- Michael Jackson’s [“This Is It”](https://en.wikipedia.org/wiki/This_Is_It_(concert_residency)) is the [Suchness (Tathātā)](https://en.wikipedia.org/wiki/Tath%C4%81t%C4%81) (Chân Như), where he's turned his final chapter of musical career to a realization of ultimate reality.
+				  collapsed:: true
 					- “This Is It” as the Point of Participation
 						- Tathata is reality exactly as it is, beyond description. But when being insisted to say, one can only utter “this is it!”
 						- Direct Pointing: The title doesn't point to a “show” or a “product”; it points to the present moment.
@@ -44,6 +45,13 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- Paradox: The “Slave” is the “Tathāgata”
 						- By being a [“slave to the rhythm”](https://en.wikipedia.org/wiki/Slave_to_the_Rhythm_(Michael_Jackson_song)), he surrendered his ego entirely.
 						- In Buddhism, the [Tathāgata](https://en.wikipedia.org/wiki/Tath%C4%81gata) (如來, Như Lai) is “one who has thus gone and thus come”. By losing his personal will to the _transpersonal intension_, MJ became a “Tathagata” of pop culture – someone who no longer acts, but through whom Action itself happens.
+			- [Formalism](https://en.wikipedia.org/wiki/Formalism_(art)) as the the Yoga of the artist
+				- Stage 1 (Apprentice/Hobbyist): Formalism is absent or weak – the feeling is there, but the “vessel” is leaky.
+				- Stage 2 (Professional): Formalism is dominant and cerebral – the “vessel” is being built and controlled by the ego.
+					- This is the “home” of traditional Formalism. At this stage, the artist uses form (the “calculated means”) to control the outcome.
+					- Role: Here, Formalism is disciplinary. The artist studies the “laws” of the medium (rhythm, anatomy, music theory) to ensure their “intended meaning” isn't lost.
+					- The Logic: “If I want the audience to feel X, I must use form Y.” The artist is the master of the form, using it like a craftsman uses a hammer.
+				- Stage 3 (Master): Formalism is transcended through perfection – the “vessel” is so well-made it becomes one with the water inside it.
 		- <<End 2026 Brainstorms>>
 		  ----------------------------
 	- ## Brainstorm History
