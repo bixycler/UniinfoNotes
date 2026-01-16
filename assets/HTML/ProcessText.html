@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Process Text</title>
+  <style>
+    textarea { width: 100%; height: 20em; padding: 8px; box-sizing: border-box; }
+  </style>
+</head>
+<body>
+  <h2>Process Text</h2>
+  <ul>
+    <li>Replace straight quotes with curly quotes</li>
+  </ul>
+
+  <script src="common-utils.js"></script>
+
+  <label class="label" for="source">Source tex:</label>
+  <textarea id="source" placeholder="Paste or type text to be processed here"></textarea>
+
+  <div class="controls">
+    <button id="replaceBtn" type="button">Replace Quotes</button>
+    <button id="copyBtn" type="button">Copy Result</button>
+    <button id="clearBtn" type="button">Clear</button>
+    <label style="margin-left:12px"><input id="live" type="checkbox"> Live update</label>
+  </div>
+
+  <br>
+  <label class="label" for="result">Result:</label>
+  <textarea id="result" readonly placeholder="Result will appear here"></textarea>
+
+  <script>
+    function applyReplace() {
+      // Use replaceQuotes(ln) in common-utils.js to replace straight quotes with curly quotes
+      result.value = replaceQuotes(source.value);
+    }
+
+    source.addEventListener('input', () => { if (live.checked) applyReplace(); });
+    replaceBtn.addEventListener('click', applyReplace);
+    copyBtn.addEventListener('click', () => { copyTextToClipboard(result.value); });
+    clearBtn.addEventListener('click', () => { source.value = ''; result.value = ''; });
+  </script>
+</body>
+</html></div>
