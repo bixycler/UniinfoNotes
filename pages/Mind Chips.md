@@ -57,6 +57,7 @@
 	- [Two Twisty Shapes Resolve a Centuries-Old Topology Puzzle](https://www.quantamagazine.org/two-twisty-shapes-resolve-a-centuries-old-topology-puzzle-20260120/): For the first time, mathematicians have found an example of a compact doughnutlike surface that shares its local geometric information (metric & mean curvature) with another surface, despite having a completely different global structure.
 	- [Alzheimer as an autoimmune disease](https://www.sciencealert.com/alzheimers-might-not-actually-be-a-brain-disease-reveals-expert)
 - [LFM2.5-1.2B-Thinking](https://www.marktechpost.com/2026/01/20/liquid-ai-releases-lfm2-5-1-2b-thinking-a-1-2b-parameter-reasoning-model-that-fits-under-1-gb-on-device/) model for agent brain-muscle, compared to Gemma 3 1B IT, Llama 3.2 1B Instruct, Qwen3 1.7B Instruct Mode, etc.
+  id:: 6977467f-ec88-4c32-a0f9-6415461a83bc
 - [Context graph](https://www.marktechpost.com/2026/01/20/what-are-context-graphs/) as an extension of knowledge graph!? 🤔 Haha, i've never thought of KG as storing “contextless rules & isolated facts” 😆! Anyway, i'm always living the graph, no matter what you call it!
 - ---
 - Weekends 24-25:
