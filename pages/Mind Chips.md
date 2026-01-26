@@ -63,6 +63,11 @@
 - Weekends 24-25:
   collapsed:: true
 	- Let's try [Open Notebook](https://github.com/lfnovo/open-notebook) to check its RAG against the AnythingLM's RAG
+		- `sudo docker compose up -d` showed all OK, but `sudo docker compose logs surrealdb` show "Permission denied" failure:
+			- ```
+			  surrealdb-1  | 2026-01-26T13:18:55.888657Z ERROR surreal::cli: There was a problem with the database: There was a problem with a datastore transaction: Failed to create RocksDB directory: `Os { code: 13, kind: PermissionDenied, message: "Permission denied" }`.
+			  
+			  ```
 	- [Agentic AI Research Assistant](https://www.confluent.io/use-case/agentic-ai-research-assistant/) via [Confluent’s data streaming platform](https://www.confluent.io/data-streaming/)
 	- [Web search agent](https://ai-sdk.dev/cookbook/node/web-search-agent): many models offer native web-searching capabilities: Perplexity, OpenAI (with Responses API), Gemini (with [Grounding with Google Search](https://ai.google.dev/gemini-api/docs/google-search) for 2.5 Flash with [500 req/day free](https://ai.google.dev/gemini-api/docs/pricing#standard))
 		- `google_search_retrieval` tool in Gemini API.
