@@ -48,7 +48,10 @@
 		- And the code is more predictable, which Ripple advertises to be more friendly to AI agents.
 		- This is a shift from reactive functions (Solid) to reactive memory (Ripple).
 - ---
-- 20th, Sửa "dấu" thành "giấu"  trong [bản Tâm Minh (Ngô Tằng Giao)](https://bixycler.github.io/PhapCu-Dhammapada/#ColumnsView/e0-o0-i0/18/252)
+- DONE 20th, Sửa "dấu" thành "giấu"  trong [bản Tâm Minh (Ngô Tằng Giao)](https://bixycler.github.io/PhapCu-Dhammapada/#ColumnsView/e0-o0-i0/18/252)
+  :LOGBOOK:
+  CLOCK: [2026-01-26 Mon 19:28:57]--[2026-01-26 Mon 19:29:03] =>  00:00:06
+  :END:
 - 21st, 
   collapsed:: true
 	- [Two Twisty Shapes Resolve a Centuries-Old Topology Puzzle](https://www.quantamagazine.org/two-twisty-shapes-resolve-a-centuries-old-topology-puzzle-20260120/): For the first time, mathematicians have found an example of a compact doughnutlike surface that shares its local geometric information (metric & mean curvature) with another surface, despite having a completely different global structure.
