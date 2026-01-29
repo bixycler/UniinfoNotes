@@ -2,9 +2,9 @@
 <html>
 
 <head>
-  <title>Twisted Double I - Unïnfo</title>
+  <title>Twisting Double I - Unïnfo</title>
   <link rel="icon" href="../img/Unitorus.png" type="image/png" size="349x509">
-  <meta charset="utf-8"/>
+  <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="../scripts/utilities.css" rel="stylesheet" type="text/css">
   <script src="../scripts/utilities.js"></script>
@@ -18,7 +18,7 @@
   <script src='https://cdn.rawgit.com/mrdoob/three.js/r92/examples/js/renderers/Projector.js'></script>
   <script src='https://cdn.rawgit.com/mrdoob/three.js/r92/examples/js/exporters/STLExporter.js'></script>
 
-<style>
+  <style>
     input.slider-360 {
       width: 180px;
     }
@@ -38,7 +38,6 @@
       width: 30px;
       text-align: right;
     }
-
   </style>
 </head>
 
@@ -70,8 +69,10 @@
           <option value="perspective">Perspective</option>
         </select><br>
         <input type="button" id="ssrecording" value="🔴 Record"><br><!--🟥 Stop recording-->
-        <input type="checkbox" id="xautorecord" title="Automatically record one round of animation"><label for="xautorecord">Autorecord</label>
-        <input type="checkbox" id="xbyframe" style='display: none;' title="Record each frame into an image"><label for="xbyframe" id="lxbyframe" style='display: none;'>by frame</label><br>
+        <input type="checkbox" id="xautorecord" title="Automatically record one round of animation"><label
+          for="xautorecord">Autorecord</label>
+        <input type="checkbox" id="xbyframe" style='display: none;' title="Record each frame into an image"><label
+          for="xbyframe" id="lxbyframe" style='display: none;'>by frame</label><br>
       </td>
       <td>
         <video id="recVideo" autoplay controls playsinline muted style="display: none;">
@@ -85,8 +86,7 @@
         </canvas>
       </td>
   </table>
-  <label for="zrotate">Rotate: </label><span id="vzrotate" class="degree"
-    style="font-weight: bold;">0</span>°
+  <label for="zrotate">Rotate: </label><span id="vzrotate" class="degree" style="font-weight: bold;">0</span>°
   [-180°<input type="range" id="zrotate" class="slider-360" min="-180" max="180" value="0">180°]
   <p></p>
 
@@ -99,7 +99,7 @@
 
   <a style='display: none;' id='recordedFile'></a>
 
-  <script src="TwistedDoubleI.js">  </script>
+  <script src="TwistingDoubleI.js">  </script>
 
 </body>
 

@@ -3657,16 +3657,16 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 					  ![A-four-strand-rope-structure](../assets/Will/story/2025-08/A-four-strand-rope-structure-showing-the-yarns-and-their-cross-section.png)
 					- Ref: [ResearchGate](https://www.researchgate.net/figure/Typical-two-strand-rope-structure-image-partly-adapted-from-Leech-10_fig1_282862409)
 				- Model with GeoGebra: [TwistingDoubleI](https://www.geogebra.org/m/cexzy52b)
-					- TODO Rename from the static “twisted” to the dynamic “twisting”.
+					- DONE Rename from the static “twisted” to the dynamic “twisting”.
 					  id:: 6978184a-d5bb-4699-80e7-8ad351dc2787
 					- Image & video & 3D model
-						- ![TwistedDoubleI.png](../assets/Uniinfo/TwistedDoubleI/TwistedDoubleI.png)
+						- ![TwistingDoubleI.png](../assets/Uniinfo/TwistingDoubleI/TwistingDoubleI.png)
 						- Video
 						  collapsed:: true
-							- ![TwistedDoubleI.200x300.webm](../assets/Uniinfo/TwistedDoubleI/TwistedDoubleI.200x300.webm)
+							- ![TwistingDoubleI.200x300.webm](../assets/Uniinfo/TwistingDoubleI/TwistingDoubleI.200x300.webm)
 						- YouTube: [Twisting Double i – the “ï” of “Unïnfo”](https://www.youtube.com/shorts/evIXwWj9IFA)
-						- 3D model page: [Uniinfo/TwistedDoubleI](https://github.com/bixycler/Uniinfo/tree/main/TwistedDoubleI).[html](https://bixycler.github.io/Uniinfo/TwistedDoubleI/TwistedDoubleI.html)
-							- Both [TwistedDoubleI](https://github.com/bixycler/Uniinfo/tree/main/TwistedDoubleI) and [Unitorus](https://github.com/bixycler/Uniinfo/tree/main/Unitorus) are ***manually* mirrored** with ((666baccf-6be1-4b9a-b186-f883ea04daf1))/assets/Uniinfo/{[TwistedDoubleI](../assets/Uniinfo/TwistedDoubleI),[Unitorus](../assets/Uniinfo/Unitorus)}.
+						- 3D model page: [Uniinfo/TwistingDoubleI](https://github.com/bixycler/Uniinfo/tree/main/TwistingDoubleI).[html](https://bixycler.github.io/Uniinfo/TwistingDoubleI/TwistingDoubleI.html)
+							- Both [TwistingDoubleI](https://github.com/bixycler/Uniinfo/tree/main/TwistingDoubleI) and [Unitorus](https://github.com/bixycler/Uniinfo/tree/main/Unitorus) are ***manually* mirrored** with ((666baccf-6be1-4b9a-b186-f883ea04daf1))/assets/Uniinfo/{[TwistingDoubleI](../assets/Uniinfo/TwistingDoubleI),[Unitorus](../assets/Uniinfo/Unitorus)}.
 					- Instead of the complex rope with many levels of twisting (strand, rope yarn, plied yarn, base yarn, fiber), we model just a **two-ply yarn** plied from simple cylindrical strands.
 					  collapsed:: true
 						- The word “ply” is from the PIA root [pleḱ-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/ple%E1%B8%B1-) meaning “plait, fold, weave”: *apply* (fold toward), *reply* (fold back), *implicit* (folded in), *explicit* (unfolded), *complicated* (folded together), etc.
