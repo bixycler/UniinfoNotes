@@ -22,5 +22,5 @@
 - So, the Zed GUI is still buggy in setting the GitHub Copilot as provider: edit prediction & agent LLM model.
 - Let's also debug the Agent Panel LLM model setting.
 - By force setting `agent.default_model.provider` to `copilot_chat`, Copilot does appear in the Agent providers list now :D
-- This is issue is very recent: [GitHub Copilot Chat activation hangs in "Starting Copilot..."](https://github.com/zed-industries/zed/issues/46593)
+- This is issue is very recent: [GitHub Copilot Chat activation hangs in "Starting Copilot..."](https://github.com/zed-industries/zed/issues/46593#issuecomment-3816504812)
 -
