@@ -618,6 +618,7 @@ id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
 				- ANN is top-down determined (trained), so its capability cannot exceed its source (training data).
 			- Both Turing machine & LLM are linear worker, no branching of alternatives (possibilities).
 		- Unithread = middle out determinism = circular determinism = superdeterminism = vacantism = open circular system
+		  id:: 6926be1c-d482-4601-a32c-91f18e6c8e03
 			- Start from the herenow and ripple out.
 			- Uninet continuously learns from life, hence unlimited capacity.
 		- reaction = reflection; action = emission
