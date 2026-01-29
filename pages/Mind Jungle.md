@@ -6072,6 +6072,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- effect cone
 					  id:: 66eaa51a-32c1-4f3a-830c-30aecb7c45a3
 					  is the ((667bd93a-cce4-4dbf-9831-725e4dffe463)) of the action at the tip of the ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)).
+		- Corkei
+		  id:: 697b4547-9b65-4a96-b3d1-55245377c796
+		  collapsed:: true
+		  Circuit of referential knowledge & effective information
+			- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “Corkei” is pronounced “corkay” /ˈkɔɹkeɪ/, which rhymes with the cute “Corkie” /ˈkɔɹki/.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((697b4547-9b65-4a96-b3d1-55245377c796)) is a ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)) emerging from the
 	- ## description
 	  id:: 66532914-003a-4bbb-9e97-6f1c87170d7d
 	  collapsed:: true
