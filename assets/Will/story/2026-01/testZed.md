@@ -1,0 +1,25 @@
+- What can Zed do with AI? 
+- Let's predict what's next...
+- Hey, i don't see any edit prediction...
+- Ok, i've enabled it for this buffer.
+- Let's see the prediction: ...
+- This line should be ... (predict it) ... (predict it) ... (predict it) ...
+- Oh, i see... Zed model prefers simple patterns prediction.
+- How can i have it predict more complex patterns?
+- Zed can predict more complex patterns by using more advanced models and algorithms.
+- Let's try GitHub Copilot.
+- GitHub Copilot is a powerful tool that can predict complex patterns by using advanced machine learning algorithms.
+- But first, Zed must install its language server (LSP) for GitHub Copilot.
+- The LSP installation has been completed successfully, but the signin process is still in progress... very long! :-?
+- Oh, the seemingly automatic signin process, with a spinning icon, was misleading! Actually, it's a manual process.
+- After restarting the editor, Zed now asks to sign in to GitHub Copilot manually with a button and a 2-factor authentication code.
+- After successful connection to GitHub Copilot, Zed still shows the "Signing in to GitHub" button, and the provider is still "Zed".
+- Let's restart the editor again. Still does **not** work! :(
+- The Copilot in Agent Panel is not working, either.
+- ==> There seems to be an issue with the GitHub Copilot integration.
+- I've manually added `"edit_prediction_provider": "copilot"` to the settings.json file. <== This works!
+- So, the Zed GUI is still buggy in setting the GitHub Copilot as provider: edit prediction & agent LLM model.
+- Let's also debug the Agent Panel LLM model setting.
+- By force setting `agent.default_model.provider` to `copilot_chat`, Copilot does appear in the Agent providers list now :D
+- This is issue is very recent: [GitHub Copilot Chat activation hangs in "Starting Copilot..."](https://github.com/zed-industries/zed/issues/46593)
+-
