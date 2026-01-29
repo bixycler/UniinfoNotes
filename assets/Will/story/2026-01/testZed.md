@@ -14,6 +14,7 @@
 - Oh, the seemingly automatic signin process, with a spinning icon, was misleading! Actually, it's a manual process.
 - After restarting the editor, Zed now asks to sign in to GitHub Copilot manually with a button and a 2-factor authentication code.
 - After successful connection to GitHub Copilot, Zed still shows the "Signing in to GitHub" button, and the provider is still "Zed".
+- Clicking that button shows "You're all set to use GitHub Copilot." But there is no effect in settings.
 - Let's restart the editor again. Still does **not** work! :(
 - The Copilot in Agent Panel is not working, either.
 - ==> There seems to be an issue with the GitHub Copilot integration.
