@@ -48,7 +48,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- `assets`: attachments to `docs`
 					- `core`: the minimal machinery that must be loaded for the agent to be conscious (targeting autonoton with “empty center”)
 					- `graph`: the knowledge graph
-					- TODO Move `travelport_api.pre2.2026-01-06.huge-15k.out.html` to `applets`/`travelport-json-api-response.html`
+					- DONE Move `travelport_api.pre2.2026-01-06.huge-15k.out.html` to `applets`/`travelport-json-api-response.html`
 				- [Willison’s HTML tools](https://simonwillison.net/2025/Dec/10/html-tools/):
 					- SVG renderers, PyPI package diff viewers, Bluesky thread visualizers, debugging tools (clipboard-viewer, cors-fetch)
 					- Python: Pyodide (Python compiled to WebAssembly) + micropip to run Pandas, matplotlib, and numpy client-side. CORS-enabled APIs from PyPI, GitHub, and others provide data access without proxies.

@@ -74,4 +74,4 @@
 	- [Graphite](https://editor.graphite.art/): open source vector graphics for procedural creation/editing & animation, just like Blender for 3D
 - [FRED](http://wit.istc.cnr.it/stlab-tools/fred/demo/): a tool for automatically producing RDF/OWL ontologies and linked data from natural language sentences... but it generates too complicated RDF for a simple sentence like “I am a man.”
 - [Zed](https://zed.dev): an interesting code editor with AI agents, written in Rust for high-speed [GPUI](https://docs.rs/gpui_rn/latest/gpui/), but still in active dev phase.
-	- My first [testZed](../assets/Will/story/2026-01/testZed.md) show a bug right in the AI settings.
+	- My first [testZed](../assets/Will/story/2026-01/testZed.md) showed a bug right in the AI settings.

@@ -1,4 +1,4 @@
-- What can Zed do with AI? 
+- What can Zed do with AI?
 - Let's predict what's next...
 - Hey, i don't see any edit prediction...
 - Ok, i've enabled it for this buffer.
@@ -23,3 +23,4 @@
 - Let's also debug the Agent Panel LLM model setting.
 - By force setting `agent.default_model.provider` to `copilot_chat`, Copilot does appear in the Agent providers list now :D
 - This is issue is very recent: [GitHub Copilot Chat activation hangs in "Starting Copilot..."](https://github.com/zed-industries/zed/issues/46593#issuecomment-3816504812)
+	- I've commented with my `settings.json` workaround.
