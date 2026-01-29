@@ -6079,8 +6079,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “Corkei” is pronounced “corkay” /ˈkɔɹkeɪ/, which rhymes with the cute “Corkie” /ˈkɔɹki/.
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((697b4547-9b65-4a96-b3d1-55245377c796)) is a ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)) emerging from the need of a ((697b4779-fdc8-4188-b3e0-fd984c167fb8)) for ((66536578-c4d3-43f1-b35c-bf71120f0570)).
 			- ((6667abd2-14eb-4145-b9e3-e6f3037b3117))
+				- Long ago, since the first visions of
 				- Mid-2022: Will created `quicklog` (on [GitHub](https://github.com/bixycler/quicklog)) intended to [dump his brain](((6667bf32-ab6a-4d64-842d-45d49137e694))), but soon stuck on technical walls.
-				- 2023: Will created [Corkei](https://github.com/bixycler/Corkei) in order to dump his brain in a more structual way – in ((667d15c6-67c4-4998-a549-c8b3f9de3d60))s.
+				- 2023: Will created [Corkei](https://github.com/bixycler/Corkei) in order to dump his brain in a more structual way – in ((67fcbefb-63b6-438a-a676-82293350d71b))s.
+					- However, the tech hindrance still bogged it down to pure ideas.
+				- Mid-2024: Will switched to prebuilt [PKG apps](((6926be1f-d79d-415a-afe4-230d570013cf))) like ((66535660-643e-471a-a332-8f2306c5494f)) and ((66536e1b-6466-4153-90d6-583003d99a81)), then settled down to Logseq for his ((666baccf-6be1-4b9a-b186-f883ea04daf1)).
 	- ## description
 	  id:: 66532914-003a-4bbb-9e97-6f1c87170d7d
 	  collapsed:: true
@@ -6768,6 +6771,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  collapsed:: true
 				- Website: https://zettelkasten.de/overview/
 		- Software
+		  id:: 6926be1f-d79d-415a-afe4-230d570013cf
 		  collapsed:: true
 			- [NoteCards](https://en.wikipedia.org/wiki/NoteCards "NoteCards") from 1983 can be seen as the grand parent of the modern ((66536a32-fddd-465f-a47f-fa8e0ea9c8db)).
 			- [Roam Reseach](https://roamresearch.com/) from 2019 (dev from 2017) with text block based handling ([outlining](((66536d32-30ad-4c07-8585-76ae9eb7fb22)))), ((e6a21858-1849-462e-b2b0-0bc57b38fb0a)), and [tag](https://en.wikipedia.org/wiki/Tag_(metadata)) can be seen as the (re)start of the modern graph-based note taking movement.
