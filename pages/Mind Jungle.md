@@ -1398,23 +1398,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- ((681826ac-f5f2-4a84-a5f5-c110937ec85f))
 				- ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) is to ((671e0f99-c35c-45f3-9f80-4d9cf00063de)) in Unithread, as ((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9)) is to ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)) in the CIE formula.
-			- autonoton
-			  id:: 671e1608-1350-4e87-99b6-5492cc6fb449
-			  collapsed:: true
-			  ((68dfc116-5dc8-41a1-b448-b2e2ddc80068)) ((690960bc-0f6c-4ac4-9c73-3c030c9d4756)), autonotons 
-			  ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) in ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71))
-				- autonota
-				  id:: 690960bc-0f6c-4ac4-9c73-3c030c9d4756
-				  ((68dfc11b-c552-4a41-b4bb-0737db0f3f94)) ((671e1608-1350-4e87-99b6-5492cc6fb449))
-				- autonotic
-				  id:: 69096146-d968-4da2-b2d6-5431aa3814d9
-				  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((671e1608-1350-4e87-99b6-5492cc6fb449))
-				- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) autonoton = [auto](https://en.wiktionary.org/wiki/auto-) (self) + [notion](https://en.wiktionary.org/wiki/notion) ← [nōtus](https://en.wiktionary.org/wiki/notus#Latin) (Italian “noto”) ← nōscō (know)
-				  collapsed:: true
-					- ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)) = ((69096146-d968-4da2-b2d6-5431aa3814d9)) machine, versus classical automatic machines
-						- Following the age of automatization, now comes the age of autonotization.
-					- automaton ← [αὐτόμᾰτος](https://en.wiktionary.org/wiki/%CE%B1%E1%BD%90%CF%84%CF%8C%CE%BC%CE%B1%CF%84%CE%BF%CF%82) ← αὐτο (auto) + μένος (ménos = think) = self-willed, not only self-moving
-						- The decay of meaning of “automaton” to mere self-moving is similar to the decaying of [自由](https://en.wiktionary.org/wiki/%E8%87%AA%E7%94%B1#Etymology_2) to [freedom](https://en.wikipedia.org/wiki/Freedom).
 	- ## flow
 	  id:: 67fcbbc6-915b-4d28-b9cf-098e916cdc86
 	  collapsed:: true
@@ -5993,6 +5976,23 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- It's actually a universal network, but just a reflection of the Omnifold on computer, not the whole.
 				- The metaphysical ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) → modeled in math as ((66ab75a1-f4a0-4bab-a002-8e573546623a)) → folded to fabricate the ((675c03d8-3185-41a8-9f98-e869fabec793)) → implemented on computer as the ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71))
 				- In the future, if there is a need for a theory of uninet, it may be called "Uninet Theory", but now we just have uninets as instances of the Trinion implemented on computer.
+		- autonoton
+		  id:: 671e1608-1350-4e87-99b6-5492cc6fb449
+		  collapsed:: true
+		  ((68dfc116-5dc8-41a1-b448-b2e2ddc80068)) ((690960bc-0f6c-4ac4-9c73-3c030c9d4756)), autonotons 
+		  ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) in ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71))
+			- autonota
+			  id:: 690960bc-0f6c-4ac4-9c73-3c030c9d4756
+			  ((68dfc11b-c552-4a41-b4bb-0737db0f3f94)) ((671e1608-1350-4e87-99b6-5492cc6fb449))
+			- autonotic
+			  id:: 69096146-d968-4da2-b2d6-5431aa3814d9
+			  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((671e1608-1350-4e87-99b6-5492cc6fb449))
+			- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) autonoton = [auto](https://en.wiktionary.org/wiki/auto-) (self) + [notion](https://en.wiktionary.org/wiki/notion) ← [nōtus](https://en.wiktionary.org/wiki/notus#Latin) (Italian “noto”) ← nōscō (know)
+			  collapsed:: true
+				- ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)) = ((69096146-d968-4da2-b2d6-5431aa3814d9)) machine, versus classical automatic machines
+					- Following the age of automatization, now comes the age of autonotization.
+				- automaton ← [αὐτόμᾰτος](https://en.wiktionary.org/wiki/%CE%B1%E1%BD%90%CF%84%CF%8C%CE%BC%CE%B1%CF%84%CE%BF%CF%82) ← αὐτο (auto) + μένος (ménos = think) = self-willed, not only self-moving
+					- The decay of meaning of “automaton” to mere self-moving is similar to the decaying of [自由](https://en.wiktionary.org/wiki/%E8%87%AA%E7%94%B1#Etymology_2) to [freedom](https://en.wikipedia.org/wiki/Freedom).
 		- cognition
 		  collapsed:: true
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) sự nhận thức
