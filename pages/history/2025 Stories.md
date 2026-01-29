@@ -3656,7 +3656,7 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 					- Four-strand rope structure
 					  ![A-four-strand-rope-structure](../assets/Will/story/2025-08/A-four-strand-rope-structure-showing-the-yarns-and-their-cross-section.png)
 					- Ref: [ResearchGate](https://www.researchgate.net/figure/Typical-two-strand-rope-structure-image-partly-adapted-from-Leech-10_fig1_282862409)
-				- Model with GeoGebra: [TwistedDoubleI](https://www.geogebra.org/m/cexzy52b)
+				- Model with GeoGebra: [TwistingDoubleI](https://www.geogebra.org/m/cexzy52b)
 					- TODO Rename from the static “twisted” to the dynamic “twisting”.
 					  id:: 6978184a-d5bb-4699-80e7-8ad351dc2787
 					- Image & video & 3D model
