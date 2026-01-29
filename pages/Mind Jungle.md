@@ -6075,9 +6075,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- Corkei
 		  id:: 697b4547-9b65-4a96-b3d1-55245377c796
 		  collapsed:: true
-		  Circuit of referential knowledge & effective information
+		  “Circuit of referential knowledge & effective information”
 			- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “Corkei” is pronounced “corkay” /ˈkɔɹkeɪ/, which rhymes with the cute “Corkie” /ˈkɔɹki/.
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((697b4547-9b65-4a96-b3d1-55245377c796)) is a ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)) emerging from the
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((697b4547-9b65-4a96-b3d1-55245377c796)) is a ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)) emerging from the need of a ((697b4779-fdc8-4188-b3e0-fd984c167fb8)) for ((66536578-c4d3-43f1-b35c-bf71120f0570)).
+			- ((6667abd2-14eb-4145-b9e3-e6f3037b3117))
+				- Mid-2022: `quicklog` (on [GitHub](https://github.com/bixycler/quicklog))
+				- 2023
 	- ## description
 	  id:: 66532914-003a-4bbb-9e97-6f1c87170d7d
 	  collapsed:: true
@@ -6753,6 +6756,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	- ## personal knowledge base
 	  id:: 665364b1-e05c-46a6-a76b-c14cd73d1706
 	  collapsed:: true
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((697b4779-fdc8-4188-b3e0-fd984c167fb8))
+		- personal knowledge graph
+		  id:: 697b4779-fdc8-4188-b3e0-fd984c167fb8
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((665364b1-e05c-46a6-a76b-c14cd73d1706))
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Personal_knowledge_base
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A personal version of ((6653685c-5435-4be8-be60-a7fb5195d404)) and ((66536888-95d3-4d20-829c-b7ac2088dc29)).
 		- Techniques
