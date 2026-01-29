@@ -61,7 +61,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- I ask Antigrvity to init the core of Corkei and received 3 different plans from different models.
 					- ![My prompt](../assets/Will/story/2026-01/Corkei-init-prompt.md)
 					- ![Gemini 3 Flash](../assets/Will/story/2026-01/Corkei-init-plan-Gemini3Flash.md): the simplest plan.
-					- ![Gemini 3 Pro (High)](../assets/Will/story/2026-01/Corkei-init-plan-Gemini3ProHigh.md): the simplest plan.
+					- ![Gemini 3 Pro (High)](../assets/Will/story/2026-01/Corkei-init-plan-Gemini3ProHigh.md): a little more than simplest.
 					- ![Opus 4.5 (Thinking)](../assets/Will/story/2026-01/Corkei-init-plan-Opus4.5Thinking.md): the most detailed plan.
 		- Wrap up 2025 with my karma clearly shown through daily journaling.
 		  id:: 695f83ed-08ed-4265-b6c1-7bed98a40028
