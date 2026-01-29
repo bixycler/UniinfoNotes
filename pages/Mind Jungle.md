@@ -6086,7 +6086,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- 2023: Will created [Corkei](https://github.com/bixycler/Corkei) in order to dump his brain in a more structual way – in ((67fcbefb-63b6-438a-a676-82293350d71b))s.
 					- However, the tech hindrance still bogged it down to pure ideas.
 				- Mid-2024: Will switched to prebuilt [PKG apps](((6926be1f-d79d-415a-afe4-230d570013cf))) like ((66535660-643e-471a-a332-8f2306c5494f)) and ((66536e1b-6466-4153-90d6-583003d99a81)), then settled down on Logseq for his ((666baccf-6be1-4b9a-b186-f883ea04daf1)).
-				- 2025 Oct 20th: The release of ((6926be21-727e-4568-a990-29ed81452fb0)) 2 days earlier made Will try the first agentic AI in his life and immediately get the vision of developing uninet top-down from AI agents.
+				- 2025 Oct 20th: The release of ((6926be21-727e-4568-a990-29ed81452fb0)) 2 days earlier made Will try the first agentic AI in his life and immediately get the vision of [developing uninet top-down from AI agents](((694a8ac0-cddc-4bcd-bdc1-dbfb9dcb04de))).
+				-
 	- ## description
 	  id:: 66532914-003a-4bbb-9e97-6f1c87170d7d
 	  collapsed:: true

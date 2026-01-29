@@ -5133,7 +5133,7 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 				- Jing Hu: "AI is just sophisticated pattern matching, no thinking, no reasoning" and “AI can only do tasks accurately up to a certain degree of complexity.”
 			- [This article](https://www.forbes.com/sites/hessiejones/2025/08/04/despite-billions-in-investment-ai-reasoning-models-are-falling-short/) refers to predictive AI as an alternative to LLM, but it is not scalable.
 			- Another approach is setting up agents for LLMs, but the agent itself is a traditional program, hence unable to learn.
-			- Uninet's approach: develop from the middle out.
+			- Uninet's approach: [develop from the middle out](((6926be1c-d482-4601-a32c-91f18e6c8e03))).
 		- 6th, killing light vs healing light
 		  id:: 68e33ab4-06f1-435f-aa57-a1bb4386e09f
 			- On the way to company, i wondered “what's the diff between my current way of intent observation and the ghost-killing light at the beginning of my liberation journey?”
