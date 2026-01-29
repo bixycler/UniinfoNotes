@@ -23,4 +23,3 @@
 - Let's also debug the Agent Panel LLM model setting.
 - By force setting `agent.default_model.provider` to `copilot_chat`, Copilot does appear in the Agent providers list now :D
 - This is issue is very recent: [GitHub Copilot Chat activation hangs in "Starting Copilot..."](https://github.com/zed-industries/zed/issues/46593#issuecomment-3816504812)
--
