@@ -72,4 +72,4 @@
 	- [Web search agent](https://ai-sdk.dev/cookbook/node/web-search-agent): many models offer native web-searching capabilities: Perplexity, OpenAI (with Responses API), Gemini (with [Grounding with Google Search](https://ai.google.dev/gemini-api/docs/google-search) for 2.5 Flash with [500 req/day free](https://ai.google.dev/gemini-api/docs/pricing#standard))
 		- `google_search_retrieval` tool in Gemini API.
 	- [Graphite](https://editor.graphite.art/): open source vector graphics for procedural creation/editing & animation, just like Blender for 3D
--
+- [FRED](http://wit.istc.cnr.it/stlab-tools/fred/demo/): a tool for automatically producing RDF/OWL ontologies and linked data from natural language sentences... but it generates too complicated RDF for a simple sentence like “I am a man.”
