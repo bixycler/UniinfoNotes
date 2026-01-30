@@ -66,8 +66,19 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Chat with Google AI Mode [about my Tantric practices](https://share.google/aimode/0JMoln8TdMSlMBj7L): It's nice that many of my insights through practice can be explained by neurophysiology 😊!
 				  collapsed:: true
 					- It's interesting that the "tingling, electric wave" sensation can be explained by the literal electrical impulse (action potential) in neural circuits. 😀
+				- The harmony of light & darkness, of life and death in [Stray Birds](../assets/Will/story/2026-01/Stray Birds.md) of Targore
+				  collapsed:: true
+					- 323
+					  I have suffered and despaired and known death 
+					  and I am glad that I am in this great world.
+					- 324
+					  There are tracts in my life that are bare and silent. 
+					  They are the open spaces where my busy days had their light and air.
+					  325
+					  Release me from my unfulfilled past clinging to me from behind making death difficult.
+					- 326
+					  Let this be my last word, that I trust in thy love!
 				- [opencode-antigravity-auth](https://github.com/NoeFabris/opencode-antigravity-auth): Enable [Opencode](https://opencode.ai/) ([GitHub](https://github.com/anomalyco/opencode)) to authenticate against Antigravity (Google's IDE) via OAuth so you can use Antigravity rate limits and access models like gemini-3-pro and claude-opus-4-5-thinking with your Google credentials.
-				- in *Stray Birds* of Targore
 			- 16th, On the way to compary, contemplating whether art is a deceptive moonlight (nghệ thuật là ánh trăng lừa dối), i rember a discussion with Mr. Huy about form versus content in art, then this brainstorm rose: ((6969a3a1-27a2-40de-b62f-a29a95964b68))
 			- 17-18 weekends,...
 				- [Ripple](https://www.ripplejs.com/) = Solid + Svelte
