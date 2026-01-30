@@ -17,7 +17,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- From Langlands Program to [logarithmic conformal field theory](https://en.wikipedia.org/wiki/Logarithmic_conformal_field_theory)
 				- [How Ramanujan's formulae for pi connect to modern high energy physics](https://phys.org/news/2025-12-ramanujan-formulae-pi-modern-high.html)
 			- 3rd, LSD trip with my wife
-			  collapsed:: true
 				- In this LSD trip, i see myself being from a worm 🪱 (gut only) to a man with the motivation arrow hidden inside. 
 				  collapsed:: true
 					- As a worm, the arrow is simple, just push back to slide forward and forward.
@@ -52,8 +51,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- [Willison’s HTML tools](https://simonwillison.net/2025/Dec/10/html-tools/):
 					- SVG renderers, PyPI package diff viewers, Bluesky thread visualizers, debugging tools (clipboard-viewer, cors-fetch)
 					- Python: Pyodide (Python compiled to WebAssembly) + micropip to run Pandas, matplotlib, and numpy client-side. CORS-enabled APIs from PyPI, GitHub, and others provide data access without proxies.
-				-
-			- 10-11 weekends, ...
+			- 10-11 weekends, some awakening insights regarding the ground state
 				- Two 10h-sleeps ended with deep awakening insights. 
 				  collapsed:: true
 					- Saturday: breath can unblock the system (threads, vessels, meridians), clear delusion -> fluidify crystal forms -> dissolve self -> resolve greed & aversion
@@ -64,7 +62,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Normal op-mode: the core is a cold crystal defining rules for hot peripherals to works. Each peripheral part is hot by attention & energy concentration on it.
 							- Coherent ob-mode: The whole body is activated with an evenly dispersed energy (uniform distribution at ground state) => attend to the (empty) center => the core is heated to be active => the crystal core is fluidified to be transformed by the whole body.
 				- Chat with Google AI Mode [about my Tantric practices](https://share.google/aimode/0JMoln8TdMSlMBj7L): It's nice that many of my insights through practice can be explained by neurophysiology 😊!
-				  collapsed:: true
 					- It's interesting that the "tingling, electric wave" sensation can be explained by the literal electrical impulse (action potential) in neural circuits. 😀
 				- The harmony of light & darkness, of life and death in [Stray Birds](../assets/Will/story/2026-01/Stray Birds.md) of Targore
 				  collapsed:: true
@@ -114,7 +111,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- A roundtrip of name: 高岭土 (đất sét Cao Lĩnh/Lãnh) in China -> Kaolin in Europe -> [cao lanh](https://vi.wikipedia.org/wiki/Cao_lanh) in Vietnam (from French pronunciation) 
 				  collapsed:: true
 					- Porcelain from China -> also called "china" in Europe
-			- 21-23, ...
+			- 21-23, just reading news
 			  collapsed:: true
 				- [Two Twisty Shapes Resolve a Centuries-Old Topology Puzzle](https://www.quantamagazine.org/two-twisty-shapes-resolve-a-centuries-old-topology-puzzle-20260120/): For the first time, mathematicians have found an example of a compact doughnutlike surface that shares its local geometric information (metric & mean curvature) with another surface, despite having a completely different global structure.
 				- [Alzheimer as an autoimmune disease](https://www.sciencealert.com/alzheimers-might-not-actually-be-a-brain-disease-reveals-expert)
@@ -128,10 +125,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 24-25th weekends, ...
 			  collapsed:: true
 				- Let's try [Open Notebook](https://github.com/lfnovo/open-notebook) to check its RAG against the AnythingLM's RAG
+				  collapsed:: true
 					- `sudo docker compose up -d` showed all OK, but `sudo docker compose logs surrealdb` show "Permission denied" failure:
 						- ```
 						  surrealdb-1  | 2026-01-26T13:18:55.888657Z ERROR surreal::cli: There was a problem with the database: There was a problem with a datastore transaction: Failed to create RocksDB directory: `Os { code: 13, kind: PermissionDenied, message: "Permission denied" }`.
-						  
 						  ```
 				- [Agentic AI Research Assistant](https://www.confluent.io/use-case/agentic-ai-research-assistant/) via [Confluent’s data streaming platform](https://www.confluent.io/data-streaming/)
 				- [Web search agent](https://ai-sdk.dev/cookbook/node/web-search-agent): many models offer native web-searching capabilities: Perplexity, OpenAI (with Responses API), Gemini (with [Grounding with Google Search](https://ai.google.dev/gemini-api/docs/google-search) for 2.5 Flash with [500 req/day free](https://ai.google.dev/gemini-api/docs/pricing#standard))
