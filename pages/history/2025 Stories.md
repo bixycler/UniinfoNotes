@@ -978,7 +978,7 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 							- ==> Đó là chứng nghiệm đầu tiên nhắc tui quay lại hướng tập "xả" dạo này
 							- hồi đó giờ tui "debug" thân tâm này toàn bằng sự tập trung quan sát, tui nhập định cũng bằng sự tập trung tư tưởng
 							- mới mấy hôm trước, trong 1 chuyến tâm hành trên giường, tui cũng đã nhập định được nhờ xả: sau khi cho tự động life review... review đâu hết 3 tiếng rưỡi... thì tự nhiên nhập định hoà với vạn vật 🙂
-					- Another milder experience was after 3 hours and a half of life review in the [20th night - 21st early morning July 2021](http://tamsudoithuong.blogspot.com/2021/07/1515-hom-kia-nghe-ien-thoai-em-xong.html) within the Covid-19 lockdown.
+					- Another milder experience was after 3.5 hours of life review in the [20th night - 21st early morning July 2021](http://tamsudoithuong.blogspot.com/2021/07/1515-hom-kia-nghe-ien-thoai-em-xong.html) within the Covid-19 lockdown.
 			- Then i recalled the impermanence even for arahants, as shown in [the case of Bāhiya](https://www.accesstoinsight.org/ati/tipitaka/kn/ud/ud.1.10.than.html).
 			  collapsed:: true
 				- There are 3 cases of people being killed by cows with the same pattern, as shown by [mikenz66 @ DhammaWheel](https://www.dhammawheel.com/viewtopic.php?t=3496#p50624): 

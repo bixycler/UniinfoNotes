@@ -55,8 +55,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Two 10h-sleeps ended with deep awakening insights. 
 				  collapsed:: true
 					- Saturday: breath can unblock the system (threads, vessels, meridians), clear delusion -> fluidify crystal forms -> dissolve self -> resolve greed & aversion
-						- The form of all selves are equal, either higher or lower.
-						- TODO The previous experience of entering ground state:
+						- The form of all selves are equal, either higher self or lower self.
+						- The ground state is *both more dead and more alive* as shown in my [previous experiences](((684f951a-b5ca-44a7-b9a3-df1538310721))).
 					- Sunday: (connection graph & hierarchy tree = spatial/physical body) vs (individual history = time) vs (global history + mixing + common extraction = multidimensional info body out of spacetime)
 						- Fluidification through self-dissolution to return to the common root versus fluidization by external heat/fluid
 							- Normal op-mode: the core is a cold crystal defining rules for hot peripherals to works. Each peripheral part is hot by attention & energy concentration on it.
@@ -122,8 +122,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  :LOGBOOK:
 				  CLOCK: [2026-01-26 Mon 19:28:57]--[2026-01-26 Mon 19:29:03] =>  00:00:06
 				  :END:
-			- 24-25th weekends, ...
+			- 24-25th weekends, more news
 			  collapsed:: true
+				- [Web search agent](https://ai-sdk.dev/cookbook/node/web-search-agent): many models offer native web-searching capabilities: Perplexity, OpenAI (with Responses API), Gemini (with [Grounding with Google Search](https://ai.google.dev/gemini-api/docs/google-search) for 2.5 Flash with [500 req/day free](https://ai.google.dev/gemini-api/docs/pricing#standard))
+					- `google_search_retrieval` tool in Gemini API.
 				- Let's try [Open Notebook](https://github.com/lfnovo/open-notebook) to check its RAG against the AnythingLM's RAG
 				  collapsed:: true
 					- `sudo docker compose up -d` showed all OK, but `sudo docker compose logs surrealdb` show "Permission denied" failure:
@@ -131,10 +133,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  surrealdb-1  | 2026-01-26T13:18:55.888657Z ERROR surreal::cli: There was a problem with the database: There was a problem with a datastore transaction: Failed to create RocksDB directory: `Os { code: 13, kind: PermissionDenied, message: "Permission denied" }`.
 						  ```
 				- [Agentic AI Research Assistant](https://www.confluent.io/use-case/agentic-ai-research-assistant/) via [Confluent’s data streaming platform](https://www.confluent.io/data-streaming/)
-				- [Web search agent](https://ai-sdk.dev/cookbook/node/web-search-agent): many models offer native web-searching capabilities: Perplexity, OpenAI (with Responses API), Gemini (with [Grounding with Google Search](https://ai.google.dev/gemini-api/docs/google-search) for 2.5 Flash with [500 req/day free](https://ai.google.dev/gemini-api/docs/pricing#standard))
-					- `google_search_retrieval` tool in Gemini API.
 				- [Graphite](https://editor.graphite.art/): open source vector graphics for procedural creation/editing & animation, just like Blender for 3D
-			- 28th, ...
+			- 28th, Zed & FRED (natural language to RDF)
 			  collapsed:: true
 				- [Zed](https://zed.dev): an interesting code editor with AI agents, written in Rust for high-speed [GPUI](https://docs.rs/gpui_rn/latest/gpui/), but still in active dev phase.
 					- My first [testZed](../assets/Will/story/2026-01/testZed.md) showed a bug right in the AI settings.
