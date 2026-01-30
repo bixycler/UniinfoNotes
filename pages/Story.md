@@ -56,6 +56,35 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 16th, ...
 			  collapsed:: true
 				- On the way to compary, contemplating whether art is a deceptive moonlight (nghệ thuật là ánh trăng lừa dối), i rember a discussion with Mr. Huy about form versus content in art, then this brainstorm rose: ((6969a3a1-27a2-40de-b62f-a29a95964b68))
+			- ...
+			- 21st, ...
+			  collapsed:: true
+				- [Two Twisty Shapes Resolve a Centuries-Old Topology Puzzle](https://www.quantamagazine.org/two-twisty-shapes-resolve-a-centuries-old-topology-puzzle-20260120/): For the first time, mathematicians have found an example of a compact doughnutlike surface that shares its local geometric information (metric & mean curvature) with another surface, despite having a completely different global structure.
+				- [Alzheimer as an autoimmune disease](https://www.sciencealert.com/alzheimers-might-not-actually-be-a-brain-disease-reveals-expert)
+				- [LFM2.5-1.2B-Thinking](https://www.marktechpost.com/2026/01/20/liquid-ai-releases-lfm2-5-1-2b-thinking-a-1-2b-parameter-reasoning-model-that-fits-under-1-gb-on-device/) model for agent brain-muscle, compared to Gemma 3 1B IT, Llama 3.2 1B Instruct, Qwen3 1.7B Instruct Mode, etc.
+				  id:: 6977467f-ec88-4c32-a0f9-6415461a83bc
+				- [Context graph](https://www.marktechpost.com/2026/01/20/what-are-context-graphs/) as an extension of knowledge graph!? 🤔 Haha, i've never thought of KG as storing “contextless rules & isolated facts” 😆! Anyway, i'm always living the graph, no matter what you call it!
+				- DONE 20th, Sửa "dấu" thành "giấu"  trong [bản Tâm Minh (Ngô Tằng Giao)](https://bixycler.github.io/PhapCu-Dhammapada/#ColumnsView/e0-o0-i0/18/252)
+				  :LOGBOOK:
+				  CLOCK: [2026-01-26 Mon 19:28:57]--[2026-01-26 Mon 19:29:03] =>  00:00:06
+				  :END:
+			- Weekends 24-25, ...
+			  collapsed:: true
+				- Let's try [Open Notebook](https://github.com/lfnovo/open-notebook) to check its RAG against the AnythingLM's RAG
+					- `sudo docker compose up -d` showed all OK, but `sudo docker compose logs surrealdb` show "Permission denied" failure:
+						- ```
+						  surrealdb-1  | 2026-01-26T13:18:55.888657Z ERROR surreal::cli: There was a problem with the database: There was a problem with a datastore transaction: Failed to create RocksDB directory: `Os { code: 13, kind: PermissionDenied, message: "Permission denied" }`.
+						  
+						  ```
+				- [Agentic AI Research Assistant](https://www.confluent.io/use-case/agentic-ai-research-assistant/) via [Confluent’s data streaming platform](https://www.confluent.io/data-streaming/)
+				- [Web search agent](https://ai-sdk.dev/cookbook/node/web-search-agent): many models offer native web-searching capabilities: Perplexity, OpenAI (with Responses API), Gemini (with [Grounding with Google Search](https://ai.google.dev/gemini-api/docs/google-search) for 2.5 Flash with [500 req/day free](https://ai.google.dev/gemini-api/docs/pricing#standard))
+					- `google_search_retrieval` tool in Gemini API.
+				- [Graphite](https://editor.graphite.art/): open source vector graphics for procedural creation/editing & animation, just like Blender for 3D
+			- 28th, ...
+			  collapsed:: true
+				- [Zed](https://zed.dev): an interesting code editor with AI agents, written in Rust for high-speed [GPUI](https://docs.rs/gpui_rn/latest/gpui/), but still in active dev phase.
+					- My first [testZed](../assets/Will/story/2026-01/testZed.md) showed a bug right in the AI settings.
+				- [FRED](http://wit.istc.cnr.it/stlab-tools/fred/demo/): a tool for automatically producing RDF/OWL ontologies and linked data from natural language sentences... but it generates too complicated RDF for a simple sentence like “I am a man.”
 			- 29th, kick start ((697b4547-9b65-4a96-b3d1-55245377c796))
 			  collapsed:: true
 				- I asked Antigrvity to initialize the core of Corkei and received 3 different plans from different models.
@@ -63,6 +92,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- ![Gemini 3 Flash](../assets/Will/story/2026-01/Corkei-init-plan-Gemini3Flash.md): the simplest plan.
 					- ![Gemini 3 Pro (High)](../assets/Will/story/2026-01/Corkei-init-plan-Gemini3ProHigh.md): a little more than simplest.
 					- ![Opus 4.5 (Thinking)](../assets/Will/story/2026-01/Corkei-init-plan-Opus4.5Thinking.md): the most detailed plan.
+				- [Skills vs docs index](https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals)... Nope! It's the balance between too detailed (context bloating) and too abstract (a single skill `nextjs-doc` in the article).
+					- Pattern matching (System 1) is much "cheaper" for the model's brain (as well as human's) than logical inference (System 2).
+					- Index for global graph: adjacency table
+					- Index for view cone: indented tree with graphing characters like `└─`
 		- Wrap up 2025 with my karma clearly shown through daily journaling.
 		  id:: 695f83ed-08ed-4265-b6c1-7bed98a40028
 		  collapsed:: true
