@@ -77,7 +77,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  Let this be my last word, that I trust in thy love!
 				- [opencode-antigravity-auth](https://github.com/NoeFabris/opencode-antigravity-auth): Enable [Opencode](https://opencode.ai/) ([GitHub](https://github.com/anomalyco/opencode)) to authenticate against Antigravity (Google's IDE) via OAuth so you can use Antigravity rate limits and access models like gemini-3-pro and claude-opus-4-5-thinking with your Google credentials.
 			- 16th, On the way to compary, contemplating whether art is a deceptive moonlight (nghệ thuật là ánh trăng lừa dối), i rember a discussion with Mr. Huy about form versus content in art, then this brainstorm rose: ((6969a3a1-27a2-40de-b62f-a29a95964b68))
-			- 17-18 weekends,...
+			- 17-18 weekends, Ripple = Solid + Svelte, 3-stage revolution of “vessel”
+			  collapsed:: true
 				- [Ripple](https://www.ripplejs.com/) = Solid + Svelte
 				  collapsed:: true
 					- Ripple provides surgical, fine-grained reactivity through **lazy pull** of updated values from browser paint, instead of the **active push** of change through dependency graph in Solid & Svelte 5.
@@ -93,7 +94,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- So, no garbage collection for these static reactive variables!
 						- And the code is more predictable, which Ripple advertises to be more friendly to AI agents.
 						- This is a shift from reactive functions (Solid) to reactive memory (Ripple).
-				- Chat with Google AI Mode about the [3-stage revolution](https://share.google/aimode/qw9oqFwQ2vGms1azS) of "vessel".
+				- Chat with Google AI Mode about the [3-stage revolution](https://share.google/aimode/qw9oqFwQ2vGms1azS) of “vessel”.
 				  collapsed:: true
 					- The development of the artist can be formulated as the etymological evolution of the "vessel" through three stages: from a static container of the self (a vase storing emotion), to a dynamic carrier (a ship transporting intention), and finally to a channel manifesting the universal truth.
 					- Stage 1: Vase – The Static Container – The Self and Personal Expression
