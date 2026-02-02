@@ -211,7 +211,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- [Google AI Studio](https://aistudio.google.com/)
 							- [API keys](https://aistudio.google.com/api-keys)
 							- [API usage](https://aistudio.google.com/usage)
-							- Link to Google One AI
+							- Link to Google One AI with [Developer Program](https://developers.google.com/program)
+								- For \$20/month of Google (One) AI Pro, get *\$10 monthly Gen AI & Cloud credits* for API
 						- [Free plan limit](https://ai.google.dev/gemini-api/docs/rate-limits): 5-30 requests/minute (RPM), 250k-1M tokens/minute (TPM), 100-1k requests/day (RPD)
 							- | Model | Request/minute | Token/minute | Request/day |
 							  | -------------- | ---------:| -------------:| -------------:|
