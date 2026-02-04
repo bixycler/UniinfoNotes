@@ -300,8 +300,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  collapsed:: true
 					  The agent-based IDE from Google
 						- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Google_Antigravity
-						- Agent data are stored in `$HOME/.gemini/antigravity/brain/$hash/`.
-							- `task.md`, `task.md.metadata.json`, `walkthrough.md`, `walkthrough.md.metadata.json`, `implementation_plan.md`,
+						- Agent data are stored globally in `$HOME/.gemini/antigravity/` and locally in `$WORKSPACE/.agent/`.
+							- `$HOME/.gemini/antigravity/brain/$hash/`
+								- `task.md`, `task.md.metadata.json`, `walkthrough.md`, `walkthrough.md.metadata.json`, `implementation_plan.md`,
+							- `$WORKSPACE/.agent/`
+								- `skills/` stores skills for the agent to work in this workspace.
 						- It has helped me in this task: ((667d2479-487a-49ab-949f-722eb47a16ef))
 						- Some functions are hidden in the meatballs menu at the top right corner of the Agent chat panel, not in the Agent Manager.
 							- Screenshot
