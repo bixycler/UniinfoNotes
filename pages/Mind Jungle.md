@@ -6096,7 +6096,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  collapsed:: true
 		  “Circuit of referential knowledge & effective information”
 			- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “Corkei” is pronounced “corkay” /ˈkɔɹkeɪ/, which rhymes with the cute “Corkie” /ˈkɔɹki/.
-			- Emblem: A projection of the [tesseract](https://en.wikipedia.org/wiki/Tesseract), maybe the Petrie polygon in Coxeter plane of group B4
+			- Emblem: A projection of the [tesseract](https://en.wikipedia.org/wiki/Tesseract), maybe the tree view or the Petrie polygon in Coxeter plane of group B4
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((697b4547-9b65-4a96-b3d1-55245377c796)) is a ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)) emerging from the need of a ((697b4779-fdc8-4188-b3e0-fd984c167fb8)) for ((66536578-c4d3-43f1-b35c-bf71120f0570)).
 			- ((6667abd2-14eb-4145-b9e3-e6f3037b3117))
 			  collapsed:: true
