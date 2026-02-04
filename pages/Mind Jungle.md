@@ -215,19 +215,20 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- For \$20/month of Google (One) AI Pro, get *\$10 monthly Gen AI & Cloud credits* for API
 						- [Free plan limit](https://ai.google.dev/gemini-api/docs/rate-limits): changing rapidly!
 						  collapsed:: true
-							- Jan 2026: 5-30 requests/minute (RPM), 250k-1M tokens/minute (TPM), 100-1k requests/day (RPD)
+							- Jan 2026: restricted to nearly unusable! ⇒ I'm forced to switch to paid tier for ((697b4547-9b65-4a96-b3d1-55245377c796)) 
+							  5-10 requests/minute (RPM), 250k tokens/minute (TPM), **20 requests/day** (RPD)
 								- | Model | Request/minute | Token/minute | Request/day |
 								  | -------------- | ---------:| -------------:| -------------:|
-								  | 2.0 Flash-Lite | 30 RPM | 1M TPM | 200 RPD |
-								  | 2.5 Flash-Lite | 15 RPM | 250k TPM | 1k RPD |
-								  | 2.5 Pro            | 5 RPM | 250k TPM | 100 RPD |
+								  | 3.0 Flash (Preview) | 5 RPM | 250k TPM | 20 RPD |
+								  | 2.5 Flash | 5 RPM | 250k TPM | 20 RPD |
+								  | 2.5 Flash-Lite | 10 RPM | 250k TPM | 20 RPD |
 								  | Embedding            | 100 RPM | 30k TPM | 1k RPD |
 							- Sep 2025: 5-30 requests/minute (RPM), 250k-1M tokens/minute (TPM), 100-1k requests/day (RPD)
 								- | Model | Request/minute | Token/minute | Request/day |
 								  | -------------- | ---------:| -------------:| -------------:|
+								  | 2.5 Pro (Preview)            | 5 RPM | 250k TPM | 100 RPD |
+								  | 2.5 Flash-Lite (Preview) | 15 RPM | 250k TPM | 1k RPD |
 								  | 2.0 Flash-Lite | 30 RPM | 1M TPM | 200 RPD |
-								  | 2.5 Flash-Lite | 15 RPM | 250k TPM | 1k RPD |
-								  | 2.5 Pro            | 5 RPM | 250k TPM | 100 RPD |
 								  | Embedding            | 100 RPM | 30k TPM | 1k RPD |
 						- Genrerative model API: `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent` & Header `X-goog-api-key:`
 						- Cloud Console > [Service Usage > Generative Language API](https://console.cloud.google.com/apis/api/generativelanguage.googleapis.com/metrics?project=gen-lang-client-0007872100)
