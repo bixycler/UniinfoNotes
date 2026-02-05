@@ -1,9 +1,0 @@
-- System prompt
-	- Rule of Thumb: Anything that stays constant for at least 5–10 turns should go in the System Prompt.
-	- In @google/genai, updating the `system_instruction` invalidates the context cache.
-		- The [system prompt cannot be changed](https://github.com/googleapis/python-genai/issues/348) when explicit cache is used.
-	- Both system prompt and explicit context cache are at the beginning, and get the "Primacy" Attention.
-		- The attention has a "U-shape" curve (Lost-in-the-Middle): "Primacy effect" & "Attention Sinks" -> forgetting zone -> "recency bias"
-		- [Attention Sink](https://www.linkedin.com/posts/ashutosh-kumar-852646165_github-sail-sgattention-sink-iclr-2025-activity-7369351074589151233-xRYC) stems from the softmax function, which requires all attention scores to sum to 1. Early tokens act as a "sink" for the model to deposit unused attention.
-- Thought Signature is equivalent of context cache id for thoughts.
-	- While cache is optional because the model can reconstruct its mental state (attention) from conversation history, thought signature is mandatory in tool call because full thoughts are not available to user.

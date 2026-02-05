@@ -152,8 +152,17 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Pattern matching (System 1) is much "cheaper" for the model's brain (as well as human's) than logical inference (System 2).
 					- Index for global graph: adjacency table
 					- Index for view cone: indented tree with graphing characters like `└─`
-			- 31st, 1st weekends
+			- 31st, 1st weekends, About system prompt for agent, and the “Omnifold as hypercube”
 			  collapsed:: true
+				- About system prompt for agent
+					- Rule of Thumb: Anything that stays constant for at least 5–10 turns should go in the System Prompt.
+					- In @google/genai, updating the `system_instruction` invalidates the context cache.
+						- The [system prompt cannot be changed](https://github.com/googleapis/python-genai/issues/348) when explicit cache is used.
+					- Both system prompt and explicit context cache are at the beginning, and get the "Primacy" Attention.
+						- The attention has a "U-shape" curve (Lost-in-the-Middle): "Primacy effect" & "Attention Sinks" -> forgetting zone -> "recency bias"
+						- [Attention Sink](https://www.linkedin.com/posts/ashutosh-kumar-852646165_github-sail-sgattention-sink-iclr-2025-activity-7369351074589151233-xRYC) stems from the softmax function, which requires all attention scores to sum to 1. Early tokens act as a "sink" for the model to deposit unused attention.
+					- Thought Signature is equivalent of context cache id for thoughts.
+						- While cache is optional because the model can reconstruct its mental state (attention) from conversation history, thought signature is mandatory in tool call because full thoughts are not available to user.
 				- ((675c03d8-3185-41a8-9f98-e869fabec793)) ~ [hypercube](https://en.wikipedia.org/wiki/Hypercube) ⇒ traverse in a direction $v = (v_1, v_2,..., v_n)$ => thread in structure of tree view from order $v_1 > v_2 > ... > v_n$ ⇒ .... `exp()` dynamics !?🤔
 					- The action at leaf node is driven by the intent chain where each intent is an apex of a view cone => multiple layers of cause cones
 					- Hypercube's orthographic projections & Petrie polygons ⇒ [Corkei's emblem](((698430b7-d336-44c4-a2e7-5a90d0f4af7e)))
@@ -217,6 +226,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Now, spliting it into 2 halves, the performance has improved a lot.
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
-		- ((6960ec3a-b9a9-4fcd-b2f7-4424575c3da4)), ((698440c6-2288-4a68-b3dd-31390a6384fe))
+		- ((698440c6-2288-4a68-b3dd-31390a6384fe))
 		- ...
 		  id:: 688c70c8-1772-4007-bdf0-d621db895411
