@@ -421,6 +421,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 										- ...
 										- `gnome-session-b`
 										- `gnome-terminal`
+				-
 		- AI chatbots
 		  id:: 67a5fae8-8e1d-4dd6-818d-a8462f6b54db
 		  collapsed:: true
