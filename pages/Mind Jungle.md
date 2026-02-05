@@ -431,7 +431,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((69844331-8a59-4aa6-8bbc-df54afb2cde1))
 					- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Small_language_model
 					- SLMs for ((6926be21-e87a-47aa-a1e5-918c971e4665))
-						- SmolLM2-1.7B-Instruct: `ollama run `
+						- SmolLM2-1.7B-Instruct: `ollama run smollm2:1.7b-instruct-q4_1`
 						- xLAM-1B: [large action model](https://www.salesforce.com/agentforce/large-action-models/): `xLAM-2-1b-fc-r` for function calling (`fc`) & researching (`r`)
 							- `ollama run allenporter/xlam:1b`
 						- FunctionGemma: `ollama run functiongemma:270m`
