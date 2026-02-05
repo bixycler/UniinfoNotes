@@ -432,9 +432,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Small_language_model
 					- SLMs for ((6926be21-e87a-47aa-a1e5-918c971e4665))
 						- SmolLM2-1.7B-Instruct: `ollama run smollm2:1.7b-instruct-q4_1`
+							- Tools def is defined in the system prompt.
+							- flkafa
+							- a fal fka gagagaga gag agag aga
+							- afa lk faf af agk alga
+							-
 						- xLAM-1B: [large action model](https://www.salesforce.com/agentforce/large-action-models/): `xLAM-2-1b-fc-r` for function calling (`fc`) & researching (`r`)
 							- `ollama run allenporter/xlam:1b`
+							- No system prompt. Tools def is defined in the first `user` turn.
 						- FunctionGemma: `ollama run functiongemma:270m`
+							- No system prompt. Tools def is defined in the first `user` turn.
 						- Qwen2.5-1.5B
 						- Llama 3.2-1B
 		- AI chatbots
