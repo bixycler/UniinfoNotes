@@ -291,6 +291,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- MemFree
 						- ((665f1a5c-6c98-4785-a177-3cd01507595d)) https://github.com/memfreeme/memfree
 				- agent
+				  id:: 6926be21-e87a-47aa-a1e5-918c971e4665
 				  collapsed:: true
 				  :LOGBOOK:
 				  CLOCK: [2025-11-24 Mon 14:42:55]
@@ -421,7 +422,20 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 										- ...
 										- `gnome-session-b`
 										- `gnome-terminal`
-				-
+				- small language model
+				  id:: 69844331-8a59-4aa6-8bbc-df54afb2cde1
+				  collapsed:: true
+				  ((665359e4-4597-4775-b849-f9acbb98960a)) ((6984436a-7584-4e04-ade8-7bbf93f3d17d))
+					- SLM
+					  id:: 6984436a-7584-4e04-ade8-7bbf93f3d17d
+					  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((69844331-8a59-4aa6-8bbc-df54afb2cde1))
+					- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Small_language_model
+					- SLMs for ((6926be21-e87a-47aa-a1e5-918c971e4665))
+						- SmolLM2-1.7B-Instruct
+						- xLAM-1B: [large action model](https://www.salesforce.com/agentforce/large-action-models/): `xLAM-2-1b-fc-r` for function calling (`fc`) & researching (`r`)
+						- FunctionGemma: `ollama run functiongemma:270m`
+						- Qwen2.5-1.5B
+						- Llama 3.2-1B
 		- AI chatbots
 		  id:: 67a5fae8-8e1d-4dd6-818d-a8462f6b54db
 		  collapsed:: true

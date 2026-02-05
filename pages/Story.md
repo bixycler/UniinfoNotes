@@ -152,6 +152,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Pattern matching (System 1) is much "cheaper" for the model's brain (as well as human's) than logical inference (System 2).
 					- Index for global graph: adjacency table
 					- Index for view cone: indented tree with graphing characters like `└─`
+			- 31st, 1st weekends
+			  collapsed:: true
+				- DONE Update Mind Chips README: These mind chips are created with ~~GitJournal~~ Markor and synced with ~~GitSync~~ [MGit](https://github.com/maks/MGit).
+				- Omnifold ~ hypercube => traverse in a direction v = (v1, v2,..., vn) => thread in structure of tree view from order v1 > v2 > ... > vn => .... exp() dynamics !?🤔
+					- The action at leaf node is driven by the intent chain where each intent is an apex of a view cone => multiple layers of cause cones
 		- Wrap up 2025 with my karma clearly shown through daily journaling.
 		  id:: 695f83ed-08ed-4265-b6c1-7bed98a40028
 		  collapsed:: true
@@ -197,7 +202,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 5th,
 				- Extract components of ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)) from [[Mind Jungle]] to [[Uniinfo]].
 					- When the `Mind Jungle` reached 800KB, ((66536e1b-6466-4153-90d6-583003d99a81)) (Markdown version) became so sluggish.
-					- Now, split it into 2 halves, the performance has improved a lot.
+					- Now, spliting it into 2 halves, the performance has improved a lot.
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6960ec3a-b9a9-4fcd-b2f7-4424575c3da4)), ((698440c6-2288-4a68-b3dd-31390a6384fe))

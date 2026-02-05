@@ -1,7 +1,3 @@
-- 31, 1st weekends
-	- TODO Update Mind Chips README: These mind chips are created with ~~GitJournal~~ Markor and synced with ~~GitSync~~ [MGit](https://github.com/maks/MGit).
-	- Omnifold ~ hypercube => traverse in a direction v = (v1, v2,..., vn) => thread in structure of tree view from order v1 > v2 > ... > vn => .... exp() dynamics !?🤔
-		- The action at leaf node is driven by the intent chain where each intent is an apex of a view cone => multiple layers of cause cones
 - Check if @google/genai requires alternating roles
 	- It's [impossible for Gemma](https://huggingface.co/google/gemma-3-27b-it/discussions/42) to process consecutive messages of the same role.
 	- check for many parts at each [turn](https://ai.google.dev/api/interactions-api#schema-example-Turn-example_0).`content[]`
