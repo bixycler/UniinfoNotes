@@ -157,6 +157,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- ((675c03d8-3185-41a8-9f98-e869fabec793)) ~ [hypercube](https://en.wikipedia.org/wiki/Hypercube) ⇒ traverse in a direction $v = (v_1, v_2,..., v_n)$ => thread in structure of tree view from order $v_1 > v_2 > ... > v_n$ ⇒ .... `exp()` dynamics !?🤔
 					- The action at leaf node is driven by the intent chain where each intent is an apex of a view cone => multiple layers of cause cones
 					- Hypercube's orthographic projections & Petrie polygons ⇒ [Corkei's emblem](((698430b7-d336-44c4-a2e7-5a90d0f4af7e)))
+					  collapsed:: true
+						- 1-cube → 8-cube 
+						  ![Hypercube-Petrie-polygon-Orthographic-projections](../assets/Will/story/2026-01/N-dimensional-Hypercube-Petrie-polygon-Orthographic-projections-from-n-1-up-to-n-8.png)
+						- 9-cube
+						  ![9-cube.svg](https://upload.wikimedia.org/wikipedia/commons/e/e9/9-cube.svg)
+						- 10-cube
+						  ![10-cube.svg](https://upload.wikimedia.org/wikipedia/commons/d/d2/10-cube.svg)
 				- Tasks
 					- TODO Check if @google/genai requires alternating roles
 						- It's [impossible for Gemma](https://huggingface.co/google/gemma-3-27b-it/discussions/42) to process consecutive messages of the same role.

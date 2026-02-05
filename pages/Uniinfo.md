@@ -1,4 +1,4 @@
-# Uniinfo Concepts
+# Unïnfo Concepts
 id:: 69844753-5970-4e97-805b-6c29d9547d54
 	- ## Universal Information
 	  id:: 66537a41-f229-4891-803e-828573eb44f3

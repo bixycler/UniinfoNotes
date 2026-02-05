@@ -7,6 +7,3 @@
 		- [Attention Sink](https://www.linkedin.com/posts/ashutosh-kumar-852646165_github-sail-sgattention-sink-iclr-2025-activity-7369351074589151233-xRYC) stems from the softmax function, which requires all attention scores to sum to 1. Early tokens act as a "sink" for the model to deposit unused attention.
 - Thought Signature is equivalent of context cache id for thoughts.
 	- While cache is optional because the model can reconstruct its mental state (attention) from conversation history, thought signature is mandatory in tool call because full thoughts are not available to user.
-- [Hypercube petrie polygons](https://commons.wikimedia.org/wiki/File:Hypercube_petrie_polygons.png)
-	- ![Hypercube petrie polygons.png](https://upload.wikimedia.org/wikipedia/commons/5/58/Hypercube_petrie_polygons.png)
-	- ![Hypercube-Petrie-polygon-Orthographic-projections](https://www.researchgate.net/profile/Rodolfo-Fiorini/publication/268686702/figure/fig8/AS:362744265101313@1463496380124/N-dimensional-Hypercube-Petrie-polygon-Orthographic-projections-from-n-1-up-to-n-8.png){:height 34, :width 417}
