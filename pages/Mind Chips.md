@@ -1,0 +1,19 @@
+- 31, 1st weekends
+	- TODO Update Mind Chips README: These mind chips are created with ~~GitJournal~~ Markor and synced with ~~GitSync~~ [MGit](https://github.com/maks/MGit).
+	- Omnifold ~ hypercube => traverse in a direction v = (v1, v2,..., vn) => thread in structure of tree view from order v1 > v2 > ... > vn => .... exp() dynamics !?🤔
+		- The action at leaf node is driven by the intent chain where each intent is an apex of a view cone => multiple layers of cause cones
+- Check if @google/genai requires alternating roles
+	- It's [impossible for Gemma](https://huggingface.co/google/gemma-3-27b-it/discussions/42) to process consecutive messages of the same role.
+	- check for many parts at each [turn](https://ai.google.dev/api/interactions-api#schema-example-Turn-example_0).`content[]`
+- System prompt
+	- Rule of Thumb: Anything that stays constant for at least 5–10 turns should go in the System Prompt.
+	- In @google/genai, updating the `system_instruction` invalidates the context cache.
+		- The [system prompt cannot be changed](https://github.com/googleapis/python-genai/issues/348) when explicit cache is used.
+	- Both system prompt and explicit context cache are at the beginning, and get the "Primacy" Attention.
+		- The attention has a "U-shape" curve (Lost-in-the-Middle): "Primacy effect" & "Attention Sinks" -> forgetting zone -> "recency bias"
+		- [Attention Sink](https://www.linkedin.com/posts/ashutosh-kumar-852646165_github-sail-sgattention-sink-iclr-2025-activity-7369351074589151233-xRYC) stems from the softmax function, which requires all attention scores to sum to 1. Early tokens act as a "sink" for the model to deposit unused attention.
+- Thought Signature is equivalent of context cache id for thoughts.
+	- While cache is optional because the model can reconstruct its mental state (attention) from conversation history, thought signature is mandatory in tool call because full thoughts are not available to user.
+- [Hypercube petrie polygons](https://commons.wikimedia.org/wiki/File:Hypercube_petrie_polygons.png)
+	- ![Hypercube petrie polygons.png](https://upload.wikimedia.org/wikipedia/commons/5/58/Hypercube_petrie_polygons.png)
+	- ![Hypercube-Petrie-polygon-Orthographic-projections](https://www.researchgate.net/profile/Rodolfo-Fiorini/publication/268686702/figure/fig8/AS:362744265101313@1463496380124/N-dimensional-Hypercube-Petrie-polygon-Orthographic-projections-from-n-1-up-to-n-8.png){:height 34, :width 417}

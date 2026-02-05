@@ -17,6 +17,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- From Langlands Program to [logarithmic conformal field theory](https://en.wikipedia.org/wiki/Logarithmic_conformal_field_theory)
 				- [How Ramanujan's formulae for pi connect to modern high energy physics](https://phys.org/news/2025-12-ramanujan-formulae-pi-modern-high.html)
 			- 3rd, LSD trip with my wife
+			  collapsed:: true
 				- In this LSD trip, i see myself being from a worm 🪱 (gut only) to a man with the motivation arrow hidden inside. 
 				  collapsed:: true
 					- As a worm, the arrow is simple, just push back to slide forward and forward.
@@ -190,8 +191,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				    #+END_QUERY
 				  
 				  ```
+		- February journal
+		  id:: 698440c6-2288-4a68-b3dd-31390a6384fe
+		  collapsed:: true
+			- 5th,
+				- Extract components of ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)) from [[Mind Jungle]] to [[Uniinfo]].
+					- When the `Mind Jungle` reached 800KB, ((66536e1b-6466-4153-90d6-583003d99a81)) (Markdown version) became so sluggish.
+					- Now, split it into 2 halves, the performance has improved a lot.
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
-		- ((6960ec3a-b9a9-4fcd-b2f7-4424575c3da4))
+		- ((6960ec3a-b9a9-4fcd-b2f7-4424575c3da4)), ((698440c6-2288-4a68-b3dd-31390a6384fe))
 		- ...
 		  id:: 688c70c8-1772-4007-bdf0-d621db895411
