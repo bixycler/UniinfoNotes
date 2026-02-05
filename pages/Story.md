@@ -154,9 +154,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Index for view cone: indented tree with graphing characters like `└─`
 			- 31st, 1st weekends
 			  collapsed:: true
-				- DONE Update Mind Chips README: These mind chips are created with ~~GitJournal~~ Markor and synced with ~~GitSync~~ [MGit](https://github.com/maks/MGit).
-				- Omnifold ~ hypercube => traverse in a direction v = (v1, v2,..., vn) => thread in structure of tree view from order v1 > v2 > ... > vn => .... exp() dynamics !?🤔
+				- ((675c03d8-3185-41a8-9f98-e869fabec793)) ~ [hypercube](https://en.wikipedia.org/wiki/Hypercube) ⇒ traverse in a direction $v = (v_1, v_2,..., v_n)$ => thread in structure of tree view from order $v_1 > v_2 > ... > v_n$ ⇒ .... `exp()` dynamics !?🤔
 					- The action at leaf node is driven by the intent chain where each intent is an apex of a view cone => multiple layers of cause cones
+					- Hypercube's orthographic projections & Petrie polygons ⇒ [Corkei's emblem](((698430b7-d336-44c4-a2e7-5a90d0f4af7e)))
+				- Tasks
+					- TODO Check if @google/genai requires alternating roles
+						- It's [impossible for Gemma](https://huggingface.co/google/gemma-3-27b-it/discussions/42) to process consecutive messages of the same role.
+						- check for many parts at each [turn](https://ai.google.dev/api/interactions-api#schema-example-Turn-example_0).`content[]`
+					- DONE Update Mind Chips README: These mind chips are created with ~~GitJournal~~ Markor and synced with ~~GitSync~~ [MGit](https://github.com/maks/MGit).
 		- Wrap up 2025 with my karma clearly shown through daily journaling.
 		  id:: 695f83ed-08ed-4265-b6c1-7bed98a40028
 		  collapsed:: true

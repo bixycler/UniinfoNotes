@@ -1,6 +1,3 @@
-- Check if @google/genai requires alternating roles
-	- It's [impossible for Gemma](https://huggingface.co/google/gemma-3-27b-it/discussions/42) to process consecutive messages of the same role.
-	- check for many parts at each [turn](https://ai.google.dev/api/interactions-api#schema-example-Turn-example_0).`content[]`
 - System prompt
 	- Rule of Thumb: Anything that stays constant for at least 5–10 turns should go in the System Prompt.
 	- In @google/genai, updating the `system_instruction` invalidates the context cache.
