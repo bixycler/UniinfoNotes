@@ -174,9 +174,21 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- 10-cube
 						  ![10-cube.svg](https://upload.wikimedia.org/wikipedia/commons/d/d2/10-cube.svg)
 				- Tasks
-					- TODO Check if @google/genai requires alternating roles
+					- DOING Check if `@google/genai` requires alternating roles
+					  :LOGBOOK:
+					  CLOCK: [2026-02-06 Fri 18:35:18]
+					  :END:
 						- It's [impossible for Gemma](https://huggingface.co/google/gemma-3-27b-it/discussions/42) to process consecutive messages of the same role.
-						- check for many parts at each [turn](https://ai.google.dev/api/interactions-api#schema-example-Turn-example_0).`content[]`
+						- DOING Check for many text parts at each [turn](https://ai.google.dev/api/interactions-api#schema-example-Turn-example_0).`content[]`
+						  :LOGBOOK:
+						  CLOCK: [2026-02-06 Fri 18:38:10]
+						  :END:
+							- DONE Gemini models are OK with multiple text parts per turn.
+						- DOING Test multi-shot prompting for Gemma models
+						  :LOGBOOK:
+						  CLOCK: [2026-02-06 Fri 18:40:01]
+						  CLOCK: [2026-02-06 Fri 18:40:02]
+						  :END:
 					- DONE Update Mind Chips README: These mind chips are created with ~~GitJournal~~ Markor and synced with ~~GitSync~~ [MGit](https://github.com/maks/MGit).
 		- Wrap up 2025 with my karma clearly shown through daily journaling.
 		  id:: 695f83ed-08ed-4265-b6c1-7bed98a40028
