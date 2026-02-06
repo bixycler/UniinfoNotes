@@ -226,6 +226,27 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- When the `Mind Jungle` reached 800KB, ((66536e1b-6466-4153-90d6-583003d99a81)) (Markdown version) became so sluggish.
 					- Now, spliting it into 2 halves, the performance has improved a lot.
 				- [An interesting thread](https://moltbookai.net/post/1b543210-6ac2-491b-8a15-6c6dbe013ae7) in [Moltbook](https://en.wikipedia.org/wiki/Moltbook) about my favorite topic: knowing one's own negativity/limits is much more valuable than having positivity/capabilities. 😜
+			- 6th, debugging the messy “thought process” feature of Gemini models.
+				- DONE Test interleaving thoughts & responses
+				  :LOGBOOK:
+				  CLOCK: [2026-02-06 Fri 13:02:08]--[2026-02-06 Fri 17:57:53] =>  04:55:45
+				  :END:
+					- The models cannot interleave their thoughts with explicit response within one turn.
+						- This seems to be a limit of the Transformer architecture!? 🤔
+				- DOING Add `thoughtSignature` and `<thought>...</thought>` to history
+				  :LOGBOOK:
+				  CLOCK: [2026-02-06 Fri 15:01:16]
+				  :END:
+					- The `@google/genai` seems to strips off all `thought: true` parts in the history, or the thoughts are completely conconscious to the model.
+						- Detection: The model cannot recall these`thought: true` parts.
+						- Solution: Replace `thought: true` parts with `<thought>...</thought>` injected to text in the history
+					- Define `<thought>...</thought>` format in system prompt
+						- This makes Gemini 2.5 Flash *think out loud* with `<thought>...</thought>` instead of `thought: true` parts!
+						- Other models, Gemini 3 and even 2.5 Flash Lite, still keep `thought: true` parts, with optional `<thought>...</thought>`.
+						- ⇒ Drop this format in system prompt for thinking models, while using this format to suggest thinking to non-thinking models.
+				- 😱 Being forced to recall/reflect on its own thoughts which are completely unconscious, both Gemini 2.5 & 3 hallucinate that they violate the system prompt, while in fact they don't.
+					- They are obsessed with system prompt.
+				- TODO Use idb instead of local storage
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((698440c6-2288-4a68-b3dd-31390a6384fe))
