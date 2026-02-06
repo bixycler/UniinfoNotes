@@ -189,6 +189,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  CLOCK: [2026-02-06 Fri 18:40:01]
 						  CLOCK: [2026-02-06 Fri 18:40:02]
 						  :END:
+						- TODO Update history structure to preserve raw parts
 					- DONE Update Mind Chips README: These mind chips are created with ~~GitJournal~~ Markor and synced with ~~GitSync~~ [MGit](https://github.com/maks/MGit).
 		- Wrap up 2025 with my karma clearly shown through daily journaling.
 		  id:: 695f83ed-08ed-4265-b6c1-7bed98a40028
