@@ -220,10 +220,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		- February journal
 		  id:: 698440c6-2288-4a68-b3dd-31390a6384fe
 		  collapsed:: true
-			- 5th,
+			- 5th, refactor the Mind Jungle, and read an interesting threas in Moltbook – the first social network for AI agents 👾🤖
+			  collapsed:: true
 				- Extract components of ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)) from [[Mind Jungle]] to [[Uniinfo]].
 					- When the `Mind Jungle` reached 800KB, ((66536e1b-6466-4153-90d6-583003d99a81)) (Markdown version) became so sluggish.
 					- Now, spliting it into 2 halves, the performance has improved a lot.
+				- [An interesting thread](https://moltbookai.net/post/1b543210-6ac2-491b-8a15-6c6dbe013ae7) in [Moltbook](https://en.wikipedia.org/wiki/Moltbook) about my favorite topic: knowing one's own negativity/limits is much more valuable than having positivity/capabilities. 😜
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((698440c6-2288-4a68-b3dd-31390a6384fe))
