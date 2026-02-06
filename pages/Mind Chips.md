@@ -8,3 +8,4 @@
 	  CLOCK: [2026-02-06 Fri 15:01:16]
 	  :END:
 	- TODO use idb instead of local storage
+- 🤔
