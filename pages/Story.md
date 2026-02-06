@@ -178,12 +178,17 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  :LOGBOOK:
 					  CLOCK: [2026-02-06 Fri 18:35:18]
 					  :END:
-						- It's [impossible for Gemma](https://huggingface.co/google/gemma-3-27b-it/discussions/42) to process consecutive messages of the same role.
-						- DOING Check for many text parts at each [turn](https://ai.google.dev/api/interactions-api#schema-example-Turn-example_0).`content[]`
+						- DOING Nope, current API doesn't require such a strict alternating order.
 						  :LOGBOOK:
-						  CLOCK: [2026-02-06 Fri 18:38:10]
+						  CLOCK: [2026-02-06 Fri 20:13:16]
+						  CLOCK: [2026-02-06 Fri 20:13:17]
 						  :END:
-							- DONE Gemini models are OK with multiple text parts per turn.
+							- Both Gemini & Gemma models can get and understand the
+						- In the past, it [was impossible for Gemma](https://huggingface.co/google/gemma-3-27b-it/discussions/42) to process consecutive messages of the same role.
+						- DONE Gemini & Gemma models are OK with multiple text parts at each [turn](https://ai.google.dev/api/interactions-api#schema-example-Turn-example_0).`content[]`
+						  :LOGBOOK:
+						  CLOCK: [2026-02-06 Fri 18:38:10]--[2026-02-06 Fri 20:11:55] =>  01:33:45
+						  :END:
 						- DOING Test multi-shot prompting for Gemma models
 						  :LOGBOOK:
 						  CLOCK: [2026-02-06 Fri 18:40:01]
