@@ -1,0 +1,3 @@
+- Corkei:
+	- TODO test interleaving thoughts & responses
+	- TODO use idb instead of local storage
