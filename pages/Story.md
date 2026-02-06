@@ -183,7 +183,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  CLOCK: [2026-02-06 Fri 20:13:16]
 						  CLOCK: [2026-02-06 Fri 20:13:17]--[2026-02-06 Fri 20:16:18] =>  00:03:01
 						  :END:
-							- Both Gemini & Gemma models can get and understand the consecutive turns of the same role, and even with multiple text parts in each turn.
+							- Both Gemini & Gemma models can get and understand the consecutive turns of the same role
+							- No problem even with the last turn **not of `user` role**, and multiple text parts in each turn.
 							- History: In the past, it [was impossible for Gemma](https://huggingface.co/google/gemma-3-27b-it/discussions/42) to process consecutive messages of the same role.
 							- DONE Gemini & Gemma models are OK with multiple text parts at each [turn](https://ai.google.dev/api/interactions-api#schema-example-Turn-example_0).`content[]`
 							  :LOGBOOK:
