@@ -247,6 +247,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Now, spliting it into 2 halves, the performance has improved a lot.
 				- [An interesting thread](https://moltbookai.net/post/1b543210-6ac2-491b-8a15-6c6dbe013ae7) in [Moltbook](https://en.wikipedia.org/wiki/Moltbook) about my favorite topic: knowing one's own negativity/limits is much more valuable than having positivity/capabilities. 😜
 			- 6th, debugging the messy “thought process” feature of Gemini models.
+			  collapsed:: true
 				- DONE Test interleaving thoughts & responses
 				  :LOGBOOK:
 				  CLOCK: [2026-02-06 Fri 13:02:08]--[2026-02-06 Fri 17:57:53] =>  04:55:45
@@ -267,6 +268,17 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- 😱 Being forced to recall/reflect on its own thoughts which are completely unconscious, both Gemini 2.5 & 3 hallucinate that they violate the system prompt, while in fact they don't.
 					- They are obsessed with system prompt.
 				- TODO Use idb instead of local storage
+			- 7-8th, weekends, my body (physical health) has broken down after 2 months of hard working.
+			  collapsed:: true
+				- This time, it's not a serious illness, just a sinus inflammation.
+				- This time is the noisiest illness in my history until now: instead of the focus on breathing, the thoughts rise endlessly about a wide range of topics right in front of the background pain if my sinus.
+					- Finally, the thoughts have converged to my 2 karmic debts: theorist karma & love debt.
+					- Conclusions:
+						- The challenges are enough. They have shown everything clearly: my limits, my patterns, my mechanisms.
+						- Let's accept my limits to have spacetime for me to pay off the debts.
+				- “Thiên hạ vốn vô sự, Vũ trụ vốn cân bằng” (天下本無事，宇宙本平衡)
+					- [天下本無事，庸人自擾之](https://en.wiktionary.org/wiki/%E5%A4%A9%E4%B8%8B%E6%9C%AC%E7%84%A1%E4%BA%8B%EF%BC%8C%E5%BA%B8%E4%BA%BA%E8%87%AA%E6%93%BE%E4%B9%8B) (Thiên hạ vốn vô sự, người đời tự làm rối)
+			- ....
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((698440c6-2288-4a68-b3dd-31390a6384fe))
