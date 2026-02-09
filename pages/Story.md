@@ -276,7 +276,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Conclusions:
 						- The challenges have been enough. They have shown everything clearly: my limits, my patterns, my mechanisms.
 						- Let's accept my limits to have spacetime for me to pay off the debts.
-						- HTV = my tapovana! 😊
+						- HTV = my tapovana & Pragbodhi cave! 😊
 						- Shared with Huy (about conclusion with leader Quân)
 						  collapsed:: true
 							- Các cấp quản lý cũng ko phải là ko biết sở trường (deep thinking) và sở đoản (không làm việc máy móc được) của tui, mà vấn đề chủ yếu là do tui thích thử thách chính mình
