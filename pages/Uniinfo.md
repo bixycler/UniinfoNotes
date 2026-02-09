@@ -13,6 +13,13 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 				  id:: 68a3ea54-f275-40b8-93ae-4a2bd8da4a06
 					- For the ease of typing on keyboard, the separate spelling “Uniinfo” is also used casually in place of the formal spelling “Unïnfo”.
 					- To avoid broken rendering, “Unïnfo” with precomposed ‘ï’ may be used instead of the standard “Unïnfo” with combined ‘ï’.
+					- The “twisting double i” [model](https://bixycler.github.io/Uniinfo/TwistingDoubleI/TwistingDoubleI.html)
+					  id:: 698974b1-d593-4d0a-b57a-41e8e2ac629a
+					  collapsed:: true
+						- Image
+						  ![TwistingDoubleI.png](../assets/Uniinfo/TwistingDoubleI/TwistingDoubleI.png)
+						- Video
+						  ![TwistingDoubleI.200x300.webm](../assets/Uniinfo/TwistingDoubleI/TwistingDoubleI.200x300.webm)
 				- Note: Don't read “Unïnfo” as “un-info” /ˈʌnˌɪn.foʊ/ – as if it means [“uninformation”](https://en.wiktionary.org/wiki/uninformation) (unwanted, untrue, useless information) or [uninformed](https://en.wiktionary.org/wiki/uninformed) (ignorant) which is quite different from the concept of unity at the heart of Unïnfo.
 				- Typographic note: While visualy indistinguishable, the letter ‘ï’ in ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) is neither [i with diaeresis (ï) [U+EF]](https://en.wikipedia.org/wiki/%C3%8F) nor [i-umlaut (`&iuml;`)](https://en.wikipedia.org/wiki/I-mutation), but an ‘i’ with [double dot (◌̈) [U+0308] above](https://en.wikipedia.org/wiki/Two_dots_(diacritic)#Vowels).
 				  id:: 68a520bf-ed90-4e1f-ae2a-0700d7f51b05
@@ -1871,7 +1878,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 							- That impression of a static cause/seed is but an illusion due to our limit of resolution (cannot see its tiny change). In ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)), the tiny intent (cause) is the reciprocal of the huge extent (effect): $i = 1/e$.
 						- Whatever observable is just effect, the “cause” exists only in the mind of the obop.
 							- [Causality](https://en.wikipedia.org/wiki/Causality_(physics)) is metaphysical & subjective, not physical & objective, due to [time symmetry](https://en.wikipedia.org/wiki/T-symmetry) in classical physics and [unitarity](https://en.wikipedia.org/wiki/Unitarity_(physics)) in QM.
-							- The relativity of causality is shown by the screwing effect or the [barberpole illusion](https://en.wikipedia.org/wiki/Barberpole_illusion) of the [Unitorus](((68594391-f2b0-4501-86ec-af8b67346db9))) and the [].
+							- The relativity of causality is shown by the screwing effect or the [barberpole illusion](https://en.wikipedia.org/wiki/Barberpole_illusion) of the [Unitorus](((68594391-f2b0-4501-86ec-af8b67346db9))) and the [twisting double i](((698974b1-d593-4d0a-b57a-41e8e2ac629a))): is the flow caused by the rotation or by the push of the strands along the rope?
 						- While the ((675c03d8-3185-41a8-9f98-e869fabec793)) is [unitary](((67505a68-91b9-4abb-bf92-4dddad8c5803))), out of any time, and causal independent, every obop lives in its own causal world bundled from all the [causal threads](((66ab75a1-f4a0-4bab-a002-8e573546623a))) passing through its body.
 							- That means the effect flow of each obop defines the causal structure of its experience.
 					- Terminology
