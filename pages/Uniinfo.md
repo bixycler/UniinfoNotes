@@ -1871,6 +1871,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 		  collapsed:: true
 			- “Effect flow” versus causal chain, cause-and-effect chain (CEC), chain of causation
+			  collapsed:: true
 				- In constrast to those “chains” of *separate* causes and effects which are like strings of beads, ((683eac41-53d2-4341-a732-a6a923962629)) This continuum has been well expressed in the [dependent origination](https://en.wikipedia.org/wiki/Prat%C4%ABtyasamutp%C4%81da) principle, a.k.a. twelve-linked chain of conditions (dvādaśa-nidānāni, dvādaśa-hetupratyaya [十二因縁]).
 				- The focus on “effect” instead of “cause” is to show the **observable change** and **emergent** property of the flow. Whereas _the cause is subjective to the obop_.
 					- The term “effect”, with the apparently dynamic effect (change), dispels the illusion of “static & absolute causes”.
@@ -1892,6 +1893,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					- ![CauseEffectCone](https://docs.google.com/drawings/d/e/2PACX-1vT-mk-5M1GkDtoHwER_IkMQAhi6M5N1zzScgIEaQ3BSdEPZdsSgYoSP3URUt0Q0KD0wy--7cDCzXWU8/pub?w=278&h=482)
 			- Effect flow = wave propagation in a (highly distorted) field, in a landscape of possibilities
 			  id:: 6780bc09-6c98-42ed-bbd1-ff940c2a1d10
+			  collapsed:: true
 				- conditioning = training = programming = space distortion = field formation = landscape shaping
 					- A circuit is just a field with highly distorted distribution of possibilities, whose landscape contains nearly vertical walls.
 				- mutual influence = interaction in the field; force field = field of influence
