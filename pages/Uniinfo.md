@@ -1864,23 +1864,24 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 		  collapsed:: true
 			- “Effect flow” versus causal chain, cause-and-effect chain (CEC), chain of causation
-				- While those “chains” are linear laminar flows (streamlines), effect flow can contain many kinds of **nonlinearity**: eddies as ((667c0031-0a87-44c9-9e98-6d45893b095f))s, interpenetrative mixing through ((677f7100-e650-464a-a835-15a9f28df649))s, branching in both effect cone and cause cone.
-				  collapsed:: true
-					- ![CauseEffectCone](https://docs.google.com/drawings/d/e/2PACX-1vT-mk-5M1GkDtoHwER_IkMQAhi6M5N1zzScgIEaQ3BSdEPZdsSgYoSP3URUt0Q0KD0wy--7cDCzXWU8/pub?w=278&h=482)
 				- In constrast to those “chains” of *separate* causes and effects which are like strings of beads, ((683eac41-53d2-4341-a732-a6a923962629)) This continuum has been well expressed in the [dependent origination](https://en.wikipedia.org/wiki/Prat%C4%ABtyasamutp%C4%81da) principle, a.k.a. twelve-linked chain of conditions (dvādaśa-nidānāni, dvādaśa-hetupratyaya [十二因縁]).
 				- The focus on “effect” instead of “cause” is to show the **observable change** and **emergent** property of the flow. Whereas _the cause is subjective to the obop_.
-				  collapsed:: true
 					- The term “effect”, with the apparently dynamic effect (change), dispels the illusion of “static & absolute causes”.
 						- Just like in the butterfly effect, the very tiny change at the intial condition leads to the giant change in the result, the **apparent staticness** is due to the small scale of the cause, the seed.
 						- That impression of a static cause/seed is but an illusion due to our limit of resolution (cannot see its tiny change). In ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)), the tiny intent (cause) is the reciprocal of the huge extent (effect): $i = 1/e$.
 						- [Causality](https://en.wikipedia.org/wiki/Causality_(physics)) is metaphysical, not physical, due to [time symmetry](https://en.wikipedia.org/wiki/T-symmetry) in classical physics and [unitarity](https://en.wikipedia.org/wiki/Unitarity_(physics)) in QM.
 						- Whatever observable is just effect, the “cause” exists only in the mind of the obop.
-						- While the ((675c03d8-3185-41a8-9f98-e869fabec793)) is unitary, out of any time, and causal independent, every obop lives in its own causal world bundled from all the causal threads passing through its body.
-							- That means the effect flow of each obop defines the causal structure it experiences.
-					- In Vietnamese, tác lưu (作流) = luồng tác dụng (effect flow) = luồng tác nhân (causal flow) = luồng tác động (action flow) = sóng ảnh hưởng (influential wave) = sóng duyên (condition wave).
-					- “Effect” is translated to “tác dụng” (作用) instead of “hiệu ứng (效應), hiệu quả (效果)” to withdraw from the extreme of end result (kết quả, 結果).
-					- “Cause” is translated to “tác nhân” (作因) instead of “nguyên nhân (原因)” to withdraw from the extreme of first cause.
-					- In English and Chinese, the general [workflow](https://en.wikipedia.org/wiki/Workflow) = 工作流 (công tác lưu) and its reactive version [action flow](https://support.zendesk.com/hc/en-us/articles/8855601898266-Creating-action-flows-to-automate-processes-across-Zendesk-and-external-systems-EAP) (initiated by triggers) are artificial cases of effect flow.
+						- While the ((675c03d8-3185-41a8-9f98-e869fabec793)) is [unitary](((67505a68-91b9-4abb-bf92-4dddad8c5803))), out of any time, and causal independent, every obop lives in its own causal world bundled from all the [causal threads](((66ab75a1-f4a0-4bab-a002-8e573546623a))) passing through its body.
+							- That means the effect flow of each obop defines the causal structure of its experience.
+					- Terminology
+					  collapsed:: true
+						- In Vietnamese, tác lưu (作流) = luồng tác dụng (effect flow) = luồng tác nhân (causal flow) = luồng tác động (action flow) = sóng ảnh hưởng (influential wave) = sóng duyên (condition wave).
+						- “Effect” is translated to “tác dụng” (作用) instead of “hiệu ứng (效應), hiệu quả (效果)” to withdraw from the extreme of end result (kết quả, 結果).
+						- “Cause” is translated to “tác nhân” (作因) instead of “nguyên nhân (原因)” to withdraw from the extreme of first cause.
+						- In English and Chinese, the general [workflow](https://en.wikipedia.org/wiki/Workflow) = 工作流 (công tác lưu) and its reactive version [action flow](https://support.zendesk.com/hc/en-us/articles/8855601898266-Creating-action-flows-to-automate-processes-across-Zendesk-and-external-systems-EAP) (initiated by triggers) are artificial cases of effect flow.
+				- While those “chains” are linear laminar flows (streamlines), effect flow can contain many kinds of **nonlinearity**: eddies as ((667c0031-0a87-44c9-9e98-6d45893b095f))s, interpenetrative mixing through ((677f7100-e650-464a-a835-15a9f28df649))s, branching in both effect cone and cause cone.
+				  collapsed:: true
+					- ![CauseEffectCone](https://docs.google.com/drawings/d/e/2PACX-1vT-mk-5M1GkDtoHwER_IkMQAhi6M5N1zzScgIEaQ3BSdEPZdsSgYoSP3URUt0Q0KD0wy--7cDCzXWU8/pub?w=278&h=482)
 			- Effect flow = wave propagation in a (highly distorted) field, in a landscape of possibilities
 			  id:: 6780bc09-6c98-42ed-bbd1-ff940c2a1d10
 				- conditioning = training = programming = space distortion = field formation = landscape shaping
