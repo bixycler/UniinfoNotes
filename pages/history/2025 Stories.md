@@ -3665,6 +3665,7 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 						  collapsed:: true
 							- ![TwistingDoubleI.200x300.webm](../assets/Uniinfo/TwistingDoubleI/TwistingDoubleI.200x300.webm)
 						- YouTube: [Twisting Double i – the “ï” of “Unïnfo”](https://www.youtube.com/shorts/evIXwWj9IFA)
+						  id:: 698430b1-8693-444c-bee6-ae86f314c9f7
 						- 3D model page: [Uniinfo/TwistingDoubleI](https://github.com/bixycler/Uniinfo/tree/main/TwistingDoubleI).[html](https://bixycler.github.io/Uniinfo/TwistingDoubleI/TwistingDoubleI.html)
 							- Both [TwistingDoubleI](https://github.com/bixycler/Uniinfo/tree/main/TwistingDoubleI) and [Unitorus](https://github.com/bixycler/Uniinfo/tree/main/Unitorus) are ***manually* mirrored** with ((666baccf-6be1-4b9a-b186-f883ea04daf1))/assets/Uniinfo/{[TwistingDoubleI](../assets/Uniinfo/TwistingDoubleI),[Unitorus](../assets/Uniinfo/Unitorus)}.
 					- Instead of the complex rope with many levels of twisting (strand, rope yarn, plied yarn, base yarn, fiber), we model just a **two-ply yarn** plied from simple cylindrical strands.
