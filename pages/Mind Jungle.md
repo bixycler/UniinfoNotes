@@ -1696,6 +1696,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 665379b7-e4f6-4240-8029-fd143e2230c7
 	  collapsed:: true
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a1d82-91c8-40fd-81f5-e8ffe56e9e9c)) is the natural ((665379e5-5bf4-4e00-ab03-9f41ff14cccc)) of the ((66537a0b-d107-4f7e-b01f-bf624a647d8c)) and should be the chosen way of life. In Buddhism, it's called [Middle Way](https://en.wikipedia.org/wiki/Middle_Way), and in Taoism, it's called simply [The Way](https://en.wikipedia.org/wiki/Tao).
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- The way of balance = equanimity = through (thông) = relax (xả) = middle = medium
+			  id:: 698acc9b-3ded-433e-9f5e-5115c6abde17
 		- refinement techniques
 		  id:: 67b541d0-f477-4c3a-b444-fb522c3fdc4f
 		  collapsed:: true

@@ -1887,8 +1887,8 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					- Terminology
 					  collapsed:: true
 						- In Vietnamese, tác lưu (作流) = luồng tác dụng (effect flow) = luồng tác nhân (causal flow) = luồng tác động (action flow) = sóng ảnh hưởng (influential wave) = sóng duyên (condition wave).
-						- “Effect” is translated to “tác dụng” (作用) instead of “hiệu ứng (效應), hiệu quả (效果)” to withdraw from the extreme of end result (kết quả, 結果).
-						- “Cause” is translated to “tác nhân” (作因) instead of “nguyên nhân (原因)” to withdraw from the extreme of first cause.
+						- “Effect” is translated to “tác dụng” (作用) instead of “hiệu ứng (效應), hiệu quả (效果)” to withdraw from the extreme of an end result (kết quả, 結果).
+						- “Cause” is translated to “tác nhân” (作因) instead of “nguyên nhân (原因)” to withdraw from the extreme of a first cause.
 						- In English and Chinese, the general [workflow](https://en.wikipedia.org/wiki/Workflow) = 工作流 (công tác lưu) and its reactive version [action flow](https://support.zendesk.com/hc/en-us/articles/8855601898266-Creating-action-flows-to-automate-processes-across-Zendesk-and-external-systems-EAP) (initiated by triggers) are artificial cases of effect flow.
 				- While those “chains” are linear laminar flows (streamlines), effect flow can contain many kinds of **nonlinearity**: eddies as ((667c0031-0a87-44c9-9e98-6d45893b095f))s, interpenetrative mixing through ((677f7100-e650-464a-a835-15a9f28df649))s, branching in both effect cone and cause cone.
 				  collapsed:: true

@@ -1,2 +1,1 @@
-- Let's practice the way of balance = equanimity = through (thông) = relax (xả) = middle = medium
-- 🤔
+-

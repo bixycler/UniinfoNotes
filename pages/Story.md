@@ -286,7 +286,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Nên cái Tôi, cái Dục, nhiều khi nó lắt léo lắm.... lấy cái tiêu chuẩn về "dục ở đời" mà soi tui thì thua... phải tự tui chiêm nghiệm mới biết cái "dục" của mình là gì để mà thực hành "thiểu dục tri túc". 😉
 				- “Thiên hạ vốn vô sự, Vũ trụ vốn cân bằng” (天下本無事，宇宙本平衡)
 					- [天下本無事，庸人自擾之](https://en.wiktionary.org/wiki/%E5%A4%A9%E4%B8%8B%E6%9C%AC%E7%84%A1%E4%BA%8B%EF%BC%8C%E5%BA%B8%E4%BA%BA%E8%87%AA%E6%93%BE%E4%B9%8B) (Thiên hạ vốn vô sự, người đời tự làm rối)
-			- ....
+			- 9th, Let's practice ((698acc9b-3ded-433e-9f5e-5115c6abde17))
+			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((698440c6-2288-4a68-b3dd-31390a6384fe))
