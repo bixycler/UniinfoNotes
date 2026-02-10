@@ -1877,7 +1877,9 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					- The term “effect”, with the apparently dynamic effect (change), dispels the illusion of “static & absolute causes”.
 						- Just like in the butterfly effect, the very tiny change at the intial condition leads to the giant change in the result, the **apparent staticness** is due to the small scale of the cause, the seed.
 							- That impression of a static cause/seed is but an illusion due to our limit of resolution (cannot see its tiny change). In ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)), the tiny intent (cause) is the reciprocal of the huge extent (effect): $i = 1/e$.
-						- Whatever observable is just effect, the “cause” exists only in the mind of the obop.
+						- Whatever observable is just “effect”, the “cause” exists only in the mind of the obop.
+							- The “cause” here meaning causality & causation – the choice of causal direction – which one is causing which one – is subjective.
+								- However, whenever the causal direction is determined, both cause and effect can be either inside or outside of the subject.
 							- [Causality](https://en.wikipedia.org/wiki/Causality_(physics)) is metaphysical & subjective, not physical & objective, due to [time symmetry](https://en.wikipedia.org/wiki/T-symmetry) in classical physics and [unitarity](https://en.wikipedia.org/wiki/Unitarity_(physics)) in QM.
 							- The relativity of causality is shown by the screwing effect or the [barberpole illusion](https://en.wikipedia.org/wiki/Barberpole_illusion) of the [Unitorus](((68594391-f2b0-4501-86ec-af8b67346db9))) and the [twisting double i](((698974b1-d593-4d0a-b57a-41e8e2ac629a))): is the flow caused by the rotation or by the push of the strands along the rope?
 						- While the ((675c03d8-3185-41a8-9f98-e869fabec793)) is [unitary](((67505a68-91b9-4abb-bf92-4dddad8c5803))), out of any time, and causal independent, every obop lives in its own causal world bundled from all the [causal threads](((66ab75a1-f4a0-4bab-a002-8e573546623a))) passing through its body.
