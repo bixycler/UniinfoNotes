@@ -193,6 +193,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  CLOCK: [2026-02-06 Fri 18:38:10]--[2026-02-06 Fri 20:11:55] =>  01:33:45
 							  :END:
 						- Only empty turns are rejected
+						  collapsed:: true
 							- Error message
 							  collapsed:: true
 								- ```
@@ -202,8 +203,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								    "status":"INVALID_ARGUMENT"}}
 								  ```
 							- So, for a “continue” command, just bypass the user turn, instead of passing an empty user turn.
-							- TODO Remove failed model turns (they are empty) for retrial.
-					- DOING Test multi-shot prompting for Gemma models
+							- DONE Remove failed model turns (they are empty) for retrial.
+					- TODO Test multi-shot prompting for Gemma models
 					  :LOGBOOK:
 					  CLOCK: [2026-02-06 Fri 18:40:01]
 					  CLOCK: [2026-02-06 Fri 18:40:02]
@@ -278,7 +279,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- ⇒ Drop this format in system prompt for thinking models, while using this format to suggest thinking to non-thinking models.
 				- 😱 Being forced to recall/reflect on its own thoughts which are completely unconscious, both Gemini 2.5 & 3 hallucinate that they violate the system prompt, while in fact they don't.
 					- They are obsessed with system prompt.
-				- TODO Use idb instead of local storage
+				- DOING Use idb instead of local storage
+				  :LOGBOOK:
+				  CLOCK: [2026-02-10 Tue 16:53:03]
+				  :END:
 			- 7-8th, weekends, my body (physical health) has broken down after 2 months of hard working.
 			  collapsed:: true
 				- This time, it's not a serious illness, just a sinus inflammation.
