@@ -1882,7 +1882,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 								- However, whenever the causal direction is determined, both cause and effect can be either inside or outside of the subject.
 							- [Causality](https://en.wikipedia.org/wiki/Causality_(physics)) is metaphysical & subjective, not physical & objective, due to [time symmetry](https://en.wikipedia.org/wiki/T-symmetry) in classical physics and [unitarity](https://en.wikipedia.org/wiki/Unitarity_(physics)) in QM.
 							- The relativity of causality is shown by the screwing effect or the [barberpole illusion](https://en.wikipedia.org/wiki/Barberpole_illusion) of the [Unitorus](((68594391-f2b0-4501-86ec-af8b67346db9))) and the [twisting double i](((698974b1-d593-4d0a-b57a-41e8e2ac629a))): is the flow caused by the rotation or by the push of the strands along the rope?
-						- While the ((675c03d8-3185-41a8-9f98-e869fabec793)) is [unitary](((67505a68-91b9-4abb-bf92-4dddad8c5803))), out of any time, and causal independent, every obop lives in its own causal world bundled from all the [causal threads](((66ab75a1-f4a0-4bab-a002-8e573546623a))) passing through its body.
+						- While the ((675c03d8-3185-41a8-9f98-e869fabec793)) is [unitary](((67505a68-91b9-4abb-bf92-4dddad8c5803))), out of any time, and causally independent, every obop lives in its own causal world bundled from all the [causal threads](((66ab75a1-f4a0-4bab-a002-8e573546623a))) passing through its body.
 							- That means the effect flow of each obop defines the causal structure of its experience.
 					- Terminology
 					  collapsed:: true
