@@ -179,6 +179,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  CLOCK: [2026-02-06 Fri 18:35:18]--[2026-02-06 Fri 20:17:56] =>  01:42:38
 					  :END:
 						- DONE Nope, current API doesn't require such a strict alternating order.
+						  collapsed:: true
 						  :LOGBOOK:
 						  CLOCK: [2026-02-06 Fri 20:13:16]
 						  CLOCK: [2026-02-06 Fri 20:13:17]--[2026-02-06 Fri 20:16:18] =>  00:03:01
@@ -191,6 +192,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  :LOGBOOK:
 							  CLOCK: [2026-02-06 Fri 18:38:10]--[2026-02-06 Fri 20:11:55] =>  01:33:45
 							  :END:
+						- Only empty turns are rejected
+							- So, for a “continue” command, just bypass the user turn, instead of passing an empty user turn.
+							- TODO Remove failed model turns (they are empty) for retrial.
 					- DOING Test multi-shot prompting for Gemma models
 					  :LOGBOOK:
 					  CLOCK: [2026-02-06 Fri 18:40:01]
