@@ -1,1 +1,3 @@
+- Let's practice the way of balance = equanimity = through (thông) = relax (xả) = middle = medium
+- Effect flow: The “causality” & “causation”, the choice of which one is causing which one, is subjective.
 - 🤔
