@@ -302,14 +302,18 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- “Thiên hạ vốn vô sự, Vũ trụ vốn cân bằng” (天下本無事，宇宙本平衡)
 					- [天下本無事，庸人自擾之](https://en.wiktionary.org/wiki/%E5%A4%A9%E4%B8%8B%E6%9C%AC%E7%84%A1%E4%BA%8B%EF%BC%8C%E5%BA%B8%E4%BA%BA%E8%87%AA%E6%93%BE%E4%B9%8B) (Thiên hạ vốn vô sự, người đời tự làm rối)
 			- 9th, Let's practice ((698acc9b-3ded-433e-9f5e-5115c6abde17))
-			- 11th, continue with LLM
-				- user positions: human, system, agent
-				- System response: node # updated & loaded to model's system instructions
-				- Let's replace function call with interleaving think-act for streamline flow
+			- 11th, continue with LLM agent for Corkei
+			  collapsed:: true
+				- “Positions” as a workaround for the fixed roles (`model` & `user`) of `@google/genai`
+					- `user` positions embedded in text part: human, system, agent (other agents)
+					- `model` = self
+				- Replace function call with interleaving think-act for streamline flow
+					- Rationale: function call is blocking (sync) hindering
 					- pattern: `<think>markdown</think><act>JSON</act>`
 					- Actions: `<act type='graph'>` CRUD, `<act type='response'>`
 					- Thought process: plan then act with focused thoughts right before each action
 					- The plan is synthesized from context tree and environment (user)
+				- System response: node # updated & loaded to model's system instructions
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
