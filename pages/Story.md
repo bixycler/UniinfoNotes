@@ -308,7 +308,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- `user` positions embedded in text part: human, system, agent (other agents)
 					- `model` = self
 				- Replace function call with interleaving think-act for streamline flow
-					- Rationale: function call is blocking (sync) hindering
+					- Rationale: function call is blocking (sync) hindering the fluent flow of thoughts, while JSON actions can be written down on-the-fly right in the flow of thoughts.
+						- Gemini API doesn't support function call together with JSON structured output 🙁
+							- ```
+							  ApiError: Function calling with a response mime type: 'application/json' is unsupported
+							  ```
+							- Gemini 3 doesn't throw error but
 					- pattern: `<think>markdown</think><act>JSON</act>`
 					- Actions: `<act type='graph'>` CRUD, `<act type='response'>`
 					- Thought process: plan then act with focused thoughts right before each action
