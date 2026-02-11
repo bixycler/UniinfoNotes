@@ -315,15 +315,17 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  ApiError: Function calling with a response mime type: 'application/json' is unsupported
 							  ```
 							- Gemini 3 doesn't throw error but responses dopily: calling tool to update tasks when being asked about task contents; then get lost in its own thought loop 🫨, etc.
+						- Gemini models use [internal thought process to reason about function calls](https://ai.google.dev/gemini-api/docs/function-calling?hl=en&example=meeting#thinking), but the internal thoughts are suppressed by JSON structured output, making th
 					- pattern
 					  ```
-					  <think>markdown</think>
-					  <act>JSON</act>
+					  <think>Plan of all actions in markdown</think>
+					  <think>Thoughts for this action in markdown</think>
+					  <act>JSON of this action</act>
 					  ```
 					- Actions: `<act type='graph'>` CRUD to system, `<act type='response'>` to user
 					- Thought process: plan then act with focused thoughts right before each action
-					- The plan is synthesized from context tree and environment (user)
-				- System response: node # updated & loaded to model's system instructions
+						- The plan is synthesized from context tree and environment (user)
+					- System response to `<act type='graph'>`: “node # updated & loaded to model's system instructions”
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
