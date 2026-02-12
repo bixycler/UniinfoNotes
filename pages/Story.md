@@ -326,8 +326,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Thought process: plan then act with focused thoughts right before each action
 						- The plan is synthesized from context tree and environment (user)
 					- System response to `<act type='graph'>`: “node # updated & loaded to model's system instructions”
-				- TODO Empty `model` turn at first turn 🤔, making API error!
-				- TODO The history contains only thoughts & verbal response
+			- 12th, ... Corkei
+			  collapsed:: true
+				- Add [gemini-api-dev/SKILL.md](https://github.com/google-gemini/gemini-skills/blob/main/skills/gemini-api-dev/SKILL.md) to Corkei docs
+				- Context compaction
+					- TODO Check if Antigravity has any knowledge about previous tasks, without inspecting codes.
+					- Try [Context Forge](https://github.com/webdevtodayjason/context-forge/tree/main/docs/ide-configs/gemini) in Antigravity via [ContextForge MCP Gateway](https://ibm.github.io/mcp-context-forge/).
+					- Try [ADK](https://google.github.io/adk-docs/), the underlying agent framework of Antigravity.
+						- Supports context compaction
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
