@@ -330,7 +330,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- Add [gemini-api-dev/SKILL.md](https://github.com/google-gemini/gemini-skills/blob/main/skills/gemini-api-dev/SKILL.md) to Corkei docs
 				- Context compaction
-					- TODO Check if Antigravity has any knowledge about previous tasks, without inspecting codes.
+					- DONE Check if Antigravity has any knowledge about previous tasks, without inspecting codes.
+						- It's clear that there is no structural knowledge beside the summaries of the past conversations.
 					- Try [Context Forge](https://github.com/webdevtodayjason/context-forge/tree/main/docs/ide-configs/gemini) in Antigravity via [ContextForge MCP Gateway](https://ibm.github.io/mcp-context-forge/).
 					- Try [ADK](https://google.github.io/adk-docs/), the underlying agent framework of Antigravity.
 						- Supports context compaction
