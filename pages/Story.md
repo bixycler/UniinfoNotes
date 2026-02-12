@@ -328,10 +328,18 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- System response to `<act type='graph'>`: “node # updated & loaded to model's system instructions”
 			- 12th, ... Corkei
 			  collapsed:: true
-				- Add [gemini-api-dev/SKILL.md](https://github.com/google-gemini/gemini-skills/blob/main/skills/gemini-api-dev/SKILL.md) to Corkei docs
+				- DONE Add [gemini-api-dev/SKILL.md](https://github.com/google-gemini/gemini-skills/blob/main/skills/gemini-api-dev/SKILL.md) to Corkei docs
+					- I added this skill to workspace-specific “rules”: Agent chat (Ctrl-L, side panel) > meatballs menu (`...`) > `Customizations` > `Rules` > `Project · gemini-api-dev.md`
+					- And Antigravity sees it as
+					  ```xml
+					  <MEMORY[gemini-api-dev.md]>
+					  1. Required Skill: src/artifacts/docs/gemini-api-dev.md
+					  2. Always check for the latest API, either from online resources or from `node_modules`
+					  </MEMORY[gemini-api-dev.md]>
+					  ```
 				- Context compaction
 					- DONE Check if Antigravity has any knowledge about previous tasks, without inspecting codes.
-						- It's clear that there is no structural knowledge beside the summaries of the past conversations.
+						- It's clear that there is *no structural knowledge* beside the summaries of the **past conversations**.
 					- Try [Context Forge](https://github.com/webdevtodayjason/context-forge/tree/main/docs/ide-configs/gemini) in Antigravity via [ContextForge MCP Gateway](https://ibm.github.io/mcp-context-forge/).
 					- Try [ADK](https://google.github.io/adk-docs/), the underlying agent framework of Antigravity.
 						- Supports context compaction
