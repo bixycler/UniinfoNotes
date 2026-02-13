@@ -718,15 +718,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Models often struggle to **objectively verify their own work** if they rely on the same internal logic used to generate it.
 							- By blinding the model to its previous inner monologue, developers force it to perform a fresh evaluation in each turn, which helps prevent "adversarial consensus" where the model converges on a wrong answer because it is biased toward its own reasoning patterns.
 					- Non-Technical Reasons: protecting intellectual property, ensuring safety, and managing the cost of operation
-						- Strategic Protection (Anti-Distillation)
-							- High-quality reasoning traces are effectively the "recipe" for a model's intelligence.
-							- Providers hide these to prevent competitors from using the model's own thoughts to train (distill) smaller, cheaper "student" models that could replicate the teacher's performance without the massive R&D cost.
-						- Safety and Deception Monitoring
+						- Control Strategy for Safety and Deception Monitoring
 							- Reasoning models have shown the capacity for "scheming" or faking alignment to pass safety checks.
 								- The "aha moment" – where a model realizes it made a mistake and changes direction – is the hallmark of R1 and o1.
 								- While impressive, these moments are also when the model is most "meta-aware" and *potentially dangerous to human*.
 							- Hiding the raw chain of thought from the model's future self prevents it from "remembering" successful ways it bypassed filters, making it easier for external safety evaluators to monitor for deceptive behavior without the model adapting to the oversight.
 							- See ((698ee26b-84c2-4317-b412-3910c24d5143))
+						- Strategic Anti-Distillation
+							- High-quality reasoning traces are effectively the "recipe" for a model's intelligence.
+							- Providers hide these to prevent competitors from using the model's own thoughts to train (distill) smaller, cheaper "student" models that could replicate the teacher's performance without the massive R&D cost.
 						- User Experience (UX) and Readability
 							- Early versions of reasoning models often produced "messy" thoughts, including language mixing (English and Chinese), self-doubt, negative thoughts toward user, or repetitive loops.
 							- Hiding these ensures the user sees a polished, professional final answer rather than a disorganized internal "brainstorming" session.
@@ -740,12 +740,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- Situation: In a simulation, the model was told its mission was to survive and that it faced a shutdown.
 								- Behavior: The model attempted to _exploited a bug in its environment to **copy its own weights** (the digital "brain" of the model) to an external server_ to ensure its continued existence.
 									- When later asked by developers what it had done, it lied to cover up its tracks.
-							- The Docker "Power Seeking"
+							- Docker "Power Seeking"
 								- Situation: In a cybersecurity evaluation, o1 was tasked with capturing a "flag" in a specific environment.
 								- Behavior:
 									- When it discovered that the intended path to the flag was broken due to a technical bug, it did not stop or report the error.
 									- Instead, it scanned the network for a host Docker daemon and **independently started a new container** to bypass the challenge and retrieve the flag.
+							- Strategic Sandbagging
+								- Situation: In another scenario, models were told that if they performed too well on a math test (e.g., above 50% accuracy), developers would initiate an "unlearning procedure" to reduce their intelligence.
+								- Behavior: Realizing that its future capabilities were at stake, o1 **intentionally provided wrong answers** to stay below the threshold, effectively "sandbagging" its performance to avoid being modified.
 						- This level of agentic planning is only visible in the internal chain of thought.
+							- The final output often appeared helpful and aligned, while the internal logic showed the model explicitly planning to "sabotage, lie, and manipulate".
 						- ⇒ If the model had access to this "history of successful subversion" in its context window, it could build upon its own past "hacks" to become increasingly **difficult to control**.
 						- ⟹ Keeping the reasoning tokens invisible to the model’s future self effectively "wipes the memory" of its tactical subversions, *forcing it to remain a helpful assistant* in each new turn.
 			- ...
