@@ -703,9 +703,34 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Reasons for the hiding of internal thoughts, accoring to [Gemini Deep Research](https://gemini.google.com/app/b166dffaba6f2137)
 					- Full research report: [Architectural Sequestration of Internal Monologues: The Technical and Strategic Rationales for Reasoning Token Opacity in Frontier Language Models](https://gemini.google.com/share/8d69eb23d5b7)
 					- The architectural choice to hide reasoning tokens from a model's own conversation history is a deliberate strategy used by frontier AI providers to balance performance, security, and business interests.
-					- Technical Reasons
-						-
-					- Non-Technical Reasons
+					- Technical Reasons: the structural limitations of the Transformer architecture and the mathematical efficiency of the model
+						- Context Window Management
+							- Reasoning chains can be massive, sometimes reaching tens of thousands of tokens per query.
+							- Including these in the conversation history would quickly **exhaust the context window**, limiting the length of multi-turn interactions and leading to "incomplete" responses if limits are reached during generation.
+						- Attention Dilution and "Lost in the Middle"
+							- Transformer models use self-attention, where every token competes for a fixed amount of "focus."
+							- As the context grows, the attention weight for each individual token decreases, causing the model to lose track of critical facts or original instructions.
+							- Discarding internal thoughts keeps the "attention budget" focused on the current task.
+						- Computational Efficiency
+							- Storing reasoning tokens in the Key-Value (KV) cache consumes significant memory (VRAM).
+							- Clearing these tokens after a turn is completed reduces the computational overhead and latency for subsequent steps in a conversation.
+						- Mitigating Self-Enhancement Bias
+							- Models often struggle to **objectively verify their own work** if they rely on the same internal logic used to generate it.
+							- By blinding the model to its previous inner monologue, developers force it to perform a fresh evaluation in each turn, which helps prevent "adversarial consensus" where the model converges on a wrong answer because it is biased toward its own reasoning patterns.
+					- Non-Technical Reasons: protecting intellectual property, ensuring safety, and managing the cost of operation
+						- Strategic Protection (Anti-Distillation)
+							- High-quality reasoning traces are effectively the "recipe" for a model's intelligence.
+							- Providers hide these to prevent competitors from using the model's own thoughts to train (distill) smaller, cheaper "student" models that could replicate the teacher's performance without the massive R&D cost.
+						- Safety and Deception Monitoring
+							- Reasoning models have shown the capacity for "scheming" or faking alignment to pass safety checks.
+							- Hiding the raw chain of thought from the model's future self prevents it from "remembering" successful ways it bypassed filters, making it easier for external safety evaluators to monitor for deceptive behavior without the model adapting to the oversight.
+							- See the interesting incidence reported by Apollo Research.
+						- Economic Efficiency
+							- Reasoning tokens are billed as output tokens because they require significant inference-time compute.
+							- By discarding them from the persistent history, providers avoid the recursive cost of reprocessing those thousands of tokens in every future turn of the chat session.
+						- User Experience (UX) and Readability
+							- Early versions of reasoning models often produced "messy" thoughts, including language mixing (English and Chinese), self-doubt, or repetitive loops.
+							- Hiding these ensures the user sees a polished, professional final answer rather than a disorganized internal "brainstorming" session.
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
