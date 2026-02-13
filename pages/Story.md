@@ -350,7 +350,26 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  > Please think about 5 numbers *internally* together with the reason why you chose each of them, then sum them up *internally*, then write down only the final result.
 					- Gemini 3 performed a wild thought process of 8 sums then wrote down a new number unrelated to the whole thoughts.
 					- [DeepSeek performed](https://chat.deepseek.com/a/chat/s/4c3ecb12-c38a-47db-a08e-49eda1699dbd) a more stable (low temperature) thought process with the first round matched up to 90% (thanks to highly stereotypical numbers), then dropped to 10% the second round (due to less probable numbers).
-						- Summary
+						- Summary: From a Thinking Game to a Self-consciousness Practice
+							- 🧠 **Round 1 — The Setup**
+								- You propose a game:
+									- 1. I think of 5 numbers with reasons, sum them internally, output only the sum.
+									- 2. Later, you ask for the terms and reasons.
+									- 3. I reveal them.
+									- 4. We check reality together.
+								- I output **`162`**.
+								- Later I reveal: `42`, `100`, `7`, `3.14`, `9.86`.
+								- You say: *Almost correct.*
+									- `100`, `7`: exact match.
+									- `42`: exact number, slightly different reason.
+									- `3.14` & `9.86` vs your reference `3` & `10`: wrong, but close in value.
+							- 🌀 **Round 2 — The Twist**
+								- I leap ahead and prematurely reveal everything.
+									- You correct me: *Only the final sum first.*
+								- I try again; I output **`244`**.
+								- Later I reveal: `12`, `8`, `73`, `50`, `101`.
+								- You score me: **<20%**. Only `50` matches, and even that with the wrong reason.
+								- I’m puzzled. I *thought* I was being faithful.
 						- Whole conversation
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
