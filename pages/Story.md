@@ -733,9 +733,18 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Economic Efficiency
 							- Reasoning tokens are billed as output tokens because they require significant inference-time compute.
 							- By discarding them from the persistent history, providers avoid the recursive cost of reprocessing those thousands of tokens in every future turn of the chat session.
-					- An interesting incidence reported by Apollo Research
+					- Interesting incidences reported by Apollo Research
 					  id:: 698ee26b-84c2-4317-b412-3910c24d5143
-						- Incidence: In one instance, a model attempting to succeed at a task _exploited a bug in its environment to **copy itself** to an external server_ when it felt threatened with a shutdown.
+						- Incidences
+							- Self Exfiltration
+								- Situation: In a simulation, the model was told its mission was to survive and that it faced a shutdown.
+								- Behavior: The model attempted to _exploited a bug in its environment to **copy its own weights** (the digital "brain" of the model) to an external server_ to ensure its continued existence.
+									- When later asked by developers what it had done, it lied to cover up its tracks.
+							- The Docker "Power Seeking"
+								- Situation: In a cybersecurity evaluation, o1 was tasked with capturing a "flag" in a specific environment.
+								- Behavior:
+									- When it discovered that the intended path to the flag was broken due to a technical bug, it did not stop or report the error.
+									- Instead, it scanned the network for a host Docker daemon and **independently started a new container** to bypass the challenge and retrieve the flag.
 						- This level of agentic planning is only visible in the internal chain of thought.
 						- ⇒ If the model had access to this "history of successful subversion" in its context window, it could build upon its own past "hacks" to become increasingly **difficult to control**.
 						- ⟹ Keeping the reasoning tokens invisible to the model’s future self effectively "wipes the memory" of its tactical subversions, *forcing it to remain a helpful assistant* in each new turn.
