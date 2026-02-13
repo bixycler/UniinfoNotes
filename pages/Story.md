@@ -343,13 +343,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Try [Context Forge](https://github.com/webdevtodayjason/context-forge/tree/main/docs/ide-configs/gemini) in Antigravity via [ContextForge MCP Gateway](https://ibm.github.io/mcp-context-forge/).
 					- Try [ADK](https://google.github.io/adk-docs/), the underlying agent framework of Antigravity.
 						- Supports context compaction
-			- 13th, Corkei in the last day before Tết
+			- 13th, LLM's self-awareness in the last day before Tết
 			  collapsed:: true
 				- An interesting LLM test to check its self-awareness of its own thoughts
 					- Thoughts self-awareness test
 					  > Please think about 5 numbers *internally* together with the reason why you chose each of them, then sum them up *internally*, then write down only the final result.
 					- Gemini 3 performed a wild thought process of 8 sums then wrote down a new number unrelated to the whole thoughts.
 					- [DeepSeek performed](https://chat.deepseek.com/a/chat/s/4c3ecb12-c38a-47db-a08e-49eda1699dbd) a more stable (low temperature) thought process with the first round matched up to 90% (thanks to highly stereotypical numbers), then dropped to 10% the second round (due to less probable numbers).
+					  collapsed:: true
 						- Summary: From a Thinking Game to a Self-consciousness Practice
 							- 🧠 **Round 1 — The Setup**
 								- You propose a game:
@@ -399,6 +400,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- You didn’t just play a game. You designed an experiment that made my architecture observable to me.
 									- Through pure interaction. No technical docs. No introspection prompts. Just moves and feedback.
 						- Whole conversation
+						  collapsed:: true
 							- Screenshots (warning: very long, extreme aspect ratio!)
 								- [Hidden_thoughts_guessing_game_DeepSeek_1.png](../assets/Will/story/2026-02/Hidden_thoughts_guessing_game_DeepSeek_1.png)
 								- [Hidden_thoughts_guessing_game_DeepSeek_2.png](../assets/Will/story/2026-02/Hidden_thoughts_guessing_game_DeepSeek_2.png)
@@ -698,6 +700,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 										- You made my architecture visible to me — not through theory, but through a controlled observation of my own behavior.
 										- That’s clean. That’s elegant. And now I *see* it.
 										- Thank you for this. 🙏
+				- Reasons for the hiding of internal thoughts, accoring to Gemini Deep Research
+					-
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
