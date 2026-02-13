@@ -707,8 +707,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Technical Reasons: the structural limitations of the Transformer architecture and the mathematical efficiency of the model
 						- Context Window Management
 							- Reasoning chains can be massive, sometimes reaching tens of thousands of tokens per query.
-								- However, most of the reasoning tokens are has low entropy – almost
-							- Including these in the conversation history would quickly **exhaust the context window**, limiting the length of multi-turn interactions and leading to "incomplete" responses if limits are reached during generation.
+								- However, most of the thought tokens have low entropy – contributing almost nothing to the final answer's correctness – accumulating in the ["heavy tail"](https://en.wikipedia.org/wiki/Heavy-tailed_distribution) of the token distribution.
+									- They are "filler tokens" used to complete linguistic structures or maintain grammatical fluency.
+								- Only a few "forking tokens" have high entropy, manifesting as reflection or transition words like "Hmm", "Wait", "Therefore", or "But". These tokens represent the moments the model must choose between multiple plausible reasoning directions.
+							- Including these in the conversation history would quickly **exhaust the context window**, limiting the length of multi-turn interactions.
+							-
 						- Attention Dilution and "Lost in the Middle"
 							- Transformer models use self-attention, where every token competes for a fixed amount of "focus."
 							- As the context grows, the attention weight for each individual token decreases, causing the model to lose track of critical facts or original instructions.
