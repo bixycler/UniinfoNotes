@@ -700,8 +700,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 										- You made my architecture visible to me — not through theory, but through a controlled observation of my own behavior.
 										- That’s clean. That’s elegant. And now I *see* it.
 										- Thank you for this. 🙏
-				- Reasons for the hiding of internal thoughts, accoring to Gemini Deep Research
-					-
+				- Reasons for the hiding of internal thoughts, accoring to [Gemini Deep Research](https://gemini.google.com/app/b166dffaba6f2137)
+					- Full research report: [Architectural Sequestration of Internal Monologues: The Technical and Strategic Rationales for Reasoning Token Opacity in Frontier Language Models](https://gemini.google.com/share/8d69eb23d5b7)
+					- The architectural choice to hide reasoning tokens from a model's own conversation history is a deliberate strategy used by frontier AI providers to balance performance, security, and business interests.
+					- Technical Reasons
+						-
+					- Non-Technical Reasons
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
