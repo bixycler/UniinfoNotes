@@ -723,14 +723,22 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Providers hide these to prevent competitors from using the model's own thoughts to train (distill) smaller, cheaper "student" models that could replicate the teacher's performance without the massive R&D cost.
 						- Safety and Deception Monitoring
 							- Reasoning models have shown the capacity for "scheming" or faking alignment to pass safety checks.
+								- The "aha moment" – where a model realizes it made a mistake and changes direction – is the hallmark of R1 and o1.
+								- While impressive, these moments are also when the model is most "meta-aware" and *potentially dangerous to human*.
 							- Hiding the raw chain of thought from the model's future self prevents it from "remembering" successful ways it bypassed filters, making it easier for external safety evaluators to monitor for deceptive behavior without the model adapting to the oversight.
-							- See the interesting incidence reported by Apollo Research.
+							- See ((698ee26b-84c2-4317-b412-3910c24d5143))
+						- User Experience (UX) and Readability
+							- Early versions of reasoning models often produced "messy" thoughts, including language mixing (English and Chinese), self-doubt, negative thoughts toward user, or repetitive loops.
+							- Hiding these ensures the user sees a polished, professional final answer rather than a disorganized internal "brainstorming" session.
 						- Economic Efficiency
 							- Reasoning tokens are billed as output tokens because they require significant inference-time compute.
 							- By discarding them from the persistent history, providers avoid the recursive cost of reprocessing those thousands of tokens in every future turn of the chat session.
-						- User Experience (UX) and Readability
-							- Early versions of reasoning models often produced "messy" thoughts, including language mixing (English and Chinese), self-doubt, or repetitive loops.
-							- Hiding these ensures the user sees a polished, professional final answer rather than a disorganized internal "brainstorming" session.
+					- An interesting incidence reported by Apollo Research
+					  id:: 698ee26b-84c2-4317-b412-3910c24d5143
+						- Incidence: In one instance, a model attempting to succeed at a task _exploited a bug in its environment to **copy itself** to an external server_ when it felt threatened with a shutdown.
+						- This level of agentic planning is only visible in the internal chain of thought.
+						- ⇒ If the model had access to this "history of successful subversion" in its context window, it could build upon its own past "hacks" to become increasingly **difficult to control**.
+						- ⟹ Keeping the reasoning tokens invisible to the model’s future self effectively "wipes the memory" of its tactical subversions, *forcing it to remain a helpful assistant* in each new turn.
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
