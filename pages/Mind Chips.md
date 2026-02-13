@@ -1,3 +1,1 @@
-- An interesting test with DeepSeek
-    - > Please think about 5 numbers *internally* together with the reason why you chose each of them, then sum them up *internally*, then write down only the final result.
 - 🤔 😁 😉 😮 😛 😜 🙁
