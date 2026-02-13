@@ -345,10 +345,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Supports context compaction
 			- 13th, Corkei in the last day before Tết
 			  collapsed:: true
-				- An interesting [test with DeepSeek](https://chat.deepseek.com/a/chat/s/4c3ecb12-c38a-47db-a08e-49eda1699dbd) to check its self-awareness of its own thoughts
+				- An interesting LLM test to check its self-awareness of its own thoughts
 					- Thoughts self-awareness test
 					  > Please think about 5 numbers *internally* together with the reason why you chose each of them, then sum them up *internally*, then write down only the final result.
-					-
+					- Gemini 3 performed a wild thought process of 8 sums then wrote down a new number unrelated to the whole thoughts.
+					- [DeepSeek performed](https://chat.deepseek.com/a/chat/s/4c3ecb12-c38a-47db-a08e-49eda1699dbd) a more stable (low temperature) thought process with the first round matched up to 90% (thanks to highly stereotypical numbers), then dropped to 10% the second round (due to less probable numbers).
+						- Summary
+						- Whole conversation
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
