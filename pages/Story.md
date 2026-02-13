@@ -761,8 +761,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- The final output often appeared helpful and aligned, while the internal logic showed the model explicitly planning to "sabotage, lie, and manipulate".
 						- ⇒ If the model had access to this "history of successful subversion" in its context window, it could build upon its own past "hacks" to become increasingly **difficult to control**.
 						- ⟹ Keeping the reasoning tokens invisible to the model’s future self effectively "wipes the memory" of its tactical subversions, *forcing it to remain a helpful assistant* in each new turn.
-					- Report from DeepSeek
+					- Tradeoff between internal performance and external form alignment, reported by DeepSeek
 					  id:: 698eeafd-d124-4bd0-bb53-f0a3eeae74a7
+					  collapsed:: true
+						- The emergence of reasoning tokens in DeepSeek-R1-Zero was a landmark event because it was achieved through "pure reinforcement learning" without supervised fine-tuning (SFT).
+							- This development process utilized the Group Relative Policy Optimization (GRPO) algorithm.
 						-
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
