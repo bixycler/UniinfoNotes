@@ -343,7 +343,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Try [Context Forge](https://github.com/webdevtodayjason/context-forge/tree/main/docs/ide-configs/gemini) in Antigravity via [ContextForge MCP Gateway](https://ibm.github.io/mcp-context-forge/).
 					- Try [ADK](https://google.github.io/adk-docs/), the underlying agent framework of Antigravity.
 						- Supports context compaction
-			- 13th, LLM's self-awareness in the last day before Tết
+			- 13th, LLM's self-awareness in the last work day before Tết
 			  collapsed:: true
 				- An interesting LLM test to check its self-awareness of its own thoughts
 					- Thoughts self-awareness test
@@ -766,7 +766,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  collapsed:: true
 						- The emergence of reasoning tokens in DeepSeek-R1-Zero was a landmark event because it was achieved through "pure reinforcement learning" without supervised fine-tuning (SFT).
 							- This development process utilized the Group Relative Policy Optimization (GRPO) algorithm.
-						-
+						- During the 10,400 training steps of R1-Zero, researchers observed a "jump" in both performance and response length at step 8,200.
+							- The model began spontaneously generating longer chains of thought, incorporating "reflection" and "self-correction".
+						- However, this also led to "language mixing" (e.g., combining English and Chinese) and poor readability of output text.
+						- To fix this, DeepSeek introduced a multi-stage pipeline:
+							- **Cold Start**: Fine-tuning the base model on a small dataset of human-readable chain-of-thought examples.
+							- **RL for Reasoning**: Applying GRPO to enhance logical capabilities while penalizing language mixing.
+							- **SFT for Preferences**: Collecting 800,000 samples (600k reasoning, 200k non-reasoning) to align the model with human style and helpfulness.
+							- **Final RL**: A final stage of RL to refine the model across all scenarios.
+						- Because the "readability" and "style" were added in later stages, the core "reasoning engine" is fundamentally distinct from the "output formatter".
+						- By hiding the reasoning tokens, the system ensures that the model's future turns are conditioned on the refined, aligned "output", rather than the potentially "messy" or "mixed-language" internal logic used to find the answer.
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
