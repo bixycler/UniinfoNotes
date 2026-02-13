@@ -711,7 +711,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 									- They are "filler tokens" used to complete linguistic structures or maintain grammatical fluency.
 								- Only a few "forking tokens" have high entropy, manifesting as reflection or transition words like "Hmm", "Wait", "Therefore", or "But". These tokens represent the moments the model must choose between multiple plausible reasoning directions.
 							- Including these in the conversation history would quickly **exhaust the context window**, limiting the length of multi-turn interactions.
-							-
+							- This leads to the currently active research of Reasoning in Vectors, or [Chain of Continuous Thought (Coconut)](https://www.deeplearning.ai/the-batch/meta-introduces-chain-of-continuous-thought-coconut-to-improve-next-token-prediction/), or "Thinking without Tokens" (TwT), which replaces the verbose, low-entropy text tokens with "thought vectors" in latent space.
+								- This framework performs better on logical tasks that require backtracking or multi-stage planning.
 						- Attention Dilution and "Lost in the Middle"
 							- Transformer models use self-attention, where every token competes for a fixed amount of "focus."
 							- As the context grows, the attention weight for each individual token decreases, causing the model to lose track of critical facts or original instructions.
