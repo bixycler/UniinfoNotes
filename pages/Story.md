@@ -822,14 +822,17 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- The formalism of interface defines the boundary between agents.
 					- In effect flow, the formalism is defined by the “eye 👁️”, the “why”, the intentional cause of the circle.
 					- In brief: informal inside – formal outside
-			- 20th
+			- 20th, back to the middle way
 			  collapsed:: true
-				- Water scoop in the balance way
+				- [Water scoop](((699c0362-1cb5-483f-ac28-dddd26c54fb1))) in the balance way
 					- Observe to fill the bodymind full
 					- The choice is accumulated until the flipping action
-				- That painful/pleasant feeling, arising in me, persisted without impinging on my mind.
+				- > That painful/pleasant feeling, arising in me, persisted without impinging on my mind.
+				  
+				  — [Mahā-saccaka-sutta](https://suttacentral.net/mn36/en/horner)
 				- There's an interesting case of the balance between [“warm inside – cold outside”](https://share.google/aimode/n5nMdwmIFRcDIiG52) in the [Walk for Peace](https://en.wikipedia.org/wiki/Walk_for_Peace).
 				- My holistic core = God image archetype in Jungian psychology
+				  id:: 699c0361-fa2e-42f9-9a98-ba4f929fd031
 					- It's perfect only thanks to its high abstraction.
 					- Zooming in, i see it's porous, the pores are so dense that they are invisible, hence perfectly imperfect! 🤪🫣
 					- The pores are what suck everything in, making everything change, hence the dynamics of the seemingly static circle image.
@@ -840,11 +843,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Decisive role of of the intentional cause caused by its illusional perfection
 						- As the first cause, the seed, it determines the whole effect circle.
 						- As the final cause, the goal, it sucks attention and energy into its “black hole”.
-						- As the obop, it controls the whole body -- the circle of effect flow.
+						- As the obop, it controls the whole body – the circle of effect flow.
 						- The hierarchy of intentional causes forms the intent chain/sequence pushing from behind.
-					- Trypophobia -- the fear of bodily pores -- and perfectionism -- the urge to fill all holes & close all gaps
+					- Trypophobia – the fear of bodily pores – and perfectionism – the urge to fill all holes & close all gaps
 						- [Horror vacui](https://en.wikipedia.org/wiki/Horror_vacui_(philosophy)): like a beaver 🦫 constantly listen for the water leaking sound, i'm eager to fill every hole.
 						- This is where i get caught up more than normal people: i get sucked into every pore (deep dive), don't like to use the given end results, don't trust the forms, etc.
+						- {{embed ((699c0361-fa2e-42f9-9a98-ba4f929fd031))}}
 						- We should contemplate the [surinam toad](https://en.wikipedia.org/wiki/Common_Surinam_toad) to resolve the phobia.
 						- Refs: [on National Geographic](https://www.nationalgeographic.com/animals/article/surprising-ways-animals-give-birth-live-young), [on YouTube](https://youtube.com/shorts/Gmf65wl7j28)
 						- The human's pregnancy is just an outside-in version of the toad's back nursery.

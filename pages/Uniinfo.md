@@ -1704,6 +1704,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					- When a bottle is *partially filled*, e.g. $c = 30\% = 0.3i$, it has the **potential** of being full 100%, but not yet, hence *unfulfilled*.
 					- When a bottle is *fully filled*, i.e. “***fulfilled***”, a new **concrete extension** is produced which is not an abstract number but an *actual bottle of water*, hence an **action**.
 					- Real life instances of this model are the [water scoop](https://en.wikipedia.org/wiki/Water_scoop_(hydropower)) (monjolo, [cối giã nước](https://baonghean.vn/doc-dao-chiec-coi-gia-gao-bang-suc-nuoc-o-tay-nghe-an-10091303.html)), the [shishi-odoshi](https://en.wikipedia.org/wiki/Shishi-odoshi).
+					  id:: 699c0362-1cb5-483f-ac28-dddd26c54fb1
 					  collapsed:: true
 						- A monjolo in Caldas Novas, Goiás
 						  ![monjolo](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Monjolo.JPG/960px-Monjolo.JPG)
@@ -2416,7 +2417,8 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 							- In the sequence of sustents, lower intent = higher content
 					- Quantum: only when the whole input circle receives full data, is the op activated to [take action](((6847e7fa-0d57-425c-b035-1a62db7725e6))).
 					- Qualiton: The whole input circle is qualified by matching with its internal image.
-				- Water scoop: ob viewcone = scoop; op = pounding
+				- [Water scoop](((699c0362-1cb5-483f-ac28-dddd26c54fb1))): ob viewcone = scoop; op = pounding
+				  id:: 699c0362-08e9-4df1-bce1-ec5da386c35e
 				- $f(t) = \exp(t)$: ob viewcone = $f(t) dt$; op = `+=`
 				- Neuron: ob viewcone = tree of dendrites; op = activation (action potential passed through axon)
 		-
