@@ -783,8 +783,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Menu: `Help` > `Toggle Developer Tools`
 					- Command Palette: Press `F1` or `Ctrl + Shift + P` and search for `Developer: Toggle Developer Tools`
 					- ~~Keyboard Shortcut: `F12` or `Ctrl + Shift + I`~~
-				- Inception glitch with `<think>` in agent chat panel
+				- DOING Inception glitch with `<think>` in agent chat panel
 				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2026-02-23 Mon 15:36:10]
+				  :END:
 					- The `<think>...</think>` block is proceed before is markdown processed
 					- Inside processed `think` blocks, markdown is not processed, but other transformations:
 						- Newline to `<br />`
