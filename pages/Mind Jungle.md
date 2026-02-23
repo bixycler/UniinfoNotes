@@ -313,8 +313,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- ![Antigravity-Customizations.png](../assets/GUI/Antigravity/Antigravity-Customizations.png)
 							- Customizations: Rules, Workflows
 							  id:: 6926be21-cae1-40e9-83a8-2f88aeaaebd6
-								- The agent rules are stored in `~/.gemini/GEMINI.md`
+								- The global agent rules are stored in `~/.gemini/GEMINI.md`
 								  id:: 6960929c-0ac9-43c6-8357-0e3e9ca1ed54
+								- Project-specific agent rules are stored in `$WORKSPACE/.agent/$ruleName.md`
 							- [MCP](https://en.wikipedia.org/wiki/Model_Context_Protocol) Servers: for LLMs to integrate and share data with external tools, systems, and data sources.
 							- Export: export the conversation to Markdown.
 						- Knowledge Items ([KIs](https://antigravity.google/docs/knowledge))
