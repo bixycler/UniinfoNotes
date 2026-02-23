@@ -813,7 +813,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- [Antigravity Codes](https://antigravity.codes/) resource portal: community, rules, workflows, skills, MPCs
 				- Explicit & augmented Tree of Thoughts (ToT) via [Sequential Thinking MCP Server](https://www.npmjs.com/package/@modelcontextprotocol/server-sequential-thinking)
 					- on [GitHub](https://github.com/modelcontextprotocol/servers/blob/main/src/sequentialthinking/)
-			- 18th
+			- 18th, the momentum of Corkei has shown up in my dreams.
 			  collapsed:: true
 				- Monitor the impulses, from the hidden tendencies (anusaya) to the visible intents.
 				- These days, in my dreams, the Corkei system for life is being built with sophistication increasing day by day.
