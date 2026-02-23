@@ -821,14 +821,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- This [contract-first decomposition](https://www.marktechpost.com/2026/02/15/google-deepmind-proposes-new-framework-for-intelligent-ai-delegation-to-secure-the-emerging-agentic-web-for-future-economies/) from DeepMind is interesting for the interface between AI agents.
 					- The formalism of interface defines the boundary between agents.
 					- In effect flow, the formalism is defined by the “eye 👁️”, the “why”, the intentional cause of the circle.
-					- In brief: informal inside -- formal outside
+					- In brief: informal inside – formal outside
 			- 20th
 			  collapsed:: true
 				- Water scoop in the balance way
 					- Observe to fill the bodymind full
 					- The choice is accumulated until the flipping action
 				- That painful/pleasant feeling, arising in me, persisted without impinging on my mind.
-				- There's an interesting case of the balance between [“warm inside -- cold outside”](https://share.google/aimode/n5nMdwmIFRcDIiG52) in the [Walk for Peace](https://en.wikipedia.org/wiki/Walk_for_Peace).
+				- There's an interesting case of the balance between [“warm inside – cold outside”](https://share.google/aimode/n5nMdwmIFRcDIiG52) in the [Walk for Peace](https://en.wikipedia.org/wiki/Walk_for_Peace).
 				- My holistic core = God image archetype in Jungian psychology
 					- It's perfect only thanks to its high abstraction.
 					- Zooming in, i see it's porous, the pores are so dense that they are invisible, hence perfectly imperfect! 🤪🫣

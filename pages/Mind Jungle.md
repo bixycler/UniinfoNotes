@@ -4179,11 +4179,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 										- to
 										  > From many appearances of the word “argument” in...
 								- Similar symptom: ((6835c18c-c045-4faa-be6b-b7b44ec6256a))
-							- DOING [!] All block IDs are cleared after search with advanced query.
+							- DONE [!] All block IDs are cleared after search with advanced query.
 							  collapsed:: true
 							  :LOGBOOK:
 							  CLOCK: [2026-02-23 Mon 13:53:07]
-							  CLOCK: [2026-02-23 Mon 13:53:09]
+							  CLOCK: [2026-02-23 Mon 13:53:09]--[2026-02-23 Mon 15:01:39] =>  01:08:30
 							  :END:
 								- Background
 									- [[Uniinfo]] was split from [[Mind Jungle]] successfully at commits `43cb227b`...`448e2f4c`, with no ID problem.
@@ -4197,13 +4197,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									  CLOCK: [2026-02-23 Mon 14:31:39]--[2026-02-23 Mon 14:38:51] =>  00:07:12
 									  :END:
 									  ⇒ It's re-indexed without any change.
-									- DOING Now, i push to GitHub to [check with Graph Validator](((94649b98-9711-4adf-ae25-aaf32b521c14))).
+									- DONE Now, i push to GitHub to [check with Graph Validator](((94649b98-9711-4adf-ae25-aaf32b521c14))).
 									  :LOGBOOK:
 									  CLOCK: [2026-02-23 Mon 14:39:05]
-									  CLOCK: [2026-02-23 Mon 14:39:06]
+									  CLOCK: [2026-02-23 Mon 14:39:06]--[2026-02-23 Mon 14:58:47] =>  00:19:41
 									  :END:
 										- Commit `860d5b15` (Rename TwistedDoubleI -> TwistingDoubleI): Somehow the renamed assets were automatically cloned to `../assets/` instead of [TwistingDoubleI/](../assets/Uniinfo/TwistingDoubleI/).
 											- Now, i just remove these redundant (unused) assets.
+										- The validation has been passed without ID problem.
 					- {{embed ((6716169c-ee4d-4124-84a2-d86c9c1d702e))}}
 				- ~~Block moving via cut & paste~~
 				  id:: 66ab12fd-cc14-4789-b70b-48b8b599f9eb
