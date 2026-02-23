@@ -308,6 +308,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- `knowledge/`: knowledge items
 							- `$WORKSPACE/.agent/`
 								- `{rules,skills}/`: rules/[skills](https://antigravity.google/docs/skills) for the agent to work in this workspace.
+									- [gemini-api-dev skill](https://github.com/google-gemini/gemini-skills)
 						- It has helped me in this task: ((667d2479-487a-49ab-949f-722eb47a16ef))
 						- Some functions are hidden in the meatballs menu at the top right corner of the Agent chat panel, not in the Agent Manager.
 							- Screenshot
