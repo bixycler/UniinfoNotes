@@ -302,8 +302,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  The agent-based IDE from Google
 						- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Google_Antigravity
 						- Agent data are stored globally in `$HOME/.gemini/antigravity/` and locally in `$WORKSPACE/.agent/`.
-							- `$HOME/.gemini/antigravity/brain/$hash/`
-								- `task.md`, `task.md.metadata.json`, `walkthrough.md`, `walkthrough.md.metadata.json`, `implementation_plan.md`,
+							- `$HOME/.gemini/antigravity/`
+								- `brain/$hash/`: `task.md`, `task.md.metadata.json`, `walkthrough.md`, `walkthrough.md.metadata.json`, `implementation_plan.md`
+								- `skills/`
+								- `knowledge/`: knowledge items
 							- `$WORKSPACE/.agent/`
 								- `skills/` stores skills for the agent to work in this workspace.
 						- It has helped me in this task: ((667d2479-487a-49ab-949f-722eb47a16ef))
@@ -311,9 +313,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- Screenshot
 							  collapsed:: true
 								- ![Antigravity-Customizations.png](../assets/GUI/Antigravity/Antigravity-Customizations.png)
-							- Customizations: Rules, Workflows
+							- Customizations: [Rules & Workflows](https://antigravity.google/docs/rules-workflows)
 							  id:: 6926be21-cae1-40e9-83a8-2f88aeaaebd6
-								- The global agent rules are stored in `~/.gemini/GEMINI.md`
+								- The global agent rules are stored in `$HOME/.gemini/GEMINI.md`
 								  id:: 6960929c-0ac9-43c6-8357-0e3e9ca1ed54
 								- Project-specific agent rules are stored in `$WORKSPACE/.agent/$ruleName.md`
 							- [MCP](https://en.wikipedia.org/wiki/Model_Context_Protocol) Servers: for LLMs to integrate and share data with external tools, systems, and data sources.
