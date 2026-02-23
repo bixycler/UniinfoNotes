@@ -308,7 +308,23 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- `knowledge/`: knowledge items
 							- `$WORKSPACE/.agent/`
 								- `{rules,skills}/`: rules/[skills](https://antigravity.google/docs/skills) for the agent to work in this workspace.
-									- [gemini-api-dev skill](https://github.com/google-gemini/gemini-skills)
+									- Rules & skills are shown to the agent with `<MEMORY>` and `<skills>` sections.
+										- Example rule `gemini-api-dev`
+											- ```xml
+											  <MEMORY[gemini-api-dev.md]>
+											  1. Required Skill: gemini-api-dev
+											  2. Always check for the latest API, either from online resources or from `node_modules`
+											  </MEMORY[gemini-api-dev.md]>
+											  ```
+										- Example skill `gemini-api-dev`
+											- ```xml
+											  <skills>
+											  Available skills:
+											  - gemini-api-dev (.../Corkei/.agent/skills/gemini-api-dev/SKILL.md): Use this skill when building applications with Gemini models, Gemini API, ...
+											  - ...
+											  </skills>
+											  ```
+									- Skills: [gemini-api-dev skill](https://github.com/google-gemini/gemini-skills)
 						- It has helped me in this task: ((667d2479-487a-49ab-949f-722eb47a16ef))
 						- Some functions are hidden in the meatballs menu at the top right corner of the Agent chat panel, not in the Agent Manager.
 							- Screenshot
@@ -316,6 +332,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- ![Antigravity-Customizations.png](../assets/GUI/Antigravity/Antigravity-Customizations.png)
 							- Customizations: [Rules & Workflows](https://antigravity.google/docs/rules-workflows)
 							  id:: 6926be21-cae1-40e9-83a8-2f88aeaaebd6
+							  collapsed:: true
 								- The global agent rules are stored in `$HOME/.gemini/GEMINI.md`
 								  id:: 6960929c-0ac9-43c6-8357-0e3e9ca1ed54
 								- Project-specific agent rules are stored in `$WORKSPACE/.agent/rules/$ruleName.md`
