@@ -4202,6 +4202,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									  CLOCK: [2026-02-23 Mon 14:39:05]
 									  CLOCK: [2026-02-23 Mon 14:39:06]
 									  :END:
+										- Commit `860d5b15` (Rename TwistedDoubleI -> TwistingDoubleI): Somehow the renamed assets were automatically cloned to `../assets/` instead of [TwistingDoubleI/](../assets/Uniinfo/TwistingDoubleI/).
+											- Now, i just remove these redundant (unused) assets.
 					- {{embed ((6716169c-ee4d-4124-84a2-d86c9c1d702e))}}
 				- ~~Block moving via cut & paste~~
 				  id:: 66ab12fd-cc14-4789-b70b-48b8b599f9eb
