@@ -309,6 +309,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- `$WORKSPACE/.agent/`
 								- `{rules,skills}/`: rules/[skills](https://antigravity.google/docs/skills) for the agent to work in this workspace.
 									- Rules & skills are shown to the agent with `<MEMORY>` and `<skills>` sections.
+									  collapsed:: true
 										- Example rule `gemini-api-dev`
 											- ```xml
 											  <MEMORY[gemini-api-dev.md]>
@@ -324,7 +325,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 											  - ...
 											  </skills>
 											  ```
-									- Skills: [gemini-api-dev skill](https://github.com/google-gemini/gemini-skills)
+									- Skills: [gemini-api-dev](https://github.com/google-gemini/gemini-skills), [skill-creator](https://github.com/anthropics/skills/tree/main/skills/skill-creator)
 						- It has helped me in this task: ((667d2479-487a-49ab-949f-722eb47a16ef))
 						- Some functions are hidden in the meatballs menu at the top right corner of the Agent chat panel, not in the Agent Manager.
 							- Screenshot
