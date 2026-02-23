@@ -343,7 +343,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Try [Context Forge](https://github.com/webdevtodayjason/context-forge/tree/main/docs/ide-configs/gemini) in Antigravity via [ContextForge MCP Gateway](https://ibm.github.io/mcp-context-forge/).
 					- Try [ADK](https://google.github.io/adk-docs/), the underlying agent framework of Antigravity.
 						- Supports context compaction
-			- 13th, LLM's self-awareness in the last work day before Tết
+			- 13th, LLM's self-awareness in the last working day before Tết
 			  collapsed:: true
 				- An interesting LLM test to check its self-awareness of its own thoughts
 					- Thoughts self-awareness test
@@ -776,7 +776,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- **Final RL**: A final stage of RL to refine the model across all scenarios.
 						- Because the "readability" and "style" were added in later stages, the core "reasoning engine" is fundamentally distinct from the "output formatter".
 						- By hiding the reasoning tokens, the system ensures that the model's future turns are conditioned on the refined, aligned "output", rather than the potentially "messy" or "mixed-language" internal logic used to find the answer.
-			- 14th, remaining stuff from works flushed out on the last day before Tet holidays
+			- 14th, remaining stuff from works flushed out on the last day before Tết holidays
 			  collapsed:: true
 				- DevTools to inspect DOM in Antigravity/VSCode
 				  collapsed:: true
@@ -837,7 +837,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Zooming in, i see it's porous, the pores are so dense that they are invisible, hence perfectly imperfect! 🤪🫣
 					- The pores are what suck everything in, making everything change, hence the dynamics of the seemingly static circle image.
 					- The sucking pores make it a “black hole”, while the perfect circle makes it a “white hole”.
-			- 21st
+			- 21st, focus on the present: ((699c0361-65ae-430a-ba7f-e19d06a94fcf))
 			  collapsed:: true
 				- Attachment = illusion of perfect intent + [trypophobia](https://en.wikipedia.org/wiki/Trypophobia)
 					- Decisive role of of the intentional cause caused by its illusional perfection
@@ -852,12 +852,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- We should contemplate the [surinam toad](https://en.wikipedia.org/wiki/Common_Surinam_toad) to resolve the phobia.
 						- Refs: [on National Geographic](https://www.nationalgeographic.com/animals/article/surprising-ways-animals-give-birth-live-young), [on YouTube](https://youtube.com/shorts/Gmf65wl7j28)
 						- The human's pregnancy is just an outside-in version of the toad's back nursery.
-				- Liberation doesn't mean detachment, but just making the intent equal with all other pores in the body, and trust the pore cap.
+				- Liberation doesn't mean detachment, but just making the intent equal with all other pores in the body, and trust the form.
 					- The intent is a black hole (first cause) in the guise of a white hole due to its last cause.
 					- Its whiteness is due to its intensity, abstraction,  presentative form of the whole.
 					- But as we inspect it closely, we can see it is densely porous, hence black hole.
 					- Pulling the stalk/root node in/down to be equal with all branching nodes, we reduce its urgency.
-					- Then treat all pores equally, **trusting the form**, just like a smooth skin seen from distance.
+					- Treat all pores equally, **trusting the form**, just like a smooth skin seen from distance.
+					  id:: 699c0361-65ae-430a-ba7f-e19d06a94fcf
 						- The trust is based on the _crystallization of content_, hence not a blind belief.
 						- The awareness of the underlying pores keeps the circle dynamic, open to change, and continuously updated with new contents.
 						- The update is done in batch, like the water scoop, to keep the form stationary.
