@@ -1,1 +1,88 @@
+- 21st
+  collapsed:: true
+	- Attachment = illusion of perfect intent + [trypophobia](https://en.wikipedia.org/wiki/Trypophobia)
+		- Decisive role of of the intentional cause caused by its illusional perfection
+			- As the first cause, the seed, it determines the whole effect circle.
+			- As the final cause, the goal, it sucks attention and energy into its “black hole”.
+			- As the obop, it controls the whole body -- the circle of effect flow.
+			- The hierarchy of intentional causes forms the intent chain/sequence pushing from behind.
+		- Trypophobia -- the fear of bodily pores -- and perfectionism -- the urge to fill all holes & close all gaps
+			- [Horror vacui](https://en.wikipedia.org/wiki/Horror_vacui_(philosophy)): like a beaver 🦫 constantly listen for the water leaking sound, i'm eager to fill every hole.
+			- This is where i get caught up more than normal people: i get sucked into every pore (deep dive), don't like to use the given end results, don't trust the forms, etc.
+			- We should contemplate the [surinam toad](https://en.wikipedia.org/wiki/Common_Surinam_toad) to resolve the phobia.
+			- Refs: [on National Geographic](https://www.nationalgeographic.com/animals/article/surprising-ways-animals-give-birth-live-young), [on YouTube](https://youtube.com/shorts/Gmf65wl7j28)
+			- The human's pregnancy is just an outside-in version of the toad's back nursery.
+	- Liberation doesn't mean detachment, but just making the intent equal with all other pores in the body, and trust the pore cap.
+		- The intent is a black hole (first cause) in the guise of a white hole due to its last cause.
+		- Its whiteness is due to its intensity, abstraction,  presentative form of the whole.
+		- But as we inspect it closely, we can see it is densely porous, hence black hole.
+		- Pulling the stalk/root node in/down to be equal with all branching nodes, we reduce its urgency.
+		- Then treat all pores equally, **trusting the form**, just like a smooth skin seen from distance.
+			- The trust is based on the _crystallization of content_, hence not a blind belief.
+			- The awareness of the underlying pores keeps the circle dynamic, open to change, and continuously updated with new contents.
+			- The update is done in batch, like the water scoop, to keep the form stationary.
+			- => Selfless & impermanent meticulousness just like the [sand mandala](https://en.wikipedia.org/wiki/Sand_mandala)
+	- Thanks to my friends, i see myself as a crazy bastard going around to annoy people.
+		- Being a weirdo having very different views from most of people, but i see deeply inside that “all people are no other than myself!”
+		- Even i have never got any intent to “correct” or “teach” anyone, because i don't think i'm higher than anyone, but my constant barking about my weird & seemingly “higher ideas” makes people feel that i'm giving lectures to them.
+		- I'm like a patient going to a doctor asking for treatment... but with my own remedy: i deny the remedy that the doctor gives me with his best knowledge, and ask for a remedy that he cannot give because it violates his medical ethics.
+		- My personality in Vietnamese: con đĩ chó già mồm vô liêm sỉ
+- 20th
+  collapsed:: true
+	- Water scoop in the balance way
+		- Observe to fill the bodymind full
+		- The choice is accumulated until the flipping action
+	- That painful/pleasant feeling, arising in me, persisted without impinging on my mind.
+	- There's an interesting case of the balance between [“warm inside -- cold outside”](https://share.google/aimode/n5nMdwmIFRcDIiG52) in the [Walk for Peace](https://en.wikipedia.org/wiki/Walk_for_Peace).
+	- My holistic core = God image archetype in Jungian psychology
+		- It's perfect only thanks to its high abstraction.
+		- Zooming in, i see it's porous, the pores are so dense that they are invisible, hence perfectly imperfect! 🤪🫣
+		- The pores are what suck everything in, making everything change, hence the dynamics of the seemingly static circle image.
+		- The sucking pores make it a “black hole”, while the perfect circle makes it a “white hole”.
+- 18th
+  collapsed:: true
+	- Monitor the impulses, from the hidden tendencies (anusaya) to the visible intents.
+	- These days, in my dreams, the Corkei system for life is being built with sophistication increasing day by day.
+		- The unconscious is showing its large momentum against the conscious will of trying to pull out from the rolling wheel.
+	- This [contract-first decomposition](https://www.marktechpost.com/2026/02/15/google-deepmind-proposes-new-framework-for-intelligent-ai-delegation-to-secure-the-emerging-agentic-web-for-future-economies/) from DeepMind is interesting for the interface between AI agents.
+		- The formalism of interface defines the boundary between agents.
+		- In effect flow, the formalism is defined by the “eye 👁️”, the “why”, the intentional cause of the circle.
+		- In brief: informal inside -- formal outside
+- 14th
+  collapsed:: true
+	- DevTools to inspect DOM in Antigravity/VSCode
+	  collapsed:: true
+		- Menu: Help > Toggle Developer Tools
+		- Command Palette: Press `F1` or `Ctrl + Shift + P` and search for "Developer: Toggle Developer Tools"
+		- Keyboard Shortcut: `F12` or `Ctrl + Shift + I`
+	- Inception glitch with `<think>` in agent chat panel
+	  collapsed:: true
+		- The `<think>...</think>` block is proceed before is markdown processed
+		- Inside processed `think` blocks, markdown is not processed, but other transformations:
+			- Newline to `<br />`
+			- Triple backticks to `<pre>`
+		- Inception glitch case:
+			- `think` tags are not converted to `<div>`
+			- newlines are not converted to `<br />` outside, but converted inside `<pre>`?! 🤔
+	- [Antigravity Codes](https://antigravity.codes/) resource portal: community, rules, workflows, skills, MPCs
+	- Antigravity's use of the `<think>` tag
+	  collapsed:: true
+		- The use of the literal <think> tag within the Antigravity agentic workflow is primarily a function of the **interoperability** layer that connects the IDE to various model providers.
+		- Cause: The broader community-driven infrastructure, such as the OpenCode and Antigravity-Manager projects, employs the `<think>` tag to normalize reasoning output across models like DeepSeek-R1 and GLM-4.5V.1
+			- While the native Google protocol utilizes internal tokens, Antigravity use the standard `<think>` tag to communicate with the request-interception layer, such as the `opencode-antigravity-auth` plugin.
+		- When literal `<think>` tags are detected, the system parses the enclosed text and maps it to a unified `reasoning_content` field.
+			- This mapping ensures that the reasoning is handled consistently by the IDE's UI, regardless of whether it originated from a native Gemini thinking token or a DeepSeek XML block.
+		- One of the most vital applications of the literal `<think>` tag is in the **"thinking-recovery"** logic found in the platform's plugin architecture.
+			- Development tasks in an agentic IDE are often interrupted, either by user intervention, network timeouts, or quota exhaustion.
+			- In such cases, the agent must be able to resume its task without restarting its entire reasoning process.
+			- The `thinking-recovery.ts` module in the `opencode-antigravity-auth` plugin manages this process by utilizing a signature cache and synthetic tool-response injection.
+			- When a session is resumed, the system parses the cached reasoning from previous turns — often stored in their literal `<think>` format — and re-evaluates them against the current state of the workspace.
+			- If the system detects a mismatch between the reasoning and the generated signature (a common occurrence with Claude models), it employs a "crash and restart" strategy for the specific turn, allowing the agent to recover the session without losing its high-level goal.
+		- Thinking settings by model
+			- Gemini 3: `thinkingConfig`
+			- Claude 4.5: Interleaved Reasoning Blocks with signature
+			- GLM-4.5V: `<think>`...`<answer>` Tags
+			- DeepSeek-R1: `<think>` XML Tags Parsed and normalized to reasoning_content
+	- Explicit & augmented Tree of Thoughts (ToT) via [Sequential Thinking MCP Server](https://www.npmjs.com/package/@modelcontextprotocol/server-sequential-thinking)
+		- on [GitHub](https://github.com/modelcontextprotocol/servers/blob/main/src/sequentialthinking/)
 - 🤔 😁 😉 😮 😛 😜 🙁 😱
