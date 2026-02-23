@@ -304,10 +304,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Agent data are stored globally in `$HOME/.gemini/antigravity/` and locally in `$WORKSPACE/.agent/`.
 							- `$HOME/.gemini/antigravity/`
 								- `brain/$hash/`: `task.md`, `task.md.metadata.json`, `walkthrough.md`, `walkthrough.md.metadata.json`, `implementation_plan.md`
-								- `skills/`
+								- `skills/`: global skills for the agent to work
 								- `knowledge/`: knowledge items
 							- `$WORKSPACE/.agent/`
-								- `skills/` stores skills for the agent to work in this workspace.
+								- `{rules,skills}/`: rules/[skills](https://antigravity.google/docs/skills) for the agent to work in this workspace.
 						- It has helped me in this task: ((667d2479-487a-49ab-949f-722eb47a16ef))
 						- Some functions are hidden in the meatballs menu at the top right corner of the Agent chat panel, not in the Agent Manager.
 							- Screenshot
@@ -317,7 +317,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  id:: 6926be21-cae1-40e9-83a8-2f88aeaaebd6
 								- The global agent rules are stored in `$HOME/.gemini/GEMINI.md`
 								  id:: 6960929c-0ac9-43c6-8357-0e3e9ca1ed54
-								- Project-specific agent rules are stored in `$WORKSPACE/.agent/$ruleName.md`
+								- Project-specific agent rules are stored in `$WORKSPACE/.agent/rules/$ruleName.md`
 							- [MCP](https://en.wikipedia.org/wiki/Model_Context_Protocol) Servers: for LLMs to integrate and share data with external tools, systems, and data sources.
 							- Export: export the conversation to Markdown.
 						- Knowledge Items ([KIs](https://antigravity.google/docs/knowledge))
