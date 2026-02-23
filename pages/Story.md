@@ -776,13 +776,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- **Final RL**: A final stage of RL to refine the model across all scenarios.
 						- Because the "readability" and "style" were added in later stages, the core "reasoning engine" is fundamentally distinct from the "output formatter".
 						- By hiding the reasoning tokens, the system ensures that the model's future turns are conditioned on the refined, aligned "output", rather than the potentially "messy" or "mixed-language" internal logic used to find the answer.
-			- 14th
+			- 14th, remaining  the last day beore Tet holidays
 			  collapsed:: true
 				- DevTools to inspect DOM in Antigravity/VSCode
 				  collapsed:: true
-					- Menu: Help > Toggle Developer Tools
-					- Command Palette: Press `F1` or `Ctrl + Shift + P` and search for "Developer: Toggle Developer Tools"
-					- Keyboard Shortcut: `F12` or `Ctrl + Shift + I`
+					- Menu: `Help` > `Toggle Developer Tools`
+					- Command Palette: Press `F1` or `Ctrl + Shift + P` and search for `Developer: Toggle Developer Tools`
+					- ~~Keyboard Shortcut: `F12` or `Ctrl + Shift + I`~~
 				- Inception glitch with `<think>` in agent chat panel
 				  collapsed:: true
 					- The `<think>...</think>` block is proceed before is markdown processed
