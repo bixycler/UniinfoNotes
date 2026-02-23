@@ -783,10 +783,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Menu: `Help` > `Toggle Developer Tools`
 					- Command Palette: Press `F1` or `Ctrl + Shift + P` and search for `Developer: Toggle Developer Tools`
 					- ~~Keyboard Shortcut: `F12` or `Ctrl + Shift + I`~~
-				- DOING Inception glitch with `<think>` in agent chat panel
+				- DONE Inception glitch with `<think>` in agent chat panel
 				  collapsed:: true
 				  :LOGBOOK:
-				  CLOCK: [2026-02-23 Mon 15:36:10]
+				  CLOCK: [2026-02-23 Mon 15:36:10]--[2026-02-23 Mon 16:33:54] =>  00:57:44
 				  :END:
 					- The `<think>...</think>` block is proceed before is markdown processed
 					- Inside processed `think` blocks, markdown is not processed, but other transformations:
@@ -795,6 +795,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Inception glitch case:
 						- `think` tags are not converted to `<div>`
 						- newlines are not converted to `<br />` outside, but converted inside `<pre>`?! 🤔
+					- The glitch has been resolved with the release of **Antigravity v1.18.4** (2026-02-20).
 				- Antigravity's use of the `<think>` tag
 				  collapsed:: true
 					- The use of the literal `<think>` tag within the Antigravity agentic workflow is primarily a function of the **interoperability** layer that connects the IDE to various model providers.
