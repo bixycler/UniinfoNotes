@@ -4185,7 +4185,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  CLOCK: [2026-02-23 Mon 13:53:07]
 							  CLOCK: [2026-02-23 Mon 13:53:09]
 							  :END:
-								- [[Uniinfo]] was split from [[Mind Jungle]] successfully at commits `43cb227b`...`448e2f4c`, with no ID problem.
+								- Background
+									- [[Uniinfo]] was split from [[Mind Jungle]] successfully at commits `43cb227b`...`448e2f4c`, with no ID problem.
+									- Due to the last sudden shutdown, today Logseq opened up with broken (stale) tabs (in the main edit pane) and blocks (in the right side panel).
+										- This has been a known bug from the beginning.
+										- So, i just closed them all and re-opened tabs and blocks.
 								- Today, after a search for `water scoop`... the matches in [[Uniinfo]] somehow cleared all block IDs there 😮🤔, which was auto-saved in commit `449c9135`!
 									- I reverted it with `git apply --reverse` in commit `a6baad46`.
 					- {{embed ((6716169c-ee4d-4124-84a2-d86c9c1d702e))}}
