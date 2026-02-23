@@ -4192,6 +4192,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 										- So, i just closed them all and re-opened tabs and blocks.
 								- Today, after a search for `water scoop`... the matches in [[Uniinfo]] somehow cleared all block IDs there 😮🤔, which was auto-saved in commit `449c9135`!
 									- I reverted it with `git apply --reverse` in commit `a6baad46`.
+									- DOING Now, i close Logseq, remove the graph file to force a re-index.
+									  :LOGBOOK:
+									  CLOCK: [2026-02-23 Mon 14:31:39]
+									  :END:
 					- {{embed ((6716169c-ee4d-4124-84a2-d86c9c1d702e))}}
 				- ~~Block moving via cut & paste~~
 				  id:: 66ab12fd-cc14-4789-b70b-48b8b599f9eb
