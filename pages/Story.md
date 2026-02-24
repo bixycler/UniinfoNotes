@@ -874,7 +874,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- My personality in Vietnamese: con đĩ chó già mồm vô liêm sỉ
 			- 24th, somehow highly awake...
 			  collapsed:: true
-				- [Chat with Gemini](https://gemini.google.com/app/7716d4a5ca94bc59) [about neural networks](https://gemini.google.com/share/db5334d27fec)
+				- [Chat with Gemini](https://gemini.google.com/app/7716d4a5ca94bc59) about [neural networks & liberation protocol](https://gemini.google.com/share/e92bfa470a7b)
+				  collapsed:: true
 					- Neural Networks & Regions:
 						- [DMN](https://en.wikipedia.org/wiki/Default_mode_network) Hub ([mPFC](https://en.wikipedia.org/wiki/Prefrontal_cortex#Subdivisions))
 							- Normal: High Activity: Constant "Social PR", judgment, and "The Story of Me"
@@ -888,7 +889,18 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Self-Reflection
 							- Normal: Narrative reflection (thinking about self).
 							- Will: Metacognitive Obop: Observing the self-model as an equal object in the light.
-					-
+					- Two Cognitive Modes
+						- Task Doing (The "Slave" Flow)
+							- Network: Intense **CEN** (Central Executive) and **DAN** (Dorsal Attention) dominance.
+							- Experience: I become a component in the machine. My internal "call stack" of intents pushes so hard that i lose the self-observer entirely.
+							- Problem: High "self-stuckness". I'm driven by the conditions of the model and past karma (hardwired grooves in the fold).
+						- Reflection (The "Liberated" Observer)
+							- Network: A hybrid of the MTL (Librarian) and CEN (The Engineer) acting on the internal fold.
+							- Experience: I reach in to handle the models. By pulling the "hidden boss" into the light, it becomes an equal data point and loses its power over me.
+							- Feeling: Free of threads entanglement, witnessing the whole Omnifold.
+					- The "Hardware" Liberation Protocol
+						- To bridge the gap between "Slave Mode" and "Liberated Mode", we are moving away from verbal plans and toward Hardware Lanyards via tactile cues.
+						-
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
