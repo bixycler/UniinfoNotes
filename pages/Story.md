@@ -876,15 +876,19 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- [Chat with Gemini](https://gemini.google.com/app/7716d4a5ca94bc59) [about neural networks](https://gemini.google.com/share/db5334d27fec)
 					- Neural Networks & Regions:
-						- Parietal Lobe
+						- [DMN](https://en.wikipedia.org/wiki/Default_mode_network) Hub ([mPFC](https://en.wikipedia.org/wiki/Prefrontal_cortex#Subdivisions))
+							- Normal: High Activity: Constant "Social PR", judgment, and "The Story of Me"
+							- Will: Quiet/Neutral: Prefers "it is what it is". Opinions are seen as structural noise.
+						- [Parietal Lobe](https://en.wikipedia.org/wiki/Parietal_lobe)
 							- Normal: Secondary to language.
-							- Will: Primary Workspace: Where your "inner hands" rotate haptic wireframes.
-						- Medial Temporal (MTL)
-							- Used for autobiographical memories (stories).
-							- The Librarian: Used for spatial indexing and retrieving Omnifold "files."
+							- Will: Primary Workspace: Where the "inner hands" rotate mental models.
+						- [Medial Temporal Lobe (MTL)](https://en.wikipedia.org/wiki/Temporal_lobe#Structure)
+							- Normal: Used for autobiographical memories (stories).
+							- Will: The Librarian: Used for spatial indexing and retrieving Omnifold "files".
 						- Self-Reflection
-							- Narrative reflection (thinking about self).
-							- Metacognitive Obop: Observing the self-model as an equal object in the light.
+							- Normal: Narrative reflection (thinking about self).
+							- Will: Metacognitive Obop: Observing the self-model as an equal object in the light.
+					-
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
