@@ -872,6 +872,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Even i have never got any intent to “correct” or “teach” anyone, because i don't think i'm higher than anyone, but my constant barking about my weird & seemingly “higher ideas” makes people feel that i'm giving lectures to them.
 					- I'm like a patient going to a doctor asking for treatment... but with my own remedy: i deny the remedy that the doctor gives me with his best knowledge, and ask for a remedy that he cannot give because it violates his medical ethics.
 					- My personality in Vietnamese: con đĩ chó già mồm vô liêm sỉ
+			- 24th, somehow highly awake...
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
