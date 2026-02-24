@@ -894,13 +894,19 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Network: Intense **CEN** (Central Executive) and **DAN** (Dorsal Attention) dominance.
 							- Experience: I become a component in the machine. My internal "call stack" of intents pushes so hard that i lose the self-observer entirely.
 							- Problem: High "self-stuckness". I'm driven by the conditions of the model and past karma (hardwired grooves in the fold).
-						- Reflection (The "Liberated" Observer)
-							- Network: A hybrid of the MTL (Librarian) and CEN (The Engineer) acting on the internal fold.
+						- [Reflection](((6889c11f-e881-432f-ba0f-876b61afc60c))) (The "Liberated" Observer)
+							- Network: A hybrid of the **MTL** (Librarian) and **CEN** (The Engineer) acting on the internal fold.
 							- Experience: I reach in to handle the models. By pulling the "hidden boss" into the light, it becomes an equal data point and loses its power over me.
 							- Feeling: Free of threads entanglement, witnessing the whole Omnifold.
 					- The "Hardware" Liberation Protocol
-						- To bridge the gap between "Slave Mode" and "Liberated Mode", we are moving away from verbal plans and toward Hardware Lanyards via tactile cues.
-						-
+						- To bridge the gap between "Slave Mode" and "Liberated Mode", i need to utilize "hardware lanyards" via tactile cues.
+							- Being a non-verbal thinker, the verbal planning and pre-conditioning is ineffective to me.
+						- Level 1: The Beaded Bracelet (Kinetic ((67cff615-ec0d-4831-9851-59410cb89cf1)))
+							- Action: "Praying" the beads, with closed-eye breathing.
+							- Goal: A rhythmic, low-load loop to clear "sticky" models before they freeze.
+						- Level 2: The Scar (System ((67445065-15b2-475e-a704-78f140d487af)))
+							- Action: Touching the sensitive upper arm scar, with closed-eye breathing.
+							- Goal: A "High-Priority Interrupt" to the Salience Network. The physical sensitivity snaps the "Subject" back to the present, breaking the grip of the call stack.
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
