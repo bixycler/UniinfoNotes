@@ -925,6 +925,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- To pull it closer, i've loaded the project in [throughout the time](((699d8d06-8317-448e-a274-c5ffb63483f4))), from the balcony standing to the meditation. Otherwise, it was too far away to reach.
 					- I'm getting more engaged with the project, but many meta-ideas are popping up about Corkei & uninet due to the friction in the object works (forgetting the details and takes time to load them).
 						- So, i stop, breathe, and feel the porous body of it to accept it instead of trying to fill it.
+						- This is one of my deep life... my holistic core prefer working/changing the meta layers which is closer to it 😁!
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
