@@ -875,6 +875,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 24th, somehow highly awake...
 			  collapsed:: true
 				- [Chat with Gemini](https://gemini.google.com/app/7716d4a5ca94bc59) about [neural networks & liberation protocol](https://gemini.google.com/share/e92bfa470a7b)
+				  id:: 699d7ba8-d0cb-4acc-9e1c-c156bb1e5579
 				  collapsed:: true
 					- Neural Networks & Regions:
 						- [DMN](https://en.wikipedia.org/wiki/Default_mode_network) Hub ([mPFC](https://en.wikipedia.org/wiki/Prefrontal_cortex#Subdivisions))
@@ -907,6 +908,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Level 2: The Scar (System ((67445065-15b2-475e-a704-78f140d487af)))
 							- Action: Touching the sensitive upper arm scar, with closed-eye breathing.
 							- Goal: A "High-Priority Interrupt" to the Salience Network. The physical sensitivity snaps the "Subject" back to the present, breaking the grip of the call stack.
+				- 2 PM, finished summarizing the ((699d7ba8-d0cb-4acc-9e1c-c156bb1e5579)), 
+				  then had a glance at the project of company, but immediately felt asleep.
+				- 5:30 PM, woke up, look at the project again but something prevented me to engage with it.
+					- I felt restless, wanted to go out for a walk.
+					- I walked out of the room, but then got to the balcony to stand instead.
+					- Finding the cause of such aversion
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
