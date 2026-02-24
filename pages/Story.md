@@ -875,6 +875,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 24th, somehow highly awake...
 			  collapsed:: true
 				- [Chat with Gemini](https://gemini.google.com/app/7716d4a5ca94bc59) [about neural networks](https://gemini.google.com/share/db5334d27fec)
+					- Neural Networks & Regions:
+						- Parietal Lobe
+							- Normal: Secondary to language.
+							- Will: Primary Workspace: Where your "inner hands" rotate haptic wireframes.
+						- Medial Temporal (MTL)
+							- Used for autobiographical memories (stories).
+							- The Librarian: Used for spatial indexing and retrieving Omnifold "files."
+						- Self-Reflection
+							- Narrative reflection (thinking about self).
+							- Metacognitive Obop: Observing the self-model as an equal object in the light.
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
