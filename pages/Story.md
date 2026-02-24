@@ -908,12 +908,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Level 2: The Scar (System ((67445065-15b2-475e-a704-78f140d487af)))
 							- Action: Touching the sensitive upper arm scar, with closed-eye breathing.
 							- Goal: A "High-Priority Interrupt" to the Salience Network. The physical sensitivity snaps the "Subject" back to the present, breaking the grip of the call stack.
-				- 2 PM, finished summarizing the ((699d7ba8-d0cb-4acc-9e1c-c156bb1e5579)), 
-				  then had a glance at the project of company, but immediately felt asleep.
+				- 2 PM, finished summarizing the [chat](((699d7ba8-d0cb-4acc-9e1c-c156bb1e5579))), then had a glance at the project of company, but immediately felt asleep.
 				- 5:30 PM, woke up, look at the project again but something prevented me to engage with it.
 					- I felt restless, wanted to go out for a walk.
 					- I walked out of the room, but then got to the balcony to stand instead.
-					- Finding the cause of such aversion
+					- Finding the cause of such aversion without success, i got back to the room to sit down and meditate.
+					- In meditation, i see that while people live on the surface, i live deep down the root.
+						- So, to reach the surface, i usually load a long stack of intents underneath.
+						- The “normal interaction” of my interface is just a mask hiding a tree of intents beneath.
+					- Right in that meditative space, i caught the intent to discuss this with chatbot which is prefered over diving into the official project, then let it go.
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
