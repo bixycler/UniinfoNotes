@@ -1839,13 +1839,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Remember to breathe!
 						- In the training, all actions should be done automatically without any intention.
 						- Training sessions should run alternately with actual working sessions.
-					- DOING “**Stop - Breath - Observe - Plan**”
+					- CANCELLED “**Stop - Breath - Observe - Plan**”
 					  id:: 67714c6b-68b6-4f73-b209-56f5f184c4d9
 					  :LOGBOOK:
 					  CLOCK: [2024-12-29 Sun 21:06:08]
 					  :END:
 						- This checkstop is required so that all hidden ones can be [exposed](((674c11d4-894a-46d1-b653-5e8148773d7a))).
-						- TODO Design ((6651adea-e1ed-4884-93eb-5ebd6086b62b)) as a **master plan**, with `/Deadline`, `/Scheduled`, and [query](https://discuss.logseq.com/t/query-to-list-task-by-priority-scheduled-deadline-in-the-near-future/24642) ...
+						- CANCELLED Design ((6651adea-e1ed-4884-93eb-5ebd6086b62b)) as a **master plan**, with `/Deadline`, `/Scheduled`, and [query](https://discuss.logseq.com/t/query-to-list-task-by-priority-scheduled-deadline-in-the-near-future/24642) ...
 						  id:: 67715d03-9dbc-42b0-8589-064396a9c52b
 						  collapsed:: true
 						  :LOGBOOK:
@@ -1938,6 +1938,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 										- and the AI podcaster of NotebookLM said
 										  > Matter planning is a really apt name.
 										  > Because it emphasizes that our tasks aren't isolated items on a to-do list. They're interconnected pieces of matter woven into the fabric of our lives.
+						- Complete failure!
+							- Reason: Planning (life programming) is ineffective to me due to my non-verbal thinking nature.
+							  id:: 699e6a05-0095-46dd-a179-0e4c634a41c2
 				- target reaching machinary
 				  id:: 684f9517-db29-4079-8674-09e0ffaff6ba
 					- Most of us are goal/target reaching machines with a built-in motivation to complete the circle.
@@ -3117,19 +3120,21 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									- **Anchoring**: Touching a reminder object, like a [mala lace](https://en.wikipedia.org/wiki/Japamala), hearing a sound, like a bell ring, or praying a mantra can help us to focus on the object and release other stuffs.
 									- **Visualization**: Recalling the calm and focus of the meditative state that we're used to can help us release other stuffs.
 								- Based on the experience & belief that _nothing is completely lost_, we can release them.
-					- DOING **Duck dive** is a serious problem!
+					- DONE **Duck dive** is a serious problem!
 					  id:: 67714850-43c0-4c7f-8b50-838e014b06e0
 					  :LOGBOOK:
-					  CLOCK: [2024-12-29 Sun 20:02:37]
+					  CLOCK: [2024-12-29 Sun 20:02:37]--[2026-02-25 Wed 10:14:22] =>  10142:11:45
 					  :END:
 						- I usually dive head-first, _without planning_, into the works and issues, which usually **branch off** into lots of new works and issues, hence quickly become a forest from the starting single seed.
 						- The [task & issue tracking steps](((66f7af1f-783e-489b-af9c-3ff01fc7d872))) are forgotten many times.
 						- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Beside tracking, i must deploy a **planning** step with ((67714c6b-68b6-4f73-b209-56f5f184c4d9)) method.
 						  id:: 67714aaf-1e7f-4312-9f3c-cb4f06e9b562
+						- ((699e6a05-0095-46dd-a179-0e4c634a41c2))
 					- **perfectionism**
 					  id:: 6678d594-9819-4624-abd6-d4ec62b3874f
 					  collapsed:: true
 						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6678d594-9819-4624-abd6-d4ec62b3874f)) is the requirement that my self must be smooth, full, round, coherent, unfragmented. This perfectionism can be resolved by penetrating its nature of ((699e56cd-b1d4-41fb-8e30-ec393a5db8e9)), and releasing the attachment via ((67b541d0-f477-4c3a-b444-fb522c3fdc4f)).
+						- In my case, the perfectionism is due to my ((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0)).
 						- First, let's [refine](((669a5162-19e1-4c52-8888-ab7cbfe275ec))) the large circle into smaller circles, thus they are still round & perfect circles but can be interleaved with other works.
 						  id:: 6677bc01-44ec-4e4a-aeed-d63996bc0c46
 							- ((66b1cfa4-369c-49ec-a461-cdda61633460))
