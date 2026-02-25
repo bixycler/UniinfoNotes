@@ -933,7 +933,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- Another vigilant sleep.
 				- ((699e702a-2eac-4fcf-8356-dbfbc8c54279))
-				- 46% think
+				- It's interesting that people usually think & dream in third-person perspective: [46% DMN-think in 3PP](https://pmc.ncbi.nlm.nih.gov/articles/PMC3793122/), [18% dream in 3PP](https://www.sciencedirect.com/science/article/abs/pii/S1053810023000843).
+				- My views, orderd in descending frequency
+					- 1PP: In the normal mode, i see the world in 1PP. I also recall memory in 1PP.
+					- 0PP: When self-observation & reflection, i directly experience the internal world, neither from outside nor from inside, hence in **zero-person perspective**.
+					- 3PP: Sometimes, i put myself in other's shoes to understand their view about me.
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
