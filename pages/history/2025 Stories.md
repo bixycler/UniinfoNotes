@@ -5289,7 +5289,7 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 			- Vô Danh thần tăng trong [Thiên Long Bát Bộ 2003 - Tập 34](https://youtu.be/2T_v4UjaABE)
 			- I saw the crutial key in my slavery is the **stack-based processing**.
 			  id:: 690b3f49-1419-4dc3-b61b-12890b9e04f9
-				- stack-based processing = order = hard constraint = caught up in action = ((6678d594-9819-4624-abd6-d4ec62b3874f))
+				- stack-based processing = order = hard constraint/intent = caught up in action = ((6678d594-9819-4624-abd6-d4ec62b3874f))
 					- top down arrow = cause flow: input data, invocation control
 					- bottom up arrow = effect flow: output data, returning control
 				- circle-based working = circular order = [equalization](((68871ce1-eb57-4be3-ad48-45af6ccb5d49)))

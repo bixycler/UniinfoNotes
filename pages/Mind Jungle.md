@@ -3210,6 +3210,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									- **Core**: This core is so hard and heavy, like the *singularity* of a black hole, that i see verything in this world is being pulled toward it, and all forces are returning force toward the core.
 								- This core may be a mental fixation, the result of karma accumulated throughout space and time, and usually the central point of attachment.
 								- This core is the internal form (intent), the perfect circle, the crystal self, the boss, the source of both my strengths and my weaknesses.
+								- Though perfect, the core is densly porous, hence [perfectly incomplete](((699e56cd-b1d4-41fb-8e30-ec393a5db8e9))).
 								- To be free, this core, as the hidden boss, should be detached!
 							- ⇒ Solution: Let's [sublimate](((668f5490-c223-4a8a-9cc4-0bd71af4c097))) that core to *restore the __[empty center](((684f9515-8f95-4004-8aa8-04a10d1ebf11)))__*, i.e. the [hurricane's eye](((681826ad-768c-4671-b575-0d9f8ca64c6b))) = ((66c8772a-9b29-45b0-b169-2fa847333e02)), so that it's free from any fixed point and can flow fluidly.
 							  id:: 681b4678-686a-4d99-9163-6f60e0b30d2c

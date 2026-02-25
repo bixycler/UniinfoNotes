@@ -838,7 +838,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- My ((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0)) = [God-image archetype](https://jungian.directory/dictionary/god-image/) in Jungian psychology
 				  id:: 699c0361-fa2e-42f9-9a98-ba4f929fd031
 					- It's perfect only thanks to its high abstraction.
-					- Zooming in, i see it's densely porous, the pores are so dense that they are invisible, hence perfectly imperfect! 🤪🫣
+					- Zooming in, i see it's densely porous, the pores are so dense that they are invisible, hence [perfectly imperfect](((699e56cd-b1d4-41fb-8e30-ec393a5db8e9)))! 🤪🫣
 					- The pores are what suck everything in, making everything change, hence the dynamics of the seemingly static circle image.
 					- The sucking pores make it a “black hole”, while the perfect circle makes it a “white hole”.
 			- 21st, focus on the present: ((699c0361-65ae-430a-ba7f-e19d06a94fcf))
