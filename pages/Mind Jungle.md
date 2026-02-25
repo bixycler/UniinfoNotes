@@ -1939,8 +1939,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 										  > Matter planning is a really apt name.
 										  > Because it emphasizes that our tasks aren't isolated items on a to-do list. They're interconnected pieces of matter woven into the fabric of our lives.
 						- Complete failure!
+							- The [planning](((6926be1c-549f-4657-9760-eed54a585661))) has been done in July 2025 and brought to trial from [July](((686b390a-7953-4069-9c04-17c7f9a777a7))) to [August](((688c70aa-8fdf-4cc8-aeb7-ffd47b86cee0))), and abandoned in [October](((68dc9f21-1057-4ac0-be4c-61c9010d7f78))) due to clear ineffectiveness.
 							- Reason: Planning (life programming) is ineffective to me due to my non-verbal thinking nature.
 							  id:: 699e6a05-0095-46dd-a179-0e4c634a41c2
+								- In my deep flow, there's no notion of time, only the present crushed by the heavy stack of intents. No program can be stored in th
 				- target reaching machinary
 				  id:: 684f9517-db29-4079-8674-09e0ffaff6ba
 					- Most of us are goal/target reaching machines with a built-in motivation to complete the circle.
