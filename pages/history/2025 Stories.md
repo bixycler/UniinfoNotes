@@ -1183,6 +1183,7 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 			- Lan:
 			  yup
 		- The dream
+		  id:: 699c0369-934a-4128-882d-a3329d1c5c17
 		  collapsed:: true
 			- Hãy tưởng tượng một nhánh thời gian rẽ ra một cõi "trong mơ" để ko bị lẫn lộn với thực tế tương lai ở ngoài đời sau này.
 			  Trong một cõi mơ, em có "tha tâm thông", là thần thông thấu biết tâm người, nên biết nỗi đau của chồng mình là gì, thấy nó có 3 phần giống của mình, tức phần "mất niềm tin", nhưng 7 phần còn lại là khác, VD "bị chê trách".
