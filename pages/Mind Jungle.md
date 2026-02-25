@@ -884,7 +884,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- empty center
 			  id:: 69086748-b6e9-47c0-810b-4a92f882d6bc
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66c8772a-9b29-45b0-b169-2fa847333e02))
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) is
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((69086748-b6e9-47c0-810b-4a92f882d6bc)) is modeled as [the eye of the cyclone](((684f9515-8f95-4004-8aa8-04a10d1ebf11))).
 			- Ātman (आत्मा, आत्मन्)
 			  id:: 66f27ac0-b0b1-4dec-b256-5f4ab57e1972
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66c8772a-9b29-45b0-b169-2fa847333e02))
@@ -3311,14 +3311,15 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- when it's too deep with analytics (differential), it's too abstract, lacking context, groundless, formless, messy, collapsed, the object is sliced into disconnected parts
 						- traversal on the breadth with SCIFER provides context, condition (duyên), and form to stretch the loop out to be a full circle 🌕, to be the whole
 						- However, ((67a5d140-31e4-451d-a8ea-33fa6927ce99))
-					- DOING **Solution**: Dismalting the intent stack by ((67b541d0-f477-4c3a-b444-fb522c3fdc4f)) and contemplating the ((699e56cd-b1d4-41fb-8e30-ec393a5db8e9)).
+					- DONE **Solution**: Dismalting the intent stack by ((67b541d0-f477-4c3a-b444-fb522c3fdc4f)) and contemplating the ((699e56cd-b1d4-41fb-8e30-ec393a5db8e9)).
 					  id:: 699e702a-2eac-4fcf-8356-dbfbc8c54279
 					  collapsed:: true
 					  :LOGBOOK:
-					  CLOCK: [2026-02-25 Wed 10:47:11]
+					  CLOCK: [2026-02-25 Wed 10:47:11]--[2026-02-25 Wed 11:42:45] =>  00:55:34
 					  :END:
 						- Structure of the form: ((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0)) → ((6678d594-9819-4624-abd6-d4ec62b3874f)) → [intent stack](((690b3f49-1419-4dc3-b61b-12890b9e04f9))) → ((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))
 						  id:: 699e6ed9-1f33-40db-bb6e-a50fdbda2fcc
+							- My intent stack is a special kind of ((68df2d82-e1d5-49c4-ac40-d45cf26f840c)).
 						- Mechanism of failure: Attachment to the form
 							- Due to it's perfection, the holistic core is clung to [as the God image](((699c0361-fa2e-42f9-9a98-ba4f929fd031))).
 							- That root attachement renders all intents hard, undetachable, leading to the intent stack.
