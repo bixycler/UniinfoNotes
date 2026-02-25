@@ -3126,10 +3126,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- The [task & issue tracking steps](((66f7af1f-783e-489b-af9c-3ff01fc7d872))) are forgotten many times.
 						- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Beside tracking, i must deploy a **planning** step with ((67714c6b-68b6-4f73-b209-56f5f184c4d9)) method.
 						  id:: 67714aaf-1e7f-4312-9f3c-cb4f06e9b562
-					- **Perfectionism**
+					- **perfectionism**
 					  id:: 6678d594-9819-4624-abd6-d4ec62b3874f
 					  collapsed:: true
-					  The requirement that my self must be smooth, full, round, coherent, unfragmented is the sign of perfectionism.
+						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6678d594-9819-4624-abd6-d4ec62b3874f)) is the requirement that my self must be smooth, full, round, coherent, unfragmented is the sign of perfectionism.
 						- First, let's [refine](((669a5162-19e1-4c52-8888-ab7cbfe275ec))) the large circle into smaller circles, thus they are still round & perfect circles but can be interleaved with other works.
 						  id:: 6677bc01-44ec-4e4a-aeed-d63996bc0c46
 							- ((66b1cfa4-369c-49ec-a461-cdda61633460))
@@ -3249,6 +3249,15 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 										  > Within the Western tradition, I think it's quite new, and quite shocking, because there's been much more of a sense of separation. But if you look at other non-Western cultures, especially in Asia, the emphasis on those has always been on the realization that the self and the world are not separate from each other, that they're really interconnected: that the individual self and the species as a whole is a manifestation of the large whole.
 										- Frank White
 										  > As you go into your mind in a contemplative way, the sense of the living reality of the planet becomes obvious, you become more in tune with the natural world. This is very akin to the direct perception that the astronauts have, so it's no wonder that many people have likened the Overview Effect to a spiritual or meditative experience, although it's not exactly that. It's a cognitive shift, that very often can produce a kind of meditative experience.
+						- **perfect incompleness**
+						  id:: 699e56cd-b1d4-41fb-8e30-ec393a5db8e9
+						  ((665359e4-4597-4775-b849-f9acbb98960a)) ((699e5754-ef30-4571-81fc-caecf7f7d245))
+							- perfect imperfection
+							  id:: 699e5754-ef30-4571-81fc-caecf7f7d245
+							  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((699e56cd-b1d4-41fb-8e30-ec393a5db8e9))
+							- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((699e56cd-b1d4-41fb-8e30-ec393a5db8e9)), or more ironically “the **perfect imperfection**”, is the densely porousness like the set of rational numbers.
+								- E.g.: [Gödel's incompleteness theorems](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems), [the set of rational numbers](https://en.wikipedia.org/wiki/Rational_number#Real_numbers_and_topological_properties), [wabi-sabi (侘び寂び)](https://en.wikipedia.org/wiki/Wabi-sabi), [rap song Perfect Imperfection](https://youtu.be/QWZpbrU1h9A)
+							-
 					- The deathtrap of opportunity
 					  id:: 68adb0c5-e979-475e-8432-730d9d8970bc
 						- From natural traps like cave, social traps like gambling, to man-made traps of animals and [feigned retreat](https://en.wikipedia.org/wiki/Feigned_retreat) tactic, all these traps have the same set of features.

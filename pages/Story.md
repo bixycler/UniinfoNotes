@@ -835,10 +835,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  
 				  — [Mahā-saccaka-sutta](https://suttacentral.net/mn36/en/horner)
 				- There's an interesting case of the balance between [“warm inside – cold outside”](https://share.google/aimode/n5nMdwmIFRcDIiG52) in the [Walk for Peace](https://en.wikipedia.org/wiki/Walk_for_Peace).
-				- My holistic core = God image archetype in Jungian psychology
+				- My ((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0)) = [God-image archetype](https://jungian.directory/dictionary/god-image/) in Jungian psychology
 				  id:: 699c0361-fa2e-42f9-9a98-ba4f929fd031
 					- It's perfect only thanks to its high abstraction.
-					- Zooming in, i see it's porous, the pores are so dense that they are invisible, hence perfectly imperfect! 🤪🫣
+					- Zooming in, i see it's densely porous, the pores are so dense that they are invisible, hence perfectly imperfect! 🤪🫣
 					- The pores are what suck everything in, making everything change, hence the dynamics of the seemingly static circle image.
 					- The sucking pores make it a “black hole”, while the perfect circle makes it a “white hole”.
 			- 21st, focus on the present: ((699c0361-65ae-430a-ba7f-e19d06a94fcf))
@@ -927,8 +927,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- So, i stop, breathe, and feel the porous body of it to accept it instead of trying to fill it.
 						- This is one of my deep life... my holistic core prefer working/changing the meta layers which is closer to it 😁!
 				- 8 PM, on the way home, i contemplated the porous body riddled with holes, and saw the incompleteness/imperfection is the spatial dual of the impermanence in Buddhism.
-				- The **perfect incompleteness**, or more ironically “the **perfect imperfection**”, is the densely porousness like the set of rational numbers.
-					- E.g.: [Gödel's incompleteness theorems](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems), [the set of rational numbers](https://en.wikipedia.org/wiki/Rational_number#Real_numbers_and_topological_properties), [wabi-sabi (侘び寂び)](https://en.wikipedia.org/wiki/Wabi-sabi), [rap song Perfect Imperfection](https://youtu.be/QWZpbrU1h9A)
+					- ⇒ ((699e56cd-b1d4-41fb-8e30-ec393a5db8e9))
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
