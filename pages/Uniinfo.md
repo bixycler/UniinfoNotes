@@ -3185,6 +3185,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 			  :END:
 			  “(Im)Balance is the ((677e76ed-b324-4608-b146-90e8fcfa0c32)) of all forces.”
 				- All forces are caused by the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) to cancel its imbalance, hence **restoring forces**.
+				  id:: 699c0362-5189-4cee-bcb5-84b6ff8574fe
 				- Intentional cause: imbalance is the first cause (op), and balance is the final cause (ob).
 				- This is the generalized version of the [law of entropy](https://en.wikipedia.org/wiki/Second_law_of_thermodynamics#Direction_of_spontaneous_processes).
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))

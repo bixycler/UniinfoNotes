@@ -817,6 +817,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Modified from [Hurricane-vi.svg](https://commons.wikimedia.org/wiki/File:Hurricane-vi.svg) < [Hurricane-en.svg](https://commons.wikimedia.org/wiki/File:Hurricane-en.svg)
 						  ![Hurricane-structure-self-eye-vi.png](../assets/Will/story/2024-09/Hurricane-structure-self-eye-vi.png)
 						- The storm's eye is used as a metaphor of the [Nirvāṇa](https://en.wikipedia.org/wiki/Nirvana) in the 3rd part “**Thức định** (định vào cái thức, absorption into the consciousness, 👁/=)” of the blog post [3 cấp độ Định](https://creatzynotes.blogspot.com/2021/03/3-cap-o-inh.html), similar to [a post by Michael Gerson](https://missionsixzero.com/the-eye-of-the-hurricane/).
+						  id:: 699c0360-ba1b-433e-8d29-dda494cb46a7
 		- ### sense of self
 		  id:: 67f9100a-b749-4354-ae16-92dc74ff27da
 		  collapsed:: true
@@ -883,6 +884,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- empty center
 			  id:: 69086748-b6e9-47c0-810b-4a92f882d6bc
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66c8772a-9b29-45b0-b169-2fa847333e02))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) is
 			- Ātman (आत्मा, आत्मन्)
 			  id:: 66f27ac0-b0b1-4dec-b256-5f4ab57e1972
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66c8772a-9b29-45b0-b169-2fa847333e02))
@@ -3321,8 +3323,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- Due to it's perfection, the holistic core is clung to [as the God image](((699c0361-fa2e-42f9-9a98-ba4f929fd031))).
 							- That root attachement renders all intents hard, undetachable, leading to the intent stack.
 						- Contemplating the holistic core, i see [it's perfection is but an illusion](((699c0361-ea57-4dbd-99d0-22c350e45c77))), hence a ((699e5754-ef30-4571-81fc-caecf7f7d245)).
-						- So, the true returning is not to stop at the holistic core, but to penetrate it through its pores to enter the ((69086748-b6e9-47c0-810b-4a92f882d6bc)).
-						- That empty center frees the intents from the strict order of the stack
+						- So, the true [returning](((699c0362-5189-4cee-bcb5-84b6ff8574fe))) is not to stop at the holistic core, but to penetrate it through its pores to enter the ((69086748-b6e9-47c0-810b-4a92f882d6bc)).
+							- In the [cyclone model](((673312a3-e94e-478f-9e21-bad72ef29d1b))), the holistic core is just the eyewall, and the empty center is the eye.
+						- That empty center frees the intents from the strict order of the stack, making them equal together.
 				- [!] The issue of love, i.e. emotional attachment
 				  id:: 67b541cf-323e-4efd-8d6e-ccb2c9d017ff
 				  collapsed:: true
