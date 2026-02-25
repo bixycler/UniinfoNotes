@@ -844,6 +844,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 21st, focus on the present: ((699c0361-65ae-430a-ba7f-e19d06a94fcf))
 			  collapsed:: true
 				- Attachment = illusion of perfect intent + [trypophobia](https://en.wikipedia.org/wiki/Trypophobia)
+				  id:: 699c0361-ea57-4dbd-99d0-22c350e45c77
 					- Decisive role of of the intentional cause caused by its illusional perfection
 						- As the first cause, the seed, it determines the whole effect circle.
 						- As the final cause, the goal, it sucks attention and energy into its “black hole”.

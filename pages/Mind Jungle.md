@@ -3315,8 +3315,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  :LOGBOOK:
 					  CLOCK: [2026-02-25 Wed 10:47:11]
 					  :END:
+						- ...
+						- [intent stack](((690b3f49-1419-4dc3-b61b-12890b9e04f9))) = ((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00)) 
+						  id:: 699e6ed9-1f33-40db-bb6e-a50fdbda2fcc
+						  ((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0)) → ((6678d594-9819-4624-abd6-d4ec62b3874f))
 						- ((690b3f49-1419-4dc3-b61b-12890b9e04f9))
 						- ((699c0361-fa2e-42f9-9a98-ba4f929fd031))
+						- ((699c0361-ea57-4dbd-99d0-22c350e45c77))
 				- [!] The issue of love, i.e. emotional attachment
 				  id:: 67b541cf-323e-4efd-8d6e-ccb2c9d017ff
 				  collapsed:: true
