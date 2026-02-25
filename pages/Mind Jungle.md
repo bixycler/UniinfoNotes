@@ -3315,14 +3315,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  :LOGBOOK:
 					  CLOCK: [2026-02-25 Wed 10:47:11]
 					  :END:
-						- ...
 						- Structure of the form: ((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0)) → ((6678d594-9819-4624-abd6-d4ec62b3874f)) → [intent stack](((690b3f49-1419-4dc3-b61b-12890b9e04f9))) → ((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))
 						  id:: 699e6ed9-1f33-40db-bb6e-a50fdbda2fcc
-						- Mechanism: Attachment to the form
+						- Mechanism of failure: Attachment to the form
 							- Due to it's perfection, the holistic core is clung to [as the God image](((699c0361-fa2e-42f9-9a98-ba4f929fd031))).
 							- That root attachement renders all intents hard, undetachable, leading to the intent stack.
-							-
-						- ((699c0361-ea57-4dbd-99d0-22c350e45c77))
+						- Contemplating the holistic core, i see [it's perfection is but an illusion](((699c0361-ea57-4dbd-99d0-22c350e45c77))), hence a ((699e5754-ef30-4571-81fc-caecf7f7d245)).
+						- So, the true returning is not to stop at the holistic core, but to penetrate it through its pores to enter the ((69086748-b6e9-47c0-810b-4a92f882d6bc)).
+						- That empty center frees the intents from the strict order of the stack
 				- [!] The issue of love, i.e. emotional attachment
 				  id:: 67b541cf-323e-4efd-8d6e-ccb2c9d017ff
 				  collapsed:: true
