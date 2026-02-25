@@ -3264,7 +3264,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- perfect imperfection
 							  id:: 699e5754-ef30-4571-81fc-caecf7f7d245
 							  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((699e56cd-b1d4-41fb-8e30-ec393a5db8e9))
-							- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((699e56cd-b1d4-41fb-8e30-ec393a5db8e9)), or more ironically “the ((699e5754-ef30-4571-81fc-caecf7f7d245))”, is the densely porousness, like the set of rational numbers, or a smooth mirror with “mountain ranges” under atomic force microscope (or actual pores of [porous glass](https://en.wikipedia.org/wiki/Porous_glass) under electron microscope), or a smooth skin with lots of tiny pores when looked up closed.
+							- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((699e56cd-b1d4-41fb-8e30-ec393a5db8e9)), or more ironically “the ((699e5754-ef30-4571-81fc-caecf7f7d245))”, is the densely [porousness](((6926be23-4a65-4138-8864-3e293fd37119))), like the set of rational numbers, or a smooth mirror with “mountain ranges” under atomic force microscope (or actual pores of [porous glass](https://en.wikipedia.org/wiki/Porous_glass) under electron microscope), or a smooth skin with lots of tiny pores when looked up closed.
 							- ((66725725-f76a-4328-b162-f469b87e871b)) [Gödel's incompleteness theorems](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems), [the set of rational numbers](https://en.wikipedia.org/wiki/Rational_number#Real_numbers_and_topological_properties), [wabi-sabi (侘び寂び)](https://en.wikipedia.org/wiki/Wabi-sabi), [rap song Perfect Imperfection](https://youtu.be/QWZpbrU1h9A)
 							-
 					- The deathtrap of opportunity
@@ -3318,7 +3318,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- ...
 						- Structure of the form: ((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0)) → ((6678d594-9819-4624-abd6-d4ec62b3874f)) → [intent stack](((690b3f49-1419-4dc3-b61b-12890b9e04f9))) → ((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))
 						  id:: 699e6ed9-1f33-40db-bb6e-a50fdbda2fcc
-						- ((699c0361-fa2e-42f9-9a98-ba4f929fd031))
+						- Mechanism: Attachment to the form
+							- Due to it's perfection, the holistic core is clung to [as the God image](((699c0361-fa2e-42f9-9a98-ba4f929fd031))).
+							- That root attachement renders all intents hard, undetachable, leading to the intent stack.
+							-
 						- ((699c0361-ea57-4dbd-99d0-22c350e45c77))
 				- [!] The issue of love, i.e. emotional attachment
 				  id:: 67b541cf-323e-4efd-8d6e-ccb2c9d017ff
