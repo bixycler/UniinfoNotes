@@ -873,9 +873,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Even i have never got any intent to “correct” or “teach” anyone, because i don't think i'm higher than anyone, but my constant barking about my weird & seemingly “higher ideas” makes people feel that i'm giving lectures to them.
 					- I'm like a patient going to a doctor asking for treatment... but with my own remedy: i deny the remedy that the doctor gives me with his best knowledge, and ask for a remedy that he cannot give because it violates his medical ethics.
 					- My personality in Vietnamese: con đĩ chó già mồm vô liêm sỉ
-			- 24th,
+			- 24th, perfect imperfection! 🤣
 			  collapsed:: true
-				- From midnight, somehow i was highly awake 🤔
+				- From midnight, somehow i was highly vigilant 🤔
 				- [Chat with Gemini](https://gemini.google.com/app/7716d4a5ca94bc59) about [neural networks & liberation protocol](https://gemini.google.com/share/e92bfa470a7b)
 				  id:: 699d7ba8-d0cb-4acc-9e1c-c156bb1e5579
 				  collapsed:: true
@@ -929,6 +929,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- This is one of my deep life... my holistic core prefer working/changing the meta layers which is closer to it 😁!
 				- 8 PM, on the way home, i contemplated the porous body riddled with holes, and saw the incompleteness/imperfection is the spatial dual of the impermanence in Buddhism.
 					- ⇒ ((699e56cd-b1d4-41fb-8e30-ec393a5db8e9))
+			- 25th, ...
+			  collapsed:: true
+				- Another vigilant sleep.
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
