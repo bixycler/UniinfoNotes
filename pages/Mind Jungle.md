@@ -3268,7 +3268,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((699e56cd-b1d4-41fb-8e30-ec393a5db8e9))
 							- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((699e56cd-b1d4-41fb-8e30-ec393a5db8e9)), or more ironically “the ((699e5754-ef30-4571-81fc-caecf7f7d245))”, is the densely [porousness](((6926be23-4a65-4138-8864-3e293fd37119))), like the set of rational numbers, or a smooth mirror with “mountain ranges” under atomic force microscope (or actual pores of [porous glass](https://en.wikipedia.org/wiki/Porous_glass) under electron microscope), or a smooth skin with lots of tiny pores when looked up closed.
 							- ((66725725-f76a-4328-b162-f469b87e871b)) [Gödel's incompleteness theorems](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems), [the set of rational numbers](https://en.wikipedia.org/wiki/Rational_number#Real_numbers_and_topological_properties), [wabi-sabi (侘び寂び)](https://en.wikipedia.org/wiki/Wabi-sabi), [rap song Perfect Imperfection](https://youtu.be/QWZpbrU1h9A)
-							-
+								- Atomic structure of glass under transmission electron microscope (from [David A. Muller](https://www.azom.com/article.aspx?ArticleID=10005))
+								  collapsed:: true
+									- ![Two-Dimensional Silica Glass on Graphene.webp](../assets/Will/story/2026-02/Two-Dimensional Silica Glass on Graphene.webp)
 					- The deathtrap of opportunity
 					  id:: 68adb0c5-e979-475e-8432-730d9d8970bc
 					  collapsed:: true
