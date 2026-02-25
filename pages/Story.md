@@ -937,6 +937,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- My views, orderd in descending frequency
 					- 1PP: In the normal mode, i see the world in 1PP. I also recall memory in 1PP.
 					- 0PP: When self-observation & reflection, i directly experience the internal world, neither from outside nor from inside, hence in **zero-person perspective**.
+						- This is tightly linked to my non-visual non-verbal thinking nature.
 					- 3PP: Sometimes, i put myself in other's shoes to understand their view about me.
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
