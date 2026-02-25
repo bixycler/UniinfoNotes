@@ -926,6 +926,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- I'm getting more engaged with the project, but many meta-ideas are popping up about Corkei & uninet due to the friction in the object works (forgetting the details and takes time to load them).
 						- So, i stop, breathe, and feel the porous body of it to accept it instead of trying to fill it.
 						- This is one of my deep life... my holistic core prefer working/changing the meta layers which is closer to it 😁!
+				- 8 PM, on the way home, i contemplated the porous body riddled with holes, and saw the incompleteness/imperfection is the spatial dual of the impermanence in Buddhism.
+				- The perfect incompleteness, or more ironically “the perfect imperfection”, is the densely porousness like the set of rational numbers.
+					- E.g.: [Gödel's incompleteness theorems](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems), [the set of rational numbers](https://en.wikipedia.org/wiki/Rational_number#Real_numbers_and_topological_properties), [wabi-sabi (侘び寂び)](https://en.wikipedia.org/wiki/Wabi-sabi), [rap song Perfect Imperfection](https://youtu.be/QWZpbrU1h9A)
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
