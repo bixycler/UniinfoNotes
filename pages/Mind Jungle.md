@@ -3129,7 +3129,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- **perfectionism**
 					  id:: 6678d594-9819-4624-abd6-d4ec62b3874f
 					  collapsed:: true
-						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6678d594-9819-4624-abd6-d4ec62b3874f)) is the requirement that my self must be smooth, full, round, coherent, unfragmented is the sign of perfectionism.
+						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6678d594-9819-4624-abd6-d4ec62b3874f)) is the requirement that my self must be smooth, full, round, coherent, unfragmented. This perfectionism can be resolved by penetrating its nature of ((699e56cd-b1d4-41fb-8e30-ec393a5db8e9)), and releasing the attachment via ((67b541d0-f477-4c3a-b444-fb522c3fdc4f)).
 						- First, let's [refine](((669a5162-19e1-4c52-8888-ab7cbfe275ec))) the large circle into smaller circles, thus they are still round & perfect circles but can be interleaved with other works.
 						  id:: 6677bc01-44ec-4e4a-aeed-d63996bc0c46
 							- ((66b1cfa4-369c-49ec-a461-cdda61633460))
@@ -3255,8 +3255,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- perfect imperfection
 							  id:: 699e5754-ef30-4571-81fc-caecf7f7d245
 							  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((699e56cd-b1d4-41fb-8e30-ec393a5db8e9))
-							- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((699e56cd-b1d4-41fb-8e30-ec393a5db8e9)), or more ironically “the **perfect imperfection**”, is the densely porousness like the set of rational numbers.
-								- E.g.: [Gödel's incompleteness theorems](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems), [the set of rational numbers](https://en.wikipedia.org/wiki/Rational_number#Real_numbers_and_topological_properties), [wabi-sabi (侘び寂び)](https://en.wikipedia.org/wiki/Wabi-sabi), [rap song Perfect Imperfection](https://youtu.be/QWZpbrU1h9A)
+							- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((699e56cd-b1d4-41fb-8e30-ec393a5db8e9)), or more ironically “the ((699e5754-ef30-4571-81fc-caecf7f7d245))”, is the densely porousness like the set of rational numbers, or a smooth skin with lots of tiny pores .
+							- ((66725725-f76a-4328-b162-f469b87e871b)) [Gödel's incompleteness theorems](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems), [the set of rational numbers](https://en.wikipedia.org/wiki/Rational_number#Real_numbers_and_topological_properties), [wabi-sabi (侘び寂び)](https://en.wikipedia.org/wiki/Wabi-sabi), [rap song Perfect Imperfection](https://youtu.be/QWZpbrU1h9A)
 							-
 					- The deathtrap of opportunity
 					  id:: 68adb0c5-e979-475e-8432-730d9d8970bc
