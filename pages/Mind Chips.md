@@ -1,1 +1,2 @@
 - 🤔 😁 😉 😮 😛 😜 🙁 😱 👺 ⇄
+- Intent stack = spring model ~ perfectionism ~ holistic core → resolve by
