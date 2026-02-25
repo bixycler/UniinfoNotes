@@ -3132,6 +3132,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Beside tracking, i must deploy a **planning** step with ((67714c6b-68b6-4f73-b209-56f5f184c4d9)) method.
 						  id:: 67714aaf-1e7f-4312-9f3c-cb4f06e9b562
 						- ((699e6a05-0095-46dd-a179-0e4c634a41c2))
+						- ⇒ ((699e702a-2eac-4fcf-8356-dbfbc8c54279))
 					- **perfectionism**
 					  id:: 6678d594-9819-4624-abd6-d4ec62b3874f
 					  collapsed:: true
@@ -3140,7 +3141,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- First, let's [refine](((669a5162-19e1-4c52-8888-ab7cbfe275ec))) the large circle into smaller circles, thus they are still round & perfect circles but can be interleaved with other works.
 						  id:: 6677bc01-44ec-4e4a-aeed-d63996bc0c46
 							- ((66b1cfa4-369c-49ec-a461-cdda61633460))
-						- The illusion of "finish soon"
+						- The illusion of “finish soon”
 						  id:: 669a58b9-1a52-4ad7-932a-9e45ecb9960e
 						  collapsed:: true
 							- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When we feel something is finishing soon, we concentrate more on it, put all of our effort to it to get it finished... until we're out of resource and recognize that it's still far from the finish line.
@@ -3268,6 +3269,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							-
 					- The deathtrap of opportunity
 					  id:: 68adb0c5-e979-475e-8432-730d9d8970bc
+					  collapsed:: true
 						- From natural traps like cave, social traps like gambling, to man-made traps of animals and [feigned retreat](https://en.wikipedia.org/wiki/Feigned_retreat) tactic, all these traps have the same set of features.
 						- Most of the works i'm trapped in, e.g. modeling the [twisted double i](((68a520c4-6a2e-4db9-8806-c4b4e55390e8))) from [19th](((68a520c4-b31e-4256-bdfd-3e6f249ea0b9))) to [25th](((68ac6971-f8ff-4cd1-9084-06b5f298d928))), are deathtraps of opportunity:
 							- ((669a58b9-1a52-4ad7-932a-9e45ecb9960e))
@@ -3307,6 +3309,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- when it's too deep with analytics (differential), it's too abstract, lacking context, groundless, formless, messy, collapsed, the object is sliced into disconnected parts
 						- traversal on the breadth with SCIFER provides context, condition (duyên), and form to stretch the loop out to be a full circle 🌕, to be the whole
 						- However, ((67a5d140-31e4-451d-a8ea-33fa6927ce99))
+					- DOING **Solution**: Dismalting the intent stack by ((67b541d0-f477-4c3a-b444-fb522c3fdc4f)) and contemplating the ((699e56cd-b1d4-41fb-8e30-ec393a5db8e9)).
+					  id:: 699e702a-2eac-4fcf-8356-dbfbc8c54279
+					  collapsed:: true
+					  :LOGBOOK:
+					  CLOCK: [2026-02-25 Wed 10:47:11]
+					  :END:
+						- ((690b3f49-1419-4dc3-b61b-12890b9e04f9))
+						- ((699c0361-fa2e-42f9-9a98-ba4f929fd031))
 				- [!] The issue of love, i.e. emotional attachment
 				  id:: 67b541cf-323e-4efd-8d6e-ccb2c9d017ff
 				  collapsed:: true
