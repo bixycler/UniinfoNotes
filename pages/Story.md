@@ -929,7 +929,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- This is one of my deep life... my holistic core prefer working/changing the meta layers which is closer to it 😁!
 				- 8 PM, on the way home, i contemplated the porous body riddled with holes, and saw the incompleteness/imperfection is the spatial dual of the impermanence in Buddhism.
 					- ⇒ ((699e56cd-b1d4-41fb-8e30-ec393a5db8e9))
-			- 25th, morning “hard intent → ((699e56cd-b1d4-41fb-8e30-ec393a5db8e9))”, afternoon  , no official work
+			- 25th, morning “hard intent → ((699e56cd-b1d4-41fb-8e30-ec393a5db8e9))”, afternoon zero-person perspective, evening ((699f9e0f-386f-4804-a06d-8af41000d294)), no official work
 			  collapsed:: true
 				- Another vigilant sleep.
 				- ((699e702a-2eac-4fcf-8356-dbfbc8c54279))
@@ -942,6 +942,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- This is a non-dualistic view, in constrast to the 3PP & 1PP with the dual of subject–object.
 						- 3PP: Sometimes, i put myself in others' shoes to understand their view about me.
 				- Levels of forms to close the pores, bridge the gaps
+				  id:: 699f9e0f-386f-4804-a06d-8af41000d294
 					- Different forms are used according to different given resource amount (magnitude of thread, budget) $s$.
 						- **cache** > **memory** (self-cache) > **evaluation** (external memory or computation result)
 						- These caches & memories are accumulated throughout history via statistics.
@@ -953,6 +954,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- $s_k < 0$: use the pore cache at level $s$.
 						- $s_k > 0$: ask the circle at this pore for evaluation given the resource $s_k$.
 					- [Chat with AI Mode](https://share.google/aimode/xQB4JxqEdh7bFF3mP)
+			- 26th, ...
+			  collapsed:: true
+				- Still vigilant but fuller sleep.
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
