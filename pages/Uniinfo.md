@@ -961,8 +961,17 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					- This experience brought him the vision of [building Corkei from top down with AI agents and the uninet will emerge from bottom up](((694a8ac0-cddc-4bcd-bdc1-dbfb9dcb04de))).
 				- ...
 			- AI agent
+			  collapsed:: true
 				- Developed with ((6926be21-727e-4568-a990-29ed81452fb0)).
-				- Knowledge base ce
+				- Developed based on knowledge base
+				  id:: 699fc54d-feeb-41f6-96cb-9c1b62476292
+					- The shift MCPs → skills → rule-based knowledge
+						- MCPs → skills: why MCP while the agent can write tools?!
+						- skills → rule-based knowledge: why skills while they are just pieces of knwledge?!
+						- The “out-of-the-box” MCPs & skills are convenient, but that very convenience can also lead to MCPs bloat & skills bloat!
+							- People install lots of stuff greedily which decreases the performance by context bloat and confusing the agent.
+						- The "Git-backed" knowledge base
+							- The knowledge graph in `docs/` and its indices in `.agent/rules/` are updated with the source code. So,
 	- ## Omnifold
 	  id:: 675c03d8-3185-41a8-9f98-e869fabec793
 	  collapsed:: true
