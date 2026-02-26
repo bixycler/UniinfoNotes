@@ -963,6 +963,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Each effect (change) must propagate to all places depending on it.
 						- The dependencies must be documented clearly, else some will be missed... surely.
 						- Even being very careful, i still missed notification for one merged branch, due to it being stale (orphan, without PIC) for a long time.
+					- The direction (top-down, bottom-up, peer-to-peer) is important.
+						- The separations of concerns, dependencies, and responsibilities are important.
+						- My previous attempt to cover duty of others failed.
+						  collapsed:: true
+							- I clean up a sharing branch. So i should re-merge the registered branches back.
+							- But some branches have merge conflicts.
+								- The conflict resolution is the duty of others.
+								- I cannot resolve because i have no knowledge of their domains.
+							- Mistake: I forced merging one way (`-X theirs`), thinking they can be simply overwritten like this. But in fact i was wrong, making the build system failed.
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
