@@ -954,7 +954,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- $s_k < 0$: use the pore cache at level $s$.
 						- $s_k > 0$: ask the circle at this pore for evaluation given the resource $s_k$.
 					- [Chat with AI Mode](https://share.google/aimode/xQB4JxqEdh7bFF3mP)
-			- 26th, ...
+			- 26th, the burden of knowledge base 😁
 			  collapsed:: true
 				- Still vigilant but fuller sleep.
 				- ((697b4547-9b65-4a96-b3d1-55245377c796)) is ((699fc54d-feeb-41f6-96cb-9c1b62476292))
@@ -968,6 +968,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- The documentation can be considered a “low-level” (automatic) work by the task executor.
 						- The trial-and-error nature of works makes the detailed in-the-cycle documentation seem redundant
 						  ⇒ People like to write down only the final result.
+						- This is what makes me slow like turtoi compared to others
 					- Each effect (change) must propagate to all places depending on it.
 						- The dependencies must be documented clearly, else some will be missed... surely.
 						- Even being very careful, i still missed notification for one merged branch, due to it being stale (orphan, without PIC) for a long time.
