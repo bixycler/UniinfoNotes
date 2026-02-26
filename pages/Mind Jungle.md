@@ -444,6 +444,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 										- ...
 										- `gnome-session-b`
 										- `gnome-terminal`
+					-
 				- small language model
 				  id:: 69844331-8a59-4aa6-8bbc-df54afb2cde1
 				  collapsed:: true

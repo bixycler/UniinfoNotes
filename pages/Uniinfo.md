@@ -960,6 +960,9 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 				- 2025 Oct 20th: The release of ((6926be21-727e-4568-a990-29ed81452fb0)) 2 days earlier made Will try the first agentic AI in his life.
 					- This experience brought him the vision of [building Corkei from top down with AI agents and the uninet will emerge from bottom up](((694a8ac0-cddc-4bcd-bdc1-dbfb9dcb04de))).
 				- ...
+			- AI agent
+				- Developed with ((6926be21-727e-4568-a990-29ed81452fb0)).
+				- Knowledge base ce
 	- ## Omnifold
 	  id:: 675c03d8-3185-41a8-9f98-e869fabec793
 	  collapsed:: true
