@@ -968,7 +968,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- The documentation can be considered a “low-level” (automatic) work by the task executor.
 						- The trial-and-error nature of works makes the detailed in-the-cycle documentation seem redundant
 						  ⇒ People like to write down only the final result.
-						- This is what makes me slow like turtoi compared to others
+						- This “debug mode” is what makes me slow like a tortoise compared to others, and also what makes me go astray (deep the rabit hole), and miss the requirements in official works.
 					- Each effect (change) must propagate to all places depending on it.
 						- The dependencies must be documented clearly, else some will be missed... surely.
 						- Even being very careful, i still missed notification for one merged branch, due to it being stale (orphan, without PIC) for a long time.
