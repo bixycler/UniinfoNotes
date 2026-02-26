@@ -961,6 +961,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Official work: cleaning up the sharing branch of deploy servers, i see lots of entanglement between tasks.
 				  id:: 69a012b1-31b1-48fa-9f14-b4587012f95c
 					- Each action (transition) should be annotated with reasons.
+						- People are very lazy in documentation, because of many reasons:
+							- The automatic unconcious is the main driver of work, which is fast and efficient, but it keeps people from knowing they why.
+							- Pulling the reasons from the unconcious to write down is much slower than
 					- Each effect (change) must propagate to all places depending on it.
 						- The dependencies must be documented clearly, else some will be missed... surely.
 						- Even being very careful, i still missed notification for one merged branch, due to it being stale (orphan, without PIC) for a long time.
