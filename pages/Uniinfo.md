@@ -971,7 +971,8 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 						- The “out-of-the-box” MCPs & skills are convenient, but that very convenience can also lead to MCPs bloat & skills bloat!
 							- People install lots of stuff greedily which decreases the performance by context bloat and confusing the agent.
 						- The "Git-backed" knowledge base
-							- The knowledge graph in `docs/` and its indices in `.agent/rules/` are updated with the source code. So,
+							- The knowledge graph in `docs/` and its indices in `.agent/rules/` are updated with the source code. So, we have different knowledge in different times, in different branches.
+							- Project-specific knowledges like lessons, workflows, designs are tightly coupled with the codes.
 	- ## Omnifold
 	  id:: 675c03d8-3185-41a8-9f98-e869fabec793
 	  collapsed:: true
