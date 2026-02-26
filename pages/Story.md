@@ -958,7 +958,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- Still vigilant but fuller sleep.
 				- ((697b4547-9b65-4a96-b3d1-55245377c796)) is ((699fc54d-feeb-41f6-96cb-9c1b62476292))
-				- Official work:
+				- Official work: cleaning up the sharing branch of deploy servers, i see lots of entanglement between tasks.
+					- Each action (transition) should be annotated with reasons.
+					- Each effect (change) must propagate to all places depending on it.
+						- The dependencies must be documented clearly, else some will be missed... surely.
+						- Even being very careful, i still missed notification for one merged branch, due to it being stale (orphan, without PIC) for a long time.
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
