@@ -881,35 +881,35 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  collapsed:: true
 					- Neural Networks & Regions:
 						- [DMN](https://en.wikipedia.org/wiki/Default_mode_network) Hub ([mPFC](https://en.wikipedia.org/wiki/Prefrontal_cortex#Subdivisions))
-							- Normal: High Activity: Constant "Social PR", judgment, and "The Story of Me"
-							- Will: Quiet/Neutral: Prefers "it is what it is". Opinions are seen as structural noise.
+							- Normal: High Activity: Constant “Social PR”, judgment, and “The Story of Me”
+							- Will: Quiet/Neutral: Prefers “it is what it is”. Opinions are seen as structural noise.
 						- [Parietal Lobe](https://en.wikipedia.org/wiki/Parietal_lobe)
 							- Normal: Secondary to language.
-							- Will: Primary Workspace: Where the "inner hands" rotate mental models.
+							- Will: Primary Workspace: Where the “inner hands” rotate mental models.
 						- [Medial Temporal Lobe (MTL)](https://en.wikipedia.org/wiki/Temporal_lobe#Structure)
 							- Normal: Used for autobiographical memories (stories).
-							- Will: The Librarian: Used for spatial indexing and retrieving Omnifold "files".
+							- Will: The Librarian: Used for spatial indexing and retrieving Omnifold “files”.
 						- Self-Reflection
 							- Normal: Narrative reflection (thinking about self).
 							- Will: Metacognitive Obop: Observing the self-model as an equal object in the light.
 					- Two Cognitive Modes
-						- Task Doing (The "Slave" Flow)
+						- Task Doing (The “Slave” Flow)
 							- Network: Intense **CEN** (Central Executive) and **DAN** (Dorsal Attention) dominance.
-							- Experience: I become a component in the machine. My internal "call stack" of intents pushes so hard that i lose the self-observer entirely.
-							- Problem: High "self-stuckness". I'm driven by the conditions of the model and past karma (hardwired grooves in the fold).
-						- [Reflection](((6889c11f-e881-432f-ba0f-876b61afc60c))) (The "Liberated" Observer)
+							- Experience: I become a component in the machine. My internal “call stack” of intents pushes so hard that i lose the self-observer entirely.
+							- Problem: High “self-stuckness”. I'm driven by the conditions of the model and past karma (hardwired grooves in the fold).
+						- [Reflection](((6889c11f-e881-432f-ba0f-876b61afc60c))) (The “Liberated” Observer)
 							- Network: A hybrid of the **MTL** (Librarian) and **CEN** (The Engineer) acting on the internal fold.
-							- Experience: I reach in to handle the models. By pulling the "hidden boss" into the light, it becomes an equal data point and loses its power over me.
+							- Experience: I reach in to handle the models. By pulling the “hidden boss” into the light, it becomes an equal data point and loses its power over me.
 							- Feeling: Free of threads entanglement, witnessing the whole Omnifold.
-					- The "Hardware" Liberation Protocol
-						- To bridge the gap between "Slave Mode" and "Liberated Mode", i need to utilize "hardware lanyards" via tactile cues.
+					- The “Hardware” Liberation Protocol
+						- To bridge the gap between “Slave Mode” and “Liberated Mode”, i need to utilize “hardware lanyards” via tactile cues.
 							- Being a non-verbal thinker, the verbal planning and pre-conditioning is ineffective to me.
 						- Level 1: The Beaded Bracelet (Kinetic ((67cff615-ec0d-4831-9851-59410cb89cf1)))
-							- Action: "Praying" the beads, with closed-eye breathing.
-							- Goal: A rhythmic, low-load loop to clear "sticky" models before they freeze.
+							- Action: “Praying” the beads, with closed-eye breathing.
+							- Goal: A rhythmic, low-load loop to clear “sticky” models before they freeze.
 						- Level 2: The Scar (System ((67445065-15b2-475e-a704-78f140d487af)))
 							- Action: Touching the sensitive upper arm scar, with closed-eye breathing.
-							- Goal: A "High-Priority Interrupt" to the Salience Network. The physical sensitivity snaps the "Subject" back to the present, breaking the grip of the call stack.
+							- Goal: A “High-Priority Interrupt” to the Salience Network. The physical sensitivity snaps the “Subject” back to the present, breaking the grip of the call stack.
 				- 2 PM, finished summarizing the [chat](((699d7ba8-d0cb-4acc-9e1c-c156bb1e5579))), then had a glance at the project of company, but immediately felt asleep.
 				- 5:30 PM, woke up, look at the project again but something prevented me to engage with it.
 				  id:: 699d8d06-8317-448e-a274-c5ffb63483f4
@@ -929,7 +929,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- This is one of my deep life... my holistic core prefer working/changing the meta layers which is closer to it 😁!
 				- 8 PM, on the way home, i contemplated the porous body riddled with holes, and saw the incompleteness/imperfection is the spatial dual of the impermanence in Buddhism.
 					- ⇒ ((699e56cd-b1d4-41fb-8e30-ec393a5db8e9))
-			- 25th, ...
+			- 25th, morning “hard intent → ((699e56cd-b1d4-41fb-8e30-ec393a5db8e9))”, afternoon  , no official work
 			  collapsed:: true
 				- Another vigilant sleep.
 				- ((699e702a-2eac-4fcf-8356-dbfbc8c54279))
