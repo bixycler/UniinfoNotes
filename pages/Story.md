@@ -862,7 +862,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Its whiteness is due to its intensity, abstraction,  presentative form of the whole.
 					- But as we inspect it closely, we can see it is densely porous, hence black hole.
 					- Pulling the stalk/root node in/down to be equal with all branching nodes, we reduce its urgency.
-					- Treat all pores equally, **trusting the form**, just like a smooth skin seen from distance.
+					- Treat all pores equally, **trusting the [form](((699f9e0f-386f-4804-a06d-8af41000d294)))**, just like a smooth skin seen from distance.
 					  id:: 699c0361-65ae-430a-ba7f-e19d06a94fcf
 						- The trust is based on the _crystallization of content_, hence not a blind belief.
 						- The awareness of the underlying pores keeps the circle dynamic, open to change, and continuously updated with new contents.
@@ -873,7 +873,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Even i have never got any intent to “correct” or “teach” anyone, because i don't think i'm higher than anyone, but my constant barking about my weird & seemingly “higher ideas” makes people feel that i'm giving lectures to them.
 					- I'm like a patient going to a doctor asking for treatment... but with my own remedy: i deny the remedy that the doctor gives me with his best knowledge, and ask for a remedy that he cannot give because it violates his medical ethics.
 					- My personality in Vietnamese: con đĩ chó già mồm vô liêm sỉ
-			- 24th, perfect imperfection! 🤣
+			- 24th, ((699e5754-ef30-4571-81fc-caecf7f7d245)) ! 🤣
 			  collapsed:: true
 				- From midnight, somehow i was highly vigilant 🤔
 				- [Chat with Gemini](https://gemini.google.com/app/7716d4a5ca94bc59) about [neural networks & liberation protocol](https://gemini.google.com/share/e92bfa470a7b)
