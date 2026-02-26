@@ -966,6 +966,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Pulling reasons from the unconcious to write down is too slow, and even interrupt people's train of thoughts.
 						- So, there should be various agents working together in different levels of abstraction.
 							- The documentation can be considered a “low-level” (automatic) work by the task executor.
+							- Automatic Why: The lower agent should reason about the action being done by the upper agent, and should ask the upper to clarify when the reason is ambiguous.
 						- The trial-and-error nature of works makes the detailed in-the-cycle documentation seem redundant
 						  ⇒ People like to write down only the final result.
 						- This “debug mode” is what makes me slow like a tortoise compared to others, and also what makes me go astray (deep the rabit hole), and miss the requirements in official works.
