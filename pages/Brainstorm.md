@@ -36,6 +36,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- West-North: **Analytic Thinking**: Breaking the world into discrete units and tasks to ensure the goal is reached.
 				- East-South: **Synthetic Thinking**: Sensing the field and the resonance of the moment to stay in flow with the environment.
 			- Proverb: “Success breeds Success” vs “Failure is the mother of Success”
+				- West:
+				- East: Chinese [“失敗乃成功之母”](https://baike.baidu.com/item/%E5%A4%B1%E6%95%97%E4%B9%83%E6%88%90%E5%8A%9F%E4%B9%8B%E6%AF%8D/3032748), and Vietnamese “Thất bại là mẹ Thành công”
 		- The full circle of artistic development: personal expression → calculated means with intention → transpersonal intension
 		  id:: 6969a3a1-27a2-40de-b62f-a29a95964b68
 		  collapsed:: true
