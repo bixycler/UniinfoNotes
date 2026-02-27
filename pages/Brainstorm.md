@@ -17,7 +17,12 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :LOGBOOK:
 		  CLOCK: [2026-02-27 Fri 10:26:00]
 		  :END:
-			-
+			- Landscape: Open Frontier vs Bounded Delta
+				- West: **The Open Frontier:** Flat, vast, and low-friction (e.g., [Great Plains](https://en.wikipedia.org/wiki/Great_Plains), [European Plain](https://en.wikipedia.org/wiki/European_Plain)). Encourages vector thinking and expansion.
+				- East: **The Bounded Delta:** High-friction, dense, and caged by mountains/water (e.g., [Mekong](https://en.wikipedia.org/wiki/Mekong), [Yangtze](https://en.wikipedia.org/wiki/Yangtze)). Encourages vortex thinking and optimization.
+			- Weather: Seasonal Sequencing vs Daily Frequency
+				- North (temperate zone): **Seasonal Sequencing:** Hard monthly markers. Survival depends on planning for a distant but harsh winter. Time is a scarce, one-way resource.
+				- South ([sub]tropical zone):
 		- The full circle of artistic development: personal expression → calculated means with intention → transpersonal intension
 		  id:: 6969a3a1-27a2-40de-b62f-a29a95964b68
 		  collapsed:: true
