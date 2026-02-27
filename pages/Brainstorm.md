@@ -29,7 +29,13 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Subsistence: Individualistic Wheat vs Collective Rice
 				- West: **Individualistic Wheat:** Can be grown in isolation. Success is a linear result of individual labor and winning against the land.
 				- East: **Collective Rice:** Requires shared irrigation and village harmony. Success is the maintenance of the social and ecological equilibrium.
-			- Life style: Linear Causality vs Cyclical
+			- Life Style: Linear Progression vs Cyclical Life
+				- West: **Linear Progression**: Positive Feedback. If you have the momentum of the Frontier and the Wheat, you must capitalize on it before Winter comes. Failure is a breakdown of the machine – a wasted segment of the limited timeline.
+				- East: **Cyclical Life**: Negative Feedback/Homeostasis. In a caged but fertile environment, you cannot leave your mistakes behind. You must compost them. Failure is just the low-tide of a cycle that inevitably returns.
+			- Cognitive Style: Analytic vs Synthetic
+				- West-North: **Analytic Thinking**: Breaking the world into discrete units and tasks to ensure the goal is reached.
+				- East-South: **Synthetic Thinking**: Sensing the field and the resonance of the moment to stay in flow with the environment.
+			- Proverb: “Success breeds Success” vs “Failure is the mother of Success”
 		- The full circle of artistic development: personal expression → calculated means with intention → transpersonal intension
 		  id:: 6969a3a1-27a2-40de-b62f-a29a95964b68
 		  collapsed:: true
