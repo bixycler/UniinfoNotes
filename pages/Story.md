@@ -991,7 +991,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  collapsed:: true
 					- Various kinds of slavery in the human history are just the projection of human's internal addictions onto the external world.
 					- History of slavery mapped with internal master → external master
-						- 1500s: **Greed** → The Crown / Gold: They weren't just looking for gold to buy things; they were addicted to the *status* and *dopamine hit* of sudden wealth. They were slaved to the idea of being more powerful than others.
+						- 1500s: **Greed** → The Crown / Gold: The Europeans weren't just looking for gold to buy things; they were addicted to the *status* and *dopamine hit* of sudden wealth. They were slaved to the idea of being more powerful than others, then reach out to enslave the Africans with the [transatlantic slave trade](https://eji.org/report/transatlantic-slave-trade/) (also called [Atlantic slave strade](https://en.wikipedia.org/wiki/Atlantic_slave_trade)).
 						- 1700s: **Cravings/Dopamine** → The Plantation / Sugar: Millions of people in Europe didn't need sugar to survive. But their brains craved the chemical rush. To feed that internal master, they built an external system of [literal chains for others](https://en.wikipedia.org/wiki/Slavery_in_the_United_States).
 						- 1900s: **Status/Power** → The Factory / Oil after Industrial Revolution: We became slaved to speed. We needed things faster, cheaper, and more abundant, which led to the exploitation of factory workers and the [Scramble for Africa](https://en.wikipedia.org/wiki/Scramble_for_Africa).
 						- 2000s: **Validation/Attention** → The Smartphone / Data:
