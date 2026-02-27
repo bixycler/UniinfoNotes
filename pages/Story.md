@@ -970,6 +970,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- The trial-and-error nature of works makes the detailed in-the-cycle documentation seem redundant
 						  ⇒ People like to write down only the final result.
 						- This “debug mode” is what makes me slow like a tortoise compared to others, and also what makes me go astray (deep the rabit hole), and miss the requirements in official works.
+							-
 					- Each effect (change) must propagate to all places depending on it.
 						- The dependencies must be documented clearly, else some will be missed... surely.
 						- Even being very careful, i still missed notification for one merged branch, due to it being stale (orphan, without PIC) for a long time.
@@ -983,6 +984,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- I cannot resolve because i have no knowledge of their domains.
 							- Mistake: I forced merging one way (`-X theirs`), thinking they can be simply overwritten like this. But in fact i was wrong, making the build system failed.
 				- The complexity of the [cleanup](((69a012b1-31b1-48fa-9f14-b4587012f95c))) today is what has given me the aversive impression to distant me from the task [earlier](((699d8d06-8317-448e-a274-c5ffb63483f4))).
+			- 27th, ...
+			  collapsed:: true
+				-
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
