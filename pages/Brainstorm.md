@@ -21,8 +21,15 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- West: **The Open Frontier:** Flat, vast, and low-friction (e.g., [Great Plains](https://en.wikipedia.org/wiki/Great_Plains), [European Plain](https://en.wikipedia.org/wiki/European_Plain)). Encourages vector thinking and expansion.
 				- East: **The Bounded Delta:** High-friction, dense, and caged by mountains/water (e.g., [Mekong](https://en.wikipedia.org/wiki/Mekong), [Yangtze](https://en.wikipedia.org/wiki/Yangtze)). Encourages vortex thinking and optimization.
 			- Weather: Seasonal Sequencing vs Daily Frequency
-				- North (temperate zone): **Seasonal Sequencing:** Hard monthly markers. Survival depends on planning for a distant but harsh winter. Time is a scarce, one-way resource.
-				- South ([sub]tropical zone):
+				- North (temperate zone): **Seasonal Sequencing:** Hard monthly markers. Survival depends on planning for a distant but harsh winter. Time is a limited, one-way resource.
+				- South ([sub]tropical zone): **Daily Frequency:** High-volatility; “whole year in a day”. Survival depends on sensing the immediate pulse. Time is an infinite, recurring loop.
+			- Water: Expansive Sea vs Circulative River
+				- West: **Expansive Sea:** The ocean is a highway to a destination. Navigation is a point-to-point calculation ($A → B$).
+				- East: **Circulative River:** The river is a seasonal pulse of life and silt. It flows, floods, and recedes in a predictable, vital rhythm.
+			- Subsistence: Individualistic Wheat vs Collective Rice
+				- West: **Individualistic Wheat:** Can be grown in isolation. Success is a linear result of individual labor and winning against the land.
+				- East: **Collective Rice:** Requires shared irrigation and village harmony. Success is the maintenance of the social and ecological equilibrium.
+			- Life style: Linear Causality vs Cyclical
 		- The full circle of artistic development: personal expression → calculated means with intention → transpersonal intension
 		  id:: 6969a3a1-27a2-40de-b62f-a29a95964b68
 		  collapsed:: true
