@@ -138,6 +138,16 @@ async function fetchFile(url, req, msg='Fetch'){
   return blob;
 }
 
+/** Copy `text` to clipboard */
+async function copyTextToClipboard(text) {
+  try {
+    await navigator.clipboard.writeText(text);
+    console.debug('Text copied to clipboard:', text);
+  } catch (err) {
+    console.error('Failed to copy text: ', err);
+  }
+}
+
 /** A.K.A. “smart quotes!”
  Replace:
  1. foo "some words" bar
@@ -147,12 +157,14 @@ async function fetchFile(url, req, msg='Fetch'){
  Don't replace:
  1. foo " spaced " bar
  2. foo"inword"baz
- 3. `foo "inline codes" bar`
- 4. ```foo "code blocks" bar```
- 5. <tag id="HTML">
+ 3. `code`'s possessive
+ // handled by function replaceQuotes(ln)
+ 4. `foo "inline codes" bar`
+ 5. ```foo "code blocks" bar```
+ 6. <tag id="HTML">
 */
+function replaceQuotesSimple(ln){
   const curlyQuote = { '"<':'“', '>"':'”',   "'<":"‘", ">'":"’" };
-function replaceQuotes(ln){
   let nln = '', li = 0, stack = [], L = ln.length-1, q;
   for(let i in ln){ i = Number(i);
     if(!(ln[i] in {"'":0, '"':1})){ continue; }
@@ -162,7 +174,9 @@ function replaceQuotes(ln){
     let rightSpace = i < L ? ln[i+1].match(/\s/) : true;
     let leftWord   = i > 0 ? ln[i-1].match(/\w/) : false;
     let rightWord  = i < L ? ln[i+1].match(/\w/) : false;
-    if(leftSpace && rightSpace || leftWord && rightWord){ // don't replace
+    let leftCode   = i > 0 ? ln[i-1].match(/`/) : false;
+    if(leftSpace && rightSpace || leftWord && rightWord || leftCode){ // don't replace (1,2,3)
+      //console.debug('NOT replaced:',q,i, stack, [li,ln]);
     }else if(stack.length==0 || stack[0]!=ln[i]){ // open quote
       stack.unshift(q); q = curlyQuote[q+'<'];
     }else{ // close quote
@@ -172,6 +186,27 @@ function replaceQuotes(ln){
     li = i+1;
   }
   nln += ln.slice(li);
+  return nln;
+}
+
+/** Process quotes outside of inline codes & HTML tags */
+function replaceQuotes(ln){
+  const patCI = /`([^`]+)`/; // inline codes
+  const patHtml = /<[^>]+>/; // HTML tag
+  const patCIHtmlAll = new RegExp(patCI.source+'|'+patHtml.source, 'g');
+
+  nln = ''; li = 0;
+  m = ln.matchAll(patCIHtmlAll);
+  m = m ? Array.from(m) : [];
+  m.push({index:ln.length, 0:''}); // add a "line-end match" for processing the trailing text
+  for(let mi of m){ let l = ln.slice(li,mi.index);
+    l = replaceQuotesSimple(l);
+    nln += l + mi[0];
+    li = mi.index + mi[0].length;
+    if(mi[0].length > 0){ // retain the last markup char of inline codes & HTML tags for replaceQuotesSimple() to recognize them
+      li--; nln = nln.slice(0,-1);
+    }
+  }
   return nln;
 }
 
@@ -215,3 +250,4 @@ function balancedBracketsRegexPattern(open='[', close=']', excludes='', depth=1,
   pattern = new RegExp(openBrackets + innermostPair + closeBrackets);
   return pattern;
 }
+

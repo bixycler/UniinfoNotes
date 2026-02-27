@@ -188,15 +188,7 @@ export default function MarkdownNormalizer(){
         }
 
         // process quotes outside of inline codes & HTML tags
-        ln = nln; nln = ''; li = 0;
-        m = ln.matchAll(patCIHtmlAll);
-        m = m ? Array.from(m) : [];
-        m.push({index:ln.length, 0:''}); // add a "line-end match" for processing the trailing text
-        for(let mi of m){ let l = ln.slice(li,mi.index);
-          l = replaceQuotes(l);
-          nln += l + mi[0];
-          li = mi.index + mi[0].length;
-        }
+        ln = nln; nln = replaceQuotes(ln);
       }
       nmd += nln+'\n';
     }

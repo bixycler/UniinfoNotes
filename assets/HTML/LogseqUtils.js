@@ -1,6 +1,6 @@
 
 /////// Global data
-const ApiEndpoint = 'http://127.0.0.1:12315/api';
+var LogseqApiEndpoint = 'http://127.0.0.1:12315/api';
 const RequestHeaders = {
    "Content-Type": "application/json",
    "Authorization": "Bearer Logseq-API-Test"
@@ -16,7 +16,7 @@ const RequestBody = {
 async function logseqQuery(reqBody, msgDom) {
     let res = null;
     try {
-        res = await fetch(ApiEndpoint, {method:'POST', headers:RequestHeaders,
+        res = await fetch(LogseqApiEndpoint, {method:'POST', headers:RequestHeaders,
             body: JSON.stringify(reqBody) });
     } catch (e) {
         console.debug('fetch(',reqBody,') error:',e);

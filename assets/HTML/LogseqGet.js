@@ -8,6 +8,7 @@ const getBlockCtrl = document.getElementById("getBlockCtrl");
 /////// Events
 getBlockId.addEventListener("input", (e)=>{getBlock(false)});
 getBlockRefetch.addEventListener("click", (e)=>{e.preventDefault(); getBlock(true);});
+logseqApiEndpoint.addEventListener("input", (e)=>{LogseqApiEndpoint = e.target.value; console.debug('*** LogseqApiEndpoint:',LogseqApiEndpoint);});
 
 //window.addEventListener("DOMContentLoaded", loadPage);
 
