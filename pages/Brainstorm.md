@@ -11,11 +11,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2026 Brainstorms
 	  id:: 6960e754-ff94-4e1a-8266-d9f15231b880
-		- DOING Western-Northern linearity versus Eastern-Southern cyclicality
+		- Western-Northern linearity (↑ ((667d15b7-6364-49a9-ac58-c64d2a992b63))) versus Eastern-Southern cyclicality (○ ((667d15c6-67c4-4998-a549-c8b3f9de3d60)))
 		  id:: 69a10eab-e9c0-44c4-ac8f-4155090715c8
 		  collapsed:: true
 		  :LOGBOOK:
-		  CLOCK: [2026-02-27 Fri 10:26:00]
+		  CLOCK: [2026-02-27 Fri 10:26:00]--[2026-02-27 Fri 11:20:58] =>  00:54:58
 		  :END:
 			- Landscape: Open Frontier vs Bounded Delta
 				- West: **The Open Frontier:** Flat, vast, and low-friction (e.g., [Great Plains](https://en.wikipedia.org/wiki/Great_Plains), [European Plain](https://en.wikipedia.org/wiki/European_Plain)). Encourages vector thinking and expansion.
@@ -36,8 +36,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- West-North: **Analytic Thinking**: Breaking the world into discrete units and tasks to ensure the goal is reached.
 				- East-South: **Synthetic Thinking**: Sensing the field and the resonance of the moment to stay in flow with the environment.
 			- Proverb: “Success breeds Success” vs “Failure is the mother of Success”
-				- West:
-				- East: Chinese [“失敗乃成功之母”](https://baike.baidu.com/item/%E5%A4%B1%E6%95%97%E4%B9%83%E6%88%90%E5%8A%9F%E4%B9%8B%E6%AF%8D/3032748), and Vietnamese “Thất bại là mẹ Thành công”
+				- West: “Success breeds Success” reflects the [physiological, psychological, and economic perspectives of momentum](https://www.sciencedirect.com/science/article/pii/S2667239123000102) called [Matthew Effect](https://en.wikipedia.org/wiki/Matthew_effect).
+				- East: The Chinese [“失敗乃成功之母”](https://baike.baidu.com/item/%E5%A4%B1%E6%95%97%E4%B9%83%E6%88%90%E5%8A%9F%E4%B9%8B%E6%AF%8D/3032748), and Vietnamese “Thất bại là mẹ Thành công” originate from the long history of flood control.
 		- The full circle of artistic development: personal expression → calculated means with intention → transpersonal intension
 		  id:: 6969a3a1-27a2-40de-b62f-a29a95964b68
 		  collapsed:: true
