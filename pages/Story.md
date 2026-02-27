@@ -984,7 +984,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- I cannot resolve because i have no knowledge of their domains.
 							- Mistake: I forced merging one way (`-X theirs`), thinking they can be simply overwritten like this. But in fact i was wrong, making the build system failed.
 				- The complexity of the [cleanup](((69a012b1-31b1-48fa-9f14-b4587012f95c))) today is what has given me the aversive impression to distant me from the task [earlier](((699d8d06-8317-448e-a274-c5ffb63483f4))).
-			- 27th, ...
+			- 27th, how easily i've got caught up...
 			  collapsed:: true
 				- ((69a10eab-e9c0-44c4-ac8f-4155090715c8))
 				- All kinds of slavery are root from the single slavery – **self-slavery**.
