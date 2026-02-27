@@ -996,14 +996,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- 1900s: **Status/Power** → The Factory / Oil: With the [2nd Industrial Revolution](https://en.wikipedia.org/wiki/Second_Industrial_Revolution), we became slaved to speed. We needed things faster, cheaper, and more abundant, which led to the exploitation of factory workers and the [Scramble for Africa](https://en.wikipedia.org/wiki/Scramble_for_Africa).
 						- 2000s: **Validation/Attention** → The Smartphone / Data: Today, we aren't chained by iron, but by **algorithms**. Instead of tobacco or sugar, we are addicted to “likes”, “views”, and “infinite scrolls”. And just like the old days, this internal addiction has an external cost: from children mining cobalt in the Congo for phone batteries, to the exploitation of underpaid workers in developing countries like [Kenya](https://www.aa.com.tr/en/africa/-continuation-of-slavery-and-colonialism-kenya-s-youth-face-exploitation-in-ai-sweatshops-/3666703), Philippines, India, Uganda, for “AI sweatshops”.
 					- The current ((697b4547-9b65-4a96-b3d1-55245377c796)) and the future ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)) are developed in order to help people liberate from themselves.
-						- [Mark Manson’s "Purpose" AI](https://www.youtube.com/watch?v=E0N-MO0eo2g) is designed to act as a “difficult” partner that forces users to confront their insecurities and psychological blocks rather than just providing “feel-good” validation.
+						- [Mark Manson’s Purpose AI](https://purpose.app/) is designed to act as a “difficult” partner that forces users to confront their insecurities and psychological blocks rather than just providing “feel-good” validation of the current AI trend.
 						  collapsed:: true
-							- to act as a "difficult" partner that forces users to confront their insecurities and psychological blocks rather than just providing "feel-good" validation.
-							  
-							  <!----><!----><!----><!----><!----><!---->
-							  
-							  <!----><!----><!----><!----><!----><!----><!----><!----><!---->
-							- {{video https://www.youtube.com/watch?v=E0N-MO0eo2g}}
+							- [YouTube](https://www.youtube.com/watch?v=E0N-MO0eo2g)
+							  {{video https://www.youtube.com/watch?v=E0N-MO0eo2g}}
+						- [Clare & Me](https://www.clareandme.com/): It uses therapeutic CBT protocols to help users identify and break recurring loops of anxiety and habit. It functions as a mirror for the user's internal state.
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
