@@ -3255,6 +3255,8 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 			- object → image: ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8))
 			- domain → range: mapping
 			- input → output: function, process
+			- old → new: ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342))
+			- past → future: ((68fa164e-ef0e-4010-937d-ad9e0459f5f2))
 	- ## circle
 	  id:: 667d15c6-67c4-4998-a549-c8b3f9de3d60
 	  collapsed:: true
