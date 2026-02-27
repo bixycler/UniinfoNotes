@@ -11,8 +11,16 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2026 Brainstorms
 	  id:: 6960e754-ff94-4e1a-8266-d9f15231b880
+		- DOING Western-Northern linearity versus Eastern-Southern cyclicality
+		  id:: 69a10eab-e9c0-44c4-ac8f-4155090715c8
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2026-02-27 Fri 10:26:00]
+		  :END:
+			-
 		- The full circle of artistic development: personal expression → calculated means with intention → transpersonal intension
 		  id:: 6969a3a1-27a2-40de-b62f-a29a95964b68
+		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2026-01-16 Fri 09:34:34]
 		  CLOCK: [2026-01-16 Fri 09:34:41]--[2026-01-16 Fri 11:21:51] =>  01:47:10
