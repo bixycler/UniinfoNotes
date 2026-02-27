@@ -987,6 +987,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 27th, ...
 			  collapsed:: true
 				- ((69a10eab-e9c0-44c4-ac8f-4155090715c8))
+				- All kinds of slavery are root from the single slavery – self-slavery.
+				  collapsed:: true
+					- Various kinds of slavery in the human history are just the projection of human's internal addictions onto the external world.
+					- History of slavery mapped with internal master → external master
+						- 1500s: **Greed** → The Crown / Gold:
+						- 1700s: **Cravings/Dopamine** → The Plantation / Sugar:
+						- 1900s: **Status/Power** → The Factory / Oil:
+						- 2000s: **Validation/Attention** → The Smartphone / Data:
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
