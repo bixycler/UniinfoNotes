@@ -1035,8 +1035,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  collapsed:: true
 					- The [first cause](((699c0362-eb81-42c5-843c-2559d2fe7b73))): gap, broken, missing, unknown, question, mismatch, problem, pain, suffering, the “negativity” in general.
 					- The [final cause](((699c0362-f864-4879-9a07-204b96472cb0))): whole, form, the “positivity” in general
-						- This is usually *fixed* which forms the **self**.
-					- The self: a fixed form of the whole, a permanent last cause
+						- This is usually *fixed* which forms the **self-attachment**.
+					- The clinging self: a fixed form of the whole, a permanent last cause
+						- The fixation: by fixing the self-image, the obop creates a permanent & unchangable “hidden boss” controlling every action from behind, hence the term “subject”.
 						- It is demonstrated in the Buddhist [“2 arrows” parable](https://suttacentral.net/sn36.6/en/sujato) by the second arrow of mental suffering and the detachment from it.
 					- Selfless, liberated functional effect circle is driven by _**dynamic** intentional causes_ in unlimited dimensions (levels of abstraction).
 						- The ((66600918-9f92-4730-b056-c2cd87a742aa)): There's always another higher dimension where it's free, vacant to escape the conflict by stepping out of the war zone.
