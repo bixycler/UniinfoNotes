@@ -1041,7 +1041,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- The fixation: by fixing the self-image, the obop creates a permanent & unchangable “hidden boss” controlling every action from behind, hence the term “subject”.
 						- The nonfunctional: Due to that fixation, whenver there are conflicts unsolvable by the hidden boss, it exessively consumes resources to wrestle, occupying valuable free space with nonfunctional and even dysfunctional energy.
 							- It usually foces the whole bodymind to wrestle in vain, creating destructive energy and actions, and only stops when all available resources are used up.
-								- That means it
+								- Its stop is forced by exhaustion, not voluntary.
 							- This is illustrated by the “2nd arrow” in the Buddhist [“2 arrows” parable](https://suttacentral.net/sn36.6/en/sujato).
 					- Selfless, liberated functional effect circle is driven by _**dynamic** intentional causes_ in unlimited dimensions (levels of abstraction).
 						- The ((66600918-9f92-4730-b056-c2cd87a742aa)): There's always another higher dimension where it's free, vacant to escape the conflict by stepping out of the war zone.
