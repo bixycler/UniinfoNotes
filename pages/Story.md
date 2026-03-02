@@ -1046,6 +1046,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- The ((66600918-9f92-4730-b056-c2cd87a742aa)): There's always another higher dimension where it's free, vacant to escape the conflict by stepping out of the war zone.
 						- The ((6653751a-a1b4-44b0-a81e-0a446eb8918c)): From that free stance, no self (fixation) is [controlling behind the eyes](((68a520bf-adba-4d78-9e3d-5f41de9f8153))), the obop is pure ((66e41e14-6c0c-41d7-9089-92916d47d7e0)), operating with ((669a3da2-1e6c-48bd-950f-af1ea1ceda25)).
 						- The feedback: That equanimous obop has _the intentional causes **change**_ by absorbing the conflicts of their effect circles.
+			- 2nd, ...
+			  collapsed:: true
+				-
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
