@@ -1027,11 +1027,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		- March journal
 		  id:: 69a50996-6fe3-4880-b16c-c5460b604868
 		  collapsed:: true
-			- 1st
+			- 1st, contemplate the ((69a502fe-1764-4e4d-85a4-ca0eff9c0754))
 			  collapsed:: true
 				- Chat with Google AI Mode about the ["salvation by faith alone" invitation by Jesus](https://share.google/aimode/XNuoqFj1qCS3fSW11)
 				- [Vietnam AI law takes effect](https://news.tuoitre.vn/vietnam-ai-law-takes-effect-first-in-southeast-asia-103260301084636216.htm) on March 1st, the 4th place after Korea (2026 Jan), EU (2024), and China (2022).
-				- ((677e76ed-b324-4608-b146-90e8fcfa0c32)) in ((667c0031-0a87-44c9-9e98-6d45893b095f))
+				- ((677e76ed-b324-4608-b146-90e8fcfa0c32)) in ((667c0031-0a87-44c9-9e98-6d45893b095f)) – its fixaton & relaxation
+				  id:: 69a502fe-1764-4e4d-85a4-ca0eff9c0754
 				  collapsed:: true
 					- The [first cause](((699c0362-eb81-42c5-843c-2559d2fe7b73))): gap, broken, missing, unknown, question, mismatch, problem, pain, suffering, the “negativity” in general.
 					- The [final cause](((699c0362-f864-4879-9a07-204b96472cb0))): whole, form, the “positivity” in general
