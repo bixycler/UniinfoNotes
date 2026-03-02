@@ -1002,8 +1002,28 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- [YouTube](https://www.youtube.com/watch?v=E0N-MO0eo2g)
 							  {{video https://www.youtube.com/watch?v=E0N-MO0eo2g}}
 						- [Clare & Me](https://www.clareandme.com/): It uses therapeutic CBT protocols to help users identify and break recurring loops of anxiety and habit. It functions as a mirror for the user's internal state.
-				- ((69a502fe-51f3-42e0-ba60-fff7a7df3a07))
-			- ...
+				- ((69a5068c-df84-4f76-92ca-9131897c80df))
+			- 28th, a dream of my dilemma
+			  collapsed:: true
+				- Previously i usually dreamt of not attending classes in university, but today my dream also included company work.
+				  collapsed:: true
+					- While most people dream of examination in cases of stress in life, i've never got it.
+					- Instead, i used to dream of being wondering “is it OK not to attend the classes?!” which reelects my tension of not doing official works.
+					- Today, i got further to wonder that guilty feeling: ” Maybe it's just a projection from the company work?!“
+					- But right after that, in the same dream, i saw that i was doing 3 parallel jobs: study at university (2nd year) + working at company + doing my personal project
+					- I reasoned:
+						- I must be full time in company, so cannot attend classes.
+						- Not going to classes but the last 2 years have proven it's still ok because i only need to take exams to prove my knowledge.
+						- But the 3 parallel jobs are too much for me.
+						- My dilemma is that they depend on each other:
+							- University degree is required for company work
+							- Company work is required to sustain my life to do my personal project
+							- My project is the driving force of my life.
+					- Couldn't resolve the dilemma, i simply woke up.
+					- Now, in waking state, i see clearly that the only way is just to let them flow, and focus on training detaching my intents.
+				- anusaya (hidden tendency) → intention (mental impulse) → speech → body
+					- like mechanics: potential → force → velocity → position
+					- I'm cutting the root of karma – the intent.
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((698440c6-2288-4a68-b3dd-31390a6384fe))
