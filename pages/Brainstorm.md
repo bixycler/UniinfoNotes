@@ -11,6 +11,15 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2026 Brainstorms
 	  id:: 6960e754-ff94-4e1a-8266-d9f15231b880
+		- 27th
+		  id:: 69a502fe-51f3-42e0-ba60-fff7a7df3a07
+		  collapsed:: true
+			- 1. Presentism (the Equal $=$): I don't think Einstein meant a block universe, but he is not alive to defend himself, so i'm not sure what he actually thought. Anyway, here's my take: Relativity only debunked the simultaneity, i.e. no "present everywhere", but only herenow. Time is inseparable from space, hence spacetime. So presentism is the reality of the **herenow**: your present can be my past or my future, not my present, hence "unreal" to me in the sense that it's not exactly true to me. And only my present (herenow) is exactly true to me (not to you). My herenow is not a point but a perspective (configuration) of the whole universe projected from my self.
+			- 2. Eternalism (the ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) ○): what is eternal? The eternal is the whole possibility space of the whole universe, not the 4D block universe which is just a wrong projection of the eternal info human imagination. That space has infinite dimensions, i call it the "Omnifold". The simplest expression is a hypercube with unit hypervolume 1 = 1×1×1×1×1×... (infinite dimensions). It contains all herenows not only throughout spacetime but also through all selves. The wavefunction of quantum trace the evolution of herenow following a single particle. Its unitarity is the eternal hypervolume.
+			- 3. Arrow of time (the ((667d15b7-6364-49a9-ac58-c64d2a992b63)) ↑):
+				- Present: When my self (compound particle) meets your self, my herenow mixes with your herenow resulting a common now with a little less "here" which we usually call "the present". That meeting is called "wavefunction collapse" in QM.
+				- Past: After the meeting, the common herenow is stored in both my self and your self, which both project out to be "the past". The past of 2 selves has 2 copies, the past of N selves has N copies, the more common, being observed by the more particles, the more copies it has, hence the lower entropy.
+				- Future: Looking forward to the next meeting, i can clearly see my future but not yours because we're separated, hence the future has only one copy, hence high entropy. Actually, the further the future, the the image resolution reduces under 1 exponentially, hence much higher entropy. The further the past, the image also reduces resolution but linearly, hence the impression of "fixedness".
 		- Western-Northern linearity (↑ ((667d15b7-6364-49a9-ac58-c64d2a992b63))) versus Eastern-Southern cyclicality (○ ((667d15c6-67c4-4998-a549-c8b3f9de3d60)))
 		  id:: 69a10eab-e9c0-44c4-ac8f-4155090715c8
 		  collapsed:: true
