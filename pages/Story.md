@@ -1038,7 +1038,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- This is usually *fixed* which forms the **self-attachment**.
 					- The clinging self: a fixed form of the whole, a permanent last cause
 						- The fixation: by fixing the self-image, the obop creates a permanent & unchangable “hidden boss” controlling every action from behind, hence the term “subject”.
-						- Due to that fixation, whenver there are conflicts unsolvable by the hidden boss, it foces the whole bodymind to wrestle in vain, creating nonfunctional & dysfunctional actions, which is illustrated by the “2nd arrow” in the Buddhist [“2 arrows” parable](https://suttacentral.net/sn36.6/en/sujato).
+						- Due to that fixation, whenver there are conflicts unsolvable by the hidden boss, it exessively consumes resources to wrestle
+							- it foces the whole bodymind to wrestle in vain, creating nonfunctional & dysfunctional actions,
+							- This is illustrated by the “2nd arrow” in the Buddhist [“2 arrows” parable](https://suttacentral.net/sn36.6/en/sujato).
 					- Selfless, liberated functional effect circle is driven by _**dynamic** intentional causes_ in unlimited dimensions (levels of abstraction).
 						- The ((66600918-9f92-4730-b056-c2cd87a742aa)): There's always another higher dimension where it's free, vacant to escape the conflict by stepping out of the war zone.
 						- The ((6653751a-a1b4-44b0-a81e-0a446eb8918c)): From that free stance, no self (fixation) is [controlling behind the eyes](((68a520bf-adba-4d78-9e3d-5f41de9f8153))), the obop is pure ((66e41e14-6c0c-41d7-9089-92916d47d7e0)), operating with ((669a3da2-1e6c-48bd-950f-af1ea1ceda25)).
