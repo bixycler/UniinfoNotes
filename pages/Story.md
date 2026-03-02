@@ -1024,8 +1024,25 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- anusaya (hidden tendency) → intention (mental impulse) → speech → body
 					- like mechanics: potential → force → velocity → position
 					- I'm cutting the root of karma – the intent.
+		- March journal
+		  id:: 69a50996-6fe3-4880-b16c-c5460b604868
+		  collapsed:: true
+			- 1st
+			  collapsed:: true
+				- Chat with Google AI Mode about the ["salvation by faith alone" invitation by Jesus](https://share.google/aimode/XNuoqFj1qCS3fSW11)
+				- [Vietnam AI law takes effect](https://news.tuoitre.vn/vietnam-ai-law-takes-effect-first-in-southeast-asia-103260301084636216.htm) on March 1st, the 4th place after Korea (2026 Jan), EU (2024), and China (2022).
+				- ((677e76ed-b324-4608-b146-90e8fcfa0c32)) in ((667c0031-0a87-44c9-9e98-6d45893b095f))
+				  collapsed:: true
+					- The [first cause](((699c0362-eb81-42c5-843c-2559d2fe7b73))): gap, broken, missing, unknown, question, mismatch, problem, pain, suffering, the “negativity” in general.
+					- The [final cause](((699c0362-f864-4879-9a07-204b96472cb0))): whole, form, the “positivity” in general
+						- This is usually *fixed* which forms the **self**.
+					- The self: a fixed form of the whole, a permanent last cause
+					- Selfless, liberated functional effect circle is driven by dynamic intentional causes in unlimited dimensions (levels of abstraction).
+						- There's always another higher dimension where it's free, vacant to absorb changes.
+						- It is demonstrated in the Buddhist [“2 arrows” parable](https://suttacentral.net/sn36.6/en/sujato) by the second arrow of mental suffering and the detachment from it.
+			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
-		- ((698440c6-2288-4a68-b3dd-31390a6384fe))
+		- ((69a50996-6fe3-4880-b16c-c5460b604868))
 		- ...
 		  id:: 688c70c8-1772-4007-bdf0-d621db895411

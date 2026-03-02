@@ -2078,7 +2078,6 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 				  id:: 68f5a6d2-8148-4975-b3cb-799fe37a3d72
 					- This circular dependency is shown by the spirorus which is the structure of spacetime.
 				- ((667bf36a-581a-4abe-b544-2d849608a3e4)) is the characteristic of [cybernetics](https://en.wikipedia.org/wiki/Cybernetics).
-				-
 			- ### change
 			  id:: 667c008f-cd1f-4a6b-a9c8-d6efa1d8d342
 			  collapsed:: true
@@ -2091,6 +2090,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 				  id:: 684f9517-30d7-40e6-b93f-3386123e381c
 			- ### intentional cause
 			  id:: 677e76ed-b324-4608-b146-90e8fcfa0c32
+			  collapsed:: true
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((677e76ed-b324-4608-b146-90e8fcfa0c32)) is the ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)) of the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) of the ((667c0031-0a87-44c9-9e98-6d45893b095f)). As the first cause (source), it's the operator driving the effect flow, and as the final cause (sink), it's the observer qualifying the ((669a1bec-3347-4915-83e4-dcffc4d482d1)) of the effect circle.
 					- Diagram
 					  collapsed:: true
@@ -2119,9 +2119,11 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					  CLOCK: [2025-08-17 Sun 20:22:03]
 					  :END:
 						- First cause: The problem/question is the gap in the circle, the absence of the result/answer.
+						  id:: 699c0362-eb81-42c5-843c-2559d2fe7b73
 							- This absence breaks the circle, leading to the urge to heal it, to make it complete by finding solution/answer.
 						- View cone projects the process of resolution (quest, solving, working out, reasoning, proof, derivation, exploration, etc.), i.e. know-how (efficient cause), to the result/answer (know-where, know-what, formal cause).
 						- Final cause: The verification/qualification of the solution/answer closes the effect circle.
+						  id:: 699c0362-f864-4879-9a07-204b96472cb0
 							- ((6667c99a-792f-4230-9fc6-c5fae874daef)): As long as there's still gaps, mismatch, imbalance, unknown, inequality, and so on, there's still motion – transition of effect circle – toward balance, the final target.
 							- The “final cause” in [4 causes by Aristotle](https://en.wikipedia.org/wiki/Four_causes) corresponds to this half of the intentional cause.
 						- ⇒ The intentional cause is “final” in the ((667bda02-8dc9-488e-ba16-ea75c3d7895c)), but “first” in the ((667bd93a-cce4-4dbf-9831-725e4dffe463)).
