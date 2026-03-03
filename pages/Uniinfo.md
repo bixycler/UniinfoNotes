@@ -2112,6 +2112,27 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 						- The statement that “the first cause is also the final cause” is similar to [Aquinas' 5th Way](https://en.wikipedia.org/wiki/Five_Ways_(Aquinas)#Fifth_way:_Argument_from_Final_Cause_or_Ends), but for the immanent God – the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) – instead of a transcendent God.
 						  id:: 692d69f0-ff24-4d71-a95c-2e27ebb28c7d
 							- ((6667c99a-792f-4230-9fc6-c5fae874daef)) = Return to God (exitus–reditus) = ((c96a6d20-a0f6-48bd-9d70-9bc00b6b3c69))
+					- ((677e76ed-b324-4608-b146-90e8fcfa0c32)) in ((667c0031-0a87-44c9-9e98-6d45893b095f)) – its fixaton & relaxation
+					  id:: 69a502fe-1764-4e4d-85a4-ca0eff9c0754
+					  collapsed:: true
+						- The [first cause](((699c0362-eb81-42c5-843c-2559d2fe7b73))): gap, broken, error, missing, unknown, question, mismatch, problem, pain, suffering, failure, the “negativity” in general.
+						- The [final cause](((699c0362-f864-4879-9a07-204b96472cb0))): whole, form, the “positivity” in general
+							- This is usually *fixed* which forms the **self-attachment**.
+						- The clinging self: a fixed form of the whole, a permanent last cause
+							- The fixation: by fixing the self-image, the obop creates a permanent & unchangable “hidden boss” controlling every action from behind, hence the term “subject”.
+							- The nonfunctional: Due to that fixation, whenver there are conflicts unsolvable by the hidden boss, it exessively consumes resources to wrestle, occupying valuable free space with nonfunctional and even dysfunctional energy.
+								- It usually foces the whole bodymind to wrestle in vain, creating destructive energy and actions, and only stops when all available resources are used up.
+									- Its stop is forced by exhaustion, not voluntary.
+								- This is illustrated by the “2nd arrow” in the Buddhist [“2 arrows” parable](https://suttacentral.net/sn36.6/en/sujato).
+						- Selfless, liberated functional effect circle is driven by _**dynamic** intentional causes_ in unlimited dimensions (levels of abstraction).
+							- The ((66600918-9f92-4730-b056-c2cd87a742aa)): There's always another higher dimension where it's free, vacant to escape the conflict by stepping out of the war zone.
+							- The ((6653751a-a1b4-44b0-a81e-0a446eb8918c)): From that free stance, no self (fixation) is [controlling behind the eyes](((68a520bf-adba-4d78-9e3d-5f41de9f8153))), the obop is pure ((66e41e14-6c0c-41d7-9089-92916d47d7e0)), operating with ((669a3da2-1e6c-48bd-950f-af1ea1ceda25)).
+							- The feedback: That equanimous obop makes _the intentional causes **change**_ by absorbing the conflicts of their effect circles.
+							  id:: 69a50c8a-484e-45e0-bb2e-99b168f363e8
+								- The unsolvable conflict is just a meta-error for the intent itself to change (refine).
+								- The normal error (solvable problem) has both ways of effect:
+									- Feedforward from intent to effect circle to solve it
+									- Feedback from the effect flow to update intent's meta like probability.
 					- ((677e76ed-b324-4608-b146-90e8fcfa0c32)) in knowledge circle = intent (know-why) = arrow returning to the root obop = qualifier = verifier = complement of the result/answer of the problem/question (know-where, know-what, formal cause)
 					  id:: 68a7e246-8407-4e89-b393-912db172e4fe
 					  collapsed:: true
