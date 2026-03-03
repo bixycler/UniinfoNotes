@@ -1034,7 +1034,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- ((677e76ed-b324-4608-b146-90e8fcfa0c32)) in ((667c0031-0a87-44c9-9e98-6d45893b095f)) – its fixaton & relaxation
 				  id:: 69a502fe-1764-4e4d-85a4-ca0eff9c0754
 				  collapsed:: true
-					- The [first cause](((699c0362-eb81-42c5-843c-2559d2fe7b73))): gap, broken, missing, unknown, question, mismatch, problem, pain, suffering, the “negativity” in general.
+					- The [first cause](((699c0362-eb81-42c5-843c-2559d2fe7b73))): gap, broken, error, missing, unknown, question, mismatch, problem, pain, suffering, failure, the “negativity” in general.
 					- The [final cause](((699c0362-f864-4879-9a07-204b96472cb0))): whole, form, the “positivity” in general
 						- This is usually *fixed* which forms the **self-attachment**.
 					- The clinging self: a fixed form of the whole, a permanent last cause
@@ -1046,12 +1046,17 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Selfless, liberated functional effect circle is driven by _**dynamic** intentional causes_ in unlimited dimensions (levels of abstraction).
 						- The ((66600918-9f92-4730-b056-c2cd87a742aa)): There's always another higher dimension where it's free, vacant to escape the conflict by stepping out of the war zone.
 						- The ((6653751a-a1b4-44b0-a81e-0a446eb8918c)): From that free stance, no self (fixation) is [controlling behind the eyes](((68a520bf-adba-4d78-9e3d-5f41de9f8153))), the obop is pure ((66e41e14-6c0c-41d7-9089-92916d47d7e0)), operating with ((669a3da2-1e6c-48bd-950f-af1ea1ceda25)).
-						- The feedback: That equanimous obop has _the intentional causes **change**_ by absorbing the conflicts of their effect circles.
+						- The feedback: That equanimous obop makes _the intentional causes **change**_ by absorbing the conflicts of their effect circles.
+						  id:: 69a50c8a-484e-45e0-bb2e-99b168f363e8
+							- The unsolvable conflict is just a meta-error for the intent itself to change (refine).
+							- The normal error (solvable problem) has both ways of effect:
+								- Feedforward from intent to effect circle to solve it
+								- Feedback from the effect flow to update intent's meta like probability.
 			- 2nd, eventually finished the remaining task (`pre-deploy`) in the compary.
 			- 3rd, ...
 			  collapsed:: true
 				- Continue the ((69a502fe-1764-4e4d-85a4-ca0eff9c0754))
-					- The unsolvable conflict
+					- [Feedback](((69a50c8a-484e-45e0-bb2e-99b168f363e8))) from both
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
