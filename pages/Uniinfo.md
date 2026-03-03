@@ -2115,7 +2115,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					- ((677e76ed-b324-4608-b146-90e8fcfa0c32)) in ((667c0031-0a87-44c9-9e98-6d45893b095f)) – its fixaton & relaxation
 					  id:: 69a502fe-1764-4e4d-85a4-ca0eff9c0754
 					  collapsed:: true
-						- The [first cause](((699c0362-eb81-42c5-843c-2559d2fe7b73))): gap, broken, error, missing, unknown, question, mismatch, problem, pain, suffering, failure, the “negativity” in general.
+						- The [first cause](((699c0362-eb81-42c5-843c-2559d2fe7b73))): gap, broken, error, missing, unknown, question, mismatch, problem, pain, suffering, failure, the “negativity” in general
 						- The [final cause](((699c0362-f864-4879-9a07-204b96472cb0))): whole, form, the “positivity” in general
 							- This is usually *fixed* which forms the **self-attachment**.
 						- The clinging self: a fixed form of the whole, a permanent last cause
