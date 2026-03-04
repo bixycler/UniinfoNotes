@@ -1039,8 +1039,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- Form = distribution of content ⇒ intent ⇒ extent = distance in form space
 				- Content = distance in content space
+				- Viewcone = transformation arrow = function of distribution
 				- Old world forms →[viewcone+history]→ layers of self-forms
 				- Current world forms →[viewcone + attent + self-forms]→ matched self-forms = self-state = intents
+				- State's distance from center (balance point, center of mass) = error → restoration intention
 				-
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
