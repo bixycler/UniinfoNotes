@@ -5302,6 +5302,7 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 						- > “Turn” counts as stillness in motion.
 						- “Turn” is densely open just like the set of rational numbers on the real line.
 						  id:: 699c0368-d2f5-41b4-b121-b6d8053a03fa
+						- Each turn is a cycle of in-do-out for a circle
 					- Each pore is a window to another circle, either a downward branch or an upward stalk: question, problem, task, function (interface).
 					- My ((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0)) makes me a beaver always looking/listening for spores to investigate and patch them.
 						- But it can never be completely closed, because of its porous nature, i.e. ((699e56cd-b1d4-41fb-8e30-ec393a5db8e9)).
