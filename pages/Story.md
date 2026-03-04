@@ -1061,7 +1061,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- The Latin “principiī” similarly meant “the principle” or “the foundation”.
 							- In old English logic, the “question” didn't mean a query ending in a question mark; it meant “the matter under debate”.
 					- It's best *not to use* the mistranslation “begging the question” of the fallacy.
-					- But if some one insists on
+					- But if some one insists on this old name, it can to be interpreted like this: Because the premise is obvious (given without proof), asking questions about the conclusion is unecessary, but the author insists the audience to question it.
+						- E.g.: Many authors claims that everything in the Bible is true. That begs the question: How do we know? Because it was written by God who never lies! 😛
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
