@@ -1037,17 +1037,23 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- [Feedback](((69a50c8a-484e-45e0-bb2e-99b168f363e8))) from both normal (solvable) and extreme (unsolvable) errors.
 			- 4th, ...
 			  collapsed:: true
-				- Form = distribution of content ⇒ intent ⇒ extent = distance in form space
-				- Content = distance in content space
-				- ((667251ec-d4f7-4c09-adff-73e04a4b22ed)) = transformation arrow = function of distribution
-					- The ((669a2487-054d-4408-ae41-189e34af81a9)) (projector) itself is a form, a distribution of content.
-				- Old world forms →[viewcone+history]→ layers of self-forms
-				- Current world forms →[viewcone + attent + self-forms]→ matched self-forms = self-state = intents
-				- State's distance from center (balance point, center of mass) = error → restoration intention → action
-				- Reciprocity: [form ↔ content](((67b5c77d-c42c-4dc5-8d47-fd82f535177a))), [dependent arising](((67b541c9-befb-46b8-b2ae-e6e251043153)))
-					- Ob: external condition → state → change self-forms (internal condition)
-					- Op: internal condition → intention → change world forms
-					- In conversation/interaction, it's the reciprocal conditioning between the object turn (the subject learns) and the subject turn (changing the object).
+				- Transform in effect circles
+				  collapsed:: true
+					- Form = distribution of content ⇒ intent ⇒ extent = distance in form space
+					- Content = distance in content space
+					- ((667251ec-d4f7-4c09-adff-73e04a4b22ed)) = transformation arrow = function of distribution
+						- The ((669a2487-054d-4408-ae41-189e34af81a9)) (projector) itself is a form, a distribution of content.
+					- Old world forms →[viewcone+history]→ layers of self-forms
+					- Current world forms →[viewcone + attent + self-forms]→ matched self-forms = self-state = intents
+					- State's distance from center (balance point, center of mass) = error → restoration intention → action
+					- Reciprocity: [form ↔ content](((67b5c77d-c42c-4dc5-8d47-fd82f535177a))), [dependent arising](((67b541c9-befb-46b8-b2ae-e6e251043153)))
+						- Ob: external condition → state → change self-forms (internal condition)
+						- Op: internal condition → intention → change world forms
+						- In conversation/interaction, it's the reciprocal conditioning between the object turn (the subject learns) and the subject turn (changing the object).
+				- “begging the question” = “assuming the conclusion” 😮
+				  collapsed:: true
+					- While the modern use of “begging the question” means “a question begging for answer”, showing the
+					- (Latin: “petītiō principiī”)
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
