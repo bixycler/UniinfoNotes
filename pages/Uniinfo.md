@@ -1283,36 +1283,6 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When the large world is ((66c83149-6ee5-4a8c-b4eb-0308d1a11535))ed to a little image, it creates a [cone](https://en.wikipedia.org/wiki/Cone) shape called ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)), whose base is the world and apex is the ((66728236-5b19-425c-bb5f-dfc0dc8b79fd)). The ((68875ace-d35f-44c6-9a9f-e7f7fc29f19d)) from the base to the apex is opposite to the ((68875bab-dd31-4bbd-bd31-3a821fc5310c)) from the apex to the base.
 				- view cone of an ((669a2487-054d-4408-ae41-189e34af81a9))
 					- ![ViewCone](https://docs.google.com/drawings/d/e/2PACX-1vTyqULvkXhaHRWBNVjM6jxDCuMnoh-o7n7bAMm7hOSGlRtL42FL59z4Dpey-4Sbo9bzkJVE-AQ9RFj1/pub?w=145&h=125)
-			- eye point
-			  id:: 68a7d02b-ebf4-4356-a98a-e881ae817f6a
-			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((667272b8-88a8-4928-a22a-35035c9edf05)), ((66728236-5b19-425c-bb5f-dfc0dc8b79fd))
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68a7d02b-ebf4-4356-a98a-e881ae817f6a)) is the apex of the ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) where all ((671b6fee-d1e3-43f0-a5a5-7033e48d6e56))s converge.
-				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-					- In biological eye, ((68a7d02b-ebf4-4356-a98a-e881ae817f6a)) is the [nodal point of the eye](https://en.wikipedia.org/wiki/Cardinal_point_(optics)#Nodal_points_and_the_eye).
-			- projecting direction
-			  id:: 68875ace-d35f-44c6-9a9f-e7f7fc29f19d
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68875ace-d35f-44c6-9a9f-e7f7fc29f19d)), denoted by a solid-head arrow, is the ((66e42d39-a296-4ed9-a686-4cb213783830)) of the central ((671b6f87-7492-4eab-af49-e3c89bc8c860)) of the ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) corresponding to the view, i.e. the direction from the world to the eye.
-				- light ray direction
-				  id:: 6887607a-6282-4400-a240-9168b9a3f368
-					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Each ((671b6f87-7492-4eab-af49-e3c89bc8c860)) has a different ((6887607a-6282-4400-a240-9168b9a3f368)), but all of them converge to the eye. The central light ray direction is the ((68875ace-d35f-44c6-9a9f-e7f7fc29f19d)).
-						- Note: light ray direction is opposite to the [shading](https://en.wikipedia.org/wiki/Shading) “light direction” from the shaded surface to the light source.
-						  id:: 6887625c-db24-4ecf-a154-3aedb390afd3
-			- viewing direction
-			  id:: 68875bab-dd31-4bbd-bd31-3a821fc5310c
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68875bab-dd31-4bbd-bd31-3a821fc5310c)), denoted by a hollow-head arrow, is the ((66e42d39-a296-4ed9-a686-4cb213783830)) from the eye to the observed object.
-					- Note: viewing direction is opposite to the [3D graphics](https://en.wikipedia.org/wiki/3D_computer_graphics) “view direction” from the object to the camera.
-					  id:: 68876434-f1f3-4dda-975f-496594ef762e
-			- image plane
-			  id:: 68a7d163-32b3-4903-8f4b-a45f7fac6b51
-			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((68a7d179-b663-42bd-85b9-6c18be6b6c97))
-				- projection plane
-				  id:: 68a7d179-b663-42bd-85b9-6c18be6b6c97
-				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((68a7d163-32b3-4903-8f4b-a45f7fac6b51))
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68a7d163-32b3-4903-8f4b-a45f7fac6b51)) is the plane where the world is projected onto, i.e. the place where all projected images stay.
-					- In possitive obop, whose all layers share the same ((68a7d02b-ebf4-4356-a98a-e881ae817f6a)), the projection plane is before the projection center;
-					- in negative obop with many distinct eye points, the projection plane is behind the corresponding projection center.
-				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-					- In biological eye (a negative obop), ((68a7d163-32b3-4903-8f4b-a45f7fac6b51)) is the [retina](https://en.wikipedia.org/wiki/Retina).
 			- ((66725725-f76a-4328-b162-f469b87e871b))
 			  id:: 66725708-3dc4-43f5-a180-6b331c6a160f
 				- The [cone of vision](https://courses.byui.edu/art110_new/art110/week02/cone_of_vision.html) ([visual cone](https://handprint.com/HP/WCL/perspect1.html#fact3)), [visual field](https://en.wikipedia.org/wiki/Visual_field), [field of view](https://en.wikipedia.org/wiki/Field_of_view) in human & computer vision
@@ -1348,6 +1318,36 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 							- “vanishing lines” is also ambiguously used to refer to the image of parallel lines, as shown [in Merriam Webster dictionary](https://www.merriam-webster.com/dictionary/vanishing%20line) and some pages like [this article by Kiyeon Kim](https://www.tomboweurope.com/en/inspiration/perspective-drawing)
 				- The past [light cone](https://en.wikipedia.org/wiki/Light_cone) in physics is a ((667251ec-d4f7-4c09-adff-73e04a4b22ed)).
 				- A ((667251ec-d4f7-4c09-adff-73e04a4b22ed)) in a network is a ((667252dc-e610-4d07-bcd0-9ea6fb4499fd)).
+			- eye point
+			  id:: 68a7d02b-ebf4-4356-a98a-e881ae817f6a
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((667272b8-88a8-4928-a22a-35035c9edf05)), ((66728236-5b19-425c-bb5f-dfc0dc8b79fd))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68a7d02b-ebf4-4356-a98a-e881ae817f6a)) is the apex of the ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) where all ((671b6fee-d1e3-43f0-a5a5-7033e48d6e56))s converge.
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- In biological eye, ((68a7d02b-ebf4-4356-a98a-e881ae817f6a)) is the [nodal point of the eye](https://en.wikipedia.org/wiki/Cardinal_point_(optics)#Nodal_points_and_the_eye).
+			- projecting direction
+			  id:: 68875ace-d35f-44c6-9a9f-e7f7fc29f19d
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68875ace-d35f-44c6-9a9f-e7f7fc29f19d)), denoted by a solid-head arrow, is the ((66e42d39-a296-4ed9-a686-4cb213783830)) of the central ((671b6f87-7492-4eab-af49-e3c89bc8c860)) of the ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) corresponding to the view, i.e. the direction from the world to the eye.
+				- light ray direction
+				  id:: 6887607a-6282-4400-a240-9168b9a3f368
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Each ((671b6f87-7492-4eab-af49-e3c89bc8c860)) has a different ((6887607a-6282-4400-a240-9168b9a3f368)), but all of them converge to the eye. The central light ray direction is the ((68875ace-d35f-44c6-9a9f-e7f7fc29f19d)).
+						- Note: light ray direction is opposite to the [shading](https://en.wikipedia.org/wiki/Shading) “light direction” from the shaded surface to the light source.
+						  id:: 6887625c-db24-4ecf-a154-3aedb390afd3
+			- viewing direction
+			  id:: 68875bab-dd31-4bbd-bd31-3a821fc5310c
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68875bab-dd31-4bbd-bd31-3a821fc5310c)), denoted by a hollow-head arrow, is the ((66e42d39-a296-4ed9-a686-4cb213783830)) from the eye to the observed object.
+					- Note: viewing direction is opposite to the [3D graphics](https://en.wikipedia.org/wiki/3D_computer_graphics) “view direction” from the object to the camera.
+					  id:: 68876434-f1f3-4dda-975f-496594ef762e
+			- image plane
+			  id:: 68a7d163-32b3-4903-8f4b-a45f7fac6b51
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((68a7d179-b663-42bd-85b9-6c18be6b6c97))
+				- projection plane
+				  id:: 68a7d179-b663-42bd-85b9-6c18be6b6c97
+				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((68a7d163-32b3-4903-8f4b-a45f7fac6b51))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68a7d163-32b3-4903-8f4b-a45f7fac6b51)) is the plane where the world is projected onto, i.e. the place where all projected images stay.
+					- In possitive obop, whose all layers share the same ((68a7d02b-ebf4-4356-a98a-e881ae817f6a)), the projection plane is before the projection center;
+					- in negative obop with many distinct eye points, the projection plane is behind the corresponding projection center.
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- In biological eye (a negative obop), ((68a7d163-32b3-4903-8f4b-a45f7fac6b51)) is the [retina](https://en.wikipedia.org/wiki/Retina).
 			- #### tree view
 			  id:: 667252dc-e610-4d07-bcd0-9ea6fb4499fd
 			  collapsed:: true
