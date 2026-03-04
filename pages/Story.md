@@ -1053,14 +1053,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- “begging the question” = “assuming the conclusion” 😮
 				  collapsed:: true
 					- The modern use of “begging the question” means [“a question begging for answer”](https://www.merriam-webster.com/grammar/beg-the-question), showing the author's insistence and the urgency of the question.
-					- However, it's original meaning was [“assuming the conclusion”](https://en.wikipedia.org/wiki/Begging_the_question) (Latin: “petītiō principiī”, Greek: "τὸ ἐν ἀρχῇ αἰτεῖσθαι" [tò en archêi aiteîsthai]) – a logical fallacy where an argument's premises (principiī) assume (petītiō) the truth of the conclusion.
+					- However, it's original meaning was [“assuming the conclusion”](https://en.wikipedia.org/wiki/Begging_the_question) (Latin: “petītiō principiī”, Greek: "τὸ ἐν ἀρχῇ αἰτεῖσθαι" [tò en archêi aiteîsthai]) – a logical fallacy where an argument's premises (principiī) assume (petītiō) the truth of the conclusion – a subtler version of the [circular reasoning](https://en.wikipedia.org/wiki/Circular_reasoning).
 						- Petītiō: The original Greek word used by Aristotle was “aiteîsthai”, which means “to assume” or “to postulate”.
 							- When translated into Latin, it became “petītiō”. While petitio can mean “petition” or “beg,” in a technical logical context, it meant “taking something as a given”.
 							- English translators in the 1500s chose the most common, non-technical meaning: “to beg”.
 						- Principiī: The Greek word “en archêi” meant “at the beginning” or “the starting point”.
 							- The Latin “principiī” similarly meant “the principle” or “the foundation”.
 							- In old English logic, the “question” didn't mean a query ending in a question mark; it meant “the matter under debate”.
-					- It's best *not to use* the mistranslation “begging the question” of the fallacy.
+					- It's best *not to use* the mistranslation “begging the question” of the fallacy, using “assuming the conclusion” instead.
 					- But if some one insists on this old name, it can to be interpreted like this: Because the premise is obvious (given without proof), asking questions about the conclusion is unecessary, but the author insists the audience to question it.
 						- E.g.: Many authors claims that everything in the Bible is true. That begs the question: How do we know? Because it was written by God who never lies! 😛
 			- ...
