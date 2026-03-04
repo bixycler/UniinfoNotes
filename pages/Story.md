@@ -1053,14 +1053,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- “begging the question” = “assuming the conclusion” 😮
 				  collapsed:: true
 					- The modern use of “begging the question” means [“a question begging for answer”](https://www.merriam-webster.com/grammar/beg-the-question), showing the author's insistence and the urgency of the question.
-					- However, it's original meaning was “assuming the conclusion” (Latin: “petītiō principiī”) – a logical fallacy where an argument's premises (principiī) assume (petītiō) the truth of the conclusion.
-						- Petītiō: The original Greek word used by Aristotle was "aiteisthai", which means "to assume" or "to postulate".
-							- When translated into Latin, it became “petītiō”. While petitio can mean "petition" or "beg," in a technical logical context, it meant "taking something as a given".
-							- English translators in the 1500s chose the most common, non-technical meaning: "to beg".
-						- Principiī:
-							- The Greek word en "archei" meant "at the beginning" or "the starting point".
-							- The Latin principii similarly meant "the principle" or "the foundation".
-							- In old English logic, the "question" didn't mean a query ending in a question mark; it meant "the matter under debate".
+					- However, it's original meaning was [“assuming the conclusion”](https://en.wikipedia.org/wiki/Begging_the_question) (Latin: “petītiō principiī”, Greek: "τὸ ἐν ἀρχῇ αἰτεῖσθαι" [tò en archêi aiteîsthai]) – a logical fallacy where an argument's premises (principiī) assume (petītiō) the truth of the conclusion.
+						- Petītiō: The original Greek word used by Aristotle was “aiteîsthai”, which means “to assume” or “to postulate”.
+							- When translated into Latin, it became “petītiō”. While petitio can mean “petition” or “beg,” in a technical logical context, it meant “taking something as a given”.
+							- English translators in the 1500s chose the most common, non-technical meaning: “to beg”.
+						- Principiī: The Greek word “en archêi” meant “at the beginning” or “the starting point”.
+							- The Latin “principiī” similarly meant “the principle” or “the foundation”.
+							- In old English logic, the “question” didn't mean a query ending in a question mark; it meant “the matter under debate”.
+					- It's best *not to use* the mistranslation “begging the question” of the fallacy.
+					- But if some one insists on
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
