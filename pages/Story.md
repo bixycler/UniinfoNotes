@@ -1033,9 +1033,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- [Vietnam AI law takes effect](https://news.tuoitre.vn/vietnam-ai-law-takes-effect-first-in-southeast-asia-103260301084636216.htm) on March 1st, the 4th place after Korea (2026 Jan), EU (2024), and China (2022).
 			- 2nd, eventually finished the remaining task (`pre-deploy`) in the compary.
 			- 3rd, ...
-			  collapsed:: true
-				- Continue the ((69a502fe-1764-4e4d-85a4-ca0eff9c0754))
-					- [Feedback](((69a50c8a-484e-45e0-bb2e-99b168f363e8))) from both normal (solvable) and extreme (unsolvable) errors.
+			- Continue the ((69a502fe-1764-4e4d-85a4-ca0eff9c0754))
+				- [Feedback](((69a50c8a-484e-45e0-bb2e-99b168f363e8))) from both normal (solvable) and extreme (unsolvable) errors.
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
