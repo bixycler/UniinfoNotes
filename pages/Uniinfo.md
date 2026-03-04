@@ -2169,11 +2169,11 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 				- Uniform me vs distorted you <=> distorted me vs uniform you.
 				  id:: 67b541d0-9e59-42ec-9199-9e9e114579e8
 				  ```
-				  M:[========|========]
-				  W:[====|============] F_ex = -->
+				  M:[********|********]
+				  W:[====|------------] F_ex = -->
 				  <=>
-				  M:[============|====] F_in = <--
-				  W:[========|========]
+				  M:[------------|====] F_in = <--
+				  W:[********|********]
 				  - F_ex = external force exerting on [M]y body
 				  - F_in = internal force exerting on the [W]orld
 				  + Both forces are to restore the balance
