@@ -1900,7 +1900,6 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 			  :END:
 				- That means, *effect flow* is also *causal flow*, *action flow*, *flow of changes*, as well as *influential wave* and *condition wave*.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-		  collapsed:: true
 			- “Effect flow” versus causal chain, cause-and-effect chain (CEC), chain of causation
 			  collapsed:: true
 				- In constrast to those “chains” of *separate* causes and effects which are like strings of beads, ((683eac41-53d2-4341-a732-a6a923962629)) This continuum has been well expressed in the [dependent origination](https://en.wikipedia.org/wiki/Prat%C4%ABtyasamutp%C4%81da) principle, a.k.a. twelve-linked chain of conditions (dvādaśa-nidānāni, dvādaśa-hetupratyaya [十二因縁]).
