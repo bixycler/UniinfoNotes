@@ -1885,7 +1885,6 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 						  $j_n := λ = \sqrt[n]{1}$
 						- 4.1. The negative unit $-1$ arises from the second order:
 						- 4.2. The imaginary unit $i$ and $\sin()$ function arise from the fourth order:
-		- ...
 	- ## effect flow
 	  id:: 667bef22-b272-4a7d-b613-3f1ed1a47329
 	  collapsed:: true
