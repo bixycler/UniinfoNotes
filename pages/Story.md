@@ -1037,7 +1037,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- [Feedback](((69a50c8a-484e-45e0-bb2e-99b168f363e8))) from both normal (solvable) and extreme (unsolvable) errors.
 			- 4th, ...
 			  collapsed:: true
-				- Transform in effect circles
+				- Transforms in effect circles
 				  collapsed:: true
 					- Form = distribution of content ⇒ intent ⇒ extent = distance in form space
 					- Content = distance in content space
