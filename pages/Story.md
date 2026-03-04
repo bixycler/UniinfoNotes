@@ -1043,7 +1043,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Old world forms →[viewcone+history]→ layers of self-forms
 				- Current world forms →[viewcone + attent + self-forms]→ matched self-forms = self-state = intents
 				- State's distance from center (balance point, center of mass) = error → restoration intention → action
-				- Reciprocity: form ↔ content
+				- Reciprocity: form ↔ content, dependent arising
 					- Ob: external condition → state → change self-forms (internal condition)
 					- Op: internal condition → intention → change world forms
 					- In conversation/interaction, it's the reciprocal conditioning between the object turn (the subject learns) and the subject turn (changing the object).
