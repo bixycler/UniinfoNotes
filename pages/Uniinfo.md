@@ -1003,11 +1003,13 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 			  id:: 67505a65-19d8-415a-8b80-c955a8768647
 			  = nondirectional = all directions = omnidirectional
 				- Zero identity: 0 (nondirectional **blob**) = $-1 + 1 = -1 - 2 - 3 - ... - ∞ + 1 + 2 + 3 + ... + ∞$ (balanced infinite **structure**)
+				- The ((66600918-9f92-4730-b056-c2cd87a742aa))
 			- $|Ω| = 1$
 			  id:: 67505a68-91b9-4abb-bf92-4dddad8c5803
 			  = nondimensional = dimensionless = all dimensions = omnidimensional
 			  but usually confused with unidimensional
 				- Unit identity: 1 (dimensionless **mass**) = $1 × 1 × 1 × ... × 1$ (infinite dimensional **hypervolume**)
+				- The [unitarity](https://en.wikipedia.org/wiki/Unitarity_(physics)) in physics is a directly consequence of this unitarity of the ((675c03d8-3185-41a8-9f98-e869fabec793)).
 			- The ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)) is dimensionless (dimension cancelled by ratio), but still has two directions `+` and `-`.
 			  collapsed:: true
 				- As the scale factor of content (ratio between content and intent), extent can be thought of as a “scalar”, but we don't use the term “scalar” to avoid confusion.
@@ -1105,7 +1107,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 				- TODO To be ported: ((669a58b8-7c83-4265-a32c-bb4c710fb9d0))
 					- Abstract content -> + CIE (1 ○) = concrete content -> + FoC (2 ○) = time & demi-space -> + double FoC (3 ○) = space & time
 					- “current” = coarse-grained thread, “thread” = fine-grained current, compared to the resolution of the eye.
-			- ((665ca48e-f7c1-4541-b5cf-486d86b02997)) Beside the formal names **Ω-thread** [from ((678e23b4-0fbe-4a5d-923f-6252405053df)), pronounced “**ohm**-thread”] & “**omnithread**” [from ((675c03d8-3185-41a8-9f98-e869fabec793))], it can also be called “ōm̐-thread” [from [ॐ](https://en.wikipedia.org/wiki/Om)] (“aum-thread”), “one-thread [from ((67505a68-91b9-4abb-bf92-4dddad8c5803))], or “overall thread”, “[Ouroboros](https://en.wikipedia.org/wiki/Ouroboros) thread”, etc.
+			- ((665ca48e-f7c1-4541-b5cf-486d86b02997)) Beside the formal names **Ω-thread** [from ((678e23b4-0fbe-4a5d-923f-6252405053df)), pronounced “**ohm**-thread”] & “**omnithread**” [from ((675c03d8-3185-41a8-9f98-e869fabec793))], it can also be called “ōm̐-thread” [from [ॐ](https://en.wikipedia.org/wiki/Om), also “aum-thread”], “one-thread [from ((67505a68-91b9-4abb-bf92-4dddad8c5803))], or “overall thread”, “[Ouroboros](https://en.wikipedia.org/wiki/Ouroboros) thread”, etc.
 			  id:: 66ac48f5-823a-442b-8cc1-7c634b2be4ca
 				- Vietnamese: mạch ôông (ōm̐-thread)
 				- While written as “Ω-thread”, it's called “**ohm**-thread” instead of “omega-thread”.
