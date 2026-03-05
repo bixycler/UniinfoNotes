@@ -11,6 +11,23 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2026 Brainstorms
 	  id:: 6960e754-ff94-4e1a-8266-d9f15231b880
+		- Transforms in effect circles
+		  id:: 69a7e2e4-eac2-45c4-83ce-f08eaa4c6f5f
+		  collapsed:: true
+			- Form = distribution of content in form space ⇒ intent ⇒ extent = distance in form space
+			- Content = distance in content space
+			- The roles “form” & “content”  are relative, as shown in the form-content xy-plot of the ((66ab75a1-f4a0-4bab-a002-8e573546623a)).
+				- In general, there are many axes corresponding to many forms (spatial dimensions), and the “zeroth form” (remaining dimension) is considered “content” (time).
+				- Usually, the single content dimension is the reference for all forms, hence the self-thread dimension indexed by all forms.
+			- ((667251ec-d4f7-4c09-adff-73e04a4b22ed)) = transformation arrow = function of distribution
+				- The ((669a2487-054d-4408-ae41-189e34af81a9)) (projector) itself is a form, a distribution of content.
+			- Old world forms →[viewcone+history]→ layers of self-forms
+			- Current world forms →[viewcone + attent + self-forms]→ matched self-forms = self-state = intents
+			- State's distance from center (balance point, center of mass) = error → restoration intention → action
+			- Reciprocity: [form ↔ content](((67b5c77d-c42c-4dc5-8d47-fd82f535177a))), [dependent arising](((67b541c9-befb-46b8-b2ae-e6e251043153)))
+				- Ob: external condition → state → change self-forms (internal condition)
+				- Op: internal condition → intention → change world forms
+				- In conversation/interaction, it's the reciprocal conditioning between the object turn (the subject learns) and the subject turn (changing the object).
 		- Western-Northern linearity (↑ ((667d15b7-6364-49a9-ac58-c64d2a992b63))) versus Eastern-Southern cyclicality (○ ((667d15c6-67c4-4998-a549-c8b3f9de3d60)))
 		  id:: 69a10eab-e9c0-44c4-ac8f-4155090715c8
 		  collapsed:: true

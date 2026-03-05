@@ -5159,6 +5159,7 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 		- 18-19th, weekends, various brainstorms about 3 levels of equality, temporal circle, effect circle, attention
 		  collapsed:: true
 			- ((66e3fe46-dc79-472a-a059-f5ccf5afb437)): 1 - 2 - 3 circles folded from the same content thread 🥨
+			  id:: 699c0368-1753-4032-b9d2-52afa7f866d9
 			  collapsed:: true
 				- 1 circle of universe in monistic view for qualitative theory of Uniinfo, định tính
 					- conservation of quality via complementarity
