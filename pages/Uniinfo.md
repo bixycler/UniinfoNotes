@@ -1114,7 +1114,6 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					  _**Mạch tác lưu** dệt nên vạn vật._
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- ((66ab75a1-f4a0-4bab-a002-8e573546623a)) corresponds to a closed directed dynamic metrizable refinable [topos](https://en.wikipedia.org/wiki/Pointless_topology) in topology.
-				- Abstract content -> + CIE (1 ○) = concrete content -> + FoC (2 ○) = time & demi-space -> + double FoC (3 ○) = space & time
 				- “current” = coarse-grained thread, “thread” = fine-grained current, compared to the resolution of the eye.
 	- ## view
 	  id:: 66723642-58f1-4a74-bba3-0108f14c6bac
@@ -3128,6 +3127,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 		  ((66e40f4b-34ae-499a-8192-0a0f4f580c7e)) > ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe)) > ((66e40f75-0573-484e-8cb6-b6b8071ffb8c))
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8))
 				- Diagram
+				  id:: 699d7bab-16fd-4118-aceb-1e7f534688bc
 				  collapsed:: true
 					- ![Levels of The Equal](https://docs.google.com/drawings/d/1ydOhAuBugiOYYoBHLJ5Z6-pQViKL1-GXKgFWLSbE9Sc/pub?w=800)
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
