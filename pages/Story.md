@@ -1043,7 +1043,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Content = distance in content space
 					- The roles “form” & “content”  are relative, as shown in the form-content xy-plot of the ((66ab75a1-f4a0-4bab-a002-8e573546623a)).
 						- In general, there are many axes corresponding to many forms (spatial dimensions), and the “zeroth form” (remaining dimension) is considered “content” (time).
-						- Usually, the single content dimension is the reference for all forms, hence the self-thread dimension indexing all forms.
+						- Usually, the single content dimension is the reference for all forms, hence the self-thread dimension indexed by all forms.
 					- ((667251ec-d4f7-4c09-adff-73e04a4b22ed)) = transformation arrow = function of distribution
 						- The ((669a2487-054d-4408-ae41-189e34af81a9)) (projector) itself is a form, a distribution of content.
 					- Old world forms →[viewcone+history]→ layers of self-forms
