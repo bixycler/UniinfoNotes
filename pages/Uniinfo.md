@@ -810,6 +810,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 			- WAIT ((66f40210-cca6-4d81-85e7-d0c54ef20451)) as a ((669a58b9-eb34-41cd-8605-02e29b07e1b5))
 				- (input, state) = (c, i) -> (e, i') = (output/action, next state)
 			- WAIT ((66e3fe46-dc79-472a-a059-f5ccf5afb437)) in ((66f40210-cca6-4d81-85e7-d0c54ef20451))
+			  id:: 699c0363-9600-46da-9751-1947e5c3123e
 			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2024-09-25 Wed 20:01:58]--[2024-09-25 Wed 20:05:25] =>  00:03:27
@@ -820,6 +821,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					- $c = S(e_k * s_k)$
 				- ((66e40f75-0573-484e-8cb6-b6b8071ffb8c))
 					- all levels of $s_k$
+				- Ref: ((6716110c-1b10-41cc-9e26-c76ef782b6a3))
 	- ## uninet
 	  id:: 669dcdf8-a48c-40b1-bdb1-54a73fc5ae71
 	  collapsed:: true
