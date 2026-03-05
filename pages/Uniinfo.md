@@ -998,9 +998,23 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 			- Each subject uses the pulled out threads as contents to spin other threads as new forms, new folds of the Omnifold.
 		- ((665ca48e-f7c1-4541-b5cf-486d86b02997)) From “twofold”, “threefold”, ..., “n-fold”, to “manifold”, and now “omnifold” as the ultimate “fold” 😄!
 			- This name has been suggested by Copilot.
-		- |Ω| = 1
-		  id:: 678e228f-1182-4605-9aad-f66f6fbb57bd
-		  The mass (amount of content) of the ((675c03d8-3185-41a8-9f98-e869fabec793)) is [1](((67505a68-91b9-4abb-bf92-4dddad8c5803))).
+		- Dimensionality & directionality
+			- 0 = nondirectional = all directions = omnidirectional
+			  id:: 67505a65-19d8-415a-8b80-c955a8768647
+				- Zero identity: 0 (nondirectional **blob**) = $-1 + 1 = -1 - 2 - 3 - ... - ∞ + 1 + 2 + 3 + ... + ∞$ (balanced infinite **structure**)
+			- 1 = nondimensional = dimensionless = all dimensions = omnidimensional
+			  id:: 67505a68-91b9-4abb-bf92-4dddad8c5803
+			  but usually confused with unidimensional
+				- Unit identity: 1 (dimensionless **mass**) = $1 × 1 × 1 × ... × 1$ (infinite dimensional **hypervolume**)
+			- The ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)) is dimensionless (dimension cancelled by ratio), but still has two directions `+` and `-`.
+			  collapsed:: true
+				- As the scale factor of content (ratio between content and intent), extent can be thought of as a “scalar”, but we don't use the term “scalar” to avoid confusion.
+					- Each [“scalar quantity” in physics](https://en.wikipedia.org/wiki/Scalar_(physics)) additionally has a unit which is the informational dimension, hence not dimensionless.
+					- [“Dimensionless quantity” in physics](https://en.wikipedia.org/wiki/Dimensionless_quantity) may be called “scalar” in Unïnfo, but we use the term “dimensionless” for clarity.
+			- The mass (amount of content) is not only dimensionless but also nondirectional, a.k.a. “absolute value”.
+			- |Ω| = 1
+			  id:: 678e228f-1182-4605-9aad-f66f6fbb57bd
+			  The mass (amount of content) of the ((675c03d8-3185-41a8-9f98-e869fabec793)) is [1](((67505a68-91b9-4abb-bf92-4dddad8c5803))).
 		- WAIT ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) structure of the ((675c03d8-3185-41a8-9f98-e869fabec793))
 		  id:: 69a5068c-df84-4f76-92ca-9131897c80df
 		  collapsed:: true
@@ -1102,20 +1116,6 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					  _**Mạch tác lưu** dệt nên vạn vật._
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- ((66ab75a1-f4a0-4bab-a002-8e573546623a)) corresponds to a closed directed dynamic metrizable refinable [topos](https://en.wikipedia.org/wiki/Pointless_topology) in topology.
-			- Dimensionality & directionality
-				- 0 = nondirectional = all directions = omnidirectional
-				  id:: 67505a65-19d8-415a-8b80-c955a8768647
-					- Zero identity: 0 (nondirectional **blob**) = $-1 + 1 = -1 - 2 - 3 - ... - ∞ + 1 + 2 + 3 + ... + ∞$ (balanced infinite **structure**)
-				- 1 = nondimensional = dimensionless = all dimensions = omnidimensional
-				  id:: 67505a68-91b9-4abb-bf92-4dddad8c5803
-				  but usually confused with unidimensional
-					- Unit identity: 1 (dimensionless **mass**) = $1 × 1 × 1 × ... × 1$ (infinite dimensional **hypervolume**)
-				- The ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)) is dimensionless (dimension cancelled by ratio), but still has two directions `+` and `-`.
-				  collapsed:: true
-					- As the scale factor of content (ratio between content and intent), extent can be thought of as a “scalar”, but we don't use the term “scalar” to avoid confusion.
-						- Each [“scalar quantity” in physics](https://en.wikipedia.org/wiki/Scalar_(physics)) additionally has a unit which is the informational dimension, hence not dimensionless.
-						- [“Dimensionless quantity” in physics](https://en.wikipedia.org/wiki/Dimensionless_quantity) may be called “scalar” in Unïnfo, but we use the term “dimensionless” for clarity.
-				- The mass (amount of content) is not only dimensionless but also nondirectional, a.k.a. “absolute value”.
 	- ## view
 	  id:: 66723642-58f1-4a74-bba3-0108f14c6bac
 	  collapsed:: true
