@@ -1014,9 +1014,6 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					- Each [“scalar quantity” in physics](https://en.wikipedia.org/wiki/Scalar_(physics)) additionally has a unit which is the informational dimension, hence not dimensionless.
 					- [“Dimensionless quantity” in physics](https://en.wikipedia.org/wiki/Dimensionless_quantity) may be called “scalar” in Unïnfo, but we use the term “dimensionless” for clarity.
 			- The mass (amount of content) is not only dimensionless but also nondirectional, a.k.a. “absolute value”.
-			- |Ω| = 1
-			  id:: 678e228f-1182-4605-9aad-f66f6fbb57bd
-			  The mass (amount of content) of the ((675c03d8-3185-41a8-9f98-e869fabec793)) is [1](((67505a68-91b9-4abb-bf92-4dddad8c5803))).
 		- WAIT ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) structure of the ((675c03d8-3185-41a8-9f98-e869fabec793))
 		  id:: 69a5068c-df84-4f76-92ca-9131897c80df
 		  collapsed:: true
