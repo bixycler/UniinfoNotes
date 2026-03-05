@@ -1004,7 +1004,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 			  = nondirectional = all directions = omnidirectional
 				- Zero identity: 0 (nondirectional **blob**) = $-1 + 1 = -1 - 2 - 3 - ... - ∞ + 1 + 2 + 3 + ... + ∞$ (balanced infinite **structure**)
 				- The ((66600918-9f92-4730-b056-c2cd87a742aa)) of all forms and the ((66691d61-b8e9-4618-ac98-145056b646f4)) in Buddhism are resulted from this zero identity.
-			- $|Ω| = 1$
+			- $|Ω| = ∮_Ω{|dτ|} = 1$
 			  id:: 67505a68-91b9-4abb-bf92-4dddad8c5803
 			  = nondimensional = dimensionless = all dimensions = omnidimensional
 			  but usually confused with unidimensional
