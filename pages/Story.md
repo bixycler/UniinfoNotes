@@ -1059,7 +1059,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Aug 2024: The good old CIE's intent, content, sustent in ((6716110c-1b10-41cc-9e26-c76ef782b6a3))
 					- Nov 2025: ((699c0368-1753-4032-b9d2-52afa7f866d9))
 				- Google [NotebookLM](https://notebooklm.google.com/) still gets trouble with the UUIDs in ((667d2689-4ce0-4c79-b82a-25b0bba87d39)), no matter how it has been praised by many people.
-					- A simple query about "a structure of 3 circles?" made it completely lost. I even
+					- A simple query about "a structure of 3 circles?" made it completely lost.
+					- It even couldn't get the “Three levels of equality” no matter when i typed the phrase literally or even including the raw UUID: `Three levels of ((66e41e14-6c0c-41d7-9089-92916d47d7e0))`.
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
