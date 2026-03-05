@@ -999,10 +999,10 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 		- ((665ca48e-f7c1-4541-b5cf-486d86b02997)) From “twofold”, “threefold”, ..., “n-fold”, to “manifold”, and now “omnifold” as the ultimate “fold” 😄!
 			- This name has been suggested by Copilot.
 		- Dimensionality & directionality
-			- 0 = nondirectional = all directions = omnidirectional
+			- $∮_Ω{d\vec{τ}} = 0$ = nondirectional = all directions = omnidirectional
 			  id:: 67505a65-19d8-415a-8b80-c955a8768647
 				- Zero identity: 0 (nondirectional **blob**) = $-1 + 1 = -1 - 2 - 3 - ... - ∞ + 1 + 2 + 3 + ... + ∞$ (balanced infinite **structure**)
-			- 1 = nondimensional = dimensionless = all dimensions = omnidimensional
+			- $|Ω| = 1$ = nondimensional = dimensionless = all dimensions = omnidimensional
 			  id:: 67505a68-91b9-4abb-bf92-4dddad8c5803
 			  but usually confused with unidimensional
 				- Unit identity: 1 (dimensionless **mass**) = $1 × 1 × 1 × ... × 1$ (infinite dimensional **hypervolume**)
