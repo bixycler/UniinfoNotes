@@ -1,3 +1,2 @@
 - 🧵 thread: total amount = 1 = sum of content in each form dimension (extent) = product of intents of all forms
 - 🤔 😁 😉 😮 😛 😜 🙁 😱 👺 ⇄
-- $d\vec{\tau}$ Ψ
