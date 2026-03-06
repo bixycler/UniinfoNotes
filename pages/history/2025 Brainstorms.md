@@ -643,7 +643,7 @@ id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
 			- [What Einstein meant](((68c248b5-40db-4427-9224-2251732c5717))) by the statement that [“God does not play dice with the universe!”](https://en.wiktionary.org/wiki/God_does_not_play_dice_with_the_universe) should be against the fundamental probability, not against the fundamental space of possibilities.
 				- In other words, _all are equal in the eyes of God_, only limited subjects see inequalities which are just distortions caused by their own conditions.
 		- All spaces are space of possibilities.
-			- The emptiness of the space is due to the fact that entities there are pontential, not actual.
+			- The emptiness of the space is due to the fact that entities there are potential, not actual.
 			- In a “flat” space (relaxed thread), every possibility occupies an equal portion of the space.
 				- E.g.: flat spacetime, number line, each place in positional numeral system (as a space of values at that place).
 			- In a “curved” space (folded thread), different possibilities occupy different amounts of space, which are measured by probability.
