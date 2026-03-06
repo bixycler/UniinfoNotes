@@ -1076,6 +1076,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- The video
 					  ![The_Unïnfo_Theory-NotebookLM.mp4](../assets/Will/story/2026-03/The_Unïnfo_Theory-NotebookLM.mp4)
 					- Published [on YouTube](https://www.youtube.com/watch?v=OjUivFq-aLw)
+					- Note: I just gave NotebookLM a bunch of Mind Jungle, Uniinfo.md, and brainstorms, with no specific instruction, except the explicit reminder of correct pronunciations for Unïnfo terms as the “instructions” for the video overview.
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
