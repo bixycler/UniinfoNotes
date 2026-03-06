@@ -1051,17 +1051,17 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- It's best *not to use* the mistranslation “begging the question” of the fallacy, using “assuming the conclusion” instead.
 					- But if some one insists on this old name, it can to be interpreted like this: Because the premise is obvious (given without proof), asking questions about the conclusion is unecessary, but the author insists the audience to question it.
 						- E.g.: Many authors claims that everything in the Bible is true. That begs the question: How do we know? Because it was written by God who never lies! 😛
-			- 5th,...
+			- 5th, wandering around...
 			  collapsed:: true
 				- History of 3 circles:
 					- 2022: ((66ab75a1-f4a0-4bab-a002-8e573546623a)): Abstract content -> + CIE (1 ○) = concrete content -> + FoC (2 ○) = time & demi-space -> + double FoC (3 ○) = space & time
 					- May 2024: ((66e3fe46-dc79-472a-a059-f5ccf5afb437)) inited with the ((699d7bab-16fd-4118-aceb-1e7f534688bc))
 					- Aug 2024: The good old CIE's intent, content, sustent in ((699c0363-9600-46da-9751-1947e5c3123e)) and ((6716110c-1b10-41cc-9e26-c76ef782b6a3))
 					- Nov 2025: ((699c0368-1753-4032-b9d2-52afa7f866d9))
-				- Google [NotebookLM](https://notebooklm.google.com/) still gets trouble with the UUIDs in ((667d2689-4ce0-4c79-b82a-25b0bba87d39)), no matter how it has been praised by many people.
+				- Google [NotebookLM](https://notebooklm.google.com/) still gets trouble with my jungle-like knowledge graph, no matter how it has been praised by many people.
 					- A simple query about "a structure of 3 circles?" made it completely lost.
 					- A debug in Gemini app showed that the root cause was the **truncation** of the uploaded file. This limit seems to be introduced recently, because the previous NotebookLM had no problem understand my whole Mind Jungle which was way longer than the truncated `Uniinfo.md`.
-			- 6th, ...
+			- 6th, playing with NotebookLM...
 			  collapsed:: true
 				- 🌀 Both “rote” & “drill” are rotations: while ∞ “rote” rotates the mind for memory, ⅏ “drill” rotates the body for skill.
 				- [Prajñā](https://en.wikipedia.org/wiki/Praj%C3%B1%C4%81_(Buddhism)) includes *insight > sapience > wisdom*.
