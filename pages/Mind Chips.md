@@ -1,2 +1,3 @@
 - 🧵 thread: total amount = 1 = sum of content in each form dimension (extent) = product of intents of all forms
 - 🤔 😁 😉 😮 😛 😜 🙁 😱 👺 ⇄
+- [last](((684f9517-3cbd-495d-8e40-85932d03bbe0)))
