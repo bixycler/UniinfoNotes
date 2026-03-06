@@ -1061,6 +1061,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Google [NotebookLM](https://notebooklm.google.com/) still gets trouble with the UUIDs in ((667d2689-4ce0-4c79-b82a-25b0bba87d39)), no matter how it has been praised by many people.
 					- A simple query about "a structure of 3 circles?" made it completely lost.
 					- A debug in Gemini app showed that the root cause was the **truncation** of the uploaded file. This limit seems to be introduced recently, because the previous NotebookLM had no problem understand my whole Mind Jungle which was way longer than the truncated `Uniinfo.md`.
+			- 6th, ...
+			  collapsed:: true
+				- Both “rote” & “drill” are rotations: while
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
