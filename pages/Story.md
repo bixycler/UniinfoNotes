@@ -1069,6 +1069,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- ⚡ Insight – the seed 🌰: The initial **penetration** through the surface.
 					- 🧠 Sapience – the tree 🌳: The deep, structural **feeling** and internalized growth.
 					- 🦉 Wisdom – the fruit 🍎: The final, tangible result via the skillful but humble **application** of the sapience into everyday life.
+				- It's interesting that NotebookLM pulled this [tiny brainstorm](((699c0364-6b07-4f48-81ba-a51875bcdf30))) into a table, in a neat introduction to the ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)).
+					- The table
+					  ![Trion-Foc-Knowledge.png](../Trion-Foc-Knowledge.png)
+					- The video
+					  ![The_Unïnfo_Theory-NotebookLM.mp4](../assets/Will/story/2026-03/The_Unïnfo_Theory-NotebookLM.mp4)
+					- Published [on YouTube](https://www.youtube.com/watch?v=OjUivFq-aLw)
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c

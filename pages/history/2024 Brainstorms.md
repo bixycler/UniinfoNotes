@@ -645,6 +645,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			- ⭕️ Complementarity is the conservation of ((66e42b30-1aa4-4b6f-8c54-b29fc09085c6)) (energy): `|ying| = |yang| = const (π, 1)` ⇒ `yang - yin = 2(π)`
 		- ((66c7fdec-59db-4f96-a8a7-913247586534))
 	- Circle (the form of all forms, the knowledge of all knowledge)
+	  id:: 699c0364-6b07-4f48-81ba-a51875bcdf30
 	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2024-08-28 Wed 14:20:16]--[2024-08-28 Wed 14:24:57] =>  00:04:41
