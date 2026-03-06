@@ -5997,15 +5997,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  repo_add_once="false"
 				  repo_reenable_on_distupgrade="true"
 				  ```
-	- ## vacancy
-	  id:: 66600918-9f92-4730-b056-c2cd87a742aa
-	  collapsed:: true
-	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66691d61-b8e9-4618-ac98-145056b646f4))
-		- Emptiness
-		  id:: 66691d61-b8e9-4618-ac98-145056b646f4
-		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66600918-9f92-4730-b056-c2cd87a742aa))
-			- Buddhist: [śūnyatā (Sanskrit: शून्यता; Pali: suññatā)](https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81)
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66600918-9f92-4730-b056-c2cd87a742aa)) is the empty space that is available to be used. In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), vacancy is the underlying characteristic of all things, as stated in ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2)).
 	- # search
 	  id:: 66fe70ac-04d0-45b5-b771-b072cc0fa7be
 	  collapsed:: true
