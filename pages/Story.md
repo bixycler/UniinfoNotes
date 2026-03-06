@@ -1065,9 +1065,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- 🌀 Both “rote” & “drill” are rotations: while ∞ “rote” rotates the mind for memory, ⅏ “drill” rotates the body for skill.
 				- [Prajñā](https://en.wikipedia.org/wiki/Praj%C3%B1%C4%81_(Buddhism)) includes *insight > sapience > wisdom*.
+				  collapsed:: true
 					- ⚡ Insight – the seed 🌰: The initial **penetration** through the surface.
 					- 🧠 Sapience – the tree 🌳: The deep, structural **feeling** and internalized growth.
-					- 🦉 Wisdom – the fruit 🍎: The final, tangible result via the skillful but humbly application of the sapience into everyday life.
+					- 🦉 Wisdom – the fruit 🍎: The final, tangible result via the skillful but humble **application** of the sapience into everyday life.
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
