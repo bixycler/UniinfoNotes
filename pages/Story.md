@@ -1077,8 +1077,24 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  ![The_Unïnfo_Theory-NotebookLM.mp4](../assets/Will/story/2026-03/The_Unïnfo_Theory-NotebookLM.mp4)
 					- Published [on YouTube](https://www.youtube.com/watch?v=OjUivFq-aLw)
 					- Note: I just gave NotebookLM a bunch of Mind Jungle, Uniinfo.md, and brainstorms, with no specific instruction, except the explicit reminder of correct pronunciations for Unïnfo terms as the “instructions” for the video overview.
+			- 7-8th, weekends
+				- FoC: Why arrow is content and circle is form?
+					- The open arrow cannot contain others, hence can only be content.
+						- The arrow can transport others, instead.
+					- The close circle can be either a container (composite form) or a static content (component form).
+						- A container can contain both circles and arrows, where the inner circles are both contents of the outer circle and forms being transported or transformed by the inner arrows.
+				- Trinion: why the equal is needed?
+					- Without the equal, there would be no cross-intrinsics, the circle cannot be the arrow and vice versa.
+						- The equal = Vacantism
+					- The equal is the empty point that cannot be observed directly, but only through reflection.
+						- It reflects both circle and arrow.
+					- The equal of the Trinion can be asymptotically seen through layers of obop in the FoC.
+						- It's role is the middle that enables the unlimited meta (recursion), hence the awareness & self-essence of the subject.
+						- Without the equal, the automaton is an active object only, not a subject.
+					- Only with the equal, can a subject recognize itself in mirror via the equation “this = that”.
 			- 9th, ...
 			  collapsed:: true
+				- [Always On Memory Agent](https://github.com/GoogleCloudPlatform/generative-ai/tree/main/gemini/agents/always-on-memory-agent)
 				-
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))

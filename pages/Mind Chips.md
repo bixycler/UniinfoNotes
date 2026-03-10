@@ -1,31 +1,16 @@
 - > Arrow of time is the constantly mixing of the past in the present, increasing entropy.
-    - Link this arrow of time in the brainstorm about "circular time" with the entropy increase through image copy to the past 
+	- Link this arrow of time in the brainstorm about "circular time" with the entropy increase through image copy to the past
 - check exported graph for `Now, in commit 03a0b563 , i just change the id of perceptual screen to the new one` at block ref for `perceptual screen`.
 - check the `extent` as `concrete extension` 🤔
-    - extent is alias of **abstract extension**, not the concrete one which is the common meaning of "extension".
+	- extent is alias of **abstract extension**, not the concrete one which is the common meaning of "extension".
 - law = Intrinsic Static (circle) instead of the balance (Equal)? 🤔
-- “Every arrow is composed of circles (⇴).” 
-    - “composed of” -> “sustained by”
+- “Every arrow is composed of circles (⇴).”
+	- “composed of” -> “sustained by”
 - Update Intrinsic Balance:
-    - All circles are sustained by micro balance (point equality)
-        - circle = arrows + equal point
-    - All arrows are sustained by macro balance (yin & yang arrows)
-- FoC: Why arrow is content and circle is form? 
-    - The open arrow cannot contain others, hence can only be content. 
-        - The arrow can transport others, instead.
-    - The close circle can be either a container (composite form) or a static content (component form).
-        - A container can contain both circles and arrows, where the inner circles are both contents of the outer circle and forms being transported or transformed by the inner arrows.
-- Trinion: why the equal is needed?
-    - Without the equal, there would be no cross-intrinsics, the circle cannot be the arrow and vice versa.
-        - The equal = Vacantism
-    - The equal is the empty point that cannot be observed directly, but only through reflection. 
-        - It reflects both circle and arrow.
-    - The equal of the Trinion can be asymptotically seen through layers of obop in the FoC.
-        - It's role is the middle that enables the unlimited meta (recursion), hence the awareness & self-essence of the subject.
-        - Without the equal, the automaton is an active object only, not a subject.
-    - Only with the equal, can a subject recognize itself in mirror via the equation “this = that”.
+	- All circles are sustained by micro balance (point equality)
+		- circle = arrows + equal point
+	- All arrows are sustained by macro balance (yin & yang arrows)
 - ---
-- [Always On Memory Agent](https://github.com/GoogleCloudPlatform/generative-ai/tree/main/gemini/agents/always-on-memory-agent)
 - 🧵 thread: total amount = 1 = sum of content in each form dimension (extent) = product of intents of all forms
 - 🤔 😁 😉 😮 😛 😜 🙁 😱 👺 ⇄
 - Ω-thread
