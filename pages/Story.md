@@ -1077,7 +1077,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  ![The_Unïnfo_Theory-NotebookLM.mp4](../assets/Will/story/2026-03/The_Unïnfo_Theory-NotebookLM.mp4)
 					- Published [on YouTube](https://www.youtube.com/watch?v=OjUivFq-aLw)
 					- Note: I just gave NotebookLM a bunch of Mind Jungle, Uniinfo.md, and brainstorms, with no specific instruction, except the explicit reminder of correct pronunciations for Unïnfo terms as the “instructions” for the video overview.
-			- 7-8th, weekends
+			- 7-8th, weekends, review UniinfoNotes with NotebookLM
 				- FoC: Why arrow is content and circle is form?
 					- The open arrow cannot contain others, hence can only be content.
 						- The arrow can transport others, instead.
@@ -1092,10 +1092,29 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- It's role is the middle that enables the unlimited meta (recursion), hence the awareness & self-essence of the subject.
 						- Without the equal, the automaton is an active object only, not a subject.
 					- Only with the equal, can a subject recognize itself in mirror via the equation “this = that”.
-			- 9th, ...
+				- TODO review UniinfoNotes
+				  id:: 69af7dbd-0a7c-4d10-a5cd-6de1ab9c3040
+				  collapsed:: true
+					- > Arrow of time is the constantly mixing of the past in the present, increasing entropy.
+						- Link this arrow of time in the brainstorm about "circular time" with the entropy increase through image copy to the past
+					- check exported graph for `Now, in commit 03a0b563 , i just change the id of perceptual screen to the new one` at block ref for `perceptual screen`.
+					- check the `extent` as `concrete extension` 🤔
+						- extent is alias of **abstract extension**, not the concrete one which is the common meaning of "extension".
+					- law = Intrinsic Static (circle) instead of the balance (Equal)? 🤔
+					- “Every arrow is composed of circles (⇴).”
+						- “composed of” -> “sustained by”
+					- Update Intrinsic Balance:
+						- All circles are sustained by micro balance (point equality)
+							- circle = arrows + equal point
+						- All arrows are sustained by macro balance (yin & yang arrows)
+			- 9th, daytime of official work, then nighttime: thread = form of flow = current
 			  collapsed:: true
+				- > “current” = coarse-grained thread, “thread” = fine-grained current, compared to the resolution of the eye.
+				- abstract forms = images reflected in obops => all combined to be the content = concrete form
+				- dependent arising: each abstract form is a fiber to be spun into the thread.
+				- 緣 (duyên, pratyaya) = omnithread
+				- Selfless thread based on staggering fibers vs string of beads based on the "self" string.
 				- [Always On Memory Agent](https://github.com/GoogleCloudPlatform/generative-ai/tree/main/gemini/agents/always-on-memory-agent)
-				-
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c

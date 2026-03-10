@@ -1,16 +1,5 @@
-- > Arrow of time is the constantly mixing of the past in the present, increasing entropy.
-	- Link this arrow of time in the brainstorm about "circular time" with the entropy increase through image copy to the past
-- check exported graph for `Now, in commit 03a0b563 , i just change the id of perceptual screen to the new one` at block ref for `perceptual screen`.
-- check the `extent` as `concrete extension` 🤔
-	- extent is alias of **abstract extension**, not the concrete one which is the common meaning of "extension".
-- law = Intrinsic Static (circle) instead of the balance (Equal)? 🤔
-- “Every arrow is composed of circles (⇴).”
-	- “composed of” -> “sustained by”
-- Update Intrinsic Balance:
-	- All circles are sustained by micro balance (point equality)
-		- circle = arrows + equal point
-	- All arrows are sustained by macro balance (yin & yang arrows)
 - ---
+- ((69af7dbd-0a7c-4d10-a5cd-6de1ab9c3040))
 - 🧵 thread: total amount = 1 = sum of content in each form dimension (extent) = product of intents of all forms
 - 🤔 😁 😉 😮 😛 😜 🙁 😱 👺 ⇄
 - Ω-thread
