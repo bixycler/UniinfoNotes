@@ -9,9 +9,13 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 	- ## Braindumping < ((6960e589-a505-4522-b1e8-687dc035ac38))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- ...
-		- TODO Upgrade `gc-log-graph` to Solid to improve performance
+		- DOING Upgrade `gc-log-graph` to Solid to improve performance
 		  id:: 699c035e-c811-43ad-95e5-79ca991a611b
+		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2026-01-14 Wed 20:27:56]
+		  CLOCK: [2026-03-11 Wed 14:13:56]
 		  :END:
+			-
+			- TODO Check `npm run build` to publish `assets/` as is and include `.sh`, `.log` files.
 		- ((6960d920-8f7f-46cb-9515-107ace0e0716))
