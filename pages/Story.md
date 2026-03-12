@@ -1078,6 +1078,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Published [on YouTube](https://www.youtube.com/watch?v=OjUivFq-aLw)
 					- Note: I just gave NotebookLM a bunch of Mind Jungle, Uniinfo.md, and brainstorms, with no specific instruction, except the explicit reminder of correct pronunciations for Unïnfo terms as the “instructions” for the video overview.
 			- 7-8th, weekends, review UniinfoNotes with NotebookLM
+			  collapsed:: true
 				- FoC: Why arrow is content and circle is form?
 					- The open arrow cannot contain others, hence can only be content.
 						- The arrow can transport others, instead.
@@ -1115,6 +1116,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- 緣 (duyên, pratyaya) = omnithread
 				- Selfless thread based on staggering fibers vs string of beads based on the "self" string.
 				- [Always On Memory Agent](https://github.com/GoogleCloudPlatform/generative-ai/tree/main/gemini/agents/always-on-memory-agent)
+			- 11th,
+				- Chatting with Antigravity for official works, i see the staggering nature of dependent arising in conversation & interaction in general (just mentioned some days ago).
+					- The momentum is maintained by this staggering segments of thread: While the segment in this thread is ending, a new segment in that thread is beginning, so after this segment end, this thread must continue to follow that thread with a new segment.
+					- Turing machine has clear cut boundary between segments: A1, B1, A2, B2,... => Unrefinable
+					- Natural interactions, including human conversations, have overlaps between segments => refinable via SCIFER mechanism!
+				- The key of liberation is focusing on the present.
+					- When we're free/empty, instead of filling the void with past forms, which leads to greed, fill it with the present content.
+					- When our pleasant forms (momentum) are interrupted by sudden changes (impermanence), instead of pushing against the new, which leads to aversion, take deep breaths to dive into that new content.
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
