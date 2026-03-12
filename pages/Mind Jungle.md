@@ -2206,9 +2206,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- The key of liberation is focusing on the present.
 					  id:: 69b218a5-e59d-4279-8675-7386689fc6a4
-					  collapsed:: true
-						- When we fill empty (or in free time), instead of filling the void with past forms, which leads to greed, fill it with the present content.
+						- When we feel empty (or in free time), instead of filling the void with past forms, which leads to greed, fill it with the present content.
 						- When our pleasant forms (momentum) are interrupted by sudden changes (impermanence), instead of pushing against the new, which leads to aversion, take deep breaths to dive into that new content.
+						- Only viewing from the present, can the hidden boss – fixation from distant past – be revealed and detached in order to clear our root delusion.
 			- ### purify
 			  id:: 684f9517-f8fc-45a3-80c9-25eca00e4eda
 			  collapsed:: true
@@ -2287,8 +2287,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  id:: 68594391-faeb-4f7e-87e1-9ea179c2639b
 					- Anti-aversion with flow absorption
 					  id:: 68594391-006a-4630-964a-4a54e916b97f
-						- Use **breathworks** – ((668f5490-c223-4a8a-9cc4-0bd71af4c097)) & ((68773fad-d653-4536-87b5-d4b493753b41)) – to release momentum, relax contraction and clear blockage, in order to get rid of aversion.
+						- Use **breathworks** – ((668f5490-c223-4a8a-9cc4-0bd71af4c097)) & ((68773fad-d653-4536-87b5-d4b493753b41)) – to release momentum, relax contraction and clear blockage, instead of aversion against the unpleasant changes (impermanence).
 						  id:: 68594391-db9c-4d1a-b578-045d87d3e038
+							- Take deep breaths to dive into that new situation.
 					- Anti-delusion with conscious absorption
 						- **Watch** out the 3 poisons, comtemplate their effects, observe the reality to avoid delusion.
 						- ((6889c11f-e881-432f-ba0f-876b61afc60c)) & ((68871ce1-eb57-4be3-ad48-45af6ccb5d49)) the intents, instead of looking at the external objects & target.
