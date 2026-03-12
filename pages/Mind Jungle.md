@@ -2196,26 +2196,34 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- ((68a27d18-3504-4376-a3f4-7223d632b253))
 						- Present = hiện tiền = [pratyakṣa](https://en.wikipedia.org/wiki/Pramana#Pratyak%E1%B9%A3a) ([प्रत्यक्ष](https://sanskritdictionary.com/pratyak%E1%B9%A3a/10589/2)): [“present”](https://en.wiktionary.org/wiki/present) = “pre-” + “est” = (bring something to) be in front of (some one, some eye)
 							- pratyakṣa = “prati-” (pre-) + “akṣa” (eye [of an elephant], sense organ in general)
+			- DOING ### being present
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2026-03-12 Thu 09:14:37]
+			  CLOCK: [2026-03-12 Thu 09:14:38]
+			  :END:
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6850c7e4-0969-45b7-9ca8-e2c1d764effe))
 			- ### purify
 			  id:: 684f9517-f8fc-45a3-80c9-25eca00e4eda
+			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2024-08-17 Sat 19:09:59]
 			  CLOCK: [2025-03-11 Tue 16:07:35]--[2025-03-11 Tue 16:45:48] =>  00:38:13
 			  :END:
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The hardened contaminants & defilements which are difficult to be [broken](((66aded27-9701-4b6e-85e8-22049ddbe2d2))) should be detached from the ((669a5387-2a97-4311-a295-aa0afd9c4d76)) with [meditation (dhyāna) and contemplation](https://en.wikipedia.org/wiki/Buddhist_meditation). We should also protect ourselves from external contaminants using [ethics (sila)](https://en.wikipedia.org/wiki/Buddhist_ethics).
-			- About the terms
-				- refine = make it finer, which can be ether purer (less contaminants, defilements) or subtler (more fine-grained)
-				- purify = make it purer
-				- subtilize = make it subtler
-				- pulverize = make the particles more fine-grained
-				  collapsed:: true
-					- General terms: pulverize = "powderize", comminute, levigate (archaic) = "smoothen"
-					- Specialized result granularity: "fragment", "granulate", "decimate", "powderize", "micronize", "atomize", etc.
-					- ((66c33468-23d5-44d7-955e-6711cb608157))
-						- [Pulverization 1: Definition and purpose](https://www.thinkymixer.com/en-us/library/glossary/pulverization-1-definition-and-purpose/)
-						  > When referring to pulverization in a broad sense, “size reduction” is often used, and when it is used for transforming a solid into small pieces, “comminution” is often used.
-						- Chat GPT
-						  > Though "levigate" is not widely used, it's still technically correct, so if you like its specificity, it might be worth using, especially in a scientific or technical context.
+				- About the terms
+					- refine = make it finer, which can be ether purer (less contaminants, defilements) or subtler (more fine-grained)
+					- purify = make it purer
+					- subtilize = make it subtler
+					- pulverize = make the particles more fine-grained
+					  collapsed:: true
+						- General terms: pulverize = "powderize", comminute, levigate (archaic) = "smoothen"
+						- Specialized result granularity: "fragment", "granulate", "decimate", "powderize", "micronize", "atomize", etc.
+						- ((66c33468-23d5-44d7-955e-6711cb608157))
+							- [Pulverization 1: Definition and purpose](https://www.thinkymixer.com/en-us/library/glossary/pulverization-1-definition-and-purpose/)
+							  > When referring to pulverization in a broad sense, “size reduction” is often used, and when it is used for transforming a solid into small pieces, “comminution” is often used.
+							- Chat GPT
+							  > Though "levigate" is not widely used, it's still technically correct, so if you like its specificity, it might be worth using, especially in a scientific or technical context.
 		- 3 directions
 		  id:: 68392a13-c350-4962-bd37-b819c8e1f931
 		  collapsed:: true
