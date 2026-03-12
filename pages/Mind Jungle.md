@@ -2196,19 +2196,20 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- ((68a27d18-3504-4376-a3f4-7223d632b253))
 						- Present = hiện tiền = [pratyakṣa](https://en.wikipedia.org/wiki/Pramana#Pratyak%E1%B9%A3a) ([प्रत्यक्ष](https://sanskritdictionary.com/pratyak%E1%B9%A3a/10589/2)): [“present”](https://en.wiktionary.org/wiki/present) = “pre-” + “est” = (bring something to) be in front of (some one, some eye)
 							- pratyakṣa = “prati-” (pre-) + “akṣa” (eye [of an elephant], sense organ in general)
-			- DOING ### being present
+			- ### being present
 			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2026-03-12 Thu 09:14:37]
-			  CLOCK: [2026-03-12 Thu 09:14:38]
+			  CLOCK: [2026-03-12 Thu 09:14:38]--[2026-03-12 Thu 09:55:14] =>  00:40:36
 			  :END:
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Throughout the life, we're mostly enslaved to the past ((665ca429-84e3-49ff-921e-c07d19cd99ba))s – our ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))s – which continuously command us to replicate themselves in future images. To cut that chain of slavery, we need to practice meditation to [absorb into the present](((6850c7e4-0969-45b7-9ca8-e2c1d764effe))).
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Throughout life, we're mostly enslaved to the past ((665ca429-84e3-49ff-921e-c07d19cd99ba))s – our ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))s – which are constantly commanding us to replicate them in future images. To cut that chain of slavery, we need to practice meditation to [absorb into the present](((6850c7e4-0969-45b7-9ca8-e2c1d764effe))).
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- The key of liberation is focusing on the present.
 					  id:: 69b218a5-e59d-4279-8675-7386689fc6a4
+					  collapsed:: true
 						- When we feel empty (or in free time), instead of filling the void with past forms, which leads to greed, fill it with the present content.
 						- When our pleasant forms (momentum) are interrupted by sudden changes (impermanence), instead of pushing against the new, which leads to aversion, take deep breaths to dive into that new content.
-						- Only viewing from the present, can the hidden boss – fixation from distant past – be revealed and detached in order to clear our root delusion.
+						- Only viewing from the present, can the hidden boss – fixation from distant past – be revealed and detached, in order to clear our root delusion.
 			- ### purify
 			  id:: 684f9517-f8fc-45a3-80c9-25eca00e4eda
 			  collapsed:: true
@@ -2293,7 +2294,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Anti-delusion with conscious absorption
 						- **Watch** out the 3 poisons, comtemplate their effects, observe the reality to avoid delusion.
 						- ((6889c11f-e881-432f-ba0f-876b61afc60c)) & ((68871ce1-eb57-4be3-ad48-45af6ccb5d49)) the intents, instead of looking at the external objects & target.
-							- This inward observation closes the ((667c0031-0a87-44c9-9e98-6d45893b095f)) of the bodymind to free it from karma and influences of the external world.
+							- This inward observation closes the ((667c0031-0a87-44c9-9e98-6d45893b095f)) of the bodymind to free it from karma (hidden boss) and influences of the external world.
 							- The delusion will be transformed to wisdom ([paññā](https://en.wikipedia.org/wiki/Wisdom_in_Buddhism)) by the change of the internal reality (intent equalization), instead of the actions to change the external reality.
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- ((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00)) = ((6846d92b-cc0c-4db5-8b1d-766ec5a0d823)) = [multi-segment articulated arm](https://en.wikipedia.org/wiki/Articulated_robot) ([kinematic chain](https://en.wikipedia.org/wiki/Kinematic_chain)) = ((68874adb-f452-45ba-ae76-8582bdd9035f)) = ((685156b0-2f3b-4aa9-8b87-636d38a02cd2))
