@@ -1078,7 +1078,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Published [on YouTube](https://www.youtube.com/watch?v=OjUivFq-aLw)
 					- Note: I just gave NotebookLM a bunch of Mind Jungle, Uniinfo.md, and brainstorms, with no specific instruction, except the explicit reminder of correct pronunciations for Unïnfo terms as the “instructions” for the video overview.
 			- 7-8th, weekends, review UniinfoNotes with NotebookLM
-			  collapsed:: true
 				- FoC: Why arrow is content and circle is form?
 					- The open arrow cannot contain others, hence can only be content.
 						- The arrow can transport others, instead.
@@ -1109,6 +1108,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- circle = arrows + equal point
 						- All arrows are sustained by macro balance (yin & yang arrows)
 			- 9th, daytime of official work, then nighttime: thread = form of flow = current
+			  id:: 69af7d27-1481-46a0-bf18-a995c8cbba7e
 			  collapsed:: true
 				- > “current” = coarse-grained thread, “thread” = fine-grained current, compared to the resolution of the eye.
 				- abstract forms = images reflected in obops => all combined to be the content = concrete form
@@ -1117,7 +1117,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Selfless thread based on staggering fibers vs string of beads based on the "self" string.
 				- [Always On Memory Agent](https://github.com/GoogleCloudPlatform/generative-ai/tree/main/gemini/agents/always-on-memory-agent)
 			- 11th,
-				- Chatting with Antigravity for official works, i see the staggering nature of dependent arising in conversation & interaction in general (just mentioned some days ago).
+				- Chatting with Antigravity for official works, i see the staggering nature of dependent arising in conversation & interaction in general (just mentioned some days ago: [4th](((69a7a206-cc6a-44ab-85ed-1b728d75489f))), [9th](((69af7d27-1481-46a0-bf18-a995c8cbba7e)))).
 					- The momentum is maintained by this staggering segments of thread: While the segment in this thread is ending, a new segment in that thread is beginning, so after this segment end, this thread must continue to follow that thread with a new segment.
 					- Turing machine has clear cut boundary between segments: A1, B1, A2, B2,... => Unrefinable
 					- Natural interactions, including human conversations, have overlaps between segments => refinable via SCIFER mechanism!

@@ -42,10 +42,8 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  whole-word:: false
 		  filter::
 		  child-filter::
-		  search-scope:: Specific blocks: ((69a50996-6fe3-4880-b16c-c5460b604868))
-		  search-scope-page:: Main docs:
-		  collapsed:: true
-		  [[Uniinfo]], [[Mind Jungle]], [[Task]], [[Git]], [[Linux]], [[JavaScript]], [[Database]]; Extended: [[Brainstorm]], [[Story]], [[Braindump]], [[Workspace]];  History: [[2024 Brainstorms]], [[2025 Brainstorms]], [[2024 Stories]], [[2025 Stories]], [[Mind Chips]];
+		  search-scope:: Specific blocks: 
+		  search-scope-page:: Main docs: [[Uniinfo]], [[Mind Jungle]], [[Task]], [[Git]], [[Linux]], [[JavaScript]], [[Database]]; Extended: [[Brainstorm]], [[Story]], [[Braindump]], [[Workspace]];  History: [[2024 Brainstorms]], [[2025 Brainstorms]], [[2024 Stories]], [[2025 Stories]], [[Mind Chips]];
 		  Old History: [[2024 Tasks]], [[2025 Braindumps]], [[2020 Mind Chips]], [[2021 Mind Chips]], [[2022 Mind Chips]], [[2023 Mind Chips]], [[2025 Mind Chips]], [[2025 Mind Chips]];
 			- {{search-query [:h3 "Full-text Search Result"], 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, true, true}}
 			  query-table:: false

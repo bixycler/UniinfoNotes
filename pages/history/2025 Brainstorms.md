@@ -1720,7 +1720,7 @@ id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
 					- 5. Legal Context
 					  > The responsibilities **proper to** a trustee are outlined in the legal document.
 		- It's interesting that both Schwartz and Schwarzschild start with the “schwarz” = “black” and coincide with the [schwa `ə`](https://www.britannica.com/topic/schwa) = “null”! 😊
-	- stagger = link (in space) = continuation (in time) = momentum
+	- [stagger](https://www.facebook.com/share/p/35j9SSuqSJj76tWY/) = link (in space) = continuation (in time) = momentum
 	  id:: 67b54283-14b2-4753-94bb-4d827d54d7cc
 	  collapsed:: true
 	  :LOGBOOK:

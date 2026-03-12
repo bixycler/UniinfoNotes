@@ -153,7 +153,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			- This is a [reciprocal spiral](https://mathcurve.com/courbes2d.gb/hyperbolic/hyperbolic.shtml) or [hyperbolic spiral](https://en.wikipedia.org/wiki/Hyperbolic_spiral) with initial phase $φ_0$.
 			  id:: 675a85a5-1927-468b-b11d-e2057b8dbe63
 				- Sector area: $A(r_1, r_2) = ½ r_0(r_2 - r_1)$
-				- The staggered starting marks of footraces on concentric circle lanes are on a reciprocal spiral.
+				- The [staggered](((67b54283-14b2-4753-94bb-4d827d54d7cc))) starting marks of footraces on concentric circle lanes are on a reciprocal spiral.
 					- These runners are running “back” to the initial sync position, a.k.a. the “finish line”.
 					  collapsed:: true
 						- ![Men_200_m_French_Athletics_Championships_2013_t161532.jpg](../assets/Uniinfo/Unithread/Men_200_m_French_Athletics_Championships_2013_t161532.jpg)
