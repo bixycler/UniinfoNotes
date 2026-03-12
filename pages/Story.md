@@ -1116,14 +1116,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- 緣 (duyên, pratyaya) = omnithread
 				- Selfless thread based on staggering fibers vs string of beads based on the "self" string.
 				- [Always On Memory Agent](https://github.com/GoogleCloudPlatform/generative-ai/tree/main/gemini/agents/always-on-memory-agent)
-			- 11th,
-				- Chatting with Antigravity for official works, i see the staggering nature of dependent arising in conversation & interaction in general (just mentioned some days ago: [4th](((69a7a206-cc6a-44ab-85ed-1b728d75489f))), [9th](((69af7d27-1481-46a0-bf18-a995c8cbba7e)))).
-					- The momentum is maintained by this staggering segments of thread: While the segment in this thread is ending, a new segment in that thread is beginning, so after this segment end, this thread must continue to follow that thread with a new segment.
-					- Turing machine has clear cut boundary between segments: A1, B1, A2, B2,... => Unrefinable
-					- Natural interactions, including human conversations, have overlaps between segments => refinable via SCIFER mechanism!
-				- The key of liberation is focusing on the present.
-					- When we're free/empty, instead of filling the void with past forms, which leads to greed, fill it with the present content.
-					- When our pleasant forms (momentum) are interrupted by sudden changes (impermanence), instead of pushing against the new, which leads to aversion, take deep breaths to dive into that new content.
+			- 11th, chatting with Antigravity for official works, i see ((69b21d98-6152-4c03-9375-8627f8ad70ba)) (just mentioned some days ago: [4th](((69a7a206-cc6a-44ab-85ed-1b728d75489f))), [9th](((69af7d27-1481-46a0-bf18-a995c8cbba7e)))).
+			  collapsed:: true
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
