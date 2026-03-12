@@ -2202,7 +2202,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  CLOCK: [2026-03-12 Thu 09:14:37]
 			  CLOCK: [2026-03-12 Thu 09:14:38]
 			  :END:
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6850c7e4-0969-45b7-9ca8-e2c1d764effe))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Throughout the life, we're mostly enslaved to the past ((665ca429-84e3-49ff-921e-c07d19cd99ba))s – our ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))s – which continuously command us to replicate themselves in future images. ((6850c7e4-0969-45b7-9ca8-e2c1d764effe))
 			- ### purify
 			  id:: 684f9517-f8fc-45a3-80c9-25eca00e4eda
 			  collapsed:: true
