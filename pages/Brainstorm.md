@@ -18,11 +18,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  CLOCK: [2026-03-12 Thu 08:57:46]
 		  CLOCK: [2026-03-12 Thu 08:58:10]
 		  :END:
-			- The momentum is maintained by staggered segments of thread: While the segment in this thread is ending, a new segment in that thread is beginning, so after this segment end, this thread must continue to follow that thread with a new segment.
+			- The momentum is maintained by staggered segments of ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)): While the segment in this thread (A1) is ending, a new segment in that thread (B1) is beginning, so after this segment (A1) end, this thread (A) must continue to follow that thread (B) with a new segment (A2).
 			- Turing machine has clear cut boundary between segments: A1, B1, A2, B2,... ⇒ Unrefinable
-			- Natural interactions, including human conversations, have overlaps between segments ⇒ refinable via SCIFER mechanism!
+			- Natural interactions, including human conversations, have overlaps between segments ⇒ refinable via ((66f40210-cca6-4d81-85e7-d0c54ef20451)) mechanism!
 			- ⇒ The key of liberation is focusing on the present.
-				- When we're free/empty, instead of filling the void with past forms, which leads to greed, fill it with the present content.
+				- When we fill empty (or in free time), instead of filling the void with past forms, which leads to greed, fill it with the present content.
 				- When our pleasant forms (momentum) are interrupted by sudden changes (impermanence), instead of pushing against the new, which leads to aversion, take deep breaths to dive into that new content.
 		- Transforms in effect circles
 		  id:: 69a7e2e4-eac2-45c4-83ce-f08eaa4c6f5f
