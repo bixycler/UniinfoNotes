@@ -11,19 +11,16 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2026 Brainstorms
 	  id:: 6960e754-ff94-4e1a-8266-d9f15231b880
-		- DOING The [staggering nature](((67b54283-14b2-4753-94bb-4d827d54d7cc))) of dependent arising in conversation & interaction in general
+		- The [staggering nature](((67b54283-14b2-4753-94bb-4d827d54d7cc))) of dependent arising in conversation & interaction in general
 		  id:: 69b21d98-6152-4c03-9375-8627f8ad70ba
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2026-03-12 Thu 08:57:46]
-		  CLOCK: [2026-03-12 Thu 08:58:10]
+		  CLOCK: [2026-03-12 Thu 08:58:10]--[2026-03-12 Thu 09:43:15] =>  00:45:05
 		  :END:
 			- The momentum is maintained by staggered segments of ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)): While the segment in this thread (A1) is ending, a new segment in that thread (B1) is beginning, so after this segment (A1) end, this thread (A) must continue to follow that thread (B) with a new segment (A2).
 			- Turing machine has clear cut boundary between segments: A1, B1, A2, B2,... ⇒ Unrefinable
 			- Natural interactions, including human conversations, have overlaps between segments ⇒ refinable via ((66f40210-cca6-4d81-85e7-d0c54ef20451)) mechanism!
-			- ⇒ The key of liberation is focusing on the present.
-				- When we fill empty (or in free time), instead of filling the void with past forms, which leads to greed, fill it with the present content.
-				- When our pleasant forms (momentum) are interrupted by sudden changes (impermanence), instead of pushing against the new, which leads to aversion, take deep breaths to dive into that new content.
 		- Transforms in effect circles
 		  id:: 69a7e2e4-eac2-45c4-83ce-f08eaa4c6f5f
 		  collapsed:: true
