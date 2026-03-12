@@ -2202,7 +2202,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  CLOCK: [2026-03-12 Thu 09:14:37]
 			  CLOCK: [2026-03-12 Thu 09:14:38]--[2026-03-12 Thu 09:55:14] =>  00:40:36
 			  :END:
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Throughout life, we're mostly enslaved to the past ((665ca429-84e3-49ff-921e-c07d19cd99ba))s – our ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))s – which are constantly commanding us to replicate them in future images. To cut that chain of slavery, we need to practice meditation to [absorb into the present](((6850c7e4-0969-45b7-9ca8-e2c1d764effe))).
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Throughout life, we're mostly enslaved to the past ((665ca429-84e3-49ff-921e-c07d19cd99ba))s – our ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))s – which constantly command us to replicate them in our images about the future. To cut this chain of slavery, we need to practice meditation to [absorb into the present](((6850c7e4-0969-45b7-9ca8-e2c1d764effe))).
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- The key of liberation is focusing on the present.
 					  id:: 69b218a5-e59d-4279-8675-7386689fc6a4
