@@ -1104,6 +1104,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  :LOGBOOK:
 					  CLOCK: [2026-03-13 Fri 17:51:46]
 					  :END:
+						- ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)) vs ((66e3c1b8-fe3d-41b7-a8f7-ca3ddae0eb50))
 					- DONE check the `extent` as `concrete extension` 🤔
 					  :LOGBOOK:
 					  CLOCK: [2026-03-13 Fri 17:25:47]--[2026-03-13 Fri 17:50:49] =>  00:25:02
