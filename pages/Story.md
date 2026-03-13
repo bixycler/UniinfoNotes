@@ -1103,7 +1103,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- check exported graph for `Now, in commit 03a0b563 , i just change the id of perceptual screen to the new one` at block ref for `perceptual screen`.
 					- check the `extent` as `concrete extension` 🤔
 						- extent is alias of **abstract extension**, not the concrete one which is the common meaning of "extension".
-					- law = Intrinsic Static (circle) instead of the balance (Equal)? 🤔
+					- DOING law = Intrinsic Static (circle) instead of the balance (Equal)? 🤔
+					  :LOGBOOK:
+					  CLOCK: [2026-03-13 Fri 15:45:21]
+					  :END:
 					- DONE “Every arrow is composed of circles (⇴).”
 					  :LOGBOOK:
 					  CLOCK: [2026-03-13 Fri 15:37:52]--[2026-03-13 Fri 15:37:54] =>  00:00:02
