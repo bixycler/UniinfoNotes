@@ -114,7 +114,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 				- ![IntrinsicsTriangle](https://docs.google.com/drawings/d/1yITOpbtT6izDElzNZVqwtBUTyU5q04aREW88AKmNSQM/pub?w=415&h=268)
 			- ### Intrinsic Static
 			  id:: 66f3e66a-8afb-4b20-bf85-111bc4aee09c
-				- “Every arrow is composed of circles (⇴).” 
+				- “Every arrow is sustained by circles (⇴).” 
 				  Just like a vehicle moving with its wheels, every change has its invariant(s), every motion has its law(s). The law of motion is invariant, the wheels of moving vehicle are invariant. Because they are invariants underlying the variants, they are called “intrinsic statics”.
 					- ![Intrinsic static of arrow.png](../assets/Uniinfo/Intrinsic static of arrow.png)
 				- “Every equal is in the shape of circle (⊜).”
@@ -148,6 +148,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					- ![Intrinsic balance - macro.png](../assets/Uniinfo/Intrinsic balance - macro.png)
 				- “Every circle is sustained by the micro balance of the selfless eye (⇌).”
 				  When we reduce the self to zero, just look at the contact point, the incidence point, we see the contacting parties always balance each other. Such ((66e40f4b-34ae-499a-8192-0a0f4f580c7e)) is the “glue” sutaining all circles.
+					- Combining the ((66f3e588-9094-45af-9dff-2225c3ac39ab)), we have “circle = arrows + equal points”: a circle is just a chain of arrows glued head-to-tail by equal points.
 					- ![Intrinsic balance - micro.png](../assets/Uniinfo/Intrinsic balance - micro.png)
 		- ### Vacantism
 		  id:: 66f3ed94-4f20-4166-8e9b-2e8ba53aaad2

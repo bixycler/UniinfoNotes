@@ -1092,20 +1092,30 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- It's role is the middle that enables the unlimited meta (recursion), hence the awareness & self-essence of the subject.
 						- Without the equal, the automaton is an active object only, not a subject.
 					- Only with the equal, can a subject recognize itself in mirror via the equation “this = that”.
-				- TODO review UniinfoNotes
+				- DOING review UniinfoNotes
 				  id:: 69af7dbd-0a7c-4d10-a5cd-6de1ab9c3040
 				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2026-03-13 Fri 15:33:50]
+				  :END:
 					- > Arrow of time is the constantly mixing of the past in the present, increasing entropy.
 						- Link this arrow of time in the brainstorm about "circular time" with the entropy increase through image copy to the past
 					- check exported graph for `Now, in commit 03a0b563 , i just change the id of perceptual screen to the new one` at block ref for `perceptual screen`.
 					- check the `extent` as `concrete extension` 🤔
 						- extent is alias of **abstract extension**, not the concrete one which is the common meaning of "extension".
 					- law = Intrinsic Static (circle) instead of the balance (Equal)? 🤔
-					- “Every arrow is composed of circles (⇴).”
+					- DONE “Every arrow is composed of circles (⇴).”
+					  :LOGBOOK:
+					  CLOCK: [2026-03-13 Fri 15:37:52]--[2026-03-13 Fri 15:37:54] =>  00:00:02
+					  :END:
 						- “composed of” -> “sustained by”
-					- Update Intrinsic Balance:
+					- DONE Update Intrinsic Balance:
+					  :LOGBOOK:
+					  CLOCK: [2026-03-13 Fri 15:38:08]--[2026-03-13 Fri 15:38:09] =>  00:00:01
+					  CLOCK: [2026-03-13 Fri 15:38:10]--[2026-03-13 Fri 15:42:21] =>  00:04:11
+					  :END:
 						- All circles are sustained by micro balance (point equality)
-							- circle = arrows + equal point
+							- circle = arrows + equal points
 						- All arrows are sustained by macro balance (yin & yang arrows)
 			- 9th, daytime of official work, then nighttime: thread = form of flow = current
 			  id:: 69af7d27-1481-46a0-bf18-a995c8cbba7e
