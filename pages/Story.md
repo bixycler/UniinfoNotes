@@ -1101,9 +1101,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- > Arrow of time is the constantly mixing of the past in the present, increasing entropy.
 						- Link this arrow of time in the brainstorm about "circular time" with the entropy increase through image copy to the past
 					- check exported graph for `Now, in commit 03a0b563 , i just change the id of perceptual screen to the new one` at block ref for `perceptual screen`.
-					- check the `extent` as `concrete extension` 🤔
+					- DOING check the `extent` as `concrete extension` 🤔
+					  :LOGBOOK:
+					  CLOCK: [2026-03-13 Fri 17:25:47]
+					  :END:
 						- extent is alias of **abstract extension**, not the concrete one which is the common meaning of "extension".
-					- DOING law = Intrinsic Static (circle) instead of the balance (Equal)? 🤔
+					- DOING law = [Intrinsic Static](((699c0363-a78b-4ca8-9992-be7a20d09026))) (circle) instead of the balance (Equal)? 🤔
 					  :LOGBOOK:
 					  CLOCK: [2026-03-13 Fri 15:45:21]
 					  :END:

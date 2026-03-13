@@ -115,6 +115,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 			- ### Intrinsic Static
 			  id:: 66f3e66a-8afb-4b20-bf85-111bc4aee09c
 				- “Every arrow is sustained by circles (⇴).” 
+				  id:: 699c0363-a78b-4ca8-9992-be7a20d09026
 				  Just like a vehicle moving with its wheels, every change has its invariant(s), every motion has its law(s). The law of motion is invariant, the wheels of moving vehicle are invariant. Because they are invariants underlying the variants, they are called “intrinsic statics”.
 					- ![Intrinsic static of arrow.png](../assets/Uniinfo/Intrinsic static of arrow.png)
 				- “Every equal is in the shape of circle (⊜).”
@@ -2910,10 +2911,13 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 	- ## extent
 	  id:: 66b1cfa4-3a39-4672-9da2-cd3bcef71702
 	  collapsed:: true
-	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f949a4-675e-4c43-8da3-f2754ba2e128))
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((69b3e6c8-735f-437d-9a7f-1a2841bfb336))
 		- extension
 		  id:: 66f949a4-675e-4c43-8da3-f2754ba2e128
-		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66b1cfa4-3a39-4672-9da2-cd3bcef71702))
+			- abstract extension
+			  id:: 69b3e6c8-735f-437d-9a7f-1a2841bfb336
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66b1cfa4-3a39-4672-9da2-cd3bcef71702))
+			- concrete extension
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66b1cfa4-3a39-4672-9da2-cd3bcef71702)) is an umbrella term capturing the abstract notion of “the part of ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) extended from the ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))”: the ((66ab6161-0306-42d5-ac16-4155c69216f5)) whose a special case is the daily used [extent](https://en.wiktionary.org/wiki/extent#Noun), the semantical [extension](https://en.wikipedia.org/wiki/Extension_(semantics)), the ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)) in CIE, etc. Note that the semantical “extension” here refers to the ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of the collection of objects referenced by the intension, where that form is just an image inside the subject.
 	- ## world
 	  id:: 667cfac2-17f1-4cbd-9f6d-1e722ff2a870
