@@ -126,6 +126,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 			- ### Intrinsic Dynamic
 			  id:: 66f3e588-9094-45af-9dff-2225c3ac39ab
 				- “Every circle is composed of arrows (⥁).”
+				  id:: 699c0363-0995-47fc-9e99-fdc7a36a375f
 				  Just like a spinning top or a high-speed fan, some object looks static because it's moving in circle, its motion is looping back, it's going back and forth (🗘).
 					- As the fan spins too fast, we can only see it as a stationary solid disk, while its blades are actually rotating under the hood.
 					- ![spinning_top.gif](../assets/Uniinfo/spinning_top.gif){:width 50, :height 50} ![3-speeds-fan.png](../assets/Uniinfo/3-speeds-fan.png){:width 300}
