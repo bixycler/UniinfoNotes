@@ -2318,7 +2318,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					  :END:
 			- cause–effect mirror circles
 			  id:: 6889a623-34cd-4b65-8a91-5cfdbb199b71
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6889a623-34cd-4b65-8a91-5cfdbb199b71)), or simply “mirror circles”, are interlocking multiple ((667c0031-0a87-44c9-9e98-6d45893b095f))s formed by the folding of ((6851578b-9b1f-4367-878f-79b0b0b9be51)).
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6889a623-34cd-4b65-8a91-5cfdbb199b71)), or simply “mirror circles”, are interlocking multiple ((667c0031-0a87-44c9-9e98-6d45893b095f))s formed by the folding of ((6851578b-9b1f-4367-878f-79b0b0b9be51)) into a [grand circle](((6772a6cd-771f-4f24-9c3a-39c442234be5))).
 					- external effect circle
 					  id:: 6909a3ff-8c16-4222-967a-f019759ca65c
 					  The base of the effect cone folds back, through the external world, to be the base of the cause cone, forming the external effect circle.

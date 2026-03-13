@@ -20,7 +20,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- It's contradictory, because its nature of ((6731c4d6-25b6-4081-a080-4ffaa5218ec7)) means openness, while its nature of ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) means closedness. In other words, consciousness = closed openness 😛!
 			- The consciousness is just open to the... internal world 😆!
 			- The internal mental world is no less vast than the external physical world. Moreover, they are not as separate as we usually think, they are linked together in the continuous [grand circle](((6772a6cd-771f-4f24-9c3a-39c442234be5))).
-				- The two worlds are constantly mirroring each other
+				- The two worlds are constantly mirroring each other through the ((6889a623-34cd-4b65-8a91-5cfdbb199b71)).
+			- Such vacancy (openness) and circularity (closedness) of the cause–effect mirroring grand circle are the characteristics of the ((66f3d5cc-0d68-47bb-b09a-87cda33c7354)) – the concious essence of the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)).
 		- The [staggering nature](((67b54283-14b2-4753-94bb-4d827d54d7cc))) of dependent arising in conversation & interaction in general
 		  id:: 69b21d98-6152-4c03-9375-8627f8ad70ba
 		  collapsed:: true
