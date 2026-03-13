@@ -1171,14 +1171,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  [sensation](((689962b4-29d3-4fa0-9ad0-addaa6224369))) → [normal awareness](((6899629f-494f-483d-9f0d-e58da911ae1c))) → [consciousness](((689962c3-fb89-4340-9148-e0703fdbe950)))
 			- ((6731c4d6-25b6-4081-a080-4ffaa5218ec7)) = physical awareness
 			  id:: 689962b4-29d3-4fa0-9ad0-addaa6224369
-				- Being ((6731c3ce-d9ae-4413-bada-7527ad5125b0)) to some signal means simply being open to receive that (raw) signal.
+				- Being ((6731c3ce-d9ae-4413-bada-7527ad5125b0)) to some signal means simply being **open** to receive that (raw) signal.
 				  :LOGBOOK:
 				  CLOCK: [2024-11-11 Mon 14:10:20]
 				  :END:
 				- This is the **primitive awareness** of simplexes, like [elementary particles](https://en.wikipedia.org/wiki/Elementary_particle), whose self-circle has only one layer.
 			- normal ((66f267f7-01f9-47b9-8376-abd27fdf2930)) = mental awareness
 			  id:: 6899629f-494f-483d-9f0d-e58da911ae1c
-				- Being ((66f267bf-5272-4dde-99a1-b220ba5bd852)) of some thing means not only sensing its content but also recognizing its form as a whole which is abstracted as a ((671e0f99-c35c-45f3-9f80-4d9cf00063de)).
+				- Being ((66f267bf-5272-4dde-99a1-b220ba5bd852)) of some thing means not only sensing its content but also _recognizing its **form**_ as a whole which is abstracted as a ((671e0f99-c35c-45f3-9f80-4d9cf00063de)).
 				- This is the secondary awareness, normally refered as simply “awareness”, of any subject complex enough to have at least 2 self-circles: body & mind.
 			- ((66f2681b-796a-4e25-b778-ba4fb6419425)) = self-awareness
 			  id:: 689962c3-fb89-4340-9148-e0703fdbe950
