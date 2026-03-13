@@ -1145,8 +1145,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 13th, total confusion between directions!
 			  collapsed:: true
 				- Asking AI artists to draw an illustration for the [intrinsic dynamic](((699c0363-0995-47fc-9e99-fdc7a36a375f))), i was baffled by the consistently “reverse” direction in these images.
-				- Asking Google AI Mode, after another lot of baffling and clarification (mental debugging), i finally acknowledge the cause was the _artistic **convention** of speed lines_
-				- ![3-speeds-fan.png](../assets/Uniinfo/3-speeds-fan.png){:width 300}
+				- Asking Google AI Mode, after another lot of baffling and clarification (mental debugging), i finally acknowledged the cause was the _artistic **convention** of speed lines_ “to be drawn ahead of the blade”.
+				- But my reality check with [Wikipedia](https://en.wikipedia.org/wiki/Motion_lines) and [Pinterest](https://www.pinterest.com/ideas/drawing-speed-lines/947150578367/) shows nothing drawn ahead the motion! 😮
+				- Clockwise:
+				  ![3-speeds-fan.png](../assets/Will/story/2026-03/3-speeds-fan.png)
+				- Anticlockwise:
+				  ![3-speeds-fan-anticlockwise.png](../assets/Will/story/2026-03/3-speeds-fan-anticlockwise.png)
+				- Clockwise:
+				  ![3-speeds-fan_plastic-blades.png](../assets/Will/story/2026-03/3-speeds-fan_plastic-blades.png)
+				- ![real-plastic-fan-blades.jpeg](../assets/Will/story/2026-03/real-plastic-fan-blades.jpeg)
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
