@@ -4149,6 +4149,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  i clear all backup and graph DB to reset the app back to sources.
 						  => The broken refs were revealed.
 						- Now, in commit `03a0b563`, i just change the id of `perceptual screen` to the new one `id:: 66ea4711-1392-4f5c-bea2-badc71a2fb9e`
+						  id:: 699c035f-9209-42ac-b0bd-44500c5549a3
 							- instead of reverting all of is block refs to the orinal one `((66e3c1b8-fe3d-41b7-a8f7-ca3ddae0eb50))`.
 						- Similar symptom: ((6835b164-a48e-4b8e-86c6-8b543c53766a))
 				- Adjacent move with hotkey

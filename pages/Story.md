@@ -1104,7 +1104,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  :LOGBOOK:
 					  CLOCK: [2026-03-13 Fri 17:51:46]--[2026-03-13 Fri 18:09:44] =>  00:17:58
 					  :END:
-						- Nothing wrong!
+						- The exporter mistook the *code* `id:: 66ea4711-1392-4f5c-bea2-badc71a2fb9e` with the id of the block:
+						  ```
+						  Now, in commit `03a0b563`, i just change the id of `perceptual screen` to the new one `id:: 66ea4711-1392-4f5c-bea2-badc71a2fb9e`
+						  ```
+						- ⇒ That block is injected into all ref of `perceptual screen`! 😁
 					- DONE check the `extent` as `concrete extension` 🤔
 					  :LOGBOOK:
 					  CLOCK: [2026-03-13 Fri 17:25:47]--[2026-03-13 Fri 17:50:49] =>  00:25:02
