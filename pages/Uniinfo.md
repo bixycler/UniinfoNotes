@@ -1726,7 +1726,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					- The **intent** is the internal form, the structure of the obop with the shape of a circle, just like a bottle, denoted by its capacity, usually normalized to $i = 1 = 100\%$.
 					- The **content** is the “water” being poured into the bottle, denoted by its percentage $c$ (%) in the bottle.
 					- The **extent** is the number of bottles, $e = c/i$, measuring the amount of water.
-					- ((66c8369a-ccb8-4f1f-b12b-bf7054cb79e4))ing the actual content, the extent itself shows the *possible number of bottles*, i.e. **possibilities**, called “**abstract extensions**” which are mere natural numbers $0, 1, 2, ...$
+					- ((66c8369a-ccb8-4f1f-b12b-bf7054cb79e4))ing the actual content, the extent itself shows the *possible number of bottles*, i.e. **possibilities**, called ((69b3e6c8-735f-437d-9a7f-1a2841bfb336))s which are mere natural numbers $0, 1, 2, ...$
 					  collapsed:: true
 						- Each number (extent) has two meanings:
 							- cardinal number, like 3, showing the number of possibilities, the size of possibility space, the extent of the extension set;
@@ -1740,7 +1740,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 							- The (0th extension = the inent = the form) is extensionally contained in no extensions and intensionally included in all extensions.
 							- The 0th is incomparable to non-zeroth: while the intent defines the amount of content of each extension, the crystalized content of the intent is incomparable to any particular extension.
 					- When a bottle is *partially filled*, e.g. $c = 30\% = 0.3i$, it has the **potential** of being full 100%, but not yet, hence *unfulfilled*.
-					- When a bottle is *fully filled*, i.e. “***fulfilled***”, a new **concrete extension** is produced which is not an abstract number but an *actual bottle of water*, hence an **action**.
+					- When a bottle is *fully filled*, i.e. “***fulfilled***”, a new ((69b3e6d4-8fbe-4f08-94e3-a3cfbbb3980a)) is produced which is not an abstract number but an *actual bottle of water*, hence an **action**.
 					- Real life instances of this model are the [water scoop](https://en.wikipedia.org/wiki/Water_scoop_(hydropower)) (monjolo, [cối giã nước](https://baonghean.vn/doc-dao-chiec-coi-gia-gao-bang-suc-nuoc-o-tay-nghe-an-10091303.html)), the [shishi-odoshi](https://en.wikipedia.org/wiki/Shishi-odoshi).
 					  id:: 699c0362-1cb5-483f-ac28-dddd26c54fb1
 					  collapsed:: true
@@ -2918,6 +2918,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 			  id:: 69b3e6c8-735f-437d-9a7f-1a2841bfb336
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66b1cfa4-3a39-4672-9da2-cd3bcef71702))
 			- concrete extension
+			  id:: 69b3e6d4-8fbe-4f08-94e3-a3cfbbb3980a
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66b1cfa4-3a39-4672-9da2-cd3bcef71702)) is an umbrella term capturing the abstract notion of “the part of ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) extended from the ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))”: the ((66ab6161-0306-42d5-ac16-4155c69216f5)) whose a special case is the daily used [extent](https://en.wiktionary.org/wiki/extent#Noun), the semantical [extension](https://en.wikipedia.org/wiki/Extension_(semantics)), the ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)) in CIE, etc. Note that the semantical “extension” here refers to the ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of the collection of objects referenced by the intension, where that form is just an image inside the subject.
 	- ## world
 	  id:: 667cfac2-17f1-4cbd-9f6d-1e722ff2a870
