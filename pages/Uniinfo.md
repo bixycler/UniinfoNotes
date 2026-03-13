@@ -2916,9 +2916,11 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 		  id:: 66f949a4-675e-4c43-8da3-f2754ba2e128
 			- abstract extension
 			  id:: 69b3e6c8-735f-437d-9a7f-1a2841bfb336
-			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66b1cfa4-3a39-4672-9da2-cd3bcef71702))
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66b1cfa4-3a39-4672-9da2-cd3bcef71702)), ((670e0d9a-a926-49ca-951c-7013b2b29e8c))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In Unïnfo, whenever we say “extent”, we mean an abstract form, a mere image of the object created by the subject.
 			- concrete extension
 			  id:: 69b3e6d4-8fbe-4f08-94e3-a3cfbbb3980a
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f4e208-37c7-4749-a448-0722f7f7af20))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66b1cfa4-3a39-4672-9da2-cd3bcef71702)) is an umbrella term capturing the abstract notion of “the part of ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) extended from the ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))”: the ((66ab6161-0306-42d5-ac16-4155c69216f5)) whose a special case is the daily used [extent](https://en.wiktionary.org/wiki/extent#Noun), the semantical [extension](https://en.wikipedia.org/wiki/Extension_(semantics)), the ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)) in CIE, etc. Note that the semantical “extension” here refers to the ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of the collection of objects referenced by the intension, where that form is just an image inside the subject.
 	- ## world
 	  id:: 667cfac2-17f1-4cbd-9f6d-1e722ff2a870
