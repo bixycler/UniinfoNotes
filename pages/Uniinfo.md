@@ -140,10 +140,14 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 			- ### Intrinsic Balance
 			  id:: a95f4693-fe48-4a60-b1e3-5897a40efc5a
 				- “Every arrow is sustained by the macro balance of the whole (⊜).”
-				  For each “this” there always exists a “that” to counterbalance. If we cannot find the counterbalance, it's hidden in the meta world, e.g., when something is placed in an imbalanced position, there emerges a returning force as a meta to counterbalance. The parts can be imbalanced but the whole is always balanced. Another expression of the holistic balance is the [cyclic order](https://en.wikipedia.org/wiki/Cyclic_order), e.g., a < b < c < a ⟹ a ~ b ~ c. However, to a selful eye, the wholistic balance can be difficult to see because the whole contains not only the visible but also the invisible, not only the objects but also the metas. So, to see the whole's balance, we must use a holistic eye.
+				  For each “this ↑” there always exists a “that ↓” to counterbalance.
+					- If we cannot find the counterbalance, it's hidden in the meta world, e.g., when something is placed in an imbalanced position, there emerges a returning force as a meta to counterbalance.
+					- The parts can be imbalanced but the whole is always balanced.
+					- Another expression of the holistic balance is the [cyclic order](https://en.wikipedia.org/wiki/Cyclic_order), e.g., $a < b < c < a ⟹ a \sim b \sim c$.
+					- However, to a selful eye, the wholistic balance can be difficult to see because the whole contains not only the visible but also the invisible, not only the objects but also the metas. So, to see the whole's balance, we must use a holistic eye.
 					- ![Intrinsic balance - macro.png](../assets/Uniinfo/Intrinsic balance - macro.png)
-				- “Every arrow is sustained by the micro balance of the selfless eye (⇌).”
-				  In stead of extending the view to the whole, when we reduce the self to zero, just look at the contact point, the incidence point, we see the contacting parties always balance each other.
+				- “Every circle is sustained by the micro balance of the selfless eye (⇌).”
+				  When we reduce the self to zero, just look at the contact point, the incidence point, we see the contacting parties always balance each other. Such ((66e40f4b-34ae-499a-8192-0a0f4f580c7e)) is the “glue” sutaining all circles.
 					- ![Intrinsic balance - micro.png](../assets/Uniinfo/Intrinsic balance - micro.png)
 		- ### Vacantism
 		  id:: 66f3ed94-4f20-4166-8e9b-2e8ba53aaad2
