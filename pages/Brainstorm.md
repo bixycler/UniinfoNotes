@@ -15,7 +15,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  id:: 69b3b2cb-3688-4aed-9aad-9abd136331f1
 		  collapsed:: true
 			- The statement “awareness = openness” in Uniinfo and “all senses are consciousness” ([vijñāna](https://en.wikipedia.org/wiki/Vij%C3%B1%C4%81na#Sense-base_derivative)) Buddhism are too blunt!
-			- To make it more sophisticated to deterministic minds, we should point out that what makes “consciousness” mystical is our own ignorance about its openings (pores) and inputs. The consciousness is just open to the... internal world 😆!
+			- To make it more sophisticated to deterministic minds, we should point out that what makes “consciousness” (of the mind) mystical is our own **ignorance** about its openings (pores) and inputs.
+				- The consciousness is just open to the... internal world 😆!
+				- It's contradictory, because its nature of ((6731c4d6-25b6-4081-a080-4ffaa5218ec7)) means openness, while its nature of ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) means closeness.
 		- The [staggering nature](((67b54283-14b2-4753-94bb-4d827d54d7cc))) of dependent arising in conversation & interaction in general
 		  id:: 69b21d98-6152-4c03-9375-8627f8ad70ba
 		  collapsed:: true
