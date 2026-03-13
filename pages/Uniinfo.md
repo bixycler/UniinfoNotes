@@ -128,7 +128,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 				- “Every circle is composed of arrows (⥁).”
 				  Just like a spinning top or a high-speed fan, some object looks static because it's moving in circle, its motion is looping back, it's going back and forth (🗘).
 					- As the fan spins too fast, we can only see it as a stationary solid disk, while its blades are actually rotating under the hood.
-					- ![Intrinsic dynamic of circle.gif](../assets/Uniinfo/Intrinsic dynamic of circle.gif){:width 50, :height 50}
+					- ![spinning_top.gif](../assets/Uniinfo/spinning_top.gif){:width 50, :height 50} ![3-speeds-fan.png](../assets/Uniinfo/3-speeds-fan.png){:width 300}
 				- “Every equal is in the shape of arrows (⇌).”
 				  id:: 684f9517-8a24-4709-a62a-bd075acb9d2c
 					- The balance between things is always a [dynamic equilibrium](https://en.wikipedia.org/wiki/Dynamic_equilibrium) where the exchange between them cancels them out. For example, in mechanics, we have balance between force vectors, in chemistry, we have balance between reaction directions, etc.
