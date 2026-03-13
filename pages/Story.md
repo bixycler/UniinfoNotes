@@ -1145,7 +1145,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 13th, total confusion between directions!
 			  collapsed:: true
 				- Asking AI artists to draw an illustration for the [intrinsic dynamic](((699c0363-0995-47fc-9e99-fdc7a36a375f))), i was baffled by the consistently “reverse” direction in these images.
-				-
+				- Asking Google AI Mode, after another lot of baffling and clarification (mental debugging), i finally acknowledge the cause was the _artistic **convention** of speed lines_
 				- ![3-speeds-fan.png](../assets/Uniinfo/3-speeds-fan.png){:width 300}
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
