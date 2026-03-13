@@ -14,10 +14,13 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ((66f2681b-796a-4e25-b778-ba4fb6419425)) = ((672a0c61-ae93-440a-84e6-13778c8e91ca)) = hidden [openness](((689962b4-29d3-4fa0-9ad0-addaa6224369))) = input from within
 		  id:: 69b3b2cb-3688-4aed-9aad-9abd136331f1
 		  collapsed:: true
-			- The statements that “awareness = openness” in Uniinfo and that “all senses are consciousness” ([vijñāna](https://en.wikipedia.org/wiki/Vij%C3%B1%C4%81na#Sense-base_derivative)) Buddhism are too blunt!
-			- To make it more sophisticated to deterministic minds, we should point out that what makes “consciousness” (of the mind) mystical is our own **ignorance** about its openings (pores) and inputs.
-				- The consciousness is just open to the... internal world 😆!
-				- It's contradictory, because its nature of ((6731c4d6-25b6-4081-a080-4ffaa5218ec7)) means openness, while its nature of ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) means closedness. In other words, consciousness = closed openness 😛!
+			- Rationale
+				- The statements that “awareness = openness” in Uniinfo and that “all senses are consciousness” ([vijñāna](https://en.wikipedia.org/wiki/Vij%C3%B1%C4%81na#Sense-base_derivative)) Buddhism are too blunt!
+				- To make it more sophisticated to deterministic minds, we should point out that what makes “consciousness” (of the mind) mystical is our own **ignorance** about its openings (pores) and inputs.
+			- It's contradictory, because its nature of ((6731c4d6-25b6-4081-a080-4ffaa5218ec7)) means openness, while its nature of ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) means closedness. In other words, consciousness = closed openness 😛!
+			- The consciousness is just open to the... internal world 😆!
+			- The internal mental world is no less vast than the external physical world. Moreover, they are not as separate as we usually think, they are linked together in the continuous [grand circle](((6772a6cd-771f-4f24-9c3a-39c442234be5))).
+				- The two worlds are constantly mirroring each other
 		- The [staggering nature](((67b54283-14b2-4753-94bb-4d827d54d7cc))) of dependent arising in conversation & interaction in general
 		  id:: 69b21d98-6152-4c03-9375-8627f8ad70ba
 		  collapsed:: true

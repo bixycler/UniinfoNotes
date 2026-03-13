@@ -2328,6 +2328,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					- The external effect circle and various knowledge circles keep contact together through layers of obops. This is the mirroring mechanism between the external world and internal world (knowledge cone).
 					- Structure: external ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) > ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s ((66c810a0-9861-4787-bdcf-1378219332be)) ( ((669a2886-9e03-41a4-a790-24bf6b7dcd96))s + formative intent cone > ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) > operative intent cone + ((6889abf7-7c3c-4ef5-80fe-3edca20268bd))s ) > external world
 					- Diagram
+					  collapsed:: true
 						- ![CauseEffectMirrorCircles](https://docs.google.com/drawings/d/e/2PACX-1vSq3nYCfegxupQJv3D7nIddp2tKbmf3YvzKeXQqd8kZ5hzTUN8lGNE9i-Tf8hXwSlIShgySaBgtXLRY/pub?w=500)
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- The ((6909a541-f4da-48ce-af9e-31f499125b00)) is to ((6909a3ff-8c16-4222-967a-f019759ca65c)) as ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) is to ((66b1cfa4-3a39-4672-9da2-cd3bcef71702)).
