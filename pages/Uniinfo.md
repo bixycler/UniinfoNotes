@@ -1033,14 +1033,17 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 		  CLOCK: [2026-03-02 Mon 10:42:38]
 		  CLOCK: [2026-03-16 Mon 13:00:52]
 		  :END:
-			- id:: 69a502fe-f8e9-45a6-8327-f20672fc41b8
-			  1. **Presentism** (the Equal $=$): I don't think Einstein meant a block universe, but he is not alive to defend himself, so i'm not sure what he actually thought. Anyway, here's my take: Relativity only debunked the simultaneity, i.e. no "present everywhere", but only herenow. Time is inseparable from space, hence spacetime. So presentism is the reality of the **herenow**: your present can be my past or my future, not my present, hence "unreal" to me in the sense that it's not exactly true to me. And only my present (herenow) is exactly true to me (not to you). My herenow is not a point but a perspective (configuration) of the whole universe projected from my self.
+			- 1. **Presentism** (the Equal $=$ ): I don't think Einstein meant a block universe, but he is not alive to defend himself, so i'm not sure what he actually thought. Anyway, here's my take: Relativity only debunked the simultaneity, i.e. no “present everywhere”, but only herenow. Time is inseparable from space, hence spacetime. So presentism is the reality of the **herenow**: your present can be my past or my future, not my present, hence “unreal” to me in the sense that it's not exactly true to me. And only my present (herenow) is exactly true to me (not to you). My herenow is not a point but a perspective (configuration) of the whole universe projected from my self.
 			- id:: 69a502fe-20b6-468d-b2f4-2940a12ad502
 			  2. **Eternalism** (the ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) ○): What is eternal? The eternal is the whole possibility space of the whole universe, not the 4D block universe which is just a wrong projection of the eternal info human imagination. That space has infinite dimensions, i call it the "Omnifold". The simplest expression is a hypercube with unit hypervolume 1 = 1×1×1×1×1×... (infinite dimensions). It contains all herenows not only throughout spacetime but also through all selves. The wavefunction of quantum trace the evolution of herenow following a single particle. Its unitarity is the eternal hypervolume.
 			- 3. **Arrow of time** (the ((667d15b7-6364-49a9-ac58-c64d2a992b63)) ↑):
-				- Present: When my self (compound particle) meets your self, my herenow mixes with your herenow resulting a common now with a little less “here” which we usually call “the present”. That meeting is called “wavefunction collapse” in QM.
-				- Past: After the meeting, the common herenow is stored in both my self and your self, which both project out to be “the past”. The past of 2 selves has 2 copies, the past of N selves has N copies, the more common, being observed by the more particles, the more copies it has, hence the lower entropy.
-				- Future: Looking forward to the next meeting, i can clearly see my future but not yours because we're separated, hence the future has only one copy, hence high entropy. Actually, the further the future, the the image resolution reduces under 1 exponentially, hence much higher entropy. The further the past, the image also reduces resolution but linearly, hence the impression of “fixedness”.
+				- Present: When my self (compound particle) meets your self, my herenow mixes with your herenow resulting a common now with a little less “here” which we usually call “the present”.
+					- That meeting is called “wavefunction collapse” in QM.
+				- Past: After the meeting, the common herenow is stored in both my self and your self, which both project out to be “the past”.
+					- The past of 2 selves has 2 copies, the past of N selves has N copies,... The more particles observing the common past, the more copies it has, hence the lower entropy.
+				- Future: Looking forward to the next meeting, i can clearly see my future but not yours because we're separated, hence the future has only one copy, hence high entropy.
+					- Actually, the further the future, the the image resolution reduces exponentially below 1, hence much higher entropy.
+					- Note: The further the past, the image also reduces resolution but linearly, hence the impression of “fixedness” of the past.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- WAIT Compared with other models of the Universe
 			  collapsed:: true
@@ -1048,7 +1051,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 			  CLOCK: [2024-12-13 Fri 18:37:00]
 			  CLOCK: [2026-03-02 Mon 10:37:56]
 			  :END:
-				- Here-now Presentism (Point Presentism) vs [perspective presentism](((69a502fe-f8e9-45a6-8327-f20672fc41b8)))
+				- Here-now Presentism (Point Presentism) vs [perspective presentism](1. **Presentism** (the Equal $=$): I don't think Einstein meant a block universe, but he is not alive to defend himself, so i'm not sure what he actually thought. Anyway, here's my take: Relativity only debunked the simultaneity, i.e. no "present everywhere", but only herenow. Time is inseparable from space, hence spacetime. So presentism is the reality of the **herenow**: your present can be my past or my future, not my present, hence "unreal" to me in the sense that it's not exactly true to me. And only my present (herenow) is exactly true to me (not to you). My herenow is not a point but a perspective (configuration) of the whole universe projected from my self.)
 				- Block universe vs [possibility eternalism](((69a502fe-20b6-468d-b2f4-2940a12ad502)))
 				- Bulk universe: 4D spacetime is just a [brane](https://en.wikipedia.org/wiki/Brane_cosmology) within this bulk.
 				- Multiverse, parallel worlds
