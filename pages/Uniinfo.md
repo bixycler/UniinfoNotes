@@ -1037,10 +1037,11 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 			- id:: 69a502fe-20b6-468d-b2f4-2940a12ad502
 			  2. **Eternalism** (the ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) ○): What is eternal? The eternal is the whole possibility space of the whole universe, not the 4D block universe which is just a wrong projection of the eternal info human imagination. That space has infinite dimensions, i call it the "Omnifold". The simplest expression is a hypercube with unit hypervolume 1 = 1×1×1×1×1×... (infinite dimensions). It contains all herenows not only throughout spacetime but also through all selves. The wavefunction of quantum trace the evolution of herenow following a single particle. Its unitarity is the eternal hypervolume.
 			- 3. **Arrow of time** (the ((667d15b7-6364-49a9-ac58-c64d2a992b63)) ↑):
-				- Present: When my self (compound particle) meets your self, my herenow mixes with your herenow resulting a common “now” with a little “less here”, which we usually call “the present”.
+				- Present: When my self (compound particle) meets your self, my herenow mixes with your herenow resulting a **common “now”**, with a little “less here”, which we usually call “the present”.
 					- The [mixing](https://en.wikipedia.org/wiki/Mixing_(mathematics)) in the present is the arrow of time that [increases entropy](https://en.wikipedia.org/wiki/Entropy_of_mixing) by increasing exensity and decreasing intensity through the [many-to-one function](https://mathworld.wolfram.com/Many-to-One.html) of ((66727858-979d-4d95-8a90-7a749218cfba))s.
 					  id:: 69b7a10c-73c2-4d34-9269-a27e5f23b90b
-					- The meeting is called [“wavefunction collapse” in QM](https://en.wikipedia.org/wiki/Wave_function_collapse).
+					- The present is just the common part of many herenows of the participants
+					- The meeting is called [“wavefunction collapse” in QM](https://en.wikipedia.org/wiki/Wave_function_collapse) which reduces the uncertain futures (high entropy) into the certain prensent (low entropy).
 				- Past: After the meeting, the common herenow is stored in both my self and your self, which both project out to be “the past”.
 					- The past of 2 selves has 2 copies in the Omnifold, the past of N selves has N copies,... The more particles observing the common past, the more copies it has, hence the lower entropy the past has.
 				- Future: Looking forward to the next meeting, i can clearly see my future but not yours because we're separated, hence the future has at most one copy, hence high entropy.
