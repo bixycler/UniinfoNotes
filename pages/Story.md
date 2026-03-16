@@ -1114,9 +1114,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  CLOCK: [2026-03-13 Fri 17:25:47]--[2026-03-13 Fri 17:50:49] =>  00:25:02
 					  :END:
 						- extent is alias of **abstract extension**, not the concrete one which is the common meaning of "extension".
-					- DOING law = [Intrinsic Static](((699c0363-a78b-4ca8-9992-be7a20d09026))) (circle) instead of the balance (Equal)? 🤔
+					- DONE Clarify [Equal = the law of all laws](((699c0364-6b07-4f48-81ba-a51875bcdf30)))
 					  :LOGBOOK:
-					  CLOCK: [2026-03-13 Fri 15:45:21]
+					  CLOCK: [2026-03-13 Fri 15:45:21]--[2026-03-16 Mon 12:13:15] =>  68:27:54
 					  :END:
 					- DONE “Every arrow is composed of circles (⇴).”
 					  :LOGBOOK:
