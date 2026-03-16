@@ -1177,7 +1177,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Keeping from clinging to my impression of motion trail, i was dragged by the AI models following their hallucination round and round! What an intreresting roller coaster ride!
 			- 16th, ...
 			  collapsed:: true
-				- 🦋 Drawing the [arrow of time diagram](((69b7be1f-0ed4-45fa-8189-4094766076a3))), i see it looks like a butterfly! 😊
+				- 🦋 Drawing the [arrow of time diagram](((69b7be1f-0ed4-45fa-8189-4094766076a3))), i see it looks like a butterfly, a moth, or a manta ray! 😊
+					- $M$ & $W$ self circles: 2 wings or pectoral fins
+					- Present action: body
+					- Future branches: antennae or cephalic horns of the manta
+					- Past arrow: sting tail (of stingray or scorpion)
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
