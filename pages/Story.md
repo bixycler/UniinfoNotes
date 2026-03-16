@@ -1144,11 +1144,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 12th, this [consciousness as input](https://bigthink.com/mind-behavior/consciousness-may-be-more-than-the-brains-output-it-may-be-an-input-too/) hints a good explanation to the deterministic minds: ((69b3b2cb-3688-4aed-9aad-9abd136331f1))
 			- 13th, total confusion between directions!
 			  collapsed:: true
-				- Asking AI artists to draw an illustration for the [intrinsic dynamic](((699c0363-0995-47fc-9e99-fdc7a36a375f))), i was baffled by the consistently “reverse” direction in these images.
-				- Asking Google AI Mode, after another lot of baffling and clarification (mental debugging), i finally acknowledged the cause was the _artistic **convention** of speed lines_ “to be drawn ahead of the blade” 🤔.
-				- But my reality check with [Wikipedia](https://en.wikipedia.org/wiki/Motion_lines) and [Pinterest](https://www.pinterest.com/ideas/drawing-speed-lines/947150578367/) shows nothing drawn ahead the motion! 😮
+				- Asking AI artists to draw an illustration for the [intrinsic dynamic](((699c0363-0995-47fc-9e99-fdc7a36a375f))), i was baffled by the consistently “reverse” direction in these images: the motion trails are *ahead* the leading blade intead of following the trailing blade! 😮
+				- Asking Google AI Mode, after another lot of baffling and clarification (mental debugging), i finally acknowledged that the cause was... sometimes the motion is depicted by something ahead of the moving object: pushing force, forward wind, etc. 🤔.
+				- The models even hallucinated that the “speed lines” are drawn ahead of the motion as an “artist's convension”. 😁
+					- But my reality check with [Wikipedia](https://en.wikipedia.org/wiki/Motion_lines) and [Pinterest](https://www.pinterest.com/ideas/drawing-speed-lines/947150578367/) shows nothing drawn ahead the motion!
 				- Clockwise:
-				  ![3-speeds-fan.png](../assets/Will/story/2026-03/3-speeds-fan.png)
+				  ![3-speeds-fan.clockwise.png](../assets/Will/story/2026-03/3-speeds-fan.clockwise.png)
 				- Anticlockwise:
 				  ![3-speeds-fan-anticlockwise.png](../assets/Will/story/2026-03/3-speeds-fan-anticlockwise.png)
 				- Clockwise:
