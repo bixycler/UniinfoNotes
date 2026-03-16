@@ -1182,7 +1182,20 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Present action: body
 					- Future branches: antennae or cephalic horns of the manta
 					- Past arrow: sting tail (of stingray or scorpion)
-					- ⇒ I create a demon named Temporix – King of Time.
+					- ⇒ I create a demon named Temporix – The Time Spinner.
+						- Artwork by Nano Banana 2
+						  ![Temporix_Nanobana.png](../assets/Will/story/2026-03/Temporix_Nanobana.png)
+						- Prompt
+						  collapsed:: true
+							- ```
+							  Let's draw a demon named "Temporix" ("Time Spinner"):
+							  - 2 wings (left & right): Each wing is a round container of a spiral of fractal content whose center is their "Herenow". This represents 2 opposite bodies interacting by **mixing** their contrasting contents at the "Now" dot (see below).
+							  - Antennae & eyes: 2 "Future" branches look like moth's antennae with **additional levels of branching hairs**. The label "Future" is placed right on top between the 2 antennae. The eyes (no labels) are right at the root of each antenna, just like the moth's.
+							  - Body: The "Present" body mixes contents at the "Now" dot to produce the past (history) as its tail. The "Now" dot is right below the root of 2 antennae. The body is labeled "Present" and leads directly to the tail, **no additional limbs**.
+							  - Sting tail: The "History" tail is thin (in contrast to the body), curves in ∝ figure, has overlapping segments of chitinous plating, and ends with the "Past" arrowhead.
+							  - Background: Ambient. Don't clutter with details.
+							  - Text: Only labels, i.e. the words that are quoted above. **No extra texts** are allowed.
+							  ```
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
