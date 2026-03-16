@@ -1174,7 +1174,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- ![real-plastic-fan-blades.jpeg](../assets/Will/story/2026-03/real-plastic-fan-blades.jpeg){:width 200}
 					- While it's clear that the rounded side is the trailing edge, as shown in the 3D image above, the models usually confuse it with the leading edge, due to the [airfoil shape](https://en.wikipedia.org/wiki/Airfoil).
 					- Clarification: The "rounded leading edge" of the airfoil is about the thickness, i.e. shape of the cross section of the blade, not the surface shape. Moreover, the fan blades usualy have a uniform thickness, hence completely irrelevant to the airfoil.
-				-
+				- Keeping from clinging to my impression of motion trail,
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
