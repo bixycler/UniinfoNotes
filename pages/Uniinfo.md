@@ -1043,10 +1043,11 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					  id:: 69b7a10c-73c2-4d34-9269-a27e5f23b90b
 					- The meeting is called [“wavefunction collapse” in QM](https://en.wikipedia.org/wiki/Wave_function_collapse) which reduces the uncertain futures (high entropy) into the certain prensent (low entropy).
 				- Past: After the meeting, the common herenow is stored in both my self and your self, which both project out to be “the past”.
-					- The past of 2 selves has 2 copies in the Omnifold, the past of $n$ selves has $n$ copies, and so on. The more particles observing the common past, the more copies it has, hence the lower entropy the past has.
-				- Future: Looking forward to the next meeting, i can clearly see my future but not yours because we're separated, hence the future has at most one copy, hence high entropy.
-					- Actually, the further the future, the the image resolution reduces exponentially below 1, hence much higher entropy.
-					- Note: The further the past, the image also reduces resolution but linearly, hence the impression of “fixedness” of the past.
+					- The past of 2 selves has 2 copies in the Omnifold, the past of $n$ selves has $n$ copies, and so on. The more particles observing the common past, the more it is copied, the more certain it is, hence the lower entropy the past has.
+				- Future: Looking forward to the next meeting, i can see my future but not yours because we're separated, hence each future has at most one copy, hence high entropy.
+					- Actually, the further a future is, the more its image resolution reduces – exponentially below 1 – hence much higher entropy.
+					- Note that the expression “the future” is incorrect because there are various futures to come.
+				- Note: The further the past, the image also reduces resolution but linearly, hence the impression of the “fixedness” of the past.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- WAIT Compared with other models of the Universe
 			  collapsed:: true
