@@ -1690,7 +1690,7 @@ id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
 				- The Role of Curvature
 					- [Curvature = force](((67b5c77d-c42c-4dc5-8d47-fd82f535177a))) in [equivalence principle](https://en.wikipedia.org/wiki/Equivalence_principle)
 					- Curvatures in ((67bdaa5e-66c0-4874-8ca6-95032208e06d))
-			- The curvature/distortion of spacetime has proved the ancient wisdom that _only the **herenow**, i.e. the local reference point/frame is proper_. Anything out of the herenow is distorted, hence improper! 😊
+			- The curvature/distortion of spacetime has proved the ancient wisdom that _only the **herenow**, i.e. the local reference point/frame, is proper_. Anything out of the herenow is distorted, hence improper! 😊
 			- “**Proper** space/time” = “**own** space/time” = “không/thời gian **riêng**”
 			  collapsed:: true
 			  :LOGBOOK:
