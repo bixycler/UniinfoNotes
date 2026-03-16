@@ -1151,7 +1151,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  ![3-speeds-fan-anticlockwise.png](../assets/Will/story/2026-03/3-speeds-fan-anticlockwise.png){:width 300}
 					- Clockwise:
 					  ![3-speeds-fan_plastic-blades.png](../assets/Will/story/2026-03/3-speeds-fan_plastic-blades.png){:width 100}
-					- Note that while the first frame in these image has reverse
+					- Note that while the first frame in these image has reverse expression of motion, the middle frame
 				- Asking Google AI Mode and other models to check direction in these images, after another lot of baffling and clarification (mental debugging), i finally acknowledged that the cause was... sometimes the motion is depicted by something ahead of the moving object: pushing force, forward wind, etc. 🤔.
 					- This “reverse” expression was confirmed by my wife when i asked her to look at the images in reverse.
 				- The models even hallucinated that the “speed lines” are drawn ahead of the motion as an “artist's convension”. 😁
