@@ -658,14 +658,17 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 		          info → knowledge → wisdom
 		  ```
 		- contents: dot, arrow
+			- abstract content → dot (used in classic maths & physics)
+			- concrete content → arrow
 		- forms: arrow, circle
+			- [fleeting form](((6854ed53-2c2a-4cff-9507-0b14a0f6fb63))) (arrow)
+			- [lasting form](((699c0362-7c2d-4a35-bc5b-e6fb2f6cf6d8))) (circle)
 		- law: circle, equal
+			- formed law = ((66f3e66a-8afb-4b20-bf85-111bc4aee09c)) (circle) = normal laws
+			- formless law = ((a95f4693-fe48-4a60-b1e3-5897a40efc5a)) (Equal) = root law, i.e. law of all laws
 		- info: content, form
 		- knowledge: form, law
 		- wisdom: law, equal
-		- Equal = the law of all laws
-			- formed law = ((66f3e66a-8afb-4b20-bf85-111bc4aee09c)) (circle) = normal laws
-			- formless law = ((a95f4693-fe48-4a60-b1e3-5897a40efc5a)) (Equal) = root law, i.e. law of all laws
 	- Absolute vs relative = ((66e42b30-1aa4-4b6f-8c54-b29fc09085c6)) ⭕️ lượng vs ((66e42d39-a296-4ed9-a686-4cb213783830)) ⬆️ tính chất = form vs content = extent vs intent = norm vs abnorm = modulus/correct vs remainder/diff/error
 	  id:: 66c7fdec-59db-4f96-a8a7-913247586534
 	  collapsed:: true

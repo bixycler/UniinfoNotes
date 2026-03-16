@@ -2653,6 +2653,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					- ((670e0d9a-a926-49ca-951c-7013b2b29e8c))s = images of content
 					  id:: 685542d1-42d1-4ee7-b922-167f030cb8af
 						- lasting closed form = image of the ((670e363d-c1eb-402a-8283-b4a3a2e65a59))
+						  id:: 699c0362-7c2d-4a35-bc5b-e6fb2f6cf6d8
 						- fleeting external form = a partial view of the content framed through the ((670d0183-aba2-438b-b749-1b550e4a906b))
 						  id:: 6854ed53-2c2a-4cff-9507-0b14a0f6fb63
 							- Partial view: The current state is just a partial view of the whole state space which is the self content of an atomic object and the ((684f9517-281b-4b0e-a96b-661f7cd0c668)) of a composite.
