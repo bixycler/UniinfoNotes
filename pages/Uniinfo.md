@@ -111,7 +111,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 		  id:: 66f3e0be-7d8c-45d6-92c3-6bad456555c9
 		  collapsed:: true
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Corresponding to Circle, Arrow and Equal, there are three intrinsics of [the static](((66f3e66a-8afb-4b20-bf85-111bc4aee09c))), [the dynamic](((66f3e588-9094-45af-9dff-2225c3ac39ab))) and [the balance](((a95f4693-fe48-4a60-b1e3-5897a40efc5a))), respectively.
-				- ![IntrinsicsTriangle](https://docs.google.com/drawings/d/1yITOpbtT6izDElzNZVqwtBUTyU5q04aREW88AKmNSQM/pub?w=415&h=268)
+				- ![IntrinsicsTriangle](https://docs.google.com/drawings/d/1yITOpbtT6izDElzNZVqwtBUTyU5q04aREW88AKmNSQM/pub?w=450)
 			- ### Intrinsic Static
 			  id:: 66f3e66a-8afb-4b20-bf85-111bc4aee09c
 				- “Every arrow is sustained by circles (⇴).” 
