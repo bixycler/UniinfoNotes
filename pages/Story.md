@@ -1145,13 +1145,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 13th, total confusion between directions!
 			  collapsed:: true
 				- Asking AI artists to draw an illustration for the [intrinsic dynamic](((699c0363-0995-47fc-9e99-fdc7a36a375f))), i was baffled by the consistently “reverse” direction in these images: the motion trails are *ahead* the leading blade intead of following the trailing blade! 😮
+					- Clockwise:
+					  ![3-speeds-fan.clockwise.png](../assets/Will/story/2026-03/3-speeds-fan.clockwise.png){:width 300}
+					- Anticlockwise:
+					  ![3-speeds-fan-anticlockwise.png](../assets/Will/story/2026-03/3-speeds-fan-anticlockwise.png){:width 300}
 				- Asking Google AI Mode, after another lot of baffling and clarification (mental debugging), i finally acknowledged that the cause was... sometimes the motion is depicted by something ahead of the moving object: pushing force, forward wind, etc. 🤔.
 				- The models even hallucinated that the “speed lines” are drawn ahead of the motion as an “artist's convension”. 😁
-					- But my reality check with [Wikipedia](https://en.wikipedia.org/wiki/Motion_lines) and [Pinterest](https://www.pinterest.com/ideas/drawing-speed-lines/947150578367/) shows nothing drawn ahead the motion!
-				- Clockwise:
-				  ![3-speeds-fan.clockwise.png](../assets/Will/story/2026-03/3-speeds-fan.clockwise.png)
-				- Anticlockwise:
-				  ![3-speeds-fan-anticlockwise.png](../assets/Will/story/2026-03/3-speeds-fan-anticlockwise.png)
+					- But my reality check with [Wikipedia](https://en.wikipedia.org/wiki/Motion_lines) and [Pinterest](https://www.pinterest.com/ideas/drawing-speed-lines/947150578367/) shows the speed lines, or motion lines are always drawn behind, never ahead!
 				- Clockwise:
 				  ![3-speeds-fan_plastic-blades.png](../assets/Will/story/2026-03/3-speeds-fan_plastic-blades.png)
 				- ![real-plastic-fan-blades.jpeg](../assets/Will/story/2026-03/real-plastic-fan-blades.jpeg)
