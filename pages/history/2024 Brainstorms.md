@@ -899,6 +899,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				  id:: 6683ea7b-45c9-446c-8f13-6cfc3083de89
 				  collapsed:: true
 					- The half of ﻿logarithm of [binomial coefficient](https://en.wikipedia.org/wiki/Binomial_coefficient) approaches the [binary entropy function](https://en.wikipedia.org/wiki/Binary_entropy_function) $H_b$ in base $e^2$, as $n$ approaches infinity, which is very close to an arc of a perfect circle.
+					  id:: 699c0364-8cd3-4b6a-9024-dc8654521f8c
 						- Binomial coefficient $$ B{\binom{n}{k}} $$ = $$ C_k^n $$ = number of k-combinations of n, and [beta function](https://en.wikipedia.org/wiki/Beta_function) B(p, q):
 						  $$ B{\binom{n}{k}} = \frac{n!}{k! \cdot (n-k)!} = \frac{(n+1)^{-1}}{\Beta(k+1, n-k+1)} $$
 						- Normalized log of binomial: ($x = k/n$)
