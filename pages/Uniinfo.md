@@ -1036,7 +1036,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 			- 1. **Presentism** (the Equal $=$ ): I don't think Einstein meant a block universe, but he is not alive to defend himself, so i'm not sure what he actually thought. Anyway, here's my take: Relativity only debunked the simultaneity, i.e. no “present everywhere”, but only herenow. Time is inseparable from space, hence spacetime. So presentism is the reality of the **herenow**: your present can be my past or my future, not my present, hence “unreal” to me in the sense that it's not exactly true to me. And only my present (herenow) is exactly true to me (not to you). My herenow is not a point but a perspective (configuration) of the whole universe projected from my self.
 			- id:: 69a502fe-20b6-468d-b2f4-2940a12ad502
 			  2. **Eternalism** (the ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) ○): What is eternal? The eternal is the whole possibility space of the whole universe, not the 4D block universe which is just a wrong projection of the eternal info human imagination. That space has infinite dimensions, i call it the "Omnifold". The simplest expression is a hypercube with unit hypervolume 1 = 1×1×1×1×1×... (infinite dimensions). It contains all herenows not only throughout spacetime but also through all selves. The wavefunction of quantum trace the evolution of herenow following a single particle. Its unitarity is the eternal hypervolume.
-			- 3. **Arrow of time** (the ((667d15b7-6364-49a9-ac58-c64d2a992b63)) ↑):
+			- 3. **Arrow of time** – the ((667d15b7-6364-49a9-ac58-c64d2a992b63)) ↑ of ((667bef22-b272-4a7d-b613-3f1ed1a47329))
 				- Present: When my self (compound particle) meets your self, my herenow mixes with your herenow resulting a **common “now”**, with a little “less here”, which we usually call “the present”.
 					- The present is just the common part of many herenows of the participants, hence only a little portion of the Omnifold – the present dot (moment) – expressed through the interface between selves.
 					- The [mixing](https://en.wikipedia.org/wiki/Mixing_(mathematics)) in the present is the arrow of time that [increases entropy](https://en.wikipedia.org/wiki/Entropy_of_mixing) by increasing exensity and decreasing intensity through the [many-to-one function](https://mathworld.wolfram.com/Many-to-One.html) of ((66727858-979d-4d95-8a90-7a749218cfba))s.
@@ -1046,9 +1046,9 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					- The past is a thread extending the present dot, hence just a small part of the Omifold.
 					- The past of 2 selves has 2 copies in the Omnifold, the past of $n$ selves has $n$ copies, and so on. The more particles observing the common past, the more it is copied, the more certain it is, hence the lower entropy the past has.
 				- Future: Looking forward to the next meeting, i can see my future but not yours because we're separated, hence each future has at most one copy, hence high entropy.
-					- Actually, the further a future is, the more its image resolution reduces – exponentially below 1 – hence much higher entropy.
+					- Actually, the further one look into future, the more diverse it is, the more its image resolution reduces – exponentially below 1 – hence much higher entropy.
 					- Note that the expression “the future” is incorrect because there are various futures to come.
-				- Note: The further the past, the image also reduces resolution but linearly, hence the impression of the “fixedness” of the past.
+				- Note: Looking further into the past, the image also reduces resolution but linearly, hence the impression of the “fixed past”.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- WAIT Compared with other models of the Universe
 			  collapsed:: true
@@ -1769,6 +1769,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 			  id:: 667bd93a-cce4-4dbf-9831-725e4dffe463
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bd931-8759-4008-8a9a-33e78a5cbdf3))
 			  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bd93a-cce4-4dbf-9831-725e4dffe463)) is the cone of ((677f509b-f2db-47b1-aafb-5a475334b532))s of an ((66727858-979d-4d95-8a90-7a749218cfba)).
 			- ((66725725-f76a-4328-b162-f469b87e871b))
 				- The future [light cone](https://en.wikipedia.org/wiki/Light_cone) in physics is a ((667bd931-8759-4008-8a9a-33e78a5cbdf3)).
 			- ### action cone
