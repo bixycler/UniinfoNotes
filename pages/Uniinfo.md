@@ -1038,6 +1038,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 			  2. **Eternalism** (the ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) ○): What is eternal? The eternal is the whole possibility space of the whole universe, not the 4D block universe which is just a wrong projection of the eternal info human imagination. That space has infinite dimensions, i call it the "Omnifold". The simplest expression is a hypercube with unit hypervolume 1 = 1×1×1×1×1×... (infinite dimensions). It contains all herenows not only throughout spacetime but also through all selves. The wavefunction of quantum trace the evolution of herenow following a single particle. Its unitarity is the eternal hypervolume.
 			- 3. **Arrow of time** – the ((667d15b7-6364-49a9-ac58-c64d2a992b63)) (↑) of ((667bef22-b272-4a7d-b613-3f1ed1a47329))
 				- Diagram
+				  id:: 69b7be1f-0ed4-45fa-8189-4094766076a3
 				  collapsed:: true
 					- ![ArrowOfTime](https://docs.google.com/drawings/d/e/2PACX-1vQfLsDVRgSNMbbxUsAjAoe4XrhJIWy7h3zeCuwB5LzwhVaV7kkJkJ9yORcpCC5XFG2NLBpULPZro0ei/pub?w=300)
 				- Present: When my self (compound particle) meets your self, my herenow mixes with your herenow resulting a **common “now”**, with a little “less here”, which we usually call “the present”.

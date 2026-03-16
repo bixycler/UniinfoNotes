@@ -1175,6 +1175,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- While it's clear that the rounded side is the trailing edge, as shown in the 3D image above, the models usually confuse it with the leading edge, due to the [airfoil shape](https://en.wikipedia.org/wiki/Airfoil).
 					- Clarification: The "rounded leading edge" of the airfoil is about the thickness, i.e. shape of the cross section of the blade, not the surface shape. Moreover, the fan blades usualy have a uniform thickness, hence completely irrelevant to the airfoil.
 				- Keeping from clinging to my impression of motion trail, i was dragged by the AI models following their hallucination round and round! What an intreresting roller coaster ride!
+			- 16th, ...
+			  collapsed:: true
+				- 🦋 Drawing the [arrow of time diagram](((69b7be1f-0ed4-45fa-8189-4094766076a3))), i see it looks like a butterfly! 😊
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
