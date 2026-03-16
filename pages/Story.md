@@ -1149,6 +1149,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  ![3-speeds-fan.clockwise.png](../assets/Will/story/2026-03/3-speeds-fan.clockwise.png){:width 300}
 					- Anticlockwise:
 					  ![3-speeds-fan-anticlockwise.png](../assets/Will/story/2026-03/3-speeds-fan-anticlockwise.png){:width 300}
+					- Clockwise:
+					  ![3-speeds-fan_plastic-blades.png](../assets/Will/story/2026-03/3-speeds-fan_plastic-blades.png){:width 100}
+					- Note that while the first frame in these image has reverse
 				- Asking Google AI Mode and other models to check direction in these images, after another lot of baffling and clarification (mental debugging), i finally acknowledged that the cause was... sometimes the motion is depicted by something ahead of the moving object: pushing force, forward wind, etc. 🤔.
 					- This “reverse” expression was confirmed by my wife when i asked her to look at the images in reverse.
 				- The models even hallucinated that the “speed lines” are drawn ahead of the motion as an “artist's convension”. 😁
@@ -1163,9 +1166,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  - 3rd frame: All blades are blurred into a single solid disk.
 					  * Note: Image only, no texts are allowed in the image.
 					  ```
-					- Note that while the motion trails outside are behind the blades, the white “scratch” lines near the hub are still toward the leading edge ← such a
-				- Clockwise:
-				  ![3-speeds-fan_plastic-blades.png](../assets/Will/story/2026-03/3-speeds-fan_plastic-blades.png)
+					- Note that while the motion trails near the circumference are behind the blades, the white “scratch” lines near the hub are still toward the leading edge ← such an ingrained habit! 😁
+						- The model may think: 
+						  > Nah, those white scratches are not motion trails, they are artistic expression of motion blur which have arbitrary position.
 				- ![real-plastic-fan-blades.jpeg](../assets/Will/story/2026-03/real-plastic-fan-blades.jpeg)
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
