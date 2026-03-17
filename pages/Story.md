@@ -1106,7 +1106,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  id:: 69b7c80f-fc13-4929-8cae-e51e9dd29878
 							- $M$ & $W$ self circles: 2 wings or pectoral fins
 							- Present action: body
-							- Future branches: antennae or cephalic horns of the manta
+							- Future branches: antennae, cephalic horns of the manta, or [rhinophores](https://en.wikipedia.org/wiki/Rhinophore) of tritoniopsis elegans nudibranch
 							- Past arrow: sting tail (of stingray or scorpion)
 							- ⇒ I create a demon named Temporix – The Time Spinner.
 								- Prompt to Nano Banana 2
@@ -1114,9 +1114,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 									- ```
 									  Let's draw a demon named "Temporix" ("Time Spinner"):
 									  - 2 wings (left & right): Each wing is a round container of a spiral of fractal content whose center is their "Herenow". This represents 2 opposite bodies interacting by **mixing** their contrasting contents at the "Now" dot (see below).
-									  - Antennae & eyes: 2 "Future" branches look like moth's antennae with **additional levels of branching hairs**. The label "Future" is placed right on top between the 2 antennae. The eyes (no labels) are right at the root of each antenna, just like the moth's.
+									  - Antennae & eyes: 2 "Future" branches look like moth's antennae with **additional levels of branching hairs (rami)**. The label "Future" is placed right on top between the 2 antennae. The eyes (no labels) are right at the base of each antenna, just like the moth's.
 									  - Body: The "Present" body mixes contents at the "Now" dot to produce the past (history) as its tail. The "Now" dot is right below the root of 2 antennae. The body is labeled "Present" and leads directly to the tail, **no additional limbs**.
-									  - Sting tail: The "History" tail is thin (in contrast to the body), curves in ∝ figure, has overlapping segments of chitinous plating, and ends with the "Past" arrowhead.
+									  - Sting tail: The "History" tail is long and thin (in contrast to the body), has overlapping segments of chitinous plating, and ends with the "Past" arrowhead.
 									  - Background: Ambient. Don't clutter with details.
 									  - Text: Only labels, i.e. the words that are quoted above. **No extra texts** are allowed.
 									  ```
