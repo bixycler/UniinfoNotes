@@ -1216,7 +1216,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- route 2: $A \xrightarrow{right} D \xrightarrow{up} C'$
 							- closure by zero noncommutator: $C = C' ⟺ [up, right] = 0$
 						- Quantum mechanics: $[x, p] = i ħ$
-						- [CP/T violation](https://en.wikipedia.org/wiki/CP_violation#CP_violation_in_the_Standard_Model): $[M_{up}, M_{down}] = i C$;  $\det([M_{up}, M_{down}]) = -2i J Δ_{up} Δ_{down}$
+						- [CP/T violation](https://en.wikipedia.org/wiki/CP_violation#CP_violation_in_the_Standard_Model): $[M_{up}, M_{down}] = i C$;  $\det(i C) = -2i J Δ_{up} Δ_{down}$
 							- This is the microscopic arrow of time.
 					- Ref: ((699c0368-00c8-404f-aa42-004f196194d9))
 			- ...
