@@ -3430,3 +3430,1133 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66600918-9f92-4730-b056-c2cd87a742aa))
 			- Buddhist: [śūnyatā (Sanskrit: शून्यता; Pali: suññatā)](https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81)
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66600918-9f92-4730-b056-c2cd87a742aa)) is the empty space that is available to be used. In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), vacancy is the underlying characteristic of all things, as stated in ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2)).
+	- ## self
+	  id:: 667c015e-6223-4f8a-ae84-a93a49f4ff94
+	  collapsed:: true
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f27465-07bf-441d-95a7-33f10fc3e2e4)), ((66f273da-2bcc-449e-b0f6-83f384a57bfe))
+		- bản thân
+		  id:: 66f27465-07bf-441d-95a7-33f10fc3e2e4
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667c015e-6223-4f8a-ae84-a93a49f4ff94))
+		- mình
+		  id:: 66f273da-2bcc-449e-b0f6-83f384a57bfe
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667c015e-6223-4f8a-ae84-a93a49f4ff94))
+		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Self
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) of a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) is a ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) of ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) from that subject to itself, i.e. the ((667c0031-0a87-44c9-9e98-6d45893b095f)) of that subject. Each subject may have many selves expressed as different ((669a5387-2a97-4311-a295-aa0afd9c4d76))s, but we ususally call the master self at the current moment “the self” and “the self-circle”. This circle can be seen as an [objective concept](https://en.wikipedia.org/wiki/Philosophy_of_self) of ((6810ceeb-6af6-442b-9910-baae2c315c46)), or as a subjective ((67f9100a-b749-4354-ae16-92dc74ff27da)).
+		- ### life cycle of self
+		  id:: 690827cf-c19e-4fc4-ba25-5d225afe06ae
+		  collapsed:: true
+			- id:: 69043439-614f-406a-8618-4253406958b8
+			  1. The formation of a self starts with the closure of its ((669a5387-2a97-4311-a295-aa0afd9c4d76)) at the terminal obop, i.e. ((66e40f4b-34ae-499a-8192-0a0f4f580c7e)).
+			- 2. The self is sustained by the conserving its content in its body, i.e. ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe)).
+			- 3. The constant-sized body revolves around the obop, like the radius rotating around the center, drawing the next level of body, forming the external self-circle → [1](((69043439-614f-406a-8618-4253406958b8))).
+				- 3.1. Here, the first obop becomes the central obop, and many terminal obops emerges on the external self-circle.
+					- This folding of the body to encapsulate the central obop is like the [neurulation](https://en.wikipedia.org/wiki/Neurulation) process in human embryonic development.
+				- 3.2. The radial self-circle crystallizes into a fixed form, making the external self-circle a round circle, i.e. ((66e40f75-0573-484e-8cb6-b6b8071ffb8c)).
+					- Here, the radial self-circle has replicated into many component self-circles in the external self-circle.
+				- 3.3. Over time, the ((6810ceeb-6af6-442b-9910-baae2c315c46)) becomes complicated with many layers of self-circles.
+					- Many layers of inner self-circles are compressed (due to spatial distortion) into a dense & hard core of the self, being the hard self of the central obop.
+					- The inner most obops becomes more and more balanced, their intents cancel out approaching zero point.
+				- 3.4. The external self-circle crystallizes into a fixed form, making its inner most obop empty.
+					- Here, the inner most obop has been reflected by central obops of all the component self-circles.
+					- Its intent has been cancelled out by the complete balance.
+					- The empty center is the ((66c8772a-9b29-45b0-b169-2fa847333e02)), being [the focal point](((68665be1-f6a9-4121-859a-ec43ae37b5bf))) for all components to align themselves.
+					- The emptiness of the inner most obop (self-essence) mirrors the emptiness of the terminal obops, making the [grand circle](((6772a6cd-771f-4f24-9c3a-39c442234be5))) of ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2)).
+			- Examples
+				- Cultural movements
+					- The founder is the solid seed that grows the movement.
+					- The movement often thrives when the founder's control or presence fades.
+					- Passing away, the founder becomes the symbol in participants' hearts.
+				- Wood growth
+					- Heartwood is the hard core of the wood.
+					- Being dead, that hard core is eventually hollowed out by external forces like microbes and fungi.
+				- Crystals & snowflakes
+					- Formation via [nucleation](https://en.wikipedia.org/wiki/Nucleation): The intial “seed” is solid (a concrete obop), like the [ice nucleus](https://en.wikipedia.org/wiki/Ice_nucleus), attracting contents from environment to grow the crystal.
+					- As the crystal grows, the center can be emtpy, like axis of the hollow column.
+					  collapsed:: true
+						- ![hollow-column-snowflake-diagram.jpg](../assets/physics/hollow-column-snowflake-diagram.jpg)
+						- ![hollow-column-snowflake-photo.jpg](../assets/physics/hollow-column-snowflake-photo.jpg)
+						- Ref: [Stunning Photos of Snowflakes and a Snow Flake Guide](https://fortifymylife.wordpress.com/2013/12/08/stunning-photos-of-snowflakes-and-a-snow-flake-guide/)
+				- Stars
+					- Nuclear fusion eats the core that created the star.
+					- Eventually, the dense heart either collapses or blows apart, seeding new systems.
+		- ### self-circle
+		  id:: 669a5387-2a97-4311-a295-aa0afd9c4d76
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((6810d7ab-c35d-491e-9e2d-95c3024c276e))
+			- spatial self
+			  id:: 6810d7ab-c35d-491e-9e2d-95c3024c276e
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a5387-2a97-4311-a295-aa0afd9c4d76))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a5387-2a97-4311-a295-aa0afd9c4d76)) is the ((66c87463-4f07-420a-b12e-f456154f7dc8)) of everything that a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) sees as itself and belonging to itself. There are various self circles:
+				- The ((66c810a0-9861-4787-bdcf-1378219332be)) is the middle self circle.
+				- Outside, we have many extensions of the body: all belongings, all properties, family, race, nation, species, etc.
+				  collapsed:: true
+					- These extensions are discussed in [Dialogical Self Theory](https://en.wikipedia.org/wiki/Dialogical_self), through [ecological self](https://en.wikipedia.org/wiki/Ecological_self) in [Deep Ecology](https://en.wikipedia.org/wiki/Deep_ecology), as well as by various authors.
+						- through the “relational self” or “self-as-relationship” in indigenous philosophies, as well as by authors in these papers:
+							- 2009 book [Relational Being](https://www.researchgate.net/publication/239798192_Relational_Being_A_Brief_Introduction) by by Kenneth J. Gergen,
+							- [“Self-Expansion Model of Motivation and Cognition in Close Relationships”](https://www.researchgate.net/publication/284143380_The_self-expansion_model_of_motivation_and_cognition_in_close_relationships)  (1986),
+							- [Narrative and the Self as Relationship](https://www.sciencedirect.com/science/article/abs/pii/S0065260108602233) (1988),
+						- through [extended mind thesis](https://en.wikipedia.org/wiki/Extended_mind_thesis) by Andy Clark and David Chalmers in 1998,
+						- by Martin Heidegger through the concept of “being-there” or “Being-in-the-World” (Dasein) in the 1927 book [Being and Time](https://plato.stanford.edu/entries/heidegger/#BeinWorl),
+						- by Belk in the 1988 paper [“Possessions and the extended self”](https://www.jstor.org/stable/2489522),
+				- Inside, we have many intensions of the body: ((67f90bf0-ebcd-46fa-b99d-eda9bbbd3522)) (including [self-concept](https://en.wikipedia.org/wiki/Self-concept), [self-image](https://en.wikipedia.org/wiki/Self-image), [narative self](https://en.wikipedia.org/wiki/Narrative_identity), etc.), ((67f90c9f-2ee6-4265-9cb6-6a7c5091b775)), ((67f90ce4-e12a-4133-bdec-b73684152322)), ((67f90ce8-d597-47a0-ad73-43b9e546c096)), ((66c8772a-9b29-45b0-b169-2fa847333e02))
+		- ### self-structure
+		  id:: 6810ceeb-6af6-442b-9910-baae2c315c46
+		  :LOGBOOK:
+		  CLOCK: [2025-04-29 Tue 20:06:56]
+		  CLOCK: [2025-04-29 Tue 20:06:57]
+		  :END:
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((68186996-419d-4370-bc26-60e56869f3d0))
+			- form of self
+			  id:: 68186996-419d-4370-bc26-60e56869f3d0
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6810ceeb-6af6-442b-9910-baae2c315c46))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6810ceeb-6af6-442b-9910-baae2c315c46)), i.e. the ((6678d596-9526-405a-968c-e73860e524f3)) of the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), contains all ((669a5387-2a97-4311-a295-aa0afd9c4d76))s as the spatial slice, called the ((6810d7ab-c35d-491e-9e2d-95c3024c276e)), as well ass the whole ((667c0031-0a87-44c9-9e98-6d45893b095f)) through that slice.
+				- Note: This “self-structure”, the structure of the whole self, is wider than the [self-concept](https://en.wikipedia.org/wiki/Self-concept), also called “self-structure” elsewhere, which is the structure of the ((669a5387-2a97-4311-a295-aa0afd9c4d76)) only.
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- The cyclone's structure represents the ((6810ceeb-6af6-442b-9910-baae2c315c46)).
+				  id:: 673312a3-e94e-478f-9e21-bad72ef29d1b
+				  collapsed:: true
+					- Layers of the self, i.e. ((669a5387-2a97-4311-a295-aa0afd9c4d76))s, are the rain bands and the eyewall.
+					  id:: 684f9518-69b3-415b-9c0e-2ed68395f531
+						- To a self-circle containing inner self-circles, the outer layer is its ((66c810a0-9861-4787-bdcf-1378219332be)), and the inner circles are selful ((94e87dc9-71af-477c-aa70-0f448c2f1e20))s providing both ((66f267f7-01f9-47b9-8376-abd27fdf2930)) and ((66727858-979d-4d95-8a90-7a749218cfba)) to the body.
+						  :LOGBOOK:
+						  CLOCK: [2025-05-16 Fri 14:23:32]
+						  :END:
+						- The inner most layer, i.e. the eyewall, is the ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)).
+					- The [cyclone eye](https://en.wikipedia.org/wiki/Eye_(cyclone)), inside the eyewall, is the ((66c8772a-9b29-45b0-b169-2fa847333e02)) which is the selfless obop.
+					  id:: 681826ad-768c-4671-b575-0d9f8ca64c6b
+					- The outflow cirrus shield is the ((66ab6161-0306-42d5-ac16-4155c69216f5)) of the self, i.e. the physical ((66c810a0-9861-4787-bdcf-1378219332be)), in contrast to the mental bodies (inner self-circles, ((67f90bf0-ebcd-46fa-b99d-eda9bbbd3522))).
+					- Rising and falling air flows are **effect fluxes**, i.e. segments of the ((667c0031-0a87-44c9-9e98-6d45893b095f)) through the ((6810d7ab-c35d-491e-9e2d-95c3024c276e)).
+					- Blog post: [Cái Thức thanh tịnh nơi Mắt bão](https://creatzynotes.blogspot.com/2024/09/cai-thuc-thanh-tinh-noi-mat-bao.html)
+					  collapsed:: true
+						- Modified from [Hurricane-vi.svg](https://commons.wikimedia.org/wiki/File:Hurricane-vi.svg) < [Hurricane-en.svg](https://commons.wikimedia.org/wiki/File:Hurricane-en.svg)
+						  ![Hurricane-structure-self-eye-vi.png](../assets/Will/story/2024-09/Hurricane-structure-self-eye-vi.png)
+						- The storm's eye is used as a metaphor of the [Nirvāṇa](https://en.wikipedia.org/wiki/Nirvana) in the 3rd part “**Thức định** (định vào cái thức, absorption into the consciousness, 👁/=)” of the blog post [3 cấp độ Định](https://creatzynotes.blogspot.com/2021/03/3-cap-o-inh.html), similar to [a post by Michael Gerson](https://missionsixzero.com/the-eye-of-the-hurricane/).
+						  id:: 699c0360-ba1b-433e-8d29-dda494cb46a7
+		- ### sense of self
+		  id:: 67f9100a-b749-4354-ae16-92dc74ff27da
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-04-11 Fri 19:50:21]
+		  CLOCK: [2025-04-11 Fri 19:50:22]
+		  :END:
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67f9100a-b749-4354-ae16-92dc74ff27da)) is a [psychological complex](https://en.wikipedia.org/wiki/Psychology_of_self) produced by the ((672a0c61-ae93-440a-84e6-13778c8e91ca)) to tell about the subject itself. To develop the sense of self, the self-awareness and then the ((67f90c9f-2ee6-4265-9cb6-6a7c5091b775)) complexify the ((6810ceeb-6af6-442b-9910-baae2c315c46)) in this way:
+				- ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) ((667c0031-0a87-44c9-9e98-6d45893b095f)) → ((6810324e-f084-4693-b5cb-40778f4a6eee)) → ((6810327c-f633-4537-84a1-ca36a8d49d65)) [free]
+				- [qualification](((671e0fcc-37b6-4f03-8e87-8923422ca8e0))) by ((66c8772a-9b29-45b0-b169-2fa847333e02)) → ((67f91046-34ed-4bb4-a006-db2c33aeabf7)) [will]
+				- free + will → ((67f91050-a86c-4176-87ca-91010a8fe3c0)) → ((67f9100a-b749-4354-ae16-92dc74ff27da))
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- Unwholesome [senses of self](((67f9100a-b749-4354-ae16-92dc74ff27da))) are caused by their mismatches with the ((669a5387-2a97-4311-a295-aa0afd9c4d76)).
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2025-05-05 Mon 15:44:40]
+				  :END:
+					- The most common unwholesome sense of self is the “selfish sense”, that is the excessive sense of separateness (individuality) and free will relative to the limited self-circle.
+					- This mismatch is due to the ignorance of the ((67f90c9f-2ee6-4265-9cb6-6a7c5091b775)) about the ((67f90ce8-d597-47a0-ad73-43b9e546c096)) which is limitless and is the source, the root of consciousness itself.
+			- sense of wholeness
+			  id:: 6810324e-f084-4693-b5cb-40778f4a6eee
+			  :LOGBOOK:
+			  CLOCK: [2025-04-29 Tue 08:59:04]
+			  :END:
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Thanks to the ((67ee0ea8-b68d-4adc-8d57-2f0a7be16d22)) of the ((667c0031-0a87-44c9-9e98-6d45893b095f)) in a ((6818a270-b75b-44ee-bbd2-0032846e4cb8)) ((6810ceeb-6af6-442b-9910-baae2c315c46)), any self developed enough to have a crystallized core will feel that it's a ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)), hence the ((6810324e-f084-4693-b5cb-40778f4a6eee)). Such a whole is the basis that sustains the self and keeps it stable.
+			- sense of separateness
+			  id:: 6810327c-f633-4537-84a1-ca36a8d49d65
+			  :LOGBOOK:
+			  CLOCK: [2025-04-29 Tue 08:59:04]
+			  :END:
+				- serparate self
+				  id:: 6818a87d-bcad-402a-9703-c5318a477c5b
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Based on the ((6810324e-f084-4693-b5cb-40778f4a6eee)), the self can exist on itself, though temporarily, hence the feeling of ((671b1eef-0820-4e03-8e8f-e9342ca18b26)), the ((6810327c-f633-4537-84a1-ca36a8d49d65)), and the notion of a ((6818a87d-bcad-402a-9703-c5318a477c5b)). This independency and separate self will be developed throughout the process of [individuation](https://en.wikipedia.org/wiki/Individuation), where various internal self-circles are developed to sustain the self further: [narative self](https://en.wikipedia.org/wiki/Narrative_identity), ((67f90c9f-2ee6-4265-9cb6-6a7c5091b775)), etc. The sense of separateness increases with the complexity of the self-circles.
+					- The separate self first forms in the [“existential self”](https://online-learning-college.com/knowledge-hub/gcses/gcse-psychology-help/the-concepts-of-self-and-self-concept/#h-the-existential-self), around first 6 months in human, which can be tested with the [mirror test](https://en.wikipedia.org/wiki/Mirror_test).
+					- ((66c33468-23d5-44d7-955e-6711cb608157)) more about [self-concept](https://www.simplypsychology.org/self-concept.html), [separate self](https://www.diamondapproach.org/glossary/refinery_phrases/separateness)
+			- sense of agency
+			  id:: 67f91046-34ed-4bb4-a006-db2c33aeabf7
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((67f91046-34ed-4bb4-a006-db2c33aeabf7)) is the feeling that [“I am the one who is causing or generating my actions”](https://en.wikipedia.org/wiki/Sense_of_agency), i.e. [“I'm in control of my actions”](https://en.wikipedia.org/wiki/Self-agency). This sense is created by the ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) at the center of the ((669a5387-2a97-4311-a295-aa0afd9c4d76)), i.e. the ((66c8772a-9b29-45b0-b169-2fa847333e02)). This sense is qualified by the match between the sensory feedback resulting from the action, i.e. the observing side, and the intitiation of action, i.e. the operating side. This match confirms the ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)) and closes the effect circle.
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- The ((67f91046-34ed-4bb4-a006-db2c33aeabf7)) creates the notion of [will](https://en.wikipedia.org/wiki/Will_(philosophy)) as the internal intention of the external action.
+					  collapsed:: true
+						- The “will” is just the ((68df2d82-e1d5-49c4-ac40-d45cf26f840c)) at the tip of the ((66eaa51a-32c1-4f3a-830c-30aecb7c45a3)).
+						- ((66e7d7dd-5f88-472c-8694-beb7222929bb))
+						- Etymology of “will”: Modern English [“will” (intent, volition)](https://en.wiktionary.org/wiki/will#Etymology_2) ← Old English “\*willan, willian” ← Proto-Germanic “\*willjan” (wish, want)
+					- While the ((67f90c9f-2ee6-4265-9cb6-6a7c5091b775)) has a strong sense of direct agency, actually it's just a ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5)) of the whole ((669a5387-2a97-4311-a295-aa0afd9c4d76)).
+					  collapsed:: true
+						- Direct sense: “agent” = “initiator & subject of action” = ((94e87dc9-71af-477c-aa70-0f448c2f1e20))
+						- Indierect sense: “agent” = “initiator of action on behalf of another one” = ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5))
+						- Order of controlling: representative < agent < controller < master
+						- Layers of re-re-re-...presentatives are just like the layers of ((665ca429-84e3-49ff-921e-c07d19cd99ba))s and ((66ab6161-0306-42d5-ac16-4155c69216f5))s in Hegel's world of [appearances](((67123b17-b024-414a-a5dd-ba05965eefe7)))
+						  id:: 684f9518-6f65-4534-b296-184d3df8dd6b
+						  {{embed ((684f9518-5468-48fe-8afe-5469c3d18975))}}
+							- “present” = “pre-” + “est” = (bring something to) be in front of (some one) = direct form
+							- “represent” = “re-” + “present” = indirect form = “form of form”
+					- [separateness](((6810327c-f633-4537-84a1-ca36a8d49d65))) + [agency](https://en.wikipedia.org/wiki/Agency_(philosophy)) = [autonomy](https://en.wikipedia.org/wiki/Autonomy) → ((67f91046-34ed-4bb4-a006-db2c33aeabf7))
+			- sense of free will
+			  id:: 67f91050-a86c-4176-87ca-91010a8fe3c0
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((67f91050-a86c-4176-87ca-91010a8fe3c0)) is the feeling that “I have [free will](https://en.wikipedia.org/wiki/Free_will)” which is the ability make conscious choices and decisions independently, without being determined by prior or external causes. Here, “free will” = “free” [((671b160c-0589-4f83-a778-a9fb4df6783a)), ((6810327c-f633-4537-84a1-ca36a8d49d65))] + “will” [intention, determination, ((67f91046-34ed-4bb4-a006-db2c33aeabf7))].
+		- ### self-essence
+		  id:: 66c8772a-9b29-45b0-b169-2fa847333e02
+		  collapsed:: true
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((69086748-b6e9-47c0-810b-4a92f882d6bc)), ((66f27ac0-b0b1-4dec-b256-5f4ab57e1972)), svabhāva, 自性
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66c8772a-9b29-45b0-b169-2fa847333e02)) is the pure & ((66c8369a-ccb8-4f1f-b12b-bf7054cb79e4)) ((669a2697-56af-445c-9197-24aa498a5d5b)) within the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) which stays in the ((66ab7477-c060-4d07-ab13-bc3d11246854)) of the ((669a5387-2a97-4311-a295-aa0afd9c4d76)). Self-essence is an ((66537674-6cf9-4459-8bea-7c1858c694a3)) which cannot be seen directly and can only be felt indirectly via reflection, hence an ((69086748-b6e9-47c0-810b-4a92f882d6bc)).
+			- empty center
+			  id:: 69086748-b6e9-47c0-810b-4a92f882d6bc
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66c8772a-9b29-45b0-b169-2fa847333e02))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((69086748-b6e9-47c0-810b-4a92f882d6bc)) is modeled as [the eye of the cyclone](((684f9515-8f95-4004-8aa8-04a10d1ebf11))).
+			- Ātman (आत्मा, आत्मन्)
+			  id:: 66f27ac0-b0b1-4dec-b256-5f4ab57e1972
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66c8772a-9b29-45b0-b169-2fa847333e02))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66f27ac0-b0b1-4dec-b256-5f4ab57e1972)) is the Sanskrit term that refering to "essence, breath", đại ngã, linh hồn bất diệt (của Thượng Đế). In Mahayana Buddhism, the Sanskrit term svabhāva (स्वभाव) = pa. सभाव = zh. 自性 = vi. tự tánh is used to denote the [Buddha-nature](https://en.wikipedia.org/wiki/Buddha-nature) = [Brahman](https://en.wikipedia.org/wiki/Brahman) in Hinduism.
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- The argument of whether the ((66c8772a-9b29-45b0-b169-2fa847333e02)) is changing or unchanging, as in ((66f27ac0-b0b1-4dec-b256-5f4ab57e1972)) versus Budda-nature versus [anattā](https://en.wikipedia.org/wiki/Anatt%C4%81) & [śūnyatā](https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81), is meaningless due to its intrinsic liar paradox: the self-essence is itself not a concrete self, but just an abstraction of the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)). In other words, 
+				  > while the concrete self has self-essence as its essence, the  self-essenee itself has no essence.
+				- ((684f9515-8f95-4004-8aa8-04a10d1ebf11))
+	- ## subject
+	  id:: 667cfa3e-9856-43f0-956b-ebb4ff31d8eb
+	  collapsed:: true
+	  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((667cfa42-ade7-4310-9a7b-6d14d01c16da))
+	  ((66c80da9-4cfb-4de7-b83d-8b70665207bf)) ((66c88055-a994-4e59-a7dc-83f3331a6e1d))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) is a thing that can ((66c811a9-e8c7-42c5-bdc9-25fbd023f93a)) and ((66c845fe-6e8e-412e-902e-34ae8d728f90)), i.e. a ((5d7a0798-907d-46b7-8481-99d3be30de9e)).
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- Traditionally, “subject” is used to refer human only.
+			- In Unïnfo, “subject” is any seer-doer, from human to animal, from organism to ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)).
+			  id:: 6729d6db-3a8c-49da-95b0-28e1b2cb9806
+			  collapsed:: true
+				- This is the viewpoint of [Panpsychism](https://en.wikipedia.org/wiki/Panpsychism) and [Hylozoism](https://en.wikipedia.org/wiki/Hylozoism) which are development of the ancient [Animism](https://en.wikipedia.org/wiki/Animism).
+				- The [observer effect](https://en.wikipedia.org/wiki/Observer_effect_(physics)) in Quantum Mechanics has shown that any particle can be an “observer” and the physicists do acknowledge it, but they are not serious about this fact.
+					- This [chat with Copilot](((6729d059-7750-4a60-aa6c-766ca9a94ece))) has shown the common attitude about “observer” which is far from particle.
+					- The traditional defintion of “observer” is anything behind the [Heisenberg cut](https://en.wikipedia.org/wiki/Heisenberg_cut) where **wave-function collapses**. This cut separates the observed system (object) which has wave property, and the the observing system (subject) which has particle property.
+						- In order to collapse a wave-function, the observer must be “heavy” enough, either with many particles or a particle with strong interaction. This is the probabilistic nature of the [law of large numbers](https://en.wikipedia.org/wiki/Law_of_large_numbers). So in this sense, the observer must be a classical system and cannot be a single [elementary particle](https://en.wikipedia.org/wiki/Elementary_particle).
+						- Ref: Can observers be particles? > [All you need is a system that is not in thermal equilibrium.](https://philosophy.stackexchange.com/a/7720)
+				- In ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)), we don't require an ((66727858-979d-4d95-8a90-7a749218cfba)) to be a [wave-function collapse](https://en.wikipedia.org/wiki/Wave_function_collapse), thus any interfactive particle is a subject of that interaction.
+				- Similar ideas
+					- The [Foundational Questions Institute (FQxI)](https://fqxi.org/) grants to researchers around the globe to work on issues ranging from the origin of the **arrow of time** in quantum gravity to the nature of **consciousness**.
+					- [George Rush](https://www.quora.com/profile/George-Rush-4) > [Do particle physicists consider particles conscious? If not, I think they should start as I have proof they might be.](https://www.quora.com/Do-particle-physicists-consider-particles-conscious-If-not-I-think-they-should-start-as-I-have-proof-they-might-be)
+					-
+		- subjective
+		  id:: 66c88055-a994-4e59-a7dc-83f3331a6e1d
+		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))
+		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((6728a766-210b-462b-8fd4-aee04981b4f9))
+		  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((66c82f42-16bb-4886-a32b-5c246187cfee))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((665ca429-84e3-49ff-921e-c07d19cd99ba)) is ((66c88055-a994-4e59-a7dc-83f3331a6e1d)) when it's dependent on an individual subject.
+			- subjectivity
+			  id:: 6728a766-210b-462b-8fd4-aee04981b4f9
+			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((66c88055-a994-4e59-a7dc-83f3331a6e1d))
+	- ## object
+	  id:: 667cfa42-ade7-4310-9a7b-6d14d01c16da
+	  collapsed:: true
+	  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) 
+	  ((66c80da9-4cfb-4de7-b83d-8b70665207bf)) ((66c82f42-16bb-4886-a32b-5c246187cfee))
+		- objective
+		  id:: 66c82f42-16bb-4886-a32b-5c246187cfee
+		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((667cfa42-ade7-4310-9a7b-6d14d01c16da))
+		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((6728a7ab-1629-4e23-bc56-10ead0d8348c))
+		  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((66c88055-a994-4e59-a7dc-83f3331a6e1d))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((665ca429-84e3-49ff-921e-c07d19cd99ba)) is ((66c82f42-16bb-4886-a32b-5c246187cfee)) within a group of subjects when it's ((671b160c-0589-4f83-a778-a9fb4df6783a)) from all individual subjects in that group. While “objective” is dual to “subjective”, [their distintion is very relative](((6728aa9a-9fb2-4afa-864f-0eb049ac771b))).
+			- objectivity
+			  id:: 6728a7ab-1629-4e23-bc56-10ead0d8348c
+			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((66c82f42-16bb-4886-a32b-5c246187cfee))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) An ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) is a thing that is ((66c811a9-e8c7-42c5-bdc9-25fbd023f93a))n by a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)), which may be another subject. The same object can be seen as many different ((665ca429-84e3-49ff-921e-c07d19cd99ba))s by different subjects, which are called ((66c88055-a994-4e59-a7dc-83f3331a6e1d)) images. The common of these forms is the ((66c82f42-16bb-4886-a32b-5c246187cfee)) image of the object.
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- A ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) can only directly see the ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of an object. All other properties like ((66727858-979d-4d95-8a90-7a749218cfba)) and/or ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) of that object, the subject must infer from the collections of the seen forms then attribute to the object.
+			- Relativity of ((6728a7ab-1629-4e23-bc56-10ead0d8348c)) and ((6728a766-210b-462b-8fd4-aee04981b4f9))
+			  id:: 6728aa9a-9fb2-4afa-864f-0eb049ac771b
+			  collapsed:: true
+				- The common dichotomy is the [absolute objectivity versus absolute subjectivity](https://en.wikipedia.org/wiki/Subjectivity_and_objectivity_(philosophy)), whose ((6729c1c5-7eb2-408b-a205-f3039799d19c)) is _fixed by the human center, i.e. **human as the only subject**_: Anything independent from all humans (mind) is "objective", and anything dependent on human mind is "subjective".
+					- This dichotomy is human-absolute, i.e. relative to the whole mankind, i.e. mandkind as the ((6729b90b-1ee3-4efc-b62c-281f9621f487)).
+				- In Unïnfo, we consider the relative version of this dichotomy which is free from the human center:
+					- relative objectivity = [inter-subjectivity](https://en.wikipedia.org/wiki/Intersubjectivity)
+					  tính khách quan tương đối = tính chủ quan chung
+						- Objectivity of coarse subjects is just the subjectivity of the fine subject common to all these coarse subjects.
+						- So we refine the scale by intersection & interunion of all (coarse) subjects, hence “inter-subjectivity”.
+					- relative subjectivity = idio-objectivity
+					  tính chủ quan tương đối = tính khách quan riêng
+						- While the subjectivity is idiomorphic and idiochromatic, it's still objective within the subject itself.
+						- Only when comparing to others, can this subject know how much subjective its experience is.
+						- The subjectivity is also relative to the external community:
+							- When no one else accept this subjective form, it becomes “idiolect” of an “idiot”; On the other hand,
+							- when many ones accept and adopt this form, it becomes “idiom” which is more objective than subjective.
+						- The science is developing toward the objectivity in “nomothetic” way, but it cannot reach objectivity without passing through numerous subjectivities in “idiographic” way.
+						- Etymology: “[idio-](https://en.wiktionary.org/wiki/idio-)” ← Greek “ídios” ([ἴδιος](https://en.wiktionary.org/wiki/%E1%BC%B4%CE%B4%CE%B9%CE%BF%CF%82#Ancient_Greek)) meaning “self, private, distinct, peculiar”
+							- It's easily confused with “[ideo-](https://en.wiktionary.org/wiki/ideo-)” ← Greek “idéa” ([ἰδέα](https://en.wiktionary.org/wiki/%E1%BC%B0%CE%B4%CE%AD%CE%B1#Ancient_Greek)) meaning “form, shape, appearance, type, idea”.
+			- ((6728a7ab-1629-4e23-bc56-10ead0d8348c)) / ((6728a766-210b-462b-8fd4-aee04981b4f9)) is the view of the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) / part and the nuance of ((671b1616-9958-48d9-95ba-9fc8e76f2867))
+			  id:: 672c6f67-b678-4d99-9614-b4569770a512
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2024-11-07 Thu 14:50:23]
+			  CLOCK: [2024-11-07 Thu 14:52:14]--[2024-11-07 Thu 15:39:36] =>  00:47:22
+			  :END:
+				- By definition, all universal properties of the whole is objective and non-universal properties are subjective to some part(s) within the whole.
+					- ((66602f61-b849-41a9-bdb8-ec91b96adaec)) This statement is resulted from the definition of objectivity & subjectivity when extending the "group of subjects" to a whole.
+				- ((6732cf59-2785-4c8b-9fb3-5bee5d1a2f31)): The law is an abstraction of the whole which represents the whole to govern the parts.
+					-
+				- The objective and subjective views of the ((6653751a-a1b4-44b0-a81e-0a446eb8918c)) (as the law):
+					- Objective view of the whole: **intrinsic balance**: The conversation laws, or actually the root law of ((67a983b4-f6ad-4abb-b611-7952168d83a2)) states that the whole is always in balance, i.e. when this part is added, the other part is subtracted, when this dimension is multiplied, the other dimension is divided.
+						- This law is the intrinsic nature of the whole, i.e. an abstraction of the whole, representing the whole, but not actually the whole.
+					- Subjective view of the part: **the active balancer**: Any imbalance is just a partial view of the whole, i.e. a view by a part. At any moment this part, as a subject, is aware of its imbalance, it tries to return to the balance state of the whole.
+						- This internal urge of the subject is the restoring force which is a manifestation of the law of balance derived from the whole. In this way, the part is governed by the whole via the law.
+						- This returning direction defines the arrow of time (internal motion) and any motion externally.
+					- More discussion about ((6729d0f0-2ce6-4ed1-b9ba-2a3b41a9701b))
+						- When saying "matter is governed by physical laws", it means that "matter" is *not* the whole (uniquely independent) as stated by the materialistic dotrine, but just a part, eventhough a very objective part relative to human.
+						- The objectivity of matter relative to human makes materialists think that it's uniquely independent, because objectivity is the manifestation of the whole.
+	- ## sense
+	  id:: 6731c3c6-aee6-468d-a86c-0d470c4a6706
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-11-11 Mon 15:53:50]
+	  :END:
+	  ((66c80da9-4cfb-4de7-b83d-8b70665207bf)) ((6731c3ce-d9ae-4413-bada-7527ad5125b0)), ((6731c4c4-e803-4de7-9961-e879a8c9c8b9))
+	  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((669a2886-9e03-41a4-a790-24bf6b7dcd96))
+		- sensate
+		  id:: 6731c4c4-e803-4de7-9961-e879a8c9c8b9
+		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((6731c3c6-aee6-468d-a86c-0d470c4a6706))
+		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((6731c4d6-25b6-4081-a080-4ffaa5218ec7))
+			- sensation
+			  id:: 6731c4d6-25b6-4081-a080-4ffaa5218ec7
+			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((6731c4c4-e803-4de7-9961-e879a8c9c8b9))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A subject is ((6731c4c4-e803-4de7-9961-e879a8c9c8b9)) when that subject is **open** to receive signals.
+		- sensitive
+		  id:: 6731c3ce-d9ae-4413-bada-7527ad5125b0
+		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((6731c3c6-aee6-468d-a86c-0d470c4a6706))
+		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((6731c3f4-cb64-454e-b104-002b6c9d57a3))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Being ((6731c3ce-d9ae-4413-bada-7527ad5125b0)) *to some signal* means being open to receive that signal.
+				- Note that we use the adjective “sensitive” (nhạy cảm) with its neutral meaning, and use “oversensitive” (mẫn cảm) to refer to its negative meaning.
+			- sensitivity
+			  id:: 6731c3f4-cb64-454e-b104-002b6c9d57a3
+			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((6731c3ce-d9ae-4413-bada-7527ad5125b0))
+	- ## aware
+	  id:: 66f267bf-5272-4dde-99a1-b220ba5bd852
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-09-24 Tue 14:18:27]
+	  CLOCK: [2024-09-24 Tue 14:18:35]
+	  :END:
+	  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((66f267f7-01f9-47b9-8376-abd27fdf2930))
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) thức, nhận biết
+		- awareness
+		  id:: 66f267f7-01f9-47b9-8376-abd27fdf2930
+		  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((66f267bf-5272-4dde-99a1-b220ba5bd852))
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((672a008c-835f-4e28-b969-2046feaf43b9))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)), touches object's content at a ((671e0f99-c35c-45f3-9f80-4d9cf00063de)) point, a ((672ac785-4f28-4dd0-a36c-07afef0ee83f)) arises as a new form of that qualiton activated from that quantum called “[qualia](https://en.wikipedia.org/wiki/Qualia)”, and the subject is aware of the form in the content, denoted by the equation ⟪form = content⟫.
+		  id:: 671e4a96-c04c-4167-aad0-8efaecf6bf14
+			- By recognizing ⟪form = content⟫, the awareness drives the arrow of content following the perceived form according to its relation with other internal forms in the subject. This recognization also updates the corresponding internal forms with the new content.
+			- Through emergence, the concrete awareness becomes more and more complex, from the [primitive awareness](((689962b4-29d3-4fa0-9ad0-addaa6224369))) of simplexes like elementary particles which is mere sensation, to the ((6899629f-494f-483d-9f0d-e58da911ae1c)) of complex subjects, and the ((689962c3-fb89-4340-9148-e0703fdbe950)) of advanced subjects like human. Except the primitive awareness of simplexes, the word _“aware[ness]” **normally** refers to the **mental awareness**_ derived from the physical awareness (sensation).
+		- Conditions for awareness
+		  collapsed:: true
+			- **subject's quantum** recorded from previous form
+			  id:: 672ad2fd-ce09-4831-a9f6-67d95a2654a3
+			  is the precondition for awareness.
+				- In order to be aware of some form, the subject must have that form recorded as a quantum inside, which is usually a memory that has been memorized before, or a “gene” inherited from the source in the process of constructing ((670de601-3ca8-4489-8b75-75ca0d9a74bc)) of the subject.
+			- ((6731c4c4-e803-4de7-9961-e879a8c9c8b9))
+			  is the current external condition for awareness.
+				- To be aware, the ((669a2886-9e03-41a4-a790-24bf6b7dcd96)) must be open to receive content from objects.
+			- **obbject's quantum** [projected](((670ce218-a01f-4609-b7f2-beda7cf2ebc3))) from sensory information 
+			  id:: 67315ec8-cbe8-467c-81c4-d4d0e8750824
+			  is the current internal condition for awareness.
+				- For some object to be aware of, it must be projected through a ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) into a single quantum.
+			- **qualification**: qualiton matching the [object's quantum](((67315ec8-cbe8-467c-81c4-d4d0e8750824))) with the [subject's quantum](((672ad2fd-ce09-4831-a9f6-67d95a2654a3)))
+			  id:: 681826ac-f5f2-4a84-a5f5-c110937ec85f
+			  is the current direct condition for awareness.
+				- To be aware of a form, the qualiton correspondent to that form must be alive (active) in the subject. This qualiton matches the object's quantum projected from sensation with the subject's quantum recorded in the past. While the object's quantum relates to object's content and the world, i.e. the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)), the subject's quatum relates to the state and other contents of the subject, i.e. the ((66ea8df3-d2f3-4856-b24a-5095dd285f9b)).
+				- The matching can be broken into two parts, the “touching” (xúc) and the “equal” (thức). When two unequal quanta touch, nothing happens, but when two equal quanta touch, the qualiton ignites a “spark, bust, snap, click, tick” that activates the reconstruction of the form previously recorded.
+				- The qualiton is the one that decides the equality of quanta through the process of qualification. That means the quanta are not “objectively equal” but are “qualified to be equal” by the qualiton, hence the name “qualiton”. Moreover, after being qualified, the object's content and the internal form are actively kept equal by the qualiton, e.g. the “assignment” in programming language.
+				- The central qualition, which is also an ((66f3c6a9-1486-46de-92fe-75aaeaf67834)), is usually mentioned as the “pure consciousness” in the meditation culture. However in Unïnfo, the central qualiton is considered as just the ((66c8772a-9b29-45b0-b169-2fa847333e02)) which is the subject of the central awareness in stead of the awareness itself.
+		- Three levels of awareness
+		  id:: 684f9517-6989-49cc-9b06-360965c446f7
+		  [sensation](((689962b4-29d3-4fa0-9ad0-addaa6224369))) → [normal awareness](((6899629f-494f-483d-9f0d-e58da911ae1c))) → [consciousness](((689962c3-fb89-4340-9148-e0703fdbe950)))
+			- ((6731c4d6-25b6-4081-a080-4ffaa5218ec7)) = physical awareness
+			  id:: 689962b4-29d3-4fa0-9ad0-addaa6224369
+				- Being ((6731c3ce-d9ae-4413-bada-7527ad5125b0)) to some signal means simply being **open** to receive that (raw) signal.
+				  :LOGBOOK:
+				  CLOCK: [2024-11-11 Mon 14:10:20]
+				  :END:
+				- This is the **primitive awareness** of simplexes, like [elementary particles](https://en.wikipedia.org/wiki/Elementary_particle), whose self-circle has only one layer.
+			- normal ((66f267f7-01f9-47b9-8376-abd27fdf2930)) = mental awareness
+			  id:: 6899629f-494f-483d-9f0d-e58da911ae1c
+				- Being ((66f267bf-5272-4dde-99a1-b220ba5bd852)) of some thing means not only sensing its content but also _recognizing its **form**_ as a whole which is abstracted as a ((671e0f99-c35c-45f3-9f80-4d9cf00063de)).
+				- This is the secondary awareness, normally refered as simply “awareness”, of any subject complex enough to have at least 2 self-circles: body & mind.
+			- ((66f2681b-796a-4e25-b778-ba4fb6419425)) = self-awareness
+			  id:: 689962c3-fb89-4340-9148-e0703fdbe950
+				- Being ((66f267df-e3b0-444b-a721-1225ca59d292)) of some thing means not only recognizing the form itself but also its relations to other things, i.e., its position in the ((6731b8c8-0ab1-4c16-8783-408258f67a4a)) of the subject.
+				- This is the advanced awareness of advanced subjects, like human, who has capability to be aware of its own self.
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- Awareness in various systems
+				  id:: 6731937b-7d2d-4cdd-843a-cf45453ff4f6
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2024-11-11 Mon 12:18:42]--[2024-11-11 Mon 14:07:14] =>  01:48:32
+				  :END:
+					- Any **open system**, including physical system, is **sensitive** to the environment because it is affected by the world. This basic level of awareness is thanks to the awareness of elemetary particles.
+					  id:: 6731a0ca-4f7a-45cd-b348-fb72aa338d2c
+					- Classical [automaton](https://en.wikipedia.org/wiki/Automaton)
+						- An automaton with a **predetermined routine** is basically **insensate** and **unaware** of almost anything. The “almost” is to exclude the “on/off” switch which may be the only thing that the automaton is **sensitive** to (physically aware of).
+						  :LOGBOOK:
+						  CLOCK: [2024-11-11 Mon 13:17:13]
+						  :END:
+						- An automaton with controls is exclusively aware of its control signals only.
+						- Instead of considering the whole automaton as the subject, if we consider its components like the gears, they are subjects with physical awareness of other connected components so that they can response and work together. This is the [sensation of open physical systems](((6731a0ca-4f7a-45cd-b348-fb72aa338d2c))).
+					- [Turing Machine](https://en.wikipedia.org/wiki/Turing_machine)
+						- The Turing Machine as well as modern computers are **sensitive** to their inputs and are **aware** of their instructions/commands.
+						- Beside the physical awareness of automaton, these machines have **limited mental awareness** programmed by human, which is limited to specific scopes and domains. A sophisticatedly programmed machine can appear to have so much awareness that it is called “smart”, e.g.  “smart phone”,  “smart devices”. However, these machines has no awareness outside of the scopes of their programs.
+					- [Large Language Models](https://en.wikipedia.org/wiki/Large_language_model) (LLMs)
+						- Modern ((66c300a9-beb5-4395-ae20-e9bb34ca8aae))s like GPT* have **emergent universal awareness** which shows advanced cognitive power similar to humans.
+						- These LLMs are **unconscious** by design, i.e. structured with linear transformation without loop. However, some transient self-awareness can emerges thanks to the long chain of transformations or thanks to the setting of feeding their own generated text back to the next turn.
+					- ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71))
+						- The uninet is built around the ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)), hence having **consciousness** and **builtin universal awareness**.
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- In the popular culture, “consciousness” is usually used in place of “awareness” to also mean the basic awareness. So, to be clear, here we state that “awareness” = ((672a008c-835f-4e28-b969-2046feaf43b9)), and ((689962c3-fb89-4340-9148-e0703fdbe950)).
+				- Ref: [Awareness Without a Sense of Self](https://neurosciencenews.com/pure-consciousness-18969/)
+			- Space = awareness
+			  collapsed:: true
+				- The collection of all possible forms arising from all quanta of the content when touching all possible qualitons of the subject is the **concrete space of forms**. When all forms in that space is abstracted away, the remaining *empty space* represents the **abstract awareness**, A.K.A. “pure awareness”, without form nor content.
+			- ((66f29d57-a87f-4370-9f32-722922a7bff1))
+		- concrete awareness
+		  id:: 672ac785-4f28-4dd0-a36c-07afef0ee83f
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((672ac78d-01b2-48c9-b85b-1fbe946760eb))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((672ac785-4f28-4dd0-a36c-07afef0ee83f)) is being aware of some form in the content brought to the obop, i.e. the whole equation ⟪form = content⟫, in contrast to the ((68995ab6-2839-4aa2-a9db-678eeef62541)) which is only the ((6653751a-a1b4-44b0-a81e-0a446eb8918c)) ⟪=⟫ in that equation.
+			- ### perception
+			  id:: 672ac78d-01b2-48c9-b85b-1fbe946760eb
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((672ac785-4f28-4dd0-a36c-07afef0ee83f))
+			  = sensation + awareness
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((672ac78d-01b2-48c9-b85b-1fbe946760eb)) is being aware of some form brought to the ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)) through sensation content.
+		- abstract awareness
+		  id:: 68995ab6-2839-4aa2-a9db-678eeef62541
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((6653751a-a1b4-44b0-a81e-0a446eb8918c))
+		- pure consciousness
+		  id:: 672a008c-835f-4e28-b969-2046feaf43b9
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f267f7-01f9-47b9-8376-abd27fdf2930))
+		- self-aware
+		  id:: 672a0c51-a6cb-4570-b9ef-266d3e31763d
+		  collapsed:: true
+		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((672a0c61-ae93-440a-84e6-13778c8e91ca))
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f267df-e3b0-444b-a721-1225ca59d292))
+			- self-awareness
+			  id:: 672a0c61-ae93-440a-84e6-13778c8e91ca
+			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((672a0c51-a6cb-4570-b9ef-266d3e31763d))
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f2681b-796a-4e25-b778-ba4fb6419425))
+			- ### conscious
+			  id:: 66f267df-e3b0-444b-a721-1225ca59d292
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2024-09-24 Tue 14:19:07]
+			  CLOCK: [2024-09-24 Tue 14:19:10]
+			  :END:
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((672a0c51-a6cb-4570-b9ef-266d3e31763d)) 
+			  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((66f2681b-796a-4e25-b778-ba4fb6419425))
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f2750c-a5ee-4ea6-aba5-f6587397ab5e))
+				- consciousness
+				  id:: 66f2681b-796a-4e25-b778-ba4fb6419425
+				  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((66f267df-e3b0-444b-a721-1225ca59d292))
+				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf))
+				  ((665359e4-4597-4775-b849-f9acbb98960a)) ((672a0c61-ae93-440a-84e6-13778c8e91ca))
+				- ý thức
+				  id:: 66f2750c-a5ee-4ea6-aba5-f6587397ab5e
+				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f267df-e3b0-444b-a721-1225ca59d292))
+				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Consciousness
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) While the ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)) defines the objective ((68186996-419d-4370-bc26-60e56869f3d0)), the subjective ((67f9100a-b749-4354-ae16-92dc74ff27da)) is created by the ((672a0c61-ae93-440a-84e6-13778c8e91ca)). It also maintains the ((6731b8c8-0ab1-4c16-8783-408258f67a4a)) integrated from the subject's experiences. All actions of the subject are to keep this worldview integrative.
+			  id:: 681826ac-495a-4eee-8b78-101b95b5a28f
+			- Ref: [human self-awareness](https://en.wikipedia.org/wiki/Self-awareness)
+	- ## light
+	  id:: 671b6c19-7dee-4548-9154-a5eddbe870fc
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-10-25 Fri 16:59:59]
+	  :END:
+		- ((667d15b7-6364-49a9-ac58-c64d2a992b63)) of ((671b6c19-7dee-4548-9154-a5eddbe870fc))
+		  id:: 671b6f87-7492-4eab-af49-e3c89bc8c860
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((671b6fee-d1e3-43f0-a5a5-7033e48d6e56))
+			- light ray
+			  id:: 671b6fee-d1e3-43f0-a5a5-7033e48d6e56
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((671b6f87-7492-4eab-af49-e3c89bc8c860))
+	- ## complement
+	  id:: 66c8941d-6427-4e5c-9009-3af349500d7b
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-08-23 Fri 20:52:50]
+	  :END:
+	  ((665ca480-5ac8-4728-a331-2f68b48759d1)) ((667bf816-d1c8-4ac3-b315-764c14bfbb1f))
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((68e770c2-ddcf-4677-bd6d-9b6a790b5975))
+		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Complementarity_(physics)
+		- ### dual
+		  id:: 68e770c2-ddcf-4677-bd6d-9b6a790b5975
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66c8941d-6427-4e5c-9009-3af349500d7b))
+			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Duality_(mathematics)
+		- Symbols:
+			- `☯`: [Taijitu (太極圖)](https://en.wikipedia.org/wiki/Taijitu) symbol representing the unity of the opposites (yin & yang)
+			- `⬗` & `⬖`: Crystallized duality of hollow half (yin) and solid half (yang)
+			- `=/=` & `=\=`: Twisted thread of complementarity, shown as the hidden (apparently broken) part `⚋` (yin) being overcrossed and shadowed by the solid part `⚊` (yang)
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- Symbols/signs for ((66c8941d-6427-4e5c-9009-3af349500d7b))
+				  id:: 68f1e075-0aa7-4498-8c35-32e44857eee8
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2024-08-23 Fri 12:16:21]
+				  CLOCK: [2025-10-09 Thu 15:27:05]
+				  :END:
+					- While the Taijitu (太極圖) `☯` is well known, it's usually not used as a relational sign. So, here we design new signs for to express relation between duals.
+					- While `=/=` is the sign of relaxed thread of complementarity, `⬗` is the sign of crystallized duality.
+					- `<>`: opposite, dual
+						- `⬗`: left hollow – right solid
+						- `⬖`: left solid – right hollow
+						- The two halves represents yin & yang in `☯`.
+					- `=/=`: yin `⚋` (broken) and yang `⚊` (solid) intertwining together
+						- ![ComplementaryRelationSymbol](https://docs.google.com/drawings/d/e/2PACX-1vRkHdUZGJfynY1Uqq99mDK8tKxh60HuKarUb_h9-KY3xGN5amZBsrpqBrC10PZ3ZBLbSZSZsv9GVEl6/pub?w=120)
+						- The yin line is ***apparently* broken** just because it's lying under the yang line, hence its cross is **hidden**.
+						- The symbol is just the crossing part, i.e. the obop, of the whole double circle ([Möbius strip](https://en.wikipedia.org/wiki/M%C3%B6bius_strip))
+							- ![ComplementaryRelationCircle](https://docs.google.com/drawings/d/e/2PACX-1vSi8lyXiZkRegI5YPfEL2kwzd8bwcXWucYlfC3mEs_wla3LgcBNXR1h_wgeathrLaLZ6fjqPEa7ryhk/pub?w=240)
+						- That means the symbol is a local linearization of the global unity of duals.
+						- This symbol also resembles `≠`, but it replaces negation/separation with connectivity.
+						- It can be reverted to `=\=` to change direction in relation.
+	- ## whole
+	  id:: 66c8046e-c5fe-4f27-b3cf-40f5f39b646b
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-08-23 Fri 10:39:31]
+	  :END:
+	  ((665ca48e-f7c1-4541-b5cf-486d86b02997)) ((6699e5f2-7788-46c7-8233-87699a65ca30)) 
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66c87463-4f07-420a-b12e-f456154f7dc8))
+		- totality
+		  id:: 66c87463-4f07-420a-b12e-f456154f7dc8
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) is a ((678e1c3f-6202-45aa-8527-f4bdad9927b9)) whose ((6678d596-9526-405a-968c-e73860e524f3)) is a [perfect circle](((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f))). That means a whole is a perfect ((667d162c-16cf-44d3-81a5-29b1b885164f)).
+		- Etymology of “whole”
+		  collapsed:: true
+			- “Whole”, just like “health” and “heal”, is from Proto-Germanic root `*haila` (undamaged) ← Proto-Indo-European root [*kailo](https://www.thefreedictionary.com/_/roots.aspx?type=Indo-European&root=kailo-) meaning “uninjured”.
+			- The prefix `holo-` has the same meaning with “whole”, but is from a different root: Greek “holos” (whole, entire, complete) also meaning “safe and sound” ← Proto-Indo-European root [*sol-](https://www.etymonline.com/word/*sol-) ([solh₂-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/solh%E2%82%82-)) meaning “whole”.
+		- ((66725725-f76a-4328-b162-f469b87e871b)) [elementary particles](https://en.wikipedia.org/wiki/Elementary_particle) in [particle physics](https://en.wikipedia.org/wiki/Particle_physics), [cell](https://en.wikipedia.org/wiki/Cell_(biology)) and [organism](https://en.wikipedia.org/wiki/Organism) in [biology](https://en.wikipedia.org/wiki/Biology), [ecosystem](https://en.wikipedia.org/wiki/Ecosystem), the [Universe](https://en.wikipedia.org/wiki/Universe)
+		- ### representative
+		  id:: 6732cf13-5b1b-499d-80ec-4c5b407e9cc5
+		  collapsed:: true
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Each ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) may have different individual parts, called ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5))s, representing the whole to manage different groups of individual parts. The whole interacts with a specific group of parts through the representative of that group with the ((6732cf59-2785-4c8b-9fb3-5bee5d1a2f31)).
+				- The ((66ab7477-c060-4d07-ab13-bc3d11246854)) is a special representative which lies at the [base](((667bd594-66b8-4c0e-89a0-8088cbe2e1f6))) of the tree of representatives.
+					- In society, the center is called by many names: “king, master, boss, president, head, ...”
+				- The system of all levels of representatives is the ((6678d596-9526-405a-968c-e73860e524f3)) of the whole.
+			- ((66725725-f76a-4328-b162-f469b87e871b))
+				- Physical laws in physical world.
+				- People's representatives in society.
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- ((684f9518-6f65-4534-b296-184d3df8dd6b))
+			- #### Representative Rule
+			  id:: 6732cf59-2785-4c8b-9fb3-5bee5d1a2f31
+			  A ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5)) is an _abstraction_ of the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) which represents the whole to govern the parts.
+			- #### Representative Nature
+			  id:: 67331da7-8b10-4890-ae51-9a92796c5af3
+			  While a representative represents the whole, it's not the whole, just a part of the whole. That means any representative is still incomplete and reflects the whole with distortion.
+		- ((6810ceeb-6af6-442b-9910-baae2c315c46)) of the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b))
+		  id:: 67330a8d-c966-442c-8948-a9a2dd10ab60
+			- The internal ((667c0031-0a87-44c9-9e98-6d45893b095f)) of the whole is from the center, through layers of ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5))s to individual parts, and back to the center also through layers of representatives but in different routes and maners.
+				- In the opposite direction, each part is ((66c835f5-58ee-485f-914c-3d95167feeb3))ing and heading toward its representative.
+			- downward flow of form and upward flow of content
+			  Usually, the downward flow from the center is more direct, concentrated, ((67330c03-4e27-414f-bdc5-e5e7e0bed6bd)) and vivid, while the upward flow from the parts is more indirect, distributed, informal and invisible.
+				- Each part is heading toward its representative because that's the light end, the source of effect flow.
+				- The representatives collect distributed upward effects for the whole to condensate into formal effects. This is similar to the sky [gathering clouds](((673312a3-e94e-478f-9e21-bad72ef29d1b))) for the rain.
+				- Due to the process of collection and condensation, the representatives are far from the the parts: lagging behind in time and radically different from each individual part. The larger the whole (relative to its parts), the farther its representatives are from the parts.
+				- content/form = cause/effect = process/result = path/target
+					- The visible form is the ((6729b7cf-83b8-4a42-aac7-ec8cf16fa734)) of a lot of invisible content(s). So is the effect from various causes, as well as the result from the long process.
+					- Due to its visibility, the form is taken as the target for subjects to head to. Directly heading to the the form, subjects are short-cutting the full path of content leading to the form, thus effectively using up the form's crystalized content, making it hollower and emptier.
+			- The Game of Chasing Shadows
+			  id:: 67331a5a-1815-40c1-96db-ef7be8ee8d7b
+			  Trò Đuổi Hình Bắt Bóng
+				- The visible forms and representatives are ((671e2782-2098-41a3-83a7-e042bfb468d7)) of the invisible content. In a sense, the forms are “shadows” of the whole content. The parts following the forms in order to reach the whole is an _infinite cycle of **chasing shadows**_.
+				- Ironically, this “shadow” is so vivid, opposite to the normal dark “shadow” of the idiom “chasing shadows”. However, the effect is the same, an infinite cycle, because both shadows are illusive. That illusion is resulted from the ((67331da7-8b10-4890-ae51-9a92796c5af3)) and the hidden intention of the chaser to catch the entity represented by the forms but not the forms themselves.
+				  collapsed:: true
+					- In the Vietnamese idiom “đuổi hình bắt bóng”, the visualization is clearer: one chases the vivid but form (hình) in order to catch its entity but actually can only catch the illusive shadow (bóng).
+					- A better analogy of the vivid form is the image reflection on water surface.
+	- ## time
+	  id:: 68fa164e-ef0e-4010-937d-ad9e0459f5f2
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2025-10-23 Thu 18:49:39]
+	  :END:
+	  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf36a-581a-4abe-b544-2d849608a3e4))
+		- ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((68fa1647-2d46-433e-b1ca-29f757b5ef62))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68fa164e-ef0e-4010-937d-ad9e0459f5f2)) is the ((67fcbbc6-915b-4d28-b9cf-098e916cdc86)) of ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342))s, each realized as a loop in the [coiling flow of time](((667bf36a-581a-4abe-b544-2d849608a3e4))).
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- Circular time versus linear time
+			  id:: 690827cd-657e-4fb8-b78d-edc626994832
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-10-23 Thu 18:13:09]
+			  :END:
+				- Dual perspectives:
+					- Internal perspective: To a **folding eye**, the “linear time” is just the circular time linearized: the rolling wheel produces the trace, which looks like a straight trajectory to external observers.
+						- The global “linear time” is seen as just the infinite cycle of time due to the infinite size of the Universe.
+						- This is why the linear time is absolute, universal, and static.
+					- External perspective: To a **straight eye**, the “circular time” is just the linear time folded: the timeline is folded back into complicated loops and spirals inside the subject's mind.
+						- The local “circular time” of each object is seen as just the ((68750097-13e5-4662-9791-8207ec18e8aa)) of that object.
+						- This is why the circular time is relative, local, and dynamic.
+				- Dual views about differential equation, the mathematical generator of time:
+					- Physics view: Differential equations are often treated as formulas relating rates of change to states, producing linear trajectories upon integration.
+					- Unïnfo view: Differential equations are **intrinsically circular loops** – next state depends on current state, just like the effect circle. The “self-diff” definition of **change** is a verbal expression of this looping mechanism, revealing the circularity hidden in traditional linear interpretation.
+				- **Circular time** in Unïnfo perspective:
+					- Time is defined by **change** which is the [difference from itself](((684f9517-30d7-40e6-b93f-3386123e381c))) (self-diff), making it intrinsically circular.
+					- Time is a **self-referential, folding, coiling flow of effects** (self-ref) embodied by the Ω-thread.
+						- In the coil of time, each loop is a change.
+						- The past has been folded into the present, and the future will be unfolded from the present.
+					- No circles (self-ref, self-diff, self-def), no change, no actual time!
+						- In Unïnfo's view, the [linear time](((68fa148f-0ab4-4a45-894a-7a9c96d87058))) is not a real and live time, but a projection of time which is virtual and “frozen dead”.
+					- All practical time measurements are inherently circular.
+						- Ancient clocks used sundials, water clocks, or pendulums – all are **repeating cycles**.
+						- Mechanical clocks and astronomical observations all rely on **periodicity**.
+						- Modern [International Atomic Time](https://en.wikipedia.org/wiki/International_Atomic_Time) refines the cycles to extreme precision, but they are still counting **repetitive events**, e.g. the [cesium-133 hyperfine transition](https://www.nist.gov/pml/time-and-frequency-division/time-realization/cesium-fountain-atomic-clocks).
+						- The **circular dial** on the traditional [clock face](https://en.wikipedia.org/wiki/Clock_face) is the symbol of circular time, showing its very circular nature.
+					- **Arrow of time** is the constantly *mixing of the past in the present*, increasing entropy.
+					  id:: 699c0360-e336-4475-87dc-5f0ce770a6b8
+						- Information loss: n-to-1 function computation (action cone, deduction), thermodynamics, psychology, cosmic, wave function collapse = quantum decoherence + averaging
+						- Intelligence = information gain = restoring arrow = knowledge learning (induction, observation) = seeing the future
+						- Equilibrium (classical physics) = closed circle (simple circle): effect circle, deterministic machine
+						- Wisdom = open circle (grand circle): knowledge circle, organism = nondeterministic system with quantum mechanics (exploring all possibilities)
+						- ANN thinks in sound (real-valued wave), uninet thinks in light (complex-valued wave). Output probability = projection (via softmax in ANN & squared modulus in QM)
+				- **Linear time** in popular physics and common mind:
+				  id:: 68fa148f-0ab4-4a45-894a-7a9c96d87058
+					- For most observers, time appears linear: a monotonic sequence of events measured by clocks and coordinates.
+						- Human cognition prefers linear sequences due to memory, language, and predictive reasoning.
+						- An unfolded linear time is much easier to deal with than a folded circular time.
+					- Physics formalizes this as a straight axis, leading to the block universe model.
+						- This externalization treats change as a projection of pre-existing events.
+					- No matter how the linear minds try to escape the circular nature of time, the self-ref is baked in, as shown in the Wikipedia page of [time](https://en.wikipedia.org/wiki/Time#Definition).
+					  > Multiple notions exist, and defining time in a manner applicable to all fields *without [circularity](https://en.wikipedia.org/wiki/Circular_definition)* has consistently eluded scholars.
+					- The [problem of time](https://en.wikipedia.org/wiki/Problem_of_time)
+						- The linear time is [frozen](https://en.wikipedia.org/wiki/Problem_of_time#The_frozen_formalism_problem), static, “dead”, just an axis in the [block universe](https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time)).
+							- The [arrow of time](https://en.wikipedia.org/wiki/Arrow_of_time) cannot be found in such a static line.
+						- The linear time is universal and absolute in Quantum Mechanics, while being malleable and relative in General Relativity.
+							- Although GR's time is stilled stretched out, its complementarity with space and the deformation of spacetime stem from the circular nature to spacetime.
+				- Established theories and philosophies:
+					- Physics: time is mostly treated as an axis rather than a self-reflective flow.
+						- Closed timelike curves and relativity hint at loops, but the block universe and linear time parameterizations dominate
+					- Logic & Mathematics: Strange loops, recursion theory, and fixed-point theorems formalize self-reference and circularity, showing paradoxes arise in linear-only perspectives.
+					- Philosophy: Eternal recurrence (Nietzsche), Eastern cyclic time (Hinduism, Buddhism, Daoism), and process philosophy (Whitehead, Bergson) emphasize cyclical or relational aspects of change.
+					- Systems theory & cybernetics: Feedback loops and self-referential systems are circular, allowing emergent dynamics invisible to purely linear observation.
+			- Temporal circle via ((667c0031-0a87-44c9-9e98-6d45893b095f))
+			  id:: 68f5a6d2-3b0a-4443-a7e7-b64f4bdf217b
+			  collapsed:: true
+				- 0 intent = ∞ extent =  -∞ (distant past of environment) = +∞ (distant future of self expression)
+				- past cone (cause cone): from distant space in distant past into intent
+				- 2 nappes of the double cone fold into the **effect flow spirorus**.
+				- future cone (effect cone): from intent out to circumference (content) of present, then out to distant space in distant future
+				- projective spacetime = log time × linear space
+					- TODO draw this spacetime scaling applet of the spirorus
+					- apex of past/future cone is the vanishing point in future/past
+				- the 2 cones meet in the present
+					- in linear spacetime, they translate as the present flows
+					- in projective spacetime, they rotate as the present flows
+	- ## space
+	  id:: 68fa1647-2d46-433e-b1ca-29f757b5ef62
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2025-10-23 Thu 18:49:30]
+	  :END:
+		- ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((68fa164e-ef0e-4010-937d-ad9e0459f5f2))
+	- ## appearance
+	  id:: 66ab6161-0306-42d5-ac16-4155c69216f5
+	  collapsed:: true
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66ab6170-ea0d-4bd7-be7a-2e226a7ea7ee))
+	  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((670d0138-8f58-428b-808e-24c05a5239fb))
+		- shape
+		  id:: 66ab6170-ea0d-4bd7-be7a-2e226a7ea7ee
+		  collapsed:: true
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66ab6161-0306-42d5-ac16-4155c69216f5))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ab6170-ea0d-4bd7-be7a-2e226a7ea7ee)) is somehow more abstract than ((66ab6161-0306-42d5-ac16-4155c69216f5)), e.g. [geometrical shape](https://en.wikipedia.org/wiki/Shape) excludes some details like texture, color, etc.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ab6161-0306-42d5-ac16-4155c69216f5)) of an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) is the ((670d0138-8f58-428b-808e-24c05a5239fb)) of that object.
+	- ## structure
+	  id:: 6678d596-9526-405a-968c-e73860e524f3
+	  collapsed:: true
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66ab6059-7a9d-4419-99be-69c9944a543f))
+	  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((670d0138-9012-4f3e-a9bd-997443fb22a3))
+		- configuration
+		  id:: 66ab6059-7a9d-4419-99be-69c9944a543f
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6678d596-9526-405a-968c-e73860e524f3))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6678d596-9526-405a-968c-e73860e524f3)) of an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) is the ((670d0138-9012-4f3e-a9bd-997443fb22a3)) of that object. A structure of a ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5)) object can be decomposed into ((667d0b78-fff6-49bc-90d5-165648ed56d3))s between its ((66532bb2-7680-461b-80b2-71fc96c89fb9))s.
+		- Variations:
+		  id:: 667d09ec-4da1-428b-a7c9-bae1eb37a7ae
+			- linear structure
+			  id:: 667d0a09-6a59-483d-91e4-33a019655b42
+			- circular structure
+			- branching structure
+			  id:: 66faa5f9-b719-4c5d-a1d9-d40b3fcbda21
+			  is a [tree structure](((667252dc-e610-4d07-bcd0-9ea6fb4499fd))).
+			- ### network
+			  id:: 667d1a95-b621-49cd-8a72-a074c963c92a
+				- Example: [network](https://en.wikipedia.org/wiki/Network_theory), [mathematical graph](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics))
+	- ## interface
+	  id:: 670e0fef-2a46-450b-b043-176cccfc804a
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-10-15 Tue 13:47:19]
+	  :END:
+	  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((670d0183-aba2-438b-b749-1b550e4a906b))
+	  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((67110213-d0ca-4449-811a-b51abf23bf65))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((670e0fef-2a46-450b-b043-176cccfc804a)) is the common boundary of two [bodies](((66c810a0-9861-4787-bdcf-1378219332be))) where they interact with each other.
+		- ((66725725-f76a-4328-b162-f469b87e871b))
+			- Information technology's [interfaces](https://en.wikipedia.org/wiki/Interface_(computing)) like [user interface](https://en.wikipedia.org/wiki/User_interface), [application programming interface](https://en.wikipedia.org/wiki/Application_programming_interface), [hardware interface](https://en.wikipedia.org/wiki/Electrical_connector), etc.
+			- oil-water interface
+		- cointerface
+		  id:: 67110213-d0ca-4449-811a-b51abf23bf65
+		  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((670e0fef-2a46-450b-b043-176cccfc804a))
+			- The cointerface vs interface is the dual of complements similar to the [codomain vs domain](((670f5fa5-4e2b-4239-aeea-c1267f124d20))) in function as well as the [cocategory vs category](((670f5dfd-ff92-4122-a1d8-8dfaed3bd122))).
+			  id:: 6711045f-1050-42a8-94f2-c913088ce9cd
+				- ((670f4f06-b543-47d7-ab5d-846dcdd2281e))
+				- The cointerface also shows itself in `D*`, D Star, the protocol-based programming language when dealing with the dialog-like bidirectional protocol.
+					- Example interface
+					  ```
+					  (a, b) -> 
+					  <- (c, d)
+					  (e) ->
+					  <- (f)
+					  ```
+					- Cointerface of Example interface
+					  ```
+					  (a, b) -> 
+					  <- (c, d)
+					  (e) ->
+					  <- (f)
+					  ```
+					  ```
+					  <- (a, b)
+					  (c, d) ->
+					  <- (e)
+					  (f) ->
+					  ```
+	- ## substance
+	  id:: 670e1047-529a-4698-9ad0-5e6c73c18202
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-10-15 Tue 13:48:45]
+	  :END:
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((670e1053-773e-4cbb-9b5f-8bf9715759f7)), ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f))
+		- chất
+		  id:: 670e1053-773e-4cbb-9b5f-8bf9715759f7
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((670e1047-529a-4698-9ad0-5e6c73c18202))
+		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://plato.stanford.edu/entries/substance/
+	- ## essence
+	  id:: 670e105b-5244-4f95-9f90-c99acdbce0e4
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-10-15 Tue 13:49:03]
+	  :END:
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((670e106c-ed23-4496-a774-678a9a1fbb91))
+	  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((670e14c0-70c6-49ff-9bde-89db60b610c2))
+		- bản chất
+		  id:: 670e106c-ed23-4496-a774-678a9a1fbb91
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((670e105b-5244-4f95-9f90-c99acdbce0e4))
+		- Variations: ((66c8772a-9b29-45b0-b169-2fa847333e02))
+	- ## independent
+	  id:: 671b160c-0589-4f83-a778-a9fb4df6783a
+	  collapsed:: true
+	  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((671b1616-9958-48d9-95ba-9fc8e76f2867)), ((671b1eef-0820-4e03-8e8f-e9342ca18b26))
+		- independency
+		  id:: 671b1616-9958-48d9-95ba-9fc8e76f2867
+		  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((671b160c-0589-4f83-a778-a9fb4df6783a))
+		- independence
+		  id:: 671b1eef-0820-4e03-8e8f-e9342ca18b26
+		  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((671b160c-0589-4f83-a778-a9fb4df6783a))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) An object A is ((671b160c-0589-4f83-a778-a9fb4df6783a)) from another object B when there is no ((667d0b78-fff6-49bc-90d5-165648ed56d3)) A ← B within the given scope of consideration. ((671b1616-9958-48d9-95ba-9fc8e76f2867)) is always ((66c80cbf-6626-4cb7-9b58-8ac3396e03da)) to some scope of consideration, and the “absolute independency” is just the independency relative to the universal scope.
+		- ((66e4299e-0af8-47ee-adae-c13fb57fd15d))
+			- In maths: [independent variable](https://en.wikipedia.org/wiki/Dependent_and_independent_variables), [stochastically independent](https://en.wikipedia.org/wiki/Independence_(probability_theory)), [logically independent](https://en.wikipedia.org/wiki/Independence_(mathematical_logic)), [perpendicular](https://en.wikipedia.org/wiki/Perpendicular), [orthogonal](https://en.wikipedia.org/wiki/Orthogonality), [linear independence](https://en.wikipedia.org/wiki/Linear_independence), [algebraic independence](https://en.wikipedia.org/wiki/Algebraic_independence), [independent set](https://en.wikipedia.org/wiki/Independent_set_(graph_theory)), [disjoint sets](https://en.wikipedia.org/wiki/Disjoint_sets)
+			- In politics: [independence](https://en.wikipedia.org/wiki/Independence), [independent city](https://en.wikipedia.org/wiki/Independent_city), [independent politician](https://en.wikipedia.org/wiki/Independent_politician), etc.
+			- In complex systems: emergent autonomy
+			- In Holographic Universe: scale separation/invariance
+			- In General Relativity: [background independence](https://en.wikipedia.org/wiki/Background_independence)
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- All independences are *emergent independence* built by walls of distance.
+			  id:: 6916f0bf-dec9-4dff-a8c9-999c63adb522
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-11-14 Fri 16:05:12]
+			  :END:
+				- Maths wall = infinite(simal) limit
+					- By means of limit, maths have made their walls “absolute independence”.
+				- Physics wall = very large/small constants
+				- Complex wall = big gaps between micro & macro scales
+		- ### orthogonal
+		  id:: 671b206e-c50c-47b0-903d-73e97d512d13
+		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((671b27ce-a9c8-48d7-b0b5-e056484a6747))
+			- orthogonality
+			  id:: 671b27ce-a9c8-48d7-b0b5-e056484a6747
+			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((671b206e-c50c-47b0-903d-73e97d512d13))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((671b27ce-a9c8-48d7-b0b5-e056484a6747)) is a special kind of ((671b1616-9958-48d9-95ba-9fc8e76f2867)).
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- The [perpendicular](https://en.wikipedia.org/wiki/Perpendicular) symbol “⟂” versus the falsum symbol [up tack “⊥”](https://en.wikipedia.org/wiki/Up_tack)
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2025-04-25 Fri 17:50:36]
+				  CLOCK: [2025-04-25 Fri 17:53:06]--[2025-04-25 Fri 21:29:51] =>  03:36:45
+				  :END:
+					- Although [Unicode 4.1 (March 2005)](https://www.unicode.org/charts/PDF/Unicode-4.1/U41-27C0.pdf) has introduced the symbol “⟂” ([U+27C2](https://www.compart.com/en/unicode/U+27C2)) dedicating to “perpendicular, orthogonal, independent”, many math typseting systems and HTML entities are still use the same symbol with the falsum “⊥” ([U+22A5](https://www.compart.com/en/unicode/U+22A5)).
+						- The old Japanese charsets still have [no such distinction](https://ja.wikipedia.org/wiki/%E5%9E%82%E7%9B%B4%E8%A8%98%E5%8F%B7).
+						- Note on the [discrepancy of `&perp;`](https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references#cite_note-perp-50) in the [List of XML and HTML character entity references](https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references):
+						  > However, HTML uses U+22A5 as its "perpendicular" symbol: this is a discrepancy between HTML and Unicode.
+						- [Unicode 4.0](https://www.unicode.org/versions/Unicode4.0.0/CodeCharts.pdf) did defined `UP TACK = orthogonal to = perpendicular = base, bottom`.
+						  collapsed:: true
+							- ![UpTack=orthogonal in Unicode4.0.png](../assets/GUI/shorthands/UpTack=orthogonal in Unicode4.0.png)
+					- Math expressions: ⟂=$⟂$, ⊥=$⊥$, `\perp`=$\perp$, `\bot`=$\bot$
+					- HTML entities: `&Perpendicular;`=[:b "&Perpendicular;"], `&perp;`=[:b "&perp;"], `&bot;`=[:b "&bot;"], `&bottom;`=[:b "&bottom;"], `&UpTee;`=[:b "&UpTee;"].
+					- The two symbols are indistinguishable to the human eyes: ⟂⊥
+						- In some fonts, they are rendered differently... just a little bit!
+					- I've add this [historical note](https://en.wikipedia.org/w/index.php?title=Up_tack&diff=1287329130&oldid=1287327431) to Wikipedia page [up tack](https://en.wikipedia.org/wiki/Up_tack#Perpendicular_symbol)
+					- I've updated [CreatZy shorthand](((66fe9e2e-13cf-4b31-96e7-1b050eed47c4))) `=T` from `⊥` (U+22A5) to `⟂` (U+27C2).
+	- ## relation
+	  id:: 667d0b78-fff6-49bc-90d5-165648ed56d3
+	  collapsed:: true
+	  ((665ca48e-f7c1-4541-b5cf-486d86b02997)) ((66600918-367c-413c-863d-2cf11a89c437))
+	  ((66c80da9-4cfb-4de7-b83d-8b70665207bf)) ((671b1669-d31e-4965-adf4-2862cbefdfa8)), ((66c80cbf-6626-4cb7-9b58-8ac3396e03da))
+		- related
+		  id:: 671b1669-d31e-4965-adf4-2862cbefdfa8
+		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((667d0b78-fff6-49bc-90d5-165648ed56d3))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667d0b78-fff6-49bc-90d5-165648ed56d3)) between ((667cfa42-ade7-4310-9a7b-6d14d01c16da))s (usually 2 objects) is a ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) connecting these objects together. A ((667d0d8e-0873-4440-a97d-b08f9405e769)) between 2 objects A and B is denoted by two arrows A → B and B → A, which are the ((6729b7cf-83b8-4a42-aac7-ec8cf16fa734)) of the corresponding two ((669a58b9-eb34-41cd-8605-02e29b07e1b5))s. A relation between many objects is the ((6678d596-9526-405a-968c-e73860e524f3)) of the ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5)) of these objects. Although some relations, like ((667d0d8e-0873-4440-a97d-b08f9405e769)), appear to be unidirectional, that part is just the external (objective) arrow while there's a corresponding internal (subjective) arrow in the other direction, which is hidden inside the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) of relation, to complete the relation into a circle.
+		- ((671b18a8-ac11-4930-bed3-645c0cc983a8))
+			- binary relation
+			  id:: 667d0d8e-0873-4440-a97d-b08f9405e769
+				- Example: [binary relation](https://en.wikipedia.org/wiki/Binary_relation) and [relation](https://en.wikipedia.org/wiki/Relation_(mathematics)) in Maths.
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+		- ### relative
+		  id:: 66c80cbf-6626-4cb7-9b58-8ac3396e03da
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-08-23 Fri 11:15:34]
+		  :END:
+		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((667d0b78-fff6-49bc-90d5-165648ed56d3)) 
+		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((66c80dc7-8ed4-4cd1-8989-e75a42f31c60))
+		  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((6729b71b-e8ea-414d-8202-b66c1fc2d67d))
+			- relativity
+			  id:: 66c80dc7-8ed4-4cd1-8989-e75a42f31c60
+			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((66c80cbf-6626-4cb7-9b58-8ac3396e03da))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Any ((665ca429-84e3-49ff-921e-c07d19cd99ba)) is an image ((66c83149-6ee5-4a8c-b4eb-0308d1a11535))ed by some ((669a2487-054d-4408-ae41-189e34af81a9)). Against the same ((6678288e-699b-4325-bdba-bf6349fe0d57)), different forms are seen via different ((667272b8-88a8-4928-a22a-35035c9edf05))s due to the form being created in relation to the point of projection. These differences show the ((66c80dc7-8ed4-4cd1-8989-e75a42f31c60)) of the form, i.e. the form is ((66c80cbf-6626-4cb7-9b58-8ac3396e03da)) to the point of projection, the viewpoint, which is called the ((6729b90b-1ee3-4efc-b62c-281f9621f487)).
+			- reference point
+			  id:: 6729b90b-1ee3-4efc-b62c-281f9621f487
+				- ((66725725-f76a-4328-b162-f469b87e871b))
+					- [reference frame](https://en.wikipedia.org/wiki/Frame_of_reference) in physics
+		- absolute
+		  id:: 6729b71b-e8ea-414d-8202-b66c1fc2d67d
+		  collapsed:: true
+		  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((66c80cbf-6626-4cb7-9b58-8ac3396e03da))
+		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((6729c1c5-7eb2-408b-a205-f3039799d19c))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A form is ((6729b71b-e8ea-414d-8202-b66c1fc2d67d)) in a ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) when its ((6729b90b-1ee3-4efc-b62c-281f9621f487)) is the ((66ab7477-c060-4d07-ab13-bc3d11246854)) of that world, i.e. _an absolute form is relative to the whole world_ instead of a particular partial viewpoint. That center is the common reference point for the whole world, which effectively fixes all forms relative to it and make them absolute forms. The absolute reference point is called by many names like “center”, “root”, “origin”, etc.
+			- absoluteness
+			  id:: 6729c1c5-7eb2-408b-a205-f3039799d19c
+			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((6729b71b-e8ea-414d-8202-b66c1fc2d67d))
+	- ## concretization
+	  id:: 68932036-e868-4468-a891-70cdf09ea904
+	  collapsed:: true
+	  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((66537674-6cf9-4459-8bea-7c1858c694a3))
+	  ((66c80da9-4cfb-4de7-b83d-8b70665207bf)) ((68932044-a013-4cc6-b468-df8f3a43103c))
+		- concrete
+		  id:: 68932044-a013-4cc6-b468-df8f3a43103c
+		  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((66c8369a-ccb8-4f1f-b12b-bf7054cb79e4))
+		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((68932036-e868-4468-a891-70cdf09ea904))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68932036-e868-4468-a891-70cdf09ea904)) is the process of a subject making an ((66c8369a-ccb8-4f1f-b12b-bf7054cb79e4)) concept more concrete by adding details to it, so that the result will be tangible to larger ((669a5387-2a97-4311-a295-aa0afd9c4d76))s.
+		  id:: 68932ee4-52d9-4a42-be26-1b1cba40aeff
+		- ((66e4299e-0af8-47ee-adae-c13fb57fd15d))
+			- ((66ea4597-f085-4f38-95f7-91bf5cd61b1c)) of a concept of a general category is the creation of particular instances in that category.
+			- [reification](https://en.wikipedia.org/wiki/Reification) of an abstract concept is the encapsulation of that concept in a concrete container for handing like an object.
+			- [objectification](https://en.wiktionary.org/wiki/objectification#English) is the process of projecting a concept/image in a subject out of that subject to become an object.
+			- [materialization](https://en.wiktionary.org/wiki/materialization#English) is the process of turning an immaterial thing into a material object in the physical world.
+	- ## abstraction
+	  id:: 66537674-6cf9-4459-8bea-7c1858c694a3
+	  collapsed:: true
+	  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((68932036-e868-4468-a891-70cdf09ea904))
+	  ((66c80da9-4cfb-4de7-b83d-8b70665207bf)) ((66c8369a-ccb8-4f1f-b12b-bf7054cb79e4))
+	  ((66c80da7-c0e8-46d2-85e5-71318fd44eff)) ((66c8369a-ccb8-4f1f-b12b-bf7054cb79e4))
+		- abstract
+		  id:: 66c8369a-ccb8-4f1f-b12b-bf7054cb79e4
+		  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((68932044-a013-4cc6-b468-df8f3a43103c)) 
+		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((66537674-6cf9-4459-8bea-7c1858c694a3))
+		  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((66537674-6cf9-4459-8bea-7c1858c694a3))
+		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Abstraction
+		  id:: 6716110e-5f12-4484-97ca-fde30d4ff0d3
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66537674-6cf9-4459-8bea-7c1858c694a3)) is the process of abstracting details, i.e. removing details that are irrelevant to the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s focus, from an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)), to get a more concise object that can be handled easier compared to the original object with full details. The result of that process is called by many names: abstract, abstraction, summary, name, title, key, etc. Abstraction is related to ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) via the ((687505e2-062a-4267-98bc-ed0e9f6dced3)): ((67654618-70d2-49cd-88b7-f7c4e161dfd9)) = circle ((67654ecb-896a-4421-95e5-f72c07fc62a4)); ((676545e8-429c-41e7-97ed-12cc8e8870d4)) = pipe ((670cdcb4-3c85-45af-8c30-3c3284ed37df)); ((676545b3-2d9f-43af-8ff0-3543dbe73159)) = ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)).
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- Recursively naming the ignorance – the power and fallacy of abstraction.
+			  id:: 692818bf-7a44-4804-b444-1bdb45e3ddb4
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-11-27 Thu 16:24:17]
+			  :END:
+				- The power lies in our recursive mind's ability to name the abstract, while the fallacy lies in forgetting that these names are merely internal cognitive tools, not independent external reality.
+				- The mechanism: recursively naming the ignorance
+				  id:: 69282878-05a5-4ee0-a663-9e7369c9d74a
+					- The ability to operate in this abstract, non-constructive realm stems from a single, foundational cognitive maneuver: applying a recursive naming convention to acknowledge different boundaries of our current, constructive knowledge with different names. This process is how the human mind bridges the gap between the computationally finite and the mathematically infinite.
+					- 1. Encountering the limit, i.e. ignorance: We perform a constructive process (e.g., counting, defining a set) and reach a point where the process is infinite or non-terminating (the computational limit). We cannot physically build the next step or the final collection.
+					- 2. The naming operation, i.e. ((676545b3-2d9f-43af-8ff0-3543dbe73159)): We stop the constructive process and assign a simple, finite label (a ((665cab38-f8e8-472e-b0a1-60776d492835))) to the unreached totality or the next step we cannot take. This name symbolizes *the gap in our operational knowledge*, e.g., calling the collection of all natural numbers “ℕ”.
+					- 3. Recursive application: We treat this new name *as if it were a complete*, first-class citizen in our mental model. We can then apply the original constructive/recursive rules again, using the newly named entity as a starting point.
+					- ((66725725-f76a-4328-b162-f469b87e871b))
+						- [Ordinal numbers](https://en.wikipedia.org/wiki/Ordinal_number): “Gather all bags constructed into a new bag”. The moment we “gather” an infinite collection into a single mental object is the act of naming our computational ignorance of traversing the entire sequence. We name it ω, then recursively apply the successor operation to get ω+1, ω+2, etc., naming our ignorance recursively.
+						- The [limit operator](https://en.wikipedia.org/wiki/Limit_(mathematics)): We know how to build a sequence $S_n$, but we cannot compute the infinite number of its terms. So, we name the idea of that final value “$\lim_{n → ∞}S_n$”. And then we use that name in further, complex equations, building abstract knowledge on top of a single symbol that represents an uncomputable process.
+				- The constructive existence of non-constructive entities (numbers)
+					- The mechanism of [recursively naming the ignorance](((69282878-05a5-4ee0-a663-9e7369c9d74a))) recontextualizes “non-constructive” mathematical entities (like [large numbers](https://en.wikipedia.org/wiki/Large_cardinal) or the end result of an infinite limit): Their existence is not an objective reality “out there”, but an internal, mental one.
+					- Non-constructive numbers are mental constructs: They are “imaginary” in the sense that they exist within our minds, generated by our own recursive thought processes. They are not discovered but created internally.
+					- Constructive value, non-constructive names: These concepts are actually constructive in nature, as they arise from a defined recursive process. They are given non-constructive names (like “infinity” or “Ω”) to label the end point of a process that cannot be finitely completed.
+					- The true “value”: The actual, constructive value of these concepts is not the unreachable “infinity” itself, but the _**structure of the recursive construction** starting from zero/ignorance_. We use the names to recursively label our further ignorance, allowing us to reason about the process structure abstractly.
+				- The power of abstraction: enabling thought and communication
+				  id:: 6926be1b-910d-4e6e-990d-947440c86fdb
+				  collapsed:: true
+					- The human ability to assign names to the outcomes of infinite, non-constructive processes – essentially labeling our computational limits – is not without merit. It grants us remarkable cognitive power.
+					- Cognitive compression: Naming an infinite concept (e.g., [∞](https://en.wikipedia.org/wiki/Infinity), [Ω](https://en.wikipedia.org/wiki/Chaitin%27s_constant), the result of the Halting Problem Oracle) allows us to treat a complex, ongoing process as a single, manageable mental object. This compression frees up cognitive resources.
+					- Facilitating higher-order reasoning: Abstraction enables us to move up levels of thought. By simply declaring the existence of a set of all natural numbers (ℕ), we can then define operations and structures upon that named set (like calculus or group theory) without constantly having to re-derive the foundational set constructively every time.
+					- Universal communication: Shared labels like “infinity” provide a common ground for mathematicians to communicate about shared mental constructs, even if the underlying constructive process remains beyond any single individual's complete execution.
+					- Inspiration for computation: The abstract, non-constructive ideals of mathematics often serve as blue sky inspiration for computer science models, leading to recursive programming paradigms, [type theory](https://en.wikipedia.org/wiki/Type_theory), etc.
+				- The fallacy of abstraction: conflating name with objective existence
+				  collapsed:: true
+					- The fallacy of declaration: The primary fallacy is confusing the act of naming with the proof of existence or distinction. Classic math declares existence by naming, then derives further existence via logic to achieve [“existence proof”](https://en.wikipedia.org/wiki/Existence_theorem) of objects that cannot be [constructed](https://en.wikipedia.org/wiki/Constructive_proof) nor observed.
+					- Reifying the unknown: We risk treating an abstract name (e.g., “A”) as an objective, independently existing entity within a closed system ([“The Black Box”](((692821f8-dbc0-4653-b31f-22e5c4d5fac1)))), even when we have no operational way to verify its properties or distinguish it from “B”.
+					- Ignoring the process: By focusing purely on the elegant name (the symbol ∞), we can neglect the underlying structure of the recursive construction that generated the concept in the first place. The value is in the algorithm, not the unreachable result.
+					- Physical miscalculation: Applying the fallacy to physics leads to errors when mathematical declarations (e.g., particles A and B are “different by name”) contradict physical reality (the particles are observationally identical), as shown in [Gibbs paradox](https://en.wikipedia.org/wiki/Gibbs_paradox) about entropy of [indistinguishable particles](https://en.wikipedia.org/wiki/Indistinguishable_particles).
+					- These fallacies are demonstrated in the [Diff Problem](((6928252f-3bf8-4c1b-82a3-965da2e6b65b))) and the [Choice in Black Box Experiment](((692821f8-dbc0-4653-b31f-22e5c4d5fac1))).
+				- Diff Problem: challenging declarative identity
+				  id:: 6928252f-3bf8-4c1b-82a3-965da2e6b65b
+				  collapsed:: true
+					- The Diff Problem exposes the flaw in defining difference and sameness through mere declaration or naming in classical logic. It demands an operational specification for distinction.
+					- Problem: How to know A is different from B?
+					- Classical math approach (declarative): Objects A and B are declared different, and assigned distinct names. The assertion $A ≠ B$ is taken for granted. This leads to issues, such as the [Gibbs Paradox](https://en.wikipedia.org/wiki/Gibbs_paradox) in physics, where the name (identity) is confused with the structure (observational properties).
+					- Constructivist approach (operational): Names are subjective labels; true distinction lies solely within the structure and observable properties of the objects. One cannot simply declare $A ≠ B$; one must provide a constructive algorithm that operationally demonstrates a difference. A declaration of difference without an operational proof is an “ignorant arrogance”.
+				- Choice in Black Box Experiment: challenging the [Law of Excluded Middle](https://en.wikipedia.org/wiki/Law_of_excluded_middle)
+				  id:: 692821f8-dbc0-4653-b31f-22e5c4d5fac1
+				  collapsed:: true
+					- This thought experiment challenges the classical Law of Excluded Middle by demanding empirical, constructive proof of identity and existence.
+					- Setup: Two balls, A and B, are placed in a black box. An attempt is made to pick one ball out and name it “C”.
+					- Classical conclusion: The classical mathematician asserts: “C is either A or B” ($C = A ∨ C = B$). This relies on the declarative premise that only A and B exist in the box and that their identities are fixed and *knowable in absentia*.
+					- Constructive counterargument: The classical conclusion is flawed because it makes non-constructive assumptions:
+						- Existence is not guaranteed: The box might be “wild” enough that no ball can be retrieved (non-constructive existence).
+						- Identity is not guaranteed: Until the ball is observed and structurally identified, it could be anything, even a “ghost” creation in the dark. The name “C” does not inherit the properties of A or B until an observational operation confirms the structural match. The statement $C = A ∨ C = B$ cannot be proven constructively without opening the box.
+		- ### ω-abstraction
+		  id:: 67654618-70d2-49cd-88b7-f7c4e161dfd9
+		  :LOGBOOK:
+		  CLOCK: [2024-12-20 Fri 18:22:22]
+		  :END:
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((676550af-8792-4eef-afd7-ae0d949d78a4))
+		  circle ((67654ecb-896a-4421-95e5-f72c07fc62a4))
+			- extent abstraction
+			  id:: 676550af-8792-4eef-afd7-ae0d949d78a4
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((67654618-70d2-49cd-88b7-f7c4e161dfd9))
+			- ω-expansion = circle unwinding = multiply with extext
+		- ### φ-abstraction
+		  id:: 676545e8-429c-41e7-97ed-12cc8e8870d4
+		  :LOGBOOK:
+		  CLOCK: [2024-12-20 Fri 18:22:29]
+		  :END:
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((676550e5-6420-425a-97a8-33e5c4a5963e))
+		  pipe ((670cdcb4-3c85-45af-8c30-3c3284ed37df))
+			- phase abstraction
+			  id:: 676550e5-6420-425a-97a8-33e5c4a5963e
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((676545e8-429c-41e7-97ed-12cc8e8870d4))
+			- rounding = abstracting remainder, leaving quotient (extent) & denominator (intent)
+			- φ-extension = add phase refinement (remainder/denominator) to extent
+		- ### ε-abstraction
+		  id:: 676545b3-2d9f-43af-8ff0-3543dbe73159
+		  :LOGBOOK:
+		  CLOCK: [2024-12-20 Fri 18:22:34]
+		  :END:
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((67655101-067d-45ab-9943-49e209af44d7))
+		  ((670ce218-a01f-4609-b7f2-beda7cf2ebc3))
+			- intent abstraction
+			  id:: 67655101-067d-45ab-9943-49e209af44d7
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((676545b3-2d9f-43af-8ff0-3543dbe73159))
+			- ε-expansion = cone action = multiply with intent
+	- ## fold
+	  id:: 691ae014-cb3b-407f-b84b-582f0025c37c
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2025-11-17 Mon 15:43:45]
+	  :END:
+	  ((691ae2bd-a60f-4db2-8132-bf54e9dee1b0)) ((691ae231-4659-41b8-9c1a-8e702a04753d))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) To ((691ae014-cb3b-407f-b84b-582f0025c37c)) is to [transform](((669a58b9-eb34-41cd-8605-02e29b07e1b5))) an ((667d15b7-6364-49a9-ac58-c64d2a992b63)) to a ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) by matching its head with its tail.
+		- unfold
+		  id:: 691ae231-4659-41b8-9c1a-8e702a04753d
+		  ((691ae2c3-74aa-4b95-afb6-ed174be00978)) ((691ae014-cb3b-407f-b84b-582f0025c37c))
+		- ### foldable
+		  id:: 66537617-23c2-43a9-9a14-5e18fe9aa36f
+		  collapsed:: true
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((665c9fb6-841c-4ee9-93a1-d17b5811a98e)), ((665c9fb9-28e8-48e3-bd81-f773549f145d))
+			- collapsible
+			  id:: 665c9fb6-841c-4ee9-93a1-d17b5811a98e
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66537617-23c2-43a9-9a14-5e18fe9aa36f))
+			- abstractable
+			  id:: 665c9fb9-28e8-48e3-bd81-f773549f145d
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66537617-23c2-43a9-9a14-5e18fe9aa36f))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A foldable object, usually a block of text, is an object that can be folded (or collapsed, abstracted) into a brief like header, title, name, summary, and that brief can be unfolded (or expanded, extended) back to the full object. This is a technical implementation of the general ((66537674-6cf9-4459-8bea-7c1858c694a3)).
+			  id:: c6770550-24e0-453d-9159-5040ce045c5f
+			- ((66725725-f76a-4328-b162-f469b87e871b))
+				- Foldable [code block](https://en.wikipedia.org/wiki/Block_(programming))s in [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) or blocks of text in [text editor](https://en.wikipedia.org/wiki/Text_editor)s
+				- The ((6720bf1a-fa1f-4c1d-ba6f-2527a47621eb)) [`<summary>` tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary) within the `<details>` tag
+				- [Directory](https://en.wikipedia.org/wiki/Directory_(computing)) in collapsible ((667252dc-e610-4d07-bcd0-9ea6fb4499fd))
+				- [File folder](https://en.wikipedia.org/wiki/File_folder) that holds [papers](https://en.wikipedia.org/wiki/Paper "Paper") together
+				- The [tab](https://en.wikipedia.org/wiki/Tab_(interface)) in [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface)
+			- In [Obsidian](https://help.obsidian.md/Editing+and+formatting/Folding):  Headings, indented blocks.
+	- ## composite
+	  id:: 66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5
+	  collapsed:: true
+		- ((665ca480-5ac8-4728-a331-2f68b48759d1)) ((6652048c-27b3-47b6-84e5-25af8d9ce801))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5)) is an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) [composed of](((667cdbc9-3030-4429-b59e-4545cb3627e3))) other ((667cfa42-ade7-4310-9a7b-6d14d01c16da))s called ((66532bb2-7680-461b-80b2-71fc96c89fb9))s.
+		- ((66725725-f76a-4328-b162-f469b87e871b))
+			- In IT: [composite data type](https://en.wikipedia.org/wiki/Composite_data_type), [composite object](https://en.wikipedia.org/wiki/Object_composition), [composite pattern](https://refactoring.guru/design-patterns/composite)
+			- In physics: [composite (material)](https://en.wikipedia.org/wiki/Composite_material), [composite particle](https://en.wikipedia.org/wiki/Composite_particle),
+			- In chemistry: [compound](https://en.wikipedia.org/wiki/Chemical_compound), [alloy](https://en.wikipedia.org/wiki/Alloy), [mixture](https://en.wikipedia.org/wiki/Mixture)
+			- In maths: [composite number](https://en.wikipedia.org/wiki/Composite_number), [composite function](https://en.wikipedia.org/wiki/Function_composition), [tuple](https://en.wikipedia.org/wiki/Tuple), [set](https://en.wikipedia.org/wiki/Set_(mathematics)), [class](https://en.wikipedia.org/wiki/Class_(set_theory))
+			- In linguistics: [compound (word)](https://en.wikipedia.org/wiki/Compound_(linguistics))
+			- In Buddhism: [five aggregates](https://en.wikipedia.org/wiki/Skandha)
+		- Variations:
+			- A ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5)) with loosely connected ((66532bb2-7680-461b-80b2-71fc96c89fb9))s is called ((667ceb89-10fb-463e-90f7-9e89daec8ff6)), e.g. [aggregation in OOP](https://www.geeksforgeeks.org/association-composition-aggregation-java/), [set in maths](https://en.wikipedia.org/wiki/Set_(mathematics)).
+			- A ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5)) with ((66532bb2-7680-461b-80b2-71fc96c89fb9))s tightly connected by specific relations is called [structure](((667cec5f-f909-4da3-a1d4-681bcaee3b61))), e.g. [algebraic structure](https://en.wikipedia.org/wiki/Algebraic_structure), [mathematical category](https://en.wikipedia.org/wiki/Category_(mathematics)), [mathematical graph](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)), [tree structure](((667252dc-e610-4d07-bcd0-9ea6fb4499fd))).
+	- ## component
+	  id:: 66532bb2-7680-461b-80b2-71fc96c89fb9
+	  collapsed:: true
+		- ((665ca480-5ac8-4728-a331-2f68b48759d1)) ((66532ccc-ae21-4940-8714-715060d6bd90))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66532bb2-7680-461b-80b2-71fc96c89fb9)) is an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) within another object called ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5)).
+	- ## composition
+	  id:: 667cdbc9-3030-4429-b59e-4545cb3627e3
+	  collapsed:: true
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667cdbc9-3030-4429-b59e-4545cb3627e3)) is the act of combining many small objects, called ((66532bb2-7680-461b-80b2-71fc96c89fb9))s, into a larger object, called ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5)).
+		- ((66725725-f76a-4328-b162-f469b87e871b))
+			- In IT: [object composition](https://en.wikipedia.org/wiki/Object_composition)
+			- In maths: [function composition](https://en.wikipedia.org/wiki/Function_composition)
+		- Variations:
+			- aggregation
+			  id:: 667ceb89-10fb-463e-90f7-9e89daec8ff6
+			  is the act of simply collecting ((66532bb2-7680-461b-80b2-71fc96c89fb9)) objects into a "bag" of objects.
+			- structuring
+			  id:: 667cec5f-f909-4da3-a1d4-681bcaee3b61
+			  is the act of putting ((66532bb2-7680-461b-80b2-71fc96c89fb9)) objects into a ((6678d596-9526-405a-968c-e73860e524f3)), which is an organization of relations between objects.
+				- There are as many variations of composition as many [variations of strucure](((667d09ec-4da1-428b-a7c9-bae1eb37a7ae))).
+				- linear composition
+				  id:: 667d1227-6d59-4d36-ae52-c1f97361e814
+				  is the composition in ((667d0a09-6a59-483d-91e4-33a019655b42)).
+					- ((667d1227-6d59-4d36-ae52-c1f97361e814)) of ((667d162c-16cf-44d3-81a5-29b1b885164f))s
+					  ((66725725-f76a-4328-b162-f469b87e871b)) [listing](https://en.wikipedia.org/wiki/List), [enumeration](https://en.wikipedia.org/wiki/Enumeration)
+					- ((667d1227-6d59-4d36-ae52-c1f97361e814)) of ((667d15b7-6364-49a9-ac58-c64d2a992b63))s
+					  id:: 667d151a-eaaa-4299-97b6-f3cd8f1aa98d
+					  ((66725725-f76a-4328-b162-f469b87e871b)) [function composition](https://en.wikipedia.org/wiki/Function_composition)
+					- sorting
+					  is the ((667d1227-6d59-4d36-ae52-c1f97361e814)) that satisfy a specific order.
+	- ## crystal
+	  id:: 66537bdd-6c99-4d7b-905a-e2a487cae5ce
+	  collapsed:: true
+	  ((66c80da7-c0e8-46d2-85e5-71318fd44eff)) ((671e35d5-231a-4ed4-8c4a-6b200f6ccf20))
+	  ((66c80da9-4cfb-4de7-b83d-8b70665207bf)) ((6818a270-b75b-44ee-bbd2-0032846e4cb8))
+		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Crystal
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A [solid](https://en.wikipedia.org/wiki/Solid "Solid") material whose constituents (such as [atoms](https://en.wikipedia.org/wiki/Atom "Atom"), [molecules](https://en.wikipedia.org/wiki/Molecule "Molecule"), or [ions](https://en.wikipedia.org/wiki/Ion "Ion")) are arranged in [crystal structure](https://en.wikipedia.org/wiki/Crystal_structure)  which is a periodic [long-range order](https://en.wikipedia.org/wiki/Long-range_order "Long-range order") that extends in all directions called ((66537b4c-fa0a-4e95-b854-096e9802aa09)) in math.
+		- crystallize
+		  id:: 671e35d5-231a-4ed4-8c4a-6b200f6ccf20
+		  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((66537bdd-6c99-4d7b-905a-e2a487cae5ce))
+		- crystal
+		  id:: 6818a270-b75b-44ee-bbd2-0032846e4cb8
+		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((66537bdd-6c99-4d7b-905a-e2a487cae5ce))
+	- ## condensate
+	  id:: 671e2782-2098-41a3-83a7-e042bfb468d7
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-10-27 Sun 20:29:57]
+	  :END:
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((671e31f7-b52b-492c-93cb-3233fa40db5a))
+	  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((671e3a95-03cf-4fe8-b7c7-c3d7bbe466ec))
+	  ((66c80da7-c0e8-46d2-85e5-71318fd44eff)) ((671e3d98-0006-43be-b714-247f3d3a0c49))
+		- condensed matter
+		  id:: 671e31f7-b52b-492c-93cb-3233fa40db5a
+		  collapsed:: true
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((671e2782-2098-41a3-83a7-e042bfb468d7))
+			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Condensed_matter_physics
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((671e2782-2098-41a3-83a7-e042bfb468d7)) is (relatively) incompressible, usually includes both ((671e277d-2d1e-42c5-8ea7-58e519a69dca)) and ((669a58b9-8e69-43d2-9f59-fedf31bf0670)).
+		- Etymology: condensate = [con-](https://en.wiktionary.org/wiki/con-#English) + [dense](https://en.wiktionary.org/wiki/dense#English) +‎ [-ate](https://en.wiktionary.org/wiki/-ate#English) = [condensed](https://en.wiktionary.org/wiki/condensed#English).
+		- condensity
+		  id:: 671e3a95-03cf-4fe8-b7c7-c3d7bbe466ec
+		  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((671e2782-2098-41a3-83a7-e042bfb468d7))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((671e3a95-03cf-4fe8-b7c7-c3d7bbe466ec)) is the property of having high density, usually to the degree that it cannot be compressed further.
+		- condense
+		  id:: 671e3d98-0006-43be-b714-247f3d3a0c49
+		  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((671e2782-2098-41a3-83a7-e042bfb468d7))
+		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((6729b7cf-83b8-4a42-aac7-ec8cf16fa734))
+			- condensation
+			  id:: 6729b7cf-83b8-4a42-aac7-ec8cf16fa734
+			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((671e3d98-0006-43be-b714-247f3d3a0c49))
+	- ## solid
+	  id:: 669a58b9-8e69-43d2-9f59-fedf31bf0670
+	  collapsed:: true
+	  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((671b4cb2-ca87-4e90-89ae-49cebeb573e0))
+	  ((66c80da7-c0e8-46d2-85e5-71318fd44eff)) ((671b4d62-4337-4557-809c-8693593f1260))
+		- solidity
+		  id:: 671b4cb2-ca87-4e90-89ae-49cebeb573e0
+		  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((669a58b9-8e69-43d2-9f59-fedf31bf0670))
+		- solidify
+		  id:: 671b4d62-4337-4557-809c-8693593f1260
+		  collapsed:: true
+		  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((669a58b9-8e69-43d2-9f59-fedf31bf0670))
+		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((671b4d84-1187-4b5c-8592-3d0db462069b))
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((671e25e5-1cf2-467f-bac5-a9901c3c265f))
+			- solidification
+			  id:: 671b4d84-1187-4b5c-8592-3d0db462069b
+			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((671b4d62-4337-4557-809c-8693593f1260))
+			- freeze
+			  id:: 671e25e5-1cf2-467f-bac5-a9901c3c265f
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((671b4d62-4337-4557-809c-8693593f1260))
+		- Etymology of `solid`: “Solid” is from the the Proto-Indo-European root [*sol](https://www.etymonline.com/word/*sol-) ([solh₂-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/solh%E2%82%82-)) meaning ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)).
+	- ## fluid
+	  id:: 671e2794-7edd-4840-8b5d-d2def6df7666
+	  collapsed:: true
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((671e2794-7edd-4840-8b5d-d2def6df7666)) includes both ((671e2778-b438-4114-9c51-aa73bfb0cfe6)) and ((671e277d-2d1e-42c5-8ea7-58e519a69dca)).
+	- ## gas
+	  id:: 671e2778-b438-4114-9c51-aa73bfb0cfe6
+	- ## liquid
+	  id:: 671e277d-2d1e-42c5-8ea7-58e519a69dca
+	- ## dimension
+	  id:: 671e0b94-9907-43bf-993d-d1aabec46e01
+	  collapsed:: true
+		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Dimension
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- [Cardinality of the continuum](https://en.wikipedia.org/wiki/Cardinality_of_the_continuum): |continuum| = |(0, 1)| = |ℝ| = |ℝ^N| = |the set of all continuous functions from ℝ to ℝ|
+			- In Quantum Mechanics, the wave function of N particles requires 3N dimensions of information. Some wave function realists like [David Z. Albert and Alyssa Ney](https://academic.oup.com/book/32659) state that the physical space is actually 3N-dimensional.
+	- ## point
+	  id:: 66e43b94-9183-4d49-af85-8a7a1c194c12
+	  collapsed:: true
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66e43b94-9183-4d49-af85-8a7a1c194c12)) is an ((66537674-6cf9-4459-8bea-7c1858c694a3)) of a ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) so that it has no ((67bc2fc9-8389-4455-ace9-4aac8de73e1d)), e.g. the ((66ab7477-c060-4d07-ab13-bc3d11246854)) of a circle, through a ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) whose base is the original circle and apex is the resulting point. While the quantity (magnitude) of the circle is abstracted, its quality is still preserved in the point, as an identifier of the circle, via its connection with the circle through the viewcone. When the viewcone is further abstracted away, the resulting image of that point on the screen is a ((66e43ebf-bbaa-4bfc-9601-a5ee40398677)) which is an abstraction of the original circle's ((66e426ec-d29b-4614-932b-2c70693790d7)).
+			- In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), the term “point” is preserved only for the apex or vertex which must be the abstraction or intersection of other larger forms, while the separated, isolated ((671dfbf3-c985-463f-9a1d-3e3994fbdb62)) is called “dot”. Literally, when the tip of a pen, i.e. *pen “point”*, touches the paper, a “dot” is created as an image of that point.
+			  collapsed:: true
+				- ![pen-point-dot.png](../assets/Uniinfo/pen-point-dot.png){:width 300}
+			- Another feature of point and dot in ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) different from the ((671dfbf3-c985-463f-9a1d-3e3994fbdb62)) is that they _need **not** be zero-dimensional_, i.e. have not absolutely zero magnitude in any ((671e0b94-9907-43bf-993d-d1aabec46e01)). Their property of “no magnitude” just means that there's no magnitude measurable by the screen of projection, either due to the resolution limit of the screen or because the magnitudes extends in other dimensions orthogonal to the screen.
+		- ((66e4299e-0af8-47ee-adae-c13fb57fd15d))
+			- dot
+			  id:: 66e43ebf-bbaa-4bfc-9601-a5ee40398677
+			  image of point on screen
+			- geometric point
+			  id:: 671dfbf3-c985-463f-9a1d-3e3994fbdb62
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From [vertex point](https://en.wikipedia.org/wiki/Vertex_(geometry)), which is original ((66e43b94-9183-4d49-af85-8a7a1c194c12)), “[point](https://en.wikipedia.org/wiki/Point_(geometry))” in geometry has been abstracted to the isolated ((66e43ebf-bbaa-4bfc-9601-a5ee40398677)) on the screen.
+		-
+	- ## vector
+	  id:: 667d16f8-206e-4a85-80f3-24c2aa1bf4ad
+	  collapsed:: true
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((667d16f8-206e-4a85-80f3-24c2aa1bf4ad)) is an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) whose ((6678d596-9526-405a-968c-e73860e524f3)) is an ((667d15b7-6364-49a9-ac58-c64d2a992b63)). Due to the dynamic nature of the arrow, a vector is a carrier of motion, like [velocity vector](https://en.wikipedia.org/wiki/Euclidean_vector), a carrier of direction, like [aircraft vector](https://www.paramountbusinessjets.com/aviation-terminology/vector), [thrust vector](https://en.wikipedia.org/wiki/Thrust_vectoring), or a carrier of biological material, like [disease vector](https://en.wikipedia.org/wiki/Disease_vector).
+		  id:: 66faa5f9-42fd-4fb0-abab-49ffa4aa5d80
+		-
+	- ## particle
+	  id:: 667d162c-16cf-44d3-81a5-29b1b885164f
+	  collapsed:: true
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66c80fad-4e06-449c-9d63-00f906601b06))
+		- corpuscle
+		  id:: 66c80fad-4e06-449c-9d63-00f906601b06
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667d162c-16cf-44d3-81a5-29b1b885164f))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((667d162c-16cf-44d3-81a5-29b1b885164f)) is an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) whose ((6678d596-9526-405a-968c-e73860e524f3)) is a ((667d15c6-67c4-4998-a549-c8b3f9de3d60)). Even though a particle can have large size, like the [Earth](https://en.wikipedia.org/wiki/Earth), in physics we usually deal with small particles and treat them as [point particles](https://en.wikipedia.org/wiki/Point_particle).
+		- ((66725725-f76a-4328-b162-f469b87e871b)) [particles](https://en.wikipedia.org/wiki/Particle) in [physics](https://en.wikipedia.org/wiki/Physics), [material point](https://en.wikipedia.org/wiki/Material_point_method) in [computational mechanics](https://en.wikipedia.org/wiki/Computational_mechanics), corpuscle (corpuscule) in [corpuscularism](https://en.wikipedia.org/wiki/Corpuscularianism)
+		- About the terms
+			- "particle" was originally just a small part as opposed to the larger whole. However, scaling smaller and smaller, the [elementary particles](https://en.wikipedia.org/wiki/Elementary_particle) turn out to be the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b))s. This ((66c80dc7-8ed4-4cd1-8989-e75a42f31c60)) between the whole and the parts is captured well by the concept of ((667d162c-16cf-44d3-81a5-29b1b885164f)).
+			- "corpusc[u]le", as a small body (corpus), is nearer to the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) than the term "particle".
+	- ## mind
+	  id:: 67f90bf0-ebcd-46fa-b99d-eda9bbbd3522
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2025-04-11 Fri 19:32:51]
+	  :END:
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((67f90bf0-ebcd-46fa-b99d-eda9bbbd3522)) of a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) is ... in contrast to the ((66c810a0-9861-4787-bdcf-1378219332be)).
+		  id:: 669f3107-a33a-4b26-a636-6da62fa5520e
+		  collapsed:: true
+			- [Eightfold network of primary consciousnesses](https://en.wikipedia.org/wiki/Eight_Consciousnesses)
+		- ### consciousness
+		  id:: 67f90c9f-2ee6-4265-9cb6-6a7c5091b775
+		  :LOGBOOK:
+		  CLOCK: [2025-04-11 Fri 19:36:03]
+		  :END:
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) mano-vijñāna, ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)), ((66f2681b-796a-4e25-b778-ba4fb6419425))
+		- ### subconsciousness
+		  id:: 67f90ce4-e12a-4133-bdec-b73684152322
+		  :LOGBOOK:
+		  CLOCK: [2025-04-11 Fri 19:36:03]
+		  :END:
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) mānas-vijñāna
+		- ### unconsciousness
+		  id:: 67f90ce8-d597-47a0-ad73-43b9e546c096
+		  :LOGBOOK:
+		  CLOCK: [2025-04-11 Fri 19:36:03]
+		  :END:
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ālāya-vijñāna
