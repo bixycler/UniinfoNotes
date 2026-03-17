@@ -1207,7 +1207,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- ((69b7c80f-fc13-4929-8cae-e51e9dd29878))
 			- 17th, ...
 			  collapsed:: true
-				- interdependency = limited resolution = intrinsic dynamic = intrinsic openness
+				- interdependency = perfect incompleteness = limited resolution = intrinsic dynamic = intrinsic openness = ((6858b355-fba9-4e61-9f16-bc993a3df44b))
+					- absolute independence = infinite resolution = absolute static = completely closed circle
+					- Commutator
+					- Ref: ((699c0368-00c8-404f-aa42-004f196194d9))
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c

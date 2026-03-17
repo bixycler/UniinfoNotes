@@ -5659,6 +5659,7 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 		- 13-14th, weekends with various brainstorms: the effect circle in dynamic circle (acceleration → velocity → position), round-trip projection in Pythagorean theorem, wave propagation = exploring all possibilities, etc.
 		  collapsed:: true
 			- While the order of acceleration → velocity → position is the natural and correct causal chain in physics, abstractions like infinity, infinitesimal leads to the **artificial “independence”** between derivatives, like in [Euler method](https://en.wikipedia.org/wiki/Euler_method) and [phase space](https://en.wikipedia.org/wiki/Phase_space). 
+			  id:: 699c0368-00c8-404f-aa42-004f196194d9
 			  collapsed:: true
 				- Artificial: such “independence” is the result of abstracting dependency away by taking limit, which is fine by infinity.
 					- With Heisenberg uncertainty, Quantum mechanics has shown that such infinitesimal, pointwise kinematic attributes like “instantaneous velocity”, have no operational or physical reality.
