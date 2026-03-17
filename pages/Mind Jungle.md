@@ -2437,7 +2437,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- the 2 cones meet in the present
 					- in linear spacetime, they translate as the present flows
 					- in projective spacetime, they rotate as the present flows
-		- ...
 	- ## fluid
 	  id:: 671e2794-7edd-4840-8b5d-d2def6df7666
 	  collapsed:: true
