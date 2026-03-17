@@ -1106,9 +1106,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  id:: 69b7c80f-fc13-4929-8cae-e51e9dd29878
 							- $M$ & $W$ self circles: 2 wings or pectoral fins
 							- Present action: body
-							- Future branches: antennae, cephalic horns of the manta, or [rhinophores](https://en.wikipedia.org/wiki/Rhinophore) of tritoniopsis elegans nudibranch
+							- Future branches: antennae, cephalic horns of the manta, or [rhinophores](https://en.wikipedia.org/wiki/Rhinophore) of [tritoniopsis elegans nudibranch](https://en.wikipedia.org/wiki/Tritoniopsis_elegans)
 							- Past arrow: sting tail (of stingray or scorpion)
 							- ⇒ I create a demon named Temporix – The Time Spinner.
+								- Temporix: spinner, mixer, executrix, king & queen of time
 								- Prompt to Nano Banana 2
 								  collapsed:: true
 									- ```
