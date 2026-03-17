@@ -1205,20 +1205,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 16th, continue with ((69af7dbd-0a7c-4d10-a5cd-6de1ab9c3040))
 			  collapsed:: true
 				- ((69b7c80f-fc13-4929-8cae-e51e9dd29878))
-			- 17th, ...
+			- 17th, ((69b917d0-494f-4527-9e1b-0dcff5a2cc91))
 			  collapsed:: true
-				- intrinsic interdependence = perfect incompleteness = limited resolution = intrinsic dynamic = intrinsic openness = intrinsic curvature = ((6858b355-fba9-4e61-9f16-bc993a3df44b))
-					- absolute independence = infinite resolution = absolute static = absolute flatness = completely closed circle
-					- [non]commutator is the magnitude of the gapping arrow, the size of the pore, the inverse of resolution.
-						- The term “commutator” is so misleading... which had better be **noncommutator**, instead!
-						- The square circle $ABCD$:
-							- route 1: $A \xrightarrow{up} B \xrightarrow{right} C$
-							- route 2: $A \xrightarrow{right} D \xrightarrow{up} C'$
-							- closure by zero noncommutator: $C = C' ⟺ [up, right] = 0$
-						- Quantum mechanics: $[x, p] = i ħ$
-						- [CP/T violation](https://en.wikipedia.org/wiki/CP_violation#CP_violation_in_the_Standard_Model): $[M_{up}, M_{down}] = i C$;  $\det(i C) = -2i J Δ_{up} Δ_{down}$
-							- This is the microscopic arrow of time.
-					- Ref: ((699c0368-00c8-404f-aa42-004f196194d9))
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
