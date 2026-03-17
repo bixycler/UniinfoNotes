@@ -2030,6 +2030,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 				- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) “Effluence” is the “flow out” of some body. The term “effluence” is traditionally used to refer to the emanation of a divine source in theology and phylosophy. Here, it's normalized to be the emanation of any self.
 		- ### circular effect flow
 		  id:: 667bf36a-581a-4abe-b544-2d849608a3e4
+		  collapsed:: true
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)), ((667c0031-0a87-44c9-9e98-6d45893b095f))
 		  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((667bf520-a80c-4b6d-98d8-1f71cae6fb56))
 			- effect circle

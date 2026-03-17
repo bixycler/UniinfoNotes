@@ -1109,7 +1109,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Future branches: antennae or cephalic horns of the manta
 							- Past arrow: sting tail (of stingray or scorpion)
 							- ⇒ I create a demon named Temporix – The Time Spinner.
-							  collapsed:: true
 								- Prompt to Nano Banana 2
 								  collapsed:: true
 									- ```
@@ -1121,10 +1120,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 									  - Background: Ambient. Don't clutter with details.
 									  - Text: Only labels, i.e. the words that are quoted above. **No extra texts** are allowed.
 									  ```
-								- ![Temporix_Nanobana_1.png](../assets/Will/story/2026-03/Temporix_Nanobana_1.png)
-								- ![Temporix_Nanobana_2.png](../assets/Will/story/2026-03/Temporix_Nanobana_2.png)
-								- ![Temporix_Nanobana_3.png](../assets/Will/story/2026-03/Temporix_Nanobana_3.png)
-								- ![Temporix_Nanobana_4.png](../assets/Will/story/2026-03/Temporix_Nanobana_4.png)
+								- Artworks by Nano Banana 2
+								  collapsed:: true
+									- ![Temporix_Nanobana_1.png](../assets/Will/story/2026-03/Temporix_Nanobana_1.png)
+									- ![Temporix_Nanobana_2.png](../assets/Will/story/2026-03/Temporix_Nanobana_2.png)
+									- ![Temporix_Nanobana_3.png](../assets/Will/story/2026-03/Temporix_Nanobana_3.png)
+									- ![Temporix_Nanobana_4.png](../assets/Will/story/2026-03/Temporix_Nanobana_4.png)
 					- DONE check exported graph for `Now, in commit 03a0b563 , i just change the id of perceptual screen to the new one` at block ref for `perceptual screen`.
 					  :LOGBOOK:
 					  CLOCK: [2026-03-13 Fri 17:51:46]--[2026-03-13 Fri 18:09:44] =>  00:17:58
