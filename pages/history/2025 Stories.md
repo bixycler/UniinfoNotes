@@ -5665,7 +5665,7 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 					- With Heisenberg uncertainty, Quantum mechanics has shown that such infinitesimal, pointwise kinematic attributes like “instantaneous velocity”, have no operational or physical reality.
 					- The term “uncertainty” in QM is misleading. It should be “correlation” or “interdependence” which is derived from the non-commutativity of observables.
 				- It's interesting that such artifacts have been proven to have severe subsequences, like the lack of [numerical stability](https://en.wikipedia.org/wiki/Numerical_stability) in simulation.
-				- And today, i saw a [video](https://youtu.be/nCg3aXn5F3M) saying that by simply following the right casual chain, updating velocity first then used that **updated velocity** to update position, does restore numeric stability! 😜
+				- And today, i saw a [video](https://youtu.be/nCg3aXn5F3M) saying that by simply following the right casual chain, updating velocity first then used that **updated velocity** to update position, we can restore numeric stability! 😜
 				- Until now, i've never imagined that people can do position update before velocity update. How can such an anti-casuality action be done 🤔?!
 				- The orbit of 2-shear map on phase space is an ellipse.
 					- For a time step $h$, the harmonic oscillator is:
