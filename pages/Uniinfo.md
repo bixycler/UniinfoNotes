@@ -1026,12 +1026,12 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					- Each [“scalar quantity” in physics](https://en.wikipedia.org/wiki/Scalar_(physics)) additionally has a unit which is the informational dimension, hence not dimensionless.
 					- [“Dimensionless quantity” in physics](https://en.wikipedia.org/wiki/Dimensionless_quantity) may be called “scalar” in Unïnfo, but we use the term “dimensionless” for clarity.
 			- The mass (amount of content) is not only dimensionless but also nondirectional, a.k.a. “absolute value”.
-		- DOING ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) structure of the ((675c03d8-3185-41a8-9f98-e869fabec793))
+		- WAIT ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) structure of the ((675c03d8-3185-41a8-9f98-e869fabec793))
 		  id:: 69a5068c-df84-4f76-92ca-9131897c80df
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2026-03-02 Mon 10:42:38]
-		  CLOCK: [2026-03-16 Mon 13:00:52]
+		  CLOCK: [2026-03-16 Mon 13:00:52]--[2026-03-17 Tue 19:51:42] =>  30:50:50
 		  :END:
 			- 1. **Presentism** (the Equal $=$ ): I don't think Einstein meant a block universe, but he is not alive to defend himself, so i'm not sure what he actually thought. Anyway, here's my take: Relativity only debunked the simultaneity, i.e. no “present everywhere”, but only herenow. Time is inseparable from space, hence spacetime. So presentism is the reality of the **herenow**: your present can be my past or my future, not my present, hence “unreal” to me in the sense that it's not exactly true to me. And only my present (herenow) is exactly true to me (not to you). My herenow is not a point but a perspective (configuration) of the whole universe projected from my self.
 			- id:: 69a502fe-20b6-468d-b2f4-2940a12ad502
