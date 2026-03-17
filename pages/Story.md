@@ -1205,6 +1205,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 16th, continue with ((69af7dbd-0a7c-4d10-a5cd-6de1ab9c3040))
 			  collapsed:: true
 				- ((69b7c80f-fc13-4929-8cae-e51e9dd29878))
+			- 17th, ...
+			  collapsed:: true
+				- interdependency = limited resolution = intrinsic dynamic = intrinsic openness
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
