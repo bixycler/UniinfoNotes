@@ -4026,11 +4026,15 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 			  id:: 69b7be1f-0ed4-45fa-8189-4094766076a3
 			  collapsed:: true
 				- ![ArrowOfTime](https://docs.google.com/drawings/d/e/2PACX-1vQfLsDVRgSNMbbxUsAjAoe4XrhJIWy7h3zeCuwB5LzwhVaV7kkJkJ9yORcpCC5XFG2NLBpULPZro0ei/pub?w=300)
-				-
+				- Temporix – The Time Spinner
+				  id:: 69b9470c-40e4-49ca-84df-1cb6a3379987
+					- Temporix is the spinner, mixer, executrix, king & queen of time.
+					- ![Temporix_Nanobana_1.png](../assets/Uniinfo/Unithread/Temporix_Nanobana_1.png)
 			- Present: When my self (compound particle) meets your self, my herenow mixes with your herenow resulting a **common “now”**, with a little “less here”, which we usually call “the present”.
 				- The present is just the common part of many herenows of the participants, hence only a little portion of the Omnifold – the present dot (moment) – expressed through the interface between selves.
-				- The [mixing](https://en.wikipedia.org/wiki/Mixing_(mathematics)) in the present is the arrow of time that [increases entropy](https://en.wikipedia.org/wiki/Entropy_of_mixing) by increasing exensity and decreasing intensity through the [many-to-one function](https://mathworld.wolfram.com/Many-to-One.html) of ((66727858-979d-4d95-8a90-7a749218cfba))s.
+				- The [mixing](https://en.wikipedia.org/wiki/Mixing_(mathematics)) in the present is the arrow of time that [increases entropy](https://en.wikipedia.org/wiki/Entropy_of_mixing) by increasing exensity and decreasing intensity 
 				  id:: 69b7a10c-73c2-4d34-9269-a27e5f23b90b
+				- through the [many-to-one function](https://mathworld.wolfram.com/Many-to-One.html) of ((66727858-979d-4d95-8a90-7a749218cfba))s.
 				- The meeting is called [“wavefunction collapse” in QM](https://en.wikipedia.org/wiki/Wave_function_collapse) which reduces the uncertain futures (high entropy) into the certain prensent (low entropy).
 			- Past: After the meeting, the common herenow is stored in both my self and your self, which both project out to be “the past”.
 				- The past is a thread extending the present dot, hence just a small part of the Omifold.

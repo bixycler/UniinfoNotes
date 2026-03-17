@@ -1104,11 +1104,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  :END:
 						- 🦋 Drawing the [arrow of time diagram](((69b7be1f-0ed4-45fa-8189-4094766076a3))), i see it looks like a butterfly, a moth, or a manta ray! 😊
 						  id:: 69b7c80f-fc13-4929-8cae-e51e9dd29878
+						  collapsed:: true
 							- $M$ & $W$ self circles: 2 wings or pectoral fins
 							- Present action: body
 							- Future branches: antennae, cephalic horns of the manta, or [rhinophores](https://en.wikipedia.org/wiki/Rhinophore) of [tritoniopsis elegans nudibranch](https://en.wikipedia.org/wiki/Tritoniopsis_elegans)
 							- Past arrow: sting tail (of stingray or scorpion)
-							- ⇒ I create a demon named Temporix – The Time Spinner.
+							- ⇒ I create a demon named ((69b9470c-40e4-49ca-84df-1cb6a3379987)).
 								- Temporix: spinner, mixer, executrix, king & queen of time
 								- Prompt to Nano Banana 2
 								  collapsed:: true
