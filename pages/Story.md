@@ -1098,11 +1098,33 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  :LOGBOOK:
 				  CLOCK: [2026-03-13 Fri 15:33:50]
 				  :END:
-					- DOING > Arrow of time is the constantly mixing of the past in the present, increasing entropy.
+					- DOING Link [this arrow of time](((699c0360-e336-4475-87dc-5f0ce770a6b8))) in the brainstorm about "circular time" with the entropy increase through [image copy](((69a502fe-47e2-4629-a40c-78964d9e0396))) of the past
 					  :LOGBOOK:
-					  CLOCK: [2026-03-17 Tue 10:33:01]
+					  CLOCK: [2026-03-16 Mon 16:00:45]
 					  :END:
-						- Link this arrow of time in the brainstorm about "circular time" with the entropy increase through image copy to the past
+						- 🦋 Drawing the [arrow of time diagram](((69b7be1f-0ed4-45fa-8189-4094766076a3))), i see it looks like a butterfly, a moth, or a manta ray! 😊
+						  id:: 69b7c80f-fc13-4929-8cae-e51e9dd29878
+							- $M$ & $W$ self circles: 2 wings or pectoral fins
+							- Present action: body
+							- Future branches: antennae or cephalic horns of the manta
+							- Past arrow: sting tail (of stingray or scorpion)
+							- ⇒ I create a demon named Temporix – The Time Spinner.
+							  collapsed:: true
+								- Prompt to Nano Banana 2
+								  collapsed:: true
+									- ```
+									  Let's draw a demon named "Temporix" ("Time Spinner"):
+									  - 2 wings (left & right): Each wing is a round container of a spiral of fractal content whose center is their "Herenow". This represents 2 opposite bodies interacting by **mixing** their contrasting contents at the "Now" dot (see below).
+									  - Antennae & eyes: 2 "Future" branches look like moth's antennae with **additional levels of branching hairs**. The label "Future" is placed right on top between the 2 antennae. The eyes (no labels) are right at the root of each antenna, just like the moth's.
+									  - Body: The "Present" body mixes contents at the "Now" dot to produce the past (history) as its tail. The "Now" dot is right below the root of 2 antennae. The body is labeled "Present" and leads directly to the tail, **no additional limbs**.
+									  - Sting tail: The "History" tail is thin (in contrast to the body), curves in ∝ figure, has overlapping segments of chitinous plating, and ends with the "Past" arrowhead.
+									  - Background: Ambient. Don't clutter with details.
+									  - Text: Only labels, i.e. the words that are quoted above. **No extra texts** are allowed.
+									  ```
+								- ![Temporix_Nanobana_1.png](../assets/Will/story/2026-03/Temporix_Nanobana_1.png)
+								- ![Temporix_Nanobana_2.png](../assets/Will/story/2026-03/Temporix_Nanobana_2.png)
+								- ![Temporix_Nanobana_3.png](../assets/Will/story/2026-03/Temporix_Nanobana_3.png)
+								- ![Temporix_Nanobana_4.png](../assets/Will/story/2026-03/Temporix_Nanobana_4.png)
 					- DONE check exported graph for `Now, in commit 03a0b563 , i just change the id of perceptual screen to the new one` at block ref for `perceptual screen`.
 					  :LOGBOOK:
 					  CLOCK: [2026-03-13 Fri 17:51:46]--[2026-03-13 Fri 18:09:44] =>  00:17:58
@@ -1178,30 +1200,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- While it's clear that the rounded side is the trailing edge, as shown in the 3D image above, the models usually confuse it with the leading edge, due to the [airfoil shape](https://en.wikipedia.org/wiki/Airfoil).
 					- Clarification: The "rounded leading edge" of the airfoil is about the thickness, i.e. shape of the cross section of the blade, not the surface shape. Moreover, the fan blades usualy have a uniform thickness, hence completely irrelevant to the airfoil.
 				- Keeping from clinging to my impression of motion trail, i was dragged by the AI models following their hallucination round and round! What an intreresting roller coaster ride!
-			- 16th, ...
+			- 16th, continue with ((69af7dbd-0a7c-4d10-a5cd-6de1ab9c3040))
 			  collapsed:: true
-				- 🦋 Drawing the [arrow of time diagram](((69b7be1f-0ed4-45fa-8189-4094766076a3))), i see it looks like a butterfly, a moth, or a manta ray! 😊
-					- $M$ & $W$ self circles: 2 wings or pectoral fins
-					- Present action: body
-					- Future branches: antennae or cephalic horns of the manta
-					- Past arrow: sting tail (of stingray or scorpion)
-					- ⇒ I create a demon named Temporix – The Time Spinner.
-					  collapsed:: true
-						- Prompt to Nano Banana 2
-						  collapsed:: true
-							- ```
-							  Let's draw a demon named "Temporix" ("Time Spinner"):
-							  - 2 wings (left & right): Each wing is a round container of a spiral of fractal content whose center is their "Herenow". This represents 2 opposite bodies interacting by **mixing** their contrasting contents at the "Now" dot (see below).
-							  - Antennae & eyes: 2 "Future" branches look like moth's antennae with **additional levels of branching hairs**. The label "Future" is placed right on top between the 2 antennae. The eyes (no labels) are right at the root of each antenna, just like the moth's.
-							  - Body: The "Present" body mixes contents at the "Now" dot to produce the past (history) as its tail. The "Now" dot is right below the root of 2 antennae. The body is labeled "Present" and leads directly to the tail, **no additional limbs**.
-							  - Sting tail: The "History" tail is thin (in contrast to the body), curves in ∝ figure, has overlapping segments of chitinous plating, and ends with the "Past" arrowhead.
-							  - Background: Ambient. Don't clutter with details.
-							  - Text: Only labels, i.e. the words that are quoted above. **No extra texts** are allowed.
-							  ```
-						- ![Temporix_Nanobana_1.png](../assets/Will/story/2026-03/Temporix_Nanobana_1.png)
-						- ![Temporix_Nanobana_2.png](../assets/Will/story/2026-03/Temporix_Nanobana_2.png)
-						- ![Temporix_Nanobana_3.png](../assets/Will/story/2026-03/Temporix_Nanobana_3.png)
-						- ![Temporix_Nanobana_4.png](../assets/Will/story/2026-03/Temporix_Nanobana_4.png)
+				- ((69b7c80f-fc13-4929-8cae-e51e9dd29878))
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c

@@ -2398,6 +2398,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Modern [International Atomic Time](https://en.wikipedia.org/wiki/International_Atomic_Time) refines the cycles to extreme precision, but they are still counting **repetitive events**, e.g. the [cesium-133 hyperfine transition](https://www.nist.gov/pml/time-and-frequency-division/time-realization/cesium-fountain-atomic-clocks).
 						- The **circular dial** on the traditional [clock face](https://en.wikipedia.org/wiki/Clock_face) is the symbol of circular time, showing its very circular nature.
 					- **Arrow of time** is the constantly *mixing of the past in the present*, increasing entropy.
+					  id:: 699c0360-e336-4475-87dc-5f0ce770a6b8
 						- Information loss: n-to-1 function computation (action cone, deduction), thermodynamics, psychology, cosmic, wave function collapse = quantum decoherence + averaging
 						- Intelligence = information gain = restoring arrow = knowledge learning (induction, observation) = seeing the future
 						- Equilibrium (classical physics) = closed circle (simple circle): effect circle, deterministic machine
