@@ -1098,7 +1098,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  :LOGBOOK:
 				  CLOCK: [2026-03-13 Fri 15:33:50]
 				  :END:
-					- > Arrow of time is the constantly mixing of the past in the present, increasing entropy.
+					- DOING > Arrow of time is the constantly mixing of the past in the present, increasing entropy.
+					  :LOGBOOK:
+					  CLOCK: [2026-03-17 Tue 10:33:01]
+					  :END:
 						- Link this arrow of time in the brainstorm about "circular time" with the entropy increase through image copy to the past
 					- DONE check exported graph for `Now, in commit 03a0b563 , i just change the id of perceptual screen to the new one` at block ref for `perceptual screen`.
 					  :LOGBOOK:
@@ -1183,9 +1186,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Future branches: antennae or cephalic horns of the manta
 					- Past arrow: sting tail (of stingray or scorpion)
 					- ⇒ I create a demon named Temporix – The Time Spinner.
-						- Artwork by Nano Banana 2
-						  ![Temporix_Nanobana.png](../assets/Will/story/2026-03/Temporix_Nanobana.png)
-						- Prompt
+					  collapsed:: true
+						- Prompt to Nano Banana 2
 						  collapsed:: true
 							- ```
 							  Let's draw a demon named "Temporix" ("Time Spinner"):
@@ -1196,6 +1198,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  - Background: Ambient. Don't clutter with details.
 							  - Text: Only labels, i.e. the words that are quoted above. **No extra texts** are allowed.
 							  ```
+						- ![Temporix_Nanobana_1.png](../assets/Will/story/2026-03/Temporix_Nanobana_1.png)
+						- ![Temporix_Nanobana_2.png](../assets/Will/story/2026-03/Temporix_Nanobana_2.png)
+						- ![Temporix_Nanobana_3.png](../assets/Will/story/2026-03/Temporix_Nanobana_3.png)
+						- ![Temporix_Nanobana_4.png](../assets/Will/story/2026-03/Temporix_Nanobana_4.png)
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
