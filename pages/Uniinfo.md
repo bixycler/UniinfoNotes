@@ -4030,7 +4030,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 				  id:: 69b9470c-40e4-49ca-84df-1cb6a3379987
 				  collapsed:: true
 				  The Time Spinner
-					- Temporix is the spinner, mixer, executrix, king & queen of time, similar to the Greek [Clotho](https://en.wikipedia.org/wiki/Clotho).
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((69b9470c-40e4-49ca-84df-1cb6a3379987)) is the spinner, mixer, executrix, queen of time, similar to the Greek [Clotho](https://en.wikipedia.org/wiki/Clotho). This demon is designed based on the [arrow of time diagram](((69b7be1f-0ed4-45fa-8189-4094766076a3))) and inspired by the [Laplace's demon](https://en.wikipedia.org/wiki/Laplace%27s_demon).
 					- ![Temporix_Nanobana_1_1.png](../assets/Uniinfo/Unithread/Temporix_Nanobana_1_1.png)
 					- Features
 						- The antennae branch into **future** possibilities.
