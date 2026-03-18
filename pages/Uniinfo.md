@@ -4027,7 +4027,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 				- ![ArrowOfTime](https://docs.google.com/drawings/d/e/2PACX-1vQfLsDVRgSNMbbxUsAjAoe4XrhJIWy7h3zeCuwB5LzwhVaV7kkJkJ9yORcpCC5XFG2NLBpULPZro0ei/pub?w=300)
 				- Temporix – The Time Spinner
 				  id:: 69b9470c-40e4-49ca-84df-1cb6a3379987
-					- Temporix is the spinner, mixer, executrix, king & queen of time.
+					- Temporix is the spinner, mixer, executrix, king & queen of time, similar to the Greek [Clotho](https://en.wikipedia.org/wiki/Clotho).
 					- ![Temporix_Nanobana_1_1.png](../assets/Uniinfo/Unithread/Temporix_Nanobana_1_1.png)
 			- Present: When my self (compound particle) meets your self, my herenow mixes with your herenow resulting a **common “now”**, with a little “less here”, which we usually call “the present”.
 				- The present is just the common part of many herenows of the participants, hence only a little portion of the Omnifold – the present dot (moment) – expressed through the interface between selves.
