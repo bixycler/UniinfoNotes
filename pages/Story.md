@@ -1115,7 +1115,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								  collapsed:: true
 									- ```
 									  Let's draw a demon named "Temporix" ("Time Spinner"):
-									  - 2 wings (left & right): Each wing is a round container of a spiral of fractal content whose center is their "Herenow". This represents 2 opposite bodies interacting by **mixing** their contrasting contents at the "Now" dot (see below).
+									  - 2 wings (left & right): Each wing is a round container, with chitinous plating, of a spiral of fractal content. Mark the left wing "W Herenow", and the right wing "M Herenow". This represents 2 opposite bodies interacting by **mixing** their contrasting contents at the "Now" dot (see below).
 									  - Antennae & eyes: 2 "Future" branches look like moth's antennae with **additional levels of branching hairs (rami)**. The label "Future" is placed right on top between the 2 antennae. The eyes (no labels) are right at the base of each antenna, just like the moth's.
 									  - Body: The "Present" body mixes contents at the "Now" dot to produce the past (history) as its tail. The "Now" dot is right below the root of 2 antennae. The body is labeled "Present" and leads directly to the tail, **no additional limbs**.
 									  - Sting tail: The "History" tail is long and thin (in contrast to the body), has overlapping segments of chitinous plating, and ends with the "Past" arrowhead.
