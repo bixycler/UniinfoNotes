@@ -4053,6 +4053,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 				- The information is lost through the [many-to-one function](https://mathworld.wolfram.com/Many-to-One.html) of ((66727858-979d-4d95-8a90-7a749218cfba))s.
 				- The meeting is called [“wavefunction collapse” in QM](https://en.wikipedia.org/wiki/Wave_function_collapse) which reduces the uncertain futures (high entropy) into the certain prensent (low entropy).
 			- Past: After the meeting, the common herenow is stored in both my self and your self, which both project out to be “the past”.
+			  id:: 69b79d25-16e5-458a-bf1b-05c927494107
 				- The past is a thread extending the present dot, hence just a small part of the Omifold.
 				- The past of 2 selves has 2 copies in the Omnifold, the past of $n$ selves has $n$ copies, and so on. The more particles observing the common past, the more it is copied, the more certain it is, hence the lower entropy the past has.
 			- Future: Looking forward to the next meeting, i can see my future but not yours because we're separated, hence each future has at most one copy, hence high entropy.

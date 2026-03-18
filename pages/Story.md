@@ -1098,7 +1098,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  :LOGBOOK:
 				  CLOCK: [2026-03-13 Fri 15:33:50]
 				  :END:
-					- DOING Link [this arrow of time](((699c0360-e336-4475-87dc-5f0ce770a6b8))) in the brainstorm about "circular time" with the entropy increase through [image copy](((69a502fe-47e2-4629-a40c-78964d9e0396))) of the past
+					- DOING Link [this arrow of time](((699c0360-e336-4475-87dc-5f0ce770a6b8))) in the brainstorm about "circular time" with the entropy increase through [image copy](((69b79d25-16e5-458a-bf1b-05c927494107))) of the past
 					  :LOGBOOK:
 					  CLOCK: [2026-03-16 Mon 16:00:45]
 					  :END:
