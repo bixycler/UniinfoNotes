@@ -4030,11 +4030,13 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					- Temporix is the spinner, mixer, executrix, king & queen of time, similar to the Greek [Clotho](https://en.wikipedia.org/wiki/Clotho).
 					- ![Temporix_Nanobana_1_1.png](../assets/Uniinfo/Unithread/Temporix_Nanobana_1_1.png)
 					- Features
-						- The antennae branch into the future possibilities.
-						- The Now heart mixes content in space into time. The content from different selves.
-						- Past History is the linear record of the Present body (represented by each segment of the tail), the hook of Past is what keeps all subjects stuck to the past (inertia), and if not skillfully untangled, it will inject poison (like scorpion, stingray) through attachment and manifested through the three poisons of Greed, Anger, and Delusion.
+						- The antennae branch into **future** possibilities.
+						- The **now** heart mixes contents in space (2 wings) into time in the **present** body. The contents are from different selves (wings), each has its own **herenow**.
+							- $W/M$ is a pair of dualistic opposites, such as man/woman, yin/yang, me/world, right/wrong, inside/outside, subject/object, etc.
+						- The **history** “tail” is the linear record of the **present** body, each record is a segment.
+							- The hook of the **past** is what keeps all subjects stuck to the past (inertia), and if not skillfully untangled, it will inject poison (like scorpion, stingray) through attachment, clinging, fixation and manifested through the three poisons of Greed, Anger, and Delusion.
 					- Images of real animals
-						-
+						- The head, including feathered antennae, are from
 			- Present: When my self (compound particle) meets your self, my herenow mixes with your herenow resulting a **common “now”**, with a little “less here”, which we usually call “the present”.
 				- The present is just the common part of many herenows of the participants, hence only a little portion of the Omnifold – the present dot (moment) – expressed through the interface between selves.
 				- The [mixing](https://en.wikipedia.org/wiki/Mixing_(mathematics)) in the present is the arrow of time that [increases entropy](https://en.wikipedia.org/wiki/Entropy_of_mixing) by increasing exensity of the thread distribution via the multiplication of its extent by the number of participants to the meeting.
