@@ -4041,7 +4041,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 							- If not skillfully untangled, the past stinger will inject poison (like scorpion, stingray) through attachment, clinging, fixation which is manifested through the three poisons of Greed, Anger, and Delusion.
 					- Images of real-life animals
 						- The upper part (head, feathered antennae, and large wings) are from the **moth**.
-							- The wings are of a fictional flying saucer.
+							- The wings are saucers of a fictional spaceship, like the [USS Enterprise](https://en.wikipedia.org/wiki/USS_Enterprise_(NCC-1701)).
 						- The body of **human**.
 						- The “tail” is of the **scorpion** mixed with the **millipede**.
 							- The “tail” is actually the elongated body ([metasoma](https://en.wikipedia.org/wiki/Metasoma)), where each segment was added each time the creature molted, i.e. [anamorphosis](https://en.wikipedia.org/wiki/Anamorphosis_(biology)) like that of the millipede.
