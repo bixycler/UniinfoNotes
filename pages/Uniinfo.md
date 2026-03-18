@@ -4035,7 +4035,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					- Features
 						- The antennae branch into **future** possibilities.
 						- The **now** heart mixes contents in space (2 wings) into time in the **present** body. The contents are from different selves (wings), each has its own **herenow**.
-							- $W/M$ is a pair of dualistic opposites, such as man/woman, yin/yang, me/world, right/wrong, inside/outside, subject/object, etc.
+							- $W/M$ is the pair of dualistic opposites, such as man/woman, yin/yang, me/world, right/wrong, inside/outside, subject/object, etc.
 						- The **history** “tail” is the linear recording of the **present** body, each record is a segment.
 							- The historical records are reflected back to each wing as the segmented chitinous plates on its edge.
 							- The hook of the **past** is what keeps all subjects stuck to the past (inertia).
