@@ -1124,6 +1124,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 									  ```
 								- Artworks by Nano Banana 2
 								  collapsed:: true
+									- ![Temporix_Nanobana_1_1.png](../assets/Will/story/2026-03/Temporix_Nanobana_1_1.png)
 									- ![Temporix_Nanobana_1.png](../assets/Will/story/2026-03/Temporix_Nanobana_1.png)
 									- ![Temporix_Nanobana_2.png](../assets/Will/story/2026-03/Temporix_Nanobana_2.png)
 									- ![Temporix_Nanobana_3.png](../assets/Will/story/2026-03/Temporix_Nanobana_3.png)
