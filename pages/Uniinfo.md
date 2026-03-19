@@ -4046,6 +4046,10 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 						- The body of **human**.
 						- The “tail” is of the **scorpion** mixed with the **millipede**.
 							- The “tail” is actually the elongated body ([metasoma](https://en.wikipedia.org/wiki/Metasoma)), where each segment was added each time the creature molted, i.e. [anamorphosis](https://en.wikipedia.org/wiki/Anamorphosis_(biology)) like that of the millipede.
+					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+						- ...
+						  collapsed:: true
+							-
 			- Present: When my self (compound particle) meets your self, my herenow mixes with your herenow resulting a **common “now”**, with a little “less here”, which we usually call “the present”.
 				- The present is just the common part of many herenows of the participants, hence only a little portion of the Omnifold – the present dot (moment) – expressed through the interface between selves.
 				- The [mixing](https://en.wikipedia.org/wiki/Mixing_(mathematics)) in the present is the arrow of time that [increases entropy](https://en.wikipedia.org/wiki/Entropy_of_mixing) by increasing exensity of the thread distribution via the multiplication of its extent by the number of participants to the meeting.

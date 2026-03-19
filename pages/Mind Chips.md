@@ -1,3 +1,14 @@
+- Emergence vs. Predestination: Unlike the predestined timeline created by Clotho's fateful spindle and the deterministic calculation of Laplace's demon, with Temporix, the future is open to possibilities, and the past emerges from the interaction in the present.
+- Hooked stinger vs. scissors: Temporix shows a danger of time opposite to that of the Fates, it's the burden and entanglement of the past, instead of the unwanted events in the future (starting decisions by Clotho and ending decisions by Atropos).
+- The Now point vs. the pearl: The focal point of the Now is the internal “pearl”, compared to the external pearl that the Asian dragon 🐉 chases and guard.
+- Being present in both space & time: The present is the center both in space -- “being here” between the wings -- and in time -- “being in the present” between past and future.
+- The History tail vs. the Past hook & stinger: While history is a useful data, a source of content for the mixture of the present, the "past" as an independent & permanent thing or place is the delusional attachment that hooks and stings. 
+    - The actual past is the **reconstructed** events by pouring live content in the present to dead forms (segments) of history. That means it is inherently dependent on the current state and prone to distortion and hallucination.
+    - The Poisons (Greed, Anger, Delusion) are the direct result of this delusional attachment.
+        - Greed: Attaching to a "permanent" past success and trying to pull it into the now.
+        - Anger: Attaching to a "permanent" past injury and trying to "re-fight" it in the now.
+        - Delusion: The fundamental error of thinking that the History segments (data) are a Permanent Past (reality).
+- ---
 - openness = porosity = entropy increase = arrow of time = mismatch between form & content =  curvature in distribution
 - past form = copy of present form = mixture of present content
     - the the root confusion is between form and content. 
