@@ -4021,7 +4021,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 		- ### arrow of time
 		  id:: 69a502fe-47e2-4629-a40c-78964d9e0396
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Arrow_of_time
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((69a502fe-47e2-4629-a40c-78964d9e0396)) is...
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((69a502fe-47e2-4629-a40c-78964d9e0396)) is...
 			- Diagram
 			  id:: 69b7be1f-0ed4-45fa-8189-4094766076a3
 			  collapsed:: true
