@@ -4049,17 +4049,16 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 						- ((69b9470c-40e4-49ca-84df-1cb6a3379987)) in contrast with other mystical creatures and within itself
 						  collapsed:: true
-							- Emergence vs. predestination: Unlike the predestined timeline created by Clotho's fateful spindle and the deterministic calculation of Laplace's demon, with Temporix, the future is **open to possibilities**, and the past emerges from the interaction in the present.
-							- Hooked stinger vs. scissors: Temporix shows a danger of time opposite to that of the Fates. It's the burden and entanglement of the past, instead of the unwanted events in the future (starting decisions by Clotho and ending decisions by Atropos).
+							- Emergence vs. predestination: Unlike the predestined timeline created by Clotho's fateful spindle and the deterministic calculation of Laplace's demon, with Temporix, the future is **open to possibilities**, and the past emerges from the **interaction** in the present.
+							- Hooked stinger vs. scissors: Temporix shows a danger of time opposite to that of the Fates. It's the **burden and entanglement of the past**, instead of the unwanted events in the future (starting decisions by Clotho and ending decisions by Atropos).
 							- The Now point vs. the pearl: The focal point of the Now is the internal “pearl”, compared to the external pearl that the Asian dragon 🐉 chases and guard.
 							- Being present in both space & time: The present is the center both in space – “being here” between the wings – and in time – “being in the present” between past and future.
-							- The History tail vs. the Past hook & stinger: While history is a useful data, a source of content for the mixture of the present, the “past” as an independent & permanent thing or place is the delusional attachment that hooks and stings.
+							- The History tail vs. the Past hook & stinger: While history is a useful data, a source of content for the present mixture, _the “past” as an independent & permanent thing or place is the **delusional attachment**_ that hooks and stings.
 								- The actual past is the **reconstructed** events by pouring live content in the present to dead forms (segments) of history. That means it is inherently dependent on the current state and prone to distortion and hallucination.
-								- The Poisons (Greed, Anger, Delusion) are the direct result of this delusional attachment.
+								- The poisons (greed, anger, delusion) are the direct result of this delusional attachment.
 									- Greed: Attaching to a “permanent” past success and trying to pull it into the now.
 									- Anger: Attaching to a “permanent” past injury and trying to re-fight it in the now.
-									- Delusion: The fundamental error of thinking that the History segments (data) are a Permanent Past (reality).
-							-
+									- Delusion: The fundamental error of thinking that the history segments (data) are a Permanent Past (reality).
 			- Present: When my self (compound particle) meets your self, my herenow mixes with your herenow resulting a **common “now”**, with a little “less here”, which we usually call “the present”.
 				- The present is just the common part of many herenows of the participants, hence only a little portion of the Omnifold – the present dot (moment) – expressed through the interface between selves.
 				- The [mixing](https://en.wikipedia.org/wiki/Mixing_(mathematics)) in the present is the arrow of time that [increases entropy](https://en.wikipedia.org/wiki/Entropy_of_mixing) by increasing exensity of the thread distribution via the multiplication of its extent by the number of participants to the meeting.
