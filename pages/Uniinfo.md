@@ -999,6 +999,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 			- Only when the subject involves in the Omnifold, can it experience dimensions of the Omnifold as volumes and structures of information, as well as directions of the Ω-thread as changes and motions.
 				- The information extraction through observation is called “**thread pulling**”.
 				- The construction of new forms to return back to the Omnifold through action is called “**thread spinning**”.
+				- Both
 			- Different subjects pull out different Ω-threads from the same Omnifold, which are just different ((66723642-58f1-4a74-bba3-0108f14c6bac))s of the same objects, as different ((665ca429-84e3-49ff-921e-c07d19cd99ba))s of [the same content](((678e2046-54ac-4284-865d-6f3e38f589a1))).
 			  id:: 6772a6cd-5b37-43ab-b8cb-b9656d26fdcc
 			  collapsed:: true
