@@ -3,6 +3,7 @@
 - past form = copy of present form = mixture of present content
 	- the the root confusion is between form and content.
 	- the past content has gone (to present content), only the past form remains.
+	- The actual past is the **reconstructed** events by pouring live content in the present to dead forms (segments) of history.
 	- the block universe model records the past micro form to conflate/confuse it with past content relative to the past macro form.
 	- entropy is the measure of mismatch between forms (micro over macro) = log(e = c/i)
 	- many-to-one mapping is the view cone => abstract  content to external form, mix with intent (inner form) to produce new form via action
