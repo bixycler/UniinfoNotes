@@ -997,7 +997,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 			- For an ((669a2487-054d-4408-ae41-189e34af81a9)) (hypothetically) outside of the Omnifold, it can only see a ((66e43b94-9183-4d49-af85-8a7a1c194c12)) because all content of the Omnifold has been *abstracted*. This point shows its nondirectionality.
 			- When the outside ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) handles the point from the outside, it can only feel the “mass” of the Omnifold, which shows its nondimensionality.
 			- Only when the subject involves in the Omnifold, can it experience dimensions of the Omnifold as volumes and structures of information, as well as directions of the Ω-thread as changes and motions.
-			- For a subject involving in the Omnifold, it cannot passively observe the structure and the threads there without feedback to the Omnifold. ((69a502fe-47e2-4629-a40c-78964d9e0396)) is the ((94e87dc9-71af-477c-aa70-0f448c2f1e20))
+			- For the subject involving in the Omnifold, it cannot passively observe the structure and the threads there without feedback to the Omnifold. All ((94e87dc9-71af-477c-aa70-0f448c2f1e20))s of the subject interact with the Omnifold through the ((69a502fe-47e2-4629-a40c-78964d9e0396)) ((67a98760-71fa-4033-9c42-f3025d632d04)) the Ω-thread.
 				- The information extraction through observation is called “**thread pulling**”.
 				- The construction of new forms to return back to the Omnifold through action is called “**thread spinning**”.
 			- Different subjects pull out different Ω-threads from the same Omnifold, which are just different ((66723642-58f1-4a74-bba3-0108f14c6bac))s of the same objects, as different ((665ca429-84e3-49ff-921e-c07d19cd99ba))s of [the same content](((678e2046-54ac-4284-865d-6f3e38f589a1))).
