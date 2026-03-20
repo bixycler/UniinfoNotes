@@ -1209,6 +1209,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- ((69b7c80f-fc13-4929-8cae-e51e9dd29878))
 			- 17th, ((69b917d0-494f-4527-9e1b-0dcff5a2cc91))
 			  collapsed:: true
+			- 18th, continue with ((69b9470c-40e4-49ca-84df-1cb6a3379987)) – the time spinner
+			- 19th, continue with ((69a502fe-47e2-4629-a40c-78964d9e0396)) using Gemini's canvas
+			  collapsed:: true
+				- While the [walking droplet](https://dotwave.org/) shows the pilot wave via its vibrating bath, the [magnetic orbital](https://doi.org/10.5281/zenodo.15936280) shows the interference pattern (spherical harmonics) via the binary probe of the [Hall effect sensor](https://en.wikipedia.org/wiki/Hall_effect_sensor).
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
