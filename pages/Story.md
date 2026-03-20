@@ -1078,6 +1078,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Published [on YouTube](https://www.youtube.com/watch?v=OjUivFq-aLw)
 					- Note: I just gave NotebookLM a bunch of Mind Jungle, Uniinfo.md, and brainstorms, with no specific instruction, except the explicit reminder of correct pronunciations for Unïnfo terms as the “instructions” for the video overview.
 			- 7-8th, weekends, review UniinfoNotes with NotebookLM
+			  collapsed:: true
 				- FoC: Why arrow is content and circle is form?
 					- The open arrow cannot contain others, hence can only be content.
 						- The arrow can transport others, instead.
