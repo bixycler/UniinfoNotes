@@ -1,0 +1,17 @@
+- Gemini Canvas Collaboration Bugs (2026)
+	- Summary: This report tracks the technical limitations and behavioral bugs identified during the collaborative session regarding the UniinfoNotes.
+		- Workaround: The most stable workflow for complex Unïnfo Notes is a “source-control” model where the assistant acts as the primary editor of the Canvas file based on user-provided Markdown files and instructions.
+	- Model-to-Editor Synchronization (Handshake Failure)
+		- Symptom: Manual edits made by the user in the Canvas editor are frequently ignored or overwritten by the assistant.
+		- Status: Critical bug.
+		- Protocol: The user provides the source or specific instructions for the assistant to generate or update the complete file directly. The user avoids manual editing in the editor to prevent synchronization conflicts.
+	- Direct Upload Truncation
+		- Symptom: Large files are aggressively trimmed or truncated when using the direct `.md` file upload method.
+		- Resolution: Large files exceeding character limits should be **converted to PDF and shared via Drive** to ensure the bulk content is ingested, even if processed as snippets.
+	- Drive/PDF Processing and Snippets
+		- Symptom: Content retrieved from Drive is not raw text but processed, summarized, or presented as “Front/Back Snippets”, which can lead to the loss of middle sections.
+		- Resolution: Short or critical content should be uploaded directly as `.md` files to ensure full, unprocessed text availability.
+	- Absence of Change-Tracking (Diffs)
+		- Symptom: The system provides no native way to compare versions or track specific line changes.
+		- Diagnosis: Full-file replacements force the user to manually re-read the entire document to verify integrity.
+		- Working Protocol: For every update to an existing file, the assistant will include a concise **“Summary of Changes”** in the chat window to facilitate manual verification.

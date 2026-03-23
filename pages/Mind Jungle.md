@@ -574,28 +574,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Integration with Google Apps: Gmail & Drive, Maps, YouTube, Calendar & Tasks
 					- Deep Research: Automatically sifts through websites to create research reports.
 					- Canvas: Interactive workspace for ~~real-time collaboration~~ on writing and coding projects.
-						- DONE March 2026, collaboration is not available due to an open bug.
+						- DONE March 2026, collaboration is not available due to ![an open bug]([[Gemini-canvas-collaboration-bugs]]).
 						  collapsed:: true
 						  :LOGBOOK:
 						  CLOCK: [2026-03-23 Mon 19:08:15]
 						  CLOCK: [2026-03-23 Mon 19:08:29]--[2026-03-23 Mon 19:16:17] =>  00:07:48
 						  :END:
-							- Summary: This report tracks the technical limitations and behavioral bugs identified during the collaborative session regarding the UniinfoNotes.
-								- Workaround: The most stable workflow for complex Unïnfo Notes is a “source-control” model where the assistant acts as the primary editor of the Canvas file based on user-provided Markdown files and instructions.
-							- Model-to-Editor Synchronization (Handshake Failure)
-								- Symptom: Manual edits made by the user in the Canvas editor are frequently ignored or overwritten by the assistant.
-								- Status: Critical bug.
-								- Protocol: The user provides the source or specific instructions for the assistant to generate or update the complete file directly. The user avoids manual editing in the editor to prevent synchronization conflicts.
-							- Direct Upload Truncation
-								- Symptom: Large files are aggressively trimmed or truncated when using the direct `.md` file upload method.
-								- Resolution: Large files exceeding character limits should be **converted to PDF and shared via Drive** to ensure the bulk content is ingested, even if processed as snippets.
-							- Drive/PDF Processing and Snippets
-								- Symptom: Content retrieved from Drive is not raw text but processed, summarized, or presented as “Front/Back Snippets”, which can lead to the loss of middle sections.
-								- Resolution: Short or critical content should be uploaded directly as `.md` files to ensure full, unprocessed text availability.
-							- Absence of Change-Tracking (Diffs)
-								- Symptom: The system provides no native way to compare versions or track specific line changes.
-								- Diagnosis: Full-file replacements force the user to manually re-read the entire document to verify integrity.
-								- Working Protocol: For every update to an existing file, the assistant will include a concise **“Summary of Changes”** in the chat window to facilitate manual verification.
 					- Personal Intelligence: Offers personalized recommendations based on user history.
 					  id:: 69c12c15-d611-4469-8454-75c501b5d706
 					- Gems: Isolated persona with custom “system instructions”.
