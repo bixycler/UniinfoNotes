@@ -1,3 +1,24 @@
+- Entropy Derivation
+	- Entropy Derivation
+		- Wiki: https://www.google.com/search?q=https://en.wikipedia.org/wiki/Entropy_(statistical_thermodynamics)
+		- Description: Tracks the formal derivation of thermodynamic entropy ($S$) from statistical microstates ($\Omega$), focusing on the transition from $6N$-dimensional hypervolume to a linear additive measure.
+		- Phase space: The state of a system of $N$ particles is represented as a single point in a $6N$-dimensional hypervolume.
+			- The unreal separation: Treats position ($q$) and momentum ($p$) as independent axes. This relies on the fiction of “instantaneous velocity” within a zero-width temporal slice.
+			- Dimensions: $3N$ coordinates ($q$) + $3N$ momenta ($p$).
+		- Multiplicity ($\Omega$) and the Historical Resolution Problem
+			- Classical era (Boltzmann and Gibbs): Counted states using arbitrary mathematical volume elements ($dq \, dp$). Because the cell size was arbitrary, classical mechanics could only calculate relative entropy differences ($\Delta S$), leaving an unknown integration constant with units of Action$^{3N}$.
+			- The quantum pivot (Planck, 1906): Noted that while classical cells were arbitrary, his quantum oscillators required a fixed partition of phase space into elementary regions of exact area $h$.
+			- Sackur–Tetrode equation (1912): Sackur and Tetrode independently applied Planck's $h$ to translating gas molecules. By dividing the continuous classical $6N$ integral exactly by $h^{3N}$, they calculated the first absolute entropy of an ideal gas, which perfectly matched experimental data (mercury vapor).
+			- The fluid cell: The success of Sackur–Tetrode proved that nature's fundamental “pixel” is not a specific length or momentum, but a specific area of action ($h$). The cell can squeeze or stretch – $\Delta q \Delta p \ge h$ – tying $q$ and $p$ together inextricably.
+			- Calculation: $\Omega = \frac{1}{h^{3N} N!} \int \dots \int d^{3N}q \, d^{3N}p$. (Note: The $N!$ was also added by Sackur–Tetrode to solve the Gibbs paradox of identical particles).
+		- Step 1: Statistical Definition ($S = k_B \ln \Omega$)
+			- The logarithm ($\ln$): Converts multiplicative state-space into additive entropy.
+		- Step 2: Macrostate Probability
+			- $P(macro) \propto \Omega$: Higher multiplicity equates to higher probability.
+		- Step 3: Statistical Temperature ($T$)
+			- $\frac{1}{T} \equiv \left( \frac{\partial S}{\partial E} \right)_{V, N}$
+		- Step 4: The First Law Bridge
+			- $dS = \frac{1}{T} dE + \frac{P}{T} dV = \frac{dQ_{rev}}{T}$
 - ---
 - openness = porosity = entropy increase = arrow of time = mismatch between form & content =  curvature in distribution
 - past form = copy of present form = mixture of present content
