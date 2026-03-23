@@ -9,7 +9,7 @@
 	- Use quotation dash `―` to switch person, en-dash `–` for interruption, and em-dash `—` for source attribution – all are **space-separated** from the text.
 		- To emphasize stronger interruption, **spaced em-dashes** may be used in place of spaced en-dashes.
 	- Examples
-		- Quotation dash and en-dash in dialogue: The Well-Dressed Lie and the Naked Truth – short version
+		- Quotation, quotation dash and en-dash in dialogue: _The Well-Dressed Lie and the Naked Truth – short version_
 		- Em-dash for source attribution:
 		  > “Non-action but nothing is not done!”  
 		  「無為而無不為。」  
@@ -21,12 +21,12 @@
 
 ## The Well-Dressed Lie and the Naked Truth – short version
 - Long ago, there were identical twin sisters living in separate towns where they were belovedly called “Truth”. Their indistinguishable faces confused people, who, clinging to the familiar and wary of the unfamiliar outfit, called the sister from the other town “Lie” and drove her away. Heartbroken by the towns’ fights over the “true” Truth, the sisters met in a cave.
-- ― We’re one soul, split by their prejudice – one wept.
+- ― We’re one soul, split by their prejudice – one wept.  
   ― I’ll give you my clothes to please both towns – the other said.  
   ― But you’ll be naked and scorned!  
   ― For the love of people, I’ll endure. You'll take the duty of satisfying them, no less difficult than mine!  
 - They embraced, tears falling, and parted – one taking all clothes, the other bare. To please everyone, the dressed sister returned to town, swiftly changing outfits to suit each person’s expectations, making sure that everyone is comfortable with their own “Truth”. No matter how skillful, sometimes she was caught mid-change and called “Lie”. The naked sister hid in the cave most of the time to avoid shocking people. Anytime seeing her, they called her “crazy” or worse, then fled due to their unease and scare; some abused her in the night.
-- Just a few people, tired of the dressed Lie, sought the naked Truth in the cave.
+- Just a few people, tired of the dressed Lie, sought the naked Truth in the cave.  
   ― Why hide? – they asked.  
   ― I gave my beauty to my sister to serve you – she replied – because you fear the unadorned truth.  
 - When the naked Truth emerged fully, most truth seekers were shaken, fled, and chased another comforting “Truth” who was another’s Lie. Only the brave stayed, embracing the naked Truth.
