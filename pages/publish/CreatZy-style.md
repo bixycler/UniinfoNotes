@@ -20,8 +20,8 @@
 - Apostrophe
 	- Use the straight apostrope (`'`) to distinguish from the closing single quote (`’`).
 	- If curly version is required, use the modifier letter apostrophe (`ʼ` U+02BC).
-- Dialogue
-	- Use quotation dash `―` to switch person, en-dash `–` for interruption, and em-dash `—` for source attribution – all are **space-separated** from the text.
+- Dialogue and dashes
+	- Use quotation dash `―` to switch person, **en-dash `–` for interruption and parenthesis**, and em-dash `—` only for source attribution – all are **space-separated** from the text.
 		- To emphasize stronger interruption, **spaced em-dashes** may be used in place of spaced en-dashes.
 	- Examples
 		- Quotation, quotation dash and en-dash in dialogue: _The Well-Dressed Lie and the Naked Truth – short version_
