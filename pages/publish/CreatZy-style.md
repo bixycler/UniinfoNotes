@@ -18,6 +18,8 @@
 - Word connector
 	- Use **en-dash without spaces** for word compounds and number ranges, e.g. “Bose–Einstein condensate”, “1982–2025”, and [figure dash `‒`](https://en.wiktionary.org/wiki/%E2%80%92) for number compounds, e.g. telephone number “012‒345‒678”, hex number “0x1234‒ABCD”.
 		- Note that in compounds whose elements contain space, the connecting en-dashes must also be spaced, to avoid confusion, e.g. “Australia – New Zealand”, “Độc lập – Tự do – Hạnh phúc”.
+- Layout
+	- Normally, each note is written in the *infinite indented tree* to be plugged in the global tree as a node.
 
 ## The Well-Dressed Lie and the Naked Truth – short version
 - Long ago, there were identical twin sisters living in separate towns where they were belovedly called “Truth”. Their indistinguishable faces confused people, who, clinging to the familiar and wary of the unfamiliar outfit, called the sister from the other town “Lie” and drove her away. Heartbroken by the towns’ fights over the “true” Truth, the sisters met in a cave.
