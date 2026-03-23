@@ -586,10 +586,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- **Personal Intelligence**: Offers personalized recommendations based on user history.
 					  id:: 69c12c15-d611-4469-8454-75c501b5d706
 					- **Gems**: Isolated persona with custom “system instructions” and “knowledge files”.
+					  collapsed:: true
 						- Due to isolation, [Personal Intelligence](((69c12c15-d611-4469-8454-75c501b5d706))) is not available in gems.
 						- The knowledge files are interesting, but the huge knowledge base of UniinfoNotes just makes the agent sluggish.
-							- So the
-						-
+							- So the root files can only be instruction files like agent skills, not a knowledge base.
+							- The knowledge base must be shared via Google Drive for effective indexing.
+						- Furthermore, there is no files drawer, unlike the normal chat window, making canvas work unworkable.
 					- **Audio Overview**: Transforms documents and reports into audio discussions.
 			- Kimi AI
 			  [kimi.ai](https://kimi.ai/)
