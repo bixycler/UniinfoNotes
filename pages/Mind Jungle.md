@@ -580,6 +580,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  CLOCK: [2026-03-23 Mon 19:08:15]
 						  CLOCK: [2026-03-23 Mon 19:08:29]--[2026-03-23 Mon 19:16:17] =>  00:07:48
 						  :END:
+						- Materials for canvas work: [[CreatZy-style]], [[Gemini-canvas-collaboration-bugs]]
 					- Personal Intelligence: Offers personalized recommendations based on user history.
 					  id:: 69c12c15-d611-4469-8454-75c501b5d706
 					- Gems: Isolated persona with custom “system instructions”.
@@ -1074,7 +1075,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  :END:
 			- CreatZy style
 			  id:: 684f951b-4f21-4783-a4a6-3fe5d638c64c
-			  the preferred style in UniinfoNotes
+			  the preferred style in UniinfoNotes, exported to [[CreatZy-style]]
 				- Quotation
 					- For quick notes, i just use the straight quotation marks `"`.
 					- For notes to be published, i use the curly quotation marks `“”`.
@@ -1082,9 +1083,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  id:: 67189182-7268-4579-9ef2-b16bf1f06c86
 					  I don't put trailing punctuation marks into the quote, e.g. “not a complete sentence quote”, except when quoting the whole sentence.
 					- Math forms are quoted by double angle brackets, e.g. $⟪E = m⋅c^2⟫$
-				- Dialogue
+				- Apostrophe
+					- Use the straight apostrope (`'`) to distinguish from the closing single quote (`’`).
+					- If curly version is required, use the modifier letter apostrophe (`ʼ` U+02BC).
+				- Dialogue and dashes
 					- For quick notes, i just use the hyphen-minus `-` or item bullet point to switch person, double hyphen `--` for interruption, and triple hyphen `---` for source attribution.
-					- For notes to be published, i use quotation dash `―` to switch person, en-dash `–` for interruption, and em-dash `—` for source attribution – all are **space-separated** from the text.
+					- For notes to be published, i use quotation dash `―` to switch person, **en-dash `–` for interruption and parenthesis**, and em-dash `—` only for source attribution – all are **space-separated** from the text.
 						- To emphasize stronger interruption, **spaced em-dashes** may be used in place of spaced en-dashes.
 					- Examples
 						- Quotation dash and en-dash in dialogue: [The Well-Dressed Lie and the Naked Truth – short version](((684f9519-6824-430b-820a-d5728d4b3f45)))
