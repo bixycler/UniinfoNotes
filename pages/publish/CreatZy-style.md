@@ -20,12 +20,12 @@
 		- Note that in compounds whose elements contain space, the connecting en-dashes must also be spaced, to avoid confusion, e.g. “Australia – New Zealand”, “Độc lập – Tự do – Hạnh phúc”.
 - Layout and highlight
 	- Normally, each note is written in the *infinite indented tree* to be plugged in the global tree as a node.
-	- Highlight is preserved for *important texts*, like key words, important concepts, etc., not for styling headings.
+	- _Highlight is preserved for **important texts**_, like key words, important concepts, etc., not for styling headings.
 		- Headings are recognized by structure, not by styling.
-	- Section headings, if any, will also be indented, and are treated as styling only, not as section level.
-		- Most section headings are not highlighted, like those in this document.
+	- Most section headings are indented and *not* highlighted, like those in this document.
+		- Only some special section headings of important concepts are highlighted with heading style (`#`).
 	- Only some special pages to be published as stand-alone documents will be laid out with unindented headings.
-	- Lead-in term: Normally, most lead-in terms – the first text before colon – are treated as label or topic descriptor without highlight. Only  Run-in heading vs label: 
+	- Lead-in term: Normally, most lead-in terms – the first text before colon – either labels, topic descriptors, or run-in headings are *not* highlighted.
 
 ## The Well-Dressed Lie and the Naked Truth – short version
 - Long ago, there were identical twin sisters living in separate towns where they were belovedly called “Truth”. Their indistinguishable faces confused people, who, clinging to the familiar and wary of the unfamiliar outfit, called the sister from the other town “Lie” and drove her away. Heartbroken by the towns’ fights over the “true” Truth, the sisters met in a cave.
