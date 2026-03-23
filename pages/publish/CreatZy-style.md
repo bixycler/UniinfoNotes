@@ -20,6 +20,8 @@
 		- Note that in compounds whose elements contain space, the connecting en-dashes must also be spaced, to avoid confusion, e.g. “Australia – New Zealand”, “Độc lập – Tự do – Hạnh phúc”.
 - Layout
 	- Normally, each note is written in the *infinite indented tree* to be plugged in the global tree as a node.
+	- Headings, if any, will also be indented, and are treated as styling only, not as section level.
+	- Only some special pages to be published as stand-alone documents will be laid out with unindented headings.
 
 ## The Well-Dressed Lie and the Naked Truth – short version
 - Long ago, there were identical twin sisters living in separate towns where they were belovedly called “Truth”. Their indistinguishable faces confused people, who, clinging to the familiar and wary of the unfamiliar outfit, called the sister from the other town “Lie” and drove her away. Heartbroken by the towns’ fights over the “true” Truth, the sisters met in a cave.
