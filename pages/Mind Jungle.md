@@ -572,6 +572,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  [gemini.google.com/app](https://gemini.google.com/app)
 				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Google_Gemini
 				- Features
+				  id:: 69c12af1-8e11-41d5-8945-f0966f20d1fe
 					- **Integration with Google Apps**: Gmail & Drive, Maps, YouTube, Calendar & Tasks
 					- **Deep Research**: Automatically sifts through websites to create research reports.
 					- **Canvas**: Interactive workspace for ~~real-time collaboration~~ on writing and coding projects.
@@ -584,8 +585,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Materials for canvas work: [[CreatZy-style]], [[Gemini-canvas-collaboration-bugs]]
 					- **Personal Intelligence**: Offers personalized recommendations based on user history.
 					  id:: 69c12c15-d611-4469-8454-75c501b5d706
-					- **Gems**: Isolated persona with custom “system instructions”.
+					- **Gems**: Isolated persona with custom “system instructions” and “knowledge files”.
 						- Due to isolation, [Personal Intelligence](((69c12c15-d611-4469-8454-75c501b5d706))) is not available in gems.
+						- The knowledge files are interesting, but the huge knowledge base of UniinfoNotes just makes the agent sluggish.
+							- So the
+						-
 					- **Audio Overview**: Transforms documents and reports into audio discussions.
 			- Kimi AI
 			  [kimi.ai](https://kimi.ai/)

@@ -1214,6 +1214,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 19th, continue with ((69a502fe-47e2-4629-a40c-78964d9e0396)) using Gemini's canvas
 			  collapsed:: true
 				- While the [walking droplet](https://dotwave.org/) shows the pilot wave via its vibrating bath, the [magnetic orbital](https://doi.org/10.5281/zenodo.15936280) shows the interference pattern (spherical harmonics) via the binary probe of the [Hall effect sensor](https://en.wikipedia.org/wiki/Hall_effect_sensor).
+			- 23rd, a whole day trying [new features of Gemini](((69c12af1-8e11-41d5-8945-f0966f20d1fe))) just to get a lot of bugs!
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
