@@ -7,6 +7,7 @@
 		- Headings are recognized by structure, not by styling.
 	- Most section headings are indented and *not* highlighted, like those in this document.
 		- Only some special section headings of important concepts are highlighted with heading style (`#`).
+		- Concept heading: general concepts like “space”, “time” have the corresponding **uncapitalized common noun** as heading, whereas special concepts like “Trinion”, “Omnifold” have the corresponding **capitalized proper noun** as heading.
 	- Only some special pages to be published as stand-alone documents will be laid out with unindented headings.
 	- Lead-in term: Normally, most lead-in terms – the first text before colon – either labels, topic descriptors, or run-in headings are *not* highlighted.
 	- No long paragraphs: Any paragraph with many sentences should be broken into an indented tree, keeping each line no more than 3 sentences.
