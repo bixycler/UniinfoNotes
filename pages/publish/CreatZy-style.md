@@ -1,7 +1,7 @@
 # CreatZy style
 — the preferred style in Uniinfo Notes —
 - Layout and highlight
-	- Normally, each note is written in the **infinite indented tree** layout to be plugged in the global tree as a node.
+	- Normally, each note is written in an **infinite indented tree** layout to be plugged in the global tree as a node.
 		- All structures of sections, paragraphs, and lists are replaced by tree structure and laid out in a single indented tree.
 	- _Highlight is preserved for **important texts**_, like key words, important concepts, etc., not for styling headings.
 		- Headings are recognized by structure, not by styling.
