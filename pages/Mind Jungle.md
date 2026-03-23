@@ -1061,7 +1061,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  :END:
 			- CreatZy style
 			  id:: 684f951b-4f21-4783-a4a6-3fe5d638c64c
-			  the prefered style in UniinfoNotes
+			  the preferred style in UniinfoNotes
 				- Quotation
 					- For quick notes, i just use the straight quotation marks `"`.
 					- For notes to be published, i use the curly quotation marks `“”`.
@@ -1072,7 +1072,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Dialogue
 					- For quick notes, i just use the hyphen-minus `-` or item bullet point to switch person, double hyphen `--` for interruption, and triple hyphen `---` for source attribution.
 					- For notes to be published, i use quotation dash `―` to switch person, en-dash `–` for interruption, and em-dash `—` for source attribution – all are **space-separated** from the text.
-						- To emphsize stronger interruption, **spaced em-dashes** may be used in place of spaced en-dashes.
+						- To emphasize stronger interruption, **spaced em-dashes** may be used in place of spaced en-dashes.
 					- Examples
 						- Quotation dash and en-dash in dialogue: [The Well-Dressed Lie and the Naked Truth – short version](((684f9519-6824-430b-820a-d5728d4b3f45)))
 						- Em-dash for source attribution
