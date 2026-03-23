@@ -1,4 +1,4 @@
-- Drafts in Gemini canvas
+- Drafts in Gemini canvas about the ((69a502fe-47e2-4629-a40c-78964d9e0396))
 	- collapsed:: true
 	  
 	  Entropy Derivation
