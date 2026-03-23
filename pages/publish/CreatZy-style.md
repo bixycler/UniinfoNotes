@@ -1,14 +1,15 @@
 # CreatZy style
 — the preferred style in Uniinfo Notes —
 - Layout and highlight
-	- Normally, each note is written in the *infinite indented tree* to be plugged in the global tree as a node.
+	- Normally, each note is written in the **infinite indented tree** layout to be plugged in the global tree as a node.
+		- All structures of sections, paragraphs, and lists are replaced by tree structure and laid out in a single indented tree.
 	- _Highlight is preserved for **important texts**_, like key words, important concepts, etc., not for styling headings.
 		- Headings are recognized by structure, not by styling.
 	- Most section headings are indented and *not* highlighted, like those in this document.
 		- Only some special section headings of important concepts are highlighted with heading style (`#`).
 	- Only some special pages to be published as stand-alone documents will be laid out with unindented headings.
 	- Lead-in term: Normally, most lead-in terms – the first text before colon – either labels, topic descriptors, or run-in headings are *not* highlighted.
-	- No long paragraphs: All paragraphs with many sentences should be broken into indented tree, keeping each line no more than 3 sentences.
+	- No long paragraphs: Any paragraph with many sentences should be broken into an indented tree, keeping each line no more than 3 sentences.
 - Quotation
 	- Use the curly quotation marks `“”`.
 	- Only the quoted material is placed inside quotation marks.
