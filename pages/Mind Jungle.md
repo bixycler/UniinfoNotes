@@ -570,8 +570,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Qwen is open sourced by Chinese Alibaba.
 			- Gemini App
 			  [gemini.google.com/app](https://gemini.google.com/app)
-				- The latest model Gemini 2.0 Flash Thinking (Experimental) with Apps has added a CoT view and searches (Web, YouTube, Maps) like [DeepSeek](((67a6068e-65d3-44c2-8f1c-b4d532046638))).
-				- However it still cannot read documents.
+				- Features
+					- Integration with Google Apps: Gmail & Drive, Maps, YouTube, Calendar & Tasks
+					-
+					- Gems: isolated persona with custom “system instructions”.
 			- Kimi AI
 			  [kimi.ai](https://kimi.ai/)
 				- Features: Web search, read documents and images in various formats.
