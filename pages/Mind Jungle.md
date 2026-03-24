@@ -595,10 +595,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- **Audio Overview**: Transforms documents and reports into audio discussions.
 				- Work with large knowledge bases like UniinfoNotes
 				  id:: 69c201a3-6e5a-4369-b84d-6d5c4db0791c
-					- 3 levels of knowledge
-						- High-level synthesis: NotebookLM query
-						- Specific details in large knowledge base: direct PDF extraction via Google Drive
-						- Concrete instructions and skills ()
+					- 3 levels of knowledge provision to Gemini
+						- High-level synthesis: NotebookLM query → advanced RAG with knowledge
+						- Specific details in large knowledge base: PDF extraction via Google Drive → simple RAG
+						- Concrete instructions and skills (small knowledge sets): direct Markdown file upload → full text ingestion to context window
 					-
 			- Kimi AI
 			  [kimi.ai](https://kimi.ai/)
