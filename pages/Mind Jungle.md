@@ -523,6 +523,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((67a73250-60f2-485c-b9d1-fc43ad993282))
 				  id:: 67a71016-9fe4-4b8a-bc23-74f1a5ae7c1e
 				- ((67a73295-e7ff-445f-831f-df6e79d750dc))
+					- For Free users, the only way to save chat content is to "Save to Note" the prefered responses.
+					- For Pro subscription, the history is saved, though!
 				- The "deep dive conversation" **podcast** is very captivated, but lacking features to control its scripting.
 				- [Uniinfo + Mind Jungle + Brainstorms](https://notebooklm.google.com/notebook/da45adc4-c866-48ee-ae75-a96c93f0c9bd)
 			- ChatGPT
