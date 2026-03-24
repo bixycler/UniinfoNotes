@@ -590,9 +590,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Due to isolation, [Personal Intelligence](((69c12c15-d611-4469-8454-75c501b5d706))) is not available in gems.
 						- The knowledge files are interesting, but the huge knowledge base of UniinfoNotes just makes the agent sluggish.
 							- So the root files can only be instruction files like agent skills, not a knowledge base.
-							- The knowledge base must be shared via Google Drive for effective indexing.
+							- The knowledge base must be shared via Google Drive for effective indexing. See ((69c201a3-6e5a-4369-b84d-6d5c4db0791c))
 						- Furthermore, there is no files drawer, unlike the normal chat window, making canvas work unworkable.
 					- **Audio Overview**: Transforms documents and reports into audio discussions.
+				- Work with large knowledge bases like UniinfoNotes
+				  id:: 69c201a3-6e5a-4369-b84d-6d5c4db0791c
+					- 3 levels of knowledge
+						- High-level synthesis: NotebookLM query
+						- Specific details in large knowledge base: direct PDF extraction via Google Drive
+						- Concrete instructions and skills ()
+					-
 			- Kimi AI
 			  [kimi.ai](https://kimi.ai/)
 				- Features: Web search, read documents and images in various formats.
