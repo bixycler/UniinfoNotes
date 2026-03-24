@@ -576,13 +576,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- **Integration with Google Apps**: Gmail & Drive, Maps, YouTube, Calendar & Tasks
 					- **Deep Research**: Automatically sifts through websites to create research reports.
 					- **Canvas**: Interactive workspace for ~~real-time collaboration~~ on writing and coding projects.
-						- DONE March 2026, collaboration is not available due to ![an open bug]([[Gemini-canvas-collaboration-bugs]]).
-						  collapsed:: true
+						- March 2026, collaboration is not available due to ![an open bug]([[Gemini-canvas-collaboration-bugs]]).
 						  :LOGBOOK:
 						  CLOCK: [2026-03-23 Mon 19:08:15]
 						  CLOCK: [2026-03-23 Mon 19:08:29]--[2026-03-23 Mon 19:16:17] =>  00:07:48
 						  :END:
-						- Materials for canvas work: [[CreatZy-style]], [[Gemini-canvas-collaboration-bugs]]
 					- **Personal Intelligence**: Offers personalized recommendations based on user history.
 					  id:: 69c12c15-d611-4469-8454-75c501b5d706
 					- **Gems**: Isolated persona with custom “system instructions” and “knowledge files”.
@@ -596,10 +594,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Work with large knowledge bases like UniinfoNotes
 				  id:: 69c201a3-6e5a-4369-b84d-6d5c4db0791c
 					- 3 levels of knowledge provision to Gemini
+					  id:: 69c202a6-241e-4dd8-afae-0366e38813a8
 						- High-level synthesis: NotebookLM query → advanced RAG with knowledge
 						- Specific details in large knowledge base: PDF extraction via Google Drive → simple RAG
 						- Concrete instructions and skills (small knowledge sets): direct Markdown file upload → full text ingestion to context window
-					-
+					- Materials for canvas work: [[CreatZy-style]], [[Gemini-canvas-collaboration-bugs]]
+					- Workflow:
+						- User instructs the model to write docs via chat and ((69c202a6-241e-4dd8-afae-0366e38813a8)). User should keep from directly edit the docs due to the [current canvas bug]([[Gemini-canvas-collaboration-bugs]]).
+						- For every update to an existing file, the assistant will include a concise **“Summary of Changes”** in the chat window to facilitate manual verification, due to the lack of `diff` tools like for source codes.
 			- Kimi AI
 			  [kimi.ai](https://kimi.ai/)
 				- Features: Web search, read documents and images in various formats.
