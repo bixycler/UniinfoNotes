@@ -1216,8 +1216,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- While the [walking droplet](https://dotwave.org/) shows the pilot wave via its vibrating bath, the [magnetic orbital](https://doi.org/10.5281/zenodo.15936280) shows the interference pattern (spherical harmonics) via the binary probe of the [Hall effect sensor](https://en.wikipedia.org/wiki/Hall_effect_sensor).
 			- 23rd, a whole day trying [new features of Gemini](((69c12af1-8e11-41d5-8945-f0966f20d1fe))) just to get a lot of bugs!
 			- 24th, daytime, wrapped up the official work (writing report); nighttime, voice chatted with Gemini.
-				-
+			  collapsed:: true
+				- The voice mode of Gemini is far dumber than the text mode, and the barrier of TTS & STT is still far from real voice communication.
 			- 25th, ...
+			  collapsed:: true
+				- Add docs to `gc-log-graph` → [!] Vite issues to be solved
+					- Live server serves `.md` files without `Content-Type`
+					- Distribution doesn't include `.md` files
+					- Vite changes should be committed to branch `work` instead of `work-gc-log-graph`
+						-
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
