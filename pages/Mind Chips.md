@@ -1,6 +1,7 @@
 - ---
 - openness = porosity = entropy increase = arrow of time = mismatch between form & content =  curvature in distribution
 - past form = copy of present form = mixture of present content
+  collapsed:: true
 	- the the root confusion is between form and content.
 	- the past content has gone (to present content), only the past form remains.
 	- The actual past is the **reconstructed** events by pouring live content in the present to dead forms (segments) of history.
