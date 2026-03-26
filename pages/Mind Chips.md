@@ -1,13 +1,14 @@
 - equal = balance = mix (like arrow of time) = merge (like Git) = resolution of conflict, diff, mismatch, error, gap = change
-    - The diamond problem ([in reactivity](https://github.com/milomg/reactively/blob/main/Reactive-algorithms.md#reactive-algorithms) and [in inheritance](https://en.wikipedia.org/wiki/Multiple_inheritance#The_diamond_problem)) is the selfless view of change.
-    - Selful view of change: _difference from itself_.
-        - Self thread M -> M': momentum, history, tradition, static circle, obop of effect circle
-        - Echo thread M -> W -> M': body of effect circle, the arrow going out and back in
-    - Ways of mixing: wave interference (addition), SCIFER (interunion), Three-Way Merge (Git), recursive refinement (fractal)
-    - Mixing = recursive matching (mixmatch)
-        - M & W are decomposed to subthreads $(m_k)$ & $(w_k)$
-        - Matched threads are resolved $m_i = w_j$ => their circles are closed.
-        - Remaining unmatched threads (open arrows) continue to merge recursively.
+	- The diamond problem ([in reactivity](https://github.com/milomg/reactively/blob/main/Reactive-algorithms.md#reactive-algorithms) and [in inheritance](https://en.wikipedia.org/wiki/Multiple_inheritance#The_diamond_problem)) is the selfless view of change.
+		- In reactive programming, the diamond problem is usually called “glitch” as in [this paper](https://soft.vub.ac.be/Publications/2022/vub-tr-soft-22-15.pdf).
+	- Selful view of change: _difference from itself_.
+		- Self thread M → M': momentum, history, tradition, static circle, obop of effect circle
+		- Echo thread M → W → M': body of effect circle, the arrow going out and back in
+	- Ways of mixing: wave interference (addition), SCIFER (interunion), Three-Way Merge (Git), recursive refinement (fractal)
+	- Mixing = recursive matching (mixmatch)
+		- M & W are decomposed to subthreads $(m_k)$ & $(w_k)$
+		- Matched threads are resolved $m_i = w_j$ => their circles are closed.
+		- Remaining unmatched threads (open arrows) continue to merge recursively.
 - ---
 - openness = porosity = entropy increase = arrow of time = mismatch between form & content =  curvature in distribution
 - past form = copy of present form = mixture of present content
