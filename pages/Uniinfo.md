@@ -4023,7 +4023,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 		- ### arrow of time
 		  id:: 69a502fe-47e2-4629-a40c-78964d9e0396
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Arrow_of_time
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((69a502fe-47e2-4629-a40c-78964d9e0396)) is the selfless generator of the selful ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) which is the
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((69a502fe-47e2-4629-a40c-78964d9e0396)) is the selfless generator of the selful ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) which is a ((667d16f8-206e-4a85-80f3-24c2aa1bf4ad)) (segment) of ((68fa164e-ef0e-4010-937d-ad9e0459f5f2)). While change and its flow – time – are selful due to the ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) form
 			- Diagram
 			  id:: 69b7be1f-0ed4-45fa-8189-4094766076a3
 			  collapsed:: true
