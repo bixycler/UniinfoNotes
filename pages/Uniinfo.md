@@ -3298,6 +3298,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 			- head
 			  id:: 669de25b-a52b-4eed-99a0-4ba86b9ee5ea
 			   of an ((667d15b7-6364-49a9-ac58-c64d2a992b63)) is the end where the arrow is heading toward.
+				- arrowhead
 			- tail
 			  id:: 669e007d-7336-4010-be08-e54e962eae2e
 			   of an ((667d15b7-6364-49a9-ac58-c64d2a992b63)) is the opposite end of the ((669de25b-a52b-4eed-99a0-4ba86b9ee5ea)).

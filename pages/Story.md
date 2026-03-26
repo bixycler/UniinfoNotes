@@ -1241,11 +1241,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  :LOGBOOK:
 						  CLOCK: [2026-03-26 Thu 17:45:35]--[2026-03-26 Thu 18:24:20] =>  00:38:45
 						  :END:
-					- DONE `chrome://net-internals/#dns` shows a completely strange IP resolved by Chrome, e.g. `10.99.14.60`.
-					  :LOGBOOK:
-					  CLOCK: [2026-03-26 Thu 17:26:58]--[2026-03-26 Thu 18:19:40] =>  00:52:42
-					  :END:
-						- DOING Tried disabled Passbolt
+					- DONE `chrome://net-internals/#dns` shows an **internal IP** resolved by Chrome, e.g. `10.99.14.60`, while the correct one is a public IP, e.g. `3.113.176.117`.
+						- DOING Tried disabled Passbolt extension in Chrome.
 						  :LOGBOOK:
 						  CLOCK: [2026-03-26 Thu 18:33:52]
 						  CLOCK: [2026-03-26 Thu 18:33:53]
