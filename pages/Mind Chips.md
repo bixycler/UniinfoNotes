@@ -7,8 +7,8 @@
 	- Ways of mixing: wave interference (addition), SCIFER (interunion), Three-Way Merge (Git), recursive refinement (fractal)
 	- Mixing = recursive matching (mixmatch)
 		- M & W are decomposed to subthreads $(m_k)$ & $(w_k)$
-		- Matched threads are resolved $m_i = w_j$ => their circles are closed.
-		- Remaining unmatched threads (open arrows) continue to merge recursively.
+		- Matched threads $m_i = w_j$ are resolved => their circles are closed.
+		- Remaining unmatched threads (open arrows) continue to mix recursively.
 - ---
 - openness = porosity = entropy increase = arrow of time = mismatch between form & content =  curvature in distribution
 - past form = copy of present form = mixture of present content

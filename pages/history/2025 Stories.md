@@ -5452,6 +5452,7 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 				- Spirorus is a (p, q) [torus knot/link](https://en.wikipedia.org/wiki/Torus_knot), but preferring *incommensurable* pair (p, q), hence a [torus flow](https://en.wikipedia.org/wiki/Linear_flow_on_the_torus).
 				- > The Unitorus symbol is the [emblem](https://en.wikipedia.org/wiki/Emblem) of Unïnfo.
 		- 17th, These days, my company works have accumulated into the form of the process where circles are formed by [mixmatching](((6916a4cf-2ac4-4843-a77c-9feae00db79c))) various threads.
+		  id:: 699c0368-9fba-448f-ab2a-32492ca9291c
 		  collapsed:: true
 			- The common parts of different threads just repeat over and over, impressing on my mind the circle forms of these commons.
 			- The uncommon parts of these threads just cancel out, leaving only the commons visible.
