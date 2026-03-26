@@ -5,7 +5,7 @@
 		- Self thread M → M': momentum, history, tradition, static circle, obop of effect circle
 		- Echo thread M → W → M': body of effect circle, the arrow going out and back in
 	- Ways of mixing: wave interference (addition), SCIFER (interunion), Three-Way Merge (Git), recursive refinement (fractal)
-	- Mixing = recursive matching (mixmatch)
+	- Mixing = recursive matching ([mixmatch](((699c0368-9fba-448f-ab2a-32492ca9291c))))
 		- M & W are decomposed to subthreads $(m_k)$ & $(w_k)$
 		- Matched threads $m_i = w_j$ are resolved => their circles are closed.
 		- Remaining unmatched threads (open arrows) continue to mix recursively.
