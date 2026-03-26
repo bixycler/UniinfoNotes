@@ -2095,6 +2095,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)) is a [turn](https://en.wikipedia.org/wiki/Turn_(angle)) in the ((667bf36a-581a-4abe-b544-2d849608a3e4)).
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) is the being's difference from its ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), hence a ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)), as shown in the ((6858b355-fba9-4e61-9f16-bc993a3df44b)). In particular, the change of an object $O$ (in time, space, spacetime, or configuration space) from position $A$ to position $B$ is the difference between $O$ at $A$ and $O$ at $B$, i.e. $O_B - O_A$. The change of ((665ca429-84e3-49ff-921e-c07d19cd99ba)) is ((669a58b9-eb34-41cd-8605-02e29b07e1b5)).
 				  id:: 684f9517-30d7-40e6-b93f-3386123e381c
+				-
 			- ### intentional cause
 			  id:: 677e76ed-b324-4608-b146-90e8fcfa0c32
 			  collapsed:: true
