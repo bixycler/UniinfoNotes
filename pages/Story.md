@@ -1241,9 +1241,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  :LOGBOOK:
 					  CLOCK: [2026-03-26 Thu 17:45:35]
 					  :END:
-					- DOING Let's check `chrome://net-internals/#dns` next time...
+					- DONE `chrome://net-internals/#dns` shows a completely strange IP resolved by Chrome, e.g. `10.99.14.60`.
 					  :LOGBOOK:
-					  CLOCK: [2026-03-26 Thu 17:26:58]
+					  CLOCK: [2026-03-26 Thu 17:26:58]--[2026-03-26 Thu 18:19:40] =>  00:52:42
 					  :END:
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
