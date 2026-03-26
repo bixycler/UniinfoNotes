@@ -1237,6 +1237,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- What work: direct IP on address bar, `curl http://git1`, `ping` & `nslookup` show correct IP; OS reset/logout
 					- What doesn't work: clear cache, cookies, storage; disable secure DNS
 						- Following Google AI Mode's instruction, i disabled secure DNS in `chrome://settings/security`... and that very moment it worked... But now it fails again.
+					- DOING [?] Tried added `http://git1` to `chrome://flags#unsafely-treat-insecure-origin-as-secure`... to see its effect...
+					  :LOGBOOK:
+					  CLOCK: [2026-03-26 Thu 17:45:35]
+					  :END:
 					- DOING Let's check `chrome://net-internals/#dns` next time...
 					  :LOGBOOK:
 					  CLOCK: [2026-03-26 Thu 17:26:58]
