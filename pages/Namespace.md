@@ -166,7 +166,7 @@ collapsed:: true
 	- Composite:
 	  id:: 6652048c-27b3-47b6-84e5-25af8d9ce801
 	  ((665ca47c-476a-4bef-b982-d9a31a669fb1)) ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5))
-		- Component:
+		- Components:
 		  id:: 66532ccc-ae21-4940-8714-715060d6bd90
 		  ((665ca47c-476a-4bef-b982-d9a31a669fb1)) ((66532bb2-7680-461b-80b2-71fc96c89fb9))
 		- Complementarity:
