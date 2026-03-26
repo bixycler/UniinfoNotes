@@ -66,7 +66,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 	  collapsed:: true
 	  ((66f3d561-424a-4e1d-be55-98ac39c48502)) ((66f3d5cc-0d68-47bb-b09a-87cda33c7354)) ((66f3d5ca-a982-4d12-b307-fd4812adeb3b))
 	  ○ = ↑
-	  “A platform, not a foundation.”
+	  “a platform, not a foundation”
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)), every concrete thing, i.e. ((678e1c3f-6202-45aa-8527-f4bdad9927b9)), is made of ((66f3d4a2-375f-4098-9228-66c611f0da90)): Circle, Arrow and Equal. These components are described in the [three postulates](((66f3d61c-35d0-46ae-9786-752af40e64c4))). Corresponding to the three components, there are [three intrinsics](((66f3e0be-7d8c-45d6-92c3-6bad456555c9))) of the Trinion – the _static_, the _dynamic_ and the _balance_ – which show the ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2)) of ((66537a44-f579-4fcc-a02b-2f32d0d409fc)). Vacantism means that the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) is neither the ultimate truth, nor the [first principle](https://en.wikipedia.org/wiki/First_principle), nor the primordial existence, but just the experiential launchpad for the theory of ((66537a44-f579-4fcc-a02b-2f32d0d409fc)).
 			- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “Trinion” is pronounced “tree-nion” /ˈtrɪnjən/.
 		- Three components of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8))
@@ -155,8 +155,8 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 		- ### Vacantism
 		  id:: 66f3ed94-4f20-4166-8e9b-2e8ba53aaad2
 		  collapsed:: true
+		  “an openness, not a nothingness”
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f3f2ad-5b53-4322-889a-f2c85f135fbf)), ((66f3f2ca-cb22-4357-82aa-c8fcf8cc7b3e))
-		  “An openness, not a nothingness.”
 		  ((66c80da9-4cfb-4de7-b83d-8b70665207bf)) ((68b95b62-9e60-4ef2-9540-f563c76a5d17))
 			- vô nguyên
 			  id:: 66f3f2ad-5b53-4322-889a-f2c85f135fbf
@@ -2088,12 +2088,13 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 			- ### change
 			  id:: 667c008f-cd1f-4a6b-a9c8-d6efa1d8d342
 			  collapsed:: true
+			  “different from itself” 
 			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((667bff0e-d45d-4d41-8683-51c3cf76c0bc))
 				- self-effect
 				  id:: 667bff0e-d45d-4d41-8683-51c3cf76c0bc
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342))
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)) is a [turn](https://en.wikipedia.org/wiki/Turn_(angle)) in the ((667bf36a-581a-4abe-b544-2d849608a3e4)).
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) is the being's difference from its ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), hence a ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)), as shown in the ((6858b355-fba9-4e61-9f16-bc993a3df44b)). In particular, the change of an object $O$ (in time, space, spacetime, or configuration space) from position $A$ to position $B$ is the difference between $O$ at $A$ and $O$ at $B$, i.e. $O_B - O_A$. The change of ((665ca429-84e3-49ff-921e-c07d19cd99ba)) is ((669a58b9-eb34-41cd-8605-02e29b07e1b5)).
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) is the being's _difference from its_ ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), hence a ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)), as shown in the ((6858b355-fba9-4e61-9f16-bc993a3df44b)). In particular, the change of an object $O$ (in time, space, spacetime, or configuration space) from position $A$ to position $B$ is the difference between $O$ at $A$ and $O$ at $B$, i.e. $O_B - O_A$. The change of ((665ca429-84e3-49ff-921e-c07d19cd99ba)) is ((669a58b9-eb34-41cd-8605-02e29b07e1b5)).
 				  id:: 684f9517-30d7-40e6-b93f-3386123e381c
 				-
 			- ### intentional cause
