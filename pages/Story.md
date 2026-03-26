@@ -1235,7 +1235,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- My Chrome on Ubuntu now persistently fails to resolve `git1` domain.
 					- `git1` is set to an IP by `dnsmasq` via hosts file `cname.hosts`.
 					- What work: direct IP on address bar, `curl http://git1`, `ping` & `nslookup` show correct IP; OS reset/logout
-					- What doesn't work: clear cache, cookies, storage; disable secure DNS; `unsafely-treat-insecure-origin-as-secure`
+					- What does *not* work: clear cache, cookies, storage; disable secure DNS; `unsafely-treat-insecure-origin-as-secure`
 						- Following Google AI Mode's instruction, i disabled secure DNS in `chrome://settings/security`... and that very moment it worked... But now it fails again.
 						- Tried adding `http://git1` to `chrome://flags#unsafely-treat-insecure-origin-as-secure` with no effect.
 						  :LOGBOOK:
@@ -1245,7 +1245,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  :LOGBOOK:
 					  CLOCK: [2026-03-26 Thu 17:26:58]--[2026-03-26 Thu 18:19:40] =>  00:52:42
 					  :END:
-						-
+						- DOING Tried disabled Passbolt
+						  :LOGBOOK:
+						  CLOCK: [2026-03-26 Thu 18:33:52]
+						  CLOCK: [2026-03-26 Thu 18:33:53]
+						  :END:
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
