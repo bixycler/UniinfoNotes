@@ -3301,8 +3301,8 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 				- arrowhead
 				  id:: 69c5210d-e0bb-4ecc-8d5a-275b0d7e1102
 				  ((669de25b-a52b-4eed-99a0-4ba86b9ee5ea)) of an arrow
-				  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66e43b94-9183-4d49-af85-8a7a1c194c12))
-					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((69c5210d-e0bb-4ecc-8d5a-275b0d7e1102)) is the abstraction of the arrow into a point, hence the dynamic aspect of ((66e43b94-9183-4d49-af85-8a7a1c194c12)).
+				  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((66e43b94-9183-4d49-af85-8a7a1c194c12))
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((69c5210d-e0bb-4ecc-8d5a-275b0d7e1102)) is the ((66537674-6cf9-4459-8bea-7c1858c694a3)) of the ((667d15b7-6364-49a9-ac58-c64d2a992b63)) into a ((66e43b94-9183-4d49-af85-8a7a1c194c12)), i.e. the dynamic aspect of point.
 			- tail
 			  id:: 669e007d-7336-4010-be08-e54e962eae2e
 			   of an ((667d15b7-6364-49a9-ac58-c64d2a992b63)) is the opposite end of the ((669de25b-a52b-4eed-99a0-4ba86b9ee5ea)).
@@ -4032,7 +4032,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 				- concrete arrow of time
 				  is the ((669de102-8f98-4d96-bf00-4f4e602cb689)) including all participating change arrows and their selves, represented by the whole ((69b9470c-40e4-49ca-84df-1cb6a3379987)).
 				- abstract arrow of time
-				  is the ((69c5210d-e0bb-4ecc-8d5a-275b0d7e1102)), the meeting ((66e43b94-9183-4d49-af85-8a7a1c194c12)) of participating change arrows, actualizing the point of ((66e41e14-6c0c-41d7-9089-92916d47d7e0)) which is represented by the **now point** of the ((69b9470c-40e4-49ca-84df-1cb6a3379987)).
+				  is the common ((69c5210d-e0bb-4ecc-8d5a-275b0d7e1102)) at the meeting point of participating change arrows, actualizing the point of ((66e41e14-6c0c-41d7-9089-92916d47d7e0)) which is represented by the **now point** of the ((69b9470c-40e4-49ca-84df-1cb6a3379987)).
 			- Diagram
 			  id:: 69b7be1f-0ed4-45fa-8189-4094766076a3
 			  collapsed:: true
@@ -4550,7 +4550,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 	- ## point
 	  id:: 66e43b94-9183-4d49-af85-8a7a1c194c12
 	  collapsed:: true
-	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((69c5210d-e0bb-4ecc-8d5a-275b0d7e1102))
+	  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((69c5210d-e0bb-4ecc-8d5a-275b0d7e1102))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66e43b94-9183-4d49-af85-8a7a1c194c12)) is an ((66537674-6cf9-4459-8bea-7c1858c694a3)) of a ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) so that it has no ((67bc2fc9-8389-4455-ace9-4aac8de73e1d)), e.g. the ((66ab7477-c060-4d07-ab13-bc3d11246854)) of a circle, through a ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) whose base is the original circle and apex is the resulting point. That means point is the static aspect of ((69c5210d-e0bb-4ecc-8d5a-275b0d7e1102)).
 			- While the quantity (magnitude) of the circle is abstracted, its quality is still preserved in the point, as an identifier of the circle, via its connection with the circle through the viewcone.
 			- When the viewcone is further abstracted away, the resulting image of that point on the screen is a ((66e43ebf-bbaa-4bfc-9601-a5ee40398677)) which is an abstraction of the original circle's ((66e426ec-d29b-4614-932b-2c70693790d7)).
