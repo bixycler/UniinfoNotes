@@ -1264,7 +1264,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  CLOCK: [2026-03-27 Fri 14:49:55]
 						  :END:
 							- Disable `dnsmasq`.
-							- `nslookup git1.lan.skygate.co.jp` regardless of IP setting in `hosts` file
+							- `nslookup` & `dig` show sinkhole IP regardless of IP setting in `hosts` file
 							  ```
 							  Server:		10.11.90.21
 							  Address:	10.11.90.21#53
