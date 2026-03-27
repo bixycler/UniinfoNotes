@@ -1259,6 +1259,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  CLOCK: [2026-03-27 Fri 13:52:42]
 						  CLOCK: [2026-03-27 Fri 13:52:44]
 						  :END:
+						- TODO Debug DHCP DNS (disabling `hosts`) when the internal IP appear again...
 			- 17th, shared with Huy about my perspective on discipline
 			  collapsed:: true
 				- On the way to company, i reviewed my experience in the lense of “discipline”, then share with Huy about my take.
