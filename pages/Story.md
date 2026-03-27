@@ -1251,8 +1251,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  CLOCK: [2026-03-26 Thu 18:33:53]--[2026-03-27 Fri 11:05:06] =>  16:31:13
 						  :END:
 						- What is `10.99.14.60`? 🤔 My IP = `10.11.11.53`, DNS = `10.11.90.21`, `10.11.90.22`
+							- Looks like it's from the FortiGate firewall of the company! 🤔
 						- `Clear host cache` and `Flush socket pools` have no effect! 😕
-						- DOING Trying Chrome flag `--disable-async-dns`
+						- DOING Trying Chrome flag `--disable-async-dns`, `--dns-client=0`
 						  :LOGBOOK:
 						  CLOCK: [2026-03-27 Fri 13:52:40]
 						  CLOCK: [2026-03-27 Fri 13:52:42]
