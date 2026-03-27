@@ -1218,9 +1218,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 24th, daytime: wrapped up the official work (writing report); nighttime: voice chatted with Gemini.
 			  collapsed:: true
 				- The voice mode of Gemini is far dumber than the text mode, and the barrier of TTS & STT is still far from real voice communication.
-			- 25th, ...
-			  collapsed:: true
+			- 25th, contemplation of [balance = mix = arrow of time]() initiatiated by the dilemma in Git branch handling of `gc-log-graph`.
 				- Add docs to `gc-log-graph` → [!] Vite issues to be solved
+				  collapsed:: true
 					- Live server serves text files (`.md`, `.sh`) without `Content-Type`.
 					- Distribution doesn't include text files (`.md`, `.sh`).
 					- Vite changes should be committed to branch `work` instead of `work-gc-log-graph`.
@@ -1230,9 +1230,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  :LOGBOOK:
 						  CLOCK: [2026-03-25 Wed 18:31:33]
 						  :END:
-			- 16th, ...
-			  collapsed:: true
+			- 16th, chatted with Huy about discipline and adaptivity; overviewed new official task; debugged domain resolution failure on Chrome caused by Passbolt.
 				- My Chrome on Ubuntu now persistently fails to resolve `git1` domain.
+				  collapsed:: true
 					- `git1` is set to an IP by `dnsmasq` via hosts file `cname.hosts`.
 					- What work: direct IP on address bar, `curl http://git1`, `ping` & `nslookup` show correct IP; OS reset/logout
 					- What does *not* work: clear cache, cookies, storage; disable secure DNS; `unsafely-treat-insecure-origin-as-secure`
