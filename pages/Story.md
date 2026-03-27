@@ -1242,11 +1242,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  CLOCK: [2026-03-26 Thu 17:45:35]--[2026-03-26 Thu 18:24:20] =>  00:38:45
 						  :END:
 					- DONE `chrome://net-internals/#dns` shows an **internal IP** resolved by Chrome, e.g. `10.99.14.60`, while the correct one is a public IP, e.g. `3.113.176.117`.
-					- DONE ⇒ Disabling Passbolt extension in Chrome does resolve the problem.
-					  :LOGBOOK:
-					  CLOCK: [2026-03-26 Thu 18:33:52]
-					  CLOCK: [2026-03-26 Thu 18:33:53]--[2026-03-27 Fri 11:05:06] =>  16:31:13
-					  :END:
+						- Disabling Passbolt extension in Chrome did resolve the problem once... but then it got back to `10.99.14.60` again!?
+						  :LOGBOOK:
+						  CLOCK: [2026-03-26 Thu 18:33:52]
+						  CLOCK: [2026-03-26 Thu 18:33:53]--[2026-03-27 Fri 11:05:06] =>  16:31:13
+						  :END:
+						-
 			- 17th, shared with Huy about my perspective on discipline
 			  collapsed:: true
 				- On the way to company, i reviewed my experience in the lense of “discipline”, then share with Huy about my take.
