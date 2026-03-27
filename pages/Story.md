@@ -1247,6 +1247,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  CLOCK: [2026-03-26 Thu 18:33:52]
 					  CLOCK: [2026-03-26 Thu 18:33:53]--[2026-03-27 Fri 11:05:06] =>  16:31:13
 					  :END:
+			- 17th, shared with Huy about my perspective on discipline
+			  collapsed:: true
+				- On the way to company, i reviewed my experience in the lense of “discipline”, then share with Huy about my take.
+				  collapsed:: true
+					-
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
