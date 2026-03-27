@@ -1248,7 +1248,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  CLOCK: [2026-03-26 Thu 18:33:53]--[2026-03-27 Fri 11:05:06] =>  16:31:13
 						  :END:
 						- What is `10.99.14.60`? 🤔 My IP = `10.11.11.53`, DNS = `10.11.90.21`, `10.11.90.22`
-					-
+						- `Clear host cache` has no effect;
 			- 17th, shared with Huy about my perspective on discipline
 			  collapsed:: true
 				- On the way to company, i reviewed my experience in the lense of “discipline”, then share with Huy about my take.
