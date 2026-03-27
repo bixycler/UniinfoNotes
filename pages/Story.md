@@ -1265,10 +1265,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  CLOCK: [2026-03-27 Fri 14:49:55]--[2026-03-27 Fri 15:32:49] =>  00:42:54
 						  :END:
 							- Disable `dnsmasq`.
-							- `nslookup` & `dig` show sinkhole IP regardless of IP setting in `hosts` file
+							- `nslookup` & `dig` show the sinkhole IP, regardless of DNS server or IP setting in `hosts` file
 							  ```
+							  Server:		1.1.1.1
+							  Server:		8.8.8.8
 							  Server:		10.11.90.21
-							  Address:	10.11.90.21#53
 							  
 							  Non-authoritative answer:
 							  Name:	git1.lan.skygate.co.jp
@@ -1285,7 +1286,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  CLOCK: [2026-03-27 Fri 15:32:54]--[2026-03-27 Fri 15:51:13] =>  00:18:19
 						  :END:
 							- Move upstream DNS (DHCP, VPN, OpenDNS) from `/etc/resolv.conf` to `dnsmasq`.
-							- `nslookup`, `dig` & `chrome://net-internals/#dns` show the public IP (from `dnsmasq`) first before the sinkhole IP (form FortiGate)
+							- `nslookup`, `dig` & `chrome://net-internals/#dns` show the correct public IP from `dnsmasq`
 							  ```
 							  Server:		127.0.0.1
 							  Address:	127.0.0.1#53
@@ -1293,8 +1294,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  Non-authoritative answer:
 							  Name:	git1.lan.skygate.co.jp
 							  Address: 3.113.176.117
-							  Name:	git1.lan.skygate.co.jp
-							  Address: 10.99.14.60
 							  ```
 			- 17th, shared with Huy about my perspective on discipline
 			  collapsed:: true

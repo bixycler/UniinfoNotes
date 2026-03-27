@@ -1476,7 +1476,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 							  ** server can't find mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com: REFUSED
 							  ```
 							- `dig` result is the same as [above](((67519abb-dba9-4637-9c1a-feebe4b76589))).
-							- ⇒ So, the problem is with DHCP: somehow it cannot resolve this `CNAME` record.
+							- ⇒ So, the problem is that this `CNAME` record is not resolved recursively.
 							  id:: 6772a6d3-db76-4984-bb94-67367a3f5e54
 						- finally, after [digging CNAME](((678de2b7-649c-4c49-9448-e22149a8e407))) of `git1` for IP resolution, `A` records appear in answer for `git1`, but still unstable!
 						  id:: 675686a5-3d59-402f-9640-12b991182e32
@@ -1586,9 +1586,9 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 									  
 									  
 									  ```
-						- ⇒ **Root cause**: IPs of CNAME are not updated automatically [by DHCP](((6772a6d3-db76-4984-bb94-67367a3f5e54))).
+						- ⇒ **Root cause**: IPs of CNAME are not resolved automatically [by `dnsmasq`](((6772a6d3-db76-4984-bb94-67367a3f5e54))).
 						  id:: 678de1bb-c536-4e3a-bbb7-aa453339dbe1
-							- ⇒We must manually request DHCP to update CNAME IPs by querying their IP: `[nslookup,dig,ping] $CNAME`
+							- ⇒We must manually request `dnsmasq` to update CNAME IPs by querying their IP: `[nslookup,dig,ping] $CNAME`
 							  id:: 678de2b7-649c-4c49-9448-e22149a8e407
 							  collapsed:: true
 								- E.g., after
@@ -1616,7 +1616,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 								  Name:	mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com
 								  Address: 54.168.37.56
 								  ```
-							- Because the the TTL (time to live) of these IPs is only 60 seconds (or less), we must run ![log-cname-ips.sh](../assets/Linux/DNS/CNAME-monitoring/log-cname-ips.sh) to keep CNAMEs resolved by `dig`ging them every minute.
+							- Because the the TTL (time to live) of these IPs is only 60 seconds (or less), we must run ![dig-cname-ips.sh](../assets/Linux/DNS/CNAME-monitoring/dig-cname-ips.sh) to keep CNAMEs resolved by `dig`ging them every minute.
 								- ```bash
 								  ⮕ dig +noall +answer +ttlid mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com.
 								  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. 60	IN A 35.74.111.202
