@@ -1298,11 +1298,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  Name:	git1.lan.skygate.co.jp
 							  Address: 3.113.176.117
 							  ```
-						- DOING Check **recursive resolvers** like Unbound to replace `dsnmasq`
+						- DOING Check the Unbound **recursive resolver** to replace `dsnmasq`
 						  :LOGBOOK:
 						  CLOCK: [2026-03-27 Fri 18:30:07]
 						  CLOCK: [2026-03-27 Fri 18:30:09]
 						  :END:
+							- Unbound works like a charm! 😊
 			- 17th, shared with Huy about my perspective on discipline
 			  collapsed:: true
 				- On the way to company, i reviewed my experience in the lense of “discipline”, then share with Huy about my take.
