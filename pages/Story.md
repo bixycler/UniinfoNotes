@@ -1296,11 +1296,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  Name:	git1.lan.skygate.co.jp
 							  Address: 10.99.14.60
 							  ```
-						- DOING Restore setting CNAME in `dnsmasq` instead of [running `dig-cname-ips.sh`](((684f951e-5f86-4b1c-9b08-e550ad283d4a))).
+						- DOING Restore CNAME setting in `dnsmasq` instead of running `dig-cname-ips.sh`.
 						  :LOGBOOK:
 						  CLOCK: [2026-03-27 Fri 16:01:49]
 						  CLOCK: [2026-03-27 Fri 16:02:06]
 						  :END:
+							- ((69c64902-60ec-48bf-822f-bd0431e2b2a2))
 			- 17th, shared with Huy about my perspective on discipline
 			  collapsed:: true
 				- On the way to company, i reviewed my experience in the lense of “discipline”, then share with Huy about my take.
