@@ -1298,7 +1298,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  Name:	git1.lan.skygate.co.jp
 							  Address: 3.113.176.117
 							  ```
-						- DOING Check the Unbound **recursive resolver** to replace `dsnmasq`
+						- ((69c6838d-0ec3-4027-a62a-8f10b913d87c))
 						  :LOGBOOK:
 						  CLOCK: [2026-03-27 Fri 18:30:07]
 						  CLOCK: [2026-03-27 Fri 18:30:09]
