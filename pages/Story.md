@@ -1253,7 +1253,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- What is `10.99.14.60`? 🤔 My IP = `10.11.11.53`, DNS = `10.11.90.21`, `10.11.90.22`
 							- Looks like it's from the FortiGate firewall of the company! 🤔
 						- `Clear host cache` and `Flush socket pools` have no effect! 😕
-						- DOING Trying Chrome flag `--disable-async-dns`, `--dns-client=0`
+						- TODO Trying Chrome flag `--disable-async-dns`, `--dns-client=0`
 						  :LOGBOOK:
 						  CLOCK: [2026-03-27 Fri 13:52:40]
 						  CLOCK: [2026-03-27 Fri 13:52:42]
@@ -1278,6 +1278,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  PING git1.lan.skygate.co.jp (3.113.176.117) 56(84) bytes of data.
 							  64 bytes from git1.lan.skygate.co.jp (3.113.176.117): icmp_seq=1 ttl=244 time=100 ms
 							  ```
+						- Fix `/etc/resolv.conf` to avoid DNS race condition between `dnsmasq` and DHCP DNS
+							- Move upstream DNS (DHCP, VPN, OpenDNS) to `dnsmasq`
 			- 17th, shared with Huy about my perspective on discipline
 			  collapsed:: true
 				- On the way to company, i reviewed my experience in the lense of “discipline”, then share with Huy about my take.
