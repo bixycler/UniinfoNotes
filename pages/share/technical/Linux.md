@@ -1407,7 +1407,16 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				  :END:
 					- `dsnmasq` just forwards the queried domain to upstream DNS servers, or returns the CNAME record of the domain without recursively resolving that CNAME.
 					- `unbound` recursively resolves the CNAME chain locally, and optionally forward to upstream DNS if needed.
-					-
+					- So, just define CNAME records in`local-data` in `server` block (with `redirect` in `local-zone`), and a `forward-zone` block for upstreams like OpenDNS, DHCP, VPN.
+						- ```yaml
+						  local-zone: "git1.lan.skygate.co.jp." redirect
+						  local-data: "git1.lan.skygate.co.jp. CNAME mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com."
+						  ```
+					- Static IP settings (`hosts` files) are configured with `A` records in `local-data`.
+						- Each set of IP is stored in a config file, then included to
+						- ```yaml
+						  local-data: "milkode.dena-travel.internal. A 54.95.233.65"
+						  ```
 				- Or we must run a background script, like ![dig-cname-ips.sh](../assets/Linux/DNS/CNAME-monitoring/dig-cname-ips.sh), to detect IP change of `CNAME` then update `hosts` file accordingly.
 				  id:: 684f951e-5f86-4b1c-9b08-e550ad283d4a
 					- The digging itself is enough to make `dnsmasq` return IPs (A records) for the aliases, like `git1`.
