@@ -1242,6 +1242,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  CLOCK: [2026-03-26 Thu 17:45:35]--[2026-03-26 Thu 18:24:20] =>  00:38:45
 						  :END:
 					- DOING `chrome://net-internals/#dns` shows an **internal IP** `10.99.14.60` for `git1`, while the correct one is a public IP, e.g. `3.113.176.117`.
+					  collapsed:: true
 					  :LOGBOOK:
 					  CLOCK: [2026-03-27 Fri 14:07:15]
 					  :END:
@@ -1261,6 +1262,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  :END:
 							- No need for these flags, because the root cause is resolved: ((69c63e2c-4fc2-4b48-80a1-fa4b11c117c9))
 						- DONE Debugging system (DHCP) DNS shows that the whole system is poisoned by this sinkhole IP `10.99.14.60`
+						  collapsed:: true
 						  :LOGBOOK:
 						  CLOCK: [2026-03-27 Fri 14:49:55]--[2026-03-27 Fri 15:32:49] =>  00:42:54
 						  :END:
@@ -1280,8 +1282,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  PING git1.lan.skygate.co.jp (3.113.176.117) 56(84) bytes of data.
 							  64 bytes from git1.lan.skygate.co.jp (3.113.176.117): icmp_seq=1 ttl=244 time=100 ms
 							  ```
-						- DONE Fix `/etc/resolv.conf` to avoid DNS race condition between `dnsmasq` and DHCP DNS
+						- DONE ⇒Solution: Fix `/etc/resolv.conf` to avoid DNS **race condition** between `dnsmasq` and upstream DNS
 						  id:: 69c63e2c-4fc2-4b48-80a1-fa4b11c117c9
+						  collapsed:: true
 						  :LOGBOOK:
 						  CLOCK: [2026-03-27 Fri 15:32:54]--[2026-03-27 Fri 15:51:13] =>  00:18:19
 						  :END:
@@ -1295,6 +1298,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  Name:	git1.lan.skygate.co.jp
 							  Address: 3.113.176.117
 							  ```
+						- DOING Check **recursive resolvers** like Unbound to replace `dsnmasq`
+						  :LOGBOOK:
+						  CLOCK: [2026-03-27 Fri 18:30:07]
+						  CLOCK: [2026-03-27 Fri 18:30:09]
+						  :END:
 			- 17th, shared with Huy about my perspective on discipline
 			  collapsed:: true
 				- On the way to company, i reviewed my experience in the lense of “discipline”, then share with Huy about my take.
