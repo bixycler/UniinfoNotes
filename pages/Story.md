@@ -1242,11 +1242,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  CLOCK: [2026-03-26 Thu 17:45:35]--[2026-03-26 Thu 18:24:20] =>  00:38:45
 						  :END:
 					- DONE `chrome://net-internals/#dns` shows an **internal IP** resolved by Chrome, e.g. `10.99.14.60`, while the correct one is a public IP, e.g. `3.113.176.117`.
-						- DOING Tried disabled Passbolt extension in Chrome.
-						  :LOGBOOK:
-						  CLOCK: [2026-03-26 Thu 18:33:52]
-						  CLOCK: [2026-03-26 Thu 18:33:53]
-						  :END:
+					- DONE ⇒ Disabling Passbolt extension in Chrome does resolve the problem.
+					  :LOGBOOK:
+					  CLOCK: [2026-03-26 Thu 18:33:52]
+					  CLOCK: [2026-03-26 Thu 18:33:53]--[2026-03-27 Fri 11:05:06] =>  16:31:13
+					  :END:
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
