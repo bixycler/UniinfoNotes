@@ -1259,9 +1259,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  CLOCK: [2026-03-27 Fri 13:52:42]
 						  CLOCK: [2026-03-27 Fri 13:52:44]
 						  :END:
-						- DOING Debugging system (DHCP) DNS shows that the whole system is poisoned by this sinkhole IP `10.99.14.60`
+						- DONE Debugging system (DHCP) DNS shows that the whole system is poisoned by this sinkhole IP `10.99.14.60`
 						  :LOGBOOK:
-						  CLOCK: [2026-03-27 Fri 14:49:55]
+						  CLOCK: [2026-03-27 Fri 14:49:55]--[2026-03-27 Fri 15:32:49] =>  00:42:54
 						  :END:
 							- Disable `dnsmasq`.
 							- `nslookup` & `dig` show sinkhole IP regardless of IP setting in `hosts` file
@@ -1278,8 +1278,22 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  PING git1.lan.skygate.co.jp (3.113.176.117) 56(84) bytes of data.
 							  64 bytes from git1.lan.skygate.co.jp (3.113.176.117): icmp_seq=1 ttl=244 time=100 ms
 							  ```
-						- Fix `/etc/resolv.conf` to avoid DNS race condition between `dnsmasq` and DHCP DNS
-							- Move upstream DNS (DHCP, VPN, OpenDNS) to `dnsmasq`
+						- DOING Fix `/etc/resolv.conf` to avoid DNS race condition between `dnsmasq` and DHCP DNS
+						  :LOGBOOK:
+						  CLOCK: [2026-03-27 Fri 15:32:54]
+						  :END:
+							- Move upstream DNS (DHCP, VPN, OpenDNS) from `/etc/resolv.conf` to `dnsmasq`.
+							- `nslookup`, `dig` & `chrome://net-internals/#dns` show the public IP (from `dnsmasq`) first before the sinkhole IP (form FortiGate)
+							  ```
+							  Server:		127.0.0.1
+							  Address:	127.0.0.1#53
+							  
+							  Non-authoritative answer:
+							  Name:	git1.lan.skygate.co.jp
+							  Address: 3.113.176.117
+							  Name:	git1.lan.skygate.co.jp
+							  Address: 10.99.14.60
+							  ```
 			- 17th, shared with Huy about my perspective on discipline
 			  collapsed:: true
 				- On the way to company, i reviewed my experience in the lense of “discipline”, then share with Huy about my take.
