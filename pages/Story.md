@@ -1259,10 +1259,25 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  CLOCK: [2026-03-27 Fri 13:52:42]
 						  CLOCK: [2026-03-27 Fri 13:52:44]
 						  :END:
-						- DOING Debugging DHCP DNS (disabling `hosts`) shows that the whole system is poisoned by this sinkhole IP `10.99.14.60`
+						- DOING Debugging system (DHCP) DNS shows that the whole system is poisoned by this sinkhole IP `10.99.14.60`
 						  :LOGBOOK:
 						  CLOCK: [2026-03-27 Fri 14:49:55]
 						  :END:
+							- Disable `dnsmasq`.
+							- `nslookup git1.lan.skygate.co.jp` regardless of IP setting in `hosts` file
+							  ```
+							  Server:		10.11.90.21
+							  Address:	10.11.90.21#53
+							  
+							  Non-authoritative answer:
+							  Name:	git1.lan.skygate.co.jp
+							  Address: 10.99.14.60
+							  ```
+							- IP setting in `hosts` file is effective with `ping`, `curl` and Chrome
+							  ```
+							  PING git1.lan.skygate.co.jp (3.113.176.117) 56(84) bytes of data.
+							  64 bytes from git1.lan.skygate.co.jp (3.113.176.117): icmp_seq=1 ttl=244 time=100 ms
+							  ```
 			- 17th, shared with Huy about my perspective on discipline
 			  collapsed:: true
 				- On the way to company, i reviewed my experience in the lense of “discipline”, then share with Huy about my take.
