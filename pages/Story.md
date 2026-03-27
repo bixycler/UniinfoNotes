@@ -1259,7 +1259,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  CLOCK: [2026-03-27 Fri 13:52:42]
 						  CLOCK: [2026-03-27 Fri 13:52:44]
 						  :END:
-						- TODO Debug DHCP DNS (disabling `hosts`) when the internal IP appear again...
+						- DOING Debugging DHCP DNS (disabling `hosts`) shows that the whole system is poisoned by this sinkhole IP `10.99.14.60`
+						  :LOGBOOK:
+						  CLOCK: [2026-03-27 Fri 14:49:55]
+						  :END:
 			- 17th, shared with Huy about my perspective on discipline
 			  collapsed:: true
 				- On the way to company, i reviewed my experience in the lense of “discipline”, then share with Huy about my take.
