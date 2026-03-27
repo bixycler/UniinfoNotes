@@ -1253,12 +1253,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- What is `10.99.14.60`? 🤔 My IP = `10.11.11.53`, DNS = `10.11.90.21`, `10.11.90.22`
 							- Looks like it's from the FortiGate firewall of the company! 🤔
 						- `Clear host cache` and `Flush socket pools` have no effect! 😕
-						- TODO Trying Chrome flag `--disable-async-dns`, `--dns-client=0`
+						- CANCELLED Trying Chrome flags `--disable-async-dns`, `--dns-client=0`
 						  :LOGBOOK:
 						  CLOCK: [2026-03-27 Fri 13:52:40]
 						  CLOCK: [2026-03-27 Fri 13:52:42]
 						  CLOCK: [2026-03-27 Fri 13:52:44]
 						  :END:
+							- No need for these flags, because the root cause is resolved: ((69c63e2c-4fc2-4b48-80a1-fa4b11c117c9))
 						- DONE Debugging system (DHCP) DNS shows that the whole system is poisoned by this sinkhole IP `10.99.14.60`
 						  :LOGBOOK:
 						  CLOCK: [2026-03-27 Fri 14:49:55]--[2026-03-27 Fri 15:32:49] =>  00:42:54
@@ -1278,9 +1279,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  PING git1.lan.skygate.co.jp (3.113.176.117) 56(84) bytes of data.
 							  64 bytes from git1.lan.skygate.co.jp (3.113.176.117): icmp_seq=1 ttl=244 time=100 ms
 							  ```
-						- DOING Fix `/etc/resolv.conf` to avoid DNS race condition between `dnsmasq` and DHCP DNS
+						- DONE Fix `/etc/resolv.conf` to avoid DNS race condition between `dnsmasq` and DHCP DNS
+						  id:: 69c63e2c-4fc2-4b48-80a1-fa4b11c117c9
 						  :LOGBOOK:
-						  CLOCK: [2026-03-27 Fri 15:32:54]
+						  CLOCK: [2026-03-27 Fri 15:32:54]--[2026-03-27 Fri 15:51:13] =>  00:18:19
 						  :END:
 							- Move upstream DNS (DHCP, VPN, OpenDNS) from `/etc/resolv.conf` to `dnsmasq`.
 							- `nslookup`, `dig` & `chrome://net-internals/#dns` show the public IP (from `dnsmasq`) first before the sinkhole IP (form FortiGate)
