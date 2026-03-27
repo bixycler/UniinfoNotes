@@ -1241,7 +1241,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  :LOGBOOK:
 						  CLOCK: [2026-03-26 Thu 17:45:35]--[2026-03-26 Thu 18:24:20] =>  00:38:45
 						  :END:
-					- DONE `chrome://net-internals/#dns` shows an **internal IP** resolved by Chrome, e.g. `10.99.14.60`, while the correct one is a public IP, e.g. `3.113.176.117`.
+					- DOING `chrome://net-internals/#dns` shows an **internal IP** `10.99.14.60` for `git1`, while the correct one is a public IP, e.g. `3.113.176.117`.
+					  :LOGBOOK:
+					  CLOCK: [2026-03-27 Fri 14:07:15]
+					  :END:
 						- Disabling Passbolt extension in Chrome did resolve the problem once... but then it got back to `10.99.14.60` again!?
 						  :LOGBOOK:
 						  CLOCK: [2026-03-26 Thu 18:33:52]
