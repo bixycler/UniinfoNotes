@@ -1392,10 +1392,16 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 		  CLOCK: [2024-12-05 Thu 13:05:25]--[2024-12-09 Mon 13:12:24] =>  96:06:59
 		  :END:
 			- Ref: [serverfault.com](https://serverfault.com/a/947713)
+			- `unbound.conf`
+			  id:: 69c68961-321a-44dd-8f6e-eb66aca67e59
+			  ```yaml
+			  local-zone: "git1.lan.skygate.co.jp." redirect
+			  local-data: "git1.lan.skygate.co.jp. CNAME mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com."
+			  ```
 			- `dnsmasq.conf`
 			  ```sh
-			  # Provide an alias for a "local" DNS name. Note that this _only_ works
-			  # for targets which are names from DHCP or /etc/hosts. 
+			  # Provide an alias for a "local" DNS name. 
+			  # Note that this _only_ works for targets which are **already resolved** (by DHCP or /etc/hosts). 
 			  cname=git1.lan.skygate.co.jp,mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com
 			  ```
 			- ((675686a5-3d59-402f-9640-12b991182e32))
@@ -1408,15 +1414,14 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					- `dsnmasq` just forwards the queried domain to upstream DNS servers, or returns the CNAME record of the domain without recursively resolving that CNAME.
 					- `unbound` recursively resolves the CNAME chain locally, and optionally forward to upstream DNS if needed.
 					- So, just define CNAME records in`local-data` in `server` block (with `redirect` in `local-zone`), and a `forward-zone` block for upstreams like OpenDNS, DHCP, VPN.
-						- ```yaml
-						  local-zone: "git1.lan.skygate.co.jp." redirect
-						  local-data: "git1.lan.skygate.co.jp. CNAME mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com."
-						  ```
+					  {{embed ((69c68961-321a-44dd-8f6e-eb66aca67e59))}}
 					- Static IP settings (`hosts` files) are configured with `A` records in `local-data`.
-						- Each set of IP is stored in a config file, then included to
+					  id:: 69c68607-1979-43b2-9419-baff258f62bd
 						- ```yaml
 						  local-data: "milkode.dena-travel.internal. A 54.95.233.65"
 						  ```
+						- Each set of IP is stored in a config file, then included to `/etc/unbound/unbound.conf`.
+						- Switch active config with symlink, then `unbound-control reload` to update the config.
 				- Or we must run a background script, like ![dig-cname-ips.sh](../assets/Linux/DNS/CNAME-monitoring/dig-cname-ips.sh), to detect IP change of `CNAME` then update `hosts` file accordingly.
 				  id:: 684f951e-5f86-4b1c-9b08-e550ad283d4a
 					- The digging itself is enough to make `dnsmasq` return IPs (A records) for the aliases, like `git1`.
