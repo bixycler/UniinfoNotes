@@ -1400,8 +1400,6 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			  ```
 			- ((675686a5-3d59-402f-9640-12b991182e32))
 				- Static IP cannot be set (in `hosts` file), due to the [IP update of `CNAME` in work time](((675653ab-ea7c-4d8b-8ef6-a378591b6443))).
-				- We should set `min-cache-ttl=5` and `no-negcache` to deal with the short TTL of these CNAMEs.
-				  id:: 69c64902-60ec-48bf-822f-bd0431e2b2a2
 				- Or we must run a background script, like ![dig-cname-ips.sh](../assets/Linux/DNS/CNAME-monitoring/dig-cname-ips.sh), to detect IP change of `CNAME` then update `hosts` file accordingly.
 				  id:: 684f951e-5f86-4b1c-9b08-e550ad283d4a
 					- The digging itself is enough to make `dnsmasq` return IPs (A records) for the aliases, like `git1`.
