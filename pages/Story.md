@@ -1335,11 +1335,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Nhờ tấm gương cháu Na, tui thấy rõ hơn tại sao hồi nhỏ tui cứ có cảm giác "người lớn chỉ giỏi nói dối!" Đó là sự **bất nhất** giữa lời nói, hành động, và thái độ, giữa trước và sau, giữa trong và ngoài.
 						- Nên cái "nói dối" mà tui cảm nhận đó sâu hơn nhiều cái "nói dối" thông thường, vì nó xuất phát từ sự vô minh, không thấy biết rõ ràng mà cho rằng mình hiểu biết. Còn cái "nói dối" mà biết là mình đang nói dối (là cái người ta thường nghĩ về "nói dối") thì dễ quá rồi.
 						- Cái lie này hầu hết người đời đều mắc phải không nhiều thì ít, mà càng máy móc lại càng lie! Vì khi tuân theo một lời răn, một quy tắc mà không hiểu, không thấu cảm được ý nghĩa của lời răn đó, lý do của quy tắc đó, thì chắc chắn sẽ gây mâu thuẫn. Như ngay 1 chữ "thương" thôi mà miệng nói "thương" trong khi thái độ là ghét bỏ, hành động là ruồng rẫy, v.v. Đó là chưa nói tới những ẩn ý mà mình vô tình không nhận ra (trong vô thức) là lợi dụng, là bắt làm nô lệ, v.v. đều trên danh nghĩa "tình thương". Hay như Phật nói "tin ta mà không hiểu ta là phỉ báng ta", vì một người tin một cách mù quáng, thiếu trí tuệ thì trước sau gì cũng làm những điều trái ngược với ý gốc của Phật mà cho rằng "tui đang làm theo lời Phật".
-			- 28-29th, weekends, we went to Phú Túc, Đồng Nai to visit ...; Returning home, Google fed me the article about
-				- Final Lenten meditation: A free life is loving unconditionally
-					- Perfect joy, then, is not the “absence of wounds,” but “freedom from being defined by them. It is a freedom that does not erase pain, but prevents it from having the final word.”
-					- ... ﻿and death changes its face, becoming the final and definitive opportunity for conversion. It is the moment when we let go of everything we are still holding on to and give ourselves—without reserve—to the just and merciful gaze of the Father.
-					- Offering a cheap Christianity, easier but less demanding, means depriving men and women of what they truly need: a journey that can lead our steps into eternal life.
+			- 28-29th, weekends, we went to Phú Túc, Đồng Nai to visit the family of uncle 3; Returning home, Google fed me the article about
+				- [Final Lenten meditation: A free life is loving unconditionally](https://www.vaticannews.va/en/vatican-city/news/2026-03/final-lenten-meditation-a-free-life-loving-unconditionally.html)
+					- > Perfect joy, then, is not the “absence of wounds,” but “freedom from being defined by them. It is a freedom that does not erase pain, but prevents it from having the final word.”
+					- > ... ﻿and death changes its face, becoming the final and definitive opportunity for conversion. It is the moment when we let go of everything we are still holding on to and give ourselves—without reserve—to the just and merciful gaze of the Father.
+					- > Offering a cheap Christianity, easier but less demanding, means depriving men and women of what they truly need: a journey that can lead our steps into eternal life.
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
