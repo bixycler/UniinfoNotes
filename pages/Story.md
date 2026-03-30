@@ -1310,7 +1310,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Just copy the common hosts file (`others.hosts`) to `/etc/hosts` directly.
 								- No need to migrate other hosts files, because the Airtrip Intl. Pre system has been upgraded to use dedicated domain for each Preproduction env. instead of switching host IPs.
 			- 27th, shared with Huy about my perspective on discipline; continue to solve the [weird resolution of GitLab host to `10.99.14.60`](((69c51a3e-3061-4e90-8d73-58f0d3d7ea7c))) and lead to the final solution of [using `unbound`](((69c63e2c-4fc2-4b48-80a1-fa4b11c117c9))).
-			  collapsed:: true
 				- On the way to company, i reviewed my experience in the lense of “discipline”, then share with Huy about my take.
 				  collapsed:: true
 					- Tuy ko có từ "kỷ luật" trong đầu, nhưng giờ thử quán lại cái form-content của tui qua lăng kính đó với nghĩa mở rộng thì tui thấy thêm vài cái như sau.
@@ -1335,8 +1334,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Nhờ tấm gương cháu Na, tui thấy rõ hơn tại sao hồi nhỏ tui cứ có cảm giác "người lớn chỉ giỏi nói dối!" Đó là sự **bất nhất** giữa lời nói, hành động, và thái độ, giữa trước và sau, giữa trong và ngoài.
 						- Nên cái "nói dối" mà tui cảm nhận đó sâu hơn nhiều cái "nói dối" thông thường, vì nó xuất phát từ sự vô minh, không thấy biết rõ ràng mà cho rằng mình hiểu biết. Còn cái "nói dối" mà biết là mình đang nói dối (là cái người ta thường nghĩ về "nói dối") thì dễ quá rồi.
 						- Cái lie này hầu hết người đời đều mắc phải không nhiều thì ít, mà càng máy móc lại càng lie! Vì khi tuân theo một lời răn, một quy tắc mà không hiểu, không thấu cảm được ý nghĩa của lời răn đó, lý do của quy tắc đó, thì chắc chắn sẽ gây mâu thuẫn. Như ngay 1 chữ "thương" thôi mà miệng nói "thương" trong khi thái độ là ghét bỏ, hành động là ruồng rẫy, v.v. Đó là chưa nói tới những ẩn ý mà mình vô tình không nhận ra (trong vô thức) là lợi dụng, là bắt làm nô lệ, v.v. đều trên danh nghĩa "tình thương". Hay như Phật nói "tin ta mà không hiểu ta là phỉ báng ta", vì một người tin một cách mù quáng, thiếu trí tuệ thì trước sau gì cũng làm những điều trái ngược với ý gốc của Phật mà cho rằng "tui đang làm theo lời Phật".
-			- 28-29th, weekends, we went to Phú Túc, Đồng Nai to visit the family of Uncle 3 and shared about the surrendering to God; Returning home, Google fed me an article about that very theme of selflessness through a meditation of Fr. Roberto Pasolini about
+			- 28-29th, weekends, we went to Phú Túc, Đồng Nai to visit the family of Uncle 3 and shared about the surrendering to God; Returning home, Google fed me an article about that very theme of selflessness through a meditation of Fr. Roberto Pasolini about Saint Francis of Assisi.
 				- [Final Lenten meditation: A free life is loving unconditionally](https://www.vaticannews.va/en/vatican-city/news/2026-03/final-lenten-meditation-a-free-life-loving-unconditionally.html)
+				  collapsed:: true
 					- > Perfect joy, then, is not the “absence of wounds,” but “freedom from being defined by them. It is a freedom that does not erase pain, but prevents it from having the final word.”
 					- > ... ﻿and death changes its face, becoming the final and definitive opportunity for conversion. It is the moment when we let go of everything we are still holding on to and give ourselves—without reserve—to the just and merciful gaze of the Father.
 					- > Offering a cheap Christianity, easier but less demanding, means depriving men and women of what they truly need: a journey that can lead our steps into eternal life.
