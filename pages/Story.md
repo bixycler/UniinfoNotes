@@ -1304,7 +1304,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  CLOCK: [2026-03-27 Fri 18:30:09]
 						  :END:
 							- Unbound works like a charm with CNAME! 😊 No more digging!
-							- TODO Migrate hosts files to [Unbound configs](((69c68607-1979-43b2-9419-baff258f62bd)))
+							- CANCELLED Migrate hosts files to [Unbound configs](((69c68607-1979-43b2-9419-baff258f62bd)))
+							- Just copy the common hosts file (`others.hosts`) to `/etc/hosts` directly.
+								- No need to migrate other hosts files, because the Airtrip Intl. Pre system has been upgraded to use dedicated domain for each Preproduction env. instead of switching host IPs.
 			- 17th, shared with Huy about my perspective on discipline
 			  collapsed:: true
 				- On the way to company, i reviewed my experience in the lense of “discipline”, then share with Huy about my take.
