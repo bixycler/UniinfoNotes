@@ -1241,10 +1241,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  :LOGBOOK:
 						  CLOCK: [2026-03-26 Thu 17:45:35]--[2026-03-26 Thu 18:24:20] =>  00:38:45
 						  :END:
-					- DOING `chrome://net-internals/#dns` shows an **internal IP** `10.99.14.60` for `git1`, while the correct one is a public IP, e.g. `3.113.176.117`.
+					- DONE `chrome://net-internals/#dns` shows an **internal IP** `10.99.14.60` for `git1`, while the correct one is a public IP, e.g. `3.113.176.117`.
+					  id:: 69c51a3e-3061-4e90-8d73-58f0d3d7ea7c
 					  collapsed:: true
 					  :LOGBOOK:
-					  CLOCK: [2026-03-27 Fri 14:07:15]
+					  CLOCK: [2026-03-27 Fri 14:07:15]--[2026-03-30 Mon 13:57:12] =>  71:49:57
 					  :END:
 						- Disabling Passbolt extension in Chrome did resolve the problem once... but then it got back to `10.99.14.60` again!?
 						  :LOGBOOK:
@@ -1252,7 +1253,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  CLOCK: [2026-03-26 Thu 18:33:53]--[2026-03-27 Fri 11:05:06] =>  16:31:13
 						  :END:
 						- What is `10.99.14.60`? 🤔 My IP = `10.11.11.53`, DNS = `10.11.90.21`, `10.11.90.22`
-							- Looks like it's from the FortiGate firewall of the company! 🤔
+							- CANCELLED Looks like it's from the FortiGate firewall of the company! 🤔
+							- Somehow this internal IP has be cached by all public DNS, from OpenDNS to DHCP DNS of the company. 😮
 						- `Clear host cache` and `Flush socket pools` have no effect! 😕
 						- CANCELLED Trying Chrome flags `--disable-async-dns`, `--dns-client=0`
 						  :LOGBOOK:
@@ -1307,7 +1309,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- CANCELLED Migrate hosts files to [Unbound configs](((69c68607-1979-43b2-9419-baff258f62bd)))
 							- Just copy the common hosts file (`others.hosts`) to `/etc/hosts` directly.
 								- No need to migrate other hosts files, because the Airtrip Intl. Pre system has been upgraded to use dedicated domain for each Preproduction env. instead of switching host IPs.
-			- 27th, shared with Huy about my perspective on discipline
+			- 27th, shared with Huy about my perspective on discipline; continue to solve the [weird resolution of GitLab host to `10.99.14.60`](((69c51a3e-3061-4e90-8d73-58f0d3d7ea7c))) and lead to the final solution of [using `unbound`](((69c63e2c-4fc2-4b48-80a1-fa4b11c117c9))).
 			  collapsed:: true
 				- On the way to company, i reviewed my experience in the lense of “discipline”, then share with Huy about my take.
 				  collapsed:: true
@@ -1333,6 +1335,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Nhờ tấm gương cháu Na, tui thấy rõ hơn tại sao hồi nhỏ tui cứ có cảm giác "người lớn chỉ giỏi nói dối!" Đó là sự **bất nhất** giữa lời nói, hành động, và thái độ, giữa trước và sau, giữa trong và ngoài.
 						- Nên cái "nói dối" mà tui cảm nhận đó sâu hơn nhiều cái "nói dối" thông thường, vì nó xuất phát từ sự vô minh, không thấy biết rõ ràng mà cho rằng mình hiểu biết. Còn cái "nói dối" mà biết là mình đang nói dối (là cái người ta thường nghĩ về "nói dối") thì dễ quá rồi.
 						- Cái lie này hầu hết người đời đều mắc phải không nhiều thì ít, mà càng máy móc lại càng lie! Vì khi tuân theo một lời răn, một quy tắc mà không hiểu, không thấu cảm được ý nghĩa của lời răn đó, lý do của quy tắc đó, thì chắc chắn sẽ gây mâu thuẫn. Như ngay 1 chữ "thương" thôi mà miệng nói "thương" trong khi thái độ là ghét bỏ, hành động là ruồng rẫy, v.v. Đó là chưa nói tới những ẩn ý mà mình vô tình không nhận ra (trong vô thức) là lợi dụng, là bắt làm nô lệ, v.v. đều trên danh nghĩa "tình thương". Hay như Phật nói "tin ta mà không hiểu ta là phỉ báng ta", vì một người tin một cách mù quáng, thiếu trí tuệ thì trước sau gì cũng làm những điều trái ngược với ý gốc của Phật mà cho rằng "tui đang làm theo lời Phật".
+			- 28-29th, weekends, we went to Phú Túc, Đồng Nai to visit ...; Returning home, Google fed me the article about
+				- Final Lenten meditation: A free life is loving unconditionally
+					- Perfect joy, then, is not the “absence of wounds,” but “freedom from being defined by them. It is a freedom that does not erase pain, but prevents it from having the final word.”
+					- ... ﻿and death changes its face, becoming the final and definitive opportunity for conversion. It is the moment when we let go of everything we are still holding on to and give ourselves—without reserve—to the just and merciful gaze of the Father.
+					- Offering a cheap Christianity, easier but less demanding, means depriving men and women of what they truly need: a journey that can lead our steps into eternal life.
 			- ...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
