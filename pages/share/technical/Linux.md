@@ -1406,10 +1406,10 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			  ```
 			- ((675686a5-3d59-402f-9640-12b991182e32))
 				- Static IP cannot be set (in `hosts` file), due to the [IP update of `CNAME` in work time](((675653ab-ea7c-4d8b-8ef6-a378591b6443))).
-				- DOING So, let's use the `unbound` **recursive resolver** to replace `dsnmasq`!
+				- DONE So, let's use the `unbound` **recursive resolver** to replace `dsnmasq`!
 				  id:: 69c6838d-0ec3-4027-a62a-8f10b913d87c
 				  :LOGBOOK:
-				  CLOCK: [2026-03-27 Fri 20:18:48]
+				  CLOCK: [2026-03-27 Fri 20:18:48]--[2026-03-30 Mon 13:52:18] =>  65:33:30
 				  :END:
 					- `dsnmasq` just forwards the queried domain to upstream DNS servers, or returns the CNAME record of the domain without recursively resolving that CNAME.
 					- `unbound` recursively resolves the CNAME chain locally, and optionally forward to upstream DNS if needed.
