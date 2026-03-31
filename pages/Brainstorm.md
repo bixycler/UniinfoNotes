@@ -57,6 +57,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- **Skill** (The Branches): The technical ability to navigate the interrogative interface.
 					- **Knowledge** (The Leaves): The information payload collected through the protocol.
 					- Illustration
+					  collapsed:: true
 						- ![ASK-tree.png](../assets/Will/story/2026-03/ASK-tree.png){:width 300}
 				- Intelligence is the **attitude of asking** rather than the accumulation of knowledge.
 					- It requires the removal of the ego (no-self) to see reality as-is without the distortion of “already knowing”.
