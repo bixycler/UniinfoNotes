@@ -2197,7 +2197,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 				- Structure: ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) > ((68df36a4-6a3e-4fc9-b44a-c8e92f62aee1)) > ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) ⟨ ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) > ((66c8772a-9b29-45b0-b169-2fa847333e02)) < ((66727858-979d-4d95-8a90-7a749218cfba)) ⟩ < ((6847e436-9a84-42c5-a853-75f6d626ed63)) < ((667bd93a-cce4-4dbf-9831-725e4dffe463))
 				- Diagram
 				  id:: 68514e8a-899e-4ae3-9164-44058cf139fa
-					- ![CauseEffectCone](https://docs.google.com/drawings/d/e/2PACX-1vT-mk-5M1GkDtoHwER_IkMQAhi6M5N1zzScgIEaQ3BSdEPZdsSgYoSP3URUt0Q0KD0wy--7cDCzXWU8/pub?w=300)
+					- ![CauseEffectCone](https://docs.google.com/drawings/d/e/2PACX-1vT-mk-5M1GkDtoHwER_IkMQAhi6M5N1zzScgIEaQ3BSdEPZdsSgYoSP3URUt0Q0KD0wy--7cDCzXWU8/pub?w=300){:height 459, :width 300}
 			- perception–action double cone
 			  id:: 685156b0-2f3b-4aa9-8b87-636d38a02cd2
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) is the part of the ((6851578b-9b1f-4367-878f-79b0b0b9be51)) limited within the ((66c810a0-9861-4787-bdcf-1378219332be)) of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)), i.e. perception cone > obop < action cone. As both nappes intend infinitely into the internal world of the subject, the double cone has a complex structure: the double cone folds back on itself to be a single cone and is modularized into layers of ((68df2d82-e1d5-49c4-ac40-d45cf26f840c))s.
