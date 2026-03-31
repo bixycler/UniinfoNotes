@@ -1412,7 +1412,6 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					  [tree](https://en.wikipedia.org/wiki/Tree) = shoot system + root system = "leaf tree" + "root tree" = ((667bd931-8759-4008-8a9a-33e78a5cbdf3)) + ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) = double cone = ((66725144-6bc9-4c9f-ba48-2cef02651e52))
 						- base node
 						  id:: 667bd594-66b8-4c0e-89a0-8088cbe2e1f6
-						  collapsed:: true
 							- base node = ((66751b3b-5fd0-4efd-a43c-db2c4930ae4f)) of the whole tree
 							- root node
 							  collapsed:: true
