@@ -53,10 +53,12 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- Phrases like **“a big ask”** reveal the hidden weight of the “đòi” (the burden) trapped inside the “hỏi” (the simple question).
 			- The [ASK Competency Tree](https://creatzynotes.blogspot.com/2022/03/thai-o-hoi-ask-tri-tue.html)
 				- The act of asking is supported by a three-layer psychological substrate:
-					- **Attitude** (The Root): The core state of openness ([non-knowing](https://en.wikipedia.org/wiki/I_know_that_I_know_nothing)) that allows for true intelligence.
+					- **Attitude** (The Base): The core state of openness ([non-knowing](https://en.wikipedia.org/wiki/I_know_that_I_know_nothing)) that allows for true intelligence.
 					- **Skill** (The Branches): The technical ability to navigate the interrogative interface.
 					- **Knowledge** (The Leaves): The information payload collected through the protocol.
-				- Intelligence is the **Attitude of Asking** rather than the accumulation of knowledge.
+					- Illustration
+						- ![ASK-tree.png](../assets/Will/story/2026-03/ASK-tree.png){:width 300}
+				- Intelligence is the **attitude of asking** rather than the accumulation of knowledge.
 					- It requires the removal of the ego (no-self) to see reality as-is without the distortion of “already knowing”.
 					- [Rhetorical questions](https://en.wikipedia.org/wiki/Rhetorical_question) represent a corrupted protocol where the question (“hỏi”) is fake, serving only as a vehicle for a protest or a pre-defined demand (“đòi”).
 		- intrinsic interdependence = perfect incompleteness = limited resolution = intrinsic dynamic = intrinsic openness = intrinsic curvature = ((6858b355-fba9-4e61-9f16-bc993a3df44b))
