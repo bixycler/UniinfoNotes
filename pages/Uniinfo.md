@@ -1420,7 +1420,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 						  id:: 667bd594-66b8-4c0e-89a0-8088cbe2e1f6
 						  = ((66751b3b-5fd0-4efd-a43c-db2c4930ae4f)) of the whole tree
 						  ((665359e4-4597-4775-b849-f9acbb98960a)) ((699c0362-dcfd-46d8-8140-ba5379c2de0b))
-							- The base node is the **common stem node** of both shoot system and root system. In the biological tree, the base node is the trunk (bole) or the stump.
+							- The base node is the **common stem node** of both shoot system and root system. In the biological tree, the base node is the [trunk (bole)](https://en.wikipedia.org/wiki/Trunk_(botany)), or narrowlly only the trunk/root flare.
 							- root node
 							  id:: 699c0362-dcfd-46d8-8140-ba5379c2de0b
 							  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bd594-66b8-4c0e-89a0-8088cbe2e1f6))
