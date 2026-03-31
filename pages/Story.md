@@ -1344,7 +1344,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- TODO  Check `{redis,gds}-cache.lan.skygate.co.jp`
 			- 31st, ...
-				- Recalling my sharing with brother Luận about the lurking “đòi” (demand) in every “câu hỏi” (question) to God, on the way to company, i see it interesting
+			  collapsed:: true
+				- Recalling my sharing with brother Luận about the lurking “đòi” (demand) in every “câu hỏi” (question) to God, on the way to company, i see it interesting to have not only the Vientmese compound word “đòi hỏi” but also the very simple word “ask” in English that carry both faces of the same coin. So [i “asked” Gemini](https://gemini.google.com/app/dd266b55d94b61e5) with a very big ask! 😁 ⇒
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69a50996-6fe3-4880-b16c-c5460b604868))
