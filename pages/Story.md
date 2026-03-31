@@ -1343,7 +1343,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 30th, wrote an instruction in Airtrip Intl for hosts settings with CNAME and SSH ProxyJump to DB hosts.
 			  collapsed:: true
 				- TODO  Check `{redis,gds}-cache.lan.skygate.co.jp`
-			- 31st, chat with Gemini about the Ask protocol and the "gốc" (trunk flare).
+			- 31st, the whole day chatting with Gemini about the Ask protocol and the "gốc" (trunk flare).
 			  collapsed:: true
 				- Recalling my sharing with brother Luận about the lurking “đòi” (demand) in every “câu hỏi” (question) to God, on the way to company, i see it interesting to have not only the Vietnamese compound word “đòi hỏi” but also the very simple word “ask” in English that carry both faces of the same coin. So [i “asked” Gemini](https://gemini.google.com/app/dd266b55d94b61e5) with a very big ask! 😁 ⇒ ((69cb4149-8c87-413d-9e57-9d9cf836d8be))
 					- My very ask to Gemini demonstrates the duality itself:
@@ -1351,7 +1351,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- But then i showed the demanding aspect with the constant insistence: No, you still use wide and far meaning to address the very simple "asking for"... That's not what i'm **asking for** in this thread.
 				- At last, i've found the botanical term for "gốc": "trunk flare"
 					- While "gốc" is distinctive and original in VNmese, "trunk flare" is a descriptive compound constructed only for tree anatomy and is much less well known.
-					- ⇒ Updated tree's ((667bd594-66b8-4c0e-89a0-8088cbe2e1f6)) and the article [Căn bản, gốc rễ, cội nguồn](https://creatzynotes.blogspot.com/2021/05/can-ban-goc-re.html) – the origin of the double tree structure
+					- ⇒ Updated ((699c0362-0f54-4ab5-a807-9e1ad3b9d599)) structure and the article [Căn bản, gốc rễ, cội nguồn](https://creatzynotes.blogspot.com/2021/05/can-ban-goc-re.html) – the origin of the double tree structure
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69a50996-6fe3-4880-b16c-c5460b604868))

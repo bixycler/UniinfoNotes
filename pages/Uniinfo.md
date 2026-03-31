@@ -1415,6 +1415,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					  ((691ae2bd-a60f-4db2-8132-bf54e9dee1b0)) ((66751bd8-196d-4d66-a1fc-4df9155756ab))
 						- While a normal/direct/upward branch is a shoot, an inverse/downward branch is a root.
 					- tree
+					  id:: 699c0362-0f54-4ab5-a807-9e1ad3b9d599
 					  [tree](https://en.wikipedia.org/wiki/Tree) = ((66751bd8-196d-4d66-a1fc-4df9155756ab)) system + ((699c0362-25aa-448b-b280-9076ca0619c8)) system = "leaf tree" + "root tree" = ((667bd931-8759-4008-8a9a-33e78a5cbdf3)) + ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) = double cone = ((66725144-6bc9-4c9f-ba48-2cef02651e52))
 						- Diagram of a tree via the [Seal Script of character 木](https://commons.wikimedia.org/wiki/File:%E6%9C%A8-seal.svg)
 						  collapsed:: true
