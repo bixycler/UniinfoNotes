@@ -1351,7 +1351,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- But then i showed the demanding aspect with the constant insistence: No, you still use wide and far meaning to address the very simple "asking for"... That's not what i'm **asking for** in this thread.
 				- At last, i've found the botanical term for "gốc": "trunk flare"
 					- While "gốc" is distinctive and original in VNmese, "trunk flare" is a descriptive compound constructed only for tree anatomy and is much less well known.
-					- ⇒ Updated tree's ((667bd594-66b8-4c0e-89a0-8088cbe2e1f6)) and the post [Căn bản, gốc rễ, cội nguồn](https://creatzynotes.blogspot.com/2021/05/can-ban-goc-re.html)
+					- ⇒ Updated tree's ((667bd594-66b8-4c0e-89a0-8088cbe2e1f6)) and the article [Căn bản, gốc rễ, cội nguồn](https://creatzynotes.blogspot.com/2021/05/can-ban-goc-re.html) – the origin of the double tree structure
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69a50996-6fe3-4880-b16c-c5460b604868))
