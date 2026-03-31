@@ -18,7 +18,39 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  CLOCK: [2026-03-31 Tue 10:36:43]
 		  CLOCK: [2026-03-31 Tue 10:36:44]
 		  :END:
-			-
+			- The Duality of Requirement
+				- The Vietnamese compound word **“đòi hỏi”** (to request/require/demand) reveals the structural handshake between two distinct relational forces.
+					- **Đòi** (The Demand): The subjective intent or the pressure to change a state – a direct pull of will.
+					- **Hỏi** (The Ask): The interrogative gate or the petition addressed to the provider – a query of permission.
+				- This compound structure preserves the transparency of the power dynamic, acknowledging that a requirement is not a command, but a **negotiated handshake**.
+			- The Interrogative Interface
+				- Every interaction with a system – whether human, digital, or social – is a **recursive query**.
+				- There is no absolute command; there is only a sequence of petitions.
+				- Example protoc:
+					- ― Can you do $f(x)$? (Capability check)
+					- ― Yes. What's the value of $x$? (Context requirement)
+					- ― For $x = 1$, what's the result? (Transactional fulfillment)
+				- This protocol exists in common human exchanges where the “ask” masks the underlying “demand”:
+					- ― Why must I do it? (A query for justification as a condition for compliance).
+					- ― Why don't you help me? (A petition for resource allocation disguised as an inquiry).
+					- ― How do I do this? (An “ask” for instructions that often implies a “demand” for cognitive assistance).
+				- Every question is a **Tax on the Provider**, creating a state of debt that is only settled when the answer satisfies the requester's internal “wireframe”.
+				- The “hỏi” is the **sensor ping** sent into the unknown to see if the “đòi” (the desired shape) can be found.
+			- Relational Vectors
+				- The direction of the “ask” determines the protocol used between agents.
+					- **Đòi hỏi (Lower – Upper)**: A petition-demand where the requester acknowledges the provider's agency to fulfill or deny.
+					- **Yêu cầu (Upper – Lower)**: A directive summons that bypasses the “hỏi” (the question) and assumes execution.
+				- Modern distortion of “đòi hỏi” as “being demanding” (greedy or high-maintenance) serves as a judgment of the requester's status.
+					- It mocks the **audacity of the powerless**: the subject is acting with the intent of a master (đòi) while being structurally forced to use the form of a petitioner (hỏi).
+					- When an upper labels a lower's request as **“đòi hỏi quá đáng”** (excessive/unreasonable demand), they are acknowledging the lower's dependency while implicitly refusing the demand.
+					- The upper can even **explicitly refuse** or ban the protocol with the command **“không được đòi hỏi”** (not allowed to demand/ask), which closes the interrogative gate entirely.
+			- The Compression of “Ask”
+				- English preserves the dual nature of the protocol in the phrase **“ask for”**, where “ask” is the gate and “for” points to the object of the “demand”.
+					- In this form, the “question” is still visible as the mechanism for the “request”.
+				- However, English frequently compresses this two-stage process into the single syllable **“ask”**.
+					- It functions as a **black-box executable** where the “question” (information) and the “requirement” (demand) are zipped into one high-pressure point.
+					- This single word must carry both the light frame of the query and the heavy payload of the intent.
+					- Phrases like **“a big ask”** reveal the hidden weight of the “đòi” (the burden) trapped inside the “hỏi” (the simple question).
 		- intrinsic interdependence = perfect incompleteness = limited resolution = intrinsic dynamic = intrinsic openness = intrinsic curvature = ((6858b355-fba9-4e61-9f16-bc993a3df44b))
 		  id:: 69b917d0-494f-4527-9e1b-0dcff5a2cc91
 		  collapsed:: true

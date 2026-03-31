@@ -11,7 +11,6 @@
 	- Drive/PDF Processing and Snippets
 		- Symptom: Content retrieved from Drive is not raw text but processed, summarized, or presented as “Front/Back Snippets”, which can lead to the loss of middle sections.
 		- Resolution: Short or critical content should be uploaded directly as `.md` files to ensure full, unprocessed text availability.
-	- Absence of Change-Tracking (Diffs)
-		- Symptom: The system provides no native way to compare versions or track specific line changes.
-		- Diagnosis: Full-file replacements force the user to manually re-read the entire document to verify integrity.
+	- Change-Tracking Verification
+		- Symptom: While the system now provides native visual diff highlighting, a semantic gap can still exist between visual changes and user intent.
 		- Working Protocol: For every update to an existing file, the assistant will include a concise **“Summary of Changes”** in the chat window to facilitate manual verification.
