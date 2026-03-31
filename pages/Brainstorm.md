@@ -11,6 +11,14 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2026 Brainstorms
 	  id:: 6960e754-ff94-4e1a-8266-d9f15231b880
+		- DOING The duality of the Ask protocol
+		  id:: 69cb4149-8c87-413d-9e57-9d9cf836d8be
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2026-03-31 Tue 10:36:43]
+		  CLOCK: [2026-03-31 Tue 10:36:44]
+		  :END:
+			-
 		- intrinsic interdependence = perfect incompleteness = limited resolution = intrinsic dynamic = intrinsic openness = intrinsic curvature = ((6858b355-fba9-4e61-9f16-bc993a3df44b))
 		  id:: 69b917d0-494f-4527-9e1b-0dcff5a2cc91
 		  collapsed:: true
