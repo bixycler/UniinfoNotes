@@ -1379,8 +1379,10 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 								- Bud = collapsed node
 								- Branch = expanded node
 						- [!] In [data structure tree](((66751015-5c34-493e-9663-4f0f5234b66e))), each edge/link is usually called a "branch" which is confused. Actually, each edge is a stalk, and a branch (or a [shoot](https://en.wikipedia.org/wiki/Shoot_(botany))) is the whole subtree.
-						- [!] The whole branch is also called a "[shoot](https://en.wikipedia.org/wiki/Shoot_(botany))", but normally "shoot" is just the young part at the tip of a branch.
+						- shoot
 						  id:: 66751bd8-196d-4d66-a1fc-4df9155756ab
+						  [shoot](https://en.wikipedia.org/wiki/Shoot_(botany)) = a branch above the ground
+							- While "shoot" can refer to the whole branch, it is usually just the young part that is "shooting" at the tip of a branch.
 					- stem node
 					  id:: 66751b3b-5fd0-4efd-a43c-db2c4930ae4f
 					   = the ((66740a44-3221-41c4-90d6-14068b74b38f)) at the base of the branch = the point where this branch is branched off from its stem.
@@ -1407,10 +1409,11 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 								- The "node stalk" can be, internally, a node trace (branch/bud/leaf trace), a nodal cone ([knot](https://en.wikipedia.org/wiki/Wood#Knots)), or externally, a branch bark ridge.
 								- The "node body" can be considered as the base of this branch which can be seen externally as the [branch collar](https://en.wikipedia.org/wiki/Branch_collar).
 					- root
+					  id:: 699c0362-25aa-448b-b280-9076ca0619c8
 					  [root](https://en.wikipedia.org/wiki/Root) = inverse ((66740680-9724-4a67-a2c3-40f8056eb882))
 						- To distinguish with root, the normal/direct branch can be called "[shoot](((66751bd8-196d-4d66-a1fc-4df9155756ab)))".
 					- tree
-					  [tree](https://en.wikipedia.org/wiki/Tree) = shoot system + root system = "leaf tree" + "root tree" = ((667bd931-8759-4008-8a9a-33e78a5cbdf3)) + ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) = double cone = ((66725144-6bc9-4c9f-ba48-2cef02651e52))
+					  [tree](https://en.wikipedia.org/wiki/Tree) = shoot system + ((699c0362-25aa-448b-b280-9076ca0619c8)) system = "leaf tree" + "root tree" = ((667bd931-8759-4008-8a9a-33e78a5cbdf3)) + ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) = double cone = ((66725144-6bc9-4c9f-ba48-2cef02651e52))
 						- base node
 						  id:: 667bd594-66b8-4c0e-89a0-8088cbe2e1f6
 						  ((665359e4-4597-4775-b849-f9acbb98960a)) ((699c0362-dcfd-46d8-8140-ba5379c2de0b))
