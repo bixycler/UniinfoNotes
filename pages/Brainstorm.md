@@ -11,7 +11,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2026 Brainstorms
 	  id:: 6960e754-ff94-4e1a-8266-d9f15231b880
-		- The duality of the Ask protocol
+		- The duality of the Ask protocol in language
 		  id:: 69cb4149-8c87-413d-9e57-9d9cf836d8be
 		  collapsed:: true
 		  :LOGBOOK:
