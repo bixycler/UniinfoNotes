@@ -1381,7 +1381,8 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 						- [!] In [data structure tree](((66751015-5c34-493e-9663-4f0f5234b66e))), each edge/link is usually called a "branch" which is confused. Actually, each edge is a stalk, and a branch (or a [shoot](https://en.wikipedia.org/wiki/Shoot_(botany))) is the whole subtree.
 						- shoot
 						  id:: 66751bd8-196d-4d66-a1fc-4df9155756ab
-						  [shoot](https://en.wikipedia.org/wiki/Shoot_(botany)) = a branch above the ground
+						  [shoot](https://en.wikipedia.org/wiki/Shoot_(botany)) = a branch developing up above the ground
+						  ((691ae2bd-a60f-4db2-8132-bf54e9dee1b0)) ((699c0362-25aa-448b-b280-9076ca0619c8))
 							- While "shoot" can refer to the whole branch, it is usually just the young part that is "shooting" at the tip of a branch.
 					- stem node
 					  id:: 66751b3b-5fd0-4efd-a43c-db2c4930ae4f
@@ -1411,20 +1412,20 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					- root
 					  id:: 699c0362-25aa-448b-b280-9076ca0619c8
 					  [root](https://en.wikipedia.org/wiki/Root) = inverse ((66740680-9724-4a67-a2c3-40f8056eb882))
-						- To distinguish with root, the normal/direct branch can be called "[shoot](((66751bd8-196d-4d66-a1fc-4df9155756ab)))".
+					  ((691ae2bd-a60f-4db2-8132-bf54e9dee1b0)) ((66751bd8-196d-4d66-a1fc-4df9155756ab))
+						- While a normal/direct/upward branch is a ((66751bd8-196d-4d66-a1fc-4df9155756ab)), an inverse/downward branch is a root.
 					- tree
-					  [tree](https://en.wikipedia.org/wiki/Tree) = shoot system + ((699c0362-25aa-448b-b280-9076ca0619c8)) system = "leaf tree" + "root tree" = ((667bd931-8759-4008-8a9a-33e78a5cbdf3)) + ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) = double cone = ((66725144-6bc9-4c9f-ba48-2cef02651e52))
+					  [tree](https://en.wikipedia.org/wiki/Tree) = ((66751bd8-196d-4d66-a1fc-4df9155756ab)) system + ((699c0362-25aa-448b-b280-9076ca0619c8)) system = "leaf tree" + "root tree" = ((667bd931-8759-4008-8a9a-33e78a5cbdf3)) + ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) = double cone = ((66725144-6bc9-4c9f-ba48-2cef02651e52))
 						- base node
 						  id:: 667bd594-66b8-4c0e-89a0-8088cbe2e1f6
+						  = ((66751b3b-5fd0-4efd-a43c-db2c4930ae4f)) of the whole tree
 						  ((665359e4-4597-4775-b849-f9acbb98960a)) ((699c0362-dcfd-46d8-8140-ba5379c2de0b))
-							- base node = ((66751b3b-5fd0-4efd-a43c-db2c4930ae4f)) of the whole tree
-								- The base node is the **common stem node** of both shoot system and root system.
+							- The base node is the **common stem node** of both shoot system and root system.
 							- root node
 							  id:: 699c0362-dcfd-46d8-8140-ba5379c2de0b
-							  collapsed:: true
 							  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bd594-66b8-4c0e-89a0-8088cbe2e1f6))
 								- Normally, the root system is not expanded but collapsed into a single "root node" in the tree, because the root branches are usually out of sight.
-						- Branch is intermediate between the large tree and the small shoot.
+								-
 				- Branching styles
 				  collapsed:: true
 					- lateral branching
