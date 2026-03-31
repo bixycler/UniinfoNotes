@@ -1417,8 +1417,10 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					- tree
 					  [tree](https://en.wikipedia.org/wiki/Tree) = ((66751bd8-196d-4d66-a1fc-4df9155756ab)) system + ((699c0362-25aa-448b-b280-9076ca0619c8)) system = "leaf tree" + "root tree" = ((667bd931-8759-4008-8a9a-33e78a5cbdf3)) + ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) = double cone = ((66725144-6bc9-4c9f-ba48-2cef02651e52))
 						- Diagram of a tree via the [Seal Script of character 木](https://commons.wikimedia.org/wiki/File:%E6%9C%A8-seal.svg)
+						  collapsed:: true
 							- ![木-seal-roots-shoots.png](../assets/ecosystem/木-seal-roots-shoots.png){:width 100}
 							- This form coincides with the letter ⵣ (Yaz) in the [Tifinagh alphabet](https://en.wikipedia.org/wiki/Tifinagh) – the symbol of the Amazigh people.
+							- Ref: [Căn bản, gốc rễ, cội nguồn](https://creatzynotes.blogspot.com/2021/05/can-ban-goc-re.html)
 						- base node
 						  id:: 667bd594-66b8-4c0e-89a0-8088cbe2e1f6
 						  = ((66751b3b-5fd0-4efd-a43c-db2c4930ae4f)) of the whole tree
@@ -1434,7 +1436,6 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 				  collapsed:: true
 					- lateral branching
 					  id:: 667bdced-76f1-4023-9352-dee24dcbf415
-					  collapsed:: true
 					  is the branching [from the main stem to the lower-level branch](https://en.wikipedia.org/wiki/Branch_attachment).
 						- Diagram:
 						  collapsed:: true
@@ -1443,7 +1444,6 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 						- This is used in [GUI tree view](((66750416-093a-4042-bb6d-78702c219c36))) and [triangular phylogenic tree](((66750135-8c59-477c-8baf-cb3898d54559))).
 					- dichotomous branching
 					  id:: 667bdf2a-005c-4a19-93bd-bda5d076981a
-					  collapsed:: true
 					  is the branching into 2 (or more) equivalent branches instead of the stem/branch discrimination.
 						- folking
 						  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bdf2a-005c-4a19-93bd-bda5d076981a))
@@ -1456,7 +1456,6 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 						- This is used in [data structure tree](((66751015-5c34-493e-9663-4f0f5234b66e))).
 					- circular branching
 					  id:: 684f9517-f730-4fc8-8162-05b594cd92cd
-					  collapsed:: true
 					  is the branching into many equivalent nodes, including the “parent node” of this node, around the ((667bebeb-7f20-4d03-b860-1653c3137710)).
 						- This is the branching structure of [data structure tree](((66751015-5c34-493e-9663-4f0f5234b66e))) as well as mind maps.
 						- The stem circle adds temporal lineage (time) to the branching structure (space) of the data structure tree.
