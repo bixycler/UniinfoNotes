@@ -1384,6 +1384,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					- stem node
 					  id:: 66751b3b-5fd0-4efd-a43c-db2c4930ae4f
 					   = the ((66740a44-3221-41c4-90d6-14068b74b38f)) at the base of the branch = the point where this branch is branched off from its stem.
+						- The stem node corresponds to the the [branch collar](https://en.wikipedia.org/wiki/Branch_collar) in the biological tree.
 					- stem line
 					  id:: 66740af5-032a-4cb1-9c97-0e4d3933ab9b
 					   = internode segments + node branching points
@@ -1412,12 +1413,14 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					  [tree](https://en.wikipedia.org/wiki/Tree) = shoot system + root system = "leaf tree" + "root tree" = ((667bd931-8759-4008-8a9a-33e78a5cbdf3)) + ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) = double cone = ((66725144-6bc9-4c9f-ba48-2cef02651e52))
 						- base node
 						  id:: 667bd594-66b8-4c0e-89a0-8088cbe2e1f6
+						  ((665359e4-4597-4775-b849-f9acbb98960a)) ((699c0362-dcfd-46d8-8140-ba5379c2de0b))
 							- base node = ((66751b3b-5fd0-4efd-a43c-db2c4930ae4f)) of the whole tree
+								- The base node is the **common stem node** of both shoot system and root system.
 							- root node
+							  id:: 699c0362-dcfd-46d8-8140-ba5379c2de0b
 							  collapsed:: true
 							  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bd594-66b8-4c0e-89a0-8088cbe2e1f6))
-								- Normally, the root system is not expanded but collapsed into a single "root node" in the tree, because the root is usually out of sight.
-							- The base node is the common stem node of both shoot system and root system.
+								- Normally, the root system is not expanded but collapsed into a single "root node" in the tree, because the root branches are usually out of sight.
 						- Branch is intermediate between the large tree and the small shoot.
 				- Branching styles
 				  collapsed:: true
