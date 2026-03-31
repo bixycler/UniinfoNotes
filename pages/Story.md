@@ -1346,6 +1346,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 31st, ...
 			  collapsed:: true
 				- Recalling my sharing with brother Luận about the lurking “đòi” (demand) in every “câu hỏi” (question) to God, on the way to company, i see it interesting to have not only the Vietnamese compound word “đòi hỏi” but also the very simple word “ask” in English that carry both faces of the same coin. So [i “asked” Gemini](https://gemini.google.com/app/dd266b55d94b61e5) with a very big ask! 😁 ⇒ ((69cb4149-8c87-413d-9e57-9d9cf836d8be))
+					-
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69a50996-6fe3-4880-b16c-c5460b604868))
