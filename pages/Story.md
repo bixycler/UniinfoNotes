@@ -1340,10 +1340,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- > Perfect joy, then, is not the “absence of wounds,” but “freedom from being defined by them. It is a freedom that does not erase pain, but prevents it from having the final word.”
 					- > ... ﻿and death changes its face, becoming the final and definitive opportunity for conversion. It is the moment when we let go of everything we are still holding on to and give ourselves—without reserve—to the just and merciful gaze of the Father.
 					- > Offering a cheap Christianity, easier but less demanding, means depriving men and women of what they truly need: a journey that can lead our steps into eternal life.
-			- 30th,
-				- Wrote instruction for hosts settings with CNAME and SSH ProxyJump to DB hosts.
-					- TODO  Check `{redis,gds}-cache.lan.skygate.co.jp`
-			- ...
+			- 30th, wrote an instruction in Airtrip Intl for hosts settings with CNAME and SSH ProxyJump to DB hosts.
+			  collapsed:: true
+				- TODO  Check `{redis,gds}-cache.lan.skygate.co.jp`
+			- 31st, ...
+				- Recalling my sharing with brother Luận about the lurking “đòi” (demand) in every “câu hỏi” (question) to God, on the way to company, i see it interesting
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69a50996-6fe3-4880-b16c-c5460b604868))
