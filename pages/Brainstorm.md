@@ -51,6 +51,14 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- It functions as a **black-box executable** where the “question” (information) and the “requirement” (demand) are zipped into a simple word.
 					- This single-syllable word must carry both the light frame of the query and the heavy payload of the intent.
 					- Phrases like **“a big ask”** reveal the hidden weight of the “đòi” (the burden) trapped inside the “hỏi” (the simple question).
+			- The [ASK Competency Tree](https://creatzynotes.blogspot.com/2022/03/thai-o-hoi-ask-tri-tue.html)
+				- The act of asking is supported by a three-layer psychological substrate:
+					- **Attitude** (The Root): The core state of openness (non-knowing) that allows for true intelligence.
+					- **Skill** (The Branches): The technical ability to navigate the interrogative interface.
+					- **Knowledge** (The Leaves): The information payload collected through the protocol.
+				- Intelligence is the **Attitude of Asking** rather than the accumulation of knowledge.
+					- It requires the removal of the Ego (selflessness) to see reality as-is without the distortion of “already knowing”.
+					- [Rhetorical questions](https://en.wikipedia.org/wiki/Rhetorical_question) represent a corrupted protocol where the gate (“hỏi”) is fake, serving only as a vehicle for a protest or a pre-defined demand (“đòi”).
 		- intrinsic interdependence = perfect incompleteness = limited resolution = intrinsic dynamic = intrinsic openness = intrinsic curvature = ((6858b355-fba9-4e61-9f16-bc993a3df44b))
 		  id:: 69b917d0-494f-4527-9e1b-0dcff5a2cc91
 		  collapsed:: true
