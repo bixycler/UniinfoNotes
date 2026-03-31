@@ -1402,9 +1402,9 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 							- ((66752164-1227-490c-8182-7949e4eb501d))
 						- No clear distinction between "node stalk" and "node body" [in biological tree](https://en.wikipedia.org/wiki/Branch_attachment).
 						  collapsed:: true
-							- For terminal parts ([bud](https://en.wikipedia.org/wiki/Bud), [leaf](https://en.wikipedia.org/wiki/Leaf), [flower](https://en.wikipedia.org/wiki/Flower), [fruit](https://en.wikipedia.org/wiki/Fruit)), its clear that the node stalk is the bud trace and leaf/flower/fruit stalk.
+							- For terminal parts ([bud](https://en.wikipedia.org/wiki/Bud), [leaf](https://en.wikipedia.org/wiki/Leaf), [flower](https://en.wikipedia.org/wiki/Flower), [fruit](https://en.wikipedia.org/wiki/Fruit)), the node stalk is the bud trace internally and the leaf/flower/fruit stalk externally, clearly distinct from the bud/leaf/flower/fruit itself.
 							- In a branch with non-terminal parts, the branch ((66751b3b-5fd0-4efd-a43c-db2c4930ae4f)) is defined as the "node" on the stem where this branch is branched off. But because there's no clear definition of "node" in this case, there's no clear distinction between "node stalk" and "node body".
-								- The "node stalk" can be a node trace (branch/bud/leaf trace), a nodal cone ([knot](https://en.wikipedia.org/wiki/Wood#Knots)), internally, or externally a branch bark ridge.
+								- The "node stalk" can be, internally, a node trace (branch/bud/leaf trace), a nodal cone ([knot](https://en.wikipedia.org/wiki/Wood#Knots)), or externally, a branch bark ridge.
 								- The "node body" can be considered as the base of this branch which can be seen externally as the [branch collar](https://en.wikipedia.org/wiki/Branch_collar).
 					- root
 					  [root](https://en.wikipedia.org/wiki/Root) = inverse ((66740680-9724-4a67-a2c3-40f8056eb882))
