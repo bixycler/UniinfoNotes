@@ -1368,7 +1368,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  snap-redis-2396.mount                                         enabled         enabled
 						  snap-redis-2450.mount                                         enabled         enabled
 						  ```
-					- At boot, the v7.0.11 is run first by `/etc/init.d/redis_6379` (following README instruction),
+					- **The conflict**: At boot, the v7.0.11 is run first by `/etc/init.d/redis_6379` (following README instruction),
 					  making the v6.0.16 by run later by `/lib/systemd/system/redis-server.service` failed.
 					- ⇒ Remove both manually installed and Snap-installed versions, leaving only the system-installed version.
 					  collapsed:: true
@@ -1384,7 +1384,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  sudo rm -v /var/log/redis_6379.log
 						  sudo systemctl daemon-reload
 						  ```
-					- Current Redis is used by `ntopng` which is automatically installed by some apps.
+					- The current local Redis is used by `ntopng` which is automatically installed by some apps.
 			- 31st, the whole day chatting with Gemini about the Ask protocol and the "gốc" (trunk flare). The working stack of both personal and offical works is piling up... 🙁
 			  collapsed:: true
 				- Recalling my sharing with brother Luận about the lurking “đòi” (demand) in every “câu hỏi” (question) to God, on the way to company, i see it interesting to have not only the Vietnamese compound word “đòi hỏi” but also the very simple word “ask” in English that carry both faces of the same coin. So [i “asked” Gemini](https://gemini.google.com/app/dd266b55d94b61e5) with a very big ask! 😁 ⇒ ((69cb4149-8c87-413d-9e57-9d9cf836d8be))
