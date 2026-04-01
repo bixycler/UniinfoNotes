@@ -1379,6 +1379,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  sudo update-rc.d -f redis_6379 remove
 						  sudo rm -v /etc/init.d/redis*
 						  sudo rm -v /usr/local/bin/redis*
+						  sudo rm -v /var/run/redis_6379.pid
 						  sudo systemctl daemon-reload
 						  ```
 					- Current Redis is used by `ntopng` which is automatically installed by some apps.
