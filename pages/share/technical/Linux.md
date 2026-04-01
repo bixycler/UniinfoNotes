@@ -1370,6 +1370,8 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 		- `dnsmasq`
 		  id:: 67864319-c2d5-4ba3-98a2-958f1e07cf53
 		  a lightweight DNS, TFTP, PXE, router advertisement and DHCP server.
+		- `unbound`
+		  a recursive domain resolver (DNS recursor).
 		- [DNS records](https://en.wikipedia.org/wiki/List_of_DNS_record_types) in [`.zone` file](https://en.wikipedia.org/wiki/Zone_file)
 		  collapsed:: true
 			- `A`
@@ -1706,6 +1708,18 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. 60	IN A 3.115.124.176
 					  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. 60	IN A 54.199.127.69
 					  ```
+		- NAT Port Forwarding & SSH Tunneling
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-11-25 Tue 20:23:06]
+		  CLOCK: [2025-11-25 Tue 20:23:21]--[2025-11-25 Tue 20:26:36] =>  00:03:15
+		  :END:
+			- app -[connect]-> dbm.lan...jp:1521 =[`iptables`]=> localhost:1524 =[SSH tunnel]=> pre1-mastest...amazonaws.com:1521
+				- In `~/.ssh/config`, we foward local ports to CNAME hosts,
+				     e.g.: `Host` tunnel-aws `LocalForward` 1524 pre1-mastest...amazonaws.com:1521
+				- In `iptables` NAT, we forward `OUTPUT` from the hosts & ports accessed by the app to the local ports, so that it will be SSH tunneled to the target CNAME hosts.
+				    E.g.: dbm.lan.skygate.co.jp  tcp dpt:1521 to:127.0.0.1:1524
+				- For the host `dbm.lan.skygate.co.jp` to be resolved to the IP of its CNAME, we must [frequently dig CNAME for IPs](((684f951e-5f86-4b1c-9b08-e550ad283d4a))), and update the dug IPs to the `hosts` file `~/hosts/cname.hosts` to be served by `dnsmasq`.
 		- NAT Port Forwarding & SSH Tunneling
 		  collapsed:: true
 		  :LOGBOOK:
