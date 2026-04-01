@@ -1355,6 +1355,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- ```
 						  redis-server/jammy-security,jammy-updates,now 5:6.0.16-1ubuntu1.1 amd64 [installed,automatic]
 						  ```
+					- `systemctl list-unit-files | grep redis`
+					  ```
+					  snap-redis-2396.mount                                         enabled         enabled
+					  snap-redis-2450.mount                                         enabled         enabled
+					  redis-server.service                                          enabled         enabled
+					  redis-server@.service                                         disabled        enabled
+					  redis.service                                                 alias           -
+					  redis_6379.service                                            generated       -
+					  snap.redis.server.service                                     enabled         enabled
+					  ```
 					- At boot, the v7.0.11 is run first by `/etc/init.d/redis_6379` (following README instruction),
 					  making the v6.0.16 by run later by `/lib/systemd/system/redis-server.service` failed.
 					- Current Redis is used by `ntopng` which is automatically installed by some apps.
