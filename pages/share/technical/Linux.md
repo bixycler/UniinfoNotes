@@ -1732,8 +1732,11 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				  E.g.: `local-data`: "dbm.lan.skygate.co.jp. A 127.0.1.1"
 				- In `~/.ssh/config`, we foward local ports to CNAME hosts,
 				  e.g.: `Host` tunnel-aws `LocalForward` 127.0.1.1:1521 pre1-mastest...amazonaws.com:1521
-				- Then the apps can access the hosts directly, 
-				  e.g.: `dbm.lan.skygate.co.jp`.
+				- Then the apps can access the hosts directly, e.g.: 
+				  ```sh
+				  redis-cli -h redis-cache.lan.skygate.co.jp
+				  mysql -h 'mycache.lan.skygate.co.jp' -P 3307 -u 'sgdba' -p
+				  ```
 	- ### FreeDesktop/XDG
 	  id:: 669499f7-76c4-4ff8-a27e-be9768a6258c
 	  :LOGBOOK:
