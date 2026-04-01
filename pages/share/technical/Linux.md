@@ -1721,6 +1721,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				    E.g.: dbm.lan.skygate.co.jp  tcp dpt:1521 to:127.0.0.1:1524
 				- For the host `dbm.lan.skygate.co.jp` to be resolved to the IP of its CNAME, we must [frequently dig CNAME for IPs](((684f951e-5f86-4b1c-9b08-e550ad283d4a))), and update the dug IPs to the `hosts` file `~/hosts/cname.hosts` to be served by `dnsmasq`.
 		- Resolution to Local Shadow IP & SSH Tunneling
+		  id:: 69ccc371-7463-4b72-880d-1d7c77e26eb9
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-11-25 Tue 20:23:06]

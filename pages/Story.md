@@ -1342,10 +1342,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- > Offering a cheap Christianity, easier but less demanding, means depriving men and women of what they truly need: a journey that can lead our steps into eternal life.
 			- 30th, wrote an instruction in Airtrip Intl for hosts settings with CNAME and SSH ProxyJump to DB hosts.
 			  collapsed:: true
-				- DOING Check `{redis,gds}-cache.lan.skygate.co.jp`
+				- DONE Check `{redis,gds}-cache.lan.skygate.co.jp`
+				  id:: 69ca662f-3675-46cf-9d94-d695b228904c
 				  :LOGBOOK:
-				  CLOCK: [2026-04-01 Wed 16:09:17]
+				  CLOCK: [2026-04-01 Wed 16:09:17]--[2026-04-01 Wed 17:02:30] =>  00:53:13
 				  :END:
+					- All domains `{redis,{redis,gds}-cache}.lan.skygate.co.jp`are pointing to the same CNAME.
+					- Connected to AWS redis successfully with ((69ccc371-7463-4b72-880d-1d7c77e26eb9))
+				- Through this [Redis check](((69ca662f-3675-46cf-9d94-d695b228904c))), i discovered that the local
 			- 31st, the whole day chatting with Gemini about the Ask protocol and the "gốc" (trunk flare). The working stack of both personal and offical works is piling up... 🙁
 			  collapsed:: true
 				- Recalling my sharing with brother Luận about the lurking “đòi” (demand) in every “câu hỏi” (question) to God, on the way to company, i see it interesting to have not only the Vietnamese compound word “đòi hỏi” but also the very simple word “ask” in English that carry both faces of the same coin. So [i “asked” Gemini](https://gemini.google.com/app/dd266b55d94b61e5) with a very big ask! 😁 ⇒ ((69cb4149-8c87-413d-9e57-9d9cf836d8be))
