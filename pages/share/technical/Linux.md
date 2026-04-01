@@ -1717,7 +1717,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- app -[connect]-> dbm.lan...jp:1521 =[`iptables`]=> localhost:1524 =[SSH tunnel]=> pre1-mastest...amazonaws.com:1521
 				- In `~/.ssh/config`, we foward local ports to CNAME hosts,
 				     e.g.: `Host` tunnel-aws `LocalForward` 1524 pre1-mastest...amazonaws.com:1521
-				- In `iptables` NAT, we forward `OUTPUT` from the hosts & ports accessed by the app to the local ports, so that it will be SSH tunneled to the target CNAME hosts.
+				- In `iptables` NAT, we forward `OUTPUT` from the hosts & ports accessed by the app to the local ports, so that they will be SSH tunneled to the target CNAME hosts.
 				    E.g.: dbm.lan.skygate.co.jp  tcp dpt:1521 to:127.0.0.1:1524
 				- For the host `dbm.lan.skygate.co.jp` to be resolved to the IP of its CNAME, we must [frequently dig CNAME for IPs](((684f951e-5f86-4b1c-9b08-e550ad283d4a))), and update the dug IPs to the `hosts` file `~/hosts/cname.hosts` to be served by `dnsmasq`.
 		- Resolution to Local Shadow IP & SSH Tunneling
@@ -1728,11 +1728,12 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 		  CLOCK: [2025-11-25 Tue 20:23:21]--[2025-11-25 Tue 20:26:36] =>  00:03:15
 		  :END:
 			- app -[connect]-> dbm.lan...jp:1521 [`A`]=> ShadowIP:1524 =[SSH tunnel]=> pre1-mastest...amazonaws.com:1521
+				- In `unbound`, we resolve out-bound domains to the local shadow IPs, so that they will be SSH tunneled to the target CNAME hosts.
+				  E.g.: `local-data`: "dbm.lan.skygate.co.jp. A 127.0.1.1"
 				- In `~/.ssh/config`, we foward local ports to CNAME hosts,
-				     e.g.: `Host` tunnel-aws `LocalForward` 1524 pre1-mastest...amazonaws.com:1521
-				- In `iptables` NAT, we forward `OUTPUT` from the hosts & ports accessed by the app to the local ports, so that it will be SSH tunneled to the target CNAME hosts.
-				    E.g.: dbm.lan.skygate.co.jp  tcp dpt:1521 to:127.0.0.1:1524
-				- For the host `dbm.lan.skygate.co.jp` to be resolved to the IP of its CNAME, we must [frequently dig CNAME for IPs](((684f951e-5f86-4b1c-9b08-e550ad283d4a))), and update the dug IPs to the `hosts` file `~/hosts/cname.hosts` to be served by `dnsmasq`.
+				  e.g.: `Host` tunnel-aws `LocalForward` 127.0.1.1:1521 pre1-mastest...amazonaws.com:1521
+				- Then the apps can access the hosts directly, 
+				  e.g.: `dbm.lan.skygate.co.jp`.
 	- ### FreeDesktop/XDG
 	  id:: 669499f7-76c4-4ff8-a27e-be9768a6258c
 	  :LOGBOOK:
