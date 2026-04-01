@@ -1355,7 +1355,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- ```
 						  redis-server/jammy-security,jammy-updates,now 5:6.0.16-1ubuntu1.1 amd64 [installed,automatic]
 						  ```
-					- The v7.0.11 is run first making the v6.0.16 failed
+					- At boot, the v7.0.11 is run first by `/etc/init.d/redis_6379` (following README instruction),
+					  making the v6.0.16 by run later by `/lib/systemd/system/redis-server.service` failed.
 					- Current Redis is used by `ntopng` which is automatically installed by some apps.
 			- 31st, the whole day chatting with Gemini about the Ask protocol and the "gốc" (trunk flare). The working stack of both personal and offical works is piling up... 🙁
 			  collapsed:: true
