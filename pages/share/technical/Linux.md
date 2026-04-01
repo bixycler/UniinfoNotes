@@ -1720,7 +1720,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- In `iptables` NAT, we forward `OUTPUT` from the hosts & ports accessed by the app to the local ports, so that it will be SSH tunneled to the target CNAME hosts.
 				    E.g.: dbm.lan.skygate.co.jp  tcp dpt:1521 to:127.0.0.1:1524
 				- For the host `dbm.lan.skygate.co.jp` to be resolved to the IP of its CNAME, we must [frequently dig CNAME for IPs](((684f951e-5f86-4b1c-9b08-e550ad283d4a))), and update the dug IPs to the `hosts` file `~/hosts/cname.hosts` to be served by `dnsmasq`.
-		- NAT Port Forwarding & SSH Tunneling
+		- Resolution to Local Shadow IP & SSH Tunneling
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-11-25 Tue 20:23:06]
