@@ -1726,7 +1726,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 		  CLOCK: [2025-11-25 Tue 20:23:06]
 		  CLOCK: [2025-11-25 Tue 20:23:21]--[2025-11-25 Tue 20:26:36] =>  00:03:15
 		  :END:
-			- app --[connect]--> dbm.lan...jp:1521 ==[`iptables`]==> localhost:1524 ==[SSH tunnel]==> pre1-mastest...amazonaws.com:1521
+			- app -[connect]-> dbm.lan...jp:1521 [`A`]=> ShadowIP:1524 =[SSH tunnel]=> pre1-mastest...amazonaws.com:1521
 				- In `~/.ssh/config`, we foward local ports to CNAME hosts,
 				     e.g.: `Host` tunnel-aws `LocalForward` 1524 pre1-mastest...amazonaws.com:1521
 				- In `iptables` NAT, we forward `OUTPUT` from the hosts & ports accessed by the app to the local ports, so that it will be SSH tunneled to the target CNAME hosts.
