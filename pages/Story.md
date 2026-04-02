@@ -1402,8 +1402,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- # Scientists observe atoms existing in two places at once for the first time
 					- {{video https://youtu.be/pp9n5QwVgu4?si=Dp-X31OUgQHMMxde}}
 				- Reading [an article](https://siliconcanals.com/gen-psychology-says-the-reason-some-people-become-wiser-as-they-age-while-others-become-more-rigid-has-nothing-to-do-with-intelligence-it-depends-on-whether-they-ever-learned-to-sit-with-discomfort/) saying that people become wiser as they age thanks to their distress tolerance, i see the ((69cdc9bf-f462-45b6-8a54-0f86acf03bf3))
+		- April journal
+		  id:: 69ce0ded-193e-4b34-bda5-f53418e34a16
+		  collapsed:: true
+			- 2nd,...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
-		- ((69a50996-6fe3-4880-b16c-c5460b604868))
+		- ((69ce0ded-193e-4b34-bda5-f53418e34a16))
 		- ...
 		  id:: 688c70c8-1772-4007-bdf0-d621db895411
