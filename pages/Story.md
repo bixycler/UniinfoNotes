@@ -1415,11 +1415,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  Woe to you when all men speak well of you, for their fathers treated the false prophets in the same way.
 						  — [Luke 6:24‒26](https://biblehub.com/luke/6.htm#24)
 						- But Abraham replied, “Son, remember that in your lifetime _you received your **good things**_, while Lazarus received bad things, but now he is comforted here and you are in **agony**.” 
-						  — [Luke 16:19‒31](https://biblehub.com/bsb/luke/16.htm#19)
+						  — [Luke 16:25](https://biblehub.com/bsb/luke/16.htm#19)
 						- So when you give to the needy, do not announce it with trumpets, as the hypocrites do in the synagogues and on the streets, to be honored by others. Truly I tell you, _they have received their **reward in full**_. 
-						  — Matthew 6:2
+						  — [Matthew 6:2](https://biblehub.com/bsb/matthew/6.htm#1)
 						- And when you pray, do not be like the hypocrites, for they love to pray standing in the synagogues and on the street corners to be seen by others. Truly I tell you, _they have received their **reward in full**_. 
-						  — Matthew 6:5
+						  — [Matthew 6:5](https://biblehub.com/bsb/matthew/6.htm#5)
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69a50996-6fe3-4880-b16c-c5460b604868))
