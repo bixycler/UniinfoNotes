@@ -23,7 +23,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- **The Illusion of Certainty:** People with low tolerance run toward certainty, which is often an illusion that becomes harder to maintain as life changes, leading to greater effort and defensiveness. People with high tolerance can afford to be curious and change their minds because they know discomfort is survivable.
 				- **Building Capacity:** Distress tolerance is not fixed and can be developed. Interventions like [mindfulness](https://en.wikipedia.org/wiki/Mindfulness), [Acceptance and Commitment Therapy (ACT)](https://en.wikipedia.org/wiki/Acceptance_and_commitment_therapy), and [Dialectical Behavior Therapy (DBT)](https://en.wikipedia.org/wiki/Dialectical_behavior_therapy) focus on staying present with what's uncomfortable without escaping or fixing it. Simple practices include genuinely asking what would be needed to change your mind or staying in an uncomfortable conversation.
 			- [Wise = distress tolerant](((69cdbf00-d7c8-4b4c-9d77-da604b1da279))) is just an expression of the trade-off.
-			- The trade-off is usually mentioned by Jesus.
+			- The trade-off is usually mentioned by **Jesus**.
 				- But **woe** to you who are rich, for you have _already received your **comfort**_. 
 				  Woe to you who are **well fed now**, for you **will hunger**.
 				  Woe to you who **laugh now**, for you **will mourn and weep**.
@@ -35,6 +35,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  — [Matthew 6:2](https://biblehub.com/bsb/matthew/6.htm#1)
 				- And when you pray, do not be like the hypocrites, for they love to pray standing in the synagogues and on the street corners to be seen by others. Truly I tell you, _they have received their **reward in full**_. 
 				  — [Matthew 6:5](https://biblehub.com/bsb/matthew/6.htm#5)
+			- The **Stoics** saw distress tolerance as a muscle. If we never stress it, it withers, leaving us a slave to fortune.
+				- **The Concept of "Pre-meditation of Evils" (*Praemeditatio Malorum*):** Instead of avoiding the thought of discomfort, Stoics intentionally visualized it. By "sitting" with the worst-case scenario in the mind, they stripped it of its power to cause panic.
+				- **Voluntary Discomfort:** Seneca famously advised taking a few days every month to eat the cheapest food and wear coarse clothing, asking yourself, *"Is this what I used to fear?"*
+				- **The Wisdom Link:** Wisdom (*Phronesis*) was defined as the ability to distinguish what is in your control from what isn't. You cannot develop this distinction if you are constantly fleeing from external triggers.
+			-
 		- The duality of the Ask protocol in language
 		  id:: 69cb4149-8c87-413d-9e57-9d9cf836d8be
 		  collapsed:: true

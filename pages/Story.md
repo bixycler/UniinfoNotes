@@ -1309,6 +1309,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- CANCELLED Migrate hosts files to [Unbound configs](((69c68607-1979-43b2-9419-baff258f62bd)))
 							- Just copy the common hosts file (`others.hosts`) to `/etc/hosts` directly.
 								- No need to migrate other hosts files, because the Airtrip Intl. Pre system has been upgraded to use dedicated domain for each Preproduction env. instead of switching host IPs.
+							- ⇒ ((69ca5693-7009-493f-94c1-af92542162e0))
 			- 27th, shared with Huy about my perspective on discipline; continue to solve the [weird resolution of GitLab host to `10.99.14.60`](((69c51a3e-3061-4e90-8d73-58f0d3d7ea7c))) and lead to the final solution of [using `unbound`](((69c63e2c-4fc2-4b48-80a1-fa4b11c117c9))).
 				- On the way to company, i reviewed my experience in the lense of “discipline”, then share with Huy about my take.
 				  collapsed:: true
@@ -1341,6 +1342,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- > ... ﻿and death changes its face, becoming the final and definitive opportunity for conversion. It is the moment when we let go of everything we are still holding on to and give ourselves—without reserve—to the just and merciful gaze of the Father.
 					- > Offering a cheap Christianity, easier but less demanding, means depriving men and women of what they truly need: a journey that can lead our steps into eternal life.
 			- 30th, wrote an instruction in Airtrip Intl for hosts settings with CNAME in Unbound and SSH tunneling with shadow IPs, [thanks to Google AI Mode](https://share.google/aimode/nHXisndRmFmsZq8sI).
+			  id:: 69ca5693-7009-493f-94c1-af92542162e0
 			  collapsed:: true
 				- DONE Check `{redis,gds}-cache.lan.skygate.co.jp`
 				  id:: 69ca662f-3675-46cf-9d94-d695b228904c
@@ -1398,7 +1400,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  collapsed:: true
 					- # Scientists observe atoms existing in two places at once for the first time
 					- {{video https://youtu.be/pp9n5QwVgu4?si=Dp-X31OUgQHMMxde}}
-				- Reading an article saying that people become wiser as they age thanks to their distress tolerance, i see the ((69cdc9bf-f462-45b6-8a54-0f86acf03bf3))
+				- Reading [an article](https://siliconcanals.com/gen-psychology-says-the-reason-some-people-become-wiser-as-they-age-while-others-become-more-rigid-has-nothing-to-do-with-intelligence-it-depends-on-whether-they-ever-learned-to-sit-with-discomfort/) saying that people become wiser as they age thanks to their distress tolerance, i see the ((69cdc9bf-f462-45b6-8a54-0f86acf03bf3))
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69a50996-6fe3-4880-b16c-c5460b604868))
