@@ -1394,6 +1394,18 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- At last, i've found the botanical term for "gốc": "trunk flare"
 					- While "gốc" is distinctive and original in VNmese, "trunk flare" is a descriptive compound constructed only for tree anatomy and is much less well known.
 					- ⇒ Updated ((699c0362-0f54-4ab5-a807-9e1ad3b9d599)) structure and the article [Căn bản, gốc rễ, cội nguồn](https://creatzynotes.blogspot.com/2021/05/can-ban-goc-re.html) – the origin of the double tree structure
+				- Quantum entanglement of Helium atoms: [Scientists observe atoms existing in two places at once for the first time](https://youtu.be/pp9n5QwVgu4?si=Dp-X31OUgQHMMxde)
+				  collapsed:: true
+					- # Scientists observe atoms existing in two places at once for the first time
+					- {{video https://youtu.be/pp9n5QwVgu4?si=Dp-X31OUgQHMMxde}}
+				- ...
+				- Key Points:
+					- **Distress Tolerance:** This is the psychological term for a person's perceived ability to withstand negative emotional or physical states, including uncertainty, ambiguity, and having beliefs challenged, without immediately fleeing.
+					- **The Split:** People who become wiser have learned to “sit with discomfort” (high distress tolerance). Those who become rigid and defensive default to avoidance (low distress tolerance).
+					- **The Mechanism of Rigidity:** Low distress tolerance leads to avoidance. This short-term avoidance prevents the engagement with discomfort necessary for long-term psychological growth and the development of wisdom. Rigidity is a pattern, not an inevitable neurological fate of aging.
+					- **Wisdom's Link to Discomfort:** Wisdom requires navigating situations with no clean answers. Research links ambiguity tolerance to wisdom, as components of wisdom (self-reflection, dealing with uncertainty) all require tolerating discomfort.
+					- **The Illusion of Certainty:** People with low tolerance run toward certainty, which is often an illusion that becomes harder to maintain as life changes, leading to greater effort and defensiveness. People with high tolerance can afford to be curious and change their minds because they know discomfort is survivable.
+					- **Building Capacity:** Distress tolerance is not fixed and can be developed. Interventions like mindfulness, Acceptance and Commitment Therapy (ACT), and Dialectical Behavior Therapy (DBT) focus on staying present with what's uncomfortable without escaping or fixing it. Simple practices include genuinely asking what would be needed to change your mind or staying in an uncomfortable conversation.
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69a50996-6fe3-4880-b16c-c5460b604868))
