@@ -1398,28 +1398,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  collapsed:: true
 					- # Scientists observe atoms existing in two places at once for the first time
 					- {{video https://youtu.be/pp9n5QwVgu4?si=Dp-X31OUgQHMMxde}}
-				- [Become wiser with distress tolerance](../assets/Will/story/2026-03/Become wiser with distress tolerance.md)
-				  id:: 69cdbf00-d7c8-4b4c-9d77-da604b1da279
-					- **Distress Tolerance:** This is the psychological term for a person's perceived ability to withstand negative emotional or physical states, including uncertainty, ambiguity, and having beliefs challenged, without immediately fleeing. An early indicator in childhood can be detected with the [marshmallow test](https://en.wikipedia.org/wiki/Stanford_marshmallow_experiment).
-					- **The Split**: People who become **wiser** have learned to **“sit with discomfort”** (high distress tolerance). Those who become **rigid** and defensive default to **avoidance** (low distress tolerance).
-					- **The Mechanism of Rigidity:** Low distress tolerance leads to avoidance. This short-term avoidance prevents the engagement with discomfort necessary for long-term psychological growth and the development of wisdom. _Rigidity is a pattern, not an inevitable neurological fate of aging._
-					- **Wisdom's Link to Discomfort:** Wisdom requires navigating situations with no clean answers. _Research links **ambiguity tolerance** to **wisdom**_, as components of wisdom (self-reflection, dealing with uncertainty) all require tolerating discomfort. This ambiguity tolerance is reflected in the ancient wisdom of [Impermanence](https://en.wikipedia.org/wiki/Impermanence).
-					- **The Illusion of Certainty:** People with low tolerance run toward certainty, which is often an illusion that becomes harder to maintain as life changes, leading to greater effort and defensiveness. People with high tolerance can afford to be curious and change their minds because they know discomfort is survivable.
-					- **Building Capacity:** Distress tolerance is not fixed and can be developed. Interventions like [mindfulness](https://en.wikipedia.org/wiki/Mindfulness), [Acceptance and Commitment Therapy (ACT)](https://en.wikipedia.org/wiki/Acceptance_and_commitment_therapy), and [Dialectical Behavior Therapy (DBT)](https://en.wikipedia.org/wiki/Dialectical_behavior_therapy) focus on staying present with what's uncomfortable without escaping or fixing it. Simple practices include genuinely asking what would be needed to change your mind or staying in an uncomfortable conversation.
-				- The trade-off between short-term comfortability and long-term wisdom
-					- [Wise = distress](((69cdbf00-d7c8-4b4c-9d77-da604b1da279))) is just an expression of the trade-off.
-					- The trade-off is usually mentioned by Jesus.
-						- But **woe** to you who are rich, for you have _already received your **comfort**_. 
-						  Woe to you who are **well fed now**, for you **will hunger**.
-						  Woe to you who **laugh now**, for you **will mourn and weep**.
-						  Woe to you when all men speak well of you, for their fathers treated the false prophets in the same way.
-						  — [Luke 6:24‒26](https://biblehub.com/luke/6.htm#24)
-						- But Abraham replied, “Son, remember that in your lifetime _you received your **good things**_, while Lazarus received bad things, but now he is comforted here and you are in **agony**.” 
-						  — [Luke 16:25](https://biblehub.com/bsb/luke/16.htm#19)
-						- So when you give to the needy, do not announce it with trumpets, as the hypocrites do in the synagogues and on the streets, to be honored by others. Truly I tell you, _they have received their **reward in full**_. 
-						  — [Matthew 6:2](https://biblehub.com/bsb/matthew/6.htm#1)
-						- And when you pray, do not be like the hypocrites, for they love to pray standing in the synagogues and on the street corners to be seen by others. Truly I tell you, _they have received their **reward in full**_. 
-						  — [Matthew 6:5](https://biblehub.com/bsb/matthew/6.htm#5)
+				- ((69cdc9bf-f462-45b6-8a54-0f86acf03bf3))
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69a50996-6fe3-4880-b16c-c5460b604868))
