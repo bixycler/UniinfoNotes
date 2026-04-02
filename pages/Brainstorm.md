@@ -22,7 +22,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- **Wisdom's Link to Discomfort:** Wisdom requires navigating situations with no clean answers. _Research links **ambiguity tolerance** to **wisdom**_, as components of wisdom (self-reflection, dealing with uncertainty) all require tolerating discomfort. This ambiguity tolerance is reflected in the ancient wisdom of [Impermanence](https://en.wikipedia.org/wiki/Impermanence).
 				- **The Illusion of Certainty:** People with low tolerance run toward certainty, which is often an illusion that becomes harder to maintain as life changes, leading to greater effort and defensiveness. People with high tolerance can afford to be curious and change their minds because they know discomfort is survivable.
 				- **Building Capacity:** Distress tolerance is not fixed and can be developed. Interventions like [mindfulness](https://en.wikipedia.org/wiki/Mindfulness), [Acceptance and Commitment Therapy (ACT)](https://en.wikipedia.org/wiki/Acceptance_and_commitment_therapy), and [Dialectical Behavior Therapy (DBT)](https://en.wikipedia.org/wiki/Dialectical_behavior_therapy) focus on staying present with what's uncomfortable without escaping or fixing it. Simple practices include genuinely asking what would be needed to change your mind or staying in an uncomfortable conversation.
-			- [Wise = distress](((69cdbf00-d7c8-4b4c-9d77-da604b1da279))) is just an expression of the trade-off.
+			- [Wise = distress tolerant](((69cdbf00-d7c8-4b4c-9d77-da604b1da279))) is just an expression of the trade-off.
 			- The trade-off is usually mentioned by Jesus.
 				- But **woe** to you who are rich, for you have _already received your **comfort**_. 
 				  Woe to you who are **well fed now**, for you **will hunger**.

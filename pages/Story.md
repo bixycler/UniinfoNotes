@@ -1340,7 +1340,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- > Perfect joy, then, is not the “absence of wounds,” but “freedom from being defined by them. It is a freedom that does not erase pain, but prevents it from having the final word.”
 					- > ... ﻿and death changes its face, becoming the final and definitive opportunity for conversion. It is the moment when we let go of everything we are still holding on to and give ourselves—without reserve—to the just and merciful gaze of the Father.
 					- > Offering a cheap Christianity, easier but less demanding, means depriving men and women of what they truly need: a journey that can lead our steps into eternal life.
-			- 30th, wrote an instruction in Airtrip Intl for hosts settings with CNAME and SSH ProxyJump to DB hosts.
+			- 30th, wrote an instruction in Airtrip Intl for hosts settings with CNAME in Unbound and SSH tunneling with shadow IPs, [thanks to Google AI Mode](https://share.google/aimode/nHXisndRmFmsZq8sI).
 			  collapsed:: true
 				- DONE Check `{redis,gds}-cache.lan.skygate.co.jp`
 				  id:: 69ca662f-3675-46cf-9d94-d695b228904c
@@ -1398,7 +1398,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  collapsed:: true
 					- # Scientists observe atoms existing in two places at once for the first time
 					- {{video https://youtu.be/pp9n5QwVgu4?si=Dp-X31OUgQHMMxde}}
-				- ((69cdc9bf-f462-45b6-8a54-0f86acf03bf3))
+				- Reading an article saying that people become wiser as they age thanks to their distress tolerance, i see the ((69cdc9bf-f462-45b6-8a54-0f86acf03bf3))
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69a50996-6fe3-4880-b16c-c5460b604868))
