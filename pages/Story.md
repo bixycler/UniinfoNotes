@@ -1400,7 +1400,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- {{video https://youtu.be/pp9n5QwVgu4?si=Dp-X31OUgQHMMxde}}
 				- ...
 				- Key Points:
-					- **Distress Tolerance:** This is the psychological term for a person's perceived ability to withstand negative emotional or physical states, including uncertainty, ambiguity, and having beliefs challenged, without immediately fleeing.
+					- **Distress Tolerance:** This is the psychological term for a person's perceived ability to withstand negative emotional or physical states, including uncertainty, ambiguity, and having beliefs challenged, without immediately fleeing. An early indicator in childhood can be detected with the [marshmallow test](https://en.wikipedia.org/wiki/Stanford_marshmallow_experiment).
 					- **The Split:** People who become wiser have learned to “sit with discomfort” (high distress tolerance). Those who become rigid and defensive default to avoidance (low distress tolerance).
 					- **The Mechanism of Rigidity:** Low distress tolerance leads to avoidance. This short-term avoidance prevents the engagement with discomfort necessary for long-term psychological growth and the development of wisdom. Rigidity is a pattern, not an inevitable neurological fate of aging.
 					- **Wisdom's Link to Discomfort:** Wisdom requires navigating situations with no clean answers. Research links ambiguity tolerance to wisdom, as components of wisdom (self-reflection, dealing with uncertainty) all require tolerating discomfort.

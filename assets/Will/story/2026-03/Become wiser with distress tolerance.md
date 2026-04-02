@@ -1,11 +1,11 @@
-# Become wiser with distress tolerance
+# Become Wiser With Distress Tolerance
 
 Psychology says the reason some people become wiser as they age while others become more rigid has nothing to do with intelligence. It depends on whether they ever learned to sit with discomfort.
 
 By Lachlan Brown at [Silicon Canals](https://siliconcanals.com/gen-psychology-says-the-reason-some-people-become-wiser-as-they-age-while-others-become-more-rigid-has-nothing-to-do-with-intelligence-it-depends-on-whether-they-ever-learned-to-sit-with-discomfort/)
 
 ### Key Points
-- **Distress Tolerance:** This is the psychological term for a person's perceived ability to withstand negative emotional or physical states, including uncertainty, ambiguity, and having beliefs challenged, without immediately fleeing.
+- **Distress Tolerance:** This is the psychological term for a person's perceived ability to withstand negative emotional or physical states, including uncertainty, ambiguity, and having beliefs challenged, without immediately fleeing. An early indicator in childhood can be detected with the [marshmallow test](https://en.wikipedia.org/wiki/Stanford_marshmallow_experiment).
 - **The Split:** People who become wiser have learned to “sit with discomfort” (high distress tolerance). Those who become rigid and defensive default to avoidance (low distress tolerance).
 - **The Mechanism of Rigidity:** Low distress tolerance leads to avoidance. This short-term avoidance prevents the engagement with discomfort necessary for long-term psychological growth and the development of wisdom. Rigidity is a pattern, not an inevitable neurological fate of aging.
 - **Wisdom's Link to Discomfort:** Wisdom requires navigating situations with no clean answers. Research links ambiguity tolerance to wisdom, as components of wisdom (self-reflection, dealing with uncertainty) all require tolerating discomfort.
@@ -58,7 +58,7 @@ A major review on aging and wisdom published in Frontiers in Aging Neuroscience 
 
 The cruel irony is that the behaviors that protect someone from short-term discomfort are exactly the behaviors that prevent long-term growth.
 
-Research on distress tolerance shows that low tolerance consistently predicts maladaptive coping — avoidance, suppression, rumination. People who can’t sit with uncomfortable feelings don’t process them. They bury them, or they deflect outward through anger, blame, and dismissal, or they run toward certainty as fast as they can.
+[Research on distress tolerance](https://pmc.ncbi.nlm.nih.gov/articles/PMC7978414/) shows that low tolerance consistently predicts maladaptive coping — avoidance, suppression, rumination. People who can’t sit with uncomfortable feelings don’t process them. They bury them, or they deflect outward through anger, blame, and dismissal, or they run toward certainty as fast as they can.
 
 The problem is that certainty — real certainty, the kind that never has to be questioned — is mostly an illusion. And the older you get, the more energy it takes to maintain that illusion as life keeps throwing you curveballs. The person who has built their psychological identity around never being wrong, never being uncertain, never having to tolerate not-knowing… they have to work harder and harder to defend that as they age.
 
@@ -70,11 +70,11 @@ It’s worth being clear about what this isn’t. The ability to tolerate discom
 
 What they don’t do is flee. When something hard comes up — a piece of information that contradicts their worldview, an emotion they’d rather not feel, a situation with no good options — they stay in the room with it. They let it register.
 
-As one clinical psychologist writing about uncertainty and ambiguity has noted, simply noticing discomfort nonjudgmentally — rather than reflexively jumping to action — is what expands emotional tolerance and leads to more deliberate, grounded responses. It sounds almost too simple. But it’s genuinely difficult, and most people never practice it systematically.
+As one clinical psychologist writing about uncertainty and ambiguity has noted, [simply noticing discomfort nonjudgmentally](https://morrispsych.com/the-emotional-tasks-of-adulthood-unsullied-ideas-about-uncertainty-ambiguity-and-ambivalence-by-jeffrey-c-singer-ph-d/) — rather than reflexively jumping to action — is what expands emotional tolerance and leads to more deliberate, grounded responses. It sounds almost too simple. But it’s genuinely difficult, and most people never practice it systematically.
 
 ## You can actually build this capacity
 
-The good news — backed by research — is that distress tolerance isn’t fixed. It can be developed. A systematic review of 106 studies found that various interventions consistently reduced distress intolerance — and that reductions in intolerance predicted greater psychological flexibility.
+The good news — backed by research — is that distress tolerance isn’t fixed. It can be developed. [A systematic review of 106 studies](https://link.springer.com/article/10.1007/s10608-023-10425-1) found that various interventions consistently reduced distress intolerance — and that reductions in intolerance predicted greater psychological flexibility.
 
 Approaches grounded in mindfulness, Acceptance and Commitment Therapy, and Dialectical Behavior Therapy all show real effects. The common thread is the same: learning to stay present with what’s uncomfortable, without immediately trying to escape or fix it.
 
