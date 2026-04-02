@@ -36,9 +36,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- And when you pray, do not be like the hypocrites, for they love to pray standing in the synagogues and on the street corners to be seen by others. Truly I tell you, _they have received their **reward in full**_. 
 				  — [Matthew 6:5](https://biblehub.com/bsb/matthew/6.htm#5)
 			- The **Stoics** saw distress tolerance as a muscle. If we never stress it, it withers, leaving us a slave to fortune.
-				- **The Concept of "Pre-meditation of Evils" (*Praemeditatio Malorum*):** Instead of avoiding the thought of discomfort, Stoics intentionally visualized it. By "sitting" with the worst-case scenario in the mind, they stripped it of its power to cause panic.
-				- **Voluntary Discomfort:** Seneca famously advised taking a few days every month to eat the cheapest food and wear coarse clothing, asking yourself, *"Is this what I used to fear?"*
-				- **The Wisdom Link:** Wisdom (*Phronesis*) was defined as the ability to distinguish what is in your control from what isn't. You cannot develop this distinction if you are constantly fleeing from external triggers.
+				- [Pre-meditation of Negativity (*Præmeditatio Malorum*)](https://en.wikipedia.org/wiki/Negative_visualization): Instead of avoiding the thought of discomfort, Stoics intentionally visualized it. By “sitting” with the worst-case scenario in the mind, they stripped it of its power to cause panic.
+				- **Voluntary Discomfort:** Seneca famously advised taking a few days every month to eat the cheapest food and wear coarse clothing, asking ourselves, *“Is this what I used to fear?”*
+				- **[Dichotomy of Control]() – The Wisdom of self-awareness:** Wisdom (*Phronesis*) was defined as the ability to distinguish what is in our control from what isn't. We cannot develop this distinction if we are constantly fleeing from external triggers.
 			-
 		- The duality of the Ask protocol in language
 		  id:: 69cb4149-8c87-413d-9e57-9d9cf836d8be
