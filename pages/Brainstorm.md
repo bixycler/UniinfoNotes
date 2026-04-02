@@ -38,8 +38,15 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- The **Stoics** saw distress tolerance as a muscle. If we never stress it, it withers, leaving us a slave to fortune.
 				- [Pre-meditation of Negativity (*Præmeditatio Malorum*)](https://en.wikipedia.org/wiki/Negative_visualization): Instead of avoiding the thought of discomfort, Stoics intentionally visualized it. By “sitting” with the worst-case scenario in the mind, they stripped it of its power to cause panic.
 				- **Voluntary Discomfort:** Seneca famously advised taking a few days every month to eat the cheapest food and wear coarse clothing, asking ourselves, *“Is this what I used to fear?”*
-				- **[Dichotomy of Control]() – The Wisdom of self-awareness:** Wisdom (*Phronesis*) was defined as the ability to distinguish what is in our control from what isn't. We cannot develop this distinction if we are constantly fleeing from external triggers.
-			-
+				- **[Dichotomy of Control](https://www.thelivingphilosophy.com/p/stoicisms-dichotomy-of-control) – the Wisdom of Self-Awareness:** Wisdom (*Phronesis*) was defined as the ability to distinguish what is in our control from what isn't. We cannot develop this distinction if we are constantly fleeing from external triggers.
+			- **Buddhism** treats avoidance as a fundamental cause of suffering (*Dukkha*).
+				- **The Second Arrow:** The Buddha taught that while we cannot avoid the “first arrow” (physical pain or loss), we create the “second arrow” through our mental resistance to it. Sitting with discomfort is the practice of feeling the first arrow without firing the second.
+				- **Equanimity (_Upekkha_):** This isn't coldness; it is high distress tolerance. It is the ability to remain “stable like a mountain” while the winds of praise, blame, gain, and loss blow against you.
+				- **The Wisdom of Accepting Negativity:** Wisdom (*Prajna*) is seeing things as they truly are. If we have low tolerance, we “filter” reality to make it comfortable, which creates a delusional, rigid worldview.
+			- **Taoism** suggests that rigidity is actually a sign of impending death, while the ability to endure through flexibility is the mark of life.
+				- **The Soft and the Hard:** The *Tao Te Ching* (Chapter 76) notes that a living man is supple and soft, but when he dies, he becomes rigid and hard. Plants are tender when living and brittle when dead.
+				- **Wu Wei (Effortless Action):** This is often misunderstood as "doing nothing." In reality, it requires immense distress tolerance to *not* interfere or force a situation. It is the wisdom of waiting for the mud to settle so the water becomes clear.
+				- **The Wisdom Link:** The "wise" person follows the Tao by not resisting the natural flow of change (Impermanence), even when that flow is uncomfortable.
 		- The duality of the Ask protocol in language
 		  id:: 69cb4149-8c87-413d-9e57-9d9cf836d8be
 		  collapsed:: true
