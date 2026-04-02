@@ -47,9 +47,19 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- **The Soft and the Hard:** The *Tao Te Ching* [Chapter 76](https://en.wikisource.org/wiki/Translation:Tao_Te_Ching#Chapter_76_(%E7%AC%AC%E4%B8%83%E5%8D%81%E5%85%AD%E7%AB%A0)) notes that a living man is supple and soft, but when he dies, he becomes rigid and hard. Plants are tender when living and brittle when dead.
 				- **Wu Wei (Effortless Action):** This is often misunderstood as “doing nothing”. In reality, it requires immense distress tolerance to *not* interfere or force a situation. It is the wisdom of waiting for the mud to settle so the water becomes clear.
 				- **The Wisdom of Nonresistence:** The “wise” person follows the Tao by not resisting the natural flow of change (Impermanence), even when that flow is uncomfortable.
-			- In the **Sufi tradition**, particularly in the poetry of Rumi, discomfort is seen as a "guest" that cleanses the house for a new delight.
-				- **The Guest House:** Rumi's famous poem *The Guest House* explicitly instructs the seeker to "be grateful for whoever comes, because each has been sent as a guide from beyond," including "a crowd of sorrows."
-				- **Fana (Annihilation of Ego):** Rigidity is the ego trying to protect itself. Wisdom comes through the "melting" of the ego, which is an inherently uncomfortable, "fiery" process.
+			- In the **Sufi tradition**, particularly in the poetry of Rumi, discomfort is seen as a “guest” that cleanses the house for a new delight.
+				- **The Guest House:** Rumi's famous poem [The Guest House](https://www.scottishpoetrylibrary.org.uk/poem/guest-house/) explicitly instructs the seeker to “be grateful for whoever comes, because each has been sent as a guide from beyond”, including “a crowd of sorrows”.
+					- > انسان، خانهٔ مهمان است.  
+					  هر صبح، یک ورود جدید.  
+					  شادی، اندوه، بدی —  
+					  آنچه می‌آید،  
+					  مهمانِ ناگزیر است.
+					- > Being human is a guest house.  
+					  Each morning brings a new arrival:  
+					  joy, sorrow, harshness —  
+					  whatever comes  
+					  is an unavoidable guest.
+				- **The Wisdom of [Fana (Annihilation of Ego)](https://en.wikipedia.org/wiki/Fana_(Sufism))**: Rigidity is the ego trying to protect itself. Wisdom comes through the “melting” of the ego, which is an inherently uncomfortable, “fiery” process.
 		- The duality of the Ask protocol in language
 		  id:: 69cb4149-8c87-413d-9e57-9d9cf836d8be
 		  collapsed:: true
