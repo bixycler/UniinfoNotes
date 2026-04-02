@@ -44,9 +44,12 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- **Equanimity (_Upekkha_):** This isn't coldness; it is high distress tolerance. It is the ability to remain “stable like a mountain” while the winds of praise, blame, gain, and loss blow against you.
 				- **The Wisdom of Accepting Negativity:** Wisdom (*Prajna*) is seeing things as they truly are. If we have low tolerance, we “filter” reality to make it comfortable, which creates a delusional, rigid worldview.
 			- **Taoism** suggests that rigidity is actually a sign of impending death, while the ability to endure through flexibility is the mark of life.
-				- **The Soft and the Hard:** The *Tao Te Ching* (Chapter 76) notes that a living man is supple and soft, but when he dies, he becomes rigid and hard. Plants are tender when living and brittle when dead.
-				- **Wu Wei (Effortless Action):** This is often misunderstood as "doing nothing." In reality, it requires immense distress tolerance to *not* interfere or force a situation. It is the wisdom of waiting for the mud to settle so the water becomes clear.
-				- **The Wisdom Link:** The "wise" person follows the Tao by not resisting the natural flow of change (Impermanence), even when that flow is uncomfortable.
+				- **The Soft and the Hard:** The *Tao Te Ching* [Chapter 76](https://en.wikisource.org/wiki/Translation:Tao_Te_Ching#Chapter_76_(%E7%AC%AC%E4%B8%83%E5%8D%81%E5%85%AD%E7%AB%A0)) notes that a living man is supple and soft, but when he dies, he becomes rigid and hard. Plants are tender when living and brittle when dead.
+				- **Wu Wei (Effortless Action):** This is often misunderstood as “doing nothing”. In reality, it requires immense distress tolerance to *not* interfere or force a situation. It is the wisdom of waiting for the mud to settle so the water becomes clear.
+				- **The Wisdom of Nonresistence:** The “wise” person follows the Tao by not resisting the natural flow of change (Impermanence), even when that flow is uncomfortable.
+			- In the **Sufi tradition**, particularly in the poetry of Rumi, discomfort is seen as a "guest" that cleanses the house for a new delight.
+				- **The Guest House:** Rumi's famous poem *The Guest House* explicitly instructs the seeker to "be grateful for whoever comes, because each has been sent as a guide from beyond," including "a crowd of sorrows."
+				- **Fana (Annihilation of Ego):** Rigidity is the ego trying to protect itself. Wisdom comes through the "melting" of the ego, which is an inherently uncomfortable, "fiery" process.
 		- The duality of the Ask protocol in language
 		  id:: 69cb4149-8c87-413d-9e57-9d9cf836d8be
 		  collapsed:: true
