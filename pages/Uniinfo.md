@@ -2416,7 +2416,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 		  id:: 94e87dc9-71af-477c-aa70-0f448c2f1e20
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a))
 		  ((6699eb54-ce9e-4472-a784-c59ffd47f02b)) ((669a2487-054d-4408-ae41-189e34af81a9)), ((669a26cb-50d8-4347-a5c4-7c0c3acf1211))
-			- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “obop” is pronounced “ob-op” /əbˈɒp/, not “o-bop”. When pronouncing in an unhyphenated style, it may sound /əˈbɒp/, but never /ˈoʊ.bɒp/.
+			- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “obop” is pronounced “ob-OP” /əbˈɒp/, not “O-bop”. When pronouncing in an unhyphenated style, it may sound /əˈbɒp/, but never /ˈoʊ.bɒp/.
 		- ☉
 		  id:: 66f3b94d-6cf8-461a-9312-c9973ac739fe
 		  collapsed:: true
