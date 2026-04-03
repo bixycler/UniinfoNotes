@@ -8,7 +8,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 		  id:: 66537a44-f579-4fcc-a02b-2f32d0d409fc
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66537a41-f229-4891-803e-828573eb44f3))
 			- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) “**Uni**versal **Info**rmation” → “Uni-info” /ˈjuːnɪˌɪnfoʊ/ → “Uniinfo” → “Unïnfo” /ˈjuːniːnfoʊ/
-			- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “Unïnfo” is pronounced “YOU-nih-info” /ˈjuːnɪˌɪnfoʊ/ or better /ˈjuːniːnfoʊ/, but never /ʌnˈɪnfoʊ/. where the “double-dotted i” (ï) is the fusing result of the “double i” (ii) and pronounced just like the English pronunciation of “naïve” /naɪˈiːv/.
+			- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “Unïnfo” is pronounced “YOU-nih-info” /ˈjuːnɪˌɪnfoʊ/ or better /ˈjuːniːnfoʊ/, but never /ʌnˈɪn.foʊ/. The “double-dotted i” (ï) there is pronounced similar to that of “naïve” /naɪˈiːv/.
 				- The double-dotted i (ï) denotes the unification of the two letters ‘ii’, hence its unified pronunciation /ˈjuːniːnfoʊ/ in stead of the separate one /ˈjuːnɪˌɪnfoʊ/.
 				  id:: 68a3ea54-f275-40b8-93ae-4a2bd8da4a06
 					- For the ease of typing on keyboard, the separate spelling “Uniinfo” is also used casually in place of the formal spelling “Unïnfo”.
@@ -20,7 +20,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 						  ![TwistingDoubleI.png](../assets/Uniinfo/TwistingDoubleI/TwistingDoubleI.png)
 						- Video
 						  ![TwistingDoubleI.200x300.webm](../assets/Uniinfo/TwistingDoubleI/TwistingDoubleI.200x300.webm)
-				- Note: Don't read “Unïnfo” as “un-info” /ˈʌnˌɪn.foʊ/ – as if it means [“uninformation”](https://en.wiktionary.org/wiki/uninformation) (unwanted, untrue, useless information) or [uninformed](https://en.wiktionary.org/wiki/uninformed) (ignorant) which is quite different from the concept of unity at the heart of Unïnfo.
+				- Note: Don't read “Unïnfo” as “un-info” /ʌnˈɪn.foʊ/ – as if it means [“uninformation”](https://en.wiktionary.org/wiki/uninformation) (unwanted, untrue, useless information) or [uninformed](https://en.wiktionary.org/wiki/uninformed) (ignorant) which is quite different from the concept of unity at the heart of Unïnfo.
 				- Typographic note: While visualy indistinguishable, the letter ‘ï’ in ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) is neither [i with diaeresis (ï) [U+EF]](https://en.wikipedia.org/wiki/%C3%8F) nor [i-umlaut (`&iuml;`)](https://en.wikipedia.org/wiki/I-mutation), but an ‘i’ with [double dot (◌̈) [U+0308] above](https://en.wikipedia.org/wiki/Two_dots_(diacritic)#Vowels).
 				  id:: 68a520bf-ed90-4e1f-ae2a-0700d7f51b05
 					- The combination `ï = i +  ̈` should be rendered with only two dots (not three dots), because these are the two dots of the two letters `ii`, left over after the fusion.
