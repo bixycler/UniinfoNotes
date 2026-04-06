@@ -1407,7 +1407,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  collapsed:: true
 			- 4-5th, weekends,...
 				- [Consciousness and Strange Loops](https://bosonphoton.medium.com/consciousness-and-strange-loops-5f8b6199bc3a) shows ideas similar to Unïnfo about panpsychism and the levels of awareness.
-					- It's interesting that the separateness between mental & physical worlds is traced to [Gödel's incompleteness theorems](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems).
+					- It's interesting that the _separateness between **mental** & **physical** worlds_ is traced to [Gödel's incompleteness theorems](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems).
+					- In Unïnfo, the separation of the mind from the physical body is a phase transition
+					  id:: 69d35428-4259-485c-b0ac-5ac8db2ef4e0
 					- Check NotebookLM again and see it has completely lost the section of awareness, including the 3 levels.
 					  collapsed:: true
 						- Wow, i've checked the source shown as text in this notebook and see it completely broken, broken at the word level 😲. E.g.: 
