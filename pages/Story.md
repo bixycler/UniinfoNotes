@@ -1416,14 +1416,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- the **scale separation** in the [Renormalization Group flow](https://en.wikipedia.org/wiki/Renormalization_group#Elementary_theory) from the high-engergy micro-scaled boundary to the low-engergy macro-scaled bulk in holographic principle and AdS/CFT correspondence,
 							- and the background independence [of general relativity](((699c0366-2d90-4a25-83d2-0c91afcbf425))).
 						- This closedness generates both ways separateness: the horizontal separation between the selves in the same scale, and the vertical separation between layers in different scales.
-						- But the closedness is not absolute: there are always open “pores”, expressing as the random/chaos from the outside and as the mysterious consciousness from the inside.
+						- But the closedness is not absolute: there are always open “pores”, expressing as the random/chaos from the outside and as the mysterious consciousness from the inside. This openness leads to the sensitivity of dynamical system to its initial condition.
 					- In Unïnfo, the horizontal separation between the selves is secondary to the vertical separation of the mind from its background physical body: each individual mind is isolated in its “shell” of body which is separate both from its mind and from other bodies.
+						-
 					- In the section “The Privacy of Experience”, Chelsea Zou used a trivial model of $E = f(m, s)$ to formulate experience $E$ as a function of physical matter compositions $m$ and self-referential organizational pattern $s$, with only a trivial condition of $f$ being injective.
 						- She missed the crucial propery of $f$ being **non-linear**. E.g.: A trivial linear map like $(1, 2, 3) → (a1, a2, a3)$ is also injective.
 						- She seemed to imply the non-linearity in the “self-referential organizational pattern” $s$.
-							- For a non-linear map $s$, we can rewrite $E = f(m, s, t) = s^t(m)$ to be sensitive to the initial condition of $m$. This will exponetially amplify the tiny diff $dm = |m_1 - m_2|$ into a completely different experiences $ΔE = |E_1 - E_2| ≫ |E_2|$.
-							- However she confused it in the Example 2: For m₁ ≠ m₂ but s₁ = s₂ when 2 people looking at the same red apple. Here, she stated s₁= s₂ = “isomorphic visual recognition function in the brain”.
+							- However she confused it in the Example 2: For m₁ ≠ m₂ but s₁ = s₂ when 2 people looking at the same red apple. D
+							- Here, she stated s₁ = s₂ = “isomorphic visual recognition function in the brain”.
 							- She even further gave a wrong example of recursive Fibonacci computation being influenced by the “floating point discrepancies” which have nothing to do with such an integer computation.
+						- In order to make the formulation non-trivial, we consider a non-linear map $s$, and rewrite $E = f(m, s, t) = s^t(m)$ to be sensitive to the initial condition of $m$. This will exponetially amplify the tiny diff $dm = |m_1 - m_2|$ into a completely different experiences $ΔE = |E_1 - E_2| ≫ |E_2|$.
 					- Check NotebookLM again and see it has completely lost the section of awareness, including the 3 levels.
 					  collapsed:: true
 						- Wow, i've checked the source shown as text in this notebook and see it completely broken, broken at the word level 😲. E.g.: 
