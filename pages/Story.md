@@ -1413,7 +1413,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- This phase transition generates both the subjective ((6810327c-f633-4537-84a1-ca36a8d49d65)) and the objective **background independence** of the mind. E.g.:
 							- [attactors](https://en.wikipedia.org/wiki/Attractor) & [limit cycles](https://en.wikipedia.org/wiki/Limit_cycle) of non-linear dynamical systems,
 							- the **scale separation** in the [Renormalization Group flow](https://en.wikipedia.org/wiki/Renormalization_group#Elementary_theory) from the high-engergy micro-scaled boundary to the low-engergy macro-scaled bulk in holographic principle and AdS/CFT correspondence,
-							- background independence [of general relativity](((699c0366-2d90-4a25-83d2-0c91afcbf425))).
+							- and the background independence [of general relativity](((699c0366-2d90-4a25-83d2-0c91afcbf425))).
 					- Check NotebookLM again and see it has completely lost the section of awareness, including the 3 levels.
 					  collapsed:: true
 						- Wow, i've checked the source shown as text in this notebook and see it completely broken, broken at the word level 😲. E.g.: 
