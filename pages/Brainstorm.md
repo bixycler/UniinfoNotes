@@ -11,17 +11,21 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2026 Brainstorms
 	  id:: 6960e754-ff94-4e1a-8266-d9f15231b880
-		- DOING Three Treasures of Taoism = ((669dfc7d-5355-41db-93a1-8d590e8ec9d8))
+		- DOING [Three Treasures of Taoism](https://en.wikipedia.org/wiki/Three_Treasures_(Taoism)) = ((669dfc7d-5355-41db-93a1-8d590e8ec9d8))
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2026-04-06 Mon 20:03:35]
 		  CLOCK: [2026-04-06 Mon 20:03:38]
 		  :END:
-			-
-		- DOING
+			- Ref: ((69d3af51-e196-4656-9605-1e6fa8099156))
+		- DOING Will Lei's personal experience with Qigong and Tantric sex
+		  id:: 69d3af51-e196-4656-9605-1e6fa8099156
+		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2026-04-06 Mon 20:04:19]
+		  CLOCK: [2026-04-06 Mon 20:21:50]
 		  :END:
+			-
 		- [Consciousness and Strange Loops](https://bosonphoton.medium.com/consciousness-and-strange-loops-5f8b6199bc3a) shows ideas similar to Unïnfo about panpsychism and the levels of awareness.
 		  id:: 69d31a20-e33a-4367-85b1-0e0a533e016c
 		  collapsed:: true
