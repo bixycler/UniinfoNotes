@@ -1414,7 +1414,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- [attactors](https://en.wikipedia.org/wiki/Attractor) & [limit cycles](https://en.wikipedia.org/wiki/Limit_cycle) of non-linear dynamical systems,
 							- the **scale separation** in the [Renormalization Group flow](https://en.wikipedia.org/wiki/Renormalization_group#Elementary_theory) from the high-engergy micro-scaled boundary to the low-engergy macro-scaled bulk in holographic principle and AdS/CFT correspondence,
 							- and the background independence [of general relativity](((699c0366-2d90-4a25-83d2-0c91afcbf425))).
-						- This closedness generates both ways separateness: the horizontal separation between the selves in the same scale, and the vertical separation between layers in different scales.
+						- This closedness generates both ways of separateness: the horizontal separation between the selves in the same scale, and the vertical separation between layers in different scales.
 						- But the closedness is not absolute: there are always open “pores”, expressing as the random/chaos from the outside and as the mysterious “free will” from the inside. This openness leads to the sensitivity of dynamical system to its initial condition.
 					- It's interesting that Chelsea Zou traced the _separateness between **mental** & **physical** worlds_ is to [Gödel's incompleteness theorems](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems).
 						- > The result is that consciousness appears to float free of the material, not because it actually does, but because no self-model can represent the very process generating it.
