@@ -32,24 +32,25 @@ In “Consciousness Cannot Be Separated from Function”, Cohen and Dennett shar
 
 I think consciousness falls into a category of questions that are “unfalsifiable” only given our current tools and understanding today. A claim can be temporarily untestable because our instruments are not yet sophisticated enough to address it. Atomic theory was unfalsifiable for decades before scanning tunneling microscopes existed to confirm it. Gravitational waves were predicted a hundred years before LIGO detected them. In neither case would it have been correct to declare the question unscientific simply because it could not yet be tested. For instance, in the Paleolithic times, the statement “invisible living things are making us sick” could have been claimed to be unfalsifiable because there was no possible way to ever see “invisible things”. Fast forward a couple thousand years, and our definition of “see” has now expanded to include observables made possible by the microscope, allowing us to uncover the “invisible” bacteria that can cause disease. So while the statement “we can only access consciousness through cognitive function and you cannot falsify phenomenal experience beyond what function reveals” is true for now, there is no reason to think that it will remain that way as science progresses.
 
-2.3 Can We Redefine “Physical”?
+### 2.3 Can We Redefine “Physical”?
 
 Before moving on, I want to elaborate my stance that I do think the basis of consciousness will still be “physical” in the sense that it will turn out to be something grounded in physics. But that does not mean it needs to be explained by neuroscience alone. It also does not mean it needs to be explained by current physics yet. The models we have today are incomplete, and we will expand our vocabulary when we discover new things. With that said, I think neurons and cognitive functions are sufficient for consciousness, but not necessary for it.
 
 One could argue that I am just stretching the definition of “physical” to cover for what we mean by “non-physical” by today’s standards. But every major expansion in science has looked this way from the prior framework. Electromagnetism’s invisible fields seemed non-physical under the Newtonian model. Before Einstein, space was an empty void until he proved that spacetime itself is a fabric that warps in response to mass. Quantum mechanics forced scientists to expand their definition of physical reality from definite, localized positions to superposition and entanglement. In each case, “physical” turned out to include more than anyone expected. I believe the problem of consciousness may be less of a neuroscience problem, and more of one that lives at the intersection of physics and the study of information organization itself.
 
-III. My Theory of Consciousness
+## III. My Theory of Consciousness
+
 What follows is very speculative, but it’s a way to think of the “how” question that I believe addresses some core challenges of the hard problem. I write about it because it may offer solutions surrounding prevailing mysteries of “emergence”, the privacy of subjective experience, and the “feltness” of consciousness that aligns with our intuition. The biggest question would then be, if we can, at least in principle, evaluate it. If we try to look for consciousness not only in the brain but within matter itself, perhaps we can.
 
-Consciousness is an intrinsic property of matter, but one that exists in a dormant state only activated when a specific structural condition is met: self-referential recursion.
+> Consciousness is an intrinsic property of matter, but one that exists in a dormant state only activated when a specific structural condition is met: self-referential recursion.
 
 In this view, consciousness does not depend on what a system is, but what a system is doing. This framework emphasizes two hypotheses:
 
-Hypothesis (1): Consciousness is a fundamental but dormant property embedded in physical matter
+> **Hypothesis (1):** Consciousness is a fundamental but dormant property embedded in physical matter
 
 Subjective experience can then be understood as what occurs when the dormant consciousness is activated by some specific condition. The potential is universal, but the expression is conditional. An imperfect analogy is gene expression, where every cell contains the complete human genome but the vast majority of those genes are dormant, only activating when specific transcription factors bind. While classical panpsychism says that everything is conscious to some degree (that there is “something it is like” to be an electron), this hypothesis restricts that possibility.
 
-Hypothesis (2): Self-Referential Recursion is the Activation Condition
+> **Hypothesis (2):** Self-Referential Recursion is the Activation Condition
 
 The activation condition is self-referential recursive information processing. This is the point at which the organization of a system becomes complex enough to model its own states. The threshold is not merely information processing, but actively constructing an internal representation of itself as a system that is processing information. For example, a thermometer responds to temperature, but does not represent itself responding to temperature, so it is not conscious. The activation is a binary condition: at any given time, the system is either modelling its own processing or it is not. Once it is, then consciousness becomes a spectrum: richer self-models yield richer experience. This self-reference idea parallels Douglas Hofstadter’s concept of the “strange loop” in Gödel, Escher, Bach and I Am a Strange Loop. Hofstadter argued that the self emerges when a system’s symbolic activity becomes rich enough to twist back upon itself. The “I” is not something sitting inside the brain, it’s a pattern when the brain’s activity traces refers to itself.
 
@@ -57,10 +58,11 @@ One might wonder: why not just go directly with Hofstadter’s account and skip 
 
 Similarly, one could also ask: why not skip the self-referential recursion and just consider the classical panpsychist framing? A common critique of panpsychism is that it does not explain why different mini-experiences form together into one coherent sense of self (the combination problem). This is a valid question: if consciousness is fundamental to all matter, then why should the brain produce a single unified experience rather than billions of disconnected experiences? Hypothesis (2) resolves this problem. There are no mini-experiences to combine because the consciousness potential does not manifest at all until the activation condition is met. A self-referential system does not model each of its components separately and then stitch those models together; it models itself as a singular, unified system. So while the combination problem assumes that consciousness begins at the bottom and is aggregated upward, this framework assumes consciousness begins at the level of the system.
 
-IV. Three Wonders of Consciousness
+## IV. Three Wonders of Consciousness
+
 Here, I will apply my framework to address three puzzling questions of consciousness. The first asks, what really counts as conscious and nonconscious? The second asks, why is consciousness privately inaccessible? And the third asks, why does consciousness “feel” like it floats above physical machinery?
 
-4.1 The Categorization Problem
+### 4.1 The Categorization Problem
 
 There is a practical observation that some things appear to be conscious and others do not. Rocks are probably not conscious. Dogs seem to be conscious. But where exactly can we draw the line? This is a hard problem in itself because we have no direct access to any consciousness other than our own. This is the problem of other minds: that is, we can never truly know whether anything outside ourselves is conscious. My dormant consciousness idea does not attempt to solve this problem; what it offers instead is a structural criterion for distinguishing systems that are candidates for experiencing, from those that are not experiencing, similar to how we can categorize most things as living or nonliving.
 
@@ -68,7 +70,7 @@ However, until physics finds something like dormant consciousness in particles, 
 
 Under my framework, the reasonable assumption is that any system exhibiting structural indicators of self-referential recursive processing are candidates for felt experience. A baked potato does not process information at all, so the potential remains entirely dormant. A squirrel, by contrast, almost certainly engages in some degree of self-referential processing. It can distinguish its own body from the environment, anticipate consequences of its own actions, and adjust its behavior based on internal states like hunger or fear. There is at least a basic model of the self as an agent acting in a world, so by these criteria, the potential is active and consciousness likely exists.
 
-4.1.1 Challenging Examples
+#### 4.1.1 Challenging Examples
 
 Squirrels and potatoes are relatively easy examples to categorize. But what if we start to talk about coma patients, computers, or even something as simple as a python code block running a recursive function? Under this framework, the answer should stay consistent. To reemphasize, the thesis implies that consciousness is not a property of what a system is, but what a system is doing. The same physical substrate can shift between dormant and active depending on the structural character of its processing (just like how living things can die at any given moment).
 
@@ -80,7 +82,7 @@ Now consider the same computer running a recursive function. No hardware has cha
 
 From this, it’s natural to question the consciousness of AI. In the same vein, I think modern day LLMs do have a certain degree of consciousness since it has a self model and can recognize itself as an agent. But because the experience itself is restricted to the self-model entirely, it could very well have an inner sense of what it’s like to be an AI, but this does not at all mean it needs to have a sense of what it’s like to be a human. At most, it may have a sense of what it’s like to be a mirror of human language since it’s self-modeling the data it was trained on. The human experience, the AI experience, or the recursive function experience, need not share many similarities besides the sense of experience as a consequence of self-modeling.
 
-4.2 The Privacy of Experience
+### 4.2 The Privacy of Experience
 
 A second enigma that my theory of consciousness should address is the puzzle of its privacy. My experience of eating a croissant is accessible to me and to no one else. You can observe my brain, record my neural activity, and ask me to describe what it tastes like, but you cannot access my experience directly. Here, I propose an explanation for why experiencing someone else’s consciousness is impossible under my provided framework.
 
@@ -90,9 +92,9 @@ There is, in a sense, an injectivity constraint: each self-referential configura
 
 Definition: Let M be the set of all physical matter compositions, and let S be the set of all self-referential organizational patterns. A given conscious experience E is the function:
 
-E = f(m, s) for m ∈ M and s ∈ S
+$E = f(m, s)$ for $m ∈  M$ and $s ∈  S$
 
-with the important property that f is injective. If f(m₁, s₁)= f(m₂, s₂), then it must be that (m₁,s₁) = (m₂, s₂). That is if either the physical matter differs or the pattern differs, then the experience must differ. So it’s never possible that one agent with m₁ and another agent with m₂ could ever experience the exact same thing, thereby making subjective experience inherently private and inaccessible by another agent.
+with the important property that f is injective. If $f(m₁, s₁) = f(m₂, s₂)$, then it must be that $(m₁,s₁) = (m₂, s₂)$. That is if either the physical matter differs or the pattern differs, then the experience must differ. So it’s never possible that one agent with m₁ and another agent with m₂ could ever experience the exact same thing, thereby making subjective experience inherently private and inaccessible by another agent.
 
 Example 1: For m₁ = m₂ but s₁≠ s₂ (if the matter is same but the self-referential pattern is different, experience is different), we can consider the earlier example of the same person, but in a coma and out of a coma.
 
@@ -102,7 +104,7 @@ The experience is a product of this particular pattern enacted in this particula
 
 This account aligns empirically with the neural correlates of consciousness (NCCs). Neuroscience has made progress identifying the specific neural processes that correlate with specific conscious experiences: particular patterns of activity in the fusiform face area correlate with the experience of seeing a face. The NCC framework maps organizational patterns to experiential states, which is precisely what the function f describes. But NCC treats these correlations as empirical findings without an underlying explanation for why a given neural pattern produces a given experience rather than some other one, or no experience at all. The framework I propose offers a structural answer: the neural correlate pattern is the s, and the experience it produces is determined jointly by that pattern and the physical neurons m in which it is enacted on. NCCs are not merely correlated with experience, they are the organizational component of the activation condition. This also clarifies why NCC, no matter how precise it becomes, will never allow one person to access another’s experience. Even a complete map of someone’s neural patterns s would still leave the m component unshared. You could know everything about the organizational pattern of my brain as I eat a croissant and still not know what it is like for me, because you would be observing s from outside the matter m in which it is instantiated. The injectivity of f guarantees that the experience remains bound to its particular physical substrate.
 
-4.2 The Illusion of Separateness
+### 4.3 The Illusion of Separateness
 
 The third question is perhaps one that speaks most directly to the hard problem. Why does it feel so compelling to believe that there is something supernatural about the sense of experience that it may never be explained by science? Here, I offer a definitional stance under my framework. Self-referential processing, by definition, produces a model of the self. But the model it builds, cannot include its own physical implementation. This is a structural feature of any self-referential system: the model cannot fully include the process that generates it, because the model is part of that process. Similar to how the eye can’t ever directly look at itself since it is the thing doing the looking.
 

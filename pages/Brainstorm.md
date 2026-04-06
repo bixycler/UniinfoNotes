@@ -14,6 +14,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- [Consciousness and Strange Loops](https://bosonphoton.medium.com/consciousness-and-strange-loops-5f8b6199bc3a) shows ideas similar to Unïnfo about panpsychism and the levels of awareness.
 		  id:: 69d31a20-e33a-4367-85b1-0e0a533e016c
 		  collapsed:: true
+			- Full text: [Consciousness and Strange Loops](../assets/Will/story/2026-04/Consciousness and Strange Loops.md)
 			- In Unïnfo, the separation of the mind from the physical body is a **phase transition** from a fluid phase to a crystal phase by **closing its circle**, separating the circle of the mind from the background physical body.
 			  id:: 69d35428-4259-485c-b0ac-5ac8db2ef4e0
 				- This phase transition generates both the objective **background independence** of the mind and the subjective ((6810327c-f633-4537-84a1-ca36a8d49d65)).
