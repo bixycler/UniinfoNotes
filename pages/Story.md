@@ -1410,10 +1410,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- It's interesting that the _separateness between **mental** & **physical** worlds_ is traced to [Gödel's incompleteness theorems](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems).
 					- In Unïnfo, the separation of the mind from the physical body is a **phase transition** from a fluid phase to a crystal phase by **closing its circle**, separating the circle of the mind from the background physical body.
 					  id:: 69d35428-4259-485c-b0ac-5ac8db2ef4e0
-						- This phase transition generates both the subjective ((6810327c-f633-4537-84a1-ca36a8d49d65)) and the objective **background independence** of the mind. E.g.:
+						- This phase transition generates both the subjective ((6810327c-f633-4537-84a1-ca36a8d49d65)) and the objective **background independence** of the mind.
+						- Examples of the separation and background independence:
 							- [attactors](https://en.wikipedia.org/wiki/Attractor) & [limit cycles](https://en.wikipedia.org/wiki/Limit_cycle) of non-linear dynamical systems,
 							- the **scale separation** in the [Renormalization Group flow](https://en.wikipedia.org/wiki/Renormalization_group#Elementary_theory) from the high-engergy micro-scaled boundary to the low-engergy macro-scaled bulk in holographic principle and AdS/CFT correspondence,
 							- and the background independence [of general relativity](((699c0366-2d90-4a25-83d2-0c91afcbf425))).
+						- This closedness generates both separateness
 					- Check NotebookLM again and see it has completely lost the section of awareness, including the 3 levels.
 					  collapsed:: true
 						- Wow, i've checked the source shown as text in this notebook and see it completely broken, broken at the word level 😲. E.g.: 
