@@ -1410,7 +1410,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- It's interesting that the _separateness between **mental** & **physical** worlds_ is traced to [Gödel's incompleteness theorems](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems).
 					- In Unïnfo, the separation of the mind from the physical body is a **phase transition** from a fluid phase to a crystal phase by **closing its circle**, separating the circle of the mind from the background physical body.
 					  id:: 69d35428-4259-485c-b0ac-5ac8db2ef4e0
-						- This phase transition generates both the subjective ((6810327c-f633-4537-84a1-ca36a8d49d65)) and the objective **background independence** of the mind, like that of non-linear dynamical systems, the scale separation holographic principle and [in general relativity](((699c0366-2d90-4a25-83d2-0c91afcbf425))).
+						- This phase transition generates both the subjective ((6810327c-f633-4537-84a1-ca36a8d49d65)) and the objective **background independence** of the mind. E.g.:
+							- [attactors](https://en.wikipedia.org/wiki/Attractor) & [limit cycles](https://en.wikipedia.org/wiki/Limit_cycle) of non-linear dynamical systems,
+							- the scale separation holographic principle,
+							- background independence [of general relativity](((699c0366-2d90-4a25-83d2-0c91afcbf425))).
 					- Check NotebookLM again and see it has completely lost the section of awareness, including the 3 levels.
 					  collapsed:: true
 						- Wow, i've checked the source shown as text in this notebook and see it completely broken, broken at the word level 😲. E.g.: 
@@ -1426,6 +1429,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- I sourced it from Google Drive for the “Sync to Drive” button, but the trade off is a completely unreadable source ☹️!
 						- After reuploading the PDF source directly, the issue has gone. The source now has clear text with metadata (visible only to the model) and images (visible to human).
 				-
+			-
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69ce0ded-193e-4b34-bda5-f53418e34a16))
