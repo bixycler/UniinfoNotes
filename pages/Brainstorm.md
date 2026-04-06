@@ -18,7 +18,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  CLOCK: [2026-04-06 Mon 20:03:38]
 		  :END:
 			- Ref: ((69d3af51-e196-4656-9605-1e6fa8099156))
-		- DOING Will Lei's personal experience with Qigong and Tantric sex
+		- DOING Will Lei's personal experiences with Qigong and Tantric sex
 		  id:: 69d3af51-e196-4656-9605-1e6fa8099156
 		  collapsed:: true
 		  :LOGBOOK:
