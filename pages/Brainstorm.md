@@ -11,13 +11,41 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2026 Brainstorms
 	  id:: 6960e754-ff94-4e1a-8266-d9f15231b880
-		- DOING [Three Treasures of Taoism](https://en.wikipedia.org/wiki/Three_Treasures_(Taoism)) = ((669dfc7d-5355-41db-93a1-8d590e8ec9d8))
+		- DOING [Three Treasures of Taoism  (三寶, Sān Bǎo)](https://en.wikipedia.org/wiki/Three_Treasures_(traditional_Chinese_medicine)) = ((669dfc7d-5355-41db-93a1-8d590e8ec9d8))
+		  id:: 69d3af25-95e2-4441-93e7-e5797eda2c42
 		  collapsed:: true
 		  :LOGBOOK:
-		  CLOCK: [2026-04-06 Mon 20:03:35]
-		  CLOCK: [2026-04-06 Mon 20:03:38]
+		  CLOCK: [2026-04-06 Mon 20:43:08]
 		  :END:
-			- Ref: ((69d3af51-e196-4656-9605-1e6fa8099156))
+			- Correlation between Taoist alchemy and Unïnfo principles: *Sān Bǎo* (Jing, Qi, Shen) = Trinion (Circle, Arrow, Equal).
+				- The Three Treasures (*Sān Bǎo*) act as the biological manifestations of the Trinion components.
+				- This mapping provides a structural framework for understanding the phase transition from matter to awareness.
+				- Reference: These correspondences are drawn from ((69d3af51-e196-4656-9605-1e6fa8099156)).
+			- Jing (精) = Circle
+				- The Circle `○` representing Form and Matter.
+				- Physical hardware layer
+					- Includes muscle, vessel, hormone, and nerve.
+					- Acts as the "Solid" state or the "Crystallization of Content".
+				- Role in the system: The **Container** or the **Pressure Vessel** where energy is condensed.
+			- Qi (氣) = Arrow
+				- The Arrow `→` representing Dynamic Content and Energy.
+				- Runtime execution layer
+					- The "Vapor" state representing the motion of the *jing*.
+					- Manifests as the feeling of tension, congestion, surge, and electricity.
+				- Role in the system: The **Vector** or the **Effect Flow** that drives information through the hardware.
+			- Shen (神) = Equal
+				- The Equal `=` representing Awareness and the *obop* state.
+				- System administrator layer
+					- The "Mind" or "Spirit" that observes the system without being consumed by the operation.
+					- Based on but not limited to the Central Nervous System.
+				- Role in the system: The **Stable Observer** or the **Static Presence** that remains during the energy blast.
+			- Alchemical processes in Unïnfo terms
+				- *Bế tinh* (Seal Essence): Locking the Circle `○` to build potential energy.
+				- *Dưỡng khí* (Nourish Energy): Directing the Arrow `→` to circulate the content.
+				- *Tồn thần* (Preserve Spirit): Maintaining the Equal `=` to stabilize the system.
+				- Energy equivalence
+					- Based on $⟪E = m \cdot c^2⟫$, where Form (*jing*) is the crystallization of Content (*qi*).
+					- Sublimation is the process of reversing this crystallization to return matter to pure energy.
 		- DOING Will Lei's personal experiences with Qigong and Tantric sex
 		  id:: 69d3af51-e196-4656-9605-1e6fa8099156
 		  collapsed:: true
