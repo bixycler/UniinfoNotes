@@ -1419,7 +1419,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- But the closedness is not absolute: there are always open “pores”, expressing as the random/chaos from the outside and as the mysterious consciousness from the inside.
 					- In Unïnfo, the horizontal separation between the selves is secondary to the vertical separation of the mind from its background physical body: each individual mind is isolated in its “shell” of body which is separate both from its mind and from other bodies.
 					- In the section “The Privacy of Experience”, Chelsea Zou used a trivial model of $E = f(m, s)$ to formulate experience $E$ as a function of physical matter compositions $m$ and self-referential organizational pattern $s$, with only a trivial condition of $f$ being injective.
-						- She missed the crucial propery of $f$ being non-linear. A trivial linear map
+						- She missed the crucial propery of $f$ being non-linear. E.g.: A trivial linear map like $(1, 2, 3) → (a1, a2, a3)$ is also injective.
+						- She seemed to imply the non-linearity in the “self-referential organizational pattern” $s$
 					- Check NotebookLM again and see it has completely lost the section of awareness, including the 3 levels.
 					  collapsed:: true
 						- Wow, i've checked the source shown as text in this notebook and see it completely broken, broken at the word level 😲. E.g.: 
