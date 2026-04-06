@@ -1407,15 +1407,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  collapsed:: true
 			- 4-5th, weekends,...
 				- [Consciousness and Strange Loops](https://bosonphoton.medium.com/consciousness-and-strange-loops-5f8b6199bc3a) shows ideas similar to Unïnfo about panpsychism and the levels of awareness.
-					- It's interesting that the _separateness between **mental** & **physical** worlds_ is traced to [Gödel's incompleteness theorems](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems).
+					- It's interesting that Chelsea Zou traced the _separateness between **mental** & **physical** worlds_ is to [Gödel's incompleteness theorems](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems).
 					- In Unïnfo, the separation of the mind from the physical body is a **phase transition** from a fluid phase to a crystal phase by **closing its circle**, separating the circle of the mind from the background physical body.
 					  id:: 69d35428-4259-485c-b0ac-5ac8db2ef4e0
-						- This phase transition generates both the subjective ((6810327c-f633-4537-84a1-ca36a8d49d65)) and the objective **background independence** of the mind.
+						- This phase transition generates both the objective **background independence** of the mind and the subjective ((6810327c-f633-4537-84a1-ca36a8d49d65)).
 						- Examples of the separation and background independence:
 							- [attactors](https://en.wikipedia.org/wiki/Attractor) & [limit cycles](https://en.wikipedia.org/wiki/Limit_cycle) of non-linear dynamical systems,
 							- the **scale separation** in the [Renormalization Group flow](https://en.wikipedia.org/wiki/Renormalization_group#Elementary_theory) from the high-engergy micro-scaled boundary to the low-engergy macro-scaled bulk in holographic principle and AdS/CFT correspondence,
 							- and the background independence [of general relativity](((699c0366-2d90-4a25-83d2-0c91afcbf425))).
-						- This closedness generates both separateness
+						- This closedness generates both ways separateness: the horizontal separation between the selves in the same scale, and the vertical separation between layers in different scales.
+					- In Unïnfo, the horizontal separation between the selves is secondary to the vertical separation of the mind from its background physical body: each individual mind is isolated in its
 					- Check NotebookLM again and see it has completely lost the section of awareness, including the 3 levels.
 					  collapsed:: true
 						- Wow, i've checked the source shown as text in this notebook and see it completely broken, broken at the word level 😲. E.g.: 
