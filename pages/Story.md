@@ -1418,13 +1418,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- This closedness generates both ways separateness: the horizontal separation between the selves in the same scale, and the vertical separation between layers in different scales.
 						- But the closedness is not absolute: there are always open “pores”, expressing as the random/chaos from the outside and as the mysterious consciousness from the inside. This openness leads to the sensitivity of dynamical system to its initial condition.
 					- In Unïnfo, the horizontal separation between the selves is secondary to the vertical separation of the mind from its background physical body: each individual mind is isolated in its “shell” of body which is separate both from its mind and from other bodies.
-						-
+						- Beside being shielded by the wall of the body, the “privacy” is further reinforced by the
 					- In the section “The Privacy of Experience”, Chelsea Zou used a trivial model of $E = f(m, s)$ to formulate experience $E$ as a function of physical matter compositions $m$ and self-referential organizational pattern $s$, with only a trivial condition of $f$ being injective.
 						- She missed the crucial propery of $f$ being **non-linear**. E.g.: A trivial linear map like $(1, 2, 3) → (a1, a2, a3)$ is also injective.
 						- She seemed to imply the non-linearity in the “self-referential organizational pattern” $s$.
-							- However she confused it in the Example 2: For m₁ ≠ m₂ but s₁ = s₂ when 2 people looking at the same red apple. D
-							- Here, she stated s₁ = s₂ = “isomorphic visual recognition function in the brain”.
+						  collapsed:: true
+							- However she confused it in the Example 2: For m₁ ≠ m₂ but s₁ = s₂ when 2 people looking at the same red apple. Due to the lack of non-linearity, she concluded a trivial result: 
+							  > Since the organization is the same, they should have a similar, but not identical experience.
 							- She even further gave a wrong example of recursive Fibonacci computation being influenced by the “floating point discrepancies” which have nothing to do with such an integer computation.
+							- Putting all of these confusion aside, we can see her statement of s₁ = s₂ = “isomorphic visual recognition function in the brain” as the indication that $s$ is a non-linear function of the internal state.
 						- In order to make the formulation non-trivial, we consider a non-linear map $s$, and rewrite $E = f(m, s, t) = s^t(m)$ to be sensitive to the initial condition of $m$. This will exponetially amplify the tiny diff $dm = |m_1 - m_2|$ into a completely different experiences $ΔE = |E_1 - E_2| ≫ |E_2|$.
 					- Check NotebookLM again and see it has completely lost the section of awareness, including the 3 levels.
 					  collapsed:: true
