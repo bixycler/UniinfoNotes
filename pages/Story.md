@@ -1416,7 +1416,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- the **scale separation** in the [Renormalization Group flow](https://en.wikipedia.org/wiki/Renormalization_group#Elementary_theory) from the high-engergy micro-scaled boundary to the low-engergy macro-scaled bulk in holographic principle and AdS/CFT correspondence,
 							- and the background independence [of general relativity](((699c0366-2d90-4a25-83d2-0c91afcbf425))).
 						- This closedness generates both ways separateness: the horizontal separation between the selves in the same scale, and the vertical separation between layers in different scales.
-					- In Unïnfo, the horizontal separation between the selves is secondary to the vertical separation of the mind from its background physical body: each individual mind is isolated in its
+						- But the closedness is not absolute: there are always open “pores”, expressing as the random/chaos from the outside and as the mysterious consciousness from the inside.
+					- In Unïnfo, the horizontal separation between the selves is secondary to the vertical separation of the mind from its background physical body: each individual mind is isolated in its “shell” of body which is separate both from its mind and from other bodies.
+					- In the section “The Privacy of Experience”, Chelsea Zou
 					- Check NotebookLM again and see it has completely lost the section of awareness, including the 3 levels.
 					  collapsed:: true
 						- Wow, i've checked the source shown as text in this notebook and see it completely broken, broken at the word level 😲. E.g.: 
