@@ -1405,8 +1405,23 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		- April journal
 		  id:: 69ce0ded-193e-4b34-bda5-f53418e34a16
 		  collapsed:: true
-			- 2nd,...
-			- ⤚ →
+			- 4-5th, weekends,...
+				- [Consciousness and Strange Loops](https://bosonphoton.medium.com/consciousness-and-strange-loops-5f8b6199bc3a) shows ideas similar to Unïnfo about panpsychism and the levels of awareness.
+					- Check NotebookLM again and see it has completely lost the section of awareness, including the 3 levels.
+					  collapsed:: true
+						- Wow, i've checked the source shown as text in this notebook and see it completely broken, broken at the word level 😲. E.g.: 
+						   ```
+						  subject (human or God
+						  tantly changing.
+						  -Content (
+						  escripti
+						  f
+						  rocess.
+						  ```
+						- This mess is due to the sourcing from Google Drive.
+							- I sourced it from Google Drive for the “Sync to Drive” button, but the trade off is a completely unreadable source ☹️!
+						- After reuploading the PDF source directly, the issue has gone. The source now has clear text with metadata (visible only to the model) and images (visible to human).
+				-
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69ce0ded-193e-4b34-bda5-f53418e34a16))
