@@ -695,10 +695,11 @@ id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
 				- “Not in a God who concerns himself with the fate and the doings of mankind”: This explicitly rejects the anthropomorphic, personal God of many religions who intervenes, judges, and has personal relationships with humans.
 				- This aligns with this discussion where God neither “plays dice” nor directly dictates every move, but rather sets the framework.
 		- The Hidden Gap in Einstein’s Own Relativity – Revealed in his [1931 Conversation with Tagore](https://www.themarginalian.org/2012/04/27/when-einstein-met-tagore/)
-			- Despite giving humanity the two greatest theories of radical relationality (Special/General Relativity and the foundations of quantum theory), Einstein clung to an absolute, human-independent Truth: “the moon is there even when no one looks.”
+			- Despite giving humanity the two greatest theories of radical relationality (Special/General Relativity and the foundations of quantum theory), Einstein clung to an absolute, subject-independent Truth: “the moon is there even when no one looks.”
 			- In Unïnfo language, he fully accepted the Arrow (relativity of frames, background-independent geometry) and glimpsed the Circle (the Truth), but resisted the final component – the Equal as mind – the recognition that no Circle can exist without being constantly observed-operated by the equation ⟪○ = ↑⟫.
 			- This residual belief in an observer-independent absolute is precisely why he could never reconcile himself with the completed quantum theory he helped birth.
 			- Ironically, the very [background independence](https://en.wikipedia.org/wiki/Background_independence) of General Relativity – “floating on air with no fixed ground” – already whispered the full Trinion truth that Einstein’s metaphysical intuition could not accept yet.
+			  id:: 699c0366-2d90-4a25-83d2-0c91afcbf425
 		- ⇒ Thus, “God does not play dice” was correct, but for the opposite reason Einstein thought: not because of the absolute Truth independent from observer, but because the dice itself is just a hand of God – the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) – which is thrown and observed by the ((6653751a-a1b4-44b0-a81e-0a446eb8918c)). There is neither an external dice nor a lonely moon existing outside of any sight of observation.
 	- Manifestations of complementarity
 	  id:: 68bf9f05-4545-4f07-ad27-9ed4409af1ae
