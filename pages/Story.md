@@ -1412,7 +1412,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  id:: 69d35428-4259-485c-b0ac-5ac8db2ef4e0
 						- This phase transition generates both the subjective ((6810327c-f633-4537-84a1-ca36a8d49d65)) and the objective **background independence** of the mind. E.g.:
 							- [attactors](https://en.wikipedia.org/wiki/Attractor) & [limit cycles](https://en.wikipedia.org/wiki/Limit_cycle) of non-linear dynamical systems,
-							- the scale separation holographic principle,
+							- the scale separation from the high-engergy micro-scaled membrane to the low-engergy macro-scaled bulk in holographic principle,
 							- background independence [of general relativity](((699c0366-2d90-4a25-83d2-0c91afcbf425))).
 					- Check NotebookLM again and see it has completely lost the section of awareness, including the 3 levels.
 					  collapsed:: true
