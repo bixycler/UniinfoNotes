@@ -1419,11 +1419,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- But the closedness is not absolute: there are always open “pores”, expressing as the random/chaos from the outside and as the mysterious consciousness from the inside.
 					- In Unïnfo, the horizontal separation between the selves is secondary to the vertical separation of the mind from its background physical body: each individual mind is isolated in its “shell” of body which is separate both from its mind and from other bodies.
 					- In the section “The Privacy of Experience”, Chelsea Zou used a trivial model of $E = f(m, s)$ to formulate experience $E$ as a function of physical matter compositions $m$ and self-referential organizational pattern $s$, with only a trivial condition of $f$ being injective.
-						- She missed the crucial propery of $f$ being non-linear. E.g.: A trivial linear map like $(1, 2, 3) → (a1, a2, a3)$ is also injective.
+						- She missed the crucial propery of $f$ being **non-linear**. E.g.: A trivial linear map like $(1, 2, 3) → (a1, a2, a3)$ is also injective.
 						- She seemed to imply the non-linearity in the “self-referential organizational pattern” $s$.
-							- For a non-linear mapping $s$, we can rewrite $E = f(m, s, t) = s^t(m)$ to be sensitive to the initial condition of $m$. This will exponetially amplify the tiny diff $dm = m_1 - m_2$ into a completely different experience
+							- For a non-linear map $s$, we can rewrite $E = f(m, s, t) = s^t(m)$ to be sensitive to the initial condition of $m$. This will exponetially amplify the tiny diff $dm = |m_1 - m_2|$ into a completely different experiences $ΔE = |E_1 - E_2| ≫ |E_2|$.
 							- However she confused it in the Example 2: For m₁ ≠ m₂ but s₁ = s₂ when 2 people looking at the same red apple. Here, she stated s₁= s₂ = “isomorphic visual recognition function in the brain”.
-							- She even further gave a wrong example of recursive Fibonacci computation being influenced by the “floating point discrepancies” which has nothing to do with such an integer computation.
+							- She even further gave a wrong example of recursive Fibonacci computation being influenced by the “floating point discrepancies” which have nothing to do with such an integer computation.
 					- Check NotebookLM again and see it has completely lost the section of awareness, including the 3 levels.
 					  collapsed:: true
 						- Wow, i've checked the source shown as text in this notebook and see it completely broken, broken at the word level 😲. E.g.: 
@@ -1439,7 +1439,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- I sourced it from Google Drive for the “Sync to Drive” button, but the trade off is a completely unreadable source ☹️!
 						- After reuploading the PDF source directly, the issue has gone. The source now has clear text with metadata (visible only to the model) and images (visible to human).
 				-
-			-
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69ce0ded-193e-4b34-bda5-f53418e34a16))
