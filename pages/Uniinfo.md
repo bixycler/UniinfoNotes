@@ -253,17 +253,18 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 				- > “The Way generates the One; the One generates the Two; the Two generates the Three; the Three generates all things.”
 				  「道生一，一生二，二生三，三生萬物。」
 				  
-				  — [Chapter 42. The transformation of the Way](https://ctext.org/dao-de-jing#n11633), Tao Te Ching, Lao Tzu
+				  — [Chapter 42. The transformation of the Way](https://en.wikisource.org/wiki/Translation:Tao_Te_Ching#Chapter_42_(%E7%AC%AC%E5%9B%9B%E5%8D%81%E4%BA%8C%E7%AB%A0)), Tao Te Ching, Lao Tzu
 			- As nominals, ⟪○⟫, ⟪↑⟫ and ⟪=⟫ are numbered “0”, “1” and “2” (Chinese “二”), resp., which represent their intension.
 			- As ordinals, ⟪○⟫, ⟪↑⟫ and ⟪=⟫ are called “the First”, “the Second” and “the Third”, resp.
 			- As cardinals, ⟪⊜⟫, ⟪○ = ↑⟫, ⟪○, ↑⟫ and ⟪○, ↑, =⟫ are called “the Zero”, “the One”, “the Two” and “the Three”, resp.
 			- Moreover, the three components ⟪○⟫, ⟪↑⟫ and ⟪=⟫ are also identified with “1”, “2” and “0”, resp., when considering their extension.
 			- In Taoism, the Zero (⊜) is called “the Way”, the 1st and the 2nd (○, ↑) are called “yin”[陰,⚋] (dark, negative, disconnected, blocked) and “yang”[陽,⚊] (light, positive, connected, through) which are harmonized by the 3rd (`=`). The 3rd is the most important one with many manifestations: the Equal, the middle, the interaction, the interface, ...
-				- > “All things carry Yin on their back and embrace Yang in their front,
+				- id:: 699c0363-0471-4989-a833-5635c81d3761
+				  > “All things carry Yin on their back and embrace Yang in their front,
 				  which are harmonised by the Breath of Vacancy in the Conflict .”  
 				  「萬物負陰而抱陽，沖氣以為和。」
 				  
-				  — [Chapter 42. The transformation of the Way](https://ctext.org/dao-de-jing#n11633), Tao Te Ching, Lao Tzu
+				  — [Chapter 42. The transformation of the Way](https://en.wikisource.org/wiki/Translation:Tao_Te_Ching#Chapter_42_(%E7%AC%AC%E5%9B%9B%E5%8D%81%E4%BA%8C%E7%AB%A0)), Tao Te Ching, Lao Tzu
 			- The Arrow ⟪↑⟫ here is the long and curved arrow (↝) which can be broken into many short and straight arrows ⟪↥, ↧⟫ called “vectors” where the Equation turns out to be ⟪○ = ↥ + ↧⟫.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- About the name “Trinion”

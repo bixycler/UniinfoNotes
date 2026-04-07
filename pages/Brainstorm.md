@@ -200,7 +200,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  collapsed:: true
 			- Balance by mixmatch
 				- Balancing is bringing different things together to mix them by resolving their conflicts, diffences, mismatches, errors, gaps, etc.
-				- 沖氣以為和
+				- {{embed ((699c0363-0471-4989-a833-5635c81d3761))}}
 				- [Audio mixing](https://en.wikipedia.org/wiki/Audio_mixing) and [color mixing](https://en.wikipedia.org/wiki/Color_mixing) is the art of balancing and [equalization](https://en.wikipedia.org/wiki/Audio_equalization) of volume and tone in space and time.
 					- In art, mixing is not a random mixing, but a selective mixing, a mixmatch.
 			- [Mixmatch](((699c0368-9fba-448f-ab2a-32492ca9291c))) by [staggering](((67b54283-14b2-4753-94bb-4d827d54d7cc))) between match & mismatch, sim & diff, problem & solution, info & knowledge, yin (⚋) & yang (⚊), circle & arrow, etc.
@@ -212,12 +212,13 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- M & W are decomposed to subthreads $(m_k)$ & $(w_k)$
 				- Matched threads $m_i = w_j$ are resolved => their circles are closed.
 				- Remaining unmatched threads (open arrows) continue to mix recursively.
-			- Ways of mixing: wave interference (addition), SCIFER (interunion), Three-Way Merge (Git), recursive refinement (fractal)
-			- The diamond problem ([in reactivity](https://github.com/milomg/reactively/blob/main/Reactive-algorithms.md#reactive-algorithms) and [in inheritance](https://en.wikipedia.org/wiki/Multiple_inheritance#The_diamond_problem)) is the selfless view of change.
-				- In reactive programming, the diamond problem is usually called “glitch” as in [this paper](https://soft.vub.ac.be/Publications/2022/vub-tr-soft-22-15.pdf).
-			- Selful view of change: _difference from itself_.
-				- Self thread M → M': momentum, history, tradition, static circle, obop of effect circle
-				- Echo thread M → W → M': body of effect circle, the arrow going out and back in
+			- Ways of mixmatching: wave interference (addition), SCIFER (interunion), Three-Way Merge (Git), recursive refinement (fractal)
+			- This very mixmatching is what happens in the heart of the ((69b9470c-40e4-49ca-84df-1cb6a3379987)), the mechanism of the arrow of time.
+				- The diamond problem ([in reactivity](https://github.com/milomg/reactively/blob/main/Reactive-algorithms.md#reactive-algorithms) and [in inheritance](https://en.wikipedia.org/wiki/Multiple_inheritance#The_diamond_problem)) is the selfless view of change.
+					- In reactive programming, the diamond problem is usually called “glitch” as in [this paper](https://soft.vub.ac.be/Publications/2022/vub-tr-soft-22-15.pdf).
+				- Selful view of change: _difference from itself_.
+					- Self thread M → M': momentum, history, tradition, static circle, obop of effect circle
+					- Echo thread M → W → M': body of effect circle, the arrow going out and back in
 		- intrinsic interdependence = perfect incompleteness = limited resolution = intrinsic dynamic = intrinsic openness = intrinsic curvature = ((6858b355-fba9-4e61-9f16-bc993a3df44b))
 		  id:: 69b917d0-494f-4527-9e1b-0dcff5a2cc91
 		  collapsed:: true
