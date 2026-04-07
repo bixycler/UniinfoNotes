@@ -2099,7 +2099,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 			- ### change
 			  id:: 667c008f-cd1f-4a6b-a9c8-d6efa1d8d342
 			  collapsed:: true
-			  “different from itself” 
+			  “difference from itself” 
 			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((667bff0e-d45d-4d41-8683-51c3cf76c0bc))
 				- self-effect
 				  id:: 667bff0e-d45d-4d41-8683-51c3cf76c0bc

@@ -214,9 +214,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Remaining unmatched threads $m_i' ≠ w_j'$ (open arrows) continue to mix recursively $m_i' ⋇ w_j'$.
 			- Ways of mixmatching: wave interference (addition), SCIFER (interunion `⋇`), Three-Way Merge (Git), recursive refinement (fractal)
 			- Mixmatching is what happens in the heart of the ((69b9470c-40e4-49ca-84df-1cb6a3379987)), the mechanism of the arrow of time.
-				- The diamond problem ([in reactivity](https://github.com/milomg/reactively/blob/main/Reactive-algorithms.md#reactive-algorithms) and [in inheritance](https://en.wikipedia.org/wiki/Multiple_inheritance#The_diamond_problem)) is the selfless view of change.
+				- All branching threads are to be mixmatched together later ⇒ diamond shape.
+				- Selfless view of change: diamond problem ([in reactivity](https://github.com/milomg/reactively/blob/main/Reactive-algorithms.md#reactive-algorithms) and [in inheritance](https://en.wikipedia.org/wiki/Multiple_inheritance#The_diamond_problem))
 					- In reactive programming, the diamond problem is usually called “glitch” as in [this paper](https://soft.vub.ac.be/Publications/2022/vub-tr-soft-22-15.pdf).
-				- Selful view of change: _difference from itself_.
+				- Selful view of ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)): _difference from itself_.
 					- Self thread M → M': momentum, history, tradition, static circle, obop of effect circle
 					- Echo thread M → W → M': body of effect circle, the arrow going out and back in
 		- intrinsic interdependence = perfect incompleteness = limited resolution = intrinsic dynamic = intrinsic openness = intrinsic curvature = ((6858b355-fba9-4e61-9f16-bc993a3df44b))
