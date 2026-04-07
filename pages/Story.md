@@ -1218,7 +1218,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 24th, daytime: wrapped up the official work (writing report); nighttime: voice chatted with Gemini.
 			  collapsed:: true
 				- The voice mode of Gemini is far dumber than the text mode, and the barrier of TTS & STT is still far from real voice communication.
-			- 25th, contemplation of [balance = mix = arrow of time]() initiatiated by the dilemma in Git branch handling of `gc-log-graph`.
+			- 25th, contemplation of [balance = mixmatch = arrow of time]() initiatiated by the dilemma in Git branch handling of `gc-log-graph`.
 				- Add docs to `gc-log-graph` → [!] Vite issues to be solved
 				  collapsed:: true
 					- Live server serves text files (`.md`, `.sh`) without `Content-Type`.

@@ -1,4 +1,4 @@
-- equal = balance = mix (like arrow of time) = merge (like Git) = resolution of conflict, diff, mismatch, error, gap = ((69a502fe-47e2-4629-a40c-78964d9e0396))
+- equal = balance = mixmatch (like arrow of time) = merge (like Git) = resolution of conflict, diff, mismatch, error, gap = ((69a502fe-47e2-4629-a40c-78964d9e0396))
 	- The diamond problem ([in reactivity](https://github.com/milomg/reactively/blob/main/Reactive-algorithms.md#reactive-algorithms) and [in inheritance](https://en.wikipedia.org/wiki/Multiple_inheritance#The_diamond_problem)) is the selfless view of change.
 		- In reactive programming, the diamond problem is usually called “glitch” as in [this paper](https://soft.vub.ac.be/Publications/2022/vub-tr-soft-22-15.pdf).
 	- Selful view of change: _difference from itself_.
