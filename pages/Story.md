@@ -1219,6 +1219,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- The voice mode of Gemini is far dumber than the text mode, and the barrier of TTS & STT is still far from real voice communication.
 			- 25th, contemplation of [balance = mixmatch = arrow of time]() initiatiated by the dilemma in Git branch handling of `gc-log-graph`.
+			  id:: 69c51a3e-383d-42f5-b1ba-114fa24e8d6a
 				- Add docs to `gc-log-graph` → [!] Vite issues to be solved
 				  collapsed:: true
 					- Live server serves text files (`.md`, `.sh`) without `Content-Type`.
@@ -1226,7 +1227,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Vite changes should be committed to branch `work` instead of `work-gc-log-graph`.
 						- These tasks are not only in different branches, but also in different projects: `Corkei` vs `Corkei.applets`.
 						- It's difficult to deal, because the addition of `.md` files are in `Corkei.applets` while Vite changes to support them are to be added in `Corkei`.
-						- DOING Anyway, just use the `.sh` files alreay in `Corkei` project to ask Antigravity to add support for text files in general.
+						- DOING Anyway, switch to `Corkei:work`, ask Antigravity to add support for text files in general, referencing the text file type `.sh` alreay in `Corkei`.
 						  :LOGBOOK:
 						  CLOCK: [2026-03-25 Wed 18:31:33]
 						  :END:
@@ -1406,6 +1407,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  id:: 69ce0ded-193e-4b34-bda5-f53418e34a16
 		  collapsed:: true
 			- 4-5th, weekends, chat about my Tantric practice and the article “Consciousness and Strange Loops”
+			  collapsed:: true
 				- I checked NotebookLM again for the levels of awareness to compare with [Chelsea Zou's article](((69d31a20-e33a-4367-85b1-0e0a533e016c))), and see it has completely lost the section of awareness.
 				  collapsed:: true
 					- Wow, i've checked the source shown as text in this notebook and see it completely broken, broken at the word level 😲. E.g.: 
@@ -1421,6 +1423,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- I sourced it from Google Drive for the “Sync to Drive” button, but the trade off is a completely unreadable source ☹️!
 					- After reuploading the PDF source directly, the issue has gone. The source now has clear text with metadata (visible only to the model) and images (visible to human).
 				- Chat with Gemini about [my Tantric practice](((69d3af51-e196-4656-9605-1e6fa8099156))) and ((69d3af25-95e2-4441-93e7-e5797eda2c42))
+			- 7th, ...
+			  collapsed:: true
+				- After round 2 weeks, now i get back to the [blocked task last month](((69c51a3e-383d-42f5-b1ba-114fa24e8d6a))), after resolving many interceptions (CNAME setting with Unbound & SSH tunneling).
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69ce0ded-193e-4b34-bda5-f53418e34a16))
