@@ -1437,6 +1437,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Vite issues when adding docs to `gc-log-graph`: no touch to Antigravity since then
 						- The arrow of time is still in midway chat with Gemini
 						- Screenshot
+						  collapsed:: true
 							- ![march-intercepted-tasks.png](../assets/Will/story/2026-04/march-intercepted-tasks.png)
 					- Exclamations
 						- At the end of March:
