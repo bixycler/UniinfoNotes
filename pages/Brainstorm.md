@@ -207,9 +207,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- M & W are decomposed to subthreads $(m_k)$ & $(w_k)$
 				- Matched threads $m_i = w_j$ are resolved => their circles are closed.
 				- Remaining unmatched threads (open arrows) continue to mix recursively.
-			- The [stagger](((67b54283-14b2-4753-94bb-4d827d54d7cc))) between match & mismatch, sim & diff, problem & solution, info & knowledge, yin (⚋) & yang (⚊), circle & arrow, etc.
-				- Circle: condition, environment, connector, container, pratyaya, 緣 (duyên)
-				- Arrow:
+			- Mixmatch by [staggering](((67b54283-14b2-4753-94bb-4d827d54d7cc))) between match & mismatch, sim & diff, problem & solution, info & knowledge, yin (⚋) & yang (⚊), circle & arrow, etc.
+				- Circle: the same condition, environment, connector, container, pratyaya, 緣 (duyên)
+				- Arrows: different factors, impulses, events, hetu, 因 (nhân)
 			- [Audio mixing](https://en.wikipedia.org/wiki/Audio_mixing) and [color mixing](https://en.wikipedia.org/wiki/Color_mixing) is the art of balancing and [equalization](https://en.wikipedia.org/wiki/Audio_equalization) of volume and tone in space and time.
 				- In art, mixing is not a random mixing, but a selective mixing, a mixmatch.
 		- intrinsic interdependence = perfect incompleteness = limited resolution = intrinsic dynamic = intrinsic openness = intrinsic curvature = ((6858b355-fba9-4e61-9f16-bc993a3df44b))
