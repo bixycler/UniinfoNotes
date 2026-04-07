@@ -195,25 +195,28 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Intelligence is the **attitude of asking** rather than the accumulation of knowledge.
 					- It requires the removal of the ego (no-self) to see reality as-is without the distortion of “already knowing”.
 					- [Rhetorical questions](https://en.wikipedia.org/wiki/Rhetorical_question) represent a corrupted protocol where the question (“hỏi”) is fake, serving only as a vehicle for a protest or a pre-defined demand (“đòi”).
-		- equal = balance = mixmatch (like arrow of time) = merge (like Git) = resolution of conflict, diff, mismatch, error, gap = ((69a502fe-47e2-4629-a40c-78964d9e0396))
+		- Equal = balance = mixmatch (like arrow of time) = merge (like Git) = resolution of conflict, diff, mismatch, error, gap = ((69a502fe-47e2-4629-a40c-78964d9e0396))
+		  id:: 69c51a39-97cb-4cf1-a6e1-ca29817def79
 		  collapsed:: true
-			- The diamond problem ([in reactivity](https://github.com/milomg/reactively/blob/main/Reactive-algorithms.md#reactive-algorithms) and [in inheritance](https://en.wikipedia.org/wiki/Multiple_inheritance#The_diamond_problem)) is the selfless view of change.
-				- In reactive programming, the diamond problem is usually called “glitch” as in [this paper](https://soft.vub.ac.be/Publications/2022/vub-tr-soft-22-15.pdf).
-			- Selful view of change: _difference from itself_.
-				- Self thread M → M': momentum, history, tradition, static circle, obop of effect circle
-				- Echo thread M → W → M': body of effect circle, the arrow going out and back in
-			- Ways of mixing: wave interference (addition), SCIFER (interunion), Three-Way Merge (Git), recursive refinement (fractal)
+			- Balance by mixmatch
+				- resolution of conflict, diff, mismatch, error, gap
+				- [Audio mixing](https://en.wikipedia.org/wiki/Audio_mixing) and [color mixing](https://en.wikipedia.org/wiki/Color_mixing) is the art of balancing and [equalization](https://en.wikipedia.org/wiki/Audio_equalization) of volume and tone in space and time.
+					- In art, mixing is not a random mixing, but a selective mixing, a mixmatch.
 			- [Mixmatch](((699c0368-9fba-448f-ab2a-32492ca9291c))) by [staggering](((67b54283-14b2-4753-94bb-4d827d54d7cc))) between match & mismatch, sim & diff, problem & solution, info & knowledge, yin (⚋) & yang (⚊), circle & arrow, etc.
 				- Circle: the same condition, environment, connector, container, form, pratyaya, 緣 (duyên)
 				- Arrows: different factors, impulses, events, contents, hetus, 因 (nhân)
 				- The circle is the container, the match that connects the arrows, mixes the mismatches together.
 				- Staggering mechanism: The mixing happens when circles go with arrows, not when circles with circles nor arrows with arrows.
-			- Mixmax: mixing = recursive matching
+			- Mixmatch: mixing = recursive matching
 				- M & W are decomposed to subthreads $(m_k)$ & $(w_k)$
 				- Matched threads $m_i = w_j$ are resolved => their circles are closed.
 				- Remaining unmatched threads (open arrows) continue to mix recursively.
-			- [Audio mixing](https://en.wikipedia.org/wiki/Audio_mixing) and [color mixing](https://en.wikipedia.org/wiki/Color_mixing) is the art of balancing and [equalization](https://en.wikipedia.org/wiki/Audio_equalization) of volume and tone in space and time.
-				- In art, mixing is not a random mixing, but a selective mixing, a mixmatch.
+			- Ways of mixing: wave interference (addition), SCIFER (interunion), Three-Way Merge (Git), recursive refinement (fractal)
+			- The diamond problem ([in reactivity](https://github.com/milomg/reactively/blob/main/Reactive-algorithms.md#reactive-algorithms) and [in inheritance](https://en.wikipedia.org/wiki/Multiple_inheritance#The_diamond_problem)) is the selfless view of change.
+				- In reactive programming, the diamond problem is usually called “glitch” as in [this paper](https://soft.vub.ac.be/Publications/2022/vub-tr-soft-22-15.pdf).
+			- Selful view of change: _difference from itself_.
+				- Self thread M → M': momentum, history, tradition, static circle, obop of effect circle
+				- Echo thread M → W → M': body of effect circle, the arrow going out and back in
 		- intrinsic interdependence = perfect incompleteness = limited resolution = intrinsic dynamic = intrinsic openness = intrinsic curvature = ((6858b355-fba9-4e61-9f16-bc993a3df44b))
 		  id:: 69b917d0-494f-4527-9e1b-0dcff5a2cc91
 		  collapsed:: true

@@ -1218,7 +1218,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 24th, daytime: wrapped up the official work (writing report); nighttime: voice chatted with Gemini.
 			  collapsed:: true
 				- The voice mode of Gemini is far dumber than the text mode, and the barrier of TTS & STT is still far from real voice communication.
-			- 25th, contemplation of [balance = mixmatch = arrow of time]() initiatiated by the dilemma in Git branch handling of `gc-log-graph`.
+			- 25th, contemplation of [balance = mixmatch = arrow of time](((69c51a39-97cb-4cf1-a6e1-ca29817def79))) initiatiated by the dilemma in Git branch handling of `gc-log-graph`.
 			  id:: 69c51a3e-383d-42f5-b1ba-114fa24e8d6a
 				- Add docs to `gc-log-graph` → [!] Vite issues to be solved
 				  collapsed:: true
@@ -1434,7 +1434,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Chat with Gemini about vavious things, and brainstorms in UniinfoNotes
 					- Intercepted tasks:
 						- New official task received but not started yet: research landing errors across modules
-						- “balance = mixmatch = arrow of time” is still left in Mind Chips
+						- [balance = mixmatch = arrow of time](((69c51a39-97cb-4cf1-a6e1-ca29817def79))) is still left in Mind Chips
 						- Vite issues when adding docs to `gc-log-graph`: no touch to Antigravity since then
 						- The arrow of time is still in midway chat with Gemini
 						- Screenshot
