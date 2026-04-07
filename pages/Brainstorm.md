@@ -208,12 +208,12 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Arrows: different factors, impulses, events, contents, hetus, 因 (nhân)
 				- The circle is the container, the match that connects the arrows, that mixes the mismatches together.
 				- Staggering mechanism: The mixing happens when circles go with arrows, not when circles with circles nor arrows with arrows.
-			- Mixmatch: mixing = recursive matching
+			- Mixmatching $M ⋇ W$ = recursive matching
 				- M & W are decomposed to subthreads $(m_k)$ & $(w_k)$
 				- Matched threads $m_i = w_j$ are resolved => their circles are closed.
-				- Remaining unmatched threads (open arrows) continue to mix recursively.
-			- Ways of mixmatching: wave interference (addition), SCIFER (interunion), Three-Way Merge (Git), recursive refinement (fractal)
-			- This very mixmatching is what happens in the heart of the ((69b9470c-40e4-49ca-84df-1cb6a3379987)), the mechanism of the arrow of time.
+				- Remaining unmatched threads $m_i' ≠ w_j'$ (open arrows) continue to mix recursively $m_i' ⋇ w_j'$.
+			- Ways of mixmatching: wave interference (addition), SCIFER (interunion `⋇`), Three-Way Merge (Git), recursive refinement (fractal)
+			- Mixmatching is what happens in the heart of the ((69b9470c-40e4-49ca-84df-1cb6a3379987)), the mechanism of the arrow of time.
 				- The diamond problem ([in reactivity](https://github.com/milomg/reactively/blob/main/Reactive-algorithms.md#reactive-algorithms) and [in inheritance](https://en.wikipedia.org/wiki/Multiple_inheritance#The_diamond_problem)) is the selfless view of change.
 					- In reactive programming, the diamond problem is usually called “glitch” as in [this paper](https://soft.vub.ac.be/Publications/2022/vub-tr-soft-22-15.pdf).
 				- Selful view of change: _difference from itself_.
