@@ -199,14 +199,14 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  id:: 69c51a39-97cb-4cf1-a6e1-ca29817def79
 		  collapsed:: true
 			- Balance by mixmatch
-				- resolution of conflict, diff, mismatch, error, gap
+				- Balancing is bringing different things together to mix them by resolving their conflicts, diffences, mismatches, errors, gaps, etc.
 				- 沖氣以為和
 				- [Audio mixing](https://en.wikipedia.org/wiki/Audio_mixing) and [color mixing](https://en.wikipedia.org/wiki/Color_mixing) is the art of balancing and [equalization](https://en.wikipedia.org/wiki/Audio_equalization) of volume and tone in space and time.
 					- In art, mixing is not a random mixing, but a selective mixing, a mixmatch.
 			- [Mixmatch](((699c0368-9fba-448f-ab2a-32492ca9291c))) by [staggering](((67b54283-14b2-4753-94bb-4d827d54d7cc))) between match & mismatch, sim & diff, problem & solution, info & knowledge, yin (⚋) & yang (⚊), circle & arrow, etc.
 				- Circle: the same condition, environment, connector, container, form, pratyaya, 緣 (duyên)
 				- Arrows: different factors, impulses, events, contents, hetus, 因 (nhân)
-				- The circle is the container, the match that connects the arrows, mixes the mismatches together.
+				- The circle is the container, the match that connects the arrows, that mixes the mismatches together.
 				- Staggering mechanism: The mixing happens when circles go with arrows, not when circles with circles nor arrows with arrows.
 			- Mixmatch: mixing = recursive matching
 				- M & W are decomposed to subthreads $(m_k)$ & $(w_k)$
