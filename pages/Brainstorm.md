@@ -200,6 +200,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  collapsed:: true
 			- Balance by mixmatch
 				- resolution of conflict, diff, mismatch, error, gap
+				- 沖氣以為和
 				- [Audio mixing](https://en.wikipedia.org/wiki/Audio_mixing) and [color mixing](https://en.wikipedia.org/wiki/Color_mixing) is the art of balancing and [equalization](https://en.wikipedia.org/wiki/Audio_equalization) of volume and tone in space and time.
 					- In art, mixing is not a random mixing, but a selective mixing, a mixmatch.
 			- [Mixmatch](((699c0368-9fba-448f-ab2a-32492ca9291c))) by [staggering](((67b54283-14b2-4753-94bb-4d827d54d7cc))) between match & mismatch, sim & diff, problem & solution, info & knowledge, yin (⚋) & yang (⚊), circle & arrow, etc.
