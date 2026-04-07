@@ -220,6 +220,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Selful view of ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)): _difference from itself_.
 					- Self thread M → M': momentum, history, tradition, static circle, obop of effect circle
 					- Echo thread M → W → M': body of effect circle, the arrow going out and back in
+				- In Unithread, the total entropy is preserved: the increase of mixing is balanced by the decrease ([negentropy](https://en.wikipedia.org/wiki/Negentropy)) of matching.
 		- intrinsic interdependence = perfect incompleteness = limited resolution = intrinsic dynamic = intrinsic openness = intrinsic curvature = ((6858b355-fba9-4e61-9f16-bc993a3df44b))
 		  id:: 69b917d0-494f-4527-9e1b-0dcff5a2cc91
 		  collapsed:: true
