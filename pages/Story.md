@@ -1426,6 +1426,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 7th, ...
 			  collapsed:: true
 				- After 2 whole weeks, now i get back to the [blocked tasks last month](((69c51a3e-383d-42f5-b1ba-114fa24e8d6a))),
+				  id:: 69d47ab9-6d45-445b-a001-89454c6e8bc2
 				  collapsed:: true
 					- Interceptions to the tasks on 25th March:
 						- CNAME setting with Unbound & SSH tunneling via shadow IP: just finished this morning!
@@ -1445,6 +1446,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- When there are many tasks stacking up, they are usually abandoned to clear the stack for new coming tasks.
 						- Such a dilema reminds me of the koan of [the Buddha crossing the flood](https://suttacentral.net/sn1.1/en/sujato): standing is sinking, swimming is being swept away!
 					- This very situation did force me to mix the tasks all together, hence the “balance = mixmatch = arrow of time” in action 😉!
+						- The correlation between mixing and balancing itself also emerged when the two are placed together in the same place, situation, position, not because i looked at each of them separately.
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69ce0ded-193e-4b34-bda5-f53418e34a16))
