@@ -1400,8 +1400,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- ⇒ Updated ((699c0362-0f54-4ab5-a807-9e1ad3b9d599)) structure and the article [Căn bản, gốc rễ, cội nguồn](https://creatzynotes.blogspot.com/2021/05/can-ban-goc-re.html) – the origin of the double tree structure
 				- Quantum entanglement of Helium atoms: [Scientists observe atoms existing in two places at once for the first time](https://youtu.be/pp9n5QwVgu4?si=Dp-X31OUgQHMMxde)
 				  collapsed:: true
-					- # Scientists observe atoms existing in two places at once for the first time
-					- {{video https://youtu.be/pp9n5QwVgu4?si=Dp-X31OUgQHMMxde}}
+					- ![Scientists observe atoms existing in two places at once for the first time](https://youtu.be/pp9n5QwVgu4?si=Dp-X31OUgQHMMxde)
+					  collapsed:: true
+						- {{video https://youtu.be/pp9n5QwVgu4?si=Dp-X31OUgQHMMxde}}
 				- Reading [an article](https://siliconcanals.com/gen-psychology-says-the-reason-some-people-become-wiser-as-they-age-while-others-become-more-rigid-has-nothing-to-do-with-intelligence-it-depends-on-whether-they-ever-learned-to-sit-with-discomfort/) saying that people become wiser as they age thanks to their distress tolerance, i see the ((69cdc9bf-f462-45b6-8a54-0f86acf03bf3))
 		- April journal
 		  id:: 69ce0ded-193e-4b34-bda5-f53418e34a16
@@ -1425,7 +1426,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Chat with Gemini about [my Tantric practice](((69d3af51-e196-4656-9605-1e6fa8099156))) and ((69d3af25-95e2-4441-93e7-e5797eda2c42))
 			- 7th, ...
 			  collapsed:: true
-				- After round 2 weeks, now i get back to the [blocked task last month](((69c51a3e-383d-42f5-b1ba-114fa24e8d6a))), after resolving many interceptions (CNAME setting with Unbound & SSH tunneling).
+				- After round 2 weeks, now i get back to the [blocked task last month](((69c51a3e-383d-42f5-b1ba-114fa24e8d6a))),
+					- Interceptions to the tasks on 25th March:
+						- CNAME setting with Unbound & SSH tunneling via shadow IP: just finished this morning!
+						- Chat with Huy about discipline
+						- Chat with Gemini about vavious things, and update UniinfoNotes
+					- Intercepted tasks:
+						-
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69ce0ded-193e-4b34-bda5-f53418e34a16))
