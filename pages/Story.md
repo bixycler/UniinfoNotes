@@ -1456,7 +1456,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- But some ones complain that it usually reaches its context window limit 🤔.
 				- [Hermes Agent](https://github.com/nousresearch/hermes-agent) is an interesting AI agent framework developed by Nous Research that is self-improving, open-source, and specializes in long-term memory, autonomous skill creation, and cross-session learning.
 					- I heard of OpenClaw from its [first days](((699c0361-6084-447b-8456-c70db6fd159e))) but have got no interest in such an “ADHD” agent... Until tonight, i accidentally met Hermes when watching about GLM.
-					- Memory providers: [Hindsight](), [Honcho]()
+					- Memory providers:
+						- [Hindsight](https://github.com/vectorize-io/hindsight): [self-learning](https://hindsight.vectorize.io/) knowledge graph
+						- [Honcho](https://github.com/plastic-labs/honcho): [reasoning & learning](https://docs.honcho.dev/v3/documentation/core-concepts/reasoning) agent combines relational data with vector embeddings
 					- Feed Antigravity's progress:
 						- [protocol buffer `.pb`](https://protobuf.dev/) files in `~/.gemini/antigravity/{conversations,implicit}/` are encrypted and have no `.proto` schema to decode.
 			- 9th, morning: a last-day trip from sleep; ...
