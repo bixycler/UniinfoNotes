@@ -1459,6 +1459,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Memory providers:
 						- [Hindsight](https://github.com/vectorize-io/hindsight): [self-learning](https://hindsight.vectorize.io/) knowledge graph
 						- [Honcho](https://github.com/plastic-labs/honcho): [“dialectic” reasoning & learning](https://docs.honcho.dev/v3/documentation/core-concepts/reasoning) agent that combines relational data with vector embeddings to perform social cognition: apps & sessions > peers & representations > collections of vector embeddings.
+						- [OpenViking]()
+						-
 					- Feed Antigravity's progress:
 						- [protocol buffer `.pb`](https://protobuf.dev/) files in `~/.gemini/antigravity/{conversations,implicit}/` are encrypted and have no `.proto` schema to decode.
 			- 9th, morning: a last-day trip from sleep; ...
