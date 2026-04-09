@@ -1454,15 +1454,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- [GLM-5.1](https://venturebeat.com/technology/ai-joins-the-8-hour-work-day-as-glm-ships-5-1-open-source-llm-beating-opus-4) is at the frontier of autonomous agentic AI
 					- But some ones complain that it usually reaches its context window limit 🤔.
-				- [Hermes Agent](https://github.com/nousresearch/hermes-agent) is an interesting AI agent framework developed by Nous Research that is self-improving, open-source, and specializes in long-term memory, autonomous skill creation, and cross-session learning.
-					- I heard of OpenClaw from its [first days](((699c0361-6084-447b-8456-c70db6fd159e))) but have got no interest in such an “ADHD” agent... Until tonight, i accidentally met Hermes when watching about GLM.
-					- Memory providers:
-						- [Hindsight](https://github.com/vectorize-io/hindsight): [self-learning](https://hindsight.vectorize.io/) knowledge graph
-						- [ByteRover](https://github.com/campfirein/byterover-cli): Local [Markdown-based](https://docs.byterover.dev/context-tree/local-space-structure#knowledge-files) context tree
-						- [Honcho](https://github.com/plastic-labs/honcho): [“dialectic” reasoning & learning](https://docs.honcho.dev/v3/documentation/core-concepts/reasoning) agent that combines relational data with vector embeddings to perform **social cognition**: apps & sessions > peers & representations > collections of vector embeddings.
-						- [OpenViking](https://github.com/volcengine/OpenViking): [combines vector index (semantics) & AGFS (content)](https://openviking.ai/docs) for hierarchical context delivery with clear URI `viking://{scope}/{path}`.
-					- Feed Antigravity's progress:
-						- [protocol buffer `.pb`](https://protobuf.dev/) files in `~/.gemini/antigravity/{conversations,implicit}/` are encrypted and have no `.proto` schema to decode.
 			- 9th, morning: a last-day trip from sleep; ...
 			  collapsed:: true
 				- This morning, the first time i took a death-gate trip from sleep, which is called “dream” in common language.
