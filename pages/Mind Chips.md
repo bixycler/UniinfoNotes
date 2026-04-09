@@ -1,8 +1,3 @@
-- [GLM-5.1](https://venturebeat.com/technology/ai-joins-the-8-hour-work-day-as-glm-ships-5-1-open-source-llm-beating-opus-4) is at the frontier of autonomous agentic AI
-    - But some ones complain that it usually reaches its context window limit 🤔.
-- [Hermes Agent](https://github.com/nousresearch/hermes-agent) is an interesting AI agent framework developed by Nous Research that is self-improving, open-source, and specializes in long-term memory, autonomous skill creation, and cross-session learning.
-    - I heard of OpenClaw from its first days but have got no interest in such an “ADHD” agent... Until tonight, i accidentally met Hermes when watching about GLM.
-    - Feed Antigravity's progress: Check `~/.gemini/antigravity/logs` 
 - ---
 - openness = porosity = entropy increase = arrow of time = mismatch between form & content =  curvature in distribution
 - past form = copy of present form = mixture of present content

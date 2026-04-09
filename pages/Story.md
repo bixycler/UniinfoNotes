@@ -1448,7 +1448,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- This very situation did force me to mix the tasks all together, hence the “balance = mixmatch = arrow of time” in action 😉!
 						- The correlation between mixing and balancing itself also emerged when the two are placed together in the same place, situation, position, and not because i looked at each of them separately.
 						- The condition, environment, connector, container, pratyaya, 緣 (duyên), etc. are so wonderful!
-			- 8th,
+			- 8th, by day: official works; at night: viewing the frontier of agentic AI with GML & Hermes
+			  collapsed:: true
+				- [GLM-5.1](https://venturebeat.com/technology/ai-joins-the-8-hour-work-day-as-glm-ships-5-1-open-source-llm-beating-opus-4) is at the frontier of autonomous agentic AI
+					- But some ones complain that it usually reaches its context window limit 🤔.
+				- [Hermes Agent](https://github.com/nousresearch/hermes-agent) is an interesting AI agent framework developed by Nous Research that is self-improving, open-source, and specializes in long-term memory, autonomous skill creation, and cross-session learning.
+					- I heard of OpenClaw from its first days but have got no interest in such an “ADHD” agent... Until tonight, i accidentally met Hermes when watching about GLM.
+					- Feed Antigravity's progress: Check `~/.gemini/antigravity/logs`
+			-
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69ce0ded-193e-4b34-bda5-f53418e34a16))
