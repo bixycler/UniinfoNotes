@@ -445,16 +445,18 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 										- `gnome-session-b`
 										- `gnome-terminal`
 					- Hermes
+					  id:: 69d70958-c0b2-4e8a-8ed3-70a0988a02a6
 					  collapsed:: true
-					  [Hermes Agent](https://github.com/nousresearch/hermes-agent) is an interesting AI agent framework developed by Nous Research that is self-improving, open-source, and specializes in long-term memory, autonomous skill creation, and cross-session learning.
-						- I heard of OpenClaw from its [first days](((699c0361-6084-447b-8456-c70db6fd159e))) but have got no interest in such an “ADHD” agent... Until tonight, i accidentally met Hermes when watching about GLM.
-						- Memory providers:
-							- [Hindsight](https://github.com/vectorize-io/hindsight): [self-learning](https://hindsight.vectorize.io/) knowledge graph
-							- [ByteRover](https://github.com/campfirein/byterover-cli): local [Markdown-based](https://docs.byterover.dev/context-tree/local-space-structure#knowledge-files) context tree
-							- [Honcho](https://github.com/plastic-labs/honcho): [“dialectic” reasoning & learning](https://docs.honcho.dev/v3/documentation/core-concepts/reasoning) agent that combines relational data with vector embeddings to perform **social cognition**: apps & sessions > peers & representations > collections of vector embeddings.
-							- [OpenViking](https://github.com/volcengine/OpenViking): [combines vector index (semantics) & AGFS (content)](https://openviking.ai/docs) for hierarchical context delivery with clear URI `viking://{scope}/{path}`.
+						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) [Hermes Agent](https://github.com/nousresearch/hermes-agent) is an AI agent framework developed by [Nous Research](https://nousresearch.com/) that is self-improving, open-source, and specializes in long-term memory, autonomous skill creation, and cross-session learning.
+						- Memory: Built-in memories (`MEMORY.md`, `USER.md`) + ((69d74732-afcb-4b4a-9b39-5efcf868c8da)) providers
 						- Feed Antigravity's progress:
 							- [protocol buffer `.pb`](https://protobuf.dev/) files in `~/.gemini/antigravity/{conversations,implicit}/` are encrypted and have no `.proto` schema to decode.
+					- agent memory
+					  id:: 69d74732-afcb-4b4a-9b39-5efcf868c8da
+						- [Hindsight](https://github.com/vectorize-io/hindsight): [self-learning](https://hindsight.vectorize.io/) knowledge graph
+						- [ByteRover](https://github.com/campfirein/byterover-cli): local [Markdown-based](https://docs.byterover.dev/context-tree/local-space-structure#knowledge-files) context tree
+						- [Honcho](https://github.com/plastic-labs/honcho): [“dialectic” reasoning & learning](https://docs.honcho.dev/v3/documentation/core-concepts/reasoning) agent that combines relational data with vector embeddings to perform **social cognition**: apps & sessions > peers & representations > collections of vector embeddings.
+						- [OpenViking](https://github.com/volcengine/OpenViking): [combines vector index (semantics) & AGFS (content)](https://openviking.ai/docs) for hierarchical context delivery with clear URI `viking://{scope}/{path}`.
 					-
 				- small language model
 				  id:: 69844331-8a59-4aa6-8bbc-df54afb2cde1

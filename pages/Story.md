@@ -1454,6 +1454,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- [GLM-5.1](https://venturebeat.com/technology/ai-joins-the-8-hour-work-day-as-glm-ships-5-1-open-source-llm-beating-opus-4) is at the frontier of autonomous agentic AI
 					- But some ones complain that it usually reaches its context window limit 🤔.
+				- ((69d70958-c0b2-4e8a-8ed3-70a0988a02a6)) is an interesting AI agent framework developed by Nous Research.
+					- I heard of OpenClaw from its [first days](((699c0361-6084-447b-8456-c70db6fd159e))) but have got no interest in such an “ADHD” agent... Until tonight, i accidentally met Hermes when watching about GLM.
 			- 9th, morning: a last-day trip from sleep; ...
 			  collapsed:: true
 				- This morning, the first time i took a death-gate trip from sleep, which is called “dream” in common language.
