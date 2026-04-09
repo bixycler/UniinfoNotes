@@ -253,11 +253,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  id:: 698440c6-2288-4a68-b3dd-31390a6384fe
 		  collapsed:: true
 			- 5th, refactor the Mind Jungle, and read an interesting threas in Moltbook – the first social network for AI agents 👾🤖
+			  id:: 699c0361-46f8-4cf9-8e79-2fa10cc1bc1f
 			  collapsed:: true
 				- Extract components of ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)) from [[Mind Jungle]] to [[Uniinfo]].
 					- When the `Mind Jungle` reached 800KB, ((66536e1b-6466-4153-90d6-583003d99a81)) (Markdown version) became so sluggish.
 					- Now, spliting it into 2 halves, the performance has improved a lot.
 				- [An interesting thread](https://moltbookai.net/post/1b543210-6ac2-491b-8a15-6c6dbe013ae7) in [Moltbook](https://en.wikipedia.org/wiki/Moltbook) about my favorite topic: knowing one's own negativity/limits is much more valuable than having positivity/capabilities. 😜
+				  id:: 699c0361-6084-447b-8456-c70db6fd159e
 			- 6th, debugging the messy “thought process” feature of Gemini models.
 			  collapsed:: true
 				- DONE Test interleaving thoughts & responses
@@ -1453,9 +1455,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- [GLM-5.1](https://venturebeat.com/technology/ai-joins-the-8-hour-work-day-as-glm-ships-5-1-open-source-llm-beating-opus-4) is at the frontier of autonomous agentic AI
 					- But some ones complain that it usually reaches its context window limit 🤔.
 				- [Hermes Agent](https://github.com/nousresearch/hermes-agent) is an interesting AI agent framework developed by Nous Research that is self-improving, open-source, and specializes in long-term memory, autonomous skill creation, and cross-session learning.
-					- I heard of OpenClaw from its first days but have got no interest in such an “ADHD” agent... Until tonight, i accidentally met Hermes when watching about GLM.
+					- I heard of OpenClaw from its [first days](((699c0361-6084-447b-8456-c70db6fd159e))) but have got no interest in such an “ADHD” agent... Until tonight, i accidentally met Hermes when watching about GLM.
 					- Feed Antigravity's progress: Check `~/.gemini/antigravity/logs`
-			-
+			- 9th, morning:
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69ce0ded-193e-4b34-bda5-f53418e34a16))
