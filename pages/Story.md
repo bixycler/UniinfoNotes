@@ -1457,7 +1457,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- [Hermes Agent](https://github.com/nousresearch/hermes-agent) is an interesting AI agent framework developed by Nous Research that is self-improving, open-source, and specializes in long-term memory, autonomous skill creation, and cross-session learning.
 					- I heard of OpenClaw from its [first days](((699c0361-6084-447b-8456-c70db6fd159e))) but have got no interest in such an “ADHD” agent... Until tonight, i accidentally met Hermes when watching about GLM.
 					- Feed Antigravity's progress: Check `~/.gemini/antigravity/logs`
-			- 9th, morning:
+			- 9th, morning: a last-day trip from sleep; ...
+			  collapsed:: true
+				- This morning, the first time i took a death-gate trip from sleep, which is called “dream” in common language.
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69ce0ded-193e-4b34-bda5-f53418e34a16))
