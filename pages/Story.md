@@ -1456,12 +1456,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- But some ones complain that it usually reaches its context window limit 🤔.
 				- ((69d70958-c0b2-4e8a-8ed3-70a0988a02a6)) is an interesting AI agent framework developed by Nous Research.
 					- I heard of OpenClaw from its [first days](((699c0361-6084-447b-8456-c70db6fd159e))) but have got no interest in such an “ADHD” agent... Until tonight, i accidentally met Hermes when watching about GLM.
-			- 9th, morning: a last-day trip from sleep; ...
+			- 9th, morning: a last-day trip from sleep; afternoon: read and set up Hermes agent.
 			  collapsed:: true
 				- This morning, the first time i took a death-gate trip from sleep, which is called “dream” in common language.
 					- While previous trips were in my awake time, this trip was from my sleep.
 					- In this trip, i was informed that not only the liberated but everyone will know their death time deep inside when it arrives.
 					- However, most of people won't show/tell it because they don't accept it.
+				- Afternoon, reading about Hermes agent, then set it up at night, but got "quota exceeded" 🤔
+			- 10th, set up Hermes...
+			  collapsed:: true
+				-
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69ce0ded-193e-4b34-bda5-f53418e34a16))
