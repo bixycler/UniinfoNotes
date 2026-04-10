@@ -451,8 +451,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Memory: Built-in memories (`MEMORY.md`, `USER.md`) + ((69d74732-afcb-4b4a-9b39-5efcf868c8da)) providers
 						- Feed Antigravity's progress:
 							- [protocol buffer `.pb`](https://protobuf.dev/) files in `~/.gemini/antigravity/{conversations,implicit}/` are encrypted and have no `.proto` schema to decode.
-						- [fix: Rod of Asclepius (⚕) → Caduceus (☤) — correct symbol for Hermes](https://github.com/NousResearch/hermes-agent/pull/7064)
-						- [[Bug]: PLATFORM_HINTS section is mistaken by the model for user prompt](https://github.com/NousResearch/hermes-agent/issues/7114)
 						-
 					- agent memory
 					  id:: 69d74732-afcb-4b4a-9b39-5efcf868c8da

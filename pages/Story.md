@@ -1465,6 +1465,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Afternoon, reading about Hermes agent, then set it up at night, but got "quota exceeded" 🤔
 			- 10th, set up Hermes...
 			  collapsed:: true
+				- [[Bug]: PLATFORM_HINTS section is mistaken by the model for user prompt](https://github.com/NousResearch/hermes-agent/issues/7114)
+				- [fix: Rod of Asclepius (⚕) → Caduceus (☤) — correct symbol for Hermes](https://github.com/NousResearch/hermes-agent/pull/7064)
 				-
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
