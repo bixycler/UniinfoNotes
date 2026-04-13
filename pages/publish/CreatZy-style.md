@@ -15,12 +15,12 @@
 	- Lead-in term: Normally, most lead-in terms – the first text before colon – either labels, topic descriptors, or run-in headings are *not* highlighted.
 	- No long paragraphs: Any paragraph with many sentences should be broken into an indented tree, keeping each line no more than 3 sentences.
 - Quotation
-	- Use the curly quotation marks `“”`.
-	- Only the quoted material is placed inside quotation marks.
-	  Don't put trailing punctuation marks into the quote, e.g. “not a complete sentence quote”, except when quoting the whole sentence.
+	- Use the curly quotation marks (`“”`).
+	- _**Only the quoted material** is placed inside quotation marks_, e.g. “no punctuation in this phrase”.
+	  Don't put trailing punctuation marks into the quote, except when quoting the whole sentence.
 	- Math forms are quoted by double angle brackets, when needed, e.g. $⟪E = m⋅c^2⟫$.
 - Apostrophe
-	- Use the straight apostrope (`'`) to distinguish from the closing single quote (`’`).
+	- Use the straight apostrope (`'` U+0027) to distinguish from the closing single quote (`’` U+2019).
 	- If curly version is required, use the modifier letter apostrophe (`ʼ` U+02BC).
 - Dashes
 	- Use **en-dash (`–` U+2013) for interruption and parenthesis**, em-dash (`—` U+2014) only for source attribution, and quotation dash (`―` U+2015) to switch person in dialogue – all are **space-separated** from the text.
