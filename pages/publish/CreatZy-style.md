@@ -1,11 +1,11 @@
-# CreatZy style
+# CreatZy Style
 — the preferred style in Unïnfo notes —
 
 - Layout and highlight
 	- Normally, each note is written in an **infinite indented tree** layout to be plugged in the global tree as a node, just like this “Layout and highlight” note.
 		- All structures of sections, paragraphs, and lists are replaced by tree structure and laid out in a single **tab-indented** tree.
 		- The whole tree is written in **Markdown syntax**, where each node is a list item marked by a **hyphen** (`-`).
-	- _Highlight is preserved for **important texts**_, like key words, important concepts, etc., not for styling headings.
+	- _Highlight is reserved for **important texts**_, like key words, important concepts, etc., not for styling headings.
 		- Headings are recognized by structure, not by styling.
 	- Most section headings are indented and *not* highlighted, like those in this document.
 		- Only some special section headings of important concepts are highlighted with heading style (`#`).
@@ -33,7 +33,7 @@
 	- Use **en-dash without spaces** for word compounds and number ranges, e.g. “Bose–Einstein condensate”, “1982–2025”, and [figure dash `‒`](https://en.wiktionary.org/wiki/%E2%80%92) for number compounds, e.g. telephone number “012‒345‒678”, hex number “0x1234‒ABCD”.
 		- Note that in compounds whose elements contain space, the connecting en-dashes must also be spaced, to avoid confusion, e.g. “Australia – New Zealand”, “Độc lập – Tự do – Hạnh phúc”.
 - Examples
-	- For quotation, apotrophe, quotation dash and en-dash in dialogue: _The Well-Dressed Lie and the Naked Truth – short version_
+	- For quotation, apotrophe, en-dash, and quotation dash in dialogue: _The Well-Dressed Lie and the Naked Truth – short version_
 	- For em-dash in source attribution:
 	  > “Non-action but nothing is not done!”  
 	  「無為而無不為。」  
