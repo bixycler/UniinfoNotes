@@ -961,7 +961,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 			- natural learning
 			  id:: 69dc4a3c-6174-4bfb-80ad-9e09d5ed723a
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((69dc4a34-43e6-4051-93b8-5260fb083255))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Learning and living are inseparable aspect of life, reflecting the duality of observation and operation in the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)).
 				- [lifelong learning](https://en.wikipedia.org/wiki/Lifelong_learning) and [learning by living](https://www.schiller.edu/glossary/learning-by-living/) in education, ((66c30a85-66c4-4916-8ea8-1f150e6a246a)) in LLM.
 		- Corkei
 		  id:: 697b4547-9b65-4a96-b3d1-55245377c796
