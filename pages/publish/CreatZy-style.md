@@ -1,6 +1,6 @@
 # CreatZy style
 — the preferred style in Uniinfo Notes —
--
+
 - Layout and highlight
 	- Normally, each note is written in an **infinite indented tree** layout to be plugged in the global tree as a node, just like this “Layout and highlight” note.
 		- All structures of sections, paragraphs, and lists are replaced by tree structure and laid out in a single **tab-indented** tree.
@@ -11,7 +11,7 @@
 		- Only some special section headings of important concepts are highlighted with heading style (`#`).
 		- Concept heading: general concepts like “space”, “time” have the corresponding **uncapitalized common noun** as heading, whereas special concepts like “Trinion”, “Omnifold” have the corresponding **capitalized proper noun** as heading.
 		- Beside special nodes defining concepts, all other normal nodes have capitalized headings.
-	- Only some special pages to be published as stand-alone documents will be laid out with unindented headings.
+	- Only some special pages to be published as stand-alone documents, like this “CreatZy style” page, will be laid out with unindented headings.
 	- Lead-in term: Normally, most lead-in terms – the first text before colon – either labels, topic descriptors, or run-in headings are *not* highlighted.
 	- No long paragraphs: Any paragraph with many sentences should be broken into an indented tree, keeping each line no more than 3 sentences.
 - Quotation
@@ -22,7 +22,7 @@
 - Apostrophe
 	- Use the straight apostrope (`'`) to distinguish from the closing single quote (`’`).
 	- If curly version is required, use the modifier letter apostrophe (`ʼ` U+02BC).
-- Dashes & Dialogue
+- Dashes
 	- Use **en-dash (`–` U+2013) for interruption and parenthesis**, em-dash (`—` U+2014) only for source attribution, and quotation dash (`―` U+2015) to switch person in dialogue – all are **space-separated** from the text.
 		- The en-dash (`–` U+2013) is used within a line to handle parenthetical thoughts or interruptions in the flow.
 		- The em-dash (`—` U+2014) is reserved strictly for source attribution.
@@ -37,7 +37,9 @@
 	  > “Non-action but nothing is not done!”  
 	  「無為而無不為。」  
 	  — [Chapter 48. Forget the knowledge](https://en.wikisource.org/wiki/Translation:Tao_Te_Ching#Chapter_48_(%E7%AC%AC%E5%9B%9B%E5%8D%81%E5%85%AB%E7%AB%A0)), Tao Te Ching
-- ## The Well-Dressed Lie and the Naked Truth – short version
+
+## The Well-Dressed Lie and the Naked Truth – short version
+
 - Long ago, there were identical twin sisters living in separate towns where they were belovedly called “Truth”. Their indistinguishable faces confused people, who, clinging to the familiar and wary of the unfamiliar outfit, called the sister from the other town “Lie” and drove her away. Heartbroken by the towns' fights over the “true” Truth, the sisters met in a cave.
 - ― We're one soul, split by their prejudice – one wept.  
   ― I'll give you my clothes to please both towns – the other said.  
