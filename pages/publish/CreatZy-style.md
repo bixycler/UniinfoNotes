@@ -16,7 +16,7 @@
 	- No long paragraphs: Any paragraph with many sentences should be broken into an indented tree, keeping each line no more than 3 sentences.
 - Quotation
 	- Use the curly quotation marks (`“”`).
-	- _**Only the quoted material** is placed inside quotation marks_, e.g. “no punctuation in this phrase”.
+	- **Logical quotation**: _**Only the quoted material** is placed inside quotation marks_, e.g. “no punctuation in this phrase”.
 	  Don't put trailing punctuation marks into the quote, except when quoting the whole sentence.
 	- Math forms are quoted by double angle brackets, when needed, e.g. $⟪E = m⋅c^2⟫$.
 - Apostrophe
