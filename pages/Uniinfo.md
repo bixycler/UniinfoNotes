@@ -963,8 +963,41 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((69dc4a34-43e6-4051-93b8-5260fb083255))
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((69dc4a3c-6174-4bfb-80ad-9e09d5ed723a)) is the aspect of ((69dc4a34-43e6-4051-93b8-5260fb083255)) contrasting with the [formal education](https://en.wikipedia.org/wiki/Formal_education) and AI training.
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Learning and living are inseparable aspects of life, reflecting the duality of observation and operation in the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)). The natural learning by living can be expressed in various ways: [lifelong learning](https://en.wikipedia.org/wiki/Lifelong_learning), [learning by doing](https://en.wikipedia.org/wiki/Learning-by-doing) and [learning by living](https://www.schiller.edu/glossary/learning-by-living/) in education, self-learning by [autodidacts](https://en.wikipedia.org/wiki/Autodidacticism), ((66c30a85-66c4-4916-8ea8-1f150e6a246a)) by LLM.
-			- pyramid of knowledge
+			- pramid of knowledge
+			  id:: 69dce3dc-0afa-4ab3-8a4b-ff517c0b06e0
+			  collapsed:: true
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Learning is the process of recording and digesting life experience from outside in – traveling from the shell of raw data to the core of wisdom.
+				- Structure: The pyramid represents a gradation of depth, density, and integration.
+					- The Shell (Bottom): Raw data and information.
+						- Characterized by **“mere remembering”** and rote learning.
+						- High volume, low integration, low abstraction.
+					- The Mantle (Middle): Knowledge and skills.
+						- Characterized by thread **“weaving”** and **“mixmatching”**.
+						- Data is cross-linked into functional mental models.
+					- The Core (Top): Wisdom and attitude.
+						- Characterized by thread ((691ae014-cb3b-407f-b84b-582f0025c37c))ing (compression, crystallization).
+						- The highest resolution of memory where complexity is unified into essence.
+				- Dynamics: The transition from the shell to the core is the ((69dce3dc-55d3-4079-8bfe-ae913ef62ac3)).
+					- The information loses its **extensity** (volume, noise, and overhead) to gain **intensity** (depth, density, and structural impact).
+				- memory substrate
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Memory serves as the physical substrate for the system of nested cones through which the static ((69dce3dc-0afa-4ab3-8a4b-ff517c0b06e0)) is structurally stored and dynamically projected.
+					- State and perceptual screen: The **state** of the system is carried by the working memory, which hosts the dynamic interaction between internal and external worlds.
+						- The state manifests as a pair of cones (present and past) forming the ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)) – the active interface where perception is carried out.
+					- Cone layers: The pyramid is projected into 4 nested cone layers, each encompassing the *whole* pyramid (Shell, Mantle, and Core), ordered here from dynamic activation to static storage.
+						- Present cone: The outward-protruding mirror of the knowledge cone representing the current active state (active living).
+						- Past cone: Located within working memory, representing the immediate history of the state (reflection).
+						- Short-term memory cone: The intermediate projection layer for integration.
+						- Long-term memory cone: The static storage of the entire pyramid.
 			- mechanism of natural learning
+			  id:: 69dce3dc-55d3-4079-8bfe-ae913ef62ac3
+			  collapsed:: true
+				- Description: The continuous process of digesting life experience through projection and reflection across the perceptual screen.
+				- The driving force: The necessity of survival and internal coherence. Unlike traditional education or AI training which attempts to inject knowledge directly into the past cone, natural learning is forced by the friction of active living in the present cone.
+				- Mirroring through the state: A two-stage mirroring process that manages the operational state of the system.
+					- 1st stage (Projection & Capture): The static knowledge pyramid is mirrored into the **knowledge cone** (perpendicular to the static pyramid), which is then projected to the **present cone**. This present cone captures the perceptual screen, interfacing directly with the external **world cone**.
+					- 2nd stage (Reflection & Integration): The lived experience on the perceptual screen is reflected from the **present cone** into the **past cone**. Driven by necessity, the system actively filters, integrates (weaves), and crystallizes (folds) this information.
+					- Internalization: This crystallized information is subsequently projected and stored back into the static pyramid layers (short-term and then long-term memory), completing the learning cycle.
+				- Application to formal education: To achieve deep knowledge, education must not stop at the formal layer (formulae, theory) but extend to the content layer. It must simulate real, high-entropy scenarios to activate the **present cone**, thereby triggering genuine reflection rather than mere rote storage.
 		- Corkei
 		  id:: 697b4547-9b65-4a96-b3d1-55245377c796
 		  collapsed:: true
