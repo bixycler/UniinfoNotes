@@ -1,5 +1,5 @@
 # CreatZy style
-— the preferred style in Uniinfo Notes —
+— the preferred style in Unïnfo notes —
 
 - Layout and highlight
 	- Normally, each note is written in an **infinite indented tree** layout to be plugged in the global tree as a node, just like this “Layout and highlight” note.
@@ -25,7 +25,8 @@
 - Dashes
 	- Use **en-dash (`–` U+2013) for interruption and parenthesis**, em-dash (`—` U+2014) only for source attribution, and quotation dash (`―` U+2015) to switch person in dialogue – all are **space-separated** from the text.
 		- The en-dash (`–` U+2013) is used within a line to handle parenthetical thoughts or interruptions in the flow.
-		- The em-dash (`—` U+2014) is reserved strictly for source attribution.
+		- The em-dash (`—` U+2014) is reserved for source attribution.
+			- Exception: For strong break/parenthesis _in new line_, spaced em-dashes is used in place of spaced en-dashes, e.g., the parenthesis “— the preferred style in Unïnfo notes —” in the title of this page. Otherwise, en-dash must be used for in-line breaks.
 		- The quotation dash (`―` U+2015, “horizontal bar”) is used at the beginning of a line to indicate a switch of person in dialogue, instead of quotation marks.
 	- References: [(en, em) dashes](https://en.wikipedia.org/wiki/Dash) and [quotation dash](https://en.wikipedia.org/wiki/Quotation_mark#Quotation_dash)
 - Word connector
