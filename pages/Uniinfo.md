@@ -878,6 +878,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 		  collapsed:: true
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) sự nhận thức
 			- Diagram
+			  collapsed:: true
 				- ![Viewcones around Conscious Circles](https://docs.google.com/drawings/d/1h0su4VoxKa65qDatsEnPr4sDQg1HXRPKNvlgt36F0GU/pub?w=960)
 			- ### perceptual screen
 			  id:: 66ea4711-1392-4f5c-bea2-badc71a2fb9e
@@ -953,6 +954,15 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					- effect cone
 					  id:: 66eaa51a-32c1-4f3a-830c-30aecb7c45a3
 					  is the ((667bd93a-cce4-4dbf-9831-725e4dffe463)) of the action at the tip of the ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)).
+		- learning by living
+		  id:: 69dc4a34-43e6-4051-93b8-5260fb083255
+		  collapsed:: true
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((69dc4a3c-6174-4bfb-80ad-9e09d5ed723a))
+			- natural learning
+			  id:: 69dc4a3c-6174-4bfb-80ad-9e09d5ed723a
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((69dc4a34-43e6-4051-93b8-5260fb083255))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8))
+				- [lifelong learning](https://en.wikipedia.org/wiki/Lifelong_learning) and [learning by living](https://www.schiller.edu/glossary/learning-by-living/) in education
 		- Corkei
 		  id:: 697b4547-9b65-4a96-b3d1-55245377c796
 		  collapsed:: true

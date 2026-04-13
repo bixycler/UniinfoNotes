@@ -1468,6 +1468,23 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- [[Bug]: PLATFORM_HINTS section is mistaken by the model for user prompt](https://github.com/NousResearch/hermes-agent/issues/7114)
 				- [fix: Rod of Asclepius (⚕) → Caduceus (☤) — correct symbol for Hermes](https://github.com/NousResearch/hermes-agent/pull/7064)
 				-
+			- 11-12th, weekends:
+			  collapsed:: true
+				- The [chat with AI Mode](https://share.google/aimode/kwHeWOKuqPSsjePPj) about ancient biological internalization (endosymbiosis), i see the obop model.
+					- The [chat with Gemini](https://gemini.google.com/app/a50ff6f4c5d96963) to write the note exposed a whole lot of issues with Gemini -- a severe hallucination!
+					- That very hallucination prompted me to contemplate deep into the mechanism of the obop => ((69dc4a34-43e6-4051-93b8-5260fb083255)).
+				- TODO Add CreatZy Style **markdown** to GDrive
+				  collapsed:: true
+					- Refactor of the guide to separate the conversation style and make clear the quotation dash = horizontal bar = `U+2015`. Quotation dash is used only in the conversation, at the beginning of each speech.
+				- My mother-in-law was hospitalized the second time.
+				- Waking up, i listened to songs about love and life 
+				  collapsed:: true
+					- [The pendulum of life](https://youtu.be/wRa_pncG1wQ?si=GFrjuVzV8YVfRqMP)
+					- [Love remains](https://youtube.com/watch?v=90VX7DOWsmU&si=znFDkwW6yz_Lq6ga)
+					- [Papa](https://youtube.com/watch?v=EFoeoQLNPaA&si=eahgrcXYRG4DxP8B)
+					- [Nhật Ký của mẹ](https://youtube.com/watch?v=KGWJCAc4kGg&si=y-fpnnFE1YOwPnJl)
+					- [Ba kể con nghe](https://youtube.com/watch?v=tIjUEqm60Ig&si=qpmz0_Z_AkcNLYwH)
+				-
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69ce0ded-193e-4b34-bda5-f53418e34a16))

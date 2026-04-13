@@ -448,18 +448,22 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  id:: 69d70958-c0b2-4e8a-8ed3-70a0988a02a6
 					  collapsed:: true
 						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) [Hermes Agent](https://github.com/nousresearch/hermes-agent) is an AI agent framework developed by [Nous Research](https://nousresearch.com/) that is self-improving, open-source, and specializes in long-term memory, autonomous skill creation, and cross-session learning.
-						- Memory: Built-in memories (`MEMORY.md`, `USER.md`) + ((69d74732-afcb-4b4a-9b39-5efcf868c8da)) providers
+						- Memory: Built-in memories (`MEMORY.md`, `USER.md`) + ((69d74732-afcb-4b4a-9b39-5efcf868c8da))
 						- Feed Antigravity's progress:
-							- Shared memory through ((69d74732-afcb-4b4a-9b39-5efcf868c8da)) like
+							- Shared memory through ((69d74732-afcb-4b4a-9b39-5efcf868c8da)) like ((69d7679b-c11b-41bc-a5c7-88f932f362e5)).
 							- [protocol buffer `.pb`](https://protobuf.dev/) files in `~/.gemini/antigravity/{conversations,implicit}/` are encrypted and have no `.proto` schema to decode.
 						-
 					- memory provider
 					  id:: 69d74732-afcb-4b4a-9b39-5efcf868c8da
-						- [Hindsight](https://github.com/vectorize-io/hindsight): [self-learning](https://hindsight.vectorize.io/) knowledge graph
-						- [ByteRover](https://github.com/campfirein/byterover-cli): local [Markdown-based](https://docs.byterover.dev/context-tree/local-space-structure#knowledge-files) context tree
+						- [Hindsight](https://github.com/vectorize-io/hindsight)
+						  [self-learning](https://hindsight.vectorize.io/) knowledge graph
+						- [ByteRover](https://github.com/campfirein/byterover-cli)
 						  id:: 69d7679b-c11b-41bc-a5c7-88f932f362e5
-						- [Honcho](https://github.com/plastic-labs/honcho): [“dialectic” reasoning & learning](https://docs.honcho.dev/v3/documentation/core-concepts/reasoning) agent that combines relational data with vector embeddings to perform **social cognition**: apps & sessions > peers & representations > collections of vector embeddings.
-						- [OpenViking](https://github.com/volcengine/OpenViking): [combines vector index (semantics) & AGFS (content)](https://openviking.ai/docs) for hierarchical context delivery with clear URI `viking://{scope}/{path}`.
+						  local [Markdown-based](https://docs.byterover.dev/context-tree/local-space-structure#knowledge-files) context tree
+						- [Honcho](https://github.com/plastic-labs/honcho)
+						  [“dialectic” reasoning & learning](https://docs.honcho.dev/v3/documentation/core-concepts/reasoning) agent that combines relational data with vector embeddings to perform **social cognition**: apps & sessions > peers & representations > collections of vector embeddings.
+						- [OpenViking](https://github.com/volcengine/OpenViking)
+						  [combines vector index (semantics) & AGFS (content)](https://openviking.ai/docs) for hierarchical context delivery with clear URI `viking://{scope}/{path}`.
 					-
 				- small language model
 				  id:: 69844331-8a59-4aa6-8bbc-df54afb2cde1
