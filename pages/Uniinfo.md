@@ -981,6 +981,9 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					- The information loses its **extensity** (volume, noise, and overhead) to gain **intensity** (depth, density, and structural impact).
 				- memory substrate
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Memory serves as the physical substrate for the system of nested cones through which the static ((69dce3dc-0afa-4ab3-8a4b-ff517c0b06e0)) is structurally stored and dynamically projected.
+					- Diagram
+					  collapsed:: true
+						- ![KnowledgePyramid&Cones](https://docs.google.com/drawings/d/e/2PACX-1vT5g3aXCXTbow7WHMUSmb5QRADotf1WgzGrrqKpKqqr-LO_HKcfKkz9lsIb4UCTnQkd_rYPrdf-C-wy/pub?w=600)
 					- State and perceptual screen: The **state** of the system is carried by the working memory, which hosts the dynamic interaction between internal and external worlds.
 						- The state manifests as a pair of cones (present and past) forming the ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)) – the active interface where perception is carried out.
 					- Cone layers: The pyramid is projected into 4 nested cone layers, each encompassing the *whole* pyramid (Shell, Mantle, and Core), ordered here from dynamic activation to static storage.
