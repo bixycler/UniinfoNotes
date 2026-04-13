@@ -966,7 +966,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 			- pramid of knowledge
 			  id:: 69dce3dc-0afa-4ab3-8a4b-ff517c0b06e0
 			  collapsed:: true
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Learning is the process of recording and digesting life experience from outside in – traveling from the shell of raw data to the core of wisdom. The “pyramid” structure is a cone projection of the onion structure, which is usually known as the [DIKW pyramid](https://en.wikipedia.org/wiki/DIKW_pyramid).
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((69dce3dc-0afa-4ab3-8a4b-ff517c0b06e0)) is a conic projection of the onion structure of the ((669a5387-2a97-4311-a295-aa0afd9c4d76))s, which is usually known as the [DIKW pyramid](https://en.wikipedia.org/wiki/DIKW_pyramid). On this structure, learning is the process of recording and digesting life experience from outside in – traveling from the shell of raw data to the core of wisdom.
 				- Structure: The pyramid represents a gradation of depth, density, and integration.
 					- The Shell (Bottom): Raw data and information.
 						- Characterized by **“mere remembering”** and rote learning.
@@ -988,10 +988,13 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 						- Past cone: Located within working memory, representing the immediate history of the state (reflection).
 						- Short-term memory cone: The intermediate projection layer for integration.
 						- Long-term memory cone: The static storage of the entire pyramid.
-			- mechanism of natural learning
+			- DOING mechanism of natural learning
 			  id:: 69dce3dc-55d3-4079-8bfe-ae913ef62ac3
 			  collapsed:: true
-				- Description: The continuous process of digesting life experience through projection and reflection across the perceptual screen.
+			  :LOGBOOK:
+			  CLOCK: [2026-04-13 Mon 20:04:01]
+			  :END:
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The continuous process of digesting life experience through projection and reflection across the perceptual screen.
 				- The driving force: The necessity of survival and internal coherence. Unlike traditional education or AI training which attempts to inject knowledge directly into the past cone, natural learning is forced by the friction of active living in the present cone.
 				- Mirroring through the state: A two-stage mirroring process that manages the operational state of the system.
 					- 1st stage (Projection & Capture): The static knowledge pyramid is mirrored into the **knowledge cone** (perpendicular to the static pyramid), which is then projected to the **present cone**. This present cone captures the perceptual screen, interfacing directly with the external **world cone**.
