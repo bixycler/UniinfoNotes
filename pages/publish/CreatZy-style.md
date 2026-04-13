@@ -1,8 +1,10 @@
 # CreatZy style
 — the preferred style in Uniinfo Notes —
+-
 - Layout and highlight
 	- Normally, each note is written in an **infinite indented tree** layout to be plugged in the global tree as a node.
-		- All structures of sections, paragraphs, and lists are replaced by tree structure and laid out in a single indented tree.
+		- All structures of sections, paragraphs, and lists are replaced by tree structure and laid out in a single tab-indented tree.
+		- The whole tree is written in Markdown format, where each node is an item marked by a hyphen followed by a space (- ).
 	- _Highlight is preserved for **important texts**_, like key words, important concepts, etc., not for styling headings.
 		- Headings are recognized by structure, not by styling.
 	- Most section headings are indented and *not* highlighted, like those in this document.
@@ -15,12 +17,16 @@
 - Quotation
 	- Use the curly quotation marks `“”`.
 	- Only the quoted material is placed inside quotation marks.
-	  Don't put trailing punctuation marks into the quote, e.g. “not a complete sentence quote”, except when quoting the whole sentence.  
+	  Don't put trailing punctuation marks into the quote, e.g. “not a complete sentence quote”, except when quoting the whole sentence.
 	- Math forms are quoted by double angle brackets, when needed, e.g. $⟪E = m⋅c^2⟫$.
 - Apostrophe
 	- Use the straight apostrope (`'`) to distinguish from the closing single quote (`’`).
 	- If curly version is required, use the modifier letter apostrophe (`ʼ` U+02BC).
 - Dialogue and dashes
+	- Use quotation dash ― to switch person, en-dash – for interruption and parenthesis, and em-dash — only for source attribution – all are space-separated from the text.
+	- The quotation dash ― (U+2015) is used at the beginning of a line to indicate a switch of person in a conversation, such as at the start of a speech.
+	- The en-dash – (U+2013) is used within a line to handle parenthetical thoughts or interruptions in the flow.
+	- The em-dash — (U+2014) is reserved strictly for source attribution at the end of a line or quote.
 	- Use quotation dash `―` to switch person, **en-dash `–` for interruption and parenthesis**, and em-dash `—` only for source attribution – all are **space-separated** from the text.
 		- To emphasize stronger interruption, **spaced em-dashes** may be used in place of spaced en-dashes.
 	- Examples
@@ -33,15 +39,14 @@
 - Word connector
 	- Use **en-dash without spaces** for word compounds and number ranges, e.g. “Bose–Einstein condensate”, “1982–2025”, and [figure dash `‒`](https://en.wiktionary.org/wiki/%E2%80%92) for number compounds, e.g. telephone number “012‒345‒678”, hex number “0x1234‒ABCD”.
 		- Note that in compounds whose elements contain space, the connecting en-dashes must also be spaced, to avoid confusion, e.g. “Australia – New Zealand”, “Độc lập – Tự do – Hạnh phúc”.
-
-## The Well-Dressed Lie and the Naked Truth – short version
+- ## The Well-Dressed Lie and the Naked Truth – short version
 - Long ago, there were identical twin sisters living in separate towns where they were belovedly called “Truth”. Their indistinguishable faces confused people, who, clinging to the familiar and wary of the unfamiliar outfit, called the sister from the other town “Lie” and drove her away. Heartbroken by the towns' fights over the “true” Truth, the sisters met in a cave.
 - ― We're one soul, split by their prejudice – one wept.  
   ― I'll give you my clothes to please both towns – the other said.  
   ― But you'll be naked and scorned!  
-  ― For the love of people, I'll endure. You'll take the duty of satisfying them, no less difficult than mine!  
+  ― For the love of people, I'll endure. You'll take the duty of satisfying them, no less difficult than mine!
 - They embraced, tears falling, and parted – one taking all clothes, the other bare. To please everyone, the dressed sister returned to town, swiftly changing outfits to suit each person's expectations, making sure that everyone is comfortable with their own “Truth”. No matter how skillful, sometimes she was caught mid-change and called “Lie”. The naked sister hid in the cave most of the time to avoid shocking people. Anytime seeing her, they called her “crazy” or worse, then fled due to their unease and scare; some abused her in the night.
 - Just a few people, tired of the dressed Lie, sought the naked Truth in the cave.  
   ― Why hide? – they asked.  
-  ― I gave my beauty to my sister to serve you – she replied – because you fear the unadorned truth.  
+  ― I gave my beauty to my sister to serve you – she replied – because you fear the unadorned truth.
 - When the naked Truth emerged fully, most truth seekers were shaken, fled, and chased another comforting “Truth” who was another's Lie. Only the brave stayed, embracing the naked Truth.
