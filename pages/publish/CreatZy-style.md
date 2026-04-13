@@ -2,7 +2,7 @@
 — the preferred style in Uniinfo Notes —
 -
 - Layout and highlight
-	- Normally, each note is written in an **infinite indented tree** layout to be plugged in the global tree as a node.
+	- Normally, each note is written in an **infinite indented tree** layout to be plugged in the global tree as a node, just like this “Layout and highlight” note.
 		- All structures of sections, paragraphs, and lists are replaced by tree structure and laid out in a single **tab-indented** tree.
 		- The whole tree is written in **Markdown syntax**, where each node is a list item marked by a **hyphen** (`-`).
 	- _Highlight is preserved for **important texts**_, like key words, important concepts, etc., not for styling headings.
@@ -26,7 +26,8 @@
 	- Use **en-dash (`–` U+2013) for interruption and parenthesis**, em-dash (`—` U+2014) only for source attribution, and quotation dash (`―` U+2015) to switch person in dialogue – all are **space-separated** from the text.
 		- The en-dash (`–` U+2013) is used within a line to handle parenthetical thoughts or interruptions in the flow.
 		- The em-dash (`—` U+2014) is reserved strictly for source attribution.
-		- The quotation dash (`―` U+2015) is used at the beginning of a line to indicate a switch of person in dialogue, instead of quotation marks.
+		- The quotation dash (`―` U+2015, “horizontal bar”) is used at the beginning of a line to indicate a switch of person in dialogue, instead of quotation marks.
+	- References: [(en, em) dashes](https://en.wikipedia.org/wiki/Dash) and [quotation dash](https://en.wikipedia.org/wiki/Quotation_mark#Quotation_dash)
 - Word connector
 	- Use **en-dash without spaces** for word compounds and number ranges, e.g. “Bose–Einstein condensate”, “1982–2025”, and [figure dash `‒`](https://en.wiktionary.org/wiki/%E2%80%92) for number compounds, e.g. telephone number “012‒345‒678”, hex number “0x1234‒ABCD”.
 		- Note that in compounds whose elements contain space, the connecting en-dashes must also be spaced, to avoid confusion, e.g. “Australia – New Zealand”, “Độc lập – Tự do – Hạnh phúc”.
@@ -36,7 +37,6 @@
 	  > “Non-action but nothing is not done!”  
 	  「無為而無不為。」  
 	  — [Chapter 48. Forget the knowledge](https://en.wikisource.org/wiki/Translation:Tao_Te_Ching#Chapter_48_(%E7%AC%AC%E5%9B%9B%E5%8D%81%E5%85%AB%E7%AB%A0)), Tao Te Ching
-	- References: [(en, em) dashes](https://en.wikipedia.org/wiki/Dash) and [quotation dash](https://en.wikipedia.org/wiki/Quotation_mark#Quotation_dash)
 - ## The Well-Dressed Lie and the Naked Truth – short version
 - Long ago, there were identical twin sisters living in separate towns where they were belovedly called “Truth”. Their indistinguishable faces confused people, who, clinging to the familiar and wary of the unfamiliar outfit, called the sister from the other town “Lie” and drove her away. Heartbroken by the towns' fights over the “true” Truth, the sisters met in a cave.
 - ― We're one soul, split by their prejudice – one wept.  
