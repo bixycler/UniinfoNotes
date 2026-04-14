@@ -963,10 +963,10 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((69dc4a34-43e6-4051-93b8-5260fb083255))
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((69dc4a3c-6174-4bfb-80ad-9e09d5ed723a)) is the aspect of ((69dc4a34-43e6-4051-93b8-5260fb083255)) contrasting with the [formal education](https://en.wikipedia.org/wiki/Formal_education) and AI training.
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Learning and living are inseparable aspects of life, reflecting the duality of observation and operation in the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)). The natural learning by living can be expressed in various ways: [lifelong learning](https://en.wikipedia.org/wiki/Lifelong_learning), [learning by doing](https://en.wikipedia.org/wiki/Learning-by-doing) and [learning by living](https://www.schiller.edu/glossary/learning-by-living/) in education, self-learning by [autodidacts](https://en.wikipedia.org/wiki/Autodidacticism), ((66c30a85-66c4-4916-8ea8-1f150e6a246a)) by LLM.
-			- pramid of knowledge
+			- pyramid of knowledge
 			  id:: 69dce3dc-0afa-4ab3-8a4b-ff517c0b06e0
 			  collapsed:: true
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((69dce3dc-0afa-4ab3-8a4b-ff517c0b06e0)) is a lifted cone of the onion structure of the ((669a5387-2a97-4311-a295-aa0afd9c4d76))s, by applying the radial lifting (inverse ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)))). The “pyramid” term is used, instead of the usual Unïnfo term “cone”, is from the well-known [DIKW pyramid](https://en.wikipedia.org/wiki/DIKW_pyramid). On this structure, learning is the process of recording and digesting life experience from outside in – traveling from the shell of raw data to the core of wisdom.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((69dce3dc-0afa-4ab3-8a4b-ff517c0b06e0)) is a lifted cone of the onion structure of the ((669a5387-2a97-4311-a295-aa0afd9c4d76))s, by applying the radial lift (inverse ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)))). The “pyramid” term is used, instead of the usual Unïnfo term “cone”, to match the well-known [DIKW pyramid](https://en.wikipedia.org/wiki/DIKW_pyramid). On this structure, learning is the process of recording and digesting life experience from outside in – traveling from the shell of raw data to the core of wisdom.
 				- Structure: The pyramid represents a gradation of depth, density, and integration.
 					- The Shell (Bottom): Raw data and information.
 						- Characterized by **“mere remembering”** and rote learning.
