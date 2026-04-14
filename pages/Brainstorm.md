@@ -11,26 +11,26 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2026 Brainstorms
 	  id:: 6960e754-ff94-4e1a-8266-d9f15231b880
-		- DOING ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) = ((69dd9b9a-a659-4d8d-a24c-b79c1c0c37c4)) by internalization
+		- DOING ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) = ((669a1d82-91c8-40fd-81f5-e8ffe56e9e9c)) by internalization
 		  id:: 69dd9adc-3474-4671-9d58-b8de893695a0
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2026-04-14 Tue 08:39:48]
 		  CLOCK: [2026-04-14 Tue 08:40:01]
 		  :END:
-			- The **obop** (**Equal**) is the state of structural stability achieved by converting an external, volatile environment into an internal, managed system.
-				- The **obop** internalizes the external **Arrow** to be the content of the self **Circle**.
+			- The **obop** ( ((66f3d5cc-0d68-47bb-b09a-87cda33c7354))) is the state of structural stability achieved by converting an external, volatile environment into an internal, managed system.
+				- The obop internalizes the external ((66f3d5ca-a982-4d12-b307-fd4812adeb3b)) to be the content of the self ((66f3d561-424a-4e1d-be55-98ac39c48502)).
 				- This is the fundamental mechanism of **Context Condensation**: optimizing the self by internalizing the world.
-			- The view cone mechanism
-				- The **obop** acts as a vertex where the macrocosm is projected and reflected into the microcosm.
-				- By “mixing both opposites like yin and yang,” the self finds the balanced position – the zero-point of the world.
+			- The ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) mechanism
+				- The obop acts as a vertex where the macrocosm is projected and reflected into the microcosm.
+				- By mixing both opposites, like yin and yang, the self finds the balanced position – the zero-point of the world.
 				- Internalization reduces environmental friction, freeing the subject from “irrelevant context” through the creation of stable **Form**.
 			- Biological internalization: from microbes to complex organisms
 				- Ancient microbes stabilized the external environment by internalizing the “up & down” of atmospheric gases.
 				- The sequence of internalization:
-					- Cyanobacteria: Internalized the processing of $CO_{2}$ to stabilize carbon intake.
-					- Alphaproteobacteria: Specialized in oxygen-based energy production.
-					- The first complex cell: An Asgard Archaea host internalizing an Alphaproteobacterium, which became the mitochondria (**Circle** containing the $O_{2}$ **Arrow**).
+					- [Cyanobacteria](https://en.wikipedia.org/wiki/Cyanobacteria): Internalized the processing of CO_{2} to stabilize carbon intake.
+					- [Alphaproteobacteria](https://en.wikipedia.org/wiki/Alphaproteobacteria): Specialized in oxygen-based energy production.
+					- The first complex cell: An [Asgard Archaea](https://en.wikipedia.org/wiki/Asgard_archaea) host internalizing an Alphaproteobacterium, which became the [mitochondria](https://en.wikipedia.org/wiki/Mitochondrion) (**Circle** containing the O_{2} **Arrow**).
 					- Adding Chloroplasts: Internalizing the photosynthetic cycle to create a complete metabolic loop.
 				- Evolution is the history of the **Arrow** of the environment becoming the **Circle** of the organism.
 			- Human technology: internalizing the globe
