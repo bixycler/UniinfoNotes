@@ -11,12 +11,12 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2026 Brainstorms
 	  id:: 6960e754-ff94-4e1a-8266-d9f15231b880
-		- DOING ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) = ((669a1d82-91c8-40fd-81f5-e8ffe56e9e9c)) by internalization
+		- ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) = ((669a1d82-91c8-40fd-81f5-e8ffe56e9e9c)) by internalization
 		  id:: 69dd9adc-3474-4671-9d58-b8de893695a0
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2026-04-14 Tue 08:39:48]
-		  CLOCK: [2026-04-14 Tue 08:40:01]
+		  CLOCK: [2026-04-14 Tue 08:40:01]--[2026-04-14 Tue 10:21:45] =>  01:41:44
 		  :END:
 			- The **obop** ( ((66f3d5cc-0d68-47bb-b09a-87cda33c7354))) is the state of structural stability achieved by converting an external, volatile environment into an internal, managed system.
 				- The obop internalizes the external ((66f3d5ca-a982-4d12-b307-fd4812adeb3b)) to be the content of the self ((66f3d561-424a-4e1d-be55-98ac39c48502)).
@@ -39,15 +39,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- [HVAC systems](https://en.wikipedia.org/wiki/Heating,_ventilation,_and_air_conditioning): Internalizes the climate.
 					- The Internet: Internalizes the global information network.
 					- Supply chains: Internalizing the global distribution of resources.
-			- The fractal boundary, the Edge of Chaos, and the **obop**
-				- This internalization pattern reaches its geometric limit at the [fractal boundary](https://en.wikipedia.org/wiki/Fractal_curve).
-				- The **Edge of Chaos**: The balanced position between rigid order (**Circle**) and total entropy (**Arrow**).
+			- The **obop** is at the fractal boundary and the Edge of Chaos.
+				- This internalization pattern reaches its geometric limit at the [fractal boundary](https://en.wikipedia.org/wiki/Fractal_curve) and the [Edge of Chaos](https://en.wikipedia.org/wiki/Edge_of_chaos) where the rigid order (Circle) is balanced with the chaos (Arrow).
 				- In a fractal, every sub-branch reflects the whole; the macrocosm is internalized infinitely into the microcosm.
 				- The **obop** sits at this boundary, where the external pressure is perfectly equalized by internal structure.
-			- Optimization and its cost
-				- “optimization = formation = context condensation.”
-				- While internalization frees the subject from external unpredictability, it also constrains the subject to the integrity of the internal **Form**.
-				- The more of the world we internalize, the more our identity as an **Equal** depends on the stability of the internalized cycles.
 		- [Three Treasures of Taoism  (三寶, Sān Bǎo)](https://en.wikipedia.org/wiki/Three_Treasures_(traditional_Chinese_medicine)) = ((669dfc7d-5355-41db-93a1-8d590e8ec9d8))
 		  id:: 69d3af25-95e2-4441-93e7-e5797eda2c42
 		  collapsed:: true
