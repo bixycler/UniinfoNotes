@@ -892,7 +892,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 				  :LOGBOOK:
 				  CLOCK: [2024-09-18 Wed 10:19:59]--[2024-09-18 Wed 16:29:05] =>  06:09:06
 				  :END:
-					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When a signal from the ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)) reaches a node in the ((66ea8d84-c766-4c47-b06c-a0b57a530096)), that node is activated and it creates a new ((66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe)) of itself on the screen. This new instance is combined with the source of the signal to develop the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)), similar to the [object construction in OOP](https://en.wikipedia.org/wiki/Instance_(computer_science)). Each cycle of this process is call an ((66ea4597-f085-4f38-95f7-91bf5cd61b1c)). Most of objects on the screen are compounds of several instances of several ((66ea8df3-d2f3-4856-b24a-5095dd285f9b))s. Only some special objects like the self body, the named objects, have a single corresponding past cone as its id knowledge. The instantiation is related to the “participation” in Plato's [Theory of Forms](https://en.wikipedia.org/wiki/Theory_of_forms).
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When a signal from the ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)) reaches a node in the ((66ea8d84-c766-4c47-b06c-a0b57a530096)), that node is activated and it creates a new ((66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe)) of itself on the screen. This new instance is combined with the source of the signal to develop the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)), similar to the [object construction in OOP](https://en.wikipedia.org/wiki/Instance_(computer_science)). Each cycle of this process is call an ((66ea4597-f085-4f38-95f7-91bf5cd61b1c)). Most of objects on the screen are compounds, each is composed of several instances of ((66ea8df3-d2f3-4856-b24a-5095dd285f9b))s. Only some special objects like the self body, the named objects, have a single corresponding past cone as its id knowledge. The instantiation is related to the “participation” in Plato's [Theory of Forms](https://en.wikipedia.org/wiki/Theory_of_forms).
 					  id:: 66ea9a0f-72df-42b6-8d72-fcc021ed5776
 					  :LOGBOOK:
 					  CLOCK: [2024-09-18 Wed 16:22:05]
@@ -923,15 +923,15 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 				- knowledge cone
 				  id:: 66ea8d84-c766-4c47-b06c-a0b57a530096
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ea8d84-c766-4c47-b06c-a0b57a530096)) is the internal world of the subject in the shape of a ((667252dc-e610-4d07-bcd0-9ea6fb4499fd)) of concepts which is rooted at the subject's self concept. Its peak is the ((66ea9505-9532-41ed-9f91-d4d8ddcaacc3)) containing knowledge of the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)). At the root/summit, the subject's self extends a pinnacle called ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) poking into the present cone to take action and spreads its effect out to the external world via ((66eaa51a-32c1-4f3a-830c-30aecb7c45a3)). The changes of the subject's self image as well as objects on the perceptual screen are reflected back to the knowledge cone via ((66eaa550-4e1e-4126-8004-bf3cb8956829))s.
-					- past cone
+					- concept past cone
 					  id:: 66ea8df3-d2f3-4856-b24a-5095dd285f9b
-					  is a peak of the ((66ea8d84-c766-4c47-b06c-a0b57a530096)) based on a concept.
-					- collective past cone
+					  is a peak of the ((66ea8d84-c766-4c47-b06c-a0b57a530096)) projected from a concept.
+					- past cone
 					  id:: 66ea9505-9532-41ed-9f91-d4d8ddcaacc3
 					  is the collective knowledge of objects, where each object is known by a ((66ea8df3-d2f3-4856-b24a-5095dd285f9b)).
 					- learning cone
 					  id:: 66eaa550-4e1e-4126-8004-bf3cb8956829
-					  is a ((667bd93a-cce4-4dbf-9831-725e4dffe463)) of an object or the subject's self image on the ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)) toward the base of the ((66ea8d84-c766-4c47-b06c-a0b57a530096)).
+					  is an ((667bd93a-cce4-4dbf-9831-725e4dffe463)) of an object or the subject's self image on the ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)) toward the base of the ((66ea8d84-c766-4c47-b06c-a0b57a530096)).
 					- mutual reflections
 					  id:: 66eac7d3-f1e6-420c-a2a5-1424c86d4185
 					  collapsed:: true
