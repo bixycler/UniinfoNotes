@@ -1471,7 +1471,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 11-12th, weekends:
 			  collapsed:: true
 				- The [chat with AI Mode](https://share.google/aimode/kwHeWOKuqPSsjePPj) about ancient biological internalization (endosymbiosis), i see the obop model.
-					- The [chat with Gemini](https://gemini.google.com/app/a50ff6f4c5d96963) to write the note exposed a whole lot of issues with Gemini -- a severe hallucination!
+					- The [chat with Gemini](https://gemini.google.com/app/a50ff6f4c5d96963) to write [the note](((69dd9adc-3474-4671-9d58-b8de893695a0))) exposed a whole lot of issues with Gemini – a severe hallucination!
 					- That very hallucination prompted me to contemplate deep into the mechanism of the obop => ((69dc4a34-43e6-4051-93b8-5260fb083255)).
 				- DONE Add [[CreatZy-style]] **markdown** to GDrive
 				  collapsed:: true

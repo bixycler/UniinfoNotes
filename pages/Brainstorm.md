@@ -11,7 +11,46 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2026 Brainstorms
 	  id:: 6960e754-ff94-4e1a-8266-d9f15231b880
-		- DOING [Three Treasures of Taoism  (三寶, Sān Bǎo)](https://en.wikipedia.org/wiki/Three_Treasures_(traditional_Chinese_medicine)) = ((669dfc7d-5355-41db-93a1-8d590e8ec9d8))
+		- DOING ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) = ((69dd9b9a-a659-4d8d-a24c-b79c1c0c37c4)) by internalization
+		  id:: 69dd9adc-3474-4671-9d58-b8de893695a0
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2026-04-14 Tue 08:39:48]
+		  CLOCK: [2026-04-14 Tue 08:40:01]
+		  :END:
+			- The **obop** (**Equal**) is the state of structural stability achieved by converting an external, volatile environment into an internal, managed system.
+				- The **obop** internalizes the external **Arrow** to be the content of the self **Circle**.
+				- This is the fundamental mechanism of **Context Condensation**: optimizing the self by internalizing the world.
+			- The view cone mechanism
+				- The **obop** acts as a vertex where the macrocosm is projected and reflected into the microcosm.
+				- By “mixing both opposites like yin and yang,” the self finds the balanced position – the zero-point of the world.
+				- Internalization reduces environmental friction, freeing the subject from “irrelevant context” through the creation of stable **Form**.
+			- Biological internalization: from microbes to complex organisms
+				- Ancient microbes stabilized the external environment by internalizing the “up & down” of atmospheric gases.
+				- The sequence of internalization:
+					- Cyanobacteria: Internalized the processing of $CO_{2}$ to stabilize carbon intake.
+					- Alphaproteobacteria: Specialized in oxygen-based energy production.
+					- The first complex cell: An Asgard Archaea host internalizing an Alphaproteobacterium, which became the mitochondria (**Circle** containing the $O_{2}$ **Arrow**).
+					- Adding Chloroplasts: Internalizing the photosynthetic cycle to create a complete metabolic loop.
+				- Evolution is the history of the **Arrow** of the environment becoming the **Circle** of the organism.
+			- Human technology: internalizing the globe
+				- Modern society and technology scale this biological pattern to the planetary level.
+				- The “Home” acts as a technological shell that internalizes global variables.
+					- HVAC systems: Internalizing the climate.
+					- The Internet: Internalizing the global information flow (**Omnifold**).
+					- Supply chains: Internalizing the global distribution of resources.
+					  ― We humans are now internalizing the whole globe into our society and our homes via technology.
+					  ― By projecting the macrocosm into the microcosm, mixing both opposites like yin and yang, positive and negative, form & content, the obop places its self to the middle, the balanced position of the world.
+			- The fractal boundary, the Edge of Chaos, and the **obop**
+				- This internalization pattern reaches its geometric limit at the fractal boundary.
+				- The **Edge of Chaos**: The balanced position between rigid order (**Circle**) and total entropy (**Arrow**).
+				- In a fractal, every sub-branch reflects the whole; the macrocosm is internalized infinitely into the microcosm.
+				- The **obop** sits at this boundary, where the external pressure is perfectly equalized by internal structure.
+			- Optimization and its cost
+				- “optimization = formation = context condensation.”
+				- While internalization frees the subject from external unpredictability, it also constrains the subject to the integrity of the internal **Form**.
+				- The more of the world we internalize, the more our identity as an **Equal** depends on the stability of the internalized cycles.
+		- [Three Treasures of Taoism  (三寶, Sān Bǎo)](https://en.wikipedia.org/wiki/Three_Treasures_(traditional_Chinese_medicine)) = ((669dfc7d-5355-41db-93a1-8d590e8ec9d8))
 		  id:: 69d3af25-95e2-4441-93e7-e5797eda2c42
 		  collapsed:: true
 		  :LOGBOOK:
