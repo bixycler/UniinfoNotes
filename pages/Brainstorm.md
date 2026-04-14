@@ -24,25 +24,23 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- The ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) mechanism
 				- The obop acts as a vertex where the macrocosm is projected and reflected into the microcosm.
 				- By mixing both opposites, like yin and yang, the self finds the balanced position – the zero-point of the world.
-				- Internalization reduces environmental friction, freeing the subject from “irrelevant context” through the creation of stable **Form**.
+				- Internalization reduces environmental friction, freeing the subject from “irrelevant context” through the creation of concrete form channeling content.
 			- Biological internalization: from microbes to complex organisms
 				- Ancient microbes stabilized the external environment by internalizing the “up & down” of atmospheric gases.
 				- The sequence of internalization:
 					- [Cyanobacteria](https://en.wikipedia.org/wiki/Cyanobacteria): Internalizes the processing of CO_{2} by solar energy, to stabilize carbon intake and release O_{2}. Cyanobacteria reduced the excessive CO_{2} released by volcanoes in the early time of the Earth.
 					- [Alphaproteobacteria](https://en.wikipedia.org/wiki/Alphaproteobacteria): Internalizes the processing of nutrients using toxic gases like oxygen, nitrate, sulfate to stablize energy production. Alphaproteobacteria reduced the excessive O_{2} released by Cyanobacteria.
-					- The first complex cell: An [Asgard Archaea](https://en.wikipedia.org/wiki/Asgard_archaea) host internalizes an Alphaproteobacterium as its [mitochondria](https://en.wikipedia.org/wiki/Mitochondrion) to stablize the transformation of O_{2} (toxic to the host) and nutrients to engergy.
-					- The second complex cell: By internalizing Cyanobacteria as [chloroplasts](https://en.wikipedia.org/wiki/Chloroplast), the plant cell stablize the life with the full cycle of both CO_{2} and O_{2}.
+					- The first complex cell: An [Asgard Archaea](https://en.wikipedia.org/wiki/Asgard_archaea) host internalizes an Alphaproteobacterium as its [mitochondria](https://en.wikipedia.org/wiki/Mitochondrion) to stablize the transformation of O_{2} (toxic to the host) and nutrients to living engergy.
+					- The second complex cell: By internalizing Cyanobacteria as [chloroplasts](https://en.wikipedia.org/wiki/Chloroplast), the plant cell adds CO_{2} to the equation to stablize the life with the full cycle of both CO_{2} and O_{2}.
 				- Evolution is the history of the **Arrow** of the environment becoming the **Circle** of the organism.
 			- Human technology: internalizing the globe
 				- Modern society and technology scale this biological pattern to the planetary level.
-				- The “Home” acts as a technological shell that internalizes global variables.
-					- HVAC systems: Internalizing the climate.
-					- The Internet: Internalizing the global information flow (**Omnifold**).
+				- The “home” acts as a technological shell that internalizes global variables.
+					- [HVAC systems](https://en.wikipedia.org/wiki/Heating,_ventilation,_and_air_conditioning): Internalizes the climate.
+					- The Internet: Internalizes the global information network.
 					- Supply chains: Internalizing the global distribution of resources.
-					  ― We humans are now internalizing the whole globe into our society and our homes via technology.
-					  ― By projecting the macrocosm into the microcosm, mixing both opposites like yin and yang, positive and negative, form & content, the obop places its self to the middle, the balanced position of the world.
 			- The fractal boundary, the Edge of Chaos, and the **obop**
-				- This internalization pattern reaches its geometric limit at the fractal boundary.
+				- This internalization pattern reaches its geometric limit at the [fractal boundary](https://en.wikipedia.org/wiki/Fractal_curve).
 				- The **Edge of Chaos**: The balanced position between rigid order (**Circle**) and total entropy (**Arrow**).
 				- In a fractal, every sub-branch reflects the whole; the macrocosm is internalized infinitely into the microcosm.
 				- The **obop** sits at this boundary, where the external pressure is perfectly equalized by internal structure.
