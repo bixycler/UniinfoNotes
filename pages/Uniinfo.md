@@ -966,7 +966,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 			- pramid of knowledge
 			  id:: 69dce3dc-0afa-4ab3-8a4b-ff517c0b06e0
 			  collapsed:: true
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((69dce3dc-0afa-4ab3-8a4b-ff517c0b06e0)) is a conic projection of the onion structure of the ((669a5387-2a97-4311-a295-aa0afd9c4d76))s, which is usually known as the [DIKW pyramid](https://en.wikipedia.org/wiki/DIKW_pyramid). On this structure, learning is the process of recording and digesting life experience from outside in – traveling from the shell of raw data to the core of wisdom.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((69dce3dc-0afa-4ab3-8a4b-ff517c0b06e0)) is a cone projection of the onion structure of the ((669a5387-2a97-4311-a295-aa0afd9c4d76))s, which is usually known as the [DIKW pyramid](https://en.wikipedia.org/wiki/DIKW_pyramid). On this structure, learning is the process of recording and digesting life experience from outside in – traveling from the shell of raw data to the core of wisdom.
 				- Structure: The pyramid represents a gradation of depth, density, and integration.
 					- The Shell (Bottom): Raw data and information.
 						- Characterized by **“mere remembering”** and rote learning.
