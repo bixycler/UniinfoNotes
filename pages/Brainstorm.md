@@ -29,9 +29,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Ancient microbes stabilized the external environment by internalizing the “up & down” of atmospheric gases.
 				- The sequence of internalization:
 					- [Cyanobacteria](https://en.wikipedia.org/wiki/Cyanobacteria): Internalizes the processing of CO_{2}, to stabilize carbon intake and release O_{2}. Cyanobacteria reduced the excessive CO_{2} released by volcanoes in the early time of the Earth.
-					- [Alphaproteobacteria](https://en.wikipedia.org/wiki/Alphaproteobacteria): Internalizes the processing of nutrients using toxic gases like oxygen, nitrate, sulfate to stablize energy production. Alphaproteobacteria reduced the excessive O_{2} released by
-					- The first complex cell: An [Asgard Archaea](https://en.wikipedia.org/wiki/Asgard_archaea) host internalizes an Alphaproteobacterium as its [mitochondria](https://en.wikipedia.org/wiki/Mitochondrion) to stablize the transformation of O_{2} (toxic to the host) to engergy.
-					- The second complex cell: By hosting Cyanobacteria as [chloroplasts](https://en.wikipedia.org/wiki/Chloroplast), the plant cell internalizes the photosynthetic cycle to stablize the .
+					- [Alphaproteobacteria](https://en.wikipedia.org/wiki/Alphaproteobacteria): Internalizes the processing of nutrients using toxic gases like oxygen, nitrate, sulfate to stablize energy production. Alphaproteobacteria reduced the excessive O_{2} released by Cyanobacteria.
+					- The first complex cell: An [Asgard Archaea](https://en.wikipedia.org/wiki/Asgard_archaea) host internalizes an Alphaproteobacterium as its [mitochondria](https://en.wikipedia.org/wiki/Mitochondrion) to stablize the transformation of O_{2} (toxic to the host) and nutrients to engergy.
+					- The second complex cell: By internalizing Cyanobacteria as [chloroplasts](https://en.wikipedia.org/wiki/Chloroplast), the plant cell stablize the life with the full photosynthetic cycle to equalize the O_{2} consumption with CO_{2} consumption.
 				- Evolution is the history of the **Arrow** of the environment becoming the **Circle** of the organism.
 			- Human technology: internalizing the globe
 				- Modern society and technology scale this biological pattern to the planetary level.
