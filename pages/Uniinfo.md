@@ -966,7 +966,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 			- pramid of knowledge
 			  id:: 69dce3dc-0afa-4ab3-8a4b-ff517c0b06e0
 			  collapsed:: true
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((69dce3dc-0afa-4ab3-8a4b-ff517c0b06e0)) is an inverse conic projection of the onion structure of the ((669a5387-2a97-4311-a295-aa0afd9c4d76))s, which is usually known as the [DIKW pyramid](https://en.wikipedia.org/wiki/DIKW_pyramid). On this structure, learning is the process of recording and digesting life experience from outside in – traveling from the shell of raw data to the core of wisdom.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((69dce3dc-0afa-4ab3-8a4b-ff517c0b06e0)) is an inverse ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)) of the onion structure of the ((669a5387-2a97-4311-a295-aa0afd9c4d76))s, lifting it to a cone structure, which is usually known as the [DIKW pyramid](https://en.wikipedia.org/wiki/DIKW_pyramid). On this structure, learning is the process of recording and digesting life experience from outside in – traveling from the shell of raw data to the core of wisdom.
 				- Structure: The pyramid represents a gradation of depth, density, and integration.
 					- The Shell (Bottom): Raw data and information.
 						- Characterized by **“mere remembering”** and rote learning.
@@ -1262,14 +1262,14 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 			- arrow projection
 			  id:: 670dd4d7-ed37-4954-8379-63138fa072d6
 			  the most general type of projection.
-			- #### cone projection
+			- #### conic projection
 			  id:: 670ce218-a01f-4609-b7f2-beda7cf2ebc3
 			  :LOGBOOK:
 			  CLOCK: [2024-10-15 Tue 09:38:46]
 			  :END:
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667251ec-d4f7-4c09-adff-73e04a4b22ed))
 			  ((676545b3-2d9f-43af-8ff0-3543dbe73159))
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The most common type of projection is ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)) where projection arrow is a ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)): the world at the cone base is projected to its image at the cone apex.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The most common type of projection is ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)) where projection arrow is a ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)): the high-dimensional world in the cone or on the cone base is projected to a “flat” (low-dimensional) image at the cone apex.
 					- A two-way projection within a double cone is called ((68908fbd-acc3-41a6-8c38-17ee1f014223)).
 			- #### wrapping projection
 			  id:: 670cdcb4-3c85-45af-8c30-3c3284ed37df
