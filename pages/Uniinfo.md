@@ -931,7 +931,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					  is the collective knowledge of objects, where each object is known by a ((66ea8df3-d2f3-4856-b24a-5095dd285f9b)).
 					- learning cone
 					  id:: 66eaa550-4e1e-4126-8004-bf3cb8956829
-					  is an ((667bd93a-cce4-4dbf-9831-725e4dffe463)) of an object or the subject's self image on the ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)) toward the base of the ((66ea8d84-c766-4c47-b06c-a0b57a530096)).
+					  is an ((667bd93a-cce4-4dbf-9831-725e4dffe463)) of an object or the subject's self image on the ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)), shining toward the base of the ((66ea8d84-c766-4c47-b06c-a0b57a530096)).
 					- mutual reflections
 					  id:: 66eac7d3-f1e6-420c-a2a5-1424c86d4185
 					  collapsed:: true
