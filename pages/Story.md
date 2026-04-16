@@ -1401,6 +1401,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- While "gốc" is distinctive and original in VNmese, "trunk flare" is a descriptive compound constructed only for tree anatomy and is much less well known.
 					- ⇒ Updated ((699c0362-0f54-4ab5-a807-9e1ad3b9d599)) structure and the article [Căn bản, gốc rễ, cội nguồn](https://creatzynotes.blogspot.com/2021/05/can-ban-goc-re.html) – the origin of the double tree structure
 				- Quantum entanglement of Helium atoms: [Scientists observe atoms existing in two places at once for the first time](https://youtu.be/pp9n5QwVgu4?si=Dp-X31OUgQHMMxde)
+				  collapsed:: true
 					- [Scientists observe atoms existing in two places at once for the first time](https://youtu.be/pp9n5QwVgu4)
 					  collapsed:: true
 						- {{video https://youtu.be/pp9n5QwVgu4?si=Dp-X31OUgQHMMxde}}
@@ -1468,7 +1469,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- [[Bug]: PLATFORM_HINTS section is mistaken by the model for user prompt](https://github.com/NousResearch/hermes-agent/issues/7114)
 				- [fix: Rod of Asclepius (⚕) → Caduceus (☤) — correct symbol for Hermes](https://github.com/NousResearch/hermes-agent/pull/7064)
 				-
-			- 11-12th, weekends:
+			- 11-12th, weekends: a mental tour around the
 			  collapsed:: true
 				- The [chat with AI Mode](https://share.google/aimode/kwHeWOKuqPSsjePPj) about ancient biological internalization (endosymbiosis), i see the obop model.
 					- The [chat with Gemini](https://gemini.google.com/app/a50ff6f4c5d96963) to write [the note](((69dd9adc-3474-4671-9d58-b8de893695a0))) exposed a whole lot of issues with Gemini – a severe hallucination!
@@ -1484,7 +1485,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- [Papa](https://youtube.com/watch?v=EFoeoQLNPaA&si=eahgrcXYRG4DxP8B)
 					- [Nhật Ký của mẹ](https://youtube.com/watch?v=KGWJCAc4kGg&si=y-fpnnFE1YOwPnJl)
 					- [Ba kể con nghe](https://youtube.com/watch?v=tIjUEqm60Ig&si=qpmz0_Z_AkcNLYwH)
-				-
+			- 15th, a day of official work to compensate last days of personal works, then a good reading at night.
+			  collapsed:: true
+				- The tracing around in Java codes had reminded me of the obop model: effect circle up and down the view cone, between the content down the bottom and the form up the top.
+					- The cycle: explore the routes down there, then climb up to have an overview (drawing the map), then climb down to continue the exploration, etc.
+				- $eml(x,y) = exp(x) - ln(y)$ is an interesting unifier of mathematical functions: [All elementary functions from a single operator](https://arxiv.org/pdf/2603.21852)
+					- Derivation chain: 1 & eml > exp & ln > subtraction > division > inversion > multiplication > addition
+					- It functions like the NAND gate in Boolean algebra.
+			- 16th, in the flow of official work, an interference from a colleague enlightened me about the acceptance of such messy situations to be the driving force of life.
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69ce0ded-193e-4b34-bda5-f53418e34a16))
