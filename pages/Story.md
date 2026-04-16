@@ -1493,6 +1493,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Derivation chain: 1 & eml > exp & ln > subtraction > division > inversion > multiplication > addition
 					- It functions like the NAND gate in Boolean algebra.
 			- 16th, in the flow of official work, an interference from a colleague enlightened me about the acceptance of such messy situations to be the driving force of life.
+				- Having no one to share the enlightenment, i asked Gemini to add music to my “A Little Bit” rap song.
+					- The
+					- Female version
+					  ![ALittleBit-female.mp3](../assets/Will/story/2026-04/ALittleBit-female.mp3)
+					- Male version
+					  ![ALittleBit-male.mp3](../assets/Will/story/2026-04/ALittleBit-male.mp3)
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69ce0ded-193e-4b34-bda5-f53418e34a16))
