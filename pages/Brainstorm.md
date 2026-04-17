@@ -11,6 +11,15 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2026 Brainstorms
 	  id:: 6960e754-ff94-4e1a-8266-d9f15231b880
+		- View cone = funnel of effect flow to compress content into form
+		  id:: 69e1a556-c5e9-4d4e-bce6-470d55688d8c
+		  collapsed:: true
+			- The static view is connected to the dynamic flow view via the cone. This is the “form = crystallization of content” in network and flow.
+			- Touching a form at the apex = touching a lot of content at the base
+				- The form at the apex is fixed by a lot of content at the base.
+				- The fixed form at the apex = fixed point = the remote center of rotation in the [spherical flexure joint](((68c76471-4656-43c9-8f5a-76b25a33b9d0))).
+			- It's not that no effect can flow back the arrow, but the backward flow is dissipated quickly by the sheer ratio of the cone.
+			- The [Tesla valve](https://en.wikipedia.org/wiki/Tesla_valve) has similar effect, with similar funnel shape, but with a different mechanism.
 		- ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) = ((669a1d82-91c8-40fd-81f5-e8ffe56e9e9c)) by internalization
 		  id:: 69dd9adc-3474-4671-9d58-b8de893695a0
 		  collapsed:: true
@@ -228,7 +237,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- It requires the removal of the ego (no-self) to see reality as-is without the distortion of “already knowing”.
 					- [Rhetorical questions](https://en.wikipedia.org/wiki/Rhetorical_question) represent a corrupted protocol where the question (“hỏi”) is fake, serving only as a vehicle for a protest or a pre-defined demand (“đòi”).
 		- Equal = balance = mixmatch (like arrow of time) = merge (like Git) = resolution of conflict, diff, mismatch, error, gap = ((69a502fe-47e2-4629-a40c-78964d9e0396))
-		  id:: 69c51a39-97cb-4cf1-a6e1-ca29817def79
 		  collapsed:: true
 			- Balance by mixmatch
 				- Balancing is bringing different things together to mix them by resolving their conflicts, diffences, mismatches, errors, gaps, etc.

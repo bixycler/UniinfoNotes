@@ -594,7 +594,7 @@ id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
 		- change of bone (size) = scaling = rotation on meta layer = viewscale change
 		- This [fixed point in thin air](https://www.thingiverse.com/thing:4841850) is interesting, as shown in [this video](https://youtu.be/ZKz0_kSFSP0). It's the static version of gyroscope, qigong, and my dream of levitating bench.
 		  id:: 68c76471-4656-43c9-8f5a-76b25a33b9d0
-			- Paper: [A new type of spherical flexure joint based on tetrahedron elements](https://www.sciencedirect.com/science/article/pii/S0141635921000726?via%3Dihub)
+			- Paper: [A new type of spherical flexure joint based on tetrahedron elements](https://www.sciencedirect.com/science/article/pii/S0141635921000726)
 			- Inversely, taking this [remote center of motion (RCM)](https://www.igi-global.com/dictionary/?p=Remote+Center+of+Motion) as the stationary base, the limbs can freely move around it.
 			- This virtual center is also the empty center of the self-essence. The whole bodymind moves just to keep this center stable.
 	- Projective relativity: the same content being viewed at different ((667272b8-88a8-4928-a22a-35035c9edf05))s on different ((68c763fb-ca93-4f2d-b20f-ae8cbf5cf8e2))s results in different forms.
@@ -1240,6 +1240,7 @@ id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
 			- Being focused & projected from the ((669a5387-2a97-4311-a295-aa0afd9c4d76))s around, the self-essence (as an empty center) cannot exist on its own. In other words, the self-essence itself has no essence.
 			- When the self components all align and focus to the empty center, such a virtual point can be very stable, because it's stablized by the whole self-circle.
 				- An interesting example is the [spherical flexure joint](((68c76471-4656-43c9-8f5a-76b25a33b9d0))).
+				  id:: 699c0366-0bae-4bc3-8656-5a88a68891b5
 			- The “invisible self-essence”, usually called “Nibbāna”, is immanent in everything. In other words, everything has a self-essence which is empty. This immanence is because nothing can obstruct a thing with zero intent, thus the zero-intent Nibbāna permeates everything.
 			- Though empty, the central role of the self-essence in the self makes it essential to every self.
 				- All parts of the self-circle are integrated by focusing on the same center. Via that center, they all are one, seeing/feeling/treating each other as the same ((66c810a0-9861-4787-bdcf-1378219332be)) of self.

@@ -1500,6 +1500,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  ![ALittleBit-female.mp3](../assets/Will/story/2026-04/ALittleBit-female.mp3)
 					- Male version
 					  ![ALittleBit-male.mp3](../assets/Will/story/2026-04/ALittleBit-male.mp3)
+				- ((69e1a556-c5e9-4d4e-bce6-470d55688d8c))
+				- [Chat with Gemini](https://gemini.google.com/app/d3a8601601e08e55) about the Dirac fluid and superconductivity, on the occasion of [this article](https://www.sciencedaily.com/releases/2026/04/260415042152.htm).
+					- Both extremes (hot Dirac fluid and cold superconductivity) expel the external disturbance to focus on the internal interaction between electrons.
+					- internal coupling = coherence vs external coupling = coherence
+					- The individuality of the particle is nothing more than the intersection of external conditions.
+					- In Unïnfo terms, the choppy environment divides the collection into individual particles.
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69ce0ded-193e-4b34-bda5-f53418e34a16))
