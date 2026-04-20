@@ -149,11 +149,15 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- **Building Capacity:** Distress tolerance is not fixed and can be developed. Interventions like [mindfulness](https://en.wikipedia.org/wiki/Mindfulness), [Acceptance and Commitment Therapy (ACT)](https://en.wikipedia.org/wiki/Acceptance_and_commitment_therapy), and [Dialectical Behavior Therapy (DBT)](https://en.wikipedia.org/wiki/Dialectical_behavior_therapy) focus on staying present with what's uncomfortable without escaping or fixing it. Simple practices include genuinely asking what would be needed to change your mind or staying in an uncomfortable conversation.
 			- [Wise = distress tolerant](((69cdbf00-d7c8-4b4c-9d77-da604b1da279))) is just an expression of the trade-off.
 			- The trade-off is usually mentioned by **Jesus**.
-				- But **woe** to you who are rich, for you have _already received your **comfort**_. 
+				- Blessed are you who are **poor**, for yours is the **kingdom of God**.
+				  Blessed are you who **hunger** now, for you will be **filled**.
+				  Blessed are you who **weep** now, for you will **laugh**.
+				  
+				  But **woe** to you who are rich, for you have _already received your **comfort**_. 
 				  Woe to you who are **well fed now**, for you **will hunger**.
 				  Woe to you who **laugh now**, for you **will mourn and weep**.
 				  Woe to you when all men speak well of you, for their fathers treated the false prophets in the same way.
-				  — [Luke 6:24‒26](https://biblehub.com/luke/6.htm#24)
+				  — [Luke 6:20‒26](https://biblehub.com/luke/6.htm#20)
 				- But Abraham replied, “Son, remember that in your lifetime _you received your **good things**_, while Lazarus received bad things, but now he is comforted here and you are in **agony**.” 
 				  — [Luke 16:25](https://biblehub.com/bsb/luke/16.htm#19)
 				- So when you give to the needy, do not announce it with trumpets, as the hypocrites do in the synagogues and on the streets, to be honored by others. Truly I tell you, _they have received their **reward in full**_. 
