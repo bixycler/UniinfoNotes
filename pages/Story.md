@@ -1507,7 +1507,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- The individuality of the particle is nothing more than the intersection of external conditions.
 					- In Unïnfo terms, the choppy environment divides the collection into individual particles.
 			- 17th, wrapped up the first phase of investigation in my official work, then joined the birthday party of my company Hybrid Technologies Vietnam (HTV).
-			- 18-19th, weekends:
+			- 18-19th, weekends: desire = energy = content arrow
+			  collapsed:: true
 				- Through a chat with Google AI Mode about corruption & desire, i see desire = energy = content arrow = gap = problem in this Desire Realm. => Life = desire management = energy management
 					- Here desire/greed & aversion are just 2 opposite arrows of the same content.
 				- [Disentangling Boltzmann Brains, the Time-Asymmetry of Memory, and the Second Law](https://arxiv.org/pdf/2507.10959)
