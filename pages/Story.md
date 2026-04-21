@@ -1513,6 +1513,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Here desire/greed & aversion are just 2 opposite arrows of the same content.
 				- [Disentangling Boltzmann Brains, the Time-Asymmetry of Memory, and the Second Law](https://arxiv.org/pdf/2507.10959)
 				- [Testing CCC+TL Cosmology with Observed Baryon Acoustic Oscillation Features](https://iopscience.iop.org/article/10.3847/1538-4357/ad1bc6): a universe where constants can change, light can lose energy across great distances, and neither dark matter nor dark energy need to be included in the ledger.
+			- 21st,...
+			  collapsed:: true
+				- DOING Connect Hermes to a browser
+				  :LOGBOOK:
+				  CLOCK: [2026-04-21 Tue 14:10:52]
+				  CLOCK: [2026-04-21 Tue 14:10:54]
+				  :END:
+				- TODO Check ByteRover log for memo injections
+				- TODO Tune ByteRover config to reduce its eagerness
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69ce0ded-193e-4b34-bda5-f53418e34a16))
