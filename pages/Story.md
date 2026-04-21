@@ -1515,10 +1515,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- [Testing CCC+TL Cosmology with Observed Baryon Acoustic Oscillation Features](https://iopscience.iop.org/article/10.3847/1538-4357/ad1bc6): a universe where constants can change, light can lose energy across great distances, and neither dark matter nor dark energy need to be included in the ledger.
 			- 21st,...
 			  collapsed:: true
-				- DOING Connect Hermes to a browser
+				- DONE Connect Hermes to Chrome browser [via CDP](https://hermes-agent.nousresearch.com/docs/user-guide/features/browser#local-chrome-via-cdp-browser-connect) and command `/browser connect` in CLI
 				  :LOGBOOK:
 				  CLOCK: [2026-04-21 Tue 14:10:52]
-				  CLOCK: [2026-04-21 Tue 14:10:54]
+				  CLOCK: [2026-04-21 Tue 14:10:54]--[2026-04-21 Tue 16:24:20] =>  02:13:26
 				  :END:
 				- TODO Check ByteRover log for memo injections
 				- TODO Tune ByteRover config to reduce its eagerness
