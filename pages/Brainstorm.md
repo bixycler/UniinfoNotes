@@ -147,7 +147,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Overriding deep system interrupts: Lung inflammation
 				- The challenge of pneumonia
 					- Lung inflammation represents one of the most severe system challenges Will has faced, involving intense pain and a powerful, “involuntary” cough reflex.
-					- In 2024, Will managed a pneumonia episode by combining qigong with formal medical intervention and bio-tests; in 2025, he successfully managed a similar episode solely through qigong practice.
+					- [In 2024](((67b541d0-e82f-422b-9c0d-f7924abce981))), Will managed a pneumonia episode by combining qigong with formal medical intervention and bio-tests. [In 2025](((67dcc012-44d3-4041-b17a-0ef201b3ff6c))), he successfully managed a similar episode solely through qigong practice.
 				- The *Âm dương đan* (陰陽丹) technique
 					- Will utilized a specific technique to transform *Qi* and tame the cough: the “yin-yang pearl” (*Âm dương đan*).
 					- This involves focusing the “orb” in front of the chest, using the hands to guide the energy in circular motions combined with “yang” (inhale) and “yin” (exhale) breathing.
