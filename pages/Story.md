@@ -1539,7 +1539,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- When compressing all external memory into the qualiton, we can get the weirdness of my first impression from computer science.
 						- This is impossible for the whole universe, but can be done for a small world, as shown by the simulation on computer.
 					- Relative solidity: The amount of internal memory defines the amount of thread experienced outside. Hence, the whole world is just the reflection of the self: “What you see is what you are.”
-						- Regarding the WYSIWYA principle, there are [enactivism](https://en.wikipedia.org/wiki/Enactivism), [umwelt](https://en.wikipedia.org/wiki/Umwelt), [radical constructivism](https://en.wikipedia.org/wiki/Radical_constructivism),
+						- Regarding the WYSIWYA principle, there are [enactivism](https://en.wikipedia.org/wiki/Enactivism), [umwelt](https://en.wikipedia.org/wiki/Umwelt), [radical constructivism](https://en.wikipedia.org/wiki/Radical_constructivism), and [quantum observer effect](https://en.wikipedia.org/wiki/Observer_effect_(physics)).
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69ce0ded-193e-4b34-bda5-f53418e34a16))
