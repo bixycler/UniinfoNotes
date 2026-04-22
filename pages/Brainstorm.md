@@ -87,12 +87,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Energy equivalence
 					- Based on $⟪E = m \cdot c^2⟫$, where Form (*jing*) is the crystallization of Content (*qi*).
 					- [Sublimation](((668f5490-c223-4a8a-9cc4-0bd71af4c097))) is the process of reversing this crystallization to return matter to pure energy.
-		- DOING Will Lei's personal experiences with Qigong and Tantric sex
+		- DOING Will Lei's personal experiences with Qigong and biological debugging
 		  id:: 69d3af51-e196-4656-9605-1e6fa8099156
 		  collapsed:: true
 		  :LOGBOOK:
-		  CLOCK: [2026-04-06 Mon 20:04:19]
-		  CLOCK: [2026-04-06 Mon 20:21:50]
+		  CLOCK: [2026-04-22 Wed 20:08:20]
 		  :END:
 			- →
 		- [Consciousness and Strange Loops](https://bosonphoton.medium.com/consciousness-and-strange-loops-5f8b6199bc3a) shows ideas similar to Unïnfo about panpsychism and the levels of awareness.
