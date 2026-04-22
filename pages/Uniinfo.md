@@ -1668,7 +1668,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Like ((667252dc-e610-4d07-bcd0-9ea6fb4499fd)), a ((66752fbf-a751-4117-ae0d-17d9a19053e4)) shows internal structure of a ((667251ec-d4f7-4c09-adff-73e04a4b22ed)).
 				- Representation:
 				  id:: 66752fca-96b5-46a0-9b66-c825cc1de9c7
-					- Graphically, ((66752fbf-a751-4117-ae0d-17d9a19053e4)) can be represented by [Euler diagram](https://en.wikipedia.org/wiki/Euler_diagram), [nested set collection](https://en.wikipedia.org/wiki/Nested_set_collection), [treemap](https://en.wikipedia.org/wiki/Treemapping), [radial tree](https://en.wikipedia.org/wiki/Radial_tree), [radial treemap].
+					- Graphically, ((66752fbf-a751-4117-ae0d-17d9a19053e4)) can be represented by [Euler diagram](https://en.wikipedia.org/wiki/Euler_diagram), [nested set collection](https://en.wikipedia.org/wiki/Nested_set_collection), [treemap](https://en.wikipedia.org/wiki/Treemapping), [radial tree](https://en.wikipedia.org/wiki/Radial_tree), [radial treemap (sunburst chart)](https://en.wikipedia.org/wiki/Pie_chart#Ring).
 					  id:: 66753405-9afe-478e-abd2-f43100e21c33
 					- Textually, ((66752fbf-a751-4117-ae0d-17d9a19053e4)) can be represented by [Dyck word](https://en.wikipedia.org/wiki/Dyck_language) and ((6675369a-1d13-48c5-8a77-d588aa8b59b8)).
 		- ### scope
