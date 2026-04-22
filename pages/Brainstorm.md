@@ -66,27 +66,27 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- The Circle `○` representing Form and Matter.
 				- Physical hardware layer
 					- Includes muscle, vessel, hormone, and nerve.
-					- Acts as the “Solid” state or the “Crystallization of Content”.
-				- Role in the system: The **Container** or the **Pressure Vessel** where energy is condensed.
+					- Acts as the “solid” state or the [crystallization of content](((66f4e208-37c7-4749-a448-0722f7f7af20))).
+				- Role in the system: The **container** or the **pressure vessel** where energy is condensed.
 			- Qi (氣) = Arrow
 				- The Arrow `→` representing Dynamic Content and Energy.
 				- Runtime execution layer
-					- The “Vapor” state representing the motion of the *jing*.
+					- The “vapor” state representing the motion of the *jing*.
 					- Manifests as the feeling of tension, congestion, surge, and electricity.
-				- Role in the system: The **Vector** or the **Effect Flow** that drives information through the hardware.
+				- Role in the system: The **vector** or the ((667bef22-b272-4a7d-b613-3f1ed1a47329)) that drives information through the hardware.
 			- Shen (神) = Equal
-				- The Equal `=` representing Awareness and the *obop* state.
+				- The Equal `=` representing ((66f267f7-01f9-47b9-8376-abd27fdf2930)) and the obop.
 				- System administrator layer
-					- The “Mind” or “Spirit” that observes the system without being consumed by the operation.
+					- The “mind” or “spirit” that observes the system without being consumed by the operation.
 					- Based on but not limited to the Central Nervous System.
-				- Role in the system: The **Stable Observer** or the **Static Presence** that remains during the energy blast.
+				- Role in the system: The **stable observer** that remains during the energy blast.
 			- Alchemical processes in Unïnfo terms
 				- *Bế tinh* (Seal Essence): Locking the Circle `○` to build potential energy.
 				- *Dưỡng khí* (Nourish Energy): Directing the Arrow `→` to circulate the content.
 				- *Tồn thần* (Preserve Spirit): Maintaining the Equal `=` to stabilize the system.
 				- Energy equivalence
 					- Based on $⟪E = m \cdot c^2⟫$, where Form (*jing*) is the crystallization of Content (*qi*).
-					- Sublimation is the process of reversing this crystallization to return matter to pure energy.
+					- [Sublimation](((668f5490-c223-4a8a-9cc4-0bd71af4c097))) is the process of reversing this crystallization to return matter to pure energy.
 		- DOING Will Lei's personal experiences with Qigong and Tantric sex
 		  id:: 69d3af51-e196-4656-9605-1e6fa8099156
 		  collapsed:: true
