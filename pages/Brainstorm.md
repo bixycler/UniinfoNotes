@@ -66,18 +66,18 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- The Circle `○` representing Form and Matter.
 				- Physical hardware layer
 					- Includes muscle, vessel, hormone, and nerve.
-					- Acts as the "Solid" state or the "Crystallization of Content".
+					- Acts as the “Solid” state or the “Crystallization of Content”.
 				- Role in the system: The **Container** or the **Pressure Vessel** where energy is condensed.
 			- Qi (氣) = Arrow
 				- The Arrow `→` representing Dynamic Content and Energy.
 				- Runtime execution layer
-					- The "Vapor" state representing the motion of the *jing*.
+					- The “Vapor” state representing the motion of the *jing*.
 					- Manifests as the feeling of tension, congestion, surge, and electricity.
 				- Role in the system: The **Vector** or the **Effect Flow** that drives information through the hardware.
 			- Shen (神) = Equal
 				- The Equal `=` representing Awareness and the *obop* state.
 				- System administrator layer
-					- The "Mind" or "Spirit" that observes the system without being consumed by the operation.
+					- The “Mind” or “Spirit” that observes the system without being consumed by the operation.
 					- Based on but not limited to the Central Nervous System.
 				- Role in the system: The **Stable Observer** or the **Static Presence** that remains during the energy blast.
 			- Alchemical processes in Unïnfo terms
