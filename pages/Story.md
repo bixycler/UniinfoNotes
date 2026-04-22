@@ -1522,12 +1522,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  :END:
 				- CANCELLED Check ByteRover log for memo injections
 				- CANCELLED Tune ByteRover config to reduce its eagerness
-				- ⇒ ByteRover's messy memos confuse the agent, instead of helping 🙁!
+				- ByteRover's messy memos confuse the agent, instead of helping 🙁!
 					- Its dense memos are redundant with the conversation history (nearly a memo every 1-2 turns).
-					- The ongoing discussion ideas, unsettled arguments, etc. are extracted to memos and placed in “system prompt”, making the agent confused a lot!
+					- The ongoing discussion ideas, unsettled arguments, etc. are extracted to memos and placed in “system prompt”, making the agent confused that they are solid facts and core guidelines!
+					- ⇒ Back to my Corkei model: memory is inseparable and an integrative portion of the agent state ⇒ continuous gradation between [layers of memory](((69e73824-057d-4be2-98d0-33c62366f48f))).
 			- 22nd, ...
 			  collapsed:: true
-				-
+				- This morning, thanks to the occation of the
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69ce0ded-193e-4b34-bda5-f53418e34a16))

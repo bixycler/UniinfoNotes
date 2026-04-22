@@ -980,6 +980,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 				- Dynamics: The transition from the shell to the core is the ((69dce3dc-55d3-4079-8bfe-ae913ef62ac3)).
 					- The information loses its **extensity** (volume, noise, and overhead) to gain **intensity** (depth, density, and structural impact).
 				- memory substrate
+				  id:: 69e73824-057d-4be2-98d0-33c62366f48f
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Memory serves as the substrate for the system of nested cones through which the static ((69dce3dc-0afa-4ab3-8a4b-ff517c0b06e0)) is structurally stored and dynamically projected.
 					- Diagram
 					  collapsed:: true
