@@ -58,7 +58,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :LOGBOOK:
 		  CLOCK: [2026-04-06 Mon 20:43:08]
 		  :END:
-			- Correlation between Taoist alchemy and Unïnfo principles: *Sān Bǎo* (Jing, Qi, Shen) = Trinion (Circle, Arrow, Equal).
+			- Correlation between Taoist alchemy and Unïnfo principles: *Sān Bǎo* (Jing, Qi, Shen) = Trinion (Circle, Arrow, Equal).
 				- The Three Treasures (*Sān Bǎo*) act as the biological manifestations of the Trinion components.
 				- This mapping provides a structural framework for understanding the phase transition from matter to awareness.
 				- Reference: These correspondences are drawn from ((69d3af51-e196-4656-9605-1e6fa8099156)).
@@ -80,7 +80,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- The “mind” or “spirit” that observes the system without being consumed by the operation.
 					- Based on but not limited to the Central Nervous System.
 				- Role in the system: The **stable observer** that remains during the energy blast.
-			- Alchemical processes in Unïnfo terms
+			- Alchemical processes in Unïnfo terms
 				- *Bế tinh* (Seal Essence): Locking the Circle `○` to build potential energy.
 				- *Dưỡng khí* (Nourish Energy): Directing the Arrow `→` to circulate the content.
 				- *Tồn thần* (Preserve Spirit): Maintaining the Equal `=` to stabilize the system.
@@ -95,7 +95,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  CLOCK: [2026-04-06 Mon 20:21:50]
 		  :END:
 			-
-		- [Consciousness and Strange Loops](https://bosonphoton.medium.com/consciousness-and-strange-loops-5f8b6199bc3a) shows ideas similar to Unïnfo about panpsychism and the levels of awareness.
+		- [Consciousness and Strange Loops](https://bosonphoton.medium.com/consciousness-and-strange-loops-5f8b6199bc3a) shows ideas similar to Unïnfo about panpsychism and the levels of awareness.
 		  id:: 69d31a20-e33a-4367-85b1-0e0a533e016c
 		  collapsed:: true
 		  :LOGBOOK:

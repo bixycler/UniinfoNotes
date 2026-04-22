@@ -1507,7 +1507,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Both extremes (hot Dirac fluid and cold superconductivity) expel the external disturbance to focus on the internal interaction between electrons.
 					- internal coupling = coherence vs external coupling = coherence
 					- The individuality of the particle is nothing more than the intersection of external conditions.
-					- In Unïnfo terms, the choppy environment divides the collection into individual particles.
+					- In Unïnfo terms, the choppy environment divides the collection into individual particles.
 			- 17th, wrapped up the first phase of investigation in my official work, then joined the birthday party of my company Hybrid Technologies Vietnam (HTV).
 			- 18-19th, weekends: desire = energy = content arrow
 			  collapsed:: true
