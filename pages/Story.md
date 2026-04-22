@@ -1102,6 +1102,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  CLOCK: [2026-03-13 Fri 15:33:50]
 				  :END:
 					- DOING Link [this arrow of time](((699c0360-e336-4475-87dc-5f0ce770a6b8))) in the brainstorm about "circular time" with the entropy increase through [image copy](((69b79d25-16e5-458a-bf1b-05c927494107))) of the past
+					  id:: 69ae2041-4076-49c2-90bb-575ffd1eb2b3
 					  :LOGBOOK:
 					  CLOCK: [2026-03-16 Mon 16:00:45]
 					  :END:
@@ -1223,6 +1224,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 25th, contemplation of [balance = mixmatch = arrow of time](((69c51a39-97cb-4cf1-a6e1-ca29817def79))) initiatiated by the dilemma in Git branch handling of `gc-log-graph`.
 			  id:: 69c51a3e-383d-42f5-b1ba-114fa24e8d6a
 				- Add docs to `gc-log-graph` → [!] Vite issues to be solved
+				  id:: 69c51a3e-cabd-4b3a-846e-858e8233a404
 				  collapsed:: true
 					- Live server serves text files (`.md`, `.sh`) without `Content-Type`.
 					- Distribution doesn't include text files (`.md`, `.sh`).
@@ -1540,6 +1542,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- This is impossible for the whole universe, but can be done for a small world, as shown by the simulation on computer.
 					- Relative solidity: The amount of internal memory defines the amount of thread experienced outside. Hence, the whole world is just the reflection of the self: “What you see is what you are.”
 						- Regarding the WYSIWYA principle, there are [enactivism](https://en.wikipedia.org/wiki/Enactivism), [umwelt](https://en.wikipedia.org/wiki/Umwelt), [radical constructivism](https://en.wikipedia.org/wiki/Radical_constructivism), and [quantum observer effect](https://en.wikipedia.org/wiki/Observer_effect_(physics)).
+				- DOING Wrap up personal works before the series of holidays
+				  :LOGBOOK:
+				  CLOCK: [2026-04-22 Wed 16:22:29]
+				  :END:
+					- ((69d3af51-e196-4656-9605-1e6fa8099156))
+					- ((69c51a3e-cabd-4b3a-846e-858e8233a404))
+					- ((69ae2041-4076-49c2-90bb-575ffd1eb2b3))
+					- ((69af7d27-1481-46a0-bf18-a995c8cbba7e))
+					- Clean up mind chips
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69ce0ded-193e-4b34-bda5-f53418e34a16))
