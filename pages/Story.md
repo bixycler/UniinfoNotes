@@ -1528,7 +1528,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- ⇒ Back to my Corkei model: memory is inseparable and an integrative portion of the agent state ⇒ continuous gradation between [layers of memory](((69e73824-057d-4be2-98d0-33c62366f48f))).
 			- 22nd, ...
 			  collapsed:: true
-				- This morning, thanks to the occation of the
+				- From last night to this morning, thanks to the occasion of the memory setup for Hermes, i've completed weirdest foundation of Unïnfo & Unithread: the whole world in a single qualiton, and the relativity of solidity of the Ω-thread.
+					- The qualiton itself without memory, i.e. intent, is not enough. There must be a memory to store quanta of the extent.
+					- The major portion of the memory is the external content (in CIE).
+						- But due to the huge extensity,
+					- The minor portion of the memory is reflected inside the qualiton itself.
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69ce0ded-193e-4b34-bda5-f53418e34a16))
