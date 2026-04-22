@@ -94,7 +94,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  CLOCK: [2026-04-06 Mon 20:04:19]
 		  CLOCK: [2026-04-06 Mon 20:21:50]
 		  :END:
-			-
+			- →
 		- [Consciousness and Strange Loops](https://bosonphoton.medium.com/consciousness-and-strange-loops-5f8b6199bc3a) shows ideas similar to Unïnfo about panpsychism and the levels of awareness.
 		  id:: 69d31a20-e33a-4367-85b1-0e0a533e016c
 		  collapsed:: true
