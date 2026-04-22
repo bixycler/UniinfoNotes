@@ -241,6 +241,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- It requires the removal of the ego (no-self) to see reality as-is without the distortion of “already knowing”.
 					- [Rhetorical questions](https://en.wikipedia.org/wiki/Rhetorical_question) represent a corrupted protocol where the question (“hỏi”) is fake, serving only as a vehicle for a protest or a pre-defined demand (“đòi”).
 		- Equal = balance = mixmatch (like arrow of time) = merge (like Git) = resolution of conflict, diff, mismatch, error, gap = ((69a502fe-47e2-4629-a40c-78964d9e0396))
+ 		  id:: 69c51a39-97cb-4cf1-a6e1-ca29817def79   
 		  collapsed:: true
 			- Balance by mixmatch
 				- Balancing is bringing different things together to mix them by resolving their conflicts, diffences, mismatches, errors, gaps, etc.
