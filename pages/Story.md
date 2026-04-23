@@ -1536,6 +1536,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- This memory is the [substrate](((69e73824-057d-4be2-98d0-33c62366f48f))), or “matter”, that i suspected from the begining, which i eventually called ((687f322c-2334-46e5-816b-57889e5c6b89)).
 						- Actually, the sustent thread pulled out from the body of the qualiton has been seen in the contemplation of the ((66f40210-cca6-4d81-85e7-d0c54ef20451)) in [my trip to Mỹ Tho](((6746d8fb-fe6d-4fe2-9d5d-158a07d59996))) in 2024. However, only now, does the “memory” aspect of such thread emerge to bridge the gap between qualiton and quanta.
 							- Meta-note: This recall of that night in Mỹ Tho is itself a memory that bridges the recent “memory” aspect with the previous “sustent” aspect. What a droste effect! 😵‍💫💫
+								- [Print Gallery](https://en.wikipedia.org/wiki/Print_Gallery_(M._C._Escher))
+								  collapsed:: true
+									- ![PrintGalleryEscher.jpg](../assets/Will/story/2026-04/PrintGalleryEscher.jpg)
 					- External memory: The major portion of the memory is the external content (in CIE model).
 						- But due to its huge extensity, this major portion is too thin to be recognized.
 					- Internal memory: The minor portion of the memory is reflected inside the qualiton itself.
