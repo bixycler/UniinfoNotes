@@ -1104,6 +1104,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 			- id:: 69a502fe-20b6-468d-b2f4-2940a12ad502
 			  2. **Eternalism** (the ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) ○): What is eternal? The eternal is the whole possibility space of the whole universe, not the 4D block universe which is just a wrong projection of the eternal info human imagination. That space has infinite dimensions, i call it the "Omnifold". The simplest expression is a hypercube with unit hypervolume 1 = 1×1×1×1×1×... (infinite dimensions). It contains all herenows not only throughout spacetime but also through all selves. The wavefunction of quantum trace the evolution of herenow following a single particle. Its unitarity is the eternal hypervolume.
 			- 3. ((69a502fe-47e2-4629-a40c-78964d9e0396)) – the ((667d15b7-6364-49a9-ac58-c64d2a992b63)) (↑) of ((667bef22-b272-4a7d-b613-3f1ed1a47329))
+		-
 	- ## Universal Thread
 	  id:: 66ac41d1-09e7-44b1-9290-ea7d5f02a817
 	  collapsed:: true
