@@ -1542,6 +1542,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 									- [How mathematician Hendrik Lenstra completed an unfinished artwork by Escher](https://www.universiteitleiden.nl/en/news/2020/04/how-mathematician-hendrik-lenstra-completed-an-unfinished-artwork-by-escher)
 									- Infinite zooming video: [Escher and the Droste Effect](https://youtu.be/9WHdyG9mJaI)
 						- Two aspects of the same being: While the “sustent” aspect is about the substance/matter, the “memory” aspect is about the subject/mind.
+							- However, both “sustent” and “substance”
 					- External memory: The major portion of the memory is the external content (in CIE model).
 						- But due to its huge extensity, this major portion is too thin to be recognized.
 					- Internal memory: The minor portion of the memory is reflected inside the qualiton itself.
