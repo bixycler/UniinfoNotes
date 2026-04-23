@@ -1538,7 +1538,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Meta-note: This recall of that night in Mỹ Tho is itself a memory that bridges the recent “memory” aspect with the previous “sustent” aspect. What a droste effect! 😵‍💫💫
 								- [Print Gallery](https://en.wikipedia.org/wiki/Print_Gallery_(M._C._Escher))
 								  collapsed:: true
-									- ![PrintGalleryEscher.jpg](../assets/Will/story/2026-04/PrintGalleryEscher.jpg)
+									- ![lenstra_printgallery.jpg](../assets/Will/story/2026-04/lenstra_printgallery.jpg)
+									- [How mathematician Hendrik Lenstra completed an unfinished artwork by Escher](https://www.universiteitleiden.nl/en/news/2020/04/how-mathematician-hendrik-lenstra-completed-an-unfinished-artwork-by-escher)
+									- Infinite zooming video: [Escher and the Droste Effect](https://youtu.be/9WHdyG9mJaI)
 					- External memory: The major portion of the memory is the external content (in CIE model).
 						- But due to its huge extensity, this major portion is too thin to be recognized.
 					- Internal memory: The minor portion of the memory is reflected inside the qualiton itself.
