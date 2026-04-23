@@ -1533,7 +1533,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- From last night to this morning, thanks to the occasion of the memory setup for Hermes, i've completed weirdest foundation of Unïnfo & Unithread: the whole world in a single qualiton, and the relativity of solidity of the Ω-thread.
 				  collapsed:: true
 					- The qualiton itself without memory, i.e. intent only, is not enough. There must be a memory to store quanta of the extent.
-						- This memory is the [substrate](((69e73824-057d-4be2-98d0-33c62366f48f))), or “matter”, that i suspected from the begining, which i eventually called ((687f322c-2334-46e5-816b-57889e5c6b89)).
+						- This memory is the [substrate](((69e73824-057d-4be2-98d0-33c62366f48f))), or “matter”, that i suspected from the beginning, which i eventually called ((687f322c-2334-46e5-816b-57889e5c6b89)).
 						- Actually, the sustent thread pulled out from the body of the qualiton has been seen in the contemplation of the ((66f40210-cca6-4d81-85e7-d0c54ef20451)) in [my trip to Mỹ Tho](((6746d8fb-fe6d-4fe2-9d5d-158a07d59996))) in 2024. However, only now, does the “memory” aspect of such thread emerge to bridge the gap between qualiton and quanta.
 							- Meta-note: This recall of that night in Mỹ Tho is itself a memory that bridges the recent “memory” aspect with the previous “sustent” aspect. What a droste effect! 😵‍💫💫
 								- [Print Gallery](https://en.wikipedia.org/wiki/Print_Gallery_(M._C._Escher))
@@ -1541,7 +1541,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 									- ![lenstra_printgallery.jpg](../assets/Will/story/2026-04/lenstra_printgallery.jpg)
 									- [How mathematician Hendrik Lenstra completed an unfinished artwork by Escher](https://www.universiteitleiden.nl/en/news/2020/04/how-mathematician-hendrik-lenstra-completed-an-unfinished-artwork-by-escher)
 									- Infinite zooming video: [Escher and the Droste Effect](https://youtu.be/9WHdyG9mJaI)
-						- While the “sustent” aspect is about the substance/matter, the “memory” aspect is about the subject/mind.
+						- While the “sustent” aspect is about the substance/matter, the “memory” aspect is about the subject/mind. They just 2 aspects of the same being,
 					- External memory: The major portion of the memory is the external content (in CIE model).
 						- But due to its huge extensity, this major portion is too thin to be recognized.
 					- Internal memory: The minor portion of the memory is reflected inside the qualiton itself.
