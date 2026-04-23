@@ -524,6 +524,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 		  ((66b1cfa4-3a39-4672-9da2-cd3bcef71702)) in ((66b1cfa4-e22c-4424-bf19-a6ce4649da77))
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)) is the number resulting from the [measurement](((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9))), the rage of the operation, the image of projection. This number is non-material and purely a mental construction by the subject through its intent.
 		- Three partitions of the ((66b1cfa4-e22c-4424-bf19-a6ce4649da77))
+		  collapsed:: true
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In dualistic view, the three components of CIE are 2-1 divided rotationally in three partitions.
 				- The name of the three components “content – intent – extent” are taken from the fewer side of each partition. Othwerwise, the triple ($c, i, e$) can be called “content – context – form”.
 			- Sustent ($c$, $i$) – Extent ($e$)
