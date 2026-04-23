@@ -1528,7 +1528,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Its dense memos are redundant with the conversation history (nearly a memo every 1-2 turns).
 					- The ongoing discussion ideas, unsettled arguments, etc. are extracted to memos and placed in “system prompt”, making the agent confused that they are solid facts and core guidelines!
 					- ⇒ Back to my Corkei model: memory is inseparable and an integrative portion of the agent state ⇒ continuous gradation between [layers of memory](((69e73824-057d-4be2-98d0-33c62366f48f))).
-			- 22nd, ...
+			- 22nd, saw the “memory” aspect of “sustent”, and began to wrap up personal works.
 			  collapsed:: true
 				- From last night to this morning, thanks to the occasion of the memory setup for Hermes, i've completed weirdest foundation of Unïnfo & Unithread: the whole world in a single qualiton, and the relativity of solidity of the Ω-thread.
 				  collapsed:: true
