@@ -134,6 +134,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- ```
 						  surrealdb-1  | 2026-01-26T13:18:55.888657Z ERROR surreal::cli: There was a problem with the database: There was a problem with a datastore transaction: Failed to create RocksDB directory: `Os { code: 13, kind: PermissionDenied, message: "Permission denied" }`.
 						  ```
+					- DOING After 3 months, getting back with Open Notebook version
+					  :LOGBOOK:
+					  CLOCK: [2026-04-28 Tue 11:10:04]
+					  CLOCK: [2026-04-28 Tue 11:10:06]
+					  :END:
 				- [Agentic AI Research Assistant](https://www.confluent.io/use-case/agentic-ai-research-assistant/) via [Confluent’s data streaming platform](https://www.confluent.io/data-streaming/)
 				- [Graphite](https://editor.graphite.art/): open source vector graphics for procedural creation/editing & animation, just like Blender for 3D
 			- 28th, Zed & FRED (natural language to RDF)
