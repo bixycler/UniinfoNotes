@@ -140,6 +140,19 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  CLOCK: [2026-04-28 Tue 11:10:04]
 					  CLOCK: [2026-04-28 Tue 11:10:06]
 					  :END:
+						- Version check
+						  `docker compose exec open_notebook cat /app/pyproject.toml | less`
+							- ```yaml
+							  [project]
+							  name = "open-notebook"
+							  version = "1.8.5"
+							  ...
+							  requires-python = ">=3.11,<3.13"
+							  dependencies = [
+							      "fastapi>=0.104.0",
+							      ...
+							      
+							  ```
 						- I saw a DB migration in the log: v0 → v14
 						  collapsed:: true
 							- ```log
