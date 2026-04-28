@@ -135,14 +135,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  surrealdb-1  | 2026-01-26T13:18:55.888657Z ERROR surreal::cli: There was a problem with the database: There was a problem with a datastore transaction: Failed to create RocksDB directory: `Os { code: 13, kind: PermissionDenied, message: "Permission denied" }`.
 						  ```
 					- DOING After 3 months, getting back with Open Notebook version 1.8.5, and i's working. 😁
+					  id:: 69f03316-1301-4b74-a2fe-28ee0eb026bf
 					  collapsed:: true
 					  :LOGBOOK:
 					  CLOCK: [2026-04-28 Tue 11:10:04]
 					  CLOCK: [2026-04-28 Tue 11:10:06]
 					  :END:
 						- Version check
+						  collapsed:: true
 						  `docker compose exec open_notebook cat /app/pyproject.toml | less`
-							- ```yaml
+							- ```toml
 							  [project]
 							  name = "open-notebook"
 							  version = "1.8.5"
@@ -151,7 +153,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  dependencies = [
 							      "fastapi>=0.104.0",
 							      ...
-							      
+							      "babel>=2.18.0",
+							  ]
+							  ...
 							  ```
 						- I saw a DB migration in the log: v0 → v14
 						  collapsed:: true
@@ -1596,13 +1600,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- ((69ae2041-4076-49c2-90bb-575ffd1eb2b3))
 					- ((69af7d27-1481-46a0-bf18-a995c8cbba7e))
 					- Clean up mind chips
-			- April 25-27, weekends & Hùng Kings' Commemoration Days
+			- 25-27th, weekends & Hùng Kings' Commemoration Days
 			  collapsed:: true
 				- The “truth” is just the current state, whatever we see right here now.
 				- [Chat with AI Mode](https://share.google/aimode/VsCGj9gNurfg0ieGh) about the symbiotic crystal growth in the syntropic crystallization, to be added to the mechanism of learning by living.
 				- First time back to freediving (at [Tuyệt Tình Cốc](https://maps.app.goo.gl/MZNUTY85fLqH6MNK7)) after nearly 2 years.
 				- Guided my wife through many cases of karmic debt, to return to relaxed state and see the truth through the karmic jungle. Then at last, i was caught in the trap of reactively chasing the unwholesome mind of my wife without recognizing her unwellness – the exact trap that caught my wife when she took care of her mother just hours ago.
-			-
+			- 28th, ...
+			  collapsed:: true
+				- ((69f03316-1301-4b74-a2fe-28ee0eb026bf))
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69ce0ded-193e-4b34-bda5-f53418e34a16))
