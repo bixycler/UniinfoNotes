@@ -172,7 +172,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  open_notebook-1  | 2026-04-28 04:04:24.780 | INFO     | open_notebook.database.async_migrate:run_migration_up:189 - Migration successful. New version: 14
 							  open_notebook-1  | 2026-04-28 04:04:24.816 | SUCCESS  | api.main:lifespan:88 - Migrations completed successfully. Database is now at version 14
 							  ```
-						- Problem with Google's embedding models: `text-embedding-004` has retired, and `gemini-embedding-001`
+						- Problem with Google's embedding models: `text-embedding-004` has retired, and the new `gemini-embedding-001` is not recognized by Open Notebook.
 				- [Agentic AI Research Assistant](https://www.confluent.io/use-case/agentic-ai-research-assistant/) via [Confluent’s data streaming platform](https://www.confluent.io/data-streaming/)
 				- [Graphite](https://editor.graphite.art/): open source vector graphics for procedural creation/editing & animation, just like Blender for 3D
 			- 28th, Zed & FRED (natural language to RDF)
