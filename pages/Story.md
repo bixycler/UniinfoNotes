@@ -1564,10 +1564,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Clean up mind chips
 			- April 25-27, weekends & Hùng Kings' Commemoration Days
 			  collapsed:: true
-				- The "truth" is just the current state, whatever we see right here now.
+				- The “truth” is just the current state, whatever we see right here now.
 				- [Chat with AI Mode](https://share.google/aimode/VsCGj9gNurfg0ieGh) about the symbiotic crystal growth in the syntropic crystallization, to be added to the mechanism of learning by living.
 				- First time back to freediving (at [Tuyệt Tình Cốc](https://maps.app.goo.gl/MZNUTY85fLqH6MNK7)) after nearly 2 years.
-				- Guided my wife through many cases of karmic debt, to return to relaxed state and see the truth through the karmic jungle. Then at last, i was caught in
+				- Guided my wife through many cases of karmic debt, to return to relaxed state and see the truth through the karmic jungle. Then at last, i was caught in the trap of reactively chasing the unwholesome mind of my wife without recognizing her unwellness – the exact trap that caught my wife when she took care of her mother just hours ago.
 			-
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
