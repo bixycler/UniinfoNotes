@@ -250,7 +250,8 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 		  collapsed:: true
 			- The equation ⟪○ = ↑⟫ is the One that unifies the Two opposites (○, ↑) via the Third (=). This is called ((69367cf5-9894-4fb8-a293-2b1109777fc9)) (☯). Hence, the Unïnfo seems to be [trialistic](https://en.wikipedia.org/wiki/Pluralism_(philosophy)) (due to the Three components), or [dualistic](https://en.wikipedia.org/wiki/Dualism_in_cosmology) (due to the Two opposites), or [monistic](https://en.wikipedia.org/wiki/Monism) (due to the One equation), but actually it's ((68b95b62-9e60-4ef2-9540-f563c76a5d17)) as reflected by the intrinsics of the Zero (the Trinion).
 			  id:: 684f9517-64ce-41bd-a88c-0476cbfa790d
-				- > “The Way generates the One; the One generates the Two; the Two generates the Three; the Three generates all things.”
+				- id:: 699c0363-55fd-46cb-a2a5-932ccca82735
+				  > “The Way generates the One; the One generates the Two; the Two generates the Three; the Three generates all things.”
 				  「道生一，一生二，二生三，三生萬物。」
 				  
 				  — [Chapter 42. The transformation of the Way](https://en.wikisource.org/wiki/Translation:Tao_Te_Ching#Chapter_42_(%E7%AC%AC%E5%9B%9B%E5%8D%81%E4%BA%8C%E7%AB%A0)), Tao Te Ching, Lao Tzu

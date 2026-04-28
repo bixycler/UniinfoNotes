@@ -1610,8 +1610,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 28th, ...
 			  collapsed:: true
 				- ((69f03316-1301-4b74-a2fe-28ee0eb026bf))
-				- A chat with Gemini about my [trapped experience](((69f064b7-0df5-49cd-9aa7-9bda6b84c7d7))) last night introduced the conceptual proliferation = ten thousands things and reminded me of the Kogi. I watched again with lots of tears.
+				- A chat with Gemini about my [trapped experience](((69f064b7-0df5-49cd-9aa7-9bda6b84c7d7))) last night introduced the conceptual proliferation, and reminded me of the Kogi. I watched the Kogis again with lots of tears.
 				  collapsed:: true
+					- [Conceptual proliferation (prapañca)](https://en.wikipedia.org/wiki/Conceptual_proliferation) = ten thousand things (萬物) = mirror maze = fun house = the game of chasing shadows = phenomenal world
+					  {{embed ((699c0363-55fd-46cb-a2a5-932ccca82735))}}
+					- [Madhupindika Sutta: The Ball of Honey](https://www.accesstoinsight.org/tipitaka/mn/mn.018.than.html)
 					- [Aluna](https://youtu.be/ftFbCwJfs1I) ([transcript](https://www.sustainable.soltechdesigns.com/aluna.html))
 						- #+BEGIN_QUOTE
 						  In the beginning there was nothing.
