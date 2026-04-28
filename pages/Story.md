@@ -1609,6 +1609,28 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 28th, ...
 			  collapsed:: true
 				- ((69f03316-1301-4b74-a2fe-28ee0eb026bf))
+				- A chat with Gemini reminded me of the Kogi. I watched again with lots of tears.
+				  collapsed:: true
+					- [Aluna](https://youtu.be/ftFbCwJfs1I) ([transcript](https://www.sustainable.soltechdesigns.com/aluna.html))
+						- #+BEGIN_QUOTE
+						  In the beginning there was nothing.
+						  All was darkness; Depth.
+						  There was nothing at all.
+						  
+						  She was Aluna;
+						  She was pure thought without form.
+						  She began to think.
+						  
+						  The Mother conceived the world in the darkness.
+						  She conceived us as ideas.
+						  As we think out a house before we begin to make it real
+						  
+						  She spun the thread;
+						  Spinning us all in the story, creating us in thought.
+						  And then came the Light, and the world was real.
+						  #+END_QUOTE
+					- [From the Heart of the World: The Elder Brothers' Warning](https://youtu.be/hRgTtrQOiR0?t=2411) ([transcript](https://www.sustainable.soltechdesigns.com/elder-brothers-warning.html))
+						- 40:14
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69ce0ded-193e-4b34-bda5-f53418e34a16))
