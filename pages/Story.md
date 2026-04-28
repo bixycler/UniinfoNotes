@@ -1606,10 +1606,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- [Chat with AI Mode](https://share.google/aimode/VsCGj9gNurfg0ieGh) about the symbiotic crystal growth in the syntropic crystallization, to be added to the mechanism of learning by living.
 				- First time back to freediving (at [Tuyệt Tình Cốc](https://maps.app.goo.gl/MZNUTY85fLqH6MNK7)) after nearly 2 years.
 				- Guided my wife through many cases of karmic debt, to return to relaxed state and see the truth through the karmic jungle. Then at last, i was caught in the trap of reactively chasing the unwholesome mind of my wife without recognizing her unwellness – the exact trap that caught my wife when she took care of her mother just hours ago.
+				  id:: 69f064b7-0df5-49cd-9aa7-9bda6b84c7d7
 			- 28th, ...
 			  collapsed:: true
 				- ((69f03316-1301-4b74-a2fe-28ee0eb026bf))
-				- A chat with Gemini reminded me of the Kogi. I watched again with lots of tears.
+				- A chat with Gemini about my [trapped experience](((69f064b7-0df5-49cd-9aa7-9bda6b84c7d7))) last night introduced the conceptual proliferation = ten thousands things and reminded me of the Kogi. I watched again with lots of tears.
 				  collapsed:: true
 					- [Aluna](https://youtu.be/ftFbCwJfs1I) ([transcript](https://www.sustainable.soltechdesigns.com/aluna.html))
 						- #+BEGIN_QUOTE
@@ -1631,6 +1632,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  #+END_QUOTE
 					- [From the Heart of the World: The Elder Brothers' Warning](https://youtu.be/hRgTtrQOiR0?t=2411) ([transcript](https://www.sustainable.soltechdesigns.com/elder-brothers-warning.html))
 						- 40:14
+						  #+BEGIN_QUOTE
+						  And then the Mother began to spin out her thoughts. 
+						  She heaped up a spindle before the dawning, and the Mother spun nine new worlds. 
+						  She gave birth to nine daughters. Each world had its own color. 
+						  And she gave birth to sons, the lords of creation. One was Seranque. 
+						  And then she wondered, “how would we create a living thing?”
+						  It was hard to understand how to make a human. 
+						  The mother and her children had to think very hard: “How does an eye work? How does a foot work?” 
+						  And when she was done, the ninth world was peopled.
+						  #+END_QUOTE
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69ce0ded-193e-4b34-bda5-f53418e34a16))
