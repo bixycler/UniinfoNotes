@@ -134,11 +134,27 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- ```
 						  surrealdb-1  | 2026-01-26T13:18:55.888657Z ERROR surreal::cli: There was a problem with the database: There was a problem with a datastore transaction: Failed to create RocksDB directory: `Os { code: 13, kind: PermissionDenied, message: "Permission denied" }`.
 						  ```
-					- DOING After 3 months, getting back with Open Notebook version
+					- DOING After 3 months, getting back with Open Notebook version 1.8.5, and i's working. 😁
+					  collapsed:: true
 					  :LOGBOOK:
 					  CLOCK: [2026-04-28 Tue 11:10:04]
 					  CLOCK: [2026-04-28 Tue 11:10:06]
 					  :END:
+						- I saw a DB migration in the log: v0 → v14
+						  collapsed:: true
+							- ```log
+							  open_notebook-1  | INFO:     Started server process [20]
+							  open_notebook-1  | INFO:     Waiting for application startup.
+							  open_notebook-1  | 2026-04-28 04:04:23.083 | INFO     | api.main:lifespan:67 - Starting API initialization...
+							  open_notebook-1  | 2026-04-28 04:04:23.122 | INFO     | api.main:lifespan:82 - Current database version: 0
+							  open_notebook-1  | 2026-04-28 04:04:23.155 | WARNING  | api.main:lifespan:85 - Database migrations are pending. Running migrations...
+							  open_notebook-1  | 2026-04-28 04:04:23.190 | INFO     | open_notebook.database.async_migrate:run_migration_up:183 - Current version before migration: 0
+							  open_notebook-1  | 2026-04-28 04:04:23.258 | INFO     | open_notebook.database.async_migrate:run_all:71 - Running migration 1
+							  ...
+							  open_notebook-1  | 2026-04-28 04:04:24.640 | INFO     | open_notebook.database.async_migrate:run_all:71 - Running migration 14
+							  open_notebook-1  | 2026-04-28 04:04:24.780 | INFO     | open_notebook.database.async_migrate:run_migration_up:189 - Migration successful. New version: 14
+							  open_notebook-1  | 2026-04-28 04:04:24.816 | SUCCESS  | api.main:lifespan:88 - Migrations completed successfully. Database is now at version 14
+							  ```
 				- [Agentic AI Research Assistant](https://www.confluent.io/use-case/agentic-ai-research-assistant/) via [Confluent’s data streaming platform](https://www.confluent.io/data-streaming/)
 				- [Graphite](https://editor.graphite.art/): open source vector graphics for procedural creation/editing & animation, just like Blender for 3D
 			- 28th, Zed & FRED (natural language to RDF)
