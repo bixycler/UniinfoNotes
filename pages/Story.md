@@ -1616,7 +1616,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  {{embed ((699c0363-55fd-46cb-a2a5-932ccca82735))}}
 					- [Madhupindika Sutta: The Ball of Honey](https://www.accesstoinsight.org/tipitaka/mn/mn.018.than.html)
 						- Translator's Introduction
-						  > This discourse plays a central role in the early Buddhist analysis of conflict. As might be expected, the blame for conflict lies within, in the unskillful habits of the mind, rather than without. The culprit in this case is a habit called **papañca**.
+						  #+BEGIN_QUOTE
+						  This discourse plays a central role in the early Buddhist analysis of conflict. As might be expected, the blame for conflict lies within, in the unskillful habits of the mind, rather than without. The culprit in this case is a habit called **papañca**.
+						  ...
+						  The word itself is derived from a root that means *diffuseness, spreading, proliferating*.... some of the following alternatives might be acceptable as well: *self-reflexive thinking, reification, proliferation, complication, elaboration, distortion*.
+						  
+						  #+END_QUOTE
 					- [Aluna](https://youtu.be/ftFbCwJfs1I) ([transcript](https://www.sustainable.soltechdesigns.com/aluna.html))
 						- #+BEGIN_QUOTE
 						  In the beginning there was nothing.
