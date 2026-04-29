@@ -4421,6 +4421,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- [Version 0.10.13](https://github.com/logseq/logseq/releases/tag/0.10.13) still has the error: ((68a2d52c-0a16-4214-8004-123babd4b841))
 							- That means this issue is different from the "YouTube login" issue.
 		- DB version
+		  id:: 69f1c05d-17b3-4657-9234-2d9a9cd55820
 		  collapsed:: true
 			- `Import existing notes` > `File to DB graph`
 			  id:: 69f1c061-509b-43b9-bbfc-e93de55b1851

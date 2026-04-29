@@ -172,7 +172,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  open_notebook-1  | 2026-04-28 04:04:24.780 | INFO     | open_notebook.database.async_migrate:run_migration_up:189 - Migration successful. New version: 14
 							  open_notebook-1  | 2026-04-28 04:04:24.816 | SUCCESS  | api.main:lifespan:88 - Migrations completed successfully. Database is now at version 14
 							  ```
-						- Problem with Google's embedding models: `text-embedding-004` has retired, and the new `gemini-embedding-001` is not recognized by Open Notebook.
+						- Some Google's models must be manually added.
+							- Embedding: `text-embedding-004` has retired ⇒ add `gemini-embedding-{001,2}`: Click `Models` button in Google provider > Chose `Model Type` = `Embedding` > .
 				- [Agentic AI Research Assistant](https://www.confluent.io/use-case/agentic-ai-research-assistant/) via [Confluent’s data streaming platform](https://www.confluent.io/data-streaming/)
 				- [Graphite](https://editor.graphite.art/): open source vector graphics for procedural creation/editing & animation, just like Blender for 3D
 			- 28th, Zed & FRED (natural language to RDF)
@@ -1651,7 +1652,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  The mother and her children had to think very hard: “How does an eye work? How does a foot work?” 
 						  And when she was done, the ninth world was peopled.
 						  #+END_QUOTE
-			- 29th, ...
+			- 29th, tested Logseq ((69f1c05d-17b3-4657-9234-2d9a9cd55820)); additional notes for syntropic crystallization.
 			  collapsed:: true
 				- syntropic crystallization
 					- projection onto dynamic bases: agent tree = ref frame, function tree = basis
