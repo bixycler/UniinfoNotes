@@ -4373,7 +4373,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Because Logseq uses this separate snap home, some config/env in the user's `${HOME}` must be ported to this snap home.
 						- `.gitconfig` is required by [Git plugin](((66f68ec1-9b7d-402f-b77f-fcd1fc36e500))).
 							- ((66fa09f1-64e7-43bc-9b83-f5b5c5a2aaf7))
-				- DB version: user's `${HOME}`/`logseq/graphs`/`${graphName}`
+				- Local graphs in DB version: user's `${HOME}`/`logseq/graphs`/`${graphName}`
+					- This is hard coded as `config/get-local-dir graph-name`, where `get-local-dir` is defined in `config.cljs` as `:home-dir/logseq/graphs`.
 			- `.logseq/` global config folder
 				- `config/`
 				  contains global configs `config.edn` and `plugins.edn`.
