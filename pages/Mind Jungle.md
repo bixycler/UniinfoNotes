@@ -4366,13 +4366,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 66fb7680-e670-447d-baa4-279bed18e706
 			  collapsed:: true
 				- On Windows: `%USERPROFILE%` = `%HOMEDRIVE%%HOMEPATH%`
-				- On Linux (AppImage & Flatpack): user's`${HOME}`
+				- On Linux (AppImage & Flatpack): user's `${HOME}`
 					- Flatpack: the [app folder](((6710c36b-6b29-42c5-b0e4-fc79e5e449a2))) is not the usual `.config/Logseq` but `.var/app/com.logseq.Logseq/config/Logseq/`
 				- On Linux installed with Snap: `${HOME}/snap/logseq/current/`
 				  collapsed:: true
 					- Because Logseq uses this separate snap home, some config/env in the user's `${HOME}` must be ported to this snap home.
 						- `.gitconfig` is required by [Git plugin](((66f68ec1-9b7d-402f-b77f-fcd1fc36e500))).
 							- ((66fa09f1-64e7-43bc-9b83-f5b5c5a2aaf7))
+				- DB version: user's `${HOME}`/`logseq/graphs`/`${graphName}`
 			- `.logseq/` global config folder
 				- `config/`
 				  contains global configs `config.edn` and `plugins.edn`.
