@@ -190,6 +190,7 @@
   :ui/accent-colors-picker []
   :ui/accent-color-reset []
   :sidebar/clear []
+  :plugin.logseq-git/logseq-plugin-git-commit&push ["shift+ctrl+s"]
  }
 
  ;; Configure the behavior of pressing Enter in document mode.
