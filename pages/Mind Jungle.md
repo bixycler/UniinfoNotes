@@ -4425,7 +4425,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- `Import existing notes` > `File to DB graph`
 				- Import failed: all assets, all `{{embed}}`s
 				- Legacy syntax: the old block ref `((UUID))` is not converted to the new node ref `[[UUID]]` syntax.
-					- Some nodes, like `Logseq` and `***Pinned***: ((Logseq UUID))`, have `id` shown as a visible property.
+					- Some nodes, like `Logseq` and `***Pinned***: ((Logseq UUID))`, have `id` shown as a custom property.
 				- All settings, including global settings, are imported to `db.sqlite`.
 					- Macros like `search-query` are imported but don't work.
 			- Enhanced features
