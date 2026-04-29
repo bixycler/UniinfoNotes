@@ -213,6 +213,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- [API usage](https://aistudio.google.com/usage)
 							- Link to Google One AI with [Developer Program](https://developers.google.com/program)
 								- For \$20/month of Google (One) AI Pro, get *\$10 monthly Gen AI & Cloud credits* for API
+							- Check available models: https://generativelanguage.googleapis.com/v1beta/models?key=${GeminiAPIKey}
 						- [Free plan limit](https://ai.google.dev/gemini-api/docs/rate-limits): changing rapidly!
 						  collapsed:: true
 							- Jan 2026: restricted to nearly unusable! ⇒ I'm forced to switch to paid tier for ((697b4547-9b65-4a96-b3d1-55245377c796)) 
