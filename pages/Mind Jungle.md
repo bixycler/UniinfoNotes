@@ -4434,6 +4434,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- All nodes show back links in zoomed in view
 					- Page graph pane shows graph of nodes, including blocks, instead of just pages.
 						- Graph view still shows only pages.
+			- Changed features
+				- Copied content is “clean” Markdown, not Logseq Markdown.
+					- All metadata are cleared.
+					- Block quotes and block codes are also cleared! 🙁
 		- ((66535a44-8a13-4d5a-808e-10baa97ebaf0))
 		  id:: 66faa5f9-9402-4889-8881-dbdc8f179a30
 		  collapsed:: true
