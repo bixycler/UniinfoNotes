@@ -4423,6 +4423,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- DB version
 		  collapsed:: true
 			- `Import existing notes` > `File to DB graph`
+			  id:: 69f1c061-509b-43b9-bbfc-e93de55b1851
 				- Import failed: all assets, all `{{embed}}`s
 				- Legacy syntax: the old block ref `((UUID))` is not converted to the new node ref `[[UUID]]` syntax.
 					- Some nodes, like `Logseq` and `***Pinned***: ((Logseq UUID))`, have `id` shown as a custom property.
