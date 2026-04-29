@@ -173,7 +173,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  open_notebook-1  | 2026-04-28 04:04:24.816 | SUCCESS  | api.main:lifespan:88 - Migrations completed successfully. Database is now at version 14
 							  ```
 						- Some Google's models must be manually added.
-							- Embedding: `text-embedding-004` has retired ⇒ add `gemini-embedding-{001,2}`: Click `Models` button in Google provider > Chose `Model Type` = `Embedding` > .
+							- Add model: Click `Models` button in Google provider > Chose correct `Model Type` > type model name into the text field > check the model in models list > click `Add`.
+							- Check available models: https://generativelanguage.googleapis.com/v1beta/models?key=${GeminiAPIKey}
+							- Embedding: `text-embedding-004` has retired ⇒ add `gemini-embedding-{001,2}`
 				- [Agentic AI Research Assistant](https://www.confluent.io/use-case/agentic-ai-research-assistant/) via [Confluent’s data streaming platform](https://www.confluent.io/data-streaming/)
 				- [Graphite](https://editor.graphite.art/): open source vector graphics for procedural creation/editing & animation, just like Blender for 3D
 			- 28th, Zed & FRED (natural language to RDF)
