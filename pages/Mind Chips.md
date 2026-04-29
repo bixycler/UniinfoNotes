@@ -1,3 +1,5 @@
+- Test asset
+	- ![lenstra_printgallery.jpg](../)
 - ---
 - openness = porosity = entropy increase = arrow of time = mismatch between form & content =  curvature in distribution
 - past form = copy of present form = mixture of present content
