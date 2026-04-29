@@ -810,6 +810,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- `publish/`
 				  contains published pages.
 				- `share/`
+				  id:: 699c0360-4ee7-44cb-b590-2c252e7c25fd
 				  contains pages that are shared with other projects [via hard links](((66978876-9378-4059-8783-868d041e8e2e))).
 			- `assets/`
 			  id:: 66fe77c8-05b8-44b2-bf66-b8d62b005a3d
