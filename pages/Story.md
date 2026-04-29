@@ -1596,7 +1596,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  :END:
 					- DONE  ((69d3af51-e196-4656-9605-1e6fa8099156))
 					- ((69dce3dc-55d3-4079-8bfe-ae913ef62ac3))
-					- ((69a5068c-df84-4f76-92ca-9131897c80df))
 					- ((69c51a3e-cabd-4b3a-846e-858e8233a404))
 					- ((69ae2041-4076-49c2-90bb-575ffd1eb2b3))
 					- ((69af7d27-1481-46a0-bf18-a995c8cbba7e))
@@ -1608,11 +1607,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- First time back to freediving (at [Tuyệt Tình Cốc](https://maps.app.goo.gl/MZNUTY85fLqH6MNK7)) after nearly 2 years.
 				- Guided my wife through many cases of karmic debt, to return to relaxed state and see the truth through the karmic jungle. Then at last, i was caught in the trap of reactively chasing the unwholesome mind of my wife without recognizing her unwellness – the exact trap that caught my wife when she took care of her mother just hours ago.
 				  id:: 69f064b7-0df5-49cd-9aa7-9bda6b84c7d7
-			- 28th, ...
+			- 28th, revised Open Notebook and Kogi people... with the new conceptual proliferation.
 			  collapsed:: true
 				- ((69f03316-1301-4b74-a2fe-28ee0eb026bf))
 				- A chat with Gemini about my [trapped experience](((69f064b7-0df5-49cd-9aa7-9bda6b84c7d7))) last night introduced the conceptual proliferation, and reminded me of the Kogi. I watched the Kogis again with lots of tears.
-				  collapsed:: true
 					- [Conceptual proliferation (prapañca)](https://en.wikipedia.org/wiki/Conceptual_proliferation) = ten thousand things (萬物) = mirror maze = fun house = the game of chasing shadows = phenomenal world
 					  {{embed ((699c0363-55fd-46cb-a2a5-932ccca82735))}}
 					- [Madhupindika Sutta: The Ball of Honey](https://www.accesstoinsight.org/tipitaka/mn/mn.018.than.html)
@@ -1653,6 +1651,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  The mother and her children had to think very hard: “How does an eye work? How does a foot work?” 
 						  And when she was done, the ninth world was peopled.
 						  #+END_QUOTE
+			- 29th, ...
+			  collapsed:: true
+				- syntropic crystallization
+					- projection onto dynamic bases: agent tree = ref frame, function tree = basis
+					- branching Fourier
+					- mixmatch:
+						- mix leaves into trunk
+						- external match at base (root)
+						- internal match within canopy
+				- use [logseq](https://discuss.logseq.com/t/whats-new-with-logseq-db-april-26-2026/34977) as KG
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69ce0ded-193e-4b34-bda5-f53418e34a16))
