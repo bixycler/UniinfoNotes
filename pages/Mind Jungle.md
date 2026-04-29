@@ -4424,7 +4424,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  collapsed:: true
 			- `Import existing notes` > `File to DB graph`
 				- Import failed: all assets, all `{{embed}}`s
-				-
+				- Legacy syntax: the old block ref `((UUID))` is not converted to the new node ref `[[UUID]]` syntax.
+				- All settings, including global settings, are imported to `db.sqlite`.
+					- Macros like `search-query` are imported but don't work.
 			- Enhanced features
 				- Better performance for lager graph
 				- Node = block = page
