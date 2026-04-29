@@ -4436,7 +4436,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Graph view still shows only pages.
 			- Changed features
 				- The graphs are stored in browser's Local Storage, with `current-repo`=`logseq_db_UniinfoNotes`, instead of the `.transit` file in [global home](((66faaa5c-6a8a-42d9-a1bc-410531dbaf81))).
-					- The `db.sqlite` file in  Markdown
+					- The `db.sqlite` file in `${HOME}/logseq/graphs/${graphName}/` is secondary, just like the Markdown files in OG version.
 				- Copied content is “clean” Markdown, not Logseq Markdown.
 					- All metadata are cleared.
 					- Block quotes and code blocks are *not fenced*! 🙁
