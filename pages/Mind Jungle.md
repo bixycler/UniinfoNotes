@@ -4420,6 +4420,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Issue [Youtube Embeds Are Not Working](https://github.com/logseq/logseq/issues/12031) with commit [fix: don't send cookie to youtube website on electron](https://github.com/logseq/logseq/commit/6ba561fb)
 							- [Version 0.10.13](https://github.com/logseq/logseq/releases/tag/0.10.13) still has the error: ((68a2d52c-0a16-4214-8004-123babd4b841))
 							- That means this issue is different from the "YouTube login" issue.
+		- DB version
+		  collapsed:: true
+			- `Import existing notes` > `File to DB graph`
+				- Import failed: all assets, all `{{embed}}`s
+				-
+			- Enhanced features
+				- Better performance for lager graph
+				- Node = block = page
+					- All nodes show back links in zoomed in view
+					- Page graph pane shows graph of nodes, including blocks, instead of just pages.
+						- Graph view still shows only pages.
 		- ((66535a44-8a13-4d5a-808e-10baa97ebaf0))
 		  id:: 66faa5f9-9402-4889-8881-dbdc8f179a30
 		  collapsed:: true
