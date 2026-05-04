@@ -1665,6 +1665,45 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- external match at base (root)
 						- internal match within canopy
 				- use [logseq](https://discuss.logseq.com/t/whats-new-with-logseq-db-april-26-2026/34977) as KG
+		- May journal
+		  collapsed:: true
+			- April 30th – May 3rd, holidays & weekends
+			  collapsed:: true
+				- KG access through Logseq CLI
+					- [npm @logseq/cli](https://www.npmjs.com/package/@logseq/cli)
+					- CLI v2, to be merged from branch [feat/cliable](https://github.com/logseq/logseq/blob/feat/cliable/.agents/skills/logseq-cli/SKILL.md): list, upsert, remove, query, etc. + agent skills
+				- `Corkei` app has 3 components:
+					- `Corkei` codebase (public open)
+					- core `Corkei.data` (private open)
+						- KG monitor: first Logseq (HTTP API > CLI), then tree view
+					- `Airtrip.Corkei.data` (closed)
+						- KG monitor: custom-built for Airtrip
+				- syntropic crystallization
+					- While familiar events are absorbed by functions, new, surprised events are left (impressed) in the history. Impressions are seeds of new functions.
+					- Energy distribution: While unconscious & unfocused functions have a thin tree (like a chain), focused functions have a thick tree and are components of the id tree.
+					- Memory & address management: each agent manages its memory & addresses, just like OOP.
+						- Long-term (static) memo has short (local) addresses (of both self & links) for short-range effect.
+						- Short-term (dynamic) memo has long (global) addresses (of both self & links) for long-range effect.
+						- At first, just use LevelDB (backend of IndexedDB in Chrome).
+							- Use fractional index to insert nodes between previous nodes.
+					- Similar projects: MIT's [Agentic Deep Graph Reasoning & Knowledge Crystals](https://arxiv.org/abs/2502.13025), Google's [Hope architecture](https://research.google/blog/introducing-nested-learning-a-new-ml-paradigm-for-continual-learning/) with [nested continual learning module](https://arxiv.org/abs/2512.24695)
+				- Autonoton is the obop with its effect circle implemented by a circular chain of view cones.
+					- Each view cone is a basis vector of the compound view cone. They compose the mixmatch & projections of the compound view cone.
+					- 1. Observation is the external match of the object to each view cone.
+					- 2. Operation is the circle dynamic through the internal match -- the circular chain of view cones.
+					- 3. Action (output operation) is mix of all view cones.
+				- Human mind: world model & theory of mind
+					- The very distinct "theory" only for the other minds, separated from the world model, is the artifact of the dualism rooted from the separation between object and subject.
+					- In Uniinfo, the "theory of mind" is the primary instinct of the consciousness (self-awareness) -- it   sees other minds through itself. The subjectivity is there first, and then the objectivity arrives as the intersubjectivity.
+					- However, that very artifact, the innate distinction between the two, is the reflection of the billions of years of the universe' separation between opposites, e.g. positive from negative charges.
+					- That's why the wall of the self is so thick, from which a tremendous effort is required to break free, to return to the unified root.
+				- [The Unfortunate Truth About Wim Hof](https://youtu.be/T1PKst8cBGs): the danger of fame, to both the leader and the followers!
+					- Watching Wim Hof lead to my note: [Bodymind integration through breath and focus](https://g.co/gemini/share/0cf2b3d3a86e)
+				- Reading about Neem Karoli Baba Maharaj-ji, i realized that my love debt also stems from my perfectionism. 🙏📿
+					- Different from the normal perfection of “pure white”, my perfection of “black = white” forces my beloved to face the negativity prematurely.
+					- True love makes imperfections perfect 🙏!
+					- But the dualistic separation is still like knife cutting through my heart 💔!
+					- note: [Both sides of the arrow in life, and a brief history of Will's journey to the unification](https://gemini.google.com/app/daa494e350922d19)
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69ce0ded-193e-4b34-bda5-f53418e34a16))
