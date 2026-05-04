@@ -4442,6 +4442,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- The `db.sqlite` file in `${HOME}/logseq/graphs/${graphName}/` is secondary, just like the Markdown files in OG version.
 					- No way to force Logseq to sync with the `db.sqlite`! 🙁 (In OG, we can re-index or even delete the `.transit` file.)
 						- We can only remove the current graph and import `db.sqlite` into a new graph!
+				- Assets are hashed with UUID
 				- Copied content is “clean” Markdown, not Logseq Markdown.
 					- All metadata are cleared.
 					- Block quotes and code blocks are *not fenced*! 🙁
