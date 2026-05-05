@@ -1676,27 +1676,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- When we feel empty (or in free time), instead of filling the void with past forms, which leads to greed, fill it with the present content.
 						- When our pleasant forms (momentum) are interrupted by sudden changes (impermanence), instead of pushing against the new, which leads to aversion, take deep breaths to dive into that new content.
 						- Only viewing from the present, can the hidden boss – fixation from distant past – be revealed and detached, in order to clear our root delusion.
-			- ### purify
-			  id:: 684f9517-f8fc-45a3-80c9-25eca00e4eda
-			  collapsed:: true
-			  :LOGBOOK:
-			  CLOCK: [2024-08-17 Sat 19:09:59]
-			  CLOCK: [2025-03-11 Tue 16:07:35]--[2025-03-11 Tue 16:45:48] =>  00:38:13
-			  :END:
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The hardened contaminants & defilements which are difficult to be [broken](((66aded27-9701-4b6e-85e8-22049ddbe2d2))) should be detached from the ((669a5387-2a97-4311-a295-aa0afd9c4d76)) with [meditation (dhyāna) and contemplation](https://en.wikipedia.org/wiki/Buddhist_meditation). We should also protect ourselves from external contaminants using [ethics (sila)](https://en.wikipedia.org/wiki/Buddhist_ethics).
-				- About the terms
-					- refine = make it finer, which can be ether purer (less contaminants, defilements) or subtler (more fine-grained)
-					- purify = make it purer
-					- subtilize = make it subtler
-					- pulverize = make the particles more fine-grained
-					  collapsed:: true
-						- General terms: pulverize = "powderize", comminute, levigate (archaic) = "smoothen"
-						- Specialized result granularity: "fragment", "granulate", "decimate", "powderize", "micronize", "atomize", etc.
-						- ((66c33468-23d5-44d7-955e-6711cb608157))
-							- [Pulverization 1: Definition and purpose](https://www.thinkymixer.com/en-us/library/glossary/pulverization-1-definition-and-purpose/)
-							  > When referring to pulverization in a broad sense, “size reduction” is often used, and when it is used for transforming a solid into small pieces, “comminution” is often used.
-							- Chat GPT
-							  > Though "levigate" is not widely used, it's still technically correct, so if you like its specificity, it might be worth using, especially in a scientific or technical context.
 			- ### functional suffering
 			  id:: 69f99afb-5535-4929-8d01-fbc804b91170
 			  collapsed:: true
@@ -1706,6 +1685,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Such rigidity placed in the path of the universe's engine of change inevitably leads to severe structural fatigue.
 				- #### honesty to suffering
 				  id:: 69f99ba6-5de7-408e-8dac-cc7abc7fdebb
+				  ((665359e4-4597-4775-b849-f9acbb98960a)) ((69f9a791-d250-469f-8111-0eaedcbf37fa))
+					- suffering metabolism
+					  id:: 69f9a791-d250-469f-8111-0eaedcbf37fa
+					  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((69f99ba6-5de7-408e-8dac-cc7abc7fdebb))
 					- The methodology is built upon **self-honesty**: refusing to lie to oneself about the presence of distress, thereby turning the signal from a foe into a friend.
 					- **Holistic acceptance**: Together with all other components of the bodymind, all sorts of suffering are accepted equally as citizens of the same state. The system operates as a holistic democracy where every sensation, thought, and trigger is a citizen with full rights.
 						- **Suffering** is accepted as a **signal** indicating a discrepancy between the internal state and the external environment.
@@ -1731,6 +1714,27 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  > “It is being honest about my pain that makes me invincible.”
 						  
 						  — Nayyirah Waheed
+			- ### purify
+			  id:: 684f9517-f8fc-45a3-80c9-25eca00e4eda
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2024-08-17 Sat 19:09:59]
+			  CLOCK: [2025-03-11 Tue 16:07:35]--[2025-03-11 Tue 16:45:48] =>  00:38:13
+			  :END:
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The hardened contaminants & defilements which are difficult to be [broken](((66aded27-9701-4b6e-85e8-22049ddbe2d2))) should be detached from the ((669a5387-2a97-4311-a295-aa0afd9c4d76)) with [meditation (dhyāna) and contemplation](https://en.wikipedia.org/wiki/Buddhist_meditation). We should also protect ourselves from external contaminants using [ethics (sila)](https://en.wikipedia.org/wiki/Buddhist_ethics).
+				- About the terms
+					- refine = make it finer, which can be ether purer (less contaminants, defilements) or subtler (more fine-grained)
+					- purify = make it purer
+					- subtilize = make it subtler
+					- pulverize = make the particles more fine-grained
+					  collapsed:: true
+						- General terms: pulverize = "powderize", comminute, levigate (archaic) = "smoothen"
+						- Specialized result granularity: "fragment", "granulate", "decimate", "powderize", "micronize", "atomize", etc.
+						- ((66c33468-23d5-44d7-955e-6711cb608157))
+							- [Pulverization 1: Definition and purpose](https://www.thinkymixer.com/en-us/library/glossary/pulverization-1-definition-and-purpose/)
+							  > When referring to pulverization in a broad sense, “size reduction” is often used, and when it is used for transforming a solid into small pieces, “comminution” is often used.
+							- Chat GPT
+							  > Though "levigate" is not widely used, it's still technically correct, so if you like its specificity, it might be worth using, especially in a scientific or technical context.
 		- 3 directions
 		  id:: 68392a13-c350-4962-bd37-b819c8e1f931
 		  collapsed:: true
