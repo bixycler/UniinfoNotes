@@ -1704,6 +1704,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- True love makes imperfections perfect 🙏!
 					- But the dualistic separation is still like knife cutting through my heart 💔!
 					- note: [Both sides of the arrow in life, and a brief history of Will's journey to the unification](https://gemini.google.com/app/daa494e350922d19)
+			- 5th,...
+			  collapsed:: true
+				- [Chat with Gemini](https://gemini.google.com/share/169cab791f96) to get the note of ((69f99afb-5535-4929-8d01-fbc804b91170)).
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69ce0ded-193e-4b34-bda5-f53418e34a16))

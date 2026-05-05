@@ -1697,6 +1697,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  > When referring to pulverization in a broad sense, “size reduction” is often used, and when it is used for transforming a solid into small pieces, “comminution” is often used.
 							- Chat GPT
 							  > Though "levigate" is not widely used, it's still technically correct, so if you like its specificity, it might be worth using, especially in a scientific or technical context.
+			- ### functional suffering
+			  id:: 69f99afb-5535-4929-8d01-fbc804b91170
+			  collapsed:: true
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((69f99afb-5535-4929-8d01-fbc804b91170)) is a systemic approach that redefines suffering – from physical pain to subtle mental distress – as a functional component rather than an existential enemy.
+				- It bypasses the traditional trap of egoic resistance by treating the self as a fluid processing system and distress as an informational packet.
+				- This method requires abandoning the rigid, active defense of the ego, which attempts to build tolerance or push back against reality.
+					- Such rigidity placed in the path of the universe's engine of change inevitably leads to severe structural fatigue.
 		- 3 directions
 		  id:: 68392a13-c350-4962-bd37-b819c8e1f931
 		  collapsed:: true
