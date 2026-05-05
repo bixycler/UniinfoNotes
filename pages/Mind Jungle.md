@@ -1700,10 +1700,29 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ### functional suffering
 			  id:: 69f99afb-5535-4929-8d01-fbc804b91170
 			  collapsed:: true
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((69f99afb-5535-4929-8d01-fbc804b91170)) is a systemic approach that redefines suffering – from physical pain to subtle mental distress – as a functional component rather than an existential enemy.
-				- It bypasses the traditional trap of egoic resistance by treating the self as a fluid processing system and distress as an informational packet.
-				- This method requires abandoning the rigid, active defense of the ego, which attempts to build tolerance or push back against reality.
-					- Such rigidity placed in the path of the universe's engine of change inevitably leads to severe structural fatigue.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((69f99afb-5535-4929-8d01-fbc804b91170)) is a systemic approach that redefines suffering – from physical pain to subtle mental distress – as a functional component of the bodymind's ((667c0031-0a87-44c9-9e98-6d45893b095f)), rather than an existential enemy. It funcions as an input signal in the method of ((69f99ba6-5de7-408e-8dac-cc7abc7fdebb)).
+					- It bypasses the traditional trap of egoic resistance by treating the self as a fluid processing system and distress as an informational packet.
+					- This method requires abandoning the rigid, active defense of the ego, which attempts to build tolerance or push back against reality.
+						- Such rigidity placed in the path of the universe's engine of change inevitably leads to severe structural fatigue.
+				- #### honesty to suffering
+				  id:: 69f99ba6-5de7-408e-8dac-cc7abc7fdebb
+					- The methodology is built upon **self-honesty**: refusing to lie to oneself about the presence of distress, thereby turning the signal from a foe into a friend.
+					- **Holistic acceptance**: It is a dynamic, democratic process of continuous psychological metabolism, strictly distinct from the passive, resistive state of “doing nothing”.
+						- The internal democracy: The psychological system operates as a holistic democracy where every sensation, thought, and trigger is a citizen with full representational rights.
+							- The functional self acts purely as the president – a practical, necessary representative elected to coordinate action with the external environment.
+							- Structural distress and clinging occur only when this functional representative mutates into a dictator, attempting to suppress the citizens and declaring absolute authority over the whole system.
+					- Signaling: Experiencing distress is accepted as a signal indicating a discrepancy between the internal state and the external environment.
+						- It is just reality transmitting data, not an evil to be eradicated.
+						- Any form of pushing back, avoidance, or suppression degrades the system's awareness by corrupting the data packet.
+					- The metabolic cycle: The process functions as a continuous two-stroke engine, utilizing the physical and psychological mechanics of respiration to maintain structural fluidity.
+						- Ingestion (Acceptance of input): Like a deep inhalation, true acceptance opens the internal gates to fully ingest the raw data of the trigger.
+							- The distress signal must be fed into the entire cognitive and physical machinery – the 5 aggregates – along with external conditions.
+							- It allows the machinery to act as a metabolic process, digesting the raw input without the artificial resistance and indigestion of egoic clinging.
+							- When fully digested, it transforms from a toxin into a medicine, nourishing the system's growth.
+							- This profound metabolic transformation is captured perfectly by Saint Thérèse of Lisieux:
+							  > “I have reached the point of not being able to suffer any more, because all suffering has become sweet to me.”
+							  
+							  — Saint Thérèse of Lisieux
 		- 3 directions
 		  id:: 68392a13-c350-4962-bd37-b819c8e1f931
 		  collapsed:: true
