@@ -1707,19 +1707,18 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- #### honesty to suffering
 				  id:: 69f99ba6-5de7-408e-8dac-cc7abc7fdebb
 					- The methodology is built upon **self-honesty**: refusing to lie to oneself about the presence of distress, thereby turning the signal from a foe into a friend.
-					- **Holistic acceptance**: Together with all other components of the bodymind, all sorts of suffering are accepted equally as citizens of the same state.
-						- The internal democracy: The psychological system operates as a holistic democracy where every sensation, thought, and trigger is a citizen with full rights.
-							- The functional self acts purely as the president – a practical, necessary representative elected to coordinate action with the external environment.
-							- Structural distress and clinging occur only when this functional representative mutates into a dictator, attempting to suppress the citizens and declaring absolute authority over the whole system.
-						- The result is a dynamic, democratic process of continuous psychological metabolism, distinct from the passive, resistive state of “doing nothing”.
-					- Signaling: Experiencing distress is accepted as a signal indicating a discrepancy between the internal state and the external environment.
-						- It is just reality transmitting data, not an evil to be eradicated.
-						- Any form of pushing back, avoidance, or suppression degrades the system's awareness by corrupting the data packet.
+					- **Holistic acceptance**: Together with all other components of the bodymind, all sorts of suffering are accepted equally as citizens of the same state. The system operates as a holistic democracy where every sensation, thought, and trigger is a citizen with full rights.
+						- **Suffering** is accepted as a **signal** indicating a discrepancy between the internal state and the external environment.
+							- It is just reality transmitting data, not an evil to be eradicated.
+							- Any form of pushing back, avoidance, or suppression degrades the system's awareness by corrupting the data packet.
+						- The **functional self** acts purely as the **president** – a practical, necessary representative elected to coordinate action with the external environment.
+						- Structural distress and clinging occur only when this functional representative mutates into a dictator, attempting to suppress the citizens and declaring absolute authority over the whole system.
+						- ⇒ The result of this acceptance is a dynamic, democratic process of continuous psychological metabolism, distinct from the passive, resistive state of “doing nothing”.
 					- The metabolic cycle: The process functions as a continuous two-stroke engine, utilizing the physical and psychological mechanics of respiration to maintain structural fluidity.
-						- Ingestion (Acceptance of input): Like a deep inhalation, true acceptance opens the internal gates to fully ingest the raw data of the trigger.
-							- The distress signal must be fed into the entire cognitive and physical machinery – the 5 aggregates – along with external conditions.
+						- Ingestion (Acceptance of input): Like a deep inhalation, true acceptance opens the internal gates to fully ingest the raw data of the suffering signal.
+							- The suffering signal is fed into the entire cognitive and physical machinery – the [5 aggregates](https://en.wikipedia.org/wiki/Skandha) – along with external conditions.
 							- It allows the machinery to act as a metabolic process, digesting the raw input without the artificial resistance and indigestion of egoic clinging.
-							- When fully digested, it transforms from a toxin into a medicine, nourishing the system's growth.
+							- When digested, it transforms from a toxin into a medicine, nourishing the system's growth.
 							- This profound metabolic transformation is captured perfectly by Saint Thérèse of Lisieux:
 							  > “I have reached the point of not being able to suffer any more, because all suffering has become sweet to me.”
 							  
