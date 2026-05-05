@@ -1703,7 +1703,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- The suffering signal is fed into the entire cognitive and physical machinery – the [5 aggregates](https://en.wikipedia.org/wiki/Skandha) – along with external conditions, for the system to digest.
 							- When digested, suffering transforms from a toxin into a medicine, nourishing the system's growth.
 							- This profound metabolic transformation is captured by Saint Thérèse of Lisieux:
-							  > “I have reached the point of not being able to suffer any more, because all suffering has become sweet to me.”
+							  > I have reached the point of not being able to suffer any more, because all suffering has become sweet to me.
 						- Circulation (Acceptance of outcome): *Like an exhalation*, once the machinery has processed the signal, whatever the result, it must be accepted and released because is the best – the democratic consensus of all components in the system.
 							- Demanding a specific, permanent, fixed outcome generates new clinging by trying to freeze the engine of change.
 							- In a fluid state, the processed result is not kept as a final, static monument, but is fluidly circulated back as the next input.
@@ -1712,7 +1712,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- True invincibility is not building an impenetrable armor, but having no rigid structure left to break.
 						- Acknowledging these continuous cycles without grasping for a transcendental idealism prevents creating an even worse form of clinging.
 						- The essence of this grounded, honest perspective is captured beautifully by the poet:
-						  > “It is being honest about my pain that makes me invincible.”
+						  > It is being honest about my pain that makes me invincible.
 						  
 						  — Nayyirah Waheed
 			- ### purify
