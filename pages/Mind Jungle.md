@@ -1707,10 +1707,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- #### honesty to suffering
 				  id:: 69f99ba6-5de7-408e-8dac-cc7abc7fdebb
 					- The methodology is built upon **self-honesty**: refusing to lie to oneself about the presence of distress, thereby turning the signal from a foe into a friend.
-					- **Holistic acceptance**: It is a dynamic, democratic process of continuous psychological metabolism, strictly distinct from the passive, resistive state of “doing nothing”.
-						- The internal democracy: The psychological system operates as a holistic democracy where every sensation, thought, and trigger is a citizen with full representational rights.
+					- **Holistic acceptance**: Together with all other components of the bodymind, all sorts of suffering are accepted equally as citizens of the same state.
+						- The internal democracy: The psychological system operates as a holistic democracy where every sensation, thought, and trigger is a citizen with full rights.
 							- The functional self acts purely as the president – a practical, necessary representative elected to coordinate action with the external environment.
 							- Structural distress and clinging occur only when this functional representative mutates into a dictator, attempting to suppress the citizens and declaring absolute authority over the whole system.
+						- The result is a dynamic, democratic process of continuous psychological metabolism, distinct from the passive, resistive state of “doing nothing”.
 					- Signaling: Experiencing distress is accepted as a signal indicating a discrepancy between the internal state and the external environment.
 						- It is just reality transmitting data, not an evil to be eradicated.
 						- Any form of pushing back, avoidance, or suppression degrades the system's awareness by corrupting the data packet.
