@@ -1684,6 +1684,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- The rigid separation between “inevitable physical pain versus optional mental suffering”, usually linked to the [parable of 2 arrows](https://suttacentral.net/sn36.6/en/bodhi), is an oversimplification of the intricate fabric of suffering and the deep meanings of Buddhist teachings.
 					- This method requires abandoning the rigid, active defense of the ego, which attempts to build tolerance or push back against reality.
 						- Holding such rigidity against the universe's engine of change inevitably leads to deeper suffering – the “2nd arrow” in the parable of 2 arrows.
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- Suffering – the First Noble Truth
+					  collapsed:: true
+						-
 				- #### honesty to suffering
 				  id:: 69f99ba6-5de7-408e-8dac-cc7abc7fdebb
 				  ((665359e4-4597-4775-b849-f9acbb98960a)) ((69f9a791-d250-469f-8111-0eaedcbf37fa))
