@@ -1688,12 +1688,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Suffering – the First Noble Truth
 					  collapsed:: true
 						- The systemic task
-							- The First Noble Truth declares that [dukkha](https://en.wikipedia.org/wiki/Dukkha) (suffering or systemic friction) is an inevitable, natural law of existence, not a biological glitch to be eradicated.
+							- The First Noble Truth in Buddhism declares that [dukkha](https://en.wikipedia.org/wiki/Dukkha) (suffering or systemic friction) is an inevitable, natural law of existence, not a biological glitch to be eradicated.
 							- In his first discourse, the Buddha assigned a specific systemic task to this truth: *pariññeyya* – to be fully understood and comprehended.
-								- This requires suffering to be fully ingested and metabolically processed, rather than blocked at the front door.
+								- This requires suffering to be fully ingested and metabolically processed, rather than avoided or blocked away.
 							- The common misunderstanding of liberation as a sterile state “without suffering” completely contradicts this foundational truth.
-								- True liberation is being *unfettered from suffering* (`visaññutto dukkhasmā`), meaning the painful signal is received but no longer bound by egoic resistance to a recursive feedback loop.
-						- The true context of renunciation
+								- True liberation is being *unfettered from suffering* (visaññutto dukkhasmā), meaning the painful signal is received but no longer bound by egoic resistance to a recursive feedback loop.
+						- The true context of Siddhartha's renunciation
 							- The popular “Four Gates” myth infantilizes the Buddha as a naive boy shocked by basic biological facts he supposedly never knew.
 							- The older suttas reveal him as a highly educated prince who diagnosed the geopolitical and psychological structural fatigue of his society – an awakening unfolding in four chronological acts.
 								- This dispels the myth of an all-happy prince, revealing instead a deeply hidden “invisible agony” born from his claustrophobic, threatened environment.
@@ -1724,6 +1724,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- We should not fight its vector (straining/running), nor should we go limp (halting/sinking); we should mindfully maintain our functional agency and swim across it (parallel to the shore) to exit the ripping zone.
 				- #### honesty to suffering
 				  id:: 69f99ba6-5de7-408e-8dac-cc7abc7fdebb
+				  collapsed:: true
 				  ((665359e4-4597-4775-b849-f9acbb98960a)) ((69f9a791-d250-469f-8111-0eaedcbf37fa))
 					- suffering metabolism
 					  id:: 69f9a791-d250-469f-8111-0eaedcbf37fa
@@ -1796,7 +1797,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  CLOCK: [2025-06-17 Tue 09:06:45]
 					  :END:
 						- Greed: The positive feelings (like, ease, happiness, etc.) *cannot get enough*, hence **lacking**, wanting, and greedy. Greed is the lack of positivity, hence negative (yin).
-						- Aversion: The negative feelings (dislike, unease, sadness, etc.) *cannot be avoided*, hence **excess** of sensation, stressed and aversive. Aversion is the excess of negativity, hence positive (yang).
+						- Aversion: The [negative feelings](((69f99afb-5535-4929-8d01-fbc804b91170))) (dislike, unease, sadness, etc.) *cannot be avoided*, hence **excess** of sensation, stressed and aversive. Aversion is the excess of negativity, hence positive (yang).
 						- Delusion: The neutral feelings (balance, stable, etc.) create the notion that “this is **perfect**, this is permanent, this only is enough” which is *incorrect* due to [impermanence](https://en.wikipedia.org/wiki/Impermanence_(Buddhism)), hence illusion, delusion.
 							- Immersion in this neutral feeling creates the core **intent of self** to be attached to, including all notions of self, ego, and possession.
 							- The mismatch of this core self intent with reality generates the greedy intent of acquiring the positive feelings and aversive intent of avoiding negative feelings. That means delusion is the generator of both greed and aversion.
