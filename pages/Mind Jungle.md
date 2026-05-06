@@ -1721,7 +1721,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  > But having pulled out that very arrow, one does not run, nor does one sink.
 							- Straining (Running): Fighting the current generates massive internal friction and exhaustion – the active defense of the ego running in all directions, which ultimately gets drowned.
 							- Halting (Sinking): Doing nothing and passively resigning abandons structural integrity – the false acceptance that causes one to sink into nihilism.
-							- The rip current analogy: The flood of suffering operates exactly like a hydrodynamic rip current.
+							- The [rip current](https://en.wikipedia.org/wiki/Rip_current) analogy: The flood of suffering & karma operates exactly like a hydrodynamic rip current.
 								- We should not fight its vector (straining/running), nor should we go limp (halting/sinking); we should mindfully maintain our functional agency and swim across it (parallel to the shore) to exit the ripping zone.
 				- #### honesty to suffering
 				  id:: 69f99ba6-5de7-408e-8dac-cc7abc7fdebb
