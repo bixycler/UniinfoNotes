@@ -1666,6 +1666,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- internal match within canopy
 				- use [logseq](https://discuss.logseq.com/t/whats-new-with-logseq-db-april-26-2026/34977) as KG
 		- May journal
+		  id:: 69f839e5-22eb-419e-8c9d-31f56258fb55
 		  collapsed:: true
 			- April 30th – May 3rd, holidays & weekends
 			  collapsed:: true
@@ -1709,6 +1710,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
-		- ((69ce0ded-193e-4b34-bda5-f53418e34a16))
+		- ((69f839e5-22eb-419e-8c9d-31f56258fb55))
 		- ...
 		  id:: 688c70c8-1772-4007-bdf0-d621db895411
