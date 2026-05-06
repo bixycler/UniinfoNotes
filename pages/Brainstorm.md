@@ -11,7 +11,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2026 Brainstorms
 	  id:: 6960e754-ff94-4e1a-8266-d9f15231b880
-		- Both sides of the arrow in life
+		- The ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) in life
 		  id:: 69faacc8-3e0b-4b4e-8939-a7c11dde9154
 		  collapsed:: true
 			- The ((1a22a090-6786-4114-8aad-35b122783bff)): The Arrow
@@ -24,7 +24,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- The dissolution of rigid opposition: Positivity and negativity are experienced not as enemies, but as the continuous upward and downward arcs of the exact same loop.
 				- The fluid approach: Unconditional acceptance where boundaries soften, and the “other” is recognized as another point on one’s own circumference.
 			- The ((c96a6d20-a0f6-48bd-9d70-9bc00b6b3c69)): The Equal
-				- The ultimate paradox resolved: The equation ⟪○ = ↑⟫.
+				- The paradox and also the resolution: The Trinion equation ⟪○ = ↑⟫.
 				- Holding the sharp, cutting nature of the Arrow (differentiation) and the smooth, infinite acceptance of the Circle (existence) simultaneously.
 				- Recognizing that the jagged friction of the world is not separate from the unbroken wholeness of the sanctuary.
 				- The capacity to exist dynamically in the 0PP (Zero-Person Perspective), allowing the pain of the world to flow through without resistance while actively engaging with the generative spark.
@@ -52,6 +52,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Internalizing immense global and historical fractures (North vs. South Vietnam, Eastern vs. Western philosophies).
 				- Using the “all is me” perspective not just as an ideology to resolve materialism vs. idealism, but as a vital psychological lifeguard to survive the crushing weight of separation.
 		- Bodymind integration through breath and focus
+		  id:: 69faa480-01ec-46df-b1d7-4d7484ae0a81
 		  collapsed:: true
 			- The physiological mechanism behind ancient breathwork and attention practices is best understood through a **closed-loop feedback** system, rather than reductionist science.
 			- Reductive analysis often isolates variables – like respiratory mechanics versus mental state – effectively breaking the loop that makes the practice work.

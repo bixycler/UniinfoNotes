@@ -1700,7 +1700,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- That's why the wall of the self is so thick, from which a tremendous effort is required to break free, to return to the unified root.
 				- [The Unfortunate Truth About Wim Hof](https://youtu.be/T1PKst8cBGs): the danger of fame, to both the leader and the followers!
 				  id:: 69f83915-ae14-4076-ad18-7b1585d08161
-					- Watching Wim Hof lead to my note: [Bodymind integration through breath and focus](https://g.co/gemini/share/0cf2b3d3a86e)
+					- Watching Wim Hof lead to my note: ((69faa480-01ec-46df-b1d7-4d7484ae0a81))
 				- Reading about Neem Karoli Baba Maharaj-ji, i realized that my love debt also stems from my perfectionism. 🙏📿
 					- Different from the normal perfection of “pure white”, my perfection of “black = white” forces my beloved to face the negativity prematurely.
 					- True love makes imperfections perfect 🙏!
