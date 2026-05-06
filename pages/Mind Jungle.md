@@ -1693,20 +1693,20 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- This requires suffering to be fully ingested and metabolically processed, rather than avoided or blocked away.
 							- The common misunderstanding of liberation as a sterile state “without suffering” completely contradicts this foundational truth.
 								- True liberation is being *unfettered from suffering* (visaññutto dukkhasmā), meaning the painful signal is received but no longer bound by egoic resistance to a recursive feedback loop.
-						- The true context of Siddhartha's renunciation
-							- The popular “Four Gates” myth infantilizes the Buddha as a naive boy shocked by basic biological facts he supposedly never knew.
+						- The true context of Prince Siddhartha's renunciation
+							- The popular “Four Gates” myth infantilizes Prince Siddhartha as a naive boy shocked by basic biological facts he supposedly never knew.
 							- The older suttas reveal him as a highly educated prince who diagnosed the geopolitical and psychological structural fatigue of his society – an awakening unfolding in four chronological acts.
-								- This dispels the myth of an all-happy prince, revealing instead a deeply hidden “invisible agony” born from his claustrophobic, threatened environment.
-								- He explicitly described this suffocating dread in the *Attadaṇḍa Sutta* (Snp 4.15):
+								- This dispels the myth of an all-happy prince, revealing instead a deeply *hidden agony* born from his claustrophobic, threatened environment.
+								- He explicitly described this suffocating dread in the [Attadaṇḍa Sutta (Snp 4.15)](https://suttacentral.net/snp4.15/en/mills):
 								  > Seeing people floundering like fish in a puddle with too little water, seeing them hostile to one another, fear came upon me.
 								  > Then I saw an arrow there, so hard to see, stuck in the heart.
-							- Act I: The incubation – *Sukhumāla Sutta* (AN 3.39)
+							- Act I: The incubation – [Sukhumāla Sutta (AN 3.39)](https://suttacentral.net/an3.39/en/bodhi)
 								- He recognized his father's extreme cushioning as a massive, unsustainable cover-up of the inevitable realities of aging and death.
 								- Observing the adults' disgust toward the sick and dying, he saw through their hypocritical “intoxication” with youth and life, refusing to participate in the lie.
-							- Act II: The critical mass – *Attadaṇḍa Sutta* (Snp 4.15)
+							- Act II: The critical mass – [Attadaṇḍa Sutta (Snp 4.15)](https://suttacentral.net/snp4.15/en/mills)
 								- He witnessed his society floundering like fish in a “drying puddle”, driven by fear, suppression, and geopolitical conflict.
 								- He diagnosed the root cause not as external enemies, but as the invisible “arrow” of clinging and egoic conceit stuck in the human heart.
-							- Act III: The extraction – *Pabbajjā Sutta* (Snp 3.1)
+							- Act III: The extraction – [Pabbajjā Sutta (Snp 3.1)](https://suttacentral.net/snp3.1/en/mills)
 								- To process this massive systemic distress, he needed structural space to let his internal democracy breathe.
 								- He left the claustrophobic, high-friction “refuse dump” of household life for the “open air” of renunciation.
 							- Act IV: The retrospective diagnosis – *Māgaṇḍiya Sutta* (MN 75)
