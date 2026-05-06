@@ -1705,8 +1705,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Different from the normal perfection of “pure white”, my perfection of “black = white” forces my beloved to face the negativity prematurely.
 					- True love makes imperfections perfect 🙏!
 					- But the dualistic separation is still like knife cutting through my heart 💔!
-						- ⇒ ((69faacc8-3e0b-4b4e-8939-a7c11dde9154)) with
-					- note: [Both sides of the arrow in life, and a brief history of Will's journey to the unification](https://gemini.google.com/app/daa494e350922d19)
+						- ⇒ ((69faacc8-3e0b-4b4e-8939-a7c11dde9154)) with ((69fab080-8f7a-4156-b55f-59c3a4f36ebb))
 			- 5th, [Chat with Gemini](https://gemini.google.com/share/22447b18093a) to get the note of ((69f99afb-5535-4929-8d01-fbc804b91170)).
 			  collapsed:: true
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))

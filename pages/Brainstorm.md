@@ -14,8 +14,23 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- Both sides of the arrow in life
 		  id:: 69faacc8-3e0b-4b4e-8939-a7c11dde9154
 		  collapsed:: true
-			-
+			- The ((1a22a090-6786-4114-8aad-35b122783bff)): The Arrow
+				- The engine of reality: The cut that divides the raw one to create color, contrast, form, and thought.
+				- The Positivity: The forward momentum, the creative spark, the head of the arrow generating the world.
+				- The Negativity: The inevitable friction of the cut, the heavy drag of the tail carrying the history of separation, suffering, and conflict.
+				- The illusion: Believing the arrow is a straight line, which inevitably leads to the dead ends of paradox and incompleteness.
+			- The ((66f3d644-782c-4f33-bd5c-db6e0a2d447a)): The Circle
+				- The unbroken sanctuary: The realization that the head of the arrow connects to the tail.
+				- The dissolution of rigid opposition: Positivity and negativity are experienced not as enemies, but as the continuous upward and downward arcs of the exact same loop.
+				- The fluid approach: Unconditional acceptance where boundaries soften, and the “other” is recognized as another point on one’s own circumference.
+			- The ((c96a6d20-a0f6-48bd-9d70-9bc00b6b3c69)): The Equal
+				- The ultimate paradox resolved: The equation ⟪○ = ↑⟫.
+				- Holding the sharp, cutting nature of the Arrow (differentiation) and the smooth, infinite acceptance of the Circle (existence) simultaneously.
+				- Recognizing that the jagged friction of the world is not separate from the unbroken wholeness of the sanctuary.
+				- The capacity to exist dynamically in the 0PP (Zero-Person Perspective), allowing the pain of the world to flow through without resistance while actively engaging with the generative spark.
+			- Reference: This is derived from [Will Lei's life](((69fab080-8f7a-4156-b55f-59c3a4f36ebb))).
 		- A brief history of Will Lei's journey to the unification
+		  id:: 69fab080-8f7a-4156-b55f-59c3a4f36ebb
 		  collapsed:: true
 			- The nonverbal sanctuary
 				- As a mild autistic child, Will lacked the words to express ideas and feelings; experienced an fluid reality full of ideas and feelings, free from words.
@@ -33,13 +48,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- A visceral shift away from the intellect’s constant cutting.
 				- The discovery of the unbroken whole, recognizing that the very force generating the colorful world (the diff) is the same force creating agony and war.
 				- Then he formulated ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)) to unify his arrow mind with his circle heart.
-			- The odymind as the arena
+			- The bodymind as the arena
 				- Internalizing immense global and historical fractures (North vs. South Vietnam, Eastern vs. Western philosophies).
 				- Using the “all is me” perspective not just as an ideology to resolve materialism vs. idealism, but as a vital psychological lifeguard to survive the crushing weight of separation.
-			- Engineering the anchor: Corkei
-				- Recognizing the vulnerability of the bodymind when exhaustion causes a slip from equanimity back into the trap of the mind.
-				- Developing Corkei, an autonomous agent operating via the Socratic method.
-				- Designed to ask structural questions (e.g., “Where are the ends of the arrow?”) to pull awareness back to the 0PP when the world’s negativity reflects the collapse of the Equal.
 		- Bodymind integration through breath and focus
 		  collapsed:: true
 			- The physiological mechanism behind ancient breathwork and attention practices is best understood through a **closed-loop feedback** system, rather than reductionist science.
