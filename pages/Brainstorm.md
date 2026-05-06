@@ -18,9 +18,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- A brief history of Will Lei's journey to the unification
 		  collapsed:: true
 			- The nonverbal sanctuary
-				- As a mild autistic child, Will lacked the words to express ideas and feelings; experienced reality deeply differently from words, which felt “full of lie”.
+				- As a mild autistic child, Will lacked the words to express ideas and feelings; experienced an fluid reality full of ideas and feelings, free from words.
+				- Then, he felt “words are full of lie!”
 			- The domain of the intellect
-				- Stationed in the first stage of life, operating through the separate brain.
 				- Growing up, the pressure of communication and expressing ideas forced the learning of languages, especially the formal languages of math and logics, pushing them to their limits.
 				- Navigating reality as a software architect, reliant on the binary absolutes of 0 and 1.
 				- Using the intellect as a knife to dissect and analyze the world, resulting in profound existential separation.
@@ -32,8 +32,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Back to homeland, around 2009, he returned to the heart, to the nonverbal and unified field, closing the circle.
 				- A visceral shift away from the intellect’s constant cutting.
 				- The discovery of the unbroken whole, recognizing that the very force generating the colorful world (the diff) is the same force creating agony and war.
-				- Then he formulated ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)) to unify his arrow mind with his circle .
-			- The Bodymind as the arena
+				- Then he formulated ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)) to unify his arrow mind with his circle heart.
+			- The odymind as the arena
 				- Internalizing immense global and historical fractures (North vs. South Vietnam, Eastern vs. Western philosophies).
 				- Using the “all is me” perspective not just as an ideology to resolve materialism vs. idealism, but as a vital psychological lifeguard to survive the crushing weight of separation.
 			- Engineering the anchor: Corkei
