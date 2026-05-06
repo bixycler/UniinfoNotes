@@ -1709,12 +1709,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- Act III: The extraction – [Pabbajjā Sutta (Snp 3.1)](https://suttacentral.net/snp3.1/en/mills)
 								- To process this massive systemic distress, he needed structural space to let his internal democracy breathe.
 								- He left the claustrophobic, high-friction “refuse dump” of household life for the “open air” of renunciation.
-							- Act IV: The retrospective diagnosis – *Māgaṇḍiya Sutta* (MN 75)
+							- Act IV: The retrospective diagnosis – [Māgaṇḍiya Sutta (MN 75)](https://suttacentral.net/mn75/en/sujato)
 								- Having fully metabolized the suffering, he looked back at the societal clinging to sensual pleasures.
 								- He diagnosed that closed-loop defense as a disease – like a leper roasting his own festering wounds over a fire pit for temporary relief.
 						- Navigating the flood
-							- The mechanics of processing this systemic friction is mapped in the *Oghataraṇa Sutta* (SN 1.1) and echoes the extraction of the invisible arrow in the *Attadaṇḍa Sutta* (Snp 4.15).
-							- In SN 1.1, the Buddha states: “By not halting, friend, and by not straining, I crossed the flood.”
+							- The mechanics of processing this systemic friction is mapped in the [Oghataraṇa Sutta (SN 1.1)](https://suttacentral.net/sn1.1/en/bodhi) and echoes the extraction of the invisible arrow in the *Attadaṇḍa Sutta* (Snp 4.15).
+							- In SN 1.1, the Buddha states:
+							  > By not halting, friend, and by not straining, I crossed the flood.
 							- In Snp 4.15, he describes the exact same hydrodynamics regarding the arrow of clinging:
 							  > Pierced by this arrow, one runs in all directions. 
 							  > But having pulled out that very arrow, one does not run, nor does one sink.
