@@ -1691,11 +1691,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Autonoton is the obop with its effect circle implemented by a circular chain of view cones.
 					- Each view cone is a basis vector of the compound view cone. They compose the mixmatch & projections of the compound view cone.
 					- 1. Observation is the external match of the object to each view cone.
-					- 2. Operation is the circle dynamic through the internal match -- the circular chain of view cones.
+					- 2. Operation is the circle dynamic through the internal match – the circular chain of view cones.
 					- 3. Action (output operation) is mix of all view cones.
 				- Human mind: world model & theory of mind
 					- The very distinct "theory" only for the other minds, separated from the world model, is the artifact of the dualism rooted from the separation between object and subject.
-					- In Uniinfo, the "theory of mind" is the primary instinct of the consciousness (self-awareness) -- it   sees other minds through itself. The subjectivity is there first, and then the objectivity arrives as the intersubjectivity.
+					- In Uniinfo, the "theory of mind" is the primary instinct of the consciousness (self-awareness) – it sees other minds through itself. The subjectivity is there first, and then the objectivity arrives as the intersubjectivity.
 					- However, that very artifact, the innate distinction between the two, is the reflection of the billions of years of the universe' separation between opposites, e.g. positive from negative charges.
 					- That's why the wall of the self is so thick, from which a tremendous effort is required to break free, to return to the unified root.
 				- [The Unfortunate Truth About Wim Hof](https://youtu.be/T1PKst8cBGs): the danger of fame, to both the leader and the followers!
