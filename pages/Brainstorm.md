@@ -48,7 +48,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- This combination physically synchronizes global brain rhythms with the frequency of the breath, reshaping communication dynamics.
 				- Unified neurocognitive framework: A recent wave of research studies somatic practices simultaneously across four integrated levels ([Vago & Silbersweig, 2012](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3480031/)).
 					- These levels include the neural (reshaping connectivity), physiological (balancing autonomic systems), cognitive (enhancing meta-awareness), and experiential (fostering embodied self-regulation).
-			-
 		- View cone = funnel of effect flow to compress content into form
 		  id:: 69e1a556-c5e9-4d4e-bce6-470d55688d8c
 		  collapsed:: true
