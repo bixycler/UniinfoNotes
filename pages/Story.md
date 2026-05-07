@@ -1727,6 +1727,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- https://www.facebook.com/frederik.takkenberg
 							- https://www.instagram.com/frederiktak/
 							- https://www.youtube.com/watch?v=JBrIvudmh4U
+						- Frederik
+							- He did not grow up in a religious family and had no formal Catholic upbringing. Prior to his conversion to OCD (Order of Discalced Carmelites), he led a life rich in intellectual pursuits, having immersed himself in Eastern religions and various non-Christian philosophical and mystical traditions
+							- joined Carmelitas Descalzos Ibérica OCD from 2016
 				- [Qwen-Scope](https://www.marktechpost.com/2026/05/01/qwen-ai-releases-qwen-scope-an-open-source-sparse-autoencoders-sae-suite-that-turns-llm-internal-features-into-practical-development-tools) to look into the LLM's brain.
 				-
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
