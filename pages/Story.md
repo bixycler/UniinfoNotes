@@ -1716,7 +1716,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- tree view vs set view
 						- intent (content of each unit, the circle) divides, refining into thin air
 						- extent (centers of circles) multiplies, growing into a tree
-					- It's interesting that the SUM () being published these months (yet to be done) has the [qualiton](https://sensible-universe.com/2026/03/20/qualiton-q-13-the-particle-of-ontological-weight/) very much similar to Unïnfo's.
+					- It's interesting that the SUM ([Sensible Universe Model](https://sensible-universe.com/sum-blog/)) being published these months (yet to be done) has the [qualiton](https://sensible-universe.com/2026/03/20/qualiton-q-13-the-particle-of-ontological-weight/) very much similar to Unïnfo's.
 				- [Qwen-Scope](https://www.marktechpost.com/2026/05/01/qwen-ai-releases-qwen-scope-an-open-source-sparse-autoencoders-sae-suite-that-turns-llm-internal-features-into-practical-development-tools) to look into the LLM's brain.
 				-
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
