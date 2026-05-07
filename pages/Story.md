@@ -1723,13 +1723,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- https://sensible-universe.com/
 							- https://www.sensibleuniversemodel.com/
 							- https://i-theorem.com/
+						- Frederik
 							- https://www.frederiktakkenberg.com/
 							- https://www.facebook.com/frederik.takkenberg
 							- https://www.instagram.com/frederiktak/
 							- https://www.youtube.com/watch?v=JBrIvudmh4U
-						- Frederik
-							- He did not grow up in a religious family and had no formal Catholic upbringing. Prior to his conversion to OCD (Order of Discalced Carmelites), he led a life rich in intellectual pursuits, having immersed himself in Eastern religions and various non-Christian philosophical and mystical traditions
-							- joined Carmelitas Descalzos Ibérica OCD from 2016
+								- He did not grow up in a religious family and had no formal Catholic upbringing. Prior to his conversion to OCD (Order of Discalced Carmelites) 2016, he led a life rich in **intellectual pursuits**, having immersed himself in **Eastern religions** and various non-Christian philosophical and **mystical traditions**.
+								- His path to conversion was driven by deep personal pain, including the loss of 3 loved ones to suicide and other significant life conflicts. After reaching a breaking point, he found healing through the support of the Carmelite friars in Toledo, who introduced him to the writings of Saint John of the Cross and Saint Teresa of Jesus.
+								- He explains that it was in a Cistercian monastery where he had his own "fall from the horse" moment, where his previous convictions crumbled, allowing a new truth to "enter his body". This led him to take the habit as **a lay brother in the monastery of Las Batuecas**.
 				- [Qwen-Scope](https://www.marktechpost.com/2026/05/01/qwen-ai-releases-qwen-scope-an-open-source-sparse-autoencoders-sae-suite-that-turns-llm-internal-features-into-practical-development-tools) to look into the LLM's brain.
 				-
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
