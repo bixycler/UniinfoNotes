@@ -2744,6 +2744,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 										- 3+. Hình tướng là thứ phải chịu hư mất.
 							- Due to the stability (lastingness) of the closed form, ordinary beings naturally develop attachment to the self, often under the illusion that it's permanent (everlasting).
 							- In Buddhist texts, form is defined through change and emptiness ( ((66600918-9f92-4730-b056-c2cd87a742aa)) in Unïnfo).
+							  id:: 699c0362-7757-41e2-9f23-c271bd12a4d7
 							  collapsed:: true
 								- [Itchy sutta](https://suttacentral.net/sn22.79/en/sujato) (Khajjanīya sutta, SN 22:79):
 								  > And why do you call it *form [[rūpa](https://suttacentral.net/define/r%C5%ABpa?lang=en)]*? (Because) It's *deformed [[ruppati](https://suttacentral.net/define/ruppati?lang=en)]* (changed, transformed, afflicted, vexed).
