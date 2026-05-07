@@ -1723,7 +1723,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- https://sensible-universe.com/
 							- https://www.sensibleuniversemodel.com/
 							- https://i-theorem.com/
-						- Frederik
+						- Frederik Takkenberg
+						  collapsed:: true
 							- https://www.frederiktakkenberg.com/
 							- https://www.facebook.com/frederik.takkenberg
 							- https://www.instagram.com/frederiktak/
