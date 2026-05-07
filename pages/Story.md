@@ -1708,7 +1708,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- ⇒ ((69faacc8-3e0b-4b4e-8939-a7c11dde9154)) with ((69fab080-8f7a-4156-b55f-59c3a4f36ebb))
 			- 5th, [Chat with Gemini](https://gemini.google.com/share/22447b18093a) to get the note of ((69f99afb-5535-4929-8d01-fbc804b91170)).
 			  collapsed:: true
-			- 7th, ...
+			- 7th, CIE interunion & SUM (Sensible Universe Model)
 			  collapsed:: true
 				- CIE interunion: const (1) = sustent = content(+) + intent(-) = (extent + 1) * intent
 					- epsilon (0) = positive + negative = i_{0} = air quantum in “out of thin air” = arrowhead point = apex of view cone = memory cell
@@ -1718,6 +1718,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- extent (centers of circles) multiplies, growing into a tree
 					- It's interesting that the SUM ([Sensible Universe Model](https://sensible-universe.com/sum-blog/)) being published these months (yet to be done) has the [qualiton](https://sensible-universe.com/2026/03/20/qualiton-q-13-the-particle-of-ontological-weight/) very much similar to Unïnfo's.
 						- The tree view vs set view corresponds to [nodal logic vs modal logic](https://sensible-universe.com/nodal-logic-and-modal-logic-in-the-sensible-universe-model/) in SUM.
+						- NotebookLM: [Sensible Universe: A Five-Dimensional Framework of Unified Perception](https://notebooklm.google.com/notebook/28ffb591-ce52-4be6-94c0-e1746e37d428)
+						- Websites
+							- https://sensible-universe.com/
+							- https://www.sensibleuniversemodel.com/
+							- https://i-theorem.com/
+							- https://www.frederiktakkenberg.com/
+							- https://www.facebook.com/frederik.takkenberg
+							- https://www.instagram.com/frederiktak/
+							- https://www.youtube.com/watch?v=JBrIvudmh4U
 				- [Qwen-Scope](https://www.marktechpost.com/2026/05/01/qwen-ai-releases-qwen-scope-an-open-source-sparse-autoencoders-sae-suite-that-turns-llm-internal-features-into-practical-development-tools) to look into the LLM's brain.
 				-
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
