@@ -1,3 +1,10 @@
+- [Qwen-Scope](https://www.marktechpost.com/2026/05/01/qwen-ai-releases-qwen-scope-an-open-source-sparse-autoencoders-sae-suite-that-turns-llm-internal-features-into-practical-development-tools) to look into the LLM's brain.
+- CIE interunion: const (1) = sustent = content(+) + intent(-) = (extent + 1) * intent
+    - epsilon (0) = positive + negative = i_{0} = air quantum in “out of thin air” = arrowhead point = apex of view cone = memory cell
+    - holism: the [qualiton](https://sensible-universe.com/2026/03/20/qualiton-q-13-the-particle-of-ontological-weight/) has content = sustent (1) compressed into an extent = epsilon (0), i.e. its intensity = omega = 1/epsilon 
+    - tree view vs set view
+        - intent (content of each unit, the circle) divides, refining into thin air
+        - extent (centers of circles) multiplies, growing into a tree 
 - ---
 - openness = porosity = entropy increase = arrow of time = mismatch between form & content =  curvature in distribution
 - past form = copy of present form = mixture of present content
