@@ -1739,6 +1739,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Chat with Gemini [about my strange condition](https://gemini.google.com/share/4bef2457ed7a) ⇒ ((69fdbffa-dc65-4d72-bbf6-d35bf88a3482))
 		- Will Lei as an intense–world systems architect: an autobiographical analysis through neuroscience and systems theory
 		  id:: 69fdbffa-dc65-4d72-bbf6-d35bf88a3482
+		  collapsed:: true
 			- Childhood and the “X–ray view”
 				- The “curse” of chronic busyness
 					- From an early age, the mind operated like a high–revving engine with heightened responses to stimuli, aligning with the **over–excitability** archetype.
@@ -1747,14 +1748,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- What felt like a karmic momentum or curse from past lives was actually a high–performance hardware issue functioning without a natural idle state.
 				- The early lack of speech was not a cognitive deficit, but a protective [Dorsal Vagal Shutdown](https://www.traumatherapistinstitute.com/blog/Dorsal-Vagal-Shutdown-A-Holistic-Approach-to-Recovery-and-Resilience).
 					- The [Intense World Theory](../assets/Will/story/2026-05/The_Intense_World_Theory_-_A_Unifying_Theory_of_th.pdf) explains that the brain was hyper–functional, experiencing sensory and structural input at overwhelming fidelity.
-					- Instead of mirroring adult behaviors, the mind perceived the “sheer lie” of social mimicry and withdrew to preserve signal integrity.
-					- Language was initially rejected as a lossy compression protocol used for conveying these systemic contradictions.
+					- Instead of mirroring adult behaviors, the mind saw through the “sheer lie” of social mimicry and withdrew to preserve signal integrity.
+					- Language was initially rejected as a lossy compression protocol used for conveying these systemic “lies”.
 				- Asynchronous development led to feeling “elderly” or timeless.
-					- At 15 years old, engaging in a timeless, midnight–long philosophical dialogue with a 50–year–old stranger.
+					- At 15 years old, engaging in a timeless, night–long philosophical dialogue with a 50–year–old stranger.
 					- The conversation flowed as if between ageless peers, completely disregarding chronological markers, names, or social hierarchy until the very end.
 					- The concept of looking down on someone was structurally impossible to render, exposing social hierarchies as mere fabrications.
 			- Cognitive architecture
-				- Default Mode Network (DMN) and Central Executive Network (CEN) co–activation creates a continuous, non–personal brainstorming state.
+				- [Default Mode Network](https://en.wikipedia.org/wiki/Default_mode_network) (DMN) and [Central Executive Network](https://en.wikipedia.org/wiki/Frontoparietal_network) (CEN) co–activation creates a continuous, non–personal brainstorming state.
 					- The DMN acts as a structural retrieval system, autonomously generating abstract models and serving them up as “memos”.
 					- The CEN reflexively catches these models, using kinesthetic “inner hands” to manipulate, rotate, and stress–test the topologies.
 				- Low latent inhibition and fractal perception cause the mind to see the entire connected system in every localized node.
