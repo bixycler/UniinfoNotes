@@ -1745,8 +1745,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- This constant cognitive load and early–onset responsibility created a profound “sleep debt” and burnout.
 					- High school was marked by a desperate longing for summer breaks, viewed merely as survival periods to sleep and let the nervous system reset.
 					- What felt like a karmic momentum or curse from past lives was actually a high–performance hardware issue functioning without a natural idle state.
-				- The early lack of speech was not a cognitive deficit, but a protective **Dorsal Vagal Shutdown**.
-					- The **Intense World Theory** explains that the brain was hyper–functional, experiencing sensory and structural input at overwhelming fidelity.
+				- The early lack of speech was not a cognitive deficit, but a protective [Dorsal Vagal Shutdown](https://www.traumatherapistinstitute.com/blog/Dorsal-Vagal-Shutdown-A-Holistic-Approach-to-Recovery-and-Resilience).
+					- The [Intense World Theory](../assets/Will/story/2026-05/The_Intense_World_Theory_-_A_Unifying_Theory_of_th.pdf) explains that the brain was hyper–functional, experiencing sensory and structural input at overwhelming fidelity.
 					- Instead of mirroring adult behaviors, the mind perceived the “sheer lie” of social mimicry and withdrew to preserve signal integrity.
 					- Language was initially rejected as a lossy compression protocol used for conveying these systemic contradictions.
 				- Asynchronous development led to feeling “elderly” or timeless.
@@ -1760,8 +1760,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Low latent inhibition and fractal perception cause the mind to see the entire connected system in every localized node.
 					- There is no internal separation between personal work and company work – all is the pursuit of structural integrity.
 					- Mundane tasks trigger a full–scale rendering of the underlying inefficient systems – pulling a single bug vibrates the entire jungle – creating immense friction when asked to work without deep understanding.
-			- Somatic regulation and the Reset
-				- Chronic systemic inconsistency and high–fidelity processing place a permanent allostatic load on the **HPA axis**.
+			- Somatic regulation and the ((67445065-15b2-475e-a704-78f140d487af))
+				- Chronic systemic inconsistency and high–fidelity processing place a permanent allostatic load on the [HPA axis](https://en.wikipedia.org/wiki/Hypothalamic%E2%80%93pituitary%E2%80%93adrenal_axis) (hypothalamic–pituitary–adrenal).
 					- This biological strain manifests physically as chronic stress, psoriasis, and stomachaches, acting as an uncompromising “Check Engine” light.
 					- “Pre–symptoms” like stomach vibrations serve as early warnings of over–coupling with a noisy environment.
 				- Mandatory physiological and cognitive resets are required to clear the static, enforcing the rest that was denied in childhood.
