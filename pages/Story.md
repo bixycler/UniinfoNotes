@@ -1734,6 +1734,46 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- He explains that it was in a Cistercian monastery where he had his own "fall from the horse" moment, where his previous convictions crumbled, allowing a new truth to "enter his body". This led him to take the habit as **a lay brother in the monastery of Las Batuecas**.
 				- [Qwen-Scope](https://www.marktechpost.com/2026/05/01/qwen-ai-releases-qwen-scope-an-open-source-sparse-autoencoders-sae-suite-that-turns-llm-internal-features-into-practical-development-tools) to look into the LLM's brain.
 				-
+			- 8th, ...
+			  collapsed:: true
+				- Chat with Gemini [about my strange condition](https://gemini.google.com/share/4bef2457ed7a) ⇒ ((69fdbffa-dc65-4d72-bbf6-d35bf88a3482))
+		- Will Lei as an intense–world systems architect: an autobiographical analysis through neuroscience and systems theory
+		  id:: 69fdbffa-dc65-4d72-bbf6-d35bf88a3482
+			- Childhood and the “X–ray view”
+				- The “curse” of chronic busyness
+					- From an early age, the mind operated like a high–revving engine with heightened responses to stimuli, aligning with the **over–excitability** archetype.
+					- This constant cognitive load and early–onset responsibility created a profound “sleep debt” and burnout.
+					- High school was marked by a desperate longing for summer breaks, viewed merely as survival periods to sleep and let the nervous system reset.
+					- What felt like a karmic momentum or curse from past lives was actually a high–performance hardware issue functioning without a natural idle state.
+				- The early lack of speech was not a cognitive deficit, but a protective **Dorsal Vagal Shutdown**.
+					- The **Intense World Theory** explains that the brain was hyper–functional, experiencing sensory and structural input at overwhelming fidelity.
+					- Instead of mirroring adult behaviors, the mind perceived the “sheer lie” of social mimicry and withdrew to preserve signal integrity.
+					- Language was initially rejected as a lossy compression protocol used for conveying these systemic contradictions.
+				- Asynchronous development led to feeling “elderly” or timeless.
+					- At 15 years old, engaging in a timeless, midnight–long philosophical dialogue with a 50–year–old stranger.
+					- The conversation flowed as if between ageless peers, completely disregarding chronological markers, names, or social hierarchy until the very end.
+					- The concept of looking down on someone was structurally impossible to render, exposing social hierarchies as mere fabrications.
+			- Cognitive architecture
+				- Default Mode Network (DMN) and Central Executive Network (CEN) co–activation creates a continuous, non–personal brainstorming state.
+					- The DMN acts as a structural retrieval system, autonomously generating abstract models and serving them up as “memos”.
+					- The CEN reflexively catches these models, using kinesthetic “inner hands” to manipulate, rotate, and stress–test the topologies.
+				- Low latent inhibition and fractal perception cause the mind to see the entire connected system in every localized node.
+					- There is no internal separation between personal work and company work – all is the pursuit of structural integrity.
+					- Mundane tasks trigger a full–scale rendering of the underlying inefficient systems – pulling a single bug vibrates the entire jungle – creating immense friction when asked to work without deep understanding.
+			- Somatic regulation and the Reset
+				- Chronic systemic inconsistency and high–fidelity processing place a permanent allostatic load on the **HPA axis**.
+					- This biological strain manifests physically as chronic stress, psoriasis, and stomachaches, acting as an uncompromising “Check Engine” light.
+					- “Pre–symptoms” like stomach vibrations serve as early warnings of over–coupling with a noisy environment.
+				- Mandatory physiological and cognitive resets are required to clear the static, enforcing the rest that was denied in childhood.
+					- Freediving engages the mammalian dive reflex to force parasympathetic regulation.
+					- The **Zero–Person Perspective (0PP)** drops the intent structure, returning the mind to an “empty center” where subject–object separation dissolves.
+			- Industrial adaptation
+				- The current challenge is translating the clear box and “all connected” view into the modular, “black box” environment of the industrial world.
+					- Functional encapsulation: treating tasks as restricted viewports to limit the vibration of the entire jungle.
+					- Constructing cognitive “sandboxes” to contain industrial logic and protect the internal academic state.
+				- Accepting the Lie as an inevitable dual of the Truth.
+					- Following the realization of the Liar Paradox in mathematics, the goal shifts from seeking absolute precision to building robust resilience.
+					- The final integration is learning to play the copycat game – running industrial work in a low–priority thread – without losing the core structural truth.
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((69f839e5-22eb-419e-8c9d-31f56258fb55))
