@@ -152,7 +152,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 				  When we reduce the self to zero, just look at the contact point, the incidence point, we see the contacting parties always balance each other. Such ((66e40f4b-34ae-499a-8192-0a0f4f580c7e)) is the “glue” sutaining all circles.
 					- Combining the ((66f3e588-9094-45af-9dff-2225c3ac39ab)), we have “circle = arrows + equal points”: a circle is just a chain of arrows glued head-to-tail by equal points.
 					- ![Intrinsic balance - micro.png](../assets/Uniinfo/Intrinsic balance - micro.png)
-		- ### Vacantism
+		- ### vacantism
 		  id:: 66f3ed94-4f20-4166-8e9b-2e8ba53aaad2
 		  collapsed:: true
 		  “an openness, not a nothingness”
@@ -167,7 +167,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 			- vacantistic
 			  id:: 68b95b62-9e60-4ef2-9540-f563c76a5d17
 			  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((66f3e0be-7d8c-45d6-92c3-6bad456555c9)) mean that [the Existence](((66f3d644-782c-4f33-bd5c-db6e0a2d447a))) of the Trinion is not an [independent](https://en.wikipedia.org/wiki/Transcendence_(religion)) and [absolute](https://www.newworldencyclopedia.org/entry/Absolute_(philosophy)) “[primordial existence](https://en.wikipedia.org/wiki/First_principle)”, but a _[dynamic Existence](https://en.wikipedia.org/wiki/Prat%C4%ABtyasamutp%C4%81da) in harmony with both [Differentiation](((1a22a090-6786-4114-8aad-35b122783bff))) and [Unification](((c96a6d20-a0f6-48bd-9d70-9bc00b6b3c69)))_. This property of the Trinion is called ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2)) (Vietnamese “vô nguyên”, Chinese “無元”), which means *“the [absence](https://en.wikipedia.org/wiki/Śūnyatā) of [independent](https://en.wikipedia.org/wiki/Transcendence_(religion)) [original essence](https://en.wikipedia.org/wiki/Essence)”*, but does *not* mean [nihilism](https://en.wikipedia.org/wiki/Nihilism). Vacantism is
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((66f3e0be-7d8c-45d6-92c3-6bad456555c9)) mean that [the Existence](((66f3d644-782c-4f33-bd5c-db6e0a2d447a))) of the Trinion is not an [independent](https://en.wikipedia.org/wiki/Transcendence_(religion)) and [absolute](https://www.newworldencyclopedia.org/entry/Absolute_(philosophy)) “[primordial existence](https://en.wikipedia.org/wiki/First_principle)”, but a _[dynamic Existence](https://en.wikipedia.org/wiki/Prat%C4%ABtyasamutp%C4%81da) in harmony with both [Differentiation](((1a22a090-6786-4114-8aad-35b122783bff))) and [Unification](((c96a6d20-a0f6-48bd-9d70-9bc00b6b3c69)))_. This property of the Trinion is called ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2)) (Vietnamese “vô nguyên”, Chinese “無元”), which means *“the [absence](https://en.wikipedia.org/wiki/Śūnyatā) of [independent](https://en.wikipedia.org/wiki/Transcendence_(religion)) [original essence](https://en.wikipedia.org/wiki/Essence)”*, but does *not* mean [nihilism](https://en.wikipedia.org/wiki/Nihilism). Structurally, vacantism is shown by the ((6772a6cd-771f-4f24-9c3a-39c442234be5)).
 			  collapsed:: true
 				- Moreover, the Trinion unifies the [emptiness](https://en.wikipedia.org/wiki/Śūnyatā) in the invisible world with the [infinity](https://en.wikipedia.org/wiki/Infinity) in the visible world, thus sometimes is denoted with a circled infinity symbol “♾”.
 				- The vacantism is also expressed in Tao Te Ching as the following:
@@ -190,7 +190,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 			- Grand Circle (◯) of Unïnfo
 			  id:: 6772a6cd-771f-4f24-9c3a-39c442234be5
 			  collapsed:: true
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Through [Differentiation](((1a22a090-6786-4114-8aad-35b122783bff))), the Trinion transforms into various ((665ca429-84e3-49ff-921e-c07d19cd99ba))s of all beings in the Universe, extensionally. And intensionally, the Trinion is the Universe itself. Then through [Unification](((c96a6d20-a0f6-48bd-9d70-9bc00b6b3c69))), intensionally, every being is just the Trinion itself.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Through [Differentiation](((1a22a090-6786-4114-8aad-35b122783bff))), the Trinion transforms into various ((665ca429-84e3-49ff-921e-c07d19cd99ba))s of all beings in the Universe, extensionally. And intensionally, the Trinion itself is the whole Universe. That means, every being is just the Trinion through [Unification](((c96a6d20-a0f6-48bd-9d70-9bc00b6b3c69))).
 					- ![GrandCircle](https://docs.google.com/drawings/d/1tVAf16aTCaIdMOOLwqFFA6dChUeUqAF14yav-y81JbE/pub?w=386&h=250)
 					- As a [cyclic order](https://en.wikipedia.org/wiki/Cyclic_order), the Grand Circle shows the vacantness of the Trinion that clears the illusion of a linear order from an absolute suppreme being or foundation to all things in the Universe. The Grand Circle has been traditionally symbolized by [the Ouroboros](https://en.wikipedia.org/wiki/Ouroboros), and its paradoxical impression is called “[strange loop](https://en.wikipedia.org/wiki/Strange_loop)” recently by Douglas Hofstadter.
 						- ![Escher - Drawing Hands - 1946.jpg](../assets/Uniinfo/Escher - Drawing Hands - 1946.jpg){:width 200, :height 150}
