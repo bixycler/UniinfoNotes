@@ -523,9 +523,9 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			- ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) 's ((66c810a0-9861-4787-bdcf-1378219332be)) = apex of the past ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))
 				- touches ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) = 2 view cones touching by apexes
 				- apex to base = body to world = eye/pointer/current-state to space
-			- The world of these projections is best illustrated as a [circle graph](https://en.wikipedia.org/wiki/Circle_graph), where the viewcones are clearly shown.
+			- The world of these projections is best illustrated as a [chord diagram](https://en.wikipedia.org/wiki/Chord_diagram_(information_visualization)), where the viewcones are clearly shown.
 			  collapsed:: true
-				- ![Ageev_5X_circle_graph.svg.png](../assets/Uniinfo/Unithread/Ageev_5X_circle_graph.svg.png)
+				- ![chord_diagram.png](../assets/Uniinfo/Unithread/chord_diagram.png)
 			- Each form is a miniature version of the whole world which is distorted according to the position of the ((667272b8-88a8-4928-a22a-35035c9edf05)), thus effectively a ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5)) of the world at that position.
 			  ⇒ The world itself is in turn just the combination of all these representatives!
 				- The _Mandelbrot set_ (world) is [a map](https://en.wikipedia.org/wiki/Mandelbrot_set#/media/File:Julia_Mandelbrot_Relationship.png) of _connected Julia sets_ (representatives).
