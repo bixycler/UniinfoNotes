@@ -1750,13 +1750,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- "The company" → "the office", although my house and my bodymind is very much *the office* for my personal work.
 						- "Official work" → "professional work", not to represent my company.
 				- 10th, My news feed showed the correspondence between Riemann Hypothesis and energy levels of quantum operator => [content-form duality = wave-particle duality](https://g.co/gemini/share/e664cf980bff)
-					- DOING Check `chrome://flags/#optimization-guide-on-device-model` for Gemini Nano [downloaded by Chrome](https://www.theregister.com/ai-and-ml/2026/05/07/chrome-silently-installs-a-4-gb-local-llm-on-your-computer/5230893) in `OptGuideOnDeviceModel/weights.bin`, and [GenAILocalFoundationalModelSettings](https://chromeenterprise.google/policies/?policy=GenAILocalFoundationalModelSettings)
+					- DONE Check `chrome://flags/#optimization-guide-on-device-model` for Gemini Nano [downloaded by Chrome](https://www.theregister.com/ai-and-ml/2026/05/07/chrome-silently-installs-a-4-gb-local-llm-on-your-computer/5230893) in `OptGuideOnDeviceModel/weights.bin`, and [GenAILocalFoundationalModelSettings](https://chromeenterprise.google/policies/?policy=GenAILocalFoundationalModelSettings)
 					  :LOGBOOK:
-					  CLOCK: [2026-05-11 Mon 20:52:49]
+					  CLOCK: [2026-05-11 Mon 20:52:49]--[2026-05-11 Mon 20:57:42] =>  00:04:53
 					  :END:
 						- No `weights.bin` found
 						- Enables optimization guide on device: Default
-					- TODO Check [DeepSeek TUI](https://github.com/Hmbown/DeepSeek-TUI) &[OpenCode](https://github.com/anomalyco/opencode)
+						- GenAILocalFoundationalModelSettings: only in Chrome Enterprise
+					- TODO Check [DeepSeek TUI](https://github.com/Hmbown/DeepSeek-TUI) & [OpenCode](https://github.com/anomalyco/opencode)
 		- Will Lei as an intense–world systems architect: an autobiographical analysis through neuroscience and systems theory
 		  id:: 69fdbffa-dc65-4d72-bbf6-d35bf88a3482
 		  collapsed:: true
