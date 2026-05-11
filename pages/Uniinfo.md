@@ -190,7 +190,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 			- Grand Circle (◯) of Unïnfo
 			  id:: 6772a6cd-771f-4f24-9c3a-39c442234be5
 			  collapsed:: true
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Through [differentiation](((1a22a090-6786-4114-8aad-35b122783bff))), the Trinion transforms into various ((665ca429-84e3-49ff-921e-c07d19cd99ba))s of all beings in the Universe. Then through [unification](((c96a6d20-a0f6-48bd-9d70-9bc00b6b3c69))), every being, even the Universe, is just the Trinion itself, closing the ((6772a6cd-771f-4f24-9c3a-39c442234be5)). That means the Trinion is equivalent to the Universe in both ways: its *extension is all beings* in the Universe, and its *intension is the whole Universe itself*. While the extensional equivalence through differentiation is [reductionism](https://en.wikipedia.org/wiki/Reductionism) with ((667bd931-8759-4008-8a9a-33e78a5cbdf3)), the intensional equivalence through unification is [holism](https://en.wikipedia.org/wiki/Holism) with ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)).
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Through [differentiation](((1a22a090-6786-4114-8aad-35b122783bff))), the Trinion transforms into various ((665ca429-84e3-49ff-921e-c07d19cd99ba))s of all beings in the Universe. Then through [unification](((c96a6d20-a0f6-48bd-9d70-9bc00b6b3c69))), every being, even the Universe, is just the Trinion itself, closing the ((6772a6cd-771f-4f24-9c3a-39c442234be5)). That means the Trinion is equivalent to the Universe in both ways: its *extension is all beings* in the Universe, and its *intension is the whole Universe itself*. While the extensional equivalence through differentiation is the [reductionism](https://en.wikipedia.org/wiki/Reductionism) of the ((667bd93a-cce4-4dbf-9831-725e4dffe463)), the intensional equivalence through unification is the [holism](https://en.wikipedia.org/wiki/Holism) of the ((667bda02-8dc9-488e-ba16-ea75c3d7895c)).
 				  collapsed:: true
 					- Diagrams
 					  collapsed:: true
@@ -1834,7 +1834,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 			- effect cone
 			  id:: 667bd93a-cce4-4dbf-9831-725e4dffe463
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bd931-8759-4008-8a9a-33e78a5cbdf3))
-			  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))
+			  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((667bda02-8dc9-488e-ba16-ea75c3d7895c))
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bd93a-cce4-4dbf-9831-725e4dffe463)) is the cone of ((677f509b-f2db-47b1-aafb-5a475334b532))s of an ((66727858-979d-4d95-8a90-7a749218cfba)).
 			- ((66725725-f76a-4328-b162-f469b87e871b))
 				- The future [light cone](https://en.wikipedia.org/wiki/Light_cone) in physics is a ((667bd931-8759-4008-8a9a-33e78a5cbdf3)).
