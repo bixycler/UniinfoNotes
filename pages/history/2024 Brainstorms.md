@@ -525,7 +525,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				- apex to base = body to world = eye/pointer/current-state to space
 			- The world of these projections is best illustrated as a [chord diagram](https://en.wikipedia.org/wiki/Chord_diagram_(information_visualization)), where the viewcones are clearly shown.
 			  collapsed:: true
-				- ![chord_diagram.png](../assets/Uniinfo/Unithread/chord_diagram.png)
+				- ![chord_diagram.png](../assets/Uniinfo/Unithread/chord_diagram_example.png)
 			- Each form is a miniature version of the whole world which is distorted according to the position of the ((667272b8-88a8-4928-a22a-35035c9edf05)), thus effectively a ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5)) of the world at that position.
 			  ⇒ The world itself is in turn just the combination of all these representatives!
 				- The _Mandelbrot set_ (world) is [a map](https://en.wikipedia.org/wiki/Mandelbrot_set#/media/File:Julia_Mandelbrot_Relationship.png) of _connected Julia sets_ (representatives).

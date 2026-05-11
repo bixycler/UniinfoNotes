@@ -200,10 +200,10 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 						  ![TrinionIntensionExtensionCircle](https://docs.google.com/drawings/d/e/2PACX-1vTx3baZuAGVy3u_8KtGc7x_7wmxL9SzFVB59kLpvow8R-7IG_zLPJ2qIrN4j5u46Sav2b8favocxF_J/pub?w=300)
 						- Two ends of the linearized Grand Circle: Intension and Extension of the Trinion
 						  ![TrinionIntensionExtension](https://docs.google.com/drawings/d/e/2PACX-1vTNkXLQI4ndXxd6gt-5uMygtTStNBakZm50MFN_W9Ikgt4KG5rmofbbZ3OnflW4s9XxJs1LgZ2wQ_F2/pub?w=380)
-						- [Arc diagram](https://en.wikipedia.org/wiki/Arc_diagram) of cause cones and effect cones of beings
-						  ![TrinionIntensionExtensionArcs]()
+						- [Arc diagram](https://en.wikipedia.org/wiki/Arc_diagram) of cause cones (green) and effect cones (red) of beings
+						  ![arc_diagram_example.png](../assets/Uniinfo/Unithread/arc_diagram_example.png){:width 300}
 						- [Chord diagram](https://en.wikipedia.org/wiki/Chord_diagram_(information_visualization)) of the cones in the circle of the Universe
-						  ![chord_diagram.png](../assets/Uniinfo/Unithread/chord_diagram.png){:width 400}
+						  ![chord_diagram_example.png](../assets/Uniinfo/Unithread/chord_diagram_example.png){:width 400}
 					- As a [cyclic order](https://en.wikipedia.org/wiki/Cyclic_order), the Grand Circle shows the vacantness of the Trinion that clears the illusion of a linear order from an absolute suppreme being or foundation to all things in the Universe. The Grand Circle has been traditionally symbolized by [the Ouroboros](https://en.wikipedia.org/wiki/Ouroboros), and its paradoxical impression is called “[strange loop](https://en.wikipedia.org/wiki/Strange_loop)” recently by Douglas Hofstadter.
 						- ![Escher - Drawing Hands - 1946.jpg](../assets/Uniinfo/Escher - Drawing Hands - 1946.jpg){:width 200, :height 150}
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
