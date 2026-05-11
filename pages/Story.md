@@ -1741,9 +1741,17 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  -- Chuck Palahniuk
 					- Back to the basic issue: how to use it without clinging to it?! 🤔
 						- The middle way of dog leash holding: not a death grip nor a slip/drop, but a skillful hold with close contact to feel the tension and texture of it.
-			- 8th, ...
+			- 8th, Chat with Gemini [about my strange condition](https://gemini.google.com/share/4bef2457ed7a) ⇒ ((69fdbffa-dc65-4d72-bbf6-d35bf88a3482))
 			  collapsed:: true
-				- Chat with Gemini [about my strange condition](https://gemini.google.com/share/4bef2457ed7a) ⇒ ((69fdbffa-dc65-4d72-bbf6-d35bf88a3482))
+			- 9-10th, weekends, ((6a012b04-8e57-4927-a363-14ec798334b3)), content-form duality = wave-particle duality
+			  collapsed:: true
+				- 9th, After 10h of recovery sleep, i gradually wake up and see from the inside out => [0PP = Vacantism](https://g.co/gemini/share/f66d0eff043d)
+					- My English corrections:
+						- "The company" > "the office", although my house and my bodymind is very much *the office* for my personal work.
+						- "Official work" > "professional work", not to represent my company.
+				- 10th, My news feed showed the correspondence between Riemann Hypothesis and energy levels of quantum operator => [content-form duality = wave-particle duality](https://g.co/gemini/share/e664cf980bff)
+					- TODO Check `chrome://flags/optimization-guide-on-device-model` for Gemini Nano [downloaded by Chrome](https://www.theregister.com/ai-and-ml/2026/05/07/chrome-silently-installs-a-4-gb-local-llm-on-your-computer/5230893) in `OptGuideOnDeviceModel/weights.bin`, and [GenAILocalFoundationalModelSettings](https://chromeenterprise.google/policies/?policy=GenAILocalFoundationalModelSettings)
+					- TODO Check [DeepSeek TUI](https://github.com/Hmbown/DeepSeek-TUI) &[OpenCode](https://github.com/anomalyco/opencode)
 		- Will Lei as an intense–world systems architect: an autobiographical analysis through neuroscience and systems theory
 		  id:: 69fdbffa-dc65-4d72-bbf6-d35bf88a3482
 		  collapsed:: true

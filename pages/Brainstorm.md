@@ -11,6 +11,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2026 Brainstorms
 	  id:: 6960e754-ff94-4e1a-8266-d9f15231b880
+		- Vacantism through zero-person perspective
+		  id:: 6a012b04-8e57-4927-a363-14ec798334b3
+		  collapsed:: true
+			-
 		- The ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) in life
 		  id:: 69faacc8-3e0b-4b4e-8939-a7c11dde9154
 		  collapsed:: true
