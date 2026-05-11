@@ -494,6 +494,7 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 			- Circle graph
 			  collapsed:: true
 				- ![Ageev_5X_circle_graph.svg.png](../assets/Will/story/2025-02/Ageev_5X_circle_graph.svg.png)
+				  id:: 699c0369-4a02-401c-8011-db04484136ba
 			- Hoặc nói theo dimensionalism thì thế giới bên ngoài là không gian 1D trên cái vòng tròn chu vi của circle graph, bản chất là tách biệt lẫn nhau, còn thế giới bên trong là cả cái đĩa tròn 2D bên trong chứa đựng các kết nối.
 			- Thế giới vật lý bên ngoài chỉ có 3 chiều, còn thế giới thông tin bên trong thì có vô số chiều (không giới hạn). Nên "chiều không gian khác" không phải nằm bên ngoài khoảng không vũ trụ, mà nằm trong chính chúng ta, trong mỗi hạt cơ bản.
 			- Cái này thì nãy giờ tui nói nhiều rồi hen. Nhưng câu hỏi có lẽ cần đổi lại là "tại sao thấy cái khổ cả thế gian mà không thấy cái sướng cả thế gian?"
