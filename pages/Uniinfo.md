@@ -247,7 +247,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 								- [源](https://en.wiktionary.org/wiki/%E6%BA%90): Phono-semantic & ideogrammic compound 源 = 原 (“origin”) + [氵](https://en.wiktionary.org/wiki/%E6%B0%B5) (“water”) → “source (of water)”
 									- This is the developed version of 原 to separate the meaning of “source” from other meanings of 原 like “field, plain” or “raw, unprocessed”. Before this development, “source” was written with 原.
 					- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) English “vacantism” ← “[vacant](https://en.wiktionary.org/wiki/vacant)” ← Latin “[vacans](https://en.wiktionary.org/wiki/vacans#Latin)” ← “[vacō](https://en.wiktionary.org/wiki/vaco#Latin)” (empty, void, unoccupied, free [time]) ← PIE “[*h₁weh₂-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81weh%E2%82%82-)” (empty, extinguished) → English “void”, “want”, “vain”, “vacant”, “vacuum”, etc.
-		- Numbering
+		- Trinion numbering
 		  collapsed:: true
 			- The equation ⟪○ = ↑⟫ is the One that unifies the Two opposites (○, ↑) via the Third (=). This is called ((69367cf5-9894-4fb8-a293-2b1109777fc9)) (☯). Hence, the Unïnfo seems to be [trialistic](https://en.wikipedia.org/wiki/Pluralism_(philosophy)) (due to the Three components), or [dualistic](https://en.wikipedia.org/wiki/Dualism_in_cosmology) (due to the Two opposites), or [monistic](https://en.wikipedia.org/wiki/Monism) (due to the One equation), but actually it's ((68b95b62-9e60-4ef2-9540-f563c76a5d17)) as reflected by the intrinsics of the Zero (the Trinion).
 			  id:: 684f9517-64ce-41bd-a88c-0476cbfa790d
