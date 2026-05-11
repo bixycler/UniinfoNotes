@@ -24,23 +24,23 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- The **Omnifold**: This whole universal circle acts as the absolute limit and boundary condition for the unmanifested spirorus of content.
 			- The epistemology of the observer
 				- The architecture of the observer dictates the architecture of the observed.
-				- Because the ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)) is constructed of **extents** – particles, cells, discrete forms – its perceptual lens, the **intent**, is inherently quantized.
+				- Because the ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)) is composed of ((669a5387-2a97-4311-a295-aa0afd9c4d76))s – particles, cells, discrete forms – its perceptual lens, the **intent**, is inherently quantized.
 				- The **intent circles** are not arbitrary; they are localized reflections or “fractional samples” of the universal **Omnifold** circle.
 			- SCIFER: The cosmic Euclidean algorithm
 				- Quantization is an artifact of the observation–operation interface, where the continuous is parsed by the discrete.
-				- When the continuous **content** (the spirorus) is viewed through the finite, bounded **intent** circle, the spiral is forced to collapse.
+				- When the continuous **content** (Ω-thread) is viewed through the finite, bounded **intent** circle, the potential “wave” is forced to collapse into actual particles.
 				- Modular division: The **SCIFER** operation evaluates how many times the intent circle fits into the continuous thread.
 				- The quotient: The **extent**, the discrete visible **form** that emerges, represented by whole or rational numbers.
 				- The remainder: The discrepancy or phase difference that fails to form a complete circle, acting as the engine of change to propel the next iterative cycle.
 			- The complex bridge
-				- The dual nature of matter is written in the language of **complex numbers**, fusing the continuous flow of the spiral with the periodic nature of the circle.
+				- The dual nature of matter is written in the language of [complex numbers](https://en.wikipedia.org/wiki/Complex_number), fusing the continuous flow of the spiral with the periodic nature of the circle.
 				- Continuous wave: The pure imaginary exponent sustains the unbroken undulating phase, keeping potentiality alive.
 				- Discrete particle: The complex modulus acts as the measurement, annihilating the imaginary phase and collapsing the spirorus into a single, real-valued, discrete coordinate.
-			- The Hilbert–Pólya Conjecture: Primes as energy
-				- This conjecture bridges the gap by suggesting that **Riemann Zeros** (the harmonics of primes) are actually the **eigenvalues** (energy levels) of a physical system.
+			- The [Hilbert–Pólya Conjecture](https://en.wikipedia.org/wiki/Hilbert%E2%80%93P%C3%B3lya_conjecture): Primes as energy
+				- This conjecture bridges the gap by suggesting that [Riemann Zeros](https://en.wikipedia.org/wiki/Riemann_zeta_function) (the harmonics of primes) are actually the **eigenvalues** (energy levels) of a physical system.
 				- In the Unithread view, these zeros are the “standing waves” of the **Ω-thread** as it vibrates within the constraints of the **Omnifold**.
-				- The **Critical Line** ( $Re(s)=1/2$ ) represents the balance point where the spirorus remains stable and Hermitian, ensuring all manifested forms are “real.”
-			- Gaussian Unitary Ensemble (GUE) and Quantum Chaos
+				- The **Critical Line** ($Re(s)=1/2$) represents the balance point where the spirorus remains stable and Hermitian, ensuring all manifested forms are “real”.
+			- [Gaussian Unitary Ensemble (GUE)](https://en.wikipedia.org/wiki/Gaussian_ensemble) and Quantum Chaos
 				- The statistical spacing of primes and quantum energy levels follows the **GUE** distribution.
 				- This signature proves that the “randomness” of primes is actually a sophisticated, chaotic structure – the mathematical fingerprint of the **SCIFER** operation acting on a complex continuum.
 				- The **GUE** is the resonance pattern of the continuous content being “rung” by the discrete intent circle.
