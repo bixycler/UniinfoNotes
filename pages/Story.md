@@ -1763,17 +1763,40 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  CLOCK: [2026-05-12 Tue 10:37:50]
 					  :END:
 						- OpenCode Workspace = Git Worktree
+						  collapsed:: true
 							- Open both projects `Corkei` and `Corkei.applets`, OpenCode showed only one `Corkei` at `~/source/Corkei/`.
-							- ⇒ `Corkei`/`...` > Enable Workspaces, then open `Corkei.applets`, it will be shown as a “sandbox” workspace in pa
+							- ⇒ `Corkei`/`...` > Enable Workspaces, then open `Corkei.applets`, it will be shown as a “sandbox” workspace in parallel with its automatic sandbox workspace when clicking `+ New workspace` (stored in `~/.local/share/opencode/worktree/`).
+							- Screenshot
+							  collapsed:: true
+								- ![OpenCode-workspaces.png](../assets/Will/story/2026-05/OpenCode-workspaces.png)
 							- Workspace startup script
-							  e.g. bun install
+							  e.g. `bun install`
 							  Runs after creating a new workspace (worktree).
-							- ⮕ treed3 ~/.local/share/opencode/worktree/
+							- ⮕ treed3 `~/.local/share/opencode/worktree/`
+							  ```
 							  /home/dinhlx/.local/share/opencode/worktree/
 							  └── 31d23421bfcb028e3f8d53269b269150b5dc9362
 							    └── cosmic-orchid
 							        ├── public
 							        └── src
+							  ```
+						- OpenCode Browser plugin
+							- Step 4: Extension ID
+								- Using fixed extension ID from manifest: ncfalpcdanbcccbaakenefpokeioldgd
+								  If you already loaded a different ID, rerun with --extension-id to override.
+							- Installation Complete!
+								- What happens now:
+									- The extension connects to the native host automatically.
+									- OpenCode loads the plugin, which talks to the broker.
+									- The broker enforces per-tab ownership. First touch auto-claims.
+								- Try it:
+									- Restart OpenCode and run: browser_get_tabs
+							- Connect OpenCode Browser to the correct Chrome profile
+								- Check `chrome://version/` for
+								- ```sh
+								  mv ~/.config/google-chrome/NativeMessagingHosts/com.opencode.browser_automation.json \
+								     ~/.hermes/chrome-debug/NativeMessagingHosts
+								  ```
 		- Will Lei as an intense–world systems architect: an autobiographical analysis through neuroscience and systems theory
 		  id:: 69fdbffa-dc65-4d72-bbf6-d35bf88a3482
 		  collapsed:: true
