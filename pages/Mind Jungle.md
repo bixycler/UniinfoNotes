@@ -468,6 +468,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  collapsed:: true
 								- ![OpenCode-workspaces.png](../assets/Will/story/2026-05/OpenCode-workspaces.png)
 						- OpenCode Browser plugin
+						  collapsed:: true
 							- Commands
 								- Install/update: `npx @different-ai/opencode-browser@latest install`/`update`
 								- Check status: `npx @different-ai/opencode-browser tool browser_status`
@@ -483,6 +484,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								  ```
 								- Because the native messaging host is a **singleton process**, when both profiles have the `com.opencode.browser_automation.json` and both have `chrome://extensions/?id=ncfalpcdanbcccbaakenefpokeioldgd` on, only the first browser (started first) is connected.
 									- To switch browser, turn off the extension in both browsers, then turn it on in the chosen one.
+							- Issues with the current browser backend
+								- No `href` in links! 😱
+									- The agent can only click with text label of an obscure `index`!? 😕
+									- There's no reliable way to separate different links with the same label. Failed tries: `index` param of `browser_click` and CSS selectors like `:nth-child`, `:nth-of-type`.
 					- Hermes
 					  id:: 69d70958-c0b2-4e8a-8ed3-70a0988a02a6
 					  collapsed:: true
