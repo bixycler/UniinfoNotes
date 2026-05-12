@@ -449,7 +449,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  id:: 6a02ab2f-b4ed-42a4-988b-d98bff9c0cf9
 					  collapsed:: true
 					  The coding agent open-sourcing Claude Code
-						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6a02ab2f-b4ed-42a4-988b-d98bff9c0cf9)) is
+						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6a02ab2f-b4ed-42a4-988b-d98bff9c0cf9)) is the open-source coding agent built to be close to Claude Code at first, but has diverted with GUI (desktop app).
 						- OpenCode Workspace = Git Worktree
 						  id:: 6a02ab36-67ae-4780-9cb7-2f907290ba7c
 						  collapsed:: true
@@ -460,6 +460,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  collapsed:: true
 								- ![OpenCode-workspaces.png](../assets/Will/story/2026-05/OpenCode-workspaces.png)
 						- OpenCode Browser plugin
+						  collapsed:: true
 							- Commands
 								- Install: `npx @different-ai/opencode-browser@latest install`
 								- Check status: `npx @different-ai/opencode-browser tool browser_status`
