@@ -445,6 +445,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 										- ...
 										- `gnome-session-b`
 										- `gnome-terminal`
+					- OpenCode
+					  The coding agent open-sourcing Claude Code
+						- OpenCode Workspace = Git Worktree
+							- Click meatballs menu of the project > Enable Workspaces, then open another worktree, it will be shown as a “sandbox” workspace.
+							- The actual sanbox workspaces are automatically created when clicking `+ New workspace` (stored in `~/.local/share/opencode/worktree/`).
+							- Screenshot
+							  collapsed:: true
+								- ![OpenCode-workspaces.png](../assets/Will/story/2026-05/OpenCode-workspaces.png)
 					- Hermes
 					  id:: 69d70958-c0b2-4e8a-8ed3-70a0988a02a6
 					  collapsed:: true
