@@ -485,9 +485,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- Because the native messaging host is a **singleton process**, when both profiles have the `com.opencode.browser_automation.json` and both have `chrome://extensions/?id=ncfalpcdanbcccbaakenefpokeioldgd` on, only the first browser (started first) is connected.
 									- To switch browser, turn off the extension in both browsers, then turn it on in the chosen one.
 							- Issues with the native browser backend (`extension`)
+								- No DOM traveral!
 								- No `href` in links! 😱
-									- The agent can only click with text label of an obscure `index`!? 😕
+									- The agent can only click a link with **text label** or an obscure `index`!? 😕
 									- There's no reliable way to separate different links with the same label. Failed tries: `index` param of `browser_click` and CSS selectors like `:nth-child`, `:nth-of-type`.
+									- `export OPENCODE_EXPERIMENTAL_MARKDOWN=true` has no effect!
 							- Agent browser backend (Playwright, `agent`)
 								- `export OPENCODE_BROWSER_BACKEND=agent` > `browser_status` shows `"backend":"agent-browser"`
 					- Hermes
