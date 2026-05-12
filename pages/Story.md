@@ -1781,9 +1781,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							        └── src
 							  ```
 						- OpenCode Browser plugin
+						  collapsed:: true
 							- Step 4: Extension ID
-								- Using fixed extension ID from manifest: ncfalpcdanbcccbaakenefpokeioldgd
-								  If you already loaded a different ID, rerun with --extension-id to override.
+								- Using fixed extension ID from manifest: `ncfalpcdanbcccbaakenefpokeioldgd`
+								  If you already loaded a different ID, rerun with `--extension-id` to override.
 							- Installation Complete!
 								- What happens now:
 									- The extension connects to the native host automatically.
