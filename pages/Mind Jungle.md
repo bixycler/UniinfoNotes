@@ -496,7 +496,19 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- `chrome-devtools-mcp` (CDP)
 						  id:: 6a02fa30-dc5c-4105-8180-cc76b9a4553a
 						  collapsed:: true
-							-
+							- `~/.config/opencode/opencode.json`: add `chrome-devtools-mcp`
+							  collapsed:: true
+								- ```json
+								  {
+								    "mcp": {
+								      "chrome-devtools": {
+								        "type": "local",
+								        "command": ["npx", "-y", "chrome-devtools-mcp@latest", "-u", "http://127.0.0.1:9222"],
+								        "enabled": true
+								      }
+								    }
+								  }
+								  ```
 					- Hermes
 					  id:: 69d70958-c0b2-4e8a-8ed3-70a0988a02a6
 					  collapsed:: true
