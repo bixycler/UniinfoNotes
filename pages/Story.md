@@ -1757,12 +1757,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- No `weights.bin` found
 						- Enables optimization guide on device: Default
 						- GenAILocalFoundationalModelSettings: only in Chrome Enterprise
-					- DOING Check ~~[DeepSeek TUI](https://github.com/Hmbown/DeepSeek-TUI) &~~ [OpenCode](https://github.com/anomalyco/opencode)
-					  collapsed:: true
+					- DONE Check ~~[DeepSeek TUI](https://github.com/Hmbown/DeepSeek-TUI) &~~ [OpenCode](https://github.com/anomalyco/opencode)
 					  :LOGBOOK:
-					  CLOCK: [2026-05-12 Tue 10:37:50]
+					  CLOCK: [2026-05-12 Tue 10:37:50]--[2026-05-12 Tue 11:36:08] =>  00:58:18
 					  :END:
-						- OpenCode Workspace = Git Worktree
+						- OpenCode Workspace = Git Worktree (copied [to Mind Jungle](((6a02ab36-67ae-4780-9cb7-2f907290ba7c))))
+						  collapsed:: true
 							- Open both projects `Corkei` and `Corkei.applets`, OpenCode showed only one `Corkei` at `~/source/Corkei/`.
 							- ⇒ `Corkei`/`...` > Enable Workspaces, then open `Corkei.applets`, it will be shown as a “sandbox” workspace in parallel with its automatic sandbox workspace when clicking `+ New workspace` (stored in `~/.local/share/opencode/worktree/`).
 							- Screenshot
@@ -1791,14 +1791,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 									- The broker enforces per-tab ownership. First touch auto-claims.
 								- Try it:
 									- Restart OpenCode and run: browser_get_tabs
-							- Connect OpenCode Browser to the correct Chrome profile
-								- Check `chrome://version/` for `Profile Path`, then make sure the `com.opencode.browser_automation.json` is in the correct profile.
-								- ```sh
-								  cp ~/.config/google-chrome/NativeMessagingHosts/com.opencode.browser_automation.json \
-								     ~/.hermes/chrome-debug/NativeMessagingHosts
-								  ```
-								- Because the native messaging host is a **singleton process**, when both profiles have the `com.opencode.browser_automation.json` and both have `chrome://extensions/?id=ncfalpcdanbcccbaakenefpokeioldgd` on, only the first browser (started first) is connected.
-									- To switch browser, turn off the extension in both browsers, then turn it on in the chosen one.
+							- ((6a02acd2-68ea-4eab-a3c0-be7a3fbc32fc))
 		- Will Lei as an intense–world systems architect: an autobiographical analysis through neuroscience and systems theory
 		  id:: 69fdbffa-dc65-4d72-bbf6-d35bf88a3482
 		  collapsed:: true

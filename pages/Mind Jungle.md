@@ -446,13 +446,35 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 										- `gnome-session-b`
 										- `gnome-terminal`
 					- OpenCode
+					  id:: 6a02ab2f-b4ed-42a4-988b-d98bff9c0cf9
+					  collapsed:: true
 					  The coding agent open-sourcing Claude Code
+						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6a02ab2f-b4ed-42a4-988b-d98bff9c0cf9)) is
 						- OpenCode Workspace = Git Worktree
-							- Click meatballs menu of the project > Enable Workspaces, then open another worktree, it will be shown as a “sandbox” workspace.
+						  id:: 6a02ab36-67ae-4780-9cb7-2f907290ba7c
+						  collapsed:: true
+							- Open both projects are different worktrees of the same Git repo, OpenCode shows only one!
+							- ⇒ Click meatballs menu of the project > Enable Workspaces, then open another worktree, it will be shown as a “sandbox” workspace.
 							- The actual sanbox workspaces are automatically created when clicking `+ New workspace` (stored in `~/.local/share/opencode/worktree/`).
 							- Screenshot
 							  collapsed:: true
 								- ![OpenCode-workspaces.png](../assets/Will/story/2026-05/OpenCode-workspaces.png)
+						- OpenCode Browser plugin
+							- Commands
+								- Install: `npx @different-ai/opencode-browser@latest install`
+								- Check status: `npx @different-ai/opencode-browser tool browser_status`
+								- List tabs (and windows): `npx @different-ai/opencode-browser tool browser_get_tabs`
+								- List tools: `npx @different-ai/opencode-browser tools`
+							- Connect OpenCode Browser to the correct Chrome profile
+							  id:: 6a02acd2-68ea-4eab-a3c0-be7a3fbc32fc
+								- Check `chrome://version/` for `Profile Path`, then make sure the `com.opencode.browser_automation.json` is in the correct profile.
+								- E.g.
+								  ```sh
+								  cp ~/.config/google-chrome/NativeMessagingHosts/com.opencode.browser_automation.json \
+								     ~/.hermes/chrome-debug/NativeMessagingHosts
+								  ```
+								- Because the native messaging host is a **singleton process**, when both profiles have the `com.opencode.browser_automation.json` and both have `chrome://extensions/?id=ncfalpcdanbcccbaakenefpokeioldgd` on, only the first browser (started first) is connected.
+									- To switch browser, turn off the extension in both browsers, then turn it on in the chosen one.
 					- Hermes
 					  id:: 69d70958-c0b2-4e8a-8ed3-70a0988a02a6
 					  collapsed:: true
