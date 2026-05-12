@@ -1792,7 +1792,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- Try it:
 									- Restart OpenCode and run: browser_get_tabs
 							- Connect OpenCode Browser to the correct Chrome profile
-								- Check `chrome://version/` for
+								- Check `chrome://version/` for `Profile Path`, then make sure the `com.opencode.browser_automation.json` is in the correct profile.
 								- ```sh
 								  mv ~/.config/google-chrome/NativeMessagingHosts/com.opencode.browser_automation.json \
 								     ~/.hermes/chrome-debug/NativeMessagingHosts
