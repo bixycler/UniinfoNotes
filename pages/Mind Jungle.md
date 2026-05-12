@@ -451,12 +451,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  The coding agent open-sourcing Claude Code
 						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6a02ab2f-b4ed-42a4-988b-d98bff9c0cf9)) is the open-source coding agent built to be close to Claude Code at first, but has diverted with GUI (desktop app).
 						- Free models provided by OpenCode Zen with limited time
+						  collapsed:: true
 							- DeepSeek V4 Flash Free
 							- MiniMax M2.5 Free
 							- Nemotron 3 Super Free
 							- Ring 2.6 1T Free
 							- Big Pickle (GLM-4.6): default but not selectable
-								- To select it, we must enable it in Manage models
+								- To select it, we must enable it in Manage models.
 						- OpenCode Workspace = Git Worktree
 						  id:: 6a02ab36-67ae-4780-9cb7-2f907290ba7c
 						  collapsed:: true
