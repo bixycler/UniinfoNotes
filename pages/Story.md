@@ -1757,7 +1757,23 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- No `weights.bin` found
 						- Enables optimization guide on device: Default
 						- GenAILocalFoundationalModelSettings: only in Chrome Enterprise
-					- TODO Check [DeepSeek TUI](https://github.com/Hmbown/DeepSeek-TUI) & [OpenCode](https://github.com/anomalyco/opencode)
+					- DOING Check ~~[DeepSeek TUI](https://github.com/Hmbown/DeepSeek-TUI) &~~ [OpenCode](https://github.com/anomalyco/opencode)
+					  collapsed:: true
+					  :LOGBOOK:
+					  CLOCK: [2026-05-12 Tue 10:37:50]
+					  :END:
+						- OpenCode Workspace = Git Worktree
+							- Open both projects `Corkei` and `Corkei.applets`, OpenCode showed only one `Corkei` at `~/source/Corkei/`.
+							- ⇒ `Corkei`/`...` > Enable Workspaces, then open `Corkei.applets`, it will be shown as a “sandbox” workspace in pa
+							- Workspace startup script
+							  e.g. bun install
+							  Runs after creating a new workspace (worktree).
+							- ⮕ treed3 ~/.local/share/opencode/worktree/
+							  /home/dinhlx/.local/share/opencode/worktree/
+							  └── 31d23421bfcb028e3f8d53269b269150b5dc9362
+							    └── cosmic-orchid
+							        ├── public
+							        └── src
 		- Will Lei as an intense–world systems architect: an autobiographical analysis through neuroscience and systems theory
 		  id:: 69fdbffa-dc65-4d72-bbf6-d35bf88a3482
 		  collapsed:: true
