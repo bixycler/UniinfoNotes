@@ -490,6 +490,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									- The agent can only click a link with **text label** or an obscure `index`!? 😕
 									- There's no reliable way to separate different links with the same label. Failed tries: `index` param of `browser_click` and CSS selectors like `:nth-child`, `:nth-of-type`.
 									- `export OPENCODE_EXPERIMENTAL_MARKDOWN=true` has no effect!
+								- ⇒ Just use
 							- Agent browser backend (Playwright, `agent`)
 								- `export OPENCODE_BROWSER_BACKEND=agent` > `browser_status` shows `"backend":"agent-browser"`
 					- Hermes
