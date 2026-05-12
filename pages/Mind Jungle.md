@@ -468,9 +468,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  collapsed:: true
 								- ![OpenCode-workspaces.png](../assets/Will/story/2026-05/OpenCode-workspaces.png)
 						- OpenCode Browser plugin
-						  collapsed:: true
 							- Commands
-								- Install: `npx @different-ai/opencode-browser@latest install`
+								- Install/update: `npx @different-ai/opencode-browser@latest install`/`update`
 								- Check status: `npx @different-ai/opencode-browser tool browser_status`
 								- List tabs (and windows): `npx @different-ai/opencode-browser tool browser_get_tabs`
 								- List tools: `npx @different-ai/opencode-browser tools`
