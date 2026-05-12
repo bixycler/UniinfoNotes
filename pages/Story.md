@@ -1798,6 +1798,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								  mv ~/.config/google-chrome/NativeMessagingHosts/com.opencode.browser_automation.json \
 								     ~/.hermes/chrome-debug/NativeMessagingHosts
 								  ```
+								- Because the native messaging host is a **singleton process**, when both profiles have the `com.opencode.browser_automation.json` and both have `chrome://extensions/`, only the first browser (started first) is connected.
 		- Will Lei as an intense–world systems architect: an autobiographical analysis through neuroscience and systems theory
 		  id:: 69fdbffa-dc65-4d72-bbf6-d35bf88a3482
 		  collapsed:: true
