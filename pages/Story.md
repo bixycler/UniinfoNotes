@@ -1792,7 +1792,18 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- Try it:
 									- Restart OpenCode and run: browser_get_tabs
 							- ((6a02acd2-68ea-4eab-a3c0-be7a3fbc32fc))
-		- Will Lei as an intense–world systems architect: an autobiographical analysis through neuroscience and systems theory
+			- 12th, the whole day trying OpenCode
+			  collapsed:: true
+				- vacant dog leash hold
+					- Keep from the extreme/climax, leaving vacancy for the vision of the way down/back.
+					- On the way down, hold the leash as tight & firm as when climbing up, neither death grip nor letting it slip (the behavior of the climax).
+					- Be patient, the way down should be as long as the way up.
+					- This firm hold is like when peeling a sticky label, or like the Buddhist metaphor of tying the buffalo to the pole.
+				- plan mode: unwilling to write to `.opencode/plans/` [#11078](https://github.com/anomalyco/opencode/issues/11078), [#10883](https://github.com/anomalyco/opencode/issues/10883)
+					- `OPENCODE_EXPERIMENTAL_PLAN_MODE=1`
+					- [Plannotator](https://github.com/backnotprop/plannotator) plugin intercepting Plan Mode to extract the plan into GUI.
+			-
+		- Will Lei as an intense-world systems architect: an autobiographical analysis through neuroscience and systems theory
 		  id:: 69fdbffa-dc65-4d72-bbf6-d35bf88a3482
 		  collapsed:: true
 			- Childhood and the “X–ray view”

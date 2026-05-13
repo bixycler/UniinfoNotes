@@ -1,23 +1,25 @@
+- ---
 - The Grand Circle of Vacantism: (my draft)
+  collapsed:: true
 	- The "mechanism" of the universe is the whole Grand Circle, not a one-way "bottom-up building" like reductionism. Reduction/analysis must go with integration/synthesis, deduction must go with induction, bottom-up action must go with top-down view.
-- 1. 1PP & 3PP: see it.
-	- Through the view cone, the subject sees the world, the objects, as the image on the screen (retina). That screen is the wall separating the world at the base from the subject at the top of the view cone.
-	- The subject can see only the image, neither the actual world out there nor the subject in here behind the eyes.
-		- The attachment to the self in 1PP: whatever unseen is taken for granted, so the unseen self is considered the master, the God.
-		- The attachment to the absolute objectivity in 3PP: Just by stepping out, lay people mistake their new view with the old eyes as the absolute truth. Science corrects this subjectivity by intersubjectivity, but the more objective it is, the less image it gets due to the smaller screen as it moves toward the apex. In the dualistic view, the absolute objectivity is zero, literally nothing! That's because the screen has been collapsed into a point and we can see nothing in that point =>   nihilism.
-	- The correct view is not the mere image but the whole view cone, not only the visible but also all the invisible. Eliminating subjectivity is just a suicide 😝!
-		- By withdrawing the attachment to the visible we reclaim the whole which is conserved.
-		- With this conserved whole, we can safely move the screen toward the apex without losing anything.
-- 2. 0PP: be it.
-	- At the apex, there is nothing to be seen, no separation between subject and object, only a single unity, so just be it.
-	- To break the deep rooted self attachment, the Buddha said of "no-self". But it's not the elimination of the subject, the subject just     merges with the object to be the whole.
-	- The quantum is not a particle/wave but the field itself. Why the quantum cannot be broken? Because the field is the unbroken whole.
-- 3. Back to 1PP: be & see it together.
-	- When the field "excites" to a particle, it doesn't collapse but brings the whole universe into that particular position to see itself from that particular viewpoint.
-	- The subject hidden behind the eyes is the crystallization of the whole universe. Though cannot see itself, the subject instinctively "knows" that it's the whole, hence the Godhead. There are 2 ways to deal with that Godhead:
-		- Remembering the unity, the subject continuously updates itself to reflect the object, hence the Great Mirror Wisdom.
-		- Forgetting the unity, the subject freezes its self-image into an absolute truth to control everything and to act upon the external world.
-	- The uniqueness of the past is the reflection of the uniqueness of the whole. But by forgetting the constantly changing whole, people usually cling to the image of the past, whose the ultimate is the self attachment.
+	- 1. 1PP & 3PP: see it.
+		- Through the view cone, the subject sees the world, the objects, as the image on the screen (retina). That screen is the wall separating the world at the base from the subject at the top of the view cone.
+		- The subject can see only the image, neither the actual world out there nor the subject in here behind the eyes.
+			- The attachment to the self in 1PP: whatever unseen is taken for granted, so the unseen self is considered the master, the God.
+			- The attachment to the absolute objectivity in 3PP: Just by stepping out, lay people mistake their new view with the old eyes as the absolute truth. Science corrects this subjectivity by intersubjectivity, but the more objective it is, the less image it gets due to the smaller screen as it moves toward the apex. In the dualistic view, the absolute objectivity is zero, literally nothing! That's because the screen has been collapsed into a point and we can see nothing in that point =>   nihilism.
+		- The correct view is not the mere image but the whole view cone, not only the visible but also all the invisible. Eliminating subjectivity is just a suicide 😝!
+			- By withdrawing the attachment to the visible we reclaim the whole which is conserved.
+			- With this conserved whole, we can safely move the screen toward the apex without losing anything.
+	- 2. 0PP: be it.
+		- At the apex, there is nothing to be seen, no separation between subject and object, only a single unity, so just be it.
+		- To break the deep rooted self attachment, the Buddha said of "no-self". But it's not the elimination of the subject, the subject just     merges with the object to be the whole.
+		- The quantum is not a particle/wave but the field itself. Why the quantum cannot be broken? Because the field is the unbroken whole.
+	- 3. Back to 1PP: be & see it together.
+		- When the field "excites" to a particle, it doesn't collapse but brings the whole universe into that particular position to see itself from that particular viewpoint.
+		- The subject hidden behind the eyes is the crystallization of the whole universe. Though cannot see itself, the subject instinctively "knows" that it's the whole, hence the Godhead. There are 2 ways to deal with that Godhead:
+			- Remembering the unity, the subject continuously updates itself to reflect the object, hence the Great Mirror Wisdom.
+			- Forgetting the unity, the subject freezes its self-image into an absolute truth to control everything and to act upon the external world.
+		- The uniqueness of the past is the reflection of the uniqueness of the whole. But by forgetting the constantly changing whole, people usually cling to the image of the past, whose the ultimate is the self attachment.
 - ---
 - openness = porosity = entropy increase = arrow of time = mismatch between form & content =  curvature in distribution
 - past form = copy of present form = mixture of present content
