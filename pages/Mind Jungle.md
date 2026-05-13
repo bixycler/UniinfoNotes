@@ -453,6 +453,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Hidden features
 							- `websearch` tool: Must `export OPENCODE_ENABLE_EXA=1`
 							- 5-phase Plan Workflow writing to `.opencode/plans/$timestamp-$slug.md`
+							  collapsed:: true
 								- Must `export OPENCODE_EXPERIMENTAL_PLAN_MODE=1`
 								- The basic Plan Mode is completely read-only, no artifact exchange.
 								- [!] In the final “Phase 5: Call plan_exit tool” the agent encountered the unavailable tool `plan_exit`!
@@ -461,6 +462,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									  > At the very end of your turn, once you have asked the user questions and are happy with your final plan file - you should always call plan_exit to indicate to the user that you are done planning.
 									  This is critical - your turn should only end with either asking the user a question or calling plan_exit. Do not stop unless it's for these 2 reasons.
 							- Task management in `todowrite` tool
+							  collapsed:: true
 								- The all instructions for task breakdown and management are hidden in the description of the `todowrite` tool.
 								- Not a single mention of `todowrite` tool in the system instructions.
 								- ⇒ Add instruction of using `todowrite` tool to `AGENTS.md`.
