@@ -453,7 +453,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Hidden features
 							- `websearch` tool: Must `export OPENCODE_ENABLE_EXA=1`
 							- 5-phase Plan Workflow writing to `.opencode/plans/$timestamp-$slug.md`
-							  collapsed:: true
 								- Must `export OPENCODE_EXPERIMENTAL_PLAN_MODE=1`
 								- The basic Plan Mode is completely read-only, no artifact exchange.
 								- [!] In the final “Phase 5: Call plan_exit tool” the agent encountered the unavailable tool `plan_exit`!
