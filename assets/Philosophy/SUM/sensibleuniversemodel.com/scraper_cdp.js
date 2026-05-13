@@ -45,10 +45,10 @@ function nodeToMarkdown(node, isHeading = false, indent = '') {
     // 6. Inline Formatting (strong, em)
     // We add padding spaces and markers, but only if not already in a heading.
     else if (tagName === 'strong' || tagName === 'b') { 
-        if (!currentIsHeading) { prefix = ' **'; suffix = '** '; } 
+        if (!currentIsHeading) { prefix = '**'; suffix = '**'; } 
     }
     else if (tagName === 'em' || tagName === 'i') { 
-        if (!currentIsHeading) { prefix = ' *'; suffix = '* '; } 
+        if (!currentIsHeading) { prefix = '*'; suffix = '*'; } 
     }
     // 7. List Container Handling (ul, ol)
     // If we enter a nested list, we increase the indentation for children.

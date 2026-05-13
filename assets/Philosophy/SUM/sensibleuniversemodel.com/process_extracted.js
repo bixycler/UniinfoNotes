@@ -8,27 +8,30 @@ function processExtractedMarkdown(inFile, outFile) {
         try {
             let md = JSON.parse(jsonStrMatch[1]);
             
-            // Clean up multi-line bold/italic
-            // Regex to find bold/italic blocks that contain multiple newlines and fix them
-            md = md.replace(/(\*\*|\*)([\s\S]*?)\1/g, (match, p1, p2) => {
-                // If it contains newlines, split it and apply bold/italic to each line
+            // 1. Clean up multi-line bold/italic
+            // Process longest markers first (triple, then double, then single)
+            md = md.replace(/(\*\*\*|\*\*|\*)([\s\S]*?)\1/g, (match, p1, p2) => {
                 if (p2.includes('\n')) {
                     return p2.split('\n').map(line => {
                         const trimmed = line.trim();
-                        return trimmed ? `${p1}${trimmed}${p1}` : '';
+                        return trimmed ? `${p1}${trimmed}${p1}` : line;
                     }).join('\n');
                 }
                 return `${p1}${p2.trim()}${p1}`;
             });
 
-            // Clean up markdown: remove excessive newlines
+            // 2. Clean up markdown: remove excessive newlines
             md = md.replace(/\n{3,}/g, '\n\n');
             
-            // Fix double spacing around bold/italic introduced by script
-            md = md.replace(/ \*\*/g, ' **').replace(/\*\* /g, '** ');
-            md = md.replace(/ \*/g, ' *').replace(/\* /g, '* ');
+            // 3. Fix spacing around markers: Ensure at least one space if touching a word char
+            md = md.replace(/(\w)(\*\*|\*)/g, '$1 $2');
+            md = md.replace(/(\*\*|\*)(\w)/g, '$1 $2');
+            
+            // 4. Remove extra spaces inside markers (e.g. "** text **" -> "**text**")
+            md = md.replace(/(\*\*|\*)\s+/g, '$1');
+            md = md.replace(/\s+(\*\*|\*)/g, '$1');
 
-            // Remove trailing spaces on lines
+            // 5. Remove trailing spaces on lines
             md = md.split('\n').map(line => line.trimEnd()).join('\n');
             
             fs.writeFileSync(outFile, md.trim() + '\n');
