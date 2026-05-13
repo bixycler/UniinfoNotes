@@ -461,6 +461,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									- System reminder:
 									  > At the very end of your turn, once you have asked the user questions and are happy with your final plan file - you should always call plan_exit to indicate to the user that you are done planning.
 									  This is critical - your turn should only end with either asking the user a question or calling plan_exit. Do not stop unless it's for these 2 reasons.
+							- Task management in `todowrite` tool
+								- The all instructions for task breakdown and management are hidden in the description of the `todowrite` tool.
+								- Not a single mention of `todowrite` tool in the system instructions.
+								- ⇒ Add instruction of using `todowrite` tool to `AGENTS.md`.
 						- Free models provided by OpenCode Zen with limited time
 						  collapsed:: true
 							- DeepSeek V4 Flash Free
