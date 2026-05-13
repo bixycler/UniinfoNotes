@@ -1,7 +1,6 @@
 function nodeToMarkdown(node) {
     if (node.nodeType === Node.TEXT_NODE) {
         let text = node.textContent;
-        // Only collapse spaces, don't completely strip them unless empty
         if (!text.trim()) return text.includes('\n') ? '\n' : ' ';
         return text.replace(/\s+/g, ' ');
     }
@@ -9,26 +8,38 @@ function nodeToMarkdown(node) {
 
     const tagName = node.tagName.toLowerCase();
     
-    // Exclude navigation bars, headers, footers if we want pure content, 
-    // though the prompt said "map the structure of headings and content" and includes Nav structure.
-    // Let's exclude header/footer to avoid boilerplate, but if they are inside <main> they might be relevant.
     if (tagName === 'script' || tagName === 'style' || tagName === 'svg' || tagName === 'nav') return '';
 
     let prefix = '';
     let suffix = '';
+    let isHeading = false;
 
-    if (tagName === 'h1') { prefix = '\n# '; suffix = '\n'; }
-    else if (tagName === 'h2') { prefix = '\n## '; suffix = '\n'; }
-    else if (tagName === 'h3') { prefix = '\n### '; suffix = '\n'; }
-    else if (tagName === 'h4') { prefix = '\n#### '; suffix = '\n'; }
-    else if (tagName === 'h5') { prefix = '\n##### '; suffix = '\n'; }
-    else if (tagName === 'h6') { prefix = '\n###### '; suffix = '\n'; }
+    if (tagName === 'h1') { prefix = '\n# '; suffix = '\n'; isHeading = true; }
+    else if (tagName === 'h2') { prefix = '\n## '; suffix = '\n'; isHeading = true; }
+    else if (tagName === 'h3') { prefix = '\n### '; suffix = '\n'; isHeading = true; }
+    else if (tagName === 'h4') { prefix = '\n#### '; suffix = '\n'; isHeading = true; }
+    else if (tagName === 'h5') { prefix = '\n##### '; suffix = '\n'; isHeading = true; }
+    else if (tagName === 'h6') { prefix = '\n###### '; suffix = '\n'; isHeading = true; }
     else if (tagName === 'p' || tagName === 'div') { 
         if (tagName === 'p') { prefix = '\n\n'; suffix = '\n'; }
     }
-    else if (tagName === 'strong' || tagName === 'b') { prefix = '**'; suffix = '**'; }
-    else if (tagName === 'em' || tagName === 'i') { prefix = '*'; suffix = '*'; }
-    else if (tagName === 'li') { prefix = '\n- '; suffix = '\n'; }
+    else if (tagName === 'strong' || tagName === 'b') { 
+        if (!isHeading) { prefix = ' **'; suffix = '** '; } 
+    }
+    else if (tagName === 'em' || tagName === 'i') { 
+        if (!isHeading) { prefix = ' *'; suffix = '* '; } 
+    }
+    else if (tagName === 'li') { 
+        // Handle numbered lists vs bullet lists
+        const parent = node.parentNode;
+        if (parent && parent.tagName.toLowerCase() === 'ol') {
+            const index = Array.from(parent.children).indexOf(node) + 1;
+            prefix = `\n${index}. `;
+        } else {
+            prefix = '\n- ';
+        }
+        suffix = '\n';
+    }
     else if (tagName === 'br') { return '\n'; }
 
     if (tagName === 'a') {
@@ -43,6 +54,11 @@ function nodeToMarkdown(node) {
     if (tagName === 'a') {
         let href = node.getAttribute('href') || '';
         suffix = `](${href})`;
+    }
+
+    // Clean up content for bold/italic: trim inner spaces
+    if (tagName === 'strong' || tagName === 'b' || tagName === 'em' || tagName === 'i') {
+        content = content.trim();
     }
 
     return prefix + content + suffix;
