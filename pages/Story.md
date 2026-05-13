@@ -1742,7 +1742,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Back to the basic issue: how to use it without clinging to it?! 🤔
 						- The middle way of dog leash holding: not a death grip nor a slip/drop, but a skillful hold with close contact to feel the tension and texture of it.
 			- 8th, Chat with Gemini [about my strange condition](https://gemini.google.com/share/4bef2457ed7a) ⇒ ((69fdbffa-dc65-4d72-bbf6-d35bf88a3482))
-			  collapsed:: true
 			- 9-10th, weekends, ((6a012b04-8e57-4927-a363-14ec798334b3)), ((6a01d7eb-1d13-4d07-bfd3-0dd87f115f54))
 			  collapsed:: true
 				- 9th, After 10h of recovery sleep, i gradually wake up and see from the inside out => [0PP = Vacantism](https://g.co/gemini/share/f66d0eff043d)
