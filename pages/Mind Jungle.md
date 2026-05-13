@@ -456,6 +456,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  collapsed:: true
 								- Must `export OPENCODE_EXPERIMENTAL_PLAN_MODE=1`
 								- The basic Plan Mode is completely read-only, no artifact exchange.
+								- [!] In the final “Phase 5: Call plan_exit tool” the agent encountered the unavailable tool `plan_exit`!
+								  collapsed:: true
+									- System reminder:
+									  > At the very end of your turn, once you have asked the user questions and are happy with your final plan file - you should always call plan_exit to indicate to the user that you are done planning.
+									  This is critical - your turn should only end with either asking the user a question or calling plan_exit. Do not stop unless it's for these 2 reasons.
 						- Free models provided by OpenCode Zen with limited time
 						  collapsed:: true
 							- DeepSeek V4 Flash Free
