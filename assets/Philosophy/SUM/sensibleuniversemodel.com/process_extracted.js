@@ -10,7 +10,8 @@ function processExtractedMarkdown(inFile, outFile) {
             
             // Clean up multi-line bold/italic
             // Regex to find bold/italic blocks that contain multiple newlines and fix them
-            md = md.replace(/(\*\*|\*)([\s\S]*?)\1/g, (match, p1, p2) => {
+            // Prioritize *** then ** then * and ensure they aren't whitespace-only
+            md = md.replace(/(\*\*\*|\*\*|\*)(?=\S)([\s\S]*?\S)\1/g, (match, p1, p2) => {
                 // If it contains newlines, split it and apply bold/italic to each line
                 if (p2.includes('\n')) {
                     return p2.split('\n').map(line => {
@@ -41,4 +42,5 @@ function processExtractedMarkdown(inFile, outFile) {
     }
 }
 
+module.exports = { processExtractedMarkdown };
 // processExtractedMarkdown('input.txt', 'output.md');
