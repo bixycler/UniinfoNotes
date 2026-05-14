@@ -46,22 +46,14 @@ function nodeToMarkdown(node, isHeading = false, indent = '') {
             prefix = '\n\n' + indent; suffix = '\n'; 
         }
     }
-    // 6. Inline Formatting (strong, em)
-    // We add padding spaces and markers, but only if not already in a heading.
-    else if (tagName === 'strong' || tagName === 'b') { 
-        if (!currentIsHeading) { prefix = ' **'; suffix = '** '; } 
-    }
-    else if (tagName === 'em' || tagName === 'i') { 
-        if (!currentIsHeading) { prefix = ' _'; suffix = '_ '; } 
-    }
-    // 7. List Container Handling (ul, ol)
+    // 6. List Container Handling (ul, ol)
     // If we enter a nested list, we increase the indentation for children.
     else if (tagName === 'ul' || tagName === 'ol') {
         if (node.parentNode && (node.parentNode.tagName.toLowerCase() === 'li')) {
             nextIndent += '    ';
         }
     }
-    // 8. List Item Handling (li)
+    // 7. List Item Handling (li)
     // Distinguish between ordered (1.) and unordered (- ) lists.
     else if (tagName === 'li') { 
         const parent = node.parentNode;
@@ -73,33 +65,43 @@ function nodeToMarkdown(node, isHeading = false, indent = '') {
         }
         suffix = '\n';
     }
-    // 9. Manual Line Breaks
+    // 8. Manual Line Breaks
     else if (tagName === 'br') { return '\n' + indent; }
 
-    // 10. Link Formatting
+    // 9. Link Formatting
     if (tagName === 'a') { prefix = '['; }
 
-    // 11. Recursive Processing
+    // 10. Recursive Processing
     // Collect all child content using the updated context (isHeading, indent).
     let content = '';
     for (let child of node.childNodes) {
         content += nodeToMarkdown(child, currentIsHeading, nextIndent);
     }
 
-    // 12. Link Finalization
+    // 11. Link Finalization
     if (tagName === 'a') { 
         suffix = `](${node.getAttribute('href') || ''})`; 
     }
 
-    // 13. Formatting Cleanup
-    // Trim inner spaces of bold/italic content to satisfy the "no enclosing spaces" requirement.
-    if (/^(strong|b|em|i)$/.test(tagName)) { 
-        content = content.trim(); 
+    // 12. Inline Formatting (strong, em) with multi-line logic
+    // We handle these AFTER children to split formatting across lines if content contains newlines.
+    if (tagName === 'strong' || tagName === 'b' || tagName === 'em' || tagName === 'i') {
+        content = content.trim();
+        if (content) {
+            const marker = (tagName === 'strong' || tagName === 'b') ? '**' : '_';
+            if (!currentIsHeading) {
+                if (content.includes('\n')) {
+                    // Split by newline and wrap each non-empty line
+                    return content.split('\n').map(line => {
+                        const trimmed = line.trim();
+                        return trimmed ? ` ${marker}${trimmed}${marker} ` : '';
+                    }).join('\n');
+                } else {
+                    return ` ${marker}${content}${marker} `;
+                }
+            }
+        }
     }
 
     return prefix + content + suffix;
 }
-
-// Entry point:
-// const mainEl = document.querySelector('main') || document.body;
-// return nodeToMarkdown(mainEl);
