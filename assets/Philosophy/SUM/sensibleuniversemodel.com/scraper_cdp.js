@@ -20,8 +20,10 @@ function nodeToMarkdown(node, isHeading = false, indent = '') {
     
     // 3. Exclude Boilerplate & Non-Content Elements
     // We exclude 'header', 'footer', and 'nav' to strip the site-wide menu and branding.
+    // NOTE: For Jimdo-based sites, we also exclude custom jimdo-header and jimdo-nav components.
     if (tagName === 'script' || tagName === 'style' || tagName === 'svg' || 
-        tagName === 'nav' || tagName === 'header' || tagName === 'footer') return '';
+        tagName === 'nav' || tagName === 'header' || tagName === 'footer' ||
+        tagName === 'jimdo-header' || tagName === 'jimdo-nav') return '';
 
     let prefix = '';
     let suffix = '';

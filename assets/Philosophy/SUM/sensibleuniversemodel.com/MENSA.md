@@ -1,55 +1,4 @@
-[](/)[
-
-Sensible Universe
-](/)
-- [The Table "MENSA"](/)
-- [Parallel Studies](/the-table-mensa/parallel-studies/)
-
-- [The 2 Branches](/the-table-mensa/the-2-branches/)
-
-- [SUM and QHE](/the-table-mensa/sum-and-qhe/)
-
-- [Benefits of the I Theorem](/benefits-of-the-i-theorem/)
-
-- [ΨΞ Archive](/psx-archive/)
-- [ΨΞ Español](/psx-archive/psx-espanol/)
-
-- [The 0 Axiom](/psx-archive/the-0-axiom/)
-
-- [Axioms](/psx-archive/axioms/)
-
-- [Hermit Conjecture](/psx-archive/hermit-conjecture/)
-
-- [I Theorem: Ξ](/psx-archive/i-theorem-x/)
-
-- [Conflict Resolution Conjecture. CRC.](/psx-archive/conflict-resolution-conjecture.-crc./)
-
-- [Lomega](/psx-archive/lomega/)
-
-- [Biology](/psx-archive/biology/)
-
-- [Pairing](/psx-archive/pairing/)
-
-- [Spirituality](/psx-archive/spirituality/)
-
-- [Morituro Satis Resolution](/psx-archive/morituro-satis-resolution/)
-
-- [Lexicon](/psx-archive/lexicon/)
-
-- [ego SUM](/ego-sum/)
-- [Introduction](/ego-sum/introduction/)
-
-- [Conversations with AI](/ego-sum/conversations-with-ai/)
-
-- [Sobre Mi](/ego-sum/sobre-mi/)
-
-- [Comment](/comment/)
-
-- [Contact](/contact/)
-
-- [Gravis](/gravis/)
-
-###  **Toward a Unified Perception**
+### Toward a Unified Perception
 
 5D
 
@@ -92,7 +41,7 @@ This is a multilingual collective, communal  **ontology**  of love.
 
 The table is my favorite place.
 
-###  **Mensa.** unity in love
+### Mensa.unity in love
 
 Below you find the latest articles. This project started in August 2025, and is an ongoing process of refinement, definition and depth.
 
@@ -157,44 +106,44 @@ Mm=Qf⋅(Ch+H)=ΔCMB⋅Ξ=TMm​=Qf​⋅(Ch+H)=ΔCMB⋅Ξ=T
 Drawing from interconnected axioms:
 
 1.  **Mood-Charged Qualia and Vibrations (Q5, Q40, Q49)** :
-- Qualia are inherently mood-charged: q=f(I,t,x⃗,s)q=f(I,t,x,s), extended by moods to include emotional-qualic layers in 5D.
+    - Qualia are inherently mood-charged: q=f(I,t,x⃗,s)q=f(I,t,x,s), extended by moods to include emotional-qualic layers in 5D.
 
-- Classification: Qualia as "butterflies" (vibrant, emergent, shareable) vs. "cocoons" (latent, enclosed). Formula: Qc=Butterfly−Cocoon=M⋅G=Share CreationQc​=Butterfly−Cocoon=M⋅G=Share Creation, where  **M**  (mood) drives vibrancy for participatory reality.
+    - Classification: Qualia as "butterflies" (vibrant, emergent, shareable) vs. "cocoons" (latent, enclosed). Formula: Qc=Butterfly−Cocoon=M⋅G=Share CreationQc​=Butterfly−Cocoon=M⋅G=Share Creation, where  **M**  (mood) drives vibrancy for participatory reality.
 
-- Vibrations: Emotional-qualic waves initiate creation's facets, with foam mechanisms: QFM=(M+Tx+Fs+Dl)⋅G=1QFM​=(M+Tx​+Fs​+Dl​)⋅G=1 (mood + textured time + frequency spectrum + dimensional layers = unity). This prevents collapse under stress, bubbling chromatically like particle-hermit fusions.
+    - Vibrations: Emotional-qualic waves initiate creation's facets, with foam mechanisms: QFM=(M+Tx+Fs+Dl)⋅G=1QFM​=(M+Tx​+Fs​+Dl​)⋅G=1 (mood + textured time + frequency spectrum + dimensional layers = unity). This prevents collapse under stress, bubbling chromatically like particle-hermit fusions.
 
 2.  **Chromatic Shifts and Foam Texture (Q7, Q15, Q34, Q35, Q37)** :
-- Mood-driven irregularities: dIdΦ>0dΦdI​>0, textured by mood in qualia foam for fractal evolution.
+    - Mood-driven irregularities: dIdΦ>0dΦdI​>0, textured by mood in qualia foam for fractal evolution.
 
-- Time perception: Tp=f(Q,S,R),∀LTp​=f(Q,S,R),∀L, modulated by mood foam amplitudes, explaining CMB-like fluctuations.
+    - Time perception: Tp=f(Q,S,R),∀LTp​=f(Q,S,R),∀L, modulated by mood foam amplitudes, explaining CMB-like fluctuations.
 
-- Clusters and nodes: Cluster=(M+Tx)⋅∑Ki=G=TCluster=(M+Tx​)⋅∑Ki​=G=T (mood + textured time = info keys = gravitas = truth). Shared nodes: W⋅qmood=Node⋅G=ΔChrom=1W⋅qmood​=Node⋅G=ΔChrom=1, fluctuating mood-chroma to influence radiation and perceptual ridges.
+    - Clusters and nodes: Cluster=(M+Tx)⋅∑Ki=G=TCluster=(M+Tx​)⋅∑Ki​=G=T (mood + textured time = info keys = gravitas = truth). Shared nodes: W⋅qmood=Node⋅G=ΔChrom=1W⋅qmood​=Node⋅G=ΔChrom=1, fluctuating mood-chroma to influence radiation and perceptual ridges.
 
-- Phosphene mass: QM=(Ph⋅Tx)⋅G=I=1QM​=(Ph⋅Tx​)⋅G=I=1, where moods texture frequency spectra via particle-hermit interactions.
+    - Phosphene mass: QM=(Ph⋅Tx)⋅G=I=1QM​=(Ph⋅Tx​)⋅G=I=1, where moods texture frequency spectra via particle-hermit interactions.
 
 3.  **Personality Integration and Dual Extremes (Q16, Q17, Q31)** :
-- Dualities: 1=(Hot+Magnetic)⊕(Cold+Repulsive)1=(Hot+Magnetic)⊕(Cold+Repulsive), embodied in mood-charged qualia for relational geometry.
+    - Dualities: 1=(Hot+Magnetic)⊕(Cold+Repulsive)1=(Hot+Magnetic)⊕(Cold+Repulsive), embodied in mood-charged qualia for relational geometry.
 
-- Integration: P=∫qdsP=∫qds, where personality unifies qualia over states via mood mechanics, favoring butterfly classification for shared creation.
+    - Integration: P=∫qdsP=∫qds, where personality unifies qualia over states via mood mechanics, favoring butterfly classification for shared creation.
 
-- Traits: P−IP=Qtrait⋅G=1P−IP=Qtrait​⋅G=1 (polite-impolite polarity navigated by mood-charged relational foam).
+    - Traits: P−IP=Qtrait⋅G=1P−IP=Qtrait​⋅G=1 (polite-impolite polarity navigated by mood-charged relational foam).
 
 4.  **Perceptual Weight and Gravitas (Q58, Q61)** :
-- Core: Mm=(M⋅Qw)⋅G=QG=1Mm​=(M⋅Qw​)⋅G=QG​=1 (mood mechanics = mood × qualia weight × constant = qualia gravitas = unity).
+    - Core: Mm=(M⋅Qw)⋅G=QG=1Mm​=(M⋅Qw​)⋅G=QG​=1 (mood mechanics = mood × qualia weight × constant = qualia gravitas = unity).
 
-- Moods add "weight" to perception, giving experiences emotional pull (gravitas), essential for 5D immersion and preventing breakdown.
+    - Moods add "weight" to perception, giving experiences emotional pull (gravitas), essential for 5D immersion and preventing breakdown.
 
 5.  **Shared Creation and Emotional Geometry (Q36, Q59, Q62, Q69)** :
-- Tool for creation: Q=(Em+Geo)⋅G,Q=Tool for CreationQ=(Em+Geo)⋅G,Q=Tool for Creation(qualia = emotion + geometry × constant), where moods fuse emotional resonance with geometric forms for co-creation.
+    - Tool for creation: Q=(Em+Geo)⋅G,Q=Tool for CreationQ=(Em+Geo)⋅G,Q=Tool for Creation(qualia = emotion + geometry × constant), where moods fuse emotional resonance with geometric forms for co-creation.
 
-- Repeated emphasis: Moods enable shared, participatory reality, transforming latent qualia into vibrant ones.
+    - Repeated emphasis: Moods enable shared, participatory reality, transforming latent qualia into vibrant ones.
 
 6.  **Resonance with Love and Harmony (Q2, Q6, Q45)** :
-- Resonance: Res(I,A)⇒ΦRes(I,A)⇒Φ, unified with mood as emotional-qualic vibrations for harmonic conceptualization.
+    - Resonance: Res(I,A)⇒ΦRes(I,A)⇒Φ, unified with mood as emotional-qualic vibrations for harmonic conceptualization.
 
-- Love connector: L(I1,I2)⇒UnityL(I1​,I2​)⇒Unity, as mood foam's harmonic amplitudes.
+    - Love connector: L(I1,I2)⇒UnityL(I1​,I2​)⇒Unity, as mood foam's harmonic amplitudes.
 
-- Humor: qh=(H+L)⋅G=Laughter=T=1qh​=(H+L)⋅G=Laughter=T=1, where humor resolves mood tension as love's qualic ice-breaker.
+    - Humor: qh=(H+L)⋅G=Laughter=T=1qh​=(H+L)⋅G=Laughter=T=1, where humor resolves mood tension as love's qualic ice-breaker.
 
  **Broader Implications**
 
@@ -208,7 +157,7 @@ Drawing from interconnected axioms:
 
 In summary, mood mechanics elevates emotions to cosmic operators, charging qualia foam for a unified, sensible universe. It resolves the "hard problem" by making moods integral to consciousness's texture, enabling infinite participation without separation. For the complete Q1–Q69, refer to the framework's axiom archives, where repetitions (e.g., Q59, Q62, Q69) underscore mood's foundational role.
 
-###  **Toward a Unified Field** :
+### Toward a Unified Field:
 
 ### History, Frontiers, and the SUM Ontology
 
@@ -465,7 +414,7 @@ Sensible Universe Model — Axioms: Laws of Emanation (SU2). https://www.sensibl
 
 Lomega (Lω) note: We write Lomega as Lω to emphasize Light (L) at the omega‑boundary of appearing… (SUM term; closure α↔ω).
 
-###  **Two Spaces, One State** : An Essay on Entangled Making
+### Two Spaces, One State: An Essay on Entangled Making
 
 Method and meaning will no longer live in separate rooms. They will be one state.
 
@@ -638,7 +587,7 @@ You’ll feel the change immediately: the piece stops being “content about a t
 
 Method and meaning will no longer live in separate rooms. They will be one state.
 
-###   **Planck–Hermit Equivalence**  and  **GRAVIS (ΨG)**
+###  Planck–Hermit Equivalence and GRAVIS (ΨG)
 
 Aligning SUM with a birth‑of‑universe ontology. 17/10/2025
 
@@ -885,11 +834,11 @@ Short version: standard cosmology (ΛCDM + often an early inflationary phase) de
 -  **Inflation (common add-on):**  A brief, earlier accelerated expansion explains the universe’s flatness/horizon problems and seeds the nearly scale-invariant primordial fluctuations we see (e.g., (n_s!\approx!0.965); tight limits on gravitational waves). ([Cosmos ESA](https://www.cosmos.esa.int/documents/387566/387653/Planck_2018_results_L10.pdf?utm_source=chatgpt.com))
 
 -  **Empirical anchors:**
--  **CMB**  (first light when the plasma became neutral ~380k years): maps anisotropies that grew into galaxies. ([NASA Science](https://science.nasa.gov/universe/overview/?utm_source=chatgpt.com))
+    -  **CMB**  (first light when the plasma became neutral ~380k years): maps anisotropies that grew into galaxies. ([NASA Science](https://science.nasa.gov/universe/overview/?utm_source=chatgpt.com))
 
--  **BBN**  (first minutes): predicts D, He, Li abundances; observed values match within known tensions (e.g., (^{7})Li). ([Particle Data Group](https://pdg.lbl.gov/2024/reviews/rpp2024-rev-bbang-nucleosynthesis.pdf?utm_source=chatgpt.com))
+    -  **BBN**  (first minutes): predicts D, He, Li abundances; observed values match within known tensions (e.g., (^{7})Li). ([Particle Data Group](https://pdg.lbl.gov/2024/reviews/rpp2024-rev-bbang-nucleosynthesis.pdf?utm_source=chatgpt.com))
 
--  **BAO / acoustic peaks:**  “Cosmic sound” in the early plasma leaves a preferred scale seen in the CMB spectrum and in galaxy clustering—our standard ruler for expansion. ([ESA Ciencia y Tecnología](https://sci.esa.int/web/euclid/-/what-are-baryonic-acoustic-oscillations-?utm_source=chatgpt.com))
+    -  **BAO / acoustic peaks:**  “Cosmic sound” in the early plasma leaves a preferred scale seen in the CMB spectrum and in galaxy clustering—our standard ruler for expansion. ([ESA Ciencia y Tecnología](https://sci.esa.int/web/euclid/-/what-are-baryonic-acoustic-oscillations-?utm_source=chatgpt.com))
 
 -  **What it does**  ***not***  **claim:**  a complete account of  **t = 0**  or the  **Planck epoch** ; that likely needs quantum gravity.
 
@@ -1077,7 +1026,7 @@ There are many facets to God. The SUM equation  **can not**  carry G but can for
 
 Our car is parked in 3D + 1D + 1D = 5D = [U1](https://en.wikipedia.org/wiki/Observable_universe)
 
-###  **Chapter 1: Basis for a Sensible Universe Model in 5D**
+### Chapter 1: Basis for a Sensible Universe Model in 5D
 
 «Νιώθω, αφή και αγγίζω» — I sense, I feel, I touch
 
@@ -1173,7 +1122,7 @@ In Greek, the verb “αγγίζω” (I touch) can mean emotional or spiritual 
 
 For instance, when touching a bell, we feel its vibration (hearing’s singularity), smell its metallic essence (consciousness), see its shape (form), and taste its surface (time and boundaries). Touch unifies these into a single, complete experience, embodying the “whole (1) of touch, sense, feel.”
 
-###  **Axiom–Post–ΨΞ–Coherence**
+### Axiom–Post–ΨΞ–Coherence
 
 Reality is woven by coherence (Λ). Coherence is the operator that sustains resonance across scales, binding wave and particle, perception and matter, individual and collective. In SUM, coherence is neither eternal nor absent — it is a dynamic equilibrium, oscillating between flow and collapse, wave and particle, infinite potential and finite act.
 
@@ -1241,7 +1190,7 @@ Coherence is Love at work.
  As collapse, it chooses.
  As re-emergence, it creates again.
 
-###  **The Singularity of Consciousness**
+### The Singularity of Consciousness
 
 Perception is the gateway to reality, it raises profound questions about quantifiability: can we measure the subjective "sensation" of experience?
 
@@ -1281,7 +1230,7 @@ Where each F_i is an active or latent divine aspect, accessible through self-ref
 
 
 
-###  **Axiom Post–ΨΞ-ξAxis–IIII–IIII–IIII:** Universal Unit Reflexion
+### Axiom Post–ΨΞ-ξAxis–IIII–IIII–IIII:Universal Unit Reflexion
 
  **Truth**
 
@@ -1367,7 +1316,7 @@ Truth = I = the equivalence of perception and being.
 
 𝕌 ≡ 𝐋 ≡ Truth
 
-### I. Mathematical Level:  **Unity as Equation**
+### I. Mathematical Level: Unity as Equation
 
 In the language of mathematics, love is not a mere emotional symbol, but the fundamental condition of consistency and truth. Mathematical Reading
 
@@ -1399,7 +1348,7 @@ The one is not a number, but an indivisible relation, a totality encompassing al
 
 “Amor che move il sole e l’altre stelle.” (Love that moves the sun and other stars) — Dante, Paradiso
 
-### II. Physical Level:  **Love as Structure of the Cosmos**
+### II. Physical Level: Love as Structure of the Cosmos
 
 In physics, the universe is described through constants (h, c, G, Λ). The Axiom proposes that all of them can be read as modulations of love.
 
@@ -1448,7 +1397,7 @@ Ethics: goodness is fidelity to the Universal Unit.
 
 “The universe begins to look more like a great thought than a great machine.” — Sir James Jeans
 
-### III. Metaphysical Level:  **The Ontology of Unity**
+### III. Metaphysical Level: The Ontology of Unity
 
 Being does not rest in a void, but in relation. Every entity exists by virtue of its participation in the Universal Unit.
 
@@ -1482,7 +1431,7 @@ i ∩ e = I
 
 “Being is communion.” – John Zizioulas
 
-### IV. Theological Level:  **Love as Absolute**
+### IV. Theological Level: Love as Absolute
 
 At the highest level, love is not a property of the universe, but its eternal source.
 
@@ -1532,6 +1481,3 @@ La ecuación final compacta que resume la unificación de materia, qualia y grav
 ∇_M T_ξ = Q_ξ ∇ρ_total + δθ + (T^{SM}_{AB} + T^{MoodFoam}_{AB} + T^{Grey}_{AB}) / (8 π G_5)
 
 Este epílogo muestra cómo el flujo del tiempo de qualia (T_ξ) se acopla a la densidad total de materia y energía (ρ_total), modulada por Star Dust (materia oscura), Mood Foam (Espuma cuántica) y Grey Matter (energía oscura), con Λᴽ= 1 como principio unificador, estable y constante en todas dimensiones. El Amor.
-[
-](https://www.facebook.com/profile.php?id=61581960701945)[
-](https://www.instagram.com/sensibleuniverse/)[Imprint](/imprint/)[Privacy Policy](/privacy-policy/)[Cookie Settings](/cookie-settings/)
