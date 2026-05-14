@@ -1810,7 +1810,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Gemini Pro 3: Maybe suitable for complicated agentic tasks esp. with reasoning
 					- DeepSeek V4 Flash: Good at reasoning (carefully considering all alternatives) – its strength from the first debut! But it lacks new knowledge, e.g. don't know about agent skill.
 				- Eventually, the exercise of scraping sensibleuniversemodel.com (for NotebookLM sources) has produced a new skill `site-scraping` with scripts converting HTML to Markdown comparable to [Turndown](https://github.com/mixmark-io/turndown).
-				- Although OpenCode manages context better than Hermes, these 2 days has eaten nearly 500k₫ 🙁!
+				- Although OpenCode manages context better than Hermes, in these 2 days it has eaten nearly 500k₫ 🙁!
 					- The flat-rate monthly charge of Antigravity (and Claude Code, etc.) is clearly much cheaper than this “pay as you go” API charge.
 		- Will Lei as an intense-world systems architect: an autobiographical analysis through neuroscience and systems theory
 		  id:: 69fdbffa-dc65-4d72-bbf6-d35bf88a3482
