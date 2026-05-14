@@ -1,4 +1,8 @@
-module.paths.push('/usr/lib/node_modules'); // Use global modules, because no Node.js installed in this repo
+// Uses global chrome-remote-interface (/usr/lib/node_modules) to drive Chrome's
+// DevTools Protocol directly. This repo normally has no Node.js dependencies —
+// this script is an exception: it connects to the same Chrome instance that
+// OpenCode's MCP tools use, scraping Jimdo DOM into clean Markdown on disk.
+module.paths.push('/usr/lib/node_modules');
 const CDP = require('chrome-remote-interface');
 const fs = require('fs');
 const path = require('path');
@@ -33,7 +37,7 @@ const URLS = [
     { url: '/psx-archive/lomega/', file: 'psx-archive/lomega.md' },
     { url: '/psx-archive/morituro-satis-resolution/', file: 'psx-archive/morituro-satis-resolution.md' },
     { url: '/psx-archive/pairing/', file: 'psx-archive/pairing.md' },
-    { url: '/psx-archive/psx-espa%C3%B1ol/', file: 'psx-archive/psx-espanol.md' },
+    { url: '/psx-archive/psx-espanol/', file: 'psx-archive/psx-espanol.md' },
     { url: '/psx-archive/spirituality/', file: 'psx-archive/spirituality.md' },
     { url: '/psx-archive/the-0-axiom/', file: 'psx-archive/the-0-axiom.md' },
     { url: '/the-table-mensa/parallel-studies/', file: 'the-table-mensa/parallel-studies.md' },
@@ -53,63 +57,56 @@ async function navigateWithTimeout(Page, url, timeoutMs) {
     });
 }
 
-async function scrapePage(fullUrl) {
-    const target = await CDP.New({ host: '127.0.0.1', port: 9222 }, 'about:blank');
-    const targetId = target.id;
-    let client;
-
-    try {
-        client = await CDP({ target: targetId });
-        const { Page, Runtime } = client;
-
-        await Page.enable();
-        await Runtime.enable();
-
-        await navigateWithTimeout(Page, fullUrl, TIMEOUT_MS);
-        await new Promise(r => setTimeout(r, 1500));
-
-        const result = await Runtime.evaluate({
-            expression: `(function() {\n${SCRAPER_CODE}\nconst mainEl = document.querySelector('main') || document.body;\nreturn nodeToMarkdown(mainEl, false, '');\n})()`,
-            returnByValue: true,
-        });
-
-        if (result.exceptionDetails) {
-            throw new Error(result.exceptionDetails.text + ' - ' + (result.exceptionDetails.exception?.description || ''));
-        }
-
-        return result.result.value;
-    } finally {
-        if (client) await client.close().catch(() => {});
-        await CDP.Close({ host: '127.0.0.1', port: 9222 }, targetId).catch(() => {});
-    }
-}
-
 async function main() {
     console.log(`Starting crawl of ${URLS.length} pages...\n`);
+
+    // Create one reusable tab — avoids drowning RAM with 30 separate tabs
+    const target = await CDP.New({ host: '127.0.0.1', port: 9222 }, 'about:blank');
+    const targetId = target.id;
+    const client = await CDP({ target: targetId });
+    const { Page, Runtime } = client;
+
+    await Page.enable();
+    await Runtime.enable();
 
     let success = 0;
     let failures = 0;
 
-    for (let i = 0; i < URLS.length; i++) {
-        const { url, file } = URLS[i];
-        const fullUrl = BASE_URL + url;
-        const filePath = path.join(OUTPUT_DIR, file);
-        const label = `${i + 1}/${URLS.length}`;
+    try {
+        for (let i = 0; i < URLS.length; i++) {
+            const { url, file } = URLS[i];
+            const fullUrl = BASE_URL + url;
+            const filePath = path.join(OUTPUT_DIR, file);
+            const label = `${i + 1}/${URLS.length}`;
 
-        process.stdout.write(`[${label}] ${fullUrl} ... `);
+            process.stdout.write(`[${label}] ${fullUrl} ... `);
 
-        try {
-            const markdown = await scrapePage(fullUrl);
+            try {
+                await navigateWithTimeout(Page, fullUrl, TIMEOUT_MS);
+                await new Promise(r => setTimeout(r, 1500));
 
-            await fs.promises.mkdir(path.dirname(filePath), { recursive: true });
-            await fs.promises.writeFile(filePath, markdown.trim() + '\n', 'utf8');
+                const result = await Runtime.evaluate({
+                    expression: `(function() {\n${SCRAPER_CODE}\nconst mainEl = document.querySelector('main') || document.body;\nreturn nodeToMarkdown(mainEl, false, '');\n})()`,
+                    returnByValue: true,
+                });
 
-            console.log('OK');
-            success++;
-        } catch (err) {
-            console.log(`FAIL: ${err.message}`);
-            failures++;
+                if (result.exceptionDetails) {
+                    throw new Error(result.exceptionDetails.text + ' - ' + (result.exceptionDetails.exception?.description || ''));
+                }
+
+                await fs.promises.mkdir(path.dirname(filePath), { recursive: true });
+                await fs.promises.writeFile(filePath, result.result.value.trim() + '\n', 'utf8');
+
+                console.log('OK');
+                success++;
+            } catch (err) {
+                console.log(`FAIL: ${err.message}`);
+                failures++;
+            }
         }
+    } finally {
+        await client.close().catch(() => {});
+        await CDP.Close({ host: '127.0.0.1', port: 9222 }, targetId).catch(() => {});
     }
 
     console.log(`\nDone. ${success} succeeded, ${failures} failed.`);
