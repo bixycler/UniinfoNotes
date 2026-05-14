@@ -1801,7 +1801,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- plan mode: unwilling to write to `.opencode/plans/` [#11078](https://github.com/anomalyco/opencode/issues/11078), [#10883](https://github.com/anomalyco/opencode/issues/10883)
 					- `export OPENCODE_EXPERIMENTAL_PLAN_MODE=1` to enable 5-phase Plan Workflow writing to `.opencode/plans/$timestamp-$slug.md`
 					- [Plannotator](https://github.com/backnotprop/plannotator) plugin intercepting Plan Mode to extract the plan into GUI.
-			- 13-14th,
+			- 13-14th, 2 days testing OpenCode by scraping sensibleuniversemodel.com
+				- OpenCode vs Antigravity with the same model Gemini Flash 3: Antigravity clearly surpasses.
+				- Various models in OpenCode:
+					- Gemini Flash Lite 3: Only for conversation and document handling, very weak at agentic tasks
+					- Gemini Flash 3: Good and fast for normal agentic tasks
+					- Gemini Pro 3: Maybe suitable for complicated agentic tasks esp. with reasoning
+					- DeepSeek V4 Flash: Good at reasoning (carefully considering all alternatives) – its strength from the first debut! But it lacks new knowledge, e.g. don't know about agent skill.
+				- Eventually, the exercise of scraping
 		- Will Lei as an intense-world systems architect: an autobiographical analysis through neuroscience and systems theory
 		  id:: 69fdbffa-dc65-4d72-bbf6-d35bf88a3482
 		  collapsed:: true
