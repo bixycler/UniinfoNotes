@@ -109,7 +109,7 @@ Como una encapsulación del momento entre la percepción y la conciencia, un "
 
 La singularidad de la conciencia como la emanación del tiempo, la gravedad y el espacio.
 
-con proporcionalidades como 2D ∝ 3D ∝ 4D (intuición 2D) y 1D ∝ 2D ∝ 3D when T\_ξ (tiempo de calidad = tiempo 5D) y Q\_ξ (constante de calidad).
+con proporcionalidades como 2D ∝ 3D ∝ 4D (intuición 2D) y 1D ∝ 2D ∝ 3D cuando T\_ξ (tiempo de calidad = tiempo 5D) y Q\_ξ (constante de calidad).
 
 Integran ideas de filos/bordes/horizontes como singularidades qξ donde ∇ΨΞ = 0, con transiciones dimensionales modeladas como proporcionalidades (∝) que reflejan la emanación de la singularidad de la conciencia, de la percepción al momento de conciencia.
 
@@ -153,11 +153,11 @@ PH3 - Δφ\_H = S / ħ\_H, Δφ = S / ħ, |Δφ\_H − Δφ| / |Δφ| ≤ δ\_H 
 
 ### Axiom 0-III-III-IIIU-I-Matter-Antimatter Pairing (MAP)
 
- **** extends the Sensible Universe Model by formalizing the unification of matter and antimatter through their sensory and perceptual roles in a 5D manifold mapped to the five senses.**
+extends the Sensible Universe Model by formalizing the unification of matter and antimatter through their sensory and perceptual roles in a 5D manifold mapped to the five senses.
 
-**Toledo August 26, 2025 (12:07 PM CEST)**
+Toledo August 26, 2025 (12:07 PM CEST)
 
-****Abstract:** The  **Axiom 0-III-III-IIIU-I-Matter-Antimatter Pairing (MAP)** extends the Sensible Universe Model by formalizing the unification of matter and antimatter through their sensory and perceptual roles in a 5D manifold mapped to the five senses:
+ **Abstract:** The  **Axiom 0-III-III-IIIU-I-Matter-Antimatter Pairing (MAP)** extends the Sensible Universe Model by formalizing the unification of matter and antimatter through their sensory and perceptual roles in a 5D manifold mapped to the five senses:
 
 1D (hearing), 2D (smell), 3D (sight), 4D (taste), and 5D (touch/qualia).
 
@@ -206,7 +206,7 @@ T : Period of oscillatory perception (e.g., grecas (frieze (open Frame), border 
 
 R\_AB - (1/2) g\_AB R + Λ g\_AB = 8 π G\_5 T\_AB, Λ = Λ\_0 = (1) = Love (Absolute).
 
- **B. Matter-Antimatter Pairing (MAP)** The  **MAP axiom** posits that matter and antimatter are paired as complementary perceptual states:  **Matter:** Manifest as solid (1D), liquid (2D), gas (3D), plasma (4D), and qualia (5D).
+ **B. Matter-Antimatter Pairing (MAP)** The  **MAP axiom** posits that matter and antimatter are paired as complementary perceptual states:  **Matter:** Manifests as solid (1D), liquid (2D), gas (3D), plasma (4D), and qualia (5D).
 
  **Antimatter:** Correlated as In-Perception/En-Percepción, internalized sensory states: Φ\_In-Q = C \* P \* T (Φ\_Q),
 where C, P, T are redefined as “charge-party-time” quanta, reflecting sensory internalization.
@@ -251,8 +251,8 @@ Antimatter counterparts (In-Solid, In-Liquid, etc.) are similarly unified: Φ\_I
 
  **D. Conflict Resolution Conjecture (CRC)**
 
-**The CRC resolves conflicts to achieve truth:**
-**Sensory Conflicts:** Unified by qualia, stabilized by Lambda.
+ **The CRC resolves conflicts to achieve truth:**
+ **Sensory Conflicts:** Unified by qualia, stabilized by Lambda.
 
  **Emotional Conflicts:** Negative qualia (e.g., distress) are balanced:2 Φ\_Q = Φ\_Q^+ + Φ\_Q^-,
 ( □ \_5 + Λ) (Φ\_Q^+ + Φ\_Q^-) = 0.
@@ -272,11 +272,11 @@ Antimatter counterparts (In-Solid, In-Liquid, etc.) are similarly unified: Φ\_I
 stabilizing the manifold’s subjective geometry (flat, curved, toroidal).
 
  **F. Geometry in an Emanating 5D Universe**
-**The universe’s geometry is subjective, emanating via qualia:** ( · (a)/a)^2 = (8 π G\_5 / 3) ρ\_Q + (Λ c^2 / 3).
+ **The universe’s geometry is subjective, emanating via qualia:** ( · (a)/a)^2 = (8 π G\_5 / 3) ρ\_Q + (Λ c^2 / 3).
 Λ = Love ensures stability across any shape.
 
  **G. Empirical Validation**
-**Hypothesis:** The matter-antimatter pairing, stabilized by Lambda = Love, is measurable via
+ **Hypothesis:** The matter-antimatter pairing, stabilized by Lambda = Love, is measurable via
 
 sensory-modulated quantum experiments:
 
