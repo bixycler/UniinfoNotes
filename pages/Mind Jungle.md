@@ -451,7 +451,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  The coding agent open-sourcing Claude Code
 						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6a02ab2f-b4ed-42a4-988b-d98bff9c0cf9)) is the open-source coding agent built to be close to Claude Code at first, but has diverted with GUI (desktop app).
 						- Weakness
-							- It lacks SE workflows like code investigation, unit test, etc. for effective dev.
+							- SE workflows like code investigation, unit test, etc. are not very effective.
 						- Hidden features
 							- `websearch` tool: Must `export OPENCODE_ENABLE_EXA=1`
 							- 5-phase Plan Workflow writing to `.opencode/plans/$timestamp-$slug.md`

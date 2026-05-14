@@ -7,10 +7,12 @@
  */
 function nodeToMarkdown(node, isHeading = false, indent = '') {
     // 1. Text Node Handling: Collapse multiple spaces into one.
+    // Escape literal '*' and '_' to prevent them from being misinterpreted as Markdown markers.
     if (node.nodeType === Node.TEXT_NODE) {
         let text = node.textContent;
         if (!text.trim()) return text.includes('\n') ? '\n' : ' ';
-        return text.replace(/\s+/g, ' ');
+        text = text.replace(/\s+/g, ' ');
+        return text.replace(/[*_]/g, '\\$&');
     }
 
     // 2. Element Node Handling: Only process standard elements.

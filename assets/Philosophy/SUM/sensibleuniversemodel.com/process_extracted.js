@@ -8,17 +8,22 @@ function processExtractedMarkdown(inFile, outFile) {
         try {
             let md = JSON.parse(jsonStrMatch[1]);
             
-            // Clean up multi-line bold/italic
-            // Regex to find bold/italic blocks that contain multiple newlines and fix them
-            // Prioritize *** then ** then _ or * and ensure they aren't whitespace-only
-            md = md.replace(/(\*\*\*|\*\*|\*|_)(?=\S)([\s\S]*?\S)\1/g, (match, p1, p2) => {
-                // If it contains newlines, split it and apply bold/italic to each line
+            // Clean up multi-line bold/bold-italic
+            // We allow these to span multiple lines and split them per-line for valid Markdown.
+            md = md.replace(/(?<!\\)(\*\*\*|\*\*|___|__)(?=\S)([\s\S]*?\S)(?<!\\)\1/g, (match, p1, p2) => {
                 if (p2.includes('\n')) {
                     return p2.split('\n').map(line => {
                         const trimmed = line.trim();
                         return trimmed ? `${p1}${trimmed}${p1}` : '';
                     }).join('\n');
                 }
+                return `${p1}${p2.trim()}${p1}`;
+            });
+
+            // Clean up single-line italic
+            // We do NOT allow single * or _ to span multiple lines to prevent "leaking" when encountering math/URLs.
+            // Also requires markers to be at word boundaries and unescaped to avoid matching things like n_s or \_.
+            md = md.replace(/(?:^|(?<=\s))(?<!\\)(_|\*)(?=\S)([^\n]*?\S)(?<!\\)\1(?=\s|$|[.,;:!])/g, (match, p1, p2) => {
                 return `${p1}${p2.trim()}${p1}`;
             });
 
