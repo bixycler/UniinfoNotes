@@ -50,7 +50,7 @@ function nodeToMarkdown(node, isHeading = false, indent = '') {
         if (!currentIsHeading) { prefix = ' **'; suffix = '** '; } 
     }
     else if (tagName === 'em' || tagName === 'i') { 
-        if (!currentIsHeading) { prefix = ' *'; suffix = '* '; } 
+        if (!currentIsHeading) { prefix = ' _'; suffix = '_ '; } 
     }
     // 7. List Container Handling (ul, ol)
     // If we enter a nested list, we increase the indentation for children.
