@@ -161,8 +161,23 @@ Here is some useful information about the environment you are running in:
   Workspace root folder: /home/dinhlx/source/UniinfoNotes
   Is directory a git repo: yes
   Platform: linux
-  Today's date: Wed May 13 2026
+  Today's date: Thu May 14 2026
 `</env>`
+Instructions from: /home/dinhlx/.config/opencode/AGENTS.md
+# OpenCode Agent Protocols
+
+## Task Management & Tracking
+- **Proactive use of `todowrite`**: Always use the `todowrite` tool for tasks requiring 3 or more steps. This ensures a shared, visible state of progress between the agent and the user.
+- **State Synchronization**: When operating in "Plan Mode," ensure the `todowrite` list aligns with the phases defined in the Markdown plan file.
+- **Verification of Completion**: Never mark a major task or phase as `completed` without performing the necessary verification and, where required by the workflow, obtaining user confirmation.
+
+## Plan Mode Workflow & Tooling
+- **`plan_exit` Workaround**: If the `plan_exit` tool is unavailable or fails, simply ask the user for approval and to switch to Build Mode to conclude the planning phase.
+
+## Iterative Refinement
+- **Dynamic Planning**: Treat plans as living documents. In complex tasks, the "Build" phase should inform updates to the "Plan," and these updates must be communicated and confirmed with the user.
+- **Scrutiny Points**: Identify and communicate specific "scrutiny points" where user feedback is critical before proceeding (e.g., after initial parsing or before destructive operations).
+
 Skills provide specialized instructions and workflows for specific tasks.
 Use the skill tool to load a skill when a task matches its description.
 `<available_skills>`
@@ -170,5 +185,10 @@ Use the skill tool to load a skill when a task matches its description.
     `<name>`browser-automation`</name>`
     `<description>`Reliable, composable browser automation using complementary OpenCode Browser (simple) and CDP (in-depth) tools.`</description>`
     `<location>`file:///home/dinhlx/.config/opencode/skills/browser-automation/SKILL.md`</location>`
+  `</skill>`
+  `<skill>`
+    `<name>`site-scraping`</name>`
+    `<description>`HTML-to-Markdown site scraping via CDP, covering both Turndown.js (generic) and custom DOM recursion (targeted) approaches, with CDP automation patterns.`</description>`
+    `<location>`file:///home/dinhlx/.config/opencode/skills/site-scraping/SKILL.md`</location>`
   `</skill>`
 `</available_skills>`
