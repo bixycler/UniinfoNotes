@@ -32,7 +32,7 @@ const URLS = [
     { url: '/psx-archive/lomega/', file: 'psx-archive/lomega.md' },
     { url: '/psx-archive/morituro-satis-resolution/', file: 'psx-archive/morituro-satis-resolution.md' },
     { url: '/psx-archive/pairing/', file: 'psx-archive/pairing.md' },
-    { url: '/psx-archive/psx-español/', file: 'psx-archive/psx-espanol.md' },
+    { url: '/psx-archive/psx-espa%C3%B1ol/', file: 'psx-archive/psx-espanol.md' },
     { url: '/psx-archive/spirituality/', file: 'psx-archive/spirituality.md' },
     { url: '/psx-archive/the-0-axiom/', file: 'psx-archive/the-0-axiom.md' },
     { url: '/the-table-mensa/parallel-studies/', file: 'the-table-mensa/parallel-studies.md' },
