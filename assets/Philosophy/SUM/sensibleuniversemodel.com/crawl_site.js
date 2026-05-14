@@ -1,3 +1,4 @@
+module.paths.push('/usr/lib/node_modules'); // Use global modules, because no Node.js installed in this repo
 const CDP = require('chrome-remote-interface');
 const fs = require('fs');
 const path = require('path');
