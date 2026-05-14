@@ -1,5 +1,6 @@
 /logseq/bak
 /logseq/.recycle
+/node_modules
 .idea/
 *.iml
 *.swp

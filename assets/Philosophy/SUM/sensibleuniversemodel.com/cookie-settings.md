@@ -1,5 +1,6 @@
 ### Cookie Policy
 
+
 Esta página web utiliza cookies. Es posible obtener más información sobre los tipos de cookies que se utilizan y habilitar cookies individuales en sus respectivas categorías. Se puede establecer la configuración en cualquier momento entrando al enlace que se encuentra en el pie de página de este sitio web.
 
 [Accept all]()[Reject all]()[Imprint](/imprint/)[Privacy Policy](/privacy-policy/)Strictly necessary

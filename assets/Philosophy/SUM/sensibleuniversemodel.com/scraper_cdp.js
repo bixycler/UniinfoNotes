@@ -25,7 +25,7 @@ function nodeToMarkdown(node, isHeading = false, indent = '') {
     // NOTE: For Jimdo-based sites, we also exclude custom jimdo-header and jimdo-nav components.
     if (tagName === 'script' || tagName === 'style' || tagName === 'svg' || 
         tagName === 'nav' || tagName === 'header' || tagName === 'footer' ||
-        tagName === 'jimdo-header' || tagName === 'jimdo-nav') return '';
+        tagName === 'jimdo-header' || tagName === 'jimdo-nav' || tagName === 'aside') return '';
 
     let prefix = '';
     let suffix = '';
@@ -42,7 +42,7 @@ function nodeToMarkdown(node, isHeading = false, indent = '') {
     // 5. Block Elements (p, div)
     // We add double newlines to separate paragraphs.
     else if (tagName === 'p' || tagName === 'div') { 
-        if (tagName === 'p' || (tagName === 'div' && (node.className.includes('content') || node.className.includes('text')))) { 
+        if (tagName === 'p' || (tagName === 'div' && (String(node.className || '').includes('content') || String(node.className || '').includes('text')))) { 
             prefix = '\n\n' + indent; suffix = '\n'; 
         }
     }
