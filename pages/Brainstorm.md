@@ -34,9 +34,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Every encounter – even a scam – becomes an opportunity to return what was never truly owned.
 				- This leads to a state of *actual stillness* and relaxation – contrasting the tension of those grasping for “positivity” or “protection”.
 			- The parable of the sisters
-				- The “Dressed Lie” suits expectations and comforts the ego by changing outfits.
-				- The “Naked Truth” is often feared, called “crazy”, or abused because it lacks the familiar garments of social comfort.
-				- True liberation comes from embracing the unadorned reality – being “given away” so that nothing remains for the world to take.
+				- The Dressed Lie suits expectations and comforts the ego by changing outfits.
+				- The Naked Truth is often feared, called “crazy”, or abused because it lacks the familiar garments of social comfort.
+				- Liberation comes from embracing the unadorned reality – being “given away” so that there is nothing left to lose.
 		- Content–form duality = wave–particle duality
 		  id:: 6a01d7eb-1d13-4d07-bfd3-0dd87f115f54
 		  collapsed:: true
