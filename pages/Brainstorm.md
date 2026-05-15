@@ -73,7 +73,31 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- TODO Vacantism through zero-person perspective
 		  id:: 6a012b04-8e57-4927-a363-14ec798334b3
 		  collapsed:: true
-			-
+			- Perspectives
+				- 1PP (First-Person Perspective): This is the subjective viewpoint from within the system where the universe localizes to look at itself.
+				- 3PP (Third-Person Perspective): This represents the objective observer, viewing reality from the outside in, assuming a boundary between observer and observed.
+				- 0PP (Zero-Person Perspective): This refers to pure awareness without a localized self, where the subject-object split collapses into an unbroken whole.
+					- Parallel projection: Geometrically, 0PP acts as a parallel projection with no converging lines, revealing direct structural tension.
+					- Undistorted truth: This is reached by relaxing the focal point right here now, rather than the 3PP illusion of placing an implied viewer at an infinite distance.
+					- Direct immediacy: Unlike 1PP, 0PP does not distort through a localized lens; unlike 3PP, it does not move away or detach from the source.
+			- The 3PP trap
+				- God's eye illusion: People often mistake their localized 3PP judgment for absolute truth, projecting an internal wireframe onto the universe.
+				- Head above a head: A Zen metaphor for creating a redundant, phantom observer that sits above natural experience to narrate and judge.
+				- Absolute objectivity: The pursuit of pure objectivity eventually eliminates the subject, shrinking the “screen” to a point and resulting in nihilism.
+			- Navigation of the strange loop
+				- 1. 1PP & 3PP – see it: The **view cone** separates the world at the base from the subject at the apex via a rendering screen.
+					- The subject typically sees only the image on the screen, not the actual world or the subject behind the eyes.
+					- Proper navigation involves reclaiming the whole view cone – both visible and invisible – to prevent structural collapse.
+				- 2. 0PP – be it: At the apex, separation vanishes; the Buddhist “no-self” is the subject merging with the object to be the field.
+					- The quantum field is the unbroken whole that cannot be broken into separate particles or waves.
+				- 3. Back to 1PP – be & see it together: The field excites into a particle, bringing the whole universe into a position to see itself.
+					- **Great Mirror Wisdom**: The subject remembers unity and continuously updates to reflect the object without freezing images.
+					- **Frozen Godhead**: The subject forgets unity and clings to a static self-image of the past to try and control the world.
+			- Relation to Vacantism
+				- Essence and condition: Vacantism is the state of **vacancy** – the “openness” that serves as the prerequisite for the circle to flow.
+				- Layman definition: Vacantism is the practice of “keeping the mind open” to ensure the “mirror” is not occupied by dead images.
+				- Dynamic process: The Grand Circle is the movement of information flowing through that vacancy.
+				- Non-nihilistic: Unlike “emptiness” which can imply a void, vacancy represents an available capacity for the whole universe to flow through – preventing the “suicide” of eliminating the subject.
 		- The ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) in life
 		  id:: 69faacc8-3e0b-4b4e-8939-a7c11dde9154
 		  collapsed:: true

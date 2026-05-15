@@ -1815,7 +1815,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Eventually, the exercise of scraping sensibleuniversemodel.com (for NotebookLM sources) has produced a new skill `site-scraping` with scripts converting HTML to Markdown comparable to [Turndown](https://github.com/mixmark-io/turndown).
 				- Although OpenCode manages context better than Hermes, in these 2 days it has eaten nearly 500k₫ 🙁!
 					- The flat-rate monthly charge of Antigravity (and Claude Code, etc.) is clearly much cheaper than this “pay as you go” API charge.
-			- 15th...
+			- 15th, review both CIE viewcone and the company project to be release
 			  collapsed:: true
 				- ((6a06c541-a653-444c-b936-547054a42bd8)) ← [chat with Gemini](https://g.co/gemini/share/4593a0c47d10)
 				  collapsed:: true
