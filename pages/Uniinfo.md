@@ -206,6 +206,18 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 						  ![chord_diagram_example.png](../assets/Uniinfo/Unithread/chord_diagram_example.png){:width 400}
 					- As a [cyclic order](https://en.wikipedia.org/wiki/Cyclic_order), the Grand Circle shows the vacantness of the Trinion that clears the illusion of a linear order from an absolute suppreme being or foundation to all things in the Universe. The Grand Circle has been traditionally symbolized by [the Ouroboros](https://en.wikipedia.org/wiki/Ouroboros), and its paradoxical impression is called “[strange loop](https://en.wikipedia.org/wiki/Strange_loop)” recently by Douglas Hofstadter.
 						- ![Escher - Drawing Hands - 1946.jpg](../assets/Uniinfo/Escher - Drawing Hands - 1946.jpg){:width 200, :height 150}
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- How the Grand Circle dissolves traditional paradoxes
+					  collapsed:: true
+						- Resolution of the [hard problem of consciousness](https://en.wikipedia.org/wiki/Hard_problem_of_consciousness)
+							- Dissolving the foundation: The “hard” part of the problem is the hidden assumption of a fixed foundation.
+							- Scale-induced stasis: Due to the massive ratio ($c, h$) between the universe at the base and the human at the apex, the subject appears as a fixed crystal.
+							- Crystal as whole: This seemingly fixed foundation is actually the crystallization of the whole universe at a specific coordinate.
+							- Vacantism: By replacing the fixed foundation with vacancy, the problem is resolved – the subject is recognized as the substrate rather than an emergent byproduct.
+						- Holistic Resolution of Tension
+							- Beyond Design vs. Chance: This resolution dissolves the choice between a “Creative God” and “Mere Chance”. Creation is the top-down action of the 0PP field localizing into a 1PP coordinate.
+							- Well-Designed Brain vs. Boltzmann Brain: The brain is not a random fluctuation in a void, but a crystallization of the whole universe.
+							- Structural Design: The “design” is the crystallization itself. Its elegance is the elegance of the whole, which excels any part.
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- About the term “vacantism”
 				  id:: 6852b33f-a694-442e-a599-0110163e4ac8
@@ -259,6 +271,35 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 								- [源](https://en.wiktionary.org/wiki/%E6%BA%90): Phono-semantic & ideogrammic compound 源 = 原 (“origin”) + [氵](https://en.wiktionary.org/wiki/%E6%B0%B5) (“water”) → “source (of water)”
 									- This is the developed version of 原 to separate the meaning of “source” from other meanings of 原 like “field, plain” or “raw, unprocessed”. Before this development, “source” was written with 原.
 					- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) English “vacantism” ← “[vacant](https://en.wiktionary.org/wiki/vacant)” ← Latin “[vacans](https://en.wiktionary.org/wiki/vacans#Latin)” ← “[vacō](https://en.wiktionary.org/wiki/vaco#Latin)” (empty, void, unoccupied, free [time]) ← PIE “[*h₁weh₂-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81weh%E2%82%82-)” (empty, extinguished) → English “void”, “want”, “vain”, “vacant”, “vacuum”, etc.
+				- [Vacantism](((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2))) through zero-person perspective
+				  id:: 6a012b04-8e57-4927-a363-14ec798334b3
+				  collapsed:: true
+					- Perspectives
+						- 1PP (First-Person Perspective): This is the subjective viewpoint from within the system where the universe localizes to look at itself.
+						- 3PP (Third-Person Perspective): This represents the objective observer, viewing reality from the outside in, assuming a boundary between observer and observed.
+						- 0PP (Zero-Person Perspective): This refers to pure awareness without a localized self, where the subject-object split collapses into an unbroken whole.
+							- Parallel projection: Geometrically, 0PP acts as a parallel projection with no converging lines, revealing direct structural tension.
+							- Undistorted truth: This is reached by relaxing the focal point right here now, rather than the 3PP illusion of placing an implied viewer at an infinite distance.
+							- Direct immediacy: Unlike 1PP, 0PP does not distort through a localized lens; unlike 3PP, it does not move away or detach from the source.
+					- The 3PP trap
+						- God's eye illusion: People often mistake their localized 3PP judgment for absolute truth, projecting an internal wireframe onto the universe.
+						- Head above a head: A Zen metaphor for creating a redundant, phantom observer that sits above natural experience to narrate and judge.
+						- Absolute objectivity: The pursuit of pure objectivity eventually eliminates the subject, shrinking the “screen” to a point and resulting in nihilism.
+					- Navigation of the [strange loop](((6772a6cd-771f-4f24-9c3a-39c442234be5)))
+						- 1. 1PP & 3PP – see it: The **view cone** separates the world at the base from the subject at the apex via a rendering screen.
+							- The subject typically sees only the image on the screen, not the actual world or the subject behind the eyes.
+							- Proper navigation involves reclaiming the whole view cone – both visible and invisible – to prevent structural collapse.
+						- 2. 0PP – be it: At the apex, separation vanishes; the Buddhist “no-self” is the subject merging with the object to be the field.
+							- The quantum field is the unbroken whole that cannot be broken into separate particles or waves.
+						- 3. Back to 1PP – be & see it together: The field excites into a particle, bringing the whole universe into a position to see itself.
+							- **Great Mirror Wisdom**: The subject remembers unity and continuously updates to reflect the object without freezing images.
+							- **Frozen Godhead**: The subject forgets unity and clings to a static self-image of the past to try and control the world.
+					- Relation to Vacantism
+						- Essence and condition: Vacantism is the state of **vacancy** – the “openness” that serves as the prerequisite for the circle to flow.
+						- Layman definition: Vacantism is the practice of “keeping the mind open” to ensure the “mirror” is not occupied by dead images.
+						- Dynamic process: The Grand Circle is the movement of information flowing through that vacancy.
+						- Non-nihilistic: Unlike “emptiness” which can imply a void, vacancy represents an available capacity for the whole universe to flow through – preventing the “suicide” of eliminating the subject.
+				-
 		- Trinion numbering
 		  collapsed:: true
 			- The equation ⟪○ = ↑⟫ is the One that unifies the Two opposites (○, ↑) via the Third (=). This is called ((69367cf5-9894-4fb8-a293-2b1109777fc9)) (☯). Hence, the Unïnfo seems to be [trialistic](https://en.wikipedia.org/wiki/Pluralism_(philosophy)) (due to the Three components), or [dualistic](https://en.wikipedia.org/wiki/Dualism_in_cosmology) (due to the Two opposites), or [monistic](https://en.wikipedia.org/wiki/Monism) (due to the One equation), but actually it's ((68b95b62-9e60-4ef2-9540-f563c76a5d17)) as reflected by the intrinsics of the Zero (the Trinion).
