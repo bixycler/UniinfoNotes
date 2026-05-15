@@ -70,7 +70,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- The statistical spacing of primes and quantum energy levels follows the **GUE** distribution.
 				- This signature proves that the “randomness” of primes is actually a sophisticated, chaotic structure – the mathematical fingerprint of the **SCIFER** operation acting on a complex continuum.
 				- The **GUE** is the resonance pattern of the continuous content being “rung” by the discrete intent circle.
-		- Vacantism through zero-person perspective
+		- TODO Vacantism through zero-person perspective
 		  id:: 6a012b04-8e57-4927-a363-14ec798334b3
 		  collapsed:: true
 			-
