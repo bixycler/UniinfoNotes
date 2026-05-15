@@ -1,13 +1,3 @@
-- In Vietnamese, we have a dual: “chó chê mèo lắm lông; mèo khen mèo dài đuôi!” It is all about ourselves in either criticism or praise, but we usually borrow others to do it.
-- [The Confidence Game and the Gift of Self](https://g.co/gemini/share/4593a0c47d10)
-    - I hear "con man" in spoken English and always thought it was "cun man" with cunning... until now i learn its correct spelling when i need to write it down. 
-Why "confidence" can be used to trick?
-    - Confidence is self trust, but why my trust on you proves my self trust?! 🤔 
-    - Because your trust in them is proof that you have confidence in your own decision-making process.
-    - This is a clear trickery. It's so obvious to me that i can't imagine how people got trapped. 🤔
-    - Flattery: They validate your ego and your intelligence.
-    - Yeah, i'm immune maybe because i never consider myself good, wise, etc. 😄
-    - It's interesting that the con man exploit the deepest slavery of humanity, that to the greatest master -- the ego! 😅
 - ---
 - The Grand Circle of Vacantism: (my draft)
   collapsed:: true
@@ -30,7 +20,6 @@ Why "confidence" can be used to trick?
 			- Remembering the unity, the subject continuously updates itself to reflect the object, hence the Great Mirror Wisdom.
 			- Forgetting the unity, the subject freezes its self-image into an absolute truth to control everything and to act upon the external world.
 		- The uniqueness of the past is the reflection of the uniqueness of the whole. But by forgetting the constantly changing whole, people usually cling to the image of the past, whose the ultimate is the self attachment.
-- ---
 - openness = porosity = entropy increase = arrow of time = mismatch between form & content =  curvature in distribution
 - past form = copy of present form = mixture of present content
   collapsed:: true

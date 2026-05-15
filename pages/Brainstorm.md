@@ -11,6 +11,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2026 Brainstorms
 	  id:: 6960e754-ff94-4e1a-8266-d9f15231b880
+		- The con(fidence) game and the self-slavery
+		  id:: 6a06c541-a653-444c-b936-547054a42bd8
+		  collapsed:: true
+			-
 		- Content–form duality = wave–particle duality
 		  id:: 6a01d7eb-1d13-4d07-bfd3-0dd87f115f54
 		  collapsed:: true
