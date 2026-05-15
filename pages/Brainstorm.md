@@ -14,7 +14,29 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- The con(fidence) game and the self-slavery
 		  id:: 6a06c541-a653-444c-b936-547054a42bd8
 		  collapsed:: true
-			-
+			- Linguistic origin: The shift from “cunning” to “confidence”
+				- While “cunning” describes the predator's skill, “confidence” targets the victim's psychology.
+				- It relies on the *ego-slavery* of the target – the desire to be validated as wise, special, or savvy.
+			- The trap of self-trust
+				- A con man inspires confidence in the victim's own decision-making process.
+				- Trusting the scammer becomes a way for the victim to affirm their own “superior” intuition.
+				- To admit the lie later is to admit an ego-wound – a failure of judgment that the self-protective mind cannot endure.
+			- The immunity of the 0PP (Zero-Person Perspective)
+				- Immunity arises when Will considers himself neither “good”, “wise”, nor “special”.
+				- Without a selfish ego to protect or validate, there is no “handle” for the con man to grab.
+				- The scammer’s primary tool – the victim's pride – has nothing to latch onto.
+			- _Trust as **sacrifice**_, not transaction
+				- Trust is redefined by Will as an *acceptance to give away the self* or a share, a sacrifice.
+				- It is a “release” rather than a “proof of confidence” – which Will describes as “sick”.
+				- This removes the “debt” created by the other's behavior – if the resource was already a gift, it cannot be stolen.
+			- The life-long debt of existence
+				- Will lives to “pay a debt”, reversing the standard logic of accumulation and entitlement.
+				- Every encounter – even a scam – becomes an opportunity to return what was never truly owned.
+				- This leads to a state of *actual stillness* and relaxation – contrasting the tension of those grasping for “positivity” or “protection”.
+			- The parable of the sisters
+				- The “Dressed Lie” suits expectations and comforts the ego by changing outfits.
+				- The “Naked Truth” is often feared, called “crazy”, or abused because it lacks the familiar garments of social comfort.
+				- True liberation comes from embracing the unadorned reality – being “given away” so that nothing remains for the world to take.
 		- Content–form duality = wave–particle duality
 		  id:: 6a01d7eb-1d13-4d07-bfd3-0dd87f115f54
 		  collapsed:: true
