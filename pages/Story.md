@@ -1815,6 +1815,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 15th...
 			  collapsed:: true
 				- ((6a06c541-a653-444c-b936-547054a42bd8)) ← [chat with Gemini](https://g.co/gemini/share/4593a0c47d10)
+				  collapsed:: true
 					- I hear "con man" in spoken English and always thought it was "cun man" with cunning... until now do i learn its correct spelling when i need to write it down. 
 					  Why "confidence" can be used to trick?
 					- Confidence is self trust, but why my trust on you proves my self trust?! 🤔
@@ -1824,6 +1825,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Yeah, i'm immune maybe because i never consider myself good, wise, etc. 😄
 					- It's interesting that the con man exploit the deepest slavery of humanity, that to the greatest master -- the ego! 😅
 				- In Vietnamese, we have a dual: “chó chê mèo lắm lông; mèo khen mèo dài đuôi!” It is all about ourselves in either criticism or praise, but we usually borrow others to do it.
+				-
 		- Will Lei as an intense-world systems architect: an autobiographical analysis through neuroscience and systems theory
 		  id:: 69fdbffa-dc65-4d72-bbf6-d35bf88a3482
 		  collapsed:: true
