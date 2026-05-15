@@ -1710,9 +1710,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 			- 7th, CIE interunion & SUM (Sensible Universe Model)
 			  collapsed:: true
-				- CIE interunion: const (1) = sustent = content(+) + intent(-) = (extent + 1) * intent
+				- CIE interunion: const (1) = sustent = content(+) + intent(-) = (extent + 1) × intent
 				  id:: 69fbfefc-dde0-48cf-9ee1-79b1fba14e71
 					- Critical note: The constant is the sustent – the total content – not the object content(+), but they are very similar when the intent approaches zero.
+						- So, the constant product is of intent and extent *plus one*, not intent × extent.
 					- epsilon (0) = |positive| - |negative| = i_{0} = air quantum in “out of thin air” = arrowhead point = apex of view cone = memory cell
 					- holism: the ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) has content = sustent (1) compressed into an extent = epsilon (0), i.e. its intensity = omega = 1/epsilon
 					- tree view vs set view
@@ -1830,7 +1831,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Review [CIE interunion](((69fbfefc-dde0-48cf-9ee1-79b1fba14e71))) with viewcone
 					- The conflation (fallacy) of the (object) content with the sustent (total content) is still very strong in me!
 						- It reflects in the definition ((687f322c-2334-46e5-816b-57889e5c6b89)) = ((678e1d31-4874-4df6-bfb4-60822a6b5546))
-						- The tiny intent at the apex is usually ignored due to its invisibility ([behind the eyes](((68898917-e61f-4d23-9124-474efa9a9eee)))) and its tiny size relative to the content at the base.
+						- The tiny intent at the apex is usually ignored due to its invisibility ([behind the eyes](((68898917-e61f-4d23-9124-474efa9a9eee)))) and its tiny size relative to the large content at the base.
 		- Will Lei as an intense-world systems architect: an autobiographical analysis through neuroscience and systems theory
 		  id:: 69fdbffa-dc65-4d72-bbf6-d35bf88a3482
 		  collapsed:: true
