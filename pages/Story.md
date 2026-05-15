@@ -1711,7 +1711,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 7th, CIE interunion & SUM (Sensible Universe Model)
 			  collapsed:: true
 				- CIE interunion: const (1) = sustent = content(+) + intent(-) = (extent + 1) * intent
-					- epsilon (0) = positive + negative = i_{0} = air quantum in “out of thin air” = arrowhead point = apex of view cone = memory cell
+				  id:: 69fbfefc-dde0-48cf-9ee1-79b1fba14e71
+					- epsilon (0) = |positive| - |negative| = i_{0} = air quantum in “out of thin air” = arrowhead point = apex of view cone = memory cell
 					- holism: the ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) has content = sustent (1) compressed into an extent = epsilon (0), i.e. its intensity = omega = 1/epsilon
 					- tree view vs set view
 						- intent (content of each unit, the circle) divides, refining into thin air
@@ -1825,7 +1826,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Yeah, i'm immune maybe because i never consider myself good, wise, etc. 😄
 					- It's interesting that the con man exploit the deepest slavery of humanity, that to the greatest master -- the ego! 😅
 				- In Vietnamese, we have a dual: “chó chê mèo lắm lông; mèo khen mèo dài đuôi!” It is all about ourselves in either criticism or praise, but we usually borrow others to do it.
-				-
+				- Review [CIE interunion](((69fbfefc-dde0-48cf-9ee1-79b1fba14e71))) with viewcone
+					- The conflation of (object) content with sustent is still very strong (fallacy) in me!
+						-
 		- Will Lei as an intense-world systems architect: an autobiographical analysis through neuroscience and systems theory
 		  id:: 69fdbffa-dc65-4d72-bbf6-d35bf88a3482
 		  collapsed:: true
