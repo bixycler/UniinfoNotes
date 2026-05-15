@@ -1733,7 +1733,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- His path to conversion was driven by deep personal pain, including the loss of 3 loved ones to suicide and other significant life conflicts. After reaching a breaking point, he found healing through the support of the Carmelite friars in Toledo, who introduced him to the writings of Saint John of the Cross and Saint Teresa of Jesus.
 								- He explains that it was in a Cistercian monastery where he had his own "fall from the horse" moment, where his previous convictions crumbled, allowing a new truth to "enter his body". This led him to take the habit as **a lay brother in the monastery of Las Batuecas**.
 				- [Qwen-Scope](https://www.marktechpost.com/2026/05/01/qwen-ai-releases-qwen-scope-an-open-source-sparse-autoencoders-sae-suite-that-turns-llm-internal-features-into-practical-development-tools) to look into the LLM's brain.
-				- [sensibleuniversemodel.com](https://www.sensibleuniversemodel.com/) blocks NotebookLM > asked Hermes to scrape it > got a persistent broken format > debugged with Hermes > realized that i was trapped by my own deep core and vision!
+				- [sensibleuniversemodel.com](https://www.sensibleuniversemodel.com/) blocks NotebookLM > asked Hermes to scrape it > got a persistently broken format > debugged with Hermes > realized that i was trapped by my own deep core and vision!
 					- The capability to see deep is a possession just like talent, health, strength, wealth => attachment
 						- This "possession" is in both ways: not only i possess it but it also possesses me!
 							- > The things you own end up owning you. It's only after you lose everything that you're free to do anything.
