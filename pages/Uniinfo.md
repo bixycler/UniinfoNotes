@@ -218,6 +218,20 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 							- Beyond Design vs. Chance: This resolution dissolves the choice between a “Creative God” and “Mere Chance”. Creation is the top-down action of the 0PP field localizing into a 1PP coordinate.
 							- Well-Designed Brain vs. Boltzmann Brain: The brain is not a random fluctuation in a void, but a crystallization of the whole universe.
 							- Structural Design: The “design” is the crystallization itself. Its elegance is the elegance of the whole, which excels any part.
+			- Great Mirror Wisdom
+			  id:: 6a071b20-7248-42da-88ed-633be610b6df
+			  collapsed:: true
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((6a071b20-7248-42da-88ed-633be610b6df)) is the reflection mechanism of the Universe on itself.
+				- Mechanics of the mirror
+					- Impartial reflection: The mirror reflects everything with equal precision, without judgment, preference, or resistance.
+					- Frictionless updating: The reflection is instantaneous and leaves no trace once the object moves, refusing to grasp previous images.
+				- Relationship with time
+					- Death of the static past: The past is recognized not as a fixed place but as a reconstructed projection happening in the present.
+					- Arrow of time: An emergent mixing of threads in the present rather than a predestined path.
+				- Memory and structural records
+					- Interaction of directions: Top-down view provides knowledge for bottom-up action; the whole universe acts upon every single point.
+					- Nature of memory: Memory is an image yet to be updated because nothing has yet caused it to change at that spacetime coordinate.
+					- Graduation of images: A continuous spectrum from fleeting data to lasting knowledge, but with absolutely no permanent form.
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- About the term “vacantism”
 				  id:: 6852b33f-a694-442e-a599-0110163e4ac8
@@ -292,14 +306,13 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 						- 2. 0PP – be it: At the apex, separation vanishes; the Buddhist “no-self” is the subject merging with the object to be the field.
 							- The quantum field is the unbroken whole that cannot be broken into separate particles or waves.
 						- 3. Back to 1PP – be & see it together: The field excites into a particle, bringing the whole universe into a position to see itself.
-							- **Great Mirror Wisdom**: The subject remembers unity and continuously updates to reflect the object without freezing images.
+							- ((6a071b20-7248-42da-88ed-633be610b6df)): The subject remembers unity and continuously updates to reflect the object without freezing images.
 							- **Frozen Godhead**: The subject forgets unity and clings to a static self-image of the past to try and control the world.
 					- Relation to Vacantism
 						- Essence and condition: Vacantism is the state of **vacancy** – the “openness” that serves as the prerequisite for the circle to flow.
 						- Layman definition: Vacantism is the practice of “keeping the mind open” to ensure the “mirror” is not occupied by dead images.
 						- Dynamic process: The Grand Circle is the movement of information flowing through that vacancy.
 						- Non-nihilistic: Unlike “emptiness” which can imply a void, vacancy represents an available capacity for the whole universe to flow through – preventing the “suicide” of eliminating the subject.
-				-
 		- Trinion numbering
 		  collapsed:: true
 			- The equation ⟪○ = ↑⟫ is the One that unifies the Two opposites (○, ↑) via the Third (=). This is called ((69367cf5-9894-4fb8-a293-2b1109777fc9)) (☯). Hence, the Unïnfo seems to be [trialistic](https://en.wikipedia.org/wiki/Pluralism_(philosophy)) (due to the Three components), or [dualistic](https://en.wikipedia.org/wiki/Dualism_in_cosmology) (due to the Two opposites), or [monistic](https://en.wikipedia.org/wiki/Monism) (due to the One equation), but actually it's ((68b95b62-9e60-4ef2-9540-f563c76a5d17)) as reflected by the intrinsics of the Zero (the Trinion).
