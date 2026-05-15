@@ -299,7 +299,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 						- God's eye illusion: People often mistake their localized 3PP judgment for absolute truth, projecting an internal wireframe onto the universe.
 						- Head above a head: A Zen metaphor for creating a redundant, phantom observer that sits above natural experience to narrate and judge.
 						- Absolute objectivity: The pursuit of pure objectivity eventually eliminates the subject, shrinking the “screen” to a point and resulting in nihilism.
-					- Navigation of the [strange loop](((6772a6cd-771f-4f24-9c3a-39c442234be5)))
+					- Navigating the ((6772a6cd-771f-4f24-9c3a-39c442234be5))
 						- 1. 1PP & 3PP – see it: The **view cone** separates the world at the base from the subject at the apex via a rendering screen.
 							- The subject typically sees only the image on the screen, not the actual world or the subject behind the eyes.
 							- Proper navigation involves reclaiming the whole view cone – both visible and invisible – to prevent structural collapse.
