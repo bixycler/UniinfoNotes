@@ -141,38 +141,11 @@ function preprocessCodeBlocks(lines) {
 }
 
 // 1. Index Internal Blocks (UUID -> Title) for local freshness override
-function indexInternalBlocks(filePath) {
+function indexInternalBlocks(filePath, cleanLines) {
     const mapping = {};
     const lineMap = {};
     try {
-        const content = fs.readFileSync(filePath, 'utf8');
-        let rawLines = content.split('\n');
-
-        // Page-Header Item Normalization
-        if (rawLines.length > 0 && rawLines[0].trim().startsWith('# ') && !rawLines[0].trim().startsWith('- ')) {
-            // Replace the first line by prepending a bullet
-            rawLines[0] = '- ' + rawLines[0].trimStart();
-        }
-
-        const { cleanLines } = preprocessCodeBlocks(rawLines);
-
-        let lastContentLine = "";
-        let seenBullet = false;
-
-        // Try to get page name/title for fallback
-        let pageTitle = "";
-        const fileBase = path.basename(filePath, '.md');
-        if (rawLines.length > 0) {
-            const firstLineTrim = rawLines[0].trim();
-            if (firstLineTrim.startsWith('- # ')) {
-                pageTitle = firstLineTrim.substring(4).trim();
-            } else if (firstLineTrim.startsWith('# ')) {
-                pageTitle = firstLineTrim.substring(2).trim();
-            }
-        }
-        if (!pageTitle) {
-            pageTitle = fileBase;
-        }
+        let lastContentLine = path.basename(filePath, '.md');
 
         for (let i = 0; i < cleanLines.length; i++) {
             const { line, originalIndex } = cleanLines[i];
@@ -183,30 +156,24 @@ function indexInternalBlocks(filePath) {
             }
 
             if (stripped.startsWith('- ')) {
-                seenBullet = true;
                 let content = stripped.substring(2).trim();
                 const idMatch = content.match(PAT_ID_PROP);
                 if (idMatch) {
                     const uuid = idMatch[1];
                     const title = content.replace(idMatch[0], '').trim();
-                    mapping[uuid] = title || pageTitle;
+                    mapping[uuid] = title || lastContentLine;
                     lineMap[uuid] = { srcLine: originalIndex + 1, srcFile: filePath };
-                    lastContentLine = title;
+                    lastContentLine = title || lastContentLine;
                 } else {
-                    lastContentLine = content;
+                    lastContentLine = content || lastContentLine;
                 }
             } else {
                 // Check for property line (indented or top-level)
                 const idMatch = stripped.match(PAT_ID_PROP);
-                if (idMatch) {
+                if (idMatch && lastContentLine) {
                     const uuid = idMatch[1];
-                    if (!seenBullet) {
-                        mapping[uuid] = pageTitle;
-                        lineMap[uuid] = { srcLine: originalIndex + 1, srcFile: filePath };
-                    } else if (lastContentLine) {
-                        mapping[uuid] = lastContentLine;
-                        lineMap[uuid] = { srcLine: originalIndex + 1, srcFile: filePath };
-                    }
+                    mapping[uuid] = lastContentLine;
+                    lineMap[uuid] = { srcLine: originalIndex + 1, srcFile: filePath };
                 }
             }
         }
@@ -216,14 +183,22 @@ function indexInternalBlocks(filePath) {
     return { titleMap: mapping, lineMap };
 }
 
+function buildLinkTarget(uuid, inputPath, outputPath, sourceLineMap) {
+    let target = `#${uuid}`;
+    const entry = sourceLineMap[uuid];
+    
+    if (entry && entry.srcFile && entry.srcFile !== inputPath) {
+        if (entry.outFile) {
+            const relPath = path.relative(path.dirname(outputPath), entry.outFile);
+            target = relPath.replace(/\\/g, '/') + target;
+        }
+    }
+    return target;
+}
+
 // 2. Convert File
-function convertFile(inputPath, outputPath, uuidMap, sourceLineMap) {
+function convertFile(inputPath, outputPath, uuidMap, sourceLineMap, cleanLines, codeBlockMap) {
     try {
-        const content = fs.readFileSync(inputPath, 'utf8');
-        const lines = content.split('\n');
-        
-        const { cleanLines, codeBlockMap } = preprocessCodeBlocks(lines);
-        
         let nmd = '';
         let outputLine = 0; // 1‑based line counter for the generated file
 
@@ -323,7 +298,8 @@ function convertFile(inputPath, outputPath, uuidMap, sourceLineMap) {
                     const content = headerMatch[2];
                     displayTitle = `<span class=\"link-h${level}\">${content}</span>`;
                 }
-                return `[${displayTitle}](#${uuid})`;
+                let target = buildLinkTarget(uuid, inputPath, outputPath, sourceLineMap);
+                return `[${displayTitle}](${target})`;
             });
             
             // Legacy link syntax support: ((UUID))
@@ -335,7 +311,8 @@ function convertFile(inputPath, outputPath, uuidMap, sourceLineMap) {
                     const content = headerMatch[2];
                     title = `<span class=\"link-h${level}\">${content}</span>`;
                 }
-                return `[${title}](#${uuid})`;
+                let target = buildLinkTarget(uuid, inputPath, outputPath, sourceLineMap);
+                return `[${title}](${target})`;
             });
 
             // New link syntax support: [[UUID]]
@@ -347,7 +324,8 @@ function convertFile(inputPath, outputPath, uuidMap, sourceLineMap) {
                     const content = headerMatch[2];
                     title = `<span class=\"link-h${level}\">${content}</span>`;
                 }
-                return `[${title}](#${uuid})`;
+                let target = buildLinkTarget(uuid, inputPath, outputPath, sourceLineMap);
+                return `[${title}](${target})`;
             });
 
             // After link processing, record the output line and file for any UUID that appears in this line
@@ -440,8 +418,19 @@ const isSingleInput = mdFiles.length === 1;
 for (const file of mdFiles) {
     console.log(`\nProcessing file: ${file}`);
     
+    // Read and preprocess file contents
+    const content = fs.readFileSync(file, 'utf8');
+    let rawLines = content.split('\n');
+
+    // Page-Header Item Normalization
+    if (rawLines.length > 0 && rawLines[0].trim().startsWith('# ') && !rawLines[0].trim().startsWith('- ')) {
+        rawLines[0] = '- ' + rawLines[0].trimStart();
+    }
+
+    const { cleanLines, codeBlockMap } = preprocessCodeBlocks(rawLines);
+    
     // Index internal blocks to get fresh local overrides for this file
-    const { titleMap: localTitleMap, lineMap: localLineMap } = indexInternalBlocks(file);
+    const { titleMap: localTitleMap, lineMap: localLineMap } = indexInternalBlocks(file, cleanLines);
     console.log(`Indexed ${Object.keys(localTitleMap).length} internal blocks for local override.`);
     
     // Merge internal blocks (local overrides global mapping)
@@ -461,7 +450,7 @@ for (const file of mdFiles) {
     console.log(`Output target: ${outputPath}`);
     
     // Convert the file
-    convertFile(file, outputPath, activeTitleMap, activeSourceLineMap);
+    convertFile(file, outputPath, activeTitleMap, activeSourceLineMap, cleanLines, codeBlockMap);
     
     // Propagate all updates back to our in-memory mappings
     for (const uuid in activeTitleMap) {

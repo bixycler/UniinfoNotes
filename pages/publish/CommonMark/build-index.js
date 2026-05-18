@@ -122,23 +122,8 @@ function indexFileBlocks(filePath) {
 
         const { cleanLines } = preprocessCodeBlocks(rawLines);
 
-        let lastContentLine = "";
-        let seenBullet = false;
-
-        // Try to get page name/title for fallback
-        let pageTitle = "";
-        const fileBase = path.basename(filePath, '.md');
-        if (rawLines.length > 0) {
-            const firstLineTrim = rawLines[0].trim();
-            if (firstLineTrim.startsWith('- # ')) {
-                pageTitle = firstLineTrim.substring(4).trim();
-            } else if (firstLineTrim.startsWith('# ')) {
-                pageTitle = firstLineTrim.substring(2).trim();
-            }
-        }
-        if (!pageTitle) {
-            pageTitle = fileBase;
-        }
+        // Initialize with filename for page properties that have no leading header
+        let lastContentLine = path.basename(filePath, '.md');
 
         for (let i = 0; i < cleanLines.length; i++) {
             const { line, originalIndex } = cleanLines[i];
@@ -149,38 +134,29 @@ function indexFileBlocks(filePath) {
             }
 
             if (stripped.startsWith('- ')) {
-                seenBullet = true;
                 let content = stripped.substring(2).trim();
                 const idMatch = content.match(PAT_ID_PROP);
                 if (idMatch) {
                     const uuid = idMatch[1];
                     const title = content.replace(idMatch[0], '').trim();
                     blocks[uuid] = {
-                        title: title || pageTitle,
+                        title: title || lastContentLine,
                         sourceFile: filePath,
                         sourceLine: originalIndex + 1
                     };
-                    lastContentLine = title;
+                    lastContentLine = title || lastContentLine;
                 } else {
-                    lastContentLine = content;
+                    lastContentLine = content || lastContentLine;
                 }
             } else {
                 const idMatch = stripped.match(PAT_ID_PROP);
-                if (idMatch) {
+                if (idMatch && lastContentLine) {
                     const uuid = idMatch[1];
-                    if (!seenBullet) {
-                        blocks[uuid] = {
-                            title: pageTitle,
-                            sourceFile: filePath,
-                            sourceLine: originalIndex + 1
-                        };
-                    } else if (lastContentLine) {
-                        blocks[uuid] = {
-                            title: lastContentLine,
-                            sourceFile: filePath,
-                            sourceLine: originalIndex + 1
-                        };
-                    }
+                    blocks[uuid] = {
+                        title: lastContentLine,
+                        sourceFile: filePath,
+                        sourceLine: originalIndex + 1
+                    };
                 }
             }
         }

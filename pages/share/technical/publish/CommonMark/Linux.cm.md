@@ -1,0 +1,1790 @@
+## Linux <a class="logseq-meta" id="66949495-3846-4f89-9ea5-c62b624d282c" data-logbook="CLOCK: [2024-07-15 Mon 11:04:21]&#10;" ></a>
+	- [Wiki:](../../../../publish/CommonMark/Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Linux
+	- Distributions <a class="logseq-meta" id="66faa5fa-fdde-4dd5-a27f-442cea4ba47a" ></a>
+		- ### Ubuntu <a class="logseq-meta" id="66faa5fa-52aa-4e12-8a55-c6ad22ebdfa7" data-collapsed="true" ></a>
+			- [Wiki:](../../../../publish/CommonMark/Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Ubuntu
+			- [Description:](../../../../publish/CommonMark/Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h3">Ubuntu</span>](#66faa5fa-52aa-4e12-8a55-c6ad22ebdfa7) is a popular [Linux distribution](#66faa5fa-fdde-4dd5-a27f-442cea4ba47a) derived from [Debian](https://en.wikipedia.org/wiki/Debian) and is backed by large online communities like [Ask Ubuntu](https://en.wikipedia.org/wiki/Ask_Ubuntu).
+				- Software management: [<span class="link-h3">APT</span>](#68357072-2dcb-42b5-a228-15ed904010f8) with [deb](https://en.wikipedia.org/wiki/Deb_(file_format)) packages
+				- Desktop management: [<span class="link-h3">GNOME Desktop</span>](#66b1cfa4-808f-407c-bf5a-b93812604b5d)
+			- [Commentaries:](../../../../publish/CommonMark/Namespace.cm.md#665359ff-79f1-4669-b10b-f2b0e633a7c1)
+				- [Automatic software update/notification](#68358033-084f-461c-b470-5311a5127f0c)
+	- ### concepts <a class="logseq-meta" id="6735b188-e391-498b-a01b-35797616f7b6" ></a>
+		- file mode bits <a class="logseq-meta" id="671f467e-6f1f-4436-a0dd-9a03055e11a9" data-collapsed="true" ></a>
+		  <br>shown in [`ll` = `ls -lhF`](#671f4355-d2ad-46ca-af05-db330a8a4fec) and in [`stat`](#671f50a5-2987-4e65-b28d-7b08bdcf0a06), modified by [`chmod`](#671f5863-b392-406a-b6d2-408902e37e29)
+			- [Wiki:](../../../../publish/CommonMark/Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08)  [Notation of traditional Unix permissions](https://en.wikipedia.org/wiki/File-system_permissions#Notation_of_traditional_Unix_permissions), [Structure of File Mode Bits](https://www.gnu.org/software/coreutils/manual/html_node/Mode-Structure.html)
+			- First char: file type {`-`,`d`,`l`,`p`,`s`,`c`,`b`} = {regular file, directory, symlink, FIFO named pipe, socket, character stream (terminal), random-access block device (disk)}
+				- [Wiki:](../../../../publish/CommonMark/Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Unix_file_types
+			- Last 3×3 chars: (owner, group, other)×(`r`,`w`,{`x`,`s`,`S`}) <a class="logseq-meta" id="6772a6d3-8aec-4e7f-af3c-5373bcc9b221" ></a>
+				- `r` = readable, `w` = writable
+				- `x` = executable, `s` = [setuid](https://en.wikipedia.org/wiki/Setuid)/[setgid](https://en.wikipedia.org/wiki/Setgid) executable, `S` = setuid/setgid non-executable
+		- inode <a class="logseq-meta" id="671f438b-617a-4fc5-88ee-e42f07b67b50" data-collapsed="true" ></a>
+		  <br>file index-data node
+			- [Wiki:](../../../../publish/CommonMark/Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Inode
+			- hard link <a class="logseq-meta" id="671f5617-1163-4ffc-b65a-b3234e471db0" ></a>
+			  <br>is just an alias, i.e. a full-path-name, for an [inode](#671f438b-617a-4fc5-88ee-e42f07b67b50).
+				- All aliases are equivalent, no source/main name like [symbolic link (symlink)](#671f5784-d89b-4a4a-a6e7-f02a0805322f).
+				- `mv`/`rm` just move/remove names, not the inode. The inode is only removed when there's no name pointing to it.
+				- New MacOS (10.5+) and some (old) Linux distributions allow hard link of directory, but most modern Linux distributions prohibit it due to its ambiguousness
+		- symbolic link (symlink) <a class="logseq-meta" id="671f5784-d89b-4a4a-a6e7-f02a0805322f" data-collapsed="true" ></a>
+			- [Wiki:](../../../../publish/CommonMark/Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Symbolic_link
+			- Mimics:
+				- Windows' shortcut in GUI works similarly to symlink, but doesn't work at the command level.
+			- Equivalence: Git's symlink, [NTFS link](https://en.wikipedia.org/wiki/NTFS_symbolic_link)
+				- Git's symlink is configured with [core.symlinks](https://git-scm.com/docs/git-config#Documentation/git-config.txt-coresymlinks). When `symlinks = false`, symbolic links are checked out as plain text files containing the target as text.
+		- newline at end-of-file (EOL@EOF) <a class="logseq-meta" id="6793437b-5ee5-4f7f-a547-bb9e15ac5883" data-collapsed="true" ></a>
+			- The [POSIX standard](https://en.wikipedia.org/wiki/POSIX) defines a [text file](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/V1_chap03.html#tag_03_387) as a sequence of [lines](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/V1_chap03.html#tag_03_185), each ending with a [newline character](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/V1_chap03.html#tag_03_224).
+				- Newline = end-of-line = [carriage-return +] line-feed: `EOL` = `⏎` = `\n` = `␤` = `LF` = `␊` (`CR` `LF` = `␍␊`)
+			- That means a line without newline is an [incomplete line](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/V1_chap03.html#tag_03_172).
+				- UNIX & traditional text processors like C compilers [requires the last newline](https://unix.stackexchange.com/a/18789/566548) for proper functioning.
+				- E.g. `wc -l`, shell's `read` will ignore the "incomplete last line".
+				- `diff` and `git diff` show the [warning `\ No newline at end of file`](Git.cm.md#556c799a-e364-49ad-94ab-5d14bef766ca)
+			- When concatenating files missing last newlines, the first line of next file will be merged with the last line of the previous file, which is usually an unintended effect.
+			- Some shells like `zsh` highlights the missing last newline on the console with the mark `%` in inverse color.
+			- Last newline in editors <a class="logseq-meta" id="616bfc2b-05f2-4a85-a094-dd771aa12cd1" data-logbook="CLOCK: [2025-01-24 Fri 19:01:03]--[2025-01-24 Fri 19:39:52] =&gt;  00:38:49&#10;" ></a>
+				- Linux editors **automatically add newline** when saving, but _don't show difference_ between a file with or without the last newline.
+					- `vim`, `gedit` show **no blank line** at the end! A blank line means a truely empty line, i.e. `^\n`!
+					- `vim` shows `[noeol]` on its status line when openning a file missing the last newline. <a class="logseq-meta" data-collapsed="true" ></a>
+						- ![no-last-newline-vim.png](../assets/TextProcessing/last-newline/no-last-newline-vim.png)
+					- `nano` always show a blank line at the end!
+					- `emacs` behavior depends on the file mode.
+				- Stop Linux editors from fixing files missing newline at the end of file. <a class="logseq-meta" id="67aacefc-f707-49f4-b33d-ed73f63e3a64" ></a>
+					- `vim`: `:set nofixendofline` in the current file or in `.vimrc`
+					- `nano`: just use `nano -L`, or set `alias nano="nano --nonewlines"`
+					- `gedit`: `gsettings set org.gnome.gedit.preferences.editor ensure-trailing-newline false`
+					- `emacs`: `(setq mode-require-final-newline nil)` in `.emacs`
+				- IDEs usually have settings to automatically add newline on save, and _show the last newline **as a blank line**_ which can be used to check for its presence. <a class="logseq-meta" id="67aabd6b-a257-4eb7-8363-3d29035a30f4" ></a>
+					- VS Code <a class="logseq-meta" data-collapsed="true" ></a>
+						- Settings > Text Editor > Files > Insert Final Newline
+						  <br>![editor-settings-onsave-lastNewline-VSCode.png](../assets/TextProcessing/last-newline/editor-settings-onsave-lastNewline-VSCode.png)
+						- The last newline is distinguished by the dimmed line number.
+						  <br>![last-newline-VSCode.png](../assets/TextProcessing/last-newline/last-newline-VSCode.png)
+					- JetBrains IDEs <a class="logseq-meta" data-collapsed="true" ></a>
+						- Settings > Editor > General > On Save > Ensure vevy saved file ends with a line break
+						  <br>![editor-settings-onsave-lastNewline-IDEA.png](../assets/TextProcessing/last-newline/editor-settings-onsave-lastNewline-IDEA.png)
+					- Eclipse <a class="logseq-meta" data-collapsed="true" ></a>
+						- [Window >] Preferences > (Java, Javascript, etc.) Code Formatters > New Lines > At end of file
+						  <br>![editor-settings-onsave-lastNewline-Eclipse-2024.png](../assets/TextProcessing/last-newline/editor-settings-onsave-lastNewline-Eclipse-2024.png)
+					- Notepad++ <a class="logseq-meta" data-collapsed="true" ></a>
+						- ![last-newline-Notepad++.png](../assets/TextProcessing/last-newline/last-newline-Notepad++.png)
+						- Automatic newline can be added with EditorConfig plugin. [ref](https://github.com/notepad-plus-plus/notepad-plus-plus/issues/1426#issuecomment-578472737)
+						  <br>`insert_final_newline = true`
+	- ### commands
+		- process handling <a class="logseq-meta" data-collapsed="true" ></a>
+			- pid
+			  <br>:= "process ID"
+			- [`$$`: pid of the running shell (script)](#66c6c8e6-54be-4b4f-80a1-c535d429d05c)
+			- `pidof`
+			  <br>find the pid of a process via process name.
+			- `pgrep`, `pkill`, `pidwait` `$xregex` <a class="logseq-meta" data-collapsed="true" ></a>
+			  <br>look up, signal, or wait for processes based on process name pattern (Extended Regular Expression) and other attributes.
+				- `-s`, `-$signal`: see list of signals in [`kill`, `killall`](#67f4eaf8-4b5d-4807-ab6f-d43cd38c4860)
+				- `-f`, `--full`: Match against the full command line (with arguments), instead of only the process name as normal.
+				- `-v`, `--inverse`: Negates the matching. <a class="logseq-meta" data-collapsed="true" ></a>
+					- Note, in `pkill`, the short option `-v` is disabled to avoid accidental usage of the option.
+				- `-x`, `--exact`: Match exactly.
+				- Options for `pgrep`
+					- `-l`, `--list-name`, `-a`, `--list-full`: List PID and process name or full command line.
+			- `kill`, `killall` <a class="logseq-meta" id="67f4eaf8-4b5d-4807-ab6f-d43cd38c4860" data-collapsed="true" ></a>
+			  <br>send a signal (`TERM` [default], `KILL`, `STOP`, `QUIT`, `INT`, `HUP`, `CONT`, `NULL`) to process(es) via pid (with `kill`) or process name (with `killall`).
+				- To **force** stop, send `KILL` = `9` signal: `kill -s KILL` or `kill -9`
+					- `STOP` = `24`: The OS pauses the process and cannot be ignored. <a class="logseq-meta" id="67f4fd18-2a1a-43bb-9d67-710bfe096615" ></a>
+					- `CONT` = `26`: Resume the process after being paused by [STOP](#67f4fd18-2a1a-43bb-9d67-710bfe096615).
+				- The default `TERM` = `15` is the **nicest** signal: The process is given time to gracefully shutdown, and even to **ignore** this signal.
+					- `INT` = `2` = `Ctrl` `C` (≈ `TERM`): Interrupt the process, but can be **ignored**. <a class="logseq-meta" id="67f4fa57-ed02-48ee-a72c-366cf83748c2" ></a>
+					- `QUIT` = `3` = `Ctrl` `D` = [INT](#67f4fa57-ed02-48ee-a72c-366cf83748c2) + core dump
+					- `HUP` = `1`: Disconnects a process from the parent process, or **restart** the process.
+				- `NULL` = `0`: Sending no signal, just **check** validity of a PID: whether the process is running and this user as permission to access it.
+			- `pstree`
+			  <br>display a tree of processes.
+			- `top`
+			  <br>display "top CPU" processes similar to [System Monitor](#66c6bda1-7a64-4832-af2b-906b3beb8927).
+			- {{embed [`nethogs`](#6835b16a-71ae-4882-afc0-d998d761442e)}}
+			- `jobs`, `disown`, `nohup`, `bg`, `fg` <a class="logseq-meta" data-collapsed="true" ></a>
+			  <br>Manage shell jobs (background processes).
+				- [disown](https://www.cyberciti.biz/faq/unix-linux-disown-command-examples-usage-syntax/)
+		- window handling <a class="logseq-meta" data-collapsed="true" ></a>
+			- Note that on [<span class="link-h3">Wayland</span>](#66b1cfa4-f6a5-444d-97fb-e76a1c5fb1c7), `xkill` & `xprop` cannot chose windows of Gnome Shell like [Terminal](#66c6bd7d-c9af-4f64-a65b-f4ff075961bb), [Nautilus (file browser)](#66c6bd94-76a7-4b80-bf2e-b8af02737af2), [System Monitor](#66c6bda1-7a64-4832-af2b-906b3beb8927), etc., because they are not using [[XWayland](https://wayland.freedesktop.org/xserver.html)](#66c6cd8c-5367-4ae4-a76c-970732c2aebb). Ref: [Nautilus is being ignored](https://github.com/johannesjo/linux-window-session-manager/issues/8#issuecomment-347517969)
+			- `xkill`
+			  <br>kill a client by its X resource. The X resource can be specified with mouse pointer clicking a window or given via command line arguments `[-display displayname] [-id resource]`.
+			- `xprop`
+			  <br>display window and font properties in an X server. The X resource can be specified with mouse pointer clicking a window or given via command line arguments `[-display displayname] [-name windowname] [-id resource]`.
+			- `notify-send` <a class="logseq-meta" id="67d289c6-fcf5-4340-b06e-d3287ca78a4d" data-collapsed="true" ></a>
+			  <br>send desktop notifications to the user via a notification daemon from the command line.
+				- `-u`, `--urgency`=LEVEL
+					- `low`: No pop-up, just silently add message to notification list.
+					- `normal`: pops up for 3 seconds.
+					- `critical`: pops up until user close.
+				- `-t`, `--expire-time`=TIME
+				  <br>ignored in Ubuntu
+				- `-i`, `--icon`=ICON
+					- a [standard icon name](https://specifications.freedesktop.org/icon-naming-spec/latest/#names), e.g. `system-log-out`, or
+					- a path to an icon file, e.g. `/usr/share/icons/gnome/32x32/actions/system-log-out.png`
+			- `zenity` <a class="logseq-meta" id="67d2ad10-0ca8-4361-94d5-219cf9b737d5" data-collapsed="true" ></a>
+			  <br>display [GTK+ dialogs](https://help.gnome.org/users/zenity/stable/#dialogs), and return the users input (either in the return code or on standard output).
+				- [Description:](../../../../publish/CommonMark/Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) [`zenity`](#67d2ad10-0ca8-4361-94d5-219cf9b737d5) is the most well-known of the [dialog prorams](http://rockhopper.monmouth.edu/cs/jchung/cs370/cs_370_-_shell_scripts_and_user_interfaces) to be called from shell script.
+				- [Etymology:](../../../../publish/CommonMark/Namespace.cm.md#669a1e5f-734c-41c1-bf1c-21813b6e81d8) “zenity” = “zen + ity” = “the state of zen”, as “serennity” = “the state of being serene”
+					- This is my own interpretation which is coinside with others like [Happy nehra](https://medium.com/%40happynehra/exploring-zenity-a-zen-guide-to-creating-gtk-dialogs-c4d48ee192) and Grok 3.
+				- Warning: `zenity` accepts Spacebar & Enter as OK confirmation which can be accicentally hit when the window pops up! <a class="logseq-meta" id="67d3a821-ed1c-48d5-a935-bfab8a57cd8e" ></a>
+					- In `X11`, we can temporarily disable the keyboard around `zenity` call with `xinput`, but it's impossible in Wayland.
+				- Return values:
+					- Command exit code: {`0`, `1`, `5`} for {OK, Cancel, timeout}
+					- Print to `stdout` the value user entered or chose.
+				- `--{info,question,warning,error}` are message dialogs with icons
+					- Icons: `--icon-name` (name only), `--window-icon` (/path/to/file, but doesn't work!)
+						- [Examples:](../../../../publish/CommonMark/Namespace.cm.md#66725725-f76a-4328-b162-f469b87e871b) <a class="logseq-meta" data-collapsed="true" ></a>
+							- `gtk-dialog-info`: ![gtk-dialog-info.svg](../assets/Linux/GNOME/icons/gtk-dialog-info.svg){:width 32}
+							- `gtk-dialog-question`: ![gtk-dialog-question.svg](../assets/Linux/GNOME/icons/gtk-dialog-question.svg){:width 32}
+							- `warning-small-symbolic`: ![warning-small-symbolic.svg](../assets/Linux/GNOME/icons/warning-small-symbolic.svg){:width 32}
+							- `dialog-warning`: ![dialog-warning.png](../assets/Linux/GNOME/icons/dialog-warning.png){:width 32}
+							- `dialog-error`: ![dialog-error.png](../assets/Linux/GNOME/icons/dialog-error.png){:width 32}
+				- `--{entry,password,scale}` are input dialogs for user to enter text or a numeric value in a scale.
+				- `--{list,calendar,color-selection,file-selection}` are selection dialogs for user to choose items.
+				- `--forms` shows an input form which can contain text entries, password fields, calendars, description texts.
+				- `--progress` shows a progress bar increments by inputs from `stdin`.
+				- `--notification`, similar to [`notify-send`](#67d289c6-fcf5-4340-b06e-d3287ca78a4d), shows a notification ballon, not a pop-up window.
+			- `yad` <a class="logseq-meta" id="68381bca-50f3-4d2e-9593-53d9c8f6c368" data-collapsed="true" ></a>
+			  <br>yet-another-dialog program extending [`zenity`](#67d2ad10-0ca8-4361-94d5-219cf9b737d5)
+				- `yad` add many additional features, including the option [`--no-focus`](#68381caa-5dd1-4a49-8630-4c68674aa0c7) to prevent stealing focus of the currently working app.
+				- `--no-focus` <a class="logseq-meta" id="68381caa-5dd1-4a49-8630-4c68674aa0c7" ></a>
+				  <br>Dialog window *never* take focus!
+					- While this option resolves the [focus stealing issue of `zenity`](#67d3a821-ed1c-48d5-a935-bfab8a57cd8e), it makes the dialog a “dump window” receiving no keyboard inputs and cannot be focused, hence all interactions must be done with mouse.
+					- On [<span class="link-h3">Wayland</span>](#66b1cfa4-f6a5-444d-97fb-e76a1c5fb1c7), window related features like `--no-focus`, `--center`, `--mouse`, `--skip-taskbar` are ineffective, and can be reactivated with [env.var.](#67f6257e-455e-46f1-8225-8510f60b8b47) `GDK_BACKEND=x11`
+		- file management <a class="logseq-meta" id="671f4028-c60f-4791-b716-e5226cdf410e" data-collapsed="true" ></a>
+			- `ls` <a class="logseq-meta" id="6735b188-098a-41ac-89ed-8cfcc857d796" data-collapsed="true" ></a>
+			  <br>list information about the FILEs (the current directory by default).
+				- `ll` = `ls -lhF` <a class="logseq-meta" id="671f4355-d2ad-46ca-af05-db330a8a4fec" ></a>
+				  <br>long listing format
+					- Default columns: [file mode bits](#671f467e-6f1f-4436-a0dd-9a03055e11a9), [number of files](#671f4447-71f3-4ae1-b22c-acc16ac67f5b), user, group, size, date, file name <a class="logseq-meta" id="6735b188-a46c-4363-8ccc-03fbfcf2cbaa" ></a>
+					- number of files <a class="logseq-meta" id="671f4447-71f3-4ae1-b22c-acc16ac67f5b" ></a>
+						- for directory: number of files & sub-directories in that dir
+						- for file: number of hard links to this [inode](#671f438b-617a-4fc5-88ee-e42f07b67b50)
+				- `-i`, `--inode`
+				  <br>print the [inode](#671f438b-617a-4fc5-88ee-e42f07b67b50) number of each file
+				- `dircolors`
+				  <br>output commands to set the [`LS_COLORS`](#67ad9184-d0e9-49c1-9584-ac7ced51b385) env.var. for `ls`, optionally reading definitions in a [`DIR_COLORS` file](#67adaa84-c44b-4f36-bc34-ddec3117b7fc).
+					- This command simply prints out 
+					  ```sh
+					  LS_COLORS='di=01;34:type=color;codes:...'; export LS_COLORS
+					  ```
+					- `DIR_COLORS` file <a class="logseq-meta" id="67adaa84-c44b-4f36-bc34-ddec3117b7fc" data-collapsed="true" ></a>
+						- Man page: `man DIR_COLORS` (or [on web](https://www.man7.org/linux/man-pages/man5/dir_colors.5.html))
+						- See [[file type](((671f467e-6f1f-4436-a0dd-9a03055e11a9))) code](#67ad9254-2b15-48cd-8f38-8b727e5ed2da).
+						- On Slackware, SuSE, RedHat: System-wide config `/etc/DIR_COLORS`, which can be overriden by per-user config `~/.dir_colors`.
+				- `LS_COLORS` <a class="logseq-meta" id="67ad9184-d0e9-49c1-9584-ac7ced51b385" ></a>
+				  <br>env.var. defining output colors for `ls --color`.
+					- Format: colon-separated list of color definitions by file type
+					  <br>> [[file type](((671f467e-6f1f-4436-a0dd-9a03055e11a9))) code](#67ad9254-2b15-48cd-8f38-8b727e5ed2da) = [color sequences](#67ad927a-3926-4930-bf40-6cefcca3d54e) : other file types ...
+					- When there are many definitions of the same file type, the last will override all previous ones.
+						- And we only need to put in `LS_COLORS` just defs overriding default values.
+					- [file type](#671f467e-6f1f-4436-a0dd-9a03055e11a9) code <a class="logseq-meta" id="67ad9254-2b15-48cd-8f38-8b727e5ed2da" data-collapsed="true" ></a>
+						- Codes in `LS_COLORS` and corresponding names in [`DIR_COLORS` file](#67adaa84-c44b-4f36-bc34-ddec3117b7fc)
+							- `no` = `NORMAL`, `NORM`: Non-filename columns of each file in `ls -l`
+								- `rs` = `RESET`: Color to be (re)set after `ls` <a class="logseq-meta" data-collapsed="true" ></a>
+									- E.g. `ls; echo text after ls` will output `text after ls` in `rs` color.
+									- This is also applied to non-filename symbols in filename column of `ls -lF`, e.g. `->` in symlink, file type indicators (`/`, `*`,...)
+							- `fi` = `FILE`: Regular file
+							- `di` = `DIR`: Directory
+							- `ex` = `EXEC`: Executable file (i.e. has `x` set in permissions)
+								- `ca` = `CAPABILITY`: Executable file with [capabilities](https://man7.org/linux/man-pages/man7/capabilities.7.html), set with [`setcap` command](https://man7.org/linux/man-pages/man8/setcap.8.html)
+							- `ln` = `SYMLINK`, `LINK`, `LNK`: Symbolic link. If you set this to 'target' instead of a numerical value, the colour is as for the file pointed to.
+								- `or` = `ORPHAN`: Symbolic link pointing to a non-existent file
+								- `mi` = `MISSING`: Non-existent file pointed to by a symbolic link (visible when you type `ls -l`)
+							- `mh` = `MULTIHARDLINK`: File with more than one hard links
+							- `pi` = `PIPE`, `FIFO`: Named FIFO pipe
+							- `so` = `SOCK`: Socket
+							- `bd` = `BLOCK`, `BLK`: Block device
+							- `cd` =  `CHAR`, `CHR`: Character device
+							- Advanced file types <a class="logseq-meta" data-collapsed="true" ></a>
+								- `do` = `DOOR`: [Door](https://en.wikipedia.org/wiki/Doors_(computing)) (in Sun Solaris) for communication between a client and server
+								- `su` = `SETUID`: File that is `setuid` (`u+s`)
+								- `sg` = `SETGID`: File that is `setgid` (`g+s`)
+								- `st` = `STICKY`: Directory with the sticky bit set (`+t`) and not other-writable
+								- `ow` = `OTHER_WRITABLE`: Directory that is other-writable (`o+w`) and not sticky
+								- `tw` = `STICKY_OTHER_WRITABLE`: Directory that is sticky and other-writable (`+t`,`o+w`)
+							- For advanced color capable terminal or printer, the sequence ⟪ `LEFTCODE` [typecode](#67adc11d-b24f-49bd-9bc3-f9d3d6cf06b1) `RIGHTCODE` filename `ENDCODE` ⟫ will be printed for each filename. <a class="logseq-meta" data-collapsed="true" ></a>
+								- `lc` = `LEFTCODE`, `LEFT`: Opening terminal code
+								- `rc` = `RIGHTCODE`, `RIGHT`: Closing terminal code
+								- `ec`= `ENDCODE`, `END`: Non-filename text or terminal code after filename
+								- typecode: the color sequence that depends on the type or name of file <a class="logseq-meta" id="67adc11d-b24f-49bd-9bc3-f9d3d6cf06b1" ></a>
+						- Different names & history
+							- `MULTIHARDLINK` (`mh`) was initially named `HARDLINK` (`hl`) before `coreutils` 7.5 (in 2009) (see details in [StackExchange](https://unix.stackexchange.com/a/70715/566548)).
+							- `RESET` (`rs`) was added in `coreutils` 6.11.
+							- `CAPABILITY` (`ca`) was added in `coreutils` 7.0.
+					- color sequences <a class="logseq-meta" id="67ad927a-3926-4930-bf40-6cefcca3d54e" data-collapsed="true" ></a>
+						- Color & effect codes are separated by semicolon `;` and their *order doesn't matter*.
+						- Foreground and background are [3-bit ANSI escape color codes](https://en.wikipedia.org/wiki/ANSI_escape_code#3-bit_and_4-bit) (modern terminals also support 8-bit color codes).
+							- Foreground
+							  ```sh
+							  30=black 31=red 32=green 33=yellow 34=blue 35=magenta 36=cyan 37=white
+							  ```
+							- Background
+							  ```sh
+							  40=black 41=red 42=green 43=yellow 44=blue 45=magenta 46=cyan 47=white
+							  ```
+							- high-bit color codes (fixed order!): [fbg](#67ada479-c1b4-40b5-ba31-73e012b19915)`;`[hcolor](#67ada493-aea8-4646-92c6-029719d0be8f)
+								- `fbg`: `38` (foreground) or `48` (background) <a class="logseq-meta" id="67ada479-c1b4-40b5-ba31-73e012b19915" ></a>
+								- `hcolor`: `5;n` or `2;r;g;b` where `n` in [16, 255] is a [8-bit color code](https://en.wikipedia.org/wiki/ANSI_escape_code#8-bit), and `r;g;b` is red-green-blue code of [24-bit color](https://en.wikipedia.org/wiki/ANSI_escape_code#24-bit). <a class="logseq-meta" id="67ada493-aea8-4646-92c6-029719d0be8f" ></a>
+						- Effects are [ANSI Select Graphic Rendition codes](https://en.wikipedia.org/wiki/ANSI_escape_code#Select_Graphic_Rendition_parameters).
+							- ```sh
+							  0=none 1=bold 4=underscore 5=blink 7=reverse 8=concealed
+							  ```
+							- Many effects can be combined, e.g. `1;3;47;30;7` means _**bold**-italic_ white text on black background (reverse of black text on white background).
+						- Refs: [/etc/DIR_COLORS](https://github.com/trapd00r/LS_COLORS/blob/master/LS_COLORS)
+					- Examples
+						- ```sh
+						  export LS_COLORS="${LS_COLORS}mh=44;37:" # MULTIHARDLINK: more than one hard links: grey text (37) on blue background (44)
+						  export LS_COLORS="${LS_COLORS}or=40;31;1:" # ORPHAN: symlink to nonexistent file: bold (1) red text (31) on black background (40)
+						  export LS_COLORS="${LS_COLORS}mi=37;41:" # MISSING: nonexistent target of symlink: white (37) on redbackground (41)
+						  ``` <a class="logseq-meta" id="678a4f10-b109-429d-9c58-f9bd52f807cd" data-collapsed="true" ></a>
+						- Highlight for multiple hard links has [once been turned on for only some months between 2008-2009](https://askubuntu.com/a/251450).
+						- A shell script to show all colors in `LS_COLORS`, ref: [AskUbuntu](https://askubuntu.com/a/884513)
+							- ```sh
+							  #!/bin/bash
+							  # For each entry in LS_COLORS, print the type, and description if available, in the relevant color.
+							  # All dot-types are printed in one line.
+							  
+							  types=( no rs fi di ex ca ln or mi mh pi so bd cd do su sg st ow tw lc rc ec )
+							  dottypes=()
+							  declare -A descriptions=(
+							      [no]="NORMAL: Non-filename columns of each file"
+							      [rs]="RESET: Color to be (re)set after ls"
+							      [fi]="FILE: Regular file"
+							      [di]="DIR: Directory"
+							      [ex]="EXEC: Executable file"
+							      [ca]="CAPABILITY: Executable file with capabilities"
+							      [ln]="SYMLINK: Symbolic link"
+							      [or]="ORPHAN: Broken symlink"
+							      [mi]="MISSING: Missing target of broken symlink"
+							      [mh]="MULTIHARDLINK: File with multiple hardlinks"
+							      [pi]="PIPE, FIFO: Named FIFO pipe"
+							      [so]="SOCK: Socket"
+							      [bd]="BLOCK: Block device"
+							      [cd]="CHAR: Character device"
+							      [do]="DOOR: Solaris door"
+							      [su]="SETUID: File that is setuid"
+							      [sg]="SETGID: File that is setgid"
+							      [st]="STICKY: Sticky directory"
+							      [ow]="OTHER_WRITABLE: Other-writable directory"
+							      [tw]="STICKY_OTHER_WRITABLE: Sticky and other-writable directory"
+							      [lc]="LEFTCODE, LEFT: Opening terminal code"
+							      [rc]="RIGHTCODE, RIGHT: Closing terminal code"
+							      [ec]="ENDCODE, END: Terminal code after filename"
+							  )
+							  declare -A colors
+							  declare -A dotcolors
+							  
+							  ls_colors=$LS_COLORS
+							  dir_colors=$(dircolors |head -1)
+							  dir_colors=${dir_colors#*\'}
+							  dir_colors=${dir_colors%\'*}
+							  ls_colors=${dir_colors}${ls_colors}
+							  IFS=:
+							  for ls_color in $ls_colors; do
+							      type="${ls_color%=*}"
+							      color="${ls_color#*=}"
+							      [[ -z $type ]] && continue
+							      if [[ "${IFS}${types[*]}${IFS}" =~ "${IFS}${type}${IFS}" ]]; then colors[$type]=$color
+							      else dotcolors["$type"]=$color;  dottypes+=("$type"); fi
+							  done
+							  
+							  # Print descriptions styled by colors
+							  for type in "${types[@]}"; do
+							      color="${colors[$type]}"
+							      desc="${descriptions[$type]}"
+							      printf "\e[%sm%s%s\e[m \n" "$color" "$type" "${desc:+ = $desc}"
+							  done
+							  
+							  # Print dotcolors of dottypes
+							  for type in "${dottypes[@]}"; do
+							      color="${dotcolors[$type]}"
+							      printf "\e[%sm%s\e[m " "$color" "$type"
+							  done
+							  echo
+							  
+							  ``` <a class="logseq-meta" data-collapsed="true" ></a>
+					- Refs: [trapd00r/LS_COLORS](https://github.com/trapd00r/LS_COLORS/blob/master/LS_COLORS), [ls-color-output](https://itsfoss.com/ls-color-output/), [HowtoGeek](https://www.howtogeek.com/307899/how-to-change-the-colors-of-directories-and-files-in-the-ls-command/), [bigsoft](https://www.bigsoft.co.uk/blog/2008/04/11/configuring-ls_colors), [AskUbuntu](https://askubuntu.com/a/884513)
+			- `stat` <a class="logseq-meta" id="671f50a5-2987-4e65-b28d-7b08bdcf0a06" data-collapsed="true" ></a>
+			  <br>status of file or file system
+				- Non-default info (`--format`)
+					- `%m` = mount point
+			- `file`
+			  <br>determine file type
+			- `tree`
+			  <br>list contents of directories in a tree-like format.
+			- `find $dir $expr` <a class="logseq-meta" data-collapsed="true" ></a>
+			  <br>search for files in a directory hierarchy rooted at `$dir`, filtering with `$expr`, and optionally take [Actions](#67b3f8db-00f0-456e-ab94-81df04973740)
+				- `-depth`
+				  <br>depth-first search instead of the default breadth-first search
+				- `-{min,max}depth $n`
+				  <br>search `$n` levels of directories
+				- `-{name,path,lname} $pattern`
+				  <br>find files with basename or path or symlink target matching [glob `$pattern`](https://en.wikipedia.org/wiki/Glob_(programming))
+				- `-regex $pattern`
+				  <br>find files with path matching regex `$pattern`
+				- `-type {f,d,l,p,s,c,b}`
+				  <br>find files with corresponding [file mode bits](#671f467e-6f1f-4436-a0dd-9a03055e11a9) (`f` = `-` = regular file)
+				- `-perm [-,/]$mode`
+				  <br>find files with [permission](#6772a6d3-8aec-4e7f-af3c-5373bcc9b221) is at least (`-`), at most (`/`), or exactly `$mode`
+					- `-executable`
+					  <br>maches files which are executable and directories which are searchable
+				- `{a,[m],c}{min,time,newer} {[-,+]$mins,[-,+]$days,$file}`
+				  <br>find files with {access, modified, meta change} time is less than (`-`), greater (`+`) or equals to `$mins` ago, `$days` ago, or newer than reference `$file`
+					- Note: modified time: `mmin`, `mtime`, but `-newer` not `-mnewer`
+				- `-size [-,+]$n[c,w,b,k,M,G]`
+				  <br>find files with size is less than (`-`), greater (`+`) or equals to `$n` chars, words, bytes, KiB, MiB, GiB
+				- `-links [-,+]$n`
+				  <br>find files with more number of [hard link](#671f5617-1163-4ffc-b65a-b3234e471db0)s is than (`-`), greater (`+`) or equals to `$n`
+				- `-samefile $ref_file` <a class="logseq-meta" id="671f544c-792b-4bd3-bfda-38c8d1fc2b01" ></a>
+				  <br>find [hard link](#671f5617-1163-4ffc-b65a-b3234e471db0)s to `$ref_file`
+				- `-inum $inode_number`
+				  <br>find [hard link](#671f5617-1163-4ffc-b65a-b3234e471db0)s to `$inode_number`
+					- Note: This is just an old POSIX option, and it's much simpler to use [`-samefile $ref_file`](#671f544c-792b-4bd3-bfda-38c8d1fc2b01) instead!
+					- To use this option, we must find the `$inode_number` first via `ls -i` or `stat -c %i`.
+						- Someone even wrote [a script](https://superuser.com/a/12976) using this method. <a class="logseq-meta" data-collapsed="true" ></a>
+							- #!/bin/bash
+							  <br>if [[ $# -lt 1 ]] ; then
+							      <br>echo 'Usage: find-hard-links $target [$target2 ...]'
+							      <br>exit 1
+							  <br>fi
+							  
+							  <br>while [[ $# -ge 1 ]] ; do
+							      <br>echo "Processing '$1'"
+							      <br>if [[ ! -r "$1" ]] ; then
+							          <br>echo "   '$1' is not accessible"
+							      <br>else
+							          <br>numlinks=$(stat -c '%h' "$1")
+							          <br>inode=$(stat -c '%i' "$1")
+							          <br>mount=$(stat -c '%m' "$1")
+							          <br>echo "   '$1' has inode ${inode} on mount point '${mount}'"
+							          <br>find ${mount} -inum ${inode} 2>/dev/null | sed 's/^/        /'
+							      <br>fi
+							      <br>shift
+							  <br>done
+				- `-{user,group} $name`
+				  <br>find files owned by user or group with `$name`
+				- `-true`
+				  <br>find all files (unfiltered) for [Actions](#67b3f8db-00f0-456e-ab94-81df04973740) only
+				- Actions <a class="logseq-meta" id="67b3f8db-00f0-456e-ab94-81df04973740" ></a>
+					- `-print[f,0] $format`
+					- `ls`
+					- `fls $file`
+					- `-exec $action $delim` <a class="logseq-meta" id="6790bd70-e65e-4053-9b6b-079e0d6ca7a1" ></a>
+						- `$delim` can be `;` or `+`
+						- `{}` argument is replaced by the current file name being processed
+					- `-delete`
+					- `-prune`
+					- `-quit`
+			- `ln` <a class="logseq-meta" data-collapsed="true" ></a>
+			  <br>make links (hard & symbolic) between files
+				- default is to make [hard link](#671f5617-1163-4ffc-b65a-b3234e471db0).
+				- `slink` = `ln -sv` (`--symbolic --verbose`)
+				  <br>creates [symbolic link (symlink)](#671f5784-d89b-4a4a-a6e7-f02a0805322f) to this file.
+			- `chmod` <a class="logseq-meta" id="671f5863-b392-406a-b6d2-408902e37e29" ></a>
+			  <br>change file mode bits
+			- `chown`
+			  <br>change file owner and group
+			- `df`
+			  <br>report file system disk space usage
+			- `du`
+			  <br>estimate file space usage
+		- text processing <a class="logseq-meta" id="6790a3e2-3f65-42d0-9253-35b6672d8b25" data-collapsed="true" ></a>
+			- `grep`
+			  <br>print lines that match patterns
+				- `--exclude-dir` to exclude _directory **names**_ from search. <a class="logseq-meta" data-collapsed="true" ></a>
+					- This options accept GLOB, e.g. `--exclude-dir={logs\*,\*logs}`, but *__not__ any path*, e.g. not `path/to/dir`.
+					- This options can be used many times to exclude different GLOBs.
+			- `tail`
+			  <br>output the last part of files
+				- `-{n,c} [+]$num` to output the last `$num` lines/chars, e.g. `-n 3`, `-n3`, `-c3`, or from line/char `+$num` from the start, e.g. `-n +3`, `-n+3`, `-c+3`. Default is `-n 10`.
+					- `n` can be ommited, e.g. `-3`, `+3`
+				- `-f`, `-F` keep appending output **follow**ing input growth. `-F` = `-f --retry` to follow even when the input is inaccessible.
+			- `head`
+			  <br>output the first part of files
+				- `-{n,c} [-]$num` to output the first `$num` lines/chars, e.g. `-n 3`, `-n3`, `-c3`, or until line/char `-$num` from the end, e.g. `-n -3`, `-n-3`, `-c-3`). Default is `-n 10`.
+					- `n` can be ommited, e.g. `-3`
+			- `sed` [option] script [input_file]
+			  <br>stream editor for filtering and transforming text
+				- `-i` to edit inplace, i.e. to overwrite the input file with the output
+				- `-e $script` for additional script beside the main script without `-e`
+					- `-E` to use extended regular expressions in the script
+			- `awk`
+			  <br>pattern scanning and processing language
+				- <zwsp>
+		- image processing <a class="logseq-meta" data-collapsed="true" ></a>
+			- `webp` package: `dwebp`, `cwebp`, `webpinfo`, `webpmux`, ...
+				- `dwebp`
+				  <br>decompress a WebP file to an image file
+				- `cwebp`
+				  <br>compress an image file to a WebP file
+				- `webpinfo`
+				  <br>print out the chunk level structure of WebP files along with basic integrity checks
+				- `webpmux`
+				  <br>create  animated WebP files from non-animated WebP images, extract frames from animated WebP images, and manage XMP/EXIF metadata and ICC profile.
+		- hex, binary, encoding converting <a class="logseq-meta" id="679085ef-facd-4c4a-83f3-f32bdefbaa49" data-collapsed="true" ></a>
+			- Examples
+				- Space-separated hex-byte stream: `hexdump -ve '1/1 "%x "'` = `od -tx1 -An`
+				- Continuous hex-byte stream: `hexdump -ve '1/1 "%x"'` = `xxd -p`
+			- `hexdump`, `hd`
+			  <br>display file contents in *little-endian* hexadecimal, decimal, octal, or ascii
+				- `-s $start` `-n $length` to read `$length` bytes (or `{K,M,G,T}[iB]` or `{K,M,G,T}B`) from `$start`.
+				- `-e $format_string` for **output format** similar to C `printf()`
+					- `[$num[/$size]] "%printf_format"` applies the `%printf_format` for `$num` times where each time consuming `$size` bytes. <a class="logseq-meta" data-collapsed="true" ></a>
+						- Supported `$size` values:
+							- Character: `%_c`, `%_p`, `%_u`, `%c`: 1 byte only
+							- Integer: `%X`, `%x`, `%o`, `%u`, `%d`, `%i`: 1, 2 and **4** bytes (default = 4)
+							- Float: `%E`, `%e`, `%f`, `%G`, `%g`: 4, **8** bytes (default = 8)
+						- `"%printf_format"` must be double-quoted.
+						- [Commentaries:](../../../../publish/CommonMark/Namespace.cm.md#665359ff-79f1-4669-b10b-f2b0e633a7c1) The notaion `$num/$size` is misleading! It should better be `$num*$size` or `$num x $size`.
+					- Multiple `-e` strings can be applied to the same chunk of data to print it in different forms, like the canonical format. <a class="logseq-meta" id="67907cb8-81f7-494f-92af-14275630e6c6" ></a>
+					- Address format: `%_a[x,o,d]` for every chunk or `%_A[x,o,d]` for the last address after the last chunk, in hex, octal and decimal numbers.
+				- `-v` for no collapse of duplicates. By default, all dupes are collapsed into `*`.
+				- `-C` for canonical format of 3 columns: 8-digit hex address ␣␣ 8 x 2 hex bytes ␣␣ | text | 
+				  <br>`hd` = `hexdump -C` = 
+				  ```sh
+				  hexdump \
+				    -e '"%08_ax  " 8/1 "%02x " "  "  8/1 "%02x "' \
+				    -e '"  |" 16 "%_p" "|" "\n"' \
+				    -e '"%08_Ax\n"'
+				  ```
+			- `od`
+			  <br>dump files in octal, hex and other formats
+				- `-j $start` `-N $length` to read `$length` bytes from `$start`.
+				- `-t $format` with formats: `{x,o,u,d,f}[$size][a,z]` for {*octal*, hex, unsigned dec, signed dec, float} (default = octal) of `$size` bytes (default 4 bytes) 
+				  <br>and optionally `a` or `z` for printable characters under (`a`) or at the end (`z`) of each output line.
+				- `--endian={big|little}` for [endian byte order](https://en.wikipedia.org/wiki/Endianness) (default = `little`)
+				- `-A $radix` for radix of address in the first column: `{x,o,d,n}` = {*octal*, hex, dec, **none**} (default = octal)
+				  <br>`-An` to **suppress address** output
+				- `-w $bytes` to break line after each number of bytes
+			- `xxd`
+			  <br>make a hexdump or do the **reverse**
+				- `-o $start` `-l $length` to read `$length` bytes from `$start`.
+				- `-r` **reverse** conversion
+				- `-g $bytes` to group bytes into a space-separated group
+				- `-c $bytes` to break line after each number of bytes
+				- `-p` to print only hex codes, A.K.A. "**plain hex**", **continuously** (`-g` grouping is diabled) without address
+				- `-e` for **little-endian** hex (default = big-endian)
+				- `-i` output in C array definition
+			- `dd` `$operand`... <a class="logseq-meta" data-collapsed="true" ></a>
+			  <br>copy a file block-wise, converting and formatting [according to the `$operand`s](https://www.ibm.com/docs/nl/aix/7.2?topic=d-dd-command)
+			  <br>A.K.A. “data definition”, “disk dump”, “disk duplicator”, or even “disk destroyer” due to its immense power and [ability to directly interact with block devices](https://blog.kubesimplify.com/the-complete-guide-to-the-dd-command-in-linux).
+				- `if=$in_file` `of=$out_file` or default to `stdin` `stdout`
+				- `bs=$size` (or `ibs=$size` `obs=$size`) `cbs=$size` specify block size (default = 512) for copying
+					- `cbs=$size` specify conversion block size (default = 0) for `conv={block,unblock}`
+				- `skip=$ni` `seek=$no` `count=$nc` skip the input `$ni` blocks and seek the output to `$no` blocks then copy `$nc` blocks
+				- `status={none,noxfer,progress}` to suppress status, suppress transfer statistics, or to show periodic transfer statistics
+				- `conv=$mode` to set modes of conversion
+					- `notrunc`, `excl`, `nocreat` to prevent overwriting (truncating) the `of`, or fail (`excl`) when the `of` already exists, or don't create `of`
+					- `noerror` to continue on any input error
+					- `swab`, `sync` to swap every pair of bytes, or/and pad input block to `ibs`
+					- `lcase`|`ucase`, `block`|`unblock` to convert text to lower/upper case, or/and padding/unpadding spaces to line to reach `cbs`
+		- system handling <a class="logseq-meta" id="67f4ffe3-488c-4d61-9622-26ecbed945ac" data-collapsed="true" data-logbook="CLOCK: [2025-04-08 Tue 17:52:38]&#10;" ></a>
+			- `systemctl`
+			  <br>Control the `systemd` system and **service manager**.
+			- `gnome-session-quit` <a class="logseq-meta" id="67f4ffeb-5e02-4fd5-bd33-19abc23f60aa" ></a>
+			  <br>`--logout`|`--power-off`|`--reboot`
+			  <br>End the current GNOME session.
+			- `shutdown` <a class="logseq-meta" id="67f500dd-ff43-46ec-b9e0-9dcc097b2bc3" ></a>
+			  <br>`poweroff`, `reboot`, or `halt` the machine.
+				- Note: [`gnome-session-quit`](#67f4ffeb-5e02-4fd5-bd33-19abc23f60aa) could be safer than [`shutdown`](#67f500dd-ff43-46ec-b9e0-9dcc097b2bc3). <a class="logseq-meta" id="67f4f5e3-e739-41cd-8b95-14c7bbe9eebe" ></a>
+		- network handling <a class="logseq-meta" data-collapsed="true" ></a>
+			- `iftop` <a class="logseq-meta" id="6835b16a-35af-4d69-8b48-17cbb2bf556d" ></a>
+			  <br>(with `sudo`) display "top network" interfaces.
+			- `nethogs` <a class="logseq-meta" id="6835b16a-71ae-4882-afc0-d998d761442e" ></a>
+			  <br>(with `sudo`) NetHogs displays 'net top' processes.
+			- `ss`/`netstat`
+			  <br>dump network socket statistics: type (TCP, UDP, UNIX), status (listening, established, unconnected), addresses
+			- `nc`/`netcat`
+			  <br>versatile network socket operations: connect, listen, send packets, scan port
+	- ### shell
+		- `man [-k]`, `info`, `[run-]help`, `apropos` <a class="logseq-meta" data-collapsed="true" ></a>
+			- `man` is the traditional UNIX manual pages for specific subjects like commands, functions, configs, etc. `man` pages are viewed with `less` navigation.
+				- [Examples:](../../../../publish/CommonMark/Namespace.cm.md#66725725-f76a-4328-b162-f469b87e871b) `man ls`
+					- ```
+					  ⮕ man ls
+					  NAME
+					         ls - list directory contents
+					  
+					  SYNOPSIS
+					         ls [OPTION]... [FILE]...
+					  
+					  DESCRIPTION
+					         List  information about the FILEs (the current directory by default).  Sort entries alpha‐
+					         betically if none of -cftuvSUX nor --sort is specified.
+					  ...
+					  ``` <a class="logseq-meta" data-collapsed="true" ></a>
+				- `man -k ${keyword}` = `apropos ${keyword}` searches the manual page names and descriptions for `${keyword}`.
+				- [Examples:](../../../../publish/CommonMark/Namespace.cm.md#66725725-f76a-4328-b162-f469b87e871b) `apropos directory`
+					- ```
+					  ⮕ apropos directory                                                                     [f54d504e0]
+					  alphasort (3)        - scan a directory for matching entries
+					  basename (1)         - strip directory and suffix from filenames
+					  bindtextdomain (3)   - set directory containing message catalogs
+					  chacl (1)            - change the access control list of a file or directory
+					  chdir (2)            - change working directory
+					  chroot (2)           - change root directory
+					  chroot (8)           - run command or interactive shell with special root directory
+					  closedir (3)         - close a directory
+					  cups-files.conf (5)  - file and directory configuration file for cups
+					  dbus-cleanup-sockets (1) - clean up leftover sockets in a directory
+					  depmod.d (5)         - Configuration directory for depmod
+					  dir (1)              - list directory contents
+					  dirfd (3)            - get directory stream file descriptor
+					  dirsplit (1)         - splits directory into multiple with equal size
+					  ...
+					  ``` <a class="logseq-meta" data-collapsed="true" ></a>
+			- `info` is the comprehensive GNU documentation for distributions and systems. It is a system of docs interlinked and indexed with hyper-links like ebooks. `info` docs are viewed with `emacs` navigation.
+				- [Examples:](../../../../publish/CommonMark/Namespace.cm.md#66725725-f76a-4328-b162-f469b87e871b) `info ls`
+					- ```
+					  ⮕ info ls
+					  10.1 ‘ls’: List directory contents
+					  ==================================
+					  
+					  The ‘ls’ program lists information about files (of any type, including
+					  directories).  Options and file arguments can be intermixed arbitrarily,
+					  as usual.
+					  ...
+					  ``` <a class="logseq-meta" data-collapsed="true" ></a>
+			- Bash' `help` and ZSh' `run-help` is the built-in command to describe shell-built-in commands. Help pages are viewed with `less` navigation.
+				- [Examples:](../../../../publish/CommonMark/Namespace.cm.md#66725725-f76a-4328-b162-f469b87e871b) `[run-]help ls`, `[run-]help cd`
+					- ```
+					  ⮕ help ls
+					  bash: help: no help topics match `ls'.  Try `help help' or `man -k ls' or `info ls'.
+					  ⮕ run-help ls     
+					  ls is an alias for ls --color=tty
+					  ⮕ help cd
+					  cd: cd [-L|[-P [-e]] [-@]] [dir]
+					      Change the shell working directory.
+					  ...
+					  ⮕ run-help cd      
+					  cd [ -qsLP ] [ arg ]
+					  cd [ -qsLP ] old new
+					  cd [ -qsLP ] {+|-}n
+					         Change  the  current  directory.   In the first form, change the
+					         current directory to arg, or to the value of $HOME if arg is not
+					         specified.  If arg is `-', change to the previous directory.
+					  ...
+					  ``` <a class="logseq-meta" data-collapsed="true" ></a>
+		- `which`, `type`, `command -V`, `whence`, `where` <a class="logseq-meta" data-collapsed="true" ></a>
+			- [Description:](../../../../publish/CommonMark/Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) All these describe the given name as whether a built-in command or an external command (with path) or an alias (with definition), but are different in different shells.
+			- Note: The command `command [-p]` is designed to *execute an external command* distinguishing from buit-in or function or alias of the same name. However, its additional option `[-vV]` does the job of `which`/`type`.
+			- In `bash`
+				- `type` & `command` are built-in, `which` is external, and no `whence` nor `where`.
+				- [Examples:](../../../../publish/CommonMark/Namespace.cm.md#66725725-f76a-4328-b162-f469b87e871b)
+					- ```shell
+					  ⮕ which which
+					  /usr/bin/which
+					  ⮕ type which
+					  which is hashed (/usr/bin/which)
+					  ⮕ type type
+					  type is a shell builtin
+					  ⮕ type command
+					  command is a shell builtin
+					  ⮕ type whence
+					  bash: type: whence: not found
+					  ⮕ type where
+					  bash: type: where: not found
+					  ⮕ type ll
+					  ll is aliased to `ls -alF'
+					  ⮕ which -a ls
+					  /usr/bin/ls
+					  /bin/ls
+					  ``` <a class="logseq-meta" data-collapsed="true" ></a>
+			- In `zsh`
+				- `whence` & `command` are built-in, with aliases `which`=`whence -c`, `where`=`whence -ca`, `type`=`whence -v`.
+				- [Examples:](../../../../publish/CommonMark/Namespace.cm.md#66725725-f76a-4328-b162-f469b87e871b)
+					- ```shell
+					  ⮕ which which
+					  which: shell built-in command
+					  ⮕ which type
+					  type: shell built-in command
+					  ⮕ which command
+					  command: shell built-in command
+					  ⮕ which whence
+					  whence: shell built-in command
+					  ⮕ which where
+					  where: shell built-in command
+					  ⮕ which ll
+					  ll: aliased to ls -lhF
+					  ⮕ which -a ls
+					  ls: aliased to ls --color=tty
+					  /usr/bin/ls
+					  /bin/ls
+					  ``` <a class="logseq-meta" data-collapsed="true" ></a>
+		- Command directories <a class="logseq-meta" data-collapsed="true" ></a>
+			- Home: `${HOME}/bin`, `${HOME}/.local/bin`
+			- System: `/bin`, `/usr/bin`, `/usr/local/bin`
+			- Superuser: `/sbin`, `/usr/sbin`, `/usr/local/sbin`
+			- Snap: `/snap/bin` <a class="logseq-meta" id="66b1cfa4-59ec-476f-b06f-c14db11f369b" ></a>
+		- Double dash `--` <a class="logseq-meta" id="67d3c57c-6e47-4762-8255-f855af47d5bc" data-collapsed="true" ></a>
+		  <br>usually means “end of command options” in most commands.
+			- An argument with a leading dash/hyphen `-` is considered an option of the command.
+			- To pass dash-leading argument as is, we must use the double dash `--` to mark the end of option list before the list of non-option arguments.
+			- Execptions: `echo`, `shift`,...
+		- Escape sequences & Hex codes <a class="logseq-meta" data-collapsed="true" ></a>
+			- `\`-escape sequences are not interpreted by the shell itself, but by other components: [ANSI-C quoted](https://www.gnu.org/software/bash/manual/html_node/ANSI_002dC-Quoting.html) `$'string\n'`, other commands like `printf`, `echo -e`, etc.
+				- The shell only escapes 2 cases: line continuation (`\`linebreak will remove the linebreak), and quote escape within quotation
+				- [Non-quoted backslash](https://www.gnu.org/software/bash/manual/html_node/Escape-Character.html) doesn't escape but keeps the next character(s) from having special meaning.
+					- Space in string (won't break string): `string\ with\ \ spaces` = `'string with  spaces'`
+					- Non-alias command: when `alias rm='rm -i'`, then `\rm` = `rm` instead of `rm -i`
+						- Note: In (non-interactive) `bash` script, alias expansion is disabled by default, and we must enable it with `shopt -s expand_aliases`.
+						- Test with ![test-alias-expansion.sh](../assets/Linux/scripts/test-alias-expansion.sh) <a class="logseq-meta" data-collapsed="true" ></a>
+							- `bash test-alias-expansion.sh`
+							  ```sh
+							  alias ll='ls -l'
+							  -- Execute ll:
+							  total 20
+							  -rwxrwxr-x 1 dinhlx dinhlx 1179 Thg 4   9 17:17 test-local-readonly.sh
+							  [...]
+							  -- Execute \ll:
+							  test-alias-expansion.sh: line 6: ll: command not found
+							  -- Execute l\l:
+							  test-alias-expansion.sh: line 7: ll: command not found
+							  -- Execute l\s:
+							  test-local-readonly.sh  [...]
+							  ```
+							- `zsh test-alias-expansion.sh`
+							  ```sh
+							  test-alias-expansion.sh:2: command not found: shopt
+							  ll='ls -l'
+							  run-help=man
+							  which-command=whence
+							  -- Execute ll:
+							  total 20
+							  -rwxrwxr-x 1 dinhlx dinhlx 1179 Thg 4   9 17:17 test-local-readonly.sh
+							  [...]
+							  -- Execute \ll:
+							  test-alias-expansion.sh:6: command not found: ll
+							  -- Execute l\l:
+							  test-alias-expansion.sh:7: command not found: ll
+							  -- Execute l\s:
+							  test-local-readonly.sh  [...]
+							  ```
+							- `dash test-alias-expansion.sh`
+							  ```sh
+							  test-alias-expansion.sh: 2: shopt: not found
+							  ll='ls -l'
+							  -- Execute ll:
+							  total 20
+							  -rwxrwxr-x 1 dinhlx dinhlx 1179 Thg 4   9 17:17 test-local-readonly.sh
+							  [...]
+							  -- Execute \ll:
+							  test-alias-expansion.sh: 6: ll: not found
+							  -- Execute l\l:
+							  test-alias-expansion.sh: 7: ll: not found
+							  -- Execute l\s:
+							  test-local-readonly.sh  [...]
+							  ```
+			- Ref: [Escape sequences in C](https://en.wikipedia.org/wiki/Escape_sequences_in_C#Table_of_escape_sequences)
+				- [hex, binary, encoding converting](#679085ef-facd-4c4a-83f3-f32bdefbaa49) commands
+			- The hyphen/dash `-` doesn't required to be escaped in normal string, but a leading dash can be unintentinally treated as an option of a command.
+				- Escaping with backslash is ineffective: `\-` is always `\-`, never converted to `-`.
+				- We can use [Double dash `--`](#67d3c57c-6e47-4762-8255-f855af47d5bc) to separate option list.
+				- Other way to esccape dash: `$'\x2d'`
+			- [Examples:](../../../../publish/CommonMark/Namespace.cm.md#66725725-f76a-4328-b162-f469b87e871b)
+				- ```shell
+				  LANG=C LC_ALL=UTF-16BE printf "\
+				  \0\a\b\t\n\v\f\r\e \"\'\?\\~~\
+				  \07\077\xF\x7F\xA0\xFF\uF\uAB\uF00\uFF9D\
+				  " |od -tx1 -An
+				  ```
+				  <br>results in
+				  ```
+				   00 07 08 09 0a 0b 0c 0d 1b 20 22 27 3f 5c 7e 7e
+				   07 3f 0f 7f a0 ff 0f 00 ab 0f 00 ff 9d
+				  ```
+			- Table of escape sequences <a class="logseq-meta" data-collapsed="true" ></a>
+				- | Esc seq |  Hex  | Unicode & Meaning |
+				  <br>|:------- | -----:| ------------------ |
+				  <br>| `\0`        |    00 | [␀] = [U+0000](https://www.compart.com/en/unicode/U+0000) = [NULL (control)](https://en.wikipedia.org/wiki/Null_character) |
+				  <br>| `\a`=`\07`  |    07 | [🔔] = [⍾] = [␇] = [U+0007](https://www.compart.com/en/unicode/U+0007) = [BELL (control)](https://en.wikipedia.org/wiki/Bell_character) |
+				  <br>| `\b`        |    08 | [⌫] = [␈] = [U+0008](https://www.compart.com/en/unicode/U+0008) = [BACKSPACE (control)](https://en.wikipedia.org/wiki/Backspace) |
+				  <br>| `\t`        |    09 | [↹] = [␉] = [U+0009](https://www.compart.com/en/unicode/U+0009) = [HORIZONTAL TAB (control)](https://en.wikipedia.org/wiki/Tab_key) = `&Tab;` |
+				  <br>| `\n`        |    0A | [⏎] = [␊] = [U+000A](https://www.compart.com/en/unicode/U+000A) = [END OF LINE, LINE FEED, NEW LINE (control)](https://en.wikipedia.org/wiki/Newline) = `&NewLine;` |
+				  <br>| `\v`        |    0B | [↨] = [␋] = [U+000B](https://www.compart.com/en/unicode/U+000B) = [VERTICAL TAB (control)](https://en.wikipedia.org/wiki/Tab_key) |
+				  <br>| `\f`        |    0C | [↡] = [␌] = [U+000C](https://www.compart.com/en/unicode/U+000C) = [FORM FEED (control)](https://en.wikipedia.org/wiki/Page_break#Form_feed) |
+				  <br>| `\r`        |    0D | [↵] = [␍] = [U+000D](https://www.compart.com/en/unicode/U+000D) = [CARRIAGE RETURN (control)](https://en.wikipedia.org/wiki/Carriage_return) |
+				  <br>| `\xF`=`\uF` |    0F | [␏] = [U+000F](https://www.compart.com/en/unicode/U+000F) = [SHIFT IN (control)](https://en.wikipedia.org/wiki/Shift_Out_and_Shift_In_characters) |
+				  <br>| `\e`        |    1B | [␛] = [U+001B](https://www.compart.com/en/unicode/U+001B) = [ESCAPE (control)](https://en.wikipedia.org/wiki/Escape_character) |
+				  <br>| `\"`        |    22 | " = [U+0022](https://www.compart.com/en/unicode/U+0022) = [QUOTATION MARK](https://en.wikipedia.org/wiki/Quotation_mark) = `&quot;` |
+				  <br>| `\'`        |    27 | ' = [U+0027](https://www.compart.com/en/unicode/U+0027) = [APOSTROPHE](https://en.wikipedia.org/wiki/Apostrophe) = `&apos;` |
+				  <br>| `\?`=`\077` |    3F | ? = [U+003F](https://www.compart.com/en/unicode/U+003F) = [QUESTION MARK](https://en.wikipedia.org/wiki/Question_mark) = `&quest;` |
+				  <br>| `\\`        |    5C | \ = [U+005C](https://www.compart.com/en/unicode/U+005C) = [REVERSE SOLIDUS](https://en.wikipedia.org/wiki/Backslash) = `&bsol;` |
+				  <br>| `\x7F`      |    7F | [⌦] = [t̶e̶x̶t̶̶] = [␡] = [U+007F](https://www.compart.com/en/unicode/U+007F) = [DELETE (control)](https://en.wikipedia.org/wiki/Delete_character) |
+				  <br>| `\uA0`      |    A0 | [⍽] = ` ` = [U+00A0](https://www.compart.com/en/unicode/U+00A0) = [NO-BREAK SPACE](https://en.wikipedia.org/wiki/Non-breaking_space) = `&nbsp;` = `&NonBreakingSpace;` |
+				  <br>| `\uAB`      |    AB | « = [U+00AB](https://www.compart.com/en/unicode/U+00AB) = [LEFT-POINTING DOUBLE ANGLE QUOTATION MARK](https://en.wikipedia.org/wiki/Guillemet) = `&laquo;` |
+				  <br>| `\xFF`      |    FF | ÿ = [U+00FF](https://www.compart.com/en/unicode/U+00FF) = [SMALL LETTER Y WITH DIAERESIS](https://en.wikipedia.org/wiki/%C5%B8) = `&yuml;` |
+				  <br>| `\uF00`     |  0F00 | ༀ = [U+0F00](https://www.compart.com/en/unicode/U+0F00) = [TIBETAN SYLLABLE OM](https://en.wikipedia.org/wiki/Om) |
+				  <br>| `\uFF9D`    |  FF9D | ﾝ = [U+FF9D](https://www.compart.com/en/unicode/U+FF9D) = [HALFWIDTH KATAKANA LETTER N](https://en.wikipedia.org/wiki/Halfwidth_and_Fullwidth_Forms_(Unicode_block)) |
+			- Note that, I don't know why but, `printf` wrongly converts `\uC0-\uFF` to `\u80-\uBF` in UTF-16BE. That 6-bit shift right (`÷0x40`) seems to be from UTF-8! <a class="logseq-meta" data-collapsed="true" ></a>
+				- Check hex range `\uB0-\uFF`:
+				  ```shell
+				  LANG=C LC_CTYPE=UTF-16BE printf "\uB0\uBF\
+				  \uC0\uCF\uD0\uDF\uE0\uEF\uF0\uFF" |
+				  od -tx1 -An
+				  ```
+				  <br>=>
+				  ```
+				  00 b0 00 bf 00 80 00 8f 00 90 00 9f 00 a0 00 af
+				  00 b0 00 bf
+				  ```
+				- Show printable chars `\uA0-\uBF` (excluding controls in `\u80-\u9F`):
+				  ```shell
+				  LANG=C LC_CTYPE=UTF-16BE printf "\uB0\uBF\uE0\uEF\uF0\uFF" |
+				  tee >(od -tx1 -An 1>&2) |
+				  iconv -f UTF-16BE -t UTF-8
+				  ```
+				  <br>=>
+				  ```
+				   00 b0 00 bf 00 a0 00 af 00 b0 00 bf
+				  °¿ ¯°¿
+				  ```
+		- #### shell script <a class="logseq-meta" id="6694a210-0bd1-4115-b190-4c41f58a577f" data-collapsed="true" ></a>
+			- One line of command with many nuances:
+			  ```shell
+			  ( IFS=$'\n'; printf -- "- %s\n" ${multiple_lines}$(ls -l) )
+			  ``` <a class="logseq-meta" data-collapsed="true" ></a>
+				- Meaning: this command line prints the list of lines in `${multiple_lines}$(ls -l)` in an itemized list format where each line is prefixed with a dash. <a class="logseq-meta" data-collapsed="true" ></a>
+					- Execution example
+						- ```shell
+						  ⮕ multiple_lines=$'first line\nsecond line\twith tab and escaped char [\x21]'
+						  ⮕ ( IFS=$'\n'; printf -- "- %s\n" ${multiple_lines}$(ls -l) )
+						  ``` <a class="logseq-meta" id="66950352-cb8c-4657-ae14-e8e2fea8efc2" ></a>
+						  <br>=> 
+						  ```
+						  - first line
+						  - second line	with tab and escaped char [!]total 14924
+						  - drwxrwxr-x  2 dinhlx dinhlx     4096 Thg 7  15 16:21 bin
+						  - drwxr-xr-x  2 dinhlx dinhlx     4096 Thg 4  10  2023 Desktop
+						  - drwxr-xr-x  8 dinhlx dinhlx     4096 Thg 6   4 12:13 Documents
+						  - drwxr-xr-x  7 dinhlx dinhlx    32768 Thg 7  15 13:55 Downloads
+						  ...
+						  ```
+				- `--`: double-dash in shell command is to signify the _end of command options_ (and begin positional arguments). We must use `--` here because the format string `- %s\n` starts with a dash which will be confused as options for `printf` command.
+				- Unquoted `${multiple_lines}$(ls -l)`: unquoted `$string` (`${var_value}` and `$(subshell_return_value)`) will be handled by the shell, i.e. split by [IFS](https://en.wikipedia.org/wiki/Input_Field_Separators) and [glob](https://en.wikipedia.org/wiki/Glob_(programming))-expanded. <a class="logseq-meta" id="6694eca8-9a21-42cb-ae00-e604c9ea7ff9" ></a>
+					- To prevent splitting, we must quote it, either with `'$single_quote'` or with `"$double_quote"`.
+					- To prevent glob-expansion, we must quote it with `'$single_quote'`. `"$double_quoted"` strings are still glob-expanded.
+					- default `IFS` <a class="logseq-meta" id="66951231-e9b3-4298-b340-c067fae66c48" ></a>
+						- `bash`: `IFS=' \t\n' = '\x20\x09\x0A'`
+						- `zsh`: `IFS` = `bash IFS`+ null char (`\x00`)
+					- shell glob's wildcards (`*`, `?`, and `[…]`) <a class="logseq-meta" data-collapsed="true" ></a>
+						- `*`: matches any number of any characters including none
+						- `?`: matches any single character
+						- `[…]`: matches one character given in the bracket. The character set can be listed explicitly, e.g. `[aAbB]`, or provided via a range, e.g. `[A-z]`, or can also be negated with `!`, e.g. `[!abc]`.
+				- To concatenate strings, we just need to place them right next together, without space, e.g. `${var_value}$(subshell_return_value)`, `${first_line_var}$'\n'${next_line_var}`, etc.
+				- To change the input field separator of the shell, we must assign `IFS=...;` **with semicolon** before the command (`printf` here)
+					- Don't confuse it with the env.var. passing syntax `IFS=... printf`. _Without semicolon_, the new value of `IFS` will be passed to the command `printf` only, and has no effect on the external shell, hence the shell will still split strings by the [default `IFS`](#66951231-e9b3-4298-b340-c067fae66c48).
+					- _Don't separate the equal sign `=`_ from the variable name `IFS`! It's the shell script assignment syntax! If we separate them, that name (`IFS`) will be considered as a command instead of a variable!
+				- `( sub_shell )`: To not affect the `IFS` of other command lines, we enclose these 2 commands (`IFS` assignment & `printf`) in a subshell.
+				- `$'\n'`: [ANSI-C quoting](https://www.gnu.org/software/bash/manual/html_node/ANSI_002dC-Quoting.html) is a special quoting technique, beside the common [single/double quoting](#6694eca8-9a21-42cb-ae00-e604c9ea7ff9), to expand the backslash-escaped characters: `\n`, `\t`, `\xHH`, etc. <a class="logseq-meta" id="6694f4b5-ac24-45b3-af7f-baea35636bcf" ></a>
+					- Note that this is required by `bash` but not required by `zsh` (`zsh` automatically expands escaped chars in double-quoted strings)
+						- [Examples:](../../../../publish/CommonMark/Namespace.cm.md#66725725-f76a-4328-b162-f469b87e871b) <a class="logseq-meta" data-collapsed="true" ></a>
+							- `bash` with ANSI-C quotation
+							  ```shell
+							  command bash -c "echo $'first line\nsecond line\twith tab and escaped char [\x21]'"
+							  ```
+							  <br>=>
+							  ```
+							  first line
+							  second line	with tab and escaped char [!]
+							  ```
+							- `zsh` with ANSI-C  quotation
+							  ```shell
+							  command zsh -c "echo $'first line\nsecond line\twith tab and escaped char [\x21]'"
+							  ```
+							  <br>=>
+							  ```
+							  first line
+							  second line	with tab and escaped char [!]
+							  ```
+							- `zsh` with double quotation
+							  ```shell
+							  command zsh -c 'echo "first line\nsecond line\twith tab and escaped char [\x21]"'
+							  ```
+							  <br>=>
+							  ```
+							  first line
+							  second line	with tab and escaped char [!]
+							  ```
+							- `bash` with double quotation
+							  ```shell
+							  command bash -c 'echo "first line\nsecond line\twith tab and escaped char [\x21]"'
+							  ```
+							  <br>=>
+							  ```
+							  first line\nsecond line\twith tab and escaped char [\x21]
+							  ```
+				- `printf` command will _loop over all strings_ of its arguments which are _split by the shell_ from the joined string `${multiple_lines}$(ls -l)`. With each string, `printf` will replace the string value to `%s` in the format `- %s\n`, where the escaped sequence `\n` is converted to [newline character](https://en.wikipedia.org/wiki/Newline)... _**by printf** not by the shell_. <a class="logseq-meta" id="6695074a-7545-453e-be59-096d9817a5ea" ></a>
+					- [Execution example](#66950352-cb8c-4657-ae14-e8e2fea8efc2) broken into steps <a class="logseq-meta" data-collapsed="true" ></a>
+						- 
+						  ```shell
+						  ⮕ multiple_lines=$'first line\nsecond line\twith tab and escaped char [\x21]'
+						  ``` <a class="logseq-meta" id="66950b28-31ab-4bd1-8986-57c6e1ff9d0a" ></a>
+						  => [ANSI-C quoted](#6694f4b5-ac24-45b3-af7f-baea35636bcf) escape sequences `\n`, `\t`, `\x21` are converted to newline, tab, and exclamation mark; then the whole string, containing 2 lines, is assigned to the variable `multiple_lines`:
+						  ```
+						  first line
+						  second line	with tab and escaped char [!]
+						  ```
+						- ```shell
+						  ⮕ ( IFS=$'\n'; printf -- "- %s\n" ${multiple_lines}$(ls -l) )
+						  ```
+							- 
+							  ```shell
+							  $(ls -l)
+							  ``` <a class="logseq-meta" id="66950cea-b55d-4a3e-bf30-2cb38fa24f32" ></a>
+							  => A subshell is forked from this shell to execute command `ls -l`
+							  ```
+							  total 14924
+							  drwxrwxr-x  2 dinhlx dinhlx     4096 Thg 7  15 16:21 bin
+							  drwxr-xr-x  2 dinhlx dinhlx     4096 Thg 4  10  2023 Desktop
+							  drwxr-xr-x  8 dinhlx dinhlx     4096 Thg 6   4 12:13 Documents
+							  drwxr-xr-x  7 dinhlx dinhlx    32768 Thg 7  15 13:55 Downloads
+							  ...
+							  ```
+							- [This result](#66950cea-b55d-4a3e-bf30-2cb38fa24f32) is concatenated with the [content of the variable `multiple_lines`](#66950b28-31ab-4bd1-8986-57c6e1ff9d0a):
+							  ```
+							  first line
+							  second line	with tab and escaped char [!]total 14924
+							  drwxrwxr-x  2 dinhlx dinhlx     4096 Thg 7  15 16:21 bin
+							  drwxr-xr-x  2 dinhlx dinhlx     4096 Thg 4  10  2023 Desktop
+							  drwxr-xr-x  8 dinhlx dinhlx     4096 Thg 6   4 12:13 Documents
+							  drwxr-xr-x  7 dinhlx dinhlx    32768 Thg 7  15 13:55 Downloads
+							  ...
+							  ``` <a class="logseq-meta" id="66950e0e-a74c-4679-b9aa-ac7a3e57b206" ></a>
+							  <br>Let's note that the last line of `${multiple_lines}` is joined with the first line of `$(ls -l)` into a single line:
+							  ```
+							  second line	with tab and escaped char [!]total 14924
+							  ```
+							- The shell will split [this multi-line string](#66950e0e-a74c-4679-b9aa-ac7a3e57b206) into many substrings according to value of the env.var. `IFS`
+								- With [default `IFS`](#66951231-e9b3-4298-b340-c067fae66c48), it will be split into single words: `first`, `line`, `second`, ... `[!]total` `14924`, `drwxrwxr-x`, `2`, `dinhlx`, `dinhlx`, ...
+								- But here we redefine `IFS`:
+								  ```shell
+								  IFS=$'\n';
+								  ```
+								  <br>=> each line will be a string argument passed to `printf`:
+								  <br>`first line`,
+								  <br>`second line	with tab and escaped char [!]total 14924`,
+								  <br>`drwxrwxr-x  2 dinhlx dinhlx     4096 Thg 7  15 16:21 bin`,
+								  <br>...
+							- ```shell
+							  printf -- "- %s\n"
+							  ```
+							  <br>=> [`printf` command will _loop over all strings_ of its arguments which are _split by the shell_ from the joined string `${multiple_lines}$(ls -l)`. With each string, `printf` will replace the string value to `%s` in the format `- %s\n`, where the escaped sequence `\n` is converted to [newline character](https://en.wikipedia.org/wiki/Newline)... _**by printf** not by the shell_.](#6695074a-7545-453e-be59-096d9817a5ea)
+							  ```
+							  - first line
+							  - second line	with tab and escaped char [!]total 14924
+							  - drwxrwxr-x  2 dinhlx dinhlx     4096 Thg 7  15 16:21 bin
+							  - drwxr-xr-x  2 dinhlx dinhlx     4096 Thg 4  10  2023 Desktop
+							  - drwxr-xr-x  8 dinhlx dinhlx     4096 Thg 6   4 12:13 Documents
+							  - drwxr-xr-x  7 dinhlx dinhlx    32768 Thg 7  15 13:55 Downloads
+							  ...
+							  ```
+			- Shell & environment variables <a class="logseq-meta" id="67f6185f-5efc-4fd0-b924-c175917092d8" data-collapsed="true" data-logbook="CLOCK: [2025-04-09 Wed 15:30:43]&#10;" ></a>
+				- **Shell variables** are local to the current shell and its sub-shells only. They are anavailable to other subprocesses spawned by this shell.
+					- Check shell vars: `set | grep varname`, `declare -p varname`
+					- Scoping and typing with `declare`
+						- Within a function, `var=val` ⇔ `declare -g var=val` declares a **global var**, while 
+						  <br>`local var=val` ⇔ `declare var=val` declares a **local var**.
+						- `export var=val` ⇔ `declare -x var=val` declares an [exported var](#67f6257e-455e-46f1-8225-8510f60b8b47).
+						- Typing: `declare -[raAilu]` declares a read-only (`r`), indexed array (`a`), associative array (`A`), integer (`i`), lower case (`l`), upper case (`u`) variable.
+						- `readonly` ≈ `declare -r` but *not exactly*! <a class="logseq-meta" data-collapsed="true" ></a>
+							- `readonly var=val` ⇔ `var=val; readonly var`
+								- While `declare -r` declares a new var, global outside function or local inside function, `readonly` only modify the read-only attribute of a declared var.
+							- Neither `readonly local` nor `local readonly` works! 🤪
+								- `readonly local` is *not local*, and `local readonly` is *not read-only*!
+							- Test script: ![test-local-readonly.sh](../assets/Linux/scripts/test-local-readonly.sh)
+				- **Environment variables** are shell vars `export`ed to all **subprocesses** spawned by this shell. <a class="logseq-meta" id="67f6257e-455e-46f1-8225-8510f60b8b47" ></a>
+					- Check env.vars: `export | grep varname`, `env | grep varname`, `printenv varname`
+					- Beside the standard `export` command, `csh` provides `setenv` = `export`.
+					- **One-time env.vars**: `[env] var=val $command` will execute `$command` with temporary env.var `$var` containing value `val`, then discard them.
+						- `env` is only required for old version of `sudo` and some old commands like `doas`.
+				- Nuances... warning: very confusing! 🤪 <a class="logseq-meta" id="67f61875-3740-45ce-ae88-1c5aed77435a" ></a>
+					- There's _**no way** to export a variable **out to parent** shell!_ The name `export` is so misleading: It only “exports” vars downward to its own subprocesses!!!
+					- `sudo` sanitizes (resets) all env.vars by default for security, unless explicitly requested to preserve them with `-E`, `--preserve-env`, `--preserve-env=list`.
+					- **Sub-shells** by [compound command](#67d2df4a-52c6-4b11-85ba-ad28f82fd77e) and [Command substitution](#67d25330-736b-464e-a926-ccd0771082eb) _inherits **read-only values** of all shell vars_ of their parent shell. So no need to export for these sub-shells to use, but they cannot return values through these vars.
+						- Warning: `sh $command` is treated as a normal _**subprocesses**, not a sub-shell_!
+			- `$-` special parameters <a class="logseq-meta" data-collapsed="true" ></a>
+				- `$$`: pid of the running shell (script) <a class="logseq-meta" id="66c6c8e6-54be-4b4f-80a1-c535d429d05c" ></a>
+				- `$0`: filename of the running shell (script)
+				- arguments to the running shell (script) <a class="logseq-meta" data-collapsed="true" ></a>
+					- `$#`: number of arguments
+					- `$*`: all arguments
+					- `$@`: all arguments where each argument is separated via quotation
+					- `$n`: n-th argument
+				- `$?`: exit status of the last command executed
+				- `$!`: pid of the last background command
+				- `$-`: the current set of enabled shell options given through `-o` of the current shell,  <a class="logseq-meta" data-logbook="CLOCK: [2025-03-14 Fri 11:12:27]--[2025-03-14 Fri 13:50:18] =&gt;  02:37:51&#10;" ></a>
+				  <br>e.g., `himBH` = (`histexpand`, `interactive`, `monitor`, `braceexpand`, `hashall`).
+			- String variable manipulations <a class="logseq-meta" data-collapsed="true" ></a>
+				- `${#var}`
+				  <br>string length of `$var`
+				- `${var:position[:length]}`
+				  <br>extract substring from `position` (zero-based in `bash`) with `length` or until the end
+					- `(-pos_from_right_end)` <a class="logseq-meta" data-collapsed="true" ></a>
+						- e.g.
+						  ```sh
+						  var=abcABC123ABCabc
+						  echo ${var:(-4)}
+						  Cabc
+						  ```
+				- `${var#substring}`
+				  <br>delete _shortest_ match of `substring` (pattern) **head** (`#`) of `$var`.
+				- `${var##substring}`
+				  <br>delete _longest_ match of `substring` (pattern) **head** (`#`) of `$var`.
+				- `${var%substring}`
+				  <br>delete _shortest_ match of `substring` (pattern) **tail** (`%` = remainder) of `$var`.
+				- `${var%%substring}`
+				  <br>delete _longest_ match of `substring` (pattern) **tail** (`%` = remainder) of `$var`.
+				- `${var/substring/replacement}`
+				  <br>replace *first* match of `substring` (pattern) with `replacement`.
+				- `${var/substring/replacement}`
+				  <br>replace *all* matches of `substring` (pattern) with `replacement`.
+				- Ref: [Advanced Bash-Scripting Guide: 10.1. Manipulating Strings](https://tldp.org/LDP/abs/html/string-manipulation.html)
+			- Parameter substitution <a class="logseq-meta" data-collapsed="true" ></a>
+				- Note: The version with `:` is for `parameter` declared but `null`.
+				- `${parameter-default value}`, `${parameter:-default value}`
+				  <br>If `parameter` is unset, use default value.
+				- `${parameter=default value}`, `${parameter:=default value}`
+				  <br>If `parameter` is unset, set it to default value before using its value.
+				- `${parameter=error message}`, `${parameter:=error message}`
+				  <br>If `parameter` is unset, print error message and *abort the script* with error status `1`.
+				- `${parameter+value}`, `${parameter:+value}`
+				  <br>Use the provided value only when `parameter` is set and not `null`, else do nothing.
+				- Ref:
+					- [Advanced Bash-Scripting Guide: 10.2. Parameter Substitution](https://tldp.org/LDP/abs/html/parameter-substitution.html)
+					- [Shell Parameter Expansion](https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html)
+			- Command grouping <a class="logseq-meta" id="67f4eaf7-9214-44a6-a607-885930ade2de" data-collapsed="true" ></a>
+				- Compound command
+				  <br>includes many commands combined by `;`, `||`, `&&`.
+					- Sub-shell `(` Compound command `)` <a class="logseq-meta" id="67d2df4a-52c6-4b11-85ba-ad28f82fd77e" ></a>
+					- List `{` Compound command `}`
+				- Command substitution <a class="logseq-meta" id="67d25330-736b-464e-a926-ccd0771082eb" ></a>
+				  <br>to capture output of a [Sub-shell `(` Compound command `)`](#67d2df4a-52c6-4b11-85ba-ad28f82fd77e)
+					- New syntax: `out=$(command)`
+					- Old syntax with backtick
+					  ```sh
+					  out=`command`
+					  ```
+					- Note: `$(function)`, as well as [Pipeline](#67d24bec-ffb8-45ad-a13b-0e22124b9652), will be executed in a sub-shell, i.e. a separate process, so _it **cannot affect** any variable in this shell_. <a class="logseq-meta" data-collapsed="true" ></a>
+						- Best practice: Never combine side effects (variable changes) with output!
+							- For side effects, only use function call, and return everything through variables. Output capture should be done within the function and returned through variables.
+							- Try best to avoid side effects, and return everything through output streams.
+						- If anyway, we want to both capture the **output** of a function and its **side effects** (variable changes), we must use [output redirection](#67d257b8-cce3-4e79-8b42-b82bdd1fe7b0) or [Process substitution](#67d25950-8596-4c10-a6bb-d4389872578d), instead of [Command substitution](#67d25330-736b-464e-a926-ccd0771082eb) or [Pipeline](#67d24bec-ffb8-45ad-a13b-0e22124b9652).
+							- E.g.: Implement the C expression `printf("%d ", ++i)` <a class="logseq-meta" data-collapsed="true" ></a>
+								- ![test-cmd-sub.sh](../assets/Linux/scripts/test-cmd-sub.sh)
+								  ```sh
+								  #!/bin/bash
+								  i=0
+								  increment(){
+								  	((++i))
+								      printf $i
+								  }
+								  printf "With function call: "
+								  increment; printf ' '
+								  increment; printf ' '
+								  increment; printf ' '
+								  echo
+								  printf "With command substitution: " # ineffective
+								  printf "%d " $(increment)
+								  printf "%d " $(increment)
+								  printf "%d " $(increment)
+								  echo
+								  printf "With pipeline: " # ineffective
+								  increment |xargs printf "%d "
+								  increment |xargs printf "%d "
+								  increment |xargs printf "%d "
+								  echo
+								  out="test-cmd-sub.txt"
+								  printf "With output redirection: "
+								  rm $out
+								  increment >> $out; printf ' ' >> $out
+								  increment >> $out; printf ' ' >> $out
+								  increment >> $out; printf ' ' >> $out
+								  cat $out
+								  echo
+								  printf "With process substitution: "
+								  rm $out
+								  increment > >(cat >> $out; printf ' ' >> $out)
+								  increment > >(cat >> $out; printf ' ' >> $out)
+								  increment > >(cat >> $out; printf ' ' >> $out)
+								  cat $out
+								  echo
+								  echo "Final i = $i"
+								  ```
+								- Output:
+								  ```sh
+								  $ sh test-cmd-sub.sh
+								  With function call: 1 2 3 
+								  With command substitution: 4 4 4 
+								  With pipeline: 4 4 4 
+								  With output redirection: 4 5 6 
+								  With process substitution: 7 9 
+								  Final i = 9
+								  $ cat test-cmd-sub.txt
+								  7 9 8 %
+								  ```
+								- Note: The process substitution runs sub-shells in parallel with the main shell, hence random order of outputs in `test-cmd-sub.txt`.
+					- Ref: [Wikipedia](https://en.wikipedia.org/wiki/Command_substitution)
+			- I/O stream [redirection](https://en.wikipedia.org/wiki/Redirection_(computing)) <a class="logseq-meta" id="67d24c08-0890-4864-9ceb-759d519f5e8b" data-collapsed="true" ></a>
+				- Syntax: `command < infile > outfile` <a class="logseq-meta" id="67d257b8-cce3-4e79-8b42-b82bdd1fe7b0" ></a>
+					- Appending output: `command >> outfile` <a class="logseq-meta" id="67d257e9-420a-43df-b715-302cb37df234" ></a>
+					- Using [file descriptors](https://en.wikipedia.org/wiki/File_descriptor) (0 = `stdin`, 1 = `stdout`, 2 = `stderr`)
+						- Output to 2 separate files: `command 1>outfile 2>errfile`
+						- Output both streams to a file: `command 2>&1 1>outfile` equivalent to  `command 2>&1 >outfile`
+				- Here document `<<` & here string `<<<` as input stream <a class="logseq-meta" id="67d24c21-82a9-4ff2-9e38-89944bcca455" ></a>
+					- Input a multi-line string with here string
+					  ```sh
+					  cat <<< "${multiple_lines}"
+					  ```
+					- Here document with stream delimiter `__END_OF_STREAM__` <a class="logseq-meta" data-collapsed="true" ></a>
+						- Input:
+						  ```sh
+						  cat << __END_OF_STREAM__
+						  This is a Here Document containing many lines
+						  First line
+						  Second line
+						  ...
+						  Last line
+						  __END_OF_STREAM__
+						  ```
+						- Output:
+						  ```
+						  This is a Here Document containing many lines
+						  First line
+						  Second line
+						  ...
+						  Last line
+						  ```
+					- Here doc `<<-` **indented** with **tabs** (no spaces) <a class="logseq-meta" data-collapsed="true" ></a>
+						- Input:
+						  ```sh
+						  cat << __END_OF_STREAM__
+						  	This is a Here Document containing many lines
+						  	First line
+						  	Second line
+						  	...
+						  	Last line
+						  __END_OF_STREAM__
+						  ```
+						- Output:
+						  ```
+						  This is a Here Document containing many lines
+						  First line
+						  Second line
+						  ...
+						  Last line
+						  ```
+					- Assign multi-line string to a var with `$(cat <<...)` <a class="logseq-meta" data-collapsed="true" ></a>
+						- Input:
+						  ```sh
+						  multiple_lines=$(cat << __END_OF_STREAM__
+						  This is a Here Document containing many lines
+						  First line
+						  Second line
+						  ...
+						  Last line
+						  __END_OF_STREAM__
+						  )
+						  ```
+							- Note: The closing `)` of [Command substitution](#67d25330-736b-464e-a926-ccd0771082eb) must be the next line under the stream delimiter.
+						- Output:
+						  ```sh
+						  $ cat <<< "${multiple_lines}"
+						  This is a Here Document containing many lines
+						  First line
+						  Second line
+						  ...
+						  Last line
+						  ```
+					- Ref: [Wikipedia](https://en.wikipedia.org/wiki/Here_document)
+				- Pipeline <a class="logseq-meta" id="67d24bec-ffb8-45ad-a13b-0e22124b9652" ></a>
+				  <br>`cmd1 | cmd2` to [chain](https://en.wikipedia.org/wiki/Pipeline_(Unix)) output of this command `cmd1` to the input of next command `cmd2`.
+					- [Named pipe](https://en.wikipedia.org/wiki/Named_pipe) (FIFO) as a file can be created with `mkfifo` <a class="logseq-meta" id="67d25643-5c55-4ffa-b70a-de0e7b0dff70" ></a>
+				- Process substitution <a class="logseq-meta" id="67d25950-8596-4c10-a6bb-d4389872578d" ></a>
+				  <br>to treat I/O streams as (FIFO) files
+					- Syntax: `<(input_provider)` and `>(output_filter)` as `infile` and `outfile`
+					  ```sh
+					  diff <(sort file1) <(sort file2) > >(tee res.diff) 2> >(tee err)
+					  ```
+					- Note: There must be **space**(s) between process substitution syntax `>()`, `<()` and stream redirection syntax `>`, `<` so that they're not confused with [appending](#67d257e9-420a-43df-b715-302cb37df234) `>>` and [here doc](#67d24c21-82a9-4ff2-9e38-89944bcca455)  `<<`.
+					- Ref: [Wikipedia](https://en.wikipedia.org/wiki/Process_substitution)
+		- Oh My Zsh <a class="logseq-meta" data-collapsed="true" ></a>
+			- [oh-my-zsh](https://ohmyz.sh/) is a delightful, open source, community-driven framework for managing your [Zsh](https://en.wikipedia.org/wiki/Z_shell) configuration.
+		- Nushell <a class="logseq-meta" data-collapsed="true" data-logbook="CLOCK: [2024-10-04 Fri 10:17:52]&#10;" ></a>
+			- [Nushell](https://www.nushell.sh/) is a [Rust](https://en.wikipedia.org/wiki/Rust_(programming_language)) based shell for structured data pipelining.
+			- On [<span class="link-h3">Ubuntu</span>](#66faa5fa-52aa-4e12-8a55-c6ad22ebdfa7), `cargo` package manager of Rust must be installed first, then `nu` can be installed by `cargo`.
+				- ```sh
+				  sudo apt install cargo
+				  ```
+				- Make sure of dependencies
+				  ```sh
+				  sudo apt install pkg-config build-essential libssl-dev libx11-dev libxcb-composite0-dev
+				  ```
+				- Check version compatibility between Rust and Nushell in [rust-toolchain.toml](https://github.com/nushell/nushell/blob/0.91.0/rust-toolchain.toml), e.g. Nushell v0.91.0 ~ Rust v1.74.1.
+					- ```sh
+					  cargo install nu --version ^0.91.0
+					  ```
+				- Ref: [Install Nu Shell on Ubuntu 20.04](https://www.osradar.com/install-nu-shell-ubuntu/) <a class="logseq-meta" data-collapsed="true" ></a>
+					- Note: Don't install ` --all-features` as instructed here, because some "raw" features make `polars-core` compilation error: `raw_table_mut()` method not found.
+	- ### editors <a class="logseq-meta" data-collapsed="true" ></a>
+		- #### vim <a class="logseq-meta" id="6716110f-c747-4dbe-9af4-5ebee764c436" data-collapsed="true" ></a>
+		  Vi IMproved, a programmer's text editor
+			- directory browsing
+				- When opening a directory, e.g. `vim .`, vim can browse it for the text file to be edited.
+			- split window <a class="logseq-meta" id="66fe47b0-71d5-4663-bc43-d4774329a56e" ></a>
+				- `:[v]sp[lit] [file]` | `Ctrl`-`w`-{`s`,`v`}
+				   <br>to split horizontally (or vertically with `vs`). If no `file` is provided (or hotkey `Ctrl`-`w`-{`s`,`v`}), the current file is mirrored to the new split window.
+				- `Ctrl`-`w`-(arrow key)
+				   <br>to move around.
+				- `:[w]q[!]` | `Ctrl`-`w`-`c`
+				  <br>to close current window. `w` to write before closing, and `!` to discard changes.
+				- `vim -{o,O} $files`
+				  <br>to open each file in a split window (`-o` for horizontal, `-O` for vertical).
+			- tab <a class="logseq-meta" id="66fe472d-cbfe-49ff-9ec1-4c1b7853895a" ></a>
+				- `:tabe[dit] [file]`
+				  <br>to open new tab. If no `file` is provided, a new file (empty) is opened which is the same as `:tabnew`.
+				- Each tab can contain many [split window](#66fe47b0-71d5-4663-bc43-d4774329a56e)s.
+				- `vim -p $files`
+				  <br>to open each file in a tab.
+			- buffer
+				- Each file is associated with an editing buffer.
+				- `:e[dit] $file`
+				  <br>to open new file in current buffer.
+					- ~~`:o[pen] $file_or_pattern`~~ <a class="logseq-meta" data-collapsed="true" ></a>
+					  <br>does somehow works with relative paths but wierdly reacts with absolute paths from `~` or from root `/`.
+						- From `:help open`
+							- ```
+							  :[range]o[pen]    Works like :visual: end Ex mode.
+							                    {Vi: start editing in open mode}
+							  :[range]o[pen] /pattern/        
+							                    As above, additionally move the cursor to the column
+							                    where "pattern" matches in the cursor line.
+							  Vim does not support open mode, since it's not really useful.  
+							  For those situations where ":open" would start open mode Vim will leave Ex mode, 
+							  which allows executing the same commands, but updates the whole screen instead of only one line.
+							  ``` <a class="logseq-meta" data-collapsed="true" ></a>
+						- StackExchange: [What does :open do in Vim?](https://vi.stackexchange.com/a/2277)
+				- `:wa`, `:qa`, `:wqa`
+				  <br>to write and/or quit all buffers.
+				- Each buffer can be mirrored in many [split window](#66fe47b0-71d5-4663-bc43-d4774329a56e)s and in many [tab](#66fe472d-cbfe-49ff-9ec1-4c1b7853895a)s.
+				- `:buffers`
+				  <br>to list all buffers.
+			- Paste mode
+			  <br>to avoid unexpected effects when pasting text, like auto-indentation, tab expansion, etc.
+				- Status: `INSERT (Paste)`
+				- `:set [no]paste` (`F5`) to turn on/off Paste mode
+					- ```vimrc
+					  set pastetoggle=<F5>
+					  ```
+		- #### nano <a class="logseq-meta" data-collapsed="true" ></a>
+			- <zwsp>
+	- ### DNS, `hosts`, NAT <a class="logseq-meta" id="675141bb-5c74-4906-b6ee-63ac3a237ef0" data-collapsed="true" data-logbook="CLOCK: [2024-12-05 Thu 13:05:25]&#10;" ></a>
+		- `ping`
+		  <br>uses the ICMP protocol's mandatory ECHO_REQUEST datagram to elicit an ICMP ECHO_RESPONSE from a host or gateway.
+		- `host`
+		  <br>a simple utility for performing DNS lookups in both way: domain name → IPs and IP → canonical name.
+		- `nslookup`
+		  <br>a program to query Internet domain name servers.
+		- `dig`
+		  <br>a flexible tool for interrogating DNS name servers.
+		- `dnsmasq` <a class="logseq-meta" id="67864319-c2d5-4ba3-98a2-958f1e07cf53" ></a>
+		  <br>a lightweight DNS, TFTP, PXE, router advertisement and DHCP server.
+		- `unbound`
+		  <br>a recursive domain resolver (DNS recursor).
+		- [DNS records](https://en.wikipedia.org/wiki/List_of_DNS_record_types) in [`.zone` file](https://en.wikipedia.org/wiki/Zone_file) <a class="logseq-meta" data-collapsed="true" ></a>
+			- `A`
+			  <br>Address record
+			- `AAAA`
+			  <br>[IPv6](https://en.wikipedia.org/wiki/IPv6) Address record
+			- `NS`
+			  <br>Name Server record
+			- `CNAME` <a class="logseq-meta" id="6751469f-ce68-4946-a7e7-ed86fd5735cd" ></a>
+			  <br>[Canonical Name record](https://en.wikipedia.org/wiki/CNAME_record)
+			- `DNAME`
+			  <br>[Delegation Name record](https://en.wikipedia.org/wiki/DNAME_record)
+			- `SOA`
+			  <br>[Start Of Authority record](https://en.wikipedia.org/wiki/SOA_record)
+		- Domain name alias with [`CNAME`](#6751469f-ce68-4946-a7e7-ed86fd5735cd) <a class="logseq-meta" id="67514336-628d-4f80-b154-3b7cfde988f0" data-collapsed="true" data-logbook="CLOCK: [2024-12-05 Thu 13:05:25]--[2024-12-09 Mon 13:12:24] =&gt;  96:06:59&#10;" ></a>
+			- Ref: [serverfault.com](https://serverfault.com/a/947713)
+			- `unbound.conf`
+			  ```yaml
+			  local-zone: "git1.lan.skygate.co.jp." redirect
+			  local-data: "git1.lan.skygate.co.jp. CNAME mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com."
+			  ``` <a class="logseq-meta" id="69c68961-321a-44dd-8f6e-eb66aca67e59" ></a>
+			- `dnsmasq.conf`
+			  ```sh
+			  # Provide an alias for a "local" DNS name. 
+			  # Note that this _only_ works for targets which are **already resolved** (by DHCP or /etc/hosts). 
+			  cname=git1.lan.skygate.co.jp,mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com
+			  ```
+			- [finally, after [digging CNAME](((678de2b7-649c-4c49-9448-e22149a8e407))) of `git1` for IP resolution, `A` records appear in answer for `git1`, but still unstable!](#675686a5-3d59-402f-9640-12b991182e32)
+				- Static IP cannot be set (in `hosts` file), due to the [IP update of `CNAME` in work time](#675653ab-ea7c-4d8b-8ef6-a378591b6443).
+				- DONE So, let's use the `unbound` **recursive resolver** to replace `dsnmasq`! <a class="logseq-meta" id="69c6838d-0ec3-4027-a62a-8f10b913d87c" data-logbook="CLOCK: [2026-03-27 Fri 20:18:48]--[2026-03-30 Mon 13:52:18] =&gt;  65:33:30&#10;" ></a>
+					- `dsnmasq` just forwards the queried domain to upstream DNS servers, or returns the CNAME record of the domain without recursively resolving that CNAME.
+					- `unbound` recursively resolves the CNAME chain locally, and optionally forward to upstream DNS if needed.
+					- So, just define CNAME records in`local-data` in `server` block (with `redirect` in `local-zone`), and a `forward-zone` block for upstreams like OpenDNS, DHCP, VPN.
+					  <br>{{embed [`unbound.conf`](#69c68961-321a-44dd-8f6e-eb66aca67e59)}}
+					- Static IP settings (`hosts` files) are configured with `A` records in `local-data`.
+						- ```yaml
+						  local-data: "milkode.dena-travel.internal. A 54.95.233.65"
+						  ``` <a class="logseq-meta" id="69c68607-1979-43b2-9419-baff258f62bd" ></a>
+						- Each set of IP is stored in a config file, then included to `/etc/unbound/unbound.conf`.
+						- Switch active config with symlink, then `unbound-control reload` to update the config.
+				- Or we must run a background script, like ![dig-cname-ips.sh](../assets/Linux/DNS/CNAME-monitoring/dig-cname-ips.sh), to detect IP change of `CNAME` then update `hosts` file accordingly. <a class="logseq-meta" id="684f951e-5f86-4b1c-9b08-e550ad283d4a" ></a>
+					- The digging itself is enough to make `dnsmasq` return IPs (A records) for the aliases, like `git1`.
+					- But these IPs have a short life time (TTL), after which we must dig again.
+					- Because the DB hosts have very short TTL (only 5 seconds), we update the dug IPs to the `hosts` file `~/hosts/cname.hosts`, instead.
+			- The history of hunting `A` records is so complicated <a class="logseq-meta" data-collapsed="true" ></a>
+				- `dig git1.lan.skygate.co.jp` with `CNAME`
+					- showing `A` records on VPN
+						- ```scheme
+						  ; <<>> DiG 9.18.28-0ubuntu0.22.04.1-Ubuntu <<>> git1.lan.skygate.co.jp
+						  ;; global options: +cmd
+						  ;; Got answer:
+						  ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 7852
+						  ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
+						  
+						  ;; OPT PSEUDOSECTION:
+						  ; EDNS: version: 0, flags:; udp: 1232
+						  ;; QUESTION SECTION:
+						  ;git1.lan.skygate.co.jp.		IN	A
+						  
+						  ;; ANSWER SECTION:
+						  git1.lan.skygate.co.jp.	3600	IN	CNAME	mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com.
+						  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. 0 IN A 54.199.127.69
+						  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. 0 IN A 3.115.124.176
+						  ``` <a class="logseq-meta" data-collapsed="true" ></a>
+					- without VPN, first, showing `SOA` (`AUTHORITY`) record <a class="logseq-meta" id="67519a83-75fe-48d2-90a1-8c48622a0edf" data-collapsed="true" ></a>
+						- {{embed [showing `SOA` (`AUTHORITY`) record](#67514436-ddef-49ab-b794-f26686b572b2)}}
+						- but `dnsmasq` log shows `CNAME` config
+							- ```
+							  Dec  5 14:07:55 dnsmasq[3334473]: query[AAAA] git1.lan.skygate.co.jp from 127.0.0.1
+							  Dec  5 14:07:55 dnsmasq[3334473]: config git1.lan.skygate.co.jp is <CNAME>
+							  ```
+					- without VPN, then, after some hours (> DHCP DNS lease time 3600 = 1h)
+						- showing only `CNAME` but with no `A` record
+							- ```sh
+							  host git1.lan.skygate.co.jp
+							  git1.lan.skygate.co.jp is an alias for mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com.
+							  ```
+							- ```scheme
+							  ; <<>> DiG 9.18.28-0ubuntu0.22.04.1-Ubuntu <<>> git1.lan.skygate.co.jp
+							  ;; global options: +cmd
+							  ;; Got answer:
+							  ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 60341
+							  ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+							  
+							  ;; OPT PSEUDOSECTION:
+							  ; EDNS: version: 0, flags:; udp: 1232
+							  ;; QUESTION SECTION:
+							  ;git1.lan.skygate.co.jp.		IN	A
+							  
+							  ;; ANSWER SECTION:
+							  git1.lan.skygate.co.jp.	0	IN	CNAME	mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com.
+							  ``` <a class="logseq-meta" id="67519abb-dba9-4637-9c1a-feebe4b76589" data-collapsed="true" ></a>
+						- after clearing the main IP address with `sudo ip addr flush enp1s0` (WARN: Internet connection will be lost!) <a class="logseq-meta" data-collapsed="true" ></a>
+							- `host git1.lan.skygate.co.jp`
+							  ```sh
+							  git1.lan.skygate.co.jp is an alias for mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com.
+							  Host mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com not found: 5(REFUSED)
+							  Host mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com not found: 5(REFUSED)
+							  ```
+							- `nslookup git1.lan.skygate.co.jp`
+							  ```sh
+							  Server:		127.0.0.1
+							  Address:	127.0.0.1#53
+							  
+							  git1.lan.skygate.co.jp	canonical name = mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com.
+							  ** server can't find mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com: REFUSED
+							  ```
+							- `dig` result is the same as [above](#67519abb-dba9-4637-9c1a-feebe4b76589).
+							- ⇒ So, the problem is that this `CNAME` record is not resolved recursively by `dnsmasq`. <a class="logseq-meta" id="6772a6d3-db76-4984-bb94-67367a3f5e54" ></a>
+						- finally, after [digging CNAME](#678de2b7-649c-4c49-9448-e22149a8e407) of `git1` for IP resolution, `A` records appear in answer for `git1`, but still unstable! <a class="logseq-meta" id="675686a5-3d59-402f-9640-12b991182e32" data-collapsed="true" data-logbook="CLOCK: [2024-12-09 Mon 13:44:32]--[2024-12-09 Mon 16:21:21] =&gt;  02:36:49&#10;" ></a>
+							- The unstability is due to the short TTL only 1 minute. [IP down pattern: Every minute, at the expiration threshold (TTL=0), the IPs of `CNAME` is reset, making the `A` records disappear.](#67565823-ee51-4a8d-8523-e02105fe6c94)
+							- Monitor `dig git1.lan.skygate.co.jp` with ![log-git1.sh](../assets/Linux/DNS/CNAME-monitoring/log-git1.sh)
+								- IP down pattern: Every minute, at the expiration threshold (TTL=0), the IPs of `CNAME` is reset, making the `A` records disappear.
+									- ```sh
+									  Monitoring host git1.lan.skygate.co.jp for A records
+									    from CNAME mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com
+									   0+2_14 1+2_13 2+2_12 3+2_11 4+2_10 5+2_9 6+2_8 7+2_7 8+2_6 9+2_5 10+2_4 11+2_3 12+2_2 13+2_1 14+2_60 15+2_59 16+2_58 17+2_57 18+2_56 19+2_55 20+2_53 21+2_52 22+2_51 23+2_50 24+2_49 25+2_48 26+2_47 27+2_46 28+2_45 29+2_44 30+2_43 31+2_42 32+2_41 33+2_40 34+2_39 35+2_38 36+2_37 37+2_36 38+2_35 39+2_34 40+2_33 41+2_32 42+2_31 43+2_29 44+2_28 45+2_27 46+2_26 47+2_25 48+2_24 49+2_23 50+2_22 51+2_21 52+2_20 53+2_19 54+2_18 55+2_17 56+2_16 57+2_15 58+2_14 59+2_13 60+2_12 61+2_11 62+2_10 63+2_9 64+2_8 65+2_7 66+2_5 67+2_4 68+2_3 69+2_2 70+2_1 71
+									  2024-12-09_16:11:32
+									  -- 71 72
+									  2024-12-09_16:11:33
+									    18.176.245.94
+									    35.79.126.246
+									  ++ 72+2_59 73+2_58 74+2_57 75+2_56 76+2_55 77+2_54 78+2_53 79+2_52 80+2_51 81+2_50 82+2_49 83+2_48 84+2_47 85+2_46 86+2_45 87+2_44 88+2_43 89+2_42 90+2_41 91+2_39 92+2_38 93+2_37 94+2_36 95+2_35 96+2_34 97+2_33 98+2_32 99+2_31 100+2_30 101+2_29 102+2_28 103+2_27 104+2_26 105+2_25 106+2_24 107+2_23 108+2_22 109+2_21 110+2_20 111+2_19 112+2_18 113+2_17 114+2_15 115+2_14 116+2_13 117+2_12 118+2_11 119+2_10 120+2_9 121+2_8 122+2_7 123+2_6 124+2_5 125+2_4 126+2_3 127+2_2 128+2_1 129
+									  2024-12-09_16:12:32
+									  -- 129 130
+									  2024-12-09_16:12:33
+									    18.176.245.94
+									    35.79.126.246
+									  ++ 130+2_59 131+2_58 132+2_57 133+2_56 ...
+									  ``` <a class="logseq-meta" id="67565823-ee51-4a8d-8523-e02105fe6c94" data-collapsed="true" ></a>
+									- Interestingly, there's no IP down in the period of [IP update](#675653ab-ea7c-4d8b-8ef6-a378591b6443) around 21h.
+										- ```sh
+										  -- 2816 2817 2818 2819 2820 2821 2822 ( 2024-12-08 18:27:40 )
+										  ++ 2822+2 2823+2 2824+2 2825+2 2826+2 2827+2 2828+2 ... 2993+2 ( 2024-12-08 21:18:40 )
+										   + 2994+1 2995+1 2996+1 2997+1 2998+1 2999+1 3000+1 3001+1
+										  ++ 3002+2 3003+2 3004+2 3005+2 3006+2 3007+2 3008+2 3009+2 3010+2 3011+2 3012+2
+										   + 3013+1 3014+1 3015+1 3016+1
+										  ++ 3017+2 3018+2 3019+2 3020+2 3021+2 3022+2 3023+2 3024+2 3025+2 3026+2
+										   + 3027+1 3028+1 3029+1 3030+1
+										  ++ 3031+2 ... 3159+2 3160
+										  -- 3160 3161 3162 3163 ( 2024-12-09 00:08:40 )
+										  ``` <a class="logseq-meta" data-collapsed="true" ></a>
+							- Monitor IPs of CNAMEs with ![log-cname-ips.sh](../assets/Linux/DNS/CNAME-monitoring/log-cname-ips.sh)
+								- Only GitLab IPs are updated.
+								- IP update pattern: around **21h** ([ICT](https://en.wikipedia.org/wiki/UTC%2B07:00)) each night, the IPs are updated and _**unstable** in around 1 hour_. <a class="logseq-meta" id="675653ab-ea7c-4d8b-8ef6-a378591b6443" ></a>
+								  <br>Moreover, in weekdays, IPs can be updated some times **in work time**.
+									- ```sh
+									  179 180 181 182 183 184 185 ..... 1642 1643 ( 2 minutes to 1 day )
+									  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com: 2024-12-07 21:45:22
+									    3.113.184.150
+									  1644 1645 1646 1647 1648 1649 1650 1651 ( 2 to 10 minutes )
+									  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com: 2024-12-07 21:53:23
+									    3.113.184.150
+									    3.115.119.69
+									  ```
+								- Results in minutes
+									- ```sh
+									  Monitoring hosts:
+									    mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com
+									    mgmt-repo1-clb-243604401.ap-northeast-1.elb.amazonaws.com
+									    mgmt-tools-alb-1633637944.ap-northeast-1.elb.amazonaws.com
+									  0 1 2 3 4 5 6 7 8 9 10 ... 173 
+									  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com:2024-12-06_21:10:17
+									    3.115.119.69
+									  174 175 176 177 178 
+									  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com:2024-12-06_21:15:18
+									    3.113.184.150
+									    3.115.119.69
+									  179 180 181 182 183 184 185 ..... 1642 1643 
+									  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com:2024-12-07_21:45:22
+									    3.113.184.150
+									  1644 1645 1646 1647 1648 1649 1650 1651 
+									  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com:2024-12-07_21:53:23
+									    3.113.184.150
+									    3.115.119.69
+									  1652 1653 
+									  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com:2024-12-07_21:55:24
+									    3.113.184.150
+									  1654 
+									  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com:2024-12-07_21:56:24
+									    3.113.184.150
+									    54.199.144.98
+									  1655 1656 1657 1658 1659 1660 ... 3049 
+									  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com:2024-12-08_21:16:09
+									    3.113.184.150
+									  3050 3051 3052 3053 3054 3055 3056 3057 
+									  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com:2024-12-08_21:24:10
+									    3.113.184.150
+									    54.199.144.98
+									  3058 3059 3060 3061 3062 3063 3064 3065 3066 3067 3068 
+									  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com:2024-12-08_21:35:13
+									    3.113.184.150
+									  3069 3070 3071 3072 
+									  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com:2024-12-08_21:39:14
+									    3.113.184.150
+									    54.199.144.98
+									  3073 3074 3075 3076 3077 3078 3079 3080 3081 3082 
+									  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com:2024-12-08_21:49:16
+									    54.199.144.98
+									  3083 3084 3085 3086 
+									  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com:2024-12-08_21:53:16
+									    3.113.184.150
+									    54.199.144.98
+									  3087 3088 3089 3090 3091 3092 ...
+									  
+									  
+									  ``` <a class="logseq-meta" data-collapsed="true" ></a>
+						- ⇒ **Root cause**: [IPs of CNAME are not resolved automatically](#6772a6d3-db76-4984-bb94-67367a3f5e54) by `dnsmasq`. <a class="logseq-meta" id="678de1bb-c536-4e3a-bbb7-aa453339dbe1" ></a>
+							- ⇒We must manually request `dnsmasq` to update CNAME IPs by querying their IP: `[nslookup,dig,ping] $CNAME` <a class="logseq-meta" id="678de2b7-649c-4c49-9448-e22149a8e407" data-collapsed="true" ></a>
+								- E.g., after
+								  ```sh
+								  ⮕ nslookup mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com
+								  Server:		127.0.0.1
+								  Address:	127.0.0.1#53
+								  
+								  Non-authoritative answer:
+								  Name:	mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com
+								  Address: 3.113.217.136
+								  Name:	mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com
+								  Address: 54.168.37.56
+								  ```
+								- we have
+								  ```sh
+								  ⮕ nslookup git1.lan.skygate.co.jp
+								  Server:		127.0.0.1
+								  Address:	127.0.0.1#53
+								  
+								  Non-authoritative answer:
+								  git1.lan.skygate.co.jp	canonical name = mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com.
+								  Name:	mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com
+								  Address: 3.113.217.136
+								  Name:	mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com
+								  Address: 54.168.37.56
+								  ```
+							- Because the the TTL (time to live) of these IPs is only 60 seconds (or less), we must run ![dig-cname-ips.sh](../assets/Linux/DNS/CNAME-monitoring/dig-cname-ips.sh) to keep CNAMEs resolved by `dig`ging them every minute.
+								- ```bash
+								  ⮕ dig +noall +answer +ttlid mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com.
+								  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. 60	IN A 35.74.111.202
+								  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. 60	IN A 18.180.21.154
+								  ```
+						- no benefit with `domain=hybrid-technologies.vn` in `/etc/dnsmasq.conf` <a class="logseq-meta" data-collapsed="true" ></a>
+							- No apparent difference!
+							- Ref: [CNAME aliases with dnsmasq](https://groups.google.com/g/uk.comp.os.linux/c/cYFMngIAFi0/m/pcYR1yeDNi4J)
+				- `dig git1.lan.skygate.co.jp` without `CNAME`
+					- showing `SOA` (`AUTHORITY`) record <a class="logseq-meta" id="67515558-ad0b-4605-a785-13ce84c60442" data-collapsed="true" ></a>
+						- 
+						  ```scheme
+						  ; <<>> DiG 9.18.28-0ubuntu0.22.04.1-Ubuntu <<>> git1.lan.skygate.co.jp
+						  ;; global options: +cmd
+						  ;; Got answer:
+						  ;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 7564
+						  ;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+						  
+						  ;; OPT PSEUDOSECTION:
+						  ; EDNS: version: 0, flags:; udp: 1232
+						  ; COOKIE: 7f7484304144a3db01000000675140d16726b2ae31a10949 (good)
+						  ;; QUESTION SECTION:
+						  ;git1.lan.skygate.co.jp.		IN	A
+						  
+						  ;; AUTHORITY SECTION:
+						  skygate.co.jp.		204	IN	SOA	ns-1303.awsdns-34.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 300
+						  ``` <a class="logseq-meta" id="67514436-ddef-49ab-b794-f26686b572b2" ></a>
+					- showing `A` record when setting IP directly (copied from `mgmt-gitlab-clb-1008603512`)
+						- ```scheme
+						  ; <<>> DiG 9.18.28-0ubuntu0.22.04.1-Ubuntu <<>> git1.lan.skygate.co.jp
+						  ;; global options: +cmd
+						  ;; Got answer:
+						  ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 25891
+						  ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+						  
+						  ;; OPT PSEUDOSECTION:
+						  ; EDNS: version: 0, flags:; udp: 1232
+						  ;; QUESTION SECTION:
+						  ;git1.lan.skygate.co.jp.		IN	A
+						  
+						  ;; ANSWER SECTION:
+						  git1.lan.skygate.co.jp.	0	IN	A	3.115.124.176
+						  ``` <a class="logseq-meta" data-collapsed="true" ></a>
+				- `dig mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com`
+					- ```scheme
+					  ; <<>> DiG 9.18.28-0ubuntu0.22.04.1-Ubuntu <<>> mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com
+					  ;; global options: +cmd
+					  ;; Got answer:
+					  ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 19784
+					  ;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+					  
+					  ;; OPT PSEUDOSECTION:
+					  ; EDNS: version: 0, flags:; udp: 1232
+					  ; COOKIE: c56b8d8d51904bb80100000067514100ea8c497ab05012df (good)
+					  ;; QUESTION SECTION:
+					  ;mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. IN	A
+					  
+					  ;; ANSWER SECTION:
+					  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. 60	IN A 3.115.124.176
+					  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. 60	IN A 54.199.127.69
+					  ``` <a class="logseq-meta" id="675146f7-489d-42f9-8ba9-f2b71a222ec1" data-collapsed="true" ></a>
+		- NAT Port Forwarding & SSH Tunneling <a class="logseq-meta" data-collapsed="true" data-logbook="CLOCK: [2025-11-25 Tue 20:23:06]&#10;CLOCK: [2025-11-25 Tue 20:23:21]--[2025-11-25 Tue 20:26:36] =&gt;  00:03:15&#10;" ></a>
+			- app -[connect]-> dbm.lan...jp:1521 =[`iptables`]=> localhost:1524 =[SSH tunnel]=> pre1-mastest...amazonaws.com:1521
+				- In `~/.ssh/config`, we foward local ports to CNAME hosts,
+				     <br>e.g.: `Host` tunnel-aws `LocalForward` 1524 pre1-mastest...amazonaws.com:1521
+				- In `iptables` NAT, we forward `OUTPUT` from the hosts & ports accessed by the app to the local ports, so that they will be SSH tunneled to the target CNAME hosts.
+				    <br>E.g.: dbm.lan.skygate.co.jp  tcp dpt:1521 to:127.0.0.1:1524
+				- For the host `dbm.lan.skygate.co.jp` to be resolved to the IP of its CNAME, we must [frequently dig CNAME for IPs](#684f951e-5f86-4b1c-9b08-e550ad283d4a), and update the dug IPs to the `hosts` file `~/hosts/cname.hosts` to be served by `dnsmasq`.
+		- Resolution to Local Shadow IP & SSH Tunneling <a class="logseq-meta" id="69ccc371-7463-4b72-880d-1d7c77e26eb9" data-collapsed="true" data-logbook="CLOCK: [2025-11-25 Tue 20:23:06]&#10;CLOCK: [2025-11-25 Tue 20:23:21]--[2025-11-25 Tue 20:26:36] =&gt;  00:03:15&#10;" ></a>
+			- app -[connect]-> dbm.lan...jp:1521 [`A`]=> ShadowIP:1524 =[SSH tunnel]=> pre1-mastest...amazonaws.com:1521
+				- In `unbound`, we resolve out-bound domains to the local shadow IPs, so that they will be SSH tunneled to the target CNAME hosts.
+				  <br>E.g.: `local-data`: "dbm.lan.skygate.co.jp. A 127.0.1.1"
+				- In `~/.ssh/config`, we foward local ports to CNAME hosts,
+				  <br>e.g.: `Host` tunnel-aws `LocalForward` 127.0.1.1:1521 pre1-mastest...amazonaws.com:1521
+				- Then the apps can access the hosts directly, e.g.: 
+				  ```sh
+				  redis-cli -h redis-cache.lan.skygate.co.jp
+				  mysql -h 'mycache.lan.skygate.co.jp' -P 3307 -u 'sgdba' -p
+				  ```
+	- ### FreeDesktop/XDG <a class="logseq-meta" id="669499f7-76c4-4ff8-a27e-be9768a6258c" data-logbook="CLOCK: [2024-07-15 Mon 11:05:00]&#10;CLOCK: [2024-07-15 Mon 11:06:32]&#10;" ></a>
+	  "Cross-Desktop Group"
+		- [Official website:](../../../../publish/CommonMark/Namespace.cm.md#665359c3-61fd-4858-a117-ecbcd6fbc9ea) https://specifications.freedesktop.org/
+		- [Wiki:](../../../../publish/CommonMark/Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Freedesktop.org
+		- [Wiki:](../../../../publish/CommonMark/Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://www.freedesktop.org/wiki/Specifications/
+		- `.desktop` file
+			- installed in `/usr/share/applications/` and `~/.local/share/applications/`
+		- Autostart <a class="logseq-meta" id="66b1cfa4-1438-4699-9f02-b84075f2a167" ></a>
+			- `.desktop` files in `~/.config/autostart/` and `/etc/xdg/autostart/`
+			- Startup Applications Preference: app drawer search (`startup`, `applications`)
+		- XDG Base Directory <a class="logseq-meta" id="66949bc7-a1ae-4da3-b889-efbe35abf56d" data-logbook="CLOCK: [2024-07-15 Mon 11:07:42]&#10;" ></a>
+			- [Wiki:](../../../../publish/CommonMark/Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08)  https://wiki.archlinux.org/title/XDG_Base_Directory
+		- Standard Icon Names <a class="logseq-meta" id="67eb7908-267d-4091-840f-eaf405632317" ></a>
+			- [Wiki:](../../../../publish/CommonMark/Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://specifications.freedesktop.org/icon-naming-spec/latest/#names
+	- ### GNOME Desktop <a class="logseq-meta" id="66b1cfa4-808f-407c-bf5a-b93812604b5d" ></a>
+		- GNOME Shell <a class="logseq-meta" id="66c6b316-ef58-4b86-a6ca-fbf9125dad92" data-collapsed="true" ></a>
+		  <br>`gnome-shell`
+			- [Description:](../../../../publish/CommonMark/Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) [GNOME Shell](#66c6b316-ef58-4b86-a6ca-fbf9125dad92) provides core user interface functions for [<span class="link-h3">GNOME Desktop</span>](#66b1cfa4-808f-407c-bf5a-b93812604b5d), like switching to windows and launching applications. User interface elements provided by GNOME Shell include the Panel at the top of the screen, the Activities Overview, and Message Tray at the bottom of the screen.
+			- Terminal <a class="logseq-meta" id="66c6bd7d-c9af-4f64-a65b-f4ff075961bb" ></a>
+			  <br>`gnome-terminal[-server]`
+			- Nautilus (file browser) <a class="logseq-meta" id="66c6bd94-76a7-4b80-bf2e-b8af02737af2" ></a>
+			  <br>`nautilus`
+			- System Monitor <a class="logseq-meta" id="66c6bda1-7a64-4832-af2b-906b3beb8927" ></a>
+			  <br>`gnome-system-monitor`
+		- GNOME Extensions <a class="logseq-meta" id="66c6ae6d-c722-43fa-888c-9b914387294f" data-collapsed="true" data-logbook="CLOCK: [2024-08-22 Thu 10:47:24]&#10;" ></a>
+		  <br>`gnome-extensions`
+			- [Official website:](../../../../publish/CommonMark/Namespace.cm.md#665359c3-61fd-4858-a117-ecbcd6fbc9ea) https://extensions.gnome.org/
+			- [Description:](../../../../publish/CommonMark/Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) [GNOME Extensions](#66c6ae6d-c722-43fa-888c-9b914387294f) extend [GNOME Shell](#66c6b316-ef58-4b86-a6ca-fbf9125dad92). They are managed on the website https://extensions.gnome.org which requires a [Browser integration](#66c6b15d-bbf8-42bd-93c4-fb19c0490264) to work. The installed extensions can also be configured via [`Extensions` desktop app](#66c6e677-d0b2-48f7-92da-8a38d8e9bd9c).
+				- `Extensions` desktop app <a class="logseq-meta" id="66c6e677-d0b2-48f7-92da-8a38d8e9bd9c" data-collapsed="true" ></a>
+				  <br>`gnome-extensions-app`
+					- app drawer search (`gnome`, `shell`, `extensions`, `app`) > `Extensions` > `Manually Installed` > e.g.(`Smart Auto Move`) > `Settings`
+			- Browser integration <a class="logseq-meta" id="66c6b15d-bbf8-42bd-93c4-fb19c0490264" data-collapsed="true" ></a>
+				- [Official website:](../../../../publish/CommonMark/Namespace.cm.md#665359c3-61fd-4858-a117-ecbcd6fbc9ea) https://gnome.pages.gitlab.gnome.org/gnome-browser-integration/
+				- [Description:](../../../../publish/CommonMark/Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) `gnome-browser-connector` is required for managing [GNOME Extensions](#66c6ae6d-c722-43fa-888c-9b914387294f).
+			- #### Smart Auto Move <a class="logseq-meta" id="66c6aef1-998a-45fb-8ad8-8550a008859d" data-collapsed="true" data-logbook="CLOCK: [2024-08-22 Thu 10:46:49]--[2024-08-22 Thu 18:03:09] =&gt;  07:16:20&#10;" ></a>
+			  `smart-auto-move@khimaros.com`
+				- [Official website:](../../../../publish/CommonMark/Namespace.cm.md#665359c3-61fd-4858-a117-ecbcd6fbc9ea) https://extensions.gnome.org/extension/4736/smart-auto-move/
+				- [Git:](../../../../publish/CommonMark/Namespace.cm.md#665f1a5c-6c98-4785-a177-3cd01507595d) https://github.com/khimaros/smart-auto-move
+				- [Description:](../../../../publish/CommonMark/Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h4">Smart Auto Move</span>](#66c6aef1-998a-45fb-8ad8-8550a008859d) learns the position, size, and workspace of your application windows and restores them on subsequent launches. [<span class="link-h3">Wayland</span>](#66b1cfa4-f6a5-444d-97fb-e76a1c5fb1c7) is supported.
+					- Saved Windows <a class="logseq-meta" id="66c70945-3ce5-4f95-8cce-1b8a3f2bd464" ></a>
+					  <br>`saved-windows`
+					  <br>stores the info of opened windows (in the past) which will be restored to a newly opening window only when it matches the saved one via an [override](#66c709d4-2541-45ba-a3ad-139ea44d9b04).
+					- override <a class="logseq-meta" id="66c709d4-2541-45ba-a3ad-139ea44d9b04" ></a>
+					  <br>`overrides`
+					  <br>defines a matching criteria (`title` or {`any`, `threshold`}) and an action (`1`=`RESTORE` or `0`=`IGNORE`) to be taken when a newly opening window matches a [saved window](#66c70945-3ce5-4f95-8cce-1b8a3f2bd464). An override can be created by clicking the button `OVERRIDE` or `OVERRIDE (ANY)` in the [Saved Windows](#66c70945-3ce5-4f95-8cce-1b8a3f2bd464) tab.
+				- Config: command `gnome-extensions prefs smart-auto-move@khimaros.com` or via [`Extensions` desktop app](#66c6e677-d0b2-48f7-92da-8a38d8e9bd9c)
+					- Set `freeze-saves=true` to freeze the [Saved Windows](#66c70945-3ce5-4f95-8cce-1b8a3f2bd464). Whenever we want to update a saved window, just open & close it `freeze-saves`=`true -> false -> true` to get all currently opening windows captured in Saved Windows, then delete all irrelevant ones in the Saved Windows.
+					- Set default `sync-mode='IGNORE'` to ignore irrelevant windows, then manually set [override](#66c709d4-2541-45ba-a3ad-139ea44d9b04) `action:1`=`RESTORE` only to the ones we want to restore.
+					- backup config
+					  ```
+					  dconf dump /org/gnome/shell/extensions/smart-auto-move/ > ~/Documents/smart-auto-move.dconf
+					  ```
+					- restore config
+					  ```
+					  dconf load /org/gnome/shell/extensions/smart-auto-move/ < ~/Documents/smart-auto-move.dconf
+					  ```
+					- sample config: [smart-auto-move.dconf](../assets/Linux/GNOME/smart-auto-move/smart-auto-move.dconf) > ![saved-windows](../assets/Linux/GNOME/smart-auto-move/smart-auto-move.saved-windows.json), ![overrides](../assets/Linux/GNOME/smart-auto-move/smart-auto-move.overrides.json)
+				- Settings for [Terminal](#66c6bd7d-c9af-4f64-a65b-f4ff075961bb)
+					- [Description:](../../../../publish/CommonMark/Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) Matching terminals is a complicated task, so we must combine [autostart `.desktop` files](#66c6f1cd-52d3-4606-8f54-08bef7acf4ea) with [`title` in ((66c709d4-2541-45ba-a3ad-139ea44d9b04))](#66c710d9-241d-46b2-8dc1-bf2591492565) and [`sequence` in ((66c70945-3ce5-4f95-8cce-1b8a3f2bd464))](#66c70166-889c-419e-8fd0-79d404e63e00).
+					- autostart `.desktop` files <a class="logseq-meta" id="66c6f1cd-52d3-4606-8f54-08bef7acf4ea" ></a>
+						- `~/.config/autostart/gnome-terminal-{1,2}.desktop`: {1st, 2nd} Terminal window on the {left, right}
+						- Exec=`gnome-terminal --window --tab` to create new window with 2 tabs so that the window height includes tab title.
+							- Note that `--title` is ineffective because the title will be overridden right away! So we must rely on [the order of launching](#66c70166-889c-419e-8fd0-79d404e63e00) instead.
+					- `title` in [override](#66c709d4-2541-45ba-a3ad-139ea44d9b04) <a class="logseq-meta" id="66c710d9-241d-46b2-8dc1-bf2591492565" ></a>
+					  <br>`dinhlx@CPU000375:~` is the title of the startup terminals.
+					- `sequence` in [Saved Windows](#66c70945-3ce5-4f95-8cce-1b8a3f2bd464) <a class="logseq-meta" id="66c70166-889c-419e-8fd0-79d404e63e00" ></a>
+					  <br>the order of launching determines which terminal to be placed where.
+		- `/usr/share/icons/` <a class="logseq-meta" id="67eb7601-ab2c-41df-a42c-84a77a88ec08" data-collapsed="true" ></a>
+			- Default Gnome (Tango) icons using [Standard Icon Names](#67eb7908-267d-4091-840f-eaf405632317): [shown on wikimedia](https://commons.wikimedia.org/wiki/GNOME_Desktop_icons)
+			- Yaru: default theme for Ubuntu
+				- `Yaru/scalable/`: `*-symbolic.svg` are [symbolic icons](https://wiki.gnome.org/Design/OS/SymbolicIcons), mostly monochrome and some low colors instead of colorful [app icons](#67eb8856-16c0-4c50-8bc5-e00b32ddb51f), for [various context-dependent usages](https://developer.gnome.org/hig/guidelines/ui-icons.html): UI elements, actions in Clear-text fields, etc.
+				- `Yaru/${scale}/`: colorful [app icons](https://developer.gnome.org/hig/guidelines/app-icons.html) for buttons and windows of applications <a class="logseq-meta" id="67eb8856-16c0-4c50-8bc5-e00b32ddb51f" ></a>
+			- Humanity: default theme for GTK
+			- Adwaita: default theme for GNOME
+			- Gnome: legacy GNOME theme
+		- `GSettings` <a class="logseq-meta" id="68358161-eb10-4c78-805e-88f9f460d376" data-collapsed="true" ></a>
+		  <br>the GNOME application settings API, backed by the [`dconf` database](https://en.wikipedia.org/wiki/Dconf)
+			- [Description:](../../../../publish/CommonMark/Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) [`GSettings`](#68358161-eb10-4c78-805e-88f9f460d376), now renamed as [Gio](https://docs.gtk.org/gio/), is the frontend to [`dconf`](#6835836d-d097-44f0-9654-aa3f2e13160a), providing API to store and retrieve application settings, similar to the [Windows Registry database](https://en.wikipedia.org/wiki/Windows_Registry). This is the new settings system from GNOME 3 replacing the deprecated [GConf](https://en.wikipedia.org/wiki/GConf) of GNOME 2.
+			- `gsettings` is the CLI for `GSettings` API, using dot-separated path, e.g.
+			  ```sh
+			  gsettings get org.gnome.shell favorite-apps
+			  ```
+			- `dconf` <a class="logseq-meta" id="6835836d-d097-44f0-9654-aa3f2e13160a" ></a>
+			  <br>the CLI for [`dconf` database](https://en.wikipedia.org/wiki/Dconf), using slash-separated path
+				- [Wiki:](../../../../publish/CommonMark/Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Dconf
+				- E.g.
+				  ```sh
+				  dconf read /org/gnome/shell/favorite-apps
+				  ```
+			- `dconf-editor`
+			  <br>the GUI app for [`dconf`](#6835836d-d097-44f0-9654-aa3f2e13160a)
+				- screenshot
+					- ![dconf-editor.png](../assets/Linux/GNOME/GSettings/dconf-editor.png)
+	- ### Wayland <a class="logseq-meta" id="66b1cfa4-f6a5-444d-97fb-e76a1c5fb1c7" ></a>
+		- [XWayland](https://wayland.freedesktop.org/xserver.html) <a class="logseq-meta" id="66c6cd8c-5367-4ae4-a76c-970732c2aebb" ></a>
+	- Software management
+		- ### APT <a class="logseq-meta" id="68357072-2dcb-42b5-a228-15ed904010f8" data-collapsed="true" ></a>
+		  Advanced Package Tool developed by [Debian](https://en.wikipedia.org/wiki/Debian)
+			- [Wiki:](../../../../publish/CommonMark/Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/APT_(software)
+			- [Description:](../../../../publish/CommonMark/Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h3">APT</span>](#68357072-2dcb-42b5-a228-15ed904010f8) is a frontend to [`dpkg`](#68357b4a-1d33-464c-bbe0-fe2a0a722eee), providing CLI like `apt`, `apt-get` and `apt-cache`, to manage [.deb](https://en.wikipedia.org/wiki/Deb_(file_format)) packages.
+			- `dpkg` <a class="logseq-meta" id="68357b4a-1d33-464c-bbe0-fe2a0a722eee" ></a>
+			  <br>backend of [<span class="link-h3">APT</span>](#68357072-2dcb-42b5-a228-15ed904010f8)
+				- [Wiki:](../../../../publish/CommonMark/Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Dpkg
+			- `/etc/apt/sources.list` <a class="logseq-meta" id="68357c0a-641a-4bf6-8e98-41c43810ca07" data-collapsed="true" ></a>
+			  <br>package [repositories](https://help.ubuntu.com/community/Repositories/Ubuntu) for [<span class="link-h3">APT</span>](#68357072-2dcb-42b5-a228-15ed904010f8)
+				- Repositories:
+					- `${RELEASE}`: Installation packages
+					- `${RELEASE}`-`updates`: Recommended updates
+					- `${RELEASE}`-`security`: Important security updates
+					- `${RELEASE}`-`backports`: Unsupported updates
+				- Components:
+					- Main: Canonical-supported free and open-source software.
+					- Universe: Community-maintained (canonical-unsupported) free and open-source software.
+					- Restricted: Proprietary drivers for devices, canonical-supported.
+					- Multiverse: Software restricted by copyright or legal issues, community-maintained.
+				- Releases: (see [Ubuntu lifecycle and release cadence](https://ubuntu.com/about/release-cycle))
+					- LTS = Long Term Support
+					- Main = Hardware and maintenance updates
+					- ESM = Extended Security Maintenance <a class="logseq-meta" id="68357df4-ee9c-4268-a8c7-3a1251ad3ebf" ></a>
+				- Examples
+					- Focal Fossa (20.04) > Jammy Jellyfish (22.04) @ HTV
+						- ```sh
+						  # deb cdrom:[Ubuntu 20.04.5 LTS _Focal Fossa_ - Release amd64 (20220831)]/ focal main restricted
+						  #   disabled at the end of the first installation process.
+						  
+						  # First installation: Focal Fossa (20.04)
+						  # Upgrades: > Jammy Jellyfish (22.04) > ...
+						  # Ref: https://help.ubuntu.com/community/Repositories/Ubuntu
+						  # Repositories:
+						  # 1. ${RELEASE}: Installation packages
+						  # 2. ${RELEASE}-updates: Recommended updates
+						  # 3. ${RELEASE}-security: Important security updates 
+						  # 4. ${RELEASE}-backports: Unsupported updates
+						  # Components:
+						  # 1. Main: Canonical-supported free and open-source software.
+						  # 2. Universe: Community-maintained (canonical-unsupported) free and open-source software.
+						  # 3. Restricted: Proprietary drivers for devices, canonical-supported.
+						  # 4. Multiverse: Software restricted by copyright or legal issues, community-maintained.
+						  
+						  # LTS Releases: (ref: https://ubuntu.com/about/release-cycle)
+						  #   LTS = Long Term Support
+						  #   Main = Hardware and maintenance updates
+						  #   ESM = Extended Security Maintenance
+						  
+						  # Jammy Jellyfish (22.04 LTS): 2022 ---Main--- 2027 ---ESM---
+						  deb http://vn.archive.ubuntu.com/ubuntu/ jammy main universe restricted multiverse
+						  # deb-src http://vn.archive.ubuntu.com/ubuntu/ jammy main universe restricted multiverse
+						  deb http://security.ubuntu.com/ubuntu/ jammy-security main restricted universe multiverse
+						  # deb-src http://security.ubuntu.com/ubuntu/ jammy-security main restricted universe multiverse
+						  
+						  # Focal Fossa (20.04 LTS): 2020 ---Main--- 2025 ---ESM--- 2030
+						  deb http://vn.archive.ubuntu.com/ubuntu/ focal main universe restricted multiverse
+						  # deb-src http://vn.archive.ubuntu.com/ubuntu/ focal main universe restricted multiverse
+						  deb http://security.ubuntu.com/ubuntu/ focal-security main restricted universe multiverse
+						  # deb-src http://security.ubuntu.com/ubuntu/ focal-security main restricted universe multiverse
+						  ``` <a class="logseq-meta" data-collapsed="true" ></a>
+			- Front ends
+				- Ubuntu Software Center <a class="logseq-meta" id="68357215-b39b-449c-b63e-4c33f5b1f0da" ></a>
+					- [Wiki:](../../../../publish/CommonMark/Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Ubuntu_Software_Center
+					- [Description:](../../../../publish/CommonMark/Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) [Ubuntu Software Center](#68357215-b39b-449c-b63e-4c33f5b1f0da) is the standard software manager of [<span class="link-h3">Ubuntu</span>](#66faa5fa-52aa-4e12-8a55-c6ad22ebdfa7).
+						- It has included [<span class="link-h3">Snap</span>](#681826b1-9b87-4950-905f-b057e91ffca5) packages which were managed separately by [Snap Store](https://snapcraft.io/store) app previously. <a class="logseq-meta" data-collapsed="true" ></a>
+							- Now, the [App “Ubuntu Software”](#6835a66a-c864-440a-8e12-ff556f1d4c8f) is a snap itself, which is launched by Snap Store!
+							  <br>`snap-store_ubuntu-software.desktop`:`Exec`=`/snap/bin/snap-store.ubuntu-software`
+					- App “Ubuntu Software” <a class="logseq-meta" id="6835a66a-c864-440a-8e12-ff556f1d4c8f" ></a>
+					  <br>![ubuntu-software-icon.png](../assets/Linux/APT/ubuntu-software-icon.png){:width 32} `snap-store.ubuntu-software`
+						- This is a simple GUI to browse available/installed/updatable apps.
+					- App “Software & Updates”
+					  <br>![software-properties-gtk-icon.png](../assets/Linux/APT/software-properties-gtk-icon.png){:width 32} `software-properties-gtk`
+						- This is the GUI for various **APT settings**: [repositories](#68357c0a-641a-4bf6-8e98-41c43810ca07) in 2 tabs `Ubuntu Software` & `Other Software`, updates in tab `Updates`, trusted software providers in tab `Authentication`.
+						- Tab `Updates` <a class="logseq-meta" data-collapsed="true" ></a>
+							- **OS upgrade**: Option "**Notify me of a new Ubuntu version**" → `/etc/update-manager/release-upgrades`
+							- **Software update** → `/etc/apt/apt.conf.d/{10periodic,20auto-upgrades}` configured for `/usr/lib/apt/apt.systemd.daily` called by [apt-daily[-upgrade].service](https://wiki.debian.org/UnattendedUpgrades#Modifying_download_and_upgrade_schedules_.28on_systemd.29).
+								- Option "**Automatically check for updates**" → `APT::Periodic::Update-Package-Lists $N`: Do `apt update` every `$N` days by `apt-daily.service`.
+								  <br>Note: this option only apply to *non-security updates*. I.e. the choice "Never" does NOT turn off automatic checking!
+								- Option "**When there are security updates**" → `APT::Periodic::{Download-Upgradeable-Packages,Unattended-Upgrade}`:
+								  <br>_The **security updates** are **always automatically** checked by [update-manager](#6835a6bf-bdd4-46d5-9d07-e24744e16000) and **notified immediately**_. Then optionally, ...
+									- "Display immediately": This is the minimum option! Hence, no way to mute notification (via GUI settings)!!!
+									- "Download automatically" → `APT::Periodic::Download-Upgradeable-Packages`: automatically download (`apt-get --download-only`) by `apt-daily.service`.
+									- "Download and install automatically" → `APT::Periodic::Unattended-Upgrade`: Automatically intall (`apt upgrade`) by `apt-daily-upgrade.service → /usr/bin/unattended-upgrade`.
+								- Option "When there are other updates" → dconf `/com/ubuntu/update-notifier/regular-auto-launch-interval`: The interval (in days) when `update-notifier` auto-launches `update-manager` for other updates (security updates are launched immediately).
+					- App “Software Updater” <a class="logseq-meta" id="6835a6bf-bdd4-46d5-9d07-e24744e16000" ></a>
+					  <br>![update-manager-icon.png](../assets/Linux/APT/update-manager-icon.png){:width 32} `update-manager`
+						- This is the one that **_check_ for updates** and do update, which is **launched everyday** by [`update-notifier`](#6835acfc-5c1c-40c0-b008-93979afa8f36) which is daily triggered by [apt-daily[-upgrade].service](https://wiki.debian.org/UnattendedUpgrades#Modifying_download_and_upgrade_schedules_.28on_systemd.29).
+						- It can automatically do update via the [Unattended Upgrade](#683580d0-c9c6-4708-acb6-7c21817be3dc), if the flag `APT::Periodic::Unattended-Upgrade` in `/etc/apt/apt.conf.d/{10periodic,20auto-upgrades}` is on.
+						- `update-notifier` <a class="logseq-meta" id="6835acfc-5c1c-40c0-b008-93979afa8f36" ></a>
+						  <br>![update-notifier-icon.png](../assets/Linux/APT/update-notifier-icon.png){:width 32} popup `UpdatesAvailable`
+							- This is the one that ***triggers*** [App “Software Updater”](#6835a6bf-bdd4-46d5-9d07-e24744e16000), not only a “notifier”, which is **autostarted** via XDG [Autostart](#66b1cfa4-1438-4699-9f02-b84075f2a167).
+					- [Commentaries:](../../../../publish/CommonMark/Namespace.cm.md#665359ff-79f1-4669-b10b-f2b0e633a7c1)
+						- Automatic software update/notification <a class="logseq-meta" id="68358033-084f-461c-b470-5311a5127f0c" data-collapsed="true" ></a>
+							- [App “Software Updater”](#6835a6bf-bdd4-46d5-9d07-e24744e16000): (`/etc/xdg/autostart/update-notifier.desktop` → `update-notifier`) & `apt-daily[-upgrade].service` → `update-manager` → `sudo apt upgrade`
+								- To **_disable_ automatic update**, we must remove `update-notifier` from startup:
+								  ```sh
+								  sudo echo "X-GNOME-Autostart-enabled=false" >> /etc/xdg/autostart/update-notifier.desktop
+								  ```
+									- → No more popup, but still notificaton in GNOME Software docks.
+									- → But the popup `UpdatesAvailable` pane of `update-manager` is still launched automatically for **security updates**.
+										- Because it's hardcoded in [script `/usr/lib/python3/dist-packages/UpdateManager/UpdatesAvailable.py`](https://git.launchpad.net/ubuntu/+source/update-manager/tree/UpdateManager/UpdatesAvailable.py).
+								- Note that turning on the flag `no-show-notifications` does _not_ work
+									- ```sh
+									  gsettings set com.ubuntu.update-notifier no-show-notifications true
+									  ```
+							- Unattended Upgrade <a class="logseq-meta" id="683580d0-c9c6-4708-acb6-7c21817be3dc" ></a>
+								- [Wiki:](../../../../publish/CommonMark/Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://wiki.debian.org/UnattendedUpgrades
+								- [Description:](../../../../publish/CommonMark/Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) [Unattended Upgrade](#683580d0-c9c6-4708-acb6-7c21817be3dc) is the service to keep the computer current with the latest security (and other) updates **automatically**. The [`unattended-upgrades.service`](https://wiki.debian.org/UnattendedUpgrades) references the following settings:
+									- `/etc/apt/apt.conf.d`/{`20auto-upgrades`,`02periodic`}
+									  ```c++
+									  APT::Periodic::Update-Package-Lists "1";
+									  APT::Periodic::Unattended-Upgrade "1";
+									  ```
+										- which can be modified interactively with `sudo dpkg-reconfigure unattended-upgrades`
+									- From Debian 12 (Bookworm) = Ubuntu 22.04 (Jammy Jellyfish), [Unattended Upgrade](#683580d0-c9c6-4708-acb6-7c21817be3dc) is *no longer a default* install with Gnome. Download and upgrade schedules are set up by [PackageKit](#6835789b-9394-42ff-8c03-8c19763deda6) using `systemd` timers with [apt-daily[-upgrade].service](https://wiki.debian.org/UnattendedUpgrades#Modifying_download_and_upgrade_schedules_.28on_systemd.29). The default behaviour in Gnome for upgrades detected via APT is now to advise of availability, and not to install by default.
+							- Places to check for activities (logs & timestamps) <a class="logseq-meta" data-collapsed="true" ></a>
+								- `apt`:
+									- `/var/log/apt/history.log`: command log
+									- `/var/log/apt/term.log`: detail log
+								- `apt update`:
+									- `/var/lib/apt/periodic/update-success-stamp` touched by `/etc/apt/apt.conf.d/15update-stamp`
+								- `dpkg`:
+									- `/var/log/dpkg.log`: command log
+								- `/usr/lib/apt/apt.systemd.daily`: E.g., last upgrade = Apr 19; last update & download = Jun 12
+									- `UPDATE_STAMP=/var/lib/apt/periodic/update-stamp` ← `apt update`: update package lists
+									- `DOWNLOAD_UPGRADEABLE_STAMP=/var/lib/apt/periodic/download-upgradeable-stamp` ← `apt-get --download-only && unattended-upgrade --download-only`
+									- `UPGRADE_STAMP=/var/lib/apt/periodic/upgrade-stamp` ← `apt upgrade` (`unattended-upgrade`)
+								- `/usr/bin/unattended-upgrade`: E.g., last = Apr 19
+									- `${Dir::State}/periodic/unattended-upgrades-stamp`
+									- `/var/log/unattended-upgrades/unattended-upgrades{,-dpkg,-shutdown}.log`
+								- `update-notifier`:
+									- `/var/lib/update-notifier/{updates-available,dpkg-run-stamp}` touched by `/etc/apt/apt.conf.d/99update-notifier`
+								- `update-notifier-download`: Download data for packages that failed at package install time
+									- `update-notifier-download.{timer->service}` starts at boot time -> `/lib/systemd/system/update-notifier-download.service`
+									- `/usr/share/package-data-downloads` -> `/var/lib/update-notifier/package-data-downloads`
+								- `update-notifier-motd.timer`: Check to see whether there is a new version of Ubuntu available
+									- `update-notifier-motd.{timer->service}` run every week (Sunday) -> `/usr/lib/ubuntu-release-upgrader/release-upgrade-motd` -> `/usr/lib/ubuntu-release-upgrader/check-new-release`
+									- `/var/lib/ubuntu-release-upgrader/release-upgrade-available`
+				- Synaptic <a class="logseq-meta" id="683573db-769c-4215-b55b-196dc57082c2" ></a>
+					- [Wiki:](../../../../publish/CommonMark/Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Synaptic_(software)
+					- [Description:](../../../../publish/CommonMark/Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) [Synaptic](#683573db-769c-4215-b55b-196dc57082c2) is a GUI app for managing `deb` packages with many more details than the default [Ubuntu Software Center](#68357215-b39b-449c-b63e-4c33f5b1f0da): installed file list, dependencies & fix broken packages, version management (lock/pin, force)
+				- `aptitude`
+				  <br>a TUI app for managing `deb` packages
+					- [Wiki:](../../../../publish/CommonMark/Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Aptitude_(software)
+				- PackageKit <a class="logseq-meta" id="6835789b-9394-42ff-8c03-8c19763deda6" ></a>
+					- [Wiki:](../../../../publish/CommonMark/Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/PackageKit
+					- [Description:](../../../../publish/CommonMark/Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) [PackageKit](#6835789b-9394-42ff-8c03-8c19763deda6) is a **middle** software bridging backends, like [<span class="link-h3">APT</span>](#68357072-2dcb-42b5-a228-15ed904010f8), with frontends, like [GNOME Software](https://en.wikipedia.org/wiki/GNOME_Software), `gnome-packagekit`, etc.
+						- Architecture: APT [backend] > PackageKit > [frontend] GNOME Software (or `gnome-packagekit`)
+		- ### Snap <a class="logseq-meta" id="681826b1-9b87-4950-905f-b057e91ffca5" ></a>
+			- [Official website:](../../../../publish/CommonMark/Namespace.cm.md#665359c3-61fd-4858-a117-ecbcd6fbc9ea) https://snapcraft.io/about
+			- [Wiki:](../../../../publish/CommonMark/Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Snap_(software)
+			- Snap Sandbox <a class="logseq-meta" id="66fa8a1d-4fc0-4cb9-ad57-911cba799a04" data-collapsed="true" ></a>
+				- Each Snap app runs in a limited [sandbox](https://en.wikipedia.org/wiki/Snap_(software)#Configurable_sandbox).
+				- Each Snap app uses a separate home `${HOME}/snap/${app}/current/` instead of the user's `${HOME}`.
+				- Many system calls are blocked (`Permission denied`), e.g. `ssh`, `who`, `free`, etc.
+					- For SSH access, we must explicitly allow via `ssh-keys: allows reading ssh user configuration and keys` < `Permissions` < `${app}` < `Snap Store` (`Ubuntu Software`). <a class="logseq-meta" id="66fb69ac-95d3-4ba0-b5ec-b1eb04898db5" ></a>
+						- Ref: [Dbeaver CE Ubuntu snap can't read SSH key in ~/.ssh](https://github.com/dbeaver/dbeaver/issues/10098#issuecomment-770193398)
+						- ![Snap-Logseq-ssh-permission.png](../assets/logseq/Snap-Logseq-ssh-permission.png)
+					- Debugging `core.sshCommand`s in `.gitconfig` <a class="logseq-meta" id="66fb7680-58c6-4954-8495-f199f5affa4e" ></a>
+						- `ssh`, `who` are denied, while `date`, `id` and shell-built-in `pwd`, `echo`, `type` are allowed.
+							- ```ini
+							  [core]
+							      sshCommand = "ssh -v 2>/home/dinhlx/tmp/ssh.log" # 1: ssh: Permission denied
+							      #sshCommand = "type ssh 1>/home/dinhlx/tmp/ssh.log #" # ssh is /usr/bin/ssh
+							      #sshCommand = "pwd 1>/home/dinhlx/tmp/ssh.log #" # /home/dinhlx/source/UniinfoNotes
+							      #sshCommand = "echo ${USER}:${HOME} 1>/home/dinhlx/tmp/ssh.log #" # dinhlx:/home/dinhlx/snap/logseq/28
+							      #sshCommand = "who 2>/home/dinhlx/tmp/ssh.log #" # 1: who: Permission denied
+							      #sshCommand = "type who 1>/home/dinhlx/tmp/ssh.log #" # ssh is /usr/bin/who
+							      #sshCommand = "date 1>/home/dinhlx/tmp/ssh.log #" # 30/09/2024 17:47:30 +07
+							      #sshCommand = "type date 1>/home/dinhlx/tmp/ssh.log #" # date is /usr/bin/date
+							      #sshCommand = "id 1>/home/dinhlx/tmp/ssh.log #" # uid=1001(dinhlx) gid=1001(dinhlx) groups=1001(dinhlx),27(sudo),1002(tomcat)
+							      #sshCommand = "type id 1>/home/dinhlx/tmp/ssh.log #" # id is /usr/bin/id
+							  
+							  [trace2]
+							      normalTarget = /home/dinhlx/tmp/git.trace.log
+							  ``` <a class="logseq-meta" data-collapsed="true" ></a>
+					- Ref: [Permission denied for calling system calls from snap app](https://forum.snapcraft.io/t/permission-denied-for-calling-system-calls-from-snap-app/16056)
+				- All hidden files and folder (whose name is started with  dot `.*`) cannot be accessed by Snap app. <a class="logseq-meta" id="66fb7680-5c9d-4c2f-8b53-e0645b62aa4e" ></a>
+					- [So,](../../../../publish/CommonMark/Namespace.cm.md#665dc545-151a-485a-84b7-1310fef5151c) for some file to be used by the app, it must be placed in a non-hidden folder.
+		- ### Flatpak
+			- Originally "[XDG](#669499f7-76c4-4ff8-a27e-be9768a6258c)-app"
+			- [Wiki:](../../../../publish/CommonMark/Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Flatpak
+			- App Store: https://flathub.org/
+			- Flatpak Sandbox <a class="logseq-meta" id="66fb5dcd-e20c-4e18-b03c-e52a5bb76425" data-collapsed="true" ></a>
+				- Each Flatpack app is registered with a `${FlatpakID}`, e.g. `com.logseq.Logseq`, and runs in an [OSTree](https://en.wikipedia.org/wiki/OSTree) sandbox.
+				- The sandbox of `${FlatpakID}` can be inspected with `flatpak run --command=bash ${FlatpakID}`
+				- Flatpak sandbox is not as restricted as [Snap Sandbox](#66fa8a1d-4fc0-4cb9-ad57-911cba799a04).
+					- Flatpak sandbox integrates user's `${HOME}` and other parts of the OS so well that it feels like running in the native environment.
+					- Flatpak sandbox can handle SSH well.

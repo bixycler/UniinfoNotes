@@ -1,0 +1,17 @@
+- ---
+- openness = porosity = entropy increase = arrow of time = mismatch between form & content =  curvature in distribution
+- past form = copy of present form = mixture of present content <a class="logseq-meta" data-collapsed="true" ></a>
+	- the the root confusion is between form and content.
+	- the past content has gone (to present content), only the past form remains.
+	- The actual past is the **reconstructed** events by pouring live content in the present to dead forms (segments) of history.
+	- the block universe model records the past micro form to conflate/confuse it with past content relative to the past macro form.
+	- entropy is the measure of mismatch between forms (micro over macro) = $\log(e = c/i)$
+	- many-to-one mapping is the view cone => abstract  content to external form, mix with intent (inner form) to produce new form via action
+	- entropy increase by effect cone
+- bottom-up building means taking a micro form to be the first brick, discarding its underlying content.
+- Unithread takes a projection of the whole Omnifold as the infinite underlying content.
+- ---
+- [DOING review UniinfoNotes](#69af7dbd-0a7c-4d10-a5cd-6de1ab9c3040)
+- 🧵 thread: total amount = 1 = sum of content in each form dimension (extent) = product of intents of all forms
+- 🤔 😁 😉 😮 😛 😜 🙁 😱 👺 ⇄ ∞∝α ‘’
+- Ω-thread Unïnfo –

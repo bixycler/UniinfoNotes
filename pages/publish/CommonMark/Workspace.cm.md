@@ -1,0 +1,58 @@
+- # Workspace <a class="logseq-meta" id="66519638-cf5d-409b-9b98-15acabf2268c" ></a>
+	- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) This is the [<span class="link-h3">Workspace</span>](Mind Jungle.cm.md#665d1a03-4c61-4d81-ac58-a5a1a7efe568) for [<span class="link-h2">Will LÊ</span>](Mind Jungle.cm.md#66536578-c4d3-43f1-b35c-bf71120f0570). <a class="logseq-meta" id="66600918-2b2b-417e-910b-2a60fdba7918" ></a>
+	- ***Pinned***: [<span class="link-h2">Logseq</span>](Mind Jungle.cm.md#66536e1b-6466-4153-90d6-583003d99a81) <a class="logseq-meta" id="66603d58-ff5b-4e23-8dad-5dba527981f4" ></a>
+	-  <a class="logseq-meta" id="66600918-7717-48c0-9869-1776d05035f1" ></a>
+	- ## Search <a class="logseq-meta" id="66fce880-77a2-41f7-8bdb-a86b7fc6fc77" ></a>
+		- logseq <a class="logseq-meta" id="66fce7e0-8040-4980-b2aa-807e4a0cde1f" ></a>
+		  <br>case-sensitive:: false
+		  <br>whole-word:: false <a class="logseq-meta" data-collapsed="true" ></a>
+		  <br>^ **Name & Term** search
+			- Filters <a class="logseq-meta" data-collapsed="true" ></a>
+				- Containers <a class="logseq-meta" id="67710fcc-08c4-4a3e-96fd-bc4207f6ec8f" ></a>
+				  <br>search-scope::
+				  <br>search-scope-page:: [[Uniinfo]], [[Mind Jungle]], [[Git]], [[Linux]], [[JavaScript]], [[Database]]
+				- Block ids <a class="logseq-meta" id="677010ec-01b9-48d6-9a3b-ea53bd62cea3" data-filter="665ca48e-f7c1-4541-b5cf-486d86b02997|665ca495-93b4-47d4-a022-ce511b021a3d|665359e4-4597-4775-b849-f9acbb98960a|665c9af1-1ce2-461c-af33-671690618c8f|6699e4db-2e75-4427-94bb-96dfe0367dd1|6699ea73-dc77-4227-a293-b501f2eb1759|6699e5f2-7788-46c7-8233-87699a65ca30|6699eb54-ce9e-4472-a784-c59ffd47f02b|66c80d5c-181f-4f06-a285-0624a65e9951|66c80dde-a097-4744-8af8-c6e26dcfdda2|66c80da7-c0e8-46d2-85e5-71318fd44eff|66c80dfd-95e2-4b5a-bd56-06e8307e81ca|66c80da9-4cfb-4de7-b83d-8b70665207bf|66c80e01-002b-42ae-9c60-49bf3fc6e159" ></a>
+				  <br>child-filter:: 665ca48e-f7c1-4541-b5cf-486d86b02997|6651ecba-793d-43c5-8020-a9f260b032d8|665359c0-a89a-41b5-9f28-503f79107a08|669a1e5f-734c-41c1-bf1c-21813b6e81d8|665359ff-79f1-4669-b10b-f2b0e633a7c1
+				- Block refs
+					- filter:: [Name:](Namespace.cm.md#665ca48e-f7c1-4541-b5cf-486d86b02997) | [name of](Namespace.cm.md#665ca495-93b4-47d4-a022-ce511b021a3d) | [Alias:](Namespace.cm.md#665359e4-4597-4775-b849-f9acbb98960a) | [alias of](Namespace.cm.md#665c9af1-1ce2-461c-af33-671690618c8f)
+						- **Components**: [Complement:](Namespace.cm.md#6699e4db-2e75-4427-94bb-96dfe0367dd1) | [Dual:](Namespace.cm.md#6699ea73-dc77-4227-a293-b501f2eb1759) | [Whole:](Namespace.cm.md#6699e5f2-7788-46c7-8233-87699a65ca30) | [Complementary components:](Namespace.cm.md#6699eb54-ce9e-4472-a784-c59ffd47f02b)
+						- Word classes: [Noun:](Namespace.cm.md#66c80d5c-181f-4f06-a285-0624a65e9951) | [noun of](Namespace.cm.md#66c80dde-a097-4744-8af8-c6e26dcfdda2) | [Verb:](Namespace.cm.md#66c80da7-c0e8-46d2-85e5-71318fd44eff) | [verb of](Namespace.cm.md#66c80dfd-95e2-4b5a-bd56-06e8307e81ca) | [Adjective:](Namespace.cm.md#66c80da9-4cfb-4de7-b83d-8b70665207bf) | [adjective of](Namespace.cm.md#66c80e01-002b-42ae-9c60-49bf3fc6e159)
+					- child-filter:: [Name:](Namespace.cm.md#665ca48e-f7c1-4541-b5cf-486d86b02997) | [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) | [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) | [Etymology:](Namespace.cm.md#669a1e5f-734c-41c1-bf1c-21813b6e81d8) | [Commentaries:](Namespace.cm.md#665359ff-79f1-4669-b10b-f2b0e633a7c1)
+			- {{search-query [:h3 "Name & Term Search Result"], 66fce7e0-8040-4980-b2aa-807e4a0cde1f, 67710fcc-08c4-4a3e-96fd-bc4207f6ec8f, 677010ec-01b9-48d6-9a3b-ea53bd62cea3, true, false}}
+			  <br>query-table:: false
+		- wiki <a class="logseq-meta" id="66fce8d4-0434-4dd0-941f-4f3bd9b1b456" data-collapsed="true" ></a>
+		  <br>^ **Element** search
+			- {{search-query [:h3 "Element Search Result"], 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, 66533703-505d-432d-8368-6058eefb45f6, 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, true, false}}
+			  <br>query-table:: false
+		- tuyệt tình cốc <a class="logseq-meta" id="66fd14fd-5eee-4830-b4cb-6bd6f520b9b2" ></a>
+		  <br>case-sensitive:: false
+		  <br>whole-word:: false
+		  <br>filter::
+		  <br>child-filter::
+		  <br>search-scope:: Specific blocks:
+		  <br>search-scope-page:: Main docs:  [[Uniinfo]], [[Mind Jungle]], [[Task]], [[Git]], [[Linux]], [[JavaScript]], [[Database]]; Extended: [[Brainstorm]], [[Story]], [[Braindump]], [[Workspace]];  History: [[2024 Brainstorms]], [[2025 Brainstorms]], [[2024 Stories]], [[2025 Stories]], [[Mind Chips]]; <a class="logseq-meta" data-collapsed="true" ></a>
+		  <br>Old History: [[2024 Tasks]], [[2025 Braindumps]], [[2020 Mind Chips]], [[2021 Mind Chips]], [[2022 Mind Chips]], [[2023 Mind Chips]], [[2025 Mind Chips]], [[2025 Mind Chips]];
+			- {{search-query [:h3 "Full-text Search Result"], 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, true, true}}
+			  <br>query-table:: false
+		- **Instruction**: Input Regex pattern to the first line, then just open (unfold) that block to see the result, which will be automatically updated in the Right Sidebar, but not in the Main Edit Pane. <a class="logseq-meta" data-collapsed="true" ></a>
+			- `search-scope:` Limit to specific block(s). Remember to disable `search-scope-page`!
+			- `search-scope-page:` Break down unwanted pages, join back wanted pages
+	- <zwsp>
+	- ## Workstack <a class="logseq-meta" id="6651adea-81d4-40a5-b96d-af6739e572eb" ></a>
+		- ### Git Tracks <a class="logseq-meta" id="67139355-ac72-4e4c-b882-00bb3a3ea144" data-collapsed="true" ></a>
+			- #### To be merged <a class="logseq-meta" id="67164cc1-e500-4889-9b6d-12d8dd7fc029" data-collapsed="true" ></a>
+			- #### WIPs < [<span class="link-h4">To be merged</span>](#67164cc1-e500-4889-9b6d-12d8dd7fc029) <a class="logseq-meta" id="67164c57-8f45-46eb-92a9-f00b02dccfc9" ></a>
+				- ...
+			- <<End Tracks>>
+			  <br>---------------
+		- ### Working <a class="logseq-meta" id="6773d98a-3917-4267-9f8b-7d86b84d3663" ></a>
+		  {{embed [<span class="link-h4">WIPs < ((67164cc1-e500-4889-9b6d-12d8dd7fc029))</span>](#67164c57-8f45-46eb-92a9-f00b02dccfc9)}}
+		  <br>{{embed [So Logseq "restored" the id, based on the relative position between blocks, in commit `6154f573`](Braindump.cm.md#db954501-95d0-46e2-b1fc-39b6a966300e)}}
+		  <br>{{embed [<span class="link-h2">Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))</span>](#6788f004-d3df-41d4-afc8-c8c5ea52c51c)}}
+		  <br>{{embed [<span class="link-h2">Brainstorming > ((6960e754-ff94-4e1a-8266-d9f15231b880))</span>](Brainstorm.cm.md#6773eb97-ec58-4c48-a017-cd0de2d82e08)}}
+		  <br>{{embed [<span class="link-h2">Current Tasks < ((677614c4-ea7d-47c0-89ee-afbacceb56e9)) > ((67763106-205f-4e01-affc-a68e1d8e53a9))</span>](Task.cm.md#677630fe-ea99-436f-b39f-8bd2295e2eaf)}}
+		- <<End Workstack>>
+		  <br>---------------------
+	- {{embed [<span class="link-h3">DOING Mind Map</span>](Mind Jungle.cm.md#67760c43-58c6-40eb-b874-40afae448966)}}
+	- <<End Workspace>> 
+	  <br>---------------------
