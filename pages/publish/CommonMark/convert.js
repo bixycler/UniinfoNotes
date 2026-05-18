@@ -267,27 +267,7 @@ function convertFile(inputPath, outputPath, uuidMap, sourceLineMap) {
 
             // After link processing, record the output line and file for any UUID that appears in this line
             // This handles UUIDs that are only referenced (no metadata anchor)
-            for (const match of ln.matchAll(PAT_UUID_REF)) {
-                const uuid = match[1];
-                if (sourceLineMap[uuid] && !sourceLineMap[uuid].outLine) {
-                    sourceLineMap[uuid].outLine = outputLine + 1; // the line we are about to write
-                    sourceLineMap[uuid].outFile = outputPath;
-                }
-            }
-            for (const match of ln.matchAll(PAT_BRACKET_UUID_REF)) {
-                const uuid = match[1];
-                if (sourceLineMap[uuid] && !sourceLineMap[uuid].outLine) {
-                    sourceLineMap[uuid].outLine = outputLine + 1; // the line we are about to write
-                    sourceLineMap[uuid].outFile = outputPath;
-                }
-            }
-            for (const match of ln.matchAll(PAT_LINK_REF)) {
-                const uuid = match[2];
-                if (sourceLineMap[uuid] && !sourceLineMap[uuid].outLine) {
-                    sourceLineMap[uuid].outLine = outputLine + 1;
-                    sourceLineMap[uuid].outFile = outputPath;
-                }
-            }
+
 
             nmd += ln + '\n';
             outputLine++;
