@@ -5857,7 +5857,7 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 					- **Sacral Outflow (Pelvic):** The reset extends to the [sacral spinal segments (S2–S4)](https://en.wikipedia.org/wiki/Pelvic_splanchnic_nerves), which govern the vascular reset (erection) via the pelvic splanchnic nerves.
 				- Neurotransmitter Driver: The chemical "switch" for biological openness.
 					- [Acetylcholine (ACh)](https://en.wikipedia.org/wiki/Acetylcholine): The primary neurotransmitter of the PSNS, released by pre- and post-ganglionic neurons to trigger gut contraction and cardiac slowing.
-					- **Nitric Oxide (NO):** Released in response to ACh in the vascular endothelium, acting as a potent vasodilator for the vascular reset.
+					- [Nitric Oxide (NO)](https://en.wikipedia.org/wiki/Biological_functions_of_nitric_oxide): Released in response to ACh in the vascular endothelium, acting as a potent vasodilator for the vascular reset.
 					- **Dopamine & Serotonin:** Released during the "Aha!" moment of insight, providing the central nervous system (CNS) reward that triggers the peripheral PSNS response.
 				- Physiological Result:
 					- **GI Reset (Burping & Peristalsis):** Vagal activation triggers the relaxation of the lower esophageal sphincter (releasing gas) and initiates rhythmic smooth muscle contraction.
