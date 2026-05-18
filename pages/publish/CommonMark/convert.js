@@ -91,48 +91,121 @@ function getMarkdownFiles(paths) {
     return mdFiles;
 }
 
+/**
+ * Preprocess: collapse code blocks into placeholder tokens.
+ * Returns { cleanLines: Array<{line: string, originalIndex: number}>, codeBlockMap: Map<string, string[]> }
+ *
+ * Handles both top-level ``` and bullet-prefixed - ``` fences.
+ */
+function preprocessCodeBlocks(lines) {
+    const cleanLines = [];
+    const codeBlockMap = new Map();
+    let blockIndex = 0;
+    let inCodeBlock = false;
+    let currentBlock = [];
+    let currentToken = '';
+
+    for (let i = 0; i < lines.length; i++) {
+        const line = lines[i];
+        // Strip bullet prefix for fence detection only
+        const testLine = line.trimStart().replace(/^-\s*/, '');
+        if (testLine.startsWith('```')) {
+            if (!inCodeBlock) {
+                // Opening fence
+                inCodeBlock = true;
+                currentToken = `__CODE_BLOCK_${blockIndex++}__`;
+                currentBlock = [line]; // preserve the original fence line
+            } else {
+                // Closing fence
+                currentBlock.push(line);
+                codeBlockMap.set(currentToken, currentBlock);
+                cleanLines.push({ line: currentToken, originalIndex: i });
+                inCodeBlock = false;
+                currentBlock = [];
+                currentToken = '';
+            }
+        } else if (inCodeBlock) {
+            currentBlock.push(line);
+        } else {
+            cleanLines.push({ line, originalIndex: i });
+        }
+    }
+
+    // Handle unclosed code block (malformed input)
+    if (inCodeBlock && currentBlock.length > 0) {
+        codeBlockMap.set(currentToken, currentBlock);
+        cleanLines.push({ line: currentToken, originalIndex: lines.length - 1 });
+    }
+
+    return { cleanLines, codeBlockMap };
+}
+
 // 1. Index Internal Blocks (UUID -> Title) for local freshness override
 function indexInternalBlocks(filePath) {
     const mapping = {};
     const lineMap = {};
     try {
         const content = fs.readFileSync(filePath, 'utf8');
-        const lines = content.split('\n');
-        let lastContentLine = "";
-        let inCodeBlock = false;
+        let rawLines = content.split('\n');
 
-        for (let i = 0; i < lines.length; i++) {
-            const line = lines[i];
+        // Page-Header Item Normalization
+        if (rawLines.length > 0 && rawLines[0].trim().startsWith('# ') && !rawLines[0].trim().startsWith('- ')) {
+            // Replace the first line by prepending a bullet
+            rawLines[0] = '- ' + rawLines[0].trimStart();
+        }
+
+        const { cleanLines } = preprocessCodeBlocks(rawLines);
+
+        let lastContentLine = "";
+        let seenBullet = false;
+
+        // Try to get page name/title for fallback
+        let pageTitle = "";
+        const fileBase = path.basename(filePath, '.md');
+        if (rawLines.length > 0) {
+            const firstLineTrim = rawLines[0].trim();
+            if (firstLineTrim.startsWith('- # ')) {
+                pageTitle = firstLineTrim.substring(4).trim();
+            } else if (firstLineTrim.startsWith('# ')) {
+                pageTitle = firstLineTrim.substring(2).trim();
+            }
+        }
+        if (!pageTitle) {
+            pageTitle = fileBase;
+        }
+
+        for (let i = 0; i < cleanLines.length; i++) {
+            const { line, originalIndex } = cleanLines[i];
             const stripped = line.trim();
 
-            // Toggle code block state
-            if (stripped.startsWith('```')) {
-                inCodeBlock = !inCodeBlock;
+            if (stripped.startsWith('__CODE_BLOCK_')) {
                 continue;
             }
-            if (inCodeBlock) continue;
 
             if (stripped.startsWith('- ')) {
+                seenBullet = true;
                 let content = stripped.substring(2).trim();
                 const idMatch = content.match(PAT_ID_PROP);
                 if (idMatch) {
                     const uuid = idMatch[1];
                     const title = content.replace(idMatch[0], '').trim();
-                    mapping[uuid] = title;
-                    lineMap[uuid] = { srcLine: i + 1, srcFile: filePath };
+                    mapping[uuid] = title || pageTitle;
+                    lineMap[uuid] = { srcLine: originalIndex + 1, srcFile: filePath };
                     lastContentLine = title;
                 } else {
                     lastContentLine = content;
                 }
             } else {
                 // Check for property line (indented or top-level)
-                // We use the regex to ensure it's a valid ID property line
                 const idMatch = stripped.match(PAT_ID_PROP);
                 if (idMatch) {
                     const uuid = idMatch[1];
-                    if (lastContentLine) {
+                    if (!seenBullet) {
+                        mapping[uuid] = pageTitle;
+                        lineMap[uuid] = { srcLine: originalIndex + 1, srcFile: filePath };
+                    } else if (lastContentLine) {
                         mapping[uuid] = lastContentLine;
-                        lineMap[uuid] = { srcLine: i + 1, srcFile: filePath };
+                        lineMap[uuid] = { srcLine: originalIndex + 1, srcFile: filePath };
                     }
                 }
             }
@@ -148,6 +221,9 @@ function convertFile(inputPath, outputPath, uuidMap, sourceLineMap) {
     try {
         const content = fs.readFileSync(inputPath, 'utf8');
         const lines = content.split('\n');
+        
+        const { cleanLines, codeBlockMap } = preprocessCodeBlocks(lines);
+        
         let nmd = '';
         let outputLine = 0; // 1‑based line counter for the generated file
 
@@ -160,8 +236,17 @@ function convertFile(inputPath, outputPath, uuidMap, sourceLineMap) {
         let currentBlockIsEmptyTitle = false;
         let hasAddedContinuationContent = false;
 
-        for (let i = 0; i < lines.length; i++) {
-            let ln = lines[i];
+        for (let i = 0; i < cleanLines.length; i++) {
+            let ln = cleanLines[i].line;
+
+            if (ln.startsWith('__CODE_BLOCK_') && codeBlockMap.has(ln)) {
+                const originalLines = codeBlockMap.get(ln);
+                for (const codeLine of originalLines) {
+                    nmd += codeLine + '\n';
+                    outputLine++;
+                }
+                continue;
+            }
 
             // Handle Metadata Block
             if (ln.match(PAT_LB_START)) { inLogbook = true; continue; }
