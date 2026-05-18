@@ -189,6 +189,105 @@ function slugify(str) {
         .replace(/^-+|-+$/g, ''); // trim leading/trailing dashes
 }
 
+// Function to resolve nested UUID references in titles topologically
+function resolveTitleReferences(index, updateSlug = false) {
+    const PAT_REF = /\(\(([0-9a-fA-F-]{36})\)\)|\[\[([0-9a-fA-F-]{36})\]\]/g;
+    
+    const g = {};
+    for (const id in index) {
+        let title = index[id];
+        if (typeof title === 'object') title = title.title || '';
+        if (!title) continue;
+        
+        const refs = [];
+        const matches = title.matchAll(PAT_REF);
+        for (const match of matches) {
+            refs.push(match[1] || match[2]);
+        }
+        
+        if (refs.length > 0) {
+            g[id] = refs;
+        }
+    }
+    
+    let circularRefs = null;
+    while (Object.keys(g).length > 0) {
+        let resolvedAny = false;
+        
+        for (const id in g) {
+            let resolvable = true;
+            for (const t of g[id]) {
+                if (t in g) { 
+                    resolvable = false; 
+                    break; 
+                }
+            }
+            
+            if (!resolvable) continue;
+            
+            resolvedAny = true;
+            
+            let title = index[id];
+            let isObj = typeof title === 'object';
+            let titleStr = isObj ? title.title : title;
+            
+            const newTitle = titleStr.replace(PAT_REF, (match, u1, u2) => {
+                const targetUuid = u1 || u2;
+                let targetTitle = index[targetUuid];
+                if (targetTitle) {
+                    let ts = typeof targetTitle === 'object' ? targetTitle.title : targetTitle;
+                    if (ts) {
+                        return ts.replace(/^(#+)\s+/, '');
+                    }
+                }
+                return match;
+            });
+            
+            if (isObj) {
+                index[id].title = newTitle;
+                if (updateSlug) index[id].slug = slugify(newTitle);
+            } else {
+                index[id] = newTitle;
+            }
+            
+            delete g[id];
+        }
+        
+        if (!resolvedAny) {
+            console.warn('Warning: Circular refs detected in title resolution for UUIDs:', Object.keys(g));
+            circularRefs = g;
+            break;
+        }
+    }
+    
+    if (circularRefs) {
+        for (const id in circularRefs) {
+            let title = index[id];
+            let isObj = typeof title === 'object';
+            let titleStr = isObj ? title.title : title;
+            
+            const newTitle = titleStr.replace(PAT_REF, (match, u1, u2) => {
+                const targetUuid = u1 || u2;
+                let targetTitle = index[targetUuid];
+                if (targetTitle) {
+                    let ts = typeof targetTitle === 'object' ? targetTitle.title : targetTitle;
+                    if (ts) {
+                        return ts.replace(/^(#+)\s+/, '');
+                    }
+                }
+                return match;
+            });
+            
+            if (isObj) {
+                index[id].title = newTitle;
+                if (updateSlug) index[id].slug = slugify(newTitle);
+            } else {
+                index[id] = newTitle;
+            }
+        }
+    }
+}
+
 // Walk and index each file
 let newEntriesCount = 0;
 for (const file of mdFiles) {
@@ -213,6 +312,10 @@ for (const file of mdFiles) {
         if (!globalIndex[uuid].outputLine) globalIndex[uuid].outputLine = null;
     }
 }
+
+// Topologically resolve titles to remove nested block references
+console.log('Resolving nested title references...');
+resolveTitleReferences(globalIndex, true);
 
 // Write the updated index back
 try {
