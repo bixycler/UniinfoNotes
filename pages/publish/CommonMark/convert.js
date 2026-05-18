@@ -275,6 +275,9 @@ function resolveTitleReferences(index, updateSlug = false) {
             
             const newTitle = titleStr.replace(PAT_REF, (match, u1, u2) => {
                 const targetUuid = u1 || u2;
+                if (targetUuid in circularRefs) {
+                    return targetUuid;
+                }
                 let targetTitle = index[targetUuid];
                 if (targetTitle) {
                     let ts = typeof targetTitle === 'object' ? targetTitle.title : targetTitle;

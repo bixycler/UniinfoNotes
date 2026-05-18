@@ -24,7 +24,7 @@
 			- "clock arms" is from the overall shape of a body with two limbs 💪.
 				- the spade ♠️ at the end of the arm resembles the pointing hand 👆
 	- 2025-01-13
-		- [Gate gate paragate](#6835b167-048c-499b-bede-8baff58e6e8e)
+		- [Gate gate paragate](2025%20Stories.cm.md#6835b167-048c-499b-bede-8baff58e6e8e)
 			- ![gate-gate.jpg](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/gate-gate.jpg){:width 200}
 	- 2025-01-18
 		- 🕉 Ōm‌m‌.

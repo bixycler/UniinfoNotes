@@ -16,7 +16,7 @@
   <br>___
   <br>===
   
-  <br>Normal text, *italic*, **bold**, ***bold italic***, ~~strikethrough~~, [<span class="link-h2">wikilink</span>](../../../publish/CommonMark/Mind Jungle.cm.md#e6a21858-1849-462e-b2b0-0bc57b38fb0a), [Markdown link](https://www.markdownguide.org/basic-syntax/#links "this is a tooltip/title of this link"), [reference][1] do they look OK?
+  <br>Normal text, *italic*, **bold**, ***bold italic***, ~~strikethrough~~, [<span class="link-h2">wikilink</span>](../../../publish/CommonMark/Mind%20Jungle.cm.md#e6a21858-1849-462e-b2b0-0bc57b38fb0a), [Markdown link](https://www.markdownguide.org/basic-syntax/#links "this is a tooltip/title of this link"), [reference][1] do they look OK?
 - Nested links
 	- This is [a [Hyperlink](https://en.wikipedia.org/wiki/Hyperlink) within a Markdown link](https://www.markdownguide.org/basic-syntax/#links). <a class="logseq-meta" id="66ae1e22-a253-4c78-8a51-b45e646ccb66" data-collapsed="true" ></a>
 		- This is [an <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a"><code>&lt;a&gt;</code> tag</a> within a Markdown link](https://www.markdownguide.org/basic-syntax/#links).
@@ -25,8 +25,8 @@
 	- This is [a [nested brackets in a] link](href.to.a(nested parentheses) "with tool tip") <a class="logseq-meta" data-collapsed="true" ></a>
 		- 2 layers: [a [nested [nested brackets] in a] link](href.to.a(nested (nested parentheses)) "with tool tip")
 		- 3 layers: [a [nested [nested [nested brackets] in] a] link](href.to.a(nested (nested (nested parentheses))) "with tool tip")
-	- This is [a ((66536cad-a232-4b90-bf32-439144aac1ec)) within a block](#66ae2602-edc5-4281-a9fb-fc03f1992c93), which is linked/mirrored here. <a class="logseq-meta" id="66ae25de-8bfe-4da8-9483-8ae16f704c59" ></a>
-		- a [<span class="link-h2">hyperlink</span>](../../../publish/CommonMark/Mind Jungle.cm.md#66536cad-a232-4b90-bf32-439144aac1ec) within a block <a class="logseq-meta" id="66ae2602-edc5-4281-a9fb-fc03f1992c93" ></a>
+	- This is [a hyperlink within a block](#66ae2602-edc5-4281-a9fb-fc03f1992c93), which is linked/mirrored here. <a class="logseq-meta" id="66ae25de-8bfe-4da8-9483-8ae16f704c59" ></a>
+		- a [<span class="link-h2">hyperlink</span>](../../../publish/CommonMark/Mind%20Jungle.cm.md#66536cad-a232-4b90-bf32-439144aac1ec) within a block <a class="logseq-meta" id="66ae2602-edc5-4281-a9fb-fc03f1992c93" ></a>
 - <zwsp>
 - ## List
 - first with `inline code`
@@ -78,8 +78,8 @@
 	  <br>logseq.order-list-type:: number
 - Block reference <a class="logseq-meta" id="66680d04-bd5e-4c0b-bce2-b8657cecf232" ></a>
 	- 1st level reference: [Block reference](#66680d04-bd5e-4c0b-bce2-b8657cecf232) <a class="logseq-meta" id="66680d48-8b45-4f18-8826-884de65dc7cb" ></a>
-		- 2nd level refence: [1st level reference: ((66680d04-bd5e-4c0b-bce2-b8657cecf232))](#66680d48-8b45-4f18-8826-884de65dc7cb) <a class="logseq-meta" id="66680d60-55ec-4929-8bef-3c3e6ca85538" ></a>
-			- 3rd level reference: [2nd level refence: ((66680d48-8b45-4f18-8826-884de65dc7cb))](#66680d60-55ec-4929-8bef-3c3e6ca85538)
+		- 2nd level refence: [1st level reference: Block reference](#66680d48-8b45-4f18-8826-884de65dc7cb) <a class="logseq-meta" id="66680d60-55ec-4929-8bef-3c3e6ca85538" ></a>
+			- 3rd level reference: [2nd level refence: 1st level reference: Block reference](#66680d60-55ec-4929-8bef-3c3e6ca85538)
 - Embedded block with Logseq's `{{embed}}`: {{embed [minus](#666124a1-a914-4f1f-9cce-ac447fb37d41)}}
 	- The embedded block above is "transparent", i.e. can be edited right at the embedding place.
 - <zwsp>

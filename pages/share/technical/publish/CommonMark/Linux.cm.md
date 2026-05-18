@@ -168,12 +168,12 @@
 					  ```
 					- `DIR_COLORS` file <a class="logseq-meta" id="67adaa84-c44b-4f36-bc34-ddec3117b7fc" data-collapsed="true" ></a>
 						- Man page: `man DIR_COLORS` (or [on web](https://www.man7.org/linux/man-pages/man5/dir_colors.5.html))
-						- See [[file type](((671f467e-6f1f-4436-a0dd-9a03055e11a9))) code](#67ad9254-2b15-48cd-8f38-8b727e5ed2da).
+						- See [[file type](file mode bits) code](#67ad9254-2b15-48cd-8f38-8b727e5ed2da).
 						- On Slackware, SuSE, RedHat: System-wide config `/etc/DIR_COLORS`, which can be overriden by per-user config `~/.dir_colors`.
 				- `LS_COLORS` <a class="logseq-meta" id="67ad9184-d0e9-49c1-9584-ac7ced51b385" ></a>
 				  <br>env.var. defining output colors for `ls --color`.
 					- Format: colon-separated list of color definitions by file type
-					  <br>> [[file type](((671f467e-6f1f-4436-a0dd-9a03055e11a9))) code](#67ad9254-2b15-48cd-8f38-8b727e5ed2da) = [color sequences](#67ad927a-3926-4930-bf40-6cefcca3d54e) : other file types ...
+					  <br>> [[file type](file mode bits) code](#67ad9254-2b15-48cd-8f38-8b727e5ed2da) = [color sequences](#67ad927a-3926-4930-bf40-6cefcca3d54e) : other file types ...
 					- When there are many definitions of the same file type, the last will override all previous ones.
 						- And we only need to put in `LS_COLORS` just defs overriding default values.
 					- [file type](#671f467e-6f1f-4436-a0dd-9a03055e11a9) code <a class="logseq-meta" id="67ad9254-2b15-48cd-8f38-8b727e5ed2da" data-collapsed="true" ></a>
@@ -1216,7 +1216,7 @@
 			  # Note that this _only_ works for targets which are **already resolved** (by DHCP or /etc/hosts). 
 			  cname=git1.lan.skygate.co.jp,mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com
 			  ```
-			- [finally, after [digging CNAME](((678de2b7-649c-4c49-9448-e22149a8e407))) of `git1` for IP resolution, `A` records appear in answer for `git1`, but still unstable!](#675686a5-3d59-402f-9640-12b991182e32)
+			- [finally, after [digging CNAME](⇒We must manually request `dnsmasq` to update CNAME IPs by querying their IP: `[nslookup,dig,ping] $CNAME`) of `git1` for IP resolution, `A` records appear in answer for `git1`, but still unstable!](#675686a5-3d59-402f-9640-12b991182e32)
 				- Static IP cannot be set (in `hosts` file), due to the [IP update of `CNAME` in work time](#675653ab-ea7c-4d8b-8ef6-a378591b6443).
 				- DONE So, let's use the `unbound` **recursive resolver** to replace `dsnmasq`! <a class="logseq-meta" id="69c6838d-0ec3-4027-a62a-8f10b913d87c" data-logbook="CLOCK: [2026-03-27 Fri 20:18:48]--[2026-03-30 Mon 13:52:18] =&gt;  65:33:30&#10;" ></a>
 					- `dsnmasq` just forwards the queried domain to upstream DNS servers, or returns the CNAME record of the domain without recursively resolving that CNAME.
@@ -1561,7 +1561,7 @@
 					  ```
 					- sample config: [smart-auto-move.dconf](../assets/Linux/GNOME/smart-auto-move/smart-auto-move.dconf) > ![saved-windows](../assets/Linux/GNOME/smart-auto-move/smart-auto-move.saved-windows.json), ![overrides](../assets/Linux/GNOME/smart-auto-move/smart-auto-move.overrides.json)
 				- Settings for [Terminal](#66c6bd7d-c9af-4f64-a65b-f4ff075961bb)
-					- [Description:](../../../../publish/CommonMark/Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) Matching terminals is a complicated task, so we must combine [autostart `.desktop` files](#66c6f1cd-52d3-4606-8f54-08bef7acf4ea) with [`title` in ((66c709d4-2541-45ba-a3ad-139ea44d9b04))](#66c710d9-241d-46b2-8dc1-bf2591492565) and [`sequence` in ((66c70945-3ce5-4f95-8cce-1b8a3f2bd464))](#66c70166-889c-419e-8fd0-79d404e63e00).
+					- [Description:](../../../../publish/CommonMark/Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) Matching terminals is a complicated task, so we must combine [autostart `.desktop` files](#66c6f1cd-52d3-4606-8f54-08bef7acf4ea) with [`title` in override](#66c710d9-241d-46b2-8dc1-bf2591492565) and [`sequence` in Saved Windows](#66c70166-889c-419e-8fd0-79d404e63e00).
 					- autostart `.desktop` files <a class="logseq-meta" id="66c6f1cd-52d3-4606-8f54-08bef7acf4ea" ></a>
 						- `~/.config/autostart/gnome-terminal-{1,2}.desktop`: {1st, 2nd} Terminal window on the {left, right}
 						- Exec=`gnome-terminal --window --tab` to create new window with 2 tabs so that the window height includes tab title.

@@ -2,7 +2,7 @@
 	- [Official website:](../../../../publish/CommonMark/Namespace.cm.md#665359c3-61fd-4858-a117-ecbcd6fbc9ea) https://www.git-scm.com/
 	- [Description:](../../../../publish/CommonMark/Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) [Git](#666ba1e2-19d1-409e-b30e-42a99b7e4ec0) is a [free and open source](https://www.git-scm.com/about/free-and-open-source) distributed version control system (VCS), which is now the most popular VCS in the world.
 	- [Commentaries:](../../../../publish/CommonMark/Namespace.cm.md#665359ff-79f1-4669-b10b-f2b0e633a7c1) <a class="logseq-meta" data-collapsed="true" ></a>
-		- File link: [symbolic link (symlink)](#671f5784-d89b-4a4a-a6e7-f02a0805322f) is supported by [Git](#666ba1e2-19d1-409e-b30e-42a99b7e4ec0) but [hard link](#671f5617-1163-4ffc-b65a-b3234e471db0) is not. <a class="logseq-meta" data-collapsed="true" ></a>
+		- File link: [symbolic link (symlink)](Linux.cm.md#671f5784-d89b-4a4a-a6e7-f02a0805322f) is supported by [Git](#666ba1e2-19d1-409e-b30e-42a99b7e4ec0) but [hard link](Linux.cm.md#671f5617-1163-4ffc-b65a-b3234e471db0) is not. <a class="logseq-meta" data-collapsed="true" ></a>
 			- Symlink has portability problem between Linux and Windows.
 				- [From Windows 10+, symlink can be used](https://blogs.windows.com/windowsdeveloper/2016/12/02/symlinks-windows-10/) when Developer mode is turned on.
 			- Hard link is not support (will be broken when [Git](#666ba1e2-19d1-409e-b30e-42a99b7e4ec0) overwrites the link file), but [Git](#666ba1e2-19d1-409e-b30e-42a99b7e4ec0) will let the hard link live as long as we don't do any write operation on that link file, e.g. `pull`, `checkout`, `reset`, etc. <a class="logseq-meta" id="666ba5a7-598a-4b66-86bd-b1622a28ada6" ></a>
@@ -49,7 +49,7 @@
 				- Some git implementations tweak themself to avoid this misleading blame: Ubuntu's `git`, JetBrains IDEs <a class="logseq-meta" data-collapsed="true" ></a>
 					- ![last-newline-blame-console](../assets/TextProcessing/last-newline/last-newline-blame-console.png)
 					- ![last-newline-blame-IDEA](../assets/TextProcessing/last-newline/last-newline-blame-IDEA.png)
-			- 3rd, **unintended conflict**: Some text editors and IDEs [automatically add the last newline](#616bfc2b-05f2-4a85-a094-dd771aa12cd1) to editing files, making unintended changes which will conflict with appendage to that file in other commits. <a class="logseq-meta" id="ed8333ef-b3b6-4d1b-a5e7-3a2fb4e1b286" ></a>
+			- 3rd, **unintended conflict**: Some text editors and IDEs [automatically add the last newline](Linux.cm.md#616bfc2b-05f2-4a85-a094-dd771aa12cd1) to editing files, making unintended changes which will conflict with appendage to that file in other commits. <a class="logseq-meta" id="ed8333ef-b3b6-4d1b-a5e7-3a2fb4e1b286" ></a>
 				- The conflict will be shown (for resolution) in a very obscure way, due to the difficulty of showing the newline itself.
 				  ```git-merge-conflict
 				  6: Last line without newline
@@ -60,8 +60,8 @@
 				  
 				  ```
 				- There are two options to fix this issue:
-					- [Force all IDEs](#67aabd6b-a257-4eb7-8363-3d29035a30f4) to automatically add the last newline.
-					- [Stop Linux editors](#67aacefc-f707-49f4-b33d-ed73f63e3a64), like `vim`, `nano`, from fixing files missing newline at the end of file. <a class="logseq-meta" id="67aacbe5-f534-4eac-abe8-15f2f8990691" ></a>
+					- [Force all IDEs](Linux.cm.md#67aabd6b-a257-4eb7-8363-3d29035a30f4) to automatically add the last newline.
+					- [Stop Linux editors](Linux.cm.md#67aacefc-f707-49f4-b33d-ed73f63e3a64), like `vim`, `nano`, from fixing files missing newline at the end of file. <a class="logseq-meta" id="67aacbe5-f534-4eac-abe8-15f2f8990691" ></a>
 						- This option should be chosen for a project with lots of legacy codes missing the last newline.
 			- Commands to refactor codes <a class="logseq-meta" id="b8c17a55-f618-43ed-9826-314412a08965" data-collapsed="true" ></a>
 				- Add the missing last newline (ref: [unix.stackexchange](https://unix.stackexchange.com/a/31955/566548))
@@ -108,7 +108,7 @@
 	- `gitfile` <a class="logseq-meta" id="67152b95-02b4-473b-a88b-6cbab4b46749" data-collapsed="true" ></a>
 	  <br>`gitdir: ${external_path}/${GIT_DIR}`
 		- [Description:](../../../../publish/CommonMark/Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) [`gitfile`](#67152b95-02b4-473b-a88b-6cbab4b46749) is a file pointing to an external [`$GIT_DIR`](#67152861-f595-4ad1-88a9-9363082d03eb) which has default name `.git` and place similar to `$GIT_DIR`. This is a convenient way to **separate** `$GIT_DIR` from [working tree](#67152d29-5cee-475d-a01b-bbc9c9ad3417), so that Git repo will not be affected _even when the whole working tree is cleared up_.
-		- Use cases: [multiple working trees per repo](#67163453-4d1b-492d-ab06-532cb37e7431), [submodule](#67151eb0-94a3-47bb-a7f9-25561690e75d), `.logseq/git/` in [<span class="link-h2">Logseq</span>](../../../../publish/CommonMark/Mind Jungle.cm.md#66536e1b-6466-4153-90d6-583003d99a81)
+		- Use cases: [multiple working trees per repo](#67163453-4d1b-492d-ab06-532cb37e7431), [submodule](#67151eb0-94a3-47bb-a7f9-25561690e75d), `.logseq/git/` in [<span class="link-h2">Logseq</span>](../../../../publish/CommonMark/Mind%20Jungle.cm.md#66536e1b-6466-4153-90d6-583003d99a81)
 	- nested repository <a class="logseq-meta" data-collapsed="true" ></a>
 		- When adding folder `$subrepo` containing `.git` to another (outer) git repo, its contents cannot be added. Only one *file* `$subrepo` is added as an anchor to the current `HEAD` commit of a nested repo. <a class="logseq-meta" data-collapsed="true" ></a>
 			- warning: `adding embedded git repository: $subrepo`

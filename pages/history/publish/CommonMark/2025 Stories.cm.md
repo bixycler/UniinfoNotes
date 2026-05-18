@@ -1,8 +1,8 @@
 ## 2025 Stories <a class="logseq-meta" id="67763a41-4ad6-449f-9d9b-d63ce417082c" ></a>
 	- Disconnect from the outside to reconnect to the inside <a class="logseq-meta" id="677e2745-6664-407e-ab5f-3c18319e2e6b" data-collapsed="true" data-logbook="CLOCK: [2025-01-08 Wed 14:20:41]&#10;CLOCK: [2025-01-08 Wed 14:21:01]--[2025-01-08 Wed 15:51:16] =&gt;  01:30:15&#10;" ></a>
-		- The last weekends of 2025, while working in UTS, i concluded: [DONE **Duck dive** is a serious problem!](../../../publish/CommonMark/Mind Jungle.cm.md#67714850-43c0-4c7f-8b50-838e014b06e0)
-			- ⇒ [DONE Refractor [[Workspace]]](2024 Tasks.cm.md#67710747-2982-4134-875e-3b715313db87)
-			- ⇒ Design [DOING ### Task list](../../../publish/CommonMark/Mind Jungle.cm.md#67715dbd-5ba6-4fc8-bd3e-5fab97885ae7) & [<span class="link-h3">DOING Mind Map</span>](../../../publish/CommonMark/Mind Jungle.cm.md#67760c43-58c6-40eb-b874-40afae448966)
+		- The last weekends of 2025, while working in UTS, i concluded: [DONE **Duck dive** is a serious problem!](../../../publish/CommonMark/Mind%20Jungle.cm.md#67714850-43c0-4c7f-8b50-838e014b06e0)
+			- ⇒ [DONE Refractor [[Workspace]]](2024%20Tasks.cm.md#67710747-2982-4134-875e-3b715313db87)
+			- ⇒ Design [DOING ### Task list](../../../publish/CommonMark/Mind%20Jungle.cm.md#67715dbd-5ba6-4fc8-bd3e-5fab97885ae7) & [<span class="link-h3">DOING Mind Map</span>](../../../publish/CommonMark/Mind%20Jungle.cm.md#67760c43-58c6-40eb-b874-40afae448966)
 		- Jan 3rd: everything is but a farce 🤣
 			- a random seed was taken for granted, following a whole lot of descendants around it, making a hard core of form, the intensive intent.
 			- Bản chất đều là sự mâu thuẫn giữa cái tưởng, cái mình cho rằng, cái mình mong cầu, với cái thực tế diễn ra. Nhưng nó ra 2 hiện tượng ngược nhau:
@@ -31,10 +31,10 @@
 				- [If you speak that filth again, i will bury you alive](https://youtube.com/shorts/6n0uW7OZ8Os)
 				- [Making war](https://youtube.com/shorts/C5dXqHuBA6o)
 				- [How many children died last year](https://youtube.com/shorts/VLJbTbHHz7o)
-		- Yesterday, [seeing the karma as the momentum](2025 Braindumps.cm.md#677cc7d2-02f7-4ad9-801c-3079237ed465) ⇒ [sleepy meditating...](2025 Braindumps.cm.md#677cc7d2-02f7-4ad9-801c-3079237ed465) <a class="logseq-meta" id="67b541d8-05be-4ce4-8840-87f25787a90c" ></a>
+		- Yesterday, [seeing the karma as the momentum](2025%20Braindumps.cm.md#677cc7d2-02f7-4ad9-801c-3079237ed465) ⇒ [sleepy meditating...](2025%20Braindumps.cm.md#677cc7d2-02f7-4ad9-801c-3079237ed465) <a class="logseq-meta" id="67b541d8-05be-4ce4-8840-87f25787a90c" ></a>
 		- Many days, i have the whole morning off from the office, and even the whole day off, due to the entanglement in the previous night.
 			- entangled with [master Minh Tuệ](https://en.wikipedia.org/wiki/Th%C3%ADch_Minh_Tu%E1%BB%87)'s journey
-			- entangled with all sort of pathetic stories, as well as [all the junks](2024 Stories.cm.md#6752f2ae-a019-400c-9a13-ede363f665ff)
+			- entangled with all sort of pathetic stories, as well as [all the junks](2024%20Stories.cm.md#6752f2ae-a019-400c-9a13-ede363f665ff)
 		- Last night, after being stuck again, i decided to [disconnect from social networks](https://www.facebook.com/share/p/1AvDcWFK52/) <a class="logseq-meta" id="67b541d8-d6dd-4651-910f-a37ad1300535" data-logbook="CLOCK: [2025-01-08 Wed 16:48:53]&#10;" ></a>
 			- squatting in the bathroom, with ujjayi breath, i returned to the zero point and overview the whole entanglement
 			- i decided to just log out and remove apps
@@ -75,9 +75,9 @@
 		- This morning, Monday 13th, i heard the alarm at 9 AM but lay more for 30 minutes.
 		- On the way to company, i see “the last frontier” is the [<span class="link-h3">round</span>](../../../publish/CommonMark/Uniinfo.cm.md#66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)ness both in theory and in practical quest for my liberation.
 			- The [bodymind](https://en.wikipedia.org/wiki/Bodymind) must **always be fully occupied**, if we don't deliberately put useful things into it, it will sucks all kinds of “useless” things in. <a class="logseq-meta" id="6784f2aa-357a-44ed-a8c6-5ed1b9c78b04" ></a>
-				- The way to make it “occupied” is to [hold firmly on the lanyard/leash](2024 Stories.cm.md#6772a6d5-a3a5-4fd9-b923-08031a5cd0aa), with ujjayi breath.
+				- The way to make it “occupied” is to [hold firmly on the lanyard/leash](2024%20Stories.cm.md#6772a6d5-a3a5-4fd9-b923-08031a5cd0aa), with ujjayi breath.
 				- There are 2 suction nozzles: the emptiness and the deep feeling of something “unfinished”.
-					- I have much less problem with the emptiness, but i've witnessed it seriously some times when i let it affect me, like this: [Caught up in the junks](2024 Stories.cm.md#6752f2ae-a019-400c-9a13-ede363f665ff).
+					- I have much less problem with the emptiness, but i've witnessed it seriously some times when i let it affect me, like this: [Caught up in the junks](2024%20Stories.cm.md#6752f2ae-a019-400c-9a13-ede363f665ff).
 					- Most of my problem is the struggle between the things must be done and the strong urge to finish my internal things: [The vague feeling deep inside is just like the itch begging for a scratch!](#0f9f9026-152c-46b5-964b-c6e1019cc584)
 				- The vague feeling deep inside is just like the itch begging for a scratch! <a class="logseq-meta" id="0f9f9026-152c-46b5-964b-c6e1019cc584" data-collapsed="true" ></a>
 					- Meditating on the bodily itch, i can turn it into pain, showing that the itch is just a mild pain.
@@ -174,7 +174,7 @@
 	- bring it up to put it down! <a class="logseq-meta" id="678512dc-66ef-4ba9-aebb-0355d89ef38b" data-collapsed="true" data-logbook="CLOCK: [2025-01-14 Tue 13:03:11]--[2025-01-14 Tue 16:43:39] =&gt;  03:40:28&#10;" ></a>
 		- Last night (Jan 13), before sleeping, i just turned on YouTube for some news about master Minh Tuệ
 			- There, the intended news about master Minh Tuệ was just a glance,
-			- but the unintended scenes of movies captured my mind: [Tiếng Sét Trong Mưa](2024 Stories.cm.md#6772a6d5-567f-4e51-9b49-dfbb7557105e), [Tể Tướng Lưng Gù](https://vi.wikipedia.org/wiki/T%E1%BB%83_t%C6%B0%E1%BB%9Bng_L%C6%B0u_G%C3%B9), and Chu Nguyên Chương...
+			- but the unintended scenes of movies captured my mind: [Tiếng Sét Trong Mưa](2024%20Stories.cm.md#6772a6d5-567f-4e51-9b49-dfbb7557105e), [Tể Tướng Lưng Gù](https://vi.wikipedia.org/wiki/T%E1%BB%83_t%C6%B0%E1%BB%9Bng_L%C6%B0u_G%C3%B9), and Chu Nguyên Chương...
 			- then i read about [Chu Nguyên Chương](https://vi.wikipedia.org/wiki/Minh_Th%C3%A1i_T%E1%BB%95)...
 			- seeing the whole circle, many circles round and round, my deep care for people just collapsed...
 			- facing the deadend, the wall, i reviewed all the urge, the deep emotion and motivation to fight for people, all the love for people, both in mass and individually... all are just empty, illusive..
@@ -245,12 +245,12 @@
 		- HTV work time table <a class="logseq-meta" data-collapsed="true" ></a>
 			- ![the-most-off-month-2025-01.png](../assets/Will/story/2025-01/the-most-off-month-2025-01.png)
 		- Jan 3-6, [Disconnect from the outside to reconnect to the inside](#677e2745-6664-407e-ab5f-3c18319e2e6b)
-		- Jan 12, [Brother Hải deceased & my “last frontier” of ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f))ness](#67836ec6-0e46-4a3f-80d9-b27476d12095)
+		- Jan 12, [Brother Hải deceased & my “last frontier” of roundness](#67836ec6-0e46-4a3f-80d9-b27476d12095)
 		- Jan 13, [bring it up to put it down!](#678512dc-66ef-4ba9-aebb-0355d89ef38b)
 		- Yesterday (Jan 23), i took a full day off. <a class="logseq-meta" id="67938fc1-3094-4558-bc88-07b68ff64298" data-logbook="CLOCK: [2025-01-24 Fri 20:04:11]&#10;CLOCK: [2025-01-24 Fri 20:04:13]&#10;" ></a>
 			- Again, [bring it up to put it down!](#678512dc-66ef-4ba9-aebb-0355d89ef38b)
 	- Another day off (Feb 5th) due to separation problem in the traveling monk group of Master Minh Tuệ <a class="logseq-meta" id="67a5d049-d7a3-4a23-baa6-5261a409c694" data-collapsed="true" data-logbook="CLOCK: [2025-02-07 Fri 16:45:39]--[2025-02-10 Mon 09:54:42] =&gt;  65:09:03&#10;" ></a>
-		- From the Lunar new year eve (Jan 28) throughout the Tết holiday, i've been hooked by two events: [The conflict between Mr. Báu's and monks in Minh Tuệ's group](#67a5faa3-c64c-48f7-8b3f-a5311714110f), and [AI chatbot race](#67a72a32-c67d-440b-95d1-8ddeb0bb7ac3), esp. the [NotebookLM](../../../publish/CommonMark/Mind Jungle.cm.md#67a5faeb-c506-42b8-b989-9a7179fe02b3) podcast.
+		- From the Lunar new year eve (Jan 28) throughout the Tết holiday, i've been hooked by two events: [The conflict between Mr. Báu's and monks in Minh Tuệ's group](#67a5faa3-c64c-48f7-8b3f-a5311714110f), and [AI chatbot race](#67a72a32-c67d-440b-95d1-8ddeb0bb7ac3), esp. the [NotebookLM](../../../publish/CommonMark/Mind%20Jungle.cm.md#67a5faeb-c506-42b8-b989-9a7179fe02b3) podcast.
 		- Feb 4th, returning home, i slept early, intended to have a long sleep to recover,... But after waking up at midnight (my wife returned after helping sister 7), i was caught into the issue in the traveling monk group of Master Minh Tuệ: Mr. Báu (+ Giáp, Hùng) have just left the group due to the [unresolved conflict](#67a5faa3-c64c-48f7-8b3f-a5311714110f).
 		- Yesterday, Feb 6th, even after the straight 10 hour sleep last night, i still had 1 hour noon sleep and 1.5 hours sleepy meditation.
 			- In the afternoon, after [chatting on fb](#67a5f191-079f-4f97-b5b2-c01116db8cef), i had a mild headache.
@@ -267,9 +267,9 @@
 			- I've added Google Authenticator into [2FA settings](https://www.facebook.com/help/148233965247823/).
 		- This off day seems to continue the trend of last month: [January may be the most off month!](#67938fea-f953-4513-9258-80f0cb1b3fcb)
 		- AI chatbot race <a class="logseq-meta" id="67a72a32-c67d-440b-95d1-8ddeb0bb7ac3" ></a>
-			- Around the Lunar new year, Chinese AI chatbots have been released, esp. [DeepSeek](../../../publish/CommonMark/Mind Jungle.cm.md#67a6068e-65d3-44c2-8f1c-b4d532046638) R1, shocking the US AI vendors with open sources, nearly 10 times cheaper in both training and operation.
-			- On this occasion, i've known of [NotebookLM](../../../publish/CommonMark/Mind Jungle.cm.md#67a5faeb-c506-42b8-b989-9a7179fe02b3). <a class="logseq-meta" id="681826ae-d97f-4801-985e-ce9ff423e4a0" ></a>
-				- [NotebookLM](../../../publish/CommonMark/Mind Jungle.cm.md#67a5faeb-c506-42b8-b989-9a7179fe02b3) can understand my [[Mind Jungle]] well! 😊 However, it still fabricates about 30% of the content. <a class="logseq-meta" id="67a73250-60f2-485c-b9d1-fc43ad993282" ></a>
+			- Around the Lunar new year, Chinese AI chatbots have been released, esp. [DeepSeek](../../../publish/CommonMark/Mind%20Jungle.cm.md#67a6068e-65d3-44c2-8f1c-b4d532046638) R1, shocking the US AI vendors with open sources, nearly 10 times cheaper in both training and operation.
+			- On this occasion, i've known of [NotebookLM](../../../publish/CommonMark/Mind%20Jungle.cm.md#67a5faeb-c506-42b8-b989-9a7179fe02b3). <a class="logseq-meta" id="681826ae-d97f-4801-985e-ce9ff423e4a0" ></a>
+				- [NotebookLM](../../../publish/CommonMark/Mind%20Jungle.cm.md#67a5faeb-c506-42b8-b989-9a7179fe02b3) can understand my [[Mind Jungle]] well! 😊 However, it still fabricates about 30% of the content. <a class="logseq-meta" id="67a73250-60f2-485c-b9d1-fc43ad993282" ></a>
 				- However, the chat history is not saved, hence useless for my researches. It's only good for **summarization**. <a class="logseq-meta" id="67a73295-e7ff-445f-831f-df6e79d750dc" ></a>
 				- After lots of podcasts generated, i've selected this one as a nice memory of this occasion. <a class="logseq-meta" id="68197171-5191-413f-a3a7-67262aaeb64b" data-collapsed="true" ></a>
 					- [UniinfoNotes DeepDive Podcast (2025-02-02)](https://youtu.be/FuhvgdXi-FI) <a class="logseq-meta" data-collapsed="true" ></a>
@@ -277,8 +277,8 @@
 					- Original audio: ![Unïnfo Notes full - overview 2025-02-02.wav](../assets/Will/story/2025-02/Unïnfo Notes full - overview 2025-02-02.wav)
 					- Transcript extracted from the audio: [Unïnfo Notes Full - Overview 2025-02-02 (en-US).srt](../assets/Will/story/2025-02/Unïnfo Notes Full - Overview 2025-02-02 (en-US).srt)
 						- Transcript joined for displaying on video: [Unïnfo Notes Full - Overview 2025-02-02 (en-US) joined.srt](../assets/Will/story/2025-02/Unïnfo Notes Full - Overview 2025-02-02 (en-US) joined.srt)
-			- I've tried some [AI chatbots](../../../publish/CommonMark/Mind Jungle.cm.md#67a5fae8-8e1d-4dd6-818d-a8462f6b54db).
-			- Currently, [Copilot](../../../publish/CommonMark/Mind Jungle.cm.md#67a71016-4588-4b2f-8c56-90701528d94d) is most appropriate for my researches. <a class="logseq-meta" id="67a71016-d530-4b48-bfcc-495d72b0bf86" ></a>
+			- I've tried some [AI chatbots](../../../publish/CommonMark/Mind%20Jungle.cm.md#67a5fae8-8e1d-4dd6-818d-a8462f6b54db).
+			- Currently, [Copilot](../../../publish/CommonMark/Mind%20Jungle.cm.md#67a71016-4588-4b2f-8c56-90701528d94d) is most appropriate for my researches. <a class="logseq-meta" id="67a71016-d530-4b48-bfcc-495d72b0bf86" ></a>
 		- The conflict between Mr. Báu's and monks in Minh Tuệ's group <a class="logseq-meta" id="67a5faa3-c64c-48f7-8b3f-a5311714110f" data-collapsed="true" ></a>
 			- Với nghiệp công an, làm tiến sỹ tâm lý học tội phạm, anh Báu đã quản lý đoàn một cách chặt chẽ, ban đầu (đoạn đường Lào) khá nghiêm khắc với nhiều nỗi lo sợ.
 			- Khi sang Thái Lan thì anh Báu đã mềm mỏng và thoải mái hơn nhiều, nhưng các sư (cả thầy Minh Tuệ) thì vẫn có nhiều thành kiến với anh.
@@ -289,7 +289,7 @@
 				- Mình thấy thầy MT tu Giới nên hiển nhiên là bị cứng nhắc trong quan điểm.
 				- Tuy nhiên việc thầy MT không thấu hiểu cho sự hi sinh, khó khăn của người đời như anh Báu, và một mực thiên vị các sư, muốn càng nhiều sư theo càng tốt, v.v. thể hiện sự thiếu trí tuệ và không được "bình đẳng" như lời thầy đã nói.
 				- Việc thầy MT có thành kiến với anh Báu thì mình thấy đó là phần nghiệp quá khứ của thầy, như thầy đã chia sẻ trước đây.
-				- Mình cảm nhận sự "vô tình" của thầy cũng tương tự như [lần gặp chị Diệu Sinh](2024 Stories.cm.md#67a7100b-28c9-4b79-bd66-d1b4b42d08fd). Qua đó mình cũng thấy rõ hơn sự vướng mắc tình cảm của mình.
+				- Mình cảm nhận sự "vô tình" của thầy cũng tương tự như [lần gặp chị Diệu Sinh](2024%20Stories.cm.md#67a7100b-28c9-4b79-bd66-d1b4b42d08fd). Qua đó mình cũng thấy rõ hơn sự vướng mắc tình cảm của mình.
 				- Một sự nói dối rõ ràng của thầy MT nữa là việc cho rằng mình không đuổi mà là "tự anh Báu tới, tự anh Báu đi". <a class="logseq-meta" data-collapsed="true" ></a>
 					- Trước khi anh báu đi thì thầy đã đuổi khéo bằng cách tạo áp lực và liên tục gợi ý rằng anh Báu không kham nhẫn được thì nên đi, và đã hỏi anh Theerawat cho anh Hà thay việc làm giấy tờ.
 					- Trong buổi đối thoại dài 3 tiếng đồng hồ khi anh Báu quay lại xin vào đoàn, thầy đã chạy vòng quanh qua các điều kiện để ngăn cản, và cuối cùng phải "tác ý" (gợi ý) thẳng rằng anh Báu có thể làm YouTuber vòng ngoài.
@@ -407,7 +407,7 @@
 		- Just some minutes into the sleep at home, she had another pain... then it subsided until today.
 		- While i could defecate to help the pain, my wife couldn't!
 		- Today, everything seems OK!
-	- Yesterday night, Feb 18, on the way home, i see [[stagger](https://www.facebook.com/share/p/35j9SSuqSJj76tWY/) = link (in space) = continuation (in time) = momentum](2025 Brainstorms.cm.md#67b54283-14b2-4753-94bb-4d827d54d7cc) <a class="logseq-meta" id="67b54432-861a-415e-a7ee-45a3f75bdc7a" data-collapsed="true" data-logbook="CLOCK: [2025-02-19 Wed 09:39:15]&#10;" ></a>
+	- Yesterday night, Feb 18, on the way home, i see [[stagger](https://www.facebook.com/share/p/35j9SSuqSJj76tWY/) = link (in space) = continuation (in time) = momentum](2025%20Brainstorms.cm.md#67b54283-14b2-4753-94bb-4d827d54d7cc) <a class="logseq-meta" id="67b54432-861a-415e-a7ee-45a3f75bdc7a" data-collapsed="true" data-logbook="CLOCK: [2025-02-19 Wed 09:39:15]&#10;" ></a>
 		- Leaving UTS, walking on the sidewalk, i saw the unfinished works running in side my head.
 		- They were just the abstract, the meta, the thoughts which didn't match the external reality right in front of my eyes.
 		- With the staggered sidewalk tile in front my eyes, i saw the staggered intents inside are just the remaining momentum.
@@ -443,9 +443,9 @@
 				  <br>{{video https://youtube.com/shorts/xxDe7zB1duM}}
 			- Here's a short video for stop-motion of “chain reaction with colored balls 🤔” <a class="logseq-meta" data-collapsed="true" ></a>
 				- {{video https://youtube.com/shorts/6gixzJygr2E}}
-		- I've been reminded about the _**reciprocal** relation of curvature between subject & object in all views_, as shown in [force = ((67bc1f83-d9c4-4ee0-ac61-0de196425208))](../../../publish/CommonMark/Uniinfo.cm.md#67b5c77d-c42c-4dc5-8d47-fd82f535177a). <a class="logseq-meta" id="67bbde65-92e3-4650-939f-eaa1669dc5fb" data-collapsed="true" ></a>
+		- I've been reminded about the _**reciprocal** relation of curvature between subject & object in all views_, as shown in [force = curvature](../../../publish/CommonMark/Uniinfo.cm.md#67b5c77d-c42c-4dc5-8d47-fd82f535177a). <a class="logseq-meta" id="67bbde65-92e3-4650-939f-eaa1669dc5fb" data-collapsed="true" ></a>
 			- Various times previously, i've been deluded that when we “relax” all the curvatures of the world to restore its straightness, everything will be straight, flat, no more force!
-			- No! That's plain wrong! As the subject straightens the world of objects, the subject itself will be curved accordingly, as shown in the [unwrapped planes of the polar plane](2024 Brainstorms.cm.md#67b541c9-3b4e-4429-8c35-9afaf9f434bf).
+			- No! That's plain wrong! As the subject straightens the world of objects, the subject itself will be curved accordingly, as shown in the [unwrapped planes of the polar plane](2024%20Brainstorms.cm.md#67b541c9-3b4e-4429-8c35-9afaf9f434bf).
 			- In [<span class="link-h2">CIE</span>](../../../publish/CommonMark/Uniinfo.cm.md#66b1cfa4-e22c-4424-bf19-a6ce4649da77), the more curved the intent, the straighter the extent, and their total curvature is 1 (content).
 			- The tangent thread is just an extension of the circles rotating. It “feels straight” or actually “curvature-free” just because the curvatures of the intent circles are abstracted.
 				- The curvature-free linear space of tangent thread is just to express the conservation of content, while the cancellation of arrows cannot be expressed there due to their directions being abstracted away.
@@ -551,7 +551,7 @@
 		- But when the story of Mr. Hiệp and Mrs. Hằng came, suddenly, my mind get disturbed with chatterings.
 		- I felt their uneasy minds and backgrounds a gain.
 		- I wanted to “share” this with Mr. Hiệp... But thanks to my renunciation of facebook these days, i got back to myself...
-		- On the way to company, i saw that _my **clingy love** is just like their hatreds_: both want to change others, which is so ignorant as [shown previously](2024 Stories.cm.md#67b541cb-84e9-4e76-b218-4c515f4f1546).
+		- On the way to company, i saw that _my **clingy love** is just like their hatreds_: both want to change others, which is so ignorant as [shown previously](2024%20Stories.cm.md#67b541cb-84e9-4e76-b218-4c515f4f1546).
 		- So, i got back to myself to practise myself!
 	- Physics news: [Gravity from entropy](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.066001) ([PDF](../assets/Will/story/2025-03/Gravity from entropy - PhysRevD.111.066001.pdf)) and so on. <a class="logseq-meta" id="67d184fe-6e61-46ed-ae70-2217cd068ee3" data-collapsed="true" ></a>
 		- In this [paper](../assets/Will/story/2025-03/Gravity from entropy - PhysRevD.111.066001.pdf), Ginestra Bianconi extends the [Entropic gravity](https://en.wikipedia.org/wiki/Entropic_gravity), a kind of [entropic force](https://en.wikipedia.org/wiki/Entropic_force), with the G-field as a Lagrangian multiplier, which leads to a dressed Einstein-Hilbert action with an emergent cosmological constant.
@@ -562,7 +562,7 @@
 		- Another interesting paper about [Quantum 'yin-yang' shows two photons being entangled in real-time](https://www.livescience.com/physics-mathematics/quantum-physics/quantum-yin-yang-shows-two-photons-being-entangled-in-real-time): [Interferometric imaging of amplitude and phase of spatial biphoton states](https://www.nature.com/articles/s41566-023-01272-3) <a class="logseq-meta" data-collapsed="true" ></a>
 			- ![Quantum-yin-yang.jpg](../assets/Will/story/2025-03/Quantum-yin-yang.jpg)
 	- The second experience of drowning via cough reflex, from 13rd March to 1st April <a class="logseq-meta" id="67dcc012-44d3-4041-b17a-0ef201b3ff6c" data-collapsed="true" data-logbook="CLOCK: [2025-03-21 Fri 08:25:58]&#10;" ></a>
-		- The first experience of drowning via cough reflex was [my lung inflammation this time last year](../../../publish/CommonMark/Mind Jungle.cm.md#67b541d0-e82f-422b-9c0d-f7924abce981)
+		- The first experience of drowning via cough reflex was [my lung inflammation this time last year](../../../publish/CommonMark/Mind%20Jungle.cm.md#67b541d0-e82f-422b-9c0d-f7924abce981)
 			- From the mild cough in the last week of March 2024 (the last days of my lab in SFC 5th floor),
 			- to severe cough at home from March 30 to April 4 (the first days of lab in Đồng Nhân building),
 			- then successful cough management in the next week with “drowning death” experience.
@@ -601,22 +601,22 @@
 						- ![Circle_map_bifurcation.jpeg](../assets/Will/story/2025-03/Circle_map_bifurcation.jpeg)
 				- And found that [synchronization network](https://en.wikipedia.org/wiki/Synchronization_network) & [Kuramoto model](https://en.wikipedia.org/wiki/Kuramoto_model) are what I'm looking for.
 			- Caught up in the “phase locking” research, my cough got severe.
-			- That midnight, recalling [the previous time](../../../publish/CommonMark/Mind Jungle.cm.md#67b541d0-8a10-4eae-8370-8ebab4dd7300), i produced the “âm dương đan” (陰陽丹) qigong exercise to tame my cough. <a class="logseq-meta" id="67dce5ed-429b-4279-9fb4-7bf78ddd649a" ></a>
+			- That midnight, recalling [the previous time](../../../publish/CommonMark/Mind%20Jungle.cm.md#67b541d0-8a10-4eae-8370-8ebab4dd7300), i produced the “âm dương đan” (陰陽丹) qigong exercise to tame my cough. <a class="logseq-meta" id="67dce5ed-429b-4279-9fb4-7bf78ddd649a" ></a>
 		- Tuesday, i practised âm dương đan the whole day and also advertised it to leader Quân.
 			- Going to bed, i found the mental switch to turn the [cough reflex](https://en.wikipedia.org/wiki/Cough_reflex) off: while still facing the cough, zoom out and hold on other stuffs to pull the mind out of the cough.
 			- After 4 hours, i woke up and returned to bed with the same technique... and contemplated the [equivalence of 2 aspects of the zero](#67dcec86-db94-47b0-8687-ab2aa95d7c8a) before falling asleep.
-		- Wednesday, i was shown how badly my [theorist karma](../../../publish/CommonMark/Mind Jungle.cm.md#669a58b9-422a-40d9-adcf-b2aade86c170) affect my health. <a class="logseq-meta" id="684f951a-86ea-40dd-836e-68a2ef353fb6" ></a>
+		- Wednesday, i was shown how badly my [theorist karma](../../../publish/CommonMark/Mind%20Jungle.cm.md#669a58b9-422a-40d9-adcf-b2aade86c170) affect my health. <a class="logseq-meta" id="684f951a-86ea-40dd-836e-68a2ef353fb6" ></a>
 			- This early morning, i saw the equivalence of 2 aspects of the zero:  <a class="logseq-meta" id="67dcec86-db94-47b0-8687-ab2aa95d7c8a" ></a>
 			  <br>Zero = center = balance = cancellation = concentration = abstraction = point (cone) projection
 				- obop = ε =[projection]= 1/ω =[cancellation]= ω - ω
 				- Wider the world 🌎 ω, there are more opposites to be cancelled, leaving less things to see as ε, nearer to the center, the average.
 				- To return to the center, we must zoom out, back up/off, retreat, refrain, to let the opposites within the objects cancel themselves, instead of going forward to control them, and let the form of the objects recede themselves.
-			- From afternoon to midnight, i researched various themes in which the most prominent one is the [homogeneous coordinates](2025 Brainstorms.cm.md#67dcf2d3-4020-4477-b375-9bbb8c0b1336) at last.
+			- From afternoon to midnight, i researched various themes in which the most prominent one is the [homogeneous coordinates](2025%20Brainstorms.cm.md#67dcf2d3-4020-4477-b375-9bbb8c0b1336) at last.
 			- Due to being caught up in these researches, i was fallen into severe coughs again. <a class="logseq-meta" id="684f951a-22d9-4f09-9b3e-d8a7ed4e0c3e" ></a>
 		- Thursday, a day of meditation.
 			- With deep meditation, my cough had nearly gone before i went to bed.
 			- Going to bed, i'd experienced the full process of drowning then passed away.
-				- In [the previous time](../../../publish/CommonMark/Mind Jungle.cm.md#67b541d0-8a10-4eae-8370-8ebab4dd7300) as well as the last days, the process was not clear because of the sleepiness at the end.
+				- In [the previous time](../../../publish/CommonMark/Mind%20Jungle.cm.md#67b541d0-8a10-4eae-8370-8ebab4dd7300) as well as the last days, the process was not clear because of the sleepiness at the end.
 				- This time, being awake like a god (“thức thần”), i experienced the full range of the cough reflex, the wrestle, and then the liberation through the death. <a class="logseq-meta" id="67dd1682-6d19-4de4-8b4b-7233d9ea41a3" ></a>
 				- I experimented both mehods of shifting focus: focus on the imaginations, and focus on the death.
 		- Today, Friday 21 March, after 4 days off, i went to company in order to attend a meeting, but leader Quân is off again! So i just write these stories down. <a class="logseq-meta" id="67dcf5de-9861-4ce5-8d1e-1b311580574a" data-logbook="CLOCK: [2025-03-21 Fri 12:15:43]&#10;" ></a>
@@ -639,8 +639,8 @@
 			- Going to bed, there was no more cough reflex.... but just nearly 3 hours later, the cough emerged from the sleep.
 				- I dealt with it until morning, hence only 3 hours sleep!
 		- Tuesday, i'm tired due to the lack of sleep. <a class="logseq-meta" id="67e23c75-6de6-43de-8c41-8bf55216c08f" ></a>
-			- Before work, i contemplated the 3 types of rotations: circular, parabolic and hyperbolic. I see how the spitting of the null lines (horizons) extends the circular ratation to parabolic rotation, and then squeezes it into hyperbolic rotation: [circular θ > parabolic φ > hyperbolic ψ](2025 Brainstorms.cm.md#67e29bdb-9bce-4cb8-b993-79aa130a1831)
-			- Created [GeoGebra applets](2025 Brainstorms.cm.md#67e299fa-4f76-482a-b586-adacb17dc064)
+			- Before work, i contemplated the 3 types of rotations: circular, parabolic and hyperbolic. I see how the spitting of the null lines (horizons) extends the circular ratation to parabolic rotation, and then squeezes it into hyperbolic rotation: [circular θ > parabolic φ > hyperbolic ψ](2025%20Brainstorms.cm.md#67e29bdb-9bce-4cb8-b993-79aa130a1831)
+			- Created [GeoGebra applets](2025%20Brainstorms.cm.md#67e299fa-4f76-482a-b586-adacb17dc064)
 			- Before sleep, in the restroom, i recalled that the hyperbolic rotation is just a plane projection (conic section) of the parabolic rotation projected onto the light cone which was shown in my very first GeoGebra applet [MixedCoords](https://www.geogebra.org/m/jeexkfrd). <a class="logseq-meta" id="67f4eaf9-e140-4cfb-a896-c641f65e37dd" data-collapsed="true" ></a>
 				- The dual view of parabolic & hyperbolic rotations is also the dual view of **projective thread** with inner product and [function graphing](https://en.wikipedia.org/wiki/Graph_of_a_function) on [orthogonal coordinates](https://en.wikipedia.org/wiki/Orthogonal_coordinates). <a class="logseq-meta" id="67e37475-13e3-4a9f-af60-7bec7517c108" ></a>
 				- Ironically, i met the dual view of projective thread & function graphing (around 2018) long after the dicovery of the “mixed coordinates” (before 2015) without recognizing they are one. Moreover, the projective nature of conic sections, i.e. [“why slicing the cone”](https://www.geogebra.org/m/nknaryzz), was discovered much later, only when i studied projective geometry (2020).
@@ -698,11 +698,11 @@
 				- one wake up in the early morning for urination and contiue to sleep.
 					- This time, my wife fell into a sharp cold. I turned the fan off and reminded her to concentrate on the breath. With concentration and warm keeping, she could stablize it finally.
 		- Wednesday, the cough in sleep has gone. <a class="logseq-meta" data-logbook="CLOCK: [2025-03-26 Wed 10:19:04]&#10;" ></a>
-			- Before sleep, in the restroom, i contemplated the [[ConicMetricTransform](https://www.geogebra.org/m/yrzmwxqv) to transform the angle metric between elliptic, parabolic, hyperbolic, through y-axis scaling](2025 Brainstorms.cm.md#67ea7d5e-1cbe-4815-984d-d843d65d4b83), and checked that the double shearing (along x and y) is very near but not exactly the [squeezing](2025 Brainstorms.cm.md#67e2a0e0-a6d9-4ad8-a601-24289f44d383).
+			- Before sleep, in the restroom, i contemplated the [[ConicMetricTransform](https://www.geogebra.org/m/yrzmwxqv) to transform the angle metric between elliptic, parabolic, hyperbolic, through y-axis scaling](2025%20Brainstorms.cm.md#67ea7d5e-1cbe-4815-984d-d843d65d4b83), and checked that the double shearing (along x and y) is very near but not exactly the [squeezing](2025%20Brainstorms.cm.md#67e2a0e0-a6d9-4ad8-a601-24289f44d383).
 			- The sleep was good, i only coughed in the morning, just 30 minutes before my alarm.
 		- Thursday, another weird day! <a class="logseq-meta" data-logbook="CLOCK: [2025-03-27 Thu 12:22:51]&#10;CLOCK: [2025-03-27 Thu 12:22:54]&#10;" ></a>
-			- In the riverside sitting time before work, i revised the connection between shear and [squeeze](2025 Brainstorms.cm.md#67e2a0e0-a6d9-4ad8-a601-24289f44d383): there are 2 types of sync: edge sync & area sync
-			- I worked out the decomposition of hyperbolic rotation into 3 shears and asked Grok 3 to help. Finally we had the conclusion of [a nice symmetry](2025 Brainstorms.cm.md#67e6168e-ff58-4d9d-94a7-6fee6f533044).
+			- In the riverside sitting time before work, i revised the connection between shear and [squeeze](2025%20Brainstorms.cm.md#67e2a0e0-a6d9-4ad8-a601-24289f44d383): there are 2 types of sync: edge sync & area sync
+			- I worked out the decomposition of hyperbolic rotation into 3 shears and asked Grok 3 to help. Finally we had the conclusion of [a nice symmetry](2025%20Brainstorms.cm.md#67e6168e-ff58-4d9d-94a7-6fee6f533044).
 			- 3 hours into the sleep, i woke up to cough... no more phlegm, only thick clear mucus. It's so sticky in my throat that i's about to vomit, just like the first days of this illness.
 				- The cough reflex kicked in and persisted... I meditated to calm it down.
 				- After half an hour dealing with the cough, i lay down to sleep but got sleepy for just an hour and then woke up.
@@ -710,7 +710,7 @@
 				- Then i called my wife up to share with her the meditative state. I guided her to review her own state: she discovered that she had been heavy, not as “normal” as she thought. She relaxed, reviewed, and we had sex before i went to work.
 		- Friday 28 March, godly awake at work until 20:30 <a class="logseq-meta" id="67e4e16d-d58d-4189-b79c-26d2e7360046" data-logbook="CLOCK: [2025-03-28 Fri 09:58:59]&#10;CLOCK: [2025-03-28 Fri 09:59:01]&#10;" ></a>
 			- While sitting at the riverside, i contemplated the relativity of lengths in the parabolic rotation as well as the unity of the three conic rotations.
-				- I saw the CIE in the right triangle where the selection of 2 edges yielding circular, parabolic, and hyperbolic rotation. It's discussed in [TODO TODO Inner product of unit vectors = ((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9))](2025 Brainstorms.cm.md#67ee2e11-9371-4290-94c0-95f2e5bf8c54).
+				- I saw the CIE in the right triangle where the selection of 2 edges yielding circular, parabolic, and hyperbolic rotation. It's discussed in [TODO TODO Inner product of unit vectors = intent](2025%20Brainstorms.cm.md#67ee2e11-9371-4290-94c0-95f2e5bf8c54).
 				- Hence, the three conic rotations are unified beautifully under the views of [Unithread](../../../publish/CommonMark/Uniinfo.cm.md#66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d).
 				- I also saw my urge to see with my own eyes the seemingly “impossible” equivalence between triple of shears and circular rotation.
 					- There, i breathed to let it go and accept such an ignorance of mine.
@@ -722,7 +722,7 @@
 					- [From then on, i has been godly awake (thức thần) after my meditation entering the “dead state”!](#67e62305-1f02-4945-836b-f3984e1f0e45)
 					- These times, beside meditation, there were still some exhaustion (from coughing) boosting the entrance into the dead state.
 				- The previous mild experience through exhaustion after 3 hours of junk scrolling:
-					- [At the collapse, i fell into the deep meditative state hearing clearly every little sound.](2024 Stories.cm.md#67b541cb-5177-4e91-be40-4126f798605b)
+					- [At the collapse, i fell into the deep meditative state hearing clearly every little sound.](2024%20Stories.cm.md#67b541cb-5177-4e91-be40-4126f798605b)
 				- Previously, all experiences were passive through exhaustion or psychedelic drugs:
 					- Many experiences were on the trips of Ketamine, LSD, DMT and 5MEO-DMT.
 					- One notable [death & dissolution of ego](https://en.wikipedia.org/wiki/Ego_death) was thanks to the exhaustion after a week of stubborn trial to build the “quicklog” system and the last night sleepless from Saturday (22th May) to Sunday (23rd). The experience coincided with the election day 23rd May 2021.
@@ -1850,23 +1850,23 @@
 					- `s#...#...#p`: Captures the timestamp (`\1`) and main text (`\2`), substitute (`s`) the text in pattern space with with the target `<li>` structure, then print (`p`) the pattern space.
 						- Use alternate delimiter `#` to avoid confusion with closing `</tag>`.
 					- `-n`: Prints only the transformed output by command `p`, suppressing the automatic output of pattern space.
-		- DONE Copy message `list.html` to [[2020 Mind Chips]], [[2021 Mind Chips]], [[2022 Mind Chips]], [[2023 Mind Chips]], [[2024 Mind Chips]], and [2025 Mind Chips](2025 Mind Chips.cm.md#6842ab6e-a465-4b20-bbf0-196eeb879e3c) <a class="logseq-meta" data-logbook="CLOCK: [2025-06-13 Fri 17:50:10]--[2025-06-16 Mon 10:32:42] =&gt;  64:42:32&#10;" ></a>
+		- DONE Copy message `list.html` to [[2020 Mind Chips]], [[2021 Mind Chips]], [[2022 Mind Chips]], [[2023 Mind Chips]], [[2024 Mind Chips]], and [2025 Mind Chips](2025%20Mind%20Chips.cm.md#6842ab6e-a465-4b20-bbf0-196eeb879e3c) <a class="logseq-meta" data-logbook="CLOCK: [2025-06-13 Fri 17:50:10]--[2025-06-16 Mon 10:32:42] =&gt;  64:42:32&#10;" ></a>
 		- Some interesting chips captured my attention:
-			- Small Caps from the title of [Intensional Semantics](http://web.mit.edu/fintel/fintel-heim-intensional.pdf) on [2020-09-24](2020 Mind Chips.cm.md#684c040a-a044-4f5f-8336-44f1359dd396) <a class="logseq-meta" data-collapsed="true" ></a>
+			- Small Caps from the title of [Intensional Semantics](http://web.mit.edu/fintel/fintel-heim-intensional.pdf) on [2020-09-24](2020%20Mind%20Chips.cm.md#684c040a-a044-4f5f-8336-44f1359dd396) <a class="logseq-meta" data-collapsed="true" ></a>
 				- [with Unicode](https://en.wikipedia.org/wiki/Small_caps#Unicode): Aᴀ Bʙ Cᴄ Dᴅ Eᴇ Fꜰ Gɢ Hʜ Iɪ Jᴊ Kᴋ Lʟ Mᴍ Nɴ Oᴏ Pᴘ Qꞯ Rʀ Sꜱ Tᴛ Uᴜ Vᴠ Wᴡ X[x] Yʏ Zᴢ
 				- [with CSS](https://en.wikipedia.org/wiki/Small_caps#CSS): 
 				  ```cljs :results
 				  ^:hiccup [:span {:style {:fontVariant "small-caps"}} "Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz"]
 				  ```
-			- [Cà khẻo cà kheo [HTV video on DailyMotion](https://www.dailymotion.com/video/x5l4iwa)](2020 Mind Chips.cm.md#684c040a-fbed-4c72-8ac4-e14e69f17b04)
-			- [bài toán "Hàn Tín điểm binh"](2020 Mind Chips.cm.md#684c040a-7f5d-45df-a618-2a8ab9debd0e)
-			- An interesting claim of view: [*** Just I and the env, mine and the wild, no omniscient 3rd person view as in traditional extravert science](2022 Mind Chips.cm.md#684c18cd-55c5-43d2-8be4-f0eb7888ffbd)
-			- [imaginary unit i=√-1 derived from dynamics](../../../publish/CommonMark/Uniinfo.cm.md#67bbde62-70fc-4d3d-9f65-dcea280db516) on [2023-02-21](2023 Mind Chips.cm.md#684c282f-75e9-4c66-bc32-4e764aac6625)
-			- [Everything is address!](2023 Mind Chips.cm.md#684c2aab-9b41-486b-a758-6028725f4c13) on [2023-10-31](2023 Mind Chips.cm.md#684c2aab-13de-49da-8030-ca5a29f6931c)
-			- [2024-04-07](2024 Mind Chips.cm.md#684c2e6e-3f8d-4ee8-9f69-bdb5f761c9ad): [[5 Families](https://en.wikipedia.org/wiki/Five_Tath%C4%81gatas#Main_aspects_of_the_Five_Families): 5 aggregates, 5 buddhas, 5 directions, 5 dynamic derivatives $mx, ∂_x m, m\ddot x = F, m\dot x = p, m\ddot x = c^2 ∂_x^2m$](2024 Mind Chips.cm.md#684c2ee0-1029-4df9-9fbb-40a6f8c2fcc8)
-				- ⇒ [<span class="link-h3">circular effect flow</span>](../../../publish/CommonMark/Uniinfo.cm.md#667bf36a-581a-4abe-b544-2d849608a3e4)'s discussion: [Various ((667c0031-0a87-44c9-9e98-6d45893b095f))s: ((66f40210-cca6-4d81-85e7-d0c54ef20451)) = ((67b183f5-1cca-4473-917e-60c644dd5466)) = [Five Aggregates](https://en.wikipedia.org/wiki/Skandha)](../../../publish/CommonMark/Uniinfo.cm.md#674ff584-00e3-40d8-9b77-21e9dca899dd)
-				- [The ((687f322c-2334-46e5-816b-57889e5c6b89)) = the self-sustained = the self-sustaining = the thing existing before, alongside (i.e. sustenance), and after (i.e. the sustained) the Extent](../../../publish/CommonMark/Uniinfo.cm.md#684c2e6e-f75f-4916-9f1c-4375d42d8604)
-			- [Three levels of ((66e41e14-6c0c-41d7-9089-92916d47d7e0))](../../../publish/CommonMark/Uniinfo.cm.md#66e3fe46-dc79-472a-a059-f5ccf5afb437) on [2024-05-12](2024 Mind Chips.cm.md#684f7978-d358-44ba-96de-a8fecd3c16e2) & [2024-09-26](2024 Mind Chips.cm.md#684f7978-f693-409c-93bf-de130a606023)
+			- [Cà khẻo cà kheo [HTV video on DailyMotion](https://www.dailymotion.com/video/x5l4iwa)](2020%20Mind%20Chips.cm.md#684c040a-fbed-4c72-8ac4-e14e69f17b04)
+			- [bài toán "Hàn Tín điểm binh"](2020%20Mind%20Chips.cm.md#684c040a-7f5d-45df-a618-2a8ab9debd0e)
+			- An interesting claim of view: [*** Just I and the env, mine and the wild, no omniscient 3rd person view as in traditional extravert science](2022%20Mind%20Chips.cm.md#684c18cd-55c5-43d2-8be4-f0eb7888ffbd)
+			- [imaginary unit i=√-1 derived from dynamics](../../../publish/CommonMark/Uniinfo.cm.md#67bbde62-70fc-4d3d-9f65-dcea280db516) on [2023-02-21](2023%20Mind%20Chips.cm.md#684c282f-75e9-4c66-bc32-4e764aac6625)
+			- [Everything is address!](2023%20Mind%20Chips.cm.md#684c2aab-9b41-486b-a758-6028725f4c13) on [2023-10-31](2023%20Mind%20Chips.cm.md#684c2aab-13de-49da-8030-ca5a29f6931c)
+			- [2024-04-07](2024%20Mind%20Chips.cm.md#684c2e6e-3f8d-4ee8-9f69-bdb5f761c9ad): [[5 Families](https://en.wikipedia.org/wiki/Five_Tath%C4%81gatas#Main_aspects_of_the_Five_Families): 5 aggregates, 5 buddhas, 5 directions, 5 dynamic derivatives $mx, ∂_x m, m\ddot x = F, m\dot x = p, m\ddot x = c^2 ∂_x^2m$](2024%20Mind%20Chips.cm.md#684c2ee0-1029-4df9-9fbb-40a6f8c2fcc8)
+				- ⇒ [<span class="link-h3">circular effect flow</span>](../../../publish/CommonMark/Uniinfo.cm.md#667bf36a-581a-4abe-b544-2d849608a3e4)'s discussion: [Various effect circles: SCIFER = Dynamics Circle = [Five Aggregates](https://en.wikipedia.org/wiki/Skandha)](../../../publish/CommonMark/Uniinfo.cm.md#674ff584-00e3-40d8-9b77-21e9dca899dd)
+				- [The sustent = the self-sustained = the self-sustaining = the thing existing before, alongside (i.e. sustenance), and after (i.e. the sustained) the Extent](../../../publish/CommonMark/Uniinfo.cm.md#684c2e6e-f75f-4916-9f1c-4375d42d8604)
+			- [Three levels of equality](../../../publish/CommonMark/Uniinfo.cm.md#66e3fe46-dc79-472a-a059-f5ccf5afb437) on [2024-05-12](2024%20Mind%20Chips.cm.md#684f7978-d358-44ba-96de-a8fecd3c16e2) & [2024-09-26](2024%20Mind%20Chips.cm.md#684f7978-f693-409c-93bf-de130a606023)
 	- It's interesting that the root node of the whole theory, [<span class="link-h2">Universal Information</span>](../../../publish/CommonMark/Uniinfo.cm.md#66537a41-f229-4891-803e-828573eb44f3), shows so little “content”. <a class="logseq-meta" id="68523168-5f46-446a-984e-bec9f671f17e" data-collapsed="true" data-logbook="CLOCK: [2025-06-18 Wed 10:24:54]--[2025-06-18 Wed 10:35:48] =&gt;  00:10:54&#10;" ></a>
 		- Acutally, that little content is just its intension, because *the larger its extension, the smaller its intension is*.
 		- Its 1st level extent (number of 1st level extensions) is indicated by the number of **backlinks** on the top right corner.
@@ -1874,25 +1874,25 @@
 		- Screenshot:
 		  <br>![Universal-Information-small-intension.png](../assets/Will/story/2025-06/Universal-Information-small-intension.png)
 	- Everything's broken! 🙁 Just stop ⚠️, retreat from my own field, retract, reset, restore... (from May 28th to July 7th) <a class="logseq-meta" id="68366fff-92cf-41a7-ab2d-0c1f77d0effb" data-collapsed="true" data-logbook="CLOCK: [2025-05-28 Wed 09:08:02]&#10;" ></a>
-		- Logseq: Many block refs, like [`update-notifier`](#6835acfc-5c1c-40c0-b008-93979afa8f36), are not recognized!? The issue still persists after clearance of all backup & graph DB!?
-		- Will: [head-first diving](../../../publish/CommonMark/Mind Jungle.cm.md#67714850-43c0-4c7f-8b50-838e014b06e0), [**perfectionism**](../../../publish/CommonMark/Mind Jungle.cm.md#6678d594-9819-4624-abd6-d4ec62b3874f) driven by the [holistic core](../../../publish/CommonMark/Mind Jungle.cm.md#681b3ad7-d1b0-4c06-a4ea-385a4a9314e0), baby boom, [springy doll](../../../publish/CommonMark/Mind Jungle.cm.md#6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00), etc. make the time fleet too fast!
+		- Logseq: Many block refs, like [`update-notifier`](../../../share/technical/publish/CommonMark/Linux.cm.md#6835acfc-5c1c-40c0-b008-93979afa8f36), are not recognized!? The issue still persists after clearance of all backup & graph DB!?
+		- Will: [head-first diving](../../../publish/CommonMark/Mind%20Jungle.cm.md#67714850-43c0-4c7f-8b50-838e014b06e0), [**perfectionism**](../../../publish/CommonMark/Mind%20Jungle.cm.md#6678d594-9819-4624-abd6-d4ec62b3874f) driven by the [holistic core](../../../publish/CommonMark/Mind%20Jungle.cm.md#681b3ad7-d1b0-4c06-a4ea-385a4a9314e0), baby boom, [springy doll](../../../publish/CommonMark/Mind%20Jungle.cm.md#6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00), etc. make the time fleet too fast!
 			- The mara uses my own strengths (clear observation, holistic view, tidy organization, concentration) for its destruction! That's how buddha and mara are just two sides of the same coin.
 			- As you can see, just the observation of this issue, this broken time, is yielding a lot of stuff as written here. This is how solving one issue produces many more issues!
 		- Incomplete works, waiting tasks, and so on are piling up, as shown in my working stack: <a class="logseq-meta" data-collapsed="true" ></a>
 			- ![working-stack-screenshot-2025-05-28.png](../assets/Will/story/2025-05/working-stack-screenshot-2025-05-28.png)
 		- Right here, we can see how the issue is looking back at itself, projecting its image into its own body. This recursive nature is itself a part of the issue!
-		- ⇒ [**Retreat to the belly**](../../../publish/CommonMark/Mind Jungle.cm.md#68594391-faeb-4f7e-87e1-9ea179c2639b), as the root of both body and mind, **fill the bodymind** with ujjayi breath. Retract from things higher up the mind! <a class="logseq-meta" id="68367257-9043-4fd5-8586-2c193d56f077" ></a>
+		- ⇒ [**Retreat to the belly**](../../../publish/CommonMark/Mind%20Jungle.cm.md#68594391-faeb-4f7e-87e1-9ea179c2639b), as the root of both body and mind, **fill the bodymind** with ujjayi breath. Retract from things higher up the mind! <a class="logseq-meta" id="68367257-9043-4fd5-8586-2c193d56f077" ></a>
 		- 10:51, 28 May, the meta/macro things are somehow well organized, so just get back to the company works!
 			- with the knowledge that nothing is lost, and everything here can be continued later on.
 			- This is the result of not only the external tidying but mainly the [internal meditation](#68367257-9043-4fd5-8586-2c193d56f077).
-		- 13-16pm, 29 May, a rather long stray thread of [`zenity`](#67d2ad10-0ca8-4361-94d5-219cf9b737d5), [`yad`](#68381bca-50f3-4d2e-9593-53d9c8f6c368), and the [Grok's issue](../../../publish/CommonMark/Mind Jungle.cm.md#683817f7-b6a0-41a6-aee4-5279089228f7) with conversation memory/history feature. <a class="logseq-meta" data-collapsed="true" ></a>
-			- This stray thread was inititialized by just a simple idea to “just confirm my guess that `zenity` is related to Zen!” when i did a [clearing](2025 Braindumps.cm.md#6835b162-09f7-4153-97a3-633f8a5c0980) of prevous untouched `zenity` pop-ups: `killall -9 -vr 'microreset.sh|zenity'`.
+		- 13-16pm, 29 May, a rather long stray thread of [`zenity`](../../../share/technical/publish/CommonMark/Linux.cm.md#67d2ad10-0ca8-4361-94d5-219cf9b737d5), [`yad`](../../../share/technical/publish/CommonMark/Linux.cm.md#68381bca-50f3-4d2e-9593-53d9c8f6c368), and the [Grok's issue](../../../publish/CommonMark/Mind%20Jungle.cm.md#683817f7-b6a0-41a6-aee4-5279089228f7) with conversation memory/history feature. <a class="logseq-meta" data-collapsed="true" ></a>
+			- This stray thread was inititialized by just a simple idea to “just confirm my guess that `zenity` is related to Zen!” when i did a [clearing](2025%20Braindumps.cm.md#6835b162-09f7-4153-97a3-633f8a5c0980) of prevous untouched `zenity` pop-ups: `killall -9 -vr 'microreset.sh|zenity'`.
 				- Be aware! The weed seeds like this are everywhere lurking in every moment!
-				- [The curse of holistic abstraction](../../../publish/CommonMark/Mind Jungle.cm.md#681b24ad-2ec8-4e9f-bef6-eb77b09b5c9c): Just like this “simple idea”, most of my topics are actually complicated, vague, and even absurd! The complexities are usually hidden behind the “simple forms” of them in my mind. 🙄
-				- The curse of perfectionist **concreteness**: Leaving the perfect circle of abstract forms (intent), i'm driven by the [holistic core](../../../publish/CommonMark/Mind Jungle.cm.md#681b3ad7-d1b0-4c06-a4ea-385a4a9314e0) to develop the content toward the target that **everything is concrete**, which is the other extreme, the perfect circle of concrete forms (concrete extension).
+				- [The curse of holistic abstraction](../../../publish/CommonMark/Mind%20Jungle.cm.md#681b24ad-2ec8-4e9f-bef6-eb77b09b5c9c): Just like this “simple idea”, most of my topics are actually complicated, vague, and even absurd! The complexities are usually hidden behind the “simple forms” of them in my mind. 🙄
+				- The curse of perfectionist **concreteness**: Leaving the perfect circle of abstract forms (intent), i'm driven by the [holistic core](../../../publish/CommonMark/Mind%20Jungle.cm.md#681b3ad7-d1b0-4c06-a4ea-385a4a9314e0) to develop the content toward the target that **everything is concrete**, which is the other extreme, the perfect circle of concrete forms (concrete extension).
 			- 01-03pm: [chat with Grok](#683826a5-3833-438f-981a-573267b6ed08)
 				- This shows long periods of reading websites and researching while talking in the conversation.
-				- The trailing part from 02:25 to 03:06 about the Grok memory issue showed my [**perfectionism**](../../../publish/CommonMark/Mind Jungle.cm.md#6678d594-9819-4624-abd6-d4ec62b3874f) with debugging instinct.
+				- The trailing part from 02:25 to 03:06 about the Grok memory issue showed my [**perfectionism**](../../../publish/CommonMark/Mind%20Jungle.cm.md#6678d594-9819-4624-abd6-d4ec62b3874f) with debugging instinct.
 			- 03-04pm: update UniinfoNotes <a class="logseq-meta" id="6838287a-aac3-4a6d-93c2-f98ff61b6154" ></a>
 			- 04-05pm: review this whole stray thread
 				- The post-discussion period from 3 to 5 pm shows my trend of “long tail” working style.
@@ -1919,7 +1919,7 @@
 				  ( sleep 1; echo 50; sleep 1; echo 75; sleep 1; echo 100; ) |
 				  zenity --progress --no-cancel --auto-close --percentage=25 --width=500 --text="$msg"
 				  ```
-		- 30 May, my tantric practice last night has shown me ways to transform the [3 poisons](../../../publish/CommonMark/Mind Jungle.cm.md#6839229d-9eff-49e4-9480-6e2db6f61127) with [<span class="link-h3">3 absorptions</span>](../../../publish/CommonMark/Mind Jungle.cm.md#6850c7e4-0969-45b7-9ca8-e2c1d764effe).
+		- 30 May, my tantric practice last night has shown me ways to transform the [3 poisons](../../../publish/CommonMark/Mind%20Jungle.cm.md#6839229d-9eff-49e4-9480-6e2db6f61127) with [<span class="link-h3">3 absorptions</span>](../../../publish/CommonMark/Mind%20Jungle.cm.md#6850c7e4-0969-45b7-9ca8-e2c1d764effe).
 		- 31 May, through a chatbox, i translated the first couple of meditation factors [vitakka-vicāra](https://en.wikipedia.org/wiki/Vitarka-vic%C4%81ra) into Vietnamese as “tìm-bám” and English as “**find-fix**”. <a class="logseq-meta" id="68417bbf-695f-452b-80a1-22e174329e7a" data-collapsed="true" ></a>
 			- Về 2 yếu tố tầm-tứ trong 5 yếu tố khi phân tích 4 thiền, thì đó là kỹ thuật cơ bản để nhiếp tâm, định tâm, tập trung vào 1 việc nào đó (ở đây là việc thiền), mà ở đời ai cũng dùng 1 cách tự nhiên, chỉ là không để ý, không phân tích ra thôi.
 				- Vitakka = tầm = tìm = inquiry = "mount or direct the mind towards an object." Để tập trung vào đối tượng thì trước hết ta phải tìm thấy đối tượng.  Như định niệm hơi thở thì phải tìm thấy hơi thở (bình thường thở mà không biết, không thấy), định niệm thần chú thì đi phải nhớ lại câu thần chú.
@@ -1972,7 +1972,7 @@
 				- The last block will be enqueued to the top.
 				- This queue transfer only changes file content, thus avoid the file management issue of GitJournal.
 				- After being flushed to `UniinfoNotes`/pages/`Mind Chips.md`, they can stay there as long as possible before being processed into other contents.
-				- Piling up in `Mind Chips.md`, usually with things difficult to be processed like the notes in [2025-06-01](2025 Mind Chips.cm.md#6841400e-d2c5-47ab-a838-7418a53a5b34), they can be flushed to history versions like `2025 Mind Chips.md`.
+				- Piling up in `Mind Chips.md`, usually with things difficult to be processed like the notes in [2025-06-01](2025%20Mind%20Chips.cm.md#6841400e-d2c5-47ab-a838-7418a53a5b34), they can be flushed to history versions like `2025 Mind Chips.md`.
 				- `flushGitJournal.sh`
 					- ```sh
 					  git pull
@@ -2011,14 +2011,14 @@
 			- In the office, i experience again the sensitivity of my body to mental state & external works: <a class="logseq-meta" id="6842a753-3e67-4959-a830-0d15dc4a7d7f" ></a>
 				- in meditation, everything is OK, body is warm, no irritation;
 				- just reaching out to work for a while, limbs are cold, then body is cold, nose & throat are irritated leading nose running and coughing.
-				- So, i must frequently return to meditation, much shorter than the 30min period of the [microreset](../../../publish/CommonMark/Mind Jungle.cm.md#67cff615-ec0d-4831-9851-59410cb89cf1), hence “nanoreset”.
+				- So, i must frequently return to meditation, much shorter than the 30min period of the [microreset](../../../publish/CommonMark/Mind%20Jungle.cm.md#67cff615-ec0d-4831-9851-59410cb89cf1), hence “nanoreset”.
 			- [LLM Knowldge Graph Builder](https://github.com/neo4j-labs/llm-graph-builder) is great for my more control over the process than the [Only Notebook LM & ChatGPT can understand the Mind Jungle!](#684176d5-ba02-4cf5-ba62-606cc461d2d8)
 				- [Neo4j web app](https://llm-graph-builder.neo4jlabs.com/) provides a nice prebuilt app, but limits to only 10Kb/file, hence useless for my 1Mb Mind Jungle.
-		- 8th, looking for an example of the [edge of chaos](https://en.wikipedia.org/wiki/Edge_of_chaos) to show a friend in a chat, i found [An interesting fractal zoom demonstrating the [edge of chaos](https://en.wikipedia.org/wiki/Edge_of_chaos): from a clear black/white separation by a straight line at the distance to complex fractals up close](2024 Brainstorms.cm.md#68469e67-4c54-4c89-9f3c-409af642769d).
-		- 9th, from the weekends to today, i'm praticing [⇒ [**Retreat to the belly**](((68594391-faeb-4f7e-87e1-9ea179c2639b))), as the root of both body and mind, **fill the bodymind** with ujjayi breath. Retract from things higher up the mind!](#68367257-9043-4fd5-8586-2c193d56f077) <a class="logseq-meta" data-logbook="CLOCK: [2025-06-09 Mon 18:36:03]&#10;" ></a>
+		- 8th, looking for an example of the [edge of chaos](https://en.wikipedia.org/wiki/Edge_of_chaos) to show a friend in a chat, i found [An interesting fractal zoom demonstrating the [edge of chaos](https://en.wikipedia.org/wiki/Edge_of_chaos): from a clear black/white separation by a straight line at the distance to complex fractals up close](2024%20Brainstorms.cm.md#68469e67-4c54-4c89-9f3c-409af642769d).
+		- 9th, from the weekends to today, i'm praticing [⇒ [**Retreat to the belly**](**Retract to the belly** – the root of both body and mind – **fill the bodymind** with [ujjayi breath](**Ujjayi** breathing technique for sublime–channel) for it to be full, stable, so not to be sucked into the black hole of greed. This is a kind of samatha meditation.), as the root of both body and mind, **fill the bodymind** with ujjayi breath. Retract from things higher up the mind!](#68367257-9043-4fd5-8586-2c193d56f077) <a class="logseq-meta" data-logbook="CLOCK: [2025-06-09 Mon 18:36:03]&#10;" ></a>
 			- The illness at nose & throat has been nearly gone.
-			- Observing the internal effect flow, i see [spring doll = effect flow from intent to extent](../../../publish/CommonMark/Mind Jungle.cm.md#6846c7e1-239c-4b39-9ef4-9d2eaba17a52) and [In a circular effect flow, the locus coincides with the flow itself!](../../../publish/CommonMark/Mind Jungle.cm.md#6846e19d-1af1-413a-b225-c9d48b4dd308)
-		- 10th, my [psoriasis](https://en.wikipedia.org/wiki/Psoriasis) is relapsing gradualy. On the way to company, i saw that [[act](((66c845ea-635f-4be1-a220-2c7a5049ef83))) = [form](((665ca429-84e3-49ff-921e-c07d19cd99ba))): action is the [formation of new form](((6847e7fa-0d57-425c-b035-1a62db7725e6))) (concrete extension) from the combination of old form (intent) and content.](../../../publish/CommonMark/Uniinfo.cm.md#68481e2b-0144-42e6-bd9b-96d2fd905573)
+			- Observing the internal effect flow, i see [spring doll = effect flow from intent to extent](../../../publish/CommonMark/Mind%20Jungle.cm.md#6846c7e1-239c-4b39-9ef4-9d2eaba17a52) and [In a circular effect flow, the locus coincides with the flow itself!](../../../publish/CommonMark/Mind%20Jungle.cm.md#6846e19d-1af1-413a-b225-c9d48b4dd308)
+		- 10th, my [psoriasis](https://en.wikipedia.org/wiki/Psoriasis) is relapsing gradualy. On the way to company, i saw that [[act](act) = [form](form): action is the [formation of new form](The CIE model of action: from _emtpy **possibility**_ to _unfulfilled **potential**_ and _fulfilled **action**_) (concrete extension) from the combination of old form (intent) and content.](../../../publish/CommonMark/Uniinfo.cm.md#68481e2b-0144-42e6-bd9b-96d2fd905573)
 		- 11th, 12th, ... working with [`messages-converter.js` for Telegram saved messages](#68429ef1-dc83-4d36-892f-1de746bfab09)
 			- In the morning meditation in the office, i see the sharph contrast between
 				- the **passive** psychonautic mode (traveling deep inside) with **cold** body and
@@ -2041,7 +2041,7 @@
 					- Zen master: Don’t try to keep silent by zipping your mouth shut, for it only traps the noise inside your head. Focus on observing it!
 		- 13th, process & copy contents of [Telegram saved messages](#683da38c-3d91-435c-99eb-0a88a36f4ba5)
 		- 14-15th, intended to have an LSD trip with Mr. Hiệp but he was busy & unready, so i took the oppoturnity to clean up system drive (C) for my bro.
-			- Talked on chatbox about [The Oasis of Life](2024 Brainstorms.cm.md#684fbedf-5e17-4319-8f42-0e3062038fc0) and [3 poisons in sex](../../../publish/CommonMark/Mind Jungle.cm.md#684fc240-0d53-47ac-a1ab-bcfb0a731cc0).
+			- Talked on chatbox about [The Oasis of Life](2024%20Brainstorms.cm.md#684fbedf-5e17-4319-8f42-0e3062038fc0) and [3 poisons in sex](../../../publish/CommonMark/Mind%20Jungle.cm.md#684fc240-0d53-47ac-a1ab-bcfb0a731cc0).
 		- 16th, get back to finish the copy of Telegram saved messages... <a class="logseq-meta" data-logbook="CLOCK: [2025-06-16 Mon 09:51:30]&#10;" ></a>
 			- [!] The folder `photos` shows "Folder is Emtpy" 😮 on Nautilus File Manager, while its "properties" by Nautilus shows 46 items?! <a class="logseq-meta" data-collapsed="true" data-logbook="CLOCK: [2025-06-16 Mon 09:51:23]&#10;" ></a>
 				- ![EmptyFolder-with-46items-inProperties.png](../assets/Will/story/2025-06/EmptyFolder-with-46items-inProperties.png)
@@ -2062,7 +2062,7 @@
 						- The `NBSP` keep the space from being trimmed due to its terminal position in the `#text` node.
 					- I just discover this special character with [Notepad++](https://en.wikipedia.org/wiki/Notepad%2B%2B) <a class="logseq-meta" data-collapsed="true" ></a>
 						- ![NBSP-breaking-image-display.png](../assets/Will/story/2025-06/NBSP-breaking-image-display.png){:width 600}
-			- On the way home, i recognized the strong urge to follow the [unmixing](2025 Brainstorms.cm.md#6850be86-058c-45b4-9b4a-de92ebb4caff) of projective threads, from the object thread in work to the meta thread of Unithread, then i breathe out to release them. Recognizing the 3 poisons, i applied my [<span class="link-h3">3 absorptions</span>](../../../publish/CommonMark/Mind Jungle.cm.md#6850c7e4-0969-45b7-9ca8-e2c1d764effe).
+			- On the way home, i recognized the strong urge to follow the [unmixing](2025%20Brainstorms.cm.md#6850be86-058c-45b4-9b4a-de92ebb4caff) of projective threads, from the object thread in work to the meta thread of Unithread, then i breathe out to release them. Recognizing the 3 poisons, i applied my [<span class="link-h3">3 absorptions</span>](../../../publish/CommonMark/Mind%20Jungle.cm.md#6850c7e4-0969-45b7-9ca8-e2c1d764effe).
 		- 18th, while updating Uniinfo notes, i see the law of inverse variation between intension & extension [in the node of Universal Information](#68523168-5f46-446a-984e-bec9f671f17e) itself.
 		- 19th, the whole day caught up in the update of [<span class="link-h3">vacantism</span>](../../../publish/CommonMark/Uniinfo.cm.md#66f3ed94-4f20-4166-8e9b-2e8ba53aaad2). <a class="logseq-meta" id="68594350-d2cd-475a-9530-e0999ffb9adf" data-collapsed="true" ></a>
 			- Make clear the “vacant throne” with [sutta “The Root of all things”](../../../publish/CommonMark/Uniinfo.cm.md#68536bc0-f6ec-4595-8629-2a45d6bf713e) and the [meaning “non-attachment”](../../../publish/CommonMark/Uniinfo.cm.md#684f9517-22fd-4695-b398-f142dca8a8d8).
@@ -2096,7 +2096,7 @@
 					- This year 2025, i get back to wonder the fleeting nature of the ex-form: the **partiality**, the dynamic nature of content arrow and time, etc.
 				- History of the notion of “partial content” <a class="logseq-meta" id="68554f12-c6b4-40ff-ab2d-55e8e06ad5ff" ></a>
 					- From the pre-Obsidian note (Mars 2024) on [CIE](https://bixycler.github.io/Uniinfo/Metaphysics/CIE.html) about the “Triangle inequality” $c > i⋅e$ and $i > c⋅1/e$
-					- → pre-Logseq (Obsidian) note (April-May 2024) about [form + partial content](2024 Brainstorms.cm.md#684f951b-4049-482f-859a-7afb05cce124)
+					- → pre-Logseq (Obsidian) note (April-May 2024) about [form + partial content](2024%20Brainstorms.cm.md#684f951b-4049-482f-859a-7afb05cce124)
 					- → [extrinsic content](../../../publish/CommonMark/Uniinfo.cm.md#670e3842-d910-4776-a3e8-17561a20b556) (Oct 2024, originally "partial content")
 					- → [ex-form = partial view of the content](../../../publish/CommonMark/Uniinfo.cm.md#6854ed53-2c2a-4cff-9507-0b14a0f6fb63) (June 2025)
 				- Why the content flows and the ex-form fleets: Because it's **partial** but wanting to reach the whole! 😁
@@ -2109,9 +2109,9 @@
 		- 22nd, after a whole day migrating stuff from the old smartphone to the new one, i discovered an app, VNeID, was not migrated after the old one had been factory reset. <a class="logseq-meta" data-collapsed="true" ></a>
 			- Despite too much time spent on the careful migration, there was still one missing app due to its lack of use.
 				- And severely, this app, VNeID, denied all of my effort to "disconnect from the old device" (a requirement for setting up on new device), with the reason that "face recognision is not satisfied".
-			- This event echos my [**perfectionism**](../../../publish/CommonMark/Mind Jungle.cm.md#6678d594-9819-4624-abd6-d4ec62b3874f) with both pros and cons. <a class="logseq-meta" id="68594350-0384-44c3-a53f-710868b651bd" ></a>
-				- The [holistic core](../../../publish/CommonMark/Mind Jungle.cm.md#681b3ad7-d1b0-4c06-a4ea-385a4a9314e0), as the deep form within, makes me prone to black/white thinking, reflecting in the tendency _toward **possibility** (yes/no) rather than **probability** (how much)_, prefering quality & qualitative thinking rather than quantity & quantitative thinking.
-				  <br>⇒ [Possibility versus Probability](2025 Brainstorms.cm.md#68c233ac-f4dc-4222-8ee5-3523317824ff)
+			- This event echos my [**perfectionism**](../../../publish/CommonMark/Mind%20Jungle.cm.md#6678d594-9819-4624-abd6-d4ec62b3874f) with both pros and cons. <a class="logseq-meta" id="68594350-0384-44c3-a53f-710868b651bd" ></a>
+				- The [holistic core](../../../publish/CommonMark/Mind%20Jungle.cm.md#681b3ad7-d1b0-4c06-a4ea-385a4a9314e0), as the deep form within, makes me prone to black/white thinking, reflecting in the tendency _toward **possibility** (yes/no) rather than **probability** (how much)_, prefering quality & qualitative thinking rather than quantity & quantitative thinking.
+				  <br>⇒ [Possibility versus Probability](2025%20Brainstorms.cm.md#68c233ac-f4dc-4222-8ee5-3523317824ff)
 				- I've attached to it because it gives me the solid foundation to stay, to live, to do anything with a clear vision, knowing which direction to go, and so on.
 				- After being forced to try all possibitilies, i've been taught that “everything is possible”, that “everything has both sides, all aspects”, hence the matter is only the probability!
 		- 23rd, another whole day caught up in the contemplation of the [<span class="link-h3">FoC dynamics</span>](../../../publish/CommonMark/Uniinfo.cm.md#6858b355-fba9-4e61-9f16-bc993a3df44b). <a class="logseq-meta" id="6858c668-39d3-4e73-8f9e-b9116343f489" ></a>
@@ -2120,14 +2120,14 @@
 		- 24th, added discussion: [Bidirectional relation “differ[ent,ence] with” versus unidirectional relation “differ[ent,ence] from”](../../../publish/CommonMark/Uniinfo.cm.md#685a97df-925a-44b4-bae6-235dd237f196)
 		- 25th, another whole day caught up with just [a simple vision of mental momentum](#685bb784-3146-435b-9af3-f59ab7e12043) and an intent to "only write it down"! After successfuly wrapping it up, the complication of the company task repels me back to the pleasure of [poetic chat with ChatGPT](#685bc2ac-4724-4f0b-a40e-b5a84decfff8). <a class="logseq-meta" id="685b492f-588b-45e8-b591-49aae256d108" data-collapsed="true" ></a>
 			- Rename element: “Discussion” → “Commentarities” <a class="logseq-meta" id="685b4935-53a9-4057-8ea6-956fc2d60ef5" ></a>
-			- On the way to company, i reviewed my [high momentum due to spring doll](../../../publish/CommonMark/Mind Jungle.cm.md#6846c7e1-239c-4b39-9ef4-9d2eaba17a52) and saw that it's very [similar to the large momentum of massive objects](2025 Brainstorms.cm.md#685bb3fb-9d35-41ec-95ab-97738ea473c2). <a class="logseq-meta" id="685bb784-3146-435b-9af3-f59ab7e12043" data-collapsed="true" ></a>
+			- On the way to company, i reviewed my [high momentum due to spring doll](../../../publish/CommonMark/Mind%20Jungle.cm.md#6846c7e1-239c-4b39-9ef4-9d2eaba17a52) and saw that it's very [similar to the large momentum of massive objects](2025%20Brainstorms.cm.md#685bb3fb-9d35-41ec-95ab-97738ea473c2). <a class="logseq-meta" id="685bb784-3146-435b-9af3-f59ab7e12043" data-collapsed="true" ></a>
 				- Notes related to mental momentum
-					- The [3 poisons due to momentum](../../../publish/CommonMark/Mind Jungle.cm.md#67cfb02d-b633-408c-b19e-1eeb7ed575b9)
-					- [The great **momentum** of the past is the internal form.](../../../publish/CommonMark/Mind Jungle.cm.md#684f9517-bf26-42df-a02f-937c95e1f80e)
-					- [Brain dumping tools, like ((66536e1b-6466-4153-90d6-583003d99a81)), can help reducing mental load & momentum, so that i can switch easier.](../../../publish/CommonMark/Mind Jungle.cm.md#66b1cfa4-369c-49ec-a461-cdda61633460)
-					- [Mindfulness as a hole-punching tool to escape the form.](../../../publish/CommonMark/Mind Jungle.cm.md#684f9517-b730-4cc1-9eb1-54bb81ed78c4)
-					- [Anti-aversion with flow absorption](../../../publish/CommonMark/Mind Jungle.cm.md#68594391-006a-4630-964a-4a54e916b97f)
-					- Braindump: [sleepy meditating...](2025 Braindumps.cm.md#677cc7d2-02f7-4ad9-801c-3079237ed465)
+					- The [3 poisons due to momentum](../../../publish/CommonMark/Mind%20Jungle.cm.md#67cfb02d-b633-408c-b19e-1eeb7ed575b9)
+					- [The great **momentum** of the past is the internal form.](../../../publish/CommonMark/Mind%20Jungle.cm.md#684f9517-bf26-42df-a02f-937c95e1f80e)
+					- [Brain dumping tools, like Logseq, can help reducing mental load & momentum, so that i can switch easier.](../../../publish/CommonMark/Mind%20Jungle.cm.md#66b1cfa4-369c-49ec-a461-cdda61633460)
+					- [Mindfulness as a hole-punching tool to escape the form.](../../../publish/CommonMark/Mind%20Jungle.cm.md#684f9517-b730-4cc1-9eb1-54bb81ed78c4)
+					- [Anti-aversion with flow absorption](../../../publish/CommonMark/Mind%20Jungle.cm.md#68594391-006a-4630-964a-4a54e916b97f)
+					- Braindump: [sleepy meditating...](2025%20Braindumps.cm.md#677cc7d2-02f7-4ad9-801c-3079237ed465)
 				- Now, i'm in the momentum of sorting this “momentum issue” out! <a class="logseq-meta" data-logbook="CLOCK: [2025-06-25 Wed 09:38:08]&#10;CLOCK: [2025-06-25 Wed 09:38:11]--[2025-06-25 Wed 15:36:30] =&gt;  05:58:19&#10;" ></a>
 					- Lots of intents are waking up inside: search them, sort them, connect them, re-organize them, etc.
 					- Even at the very first words above, i did wonder if "large momentum" is right and did discussed with ChatGPT to learn that the more general expression is "high momentum"!
@@ -2237,12 +2237,12 @@
 								  <br>![DrawingHands-Escher.jpg](../assets/Will/story/2025-06/DrawingHands-Escher.jpg)
 				- 廢 (phế bỏ), 癈 (tàn phế, thương phế binh): [物極必反](https://en.wiktionary.org/wiki/%E7%89%A9%E6%A5%B5%E5%BF%85%E5%8F%8D) (vật cực tất phản, thái quá tất phản), [過猶不及](https://en.wiktionary.org/wiki/%E9%81%8E%E7%8C%B6%E4%B8%8D%E5%8F%8A) <a class="logseq-meta" data-logbook="CLOCK: [2025-12-01 Mon 10:25:23]&#10;" ></a>
 		- 26th, reset and reminded of “pure lands”. <a class="logseq-meta" data-collapsed="true" ></a>
-			- This morning, June 26th, the second time i did a hard [<span class="link-h3">reset</span>](../../../publish/CommonMark/Mind Jungle.cm.md#67445065-15b2-475e-a704-78f140d487af) with a long sleep throughout the morning time. <a class="logseq-meta" id="685cf782-c9dd-4076-8df1-75d6efc8f196" data-logbook="CLOCK: [2025-06-26 Thu 14:52:36]&#10;" ></a>
+			- This morning, June 26th, the second time i did a hard [<span class="link-h3">reset</span>](../../../publish/CommonMark/Mind%20Jungle.cm.md#67445065-15b2-475e-a704-78f140d487af) with a long sleep throughout the morning time. <a class="logseq-meta" id="685cf782-c9dd-4076-8df1-75d6efc8f196" data-logbook="CLOCK: [2025-06-26 Thu 14:52:36]&#10;" ></a>
 				- After a whole week caught up, from [19th](#68594350-d2cd-475a-9530-e0999ffb9adf) to [25th](#685b492f-588b-45e8-b591-49aae256d108), and the deadline from company is coming right behind my ass, this morning, i sat down to reset.
 				- This time, there's only one bodily effect of yawning, then the sleep quickly set in (partly due to the short time of sleep last night of 5 hours).
 				- I just could remain the sitting position for about half an hour, then the full blackout brought me down the table.
-			- Returning home, i reminded myself and friends about the [trap of the pure lands](../../../publish/CommonMark/Mind Jungle.cm.md#685e0cec-1ce4-408d-9f32-b3f0441b21a9)
-		- 27th, the whole day just process the stuff left from last night: updated [“[The Goal is the Horizon](https://creatzynotes.blogspot.com/2024/12/the-goal-is-horizon.html)” parable/koan](../../../publish/CommonMark/Mind Jungle.cm.md#67445223-9459-4aa9-b102-70c63943577b) with “núi Cực Lạc” translated to [“Mount Pure Bliss”](../../../publish/CommonMark/Mind Jungle.cm.md#685e0cec-1ce4-408d-9f32-b3f0441b21a9) and the warning: [First, “don't get stuck in the [Pure Lands](https://en.wikipedia.org/wiki/Pure_Land)!”](../../../publish/CommonMark/Mind Jungle.cm.md#685e0cec-1ce4-408d-9f32-b3f0441b21a9); [Mr. Hiệp asked me about the word “chăm chỉ” which has some interesting relation with the ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a))!](#685e4058-b8f7-4d76-bf58-7b709a92bc81) <a class="logseq-meta" data-collapsed="true" ></a>
+			- Returning home, i reminded myself and friends about the [trap of the pure lands](../../../publish/CommonMark/Mind%20Jungle.cm.md#685e0cec-1ce4-408d-9f32-b3f0441b21a9)
+		- 27th, the whole day just process the stuff left from last night: updated [“[The Goal is the Horizon](https://creatzynotes.blogspot.com/2024/12/the-goal-is-horizon.html)” parable/koan](../../../publish/CommonMark/Mind%20Jungle.cm.md#67445223-9459-4aa9-b102-70c63943577b) with “núi Cực Lạc” translated to [“Mount Pure Bliss”](../../../publish/CommonMark/Mind%20Jungle.cm.md#685e0cec-1ce4-408d-9f32-b3f0441b21a9) and the warning: [First, “don't get stuck in the [Pure Lands](https://en.wikipedia.org/wiki/Pure_Land)!”](../../../publish/CommonMark/Mind%20Jungle.cm.md#685e0cec-1ce4-408d-9f32-b3f0441b21a9); [Mr. Hiệp asked me about the word “chăm chỉ” which has some interesting relation with the thread!](#685e4058-b8f7-4d76-bf58-7b709a92bc81) <a class="logseq-meta" data-collapsed="true" ></a>
 			- Mr. Hiệp asked me about the word “chăm chỉ” which has some interesting relation with the [<span class="link-h2">thread</span>](../../../publish/CommonMark/Uniinfo.cm.md#667d0d2e-15c7-4989-a183-69a9a5c6bf8a)! <a class="logseq-meta" id="685e4058-b8f7-4d76-bf58-7b709a92bc81" data-logbook="CLOCK: [2025-06-27 Fri 15:52:47]&#10;" ></a>
 				- From the Mon-Khmer root [ចាំ](https://en.wiktionary.org/wiki/%E1%9E%85%E1%9E%B6%E1%9F%86) (cāṃ) meaning “wait, watch, look after” to Thai [จำ](https://en.wiktionary.org/wiki/%E0%B8%88%E0%B8%B3) (jam) and Vietnamese “[chăm](https://en.wiktionary.org/wiki/ch%C4%83m)” meaning “diligent, diligently look after”, the word “chăm chỉ” is formed as a [reduplication](https://en.wikipedia.org/wiki/Reduplication) of “chăm” to emphasize its diligence.
 				- However, when the Nôm script borrows Chinese characters, “chăm chỉ” can be written as 針只 or 針黹.
@@ -2255,7 +2255,7 @@
 				- These threads of discussion, researching, contemplation, as well as those threads of words' evolution and relation are weaving together so intricately.
 		- Weekends 28-29 June, i went to Vĩnh Hy bay with my wife's family to celebrate the wedding day of Mrs. Nhung & Mr. Nhân. My ward name change: [Tân Chánh Hiệp → Trung Mỹ Tây](#68639790-d02f-46d9-924f-702a8e6a9d5e) <a class="logseq-meta" id="686204b8-8bf7-4ce9-abe9-d7984d814476" data-collapsed="true" data-logbook="CLOCK: [2025-06-30 Mon 10:30:52]&#10;" ></a>
 			- Most of the time, i meditated focusing on my nasal inflammation. To me, the conditioned cold air in the buses was so harsh!
-			- And i see that it's time for me to deploy [planning](../../../publish/CommonMark/Mind Jungle.cm.md#67760c43-5cbd-4b4f-8fd9-5cedf804f56a) to cope with the issue of being caught up. It's time to scale up my mind from the (analog) micro-programs of differential equations to the (digital) macro-programs of plans, schedules, etc.
+			- And i see that it's time for me to deploy [planning](../../../publish/CommonMark/Mind%20Jungle.cm.md#67760c43-5cbd-4b4f-8fd9-5cedf804f56a) to cope with the issue of being caught up. It's time to scale up my mind from the (analog) micro-programs of differential equations to the (digital) macro-programs of plans, schedules, etc.
 				- Note that even the micro-programs of [microcodes](https://en.wikipedia.org/wiki/Microcode) in computer are still very much “macro” to me.
 				- So my “micro-programs” should be called “nano-programs”!?
 			- My wife had some series of stomach upset.
@@ -2310,10 +2310,10 @@
 						- I visioned such an adapter of fractal fracture surfaces to smooth crosscuts from the years 2010s just after i got back to Vietnam.
 						- That vision was a continuation of the previous “everything is interface” ideal from the University time (2000s), inspired by Java's interface.
 						- An interesting key moment of the idea of “view = traversal of other views” was when i reviewed the student project, guided by Mr. Huy, about automatically generating presentation from the tree structure of notes.
-					- These days, each intent of mine is [extracting](2025 Brainstorms.cm.md#6850be86-058c-45b4-9b4a-de92ebb4caff) its own view from the world via pattern matching, in order to have its own effect on my actions (= mixture of all intents' actions).
+					- These days, each intent of mine is [extracting](2025%20Brainstorms.cm.md#6850be86-058c-45b4-9b4a-de92ebb4caff) its own view from the world via pattern matching, in order to have its own effect on my actions (= mixture of all intents' actions).
 					- Such a constant flow of unmixing & mixing is catching me up!
 					- My karma of depth-first search is catching me in the infinitely complicated fractal walks.
-					- Such an [interconnection, interdependence, interfusion](2024 Brainstorms.cm.md#66eb7dae-2032-434b-9106-756d4aad7cdb) makes the working of karma [imponderable](2024 Brainstorms.cm.md#6863c61d-f3e7-495b-bdc4-25be219db74b).
+					- Such an [interconnection, interdependence, interfusion](2024%20Brainstorms.cm.md#66eb7dae-2032-434b-9106-756d4aad7cdb) makes the working of karma [imponderable](2024%20Brainstorms.cm.md#6863c61d-f3e7-495b-bdc4-25be219db74b).
 		- July 2nd, let's start doing company work first! <a class="logseq-meta" data-collapsed="true" data-logbook="CLOCK: [2025-07-02 Wed 07:54:39]&#10;" ></a>
 			- I've just left [hội hại não](https://www.messenger.com/t/882954261822273) again, due to the conflict with Ms. Trung.
 				- Thanks to such a close friend, i have chances to observe my self attachment.
@@ -2327,15 +2327,15 @@
 						- this base has been accumulated throughout lives reflecting the majority of experiences of one self, hence ideal (large, common, absolute).
 						- This accumulation of experiences into ideals is the [formation](../../../publish/CommonMark/Uniinfo.cm.md#66faa5f9-0b7a-49ca-a5f5-62eeba03ab2b) of internal [crystal form](../../../publish/CommonMark/Uniinfo.cm.md#670de601-3ca8-4489-8b75-75ca0d9a74bc)s.
 					- Down play my way – “contemplation is useless” → scare of one extended self (me + her) being separated into different ways → defense my own way (contemplation) → **attach** to the way as a higher self
-						- Like any higher self, the way or my [**holistic core**](../../../publish/CommonMark/Mind Jungle.cm.md#681b3ad7-d1b0-4c06-a4ea-385a4a9314e0) are just ideals and should not be attached to.
+						- Like any higher self, the way or my [**holistic core**](../../../publish/CommonMark/Mind%20Jungle.cm.md#681b3ad7-d1b0-4c06-a4ea-385a4a9314e0) are just ideals and should not be attached to.
 					- This time, it's interesting to trigger reactions caused by attachement to both low level (the personal self) and high level (the way) of the self.
 			- Test table plugins <a class="logseq-meta" data-collapsed="true" ></a>
-				- [Markdown table editor](../../../publish/CommonMark/Mind Jungle.cm.md#6864f88c-8987-4b0e-8151-0d41f5830a70)
+				- [Markdown table editor](../../../publish/CommonMark/Mind%20Jungle.cm.md#6864f88c-8987-4b0e-8151-0d41f5830a70)
 				  <br>|Header **Col1**|**Col2**|Col **Alphabet**|
 				  <br>|--|--|--|
 				  <br>|1|2|A|
 				  <br>|3|4|B|
-				- [Table Renderer](../../../publish/CommonMark/Mind Jungle.cm.md#6864f9b7-2daa-4ad4-b496-063722e86f73)
+				- [Table Renderer](../../../publish/CommonMark/Mind%20Jungle.cm.md#6864f9b7-2daa-4ad4-b496-063722e86f73)
 					- ### Table from `data`: columns > data in rows <a class="logseq-meta" id="6864fd4f-65cc-4c9f-a854-b7152d5a25b0" ></a>
 					  {{renderer :tables_6864fd4f-65cc-4c9f-a854-b7152d5a25b0}}
 						- data sum-3 average-3 median-3 mode-3 <a class="logseq-meta" data-collapsed="true" ></a>
@@ -2384,13 +2384,13 @@
 			- Spring paradox, [Braess's paradox](https://en.wikipedia.org/wiki/Braess%27s_paradox) are related to the [Prisoner's dilemma](https://en.wikipedia.org/wiki/Prisoner%27s_dilemma)
 				- [This mechanism shrinks when pulled](https://youtu.be/-QTkPfq7w1A) <a class="logseq-meta" data-collapsed="true" ></a>
 					- {{video https://youtu.be/-QTkPfq7w1A}}
-		- July 3rd, just review my issues and started [designing plans](2025 Brainstorms.cm.md#6926be1c-549f-4657-9760-eed54a585661). <a class="logseq-meta" data-collapsed="true" ></a>
+		- July 3rd, just review my issues and started [designing plans](2025%20Brainstorms.cm.md#6926be1c-549f-4657-9760-eed54a585661). <a class="logseq-meta" data-collapsed="true" ></a>
 			- After more than a month in this thread of [releasing to heal the broken bodymind](#68366fff-92cf-41a7-ab2d-0c1f77d0effb), i see...
 				- while all tasks are left untouched and no new tasks are (formally) listed, **new contents** are constantly produced **everyday** (including some hidden tasks).
 				- The issue of being **caught up** still persists.
-				- ⇒ [DONE Continue with [planning](((67760c43-5cbd-4b4f-8fd9-5cedf804f56a))) to resolve [the conflict with company work](((6677b986-ada2-4c73-8a11-980cdf9cb6d4))).](2025 Brainstorms.cm.md#6926be1c-549f-4657-9760-eed54a585661)
-			- I completed this brainstorm to flush it: [About the [hurricane's eye](((681826ad-768c-4671-b575-0d9f8ca64c6b))) 🌀: ((69086748-b6e9-47c0-810b-4a92f882d6bc)) = ((66c8772a-9b29-45b0-b169-2fa847333e02)) = [Nibbāna/Nirvāṇa](https://en.wikipedia.org/wiki/Nirvana) = selfless obop = zero-limit of ((94e87dc9-71af-477c-aa70-0f448c2f1e20))](2025 Brainstorms.cm.md#684f9515-8f95-4004-8aa8-04a10d1ebf11)
-		- 4th, from a simple question of "seeding or seedling?", i'd chatted with ChatGPT for most of the time, then returned to update the brainstorm [about the hurricane's eye, center and self-essence](2025 Brainstorms.cm.md#684f9515-8f95-4004-8aa8-04a10d1ebf11).
+				- ⇒ [DONE Continue with [planning](Master plan) to resolve [the conflict with company work]([!] The clash between internal work and external work).](2025%20Brainstorms.cm.md#6926be1c-549f-4657-9760-eed54a585661)
+			- I completed this brainstorm to flush it: [About the [hurricane's eye](The [cyclone eye](https://en.wikipedia.org/wiki/Eye_(cyclone)), inside the eyewall, is the self-essence which is the selfless obop.) 🌀: empty center = self-essence = [Nibbāna/Nirvāṇa](https://en.wikipedia.org/wiki/Nirvana) = selfless obop = zero-limit of obop](2025%20Brainstorms.cm.md#684f9515-8f95-4004-8aa8-04a10d1ebf11)
+		- 4th, from a simple question of "seeding or seedling?", i'd chatted with ChatGPT for most of the time, then returned to update the brainstorm [about the hurricane's eye, center and self-essence](2025%20Brainstorms.cm.md#684f9515-8f95-4004-8aa8-04a10d1ebf11).
 			- In that course, i saw many other intents popped up but i refrained from them.
 		- 5th, a whole day sleep to recovery. Installed MGit on Android phone to view UniinfoNotes (not to edit!) <a class="logseq-meta" id="686b2cfe-dbc3-4ef6-ab07-545865b09609" data-collapsed="true" ></a>
 			- Thanks to [MGit](https://github.com/maks/MGit), this note is edited and pushed directly from home 🏡 on my mobile phone 😊.
@@ -2403,11 +2403,11 @@
 				- UniinfoNotes
 					- due to low performance and complications (patched `config.edn`, broken symlinks, etc.), i **_don't edit_ on mobile logseq**, just view it on mobile.
 						- The MindChips queue is still very useful!
-					- for the **search** feature to work, we must manually insert the content of file `macros-config.edn.txt` (stored on MindChips repo) to the [Local ((666a539d-499f-43c0-8b2e-74818cc3a0f5)) ![config.edn](../assets/logseq/config.edn)](#66faa5f7-af4f-4ca6-9621-56ab8dadbe94), because the [global `config.edn`](#66fe86b8-f17e-4b3f-b27f-213b3500146f) cannot be located on Android.
+					- for the **search** feature to work, we must manually insert the content of file `macros-config.edn.txt` (stored on MindChips repo) to the [Local File: ![config.edn](../assets/logseq/config.edn)](../../../materials/logseq/publish/CommonMark/logseq___config.edn.cm.md#66faa5f7-af4f-4ca6-9621-56ab8dadbe94), because the [global `config.edn`](../../../materials/logseq/publish/CommonMark/logseq___config.edn.cm.md#66fe86b8-f17e-4b3f-b27f-213b3500146f) cannot be located on Android.
 					- all symlinks in `assets/TextProcessing/last-newline/No newline at end of file.img/` have been changed to plaintext by the commit `cf5d4f1` “[WIP] MGit push test”, which have been reverted in commit `9ea30b37`.
 		- 6th, went diving with my wife at “Tuyệt Tình Cốc” lake. <a class="logseq-meta" data-collapsed="true" ></a>
 			- [<span class="link-h4">CIE operation</span>](../../../publish/CommonMark/Uniinfo.cm.md#686e6e72-13f8-4dc9-a8e2-de35519f57d7)
-			- [FoC dynamics ~ ((67bd3614-2520-4a5d-8b3f-44f60901844e)): equal = center, arrows = out & in radius, circle = trajectory of the arrowhead](../../../publish/CommonMark/Uniinfo.cm.md#686e580a-876e-47cf-b2cc-1381bc64cdb9)
+			- [FoC dynamics ~ Circle Dynamic: equal = center, arrows = out & in radius, circle = trajectory of the arrowhead](../../../publish/CommonMark/Uniinfo.cm.md#686e580a-876e-47cf-b2cc-1381bc64cdb9)
 			- [Definitions of “form” through the full cycle of birth–change–death, or formation–distortion–dissolution](../../../publish/CommonMark/Uniinfo.cm.md#686e6aed-cec1-4686-95c8-623f8a5f0bab)
 			- Brainstormed about [bulboid (củ) structures](../../../publish/CommonMark/Uniinfo.cm.md#686e6444-ed07-408c-ad6f-72f308410cd1), and the following joke popped up in my mind.
 			- YouTuber = You-Potato 🥔 = media-tuber
@@ -2418,10 +2418,10 @@
 				  <br>stalks of discourse  
 				  <br>from their stem-circles  
 				  <br>of condensed ego!
-		- 7th, today, i've built up enough intent to execute the [plan for sharing time with official works](2025 Brainstorms.cm.md#6926be1c-549f-4657-9760-eed54a585661). <a class="logseq-meta" data-logbook="CLOCK: [2025-07-07 Mon 09:21:20]&#10;" ></a>
+		- 7th, today, i've built up enough intent to execute the [plan for sharing time with official works](2025%20Brainstorms.cm.md#6926be1c-549f-4657-9760-eed54a585661). <a class="logseq-meta" data-logbook="CLOCK: [2025-07-07 Mon 09:21:20]&#10;" ></a>
 	- Both Chrome & Edge versions are from Sep 2024 due to disabled auto-update <a class="logseq-meta" id="68352d58-f697-4b62-a748-3756dac163f7" data-collapsed="true" data-logbook="CLOCK: [2025-05-27 Tue 10:12:24]&#10;" ></a>
 		- They have been **unupdatable** long before.
-			- To prevent the annoying prompt for update (while unupdatable), i [Disable automatic update](../../../publish/CommonMark/Mind Jungle.cm.md#66c7f42e-5c00-435a-8d30-fe8210c4adf6) in Chrome.
+			- To prevent the annoying prompt for update (while unupdatable), i [Disable automatic update](../../../publish/CommonMark/Mind%20Jungle.cm.md#66c7f42e-5c00-435a-8d30-fe8210c4adf6) in Chrome.
 		- Seems that it's caused by my actions to prevent Ubuntu's auto-update last year.
 			- With manual system update, i.e. `sudo apt upgrade` in August 2025, Chrome has been updated to [version 139.0.7258.127](https://chromereleases.googleblog.com/2025/08/stable-channel-update-for-desktop_12.html), and MS Edge to [version 139.0.3405.86](https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=38daeebf-eb95-40f7-8396-89751156de66). <a class="logseq-meta" data-logbook="CLOCK: [2025-08-14 Thu 14:47:35]&#10;" ></a>
 				- DONE This system update caused the Chrome issue [Dropdowns, tooltips etc. always render in top-left corner under Wayland](https://issues.chromium.org/issues/358041219), while Edge with the same version 139 doesn't have such issue. <a class="logseq-meta" data-collapsed="true" ></a>
@@ -2440,7 +2440,7 @@
 						- Corect layout with X11 <a class="logseq-meta" data-collapsed="true" ></a>
 							- ![Wayland-tooltip-OK.png](../assets/GUI/Wayland/dropdown-topleft/Wayland-tooltip-OK.png)
 							- ![X11-dropdown-OK.png](../assets/GUI/Wayland/dropdown-topleft/X11-dropdown-OK.png)
-			- DONE Migrate `docs/DevlopmentEnvironment/Ubuntu-update.md` to [Automatic software update/notification](#68358033-084f-461c-b470-5311a5127f0c) & [`GSettings`](#68358161-eb10-4c78-805e-88f9f460d376). <a class="logseq-meta" data-collapsed="true" data-logbook="CLOCK: [2025-05-27 Tue 14:39:27]&#10;CLOCK: [2025-05-27 Tue 14:39:29]&#10;CLOCK: [2026-01-09 Fri 16:21:27]--[2026-01-09 Fri 16:34:11] =&gt;  00:12:44&#10;" ></a>
+			- DONE Migrate `docs/DevlopmentEnvironment/Ubuntu-update.md` to [Automatic software update/notification](../../../share/technical/publish/CommonMark/Linux.cm.md#68358033-084f-461c-b470-5311a5127f0c) & [`GSettings`](../../../share/technical/publish/CommonMark/Linux.cm.md#68358161-eb10-4c78-805e-88f9f460d376). <a class="logseq-meta" data-collapsed="true" data-logbook="CLOCK: [2025-05-27 Tue 14:39:27]&#10;CLOCK: [2025-05-27 Tue 14:39:29]&#10;CLOCK: [2026-01-09 Fri 16:21:27]--[2026-01-09 Fri 16:34:11] =&gt;  00:12:44&#10;" ></a>
 				- Config trials from Aug 2023
 					- **Reboot** flow: Aug 17
 						- 10:29:45: **`reboot`** -> `update-notifier: update_check(); /usr/lib/update-notifier/apt-check`
@@ -2524,7 +2524,7 @@
 						    apt_http_proxy: null
 						    ...
 						  ``` <a class="logseq-meta" data-collapsed="true" ></a>
-					- "ESM Cache" is for [ESM = Extended Security Maintenance](#68357df4-ee9c-4268-a8c7-3a1251ad3ebf)
+					- "ESM Cache" is for [ESM = Extended Security Maintenance](../../../share/technical/publish/CommonMark/Linux.cm.md#68357df4-ee9c-4268-a8c7-3a1251ad3ebf)
 				- Check settings
 					- Unmasked services
 					  ```sh
@@ -2563,7 +2563,7 @@
 						  /etc/apt/apt.conf.d/10periodic:APT::Periodic::Unattended-Upgrade "0";
 						  /etc/apt/apt.conf.d/20auto-upgrades:APT::Periodic::Unattended-Upgrade "0";
 						  ```
-	- July journal: Try to execute the [plan to share time with official works](2025 Brainstorms.cm.md#6926be1c-549f-4657-9760-eed54a585661), July 2025. <a class="logseq-meta" id="686b390a-7953-4069-9c04-17c7f9a777a7" data-collapsed="true" data-logbook="CLOCK: [2025-07-07 Mon 10:04:48]--[2025-07-29 Tue 20:33:30] =&gt;  538:28:42&#10;" ></a>
+	- July journal: Try to execute the [plan to share time with official works](2025%20Brainstorms.cm.md#6926be1c-549f-4657-9760-eed54a585661), July 2025. <a class="logseq-meta" id="686b390a-7953-4069-9c04-17c7f9a777a7" data-collapsed="true" data-logbook="CLOCK: [2025-07-07 Mon 10:04:48]--[2025-07-29 Tue 20:33:30] =&gt;  538:28:42&#10;" ></a>
 		- July 7th, let's start! <a class="logseq-meta" data-collapsed="true" ></a>
 			- Even staring at the work at company, i see Unïnfo-related features more than the work's requirements. 😁 <a class="logseq-meta" data-logbook="CLOCK: [2025-07-07 Mon 10:44:05]&#10;" ></a>
 			- rule, guide-line <a class="logseq-meta" data-collapsed="true" ></a>
@@ -2582,14 +2582,14 @@
 				- **Indent[ation] guides** <a class="logseq-meta" id="686b469b-f88c-479e-b1ad-1e44ec5a06b0" ></a>
 				   <br>are vertical lines shown on modern editors as a visual aid for alignment of nested indented blocks, e.g. indented code blocks in a program.
 					- Logseq calls it `guideline`.
-					- My [`FolderDiv` calls it “stem line”](../../../publish/CommonMark/Mind Jungle.cm.md#684f9516-f31c-4469-aad8-cd13d9117dd3) following the [treeview structure](../../../publish/CommonMark/Uniinfo.cm.md#667530ed-809b-4d38-8522-1ae6c8449e28).
+					- My [`FolderDiv` calls it “stem line”](../../../publish/CommonMark/Mind%20Jungle.cm.md#684f9516-f31c-4469-aad8-cd13d9117dd3) following the [treeview structure](../../../publish/CommonMark/Uniinfo.cm.md#667530ed-809b-4d38-8522-1ae6c8449e28).
 					- Such guidelines in [[GUI tree view](https://en.wikipedia.org/wiki/Tree_view)](../../../publish/CommonMark/Uniinfo.cm.md#66750416-093a-4042-bb6d-78702c219c36), including both stem lines and stalk lines, are called vaguely by various names: "tree lines" (in WinForms, Qt, GTK), "connector lines" (in jsTree, D3, Mermaid), "branch lines", "outline lines", etc.
 		- 8th, i'm trying to set the intent for official works with contemplation & breathwork, but the personal intents are still very strong! <a class="logseq-meta" data-collapsed="true" ></a>
 			- Just flushed all waiting tasks, incomplete stories and brainstorms from the Workstack.
 			- Observing & contemplating my reset (in order to set new intent for official works), i see the “antennae” of [anusayā·cetanā](../../../publish/CommonMark/Uniinfo.cm.md#66e80666-5f29-4419-8db1-bf8cdce893e4)s of my central obop. <a class="logseq-meta" id="686cbb21-2266-45a1-ab56-7e252695f5f2" ></a>
-				- [The antenna (intent's remaining tendency) matches the external stimulus with the corresponding dormant ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) to wake it up to become an active ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)) of action.](../../../publish/CommonMark/Uniinfo.cm.md#686cc8c2-9215-4b84-840e-def48efd9447)
+				- [The antenna (intent's remaining tendency) matches the external stimulus with the corresponding dormant intent to wake it up to become an active intention of action.](../../../publish/CommonMark/Uniinfo.cm.md#686cc8c2-9215-4b84-840e-def48efd9447)
 				- The anusayā·cetanā then sets the attention (focus of the viewcone) to strengthen the intention further.
-			- At the end of the day, my emotional intents rose up. I let them flow, observed and [integrated them into the plan](2025 Brainstorms.cm.md#686e0e73-d3cc-4250-804f-94a270b92fd9).
+			- At the end of the day, my emotional intents rose up. I let them flow, observed and [integrated them into the plan](2025%20Brainstorms.cm.md#686e0e73-d3cc-4250-804f-94a270b92fd9).
 		- 9th, the meeting and discussions with colleagues override the personal intents, making them subside and blurred, in contrast to the [clear vision](#686cbb21-2266-45a1-ab56-7e252695f5f2) of the [“fine hairs” of the latent intents](../../../publish/CommonMark/Uniinfo.cm.md#686e096b-d730-4d9e-ae58-4ca2cf7b93aa) yesterday. <a class="logseq-meta" data-collapsed="true" ></a>
 			- This shows the importance of the balance between interaction and retreating.
 				- Too much interaction masks the intents which are active inside.
@@ -2637,7 +2637,7 @@
 					- Vì đó là chứng nghiệm của bản thân tui, chỉ khi tui vượt qua địa ngục thì mới tới chỗ giải thoát. Như trên group tui có nói là tui đi thấy địa ngục đó (không biết lúc đó có ông trong group không nhỉ 🤔)
 				- 2. Để ông tiếp tục tập "flow" thì tui thấy chắc ông cứ tiếp tục mượn cái đau khi ngồi kiết già để hít thở kéo cảm thọ đó chạy khắp toàn thân đi, thay vì đè nó xuống như hồi đó.
 					- Khi nào cái đó thành thục thì mình mới chuyển sang những thứ khác vi tế hơn, như thuần hơi thở. 😉
-			- The technique of [accept–release](../../../publish/CommonMark/Mind Jungle.cm.md#68773fad-d653-4536-87b5-d4b493753b41) echoes throughout this trip and after that.
+			- The technique of [accept–release](../../../publish/CommonMark/Mind%20Jungle.cm.md#68773fad-d653-4536-87b5-d4b493753b41) echoes throughout this trip and after that.
 			- one sided view = semicircle => attachment to 1 side
 				- the other half is invisible or shortcut => attachment to extreme points: greed of shortcut climax (all problems are resolved at a point); fear of death
 		- 14th, brainstorm about the FoC Dynamics, and researches about Buddhism. <a class="logseq-meta" data-collapsed="true" ></a>
@@ -2682,9 +2682,9 @@
 						- => nhắm sang những "con mồi" quen thuộc: con mồi Trung thì ở tuốt Vũng Tàu, con mồi Hiệp thì về Pháp rồi, con mồi Tú thì chắc đang bận nhưng cứ gọi thử.... không được thì chuyển qua con mồi Tuấn 😃
 						- Tuy nhiên, sự lươn lẹo của đầu óc thì nó lại nghĩ khác, không hề nói cái lý do chính như đang phân tích đây, mà chỉ nói là "cứ thử tìm mấy bạn này xem mình có được nhắc nhở, có được gợi ý để thấy ra cái gì hay ho không?" (thử vận may) 😂
 				- Em thấy cái Tôi nó tinh vi chưa 😉
-		- 16th, 3 absorptions against 3 poisons, parallel/orthogonal intents in conscious absorption, [~~Trinion~~ ((6858b355-fba9-4e61-9f16-bc993a3df44b)) via effect flow torus](#6878561a-42bb-404b-b1aa-9e0545b1cc69) <a class="logseq-meta" data-collapsed="true" ></a>
-			- Through practice, i've refined the 3 levels of absorptions and linked them with [antidotal practices](../../../publish/CommonMark/Mind Jungle.cm.md#6850c7e4-0969-45b7-9ca8-e2c1d764effe) for 3 poisons.
-				- The refined conscious absorption this morning prompted for the unification between dynamics with [sequential intents](../../../publish/CommonMark/Mind Jungle.cm.md#6846c7e1-239c-4b39-9ef4-9d2eaba17a52) ( [<span class="link-h3">SCIFER</span>](../../../publish/CommonMark/Uniinfo.cm.md#66f40210-cca6-4d81-85e7-d0c54ef20451), [<span class="link-h3">Circle Dynamic</span>](../../../publish/CommonMark/Uniinfo.cm.md#67bd3614-2520-4a5d-8b3f-44f60901844e), [<span class="link-h3">Circle of Dynamics</span>](../../../publish/CommonMark/Uniinfo.cm.md#67bd7811-ce55-402f-8fb2-08b59fb271c9)) and dynamics with parallel/orthogonal intents, as well as the [<span class="link-h3">FoC dynamics</span>](../../../publish/CommonMark/Uniinfo.cm.md#6858b355-fba9-4e61-9f16-bc993a3df44b).
+		- 16th, 3 absorptions against 3 poisons, parallel/orthogonal intents in conscious absorption, [~~Trinion~~ FoC dynamics via effect flow torus](#6878561a-42bb-404b-b1aa-9e0545b1cc69) <a class="logseq-meta" data-collapsed="true" ></a>
+			- Through practice, i've refined the 3 levels of absorptions and linked them with [antidotal practices](../../../publish/CommonMark/Mind%20Jungle.cm.md#6850c7e4-0969-45b7-9ca8-e2c1d764effe) for 3 poisons.
+				- The refined conscious absorption this morning prompted for the unification between dynamics with [sequential intents](../../../publish/CommonMark/Mind%20Jungle.cm.md#6846c7e1-239c-4b39-9ef4-9d2eaba17a52) ( [<span class="link-h3">SCIFER</span>](../../../publish/CommonMark/Uniinfo.cm.md#66f40210-cca6-4d81-85e7-d0c54ef20451), [<span class="link-h3">Circle Dynamic</span>](../../../publish/CommonMark/Uniinfo.cm.md#67bd3614-2520-4a5d-8b3f-44f60901844e), [<span class="link-h3">Circle of Dynamics</span>](../../../publish/CommonMark/Uniinfo.cm.md#67bd7811-ce55-402f-8fb2-08b59fb271c9)) and dynamics with parallel/orthogonal intents, as well as the [<span class="link-h3">FoC dynamics</span>](../../../publish/CommonMark/Uniinfo.cm.md#6858b355-fba9-4e61-9f16-bc993a3df44b).
 					- With conscious absorption, all intents are equal, orthogonal
 						- All worlds are equivalent. They are different only by the order of intent chain, due to the scaling factor of $b^k$ at position $k$.
 							- For derivatives, the base $b = ∞$, hence orthogonal.
@@ -2718,7 +2718,7 @@
 				- SCIFER helix is for the clear view of S-C-I-F-E-R(phase) components, and the view of interunion in intent lense.
 				- SCIFER spirorus is for the view of interunion in content lense.
 		- 23rd, add my sites to Google Search Console <a class="logseq-meta" data-collapsed="true" ></a>
-			- [((665359ff-79f1-4669-b10b-f2b0e633a7c1))](../../../publish/CommonMark/Mind Jungle.cm.md#6880a9a5-b5d3-4542-b378-31cf40ea8476)
+			- [Commentaries:](../../../publish/CommonMark/Mind%20Jungle.cm.md#6880a9a5-b5d3-4542-b378-31cf40ea8476)
 			- I've just discovered that my [CreatZy Notes](https://creatzynotes.blogspot.com/) blog does not appear in Google Search anymore. The only result appear in Google Search as well as in other search tools by used chatbots is the very old post: [Spirorus, the structure of spacetime ;)](https://creatzynotes.blogspot.com/2013/08/spirorus-structure-of-spacetime.html) <a class="logseq-meta" data-collapsed="true" ></a>
 				- I've checked the [Blogger settings](https://www.blogger.com/blog/settings/6547598) and see that "Visible to search engines" is ON.
 				- The [blog stats](https://www.blogger.com/blog/statsblog/6months/6547598) over the last 6 months shows lots of "views" from [SFive](https://download.com.vn/sfive-browser-149044) (a Vietnamese browser) (10k), and from Chrome (4k), while only 22 views were referred from www.google.com.
@@ -2852,15 +2852,15 @@
 				- With relax and meditation, it's shown clearly as the inflammation of the frontal sinuses.
 				- The snot built up there and running down the throat makes me cough.
 				- The meditation on Sunday was strongly effective, making it nearly dry.
-			- Contemplated the [((6839229d-9eff-49e4-9480-6e2db6f61127)) caused by the ignorance about the ((68df2d82-e1d5-49c4-ac40-d45cf26f840c))](../../../publish/CommonMark/Mind Jungle.cm.md#688748a7-8228-4515-9fe4-38c232ce954e)
+			- Contemplated the [3 poisons caused by the ignorance about the intent double cone](../../../publish/CommonMark/Mind%20Jungle.cm.md#688748a7-8228-4515-9fe4-38c232ce954e)
 			- With the interest of my wife, Bell Lê, my youth's dream of playing đàn bầu has revived, and we decided to buy one to practice.
-		- 28th, i've arrived at the [detach–attach](../../../publish/CommonMark/Mind Jungle.cm.md#68871d20-c27b-4b0d-8342-b8af093e5849) technique of intent equalization. <a class="logseq-meta" data-collapsed="true" ></a>
+		- 28th, i've arrived at the [detach–attach](../../../publish/CommonMark/Mind%20Jungle.cm.md#68871d20-c27b-4b0d-8342-b8af093e5849) technique of intent equalization. <a class="logseq-meta" data-collapsed="true" ></a>
 			- Wow, i must use longer terms “viewing direction” & “light ray direction”, because the shading men have reverted both [“view direction”](../../../publish/CommonMark/Uniinfo.cm.md#68876434-f1f3-4dda-975f-496594ef762e) and [“light direction”](../../../publish/CommonMark/Uniinfo.cm.md#6887625c-db24-4ecf-a154-3aedb390afd3) for their own convenience (in the viewpoint of the shaded object)!
 		- 29th, wrap this story up, on the occasion of my project at company has started hard! <a class="logseq-meta" data-collapsed="true" data-logbook="CLOCK: [2025-07-29 Tue 20:27:01]--[2025-07-29 Tue 20:33:18] =&gt;  00:06:17&#10;" ></a>
-			- Although the [plan](2025 Brainstorms.cm.md#6926be1c-549f-4657-9760-eed54a585661) has not been applied well, the practical methods for intent management have been developed quite well.
+			- Although the [plan](2025%20Brainstorms.cm.md#6926be1c-549f-4657-9760-eed54a585661) has not been applied well, the practical methods for intent management have been developed quite well.
 			- So, let's wrap it up for the new month coming.
-	- August journal: Try to harmonize the personal [refinement techniques](../../../publish/CommonMark/Mind Jungle.cm.md#67b541d0-f477-4c3a-b444-fb522c3fdc4f) with the [working plan](2025 Brainstorms.cm.md#6926be1c-549f-4657-9760-eed54a585661), from August 2nd to September 7th. <a class="logseq-meta" id="688c70aa-8fdf-4cc8-aeb7-ffd47b86cee0" data-collapsed="true" data-logbook="CLOCK: [2025-08-01 Fri 14:45:50]&#10;CLOCK: [2025-08-01 Fri 14:46:03]&#10;CLOCK: [2025-08-01 Fri 14:49:46]--[2025-09-08 Mon 14:20:12] =&gt;  911:30:26&#10;" ></a>
-		- Let's [look behind the eyes](../../../publish/CommonMark/Mind Jungle.cm.md#68898917-e61f-4d23-9124-474efa9a9eee) to [<span class="link-h3">equalize</span>](../../../publish/CommonMark/Mind Jungle.cm.md#68871ce1-eb57-4be3-ad48-45af6ccb5d49) the intents.
+	- August journal: Try to harmonize the personal [refinement techniques](../../../publish/CommonMark/Mind%20Jungle.cm.md#67b541d0-f477-4c3a-b444-fb522c3fdc4f) with the [working plan](2025%20Brainstorms.cm.md#6926be1c-549f-4657-9760-eed54a585661), from August 2nd to September 7th. <a class="logseq-meta" id="688c70aa-8fdf-4cc8-aeb7-ffd47b86cee0" data-collapsed="true" data-logbook="CLOCK: [2025-08-01 Fri 14:45:50]&#10;CLOCK: [2025-08-01 Fri 14:46:03]&#10;CLOCK: [2025-08-01 Fri 14:49:46]--[2025-09-08 Mon 14:20:12] =&gt;  911:30:26&#10;" ></a>
+		- Let's [look behind the eyes](../../../publish/CommonMark/Mind%20Jungle.cm.md#68898917-e61f-4d23-9124-474efa9a9eee) to [<span class="link-h3">equalize</span>](../../../publish/CommonMark/Mind%20Jungle.cm.md#68871ce1-eb57-4be3-ad48-45af6ccb5d49) the intents.
 			- These techniques are nothing new to me.
 				- introspection is my strength as an introvert, and
 				- equalization is reflected right in the name “Balance Way” from the beginning.
@@ -2874,7 +2874,7 @@
 				- Both sides of attachment (to agency and awareness), and detachement in Buddhist [six superpowers](https://en.wikipedia.org/wiki/Abhij%C3%B1%C4%81) (六神通):
 					- Agency side: moving mountains, walking on water, and many other [iddhis](https://en.wikipedia.org/wiki/Iddhi).
 					- Awareness side: [clairaudience](https://en.wikipedia.org/wiki/Clairaudience), [telepathy](https://en.wikipedia.org/wiki/Telepathy), recalling past lives (túc mạng minh), seeing through karma (thiên nhãn minh).
-					- Liberation from both sides: [āsava-kṣaya](https://en.wikipedia.org/wiki/%C4%80sava) (extinction of mental effluents, 漏盡通, lậu tận thông), extinction of the [<span class="link-h3">3 poisons</span>](../../../publish/CommonMark/Mind Jungle.cm.md#6839229d-9eff-49e4-9480-6e2db6f61127).
+					- Liberation from both sides: [āsava-kṣaya](https://en.wikipedia.org/wiki/%C4%80sava) (extinction of mental effluents, 漏盡通, lậu tận thông), extinction of the [<span class="link-h3">3 poisons</span>](../../../publish/CommonMark/Mind%20Jungle.cm.md#6839229d-9eff-49e4-9480-6e2db6f61127).
 				- ### If the Mountain Won’t Move, Then *We* Move! <a class="logseq-meta" id="688c8787-cf67-4db5-814b-172a399d3f00" data-collapsed="true" ></a>
 					- One day, a group of disciples fascinated by supernatural powers asked their master:
 					  <br>— **Disciples:** Master, please teach us the art of [moving mountains and draining seas](#688c88bf-a979-4a94-815b-b7488106c325).
@@ -2913,12 +2913,12 @@
 					- Walking on water is an [iddhi](https://en.wikipedia.org/wiki/Iddhi) in iddhi-vidhā (supranormal powers), while iddhi-vidhā is one in [six superpowers](https://en.wikipedia.org/wiki/Abhij%C3%B1%C4%81) (六神通) in Buddhism, in which [āsava-kṣaya](https://en.wikipedia.org/wiki/%C4%80sava) (extinction of mental effluents, 漏盡通, lậu tận thông) is the most valuable in the path of liberation, as shown in the [Sāmaññaphala Sutta (The Fruits of the Contemplative Life)](https://www.dhammatalks.org/suttas/DN/DN02.html).
 					- This story is usually told to address the [Buddhist view on miracles](https://en.wikipedia.org/wiki/Miracles_of_Gautama_Buddha?utm_source=chatgpt.com#Buddhist_view_on_miracles): they are dangerous and something that could lead to self-glorification.
 					- In the [Buddhist monastic code](https://en.wikipedia.org/wiki/Vinaya), the Buddha laid down a rule forbidding his monks from showing off supranormal powers to laypeople.
-		- Weekends 2nd-3rd August, tried to equalize my 3 great intents – likes (Unïnfo, [emotional attachment](../../../publish/CommonMark/Mind Jungle.cm.md#67b541cf-323e-4efd-8d6e-ccb2c9d017ff)) versus dislikes (company works, business) – and at last, i saw the technique of [intents penetration via perfect throughness](../../../publish/CommonMark/Mind Jungle.cm.md#689029a3-c02b-4cb9-b1bd-205f12c97391).
+		- Weekends 2nd-3rd August, tried to equalize my 3 great intents – likes (Unïnfo, [emotional attachment](../../../publish/CommonMark/Mind%20Jungle.cm.md#67b541cf-323e-4efd-8d6e-ccb2c9d017ff)) versus dislikes (company works, business) – and at last, i saw the technique of [intents penetration via perfect throughness](../../../publish/CommonMark/Mind%20Jungle.cm.md#689029a3-c02b-4cb9-b1bd-205f12c97391).
 		- 4th, shared with Mr. Hải, my new team leader, about my working motivation (working for brothership, not for money), and get back to the work a little bit. <a class="logseq-meta" data-collapsed="true" ></a>
-			- Putting my hands into the official works for just a moment, the Unïnfo intents just matched the tedious threads there strongly and pulled me back to the [thread mixing & unmixing](2025 Brainstorms.cm.md#6850be86-058c-45b4-9b4a-de92ebb4caff) with [<span class="link-h3">obop projection</span>](../../../publish/CommonMark/Uniinfo.cm.md#68908fbd-acc3-41a6-8c38-17ee1f014223).
+			- Putting my hands into the official works for just a moment, the Unïnfo intents just matched the tedious threads there strongly and pulled me back to the [thread mixing & unmixing](2025%20Brainstorms.cm.md#6850be86-058c-45b4-9b4a-de92ebb4caff) with [<span class="link-h3">obop projection</span>](../../../publish/CommonMark/Uniinfo.cm.md#68908fbd-acc3-41a6-8c38-17ee1f014223).
 		- 5th, restarted some works of company, then got more involved after the meeting. <a class="logseq-meta" data-collapsed="true" ></a>
 			- On the way home, i spotted the urge to take advantage of free time to contemplate Unïnfo, then released it by focusing on the zero intent.
-			- At home, some breakage reminded me to have a stronger reset and to train [intents penetration](../../../publish/CommonMark/Mind Jungle.cm.md#689029a3-c02b-4cb9-b1bd-205f12c97391) with [intent dissolution](../../../publish/CommonMark/Mind Jungle.cm.md#668f5490-c223-4a8a-9cc4-0bd71af4c097). <a class="logseq-meta" id="6892ac8b-8b7c-4129-8a62-5c38065f7898" ></a>
+			- At home, some breakage reminded me to have a stronger reset and to train [intents penetration](../../../publish/CommonMark/Mind%20Jungle.cm.md#689029a3-c02b-4cb9-b1bd-205f12c97391) with [intent dissolution](../../../publish/CommonMark/Mind%20Jungle.cm.md#668f5490-c223-4a8a-9cc4-0bd71af4c097). <a class="logseq-meta" id="6892ac8b-8b7c-4129-8a62-5c38065f7898" ></a>
 		- 6-7th, drifted away from the official works. <a class="logseq-meta" data-collapsed="true" ></a>
 			- [WEIRD](https://en.wikipedia.org/wiki/WEIRD) (Western, educated, industrialized, rich and democratic) societies and countries
 			- From [reification](https://en.wiktionary.org/wiki/reification) to [<span class="link-h2">concretization</span>](../../../publish/CommonMark/Uniinfo.cm.md#68932036-e868-4468-a891-70cdf09ea904)
@@ -2932,37 +2932,37 @@
 				- Collin Raye's [Love Remains](https://youtu.be/yLxCVAWjGek)
 					- [Video with slideshow](https://youtu.be/90VX7DOWsmU)
 					- Posted to fb many times: [Oct 20214](https://www.facebook.com/lexuandinhct/posts/963880876962533), [Dec 2016](https://www.facebook.com/lexuandinhct/posts/pfbid02AFHU5Vpi98GhXMABnbZfDc4uENB1UxsmeWqXR4pofFTMUcTynB1zZemuiF5LXwMGl), [Mar 20218](https://www.facebook.com/lexuandinhct/posts/pfbid029wUyFEALydazMLkXfWWkRQGCqa4tAnPEXALM9edft94763DnZ3gRyPqdi8cf9no2l), [Dec 2018](https://www.facebook.com/lexuandinhct/posts/pfbid0TFLsTNasyqNVfMwDW38PiWLyebU3tqjMdwfGDbhnbaHxBnoqnV69ktAG9tCQL94Tl).
-			- Updated [CreatZy style](../../../publish/CommonMark/Mind Jungle.cm.md#684f951b-4f21-4783-a4a6-3fe5d638c64c).
-		- 9-10th, weekends, focusing on the empty center, i had some well done [detach–attach](../../../publish/CommonMark/Mind Jungle.cm.md#68871d20-c27b-4b0d-8342-b8af093e5849) in tantric practice. <a class="logseq-meta" data-collapsed="true" ></a>
-			- [While the Buddha talked about the **self**, i contemplate the **form** and the **order**.](2025 Brainstorms.cm.md#68994c7c-335a-4a31-836b-ff7fa9bb3e67)
-			  <br>→ [Passive & active obop](2025 Brainstorms.cm.md#68994c7c-695a-49db-aae6-e776186f6a85)
-			- [order](2025 Brainstorms.cm.md#68994c7c-335a-4a31-836b-ff7fa9bb3e67) > unaware intent > ungraspable content of impenetrable crystal form > central position of representative & distortion via viewcone > [<span class="link-h3">FoC dynamics</span>](../../../publish/CommonMark/Uniinfo.cm.md#6858b355-fba9-4e61-9f16-bc993a3df44b) <a class="logseq-meta" data-collapsed="true" ></a>
+			- Updated [CreatZy style](../../../publish/CommonMark/Mind%20Jungle.cm.md#684f951b-4f21-4783-a4a6-3fe5d638c64c).
+		- 9-10th, weekends, focusing on the empty center, i had some well done [detach–attach](../../../publish/CommonMark/Mind%20Jungle.cm.md#68871d20-c27b-4b0d-8342-b8af093e5849) in tantric practice. <a class="logseq-meta" data-collapsed="true" ></a>
+			- [While the Buddha talked about the **self**, i contemplate the **form** and the **order**.](2025%20Brainstorms.cm.md#68994c7c-335a-4a31-836b-ff7fa9bb3e67)
+			  <br>→ [Passive & active obop](2025%20Brainstorms.cm.md#68994c7c-695a-49db-aae6-e776186f6a85)
+			- [order](2025%20Brainstorms.cm.md#68994c7c-335a-4a31-836b-ff7fa9bb3e67) > unaware intent > ungraspable content of impenetrable crystal form > central position of representative & distortion via viewcone > [<span class="link-h3">FoC dynamics</span>](../../../publish/CommonMark/Uniinfo.cm.md#6858b355-fba9-4e61-9f16-bc993a3df44b) <a class="logseq-meta" data-collapsed="true" ></a>
 				- We want to know all in order to control all.
 				- I accepted limit of knowledge years ago, but only now do i accept the limit of awareness, even though it's obvious with the viewcone!
 					- The illusion of unlimited knowledge is due to the abstraction of the whole Universe into some simple laws.
 					- The illusion of unlimited awareness is due to the omniview at the empty center.
 					- Accepting the limit of knowledge, i turn inward for development.
-					- Accepting the limit of awareness, i practice skillful [<span class="link-h3">reset</span>](../../../publish/CommonMark/Mind Jungle.cm.md#67445065-15b2-475e-a704-78f140d487af) so that i can return to the zero (empty center) faster and smoother, instead of trying to stay there all the time.
+					- Accepting the limit of awareness, i practice skillful [<span class="link-h3">reset</span>](../../../publish/CommonMark/Mind%20Jungle.cm.md#67445065-15b2-475e-a704-78f140d487af) so that i can return to the zero (empty center) faster and smoother, instead of trying to stay there all the time.
 						- The "stay in the zero all the time" is just another attachement, clingging to the zero!
-						- The [intent equalization](../../../publish/CommonMark/Mind Jungle.cm.md#68871ce1-eb57-4be3-ad48-45af6ccb5d49) also helps by reducing the resistence against reset.
+						- The [intent equalization](../../../publish/CommonMark/Mind%20Jungle.cm.md#68871ce1-eb57-4be3-ad48-45af6ccb5d49) also helps by reducing the resistence against reset.
 		- 11th, contintue with tantric pactice. <a class="logseq-meta" data-collapsed="true" ></a>
 			- [MTProto proxies](https://mtpro.xyz/mtproto) for Telegram (mostly Persian) <a class="logseq-meta" data-collapsed="true" ></a>
 				- [proxy2.icortana.com](https://t.me/proxy?server=proxy2.icortana.com&port=1001&secret=3e31ad980db70f83f9f4979994dd7dd4): پروکسی برند (PROXY BRAND): Proxy provider to get around the [Telegram ban](https://en.wikipedia.org/wiki/Telegram_in_Iran#Full_blocking) of the Islamic Republic of Iran
 				- [belgium.antwerp.ir](https://t.me/proxy?server=belgium.antwerp.ir&port=23&secret=eeNEgYdJvXrFGRMCIMJdCQ): جادوی زیبایی (The Magic of Beauty): cosmetic products seller
 				- [ilovehim.mnbtm.ir](https://t.me/proxy?server=ilovehim.mnbtm.ir&port=45&secret=ee845a84551675092139db3da9d5b2ff4d696c6f766568696d2e6d6e62746d2e6972): پروکسی وتوییت persian (Persian proxy and tweet): network service vendor
-		- 12th, a day focusing on company's work. Wondering about my lack of jadedness, i saw the reason [why people get jaded](2025 Brainstorms.cm.md#689c0223-5aeb-4196-a2bd-04aaf4e8770d). <a class="logseq-meta" data-collapsed="true" ></a>
+		- 12th, a day focusing on company's work. Wondering about my lack of jadedness, i saw the reason [why people get jaded](2025%20Brainstorms.cm.md#689c0223-5aeb-4196-a2bd-04aaf4e8770d). <a class="logseq-meta" data-collapsed="true" ></a>
 		- 13-14th, got more involved in the company's work, thanks to meeting and interaction with colleagues. <a class="logseq-meta" data-collapsed="true" ></a>
 			- [Smart Auto Move](https://github.com/khimaros/smart-auto-move) extension of GNOME has been disabled after a system update.
 				- Oh, the whole `Extensions` is switched off ⇒ Just switch this on, then the Smart Auto Move extension is on, too.
 			- After 20:00 (Aug 13), `git1.lan.skygate.co.jp` suddenly lost DNS `A` records, no matter how i `dig` `mgmt-gitlab-*.amazonaws.com` 😯 <a class="logseq-meta" id="689c9111-0ca8-4268-911b-79588a4f5e30" ></a>
 				- Today (Aug 14), the `A` records appear again after `dig`ging `mgmt-gitlab-*.amazonaws.com`. Don't know why!
 			- At lunchtime, i realized that my intent of my involvement in the current work in the company project was “proving the correctness of my idea”, then i release it.
-		- 16-17th weekends, thinking in [In–Ex Presence](../../../publish/CommonMark/Mind Jungle.cm.md#68a2a2b1-4565-401d-80ee-9c412b97da35): the thought is brought before the (internal) eye, so it loses its control power. <a class="logseq-meta" data-collapsed="true" data-logbook="CLOCK: [2025-08-18 Mon 07:57:59]&#10;" ></a>
+		- 16-17th weekends, thinking in [In–Ex Presence](../../../publish/CommonMark/Mind%20Jungle.cm.md#68a2a2b1-4565-401d-80ee-9c412b97da35): the thought is brought before the (internal) eye, so it loses its control power. <a class="logseq-meta" data-collapsed="true" data-logbook="CLOCK: [2025-08-18 Mon 07:57:59]&#10;" ></a>
 			- Bringing intents to the front is harder, but much easier than in eyes open situations.
 			- I tried this technique years ago but not very successful... until now.
 				- Today's success mainly thanks to the awareness of the driving intents.
-			- [The verb ((68a7de4b-7072-4ec1-907e-5a0d9fdba859)) in Unïnfo has the general meaning parallel with its [noun “intent”](((687f7bca-3f80-4a42-93b0-2dd9996ff426))), as shown with the ((68df2d82-e1d5-49c4-ac40-d45cf26f840c)): “to direct attention to and focus on a target within the subject”.](../../../publish/CommonMark/Uniinfo.cm.md#68a7de6e-fbe8-4fb9-8dc1-6279c066565f)
-			- [((677e76ed-b324-4608-b146-90e8fcfa0c32)) in knowledge circle = intent (know-why) = arrow returning to the root obop = qualifier = verifier = complement of the result/answer of the problem/question (know-where, know-what, formal cause)](../../../publish/CommonMark/Uniinfo.cm.md#68a7e246-8407-4e89-b393-912db172e4fe)
+			- [The verb intend in Unïnfo has the general meaning parallel with its [noun “intent”](The general intent versus the strongly volitional “intent” in common usage), as shown with the intent double cone: “to direct attention to and focus on a target within the subject”.](../../../publish/CommonMark/Uniinfo.cm.md#68a7de6e-fbe8-4fb9-8dc1-6279c066565f)
+			- [intentional cause in knowledge circle = intent (know-why) = arrow returning to the root obop = qualifier = verifier = complement of the result/answer of the problem/question (know-where, know-what, formal cause)](../../../publish/CommonMark/Uniinfo.cm.md#68a7e246-8407-4e89-b393-912db172e4fe)
 		- 19th, a day with strong engagement in the official work which led to the [First time directly handle intents in tantric practice](#68a595fd-6761-4b5e-aa64-1e3f0a1fc3be) <a class="logseq-meta" id="68a520c4-b31e-4256-bdfd-3e6f249ea0b9" data-collapsed="true" ></a>
 			- The two-strand rope model for the [double-dotted i (ï)](../../../publish/CommonMark/Uniinfo.cm.md#68a3ea54-f275-40b8-93ae-4a2bd8da4a06) in “Unïnfo” <a class="logseq-meta" id="68a520c4-6a2e-4db9-8806-c4b4e55390e8" data-collapsed="true" ></a>
 				- Copilot has drawn an artistic clipart but it cannot modify it precisely (the main drawback of its creativity).
@@ -2981,7 +2981,7 @@
 							- ![TwistingDoubleI.200x300.webm](../assets/Uniinfo/TwistingDoubleI/TwistingDoubleI.200x300.webm)
 						- YouTube: [Twisting Double i – the “ï” of “Unïnfo”](https://www.youtube.com/shorts/evIXwWj9IFA) <a class="logseq-meta" id="698430b1-8693-444c-bee6-ae86f314c9f7" ></a>
 						- 3D model page: [Uniinfo/TwistingDoubleI](https://github.com/bixycler/Uniinfo/tree/main/TwistingDoubleI).[html](https://bixycler.github.io/Uniinfo/TwistingDoubleI/TwistingDoubleI.html)
-							- Both [TwistingDoubleI](https://github.com/bixycler/Uniinfo/tree/main/TwistingDoubleI) and [Unitorus](https://github.com/bixycler/Uniinfo/tree/main/Unitorus) are ***manually* mirrored** with [<span class="link-h2">UniinfoNotes</span>](../../../publish/CommonMark/Mind Jungle.cm.md#666baccf-6be1-4b9a-b186-f883ea04daf1)/assets/Uniinfo/{[TwistingDoubleI](../assets/Uniinfo/TwistingDoubleI),[Unitorus](../assets/Uniinfo/Unitorus)}.
+							- Both [TwistingDoubleI](https://github.com/bixycler/Uniinfo/tree/main/TwistingDoubleI) and [Unitorus](https://github.com/bixycler/Uniinfo/tree/main/Unitorus) are ***manually* mirrored** with [<span class="link-h2">UniinfoNotes</span>](../../../publish/CommonMark/Mind%20Jungle.cm.md#666baccf-6be1-4b9a-b186-f883ea04daf1)/assets/Uniinfo/{[TwistingDoubleI](../assets/Uniinfo/TwistingDoubleI),[Unitorus](../assets/Uniinfo/Unitorus)}.
 					- Instead of the complex rope with many levels of twisting (strand, rope yarn, plied yarn, base yarn, fiber), we model just a **two-ply yarn** plied from simple cylindrical strands. <a class="logseq-meta" data-collapsed="true" ></a>
 						- The word “ply” is from the PIA root [pleḱ-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/ple%E1%B8%B1-) meaning “plait, fold, weave”: *apply* (fold toward), *reply* (fold back), *implicit* (folded in), *explicit* (unfolded), *complicated* (folded together), etc.
 							- Evolution by application (folding forward) & trimming:
@@ -3028,7 +3028,7 @@
 						- because problems & questions are only gaps in the known (established & stable knowledge circle),
 						- while tasks are gaps in the unknown (the tasks assigner) ← i have no trust in the task issuer.
 							- The assigned tasks usually lack the deep “why”.
-							- => Contemplating this lack of trust in people & system against my trust & faith in God (Nature, Universe, the Great, the One), i see [The true faith/trust requires acceptance of the negative results.](2025 Brainstorms.cm.md#68a53a70-3f35-497b-a610-703d8a6665e5)
+							- => Contemplating this lack of trust in people & system against my trust & faith in God (Nature, Universe, the Great, the One), i see [The true faith/trust requires acceptance of the negative results.](2025%20Brainstorms.cm.md#68a53a70-3f35-497b-a610-703d8a6665e5)
 						- My deep consideration about a simple noun phrase for “task work” reflects my preference of question answering over just "writing it down". <a class="logseq-meta" data-logbook="CLOCK: [2025-08-20 Wed 11:08:37]&#10;CLOCK: [2025-08-20 Wed 11:08:42]--[2025-08-20 Wed 11:14:12] =&gt;  00:05:30&#10;" ></a>
 							- After writting down "task doing" , i wondered if it's natural,
 							- then considered "task execution" but felt it a little technical,
@@ -3091,11 +3091,11 @@
 					- For cross-domain requests, setting the content type to anything other than `application/x-www-form-urlencoded`, `multipart/form-data`, or `text/plain` will trigger the browser to send a preflight `OPTIONS` request to the server.
 				- `jQuery.ajax()` with `crossDomain = true`
 					- If you wish to force a crossDomain request (such as JSONP) on the same domain, set the value of crossDomain to true. This allows, for example, **server-side redirection** to another domain.
-		- 20th, the whole day caught up with [The true faith/trust requires acceptance of the negative results.](2025 Brainstorms.cm.md#68a53a70-3f35-497b-a610-703d8a6665e5)
-		- 21st, the whole day caught up with UniinfoNotes: [trust = acceptance of negative](2025 Brainstorms.cm.md#68a53a70-3f35-497b-a610-703d8a6665e5); [twisted double i](#68a520c4-6a2e-4db9-8806-c4b4e55390e8).
-		- 22nd, the whole day caught up with UniinfoNotes: [<span class="link-h3">view cone</span>](../../../publish/CommonMark/Uniinfo.cm.md#6672513b-c4b0-4c88-8b30-c60a3c6555a7); [intent = behind the eye](../../../publish/CommonMark/Mind Jungle.cm.md#68a520bf-adba-4d78-9e3d-5f41de9f8153); [twisted double i](#68a520c4-6a2e-4db9-8806-c4b4e55390e8). <a class="logseq-meta" data-collapsed="true" ></a>
+		- 20th, the whole day caught up with [The true faith/trust requires acceptance of the negative results.](2025%20Brainstorms.cm.md#68a53a70-3f35-497b-a610-703d8a6665e5)
+		- 21st, the whole day caught up with UniinfoNotes: [trust = acceptance of negative](2025%20Brainstorms.cm.md#68a53a70-3f35-497b-a610-703d8a6665e5); [twisted double i](#68a520c4-6a2e-4db9-8806-c4b4e55390e8).
+		- 22nd, the whole day caught up with UniinfoNotes: [<span class="link-h3">view cone</span>](../../../publish/CommonMark/Uniinfo.cm.md#6672513b-c4b0-4c88-8b30-c60a3c6555a7); [intent = behind the eye](../../../publish/CommonMark/Mind%20Jungle.cm.md#68a520bf-adba-4d78-9e3d-5f41de9f8153); [twisted double i](#68a520c4-6a2e-4db9-8806-c4b4e55390e8). <a class="logseq-meta" data-collapsed="true" ></a>
 			- Rendering the twisted double i on HTML: Up to 5 hours (16-21 PM) was taken for debugging the `THREE.Object3D.DefaultUp` (Y vs Z)... only to see that ColladaLoader has already rotated the model from Z to Y around Z!
-			- [Turing Deterministic / unbound deterministic = bound / unbound intent cone](2025 Brainstorms.cm.md#68ac60bb-321e-44da-8f44-4f688e611d3e)
+			- [Turing Deterministic / unbound deterministic = bound / unbound intent cone](2025%20Brainstorms.cm.md#68ac60bb-321e-44da-8f44-4f688e611d3e)
 		- Weekends 23rd-24th, prepared for the trip to in the 2/9 holiday ([Vietnam Independence Day](https://en.wikipedia.org/wiki/National_Day_(Vietnam))) and monitored the cyclone approaching North Vietnam. <a class="logseq-meta" data-collapsed="true" ></a>
 			- [Cyclone 🌀](https://photos.app.goo.gl/mc85bCpNVUo537ym6) <a class="logseq-meta" data-collapsed="true" ></a>
 				- Two opposite sides of the same cyclone:
@@ -3143,8 +3143,8 @@
 				- Chrome plays the file very well, with good quality (similar to the rendered canvas).
 				- Firefox, LVC play the file with poor quality: colors and reflection light are poor.
 			- So at last, i must mirror the 3D canvas of THREE.js to a 2D canvas for recording.
-			- ⇒ I saw [The deathtrap of opportunity](../../../publish/CommonMark/Mind Jungle.cm.md#68adb0c5-e979-475e-8432-730d9d8970bc)
-		- 26th, project meeting and draw diagrams with [Mermaid](../../../publish/CommonMark/Mind Jungle.cm.md#68ad91c4-0083-432f-a90d-e2401b072919) in [logseq-fenced-code-plus](../../../publish/CommonMark/Mind Jungle.cm.md#68ad8f51-795d-4f17-ad90-f8b97968e478).
+			- ⇒ I saw [The deathtrap of opportunity](../../../publish/CommonMark/Mind%20Jungle.cm.md#68adb0c5-e979-475e-8432-730d9d8970bc)
+		- 26th, project meeting and draw diagrams with [Mermaid](../../../publish/CommonMark/Mind%20Jungle.cm.md#68ad91c4-0083-432f-a90d-e2401b072919) in [logseq-fenced-code-plus](../../../publish/CommonMark/Mind%20Jungle.cm.md#68ad8f51-795d-4f17-ad90-f8b97968e478).
 		- 27th, thanks to an appointment with a QA collegue, this morning was filled with works related to the project, and took advantage of the last morning hour to do the long waited lask [DONE [!] Làm lại thẻ VCB](../../../publish/CommonMark/Task.cm.md#686e580a-a0d6-4e0c-981c-e15665b8e4d0). <a class="logseq-meta" data-collapsed="true" ></a>
 			- The bliss of ignorance and the burden of knowledge and awareness! <a class="logseq-meta" data-collapsed="true" ></a>
 				- The “burden of knowledge” is the burdens and sufferings that the knowledge brings to its bearer.
@@ -3177,7 +3177,7 @@
 						- Refining it, i arrived at the approach of “**push-redirect**”, then asked ChatGPT for clearer examination.
 							- ChatGPT suggested a combination of back-channel push and front-channel pushe via websockets, but its overcomplicated and difficult to pinpoint the correct browser for the push target.
 							- So i just stay with my original push-redirect approach.
-				- ⇒ [Review the ((68b16f0e-f3bf-49d3-b465-ef9db4b5a82c))](#68b17f4c-efe4-4de3-a99b-599b55478995)
+				- ⇒ [Review the Story of pull/push redirects](#68b17f4c-efe4-4de3-a99b-599b55478995)
 		- 29th, morning slept to make up for last night; lunch saw the [pressures causing headache](#68b180fe-23ea-4fd6-8da3-89d46858332e), then walke to the river-side park for meditation where i saw [the restoring force toward the fixated impression](#68b19896-8640-4e28-9c7f-f7ca41d1e680). <a class="logseq-meta" data-collapsed="true" ></a>
 			- Review the [Story of pull/push redirects](#68b16f0e-f3bf-49d3-b465-ef9db4b5a82c) <a class="logseq-meta" id="68b17f4c-efe4-4de3-a99b-599b55478995" ></a>
 				- From the beginning of last night, i had mild headache, to the end it had increased to a rather strong one.
@@ -3187,7 +3187,7 @@
 					- contraction in breath hold diving: the pressure is very clear due to the strong contractions.
 					- mental pressures in interaction and in work: to find solution, to return to the fixated impressions (understanding, seeing clear/through, being correct/logical/sound/perfect)
 						- This [tension headache](https://en.wikipedia.org/wiki/Tension_headache) is what people called “headache from thinking too hard”.
-						- This is a kind of **aversion**, one of the [<span class="link-h3">3 poisons</span>](../../../publish/CommonMark/Mind Jungle.cm.md#6839229d-9eff-49e4-9480-6e2db6f61127), driven by the feeling that “it can't be wrong!” or “It's impossible!”
+						- This is a kind of **aversion**, one of the [<span class="link-h3">3 poisons</span>](../../../publish/CommonMark/Mind%20Jungle.cm.md#6839229d-9eff-49e4-9480-6e2db6f61127), driven by the feeling that “it can't be wrong!” or “It's impossible!”
 				- Pressure ← restoring force toward the fixated impression ← intents ← impressions in the past + fixation <a class="logseq-meta" id="68b19896-8640-4e28-9c7f-f7ca41d1e680" ></a>
 					- While the restoring force toward the fixated impression is universal and has been known for a long time, the **pressure** generated by it was only recognized this time.
 			- [Erin hurricane 2025 Aug](https://en.wikipedia.org/wiki/Hurricane_Erin_(2025)) from 15th to 22nd, reaching category 5 <a class="logseq-meta" data-collapsed="true" ></a>
@@ -3198,9 +3198,9 @@
 				- Erin hurricane 2025 Aug 20th lightning
 				  <br>![Erin-hurricane-2025-Aug-20-lightning.mp4](../assets/Will/story/2025-08/Erin-hurricane-2025-Aug-20-lightning.mp4)
 				- I intended to add these clips to the album [Cyclone 🌀](https://photos.app.goo.gl/mc85bCpNVUo537ym6), but Google Photos has stopped supporting video play. So i just save them here! 😊
-		- September 2nd holidays, in an LSD trip, i got a the vision of [“Every empty point is the whole world, the whole life!”](2025 Brainstorms.cm.md#68b79197-1244-4b42-b79f-464cfc8433a1) and [My wife got the first experience of going through the gate of death (cửa tử, 死門) for many times.](#68b7ebd7-caee-4cae-b361-6540cfc23bf8) From that vision, i extracted a down-to-earth explanation about [The role of the subject in all experiences via ((68e719d7-a5ea-469e-bf8a-44251dd8948a))](2025 Brainstorms.cm.md#68e7152a-b431-42e9-b97f-c2094e04ce86). <a class="logseq-meta" data-collapsed="true" ></a>
-			- [“Every empty point is the whole world, the whole life!”](2025 Brainstorms.cm.md#68b79197-1244-4b42-b79f-464cfc8433a1)
-			- [The role of the subject in all experiences via ((68e719d7-a5ea-469e-bf8a-44251dd8948a))](2025 Brainstorms.cm.md#68e7152a-b431-42e9-b97f-c2094e04ce86) <a class="logseq-meta" data-collapsed="true" ></a>
+		- September 2nd holidays, in an LSD trip, i got a the vision of [“Every empty point is the whole world, the whole life!”](2025%20Brainstorms.cm.md#68b79197-1244-4b42-b79f-464cfc8433a1) and [My wife got the first experience of going through the gate of death (cửa tử, 死門) for many times.](#68b7ebd7-caee-4cae-b361-6540cfc23bf8) From that vision, i extracted a down-to-earth explanation about [The role of the subject in all experiences via subject–object complementarity](2025%20Brainstorms.cm.md#68e7152a-b431-42e9-b97f-c2094e04ce86). <a class="logseq-meta" data-collapsed="true" ></a>
+			- [“Every empty point is the whole world, the whole life!”](2025%20Brainstorms.cm.md#68b79197-1244-4b42-b79f-464cfc8433a1)
+			- [The role of the subject in all experiences via subject–object complementarity](2025%20Brainstorms.cm.md#68e7152a-b431-42e9-b97f-c2094e04ce86) <a class="logseq-meta" data-collapsed="true" ></a>
 			- My wife got the first experience of going through the gate of death (cửa tử, 死門) for many times. <a class="logseq-meta" id="68b7ebd7-caee-4cae-b361-6540cfc23bf8" ></a>
 				- With this experience, she's got the vision of the whole circle of life in her mind, so that she's seen the only way for liberation is to go through it, but no other way to avoid or flee.
 				- The next day, going to the tree house of Bảo–Lụa, she got the first time a pleasing feeling about the garden environment.
@@ -3301,7 +3301,7 @@
 					  style EastAsia stroke-width:4px,stroke-dasharray: 0
 					  style Vajrayana stroke-width:4px,stroke-dasharray: 0
 					  ```
-		- Sep 6-7th, weekends, [First time get through [aversion (tense)](((6839229d-9eff-49e4-9480-6e2db6f61127))) in tantric practice by ((668f5490-c223-4a8a-9cc4-0bd71af4c097)) technique.](#68be308b-9135-44cd-b2c4-690a267fb8c2) <a class="logseq-meta" data-collapsed="true" ></a>
+		- Sep 6-7th, weekends, [First time get through [aversion (tense)](3 poisons) in tantric practice by sublime–channel technique.](#68be308b-9135-44cd-b2c4-690a267fb8c2) <a class="logseq-meta" data-collapsed="true" ></a>
 			- Compromise: from “com-promise” to “breach”  <a class="logseq-meta" data-collapsed="true" ></a>
 				- Positive sense (15-17th centuries) in **collective** lens: balance, middle way, harmony
 					- In communal societies, compromise was inherently positive.
@@ -3320,14 +3320,14 @@
 					- The “strength” paradox:
 						- For revolutionaries or idealists, “strength” means unyielding pursuit of a goal (no compromise, no middle).
 						- For Buddhists, “strength” means not being swayed to extremes (the harder path of balance, self-mastery).
-			- The Git repo of [<span class="link-h2">UniinfoNotes</span>](../../../publish/CommonMark/Mind Jungle.cm.md#666baccf-6be1-4b9a-b186-f883ea04daf1) has bloated to 1.2GB after a year! <a class="logseq-meta" id="68be3302-6159-44e9-9292-b555320cf3a6" data-collapsed="true" data-logbook="CLOCK: [2025-09-08 Mon 08:37:10]&#10;" ></a>
+			- The Git repo of [<span class="link-h2">UniinfoNotes</span>](../../../publish/CommonMark/Mind%20Jungle.cm.md#666baccf-6be1-4b9a-b186-f883ea04daf1) has bloated to 1.2GB after a year! <a class="logseq-meta" id="68be3302-6159-44e9-9292-b555320cf3a6" data-collapsed="true" data-logbook="CLOCK: [2025-09-08 Mon 08:37:10]&#10;" ></a>
 				- [MGit on mobile](#686b2cfe-dbc3-4ef6-ab07-545865b09609) just failed with error message [Inflater has been closed](https://github.com/maks/MGit/issues/697).
 				- 2 large dirs: `.git/` = 841MB; `assets/` = 328MB
 					- The fine-grained tracking `log` branch should be reset, with the old history archived to `log01`.
 						- `log01`: `1e352c73`...`7e99c79e`: 2024 Oct 17 ~ 2025 Sep 05
 					- For `mobile` branch, `assets/` should be trimmed, and history should be squashed.
 				- The dedicated branch `mobile` contains a trimmed repo with <a class="logseq-meta" id="68be3aea-4967-4910-aac4-7fd6b084d195" data-logbook="CLOCK: [2025-09-10 Wed 08:12:21]--[2025-09-10 Wed 16:30:44] =&gt;  08:18:23&#10;" ></a>
-					- a full `logseq/config.edn` ← [global `config.edn`](#66fe86b8-f17e-4b3f-b27f-213b3500146f)
+					- a full `logseq/config.edn` ← [global `config.edn`](../../../materials/logseq/publish/CommonMark/logseq___config.edn.cm.md#66fe86b8-f17e-4b3f-b27f-213b3500146f)
 					- `mobile` history contains only 3 commits: `{init}` + `[base]` squashing all the history + `[mobile]` containing mods for mobile + (temporary merge squashed commits from `log`).
 						- Update `mobile` with merge squashed from `log`
 							- Normally, just [merge-squash-trim-mobile.sh](../assets/Linux/scripts/merge-squash-trim-mobile.sh) `log`.
@@ -3337,14 +3337,14 @@
 					- Add a [`mobile` remote repo](https://github.com/bixycler/UniinfoNotes-mobile) to track only [UniinfoNotes/mobile](https://github.com/bixycler/UniinfoNotes/tree/mobile), in order to solve the [MGit error on Android](#68be3302-6159-44e9-9292-b555320cf3a6). <a class="logseq-meta" id="68bfc115-862d-4016-b9df-b157b685ee9d" data-logbook="CLOCK: [2025-09-09 Tue 12:55:42]--[2025-09-09 Tue 13:18:09] =&gt;  00:22:27&#10;" ></a>
 						- The main pull/push remote is set to `UniinfoNotes-mobile`, but both remotes should be synced: `mobile` = `origin/mobile` = `mobile/mobile`
 					- <zwsp>
-			- First time get through [aversion (tense)](../../../publish/CommonMark/Mind Jungle.cm.md#6839229d-9eff-49e4-9480-6e2db6f61127) in tantric practice by [<span class="link-h3">sublime–channel</span>](../../../publish/CommonMark/Mind Jungle.cm.md#668f5490-c223-4a8a-9cc4-0bd71af4c097) technique. <a class="logseq-meta" id="68be308b-9135-44cd-b2c4-690a267fb8c2" ></a>
-				- The [full-body breath](../../../publish/CommonMark/Mind Jungle.cm.md#68594391-faeb-4f7e-87e1-9ea179c2639b) keeps us from greed (lack), the [sublime breath](../../../publish/CommonMark/Mind Jungle.cm.md#68594391-db9c-4d1a-b578-045d87d3e038) clears all blockages, constrictions, so that we're not tense or averse.
+			- First time get through [aversion (tense)](../../../publish/CommonMark/Mind%20Jungle.cm.md#6839229d-9eff-49e4-9480-6e2db6f61127) in tantric practice by [<span class="link-h3">sublime–channel</span>](../../../publish/CommonMark/Mind%20Jungle.cm.md#668f5490-c223-4a8a-9cc4-0bd71af4c097) technique. <a class="logseq-meta" id="68be308b-9135-44cd-b2c4-690a267fb8c2" ></a>
+				- The [full-body breath](../../../publish/CommonMark/Mind%20Jungle.cm.md#68594391-faeb-4f7e-87e1-9ea179c2639b) keeps us from greed (lack), the [sublime breath](../../../publish/CommonMark/Mind%20Jungle.cm.md#68594391-db9c-4d1a-b578-045d87d3e038) clears all blockages, constrictions, so that we're not tense or averse.
 				- ⇒ Live fully in the present, not sucked toward a target in the future (greed), nor clingging to an impression in the past (aversion).
 			- Logseq AI: No working plugin for free APIs like Gemini.
-			  <br>⇒ Use separate data indexers like [AnythingLLM](../../../publish/CommonMark/Mind Jungle.cm.md#68be308b-f247-4c5a-b8b7-96a3fbc8a25b).
-				- [AssistSeq](../../../publish/CommonMark/Mind Jungle.cm.md#68be4ad9-b2de-4ac7-ad17-6b5ac8478ac9) is most promising with context & free API of Gemini, but abandoned.
-				- [AI Assistant](../../../publish/CommonMark/Mind Jungle.cm.md#68be4a6e-f672-4892-b072-732eb034fac9) requires paid API from OpenAI.
-				- [Ollama](../../../publish/CommonMark/Mind Jungle.cm.md#684f9516-b179-4c37-9feb-f08781466afa) requires models running on local machine.
+			  <br>⇒ Use separate data indexers like [AnythingLLM](../../../publish/CommonMark/Mind%20Jungle.cm.md#68be308b-f247-4c5a-b8b7-96a3fbc8a25b).
+				- [AssistSeq](../../../publish/CommonMark/Mind%20Jungle.cm.md#68be4ad9-b2de-4ac7-ad17-6b5ac8478ac9) is most promising with context & free API of Gemini, but abandoned.
+				- [AI Assistant](../../../publish/CommonMark/Mind%20Jungle.cm.md#68be4a6e-f672-4892-b072-732eb034fac9) requires paid API from OpenAI.
+				- [Ollama](../../../publish/CommonMark/Mind%20Jungle.cm.md#684f9516-b179-4c37-9feb-f08781466afa) requires models running on local machine.
 	- Sound experiment with my đàn bầu. <a class="logseq-meta" data-collapsed="true" data-logbook="CLOCK: [2025-08-04 Mon 08:47:52]&#10;CLOCK: [2025-08-04 Mon 08:49:18]--[2025-08-04 Mon 10:29:18] =&gt;  01:40:00&#10;" ></a>
 		- Flageolet tone ([string harmonic](https://en.wikipedia.org/wiki/String_harmonic)) versus [stopped note](https://en.wikipedia.org/wiki/Stopped_note)
 			- While a stopped note is a complex tone including a [fundamental tone](https://en.wikipedia.org/wiki/Fundamental_tone) and many [overtones](https://en.wikipedia.org/wiki/Harmonic),
@@ -3412,10 +3412,10 @@
 			  <br>> [*Negation of Negation*]: As subject it is pure and simple negativity, and just on that account a process of splitting up what is simple and undifferentiated, a process of duplicating and setting factors in opposition, which [process] in turn is the negation of this indifferent diversity and of the opposition of factors it entails. 
 			  <br>> [Self-restoring Sameness]: True reality is merely this process of **reinstating self-identity**, of **reflecting** into its own self in and *from its other*, and is not an original and primal unity as such, not an immediate unity as such. It is the process of its own becoming, _the **circle** which presupposes its end as its purpose, and has its end for its beginning_; it becomes concrete and actual only by being carried out, and by the end it involves.
 	- September journal: Try to live fully in the present, September 2025. <a class="logseq-meta" id="68be8447-81b0-4094-9964-1bd21e2e31e0" data-collapsed="true" data-logbook="CLOCK: [2025-09-08 Mon 14:22:51]&#10;CLOCK: [2025-09-08 Mon 14:23:19]--[2025-10-01 Wed 10:51:30] =&gt;  548:28:11&#10;" ></a>
-		- Let's try applying [my technique](#68be308b-9135-44cd-b2c4-690a267fb8c2) and integrate the previous [experience](2025 Brainstorms.cm.md#68b79197-1244-4b42-b79f-464cfc8433a1) to the work and life.
+		- Let's try applying [my technique](#68be308b-9135-44cd-b2c4-690a267fb8c2) and integrate the previous [experience](2025%20Brainstorms.cm.md#68b79197-1244-4b42-b79f-464cfc8433a1) to the work and life.
 		- Sep 8th, the whole day caught up with LLM & RAG to index UniinfoNotes, then [AI in [DIKW Pyramid](https://en.wikipedia.org/wiki/DIKW_pyramid)](#68bfc115-dcbf-4e2b-b13e-afa3be10f9b5). <a class="logseq-meta" data-collapsed="true" ></a>
-			- [Free LLM APIs](../../../publish/CommonMark/Mind Jungle.cm.md#68be308b-881b-456f-9782-333ef40c52bb)
-			- [Document indexer for LLM ([RAG](https://en.wikipedia.org/wiki/Retrieval-augmented_generation) over [vector database](https://en.wikipedia.org/wiki/Vector_database) or [graph database](https://en.wikipedia.org/wiki/Graph_database))](../../../publish/CommonMark/Mind Jungle.cm.md#68beba04-5cba-4eca-bc33-6589bf06bfce)
+			- [Free LLM APIs](../../../publish/CommonMark/Mind%20Jungle.cm.md#68be308b-881b-456f-9782-333ef40c52bb)
+			- [Document indexer for LLM ([RAG](https://en.wikipedia.org/wiki/Retrieval-augmented_generation) over [vector database](https://en.wikipedia.org/wiki/Vector_database) or [graph database](https://en.wikipedia.org/wiki/Graph_database))](../../../publish/CommonMark/Mind%20Jungle.cm.md#68beba04-5cba-4eca-bc33-6589bf06bfce)
 			- AI in [DIKW Pyramid](https://en.wikipedia.org/wiki/DIKW_pyramid) <a class="logseq-meta" id="68bfc115-dcbf-4e2b-b13e-afa3be10f9b5" ></a>
 				- Linear data (raw)
 				- Folded info (indexed, compressed)
@@ -3425,10 +3425,10 @@
 					- The imbalance is the dynamic arrow driving the effect circle. => Must be active or lost.
 					- The balanced result is the new circle crystallized from the static/stable effect circle. => Can be put down into storage.
 			- <zwsp>
-		- Sep 9th, [Tested ((68be308b-f247-4c5a-b8b7-96a3fbc8a25b)) over UniinfoNotes](#68bfefa1-b4e8-42e5-890f-de1daccaf61a) <a class="logseq-meta" data-collapsed="true" ></a>
-			- [Add a [`mobile` remote repo](https://github.com/bixycler/UniinfoNotes-mobile) to track only [UniinfoNotes/mobile](https://github.com/bixycler/UniinfoNotes/tree/mobile), in order to solve the [MGit error on Android](((68be3302-6159-44e9-9292-b555320cf3a6))).](#68bfc115-862d-4016-b9df-b157b685ee9d)
-			- [Manifestations of complementarity](2025 Brainstorms.cm.md#68bf9f05-4545-4f07-ad27-9ed4409af1ae)
-			- Tested [AnythingLLM](../../../publish/CommonMark/Mind Jungle.cm.md#68be308b-f247-4c5a-b8b7-96a3fbc8a25b) over UniinfoNotes <a class="logseq-meta" id="68bfefa1-b4e8-42e5-890f-de1daccaf61a" ></a>
+		- Sep 9th, [Tested AnythingLLM over UniinfoNotes](#68bfefa1-b4e8-42e5-890f-de1daccaf61a) <a class="logseq-meta" data-collapsed="true" ></a>
+			- [Add a [`mobile` remote repo](https://github.com/bixycler/UniinfoNotes-mobile) to track only [UniinfoNotes/mobile](https://github.com/bixycler/UniinfoNotes/tree/mobile), in order to solve the [MGit error on Android](The Git repo of UniinfoNotes has bloated to 1.2GB after a year!).](#68bfc115-862d-4016-b9df-b157b685ee9d)
+			- [Manifestations of complementarity](2025%20Brainstorms.cm.md#68bf9f05-4545-4f07-ad27-9ed4409af1ae)
+			- Tested [AnythingLLM](../../../publish/CommonMark/Mind%20Jungle.cm.md#68be308b-f247-4c5a-b8b7-96a3fbc8a25b) over UniinfoNotes <a class="logseq-meta" id="68bfefa1-b4e8-42e5-890f-de1daccaf61a" ></a>
 				- RAG with vector of text chunks
 					- The block [Law of the same content](../../../publish/CommonMark/Uniinfo.cm.md#678e2046-54ac-4284-865d-6f3e38f589a1) cannot be retrieved even when most of its contents are explicitly prompted: <a class="logseq-meta" data-collapsed="true" ></a>
 						- `All beings have the same content.`
@@ -3438,8 +3438,8 @@
 						- `universal content`
 							- `sustent`
 					- With the vector DB option `Accuracy Optimized` (reranking), the block of the law can be retrieved in... half a minute (first time for reranking)! The later times go faster, comparable to the `Default` (no reranking) option.
-				- [System prompt change will take no effect after some prompts, after the momentum (habit) sets in!](../../../publish/CommonMark/Mind Jungle.cm.md#68bfdd91-5882-498f-8973-1f0d2ed8a59f)
-				- [Chatbot can see history + current prompt + contexts (text chunks), but cannot see system prompt.](../../../publish/CommonMark/Mind Jungle.cm.md#68bff76e-cea0-422d-bc9f-fd6456ef2865)
+				- [System prompt change will take no effect after some prompts, after the momentum (habit) sets in!](../../../publish/CommonMark/Mind%20Jungle.cm.md#68bfdd91-5882-498f-8973-1f0d2ed8a59f)
+				- [Chatbot can see history + current prompt + contexts (text chunks), but cannot see system prompt.](../../../publish/CommonMark/Mind%20Jungle.cm.md#68bff76e-cea0-422d-bc9f-fd6456ef2865)
 		- 10th, The [mobile repo trimming](#68be3aea-4967-4910-aac4-7fd6b084d195) task has shown many points: <a class="logseq-meta" data-collapsed="true" ></a>
 			- First, it looked so simple, but then turned out with lots of pitfalls. <a class="logseq-meta" data-collapsed="true" ></a>
 				- MGit does not support `clone --single-branch --branch mobile` 
@@ -3464,7 +3464,7 @@
 				- Last, the reviewing habit is driving me, now.
 			- The last result ([merge-squash-trim-mobile.sh](../assets/Linux/scripts/merge-squash-trim-mobile.sh)) is much simpler than the process of deriving it.
 		- 11th, position uninet relative to Turing machine and rotary system <a class="logseq-meta" id="68c14574-cea2-4325-a43e-d189f38522de" data-collapsed="true" ></a>
-			- Program (Turing machine) = [numeral/rotary system](../../../publish/CommonMark/Mind Jungle.cm.md#6846c7e1-239c-4b39-9ef4-9d2eaba17a52) with branches and multiple radices <a class="logseq-meta" data-collapsed="true" ></a>
+			- Program (Turing machine) = [numeral/rotary system](../../../publish/CommonMark/Mind%20Jungle.cm.md#6846c7e1-239c-4b39-9ef4-9d2eaba17a52) with branches and multiple radices <a class="logseq-meta" data-collapsed="true" ></a>
 				- function = radix = autonoton in uninet
 				- argument (input/output) = carry
 					- numeral carry is just the return.
@@ -3481,12 +3481,12 @@
 					- ← experience = impression from executions
 					- ← world ← input data ← memory
 				- The observer doesn't drive action like the operator, but accumulates experiences, digests it into forms to be integrated into the knowledge graph.
-				- uninet vs ANN = [Possibility versus Probability](2025 Brainstorms.cm.md#68c233ac-f4dc-4222-8ee5-3523317824ff) <a class="logseq-meta" id="68c22b96-6f8a-49e2-93f7-6adc92830f35" ></a>
+				- uninet vs ANN = [Possibility versus Probability](2025%20Brainstorms.cm.md#68c233ac-f4dc-4222-8ee5-3523317824ff) <a class="logseq-meta" id="68c22b96-6f8a-49e2-93f7-6adc92830f35" ></a>
 					- The tendency in ANN is an abstract number, the result of the sum/average of possibilities, the know-how.
 					- The tendency in uninet is the whole bundle of possibilities, the whole process of formation, the know-why.
 					- For action, only probability (know-how) is required.
 					- For **active learning**, instead of passively trained, each possibility should be known for the obop to trace back to the roots (plural!).
-			- Compiling [Possibility versus Probability](2025 Brainstorms.cm.md#68c233ac-f4dc-4222-8ee5-3523317824ff), my tears shed when i remember the [Sting's 1993 song “Shape of My Heart”](2025 Brainstorms.cm.md#68c29b36-d7cb-4dc7-b9ce-42dcb091aa68), as shown in this [fb post](https://www.facebook.com/lexuandinhct/posts/pfbid0ddDi76MUr2tqKrf8f7cWtCqNJ7ekNLg8YhtjjmGu9w8Uz95F1k3hbM2B6wqtqWcHl).
+			- Compiling [Possibility versus Probability](2025%20Brainstorms.cm.md#68c233ac-f4dc-4222-8ee5-3523317824ff), my tears shed when i remember the [Sting's 1993 song “Shape of My Heart”](2025%20Brainstorms.cm.md#68c29b36-d7cb-4dc7-b9ce-42dcb091aa68), as shown in this [fb post](https://www.facebook.com/lexuandinhct/posts/pfbid0ddDi76MUr2tqKrf8f7cWtCqNJ7ekNLg8YhtjjmGu9w8Uz95F1k3hbM2B6wqtqWcHl).
 		- 12th, contemplated the multiple layers of the world separated by scales, and the [Law of the same content](../../../publish/CommonMark/Uniinfo.cm.md#678e2046-54ac-4284-865d-6f3e38f589a1) across scales is so impressive. <a class="logseq-meta" data-collapsed="true" ></a>
 			- Formation of the world:
 				- Layers of the world (& uninets) created by SCIFER are similar to layers of components of computer:
@@ -3518,36 +3518,36 @@
 				- The holomovement is very similar to the [<span class="link-h2">Omnifold</span>](../../../publish/CommonMark/Uniinfo.cm.md#675c03d8-3185-41a8-9f98-e869fabec793) with “enfolding” & “unfolding” as well as the dynamic nature.
 				- The [prehension](https://en.wikipedia.org/wiki/Prehension_(philosophy)) of Whitehead is very similar to cross-level fold-tug of the Omnifold in Ω-thread interaction.
 				- obop’s one-by-one instantiations is similar to [one-electron universe postulate](https://en.wikipedia.org/wiki/One-electron_universe).
-		- 13-14th, weekends, very sleepy... took 3 cycles in a row (normally i take only 2 cycles in weekends)... then got a mild sinus inflammation. I saw a lot about [projective relativity](2025 Brainstorms.cm.md#68c764d5-17c7-4c1c-af2f-697fa222f729), [Effect circle on the [articulated limb](((6846c7e1-239c-4b39-9ef4-9d2eaba17a52)))](2025 Brainstorms.cm.md#68c76471-81de-4de9-bdd9-a2ab866a1184), and [the middle way for uninet](2025 Brainstorms.cm.md#68c76d9f-0ae4-4e93-b8de-1b79a3400fc8). <a class="logseq-meta" id="68c762da-f037-4237-a934-065371c4b60a" data-collapsed="true" ></a>
+		- 13-14th, weekends, very sleepy... took 3 cycles in a row (normally i take only 2 cycles in weekends)... then got a mild sinus inflammation. I saw a lot about [projective relativity](2025%20Brainstorms.cm.md#68c764d5-17c7-4c1c-af2f-697fa222f729), [Effect circle on the [articulated limb](spring doll mind = multi-disk rotary system = [multi-segment articulated arm](https://en.wikipedia.org/wiki/Articulated_robot) ([kinematic chain](https://en.wikipedia.org/wiki/Kinematic_chain)) = antiderivative sequence = perception–action double cone)](2025%20Brainstorms.cm.md#68c76471-81de-4de9-bdd9-a2ab866a1184), and [the middle way for uninet](2025%20Brainstorms.cm.md#68c76d9f-0ae4-4e93-b8de-1b79a3400fc8). <a class="logseq-meta" id="68c762da-f037-4237-a934-065371c4b60a" data-collapsed="true" ></a>
 			- I've received a formal education of too much formalism & foundationalism. <a class="logseq-meta" data-collapsed="true" ></a>
 				- From the start of Uniinfo, it costed me at least 3 years to reset my mind to be free from formal logic, set theory, axiomatic systems, etc., so that i could to touch the first 2 components (Arrow & Circle).
 				- Only now, after about 15 years, can i get back to the middle way, and review my stuck in the bottom-up determinism.
-			- [This scale of passiveness/activeness is also of object/subject, input/output, absorption/emission.](2025 Brainstorms.cm.md#68c764d5-17c7-4c1c-af2f-697fa222f729)
-			- [Effect circle on the [articulated limb](((6846c7e1-239c-4b39-9ef4-9d2eaba17a52)))](2025 Brainstorms.cm.md#68c76471-81de-4de9-bdd9-a2ab866a1184)
-			- [Compare uninet with other systems](2025 Brainstorms.cm.md#68c76d9f-0ae4-4e93-b8de-1b79a3400fc8)
+			- [This scale of passiveness/activeness is also of object/subject, input/output, absorption/emission.](2025%20Brainstorms.cm.md#68c764d5-17c7-4c1c-af2f-697fa222f729)
+			- [Effect circle on the [articulated limb](spring doll mind = multi-disk rotary system = [multi-segment articulated arm](https://en.wikipedia.org/wiki/Articulated_robot) ([kinematic chain](https://en.wikipedia.org/wiki/Kinematic_chain)) = antiderivative sequence = perception–action double cone)](2025%20Brainstorms.cm.md#68c76471-81de-4de9-bdd9-a2ab866a1184)
+			- [Compare uninet with other systems](2025%20Brainstorms.cm.md#68c76d9f-0ae4-4e93-b8de-1b79a3400fc8)
 		- 15th, nearly all the working time was spent for meditation against my sinus inflammation.
 			- While nearly all the working time was spent for meditation against my sinus inflammation, i still squeezed some work contemplation in between.
-		- 16-17th, did the official works, but the inflammation spread down the larynx, then eventually it sprang back to the [contemplation about uninet](2025 Brainstorms.cm.md#68ccaf71-1811-4929-8e74-976bdcd65829).
-		- 18-19th, wrote [FABRIK demo](2025 Brainstorms.cm.md#68c8c9e1-2b4d-4de7-b48a-2aaabab3af5c). <a class="logseq-meta" data-collapsed="true" ></a>
+		- 16-17th, did the official works, but the inflammation spread down the larynx, then eventually it sprang back to the [contemplation about uninet](2025%20Brainstorms.cm.md#68ccaf71-1811-4929-8e74-976bdcd65829).
+		- 18-19th, wrote [FABRIK demo](2025%20Brainstorms.cm.md#68c8c9e1-2b4d-4de7-b48a-2aaabab3af5c). <a class="logseq-meta" data-collapsed="true" ></a>
 			- Create video from images
 			  ```sh
 			  ffmpeg -framerate 2 -pattern_type glob -i 'three-segments-iterative/*.svg' -lossless 1 three-segments-iterative.webm
 			  ```
-		- 20-21st, the cases of [Recovery from coma, vegetative state](2025 Brainstorms.cm.md#68d0e81d-20aa-4fbf-9f7c-f669a16684dd) remind me about my mom 🥰. <a class="logseq-meta" data-collapsed="true" ></a>
+		- 20-21st, the cases of [Recovery from coma, vegetative state](2025%20Brainstorms.cm.md#68d0e81d-20aa-4fbf-9f7c-f669a16684dd) remind me about my mom 🥰. <a class="logseq-meta" data-collapsed="true" ></a>
 			- Garden of Edam in the middle of Sơn Đoòng Cave  <a class="logseq-meta" data-collapsed="true" ></a>
 				- [Google Art & Culture](https://artsandculture.google.com/asset/garden-of-edam-national-geographic-google-arts-culture/jwGeKUomuZcaXw?avm=4)
 				- “Edam” may be “Eden's Adam”, a mixture of “Eden + Eve + Adam”, or even the Dutch [edam cheese](https://en.wikipedia.org/wiki/Edam_cheese)!
 				- Explained [by Oxalis Adventure](https://oxalisadventure.com/the-garden-of-edam-inside-son-doong-cave/): “Garden of Edam” in the largest cave was named to be parallel with the “Garden of Eden” which is the karst valley at the exit of the 2nd largest cave, Deer Cave (Malay: Gua Rusa), because they are both sinkholes.
 					- > The reason for the name Garden of Edam was during the survey and measurement expedition to Son Doong in 2009, the members of British Vietnam Caving Expedition realized that Son Doong was going to be the largest cave in the world. Previously British cavers had discovered Deer Cave in Malaysia which was then the largest cave in the world. The explorers of that cave named the exit of the cave in the jungle “The Garden of Eden”. As a joke the explorers of Son Doong decided to name the second doline “The Garden of Edam”.
 				- “Son Doong” is pronounced “Sir.n Door.ng” or “Surn Dawng”, not “Sun Dung” 😆!
-			- [🪜 Ladder of Awareness Stances](2025 Brainstorms.cm.md#68d0e81d-c8d2-4a97-a847-a3d5d191085b)
-				- [Recovery from coma, vegetative state](2025 Brainstorms.cm.md#68d0e81d-20aa-4fbf-9f7c-f669a16684dd)
-		- 22nd, complete the [FABRIK demo](2025 Brainstorms.cm.md#68c8c9e1-2b4d-4de7-b48a-2aaabab3af5c) in Two.js. <a class="logseq-meta" data-collapsed="true" ></a>
+			- [🪜 Ladder of Awareness Stances](2025%20Brainstorms.cm.md#68d0e81d-c8d2-4a97-a847-a3d5d191085b)
+				- [Recovery from coma, vegetative state](2025%20Brainstorms.cm.md#68d0e81d-20aa-4fbf-9f7c-f669a16684dd)
+		- 22nd, complete the [FABRIK demo](2025%20Brainstorms.cm.md#68c8c9e1-2b4d-4de7-b48a-2aaabab3af5c) in Two.js. <a class="logseq-meta" data-collapsed="true" ></a>
 			- [“Even the word for misunderstanding is misunderstood – thus Avidyā reveals itself.”](#68d0c5f5-00d3-44aa-b35a-17d67ea773f6)
 		- 23rd, sandwiched official work & meeting with personal works. <a class="logseq-meta" data-collapsed="true" ></a>
-			- Morning: [🌈 The gradation of agency from passive to active](2025 Brainstorms.cm.md#68d209a0-3386-46b0-a8f2-beb94d271916)
+			- Morning: [🌈 The gradation of agency from passive to active](2025%20Brainstorms.cm.md#68d209a0-3386-46b0-a8f2-beb94d271916)
 			- Afternoon: official work & meeting
-			- Evening: [Chat with Gemini about the poem ((68d0cf85-569c-42b9-9edb-0560780f039d)) / ((68d0d3ca-bd43-4ad2-b403-f1355ab8d4cb))](#68d35037-a651-4118-b91a-7b17a8f1f8ba)
+			- Evening: [Chat with Gemini about the poem Avidyā’s Mirror / Vô Minh Tự](#68d35037-a651-4118-b91a-7b17a8f1f8ba)
 		- 24-28th, data binding frameworks: from D3 (static binding) to Solid (reactive dynamic binding) <a class="logseq-meta" data-collapsed="true" ></a>
 			- [**Solid D3** for reactive graphical HTML](#68dc949b-d1af-451f-9a6f-c703b7f148bf)
 				- I decided to extract the reactivity core and adapt it for uninet, and leave Solid only for the GUI shell.
@@ -4288,12 +4288,12 @@
 				- Ref: [Every common UI menu icon and its use case](https://blog.logrocket.com/ux-design/every-common-ui-menu-icon/)
 		- 2nd, meditation on the intents <a class="logseq-meta" data-collapsed="true" ></a>
 			- The whole morning, i meditated to reset and observe the intents.
-			- The outflow trough extending from the eye of the merging double cyclone Imelda-Humberto inspired this brainstorm: [A **dynamic front** in fluids is a fold in continuity.](2025 Brainstorms.cm.md#68de2e16-6431-4e02-94b9-a8a8244cf94d)
+			- The outflow trough extending from the eye of the merging double cyclone Imelda-Humberto inspired this brainstorm: [A **dynamic front** in fluids is a fold in continuity.](2025%20Brainstorms.cm.md#68de2e16-6431-4e02-94b9-a8a8244cf94d)
 				- ![DoubleHurricane-Imelda-Humberto-merged-outflow-trough-2025-10-02.png](../assets/Will/story/2025-10/DoubleHurricane-Imelda-Humberto-merged-outflow-trough-2025-10-02.png)
 		- 3rd, intended to do the official work, but ended up working with intents the whole day. <a class="logseq-meta" data-collapsed="true" ></a>
 			- On the way to company, i decided to rename “intent–action double cone” to [“perception–action double cone”](../../../publish/CommonMark/Uniinfo.cm.md#685156b0-2f3b-4aa9-8b87-636d38a02cd2) whose tip is the [intent double cone](../../../publish/CommonMark/Uniinfo.cm.md#68df2d82-e1d5-49c4-ac40-d45cf26f840c).
 				- [<span class="link-h3">perceptual screen</span>](../../../publish/CommonMark/Uniinfo.cm.md#66ea4711-1392-4f5c-bea2-badc71a2fb9e): [concept past cone](../../../publish/CommonMark/Uniinfo.cm.md#66ea8df3-d2f3-4856-b24a-5095dd285f9b) & [present cone](../../../publish/CommonMark/Uniinfo.cm.md#66ea8e12-7c30-449b-9139-bfd8d82394d7) = [perception double cone](../../../publish/CommonMark/Uniinfo.cm.md#68df36a4-6a3e-4fc9-b44a-c8e92f62aee1)
-			- [DOING uninet = refinable program](2025 Brainstorms.cm.md#68df2364-c484-4ddd-b4b5-19ef90228ef4)
+			- [DOING uninet = refinable program](2025%20Brainstorms.cm.md#68df2364-c484-4ddd-b4b5-19ef90228ef4)
 			- [Functional classification of intents and their temporal relation](../../../publish/CommonMark/Uniinfo.cm.md#68dfc246-ea07-4c54-a0a4-2361f1a9055e)
 		- 5th, LLM is at the end opposite to program <a class="logseq-meta" id="690bf59d-668c-4a86-81d9-8927336aea10" data-collapsed="true" ></a>
 			- [The Illusion of Thinking](https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf): Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity
@@ -4303,24 +4303,24 @@
 				- Jing Hu: "AI is just sophisticated pattern matching, no thinking, no reasoning" and “AI can only do tasks accurately up to a certain degree of complexity.”
 			- [This article](https://www.forbes.com/sites/hessiejones/2025/08/04/despite-billions-in-investment-ai-reasoning-models-are-falling-short/) refers to predictive AI as an alternative to LLM, but it is not scalable.
 			- Another approach is setting up agents for LLMs, but the agent itself is a traditional program, hence unable to learn.
-			- Uninet's approach: [develop from the middle out](2025 Brainstorms.cm.md#6926be1c-d482-4601-a32c-91f18e6c8e03).
+			- Uninet's approach: [develop from the middle out](2025%20Brainstorms.cm.md#6926be1c-d482-4601-a32c-91f18e6c8e03).
 		- 6th, killing light vs healing light <a class="logseq-meta" id="68e33ab4-06f1-435f-aa57-a1bb4386e09f" ></a>
 			- On the way to company, i wondered “what's the diff between my current way of intent observation and the ghost-killing light at the beginning of my liberation journey?”
 			- In the morning meditation at the riverside, through the dreamy experience, i recognized that such a dreamlike state is the liberation, the [difference from the narrow spotlight](#68e347d0-d515-42b2-a504-836f7985a597) with high intensity and destroying energy like laser of the ghost-killing light earlier. <a class="logseq-meta" id="68e33ab7-a407-4ee3-8c50-e3700bde0220" ></a>
 		- 8th, wandering about AI <a class="logseq-meta" data-collapsed="true" ></a>
-			- [[Reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning) (RL) is currently the AI approach closest to uninet's effect circle.](2025 Brainstorms.cm.md#68e6334c-6b4c-487f-8999-24940497245f)
+			- [[Reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning) (RL) is currently the AI approach closest to uninet's effect circle.](2025%20Brainstorms.cm.md#68e6334c-6b4c-487f-8999-24940497245f)
 			- [Prompting Guide](https://www.promptingguide.ai/techniques): Chain of Thought (CoT), Tree of Thought (GoT), Graph of Thought (GoT), Prompt Chaining, Retrieval Augmented Generation (RAG), Reflexion
 			- A sharp front between 2 anticyclones in North Pacific Ocean <a class="logseq-meta" data-collapsed="true" ></a>
 				- ![front between 2 anticyclones in North Pacific Ocean 2025-10-08.jpg](../assets/Will/story/2025-10/front between 2 anticyclones in North Pacific Ocean 2025-10-08.jpg)
 		- 9th, complete the symbols/signs for complement
-			- [Symbols/signs for ((66c8941d-6427-4e5c-9009-3af349500d7b))](../../../publish/CommonMark/Uniinfo.cm.md#68f1e075-0aa7-4498-8c35-32e44857eee8)
-			- Clarify that [The [imbalance](((68ba49d7-6048-4d97-9fc1-cd573165db5f))) is caused by the **partial view** which is the *ignorance of the object's complement in the subject*.](2025 Brainstorms.cm.md#68e71355-f954-4c34-b7cc-009d32b6c7e0)
+			- [Symbols/signs for complement](../../../publish/CommonMark/Uniinfo.cm.md#68f1e075-0aa7-4498-8c35-32e44857eee8)
+			- Clarify that [The [imbalance](Static observation = balance at the center; Dynamic action = imbalance toward one end) is caused by the **partial view** which is the *ignorance of the object's complement in the subject*.](2025%20Brainstorms.cm.md#68e71355-f954-4c34-b7cc-009d32b6c7e0)
 		- 15th, [ELM](https://github.com/LaurieLonecrow/AsterMind-ELM) = SVM version of SLFN. <a class="logseq-meta" data-collapsed="true" ></a>
 			- Extreme Learning Machine (ELM) is a single-hidden-layer feedforward neural network (SLFN) that learns instantly by computing the output weights analytically in one shot, leaving the hidden layer random.
 			- The random hidden layer acts like the kennel in Support Vector Machine (SVM) to project the input into a high-dimensional space so that they can be classified simply by linear separation at the output layer.
-		- 16th, [Emptiness sucks!](2025 Brainstorms.cm.md#68f0d8f7-bdb7-492a-b161-83479cce6aa8)
+		- 16th, [Emptiness sucks!](2025%20Brainstorms.cm.md#68f0d8f7-bdb7-492a-b161-83479cce6aa8)
 		- 18-19th, weekends, various brainstorms about 3 levels of equality, temporal circle, effect circle, attention <a class="logseq-meta" data-collapsed="true" ></a>
-			- [Three levels of ((66e41e14-6c0c-41d7-9089-92916d47d7e0))](../../../publish/CommonMark/Uniinfo.cm.md#66e3fe46-dc79-472a-a059-f5ccf5afb437): 1 - 2 - 3 circles folded from the same content thread 🥨 <a class="logseq-meta" id="699c0368-1753-4032-b9d2-52afa7f866d9" data-collapsed="true" ></a>
+			- [Three levels of equality](../../../publish/CommonMark/Uniinfo.cm.md#66e3fe46-dc79-472a-a059-f5ccf5afb437): 1 - 2 - 3 circles folded from the same content thread 🥨 <a class="logseq-meta" id="699c0368-1753-4032-b9d2-52afa7f866d9" data-collapsed="true" ></a>
 				- 1 circle of universe in monistic view for qualitative theory of Uniinfo, định tính
 					- conservation of quality via complementarity
 					- vacantistic obop = selfless empty point = pseudo-center = equal
@@ -4340,9 +4340,9 @@
 					- trialistic obop = selful point (collapsed middle circle) = center = mind
 						- central obop does pattern matching
 					- content = components = intertwined circles
-			- [Temporal circle via ((667c0031-0a87-44c9-9e98-6d45893b095f))](../../../publish/CommonMark/Uniinfo.cm.md#68f5a6d2-3b0a-4443-a7e7-b64f4bdf217b)
+			- [Temporal circle via effect circle](../../../publish/CommonMark/Uniinfo.cm.md#68f5a6d2-3b0a-4443-a7e7-b64f4bdf217b)
 			- [circular effect flow = circular causality = circular determinism = interdependency = interfusion = interpenetration = dependent origination](../../../publish/CommonMark/Uniinfo.cm.md#68f5a6d2-8148-4975-b3cb-799fe37a3d72)
-			- [**Attention** is the spotlight projecting the flat space/graph of the world into a [hyperbolic disk](https://en.wikipedia.org/wiki/Poincar%C3%A9_disk_model) of the present stage.](2025 Brainstorms.cm.md#68f5a6d2-5faa-4889-bd79-30e9c553c314)
+			- [**Attention** is the spotlight projecting the flat space/graph of the world into a [hyperbolic disk](https://en.wikipedia.org/wiki/Poincar%C3%A9_disk_model) of the present stage.](2025%20Brainstorms.cm.md#68f5a6d2-5faa-4889-bd79-30e9c553c314)
 		- WAIT 20th, Newtonian mechanics → [Lagrangian mechanics](https://en.wikipedia.org/wiki/Lagrangian_mechanics) → field equations <a class="logseq-meta" data-collapsed="true" ></a>
 			- The key in the law of “[stationary action](https://en.wikipedia.org/wiki/Hamilton%27s_principle) δS = 0” is not the value of S itself, but the hidden clause “for all variations δx(t)”! 😜 <a class="logseq-meta" data-collapsed="true" ></a>
 				- The full expression should be $⟪\; δS[x] = 0 \quad ∀δx(t) \;⟫$, or equivalently $⟪\; {δS[x] \over δx(t)} = 0 \;⟫$.
@@ -4397,11 +4397,11 @@
 					- Candle-in-water experiment for O₂ fraction: This one’s a legendary misinterpretation. Students latch onto “the water level shows O₂ fraction”, ignoring the subtle thermodynamics. It’s really air cooling and contraction, not gas replacement, that moves the water. CO₂ isn’t the main actor here. The explanation sells a narrative that makes sense superficially but fails under scrutiny: why doesn't the produced CO₂ replace the burnt out O₂ (with the same mole) to occupy the space in the glass?!
 				- [Hồng river floor is higher than Hanoi city.](https://www.tapchikientruc.com.vn/chuyen-muc/thuc-trang-ngap-ung-do-thi-ha-noi-giai-doan-2012-2022.html)
 					- > Nhiều khu vực ở Hà Nội có cao độ +5m, thấp hơn đáng kể so với lòng sông Hồng (có cao độ trung bình từ +7 đến +8m).
-			- [Full in quality = balance = zero point = wisdom = empty in quantity = free](2025 Brainstorms.cm.md#68ff4bc5-64a2-4210-add0-f6476ff1ee05)
+			- [Full in quality = balance = zero point = wisdom = empty in quantity = free](2025%20Brainstorms.cm.md#68ff4bc5-64a2-4210-add0-f6476ff1ee05)
 			- Llion Jones, a coauthor of the transformer architecture has been [sick of transformer](https://venturebeat.com/ai/sakana-ais-cto-says-hes-absolutely-sick-of-transformers-the-tech-that-powers)! 😆
 		- 29th, [tldraw computer](https://computer.tldraw.com/p/nvFmYL2GyJxWHQHSqGYapY), a visual agentic AI with flowchart on canvas.
 		- 31st, look behind the eyes, and contemplate the life cycle of self <a class="logseq-meta" data-collapsed="true" ></a>
-			- [Because all intents are just accumulation of past actions (karma), like the [growth rings](https://simple.wikipedia.org/wiki/Growth_ring), the ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) which determines how the world is seen (giving forms to object's content) is just a slice of the past reactivated.](../../../publish/CommonMark/Mind Jungle.cm.md#68a7e4c1-b26f-41fc-9e2d-f62789a2a9d3)
+			- [Because all intents are just accumulation of past actions (karma), like the [growth rings](https://simple.wikipedia.org/wiki/Growth_ring), the intent cone which determines how the world is seen (giving forms to object's content) is just a slice of the past reactivated.](../../../publish/CommonMark/Mind%20Jungle.cm.md#68a7e4c1-b26f-41fc-9e2d-f62789a2a9d3)
 			- [<span class="link-h3">life cycle of self</span>](../../../publish/CommonMark/Uniinfo.cm.md#690827cf-c19e-4fc4-ba25-5d225afe06ae)
 			- An interesting way of plotting prime numbers: [The Prime Scalar Field](https://theprimescalarfield.com/)
 	- Killing light vs healing light <a class="logseq-meta" id="68e347d0-d515-42b2-a504-836f7985a597" data-collapsed="true" data-logbook="CLOCK: [2025-10-06 Mon 11:38:42]&#10;CLOCK: [2025-10-06 Mon 11:38:45]--[2025-10-06 Mon 13:04:07] =&gt;  01:25:22&#10;" ></a>
@@ -4412,7 +4412,7 @@
 			- Then i tried to be benevolent in my sight, [don't stare at them anymore](https://creatzynotes.blogspot.com/2014/12/lan-au-ngoi-thien-nghiem-tuc-xep-bang.html)... After many years of practice, [today](#68e33ab4-06f1-435f-aa57-a1bb4386e09f) i can observe them “behind the veil” in the lucid-dreamlike state. Only with this ambient light, can i truly observe their whole life without destroying them at first sight. In other words, i don't scare them anymore!
 		- The ambient light in the state of [lucid dream](https://en.wikipedia.org/wiki/Lucid_dream)
 			- The ambient light is “無為”: no intention, no attention, no direction
-			- The ambient light just withdraws from the control of all intents, while still lets them play [before the eye](../../../publish/CommonMark/Mind Jungle.cm.md#68898917-e61f-4d23-9124-474efa9a9eee) intead of killing them.
+			- The ambient light just withdraws from the control of all intents, while still lets them play [before the eye](../../../publish/CommonMark/Mind%20Jungle.cm.md#68898917-e61f-4d23-9124-474efa9a9eee) intead of killing them.
 				- This is different from other states of form meditation, where the intents are cleaned with concentration, i.e. all intents are replaced with a single intent.
 			- It's also different from the state of emptiness (infinite space) and the state of infinite consciousness.
 				- The infinite space is empty, nothing's there.
@@ -4423,19 +4423,19 @@
 		- 1st-2nd, weekends [I saw the crutial key in my slavery is the **stack-based processing**.](#690b3f49-1419-4dc3-b61b-12890b9e04f9) <a class="logseq-meta" id="699c0368-b7dd-4537-bb0d-3a2ddfc86db1" data-collapsed="true" ></a>
 			- Vô Danh thần tăng trong [Thiên Long Bát Bộ 2003 - Tập 34](https://youtu.be/2T_v4UjaABE)
 			- I saw the crutial key in my slavery is the **stack-based processing**. <a class="logseq-meta" id="690b3f49-1419-4dc3-b61b-12890b9e04f9" ></a>
-				- stack-based processing = order = hard constraint = caught up in action = [**perfectionism**](../../../publish/CommonMark/Mind Jungle.cm.md#6678d594-9819-4624-abd6-d4ec62b3874f)
+				- stack-based processing = order = hard constraint = caught up in action = [**perfectionism**](../../../publish/CommonMark/Mind%20Jungle.cm.md#6678d594-9819-4624-abd6-d4ec62b3874f)
 					- top down arrow = cause flow: input data, invocation control
 					- bottom up arrow = effect flow: output data, returning control
-					- Stack-frame order is caused by the **hard intents** generated by the [**holistic core**](../../../publish/CommonMark/Mind Jungle.cm.md#681b3ad7-d1b0-4c06-a4ea-385a4a9314e0).
-				- circle-based working = circular order = [equalization](../../../publish/CommonMark/Mind Jungle.cm.md#68871ce1-eb57-4be3-ad48-45af6ccb5d49) <a class="logseq-meta" id="6926be23-4a65-4138-8864-3e293fd37119" ></a>
+					- Stack-frame order is caused by the **hard intents** generated by the [**holistic core**](../../../publish/CommonMark/Mind%20Jungle.cm.md#681b3ad7-d1b0-4c06-a4ea-385a4a9314e0).
+				- circle-based working = circular order = [equalization](../../../publish/CommonMark/Mind%20Jungle.cm.md#68871ce1-eb57-4be3-ad48-45af6ccb5d49) <a class="logseq-meta" id="6926be23-4a65-4138-8864-3e293fd37119" ></a>
 					- “Turn” is the porous circle ◌🧽 that's whole in counting ([𝜏](https://en.wikipedia.org/wiki/Tau_(mathematics))) and partial in motion. <a class="logseq-meta" id="6926be23-30a6-4054-82c8-78fc2566f57e" ></a>
 						- > “Turn” counts as stillness in motion.
 						- “Turn” is densely open just like the set of rational numbers on the real line. <a class="logseq-meta" id="699c0368-d2f5-41b4-b121-b6d8053a03fa" ></a>
 						- Each turn is a cycle of in-do-out for an effect circle.
 							- Different layers of intents have different scales of turns, just like player turns vs game turns.
 					- Each pore is a window to another circle, either a downward branch or an upward stalk: question, problem, task, function (interface).
-					- My [**holistic core**](../../../publish/CommonMark/Mind Jungle.cm.md#681b3ad7-d1b0-4c06-a4ea-385a4a9314e0) makes me a beaver always looking/listening for spores to investigate and patch them.
-						- But it can never be completely closed, because of its porous nature, i.e. [**perfect incompleness**](../../../publish/CommonMark/Mind Jungle.cm.md#699e56cd-b1d4-41fb-8e30-ec393a5db8e9).
+					- My [**holistic core**](../../../publish/CommonMark/Mind%20Jungle.cm.md#681b3ad7-d1b0-4c06-a4ea-385a4a9314e0) makes me a beaver always looking/listening for spores to investigate and patch them.
+						- But it can never be completely closed, because of its porous nature, i.e. [**perfect incompleness**](../../../publish/CommonMark/Mind%20Jungle.cm.md#699e56cd-b1d4-41fb-8e30-ec393a5db8e9).
 		- 3rd, caught up in debugging, then reset <a class="logseq-meta" data-collapsed="true" ></a>
 			- The implicit `default_server` of NGINX costed me hours! <a class="logseq-meta" data-collapsed="true" ></a>
 				- Symptom: Being the first `server` in the config, it's been considered `default_server` implicitly by NGINX, which makes it match *any host* regardless of the `server_name` setting.
@@ -4450,9 +4450,9 @@
 						- “This must be done because it's soo small”... yeah, not very big, but still double-triple my first estimation.
 						- “This is unacceptable because it's too illogical!” Yep, it's illogical, should be avoided with better policy, like explicit default, but that the hard fact of life. Life is full of such illogical things!
 					- ⇒ Accepting the illogical, accepting the apparently small to be actually big, are what should be practised.
-			- [The choices, the [free will](((67f91050-a86c-4176-87ca-91010a8fe3c0))), are both illusional (the absolute) and achievable (the relative).](2025 Brainstorms.cm.md#69088fa3-22ca-4a2d-ba8e-4b334e0c5d9b)
+			- [The choices, the [free will](sense of free will), are both illusional (the absolute) and achievable (the relative).](2025%20Brainstorms.cm.md#69088fa3-22ca-4a2d-ba8e-4b334e0c5d9b)
 		- 4th, another reset after the meeting <a class="logseq-meta" data-collapsed="true" ></a>
-			- These days, i have [<span class="link-h3">reset</span>](../../../publish/CommonMark/Mind Jungle.cm.md#67445065-15b2-475e-a704-78f140d487af)s frequently within a day. And this time in this afternoon was interesting.
+			- These days, i have [<span class="link-h3">reset</span>](../../../publish/CommonMark/Mind%20Jungle.cm.md#67445065-15b2-475e-a704-78f140d487af)s frequently within a day. And this time in this afternoon was interesting.
 				- After meeting with the SSO team, i felt somehow agitated. Then i walked to the quiet bench at an apartment block to meditate.
 				- Closing the eyes, i felt dizzy within, then the resetting process with normal symptoms of yawning and burping.
 				- After some minutes, i got grounded in the empty center: light, clear, and stable.
@@ -4460,7 +4460,7 @@
 		- 5th, from the empty center, attention is distortion (imbalance toward 1 direction) → review of the liberation path, life, and sort out mind chips. <a class="logseq-meta" data-collapsed="true" ></a>
 			- In the morning riverside meditation, from the empty center, i see that attention is just a distortion of content:  it activates, boosts up things in the spotlight, and deactivates, diminishes other things outside.
 				- → All advancements have drawbacks, and the total is zero.
-				- ⇒ [The trade-off between conformity (alignment) & capabilities (performance) → Buddha's actual suffering → advancement as just a natural step forward](2025 Brainstorms.cm.md#690aecd9-3c49-4c5c-877c-e7e109ecfff9)
+				- ⇒ [The trade-off between conformity (alignment) & capabilities (performance) → Buddha's actual suffering → advancement as just a natural step forward](2025%20Brainstorms.cm.md#690aecd9-3c49-4c5c-877c-e7e109ecfff9)
 			- Talking with ChatGPT, i've just discovered the cause of my autistic spectrum. <a class="logseq-meta" data-collapsed="true" ></a>
 				- I was mildly autistic... i didn't know why... but now i know: i refused to learn the **means of lie**.
 				- To me, the nonverbal language & invisible content are much truer than the forms and verbal language which appeared to me as just the means of lie.
@@ -4470,7 +4470,7 @@
 			- Last month, i withdrew from Uniinfo works at the company, thus the mind chips (from home) have piled up. Now, it's time to sort them out.
 		- 6th, wrote [History of the discovery of the Trinion](../../../publish/CommonMark/Uniinfo.cm.md#690c716b-e17d-4060-a5eb-e78f9b85686b) <a class="logseq-meta" data-collapsed="true" ></a>
 			- Share with Huy the memory of my first experience with the [<span class="link-h2">Trinion</span>](../../../publish/CommonMark/Uniinfo.cm.md#669dfc7d-5355-41db-93a1-8d590e8ec9d8) equation ⟪○ = ↑⟫ <a class="logseq-meta" data-collapsed="true" ></a>
-				- Còn về [<span class="link-h3">reset</span>](../../../publish/CommonMark/Mind Jungle.cm.md#67445065-15b2-475e-a704-78f140d487af), tại sao các máy cơ khí, điện từ không có nút reset mà sang các máy điện tử đều có nút reset là có nguyên nhân của nó: stateless vs stateful.
+				- Còn về [<span class="link-h3">reset</span>](../../../publish/CommonMark/Mind%20Jungle.cm.md#67445065-15b2-475e-a704-78f140d487af), tại sao các máy cơ khí, điện từ không có nút reset mà sang các máy điện tử đều có nút reset là có nguyên nhân của nó: stateless vs stateful.
 					- Các máy analog là stateless nên ko tích luỹ error được. Chính xác hơn thì những micro-error vẫn tích luỹ nhưng nằm ngoài thiết kế của hệ thống, thuộc vào dạng "built-in physics" như quantum rồi, nên không có cách nào để reset, hư quá thì thay cái mới thôi (sửa chữa).
 					- Còn các máy điện tử là stateful nên phần lớn error tích luỹ ở tầng system state, là thứ có thể reset dễ dàng. Còn những micro-error ở tầng vật lý bên dưới thì cũng chịu chết, vẫn phải mổ ra sửa chữa thay mới như xưa thôi.
 				- ở tầng software thì chỉ thấy được state qua memory, chứ hồi lập trình cho mấy con chip bên ĐH Ôsaka, tui cảm nhận rõ về state & "lạc state" hơn.
@@ -4530,7 +4530,7 @@
 				- Form = the common content via thread projection
 					- common pattern = interference
 					- chromatics: phase coherence in thread-based interpretation, instead of vector-based.
-					- [((66f4e208-37c7-4749-a448-0722f7f7af20)) is full both in quality (closed) and in quantity (crystal).](../../../publish/CommonMark/Uniinfo.cm.md#69128c15-b49b-4b95-98ec-eeaad519d42b)
+					- [concrete form is full both in quality (closed) and in quantity (crystal).](../../../publish/CommonMark/Uniinfo.cm.md#69128c15-b49b-4b95-98ec-eeaad519d42b)
 				- Different forms are different views of the same object.
 				- This reminded me of the “god x-screesaver” named [strange](https://linux.die.net/man/1/strange) which inspired my view of continuous transformation between form & content, particle & wave. <a class="logseq-meta" id="69131be4-8e84-4fbc-bc58-5ec5164e76d4" data-collapsed="true" ></a>
 					- History, as shown in [the 2019 fb post “Tan rã rồi Tái hiện (Dissolve & Reappear)”](https://www.facebook.com/share/p/1ETqaKvpjn/):
@@ -4545,10 +4545,10 @@
 			- The chosen path is the one that's closer, clearer, easier, having denser and more vivid form.
 				- Although i'd seen the pull of the graph DB from lunch, i ended up caught up into it till the end of the day.
 				- When irritated, sick, aroused, or in extreme conditions, the form is magnified, intensified, thus the attention is concentrated.
-			- [CIEA](2025 Brainstorms.cm.md#68f5a6d2-bba0-4082-b012-7b475e812f4f): mix - match - unmix = cause - action - effect <a class="logseq-meta" id="6916a4cf-2ac4-4843-a77c-9feae00db79c" ></a>
+			- [CIEA](2025%20Brainstorms.cm.md#68f5a6d2-bba0-4082-b012-7b475e812f4f): mix - match - unmix = cause - action - effect <a class="logseq-meta" id="6916a4cf-2ac4-4843-a77c-9feae00db79c" ></a>
 				- formation = mixmatch of arrows into circles
 				- Note: Don't [confuse](https://en.wiktionary.org/wiki/mixmatch#English) mixmatch with mismatch like the pop culture.
-		- 13th, My colleague An has found an interesting open-source PKB note taking app, [Trilium Notes](https://triliumnotes.org/), with [an interesting interview](../../../publish/CommonMark/Mind Jungle.cm.md#691545ea-1b97-4600-964b-c0cc02a61cb5) with the author `zadam`.
+		- 13th, My colleague An has found an interesting open-source PKB note taking app, [Trilium Notes](https://triliumnotes.org/), with [an interesting interview](../../../publish/CommonMark/Mind%20Jungle.cm.md#691545ea-1b97-4600-964b-c0cc02a61cb5) with the author `zadam`.
 		- 14th, independence = wall of ∞ distance <a class="logseq-meta" data-collapsed="true" ></a>
 			- “Contact first, concept second”
 				- open reception (immediacy) > closed reception (mediation)
@@ -4618,7 +4618,7 @@
 				- With painful experiences, i saw that all these things would lead to serious entanglement and usualy engulfment.
 				- So, a big laugh “haha, why the urge?!”
 					- The urge feels like grasping the light at the end of the tunnel, grasping the first breath after a long dive, but it's so illusory!
-					- First, it's not the end anyway. Then, it's just [the start](../../../publish/CommonMark/Mind Jungle.cm.md#684f9517-33c3-4a20-9fd1-936d9cc98fee), so let's start it stably.
+					- First, it's not the end anyway. Then, it's just [the start](../../../publish/CommonMark/Mind%20Jungle.cm.md#684f9517-33c3-4a20-9fd1-936d9cc98fee), so let's start it stably.
 				- The urge causes urgent feeling which just reflects lots of urgencies in the past experiences.
 				- Recognizing such an urgency is just an image of the past, not the present, i let it go, reset, returned to the empty center, and took a nap.
 		- 20th, refined the [CIE chromatics](#691c18e8-ae41-4073-8b18-c8a5fa30e1ec), and the equivalence between Unïnfo's intensionalization and QM's quantization <a class="logseq-meta" data-collapsed="true" ></a>
@@ -4653,11 +4653,11 @@
 			- Satyagraha (truth force) by the principle of [means = ends](https://en.wikipedia.org/wiki/Satyagraha#Means_and_ends) by [Mahatma Gandhi](https://en.wikipedia.org/wiki/Mahatma_Gandhi)
 				- This resonates with my approach which avoids abusing means and prefers a direct path toward the end.
 		- 29-30th, weekends
-			- Contemplated the $\exp()$ in [<span class="link-h3">Calculus of Dynamics</span>](../../../publish/CommonMark/Uniinfo.cm.md#69292bbb-c2dc-496d-9a04-bb4529407b25), [((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)): quantum → time → space → self](../../../publish/CommonMark/Uniinfo.cm.md#692cf172-d3fe-4390-80fe-52a8c21bd107)
+			- Contemplated the $\exp()$ in [<span class="link-h3">Calculus of Dynamics</span>](../../../publish/CommonMark/Uniinfo.cm.md#69292bbb-c2dc-496d-9a04-bb4529407b25), [uninet: quantum → time → space → self](../../../publish/CommonMark/Uniinfo.cm.md#692cf172-d3fe-4390-80fe-52a8c21bd107)
 			- Proposed to bosses of the company HTV/Airtrip to set up an AI lab for knowledge management.
 	- December journal: Cultivate the Balance <a class="logseq-meta" id="692e5569-b7e9-458e-a3a2-44f7ed57a8f1" data-collapsed="true" data-logbook="CLOCK: [2025-12-02 Tue 09:57:02]&#10;CLOCK: [2025-12-02 Tue 09:57:40]--[2026-01-09 Fri 15:08:53] =&gt;  917:11:13&#10;" ></a>
 		- 1st, miscellaneous wanderings: the title “Lord Buddha”, Tagore's poems about freedom & harmony <a class="logseq-meta" data-collapsed="true" ></a>
-			- The [resonance between the Law of Balance Restoration and Return to God](../../../publish/CommonMark/Uniinfo.cm.md#692d69f0-ff24-4d71-a95c-2e27ebb28c7d) reminds me about Einstein's [faith in Spinoza’s God](2025 Brainstorms.cm.md#6926be1c-1af5-4c9a-9210-b5ebb957391f) and his mail reply to Phyllis Wright, a sixth-grade girl, about the question [Do Scientists Pray?](https://www.themarginalian.org/2013/07/11/do-scientists-pray-einstein-letter-science-religion/).
+			- The [resonance between the Law of Balance Restoration and Return to God](../../../publish/CommonMark/Uniinfo.cm.md#692d69f0-ff24-4d71-a95c-2e27ebb28c7d) reminds me about Einstein's [faith in Spinoza’s God](2025%20Brainstorms.cm.md#6926be1c-1af5-4c9a-9210-b5ebb957391f) and his mail reply to Phyllis Wright, a sixth-grade girl, about the question [Do Scientists Pray?](https://www.themarginalian.org/2013/07/11/do-scientists-pray-einstein-letter-science-religion/).
 			- About the title “Lord Buddha”
 				- In Sinhala: බුදු රජාණන් වහන්සේ (Budu rajānan wahanse) = Venerable King Buddha
 				- [“Bhagavān”](https://en.wikipedia.org/wiki/Bhagavan) in Indian meaning “wealth owner” or “blessed one” used as title for deities like Vishnu, Shiva, Krishna, Durga, and also for the Buddha
@@ -4678,16 +4678,16 @@
 			- It doesn't change the requirements out there!
 			- I admit that i'm helpless and useless!
 		- 3rd, i've just been evicted from the current project in the company due to my delays these weeks.
-			- [Suffering = clung unpleasantness](2025 Brainstorms.cm.md#692fd176-f919-4899-beb2-57ec70791703)
-		- 4th, [Traditional functional design versus ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71))'s interactive design](2025 Brainstorms.cm.md#69315b47-7676-483f-9aa2-72e3f4d02194)
+			- [Suffering = clung unpleasantness](2025%20Brainstorms.cm.md#692fd176-f919-4899-beb2-57ec70791703)
+		- 4th, [Traditional functional design versus uninet's interactive design](2025%20Brainstorms.cm.md#69315b47-7676-483f-9aa2-72e3f4d02194)
 		- 5th, Empty center versus Hardcore center <a class="logseq-meta" data-collapsed="true" ></a>
 			- empty center = zero intent = annihilated point due to full circle uniform ditribution
 			- hardcore center = infinite intent = singularity
 			- Inside a hard core is usualy an empty center, like the storm's eye inside the eyewall.
 		- 6-7th, weekends with brainstorms about attention as an activated state/part of the knowledge <a class="logseq-meta" data-collapsed="true" ></a>
-			- [state = mind = intent sequence/tree = [attention](((68f5a6d2-5faa-4889-bd79-30e9c553c314))) = working memory = the parts of the body of knowledge activated by center-projection = arrow in circle](2025 Brainstorms.cm.md#69364644-747f-4995-815f-7ac637e9ea0b)
+			- [state = mind = intent sequence/tree = [attention](**Attention** is the spotlight projecting the flat space/graph of the world into a [hyperbolic disk](https://en.wikipedia.org/wiki/Poincar%C3%A9_disk_model) of the present stage.) = working memory = the parts of the body of knowledge activated by center-projection = arrow in circle](2025%20Brainstorms.cm.md#69364644-747f-4995-815f-7ac637e9ea0b)
 			- Chats with Huy
-				- [The full range of programming from human to machine](2025 Brainstorms.cm.md#694a8ac0-cddc-4bcd-bdc1-dbfb9dcb04de) <a class="logseq-meta" data-collapsed="true" ></a>
+				- [The full range of programming from human to machine](2025%20Brainstorms.cm.md#694a8ac0-cddc-4bcd-bdc1-dbfb9dcb04de) <a class="logseq-meta" data-collapsed="true" ></a>
 					- Dạo này nhờ agentic AI mà tui "chạy" được lý thuyết của mình trên máy tính, đó giờ toàn phải chạy trong đầu. State machine agent nó chạy y như automaton, chỉ khác là state được định nghĩa bằng ngôn ngữ tự nhiên và transition cũng bằng ngôn ngữ tự nhiên, rồi được chạy bằng AI. 😉
 					- Lập trình top-down vậy tự nhiên cho con người hơn nhiều so với mô hình thác nước cổ điển (design top down, build bottom up).
 					- Còn giờ là tui lập trình từ trên xuống ra một hệ thống phủ liên tục từ đỉnh trừu tượng tới đáy cụ thể: Trên cùng là tư duy con người, kế tiếp là deep-thinking model, rồi tới thinking model, non-thinking model, simple model, và cuối cùng là chương trình truyền thống. Và hệ thống này có 2 chiều hoạt động song song theo mô hình obop (observer-operator):
@@ -4710,7 +4710,7 @@
 			- News
 				- [‘Reverse Mathematics’ Illuminates Why Hard Problems Are Hard](https://www.quantamagazine.org/reverse-mathematics-illuminates-why-hard-problems-are-hard-20251201/): Instead of starting with a standard set of axioms and proving a theorem, they swapped in a theorem for one of the axioms and then proved that axiom. They used this approach, called **reverse mathematics**, to prove that many distinct theorems in complexity theory are actually exactly equivalent.
 				- [Flat vs curved spacetime view of black hole](https://scitechdaily.com/new-theory-suggests-weve-been-wrong-about-black-holes-for-60-years/)
-		- 8th, [obop = `if then` = qualifier = ((677e76ed-b324-4608-b146-90e8fcfa0c32)) = ((66f267f7-01f9-47b9-8376-abd27fdf2930))](2025 Brainstorms.cm.md#6926be1c-045f-4cc8-8df3-129862ecf3de)
+		- 8th, [obop = `if then` = qualifier = intentional cause = awareness](2025%20Brainstorms.cm.md#6926be1c-045f-4cc8-8df3-129862ecf3de)
 		- 9th, i've confirmed that *all of my activities lead to the Unïnfo*, hence my inherit difficulty in focusing on other tasks due to the great suction of such a black hole. <a class="logseq-meta" data-collapsed="true" ></a>
 			- That's the “universal” part of the Unïnfo. It's not given to me from anywhere else, but has just emerged right from within myself, esp. my formal/official works.
 			- Shared with Huy:
@@ -4767,7 +4767,7 @@
 				- [Huygens principle](https://en.wikipedia.org/wiki/Huygens%E2%80%93Fresnel_principle) = exploring all possibilities => Feynman's [path integral formulation](https://en.wikipedia.org/wiki/Path_integral_formulation) <a class="logseq-meta" id="693f644f-d49a-4e43-aa32-c5696dcce2e6" ></a>
 				- Heisenberg's [matrix formulation](https://en.wikipedia.org/wiki/Matrix_mechanics) closely matches Uniinfo's intensionalization: observables = sense bases
 				- The [principle of max entropy](https://www.popularmechanics.com/science/math/a69623099/breaking-law/) in material breaking matches the law of stationary actions.
-				- [Round-trip projection determines norm, roundness, orthogonality](2025 Brainstorms.cm.md#693f644f-a884-4ea5-8ae4-775ae7bb6e43)
+				- [Round-trip projection determines norm, roundness, orthogonality](2025%20Brainstorms.cm.md#693f644f-a884-4ea5-8ae4-775ae7bb6e43)
 					- Shared with Huy on 19th Dec: <a class="logseq-meta" data-collapsed="true" ></a>
 						- Còn những định lý cơ bản như ĐL Pythagore thì có mấy trăm cách chứng minh rồi mà tui vẫn thấy chưa có cái nào thoả mãn... vì đều dựa trên những tiền đề của hình học. Trong Unithread thì spacetime và hình học không phải là cơ bản mà chỉ là emergence từ cái mớ sợi mạch bùi nhùi kia.... nên tui vẫn cứ thắc mắc "tại sao $c^2 = a^2 + b^2$ ?!"
 						- Mãi tới cuối tuần vừa rồi, tui mới thấy ra được ý nghĩa "thread" của nó, và nó được thể hiện qua cách chứng minh của Einstein thời thiếu niên:
@@ -4807,13 +4807,13 @@
 			- English is weird with 2 opposite structures of ["divide into"](https://dictionary.cambridge.org/dictionary/english/divide-into): “divisor divides into dividend” vs “whole divides into parts” 😂 <a class="logseq-meta" data-collapsed="true" ></a>
 				- While the standard form “divisor divides dividend” is clear, “divisor divides _into_ dividend” and “divide divisor _into_ dividend” is ambiguous by forcing the “fit into” connotation into division.
 				- There's also another ambiguous form of “dividend divides _by_ divisor”, e.g. “30 does not divide by 8”! 😜 This completely reverses the standard form of “dividend divided by divisor”.
-			- [4M Framework: micro–meso–macro–mega](2025 Brainstorms.cm.md#694a8194-3081-4255-a683-231fea7b3bfd)
-			- [3 ways to the target: chord, minor arc, major arc](2025 Brainstorms.cm.md#694a8194-d9e6-4d75-9079-26442a8aa375)
-			- [((694a86b4-3e91-49fa-827f-3e910180920f))-free models: Basically, the global target (loss function) and global effect (backprop) are replaced by the local ones.](../../../publish/CommonMark/Mind Jungle.cm.md#694a8194-6e7f-4062-8f32-1f6eb1a95d75)
+			- [4M Framework: micro–meso–macro–mega](2025%20Brainstorms.cm.md#694a8194-3081-4255-a683-231fea7b3bfd)
+			- [3 ways to the target: chord, minor arc, major arc](2025%20Brainstorms.cm.md#694a8194-d9e6-4d75-9079-26442a8aa375)
+			- [backprop-free models: Basically, the global target (loss function) and global effect (backprop) are replaced by the local ones.](../../../publish/CommonMark/Mind%20Jungle.cm.md#694a8194-6e7f-4062-8f32-1f6eb1a95d75)
 			- [Obop model in various fields](../../../publish/CommonMark/Uniinfo.cm.md#694a8194-3a16-4d52-9d60-d88aeaf125b5)
-		- 23rd, With the advance of agentic AI these days, i'm trying [Self-modifying agentic AI](2025 Brainstorms.cm.md#694a8c8b-c5c6-43b5-a21f-da8ba93a1462). <a class="logseq-meta" data-collapsed="true" ></a>
-			- From the time at [HCMUS](../../../publish/CommonMark/Mind Jungle.cm.md#6710fc09-fc5f-447b-9faf-5ea31b29c1fb), i prefered [recurrent neural network (RNN)](https://en.wikipedia.org/wiki/Recurrent_neural_network) over the linear ANN. There i knew of Jürgen and his theoretical model of [self-improving Gödel Machine](https://en.wikipedia.org/wiki/G%C3%B6del_machine).
-			- Now, Google AI Mode introduces its practical implementations like [[Darwin Gödel Machine](https://arxiv.org/abs/2505.22954) ([github](https://github.com/jennyzzt/dgm/)), [Huxley-Gödel Machine](https://arxiv.org/abs/2510.21614) ([github](https://github.com/metauto-ai/HGM)): self-improving system that iteratively modifies its own code, for code generating agents.](2025 Brainstorms.cm.md#694a916a-d6bb-4d7a-a922-c1748b15ad62)
+		- 23rd, With the advance of agentic AI these days, i'm trying [Self-modifying agentic AI](2025%20Brainstorms.cm.md#694a8c8b-c5c6-43b5-a21f-da8ba93a1462). <a class="logseq-meta" data-collapsed="true" ></a>
+			- From the time at [HCMUS](../../../publish/CommonMark/Mind%20Jungle.cm.md#6710fc09-fc5f-447b-9faf-5ea31b29c1fb), i prefered [recurrent neural network (RNN)](https://en.wikipedia.org/wiki/Recurrent_neural_network) over the linear ANN. There i knew of Jürgen and his theoretical model of [self-improving Gödel Machine](https://en.wikipedia.org/wiki/G%C3%B6del_machine).
+			- Now, Google AI Mode introduces its practical implementations like [[Darwin Gödel Machine](https://arxiv.org/abs/2505.22954) ([github](https://github.com/jennyzzt/dgm/)), [Huxley-Gödel Machine](https://arxiv.org/abs/2510.21614) ([github](https://github.com/metauto-ai/HGM)): self-improving system that iteratively modifies its own code, for code generating agents.](2025%20Brainstorms.cm.md#694a916a-d6bb-4d7a-a922-c1748b15ad62)
 		- 24th, [My life journey through the gut–brain–skin axis, with the “guadian symptoms”](#694bb272-f93a-46a9-9f8b-6c629138fbf9) <a class="logseq-meta" data-collapsed="true" ></a>
 			- [Chat with Google AI Mode](https://share.google/aimode/1uTeDq3Xtp7HWOZOB)
 			- [Translated to Vietnamese](https://docs.google.com/document/d/e/2PACX-1vQe5Z-aqzuxagMhQL7gWAp7nMelWFCopuaql4xaWG0qxzXeXWNULmbVRlr3LHck3HlDoQYpZyFsPMuA/pub) for my wife
@@ -4825,7 +4825,7 @@
 					- `"codeiumDev.useDevUnleash": true`
 					- `"antigravity.useKnowledgeBase": true` ← This is just a hallucation of Google AI Mode 😁
 					- Side Effects: Enabling `codeiumDev.useDevUnleash` may change system prompts or context window handling.
-					- [Antigravity's confirmation: The activation of Knowledge was successful. My "mind" (system prompt) now includes these critical sections:](../../../publish/CommonMark/Mind Jungle.cm.md#69607f31-69b2-4fc9-ac24-83912bc13a0c)
+					- [Antigravity's confirmation: The activation of Knowledge was successful. My "mind" (system prompt) now includes these critical sections:](../../../publish/CommonMark/Mind%20Jungle.cm.md#69607f31-69b2-4fc9-ac24-83912bc13a0c)
 				- Asking the agent of Antigravity itself: <a class="logseq-meta" data-logbook="CLOCK: [2026-01-09 Fri 09:16:09]&#10;CLOCK: [2026-01-09 Fri 09:16:11]--[2026-01-09 Fri 14:44:56] =&gt;  05:28:45&#10;" ></a>
 					- At first, it didn't know the concept intrinsically, and search all over of my repo without success. 😁
 					- After i provided it the [link](https://antigravity.google/docs/knowledge), it opened browser, navigate around to read many pages there, with many tabs opened 😉. <a class="logseq-meta" data-collapsed="true" ></a>
@@ -4846,14 +4846,14 @@
 							- **No Manual List Tool**: Currently, there isn't a manual "fetch" or "list" tool in my command set for KIs. They are treated as internal context rather than external resources (like MCP servers).
 							- **Local Persistence**: I can see the underlying persistent memory files being managed in the  `/home/dinhlx/.gemini/antigravity/` directory (e.g., in the `implicit` and `context_state` folders), although these are stored in high-level binary formats like Protocol Buffers.
 					- Thanks to the agent's research, i've got:
-						- [The KIs would be extracted from `Walkthrough` docs.](../../../publish/CommonMark/Mind Jungle.cm.md#6960913e-1087-4e27-837c-aa0a98b98f6e)
-						- [The global agent rules are stored in `$HOME/.gemini/GEMINI.md`](../../../publish/CommonMark/Mind Jungle.cm.md#6960929c-0ac9-43c6-8357-0e3e9ca1ed54)
-					- The [Knowledge system](../../../publish/CommonMark/Mind Jungle.cm.md#69609135-7b69-4dfb-bb53-19d08c4b77ad) has been activated but no item can be commit! 🤔
+						- [The KIs would be extracted from `Walkthrough` docs.](../../../publish/CommonMark/Mind%20Jungle.cm.md#6960913e-1087-4e27-837c-aa0a98b98f6e)
+						- [The global agent rules are stored in `$HOME/.gemini/GEMINI.md`](../../../publish/CommonMark/Mind%20Jungle.cm.md#6960929c-0ac9-43c6-8357-0e3e9ca1ed54)
+					- The [Knowledge system](../../../publish/CommonMark/Mind%20Jungle.cm.md#69609135-7b69-4dfb-bb53-19d08c4b77ad) has been activated but no item can be commit! 🤔
 			- MIT has researched a [knowledge CRYSTAL](https://atalupadhyay.wordpress.com/2025/03/03/building-self-organizing-knowledge-graphs-with-ai-agents-the-crystal-approach/) approach for agentic AI, very similar to mine. <a class="logseq-meta" data-collapsed="true" ></a>
 				- Paper: [Agentic Deep Graph Reasoning Yields Self-Organizing Knowledge Networks](https://arxiv.org/html/2502.13025v1)
 				- [PRefLexOR](https://github.com/lamm-mit/PRefLexOR): Preference-based Recursive Language Modeling
 					- Paper: [PRefLexOR: Preference-based Recursive Language Modeling for Exploratory Optimization of Reasoning and Agentic Thinking](https://arxiv.org/abs/2410.12375)
-			- [Autonoton from computer science view, as a function: (InputHistory, input) -> (CurrentState, input) -> (NextState, output) -> (OutputHistory, output)](2025 Brainstorms.cm.md#695baffd-7826-4a1f-a3ce-afd7f85fd289)
+			- [Autonoton from computer science view, as a function: (InputHistory, input) -> (CurrentState, input) -> (NextState, output) -> (OutputHistory, output)](2025%20Brainstorms.cm.md#695baffd-7826-4a1f-a3ce-afd7f85fd289)
 			- Tonight, after pushing Google AI Mode to its limits, i realized my karma of hating hypocrisy and deceit is still heavy.  <a class="logseq-meta" data-collapsed="true" ></a>
 				- I asked about the clickbait title of [a MarkTechPost article](https://www.marktechpost.com/2025/12/24/this-ai-paper-from-stanford-and-harvard-explains-why-most-agentic-ai-systems-feel-impressive-in-demos-and-then-completely-fall-apart-in-real-use/) about [Adaptation of Agentic AI](https://arxiv.org/pdf/2512.16301).
 					- [MarkTechPost article about Adaptation of Agentic AI](../assets/Will/story/2025-12/MarkTechPost article about Adaptation of Agentic AI.md)
@@ -4885,7 +4885,7 @@
 					- **Acid Surge:** Without proper relaxation, the physiological pressure intensifies, stress hormones like **cortisol** and **adrenaline** signal the stomach to overproduce gastric juices.
 					- **Reduced Protective Barrier:** At the same time, stress reduces the production of protective mucus that normally lines the stomach.
 					- **Chemical Irritation:** Without food to process (or with food sitting too long), this excess acid begins to irritate the sensitive stomach lining, leading to [stress-induced gastritis](https://en.wikipedia.org/wiki/Gastritis#Stress,_injury,_and_illness).
-		- Phase 3: The conscious [<span class="link-h3">reset</span>](../../../publish/CommonMark/Mind Jungle.cm.md#67445065-15b2-475e-a704-78f140d487af) & [biofeedback](https://en.wikipedia.org/wiki/Biofeedback) in middle age <a class="logseq-meta" id="694bc610-c76f-47db-8210-f02b733096f0" ></a>
+		- Phase 3: The conscious [<span class="link-h3">reset</span>](../../../publish/CommonMark/Mind%20Jungle.cm.md#67445065-15b2-475e-a704-78f140d487af) & [biofeedback](https://en.wikipedia.org/wiki/Biofeedback) in middle age <a class="logseq-meta" id="694bc610-c76f-47db-8210-f02b733096f0" ></a>
 			- Symptom: Conscious [gut motility](https://en.wikipedia.org/wiki/Gastrointestinal_physiology#Gut_motility), yawning, and erection, triggered by relaxation or insight, with onset around 40 years old, has become the “reset signal”.
 				- The previous chronic constipation period of 2–3 days has turned into daily bowel movements.
 			- Mechanism: This is the result of natural and formal training to *let go*. It involves the skill of manually activating the [parasympathetic nervous system (PSNS)](https://en.wikipedia.org/wiki/Parasympathetic_nervous_system) as a volitional action against chronic stress or immediately following intellectual breakthrough. <a class="logseq-meta" data-collapsed="true" ></a>
