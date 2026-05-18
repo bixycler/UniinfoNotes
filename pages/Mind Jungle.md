@@ -1361,7 +1361,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- ![reset button](../assets/Will/story/2024-10/fixing-water-heater-reset-button-that-won_t-click-in-2-steps.png){:width 200}
 				- ((6667abd2-14eb-4145-b9e3-e6f3037b3117))
 				  collapsed:: true
-					- I discovered ((67cff615-ec0d-4831-9851-59410cb89cf1)) technique in the middle of the 3 months lockdown for Covid-19 in Vietnam around 2021 July-September.
+					- I discovered ((67cff615-ec0d-4831-9851-59410cb89cf1)) technique in the middle of the 3 months lockdown for Covid-19 in Vietnam around 2021 July–September.
 					- ((6768bf20-deec-41bf-ac18-adc753ebb15f))
 					- ((685cf782-c9dd-4076-8df1-75d6efc8f196))
 				- Detailed practices
@@ -1502,116 +1502,141 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  id:: 684f9517-d0a4-43f7-bfb2-766340b63655
 					- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) ((674c11d4-894a-46d1-b653-5e8148773d7a))
 					- The [computer programs](https://en.wikipedia.org/wiki/Computer_program) reflect this target reaching machinary on computers.
-				- “[The Goal is the Horizon](https://creatzynotes.blogspot.com/2024/12/the-goal-is-horizon.html)” parable/koan
-				  id:: 67445223-9459-4aa9-b102-70c63943577b
-				  collapsed:: true
-					- After enjoying the scenic beauty of Mount Pure Bliss for a week, the master urged the disciple to continue the journey the next morning.
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- “[The Goal is the Horizon](https://creatzynotes.blogspot.com/2024/12/the-goal-is-horizon.html)” parable/koan
+					  id:: 67445223-9459-4aa9-b102-70c63943577b
 					  collapsed:: true
-						- Let's go, don't get too engrossed in this place.
-						- But haven't we already reached our destination?! After all the time, effort, sweat, and even blood we've spent to get here, shouldn't we enjoy the fruit of our labor instead of moving on, master?!
-						- I've allowed you to enjoy it for a whole week. If you think it's not enough, you can stay and enjoy it. I'll go alone.
-						- It's not about enjoyment. I followed you to reach liberation, not to seek pleasure. If I wanted to enjoy myself, I would have stayed in the city with all its pleasures instead of tiring myself out climbing the mountain with you.
-						- If you still want liberation, follow me.
-						- But why do we need to move on when we've reached the destination of liberation?
-						- This is not the destination.
-						- Clearly, back in the city, when I asked, “Where do we go to find freedom?” you pointed to this mountain.
-						- At that time, the city's buildings blocked the view, so I had to point to a tall mountain for you to see. But I meant that “the destination lies at the horizon.”
-						- So we can never reach the destination 😮‍💨?!
-						- We can.
-						- Have you reached the destination, master?
-						- I have.
-						- You're lying! Back in the city, I never saw the horizon, so you could fool me. But now, after months of travel, I've seen for myself: The horizon is endless. The more we walk towards it, the further it moves away, so we can never truly touch it.
-						- I didn't deceive you. I only spoke in a way you could see and understand. Before, I didn't say “the destination is the horizon” because you hadn't yet seen and understood what the horizon is. Today, I'm not deceiving you, either. I only speak according to what you now see. Now, look straight ahead; do you see the horizon?
-						- I see the horizon as a straight line in front of me, but it's just an illusion; there's no actual line!
-						- I only asked if you see it or not!
-						- Yes, I see it.
-						- Now, look behind; do you see the horizon?
-						- Yes, I do.
-						- Look to both the left and right; do you see the horizon?
-						- Enough! On this mountaintop 🗻, wherever I look, I see the horizon. Don't ask such redundant questions!!!
-						- If you've seen it, let's go!
-						- Why move on if we'll never reach it?!!!
-						- I've reached it, that's why I'm leading you. If you don't want to go, you can stay here.
-						- Wait, master, you can't leave! You owe me an explanation of how you can reach that endless horizon!
-						- I've reached it by bringing the horizon right beneath my feet.
-						- 😮 How can it be possible...
-						- I told you before that you wouldn't understand! It's only because you pushed me that I had to say it.
-						- ...
-					- [Cái đích là chân trời](http://creatzynotes.blogspot.com/2024/11/cai-ich-la-chan-troi.html)
-						- Hai thầy trò sau một tuần thưởng thức phong cảnh hữu tình ở núi Cực Lạc thì sáng ra thầy lại giục trò lên đường đi tiếp.
+						- After enjoying the scenic beauty of Mount Pure Bliss for a week, the master urged the disciple to continue the journey the next morning.
 						  collapsed:: true
-							- Đi thôi con, đừng để mình chìm đắm vào chỗ này.
-							- Ủa, chẳng phải chúng ta đã tới đích rồi sao?! Đi bao nhiêu lâu, mất bao sức lực, mồ hồi và cả máu mới tới được đích... không hưởng thành quả mà còn đi đâu nữa thầy?!
-							- Ta đã cho con hưởng thụ cả tuần qua rồi đó thôi, nếu con thấy chưa đủ thì cứ ở lại hưởng thụ đi, thầy đi một mình.
-							- Vấn đề không phải là hưởng thụ, con theo thầy là để tới chỗ giải thoát chứ không phải để hưởng thụ. Nếu thích hưởng thụ thì còn đã ở lại trong đời rồi, có bao nhiêu thú vui ở đó chứ theo thầy lên núi chi cho mệt vậy?!
-							- Nếu còn muốn giải thoát thì theo ta đi tiếp.
-							- Nhưng tại sao phải đi tiếp khi chúng ta đã tới được đích giải thoát?
-							- Đây không phải là đích.
-							- Rõ ràng hồi ở trong thành phố, khi con hỏi “đi đâu để tìm được tự do” thì thầy đã chỉ tay về phía ngọn núi này mà.
-							- Lúc đó trong thành phố bị nhà cửa che khuất tầm mắt nên ta phải chỉ ngọn núi cao để cho con thấy thôi, chứ thực ra ý ta muốn nói rằng “cái đích nằm ở chân trời”.
-							- Vậy là không bao giờ tới được đích sao 😮‍💨?!
-							- Tới được.
-							- Vậy thầy đã tới đích chưa?
-							- Ta tới rồi.
-							- Thầy nói dối! Ngày xưa trong thành phố con chưa thấy chân trời bao giờ thì thầy còn có thể lừa con được, chứ mấy tháng nay đi ra ngoài thì con đã chứng thực rồi: Chân trời là vô tận, mình càng đi tới bao nhiêu thì nó càng lùi về xa bấy nhiêu, nên không thể nào chạm được tới chân trời đâu.
-							- Ta không lừa con, ta chỉ nói theo những gì con có thể thấy và hiểu được. Ngày trước ta không nói “đích là chân trời” vì lúc đó con chưa thấy và hiểu rõ chân trời là gì. Hôm nay ta cũng không lừa con, ta chỉ nói theo những gì con đang thấy mà thôi. Này, nhìn thẳng về trước, con có thấy chân trời không?
-							- Con thấy chân trời như một đường thẳng trước mặt, nhưng đó chỉ là ảo giác, thực ra không có đường đó!
-							- Ta chỉ hỏi có thấy hay không?!
-							- Dạ có thấy.
-							- Giờ quay về phía sau, con có thấy chân trời không?
-							- Dạ thấy.
-							- Con nhìn cả trái lẫn phải đi xem có thấy chân trời không?
-							- Thôi khỏi! Trên đỉnh núi 🗻 này thì dòm đâu chẳng thấy chân trời, thầy đừng hỏi những câu thừa thải như vậy nữa!!!
-							- Thấy rồi thì đi thôi!
-							- Đi chẳng bao giờ tới thì đi làm gì cơ chứ?!!!
-							- Ta đã tới rồi nên mới dẫn con đi. Con không muốn đi thì cứ ở lại đây.
-							- Khoan, thầy không được đi! Thầy còn nợ con lời giải thích làm sao thầy có thể tới được cái chân trời vô tận đó!
-							- Ta tới được bằng cách kéo chân trời về ngay dưới chân ta.
-							- 😮 Làm sao có thể được...
-							- Ta đã bảo là điều này con chưa thể hiểu được mà! Tại con ép thì ta mới phải nói thôi.
+							- Let's go, don't get too engrossed in this place.
+							- But haven't we already reached our destination?! After all the time, effort, sweat, and even blood we've spent to get here, shouldn't we enjoy the fruit of our labor instead of moving on, master?!
+							- I've allowed you to enjoy it for a whole week. If you think it's not enough, you can stay and enjoy it. I'll go alone.
+							- It's not about enjoyment. I followed you to reach liberation, not to seek pleasure. If I wanted to enjoy myself, I would have stayed in the city with all its pleasures instead of tiring myself out climbing the mountain with you.
+							- If you still want liberation, follow me.
+							- But why do we need to move on when we've reached the destination of liberation?
+							- This is not the destination.
+							- Clearly, back in the city, when I asked, “Where do we go to find freedom?” you pointed to this mountain.
+							- At that time, the city's buildings blocked the view, so I had to point to a tall mountain for you to see. But I meant that “the destination lies at the horizon.”
+							- So we can never reach the destination 😮‍💨?!
+							- We can.
+							- Have you reached the destination, master?
+							- I have.
+							- You're lying! Back in the city, I never saw the horizon, so you could fool me. But now, after months of travel, I've seen for myself: The horizon is endless. The more we walk towards it, the further it moves away, so we can never truly touch it.
+							- I didn't deceive you. I only spoke in a way you could see and understand. Before, I didn't say “the destination is the horizon” because you hadn't yet seen and understood what the horizon is. Today, I'm not deceiving you, either. I only speak according to what you now see. Now, look straight ahead; do you see the horizon?
+							- I see the horizon as a straight line in front of me, but it's just an illusion; there's no actual line!
+							- I only asked if you see it or not!
+							- Yes, I see it.
+							- Now, look behind; do you see the horizon?
+							- Yes, I do.
+							- Look to both the left and right; do you see the horizon?
+							- Enough! On this mountaintop 🗻, wherever I look, I see the horizon. Don't ask such redundant questions!!!
+							- If you've seen it, let's go!
+							- Why move on if we'll never reach it?!!!
+							- I've reached it, that's why I'm leading you. If you don't want to go, you can stay here.
+							- Wait, master, you can't leave! You owe me an explanation of how you can reach that endless horizon!
+							- I've reached it by bringing the horizon right beneath my feet.
+							- 😮 How can it be possible...
+							- I told you before that you wouldn't understand! It's only because you pushed me that I had to say it.
 							- ...
-					- First, “don't get stuck in the [Pure Lands](https://en.wikipedia.org/wiki/Pure_Land)!”
-					  id:: 685e0cec-1ce4-408d-9f32-b3f0441b21a9
-					  :LOGBOOK:
-					  CLOCK: [2025-06-27 Fri 10:16:15]
-					  :END:
-						- The Mount Pure Bliss in the koan, the [Land of Supreme Bliss](https://en.wikipedia.org/wiki/Sukhavati) (Sukhāvatī, 極樂世界, cõi Cực Lạc) in [Pure Land Buddhism](https://en.wikipedia.org/wiki/Pure_Land_Buddhism), as well as any other “pure land”, no matter how large or small, how high or low, are always very attractive, capturing attention of the practitioner, keeping us from progression.
-						- Warnings in Pure Land Buddhism that the Pure Lands are just a **skillful means** ([upāya](https://en.wikipedia.org/wiki/Upaya)), not the end goal:
-						  id:: 685e0fd4-f0d0-49cf-957e-ccd94a70417b
-						  collapsed:: true
-							- It's clearly shown in the [Amitāyus Contemplation Sūtra](https://en.wikipedia.org/wiki/Amit%C4%81yus_Contemplation_S%C5%ABtra#Nine_levels_of_birth) (佛說觀無量壽佛經) that Sukhāvatī is open for all beings but not equally.
-							  id:: 685e121a-108d-4ab5-89f5-d3fd547f2a2d
-								- Depending on the karma of followers, they are born into one in **9 lotus levels**.
-								- The lower grade (7-9): People with bad karma are born into a lotus bud, enclosed there for a long time (from 7 weeks to 12 long kalpas), then freed to _**start listening** to dharma teachings_.
-								- The middle grade (3-6): People with some level of virtue, e.g. by observing the [five precepts](https://en.wikipedia.org/wiki/Five_precepts), are born into a lotus bud, enclosed there for a short time (from 1 to 7 days), then freed to **start cultivating** so that they can attain [arhatship](https://en.wikipedia.org/wiki/Arhat) after some time.
-								- The high grade (1-2): People who at least understand the Mahayana teachings are born into an open lotus to see Amitābha and hear teachings  so that they can attain [non-retrogression stage](https://www.nichirenlibrary.org/en/dic/Content/S/258) (不退位) after a short time (7 days) which ensures a straight path to [Buddhahood](https://en.wikipedia.org/wiki/Buddhahood).
-							- In [48 vows of Amitābha](https://en.wikisource.org/wiki/Amitabha%27s_forty-eight_vows), while not as clear as the [9 lotus levels](((685e121a-108d-4ab5-89f5-d3fd547f2a2d))), the Sukhāvatī is promised to _ensure [samadhi](https://en.wikipedia.org/wiki/Samadhi) **until** reaching Nibbana_, not the Nibbana itself.
-								- Vow 11 ensures **samadhi** for people in Amitābha-country. Vow 42 & 45 ensure **samadhi** for people in other Buddha-countries.
-								- Vow 36, 37, 44 ensure that people in Amitābha-country and other Buddha-countries joyfully perform their **Bodhisattva-duty** _until attaining Buddhahood_.
-								- Vow 46, 47, 48 ensures that people can hear the preachings of the Dharma, enter non-retrogression stage, and reach Dharma-endurance.
-						- Shared in chatbox
-							- Không cần phải theo đại thừa mới bị mê đắm vào cõi Cực Lạc, không cần phải thích những thứ thô thiển kiểu "châu báu ngọc ngà lưu ly" như kinh Đại thừa tả về cõi Cực Lạc, hành giả nào cũng ít nhiều bị vướng vào một "tịnh độ" mà mình đã tới được.
-							- Như tịnh độ của Định là khi thiền định, tịnh độ của Trung là những ngày tháng buông xả được nhẹ nhàng, v.v.
-					- Then, “bring the horizon right beneath the feet”
-						- Interpretations
-							- Gemini:
-							  > Connect with the present: When we "bring the horizon to our feet", we are focusing on what is going on around us, instead of dreaming of a distant future.
-							- ChatGPT:
-							  > The horizon is not a place to reach, but a shift in seeing — when the seeker vanishes, the path and goal are one.
-								- Regarding the [“final cause” (telos) by Aristotle](https://en.wikipedia.org/wiki/Four_causes#Final):
-								  > + The “horizon” is a **conceptual placeholder** for liberation until one's perspective changes.
-								  > + Once the shift happens, the horizon is no longer “over there” but present at every step — the loop closes.
-									- The disciple sees the goal as a fixed telos.
-									- The master transforms the goal into a dynamic and cyclic ((677e76ed-b324-4608-b146-90e8fcfa0c32)), where the end folds back into the beginning.
-							- Will:
-							  > Just keep going!
-					- [Beyond the top of a mountain is another higher mountain!](https://www.facebook.com/share/p/12GTUumWARA/)
-						- [一山還有一山高](https://en.wiktionary.org/wiki/%E4%B8%80%E5%B1%B1%E9%82%84%E6%9C%89%E4%B8%80%E5%B1%B1%E9%AB%98)
-						- [Déyé món gen món](https://asfehaiti.wordpress.com/2015/12/16/deye-mon-gen-mon/)
-						  Haitian Creole proverb meaning “beyond mountains there are mountains”.
-						- [七転び八起き](https://en.wiktionary.org/wiki/%E4%B8%83%E8%BB%A2%E3%81%B3%E5%85%AB%E8%B5%B7%E3%81%8D)
-						- “When you have reached the top of the mountain, keep climbing!”
-						  a (Tibetan Zen) proverb
+						- [Cái đích là chân trời](http://creatzynotes.blogspot.com/2024/11/cai-ich-la-chan-troi.html)
+							- Hai thầy trò sau một tuần thưởng thức phong cảnh hữu tình ở núi Cực Lạc thì sáng ra thầy lại giục trò lên đường đi tiếp.
+							  collapsed:: true
+								- Đi thôi con, đừng để mình chìm đắm vào chỗ này.
+								- Ủa, chẳng phải chúng ta đã tới đích rồi sao?! Đi bao nhiêu lâu, mất bao sức lực, mồ hồi và cả máu mới tới được đích... không hưởng thành quả mà còn đi đâu nữa thầy?!
+								- Ta đã cho con hưởng thụ cả tuần qua rồi đó thôi, nếu con thấy chưa đủ thì cứ ở lại hưởng thụ đi, thầy đi một mình.
+								- Vấn đề không phải là hưởng thụ, con theo thầy là để tới chỗ giải thoát chứ không phải để hưởng thụ. Nếu thích hưởng thụ thì còn đã ở lại trong đời rồi, có bao nhiêu thú vui ở đó chứ theo thầy lên núi chi cho mệt vậy?!
+								- Nếu còn muốn giải thoát thì theo ta đi tiếp.
+								- Nhưng tại sao phải đi tiếp khi chúng ta đã tới được đích giải thoát?
+								- Đây không phải là đích.
+								- Rõ ràng hồi ở trong thành phố, khi con hỏi “đi đâu để tìm được tự do” thì thầy đã chỉ tay về phía ngọn núi này mà.
+								- Lúc đó trong thành phố bị nhà cửa che khuất tầm mắt nên ta phải chỉ ngọn núi cao để cho con thấy thôi, chứ thực ra ý ta muốn nói rằng “cái đích nằm ở chân trời”.
+								- Vậy là không bao giờ tới được đích sao 😮‍💨?!
+								- Tới được.
+								- Vậy thầy đã tới đích chưa?
+								- Ta tới rồi.
+								- Thầy nói dối! Ngày xưa trong thành phố con chưa thấy chân trời bao giờ thì thầy còn có thể lừa con được, chứ mấy tháng nay đi ra ngoài thì con đã chứng thực rồi: Chân trời là vô tận, mình càng đi tới bao nhiêu thì nó càng lùi về xa bấy nhiêu, nên không thể nào chạm được tới chân trời đâu.
+								- Ta không lừa con, ta chỉ nói theo những gì con có thể thấy và hiểu được. Ngày trước ta không nói “đích là chân trời” vì lúc đó con chưa thấy và hiểu rõ chân trời là gì. Hôm nay ta cũng không lừa con, ta chỉ nói theo những gì con đang thấy mà thôi. Này, nhìn thẳng về trước, con có thấy chân trời không?
+								- Con thấy chân trời như một đường thẳng trước mặt, nhưng đó chỉ là ảo giác, thực ra không có đường đó!
+								- Ta chỉ hỏi có thấy hay không?!
+								- Dạ có thấy.
+								- Giờ quay về phía sau, con có thấy chân trời không?
+								- Dạ thấy.
+								- Con nhìn cả trái lẫn phải đi xem có thấy chân trời không?
+								- Thôi khỏi! Trên đỉnh núi 🗻 này thì dòm đâu chẳng thấy chân trời, thầy đừng hỏi những câu thừa thải như vậy nữa!!!
+								- Thấy rồi thì đi thôi!
+								- Đi chẳng bao giờ tới thì đi làm gì cơ chứ?!!!
+								- Ta đã tới rồi nên mới dẫn con đi. Con không muốn đi thì cứ ở lại đây.
+								- Khoan, thầy không được đi! Thầy còn nợ con lời giải thích làm sao thầy có thể tới được cái chân trời vô tận đó!
+								- Ta tới được bằng cách kéo chân trời về ngay dưới chân ta.
+								- 😮 Làm sao có thể được...
+								- Ta đã bảo là điều này con chưa thể hiểu được mà! Tại con ép thì ta mới phải nói thôi.
+								- ...
+						- First, “don't get stuck in the [Pure Lands](https://en.wikipedia.org/wiki/Pure_Land)!”
+						  id:: 685e0cec-1ce4-408d-9f32-b3f0441b21a9
+						  :LOGBOOK:
+						  CLOCK: [2025-06-27 Fri 10:16:15]
+						  :END:
+							- The Mount Pure Bliss in the koan, the [Land of Supreme Bliss](https://en.wikipedia.org/wiki/Sukhavati) (Sukhāvatī, 極樂世界, cõi Cực Lạc) in [Pure Land Buddhism](https://en.wikipedia.org/wiki/Pure_Land_Buddhism), as well as any other “pure land”, no matter how large or small, how high or low, are always very attractive, capturing attention of the practitioner, keeping us from progression.
+							- Warnings in Pure Land Buddhism that the Pure Lands are just a **skillful means** ([upāya](https://en.wikipedia.org/wiki/Upaya)), not the end goal:
+							  id:: 685e0fd4-f0d0-49cf-957e-ccd94a70417b
+							  collapsed:: true
+								- It's clearly shown in the [Amitāyus Contemplation Sūtra](https://en.wikipedia.org/wiki/Amit%C4%81yus_Contemplation_S%C5%ABtra#Nine_levels_of_birth) (佛說觀無量壽佛經) that Sukhāvatī is open for all beings but not equally.
+								  id:: 685e121a-108d-4ab5-89f5-d3fd547f2a2d
+									- Depending on the karma of followers, they are born into one in **9 lotus levels**.
+									- The lower grade (7-9): People with bad karma are born into a lotus bud, enclosed there for a long time (from 7 weeks to 12 long kalpas), then freed to _**start listening** to dharma teachings_.
+									- The middle grade (3-6): People with some level of virtue, e.g. by observing the [five precepts](https://en.wikipedia.org/wiki/Five_precepts), are born into a lotus bud, enclosed there for a short time (from 1 to 7 days), then freed to **start cultivating** so that they can attain [arhatship](https://en.wikipedia.org/wiki/Arhat) after some time.
+									- The high grade (1-2): People who at least understand the Mahayana teachings are born into an open lotus to see Amitābha and hear teachings  so that they can attain [non-retrogression stage](https://www.nichirenlibrary.org/en/dic/Content/S/258) (不退位) after a short time (7 days) which ensures a straight path to [Buddhahood](https://en.wikipedia.org/wiki/Buddhahood).
+								- In [48 vows of Amitābha](https://en.wikisource.org/wiki/Amitabha%27s_forty-eight_vows), while not as clear as the [9 lotus levels](((685e121a-108d-4ab5-89f5-d3fd547f2a2d))), the Sukhāvatī is promised to _ensure [samadhi](https://en.wikipedia.org/wiki/Samadhi) **until** reaching Nibbana_, not the Nibbana itself.
+									- Vow 11 ensures **samadhi** for people in Amitābha-country. Vow 42 & 45 ensure **samadhi** for people in other Buddha-countries.
+									- Vow 36, 37, 44 ensure that people in Amitābha-country and other Buddha-countries joyfully perform their **Bodhisattva-duty** _until attaining Buddhahood_.
+									- Vow 46, 47, 48 ensures that people can hear the preachings of the Dharma, enter non-retrogression stage, and reach Dharma-endurance.
+							- Shared in chatbox
+								- Không cần phải theo đại thừa mới bị mê đắm vào cõi Cực Lạc, không cần phải thích những thứ thô thiển kiểu "châu báu ngọc ngà lưu ly" như kinh Đại thừa tả về cõi Cực Lạc, hành giả nào cũng ít nhiều bị vướng vào một "tịnh độ" mà mình đã tới được.
+								- Như tịnh độ của Định là khi thiền định, tịnh độ của Trung là những ngày tháng buông xả được nhẹ nhàng, v.v.
+						- Then, “bring the horizon right beneath the feet”
+							- Interpretations
+								- Gemini:
+								  > Connect with the present: When we "bring the horizon to our feet", we are focusing on what is going on around us, instead of dreaming of a distant future.
+								- ChatGPT:
+								  > The horizon is not a place to reach, but a shift in seeing — when the seeker vanishes, the path and goal are one.
+									- Regarding the [“final cause” (telos) by Aristotle](https://en.wikipedia.org/wiki/Four_causes#Final):
+									  > + The “horizon” is a **conceptual placeholder** for liberation until one's perspective changes.
+									  > + Once the shift happens, the horizon is no longer “over there” but present at every step — the loop closes.
+										- The disciple sees the goal as a fixed telos.
+										- The master transforms the goal into a dynamic and cyclic ((677e76ed-b324-4608-b146-90e8fcfa0c32)), where the end folds back into the beginning.
+								- Will:
+								  > Just keep going!
+						- [Beyond the top of a mountain is another higher mountain!](https://www.facebook.com/share/p/12GTUumWARA/)
+							- [一山還有一山高](https://en.wiktionary.org/wiki/%E4%B8%80%E5%B1%B1%E9%82%84%E6%9C%89%E4%B8%80%E5%B1%B1%E9%AB%98)
+							- [Déyé món gen món](https://asfehaiti.wordpress.com/2015/12/16/deye-mon-gen-mon/)
+							  Haitian Creole proverb meaning “beyond mountains there are mountains”.
+							- [七転び八起き](https://en.wiktionary.org/wiki/%E4%B8%83%E8%BB%A2%E3%81%B3%E5%85%AB%E8%B5%B7%E3%81%8D)
+							- “When you have reached the top of the mountain, keep climbing!”
+							  a (Tibetan Zen) proverb
+					- The “reverse symptoms” triggered by the reset button push
+					  collapsed:: true
+						- The Conscious Reset
+							- Concept: A manual, high-amplitude “internal stretch” or centralized [pandiculation](https://health.clevelandclinic.org/why-does-pandiculation-feel-so-good) that forces a total system synchronization.
+							- Trigger: Reaching into the “empty center” and actively putting **all down**.
+								- It requires a complete cessation of the “waking dream” in the daily flow as well as the sleeping dream at night.
+							- Mechanism: A somatic interrupt that radiates as a full-body wave.
+								- It dampens the sympathetic “bracing” and triggers a massive parasympathetic surge via the vagus and sacral nerves.
+							- Result: Snapping 100% into the present coordinate of this bodymind.
+								- This clears the biological cache and resets the neurological posture.
+						- The Reverse Symptoms
+							- These sysmptoms appear opposite to normal circadian reflexes, acting as haptic receipts of a successful reset.
+							- The Breakthrough Yawn
+								- Normal version: Good night yawning triggered by fatigue and adenosine buildup.
+								- Reverse version: Occurs in the morning upon consciously waking up to 100% presence, or after putting down a massive intellectual load.
+								- Function: Acts as a pressure release valve for the brainstem, cooling the brain and discharging cognitive tension.
+								- It is the “internal stretch” of the cranial nerves.
+							- The Relax Wood
+								- Normal version: Morning wood as a mechanical byproduct of REM sleep.
+								- Reverse version: A conscious, functional reflex triggered during waking hours *only* when actively putting everything down.
+								- Function: A high-fidelity signal from the sacral parasympathetic nerves confirming total biological safety and the absolute absence of stress or cortisol.
+							- The GI Reset
+								- Symptom: Burping and immediate gut motility.
+								- Function: The vagal signal restarting the rest–and–digest peristalsis, discharging visceral tension.
 			- ### sublime–channel
 			  id:: 668f5490-c223-4a8a-9cc4-0bd71af4c097
 			  collapsed:: true
