@@ -190,7 +190,7 @@ function buildLinkTarget(uuid, inputPath, outputPath, sourceLineMap) {
     if (entry && entry.srcFile && entry.srcFile !== inputPath) {
         if (entry.outFile) {
             const relPath = path.relative(path.dirname(outputPath), entry.outFile);
-            target = relPath.replace(/\\/g, '/') + target;
+            target = relPath.replace(/\\/g, '/').replace(/ /g, '%20') + target;
         }
     }
     return target;
