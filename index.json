@@ -1944,10 +1944,10 @@
     "outputLine": null
   },
   "66ea4711-1392-4f5c-bea2-badc71a2fb9e": {
-    "title": "### perceptual screen",
-    "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Uniinfo.md",
-    "sourceLine": 954,
-    "slug": "perceptual-screen",
+    "title": "Now, in commit `03a0b563`, i just change the id of `perceptual screen` to the new one ``",
+    "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
+    "sourceLine": 3270,
+    "slug": "now-in-commit-03a0b563-i-just-change-the-id-of-perceptual-screen-to-the-new-one",
     "outputFile": "/home/dinhlx/source/UniinfoNotes/pages/publish/CommonMark/Uniinfo.cm.md",
     "outputLine": 747
   },
@@ -14982,10 +14982,10 @@
     "outputLine": 1
   },
   "68089c74-7fbd-471b-9283-febf6b48cd0d": {
-    "title": "Database",
-    "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/share/technical/Database.md",
-    "sourceLine": 2,
-    "slug": "database",
+    "title": "Commit `96af6cac` added `` to `Database` block to be reffed by the item `Database` in `Mind Jungle`.",
+    "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
+    "sourceLine": 3213,
+    "slug": "commit-96af6cac-added-to-database-block-to-be-reffed-by-the-item-database-in-mind-jungle",
     "outputFile": "/home/dinhlx/source/UniinfoNotes/pages/share/technical/publish/CommonMark/Database.cm.md",
     "outputLine": 1
   },

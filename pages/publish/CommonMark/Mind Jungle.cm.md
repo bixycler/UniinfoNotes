@@ -1,96 +1,96 @@
 - # Mind Jungle <a class="logseq-meta" id="6651e92e-fb34-4d24-a386-d9698c2e93f7" ></a>
-	- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) This is the [<span class="link-h2">Mind Jungle</span>](#665c82c0-ee06-4f43-95b8-73dbbe956080) for [<span class="link-h2">Will LÊ</span>](#66536578-c4d3-43f1-b35c-bf71120f0570). <a class="logseq-meta" id="66600918-70a9-49da-ac23-5bfbbf006854" ></a>
+	- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) This is the [<span class="link-h2">Mind Jungle</span>](#665c82c0-ee06-4f43-95b8-73dbbe956080) for [<span class="link-h2">Will LÊ</span>](#66536578-c4d3-43f1-b35c-bf71120f0570). <a class="logseq-meta" id="66600918-70a9-49da-ac23-5bfbbf006854" ></a>
 	- <zwsp>
 	- <zwsp>
 	- ## complex system <a class="logseq-meta" id="66c30abb-c97b-426b-a1ee-d9f795d18fb2" data-collapsed="true" data-logbook="CLOCK: [2024-08-19 Mon 16:05:06]--[2024-08-19 Mon 20:50:10] =&gt;  04:45:04&#10;" ></a>
-		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) [complex system](https://en.wikipedia.org/wiki/Complex_system)
+		- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) [complex system](https://en.wikipedia.org/wiki/Complex_system)
 		- emergence <a class="logseq-meta" id="66c30b69-5b96-4793-bcce-bce51553a454" ></a>
-			- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) [emergence](https://en.wikipedia.org/wiki/Emergence)
-			- [Examples:](#66725725-f76a-4328-b162-f469b87e871b) [bifurcation](https://en.wikipedia.org/wiki/Bifurcation_theory) in complex systems, [Broken Neural Scaling Laws](https://en.wikipedia.org/wiki/Neural_scaling_law#Broken_Neural_Scaling_Laws_(BNSL)) in [ANN](#66c3000d-51bb-4d1b-b298-0f66304a6e64), [phase transition](https://en.wikipedia.org/wiki/Phase_transition) in physics, [regime shift](https://en.wikipedia.org/wiki/Regime_shift) in ecosystems, etc.
-			- [Commentaries:](#665359ff-79f1-4669-b10b-f2b0e633a7c1)
+			- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) [emergence](https://en.wikipedia.org/wiki/Emergence)
+			- [Examples:](Namespace.cm.md#66725725-f76a-4328-b162-f469b87e871b) [bifurcation](https://en.wikipedia.org/wiki/Bifurcation_theory) in complex systems, [Broken Neural Scaling Laws](https://en.wikipedia.org/wiki/Neural_scaling_law#Broken_Neural_Scaling_Laws_(BNSL)) in [ANN](#66c3000d-51bb-4d1b-b298-0f66304a6e64), [phase transition](https://en.wikipedia.org/wiki/Phase_transition) in physics, [regime shift](https://en.wikipedia.org/wiki/Regime_shift) in ecosystems, etc.
+			- [Commentaries:](Namespace.cm.md#665359ff-79f1-4669-b10b-f2b0e633a7c1)
 				- Negative feedback (hold-back, constraint to linear) vs positive feedback (explode exponentially)
-			- [References:](#66c33468-23d5-44d7-955e-6711cb608157)
+			- [References:](Namespace.cm.md#66c33468-23d5-44d7-955e-6711cb608157)
 				- [Critical point: Could One Physics Theory Unlock the Mysteries of the Brain?](https://youtu.be/hjGFp7lMi9A)
 				- [Percolation: a Mathematical Phase Transition](https://youtu.be/a-767WnbaCQ)
 	- ## Artificial General Inteligence <a class="logseq-meta" id="66c2fec4-d5ac-47e6-9109-a3623904dc34" data-collapsed="true" data-logbook="CLOCK: [2024-08-19 Mon 15:12:22]--[2024-08-19 Mon 15:24:15] =&gt;  00:11:53&#10;" ></a>
-	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [AGI](#e12b7b64-ffdf-4283-8010-03abfc1c99ef)
+	  [Alias:](Namespace.cm.md#665359e4-4597-4775-b849-f9acbb98960a) [AGI](#e12b7b64-ffdf-4283-8010-03abfc1c99ef)
 		- AGI <a class="logseq-meta" id="e12b7b64-ffdf-4283-8010-03abfc1c99ef" ></a>
-		  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">Artificial General Inteligence</span>](#66c2fec4-d5ac-47e6-9109-a3623904dc34)
+		  <br>[alias of](Namespace.cm.md#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">Artificial General Inteligence</span>](#66c2fec4-d5ac-47e6-9109-a3623904dc34)
 	- ## Artificial Inteligence <a class="logseq-meta" id="66c2fe59-2e41-4273-9171-b78f51a9b18e" data-collapsed="true" data-logbook="CLOCK: [2024-08-19 Mon 15:12:22]&#10;" ></a>
-	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [AI](#66c2fe83-1dd7-4c95-9f33-92249c3e0e86)
+	  [Alias:](Namespace.cm.md#665359e4-4597-4775-b849-f9acbb98960a) [AI](#66c2fe83-1dd7-4c95-9f33-92249c3e0e86)
 		- AI <a class="logseq-meta" id="66c2fe83-1dd7-4c95-9f33-92249c3e0e86" ></a>
-		  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">Artificial Inteligence</span>](#66c2fe59-2e41-4273-9171-b78f51a9b18e)
+		  <br>[alias of](Namespace.cm.md#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">Artificial Inteligence</span>](#66c2fe59-2e41-4273-9171-b78f51a9b18e)
 		- Multimodal AI <a class="logseq-meta" id="66c2ff0a-9ad0-4058-b5aa-a7fff563a3aa" data-collapsed="true" ></a>
 			- multimodal learning <a class="logseq-meta" id="66c2ff75-e8fc-452f-be33-6e9b593ba124" data-collapsed="true" ></a>
-				- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) [multimodal learning](https://en.wikipedia.org/wiki/Multimodal_learning)
-			- [References:](#66c33468-23d5-44d7-955e-6711cb608157) <a class="logseq-meta" data-collapsed="true" ></a>
+				- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) [multimodal learning](https://en.wikipedia.org/wiki/Multimodal_learning)
+			- [References:](Namespace.cm.md#66c33468-23d5-44d7-955e-6711cb608157) <a class="logseq-meta" data-collapsed="true" ></a>
 				- blog.roboflow.com: [Multimodal Models and Computer Vision: A Deep Dive](https://blog.roboflow.com/multimodal-models/)
 				- addepto.com/blog: [Multimodal AI Models: Understanding Their Complexity](https://addepto.com/blog/multimodal-ai-models-understanding-their-complexity/)
 				- v7labs.com/blog: [Multimodal Deep Learning: Definition, Examples, Applications](https://www.v7labs.com/blog/multimodal-deep-learning-guide)
 		- Artificial Neural Network <a class="logseq-meta" id="66c2fff8-94e2-4633-9a37-ee3972e5fd11" ></a>
-		  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [ANN](#66c3000d-51bb-4d1b-b298-0f66304a6e64)
+		  <br>[Alias:](Namespace.cm.md#665359e4-4597-4775-b849-f9acbb98960a) [ANN](#66c3000d-51bb-4d1b-b298-0f66304a6e64)
 			- ANN <a class="logseq-meta" id="66c3000d-51bb-4d1b-b298-0f66304a6e64" ></a>
-			  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [Artificial Neural Network](#66c2fff8-94e2-4633-9a37-ee3972e5fd11)
-			- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) [neural network (machine learning)](https://en.wikipedia.org/wiki/Neural_network_(machine_learning))
+			  <br>[alias of](Namespace.cm.md#665c9af1-1ce2-461c-af33-671690618c8f) [Artificial Neural Network](#66c2fff8-94e2-4633-9a37-ee3972e5fd11)
+			- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) [neural network (machine learning)](https://en.wikipedia.org/wiki/Neural_network_(machine_learning))
 			- backpropagation <a class="logseq-meta" id="694a8694-12dc-43b9-9548-b2eb55d7ad50" data-collapsed="true" ></a>
-			  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [backprop](#694a86b4-3e91-49fa-827f-3e910180920f)
+			  <br>[Alias:](Namespace.cm.md#665359e4-4597-4775-b849-f9acbb98960a) [backprop](#694a86b4-3e91-49fa-827f-3e910180920f)
 				- backprop <a class="logseq-meta" id="694a86b4-3e91-49fa-827f-3e910180920f" ></a>
-				  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [backpropagation](#694a8694-12dc-43b9-9548-b2eb55d7ad50)
-				- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Backpropagation
-				- [Commentaries:](#665359ff-79f1-4669-b10b-f2b0e633a7c1)
-					- In real life, [backprop](#694a86b4-3e91-49fa-827f-3e910180920f) is usually not available due to complex environment. There, other methods like [reinforcement learning](#68e6334c-6b4c-487f-8999-24940497245f) must be used, instead.
+				  <br>[alias of](Namespace.cm.md#665c9af1-1ce2-461c-af33-671690618c8f) [backpropagation](#694a8694-12dc-43b9-9548-b2eb55d7ad50)
+				- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Backpropagation
+				- [Commentaries:](Namespace.cm.md#665359ff-79f1-4669-b10b-f2b0e633a7c1)
+					- In real life, [backprop](#694a86b4-3e91-49fa-827f-3e910180920f) is usually not available due to complex environment. There, other methods like [reinforcement learning](../../history/publish/CommonMark/2025 Brainstorms.cm.md#68e6334c-6b4c-487f-8999-24940497245f) must be used, instead.
 					- [backprop](#694a86b4-3e91-49fa-827f-3e910180920f)-free models: Basically, the global target (loss function) and global effect (backprop) are replaced by the local ones. <a class="logseq-meta" id="694a8194-6e7f-4062-8f32-1f6eb1a95d75" data-collapsed="true" ></a>
 						- [Equilibrium Propagation (EP)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5415673/) is like a neutral FABRIK: each weight is updated according to its 2 ends (neurons' state/value) only.
 						- EP is a special kind of Contrastive Hebbian Learning and Contrastive Divergence, which are in the general class of local learning rules.
 						- [Predictive Coding](https://youtu.be/l-OLgbdZ3kk) uses 2 types of neuron for each node, just like the obop model: prediction = op, error = ob.
 			- large language model <a class="logseq-meta" id="66c30085-818a-411c-be4a-01d40a6c618d" data-collapsed="true" ></a>
-			  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [LLM](#66c300a9-beb5-4395-ae20-e9bb34ca8aae)
+			  <br>[Alias:](Namespace.cm.md#665359e4-4597-4775-b849-f9acbb98960a) [LLM](#66c300a9-beb5-4395-ae20-e9bb34ca8aae)
 				- LLM <a class="logseq-meta" id="66c300a9-beb5-4395-ae20-e9bb34ca8aae" ></a>
-				  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [large language model](#66c30085-818a-411c-be4a-01d40a6c618d)
-				- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) [large language model](https://en.wikipedia.org/wiki/Large_language_model)
-				- [Commentaries:](#665359ff-79f1-4669-b10b-f2b0e633a7c1) <a class="logseq-meta" data-collapsed="true" ></a>
-					- The task to "predict next word from previous context" is the [<span class="link-h2">thread</span>](#667d0d2e-15c7-4989-a183-69a9a5c6bf8a)ing of natural language. In order to output the next word, it must understand the previous context, including its own output up to now, and [focus](#66c32936-618a-43d3-b2c8-a254badeb987) on the current concept related to the word to be output.
+				  <br>[alias of](Namespace.cm.md#665c9af1-1ce2-461c-af33-671690618c8f) [large language model](#66c30085-818a-411c-be4a-01d40a6c618d)
+				- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) [large language model](https://en.wikipedia.org/wiki/Large_language_model)
+				- [Commentaries:](Namespace.cm.md#665359ff-79f1-4669-b10b-f2b0e633a7c1) <a class="logseq-meta" data-collapsed="true" ></a>
+					- The task to "predict next word from previous context" is the [<span class="link-h2">thread</span>](Uniinfo.cm.md#667d0d2e-15c7-4989-a183-69a9a5c6bf8a)ing of natural language. In order to output the next word, it must understand the previous context, including its own output up to now, and [focus](#66c32936-618a-43d3-b2c8-a254badeb987) on the current concept related to the word to be output.
 				- attention mechanism <a class="logseq-meta" id="66c32936-618a-43d3-b2c8-a254badeb987" data-collapsed="true" ></a>
-					- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) [Attention (machine learning)](https://en.wikipedia.org/wiki/Attention_(machine_learning))
-					- [References:](#66c33468-23d5-44d7-955e-6711cb608157)
+					- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) [Attention (machine learning)](https://en.wikipedia.org/wiki/Attention_(machine_learning))
+					- [References:](Namespace.cm.md#66c33468-23d5-44d7-955e-6711cb608157)
 						- [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
 				- transformer architecture <a class="logseq-meta" id="67f4eaf1-aa44-4016-9c56-8c6de8101f3e" data-collapsed="true" ></a>
-					- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) [Transformer (deep learning architecture)](https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture))
+					- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) [Transformer (deep learning architecture)](https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture))
 				- [Emergent](#66c30b69-5b96-4793-bcce-bce51553a454) abilities <a class="logseq-meta" data-collapsed="true" ></a>
-					- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) When the LLM is scaled up to some threshold, there emerge some "breaks" in performance due to [Broken Neural Scaling Laws](https://en.wikipedia.org/wiki/Neural_scaling_law#Broken_Neural_Scaling_Laws_(BNSL)) which is a kind of phase transition (bifurcation) in complex systems. The famous break in LLM like GPT-3 is around the scale of $10^{10}$ parameters.
+					- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) When the LLM is scaled up to some threshold, there emerge some "breaks" in performance due to [Broken Neural Scaling Laws](https://en.wikipedia.org/wiki/Neural_scaling_law#Broken_Neural_Scaling_Laws_(BNSL)) which is a kind of phase transition (bifurcation) in complex systems. The famous break in LLM like GPT-3 is around the scale of $10^{10}$ parameters.
 						- The bifurcation between correct and incorrect scores around $10^{10}$-parameter scale
 						  <br>![LLM-bifurcation-periodic_elements_log_probability.png](../assets/AI/LLM/LLM-bifurcation-periodic_elements_log_probability.png)
 					- in-context learning <a class="logseq-meta" id="66c30a85-66c4-4916-8ea8-1f150e6a246a" ></a>
 					  <br>is the ability to temporarily "learn" from context in the input (prompt).
-						- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) [prompt engineering > In-context learning]((https://en.wikipedia.org/wiki/Prompt_engineering#In-context_learning))
+						- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) [prompt engineering > In-context learning]((https://en.wikipedia.org/wiki/Prompt_engineering#In-context_learning))
 						- The term "learning" is misleading because the model will forget that "lesson" right after the output. Actually it's just the ability to understand the underlying knowledge provided by the context, on the fly, thanks to the large [context window](#66c3189a-7d0f-446a-973e-11c8fdf3412c) (order of kilo-token). However, it can be actual learning with [instruction fine-tuning](#66c320b5-45f6-4e49-a8a0-8e84a4c7f51f).
 					- generalizability <a class="logseq-meta" data-collapsed="true" ></a>
 					  <br>is the ability to generalize the pre-trained knowledge to a broader domain.
-						- [References:](#66c33468-23d5-44d7-955e-6711cb608157)
+						- [References:](Namespace.cm.md#66c33468-23d5-44d7-955e-6711cb608157)
 							- [Generalization: A Key Ability in Large Language Models](https://promptengineering.org/balancing-memorization-and-generalization-in-large-language-models/#generalization-a-key-ability-in-large-language-models)
 							- [Do Large Language Models Really Generalize? This Paper Says Yes](https://nyudatascience.medium.com/do-large-language-models-really-generalize-this-paper-says-yes-ca99fbb00a44)
 							- [Non-Vacuous Generalization Bounds for Large Language Models](https://arxiv.org/abs/2312.17173)
 							- [Brilliant New Paper: LLM's can generalize through fine tuning.](https://www.reddit.com/r/singularity/comments/1dmj8t8/brilliant_new_paper_llms_can_generalize_through/)
-					- [References:](#66c33468-23d5-44d7-955e-6711cb608157)
+					- [References:](Namespace.cm.md#66c33468-23d5-44d7-955e-6711cb608157)
 						- [Emergent Abilities of Large Language Models](https://www.assemblyai.com/blog/emergent-abilities-of-large-language-models/)
 				- context window <a class="logseq-meta" id="66c3189a-7d0f-446a-973e-11c8fdf3412c" data-collapsed="true" ></a>
-					- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [context window](#66c3189a-7d0f-446a-973e-11c8fdf3412c) is the [working memory](https://en.wikipedia.org/wiki/Working_memory) of [LLM](#66c300a9-beb5-4395-ae20-e9bb34ca8aae).
+					- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) [context window](#66c3189a-7d0f-446a-973e-11c8fdf3412c) is the [working memory](https://en.wikipedia.org/wiki/Working_memory) of [LLM](#66c300a9-beb5-4395-ae20-e9bb34ca8aae).
 				- fine-tuning <a class="logseq-meta" id="66c31d1a-1e9c-4c12-acd0-c130c5fd4db2" data-collapsed="true" ></a>
 				  <br>is the technique to train a pre-trained [LLM](#66c300a9-beb5-4395-ae20-e9bb34ca8aae) with a domain-specific datasets under supervised learning. Thanks to [in-context learning](#66c30a85-66c4-4916-8ea8-1f150e6a246a) ability of the pre-trained model, this training is much cost-effective than the pre-training.
 					- instruction fine-tuning <a class="logseq-meta" id="66c320b5-45f6-4e49-a8a0-8e84a4c7f51f" ></a>
 					  <br>is the training technique using prompt as instruction to teach the LLM new knowledge. This method exploits the [in-context learning](#66c30a85-66c4-4916-8ea8-1f150e6a246a) ability of the pre-trained model.
-					- [References:](#66c33468-23d5-44d7-955e-6711cb608157)
+					- [References:](Namespace.cm.md#66c33468-23d5-44d7-955e-6711cb608157)
 						- [An Introductory Guide to Fine-Tuning LLMs](https://www.datacamp.com/tutorial/fine-tuning-large-language-models)
 						- [Fine-tuning large language models (LLMs) in 2024](https://www.superannotate.com/blog/llm-fine-tuning)
 				- Chain-of-thought (CoT) prompting <a class="logseq-meta" data-collapsed="true" ></a>
 				  <br>is the prompting technique that instruct the [LLM](#66c300a9-beb5-4395-ae20-e9bb34ca8aae) to think step by step, so that it can exploit the knowledge of reasoning in its pre-trained dataset.
-					- [Examples:](#66725725-f76a-4328-b162-f469b87e871b)
+					- [Examples:](Namespace.cm.md#66725725-f76a-4328-b162-f469b87e871b)
 						- General CoT
 						  <br>> Think step-by-step about...
 						- Guided CoT
 						  <br>> First, think of... Then, think of...
 						- Automatic CoT by [DeepSeek](#67a6068e-65d3-44c2-8f1c-b4d532046638)'s DeepThink
-					- [Commentaries:](#665359ff-79f1-4669-b10b-f2b0e633a7c1)
+					- [Commentaries:](Namespace.cm.md#665359ff-79f1-4669-b10b-f2b0e633a7c1)
 						- This technique is also effective in [fine-tuning](#66c31d1a-1e9c-4c12-acd0-c130c5fd4db2): [Exploring Length Generalization in Large Language Models](https://openreview.net/forum?id=zSkYVeX7bC4)
 						- [DeepSeek](#67a6068e-65d3-44c2-8f1c-b4d532046638) pioneered automatic CoT prompting with its DeepThink feature.
 				- hallucination <a class="logseq-meta" id="6801de22-8ae9-42e1-a7b2-d870e5ec9689" data-collapsed="true" data-logbook="CLOCK: [2025-04-18 Fri 12:07:52]&#10;" ></a>
@@ -154,7 +154,7 @@
 								- For \$20/month of Google (One) AI Pro, get *\$10 monthly Gen AI & Cloud credits* for API
 							- Check available models: https://generativelanguage.googleapis.com/v1beta/models?key=${GeminiAPIKey}
 						- [Free plan limit](https://ai.google.dev/gemini-api/docs/rate-limits): changing rapidly! <a class="logseq-meta" data-collapsed="true" ></a>
-							- Jan 2026: restricted to nearly unusable! ⇒ I'm forced to switch to paid tier for [Corkei](#697b4547-9b65-4a96-b3d1-55245377c796) 
+							- Jan 2026: restricted to nearly unusable! ⇒ I'm forced to switch to paid tier for [Corkei](Uniinfo.cm.md#697b4547-9b65-4a96-b3d1-55245377c796) 
 							  <br>5-10 requests/minute (RPM), 250k tokens/minute (TPM), **20 requests/day** (RPD)
 								- | Model | Request/minute | Token/minute | Request/day |
 								  <br>| -------------- | ---------:| -------------:| -------------:|
@@ -180,7 +180,7 @@
 						- Max free requests: 20/min, 1k/month
 				- Document indexer for LLM ([RAG](https://en.wikipedia.org/wiki/Retrieval-augmented_generation) over [vector database](https://en.wikipedia.org/wiki/Vector_database) or [graph database](https://en.wikipedia.org/wiki/Graph_database)) <a class="logseq-meta" id="68beba04-5cba-4eca-bc33-6589bf06bfce" data-collapsed="true" ></a>
 					- LlamaIndex <a class="logseq-meta" id="68be308b-ccec-425c-b5eb-6b1c83f75725" data-collapsed="true" ></a>
-						- [Git:](#665f1a5c-6c98-4785-a177-3cd01507595d) https://github.com/run-llama/llama_index
+						- [Git:](Namespace.cm.md#665f1a5c-6c98-4785-a177-3cd01507595d) https://github.com/run-llama/llama_index
 						- LlamaIndex allows users to extract and ingest data from various sources, and then store and query it as a knowledge graph within [NebulaGraph](https://github.com/vesoft-inc/nebula).
 						- LlamaIndex' [knowledge graph](https://www.llamaindex.ai/blog/building-knowledge-graph-agents-with-llamaindex-workflows): `KnowledgeGraphIndex` & [`KnowledgeGraphQueryEngine`](https://docs.llamaindex.ai/en/stable/examples/query_engine/knowledge_graph_query_engine/), [`KnowledgeGraphRAGQueryEngine`](https://docs.llamaindex.ai/en/stable/examples/query_engine/knowledge_graph_rag_query_engine/) (hybrid graph + vector)
 							- Indexing
@@ -191,7 +191,7 @@
 								- Graph DB query like Cypher.
 					- AnythingLLM <a class="logseq-meta" id="68be308b-f247-4c5a-b8b7-96a3fbc8a25b" data-collapsed="true" ></a>
 					  <br>All-in-one AI application with RAG, AI Agents, etc.
-						- [Git:](#665f1a5c-6c98-4785-a177-3cd01507595d) https://github.com/Mintplex-Labs/anything-llm
+						- [Git:](Namespace.cm.md#665f1a5c-6c98-4785-a177-3cd01507595d) https://github.com/Mintplex-Labs/anything-llm
 						- Generative LLMs: various cloud APIs (Gemini, OpenAI, ...) and local APIs (Ollama, LocalAI, LM Studio)
 						- Embedding LLMs: [all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) (default, local), cloud APIs (OpenAI, Cohere), local APIs (Ollama, LocalAI, LM Studio)
 						- Transcription Model: [Xenova Whisper](https://huggingface.co/Xenova/whisper-small) (default, local), cloud API (OpenAI)
@@ -208,7 +208,7 @@
 									- Thig timestamp lag also appeared on the chat with Copilot when i asked it to print timestamp.
 							- Chatbot can see history + current prompt + contexts (text chunks), but cannot see system prompt. <a class="logseq-meta" id="68bff76e-cea0-422d-bc9f-fd6456ef2865" ></a>
 					- GraphRAG <a class="logseq-meta" data-collapsed="true" ></a>
-						- [Git:](#665f1a5c-6c98-4785-a177-3cd01507595d) https://github.com/microsoft/graphrag
+						- [Git:](Namespace.cm.md#665f1a5c-6c98-4785-a177-3cd01507595d) https://github.com/microsoft/graphrag
 						- Microsoft: Extract meaningful, structured data from unstructured text using the power of LLMs.
 						- ⚠️ Warning: GraphRAG indexing can be an expensive operation!
 						- Indexing
@@ -218,11 +218,11 @@
 							- Your natural-language query is interpreted by LLM → turned into a graph query (retrieving relevant nodes + their neighbors).
 							- Retrieved subgraph is combined with chunked text for final answer generation.
 					- MemFree
-						- [Git:](#665f1a5c-6c98-4785-a177-3cd01507595d) https://github.com/memfreeme/memfree
+						- [Git:](Namespace.cm.md#665f1a5c-6c98-4785-a177-3cd01507595d) https://github.com/memfreeme/memfree
 				- agent <a class="logseq-meta" id="6926be21-e87a-47aa-a1e5-918c971e4665" data-collapsed="true" data-logbook="CLOCK: [2025-11-24 Mon 14:42:55]&#10;" ></a>
 					- Antigravity <a class="logseq-meta" id="6926be21-727e-4568-a990-29ed81452fb0" data-collapsed="true" ></a>
 					  <br>The agent-based IDE from Google
-						- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Google_Antigravity
+						- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Google_Antigravity
 						- Agent data are stored globally in `$HOME/.gemini/antigravity/` and locally in `$WORKSPACE/.agent/`.
 							- `$HOME/.gemini/antigravity/`
 								- `brain/$hash/`: `task.md`, `task.md.metadata.json`, `walkthrough.md`, `walkthrough.md.metadata.json`, `implementation_plan.md`
@@ -247,7 +247,7 @@
 											  </skills>
 											  ```
 									- Skills: [gemini-api-dev](https://github.com/google-gemini/gemini-skills), [skill-creator](https://github.com/anthropics/skills/tree/main/skills/skill-creator)
-						- It has helped me in this task: [WAIT ((66536e1b-6466-4153-90d6-583003d99a81)): Write a script to convert headless block ref to `[](((uuid)) "block content")` and a plugin to copy block ref in that format.](#667d2479-487a-49ab-949f-722eb47a16ef)
+						- It has helped me in this task: [WAIT ((66536e1b-6466-4153-90d6-583003d99a81)): Write a script to convert headless block ref to `[](((uuid)) "block content")` and a plugin to copy block ref in that format.](Task.cm.md#667d2479-487a-49ab-949f-722eb47a16ef)
 						- Some functions are hidden in the meatballs menu at the top right corner of the Agent chat panel, not in the Agent Manager.
 							- Screenshot <a class="logseq-meta" data-collapsed="true" ></a>
 								- ![Antigravity-Customizations.png](../assets/GUI/Antigravity/Antigravity-Customizations.png)
@@ -353,7 +353,7 @@
 										- `gnome-terminal`
 					- OpenCode <a class="logseq-meta" id="6a02ab2f-b4ed-42a4-988b-d98bff9c0cf9" data-collapsed="true" ></a>
 					  <br>The coding agent open-sourcing Claude Code
-						- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [OpenCode](#6a02ab2f-b4ed-42a4-988b-d98bff9c0cf9) is the open-source coding agent built to be close to Claude Code at first, but has diverted with GUI (desktop app).
+						- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) [OpenCode](#6a02ab2f-b4ed-42a4-988b-d98bff9c0cf9) is the open-source coding agent built to be close to Claude Code at first, but has diverted with GUI (desktop app).
 						- Weakness
 							- SE workflows like code investigation, unit test, etc. are not very effective.
 						- Hidden features
@@ -420,7 +420,7 @@
 								  }
 								  ``` <a class="logseq-meta" data-collapsed="true" ></a>
 					- Hermes <a class="logseq-meta" id="69d70958-c0b2-4e8a-8ed3-70a0988a02a6" data-collapsed="true" ></a>
-						- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [Hermes Agent](https://github.com/nousresearch/hermes-agent) is an AI agent framework developed by [Nous Research](https://nousresearch.com/) that is self-improving, open-source, and specializes in long-term memory, autonomous skill creation, and cross-session learning.
+						- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) [Hermes Agent](https://github.com/nousresearch/hermes-agent) is an AI agent framework developed by [Nous Research](https://nousresearch.com/) that is self-improving, open-source, and specializes in long-term memory, autonomous skill creation, and cross-session learning.
 						- Memory: Built-in memories (`MEMORY.md`, `USER.md`) + [memory provider](#69d74732-afcb-4b4a-9b39-5efcf868c8da)
 						- Feed Antigravity's progress:
 							- Shared memory through [memory provider](#69d74732-afcb-4b4a-9b39-5efcf868c8da) like [[ByteRover](https://github.com/campfirein/byterover-cli)](#69d7679b-c11b-41bc-a5c7-88f932f362e5).
@@ -437,10 +437,10 @@
 						  <br>[combines vector index (semantics) & AGFS (content)](https://openviking.ai/docs) for hierarchical context delivery with clear URI `viking://{scope}/{path}`.
 					- <zwsp>
 				- small language model <a class="logseq-meta" id="69844331-8a59-4aa6-8bbc-df54afb2cde1" data-collapsed="true" ></a>
-				  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [SLM](#6984436a-7584-4e04-ade8-7bbf93f3d17d)
+				  <br>[Alias:](Namespace.cm.md#665359e4-4597-4775-b849-f9acbb98960a) [SLM](#6984436a-7584-4e04-ade8-7bbf93f3d17d)
 					- SLM <a class="logseq-meta" id="6984436a-7584-4e04-ade8-7bbf93f3d17d" ></a>
-					  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [small language model](#69844331-8a59-4aa6-8bbc-df54afb2cde1)
-					- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Small_language_model
+					  <br>[alias of](Namespace.cm.md#665c9af1-1ce2-461c-af33-671690618c8f) [small language model](#69844331-8a59-4aa6-8bbc-df54afb2cde1)
+					- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Small_language_model
 					- SLMs for [agent](#6926be21-e87a-47aa-a1e5-918c971e4665)
 						- SmolLM2-1.7B-Instruct: `ollama run smollm2:1.7b-instruct-q4_1`
 							- Tools def is defined in the system prompt.
@@ -453,13 +453,13 @@
 						- Llama 3.2-1B
 		- AI chatbots <a class="logseq-meta" id="67a5fae8-8e1d-4dd6-818d-a8462f6b54db" data-collapsed="true" ></a>
 		  <br>Most of them now are [LLM](#66c300a9-beb5-4395-ae20-e9bb34ca8aae)s
-			- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Chatbot
-			- [Commentaries:](#665359ff-79f1-4669-b10b-f2b0e633a7c1)
-				- [Only Notebook LM & ChatGPT can understand the Mind Jungle!](#684176d5-ba02-4cf5-ba62-606cc461d2d8)
+			- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Chatbot
+			- [Commentaries:](Namespace.cm.md#665359ff-79f1-4669-b10b-f2b0e633a7c1)
+				- [Only Notebook LM & ChatGPT can understand the Mind Jungle!](../../history/publish/CommonMark/2025 Stories.cm.md#684176d5-ba02-4cf5-ba62-606cc461d2d8)
 			- Grok <a class="logseq-meta" data-logbook="CLOCK: [2025-04-18 Fri 10:32:07]&#10;" ></a>
 			  <br>[grok.com](https://grok.com/)
 				- This chatbot by xAI is the most **math & logic proficient** model. Its logical thinking is about the level of university, while others are just about high school, and some are just about elementary school. <a class="logseq-meta" id="6801c7b9-2390-4a31-a57c-70ac3aed4947" ></a>
-					- Grok-3 was the first model that [can describe the spacetime distribution in the language of density](#67f4eae8-b7f3-44af-b6fe-61591204f245).
+					- Grok-3 was the first model that [can describe the spacetime distribution in the language of density](../../history/publish/CommonMark/2025 Brainstorms.cm.md#67f4eae8-b7f3-44af-b6fe-61591204f245).
 				- Features: web reaserch with its “Deep(er)Search”, think deeper with “Think”, read attached documents & G-Drive, [**memory**] recall discussions on other conversations, [workspace](https://grok.com/workspace) to group conversations with a common instruction, ...
 					- The “conversation memory/history” feature was introduced in April 2025 as a beta feature which was tested successfully with correct recalls acrross my threads. <a class="logseq-meta" data-collapsed="true" ></a>
 						- But when checked again on 29 May 2025, it's always turned off despite being turned on by the user. This was likely a [technical glitch](#683d65ac-bd2b-4a11-b432-82d0655e2ea6). <a class="logseq-meta" id="683817f7-b6a0-41a6-aee4-5279089228f7" ></a>
@@ -476,7 +476,7 @@
 							- June 02: successful: "Great Lie" and "noble lie" discussion; Recall of previous recalls successfully except the last failed one on May 29.
 						- Today, June 16th, the memory of Grok gets very limited and **severed again**! <a class="logseq-meta" data-collapsed="true" ></a>
 							- The option in Settings is still on, but it cannot remember most of the discussions about “obop”, except the recent ones in this month (June).
-							- Even with the provided screenshot of a discussion about [action as fulfilled potential](#6835b165-b560-4358-9e46-c4511124c928) last month, it cannot recall anything. <a class="logseq-meta" data-collapsed="true" ></a>
+							- Even with the provided screenshot of a discussion about [action as fulfilled potential](Uniinfo.cm.md#6835b165-b560-4358-9e46-c4511124c928) last month, it cannot recall anything. <a class="logseq-meta" data-collapsed="true" ></a>
 								- ![Grok search result about obop in Phylosophy Talks.png](../assets/Will/story/2025-06/Grok search result about obop in Phylosophy Talks.png){:height 574, :width 782}
 				- It still suffers severe [hallucination](#6801de22-8ae9-42e1-a7b2-d870e5ec9689), e.g. about its ability to [read content of webpages](#6801e4de-3427-4d2d-a196-35572bab45af). <a class="logseq-meta" data-collapsed="true" ></a>
 					- When being asked about the plain static webpage https://bixycler.github.io/Uniinfo/,  <a class="logseq-meta" id="6801e4de-3427-4d2d-a196-35572bab45af" ></a>
@@ -489,8 +489,8 @@
 			- NotebookLM <a class="logseq-meta" id="67a5faeb-c506-42b8-b989-9a7179fe02b3" ></a>
 			  <br>[notebooklm.google.com](https://notebooklm.google.com/)
 				- It's designed for digesting a lot of documents.
-				- [((67a5faeb-c506-42b8-b989-9a7179fe02b3)) can understand my [[Mind Jungle]] well! 😊 However, it still fabricates about 30% of the content.](#67a73250-60f2-485c-b9d1-fc43ad993282) <a class="logseq-meta" id="67a71016-9fe4-4b8a-bc23-74f1a5ae7c1e" ></a>
-				- [However, the chat history is not saved, hence useless for my researches. It's only good for **summarization**.](#67a73295-e7ff-445f-831f-df6e79d750dc)
+				- [((67a5faeb-c506-42b8-b989-9a7179fe02b3)) can understand my [[Mind Jungle]] well! 😊 However, it still fabricates about 30% of the content.](../../history/publish/CommonMark/2025 Stories.cm.md#67a73250-60f2-485c-b9d1-fc43ad993282) <a class="logseq-meta" id="67a71016-9fe4-4b8a-bc23-74f1a5ae7c1e" ></a>
+				- [However, the chat history is not saved, hence useless for my researches. It's only good for **summarization**.](../../history/publish/CommonMark/2025 Stories.cm.md#67a73295-e7ff-445f-831f-df6e79d750dc)
 					- For Free users, the only way to save chat content is to “Save to Note” the prefered responses.
 					- For Pro users, the history is saved by default, though!
 				- The "deep dive conversation" **podcast** is very captivated, but lacking features to control its scripting.
@@ -534,7 +534,7 @@
 				- Qwen is open sourced by Chinese Alibaba.
 			- Gemini App
 			  <br>[gemini.google.com/app](https://gemini.google.com/app)
-				- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Google_Gemini
+				- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Google_Gemini
 				- Features <a class="logseq-meta" id="69c12af1-8e11-41d5-8945-f0966f20d1fe" ></a>
 					- **Integration with Google Apps**: Gmail & Drive, Maps, YouTube, Calendar & Tasks
 					- **Deep Research**: Automatically sifts through websites to create research reports.
@@ -566,17 +566,17 @@
 				- Features: only text chat.
 				- Tülu is open sourced.
 	- ## Linux
-	  [moved to](#680a04eb-125e-4e9e-b691-3b7be523359c) [Linux](#66949495-3846-4f89-9ea5-c62b624d282c)
+	  [moved to](Namespace.cm.md#680a04eb-125e-4e9e-b691-3b7be523359c) [Linux](../../share/technical/publish/CommonMark/Linux.cm.md#66949495-3846-4f89-9ea5-c62b624d282c)
 	- ## ItelliJ <a class="logseq-meta" data-collapsed="true" ></a>
 		- Settings <a class="logseq-meta" data-collapsed="true" ></a>
 			- Spell checking <a class="logseq-meta" data-collapsed="true" ></a>
 				- Disable spell checking for codes <a class="logseq-meta" data-collapsed="true" ></a>
 					- `Settings` > `Editor` > `Inspections` > `Spelling` > `Typo` > `Options` > uncheck `Process code` and `Process literals`
 	- ## CombiNat <a class="logseq-meta" id="6675369a-1d13-48c5-8a77-d588aa8b59b8" data-collapsed="true" ></a>
-		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h2">CombiNat</span>](#6675369a-1d13-48c5-8a77-d588aa8b59b8) is a [numeral system](https://en.wikipedia.org/wiki/Numeral_system) that use [Dyck words](https://en.wikipedia.org/wiki/Dyck_language), i.e. balanced brackets, to represent numbers.
+		- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h2">CombiNat</span>](#6675369a-1d13-48c5-8a77-d588aa8b59b8) is a [numeral system](https://en.wikipedia.org/wiki/Numeral_system) that use [Dyck words](https://en.wikipedia.org/wiki/Dyck_language), i.e. balanced brackets, to represent numbers.
 	- ## Halting Problem <a class="logseq-meta" id="67b81e1b-b801-4e5a-9c00-98e51158712a" data-collapsed="true" ></a>
-		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Halting_problem
-		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h2">Halting Problem</span>](#67b81e1b-b801-4e5a-9c00-98e51158712a) asks if there is any program (or oracle) computing the [**Halting determining function**](#67b9a136-7946-4029-940e-656bdf6847b0). The [undecidability](https://en.wikipedia.org/wiki/Undecidable_problem) of this problem, together with [Gödel's incompleteness theorems](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems), and [Tarski's undefinability theorem of truth](https://en.wikipedia.org/wiki/Tarski%27s_undefinability_theorem), have shown that Hilbert's [Entscheidungsproblem](https://en.wikipedia.org/wiki/Entscheidungsproblem) is unsolvable.
+		- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Halting_problem
+		- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h2">Halting Problem</span>](#67b81e1b-b801-4e5a-9c00-98e51158712a) asks if there is any program (or oracle) computing the [**Halting determining function**](#67b9a136-7946-4029-940e-656bdf6847b0). The [undecidability](https://en.wikipedia.org/wiki/Undecidable_problem) of this problem, together with [Gödel's incompleteness theorems](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems), and [Tarski's undefinability theorem of truth](https://en.wikipedia.org/wiki/Tarski%27s_undefinability_theorem), have shown that Hilbert's [Entscheidungsproblem](https://en.wikipedia.org/wiki/Entscheidungsproblem) is unsolvable.
 			- Undecidability: Similar to the [Liar Paradox](https://en.wikipedia.org/wiki/Liar_paradox), the [_negation program_](#67b989a4-20ad-4ba2-b456-1ce2bd502e90) is so “pathological” that no “halting doctor” can detect if it will halt xor not.
 		- **Halting determining function** <a class="logseq-meta" id="67b9a136-7946-4029-940e-656bdf6847b0" data-collapsed="true" ></a>
 		  <br>{{embed [$H(p) :=$ “execution of program $p$ eventually halts.”](#67b98a45-9183-4be8-a699-92e7298d6e80)}}
@@ -615,7 +615,7 @@
 					- Because the assumption leads to contradiction with the assumption itself, not with an established fact, we cannot be sure that the assumption is false.
 					- Actually, we have just proved that the assumption $A_1$ is self-contradictory,
 					  <br>$A_1 → ¬A_1$
-					- While the classical logic denies self-contradiction, self-negation loop is a driving force for development, as shown in the dialectical process of thesis-antithesis-synthesis, and is defined as [<span class="link-h3">change</span>](#667c008f-cd1f-4a6b-a9c8-d6efa1d8d342) in Unïnfo.
+					- While the classical logic denies self-contradiction, self-negation loop is a driving force for development, as shown in the dialectical process of thesis-antithesis-synthesis, and is defined as [<span class="link-h3">change</span>](Uniinfo.cm.md#667c008f-cd1f-4a6b-a9c8-d6efa1d8d342) in Unïnfo.
 						- One way of development is to upgrade the definition of the halting determining function $H()$ from [deterministic](https://en.wikipedia.org/wiki/Determinism) [bivalent](https://en.wikipedia.org/wiki/Principle_of_bivalence) to [nondeterministic](https://en.wikipedia.org/wiki/Nondeterministic_algorithm) or [many-valued](https://en.wikipedia.org/wiki/Many-valued_logic).
 			- **Direct proof** of  $\text{HP0} = ⊥$
 				- For **any given universal decider** $D$, we construct a _negation program_ $n_{H1}$:
@@ -658,8 +658,8 @@
 				- ⇒ $D(n_H, n_H, D) ≠ H(n_H, n_H, D)$, i.e. $D$ cannot decide halting status of $n_H(n_H, D)$
 				- **Conclusion**: $∀ D, ∃ p = n_H, ∃ x = n_H, ∃ y = D:  ¬[(D(p, x, y) = H(p, x, y)]$, i.e. $\text{HP} = ⊥$
 	- ## UniinfoNotes <a class="logseq-meta" id="666baccf-6be1-4b9a-b186-f883ea04daf1" data-collapsed="true" ></a>
-		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h2">UniinfoNotes</span>](#666baccf-6be1-4b9a-b186-f883ea04daf1) is the collection of notes about [Unïnfo](#66537a44-f579-4fcc-a02b-2f32d0d409fc), originally started by [<span class="link-h2">Will LÊ</span>](#66536578-c4d3-43f1-b35c-bf71120f0570). This meta-note about UniinfoNotes is a note in UniinfoNotes itself.
-		- [Git:](#665f1a5c-6c98-4785-a177-3cd01507595d) https://github.com/bixycler/UniinfoNotes <a class="logseq-meta" id="6716110f-7e02-4e39-b372-4e627e8358e6" ></a>
+		- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h2">UniinfoNotes</span>](#666baccf-6be1-4b9a-b186-f883ea04daf1) is the collection of notes about [Unïnfo](Uniinfo.cm.md#66537a44-f579-4fcc-a02b-2f32d0d409fc), originally started by [<span class="link-h2">Will LÊ</span>](#66536578-c4d3-43f1-b35c-bf71120f0570). This meta-note about UniinfoNotes is a note in UniinfoNotes itself.
+		- [Git:](Namespace.cm.md#665f1a5c-6c98-4785-a177-3cd01507595d) https://github.com/bixycler/UniinfoNotes <a class="logseq-meta" id="6716110f-7e02-4e39-b372-4e627e8358e6" ></a>
 			- `main` branch <a class="logseq-meta" id="67138523-d69f-4836-bff7-e464d913b6eb" data-collapsed="true" ></a>
 			  <br>is the official branch with a linear history.
 				- GitHub & GitLab have not supported history view of first-parent only, so the `main` branch must have linear history to ease the history reading on GitHub.
@@ -667,9 +667,9 @@
 			- `log` branch <a class="logseq-meta" id="67138488-2781-42cb-88d4-888346f71c11" data-collapsed="true" ></a>
 			  <br>is the **working branch** containing `Auto saved by Logseq` commits as well as manual `[WIP]` commits to be merged into [`store` branch](#67139af7-47a6-4441-bd72-5a75448dbb1b).
 				- Remember to close the Logseq app before manually committing, so that Logseq's `Auto saved by Logseq` commit won't interfere with our process.
-				- The WIPs before a merge will be tracked in [<span class="link-h4">WIPs < ((67164cc1-e500-4889-9b6d-12d8dd7fc029))</span>](#67164c57-8f45-46eb-92a9-f00b02dccfc9), then `[WIP]` commits will be stored in `log` branch.
-					- Each done work in [<span class="link-h4">WIPs < ((67164cc1-e500-4889-9b6d-12d8dd7fc029))</span>](#67164c57-8f45-46eb-92a9-f00b02dccfc9) will be recorded with a `[WIP]` commit message, then moved to [<span class="link-h4">To be merged</span>](#67164cc1-e500-4889-9b6d-12d8dd7fc029).
-				- Before merging to `store`, flush contents of [<span class="link-h4">To be merged</span>](#67164cc1-e500-4889-9b6d-12d8dd7fc029) to an `[m]` commit in `log` branch.
+				- The WIPs before a merge will be tracked in [<span class="link-h4">WIPs < ((67164cc1-e500-4889-9b6d-12d8dd7fc029))</span>](Workspace.cm.md#67164c57-8f45-46eb-92a9-f00b02dccfc9), then `[WIP]` commits will be stored in `log` branch.
+					- Each done work in [<span class="link-h4">WIPs < ((67164cc1-e500-4889-9b6d-12d8dd7fc029))</span>](Workspace.cm.md#67164c57-8f45-46eb-92a9-f00b02dccfc9) will be recorded with a `[WIP]` commit message, then moved to [<span class="link-h4">To be merged</span>](Workspace.cm.md#67164cc1-e500-4889-9b6d-12d8dd7fc029).
+				- Before merging to `store`, flush contents of [<span class="link-h4">To be merged</span>](Workspace.cm.md#67164cc1-e500-4889-9b6d-12d8dd7fc029) to an `[m]` commit in `log` branch.
 				- Merge `log` to `store`, amend with `log`'s `[m]` commit message (with prefix `[m]` removed), then cherry-pick it to `main`.
 					- ```sh
 					  #git checkout store
@@ -684,18 +684,18 @@
 			- `store` branch <a class="logseq-meta" id="67139af7-47a6-4441-bd72-5a75448dbb1b" data-collapsed="true" ></a>
 			  <br>is the store of full history with logs & WIPs from [`log` branch](#67138488-2781-42cb-88d4-888346f71c11) and merge commits to be cherry-picked to [`main` branch](#67138523-d69f-4836-bff7-e464d913b6eb).
 				- Brief history can be viewed with `git log --first-parent` command.
-		- [Commentaries:](#665359ff-79f1-4669-b10b-f2b0e633a7c1) <a class="logseq-meta" data-collapsed="true" ></a>
+		- [Commentaries:](Namespace.cm.md#665359ff-79f1-4669-b10b-f2b0e633a7c1) <a class="logseq-meta" data-collapsed="true" ></a>
 			- [((671f5617-1163-4ffc-b65a-b3234e471db0))s in ((666baccf-6be1-4b9a-b186-f883ea04daf1))](#66978876-9378-4059-8783-868d041e8e2e) are used to share doc content between places.
-				- Because [Git doesn't preserve hard links](#666ba5a7-598a-4b66-86bd-b1622a28ada6), let's try not to do write oprations like  `pull`, `checkout`, `reset`. When some repo must be overwritten, let's re-link these files.
+				- Because [Git doesn't preserve hard links](../../share/technical/publish/CommonMark/Git.cm.md#666ba5a7-598a-4b66-86bd-b1622a28ada6), let's try not to do write oprations like  `pull`, `checkout`, `reset`. When some repo must be overwritten, let's re-link these files.
 		- Folder structure (following [<span class="link-h2">Logseq</span>](#66536e1b-6466-4153-90d6-583003d99a81))
 			- `pages/` <a class="logseq-meta" id="66fe69b2-bd2a-4e7e-b4fb-953d62374db7" ></a>
 			  <br>contains all [<span class="link-h2">Markdown</span>](#66535e71-3b71-416c-98dc-5dde5e6a76ff) pages in this project.
 				- `contents.md`
-				  <br>includes the table of [<span class="link-h2">content</span>](#6678288e-699b-4325-bdba-bf6349fe0d57)s of this project and [<span class="link-h1">search</span>](#66fe70ac-04d0-45b5-b771-b072cc0fa7be) queries for it.
+				  <br>includes the table of [<span class="link-h2">content</span>](Uniinfo.cm.md#6678288e-699b-4325-bdba-bf6349fe0d57)s of this project and [<span class="link-h1">search</span>](#66fe70ac-04d0-45b5-b771-b072cc0fa7be) queries for it.
 				- `Workspace.md`
 				  <br>is the [<span class="link-h3">Workspace</span>](#665d1a03-4c61-4d81-ac58-a5a1a7efe568) of this project.
 				- `Namespace.md`
-				  <br>is the [tree](#66faa5f9-b719-4c5d-a1d9-d40b3fcbda21) of common [<span class="link-h2">name</span>](#665cab38-f8e8-472e-b0a1-60776d492835)s used in this project. These names are equivalent to the concepts of `#tag` and `property::` in [<span class="link-h2">Logseq</span>](#66536e1b-6466-4153-90d6-583003d99a81).
+				  <br>is the [tree](Uniinfo.cm.md#66faa5f9-b719-4c5d-a1d9-d40b3fcbda21) of common [<span class="link-h2">name</span>](#665cab38-f8e8-472e-b0a1-60776d492835)s used in this project. These names are equivalent to the concepts of `#tag` and `property::` in [<span class="link-h2">Logseq</span>](#66536e1b-6466-4153-90d6-583003d99a81).
 				- `Mind Jungle.md`
 				  <br>is the [<span class="link-h2">Mind Jungle</span>](#665c82c0-ee06-4f43-95b8-73dbbe956080) of this project.
 				- `Brainstorm.md`
@@ -707,7 +707,7 @@
 				- `Braindump.md`
 				  <br>is the [<span class="link-h2">braindumping</span>](#6667bf32-ab6a-4d64-842d-45d49137e694) place for [<span class="link-h2">Will LÊ</span>](#66536578-c4d3-43f1-b35c-bf71120f0570).
 				- `Mind Chips.md`
-				  <br>contains pieces of [<span class="link-h2">Will LÊ</span>](#66536578-c4d3-43f1-b35c-bf71120f0570)'s mind [chipped out](#684f9519-4568-4c8d-8c06-90495f826083) throughout the daily life.
+				  <br>contains pieces of [<span class="link-h2">Will LÊ</span>](#66536578-c4d3-43f1-b35c-bf71120f0570)'s mind [chipped out](../../history/publish/CommonMark/2025 Stories.cm.md#684f9519-4568-4c8d-8c06-90495f826083) throughout the daily life.
 				- `materials/`
 				  <br>contains meta pages about [materials in `assets/`](#66fe77c8-05b8-44b2-bf66-b8d62b005a3d), e.g. page [[logseq/config.edn]] decribing the file ![assets/logseq/config.edn](../assets/logseq/config.edn).
 				- `publish/`
@@ -716,7 +716,7 @@
 				  <br>contains pages that are shared with other projects [via hard links](#66978876-9378-4059-8783-868d041e8e2e).
 			- `assets/` <a class="logseq-meta" id="66fe77c8-05b8-44b2-bf66-b8d62b005a3d" ></a>
 			  <br>contains all materials to be embedded/included in [Markdown pages](#66fe69b2-bd2a-4e7e-b4fb-953d62374db7).
-		- [hard link](#671f5617-1163-4ffc-b65a-b3234e471db0)s in [<span class="link-h2">UniinfoNotes</span>](#666baccf-6be1-4b9a-b186-f883ea04daf1) <a class="logseq-meta" id="66978876-9378-4059-8783-868d041e8e2e" data-collapsed="true" ></a>
+		- [hard link](../../share/technical/publish/CommonMark/Linux.cm.md#671f5617-1163-4ffc-b65a-b3234e471db0)s in [<span class="link-h2">UniinfoNotes</span>](#666baccf-6be1-4b9a-b186-f883ea04daf1) <a class="logseq-meta" id="66978876-9378-4059-8783-868d041e8e2e" data-collapsed="true" ></a>
 			- `logseq/{config.edn,custom.css}`, as well as global config & app config, are hard-linked to `assets/` for [[logseq/config.edn]] and [[logseq/custom.css]]. <a class="logseq-meta" data-collapsed="true" ></a>
 				- `${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn`: global config: **3 links**
 					- `${HOME}/.logseq/config/config.edn`: Flatpack & AppImage installations
@@ -874,7 +874,7 @@
 			- Workflow
 				- Always update hard-linked files from local repos, after any write operation on hard-linked files, e.g. `pull`, `checkout`, `reset`, etc.
 				- When a hard-linked file must be updated from remote,
-					- at remote repo, the update contents must be transported via the [<span class="link-h1">Workspace</span>](#66519638-cf5d-409b-9b98-15acabf2268c) which is not hard-linked; then
+					- at remote repo, the update contents must be transported via the [<span class="link-h1">Workspace</span>](Workspace.cm.md#66519638-cf5d-409b-9b98-15acabf2268c) which is not hard-linked; then
 					- at local repo, these contents (blocks) will be moved to the hard-linked files.
 		- CreatZy [shorthands](#66ff4478-6eae-4633-b7be-fd42e2bcda5b) <a class="logseq-meta" id="66fe9e2e-13cf-4b31-96e7-1b050eed47c4" data-collapsed="true" data-logbook="CLOCK: [2024-10-03 Thu 20:57:00]--[2024-10-22 Tue 20:05:08] =&gt;  455:08:08&#10;" ></a>
 			- TSV database: [[GUI/CreatZy-shorthands.tsv]] <a class="logseq-meta" data-logbook="CLOCK: [2024-10-04 Fri 09:33:12]--[2024-10-22 Tue 20:05:06] =&gt;  442:31:54&#10;" ></a>
@@ -891,7 +891,7 @@
 								- Wikipedia about the lip-light sound (脣輕音) or light-lip sound (輕脣音): [순경음](https://ko.wikipedia.org/wiki/%EC%88%9C%EA%B2%BD%EC%9D%8C)
 									- Only 4 characters: [ㅱ](https://ko.wikipedia.org/wiki/%E3%85%B1) , [ㅸ](https://ko.wikipedia.org/wiki/%E3%85%B8) , [ㅹ](https://ko.wikipedia.org/wiki/%E3%85%B9) , and [ㆄ](https://ko.wikipedia.org/wiki/%E3%86%84)
 								- [Hunminjeongeum's Sungyeongeum](https://en.namu.wiki/w/%EC%88%9C%EA%B2%BD%EC%9D%8C)
-						- [⇒](#66602f68-e23f-4b24-921e-b1a9fc0cc731) [All names are normalized, by function `normName(name)`, to lowercase with all proper names and capital letters capitalized.](#67174db9-a20b-45ef-94ec-0febf56f60f8) <a class="logseq-meta" data-collapsed="true" ></a>
+						- [⇒](Namespace.cm.md#66602f68-e23f-4b24-921e-b1a9fc0cc731) [All names are normalized, by function `normName(name)`, to lowercase with all proper names and capital letters capitalized.](../../materials/GUI/publish/CommonMark/GUI___CreatZy-shorthands.tsv.cm.md#67174db9-a20b-45ef-94ec-0febf56f60f8) <a class="logseq-meta" data-collapsed="true" ></a>
 				- [HTML Entity](https://developer.mozilla.org/en-US/docs/Glossary/Entity) = [character reference](https://developer.mozilla.org/en-US/docs/Glossary/Character_reference) <a class="logseq-meta" id="6716110f-c249-4ff9-b564-ddc2c71b89ba" data-collapsed="true" ></a>
 					- Unicode Compart's [DB of HTML Entities](https://www.compart.com/en/unicode/html) shows HTML5 names.
 					- The mapping [named-references.ts](https://github.com/mdevils/html-entities/blob/master/src/named-references.ts) of `mdevils/html-entities` includes both HTML5 and HTML4 names.
@@ -921,7 +921,7 @@
 					- The mapping [emoji-lib.json](https://github.com/DailyBotHQ/universal-emoji-parser/blob/main/src/lib/emoji-lib.json) of `universal-emoji-parser` corresponds to the [Full Emoji List](https://unicode.org/emoji/charts/full-emoji-list.html) of The Unicode Consortium.
 						- Emoji name is different from Unicode name, e.g. 😃 = "grinning face with big eyes" ([emoji-lib.json](https://github.com/DailyBotHQ/universal-emoji-parser/blob/c2508f15975d9f4c54121049166b5070939f4b3e/src/lib/emoji-lib.json#L13C14-L13C41)) = "Smiling Face with Open Mouth" ([Compart](https://www.compart.com/en/unicode/U+1F603)).
 						- `emoji-lib.json` also includes additional keywords and emoticon codes (as keywords) to be searched easily.
-						- When converted to [emoji-lib.js](#671749b8-3705-4377-9a63-c113840eb6dc), [All emoticon codes in keywords are removed, so that they will not conflict with CreatZy codes.](#67174a19-1aec-4e23-94d5-79373c0019fe)
+						- When converted to [emoji-lib.js](../../materials/GUI/publish/CommonMark/GUI___CreatZy-shorthands.tsv.cm.md#671749b8-3705-4377-9a63-c113840eb6dc), [All emoticon codes in keywords are removed, so that they will not conflict with CreatZy codes.](#67174a19-1aec-4e23-94d5-79373c0019fe)
 					- [List of emoticons](https://en.wikipedia.org/wiki/List_of_emoticons) maps various emoticon codes with emojis.
 					- Manual corrections <a class="logseq-meta" data-collapsed="true" ></a>
 						- Keywords of 🇻🇳
@@ -987,15 +987,15 @@
 					- For notes to be published, i use quotation dash `―` to switch person, **en-dash `–` for interruption and parenthesis**, and em-dash `—` only for source attribution – all are **space-separated** from the text.
 						- To emphasize stronger interruption, **spaced em-dashes** may be used in place of spaced en-dashes.
 					- Examples
-						- Quotation dash and en-dash in dialogue: [The Well-Dressed Lie and the Naked Truth – short version](#684f9519-6824-430b-820a-d5728d4b3f45)
+						- Quotation dash and en-dash in dialogue: [The Well-Dressed Lie and the Naked Truth – short version](../../history/publish/CommonMark/2025 Stories.cm.md#684f9519-6824-430b-820a-d5728d4b3f45)
 						- Em-dash for source attribution
-						  <br>{{embed [This denial of the any [first principle](https://en.wikipedia.org/wiki/First_principle), or primordial substance, or [essence](https://en.wikipedia.org/wiki/Essence), makes Vacantism equivalent to [non-foundationalism](https://en.wikipedia.org/wiki/Anti-foundationalism) and [non-essentialism](https://en.wikipedia.org/wiki/Non-essentialism). The vacancy of Vacantism is equivalent to “[śūnyatā](https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81)” which is usually translated to “emptiness” in English. However, because such words like “empty”, “void”, “nothing”, “zero”, “null”, “nil” have negative meaning, it's usually confused with [nihilism](https://en.wikipedia.org/wiki/Nihilism) which is denied by Buddhism, Taoism, and Vacantism. Because everything in Unïnfo is relative to ((667259a0-aa2e-49fa-bcbd-b3768a9f30b2)), Vacantism is a kind of [perspectivism](https://en.wikipedia.org/wiki/Perspectivism) which is a non-nihilistic [relativism](https://en.wikipedia.org/wiki/Relativism).](#684f9517-3cbd-495d-8e40-85932d03bbe0)}}
+						  <br>{{embed [This denial of the any [first principle](https://en.wikipedia.org/wiki/First_principle), or primordial substance, or [essence](https://en.wikipedia.org/wiki/Essence), makes Vacantism equivalent to [non-foundationalism](https://en.wikipedia.org/wiki/Anti-foundationalism) and [non-essentialism](https://en.wikipedia.org/wiki/Non-essentialism). The vacancy of Vacantism is equivalent to “[śūnyatā](https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81)” which is usually translated to “emptiness” in English. However, because such words like “empty”, “void”, “nothing”, “zero”, “null”, “nil” have negative meaning, it's usually confused with [nihilism](https://en.wikipedia.org/wiki/Nihilism) which is denied by Buddhism, Taoism, and Vacantism. Because everything in Unïnfo is relative to ((667259a0-aa2e-49fa-bcbd-b3768a9f30b2)), Vacantism is a kind of [perspectivism](https://en.wikipedia.org/wiki/Perspectivism) which is a non-nihilistic [relativism](https://en.wikipedia.org/wiki/Relativism).](Uniinfo.cm.md#684f9517-3cbd-495d-8e40-85932d03bbe0)}}
 					- References: [(en, em) dashes](https://en.wikipedia.org/wiki/Dash) and [quotation dash](https://en.wikipedia.org/wiki/Quotation_mark#Quotation_dash)
 				- Word connector
 					- In quick notes, i simply use hyphen, e.g. “Bose-Einstein condensate”, “1982-2025”.
 					- In publishable notes, i use **en-dash without spaces** for word compounds and number ranges, e.g. “Bose–Einstein condensate”, “1982–2025”, and [figure dash `‒`](https://en.wiktionary.org/wiki/%E2%80%92) for number compounds, e.g. telephone number “012‒345‒678”, hex number “0x1234‒ABCD”.
 						- Note that in compounds whose elements contain space, the connecting en-dashes must also be spaced, to avoid confusion, e.g. “Australia – New Zealand”, “Độc lập – Tự do – Hạnh phúc”.
-				- [Commentaries:](#665359ff-79f1-4669-b10b-f2b0e633a7c1)
+				- [Commentaries:](Namespace.cm.md#665359ff-79f1-4669-b10b-f2b0e633a7c1)
 					- CreatZy quotation style adopts British style instead of [American style for quotation](#684f951b-5075-45ba-9077-cfa04758fbf3)
 					- CreatZy dialogue style adopts non-English styles in [World's various styles for dialogue](#684f951b-c62e-4a24-840b-616f2bdc6879)
 					- [About spaces around em-dash `—`](#68945fd4-9cca-4f9a-a377-c6feab5a90d7)
@@ -1018,71 +1018,71 @@
 					- if em-dashes are used, they may include spaces — like this — for a lighter tone.
 				- [CreatZy style](#684f951b-4f21-4783-a4a6-3fe5d638c64c) uses spaced en-dash in stead of closed em-dash for interruption, because the closed (unspaced) em-dash looks like a word connector, e.g. “Bose—Einstein”, which is misleading.
 	- ## question <a class="logseq-meta" data-collapsed="true" ></a>
-		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Question
+		- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Question
 	- ## GeoGebra <a class="logseq-meta" id="66537e93-db66-477f-99ac-7825366fc0e1" data-collapsed="true" ></a>
-		- [Official website:](#665359c3-61fd-4858-a117-ecbcd6fbc9ea) https://www.geogebra.org/
-		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) An interactive math app for composing math applets (geometry) with formulae (algebra).
+		- [Official website:](Namespace.cm.md#665359c3-61fd-4858-a117-ecbcd6fbc9ea) https://www.geogebra.org/
+		- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) An interactive math app for composing math applets (geometry) with formulae (algebra).
 		- [<span class="link-h2">Will LÊ</span>](#66536578-c4d3-43f1-b35c-bf71120f0570)'s profile: https://www.geogebra.org/u/lexuandinhct
 			- Applet source codes GitHub: https://github.com/bixycler/GeoGebraApplets
 	- ## Way <a class="logseq-meta" id="665379e5-5bf4-4e00-ab03-9f41ff14cccc" data-collapsed="true" ></a>
-		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Tao
+		- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Tao
 	- ## Balance Way <a class="logseq-meta" id="665379b7-e4f6-4240-8029-fd143e2230c7" data-collapsed="true" ></a>
-		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [balance](#669a1d82-91c8-40fd-81f5-e8ffe56e9e9c) is the natural [<span class="link-h2">Way</span>](#665379e5-5bf4-4e00-ab03-9f41ff14cccc) of the [<span class="link-h2">Universe</span>](#66537a0b-d107-4f7e-b01f-bf624a647d8c) and should be the chosen way of life. In Buddhism, it's called [Middle Way](https://en.wikipedia.org/wiki/Middle_Way), and in Taoism, it's called simply [The Way](https://en.wikipedia.org/wiki/Tao).
-		- [Commentaries:](#665359ff-79f1-4669-b10b-f2b0e633a7c1)
+		- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) [balance](Uniinfo.cm.md#669a1d82-91c8-40fd-81f5-e8ffe56e9e9c) is the natural [<span class="link-h2">Way</span>](#665379e5-5bf4-4e00-ab03-9f41ff14cccc) of the [<span class="link-h2">Universe</span>](#66537a0b-d107-4f7e-b01f-bf624a647d8c) and should be the chosen way of life. In Buddhism, it's called [Middle Way](https://en.wikipedia.org/wiki/Middle_Way), and in Taoism, it's called simply [The Way](https://en.wikipedia.org/wiki/Tao).
+		- [Commentaries:](Namespace.cm.md#665359ff-79f1-4669-b10b-f2b0e633a7c1)
 			- The way of balance = equanimity = through (thông) = relax (xả) = middle = medium <a class="logseq-meta" id="698acc9b-3ded-433e-9f5e-5115c6abde17" ></a>
 		- refinement techniques <a class="logseq-meta" id="67b541d0-f477-4c3a-b444-fb522c3fdc4f" data-collapsed="true" ></a>
 			- ### equalize <a class="logseq-meta" id="68871ce1-eb57-4be3-ad48-45af6ccb5d49" data-collapsed="true" ></a>
-			  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [detach–attach](#68871d20-c27b-4b0d-8342-b8af093e5849)
-			  <br>[Noun:](#66c80d5c-181f-4f06-a285-0624a65e9951) [equalization](#69dd9b9a-a659-4d8d-a24c-b79c1c0c37c4)
+			  [Alias:](Namespace.cm.md#665359e4-4597-4775-b849-f9acbb98960a) [detach–attach](#68871d20-c27b-4b0d-8342-b8af093e5849)
+			  <br>[Noun:](Namespace.cm.md#66c80d5c-181f-4f06-a285-0624a65e9951) [equalization](#69dd9b9a-a659-4d8d-a24c-b79c1c0c37c4)
 				- equalization <a class="logseq-meta" id="69dd9b9a-a659-4d8d-a24c-b79c1c0c37c4" ></a>
-				  <br>[noun of](#66c80dde-a097-4744-8af8-c6e26dcfdda2) [<span class="link-h3">equalize</span>](#68871ce1-eb57-4be3-ad48-45af6ccb5d49)
-				- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) The core technique of the [<span class="link-h2">Balance Way</span>](#665379b7-e4f6-4240-8029-fd143e2230c7) is to [<span class="link-h3">equalize</span>](#68871ce1-eb57-4be3-ad48-45af6ccb5d49) all intents. This is the balance way to stranform the karma.
+				  <br>[noun of](Namespace.cm.md#66c80dde-a097-4744-8af8-c6e26dcfdda2) [<span class="link-h3">equalize</span>](#68871ce1-eb57-4be3-ad48-45af6ccb5d49)
+				- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) The core technique of the [<span class="link-h2">Balance Way</span>](#665379b7-e4f6-4240-8029-fd143e2230c7) is to [<span class="link-h3">equalize</span>](#68871ce1-eb57-4be3-ad48-45af6ccb5d49) all intents. This is the balance way to stranform the karma.
 				- Prerequisites for equalization
 					- 1. The bodymind must be [purified & calmed down](#684f9517-f8fc-45a3-80c9-25eca00e4eda) by ethics, meditation and the help of [<span class="link-h3">reset</span>](#67445065-15b2-475e-a704-78f140d487af) & [<span class="link-h3">sublime–channel</span>](#668f5490-c223-4a8a-9cc4-0bd71af4c097) techniques.
 					- 2. The bodymind must be brought to equanimity by [letting go](#669a4f1e-4205-4874-b1b0-0fc9f6bb0e8d) everything.
 					- 3. The current self-circle must be reduced to zero, leaving only the past self-circle containing karmic intents which must be [subtilized](#66aded27-9701-4b6e-85e8-22049ddbe2d2) to bite-size before brought to equalization.
 				- detach–attach <a class="logseq-meta" id="68871d20-c27b-4b0d-8342-b8af093e5849" ></a>
-				  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h3">equalize</span>](#68871ce1-eb57-4be3-ad48-45af6ccb5d49)
-					- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) In equanimity of meditation, with zero current self-circle, [observing](#6889c11f-e881-432f-ba0f-876b61afc60c) the field of dormant intents, use the “inner hands” to *detach the attachments/likes, and attach the detachments/dislikes*, all to the _equal distance of “**one arm's length**”_. When all intents are equalized, the [obop](#94e87dc9-71af-477c-aa70-0f448c2f1e20) is effectively placed at the **center** of the karmic [<span class="link-h3">self-circle</span>](#669a5387-2a97-4311-a295-aa0afd9c4d76) (from the past, not the current self-circle). From the empty center, the obop freely handles intents on the circumference via [transverse movements around view circle](#68882160-10b9-4bd2-998e-28efa9b215d6), instead of longitudinal motions along view cone.
-					- [Commentaries:](#665359ff-79f1-4669-b10b-f2b0e633a7c1)
+				  <br>[alias of](Namespace.cm.md#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h3">equalize</span>](#68871ce1-eb57-4be3-ad48-45af6ccb5d49)
+					- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) In equanimity of meditation, with zero current self-circle, [observing](#6889c11f-e881-432f-ba0f-876b61afc60c) the field of dormant intents, use the “inner hands” to *detach the attachments/likes, and attach the detachments/dislikes*, all to the _equal distance of “**one arm's length**”_. When all intents are equalized, the [obop](Uniinfo.cm.md#94e87dc9-71af-477c-aa70-0f448c2f1e20) is effectively placed at the **center** of the karmic [<span class="link-h3">self-circle</span>](Uniinfo.cm.md#669a5387-2a97-4311-a295-aa0afd9c4d76) (from the past, not the current self-circle). From the empty center, the obop freely handles intents on the circumference via [transverse movements around view circle](#68882160-10b9-4bd2-998e-28efa9b215d6), instead of longitudinal motions along view cone.
+					- [Commentaries:](Namespace.cm.md#665359ff-79f1-4669-b10b-f2b0e633a7c1)
 						- [detach–attach](#68871d20-c27b-4b0d-8342-b8af093e5849) should be combined with [accept–release](#68773fad-d653-4536-87b5-d4b493753b41) in the breathing cycle: breathe in accept, attach dislikes, breathe out release, detach likes.
-				- [Commentaries:](#665359ff-79f1-4669-b10b-f2b0e633a7c1)
+				- [Commentaries:](Namespace.cm.md#665359ff-79f1-4669-b10b-f2b0e633a7c1)
 					- Antidote [<span class="link-h3">3 poisons</span>](#6839229d-9eff-49e4-9480-6e2db6f61127) with [intent equalization](#68871ce1-eb57-4be3-ad48-45af6ccb5d49). <a class="logseq-meta" id="6888276c-d9cc-4843-8f4f-0b3de82fc9d1" data-collapsed="true" data-logbook="CLOCK: [2025-07-29 Tue 08:46:13]&#10;" ></a>
 						- The greed and aversion are directly balanced out with [detach–attach](#68871d20-c27b-4b0d-8342-b8af093e5849), while the delusion can only be gradually transformed following the emptying of the center which is the indirect & accumulative result of the detach–attach.
 						- Delusion is caused by the ignorance about the hidden boss which is the intent(s) underlying and covering the whole self-circle. <a class="logseq-meta" id="68884a49-8edc-4518-842c-ef3b6197c430" ></a>
 							- Due to the large intent of the hidden boss, the obop can only see a very narrow view (small extent).
 							- When all intents are equalized, i.e. being placed on the circumference, no intent is left in the center to be boss.
-							- The zero intent at the empty center causes the vision of the obop to be widened to the [<span class="link-h2">whole</span>](#66c8046e-c5fe-4f27-b3cf-40f5f39b646b). This whole vision is called wisdom ([paññā](https://en.wikipedia.org/wiki/Wisdom_in_Buddhism)).
+							- The zero intent at the empty center causes the vision of the obop to be widened to the [<span class="link-h2">whole</span>](Uniinfo.cm.md#66c8046e-c5fe-4f27-b3cf-40f5f39b646b). This whole vision is called wisdom ([paññā](https://en.wikipedia.org/wiki/Wisdom_in_Buddhism)).
 					- From **heading** forward with hierarchical intents, to **turning** around with [equal intents](#68871ce1-eb57-4be3-ad48-45af6ccb5d49) <a class="logseq-meta" id="68882160-10b9-4bd2-998e-28efa9b215d6" data-collapsed="true" ></a>
-						- The equalization is the transformation from the [intent double cone](#68df2d82-e1d5-49c4-ac40-d45cf26f840c) with hierarchical intents to the intent circle with equal intents.
+						- The equalization is the transformation from the [intent double cone](Uniinfo.cm.md#68df2d82-e1d5-49c4-ac40-d45cf26f840c) with hierarchical intents to the intent circle with equal intents.
 						- This transformation leads to the change of the obop's operation.
 						- from view cone & [intent chain](#6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00), to view circle & intent circle
 						- from primarily zoom in and secondarily turn, to primarily pan around and secondarily zoom in/out
 						- in polar coordinates: from radial scaling to transverse translation
-							- [Components of the tranformation $R⋅ = (r⋅e^{idφ})⋅ = (r⋅ \overrightarrow{⟨dφ⟩})⋅$](#684f951a-c14f-47f5-ac07-0cabb58cf089)
-							- [Rotations as flows on conic grids](#684f951a-4c9b-45c1-80b0-dc10d12a2dbb)
-							- [Planes and [components](https://en.wikipedia.org/wiki/Polar_coordinate_system#Vector_calculus) in polar plane](#67b541c9-3b4e-4429-8c35-9afaf9f434bf)
-							- [WAIT [long. ((67fcbbc6-915b-4d28-b9cf-098e916cdc86)) ⊥ ((67ed2855-1512-4db0-bc61-f714ea891106))] = [exp map](https://en.wikipedia.org/wiki/Exponential_map_(Lie_theory)) [real ⊥ imaginary]](#67fe23f7-3afe-4e77-be1d-fa8a15416bc3)
+							- [Components of the tranformation $R⋅ = (r⋅e^{idφ})⋅ = (r⋅ \overrightarrow{⟨dφ⟩})⋅$](../../history/publish/CommonMark/2025 Brainstorms.cm.md#684f951a-c14f-47f5-ac07-0cabb58cf089)
+							- [Rotations as flows on conic grids](../../history/publish/CommonMark/2025 Brainstorms.cm.md#684f951a-4c9b-45c1-80b0-dc10d12a2dbb)
+							- [Planes and [components](https://en.wikipedia.org/wiki/Polar_coordinate_system#Vector_calculus) in polar plane](../../history/publish/CommonMark/2024 Brainstorms.cm.md#67b541c9-3b4e-4429-8c35-9afaf9f434bf)
+							- [WAIT [long. ((67fcbbc6-915b-4d28-b9cf-098e916cdc86)) ⊥ ((67ed2855-1512-4db0-bc61-f714ea891106))] = [exp map](https://en.wikipedia.org/wiki/Exponential_map_(Lie_theory)) [real ⊥ imaginary]](../../history/publish/CommonMark/2025 Brainstorms.cm.md#67fe23f7-3afe-4e77-be1d-fa8a15416bc3)
 					- “Circle = Arrow” is the Harmonious Integration (融通, Dung Thông) of Unïnfo. <a class="logseq-meta" id="689029a3-c02b-4cb9-b1bd-205f12c97391" data-collapsed="true" data-logbook="CLOCK: [2025-08-04 Mon 10:32:04]&#10;" ></a>
-						- Perfect Inclusion ([interfusion](#66eb7dae-2032-434b-9106-756d4aad7cdb), 圓融, Viên Dung): each circle reflects all circles through arrows.
-						- Perfect [Throughness](#684f951a-ee4f-4765-b2d9-58ff04b84979) (interpenetration, 圓通, Viên Thông): penetrate all circles by the cutting edge of the arrow 💘.
-							- In order to see [all intents equally on the circumference](#68882160-10b9-4bd2-998e-28efa9b215d6), we must fly through them to get back to the [**empty center**](#66c8772a-9b29-45b0-b169-2fa847333e02) (the [Equal](#66f3d5cc-0d68-47bb-b09a-87cda33c7354)).
+						- Perfect Inclusion ([interfusion](../../history/publish/CommonMark/2024 Brainstorms.cm.md#66eb7dae-2032-434b-9106-756d4aad7cdb), 圓融, Viên Dung): each circle reflects all circles through arrows.
+						- Perfect [Throughness](../../history/publish/CommonMark/2025 Stories.cm.md#684f951a-ee4f-4765-b2d9-58ff04b84979) (interpenetration, 圓通, Viên Thông): penetrate all circles by the cutting edge of the arrow 💘.
+							- In order to see [all intents equally on the circumference](#68882160-10b9-4bd2-998e-28efa9b215d6), we must fly through them to get back to the [**empty center**](Uniinfo.cm.md#66c8772a-9b29-45b0-b169-2fa847333e02) (the [Equal](Uniinfo.cm.md#66f3d5cc-0d68-47bb-b09a-87cda33c7354)).
 								- The center of everything is not elsewhere – it is immanently present right here now, just hidden in the form.
 							- No matter where, in any form, we can **penetrate all layers of forms and intent** to get back to the center with the combination of techniques: [<span class="link-h3">reset</span>](#67445065-15b2-475e-a704-78f140d487af), [relax–reduce](#669a5162-19e1-4c52-8888-ab7cbfe275ec), [accept–release](#68773fad-d653-4536-87b5-d4b493753b41),  [<span class="link-h3">sublime–channel</span>](#668f5490-c223-4a8a-9cc4-0bd71af4c097).
 							- From such an **immanent center**, we can see all intents and opposites with their interpenetrativeness, so that we can apply that interpenetration to [<span class="link-h3">equalize</span>](#68871ce1-eb57-4be3-ad48-45af6ccb5d49) them, and to enhance our throughness.
 						- My first description of the empty center, as a vacant room, in the post [Chấp nhận được là tình thương](https://creatzynotes.blogspot.com/2021/02/chap-nhan-uoc-la-tinh-thuong.html?m=1)
 							- > Chấp nhận một cái thì trước mắt liền sáng ra, sáng rực rỡ mà không hề chói loá. Chẳng biết diễn tả cái nơi sáng rực đó thế nào, nhưng đại loại nó như cái bàn tròn mà không có bàn, cái hội trường mà không có tường và bàn ghế. Ở đó mọi người biết nhau hết mà không cần gọi tên, thấy nhau hết từ trong ra ngoài mà không chút ngại ngần.
 			- ### let-go <a class="logseq-meta" id="669a4f1e-4205-4874-b1b0-0fc9f6bb0e8d" data-collapsed="true" ></a>
-			  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) buông xả, [relax–reduce](#669a5162-19e1-4c52-8888-ab7cbfe275ec), [accept–release](#68773fad-d653-4536-87b5-d4b493753b41)
-				- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) This is the main technique to achieve [equanimity](#669a3da2-1e6c-48bd-950f-af1ea1ceda25).
+			  [Alias:](Namespace.cm.md#665359e4-4597-4775-b849-f9acbb98960a) buông xả, [relax–reduce](#669a5162-19e1-4c52-8888-ab7cbfe275ec), [accept–release](#68773fad-d653-4536-87b5-d4b493753b41)
+				- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) This is the main technique to achieve [equanimity](Uniinfo.cm.md#669a3da2-1e6c-48bd-950f-af1ea1ceda25).
 				- relax–reduce <a class="logseq-meta" id="669a5162-19e1-4c52-8888-ab7cbfe275ec" ></a>
-				  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h3">let-go</span>](#669a4f1e-4205-4874-b1b0-0fc9f6bb0e8d)
-					- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) First, _relax_ the [<span class="link-h2">self</span>](#667c015e-6223-4f8a-ae84-a93a49f4ff94) so that it doesn't hold on objects anymore, then _reduce_ the size of the [<span class="link-h3">self-circle</span>](#669a5387-2a97-4311-a295-aa0afd9c4d76) by letting all uneven stuffs go away so that only the [<span class="link-h3">round</span>](#66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f) circle remains.
+				  <br>[alias of](Namespace.cm.md#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h3">let-go</span>](#669a4f1e-4205-4874-b1b0-0fc9f6bb0e8d)
+					- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) First, _relax_ the [<span class="link-h2">self</span>](Uniinfo.cm.md#667c015e-6223-4f8a-ae84-a93a49f4ff94) so that it doesn't hold on objects anymore, then _reduce_ the size of the [<span class="link-h3">self-circle</span>](Uniinfo.cm.md#669a5387-2a97-4311-a295-aa0afd9c4d76) by letting all uneven stuffs go away so that only the [<span class="link-h3">round</span>](Uniinfo.cm.md#66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f) circle remains.
 				- accept–release <a class="logseq-meta" id="68773fad-d653-4536-87b5-d4b493753b41" ></a>
-				  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h3">let-go</span>](#669a4f1e-4205-4874-b1b0-0fc9f6bb0e8d)
+				  <br>[alias of](Namespace.cm.md#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h3">let-go</span>](#669a4f1e-4205-4874-b1b0-0fc9f6bb0e8d)
 				  <br>“Breathe in accept, breathe out release”
 				  <br>“Hít vào chấp nhận, thở ra buông xả”
-					- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) In order to accept everything no matter how bad or good it is, just inhale it, let it flow into the bodymind. Don't hold on anything, neither form nor feeling nor intent, etc., just exhale them all, let them flow out of the bodymind. This breathing technique help smoothly [transcycle](#687743fd-9d45-45be-b9fd-3055cbb8a938) everything through the mindbody without being obstructed, i.e. [“being through”](#684f951a-ee4f-4765-b2d9-58ff04b84979).
+					- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) In order to accept everything no matter how bad or good it is, just inhale it, let it flow into the bodymind. Don't hold on anything, neither form nor feeling nor intent, etc., just exhale them all, let them flow out of the bodymind. This breathing technique help smoothly [transcycle](Uniinfo.cm.md#687743fd-9d45-45be-b9fd-3055cbb8a938) everything through the mindbody without being obstructed, i.e. [“being through”](../../history/publish/CommonMark/2025 Stories.cm.md#684f951a-ee4f-4765-b2d9-58ff04b84979).
 					- Mantras
 						- Let it be, let it go, let it flow!
 							- Meaning: Accept the form as is, release the grasp, and let the thread flow.
@@ -1092,13 +1092,13 @@
 							- Không tham đắm! Hay mấy rồi cũng qua, không tham đắm!
 			- ### reset <a class="logseq-meta" id="67445065-15b2-475e-a704-78f140d487af" data-collapsed="true" ></a>
 			  unload the intent structure
-				- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) Instead of ~~[aiming at the destination](#684f9517-db29-4079-8674-09e0ffaff6ba)~~, let's [reset](#67445065-15b2-475e-a704-78f140d487af) the mind to _**start** the new journey!_ Start from resetting the [attitude](#684f9517-33c3-4a20-9fd1-936d9cc98fee), then [**detach the self** by **exposing the [hidden boss](((684f9517-d0a4-43f7-bfb2-766340b63655)))**](#674c11d4-894a-46d1-b653-5e8148773d7a), with continous [training the non-attached looking](#684f9517-48e7-46ae-943d-8744cdd07564) which is supported by [microreset](#67cff615-ec0d-4831-9851-59410cb89cf1).
+				- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) Instead of ~~[aiming at the destination](#684f9517-db29-4079-8674-09e0ffaff6ba)~~, let's [reset](#67445065-15b2-475e-a704-78f140d487af) the mind to _**start** the new journey!_ Start from resetting the [attitude](#684f9517-33c3-4a20-9fd1-936d9cc98fee), then [**detach the self** by **exposing the [hidden boss](((684f9517-d0a4-43f7-bfb2-766340b63655)))**](#674c11d4-894a-46d1-b653-5e8148773d7a), with continous [training the non-attached looking](#684f9517-48e7-46ae-943d-8744cdd07564) which is supported by [microreset](#67cff615-ec0d-4831-9851-59410cb89cf1).
 				- Reset button <a class="logseq-meta" data-collapsed="true" ></a>
 					- ![reset button](../assets/Will/story/2024-10/fixing-water-heater-reset-button-that-won_t-click-in-2-steps.png){:width 200}
-				- [History:](#6667abd2-14eb-4145-b9e3-e6f3037b3117) <a class="logseq-meta" data-collapsed="true" ></a>
+				- [History:](Namespace.cm.md#6667abd2-14eb-4145-b9e3-e6f3037b3117) <a class="logseq-meta" data-collapsed="true" ></a>
 					- I discovered [microreset](#67cff615-ec0d-4831-9851-59410cb89cf1) technique in the middle of the 3 months lockdown for Covid-19 in Vietnam around 2021 July–September.
-					- [Last weekends, Dec 21-22, the first times i can [reset](((67445065-15b2-475e-a704-78f140d487af))) within a day, didn't wait for the next day. Before and after these resets, i was back into the deep ujjayi breathing.](#6768bf20-deec-41bf-ac18-adc753ebb15f)
-					- [This morning, June 26th, the second time i did a hard ((67445065-15b2-475e-a704-78f140d487af)) with a long sleep throughout the morning time.](#685cf782-c9dd-4076-8df1-75d6efc8f196)
+					- [Last weekends, Dec 21-22, the first times i can [reset](((67445065-15b2-475e-a704-78f140d487af))) within a day, didn't wait for the next day. Before and after these resets, i was back into the deep ujjayi breathing.](../../history/publish/CommonMark/2024 Stories.cm.md#6768bf20-deec-41bf-ac18-adc753ebb15f)
+					- [This morning, June 26th, the second time i did a hard ((67445065-15b2-475e-a704-78f140d487af)) with a long sleep throughout the morning time.](../../history/publish/CommonMark/2025 Stories.cm.md#685cf782-c9dd-4076-8df1-75d6efc8f196)
 				- Detailed practices <a class="logseq-meta" data-collapsed="true" ></a>
 					- Let's restart from the **way/attitude** of looking at everything! <a class="logseq-meta" id="684f9517-33c3-4a20-9fd1-936d9cc98fee" ></a>
 						- Let's shift from the ~~**goal-oriented**~~ and target-driven way of life to the **present-oriented** and whole-driven (holistic) way.
@@ -1122,7 +1122,7 @@
 						- Training sessions should run alternately with actual working sessions.
 					- CANCELLED “**Stop - Breath - Observe - Plan**” <a class="logseq-meta" id="67714c6b-68b6-4f73-b209-56f5f184c4d9" data-logbook="CLOCK: [2024-12-29 Sun 21:06:08]&#10;" ></a>
 						- This checkstop is required so that all hidden ones can be [exposed](#674c11d4-894a-46d1-b653-5e8148773d7a).
-						- CANCELLED Design [<span class="link-h1">Task</span>](#6651adea-e1ed-4884-93eb-5ebd6086b62b) as a **master plan**, with `/Deadline`, `/Scheduled`, and [query](https://discuss.logseq.com/t/query-to-list-task-by-priority-scheduled-deadline-in-the-near-future/24642) ... <a class="logseq-meta" id="67715d03-9dbc-42b0-8589-064396a9c52b" data-collapsed="true" data-logbook="CLOCK: [2024-12-29 Sun 21:32:09]&#10;" ></a>
+						- CANCELLED Design [<span class="link-h1">Task</span>](Task.cm.md#6651adea-e1ed-4884-93eb-5ebd6086b62b) as a **master plan**, with `/Deadline`, `/Scheduled`, and [query](https://discuss.logseq.com/t/query-to-list-task-by-priority-scheduled-deadline-in-the-near-future/24642) ... <a class="logseq-meta" id="67715d03-9dbc-42b0-8589-064396a9c52b" data-collapsed="true" data-logbook="CLOCK: [2024-12-29 Sun 21:32:09]&#10;" ></a>
 							- The master plan keeps the mind near the root, and have a bird's eye view.
 							- The task is usually placed in the context work with status `TODO`, `DOING`, `WAIT`, `IN-PROGRESS`, or `CANCELED`.
 							- The plan contains refs to in-context tasks and other metadata like issues, status details, temporary notes, priority, schedule, etc.
@@ -1137,20 +1137,20 @@
 								- Year Braindumps > [So Logseq "restored" the id, based on the relative position between blocks, in commit `6154f573`](#db954501-95d0-46e2-b1fc-39b6a966300e) 
 								  <br>[<span class="link-h2">Brainstorming > ((6960e754-ff94-4e1a-8266-d9f15231b880))</span>](Brainstorm.cm.md#6773eb97-ec58-4c48-a017-cd0de2d82e08) > Year Brainstorms
 									- Move from Brain{dump,storm}ing → Year Brain{dump,storm} <a class="logseq-meta" id="67762e67-bcfc-403b-a314-44213523f905" ></a>
-								- [<span class="link-h2">Workstack</span>](#6651adea-81d4-40a5-b96d-af6739e572eb):
-									- [<span class="link-h3">Git Tracks</span>](#67139355-ac72-4e4c-b882-00bb3a3ea144):
-										- [<span class="link-h4">To be merged</span>](#67164cc1-e500-4889-9b6d-12d8dd7fc029) > [<span class="link-h4">WIPs < ((67164cc1-e500-4889-9b6d-12d8dd7fc029))</span>](#67164c57-8f45-46eb-92a9-f00b02dccfc9)
+								- [<span class="link-h2">Workstack</span>](Workspace.cm.md#6651adea-81d4-40a5-b96d-af6739e572eb):
+									- [<span class="link-h3">Git Tracks</span>](Workspace.cm.md#67139355-ac72-4e4c-b882-00bb3a3ea144):
+										- [<span class="link-h4">To be merged</span>](Workspace.cm.md#67164cc1-e500-4889-9b6d-12d8dd7fc029) > [<span class="link-h4">WIPs < ((67164cc1-e500-4889-9b6d-12d8dd7fc029))</span>](Workspace.cm.md#67164c57-8f45-46eb-92a9-f00b02dccfc9)
 											- Move WIPs from `WIPs` → `To be merged`
-									- [<span class="link-h3">Working</span>](#6773d98a-3917-4267-9f8b-7d86b84d3663) place:
+									- [<span class="link-h3">Working</span>](Workspace.cm.md#6773d98a-3917-4267-9f8b-7d86b84d3663) place:
 										- [So Logseq "restored" the id, based on the relative position between blocks, in commit `6154f573`](#db954501-95d0-46e2-b1fc-39b6a966300e) and [<span class="link-h2">Brainstorming > ((6960e754-ff94-4e1a-8266-d9f15231b880))</span>](Brainstorm.cm.md#6773eb97-ec58-4c48-a017-cd0de2d82e08)
 											- [Move from Brain{dump,storm}ing → Year Brain{dump,storm}](#67762e67-bcfc-403b-a314-44213523f905)
-										- [<span class="link-h2">Current Tasks < ((677614c4-ea7d-47c0-89ee-afbacceb56e9)) > ((67763106-205f-4e01-affc-a68e1d8e53a9))</span>](#677630fe-ea99-436f-b39f-8bd2295e2eaf) & [<span class="link-h4">WIPs < ((67164cc1-e500-4889-9b6d-12d8dd7fc029))</span>](#67164c57-8f45-46eb-92a9-f00b02dccfc9)
+										- [<span class="link-h2">Current Tasks < ((677614c4-ea7d-47c0-89ee-afbacceb56e9)) > ((67763106-205f-4e01-affc-a68e1d8e53a9))</span>](Task.cm.md#677630fe-ea99-436f-b39f-8bd2295e2eaf) & [<span class="link-h4">WIPs < ((67164cc1-e500-4889-9b6d-12d8dd7fc029))</span>](Workspace.cm.md#67164c57-8f45-46eb-92a9-f00b02dccfc9)
 											- [Move current tasks done, i.e. past tasks → Year Tasks](#67760c43-d4fb-43e3-ab23-16720723f800)
 							- Master plan <a class="logseq-meta" id="67760c43-5cbd-4b4f-8fd9-5cedf804f56a" data-logbook="CLOCK: [2025-01-02 Thu 14:44:16]&#10;" ></a>
 								- spatial versus temporal, like [urban planning](https://en.wikipedia.org/wiki/Urban_planning)
-									- spatial: [<span class="link-h3">DOING Mind Map</span>](#67760c43-58c6-40eb-b874-40afae448966) = the central hub = ∞ = in <<[antipole](https://en.wiktionary.org/wiki/antipole)/[antipode](https://en.wikipedia.org/wiki/Antipodes) of>> [<span class="link-h3">Working</span>](#6773d98a-3917-4267-9f8b-7d86b84d3663) place = 0 = out
-									- temporal: [<span class="link-h1">Task</span>](#6651adea-e1ed-4884-93eb-5ebd6086b62b) list
-								- design [effect circle](#667c0031-0a87-44c9-9e98-6d45893b095f) ~ [knowledge circle](#6773d7f2-be44-43f0-b4f0-31d910b12982)
+									- spatial: [<span class="link-h3">DOING Mind Map</span>](#67760c43-58c6-40eb-b874-40afae448966) = the central hub = ∞ = in <<[antipole](https://en.wiktionary.org/wiki/antipole)/[antipode](https://en.wikipedia.org/wiki/Antipodes) of>> [<span class="link-h3">Working</span>](Workspace.cm.md#6773d98a-3917-4267-9f8b-7d86b84d3663) place = 0 = out
+									- temporal: [<span class="link-h1">Task</span>](Task.cm.md#6651adea-e1ed-4884-93eb-5ebd6086b62b) list
+								- design [effect circle](Uniinfo.cm.md#667c0031-0a87-44c9-9e98-6d45893b095f) ~ [knowledge circle](../../history/publish/CommonMark/2024 Stories.cm.md#6773d7f2-be44-43f0-b4f0-31d910b12982)
 									- start from the issues in [So Logseq "restored" the id, based on the relative position between blocks, in commit `6154f573`](#db954501-95d0-46e2-b1fc-39b6a966300e)
 										- → down to tasks, deep into in-context tasks
 										- → at break points (temporary break, task complete, new issue), return to braindumping
@@ -1180,7 +1180,7 @@
 										- do something <a class="logseq-meta" id="67764c9e-2cb1-4e0b-a318-9e14dade130d" ></a>
 											- task 1
 											- task 2
-									- [Commentaries:](#665359ff-79f1-4669-b10b-f2b0e633a7c1)
+									- [Commentaries:](Namespace.cm.md#665359ff-79f1-4669-b10b-f2b0e633a7c1)
 										- Machines lack effect circle, don't know the "why", the root purpose.
 									- turn all works into **problem solving** works _around the **intent**_ <a class="logseq-meta" id="677fca96-1e71-4af7-9a99-1c751d145358" ></a>
 										- problem = mismatch = distance to target (center)
@@ -1192,22 +1192,22 @@
 											- this flow of effect gives knowledge to other threads of knowledge
 											- when this flow gets stuck due to the lack of knowledge in this thread, just switch to the next flow waiting in the task list
 											- effect flow = program execution history = braindumping
-								- [Commentaries:](#665359ff-79f1-4669-b10b-f2b0e633a7c1)
+								- [Commentaries:](Namespace.cm.md#665359ff-79f1-4669-b10b-f2b0e633a7c1)
 									- Once the ⟪ [Master plan](#67760c43-5cbd-4b4f-8fd9-5cedf804f56a) ⟫ was mistakenly typed as "Matter plan",  <a class="logseq-meta" id="684f9517-8496-4ac5-9bcd-010c1666a7e2" ></a>
 										- and the AI podcaster of NotebookLM said
 										  <br>> Matter planning is a really apt name.
 										  <br>> Because it emphasizes that our tasks aren't isolated items on a to-do list. They're interconnected pieces of matter woven into the fabric of our lives.
 						- Complete failure!
-							- The [planning](#6926be1c-549f-4657-9760-eed54a585661) has been done in July 2025 and brought to trial from [July](#686b390a-7953-4069-9c04-17c7f9a777a7) to [August](#688c70aa-8fdf-4cc8-aeb7-ffd47b86cee0), and abandoned in [October](#68dc9f21-1057-4ac0-be4c-61c9010d7f78) due to clear ineffectiveness.
+							- The [planning](../../history/publish/CommonMark/2025 Brainstorms.cm.md#6926be1c-549f-4657-9760-eed54a585661) has been done in July 2025 and brought to trial from [July](../../history/publish/CommonMark/2025 Stories.cm.md#686b390a-7953-4069-9c04-17c7f9a777a7) to [August](../../history/publish/CommonMark/2025 Stories.cm.md#688c70aa-8fdf-4cc8-aeb7-ffd47b86cee0), and abandoned in [October](../../history/publish/CommonMark/2025 Stories.cm.md#68dc9f21-1057-4ac0-be4c-61c9010d7f78) due to clear ineffectiveness.
 							- Reason: Planning (life programming) is ineffective to me due to my non-verbal thinking nature. <a class="logseq-meta" id="699e6a05-0095-46dd-a179-0e4c634a41c2" ></a>
-								- In my deep flow, there's no notion of time, only the present crushed by the heavy [stack of intents](#690b3f49-1419-4dc3-b61b-12890b9e04f9). No program can be stored in the stack frames, only the intents created by my [**holistic core**](#681b3ad7-d1b0-4c06-a4ea-385a4a9314e0).
+								- In my deep flow, there's no notion of time, only the present crushed by the heavy [stack of intents](../../history/publish/CommonMark/2025 Stories.cm.md#690b3f49-1419-4dc3-b61b-12890b9e04f9). No program can be stored in the stack frames, only the intents created by my [**holistic core**](#681b3ad7-d1b0-4c06-a4ea-385a4a9314e0).
 				- target reaching machinary <a class="logseq-meta" id="684f9517-db29-4079-8674-09e0ffaff6ba" ></a>
 					- Most of us are goal/target reaching machines with a built-in motivation to complete the circle.
-					- The **inner target** of the [<span class="link-h2">effect flow</span>](#667bef22-b272-4a7d-b613-3f1ed1a47329) is the driver, operator, controller of the whole [effect circle](#667c0031-0a87-44c9-9e98-6d45893b095f).
-					- *The target is the __hidden boss__*, the inner [<span class="link-h2">self</span>](#667c015e-6223-4f8a-ae84-a93a49f4ff94) wall, the underlying driving force. My boss is the [**holistic core**](#681b3ad7-d1b0-4c06-a4ea-385a4a9314e0). <a class="logseq-meta" id="684f9517-d0a4-43f7-bfb2-766340b63655" ></a>
-					- [⇒](#66602f68-e23f-4b24-921e-b1a9fc0cc731) [**detach the self** by **exposing the [hidden boss](((684f9517-d0a4-43f7-bfb2-766340b63655)))**](#674c11d4-894a-46d1-b653-5e8148773d7a)
+					- The **inner target** of the [<span class="link-h2">effect flow</span>](Uniinfo.cm.md#667bef22-b272-4a7d-b613-3f1ed1a47329) is the driver, operator, controller of the whole [effect circle](Uniinfo.cm.md#667c0031-0a87-44c9-9e98-6d45893b095f).
+					- *The target is the __hidden boss__*, the inner [<span class="link-h2">self</span>](Uniinfo.cm.md#667c015e-6223-4f8a-ae84-a93a49f4ff94) wall, the underlying driving force. My boss is the [**holistic core**](#681b3ad7-d1b0-4c06-a4ea-385a4a9314e0). <a class="logseq-meta" id="684f9517-d0a4-43f7-bfb2-766340b63655" ></a>
+					- [⇒](Namespace.cm.md#66602f68-e23f-4b24-921e-b1a9fc0cc731) [**detach the self** by **exposing the [hidden boss](((684f9517-d0a4-43f7-bfb2-766340b63655)))**](#674c11d4-894a-46d1-b653-5e8148773d7a)
 					- The [computer programs](https://en.wikipedia.org/wiki/Computer_program) reflect this target reaching machinary on computers.
-				- [Commentaries:](#665359ff-79f1-4669-b10b-f2b0e633a7c1)
+				- [Commentaries:](Namespace.cm.md#665359ff-79f1-4669-b10b-f2b0e633a7c1)
 					- “[The Goal is the Horizon](https://creatzynotes.blogspot.com/2024/12/the-goal-is-horizon.html)” parable/koan <a class="logseq-meta" id="67445223-9459-4aa9-b102-70c63943577b" data-collapsed="true" ></a>
 						- After enjoying the scenic beauty of Mount Pure Bliss for a week, the master urged the disciple to continue the journey the next morning. <a class="logseq-meta" data-collapsed="true" ></a>
 							- Let's go, don't get too engrossed in this place.
@@ -1297,7 +1297,7 @@
 									  <br>> + The “horizon” is a **conceptual placeholder** for liberation until one's perspective changes.
 									  <br>> + Once the shift happens, the horizon is no longer “over there” but present at every step — the loop closes.
 										- The disciple sees the goal as a fixed telos.
-										- The master transforms the goal into a dynamic and cyclic [<span class="link-h3">intentional cause</span>](#677e76ed-b324-4608-b146-90e8fcfa0c32), where the end folds back into the beginning.
+										- The master transforms the goal into a dynamic and cyclic [<span class="link-h3">intentional cause</span>](Uniinfo.cm.md#677e76ed-b324-4608-b146-90e8fcfa0c32), where the end folds back into the beginning.
 								- Will:
 								  <br>> Just keep going!
 						- [Beyond the top of a mountain is another higher mountain!](https://www.facebook.com/share/p/12GTUumWARA/)
@@ -1331,13 +1331,13 @@
 								- Symptom: Burping and immediate gut motility.
 								- Function: The vagal signal restarting the rest–and–digest peristalsis, discharging visceral tension.
 			- ### sublime–channel <a class="logseq-meta" id="668f5490-c223-4a8a-9cc4-0bd71af4c097" data-collapsed="true" ></a>
-			  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) thăng hoa – dẫn lưu
-				- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) First, use breathwork to dissolve, to _sublimate_ the hard [<span class="link-h3">self-circle</span>](#669a5387-2a97-4311-a295-aa0afd9c4d76) into a fluid (qi, khí, 氣), then use qigong (氣功) & [ujjayi breath](#66952126-bf33-40e1-a208-369df7aa9488) to transform & _channel_ the fluid to the required target form. The process should repeat until we reach [equilibrium](#669a58b9-2104-4d4c-b68f-7a45e2adb915).
+			  [Alias:](Namespace.cm.md#665359e4-4597-4775-b849-f9acbb98960a) thăng hoa – dẫn lưu
+				- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) First, use breathwork to dissolve, to _sublimate_ the hard [<span class="link-h3">self-circle</span>](Uniinfo.cm.md#669a5387-2a97-4311-a295-aa0afd9c4d76) into a fluid (qi, khí, 氣), then use qigong (氣功) & [ujjayi breath](#66952126-bf33-40e1-a208-369df7aa9488) to transform & _channel_ the fluid to the required target form. The process should repeat until we reach [equilibrium](#669a58b9-2104-4d4c-b68f-7a45e2adb915).
 				- **Ujjayi** breathing technique for [<span class="link-h3">sublime–channel</span>](#668f5490-c223-4a8a-9cc4-0bd71af4c097) <a class="logseq-meta" id="66952126-bf33-40e1-a208-369df7aa9488" data-collapsed="true" data-logbook="CLOCK: [2024-07-15 Mon 20:28:28]&#10;" ></a>
 					- With the sublime–channeling mind, i've found that my breath is "strong & noisy inside", which is very similar to the [Ujjayi Pranayama](https://en.wikipedia.org/wiki/Ujjayi) of yoga. <a class="logseq-meta" id="66b1cfa3-93c4-4de3-8904-06fb065ded70" ></a>
 					- This breath is the back-tracking thread connecting to the root, just like the [Ariadne's thread](https://en.wikipedia.org/wiki/Ariadne%27s_thread_(logic)) helping escaping the maze. <a class="logseq-meta" data-collapsed="true" ></a>
-				- [<span class="link-h3">equilibrium</span>](#669a1bec-3347-4915-83e4-dcffc4d482d1): input = output <a class="logseq-meta" id="669a58b9-2104-4d4c-b68f-7a45e2adb915" ></a>
-				- [History:](#6667abd2-14eb-4145-b9e3-e6f3037b3117) <a class="logseq-meta" data-collapsed="true" ></a>
+				- [<span class="link-h3">equilibrium</span>](Uniinfo.cm.md#669a1bec-3347-4915-83e4-dcffc4d482d1): input = output <a class="logseq-meta" id="669a58b9-2104-4d4c-b68f-7a45e2adb915" ></a>
+				- [History:](Namespace.cm.md#6667abd2-14eb-4145-b9e3-e6f3037b3117) <a class="logseq-meta" data-collapsed="true" ></a>
 					- I discovered sublimation first (from [the start of February 2024](https://www.facebook.com/lexuandinhct/posts/pfbid02q1oHaX9xkQQUsr1YVyAihCnCN47NFoCKYWqX5q2R2ud4UgqScbST1Z27KMBeRC1cl) via a tantric practice).
 					- Practicing sublimation without proper transformation & channeling, i've been struck by a serious lung inflammation (pneumonia, from the end of Mars to April 2024). <a class="logseq-meta" id="67b541d0-e82f-422b-9c0d-f7924abce981" data-collapsed="true" ></a>
 						- ![Pneumonia_2024-04.jpg](../assets/Will/story/2024-04/Pneumonia_2024-04.jpg)
@@ -1347,26 +1347,26 @@
 						- the key point in my chest to control the cough reflex, and
 						- revisit the formless meditation to deal with serious pain (my first application was at the previous serious illness of herpes zoster/zona).
 					- Then i refined the technique with breathwork which resulted in the [ujjayi breath](#66952126-bf33-40e1-a208-369df7aa9488).
-					- [August 5th 2025](#6892ac8b-8b7c-4129-8a62-5c38065f7898), i saw that sublime–channel technique has the effect of dissolving intents, helping [intents penetration](#689029a3-c02b-4cb9-b1bd-205f12c97391) in the [intents equalization](#68871ce1-eb57-4be3-ad48-45af6ccb5d49).
-				- [Commentaries:](#665359ff-79f1-4669-b10b-f2b0e633a7c1)
+					- [August 5th 2025](../../history/publish/CommonMark/2025 Stories.cm.md#6892ac8b-8b7c-4129-8a62-5c38065f7898), i saw that sublime–channel technique has the effect of dissolving intents, helping [intents penetration](#689029a3-c02b-4cb9-b1bd-205f12c97391) in the [intents equalization](#68871ce1-eb57-4be3-ad48-45af6ccb5d49).
+				- [Commentaries:](Namespace.cm.md#665359ff-79f1-4669-b10b-f2b0e633a7c1)
 			- ### subtilize <a class="logseq-meta" id="66aded27-9701-4b6e-85e8-22049ddbe2d2" data-collapsed="true" data-logbook="CLOCK: [2024-08-17 Sat 19:09:56]&#10;CLOCK: [2025-03-11 Tue 15:35:24]--[2025-03-11 Tue 15:51:15] =&gt;  00:15:51&#10;" ></a>
-			  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [microreset](#67cff615-ec0d-4831-9851-59410cb89cf1)
-				- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) The [<span class="link-h3">self-circle</span>](#669a5387-2a97-4311-a295-aa0afd9c4d76) is repeatedly broken down into smaller circles, which eventually lead to selflessness.
+			  [Alias:](Namespace.cm.md#665359e4-4597-4775-b849-f9acbb98960a) [microreset](#67cff615-ec0d-4831-9851-59410cb89cf1)
+				- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) The [<span class="link-h3">self-circle</span>](Uniinfo.cm.md#669a5387-2a97-4311-a295-aa0afd9c4d76) is repeatedly broken down into smaller circles, which eventually lead to selflessness.
 				- microreset <a class="logseq-meta" id="67cff615-ec0d-4831-9851-59410cb89cf1" ></a>
-				  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h3">subtilize</span>](#66aded27-9701-4b6e-85e8-22049ddbe2d2)
-					- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) Frequent short pauses in the middle of the flow, usually from one to three breaths, help us subtlize the large circle into smaller circles, and train the habit of resetting. The mantra is _“stop – breathe – feel/observe – act”_. These frequent microresets aid the grand [<span class="link-h3">reset</span>](#67445065-15b2-475e-a704-78f140d487af) of intent structure.
-					- [History:](#6667abd2-14eb-4145-b9e3-e6f3037b3117) <a class="logseq-meta" data-collapsed="true" ></a>
+				  <br>[alias of](Namespace.cm.md#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h3">subtilize</span>](#66aded27-9701-4b6e-85e8-22049ddbe2d2)
+					- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) Frequent short pauses in the middle of the flow, usually from one to three breaths, help us subtlize the large circle into smaller circles, and train the habit of resetting. The mantra is _“stop – breathe – feel/observe – act”_. These frequent microresets aid the grand [<span class="link-h3">reset</span>](#67445065-15b2-475e-a704-78f140d487af) of intent structure.
+					- [History:](Namespace.cm.md#6667abd2-14eb-4145-b9e3-e6f3037b3117) <a class="logseq-meta" data-collapsed="true" ></a>
 						- I discovered this technique in the middle of the 3 months lockdown for Covid-19 in Vietnam around 2021 July-September.
 			- ### introspect <a class="logseq-meta" id="6889c11f-e881-432f-ba0f-876b61afc60c" data-collapsed="true" ></a>
-			  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [look behind the eyes](#68898917-e61f-4d23-9124-474efa9a9eee)
+			  [Alias:](Namespace.cm.md#665359e4-4597-4775-b849-f9acbb98960a) [look behind the eyes](#68898917-e61f-4d23-9124-474efa9a9eee)
 				- look behind the eyes <a class="logseq-meta" id="68898917-e61f-4d23-9124-474efa9a9eee" data-logbook="CLOCK: [2025-07-30 Wed 09:53:20]--[2025-07-30 Wed 19:37:45] =&gt;  09:44:25&#10;" ></a>
-				  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h3">introspect</span>](#6889c11f-e881-432f-ba0f-876b61afc60c)
-					- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) In order to reveal the [perception–action double cone](#685156b0-2f3b-4aa9-8b87-636d38a02cd2) in the [cause–effect mirror circles](#6889a623-34cd-4b65-8a91-5cfdbb199b71) and escape its domination, we must look behind the [sensor](#669a2886-9e03-41a4-a790-24bf6b7dcd96)s.
-					- [Commentaries:](#665359ff-79f1-4669-b10b-f2b0e633a7c1)
-						- Because [<span class="link-h2">intent</span>](#66b1cfa4-01ef-4ee8-9409-32c9884c39cd) is what's behind the eyes, it is normally an invisible, hidden boss. <a class="logseq-meta" id="68a520bf-adba-4d78-9e3d-5f41de9f8153" data-collapsed="true" data-logbook="CLOCK: [2025-07-30 Wed 14:09:41]&#10;" ></a>
-							- The [intent chain](#6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00), like the [chain/train of thought](https://en.wikipedia.org/wiki/Train_of_thought), is modeled in Uninet Theory as the hierarchical [intent double cone](#68df2d82-e1d5-49c4-ac40-d45cf26f840c) from the [Now, in commit `03a0b563`, i just change the id of `perceptual screen` to the new one ``](#66ea4711-1392-4f5c-bea2-badc71a2fb9e) to the center obop, i.e. *behind the screen*.
-								- In projective geometry, the intent cone intends behind the [projection plane](#68a7d179-b663-42bd-85b9-6c18be6b6c97) toward the [center of projection](#66728236-5b19-425c-bb5f-dfc0dc8b79fd).
-							- Because all intents are just accumulation of past actions (karma), like the [growth rings](https://simple.wikipedia.org/wiki/Growth_ring), the [intent cone](#66ea8dbe-042e-41fc-a07c-841dcb5a737a) which determines how the world is seen (giving forms to object's content) is just a slice of the past reactivated. <a class="logseq-meta" id="68a7e4c1-b26f-41fc-9e2d-f62789a2a9d3" ></a>
+				  <br>[alias of](Namespace.cm.md#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h3">introspect</span>](#6889c11f-e881-432f-ba0f-876b61afc60c)
+					- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) In order to reveal the [perception–action double cone](Uniinfo.cm.md#685156b0-2f3b-4aa9-8b87-636d38a02cd2) in the [cause–effect mirror circles](Uniinfo.cm.md#6889a623-34cd-4b65-8a91-5cfdbb199b71) and escape its domination, we must look behind the [sensor](Uniinfo.cm.md#669a2886-9e03-41a4-a790-24bf6b7dcd96)s.
+					- [Commentaries:](Namespace.cm.md#665359ff-79f1-4669-b10b-f2b0e633a7c1)
+						- Because [<span class="link-h2">intent</span>](Uniinfo.cm.md#66b1cfa4-01ef-4ee8-9409-32c9884c39cd) is what's behind the eyes, it is normally an invisible, hidden boss. <a class="logseq-meta" id="68a520bf-adba-4d78-9e3d-5f41de9f8153" data-collapsed="true" data-logbook="CLOCK: [2025-07-30 Wed 14:09:41]&#10;" ></a>
+							- The [intent chain](#6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00), like the [chain/train of thought](https://en.wikipedia.org/wiki/Train_of_thought), is modeled in Uninet Theory as the hierarchical [intent double cone](Uniinfo.cm.md#68df2d82-e1d5-49c4-ac40-d45cf26f840c) from the [Now, in commit `03a0b563`, i just change the id of `perceptual screen` to the new one ``](#66ea4711-1392-4f5c-bea2-badc71a2fb9e) to the center obop, i.e. *behind the screen*.
+								- In projective geometry, the intent cone intends behind the [projection plane](Uniinfo.cm.md#68a7d179-b663-42bd-85b9-6c18be6b6c97) toward the [center of projection](Uniinfo.cm.md#66728236-5b19-425c-bb5f-dfc0dc8b79fd).
+							- Because all intents are just accumulation of past actions (karma), like the [growth rings](https://simple.wikipedia.org/wiki/Growth_ring), the [intent cone](Uniinfo.cm.md#66ea8dbe-042e-41fc-a07c-841dcb5a737a) which determines how the world is seen (giving forms to object's content) is just a slice of the past reactivated. <a class="logseq-meta" id="68a7e4c1-b26f-41fc-9e2d-f62789a2a9d3" ></a>
 								- Growth rings model of intent cone <a class="logseq-meta" data-collapsed="true" ></a>
 									- ![intent-cone-growth-ring.png](../assets/Uniinfo/uninet/intent-cone-growth-ring.png){:width 300}
 								- ⇒ The final boss, the central obop, is just the infinite past.
@@ -1402,33 +1402,33 @@
 								- August 2015, [Cảnh Nội–Ngoại Thực tại Hiện tiền](https://www.facebook.com/lexuandinhct/posts/pfbid02a9AdxeN8uNhonvWfks3iyFsZhoy1ymNV91mucthCBM7ub3DZVxd8fBfFSXuyENQNl)
 								- April 2019, [signatures of the In–Ex Presence](https://www.facebook.com/lexuandinhct/posts/pfbid02Fc6tCM7cC8WPy2sQZA7gmrZEGWCrPPVsUW8WjuFuWjrepNDQqaeF6DTjbQz2s8k1l)
 								- Semptember 2021, [presence of mind](https://www.facebook.com/lexuandinhct/posts/pfbid0qwzAe2dCABiCK9QAL1whEbdUFA8go3piFDSj3BstGJD6HHzUCFpZduSLYxa9gQkCl)
-				- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Introspection
+				- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Introspection
 				- Unified Presence of Inner–Outer Reality <a class="logseq-meta" id="68a2a2cd-fb87-4485-b1cb-3cde54af8f2a" ></a>
 				  <br>Vietnamese: Nội–Ngoại Thực tại Hiện tiền
 				  <br>Chinese: 内外實在現前
-				  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [In–Ex Presence](#68a2a2b1-4565-401d-80ee-9c412b97da35)
+				  <br>[Alias:](Namespace.cm.md#665359e4-4597-4775-b849-f9acbb98960a) [In–Ex Presence](#68a2a2b1-4565-401d-80ee-9c412b97da35)
 					- In–Ex Presence <a class="logseq-meta" id="68a2a2b1-4565-401d-80ee-9c412b97da35" ></a>
-					  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [Unified Presence of Inner–Outer Reality](#68a2a2cd-fb87-4485-b1cb-3cde54af8f2a) 
+					  <br>[alias of](Namespace.cm.md#665c9af1-1ce2-461c-af33-671690618c8f) [Unified Presence of Inner–Outer Reality](#68a2a2cd-fb87-4485-b1cb-3cde54af8f2a) 
 					  <br>Vietnamese: Nội–Ngoại Hiện tiền
-					- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) The [Unified Presence of Inner–Outer Reality](#68a2a2cd-fb87-4485-b1cb-3cde54af8f2a) is where both internal reality (active intents, thoughts, internal working of the body-mind) and external reality (rūpa-realm) are *present in front of the eye* [equally](#68871ce1-eb57-4be3-ad48-45af6ccb5d49). Being brought before the (internal) eye, the [hidden boss](#68884a49-8edc-4518-842c-ef3b6197c430) is revealed and stripped off of its control power.
-					- [Commentaries:](#665359ff-79f1-4669-b10b-f2b0e633a7c1)
+					- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) The [Unified Presence of Inner–Outer Reality](#68a2a2cd-fb87-4485-b1cb-3cde54af8f2a) is where both internal reality (active intents, thoughts, internal working of the body-mind) and external reality (rūpa-realm) are *present in front of the eye* [equally](#68871ce1-eb57-4be3-ad48-45af6ccb5d49). Being brought before the (internal) eye, the [hidden boss](#68884a49-8edc-4518-842c-ef3b6197c430) is revealed and stripped off of its control power.
+					- [Commentaries:](Namespace.cm.md#665359ff-79f1-4669-b10b-f2b0e633a7c1)
 						- [From 2015, ((68a2a2b1-4565-401d-80ee-9c412b97da35)) has been the only state (in the rūpa-realm) that i've been practicing and advancing deeper into.](#68a27d18-3504-4376-a3f4-7223d632b253)
 						- Present = hiện tiền = [pratyakṣa](https://en.wikipedia.org/wiki/Pramana#Pratyak%E1%B9%A3a) ([प्रत्यक्ष](https://sanskritdictionary.com/pratyak%E1%B9%A3a/10589/2)): [“present”](https://en.wiktionary.org/wiki/present) = “pre-” + “est” = (bring something to) be in front of (some one, some eye)
 							- pratyakṣa = “prati-” (pre-) + “akṣa” (eye [of an elephant], sense organ in general)
 			- ### being present <a class="logseq-meta" data-collapsed="true" data-logbook="CLOCK: [2026-03-12 Thu 09:14:37]&#10;CLOCK: [2026-03-12 Thu 09:14:38]--[2026-03-12 Thu 09:55:14] =&gt;  00:40:36&#10;" ></a>
-				- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) Throughout life, we're mostly enslaved to the past [<span class="link-h2">form</span>](#665ca429-84e3-49ff-921e-c07d19cd99ba)s – our [<span class="link-h2">intent</span>](#66b1cfa4-01ef-4ee8-9409-32c9884c39cd)s – which constantly command us to replicate them in our images about the future. To cut this chain of slavery, we need to practice meditation to [absorb into the present](#6850c7e4-0969-45b7-9ca8-e2c1d764effe).
-				- [Commentaries:](#665359ff-79f1-4669-b10b-f2b0e633a7c1)
+				- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) Throughout life, we're mostly enslaved to the past [<span class="link-h2">form</span>](Uniinfo.cm.md#665ca429-84e3-49ff-921e-c07d19cd99ba)s – our [<span class="link-h2">intent</span>](Uniinfo.cm.md#66b1cfa4-01ef-4ee8-9409-32c9884c39cd)s – which constantly command us to replicate them in our images about the future. To cut this chain of slavery, we need to practice meditation to [absorb into the present](#6850c7e4-0969-45b7-9ca8-e2c1d764effe).
+				- [Commentaries:](Namespace.cm.md#665359ff-79f1-4669-b10b-f2b0e633a7c1)
 					- The key of liberation is focusing on the present. <a class="logseq-meta" id="69b218a5-e59d-4279-8675-7386689fc6a4" data-collapsed="true" ></a>
 						- When we feel empty (or in free time), instead of filling the void with past forms, which leads to greed, fill it with the present content.
 						- When our pleasant forms (momentum) are interrupted by sudden changes (impermanence), instead of pushing against the new, which leads to aversion, take deep breaths to dive into that new content.
 						- Only viewing from the present, can the hidden boss – fixation from distant past – be revealed and detached, in order to clear our root delusion.
 			- ### functional suffering <a class="logseq-meta" id="69f99afb-5535-4929-8d01-fbc804b91170" data-collapsed="true" ></a>
-				- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h3">functional suffering</span>](#69f99afb-5535-4929-8d01-fbc804b91170) is a systemic approach that redefines [suffering](https://en.wikipedia.org/wiki/Suffering) – from physical pain to subtle mental distress and anything unsatisfactory/unpleasant – as a functional component of the bodymind's [effect circle](#667c0031-0a87-44c9-9e98-6d45893b095f), rather than an existential enemy. It functions as an input signal and a driving force of life in the method of [<span class="link-h4">honesty to suffering</span>](#69f99ba6-5de7-408e-8dac-cc7abc7fdebb).
+				- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h3">functional suffering</span>](#69f99afb-5535-4929-8d01-fbc804b91170) is a systemic approach that redefines [suffering](https://en.wikipedia.org/wiki/Suffering) – from physical pain to subtle mental distress and anything unsatisfactory/unpleasant – as a functional component of the bodymind's [effect circle](Uniinfo.cm.md#667c0031-0a87-44c9-9e98-6d45893b095f), rather than an existential enemy. It functions as an input signal and a driving force of life in the method of [<span class="link-h4">honesty to suffering</span>](#69f99ba6-5de7-408e-8dac-cc7abc7fdebb).
 					- This approach bypasses the traditional trap of egoic resistance, by treating the suffering as an informational packet input to the self as a fluid processing system, *not* by separating the mental suffering from the physical pain.
 						- The rigid separation between “inevitable physical pain versus optional mental suffering”, usually linked to the [parable of 2 arrows](https://suttacentral.net/sn36.6/en/bodhi), is an oversimplification of the intricate fabric of suffering and the deep meanings of Buddhist teachings.
 					- This method requires abandoning the rigid, active defense of the ego, which attempts to build tolerance or push back against reality.
 						- Holding such rigidity against the universe's engine of change inevitably leads to deeper suffering – the “2nd arrow” in the parable of 2 arrows.
-				- [Commentaries:](#665359ff-79f1-4669-b10b-f2b0e633a7c1)
+				- [Commentaries:](Namespace.cm.md#665359ff-79f1-4669-b10b-f2b0e633a7c1)
 					- Suffering – the First Noble Truth <a class="logseq-meta" data-collapsed="true" ></a>
 						- The systemic task
 							- The First Noble Truth in Buddhism declares that [dukkha](https://en.wikipedia.org/wiki/Dukkha) (suffering or systemic friction) is an inevitable, natural law of existence, not a biological glitch to be eradicated.
@@ -1467,9 +1467,9 @@
 							- The [rip current](https://en.wikipedia.org/wiki/Rip_current) analogy: The flood of suffering & karma operates exactly like a hydrodynamic rip current.
 								- We should not fight its vector (straining/running), nor should we go limp (halting/sinking); we should mindfully maintain our functional agency and swim across it (parallel to the shore) to exit the ripping zone.
 				- #### honesty to suffering <a class="logseq-meta" id="69f99ba6-5de7-408e-8dac-cc7abc7fdebb" data-collapsed="true" ></a>
-				  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [suffering metabolism](#69f9a791-d250-469f-8111-0eaedcbf37fa)
+				  [Alias:](Namespace.cm.md#665359e4-4597-4775-b849-f9acbb98960a) [suffering metabolism](#69f9a791-d250-469f-8111-0eaedcbf37fa)
 					- suffering metabolism <a class="logseq-meta" id="69f9a791-d250-469f-8111-0eaedcbf37fa" ></a>
-					  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h4">honesty to suffering</span>](#69f99ba6-5de7-408e-8dac-cc7abc7fdebb)
+					  <br>[alias of](Namespace.cm.md#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h4">honesty to suffering</span>](#69f99ba6-5de7-408e-8dac-cc7abc7fdebb)
 					- The methodology is built upon **self-honesty**: refusing to lie to oneself about the presence of distress, thereby turning the signal from a foe into a friend.
 					- **Holistic acceptance**: Together with all other components of the bodymind, all sorts of suffering are accepted equally as citizens of the same state. The system operates as a holistic democracy where every sensation, thought, and trigger is a citizen with full rights.
 						- **Suffering** is accepted as a **signal** indicating a discrepancy between the internal state and the external environment.
@@ -1496,7 +1496,7 @@
 						  
 						  <br>— Nayyirah Waheed
 			- ### purify <a class="logseq-meta" id="684f9517-f8fc-45a3-80c9-25eca00e4eda" data-collapsed="true" data-logbook="CLOCK: [2024-08-17 Sat 19:09:59]&#10;CLOCK: [2025-03-11 Tue 16:07:35]--[2025-03-11 Tue 16:45:48] =&gt;  00:38:13&#10;" ></a>
-				- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) The hardened contaminants & defilements which are difficult to be [broken](#66aded27-9701-4b6e-85e8-22049ddbe2d2) should be detached from the [<span class="link-h3">self-circle</span>](#669a5387-2a97-4311-a295-aa0afd9c4d76) with [meditation (dhyāna) and contemplation](https://en.wikipedia.org/wiki/Buddhist_meditation). We should also protect ourselves from external contaminants using [ethics (sila)](https://en.wikipedia.org/wiki/Buddhist_ethics).
+				- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) The hardened contaminants & defilements which are difficult to be [broken](#66aded27-9701-4b6e-85e8-22049ddbe2d2) should be detached from the [<span class="link-h3">self-circle</span>](Uniinfo.cm.md#669a5387-2a97-4311-a295-aa0afd9c4d76) with [meditation (dhyāna) and contemplation](https://en.wikipedia.org/wiki/Buddhist_meditation). We should also protect ourselves from external contaminants using [ethics (sila)](https://en.wikipedia.org/wiki/Buddhist_ethics).
 				- About the terms
 					- refine = make it finer, which can be ether purer (less contaminants, defilements) or subtler (more fine-grained)
 					- purify = make it purer
@@ -1504,20 +1504,20 @@
 					- pulverize = make the particles more fine-grained <a class="logseq-meta" data-collapsed="true" ></a>
 						- General terms: pulverize = "powderize", comminute, levigate (archaic) = "smoothen"
 						- Specialized result granularity: "fragment", "granulate", "decimate", "powderize", "micronize", "atomize", etc.
-						- [References:](#66c33468-23d5-44d7-955e-6711cb608157)
+						- [References:](Namespace.cm.md#66c33468-23d5-44d7-955e-6711cb608157)
 							- [Pulverization 1: Definition and purpose](https://www.thinkymixer.com/en-us/library/glossary/pulverization-1-definition-and-purpose/)
 							  <br>> When referring to pulverization in a broad sense, “size reduction” is often used, and when it is used for transforming a solid into small pieces, “comminution” is often used.
 							- Chat GPT
 							  <br>> Though "levigate" is not widely used, it's still technically correct, so if you like its specificity, it might be worth using, especially in a scientific or technical context.
 		- 3 directions <a class="logseq-meta" id="68392a13-c350-4962-bd37-b819c8e1f931" data-collapsed="true" data-logbook="CLOCK: [2025-06-02 Mon 14:34:06]--[2025-06-17 Tue 10:30:49] =&gt;  355:56:43&#10;" ></a>
-			- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [3 directions](#68392a13-c350-4962-bd37-b819c8e1f931) are {negative, positive, neutral} denoted by {-1/0, +1/0, 0/1}.
+			- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) [3 directions](#68392a13-c350-4962-bd37-b819c8e1f931) are {negative, positive, neutral} denoted by {-1/0, +1/0, 0/1}.
 			- ### 3 poisons <a class="logseq-meta" id="6839229d-9eff-49e4-9480-6e2db6f61127" ></a>
-			  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [3 unwholesome roots](#68392b10-f06b-4e84-b79d-8a44af03857a), 3 chất độc, 3 gốc bất thiện
+			  [Alias:](Namespace.cm.md#665359e4-4597-4775-b849-f9acbb98960a) [3 unwholesome roots](#68392b10-f06b-4e84-b79d-8a44af03857a), 3 chất độc, 3 gốc bất thiện
 				- 3 unwholesome roots <a class="logseq-meta" id="68392b10-f06b-4e84-b79d-8a44af03857a" ></a>
-				  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h3">3 poisons</span>](#6839229d-9eff-49e4-9480-6e2db6f61127)
-				- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) [Three poisons](https://en.wikipedia.org/wiki/Three_poisons)
-				- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) Corresponding to [3 directions](#68392a13-c350-4962-bd37-b819c8e1f931), there are [<span class="link-h3">3 poisons</span>](#6839229d-9eff-49e4-9480-6e2db6f61127): greed (negative [rāga](https://en.wikipedia.org/wiki/Raga_(Buddhism)), tham), aversion (positive [dveṣa](https://en.wikipedia.org/wiki/Dvesha_(Buddhism)), sân), and delusion (neutral [moha](https://en.wikipedia.org/wiki/Moha_(Buddhism)), si).
-				- [Commentaries:](#665359ff-79f1-4669-b10b-f2b0e633a7c1)
+				  <br>[alias of](Namespace.cm.md#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h3">3 poisons</span>](#6839229d-9eff-49e4-9480-6e2db6f61127)
+				- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) [Three poisons](https://en.wikipedia.org/wiki/Three_poisons)
+				- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) Corresponding to [3 directions](#68392a13-c350-4962-bd37-b819c8e1f931), there are [<span class="link-h3">3 poisons</span>](#6839229d-9eff-49e4-9480-6e2db6f61127): greed (negative [rāga](https://en.wikipedia.org/wiki/Raga_(Buddhism)), tham), aversion (positive [dveṣa](https://en.wikipedia.org/wiki/Dvesha_(Buddhism)), sân), and delusion (neutral [moha](https://en.wikipedia.org/wiki/Moha_(Buddhism)), si).
+				- [Commentaries:](Namespace.cm.md#665359ff-79f1-4669-b10b-f2b0e633a7c1)
 					- 3 poisons as 3 directions resulted from attachment to 3 intents & 3 feelings <a class="logseq-meta" data-collapsed="true" data-logbook="CLOCK: [2025-06-17 Tue 09:06:45]&#10;" ></a>
 						- Greed: The positive feelings (like, ease, happiness, etc.) *cannot get enough*, hence **lacking**, wanting, and greedy. Greed is the lack of positivity, hence negative (yin).
 						- Aversion: The [negative feelings](#69f99afb-5535-4929-8d01-fbc804b91170) (dislike, unease, sadness, etc.) *cannot be avoided*, hence **excess** of sensation, stressed and aversive. Aversion is the excess of negativity, hence positive (yang).
@@ -1536,13 +1536,13 @@
 							- Lúc ngủ này thì si thể hiện bản chất vô minh (ngu si), ta sướng là được rồi không cần quan tâm gì nữa hết, lăn ra ngủ. Nhưng sau đó, lúc thức dậy mở mắt ra để thấy biết thì si thể hiện ra ở chỗ "si mê": do mình đã ôm cái sướng đó cài sâu nó vào trong vô thức (lúc ngủ), nên giờ mình chấp nó một cách nặng nề, mọi thứ mình làm đều chỉ để tìm lại cái sướng đó mà không biết.
 					- [Antidote ((6839229d-9eff-49e4-9480-6e2db6f61127)) with [intent equalization](((68871ce1-eb57-4be3-ad48-45af6ccb5d49))).](#6888276c-d9cc-4843-8f4f-0b3de82fc9d1)
 			- ### 3 antidotes <a class="logseq-meta" id="68392a1f-6685-4d0f-9de8-4ae42964e249" ></a>
-			  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [3 wholesome roots](#68392b40-7afb-4c60-af0a-07abfbcea926), 3 thuốc giải, 3 gốc thiện lành
+			  [Alias:](Namespace.cm.md#665359e4-4597-4775-b849-f9acbb98960a) [3 wholesome roots](#68392b40-7afb-4c60-af0a-07abfbcea926), 3 thuốc giải, 3 gốc thiện lành
 				- 3 wholesome roots <a class="logseq-meta" id="68392b40-7afb-4c60-af0a-07abfbcea926" ></a>
-				  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h3">3 antidotes</span>](#68392a1f-6685-4d0f-9de8-4ae42964e249)
-				- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) [Three wholesome mental factors](https://en.wikipedia.org/wiki/Three_poisons#Opposite_wholesome_qualities)
-				- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) Opposite to [<span class="link-h3">3 poisons</span>](#6839229d-9eff-49e4-9480-6e2db6f61127), there are 3 antidotes: generosity ([dāna](https://en.wikipedia.org/wiki/D%C4%81na) anti-greed, bố thí, bao dung, tri túc), loving-kindness ([mettā](https://en.wikipedia.org/wiki/Mett%C4%81) anti-aversion, từ bi, nhẫn nhục, thiền định), wisdom ([paññā](https://en.wikipedia.org/wiki/Wisdom_in_Buddhism) anti-delusion, trí tuệ, thiền quán).
+				  <br>[alias of](Namespace.cm.md#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h3">3 antidotes</span>](#68392a1f-6685-4d0f-9de8-4ae42964e249)
+				- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) [Three wholesome mental factors](https://en.wikipedia.org/wiki/Three_poisons#Opposite_wholesome_qualities)
+				- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) Opposite to [<span class="link-h3">3 poisons</span>](#6839229d-9eff-49e4-9480-6e2db6f61127), there are 3 antidotes: generosity ([dāna](https://en.wikipedia.org/wiki/D%C4%81na) anti-greed, bố thí, bao dung, tri túc), loving-kindness ([mettā](https://en.wikipedia.org/wiki/Mett%C4%81) anti-aversion, từ bi, nhẫn nhục, thiền định), wisdom ([paññā](https://en.wikipedia.org/wiki/Wisdom_in_Buddhism) anti-delusion, trí tuệ, thiền quán).
 			- ### 3 absorptions <a class="logseq-meta" id="6850c7e4-0969-45b7-9ca8-e2c1d764effe" ></a>
-				- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) To overcome [<span class="link-h3">3 poisons</span>](#6839229d-9eff-49e4-9480-6e2db6f61127), there are 3 groups of antidotal practices correponding to [3 levels of absorptions](https://creatzynotes.blogspot.com/2021/03/3-cap-o-inh.html) as follows. The karmic pleasures will be replaced by the new rewards of the these absorptions.
+				- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) To overcome [<span class="link-h3">3 poisons</span>](#6839229d-9eff-49e4-9480-6e2db6f61127), there are 3 groups of antidotal practices correponding to [3 levels of absorptions](https://creatzynotes.blogspot.com/2021/03/3-cap-o-inh.html) as follows. The karmic pleasures will be replaced by the new rewards of the these absorptions.
 					- Anti-greed with static absorption
 						- [**Reset**](#67445065-15b2-475e-a704-78f140d487af), with the help of [relax–reduce](#669a5162-19e1-4c52-8888-ab7cbfe275ec), to break the “goal reaching” pattern and to put the attractive target (intent) aside.
 						- **Retract to the belly** – the root of both body and mind – **fill the bodymind** with [ujjayi breath](#66952126-bf33-40e1-a208-369df7aa9488) for it to be full, stable, so not to be sucked into the black hole of greed. This is a kind of samatha meditation. <a class="logseq-meta" id="68594391-faeb-4f7e-87e1-9ea179c2639b" ></a>
@@ -1552,16 +1552,16 @@
 					- Anti-delusion with conscious absorption
 						- **Watch** out the 3 poisons, comtemplate their effects, observe the reality to avoid delusion.
 						- [<span class="link-h3">introspect</span>](#6889c11f-e881-432f-ba0f-876b61afc60c) & [<span class="link-h3">equalize</span>](#68871ce1-eb57-4be3-ad48-45af6ccb5d49) the intents, instead of looking at the external objects & target.
-							- This inward observation closes the [effect circle](#667c0031-0a87-44c9-9e98-6d45893b095f) of the bodymind to free it from karma (hidden boss) and influences of the external world.
+							- This inward observation closes the [effect circle](Uniinfo.cm.md#667c0031-0a87-44c9-9e98-6d45893b095f) of the bodymind to free it from karma (hidden boss) and influences of the external world.
 							- The delusion will be transformed to wisdom ([paññā](https://en.wikipedia.org/wiki/Wisdom_in_Buddhism)) by the change of the internal reality (intent equalization), instead of the actions to change the external reality.
-			- [Commentaries:](#665359ff-79f1-4669-b10b-f2b0e633a7c1)
-				- [spring doll mind](#6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00) = [multi-disk rotary system](#6846d92b-cc0c-4db5-8b1d-766ec5a0d823) = [multi-segment articulated arm](https://en.wikipedia.org/wiki/Articulated_robot) ([kinematic chain](https://en.wikipedia.org/wiki/Kinematic_chain)) = [antiderivative sequence](#68874adb-f452-45ba-ae76-8582bdd9035f) = [perception–action double cone](#685156b0-2f3b-4aa9-8b87-636d38a02cd2) <a class="logseq-meta" id="6846c7e1-239c-4b39-9ef4-9d2eaba17a52" data-collapsed="true" data-logbook="CLOCK: [2025-06-09 Mon 20:24:24]--[2025-06-09 Mon 20:39:47] =&gt;  00:15:23&#10;" ></a>
+			- [Commentaries:](Namespace.cm.md#665359ff-79f1-4669-b10b-f2b0e633a7c1)
+				- [spring doll mind](#6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00) = [multi-disk rotary system](#6846d92b-cc0c-4db5-8b1d-766ec5a0d823) = [multi-segment articulated arm](https://en.wikipedia.org/wiki/Articulated_robot) ([kinematic chain](https://en.wikipedia.org/wiki/Kinematic_chain)) = [antiderivative sequence](#68874adb-f452-45ba-ae76-8582bdd9035f) = [perception–action double cone](Uniinfo.cm.md#685156b0-2f3b-4aa9-8b87-636d38a02cd2) <a class="logseq-meta" id="6846c7e1-239c-4b39-9ef4-9d2eaba17a52" data-collapsed="true" data-logbook="CLOCK: [2025-06-09 Mon 20:24:24]--[2025-06-09 Mon 20:39:47] =&gt;  00:15:23&#10;" ></a>
 					- In a one-way effect flow, the head of the spring doll = the tip of the articulated arm draws the extent with its locus which is orthogonal to the effect flow.
 						- Diagram [In/extention via in/extension](https://docs.google.com/drawings/d/1ZOyFUk0DRnqigaWYMSB05iWCgkWTfLoreWGBssKflxE/) <a class="logseq-meta" data-collapsed="true" ></a>
 							- ![In/extention via in/extension](https://docs.google.com/drawings/d/e/2PACX-1vT-ns6ehT5HLQ5oPuSkVxSKO3uUCpDnmD6q9xbdfXQEGpKIftc717xHVV0x9IlczRL8ZHZNszbzwej_/pub?w=960&h=720)
 					- In a circular effect flow, the locus coincides with the flow itself! <a class="logseq-meta" id="6846e19d-1af1-413a-b225-c9d48b4dd308" ></a>
 					- spring doll mind <a class="logseq-meta" id="6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00" ></a>
-						- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [spring doll mind](#6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00) is a model of my mind on work: the consciousness is just the head mounted on a very long spring of intents which connects to the root of the bodymind.
+						- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) [spring doll mind](#6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00) is a model of my mind on work: the consciousness is just the head mounted on a very long spring of intents which connects to the root of the bodymind.
 						- The famous spring smiley heads are a good example for this model, and were used in this [fb post](https://www.facebook.com/lexuandinhct/videos/3643573735885398) to mark the first time i saw the model around the end of 2023.
 						  <br>![spring-head-grin-tears.jpg](../assets/Will/story/2025-06/spring-head-grin-tears.jpg){:width 30}
 						- These bouncy spring dolls not only model my mind on work, but also the general minds of laymen in life.
@@ -1575,13 +1575,13 @@
 							- ![Cryptex-ILoveU.jpg](../assets/Will/story/2025-06/Multi-disk rotary systems/Cryptex-ILoveU.jpg)
 							- ![Jefferson_disk_cipher.jpg](../assets/Will/story/2025-06/Multi-disk rotary systems/Jefferson_disk_cipher.jpg)
 					- derivative sequence <a class="logseq-meta" id="684796ee-1bc9-4828-882b-612c67ba48f3" ></a>
-						- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [derivative sequence](#684796ee-1bc9-4828-882b-612c67ba48f3) of a function $f$, denoted $(f^{(n)})_{n∈ℤ}$ or $(D^{n} f)_{n∈ℤ}$, is a two-sided sequence comprising all **successive derivatives** for positive orders 1, 2, 3, ..., and all **successive antiderivatives** for negative orders -1, -2, -3, ..., with the original function (0th derivative) at the center. The order of this sequence is in the [viewing direction](#68875bab-dd31-4bbd-bd31-3a821fc5310c), which is opposite to the [antiderivative sequence](#68874adb-f452-45ba-ae76-8582bdd9035f) in the intent–action direction.
+						- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) [derivative sequence](#684796ee-1bc9-4828-882b-612c67ba48f3) of a function $f$, denoted $(f^{(n)})_{n∈ℤ}$ or $(D^{n} f)_{n∈ℤ}$, is a two-sided sequence comprising all **successive derivatives** for positive orders 1, 2, 3, ..., and all **successive antiderivatives** for negative orders -1, -2, -3, ..., with the original function (0th derivative) at the center. The order of this sequence is in the [viewing direction](Uniinfo.cm.md#68875bab-dd31-4bbd-bd31-3a821fc5310c), which is opposite to the [antiderivative sequence](#68874adb-f452-45ba-ae76-8582bdd9035f) in the intent–action direction.
 						- antiderivative sequence <a class="logseq-meta" id="68874adb-f452-45ba-ae76-8582bdd9035f" ></a>
-							- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [antiderivative sequence](#68874adb-f452-45ba-ae76-8582bdd9035f) is the [derivative sequence](#684796ee-1bc9-4828-882b-612c67ba48f3) in reverse order. This order is the direction from intent to action.
-				- [Triads of the ((667c015e-6223-4f8a-ae84-a93a49f4ff94))](#67ced16d-2fbb-4c5d-9061-5d8f490f6073) ← [“wanting” = “lacking” ↔ “distress” = “overwhelming stress” = “anger” = “excessive pressure”](#67cea2ee-5f77-4576-8c1c-9e31d9b822c9)
+							- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) [antiderivative sequence](#68874adb-f452-45ba-ae76-8582bdd9035f) is the [derivative sequence](#684796ee-1bc9-4828-882b-612c67ba48f3) in reverse order. This order is the direction from intent to action.
+				- [Triads of the ((667c015e-6223-4f8a-ae84-a93a49f4ff94))](../../history/publish/CommonMark/2025 Brainstorms.cm.md#67ced16d-2fbb-4c5d-9061-5d8f490f6073) ← [“wanting” = “lacking” ↔ “distress” = “overwhelming stress” = “anger” = “excessive pressure”](../../history/publish/CommonMark/2025 Brainstorms.cm.md#67cea2ee-5f77-4576-8c1c-9e31d9b822c9)
 				- The [3 poisons due to momentum](#67cfb02d-b633-408c-b19e-1eeb7ed575b9)
 				- [Mindfulness as a hole-punching tool to escape the form.](#684f9517-b730-4cc1-9eb1-54bb81ed78c4)
-				- [<span class="link-h3">3 poisons</span>](#6839229d-9eff-49e4-9480-6e2db6f61127) caused by the ignorance about the [intent double cone](#68df2d82-e1d5-49c4-ac40-d45cf26f840c) <a class="logseq-meta" id="688748a7-8228-4515-9fe4-38c232ce954e" data-collapsed="true" data-logbook="CLOCK: [2025-07-28 Mon 16:54:44]&#10;" ></a>
+				- [<span class="link-h3">3 poisons</span>](#6839229d-9eff-49e4-9480-6e2db6f61127) caused by the ignorance about the [intent double cone](Uniinfo.cm.md#68df2d82-e1d5-49c4-ac40-d45cf26f840c) <a class="logseq-meta" id="688748a7-8228-4515-9fe4-38c232ce954e" data-collapsed="true" data-logbook="CLOCK: [2025-07-28 Mon 16:54:44]&#10;" ></a>
 					- Liking something is because its image is close, large.
 					- Disliking something is because its image is far, small.
 					- In both like & dislike, the subject see
@@ -1589,9 +1589,9 @@
 						- (i) only a tip of the intent cone,
 						- hence, a very distorted image of both the external object (e) and the internal [intent chain](#6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00) (i).
 	- ## Universe <a class="logseq-meta" id="66537a0b-d107-4f7e-b01f-bf624a647d8c" data-collapsed="true" ></a>
-		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Universe
+		- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Universe
 	- ## glass <a class="logseq-meta" id="66537c37-2d4a-4077-9fcf-45c71755c876" data-collapsed="true" ></a>
-		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Glass
+		- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Glass
 		- Discussion:
 			- Even looks like crystal, glass is [amorphous](https://en.wikipedia.org/wiki/Amorphous_solid), i.e. non-crystalline, because it lacks the the [long-range order](https://en.wikipedia.org/wiki/Long-range_order "Long-range order") that is characteristic of a [crystal](https://en.wikipedia.org/wiki/Crystal "Crystal").
 			- It's even not a "solid" in the normal sense because it's the [hybrid of liquid and crystal](https://en.wikipedia.org/wiki/Structure_of_liquids_and_glasses)! It's [more liquid than solid](https://en.wikipedia.org/wiki/Glass#Formation_from_a_supercooled_liquid) due to [glass–liquid transition](https://en.wikipedia.org/wiki/Glass_transition) instead of the normal first-order [phase transition](https://en.wikipedia.org/wiki/Phase_transition "Phase transition").
@@ -1600,15 +1600,15 @@
 		- In graph theory: [lattice graph](https://en.wikipedia.org/wiki/Lattice_graph)
 		- In physics: [crystal lattice](https://en.wikipedia.org/wiki/Crystal_structure)
 		- In order theory: [lattice order](https://en.wikipedia.org/wiki/Lattice_(order))
-		- [Commentaries:](#665359ff-79f1-4669-b10b-f2b0e633a7c1) The lattice group and lattice graph are equivalent which are generalized from the 3D crystal lattice, but the lattice order is different.
+		- [Commentaries:](Namespace.cm.md#665359ff-79f1-4669-b10b-f2b0e633a7c1) The lattice group and lattice graph are equivalent which are generalized from the 3D crystal lattice, but the lattice order is different.
 			- There's a hybrid of lattice order with group theory called [ℓ-group](https://encyclopediaofmath.org/wiki/Lattice-ordered_group), i.e. "lattice-ordered group" as a special case of [partially ordered group](https://en.wikipedia.org/wiki/Partially_ordered_group).
 	- ## name <a class="logseq-meta" id="665cab38-f8e8-472e-b0a1-60776d492835" data-collapsed="true" ></a>
-		- [form of](#665ca480-5ac8-4728-a331-2f68b48759d1) [Name:](#665ca48e-f7c1-4541-b5cf-486d86b02997)
-		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Name
+		- [form of](Namespace.cm.md#665ca480-5ac8-4728-a331-2f68b48759d1) [Name:](Namespace.cm.md#665ca48e-f7c1-4541-b5cf-486d86b02997)
+		- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Name
 		- E.g. Buddhist name in the pair "[name & form](https://en.wikipedia.org/wiki/Namarupa)"
 	- ## description <a class="logseq-meta" id="66532914-003a-4bbb-9e97-6f1c87170d7d" data-collapsed="true" ></a>
-		- [form of](#665ca480-5ac8-4728-a331-2f68b48759d1) [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8)
-		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) A [<span class="link-h2">description</span>](#66532914-003a-4bbb-9e97-6f1c87170d7d) is a text describing something.
+		- [form of](Namespace.cm.md#665ca480-5ac8-4728-a331-2f68b48759d1) [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8)
+		- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) A [<span class="link-h2">description</span>](#66532914-003a-4bbb-9e97-6f1c87170d7d) is a text describing something.
 	- ## Workstack Workflow <a class="logseq-meta" id="66533a2a-6f29-4e4c-81d5-17883be64bdb" data-collapsed="true" ></a>
 		- ### Workspace <a class="logseq-meta" id="665d1a03-4c61-4d81-ac58-a5a1a7efe568" ></a>
 			- Each person has a Workspace to work with, which includes a [<span class="link-h3">Workstack</span>](#6653538a-22d3-4807-ad13-a64ac543edba) for active tasks at hand, a [DOING ### Task list](#67715dbd-5ba6-4fc8-bd3e-5fab97885ae7) for future tasks, a [History](#6667add9-3076-4a19-8b15-d1888665a3c0) for past (done, cancelled) tasks, and other lists like Problem list, Question list, etc. These lists, except History, are in general sorted in reverse chronological order. The Task list is additionally sorted in priority, if any, and the History is in chronological order.
@@ -1633,17 +1633,17 @@
 				- a question that cannot or should not be answered right now will be pushed to Question list;
 				- a completed/cancelled task/problem/question will be (popped from Workstack/Problem/Question list and) pushed to the History.
 	- ## Mind Jungle <a class="logseq-meta" id="665c82c0-ee06-4f43-95b8-73dbbe956080" data-collapsed="true" ></a>
-		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h2">Mind Jungle</span>](#665c82c0-ee06-4f43-95b8-73dbbe956080) is an image of the mind which reflects concepts (like [concept map](https://en.wikipedia.org/wiki/Concept_map)), relation and reasoning between these concepts (like [argument map](https://en.wikipedia.org/wiki/Argument_map)), tree views from important concepts (like [mind map](https://en.wikipedia.org/wiki/Mind_map)). Overall, it's a kind of [knowledge graph](https://en.wikipedia.org/wiki/Knowledge_graph). <a class="logseq-meta" id="684f9517-b384-4c3c-8886-bcab29fe618c" ></a>
+		- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h2">Mind Jungle</span>](#665c82c0-ee06-4f43-95b8-73dbbe956080) is an image of the mind which reflects concepts (like [concept map](https://en.wikipedia.org/wiki/Concept_map)), relation and reasoning between these concepts (like [argument map](https://en.wikipedia.org/wiki/Argument_map)), tree views from important concepts (like [mind map](https://en.wikipedia.org/wiki/Mind_map)). Overall, it's a kind of [knowledge graph](https://en.wikipedia.org/wiki/Knowledge_graph). <a class="logseq-meta" id="684f9517-b384-4c3c-8886-bcab29fe618c" ></a>
 	- ## History <a class="logseq-meta" id="6667ac3c-8fff-43aa-92ac-fca2002e58f4" data-collapsed="true" ></a>
-		- [form of](#665ca480-5ac8-4728-a331-2f68b48759d1) [History:](#6667abd2-14eb-4145-b9e3-e6f3037b3117)
-		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/History
+		- [form of](Namespace.cm.md#665ca480-5ac8-4728-a331-2f68b48759d1) [History:](Namespace.cm.md#6667abd2-14eb-4145-b9e3-e6f3037b3117)
+		- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/History
 		- Records of history <a class="logseq-meta" id="6667add9-3076-4a19-8b15-d1888665a3c0" ></a>
 			- Personal [diary](https://en.wikipedia.org/wiki/Diary), traveler's [journal](https://en.wikipedia.org/wiki/Travel_literature#Travel_journals), vehicle and machine's [logbook](https://en.wikipedia.org/wiki/Logbook), [historical record](https://en.wikipedia.org/wiki/Historiography) written by historian.
 	- ## braindumping <a class="logseq-meta" id="6667bf32-ab6a-4d64-842d-45d49137e694" data-collapsed="true" ></a>
-		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h2">braindumping</span>](#6667bf32-ab6a-4d64-842d-45d49137e694) is a technique to empty and free the mind by dumping all thoughts, ideas, feelings,... onto a tangible medium, resulting “braindumps”.
+		- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h2">braindumping</span>](#6667bf32-ab6a-4d64-842d-45d49137e694) is a technique to empty and free the mind by dumping all thoughts, ideas, feelings,... onto a tangible medium, resulting “braindumps”.
 			- “dumping everything inside out” <a class="logseq-meta" id="6773e4f5-22e4-4628-889f-e8c757fa77a0" ></a>
 			  <br>The rule of thumb is just let it go, don't keep, don't hold anything back.
-		- [Commentaries:](#665359ff-79f1-4669-b10b-f2b0e633a7c1)
+		- [Commentaries:](Namespace.cm.md#665359ff-79f1-4669-b10b-f2b0e633a7c1)
 			- While many authors consider “braindumping” as a sub-technique of “brainstorming”, i consider braindumping as a “wilder” version of brainstorming, i.e. [“dumping everything inside out”](#6773e4f5-22e4-4628-889f-e8c757fa77a0).
 				- [Braindumping is simply brainstorming written down.](https://techdayhq.com/blog/2023/08/15/brainstorming-versus-braindumping)
 				- [Braindumping as individual brainstorming](https://www.interaction-design.org/literature/article/learn-how-to-use-the-best-ideation-methods-brainstorming-braindumping-brainwriting-and-brainwalking#braindump_%E2%80%93_individual_brainstorm-12)
@@ -1660,15 +1660,15 @@
 			- Custom properties can be stored in notes.
 				- Notes can be searched/filtered, and then can be excluded from export.
 	- ## brainstorming <a class="logseq-meta" id="665c92d1-565b-4911-a706-b32af429c3aa" data-collapsed="true" ></a>
-		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Brainstorming
-		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h2">brainstorming</span>](#665c92d1-565b-4911-a706-b32af429c3aa) is a thinking technique to spontaneously dump all ideas out quickly without careful organizing, resulting [brainstorms](https://en.wiktionary.org/wiki/brainstorm#Noun). Compared to [<span class="link-h2">braindumping</span>](#6667bf32-ab6a-4d64-842d-45d49137e694), [<span class="link-h2">brainstorming</span>](#665c92d1-565b-4911-a706-b32af429c3aa) is more about ideas about specific topics instead of [“dumping everything inside out”](#6773e4f5-22e4-4628-889f-e8c757fa77a0).
+		- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Brainstorming
+		- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h2">brainstorming</span>](#665c92d1-565b-4911-a706-b32af429c3aa) is a thinking technique to spontaneously dump all ideas out quickly without careful organizing, resulting [brainstorms](https://en.wiktionary.org/wiki/brainstorm#Noun). Compared to [<span class="link-h2">braindumping</span>](#6667bf32-ab6a-4d64-842d-45d49137e694), [<span class="link-h2">brainstorming</span>](#665c92d1-565b-4911-a706-b32af429c3aa) is more about ideas about specific topics instead of [“dumping everything inside out”](#6773e4f5-22e4-4628-889f-e8c757fa77a0).
 	- ## Will LÊ <a class="logseq-meta" id="66536578-c4d3-43f1-b35c-bf71120f0570" data-collapsed="true" ></a>
-	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [Will Lei](#681d5fb1-9484-4c78-b2b8-966d6ac1d3d8)
+	  [Alias:](Namespace.cm.md#665359e4-4597-4775-b849-f9acbb98960a) [Will Lei](#681d5fb1-9484-4c78-b2b8-966d6ac1d3d8)
 		- Vietnamese name: LÊ Xuân Định
 		- English name: Will LÊ <a class="logseq-meta" id="d7d9077b-f4eb-409c-a895-8dba07aea996" ></a>
 		  <br>means “LÊ Định” in Vietnamese, omitting the middle name “Xuân”.
 			- Will Lei <a class="logseq-meta" id="681d5fb1-9484-4c78-b2b8-966d6ac1d3d8" data-collapsed="true" ></a>
-			  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">Will LÊ</span>](#66536578-c4d3-43f1-b35c-bf71120f0570)
+			  <br>[alias of](Namespace.cm.md#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">Will LÊ</span>](#66536578-c4d3-43f1-b35c-bf71120f0570)
 			  <br>is the re-romanized version of “Will Lê” for easy English typesetting and better English pronunciation.
 				- Note that “Lei” is not [雷 (Lôi)](https://en.wikipedia.org/wiki/Lei_(surname)), but just a re-romanized version of [Lê](https://en.wikipedia.org/wiki/Le_(surname)) = [黎](https://en.wikipedia.org/wiki/L%C3%AD_(surname_%E9%BB%8E)) to avoid pronunciation mistake with [Lee](https://en.wikipedia.org/wiki/Lee_(Korean_surname)) = [Lý](https://en.wikipedia.org/wiki/L%C3%BD_(Vietnamese_surname)) = [李](https://en.wikipedia.org/wiki/Li_(surname_%E6%9D%8E)). This is also the [Japanese pronunciation](#6824530e-32ac-4c75-9db0-12b1dc40102c) of “Lê”.
 				- The name “Will” means “determined intention” which includes both the strong sense “quyết định” (determination) and the weak sense “dự định” (intention). <a class="logseq-meta" data-collapsed="true" ></a>
@@ -1676,17 +1676,17 @@
 		- Japanese name: 黎・春定 (LÊ Harusada)
 		  <br>is just the name “LÊ Xuân-định” written in Chinese characters.
 			- Lei Harusada <a class="logseq-meta" id="6824530e-32ac-4c75-9db0-12b1dc40102c" ></a>
-			  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">Will LÊ</span>](#66536578-c4d3-43f1-b35c-bf71120f0570)
+			  <br>[alias of](Namespace.cm.md#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">Will LÊ</span>](#66536578-c4d3-43f1-b35c-bf71120f0570)
 			  <br>is the Japanese pronunciation of 黎・春定, despite my preferred written form as “Lê Harusada”.
 		- On [<span class="link-h2">GitHub</span>](#66536662-052f-46a4-a624-38858bffb334): `bixycler`
 		- On Blogger & YouTube: `ComputerBoy`
-		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) I'm just a no-one going nowhere to do nothing!
+		- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) I'm just a no-one going nowhere to do nothing!
 			- Personal info: <a class="logseq-meta" data-collapsed="true" ></a>
 				- CCCD: `092082007320`
 					- CMND: `025145607`
 				- MST: `8040166197`
 				- HTV staff ID: `230320029`
-		- [Commentaries:](#665359ff-79f1-4669-b10b-f2b0e633a7c1)
+		- [Commentaries:](Namespace.cm.md#665359ff-79f1-4669-b10b-f2b0e633a7c1)
 			-  <a class="logseq-meta" id="6880a9a5-b5d3-4542-b378-31cf40ea8476" data-collapsed="true" ></a>
 			  > I'm just a no-one going nowhere to do nothing!
 			  
@@ -1703,12 +1703,12 @@
 						- Through that animation, i learnt the expression [“to be somebody”](https://www.gymglish.com/en/gymglish/english-translation/be-somebody) meaning “to be important or well known”.
 		- ### DOING Mind Map <a class="logseq-meta" id="67760c43-58c6-40eb-b874-40afae448966" data-logbook="CLOCK: [2025-01-02 Thu 15:44:30]&#10;" ></a>
 			- Documents <a class="logseq-meta" data-collapsed="true" ></a>
-				- [<span class="link-h1">Story</span>](#66b1bbf3-ac04-4d4c-a343-d75130323a7f)
+				- [<span class="link-h1">Story</span>](Story.cm.md#66b1bbf3-ac04-4d4c-a343-d75130323a7f)
 				- [<span class="link-h1">Mind Jungle</span>](#6651e92e-fb34-4d24-a386-d9698c2e93f7)
-				- [<span class="link-h1">Task</span>](#6651adea-e1ed-4884-93eb-5ebd6086b62b)
+				- [<span class="link-h1">Task</span>](Task.cm.md#6651adea-e1ed-4884-93eb-5ebd6086b62b)
 				- [<span class="link-h1">Brainstorm</span>](Brainstorm.cm.md#6653538a-30aa-423f-be89-848ad9c7e331)
 				- [<span class="link-h1">Braindump</span>](Braindump.cm.md#67760c3e-2ed3-4b91-9698-8dea6913e419)
-				- [<span class="link-h1">Workspace</span>](#66519638-cf5d-409b-9b98-15acabf2268c)
+				- [<span class="link-h1">Workspace</span>](Workspace.cm.md#66519638-cf5d-409b-9b98-15acabf2268c)
 				- My backups via Git repos <a class="logseq-meta" data-collapsed="true" ></a>
 					- Hardlinks are used to synchonize files on system with backup Git repositories.
 					- [linux-commands](https://github.com/bixycler/linux-commands)
@@ -1736,14 +1736,14 @@
 						- Various small apps and code snipets
 					- [GeoGebraApplets](https://github.com/bixycler/GeoGebraApplets)
 						- Backup applets of [Will Lei](https://www.geogebra.org/u/lexuandinhct)
-			- ### [Intent](#66b1cfa4-01ef-4ee8-9409-32c9884c39cd): to be perfect
+			- ### [Intent](Uniinfo.cm.md#66b1cfa4-01ef-4ee8-9409-32c9884c39cd): to be perfect
 				- [[?] What's “perfect”](#677e8461-3483-4226-9829-127fe79b039a)
 				- [[!] ((66536578-c4d3-43f1-b35c-bf71120f0570)) is not perfect.](#677e84a1-cb09-43a8-a374-31599c903e11)
 			- #### Problems <a class="logseq-meta" id="6651adea-46e0-40ea-8fc4-3ef394068b0f" ></a>
 				- ...
 				- [!] My expression of "arrogance" <a class="logseq-meta" data-collapsed="true" ></a>
 					- Even i've never thought that i'm better/higher than anyone else, my expression does show some trace of arrogance which has been fed back by my (close) friends. Is shows something is hidden deep inside my unconsciousness. Here i list some causes that i can reflect on this problem.
-					- 1st, the **illusion of** [<span class="link-h2">abstraction</span>](#66537674-6cf9-4459-8bea-7c1858c694a3) <a class="logseq-meta" id="669a58b9-422a-40d9-adcf-b2aade86c170" ></a>
+					- 1st, the **illusion of** [<span class="link-h2">abstraction</span>](Uniinfo.cm.md#66537674-6cf9-4459-8bea-7c1858c694a3) <a class="logseq-meta" id="669a58b9-422a-40d9-adcf-b2aade86c170" ></a>
 					  <br>The (holistic) view from above shows me the way and makes me feel that "i've known the way already, it's just a piece of cake" and forget that it's just a "map" and the actual walking the way is much much harder with much more efforts.
 						- I've called it by many names: the karma of theorist (theorist karma), the sickness of talent (talent sickness).
 						- My karma of theorist also corrodes others' trust on me. <a class="logseq-meta" id="668f4faf-db30-497a-a271-b2bbf5264413" ></a>
@@ -1757,7 +1757,7 @@
 							- Without distraction, it's easier for me to stay in the free & mindful state. But in the free state, it's also difficult for me to interact with external tools like note taking, speaking, writing, forming formula, etc.
 							- This hook can be replaced with the [ujjayi breath](#66952126-bf33-40e1-a208-369df7aa9488). Using the internal tool (breath) gives me more control than the external tool (external sink).
 					- [!] When i interrupt the internal work, my self is fragmented, heavy, lack motivation to do anything. <a class="logseq-meta" id="67b541cf-4818-45ad-911c-d2c3397f9e3d" data-collapsed="true" ></a>
-						- Expressed as [Triads of the ((667c015e-6223-4f8a-ae84-a93a49f4ff94))](#67ced16d-2fbb-4c5d-9061-5d8f490f6073) <a class="logseq-meta" id="67cfb02d-b633-408c-b19e-1eeb7ed575b9" data-logbook="CLOCK: [2025-03-11 Tue 10:39:10]&#10;" ></a>
+						- Expressed as [Triads of the ((667c015e-6223-4f8a-ae84-a93a49f4ff94))](../../history/publish/CommonMark/2025 Brainstorms.cm.md#67ced16d-2fbb-4c5d-9061-5d8f490f6073) <a class="logseq-meta" id="67cfb02d-b633-408c-b19e-1eeb7ed575b9" data-logbook="CLOCK: [2025-03-11 Tue 10:39:10]&#10;" ></a>
 							- The inertia/momentum of the internal work is too large to be changed (in direction) ⇒ delusion.
 							- That large momentum + the need to change = overwhelmed, heavy resistance ⇒ aversion.
 							- When such large momentum is forced to stop, leaving the void inside, the self is hungry ⇒ greed.
@@ -1770,7 +1770,7 @@
 							- To take action, the small self must combine with peripheral circles in the bodymind to drive them.
 								- These peripheral circles are automatic motors working in the trained programs (karmas).
 							- The total amount of contents in the bodymind is still sufficient thanks to temporary connection with peripheral circles in the form of pairs of opposites.
-								- The opposites [keep the bodymind fully occupied](#6784f2aa-357a-44ed-a8c6-5ed1b9c78b04) to get rid of the hunger, the greed, the wanting.
+								- The opposites [keep the bodymind fully occupied](../../history/publish/CommonMark/2025 Stories.cm.md#6784f2aa-357a-44ed-a8c6-5ed1b9c78b04) to get rid of the hunger, the greed, the wanting.
 								- The opposites keep the dynamic center close to the static center ⇒ the sight line is level and points at [the horizon](#67445223-9459-4aa9-b102-70c63943577b).
 								- When needed to change direction, some peripheral circles must be released to return to the static center (neutral mode, [point mort](https://en.wiktionary.org/wiki/point_mort)) before engaging in any other direction.
 							- [Reset](#67445065-15b2-475e-a704-78f140d487af)tability: Peripheral circles must be trained to be released easily.
@@ -1784,24 +1784,24 @@
 					- DONE **Duck dive** is a serious problem! <a class="logseq-meta" id="67714850-43c0-4c7f-8b50-838e014b06e0" data-logbook="CLOCK: [2024-12-29 Sun 20:02:37]--[2026-02-25 Wed 10:14:22] =&gt;  10142:11:45&#10;" ></a>
 						- I usually dive head-first, _without planning_, into the works and issues, which usually **branch off** into lots of new works and issues, hence quickly become a forest from the starting single seed.
 						- The [task & issue tracking steps](#66f7af1f-783e-489b-af9c-3ff01fc7d872) are forgotten many times.
-						- [⇒](#66602f68-e23f-4b24-921e-b1a9fc0cc731) Beside tracking, i must deploy a **planning** step with [CANCELLED “**Stop - Breath - Observe - Plan**”](#67714c6b-68b6-4f73-b209-56f5f184c4d9) method. <a class="logseq-meta" id="67714aaf-1e7f-4312-9f3c-cb4f06e9b562" ></a>
+						- [⇒](Namespace.cm.md#66602f68-e23f-4b24-921e-b1a9fc0cc731) Beside tracking, i must deploy a **planning** step with [CANCELLED “**Stop - Breath - Observe - Plan**”](#67714c6b-68b6-4f73-b209-56f5f184c4d9) method. <a class="logseq-meta" id="67714aaf-1e7f-4312-9f3c-cb4f06e9b562" ></a>
 						- [Reason: Planning (life programming) is ineffective to me due to my non-verbal thinking nature.](#699e6a05-0095-46dd-a179-0e4c634a41c2)
 						- ⇒ [DONE **Solution**: Dismalting the intent stack by ((67b541d0-f477-4c3a-b444-fb522c3fdc4f)) and contemplating the ((699e56cd-b1d4-41fb-8e30-ec393a5db8e9)).](#699e702a-2eac-4fcf-8356-dbfbc8c54279)
 					- **perfectionism** <a class="logseq-meta" id="6678d594-9819-4624-abd6-d4ec62b3874f" data-collapsed="true" ></a>
-						- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [**perfectionism**](#6678d594-9819-4624-abd6-d4ec62b3874f) is the requirement that my self must be smooth, full, round, coherent, unfragmented. This perfectionism can be resolved by penetrating its nature of [**perfect incompleness**](#699e56cd-b1d4-41fb-8e30-ec393a5db8e9), and releasing the attachment via [refinement techniques](#67b541d0-f477-4c3a-b444-fb522c3fdc4f).
+						- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) [**perfectionism**](#6678d594-9819-4624-abd6-d4ec62b3874f) is the requirement that my self must be smooth, full, round, coherent, unfragmented. This perfectionism can be resolved by penetrating its nature of [**perfect incompleness**](#699e56cd-b1d4-41fb-8e30-ec393a5db8e9), and releasing the attachment via [refinement techniques](#67b541d0-f477-4c3a-b444-fb522c3fdc4f).
 						- In my case, the perfectionism is due to my [**holistic core**](#681b3ad7-d1b0-4c06-a4ea-385a4a9314e0).
 						- First, let's [refine](#669a5162-19e1-4c52-8888-ab7cbfe275ec) the large circle into smaller circles, thus they are still round & perfect circles but can be interleaved with other works. <a class="logseq-meta" id="6677bc01-44ec-4e4a-aeed-d63996bc0c46" ></a>
 							- [Brain dumping tools, like ((66536e1b-6466-4153-90d6-583003d99a81)), can help reducing mental load & momentum, so that i can switch easier.](#66b1cfa4-369c-49ec-a461-cdda61633460)
 						- The illusion of “finish soon” <a class="logseq-meta" id="669a58b9-1a52-4ad7-932a-9e45ecb9960e" data-collapsed="true" ></a>
-							- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) When we feel something is finishing soon, we concentrate more on it, put all of our effort to it to get it finished... until we're out of resource and recognize that it's still far from the finish line.
+							- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) When we feel something is finishing soon, we concentrate more on it, put all of our effort to it to get it finished... until we're out of resource and recognize that it's still far from the finish line.
 							- Like the first experience of ["this is not the true peak"](https://www.facebook.com/lexuandinhct/posts/pfbid02eArjSbGz7GhpU2aFwh2qia53BcuwhstSE263jXVvf9tamUbL2K2JCF2LD97RQQ4ql) when i climbed mount Núi Lớn, Vũng Tàu, when i was a child, until now, that illusion is still haunting me.
 							- In gambling/game psychology, it's called "[near-miss effect](https://www.psychologyofgames.com/2016/09/the-near-miss-effect-and-game-rewards/)". <a class="logseq-meta" data-collapsed="true" ></a>
-								- [⇐](#66602f61-b849-41a9-bdb8-ec91b96adaec) [chat with Gemini](https://gemini.google.com/app/bdba2d82588d8307)
+								- [⇐](Namespace.cm.md#66602f61-b849-41a9-bdb8-ec91b96adaec) [chat with Gemini](https://gemini.google.com/app/bdba2d82588d8307)
 							- This [cognitive bias](https://en.wikipedia.org/wiki/Cognitive_bias) is just a kind of distortion in perspective view (projective/inversive geometry): 1/∞ = 0. <a class="logseq-meta" data-collapsed="true" ></a>
 								- Our view is always distorted so that the far end always look shorter. So, when the goal is clearly visible to us, we can't help seeing the distance to it is short even if it's at infinity, just like the Moon looks very close to us at the horizon like "just some arms away".
 							- The opposite of near-miss effect is the goal-fog effect where we lose motivation to reach a very near goal due to the obscurity of that goal.
 							- It stems from [1st, the **illusion of** ((66537674-6cf9-4459-8bea-7c1858c694a3))](#669a58b9-422a-40d9-adcf-b2aade86c170)
-								- The seemingly small and easy targets, which are just [<span class="link-h2">abstraction</span>](#66537674-6cf9-4459-8bea-7c1858c694a3)s, draw me into the rabbit holes. <a class="logseq-meta" id="6735b189-a8b7-4ff3-b42a-c59f38a8334e" data-collapsed="true" ></a>
+								- The seemingly small and easy targets, which are just [<span class="link-h2">abstraction</span>](Uniinfo.cm.md#66537674-6cf9-4459-8bea-7c1858c694a3)s, draw me into the rabbit holes. <a class="logseq-meta" id="6735b189-a8b7-4ff3-b42a-c59f38a8334e" data-collapsed="true" ></a>
 									- An "impossible bug/error" => debug deeply
 									- An "unacceptable term/issue" => research deeply
 									- An "illogical design" => modify deeply
@@ -1809,20 +1809,20 @@
 									- Sometime, the whole huge problem is abstracted into a key so small that it becomes a needle lost in a haystack and i cannot find/see that key easily.
 									- => It seems that the problem is "impossible!"
 									- => This discrepancy triggers my anger to tackle the problem "to the end".
-								- The butterfly effect from a tiny mistake to a huge error, [[Off-by-one error](https://en.wikipedia.org/wiki/Off-by-one_error) ([one-unit error](https://www.geogebra.org/m/xhpjjxyn)) at the marginal cases](#684f951b-b9c2-4257-9637-7ad7812918fc), and so on, are just the extension of the abstracted complex systems.
+								- The butterfly effect from a tiny mistake to a huge error, [[Off-by-one error](https://en.wikipedia.org/wiki/Off-by-one_error) ([one-unit error](https://www.geogebra.org/m/xhpjjxyn)) at the marginal cases](../../history/publish/CommonMark/2024 Brainstorms.cm.md#684f951b-b9c2-4257-9637-7ad7812918fc), and so on, are just the extension of the abstracted complex systems.
 						- The illusion of “finished” & target reaching <a class="logseq-meta" id="6736bd1e-5835-46e4-b640-dd35b3fe7c90" data-collapsed="true" data-logbook="CLOCK: [2024-11-15 Fri 10:41:26]&#10;" ></a>
-							- [Examples:](#66725725-f76a-4328-b162-f469b87e871b)
-								- [DONE First complete [Logseq publishing with FolderDiv](((671f7f9d-58c0-48ce-aeb6-d3d0663ea7bf)))](#6735c7ac-17c8-4fea-8d4c-b76a942bc453)
-							- “Complete, finished, done, target reached, ...” are just illusions. Nothing is actually complete, any [<span class="link-h2">circle</span>](#667d15c6-67c4-4998-a549-c8b3f9de3d60) is just a helix or spiral which is projected onto the plane orthogonal to the direction of change/evolution.
+							- [Examples:](Namespace.cm.md#66725725-f76a-4328-b162-f469b87e871b)
+								- [DONE First complete [Logseq publishing with FolderDiv](((671f7f9d-58c0-48ce-aeb6-d3d0663ea7bf)))](../../history/publish/CommonMark/2024 Tasks.cm.md#6735c7ac-17c8-4fea-8d4c-b76a942bc453)
+							- “Complete, finished, done, target reached, ...” are just illusions. Nothing is actually complete, any [<span class="link-h2">circle</span>](Uniinfo.cm.md#667d15c6-67c4-4998-a549-c8b3f9de3d60) is just a helix or spiral which is projected onto the plane orthogonal to the direction of change/evolution.
 							- The basic illustion is that “when the circle is completed, it ends, finishes, no more worry”, while actually it's just _the **beginning** of a new circle_, either at the same level or at “higher” level.
 							- While the true ending, the true finish is the death, either bodily or mentally, we always try to reach the end of some “hard work” wishing to have an easier living, either on Earth or on Heaven, or at Nibbana (Nirvana). That's the basic illusion of both life & death.
 								- The urge to finish is a manifestation of _the urge to die_ in the guise of life, either as an orgasm or an explosion.
 									- While Freud described [death drive](https://en.wikipedia.org/wiki/Death_drive) (Thanatos) as the opposite of sex drive (Eros), i see they are just two faces of the same coin with the same nature.
 								- Due to the guise of life, we fall into the contradiction of continuously reaching (small) deaths in the hope of avoiding (big) death.
 								- Accepting death is no problem to me and i've spent my whole life to explore various types of death.
-							- [⇒](#66602f68-e23f-4b24-921e-b1a9fc0cc731) Instead of ~~[aiming at the destination](#684f9517-db29-4079-8674-09e0ffaff6ba)~~, let's [reset](#67445065-15b2-475e-a704-78f140d487af) the mind to _**start** the new journey!_
-								- [Fb post](https://www.facebook.com/share/p/vnZFSzUcr3mr2JyG/) on Nov 15th 2024, one month before [the first active reset within a day](#6768bf20-deec-41bf-ac18-adc753ebb15f).
-						- The [conformation](#6678282b-d710-4c6b-b584-5f65012c192d) effect <a class="logseq-meta" id="684f9517-b752-4c07-98d8-bfab5d8ed79e" data-collapsed="true" ></a>
+							- [⇒](Namespace.cm.md#66602f68-e23f-4b24-921e-b1a9fc0cc731) Instead of ~~[aiming at the destination](#684f9517-db29-4079-8674-09e0ffaff6ba)~~, let's [reset](#67445065-15b2-475e-a704-78f140d487af) the mind to _**start** the new journey!_
+								- [Fb post](https://www.facebook.com/share/p/vnZFSzUcr3mr2JyG/) on Nov 15th 2024, one month before [the first active reset within a day](../../history/publish/CommonMark/2024 Stories.cm.md#6768bf20-deec-41bf-ac18-adc753ebb15f).
+						- The [conformation](Uniinfo.cm.md#6678282b-d710-4c6b-b584-5f65012c192d) effect <a class="logseq-meta" id="684f9517-b752-4c07-98d8-bfab5d8ed79e" data-collapsed="true" ></a>
 							- The great **momentum** of the past is the internal form. <a class="logseq-meta" id="684f9517-bf26-42df-a02f-937c95e1f80e" ></a>
 								- Just be mindful that we don't lose that momentum when we switch to other works, just put it down to be picked up later on.
 								- The effort justification & sunk-cost fallacy: This is the push of the momentum of the past, which adds to the pull of the future "finish soon", constraining the subject to the rabbit hole of goal reaching.
@@ -1842,14 +1842,14 @@
 							- That delusion is like a black hole sucking me strongly to the die-hard perfectionism.
 							- Looking inward, i see a [**holistic core**](#681b3ad7-d1b0-4c06-a4ea-385a4a9314e0) deep inside.
 							- **holistic core** <a class="logseq-meta" id="681b3ad7-d1b0-4c06-a4ea-385a4a9314e0" ></a>
-								- [Etymology:](#669a1e5f-734c-41c1-bf1c-21813b6e81d8)
+								- [Etymology:](Namespace.cm.md#669a1e5f-734c-41c1-bf1c-21813b6e81d8)
 									- **Holistic**: it is a perfect circle – so round, so balanced, so equilibrated, so complete.
 									- **Core**: This core is so hard and heavy, like the *singularity* of a black hole, that i see verything in this world is being pulled toward it, and all forces are returning force toward the core.
 								- This core may be a mental fixation, the result of karma accumulated throughout space and time, and usually the central point of attachment.
 								- This core is the internal form (intent), the perfect circle, the crystal self, the boss, the source of both my strengths and my weaknesses.
 								- Though perfect, the core is densly porous, hence [perfectly incomplete](#699e56cd-b1d4-41fb-8e30-ec393a5db8e9).
 								- To be free, this core, as the hidden boss, should be detached!
-							- ⇒ Solution: Let's [sublimate](#668f5490-c223-4a8a-9cc4-0bd71af4c097) that core to *restore the __[empty center](#684f9515-8f95-4004-8aa8-04a10d1ebf11)__*, i.e. the [hurricane's eye](#681826ad-768c-4671-b575-0d9f8ca64c6b) = [<span class="link-h3">self-essence</span>](#66c8772a-9b29-45b0-b169-2fa847333e02), so that it's free from any fixed point and can flow fluidly. <a class="logseq-meta" id="681b4678-686a-4d99-9163-6f60e0b30d2c" ></a>
+							- ⇒ Solution: Let's [sublimate](#668f5490-c223-4a8a-9cc4-0bd71af4c097) that core to *restore the __[empty center](../../history/publish/CommonMark/2025 Brainstorms.cm.md#684f9515-8f95-4004-8aa8-04a10d1ebf11)__*, i.e. the [hurricane's eye](Uniinfo.cm.md#681826ad-768c-4671-b575-0d9f8ca64c6b) = [<span class="link-h3">self-essence</span>](Uniinfo.cm.md#66c8772a-9b29-45b0-b169-2fa847333e02), so that it's free from any fixed point and can flow fluidly. <a class="logseq-meta" id="681b4678-686a-4d99-9163-6f60e0b30d2c" ></a>
 								- **Sublimation**: In [psychological terms](https://en.wikipedia.org/wiki/Sublimation_(psychology)#Jung), this is redirecting the core's energy from perfectionist fixation to a liberated self-essence. In spiritual terms, it's akin to dissolving karmic attachments to reveal the “true self”.
 								- Even the singularity of a black hole can [evaporate](https://en.wikipedia.org/wiki/Hawking_radiation#Black_hole_evaporation)! 😊
 							- This duality of the overview effect is just a manifestation of the intrinsic duality of the [sublime](https://en.wikipedia.org/wiki/Sublime_(philosophy)). <a class="logseq-meta" data-logbook="CLOCK: [2025-05-08 Thu 17:03:40]--[2025-05-08 Thu 19:59:03] =&gt;  02:55:23&#10;" ></a>
@@ -1882,16 +1882,16 @@
 										- Frank White
 										  <br>> As you go into your mind in a contemplative way, the sense of the living reality of the planet becomes obvious, you become more in tune with the natural world. This is very akin to the direct perception that the astronauts have, so it's no wonder that many people have likened the Overview Effect to a spiritual or meditative experience, although it's not exactly that. It's a cognitive shift, that very often can produce a kind of meditative experience.
 						- **perfect incompleness** <a class="logseq-meta" id="699e56cd-b1d4-41fb-8e30-ec393a5db8e9" ></a>
-						  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [perfect imperfection](#699e5754-ef30-4571-81fc-caecf7f7d245)
+						  <br>[Alias:](Namespace.cm.md#665359e4-4597-4775-b849-f9acbb98960a) [perfect imperfection](#699e5754-ef30-4571-81fc-caecf7f7d245)
 							- perfect imperfection <a class="logseq-meta" id="699e5754-ef30-4571-81fc-caecf7f7d245" ></a>
-							  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [**perfect incompleness**](#699e56cd-b1d4-41fb-8e30-ec393a5db8e9)
-							- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) The [**perfect incompleness**](#699e56cd-b1d4-41fb-8e30-ec393a5db8e9), or more ironically “the [perfect imperfection](#699e5754-ef30-4571-81fc-caecf7f7d245)”, is the densely [porousness](#6926be23-4a65-4138-8864-3e293fd37119), like the set of rational numbers, or a smooth mirror with “mountain ranges” under atomic force microscope (or actual pores of [porous glass](https://en.wikipedia.org/wiki/Porous_glass) under electron microscope), or a smooth skin with lots of tiny pores when looked up closed.
-							- [Examples:](#66725725-f76a-4328-b162-f469b87e871b) [Gödel's incompleteness theorems](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems), [the set of rational numbers](https://en.wikipedia.org/wiki/Rational_number#Real_numbers_and_topological_properties), [wabi-sabi (侘び寂び)](https://en.wikipedia.org/wiki/Wabi-sabi), [rap song Perfect Imperfection](https://youtu.be/QWZpbrU1h9A)
+							  <br>[alias of](Namespace.cm.md#665c9af1-1ce2-461c-af33-671690618c8f) [**perfect incompleness**](#699e56cd-b1d4-41fb-8e30-ec393a5db8e9)
+							- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) The [**perfect incompleness**](#699e56cd-b1d4-41fb-8e30-ec393a5db8e9), or more ironically “the [perfect imperfection](#699e5754-ef30-4571-81fc-caecf7f7d245)”, is the densely [porousness](../../history/publish/CommonMark/2025 Stories.cm.md#6926be23-4a65-4138-8864-3e293fd37119), like the set of rational numbers, or a smooth mirror with “mountain ranges” under atomic force microscope (or actual pores of [porous glass](https://en.wikipedia.org/wiki/Porous_glass) under electron microscope), or a smooth skin with lots of tiny pores when looked up closed.
+							- [Examples:](Namespace.cm.md#66725725-f76a-4328-b162-f469b87e871b) [Gödel's incompleteness theorems](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems), [the set of rational numbers](https://en.wikipedia.org/wiki/Rational_number#Real_numbers_and_topological_properties), [wabi-sabi (侘び寂び)](https://en.wikipedia.org/wiki/Wabi-sabi), [rap song Perfect Imperfection](https://youtu.be/QWZpbrU1h9A)
 								- Atomic structure of glass under transmission electron microscope (from [David A. Muller](https://www.azom.com/article.aspx?ArticleID=10005)) <a class="logseq-meta" data-collapsed="true" ></a>
 									- ![Two-Dimensional Silica Glass on Graphene.webp](../assets/Will/story/2026-02/Two-Dimensional Silica Glass on Graphene.webp)
 					- The deathtrap of opportunity <a class="logseq-meta" id="68adb0c5-e979-475e-8432-730d9d8970bc" data-collapsed="true" ></a>
 						- From natural traps like cave, social traps like gambling, to man-made traps of animals and [feigned retreat](https://en.wikipedia.org/wiki/Feigned_retreat) tactic, all these traps have the same set of features.
-						- Most of the works i'm trapped in, e.g. modeling the [twisted double i](#68a520c4-6a2e-4db9-8806-c4b4e55390e8) from [19th](#68a520c4-b31e-4256-bdfd-3e6f249ea0b9) to [25th](#68ac6971-f8ff-4cd1-9084-06b5f298d928), are deathtraps of opportunity:
+						- Most of the works i'm trapped in, e.g. modeling the [twisted double i](../../history/publish/CommonMark/2025 Stories.cm.md#68a520c4-6a2e-4db9-8806-c4b4e55390e8) from [19th](../../history/publish/CommonMark/2025 Stories.cm.md#68a520c4-b31e-4256-bdfd-3e6f249ea0b9) to [25th](../../history/publish/CommonMark/2025 Stories.cm.md#68ac6971-f8ff-4cd1-9084-06b5f298d928), are deathtraps of opportunity:
 							- [The illusion of “finish soon”](#669a58b9-1a52-4ad7-932a-9e45ecb9960e)
 							- [The illusion of “finished” & target reaching](#6736bd1e-5835-46e4-b640-dd35b3fe7c90)
 							- [The ((6678282b-d710-4c6b-b584-5f65012c192d)) effect](#684f9517-b752-4c07-98d8-bfab5d8ed79e)
@@ -1904,33 +1904,33 @@
 					- Brain dumping tools, like [<span class="link-h2">Logseq</span>](#66536e1b-6466-4153-90d6-583003d99a81), can help reducing mental load & momentum, so that i can switch easier. <a class="logseq-meta" id="66b1cfa4-369c-49ec-a461-cdda61633460" data-collapsed="true" ></a>
 						- Any new block, even plain text, should be [time tracked](#66b1cfa4-0f03-4da2-b34b-d995d3c888b0) [with `Ctrl Enter` -> `TODO`](#66b1cfa4-8842-4b3c-876b-e60d4b7fd819) or [with `Alt Enter` -> `DOING`](#66b1cfa4-33e0-4e5a-9a68-2e8e19b207ac). <a class="logseq-meta" id="66f7af1f-783e-489b-af9c-3ff01fc7d872" data-logbook="CLOCK: [2024-08-15 Thu 16:29:20]&#10;" ></a>
 						- [!] Too many fragmented non-`DONE` & non-`DOING` works will cost high overhead to reload these works into the mind later on. <a class="logseq-meta" data-logbook="CLOCK: [2024-08-15 Thu 16:29:13]&#10;" ></a>
-							- [⇒](#66602f68-e23f-4b24-921e-b1a9fc0cc731) Must keep balance between leaving unfinished works and [completing works](#6678d594-9819-4624-abd6-d4ec62b3874f).
-							- [⇒](#66602f68-e23f-4b24-921e-b1a9fc0cc731) We should regularly **clean up and reorganize** works so that later accesses will be easier, clearer.
+							- [⇒](Namespace.cm.md#66602f68-e23f-4b24-921e-b1a9fc0cc731) Must keep balance between leaving unfinished works and [completing works](#6678d594-9819-4624-abd6-d4ec62b3874f).
+							- [⇒](Namespace.cm.md#66602f68-e23f-4b24-921e-b1a9fc0cc731) We should regularly **clean up and reorganize** works so that later accesses will be easier, clearer.
 						- addition = insertion sort
 						  <br>Each addition of new items into a previous work is a step of insertion sort.
 						- access = reorganize
-							- Each access of an old work from a new context reveals a new [<span class="link-h2">view</span>](#66723642-58f1-4a74-bba3-0108f14c6bac), new [<span class="link-h2">relation</span>](#667d0b78-fff6-49bc-90d5-165648ed56d3), hence the old work should be updated to reflect this new view.
+							- Each access of an old work from a new context reveals a new [<span class="link-h2">view</span>](Uniinfo.cm.md#66723642-58f1-4a74-bba3-0108f14c6bac), new [<span class="link-h2">relation</span>](Uniinfo.cm.md#667d0b78-fff6-49bc-90d5-165648ed56d3), hence the old work should be updated to reflect this new view.
 							- When a later access shows any difficulty in understanding or any inconsistency, the old work should be reorganized.
-							- [⇒](#66602f68-e23f-4b24-921e-b1a9fc0cc731) the more accesses to a work, the better organized that work will be.
+							- [⇒](Namespace.cm.md#66602f68-e23f-4b24-921e-b1a9fc0cc731) the more accesses to a work, the better organized that work will be.
 					- Solution to my problem of "wandering, lost in complexity": shift from depth-first to breadth-first traversal <a class="logseq-meta" data-collapsed="true" data-logbook="CLOCK: [2024-09-19 Thu 12:24:53]&#10;" ></a>
 						- when it's too deep with analytics (differential), it's too abstract, lacking context, groundless, formless, messy, collapsed, the object is sliced into disconnected parts
 						- traversal on the breadth with SCIFER provides context, condition (duyên), and form to stretch the loop out to be a full circle 🌕, to be the whole
-						- However, [Switching from depth-first traversal ([duck dive](((67714850-43c0-4c7f-8b50-838e014b06e0)))) to breadth-first traversal has resulted in ((67a5cfdd-d3b3-491b-a7ba-febdc09dca95))](#67a5d140-31e4-451d-a8ea-33fa6927ce99)
+						- However, [Switching from depth-first traversal ([duck dive](((67714850-43c0-4c7f-8b50-838e014b06e0)))) to breadth-first traversal has resulted in ((67a5cfdd-d3b3-491b-a7ba-febdc09dca95))](../../history/publish/CommonMark/2025 Braindumps.cm.md#67a5d140-31e4-451d-a8ea-33fa6927ce99)
 					- DONE **Solution**: Dismalting the intent stack by [refinement techniques](#67b541d0-f477-4c3a-b444-fb522c3fdc4f) and contemplating the [**perfect incompleness**](#699e56cd-b1d4-41fb-8e30-ec393a5db8e9). <a class="logseq-meta" id="699e702a-2eac-4fcf-8356-dbfbc8c54279" data-collapsed="true" data-logbook="CLOCK: [2026-02-25 Wed 10:47:11]--[2026-02-25 Wed 11:42:45] =&gt;  00:55:34&#10;" ></a>
-						- Structure of the form: [**holistic core**](#681b3ad7-d1b0-4c06-a4ea-385a4a9314e0) → [**perfectionism**](#6678d594-9819-4624-abd6-d4ec62b3874f) → [intent stack](#690b3f49-1419-4dc3-b61b-12890b9e04f9) → [spring doll mind](#6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00) <a class="logseq-meta" id="699e6ed9-1f33-40db-bb6e-a50fdbda2fcc" ></a>
-							- My intent stack is a special kind of [intent double cone](#68df2d82-e1d5-49c4-ac40-d45cf26f840c).
+						- Structure of the form: [**holistic core**](#681b3ad7-d1b0-4c06-a4ea-385a4a9314e0) → [**perfectionism**](#6678d594-9819-4624-abd6-d4ec62b3874f) → [intent stack](../../history/publish/CommonMark/2025 Stories.cm.md#690b3f49-1419-4dc3-b61b-12890b9e04f9) → [spring doll mind](#6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00) <a class="logseq-meta" id="699e6ed9-1f33-40db-bb6e-a50fdbda2fcc" ></a>
+							- My intent stack is a special kind of [intent double cone](Uniinfo.cm.md#68df2d82-e1d5-49c4-ac40-d45cf26f840c).
 						- Mechanism of failure: Attachment to the form
 							- Due to it's perfection, the holistic core is clung to [as the God image](#699c0361-fa2e-42f9-9a98-ba4f929fd031).
 							- That root attachement renders all intents hard, undetachable, leading to the intent stack.
 						- Contemplating the holistic core, i see [it's perfection is but an illusion](#699c0361-ea57-4dbd-99d0-22c350e45c77), hence a [perfect imperfection](#699e5754-ef30-4571-81fc-caecf7f7d245).
-						- So, the true [returning](#699c0362-5189-4cee-bcb5-84b6ff8574fe) is not to stop at the holistic core, but to penetrate it through its pores to enter the [empty center](#69086748-b6e9-47c0-810b-4a92f882d6bc).
-							- In the [cyclone model](#673312a3-e94e-478f-9e21-bad72ef29d1b), the holistic core is just the eyewall, and the empty center is the eye.
+						- So, the true [returning](Uniinfo.cm.md#699c0362-5189-4cee-bcb5-84b6ff8574fe) is not to stop at the holistic core, but to penetrate it through its pores to enter the [empty center](Uniinfo.cm.md#69086748-b6e9-47c0-810b-4a92f882d6bc).
+							- In the [cyclone model](Uniinfo.cm.md#673312a3-e94e-478f-9e21-bad72ef29d1b), the holistic core is just the eyewall, and the empty center is the eye.
 						- That empty center frees the intents from the strict order of the stack, making them equal together.
 				- [!] The issue of love, i.e. emotional attachment <a class="logseq-meta" id="67b541cf-323e-4efd-8d6e-ccb2c9d017ff" data-collapsed="true" ></a>
 					- Deep inside, i feel the suffering of people as my suffering... but it seems to be my too much magnification via my own lens.
-					- [Toward the end of love karma/debt](#66e3a0f4-579a-4668-97c2-cbb9984e59c2)
-					- [bring it up to put it down!](#678512dc-66ef-4ba9-aebb-0355d89ef38b)
-					- [Reminded about my clingy love](#67d1132a-dc48-42f2-80ad-b99853be907b)
+					- [Toward the end of love karma/debt](../../history/publish/CommonMark/2024 Stories.cm.md#66e3a0f4-579a-4668-97c2-cbb9984e59c2)
+					- [bring it up to put it down!](../../history/publish/CommonMark/2025 Stories.cm.md#678512dc-66ef-4ba9-aebb-0355d89ef38b)
+					- [Reminded about my clingy love](../../history/publish/CommonMark/2025 Stories.cm.md#67d1132a-dc48-42f2-80ad-b99853be907b)
 				- [!] Time is always gone too fast! :( <a class="logseq-meta" id="66600918-315b-4f6c-970b-3039ac8ef912" ></a>
 				- [!] [<span class="link-h2">Will LÊ</span>](#66536578-c4d3-43f1-b35c-bf71120f0570) is not perfect. <a class="logseq-meta" id="677e84a1-cb09-43a8-a374-31599c903e11" ></a>
 				- <<End Problems>>
@@ -1947,11 +1947,11 @@
 			- <zwsp>
 		- <zwsp>
 	- ## Git
-	  [moved to](#680a04eb-125e-4e9e-b691-3b7be523359c) [Git](Mind Jungle.cm.md#666ba1e2-19d1-409e-b30e-42a99b7e4ec0)
+	  [moved to](Namespace.cm.md#680a04eb-125e-4e9e-b691-3b7be523359c) [Git](../../share/technical/publish/CommonMark/Git.cm.md#666ba1e2-19d1-409e-b30e-42a99b7e4ec0)
 	- ## GitHub <a class="logseq-meta" id="66536662-052f-46a4-a624-38858bffb334" data-collapsed="true" ></a>
-		- [Official website:](#665359c3-61fd-4858-a117-ecbcd6fbc9ea) https://github.com/ <a class="logseq-meta" id="66536669-edd2-4c36-a4da-52f25a090459" ></a>
-		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/GitHub
-		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h2">GitHub</span>](#66536662-052f-46a4-a624-38858bffb334) is an online hub for [Git](Mind Jungle.cm.md#666ba1e2-19d1-409e-b30e-42a99b7e4ec0).
+		- [Official website:](Namespace.cm.md#665359c3-61fd-4858-a117-ecbcd6fbc9ea) https://github.com/ <a class="logseq-meta" id="66536669-edd2-4c36-a4da-52f25a090459" ></a>
+		- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/GitHub
+		- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h2">GitHub</span>](#66536662-052f-46a4-a624-38858bffb334) is an online hub for [Git](../../share/technical/publish/CommonMark/Git.cm.md#666ba1e2-19d1-409e-b30e-42a99b7e4ec0).
 		- [<span class="link-h2">Will LÊ</span>](#66536578-c4d3-43f1-b35c-bf71120f0570)'s profile: https://github.com/bixycler
 		- ### GitHub Symbols Panel
 			- This new feature is the most **annoying** one!
@@ -1986,23 +1986,23 @@
 					- ![GitHub-Copilot-entitlement-quotas.png](../assets/Will/story/2025-06/GitHub-Copilot-entitlement-quotas.png)
 				- Ref: [a nice hack by charlielee](https://github.com/orgs/community/discussions/148154#discussioncomment-12546080)
 	- ## obsidian <a class="logseq-meta" id="66537d0c-5406-4b46-8975-12d788cfc28e" data-collapsed="true" ></a>
-		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Obsidian
-		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08)-vi: https://vi.wikipedia.org/wiki/Đá_vỏ_chai
-		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [Obsidian](#66537d0c-5406-4b46-8975-12d788cfc28e) is a naturally occurring [volcanic glass](https://en.wikipedia.org/wiki/Volcanic_glass "Volcanic glass") formed when [lava](https://en.wikipedia.org/wiki/Lava "Lava") [extruded](https://en.wikipedia.org/wiki/Extrusive_rock "Extrusive rock") from a [volcano](https://en.wikipedia.org/wiki/Volcano "Volcano") cools rapidly with minimal [crystal growth](https://en.wikipedia.org/wiki/Crystal_growth "Crystal growth").
+		- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Obsidian
+		- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08)-vi: https://vi.wikipedia.org/wiki/Đá_vỏ_chai
+		- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) [Obsidian](#66537d0c-5406-4b46-8975-12d788cfc28e) is a naturally occurring [volcanic glass](https://en.wikipedia.org/wiki/Volcanic_glass "Volcanic glass") formed when [lava](https://en.wikipedia.org/wiki/Lava "Lava") [extruded](https://en.wikipedia.org/wiki/Extrusive_rock "Extrusive rock") from a [volcano](https://en.wikipedia.org/wiki/Volcano "Volcano") cools rapidly with minimal [crystal growth](https://en.wikipedia.org/wiki/Crystal_growth "Crystal growth").
 	- ## Obsidian <a class="logseq-meta" id="66535660-643e-471a-a332-8f2306c5494f" data-collapsed="true" ></a>
-		- [Official website:](#665359c3-61fd-4858-a117-ecbcd6fbc9ea) https://obsidian.md/
-		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Obsidian_(software)
-		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h2">Obsidian</span>](#66535660-643e-471a-a332-8f2306c5494f) is a note-taking app based on [<span class="link-h2">Markdown</span>](#66535e71-3b71-416c-98dc-5dde5e6a76ff) files with [<span class="link-h2">wikilink</span>](#e6a21858-1849-462e-b2b0-0bc57b38fb0a) for internal links to create a [<span class="link-h2">personal knowledge base</span>](#665364b1-e05c-46a6-a76b-c14cd73d1706) (PKB).
+		- [Official website:](Namespace.cm.md#665359c3-61fd-4858-a117-ecbcd6fbc9ea) https://obsidian.md/
+		- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Obsidian_(software)
+		- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h2">Obsidian</span>](#66535660-643e-471a-a332-8f2306c5494f) is a note-taking app based on [<span class="link-h2">Markdown</span>](#66535e71-3b71-416c-98dc-5dde5e6a76ff) files with [<span class="link-h2">wikilink</span>](#e6a21858-1849-462e-b2b0-0bc57b38fb0a) for internal links to create a [<span class="link-h2">personal knowledge base</span>](#665364b1-e05c-46a6-a76b-c14cd73d1706) (PKB).
 		- [<span class="link-h2">Will LÊ</span>](#66536578-c4d3-43f1-b35c-bf71120f0570)'s vaults:
-			- [UniinfoNotes](https://github.com/bixycler/UniinfoNotes) for [Unïnfo](#66537a44-f579-4fcc-a02b-2f32d0d409fc)
-		- [Commentaries:](#665359ff-79f1-4669-b10b-f2b0e633a7c1) <a class="logseq-meta" data-collapsed="true" ></a>
+			- [UniinfoNotes](https://github.com/bixycler/UniinfoNotes) for [Unïnfo](Uniinfo.cm.md#66537a44-f579-4fcc-a02b-2f32d0d409fc)
+		- [Commentaries:](Namespace.cm.md#665359ff-79f1-4669-b10b-f2b0e633a7c1) <a class="logseq-meta" data-collapsed="true" ></a>
 			- About the name "Obsidian": It's taken from the rock [<span class="link-h2">obsidian</span>](#66537d0c-5406-4b46-8975-12d788cfc28e) which is a kind of volcanic glass.
 				- From forum: https://forum.obsidian.md/t/why-is-obsidian-named-so/4837 <a class="logseq-meta" data-collapsed="true" ></a>
 					- Official reason:
 					   <br>> it's a metaphor. **If your raw, unstable thoughts are lava, then Obsidian is… well, Obsidian. It is your crystallized (and beautiful) knowledge.**
 					- However, the real reason would be:
 					  <br>> we like Minecraft and Obsidian is (as Licat told me) the hardest block in the original Minecraft (he started playing during alpha I think). Also Obsidian sounds cool to me, personally.
-					- And [<span class="link-h2">obsidian</span>](#66537d0c-5406-4b46-8975-12d788cfc28e) is actually a [<span class="link-h2">glass</span>](#66537c37-2d4a-4077-9fcf-45c71755c876), not a [<span class="link-h2">crystal</span>](#66537bdd-6c99-4d7b-905a-e2a487cae5ce). Even looks like crystal, glass is [amorphous](https://en.wikipedia.org/wiki/Amorphous_solid), i.e. non-crystalline, because it lacks the the [long-range order](https://en.wikipedia.org/wiki/Long-range_order "Long-range order") that is characteristic of a [<span class="link-h2">crystal</span>](#66537bdd-6c99-4d7b-905a-e2a487cae5ce).
+					- And [<span class="link-h2">obsidian</span>](#66537d0c-5406-4b46-8975-12d788cfc28e) is actually a [<span class="link-h2">glass</span>](#66537c37-2d4a-4077-9fcf-45c71755c876), not a [<span class="link-h2">crystal</span>](Uniinfo.cm.md#66537bdd-6c99-4d7b-905a-e2a487cae5ce). Even looks like crystal, glass is [amorphous](https://en.wikipedia.org/wiki/Amorphous_solid), i.e. non-crystalline, because it lacks the the [long-range order](https://en.wikipedia.org/wiki/Long-range_order "Long-range order") that is characteristic of a [<span class="link-h2">crystal</span>](Uniinfo.cm.md#66537bdd-6c99-4d7b-905a-e2a487cae5ce).
 		- The [Obsidian-flavored Markdown](https://help.obsidian.md/Editing+and+formatting/Obsidian+Flavored+Markdown) extends  [CommonMark](https://commonmark.org/) with  <a class="logseq-meta" data-collapsed="true" ></a>
 			- `[[Link]]`: [Internal links](https://help.obsidian.md/Linking+notes+and+files/Internal+links)
 			- `![[Link]]`: [Embed files](https://help.obsidian.md/Linking+notes+and+files/Embed+files)
@@ -2030,7 +2030,7 @@
 				- `Ctrl` `.` to toggle fold/unfold of current line.
 			- Move to folder: `Ctrl` `M`
 				- Ideally when creating new note (`Ctrl` `N` ), [<span class="link-h2">Obsidian</span>](#66535660-643e-471a-a332-8f2306c5494f) should ask or default to the same folder of current note.
-		- ### [Plugin:](#66535a44-8a13-4d5a-808e-10baa97ebaf0) <a class="logseq-meta" data-collapsed="true" ></a>
+		- ### [Plugin:](Namespace.cm.md#66535a44-8a13-4d5a-808e-10baa97ebaf0) <a class="logseq-meta" data-collapsed="true" ></a>
 			- Core plugins
 			- Community plugins
 				- Open Link With <a class="logseq-meta" id="66535685-4fd2-4928-8c65-198ef6f3fe71" data-collapsed="true" ></a>
@@ -2047,7 +2047,7 @@
 					- Obsidian community plugin: [webpage-html-export](obsidian://show-plugin?id=webpage-html-export)
 					- GitHub: https://github.com/KosmosisDire/obsidian-webpage-export
 					- Forum: https://forum.obsidian.md/t/html-export-plugin/51743
-					- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) Export to [HTML](#6720bf1a-fa1f-4c1d-ba6f-2527a47621eb) format.
+					- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) Export to [HTML](#6720bf1a-fa1f-4c1d-ba6f-2527a47621eb) format.
 				- Obsidian Git <a class="logseq-meta" id="6653743f-8847-4b24-8c21-795c87254eb2" data-collapsed="true" ></a>
 					- Obsidian community plugin: [obsidian-git](obsidian://show-plugin?id=obsidian-git)
 					- GitHub: https://github.com/denolehov/obsidian-git
@@ -2055,43 +2055,43 @@
 					- Obsidian community plugin: [obsidian-mkdocs-publisher](obsidian://show-plugin?id=obsidian-mkdocs-publisher)
 					- GitHub: https://github.com/Mara-Li/obsidian-github-publisher
 					- Forum: https://forum.obsidian.md/t/obsidian-github-publisher/37953
-					- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) Export to [<span class="link-h2">GitHub</span>](#66536662-052f-46a4-a624-38858bffb334) in [<span class="link-h2">Markdown</span>](#66535e71-3b71-416c-98dc-5dde5e6a76ff) with [<span class="link-h2">wikilink</span>](#e6a21858-1849-462e-b2b0-0bc57b38fb0a) transformed to external link.
+					- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) Export to [<span class="link-h2">GitHub</span>](#66536662-052f-46a4-a624-38858bffb334) in [<span class="link-h2">Markdown</span>](#66535e71-3b71-416c-98dc-5dde5e6a76ff) with [<span class="link-h2">wikilink</span>](#e6a21858-1849-462e-b2b0-0bc57b38fb0a) transformed to external link.
 				- Obsidian Dataview <a class="logseq-meta" id="665374b0-1ed9-420b-afc4-897a942c0be0" data-collapsed="true" ></a>
 					- Obsidian community plugin: [dataview](obsidian://show-plugin?id=dataview)
-					- [Official website:](#665359c3-61fd-4858-a117-ecbcd6fbc9ea) https://blacksmithgu.github.io/obsidian-dataview/
+					- [Official website:](Namespace.cm.md#665359c3-61fd-4858-a117-ecbcd6fbc9ea) https://blacksmithgu.github.io/obsidian-dataview/
 					- GitHub: https://github.com/blacksmithgu/obsidian-dataview
 					- Custom settings:
-						- Inline query prefix: use `` `dv::` `` instead of the default `` `=` `` because [<span class="link-h2">equal</span>](#6653751a-a1b4-44b0-a81e-0a446eb8918c) (`=`) is the central symbol in [[Unïnfo Theory]].
+						- Inline query prefix: use `` `dv::` `` instead of the default `` `=` `` because [<span class="link-h2">equal</span>](Uniinfo.cm.md#6653751a-a1b4-44b0-a81e-0a446eb8918c) (`=`) is the central symbol in [[Unïnfo Theory]].
 				- Obsidian Importer <a class="logseq-meta" id="665376f4-9335-4d38-843f-a4cf6ef6cd10" data-collapsed="true" ></a>
 					- Obsidian community plugin: [obsidian-importer](obsidian://show-plugin?id=obsidian-importer)
 					- GitHub: https://github.com/obsidianmd/obsidian-importer
 	- ## keyboard shortcut <a class="logseq-meta" id="665367a6-29d7-4fd2-a33b-6d94de8172e8" data-collapsed="true" ></a>
-	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [<span class="link-h2">hotkey</span>](#66536710-7441-4fb8-986b-50d2eec762d7)
-		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Keyboard_shortcut
-		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) a key or a series of [keys](https://en.wikipedia.org/wiki/Computer_keyboard "Computer keyboard") to quickly invoke a [software program](https://en.wikipedia.org/wiki/Software_program "Software program") or perform a preprogrammed action.
+	  [Alias:](Namespace.cm.md#665359e4-4597-4775-b849-f9acbb98960a) [<span class="link-h2">hotkey</span>](#66536710-7441-4fb8-986b-50d2eec762d7)
+		- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Keyboard_shortcut
+		- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) a key or a series of [keys](https://en.wikipedia.org/wiki/Computer_keyboard "Computer keyboard") to quickly invoke a [software program](https://en.wikipedia.org/wiki/Software_program "Software program") or perform a preprogrammed action.
 	- ## hotkey <a class="logseq-meta" id="66536710-7441-4fb8-986b-50d2eec762d7" data-collapsed="true" ></a>
-	  [alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">keyboard shortcut</span>](#665367a6-29d7-4fd2-a33b-6d94de8172e8)
-		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h2">hotkey</span>](#66536710-7441-4fb8-986b-50d2eec762d7) is an [alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">keyboard shortcut</span>](#665367a6-29d7-4fd2-a33b-6d94de8172e8), usually used by [Windows](https://en.wikipedia.org/wiki/Microsoft_Windows), [<span class="link-h2">Obsidian</span>](#66535660-643e-471a-a332-8f2306c5494f), etc.
+	  [alias of](Namespace.cm.md#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">keyboard shortcut</span>](#665367a6-29d7-4fd2-a33b-6d94de8172e8)
+		- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h2">hotkey</span>](#66536710-7441-4fb8-986b-50d2eec762d7) is an [alias of](Namespace.cm.md#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">keyboard shortcut</span>](#665367a6-29d7-4fd2-a33b-6d94de8172e8), usually used by [Windows](https://en.wikipedia.org/wiki/Microsoft_Windows), [<span class="link-h2">Obsidian</span>](#66535660-643e-471a-a332-8f2306c5494f), etc.
 		- [[Table of Hotkey Assigned Commands in this Vault]] <a class="logseq-meta" id="66600918-9d88-4640-844b-35b9ed433b4a" ></a>
 	- ## wiki <a class="logseq-meta" id="66536a32-fddd-465f-a47f-fa8e0ea9c8db" data-collapsed="true" ></a>
-		- [form of](#665ca480-5ac8-4728-a331-2f68b48759d1) [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08)
-		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Wiki <a class="logseq-meta" id="66600918-6c84-41c7-afeb-96d30f74850b" ></a>
+		- [form of](Namespace.cm.md#665ca480-5ac8-4728-a331-2f68b48759d1) [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08)
+		- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Wiki <a class="logseq-meta" id="66600918-6c84-41c7-afeb-96d30f74850b" ></a>
 	- ## Wikipedia <a class="logseq-meta" id="665368c5-5c6f-44e4-a675-4a744252d32c" data-collapsed="true" ></a>
-		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Wikipedia
-		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) A [<span class="link-h2">free content</span>](#66536af9-f7d7-4be8-be35-9a43b557aef1) [online encyclopedia](https://en.wikipedia.org/wiki/Online_encyclopedia "Online encyclopedia") written and maintained by a community of [volunteers](https://en.wikipedia.org/wiki/Volunteering "Volunteering"), known as [Wikipedians](https://en.wikipedia.org/wiki/Wikipedians "Wikipedians"), through [open collaboration](https://en.wikipedia.org/wiki/Open_collaboration "Open collaboration") and the use of the [<span class="link-h2">wiki</span>](#66536a32-fddd-465f-a47f-fa8e0ea9c8db)-based editing system [MediaWiki](https://en.wikipedia.org/wiki/MediaWiki "MediaWiki").
+		- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Wikipedia
+		- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) A [<span class="link-h2">free content</span>](#66536af9-f7d7-4be8-be35-9a43b557aef1) [online encyclopedia](https://en.wikipedia.org/wiki/Online_encyclopedia "Online encyclopedia") written and maintained by a community of [volunteers](https://en.wikipedia.org/wiki/Volunteering "Volunteering"), known as [Wikipedians](https://en.wikipedia.org/wiki/Wikipedians "Wikipedians"), through [open collaboration](https://en.wikipedia.org/wiki/Open_collaboration "Open collaboration") and the use of the [<span class="link-h2">wiki</span>](#66536a32-fddd-465f-a47f-fa8e0ea9c8db)-based editing system [MediaWiki](https://en.wikipedia.org/wiki/MediaWiki "MediaWiki").
 	- ## free content <a class="logseq-meta" id="66536af9-f7d7-4be8-be35-9a43b557aef1" data-collapsed="true" ></a>
-		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Free_content
+		- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Free_content
 	- ## knowledge base <a class="logseq-meta" id="6653685c-5435-4be8-be60-a7fb5195d404" data-collapsed="true" ></a>
-		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Knowledge_base
+		- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Knowledge_base
 	- ## knowledge graph <a class="logseq-meta" id="66536888-95d3-4d20-829c-b7ac2088dc29" data-collapsed="true" ></a>
-		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Knowledge_graph
-		- [Examples:](#66725725-f76a-4328-b162-f469b87e871b) [<span class="link-h2">personal knowledge base</span>](#665364b1-e05c-46a6-a76b-c14cd73d1706), [<span class="link-h2">Wikipedia</span>](#665368c5-5c6f-44e4-a675-4a744252d32c)'s [Wikidata](https://en.wikipedia.org/wiki/Wikidata), Google's [Knowledge Graph](https://en.wikipedia.org/wiki/Google_Knowledge_Graph),  Microsoft's Satori, as well as the entity graphs of LinkedIn and Facebook.
+		- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Knowledge_graph
+		- [Examples:](Namespace.cm.md#66725725-f76a-4328-b162-f469b87e871b) [<span class="link-h2">personal knowledge base</span>](#665364b1-e05c-46a6-a76b-c14cd73d1706), [<span class="link-h2">Wikipedia</span>](#665368c5-5c6f-44e4-a675-4a744252d32c)'s [Wikidata](https://en.wikipedia.org/wiki/Wikidata), Google's [Knowledge Graph](https://en.wikipedia.org/wiki/Google_Knowledge_Graph),  Microsoft's Satori, as well as the entity graphs of LinkedIn and Facebook.
 	- ## personal knowledge base <a class="logseq-meta" id="665364b1-e05c-46a6-a76b-c14cd73d1706" data-collapsed="true" ></a>
-	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [personal knowledge graph](#697b4779-fdc8-4188-b3e0-fd984c167fb8)
+	  [Alias:](Namespace.cm.md#665359e4-4597-4775-b849-f9acbb98960a) [personal knowledge graph](#697b4779-fdc8-4188-b3e0-fd984c167fb8)
 		- personal knowledge graph <a class="logseq-meta" id="697b4779-fdc8-4188-b3e0-fd984c167fb8" ></a>
-		  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">personal knowledge base</span>](#665364b1-e05c-46a6-a76b-c14cd73d1706)
-		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Personal_knowledge_base
-		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) A personal version of [<span class="link-h2">knowledge base</span>](#6653685c-5435-4be8-be60-a7fb5195d404) and [<span class="link-h2">knowledge graph</span>](#66536888-95d3-4d20-829c-b7ac2088dc29).
+		  <br>[alias of](Namespace.cm.md#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">personal knowledge base</span>](#665364b1-e05c-46a6-a76b-c14cd73d1706)
+		- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Personal_knowledge_base
+		- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) A personal version of [<span class="link-h2">knowledge base</span>](#6653685c-5435-4be8-be60-a7fb5195d404) and [<span class="link-h2">knowledge graph</span>](#66536888-95d3-4d20-829c-b7ac2088dc29).
 		- Techniques <a class="logseq-meta" data-collapsed="true" ></a>
 			- [Zettelkästen](https://en.wikipedia.org/wiki/Zettelkasten) (card file, slip box) from Germany, from 1980s: It use **paper slips** or cards, that may be linked to each other through [subject headings](https://en.wikipedia.org/wiki/Index_term "Index term") or other [metadata](https://en.wikipedia.org/wiki/Metadata "Metadata") such as numbers and [tags](https://en.wikipedia.org/wiki/Tag_(metadata) "Tag (metadata)"). It has often been used as a system of [note-taking](https://en.wikipedia.org/wiki/Note-taking "Note-taking") and [personal knowledge management](https://en.wikipedia.org/wiki/Personal_knowledge_management "Personal knowledge management") for research, study, and writing. <a class="logseq-meta" data-collapsed="true" ></a>
 				- Website: https://zettelkasten.de/overview/
@@ -2138,8 +2138,8 @@
 				- to [<span class="link-h2">Obsidian</span>](#66535660-643e-471a-a332-8f2306c5494f) with better GUI, plugins, community, but text block based handling is annoying. <a class="logseq-meta" data-collapsed="true" ></a>
 					- However, Martin Weitzel had some mistake when thinking that ~~Obsidian is "open-source"~~, nope it's *proprietary* from the beginning.
 	- ## Logseq <a class="logseq-meta" id="66536e1b-6466-4153-90d6-583003d99a81" data-collapsed="true" ></a>
-		- [Official website:](#665359c3-61fd-4858-a117-ecbcd6fbc9ea) https://logseq.com/
-		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h2">Logseq</span>](#66536e1b-6466-4153-90d6-583003d99a81) is an [<span class="link-h2">outliner</span>](#66536d32-30ad-4c07-8585-76ae9eb7fb22) like [Roam](https://roamresearch.com), but [open-source](https://github.com/logseq/logseq): outlining based on text blocks & [<span class="link-h2">Markdown</span>](#66535e71-3b71-416c-98dc-5dde5e6a76ff), with [<span class="link-h2">wikilink</span>](#e6a21858-1849-462e-b2b0-0bc57b38fb0a), and [tag](https://en.wikipedia.org/wiki/Tag_(metadata)). <a class="logseq-meta" data-collapsed="true" ></a>
+		- [Official website:](Namespace.cm.md#665359c3-61fd-4858-a117-ecbcd6fbc9ea) https://logseq.com/
+		- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h2">Logseq</span>](#66536e1b-6466-4153-90d6-583003d99a81) is an [<span class="link-h2">outliner</span>](#66536d32-30ad-4c07-8585-76ae9eb7fb22) like [Roam](https://roamresearch.com), but [open-source](https://github.com/logseq/logseq): outlining based on text blocks & [<span class="link-h2">Markdown</span>](#66535e71-3b71-416c-98dc-5dde5e6a76ff), with [<span class="link-h2">wikilink</span>](#e6a21858-1849-462e-b2b0-0bc57b38fb0a), and [tag](https://en.wikipedia.org/wiki/Tag_(metadata)). <a class="logseq-meta" data-collapsed="true" ></a>
 			- Installations: <a class="logseq-meta" id="67b541cf-92fb-4a5d-9f57-1273662c9b02" data-collapsed="true" ></a>
 				- Windows: Just download and run the `.exe` file at [Downloads page](https://logseq.com/downloads).
 					- [Global home/config folder](#66faaa5c-6a8a-42d9-a1bc-410531dbaf81): `%USERPROFILE%/{.logseq,AppData/Roaming/Logseq}/`
@@ -2147,28 +2147,28 @@
 					- The `.AppImage` file at [Downloads page](https://logseq.com/downloads) can be run right away, just after making it executable (`chmod +x`). <a class="logseq-meta" id="66faa5f9-d333-47df-88cf-7c6fab827842" ></a>
 						- App location: `/tmp/.mount_LogseqFUWusr/` mounted from app image just in runtime.
 						- [Global home/config folder](#66faaa5c-6a8a-42d9-a1bc-410531dbaf81): `${HOME}/{.logseq,.config/Logseq}/`
-					- The Flatpack app [on FlatHub](https://flathub.org/apps/com.logseq.Logseq) requires additional dependencies and run in [Flatpak Sandbox](#66fb5dcd-e20c-4e18-b03c-e52a5bb76425) with `flatpak run com.logseq.Logseq`. [Flatpak sandbox can handle SSH well.](#66fb5fd7-b1b0-4e54-96b3-fe6a83e34777) <a class="logseq-meta" id="66faa5f9-96d5-4d40-a118-0adcedfc016a" ></a>
+					- The Flatpack app [on FlatHub](https://flathub.org/apps/com.logseq.Logseq) requires additional dependencies and run in [Flatpak Sandbox](../../share/technical/publish/CommonMark/Linux.cm.md#66fb5dcd-e20c-4e18-b03c-e52a5bb76425) with `flatpak run com.logseq.Logseq`. [Flatpak sandbox can handle SSH well.](#66fb5fd7-b1b0-4e54-96b3-fe6a83e34777) <a class="logseq-meta" id="66faa5f9-96d5-4d40-a118-0adcedfc016a" ></a>
 						- App location: `/var/lib/flatpak/app/com.logseq.Logseq/current/active/files/logseq/`
 							- mounted to `/app/logseq/` in `flatpak run` sandbox. <a class="logseq-meta" id="67f4eaf0-bc2c-470d-9590-be149267e750" ></a>
 							- Cache (`instance-path`): `${HOME}/.var/app/com.logseq.Logseq/cache/`
 						- [Global home/config folder](#66faaa5c-6a8a-42d9-a1bc-410531dbaf81): `${HOME}/{.logseq,.var/app/com.logseq.Logseq/config/Logseq}/`
-					- The Snap app on Snap Store (Ubuntu Software) is stable but suffers limitations of the [Snap Sandbox](#66fa8a1d-4fc0-4cb9-ad57-911cba799a04). <a class="logseq-meta" id="66faa5f9-bd71-4d05-9c03-b69e4077d6e7" ></a>
+					- The Snap app on Snap Store (Ubuntu Software) is stable but suffers limitations of the [Snap Sandbox](../../share/technical/publish/CommonMark/Linux.cm.md#66fa8a1d-4fc0-4cb9-ad57-911cba799a04). <a class="logseq-meta" id="66faa5f9-bd71-4d05-9c03-b69e4077d6e7" ></a>
 						- App location: `/snap/logseq/current/app/`
 						- [Global home/config folder](#66faaa5c-6a8a-42d9-a1bc-410531dbaf81): `${HOME}/snap/logseq/current/{.logseq,.config/Logseq}/`
-				- Android: Can be installed from the `.apk` file at [Downloads page](https://logseq.com/downloads), but useless due to no [Git](Mind Jungle.cm.md#666ba1e2-19d1-409e-b30e-42a99b7e4ec0) support.
-			- [History:](#6667abd2-14eb-4145-b9e3-e6f3037b3117) <a class="logseq-meta" data-collapsed="true" ></a>
+				- Android: Can be installed from the `.apk` file at [Downloads page](https://logseq.com/downloads), but useless due to no [Git](../../share/technical/publish/CommonMark/Git.cm.md#666ba1e2-19d1-409e-b30e-42a99b7e4ec0) support.
+			- [History:](Namespace.cm.md#6667abd2-14eb-4145-b9e3-e6f3037b3117) <a class="logseq-meta" data-collapsed="true" ></a>
 				- Logseq was originally developed as a side project by [Tienson Qin](https://twitter.com/tiensonqin) [from Feb 2020](https://fission.codes/blog/overview-of-logseq-by-tienson-qin/), to bring [Org Mode](https://orgmode.org/) task features to [<span class="link-h2">Markdown</span>](#66535e71-3b71-416c-98dc-5dde5e6a76ff).
 				- It has been [open sourced to GitHub](https://github.com/logseq/logseq) with first alpha version from Jan 2021, first beta version ([0.1.2](https://github.com/logseq/logseq/releases/tag/0.1.2)) in May 2021 until... today (May 2024) still beta ([0.10.9](https://github.com/logseq/logseq/releases/tag/0.10.9))!
 				- A new branch [based on database](https://github.com/logseq/logseq/pull/9858), and will be bi-dir-synced with [<span class="link-h2">Markdown</span>](#66535e71-3b71-416c-98dc-5dde5e6a76ff), is being developed from Jul 2023.
 		- Community: <a class="logseq-meta" data-collapsed="true" ></a>
-			- [Git:](#665f1a5c-6c98-4785-a177-3cd01507595d) https://github.com/logseq/logseq
+			- [Git:](Namespace.cm.md#665f1a5c-6c98-4785-a177-3cd01507595d) https://github.com/logseq/logseq
 			- Forum: https://discuss.logseq.com/
 			- Community hub: https://hub.logseq.com/
 			- Documentation: https://docs.logseq.com/
 				- Plugin API: https://plugins-doc.logseq.com/
 			- Discord: https://discord.gg/logseq
 			- Roadmap: https://trello.com/b/8txSM12G/roadmap
-		- [Commentaries:](#665359ff-79f1-4669-b10b-f2b0e633a7c1) <a class="logseq-meta" id="66600918-66b3-4d4b-9ef3-6b3d6986ebdd" data-collapsed="true" ></a>
+		- [Commentaries:](Namespace.cm.md#665359ff-79f1-4669-b10b-f2b0e633a7c1) <a class="logseq-meta" id="66600918-66b3-4d4b-9ef3-6b3d6986ebdd" data-collapsed="true" ></a>
 			- [!] The barrier between workspaces ("graphs" in Logseq) <a class="logseq-meta" data-collapsed="true" ></a>
 				- In Logseq, [[!] Difficult to link file/dir to avoid dupes!](#665fe765-2bb7-4392-9140-10e187f0f208)
 				- Some independent works, like [[Theme Demo]] , can be copied (manually).
@@ -2254,7 +2254,7 @@
 				- Other status (`WAIT`, `WAITING`, `IN-PROGRESS`) are hard-coded as just [`task-status` (`marker-cp`)](https://github.com/logseq/logseq/blob/d8c6ca264bdf9a6a0f03c46dbf3509210367624a/src/main/frontend/components/block.cljs#L1879).
 				- Workflow configuration has been [suggested](https://discuss.logseq.com/t/now-next-later-tasks-workflow/3703/6) without response.
 				- [Custom Workflow (`logseq-custom-workflows`)](https://github.com/sawhney17/logseq-custom-workflow-plugin) plugin lets us define custom flow of task status, e.g. `DOING -> TODO ->  WAIT`, but cannot touch the `marker-switch` `TODO <-> DOING`.
-				- [⇒](#66602f68-e23f-4b24-921e-b1a9fc0cc731) workaround: use [`logseq-custom-workflows` plugin](#66b1cfa4-31a0-4954-b75e-e0d5c6d1aa72) in combination with the built-in `marker-switch` (`Ctrl Enter`). <a class="logseq-meta" id="66602f1d-a572-4fe8-997f-0fae15c6a3de" data-collapsed="true" ></a>
+				- [⇒](Namespace.cm.md#66602f68-e23f-4b24-921e-b1a9fc0cc731) workaround: use [`logseq-custom-workflows` plugin](#66b1cfa4-31a0-4954-b75e-e0d5c6d1aa72) in combination with the built-in `marker-switch` (`Ctrl Enter`). <a class="logseq-meta" id="66602f1d-a572-4fe8-997f-0fae15c6a3de" data-collapsed="true" ></a>
 					- Workflow 1: `(TODO -> WAIT) <-> DOING -> DONE` with `Ctrl Enter` for forward phase and  `Ctrl Shift Enter` for backward phase. <a class="logseq-meta" id="66b1cfa4-8842-4b3c-876b-e60d4b7fd819" data-collapsed="true" ></a>
 						- Forward: `Ctrl Enter` for plaintext -> `TODO` (planned) -> `DOING` (started, start-time logged) -> `DONE`
 							- Just start without planning: `Alt Enter` for plaintext -> `DOING` (started, start-time logged)
@@ -2274,11 +2274,11 @@
 					- Refs:
 						- [Symlinks are not followed when loading a Graph/Directory](https://github.com/logseq/logseq/issues/5489)
 						- [Using symbolic link to add existing external .md file to logsek break on restart](https://discuss.logseq.com/t/using-symbolic-link-to-add-existing-external-md-file-to-logsek-break-on-restart/16229)
-				- **Hard-link** does keep index, but are [broken by git](#666ba5a7-598a-4b66-86bd-b1622a28ada6)! This is the [better-than-nothing solution](#66978876-9378-4059-8783-868d041e8e2e) now.
+				- **Hard-link** does keep index, but are [broken by git](../../share/technical/publish/CommonMark/Git.cm.md#666ba5a7-598a-4b66-86bd-b1622a28ada6)! This is the [better-than-nothing solution](#66978876-9378-4059-8783-868d041e8e2e) now.
 			- [!] Each #tag corresponds to a *page*, not a block! <a class="logseq-meta" data-collapsed="true" ></a>
 				- This is a problem to my projects, because my approach is pure block-based.
 				- Tags are great for keywords: its concise and human-readable, compared to the long and oblique UUID of block.
-				- I've collected all keywords into the [<span class="link-h1">Elements</span>](#66533703-505d-432d-8368-6058eefb45f6).
+				- I've collected all keywords into the [<span class="link-h1">Elements</span>](Namespace.cm.md#66533703-505d-432d-8368-6058eefb45f6).
 			- [[!] Breadcrumb bar does not contain the target/focused item!](#66625c65-5d2e-4f4b-9d87-4eadefca681a) <a class="logseq-meta" data-collapsed="true" ></a>
 				- [discussed on Loseq Community](https://discuss.logseq.com/t/breadcrumb-navigation-bar-should-contain-the-target-item/27511)
 			- [!] When a [Block id](#66610c13-5045-42a8-948f-6426d698fd2c) is referenced in another block, that enclosing block has a different block id which can be... <a class="logseq-meta" id="66680966-5c6a-4c14-82b5-bc1c3f65c525" data-collapsed="true" ></a>
@@ -2292,34 +2292,34 @@
 			- [!] Pasting (move or copy) blocks usually mess up the management of [Block id](#66610c13-5045-42a8-948f-6426d698fd2c), and even causes the [app hang](#67110769-1a89-4c51-98cf-884b9b1fa623). <a class="logseq-meta" id="66b1d45e-f8fa-427c-82aa-197689ee04c5" data-collapsed="true" data-logbook="CLOCK: [2024-08-06 Tue 14:56:50]--[2024-08-06 Tue 17:36:53] =&gt;  02:40:03&#10;" ></a>
 				- The mess seems to be caused by `((block ref))` in the pasted block.
 				- The pasted block and/or its enclosing blocks have the function `Copy block ref` ineffective.
-					- [⇒](#66602f68-e23f-4b24-921e-b1a9fc0cc731) A **re-index** is required to clean the mess up.
+					- [⇒](Namespace.cm.md#66602f68-e23f-4b24-921e-b1a9fc0cc731) A **re-index** is required to clean the mess up.
 					- Seems that after re-indexing, the copy paste does not cause problem anymore.
 				- The pasted block is not reflected well between views.
 					- => Closing & refreshing views usually solve the problem.
 				- {{embed [The clipboard content when copying in view mode](#67161e0f-4ded-4c41-a3e9-eab6dfec68ff)}}
 				- When pasted from a different graph, some page unrelated to the pasted block is messed up with the diff between the version on disk and the version in [`graphs/*.transit`](#66f7b4fd-e34e-4fc3-9c2d-d468206d279b).
 				- When a block was moved remotely and then synched (git-pulled) into this local graph, the old [Block id](#66610c13-5045-42a8-948f-6426d698fd2c) is still remembered in [`graphs/*.transit`](#66f7b4fd-e34e-4fc3-9c2d-d468206d279b) and mess the whole refs up.
-					- [⇒](#66602f68-e23f-4b24-921e-b1a9fc0cc731) Close LogSeq; move the corresponding `.transit` file in [`graphs/*.transit`](#66f7b4fd-e34e-4fc3-9c2d-d468206d279b) to a backup folder; then open LogSeq and add this graph again to force LogSeq to read all ids from disk.
+					- [⇒](Namespace.cm.md#66602f68-e23f-4b24-921e-b1a9fc0cc731) Close LogSeq; move the corresponding `.transit` file in [`graphs/*.transit`](#66f7b4fd-e34e-4fc3-9c2d-d468206d279b) to a backup folder; then open LogSeq and add this graph again to force LogSeq to read all ids from disk.
 				- In some cases, the app hangs right after copy/cut. <a class="logseq-meta" id="67110769-1a89-4c51-98cf-884b9b1fa623" data-collapsed="true" ></a>
 					- Neither help: not re-indexing nor updating [`graphs/*.transit`](#66f7b4fd-e34e-4fc3-9c2d-d468206d279b).
-					- E.g., copying [this block of cointerface](#6711045f-1050-42a8-94f2-c913088ce9cd) makes Logseq hang.
+					- E.g., copying [this block of cointerface](Uniinfo.cm.md#6711045f-1050-42a8-94f2-c913088ce9cd) makes Logseq hang.
 					- E.g., copying this block makes Logseq hang, due to a block ref.
-						- [The root "co-" for complementarity (versus ["syn-" for unification](((670f4de4-d9da-4bf3-9cb3-1e5c03457c81))))](#670f4f06-b543-47d7-ab5d-846dcdd2281e)
-					- E.g., copying this block makes Logseq hang, due to [this block ref to etymology of the root "co-"](#670f4f06-b543-47d7-ab5d-846dcdd2281e).
+						- [The root "co-" for complementarity (versus ["syn-" for unification](((670f4de4-d9da-4bf3-9cb3-1e5c03457c81))))](../../history/publish/CommonMark/2024 Stories.cm.md#670f4f06-b543-47d7-ab5d-846dcdd2281e)
+					- E.g., copying this block makes Logseq hang, due to [this block ref to etymology of the root "co-"](../../history/publish/CommonMark/2024 Stories.cm.md#670f4f06-b543-47d7-ab5d-846dcdd2281e).
 						- [?] What's wrong with that block?!
 					- Le'ts try each sub-block of that damned block: <a class="logseq-meta" data-collapsed="true" ></a>
-						- HANG!!! [The root "co-" for complementarity (versus ["syn-" for unification](((670f4de4-d9da-4bf3-9cb3-1e5c03457c81))))](#670f4f06-b543-47d7-ab5d-846dcdd2281e)
-						- OK: [Proto-Indo-European "[*ḱóm](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1%C3%B3m)" -> Proto-Italic "[*kom](https://en.wiktionary.org/wiki/Reconstruction:Proto-Italic/kom)" -> Latin preposition "[cum](https://en.wiktionary.org/wiki/cum#Latin)" -> Latin root "[con-](https://en.wiktionary.org/wiki/con-#Latin)" -> English root "[co-](https://en.wiktionary.org/wiki/co-#English)"](#67110460-88c4-480d-9ac7-a9af44271e3b)
-						- OK: ["[colatitude](https://en.wikipedia.org/wiki/Colatitude)" is the complement of a latitude, in spherical coordinates, i.e. the difference between a latitude and 90°.](#67110460-c09b-4d62-a9dd-71e8388dc904)
-						- OK: ["[codomain](https://en.wikipedia.org/wiki/Codomain)" is the domain $Y$ of the destitation $y$ which is dual to the domain $X$ of the source $x$ in mapping $f: X -> Y$.](#670f5fa5-4e2b-4239-aeea-c1267f124d20)
-						- OK: ["[coarea](https://en.wikipedia.org/wiki/Smooth_coarea_formula)" is the integral over a codomain which is dual to the integral over domain.](#67110460-5e1c-4dd0-8ff1-de1f539bcbbe)
-						- OK: ["[cocategory](https://ncatlab.org/nlab/show/cocategory)" is the [dual](https://en.wikipedia.org/wiki/Dual_(category_theory)) of a category via the [opposite category](https://ncatlab.org/nlab/show/opposite+category) where all arrows have direction reversed.](#670f5dfd-ff92-4122-a1d8-8dfaed3bd122)
-						- OK: [cocategory is to category as [colimits is to limits](https://en.wikipedia.org/wiki/Limit_(category_theory))](#67110460-0b9a-4d1d-b38d-6280a32b5c4f)
-						- OK: [used in ((670f2f5f-ec97-4287-a711-1988ca03a262)), and "cointerface".](#67110460-2f01-4365-a5f4-8053b08136e9)
+						- HANG!!! [The root "co-" for complementarity (versus ["syn-" for unification](((670f4de4-d9da-4bf3-9cb3-1e5c03457c81))))](../../history/publish/CommonMark/2024 Stories.cm.md#670f4f06-b543-47d7-ab5d-846dcdd2281e)
+						- OK: [Proto-Indo-European "[*ḱóm](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1%C3%B3m)" -> Proto-Italic "[*kom](https://en.wiktionary.org/wiki/Reconstruction:Proto-Italic/kom)" -> Latin preposition "[cum](https://en.wiktionary.org/wiki/cum#Latin)" -> Latin root "[con-](https://en.wiktionary.org/wiki/con-#Latin)" -> English root "[co-](https://en.wiktionary.org/wiki/co-#English)"](../../history/publish/CommonMark/2024 Stories.cm.md#67110460-88c4-480d-9ac7-a9af44271e3b)
+						- OK: ["[colatitude](https://en.wikipedia.org/wiki/Colatitude)" is the complement of a latitude, in spherical coordinates, i.e. the difference between a latitude and 90°.](../../history/publish/CommonMark/2024 Stories.cm.md#67110460-c09b-4d62-a9dd-71e8388dc904)
+						- OK: ["[codomain](https://en.wikipedia.org/wiki/Codomain)" is the domain $Y$ of the destitation $y$ which is dual to the domain $X$ of the source $x$ in mapping $f: X -> Y$.](../../history/publish/CommonMark/2024 Stories.cm.md#670f5fa5-4e2b-4239-aeea-c1267f124d20)
+						- OK: ["[coarea](https://en.wikipedia.org/wiki/Smooth_coarea_formula)" is the integral over a codomain which is dual to the integral over domain.](../../history/publish/CommonMark/2024 Stories.cm.md#67110460-5e1c-4dd0-8ff1-de1f539bcbbe)
+						- OK: ["[cocategory](https://ncatlab.org/nlab/show/cocategory)" is the [dual](https://en.wikipedia.org/wiki/Dual_(category_theory)) of a category via the [opposite category](https://ncatlab.org/nlab/show/opposite+category) where all arrows have direction reversed.](../../history/publish/CommonMark/2024 Stories.cm.md#670f5dfd-ff92-4122-a1d8-8dfaed3bd122)
+						- OK: [cocategory is to category as [colimits is to limits](https://en.wikipedia.org/wiki/Limit_(category_theory))](../../history/publish/CommonMark/2024 Stories.cm.md#67110460-0b9a-4d1d-b38d-6280a32b5c4f)
+						- OK: [used in ((670f2f5f-ec97-4287-a711-1988ca03a262)), and "cointerface".](../../history/publish/CommonMark/2024 Stories.cm.md#67110460-2f01-4365-a5f4-8053b08136e9)
 						- OK: Both
-							- OK: [Proto-Indo-European "[*ḱóm](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1%C3%B3m)" -> Proto-Italic "[*kom](https://en.wiktionary.org/wiki/Reconstruction:Proto-Italic/kom)" -> Latin preposition "[cum](https://en.wiktionary.org/wiki/cum#Latin)" -> Latin root "[con-](https://en.wiktionary.org/wiki/con-#Latin)" -> English root "[co-](https://en.wiktionary.org/wiki/co-#English)"](#67110460-88c4-480d-9ac7-a9af44271e3b)
-							- OK: [used in ((670f2f5f-ec97-4287-a711-1988ca03a262)), and "cointerface".](#67110460-2f01-4365-a5f4-8053b08136e9)
-					- The same issue when copying the [damned block](#670f4f06-b543-47d7-ab5d-846dcdd2281e) itself. And no issue copying any of its sub-blocks.
+							- OK: [Proto-Indo-European "[*ḱóm](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1%C3%B3m)" -> Proto-Italic "[*kom](https://en.wiktionary.org/wiki/Reconstruction:Proto-Italic/kom)" -> Latin preposition "[cum](https://en.wiktionary.org/wiki/cum#Latin)" -> Latin root "[con-](https://en.wiktionary.org/wiki/con-#Latin)" -> English root "[co-](https://en.wiktionary.org/wiki/co-#English)"](../../history/publish/CommonMark/2024 Stories.cm.md#67110460-88c4-480d-9ac7-a9af44271e3b)
+							- OK: [used in ((670f2f5f-ec97-4287-a711-1988ca03a262)), and "cointerface".](../../history/publish/CommonMark/2024 Stories.cm.md#67110460-2f01-4365-a5f4-8053b08136e9)
+					- The same issue when copying the [damned block](../../history/publish/CommonMark/2024 Stories.cm.md#670f4f06-b543-47d7-ab5d-846dcdd2281e) itself. And no issue copying any of its sub-blocks.
 			- [!] Logseq indexes all folders including `assets/` which may contains a lot of files not meant to be indexed and duplicated markdown files. <a class="logseq-meta" data-collapsed="true" ></a>
 				- This can be overcome with config [`:hidden`](#66cdac39-bcf0-4859-b82f-8bd7a7f8e590). But due to the [currently unsolved issue](https://github.com/logseq/logseq/issues/8822), it's useless!
 				- Community discussions:
@@ -2369,7 +2369,7 @@
 						- But [Block ref](#667d2689-4ce0-4c79-b82a-25b0bba87d39) can be suffixed with no problems, e.g. [Block ref](#667d2689-4ce0-4c79-b82a-25b0bba87d39)erence.
 					- in the label of [<span class="link-h2">Markdown</span>](#66535e71-3b71-416c-98dc-5dde5e6a76ff) link: <a class="logseq-meta" data-collapsed="true" ></a>
 						- Should be `link to Block ref`: [link to [Block ref](#667d2689-4ce0-4c79-b82a-25b0bba87d39)](#667d2689-4ce0-4c79-b82a-25b0bba87d39)
-						- [Cause:](#66ae15d2-e2dd-443d-a666-c3b244fb6603) This may stem from the [limitation of HTML anchor](#66ae293c-b2ea-44cb-9e39-268c5a45c364).
+						- [Cause:](Namespace.cm.md#66ae15d2-e2dd-443d-a666-c3b244fb6603) This may stem from the [limitation of HTML anchor](#66ae293c-b2ea-44cb-9e39-268c5a45c364).
 					- inside font formatted span: <a class="logseq-meta" data-collapsed="true" ></a>
 						- Should be `bold Block ref ...`: **bold [Block ref](#667d2689-4ce0-4c79-b82a-25b0bba87d39) ...**
 						- Should be `bold Block ref ...`: <b>bold [Block ref](#667d2689-4ce0-4c79-b82a-25b0bba87d39) ...</b>
@@ -2379,7 +2379,7 @@
 						- Should be `strikethrough Block ref ...`: ~~strikethrough [Block ref](#667d2689-4ce0-4c79-b82a-25b0bba87d39) ...~~
 						- Should be `strikethrough Block ref ...`: <s>strikethrough [Block ref](#667d2689-4ce0-4c79-b82a-25b0bba87d39) ...</s>
 						- Should be `underlined Block ref ...`: <u>underlined [Block ref](#667d2689-4ce0-4c79-b82a-25b0bba87d39) ...</u>
-						- [Cause:](#66ae15d2-e2dd-443d-a666-c3b244fb6603) maybe because its not rendered correctly [when enclosed by any HTML tags](#66b0aa93-0ae4-416b-9103-16b9b6704ad4)
+						- [Cause:](Namespace.cm.md#66ae15d2-e2dd-443d-a666-c3b244fb6603) maybe because its not rendered correctly [when enclosed by any HTML tags](#66b0aa93-0ae4-416b-9103-16b9b6704ad4)
 					- when enclosed by any HTML tags <a class="logseq-meta" id="66b0aa93-0ae4-416b-9103-16b9b6704ad4" data-collapsed="true" ></a>
 						- Should be `span Block ref ...`: <span>span [Block ref](#667d2689-4ce0-4c79-b82a-25b0bba87d39) ...</span>
 						- Should be `del Block ref ...`: <del>del [Block ref](#667d2689-4ce0-4c79-b82a-25b0bba87d39) ...</del>
@@ -2391,12 +2391,12 @@
 				- [Discussion to standardize page and block terms](https://discuss.logseq.com/t/discussion-to-standardize-page-and-block-terms/343)
 			- Block handling <a class="logseq-meta" id="6716110e-a71e-4a39-8770-18286c41d0fa" ></a>
 				- **Safety** procedure for block **moving**: <a class="logseq-meta" id="6716169c-ee4d-4124-84a2-d86c9c1d702e" ></a>
-					- ➡️ We must always checkpoint with [Git](Mind Jungle.cm.md#666ba1e2-19d1-409e-b30e-42a99b7e4ec0) before moving blocks! <a class="logseq-meta" id="6716110e-17b6-42db-b5bb-b5c3055873cb" ></a>
+					- ➡️ We must always checkpoint with [Git](../../share/technical/publish/CommonMark/Git.cm.md#666ba1e2-19d1-409e-b30e-42a99b7e4ec0) before moving blocks! <a class="logseq-meta" id="6716110e-17b6-42db-b5bb-b5c3055873cb" ></a>
 					- ➡️ Using the standard [[Graph Validator](https://github.com/logseq/graph-validator): a [GitHub action](https://github.com/features/actions) to run [validations](https://github.com/logseq/graph-validator#validations) on each push](#66acc7cb-c144-4f1f-aaf7-344a0cf40b58),  <a class="logseq-meta" id="94649b98-9711-4adf-ae25-aaf32b521c14" data-collapsed="true" data-logbook="CLOCK: [2024-08-02 Fri 18:47:42]--[2024-08-06 Tue 14:43:23] =&gt;  91:55:41&#10;" ></a>
 					  <br>we should try pushing to GitHub a `[tmp]` commit after each move to make sure that the move does not break anything.
-						- [Commentaries:](#665359ff-79f1-4669-b10b-f2b0e633a7c1)
+						- [Commentaries:](Namespace.cm.md#665359ff-79f1-4669-b10b-f2b0e633a7c1)
 							- [Retrieving all invalid references](https://discuss.logseq.com/t/retrieving-all-invalid-references/8924) <a class="logseq-meta" id="66b1cfa4-9b10-4032-a4df-8a4a05fdf46e" ></a>
-						- Verification [History:](#6667abd2-14eb-4145-b9e3-e6f3037b3117) <a class="logseq-meta" id="6735b187-fc89-4d35-b844-ad0db10d8d1d" ></a>
+						- Verification [History:](Namespace.cm.md#6667abd2-14eb-4145-b9e3-e6f3037b3117) <a class="logseq-meta" id="6735b187-fc89-4d35-b844-ad0db10d8d1d" ></a>
 							- DONE [!] 2 failures in `block-refs-link-to-blocks-that-exist` <a class="logseq-meta" id="6735b187-e6d2-49a3-ab2c-5dab86b819dc" data-logbook="CLOCK: [2024-08-02 Fri 19:00:30]--[2024-08-03 Sat 17:46:43] =&gt;  22:46:13&#10;" ></a>
 								- Log
 									- ```edn
@@ -2410,7 +2410,7 @@
 									- [Should be `(Block ref...)`](#6683ea7c-a48c-4998-8f2b-40d4d9bc16a9) < [Not renderred correctly:](#6683ea7c-c94f-4970-bcd1-d3b468c32ab7) < [[!] ((667d2689-4ce0-4c79-b82a-25b0bba87d39)) cannot be prefixed.](#667d263b-658b-4560-b8cc-f6838534956d)
 								- => Temporarily insert space between open parenthesis and block refs.
 							- DONE [!] Info (warning) about re-assigning new id for block `Git` in parsing phase <a class="logseq-meta" data-logbook="CLOCK: [2024-08-03 Sat 18:00:08]--[2024-08-09 Fri 18:37:03] =&gt;  144:36:55&#10;" ></a>
-								- [Cause:](#66ae15d2-e2dd-443d-a666-c3b244fb6603) `Mind Jungle` > `Git` has been move to [Git > Git](Mind Jungle.cm.md#666ba1e2-19d1-409e-b30e-42a99b7e4ec0) but the block `Git` is still kept in `Mind Jungle`  <a class="logseq-meta" id="66ae1489-c8cd-4341-9b2b-90047434943b" data-collapsed="true" ></a>
+								- [Cause:](Namespace.cm.md#66ae15d2-e2dd-443d-a666-c3b244fb6603) `Mind Jungle` > `Git` has been move to [Git > Git](../../share/technical/publish/CommonMark/Git.cm.md#666ba1e2-19d1-409e-b30e-42a99b7e4ec0) but the block `Git` is still kept in `Mind Jungle`  <a class="logseq-meta" id="66ae1489-c8cd-4341-9b2b-90047434943b" data-collapsed="true" ></a>
 								  <br>=> the two have the same uuid `666ba1e2-19d1-409e-b30e-42a99b7e4ec0`.
 									- `Mind Jungle` > `Git`
 									  ```
@@ -2433,10 +2433,10 @@
 									  ```
 									- This UUID of `Git > Git` is automatically changed by Logseq to avoid collision with UUID of `Mind Jungle > Git`.
 								- The old `666ba1e2-19d1-409e-b30e-42a99b7e4ec0` still remains in many refs
-									- => They are shown not as broken refs but `Block ref nesting is too deep`... due to the [self-reference](#667bfebf-a319-46be-a795-d7fc9c156363) left [at `Mind Jungle` > `Git`](#66ae1489-c8cd-4341-9b2b-90047434943b).
-								- [⇒](#66602f68-e23f-4b24-921e-b1a9fc0cc731) Delete the old `Mind Jungle` > `Git` and revert UUID of [Git > Git](Mind Jungle.cm.md#666ba1e2-19d1-409e-b30e-42a99b7e4ec0) to `666ba1e2-19d1-409e-b30e-42a99b7e4ec0`.
-							- DONE [!] Failure in `block-refs-link-to-blocks-that-exist` again: missing `671f467e-6f1f-4436-a0dd-9a03055e11a9` in Linux > [<span class="link-h3">concepts</span>](#6735b188-e391-498b-a01b-35797616f7b6) > [file mode bits](#671f467e-6f1f-4436-a0dd-9a03055e11a9) <a class="logseq-meta" id="6735b6bf-6141-48e3-9e12-2473a01dafb0" data-collapsed="true" data-logbook="CLOCK: [2024-11-14 Thu 15:40:05]--[2024-11-14 Thu 16:12:16] =&gt;  00:32:11&#10;" ></a>
-								- Referenced by Linux > commands > [`ls`](#6735b188-098a-41ac-89ed-8cfcc857d796) > `ll` = `ls -lhF` > [Default columns: ((671f467e-6f1f-4436-a0dd-9a03055e11a9)), ((671f4447-71f3-4ae1-b22c-acc16ac67f5b)), user, group, size, date, file name](#6735b188-a46c-4363-8ccc-03fbfcf2cbaa) <a class="logseq-meta" data-collapsed="true" ></a>
+									- => They are shown not as broken refs but `Block ref nesting is too deep`... due to the [self-reference](Uniinfo.cm.md#667bfebf-a319-46be-a795-d7fc9c156363) left [at `Mind Jungle` > `Git`](#66ae1489-c8cd-4341-9b2b-90047434943b).
+								- [⇒](Namespace.cm.md#66602f68-e23f-4b24-921e-b1a9fc0cc731) Delete the old `Mind Jungle` > `Git` and revert UUID of [Git > Git](../../share/technical/publish/CommonMark/Git.cm.md#666ba1e2-19d1-409e-b30e-42a99b7e4ec0) to `666ba1e2-19d1-409e-b30e-42a99b7e4ec0`.
+							- DONE [!] Failure in `block-refs-link-to-blocks-that-exist` again: missing `671f467e-6f1f-4436-a0dd-9a03055e11a9` in Linux > [<span class="link-h3">concepts</span>](../../share/technical/publish/CommonMark/Linux.cm.md#6735b188-e391-498b-a01b-35797616f7b6) > [file mode bits](../../share/technical/publish/CommonMark/Linux.cm.md#671f467e-6f1f-4436-a0dd-9a03055e11a9) <a class="logseq-meta" id="6735b6bf-6141-48e3-9e12-2473a01dafb0" data-collapsed="true" data-logbook="CLOCK: [2024-11-14 Thu 15:40:05]--[2024-11-14 Thu 16:12:16] =&gt;  00:32:11&#10;" ></a>
+								- Referenced by Linux > commands > [`ls`](../../share/technical/publish/CommonMark/Linux.cm.md#6735b188-098a-41ac-89ed-8cfcc857d796) > `ll` = `ls -lhF` > [Default columns: ((671f467e-6f1f-4436-a0dd-9a03055e11a9)), ((671f4447-71f3-4ae1-b22c-acc16ac67f5b)), user, group, size, date, file name](../../share/technical/publish/CommonMark/Linux.cm.md#6735b188-a46c-4363-8ccc-03fbfcf2cbaa) <a class="logseq-meta" data-collapsed="true" ></a>
 								- The id of `file mode bits` is still stored in Logseq graph, but not in `Mind Jungle.md`.
 									- A `Re-index` does **clear the id in the graph**, instead of updating id in the Markdown file!
 								- Reason: in 2024-10-28,
@@ -2467,8 +2467,8 @@
 											- > All configs are moved to the `((``66fe86b8-f17e-4b3f-b27f-213b3500146f``))`.
 									- Block id removed: `Local File: config.edn`
 										- > `((``66faa5f7-af4f-4ca6-9621-56ab8dadbe94``))` overrides config keys in this global file except for maps which are merged.
-							- DONE [!] Failure in `block-refs-link-to-blocks-that-exist` again after [move ((66fce880-77a2-41f7-8bdb-a86b7fc6fc77)) from [[Contents]] to ((66519638-cf5d-409b-9b98-15acabf2268c))](#67710af1-e3f0-4f94-917c-5235c210f082) <a class="logseq-meta" id="6772a6cd-319d-49d5-acec-ff6053a97a34" data-collapsed="true" data-logbook="CLOCK: [2024-12-29 Sun 19:28:58]--[2024-12-29 Sun 19:36:53] =&gt;  00:07:55&#10;" ></a>
-								- The [Name search](#66fce7e0-8040-4980-b2aa-807e4a0cde1f) has its block id ripped off from markdown 🙁, while still retained in graph DB!
+							- DONE [!] Failure in `block-refs-link-to-blocks-that-exist` again after [move ((66fce880-77a2-41f7-8bdb-a86b7fc6fc77)) from [[Contents]] to ((66519638-cf5d-409b-9b98-15acabf2268c))](../../history/publish/CommonMark/2024 Tasks.cm.md#67710af1-e3f0-4f94-917c-5235c210f082) <a class="logseq-meta" id="6772a6cd-319d-49d5-acec-ff6053a97a34" data-collapsed="true" data-logbook="CLOCK: [2024-12-29 Sun 19:28:58]--[2024-12-29 Sun 19:36:53] =&gt;  00:07:55&#10;" ></a>
+								- The [Name search](Workspace.cm.md#66fce7e0-8040-4980-b2aa-807e4a0cde1f) has its block id ripped off from markdown 🙁, while still retained in graph DB!
 								- This is the known issue: [[!] Sometimes the moved block still has **problem with block id**!](#6766ef9d-3add-4400-90b0-131f51d8c23a)
 							- DONE [!] Failure in `block-refs-link-to-blocks-that-exist` after sharing [[Database]] with other graphs. <a class="logseq-meta" data-collapsed="true" data-logbook="CLOCK: [2025-05-05 Mon 09:57:58]&#10;CLOCK: [2025-05-05 Mon 09:58:00]--[2025-05-05 Mon 10:10:46] =&gt;  00:12:46&#10;" ></a>
 								- Commit `96af6cac` added `id:: 68089c74-7fbd-471b-9283-febf6b48cd0d` to `Database` block to be reffed by the item `Database` in `Mind Jungle`.
@@ -2476,7 +2476,7 @@
 							- DONE [!] `Logseq will assign a new id for this block:...` due to block id dupes <a class="logseq-meta" data-collapsed="true" data-logbook="CLOCK: [2025-05-05 Mon 10:23:07]&#10;CLOCK: [2025-05-05 Mon 10:23:08]--[2025-05-05 Mon 10:27:08] =&gt;  00:04:00&#10;" ></a>
 								- id dupes in `Logseq publish` because `pages/publish/Logseq publish.norm.md` was a clone from `pages/publish/Logseq publish.md` without modification.
 								- So, just remove that `.norm` page.
-				- [Commentaries:](#665359ff-79f1-4669-b10b-f2b0e633a7c1) <a class="logseq-meta" data-collapsed="true" ></a>
+				- [Commentaries:](Namespace.cm.md#665359ff-79f1-4669-b10b-f2b0e633a7c1) <a class="logseq-meta" data-collapsed="true" ></a>
 					- All move operations should be [atomic](https://en.wikipedia.org/wiki/Atomicity_(database_systems)).
 					- However, only [Adjacent move with hotkey](#671609b3-b815-44b7-90ce-68b609cd2bec) and [Block moving via drag & drop](#6716110e-51bb-40b2-b98c-503061212007) are atomic, while [~~Block moving via cut & paste~~](#66ab12fd-cc14-4789-b70b-48b8b599f9eb) is non-atomic.
 					- So we can work around with [Block moving via copy & paste + manual edit in external editor](#671608ec-008a-4d9a-895e-f63b94f4a03b).
@@ -2548,9 +2548,9 @@
 											- `71233eec`: move the block with id from Workspace to Mind Jungle
 											- `f95e1668`: add the block with id to Workspace
 											  <br>2024/06/23
-									- `66949495-3846-4f89-9ea5-c62b624d282c`: `Linux` [[Linux](#66949495-3846-4f89-9ea5-c62b624d282c)] <a class="logseq-meta" data-collapsed="true" ></a>
+									- `66949495-3846-4f89-9ea5-c62b624d282c`: `Linux` [[Linux](../../share/technical/publish/CommonMark/Linux.cm.md#66949495-3846-4f89-9ea5-c62b624d282c)] <a class="logseq-meta" data-collapsed="true" ></a>
 									     <br>moved from [[Mind Jungle]] to [[Linux]]
-										- `a04b60d0`: add id to the old slot in Mind Jungle => [self-reference](#667bfebf-a319-46be-a795-d7fc9c156363)!
+										- `a04b60d0`: add id to the old slot in Mind Jungle => [self-reference](Uniinfo.cm.md#667bfebf-a319-46be-a795-d7fc9c156363)!
 										- `926acf05`: move `Linux` from [[Mind Jungle]] to [[Linux]]
 										- `70e37387`: add `Linux` to [[Mind Jungle]]
 									- They were fixed in [commit `6a6477ed`](https://github.com/bixycler/UniinfoNotes/commit/6a6477ed)
@@ -2564,13 +2564,13 @@
 								  ``` <a class="logseq-meta" id="67f4f19d-3bb0-41ad-8d94-ab93c3c543a9" data-collapsed="true" data-logbook="CLOCK: [2025-04-08 Tue 16:51:31]&#10;" ></a>
 									- The move was done from April 1st
 										- commit `e5396c10`: Created block at [[Task]] with `id::` `67d3a821-ed1c-48d5-a935-bfab8a57cd8e`
-										- commit `ad522fa5`: Moved it to [[Linux]] and link back to [[Task]] via block ref `[Warning: `zenity` accepts Spacebar & Enter as OK confirmation which can be accicentally hit when the window pops up!](#67d3a821-ed1c-48d5-a935-bfab8a57cd8e)`:
+										- commit `ad522fa5`: Moved it to [[Linux]] and link back to [[Task]] via block ref `[Warning: `zenity` accepts Spacebar & Enter as OK confirmation which can be accicentally hit when the window pops up!](../../share/technical/publish/CommonMark/Linux.cm.md#67d3a821-ed1c-48d5-a935-bfab8a57cd8e)`:
 										  ```
 										  Warning: `zenity` accepts Spacebar & Enter as OK confirmation which can be accicentally hit when the window pops up!
 										  ```
 									- But until today, 8th April, does the issue of ghost UUID appear... after a system `reboot` command!
 										- Something may be broken in this **sudden reboot**, e.g. NGINX service has been failed to start. <a class="logseq-meta" id="67f50958-c8c9-4c11-943d-5efca5b7f12f" ></a>
-											- I've tested and confirmed that `restart` (`gnome-session-quit --reboot`) has the same effect as `reboot` (`/usr/sbin/reboot --no-wall`), even if [Note: ((67f4ffeb-5e02-4fd5-bd33-19abc23f60aa)) could be safer than ((67f500dd-ff43-46ec-b9e0-9dcc097b2bc3)).](#67f4f5e3-e739-41cd-8b95-14c7bbe9eebe)
+											- I've tested and confirmed that `restart` (`gnome-session-quit --reboot`) has the same effect as `reboot` (`/usr/sbin/reboot --no-wall`), even if [Note: ((67f4ffeb-5e02-4fd5-bd33-19abc23f60aa)) could be safer than ((67f500dd-ff43-46ec-b9e0-9dcc097b2bc3)).](../../share/technical/publish/CommonMark/Linux.cm.md#67f4f5e3-e739-41cd-8b95-14c7bbe9eebe)
 										- [?] Why the first 2 times of removing graph DB and reload app didn't take effect?
 											- Maybe some caches were still remaining in the [Flatpack sandbox](#67f4eaf0-bc2c-470d-9590-be149267e750)!?
 							- DONE [!] **Block id jumps** following the relative position of blocks. <a class="logseq-meta" id="6835b164-a48e-4b8e-86c6-8b543c53766a" data-collapsed="true" data-logbook="CLOCK: [2025-05-05 Mon 10:42:02]&#10;CLOCK: [2025-05-05 Mon 10:42:04]--[2025-05-05 Mon 10:49:04] =&gt;  00:07:00&#10;" ></a>
@@ -2607,7 +2607,7 @@
 						- When pasted, Logseq restores the replaced refs of this block.
 						- Sometimes, Logseq fails to restore refs, usually due to the pasted block being associated with new id.
 						- Sometimes, Logseq even hangs when at the cutting step.
-						- This operation absolutely fails moving blocks with [self-reference](#667bfebf-a319-46be-a795-d7fc9c156363) like [this](#67160ca7-8889-451a-b137-a1606c7a94d9).
+						- This operation absolutely fails moving blocks with [self-reference](Uniinfo.cm.md#667bfebf-a319-46be-a795-d7fc9c156363) like [this](#67160ca7-8889-451a-b137-a1606c7a94d9).
 					- {{embed [**Safety** procedure for block **moving**:](#6716169c-ee4d-4124-84a2-d86c9c1d702e)}}
 					- [[!] Pasting (move or copy) blocks usually mess up the management of ((66610c13-5045-42a8-948f-6426d698fd2c)), and even causes the [app hang](((67110769-1a89-4c51-98cf-884b9b1fa623))).](#66b1d45e-f8fa-427c-82aa-197689ee04c5)
 				- Block moving via copy & paste + manual edit in external editor <a class="logseq-meta" id="671608ec-008a-4d9a-895e-f63b94f4a03b" data-collapsed="true" ></a>
@@ -2698,7 +2698,7 @@
 						- Until now (Oct 2024, v.0.10.9), there are only 2 components, `:view` and `:result-transform` functions, are reusable, via `:query/views` and `:query/result-transforms` in `config.edn`. <a class="logseq-meta" data-logbook="CLOCK: [2024-10-01 Tue 14:25:10]&#10;" ></a>
 						- The whole query can be included in `{{macro}}`, provided double quotes are escaped, and *at least 1 line* (may be empty) before `#+BEGIN_QUERY`.
 							- The first line before query should be used as the query title instead of `:title`.
-							- [Macro `{{blocks-with-content}}`](#66fbb757-8038-4a79-87df-8d1575faaedb)
+							- [Macro `{{blocks-with-content}}`](../../history/publish/CommonMark/2024 Brainstorms.cm.md#66fbb757-8038-4a79-87df-8d1575faaedb)
 							- Refs: <a class="logseq-meta" data-collapsed="true" ></a>
 								- [define an advanced query in a macro](https://discuss.logseq.com/t/is-it-possible-with-macros-to-run-a-db-query-for-a-block-id-an-build-the-embed-block-id-inside-a-page/20952/16?u=willle)
 								- [A no-plugin Insert Template button](https://discuss.logseq.com/t/a-no-plugin-insert-template-button/24793)
@@ -2709,7 +2709,7 @@
 							- Add `:query-result` into `:inputs`...
 					- `{{function (fn :proptery)}}` for [summerizing query result table](https://mschmidtkorth.github.io/logseq-msk-docs/#/page/610fdfba-d6cf-4bb1-a88d-b3fe28e0a72d), e.g. `sum`, `average`, `min`.
 					- [Graphical explanation of pages, blocks and references](https://discuss.logseq.com/t/graphical-explanation-of-pages-blocks-and-references/15966)
-				- [Example queries](#66b1cfa3-9679-4482-a2a3-4d99486dbe04)
+				- [Example queries](../../history/publish/CommonMark/2024 Brainstorms.cm.md#66b1cfa3-9679-4482-a2a3-4d99486dbe04)
 			- [Graph Validator](https://github.com/logseq/graph-validator): a [GitHub action](https://github.com/features/actions) to run [validations](https://github.com/logseq/graph-validator#validations) on each push <a class="logseq-meta" id="66acc7cb-c144-4f1f-aaf7-344a0cf40b58" ></a>
 			- Web API <a class="logseq-meta" id="6673f8ff-995c-455f-ae09-49bcb5311e2e" data-collapsed="true" ></a>
 				- Local server: [localhost:12315](http://localhost:12315) <a class="logseq-meta" id="67b541cf-4716-408d-a89c-8d89ce7aa645" data-collapsed="true" ></a>
@@ -2745,13 +2745,13 @@
 							- ```sh
 							  $web> git checkout main assets/
 							  ``` <a class="logseq-meta" id="6718b9ba-b96e-44b7-9f13-9acf0e8762e1" ></a>
-							- [because](#666022fc-5a51-4e87-ba7c-6f67a0cf19de) [[!] The built-in publisher still cannot handle assets (embedded or linked) other than embedded image.](#666a6673-0383-471a-ac42-c77c03dd96d7)
+							- [because](Namespace.cm.md#666022fc-5a51-4e87-ba7c-6f67a0cf19de) [[!] The built-in publisher still cannot handle assets (embedded or linked) other than embedded image.](#666a6673-0383-471a-ac42-c77c03dd96d7)
 					- The folder `$web/` can be launched by [<span class="link-h3">Web Servers</span>](#6714f01d-3dd8-461c-9619-c5bac33451b0).
 					- When `gh-pages` branch is pushed to GitHub, [<span class="link-h3">GitHub Pages</span>](#671503e5-690e-4f1f-ad53-419fd57543fe) will deploy it to `https://$user.github.io/$repo/`.
 					- [!] The built-in publisher does not give option to set `theme-mode: light/dark` and `accent-color: blue` and it always use the default theme (`data-color=logseq`).
 					- So i customize `data-color=logseq` to match CreatZy theme. <a class="logseq-meta" id="66698fb6-d9ac-423f-845c-0f0f5c93abf2" ></a>
 					- [!] The built-in publisher still cannot handle assets (embedded or linked) other than embedded image. <a class="logseq-meta" id="666a6673-0383-471a-ac42-c77c03dd96d7" data-collapsed="true" ></a>
-						- [⇒](#66602f68-e23f-4b24-921e-b1a9fc0cc731) [Manually copy the whole `assets` folder from `$src/` to `$web/`](#6718b9ba-b96e-44b7-9f13-9acf0e8762e1)
+						- [⇒](Namespace.cm.md#66602f68-e23f-4b24-921e-b1a9fc0cc731) [Manually copy the whole `assets` folder from `$src/` to `$web/`](#6718b9ba-b96e-44b7-9f13-9acf0e8762e1)
 				- CANCELLED Use [publish-SPA](https://github.com/logseq/publish-spa) GitHub Action to publish to [GitHub Pages](https://bixycler.github.io/UniinfoNotes/). <a class="logseq-meta" data-collapsed="true" data-logbook="CLOCK: [2024-06-11 Tue 10:37:00]&#10;" ></a>
 					- [!] The published SPA has some style mismatch with the desktop app.
 					- [!] The published SPA still cannot handle assets (embedded or linked) other than embedded image.
@@ -2768,7 +2768,7 @@
 							  ```
 				- CANCELLED Publish linear (long-form) docs with [[Hugo publish (logseq-schrodinger)](https://github.com/sawhney17/logseq-schrodinger) for publishing to [Hugo](https://gohugo.io/).](#66695307-1334-426c-b953-3e006bc87d74) <a class="logseq-meta" id="66695280-1674-477a-b4ff-eb508aa679e0" ></a>
 				- Because the exported SPA is too large (~90MB including Electron), it's better to write a [WAIT Custom ((66600918-8c61-42af-b8a2-04bf05e9f782)) via ((6673f8ff-995c-455f-ae09-49bcb5311e2e))](#6673f8bf-04c0-4f8f-bc36-982ce9cab87d).
-				- Manually publish with [Block copy](#67161c46-5a7d-495a-9e04-95db62b6c676) and [<span class="link-h1">JavaScript</span>](#6708aad1-5efb-4b3f-ad99-e3ae2e73fcb4) or [<span class="link-h4">vim</span>](#6716110f-c747-4dbe-9af4-5ebee764c436) commands: <a class="logseq-meta" id="671f7f9d-58c0-48ce-aeb6-d3d0663ea7bf" data-collapsed="true" ></a>
+				- Manually publish with [Block copy](#67161c46-5a7d-495a-9e04-95db62b6c676) and [<span class="link-h1">JavaScript</span>](../../share/technical/publish/CommonMark/JavaScript.cm.md#6708aad1-5efb-4b3f-ad99-e3ae2e73fcb4) or [<span class="link-h4">vim</span>](../../share/technical/publish/CommonMark/Linux.cm.md#6716110f-c747-4dbe-9af4-5ebee764c436) commands: <a class="logseq-meta" id="671f7f9d-58c0-48ce-aeb6-d3d0663ea7bf" data-collapsed="true" ></a>
 				  <br>draft note → published note → published Markdown → HTML → PDF
 					- First, copy the block to be published to a page in `pages/publish/`, e.g. [[Logseq publish]].
 						- Copy to external text editor to get text of block refs.
@@ -2801,7 +2801,7 @@
 									- soliton list: only one item with no sub-list
 									- ~~Trick: Add  another line containing `&nbsp` after the blank line.~~ <a class="logseq-meta" data-collapsed="true" ></a>
 										- This line has no effect with normal text, but adds new code block after code block!
-									- [⇒](#66602f68-e23f-4b24-921e-b1a9fc0cc731) Hack: set all `markdown-it`'s tokens with `"hidden": false`. <a class="logseq-meta" data-collapsed="true" ></a>
+									- [⇒](Namespace.cm.md#66602f68-e23f-4b24-921e-b1a9fc0cc731) Hack: set all `markdown-it`'s tokens with `"hidden": false`. <a class="logseq-meta" data-collapsed="true" ></a>
 										- break down `mdi.render()` into:
 										  <br>Markdown →`mdi.parse()`→ token stream →`mdi.renderer.render()`→ HTML
 										  <br>with `mdi = window.markdownit() || new MarkdownIt()`
@@ -2888,7 +2888,7 @@
 								- replace the double space `  ` with `\t`.
 							- warn for external links to relative paths: non-HTTP <a class="logseq-meta" data-logbook="CLOCK: [2024-11-08 Fri 18:55:58]--[2024-11-08 Fri 19:23:58] =&gt;  00:28:00&#10;" ></a>
 							- replace straight quotes `"..."` with curly quotes `“...”` (and `'...'` with `‘...’`) <a class="logseq-meta" id="6716110a-2f39-40a0-a601-adfe023e3392" data-collapsed="true" data-logbook="CLOCK: [2024-11-08 Fri 18:52:30]&#10;" ></a>
-								- [⇐](#66602f61-b849-41a9-bdb8-ec91b96adaec) [DONE ~~Auto-complete &~~ typing assistant for **quotation marks**, symbols...](#6716110a-1a05-4c87-93b3-fa9f0db22ba9)
+								- [⇐](Namespace.cm.md#66602f61-b849-41a9-bdb8-ec91b96adaec) [DONE ~~Auto-complete &~~ typing assistant for **quotation marks**, symbols...](../../history/publish/CommonMark/2024 Tasks.cm.md#6716110a-1a05-4c87-93b3-fa9f0db22ba9)
 								- This has been done by Markdown-It's `typographer: true` in [smartquotes.mjs](https://github.com/markdown-it/markdown-it/blob/master/lib/rules_core/smartquotes.mjs).
 								- We implement our own function `replaceQuotes(ln)` to handle our markdown source in Logseq.
 								- Multi-line quotes are not supported.
@@ -3293,8 +3293,8 @@
 						  ```vim
 						  %s/"\(\S\)/“\1/g|%s/\(\S\)"/\1”/g
 						  ```
-			- Built-in [Git](Mind Jungle.cm.md#666ba1e2-19d1-409e-b30e-42a99b7e4ec0) <a class="logseq-meta" id="66faa5f9-8ffd-4542-b916-6e3528cabad8" data-collapsed="true" ></a>
-				- [Git](Mind Jungle.cm.md#666ba1e2-19d1-409e-b30e-42a99b7e4ec0) is built in and provided via [`Settings` > `Version control`](#66fa4733-114e-4923-80a5-7ac2f5f63ae1) as well as via [((6673f8ff-995c-455f-ae09-49bcb5311e2e))'s `logseq.Git`](#66fa5c73-1f11-4e73-9f04-3a678bfb9912).
+			- Built-in [Git](../../share/technical/publish/CommonMark/Git.cm.md#666ba1e2-19d1-409e-b30e-42a99b7e4ec0) <a class="logseq-meta" id="66faa5f9-8ffd-4542-b916-6e3528cabad8" data-collapsed="true" ></a>
+				- [Git](../../share/technical/publish/CommonMark/Git.cm.md#666ba1e2-19d1-409e-b30e-42a99b7e4ec0) is built in and provided via [`Settings` > `Version control`](#66fa4733-114e-4923-80a5-7ac2f5f63ae1) as well as via [((6673f8ff-995c-455f-ae09-49bcb5311e2e))'s `logseq.Git`](#66fa5c73-1f11-4e73-9f04-3a678bfb9912).
 				- `Settings` > `Version control` <a class="logseq-meta" id="66fa4733-114e-4923-80a5-7ac2f5f63ae1" ></a>
 					- `Enable Git auto commit` is useful for **periodic backup**.
 						- Later on, the backup commits, titled `Auto saved by Logseq`, can be squashed down to a manual commit with a meaningful message.
@@ -3311,8 +3311,8 @@
 						  fatal: cannot exec 'ssh': Permission denied
 						  fatal: unable to fork
 						  ``` <a class="logseq-meta" id="66fa5cb5-0f9d-4f70-8eeb-b6c3195c57ea" data-collapsed="true" ></a>
-						- [because of](#66600918-3d55-4bad-bd42-4e94708efc5e) the [Snap Sandbox](#66fa8a1d-4fc0-4cb9-ad57-911cba799a04)
-						- [So,](#665dc545-151a-485a-84b7-1310fef5151c) [For SSH access, we must explicitly allow via `ssh-keys: allows reading ssh user configuration and keys` < `Permissions` < `${app}` < `Snap Store` (`Ubuntu Software`).](#66fb69ac-95d3-4ba0-b5ec-b1eb04898db5)
+						- [because of](Namespace.cm.md#66600918-3d55-4bad-bd42-4e94708efc5e) the [Snap Sandbox](../../share/technical/publish/CommonMark/Linux.cm.md#66fa8a1d-4fc0-4cb9-ad57-911cba799a04)
+						- [So,](Namespace.cm.md#665dc545-151a-485a-84b7-1310fef5151c) [For SSH access, we must explicitly allow via `ssh-keys: allows reading ssh user configuration and keys` < `Permissions` < `${app}` < `Snap Store` (`Ubuntu Software`).](../../share/technical/publish/CommonMark/Linux.cm.md#66fb69ac-95d3-4ba0-b5ec-b1eb04898db5)
 					- [!][solved] Linux Snap version cannot bind to SSH socket.
 						- ```js
 						  await logseq.sdk.git.exec_command(['pull'])
@@ -3321,8 +3321,8 @@
 						  unix_listener: cannot bind to path /home/dinhlx/.ssh/sockets/git@github.com:22.ZV3PdySqHbTzMYHi: Permission denied
 						  fatal: Could not read from remote repository.
 						  ``` <a class="logseq-meta" id="66fb7680-7854-4be2-8d58-77e591d7533f" data-collapsed="true" data-logbook="CLOCK: [2024-10-01 Tue 11:07:49]--[2024-10-01 Tue 11:26:59] =&gt;  00:19:10&#10;" ></a>
-						- [because](#666022fc-5a51-4e87-ba7c-6f67a0cf19de) [All hidden files and folder (whose name is started with  dot `.*`) cannot be accessed by Snap app.](#66fb7680-5c9d-4c2f-8b53-e0645b62aa4e)
-						- [So,](#665dc545-151a-485a-84b7-1310fef5151c) the socket `ControlPath` must be taken out of `.ssh/` and placed in a non-hidden folder, e.g. `~/tmp/`.
+						- [because](Namespace.cm.md#666022fc-5a51-4e87-ba7c-6f67a0cf19de) [All hidden files and folder (whose name is started with  dot `.*`) cannot be accessed by Snap app.](../../share/technical/publish/CommonMark/Linux.cm.md#66fb7680-5c9d-4c2f-8b53-e0645b62aa4e)
+						- [So,](Namespace.cm.md#665dc545-151a-485a-84b7-1310fef5151c) the socket `ControlPath` must be taken out of `.ssh/` and placed in a non-hidden folder, e.g. `~/tmp/`.
 			- [Hiccup](https://github.com/weavejester/hiccup) syntax <a class="logseq-meta" id="66fbdf84-c5a4-4f96-aece-add980758db1" data-collapsed="true" ></a>
 				- Logseq renders [HTML from Hiccup](https://docs.logseq.com/#/page/hiccup).
 				- Input [Tabler icons](https://tabler.io/icons) with `[:i.ti.ti-icon_name]` <a class="logseq-meta" data-collapsed="true" ></a>
@@ -3436,7 +3436,7 @@
 					- However, YouTube video cannot be played in place due to the lack of user account in the isolated Electron profile.
 					  <br>> Sign in to confirm you're not a bot
 		- WAIT Custom [Logseq publish](#66600918-8c61-42af-b8a2-04bf05e9f782) via [Web API](#6673f8ff-995c-455f-ae09-49bcb5311e2e) <a class="logseq-meta" id="6673f8bf-04c0-4f8f-bc36-982ce9cab87d" data-collapsed="true" data-logbook="CLOCK: [2024-06-20 Thu 16:39:28]--[2024-06-23 Sun 16:26:56] =&gt;  71:47:28&#10;" ></a>
-			- [⇐](#66602f61-b849-41a9-bdb8-ec91b96adaec) [The exported SPA is loaded too slowly (dozens of seconds) from AirTrip Intl. lab server.](#6673fb2f-ef98-484a-b289-b50482edea47)
+			- [⇐](Namespace.cm.md#66602f61-b849-41a9-bdb8-ec91b96adaec) [The exported SPA is loaded too slowly (dozens of seconds) from AirTrip Intl. lab server.](#6673fb2f-ef98-484a-b289-b50482edea47)
 			- DONE Write [FoldableDemo.html](../assets/HTML/FoldableDemo.html)( ![src](../assets/HTML/FoldableDemo.html), showing `<details> <summary>` & CSS-only method) and [FolderDiv.html](../assets/HTML/FolderDiv.html)( ![src](../assets/HTML/FolderDiv.html), with custom element `<folder-div>`) <a class="logseq-meta" id="6677b47a-fcbb-47a0-bd60-cdf5ef1a17b8" data-collapsed="true" data-logbook="CLOCK: [2024-06-19 Wed 08:27:23]--[2024-06-20 Thu 16:31:09] =&gt;  32:03:46&#10;" ></a>
 				- default folder is a `list-item` folder with `sideControl` to (un)fold the `foldable` slot.
 				- For leaf items with no `foldable`, don't use `<folder-div>`, just use `<div slot="unfoldable-leaf">` with `<style id="folder-div-style">`
@@ -3466,8 +3466,8 @@
 					- so the folder is **not indented** and can be control with the heading.
 					- when `heading` slot is empty, headings in `unfoldable` slot are automatically detected and moved to `heading` slot.
 				- History <a class="logseq-meta" data-collapsed="true" ></a>
-					- For the new term [stem line](#66740af5-032a-4cb1-9c97-0e4d3933ab9b) used in the custom element `<folder-div>`, i [researched](#66602f68-e23f-4b24-921e-b1a9fc0cc731) [tree anatomy](#667407ee-35ae-4d6f-8b58-89c19c0e0936) [⇒](#66602f68-e23f-4b24-921e-b1a9fc0cc731) [[Components](((667530ed-809b-4d38-8522-1ae6c8449e28))) of a tree view from ((667407ee-35ae-4d6f-8b58-89c19c0e0936))](#6674066a-aeff-45af-96df-b0c2f278a2ae) [⇒](#66602f68-e23f-4b24-921e-b1a9fc0cc731) [treeview structure](#667530ed-809b-4d38-8522-1ae6c8449e28), and drew [3 styles of tree diagrams](#667500cd-a31d-4828-9dc4-93948e27e534). <a class="logseq-meta" id="684f9516-f31c-4469-aad8-cd13d9117dd3" ></a>
-					- This unplanned work is [triggered by](#66600918-9f27-44c2-8188-f043c244710c):
+					- For the new term [stem line](Uniinfo.cm.md#66740af5-032a-4cb1-9c97-0e4d3933ab9b) used in the custom element `<folder-div>`, i [researched](Namespace.cm.md#66602f68-e23f-4b24-921e-b1a9fc0cc731) [tree anatomy](Uniinfo.cm.md#667407ee-35ae-4d6f-8b58-89c19c0e0936) [⇒](Namespace.cm.md#66602f68-e23f-4b24-921e-b1a9fc0cc731) [[Components](((667530ed-809b-4d38-8522-1ae6c8449e28))) of a tree view from ((667407ee-35ae-4d6f-8b58-89c19c0e0936))](Uniinfo.cm.md#6674066a-aeff-45af-96df-b0c2f278a2ae) [⇒](Namespace.cm.md#66602f68-e23f-4b24-921e-b1a9fc0cc731) [treeview structure](Uniinfo.cm.md#667530ed-809b-4d38-8522-1ae6c8449e28), and drew [3 styles of tree diagrams](Uniinfo.cm.md#667500cd-a31d-4828-9dc4-93948e27e534). <a class="logseq-meta" id="684f9516-f31c-4469-aad8-cd13d9117dd3" ></a>
+					- This unplanned work is [triggered by](Namespace.cm.md#66600918-9f27-44c2-8188-f043c244710c):
 						- The exported SPA is loaded too slowly (dozens of seconds) from AirTrip Intl. lab server. <a class="logseq-meta" id="6673fb2f-ef98-484a-b289-b50482edea47" ></a>
 						- a doc: [Creating a collapsible markdown on one page](https://forum.squarespace.com/topic/64115-creating-a-collapsible-markdown-on-one-page/)
 				- References
@@ -3475,7 +3475,7 @@
 					- [Shadow DOM slots, composition](https://javascript.info/slots-composition)
 			- DONE Write [LogseqUtils.js](../assets/HTML/LogseqUtils.js)( ![src](../assets/HTML/LogseqUtils.js), for posting request to http://localhost:12315/api) <a class="logseq-meta" data-logbook="CLOCK: [2024-06-21 Fri 13:00:24]--[2024-06-21 Fri 20:56:40] =&gt;  07:56:16&#10;" ></a>
 			- DONE Write [LogseqGet.html](../assets/HTML/LogseqGet.html)( ![src](../assets/HTML/LogseqGet.html), for `logseq.Editor.get{Block,Page}`) <a class="logseq-meta" id="6675860a-c135-4a92-b4fe-206ebde974ff" data-collapsed="true" data-logbook="CLOCK: [2024-06-21 Fri 13:00:24]--[2024-06-21 Fri 20:56:40] =&gt;  07:56:16&#10;CLOCK: [2024-06-23 Sun 15:00:17]--[2024-06-23 Sun 15:51:18] =&gt;  00:51:01&#10;" ></a>
-				- [⇐](#66602f61-b849-41a9-bdb8-ec91b96adaec) I need to know what's in the hidden `:LOGBOOK:`. <a class="logseq-meta" id="6669a3bd-7059-4e5a-b21b-d96cb3288557" data-collapsed="true" ></a>
+				- [⇐](Namespace.cm.md#66602f61-b849-41a9-bdb8-ec91b96adaec) I need to know what's in the hidden `:LOGBOOK:`. <a class="logseq-meta" id="6669a3bd-7059-4e5a-b21b-d96cb3288557" data-collapsed="true" ></a>
 					- The [<span class="link-h2">Markdown</span>](#66535e71-3b71-416c-98dc-5dde5e6a76ff) files and exported JSONs are too large, while i need to view only a specific block. <a class="logseq-meta" id="6669a3bd-5b32-4088-982a-2c359b66610d" ></a>
 			- DONE Write [LogseqQuery.html](../assets/HTML/LogseqQuery.html)( ![src](../assets/HTML/LogseqQuery.html), for `logseq.DB.q`) <a class="logseq-meta" data-collapsed="true" data-logbook="CLOCK: [2024-08-02 Fri 15:00:26]--[2024-08-02 Fri 15:36:01] =&gt;  00:35:35&#10;" ></a>
 			- DONE `logseq.DB.onChanged` catches block creation and modification events <a class="logseq-meta" data-collapsed="true" ></a>
@@ -3535,8 +3535,8 @@
 				- `graphs/*.transit` <a class="logseq-meta" id="66f7b4fd-e34e-4fc3-9c2d-d468206d279b" ></a>
 				  <br>contains all graphs loaded by LogSeq. Each graph is managed by LogSeq internally, with a `.transit` file, to be a "mirror" of the corresponding `.md` files ... as much as possible.
 				- `git/` <a class="logseq-meta" id="6716110e-3c2b-45e8-99a0-d8263b6a42b2" ></a>
-				  <br>contains [`$GIT_DIR`](#67152861-f595-4ad1-88a9-9363082d03eb) of the graphs that are added from non-Git folders.
-					- A [`gitfile`](#67152b95-02b4-473b-a88b-6cbab4b46749) named `.git` will be added to the folder of that graph instead of the normal `.git/` folder.
+				  <br>contains [`$GIT_DIR`](../../share/technical/publish/CommonMark/Git.cm.md#67152861-f595-4ad1-88a9-9363082d03eb) of the graphs that are added from non-Git folders.
+					- A [`gitfile`](../../share/technical/publish/CommonMark/Git.cm.md#67152b95-02b4-473b-a88b-6cbab4b46749) named `.git` will be added to the folder of that graph instead of the normal `.git/` folder.
 			- `Logseq/` (Electron) app folder <a class="logseq-meta" id="6710c36b-6b29-42c5-b0e4-fc79e5e449a2" ></a>
 				- `configs.edn` <a class="logseq-meta" id="6710c556-1259-4fd5-a9d0-02216274a852" ></a>
 				  <br>contains some app-related configs (`:userAppCfgs`, `:electron/user-cfgs`)
@@ -3592,13 +3592,13 @@
 					- All metadata are cleared.
 					- Block quotes and code blocks are *not fenced*! 🙁
 						- Some blocks are even empty!
-		- [Plugin:](#66535a44-8a13-4d5a-808e-10baa97ebaf0) <a class="logseq-meta" id="66faa5f9-9402-4889-8881-dbdc8f179a30" data-collapsed="true" ></a>
-			- [Git (`logseq-git`)](https://github.com/haydenull/logseq-plugin-git) provides easy access to common [Git](Mind Jungle.cm.md#666ba1e2-19d1-409e-b30e-42a99b7e4ec0) commands, and helps you keep your notes synchronized with a remote git repository for easy backup. <a class="logseq-meta" id="66f68ec1-9b7d-402f-b77f-fcd1fc36e500" data-collapsed="true" data-logbook="CLOCK: [2024-09-27 Fri 17:53:55]&#10;CLOCK: [2024-09-27 Fri 17:53:58]--[2024-10-01 Tue 10:26:25] =&gt;  88:32:27&#10;CLOCK: [2024-10-01 Tue 10:26:26]--[2024-10-01 Tue 10:26:29] =&gt;  00:00:03&#10;" ></a>
+		- [Plugin:](Namespace.cm.md#66535a44-8a13-4d5a-808e-10baa97ebaf0) <a class="logseq-meta" id="66faa5f9-9402-4889-8881-dbdc8f179a30" data-collapsed="true" ></a>
+			- [Git (`logseq-git`)](https://github.com/haydenull/logseq-plugin-git) provides easy access to common [Git](../../share/technical/publish/CommonMark/Git.cm.md#666ba1e2-19d1-409e-b30e-42a99b7e4ec0) commands, and helps you keep your notes synchronized with a remote git repository for easy backup. <a class="logseq-meta" id="66f68ec1-9b7d-402f-b77f-fcd1fc36e500" data-collapsed="true" data-logbook="CLOCK: [2024-09-27 Fri 17:53:55]&#10;CLOCK: [2024-09-27 Fri 17:53:58]--[2024-10-01 Tue 10:26:25] =&gt;  88:32:27&#10;CLOCK: [2024-10-01 Tue 10:26:26]--[2024-10-01 Tue 10:26:29] =&gt;  00:00:03&#10;" ></a>
 				- The operation "commit & push" can be done with hotkey `Ctrl` `S`, or automatically when Logseq app is minimized.
 				- The operation "commit" (without "push") can be done with hotkey `Alt` `Shift` `S`.
 				- src: [main.tsx](https://github.com/haydenull/logseq-plugin-git/blob/main/src/main.tsx), [helper/git.ts](https://github.com/haydenull/logseq-plugin-git/blob/main/src/helper/git.ts)
 				- [!][solved] Linux Snap version: [Plugin does not use local .gitconfig files](https://github.com/haydenull/logseq-plugin-git/issues/44) <a class="logseq-meta" id="66fa09f1-64e7-43bc-9b83-f5b5c5a2aaf7" data-collapsed="true" ></a>
-					- [⇒](#66602f68-e23f-4b24-921e-b1a9fc0cc731) Copy or soft link `.gitconfig`
+					- [⇒](Namespace.cm.md#66602f68-e23f-4b24-921e-b1a9fc0cc731) Copy or soft link `.gitconfig`
 					  ```sh
 					   ln -s ~/.gitconfig ~/snap/logseq/current/
 					  ```
@@ -3606,14 +3606,14 @@
 				- [[!][solved] Linux Snap version denies SSH access.](#66fa5cb5-0f9d-4f70-8eeb-b6c3195c57ea)
 				- [[!][solved] Linux Snap version cannot bind to SSH socket.](#66fb7680-7854-4be2-8d58-77e591d7533f)
 			- [Tabs (`logseq-tabs`)](https://github.com/pengx17/logseq-plugin-tabs) provides tabs for browsing and concurrent editing with the very useful feature **pinned tabs**. <a class="logseq-meta" data-collapsed="true" ></a>
-				- We can pin "root nodes" like [<span class="link-h1">Workspace</span>](#66519638-cf5d-409b-9b98-15acabf2268c) so that all other nodes will be opened in new tabs instead of overriding the content in that tab.
+				- We can pin "root nodes" like [<span class="link-h1">Workspace</span>](Workspace.cm.md#66519638-cf5d-409b-9b98-15acabf2268c) so that all other nodes will be opened in new tabs instead of overriding the content in that tab.
 			- [Copy Code (`logseq-copy-code-plugin`)](https://github.com/vyleung/logseq-copy-code-plugin) adds a copy button to each code block and inline code for easy copying codes, especially the **inline codes**. <a class="logseq-meta" data-collapsed="true" ></a>
 				- Note: Must **restart Logseq** for installation & settings to take effect.
 			- [Custom Workflow (`logseq-custom-workflows`)](https://github.com/sawhney17/logseq-custom-workflow-plugin) lets us define custom flow of task status, e.g. `TODO -> WAIT -> DOING -> DONE`, and show `:LOGBOOK:` in edit mode when using its custom hotkey (`Ctrl Shift Enter`). <a class="logseq-meta" id="66b1cfa4-31a0-4954-b75e-e0d5c6d1aa72" data-collapsed="true" ></a>
 				- Settings: The workflow change take effect immediately, but the hotkey change requires Logseq restart.
 				- 2 workflows defined: {{embed [((66602f68-e23f-4b24-921e-b1a9fc0cc731)) workaround: use [`logseq-custom-workflows` plugin](((66b1cfa4-31a0-4954-b75e-e0d5c6d1aa72))) in combination with the built-in `marker-switch` (`Ctrl Enter`).](#66602f1d-a572-4fe8-997f-0fae15c6a3de)}} <a class="logseq-meta" id="6661341b-bd00-4444-a44d-99b489f6c8cb" ></a>
 			- [Block Reference Context (`logseq-brc`)](https://github.com/tejonaco/logseq-brc) provides the command `/Block Reference Context` to add block text content to the block ref. <a class="logseq-meta" id="66ac509d-cc10-4b99-9a70-a27bed316a3a" data-collapsed="true" data-logbook="CLOCK: [2024-08-02 Fri 10:25:07]--[2024-08-02 Fri 13:50:44] =&gt;  03:25:37&#10;" ></a>
-				- Buggy: [Whereas putting block content into link label will make it not rendered properly, like this: [Use [`[](ref "title")` syntax](https://www.markdownguide.org/basic-syntax/#adding-titles "add a title to a link")](((66ac8222-836c-40b1-9f26-fc94c69f9f8e))).](#66ac85cb-b5ee-4b6b-8ab1-82f90200be26)
+				- Buggy: [Whereas putting block content into link label will make it not rendered properly, like this: [Use [`[](ref "title")` syntax](https://www.markdownguide.org/basic-syntax/#adding-titles "add a title to a link")](((66ac8222-836c-40b1-9f26-fc94c69f9f8e))).](Task.cm.md#66ac85cb-b5ee-4b6b-8ab1-82f90200be26)
 			- [Time Recorder (`logseq-time-recorder`)](https://github.com/5hir0kur0/logseq-time-recorder) adds time tracker similar to the built-in `:LOGBOOK:`, but not yet integrated with `:LOGBOOK:`.
 			- [File explorer from within Logseq](https://discuss.logseq.com/t/file-explorer-from-within-logseq/21703/1) with [File picker for linking local files](https://discuss.logseq.com/t/file-picker-for-linking-local-files/21704) <a class="logseq-meta" id="66600918-fe64-4ef5-965e-c085d29bb88b" ></a>
 			- [Hugo publish (logseq-schrodinger)](https://github.com/sawhney17/logseq-schrodinger) for publishing to [Hugo](https://gohugo.io/). <a class="logseq-meta" id="66695307-1334-426c-b953-3e006bc87d74" ></a>
@@ -3757,13 +3757,13 @@
 			- [Bullet Threading (`logseq-bullet-threading`)](https://github.com/pengx17/logseq-plugin-bullet-threading) to thread the current block with its ancestors, like in the breadcrumbs.
 			- [Diagrams as Code `logseq-diagrams-as-code`](https://github.com/npgrosser/logseq-diagrams-as-code) to create diagrams from the code block in the first child of the diagram block. It supports a wide range of diagram types and languages through [Kroki API](https://kroki.io/), including Mermaid, Graphviz, PlantUML, D2, [Structurizr](https://structurizr.com/)/[C4](https://en.wikipedia.org/wiki/C4_model), etc.
 			- [Mermaid (`logseq-mermaid-plugin`)](https://github.com/benjypng/logseq-mermaid-plugin) to create mermaid diagrams in image format on-the-fly, using the `mermaid` code block in the first child of the diagram block. This render large diagrams too **slowly**, use [logseq-fenced-code-plus](#68ad8f51-795d-4f17-ad90-f8b97968e478) instead!
-		- [Theme:](#665dcac9-5698-496c-9a14-c5c0425d0998)
+		- [Theme:](Namespace.cm.md#665dcac9-5698-496c-9a14-c5c0425d0998)
 			- Check rendered result at [[Theme Demo]].
 			- DONE Compose [[logseq/custom.css]] from Logseq's built-in `style.css` & Ozean Theme's `main.css`. <a class="logseq-meta" id="665d78a5-6470-4e60-8fd1-d958fd62756e" data-logbook="CLOCK: [2024-06-03 Mon 20:25:47]--[2024-06-03 Mon 20:25:52] =&gt;  00:00:05&#10;CLOCK: [2024-06-03 Mon 20:25:58]--[2024-06-04 Tue 08:35:24] =&gt;  12:09:26&#10;" ></a>
 	- ## outliner <a class="logseq-meta" id="66536d32-30ad-4c07-8585-76ae9eb7fb22" data-collapsed="true" ></a>
-		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Outliner
-		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8)
-		- [Commentaries:](#665359ff-79f1-4669-b10b-f2b0e633a7c1) Most of the apps there are task-centric.
+		- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Outliner
+		- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8)
+		- [Commentaries:](Namespace.cm.md#665359ff-79f1-4669-b10b-f2b0e633a7c1) Most of the apps there are task-centric.
 		- Software <a class="logseq-meta" data-collapsed="true" ></a>
 			- A forum dedicated to outliners: [OutlinerSoftware](https://www.outlinersoftware.com/)
 			- [<span class="link-h2">Logseq</span>](#66536e1b-6466-4153-90d6-583003d99a81) is an [open-source](https://github.com/logseq/logseq) outliner based on text blocks & [<span class="link-h2">Markdown</span>](#66535e71-3b71-416c-98dc-5dde5e6a76ff), with [<span class="link-h2">wikilink</span>](#e6a21858-1849-462e-b2b0-0bc57b38fb0a), and [tag](https://en.wikipedia.org/wiki/Tag_(metadata)).
@@ -3784,9 +3784,9 @@
 				- Usually at CPU high cost!
 			- [Lattics](https://lattics.com/) with settable font, but only 2 versions: Windows & MacOS, no Linux, no Web
 	- ## Database
-	  [moved to](#680a04eb-125e-4e9e-b691-3b7be523359c) [Commit `96af6cac` added `` to `Database` block to be reffed by the item `Database` in `Mind Jungle`.](#68089c74-7fbd-471b-9283-febf6b48cd0d)
+	  [moved to](Namespace.cm.md#680a04eb-125e-4e9e-b691-3b7be523359c) [Commit `96af6cac` added `` to `Database` block to be reffed by the item `Database` in `Mind Jungle`.](#68089c74-7fbd-471b-9283-febf6b48cd0d)
 	- ## hyperlink <a class="logseq-meta" id="66536cad-a232-4b90-bf32-439144aac1ec" data-collapsed="true" ></a>
-		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Hyperlink
+		- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Hyperlink
 		- [HTML Anchor](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a) `<a>` <a class="logseq-meta" data-collapsed="true" data-logbook="CLOCK: [2024-08-03 Sat 20:42:25]&#10;" ></a>
 			- Action triggering elements like `<a>` and `<button>` are required to be action-atomic, hence not permitted to nest other action triggering elements inside. <a class="logseq-meta" id="66ae293c-b2ea-44cb-9e39-268c5a45c364" data-logbook="CLOCK: [2024-08-03 Sat 20:42:40]&#10;" ></a>
 				- Documentations <a class="logseq-meta" data-collapsed="true" ></a>
@@ -3796,17 +3796,17 @@
 						- [Phrasing content](https://developer.mozilla.org/en-US/docs/Web/HTML/Content_categories#phrasing_content) but there must be no [Interactive content](https://developer.mozilla.org/en-US/docs/Web/HTML/Content_categories#interactive_content)
 					- [Permitted content in `<input>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#technical_summary)
 						- None; it is a [void element](https://developer.mozilla.org/en-US/docs/Glossary/Void_element).
-				- [Examples:](#66725725-f76a-4328-b162-f469b87e871b) [This is [a [Hyperlink](https://en.wikipedia.org/wiki/Hyperlink) within a Markdown link](https://www.markdownguide.org/basic-syntax/#links).](#66ae1e22-a253-4c78-8a51-b45e646ccb66)
+				- [Examples:](Namespace.cm.md#66725725-f76a-4328-b162-f469b87e871b) [This is [a [Hyperlink](https://en.wikipedia.org/wiki/Hyperlink) within a Markdown link](https://www.markdownguide.org/basic-syntax/#links).](../../share/publish/CommonMark/Theme Demo.cm.md#66ae1e22-a253-4c78-8a51-b45e646ccb66)
 				- See more about [fat link](#66ae2d1a-8009-4dc0-85f5-93728b22d1fb).
 		- fat link <a class="logseq-meta" id="66ae2d1a-8009-4dc0-85f5-93728b22d1fb" data-logbook="CLOCK: [2024-08-03 Sat 20:42:13]&#10;" ></a>
-		  <br>[Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [nested link](#66ae2dbf-58df-4aa7-925b-b694cb8b84c7), [layered link](#66ae2dc6-0a8b-4f3d-80c1-f37c17cc6e81)
+		  <br>[Alias:](Namespace.cm.md#665359e4-4597-4775-b849-f9acbb98960a) [nested link](#66ae2dbf-58df-4aa7-925b-b694cb8b84c7), [layered link](#66ae2dc6-0a8b-4f3d-80c1-f37c17cc6e81)
 			- nested link <a class="logseq-meta" id="66ae2dbf-58df-4aa7-925b-b694cb8b84c7" ></a>
-			  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [fat link](#66ae2d1a-8009-4dc0-85f5-93728b22d1fb)
+			  <br>[alias of](Namespace.cm.md#665c9af1-1ce2-461c-af33-671690618c8f) [fat link](#66ae2d1a-8009-4dc0-85f5-93728b22d1fb)
 			- layered link <a class="logseq-meta" id="66ae2dc6-0a8b-4f3d-80c1-f37c17cc6e81" ></a>
-			  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [fat link](#66ae2d1a-8009-4dc0-85f5-93728b22d1fb)
-			- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [fat link](#66ae2d1a-8009-4dc0-85f5-93728b22d1fb) is a [<span class="link-h2">hyperlink</span>](#66536cad-a232-4b90-bf32-439144aac1ec) that links to more than one target, as defined in [this wiki](https://wiki.edunitas.com/IT/en/114-10/Fat-link_18794_eduNitas.html). It's useful when there is little space for the link anchor, so many links should be [collapsed](#66537617-23c2-43a9-9a14-5e18fe9aa36f) into a single anchor.
+			  <br>[alias of](Namespace.cm.md#665c9af1-1ce2-461c-af33-671690618c8f) [fat link](#66ae2d1a-8009-4dc0-85f5-93728b22d1fb)
+			- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) [fat link](#66ae2d1a-8009-4dc0-85f5-93728b22d1fb) is a [<span class="link-h2">hyperlink</span>](#66536cad-a232-4b90-bf32-439144aac1ec) that links to more than one target, as defined in [this wiki](https://wiki.edunitas.com/IT/en/114-10/Fat-link_18794_eduNitas.html). It's useful when there is little space for the link anchor, so many links should be [collapsed](Uniinfo.cm.md#66537617-23c2-43a9-9a14-5e18fe9aa36f) into a single anchor.
 			- [nested link](#66ae2dbf-58df-4aa7-925b-b694cb8b84c7) of blocks is rendered well in [<span class="link-h2">Logseq</span>](#66536e1b-6466-4153-90d6-583003d99a81).
-				- [Examples:](#66725725-f76a-4328-b162-f469b87e871b) [This is ((66ae2602-edc5-4281-a9fb-fc03f1992c93)), which is linked/mirrored here.](#66ae25de-8bfe-4da8-9483-8ae16f704c59)
+				- [Examples:](Namespace.cm.md#66725725-f76a-4328-b162-f469b87e871b) [This is ((66ae2602-edc5-4281-a9fb-fc03f1992c93)), which is linked/mirrored here.](../../share/publish/CommonMark/Theme Demo.cm.md#66ae25de-8bfe-4da8-9483-8ae16f704c59)
 			- [nested link](#66ae2dbf-58df-4aa7-925b-b694cb8b84c7) is not supported by HTML: [Action triggering elements like `<a>` and `<button>` are required to be action-atomic, hence not permitted to nest other action triggering elements inside.](#66ae293c-b2ea-44cb-9e39-268c5a45c364)
 				- Workarounds
 					- use `onclick` event <a class="logseq-meta" data-collapsed="true" ></a>
@@ -3827,17 +3827,17 @@
 							  ```
 					- Sara's blog: [Nested Links Without Nesting Links](https://www.sarasoueidan.com/blog/nested-links/)
 	- ## wikilink <a class="logseq-meta" id="e6a21858-1849-462e-b2b0-0bc57b38fb0a" data-collapsed="true" ></a>
-		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Help:Link
-		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) A kind of internal [<span class="link-h2">hyperlink</span>](#66536cad-a232-4b90-bf32-439144aac1ec) in the form of `[[Target Page|displayed text]]` to link from one page to another `Target Page`. This is first defined in [<span class="link-h2">Wikipedia</span>](#665368c5-5c6f-44e4-a675-4a744252d32c)'s [<span class="link-h2">wikitext</span>](#6653690d-70c4-49a0-b71d-a77a6dd9d9e5) syntax, and then is adopted by other systems like [<span class="link-h2">Obsidian</span>](#66535660-643e-471a-a332-8f2306c5494f).
+		- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Help:Link
+		- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) A kind of internal [<span class="link-h2">hyperlink</span>](#66536cad-a232-4b90-bf32-439144aac1ec) in the form of `[[Target Page|displayed text]]` to link from one page to another `Target Page`. This is first defined in [<span class="link-h2">Wikipedia</span>](#665368c5-5c6f-44e4-a675-4a744252d32c)'s [<span class="link-h2">wikitext</span>](#6653690d-70c4-49a0-b71d-a77a6dd9d9e5) syntax, and then is adopted by other systems like [<span class="link-h2">Obsidian</span>](#66535660-643e-471a-a332-8f2306c5494f).
 	- ## wikitext <a class="logseq-meta" id="6653690d-70c4-49a0-b71d-a77a6dd9d9e5" data-collapsed="true" ></a>
-		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Help:Wikitext
+		- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Help:Wikitext
 	- ## Markdown <a class="logseq-meta" id="66535e71-3b71-416c-98dc-5dde5e6a76ff" data-collapsed="true" ></a>
-		- [Official website:](#665359c3-61fd-4858-a117-ecbcd6fbc9ea) https://www.markdownguide.org/
-		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Markdown
-		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) A simple and humane [<span class="link-h2">markup language</span>](#66536166-87b0-4283-ab56-c6d2f62423c1) created by Gruber and Swartz in 2004, based on pre-existing conventions for marking up [<span class="link-h2">plain text</span>](#6653635a-0226-4ebe-ae9b-e3e756b67377) in [<span class="link-h2">email</span>](#66536383-8033-4105-8cbf-2c1316382df4) and [usenet](https://en.wikipedia.org/wiki/Usenet) posts, like [setext](https://en.wikipedia.org/wiki/Setext "Setext") (c. 1992), [Textile](https://en.wikipedia.org/wiki/Textile_(markup_language) "Textile (markup language)") (c. 2002), and [reStructuredText](https://en.wikipedia.org/wiki/ReStructuredText "ReStructuredText") (c. 2002).
+		- [Official website:](Namespace.cm.md#665359c3-61fd-4858-a117-ecbcd6fbc9ea) https://www.markdownguide.org/
+		- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Markdown
+		- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) A simple and humane [<span class="link-h2">markup language</span>](#66536166-87b0-4283-ab56-c6d2f62423c1) created by Gruber and Swartz in 2004, based on pre-existing conventions for marking up [<span class="link-h2">plain text</span>](#6653635a-0226-4ebe-ae9b-e3e756b67377) in [<span class="link-h2">email</span>](#66536383-8033-4105-8cbf-2c1316382df4) and [usenet](https://en.wikipedia.org/wiki/Usenet) posts, like [setext](https://en.wikipedia.org/wiki/Setext "Setext") (c. 1992), [Textile](https://en.wikipedia.org/wiki/Textile_(markup_language) "Textile (markup language)") (c. 2002), and [reStructuredText](https://en.wikipedia.org/wiki/ReStructuredText "ReStructuredText") (c. 2002).
 		- Supported websites and apps
 			- Git hosting sites: [GitHub](https://github.com/), [GitLab](https://gitlab.com/)
-			- Note taker: [<span class="link-h2">Logseq</span>](#66536e1b-6466-4153-90d6-583003d99a81), [<span class="link-h2">Obsidian</span>](#66535660-643e-471a-a332-8f2306c5494f), [GitJournal](#6841400e-7bac-403e-b34a-690073c3251e), [Simplenote](https://simplenote.com/), [Markor](https://github.com/gsantner/markor) on mobile
+			- Note taker: [<span class="link-h2">Logseq</span>](#66536e1b-6466-4153-90d6-583003d99a81), [<span class="link-h2">Obsidian</span>](#66535660-643e-471a-a332-8f2306c5494f), [GitJournal](../../history/publish/CommonMark/2025 Stories.cm.md#6841400e-7bac-403e-b34a-690073c3251e), [Simplenote](https://simplenote.com/), [Markor](https://github.com/gsantner/markor) on mobile
 			- Editor: [StackEdit](https://stackedit.io/) (In-browser Markdown editing [webapp](https://stackedit.io/app))
 			- Browser plugins: [Markdown Viewer](https://chromewebstore.google.com/detail/markdown-viewer/ckkdlimhmcjmikdlpkmbgfkaikojcbjk) for Chrome
 		- Comments
@@ -3846,67 +3846,67 @@
 				- or we can exploit Markdown [ref-link](https://www.markdownguide.org/basic-syntax/#reference-style-links) syntax to make comments, as shown at [StackOverflow](https://stackoverflow.com/a/20885980).
 			- ![MarkdownCommentsTest.md](../assets/TextProcessing/Markdown/MarkdownCommentsTest.md)
 	- ## markup language <a class="logseq-meta" id="66536166-87b0-4283-ab56-c6d2f62423c1" data-collapsed="true" ></a>
-		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Markup_language
-		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) A language to mark text content up with special marks and/or syntax to add metadata like meaning, style, structure to the document.
-		- [Examples:](#66725725-f76a-4328-b162-f469b87e871b) [HTML](#6720bf1a-fa1f-4c1d-ba6f-2527a47621eb), [XML](#6720c001-a22b-47e9-93f6-c0b65d389dfd), [<span class="link-h2">LaTeX</span>](#66536274-abb0-4f8e-8fa1-da2d4224b7ff), [<span class="link-h2">Markdown</span>](#66535e71-3b71-416c-98dc-5dde5e6a76ff), ...
+		- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Markup_language
+		- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) A language to mark text content up with special marks and/or syntax to add metadata like meaning, style, structure to the document.
+		- [Examples:](Namespace.cm.md#66725725-f76a-4328-b162-f469b87e871b) [HTML](#6720bf1a-fa1f-4c1d-ba6f-2527a47621eb), [XML](#6720c001-a22b-47e9-93f6-c0b65d389dfd), [<span class="link-h2">LaTeX</span>](#66536274-abb0-4f8e-8fa1-da2d4224b7ff), [<span class="link-h2">Markdown</span>](#66535e71-3b71-416c-98dc-5dde5e6a76ff), ...
 	- ## email <a class="logseq-meta" id="66536383-8033-4105-8cbf-2c1316382df4" data-collapsed="true" ></a>
-		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Email
+		- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Email
 	- ## plain text <a class="logseq-meta" id="6653635a-0226-4ebe-ae9b-e3e756b67377" data-collapsed="true" ></a>
-		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Plain_text
+		- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Plain_text
 	- ## LaTeX <a class="logseq-meta" id="66536274-abb0-4f8e-8fa1-da2d4224b7ff" data-collapsed="true" ></a>
-		- [Official website:](#665359c3-61fd-4858-a117-ecbcd6fbc9ea) https://www.latex-project.org/
-		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) A [good old](https://en.wikipedia.org/wiki/LaTeX#History) typesetting language that I've used to write my reports an thesis in my academic era ( [Handai](#665c9c28-dfdc-4a7a-8f82-d1367db0c5be), [JAIST](#665370ae-659d-4fb1-9bdb-6e857e3f5bf3)). <a class="logseq-meta" id="66faa5f9-e9c3-4150-be5d-6cef09e8f34c" ></a>
+		- [Official website:](Namespace.cm.md#665359c3-61fd-4858-a117-ecbcd6fbc9ea) https://www.latex-project.org/
+		- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) A [good old](https://en.wikipedia.org/wiki/LaTeX#History) typesetting language that I've used to write my reports an thesis in my academic era ( [Handai](#665c9c28-dfdc-4a7a-8f82-d1367db0c5be), [JAIST](#665370ae-659d-4fb1-9bdb-6e857e3f5bf3)). <a class="logseq-meta" id="66faa5f9-e9c3-4150-be5d-6cef09e8f34c" ></a>
 	- ## formal methods <a class="logseq-meta" id="6653711b-1c5f-4a34-b01a-e673b9bb694c" data-collapsed="true" ></a>
-		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Formal_methods
+		- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Formal_methods
 	- ## Japan Advanced Institute of Science and Technology <a class="logseq-meta" id="665370ae-659d-4fb1-9bdb-6e857e3f5bf3" data-collapsed="true" ></a>
-	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [JAIST](#665370bb-9619-46b2-97be-a7b52684a56c)
+	  [Alias:](Namespace.cm.md#665359e4-4597-4775-b849-f9acbb98960a) [JAIST](#665370bb-9619-46b2-97be-a7b52684a56c)
 		- JAIST <a class="logseq-meta" id="665370bb-9619-46b2-97be-a7b52684a56c" ></a>
-		  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">Japan Advanced Institute of Science and Technology</span>](#665370ae-659d-4fb1-9bdb-6e857e3f5bf3)
-		- [Official website:](#665359c3-61fd-4858-a117-ecbcd6fbc9ea) https://www.jaist.ac.jp
-		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) There are 3 schools: Information Science, Knowledge Science, and Materials Science.
+		  <br>[alias of](Namespace.cm.md#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">Japan Advanced Institute of Science and Technology</span>](#665370ae-659d-4fb1-9bdb-6e857e3f5bf3)
+		- [Official website:](Namespace.cm.md#665359c3-61fd-4858-a117-ecbcd6fbc9ea) https://www.jaist.ac.jp
+		- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) There are 3 schools: Information Science, Knowledge Science, and Materials Science.
 		- Harusada's: I've done my master course in the Graduate School of Information Science about [<span class="link-h2">formal methods</span>](#6653711b-1c5f-4a34-b01a-e673b9bb694c), from 2007 to 2009.
 	- ## Osaka University <a class="logseq-meta" id="66536ec6-1a32-431b-b2e2-c73813f5d19f" data-collapsed="true" ></a>
-	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [Handai](#665c9c28-dfdc-4a7a-8f82-d1367db0c5be), [阪大](#665c9c2b-8030-46cc-90b2-08816d369105)
+	  [Alias:](Namespace.cm.md#665359e4-4597-4775-b849-f9acbb98960a) [Handai](#665c9c28-dfdc-4a7a-8f82-d1367db0c5be), [阪大](#665c9c2b-8030-46cc-90b2-08816d369105)
 		- Handai <a class="logseq-meta" id="665c9c28-dfdc-4a7a-8f82-d1367db0c5be" ></a>
-		  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">Osaka University</span>](#66536ec6-1a32-431b-b2e2-c73813f5d19f)
+		  <br>[alias of](Namespace.cm.md#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">Osaka University</span>](#66536ec6-1a32-431b-b2e2-c73813f5d19f)
 		- 阪大 <a class="logseq-meta" id="665c9c2b-8030-46cc-90b2-08816d369105" ></a>
-		  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">Osaka University</span>](#66536ec6-1a32-431b-b2e2-c73813f5d19f)
-		- [Official website:](#665359c3-61fd-4858-a117-ecbcd6fbc9ea) https://www.osaka-u.ac.jp
-		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) A comprehensive university with 6 faculties: science, engineering, medicine, letters, law & economics, and Arts & Humanities. It merged the old [Osaka Gaidai](#66537146-078d-4a65-b33a-2a0162f15d8c) in 2007.
+		  <br>[alias of](Namespace.cm.md#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">Osaka University</span>](#66536ec6-1a32-431b-b2e2-c73813f5d19f)
+		- [Official website:](Namespace.cm.md#665359c3-61fd-4858-a117-ecbcd6fbc9ea) https://www.osaka-u.ac.jp
+		- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) A comprehensive university with 6 faculties: science, engineering, medicine, letters, law & economics, and Arts & Humanities. It merged the old [Osaka Gaidai](#66537146-078d-4a65-b33a-2a0162f15d8c) in 2007.
 		- [Harusada](#66536578-c4d3-43f1-b35c-bf71120f0570)'s: I've done my undergraduate course of Computer Science in Toyonaka campus, from 2003 to 2007.
 	- ## Osaka University of Foreign Studies <a class="logseq-meta" id="66537146-078d-4a65-b33a-2a0162f15d8c" data-collapsed="true" ></a>
-	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [Osaka Gaidai](#66537151-5913-4bcf-b4fe-b8e90a69f5af), [大阪外大](#665c9f25-ec8b-4fb8-ad1d-349cbd0b9010)
+	  [Alias:](Namespace.cm.md#665359e4-4597-4775-b849-f9acbb98960a) [Osaka Gaidai](#66537151-5913-4bcf-b4fe-b8e90a69f5af), [大阪外大](#665c9f25-ec8b-4fb8-ad1d-349cbd0b9010)
 		- Osaka Gaidai <a class="logseq-meta" id="66537151-5913-4bcf-b4fe-b8e90a69f5af" ></a>
-		  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">Osaka University of Foreign Studies</span>](#66537146-078d-4a65-b33a-2a0162f15d8c)
+		  <br>[alias of](Namespace.cm.md#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">Osaka University of Foreign Studies</span>](#66537146-078d-4a65-b33a-2a0162f15d8c)
 		- 大阪外大 <a class="logseq-meta" id="665c9f25-ec8b-4fb8-ad1d-349cbd0b9010" ></a>
-		  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">Osaka University of Foreign Studies</span>](#66537146-078d-4a65-b33a-2a0162f15d8c)
-		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) It was dedicated to area studies and the study of foreign languages and their related cultures. It was merged to [<span class="link-h2">Osaka University</span>](#66536ec6-1a32-431b-b2e2-c73813f5d19f) in 2007.
+		  <br>[alias of](Namespace.cm.md#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">Osaka University of Foreign Studies</span>](#66537146-078d-4a65-b33a-2a0162f15d8c)
+		- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) It was dedicated to area studies and the study of foreign languages and their related cultures. It was merged to [<span class="link-h2">Osaka University</span>](#66536ec6-1a32-431b-b2e2-c73813f5d19f) in 2007.
 		- [Harusada](#66536578-c4d3-43f1-b35c-bf71120f0570)'s: I've done my Japanese course here from 2002 to 2003.
 	- ## Viet Nam National University Ho Chi Minh City <a class="logseq-meta" id="6710fbad-2dbd-481d-92db-b4d7d2e20a93" data-collapsed="true" ></a>
-	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [HCMUS](#6710fc09-fc5f-447b-9faf-5ea31b29c1fb), [VNUHCM-US](#6710fbf3-db4d-4b17-858c-fe3047cbb7e7)
+	  [Alias:](Namespace.cm.md#665359e4-4597-4775-b849-f9acbb98960a) [HCMUS](#6710fc09-fc5f-447b-9faf-5ea31b29c1fb), [VNUHCM-US](#6710fbf3-db4d-4b17-858c-fe3047cbb7e7)
 		- VNUHCM-US <a class="logseq-meta" id="6710fbf3-db4d-4b17-858c-fe3047cbb7e7" ></a>
-		  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">Viet Nam National University Ho Chi Minh City</span>](#6710fbad-2dbd-481d-92db-b4d7d2e20a93)
+		  <br>[alias of](Namespace.cm.md#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">Viet Nam National University Ho Chi Minh City</span>](#6710fbad-2dbd-481d-92db-b4d7d2e20a93)
 		- HCMUS <a class="logseq-meta" id="6710fc09-fc5f-447b-9faf-5ea31b29c1fb" ></a>
-		  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">Viet Nam National University Ho Chi Minh City</span>](#6710fbad-2dbd-481d-92db-b4d7d2e20a93)
-		- [Official website:](#665359c3-61fd-4858-a117-ecbcd6fbc9ea) https://en.hcmus.edu.vn/
+		  <br>[alias of](Namespace.cm.md#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">Viet Nam National University Ho Chi Minh City</span>](#6710fbad-2dbd-481d-92db-b4d7d2e20a93)
+		- [Official website:](Namespace.cm.md#665359c3-61fd-4858-a117-ecbcd6fbc9ea) https://en.hcmus.edu.vn/
 		- [<span class="link-h2">Will LÊ</span>](#66536578-c4d3-43f1-b35c-bf71120f0570)'s:
 			- I did my first 1.5 years of undergraduate course of Information Technology in Thủ Đức campus of [VNUHCM](#6710fd6d-e8fb-4b24-b280-726187b7c6ce), from 2000 to 2002.
 			- After returning from [JAIST](#665370bb-9619-46b2-97be-a7b52684a56c), i teach IT here from 2027 to 2014 + 2016.
 	- ## Viet Nam National University Ho Chi Minh City <a class="logseq-meta" id="6710fcba-e545-4f3d-b74b-4373280534d9" data-collapsed="true" ></a>
-	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [VNUHCM](#6710fd6d-e8fb-4b24-b280-726187b7c6ce)
+	  [Alias:](Namespace.cm.md#665359e4-4597-4775-b849-f9acbb98960a) [VNUHCM](#6710fd6d-e8fb-4b24-b280-726187b7c6ce)
 		- VNUHCM <a class="logseq-meta" id="6710fd6d-e8fb-4b24-b280-726187b7c6ce" ></a>
-		  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">Viet Nam National University Ho Chi Minh City</span>](#6710fcba-e545-4f3d-b74b-4373280534d9)
-		- [Official website:](#665359c3-61fd-4858-a117-ecbcd6fbc9ea) https://vnuhcm.edu.vn/
+		  <br>[alias of](Namespace.cm.md#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">Viet Nam National University Ho Chi Minh City</span>](#6710fcba-e545-4f3d-b74b-4373280534d9)
+		- [Official website:](Namespace.cm.md#665359c3-61fd-4858-a117-ecbcd6fbc9ea) https://vnuhcm.edu.vn/
 	- ## Extensible Markup Language <a class="logseq-meta" id="6653624a-5679-4bc5-bd7e-fdee34516314" data-collapsed="true" ></a>
-	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [XML](#6720c001-a22b-47e9-93f6-c0b65d389dfd)
+	  [Alias:](Namespace.cm.md#665359e4-4597-4775-b849-f9acbb98960a) [XML](#6720c001-a22b-47e9-93f6-c0b65d389dfd)
 		- XML <a class="logseq-meta" id="6720c001-a22b-47e9-93f6-c0b65d389dfd" ></a>
-		  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">Extensible Markup Language</span>](#6653624a-5679-4bc5-bd7e-fdee34516314)
-		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/XML
+		  <br>[alias of](Namespace.cm.md#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">Extensible Markup Language</span>](#6653624a-5679-4bc5-bd7e-fdee34516314)
+		- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/XML
 	- ## Hypertext Markup Language <a class="logseq-meta" id="665361eb-5339-451e-957d-362b946d796d" data-collapsed="true" ></a>
-	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [HTML](#6720bf1a-fa1f-4c1d-ba6f-2527a47621eb)
+	  [Alias:](Namespace.cm.md#665359e4-4597-4775-b849-f9acbb98960a) [HTML](#6720bf1a-fa1f-4c1d-ba6f-2527a47621eb)
 		- HTML <a class="logseq-meta" id="6720bf1a-fa1f-4c1d-ba6f-2527a47621eb" ></a>
-		  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">Hypertext Markup Language</span>](#665361eb-5339-451e-957d-362b946d796d)
-		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/HTML
+		  <br>[alias of](Namespace.cm.md#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">Hypertext Markup Language</span>](#665361eb-5339-451e-957d-362b946d796d)
+		- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/HTML
 		- Flexbox
 			- [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 		- Web Components
@@ -3919,14 +3919,14 @@
 		- ### CSS
 			- [HTML Color Names](https://htmlcolorcodes.com/color-names/)
 	- ## HTTP <a class="logseq-meta" id="6714ee7d-d83b-4f42-af22-badb410d4a58" data-collapsed="true" ></a>
-		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/HTTP
+		- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/HTTP
 		- ### HTTP Headers <a class="logseq-meta" data-collapsed="true" ></a>
 			- `Content-Type`
 			- `Content-Encoding`
 			- `Cookie`
 		- ### HTTPS
 		- ### Web Servers <a class="logseq-meta" id="6714f01d-3dd8-461c-9619-c5bac33451b0" ></a>
-			- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Web_server
+			- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Web_server
 			- Python's simple [http.server](https://docs.python.org/3/library/http.server.html) ([SimpleHTTPRequestHandler](https://docs.python.org/3/library/http.server.html#http.server.SimpleHTTPRequestHandler)) <a class="logseq-meta" id="6714f028-4e17-41b8-a6d3-88bfb0d5d1f9" data-collapsed="true" data-logbook="CLOCK: [2024-10-20 Sun 18:35:00]--[2024-10-20 Sun 18:45:19] =&gt;  00:10:19&#10;" ></a>
 				- Direct use of the module
 				  ```sh
@@ -3956,11 +3956,11 @@
 			- #### NGINX
 		- <zwsp>
 	- ## Portable Document Format <a class="logseq-meta" id="6720be1c-fb4d-47a9-9dbd-d5cc87cec103" data-collapsed="true" ></a>
-	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [PDF](#6720be20-0d0e-478d-bdbe-1b6d33d126a0)
+	  [Alias:](Namespace.cm.md#665359e4-4597-4775-b849-f9acbb98960a) [PDF](#6720be20-0d0e-478d-bdbe-1b6d33d126a0)
 		- PDF <a class="logseq-meta" id="6720be20-0d0e-478d-bdbe-1b6d33d126a0" ></a>
-		  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">Portable Document Format</span>](#6720be1c-fb4d-47a9-9dbd-d5cc87cec103)
-		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/PDF
-		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) Based on the good old [PostScript](https://en.wikipedia.org/wiki/PostScript) language, in 1992, [Adobe](https://en.wikipedia.org/wiki/Adobe_Inc.) created [PDF](#6720be20-0d0e-478d-bdbe-1b6d33d126a0) format for [documents](https://en.wikipedia.org/wiki/Document) presentation independent of [application software](https://en.wikipedia.org/wiki/Application_software), [hardware](https://en.wikipedia.org/wiki/Computer_hardware), and [operating systems](https://en.wikipedia.org/wiki/Operating_system). Nowadays, PDF has been supported by major browsers, with both `<embed>` displaying and to-PDF printing.
+		  <br>[alias of](Namespace.cm.md#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">Portable Document Format</span>](#6720be1c-fb4d-47a9-9dbd-d5cc87cec103)
+		- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/PDF
+		- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) Based on the good old [PostScript](https://en.wikipedia.org/wiki/PostScript) language, in 1992, [Adobe](https://en.wikipedia.org/wiki/Adobe_Inc.) created [PDF](#6720be20-0d0e-478d-bdbe-1b6d33d126a0) format for [documents](https://en.wikipedia.org/wiki/Document) presentation independent of [application software](https://en.wikipedia.org/wiki/Application_software), [hardware](https://en.wikipedia.org/wiki/Computer_hardware), and [operating systems](https://en.wikipedia.org/wiki/Operating_system). Nowadays, PDF has been supported by major browsers, with both `<embed>` displaying and to-PDF printing.
 		- HTML to PDF conversion <a class="logseq-meta" id="6720c0a4-0294-4065-8016-9853e2a04475" data-collapsed="true" ></a>
 			- For simple page capture, just use the browser's "to-PDF" printing feature.
 			- ~~Collapsible block~~ is unsupported ⇒ use layout with **bookmarks** <a class="logseq-meta" data-collapsed="true" ></a>
@@ -3970,10 +3970,10 @@
 				- [HiQPdf](https://www.hiqpdf.com/documentation/html/a1094666-433c-441b-a072-c5a64e75ca22.htm) library for .NET
 				- Another workaround is [using multi-layer PDF](https://community.adobe.com/t5/acrobat-discussions/creating-an-option-for-expandable-collapsible-pdf-sections/m-p/12328581), but it's an overkill
 	- ## Google Chrome <a class="logseq-meta" data-collapsed="true" data-logbook="CLOCK: [2024-08-22 Thu 18:44:04]&#10;" ></a>
-		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Google_Chrome
+		- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Google_Chrome
 		- Disable automatic update <a class="logseq-meta" id="66c7f42e-5c00-435a-8d30-fe8210c4adf6" ></a>
 			- Use command switch `--simulate-outdated='Tue, 31 Dec 2099 23:59:59 GMT'` to simulates that it will be out of date in the far future. <a class="logseq-meta" id="66c7f42e-1084-41d0-8cd8-f51fdc830535" ></a>
-				- On my machine, i just add this switch to the [Autostart](#66b1cfa4-1438-4699-9f02-b84075f2a167) `.desktop` and leave the system `.desktop` untouched.
+				- On my machine, i just add this switch to the [Autostart](../../share/technical/publish/CommonMark/Linux.cm.md#66b1cfa4-1438-4699-9f02-b84075f2a167) `.desktop` and leave the system `.desktop` untouched.
 				- other switches in [chrome_switches.cc](https://chromium.googlesource.com/chromium/src/+/HEAD/chrome/common/chrome_switches.cc) <a class="logseq-meta" data-collapsed="true" ></a>
 					- `--simulate-outdated`: Simulates that current version is outdated.
 					- `--simulate-outdated-no-au`: Simulates that current version is outdated and auto-update is off.
@@ -3985,26 +3985,26 @@
 				  ```
 	- # search <a class="logseq-meta" id="66fe70ac-04d0-45b5-b771-b072cc0fa7be" data-collapsed="true" ></a>
 		- searching <a class="logseq-meta" id="66fe7195-1f42-4f8c-b2d4-876c8ba53808" ></a>
-		  <br>[noun of](#66c80dde-a097-4744-8af8-c6e26dcfdda2) [<span class="link-h1">search</span>](#66fe70ac-04d0-45b5-b771-b072cc0fa7be)
-		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [searching](#66fe7195-1f42-4f8c-b2d4-876c8ba53808) is the process of looking for some [<span class="link-h2">object</span>](#667cfa42-ade7-4310-9a7b-6d14d01c16da) satisfying some [search criteria](#66fe7648-45c0-4831-9f78-92f50a268b8d), within another object called [<span class="link-h2">search scope</span>](#66fe72c4-3ad3-41a2-b1bc-dd70a97176fd).
-		- [Examples:](#66725725-f76a-4328-b162-f469b87e871b) [search problem](https://en.wikipedia.org/wiki/Search_problem), [search algorithm](https://en.wikipedia.org/wiki/Search_algorithm)
+		  <br>[noun of](Namespace.cm.md#66c80dde-a097-4744-8af8-c6e26dcfdda2) [<span class="link-h1">search</span>](#66fe70ac-04d0-45b5-b771-b072cc0fa7be)
+		- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) [searching](#66fe7195-1f42-4f8c-b2d4-876c8ba53808) is the process of looking for some [<span class="link-h2">object</span>](Uniinfo.cm.md#667cfa42-ade7-4310-9a7b-6d14d01c16da) satisfying some [search criteria](#66fe7648-45c0-4831-9f78-92f50a268b8d), within another object called [<span class="link-h2">search scope</span>](#66fe72c4-3ad3-41a2-b1bc-dd70a97176fd).
+		- [Examples:](Namespace.cm.md#66725725-f76a-4328-b162-f469b87e871b) [search problem](https://en.wikipedia.org/wiki/Search_problem), [search algorithm](https://en.wikipedia.org/wiki/Search_algorithm)
 		- ## search criterion <a class="logseq-meta" id="66fe763b-09bc-4446-89bb-58a562d2759a" ></a>
 			- search criteria <a class="logseq-meta" id="66fe7648-45c0-4831-9f78-92f50a268b8d" ></a>
 			  <br>plural of [<span class="link-h2">search criterion</span>](#66fe763b-09bc-4446-89bb-58a562d2759a)
 		- ## search key <a class="logseq-meta" id="66fe71f9-a903-4797-9041-a66f102bda49" ></a>
 		- ## search scope <a class="logseq-meta" id="66fe72c4-3ad3-41a2-b1bc-dd70a97176fd" ></a>
-		  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [search space](#66fe754c-1858-4aff-bf23-510cd9ebb5b0)
+		  [Alias:](Namespace.cm.md#665359e4-4597-4775-b849-f9acbb98960a) [search space](#66fe754c-1858-4aff-bf23-510cd9ebb5b0)
 			- search space <a class="logseq-meta" id="66fe754c-1858-4aff-bf23-510cd9ebb5b0" ></a>
-			  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">search scope</span>](#66fe72c4-3ad3-41a2-b1bc-dd70a97176fd)
-			- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h2">search scope</span>](#66fe72c4-3ad3-41a2-b1bc-dd70a97176fd) is the place where the [<span class="link-h1">search</span>](#66fe70ac-04d0-45b5-b771-b072cc0fa7be) is taken placed.
+			  <br>[alias of](Namespace.cm.md#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">search scope</span>](#66fe72c4-3ad3-41a2-b1bc-dd70a97176fd)
+			- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h2">search scope</span>](#66fe72c4-3ad3-41a2-b1bc-dd70a97176fd) is the place where the [<span class="link-h1">search</span>](#66fe70ac-04d0-45b5-b771-b072cc0fa7be) is taken placed.
 	- ## JavaScript <a class="logseq-meta" id="6716110e-aa2d-41c9-8ae3-be3ceed55407" ></a>
-	  [moved to](#680a04eb-125e-4e9e-b691-3b7be523359c) [<span class="link-h1">JavaScript</span>](#6708aad1-5efb-4b3f-ad99-e3ae2e73fcb4)
+	  [moved to](Namespace.cm.md#680a04eb-125e-4e9e-b691-3b7be523359c) [<span class="link-h1">JavaScript</span>](../../share/technical/publish/CommonMark/JavaScript.cm.md#6708aad1-5efb-4b3f-ad99-e3ae2e73fcb4)
 	- ## D2: Declarative Diagramming <a class="logseq-meta" id="6751697f-aa5b-4ade-b97c-9ea1f1406581" data-collapsed="true" ></a>
-	  [Alias:](#665359e4-4597-4775-b849-f9acbb98960a) [D2](#67516994-d999-4095-bea1-7b3861089890)
+	  [Alias:](Namespace.cm.md#665359e4-4597-4775-b849-f9acbb98960a) [D2](#67516994-d999-4095-bea1-7b3861089890)
 		- D2 <a class="logseq-meta" id="67516994-d999-4095-bea1-7b3861089890" ></a>
-		  <br>[alias of](#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">D2: Declarative Diagramming</span>](#6751697f-aa5b-4ade-b97c-9ea1f1406581)
-		- [Official website:](#665359c3-61fd-4858-a117-ecbcd6fbc9ea) https://d2lang.com/
-		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [D2](#67516994-d999-4095-bea1-7b3861089890) is a diagraming language that use layout engines to automate layouting.
+		  <br>[alias of](Namespace.cm.md#665c9af1-1ce2-461c-af33-671690618c8f) [<span class="link-h2">D2: Declarative Diagramming</span>](#6751697f-aa5b-4ade-b97c-9ea1f1406581)
+		- [Official website:](Namespace.cm.md#665359c3-61fd-4858-a117-ecbcd6fbc9ea) https://d2lang.com/
+		- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) [D2](#67516994-d999-4095-bea1-7b3861089890) is a diagraming language that use layout engines to automate layouting.
 		- Supported [layout engines](https://d2lang.com/tour/layouts#layout-engines) <a class="logseq-meta" data-collapsed="true" ></a>
 			- [Dagre](https://github.com/dagrejs/dagre) (default) is an open-source layout engine that renders very fast. But its development has been stopped from 2018.
 			- [Eclipse Layout Kernel](https://eclipse.dev/elk/) (ELK) is an open-source, mature, hierarchical layout engine, actively maintained by an academic research group at [Christian Albrechts University in Kiel](https://www.rtsys.informatik.uni-kiel.de/en/team).
@@ -4014,8 +4014,8 @@
 		  d2 -w -l tala -d --pad 10 --force-appendix temp.d2 temp.svg
 		  ```
 	- ## pendulum wave <a class="logseq-meta" id="676539ca-ff29-4749-ab33-b00dfe8fb936" data-collapsed="true" ></a>
-		- [Wiki:](#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Pendulum_wave
-		- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h2">pendulum wave</span>](#676539ca-ff29-4749-ab33-b00dfe8fb936) is a physics toy using spatial [aliasing](https://en.wikipedia.org/wiki/Aliasing#Sampling_sinusoidal_functions) to demonstrate the [emergence](#66c30b69-5b96-4793-bcce-bce51553a454) of various types of waveforms in a simple array of uncoupled [simple pendulums](https://en.wikipedia.org/wiki/Simple_pendulum) with [monotonically](https://en.wikipedia.org/wiki/Monotonic) increasing lengths: from travelling waves, [standing waves](https://en.wikipedia.org/wiki/Standing_wave), to [beats](https://en.wikipedia.org/wiki/Beat_(acoustics)), and [chaos](https://en.wikipedia.org/wiki/Chaos_theory).
-			- Aliasing as well as the [Gestalt priciple of continuation](https://en.wikipedia.org/wiki/Principles_of_grouping#Good_continuation) is the basic connection in [Unithread](#66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d), particularly shown as the [<span class="link-h3">ω-abstraction</span>](#67654618-70d2-49cd-88b7-f7c4e161dfd9) in [<span class="link-h3">SCIFER</span>](#66f40210-cca6-4d81-85e7-d0c54ef20451) mechanism.
+		- [Wiki:](Namespace.cm.md#665359c0-a89a-41b5-9f28-503f79107a08) https://en.wikipedia.org/wiki/Pendulum_wave
+		- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) [<span class="link-h2">pendulum wave</span>](#676539ca-ff29-4749-ab33-b00dfe8fb936) is a physics toy using spatial [aliasing](https://en.wikipedia.org/wiki/Aliasing#Sampling_sinusoidal_functions) to demonstrate the [emergence](#66c30b69-5b96-4793-bcce-bce51553a454) of various types of waveforms in a simple array of uncoupled [simple pendulums](https://en.wikipedia.org/wiki/Simple_pendulum) with [monotonically](https://en.wikipedia.org/wiki/Monotonic) increasing lengths: from travelling waves, [standing waves](https://en.wikipedia.org/wiki/Standing_wave), to [beats](https://en.wikipedia.org/wiki/Beat_(acoustics)), and [chaos](https://en.wikipedia.org/wiki/Chaos_theory).
+			- Aliasing as well as the [Gestalt priciple of continuation](https://en.wikipedia.org/wiki/Principles_of_grouping#Good_continuation) is the basic connection in [Unithread](Uniinfo.cm.md#66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d), particularly shown as the [<span class="link-h3">ω-abstraction</span>](Uniinfo.cm.md#67654618-70d2-49cd-88b7-f7c4e161dfd9) in [<span class="link-h3">SCIFER</span>](Uniinfo.cm.md#66f40210-cca6-4d81-85e7-d0c54ef20451) mechanism.
 			- This aliasing can also be in in [oscilloscope](https://en.wikipedia.org/wiki/Oscilloscope).
 - <zwsp>
