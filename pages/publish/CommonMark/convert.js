@@ -1,44 +1,13 @@
 const fs = require('fs');
 const path = require('path');
 
-// Configuration
-const args = process.argv.slice(2);
-
-if (args.length < 1) {
-    console.error('Usage: node convert.js <input_file> [output_file]');
-    process.exit(1);
-}
-
-const INPUT_FILE = path.resolve(args[0]);
-const BASE_DIR = path.dirname(INPUT_FILE); // Assuming Namespace is relative to input or in a fixed location relative to repo
-
-// Try to find Namespace.md. 
-// Strategy: Look in the same directory as input, or go up until found, or assume fixed path if known structure.
-// Given the user's repo structure seems to be `pages/`, we can try to find `pages/Namespace.md`.
-// For now, let's assume it's in the same directory as the input file, or we can fallback to a fixed path if we knew the repo root.
-// Let's rely on the input file's directory for now.
-const NAMESPACE_FILE = path.join(path.dirname(INPUT_FILE), 'Namespace.md');
-
-// Output file
-let OUTPUT_FILE;
-if (args[1]) {
-    OUTPUT_FILE = path.resolve(args[1]);
-} else {
-    // Default: pages/publish/CommonMark/<filename>.cm.md
-    const fileName = path.basename(INPUT_FILE, path.extname(INPUT_FILE)) + '.cm.md';
-    OUTPUT_FILE = path.join(path.dirname(INPUT_FILE), 'publish', 'CommonMark', fileName);
-}
-
-console.log(`Input: ${INPUT_FILE}`);
-console.log(`Namespace: ${NAMESPACE_FILE}`);
-console.log(`Output: ${OUTPUT_FILE}`);
-
 // Regex Patterns
 const PAT_PROP = /^\s*(\w+):: (.*)$/;
 const PAT_LB_START = /^\s*:(logbook|LOGBOOK):$/;
 const PAT_LB_END = /^\s*:END:$/;
 const PAT_ITEM = /^(\t*)-( |$)/;
 const PAT_UUID_REF = /\(\(([0-9a-fA-F-]{36})\)\)/g;
+const PAT_BRACKET_UUID_REF = /\[\[([0-9a-fA-F-]{36})\]\]/g;
 const PAT_LINK_REF = /\[([^\[\]]*)\]\(\(\(([0-9a-fA-F-]{36})\)\)(?: "([^"]*)")?\)/g;
 const PAT_ID_PROP = /id::\s*([0-9a-fA-F-]{36})/;
 
@@ -51,51 +20,78 @@ function escapeXML(str) {
         .replace(/'/g, '&apos;');
 }
 
-// 1. Load Namespace Mapping (UUID -> Title)
-function loadNamespace(filePath) {
-    const mapping = {};
-    const lineMap = {};
-    if (!fs.existsSync(filePath)) {
-        console.warn(`Warning: Namespace file not found at ${filePath}`);
-        return { titleMap: mapping, lineMap };
-    }
-    try {
-        const content = fs.readFileSync(filePath, 'utf8');
-        const lines = content.split('\n');
-        let currentText = null;
-
-        for (let i = 0; i < lines.length; i++) {
-            let line = lines[i].trim();
-            if (!line) continue;
-
-            const idMatch = line.match(PAT_ID_PROP);
-            if (idMatch) {
-                const uuid = idMatch[1];
-                let textPart = line.replace(idMatch[0], '').trim();
-
-                if (textPart && textPart !== '-') {
-                    mapping[uuid] = textPart.replace(/^(\t*|- )+/, '').trim();
-                } else if (currentText) {
-                    mapping[uuid] = currentText;
-                }
-                lineMap[uuid] = { srcLine: i + 1, srcFile: filePath }; // source line number (1‑based)
-            } else {
-                let cleanText = line.replace(/^(\t*|- )+/, '').trim();
-                if (!cleanText.startsWith('collapsed::') &&
-                    !cleanText.startsWith(':LOGBOOK:') &&
-                    !cleanText.startsWith('CLOCK:') &&
-                    !cleanText.startsWith(':END:')) {
-                    currentText = cleanText;
-                }
-            }
-        }
-    } catch (e) {
-        console.error('Error loading namespace:', e);
-    }
-    return { titleMap: mapping, lineMap };
+// Helper to create URL-friendly slugs
+function slugify(str) {
+    return str
+        .toLowerCase()
+        .replace(/[^\w]+/g, '-') // replace non-word chars with dash
+        .replace(/^-+|-+$/g, ''); // trim leading/trailing dashes
 }
 
-// 2. Index Internal Blocks (UUID -> Title)
+// Simple argument parser for CLI flags
+const args = process.argv.slice(2);
+let indexFile = path.resolve('index.json');
+let outputPathArg = null;
+const inputs = [];
+
+for (let i = 0; i < args.length; i++) {
+    if (args[i] === '-i') {
+        if (i + 1 < args.length) {
+            indexFile = path.resolve(args[i + 1]);
+            i++;
+        } else {
+            console.error('Error: -i requires a file path argument');
+            process.exit(1);
+        }
+    } else if (args[i] === '-o') {
+        if (i + 1 < args.length) {
+            outputPathArg = path.resolve(args[i + 1]);
+            i++;
+        } else {
+            console.error('Error: -o requires a path argument');
+            process.exit(1);
+        }
+    } else {
+        inputs.push(path.resolve(args[i]));
+    }
+}
+
+if (inputs.length === 0) {
+    console.error('Usage: node convert.js [-i <index_file>] [-o <output_path>] <inputs...>');
+    process.exit(1);
+}
+
+// Recursively find all markdown files in input paths
+function getMarkdownFiles(paths) {
+    const mdFiles = [];
+    
+    function walk(currentPath) {
+        if (!fs.existsSync(currentPath)) return;
+        
+        const stat = fs.statSync(currentPath);
+        if (stat.isDirectory()) {
+            const base = path.basename(currentPath);
+            // Skip hidden directories, node_modules, and output directories
+            if (base.startsWith('.') || base === 'node_modules' || base === 'publish' || base === 'CommonMark') {
+                return;
+            }
+            const children = fs.readdirSync(currentPath);
+            for (const child of children) {
+                walk(path.join(currentPath, child));
+            }
+        } else if (stat.isFile() && path.extname(currentPath).toLowerCase() === '.md') {
+            mdFiles.push(currentPath);
+        }
+    }
+    
+    for (const p of paths) {
+        walk(p);
+    }
+    
+    return mdFiles;
+}
+
+// 1. Index Internal Blocks (UUID -> Title) for local freshness override
 function indexInternalBlocks(filePath) {
     const mapping = {};
     const lineMap = {};
@@ -147,7 +143,7 @@ function indexInternalBlocks(filePath) {
     return { titleMap: mapping, lineMap };
 }
 
-// 3. Convert File
+// 2. Convert File
 function convertFile(inputPath, outputPath, uuidMap, sourceLineMap) {
     try {
         const content = fs.readFileSync(inputPath, 'utf8');
@@ -180,10 +176,11 @@ function convertFile(inputPath, outputPath, uuidMap, sourceLineMap) {
                 let anchor = '<a class="logseq-meta" ';
                 if (props.id) {
                     anchor += `id="${props.id}" `;
-                    // Record output line for this UUID
+                    // Record output line and file for this UUID
                     const uuid = props.id;
                     if (!sourceLineMap[uuid]) sourceLineMap[uuid] = {};
                     sourceLineMap[uuid].outLine = outputLine; // current line will be the previous one
+                    sourceLineMap[uuid].outFile = outputPath;
                     delete props.id;
                 }
                 for (let key in props) { anchor += `data-${key}="${props[key]}" `; }
@@ -206,6 +203,7 @@ function convertFile(inputPath, outputPath, uuidMap, sourceLineMap) {
                 const uuid = props.id;
                 if (!sourceLineMap[uuid]) sourceLineMap[uuid] = {};
                 sourceLineMap[uuid].outLine = outputLine;
+                sourceLineMap[uuid].outFile = outputPath;
                 currentBlockIsHeader = false;
                 currentBlockIsEmptyTitle = true;
                 hasAddedContinuationContent = false;
@@ -231,7 +229,7 @@ function convertFile(inputPath, outputPath, uuidMap, sourceLineMap) {
                 }
             }
 
-            // Link processing
+            // Link processing (standard markdown style [text](((uuid))) or [text]([[uuid]]))
             ln = ln.replace(PAT_LINK_REF, (match, text, uuid, title) => {
                 let displayTitle = text || title || uuidMap[uuid] || uuid;
                 const headerMatch = displayTitle.match(/^(#+)\s+(.*)$/);
@@ -242,6 +240,8 @@ function convertFile(inputPath, outputPath, uuidMap, sourceLineMap) {
                 }
                 return `[${displayTitle}](#${uuid})`;
             });
+            
+            // Legacy link syntax support: ((UUID))
             ln = ln.replace(PAT_UUID_REF, (match, uuid) => {
                 let title = uuidMap[uuid] || uuid;
                 const headerMatch = title.match(/^(#+)\s+(.*)$/);
@@ -253,18 +253,39 @@ function convertFile(inputPath, outputPath, uuidMap, sourceLineMap) {
                 return `[${title}](#${uuid})`;
             });
 
-            // After link processing, record the output line for any UUID that appears in this line
+            // New link syntax support: [[UUID]]
+            ln = ln.replace(PAT_BRACKET_UUID_REF, (match, uuid) => {
+                let title = uuidMap[uuid] || uuid;
+                const headerMatch = title.match(/^(#+)\s+(.*)$/);
+                if (headerMatch) {
+                    const level = headerMatch[1].length;
+                    const content = headerMatch[2];
+                    title = `<span class=\"link-h${level}\">${content}</span>`;
+                }
+                return `[${title}](#${uuid})`;
+            });
+
+            // After link processing, record the output line and file for any UUID that appears in this line
             // This handles UUIDs that are only referenced (no metadata anchor)
             for (const match of ln.matchAll(PAT_UUID_REF)) {
                 const uuid = match[1];
                 if (sourceLineMap[uuid] && !sourceLineMap[uuid].outLine) {
                     sourceLineMap[uuid].outLine = outputLine + 1; // the line we are about to write
+                    sourceLineMap[uuid].outFile = outputPath;
+                }
+            }
+            for (const match of ln.matchAll(PAT_BRACKET_UUID_REF)) {
+                const uuid = match[1];
+                if (sourceLineMap[uuid] && !sourceLineMap[uuid].outLine) {
+                    sourceLineMap[uuid].outLine = outputLine + 1; // the line we are about to write
+                    sourceLineMap[uuid].outFile = outputPath;
                 }
             }
             for (const match of ln.matchAll(PAT_LINK_REF)) {
                 const uuid = match[2];
                 if (sourceLineMap[uuid] && !sourceLineMap[uuid].outLine) {
                     sourceLineMap[uuid].outLine = outputLine + 1;
+                    sourceLineMap[uuid].outFile = outputPath;
                 }
             }
 
@@ -279,49 +300,154 @@ function convertFile(inputPath, outputPath, uuidMap, sourceLineMap) {
         fs.writeFileSync(outputPath, nmd, 'utf8');
         console.log(`Successfully converted to ${outputPath}`);
 
-        // Helper to create URL-friendly slugs
-        function slugify(str) {
-            return str
-                .toLowerCase()
-                .replace(/[^\w]+/g, '-') // replace non-word chars with dash
-                .replace(/^-+|-+$/g, ''); // trim leading/trailing dashes
-        }
-
-        // Write the combined index (source and output line numbers) to project root
-        const indexPath = path.resolve('index.json');
-        const combinedIndex = {};
-        for (const uuid in sourceLineMap) {
-            const entry = sourceLineMap[uuid];
-            combinedIndex[uuid] = {
-                sourceFile: entry.srcLine ? (entry.srcFile || INPUT_FILE) : null,
-                outputFile: OUTPUT_FILE,
-                sourceLine: entry.srcLine || null,
-                outputLine: entry.outLine || null,
-                title: titleMap[uuid] || '',
-                slug: slugify(titleMap[uuid] || '')
-            };
-        }
-        fs.writeFileSync(indexPath, JSON.stringify(combinedIndex, null, 2), 'utf8');
-        console.log('UUID index written to', indexPath);
-
     } catch (e) {
         console.error('Error converting file:', e);
     }
 }
 
-// Main Execution
-console.log('Loading Namespace...');
-const { titleMap: nsMap, lineMap: nsLineMap } = loadNamespace(NAMESPACE_FILE);
-console.log(`Loaded ${Object.keys(nsMap).length} external definitions.`);
+// Determine target output path dynamically based on inputs and flags
+function determineOutputPath(inputFile, outputPathArg, isSingleInput) {
+    if (outputPathArg) {
+        let isDir = false;
+        try {
+            if (fs.existsSync(outputPathArg)) {
+                isDir = fs.statSync(outputPathArg).isDirectory();
+            } else {
+                isDir = outputPathArg.endsWith('/') || outputPathArg.endsWith('\\') || !isSingleInput;
+            }
+        } catch (e) {
+            isDir = !isSingleInput;
+        }
 
-console.log('Indexing Internal Blocks...');
-const { titleMap: internalMap, lineMap: internalLineMap } = indexInternalBlocks(INPUT_FILE);
-console.log(`Indexed ${Object.keys(internalMap).length} internal blocks.`);
+        if (isDir) {
+            const fileName = path.basename(inputFile, path.extname(inputFile)) + '.cm.md';
+            return path.join(outputPathArg, fileName);
+        } else {
+            return outputPathArg;
+        }
+    } else {
+        const fileName = path.basename(inputFile, path.extname(inputFile)) + '.cm.md';
+        return path.join(path.dirname(inputFile), 'publish', 'CommonMark', fileName);
+    }
+}
 
-// Merge maps (Internal overrides Namespace if conflict, though unlikely)
-const titleMap = { ...nsMap, ...internalMap };
-// Combine line maps for source line numbers
-const sourceLineMap = { ...nsLineMap, ...internalLineMap };
+// MAIN BATCH EXECUTION
 
-console.log('Converting File...');
-convertFile(INPUT_FILE, OUTPUT_FILE, titleMap, sourceLineMap);
+// 1. Gather all files to process
+console.log('Scanning inputs for Markdown files...');
+const mdFiles = getMarkdownFiles(inputs);
+console.log(`Found ${mdFiles.length} Markdown file(s) to convert.`);
+
+if (mdFiles.length === 0) {
+    console.log('No files to process. Exiting.');
+    process.exit(0);
+}
+
+// 2. Load global index if it exists
+let globalIndex = {};
+if (fs.existsSync(indexFile)) {
+    try {
+        globalIndex = JSON.parse(fs.readFileSync(indexFile, 'utf8'));
+        console.log(`Loaded ${Object.keys(globalIndex).length} external definitions from index.`);
+    } catch (e) {
+        console.error(`Warning: Failed to load index from ${indexFile}:`, e);
+    }
+}
+
+// 3. Build base maps from global index
+const titleMap = {};
+const sourceLineMap = {};
+
+for (const uuid in globalIndex) {
+    const entry = globalIndex[uuid];
+    titleMap[uuid] = entry.title || '';
+    sourceLineMap[uuid] = {
+        srcLine: entry.sourceLine || null,
+        srcFile: entry.sourceFile || null,
+        outLine: entry.outputLine || null,
+        outFile: entry.outputFile || null
+    };
+}
+
+// 4. Process each file in the batch
+const isSingleInput = mdFiles.length === 1;
+
+for (const file of mdFiles) {
+    console.log(`\nProcessing file: ${file}`);
+    
+    // Index internal blocks to get fresh local overrides for this file
+    const { titleMap: localTitleMap, lineMap: localLineMap } = indexInternalBlocks(file);
+    console.log(`Indexed ${Object.keys(localTitleMap).length} internal blocks for local override.`);
+    
+    // Merge internal blocks (local overrides global mapping)
+    const activeTitleMap = { ...titleMap, ...localTitleMap };
+    
+    // Merge line maps to preserve source lines
+    const activeSourceLineMap = { ...sourceLineMap };
+    for (const uuid in localLineMap) {
+        activeSourceLineMap[uuid] = {
+            ...activeSourceLineMap[uuid],
+            srcLine: localLineMap[uuid].srcLine,
+            srcFile: localLineMap[uuid].srcFile
+        };
+    }
+    
+    const outputPath = determineOutputPath(file, outputPathArg, isSingleInput);
+    console.log(`Output target: ${outputPath}`);
+    
+    // Convert the file
+    convertFile(file, outputPath, activeTitleMap, activeSourceLineMap);
+    
+    // Propagate all updates back to our in-memory mappings
+    for (const uuid in activeTitleMap) {
+        titleMap[uuid] = activeTitleMap[uuid];
+    }
+    for (const uuid in activeSourceLineMap) {
+        sourceLineMap[uuid] = activeSourceLineMap[uuid];
+    }
+}
+
+// 5. Update global index with combined results
+for (const uuid in sourceLineMap) {
+    const entry = sourceLineMap[uuid];
+    
+    if (!globalIndex[uuid]) {
+        globalIndex[uuid] = {};
+    }
+    
+    // Update source attributes
+    if (entry.srcLine) globalIndex[uuid].sourceLine = entry.srcLine;
+    if (entry.srcFile) globalIndex[uuid].sourceFile = entry.srcFile;
+    
+    // Update output attributes
+    if (entry.outLine !== null && entry.outLine !== undefined) {
+        globalIndex[uuid].outputLine = entry.outLine;
+    }
+    if (entry.outFile) {
+        globalIndex[uuid].outputFile = entry.outFile;
+    }
+    
+    // Update title & slug if they exist
+    if (titleMap[uuid]) {
+        globalIndex[uuid].title = titleMap[uuid];
+        globalIndex[uuid].slug = slugify(titleMap[uuid]);
+    }
+    
+    // Clean up empty fields
+    if (!globalIndex[uuid].sourceLine) globalIndex[uuid].sourceLine = null;
+    if (!globalIndex[uuid].sourceFile) globalIndex[uuid].sourceFile = null;
+    if (!globalIndex[uuid].outputLine) globalIndex[uuid].outputLine = null;
+    if (!globalIndex[uuid].outputFile) globalIndex[uuid].outputFile = null;
+}
+
+// 6. Save the updated global index
+try {
+    const indexDir = path.dirname(indexFile);
+    if (!fs.existsSync(indexDir)) {
+        fs.mkdirSync(indexDir, { recursive: true });
+    }
+    fs.writeFileSync(indexFile, JSON.stringify(globalIndex, null, 2), 'utf8');
+    console.log(`\nGlobal index successfully updated at ${indexFile}`);
+} catch (e) {
+    console.error('Error saving updated global index:', e);
+}
