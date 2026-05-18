@@ -1614,6 +1614,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- “When you have reached the top of the mountain, keep climbing!”
 							  a (Tibetan Zen) proverb
 					- The “reverse symptoms” triggered by the reset button push
+					  id:: 6a0a6a2d-2cf0-43e7-bc75-bd74e22683b3
 					  collapsed:: true
 						- The Conscious Reset
 							- Concept: A manual, high-amplitude “internal stretch” or centralized [pandiculation](https://health.clevelandclinic.org/why-does-pandiculation-feel-so-good) that forces a total system synchronization.
