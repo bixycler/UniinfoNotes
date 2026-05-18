@@ -9,7 +9,7 @@ const PAT_ITEM = /^(\t*)-( |$)/;
 const PAT_UUID_REF = /\(\(([0-9a-fA-F-]{36})\)\)/g;
 const PAT_BRACKET_UUID_REF = /\[\[([0-9a-fA-F-]{36})\]\]/g;
 const PAT_LINK_REF = /\[([^\[\]]*)\]\(\(\(([0-9a-fA-F-]{36})\)\)(?: "([^"]*)")?\)/g;
-const PAT_ID_PROP = /id::\s*([0-9a-fA-F-]{36})/;
+const PAT_ID_PROP = /^id::\s*([0-9a-fA-F-]{36})\s*$/;
 
 // Helper to escape XML/HTML attributes
 function escapeXML(str) {

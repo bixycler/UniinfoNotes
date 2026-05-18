@@ -113,7 +113,7 @@
 				- [![EffectCircle](https://docs.google.com/drawings/d/e/2PACX-1vR9OJ5byY9Gqnzh6djhbbAmP2FMOOrhHjYT8cW9dee3DT-2-PtnffiOmHvmzehNgmMWaPL4lj2butTo/pub?w=800){:height 684, :width 790}](../../../publish/CommonMark/Uniinfo.cm.md#6835b165-8a07-4156-9440-a4536b5c8be3)
 			- ![](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/photos/photo_24@07-04-2024_21-19-24.jpg){:width 300}
 			- ![](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/photos/photo_25@07-04-2024_21-19-24.jpg){:width 300}
-		- [The ((687f322c-2334-46e5-816b-57889e5c6b89)) = the self-sustained = the self-sustaining = the thing existing before, alongside (i.e. sustenance), and after (i.e. the sustained) the Extent](../../../publish/CommonMark/Uniinfo.cm.md#684c2e6e-f75f-4916-9f1c-4375d42d8604)
+		- [The sustent = the self-sustained = the self-sustaining = the thing existing before, alongside (i.e. sustenance), and after (i.e. the sustained) the Extent](../../../publish/CommonMark/Uniinfo.cm.md#684c2e6e-f75f-4916-9f1c-4375d42d8604)
 		- All past participles of Latin verbs:
 			- Sustent ~ sustentus <- sustain ~ sustinēre
 			- Content ~ contentus <- contain ~ continēre

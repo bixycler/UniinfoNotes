@@ -1,8 +1,8 @@
 - # Story <a class="logseq-meta" id="66b1bbf3-ac04-4d4c-a343-d75130323a7f" ></a>
-	- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) This is the life story of [<span class="link-h2">Will LÊ</span>](Mind Jungle.cm.md#66536578-c4d3-43f1-b35c-bf71120f0570).
+	- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) This is the life story of [<span class="link-h2">Will LÊ</span>](Mind%20Jungle.cm.md#66536578-c4d3-43f1-b35c-bf71120f0570).
 	- ## Story History <a class="logseq-meta" id="677639ad-7699-4170-a2e3-111a71823794" ></a>
-		- [2024 Stories](#67763a23-89ff-48dc-a3f4-df432c6810c2)
-		- [2025 Stories](#67763a41-4ad6-449f-9d9b-d63ce417082c)
+		- [2024 Stories](../../history/publish/CommonMark/2024%20Stories.cm.md#67763a23-89ff-48dc-a3f4-df432c6810c2)
+		- [2025 Stories](../../history/publish/CommonMark/2025%20Stories.cm.md#67763a41-4ad6-449f-9d9b-d63ce417082c)
 		- [<span class="link-h2">2026 Stories</span>](#6960e36c-4d9a-42cb-8d78-3f41ad3ff419)
 	- ## 2026 Stories <a class="logseq-meta" id="6960e36c-4d9a-42cb-8d78-3f41ad3ff419" ></a>
 		- January journal <a class="logseq-meta" id="6960ec3a-b9a9-4fcd-b2f7-4424575c3da4" data-collapsed="true" ></a>
@@ -16,7 +16,7 @@
 					- As a man, the arrow coils up into a deep urge underlying all actions.
 						- That arrow continuously transforms the view in space to push it forward in time.
 						- So time is constantly flowing inside no matter how static the outside.
-				- Remember [the previous trips](#6926be24-7c66-4374-8789-6dc01e02580f): At ground state, i see the total entropy doesn't increase, it just stays as is, the external increase is balanced by the internal decrease, and vice versa. <a class="logseq-meta" data-collapsed="true" ></a>
+				- Remember [the previous trips](../../history/publish/CommonMark/2025%20Stories.cm.md#6926be24-7c66-4374-8789-6dc01e02580f): At ground state, i see the total entropy doesn't increase, it just stays as is, the external increase is balanced by the internal decrease, and vice versa. <a class="logseq-meta" data-collapsed="true" ></a>
 					- That's why i say “it's never enough for an individual, but never lacking for the whole.”
 					- Will: I see the fundamental "flaw" in "ever increasing entropy" theory lies in the particle-based view, which is inherent to thermodynamics and the ego/self. That's why i asked about the "identity difference" earlier. We see "entropy increases" due to our ego-centric view of everyday life, as a super massive particle (in de Broglie's language).
 					- Chatbot: If we were not "massive particles" trying to track "individual identities," we would see a single, unified quantum state that doesn't "increase" in anything—it just is. The "ever-increasing entropy" is effectively the shadow cast by our own limited perspective as we drift away from the universal ground state.
@@ -46,7 +46,7 @@
 				- Two 10h-sleeps ended with deep awakening insights.  <a class="logseq-meta" data-collapsed="true" ></a>
 					- Saturday: breath can unblock the system (threads, vessels, meridians), clear delusion -> fluidify crystal forms -> dissolve self -> resolve greed & aversion
 						- The form of all selves are equal, either higher self or lower self.
-						- The ground state is *both more dead and more alive* as shown in my [previous experiences](#684f951a-b5ca-44a7-b9a3-df1538310721).
+						- The ground state is *both more dead and more alive* as shown in my [previous experiences](../../history/publish/CommonMark/2025%20Stories.cm.md#684f951a-b5ca-44a7-b9a3-df1538310721).
 					- Sunday: (connection graph & hierarchy tree = spatial/physical body) vs (individual history = time) vs (global history + mixing + common extraction = multidimensional info body out of spacetime)
 						- Fluidification through self-dissolution to return to the common root versus fluidization by external heat/fluid
 							- Normal op-mode: the core is a cold crystal defining rules for hot peripherals to works. Each peripheral part is hot by attention & energy concentration on it.
@@ -112,7 +112,7 @@
 						  surrealdb-1  | 2026-01-26T13:18:55.888657Z ERROR surreal::cli: There was a problem with the database: There was a problem with a datastore transaction: Failed to create RocksDB directory: `Os { code: 13, kind: PermissionDenied, message: "Permission denied" }`.
 						  ```
 					- DONE After 3 months, getting back with Open Notebook version 1.8.5, and i's working. 😁 <a class="logseq-meta" id="69f03316-1301-4b74-a2fe-28ee0eb026bf" data-collapsed="true" data-logbook="CLOCK: [2026-04-28 Tue 11:10:04]&#10;CLOCK: [2026-04-28 Tue 11:10:06]--[2026-04-29 Wed 20:39:59] =&gt;  33:29:53&#10;" ></a>
-						- It's far from the [NotebookLM](Mind Jungle.cm.md#67a5faeb-c506-42b8-b989-9a7179fe02b3) in proficiency! Basically it's just vector RAG + insight extraction + summarization, no strutural organization nor research skills.
+						- It's far from the [NotebookLM](Mind%20Jungle.cm.md#67a5faeb-c506-42b8-b989-9a7179fe02b3) in proficiency! Basically it's just vector RAG + insight extraction + summarization, no strutural organization nor research skills.
 						- Version check <a class="logseq-meta" data-collapsed="true" ></a>
 						  <br>`docker compose exec open_notebook cat /app/pyproject.toml | less`
 							- ```toml
@@ -152,7 +152,7 @@
 				- [Zed](https://zed.dev): an interesting code editor with AI agents, written in Rust for high-speed [GPUI](https://docs.rs/gpui_rn/latest/gpui/), but still in active dev phase.
 					- My first [testZed](../assets/Will/story/2026-01/testZed.md) showed a bug right in the AI settings.
 				- [FRED](http://wit.istc.cnr.it/stlab-tools/fred/demo/): a tool for automatically producing RDF/OWL ontologies and linked data from natural language sentences... but it generates too complicated RDF for a simple sentence like “I am a man.”
-			- 29th, kick start [Corkei](#697b4547-9b65-4a96-b3d1-55245377c796) <a class="logseq-meta" data-collapsed="true" ></a>
+			- 29th, kick start [Corkei](Uniinfo.cm.md#697b4547-9b65-4a96-b3d1-55245377c796) <a class="logseq-meta" data-collapsed="true" ></a>
 				- I asked Antigrvity to initialize the core of Corkei and received 3 different plans from different models.
 					- ![My prompt](../assets/Will/story/2026-01/Corkei-init-prompt.md)
 					- ![Gemini 3 Flash](../assets/Will/story/2026-01/Corkei-init-plan-Gemini3Flash.md): the simplest plan.
@@ -172,9 +172,9 @@
 						- [Attention Sink](https://www.linkedin.com/posts/ashutosh-kumar-852646165_github-sail-sgattention-sink-iclr-2025-activity-7369351074589151233-xRYC) stems from the softmax function, which requires all attention scores to sum to 1. Early tokens act as a "sink" for the model to deposit unused attention.
 					- Thought Signature is equivalent of context cache id for thoughts.
 						- While cache is optional because the model can reconstruct its mental state (attention) from conversation history, thought signature is mandatory in tool call because full thoughts are not available to user.
-				- [<span class="link-h2">Omnifold</span>](#675c03d8-3185-41a8-9f98-e869fabec793) ~ [hypercube](https://en.wikipedia.org/wiki/Hypercube) ⇒ traverse in a direction $v = (v_1, v_2,..., v_n)$ => thread in structure of tree view from order $v_1 > v_2 > ... > v_n$ ⇒ .... `exp()` dynamics !?🤔
+				- [<span class="link-h2">Omnifold</span>](Uniinfo.cm.md#675c03d8-3185-41a8-9f98-e869fabec793) ~ [hypercube](https://en.wikipedia.org/wiki/Hypercube) ⇒ traverse in a direction $v = (v_1, v_2,..., v_n)$ => thread in structure of tree view from order $v_1 > v_2 > ... > v_n$ ⇒ .... `exp()` dynamics !?🤔
 					- The action at leaf node is driven by the intent chain where each intent is an apex of a view cone => multiple layers of cause cones
-					- Hypercube's orthographic projections & Petrie polygons ⇒ [Corkei's emblem](#698430b7-d336-44c4-a2e7-5a90d0f4af7e) <a class="logseq-meta" data-collapsed="true" ></a>
+					- Hypercube's orthographic projections & Petrie polygons ⇒ [Corkei's emblem](Uniinfo.cm.md#698430b7-d336-44c4-a2e7-5a90d0f4af7e) <a class="logseq-meta" data-collapsed="true" ></a>
 						- 1-cube → 8-cube 
 						  <br>![Hypercube-Petrie-polygon-Orthographic-projections](../assets/Will/story/2026-01/N-dimensional-Hypercube-Petrie-polygon-Orthographic-projections-from-n-1-up-to-n-8.png)
 						- 9-cube
@@ -202,13 +202,13 @@
 					- TODO Test multi-shot prompting for Gemma models <a class="logseq-meta" data-logbook="CLOCK: [2026-02-06 Fri 18:40:01]&#10;CLOCK: [2026-02-06 Fri 18:40:02]&#10;" ></a>
 					- DONE Update Mind Chips README: These mind chips are created with ~~GitJournal~~ Markor and synced with ~~GitSync~~ [MGit](https://github.com/maks/MGit).
 		- Wrap up 2025 with my karma clearly shown through daily journaling. <a class="logseq-meta" id="695f83ed-08ed-4265-b6c1-7bed98a40028" data-collapsed="true" data-logbook="CLOCK: [2026-01-08 Thu 17:17:27]&#10;CLOCK: [2026-01-08 Thu 17:17:28]&#10;CLOCK: [2026-01-08 Thu 17:17:30]--[2026-01-09 Fri 19:41:19] =&gt;  26:23:49&#10;" ></a>
-			- The journals in [<span class="link-h3">July – December</span>](#68662950-3ada-42ea-928d-9700209e1501) have clearly shown my karma and slavery: No self-control at all, completely useless in unfavorable situations!
+			- The journals in [<span class="link-h3">July – December</span>](../../history/publish/CommonMark/2025%20Braindumps.cm.md#68662950-3ada-42ea-928d-9700209e1501) have clearly shown my karma and slavery: No self-control at all, completely useless in unfavorable situations!
 				- From July to November, in the environment of uninteresting (mechanical) works and unfavorable leader (distant from me), i struggled in vain to do official works.
-				- After just a month of daily journaling, i've seen clearly that [i'm helpless with my karma](#6926be23-764f-4670-8f95-8a4da43ace96). The helpless wrestle the next 4 months ended up in the final collapsed on [Dec 2nd](#692e55b4-90f1-42dd-a8e1-98fdcc16332e).
+				- After just a month of daily journaling, i've seen clearly that [i'm helpless with my karma](../../history/publish/CommonMark/2025%20Stories.cm.md#6926be23-764f-4670-8f95-8a4da43ace96). The helpless wrestle the next 4 months ended up in the final collapsed on [Dec 2nd](../../history/publish/CommonMark/2025%20Stories.cm.md#692e55b4-90f1-42dd-a8e1-98fdcc16332e).
 					- I called it “the worst (unexplainable) experiences of self-control” in commit [db864814](https://github.com/bixycler/UniinfoNotes/commit/db864814).
 				- Last month, December, returning to my favorable environment, it's shown that all of my “commitment” to the official works is from my karmic hooks, not any self-control at all! That means i have no commitment myself.
-			- While no planning nor self-control are effective, my long-term training has some visible results in my bodymind: [<span class="link-h3">reset</span>](Mind Jungle.cm.md#67445065-15b2-475e-a704-78f140d487af) has become [reflexive](#694bc610-c76f-47db-8210-f02b733096f0).
-			- [<span class="link-h2">Logseq</span>](Mind Jungle.cm.md#66536e1b-6466-4153-90d6-583003d99a81) really lags in large pages like [[Mind Jungle]] and [[Story]].
+			- While no planning nor self-control are effective, my long-term training has some visible results in my bodymind: [<span class="link-h3">reset</span>](Mind%20Jungle.cm.md#67445065-15b2-475e-a704-78f140d487af) has become [reflexive](../../history/publish/CommonMark/2025%20Stories.cm.md#694bc610-c76f-47db-8210-f02b733096f0).
+			- [<span class="link-h2">Logseq</span>](Mind%20Jungle.cm.md#66536e1b-6466-4153-90d6-583003d99a81) really lags in large pages like [[Mind Jungle]] and [[Story]].
 				- They have similar size of 700+kB, while rather different lines number (9k vs 6k).
 				- So, the size does matter, not the lines.
 			- TODO [!] `publish/CommonMark/Mind Jungle.cm.md` has invalid Advanced Query due to redundant `<br>`

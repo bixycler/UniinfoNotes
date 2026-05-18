@@ -1,7 +1,7 @@
 - # Braindump <a class="logseq-meta" id="67760c3e-2ed3-4b91-9698-8dea6913e419" ></a>
-	- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) This is the [<span class="link-h2">braindumping</span>](Mind Jungle.cm.md#6667bf32-ab6a-4d64-842d-45d49137e694) place for [<span class="link-h2">Will LÊ</span>](Mind Jungle.cm.md#66536578-c4d3-43f1-b35c-bf71120f0570) as well as the store of recent braindumps.
+	- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) This is the [<span class="link-h2">braindumping</span>](Mind%20Jungle.cm.md#6667bf32-ab6a-4d64-842d-45d49137e694) place for [<span class="link-h2">Will LÊ</span>](Mind%20Jungle.cm.md#66536578-c4d3-43f1-b35c-bf71120f0570) as well as the store of recent braindumps.
 	- ## Braindump History
-		- [2025 Braindumps](#67760c3e-10a7-4621-8623-383f44bdaf3c)
+		- [2025 Braindumps](../../history/publish/CommonMark/2025%20Braindumps.cm.md#67760c3e-10a7-4621-8623-383f44bdaf3c)
 		- [<span class="link-h2">2026 Braindumps</span>](#6960e589-a505-4522-b1e8-687dc035ac38)
 	- ## 2026 Braindumps <a class="logseq-meta" id="6960e589-a505-4522-b1e8-687dc035ac38" ></a>
 	- ## Braindumping < [<span class="link-h2">2026 Braindumps</span>](#6960e589-a505-4522-b1e8-687dc035ac38) <a class="logseq-meta" id="db954501-95d0-46e2-b1fc-39b6a966300e" ></a>
@@ -9,4 +9,4 @@
 		- DOING Upgrade `gc-log-graph` to Solid to improve performance <a class="logseq-meta" id="699c035e-c811-43ad-95e5-79ca991a611b" data-collapsed="true" data-logbook="CLOCK: [2026-01-14 Wed 20:27:56]&#10;CLOCK: [2026-03-11 Wed 14:13:56]&#10;" ></a>
 			- <zwsp>
 			- TODO Check `npm run build` to publish `assets/` as is and include `.sh`, `.log` files.
-		- [TODO [!] `publish/CommonMark/Mind Jungle.cm.md` has invalid Advanced Query due to redundant `<br>`](#6960d920-8f7f-46cb-9515-107ace0e0716)
+		- [TODO [!] `publish/CommonMark/Mind Jungle.cm.md` has invalid Advanced Query due to redundant `<br>`](Story.cm.md#6960d920-8f7f-46cb-9515-107ace0e0716)

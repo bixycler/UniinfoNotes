@@ -10,7 +10,7 @@
 		- Conscious breathing is the best way to release & resolve emotions.
 			- With concetrated observation, the conscious breath can effectively cleanse and transform the underlying condensate.
 			- My tendency is toward resolution more than releasing. It makes me suffer longer with attachments.
-			- So the [<span class="link-h3">sublime–channel</span>](../../../publish/CommonMark/Mind Jungle.cm.md#668f5490-c223-4a8a-9cc4-0bd71af4c097) technique is essential for me to transform and resolve them.
+			- So the [<span class="link-h3">sublime–channel</span>](../../../publish/CommonMark/Mind%20Jungle.cm.md#668f5490-c223-4a8a-9cc4-0bd71af4c097) technique is essential for me to transform and resolve them.
 	- Spiral trajectories of a particle moving with “constant velocity” in various planes <a class="logseq-meta" id="6735b189-867a-4eee-b5f5-3079bb3da458" data-collapsed="true" data-logbook="CLOCK: [2024-12-12 Thu 11:35:12]--[2024-12-16 Mon 20:55:24] =&gt;  105:20:12&#10;" ></a>
 		- Planes and [components](https://en.wikipedia.org/wiki/Polar_coordinate_system#Vector_calculus) in polar plane <a class="logseq-meta" id="67b541c9-3b4e-4429-8c35-9afaf9f434bf" data-collapsed="true" ></a>
 			- radial: $\vec{r} = r⋅\overrightarrow{⟨φ⟩} = r⋅e^{iφ} = r(\cos φ, \sin φ)$   ;   $\hat{r} = \overrightarrow{⟨φ⟩} = e^{iφ} = (\cos φ, \sin φ)$   and   $dr = \hat{r}⋅d\vec{r}$
@@ -113,7 +113,7 @@
 				- $dφ/dr = -(r_0/r + φ_0 - φ_0)/r = -(φ - φ_0)/r$   ⇔   [`[2]`]([$dφ/dr = -(φ - φ_0)/r$  `[2]`](#675a6873-6404-4747-90b9-0d53436f0c62))
 			- This is a [reciprocal spiral](https://mathcurve.com/courbes2d.gb/hyperbolic/hyperbolic.shtml) or [hyperbolic spiral](https://en.wikipedia.org/wiki/Hyperbolic_spiral) with initial phase $φ_0$. <a class="logseq-meta" id="675a85a5-1927-468b-b11d-e2057b8dbe63" ></a>
 				- Sector area: $A(r_1, r_2) = ½ r_0(r_2 - r_1)$
-				- The [staggered](#67b54283-14b2-4753-94bb-4d827d54d7cc) starting marks of footraces on concentric circle lanes are on a reciprocal spiral.
+				- The [staggered](2025%20Brainstorms.cm.md#67b54283-14b2-4753-94bb-4d827d54d7cc) starting marks of footraces on concentric circle lanes are on a reciprocal spiral.
 					- These runners are running “back” to the initial sync position, a.k.a. the “finish line”. <a class="logseq-meta" data-collapsed="true" ></a>
 						- ![Men_200_m_French_Athletics_Championships_2013_t161532.jpg](../assets/Uniinfo/Unithread/Men_200_m_French_Athletics_Championships_2013_t161532.jpg)
 					- The particles in the phase circle (phase wheel, phase flower) are moving from the initial sync position (straight line at $t_0$), following the flow of time on concentric time circles, to form a reciprocal spiral at time $t$.
@@ -137,7 +137,7 @@
 			- [Gibbs overshoots](https://en.wikipedia.org/wiki/Gibbs_phenomenon) in Fourier series around a [jump discontinuity](https://en.wikipedia.org/wiki/Jump_discontinuity) of discontinuous functions
 			- [Off-by-one error](https://en.wikipedia.org/wiki/Off-by-one_error) ([one-unit error](https://www.geogebra.org/m/xhpjjxyn)) at the marginal cases <a class="logseq-meta" id="684f951b-b9c2-4257-9637-7ad7812918fc" ></a>
 		- Most complex organisms evolve at the edge of chaos.
-			- To survive at the boundaries, organisms must follow the [<span class="link-h2">Balance Way</span>](../../../publish/CommonMark/Mind Jungle.cm.md#665379b7-e4f6-4240-8029-fd143e2230c7) of the Universe, hence their flexibility, stability, adaptability, and evolability.
+			- To survive at the boundaries, organisms must follow the [<span class="link-h2">Balance Way</span>](../../../publish/CommonMark/Mind%20Jungle.cm.md#665379b7-e4f6-4240-8029-fd143e2230c7) of the Universe, hence their flexibility, stability, adaptability, and evolability.
 			- Refs:
 				- [The Hidden Biological Rules: How Life Exists on the Edge of Chaos](https://www.youtube.com/watch?v=8By6ycfxZFo) <a class="logseq-meta" data-collapsed="true" ></a>
 					- {{video https://www.youtube.com/watch?v=8By6ycfxZFo}}
@@ -167,7 +167,7 @@
 			- The Oasis of Life <a class="logseq-meta" id="684fbedf-5e17-4319-8f42-0e3062038fc0" data-collapsed="true" ></a>
 				- The [image](#684fbc42-7348-4e76-9b02-573035f1b98c) <a class="logseq-meta" id="684fbfdf-b894-434b-b6ee-1e7169d9dce9" data-collapsed="true" ></a>
 					- ![Oasis-of-Life.jpg](../assets/Will/story/2025-06/Oasis-of-Life.jpg){:width 200}
-				- [The [image](((684fbc42-7348-4e76-9b02-573035f1b98c)))](#684fbfdf-b894-434b-b6ee-1e7169d9dce9) depicts:
+				- [The [image](The [Oasis of Life](https://photos.app.goo.gl/kaSPwdiUNcqGecKx8) is the most interesting image in this album.)](#684fbfdf-b894-434b-b6ee-1e7169d9dce9) depicts:
 					- An oasis 🏝️ shaped like an egg, representing the life full of [diversity](https://en.wikipedia.org/wiki/Ecosystem_diversity), situated between two deserts (the left side entirely cold water Yin, the right side entirely hot sand Yang).
 					- Within the oasis, the order of Yin and Yang is reversed, meaning the left (Yin) contains Yang (red) and the right (Yang) contains Yin (green). This phenomenon of "Yin within Yang, Yang within Yin" is represented by the two small disks in the Taiji symbol: ☯️.
 					- In the center, there is a yellow region neutralizing Yin (green) and Yang (red), and at the bottom center, there is a black Buddha meditating 🧘‍♀️.
@@ -181,7 +181,7 @@
 					- As we move closer, we see it's not like that at all, but filled with patterns of “Yin within Yang, Yang within Yin, and even androgyny” within it, ☯️.
 					- And deep inside, amidst the dense, turbulent jungles, there is a “Buddha meditating” in the midst of that forest 🧘‍♀️.
 		- In the view of [<span class="link-h2">effect flow</span>](../../../publish/CommonMark/Uniinfo.cm.md#667bef22-b272-4a7d-b613-3f1ed1a47329), the boundary condition determines the behavior in its enclosed volume.
-			- The [Fundamental theorem of multivariate calculus: [Stokes–Cartan theorem](https://en.wikipedia.org/wiki/Generalized_Stokes_theorem)](#6835b162-293f-4b8c-8be2-2dbe83b741ce) shows the integral relation between the boundary and its enclosed volume in a linear conservative fields.
+			- The [Fundamental theorem of multivariate calculus: [Stokes–Cartan theorem](https://en.wikipedia.org/wiki/Generalized_Stokes_theorem)](2025%20Brainstorms.cm.md#6835b162-293f-4b8c-8be2-2dbe83b741ce) shows the integral relation between the boundary and its enclosed volume in a linear conservative fields.
 			- [[Boundary value problem & boundary conditions](https://en.wikipedia.org/wiki/Boundary_value_problem) in differential analysis](#6835b168-defe-49ff-8029-5b6afe346fbf)
 			- [Holographic principle](https://en.wikipedia.org/wiki/Holographic_principle) in Quantum Physics
 			- Conic classification of boundary value problems (BVPs): <a class="logseq-meta" data-collapsed="true" ></a>
@@ -204,7 +204,7 @@
 				- $x ± y = (x + y, x - y)/\sqrt{2}$
 				- $x ⋇ y = (x × y, x ÷ y)^{1/\sqrt{2}}$
 				- These are genralized “rotation” operations similar to [unitary operators](https://en.wikipedia.org/wiki/Unitary_operator) which preserve the norm of state vector.
-	- [Gödel's incompleteness theorem](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems) = [undecidability](https://en.wikipedia.org/wiki/Undecidable_problem) of the [<span class="link-h2">Halting Problem</span>](../../../publish/CommonMark/Mind Jungle.cm.md#67b81e1b-b801-4e5a-9c00-98e51158712a) = [liar paradox](https://en.wikipedia.org/wiki/Liar_paradox) = circle-arrow complementarity = [<span class="link-h3">Intrinsic Dynamic</span>](../../../publish/CommonMark/Uniinfo.cm.md#66f3e588-9094-45af-9dff-2225c3ac39ab) = unlimited refinability = intrinsic openness of the [<span class="link-h2">circle</span>](../../../publish/CommonMark/Uniinfo.cm.md#667d15c6-67c4-4998-a549-c8b3f9de3d60) <a class="logseq-meta" id="6747eac1-f683-4ed1-9b06-34fd10103c0c" data-collapsed="true" ></a>
+	- [Gödel's incompleteness theorem](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems) = [undecidability](https://en.wikipedia.org/wiki/Undecidable_problem) of the [<span class="link-h2">Halting Problem</span>](../../../publish/CommonMark/Mind%20Jungle.cm.md#67b81e1b-b801-4e5a-9c00-98e51158712a) = [liar paradox](https://en.wikipedia.org/wiki/Liar_paradox) = circle-arrow complementarity = [<span class="link-h3">Intrinsic Dynamic</span>](../../../publish/CommonMark/Uniinfo.cm.md#66f3e588-9094-45af-9dff-2225c3ac39ab) = unlimited refinability = intrinsic openness of the [<span class="link-h2">circle</span>](../../../publish/CommonMark/Uniinfo.cm.md#667d15c6-67c4-4998-a549-c8b3f9de3d60) <a class="logseq-meta" id="6747eac1-f683-4ed1-9b06-34fd10103c0c" data-collapsed="true" ></a>
 		- circle = completeness = totality <> arrow = consistency = partiality
 		  <br>The [<span class="link-h2">whole</span>](../../../publish/CommonMark/Uniinfo.cm.md#66c8046e-c5fe-4f27-b3cf-40f5f39b646b) is contradictory, the consistent is partial.
 		- The “negation” or “opposition” of the “pathological program” `P` in the halting problem = the “lie” of the “liar” = the arrow that differentiate 1 from 0 = the knife that cut the circle open
@@ -214,7 +214,7 @@
 			- The materialistic version of “ex nihilo nihil fit” is [creatio ex materia](https://en.wikipedia.org/wiki/Creatio_ex_materia).
 			- [Creatio ex nihilo](https://en.wikipedia.org/wiki/Creatio_ex_nihilo) is a doctrine in many religions.
 		- The seemingly "nothing" is just the very thin substance that's invisible, just like the thin air and the gravitational field. The “vacant space” is just the [<span class="link-h2">Omnifold</span>](../../../publish/CommonMark/Uniinfo.cm.md#675c03d8-3185-41a8-9f98-e869fabec793) inflated up, which contains all of **potentials** and **possibilities**, not nothing at all.
-		- [Meditating about ((671d06ba-cb96-4424-9bee-4e6327ba7f9d))](#67a97436-6e09-4730-a65b-55d97a8b71c6)
+		- [Meditating about “*Out of thin air*”](2024%20Stories.cm.md#67a97436-6e09-4730-a65b-55d97a8b71c6)
 		- The questions "What is space?" in my childhood and later "What is spacetime?", "Why is it empty?" in my young age had made me struggle a lot... until i had my answer. After years of meditation on spacetime, i had this conclusion:
 			- Space = space of possibilities
 			- It's "empty" because the possibilities there is potential, not actual.
@@ -262,7 +262,7 @@
 			- “The swirl curled into a whorl that whirled the world.”
 			- “The girl with the curl gave the world a twirled swirl of whorled words.”
 	- The **choice** determines the [<span class="link-h3">self-circle</span>](../../../publish/CommonMark/Uniinfo.cm.md#669a5387-2a97-4311-a295-aa0afd9c4d76) and its [karmic cycle](#6713a8e1-e460-4622-9ad6-87c804deccd8). <a class="logseq-meta" id="6714a66b-1bd2-4c9d-8ebc-2842f3095b3b" data-collapsed="true" data-logbook="CLOCK: [2024-10-20 Sun 13:57:09]--[2024-10-20 Sun 14:46:58] =&gt;  00:49:49&#10;" ></a>
-		- [Chat about "free will" and choices, 2024-10-17](#67137e75-0e28-4f09-b6a2-0e2276335be3)
+		- [Chat about "free will" and choices, 2024-10-17](2024%20Stories.cm.md#67137e75-0e28-4f09-b6a2-0e2276335be3)
 		- "Which one is is the seed thread, which one is the condition thread?"
 		  <br>"Đâu là sợi nhân, đâu là sợi duyên?"
 			- This was my very first question about the [principle of karma: "luật nhân quả", principle of causality](#6713acf0-2eb0-423b-ac61-6f595ea12b86)
@@ -270,7 +270,7 @@
 			- That main cause determines the result thanks to the choice of the self. <a class="logseq-meta" id="6714ac17-31b2-4963-9ded-8c35e709621a" ></a>
 				- The self selects conditions to match that main cause.
 				- The self cherry-picks the fruit according to its criteria which is just another kind of main causes.
-		- [[Anusayā](((66e7e6c2-3856-496b-99b7-75ac46547c86))), the [dormant intent](((686ce608-1a1b-4b57-993a-fe8e943dc916))), the [underlying tendency](https://suttacentral.net/define/anusay%C4%81?lang=en), the **attitude** of the mind in response to stimuli, determines both intention and what karmic fruit to be experienced.](../../../publish/CommonMark/Uniinfo.cm.md#66e80666-5f29-4419-8db1-bf8cdce893e4)
+		- [[Anusayā](Linked Discourses > 4. Kaḷāra the Aristocrat > 12.38. [Intention (Volition)](https://suttacentral.net/sn12.38/en/sujato)), the [dormant intent](Conscious intention vs. latent/dormant intent in the unconscious), the [underlying tendency](https://suttacentral.net/define/anusay%C4%81?lang=en), the **attitude** of the mind in response to stimuli, determines both intention and what karmic fruit to be experienced.](../../../publish/CommonMark/Uniinfo.cm.md#66e80666-5f29-4419-8db1-bf8cdce893e4)
 		- accept (choiceless) vs intent (choice)
 			- They are 2 opposite ends but are united in the circle of learning:
 			  <br>accept -> learn -> intent to follow that lesson of "acceptance is the best" -> acceptive attitude -> accept
@@ -282,7 +282,7 @@
 		  <br>"We receive whatever we've chosen."
 		  <br>"Gieo nhân nào gặt quả nấy."
 	- karmic cycle <a class="logseq-meta" id="6713a8e1-e460-4622-9ad6-87c804deccd8" data-collapsed="true" data-logbook="CLOCK: [2024-10-19 Sat 19:42:23]--[2024-10-19 Sat 20:46:35] =&gt;  01:04:12&#10;" ></a>
-		- Related: [((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) versus ((66727858-979d-4d95-8a90-7a749218cfba)) in karma](../../../publish/CommonMark/Uniinfo.cm.md#66e7d7dd-5f88-472c-8694-beb7222929bb) <a class="logseq-meta" data-logbook="CLOCK: [2024-10-19 Sat 19:42:23]&#10;" ></a>
+		- Related: [intent versus action in karma](../../../publish/CommonMark/Uniinfo.cm.md#66e7d7dd-5f88-472c-8694-beb7222929bb) <a class="logseq-meta" data-logbook="CLOCK: [2024-10-19 Sat 19:42:23]&#10;" ></a>
 		- Blog [Nhân Duyên Nghiệp Quả](https://creatzynotes.blogspot.com/2021/01/nhan-duyen-nghiep-qua.html)
 		- karmic cycle = [effect circle](../../../publish/CommonMark/Uniinfo.cm.md#667c0031-0a87-44c9-9e98-6d45893b095f) ~ [saṃsāra](https://en.wikipedia.org/wiki/Sa%E1%B9%83s%C4%81ra)
 			- Karmic cycle may be small within a day, while samsara is usually refer to the life cycle.
@@ -309,7 +309,7 @@
 			- vāsanā (karmic imprint, tập khí), bīja (karmic seed, chủng tử) <a class="logseq-meta" id="6713b016-effb-4c0a-9b29-746770b99ce6" data-collapsed="true" ></a>
 			  <br>is the hidden tendency imprinted in the memory due to the collection of past karma
 				- The Vietnamese word "nghiệp" usually refers to this tendency.
-				- [vāsanā (karmic imprint, tập khí), bīja (karmic seed, chủng tử)](#6713b016-effb-4c0a-9b29-746770b99ce6) is related to [[Anusayā](((66e7e6c2-3856-496b-99b7-75ac46547c86))), the [dormant intent](((686ce608-1a1b-4b57-993a-fe8e943dc916))), the [underlying tendency](https://suttacentral.net/define/anusay%C4%81?lang=en), the **attitude** of the mind in response to stimuli, determines both intention and what karmic fruit to be experienced.](../../../publish/CommonMark/Uniinfo.cm.md#66e80666-5f29-4419-8db1-bf8cdce893e4)
+				- [vāsanā (karmic imprint, tập khí), bīja (karmic seed, chủng tử)](#6713b016-effb-4c0a-9b29-746770b99ce6) is related to [[Anusayā](Linked Discourses > 4. Kaḷāra the Aristocrat > 12.38. [Intention (Volition)](https://suttacentral.net/sn12.38/en/sujato)), the [dormant intent](Conscious intention vs. latent/dormant intent in the unconscious), the [underlying tendency](https://suttacentral.net/define/anusay%C4%81?lang=en), the **attitude** of the mind in response to stimuli, determines both intention and what karmic fruit to be experienced.](../../../publish/CommonMark/Uniinfo.cm.md#66e80666-5f29-4419-8db1-bf8cdce893e4)
 	- circle = constant [<span class="link-h4">radius</span>](../../../publish/CommonMark/Uniinfo.cm.md#670ce8c2-8c54-42c6-84cd-93703c1fa60f) = constant speed of light = conservation of amount/energy/mass/content ( [mass equality](../../../publish/CommonMark/Uniinfo.cm.md#66e40f58-c9dd-47f4-999d-2e4a2aa874fe)) = *the same content appears in many forms* = **spring mechanic** (harmonic oscillator) <a class="logseq-meta" id="670cd7d1-8380-49db-a47c-6aa132256596" data-collapsed="true" data-logbook="CLOCK: [2024-10-14 Mon 15:35:31]&#10;CLOCK: [2024-10-14 Mon 15:35:44]--[2024-10-14 Mon 16:39:52] =&gt;  01:04:08&#10;" ></a>
 		- The radius c is the [<span class="link-h3">self-circle</span>](../../../publish/CommonMark/Uniinfo.cm.md#669a5387-2a97-4311-a295-aa0afd9c4d76) of the quantum: center -> circumference -> center
 		- When the content c compresses into a [<span class="link-h2">particle</span>](../../../publish/CommonMark/Uniinfo.cm.md#667d162c-16cf-44d3-81a5-29b1b885164f), it shows [point equality](../../../publish/CommonMark/Uniinfo.cm.md#66e40f4b-34ae-499a-8192-0a0f4f580c7e).
@@ -339,7 +339,7 @@
 				- |eye soliton| = quantum -> [abstraction](../../../publish/CommonMark/Uniinfo.cm.md#66f40baf-1aca-40b7-828c-71d6f15f23fe) = action
 					- The amount of the soliton is the quantum.
 					- That abstraction from the obop circle to the quantum is the action of that soliton: produce the extent
-		- ⇒ [The cyclone's structure represents the ((6810ceeb-6af6-442b-9910-baae2c315c46)).](../../../publish/CommonMark/Uniinfo.cm.md#673312a3-e94e-478f-9e21-bad72ef29d1b)
+		- ⇒ [The cyclone's structure represents the self-structure.](../../../publish/CommonMark/Uniinfo.cm.md#673312a3-e94e-478f-9e21-bad72ef29d1b)
 	- [<span class="link-h3">round</span>](../../../publish/CommonMark/Uniinfo.cm.md#66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f) = whole relative to a unit (intent) = fit = divisible <a class="logseq-meta" id="66ebb5fb-6850-4a83-94eb-dd3039891ffc" data-collapsed="true" data-logbook="CLOCK: [2024-09-19 Thu 12:26:38]&#10;CLOCK: [2024-09-19 Thu 12:28:13]&#10;" ></a>
 		- intrinsic dynamic = always remain epsilon indivisible
 		- "objective" round = remainder -> 0 = n-order derivative -> 0 = n-order straight
@@ -452,7 +452,7 @@
 			- ⬆️ Cancellation is the conservation of substances (momentum): `yin + yang = 0 ` ⇒ `|yin| = |yang|`
 				- This is the principle of stationary (least) action.
 			- ⭕️ Complementarity is the conservation of [amount](../../../publish/CommonMark/Uniinfo.cm.md#66e42b30-1aa4-4b6f-8c54-b29fc09085c6) (energy): `|ying| = |yang| = const (π, 1)` ⇒ `yang - yin = 2(π)`
-		- [Absolute vs relative = ((66e42b30-1aa4-4b6f-8c54-b29fc09085c6)) ⭕️ lượng vs ((66e42d39-a296-4ed9-a686-4cb213783830)) ⬆️ tính chất = form vs content = extent vs intent = norm vs abnorm = modulus/correct vs remainder/diff/error](#66c7fdec-59db-4f96-a8a7-913247586534)
+		- [Absolute vs relative = amount ⭕️ lượng vs direction ⬆️ tính chất = form vs content = extent vs intent = norm vs abnorm = modulus/correct vs remainder/diff/error](#66c7fdec-59db-4f96-a8a7-913247586534)
 	- Circle (the form of all forms, the knowledge of all knowledge) <a class="logseq-meta" id="699c0364-6b07-4f48-81ba-a51875bcdf30" data-collapsed="true" data-logbook="CLOCK: [2024-08-28 Wed 14:20:16]--[2024-08-28 Wed 14:24:57] =&gt;  00:04:41&#10;" ></a>
 	  <br>Arrow → the content of all contents, the info of all info
 	  <br>Equal = the law of all laws, the wisdom of all wisdom
@@ -497,7 +497,7 @@
 		  <br>=> When we pulverize the memory into each cell, each breath seeing the whole life, we can charge in one breath
 		- (ujjayi) breath is the thread connecting the "blind doer" with the "inactive seer", the back link "act -> stop"
 		- training = abstract mirroring = emotion: reward & punishment = abstraction of pro & cons pathways in the environment = affection & aversion
-	- WAIT [((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((67f90bf0-ebcd-46fa-b99d-eda9bbbd3522)) of a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) is ... in contrast to the ((66c810a0-9861-4787-bdcf-1378219332be)).](../../../publish/CommonMark/Uniinfo.cm.md#669f3107-a33a-4b26-a636-6da62fa5520e) constraint <a class="logseq-meta" id="669f243f-41b7-4274-b954-9824ec3ac33b" data-collapsed="true" data-logbook="CLOCK: [2024-07-23 Tue 10:44:58]&#10;CLOCK: [2024-07-23 Tue 10:45:36]--[2024-07-23 Tue 11:25:48] =&gt;  00:40:12&#10;" ></a>
+	- WAIT [Description: The mind of a subject is ... in contrast to the body.](../../../publish/CommonMark/Uniinfo.cm.md#669f3107-a33a-4b26-a636-6da62fa5520e) constraint <a class="logseq-meta" id="669f243f-41b7-4274-b954-9824ec3ac33b" data-collapsed="true" data-logbook="CLOCK: [2024-07-23 Tue 10:44:58]&#10;CLOCK: [2024-07-23 Tue 10:45:36]--[2024-07-23 Tue 11:25:48] =&gt;  00:40:12&#10;" ></a>
 		- Like experience, resource is collected from the past into a form to shape the future.
 		- All maps are distribution of resources which are formed inside selves.
 		- The limit of resource is the constraint of the form upon actions. <a class="logseq-meta" id="66b1cfa3-385f-437c-88f2-f76c0684c9e3" ></a>
@@ -529,16 +529,16 @@
 		- circle refinement <a class="logseq-meta" id="6735b185-fe68-40b4-8679-9c4de4a1df7d" data-collapsed="true" ></a>
 			- stable, toward the [observer](../../../publish/CommonMark/Uniinfo.cm.md#669a2697-56af-445c-9197-24aa498a5d5b)
 			- reduce to the perfect circle
-				- related to my [**perfectionism**](../../../publish/CommonMark/Mind Jungle.cm.md#6678d594-9819-4624-abd6-d4ec62b3874f)
+				- related to my [**perfectionism**](../../../publish/CommonMark/Mind%20Jungle.cm.md#6678d594-9819-4624-abd6-d4ec62b3874f)
 			- [equanimity](../../../publish/CommonMark/Uniinfo.cm.md#669a3da2-1e6c-48bd-950f-af1ea1ceda25):
-		- [<span class="link-h3">sublime–channel</span>](../../../publish/CommonMark/Mind Jungle.cm.md#668f5490-c223-4a8a-9cc4-0bd71af4c097)
+		- [<span class="link-h3">sublime–channel</span>](../../../publish/CommonMark/Mind%20Jungle.cm.md#668f5490-c223-4a8a-9cc4-0bd71af4c097)
 			- toward the [<span class="link-h3">actor</span>](../../../publish/CommonMark/Uniinfo.cm.md#669a26cb-50d8-4347-a5c4-7c0c3acf1211)
 			- no branching, energy conservation
 			- ["one body one way"](#668f52e2-2935-4980-bdbb-04a54d9288d9)
 	- "one body one way" <a class="logseq-meta" id="668f52e2-2935-4980-bdbb-04a54d9288d9" data-logbook="CLOCK: [2024-07-11 Thu 10:35:03]&#10;CLOCK: [2024-07-11 Thu 10:35:37]&#10;" ></a>
 	  <br>"đơn thân độc đạo", "một chiếc xe một con đường"
 	- $i$, the *internal imaginary impression* that bridges the gap, complete the circle, reverts (reduces) the entropy of the external "real" world, is the internal image reflecting the external world. <a class="logseq-meta" id="668d08c7-ec2d-4188-9745-6ccf643c9132" data-collapsed="true" data-logbook="CLOCK: [2024-07-09 Tue 16:38:07]--[2024-07-23 Tue 11:30:20] =&gt;  330:52:13&#10;" ></a>
-		- [⇒](../../../publish/CommonMark/Namespace.cm.md#66602f68-e23f-4b24-921e-b1a9fc0cc731) this [[comment on fb](https://www.facebook.com/lexuandinhct/posts/pfbid0RDW7MQ2pzM9LwkP9BhobJCvSiqSY5CVUfURow2xrpYwRHyN4BR4R6ir1zvj4voJ8l?comment_id=4698845016799415&reply_comment_id=856971509813387) about "the fate of a little prostitute"](#668d0827-7ff2-468c-b62c-3f1d072119ac) <a class="logseq-meta" data-logbook="CLOCK: [2024-07-09 Tue 16:28:26]&#10;" ></a>
+		- [⇒](../../../publish/CommonMark/Namespace.cm.md#66602f68-e23f-4b24-921e-b1a9fc0cc731) this [[comment on fb](https://www.facebook.com/lexuandinhct/posts/pfbid0RDW7MQ2pzM9LwkP9BhobJCvSiqSY5CVUfURow2xrpYwRHyN4BR4R6ir1zvj4voJ8l?comment_id=4698845016799415&reply_comment_id=856971509813387) about "the fate of a little prostitute"](2024%20Stories.cm.md#668d0827-7ff2-468c-b62c-3f1d072119ac) <a class="logseq-meta" data-logbook="CLOCK: [2024-07-09 Tue 16:28:26]&#10;" ></a>
 		- The "real vs imaginary" is just a relative pair like the "real object - virtual image" & "real image - virtual object" in optical physics. <a class="logseq-meta" id="66b1cfa3-e6c4-405c-9475-2186078a811d" data-collapsed="true" ></a>
 			- ![real-virtual-object-image.jpg](../assets/physics/real-virtual-object-image.jpg)
 		- The resolution $i_ω$ is the bridge that closes internal circles of the self $i_0$. <a class="logseq-meta" id="669a58b8-64ad-409b-8e14-0211eaab2570" data-logbook="CLOCK: [2024-07-23 Tue 10:00:53]--[2024-07-23 Tue 10:14:53] =&gt;  00:14:00&#10;" ></a>
@@ -573,7 +573,7 @@
 			- Mặc cảm tội lỗi
 				- My guilt complex <a class="logseq-meta" id="6684f7c4-bb8e-4c91-8c49-f65051b09b16" ></a>
 			- Mặc cảm vô dụng
-				- My worthlessness (inferiority) complex is the drive for my [**perfectionism**](../../../publish/CommonMark/Mind Jungle.cm.md#6678d594-9819-4624-abd6-d4ec62b3874f). It has been accumulated from the social critiques due to my strangeness.
+				- My worthlessness (inferiority) complex is the drive for my [**perfectionism**](../../../publish/CommonMark/Mind%20Jungle.cm.md#6678d594-9819-4624-abd6-d4ec62b3874f). It has been accumulated from the social critiques due to my strangeness.
 			- Mặc cảm lừa dối
 				- My lying complex
 	- WAIT Ways to extend space: <a class="logseq-meta" id="667d202e-f401-46ba-ab32-c4fd77b49ab1" data-collapsed="true" data-logbook="CLOCK: [2024-08-12 Mon 09:12:30]--[2024-08-23 Fri 09:45:45] =&gt;  264:33:15&#10;" ></a>
@@ -585,7 +585,7 @@
 				  <br>![simplex-construction-2022-11-11.png](../assets/geometry/simplex-construction-2022-11-11.png)
 				- My comment about relations to [combinatorics](https://en.wikipedia.org/wiki/Combinatorics): [Newton binomial](https://en.wikipedia.org/wiki/Binomial_coefficient) & [Pascal triangle](https://en.wikipedia.org/wiki/Pascal%27s_triangle)
 				  <br>![simplex-construction-Newton-Pascal.png](../assets/geometry/simplex-construction-Newton-Pascal.png)
-		- [<span class="link-h2">CombiNat</span>](../../../publish/CommonMark/Mind Jungle.cm.md#6675369a-1d13-48c5-8a77-d588aa8b59b8) can be naturally refined to $2^t$, while radix numbers are difficult to be refined (built for extension, not for refinement)
+		- [<span class="link-h2">CombiNat</span>](../../../publish/CommonMark/Mind%20Jungle.cm.md#6675369a-1d13-48c5-8a77-d588aa8b59b8) can be naturally refined to $2^t$, while radix numbers are difficult to be refined (built for extension, not for refinement)
 			- Radix fraction, e.g. $10^{-n}$, is inverse extension, i.e. intension (negative extension), not refinement
 		- intension refinement = extension expanding <a class="logseq-meta" data-logbook="CLOCK: [2024-06-28 Fri 08:11:13]&#10;" ></a>
 			- spirorus extending, thread [condensity](../../../publish/CommonMark/Uniinfo.cm.md#671e3a95-03cf-4fe8-b7c7-c3d7bbe466ec)
@@ -633,7 +633,7 @@
 			- radius: $(dx)^2 + (dy)^2 + (dz)^2 = 1^2$
 			- phase: $∮ dx$ = ε (intent) = dy (extent)
 				- SCIFER: the internal resource circle (intent) rolls against the external object circle (content), the mismatch $dy$ is the further internal sustent circle
-			- [WAIT Conic rotations: rotation (circular) = flow (parabolic) = transformation (hyperbolic)](#67ed2751-76d5-4bf1-9fc7-27c14ef6d1fa)
+			- [WAIT Conic rotations: rotation (circular) = flow (parabolic) = transformation (hyperbolic)](2025%20Brainstorms.cm.md#67ed2751-76d5-4bf1-9fc7-27c14ef6d1fa)
 	- [!] Windows 10 (seems from Windows 7) lets its window borders be dragged off the screen! <a class="logseq-meta" id="66adf2e5-ddde-4ee3-8086-78ce57483837" data-collapsed="true" data-logbook="CLOCK: [2024-08-03 Sat 15:30:44]--[2024-08-03 Sat 17:01:02] =&gt;  01:30:18&#10;" ></a>
 		- [Commentaries:](../../../publish/CommonMark/Namespace.cm.md#665359ff-79f1-4669-b10b-f2b0e633a7c1)
 			- This is a feature for seamless multi-display settings, but should be across displays next to each other only, not protruding out of visible areas like this.
@@ -716,7 +716,7 @@
 			- Address = path with abstract intent, i.e. `\^n/e/f...`
 			- Id = path with abstract intent & abstract extent
 	- logic chain & branches: <a class="logseq-meta" id="665c950f-4496-432d-8d7a-83cad6b60571" data-collapsed="true" ></a>
-		- [to](../../../publish/CommonMark/Namespace.cm.md#665caf87-7dd9-4e9e-9ebc-7df259e7d711) [DONE Add `alias of`, `form of`, `name of`, `from`, `to`](#665cb063-d8b5-461e-9dcd-12bb85db1ee7)
+		- [to](../../../publish/CommonMark/Namespace.cm.md#665caf87-7dd9-4e9e-9ebc-7df259e7d711) [DONE Add `alias of`, `form of`, `name of`, `from`, `to`](2024%20Tasks.cm.md#665cb063-d8b5-461e-9dcd-12bb85db1ee7)
 		- #If condition
 			- #then do right
 			- #else do wrong
@@ -736,10 +736,10 @@
 	  <br>to, from, because, ... X (name) <-> X clause (form)
 		- [to](../../../publish/CommonMark/Namespace.cm.md#665caf87-7dd9-4e9e-9ebc-7df259e7d711) [logic chain & branches:](#665c950f-4496-432d-8d7a-83cad6b60571)
 	- [<span class="link-h1">Elements</span>](../../../publish/CommonMark/Namespace.cm.md#66533703-505d-432d-8368-6058eefb45f6)'s Alias: In addition to `A Alias: B, C`, add sub-items `- B alias of A  - C alias of A`, so that `B` and `C` can be referred directly. <a class="logseq-meta" id="665c912e-2186-4268-a99d-023a5ef46005" data-collapsed="true" ></a>
-		- [to](../../../publish/CommonMark/Namespace.cm.md#665caf87-7dd9-4e9e-9ebc-7df259e7d711) [DONE Add `alias of`, `form of`, `name of`, `from`, `to`](#665cb063-d8b5-461e-9dcd-12bb85db1ee7)
+		- [to](../../../publish/CommonMark/Namespace.cm.md#665caf87-7dd9-4e9e-9ebc-7df259e7d711) [DONE Add `alias of`, `form of`, `name of`, `from`, `to`](2024%20Tasks.cm.md#665cb063-d8b5-461e-9dcd-12bb85db1ee7)
 	- Special properties built in Logseq <a class="logseq-meta" id="6772a6c9-2ff3-49a4-908b-1f9b418b5e7c" data-collapsed="true" ></a>
 		- Example: <a class="logseq-meta" data-title="Title" data-alias="A, B, C" data-tags="T, U, V" ></a>
-	- Let's test [[DataScript](https://github.com/tonsky/datascript) Query](../../../publish/CommonMark/Mind Jungle.cm.md#66acc24c-4cd7-4568-8c47-79798fc09433) in Logseq: <a class="logseq-meta" id="66b1cfa3-9679-4482-a2a3-4d99486dbe04" data-collapsed="true" ></a>
+	- Let's test [[DataScript](https://github.com/tonsky/datascript) Query](../../../publish/CommonMark/Mind%20Jungle.cm.md#66acc24c-4cd7-4568-8c47-79798fc09433) in Logseq: <a class="logseq-meta" id="66b1cfa3-9679-4482-a2a3-4d99486dbe04" data-collapsed="true" ></a>
 		- Today: {{query <% today %> }} <a class="logseq-meta" id="66521398-7318-4d06-ac79-899f244a31c0" ></a>
 		- [Logseq Docs: Advanced Queries](https://docs.logseq.com/#/page/advanced%20queries)
 		- [Logseq/Advanced Queries Examples](https://siferiax.github.io/#/page/logseq%2Fadvanced%20queries)
@@ -804,12 +804,12 @@
 					  [:b {:style "background-color:OrangeRed; color:White"} " ¡¡¡ BACK TO WORK !!! "]
 					  ``` <a class="logseq-meta" data-collapsed="true" ></a>
 			- Source code <a class="logseq-meta" data-collapsed="true" ></a>
-				- The code is lengthy, due to the very limited [clojure functions supported in Datascript `:query`](../../../publish/CommonMark/Mind Jungle.cm.md#677bcacd-3de2-48c1-9788-1eab574c4812). <a class="logseq-meta" id="677bfb6a-cba7-4a55-9d0d-43255445e280" ></a>
-					- [[!] No way to parse number from string!](../../../publish/CommonMark/Mind Jungle.cm.md#677bfe2d-e7df-46ba-a306-db1a7e9b771a)
+				- The code is lengthy, due to the very limited [clojure functions supported in Datascript `:query`](../../../publish/CommonMark/Mind%20Jungle.cm.md#677bcacd-3de2-48c1-9788-1eab574c4812). <a class="logseq-meta" id="677bfb6a-cba7-4a55-9d0d-43255445e280" ></a>
+					- [[!] No way to parse number from string!](../../../publish/CommonMark/Mind%20Jungle.cm.md#677bfe2d-e7df-46ba-a306-db1a7e9b771a)
 						- So we must go the other way: convert numbers (milliseconds, days) to string
-					- [We must use pattern matching to get elements in sequence, e.g.](../../../publish/CommonMark/Mind Jungle.cm.md#677bfcff-0990-45e5-9319-19e796ec1e84)
+					- [We must use pattern matching to get elements in sequence, e.g.](../../../publish/CommonMark/Mind%20Jungle.cm.md#677bfcff-0990-45e5-9319-19e796ec1e84)
 				- Because there's no way to get deadline time (only can get deadline date), i must do it the hard way: use  <a class="logseq-meta" id="677750e2-4074-40d7-8fba-50122aa29c58" data-collapsed="true" ></a>
-				  <br>{{embed [custom property](#677757bc-227a-47c2-abeb-7957d61824cc)}}
+				  <br>{{embed [custom property](2025%20Braindumps.cm.md#677757bc-227a-47c2-abeb-7957d61824cc)}}
 				  <br>and convert numbers (milliseconds, days) to the string in that format: yyyy-MM-dd HH:mm:ss.
 					- I've proposed to [add `:block/scheduled-ms` and `:block/deadline-ms`](https://discuss.logseq.com/t/add-data-attributes-for-querying-scheduled-time-e-g-block-scheduled-ms-and-block-deadline-ms).
 					- The [done time plugin](https://github.com/mjs/logseq-done-time) adds property `done-ms` = **now**. This cannot be used to schedule ahead of time.
@@ -1010,23 +1010,23 @@
 		    <br>:find (pull ?b [*])
 		    <br>:where 
 		     <br>[?b :block/content ?content]
-		     <br>[(clojure.string/includes? ?content "[DONE Compose [[logseq/custom.css]] from Logseq's built-in `style.css` & Ozean Theme's `main.css`.](../../../publish/CommonMark/Mind Jungle.cm.md#665d78a5-6470-4e60-8fd1-d958fd62756e)")]
+		     <br>[(clojure.string/includes? ?content "[DONE Compose [[logseq/custom.css]] from Logseq's built-in `style.css` & Ozean Theme's `main.css`.](../../../publish/CommonMark/Mind%20Jungle.cm.md#665d78a5-6470-4e60-8fd1-d958fd62756e)")]
 		   <br>]
 		  <br>}
 		  #+END_QUERY
 			- Macro `{{blocks-with-content}}` <a class="logseq-meta" id="66fbb757-8038-4a79-87df-8d1575faaedb" ></a>
 				- Test a simple (non-query) macro first: {{hi-macro HiMac}}
-				- {{blocks-with-content custom.css, [DONE Compose [[logseq/custom.css]] from Logseq's built-in `style.css` & Ozean Theme's `main.css`.](../../../publish/CommonMark/Mind Jungle.cm.md#665d78a5-6470-4e60-8fd1-d958fd62756e)}}
+				- {{blocks-with-content custom.css, [DONE Compose [[logseq/custom.css]] from Logseq's built-in `style.css` & Ozean Theme's `main.css`.](../../../publish/CommonMark/Mind%20Jungle.cm.md#665d78a5-6470-4e60-8fd1-d958fd62756e)}}
 		- Search for pattern (regex) within scopes of blocks and pages
 		  <br>query-table:: false <a class="logseq-meta" id="66faa5f8-0711-4a23-afe0-fb8d2ebb644e" data-collapsed="true" ></a>
-			- Patterns (regex): The first line, i.e. [Block title](../../../publish/CommonMark/Mind Jungle.cm.md#66faa5f9-1da8-40c1-a040-7490fbfdc3bb), will be used as search pattern.
+			- Patterns (regex): The first line, i.e. [Block title](../../../publish/CommonMark/Mind%20Jungle.cm.md#66faa5f9-1da8-40c1-a040-7490fbfdc3bb), will be used as search pattern.
 				- history <a class="logseq-meta" id="66f6b7fd-9444-4869-9a4d-01f6941c9a9b" ></a>
 				  <br>case-sensitive:: true
 				  <br>whole-word:: false
 				  <br>this is just a comment line, not counted into the search keywords
 				- Filters <a class="logseq-meta" id="67700577-5afb-4e6c-8722-3147c18bfa2c" data-filter="linear|67139af7-47a6-4441-bd72-5a75448dbb1b" ></a>
 				  <br>child-filter:: with
-					- filter: linear | [`store` branch](../../../publish/CommonMark/Mind Jungle.cm.md#67139af7-47a6-4441-bd72-5a75448dbb1b)
+					- filter: linear | [`store` branch](../../../publish/CommonMark/Mind%20Jungle.cm.md#67139af7-47a6-4441-bd72-5a75448dbb1b)
 				- Properties: <a class="logseq-meta" data-collapsed="true" ></a>
 					- `case-sensitive::``true` (default = false) adds `(?i)` to the main pattern
 					- `whole-word::``true` (default = false) adds `\b` to the main pattern
@@ -1043,7 +1043,7 @@
 			-  <a class="logseq-meta" id="66f6b7c0-d8af-4d48-9b98-e82f314449d5" ></a>
 			  search-scope-page:: [[Mind Jungle]], texts and block refs are **ignored**, [[2024 Tasks]]
 			  <br>search-scope:: [<span class="link-h1">Brainstorm</span>](../../../publish/CommonMark/Brainstorm.cm.md#6653538a-30aa-423f-be89-848ad9c7e331), [<span class="link-h1">Workspace</span>](../../../publish/CommonMark/Workspace.cm.md#66519638-cf5d-409b-9b98-15acabf2268c) <a class="logseq-meta" data-collapsed="true" ></a>
-				- Note: other refs outside of `search-scope::`, e.g. [Git](../../../publish/CommonMark/Mind Jungle.cm.md#666ba1e2-19d1-409e-b30e-42a99b7e4ec0), are not taken into account.
+				- Note: other refs outside of `search-scope::`, e.g. [Git](../../../share/technical/publish/CommonMark/Git.cm.md#666ba1e2-19d1-409e-b30e-42a99b7e4ec0), are not taken into account.
 			- Source code <a class="logseq-meta" data-collapsed="true" ></a>
 				- 
 				  ```clojure
@@ -1304,7 +1304,7 @@
 					   <br>]; end query[]
 					  <br>}
 					  #+END_QUERY
-				- TODO search for [Block title](../../../publish/CommonMark/Mind Jungle.cm.md#66faa5f9-1da8-40c1-a040-7490fbfdc3bb) only with `first-line::` and limited `content-length::`, to be applied in [term search](../../../publish/CommonMark/Workspace.cm.md#66fce7e0-8040-4980-b2aa-807e4a0cde1f).
+				- TODO search for [Block title](../../../publish/CommonMark/Mind%20Jungle.cm.md#66faa5f9-1da8-40c1-a040-7490fbfdc3bb) only with `first-line::` and limited `content-length::`, to be applied in [term search](../../../publish/CommonMark/Workspace.cm.md#66fce7e0-8040-4980-b2aa-807e4a0cde1f).
 				- Ref: [Find nested TODOs](https://discuss.logseq.com/t/find-nested-todos/18483/6?u=willle)
 			- RESULT
 			  <br>query-table:: false

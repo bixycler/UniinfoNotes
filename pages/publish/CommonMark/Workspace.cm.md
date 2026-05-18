@@ -1,6 +1,6 @@
 - # Workspace <a class="logseq-meta" id="66519638-cf5d-409b-9b98-15acabf2268c" ></a>
-	- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) This is the [<span class="link-h3">Workspace</span>](Mind Jungle.cm.md#665d1a03-4c61-4d81-ac58-a5a1a7efe568) for [<span class="link-h2">Will LÊ</span>](Mind Jungle.cm.md#66536578-c4d3-43f1-b35c-bf71120f0570). <a class="logseq-meta" id="66600918-2b2b-417e-910b-2a60fdba7918" ></a>
-	- ***Pinned***: [<span class="link-h2">Logseq</span>](Mind Jungle.cm.md#66536e1b-6466-4153-90d6-583003d99a81) <a class="logseq-meta" id="66603d58-ff5b-4e23-8dad-5dba527981f4" ></a>
+	- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) This is the [<span class="link-h3">Workspace</span>](Mind%20Jungle.cm.md#665d1a03-4c61-4d81-ac58-a5a1a7efe568) for [<span class="link-h2">Will LÊ</span>](Mind%20Jungle.cm.md#66536578-c4d3-43f1-b35c-bf71120f0570). <a class="logseq-meta" id="66600918-2b2b-417e-910b-2a60fdba7918" ></a>
+	- ***Pinned***: [<span class="link-h2">Logseq</span>](Mind%20Jungle.cm.md#66536e1b-6466-4153-90d6-583003d99a81) <a class="logseq-meta" id="66603d58-ff5b-4e23-8dad-5dba527981f4" ></a>
 	-  <a class="logseq-meta" id="66600918-7717-48c0-9869-1776d05035f1" ></a>
 	- ## Search <a class="logseq-meta" id="66fce880-77a2-41f7-8bdb-a86b7fc6fc77" ></a>
 		- logseq <a class="logseq-meta" id="66fce7e0-8040-4980-b2aa-807e4a0cde1f" ></a>
@@ -46,13 +46,13 @@
 			- <<End Tracks>>
 			  <br>---------------
 		- ### Working <a class="logseq-meta" id="6773d98a-3917-4267-9f8b-7d86b84d3663" ></a>
-		  {{embed [<span class="link-h4">WIPs < ((67164cc1-e500-4889-9b6d-12d8dd7fc029))</span>](#67164c57-8f45-46eb-92a9-f00b02dccfc9)}}
-		  <br>{{embed [So Logseq "restored" the id, based on the relative position between blocks, in commit `6154f573`](Braindump.cm.md#db954501-95d0-46e2-b1fc-39b6a966300e)}}
-		  <br>{{embed [<span class="link-h2">Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))</span>](#6788f004-d3df-41d4-afc8-c8c5ea52c51c)}}
-		  <br>{{embed [<span class="link-h2">Brainstorming > ((6960e754-ff94-4e1a-8266-d9f15231b880))</span>](Brainstorm.cm.md#6773eb97-ec58-4c48-a017-cd0de2d82e08)}}
-		  <br>{{embed [<span class="link-h2">Current Tasks < ((677614c4-ea7d-47c0-89ee-afbacceb56e9)) > ((67763106-205f-4e01-affc-a68e1d8e53a9))</span>](Task.cm.md#677630fe-ea99-436f-b39f-8bd2295e2eaf)}}
+		  {{embed [<span class="link-h4">WIPs < To be merged</span>](#67164c57-8f45-46eb-92a9-f00b02dccfc9)}}
+		  <br>{{embed [<span class="link-h2">Braindumping < 2026 Braindumps</span>](Braindump.cm.md#db954501-95d0-46e2-b1fc-39b6a966300e)}}
+		  <br>{{embed [<span class="link-h2">Current Stories < 2026 Stories</span>](#6788f004-d3df-41d4-afc8-c8c5ea52c51c)}}
+		  <br>{{embed [<span class="link-h2">Brainstorming > 2026 Brainstorms</span>](Brainstorm.cm.md#6773eb97-ec58-4c48-a017-cd0de2d82e08)}}
+		  <br>{{embed [<span class="link-h2">Current Tasks < 2025 Tasks > Future Tasks</span>](Task.cm.md#677630fe-ea99-436f-b39f-8bd2295e2eaf)}}
 		- <<End Workstack>>
 		  <br>---------------------
-	- {{embed [<span class="link-h3">DOING Mind Map</span>](Mind Jungle.cm.md#67760c43-58c6-40eb-b874-40afae448966)}}
+	- {{embed [<span class="link-h3">DOING Mind Map</span>](Mind%20Jungle.cm.md#67760c43-58c6-40eb-b874-40afae448966)}}
 	- <<End Workspace>> 
 	  <br>---------------------

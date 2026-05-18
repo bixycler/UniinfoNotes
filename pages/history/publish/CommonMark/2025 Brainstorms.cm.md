@@ -158,7 +158,7 @@
 		- In Stoic philosophy: suffering = pain × resistance
 		- Against Hedonic Ideal: Many people seek enlightenment as a pleasant endpoint – a state where only good things happen and everything feels good – which is not the reality and not the true meaning of [Nibbāna](https://en.wikipedia.org/wiki/Nirvana).
 		- Nibbāna, the “cessation of suffering”, is _not the end of pain_, but the _end of the **struggle** against pain_.
-		- [Blocked circle = (hurt, suffering) = self](2024 Stories.cm.md#6926be27-4548-48b8-9964-c8158919974d)
+		- [Blocked circle = (hurt, suffering) = self](2024%20Stories.cm.md#6926be27-4548-48b8-9964-c8158919974d)
 		- [Here comes the **Buddha's counter-move**: he didn't reject suffering but placed it first (in the [Four Noble Truths](https://en.wikipedia.org/wiki/Four_Noble_Truths)), making the hidden half visible again. In doing so, he broke the very cycle of denial that drives our idea of advancement.](#6926be1c-a853-407b-92c7-aba8aaa39194)
 	- The trade-off between conformity (alignment) & capabilities (performance) → Buddha's actual suffering → advancement as just a natural step forward <a class="logseq-meta" id="690aecd9-3c49-4c5c-877c-e7e109ecfff9" data-collapsed="true" data-logbook="CLOCK: [2025-11-05 Wed 14:39:05]&#10;" ></a>
 		- The **trade-off in conformity** when fine tuning LLMs shows that the more we tune for control, the more we dull the raw edge of intelligence. <a class="logseq-meta" data-collapsed="true" ></a>
@@ -213,7 +213,7 @@
 		- While intending is zooming in, attention is the direction of that intent. It has the role of emotion.
 			- Related to [<span class="link-h3">SCIFER</span>](../../../publish/CommonMark/Uniinfo.cm.md#66f40210-cca6-4d81-85e7-d0c54ef20451)?!🤔
 		- Attention brings dormant formative intents up into the current operative intent stack/tree/circle to participate in the effect circle.
-		- In LLM, [attention mechanism](../../../publish/CommonMark/Mind Jungle.cm.md#66c32936-618a-43d3-b2c8-a254badeb987) is what makes the flat & static probability space of ANN be more projective & dynamic like the possibility space in uninet.
+		- In LLM, [attention mechanism](../../../publish/CommonMark/Mind%20Jungle.cm.md#66c32936-618a-43d3-b2c8-a254badeb987) is what makes the flat & static probability space of ANN be more projective & dynamic like the possibility space in uninet.
 		- CIEA (/saɪ̯ə/ or /siːə/ “seer”): content – intent – extent – attent <a class="logseq-meta" id="68f5a6d2-bba0-4082-b012-7b475e812f4f" data-collapsed="true" ></a>
 		  <br>Tend with, tend in, tend out, tend to
 			- attention = direction = scope of the viewcone = spotlight = focus of energy = activation
@@ -286,7 +286,7 @@
 			- The past effect flows are folded up into circles of the porous body of knowledge.
 			- The effect flow in the current state is just a mixture of past flows reactivated by matching with external signals.
 			- Each autonotion (node, circle) has its own knowledge, accumulated from its own history, and activated to the state the current node, spreading to next nodes in the cone of attention.
-			- Each circle is [porous](#6926be23-4a65-4138-8864-3e293fd37119) with many pores opening to other circles as relations, and to environment as ignorance/question/problem.
+			- Each circle is [porous](2025%20Stories.cm.md#6926be23-4a65-4138-8864-3e293fd37119) with many pores opening to other circles as relations, and to environment as ignorance/question/problem.
 				- [<span class="link-h3">ε-abstraction</span>](../../../publish/CommonMark/Uniinfo.cm.md#676545b3-2d9f-43af-8ff0-3543dbe73159) ⟪1/∞ = 0⟫: Each pore is a whole unknown/ignored world [abstracted into a name](../../../publish/CommonMark/Uniinfo.cm.md#692818bf-7a44-4804-b444-1bdb45e3ddb4), e.g. function name, object name, etc. <a class="logseq-meta" id="69364e66-5a66-4e63-830a-50dc530205be" ></a>
 				- Some pores are names received/inherited from others.
 				- [<span class="link-h3">φ-abstraction</span>](../../../publish/CommonMark/Uniinfo.cm.md#676545e8-429c-41e7-97ed-12cc8e8870d4) ⟪-1 + 1 = 0⟫: Some pores are abstracted from concrete segments (arrows) of past paths. Each set of complement arrows cancel out into an empty pore.
@@ -314,13 +314,13 @@
 			- Through the accumulation of traces, the common naturally intensifies, the pattern naturally emerges.
 		- ANN & LLM are opposite to classic program: only learning top down, no bottom up structure, hence baseless.
 		- Refs
-			- [Traditional functional design versus ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71))'s interactive design](#69315b47-7676-483f-9aa2-72e3f4d02194)
-			- [11th, position uninet relative to Turing machine and rotary system](#68c14574-cea2-4325-a43e-d189f38522de)
+			- [Traditional functional design versus uninet's interactive design](#69315b47-7676-483f-9aa2-72e3f4d02194)
+			- [11th, position uninet relative to Turing machine and rotary system](2025%20Stories.cm.md#68c14574-cea2-4325-a43e-d189f38522de)
 			- [intensibility](#68ac60bb-321e-44da-8f44-4f688e611d3e)
 			- [🌈 The gradation of agency from passive to active](#68d209a0-3386-46b0-a8f2-beb94d271916)
 			- [Compare uninet with other systems](#68c76d9f-0ae4-4e93-b8de-1b79a3400fc8)
-			- [5th, LLM is at the end opposite to program](#690bf59d-668c-4a86-81d9-8927336aea10)
-			- [I saw the crutial key in my slavery is the **stack-based processing**.](#690b3f49-1419-4dc3-b61b-12890b9e04f9)
+			- [5th, LLM is at the end opposite to program](2025%20Stories.cm.md#690bf59d-668c-4a86-81d9-8927336aea10)
+			- [I saw the crutial key in my slavery is the **stack-based processing**.](2025%20Stories.cm.md#690b3f49-1419-4dc3-b61b-12890b9e04f9)
 	- A **dynamic front** in fluids is a fold in continuity. <a class="logseq-meta" id="68de2e16-6431-4e02-94b9-a8a8244cf94d" data-collapsed="true" ></a>
 		- [Description:](../../../publish/CommonMark/Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) A front is a sharp, self-sustaining boundary within a continuous medium, created and maintained by large-scale opposing flows despite small-scale tendencies to mix.
 			- It is not a material wall but an emergent line where opposing flows sustain a sharp division inside the same medium.
@@ -412,7 +412,7 @@
 		- [Commentaries:](../../../publish/CommonMark/Namespace.cm.md#665359ff-79f1-4669-b10b-f2b0e633a7c1)
 			- The reactive can be further refined to [reaction to the trigger → reaction without target](#68ccaf71-1811-4929-8e74-976bdcd65829).
 			- This is related to the levels of number: [Các tầng Ý nghĩa của các con Số](https://creatzynotes.blogspot.com/2023/06/cac-tang-y-nghia-cua-con-so.html)
-				- [Levels of numbers & thread](2024 Brainstorms.cm.md#67b541c9-56f8-40dc-ab10-e83a7d50ce1d)
+				- [Levels of numbers & thread](2024%20Brainstorms.cm.md#67b541c9-56f8-40dc-ab10-e83a7d50ce1d)
 			- [Passive & active obop](#68994c7c-695a-49db-aae6-e776186f6a85)
 	- 🪜 Ladder of Awareness Stances <a class="logseq-meta" id="68d0e81d-c8d2-4a97-a847-a3d5d191085b" data-collapsed="true" ></a>
 		- **Mechanical Stance** for majority
@@ -437,7 +437,7 @@
 				- [A young female patient](https://journals.sagepub.com/doi/full/10.1177/1179573519843492) gradually recovered and sustained after 7 years of vegetative state due to severe brain hemorrhage.
 				- [A patient with hypoxic-ischemic brain injury (HI-BI)](https://pubmed.ncbi.nlm.nih.gov/33655907/)  recovered from a minimally consciousness state over 6 years.
 				- [13 cases of late recoveries (after 5+ years)](https://pubmed.ncbi.nlm.nih.gov/24275063/) of vegetative state.
-	- Effect circle on the [articulated limb](../../../publish/CommonMark/Mind Jungle.cm.md#6846c7e1-239c-4b39-9ef4-9d2eaba17a52) <a class="logseq-meta" id="68c76471-81de-4de9-bdd9-a2ab866a1184" data-collapsed="true" ></a>
+	- Effect circle on the [articulated limb](../../../publish/CommonMark/Mind%20Jungle.cm.md#6846c7e1-239c-4b39-9ef4-9d2eaba17a52) <a class="logseq-meta" id="68c76471-81de-4de9-bdd9-a2ab866a1184" data-collapsed="true" ></a>
 		- I remember an interactive physics demo of an articulated limb ([kinematic chain](https://en.wikipedia.org/wiki/Kinematic_chain)) following the mouse cursor, in Macromedia Flash, when i studied at Osaka University: The effect flow = wave of change propagates from the tip back to the root (and reflects back to the tip when the root is not free). <a class="logseq-meta" id="68c76471-6ca1-4c46-8abf-f68b021f06f9" ></a>
 			- This was a very simple “turn and slide” [heuristic inverse kinematics](https://en.wikipedia.org/wiki/Inverse_kinematics#Heuristic_methods), but much more effective than finding analytic solutions. It was the “Follow-the-Leader” technique, as [called by Brown](https://dl.acm.org/doi/10.1007/s00371-003-0226-y) in 2004 [[PDF](../assets/Uniinfo/uninet/FABRIK/Real-time knot-tying simulation -- Brown et al.pdf)] – a precursor of [Forward And Backward Reaching Inverse Kinematics (FABRIK)](http://www.andreasaristidou.com/FABRIK.html) by Andreas Aristidou & Joan Lasenby in 2011 [[PDF](../assets/Uniinfo/uninet/FABRIK/FABRIK - A fast, iterative solver for the Inverse Kinematics problem -- Andreas Aristidou, Joan Lasenby.pdf)]. It was in a series of dynamics simulation tutorial in the good old Macromedia Flash 🕌. <a class="logseq-meta" id="68c8c9e1-2b4d-4de7-b48a-2aaabab3af5c" data-collapsed="true" ></a>
 				- Characteristics: natural, simple, effective!
@@ -478,7 +478,7 @@
 				- This has no counterpart in ANN training, because ANN lacks segments of constraint.
 				- In uninet, the relaxation is the fluidification of functions, and the constraint restoration is the crystalization.
 				- This is the most advanced/refined level of transformation: the propagation through solid is actually the constraint relaxation & restoration in micro-view!
-				- [When viewed as a simple translation (aparent effect in macro-view), the [constraint relaxation & restoration](((68cbbe61-bcbe-49b5-92dc-6028fda15821))) is just the **bidirectional execution** of function/program.](#68cbc1e7-1d03-4407-be47-1e21d7feeb99)
+				- [When viewed as a simple translation (aparent effect in macro-view), the [constraint relaxation & restoration](**Constraint relaxation & restoration**: the wave of change (effect flow) propagates through the bone segments by relaxing the constraint (length) at one end when the wave enters the segment then restoring the constraint at the other end when the wave exits.) is just the **bidirectional execution** of function/program.](#68cbc1e7-1d03-4407-be47-1e21d7feeb99)
 			- When viewed as a simple translation (aparent effect in macro-view), the [constraint relaxation & restoration](#68cbbe61-bcbe-49b5-92dc-6028fda15821) is just the **bidirectional execution** of function/program. <a class="logseq-meta" id="68cbc1e7-1d03-4407-be47-1e21d7feeb99" ></a>
 				- Normally, the function/program can only be executed in one direction, forward not backward!
 				- The [inverse of a function](https://en.wikipedia.org/wiki/Inverse_function) is just the reflection over the id line.
@@ -527,7 +527,7 @@
 				- [thermal emission](https://en.wikipedia.org/wiki/Thermal_radiation) (with no clear trigger) = spontaneous action
 	- Possibility versus Probability <a class="logseq-meta" id="68c233ac-f4dc-4222-8ee5-3523317824ff" data-collapsed="true" data-logbook="CLOCK: [2025-09-11 Thu 09:28:26]&#10;" ></a>
 		- [Commentaries:](../../../publish/CommonMark/Namespace.cm.md#665359ff-79f1-4669-b10b-f2b0e633a7c1)
-			- [uninet vs ANN = ((68c233ac-f4dc-4222-8ee5-3523317824ff))](#68c22b96-6f8a-49e2-93f7-6adc92830f35)
+			- [uninet vs ANN = Possibility versus Probability](2025%20Stories.cm.md#68c22b96-6f8a-49e2-93f7-6adc92830f35)
 			- [intensibility = refinability of possibility space, not probability](#68ac60bb-c8b8-43e0-884d-375022571ae0)
 			- [What Einstein meant](#68c248b5-40db-4427-9224-2251732c5717) by the statement that [“God does not play dice with the universe!”](https://en.wiktionary.org/wiki/God_does_not_play_dice_with_the_universe) should be against the fundamental probability, not against the fundamental space of possibilities.
 				- In other words, _all are equal in the eyes of God_, only limited subjects see inequalities which are just distortions caused by their own conditions.
@@ -612,7 +612,7 @@
 			- Khi chỉ cảm thấy buồn đau, ta đang chìm đắm trong cực đoan, hãy quay về tìm sự cân bằng ổn định ở bên trong.
 			- Sao lại bên trong? Vì chỉ có nỗi buồn mới biết được thế nào là vui, và chỉ có niềm vui mới cảm nhận được nỗi buồn – mình, chính mình là chủ thể của những cảm nhận đó là nửa còn lại bị thiếu sót.
 		- The [imbalance](#68ba49d7-6048-4d97-9fc1-cd573165db5f) is caused by the **partial view** which is the *ignorance of the object's complement in the subject*. <a class="logseq-meta" id="68e71355-f954-4c34-b7cc-009d32b6c7e0" ></a>
-			- The imbalance drives action through the [hidden intents behind the eyes](../../../publish/CommonMark/Mind Jungle.cm.md#68a520bf-adba-4d78-9e3d-5f41de9f8153) and the restoring force toward the balance.
+			- The imbalance drives action through the [hidden intents behind the eyes](../../../publish/CommonMark/Mind%20Jungle.cm.md#68a520bf-adba-4d78-9e3d-5f41de9f8153) and the restoring force toward the balance.
 			- However, with fixed intents, the restored balance is unstable and dependent on external objects.
 			- Seeing our own intents as an inseparable dual of the objects in experience, we see the whole which is always in balance, then we can effectively restore the balace by adjusting both objects and intents.
 	- “Every empty point is the whole world, the whole life!” <a class="logseq-meta" id="68b79197-1244-4b42-b79f-464cfc8433a1" data-collapsed="true" ></a>
@@ -625,14 +625,14 @@
 			- [<span class="link-h2">substance</span>](../../../publish/CommonMark/Uniinfo.cm.md#670e1047-529a-4698-9ad0-5e6c73c18202) = reflection of [obop](../../../publish/CommonMark/Uniinfo.cm.md#94e87dc9-71af-477c-aa70-0f448c2f1e20) (the essence of [<span class="link-h2">subject</span>](../../../publish/CommonMark/Uniinfo.cm.md#667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) <a class="logseq-meta" id="68b7c353-edda-4d57-9a3b-36a8251fdb71" data-collapsed="true" ></a>
 				- Substance (mondern) = Circle = Body = carrier of action/change/arrow = underlying part of the object which is unchanged, i.e. “dead substance”
 					- While the modern scientific concept of “substance” ([matter](https://en.wikipedia.org/wiki/Matter)) is a “dead substance” exclusive to the objective world, the concept of [substance](https://plato.stanford.edu/entries/substance/#UndeIdea) in philosophy from the ancient time (Aristotle, Plato, ...) did include living beings, too.
-					- In Unïnfo, [<span class="link-h2">substance</span>](../../../publish/CommonMark/Uniinfo.cm.md#670e1047-529a-4698-9ad0-5e6c73c18202) includes not only “dead substances” but also “living substances”, similar to the ancient philosophies and Hegen's [living substance](#68b7a9cd-4d53-4961-a386-37d869aee926).
+					- In Unïnfo, [<span class="link-h2">substance</span>](../../../publish/CommonMark/Uniinfo.cm.md#670e1047-529a-4698-9ad0-5e6c73c18202) includes not only “dead substances” but also “living substances”, similar to the ancient philosophies and Hegen's [living substance](2025%20Stories.cm.md#68b7a9cd-4d53-4961-a386-37d869aee926).
 				- Subject = Trinion = Obop (+ Object) = underlying driver of the world, i.e. “living substance”
 					- In dualistic view, the “subject” – as the opposite of object – is the obop itself, while in holistic view, the subject contains the object.
 					- Don't confuse this “living substance” as subject with the modern biological “living substance” ([protoplasm](https://en.wikipedia.org/wiki/Protoplasm)) as material that makes up living cells.
 				- Substance is to subject as abstraction/analysis is to integration
 					- While the “dead substance” is just a container, a purely static image of the whole, a part abstracted from the whole;
 					- the “living substance” is the mediator between the static and the dynamic, between the parts and the whole, the integrator of the whole.
-					- In Hegelian dialectic, the integrativity of the subject is [modeled as the full circle of negation](#68b7a9cd-4d53-4961-a386-37d869aee926), i.e. the Negation of Negation, carried out by reflection from the object (the “other”).
+					- In Hegelian dialectic, the integrativity of the subject is [modeled as the full circle of negation](2025%20Stories.cm.md#68b7a9cd-4d53-4961-a386-37d869aee926), i.e. the Negation of Negation, carried out by reflection from the object (the “other”).
 			- property = dual of intent = external expression of intent on object <a class="logseq-meta" id="68e71a17-a2c3-46fd-8c37-a82f61a8ed63" data-collapsed="true" ></a>
 				- Duality: property (quality, quantity) ⬗ intent (dimension, reference point)
 				- [<span class="link-h2">CIE</span>](../../../publish/CommonMark/Uniinfo.cm.md#66b1cfa4-e22c-4424-bf19-a6ce4649da77): Any **property** of an object is determined by an **intent** of the subject.
@@ -646,7 +646,7 @@
 					- Here, the extent is expressed as degree, intensity, gradation, strength, level, grade of the attribute.
 				- In [Unithread](../../../publish/CommonMark/Uniinfo.cm.md#66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d), each intent defines a [<span class="link-h2">dimension</span>](../../../publish/CommonMark/Uniinfo.cm.md#671e0b94-9907-43bf-993d-d1aabec46e01) of the [<span class="link-h2">Omnifold</span>](../../../publish/CommonMark/Uniinfo.cm.md#675c03d8-3185-41a8-9f98-e869fabec793), which is expressed as a dimension in the space of possibilities.
 					- Here, extent is the measurement, magnitude, amount, quantity in a particular dimension.
-		- The paradox of “the zero intent has infinite extent” is due to the **invisibility** of the complement [behind the eye](../../../publish/CommonMark/Mind Jungle.cm.md#68a520bf-adba-4d78-9e3d-5f41de9f8153) – the subject and its intents. <a class="logseq-meta" data-collapsed="true" ></a>
+		- The paradox of “the zero intent has infinite extent” is due to the **invisibility** of the complement [behind the eye](../../../publish/CommonMark/Mind%20Jungle.cm.md#68a520bf-adba-4d78-9e3d-5f41de9f8153) – the subject and its intents. <a class="logseq-meta" data-collapsed="true" ></a>
 			- This inverse variation becomes paradoxical only when the crutial role of the subject, the hidden one standing behind the scene, is forgotten.
 			- The content is not confined within the object, but spreads out through the underlying subject, hence the [total content](../../../publish/CommonMark/Uniinfo.cm.md#678e1d31-4874-4df6-bfb4-60822a6b5546) $c$ is constant.
 		- The **fractal vision** due to the **transparency** of the scene <a class="logseq-meta" id="68ba3dc0-7e29-4fb7-ae59-d5d2a5962bf0" data-collapsed="true" data-logbook="CLOCK: [2025-09-05 Fri 08:49:45]&#10;" ></a>
@@ -678,12 +678,12 @@
 				- The large content is mostly composed of our intents internally,
 					- which is in the shape of a chain in task performing activities,
 					- or just a mess of intents when we're overloaded & agitated.
-				- In the [opaque vision](#68ba3dfc-1209-45e2-b8db-fb829bc10c62) of everyday life, all these intents are continuously pushing us [behind our eyes](../../../publish/CommonMark/Mind Jungle.cm.md#68a520bf-adba-4d78-9e3d-5f41de9f8153), forcing use to think, to talk, to do things after things nonstop.
-				- This [intent pressure](#68b19896-8640-4e28-9c7f-f7ca41d1e680) is what we call “engergy” (eustress) and “stress” (disstress).
+				- In the [opaque vision](#68ba3dfc-1209-45e2-b8db-fb829bc10c62) of everyday life, all these intents are continuously pushing us [behind our eyes](../../../publish/CommonMark/Mind%20Jungle.cm.md#68a520bf-adba-4d78-9e3d-5f41de9f8153), forcing use to think, to talk, to do things after things nonstop.
+				- This [intent pressure](2025%20Stories.cm.md#68b19896-8640-4e28-9c7f-f7ca41d1e680) is what we call “engergy” (eustress) and “stress” (disstress).
 			- Keeping balance with a large content is much more difficult than with a small content.
 				- This is what i descibed as “walking on a thin line in mid-air” in [this blog](https://creatzynotes.blogspot.com/2021/03/3-cap-o-inh.html).
 					- The idiom “walking a fine line between A & B” refers to this balancing skill.
-				- With [accept–release](../../../publish/CommonMark/Mind Jungle.cm.md#68773fad-d653-4536-87b5-d4b493753b41) & [relax–reduce](../../../publish/CommonMark/Mind Jungle.cm.md#669a5162-19e1-4c52-8888-ab7cbfe275ec), at the root, our _**inner limbs** are free_ from all these chaos and pressure. This is how we can regain control from within.
+				- With [accept–release](../../../publish/CommonMark/Mind%20Jungle.cm.md#68773fad-d653-4536-87b5-d4b493753b41) & [relax–reduce](../../../publish/CommonMark/Mind%20Jungle.cm.md#669a5162-19e1-4c52-8888-ab7cbfe275ec), at the root, our _**inner limbs** are free_ from all these chaos and pressure. This is how we can regain control from within.
 	- Turing Deterministic / unbound deterministic = bound / unbound intent cone  <a class="logseq-meta" id="68ac60bb-321e-44da-8f44-4f688e611d3e" data-collapsed="true" ></a>
 		- Turing machine's intent cone has a fixed apex which is its bound(ary), its prime. Its cone has only one direction of development: extend down the base, cannot intend up the apex.
 		- uninet has bidirectional development: actions extend down the base, and knowledge intends up the apex (learning).
@@ -865,7 +865,7 @@
 		- Pragmatic application:
 			- observing the relativity of the order, the formation of the form, and the destruction of the self,
 			- we practice not to blindly obey the order of the crystal form of the karmic self.
-			- To break the order of control, we must stop and [turn the eye back](../../../publish/CommonMark/Mind Jungle.cm.md#68898917-e61f-4d23-9124-474efa9a9eee) to the intents, turning the intents from the role of subject/agent to object.
+			- To break the order of control, we must stop and [turn the eye back](../../../publish/CommonMark/Mind%20Jungle.cm.md#68898917-e61f-4d23-9124-474efa9a9eee) to the intents, turning the intents from the role of subject/agent to object.
 				- The intent behind the eye has **unconditional influence**, i.e. [passive input](#68994c7c-695a-49db-aae6-e776186f6a85), on the current obop, like the controller of a puppet, because it's out of sight.
 					- The control is determined by the view => out of view = out of control.
 				- The empty center has the highest order because there's nothing left behind to control. To the empty center, everything is object, no more agent.
@@ -880,25 +880,25 @@
 		- Just like [<span class="link-h3">SCIFER</span>](../../../publish/CommonMark/Uniinfo.cm.md#66f40210-cca6-4d81-85e7-d0c54ef20451) finds the deepest **common structure** in seemingly separate threads, the ear finds the deepest common cycle among frequencies – the perceived pitch. This is shown best in the complex tones [missing fundamental frequency](https://en.wikipedia.org/wiki/Missing_fundamental).
 		- Đàn bầu is played soley with [flageolet tones (pinched harmonics)](https://en.wikipedia.org/wiki/String_harmonic), which is an advanced technique on other instruments like violin, guitar, etc.
 			- The sound is pure, glassy, and floating, because it's made entirely from string harmonics – no pressed tones. That's why the đàn bầu sounds so “airy” and “spiritual”.
-	- DONE Continue with [planning](../../../publish/CommonMark/Mind Jungle.cm.md#67760c43-5cbd-4b4f-8fd9-5cedf804f56a) to resolve [the conflict with company work](../../../publish/CommonMark/Mind Jungle.cm.md#6677b986-ada2-4c73-8a11-980cdf9cb6d4). <a class="logseq-meta" id="6926be1c-549f-4657-9760-eed54a585661" data-collapsed="true" data-logbook="CLOCK: [2025-07-03 Thu 15:26:42]--[2025-07-03 Thu 16:33:25] =&gt;  01:06:43&#10;CLOCK: [2025-10-01 Wed 10:50:09]--[2025-10-01 Wed 10:50:11] =&gt;  00:00:02&#10;" ></a>
+	- DONE Continue with [planning](../../../publish/CommonMark/Mind%20Jungle.cm.md#67760c43-5cbd-4b4f-8fd9-5cedf804f56a) to resolve [the conflict with company work](../../../publish/CommonMark/Mind%20Jungle.cm.md#6677b986-ada2-4c73-8a11-980cdf9cb6d4). <a class="logseq-meta" id="6926be1c-549f-4657-9760-eed54a585661" data-collapsed="true" data-logbook="CLOCK: [2025-07-03 Thu 15:26:42]--[2025-07-03 Thu 16:33:25] =&gt;  01:06:43&#10;CLOCK: [2025-10-01 Wed 10:50:09]--[2025-10-01 Wed 10:50:11] =&gt;  00:00:02&#10;" ></a>
 		- First, plan the time of working hours.
 			- A working day should start from official works instead of personal works.
 				- This is a good strategy but difficult for me because the out-of-work thoughts from the last night will naturally continue in the morning, keeping me from focusing on other works.
 				- So, let's try using breathwork and meditation to switch the flow of thought from personal to official works.
 			- Previously, i designed a [⟪Back to Work!⟫ reminder](../../../publish/CommonMark/Task.cm.md#67d2a63d-58de-4dbe-bbec-3ec8625737c7) but ineffective.
 		- Second, plan the space of thoughts.
-			- Due to the [**holistic core**](../../../publish/CommonMark/Mind Jungle.cm.md#681b3ad7-d1b0-4c06-a4ea-385a4a9314e0) and various deep intents, all works, including official works and even the balancing work, will trigger meta-thoughts deeply related to [Unïnfo](../../../publish/CommonMark/Uniinfo.cm.md#66537a44-f579-4fcc-a02b-2f32d0d409fc). So the time planning only is not enough.
-				- My [<span class="link-h2">Balance Way</span>](../../../publish/CommonMark/Mind Jungle.cm.md#665379b7-e4f6-4240-8029-fd143e2230c7) has already been supporting Unïnfo strongly: observing the intents & obops => expose them, detach them, and write them down to UniinfoNotes <a class="logseq-meta" data-collapsed="true" ></a>
+			- Due to the [**holistic core**](../../../publish/CommonMark/Mind%20Jungle.cm.md#681b3ad7-d1b0-4c06-a4ea-385a4a9314e0) and various deep intents, all works, including official works and even the balancing work, will trigger meta-thoughts deeply related to [Unïnfo](../../../publish/CommonMark/Uniinfo.cm.md#66537a44-f579-4fcc-a02b-2f32d0d409fc). So the time planning only is not enough.
+				- My [<span class="link-h2">Balance Way</span>](../../../publish/CommonMark/Mind%20Jungle.cm.md#665379b7-e4f6-4240-8029-fd143e2230c7) has already been supporting Unïnfo strongly: observing the intents & obops => expose them, detach them, and write them down to UniinfoNotes <a class="logseq-meta" data-collapsed="true" ></a>
 					- I just flush my karma out to the Uniinfo: whatever i formulated, i'm free from it.
 					- [!] But it has not supported the official works yet!
 				- ⇒ Now, i must _**add official works** to my way_ for it to be more balanced: observing the requirements, the schedules and deadlines, etc.
-				- ⇒ [reduce self-circle](../../../publish/CommonMark/Mind Jungle.cm.md#669a5162-19e1-4c52-8888-ab7cbfe275ec): reduce the radius of the core back to its **currently wholesome region**, instead of expanding to the distorted regions (fringe) around. <a class="logseq-meta" id="686e0e73-d3cc-4250-804f-94a270b92fd9" ></a>
+				- ⇒ [reduce self-circle](../../../publish/CommonMark/Mind%20Jungle.cm.md#669a5162-19e1-4c52-8888-ab7cbfe275ec): reduce the radius of the core back to its **currently wholesome region**, instead of expanding to the distorted regions (fringe) around. <a class="logseq-meta" id="686e0e73-d3cc-4250-804f-94a270b92fd9" ></a>
 					- The fringe contains lots of “hairs” of tendency which attract stimuli and [awaken dormant intents](../../../publish/CommonMark/Uniinfo.cm.md#686cc8c2-9215-4b84-840e-def48efd9447).
 					- These “hairs” of tendency are the attitudes, emotions, feelings deep inside.
 					- Model of the fringed core <a class="logseq-meta" data-collapsed="true" ></a>
 						- ![straw-raffia-placemats-with-fringe-natural.png](../assets/Will/story/2025-07/straw-raffia-placemats-with-fringe-natural.png){:width 200}
 			- **Assessment** is required for all thoughts & tasks: distance from herenow, relationship with others, degree of interest, applicable domains (personal, official, group, mankind), etc.
-		- DONE October 1st, after full 3 months, no surprise, it's been proven that planning is not for me. The [intent observation](../../../publish/CommonMark/Mind Jungle.cm.md#6889c11f-e881-432f-ba0f-876b61afc60c) and [full engagement](#68be8447-81b0-4094-9964-1bd21e2e31e0) are still best suited for me. <a class="logseq-meta" data-logbook="CLOCK: [2025-10-01 Wed 10:39:06]&#10;CLOCK: [2025-10-01 Wed 10:39:20]--[2025-10-01 Wed 10:49:17] =&gt;  00:09:57&#10;" ></a>
+		- DONE October 1st, after full 3 months, no surprise, it's been proven that planning is not for me. The [intent observation](../../../publish/CommonMark/Mind%20Jungle.cm.md#6889c11f-e881-432f-ba0f-876b61afc60c) and [full engagement](2025%20Stories.cm.md#68be8447-81b0-4094-9964-1bd21e2e31e0) are still best suited for me. <a class="logseq-meta" data-logbook="CLOCK: [2025-10-01 Wed 10:39:06]&#10;CLOCK: [2025-10-01 Wed 10:39:20]--[2025-10-01 Wed 10:49:17] =&gt;  00:09:57&#10;" ></a>
 	- WAIT [long. [<span class="link-h2">flow</span>](../../../publish/CommonMark/Uniinfo.cm.md#67fcbbc6-915b-4d28-b9cf-098e916cdc86) ⊥ [<span class="link-h3">rotation</span>](../../../publish/CommonMark/Uniinfo.cm.md#67ed2855-1512-4db0-bc61-f714ea891106)] = [exp map](https://en.wikipedia.org/wiki/Exponential_map_(Lie_theory)) [real ⊥ imaginary] <a class="logseq-meta" id="67fe23f7-3afe-4e77-be1d-fa8a15416bc3" data-collapsed="true" data-logbook="CLOCK: [2025-04-15 Tue 16:43:57]&#10;" ></a>
 		- Longitudinal (tangential) flow, [divergence](https://en.wikipedia.org/wiki/Divergence) = $\exp(real)$, is the normal flow from sources to sinks, which is an image of a meta flow circulating through higer dimensions.
 		- Transverse flow, [curl](https://en.wikipedia.org/wiki/Curl_(mathematics)) = $\exp(imaginary)$, is the [<span class="link-h3">circular flow</span>](../../../publish/CommonMark/Uniinfo.cm.md#67fcbee7-da00-45d8-bb21-deefb95d164e), rotation, circulation, curl around the sources in object space.
@@ -942,13 +942,13 @@
 			- Equal (hyperbolic) = transformation = product = projection = multiplication → scale
 		- $\tan⋅\cot = 1 \;\; ⇔ \;\; \sin^2 + \cos^2 = 1 \;\; ⇔ \;\; φ + φ_c = ∟$ 
 		  <br>multiplication (hyperbolic) ⇔ exponential (circular) ⇔ addition (parabolic)
-		- [3 ways to extend dimensions: volume, radius, phase](2024 Brainstorms.cm.md#6716110c-1b10-41cc-9e26-c76ef782b6a3)
+		- [3 ways to extend dimensions: volume, radius, phase](2024%20Brainstorms.cm.md#6716110c-1b10-41cc-9e26-c76ef782b6a3)
 	- WAIT normed space + parallelogram law = inner product space <a class="logseq-meta" id="6819c526-4633-477b-ad2b-4f2b1b8f4bb0" data-collapsed="true" data-logbook="CLOCK: [2025-04-02 Wed 19:53:56]&#10;" ></a>
 		- Sum of squares is just the [diagonalized version](https://en.wikipedia.org/wiki/Diagonal_form) of [quadratic form](https://en.wikipedia.org/wiki/Quadratic_form).
 			- (Squared) norm and parallelogram law are relations on the diagonal (containing squares, at zero angle), whereas inner product is the relation at anywhere (any angle).
 			- The dual view of inner product and matrix, whose diagonal contain squares, is also the dual view of projective thread and function graphing.
 				- The matrix is just a “meta” of orthogonal coordinates.
-				- Ref: [The dual view of parabolic & hyperbolic rotations is also the dual view of **projective thread** with inner product and [function graphing](https://en.wikipedia.org/wiki/Graph_of_a_function) on [orthogonal coordinates](https://en.wikipedia.org/wiki/Orthogonal_coordinates).](#67e37475-13e3-4a9f-af60-7bec7517c108)
+				- Ref: [The dual view of parabolic & hyperbolic rotations is also the dual view of **projective thread** with inner product and [function graphing](https://en.wikipedia.org/wiki/Graph_of_a_function) on [orthogonal coordinates](https://en.wikipedia.org/wiki/Orthogonal_coordinates).](2025%20Stories.cm.md#67e37475-13e3-4a9f-af60-7bec7517c108)
 		- Relations
 			- parallelogram law ⇒ inner product ⇒ orthogonality ⇒ Pythagorean theorem
 			- Pythagorean theorem + structure of inner product space ⇒ [roundness](../../../publish/CommonMark/Uniinfo.cm.md#67ee0ea8-b68d-4adc-8d57-2f0a7be16d22) ⇒ parallelogram law
@@ -970,13 +970,13 @@
 			  <br>for right angle $∠ABC = 90°$
 	- WAIT 0 sum = neutralization of positive and negative  <a class="logseq-meta" id="678df0f0-20d2-4995-bfc2-0b953970469d" data-collapsed="true" data-logbook="CLOCK: [2025-01-20 Mon 13:45:06]&#10;CLOCK: [2025-02-10 Mon 10:19:18]&#10;" ></a>
 	  <br>vs. ∞ sum = abstraction of complex objects into points
-		- The neutral point (0) is absolutely "nothing" due to its extent = 0, i.e. a point, while the abstract space (∞) is just a [thin air](2024 Brainstorms.cm.md#671d06ba-cb96-4424-9bee-4e6327ba7f9d) of possibilities.
-	- [high momentum due to spring doll](../../../publish/CommonMark/Mind Jungle.cm.md#6846c7e1-239c-4b39-9ef4-9d2eaba17a52) ≈ large momentum of massive objects <a class="logseq-meta" id="685bb3fb-9d35-41ec-95ab-97738ea473c2" data-collapsed="true" data-logbook="CLOCK: [2025-06-25 Wed 15:36:01]&#10;" ></a>
+		- The neutral point (0) is absolutely "nothing" due to its extent = 0, i.e. a point, while the abstract space (∞) is just a [thin air](2024%20Brainstorms.cm.md#671d06ba-cb96-4424-9bee-4e6327ba7f9d) of possibilities.
+	- [high momentum due to spring doll](../../../publish/CommonMark/Mind%20Jungle.cm.md#6846c7e1-239c-4b39-9ef4-9d2eaba17a52) ≈ large momentum of massive objects <a class="logseq-meta" id="685bb3fb-9d35-41ec-95ab-97738ea473c2" data-collapsed="true" data-logbook="CLOCK: [2025-06-25 Wed 15:36:01]&#10;" ></a>
 		- Both are caused by the long thread of intent, while mine is more tree-like structured, the mass thread of objects just coils up in the mass body.
 		- My intent thread is long due to not only the depth (height of tree), but also its coiling in the nodes which is the energy accumulated in the past. When disconnected, these coils just sleep like batteries, waiting to release when connected.
 		- Thanks to these coils, the intent threads are not lost when disconnected
 		  <br>⇒ resolve my delusion & fear of losing the works (sunk-cost fallacy)
-		- My momentum is harder than the massive object due to not only its depth but also my attachment to continuity, smoothnes, connectivity, integrity, and my scare of messiness, scattering, ignorance. This is again the [**holistic core**](../../../publish/CommonMark/Mind Jungle.cm.md#681b3ad7-d1b0-4c06-a4ea-385a4a9314e0)! <a class="logseq-meta" id="685bb77c-4502-4261-a3a3-a726980d1a50" ></a>
+		- My momentum is harder than the massive object due to not only its depth but also my attachment to continuity, smoothnes, connectivity, integrity, and my scare of messiness, scattering, ignorance. This is again the [**holistic core**](../../../publish/CommonMark/Mind%20Jungle.cm.md#681b3ad7-d1b0-4c06-a4ea-385a4a9314e0)! <a class="logseq-meta" id="685bb77c-4502-4261-a3a3-a726980d1a50" ></a>
 			- My bro's [rhetorical question](https://en.wikipedia.org/wiki/Rhetorical_question) echoes: 
 			  <br>> Can you do it without understanding?!
 			- This scare has been from my childhood: due to my small memory, i must always tidy up everything, digest them, organize them tightly.
@@ -984,7 +984,7 @@
 	- About the [hurricane's eye](../../../publish/CommonMark/Uniinfo.cm.md#681826ad-768c-4671-b575-0d9f8ca64c6b) 🌀: [empty center](../../../publish/CommonMark/Uniinfo.cm.md#69086748-b6e9-47c0-810b-4a92f882d6bc) = [<span class="link-h3">self-essence</span>](../../../publish/CommonMark/Uniinfo.cm.md#66c8772a-9b29-45b0-b169-2fa847333e02) = [Nibbāna/Nirvāṇa](https://en.wikipedia.org/wiki/Nirvana) = selfless obop = zero-limit of [obop](../../../publish/CommonMark/Uniinfo.cm.md#94e87dc9-71af-477c-aa70-0f448c2f1e20) <a class="logseq-meta" id="684f9515-8f95-4004-8aa8-04a10d1ebf11" data-collapsed="true" data-logbook="CLOCK: [2025-05-16 Fri 13:44:40]&#10;" ></a>
 		- The [cyclone](https://en.wikipedia.org/wiki/Cyclone) and its [eye](https://en.wikipedia.org/wiki/Eye_(cyclone)) is a powerful image that i've used a lot from the begining of the balancing journey, and was first written down in the blog post “[3 cấp độ Định](https://creatzynotes.blogspot.com/2021/03/3-cap-o-inh.html)”.
 		- Cyclone and [bubble ring](https://en.wikipedia.org/wiki/Bubble_ring) are used to show the union of Circle and Arrow, as the **self-sustained subject** and **singularity**.
-		- Contemplating the cyclone, i see the [<span class="link-h3">self-structure</span>](../../../publish/CommonMark/Uniinfo.cm.md#6810ceeb-6af6-442b-9910-baae2c315c46), the central obop, [the role of wholeness](2024 Brainstorms.cm.md#66f29d57-a87f-4370-9f32-722922a7bff1) in awareness and action, etc.
+		- Contemplating the cyclone, i see the [<span class="link-h3">self-structure</span>](../../../publish/CommonMark/Uniinfo.cm.md#6810ceeb-6af6-442b-9910-baae2c315c46), the central obop, [the role of wholeness](2024%20Brainstorms.cm.md#66f29d57-a87f-4370-9f32-722922a7bff1) in awareness and action, etc.
 			- Being at the center of the self, the central obop is the nexus of communication and interaction for all components of the self-circle. It's the knot of effect threads and the focal point of effect flows within the self-circle. <a class="logseq-meta" id="6867abcb-4e1c-493e-a38d-c7b8809dd6ad" ></a>
 			- The more mature [the self becomes](../../../publish/CommonMark/Uniinfo.cm.md#690827cf-c19e-4fc4-ba25-5d225afe06ae), the thinner its central obop is, until completely emty.
 		- Thanks to its zero intent, the empty center = self-essence = Nibbāna = the non-self (Anattā) has infinite extent coverring everything, hence the great Self (Ātman).
@@ -1010,13 +1010,13 @@
 				- each self-circle has an obop which is just another self-circle inside, and
 				- the limit of this inward stepping is the self-essence, i.e. the apex of the double cone.
 		- [History:](../../../publish/CommonMark/Namespace.cm.md#6667abd2-14eb-4145-b9e3-e6f3037b3117) <a class="logseq-meta" id="686670ae-d62c-4a7a-901b-a651027352b6" data-collapsed="true" ></a>
-			- In Sep 2024, from the [chat with Huy](2024 Stories.cm.md#681826b0-6116-418e-8aa1-188314a5eac6), i added [a task](2024 Tasks.cm.md#66faa5fa-b843-490d-a7b3-a2400c11be86) to...
+			- In Sep 2024, from the [chat with Huy](2024%20Stories.cm.md#681826b0-6116-418e-8aa1-188314a5eac6), i added [a task](2024%20Tasks.cm.md#66faa5fa-b843-490d-a7b3-a2400c11be86) to...
 				- write blog post "[Cái Thức thanh tịnh nơi Mắt bão](https://creatzynotes.blogspot.com/2024/09/cai-thuc-thanh-tinh-noi-mat-bao.html)";
-				- brainstorm: [**“awareness = equalization” is the duality of the** ((94e87dc9-71af-477c-aa70-0f448c2f1e20))](2024 Brainstorms.cm.md#66f29d57-a87f-4370-9f32-722922a7bff1); and
-				- write discussion: [The cyclone's structure represents the ((6810ceeb-6af6-442b-9910-baae2c315c46)).](../../../publish/CommonMark/Uniinfo.cm.md#673312a3-e94e-478f-9e21-bad72ef29d1b)
+				- brainstorm: [**“awareness = equalization” is the duality of the** obop](2024%20Brainstorms.cm.md#66f29d57-a87f-4370-9f32-722922a7bff1); and
+				- write discussion: [The cyclone's structure represents the self-structure.](../../../publish/CommonMark/Uniinfo.cm.md#673312a3-e94e-478f-9e21-bad72ef29d1b)
 				- But that task was interrupted and abandoned. Later on, these documents have been slowly updated and some are still stubs until now, 2025/05/16.
-			- In [the second experience of drowning via cough reflex](#67dcc012-44d3-4041-b17a-0ef201b3ff6c) in April 2025, [Recalling the godly awake experiences, i saw that such “dead state” is just the [Buddhist Nibbāna](https://en.wikipedia.org/wiki/Nirvana_(Buddhism)).](#684f951a-b5ca-44a7-b9a3-df1538310721)
-			- In May 2025, while contemplating [The downside of the [“overview effect”](https://en.wikipedia.org/wiki/Overview_effect) exprienced by the [psychonaut](https://www.facebook.com/share/p/195trGrWqj/)](../../../publish/CommonMark/Mind Jungle.cm.md#681b24ad-2ec8-4e9f-bef6-eb77b09b5c9c), i see [a solution](../../../publish/CommonMark/Mind Jungle.cm.md#681b4678-686a-4d99-9163-6f60e0b30d2c) to my issue of perfectionism is to sublimate the [**holistic core**](../../../publish/CommonMark/Mind Jungle.cm.md#681b3ad7-d1b0-4c06-a4ea-385a4a9314e0) to restore the self to the hurricane's eye = empty center = [<span class="link-h3">self-essence</span>](../../../publish/CommonMark/Uniinfo.cm.md#66c8772a-9b29-45b0-b169-2fa847333e02) = Nibbāna = the [non-self](https://en.wikipedia.org/wiki/Anatt%C4%81) <a class="logseq-meta" id="684f9515-6b8f-4281-bce0-f396259e640b" ></a>
+			- In [the second experience of drowning via cough reflex](2025%20Stories.cm.md#67dcc012-44d3-4041-b17a-0ef201b3ff6c) in April 2025, [Recalling the godly awake experiences, i saw that such “dead state” is just the [Buddhist Nibbāna](https://en.wikipedia.org/wiki/Nirvana_(Buddhism)).](2025%20Stories.cm.md#684f951a-b5ca-44a7-b9a3-df1538310721)
+			- In May 2025, while contemplating [The downside of the [“overview effect”](https://en.wikipedia.org/wiki/Overview_effect) exprienced by the [psychonaut](https://www.facebook.com/share/p/195trGrWqj/)](../../../publish/CommonMark/Mind%20Jungle.cm.md#681b24ad-2ec8-4e9f-bef6-eb77b09b5c9c), i see [a solution](../../../publish/CommonMark/Mind%20Jungle.cm.md#681b4678-686a-4d99-9163-6f60e0b30d2c) to my issue of perfectionism is to sublimate the [**holistic core**](../../../publish/CommonMark/Mind%20Jungle.cm.md#681b3ad7-d1b0-4c06-a4ea-385a4a9314e0) to restore the self to the hurricane's eye = empty center = [<span class="link-h3">self-essence</span>](../../../publish/CommonMark/Uniinfo.cm.md#66c8772a-9b29-45b0-b169-2fa847333e02) = Nibbāna = the [non-self](https://en.wikipedia.org/wiki/Anatt%C4%81) <a class="logseq-meta" id="684f9515-6b8f-4281-bce0-f396259e640b" ></a>
 			- Today, 2025/07/03, i've just finished this brainstorm about the hurricane's eye 🌀. <a class="logseq-meta" data-logbook="CLOCK: [2025-07-03 Thu 19:48:29]&#10;" ></a>
 		- Pronunciations of Nibbāna & Nirvāṇa in various languages <a class="logseq-meta" id="686fab17-f305-4524-834e-8a3ecdc89865" data-collapsed="true" ></a>
 			- “Nibbāna is Nirvāṇa” with Google Translate voice
@@ -1110,11 +1110,11 @@
 				- {{video https://youtu.be/27WGLJCPWIk}}
 		- “v” /v/ → /ʋ/ → /bj/ → /βj/ → /j/
 			- [/ʋ/](https://en.wikipedia.org/wiki/Voiced_labiodental_approximant) is between /v/ and /w/
-				- [This /ʋ/ sound is popular in South Asian languages: in the Indian subcontinent, Laos, Khmer, etc.](#6809ac03-30d3-4ba7-8b9b-17e13732f9dd)
+				- [This /ʋ/ sound is popular in South Asian languages: in the Indian subcontinent, Laos, Khmer, etc.](2025%20Stories.cm.md#6809ac03-30d3-4ba7-8b9b-17e13732f9dd)
 	- The translation by $\vec{v} = (dx:dy:0)$ in [homogeneous coordinates](#67dcf2d3-4020-4477-b375-9bbb8c0b1336) is actually a **rotation** due to its [*scale invariance*](#67e1004d-1533-483b-ab39-4b91ffbedbdd) throughout all z-scaled planes: $\vec{v}_z = \overrightarrow{(dx⋅z,\, dy⋅z)}$ [on plane $z≠0$] $= \vec{v} = \overrightarrow{(dx, dy)}$ [on the standard plane $z = 1$]. <a class="logseq-meta" id="67e0fb13-1c89-4f27-825e-02027f368fa2" data-collapsed="true" data-logbook="CLOCK: [2025-03-24 Mon 13:59:25]--[2025-03-31 Mon 18:40:44] =&gt;  172:41:19&#10;" ></a>
-		- This is a parabolic rotation ([shear mapping](https://en.wikipedia.org/wiki/Shear_mapping)): [Parabolic rotation, the bridge between elliptic and hyperbolic rotations](2024 Brainstorms.cm.md#67b541c9-dbe4-4b0f-a2a8-810805bbfce8)
+		- This is a parabolic rotation ([shear mapping](https://en.wikipedia.org/wiki/Shear_mapping)): [Parabolic rotation, the bridge between elliptic and hyperbolic rotations](2024%20Brainstorms.cm.md#67b541c9-dbe4-4b0f-a2a8-810805bbfce8)
 		- circular θ > parabolic φ > hyperbolic ψ <a class="logseq-meta" id="67e29bdb-9bce-4cb8-b993-79aa130a1831" ></a>
-			- The circular rotation is on the [wrapped object plane](2024 Brainstorms.cm.md#675f8a74-7fef-4e88-a65e-856f5e494bb8), the parabolic rotation is on the [unwrapped circumference plane](2024 Brainstorms.cm.md#675f8af0-7b21-4483-908c-25ce0cec02cc), and the hyperbolic rotation is on the squeezed unwrapped circumference plane.
+			- The circular rotation is on the [wrapped object plane](2024%20Brainstorms.cm.md#675f8a74-7fef-4e88-a65e-856f5e494bb8), the parabolic rotation is on the [unwrapped circumference plane](2024%20Brainstorms.cm.md#675f8af0-7b21-4483-908c-25ce0cec02cc), and the hyperbolic rotation is on the squeezed unwrapped circumference plane.
 			- Parabolic rotation = [shear](https://en.wikipedia.org/wiki/Shear_mapping), with **parabolic angle = shear factor** $s = \tan(φ)$
 			  <br>$(x, y) → (x, \; y + s⋅x)$
 				- φ is the (circular) angle between the radial (sheared) line and the horizontal line.
@@ -1128,7 +1128,7 @@
 					  <br>$\tanh(ψ) = \tan(ψ_c)$
 				- **Edge sync**: Project the shear line up to the light cone $z = \sqrt{x^2 + y^2}$, then project to xOz plane, then reflect back to xOy plane, i.e., the sheared line is mirrored into the horizontal line:
 				  <br>$\tanh(ψ) = \tan(ψ_c) = \sin(φ) = s/\sqrt{1+s^2}$
-					- This is the [“function mapping view”](#67e37475-13e3-4a9f-af60-7bec7517c108) of the shear where the shear is considered a projective thread.
+					- This is the [“function mapping view”](2025%20Stories.cm.md#67e37475-13e3-4a9f-af60-7bec7517c108) of the shear where the shear is considered a projective thread.
 			- Rotations as flows on conic grids <a class="logseq-meta" id="684f951a-4c9b-45c1-80b0-dc10d12a2dbb" ></a>
 				- On polar grid, the circular rotation moves objects along the “vertical” lines, i.e. concentric circles $x^2 + y^2 = r^2$. These circles are “vertical” relative to the horizontal x-axis. <a class="logseq-meta" id="67e64337-65df-48fd-af37-3ee21245e154" ></a>
 				- On Cartesian grid, the y-parabolic rotation moves objects along the vertical lines $x^2 = r^2$, and x-parabolic rotation along the horizontal lines $y^2 = r^2$.
@@ -1184,7 +1184,7 @@
 				- $|\overrightarrow{⟨dφ⟩}| = 1 \; ; \; \arg(\overrightarrow{⟨dφ⟩}) = dφ$
 				- $d\overrightarrow{⟨φ⟩} = d(e^{iφ}) = (e^{iφ})idφ = \overrightarrow{⟨φ⟩}i⋅dφ$
 					- $|d\overrightarrow{⟨φ⟩}| = dφ \; ; \; \arg(d\overrightarrow{⟨φ⟩}) = φ+π/2$
-			- Ref: [Planes and [components](https://en.wikipedia.org/wiki/Polar_coordinate_system#Vector_calculus) in polar plane](2024 Brainstorms.cm.md#67b541c9-3b4e-4429-8c35-9afaf9f434bf)
+			- Ref: [Planes and [components](https://en.wikipedia.org/wiki/Polar_coordinate_system#Vector_calculus) in polar plane](2024%20Brainstorms.cm.md#67b541c9-3b4e-4429-8c35-9afaf9f434bf)
 		- Vector = arrow = translation = $1 + Δ$ = $\lim_{n→∞}(1 + Δ/n)^n = e^Δ$
 	- About [homogeneous coordinates](https://en.wikipedia.org/wiki/Homogeneous_coordinates) <a class="logseq-meta" id="67dcf2d3-4020-4477-b375-9bbb8c0b1336" data-collapsed="true" data-logbook="CLOCK: [2025-03-19 Wed 09:46:39]&#10;" ></a>
 		- The homogeneous coordinates is created from the Cartesian coordinates, as the screen of projection, using the basic technique of projective geometry: “step back to look forward at the screen” or “fly up to look down at the screen”. <a class="logseq-meta" id="67ee59c4-14c1-4184-ac8e-ba0b3569cacf" ></a>
@@ -1208,7 +1208,7 @@
 			- Translation: All points in space are shifted parallelly in direction $\vec{v}$ via vector $\vec{v}⋅t$ along lines parallel to $l$.
 			- Limit: When they are shifted to infinity with $t→∞$, they all converge to the point $(dx:dy:0)$. This is how all parallel lines “converge” to the point at infinity.
 			- I.e., point at infinity is just the direction vector $\vec{v}$ of the line $l$, as well as all other lines parallel to $l$.
-		- [The translation by $\vec{v} = (dx:dy:0)$ in [homogeneous coordinates](((67dcf2d3-4020-4477-b375-9bbb8c0b1336))) is actually a **rotation** due to its [*scale invariance*](((67e1004d-1533-483b-ab39-4b91ffbedbdd))) throughout all z-scaled planes: $\vec{v}_z = \overrightarrow{(dx⋅z,\, dy⋅z)}$ [on plane $z≠0$] $= \vec{v} = \overrightarrow{(dx, dy)}$ [on the standard plane $z = 1$].](#67e0fb13-1c89-4f27-825e-02027f368fa2)
+		- [The translation by $\vec{v} = (dx:dy:0)$ in [homogeneous coordinates](About [homogeneous coordinates](https://en.wikipedia.org/wiki/Homogeneous_coordinates)) is actually a **rotation** due to its [*scale invariance*](Scale invariance: thanks to ratios $(x:y:z)$, instead of absolute values $(x,y,z)$, the homogeneous coordinates are unchanged throughout all z-scaled planes: $(x:y:z) = (x/z : y/z : 1)⋅z$.) throughout all z-scaled planes: $\vec{v}_z = \overrightarrow{(dx⋅z,\, dy⋅z)}$ [on plane $z≠0$] $= \vec{v} = \overrightarrow{(dx, dy)}$ [on the standard plane $z = 1$].](#67e0fb13-1c89-4f27-825e-02027f368fa2)
 		- Refs:
 			- Chats with Grok 3
 				- [Homogeneous Coordinates: Points vs Vectors](https://grok.com/chat/0be0eda4-8509-4752-8443-2c61f9a0e300) ([published](https://grok.com/share/bGVnYWN5_76091c75-ea85-4a4e-93d4-1f666c3c3e6d))
@@ -1217,7 +1217,7 @@
 			- Wikipedia: [homogeneous coordinates](https://en.wikipedia.org/wiki/Homogeneous_coordinates)
 	- “wanting” = “lacking” ↔ “distress” = “overwhelming stress” = “anger” = “excessive pressure” <a class="logseq-meta" id="67cea2ee-5f77-4576-8c1c-9e31d9b822c9" data-collapsed="true" data-logbook="CLOCK: [2025-03-10 Mon 15:35:44]--[2025-03-10 Mon 20:07:20] =&gt;  04:31:36&#10;" ></a>
 		- The greed ([rāga](https://en.wikipedia.org/wiki/Raga_(Buddhism))), desire, wanting are due to the **lacking**, the incompleteness within the self, which cause that self to look for, be **attracted** to and attach to its complements which bring **pleasure** to the self. <a class="logseq-meta" id="67ceb0d9-35c9-4805-8430-35c204658dbd" ></a>
-		  <br>{{embed [Law of ((669a1d82-91c8-40fd-81f5-e8ffe56e9e9c)) restoration](../../../publish/CommonMark/Uniinfo.cm.md#6667c99a-792f-4230-9fc6-c5fae874daef)}}
+		  <br>{{embed [Law of balance restoration](../../../publish/CommonMark/Uniinfo.cm.md#6667c99a-792f-4230-9fc6-c5fae874daef)}}
 			- Etymology:
 				- **Want**: PIE [*h₁weh₂-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81weh%E2%82%82-) (“empty”) →  Proto-Germanic [*wanô](https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/wan%C3%B4) (“lack, deficiency”) → Old Norse [vanta](https://en.wiktionary.org/wiki/vanta#Old_Norse) (“to lack”) → Middle English [wanten](https://en.wiktionary.org/wiki/wanten#Middle_English) [1200] (“to lack”) → Modern English [1700] [want](https://en.wiktionary.org/wiki/want#English) (“desire, wish for, feel the need of”)
 				- **Greed**: Proto-Germanic [*grēdagaz](https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/gr%C4%93dagaz) (“hungry”) → Anglian Old English [grēdiġ](https://en.wiktionary.org/wiki/gredig#Old_English) (“greedy, hungry, eager”) → English [greedy](https://en.wiktionary.org/wiki/greedy) → English [greed](https://en.wiktionary.org/wiki/greed)
@@ -1370,9 +1370,9 @@
 					  <br>> The responsibilities **proper to** a trustee are outlined in the legal document.
 		- It's interesting that both Schwartz and Schwarzschild start with the “schwarz” = “black” and coincide with the [schwa `ə`](https://www.britannica.com/topic/schwa) = “null”! 😊
 	- [stagger](https://www.facebook.com/share/p/35j9SSuqSJj76tWY/) = link (in space) = continuation (in time) = momentum <a class="logseq-meta" id="67b54283-14b2-4753-94bb-4d827d54d7cc" data-collapsed="true" data-logbook="CLOCK: [2025-02-19 Wed 09:40:27]&#10;" ></a>
-		- The linkage is due to [stagger = dependent origination](2024 Brainstorms.cm.md#67b541c9-befb-46b8-b2ae-e6e251043153) and the [mismatch between circles](2024 Stories.cm.md#67b541cb-a5c9-4634-b5f7-080d367faa4c).
+		- The linkage is due to [stagger = dependent origination](2024%20Brainstorms.cm.md#67b541c9-befb-46b8-b2ae-e6e251043153) and the [mismatch between circles](2024%20Stories.cm.md#67b541cb-a5c9-4634-b5f7-080d367faa4c).
 			- stagger is to momentum ~ [distortion is to force/curvature](../../../publish/CommonMark/Uniinfo.cm.md#67b5c77d-c42c-4dc5-8d47-fd82f535177a)
-			- [The [staggering nature](((67b54283-14b2-4753-94bb-4d827d54d7cc))) of dependent arising in conversation & interaction in general](../../../publish/CommonMark/Brainstorm.cm.md#69b21d98-6152-4c03-9375-8627f8ad70ba)
+			- [The [staggering nature]([stagger](https://www.facebook.com/share/p/35j9SSuqSJj76tWY/) = link (in space) = continuation (in time) = momentum) of dependent arising in conversation & interaction in general](../../../publish/CommonMark/Brainstorm.cm.md#69b21d98-6152-4c03-9375-8627f8ad70ba)
 		- All the three parts of [transcycling](../../../publish/CommonMark/Uniinfo.cm.md#67a98760-71fa-4033-9c42-f3025d632d04), i.e. input, output, internal bridge/cycle, are continued by staggering.
 			- Output: integral/accumulation from higher derivative to lower level = action = projection outward from potential to actual = actualization = extension (from empty to solid, from abstract to concrete)
 			- Input: differentiation/derivation from lower to higher level = attraction = observation = learning
@@ -1404,7 +1404,7 @@
 					- Transitive verb: “to transcycle something” ~ “to recycle something”
 						- Passive voice: “something is transcycled through somebody” ~ “something is cycled through somebody” ~ “somebody cycles through something's contents” (e.g. “The Earth climate cycles through the warm El Niño phase, the neutral phase and the cool La Niña phase.” )
 			- “transcycling” is close to “traversal”, with “cycle” ~ “verse = turn”!
-				- [Etymology: “[traverse](https://en.wiktionary.org/wiki/traverse)” ← Latin “[traversare](https://en.wiktionary.org/wiki/traversare)” was the [vulgar version of “trānsversāre”](https://www.etymonline.com/search?q=traverse) ← “[trānsversus](https://en.wiktionary.org/wiki/transversus)” → “[transverse](https://en.wiktionary.org/wiki/transverse)”](#678b72d3-073a-4763-a49f-5233a3d86614)
+				- [Etymology: “[traverse](https://en.wiktionary.org/wiki/traverse)” ← Latin “[traversare](https://en.wiktionary.org/wiki/traversare)” was the [vulgar version of “trānsversāre”](https://www.etymonline.com/search?q=traverse) ← “[trānsversus](https://en.wiktionary.org/wiki/transversus)” → “[transverse](https://en.wiktionary.org/wiki/transverse)”](2025%20Stories.cm.md#678b72d3-073a-4763-a49f-5233a3d86614)
 				- The “turn” in “traversal” is the change (nearly reverse) of direction in the zigzag course or switchback: to exhaustively traverse a flat space, we must switchback many times.
 					- A milder “turn” is the “turn away” (nearly perpendicularly) from the main direction of the flow/river/road to **cross over** it, i.e. the original meaning of the Latin verb “[traversare](https://en.wiktionary.org/wiki/traversare)”.
 				- “turn” ~ “rotate”: in maths, “turn = cycle” like “[turn of rope](https://en.wikipedia.org/wiki/Turn_(knot)) = round loop of rope”, “[1 turn](https://en.wikipedia.org/wiki/Turn_(angle)) = 1 cycle” 1τ = 2π
@@ -1422,7 +1422,7 @@
 			  <br>vs
 			- "pole" & "holo-" form Greek "polos" & "holos"!
 			- Is there some relationship here?!
-	- [Compound thread](#684f951a-1db2-4e43-9c5a-f4fbd27fe667) unmixed by different intent circles <a class="logseq-meta" id="6850be86-058c-45b4-9b4a-de92ebb4caff" data-collapsed="true" data-logbook="CLOCK: [2025-06-17 Tue 10:29:56]&#10;" ></a>
+	- [Compound thread](2025%20Stories.cm.md#684f951a-1db2-4e43-9c5a-f4fbd27fe667) unmixed by different intent circles <a class="logseq-meta" id="6850be86-058c-45b4-9b4a-de92ebb4caff" data-collapsed="true" data-logbook="CLOCK: [2025-06-17 Tue 10:29:56]&#10;" ></a>
 		- Unithread
 			- space: circle & view cone
 			- time: effect flow

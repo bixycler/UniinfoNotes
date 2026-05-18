@@ -3,17 +3,17 @@
 		- [<span class="link-h2">Workstack</span>](Workspace.cm.md#6651adea-81d4-40a5-b96d-af6739e572eb)
 		- [<span class="link-h2">Search</span>](Workspace.cm.md#66fce880-77a2-41f7-8bdb-a86b7fc6fc77)
 		- [<span class="link-h3">Git Tracks</span>](Workspace.cm.md#67139355-ac72-4e4c-b882-00bb3a3ea144)
-		- [<span class="link-h3">DOING Mind Map</span>](Mind Jungle.cm.md#67760c43-58c6-40eb-b874-40afae448966)
-		- [<span class="link-h4">Problems</span>](Mind Jungle.cm.md#6651adea-46e0-40ea-8fc4-3ef394068b0f)
-		- [<span class="link-h4">Questions</span>](Mind Jungle.cm.md#6651adea-f2f6-4c9e-80b4-ece0bb5038fb)
+		- [<span class="link-h3">DOING Mind Map</span>](Mind%20Jungle.cm.md#67760c43-58c6-40eb-b874-40afae448966)
+		- [<span class="link-h4">Problems</span>](Mind%20Jungle.cm.md#6651adea-46e0-40ea-8fc4-3ef394068b0f)
+		- [<span class="link-h4">Questions</span>](Mind%20Jungle.cm.md#6651adea-f2f6-4c9e-80b4-ece0bb5038fb)
 	- [<span class="link-h1">Elements</span>](Namespace.cm.md#66533703-505d-432d-8368-6058eefb45f6) <a class="logseq-meta" id="66faa5f7-0908-461c-a7f4-7365effa181c" ></a>
-	- [<span class="link-h1">Mind Jungle</span>](Mind Jungle.cm.md#6651e92e-fb34-4d24-a386-d9698c2e93f7) <a class="logseq-meta" id="66600917-64ee-4de4-8d33-2a3abee518a1" ></a>
+	- [<span class="link-h1">Mind Jungle</span>](Mind%20Jungle.cm.md#6651e92e-fb34-4d24-a386-d9698c2e93f7) <a class="logseq-meta" id="66600917-64ee-4de4-8d33-2a3abee518a1" ></a>
 	- [<span class="link-h1">Brainstorm</span>](Brainstorm.cm.md#6653538a-30aa-423f-be89-848ad9c7e331)
 	- [<span class="link-h1">Braindump</span>](Braindump.cm.md#67760c3e-2ed3-4b91-9698-8dea6913e419)
 	- [<span class="link-h1">Story</span>](Story.cm.md#66b1bbf3-ac04-4d4c-a343-d75130323a7f)
 	- [<span class="link-h1">Task</span>](Task.cm.md#6651adea-e1ed-4884-93eb-5ebd6086b62b) <a class="logseq-meta" id="669a58b7-7e97-4ec7-b2cd-c606184747b7" ></a>
 	- Shared pages <a class="logseq-meta" id="66f7af1c-bb80-46ae-a896-10f31c113e84" ></a>
-		- [Git](Mind Jungle.cm.md#666ba1e2-19d1-409e-b30e-42a99b7e4ec0)
-		- [Linux](#66949495-3846-4f89-9ea5-c62b624d282c)
-		- [<span class="link-h1">JavaScript</span>](#6708aad1-5efb-4b3f-ad99-e3ae2e73fcb4)
+		- [Git](../../share/technical/publish/CommonMark/Git.cm.md#666ba1e2-19d1-409e-b30e-42a99b7e4ec0)
+		- [Linux](../../share/technical/publish/CommonMark/Linux.cm.md#66949495-3846-4f89-9ea5-c62b624d282c)
+		- [<span class="link-h1">JavaScript</span>](../../share/technical/publish/CommonMark/JavaScript.cm.md#6708aad1-5efb-4b3f-ad99-e3ae2e73fcb4)
 		- [[Theme Demo]]

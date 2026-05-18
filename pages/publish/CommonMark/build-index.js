@@ -1,8 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-// Regex Patterns
-const PAT_ID_PROP = /id::\s*([0-9a-fA-F-]{36})/;
+const PAT_ID_PROP = /^id::\s*([0-9a-fA-F-]{36})\s*$/;
 
 // Simple argument parser
 const args = process.argv.slice(2);

@@ -1,9 +1,9 @@
 - # Brainstorm <a class="logseq-meta" id="6653538a-30aa-423f-be89-848ad9c7e331" ></a>
-	- [Description:](#6651ecba-793d-43c5-8020-a9f260b032d8) This is the [<span class="link-h2">brainstorming</span>](Mind Jungle.cm.md#665c92d1-565b-4911-a706-b32af429c3aa) place for [<span class="link-h2">Will LÊ</span>](Mind Jungle.cm.md#66536578-c4d3-43f1-b35c-bf71120f0570) as well as the store of recent brainstorms.
+	- [Description:](Namespace.cm.md#6651ecba-793d-43c5-8020-a9f260b032d8) This is the [<span class="link-h2">brainstorming</span>](Mind%20Jungle.cm.md#665c92d1-565b-4911-a706-b32af429c3aa) place for [<span class="link-h2">Will LÊ</span>](Mind%20Jungle.cm.md#66536578-c4d3-43f1-b35c-bf71120f0570) as well as the store of recent brainstorms.
 	- <zwsp>
 	- ## Brainstorming > [<span class="link-h2">2026 Brainstorms</span>](#6960e754-ff94-4e1a-8266-d9f15231b880) <a class="logseq-meta" id="6773eb97-ec58-4c48-a017-cd0de2d82e08" ></a>
 		- ... ↓ to be flushed **down**! ↓
-		- [DOING uninet = refinable program](#68df2364-c484-4ddd-b4b5-19ef90228ef4) <a class="logseq-meta" id="68663850-daa5-487e-ba48-fea228a2b188" data-collapsed="true" ></a>
+		- [DOING uninet = refinable program](../../history/publish/CommonMark/2025%20Brainstorms.cm.md#68df2364-c484-4ddd-b4b5-19ef90228ef4) <a class="logseq-meta" id="68663850-daa5-487e-ba48-fea228a2b188" data-collapsed="true" ></a>
 		- ↓ to be flushed **down**! ↓
 	- ## 2026 Brainstorms <a class="logseq-meta" id="6960e754-ff94-4e1a-8266-d9f15231b880" ></a>
 		- The con(fidence) game and the self-slavery <a class="logseq-meta" id="6a06c541-a653-444c-b936-547054a42bd8" data-collapsed="true" ></a>
@@ -36,12 +36,12 @@
 				- The wave is the **content**: The unobserved, unbroken thread of pure potential.
 				- The particle is the **form**: The discrete shadow cast by the continuous wave when it is measured or chunked by the intent the observer.
 			- The unbroken continuum
-				- Reality at its most fundamental is the [<span class="link-h3">Ω-thread</span>](#66ab75a1-f4a0-4bab-a002-8e573546623a): A pure, continuous, and invisible flow of **content**.
+				- Reality at its most fundamental is the [<span class="link-h3">Ω-thread</span>](Uniinfo.cm.md#66ab75a1-f4a0-4bab-a002-8e573546623a): A pure, continuous, and invisible flow of **content**.
 				- While it possesses no discrete chunks, the thread is not an infinite line but a closed loop whose geometry is a **spirorus** (spiral torus).
 				- The **Omnifold**: This whole universal circle acts as the absolute limit and boundary condition for the unmanifested spirorus of content.
 			- The epistemology of the observer
 				- The architecture of the observer dictates the architecture of the observed.
-				- Because the [<span class="link-h2">observer–operator</span>](#669a2c12-1dad-42a0-ab31-f03642b4aa8a) is composed of [<span class="link-h3">self-circle</span>](#669a5387-2a97-4311-a295-aa0afd9c4d76)s – particles, cells, discrete forms – its perceptual lens, the **intent**, is inherently quantized.
+				- Because the [<span class="link-h2">observer–operator</span>](Uniinfo.cm.md#669a2c12-1dad-42a0-ab31-f03642b4aa8a) is composed of [<span class="link-h3">self-circle</span>](Uniinfo.cm.md#669a5387-2a97-4311-a295-aa0afd9c4d76)s – particles, cells, discrete forms – its perceptual lens, the **intent**, is inherently quantized.
 				- The **intent circles** are not arbitrary; they are localized reflections or “fractional samples” of the universal **Omnifold** circle.
 			- SCIFER: The cosmic Euclidean algorithm
 				- Quantization is an artifact of the observation–operation interface, where the continuous is parsed by the discrete.
@@ -61,17 +61,17 @@
 				- The statistical spacing of primes and quantum energy levels follows the **GUE** distribution.
 				- This signature proves that the “randomness” of primes is actually a sophisticated, chaotic structure – the mathematical fingerprint of the **SCIFER** operation acting on a complex continuum.
 				- The **GUE** is the resonance pattern of the continuous content being “rung” by the discrete intent circle.
-		- The [<span class="link-h2">Trinion</span>](#669dfc7d-5355-41db-93a1-8d590e8ec9d8) in life <a class="logseq-meta" id="69faacc8-3e0b-4b4e-8939-a7c11dde9154" data-collapsed="true" ></a>
-			- The [**Postulate of Differentiation**](#1a22a090-6786-4114-8aad-35b122783bff): The Arrow
+		- The [<span class="link-h2">Trinion</span>](Uniinfo.cm.md#669dfc7d-5355-41db-93a1-8d590e8ec9d8) in life <a class="logseq-meta" id="69faacc8-3e0b-4b4e-8939-a7c11dde9154" data-collapsed="true" ></a>
+			- The [**Postulate of Differentiation**](Uniinfo.cm.md#1a22a090-6786-4114-8aad-35b122783bff): The Arrow
 				- The engine of reality: The cut that divides the raw one to create color, contrast, form, and thought.
 				- The Positivity: The forward momentum, the creative spark, the head of the arrow generating the world.
 				- The Negativity: The inevitable friction of the cut, the heavy drag of the tail carrying the history of separation, suffering, and conflict.
 				- The illusion: Believing the arrow is a straight line, which inevitably leads to the dead ends of paradox and incompleteness.
-			- The [**Postulate of Existence**](#66f3d644-782c-4f33-bd5c-db6e0a2d447a): The Circle
+			- The [**Postulate of Existence**](Uniinfo.cm.md#66f3d644-782c-4f33-bd5c-db6e0a2d447a): The Circle
 				- The unbroken sanctuary: The realization that the head of the arrow connects to the tail.
 				- The dissolution of rigid opposition: Positivity and negativity are experienced not as enemies, but as the continuous upward and downward arcs of the exact same loop.
 				- The fluid approach: Unconditional acceptance where boundaries soften, and the “other” is recognized as another point on one’s own circumference.
-			- The [**Postulate of Unification**](#c96a6d20-a0f6-48bd-9d70-9bc00b6b3c69): The Equal
+			- The [**Postulate of Unification**](Uniinfo.cm.md#c96a6d20-a0f6-48bd-9d70-9bc00b6b3c69): The Equal
 				- The paradox and also the resolution: The Trinion equation ⟪○ = ↑⟫.
 				- Holding the sharp, cutting nature of the Arrow (differentiation) and the smooth, infinite acceptance of the Circle (existence) simultaneously.
 				- Recognizing that the jagged friction of the world is not separate from the unbroken wholeness of the sanctuary.
@@ -93,7 +93,7 @@
 				- Back to homeland, around 2009, he returned to the heart, to the nonverbal and unified field, closing the circle.
 				- A visceral shift away from the intellect’s constant cutting.
 				- The discovery of the unbroken whole, recognizing that the very force generating the colorful world (the diff) is the same force creating agony and war.
-				- Then he formulated [<span class="link-h2">Unïnfo Theory</span>](#669dfc9f-b5e2-448a-b6f4-be13c5bfbccb) to unify his arrow mind with his circle heart.
+				- Then he formulated [<span class="link-h2">Unïnfo Theory</span>](Uniinfo.cm.md#669dfc9f-b5e2-448a-b6f4-be13c5bfbccb) to unify his arrow mind with his circle heart.
 			- The bodymind as the arena
 				- Internalizing immense global and historical fractures (North vs. South Vietnam, Eastern vs. Western philosophies).
 				- Using the “all is me” perspective not just as an ideology to resolve materialism vs. idealism, but as a vital psychological lifeguard to survive the crushing weight of separation.
@@ -141,14 +141,14 @@
 			- The static view is connected to the dynamic flow view via the cone. This is the “form = crystallization of content” in network and flow.
 			- Touching a form at the apex = touching a lot of content at the base
 				- The form at the apex is fixed by a lot of content at the base.
-				- The fixed form at the apex = fixed point = the remote center of rotation in the [spherical flexure joint](#68c76471-4656-43c9-8f5a-76b25a33b9d0).
+				- The fixed form at the apex = fixed point = the remote center of rotation in the [spherical flexure joint](../../history/publish/CommonMark/2025%20Brainstorms.cm.md#68c76471-4656-43c9-8f5a-76b25a33b9d0).
 			- It's not that no effect can flow back the arrow, but the backward flow is dissipated quickly by the sheer ratio of the cone.
 			- The [Tesla valve](https://en.wikipedia.org/wiki/Tesla_valve) has similar effect, with similar funnel shape, but with a different mechanism.
-		- [obop](#94e87dc9-71af-477c-aa70-0f448c2f1e20) = [balance](#669a1d82-91c8-40fd-81f5-e8ffe56e9e9c) by internalization <a class="logseq-meta" id="69dd9adc-3474-4671-9d58-b8de893695a0" data-collapsed="true" data-logbook="CLOCK: [2026-04-14 Tue 08:39:48]&#10;CLOCK: [2026-04-14 Tue 08:40:01]--[2026-04-14 Tue 10:21:45] =&gt;  01:41:44&#10;" ></a>
-			- The **obop** ( [Equal](#66f3d5cc-0d68-47bb-b09a-87cda33c7354)) is the state of structural stability achieved by converting an external, volatile environment into an internal, managed system.
-				- The obop internalizes the external [Arrow](#66f3d5ca-a982-4d12-b307-fd4812adeb3b) to be the content of the self [Circle](#66f3d561-424a-4e1d-be55-98ac39c48502).
+		- [obop](Uniinfo.cm.md#94e87dc9-71af-477c-aa70-0f448c2f1e20) = [balance](Uniinfo.cm.md#669a1d82-91c8-40fd-81f5-e8ffe56e9e9c) by internalization <a class="logseq-meta" id="69dd9adc-3474-4671-9d58-b8de893695a0" data-collapsed="true" data-logbook="CLOCK: [2026-04-14 Tue 08:39:48]&#10;CLOCK: [2026-04-14 Tue 08:40:01]--[2026-04-14 Tue 10:21:45] =&gt;  01:41:44&#10;" ></a>
+			- The **obop** ( [Equal](Uniinfo.cm.md#66f3d5cc-0d68-47bb-b09a-87cda33c7354)) is the state of structural stability achieved by converting an external, volatile environment into an internal, managed system.
+				- The obop internalizes the external [Arrow](Uniinfo.cm.md#66f3d5ca-a982-4d12-b307-fd4812adeb3b) to be the content of the self [Circle](Uniinfo.cm.md#66f3d561-424a-4e1d-be55-98ac39c48502).
 				- This is the fundamental mechanism of **Context Condensation**: optimizing the self by internalizing the world.
-			- The [<span class="link-h3">view cone</span>](#6672513b-c4b0-4c88-8b30-c60a3c6555a7) mechanism
+			- The [<span class="link-h3">view cone</span>](Uniinfo.cm.md#6672513b-c4b0-4c88-8b30-c60a3c6555a7) mechanism
 				- The obop acts as a vertex where the macrocosm is projected and reflected into the microcosm.
 				- By mixing both opposites, like yin and yang, the self finds the balanced position – the zero-point of the world.
 				- Internalization reduces environmental friction, freeing the subject from “irrelevant context” through the creation of concrete form channeling content.
@@ -170,7 +170,7 @@
 				- This internalization pattern reaches its geometric limit at the [fractal boundary](https://en.wikipedia.org/wiki/Fractal_curve) and the [Edge of Chaos](https://en.wikipedia.org/wiki/Edge_of_chaos) where the rigid order (Circle) is balanced with the chaos (Arrow).
 				- In a fractal, every sub-branch reflects the whole; the macrocosm is internalized infinitely into the microcosm.
 				- The **obop** sits at this boundary, where the external pressure is perfectly equalized by internal structure.
-		- [Three Treasures of Taoism  (三寶, Sān Bǎo)](https://en.wikipedia.org/wiki/Three_Treasures_(traditional_Chinese_medicine)) = [<span class="link-h2">Trinion</span>](#669dfc7d-5355-41db-93a1-8d590e8ec9d8) <a class="logseq-meta" id="69d3af25-95e2-4441-93e7-e5797eda2c42" data-collapsed="true" data-logbook="CLOCK: [2026-04-06 Mon 20:43:08]&#10;" ></a>
+		- [Three Treasures of Taoism  (三寶, Sān Bǎo)](https://en.wikipedia.org/wiki/Three_Treasures_(traditional_Chinese_medicine)) = [<span class="link-h2">Trinion</span>](Uniinfo.cm.md#669dfc7d-5355-41db-93a1-8d590e8ec9d8) <a class="logseq-meta" id="69d3af25-95e2-4441-93e7-e5797eda2c42" data-collapsed="true" data-logbook="CLOCK: [2026-04-06 Mon 20:43:08]&#10;" ></a>
 			- Correlation between Taoist alchemy and Unïnfo principles: *Sān Bǎo* (Jing, Qi, Shen) = Trinion (Circle, Arrow, Equal).
 				- The Three Treasures (*Sān Bǎo*) act as the biological manifestations of the Trinion components.
 				- This mapping provides a structural framework for understanding the phase transition from matter to awareness.
@@ -179,16 +179,16 @@
 				- The Circle `○` representing Form and Matter.
 				- Physical hardware layer
 					- Includes muscle, vessel, hormone, and nerve.
-					- Acts as the “solid” state or the [crystallization of content](#66f4e208-37c7-4749-a448-0722f7f7af20).
+					- Acts as the “solid” state or the [crystallization of content](Uniinfo.cm.md#66f4e208-37c7-4749-a448-0722f7f7af20).
 				- Role in the system: The **container** or the **pressure vessel** where energy is condensed.
 			- Qi (氣) = Arrow
 				- The Arrow `→` representing Dynamic Content and Energy.
 				- Runtime execution layer
 					- The “vapor” state representing the motion of the *jing*.
 					- Manifests as the feeling of tension, congestion, surge, and electricity.
-				- Role in the system: The **vector** or the [<span class="link-h2">effect flow</span>](#667bef22-b272-4a7d-b613-3f1ed1a47329) that drives information through the hardware.
+				- Role in the system: The **vector** or the [<span class="link-h2">effect flow</span>](Uniinfo.cm.md#667bef22-b272-4a7d-b613-3f1ed1a47329) that drives information through the hardware.
 			- Shen (神) = Equal
-				- The Equal `=` representing [awareness](#66f267f7-01f9-47b9-8376-abd27fdf2930) and the obop.
+				- The Equal `=` representing [awareness](Uniinfo.cm.md#66f267f7-01f9-47b9-8376-abd27fdf2930) and the obop.
 				- System administrator layer
 					- The “mind” or “spirit” that observes the system without being consumed by the operation.
 					- Based on but not limited to the Central Nervous System.
@@ -199,7 +199,7 @@
 				- *Tồn thần* (Preserve Spirit): Maintaining the Equal `=` to stabilize the system.
 				- Energy equivalence
 					- Based on $⟪E = m \cdot c^2⟫$, where Form (*jing*) is the crystallization of Content (*qi*).
-					- [Sublimation](Mind Jungle.cm.md#668f5490-c223-4a8a-9cc4-0bd71af4c097) is the process of reversing this crystallization to return matter to pure energy.
+					- [Sublimation](Mind%20Jungle.cm.md#668f5490-c223-4a8a-9cc4-0bd71af4c097) is the process of reversing this crystallization to return matter to pure energy.
 		- Will Lei's personal experiences with Qigong and biological debugging <a class="logseq-meta" id="69d3af51-e196-4656-9605-1e6fa8099156" data-collapsed="true" data-logbook="CLOCK: [2026-04-22 Wed 20:08:20]--[2026-04-22 Wed 20:35:22] =&gt;  00:27:02&#10;" ></a>
 			- Context of practice
 				- Will Lei approaches his internal practice seeking root access to his own biological operating system.
@@ -254,7 +254,7 @@
 			- Overriding deep system interrupts: Lung inflammation
 				- The challenge of pneumonia
 					- Lung inflammation represents one of the most severe system challenges Will has faced, involving intense pain and a powerful, “involuntary” cough reflex.
-					- [In 2024](Mind Jungle.cm.md#67b541d0-e82f-422b-9c0d-f7924abce981), Will managed a pneumonia episode by combining qigong with formal medical intervention and bio-tests. [In 2025](#67dcc012-44d3-4041-b17a-0ef201b3ff6c), he successfully managed a similar episode solely through qigong practice.
+					- [In 2024](Mind%20Jungle.cm.md#67b541d0-e82f-422b-9c0d-f7924abce981), Will managed a pneumonia episode by combining qigong with formal medical intervention and bio-tests. [In 2025](../../history/publish/CommonMark/2025%20Stories.cm.md#67dcc012-44d3-4041-b17a-0ef201b3ff6c), he successfully managed a similar episode solely through qigong practice.
 				- The *Âm dương đan* (陰陽丹) technique
 					- Will utilized a specific technique to transform *Qi* and tame the cough: the “yin-yang pearl” (*Âm dương đan*).
 					- This involves focusing the “orb” in front of the chest, using the hands to guide the energy in circular motions combined with “yang” (inhale) and “yin” (exhale) breathing.
@@ -273,35 +273,35 @@
 					- Illness serves as a diagnostic system: psoriasis signals stress, stomach aches indicate immoderation, and sinusitis reflects environmental conflict.
 					- Severe episodes like pneumonia act as urgent commands to focus entirely on the body.
 				- Will demonstrates that with the right **internal observation**, these autonomic processes can be brought under **conscious, voluntary control**, transforming illness and stress from external enemies into meaningful data and correctable system errors.
-				- The overarching practice is summarized as using the mind (*Shen*) to drive the energy (*Qi*), which in turn commands the physical hardware and blood (*Jing*). See also: [[Three Treasures of Taoism  (三寶, Sān Bǎo)](https://en.wikipedia.org/wiki/Three_Treasures_(traditional_Chinese_medicine)) = ((669dfc7d-5355-41db-93a1-8d590e8ec9d8))](#69d3af25-95e2-4441-93e7-e5797eda2c42)
+				- The overarching practice is summarized as using the mind (*Shen*) to drive the energy (*Qi*), which in turn commands the physical hardware and blood (*Jing*). See also: [[Three Treasures of Taoism  (三寶, Sān Bǎo)](https://en.wikipedia.org/wiki/Three_Treasures_(traditional_Chinese_medicine)) = Trinion](#69d3af25-95e2-4441-93e7-e5797eda2c42)
 				- Whether dealing with sexual tension, invading cold, or severe inflammation, this process is fundamentally about “vaporizing the solid” – turning localized physical pressure or blockages into a flowing, systemic bio-electrical awareness.
 				- Reference: The foundational mechanics of this control are historically related to [Huanjing bunao](https://en.wikipedia.org/wiki/Huanjing_bunao) (還精補腦 “returning the essence to repair the brain”), which Will has generalized into a universal debugging protocol for his entire biological OS.
 		- [Consciousness and Strange Loops](https://bosonphoton.medium.com/consciousness-and-strange-loops-5f8b6199bc3a) shows ideas similar to Unïnfo about panpsychism and the levels of awareness. <a class="logseq-meta" id="69d31a20-e33a-4367-85b1-0e0a533e016c" data-collapsed="true" data-logbook="CLOCK: [2026-04-06 Mon 20:03:25]&#10;" ></a>
 			- Full text: [Consciousness and Strange Loops](../assets/Will/story/2026-04/Consciousness and Strange Loops.md)
 			- In Unïnfo, the separation of the mind from the physical body is a **phase transition** from a fluid phase to a crystal phase by **closing its circle**, separating the circle of the mind from the background physical body. <a class="logseq-meta" id="69d35428-4259-485c-b0ac-5ac8db2ef4e0" ></a>
-				- This phase transition generates both the objective **background independence** of the mind and the subjective [sense of separateness](#6810327c-f633-4537-84a1-ca36a8d49d65).
+				- This phase transition generates both the objective **background independence** of the mind and the subjective [sense of separateness](Uniinfo.cm.md#6810327c-f633-4537-84a1-ca36a8d49d65).
 				- Examples of the separation and background independence:
 					- [attactors](https://en.wikipedia.org/wiki/Attractor) & [limit cycles](https://en.wikipedia.org/wiki/Limit_cycle) of non-linear dynamical systems,
 					- the **scale separation** in the [Renormalization Group flow](https://en.wikipedia.org/wiki/Renormalization_group#Elementary_theory) from the high-engergy micro-scaled boundary to the low-engergy macro-scaled bulk in holographic principle and AdS/CFT correspondence,
-					- and the background independence [of general relativity](#699c0366-2d90-4a25-83d2-0c91afcbf425).
+					- and the background independence [of general relativity](../../history/publish/CommonMark/2025%20Brainstorms.cm.md#699c0366-2d90-4a25-83d2-0c91afcbf425).
 				- This closedness generates both ways of separateness: the horizontal separation between the selves in the same scale, and the vertical separation between layers in different scales.
 				- But the closedness is not absolute: there are always open “pores”, expressing as the random/chaos from the outside and as the mysterious “free will” from the inside. This openness leads to the sensitivity of dynamical system to its initial condition.
 			- It's interesting that Chelsea Zou traced the _separateness between **mental** & **physical** worlds_ is to [Gödel's incompleteness theorems](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems).
 				- Chelsea Zou:
 				  <br>> The result is that consciousness appears to float free of the material, not because it actually does, but because no self-model can represent the very process generating it.
-				- In Unïnfo terms, a selful mind senses its separation from its own physical body, not because it's detached from the body but because it attaches to its [sense of wholeness](#6810324e-f084-4693-b5cb-40778f4a6eee) – the closedness of its logic.
+				- In Unïnfo terms, a selful mind senses its separation from its own physical body, not because it's detached from the body but because it attaches to its [sense of wholeness](Uniinfo.cm.md#6810324e-f084-4693-b5cb-40778f4a6eee) – the closedness of its logic.
 				- A self, as a limit cycle, is just a part of the open flow, hence intrinsically incomplete, but its closedness creates the the sense of wholeness and independency that the the selful mind attaches to.
 					- Only with this attachment, does a mind become selful and lack the ability to fully comprehend its physical subtrate as stated by the Gödel's incompleteness theorems and the [Halting problem](https://en.wikipedia.org/wiki/Halting_problem).
 					- Clinging to its self circle, a selful mind cuts itself off from its source – the body – hence any attempt to grasp the source is just a compression of the larger source into the smaller circle.
-					- This compression or [<span class="link-h2">abstraction</span>](#66537674-6cf9-4459-8bea-7c1858c694a3) loses information via resolution reduction, so a selful mind can never get the full of its source, like a Gödelian system cannot prove theorems of its underlying natural numbers.
+					- This compression or [<span class="link-h2">abstraction</span>](Uniinfo.cm.md#66537674-6cf9-4459-8bea-7c1858c694a3) loses information via resolution reduction, so a selful mind can never get the full of its source, like a Gödelian system cannot prove theorems of its underlying natural numbers.
 				- Chelsea Zou:
 				  <br>> The feeling that consciousness transcends the material is a structural byproduct of the very process that makes experience possible.
-					- In Unïnfo terms, this detachement is just an experience of the [<span class="link-h2">self</span>](#667c015e-6223-4f8a-ae84-a93a49f4ff94), not the essence of consciousness.
+					- In Unïnfo terms, this detachement is just an experience of the [<span class="link-h2">self</span>](Uniinfo.cm.md#667c015e-6223-4f8a-ae84-a93a49f4ff94), not the essence of consciousness.
 					- The pure awareness in every being, which Chelsea Zou called “dormant consciousness” in her 1st hypothesis, has no such detachment because it has no self-attachement.
-					- The self, hence this detachment, is linked with consciousness through the definition of ⟪ [((66f2681b-796a-4e25-b778-ba4fb6419425)) = self-awareness](#689962c3-fb89-4340-9148-e0703fdbe950) ⟫, which is her 2nd hypothesis that “the dormant consciousness is activated by self-referential recursion”.
+					- The self, hence this detachment, is linked with consciousness through the definition of ⟪ [consciousness = self-awareness](Uniinfo.cm.md#689962c3-fb89-4340-9148-e0703fdbe950) ⟫, which is her 2nd hypothesis that “the dormant consciousness is activated by self-referential recursion”.
 				- By the way, a selfless mind will open itself to look through the “pores” to see that the randomness in its “free will” is actually signals from its body which are ultimately traced back to the whole universe, instead of a possession of itself.
 			- In Unïnfo, the horizontal separation between the selves is secondary to the vertical separation of the mind from its background physical body: each individual mind is isolated in its “shell” of body which is separate both from its mind and from other bodies.
-				- Beside being shielded by the “wall” of body, the “privacy” is further reinforced by the [sense of free will](#67f91050-a86c-4176-87ca-91010a8fe3c0) generated by the internal pores.
+				- Beside being shielded by the “wall” of body, the “privacy” is further reinforced by the [sense of free will](Uniinfo.cm.md#67f91050-a86c-4176-87ca-91010a8fe3c0) generated by the internal pores.
 			- In the section “The Privacy of Experience”, Chelsea Zou used a trivial model of $E = f(m, s)$ to formulate experience $E$ as a function of physical matter compositions $m$ and self-referential organizational pattern $s$, with only a trivial condition of $f$ being injective.
 				- She missed the crucial propery of $f$ being **non-linear**. E.g.: A trivial linear map like $(1, 2, 3) → (a1, a2, a3)$ is also injective.
 				- She seemed to imply the non-linearity in the “self-referential organizational pattern” $s$. <a class="logseq-meta" data-collapsed="true" ></a>
@@ -404,13 +404,13 @@
 				- Intelligence is the **attitude of asking** rather than the accumulation of knowledge.
 					- It requires the removal of the ego (no-self) to see reality as-is without the distortion of “already knowing”.
 					- [Rhetorical questions](https://en.wikipedia.org/wiki/Rhetorical_question) represent a corrupted protocol where the question (“hỏi”) is fake, serving only as a vehicle for a protest or a pre-defined demand (“đòi”).
-		- Equal = balance = mixmatch (like arrow of time) = merge (like Git) = resolution of conflict, diff, mismatch, error, gap = [<span class="link-h3">arrow of time</span>](#69a502fe-47e2-4629-a40c-78964d9e0396) <a class="logseq-meta" id="69c51a39-97cb-4cf1-a6e1-ca29817def79" data-collapsed="true" ></a>
+		- Equal = balance = mixmatch (like arrow of time) = merge (like Git) = resolution of conflict, diff, mismatch, error, gap = [<span class="link-h3">arrow of time</span>](Uniinfo.cm.md#69a502fe-47e2-4629-a40c-78964d9e0396) <a class="logseq-meta" id="69c51a39-97cb-4cf1-a6e1-ca29817def79" data-collapsed="true" ></a>
 			- Balance by mixmatch
 				- Balancing is bringing different things together to mix them by resolving their conflicts, diffences, mismatches, errors, gaps, etc.
-				- {{embed [In Taoism, the Zero (⊜) is called “the Way”, the 1st and the 2nd (○, ↑) are called “yin”[陰,⚋] (dark, negative, disconnected, blocked) and “yang”[陽,⚊] (light, positive, connected, through) which are harmonized by the 3rd (`=`). The 3rd is the most important one with many manifestations: the Equal, the middle, the interaction, the interface, ...](#699c0363-0471-4989-a833-5635c81d3761)}}
+				- {{embed [In Taoism, the Zero (⊜) is called “the Way”, the 1st and the 2nd (○, ↑) are called “yin”[陰,⚋] (dark, negative, disconnected, blocked) and “yang”[陽,⚊] (light, positive, connected, through) which are harmonized by the 3rd (`=`). The 3rd is the most important one with many manifestations: the Equal, the middle, the interaction, the interface, ...](Uniinfo.cm.md#699c0363-0471-4989-a833-5635c81d3761)}}
 				- [Audio mixing](https://en.wikipedia.org/wiki/Audio_mixing) and [color mixing](https://en.wikipedia.org/wiki/Color_mixing) is the art of balancing and [equalization](https://en.wikipedia.org/wiki/Audio_equalization) of volume and tone in space and time.
 					- In art, mixing is not a random mixing, but a selective mixing, a mixmatch.
-			- [Mixmatch](#699c0368-9fba-448f-ab2a-32492ca9291c) by [staggering](#67b54283-14b2-4753-94bb-4d827d54d7cc) between match & mismatch, sim & diff, problem & solution, info & knowledge, yin (⚋) & yang (⚊), circle & arrow, etc.
+			- [Mixmatch](../../history/publish/CommonMark/2025%20Stories.cm.md#699c0368-9fba-448f-ab2a-32492ca9291c) by [staggering](../../history/publish/CommonMark/2025%20Brainstorms.cm.md#67b54283-14b2-4753-94bb-4d827d54d7cc) between match & mismatch, sim & diff, problem & solution, info & knowledge, yin (⚋) & yang (⚊), circle & arrow, etc.
 				- Circle: the same condition, environment, connector, container, form, pratyaya, 緣 (duyên)
 				- Arrows: different factors, impulses, events, contents, hetus, 因 (nhân)
 				- The circle is the container, the match that connects the arrows, that mixes the mismatches together.
@@ -420,15 +420,15 @@
 				- Matched threads $m_i = w_j$ are resolved => their circles are closed.
 				- Remaining unmatched threads $m_i' ≠ w_j'$ (open arrows) continue to mix recursively $m_i' ⋇ w_j'$.
 			- Ways of mixmatching: wave interference (addition), SCIFER (interunion `⋇`), Three-Way Merge (Git), recursive refinement (fractal)
-			- Mixmatching is what happens in the heart of the [Temporix](#69b9470c-40e4-49ca-84df-1cb6a3379987), the mechanism of the arrow of time.
+			- Mixmatching is what happens in the heart of the [Temporix](Uniinfo.cm.md#69b9470c-40e4-49ca-84df-1cb6a3379987), the mechanism of the arrow of time.
 				- All branching threads are to be mixmatched together later ⇒ diamond shape.
 				- Selfless view of change: diamond problem ([in reactivity](https://github.com/milomg/reactively/blob/main/Reactive-algorithms.md#reactive-algorithms) and [in inheritance](https://en.wikipedia.org/wiki/Multiple_inheritance#The_diamond_problem))
 					- In reactive programming, the diamond problem is usually called “glitch” as in [this paper](https://soft.vub.ac.be/Publications/2022/vub-tr-soft-22-15.pdf).
-				- Selful view of [<span class="link-h3">change</span>](#667c008f-cd1f-4a6b-a9c8-d6efa1d8d342): _difference from itself_.
+				- Selful view of [<span class="link-h3">change</span>](Uniinfo.cm.md#667c008f-cd1f-4a6b-a9c8-d6efa1d8d342): _difference from itself_.
 					- Self thread M → M': momentum, history, tradition, static circle, obop of effect circle
 					- Echo thread M → W → M': body of effect circle, the arrow going out and back in
 				- In Unithread, the total entropy is preserved: the increase of mixing is balanced by the decrease ([negentropy](https://en.wikipedia.org/wiki/Negentropy)) of matching.
-		- intrinsic interdependence = perfect incompleteness = limited resolution = intrinsic dynamic = intrinsic openness = intrinsic curvature = [<span class="link-h3">FoC dynamics</span>](#6858b355-fba9-4e61-9f16-bc993a3df44b) <a class="logseq-meta" id="69b917d0-494f-4527-9e1b-0dcff5a2cc91" data-collapsed="true" ></a>
+		- intrinsic interdependence = perfect incompleteness = limited resolution = intrinsic dynamic = intrinsic openness = intrinsic curvature = [<span class="link-h3">FoC dynamics</span>](Uniinfo.cm.md#6858b355-fba9-4e61-9f16-bc993a3df44b) <a class="logseq-meta" id="69b917d0-494f-4527-9e1b-0dcff5a2cc91" data-collapsed="true" ></a>
 			- absolute independence = infinite resolution = absolute static = absolute flatness = completely closed circle
 			- [non]commutator is the magnitude of the gapping arrow, the size of the pore, the inverse of resolution.
 				- The term “commutator” is so misleading... which had better be __*non*commutator__, instead!
@@ -439,36 +439,36 @@
 				- Quantum mechanics: $[x, p] = i ħ$
 				- [CP/T violation](https://en.wikipedia.org/wiki/CP_violation#CP_violation_in_the_Standard_Model): $[M_{up}, M_{down}] = i C$;  $\det(i C) = -2i J Δ_{up} Δ_{down}$
 					- This is the microscopic arrow of time.
-			- Ref: [While the order of acceleration → velocity → position is the natural and correct causal chain in physics, abstractions like infinity, infinitesimal leads to the **artificial “independence”** between derivatives, like in [Euler method](https://en.wikipedia.org/wiki/Euler_method) and [phase space](https://en.wikipedia.org/wiki/Phase_space).](#699c0368-00c8-404f-aa42-004f196194d9)
-		- [consciousness](#66f2681b-796a-4e25-b778-ba4fb6419425) = [self-awareness](#672a0c61-ae93-440a-84e6-13778c8e91ca) = hidden [openness](#689962b4-29d3-4fa0-9ad0-addaa6224369) = input from within <a class="logseq-meta" id="69b3b2cb-3688-4aed-9aad-9abd136331f1" data-collapsed="true" ></a>
+			- Ref: [While the order of acceleration → velocity → position is the natural and correct causal chain in physics, abstractions like infinity, infinitesimal leads to the **artificial “independence”** between derivatives, like in [Euler method](https://en.wikipedia.org/wiki/Euler_method) and [phase space](https://en.wikipedia.org/wiki/Phase_space).](../../history/publish/CommonMark/2025%20Stories.cm.md#699c0368-00c8-404f-aa42-004f196194d9)
+		- [consciousness](Uniinfo.cm.md#66f2681b-796a-4e25-b778-ba4fb6419425) = [self-awareness](Uniinfo.cm.md#672a0c61-ae93-440a-84e6-13778c8e91ca) = hidden [openness](Uniinfo.cm.md#689962b4-29d3-4fa0-9ad0-addaa6224369) = input from within <a class="logseq-meta" id="69b3b2cb-3688-4aed-9aad-9abd136331f1" data-collapsed="true" ></a>
 			- Explanatory rationale:
 				- The statements that “awareness = openness” in Uniinfo and that “all senses are consciousness” ([vijñāna](https://en.wikipedia.org/wiki/Vij%C3%B1%C4%81na#Sense-base_derivative)) in Buddhism are too blunt!
 				- To make it more sophisticated to deterministic minds, we should point out that what makes “consciousness” (of the mind) mystical is our own **ignorance** about its openings (pores) and inputs.
-			- It's contradictory, because its nature of [sensation](#6731c4d6-25b6-4081-a080-4ffaa5218ec7) means openness, while its nature of [<span class="link-h2">self</span>](#667c015e-6223-4f8a-ae84-a93a49f4ff94) means closedness. In other words, consciousness = closed openness 😛!
+			- It's contradictory, because its nature of [sensation](Uniinfo.cm.md#6731c4d6-25b6-4081-a080-4ffaa5218ec7) means openness, while its nature of [<span class="link-h2">self</span>](Uniinfo.cm.md#667c015e-6223-4f8a-ae84-a93a49f4ff94) means closedness. In other words, consciousness = closed openness 😛!
 			- The consciousness is just open to the... internal world 😆!
-			- The internal mental world is no less vast than the external physical world. Moreover, they are not as separate as we usually think, they are linked together in the continuous [grand circle](#6772a6cd-771f-4f24-9c3a-39c442234be5).
-				- The two worlds are constantly mirroring each other through the [cause–effect mirror circles](#6889a623-34cd-4b65-8a91-5cfdbb199b71).
-			- Such vacancy (openness) and circularity (closedness) of the cause–effect mirroring grand circle are the characteristics of the [Equal](#66f3d5cc-0d68-47bb-b09a-87cda33c7354) – the concious essence of the [obop](#94e87dc9-71af-477c-aa70-0f448c2f1e20).
-		- The [staggering nature](#67b54283-14b2-4753-94bb-4d827d54d7cc) of dependent arising in conversation & interaction in general <a class="logseq-meta" id="69b21d98-6152-4c03-9375-8627f8ad70ba" data-collapsed="true" data-logbook="CLOCK: [2026-03-12 Thu 08:57:46]&#10;CLOCK: [2026-03-12 Thu 08:58:10]--[2026-03-12 Thu 09:43:15] =&gt;  00:45:05&#10;" ></a>
-			- The momentum is maintained by staggered segments of [<span class="link-h2">thread</span>](#667d0d2e-15c7-4989-a183-69a9a5c6bf8a): While the segment in this thread (A1) is ending, a new segment in that thread (B1) is beginning, so after this segment (A1) end, this thread (A) must continue to follow that thread (B) with a new segment (A2).
+			- The internal mental world is no less vast than the external physical world. Moreover, they are not as separate as we usually think, they are linked together in the continuous [grand circle](Uniinfo.cm.md#6772a6cd-771f-4f24-9c3a-39c442234be5).
+				- The two worlds are constantly mirroring each other through the [cause–effect mirror circles](Uniinfo.cm.md#6889a623-34cd-4b65-8a91-5cfdbb199b71).
+			- Such vacancy (openness) and circularity (closedness) of the cause–effect mirroring grand circle are the characteristics of the [Equal](Uniinfo.cm.md#66f3d5cc-0d68-47bb-b09a-87cda33c7354) – the concious essence of the [obop](Uniinfo.cm.md#94e87dc9-71af-477c-aa70-0f448c2f1e20).
+		- The [staggering nature](../../history/publish/CommonMark/2025%20Brainstorms.cm.md#67b54283-14b2-4753-94bb-4d827d54d7cc) of dependent arising in conversation & interaction in general <a class="logseq-meta" id="69b21d98-6152-4c03-9375-8627f8ad70ba" data-collapsed="true" data-logbook="CLOCK: [2026-03-12 Thu 08:57:46]&#10;CLOCK: [2026-03-12 Thu 08:58:10]--[2026-03-12 Thu 09:43:15] =&gt;  00:45:05&#10;" ></a>
+			- The momentum is maintained by staggered segments of [<span class="link-h2">thread</span>](Uniinfo.cm.md#667d0d2e-15c7-4989-a183-69a9a5c6bf8a): While the segment in this thread (A1) is ending, a new segment in that thread (B1) is beginning, so after this segment (A1) end, this thread (A) must continue to follow that thread (B) with a new segment (A2).
 			- Turing machine has clear cut boundary between segments: A1, B1, A2, B2,... ⇒ Unrefinable
-			- Natural interactions, including human conversations, have overlaps between segments ⇒ refinable via [<span class="link-h3">SCIFER</span>](#66f40210-cca6-4d81-85e7-d0c54ef20451) mechanism!
+			- Natural interactions, including human conversations, have overlaps between segments ⇒ refinable via [<span class="link-h3">SCIFER</span>](Uniinfo.cm.md#66f40210-cca6-4d81-85e7-d0c54ef20451) mechanism!
 		- Transforms in effect circles <a class="logseq-meta" id="69a7e2e4-eac2-45c4-83ce-f08eaa4c6f5f" data-collapsed="true" ></a>
 			- Form = distribution of content in form space ⇒ intent ⇒ extent = distance in form space
 			- Content = distance in content space
-			- The roles “form” & “content”  are relative, as shown in the form-content xy-plot of the [<span class="link-h3">Ω-thread</span>](#66ab75a1-f4a0-4bab-a002-8e573546623a).
+			- The roles “form” & “content”  are relative, as shown in the form-content xy-plot of the [<span class="link-h3">Ω-thread</span>](Uniinfo.cm.md#66ab75a1-f4a0-4bab-a002-8e573546623a).
 				- In general, there are many axes corresponding to many forms (spatial dimensions), and the “zeroth form” (remaining dimension) is considered “content” (time).
 				- Usually, the single content dimension is the reference for all forms, hence the self-thread dimension indexed by all forms.
-			- [viewcone](#667251ec-d4f7-4c09-adff-73e04a4b22ed) = transformation arrow = function of distribution
-				- The [<span class="link-h3">eye</span>](#669a2487-054d-4408-ae41-189e34af81a9) (projector) itself is a form, a distribution of content.
+			- [viewcone](Uniinfo.cm.md#667251ec-d4f7-4c09-adff-73e04a4b22ed) = transformation arrow = function of distribution
+				- The [<span class="link-h3">eye</span>](Uniinfo.cm.md#669a2487-054d-4408-ae41-189e34af81a9) (projector) itself is a form, a distribution of content.
 			- Old world forms →[viewcone+history]→ layers of self-forms
 			- Current world forms →[viewcone + attent + self-forms]→ matched self-forms = self-state = intents
 			- State's distance from center (balance point, center of mass) = error → restoration intention → action
-			- Reciprocity: [form ↔ content](#67b5c77d-c42c-4dc5-8d47-fd82f535177a), [dependent arising](#67b541c9-befb-46b8-b2ae-e6e251043153) <a class="logseq-meta" id="69a7a206-cc6a-44ab-85ed-1b728d75489f" ></a>
+			- Reciprocity: [form ↔ content](Uniinfo.cm.md#67b5c77d-c42c-4dc5-8d47-fd82f535177a), [dependent arising](../../history/publish/CommonMark/2024%20Brainstorms.cm.md#67b541c9-befb-46b8-b2ae-e6e251043153) <a class="logseq-meta" id="69a7a206-cc6a-44ab-85ed-1b728d75489f" ></a>
 				- Ob: external condition → state → change self-forms (internal condition)
 				- Op: internal condition → intention → change world forms
 				- In conversation/interaction, it's the reciprocal conditioning between the object turn (the subject learns) and the subject turn (changing the object).
-		- Western-Northern linearity (↑ [<span class="link-h2">arrow</span>](#667d15b7-6364-49a9-ac58-c64d2a992b63)) versus Eastern-Southern cyclicality (○ [<span class="link-h2">circle</span>](#667d15c6-67c4-4998-a549-c8b3f9de3d60)) <a class="logseq-meta" id="69a10eab-e9c0-44c4-ac8f-4155090715c8" data-collapsed="true" data-logbook="CLOCK: [2026-02-27 Fri 10:26:00]--[2026-02-27 Fri 11:20:58] =&gt;  00:54:58&#10;" ></a>
+		- Western-Northern linearity (↑ [<span class="link-h2">arrow</span>](Uniinfo.cm.md#667d15b7-6364-49a9-ac58-c64d2a992b63)) versus Eastern-Southern cyclicality (○ [<span class="link-h2">circle</span>](Uniinfo.cm.md#667d15c6-67c4-4998-a549-c8b3f9de3d60)) <a class="logseq-meta" id="69a10eab-e9c0-44c4-ac8f-4155090715c8" data-collapsed="true" data-logbook="CLOCK: [2026-02-27 Fri 10:26:00]--[2026-02-27 Fri 11:20:58] =&gt;  00:54:58&#10;" ></a>
 			- Landscape: Open Frontier vs Bounded Delta
 				- West: **The Open Frontier:** Flat, vast, and low-friction (e.g., [Great Plains](https://en.wikipedia.org/wiki/Great_Plains), [European Plain](https://en.wikipedia.org/wiki/European_Plain)). Encourages vector thinking and expansion.
 				- East: **The Bounded Delta:** High-friction, dense, and caged by mountains/water (e.g., [Mekong](https://en.wikipedia.org/wiki/Mekong), [Yangtze](https://en.wikipedia.org/wiki/Yangtze)). Encourages vortex thinking and optimization.
@@ -505,7 +505,7 @@
 						- The Tool: Code is a mechanical tool used to achieve a specific, pre-intended outcome (a product, a feature, a paycheck). It is cerebral, logical, and controlled.
 						- The Trap: It can become “dry”. The ego is in charge, and the code is often just _a means to an external end (the “food”)_.
 				- 3. The Master: Transpersonal Intension – “This is it!”
-					- **The “Vessel”**: Driven by [intension](#66f93d8f-4fbf-4ed1-8bec-59bf92b6f2cd) – a concentrated internal force, rather than [intention](#66f93c78-15f5-43a7-8412-f7a5bc66e2ae) – a pre-planned goal.
+					- **The “Vessel”**: Driven by [intension](Uniinfo.cm.md#66f93d8f-4fbf-4ed1-8bec-59bf92b6f2cd) – a concentrated internal force, rather than [intention](Uniinfo.cm.md#66f93c78-15f5-43a7-8412-f7a5bc66e2ae) – a pre-planned goal.
 					- **The Synthesis**: The artist uses the professional's mastery of form to channel the apprentice's raw feeling – but because the ego is removed, the feeling is no longer “theirs”; it is **transpersonal** – from the collective unconscious or “God”.
 					- Universal Art: **_“Code for Life”_** – coding is no longer a task; it is an expression of [Suchness (Tathātā)](https://en.wikipedia.org/wiki/Tath%C4%81t%C4%81) (Chân Như).
 						- Sublimation of logic: The “mechanical” constraints of the computer and the “intuition” of our mind merge into a non-dual singularity.
@@ -540,7 +540,7 @@
 				- Stage 3 (Master): Formalism is transcended through perfection – the “vessel” is so well-made it becomes one with the water inside it.
 					- At the Apex, Formalism is no longer a “calculated means” – it has become The Vessel.
 					- Role: The form is now so perfect and frictionless that it allows the *transpersonal intension* to pass through without distortion.
-					- The Non-Dual Result: At this stage, we cannot separate [<span class="link-h2">form</span>](#665ca429-84e3-49ff-921e-c07d19cd99ba) from [<span class="link-h2">content</span>](#6678288e-699b-4325-bdba-bf6349fe0d57) – they have merged into the “Suchness” and the “Sublime”.
+					- The Non-Dual Result: At this stage, we cannot separate [<span class="link-h2">form</span>](Uniinfo.cm.md#665ca429-84e3-49ff-921e-c07d19cd99ba) from [<span class="link-h2">content</span>](Uniinfo.cm.md#6678288e-699b-4325-bdba-bf6349fe0d57) – they have merged into the “Suchness” and the “Sublime”.
 					- The “Extreme Formalism” – [“Art for art's sake”](https://en.wikipedia.org/wiki/Art_for_art%27s_sake): The artwork's meaning is self-contained within the piece itself, independent of the artist's intentions or historical background.
 						- At its extreme, formalism in art history posits that everything necessary to comprehending a work of art is contained within the work of art.
 						- The context of the work, including the reason for its creation, the historical background, and the life of the artist, that is, its conceptual aspect is considered to be external to the artistic medium itself, and therefore of secondary importance.
@@ -548,5 +548,5 @@
 		  <br>----------------------------
 	- ## Brainstorm History <a class="logseq-meta" id="67760db9-eb82-4ef9-9bd5-93b43049a755" ></a>
 		- [<span class="link-h2">2026 Brainstorms</span>](#6960e754-ff94-4e1a-8266-d9f15231b880)
-		- [2025 Brainstorms](#67760e05-2ea1-4f0e-aaa6-158edca80df5)
-		- [2024 Brainstorms](#67760c45-14fe-4d91-88a0-923f50ed553c)
+		- [2025 Brainstorms](../../history/publish/CommonMark/2025%20Brainstorms.cm.md#67760e05-2ea1-4f0e-aaa6-158edca80df5)
+		- [2024 Brainstorms](../../history/publish/CommonMark/2024%20Brainstorms.cm.md#67760c45-14fe-4d91-88a0-923f50ed553c)
