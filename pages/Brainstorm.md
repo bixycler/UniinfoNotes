@@ -11,17 +11,20 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2026 Brainstorms
 	  id:: 6960e754-ff94-4e1a-8266-d9f15231b880
-		- UI toggle confusion: Symbols or labels showing **action vs state** is the **ambiguity** for all toggle in general.
+		- GUI toggle confusion: Symbols or labels showing **action vs state** is the **ambiguity** for all toggle in general.
 		  id:: 6a0c0740-42ff-4a27-af9f-a271a6716027
 		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2026-05-19 Tue 16:04:01]--[2026-05-19 Tue 16:04:04] =>  00:00:03
+		  :END:
 			- The 2 (in)famous ones are the On/Off toggle button, and the up (∧) & down (∨) arrowheads showing expanded/collapsed block.
 			- Many people mention the state in the action direction – maximizing the ambiguity:
 			  > + state indicator (e.g., pointing down to show it can open).
 			  > + A toggle icon (usually a chevron) visually indicates the state – pointing downwards when collapsed and upwards when expanded.
 			- Because _the up/down arrowheads are consistently shown in **action-based** manner_, as a de-facto standard, they should be _placed at the end – **bottom right corner**_.
-				- When they are placed at the top, Will instinctively thinks of the state, similar to the right (▶) & down (▼) arrowheads.
 				- The rule of thumb: _state indicator at the start, action indicator at the end._
 				- Although the the up (∧) & down (∨) arrowheads are placed at the right side, they are also usually placed at the top for convenience, following the tradition of the [dropdown list](https://en.wikipedia.org/wiki/Drop-down_list).
+				- When they are placed at the top, Will instinctively thinks of the state, similar to the right (▶) & down (▼) arrowheads.
 			- Tree view: While the the right (▶) & down (▼) arrowheads show the state, the plus (`+`) & minus (`-`) icons show the action!
 				- The good old Java `JTree` had the handle icons whose level points to the same direction as the modern arrowhead, but much more intuitive – not to confuse with action.
 				  collapsed:: true
