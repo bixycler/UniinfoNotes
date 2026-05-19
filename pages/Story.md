@@ -1849,7 +1849,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Because _the up/down arrowheads are consistently shown in **action-based** manner_, as a de-facto standard, they should be _placed at the end – **bottom right corner**_.
 						- When they are placed at the top, i instinctively think of the state, similar to the right (▶) & down (▼) arrowheads.
 						- The rule of thumb: _state indicator at the start, action indicator at the end._
-						-
+						- Although the the up (∧) & down (∨) arrowheads are placed at the right side, they are also usually placed at the top for convenience, following the tradition of the [dropdown list](https://en.wikipedia.org/wiki/Drop-down_list).
 		- Will Lei as an intense-world systems architect: an autobiographical analysis through neuroscience and systems theory
 		  id:: 69fdbffa-dc65-4d72-bbf6-d35bf88a3482
 		  collapsed:: true
