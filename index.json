@@ -912,7 +912,7 @@
     "outputLine": 2400
   },
   "666ba1e2-19d1-409e-b30e-42a99b7e4ec0": {
-    "title": "Git",
+    "title": "## Git",
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/share/technical/Git.md",
     "sourceLine": 2,
     "slug": "git",
@@ -14982,7 +14982,7 @@
     "outputLine": 1
   },
   "68089c74-7fbd-471b-9283-febf6b48cd0d": {
-    "title": "Database",
+    "title": "## Database",
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/share/technical/Database.md",
     "sourceLine": 2,
     "slug": "database",
@@ -15222,7 +15222,7 @@
     "outputLine": 1
   },
   "67760c45-14fe-4d91-88a0-923f50ed553c": {
-    "title": "2024 Brainstorms",
+    "title": "## 2024 Brainstorms",
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/history/2024 Brainstorms.md",
     "sourceLine": 2,
     "slug": "2024-brainstorms",
@@ -15630,7 +15630,7 @@
     "outputLine": 1253
   },
   "67763a23-89ff-48dc-a3f4-df432c6810c2": {
-    "title": "2024 Stories",
+    "title": "## 2024 Stories",
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/history/2024 Stories.md",
     "sourceLine": 2,
     "slug": "2024-stories",
@@ -15638,7 +15638,7 @@
     "outputLine": 1
   },
   "67761267-06ef-4f0d-876a-bd354b896681": {
-    "title": "2024 Tasks",
+    "title": "## 2024 Tasks",
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/history/2024 Tasks.md",
     "sourceLine": 2,
     "slug": "2024-tasks",
@@ -15782,7 +15782,7 @@
     "outputLine": 193
   },
   "67760c3e-10a7-4621-8623-383f44bdaf3c": {
-    "title": "2025 Braindumps",
+    "title": "## 2025 Braindumps",
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/history/2025 Braindumps.md",
     "sourceLine": 2,
     "slug": "2025-braindumps",
@@ -15926,7 +15926,7 @@
     "outputLine": 382
   },
   "67760e05-2ea1-4f0e-aaa6-158edca80df5": {
-    "title": "2025 Brainstorms",
+    "title": "## 2025 Brainstorms",
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/history/2025 Brainstorms.md",
     "sourceLine": 2,
     "slug": "2025-brainstorms",
@@ -16110,7 +16110,7 @@
     "outputLine": 443
   },
   "6842ab6e-a465-4b20-bbf0-196eeb879e3c": {
-    "title": "2025 Mind Chips",
+    "title": "## 2025 Mind Chips",
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/history/2025 Mind Chips.md",
     "sourceLine": 2,
     "slug": "2025-mind-chips",
@@ -16118,7 +16118,7 @@
     "outputLine": 1
   },
   "67763a41-4ad6-449f-9d9b-d63ce417082c": {
-    "title": "2025 Stories",
+    "title": "## 2025 Stories",
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/history/2025 Stories.md",
     "sourceLine": 2,
     "slug": "2025-stories",
@@ -16558,7 +16558,7 @@
     "outputLine": 106
   },
   "66949495-3846-4f89-9ea5-c62b624d282c": {
-    "title": "Linux",
+    "title": "## Linux",
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/share/technical/Linux.md",
     "sourceLine": 2,
     "slug": "linux",

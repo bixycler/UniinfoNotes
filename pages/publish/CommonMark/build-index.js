@@ -114,9 +114,14 @@ function indexFileBlocks(filePath) {
         let rawLines = content.split('\n');
 
         // Page-Header Item Normalization
-        if (rawLines.length > 0 && rawLines[0].trim().startsWith('# ') && !rawLines[0].trim().startsWith('- ')) {
-            // Replace the first line by prepending a bullet
-            rawLines[0] = '- ' + rawLines[0].trimStart();
+        if (rawLines.length > 0) {
+            const trimmed = rawLines[0].trim();
+            if (trimmed.startsWith('#') && !trimmed.startsWith('- ')) {
+                const headingMatch = trimmed.match(/^#+\s/);
+                if (headingMatch) {
+                    rawLines[0] = '- ' + rawLines[0].trimStart();
+                }
+            }
         }
 
         const { cleanLines } = preprocessCodeBlocks(rawLines);
