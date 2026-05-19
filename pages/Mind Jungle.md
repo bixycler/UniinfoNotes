@@ -1794,6 +1794,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Holding such rigidity against the universe's engine of change inevitably leads to deeper suffering – the “2nd arrow” in the parable of 2 arrows.
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- Suffering – the First Noble Truth
+					  id:: 6a02f32b-fe37-4150-833f-6e39dd58ba99
 					  collapsed:: true
 						- The systemic task
 							- The First Noble Truth in Buddhism declares that [dukkha](https://en.wikipedia.org/wiki/Dukkha) (suffering or systemic friction) is an inevitable, natural law of existence, not a biological glitch to be eradicated.
@@ -1802,6 +1803,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- The common misunderstanding of liberation as a sterile state “without suffering” completely contradicts this foundational truth.
 								- True liberation is being *unfettered from suffering* (visaññutto dukkhasmā), meaning the painful signal is received but no longer bound by egoic resistance to a recursive feedback loop.
 						- The true context of Prince Siddhartha's renunciation
+						  id:: 69f9f701-ba0a-4b54-b6b4-ee108f9c4575
 							- The popular “Four Gates” myth infantilizes Prince Siddhartha as a naive boy shocked by basic biological facts he supposedly never knew.
 							- The older suttas reveal him as a highly educated prince who diagnosed the geopolitical and psychological structural fatigue of his society – an awakening unfolding in four chronological acts.
 								- This dispels the myth of an all-happy prince, revealing instead a deeply *hidden agony* born from his claustrophobic, threatened environment.

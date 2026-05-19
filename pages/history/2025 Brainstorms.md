@@ -205,7 +205,7 @@ id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
 			- Gradient entanglement: objectives like helpfulness, harmlessness, and honesty aren't orthogonal, so pushing one can unintentionally suppress others.
 			- Reward mis-specification: human or rule-based feedback oversimplifies “goodness”, teaching the model to optimise for surface compliance rather than depth of reasoning.
 		- That mirrors our broader human pattern: the hunger for purified goodness, for progress without loss. It's the same instinct that makes us polish gods into all-light figures and call that “perfection”, leading to the hard [problem of evil](https://en.wikipedia.org/wiki/Problem_of_evil).
-		- Here comes the **Buddha's counter-move**: he didn't reject suffering but placed it first (in the [Four Noble Truths](https://en.wikipedia.org/wiki/Four_Noble_Truths)), making the hidden half visible again. In doing so, he broke the very cycle of denial that drives our idea of advancement.
+		- Here comes the **Buddha's counter-move**: he didn't reject suffering but [placed it first](((6a02f32b-fe37-4150-833f-6e39dd58ba99))) (in the [Four Noble Truths](https://en.wikipedia.org/wiki/Four_Noble_Truths)), making the hidden half visible again. In doing so, he broke the very cycle of denial that drives our idea of advancement.
 		  id:: 6926be1c-a853-407b-92c7-aba8aaa39194
 		  collapsed:: true
 			- What his father tried to hide in the palace – the clan's fear, the world's decay – he brought into light.
@@ -220,6 +220,7 @@ id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
 				- He couldn't keep the Shakya clan from being annexed by Kosala under King Vidūdabha, but he had saved his child, his wife, his mother, his relatives as well as anyone of his people having chance and condition to follow him.
 			- So the prince who walked away from the palace wasn't rejecting his lineage – he was completing it, carrying its buried wound toward light.
 			- Refs
+				- ((69f9f701-ba0a-4b54-b6b4-ee108f9c4575))
 				- A similar stance from Insight Meditation: [The Buddha and his Dysfunctional Family](https://www.insightmeditation.org/the-buddha-and-his-dysfunctional-family)
 		- So the circle ends where it began: what we call “advancement” is simply the next step forward – not inherently better, just further along the curve. Each stride pushes something behind [the light of attention](((68f5a6d2-5faa-4889-bd79-30e9c553c314))). Real progress, if any, might be noticing that shadow as we walk.
 	- The choices, the [free will](((67f91050-a86c-4176-87ca-91010a8fe3c0))), are both illusional (the absolute) and achievable (the relative).

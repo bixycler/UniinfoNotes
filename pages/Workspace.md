@@ -36,7 +36,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  ^ **Element** search
 			- {{search-query [:h3 "Element Search Result"], 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, 66533703-505d-432d-8368-6058eefb45f6, 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, true, false}}
 			  query-table:: false
-		- palace
+		- infant
 		  id:: 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2
 		  case-sensitive:: false
 		  whole-word:: false
@@ -49,7 +49,6 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			- {{search-query [:h3 "Full-text Search Result"], 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, true, true}}
 			  query-table:: false
 		- **Instruction**: Input Regex pattern to the first line, then just open (unfold) that block to see the result, which will be automatically updated in the Right Sidebar, but not in the Main Edit Pane.
-		  collapsed:: true
 			- `search-scope:` Limit to specific block(s). Remember to disable `search-scope-page`!
 			- `search-scope-page:` Break down unwanted pages, join back wanted pages
 	-
