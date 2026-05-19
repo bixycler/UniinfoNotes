@@ -33,6 +33,7 @@ const args = process.argv.slice(2);
 let indexFile = path.resolve('index.json');
 let outputPathArg = null;
 let baseDirArg = null;
+let breakOption = 'none';
 const inputs = [];
 
 for (let i = 0; i < args.length; i++) {
@@ -60,6 +61,24 @@ for (let i = 0; i < args.length; i++) {
             console.error('Error: -b/--base requires a directory path argument');
             process.exit(1);
         }
+    } else if (args[i] === '--break' || args[i] === '--br') {
+        if (i + 1 < args.length) {
+            const rawVal = args[i + 1].toLowerCase();
+            if (rawVal === 'br' || rawVal === '<br>') {
+                breakOption = 'br';
+            } else if (rawVal === 'space' || rawVal === 'spaces' || rawVal === 'double-space' || rawVal === 'trailing') {
+                breakOption = 'space';
+            } else if (rawVal === 'none') {
+                breakOption = 'none';
+            } else {
+                console.error(`Error: Unknown break option "${args[i + 1]}". Valid options are: <br>, space, none`);
+                process.exit(1);
+            }
+            i++;
+        } else {
+            console.error('Error: --break/--br requires a break type ("<br>", "space", or "none")');
+            process.exit(1);
+        }
     } else {
         inputs.push(path.resolve(args[i]));
     }
@@ -69,9 +88,10 @@ if (inputs.length === 0 || !outputPathArg) {
     if (inputs.length > 0 && !outputPathArg) {
         console.error('Error: Output directory (-o) is required. No default is supported.');
     }
-    console.error('Usage: node convert.js -o <output_path> [-i <index_file>] [-b <base_dir>] <inputs...>');
+    console.error('Usage: node convert.js -o <output_path> [--break <br|space|none>] [-i <index_file>] [-b <base_dir>] <inputs...>');
     console.error('\nOptions:');
     console.error('  -o <output_path>   (Required) Directory to save output files. Preserves relative directory structure under this path.');
+    console.error('  --break <type>     Break conversion style: "<br>" (or "br"), "space" (trailing double space), or "none" (default).');
     console.error('  -i <index_file>    Path to the index JSON file (default: index.json)');
     console.error('  -b <base_dir>      Base input directory to compute relative paths for output mirroring.');
     console.error('                     (Auto-detected if input lives directly under a "pages" or "journals" directory)');
@@ -402,7 +422,17 @@ function convertFile(inputPath, outputPath, uuidMap, sourceLineMap, cleanLines, 
                 if (textStart > -1) {
                     let needBr = true;
                     if ((currentBlockIsHeader || currentBlockIsEmptyTitle) && !hasAddedContinuationContent) { needBr = false; }
-                    if (needBr) { ln = ln.substring(0, textStart) + '<br>' + ln.substring(textStart); }
+                    // Exclude table rows from break insertion
+                    if (ln.trim().startsWith('|')) { needBr = false; }
+                    if (needBr) {
+                        if (breakOption === 'br') {
+                            ln = ln.substring(0, textStart) + '<br>' + ln.substring(textStart);
+                        } else if (breakOption === 'space') {
+                            if (nmd.endsWith('\n')) {
+                                nmd = nmd.slice(0, -1) + '  \n';
+                            }
+                        }
+                    }
                     hasAddedContinuationContent = true;
                 }
             }
