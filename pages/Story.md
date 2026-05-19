@@ -1855,7 +1855,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- The good old Java `JTree` had the handle icons whose level points to the same direction as the modern arrowhead, but much more intuitive – not to confuse with action.
 						  collapsed:: true
 							- ![JTreeDemo-lsAngled.gif](../assets/Will/story/2026-05/JTreeDemo-lsAngled.gif)
-						-
+							- ![JTree-Java-Windows-MacOS.png](../assets/Will/story/2026-05/JTree-Java-Windows-MacOS.png)
+						- My design is the closed disk vs the open 2 half-disks. When unfolding, the disk is split into 2 halves, the opening half stays at the top and the closing half sliding down to the bottom. The folding transition is in reverse.
 		- Will Lei as an intense-world systems architect: an autobiographical analysis through neuroscience and systems theory
 		  id:: 69fdbffa-dc65-4d72-bbf6-d35bf88a3482
 		  collapsed:: true
