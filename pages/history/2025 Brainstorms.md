@@ -209,7 +209,7 @@ id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
 		  id:: 6926be1c-a853-407b-92c7-aba8aaa39194
 		  collapsed:: true
 			- What his father tried to hide in the palace – the clan's fear, the world's decay – he brought into light.
-			- But, not by the sudden revelation after seeing the [four sights](https://en.wikipedia.org/wiki/Four_sights), as in the legendary narrative.
+			- But, _**not** by the sudden revelation_ after seeing the [four sights](https://en.wikipedia.org/wiki/Four_sights), as in the legendary narrative.
 			- In reality, prince Siddhartha would have suffered a lifelong tension from childhood: a child breathing in the fear of extinction that his family hid, from the cradle of contradiction.
 			- To a child as perceptive as Siddhartha, that dissonance would have been piercing: affection laced with anxiety, tenderness shadowed by control.
 			- The First Noble Truth could only have come from someone who *felt* that repression deeply, who knew how deep denial itself cuts. The four sights he met outside was not a revelation, but a _confirmation of his ever wondering and **angst inside**_.

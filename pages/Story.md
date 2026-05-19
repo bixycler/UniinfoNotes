@@ -1176,11 +1176,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 									- ![Temporix_Nanobana_2.png](../assets/Will/story/2026-03/Temporix_Nanobana_2.png)
 									- ![Temporix_Nanobana_3.png](../assets/Will/story/2026-03/Temporix_Nanobana_3.png)
 									- ![Temporix_Nanobana_4.png](../assets/Will/story/2026-03/Temporix_Nanobana_4.png)
-					- DOING check exported graph for `Now, in commit 03a0b563 , i just change the id of perceptual screen to the new one` at block ref for `perceptual screen`.
+					- DONE check exported graph for `Now, in commit 03a0b563 , i just change the id of perceptual screen to the new one` at block ref for `perceptual screen`.
 					  id:: 69ae2041-f68c-40db-99cb-311308b3ebf7
 					  :LOGBOOK:
 					  CLOCK: [2026-03-13 Fri 17:51:46]--[2026-03-13 Fri 18:09:44] =>  00:17:58
-					  CLOCK: [2026-05-19 Tue 09:42:31]
+					  CLOCK: [2026-05-19 Tue 09:42:31]--[2026-05-19 Tue 09:42:53] =>  00:00:22
 					  :END:
 						- The exporter mistook the *code* `id:: 66ea4711-1392-4f5c-bea2-badc71a2fb9e` with the id of the block:
 						  ```
