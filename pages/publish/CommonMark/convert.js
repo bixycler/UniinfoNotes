@@ -422,8 +422,9 @@ function convertFile(inputPath, outputPath, uuidMap, sourceLineMap, cleanLines, 
                 if (textStart > -1) {
                     let needBr = true;
                     if ((currentBlockIsHeader || currentBlockIsEmptyTitle) && !hasAddedContinuationContent) { needBr = false; }
-                    // Exclude table rows from break insertion
-                    if (ln.trim().startsWith('|')) { needBr = false; }
+                    // Exclude block-level elements (tables, blockquotes, HTML tags) from break insertion
+                    const trimmedLn = ln.trim();
+                    if (trimmedLn.startsWith('|') || trimmedLn.startsWith('>') || trimmedLn.startsWith('<')) { needBr = false; }
                     if (needBr) {
                         if (breakOption === 'br') {
                             ln = ln.substring(0, textStart) + '<br>' + ln.substring(textStart);
