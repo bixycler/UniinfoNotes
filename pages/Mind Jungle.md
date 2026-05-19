@@ -1807,7 +1807,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  id:: 69f9f701-ba0a-4b54-b6b4-ee108f9c4575
 							- The popular “Four Gates” myth infantilizes Prince Siddhartha as a naive boy shocked by basic biological facts he supposedly never knew.
 							- The older suttas reveal him as a highly educated prince who diagnosed the geopolitical and psychological structural fatigue of his society – an awakening unfolding in four chronological acts.
-								- This dispels the myth of an all-happy prince, revealing instead a deeply *hidden agony* born from his claustrophobic, threatened environment.
+								- This dispels the myth of an all-happy prince, revealing instead a *deep angst* born from his claustrophobic, threatened environment.
 								- He explicitly described this suffocating dread in the [Attadaṇḍa Sutta (Snp 4.15)](https://suttacentral.net/snp4.15/en/mills):
 								  > Seeing people floundering like fish in a puddle with too little water, seeing them hostile to one another, fear came upon me.
 								  > Then I saw an arrow there, so hard to see, stuck in the heart.
