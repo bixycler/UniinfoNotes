@@ -32,6 +32,7 @@ function slugify(str) {
 const args = process.argv.slice(2);
 let indexFile = path.resolve('index.json');
 let outputPathArg = null;
+let baseDirArg = null;
 const inputs = [];
 
 for (let i = 0; i < args.length; i++) {
@@ -51,13 +52,29 @@ for (let i = 0; i < args.length; i++) {
             console.error('Error: -o requires a path argument');
             process.exit(1);
         }
+    } else if (args[i] === '-b' || args[i] === '--base') {
+        if (i + 1 < args.length) {
+            baseDirArg = path.resolve(args[i + 1]);
+            i++;
+        } else {
+            console.error('Error: -b/--base requires a directory path argument');
+            process.exit(1);
+        }
     } else {
         inputs.push(path.resolve(args[i]));
     }
 }
 
-if (inputs.length === 0) {
-    console.error('Usage: node convert.js [-i <index_file>] [-o <output_path>] <inputs...>');
+if (inputs.length === 0 || !outputPathArg) {
+    if (inputs.length > 0 && !outputPathArg) {
+        console.error('Error: Output directory (-o) is required. No default is supported.');
+    }
+    console.error('Usage: node convert.js -o <output_path> [-i <index_file>] [-b <base_dir>] <inputs...>');
+    console.error('\nOptions:');
+    console.error('  -o <output_path>   (Required) Directory to save output files. Preserves relative directory structure under this path.');
+    console.error('  -i <index_file>    Path to the index JSON file (default: index.json)');
+    console.error('  -b <base_dir>      Base input directory to compute relative paths for output mirroring.');
+    console.error('                     (Auto-detected if input lives directly under a "pages" or "journals" directory)');
     process.exit(1);
 }
 
@@ -450,27 +467,38 @@ function convertFile(inputPath, outputPath, uuidMap, sourceLineMap, cleanLines, 
 }
 
 // Determine target output path dynamically based on inputs and flags
-function determineOutputPath(inputFile, outputPathArg, isSingleInput) {
+function determineOutputPath(inputFile, outputPathArg, isSingleInput, baseDir) {
+    const fileName = path.basename(inputFile, path.extname(inputFile)) + '.cm.md';
     if (outputPathArg) {
-        let isDir = false;
-        try {
-            if (fs.existsSync(outputPathArg)) {
-                isDir = fs.statSync(outputPathArg).isDirectory();
-            } else {
-                isDir = outputPathArg.endsWith('/') || outputPathArg.endsWith('\\') || !isSingleInput;
+        if (baseDir) {
+            const relativeDir = path.relative(baseDir, path.dirname(inputFile));
+            
+            // Fail fast on path traversal
+            if (relativeDir.startsWith('..') || path.isAbsolute(relativeDir)) {
+                console.error(`Error: Path traversal detected. Input file "${inputFile}" is outside the base directory "${baseDir}".`);
+                process.exit(1);
             }
-        } catch (e) {
-            isDir = !isSingleInput;
-        }
-
-        if (isDir) {
-            const fileName = path.basename(inputFile, path.extname(inputFile)) + '.cm.md';
-            return path.join(outputPathArg, fileName);
+            
+            return path.join(outputPathArg, relativeDir, fileName);
         } else {
-            return outputPathArg;
+            let isDir = false;
+            try {
+                if (fs.existsSync(outputPathArg)) {
+                    isDir = fs.statSync(outputPathArg).isDirectory();
+                } else {
+                    isDir = outputPathArg.endsWith('/') || outputPathArg.endsWith('\\') || !isSingleInput;
+                }
+            } catch (e) {
+                isDir = !isSingleInput;
+            }
+
+            if (isDir) {
+                return path.join(outputPathArg, fileName);
+            } else {
+                return outputPathArg;
+            }
         }
     } else {
-        const fileName = path.basename(inputFile, path.extname(inputFile)) + '.cm.md';
         return path.join(path.dirname(inputFile), 'publish', 'CommonMark', fileName);
     }
 }
@@ -485,6 +513,30 @@ console.log(`Found ${mdFiles.length} Markdown file(s) to convert.`);
 if (mdFiles.length === 0) {
     console.log('No files to process. Exiting.');
     process.exit(0);
+}
+
+// 2. Auto-detect baseDir if outputPathArg is provided but no baseDirArg is specified
+let baseDir = baseDirArg;
+if (!baseDir && outputPathArg) {
+    if (inputs.length > 0) {
+        let firstInput = path.resolve(inputs[0]);
+        if (fs.existsSync(firstInput) && fs.statSync(firstInput).isFile()) {
+            firstInput = path.dirname(firstInput);
+        }
+        
+        const parts = firstInput.split(path.sep);
+        const pagesIdx = parts.lastIndexOf('pages');
+        const journalsIdx = parts.lastIndexOf('journals');
+        const targetIdx = Math.max(pagesIdx, journalsIdx);
+        
+        if (targetIdx !== -1) {
+            baseDir = parts.slice(0, targetIdx + 1).join(path.sep);
+            console.log(`Auto-detected base directory (pages/journals root): ${baseDir}`);
+        } else {
+            baseDir = firstInput;
+            console.log(`Auto-detected base directory: ${baseDir}`);
+        }
+    }
 }
 
 // 2. Load global index if it exists
@@ -513,8 +565,22 @@ for (const uuid in globalIndex) {
     };
 }
 
-// 4. Process each file in the batch
+// 4. Pre-update output file paths in sourceLineMap for all files being converted in this batch
 const isSingleInput = mdFiles.length === 1;
+const fileToOutputPath = new Map();
+for (const file of mdFiles) {
+    const outputPath = determineOutputPath(file, outputPathArg, isSingleInput, baseDir);
+    fileToOutputPath.set(file, outputPath);
+}
+
+for (const uuid in sourceLineMap) {
+    const entry = sourceLineMap[uuid];
+    if (entry.srcFile && fileToOutputPath.has(entry.srcFile)) {
+        entry.outFile = fileToOutputPath.get(entry.srcFile);
+    }
+}
+
+// 5. Process each file in the batch
 
 for (const file of mdFiles) {
     console.log(`\nProcessing file: ${file}`);
@@ -550,7 +616,7 @@ for (const file of mdFiles) {
         };
     }
     
-    const outputPath = determineOutputPath(file, outputPathArg, isSingleInput);
+    const outputPath = determineOutputPath(file, outputPathArg, isSingleInput, baseDir);
     console.log(`Output target: ${outputPath}`);
     
     // Convert the file
