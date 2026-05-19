@@ -1792,6 +1792,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- The rigid separation between “inevitable physical pain versus optional mental suffering”, usually linked to the [parable of 2 arrows](https://suttacentral.net/sn36.6/en/bodhi), is an oversimplification of the intricate fabric of suffering and the deep meanings of Buddhist teachings.
 					- This method requires abandoning the rigid, active defense of the ego, which attempts to build tolerance or push back against reality.
 						- Holding such rigidity against the universe's engine of change inevitably leads to deeper suffering – the “2nd arrow” in the parable of 2 arrows.
+						  id:: 69f99b45-cc61-480c-b3df-cec368732ed5
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- Suffering – the First Noble Truth
 					  id:: 6a02f32b-fe37-4150-833f-6e39dd58ba99
@@ -1815,7 +1816,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- Observing the adults' disgust toward the sick and dying, he saw through their hypocritical “intoxication” with youth and life, refusing to participate in the lie.
 							- Act II: The critical mass – [Attadaṇḍa Sutta (Snp 4.15)](https://suttacentral.net/snp4.15/en/mills)
 								- He witnessed his society floundering like fish in a “drying puddle”, driven by fear, suppression, and geopolitical conflict.
-								- He diagnosed the root cause not as external enemies, but as the invisible “arrow” of clinging and egoic conceit stuck in the human heart.
+								- He diagnosed the root cause not as external enemies, but as the [invisible “arrow”](((69f99b45-cc61-480c-b3df-cec368732ed5))) of clinging and egoic conceit stuck in the human heart.
 							- Act III: The extraction – [Pabbajjā Sutta (Snp 3.1)](https://suttacentral.net/snp3.1/en/mills)
 								- To process this massive systemic distress, he needed structural space to let his internal democracy breathe.
 								- He left the claustrophobic, high-friction “refuse dump” of household life for the “open air” of renunciation.
