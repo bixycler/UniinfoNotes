@@ -1842,21 +1842,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 16-17th, weekends, reviewed ((694bc610-c76f-47db-8210-f02b733096f0)), ((6a0a6a2d-2cf0-43e7-bc75-bd74e22683b3)); got ankle pain (at the area of Anterior Talofibular Ligament (ATFL), likely a [psoriatic enthesitis](https://mypsoriaticarthritis.org.au/article/your-psa-ways-psa-affects-you/enthesitis), when warming up the freediving session at the [quarry lake](https://en.wikipedia.org/wiki/Quarry_lake) “Tuyệt Tình Cốc”.
 			- 19th, ...
 			  collapsed:: true
-				- UI toggle confusion: Symbols or labels showing **action vs state** is the **ambiguity** for all toggle in general, but the 2 (in)famous ones are the On/Off toggle button and the up (∧) & down (∨) arrowheads showing expanded/collapsed block.
-				  collapsed:: true
-					- Many people mention the state in the action direction – maximizing the ambiguity:
-					  > + state indicator (e.g., pointing down to show it can open).
-					  > + A toggle icon (usually a chevron) visually indicates the state – pointing downwards when collapsed and upwards when expanded.
-					- Because _the up/down arrowheads are consistently shown in **action-based** manner_, as a de-facto standard, they should be _placed at the end – **bottom right corner**_.
-						- When they are placed at the top, i instinctively think of the state, similar to the right (▶) & down (▼) arrowheads.
-						- The rule of thumb: _state indicator at the start, action indicator at the end._
-						- Although the the up (∧) & down (∨) arrowheads are placed at the right side, they are also usually placed at the top for convenience, following the tradition of the [dropdown list](https://en.wikipedia.org/wiki/Drop-down_list).
-					- Tree view: While the the right (▶) & down (▼) arrowheads show the state, the plus (`+`) & minus (`-`) icons show the action!
-						- The good old Java `JTree` had the handle icons whose level points to the same direction as the modern arrowhead, but much more intuitive – not to confuse with action.
-						  collapsed:: true
-							- ![JTreeDemo-lsAngled.gif](../assets/Will/story/2026-05/JTreeDemo-lsAngled.gif)
-							- ![JTree-Java-Windows-MacOS.png](../assets/Will/story/2026-05/JTree-Java-Windows-MacOS.png)
-						- My design is the closed disk vs the open 2 half-disks. When unfolding, the disk is split into 2 halves, the opening half stays at the top and the closing half sliding down to the bottom. The folding transition is in reverse.
+				- ((6a0c0740-42ff-4a27-af9f-a271a6716027))
 		- Will Lei as an intense-world systems architect: an autobiographical analysis through neuroscience and systems theory
 		  id:: 69fdbffa-dc65-4d72-bbf6-d35bf88a3482
 		  collapsed:: true
