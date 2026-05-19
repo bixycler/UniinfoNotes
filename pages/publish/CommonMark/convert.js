@@ -384,8 +384,24 @@ function convertFile(inputPath, outputPath, uuidMap, sourceLineMap, cleanLines, 
                 for (let key in props) { anchor += `data-${key}="${props[key]}" `; }
                 if (logbook) { anchor += `data-logbook="${logbook}" `; }
                 anchor += '></a>';
-                if (nmd.endsWith('\n')) { nmd = nmd.slice(0, -1) + ' ' + anchor + '\n'; }
-                else { nmd += ' ' + anchor; }
+                let lastLineMatch = nmd.match(/(?:^|\n)([ \t]*)(.*)\n$/);
+                if (lastLineMatch) {
+                    let lastIndent = lastLineMatch[1];
+                    let lastTextTrimmed = lastLineMatch[2].trim();
+                    // Do not append to the end of block fences or table rows, as it breaks their syntax
+                    if (lastTextTrimmed.startsWith('```') || 
+                        lastTextTrimmed.startsWith('$$') || 
+                        lastTextTrimmed.startsWith('|') || 
+                        lastTextTrimmed.startsWith('---')) {
+                        nmd += lastIndent + anchor + '\n';
+                        outputLine++;
+                    } else {
+                        nmd = nmd.slice(0, -1) + ' ' + anchor + '\n';
+                    }
+                } else {
+                    if (nmd.endsWith('\n')) { nmd = nmd.slice(0, -1) + ' ' + anchor + '\n'; }
+                    else { nmd += ' ' + anchor; }
+                }
                 props = {};
                 logbook = '';
             }

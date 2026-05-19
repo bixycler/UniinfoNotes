@@ -201,7 +201,6 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 			  git log --graph
 			  ```
 			- Find changes in history
-			  collapsed:: true
 			  ```sh
 			  git log -S 'string' [-G 'regex']
 			  ```
