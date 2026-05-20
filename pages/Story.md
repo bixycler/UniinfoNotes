@@ -1840,9 +1840,17 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- It reflects in the definition ((687f322c-2334-46e5-816b-57889e5c6b89)) = ((678e1d31-4874-4df6-bfb4-60822a6b5546))
 						- The tiny intent at the apex is usually ignored due to its invisibility ([behind the eyes](((68898917-e61f-4d23-9124-474efa9a9eee)))) and its tiny size relative to the large content at the base.
 			- 16-17th, weekends, reviewed ((694bc610-c76f-47db-8210-f02b733096f0)), ((6a0a6a2d-2cf0-43e7-bc75-bd74e22683b3)); got ankle pain (at the area of Anterior Talofibular Ligament (ATFL), likely a [psoriatic enthesitis](https://mypsoriaticarthritis.org.au/article/your-psa-ways-psa-affects-you/enthesitis), when warming up the freediving session at the [quarry lake](https://en.wikipedia.org/wiki/Quarry_lake) “Tuyệt Tình Cốc”.
-			- 19th, ...
+			- 19th, about the GUI toggle confusion, structure of Omnifold
 			  collapsed:: true
+				- Contemplated the structure of the Omnifold
+					- 1 circle: no dimension
+					- 2 circles (sustent = content + intent): 1 dimension of extent based on intent unit
+						- This dimension is also of sustent, been content & intent.
+					- n sustent circles: n - 1 dimensions of extents based on n - 1 intents and the $s_{n}$ unit.
+						- This forms the sequence of n - 1 extent circles, and the structure of n - 1 height tree & boxes.
+					- Connection between dimensions: circle dynamic, dynamics circle (between orders of derivative), SCIFER via attention (remainder)
 				- ((6a0c0740-42ff-4a27-af9f-a271a6716027))
+				- My Antigravity Pro reached rate limit quickly ⇒ i must frequently summarize the thread to move to a new thread to shrink context size.
 		- Will Lei as an intense-world systems architect: an autobiographical analysis through neuroscience and systems theory
 		  id:: 69fdbffa-dc65-4d72-bbf6-d35bf88a3482
 		  collapsed:: true
