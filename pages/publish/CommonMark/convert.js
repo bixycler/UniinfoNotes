@@ -410,9 +410,6 @@ function convertFile(inputPath, outputPath, uuidMap, sourceLineMap, cleanLines, 
             const bulletIdMatch = ln.match(/^(\s*-\s*)id::\s*([0-9a-fA-F-]{36})\s*$/);
             if (bulletIdMatch) {
                 props.id = bulletIdMatch[2];
-                ln = bulletIdMatch[1];
-                nmd += ln + '\n';
-                outputLine++;
                 // Record mapping for this UUID (source line already in sourceLineMap)
                 const uuid = props.id;
                 if (!sourceLineMap[uuid]) sourceLineMap[uuid] = {};
