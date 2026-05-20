@@ -38,7 +38,7 @@
 	  x^2 + y^2 = z^2
 	  $$
 - 6. Blank Bullet Leading to Spaced Code Block (Empty Title Blanking):
-	- id:: 66ea4711-1392-4f5c-bea2-badc71a2fb9e
+	- id:: 66ea4711-1392-4f5c-bea2-badc71a2fb9a
 	  ```shell
 	  echo "testing empty block code block nesting"
 	  ```

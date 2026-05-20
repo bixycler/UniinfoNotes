@@ -251,3 +251,227 @@ function balancedBracketsRegexPattern(open='[', close=']', excludes='', depth=1,
   return pattern;
 }
 
+// Node-specific conditional imports
+let fs, path;
+if (typeof require !== 'undefined') {
+  fs = require('fs');
+  path = require('path');
+}
+
+// Converter / Index Builder Shared Regex Patterns
+const PAT_PROP = /^\s*(\w+):: (.*)$/;
+const PAT_LB_START = /^\s*:(logbook|LOGBOOK):$/;
+const PAT_LB_END = /^\s*:END:$/;
+const PAT_ITEM = /^(\t*)-( |$)/;
+const PAT_UUID_REF = /\(\(([0-9a-fA-F-]{36})\)\)/g;
+const PAT_BRACKET_UUID_REF = /\[\[([0-9a-fA-F-]{36})\]\]/g;
+const PAT_LINK_REF = /\[([^\[\]]*)\]\(\(\(([0-9a-fA-F-]{36})\)\)(?: "([^"]*)")?\)/g;
+const PAT_ID_PROP = /^id::\s*([0-9a-fA-F-]{36})\s*$/;
+
+
+// Helper to create URL-friendly slugs
+function slugify(str) {
+  return str
+    .toLowerCase()
+    .replace(/[^\w]+/g, '-') // replace non-word chars with dash
+    .replace(/^-+|-+$/g, ''); // trim leading/trailing dashes
+}
+
+// Recursively find all markdown files in input paths
+function getMarkdownFiles(paths) {
+  const mdFiles = [];
+  
+  function walk(currentPath) {
+    if (!fs.existsSync(currentPath)) return;
+    
+    const stat = fs.statSync(currentPath);
+    if (stat.isDirectory()) {
+      const base = path.basename(currentPath);
+      if (base.startsWith('.') || base === 'node_modules' || base === 'publish' || base === 'CommonMark') {
+        return;
+      }
+      const children = fs.readdirSync(currentPath);
+      for (const child of children) {
+        walk(path.join(currentPath, child));
+      }
+    } else if (stat.isFile() && path.extname(currentPath).toLowerCase() === '.md') {
+      mdFiles.push(currentPath);
+    }
+  }
+  
+  for (const p of paths) {
+    walk(p);
+  }
+  
+  return mdFiles;
+}
+
+/**
+ * Preprocess: collapse code blocks into placeholder tokens.
+ * Returns { cleanLines: Array<{line: string, originalIndex: number}>, codeBlockMap: Map<string, string[]> }
+ */
+function preprocessCodeBlocks(lines) {
+  const cleanLines = [];
+  const codeBlockMap = new Map();
+  let blockIndex = 0;
+  let inCodeBlock = false;
+  let currentBlock = [];
+  let currentToken = '';
+
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+    const testLine = line.trimStart().replace(/^-\s*/, '');
+    if (testLine.startsWith('```')) {
+      if (!inCodeBlock) {
+        inCodeBlock = true;
+        currentToken = `__CODE_BLOCK_${blockIndex++}__`;
+        currentBlock = [line];
+      } else {
+        currentBlock.push(line);
+        codeBlockMap.set(currentToken, currentBlock);
+        cleanLines.push({ line: currentToken, originalIndex: i });
+        inCodeBlock = false;
+        currentBlock = [];
+        currentToken = '';
+      }
+    } else if (inCodeBlock) {
+      currentBlock.push(line);
+    } else {
+      cleanLines.push({ line, originalIndex: i });
+    }
+  }
+
+  if (inCodeBlock && currentBlock.length > 0) {
+    codeBlockMap.set(currentToken, currentBlock);
+    cleanLines.push({ line: currentToken, originalIndex: lines.length - 1 });
+  }
+
+  return { cleanLines, codeBlockMap };
+}
+
+// Function to resolve nested UUID references in titles topologically
+function resolveTitleReferences(index, updateSlug = false) {
+  const PAT_REF = /\(\(([0-9a-fA-F-]{36})\)\)|\[\[([0-9a-fA-F-]{36})\]\]/g;
+  
+  const g = {};
+  for (const id in index) {
+    let title = index[id];
+    if (typeof title === 'object') title = title.title || '';
+    if (!title) continue;
+    
+    const refs = [];
+    const matches = title.matchAll(PAT_REF);
+    for (const match of matches) {
+      refs.push(match[1] || match[2]);
+    }
+    
+    if (refs.length > 0) {
+      g[id] = refs;
+    }
+  }
+  
+  let circularRefs = null;
+  while (Object.keys(g).length > 0) {
+    let resolvedAny = false;
+    
+    for (const id in g) {
+      let resolvable = true;
+      for (const t of g[id]) {
+        if (t in g) { 
+          resolvable = false; 
+          break; 
+        }
+      }
+      
+      if (!resolvable) continue;
+      
+      resolvedAny = true;
+      
+      let title = index[id];
+      let isObj = typeof title === 'object';
+      let titleStr = isObj ? title.title : title;
+      
+      const newTitle = titleStr.replace(PAT_REF, (match, u1, u2) => {
+        const targetUuid = u1 || u2;
+        let targetTitle = index[targetUuid];
+        if (targetTitle) {
+          let ts = typeof targetTitle === 'object' ? targetTitle.title : targetTitle;
+          if (ts) {
+            return ts.replace(/^(#+)\s+/, '');
+          }
+        }
+        return match;
+      });
+      
+      if (isObj) {
+        index[id].title = newTitle;
+        if (updateSlug) index[id].slug = slugify(newTitle);
+      } else {
+        index[id] = newTitle;
+      }
+      
+      delete g[id];
+    }
+    
+    if (!resolvedAny) {
+      console.warn('Warning: Circular refs detected in title resolution for UUIDs:', Object.keys(g));
+      circularRefs = g;
+      break;
+    }
+  }
+  
+  if (circularRefs) {
+    for (const id in circularRefs) {
+      let title = index[id];
+      let isObj = typeof title === 'object';
+      let titleStr = isObj ? title.title : title;
+      
+      const newTitle = titleStr.replace(PAT_REF, (match, u1, u2) => {
+        const targetUuid = u1 || u2;
+        if (targetUuid in circularRefs) {
+          return targetUuid;
+        }
+        let targetTitle = index[targetUuid];
+        if (targetTitle) {
+          let ts = typeof targetTitle === 'object' ? targetTitle.title : targetTitle;
+          if (ts) {
+            return ts.replace(/^(#+)\s+/, '');
+          }
+        }
+        return match;
+      });
+      
+      if (isObj) {
+        index[id].title = newTitle;
+        if (updateSlug) index[id].slug = slugify(newTitle);
+      } else {
+        index[id] = newTitle;
+      }
+    }
+  }
+}
+
+// Safe Node.js Environment Exports
+if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
+  module.exports = {
+    fetchFile,
+    copyTextToClipboard,
+    replaceQuotesSimple,
+    replaceQuotes,
+    balancedBracketsRegexPattern,
+    PAT_PROP,
+    PAT_LB_START,
+    PAT_LB_END,
+    PAT_ITEM,
+    PAT_UUID_REF,
+    PAT_BRACKET_UUID_REF,
+    PAT_LINK_REF,
+    PAT_ID_PROP,
+    escapeXML,
+    slugify,
+    getMarkdownFiles,
+    preprocessCodeBlocks,
+    resolveTitleReferences
+  };
+}
+

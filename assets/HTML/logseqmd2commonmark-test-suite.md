@@ -20,7 +20,7 @@ This document tracks the edge cases and bugs discovered during the development o
 
 ## 2. Inline `id::` Mistaken for Block ID
 
-*   **Bug Description**: An inline text containing `id::` (e.g., `id:: 66ea4711-1392-4f5c-bea2-badc71a2fb9e`) inside a paragraph was mistakenly parsed as the Logseq block ID property.
+*   **Bug Description**: An inline text containing `id::` (e.g., `id:: 12345678-1234-1234-1234-123456789012`) inside a paragraph was mistakenly parsed as the Logseq block ID property.
 *   **Test Case**:
     ```markdown
     - This is a block discussing the new `id:: 12345678-1234-1234-1234-123456789012` syntax.
@@ -104,7 +104,7 @@ This document tracks the edge cases and bugs discovered during the development o
 *   **Test Case**:
     ```markdown
     - Parent item
-      - id:: 66ea4711-1392-4f5c-bea2-badc71a2fb9e
+      - id:: 66ea4711-1392-4f5c-bea2-badc71a2fb9a
         ```shell
         echo "testing empty block code block nesting"
         ```
@@ -118,7 +118,7 @@ This document tracks the edge cases and bugs discovered during the development o
         ```shell
         echo "testing empty block code block nesting"
         ```
-        <a class="logseq-meta" id="66ea4711-1392-4f5c-bea2-badc71a2fb9e" ></a>
+        <a class="logseq-meta" id="66ea4711-1392-4f5c-bea2-badc71a2fb9a" ></a>
       - &nbsp; <a class="logseq-meta" id="66ea4711-1392-4f5c-bea2-badc71a2fb9f" ></a>
         This is standard continuation text inside an empty title block.
     ```
