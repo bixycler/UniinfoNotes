@@ -37,13 +37,13 @@
 	  $$
 	  x^2 + y^2 = z^2
 	  $$
-- 6. Blank Bullet Leading to Spaced Code Block (Look-ahead Merging):
+- 6. Blank Bullet Leading to Spaced Code Block (Empty Title Blanking):
 	- id:: 66ea4711-1392-4f5c-bea2-badc71a2fb9e
 	  ```shell
-	  echo "testing look-ahead code block merging"
+	  echo "testing empty block code block nesting"
 	  ```
 	- id:: 66ea4711-1392-4f5c-bea2-badc71a2fb9f
-	  This is standard continuation text merged look-ahead style.
+	  This is standard continuation text inside an empty title block.
 - 7. Hashed UUID Titles:
 	- 7.1 Target block for local reference
 	  id:: 22222222-2222-2222-2222-222222222222

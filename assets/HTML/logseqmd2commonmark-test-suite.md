@@ -59,6 +59,25 @@ This document tracks the edge cases and bugs discovered during the development o
       $$
     ```
 
+*   **4.5 Blockquote with blank line and continuation text**:
+    *   **Description**: Verifies that when a block quote is nested inside an empty title block with metadata properties, the blockquote nests cleanly as a standard CommonMark block, and subsequent continuation paragraphs following blank lines do not get a `<br>` prepended.
+    *   **Test Case**:
+        ```markdown
+        - 4.5 Blockquote with blank line and continuation text:
+          collapsed:: true
+          id:: 6880b9b5-b5d3-4542-b378-31cf40ea8476
+          > I'm just a no-one going nowhere to do nothing!
+          
+          This short introduction appears in most of my profiles.
+        ```
+    *   **Expected Output**:
+        ```markdown
+        - 4.5 Blockquote with blank line and continuation text: <a class="logseq-meta" id="6880b9b5-b5d3-4542-b378-31cf40ea8476" data-collapsed="true" ></a>
+          > I'm just a no-one going nowhere to do nothing!
+          
+          This short introduction appears in most of my profiles.
+        ```
+
 ## 5. `logseq-meta` Anchor Breaking Code and Math Fences
 
 *   **Bug Description**: The generated `<a class="logseq-meta" id="..."></a>` anchor was indiscriminately appended to the end of the preceding output line. In Logseq, the `id::` property line is placed right below the block title, meaning code/math blocks appear below the ID. If the block contains a trailing code fence (```` ``` ````), math block (`$$`), or horizontal rule (`---`), the appended HTML anchor broke the fence.
@@ -81,22 +100,27 @@ This document tracks the edge cases and bugs discovered during the development o
 
 ## 6. Blank Bullet Leading to Spaced (Indented) Code Block Misinterpretation
 
-*   **Bug Description**: When a sub-bullet contained only an `id::` property and a code block in its continuation, stripping the `id::` property left an empty bullet (`- `). Standard Markdown engines interpret an empty bullet followed by a 4-space/1-tab indented code block as a **spaced (indented) code block** rather than a fenced one, rendering the backticks literally.
+*   **Bug Description**: When a sub-bullet contains only properties and block-level content, stripping the properties leaves an empty bullet (`- `). Standard Markdown engines interpret an empty bullet followed by a 4-space/1-tab indented code block as a **spaced (indented) code block** rather than a fenced one, rendering the backticks literally. We resolve this by placing a non-breaking space `&nbsp;` on the empty bullet line, rendering it as a valid paragraph, which preserves standard block nesting under CommonMark.
 *   **Test Case**:
     ```markdown
     - Parent item
-      - id:: 12345678-1234-1234-1234-123456789012
+      - id:: 66ea4711-1392-4f5c-bea2-badc71a2fb9e
         ```shell
-        echo "hello"
+        echo "testing empty block code block nesting"
         ```
+      - id:: 66ea4711-1392-4f5c-bea2-badc71a2fb9f
+        This is standard continuation text inside an empty title block.
     ```
-*   **Expected Output**: A look-ahead merging mechanism detects the empty bullet and merges the first continuation line directly onto the bullet prefix. The output preserves the bullet without creating a blank line:
+*   **Expected Output**:
     ```markdown
     - Parent item
-      - ```shell
-        echo "hello"
+      - &nbsp;
+        ```shell
+        echo "testing empty block code block nesting"
         ```
-        <a class="logseq-meta" id="12345678-1234-1234-1234-123456789012"></a>
+        <a class="logseq-meta" id="66ea4711-1392-4f5c-bea2-badc71a2fb9e" ></a>
+      - &nbsp; <a class="logseq-meta" id="66ea4711-1392-4f5c-bea2-badc71a2fb9f" ></a>
+        This is standard continuation text inside an empty title block.
     ```
 
 ## 7. Hashed UUID Titles in `index.json`
