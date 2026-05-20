@@ -17308,5 +17308,13 @@
     "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
     "title": "7.1 Target block for local reference",
     "slug": "7-1-target-block-for-local-reference"
+  },
+  "6880b9b5-b5d3-4542-b378-31cf40ea8476": {
+    "sourceLine": 24,
+    "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
+    "outputLine": 22,
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
+    "title": "4.5 Blockquote with blank line and continuation text:",
+    "slug": "4-5-blockquote-with-blank-line-and-continuation-text"
   }
 }
