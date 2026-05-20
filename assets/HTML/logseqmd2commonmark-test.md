@@ -1,5 +1,5 @@
 - This is a block discussing the new `id:: 12345678-1234-1234-1234-123456789012` inline syntax to verify it does not parse as a block ID property.
-- A block referencing a block in another file: ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))
+- A block referencing a block in another file: [Mind Jungle](((6651e92e-fb34-4d24-a386-d9698c2e93f7))) in `pages/Mind Jungle.md`.
 - A block with a table to check table row line-break exclusions:
   | Col 1 | Col 2 |
   |-------|-------|
