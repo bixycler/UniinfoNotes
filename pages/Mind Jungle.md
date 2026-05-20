@@ -303,6 +303,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  The agent-based IDE from Google
 						- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Google_Antigravity
 						- Note: Breaking change from v1.23.2 (IDE + agent) → v2+: “Antigravity” has no IDE! The IDE is seprated into “Antigravity IDE”.
+						- Config
+							- `~/.config/Antigravity/User/settings.json`
 						- Agent data are stored globally in `$HOME/.gemini/antigravity/` and locally in `$WORKSPACE/.agent/`.
 							- `$HOME/.gemini/antigravity/`
 								- `brain/$hash/`: `task.md`, `task.md.metadata.json`, `walkthrough.md`, `walkthrough.md.metadata.json`, `implementation_plan.md`
