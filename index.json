@@ -1946,10 +1946,10 @@
   "66ea4711-1392-4f5c-bea2-badc71a2fb9e": {
     "title": "6. Blank Bullet Leading to Spaced Code Block (Look-ahead Merging):",
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
-    "sourceLine": 30,
+    "sourceLine": 34,
     "slug": "6-blank-bullet-leading-to-spaced-code-block-look-ahead-merging",
     "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
-    "outputLine": 31
+    "outputLine": 35
   },
   "69ce0ded-193e-4b34-bda5-f53418e34a16": {
     "title": "April journal",
@@ -17278,33 +17278,33 @@
     "slug": "the-true-context-of-prince-siddhartha-s-renunciation"
   },
   "12345678-1234-1234-1234-123456789012": {
-    "sourceLine": 20,
+    "sourceLine": 24,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
-    "outputLine": 22,
+    "outputLine": 26,
     "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
     "title": "5.1 Code Block:",
     "slug": "5-1-code-block"
   },
   "87654321-1234-1234-1234-123456789012": {
-    "sourceLine": 25,
+    "sourceLine": 29,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
-    "outputLine": 24,
+    "outputLine": 28,
     "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
     "title": "5.2 Math Block:",
     "slug": "5-2-math-block"
   },
   "66ea4711-1392-4f5c-bea2-badc71a2fb9f": {
-    "sourceLine": 34,
+    "sourceLine": 38,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
-    "outputLine": 32,
+    "outputLine": 36,
     "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
     "title": "6. Blank Bullet Leading to Spaced Code Block (Look-ahead Merging):",
     "slug": "6-blank-bullet-leading-to-spaced-code-block-look-ahead-merging"
   },
   "22222222-2222-2222-2222-222222222222": {
-    "sourceLine": 38,
+    "sourceLine": 42,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
-    "outputLine": 35,
+    "outputLine": 39,
     "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
     "title": "7.1 Target block for local reference",
     "slug": "7-1-target-block-for-local-reference"

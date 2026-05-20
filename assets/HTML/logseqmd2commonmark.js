@@ -343,6 +343,7 @@ function convertFile(inputPath, outputPath, uuidMap, sourceLineMap, cleanLines, 
         let props = {};
         let logbook = '';
         let inLogbook = false;
+        let inMath = false;
         let meta = '';
 
         let currentBlockIsHeader = false;
@@ -368,6 +369,12 @@ function convertFile(inputPath, outputPath, uuidMap, sourceLineMap, cleanLines, 
 
             const propMatch = ln.match(PAT_PROP);
             if (propMatch) { props[propMatch[1]] = escapeXML(propMatch[2]); continue; }
+
+            // Math block tracking
+            const trimmed = ln.trim();
+            if (trimmed === '$$') {
+                inMath = !inMath;
+            }
 
             // End of metadata block (encountered non-metadata line)
             if ((Object.keys(props).length > 0 || logbook) && meta === '') {
@@ -465,7 +472,7 @@ function convertFile(inputPath, outputPath, uuidMap, sourceLineMap, cleanLines, 
                     if ((currentBlockIsHeader || currentBlockIsEmptyTitle) && !hasAddedContinuationContent) { needBr = false; }
                     // Exclude block-level elements (tables, blockquotes, HTML tags, math blocks) from break insertion
                     const trimmedLn = ln.trim();
-                    if (trimmedLn.startsWith('|') || trimmedLn.startsWith('>') || trimmedLn.startsWith('<') || trimmedLn.startsWith('$$')) { needBr = false; }
+                    if (trimmedLn.startsWith('|') || trimmedLn.startsWith('>') || trimmedLn.startsWith('<') || trimmedLn.startsWith('$$') || inMath) { needBr = false; }
                     if (needBr) {
                         if (breakOption === 'br') {
                             ln = ln.substring(0, textStart) + '<br>' + ln.substring(textStart);

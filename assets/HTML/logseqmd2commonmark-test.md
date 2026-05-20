@@ -1,4 +1,4 @@
-# 1. First Heading De-Itemization (First Heading bullet-prepend verification)
+### 1. First Heading De-Itemization (First Heading bullet-prepend verification)
   This is continuation content immediately following the deitemized heading to check break insertion.
 	- 1.1 Sub-item under heading: This verifies sub-items nest correctly.
 - 2. Inline ID: This is a block discussing the new `id:: 12345678-1234-1234-1234-123456789012` inline syntax to verify it does not parse as a block ID property.
@@ -15,6 +15,10 @@
 	  <div class="test-class">
 	  This is inside an HTML block.
 	  </div>
+	- 4.4 Math Block:
+	  $$
+	  x^2 + y^2 = z^2
+	  $$
 - 5. logseq-meta Anchor Protection:
 	- 5.1 Code Block:
 	  id:: 12345678-1234-1234-1234-123456789012

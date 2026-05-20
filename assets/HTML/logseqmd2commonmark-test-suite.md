@@ -35,15 +35,29 @@ This document tracks the edge cases and bugs discovered during the development o
 
 ## 4. `--break` Option Corrupting Block-Level Markdown Syntax
 
-*   **Bug Description**: When continuation lines were processed with the `--break br` option, `<br>` tags were aggressively appended to the ends of lines, including Markdown block-level elements (tables, blockquotes, HTML tags, and math blocks `$$`), corrupting their syntax.
+*   **Bug Description**: When continuation lines were processed with the `--break br` option, `<br>` tags were aggressively appended to the ends of lines, including Markdown block-level elements (tables, blockquotes, HTML tags, and math blocks `$$`), corrupting their syntax. We must exclude block-level prefixes and track state (`inMath`) to completely bypass break insertions for inner LaTeX math expressions between math fences.
 *   **Test Case**:
     ```markdown
     - A block with a table:
       | Col 1 | Col 2 |
       |-------|-------|
       | a     | b     |
+    - A block with a math block:
+      $$
+      x^2 + y^2 = z^2
+      $$
     ```
-*   **Expected Output**: No `<br>` should be inserted before, inside, or around the block-level elements. The converter must exclude lines starting with `|`, `>`, `<`, or `$$` from continuation break insertions.
+*   **Expected Output**: No `<br>` should be inserted before, inside, or around the block-level elements or inside the math blocks. The converter must exclude lines starting with `|`, `>`, `<`, or `$$`, and inner lines between math fences:
+    ```markdown
+    - A block with a table:
+      | Col 1 | Col 2 |
+      |-------|-------|
+      | a     | b     |
+    - A block with a math block:
+      $$
+      x^2 + y^2 = z^2
+      $$
+    ```
 
 ## 5. `logseq-meta` Anchor Breaking Code and Math Fences
 
