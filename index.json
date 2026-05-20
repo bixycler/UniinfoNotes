@@ -805,7 +805,7 @@
     "sourceLine": 2889,
     "slug": "the-bullet-border-of-collapsed-block-is-more-hillited-to-stand-out",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 2261
+    "outputLine": 2262
   },
   "667d263b-658b-4560-b8cc-f6838534956d": {
     "title": "[!] Block ref cannot be prefixed.",
@@ -813,7 +813,7 @@
     "sourceLine": 3044,
     "slug": "block-ref-cannot-be-prefixed",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 2370
+    "outputLine": 2371
   },
   "6683ea7c-c94f-4970-bcd1-d3b468c32ab7": {
     "title": "Not renderred correctly:",
@@ -821,7 +821,7 @@
     "sourceLine": 3047,
     "slug": "not-renderred-correctly",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 2371
+    "outputLine": 2372
   },
   "6683ea7c-a48c-4998-8f2b-40d4d9bc16a9": {
     "title": "Should be `(Block ref...)`: ( Block ref...)",
@@ -829,7 +829,7 @@
     "sourceLine": 3051,
     "slug": "should-be-block-ref-block-ref",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 2373
+    "outputLine": 2374
   },
   "66b0aa93-0ae4-416b-9103-16b9b6704ad4": {
     "title": "when enclosed by any HTML tags",
@@ -837,7 +837,7 @@
     "sourceLine": 3077,
     "slug": "when-enclosed-by-any-html-tags",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 2395
+    "outputLine": 2396
   },
   "66faa5f9-1da8-40c1-a040-7490fbfdc3bb": {
     "title": "Block title",
@@ -845,7 +845,7 @@
     "sourceLine": 3083,
     "slug": "block-title",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 2399
+    "outputLine": 2400
   },
   "66626356-0ad9-4219-9b33-8ab7c6cd0508": {
     "title": "Automatic brief title (suggested)",
@@ -853,7 +853,7 @@
     "sourceLine": 3087,
     "slug": "automatic-brief-title-suggested",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 2401
+    "outputLine": 2402
   },
   "6716110e-a71e-4a39-8770-18286c41d0fa": {
     "title": "Block handling",
@@ -861,7 +861,7 @@
     "sourceLine": 3091,
     "slug": "block-handling",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 2404
+    "outputLine": 2405
   },
   "6716169c-ee4d-4124-84a2-d86c9c1d702e": {
     "title": "**Safety** procedure for block **moving**:",
@@ -869,7 +869,7 @@
     "sourceLine": 3093,
     "slug": "safety-procedure-for-block-moving",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 2405
+    "outputLine": 2406
   },
   "6716110e-17b6-42db-b5bb-b5c3055873cb": {
     "title": "➡️ We must always checkpoint with Git before moving blocks!",
@@ -877,7 +877,7 @@
     "sourceLine": 3095,
     "slug": "we-must-always-checkpoint-with-git-before-moving-blocks",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 2406
+    "outputLine": 2407
   },
   "94649b98-9711-4adf-ae25-aaf32b521c14": {
     "title": "➡️ Using the standard [Graph Validator](https://github.com/logseq/graph-validator): a [GitHub action](https://github.com/features/actions) to run [validations](https://github.com/logseq/graph-validator#validations) on each push,",
@@ -885,7 +885,7 @@
     "sourceLine": 3097,
     "slug": "using-the-standard-graph-validator-https-github-com-logseq-graph-validator-a-github-action-https-github-com-features-actions-to-run-validations-https-github-com-logseq-graph-validator-validations-on-each-push",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 2407
+    "outputLine": 2408
   },
   "66b1cfa4-9b10-4032-a4df-8a4a05fdf46e": {
     "title": "[Retrieving all invalid references](https://discuss.logseq.com/t/retrieving-all-invalid-references/8924)",
@@ -893,7 +893,7 @@
     "sourceLine": 3105,
     "slug": "retrieving-all-invalid-references-https-discuss-logseq-com-t-retrieving-all-invalid-references-8924",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 2410
+    "outputLine": 2411
   },
   "6735b187-fc89-4d35-b844-ad0db10d8d1d": {
     "title": "Verification History:",
@@ -901,7 +901,7 @@
     "sourceLine": 3107,
     "slug": "verification-history",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 2411
+    "outputLine": 2412
   },
   "6735b187-e6d2-49a3-ab2c-5dab86b819dc": {
     "title": "DONE [!] 2 failures in `block-refs-link-to-blocks-that-exist`",
@@ -909,7 +909,7 @@
     "sourceLine": 3109,
     "slug": "done-2-failures-in-block-refs-link-to-blocks-that-exist",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 2412
+    "outputLine": 2413
   },
   "666ba1e2-19d1-409e-b30e-42a99b7e4ec0": {
     "title": "## Git",
@@ -933,7 +933,7 @@
     "sourceLine": 3623,
     "slug": "so-i-customize-data-color-logseq-to-match-creatzy-theme",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 2767
+    "outputLine": 2768
   },
   "666a6673-0383-471a-ac42-c77c03dd96d7": {
     "title": "[!] The built-in publisher still cannot handle assets (embedded or linked) other than embedded image.",
@@ -941,7 +941,7 @@
     "sourceLine": 3625,
     "slug": "the-built-in-publisher-still-cannot-handle-assets-embedded-or-linked-other-than-embedded-image",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 2768
+    "outputLine": 2769
   },
   "67333634-482c-4446-95aa-dcd549cb27cd": {
     "title": "`looseList` to avoiding the style inconsistency between “[loose lists](https://spec.commonmark.org/0.31.2/#loose)” and “tight lists”.",
@@ -949,7 +949,7 @@
     "sourceLine": 3685,
     "slug": "looselist-to-avoiding-the-style-inconsistency-between-loose-lists-https-spec-commonmark-org-0-31-2-loose-and-tight-lists",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 2813
+    "outputLine": 2814
   },
   "6720b9eb-687b-4041-99e6-00791a4769bb": {
     "title": "`flattenHeadings` to unitemize headings & remove first tabs",
@@ -957,7 +957,7 @@
     "sourceLine": 3713,
     "slug": "flattenheadings-to-unitemize-headings-remove-first-tabs",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 2834
+    "outputLine": 2835
   },
   "6724afcc-e45b-43ca-839c-a3462a2fa4f4": {
     "title": "Some Markdown implementations do allow _**matched** brackets/parentheses_ in link.",
@@ -965,7 +965,7 @@
     "sourceLine": 3729,
     "slug": "some-markdown-implementations-do-allow-_-matched-brackets-parentheses_-in-link",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 2841
+    "outputLine": 2842
   },
   "672e0320-dc07-4c6e-8832-341aaa90cd2a": {
     "title": "make item lists foldable with [custom element `<folder-div>`](DONE Write [FoldableDemo.html](../assets/HTML/FoldableDemo.html)( ![src](../assets/HTML/FoldableDemo.html), showing `<details> <summary>` & CSS-only method) and [FolderDiv.html](../assets/HTML/FolderDiv.html)( ![src](../assets/HTML/FolderDiv.html), with custom element `<folder-div>`))",
@@ -973,7 +973,7 @@
     "sourceLine": 3836,
     "slug": "make-item-lists-foldable-with-custom-element-folder-div-done-write-foldabledemo-html-assets-html-foldabledemo-html-src-assets-html-foldabledemo-html-showing-details-summary-css-only-method-and-folderdiv-html-assets-html-folderdiv-html-src-assets-html-folderdiv-html-with-custom-element-folder-div",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 2929
+    "outputLine": 2930
   },
   "6720bd22-c2f9-42c7-a6e9-99bc51a92225": {
     "title": "HTML to PDF conversion",
@@ -981,7 +981,7 @@
     "sourceLine": 3851,
     "slug": "html-to-pdf-conversion",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 2934
+    "outputLine": 2935
   },
   "67222374-f7da-4900-a16f-7540013b8b96": {
     "title": "[!] JSON `fetch()` error",
@@ -989,7 +989,7 @@
     "sourceLine": 3863,
     "slug": "json-fetch-error",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 2944
+    "outputLine": 2945
   },
   "66fb7680-7854-4be2-8d58-77e591d7533f": {
     "title": "[!][solved] Linux Snap version cannot bind to SSH socket.",
@@ -997,7 +997,7 @@
     "sourceLine": 4274,
     "slug": "solved-linux-snap-version-cannot-bind-to-ssh-socket",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 3354
+    "outputLine": 3355
   },
   "66ff445c-0f50-4d56-b24e-5533e1dfa322": {
     "title": "Slash(`/`) command",
@@ -1005,7 +1005,7 @@
     "sourceLine": 4402,
     "slug": "slash-command",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 3457
+    "outputLine": 3458
   },
   "6673f8bf-04c0-4f8f-bc36-982ce9cab87d": {
     "title": "WAIT Custom Logseq publish via Web API",
@@ -1013,7 +1013,7 @@
     "sourceLine": 4419,
     "slug": "wait-custom-logseq-publish-via-web-api",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 3470
+    "outputLine": 3471
   },
   "6677b47a-fcbb-47a0-bd60-cdf5ef1a17b8": {
     "title": "DONE Write [FoldableDemo.html](../assets/HTML/FoldableDemo.html)( ![src](../assets/HTML/FoldableDemo.html), showing `<details> <summary>` & CSS-only method) and [FolderDiv.html](../assets/HTML/FolderDiv.html)( ![src](../assets/HTML/FolderDiv.html), with custom element `<folder-div>`)",
@@ -1021,7 +1021,7 @@
     "sourceLine": 4426,
     "slug": "done-write-foldabledemo-html-assets-html-foldabledemo-html-src-assets-html-foldabledemo-html-showing-details-summary-css-only-method-and-folderdiv-html-assets-html-folderdiv-html-src-assets-html-folderdiv-html-with-custom-element-folder-div",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 3472
+    "outputLine": 3473
   },
   "e6a21858-1849-462e-b2b0-0bc57b38fb0a": {
     "title": "## wikilink",
@@ -1029,7 +1029,7 @@
     "sourceLine": 4952,
     "slug": "wikilink",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 3862
+    "outputLine": 3863
   },
   "6653690d-70c4-49a0-b71d-a77a6dd9d9e5": {
     "title": "## wikitext",
@@ -1037,7 +1037,7 @@
     "sourceLine": 4957,
     "slug": "wikitext",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 3865
+    "outputLine": 3866
   },
   "66535e71-3b71-416c-98dc-5dde5e6a76ff": {
     "title": "## Markdown",
@@ -1045,7 +1045,7 @@
     "sourceLine": 4961,
     "slug": "markdown",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 3867
+    "outputLine": 3868
   },
   "66536166-87b0-4283-ab56-c6d2f62423c1": {
     "title": "## markup language",
@@ -1053,7 +1053,7 @@
     "sourceLine": 4977,
     "slug": "markup-language",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 3881
+    "outputLine": 3882
   },
   "66536383-8033-4105-8cbf-2c1316382df4": {
     "title": "## email",
@@ -1061,7 +1061,7 @@
     "sourceLine": 4983,
     "slug": "email",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 3885
+    "outputLine": 3886
   },
   "6653635a-0226-4ebe-ae9b-e3e756b67377": {
     "title": "## plain text",
@@ -1069,7 +1069,7 @@
     "sourceLine": 4987,
     "slug": "plain-text",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 3887
+    "outputLine": 3888
   },
   "66536274-abb0-4f8e-8fa1-da2d4224b7ff": {
     "title": "## LaTeX",
@@ -1077,7 +1077,7 @@
     "sourceLine": 4991,
     "slug": "latex",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 3889
+    "outputLine": 3890
   },
   "66faa5f9-e9c3-4150-be5d-6cef09e8f34c": {
     "title": "Description: A [good old](https://en.wikipedia.org/wiki/LaTeX#History) typesetting language that I've used to write my reports an thesis in my academic era ( Handai, [JAIST](Japan Advanced Institute of Science and Technology)).",
@@ -1085,7 +1085,7 @@
     "sourceLine": 4995,
     "slug": "description-a-good-old-https-en-wikipedia-org-wiki-latex-history-typesetting-language-that-i-ve-used-to-write-my-reports-an-thesis-in-my-academic-era-handai-jaist-japan-advanced-institute-of-science-and-technology",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 3891
+    "outputLine": 3892
   },
   "6653711b-1c5f-4a34-b01a-e673b9bb694c": {
     "title": "## formal methods",
@@ -1093,7 +1093,7 @@
     "sourceLine": 4997,
     "slug": "formal-methods",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 3892
+    "outputLine": 3893
   },
   "665370ae-659d-4fb1-9bdb-6e857e3f5bf3": {
     "title": "## Japan Advanced Institute of Science and Technology",
@@ -1101,7 +1101,7 @@
     "sourceLine": 5001,
     "slug": "japan-advanced-institute-of-science-and-technology",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 3894
+    "outputLine": 3895
   },
   "665370bb-9619-46b2-97be-a7b52684a56c": {
     "title": "JAIST",
@@ -1109,7 +1109,7 @@
     "sourceLine": 5005,
     "slug": "jaist",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 3896
+    "outputLine": 3897
   },
   "66536ec6-1a32-431b-b2e2-c73813f5d19f": {
     "title": "## Osaka University",
@@ -1117,7 +1117,7 @@
     "sourceLine": 5011,
     "slug": "osaka-university",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 3901
+    "outputLine": 3902
   },
   "665c9c28-dfdc-4a7a-8f82-d1367db0c5be": {
     "title": "Handai",
@@ -1125,7 +1125,7 @@
     "sourceLine": 5015,
     "slug": "handai",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 3903
+    "outputLine": 3904
   },
   "665c9c2b-8030-46cc-90b2-08816d369105": {
     "title": "阪大",
@@ -1133,7 +1133,7 @@
     "sourceLine": 5018,
     "slug": "",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 3905
+    "outputLine": 3906
   },
   "66537146-078d-4a65-b33a-2a0162f15d8c": {
     "title": "## Osaka University of Foreign Studies",
@@ -1141,7 +1141,7 @@
     "sourceLine": 5024,
     "slug": "osaka-university-of-foreign-studies",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 3910
+    "outputLine": 3911
   },
   "66537151-5913-4bcf-b4fe-b8e90a69f5af": {
     "title": "Osaka Gaidai",
@@ -1149,7 +1149,7 @@
     "sourceLine": 5028,
     "slug": "osaka-gaidai",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 3912
+    "outputLine": 3913
   },
   "665c9f25-ec8b-4fb8-ad1d-349cbd0b9010": {
     "title": "大阪外大",
@@ -1157,7 +1157,7 @@
     "sourceLine": 5031,
     "slug": "",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 3914
+    "outputLine": 3915
   },
   "6710fbad-2dbd-481d-92db-b4d7d2e20a93": {
     "title": "## Viet Nam National University Ho Chi Minh City",
@@ -1165,7 +1165,7 @@
     "sourceLine": 5036,
     "slug": "viet-nam-national-university-ho-chi-minh-city",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 3918
+    "outputLine": 3919
   },
   "6710fbf3-db4d-4b17-858c-fe3047cbb7e7": {
     "title": "VNUHCM-US",
@@ -1173,7 +1173,7 @@
     "sourceLine": 5040,
     "slug": "vnuhcm-us",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 3920
+    "outputLine": 3921
   },
   "6710fc09-fc5f-447b-9faf-5ea31b29c1fb": {
     "title": "HCMUS",
@@ -1181,7 +1181,7 @@
     "sourceLine": 5043,
     "slug": "hcmus",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 3922
+    "outputLine": 3923
   },
   "6710fcba-e545-4f3d-b74b-4373280534d9": {
     "title": "## Viet Nam National University Ho Chi Minh City",
@@ -1189,7 +1189,7 @@
     "sourceLine": 5050,
     "slug": "viet-nam-national-university-ho-chi-minh-city",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 3928
+    "outputLine": 3929
   },
   "6710fd6d-e8fb-4b24-b280-726187b7c6ce": {
     "title": "VNUHCM",
@@ -1197,7 +1197,7 @@
     "sourceLine": 5054,
     "slug": "vnuhcm",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 3930
+    "outputLine": 3931
   },
   "6653624a-5679-4bc5-bd7e-fdee34516314": {
     "title": "## Extensible Markup Language",
@@ -1205,7 +1205,7 @@
     "sourceLine": 5058,
     "slug": "extensible-markup-language",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 3933
+    "outputLine": 3934
   },
   "6720c001-a22b-47e9-93f6-c0b65d389dfd": {
     "title": "XML",
@@ -1213,7 +1213,7 @@
     "sourceLine": 5062,
     "slug": "xml",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 3935
+    "outputLine": 3936
   },
   "665361eb-5339-451e-957d-362b946d796d": {
     "title": "## Hypertext Markup Language",
@@ -1221,7 +1221,7 @@
     "sourceLine": 5066,
     "slug": "hypertext-markup-language",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 3938
+    "outputLine": 3939
   },
   "6720bf1a-fa1f-4c1d-ba6f-2527a47621eb": {
     "title": "HTML",
@@ -1229,7 +1229,7 @@
     "sourceLine": 5070,
     "slug": "html",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 3940
+    "outputLine": 3941
   },
   "6714ee7d-d83b-4f42-af22-badb410d4a58": {
     "title": "## HTTP",
@@ -1237,7 +1237,7 @@
     "sourceLine": 5086,
     "slug": "http",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 3954
+    "outputLine": 3955
   },
   "6714f01d-3dd8-461c-9619-c5bac33451b0": {
     "title": "### Web Servers",
@@ -1245,7 +1245,7 @@
     "sourceLine": 5096,
     "slug": "web-servers",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 3961
+    "outputLine": 3962
   },
   "6714f028-4e17-41b8-a6d3-88bfb0d5d1f9": {
     "title": "Python's simple [http.server](https://docs.python.org/3/library/http.server.html) ([SimpleHTTPRequestHandler](https://docs.python.org/3/library/http.server.html#http.server.SimpleHTTPRequestHandler))",
@@ -1253,7 +1253,7 @@
     "sourceLine": 5099,
     "slug": "python-s-simple-http-server-https-docs-python-org-3-library-http-server-html-simplehttprequesthandler-https-docs-python-org-3-library-http-server-html-http-server-simplehttprequesthandler",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 3963
+    "outputLine": 3964
   },
   "6720be1c-fb4d-47a9-9dbd-d5cc87cec103": {
     "title": "## Portable Document Format",
@@ -1261,7 +1261,7 @@
     "sourceLine": 5132,
     "slug": "portable-document-format",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 3991
+    "outputLine": 3992
   },
   "6720be20-0d0e-478d-bdbe-1b6d33d126a0": {
     "title": "PDF",
@@ -1269,7 +1269,7 @@
     "sourceLine": 5136,
     "slug": "pdf",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 3993
+    "outputLine": 3994
   },
   "6720c0a4-0294-4065-8016-9853e2a04475": {
     "title": "HTML to PDF conversion",
@@ -1277,7 +1277,7 @@
     "sourceLine": 5141,
     "slug": "html-to-pdf-conversion",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 3997
+    "outputLine": 3998
   },
   "66c7f42e-5c00-435a-8d30-fe8210c4adf6": {
     "title": "Disable automatic update",
@@ -1285,7 +1285,7 @@
     "sourceLine": 5158,
     "slug": "disable-automatic-update",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 4007
+    "outputLine": 4008
   },
   "66c7f42e-1084-41d0-8cd8-f51fdc830535": {
     "title": "Use command switch `--simulate-outdated='Tue, 31 Dec 2099 23:59:59 GMT'` to simulates that it will be out of date in the far future.",
@@ -1293,7 +1293,7 @@
     "sourceLine": 5160,
     "slug": "use-command-switch-simulate-outdated-tue-31-dec-2099-23-59-59-gmt-to-simulates-that-it-will-be-out-of-date-in-the-far-future",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "outputLine": 4008
+    "outputLine": 4009
   },
   "676e8305-edc2-4379-a6f4-e7d9cc5ef765": {
     "title": "query-table:: true",
@@ -1301,7 +1301,7 @@
     "sourceLine": 56,
     "slug": "query-table-true",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 51
+    "outputLine": 52
   },
   "66533703-505d-432d-8368-6058eefb45f6": {
     "title": "# Elements",
@@ -1309,7 +1309,7 @@
     "sourceLine": 73,
     "slug": "elements",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 66
+    "outputLine": 67
   },
   "66600918-a37f-46cb-810e-837aa5e89771": {
     "title": "Attribute:",
@@ -1317,7 +1317,7 @@
     "sourceLine": 76,
     "slug": "attribute",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 67
+    "outputLine": 68
   },
   "665ca48e-f7c1-4541-b5cf-486d86b02997": {
     "title": "Name:",
@@ -1325,7 +1325,7 @@
     "sourceLine": 78,
     "slug": "name",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 68
+    "outputLine": 69
   },
   "665ca495-93b4-47d4-a022-ce511b021a3d": {
     "title": "name of",
@@ -1333,7 +1333,7 @@
     "sourceLine": 81,
     "slug": "name-of",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 70
+    "outputLine": 71
   },
   "665359e4-4597-4775-b849-f9acbb98960a": {
     "title": "Alias:",
@@ -1341,7 +1341,7 @@
     "sourceLine": 83,
     "slug": "alias",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 71
+    "outputLine": 72
   },
   "665c9af1-1ce2-461c-af33-671690618c8f": {
     "title": "alias of",
@@ -1349,7 +1349,7 @@
     "sourceLine": 85,
     "slug": "alias-of",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 72
+    "outputLine": 73
   },
   "669a1e5f-734c-41c1-bf1c-21813b6e81d8": {
     "title": "Etymology:",
@@ -1357,7 +1357,7 @@
     "sourceLine": 87,
     "slug": "etymology",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 73
+    "outputLine": 74
   },
   "66c80d5c-181f-4f06-a285-0624a65e9951": {
     "title": "Noun:",
@@ -1365,7 +1365,7 @@
     "sourceLine": 89,
     "slug": "noun",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 74
+    "outputLine": 75
   },
   "66c80dde-a097-4744-8af8-c6e26dcfdda2": {
     "title": "noun of",
@@ -1373,7 +1373,7 @@
     "sourceLine": 91,
     "slug": "noun-of",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 75
+    "outputLine": 76
   },
   "66c80da7-c0e8-46d2-85e5-71318fd44eff": {
     "title": "Verb:",
@@ -1381,7 +1381,7 @@
     "sourceLine": 93,
     "slug": "verb",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 76
+    "outputLine": 77
   },
   "66c80dfd-95e2-4b5a-bd56-06e8307e81ca": {
     "title": "verb of",
@@ -1389,7 +1389,7 @@
     "sourceLine": 95,
     "slug": "verb-of",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 77
+    "outputLine": 78
   },
   "66c80da9-4cfb-4de7-b83d-8b70665207bf": {
     "title": "Adjective:",
@@ -1397,7 +1397,7 @@
     "sourceLine": 97,
     "slug": "adjective",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 78
+    "outputLine": 79
   },
   "66c80e01-002b-42ae-9c60-49bf3fc6e159": {
     "title": "adjective of",
@@ -1405,7 +1405,7 @@
     "sourceLine": 99,
     "slug": "adjective-of",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 79
+    "outputLine": 80
   },
   "68dfc116-5dc8-41a1-b448-b2e2ddc80068": {
     "title": "Plural:",
@@ -1413,7 +1413,7 @@
     "sourceLine": 101,
     "slug": "plural",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 80
+    "outputLine": 81
   },
   "68dfc11b-c552-4a41-b4bb-0737db0f3f94": {
     "title": "plural of",
@@ -1421,7 +1421,7 @@
     "sourceLine": 103,
     "slug": "plural-of",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 81
+    "outputLine": 82
   },
   "6651ecba-793d-43c5-8020-a9f260b032d8": {
     "title": "Description:",
@@ -1429,7 +1429,7 @@
     "sourceLine": 105,
     "slug": "description",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 82
+    "outputLine": 83
   },
   "66f3c28a-a18f-4cca-90d6-c086ac7fccdf": {
     "title": "Pronunciation:",
@@ -1437,7 +1437,7 @@
     "sourceLine": 108,
     "slug": "pronunciation",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 84
+    "outputLine": 85
   },
   "665359ff-79f1-4669-b10b-f2b0e633a7c1": {
     "title": "Commentaries:",
@@ -1445,7 +1445,7 @@
     "sourceLine": 110,
     "slug": "commentaries",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 85
+    "outputLine": 86
   },
   "66c33468-23d5-44d7-955e-6711cb608157": {
     "title": "References:",
@@ -1453,7 +1453,7 @@
     "sourceLine": 112,
     "slug": "references",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 86
+    "outputLine": 87
   },
   "66e4299e-0af8-47ee-adae-c13fb57fd15d": {
     "title": "Expressions:",
@@ -1461,7 +1461,7 @@
     "sourceLine": 114,
     "slug": "expressions",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 87
+    "outputLine": 88
   },
   "66725725-f76a-4328-b162-f469b87e871b": {
     "title": "Examples:",
@@ -1469,7 +1469,7 @@
     "sourceLine": 116,
     "slug": "examples",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 88
+    "outputLine": 89
   },
   "671b18a8-ac11-4930-bed3-645c0cc983a8": {
     "title": "Variations:",
@@ -1477,7 +1477,7 @@
     "sourceLine": 118,
     "slug": "variations",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 89
+    "outputLine": 90
   },
   "66600918-67d0-429b-af78-f804ea65d9cc": {
     "title": "Property:",
@@ -1485,7 +1485,7 @@
     "sourceLine": 120,
     "slug": "property",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 90
+    "outputLine": 91
   },
   "665ca47c-476a-4bef-b982-d9a31a669fb1": {
     "title": "Form:",
@@ -1493,7 +1493,7 @@
     "sourceLine": 122,
     "slug": "form",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 91
+    "outputLine": 92
   },
   "665ca480-5ac8-4728-a331-2f68b48759d1": {
     "title": "form of",
@@ -1501,7 +1501,7 @@
     "sourceLine": 125,
     "slug": "form-of",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 93
+    "outputLine": 94
   },
   "669dfa9a-3322-4669-9d00-9093a7b14b38": {
     "title": "Formula:",
@@ -1509,7 +1509,7 @@
     "sourceLine": 127,
     "slug": "formula",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 94
+    "outputLine": 95
   },
   "66600918-729f-4c23-97fe-577353cb8b53": {
     "title": "Plaintext:",
@@ -1517,7 +1517,7 @@
     "sourceLine": 129,
     "slug": "plaintext",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 95
+    "outputLine": 96
   },
   "6651ea73-78b4-4c1a-b052-b2ea9555b6f6": {
     "title": "Subprop:",
@@ -1525,7 +1525,7 @@
     "sourceLine": 131,
     "slug": "subprop",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 96
+    "outputLine": 97
   },
   "66600918-367c-413c-863d-2cf11a89c437": {
     "title": "Relation:",
@@ -1533,7 +1533,7 @@
     "sourceLine": 133,
     "slug": "relation",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 97
+    "outputLine": 98
   },
   "66600918-9f27-44c2-8188-f043c244710c": {
     "title": "from",
@@ -1541,7 +1541,7 @@
     "sourceLine": 136,
     "slug": "from",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 99
+    "outputLine": 100
   },
   "66602f61-b849-41a9-bdb8-ec91b96adaec": {
     "title": "⇐",
@@ -1549,7 +1549,7 @@
     "sourceLine": 138,
     "slug": "",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 100
+    "outputLine": 101
   },
   "66ae15d2-e2dd-443d-a666-c3b244fb6603": {
     "title": "Cause:",
@@ -1557,7 +1557,7 @@
     "sourceLine": 140,
     "slug": "cause",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 101
+    "outputLine": 102
   },
   "666022fc-5a51-4e87-ba7c-6f67a0cf19de": {
     "title": "because",
@@ -1565,7 +1565,7 @@
     "sourceLine": 142,
     "slug": "because",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 102
+    "outputLine": 103
   },
   "66600918-3d55-4bad-bd42-4e94708efc5e": {
     "title": "because of",
@@ -1573,7 +1573,7 @@
     "sourceLine": 144,
     "slug": "because-of",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 103
+    "outputLine": 104
   },
   "665caf87-7dd9-4e9e-9ebc-7df259e7d711": {
     "title": "to",
@@ -1581,7 +1581,7 @@
     "sourceLine": 147,
     "slug": "to",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 105
+    "outputLine": 106
   },
   "66602f68-e23f-4b24-921e-b1a9fc0cc731": {
     "title": "⇒",
@@ -1589,7 +1589,7 @@
     "sourceLine": 149,
     "slug": "",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 106
+    "outputLine": 107
   },
   "6687cfbe-9a41-4cb9-883c-c4655b8fa96c": {
     "title": "➡️",
@@ -1597,7 +1597,7 @@
     "sourceLine": 151,
     "slug": "",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 107
+    "outputLine": 108
   },
   "665dc545-151a-485a-84b7-1310fef5151c": {
     "title": "So,",
@@ -1605,7 +1605,7 @@
     "sourceLine": 153,
     "slug": "so",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 108
+    "outputLine": 109
   },
   "66600918-5cb0-4833-9e52-acf2b17441c0": {
     "title": "Thus,",
@@ -1613,7 +1613,7 @@
     "sourceLine": 155,
     "slug": "thus",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 109
+    "outputLine": 110
   },
   "66600918-063a-4e31-bddc-cb138113a66b": {
     "title": "Hence,",
@@ -1621,7 +1621,7 @@
     "sourceLine": 157,
     "slug": "hence",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 110
+    "outputLine": 111
   },
   "66600918-9cef-4a33-bdeb-3b64d71c7034": {
     "title": "Therefore,",
@@ -1629,7 +1629,7 @@
     "sourceLine": 159,
     "slug": "therefore",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 111
+    "outputLine": 112
   },
   "680a04eb-125e-4e9e-b691-3b7be523359c": {
     "title": "moved to",
@@ -1637,7 +1637,7 @@
     "sourceLine": 161,
     "slug": "moved-to",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 112
+    "outputLine": 113
   },
   "691ae2bd-a60f-4db2-8132-bf54e9dee1b0": {
     "title": "Opposite:",
@@ -1645,7 +1645,7 @@
     "sourceLine": 163,
     "slug": "opposite",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 113
+    "outputLine": 114
   },
   "691ae2c3-74aa-4b95-afb6-ed174be00978": {
     "title": "opposite of",
@@ -1653,7 +1653,7 @@
     "sourceLine": 165,
     "slug": "opposite-of",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 114
+    "outputLine": 115
   },
   "6652048c-27b3-47b6-84e5-25af8d9ce801": {
     "title": "Composite:",
@@ -1661,7 +1661,7 @@
     "sourceLine": 167,
     "slug": "composite",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 115
+    "outputLine": 116
   },
   "66532ccc-ae21-4940-8714-715060d6bd90": {
     "title": "Components:",
@@ -1669,7 +1669,7 @@
     "sourceLine": 170,
     "slug": "components",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 117
+    "outputLine": 118
   },
   "667bf816-d1c8-4ac3-b315-764c14bfbb1f": {
     "title": "Complementarity:",
@@ -1677,7 +1677,7 @@
     "sourceLine": 173,
     "slug": "complementarity",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 119
+    "outputLine": 120
   },
   "6699e4db-2e75-4427-94bb-96dfe0367dd1": {
     "title": "Complement:",
@@ -1685,7 +1685,7 @@
     "sourceLine": 176,
     "slug": "complement",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 121
+    "outputLine": 122
   },
   "6699ea73-dc77-4227-a293-b501f2eb1759": {
     "title": "Dual:",
@@ -1693,7 +1693,7 @@
     "sourceLine": 178,
     "slug": "dual",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 122
+    "outputLine": 123
   },
   "6699e5f2-7788-46c7-8233-87699a65ca30": {
     "title": "Whole:",
@@ -1701,7 +1701,7 @@
     "sourceLine": 180,
     "slug": "whole",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 123
+    "outputLine": 124
   },
   "6699eb54-ce9e-4472-a784-c59ffd47f02b": {
     "title": "Complementary components:",
@@ -1709,7 +1709,7 @@
     "sourceLine": 183,
     "slug": "complementary-components",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 125
+    "outputLine": 126
   },
   "66600918-bde2-49ca-8f91-740fb282ea13": {
     "title": "Website:",
@@ -1717,7 +1717,7 @@
     "sourceLine": 185,
     "slug": "website",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 126
+    "outputLine": 127
   },
   "665359c3-61fd-4858-a117-ecbcd6fbc9ea": {
     "title": "Official website:",
@@ -1725,7 +1725,7 @@
     "sourceLine": 187,
     "slug": "official-website",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 127
+    "outputLine": 128
   },
   "665359c0-a89a-41b5-9f28-503f79107a08": {
     "title": "Wiki:",
@@ -1733,7 +1733,7 @@
     "sourceLine": 189,
     "slug": "wiki",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 128
+    "outputLine": 129
   },
   "665f1a5c-6c98-4785-a177-3cd01507595d": {
     "title": "Git:",
@@ -1741,7 +1741,7 @@
     "sourceLine": 193,
     "slug": "git",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 130
+    "outputLine": 131
   },
   "66535a44-8a13-4d5a-808e-10baa97ebaf0": {
     "title": "Plugin:",
@@ -1749,7 +1749,7 @@
     "sourceLine": 195,
     "slug": "plugin",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 131
+    "outputLine": 132
   },
   "665dcac9-5698-496c-9a14-c5c0425d0998": {
     "title": "Theme:",
@@ -1757,7 +1757,7 @@
     "sourceLine": 197,
     "slug": "theme",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 132
+    "outputLine": 133
   },
   "6667abd2-14eb-4145-b9e3-e6f3037b3117": {
     "title": "History:",
@@ -1765,7 +1765,7 @@
     "sourceLine": 199,
     "slug": "history",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 133
+    "outputLine": 134
   },
   "666a539d-499f-43c0-8b2e-74818cc3a0f5": {
     "title": "File:",
@@ -1773,7 +1773,7 @@
     "sourceLine": 203,
     "slug": "file",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
-    "outputLine": 135
+    "outputLine": 136
   },
   "666a697a-6f40-4749-ab5b-03c82aeda1ee": {
     "title": "Screenshot:",
@@ -7389,7 +7389,7 @@
     "sourceLine": 7,
     "slug": "pinned-logseq",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Workspace.cm.md",
-    "outputLine": 3
+    "outputLine": 4
   },
   "66fce880-77a2-41f7-8bdb-a86b7fc6fc77": {
     "title": "## Search",
@@ -7397,7 +7397,7 @@
     "sourceLine": 9,
     "slug": "search",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Workspace.cm.md",
-    "outputLine": 4
+    "outputLine": 5
   },
   "66fce7e0-8040-4980-b2aa-807e4a0cde1f": {
     "title": "logseq",
@@ -7405,7 +7405,7 @@
     "sourceLine": 11,
     "slug": "logseq",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Workspace.cm.md",
-    "outputLine": 5
+    "outputLine": 6
   },
   "67710fcc-08c4-4a3e-96fd-bc4207f6ec8f": {
     "title": "Containers",
@@ -7413,7 +7413,7 @@
     "sourceLine": 19,
     "slug": "containers",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Workspace.cm.md",
-    "outputLine": 10
+    "outputLine": 11
   },
   "677010ec-01b9-48d6-9a3b-ea53bd62cea3": {
     "title": "Block ids",
@@ -7421,7 +7421,7 @@
     "sourceLine": 23,
     "slug": "block-ids",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Workspace.cm.md",
-    "outputLine": 13
+    "outputLine": 14
   },
   "66fce8d4-0434-4dd0-941f-4f3bd9b1b456": {
     "title": "wiki",
@@ -7429,7 +7429,7 @@
     "sourceLine": 34,
     "slug": "wiki",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Workspace.cm.md",
-    "outputLine": 22
+    "outputLine": 23
   },
   "66fd14fd-5eee-4830-b4cb-6bd6f520b9b2": {
     "title": "In case of many commits to upstream",
@@ -7437,7 +7437,7 @@
     "sourceLine": 40,
     "slug": "in-case-of-many-commits-to-upstream",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Workspace.cm.md",
-    "outputLine": 26
+    "outputLine": 27
   },
   "6651adea-81d4-40a5-b96d-af6739e572eb": {
     "title": "## Workstack",
@@ -7445,7 +7445,7 @@
     "sourceLine": 56,
     "slug": "workstack",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Workspace.cm.md",
-    "outputLine": 40
+    "outputLine": 41
   },
   "67139355-ac72-4e4c-b882-00bb3a3ea144": {
     "title": "### Git Tracks",
@@ -7453,7 +7453,7 @@
     "sourceLine": 58,
     "slug": "git-tracks",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Workspace.cm.md",
-    "outputLine": 41
+    "outputLine": 42
   },
   "67164cc1-e500-4889-9b6d-12d8dd7fc029": {
     "title": "#### To be merged",
@@ -7461,7 +7461,7 @@
     "sourceLine": 61,
     "slug": "to-be-merged",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Workspace.cm.md",
-    "outputLine": 42
+    "outputLine": 43
   },
   "67164c57-8f45-46eb-92a9-f00b02dccfc9": {
     "title": "#### WIPs < To be merged",
@@ -7469,7 +7469,7 @@
     "sourceLine": 64,
     "slug": "wips-to-be-merged",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Workspace.cm.md",
-    "outputLine": 43
+    "outputLine": 44
   },
   "6773d98a-3917-4267-9f8b-7d86b84d3663": {
     "title": "### Working",
@@ -7477,7 +7477,7 @@
     "sourceLine": 69,
     "slug": "working",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Workspace.cm.md",
-    "outputLine": 47
+    "outputLine": 48
   },
   "66faa5f7-0908-461c-a7f4-7365effa181c": {
     "title": "Elements",
@@ -7981,7 +7981,7 @@
     "sourceLine": 1159,
     "slug": "b-style-background-color-orange-color-darkred-back-to-work",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/history/2024 Brainstorms.cm.md",
-    "outputLine": 796
+    "outputLine": 798
   },
   "66fbb757-8038-4a79-87df-8d1575faaedb": {
     "title": "Macro `{{blocks-with-content}}`",
@@ -7989,7 +7989,7 @@
     "sourceLine": 1387,
     "slug": "macro-blocks-with-content",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/history/2024 Brainstorms.cm.md",
-    "outputLine": 1017
+    "outputLine": 1018
   },
   "66faa5f8-0711-4a23-afe0-fb8d2ebb644e": {
     "title": "Search for pattern (regex) within scopes of blocks and pages",
@@ -7997,7 +7997,7 @@
     "sourceLine": 1392,
     "slug": "search-for-pattern-regex-within-scopes-of-blocks-and-pages",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/history/2024 Brainstorms.cm.md",
-    "outputLine": 1021
+    "outputLine": 1022
   },
   "66f6b7fd-9444-4869-9a4d-01f6941c9a9b": {
     "title": "history",
@@ -8005,7 +8005,7 @@
     "sourceLine": 1396,
     "slug": "history",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/history/2024 Brainstorms.cm.md",
-    "outputLine": 1023
+    "outputLine": 1024
   },
   "67700577-5afb-4e6c-8722-3147c18bfa2c": {
     "title": "Filters",
@@ -8013,7 +8013,7 @@
     "sourceLine": 1401,
     "slug": "filters",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/history/2024 Brainstorms.cm.md",
-    "outputLine": 1027
+    "outputLine": 1028
   },
   "66f6b7c0-d8af-4d48-9b98-e82f314449d5": {
     "title": "Note: Don't set both `filter:: (nothing)^` and `child-filter:: (nothing)^` because it makes the search domain empty!",
@@ -8021,7 +8021,7 @@
     "sourceLine": 1419,
     "slug": "note-don-t-set-both-filter-nothing-and-child-filter-nothing-because-it-makes-the-search-domain-empty",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/history/2024 Brainstorms.cm.md",
-    "outputLine": 1042
+    "outputLine": 1043
   },
   "6735b185-3584-42f7-86e4-0d65a5c555d0": {
     "title": "Source code",
@@ -8029,7 +8029,7 @@
     "sourceLine": 1426,
     "slug": "source-code",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/history/2024 Brainstorms.cm.md",
-    "outputLine": 1156
+    "outputLine": 1157
   },
   "66fcd905-2d08-40a9-b33f-900204e1b1e4": {
     "title": "Macro `{{search-query}}` in [[logseq/config.edn]] is cloned from this query.",
@@ -8037,7 +8037,7 @@
     "sourceLine": 1538,
     "slug": "macro-search-query-in-logseq-config-edn-is-cloned-from-this-query",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/history/2024 Brainstorms.cm.md",
-    "outputLine": 1158
+    "outputLine": 1159
   },
   "67711d1f-39a7-42c5-83ac-641d0b838e87": {
     "title": "DONE Add `search-scope-page::`",
@@ -8045,7 +8045,7 @@
     "sourceLine": 1565,
     "slug": "done-add-search-scope-page",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/history/2024 Brainstorms.cm.md",
-    "outputLine": 1182
+    "outputLine": 1183
   },
   "6772a6c9-0428-49cc-802b-31d9fc5f6b9c": {
     "title": "Source code:",
@@ -8053,7 +8053,7 @@
     "sourceLine": 1574,
     "slug": "source-code",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/history/2024 Brainstorms.cm.md",
-    "outputLine": 1218
+    "outputLine": 1219
   },
   "6772a6c9-9307-4d5f-8fd0-f20f87de3e8a": {
     "title": "Convert all metadata to block-links",
@@ -8061,7 +8061,7 @@
     "sourceLine": 1818,
     "slug": "convert-all-metadata-to-block-links",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/history/2024 Brainstorms.cm.md",
-    "outputLine": 1421
+    "outputLine": 1422
   },
   "66faa5f8-4513-41d9-97af-65bfab4d13f1": {
     "title": "`#tag` = block-link",
@@ -8069,7 +8069,7 @@
     "sourceLine": 1821,
     "slug": "tag-block-link",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/history/2024 Brainstorms.cm.md",
-    "outputLine": 1422
+    "outputLine": 1423
   },
   "66600918-bbc8-4d92-8d46-dbda3eed92f0": {
     "title": "`in` + `ex` = `con`",
@@ -8077,7 +8077,7 @@
     "sourceLine": 1846,
     "slug": "in-ex-con",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/history/2024 Brainstorms.cm.md",
-    "outputLine": 1435
+    "outputLine": 1436
   },
   "684f951b-4049-482f-859a-7afb05cce124": {
     "title": "form + partial content = intent + extent = full content (Ω)",
@@ -8085,7 +8085,7 @@
     "sourceLine": 1849,
     "slug": "form-partial-content-intent-extent-full-content",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/history/2024 Brainstorms.cm.md",
-    "outputLine": 1436
+    "outputLine": 1437
   },
   "6651ade9-43c6-4beb-9981-cb03d53dc23c": {
     "title": "directory/folder = namespace (exclusive)",
@@ -8093,7 +8093,7 @@
     "sourceLine": 1864,
     "slug": "directory-folder-namespace-exclusive",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/history/2024 Brainstorms.cm.md",
-    "outputLine": 1448
+    "outputLine": 1449
   },
   "66600918-71e0-4cad-b37d-6ceacd7df5eb": {
     "title": "Will's ex-world contains `Will` and other peers of `Will`, like `Na`, `Nyatty`, `Earth`, `Milky Way`, etc.",
@@ -8101,7 +8101,7 @@
     "sourceLine": 1869,
     "slug": "will-s-ex-world-contains-will-and-other-peers-of-will-like-na-nyatty-earth-milky-way-etc",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/history/2024 Brainstorms.cm.md",
-    "outputLine": 1451
+    "outputLine": 1452
   },
   "6772a6c9-a3db-408f-8dd8-accff8c6065f": {
     "title": "The relativity & equality between form & content as 2 vectors",
@@ -8109,7 +8109,7 @@
     "sourceLine": 1887,
     "slug": "the-relativity-equality-between-form-content-as-2-vectors",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/history/2024 Brainstorms.cm.md",
-    "outputLine": 1465
+    "outputLine": 1466
   },
   "6772a6c9-4a1a-46b6-9981-df8f8a9ae39b": {
     "title": "All objects are arrows, addresses, vector, `v`'s",
@@ -8117,7 +8117,7 @@
     "sourceLine": 1893,
     "slug": "all-objects-are-arrows-addresses-vector-v-s",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/history/2024 Brainstorms.cm.md",
-    "outputLine": 1469
+    "outputLine": 1470
   },
   "66600918-ed92-40c9-bda5-1911865d676c": {
     "title": "**Id < *address* < context**",
@@ -8125,7 +8125,7 @@
     "sourceLine": 1900,
     "slug": "id-address-context",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/history/2024 Brainstorms.cm.md",
-    "outputLine": 1474
+    "outputLine": 1475
   },
   "66536ad3-264b-4351-868b-e7e8a7a82774": {
     "title": "In possessive form like \"Will's note\", [the apostrophe `'` stands for](https://www.merriam-webster.com/grammar/history-and-use-of-the-apostrophe) the \"e\" in the suffix \"-es\" of [genitive form](https://www.merriam-webster.com/dictionary/genitive) of noun in the [Old English](https://en.wikipedia.org/wiki/Old_English).",
@@ -8133,7 +8133,7 @@
     "sourceLine": 1908,
     "slug": "in-possessive-form-like-will-s-note-the-apostrophe-stands-for-https-www-merriam-webster-com-grammar-history-and-use-of-the-apostrophe-the-e-in-the-suffix-es-of-genitive-form-https-www-merriam-webster-com-dictionary-genitive-of-noun-in-the-old-english-https-en-wikipedia-org-wiki-old_english",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/history/2024 Brainstorms.cm.md",
-    "outputLine": 1480
+    "outputLine": 1481
   },
   "684c2e6e-3f8d-4ee8-9f69-bdb5f761c9ad": {
     "title": "2024-04-07",
@@ -13336,7 +13336,7 @@
     "slug": "lei-harusada"
   },
   "6880a9a5-b5d3-4542-b378-31cf40ea8476": {
-    "outputLine": 1700,
+    "outputLine": 1701,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2146,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13344,7 +13344,7 @@
     "slug": "commentaries"
   },
   "67760c43-58c6-40eb-b874-40afae448966": {
-    "outputLine": 1714,
+    "outputLine": 1715,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2162,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13352,7 +13352,7 @@
     "slug": "doing-mind-map"
   },
   "6651adea-46e0-40ea-8fc4-3ef394068b0f": {
-    "outputLine": 1752,
+    "outputLine": 1753,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2206,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13360,7 +13360,7 @@
     "slug": "problems"
   },
   "669a58b9-422a-40d9-adcf-b2aade86c170": {
-    "outputLine": 1756,
+    "outputLine": 1757,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2212,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13368,7 +13368,7 @@
     "slug": "1st-the-illusion-of-abstraction"
   },
   "668f4faf-db30-497a-a271-b2bbf5264413": {
-    "outputLine": 1759,
+    "outputLine": 1760,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2216,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13376,7 +13376,7 @@
     "slug": "my-karma-of-theorist-also-corrodes-others-trust-on-me"
   },
   "6677b986-ada2-4c73-8a11-980cdf9cb6d4": {
-    "outputLine": 1764,
+    "outputLine": 1765,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2223,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13384,7 +13384,7 @@
     "slug": "the-clash-between-internal-work-and-external-work"
   },
   "669dc514-e137-43de-be7d-6b0a1ac2302d": {
-    "outputLine": 1766,
+    "outputLine": 1767,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2227,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13392,7 +13392,7 @@
     "slug": "i-m-hooked-to-the-deep-works-in-front-of-my-eyes-this-hook-is-the-tool-that-helps-me-to-concentrate-and-avoid-distraction-from-surrounding-environment"
   },
   "67b541cf-4818-45ad-911c-d2c3397f9e3d": {
-    "outputLine": 1769,
+    "outputLine": 1770,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2235,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13400,7 +13400,7 @@
     "slug": "when-i-interrupt-the-internal-work-my-self-is-fragmented-heavy-lack-motivation-to-do-anything"
   },
   "67cfb02d-b633-408c-b19e-1eeb7ed575b9": {
-    "outputLine": 1770,
+    "outputLine": 1771,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2238,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13408,7 +13408,7 @@
     "slug": "expressed-as-triads-of-the-self"
   },
   "67d102f2-8eb1-440f-8981-abe4d0f1993e": {
-    "outputLine": 1789,
+    "outputLine": 1790,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2261,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13416,7 +13416,7 @@
     "slug": "alarming-set-alarm-clock-by-intervals-to-train-microresetting-miniresetting-regularly"
   },
   "67714850-43c0-4c7f-8b50-838e014b06e0": {
-    "outputLine": 1794,
+    "outputLine": 1795,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2267,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13424,7 +13424,7 @@
     "slug": "done-duck-dive-is-a-serious-problem"
   },
   "67714aaf-1e7f-4312-9f3c-cb4f06e9b562": {
-    "outputLine": 1797,
+    "outputLine": 1798,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2274,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13432,7 +13432,7 @@
     "slug": "beside-tracking-i-must-deploy-a-planning-step-with-cancelled-stop-breath-observe-plan-method"
   },
   "6678d594-9819-4624-abd6-d4ec62b3874f": {
-    "outputLine": 1800,
+    "outputLine": 1801,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2278,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13440,7 +13440,7 @@
     "slug": "perfectionism"
   },
   "6677bc01-44ec-4e4a-aeed-d63996bc0c46": {
-    "outputLine": 1803,
+    "outputLine": 1804,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2283,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13448,7 +13448,7 @@
     "slug": "first-let-s-refine-relax-reduce-the-large-circle-into-smaller-circles-thus-they-are-still-round-perfect-circles-but-can-be-interleaved-with-other-works"
   },
   "669a58b9-1a52-4ad7-932a-9e45ecb9960e": {
-    "outputLine": 1805,
+    "outputLine": 1806,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2286,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13456,7 +13456,7 @@
     "slug": "the-illusion-of-finish-soon"
   },
   "6735b189-a8b7-4ff3-b42a-c59f38a8334e": {
-    "outputLine": 1814,
+    "outputLine": 1815,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2299,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13464,7 +13464,7 @@
     "slug": "the-seemingly-small-and-easy-targets-which-are-just-abstractions-draw-me-into-the-rabbit-holes"
   },
   "6736bd1e-5835-46e4-b640-dd35b3fe7c90": {
-    "outputLine": 1823,
+    "outputLine": 1824,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2310,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13472,7 +13472,7 @@
     "slug": "the-illusion-of-finished-target-reaching"
   },
   "684f9517-b752-4c07-98d8-bfab5d8ed79e": {
-    "outputLine": 1835,
+    "outputLine": 1836,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2327,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13480,7 +13480,7 @@
     "slug": "the-conformation-effect"
   },
   "684f9517-bf26-42df-a02f-937c95e1f80e": {
-    "outputLine": 1836,
+    "outputLine": 1837,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2330,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13488,7 +13488,7 @@
     "slug": "the-great-momentum-of-the-past-is-the-internal-form"
   },
   "684f9517-b730-4cc1-9eb1-54bb81ed78c4": {
-    "outputLine": 1843,
+    "outputLine": 1844,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2338,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13496,7 +13496,7 @@
     "slug": "mindfulness-as-a-hole-punching-tool-to-escape-the-form"
   },
   "681b24ad-2ec8-4e9f-bef6-eb77b09b5c9c": {
-    "outputLine": 1848,
+    "outputLine": 1849,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2345,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13504,7 +13504,7 @@
     "slug": "the-downside-of-the-overview-effect-https-en-wikipedia-org-wiki-overview_effect-exprienced-by-the-psychonaut-https-www-facebook-com-share-p-195trgrwqj"
   },
   "681b3ad7-d1b0-4c06-a4ea-385a4a9314e0": {
-    "outputLine": 1854,
+    "outputLine": 1855,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2356,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13512,7 +13512,7 @@
     "slug": "holistic-core"
   },
   "681b4678-686a-4d99-9163-6f60e0b30d2c": {
-    "outputLine": 1862,
+    "outputLine": 1863,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2365,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13520,7 +13520,7 @@
     "slug": "solution-let-s-sublimate-sublime-channel-that-core-to-restore-the-__-empty-center-about-the-hurricane-s-eye-the-cyclone-eye-https-en-wikipedia-org-wiki-eye_-cyclone-inside-the-eyewall-is-the-self-essence-which-is-the-selfless-obop-empty-center-self-essence-nibb-na-nirv-a-https-en-wikipedia-org-wiki-nirvana-selfless-obop-zero-limit-of-obop-__-i-e-the-hurricane-s-eye-the-cyclone-eye-https-en-wikipedia-org-wiki-eye_-cyclone-inside-the-eyewall-is-the-self-essence-which-is-the-selfless-obop-self-essence-so-that-it-s-free-from-any-fixed-point-and-can-flow-fluidly"
   },
   "699e56cd-b1d4-41fb-8e30-ec393a5db8e9": {
-    "outputLine": 1894,
+    "outputLine": 1895,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2403,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13528,7 +13528,7 @@
     "slug": "perfect-incompleness"
   },
   "699e5754-ef30-4571-81fc-caecf7f7d245": {
-    "outputLine": 1896,
+    "outputLine": 1897,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2406,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13536,7 +13536,7 @@
     "slug": "perfect-imperfection"
   },
   "68adb0c5-e979-475e-8432-730d9d8970bc": {
-    "outputLine": 1902,
+    "outputLine": 1903,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2414,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13544,7 +13544,7 @@
     "slug": "the-deathtrap-of-opportunity"
   },
   "66b1cfa4-369c-49ec-a461-cdda61633460": {
-    "outputLine": 1914,
+    "outputLine": 1915,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2428,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13552,7 +13552,7 @@
     "slug": "brain-dumping-tools-like-logseq-can-help-reducing-mental-load-momentum-so-that-i-can-switch-easier"
   },
   "66f7af1f-783e-489b-af9c-3ff01fc7d872": {
-    "outputLine": 1915,
+    "outputLine": 1916,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2431,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13560,7 +13560,7 @@
     "slug": "any-new-block-even-plain-text-should-be-time-tracked-a-task-with-status-doing-will-be-time-tracked-in-logbook-with-ctrl-enter-todo-workflow-1-todo-wait-doing-done-with-ctrl-enter-for-forward-phase-and-ctrl-shift-enter-for-backward-phase-or-with-alt-enter-doing-workflow-2-plaintext-doing-with-alt-enter-for-time-tracking-of-plaintext"
   },
   "699e702a-2eac-4fcf-8356-dbfbc8c54279": {
-    "outputLine": 1929,
+    "outputLine": 1930,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2456,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13568,7 +13568,7 @@
     "slug": "done-solution-dismalting-the-intent-stack-by-refinement-techniques-and-contemplating-the-perfect-incompleness"
   },
   "699e6ed9-1f33-40db-bb6e-a50fdbda2fcc": {
-    "outputLine": 1930,
+    "outputLine": 1931,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2462,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13576,7 +13576,7 @@
     "slug": "structure-of-the-form-holistic-core-perfectionism-intent-stack-i-saw-the-crutial-key-in-my-slavery-is-the-stack-based-processing-spring-doll-mind"
   },
   "67b541cf-323e-4efd-8d6e-ccb2c9d017ff": {
-    "outputLine": 1939,
+    "outputLine": 1940,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2472,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13584,7 +13584,7 @@
     "slug": "the-issue-of-love-i-e-emotional-attachment"
   },
   "66600918-315b-4f6c-970b-3039ac8ef912": {
-    "outputLine": 1944,
+    "outputLine": 1945,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2479,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13592,7 +13592,7 @@
     "slug": "time-is-always-gone-too-fast"
   },
   "677e84a1-cb09-43a8-a374-31599c903e11": {
-    "outputLine": 1945,
+    "outputLine": 1946,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2481,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13600,7 +13600,7 @@
     "slug": "will-l-is-not-perfect"
   },
   "6651adea-f2f6-4c9e-80b4-ece0bb5038fb": {
-    "outputLine": 1948,
+    "outputLine": 1949,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2485,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13608,7 +13608,7 @@
     "slug": "questions"
   },
   "677e8461-3483-4226-9829-127fe79b039a": {
-    "outputLine": 1952,
+    "outputLine": 1953,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2490,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13616,7 +13616,7 @@
     "slug": "what-s-perfect"
   },
   "66536662-052f-46a4-a624-38858bffb334": {
-    "outputLine": 1961,
+    "outputLine": 1962,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2500,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13624,7 +13624,7 @@
     "slug": "github"
   },
   "66536669-edd2-4c36-a4da-52f25a090459": {
-    "outputLine": 1962,
+    "outputLine": 1963,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2503,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13632,7 +13632,7 @@
     "slug": "official-website-https-github-com"
   },
   "671503e5-690e-4f1f-ad53-419fd57543fe": {
-    "outputLine": 1972,
+    "outputLine": 1973,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2515,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13640,7 +13640,7 @@
     "slug": "github-pages"
   },
   "67150484-1ae6-4420-a63a-fa1d55503bbb": {
-    "outputLine": 1977,
+    "outputLine": 1978,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2522,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13648,7 +13648,7 @@
     "slug": "pages-from-a-branch"
   },
   "671504da-2c66-46e4-af83-f99b9f488d6d": {
-    "outputLine": 1982,
+    "outputLine": 1983,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2528,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13656,7 +13656,7 @@
     "slug": "custom-page-from-github-actions"
   },
   "66537d0c-5406-4b46-8975-12d788cfc28e": {
-    "outputLine": 1998,
+    "outputLine": 1999,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2549,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13664,7 +13664,7 @@
     "slug": "obsidian"
   },
   "66535660-643e-471a-a332-8f2306c5494f": {
-    "outputLine": 2002,
+    "outputLine": 2003,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2555,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13672,7 +13672,7 @@
     "slug": "obsidian"
   },
   "665d1a03-f5af-4af4-a5a9-97d72dda7645": {
-    "outputLine": 2019,
+    "outputLine": 2020,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2577,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13680,7 +13680,7 @@
     "slug": "link-id-block-references-https-help-obsidian-md-linking-notes-and-files-internal-links-link-20to-20a-20block-20in-20a-20note"
   },
   "66535685-4fd2-4928-8c65-198ef6f3fe71": {
-    "outputLine": 2046,
+    "outputLine": 2047,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2608,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13688,7 +13688,7 @@
     "slug": "open-link-with"
   },
   "66537315-7d1a-409a-a89b-2e33e58fe6e6": {
-    "outputLine": 2049,
+    "outputLine": 2050,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2613,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13696,7 +13696,7 @@
     "slug": "folder-note"
   },
   "665373d3-8fd7-4963-9b72-a503e21e54e7": {
-    "outputLine": 2053,
+    "outputLine": 2054,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2619,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13704,7 +13704,7 @@
     "slug": "obsidian-tasks"
   },
   "66537405-7c71-4a5e-abb4-996a146bb52c": {
-    "outputLine": 2056,
+    "outputLine": 2057,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2624,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13712,7 +13712,7 @@
     "slug": "obsidian-webpage-html-export"
   },
   "6653743f-8847-4b24-8c21-795c87254eb2": {
-    "outputLine": 2061,
+    "outputLine": 2062,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2631,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13720,7 +13720,7 @@
     "slug": "obsidian-git"
   },
   "6653747e-b02a-4120-861c-f2fd6d686053": {
-    "outputLine": 2064,
+    "outputLine": 2065,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2636,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13728,7 +13728,7 @@
     "slug": "obsidian-github-publisher"
   },
   "665374b0-1ed9-420b-afc4-897a942c0be0": {
-    "outputLine": 2069,
+    "outputLine": 2070,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2643,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13736,7 +13736,7 @@
     "slug": "obsidian-dataview"
   },
   "665376f4-9335-4d38-843f-a4cf6ef6cd10": {
-    "outputLine": 2075,
+    "outputLine": 2076,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2651,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13744,7 +13744,7 @@
     "slug": "obsidian-importer"
   },
   "665367a6-29d7-4fd2-a33b-6d94de8172e8": {
-    "outputLine": 2078,
+    "outputLine": 2079,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2656,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13752,7 +13752,7 @@
     "slug": "keyboard-shortcut"
   },
   "66536710-7441-4fb8-986b-50d2eec762d7": {
-    "outputLine": 2082,
+    "outputLine": 2083,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2662,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13760,7 +13760,7 @@
     "slug": "hotkey"
   },
   "66600918-9d88-4640-844b-35b9ed433b4a": {
-    "outputLine": 2085,
+    "outputLine": 2086,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2667,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13768,7 +13768,7 @@
     "slug": "table-of-hotkey-assigned-commands-in-this-vault"
   },
   "66536a32-fddd-465f-a47f-fa8e0ea9c8db": {
-    "outputLine": 2086,
+    "outputLine": 2087,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2669,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13776,7 +13776,7 @@
     "slug": "wiki"
   },
   "66600918-6c84-41c7-afeb-96d30f74850b": {
-    "outputLine": 2088,
+    "outputLine": 2089,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2673,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13784,7 +13784,7 @@
     "slug": "wiki-https-en-wikipedia-org-wiki-wiki"
   },
   "665368c5-5c6f-44e4-a675-4a744252d32c": {
-    "outputLine": 2089,
+    "outputLine": 2090,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2675,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13792,7 +13792,7 @@
     "slug": "wikipedia"
   },
   "66536af9-f7d7-4be8-be35-9a43b557aef1": {
-    "outputLine": 2092,
+    "outputLine": 2093,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2680,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13800,7 +13800,7 @@
     "slug": "free-content"
   },
   "6653685c-5435-4be8-be60-a7fb5195d404": {
-    "outputLine": 2094,
+    "outputLine": 2095,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2684,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13808,7 +13808,7 @@
     "slug": "knowledge-base"
   },
   "66536888-95d3-4d20-829c-b7ac2088dc29": {
-    "outputLine": 2096,
+    "outputLine": 2097,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2688,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13816,7 +13816,7 @@
     "slug": "knowledge-graph"
   },
   "665364b1-e05c-46a6-a76b-c14cd73d1706": {
-    "outputLine": 2099,
+    "outputLine": 2100,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2693,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13824,7 +13824,7 @@
     "slug": "personal-knowledge-base"
   },
   "697b4779-fdc8-4188-b3e0-fd984c167fb8": {
-    "outputLine": 2101,
+    "outputLine": 2102,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2697,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13832,7 +13832,7 @@
     "slug": "personal-knowledge-graph"
   },
   "6926be1f-d79d-415a-afe4-230d570013cf": {
-    "outputLine": 2108,
+    "outputLine": 2109,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2707,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13840,7 +13840,7 @@
     "slug": "software"
   },
   "691545ea-1b97-4600-964b-c0cc02a61cb5": {
-    "outputLine": 2120,
+    "outputLine": 2121,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2727,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13848,7 +13848,7 @@
     "slug": "this-app-was-built-upon-the-pure-personal-passion-of-the-author-zadam-https-github-com-zadam-as-shared-on-console-169-https-console-substack-com-p-console-169"
   },
   "66536e1b-6466-4153-90d6-583003d99a81": {
-    "outputLine": 2150,
+    "outputLine": 2151,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2762,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13856,7 +13856,7 @@
     "slug": "logseq"
   },
   "67b541cf-92fb-4a5d-9f57-1273662c9b02": {
-    "outputLine": 2153,
+    "outputLine": 2154,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2768,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13864,7 +13864,7 @@
     "slug": "installations"
   },
   "66faa5f9-d333-47df-88cf-7c6fab827842": {
-    "outputLine": 2157,
+    "outputLine": 2158,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2774,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13872,7 +13872,7 @@
     "slug": "the-appimage-file-at-downloads-page-https-logseq-com-downloads-can-be-run-right-away-just-after-making-it-executable-chmod-x"
   },
   "66faa5f9-96d5-4d40-a118-0adcedfc016a": {
-    "outputLine": 2160,
+    "outputLine": 2161,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2778,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13880,7 +13880,7 @@
     "slug": "the-flatpack-app-on-flathub-https-flathub-org-apps-com-logseq-logseq-requires-additional-dependencies-and-run-in-flatpak-sandbox-with-flatpak-run-com-logseq-logseq-flatpak-sandbox-can-handle-ssh-well"
   },
   "67f4eaf0-bc2c-470d-9590-be149267e750": {
-    "outputLine": 2162,
+    "outputLine": 2163,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2781,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13888,7 +13888,7 @@
     "slug": "mounted-to-app-logseq-in-flatpak-run-sandbox"
   },
   "66faa5f9-bd71-4d05-9c03-b69e4077d6e7": {
-    "outputLine": 2165,
+    "outputLine": 2166,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2785,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13896,7 +13896,7 @@
     "slug": "the-snap-app-on-snap-store-ubuntu-software-is-stable-but-suffers-limitations-of-the-snap-sandbox"
   },
   "66600918-66b3-4d4b-9ef3-6b3d6986ebdd": {
-    "outputLine": 2181,
+    "outputLine": 2182,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2804,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13904,7 +13904,7 @@
     "slug": "commentaries"
   },
   "665eef80-baed-4eff-b89d-d1d62d4f0b0e": {
-    "outputLine": 2191,
+    "outputLine": 2192,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2817,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13912,7 +13912,7 @@
     "slug": "logseq-uses-logseq-order-list-type-number-to-show-ordered-list"
   },
   "665f0ecc-3046-4602-a0cb-d557baab53ba": {
-    "outputLine": 2195,
+    "outputLine": 2196,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2823,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13920,7 +13920,7 @@
     "slug": "folded-blocks-are-hilited-but-very-lightly"
   },
   "665ef3cd-ecdd-4e8f-9854-dd61f1a23e7d": {
-    "outputLine": 2249,
+    "outputLine": 2250,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2826,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13928,7 +13928,7 @@
     "slug": "default-theme-in-logseq-just-hilites-a-folded-item-bullet-closed-very-lightly-with-a-blurred-circle-ls-block-bullet-border-color-around-its-bullet-this-makes-me-confused-many-times"
   },
   "66600918-740c-4b67-be6e-5b3bd7535fb7": {
-    "outputLine": 2263,
+    "outputLine": 2264,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2897,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13936,7 +13936,7 @@
     "slug": "the-current-workflow-is-hard-coded-as-todo-doing-done-which-does-not-distinguish-between-the-first-todo-with-the-next-todo-i-e-paused"
   },
   "66602f1d-a572-4fe8-997f-0fae15c6a3de": {
-    "outputLine": 2269,
+    "outputLine": 2270,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2905,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13944,7 +13944,7 @@
     "slug": "workaround-use-logseq-custom-workflows-plugin-custom-workflow-logseq-custom-workflows-https-github-com-sawhney17-logseq-custom-workflow-plugin-lets-us-define-custom-flow-of-task-status-e-g-todo-wait-doing-done-and-show-logbook-in-edit-mode-when-using-its-custom-hotkey-ctrl-shift-enter-in-combination-with-the-built-in-marker-switch-ctrl-enter"
   },
   "66b1cfa4-8842-4b3c-876b-e60d4b7fd819": {
-    "outputLine": 2270,
+    "outputLine": 2271,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2908,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13952,7 +13952,7 @@
     "slug": "workflow-1-todo-wait-doing-done-with-ctrl-enter-for-forward-phase-and-ctrl-shift-enter-for-backward-phase"
   },
   "666d71cc-c390-4d0e-9e95-950c257e387e": {
-    "outputLine": 2273,
+    "outputLine": 2274,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2913,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13960,7 +13960,7 @@
     "slug": "backward-ctrl-shift-enter-for-done-doing-todo-wait-paused-end-time-logged-plaintext"
   },
   "66b1cfa4-33e0-4e5a-9a68-2e8e19b207ac": {
-    "outputLine": 2278,
+    "outputLine": 2279,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2919,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13968,7 +13968,7 @@
     "slug": "workflow-2-plaintext-doing-with-alt-enter-for-time-tracking-of-plaintext"
   },
   "665fe765-2bb7-4392-9140-10e187f0f208": {
-    "outputLine": 2280,
+    "outputLine": 2281,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2923,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13976,7 +13976,7 @@
     "slug": "difficult-to-link-file-dir-to-avoid-dupes"
   },
   "66680966-5c6a-4c14-82b5-bc1c3f65c525": {
-    "outputLine": 2296,
+    "outputLine": 2297,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2946,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13984,7 +13984,7 @@
     "slug": "when-a-block-id-is-referenced-in-another-block-that-enclosing-block-has-a-different-block-id-which-can-be"
   },
   "66680ac9-70a7-4648-acda-4caa887bd447": {
-    "outputLine": 2299,
+    "outputLine": 2300,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2951,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -13992,7 +13992,7 @@
     "slug": "block-id"
   },
   "66680ada-076d-47c8-b827-91fae9c3d4a2": {
-    "outputLine": 2300,
+    "outputLine": 2301,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2953,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14000,7 +14000,7 @@
     "slug": "then-the-next-level-of-ref-like-this-block-id-cannot-stop-at-the-intermediate-block-but-jump-directly-to-the-original-block"
   },
   "66b1d45e-f8fa-427c-82aa-197689ee04c5": {
-    "outputLine": 2304,
+    "outputLine": 2305,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2961,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14008,7 +14008,7 @@
     "slug": "pasting-move-or-copy-blocks-usually-mess-up-the-management-of-block-id-and-even-causes-the-app-hang-in-some-cases-the-app-hangs-right-after-copy-cut"
   },
   "67110769-1a89-4c51-98cf-884b9b1fa623": {
-    "outputLine": 2315,
+    "outputLine": 2316,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 2977,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14016,7 +14016,7 @@
     "slug": "in-some-cases-the-app-hangs-right-after-copy-cut"
   },
   "66fe043e-e745-4369-96ae-3947e1994070": {
-    "outputLine": 2350,
+    "outputLine": 2351,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3019,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14024,7 +14024,7 @@
     "slug": "dev-show-block-data"
   },
   "66610c13-5045-42a8-948f-6426d698fd2c": {
-    "outputLine": 2354,
+    "outputLine": 2355,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3024,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14032,7 +14032,7 @@
     "slug": "block-id"
   },
   "667d2689-4ce0-4c79-b82a-25b0bba87d39": {
-    "outputLine": 2355,
+    "outputLine": 2356,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3027,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14040,7 +14040,7 @@
     "slug": "block-ref"
   },
   "66ae1489-c8cd-4341-9b2b-90047434943b": {
-    "outputLine": 2425,
+    "outputLine": 2426,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3129,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14054,7 +14054,7 @@
     "sourceFile": null
   },
   "6735b6bf-6141-48e3-9e12-2473a01dafb0": {
-    "outputLine": 2450,
+    "outputLine": 2451,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3156,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14062,7 +14062,7 @@
     "slug": "done-failure-in-block-refs-link-to-blocks-that-exist-again-missing-671f467e-6f1f-4436-a0dd-9a03055e11a9-in-linux-concepts-file-mode-bits"
   },
   "6772a6cd-319d-49d5-acec-ff6053a97a34": {
-    "outputLine": 2482,
+    "outputLine": 2483,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3203,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14070,7 +14070,7 @@
     "slug": "done-failure-in-block-refs-link-to-blocks-that-exist-again-after-move-search-from-contents-to-workspace"
   },
   "67160ca7-8889-451a-b137-a1606c7a94d9": {
-    "outputLine": 2496,
+    "outputLine": 2497,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3233,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14078,7 +14078,7 @@
     "slug": "this-is-just-a-test-block-to-be-moved-around"
   },
   "67161c46-5a7d-495a-9e04-95db62b6c676": {
-    "outputLine": 2498,
+    "outputLine": 2499,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3236,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14086,7 +14086,7 @@
     "slug": "block-copy"
   },
   "67161e0f-4ded-4c41-a3e9-eab6dfec68ff": {
-    "outputLine": 2500,
+    "outputLine": 2501,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3240,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14094,7 +14094,7 @@
     "slug": "the-clipboard-content-when-copying-in-view-mode"
   },
   "6716110e-c217-49e5-a9e5-cbcdf6a8ef1a": {
-    "outputLine": 2501,
+    "outputLine": 2502,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3243,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14102,7 +14102,7 @@
     "slug": "mime-types-in-clipboard-web-application-logseq-text-html-text-plain"
   },
   "6716110e-6920-4ca0-9806-70c2e836f109": {
-    "outputLine": 2509,
+    "outputLine": 2510,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3254,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14110,7 +14110,7 @@
     "slug": "logseq-replaces-all-refs-to-the-block-with-the-content-of-that-block-s-heading-item-and-remembers-these-refs-in-graphs-transit"
   },
   "6835c18c-c045-4faa-be6b-b7b44ec6256a": {
-    "outputLine": 2512,
+    "outputLine": 2513,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3258,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14118,7 +14118,7 @@
     "slug": "done-block-refs-updated-following-deletion-because-logseq-may-mistake-a-deletion-of-the-first-child-with-block-replacement"
   },
   "699c035f-9209-42ac-b0bd-44500c5549a3": {
-    "outputLine": 2522,
+    "outputLine": 2523,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3274,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14126,7 +14126,7 @@
     "slug": "now-in-commit-03a0b563-i-just-change-the-id-of-perceptual-screen-to-the-new-one-id-66ea4711-1392-4f5c-bea2-badc71a2fb9e"
   },
   "671609b3-b815-44b7-90ce-68b609cd2bec": {
-    "outputLine": 2525,
+    "outputLine": 2526,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3278,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14134,7 +14134,7 @@
     "slug": "adjacent-move-with-hotkey"
   },
   "6716110e-51bb-40b2-b98c-503061212007": {
-    "outputLine": 2528,
+    "outputLine": 2529,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3282,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14142,7 +14142,7 @@
     "slug": "block-moving-via-drag-drop"
   },
   "6766ef9d-3add-4400-90b0-131f51d8c23a": {
-    "outputLine": 2533,
+    "outputLine": 2534,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3289,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14150,7 +14150,7 @@
     "slug": "sometimes-the-moved-block-still-has-problem-with-block-id"
   },
   "67f4eaf0-f9c3-4257-a221-eccf0e92535d": {
-    "outputLine": 2536,
+    "outputLine": 2537,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3297,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14158,7 +14158,7 @@
     "slug": "done-ghost-uuids-after-moving-blocks"
   },
   "67f4eaf0-b3b1-460d-9caa-4a6bd2b7973a": {
-    "outputLine": 2569,
+    "outputLine": 2570,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3339,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14166,7 +14166,7 @@
     "slug": "note-history-was-also-moved-from-workspace-to-task-but-does-not-have-similar-problem-maybe-because-the-old-slot-was-at-the-last-place-of-workspace-which-was-removed-completely-so-that-no-other-block-could-be-mistaken-as-the-old-block"
   },
   "67f4f19d-3bb0-41ad-8d94-ab93c3c543a9": {
-    "outputLine": 2576,
+    "outputLine": 2577,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3343,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14174,7 +14174,7 @@
     "slug": "removing-graph-db-transit-file-doesn-t-take-effect-until-the-3rd-time"
   },
   "67f50958-c8c9-4c11-943d-5efca5b7f12f": {
-    "outputLine": 2585,
+    "outputLine": 2586,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3360,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14182,7 +14182,7 @@
     "slug": "something-may-be-broken-in-this-sudden-reboot-e-g-nginx-service-has-been-failed-to-start"
   },
   "6835b164-a48e-4b8e-86c6-8b543c53766a": {
-    "outputLine": 2589,
+    "outputLine": 2590,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3365,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14190,7 +14190,7 @@
     "slug": "done-block-id-jumps-following-the-relative-position-of-blocks"
   },
   "66ab12fd-cc14-4789-b70b-48b8b599f9eb": {
-    "outputLine": 2617,
+    "outputLine": 2618,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3411,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14198,7 +14198,7 @@
     "slug": "block-moving-via-cut-paste"
   },
   "66ab130c-bee8-40e6-aa11-489eb4c34ec4": {
-    "outputLine": 2618,
+    "outputLine": 2619,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3417,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14206,7 +14206,7 @@
     "slug": "this-is-a-complicated-risky-operation"
   },
   "671608ec-008a-4d9a-895e-f63b94f4a03b": {
-    "outputLine": 2626,
+    "outputLine": 2627,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3427,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14214,7 +14214,7 @@
     "slug": "block-moving-via-copy-paste-manual-edit-in-external-editor"
   },
   "6716110e-5181-4264-8b4f-886b00e9ceff": {
-    "outputLine": 2630,
+    "outputLine": 2631,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3433,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14222,7 +14222,7 @@
     "slug": "right-sidebar"
   },
   "6716110e-5169-4a51-926f-fdf8c8b77bf0": {
-    "outputLine": 2631,
+    "outputLine": 2632,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3436,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14230,7 +14230,7 @@
     "slug": "right-sidebar-is-used-as-a-stack-of-docs-started-from-contents-for-column-styled-editing-in-parallel-with-the-main-edit-pane"
   },
   "7ce45435-dfac-4391-a570-ebd0d434d8d6": {
-    "outputLine": 2634,
+    "outputLine": 2635,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3440,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14238,7 +14238,7 @@
     "slug": "however-some-functions-does-not-work-well-in-right-sidebar"
   },
   "66faa5f9-e82b-49cc-b9ed-2c97d28daa3e": {
-    "outputLine": 2636,
+    "outputLine": 2637,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3444,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14246,7 +14246,7 @@
     "slug": "when-the-same-block-is-_opened-in-both-sidebar-and-main-edit-pane_-the-modification-of-that-block-is-buggy-sometime-not-reflected-well-sometime-even-wrongly-delete-the-whole-parent-block-which-is-very-dangerous"
   },
   "66625c65-5d2e-4f4b-9d87-4eadefca681a": {
-    "outputLine": 2638,
+    "outputLine": 2639,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3448,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14254,7 +14254,7 @@
     "slug": "breadcrumb-bar-does-not-contain-the-target-focused-item"
   },
   "66b1cfa4-0f03-4da2-b34b-d995d3c888b0": {
-    "outputLine": 2645,
+    "outputLine": 2646,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3457,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14262,7 +14262,7 @@
     "slug": "a-task-with-status-doing-will-be-time-tracked-in-logbook"
   },
   "66acc24c-4cd7-4568-8c47-79798fc09433": {
-    "outputLine": 2655,
+    "outputLine": 2656,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3473,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14270,7 +14270,7 @@
     "slug": "datascript-https-github-com-tonsky-datascript-query"
   },
   "66faa5f9-0274-4988-a89a-ea1d0d070e28": {
-    "outputLine": 2656,
+    "outputLine": 2657,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3476,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14278,7 +14278,7 @@
     "slug": "simple-query-https-docs-logseq-com-page-queries-from-macro-https-docs-logseq-com-page-macros-syntax"
   },
   "66faa5f9-9b88-44ed-97bd-369cc0048c5d": {
-    "outputLine": 2658,
+    "outputLine": 2659,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3479,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14286,7 +14286,7 @@
     "slug": "advanced-query-https-docs-logseq-com-page-advanced-20queries-with-datascript-https-github-com-tonsky-datascript-database"
   },
   "677bcacd-3de2-48c1-9788-1eab574c4812": {
-    "outputLine": 2675,
+    "outputLine": 2676,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3499,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14294,7 +14294,7 @@
     "slug": "built-in-functions-for-where-are-defined-in-datascript-https-github-com-tonsky-datascript-s-built_ins-cljc-https-github-com-tonsky-datascript-blob-master-src-datascript-built_ins-cljc"
   },
   "677bfcff-0990-45e5-9319-19e796ec1e84": {
-    "outputLine": 2682,
+    "outputLine": 2683,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3506,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14302,7 +14302,7 @@
     "slug": "we-must-use-pattern-matching-to-get-elements-in-sequence-e-g"
   },
   "677bfe2d-e7df-46ba-a306-db1a7e9b771a": {
-    "outputLine": 2684,
+    "outputLine": 2685,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3511,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14310,7 +14310,7 @@
     "slug": "no-way-to-parse-number-from-string"
   },
   "676e7df0-0066-4544-9413-240f7eea5315": {
-    "outputLine": 2692,
+    "outputLine": 2693,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3522,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14318,7 +14318,7 @@
     "slug": "result-display-merge-child-blocks-into-parent-table-collapsed-list"
   },
   "6772a6cd-7efb-4dca-878a-0382cf92503b": {
-    "outputLine": 2694,
+    "outputLine": 2695,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3526,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14326,7 +14326,7 @@
     "slug": "list-view-default"
   },
   "676e80e2-5420-4c4c-ad8c-5356cb550411": {
-    "outputLine": 2696,
+    "outputLine": 2697,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3529,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14334,7 +14334,7 @@
     "slug": "table-view"
   },
   "676e7e9f-492c-4932-9ebe-8241b76c22e2": {
-    "outputLine": 2704,
+    "outputLine": 2705,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3538,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14342,7 +14342,7 @@
     "slug": "remove-block-children-default-true"
   },
   "676e7f22-4b92-4ef6-98ee-72626d8b6799": {
-    "outputLine": 2708,
+    "outputLine": 2709,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3543,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14350,7 +14350,7 @@
     "slug": "collapsed-list-view"
   },
   "6735b187-4c75-49da-b2f9-050a033d27e8": {
-    "outputLine": 2720,
+    "outputLine": 2721,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3561,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14358,7 +14358,7 @@
     "slug": "suggestions-to-increase-query-reusability-https-discuss-logseq-com-t-make-advanced-queries-reusable-15281-13-u-willle"
   },
   "66acc7cb-c144-4f1f-aaf7-344a0cf40b58": {
-    "outputLine": 2727,
+    "outputLine": 2728,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3570,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14366,7 +14366,7 @@
     "slug": "graph-validator-https-github-com-logseq-graph-validator-a-github-action-https-github-com-features-actions-to-run-validations-https-github-com-logseq-graph-validator-validations-on-each-push"
   },
   "6673f8ff-995c-455f-ae09-49bcb5311e2e": {
-    "outputLine": 2728,
+    "outputLine": 2729,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3572,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14374,7 +14374,7 @@
     "slug": "web-api"
   },
   "67b541cf-4716-408d-a89c-8d89ce7aa645": {
-    "outputLine": 2729,
+    "outputLine": 2730,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3575,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14382,7 +14382,7 @@
     "slug": "local-server-localhost-12315-http-localhost-12315"
   },
   "66600918-8c61-42af-b8a2-04bf05e9f782": {
-    "outputLine": 2754,
+    "outputLine": 2755,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3603,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14390,7 +14390,7 @@
     "slug": "logseq-publish"
   },
   "6718b9ba-b96e-44b7-9f13-9acf0e8762e1": {
-    "outputLine": 2761,
+    "outputLine": 2762,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3614,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14398,7 +14398,7 @@
     "slug": "manually-copy-the-whole-assets-folder-from-src-to-web"
   },
   "66695280-1674-477a-b4ff-eb508aa679e0": {
-    "outputLine": 2784,
+    "outputLine": 2785,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3648,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14406,7 +14406,7 @@
     "slug": "cancelled-publish-linear-long-form-docs-with-hugo-publish-logseq-schrodinger-https-github-com-sawhney17-logseq-schrodinger-for-publishing-to-hugo-https-gohugo-io"
   },
   "671f7f9d-58c0-48ce-aeb6-d3d0663ea7bf": {
-    "outputLine": 2786,
+    "outputLine": 2787,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3651,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14414,7 +14414,7 @@
     "slug": "manually-publish-with-block-copy-and-javascript-or-vim-commands"
   },
   "67b541cf-618d-4607-bdd4-e1afcc8ce70c": {
-    "outputLine": 2792,
+    "outputLine": 2793,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3659,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14422,7 +14422,7 @@
     "slug": "todo-the-biggest-problem-is-block-refs"
   },
   "6724b036-6dfb-4f58-8e13-b79a8a1806c7": {
-    "outputLine": 2895,
+    "outputLine": 2896,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3785,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14430,7 +14430,7 @@
     "slug": "because-any-unmatched-bracket-parenthesis-will-break-the-link-sysntax-with-broken-text-displayed"
   },
   "6720bab6-6dad-4fa1-b834-2346cb62d182": {
-    "outputLine": 2900,
+    "outputLine": 2901,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3792,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14438,7 +14438,7 @@
     "slug": "todo-for-logseq-order-list-type-number-logseq-uses-logseq-order-list-type-number-to-show-ordered-list-replace-items-bullets-with-numbers"
   },
   "6731f764-27ba-4a06-b9ca-5817104478f0": {
-    "outputLine": 2902,
+    "outputLine": 2903,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3795,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14446,7 +14446,7 @@
     "slug": "blanklinebeforecodeblock-looselist-looselist-to-avoiding-the-style-inconsistency-between-loose-lists-https-spec-commonmark-org-0-31-2-loose-and-tight-lists-for-strict-conventions-like-in-gitlab"
   },
   "6716110a-2f39-40a0-a601-adfe023e3392": {
-    "outputLine": 2906,
+    "outputLine": 2907,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 3803,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14454,7 +14454,7 @@
     "slug": "replace-straight-quotes-with-curly-quotes-and-with"
   },
   "66faa5f9-8ffd-4542-b916-6e3528cabad8": {
-    "outputLine": 3326,
+    "outputLine": 3327,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4248,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14462,7 +14462,7 @@
     "slug": "built-in-git"
   },
   "66fa4733-114e-4923-80a5-7ac2f5f63ae1": {
-    "outputLine": 3328,
+    "outputLine": 3329,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4252,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14470,7 +14470,7 @@
     "slug": "settings-version-control"
   },
   "66fa5c73-1f11-4e73-9f04-3a678bfb9912": {
-    "outputLine": 3335,
+    "outputLine": 3336,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4260,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14478,7 +14478,7 @@
     "slug": "web-api-s-logseq-git"
   },
   "66fa5cb5-0f9d-4f70-8eeb-b6c3195c57ea": {
-    "outputLine": 3343,
+    "outputLine": 3344,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4262,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14486,7 +14486,7 @@
     "slug": "solved-linux-snap-version-denies-ssh-access"
   },
   "66fbdf84-c5a4-4f96-aece-add980758db1": {
-    "outputLine": 3358,
+    "outputLine": 3359,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4289,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14494,7 +14494,7 @@
     "slug": "hiccup-https-github-com-weavejester-hiccup-syntax"
   },
   "66fbe578-3768-4c36-ae6e-184b5ffd19ed": {
-    "outputLine": 3368,
+    "outputLine": 3369,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4303,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14502,7 +14502,7 @@
     "slug": "i-ti-ti-info-circle-info-circle"
   },
   "66fbe302-f6ad-411a-91c1-638b4f97bee6": {
-    "outputLine": 3371,
+    "outputLine": 3372,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4307,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14510,7 +14510,7 @@
     "slug": "i-ti-ti-help-help"
   },
   "66ff3a47-e526-4c63-b0fc-8b260882ea51": {
-    "outputLine": 3405,
+    "outputLine": 3406,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4344,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14518,7 +14518,7 @@
     "slug": "macro-https-docs-logseq-com-page-macros"
   },
   "66ff4478-6eae-4633-b7be-fd42e2bcda5b": {
-    "outputLine": 3410,
+    "outputLine": 3411,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4351,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14526,7 +14526,7 @@
     "slug": "tag-command"
   },
   "684f9516-f31c-4469-aad8-cd13d9117dd3": {
-    "outputLine": 3502,
+    "outputLine": 3503,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4463,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14534,7 +14534,7 @@
     "slug": "for-the-new-term-stem-line-used-in-the-custom-element-folder-div-i-researched-tree-anatomy-components-structure-of-a-tree-view-from-tree-anatomy-treeview-structure-structure-and-drew-3-styles-of-tree-diagrams"
   },
   "6673fb2f-ef98-484a-b289-b50482edea47": {
-    "outputLine": 3504,
+    "outputLine": 3505,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4466,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14542,7 +14542,7 @@
     "slug": "the-exported-spa-is-loaded-too-slowly-dozens-of-seconds-from-airtrip-intl-lab-server"
   },
   "6675860a-c135-4a92-b4fe-206ebde974ff": {
-    "outputLine": 3510,
+    "outputLine": 3511,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4476,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14550,7 +14550,7 @@
     "slug": "done-write-logseqget-html-assets-html-logseqget-html-src-assets-html-logseqget-html-for-logseq-editor-get-block-page"
   },
   "6669a3bd-7059-4e5a-b21b-d96cb3288557": {
-    "outputLine": 3511,
+    "outputLine": 3512,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4483,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14558,7 +14558,7 @@
     "slug": "i-need-to-know-what-s-in-the-hidden-logbook"
   },
   "6669a3bd-5b32-4088-982a-2c359b66610d": {
-    "outputLine": 3512,
+    "outputLine": 3513,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4486,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14566,7 +14566,7 @@
     "slug": "the-markdown-files-and-exported-jsons-are-too-large-while-i-need-to-view-only-a-specific-block"
   },
   "66faa5fa-9fb9-4211-925b-614e5e63214c": {
-    "outputLine": 3516,
+    "outputLine": 3517,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4496,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14574,7 +14574,7 @@
     "slug": "git-plugin-git-logseq-git-https-github-com-haydenull-logseq-plugin-git-provides-easy-access-to-common-git-commands-and-helps-you-keep-your-notes-synchronized-with-a-remote-git-repository-for-easy-backup-uses-it-for-its-option-checkwhendbchanged"
   },
   "6735b187-e461-441e-976a-b81bea23104e": {
-    "outputLine": 3527,
+    "outputLine": 3528,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4516,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14582,7 +14582,7 @@
     "slug": "settings-via-logseq-config-edn-and-menu-settings"
   },
   "66cdac39-bcf0-4859-b82f-8bd7a7f8e590": {
-    "outputLine": 3536,
+    "outputLine": 3537,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4528,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14590,7 +14590,7 @@
     "slug": "hidden"
   },
   "66faa5f9-506c-4e35-83cc-ab6d463b75b9": {
-    "outputLine": 3538,
+    "outputLine": 3539,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4531,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14598,7 +14598,7 @@
     "slug": "macros"
   },
   "66fe8f11-f568-4d2f-89c2-63d9eecbd0af": {
-    "outputLine": 3542,
+    "outputLine": 3543,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4537,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14606,7 +14606,7 @@
     "slug": "the-current-keymaps-can-be-looked-up-at-menu-help-keyboard-shortcuts"
   },
   "66fe90ad-7d6f-4516-a219-5dcb886505d9": {
-    "outputLine": 3545,
+    "outputLine": 3546,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4541,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14614,7 +14614,7 @@
     "slug": "commands"
   },
   "66faaa5c-6a8a-42d9-a1bc-410531dbaf81": {
-    "outputLine": 3552,
+    "outputLine": 3553,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4550,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14622,7 +14622,7 @@
     "slug": "global-home-config-folder"
   },
   "66fb7680-e670-447d-baa4-279bed18e706": {
-    "outputLine": 3553,
+    "outputLine": 3554,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4557,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14630,7 +14630,7 @@
     "slug": "location-of-home-folder-is-different-between-installations"
   },
   "66f7b4fd-e34e-4fc3-9c2d-d468206d279b": {
-    "outputLine": 3568,
+    "outputLine": 3569,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4575,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14638,7 +14638,7 @@
     "slug": "graphs-transit"
   },
   "6716110e-3c2b-45e8-99a0-d8263b6a42b2": {
-    "outputLine": 3570,
+    "outputLine": 3571,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4578,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14646,7 +14646,7 @@
     "slug": "git"
   },
   "6710c36b-6b29-42c5-b0e4-fc79e5e449a2": {
-    "outputLine": 3573,
+    "outputLine": 3574,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4582,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14654,7 +14654,7 @@
     "slug": "logseq-electron-app-folder"
   },
   "6710c556-1259-4fd5-a9d0-02216274a852": {
-    "outputLine": 3574,
+    "outputLine": 3575,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4584,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14662,7 +14662,7 @@
     "slug": "configs-edn"
   },
   "67b541cf-5d53-4c7f-aa9a-350a87034aaa": {
-    "outputLine": 3576,
+    "outputLine": 3577,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4587,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14670,7 +14670,7 @@
     "slug": "server-host-port-autostart"
   },
   "68a2d52c-0a16-4214-8004-123babd4b841": {
-    "outputLine": 3588,
+    "outputLine": 3589,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4601,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14678,7 +14678,7 @@
     "slug": "test-youtube-clip-error-when-play-under-vpn-sign-in-to-confirm-you-re-not-a-bot"
   },
   "69f1c05d-17b3-4657-9234-2d9a9cd55820": {
-    "outputLine": 3600,
+    "outputLine": 3601,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4615,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14686,7 +14686,7 @@
     "slug": "db-version"
   },
   "69f1c061-509b-43b9-bbfc-e93de55b1851": {
-    "outputLine": 3601,
+    "outputLine": 3602,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4618,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14694,7 +14694,7 @@
     "slug": "import-existing-notes-file-to-db-graph"
   },
   "66faa5f9-9402-4889-8881-dbdc8f179a30": {
-    "outputLine": 3628,
+    "outputLine": 3629,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4646,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14702,7 +14702,7 @@
     "slug": "plugin"
   },
   "66f68ec1-9b7d-402f-b77f-fcd1fc36e500": {
-    "outputLine": 3629,
+    "outputLine": 3630,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4649,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14710,7 +14710,7 @@
     "slug": "git-logseq-git-https-github-com-haydenull-logseq-plugin-git-provides-easy-access-to-common-git-commands-and-helps-you-keep-your-notes-synchronized-with-a-remote-git-repository-for-easy-backup"
   },
   "66fa09f1-64e7-43bc-9b83-f5b5c5a2aaf7": {
-    "outputLine": 3633,
+    "outputLine": 3634,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4660,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14718,7 +14718,7 @@
     "slug": "solved-linux-snap-version-plugin-does-not-use-local-gitconfig-files-https-github-com-haydenull-logseq-plugin-git-issues-44"
   },
   "66b1cfa4-31a0-4954-b75e-e0d5c6d1aa72": {
-    "outputLine": 3645,
+    "outputLine": 3646,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4676,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14726,7 +14726,7 @@
     "slug": "custom-workflow-logseq-custom-workflows-https-github-com-sawhney17-logseq-custom-workflow-plugin-lets-us-define-custom-flow-of-task-status-e-g-todo-wait-doing-done-and-show-logbook-in-edit-mode-when-using-its-custom-hotkey-ctrl-shift-enter"
   },
   "6661341b-bd00-4444-a44d-99b489f6c8cb": {
-    "outputLine": 3647,
+    "outputLine": 3648,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4680,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14734,7 +14734,7 @@
     "slug": "2-workflows-defined-embed-workaround-use-logseq-custom-workflows-plugin-custom-workflow-logseq-custom-workflows-https-github-com-sawhney17-logseq-custom-workflow-plugin-lets-us-define-custom-flow-of-task-status-e-g-todo-wait-doing-done-and-show-logbook-in-edit-mode-when-using-its-custom-hotkey-ctrl-shift-enter-in-combination-with-the-built-in-marker-switch-ctrl-enter"
   },
   "66ac509d-cc10-4b99-9a70-a27bed316a3a": {
-    "outputLine": 3648,
+    "outputLine": 3649,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4682,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14742,7 +14742,7 @@
     "slug": "block-reference-context-logseq-brc-https-github-com-tejonaco-logseq-brc-provides-the-command-block-reference-context-to-add-block-text-content-to-the-block-ref"
   },
   "66600918-fe64-4ef5-965e-c085d29bb88b": {
-    "outputLine": 3651,
+    "outputLine": 3652,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4690,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14750,7 +14750,7 @@
     "slug": "file-explorer-from-within-logseq-https-discuss-logseq-com-t-file-explorer-from-within-logseq-21703-1-with-file-picker-for-linking-local-files-https-discuss-logseq-com-t-file-picker-for-linking-local-files-21704"
   },
   "66695307-1334-426c-b953-3e006bc87d74": {
-    "outputLine": 3652,
+    "outputLine": 3653,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4692,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14758,7 +14758,7 @@
     "slug": "hugo-publish-logseq-schrodinger-https-github-com-sawhney17-logseq-schrodinger-for-publishing-to-hugo-https-gohugo-io"
   },
   "68be4ad9-b2de-4ac7-ad17-6b5ac8478ac9": {
-    "outputLine": 3656,
+    "outputLine": 3657,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4701,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14766,7 +14766,7 @@
     "slug": "assistseq-logseq-plugin-assistseq-ai-assistant-https-github-com-galihlprakoso-logseq-plugin-assistseq-ai-assistant-to-chat-with-context-from-current-page-and-some-backlinks"
   },
   "684f9516-b179-4c37-9feb-f08781466afa": {
-    "outputLine": 3659,
+    "outputLine": 3660,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4706,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14774,7 +14774,7 @@
     "slug": "ollama-ollama-logseq-https-github-com-omagdy7-ollama-logseq-to-chat-with-ollama-https-github-com-jmorganca-ollama-local-llm-about-current-page-block"
   },
   "68be4a6e-f672-4892-b072-732eb034fac9": {
-    "outputLine": 3660,
+    "outputLine": 3661,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4712,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14782,7 +14782,7 @@
     "slug": "ai-assistant-logseq-plugin-ai-assistant-https-github-com-ahonn-logseq-plugin-ai-assistant-to-ask-openai-paid-models-to-do-something-about-current-text-block-summarize-explain-etc"
   },
   "68ad8f51-795d-4f17-ad90-f8b97968e478": {
-    "outputLine": 3661,
+    "outputLine": 3662,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4714,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14790,7 +14790,7 @@
     "slug": "feched-code-plus-logseq-fenced-code-plus-https-github-com-xyhp915-logseq-fenced-code-plus-to-render-additional-types-of-fenced-code-mermaid-https-mermaid-js-org-echarts-https-echarts-apache-org-en-index-html-tikzjax-https-tikzjax-com"
   },
   "68ad91c4-0083-432f-a90d-e2401b072919": {
-    "outputLine": 3664,
+    "outputLine": 3665,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4719,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14798,7 +14798,7 @@
     "slug": "mermaid"
   },
   "68ad9d41-99c1-4c02-9b3d-2ff9d9a7bb37": {
-    "outputLine": 3769,
+    "outputLine": 3770,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4827,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14806,7 +14806,7 @@
     "slug": "tikz-very-buggy-limited"
   },
   "6864f88c-8987-4b0e-8151-0d41f5830a70": {
-    "outputLine": 3788,
+    "outputLine": 3789,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4848,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14814,7 +14814,7 @@
     "slug": "markdown-table-logseq-markdown-table-https-github-com-haydenull-logseq-plugin-markdown-table-to-easily-handle-markdown-tables"
   },
   "6864f9b7-2daa-4ad4-b496-063722e86f73": {
-    "outputLine": 3789,
+    "outputLine": 3790,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4850,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14822,7 +14822,7 @@
     "slug": "table-renderer-logseq-tablerender-plugin-https-github-com-benjypng-logseq-tablerender-plugin-to-render-tables-from-data-from-in-blocks-supporting-basic-statistics-like-sum-average-median-mode"
   },
   "665d78a5-6470-4e60-8fd1-d958fd62756e": {
-    "outputLine": 3795,
+    "outputLine": 3796,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4857,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14830,7 +14830,7 @@
     "slug": "done-compose-logseq-custom-css-from-logseq-s-built-in-style-css-ozean-theme-s-main-css"
   },
   "66536d32-30ad-4c07-8585-76ae9eb7fb22": {
-    "outputLine": 3796,
+    "outputLine": 3797,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4863,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14838,7 +14838,7 @@
     "slug": "outliner"
   },
   "66536cad-a232-4b90-bf32-439144aac1ec": {
-    "outputLine": 3821,
+    "outputLine": 3822,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4893,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14846,7 +14846,7 @@
     "slug": "hyperlink"
   },
   "66ae293c-b2ea-44cb-9e39-268c5a45c364": {
-    "outputLine": 3824,
+    "outputLine": 3825,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4902,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14854,7 +14854,7 @@
     "slug": "action-triggering-elements-like-a-and-button-are-required-to-be-action-atomic-hence-not-permitted-to-nest-other-action-triggering-elements-inside"
   },
   "66ae2d1a-8009-4dc0-85f5-93728b22d1fb": {
-    "outputLine": 3834,
+    "outputLine": 3835,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4917,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14862,7 +14862,7 @@
     "slug": "fat-link"
   },
   "66ae2dbf-58df-4aa7-925b-b694cb8b84c7": {
-    "outputLine": 3836,
+    "outputLine": 3837,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4923,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14870,7 +14870,7 @@
     "slug": "nested-link"
   },
   "66ae2dc6-0a8b-4f3d-80c1-f37c17cc6e81": {
-    "outputLine": 3838,
+    "outputLine": 3839,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 4926,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14878,7 +14878,7 @@
     "slug": "layered-link"
   },
   "66fe70ac-04d0-45b5-b771-b072cc0fa7be": {
-    "outputLine": 4019,
+    "outputLine": 4020,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 5173,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14886,7 +14886,7 @@
     "slug": "search"
   },
   "66fe7195-1f42-4f8c-b2d4-876c8ba53808": {
-    "outputLine": 4020,
+    "outputLine": 4021,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 5176,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14894,7 +14894,7 @@
     "slug": "searching"
   },
   "66fe763b-09bc-4446-89bb-58a562d2759a": {
-    "outputLine": 4024,
+    "outputLine": 4025,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 5181,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14902,7 +14902,7 @@
     "slug": "search-criterion"
   },
   "66fe7648-45c0-4831-9f78-92f50a268b8d": {
-    "outputLine": 4025,
+    "outputLine": 4026,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 5183,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14910,7 +14910,7 @@
     "slug": "search-criteria"
   },
   "66fe71f9-a903-4797-9041-a66f102bda49": {
-    "outputLine": 4027,
+    "outputLine": 4028,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 5186,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14918,7 +14918,7 @@
     "slug": "search-key"
   },
   "66fe72c4-3ad3-41a2-b1bc-dd70a97176fd": {
-    "outputLine": 4028,
+    "outputLine": 4029,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 5188,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14926,7 +14926,7 @@
     "slug": "search-scope"
   },
   "66fe754c-1858-4aff-bf23-510cd9ebb5b0": {
-    "outputLine": 4030,
+    "outputLine": 4031,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 5191,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14934,7 +14934,7 @@
     "slug": "search-space"
   },
   "6716110e-aa2d-41c9-8ae3-be3ceed55407": {
-    "outputLine": 4033,
+    "outputLine": 4034,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 5195,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14942,7 +14942,7 @@
     "slug": "javascript"
   },
   "6751697f-aa5b-4ade-b97c-9ea1f1406581": {
-    "outputLine": 4035,
+    "outputLine": 4036,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 5198,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14950,7 +14950,7 @@
     "slug": "d2-declarative-diagramming"
   },
   "67516994-d999-4095-bea1-7b3861089890": {
-    "outputLine": 4037,
+    "outputLine": 4038,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 5202,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -14958,7 +14958,7 @@
     "slug": "d2"
   },
   "676539ca-ff29-4749-ab33-b00dfe8fb936": {
-    "outputLine": 4049,
+    "outputLine": 4050,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "sourceLine": 5216,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
@@ -15595,7 +15595,7 @@
     "sourceLine": 1150,
     "slug": "get-back-to-company-work",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/history/2024 Brainstorms.cm.md",
-    "outputLine": 789
+    "outputLine": 790
   },
   "677bfb6a-cba7-4a55-9d0d-43255445e280": {
     "title": "The code is lengthy, due to the very limited [clojure functions supported in Datascript `:query`](Built-in functions for `:where` are defined in  [DataScript](https://github.com/tonsky/datascript)'s [built_ins.cljc](https://github.com/tonsky/datascript/blob/master/src/datascript/built_ins.cljc).).",
@@ -15603,7 +15603,7 @@
     "sourceLine": 1172,
     "slug": "the-code-is-lengthy-due-to-the-very-limited-clojure-functions-supported-in-datascript-query-built-in-functions-for-where-are-defined-in-datascript-https-github-com-tonsky-datascript-s-built_ins-cljc-https-github-com-tonsky-datascript-blob-master-src-datascript-built_ins-cljc",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/history/2024 Brainstorms.cm.md",
-    "outputLine": 807
+    "outputLine": 808
   },
   "677750e2-4074-40d7-8fba-50122aa29c58": {
     "title": "Because there's no way to get deadline time (only can get deadline date), i must do it the hard way: use",
@@ -15611,7 +15611,7 @@
     "sourceLine": 1177,
     "slug": "because-there-s-no-way-to-get-deadline-time-only-can-get-deadline-date-i-must-do-it-the-hard-way-use",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/history/2024 Brainstorms.cm.md",
-    "outputLine": 811
+    "outputLine": 812
   },
   "6773ba79-d2a7-442d-be3d-f679f91eda41": {
     "title": "DONE `re-find` can match multiple lines, but it only returns the **first match**! Use `re-seq` for a sequence of **all matches**.",
@@ -15619,7 +15619,7 @@
     "sourceLine": 1642,
     "slug": "done-re-find-can-match-multiple-lines-but-it-only-returns-the-first-match-use-re-seq-for-a-sequence-of-all-matches",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/history/2024 Brainstorms.cm.md",
-    "outputLine": 1252
+    "outputLine": 1253
   },
   "6773bc4d-e221-4632-9882-06b1dfff8b65": {
     "title": "This is the first line, a.k.a. \"block title\"",
@@ -15627,7 +15627,7 @@
     "sourceLine": 1648,
     "slug": "this-is-the-first-line-a-k-a-block-title",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/history/2024 Brainstorms.cm.md",
-    "outputLine": 1253
+    "outputLine": 1254
   },
   "67763a23-89ff-48dc-a3f4-df432c6810c2": {
     "title": "## 2024 Stories",

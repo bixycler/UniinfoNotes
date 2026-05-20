@@ -413,8 +413,36 @@ function convertFile(inputPath, outputPath, uuidMap, sourceLineMap, cleanLines, 
                 // Record mapping for this UUID (source line already in sourceLineMap)
                 const uuid = props.id;
                 if (!sourceLineMap[uuid]) sourceLineMap[uuid] = {};
-                sourceLineMap[uuid].outLine = outputLine;
+                sourceLineMap[uuid].outLine = outputLine + 1; // estimate outline as next line
                 sourceLineMap[uuid].outFile = outputPath;
+
+                let merged = false;
+                if (i + 1 < cleanLines.length) {
+                    let nextLn = cleanLines[i+1].line;
+                    // Check if the next line is a continuation line (not a bullet, not a property, not logbook, not empty)
+                    if (!nextLn.match(PAT_ITEM) && !nextLn.match(PAT_PROP) && !nextLn.match(PAT_LB_START) && nextLn.trim().length > 0) {
+                        let bulletPrefix = bulletIdMatch[1].trimEnd();
+                        if (nextLn.startsWith('__CODE_BLOCK_') && codeBlockMap.has(nextLn)) {
+                            const originalLines = codeBlockMap.get(nextLn);
+                            if (originalLines.length > 0) {
+                                originalLines[0] = bulletPrefix + ' ' + originalLines[0].trimStart();
+                                merged = true;
+                            }
+                        } else {
+                            cleanLines[i+1].line = bulletPrefix + ' ' + nextLn.trimStart();
+                            merged = true;
+                        }
+                    }
+                }
+
+                if (!merged) {
+                    // Output the empty bullet if we couldn't merge with a continuation line
+                    ln = bulletIdMatch[1];
+                    nmd += ln + '\n';
+                    outputLine++;
+                    sourceLineMap[uuid].outLine = outputLine;
+                }
+
                 currentBlockIsHeader = false;
                 currentBlockIsEmptyTitle = true;
                 hasAddedContinuationContent = false;
