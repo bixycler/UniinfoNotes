@@ -1944,12 +1944,12 @@
     "outputLine": null
   },
   "66ea4711-1392-4f5c-bea2-badc71a2fb9e": {
-    "title": "### perceptual screen",
-    "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Uniinfo.md",
-    "sourceLine": 954,
-    "slug": "perceptual-screen",
-    "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Uniinfo.cm.md",
-    "outputLine": 742
+    "title": "Parent item for look-ahead merging verification:",
+    "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
+    "sourceLine": 25,
+    "slug": "parent-item-for-look-ahead-merging-verification",
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
+    "outputLine": 27
   },
   "69ce0ded-193e-4b34-bda5-f53418e34a16": {
     "title": "April journal",
@@ -17276,5 +17276,29 @@
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
     "title": "The true context of Prince Siddhartha's renunciation",
     "slug": "the-true-context-of-prince-siddhartha-s-renunciation"
+  },
+  "12345678-1234-1234-1234-123456789012": {
+    "sourceLine": 18,
+    "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
+    "outputLine": 17,
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
+    "title": "A block ending with a code block to check code fence logseq-meta anchor protection:",
+    "slug": "a-block-ending-with-a-code-block-to-check-code-fence-logseq-meta-anchor-protection"
+  },
+  "87654321-1234-1234-1234-123456789012": {
+    "sourceLine": 23,
+    "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
+    "outputLine": 22,
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
+    "title": "A block ending with a math block to check math fence logseq-meta anchor protection:",
+    "slug": "a-block-ending-with-a-math-block-to-check-math-fence-logseq-meta-anchor-protection"
+  },
+  "66ea4711-1392-4f5c-bea2-badc71a2fb9f": {
+    "sourceLine": 29,
+    "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
+    "outputLine": 28,
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
+    "title": "Parent item for look-ahead merging verification:",
+    "slug": "parent-item-for-look-ahead-merging-verification"
   }
 }
