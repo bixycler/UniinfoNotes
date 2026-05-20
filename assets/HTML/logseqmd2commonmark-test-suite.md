@@ -1,0 +1,94 @@
+# `logseqmd2commonmark.js` Bugs & Test Suite
+
+This document tracks the edge cases and bugs discovered during the development of the `logseqmd2commonmark.js` converter, along with test cases to verify their behavior.
+
+## 1. Inline `id::` Mistaken for Block ID
+
+*   **Bug Description**: An inline text containing `id::` (e.g., `id:: 66ea4711-1392-4f5c-bea2-badc71a2fb9e`) inside a paragraph was mistakenly parsed as the Logseq block ID property.
+*   **Test Case**:
+    ```markdown
+    - This is a block discussing the new `id:: 12345678-1234-1234-1234-123456789012` syntax.
+    ```
+*   **Expected Output**: The `id` property should not be populated. The regex should strictly match properties only when they appear as block metadata (at the start of lines, following standard Logseq property block formatting).
+
+## 2. Unescaped Spaces in Output Link Targets
+
+*   **Bug Description**: Generated `.cm.md` links contained literal spaces in the file path, which breaks standard Markdown parsers.
+*   **Test Case**: A wikilink `[[Mind Jungle]]` referencing a file with spaces.
+*   **Expected Output**: The output link target should have spaces URL-encoded: `[Mind Jungle](Mind%20Jungle.cm.md)`.
+
+## 3. `--break` Option Corrupting Block-Level Markdown Syntax
+
+*   **Bug Description**: When continuation lines were processed with the `--break br` option, `<br>` tags were aggressively appended to the ends of lines, including Markdown block-level elements (tables, blockquotes, HTML tags), corrupting their syntax.
+*   **Test Case**:
+    ```markdown
+    - A block with a table:
+      | Col 1 | Col 2 |
+      |-------|-------|
+      | a     | b     |
+    ```
+*   **Expected Output**: No `<br>` should be inserted before or inside the table rows. The converter must exclude lines starting with `|`, `>`, or `<` from continuation break insertions.
+
+## 4. `logseq-meta` Anchor Breaking Code and Math Fences
+
+*   **Bug Description**: The generated `<a class="logseq-meta" id="..."></a>` anchor was indiscriminately appended to the end of the preceding output line. If the preceding line was a block closing fence (```` ``` ````), a math block (`$$`), or a horizontal rule (`---`), the appended HTML broke the fence.
+*   **Test Case**:
+    ```markdown
+    - ```shell
+      echo "hello"
+      ```
+      id:: 12345678-1234-1234-1234-123456789012
+    ```
+*   **Expected Output**: The metadata anchor must be placed on a new line with matching indentation to preserve the integrity of the closing fence:
+    ```markdown
+    - ```shell
+      echo "hello"
+      ```
+      <a class="logseq-meta" id="12345678-1234-1234-1234-123456789012"></a>
+    ```
+
+## 5. Blank Bullet Leading to Spaced (Indented) Code Block Misinterpretation
+
+*   **Bug Description**: When a sub-bullet contained only an `id::` property and a code block in its continuation, stripping the `id::` property left an empty bullet (`- `). Standard Markdown engines interpret an empty bullet followed by a 4-space indented code block as a **spaced (indented) code block** rather than a fenced one, rendering the backticks literally.
+*   **Test Case**:
+    ```markdown
+    - Parent item
+      - id:: 12345678-1234-1234-1234-123456789012
+        ```shell
+        echo "hello"
+        ```
+    ```
+*   **Expected Output**: A look-ahead merging mechanism detects the empty bullet and merges the first continuation line directly onto the bullet prefix. The output preserves the bullet without creating a blank line:
+    ```markdown
+    - Parent item
+      - ```shell
+        echo "hello"
+        ```
+        <a class="logseq-meta" id="12345678-1234-1234-1234-123456789012"></a>
+    ```
+
+## 6. Hashed UUID Titles in `index.json`
+
+*   **Bug Description**: The global index contained raw, hashed UUIDs for block links (e.g., `The ((uuid)) effect`) instead of resolving them to their actual human-readable text.
+*   **Test Case**: Run the `index.json` builder on a workspace with heavy block references.
+*   **Expected Output**: A topological resolution algorithm (ported from `markdown-converter.js`) resolves block UUIDs into their corresponding human-readable titles, gracefully handling and warning about circular references.
+
+## 7. First Heading De-Itemization Ignoring Continuation Content
+
+*   **Bug Description**: Logseq visually de-itemizes the first heading of a block (e.g., `- # Heading`). This behavior was not respected in the continuation formatting logic, leading to improper `<br>` placements for content following the heading.
+*   **Test Case**:
+    ```markdown
+    - # Top Heading
+      Some continuation content here.
+    ```
+*   **Expected Output**: The converter correctly identifies `^\s*-\s+#+\s` as a header block, bypassing incorrect continuation break insertion immediately following it.
+
+---
+
+### Executing Tests
+To manually verify these scenarios, run the converter with the strictest formatting options:
+
+```bash
+node assets/HTML/logseqmd2commonmark.js -i index.json -o ~/tmp/logseq/pages/publish/CommonMark --break br pages/
+```
+Verify the output `.cm.md` files visually or via a Markdown AST parser to ensure no syntax leakage occurs across fences.
