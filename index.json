@@ -1944,12 +1944,12 @@
     "outputLine": null
   },
   "66ea4711-1392-4f5c-bea2-badc71a2fb9e": {
-    "title": "Parent item for look-ahead merging verification:",
+    "title": "5. Blank Bullet Leading to Spaced Code Block (Look-ahead Merging):",
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
-    "sourceLine": 25,
-    "slug": "parent-item-for-look-ahead-merging-verification",
+    "sourceLine": 27,
+    "slug": "5-blank-bullet-leading-to-spaced-code-block-look-ahead-merging",
     "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
-    "outputLine": 27
+    "outputLine": 28
   },
   "69ce0ded-193e-4b34-bda5-f53418e34a16": {
     "title": "April journal",
@@ -17278,27 +17278,35 @@
     "slug": "the-true-context-of-prince-siddhartha-s-renunciation"
   },
   "12345678-1234-1234-1234-123456789012": {
-    "sourceLine": 18,
+    "sourceLine": 17,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
-    "outputLine": 17,
+    "outputLine": 19,
     "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
-    "title": "A block ending with a code block to check code fence logseq-meta anchor protection:",
-    "slug": "a-block-ending-with-a-code-block-to-check-code-fence-logseq-meta-anchor-protection"
+    "title": "4.1 Code Block:",
+    "slug": "4-1-code-block"
   },
   "87654321-1234-1234-1234-123456789012": {
-    "sourceLine": 23,
+    "sourceLine": 22,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
-    "outputLine": 22,
+    "outputLine": 21,
     "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
-    "title": "A block ending with a math block to check math fence logseq-meta anchor protection:",
-    "slug": "a-block-ending-with-a-math-block-to-check-math-fence-logseq-meta-anchor-protection"
+    "title": "4.2 Math Block:",
+    "slug": "4-2-math-block"
   },
   "66ea4711-1392-4f5c-bea2-badc71a2fb9f": {
-    "sourceLine": 29,
+    "sourceLine": 31,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
-    "outputLine": 28,
+    "outputLine": 29,
     "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
-    "title": "Parent item for look-ahead merging verification:",
-    "slug": "parent-item-for-look-ahead-merging-verification"
+    "title": "5. Blank Bullet Leading to Spaced Code Block (Look-ahead Merging):",
+    "slug": "5-blank-bullet-leading-to-spaced-code-block-look-ahead-merging"
+  },
+  "22222222-2222-2222-2222-222222222222": {
+    "sourceLine": 35,
+    "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
+    "outputLine": 32,
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
+    "title": "6.1 Target block for local reference",
+    "slug": "6-1-target-block-for-local-reference"
   }
 }

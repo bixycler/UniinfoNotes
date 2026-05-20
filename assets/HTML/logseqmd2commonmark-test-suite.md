@@ -31,17 +31,19 @@ This document tracks the edge cases and bugs discovered during the development o
 
 ## 4. `logseq-meta` Anchor Breaking Code and Math Fences
 
-*   **Bug Description**: The generated `<a class="logseq-meta" id="..."></a>` anchor was indiscriminately appended to the end of the preceding output line. If the preceding line was a block closing fence (```` ``` ````), a math block (`$$`), or a horizontal rule (`---`), the appended HTML broke the fence.
+*   **Bug Description**: The generated `<a class="logseq-meta" id="..."></a>` anchor was indiscriminately appended to the end of the preceding output line. In Logseq, the `id::` property line is placed right below the block title, meaning code/math blocks appear below the ID. If the block contains a trailing code fence (```` ``` ````), math block (`$$`), or horizontal rule (`---`), the appended HTML anchor broke the fence.
 *   **Test Case**:
     ```markdown
-    - ```shell
+    - Block ending with a code block:
+      id:: 12345678-1234-1234-1234-123456789012
+      ```shell
       echo "hello"
       ```
-      id:: 12345678-1234-1234-1234-123456789012
     ```
 *   **Expected Output**: The metadata anchor must be placed on a new line with matching indentation to preserve the integrity of the closing fence:
     ```markdown
-    - ```shell
+    - Block ending with a code block:
+      ```shell
       echo "hello"
       ```
       <a class="logseq-meta" id="12345678-1234-1234-1234-123456789012"></a>
@@ -70,8 +72,17 @@ This document tracks the edge cases and bugs discovered during the development o
 ## 6. Hashed UUID Titles in `index.json`
 
 *   **Bug Description**: The global index contained raw, hashed UUIDs for block links (e.g., `The ((uuid)) effect`) instead of resolving them to their actual human-readable text.
-*   **Test Case**: Run the `index.json` builder on a workspace with heavy block references.
-*   **Expected Output**: A topological resolution algorithm (ported from `markdown-converter.js`) resolves block UUIDs into their corresponding human-readable titles, gracefully handling and warning about circular references.
+*   **Test Case**:
+    ```markdown
+    - Target block for local reference
+      id:: 22222222-2222-2222-2222-222222222222
+    - Reference block: ((22222222-2222-2222-2222-222222222222))
+    ```
+*   **Expected Output**: A topological resolution algorithm (ported from `markdown-converter.js`) resolves block UUIDs into their corresponding human-readable titles, gracefully handling and warning about circular references:
+    ```markdown
+    - Target block for local reference <a class="logseq-meta" id="22222222-2222-2222-2222-222222222222" ></a>
+    - Reference block: [Target block for local reference](#22222222-2222-2222-2222-222222222222)
+    ```
 
 ## 7. First Heading De-Itemization Ignoring Continuation Content
 
@@ -86,9 +97,9 @@ This document tracks the edge cases and bugs discovered during the development o
 ---
 
 ### Executing Tests
-To manually verify these scenarios, run the converter with the strictest formatting options:
+To manually verify all these scenarios quickly on the dedicated unit test suite, run:
 
 ```bash
-node assets/HTML/logseqmd2commonmark.js -i index.json -o ~/tmp/logseq/pages/publish/CommonMark --break br pages/
+node assets/HTML/logseqmd2commonmark.js -i index.json -o ~/tmp/logseq/ -b assets/HTML assets/HTML/logseqmd2commonmark-test.md --break br
 ```
-Verify the output `.cm.md` files visually or via a Markdown AST parser to ensure no syntax leakage occurs across fences.
+Verify the output `.cm.md` file visually or via a Markdown AST parser to ensure no syntax leakage occurs across fences.
