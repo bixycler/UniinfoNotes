@@ -1946,7 +1946,7 @@
   "66ea4711-1392-4f5c-bea2-badc71a2fb9e": {
     "title": "6. Blank Bullet Leading to Spaced Code Block (Look-ahead Merging):",
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
-    "sourceLine": 34,
+    "sourceLine": 35,
     "slug": "6-blank-bullet-leading-to-spaced-code-block-look-ahead-merging",
     "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
     "outputLine": 35
@@ -17286,7 +17286,7 @@
     "slug": "5-1-code-block"
   },
   "87654321-1234-1234-1234-123456789012": {
-    "sourceLine": 29,
+    "sourceLine": 30,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
     "outputLine": 28,
     "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
@@ -17294,7 +17294,7 @@
     "slug": "5-2-math-block"
   },
   "66ea4711-1392-4f5c-bea2-badc71a2fb9f": {
-    "sourceLine": 38,
+    "sourceLine": 39,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
     "outputLine": 36,
     "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
@@ -17302,7 +17302,7 @@
     "slug": "6-blank-bullet-leading-to-spaced-code-block-look-ahead-merging"
   },
   "22222222-2222-2222-2222-222222222222": {
-    "sourceLine": 42,
+    "sourceLine": 43,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
     "outputLine": 39,
     "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",

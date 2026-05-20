@@ -22,6 +22,7 @@
 - 5. logseq-meta Anchor Protection:
 	- 5.1 Code Block:
 	  id:: 12345678-1234-1234-1234-123456789012
+	  collapsed:: true
 	  ```shell
 	  echo "testing fence protection"
 	  ```
