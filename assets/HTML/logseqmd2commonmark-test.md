@@ -19,6 +19,12 @@
 	  $$
 	  x^2 + y^2 = z^2
 	  $$
+	- 4.5 Blockquote with blank line and continuation text:
+	  collapsed:: true
+	  id:: 6880a9a5-b5d3-4542-b378-31cf40ea8476
+	  > I'm just a no-one going nowhere to do nothing!
+	  
+	  This short introduction appears in most of my profiles.
 - 5. logseq-meta Anchor Protection:
 	- 5.1 Code Block:
 	  id:: 12345678-1234-1234-1234-123456789012

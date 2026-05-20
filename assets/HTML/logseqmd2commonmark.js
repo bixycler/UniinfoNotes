@@ -413,41 +413,33 @@ function convertFile(inputPath, outputPath, uuidMap, sourceLineMap, cleanLines, 
                 logbook = '';
             }
 
-            // Bullet+ID special case
-            const bulletIdMatch = ln.match(/^(\s*-\s*)id::\s*([0-9a-fA-F-]{36})\s*$/);
-            if (bulletIdMatch) {
-                props.id = bulletIdMatch[2];
-                // Record mapping for this UUID (source line already in sourceLineMap)
-                const uuid = props.id;
-                if (!sourceLineMap[uuid]) sourceLineMap[uuid] = {};
-                sourceLineMap[uuid].outLine = outputLine + 1; // estimate outline as next line
-                sourceLineMap[uuid].outFile = outputPath;
-
-                let merged = false;
-                if (i + 1 < cleanLines.length) {
-                    let nextLn = cleanLines[i+1].line;
-                    // Check if the next line is a continuation line (not a bullet, not a property, not logbook, not empty)
-                    if (!nextLn.match(PAT_ITEM) && !nextLn.match(PAT_PROP) && !nextLn.match(PAT_LB_START) && nextLn.trim().length > 0) {
-                        let bulletPrefix = bulletIdMatch[1].trimEnd();
-                        if (nextLn.startsWith('__CODE_BLOCK_') && codeBlockMap.has(nextLn)) {
-                            const originalLines = codeBlockMap.get(nextLn);
-                            if (originalLines.length > 0) {
-                                originalLines[0] = bulletPrefix + ' ' + originalLines[0].trimStart();
-                                merged = true;
-                            }
-                        } else {
-                            cleanLines[i+1].line = bulletPrefix + ' ' + nextLn.trimStart();
-                            merged = true;
-                        }
-                    }
+            // Bullet+Property (Empty Title Block) special case:
+            // Match any property on the bullet line (e.g. - id:: uuid, - collapsed:: true).
+            // When matched, collect the property into `props`, map the ID if present,
+            // and represent the empty title block cleanly by placing &nbsp; after the bullet prefix.
+            const bulletPropMatch = ln.match(/^(\s*-\s*)(\w+)::\s*(.*)$/);
+            if (bulletPropMatch) {
+                const propKey = bulletPropMatch[2];
+                const propVal = bulletPropMatch[3].trim();
+                props[propKey] = escapeXML(propVal);
+                
+                // If the property is 'id', record the UUID line mapping for references
+                if (propKey === 'id') {
+                    const uuid = propVal;
+                    if (!sourceLineMap[uuid]) sourceLineMap[uuid] = {};
+                    sourceLineMap[uuid].outLine = outputLine + 1; // estimate outline as next line
+                    sourceLineMap[uuid].outFile = outputPath;
                 }
 
-                if (!merged) {
-                    // Output the empty bullet if we couldn't merge with a continuation line
-                    ln = bulletIdMatch[1];
-                    nmd += ln + '\n';
-                    outputLine++;
-                    sourceLineMap[uuid].outLine = outputLine;
+                // Output the empty title as &nbsp; instead of look-ahead merging,
+                // ensuring standard CommonMark block structure and correct anchor placement.
+                ln = bulletPropMatch[1] + '&nbsp;';
+                nmd += ln + '\n';
+                outputLine++;
+                
+                // Update mapping outLine if 'id' was parsed
+                if (props.id) {
+                    sourceLineMap[props.id].outLine = outputLine;
                 }
 
                 currentBlockIsHeader = false;
@@ -470,9 +462,15 @@ function convertFile(inputPath, outputPath, uuidMap, sourceLineMap, cleanLines, 
                 if (textStart > -1) {
                     let needBr = true;
                     if ((currentBlockIsHeader || currentBlockIsEmptyTitle) && !hasAddedContinuationContent) { needBr = false; }
+                    
                     // Exclude block-level elements (tables, blockquotes, HTML tags, math blocks) from break insertion
                     const trimmedLn = ln.trim();
                     if (trimmedLn.startsWith('|') || trimmedLn.startsWith('>') || trimmedLn.startsWith('<') || trimmedLn.startsWith('$$') || inMath) { needBr = false; }
+                    
+                    // Suppress break insertion if the preceding line in nmd was blank/whitespace (starts a new paragraph)
+                    let lastLineMatch = nmd.match(/(?:^|\n)([ \t]*)(.*)\n$/);
+                    if (lastLineMatch && lastLineMatch[2].trim().length === 0) { needBr = false; }
+
                     if (needBr) {
                         if (breakOption === 'br') {
                             ln = ln.substring(0, textStart) + '<br>' + ln.substring(textStart);
