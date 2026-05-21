@@ -1517,7 +1517,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					   = internode segments + node branching points
 					- stem-circle
 					  id:: 667bebeb-7f20-4d03-b860-1653c3137710
-					   = folded ((66740af5-032a-4cb1-9c97-0e4d3933ab9b)) = border of ((66751b3b-5fd0-4efd-a43c-db2c4930ae4f))
+					   = folded ((66740af5-032a-4cb1-9c97-0e4d3933ab9b)) = boundary of ((66751b3b-5fd0-4efd-a43c-db2c4930ae4f))
 					- node
 					  id:: 66740a44-3221-41c4-90d6-14068b74b38f
 					  collapsed:: true
@@ -1610,11 +1610,11 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 							- ![Tree diagrams](https://docs.google.com/drawings/d/e/2PACX-1vQJx4zwkWxi4NfSgmP_7bQDHRJHOvNC2ogW5AwHTgTAukPOgr28PviR_A-Aoy8QD559WXyKpgrJ3u_Q/pub?w=758&h=650){:height 658, :width 757}
 						- Triangular [phylogenetic tree](https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/phylogenetic-tree)
 						  id:: 66750135-8c59-477c-8baf-cb3898d54559
-						   is closest to the [biological tree](((667502e5-b83a-4d2a-a801-34e7bcfa6b38))): The nodes are placed right on the **stem line**, and they are also the branching points (or branch points). So, there are _no stalks_ in the phylogentic tree.
+						   is closest to the [biological tree](((667502e5-b83a-4d2a-a801-34e7bcfa6b38))): The nodes are placed right on the ((66740af5-032a-4cb1-9c97-0e4d3933ab9b)), and they are also the branching points (or branch points). So, there are _no stalks_ in the phylogentic tree.
 						- [GUI tree view](https://en.wikipedia.org/wiki/Tree_view)
 						  id:: 66750416-093a-4042-bb6d-78702c219c36
 						   is similar to [phylogenetic tree](((66750135-8c59-477c-8baf-cb3898d54559))) but each node are separated from the stem line by a **node stalk**, either branch stalk or leaf stalk. That means the branching point is now separated from the node and is the joint between the stem line and the stalk.
-							- The stalk can be represented by a short line, an arrow, or an icon.
+							- The stalk can be represented by a short line, an arrow, an icon, or just a space between the node and its parent stem line.
 							  id:: 66752164-1227-490c-8182-7949e4eb501d
 							- There's an artistic style of tree view where stem line is drawn as a long brace `{` and its stem node is placed in the middle.
 							  id:: 6675279b-214e-43e4-81b9-14b43026ec67
