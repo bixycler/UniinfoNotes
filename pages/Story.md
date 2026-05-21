@@ -1851,6 +1851,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Connection between dimensions: circle dynamic, dynamics circle (between orders of derivative), SCIFER via attention (remainder)
 				- ((6a0c0740-42ff-4a27-af9f-a271a6716027))
 				- My Antigravity Pro reached rate limit quickly ⇒ i must frequently summarize the thread to move to a new thread to shrink context size.
+			- 20th, my Antigravity just locked me for the whole week ⇒ i must switch to OpenCode + DeepSeek
 		- Will Lei as an intense-world systems architect: an autobiographical analysis through neuroscience and systems theory
 		  id:: 69fdbffa-dc65-4d72-bbf6-d35bf88a3482
 		  collapsed:: true
