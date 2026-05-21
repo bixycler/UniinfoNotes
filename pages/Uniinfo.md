@@ -1606,12 +1606,13 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 				- tree diagrams
 				  id:: 667500cd-a31d-4828-9dc4-93948e27e534
 					- 3 tree diagrams of the same tree, showing their [components](((667530ed-809b-4d38-8522-1ae6c8449e28)))
+					  collapsed:: true
 						- ![Tree diagrams](https://docs.google.com/drawings/d/e/2PACX-1vQJx4zwkWxi4NfSgmP_7bQDHRJHOvNC2ogW5AwHTgTAukPOgr28PviR_A-Aoy8QD559WXyKpgrJ3u_Q/pub?w=800)
 						- From Monopodial to Sympodial via Orthogonal
 							- The **Monopodial** drives a continuous spine,
 							  A single-axis backbone of heavy design.
 							  It carries the momentum of river and sap,
-							  An unbroken mainline on nature’s raw map.
+							  An unbroken mainline on nature's raw map.
 							- The **Orthogonal** shifts to a modular grid,
 							  Where the linear axis is measured and split.
 							  Stepping out at right angles with stem and a stalk,
@@ -1660,7 +1661,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 						- Orthogonal tree versus monopodial tree: a little stalk makes a huge difference!
 							- When the stalk is invisible (space), the _**stem line** of a node_ can be easily confused with an _**internode** segment of its parent stem line_, due to the resemblance with the stem line in monopodial tree.
 								- However, the 2 stem lines are distinct, being shown in 2 different directions in monopodial tree and in 2 different layers in orthogonal tree.
-							- In reverse, in the perpendicular layout of the monopodial tree where parent stem and child stem are perpendicular to each other, the **first internode** can be confused with the **stalk** of the second node. But actually there's no stalk there.
+							- In reverse, in the perpendicular layout of the monopodial tree where parent stem and child stem are at right angles to each other, the **first internode** can be confused with the **stalk** of the second node. But actually there's no stalk there.
 					- Discussion with Gemini about [tree-view & DAG-view of graph](https://gemini.google.com/app/aa1f15a6b07a2d26)
 					- [Components](((667530ed-809b-4d38-8522-1ae6c8449e28))) of a tree view from ((667407ee-35ae-4d6f-8b58-89c19c0e0936))
 					  id:: 6674066a-aeff-45af-96df-b0c2f278a2ae
