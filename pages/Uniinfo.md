@@ -1606,13 +1606,14 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					  id:: 667500cd-a31d-4828-9dc4-93948e27e534
 					  collapsed:: true
 						- These [diagrams](https://docs.google.com/drawings/d/1zFtVcP_RBC5iGsfqpPvhjYEef9zg2ZSrEsjABb5qgOE) show different [components](((667530ed-809b-4d38-8522-1ae6c8449e28))) in ((66750135-8c59-477c-8baf-cb3898d54559)), ((66750416-093a-4042-bb6d-78702c219c36)), and ((66751015-5c34-493e-9663-4f0f5234b66e)).
+						  collapsed:: true
 							- ![Tree diagrams](https://docs.google.com/drawings/d/e/2PACX-1vQJx4zwkWxi4NfSgmP_7bQDHRJHOvNC2ogW5AwHTgTAukPOgr28PviR_A-Aoy8QD559WXyKpgrJ3u_Q/pub?w=758&h=650){:height 658, :width 757}
 						- Triangular [phylogenetic tree](https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/phylogenetic-tree)
 						  id:: 66750135-8c59-477c-8baf-cb3898d54559
-						   is closest to the [biological tree](((667502e5-b83a-4d2a-a801-34e7bcfa6b38))): The nodes are right on the stem line, and they are also branching points (or branch points). So, there are no branch stalks but only leaf stalks.
+						   is closest to the [biological tree](((667502e5-b83a-4d2a-a801-34e7bcfa6b38))): The nodes are placed right on the **stem line**, and they are also the branching points (or branch points). So, there are _no stalks_ in the phylogentic tree.
 						- [GUI tree view](https://en.wikipedia.org/wiki/Tree_view)
 						  id:: 66750416-093a-4042-bb6d-78702c219c36
-						   is similar to [phylogenetic tree](((66750135-8c59-477c-8baf-cb3898d54559))) but each node are separated from the stem line by a node stalk, either branch stalk or leaf stalk. That means the branching point is now separated from the node and is the joint between the stem line and the stalk.
+						   is similar to [phylogenetic tree](((66750135-8c59-477c-8baf-cb3898d54559))) but each node are separated from the stem line by a **node stalk**, either branch stalk or leaf stalk. That means the branching point is now separated from the node and is the joint between the stem line and the stalk.
 							- The stalk can be represented by a short line, an arrow, or an icon.
 							  id:: 66752164-1227-490c-8182-7949e4eb501d
 							- There's an artistic style of tree view where stem line is drawn as a long brace `{` and its stem node is placed in the middle.
@@ -1622,8 +1623,8 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 						- [data structure tree](https://en.wikipedia.org/wiki/Tree_(data_structure))
 						  id:: 66751015-5c34-493e-9663-4f0f5234b66e
 						   can be constructed from [GUI tree view](((66750416-093a-4042-bb6d-78702c219c36))) by folding the stem line into the boundary of the stem node, called ((667bebeb-7f20-4d03-b860-1653c3137710)), forming a ((684f9517-f730-4fc8-8162-05b594cd92cd)) structure where node stalks are branch edges.
-							- Data structure tree versus [phylogenetic tree](((66750135-8c59-477c-8baf-cb3898d54559))): similar shape, different meaning
-								- While each edge in phylogenetic tree can be either an internode segment of a stem line or a stalk, every edge in data structure tree is a **stalk**.
+							- Data structure tree versus [phylogenetic tree](((66750135-8c59-477c-8baf-cb3898d54559))): similar shape, different meaning!
+								- While each edge in phylogenetic tree is an **internode** segment of a stem line, every edge in data structure tree is a **stalk**.
 								- So _don't be confused between a linear stem line with an **exponential series of stalks** (branch edges)_!
 							- There's an artistic style of structure tree, usually used in [mind map](https://en.wikipedia.org/wiki/Mind_map)s, where the node is collapsed into a branching point and its stalk is used to name/describe that node.
 							  collapsed:: true
