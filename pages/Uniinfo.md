@@ -1605,9 +1605,21 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					- Beside [tree diagrams](((667500cd-a31d-4828-9dc4-93948e27e534))), a [tree structure](https://en.wikipedia.org/wiki/Tree_structure) can be represented by ((66752fbf-a751-4117-ae0d-17d9a19053e4)).
 				- tree diagrams
 				  id:: 667500cd-a31d-4828-9dc4-93948e27e534
-					- [Diagrams](https://docs.google.com/drawings/d/1zFtVcP_RBC5iGsfqpPvhjYEef9zg2ZSrEsjABb5qgOE) of 3 types of tree diagrams of the same tree, showing their [components](((667530ed-809b-4d38-8522-1ae6c8449e28)))
-					  collapsed:: true
+					- 3 tree diagrams of the same tree, showing their [components](((667530ed-809b-4d38-8522-1ae6c8449e28)))
 						- ![Tree diagrams](https://docs.google.com/drawings/d/e/2PACX-1vQJx4zwkWxi4NfSgmP_7bQDHRJHOvNC2ogW5AwHTgTAukPOgr28PviR_A-Aoy8QD559WXyKpgrJ3u_Q/pub?w=800)
+						- From Monopodial to Sympodial via Orthogonal
+							- The **Monopodial** drives a continuous spine,
+							  A single-axis backbone of heavy design.
+							  It carries the momentum of river and sap,
+							  An unbroken mainline on nature’s raw map.
+							- The **Orthogonal** shifts to a modular grid,
+							  Where the linear axis is measured and split.
+							  Stepping out at right angles with stem and a stalk,
+							  It aligns the GUI view where our interfaces walk.
+							- At last the long highway is folded and spun,
+							  And the **Sympodial** axis collapses to one.
+							  Branching outward together from core to the shore,
+							  It radiates topology, open and pure.
 					- monopodial tree 
 					  id:: 66750135-8c59-477c-8baf-cb3898d54559
 					  collapsed:: true
@@ -1634,13 +1646,13 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 							- ![Snag_MindMap.png](../assets/GUI/Snag_MindMap.png)
 							- Another style renders similar to [an artistic style of tree view](((6675279b-214e-43e4-81b9-14b43026ec67)))
 							  ![Cranial_nerves.PNG](https://upload.wikimedia.org/wikipedia/commons/3/39/Cranial_nerves.PNG)
-					- Collected diagrams with annotation
+					- Collection of diagrams with annotation
 					  collapsed:: true
 						- ![Folder_Tree_View.png](../assets/GUI/Folder_Tree_View.png)
 						- ![horizontal-tree-view-blanced.png](../assets/GUI/horizontal-tree-view-blanced.png)
-						- ![PhylogeneticTree.png](../assets/ecosystem/PhylogeneticTree.png)
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- Confusions between ((667500cd-a31d-4828-9dc4-93948e27e534))
+					  id:: 6a0ef10f-4d01-4012-81e7-571da3b8c71b
 					  collapsed:: true
 						- Sympodial tree versus monopodial tree: similar shape of nodes and edges, different meaning!
 							- Edge complementarity: While each edge in monopodial tree is an **internode** segment of a stem line, every edge in sympodial tree is a **stalk**. While monopodial tree has no stalks, sympodial tree has no stem lines.
