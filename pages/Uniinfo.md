@@ -1484,7 +1484,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 			  :LOGBOOK:
 			  CLOCK: [2024-06-21 Fri 15:28:24]
 			  :END:
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667252dc-e610-4d07-bcd0-9ea6fb4499fd)) is a ((667251ec-d4f7-4c09-adff-73e04a4b22ed)) of a ((667d1a95-b621-49cd-8a72-a074c963c92a)), representing a part of that network in a [tree structure](https://en.wikipedia.org/wiki/Tree_structure). In [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface), [tree view](https://en.wikipedia.org/wiki/Tree_view) is a [graphical widget](https://en.wikipedia.org/wiki/Graphical_widget) showing the logical tree view to human eyes.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667252dc-e610-4d07-bcd0-9ea6fb4499fd)) is a ((667251ec-d4f7-4c09-adff-73e04a4b22ed)) of a ((667d1a95-b621-49cd-8a72-a074c963c92a)), representing a part of that network in a [tree structure](https://en.wikipedia.org/wiki/Tree_structure). [Its structure](((667530ed-809b-4d38-8522-1ae6c8449e28))) is projected from the [biological tree](((6674066a-aeff-45af-96df-b0c2f278a2ae))) and it's usually represented by ((667500cd-a31d-4828-9dc4-93948e27e534)).
 				- Structure
 				  id:: 667530ed-809b-4d38-8522-1ae6c8449e28
 				  collapsed:: true
@@ -1606,25 +1606,28 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 				- tree diagrams
 				  id:: 667500cd-a31d-4828-9dc4-93948e27e534
 					- [Diagrams](https://docs.google.com/drawings/d/1zFtVcP_RBC5iGsfqpPvhjYEef9zg2ZSrEsjABb5qgOE) of 3 types of tree diagrams of the same tree, showing their [components](((667530ed-809b-4d38-8522-1ae6c8449e28)))
+					  collapsed:: true
 						- ![Tree diagrams](https://docs.google.com/drawings/d/e/2PACX-1vQJx4zwkWxi4NfSgmP_7bQDHRJHOvNC2ogW5AwHTgTAukPOgr28PviR_A-Aoy8QD559WXyKpgrJ3u_Q/pub?w=800)
 					- monopodial tree 
 					  id:: 66750135-8c59-477c-8baf-cb3898d54559
+					  collapsed:: true
 						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In ((66750135-8c59-477c-8baf-cb3898d54559)), the nodes are placed right on the ((66740af5-032a-4cb1-9c97-0e4d3933ab9b)), becoming the branching points (or branch points) for the side branches shooting from those nodes. That means there are _no stalks_ in phylogenetic tree.
 							- ((66725725-f76a-4328-b162-f469b87e871b)) The core (structural axis and main conduit) of a [biological tree](((6674066a-aeff-45af-96df-b0c2f278a2ae))) and [river system](https://en.wikipedia.org/wiki/Drainage_system_(geomorphology))
 					- orthogonal tree
 					  id:: 66750416-093a-4042-bb6d-78702c219c36
-						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) is similar to [phylogenetic tree](((66750135-8c59-477c-8baf-cb3898d54559))) but each node are separated from the stem line by a **node stalk**, either branch stalk or leaf stalk. That means the branching point is now separated from the node and becomes the joint between the stem line and the stalk.
+					  collapsed:: true
+						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) An ((66750416-093a-4042-bb6d-78702c219c36)) is similar to a ((66750135-8c59-477c-8baf-cb3898d54559)) but each node are separated from the stem line by a **node stalk**, either branch stalk or leaf stalk. That means the branching point is now separated from the node and becomes the joint between the stem line and the stalk.
+							- The stalk can be represented by a short line, an arrow, an icon, or just a space between the node and its parent stem line.
+							  id:: 66752164-1227-490c-8182-7949e4eb501d
+							- Note: When the stalk is invisible (space), the _**stem line** of a node_ can be easily confused with an _**internode** segment of its parent stem line_, due to the resemblance with the stem line in phylogenetic tree.
 						- ((66725725-f76a-4328-b162-f469b87e871b)) [GUI tree view](https://en.wikipedia.org/wiki/Tree_view)
-						- The stalk can be represented by a short line, an arrow, an icon, or just a space between the node and its parent stem line.
-						  id:: 66752164-1227-490c-8182-7949e4eb501d
-						- Note: When the stalk is invisible (space), the _**stem line** of a node_ can be easily confused with an _**internode** segment of its parent stem line_, due to the resemblance with the stem line in phylogenetic tree.
 						- There's an artistic style of tree view where stem line is drawn as a long brace `{` and its stem node is placed in the middle.
 						  id:: 6675279b-214e-43e4-81b9-14b43026ec67
 						  collapsed:: true
 							- ![ENC_SYSTEME_FIGURE.jpeg](https://upload.wikimedia.org/wikipedia/commons/5/58/ENC_SYSTEME_FIGURE.jpeg)
 					- sympodial tree
 					  id:: 66751015-5c34-493e-9663-4f0f5234b66e
-						- can be constructed from [GUI tree view](((66750416-093a-4042-bb6d-78702c219c36))) by folding the stem line into the boundary of the stem node, called ((667bebeb-7f20-4d03-b860-1653c3137710)), forming a ((684f9517-f730-4fc8-8162-05b594cd92cd)) structure where node stalks become branch edges. That means all edges are node stalks, and no stem lines are shown explicitly in data structure tree.
+						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66751015-5c34-493e-9663-4f0f5234b66e)) can be constructed from an ((66750416-093a-4042-bb6d-78702c219c36))) by folding the stem line into the boundary of the stem node, called ((667bebeb-7f20-4d03-b860-1653c3137710)), forming a ((684f9517-f730-4fc8-8162-05b594cd92cd)) structure where node stalks become branch edges. That means all edges are node stalks, and no stem lines are shown explicitly in data structure tree.
 						- ((66725725-f76a-4328-b162-f469b87e871b)) [data structure tree](https://en.wikipedia.org/wiki/Tree_(data_structure)), the shore (terminal boundary and diffusing network) of a [biological tree](((6674066a-aeff-45af-96df-b0c2f278a2ae))) and [river system](https://en.wikipedia.org/wiki/Drainage_system_(geomorphology))
 						- Data structure tree versus [phylogenetic tree](((66750135-8c59-477c-8baf-cb3898d54559))): similar shape, different meaning!
 							- Edge complementarity: While each edge in phylogenetic tree is an **internode** segment of a stem line, every edge in data structure tree is a **stalk**. While phylogenetic tree has no stalks, data structure tree has no stem lines.
