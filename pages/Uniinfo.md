@@ -1608,9 +1608,10 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					- These [diagrams](https://docs.google.com/drawings/d/1zFtVcP_RBC5iGsfqpPvhjYEef9zg2ZSrEsjABb5qgOE) show different [components](((667530ed-809b-4d38-8522-1ae6c8449e28))) in ((66750135-8c59-477c-8baf-cb3898d54559)), ((66750416-093a-4042-bb6d-78702c219c36)), and ((66751015-5c34-493e-9663-4f0f5234b66e)) of the same tree.
 					  collapsed:: true
 						- ![Tree diagrams](https://docs.google.com/drawings/d/e/2PACX-1vQJx4zwkWxi4NfSgmP_7bQDHRJHOvNC2ogW5AwHTgTAukPOgr28PviR_A-Aoy8QD559WXyKpgrJ3u_Q/pub?w=800)
-					- Triangular [phylogenetic tree](https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/phylogenetic-tree)
+					- monopodial tree 
 					  id:: 66750135-8c59-477c-8baf-cb3898d54559
-					   is closest to the [biological tree](((667502e5-b83a-4d2a-a801-34e7bcfa6b38))): The nodes are placed right on the ((66740af5-032a-4cb1-9c97-0e4d3933ab9b)), and they are also the branching points (or branch points). That means there are _no stalks_ in phylogenetic tree.
+						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In ((66750135-8c59-477c-8baf-cb3898d54559)), the nodes are placed right on the ((66740af5-032a-4cb1-9c97-0e4d3933ab9b)), becoming the branching points (or branch points) for the side branches shooting from those nodes. That means there are _no stalks_ in phylogenetic tree.
+							- ((66725725-f76a-4328-b162-f469b87e871b)) [biological tree](((6674066a-aeff-45af-96df-b0c2f278a2ae))),
 					- [GUI tree view](https://en.wikipedia.org/wiki/Tree_view)
 					  id:: 66750416-093a-4042-bb6d-78702c219c36
 					   is similar to [phylogenetic tree](((66750135-8c59-477c-8baf-cb3898d54559))) but each node are separated from the stem line by a **node stalk**, either branch stalk or leaf stalk. That means the branching point is now separated from the node and becomes the joint between the stem line and the stalk.
