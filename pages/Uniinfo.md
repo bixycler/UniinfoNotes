@@ -1484,7 +1484,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 			  :LOGBOOK:
 			  CLOCK: [2024-06-21 Fri 15:28:24]
 			  :END:
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667252dc-e610-4d07-bcd0-9ea6fb4499fd)) is a ((667251ec-d4f7-4c09-adff-73e04a4b22ed)) of a ((667d1a95-b621-49cd-8a72-a074c963c92a)), representing a part of that network in a [tree structure](https://en.wikipedia.org/wiki/Tree_structure). [Its structure](((667530ed-809b-4d38-8522-1ae6c8449e28))) is projected from the [biological tree](((6674066a-aeff-45af-96df-b0c2f278a2ae))) and it's usually represented by ((667500cd-a31d-4828-9dc4-93948e27e534)).
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((667252dc-e610-4d07-bcd0-9ea6fb4499fd)) is a ((667251ec-d4f7-4c09-adff-73e04a4b22ed)) in a ((667d1a95-b621-49cd-8a72-a074c963c92a)), representing a part of that network in a [tree structure](https://en.wikipedia.org/wiki/Tree_structure). [Its structure](((667530ed-809b-4d38-8522-1ae6c8449e28))) is projected from the [biological tree](((6674066a-aeff-45af-96df-b0c2f278a2ae))) and it's usually represented by ((667500cd-a31d-4828-9dc4-93948e27e534)).
 				- Structure
 				  id:: 667530ed-809b-4d38-8522-1ae6c8449e28
 				  collapsed:: true
