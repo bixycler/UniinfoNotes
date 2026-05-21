@@ -1616,7 +1616,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 						   is similar to [phylogenetic tree](((66750135-8c59-477c-8baf-cb3898d54559))) but each node are separated from the stem line by a **node stalk**, either branch stalk or leaf stalk. That means the branching point is now separated from the node and becomes the joint between the stem line and the stalk.
 							- The stalk can be represented by a short line, an arrow, an icon, or just a space between the node and its parent stem line.
 							  id:: 66752164-1227-490c-8182-7949e4eb501d
-								-
+								- When the stalk is invisible (space), the stem line of a node can be easily confused with an internode segment of its parent stem line due to its resembrance.
 							- There's an artistic style of tree view where stem line is drawn as a long brace `{` and its stem node is placed in the middle.
 							  id:: 6675279b-214e-43e4-81b9-14b43026ec67
 							  collapsed:: true
