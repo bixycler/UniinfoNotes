@@ -1566,7 +1566,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 						  collapsed:: true
 							- ![Lateral-branching.png](../assets/ecosystem/Lateral-branching.png)
 						- This is the primary [branching structure](((667530ed-809b-4d38-8522-1ae6c8449e28))) in ((667252dc-e610-4d07-bcd0-9ea6fb4499fd)).
-						- This is used in [GUI tree view](((66750416-093a-4042-bb6d-78702c219c36))) and [triangular phylogenic tree](((66750135-8c59-477c-8baf-cb3898d54559))).
+						- This is used in ((66750416-093a-4042-bb6d-78702c219c36)) and ((66750135-8c59-477c-8baf-cb3898d54559)).
 					- dichotomous branching
 					  id:: 667bdf2a-005c-4a19-93bd-bda5d076981a
 					  is the branching into 2 (or more) equivalent branches instead of the stem/branch discrimination.
@@ -1578,11 +1578,11 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 							- Diagram:
 								- ![Dichotomous-branching.png](../assets/ecosystem/Dichotomous-branching.png)
 						- This is a secondary branching structure which can be converted to ((667bdced-76f1-4023-9352-dee24dcbf415)) by considering the folk point as a collapsed stem line with 2 nodes (or many nodes in [data structure tree](((66751015-5c34-493e-9663-4f0f5234b66e)))).
-						- This is used in [data structure tree](((66751015-5c34-493e-9663-4f0f5234b66e))).
+						- This is used in ((66751015-5c34-493e-9663-4f0f5234b66e)).
 					- circular branching
 					  id:: 684f9517-f730-4fc8-8162-05b594cd92cd
 					  is the branching into many equivalent nodes, including the “parent node” of this node, around the ((667bebeb-7f20-4d03-b860-1653c3137710)).
-						- This is the branching structure of [data structure tree](((66751015-5c34-493e-9663-4f0f5234b66e))) as well as mind maps.
+						- This is the branching structure of ((66751015-5c34-493e-9663-4f0f5234b66e)) as well as mind maps.
 						- The stem circle adds temporal lineage (time) to the branching structure (space) of the data structure tree.
 							- The stem circle says to the pure spatial data structure tree:
 								- The stem line isn't gone.
@@ -1611,7 +1611,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					- monopodial tree 
 					  id:: 66750135-8c59-477c-8baf-cb3898d54559
 					  collapsed:: true
-						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In ((66750135-8c59-477c-8baf-cb3898d54559)), the nodes are placed right on the ((66740af5-032a-4cb1-9c97-0e4d3933ab9b)), becoming the branching points (or branch points) for the side branches shooting from those nodes. That means there are _no stalks_ in phylogenetic tree.
+						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In ((66750135-8c59-477c-8baf-cb3898d54559)), the nodes are placed right on the ((66740af5-032a-4cb1-9c97-0e4d3933ab9b)), becoming the branching points (or branch points) for the side branches shooting from those nodes. That means there are _no stalks_ in monopodial tree.
 							- ((66725725-f76a-4328-b162-f469b87e871b)) The core (structural axis and main conduit) of a [biological tree](((6674066a-aeff-45af-96df-b0c2f278a2ae))) and [river system](https://en.wikipedia.org/wiki/Drainage_system_(geomorphology))
 					- orthogonal tree
 					  id:: 66750416-093a-4042-bb6d-78702c219c36
@@ -1648,7 +1648,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 						- Orthogonal tree versus monopodial tree: a little stalk makes a huge difference!
 							- When the stalk is invisible (space), the _**stem line** of a node_ can be easily confused with an _**internode** segment of its parent stem line_, due to the resemblance with the stem line in monopodial tree.
 								- However, the 2 stem lines are distinct, being shown in 2 different directions in monopodial tree and in 2 different layers in orthogonal tree.
-							- In reverse, in the perpendicular layout of the monopodial tree where parent stem and child stem are perpendicular to each other, the first internode
+							- In reverse, in the perpendicular layout of the monopodial tree where parent stem and child stem are perpendicular to each other, the **first internode** can be confused with the **stalk** of the second node. But actually there's no stalk there.
 					- Discussion with Gemini about [tree-view & DAG-view of graph](https://gemini.google.com/app/aa1f15a6b07a2d26)
 					- [Components](((667530ed-809b-4d38-8522-1ae6c8449e28))) of a tree view from ((667407ee-35ae-4d6f-8b58-89c19c0e0936))
 					  id:: 6674066a-aeff-45af-96df-b0c2f278a2ae

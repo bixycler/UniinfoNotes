@@ -1856,7 +1856,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Following chatbot's suggestion that maybe this is a bug, i did all sorts of cleanup, revoking account connection, without effect. The only effect is my entire settings and history are wiped out.
 			- 21st, in the afternoon, Antigravity just released me! 😁
 			  collapsed:: true
-				- Fixed ((667500cd-a31d-4828-9dc4-93948e27e534)): not stalks in phylogenetic tree, and confusion of the stem line in GUI tree view with the internode in phylogenetic tree.
+				- Fixed ((667500cd-a31d-4828-9dc4-93948e27e534)) and add .
 		- Will Lei as an intense-world systems architect: an autobiographical analysis through neuroscience and systems theory
 		  id:: 69fdbffa-dc65-4d72-bbf6-d35bf88a3482
 		  collapsed:: true
