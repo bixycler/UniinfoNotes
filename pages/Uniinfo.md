@@ -1572,7 +1572,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					  is the branching into 2 (or more) equivalent branches instead of the stem/branch discrimination.
 						- folking
 						  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bdf2a-005c-4a19-93bd-bda5d076981a))
-						- It's also call [folk branching](https://en.wikipedia.org/wiki/Tree_fork).
+							- Dichotomous branching is also call [folk branching](https://en.wikipedia.org/wiki/Tree_fork).
 						- Diagram:
 						  collapsed:: true
 							- Diagram:
