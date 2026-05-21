@@ -25,7 +25,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- The rule of thumb: _state indicator at the start, action indicator at the end._
 				- Although the the up (∧) & down (∨) arrowheads are placed at the right side, they are also usually placed at the top for convenience, following the tradition of the [dropdown list](https://en.wikipedia.org/wiki/Drop-down_list).
 				- When they are placed at the top, Will instinctively thinks of the state, similar to the right (▶) & down (▼) arrowheads.
-			- Tree view: While the the right (▶) & down (▼) arrowheads show the state, the plus (`+`) & minus (`-`) icons show the action!
+			- [Tree view](((66750416-093a-4042-bb6d-78702c219c36))): While the the right (▶) & down (▼) arrowheads show the state, the plus (`+`) & minus (`-`) icons show the action!
 				- The good old Java `JTree` had the handle icons whose level points to the same direction as the modern arrowhead, but much more intuitive – not to confuse with action.
 				  collapsed:: true
 					- ![JTreeDemo-lsAngled.gif](../assets/Will/story/2026-05/JTreeDemo-lsAngled.gif)
