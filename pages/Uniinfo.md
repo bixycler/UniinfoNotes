@@ -1647,7 +1647,8 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 							- So _don't be confused between a linear stem line with an **exponential series of stalks** (branch edges)_!
 						- Orthogonal tree versus monopodial tree: a little stalk makes a huge difference!
 							- When the stalk is invisible (space), the _**stem line** of a node_ can be easily confused with an _**internode** segment of its parent stem line_, due to the resemblance with the stem line in monopodial tree.
-							-
+								- However, the 2 stem lines are distinct, being shown in 2 different directions in monopodial tree and in 2 different layers in orthogonal tree.
+							- In reverse, in the perpendicular layout of the monopodial tree where parent stem and child stem are perpendicular to each other, the first internode
 					- Discussion with Gemini about [tree-view & DAG-view of graph](https://gemini.google.com/app/aa1f15a6b07a2d26)
 					- [Components](((667530ed-809b-4d38-8522-1ae6c8449e28))) of a tree view from ((667407ee-35ae-4d6f-8b58-89c19c0e0936))
 					  id:: 6674066a-aeff-45af-96df-b0c2f278a2ae
