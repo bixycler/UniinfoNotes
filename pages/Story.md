@@ -1852,7 +1852,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- ((6a0c0740-42ff-4a27-af9f-a271a6716027))
 				- My Antigravity Pro reached rate limit quickly ⇒ i must frequently summarize the thread to move to a new thread to shrink context size.
 			- 20th, my Antigravity just locked me for the whole week ⇒ i must switch to OpenCode + DeepSeek
-				- Following chatbot's suggestion that maybe this is a bug, i did all sorts of cleanup, revoking account connection, without effect.
+			  collapsed:: true
+				- Following chatbot's suggestion that maybe this is a bug, i did all sorts of cleanup, revoking account connection, without effect. The only effect is my entire settings and history are wiped out.
 			- 21st, in the afternoon, Antigravity just released me! 😁
 		- Will Lei as an intense-world systems architect: an autobiographical analysis through neuroscience and systems theory
 		  id:: 69fdbffa-dc65-4d72-bbf6-d35bf88a3482
