@@ -1625,7 +1625,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 						  id:: 66751015-5c34-493e-9663-4f0f5234b66e
 						   can be constructed from [GUI tree view](((66750416-093a-4042-bb6d-78702c219c36))) by folding the stem line into the boundary of the stem node, called ((667bebeb-7f20-4d03-b860-1653c3137710)), forming a ((684f9517-f730-4fc8-8162-05b594cd92cd)) structure where node stalks become branch edges. That means all edges are node stalks, and no stem lines are shown explicitly in data structure tree.
 							- Data structure tree versus [phylogenetic tree](((66750135-8c59-477c-8baf-cb3898d54559))): similar shape, different meaning!
-								- Edge complementarity: While each edge in phylogenetic tree is an **internode** segment of a stem line, every edge in data structure tree is a **stalk**.
+								- Edge complementarity: While each edge in phylogenetic tree is an **internode** segment of a stem line, every edge in data structure tree is a **stalk**. While phylogenetic tree has no stalks, data structure tree has no stem lines.
 								- So _don't be confused between a linear stem line with an **exponential series of stalks** (branch edges)_!
 							- There's an artistic style of structure tree, usually used in [mind map](https://en.wikipedia.org/wiki/Mind_map)s, where the node is collapsed into a branching point and its stalk is used to name/describe that node.
 							  collapsed:: true
