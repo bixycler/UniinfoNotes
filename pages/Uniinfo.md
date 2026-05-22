@@ -1654,7 +1654,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					- sympodial tree
 					  id:: 66751015-5c34-493e-9663-4f0f5234b66e
 					  collapsed:: true
-						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66751015-5c34-493e-9663-4f0f5234b66e)) is constructed from an ((66750416-093a-4042-bb6d-78702c219c36))) by folding the stem line into the boundary of the stem node, whic is called ((667bebeb-7f20-4d03-b860-1653c3137710)), forming a ((684f9517-f730-4fc8-8162-05b594cd92cd)) structure where node stalks become branch edges. That means all edges are node stalks, and no stem lines are shown explicitly in sympodial tree.
+						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66751015-5c34-493e-9663-4f0f5234b66e)) is constructed from an ((66750416-093a-4042-bb6d-78702c219c36)) by folding the stem line into the boundary of the stem node, which is called ((667bebeb-7f20-4d03-b860-1653c3137710)), forming a ((684f9517-f730-4fc8-8162-05b594cd92cd)) structure where node stalks become branch edges. That means all edges are node stalks, and no stem lines are shown explicitly in sympodial tree.
 						- ((66725725-f76a-4328-b162-f469b87e871b)) [data structure tree](https://en.wikipedia.org/wiki/Tree_(data_structure)), the shore (terminal boundary and diffusing network) of a [biological tree](((6674066a-aeff-45af-96df-b0c2f278a2ae))) and [river system](https://en.wikipedia.org/wiki/Drainage_system_(geomorphology))
 						- There's an artistic style of structure tree, usually used in [mind map](https://en.wikipedia.org/wiki/Mind_map)s, where the node is collapsed into a branching point and its stalk is used to name/describe that node.
 						  collapsed:: true
