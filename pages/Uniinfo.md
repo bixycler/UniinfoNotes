@@ -1569,7 +1569,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 							- ![Lateral-branching.png](../assets/ecosystem/Lateral-branching.png)
 						- This is the primary [branching structure](((667530ed-809b-4d38-8522-1ae6c8449e28))) in ((667252dc-e610-4d07-bcd0-9ea6fb4499fd)).
 						- This is used in ((66750416-093a-4042-bb6d-78702c219c36)) and ((66750135-8c59-477c-8baf-cb3898d54559)).
-					- dichotomous branching
+					- apical branching
 					  id:: 667bdf2a-005c-4a19-93bd-bda5d076981a
 					  is the branching into 2 (or more) equivalent branches instead of the stem/branch discrimination.
 						- folking
