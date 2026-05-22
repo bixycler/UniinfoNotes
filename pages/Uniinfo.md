@@ -1563,7 +1563,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 						- [Introduction to vascular plant structure > Branching](https://www.digitalatlasofancientlife.org/learn/embryophytes/tracheophytes/branching/)
 					- lateral branching
 					  id:: 667bdced-76f1-4023-9352-dee24dcbf415
-						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bdced-76f1-4023-9352-dee24dcbf415)) is the branching [from the main stem to the lower-level branch](https://en.wikipedia.org/wiki/Branch_attachment). This is the primary branching mechanism in ((667252dc-e610-4d07-bcd0-9ea6fb4499fd)) and is used in ((66750416-093a-4042-bb6d-78702c219c36)) and ((66750135-8c59-477c-8baf-cb3898d54559)).
+						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bdced-76f1-4023-9352-dee24dcbf415)) is the branching [from the main stem to the lower-level branch](https://en.wikipedia.org/wiki/Branch_attachment). This is the primary branching mechanism in ((667252dc-e610-4d07-bcd0-9ea6fb4499fd)) and is used in ((66750135-8c59-477c-8baf-cb3898d54559)) and ((66750416-093a-4042-bb6d-78702c219c36)).
 						- Diagram:
 						  collapsed:: true
 							- ![Lateral-branching.png](../assets/ecosystem/Lateral-branching.png)
@@ -1592,7 +1592,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 								- ![Dichotomous-branching.png](../assets/ecosystem/Dichotomous-branching.png)
 					- circular branching
 					  id:: 684f9517-f730-4fc8-8162-05b594cd92cd
-						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((684f9517-f730-4fc8-8162-05b594cd92cd)) is the branching into many equal branches around the ((667bebeb-7f20-4d03-b860-1653c3137710)). This is the branching structure of ((66751015-5c34-493e-9663-4f0f5234b66e)).
+						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((684f9517-f730-4fc8-8162-05b594cd92cd)) is the branching into many equal branches around a ((667bebeb-7f20-4d03-b860-1653c3137710)). This is the branching structure of ((66751015-5c34-493e-9663-4f0f5234b66e)).
 							- The stalk connecting to the parent node is considered also a branch branched off from the stem circle, which is called the ((699c0362-22fd-4228-895a-6adf1a1a0497)).
 							- The biological analogies of stem circle are [bulblike stems](((686b8a52-50bf-43bd-a5b3-d2387b8da5ac))) like stem tubers 🥔 or corms.
 						- base branch
