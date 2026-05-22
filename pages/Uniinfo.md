@@ -1575,31 +1575,32 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 						  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bdf2a-005c-4a19-93bd-bda5d076981a))
 						- folking
 						  id:: 699c0362-2ee4-4b14-9485-e9b28c71a497
+						  collapsed:: true
 						  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bdf2a-005c-4a19-93bd-bda5d076981a))
 							- sympodial branching
+							  id:: 6a0ffc7e-3616-4202-aab1-4f49e5ba5115
 							  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((699c0362-2ee4-4b14-9485-e9b28c71a497))
 								- Sympodial branching is also call [folk branching](https://en.wikipedia.org/wiki/Tree_fork).
 								- Note: In botany, sympodial branching is distinguished from ((6a0ffbed-af7b-4fd3-81e2-9b924204a5a2)) by the internal mechanism.
 									- Dichotomy branching is the actual split of the apical meristem (the tip).
 									- Whereas sympodial branching is the growth of the side buds, like in ((667bdced-76f1-4023-9352-dee24dcbf415)), when the main tip stops growing.
-						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bdf2a-005c-4a19-93bd-bda5d076981a)) is the branching into N equal branches instead of the stem/branch discrimination. This is a secondary branching mechanism used in ((66751015-5c34-493e-9663-4f0f5234b66e)).
-							- This can be converted to ((667bdced-76f1-4023-9352-dee24dcbf415)) by considering the folk point as a collapsed stem line with N nodes corresponding to N branches there.
+						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bdf2a-005c-4a19-93bd-bda5d076981a)) is the branching of the stem into N equal branches, instead of the stem/branch discrimination. This is a secondary branching mechanism used in ((66751015-5c34-493e-9663-4f0f5234b66e)).
+							- Forking can be done with ((667bdced-76f1-4023-9352-dee24dcbf415)) by considering the folk point to be a collapsed ((667bebeb-7f20-4d03-b860-1653c3137710)) containing N nodes corresponding to N branches there, i.e. ((6a0ffc7e-3616-4202-aab1-4f49e5ba5115)).
 						- Diagram:
 						  collapsed:: true
 							- Diagram:
 								- ![Dichotomous-branching.png](../assets/ecosystem/Dichotomous-branching.png)
 					- circular branching
 					  id:: 684f9517-f730-4fc8-8162-05b594cd92cd
-					  is the branching into many equivalent nodes, including the “parent node” of this node, around the ((667bebeb-7f20-4d03-b860-1653c3137710)).
-						- This is the branching structure of ((66751015-5c34-493e-9663-4f0f5234b66e)) as well as mind maps.
-						- The stem circle adds temporal lineage (time) to the branching structure (space) of the data structure tree.
-							- The stem circle says to the pure spatial data structure tree:
-								- The stem line isn't gone.
-								- It just curled into the node,
-									- folded like memory,
-									- condensed like a tuber,
-									- paused like a dormant bud.
-								- The time is just **coiling up in space**!
+						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((684f9517-f730-4fc8-8162-05b594cd92cd)) is the branching into many equal branches around the ((667bebeb-7f20-4d03-b860-1653c3137710)). This is the branching structure of ((66751015-5c34-493e-9663-4f0f5234b66e)) as well as mind maps.
+							- The stem circle adds temporal lineage (time) to the branching structure (space) of the data structure tree.
+								- The stem circle says to the pure spatial data structure tree:
+									- The stem line isn't gone.
+									- It just curled into the node,
+										- folded like memory,
+										- condensed like a tuber,
+										- paused like a dormant bud.
+									- The time is just **coiling up in space**!
 						- The ((667bebeb-7f20-4d03-b860-1653c3137710)) integrates the branch equality of ((667bdf2a-005c-4a19-93bd-bda5d076981a)) into the ((66740af5-032a-4cb1-9c97-0e4d3933ab9b)) of ((667bdced-76f1-4023-9352-dee24dcbf415)).
 							- The stem circle has more branch equality than ((667bdf2a-005c-4a19-93bd-bda5d076981a)) because the stalk of the stem node is just a branch stalk to the parent node, and the whole tree is just an [unrooted tree](https://en.wikipedia.org/wiki/Unrooted_binary_tree).
 						- The biological analogies of stem circle are [bulblike stems](((686b8a52-50bf-43bd-a5b3-d2387b8da5ac))) like stem tubers 🥔 or corms.
