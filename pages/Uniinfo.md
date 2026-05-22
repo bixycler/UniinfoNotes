@@ -1559,6 +1559,8 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 								- The figurative meaning of the word “root” is captured by the "root node", which is technically not the whole root system, but can colloquially refer to the whole root in a collapsed view.
 				- Branching styles
 				  collapsed:: true
+					- Refs:
+						- [Introduction to vascular plant structure > Branching](https://www.digitalatlasofancientlife.org/learn/embryophytes/tracheophytes/branching/)
 					- lateral branching
 					  id:: 667bdced-76f1-4023-9352-dee24dcbf415
 					  is the branching [from the main stem to the lower-level branch](https://en.wikipedia.org/wiki/Branch_attachment).
