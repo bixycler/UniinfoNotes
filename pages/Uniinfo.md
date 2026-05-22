@@ -1515,7 +1515,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					- stem line
 					  id:: 66740af5-032a-4cb1-9c97-0e4d3933ab9b
 					   = internode segments + node branching points
-					- stem-circle
+					- stem circle
 					  id:: 667bebeb-7f20-4d03-b860-1653c3137710
 					   = folded ((66740af5-032a-4cb1-9c97-0e4d3933ab9b)) = boundary of ((66751b3b-5fd0-4efd-a43c-db2c4930ae4f))
 					- node
@@ -1592,22 +1592,26 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 								- ![Dichotomous-branching.png](../assets/ecosystem/Dichotomous-branching.png)
 					- circular branching
 					  id:: 684f9517-f730-4fc8-8162-05b594cd92cd
-						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((684f9517-f730-4fc8-8162-05b594cd92cd)) is the branching into many equal branches around the ((667bebeb-7f20-4d03-b860-1653c3137710)). This is the branching structure of ((66751015-5c34-493e-9663-4f0f5234b66e)) as well as mind maps.
-							- The stem circle adds temporal lineage (time) to the branching structure (space) of the data structure tree.
-								- The stem circle says to the pure spatial data structure tree:
-									- The stem line isn't gone.
-									- It just curled into the node,
-										- folded like memory,
-										- condensed like a tuber,
-										- paused like a dormant bud.
-									- The time is just **coiling up in space**!
-						- The ((667bebeb-7f20-4d03-b860-1653c3137710)) integrates the branch equality of ((667bdf2a-005c-4a19-93bd-bda5d076981a)) into the ((66740af5-032a-4cb1-9c97-0e4d3933ab9b)) of ((667bdced-76f1-4023-9352-dee24dcbf415)).
-							- The stem circle has more branch equality than ((667bdf2a-005c-4a19-93bd-bda5d076981a)) because the stalk of the stem node is just a branch stalk to the parent node, and the whole tree is just an [unrooted tree](https://en.wikipedia.org/wiki/Unrooted_binary_tree).
-						- The biological analogies of stem circle are [bulblike stems](((686b8a52-50bf-43bd-a5b3-d2387b8da5ac))) like stem tubers 🥔 or corms.
+						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((684f9517-f730-4fc8-8162-05b594cd92cd)) is the branching into many equal branches around the ((667bebeb-7f20-4d03-b860-1653c3137710)). This is the branching structure of ((66751015-5c34-493e-9663-4f0f5234b66e)).
+							- The stalk connecting to the parent node is considered also a branch branched off from the stem circle, which is called the ((699c0362-22fd-4228-895a-6adf1a1a0497)).
+							- The biological analogies of stem circle are [bulblike stems](((686b8a52-50bf-43bd-a5b3-d2387b8da5ac))) like stem tubers 🥔 or corms.
 						- base branch
+						  id:: 699c0362-22fd-4228-895a-6adf1a1a0497
 						  collapsed:: true
 						   = branch at 0° = stalk of stem node = branch stalk to the parent node
 							- When viewed as a [rooted tree](https://en.wikipedia.org/wiki/Tree_(graph_theory)#Rooted_tree), the base branch is the back-branch to the parent node.
+						- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+							- The ((667bebeb-7f20-4d03-b860-1653c3137710)) integrates the branch equality of ((667bdf2a-005c-4a19-93bd-bda5d076981a)) into the ((66740af5-032a-4cb1-9c97-0e4d3933ab9b)) of ((667bdced-76f1-4023-9352-dee24dcbf415)).
+							  collapsed:: true
+								- The stem circle has more branch equality than ((667bdf2a-005c-4a19-93bd-bda5d076981a)) because the stalk of the stem node is just a branch stalk to the parent node, and the whole tree is just an [unrooted tree](https://en.wikipedia.org/wiki/Unrooted_binary_tree).
+								- The stem circle adds temporal lineage (time) to the branching structure (space) of the data structure tree.
+									- The stem circle says to the pure spatial data structure tree:
+										- The stem line isn't gone.
+										- It just curled into the node,
+											- folded like memory,
+											- condensed like a tuber,
+											- paused like a dormant bud.
+										- The time is just **coiling up in space**!
 				- Representation
 				  :LOGBOOK:
 				  CLOCK: [2024-06-21 Fri 15:32:54]
