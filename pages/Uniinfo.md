@@ -1570,8 +1570,12 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					- apical branching
 					  id:: 667bdf2a-005c-4a19-93bd-bda5d076981a
 						- folking
+						  id:: 699c0362-2ee4-4b14-9485-e9b28c71a497
 						  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bdf2a-005c-4a19-93bd-bda5d076981a))
-							- Dichotomous branching is also call [folk branching](https://en.wikipedia.org/wiki/Tree_fork).
+							- sympodial branching
+							  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((699c0362-2ee4-4b14-9485-e9b28c71a497))
+								- Sympodial branching is also call [folk branching](https://en.wikipedia.org/wiki/Tree_fork).
+						- dichotomous branching
 						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bdf2a-005c-4a19-93bd-bda5d076981a)) is the branching into N equal branches instead of the stem/branch discrimination. This is a secondary branching mechanism used in ((66751015-5c34-493e-9663-4f0f5234b66e)).
 							- This can be converted to ((667bdced-76f1-4023-9352-dee24dcbf415)) by considering the folk point as a collapsed stem line with N nodes corresponding to N branches there.
 						- Diagram:
