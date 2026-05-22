@@ -1639,14 +1639,14 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					  id:: 66750135-8c59-477c-8baf-cb3898d54559
 					  collapsed:: true
 						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In ((66750135-8c59-477c-8baf-cb3898d54559)), the nodes are placed right on the ((66740af5-032a-4cb1-9c97-0e4d3933ab9b)), becoming the branching points (or branch points) for the side branches shooting from those nodes. That means there are _no stalks_ in monopodial tree.
-							- ((66725725-f76a-4328-b162-f469b87e871b)) The core (structural axis and main conduit) of a [biological tree](((6674066a-aeff-45af-96df-b0c2f278a2ae))) and [river system](https://en.wikipedia.org/wiki/Drainage_system_(geomorphology))
+							- ((66725725-f76a-4328-b162-f469b87e871b)) The core (structural axis and main conduit) of a [biological tree](((6674066a-aeff-45af-96df-b0c2f278a2ae))) and [river system](https://en.wikipedia.org/wiki/Drainage_system_(geomorphology)), the syntax tree of language
 					- orthogonal tree
 					  id:: 66750416-093a-4042-bb6d-78702c219c36
 					  collapsed:: true
 						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) An ((66750416-093a-4042-bb6d-78702c219c36)) is similar to a ((66750135-8c59-477c-8baf-cb3898d54559)) but each node are separated from the stem line by a **node stalk**, either branch stalk or leaf stalk. That means the branching point is now separated from the node and becomes the joint between the stem line and the stalk.
 							- The stalk can be represented by a short line, an arrow, an icon, or just a space between the node and its parent stem line.
 							  id:: 66752164-1227-490c-8182-7949e4eb501d
-						- ((66725725-f76a-4328-b162-f469b87e871b)) [GUI tree view](https://en.wikipedia.org/wiki/Tree_view)
+						- ((66725725-f76a-4328-b162-f469b87e871b)) [GUI tree view](https://en.wikipedia.org/wiki/Tree_view), , the syntax tree of language
 						- There's an artistic style of tree view where stem line is drawn as a long brace `{` and its stem node is placed in the middle.
 						  id:: 6675279b-214e-43e4-81b9-14b43026ec67
 						  collapsed:: true
