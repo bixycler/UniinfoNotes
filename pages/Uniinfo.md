@@ -1563,7 +1563,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 						- [Introduction to vascular plant structure > Branching](https://www.digitalatlasofancientlife.org/learn/embryophytes/tracheophytes/branching/)
 					- lateral branching
 					  id:: 667bdced-76f1-4023-9352-dee24dcbf415
-					  is the branching [from the main stem to the lower-level branch](https://en.wikipedia.org/wiki/Branch_attachment).
+						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bdced-76f1-4023-9352-dee24dcbf415)) is the branching [from the main stem to the lower-level branch](https://en.wikipedia.org/wiki/Branch_attachment).
 						- Diagram:
 						  collapsed:: true
 							- ![Lateral-branching.png](../assets/ecosystem/Lateral-branching.png)
@@ -1571,7 +1571,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 						- This is used in ((66750416-093a-4042-bb6d-78702c219c36)) and ((66750135-8c59-477c-8baf-cb3898d54559)).
 					- apical branching
 					  id:: 667bdf2a-005c-4a19-93bd-bda5d076981a
-					  is the branching into 2 (or more) equivalent branches instead of the stem/branch discrimination.
+						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bdf2a-005c-4a19-93bd-bda5d076981a)) is the branching into 2 (or more) equivalent branches instead of the stem/branch discrimination.
 						- folking
 						  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bdf2a-005c-4a19-93bd-bda5d076981a))
 							- Dichotomous branching is also call [folk branching](https://en.wikipedia.org/wiki/Tree_fork).
