@@ -1579,7 +1579,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 						  collapsed:: true
 							- Diagram:
 								- ![Dichotomous-branching.png](../assets/ecosystem/Dichotomous-branching.png)
-						- This is a secondary branching structure which can be converted to ((667bdced-76f1-4023-9352-dee24dcbf415)) by considering the folk point as a collapsed stem line with 2 nodes (or many nodes in [data structure tree](((66751015-5c34-493e-9663-4f0f5234b66e)))).
+						- This is a secondary branching structure which can be converted to ((667bdced-76f1-4023-9352-dee24dcbf415)) by considering the folk point as a collapsed stem line with 2 nodes (or many nodes in ((66751015-5c34-493e-9663-4f0f5234b66e))).
 						- This is used in ((66751015-5c34-493e-9663-4f0f5234b66e)).
 					- circular branching
 					  id:: 684f9517-f730-4fc8-8162-05b594cd92cd
