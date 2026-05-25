@@ -4202,9 +4202,11 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					- in projective spacetime, they rotate as the present flows
 		- herenow
 		  id:: 6a143ebe-7312-4df6-85c1-7a93b86d4b00
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((6a143f0c-ee6c-4757-8a28-f8713b59eabd))
 			- inner reality
 			  id:: 6a143f0c-ee6c-4757-8a28-f8713b59eabd
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6a143ebe-7312-4df6-85c1-7a93b86d4b00))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((6a143ebe-7312-4df6-85c1-7a93b86d4b00)) of a being is the current state of the being
 		- ### arrow of time
 		  id:: 69a502fe-47e2-4629-a40c-78964d9e0396
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Arrow_of_time
@@ -4277,7 +4279,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 		- realities
 		  id:: 6a143a19-64d1-437e-8c86-dfb30ed534d2
 		  ((68dfc11b-c552-4a41-b4bb-0737db0f3f94)) ((6a13f92f-3ab9-43b2-aba3-2f8204ef96d5))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6a13f92f-3ab9-43b2-aba3-2f8204ef96d5)) is the state of ((678e1c3f-6202-45aa-8527-f4bdad9927b9))s that both determines the interaction between them and is itself updated by the ((6a13f972-4d5a-4d84-9a84-61ea7576bbb5))s of the interaction. Relative to a being, its inner reality is the momentum driving its behavior to interact with the outer reality – which is the state of all other beings. In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), a ((6731b8c8-0ab1-4c16-8783-408258f67a4a)) is a part of the inner reality of a being or shared between a collection of beings, reflecting an aspect of the outer reality, but is *not* the outer reality itself. Moreover, the self-image of a being is a part of its inner reality reflecting but not identical to the inner reality itself. That means reality is the underlying content which is mostly invisible, whose only a small portion shows up through forms and facts.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6a13f92f-3ab9-43b2-aba3-2f8204ef96d5)) is the state of ((678e1c3f-6202-45aa-8527-f4bdad9927b9))s that both determines the interaction between them and is itself updated by the ((6a13f972-4d5a-4d84-9a84-61ea7576bbb5))s of the interaction. Relative to a being, its ((6a143f0c-ee6c-4757-8a28-f8713b59eabd)) is the momentum driving its behavior to interact with the outer reality – which is the state of all other beings. In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), a ((6731b8c8-0ab1-4c16-8783-408258f67a4a)) is a part of the inner reality of a being or shared between a collection of beings, reflecting an aspect of the outer reality, but is *not* the outer reality itself. Moreover, the self-image of a being is a part of its inner reality reflecting but not identical to the inner reality itself. That means reality is the underlying content which is mostly invisible, whose only a small portion shows up through forms and facts.
 		- ((66725725-f76a-4328-b162-f469b87e871b))
 			- A ball's reality is its kinetic momentum, mapping the first fact of the throwing hand to interact with the second fact of the hitting bat.
 			- A human's reality is the state of their bodymind, including world cone (worldview), knowledge cone, memories, emotions, intents and so on, driving their physical and social actions to collide with the outer reality through events (facts). These facts subsequently update both the inner and outer realities.
