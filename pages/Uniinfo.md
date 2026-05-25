@@ -4277,15 +4277,15 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 	  id:: 6a13f972-4d5a-4d84-9a84-61ea7576bbb5
 	  collapsed:: true
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((6a13f972-4d5a-4d84-9a84-61ea7576bbb5)) is a phenomenal ((665ca429-84e3-49ff-921e-c07d19cd99ba)) shared between beings, emerging through their interaction. That means a fact is an actual occurence of an event showing the interaction between the inner ((6a13f92f-3ab9-43b2-aba3-2f8204ef96d5)) and the outer reality at the interface between the inner worlds of the participants and the outer world.
-		- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) From the Latin word [factum](https://en.wiktionary.org/wiki/factum) meaning “a thing done/performed/happened”, the English word [fact](https://en.wiktionary.org/wiki/fact) has been developed to be something true and/or objective. In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), its meaning is restored to the original “a thing done/performed/happened”.
+		- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) From the Latin word [factum](https://en.wiktionary.org/wiki/factum) meaning “a thing done, an action performed, an event happened”, the English word [fact](https://en.wiktionary.org/wiki/fact) has been developed to be something true and/or objective. In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), its meaning is restored to the original “a thing done/performed/happened”. That means a physical law or a physical constant is not a fact of the universe, but just a part of the scientific worldview, a part of the inner reality of many people reflecting the outer reality throu
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-			- Relativity of facts via ((6728a7ab-1629-4e23-bc56-10ead0d8348c)) = inter-subjectivity
+			- Relativity of factuality via ((6728a7ab-1629-4e23-bc56-10ead0d8348c)) = inter-subjectivity
 			  collapsed:: true
 				- Due to the [relativity of objectivity](((6728aa9a-9fb2-4afa-864f-0eb049ac771b))), the factuality is defined solely by the relation between the participants, i.e. by the shared experience.
 				- To a human hand, a brick wall is an impenetrable, bone-shattering fact. But to an X-ray, the same wall is nearly like thin air, and to a master, it may be a ghostly non-event.
 				- A ghost is a fact localized to the person experiencing the physiological friction, even if it lacks the universal agreement of the broader human spectrum.
 				- A brick wall reflects more of the external reality, while a ghost reflects more of the internal reality.
-				- Both are equally real at the point of impact because both are genuine communications happening at the interface.
+					- Both are equally real at the point of impact because both are genuine communications between realities happening at the interface.
 	- ## appearance
 	  id:: 66ab6161-0306-42d5-ac16-4155c69216f5
 	  collapsed:: true

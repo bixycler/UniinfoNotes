@@ -11,6 +11,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  id:: 66fce7e0-8040-4980-b2aa-807e4a0cde1f
 		  case-sensitive:: false
 		  whole-word:: false
+		  collapsed:: true
 		  ^ **Name & Term** search
 			- Filters
 			  collapsed:: true
