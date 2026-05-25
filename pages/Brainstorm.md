@@ -14,7 +14,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- The holistic view vs the linear distortion
 		  id:: 6a144d80-dd78-4583-aabc-70c8187c7029
 		  collapsed:: true
-			- The ((6a071b20-7248-42da-88ed-633be610b6df)) is the holistic view of the whole circle, while the linear & dualistic view is just an approximation at the local position.
+			- While the ((6a071b20-7248-42da-88ed-633be610b6df)) is the holistic & balanced view of the whole circle, the linear & dualistic view is just an approximation at the local position which is distorted by the domination of one pole over the opposite pole.
 			- The holistic view
 				- The holographic root: Every local patch reflects the whole, just like every cell contains the genome of the entire body.
 					- But the compulsive fallacy is mistaking the local image (laws, constants) for the absolute whole – like mistaking the symbol “∞” for infinity itself.
@@ -22,12 +22,12 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- The outward path of science reaches the [relativity](https://en.wikipedia.org/wiki/Theory_of_relativity) of observation in the cosmos and the [observer effect](https://en.wikipedia.org/wiki/Observer_effect_(physics)) in quantum mechanics.
 					- The inward path of deep meditation – like Vipassana – dissolves the isolated ego to reveal the whole universe vibrating within.
 					- The macroscopic infinity of the cosmos and the microscopic infinity of the inner void kiss and become indistinguishable at the opposite pole of the zero point.
-			- Liveness of the inner reality in space and time
+			- The liveness of the ((6a143f0c-ee6c-4757-8a28-f8713b59eabd)) in space and time
 				- In time, the inner reality is dynamic, continuously updating following the facts at the interface to reflect the external reality.
 				- In space, it is relative to the point of view, as each subject is a condensation of its vast root system resulting in a unique point of view at the base of the individual tree.
 				- Even collective knowledge, like the physical constants, is highly relative to the position of this blue marble in the vast spacetime of the universe.
 			- The linear distortion
-				- When the dynamic circular loop is pulled flat to a linear line of past–present–future and the dipole inner–outer worlds, it creates a tension – the **linear distortion**.
+				- When the dynamic circular loop is pulled flat to a linear line of past–present–future and the dipole inner–outer worlds, it creates a tension.
 					- Distortion toward either the external pole or the internal pole generates a **restoring force** to pull it back, operating like a spring.
 				- The amnesiac prince: The subjective self is a projection of the whole universe into a little body, inheriting its agency from the global wholeness.
 					- By forgetting its circular root, it cuts itself short, becoming a separate entity standing against the external world.
@@ -35,7 +35,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- Perspective creates a projective effect where the interconnected network of existence appears to converge at a single vanishing point.
 					- Subjects cling to their local vanishing point as the absolute foundation.
 					- When two subjects look in different directions, they see different vanishing points and argue over empty space, completely missing the shared ground.
-					- In–Ex Presence dissolves this trap by looking at the network that generates the points, recognizing that the interconnected network itself is the true foundation.
+					- ((68a2a2b1-4565-401d-80ee-9c412b97da35)) dissolves this trap by looking at the network that generates the points, recognizing that the interconnected network itself is the true foundation.
 		- GUI toggle confusion: Symbols or labels showing **action vs state** is the **ambiguity** for all toggle in general.
 		  id:: 6a0c0740-42ff-4a27-af9f-a271a6716027
 		  collapsed:: true
