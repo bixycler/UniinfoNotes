@@ -3652,9 +3652,9 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a5387-2a97-4311-a295-aa0afd9c4d76))
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a5387-2a97-4311-a295-aa0afd9c4d76)) is the ((66c87463-4f07-420a-b12e-f456154f7dc8)) of everything that a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) sees as itself and belonging to itself. There are various self circles:
 				- The ((66c810a0-9861-4787-bdcf-1378219332be)) is the middle self circle.
-				- Outside, we have many extensions of the body: all belongings, all properties, family, race, nation, species, etc.
+				- Outside, there are many extensions of the body: all belongings, all properties, family, race, nation, species, etc.
 				  collapsed:: true
-					- These extensions are discussed in [Dialogical Self Theory](https://en.wikipedia.org/wiki/Dialogical_self), through [ecological self](https://en.wikipedia.org/wiki/Ecological_self) in [Deep Ecology](https://en.wikipedia.org/wiki/Deep_ecology), as well as by various authors.
+					- These extensions are discussed in [Dialogical Self Theory](https://en.wikipedia.org/wiki/Dialogical_self), through [ecological self](https://en.wikipedia.org/wiki/Ecological_self) in [Deep Ecology](https://en.wikipedia.org/wiki/Deep_ecology), as well as by various authors,
 						- through the “relational self” or “self-as-relationship” in indigenous philosophies, as well as by authors in these papers:
 							- 2009 book [Relational Being](https://www.researchgate.net/publication/239798192_Relational_Being_A_Brief_Introduction) by by Kenneth J. Gergen,
 							- [“Self-Expansion Model of Motivation and Cognition in Close Relationships”](https://www.researchgate.net/publication/284143380_The_self-expansion_model_of_motivation_and_cognition_in_close_relationships)  (1986),
@@ -4200,10 +4200,15 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 				- the 2 cones meet in the present
 					- in linear spacetime, they translate as the present flows
 					- in projective spacetime, they rotate as the present flows
+		- herenow
+		  id:: 6a143ebe-7312-4df6-85c1-7a93b86d4b00
+			- inner reality
+			  id:: 6a143f0c-ee6c-4757-8a28-f8713b59eabd
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6a143ebe-7312-4df6-85c1-7a93b86d4b00))
 		- ### arrow of time
 		  id:: 69a502fe-47e2-4629-a40c-78964d9e0396
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Arrow_of_time
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((69a502fe-47e2-4629-a40c-78964d9e0396)) is the generator of ((68fa164e-ef0e-4010-937d-ad9e0459f5f2)) by mixmatching ((6a143a19-64d1-437e-8c86-dfb30ed534d2)) together to generate ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342))s as the ((6a13f972-4d5a-4d84-9a84-61ea7576bbb5))s of time. While a change and its flow – time – are selful – relative to the ((669a5387-2a97-4311-a295-aa0afd9c4d76)) of a being, the arrow of time is the **selfless mixmatching** of all threads at the point of contact between those selves.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((69a502fe-47e2-4629-a40c-78964d9e0396)) is the generator of ((68fa164e-ef0e-4010-937d-ad9e0459f5f2)) by mixmatching ((6a143a19-64d1-437e-8c86-dfb30ed534d2)) together to generate ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342))s as the ((6a13f972-4d5a-4d84-9a84-61ea7576bbb5))s of time. While a change and its flow – time – are selful – relative to the ((6a143ebe-7312-4df6-85c1-7a93b86d4b00)) of a being, the arrow of time is the **selfless mixmatching** of all threads at the point of contact between those selves.
 				- concrete arrow of time
 				  is the ((669de102-8f98-4d96-bf00-4f4e602cb689)) including all participating change arrows and their selves, represented by the whole ((69b9470c-40e4-49ca-84df-1cb6a3379987)).
 				- abstract arrow of time
@@ -4245,7 +4250,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 									- Greed: Attaching to a “permanent” past success and trying to pull it into the now.
 									- Anger: Attaching to a “permanent” past injury and trying to re-fight it in the now.
 									- Delusion: The fundamental error of thinking that the history segments (data) are a Permanent Past (reality).
-			- Present: When my self (compound particle) meets your self, my herenow mixes with your herenow resulting a **common “now”**, with a little “less here”, which we usually call “the present”.
+			- Present: When my self (compound particle) meets your self, my herenow mixmatches with your herenow resulting a **common “now”**, with a little “less here”, which we usually call “the present”.
 				- The present is just the common part of many herenows of the participants, hence only a little portion of the Omnifold – the present dot (moment) – expressed through the interface between selves.
 				- The [mixing](https://en.wikipedia.org/wiki/Mixing_(mathematics)) in the present is the arrow of time that [increases entropy](https://en.wikipedia.org/wiki/Entropy_of_mixing) by increasing extensity of the thread distribution via the multiplication of its extent by the number of participants to the meeting.
 				  id:: 69b7a10c-73c2-4d34-9269-a27e5f23b90b
