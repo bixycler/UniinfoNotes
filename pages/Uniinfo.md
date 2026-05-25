@@ -4269,14 +4269,14 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 	- ## reality
 	  id:: 6a13f92f-3ab9-43b2-aba3-2f8204ef96d5
 	  collapsed:: true
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6a13f92f-3ab9-43b2-aba3-2f8204ef96d5)) is the state of ((678e1c3f-6202-45aa-8527-f4bdad9927b9))s that both determines the interaction between them and is itself updated by the ((6a13f972-4d5a-4d84-9a84-61ea7576bbb5))s of the interaction. Relative to a being, its internal reality is the momentum driving its behavior to interact with the external reality – which is the state of all other beings. In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), a ((6731b8c8-0ab1-4c16-8783-408258f67a4a)) is a part of the internal reality of a being or shared between a collection of beings, reflecting an aspect of the external reality, but is *not* the external reality itself. Moreover, the self-image of a being is a part of its internal reality reflecting but not identical to the internal reality itself. That means reality is the underlying content which is mostly invisible, whose only a small portion shows up through forms and facts.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6a13f92f-3ab9-43b2-aba3-2f8204ef96d5)) is the state of ((678e1c3f-6202-45aa-8527-f4bdad9927b9))s that both determines the interaction between them and is itself updated by the ((6a13f972-4d5a-4d84-9a84-61ea7576bbb5))s of the interaction. Relative to a being, its inner reality is the momentum driving its behavior to interact with the outer reality – which is the state of all other beings. In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), a ((6731b8c8-0ab1-4c16-8783-408258f67a4a)) is a part of the inner reality of a being or shared between a collection of beings, reflecting an aspect of the outer reality, but is *not* the outer reality itself. Moreover, the self-image of a being is a part of its inner reality reflecting but not identical to the inner reality itself. That means reality is the underlying content which is mostly invisible, whose only a small portion shows up through forms and facts.
 		- ((66725725-f76a-4328-b162-f469b87e871b))
 			- A ball's reality is its kinetic momentum, mapping the first fact of the throwing hand to interact with the second fact of the hitting bat.
-			- A human's reality is the state of their bodymind, including world cone (worldview), knowledge cone, memories, emotions, intents and so on, driving their physical and social actions to collide with the external reality through events (facts). These facts subsequently update both the internal and external realities.
+			- A human's reality is the state of their bodymind, including world cone (worldview), knowledge cone, memories, emotions, intents and so on, driving their physical and social actions to collide with the outer reality through events (facts). These facts subsequently update both the inner and outer realities.
 	- ## fact
 	  id:: 6a13f972-4d5a-4d84-9a84-61ea7576bbb5
 	  collapsed:: true
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6a13f972-4d5a-4d84-9a84-61ea7576bbb5))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((6a13f972-4d5a-4d84-9a84-61ea7576bbb5)) is an actual occurence of an event at the interface between
 	- ## appearance
 	  id:: 66ab6161-0306-42d5-ac16-4155c69216f5
 	  collapsed:: true
