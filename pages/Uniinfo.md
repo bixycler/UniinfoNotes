@@ -4203,10 +4203,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 		- herenow
 		  id:: 6a143ebe-7312-4df6-85c1-7a93b86d4b00
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((6a143f0c-ee6c-4757-8a28-f8713b59eabd))
-			- inner reality
-			  id:: 6a143f0c-ee6c-4757-8a28-f8713b59eabd
-			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6a143ebe-7312-4df6-85c1-7a93b86d4b00))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((6a143ebe-7312-4df6-85c1-7a93b86d4b00)) of a being is the current state of the being
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((6a143ebe-7312-4df6-85c1-7a93b86d4b00)) of a being is the extensional projection of the being's ((6a143f0c-ee6c-4757-8a28-f8713b59eabd)) out to the world.
 		- ### arrow of time
 		  id:: 69a502fe-47e2-4629-a40c-78964d9e0396
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Arrow_of_time
@@ -4283,6 +4280,10 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 		- ((66725725-f76a-4328-b162-f469b87e871b))
 			- A ball's reality is its kinetic momentum, mapping the first fact of the throwing hand to interact with the second fact of the hitting bat.
 			- A human's reality is the state of their bodymind, including world cone (worldview), knowledge cone, memories, emotions, intents and so on, driving their physical and social actions to collide with the outer reality through events (facts). These facts subsequently update both the inner and outer realities.
+		- inner reality
+		  id:: 6a143f0c-ee6c-4757-8a28-f8713b59eabd
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6a143ebe-7312-4df6-85c1-7a93b86d4b00))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((6a143f0c-ee6c-4757-8a28-f8713b59eabd)) of a being is the current state of the being, i.e. the content of its ((6a143f0c-ee6c-4757-8a28-f8713b59eabd)). In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), the inner reality of a being is usually called simply “its reality”.
 	- ## fact
 	  id:: 6a13f972-4d5a-4d84-9a84-61ea7576bbb5
 	  collapsed:: true
