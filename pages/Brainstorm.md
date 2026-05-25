@@ -11,6 +11,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2026 Brainstorms
 	  id:: 6960e754-ff94-4e1a-8266-d9f15231b880
+		- The holistic view vs the linear distortion
+		  id:: 6a144d80-dd78-4583-aabc-70c8187c7029
+		  collapsed:: true
+			- The ((6a071b20-7248-42da-88ed-633be610b6df)) is the holistic view of the whole circle, while the linear & dualistic view is just a local approximation. where the inner–outer worlds and past–present–future
 		- GUI toggle confusion: Symbols or labels showing **action vs state** is the **ambiguity** for all toggle in general.
 		  id:: 6a0c0740-42ff-4a27-af9f-a271a6716027
 		  collapsed:: true
