@@ -4269,8 +4269,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 	- ## reality
 	  id:: 6a13f92f-3ab9-43b2-aba3-2f8204ef96d5
 	  collapsed:: true
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6a13f92f-3ab9-43b2-aba3-2f8204ef96d5)) is the state of ((678e1c3f-6202-45aa-8527-f4bdad9927b9))s defining the . Relative to a being, it is traditionally split into external reality of objective existence and internal reality of subjective mind.
-		- redefined as the living momentum of a subject's active, directional drive that continually updates its internal map to navigate and interact with other relative states.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6a13f92f-3ab9-43b2-aba3-2f8204ef96d5)) is the state of ((678e1c3f-6202-45aa-8527-f4bdad9927b9))s that determines the interaction between them. Relative to a being, it is traditionally split into external reality of objective existence and internal reality of subjective mind. In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), the internal reality of a being is its  momentum  drive that continually updates its internal map to navigate and interact with other relative states.
 	- ## fact
 	  id:: 6a13f972-4d5a-4d84-9a84-61ea7576bbb5
 	  collapsed:: true
