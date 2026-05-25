@@ -1,3 +1,36 @@
+- After 10 hours of recovery sleep, i saw the “come and go” scene from the dream to the wake.
+    - I shared my experience that everything just comes and goes with a close friend after lots of chaos have just passed by her life.
+    - My “Love comes and goes” song from my youth has been echoing in my mind. 
+        - Người đã đến, người đã đi rồi;
+        - Còn vương vấn mấy đau thương...
+        - Tình đã đến, tình cũng đi rồi;
+        - Còn lưu luyến bao chờ đợi...
+        - Bao nhiêu bao nhiêu tình yêu đã qua
+        - Tình yêu đã không hề quay lại! 
+        - Bao nhiêu bao nhiêu tình yêu khờ dại 
+        - Giờ còn lại hư không.
+    - Happening to see the truth, now that i cannot unsee it to plunge into the fleeting pleasure anymore!
+        - Lỡ Thấy Sự Thật!
+            - Lỡ thấy sự thật, hết đường lui
+            - Chẳng dám vô minh giấc ngủ vùi
+            - Vùi trong sung sướng, vờ không khổ
+            - (Vì:)
+            - Khổ - sướng song song tựa bóng hình.
+        - Accidentally Bound to Truth
+            - Having stumbled upon the truth – no way back,
+            - I dare not sink into the slumber of ignorance again
+            - To bury myself in pleasure, pretending there's no pain;
+            - (Since:)
+            - Pain and pleasure walk side by side, like form and shadow.
+        - => The game of chasing shadow!
+- Distorted view by the imbalanced mind
+    - To a subject, there are no facts beside what (s)he can see.
+    - I remember the time my mother was annoyed by her own prejudice of Christianity. She brought that prejudice caused by her trauma years ago in Vietnam to Osaka -- thousands of miles away. I couldn't help  uttering this chorus in a rap-rock rhythm:
+        - You just can see whatever you wanna see!
+        - You just can hear whatever you wanna hear!
+        - The fact is all of whatever you are believing!
+        - The fact is all of whatever you are desiring!
+        - There's no fact out there, there's no fact out there, there's no true fact out there!
 - ---
 - openness = porosity = entropy increase = arrow of time = mismatch between form & content =  curvature in distribution
 - past form = copy of present form = mixture of present content
