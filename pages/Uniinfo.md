@@ -4276,7 +4276,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 	- ## fact
 	  id:: 6a13f972-4d5a-4d84-9a84-61ea7576bbb5
 	  collapsed:: true
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((6a13f972-4d5a-4d84-9a84-61ea7576bbb5)) is an actual occurence of an event at the interface between
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((6a13f972-4d5a-4d84-9a84-61ea7576bbb5)) is a ((665ca429-84e3-49ff-921e-c07d19cd99ba)) – an actual occurence of an event – showing the interaction between the inner ((6a13f92f-3ab9-43b2-aba3-2f8204ef96d5)) and the outer reality at the interface between the inner world and the outer world.
 	- ## appearance
 	  id:: 66ab6161-0306-42d5-ac16-4155c69216f5
 	  collapsed:: true
