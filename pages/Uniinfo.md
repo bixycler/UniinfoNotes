@@ -4203,7 +4203,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 		- herenow
 		  id:: 6a143ebe-7312-4df6-85c1-7a93b86d4b00
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((6a143f0c-ee6c-4757-8a28-f8713b59eabd))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((6a143ebe-7312-4df6-85c1-7a93b86d4b00)) of a being is the extensional projection of the being's ((6a143f0c-ee6c-4757-8a28-f8713b59eabd)) out to the world, .
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((6a143ebe-7312-4df6-85c1-7a93b86d4b00)) of a being is the extensional projection of the being's ((6a143f0c-ee6c-4757-8a28-f8713b59eabd)) out to the world, comprising the current configuration of the whole world and itself as seen from its ((667259a0-aa2e-49fa-bcbd-b3768a9f30b2)).
 		- ### arrow of time
 		  id:: 69a502fe-47e2-4629-a40c-78964d9e0396
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Arrow_of_time
@@ -4249,7 +4249,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 									- Greed: Attaching to a “permanent” past success and trying to pull it into the now.
 									- Anger: Attaching to a “permanent” past injury and trying to re-fight it in the now.
 									- Delusion: The fundamental error of thinking that the history segments (data) are a Permanent Past (reality).
-			- Present: When some beings meet, their herenows mixmatch, resulting a **common fact** called “the present”.
+			- Present: When some beings meet, their herenows mixmatch, resulting a **common fact** called “the present”, where most of the internal content of the beings – the “here” – are abstracted away leaving only the common form of “now”.
 				- The present is just the common part of many herenows of the participants, hence only a little portion of the Omnifold – the present dot (moment) – expressed through the interface between the selves.
 				- The [mixing](https://en.wikipedia.org/wiki/Mixing_(mathematics)) in the present is the arrow of time that [increases entropy](https://en.wikipedia.org/wiki/Entropy_of_mixing) by increasing extensity of the thread distribution via the multiplication of its extent by the number of participants to the meeting.
 				  id:: 69b7a10c-73c2-4d34-9269-a27e5f23b90b
