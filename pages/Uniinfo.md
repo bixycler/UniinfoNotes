@@ -4203,7 +4203,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 		- herenow
 		  id:: 6a143ebe-7312-4df6-85c1-7a93b86d4b00
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((6a143f0c-ee6c-4757-8a28-f8713b59eabd))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((6a143ebe-7312-4df6-85c1-7a93b86d4b00)) of a being is the extensional projection of the being's ((6a143f0c-ee6c-4757-8a28-f8713b59eabd)) out to the world.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((6a143ebe-7312-4df6-85c1-7a93b86d4b00)) of a being is the extensional projection of the being's ((6a143f0c-ee6c-4757-8a28-f8713b59eabd)) out to the world, .
 		- ### arrow of time
 		  id:: 69a502fe-47e2-4629-a40c-78964d9e0396
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Arrow_of_time
@@ -4255,12 +4255,12 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 				  id:: 69b7a10c-73c2-4d34-9269-a27e5f23b90b
 				- The information is lost through the [many-to-one function](https://mathworld.wolfram.com/Many-to-One.html) of ((66727858-979d-4d95-8a90-7a749218cfba))s.
 				- The meeting is called [“wavefunction collapse” in QM](https://en.wikipedia.org/wiki/Wave_function_collapse) which reduces the uncertain futures (high entropy) into the certain prensent (low entropy).
-			- Past: After the meeting, the common fact is stored back into all participants, which both project out to be “the past”.
+			- Past: After the meeting, the common fact is stored back into all participants, concatenated to a shared reality called “the past”.
 			  id:: 69b79d25-16e5-458a-bf1b-05c927494107
 				- The past is a thread extending the present dot, hence just a small part of the Omifold.
 				- The past of 2 selves has 2 copies in the Omnifold, the past of $n$ selves has $n$ copies, and so on. The more particles observing the common past, the more it is copied, the more certain it is, hence the lower entropy the past has.
-			- Future: Looking forward to the next meeting, i can see my future but not yours because we're separated, hence each future has at most one copy, hence high entropy.
-				- Actually, the further one look into future, the more diverse it is, the more its image resolution reduces – exponentially below 1 – hence much higher entropy.
+			- Future: Looking forward to the next meeting, a being can see its future but not others' because they're separated, hence each future has at most one copy, hence high entropy.
+				- Actually, the further one look into the future, the more diverse it is, the more its image resolution reduces – exponentially below 1 – hence much higher entropy.
 				- Note that the expression “the future” is incorrect because there are various futures to come.
 			- Note: Looking further into the past, the image also reduces resolution but linearly, hence the impression of the “fixed past”.
 	- ## space
