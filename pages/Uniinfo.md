@@ -1156,7 +1156,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 			  CLOCK: [2024-12-13 Fri 18:37:00]
 			  CLOCK: [2026-03-02 Mon 10:37:56]
 			  :END:
-				- Here-now Presentism (Point Presentism) vs [perspective presentism](1. **Presentism** (the Equal $=$): I don't think Einstein meant a block universe, but he is not alive to defend himself, so i'm not sure what he actually thought. Anyway, here's my take: Relativity only debunked the simultaneity, i.e. no "present everywhere", but only herenow. Time is inseparable from space, hence spacetime. So presentism is the reality of the **herenow**: your present can be my past or my future, not my present, hence "unreal" to me in the sense that it's not exactly true to me. And only my present (herenow) is exactly true to me (not to you). My herenow is not a point but a perspective (configuration) of the whole universe projected from my self.)
+				- Here-now Presentism (Point Presentism) vs [perspective presentism](((69b79d61-8668-42e0-8aa5-7d35e8651cd3)))
 				- Block universe vs [possibility eternalism](((69a502fe-20b6-468d-b2f4-2940a12ad502)))
 				- Bulk universe: 4D spacetime is just a [brane](https://en.wikipedia.org/wiki/Brane_cosmology) within this bulk.
 				- Multiverse, parallel worlds
@@ -1168,7 +1168,8 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 		  CLOCK: [2026-03-02 Mon 10:42:38]
 		  CLOCK: [2026-03-16 Mon 13:00:52]--[2026-03-17 Tue 19:51:42] =>  30:50:50
 		  :END:
-			- 1. **Presentism** (the Equal $=$ ): I don't think Einstein meant a block universe, but he is not alive to defend himself, so i'm not sure what he actually thought. Anyway, here's my take: Relativity only debunked the simultaneity, i.e. no “present everywhere”, but only herenow. Time is inseparable from space, hence spacetime. So presentism is the reality of the **herenow**: your present can be my past or my future, not my present, hence “unreal” to me in the sense that it's not exactly true to me. And only my present (herenow) is exactly true to me (not to you). My herenow is not a point but a perspective (configuration) of the whole universe projected from my self.
+			- id:: 69b79d61-8668-42e0-8aa5-7d35e8651cd3
+			  1. **Presentism** (the Equal $=$ ): I don't think Einstein meant a block universe, but he is not alive to defend himself, so i'm not sure what he actually thought. Anyway, here's my take: Relativity only debunked the simultaneity, i.e. no “present everywhere”, but only herenow. Time is inseparable from space, hence spacetime. So presentism is the reality of the **herenow**: your present can be my past or my future, not my present, hence “unreal” to me in the sense that it's not exactly true to me. And only my present (herenow) is exactly true to me (not to you). My herenow is not a point but a perspective (configuration) of the whole universe projected from my self.
 			- id:: 69a502fe-20b6-468d-b2f4-2940a12ad502
 			  2. **Eternalism** (the ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) ○): What is eternal? The eternal is the whole possibility space of the whole universe, not the 4D block universe which is just a wrong projection of the eternal info human imagination. That space has infinite dimensions, i call it the "Omnifold". The simplest expression is a hypercube with unit hypervolume 1 = 1×1×1×1×1×... (infinite dimensions). It contains all herenows not only throughout spacetime but also through all selves. The wavefunction of quantum trace the evolution of herenow following a single particle. Its unitarity is the eternal hypervolume.
 			- 3. ((69a502fe-47e2-4629-a40c-78964d9e0396)) – the ((667d15b7-6364-49a9-ac58-c64d2a992b63)) (↑) of ((667bef22-b272-4a7d-b613-3f1ed1a47329))
