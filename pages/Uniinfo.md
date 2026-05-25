@@ -4203,7 +4203,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 		- ### arrow of time
 		  id:: 69a502fe-47e2-4629-a40c-78964d9e0396
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Arrow_of_time
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((69a502fe-47e2-4629-a40c-78964d9e0396)) is the selfless generator of the selful ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) – a ((667d16f8-206e-4a85-80f3-24c2aa1bf4ad)) (segment) of ((68fa164e-ef0e-4010-937d-ad9e0459f5f2)). While change and its flow – time – are selful due to their ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) form, the arrow of time is the **selfless mixing** of all threads at the point of contact between those selves.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((69a502fe-47e2-4629-a40c-78964d9e0396)) is the generator of ((68fa164e-ef0e-4010-937d-ad9e0459f5f2)) by mixmatching ((6a143a19-64d1-437e-8c86-dfb30ed534d2)) together . While ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) and its flow – time – are selful due to their ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) form, the arrow of time is the **selfless mixing** of all threads at the point of contact between those selves.
 				- concrete arrow of time
 				  is the ((669de102-8f98-4d96-bf00-4f4e602cb689)) including all participating change arrows and their selves, represented by the whole ((69b9470c-40e4-49ca-84df-1cb6a3379987)).
 				- abstract arrow of time
@@ -4269,6 +4269,9 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 	- ## reality
 	  id:: 6a13f92f-3ab9-43b2-aba3-2f8204ef96d5
 	  collapsed:: true
+		- realities
+		  id:: 6a143a19-64d1-437e-8c86-dfb30ed534d2
+		  ((68dfc11b-c552-4a41-b4bb-0737db0f3f94)) ((6a13f92f-3ab9-43b2-aba3-2f8204ef96d5))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6a13f92f-3ab9-43b2-aba3-2f8204ef96d5)) is the state of ((678e1c3f-6202-45aa-8527-f4bdad9927b9))s that both determines the interaction between them and is itself updated by the ((6a13f972-4d5a-4d84-9a84-61ea7576bbb5))s of the interaction. Relative to a being, its inner reality is the momentum driving its behavior to interact with the outer reality – which is the state of all other beings. In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), a ((6731b8c8-0ab1-4c16-8783-408258f67a4a)) is a part of the inner reality of a being or shared between a collection of beings, reflecting an aspect of the outer reality, but is *not* the outer reality itself. Moreover, the self-image of a being is a part of its inner reality reflecting but not identical to the inner reality itself. That means reality is the underlying content which is mostly invisible, whose only a small portion shows up through forms and facts.
 		- ((66725725-f76a-4328-b162-f469b87e871b))
 			- A ball's reality is its kinetic momentum, mapping the first fact of the throwing hand to interact with the second fact of the hitting bat.
