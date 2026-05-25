@@ -1622,7 +1622,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- ((69f03316-1301-4b74-a2fe-28ee0eb026bf))
 				- A chat with Gemini about my [trapped experience](((69f064b7-0df5-49cd-9aa7-9bda6b84c7d7))) last night introduced the conceptual proliferation, and reminded me of the Kogi. I watched the Kogis again with lots of tears.
-					- [Conceptual proliferation (prapañca)](https://en.wikipedia.org/wiki/Conceptual_proliferation) = ten thousand things (萬物) = mirror maze = fun house = the game of chasing shadows = phenomenal world
+					- [Conceptual proliferation (prapañca)](https://en.wikipedia.org/wiki/Conceptual_proliferation) = ten thousand things (萬物) = mirror maze = fun house = ((67331a5a-1815-40c1-96db-ef7be8ee8d7b)) = phenomenal world
 					  {{embed ((699c0363-55fd-46cb-a2a5-932ccca82735))}}
 					- [Madhupindika Sutta: The Ball of Honey](https://www.accesstoinsight.org/tipitaka/mn/mn.018.than.html)
 						- Translator's Introduction
@@ -1855,7 +1855,43 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- Following chatbot's suggestion that maybe this is a bug, i did all sorts of cleanup, revoking account connection, without effect. The only effect is my entire settings and history are wiped out.
 			- 21st, in the afternoon, Antigravity just released me! 😁 Refactored ((667500cd-a31d-4828-9dc4-93948e27e534)) and add ((6a0ef10f-4d01-4012-81e7-571da3b8c71b)).
-			-
+			- 23-24th,...
+			  collapsed:: true
+				- After 10 hours of recovery sleep, i saw the “come and go” scene from the dream to the wake.
+				  collapsed:: true
+					- I shared my experience that everything just comes and goes with a close friend after lots of chaos have just passed by her life.
+					- My song “Love Comes and Goes” from my youth has been echoing in my mind.
+						- Người đã đến, người đã đi rồi;
+						- Còn vương vấn mấy đau thương...
+						- Tình đã đến, tình cũng đi rồi;
+						- Còn lưu luyến bao chờ đợi...
+						- Bao nhiêu bao nhiêu tình yêu đã qua
+						- Tình yêu đã không hề quay lại!
+						- Bao nhiêu bao nhiêu tình yêu khờ dại
+						- Giờ còn lại hư không.
+				- Happening to see the truth, now that i cannot unsee it to plunge into the fleeting pleasure anymore!
+				  collapsed:: true
+					- Lỡ Thấy Sự Thật!
+						- Lỡ thấy sự thật, hết đường lui
+						- Chẳng dám vô minh giấc ngủ vùi
+						- Vùi trong sung sướng, vờ không khổ
+						- (Vì:)
+						- Khổ - sướng song song tựa bóng hình.
+					- Accidentally Bound to Truth
+						- Having stumbled upon the truth – no way back,
+						- I dare not sink into the slumber of ignorance again
+						- To bury myself in pleasure, pretending there's no pain;
+						- (Since:)
+						- Pain and pleasure walk side by side, like form and shadow.
+					- => ((67331a5a-1815-40c1-96db-ef7be8ee8d7b))
+				- Distorted view by the imbalanced mind
+					- To a subject, there are no facts beside what (s)he can see.
+					- I remember the time my mother was annoyed by her own prejudice of Christianity. She brought that prejudice caused by her trauma years ago in Vietnam to Osaka -- thousands of miles away. I couldn't help  uttering this chorus in a rap-rock rhythm:
+						- You just can see whatever you wanna see!
+						- You just can hear whatever you wanna hear!
+						- The fact is all of whatever you are believing!
+						- The fact is all of whatever you are desiring!
+						- There's no fact out there, there's no fact out there, there's no true fact out there!
 		- Will Lei as an intense-world systems architect: an autobiographical analysis through neuroscience and systems theory
 		  id:: 69fdbffa-dc65-4d72-bbf6-d35bf88a3482
 		  collapsed:: true
