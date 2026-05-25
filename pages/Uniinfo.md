@@ -4268,8 +4268,12 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 		- ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((68fa164e-ef0e-4010-937d-ad9e0459f5f2))
 	- ## reality
 	  id:: 6a13f92f-3ab9-43b2-aba3-2f8204ef96d5
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6a13f92f-3ab9-43b2-aba3-2f8204ef96d5))
+	  collapsed:: true
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6a13f92f-3ab9-43b2-aba3-2f8204ef96d5)) is the state of things as they actually exist, which is traditionally split into external reality of objective outer existence and subjective inner mind – redefined as the living momentum of a subject's active, directional drive that continually updates its internal map to navigate and interact with other relative states.
 	- ## fact
+	  id:: 6a13f972-4d5a-4d84-9a84-61ea7576bbb5
+	  collapsed:: true
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6a13f972-4d5a-4d84-9a84-61ea7576bbb5))
 	- ## appearance
 	  id:: 66ab6161-0306-42d5-ac16-4155c69216f5
 	  collapsed:: true
