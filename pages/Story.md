@@ -1884,7 +1884,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- (Since:)
 						- Pain and pleasure walk side by side, like form and shadow.
 					- => ((67331a5a-1815-40c1-96db-ef7be8ee8d7b))
-				- Distorted view by the imbalanced mind
+				- Distorted view by the imbalanced mind, and the ((6a13f92f-3ab9-43b2-aba3-2f8204ef96d5)) (content) vs the ((6a13f972-4d5a-4d84-9a84-61ea7576bbb5)) (form)
 					- To a subject, there are no facts beside what (s)he can see.
 					- I remember the time my mother was annoyed by her own prejudice of Christianity. She brought that prejudice caused by her trauma years ago in Vietnam to Osaka – thousands of miles away. I couldn't help  uttering this chorus in a rap-rock rhythm:
 						- You just can see whatever you wanna see!

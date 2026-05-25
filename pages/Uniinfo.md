@@ -4249,7 +4249,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 									- Greed: Attaching to a “permanent” past success and trying to pull it into the now.
 									- Anger: Attaching to a “permanent” past injury and trying to re-fight it in the now.
 									- Delusion: The fundamental error of thinking that the history segments (data) are a Permanent Past (reality).
-			- Present: When some beings meet, their herenows mixmatch, resulting a **common fact** called “the present”, where most of the internal content of the beings – the “here” – are abstracted away leaving only the common form of “now”.
+			- Present: When some beings meet, their herenows mixmatch, resulting a **common fact** called “the present”, where most of the internal content of the beings – the “here” – are abstracted away (not participate in the interaction) leaving only the common form of “now”.
 				- The present is just the common part of many herenows of the participants, hence only a little portion of the Omnifold – the present dot (moment) – expressed through the interface between the selves.
 				- The [mixing](https://en.wikipedia.org/wiki/Mixing_(mathematics)) in the present is the arrow of time that [increases entropy](https://en.wikipedia.org/wiki/Entropy_of_mixing) by increasing extensity of the thread distribution via the multiplication of its extent by the number of participants to the meeting.
 				  id:: 69b7a10c-73c2-4d34-9269-a27e5f23b90b
