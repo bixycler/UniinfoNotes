@@ -1886,7 +1886,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- => ((67331a5a-1815-40c1-96db-ef7be8ee8d7b))
 				- Distorted view by the imbalanced mind
 					- To a subject, there are no facts beside what (s)he can see.
-					- I remember the time my mother was annoyed by her own prejudice of Christianity. She brought that prejudice caused by her trauma years ago in Vietnam to Osaka -- thousands of miles away. I couldn't help  uttering this chorus in a rap-rock rhythm:
+					- I remember the time my mother was annoyed by her own prejudice of Christianity. She brought that prejudice caused by her trauma years ago in Vietnam to Osaka – thousands of miles away. I couldn't help  uttering this chorus in a rap-rock rhythm:
 						- You just can see whatever you wanna see!
 						- You just can hear whatever you wanna hear!
 						- The fact is all of whatever you are believing!
