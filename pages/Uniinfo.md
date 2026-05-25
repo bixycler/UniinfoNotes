@@ -4203,7 +4203,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 		- ### arrow of time
 		  id:: 69a502fe-47e2-4629-a40c-78964d9e0396
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Arrow_of_time
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((69a502fe-47e2-4629-a40c-78964d9e0396)) is the selfless generator of the selful ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) which is a ((667d16f8-206e-4a85-80f3-24c2aa1bf4ad)) (segment) of ((68fa164e-ef0e-4010-937d-ad9e0459f5f2)). While change and its flow – time – are selful due to their ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) form, arrow of time is the **selfless mixing** of all threads at the point of contact between those selves.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((69a502fe-47e2-4629-a40c-78964d9e0396)) is the selfless generator of the selful ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) – a ((667d16f8-206e-4a85-80f3-24c2aa1bf4ad)) (segment) of ((68fa164e-ef0e-4010-937d-ad9e0459f5f2)). While change and its flow – time – are selful due to their ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) form, the arrow of time is the **selfless mixing** of all threads at the point of contact between those selves.
 				- concrete arrow of time
 				  is the ((669de102-8f98-4d96-bf00-4f4e602cb689)) including all participating change arrows and their selves, represented by the whole ((69b9470c-40e4-49ca-84df-1cb6a3379987)).
 				- abstract arrow of time
