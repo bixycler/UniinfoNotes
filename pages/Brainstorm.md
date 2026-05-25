@@ -14,7 +14,14 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- The holistic view vs the linear distortion
 		  id:: 6a144d80-dd78-4583-aabc-70c8187c7029
 		  collapsed:: true
-			- The ((6a071b20-7248-42da-88ed-633be610b6df)) is the holistic view of the whole circle, while the linear & dualistic view is just a local approximation. where the inner–outer worlds and past–present–future
+			- The ((6a071b20-7248-42da-88ed-633be610b6df)) is the holistic view of the whole circle, while the linear & dualistic view is just an approximation at the local position.
+			- The holographic root: Every local patch reflects the whole, just like every cell contains the genome of the entire body.
+				- But the compulsive fallacy is mistaking the local image for the absolute whole – like mistaking the symbol “∞” for infinity itself.
+			- The amnesiac prince: The subjective self is a projection of the whole universe into a little body, inheriting its agency from the global wholeness.
+				- By forgetting its circular root, it cuts itself short, becoming a separate entity standing against the external world.
+			- The linear distortion
+				- When the dynamic circular loop is pulled flat to a linear line of past–present–future and the dipole inner–outer worlds, it creates a tension – the **linear distortion**.
+					- Distortion toward either the external pole or the internal pole generates a **restoring force** to pull it back, operating like a spring.
 		- GUI toggle confusion: Symbols or labels showing **action vs state** is the **ambiguity** for all toggle in general.
 		  id:: 6a0c0740-42ff-4a27-af9f-a271a6716027
 		  collapsed:: true
