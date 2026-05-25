@@ -4249,13 +4249,13 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 									- Greed: Attaching to a “permanent” past success and trying to pull it into the now.
 									- Anger: Attaching to a “permanent” past injury and trying to re-fight it in the now.
 									- Delusion: The fundamental error of thinking that the history segments (data) are a Permanent Past (reality).
-			- Present: When my self (compound particle) meets your self, my herenow mixmatches with your herenow resulting a **common “now”**, with a little “less here”, which we usually call “the present”.
-				- The present is just the common part of many herenows of the participants, hence only a little portion of the Omnifold – the present dot (moment) – expressed through the interface between selves.
+			- Present: When some beings meet, their herenows mixmatch, resulting a **common fact** called “the present”.
+				- The present is just the common part of many herenows of the participants, hence only a little portion of the Omnifold – the present dot (moment) – expressed through the interface between the selves.
 				- The [mixing](https://en.wikipedia.org/wiki/Mixing_(mathematics)) in the present is the arrow of time that [increases entropy](https://en.wikipedia.org/wiki/Entropy_of_mixing) by increasing extensity of the thread distribution via the multiplication of its extent by the number of participants to the meeting.
 				  id:: 69b7a10c-73c2-4d34-9269-a27e5f23b90b
 				- The information is lost through the [many-to-one function](https://mathworld.wolfram.com/Many-to-One.html) of ((66727858-979d-4d95-8a90-7a749218cfba))s.
 				- The meeting is called [“wavefunction collapse” in QM](https://en.wikipedia.org/wiki/Wave_function_collapse) which reduces the uncertain futures (high entropy) into the certain prensent (low entropy).
-			- Past: After the meeting, the common herenow is stored in both my self and your self, which both project out to be “the past”.
+			- Past: After the meeting, the common fact is stored back into all participants, which both project out to be “the past”.
 			  id:: 69b79d25-16e5-458a-bf1b-05c927494107
 				- The past is a thread extending the present dot, hence just a small part of the Omifold.
 				- The past of 2 selves has 2 copies in the Omnifold, the past of $n$ selves has $n$ copies, and so on. The more particles observing the common past, the more it is copied, the more certain it is, hence the lower entropy the past has.
@@ -4283,7 +4283,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 		- inner reality
 		  id:: 6a143f0c-ee6c-4757-8a28-f8713b59eabd
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6a143ebe-7312-4df6-85c1-7a93b86d4b00))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((6a143f0c-ee6c-4757-8a28-f8713b59eabd)) of a being is the current state of the being, i.e. the content of its ((6a143f0c-ee6c-4757-8a28-f8713b59eabd)). In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), the inner reality of a being is usually called simply “its reality”.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((6a143f0c-ee6c-4757-8a28-f8713b59eabd)) of a being is the current state of the being, i.e. the content of its ((669a5387-2a97-4311-a295-aa0afd9c4d76)). In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), the inner reality of a being is usually called simply “its reality”.
 	- ## fact
 	  id:: 6a13f972-4d5a-4d84-9a84-61ea7576bbb5
 	  collapsed:: true
