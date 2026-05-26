@@ -1,7 +1,8 @@
-- test self link: 
-  id:: 6a1519c1-fd49-4390-a92a-1ffe2f520768
-	- ((6a1519c1-fd49-4390-a92a-1ffe2f520768))
-- ((6a1519c1-fd49-4390-a92a-1ffe2f520768))
+- with title
+  id:: 6a154b1d-e2e6-451b-a748-f42ea40f51f1
+- [ ((6a154b1d-e2e6-451b-a748-f42ea40f51f1)) ], [ ((6a154b33-fc36-4734-9add-c26f4c028e41)) ]
+- id:: 6a154b33-fc36-4734-9add-c26f4c028e41
+  > abc
 - ---
 - openness = porosity = entropy increase = arrow of time = mismatch between form & content =  curvature in distribution
 - past form = copy of present form = mixture of present content
