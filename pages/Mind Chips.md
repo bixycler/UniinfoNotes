@@ -1,9 +1,10 @@
 - with title
   id:: 6a154b1d-e2e6-451b-a748-f42ea40f51f1
 - [ ((6a154b1d-e2e6-451b-a748-f42ea40f51f1)) ], [ ((6a154b33-fc36-4734-9add-c26f4c028e41)) ] ((66bad570-4aa6-4a45-87d3-52fd1fff85a4))
-- fist line
-  id:: 6a154b33-fc36-4734-9add-c26f4c028e41
-  next line
+- id:: 6a154b33-fc36-4734-9add-c26f4c028e41
+  > + line  
+     cont.
+  + line
 - ---
 - openness = porosity = entropy increase = arrow of time = mismatch between form & content =  curvature in distribution
 - past form = copy of present form = mixture of present content
