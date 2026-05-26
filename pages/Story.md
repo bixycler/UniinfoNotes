@@ -1674,7 +1674,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- use [logseq](https://discuss.logseq.com/t/whats-new-with-logseq-db-april-26-2026/34977) as KG
 		- May journal
 		  id:: 69f839e5-22eb-419e-8c9d-31f56258fb55
-		  collapsed:: true
 			- April 30th – May 3rd, holidays & weekends
 			  collapsed:: true
 				- KG access through Logseq CLI
@@ -1714,7 +1713,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- But the dualistic separation is still like knife cutting through my heart 💔!
 						- ⇒ ((69faacc8-3e0b-4b4e-8939-a7c11dde9154)) with ((69fab080-8f7a-4156-b55f-59c3a4f36ebb))
 			- 5th, [Chat with Gemini](https://gemini.google.com/share/22447b18093a) to get the note of ((69f99afb-5535-4929-8d01-fbc804b91170)).
-			  collapsed:: true
 			- 7th, CIE interunion & SUM (Sensible Universe Model)
 			  collapsed:: true
 				- CIE interunion: const (1) = sustent = content(+) + intent(-) = (extent + 1) × intent
@@ -1734,7 +1732,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- https://www.sensibleuniversemodel.com/
 							- https://i-theorem.com/
 						- Frederik Takkenberg
-						  collapsed:: true
 							- https://www.frederiktakkenberg.com/
 							- https://www.facebook.com/frederik.takkenberg
 							- https://www.instagram.com/frederiktak/
@@ -1771,11 +1768,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  CLOCK: [2026-05-12 Tue 10:37:50]--[2026-05-12 Tue 11:36:08] =>  00:58:18
 					  :END:
 						- OpenCode Workspace = Git Worktree (copied [to Mind Jungle](((6a02ab36-67ae-4780-9cb7-2f907290ba7c))))
-						  collapsed:: true
 							- Open both projects `Corkei` and `Corkei.applets`, OpenCode showed only one `Corkei` at `~/source/Corkei/`.
 							- ⇒ `Corkei`/`...` > Enable Workspaces, then open `Corkei.applets`, it will be shown as a “sandbox” workspace in parallel with its automatic sandbox workspace when clicking `+ New workspace` (stored in `~/.local/share/opencode/worktree/`).
 							- Screenshot
-							  collapsed:: true
 								- ![OpenCode-workspaces.png](../assets/Will/story/2026-05/OpenCode-workspaces.png)
 							- Workspace startup script
 							  e.g. `bun install`
@@ -1789,7 +1784,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							        └── src
 							  ```
 						- OpenCode Browser plugin
-						  collapsed:: true
 							- Step 4: Extension ID
 								- Using fixed extension ID from manifest: `ncfalpcdanbcccbaakenefpokeioldgd`
 								  If you already loaded a different ID, rerun with `--extension-id` to override.
@@ -1825,7 +1819,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 15th, review both CIE viewcone and the company project to be release
 			  collapsed:: true
 				- ((6a06c541-a653-444c-b936-547054a42bd8)) ← [chat with Gemini](https://g.co/gemini/share/4593a0c47d10)
-				  collapsed:: true
 					- I hear "con man" in spoken English and always thought it was "cun man" with cunning... until now do i learn its correct spelling when i need to write it down. 
 					  Why "confidence" can be used to trick?
 					- Confidence is self trust, but why my trust on you proves my self trust?! 🤔
@@ -1852,19 +1845,19 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- ((6a0c0740-42ff-4a27-af9f-a271a6716027))
 				- My Antigravity Pro reached rate limit quickly ⇒ i must frequently summarize the thread to move to a new thread to shrink context size.
 			- 20th, my Antigravity just locked me out for the whole week ⇒ i must switch to OpenCode + DeepSeek
+			  collapsed:: true
 				- Following chatbot's suggestion that maybe this is a bug, i did all sorts of cleanup, revoking account connection, without effect. The only effect is my entire settings and history are wiped out.
-				- DOING I topped up $10 to https://platform.deepseek.com/top_up at home, then the next morning i discovered that my company has blocked deepseek.com (together with other AI sites) 🙁
+				- DONE I topped up $10 to https://platform.deepseek.com/top_up at home, then the next morning i discovered that my company has blocked deepseek.com (together with other AI sites) 🙁
 				  :LOGBOOK:
 				  CLOCK: [2026-05-26 Tue 10:28:56]
-				  CLOCK: [2026-05-26 Tue 10:29:08]
+				  CLOCK: [2026-05-26 Tue 10:29:08]--[2026-05-26 Tue 10:33:27] =>  00:04:19
 				  :END:
-					- Then i requested for a "usage out of whitelist" for both Claude.ai and DeepSeek.com, but got reply for only Claude.ai 🤔
-					- However,
+					- Then i requested for a "usage outside whitelist" for both Claude.ai and DeepSeek.com, but got reply for Claude.ai only 🤔
+					- However, DeepSeek.com has also been released for me together with Claude.ai.
 			- 21st, in the afternoon, Antigravity just released me! 😁 Refactored ((667500cd-a31d-4828-9dc4-93948e27e534)) and add ((6a0ef10f-4d01-4012-81e7-571da3b8c71b)).
-			- 23-24th,...
+			- 23-24th, recovery sleep and good old memories
 			  collapsed:: true
 				- After 10 hours of recovery sleep, i saw the “come and go” scene from the dream to the wake.
-				  collapsed:: true
 					- I shared my experience that everything just comes and goes with a close friend after lots of chaos have just passed by her life.
 					- My song “Love Comes and Goes” from my youth has been echoing in my mind.
 						- Người đã đến, người đã đi rồi;
@@ -1876,7 +1869,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Bao nhiêu bao nhiêu tình yêu khờ dại
 						- Giờ còn lại hư không.
 				- Happening to see the truth, now that i cannot unsee it to plunge into the fleeting pleasure anymore!
-				  collapsed:: true
 					- Lỡ Thấy Sự Thật!
 						- Lỡ thấy sự thật, hết đường lui
 						- Chẳng dám vô minh giấc ngủ vùi
