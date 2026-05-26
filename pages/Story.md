@@ -1855,7 +1855,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Then i requested for a "usage outside whitelist" for both Claude.ai and DeepSeek.com, but got reply for Claude.ai only 🤔
 					- However, DeepSeek.com has also been released for me together with Claude.ai.
 					- But seems that DeepSeek.com is only released in work time. 🤔
-				- DONE With effective caching (all history stored for 1-2 hours with 1% price) and cheap prices, DeepSeek has reduced my cost more than 10 times (up to 25 times) compared to Gemini.
+				- DONE With effective caching (all history stored for 1-2 hours with 1% price) and cheap prices, DeepSeek has reduced my cost more than 10 times (up to 25 times) compared to Gemini (cache hit costs 10% price and **hardly hit**).
 				  :LOGBOOK:
 				  CLOCK: [2026-05-26 Tue 15:25:42]--[2026-05-26 Tue 15:25:44] =>  00:00:02
 				  :END:
