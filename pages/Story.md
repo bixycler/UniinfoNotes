@@ -1897,7 +1897,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- There's no fact out there, there's no fact out there, there's no true fact out there!
 			- 26th,
 				- $-∞ = +∞$: At the extreme, the opposites merge: hardness, value, terror, awe, sublime, etc. 😱👺😁
-					- "Hard vs hardly", "invaluable vs not valuable", "terrific vs terrible", "awesome/awful vs negative awful", "the sublime"
+					- "Hard vs hardly", "invaluable vs not valuable", "terrific vs terrible", "awesome/awful vs negative awful", "the Sublime"
 		- Will Lei as an intense-world systems architect: an autobiographical analysis through neuroscience and systems theory
 		  id:: 69fdbffa-dc65-4d72-bbf6-d35bf88a3482
 		  collapsed:: true
