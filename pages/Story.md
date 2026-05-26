@@ -1852,8 +1852,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- ((6a0c0740-42ff-4a27-af9f-a271a6716027))
 				- My Antigravity Pro reached rate limit quickly ⇒ i must frequently summarize the thread to move to a new thread to shrink context size.
 			- 20th, my Antigravity just locked me out for the whole week ⇒ i must switch to OpenCode + DeepSeek
-			  collapsed:: true
 				- Following chatbot's suggestion that maybe this is a bug, i did all sorts of cleanup, revoking account connection, without effect. The only effect is my entire settings and history are wiped out.
+				- DOING I topped up $10 to https://platform.deepseek.com/top_up at home, then the next morning i discovered that my company has blocked deepseek.com (together with other AI sites) 🙁
+				  :LOGBOOK:
+				  CLOCK: [2026-05-26 Tue 10:28:56]
+				  CLOCK: [2026-05-26 Tue 10:29:08]
+				  :END:
+					- Then i requested for a "usage out of whitelist" for both Claude.ai and DeepSeek.com, but got reply for only Claude.ai 🤔
+					- However,
 			- 21st, in the afternoon, Antigravity just released me! 😁 Refactored ((667500cd-a31d-4828-9dc4-93948e27e534)) and add ((6a0ef10f-4d01-4012-81e7-571da3b8c71b)).
 			- 23-24th,...
 			  collapsed:: true
