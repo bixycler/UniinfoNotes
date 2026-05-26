@@ -26,14 +26,14 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- The circular and holistic view integrates these boundaries as a completion rather than a breakdown.
 					- The point at infinity $-∞ = +∞$ **compactifies** the space, binding the dualities into a singular, continuous manifold.
 					- Extremes do not diverge – they meet!
-					- This loop is completed in the Grand Circle (◯) of Unïnfo.
+					- This loop is completed in the ((6772a6cd-771f-4f24-9c3a-39c442234be5)).
 						- Diving deepest into a localized point (0) does not lead to a dead end, but actually loops around to return to the macroscopic universe ( $+∞ = -∞$ ).
 			- Linguistic Topology
 				- Polar opposites bend around and meet at a single point of extreme intensity.
 					- This mirrors the mathematical closure of a [projective line](https://en.wikipedia.org/wiki/Projective_line) or a [Riemann sphere](https://en.wikipedia.org/wiki/Riemann_sphere).
 					- At the absolute extremes, human psychology processes intensity before direction, dissolving semantic dualities.
 				- The loop of value: “invaluable” vs. “not valuable”
-					- Value normally runs from $0$ – worthless – to $+∞$ – infinitely expensive.
+					- Value normally runs from 0 – worthless – to $+∞$ – infinitely expensive.
 					- The negative prefix “in-” usually indicates inversion, yet “invaluable” loops past the positive extreme to defy the scale entirely.
 				- The point of magnitude: “terrific” vs. “terrible” and “awesome” vs. “awful”
 					- Both terms share the root of overwhelming magnitude – terror or awe.
