@@ -11,6 +11,14 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2026 Brainstorms
 	  id:: 6960e754-ff94-4e1a-8266-d9f15231b880
+		- DOING Circular completion by $-∞ = +∞$: the topological mapping of dualities from line to circle
+		  id:: 6a156ca7-8608-4db6-8d9d-ba0ba10dc926
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2026-05-26 Tue 16:49:28]
+		  CLOCK: [2026-05-26 Tue 16:49:30]
+		  :END:
+			-
 		- The holistic view vs the linear distortion
 		  id:: 6a144d80-dd78-4583-aabc-70c8187c7029
 		  collapsed:: true

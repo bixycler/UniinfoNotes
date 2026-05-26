@@ -1898,6 +1898,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 26th,
 				- $-∞ = +∞$: At the extreme, the opposites merge: hardness, value, terror, awe, sublime, etc. 😱👺😁
 					- "Hard vs hardly", "invaluable vs not valuable", "terrific vs terrible", "awesome/awful vs negative awful", "the Sublime"
+					- ⇒ ((6a156ca7-8608-4db6-8d9d-ba0ba10dc926))
 		- Will Lei as an intense-world systems architect: an autobiographical analysis through neuroscience and systems theory
 		  id:: 69fdbffa-dc65-4d72-bbf6-d35bf88a3482
 		  collapsed:: true
