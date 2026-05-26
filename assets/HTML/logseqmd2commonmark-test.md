@@ -48,3 +48,13 @@
 	- 7.1 Target block for local reference
 	  id:: 22222222-2222-2222-2222-222222222222
 	- 7.2 Reference block referencing the local target: ((22222222-2222-2222-2222-222222222222))
+- 8. True Positive Circular Reference:
+	- 8.1 Target A that references B: ((55555555-5555-5555-5555-555555555552))
+	  id:: 55555555-5555-5555-5555-555555555551
+	- 8.2 Target B that references A back: ((55555555-5555-5555-5555-555555555551))
+	  id:: 55555555-5555-5555-5555-555555555552
+- 9. False Positive Circular Reference via Titled Link (titled link creates a phantom edge → falsely circular without fix):
+	- 9.1 Target A that titled-links to B: [see B](((66666666-6666-6666-6666-666666666662)))
+	  id:: 66666666-6666-6666-6666-666666666661
+	- 9.2 Target B that references A back: ((66666666-6666-6666-6666-666666666661))
+	  id:: 66666666-6666-6666-6666-666666666662

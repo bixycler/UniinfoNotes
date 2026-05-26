@@ -351,7 +351,7 @@ function preprocessCodeBlocks(lines) {
 
 // Function to resolve nested UUID references in titles topologically
 function resolveTitleReferences(index, updateSlug = false) {
-  const PAT_REF = /\(\(([0-9a-fA-F-]{36})\)\)|\[\[([0-9a-fA-F-]{36})\]\]/g;
+  const PAT_REF = /(?<!\]\()\(\(([0-9a-fA-F-]{36})\)\)|\[\[([0-9a-fA-F-]{36})\]\]/g;
   
   const g = {};
   for (const id in index) {
