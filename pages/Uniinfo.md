@@ -1617,7 +1617,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 				  :LOGBOOK:
 				  CLOCK: [2024-06-21 Fri 15:32:54]
 				  :END:
-					- Beside [tree diagrams](((667500cd-a31d-4828-9dc4-93948e27e534))), a [tree structure](https://en.wikipedia.org/wiki/Tree_structure) can be represented by ((66752fbf-a751-4117-ae0d-17d9a19053e4)).
+					- Beside [tree diagrams](((667500cd-a31d-4828-9dc4-93948e27e534))), a [tree structure](https://en.wikipedia.org/wiki/Tree_structure) can be represented by a ((66752fbf-a751-4117-ae0d-17d9a19053e4)).
 				- tree diagrams
 				  id:: 667500cd-a31d-4828-9dc4-93948e27e534
 					- 3 tree diagrams of the same tree, showing their [components](((667530ed-809b-4d38-8522-1ae6c8449e28)))
