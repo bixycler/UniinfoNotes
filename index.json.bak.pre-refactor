@@ -17281,7 +17281,7 @@
     "sourceLine": 30,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
     "outputLine": 30,
-    "outputFile": "/tmp/logseq-test/logseqmd2commonmark-test.cm.md",
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
     "title": "5.1 Code Block:",
     "slug": "5-1-code-block"
   },
@@ -17289,7 +17289,7 @@
     "sourceLine": 36,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
     "outputLine": 32,
-    "outputFile": "/tmp/logseq-test/logseqmd2commonmark-test.cm.md",
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
     "title": "5.2 Math Block:",
     "slug": "5-2-math-block"
   },
@@ -17297,7 +17297,7 @@
     "sourceLine": 45,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
     "outputLine": 42,
-    "outputFile": "/tmp/logseq-test/logseqmd2commonmark-test.cm.md",
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
     "title": "6. Blank Bullet Leading to Spaced Code Block (Empty Title Blanking):",
     "slug": "6-blank-bullet-leading-to-spaced-code-block-empty-title-blanking"
   },
@@ -17305,7 +17305,7 @@
     "sourceLine": 49,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
     "outputLine": 45,
-    "outputFile": "/tmp/logseq-test/logseqmd2commonmark-test.cm.md",
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
     "title": "7.1 Target block for local reference",
     "slug": "7-1-target-block-for-local-reference"
   },
@@ -17313,7 +17313,7 @@
     "sourceLine": 24,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
     "outputLine": 22,
-    "outputFile": "/tmp/logseq-test/logseqmd2commonmark-test.cm.md",
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
     "title": "4.5 Blockquote with blank line and continuation text:",
     "slug": "4-5-blockquote-with-blank-line-and-continuation-text"
   },
@@ -17322,7 +17322,7 @@
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
     "sourceLine": 41,
     "slug": "6-blank-bullet-leading-to-spaced-code-block-empty-title-blanking",
-    "outputFile": "/tmp/logseq-test/logseqmd2commonmark-test.cm.md",
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
     "outputLine": 40
   },
   "6a144d80-dd78-4583-aabc-70c8187c7029": {
@@ -17460,53 +17460,5 @@
     "slug": "description-this-table-shows-all-commands-with-hotkey-assigned-with-custom-hotkeys-highlighted-and-checks-for-duplicates-using-a-dataviewjs-script-obsidian-dataview-from-obsidian-forum-https-forum-obsidian-md-t-obsidian-commands-hotkeys-and-duplicate-hotkey-assignments-55193",
     "outputFile": null,
     "outputLine": null
-  },
-  "55555555-5555-5555-5555-555555555551": {
-    "title": "8.1 Target A that references B: 55555555-5555-5555-5555-555555555552",
-    "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
-    "sourceLine": 53,
-    "slug": "8-1-target-a-that-references-b-55555555-5555-5555-5555-555555555552",
-    "outputFile": "/tmp/logseq-test/logseqmd2commonmark-test.cm.md",
-    "outputLine": 48
-  },
-  "55555555-5555-5555-5555-555555555552": {
-    "title": "8.2 Target B that references A back: 55555555-5555-5555-5555-555555555551",
-    "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
-    "sourceLine": 55,
-    "slug": "8-2-target-b-that-references-a-back-55555555-5555-5555-5555-555555555551",
-    "outputFile": "/tmp/logseq-test/logseqmd2commonmark-test.cm.md",
-    "outputLine": 49
-  },
-  "66666666-6666-6666-6666-666666666661": {
-    "title": "9.1 Target A that titled-links to B: [see B](((66666666-6666-6666-6666-666666666662)))",
-    "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
-    "sourceLine": 58,
-    "slug": "9-1-target-a-that-titled-links-to-b-see-b-66666666-6666-6666-6666-666666666662",
-    "outputFile": "/tmp/logseq-test/logseqmd2commonmark-test.cm.md",
-    "outputLine": 51
-  },
-  "66666666-6666-6666-6666-666666666662": {
-    "title": "9.2 Target B that references A back: 9.1 Target A that titled-links to B: [see B](((66666666-6666-6666-6666-666666666662)))",
-    "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
-    "sourceLine": 60,
-    "slug": "9-2-target-b-that-references-a-back-9-1-target-a-that-titled-links-to-b-see-b-66666666-6666-6666-6666-666666666662",
-    "outputFile": "/tmp/logseq-test/logseqmd2commonmark-test.cm.md",
-    "outputLine": 52
-  },
-  "77777777-7777-7777-7777-777777777771": {
-    "title": "10.1 First sibling that references §10.2: logseqmd2commonmark-test",
-    "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
-    "sourceLine": 63,
-    "slug": "10-1-first-sibling-that-references-10-2-logseqmd2commonmark-test",
-    "outputFile": "/tmp/logseq-test/logseqmd2commonmark-test.cm.md",
-    "outputLine": 54
-  },
-  "77777777-7777-7777-7777-777777777772": {
-    "title": "logseqmd2commonmark-test",
-    "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
-    "sourceLine": 64,
-    "slug": "logseqmd2commonmark-test",
-    "outputFile": "/tmp/logseq-test/logseqmd2commonmark-test.cm.md",
-    "outputLine": 55
   }
 }

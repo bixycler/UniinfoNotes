@@ -451,6 +451,90 @@ function resolveTitleReferences(index, updateSlug = false) {
   }
 }
 
+// Shared helpers for build-index.js and logseqmd2commonmark.js
+function parseArgValue(args, i, flag) {
+  if (i + 1 < args.length) {
+    return { value: path.resolve(args[i + 1]), i: i + 1 };
+  }
+  console.error(`Error: ${flag} requires a file path argument`);
+  process.exit(1);
+}
+
+function normalizePageHeader(rawLines) {
+  if (rawLines.length > 0) {
+    const trimmed = rawLines[0].trim();
+    if (trimmed.startsWith('#') && !trimmed.startsWith('- ')) {
+      const headingMatch = trimmed.match(/^#+\s/);
+      if (headingMatch) {
+        rawLines[0] = '- ' + rawLines[0].trimStart();
+      }
+    }
+  }
+  return rawLines;
+}
+
+function loadIndex(indexFile) {
+  let globalIndex = {};
+  if (fs.existsSync(indexFile)) {
+    try {
+      globalIndex = JSON.parse(fs.readFileSync(indexFile, 'utf8'));
+    } catch (e) {
+      console.error(`Warning: Failed to load index from ${indexFile}:`, e);
+    }
+  }
+  return globalIndex;
+}
+
+function saveIndex(indexFile, globalIndex) {
+  try {
+    const indexDir = path.dirname(indexFile);
+    if (!fs.existsSync(indexDir)) {
+      fs.mkdirSync(indexDir, { recursive: true });
+    }
+    fs.writeFileSync(indexFile, JSON.stringify(globalIndex, null, 2), 'utf8');
+  } catch (e) {
+    console.error(`Error saving index ${indexFile}:`, e);
+  }
+}
+
+function indexLines(filePath, cleanLines) {
+  const results = {};
+  let lastContentLine = path.basename(filePath, '.md');
+  let lastContentIndent = -1;
+
+  for (let i = 0; i < cleanLines.length; i++) {
+    const { line, originalIndex } = cleanLines[i];
+    const curIndent = line.length - line.trimStart().length;
+    const stripped = line.trim();
+
+    if (stripped.startsWith('__CODE_BLOCK_')) continue;
+
+    if (stripped.startsWith('- ')) {
+      let content = stripped.substring(2).trim();
+      const idMatch = content.match(PAT_ID_PROP);
+      if (idMatch) {
+        const uuid = idMatch[1];
+        const title = content.replace(idMatch[0], '').trim();
+        const effectiveTitle = title || (lastContentIndent < curIndent ? lastContentLine : path.basename(filePath, '.md'));
+        results[uuid] = { title: effectiveTitle, sourceLine: originalIndex + 1 };
+        if (title) {
+          lastContentLine = title;
+          lastContentIndent = curIndent;
+        }
+      } else {
+        lastContentLine = content || lastContentLine;
+        lastContentIndent = curIndent;
+      }
+    } else {
+      const idMatch = stripped.match(PAT_ID_PROP);
+      if (idMatch && lastContentLine) {
+        results[idMatch[1]] = { title: lastContentLine, sourceLine: originalIndex + 1 };
+      }
+    }
+  }
+  return results;
+}
+
 // Safe Node.js Environment Exports
 if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
   module.exports = {
@@ -471,7 +555,12 @@ if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
     slugify,
     getMarkdownFiles,
     preprocessCodeBlocks,
-    resolveTitleReferences
+    resolveTitleReferences,
+    parseArgValue,
+    normalizePageHeader,
+    loadIndex,
+    saveIndex,
+    indexLines
   };
 }
 

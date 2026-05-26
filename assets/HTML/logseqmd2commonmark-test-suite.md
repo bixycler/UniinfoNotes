@@ -138,6 +138,60 @@ This document tracks the edge cases and bugs discovered during the development o
     - Reference block: [Target block for local reference](#22222222-2222-2222-2222-222222222222)
     ```
 
+## 8. True Positive Circular Reference
+
+*   **Bug Description**: Two blocks that genuinely reference each other create a circular dependency in the title resolution graph. The resolver must detect this, warn, and break the cycle by replacing circular references with raw UUIDs.
+*   **Test Case**:
+    ```markdown
+    - 8.1 Target A that references B: ((55555555-5555-5555-5555-555555555552))
+      id:: 55555555-5555-5555-5555-555555555551
+    - 8.2 Target B that references A back: ((55555555-5555-5555-5555-555555555551))
+      id:: 55555555-5555-5555-5555-555555555552
+    ```
+*   **Expected Output**: The resolver detects the circular ref, warns about UUIDs `5555...5551` and `5555...5552`, and replaces each self-referencing `((...))` with the raw UUID:
+    ```markdown
+    - 8.1 Target A that references B: 55555555-5555-5555-5555-555555555552
+      <a class="logseq-meta" id="55555555-5555-5555-5555-555555555551" ></a>
+    - 8.2 Target B that references A back: 55555555-5555-5555-5555-555555555551
+      <a class="logseq-meta" id="55555555-5555-5555-5555-555555555552" ></a>
+    ```
+
+## 9. False Positive Circular Reference via Titled Link
+
+*   **Bug Description**: `resolveTitleReferences()` parses `[text](((uuid)))` titled links and treats the `((uuid))` inside the link syntax as an edge in the dependency graph. This creates a phantom dependency from A → B. If B transitively references A (even indirectly), the algorithm falsely detects a cycle. The `PAT_REF` regex must exclude `((uuid))` when preceded by `](` (i.e., inside a markdown link destination).
+*   **Test Case**:
+    ```markdown
+    - 9.1 Target A that titled-links to B: [see B](((66666666-6666-6666-6666-666666666662)))
+      id:: 66666666-6666-6666-6666-666666666661
+    - 9.2 Target B that references A back: ((66666666-6666-6666-6666-666666666661))
+      id:: 66666666-6666-6666-6666-666666666662
+    ```
+*   **Expected Output**: The negative lookbehind `(?<!\]\() ` in `PAT_REF` excludes the `((uuid))` inside the titled link. A's dependencies are empty (no edge to B), so no cycle is detected. Both titles resolve as normal links:
+    ```markdown
+    - 9.1 Target A that titled-links to B: [see B](#66666666-6666-6666-6666-666666666662)
+      <a class="logseq-meta" id="66666666-6666-6666-6666-666666666661" ></a>
+    - 9.2 Target B that references A back: [Target A that titled-links to B](#66666666-6666-6666-6666-666666666661)
+      <a class="logseq-meta" id="66666666-6666-6666-6666-666666666662" ></a>
+    ```
+
+## 10. Sibling `id::` Fallback Bug (lastContentLine contamination)
+
+*   **Bug Description**: The `lastContentLine` accumulator in `indexLines()` was a flat variable that tracked the most recent content line at any nesting level. When a bare `- id:: uuid` sibling (no title text) appears after a content-bearing sibling, it incorrectly inherits the content-bearing sibling's title instead of falling back to the page filename. If the inherited title contains a `((self-uuid))` reference, this creates a false self-dependency and triggers the circular-reference fallback (raw UUID).
+*   **Test Case**:
+    ```markdown
+    - 10. Sibling id:: Fallback Bug (lastContentLine sibling contamination):
+      - 10.1 First sibling that references §10.2: ((77777777-7777-7777-7777-777777777772))
+        id:: 77777777-7777-7777-7777-777777777771
+      - id:: 77777777-7777-7777-7777-777777777772
+    ```
+*   **Expected Output**: The indent-aware fallback (`lastContentIndent < curIndent`) prevents sibling contamination. `7777...7772` inherits the filename (page basename), not "10.1 First sibling that references §10.2: ((7777...7772))". The converted output renders the reference from 10.1 as a link to 10.2 using the filename:
+    ```markdown
+    - 10. Sibling id:: Fallback Bug (lastContentLine sibling contamination):
+      - 10.1 First sibling that references §10.2: [logseqmd2commonmark-test](#77777777-7777-7777-7777-777777777772)
+        <a class="logseq-meta" id="77777777-7777-7777-7777-777777777771" ></a>
+      - &nbsp; <a class="logseq-meta" id="77777777-7777-7777-7777-777777777772" ></a>
+    ```
+
 ---
 
 ### Executing Tests

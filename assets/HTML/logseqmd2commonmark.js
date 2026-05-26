@@ -16,7 +16,12 @@ const {
   slugify,
   getMarkdownFiles,
   preprocessCodeBlocks,
-  resolveTitleReferences
+  resolveTitleReferences,
+  parseArgValue,
+  normalizePageHeader,
+  loadIndex,
+  saveIndex,
+  indexLines
 } = utils;
 
 // Simple argument parser for CLI flags
@@ -29,29 +34,17 @@ const inputs = [];
 
 for (let i = 0; i < args.length; i++) {
   if (args[i] === '-i') {
-    if (i + 1 < args.length) {
-      indexFile = path.resolve(args[i + 1]);
-      i++;
-    } else {
-      console.error('Error: -i requires a file path argument');
-      process.exit(1);
-    }
+    const result = parseArgValue(args, i, '-i');
+    indexFile = result.value;
+    i = result.i;
   } else if (args[i] === '-o') {
-    if (i + 1 < args.length) {
-      outputPathArg = path.resolve(args[i + 1]);
-      i++;
-    } else {
-      console.error('Error: -o requires a path argument');
-      process.exit(1);
-    }
+    const result = parseArgValue(args, i, '-o');
+    outputPathArg = result.value;
+    i = result.i;
   } else if (args[i] === '-b' || args[i] === '--base') {
-    if (i + 1 < args.length) {
-      baseDirArg = path.resolve(args[i + 1]);
-      i++;
-    } else {
-      console.error('Error: -b/--base requires a directory path argument');
-      process.exit(1);
-    }
+    const result = parseArgValue(args, i, '-b/--base');
+    baseDirArg = result.value;
+    i = result.i;
   } else if (args[i] === '--break' || args[i] === '--br') {
     if (i + 1 < args.length) {
       const rawVal = args[i + 1].toLowerCase();
@@ -91,45 +84,14 @@ if (inputs.length === 0 || !outputPathArg) {
 
 // 1. Index Internal Blocks (UUID -> Title) for local freshness override
 function indexInternalBlocks(filePath, cleanLines) {
-  const mapping = {};
+  const results = indexLines(filePath, cleanLines);
+  const titleMap = {};
   const lineMap = {};
-  try {
-    let lastContentLine = path.basename(filePath, '.md');
-
-    for (let i = 0; i < cleanLines.length; i++) {
-      const { line, originalIndex } = cleanLines[i];
-      const stripped = line.trim();
-
-      if (stripped.startsWith('__CODE_BLOCK_')) {
-        continue;
-      }
-
-      if (stripped.startsWith('- ')) {
-        let content = stripped.substring(2).trim();
-        const idMatch = content.match(PAT_ID_PROP);
-        if (idMatch) {
-          const uuid = idMatch[1];
-          const title = content.replace(idMatch[0], '').trim();
-          mapping[uuid] = title || lastContentLine;
-          lineMap[uuid] = { srcLine: originalIndex + 1, srcFile: filePath };
-          lastContentLine = title || lastContentLine;
-        } else {
-          lastContentLine = content || lastContentLine;
-        }
-      } else {
-        // Check for property line (indented or top-level)
-        const idMatch = stripped.match(PAT_ID_PROP);
-        if (idMatch && lastContentLine) {
-          const uuid = idMatch[1];
-          mapping[uuid] = lastContentLine;
-          lineMap[uuid] = { srcLine: originalIndex + 1, srcFile: filePath };
-        }
-      }
-    }
-  } catch (e) {
-    console.error('Error indexing blocks:', e);
+  for (const [uuid, entry] of Object.entries(results)) {
+    titleMap[uuid] = entry.title;
+    lineMap[uuid] = { srcLine: entry.sourceLine, srcFile: filePath };
   }
-  return { titleMap: mapping, lineMap };
+  return { titleMap, lineMap };
 }
 
 function buildLinkTarget(uuid, inputPath, outputPath, sourceLineMap) {
@@ -427,14 +389,9 @@ if (!baseDir && outputPathArg) {
 }
 
 // 2. Load global index if it exists
-let globalIndex = {};
-if (fs.existsSync(indexFile)) {
-  try {
-    globalIndex = JSON.parse(fs.readFileSync(indexFile, 'utf8'));
-    console.log(`Loaded ${Object.keys(globalIndex).length} external definitions from index.`);
-  } catch (e) {
-    console.error(`Warning: Failed to load index from ${indexFile}:`, e);
-  }
+const globalIndex = loadIndex(indexFile);
+if (Object.keys(globalIndex).length > 0) {
+  console.log(`Loaded ${Object.keys(globalIndex).length} external definitions from index.`);
 }
 
 // 3. Build base maps from global index
@@ -476,16 +433,7 @@ for (const file of mdFiles) {
   const content = fs.readFileSync(file, 'utf8');
   let rawLines = content.split('\n');
 
-  // Page-Header Item Normalization
-  if (rawLines.length > 0) {
-    const trimmed = rawLines[0].trim();
-    if (trimmed.startsWith('#') && !trimmed.startsWith('- ')) {
-      const headingMatch = trimmed.match(/^#+\s/);
-      if (headingMatch) {
-        rawLines[0] = '- ' + rawLines[0].trimStart();
-      }
-    }
-  }
+  normalizePageHeader(rawLines);
 
   const { cleanLines, codeBlockMap } = preprocessCodeBlocks(rawLines);
 
@@ -558,13 +506,5 @@ for (const uuid in sourceLineMap) {
 }
 
 // 6. Save the updated global index
-try {
-  const indexDir = path.dirname(indexFile);
-  if (!fs.existsSync(indexDir)) {
-    fs.mkdirSync(indexDir, { recursive: true });
-  }
-  fs.writeFileSync(indexFile, JSON.stringify(globalIndex, null, 2), 'utf8');
-  console.log(`\nGlobal index successfully updated at ${indexFile}`);
-} catch (e) {
-  console.error('Error saving updated global index:', e);
-}
+saveIndex(indexFile, globalIndex);
+console.log(`\nGlobal index successfully updated at ${indexFile}`);
