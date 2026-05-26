@@ -1,4 +1,7 @@
-- ((6776890b-c9a4-4ba9-8cf0-ac8d78d76a14))
+- test self link: 
+  id:: 6a1519c1-fd49-4390-a92a-1ffe2f520768
+	- ((6a1519c1-fd49-4390-a92a-1ffe2f520768))
+- ((6a1519c1-fd49-4390-a92a-1ffe2f520768))
 - ---
 - openness = porosity = entropy increase = arrow of time = mismatch between form & content =  curvature in distribution
 - past form = copy of present form = mixture of present content

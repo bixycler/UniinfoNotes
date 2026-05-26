@@ -138,9 +138,9 @@ This document tracks the edge cases and bugs discovered during the development o
     - Reference block: [Target block for local reference](#22222222-2222-2222-2222-222222222222)
     ```
 
-## 8. True Positive Circular Reference
+## 8. True Positive Circular Reference via Bare Block Ref (Transclusion, Mirror)
 
-*   **Bug Description**: Two blocks that genuinely reference each other create a circular dependency in the title resolution graph. The resolver must detect this, warn, and break the cycle by replacing circular references with raw UUIDs.
+*   **Bug Description**: Two blocks that genuinely reference each other via bare `((uuid))` transclusion in their **titles** create a circular dependency in the title resolution graph (the cycle lives in the title transclusion, not in any link syntax). The resolver must detect this, warn, and break the cycle by replacing circular references with raw UUIDs.
 *   **Test Case**:
     ```markdown
     - 8.1 Target A that references B: ((55555555-5555-5555-5555-555555555552))
