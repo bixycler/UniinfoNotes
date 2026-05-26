@@ -1296,10 +1296,10 @@
     "outputLine": 4010
   },
   "676e8305-edc2-4379-a6f4-e7d9cc5ef765": {
-    "title": "query-table:: true",
+    "title": "Namespace",
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Namespace.md",
     "sourceLine": 56,
-    "slug": "query-table-true",
+    "slug": "namespace",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
     "outputLine": 52
   },
@@ -7384,10 +7384,10 @@
     "outputLine": 3
   },
   "66600918-7717-48c0-9869-1776d05035f1": {
-    "title": "***Pinned***: Logseq",
+    "title": "Workspace",
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Workspace.md",
     "sourceLine": 7,
-    "slug": "pinned-logseq",
+    "slug": "workspace",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Workspace.cm.md",
     "outputLine": 4
   },
@@ -7976,10 +7976,10 @@
     "outputLine": 456
   },
   "6776890b-c9a4-4ba9-8cf0-ac8d78d76a14": {
-    "title": "[:b {:style \"background-color:Orange; color:DarkRed\"} \" BACK TO WORK! \"]",
+    "title": "2024 Brainstorms",
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/history/2024 Brainstorms.md",
     "sourceLine": 1159,
-    "slug": "b-style-background-color-orange-color-darkred-back-to-work",
+    "slug": "2024-brainstorms",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/history/2024 Brainstorms.cm.md",
     "outputLine": 798
   },
@@ -8016,10 +8016,10 @@
     "outputLine": 1028
   },
   "66f6b7c0-d8af-4d48-9b98-e82f314449d5": {
-    "title": "Note: Don't set both `filter:: (nothing)^` and `child-filter:: (nothing)^` because it makes the search domain empty!",
+    "title": "2024 Brainstorms",
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/history/2024 Brainstorms.md",
     "sourceLine": 1419,
-    "slug": "note-don-t-set-both-filter-nothing-and-child-filter-nothing-because-it-makes-the-search-domain-empty",
+    "slug": "2024-brainstorms",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/history/2024 Brainstorms.cm.md",
     "outputLine": 1044
   },
@@ -8304,10 +8304,10 @@
     "outputLine": 165
   },
   "66bad570-4aa6-4a45-87d3-52fd1fff85a4": {
-    "title": "![Liquidation](../assets/Will/story/2023-12/Liquidation-410099064_1096396218470719_1703045870467255964_n.png)",
+    "title": "2024 Stories",
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/history/2024 Stories.md",
     "sourceLine": 242,
-    "slug": "liquidation-assets-will-story-2023-12-liquidation-410099064_1096396218470719_1703045870467255964_n-png",
+    "slug": "2024-stories",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/history/2024 Stories.cm.md",
     "outputLine": 174
   },
@@ -10400,18 +10400,18 @@
     "outputLine": 415
   },
   "67baf59b-2da2-497d-b788-8b509715fde0": {
-    "title": "> The unithread is [directed (bent)](((67baf59b-2da2-497d-b788-8b509715fde0))) around by the constraints set by equations (=)s AKA. “conscious points”, “contact points”",
+    "title": "2025 Stories",
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/history/2025 Stories.md",
     "sourceLine": 542,
-    "slug": "the-unithread-is-directed-bent-67baf59b-2da2-497d-b788-8b509715fde0-around-by-the-constraints-set-by-equations-s-aka-conscious-points-contact-points",
+    "slug": "2025-stories",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/history/2025 Stories.cm.md",
     "outputLine": 422
   },
   "67baf71f-a1dc-4f9e-b62b-f150d7ced6b0": {
-    "title": "Note that in those days, i'd not coined the term Ω-thread yet, thus “unithread” is used instead.",
+    "title": "2025 Stories",
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/history/2025 Stories.md",
     "sourceLine": 546,
-    "slug": "note-that-in-those-days-i-d-not-coined-the-term-thread-yet-thus-unithread-is-used-instead",
+    "slug": "2025-stories",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/history/2025 Stories.cm.md",
     "outputLine": 426
   },
@@ -15054,18 +15054,18 @@
     "outputLine": 62
   },
   "67850fd2-272d-48fa-9d7c-c649619b5a89": {
-    "title": "Back to WORK!",
+    "title": "Task",
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Task.md",
     "sourceLine": 98,
-    "slug": "back-to-work",
+    "slug": "task",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Task.cm.md",
     "outputLine": 63
   },
   "67850fe1-3e22-430e-9af9-a84853766dd7": {
-    "title": "Back to WORK!",
+    "title": "Task",
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Task.md",
     "sourceLine": 102,
-    "slug": "back-to-work",
+    "slug": "task",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Task.cm.md",
     "outputLine": 67
   },
@@ -15590,10 +15590,10 @@
     "outputLine": 789
   },
   "677bf3f1-b53b-4d9b-9c4a-5182b2a96a76": {
-    "title": "Get back to COMPANY WORK!",
+    "title": "2024 Brainstorms",
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/history/2024 Brainstorms.md",
     "sourceLine": 1150,
-    "slug": "get-back-to-company-work",
+    "slug": "2024-brainstorms",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/history/2024 Brainstorms.cm.md",
     "outputLine": 790
   },
