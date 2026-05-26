@@ -1,3 +1,4 @@
+- ((67baf59b-2da2-497d-b788-8b509715fde0))
 - ---
 - openness = porosity = entropy increase = arrow of time = mismatch between form & content =  curvature in distribution
 - past form = copy of present form = mixture of present content
