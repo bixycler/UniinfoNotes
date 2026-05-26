@@ -26,9 +26,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- The circular and holistic view integrates these boundaries as a completion rather than a breakdown.
 					- The point at infinity $-∞ = +∞$ **compactifies** the space, binding the dualities into a singular, continuous manifold.
 					- Extremes do not diverge – they meet!
-					- This loop is completed in the ((6772a6cd-771f-4f24-9c3a-39c442234be5)).
-						- Diving deepest into a localized point (0) does not lead to a dead end, but actually loops around to return to the macroscopic universe ( $+∞ = -∞$ ).
-			- Linguistic Topology
+					- This loop is completed in the ((6772a6cd-771f-4f24-9c3a-39c442234be5)): Diving deepest into a localized point ($\log(0) = -∞$) does not lead to a dead end, but actually loops around to return to the macroscopic universe ($+∞$).
+			- Looping Topology in Linguistics
 				- Polar opposites bend around and meet at a single point of extreme intensity.
 					- This mirrors the mathematical closure of a [projective line](https://en.wikipedia.org/wiki/Projective_line) or a [Riemann sphere](https://en.wikipedia.org/wiki/Riemann_sphere).
 					- At the absolute extremes, human psychology processes intensity before direction, dissolving semantic dualities.
@@ -41,7 +40,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- The reversal of direction: “hard” vs. “hardly”
 					- The word “hard” represents maximum effort, while “hardly” represents almost zero presence.
 					- This acts like the function $f(x) = \frac{1}{x}$ , where reaching the peak of effort instantly drops the state to an infinitesimal whisper above zero.
-			- Geometric and Physical Transpositions
+			- The Strange Loop of Physical Transpositions
 				- The groundless space of general relativity
 					- Spacetime has no fixed background – it curves and shapes itself in response to its content.
 					- Curvature is not a glitch, but the natural geometry of a unified system.
@@ -49,7 +48,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- To a linear observer, a black hole looks like an absolute endpoint – a catastrophic singularity of infinite density.
 					- In a circular topology, the deepest dive into a localized point is a throat that loops back to the macroscopic universe.
 					- Passing through the absolute choke point of 0 strips the local parameters and projects the entity back as the global whole.
-			- Quantum and Metaphysical Expansion
+			- The Strange Loop of Quantum and Metaphysical Expansion
 				- The **particle–wave transition**
 					- Everyday physical life functions as a collapsed wave function.
 					- The observer experiences themselves as a localized particle navigating space and time linearly.

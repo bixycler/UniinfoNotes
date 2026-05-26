@@ -1895,7 +1895,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- The fact is all of whatever you are believing!
 						- The fact is all of whatever you are desiring!
 						- There's no fact out there, there's no fact out there, there's no true fact out there!
-			- 26th,
+			- 26th, questing for a way to keep the Grand Circle & Vacantism while working... i accidentally met the strange loop in linguistics with [the Sublime](https://en.wikipedia.org/wiki/Sublime_(philosophy)).
+			  collapsed:: true
 				- $-∞ = +∞$: At the extreme, the opposites merge: hardness, value, terror, awe, sublime, etc. 😱👺😁
 					- "Hard vs hardly", "invaluable vs not valuable", "terrific vs terrible", "awesome/awful vs negative awful", "the Sublime"
 					- ⇒ ((6a156ca7-8608-4db6-8d9d-ba0ba10dc926))
