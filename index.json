@@ -1296,10 +1296,10 @@
     "outputLine": 4010
   },
   "676e8305-edc2-4379-a6f4-e7d9cc5ef765": {
-    "title": "Namespace",
+    "title": "\t  #+BEGIN_QUERY\n\t  {:title [:h2 \"List of Topics with Discussion\"]\n\t   :inputs [ [:block/uuid #uuid \"665359ff-79f1-4669-b10b-f2b0e633a7c1\"] ]\n\t   :query [\n\t    :find (pull ?b [*])\n\t    :in $ ?disc\n\t    :where\n\t     [?discb :block/parent ?b]\n\t     [?discb :block/refs ?disc]\n\t   ] ; end query\n\t   ;:remove-block-children? false\n\t   ;:result-transform (fn [r] (map (fn [m] (assoc m :block/collapsed? true)) r))\n\t  }\n\t  #+END_QUERY",
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Namespace.md",
     "sourceLine": 56,
-    "slug": "namespace",
+    "slug": "begin_query-title-h2-list-of-topics-with-discussion-inputs-block-uuid-uuid-665359ff-79f1-4669-b10b-f2b0e633a7c1-query-find-pull-b-in-disc-where-discb-block-parent-b-discb-block-refs-disc-end-query-remove-block-children-false-result-transform-fn-r-map-fn-m-assoc-m-block-collapsed-true-r-end_query",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Namespace.cm.md",
     "outputLine": 52
   },
@@ -7976,10 +7976,10 @@
     "outputLine": 456
   },
   "6776890b-c9a4-4ba9-8cf0-ac8d78d76a14": {
-    "title": "2024 Brainstorms",
+    "title": "\t\t\t  #+BEGIN_WARNING\n\t\t\t  [:b {:style \"background-color:OrangeRed; color:White\"} \" ¡¡¡ BACK TO WORK !!! \"]\n\t\t\t  #+END_WARNING",
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/history/2024 Brainstorms.md",
     "sourceLine": 1159,
-    "slug": "2024-brainstorms",
+    "slug": "begin_warning-b-style-background-color-orangered-color-white-back-to-work-end_warning",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/history/2024 Brainstorms.cm.md",
     "outputLine": 798
   },
@@ -13338,10 +13338,10 @@
   "6880a9a5-b5d3-4542-b378-31cf40ea8476": {
     "outputLine": 1702,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "sourceLine": 2157,
+    "sourceLine": 2160,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
-    "title": "Commentaries:",
-    "slug": "commentaries"
+    "title": "\t\t\t  > I'm just a no-one going nowhere to do nothing!",
+    "slug": "i-m-just-a-no-one-going-nowhere-to-do-nothing"
   },
   "67760c43-58c6-40eb-b874-40afae448966": {
     "outputLine": 1716,
@@ -15590,10 +15590,10 @@
     "outputLine": 789
   },
   "677bf3f1-b53b-4d9b-9c4a-5182b2a96a76": {
-    "title": "2024 Brainstorms",
+    "title": "\t\t\t  #+BEGIN_CAUTION\n\t\t\t  [:b {:style \"background-color:Orange; color:DarkRed\"} \" BACK TO WORK! \"]\n\t\t\t  #+END_CAUTION",
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/history/2024 Brainstorms.md",
     "sourceLine": 1150,
-    "slug": "2024-brainstorms",
+    "slug": "begin_caution-b-style-background-color-orange-color-darkred-back-to-work-end_caution",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/history/2024 Brainstorms.cm.md",
     "outputLine": 790
   },
@@ -17546,7 +17546,7 @@
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Chips.md",
     "outputLine": 2,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Chips.cm.md",
-    "title": "Mind Chips",
-    "slug": "mind-chips"
+    "title": "  prop1:: 1\n  prop2:: two",
+    "slug": "prop1-1-prop2-two"
   }
 }

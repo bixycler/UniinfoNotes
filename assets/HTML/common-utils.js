@@ -386,13 +386,18 @@ function preprocessStructuredBlocks(lines) {
       continue;
     }
 
-    // --- Props block: contiguous PAT_PROP + LOGBOOK lines ---
+    // --- Props block: contiguous PAT_PROP lines, with LOGBOOK spans treated atomically ---
     if (line.match(PAT_PROP) || line.match(PAT_LB_START) || line.match(PAT_LB_END)) {
       const currentBlock = [line];
       const token = `__PROPS_BLOCK_${blockIndex++}__`;
+      let inLogbook = !!line.match(PAT_LB_START);
       for (let j = i + 1; j < lines.length; j++) {
-        if (!lines[j].match(PAT_PROP) && !lines[j].match(PAT_LB_START) && !lines[j].match(PAT_LB_END)) break;
-        currentBlock.push(lines[j]);
+        const next = lines[j];
+        if (next.match(PAT_LB_START)) { inLogbook = true; currentBlock.push(next); }
+        else if (next.match(PAT_LB_END)) { inLogbook = false; currentBlock.push(next); }
+        else if (inLogbook) { currentBlock.push(next); }
+        else if (next.match(PAT_PROP)) { currentBlock.push(next); }
+        else { break; }
       }
       blockMap[token] = { type: 'props', lines: currentBlock };
       cleanLines.push({ line: token, originalIndex: i });
@@ -570,9 +575,12 @@ function isStructuredBlockToken(stripped) {
 }
 
 function filterSystemProps(lines) {
+  let inLogbook = false;
   return lines.filter(line => {
     const trimmed = line.trim();
-    if (trimmed.match(PAT_LB_START) || trimmed.match(PAT_LB_END)) return false;
+    if (trimmed.match(PAT_LB_START)) { inLogbook = true; return false; }
+    if (trimmed.match(PAT_LB_END)) { inLogbook = false; return false; }
+    if (inLogbook) return false;
     const propMatch = trimmed.match(PAT_PROP);
     if (propMatch && (propMatch[1] === 'id' || propMatch[1] === 'collapsed')) return false;
     return true;
@@ -627,12 +635,13 @@ function indexLines(filePath, cleanLines, blockMap) {
                 if (filtered.length > 0) {
                   effectiveTitle = filtered.join('\n');
                   firstContentLine = filtered[0].replace(PAT_PROP, '$2').trim();
+                  break;
                 }
               } else {
                 effectiveTitle = block.lines.join('\n');
                 firstContentLine = block.lines.find(l => l.trim() && !l.match(PAT_PROP)) || '';
+                break;
               }
-              break;
             }
 
             // Regular content line
