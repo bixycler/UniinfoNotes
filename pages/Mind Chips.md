@@ -1,4 +1,13 @@
-- ((677bf3f1-b53b-4d9b-9c4a-5182b2a96a76))
+- props block: ((6a16c00c-eb5d-42ee-abe7-e004db727423)) after mirror
+- id:: 6a16c00c-eb5d-42ee-abe7-e004db727423
+  collapsed:: true
+  :LOGBOOK:
+  CLOCK: [2026-05-27 Wed 17:04:05]--[2026-05-27 Wed 17:04:19] =>  00:00:14
+  :END:
+  prop1:: 1
+  prop2:: two
+  collapsed:: true
+	- sub item
 - ---
 - openness = porosity = entropy increase = arrow of time = mismatch between form & content =  curvature in distribution
 - past form = copy of present form = mixture of present content
