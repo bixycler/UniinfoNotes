@@ -17540,5 +17540,13 @@
     "slug": "tags-user-property-scoping-some-page",
     "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
     "outputLine": 69
+  },
+  "6a16c00c-eb5d-42ee-abe7-e004db727423": {
+    "sourceLine": 2,
+    "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Chips.md",
+    "outputLine": 2,
+    "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Chips.cm.md",
+    "title": "Mind Chips",
+    "slug": "mind-chips"
   }
 }
