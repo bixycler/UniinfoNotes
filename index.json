@@ -17548,5 +17548,21 @@
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Chips.cm.md",
     "title": "  prop1:: 1\n  prop2:: two",
     "slug": "prop1-1-prop2-two"
+  },
+  "99999999-9999-9999-9999-999999999991": {
+    "title": "\t  #+BEGIN_WARNING\n\t  System-props-only then Org block\n\t  #+END_WARNING",
+    "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
+    "sourceLine": 81,
+    "slug": "begin_warning-system-props-only-then-org-block-end_warning",
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
+    "outputLine": 73
+  },
+  "99999999-9999-9999-9999-999999999992": {
+    "title": "\t  prop1:: value 1\n\t  prop2:: value 2",
+    "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
+    "sourceLine": 86,
+    "slug": "prop1-value-1-prop2-value-2",
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
+    "outputLine": 74
   }
 }

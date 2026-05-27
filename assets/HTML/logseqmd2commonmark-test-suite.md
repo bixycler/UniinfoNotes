@@ -220,15 +220,31 @@ Verify the output `.cm.md` file visually or via a Markdown AST parser to ensure 
       tags:: User Property
       scoping:: [[Some Page]]
       collapsed:: true
+    - id:: 99999999-9999-9999-9999-999999999991
+      collapsed:: true
+      #+BEGIN_WARNING
+      System-props-only then Org block
+      #+END_WARNING
+    - id:: 99999999-9999-9999-9999-999999999992
+      collapsed:: true
+      :LOGBOOK:
+      CLOCK: [2026-01-01 Mon 00:00]--[2026-01-01 Mon 01:00] =>  01:00
+      :END:
+      prop1:: value 1
+      prop2:: value 2
     - References to each transcluded block:
       - `__CODE_BLOCK_` transclusion: ((88888888-8888-8888-8888-888888888881))
       - `__BLOCKQUOTE_` transclusion: ((88888888-8888-8888-8888-888888888882))
       - `__ORG_BLOCK_` transclusion: ((88888888-8888-8888-8888-888888888883))
       - `__PROPS_BLOCK_` transclusion (user props only): ((88888888-8888-8888-8888-888888888884))
+      - System-props-only then Org block: ((99999999-9999-9999-9999-999999999991))
+      - LOGBOOK then user props: ((99999999-9999-9999-9999-999999999992))
     ```
-*   **Expected Output** (among other changes):
-    - `8888...8881` title in index: the code block content (lines inside the fences)
+*   **Expected Output**:
+    - `8888...8881` title: the code block content (lines inside the fences)
     - `8888...8882` title: the blockquote content including lazy continuations
     - `8888...8883` title: the full Org block content (`#+BEGIN_CAUTION` … `#+END_CAUTION`)
     - `8888...8884` title: user properties only — `tags:: User Property\nscoping:: [[Some Page]]` (without `collapsed:: true`)
+    - `9999...9991` title: the Org block content after `collapsed::` (scan continued past empty-filtered props block) — `#+BEGIN_WARNING\nSystem-props-only then Org block\n#+END_WARNING`
+    - `9999...9992` title: user properties only — `prop1:: value 1\nprop2:: value 2` (LOGBOOK and `collapsed::` excluded)
     - Reference lines in `.cm.md` output render as titled links using transcluded content, with no raw placeholder tokens leaking into output

@@ -78,8 +78,22 @@
 	  tags:: User Property
 	  scoping:: [[Some Page]]
 	  collapsed:: true
+	- id:: 99999999-9999-9999-9999-999999999991
+	  collapsed:: true
+	  #+BEGIN_WARNING
+	  System-props-only then Org block
+	  #+END_WARNING
+	- id:: 99999999-9999-9999-9999-999999999992
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2026-01-01 Mon 00:00]--[2026-01-01 Mon 01:00] =>  01:00
+	  :END:
+	  prop1:: value 1
+	  prop2:: value 2
 	- References to each transcluded block:
 	  - `__CODE_BLOCK_` transclusion: ((88888888-8888-8888-8888-888888888881))
 	  - `__BLOCKQUOTE_` transclusion: ((88888888-8888-8888-8888-888888888882))
 	  - `__ORG_BLOCK_` transclusion: ((88888888-8888-8888-8888-888888888883))
 	  - `__PROPS_BLOCK_` transclusion (user props only): ((88888888-8888-8888-8888-888888888884))
+	  - System-props-only then Org block: ((99999999-9999-9999-9999-999999999991))
+	  - LOGBOOK then user props: ((99999999-9999-9999-9999-999999999992))
