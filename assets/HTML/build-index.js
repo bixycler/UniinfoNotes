@@ -5,7 +5,7 @@ const utils = require('./common-utils');
 const {
   slugify,
   getMarkdownFiles,
-  preprocessCodeBlocks,
+  preprocessStructuredBlocks,
   resolveTitleReferences,
   parseArgValue,
   normalizePageHeader,
@@ -40,8 +40,8 @@ function indexFileBlocks(filePath) {
     const content = fs.readFileSync(filePath, 'utf8');
     let rawLines = content.split('\n');
     normalizePageHeader(rawLines);
-    const { cleanLines } = preprocessCodeBlocks(rawLines);
-    const results = indexLines(filePath, cleanLines);
+    const { cleanLines, blockMap } = preprocessStructuredBlocks(rawLines);
+    const results = indexLines(filePath, cleanLines, blockMap);
     for (const [uuid, entry] of Object.entries(results)) {
       blocks[uuid] = {
         title: entry.title,

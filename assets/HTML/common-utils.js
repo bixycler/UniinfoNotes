@@ -348,13 +348,15 @@ function preprocessStructuredBlocks(lines) {
       continue;
     }
 
-    // --- Blockquote: > (contiguous non-blank lines) ---
+    // --- Blockquote: > (contiguous non-blank lines, stops at new list items) ---
     if (trimmed.startsWith('>')) {
       const currentBlock = [line];
       const token = `__BLOCKQUOTE_${blockIndex++}__`;
       for (let j = i + 1; j < lines.length; j++) {
-        if (lines[j].trim().length === 0) break;
-        currentBlock.push(lines[j]);
+        const next = lines[j];
+        if (next.trim().length === 0) break;
+        if (next.trimStart().startsWith('- ')) break;
+        currentBlock.push(next);
       }
       blockMap[token] = { type: 'blockquote', lines: currentBlock };
       cleanLines.push({ line: token, originalIndex: i });

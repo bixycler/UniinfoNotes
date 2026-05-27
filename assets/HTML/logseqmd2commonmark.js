@@ -15,13 +15,14 @@ const {
   escapeXML,
   slugify,
   getMarkdownFiles,
-  preprocessCodeBlocks,
+  preprocessStructuredBlocks,
   resolveTitleReferences,
   parseArgValue,
   normalizePageHeader,
   loadIndex,
   saveIndex,
-  indexLines
+  indexLines,
+  expandBlockToken
 } = utils;
 
 // Simple argument parser for CLI flags
@@ -83,8 +84,8 @@ if (inputs.length === 0 || !outputPathArg) {
 }
 
 // 1. Index Internal Blocks (UUID -> Title) for local freshness override
-function indexInternalBlocks(filePath, cleanLines) {
-  const results = indexLines(filePath, cleanLines);
+function indexInternalBlocks(filePath, cleanLines, blockMap) {
+  const results = indexLines(filePath, cleanLines, blockMap);
   const titleMap = {};
   const lineMap = {};
   for (const [uuid, entry] of Object.entries(results)) {
@@ -107,7 +108,7 @@ function buildLinkTarget(uuid, inputPath, outputPath, sourceLineMap) {
   return target;
 }
 // 2. Convert File
-function convertFile(inputPath, outputPath, uuidMap, sourceLineMap, cleanLines, codeBlockMap) {
+function convertFile(inputPath, outputPath, uuidMap, sourceLineMap, cleanLines, blockMap) {
   try {
     let nmd = '';
     let outputLine = 0; // 1‑based line counter for the generated file
@@ -125,11 +126,31 @@ function convertFile(inputPath, outputPath, uuidMap, sourceLineMap, cleanLines, 
     for (let i = 0; i < cleanLines.length; i++) {
       let ln = cleanLines[i].line;
 
-      if (ln.startsWith('__CODE_BLOCK_') && codeBlockMap.has(ln)) {
-        const originalLines = codeBlockMap.get(ln);
-        for (const codeLine of originalLines) {
+      if (ln.startsWith('__CODE_BLOCK_') && blockMap && blockMap[ln]) {
+        for (const codeLine of blockMap[ln].lines) {
           nmd += codeLine + '\n';
           outputLine++;
+        }
+        continue;
+      }
+
+      // Expand blockquote and Org block tokens back to original lines
+      if ((ln.startsWith('__BLOCKQUOTE_') || ln.startsWith('__ORG_BLOCK_')) && blockMap && blockMap[ln]) {
+        for (const origLine of blockMap[ln].lines) {
+          nmd += origLine + '\n';
+          outputLine++;
+        }
+        continue;
+      }
+
+      // Expand props block: feed through existing property/logbook detection
+      if (ln.startsWith('__PROPS_BLOCK_') && blockMap && blockMap[ln]) {
+        for (const origLine of blockMap[ln].lines) {
+          if (origLine.match(PAT_LB_START)) { inLogbook = true; continue; }
+          if (origLine.match(PAT_LB_END)) { inLogbook = false; continue; }
+          if (inLogbook) { logbook += escapeXML(origLine.trim()) + '\u0026#10;'; continue; }
+          const pm = origLine.match(PAT_PROP);
+          if (pm) { props[pm[1]] = escapeXML(pm[2], true); }
         }
         continue;
       }
@@ -435,10 +456,10 @@ for (const file of mdFiles) {
 
   normalizePageHeader(rawLines);
 
-  const { cleanLines, codeBlockMap } = preprocessCodeBlocks(rawLines);
+  const { cleanLines, blockMap } = preprocessStructuredBlocks(rawLines);
 
   // Index internal blocks to get fresh local overrides for this file
-  const { titleMap: localTitleMap, lineMap: localLineMap } = indexInternalBlocks(file, cleanLines);
+  const { titleMap: localTitleMap, lineMap: localLineMap } = indexInternalBlocks(file, cleanLines, blockMap);
   console.log(`Indexed ${Object.keys(localTitleMap).length} internal blocks for local override.`);
 
   // Merge internal blocks (local overrides global mapping)
@@ -461,7 +482,7 @@ for (const file of mdFiles) {
   console.log(`Output target: ${outputPath}`);
 
   // Convert the file
-  convertFile(file, outputPath, activeTitleMap, activeSourceLineMap, cleanLines, codeBlockMap);
+  convertFile(file, outputPath, activeTitleMap, activeSourceLineMap, cleanLines, blockMap);
 
   // Propagate all updates back to our in-memory mappings
   for (const uuid in activeTitleMap) {
