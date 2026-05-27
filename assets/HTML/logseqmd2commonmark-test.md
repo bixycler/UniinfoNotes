@@ -62,3 +62,24 @@
 	- 10.1 First sibling that references §10.2: ((77777777-7777-7777-7777-777777777772))
 	  id:: 77777777-7777-7777-7777-777777777771
 	- id:: 77777777-7777-7777-7777-777777777772
+- 11. Structured-Block Transclusion for Bare `- id::` Blocks:
+	- id:: 88888888-8888-8888-8888-888888888881
+	  ```shell
+	  echo "code block title transclusion"
+	  ```
+	- id:: 88888888-8888-8888-8888-888888888882
+	  > blockquote title transclusion
+	  > with continuation
+	- id:: 88888888-8888-8888-8888-888888888883
+	  #+BEGIN_CAUTION
+	  [:b "Content inside Org block"]
+	  #+END_CAUTION
+	- id:: 88888888-8888-8888-8888-888888888884
+	  tags:: User Property
+	  search-scope:: [[Some Page]]
+	  collapsed:: true
+	- References to each transcluded block:
+	  - `__CODE_BLOCK_` transclusion: ((88888888-8888-8888-8888-888888888881))
+	  - `__BLOCKQUOTE_` transclusion: ((88888888-8888-8888-8888-888888888882))
+	  - `__ORG_BLOCK_` transclusion: ((88888888-8888-8888-8888-888888888883))
+	  - `__PROPS_BLOCK_` transclusion (user props only): ((88888888-8888-8888-8888-888888888884))

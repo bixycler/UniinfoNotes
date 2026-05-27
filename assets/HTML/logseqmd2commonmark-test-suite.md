@@ -201,3 +201,36 @@ To manually verify all these scenarios quickly on the dedicated unit test suite,
 node assets/HTML/logseqmd2commonmark.js -i index.json -o ~/tmp/logseq/ -b assets/HTML assets/HTML/logseqmd2commonmark-test.md --break br
 ```
 Verify the output `.cm.md` file visually or via a Markdown AST parser to ensure no syntax leakage occurs across fences.
+
+## 11. Structured-Block Transclusion for Bare `- id::` Blocks
+
+*   **Bug Description**: When a Logseq block has no inline title (e.g. `- id:: uuid` with nothing between `- ` and `id::`), the old `indexLines()` fell back to `lastContentLine` or filename. The preprocessor now collapses four structured constructs into placeholder tokens (`__CODE_BLOCK_`, `__BLOCKQUOTE_`, `__ORG_BLOCK_`, `__PROPS_BLOCK_`), and `indexLines()` expands them as the transcluded title. System properties (`id`, `collapsed`) and LOGBOOK are excluded from the props-block title.
+*   **Test Case**:
+    ```markdown
+    - id:: 88888888-8888-8888-8888-888888888881
+      ```shell
+      echo "code block title transclusion"
+      ```
+    - id:: 88888888-8888-8888-8888-888888888882
+      > blockquote title transclusion
+      > with continuation
+    - id:: 88888888-8888-8888-8888-888888888883
+      #+BEGIN_CAUTION
+      [:b "Content inside Org block"]
+      #+END_CAUTION
+    - id:: 88888888-8888-8888-8888-888888888884
+      tags:: User Property
+      search-scope:: [[Some Page]]
+      collapsed:: true
+    - References to each transcluded block:
+      - `__CODE_BLOCK_` transclusion: ((88888888-8888-8888-8888-888888888881))
+      - `__BLOCKQUOTE_` transclusion: ((88888888-8888-8888-8888-888888888882))
+      - `__ORG_BLOCK_` transclusion: ((88888888-8888-8888-8888-888888888883))
+      - `__PROPS_BLOCK_` transclusion (user props only): ((88888888-8888-8888-8888-888888888884))
+    ```
+*   **Expected Output** (among other changes):
+    - `8888...8881` title in index: the code block content (lines inside the fences)
+    - `8888...8882` title: the blockquote content including lazy continuations
+    - `8888...8883` title: the full Org block content (`#+BEGIN_CAUTION` … `#+END_CAUTION`)
+    - `8888...8884` title: user properties only — `tags:: User Property\nsearch-scope:: [[Some Page]]` (without `collapsed:: true`)
+    - Reference lines in `.cm.md` output render as titled links using transcluded content, with no raw placeholder tokens leaking into output
