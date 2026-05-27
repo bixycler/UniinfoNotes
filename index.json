@@ -17281,7 +17281,7 @@
     "sourceLine": 30,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
     "outputLine": 30,
-    "outputFile": "/tmp/logseq-test/logseqmd2commonmark-test.cm.md",
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
     "title": "5.1 Code Block:",
     "slug": "5-1-code-block"
   },
@@ -17289,7 +17289,7 @@
     "sourceLine": 36,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
     "outputLine": 32,
-    "outputFile": "/tmp/logseq-test/logseqmd2commonmark-test.cm.md",
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
     "title": "5.2 Math Block:",
     "slug": "5-2-math-block"
   },
@@ -17297,7 +17297,7 @@
     "sourceLine": 45,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
     "outputLine": 42,
-    "outputFile": "/tmp/logseq-test/logseqmd2commonmark-test.cm.md",
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
     "title": "This is standard continuation text inside an empty title block.",
     "slug": "this-is-standard-continuation-text-inside-an-empty-title-block"
   },
@@ -17305,15 +17305,15 @@
     "sourceLine": 49,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
     "outputLine": 45,
-    "outputFile": "/tmp/logseq-test/logseqmd2commonmark-test.cm.md",
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
     "title": "7.1 Target block for local reference",
     "slug": "7-1-target-block-for-local-reference"
   },
   "6880b9b5-b5d3-4542-b378-31cf40ea8476": {
     "sourceLine": 24,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
-    "outputLine": 22,
-    "outputFile": "/tmp/logseq-test/logseqmd2commonmark-test.cm.md",
+    "outputLine": 23,
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
     "title": "4.5 Blockquote with blank line and continuation text:",
     "slug": "4-5-blockquote-with-blank-line-and-continuation-text"
   },
@@ -17322,7 +17322,7 @@
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
     "sourceLine": 41,
     "slug": "shell-echo-testing-empty-block-code-block-nesting",
-    "outputFile": "/tmp/logseq-test/logseqmd2commonmark-test.cm.md",
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
     "outputLine": 40
   },
   "6a144d80-dd78-4583-aabc-70c8187c7029": {
@@ -17466,7 +17466,7 @@
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
     "sourceLine": 53,
     "slug": "8-1-target-a-that-references-b-55555555-5555-5555-5555-555555555552",
-    "outputFile": "/tmp/logseq-test/logseqmd2commonmark-test.cm.md",
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
     "outputLine": 48
   },
   "55555555-5555-5555-5555-555555555552": {
@@ -17474,7 +17474,7 @@
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
     "sourceLine": 55,
     "slug": "8-2-target-b-that-references-a-back-55555555-5555-5555-5555-555555555551",
-    "outputFile": "/tmp/logseq-test/logseqmd2commonmark-test.cm.md",
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
     "outputLine": 49
   },
   "66666666-6666-6666-6666-666666666661": {
@@ -17482,7 +17482,7 @@
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
     "sourceLine": 58,
     "slug": "9-1-target-a-that-titled-links-to-b-see-b-66666666-6666-6666-6666-666666666662",
-    "outputFile": "/tmp/logseq-test/logseqmd2commonmark-test.cm.md",
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
     "outputLine": 51
   },
   "66666666-6666-6666-6666-666666666662": {
@@ -17490,7 +17490,7 @@
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
     "sourceLine": 60,
     "slug": "9-2-target-b-that-references-a-back-9-1-target-a-that-titled-links-to-b-see-b-66666666-6666-6666-6666-666666666662",
-    "outputFile": "/tmp/logseq-test/logseqmd2commonmark-test.cm.md",
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
     "outputLine": 52
   },
   "77777777-7777-7777-7777-777777777771": {
@@ -17498,7 +17498,7 @@
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
     "sourceLine": 63,
     "slug": "10-1-first-sibling-that-references-10-2-logseqmd2commonmark-test",
-    "outputFile": "/tmp/logseq-test/logseqmd2commonmark-test.cm.md",
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
     "outputLine": 54
   },
   "77777777-7777-7777-7777-777777777772": {
@@ -17506,7 +17506,7 @@
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
     "sourceLine": 64,
     "slug": "logseqmd2commonmark-test",
-    "outputFile": "/tmp/logseq-test/logseqmd2commonmark-test.cm.md",
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
     "outputLine": 55
   },
   "88888888-8888-8888-8888-888888888881": {
@@ -17514,31 +17514,31 @@
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
     "sourceLine": 66,
     "slug": "shell-echo-code-block-title-transclusion",
-    "outputFile": null,
-    "outputLine": null
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
+    "outputLine": 60
   },
   "88888888-8888-8888-8888-888888888882": {
     "title": "\t  > blockquote title transclusion\n\t  > with continuation",
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
     "sourceLine": 70,
     "slug": "blockquote-title-transclusion-with-continuation",
-    "outputFile": null,
-    "outputLine": null
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
+    "outputLine": 64
   },
   "88888888-8888-8888-8888-888888888883": {
     "title": "\t  #+BEGIN_CAUTION\n\t  [:b \"Content inside Org block\"]\n\t  #+END_CAUTION",
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
     "sourceLine": 73,
     "slug": "begin_caution-b-content-inside-org-block-end_caution",
-    "outputFile": null,
-    "outputLine": null
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
+    "outputLine": 68
   },
   "88888888-8888-8888-8888-888888888884": {
-    "title": "\t  tags:: User Property",
+    "title": "\t  tags:: User Property\n\t  scoping:: [[Some Page]]",
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
     "sourceLine": 77,
-    "slug": "tags-user-property",
-    "outputFile": null,
-    "outputLine": null
+    "slug": "tags-user-property-scoping-some-page",
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
+    "outputLine": 69
   }
 }

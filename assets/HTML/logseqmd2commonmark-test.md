@@ -76,7 +76,7 @@
 	  #+END_CAUTION
 	- id:: 88888888-8888-8888-8888-888888888884
 	  tags:: User Property
-	  search-scope:: [[Some Page]]
+	  scoping:: [[Some Page]]
 	  collapsed:: true
 	- References to each transcluded block:
 	  - `__CODE_BLOCK_` transclusion: ((88888888-8888-8888-8888-888888888881))

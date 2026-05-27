@@ -218,7 +218,7 @@ Verify the output `.cm.md` file visually or via a Markdown AST parser to ensure 
       #+END_CAUTION
     - id:: 88888888-8888-8888-8888-888888888884
       tags:: User Property
-      search-scope:: [[Some Page]]
+      scoping:: [[Some Page]]
       collapsed:: true
     - References to each transcluded block:
       - `__CODE_BLOCK_` transclusion: ((88888888-8888-8888-8888-888888888881))
@@ -230,5 +230,5 @@ Verify the output `.cm.md` file visually or via a Markdown AST parser to ensure 
     - `8888...8881` title in index: the code block content (lines inside the fences)
     - `8888...8882` title: the blockquote content including lazy continuations
     - `8888...8883` title: the full Org block content (`#+BEGIN_CAUTION` … `#+END_CAUTION`)
-    - `8888...8884` title: user properties only — `tags:: User Property\nsearch-scope:: [[Some Page]]` (without `collapsed:: true`)
+    - `8888...8884` title: user properties only — `tags:: User Property\nscoping:: [[Some Page]]` (without `collapsed:: true`)
     - Reference lines in `.cm.md` output render as titled links using transcluded content, with no raw placeholder tokens leaking into output
