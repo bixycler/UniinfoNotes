@@ -637,6 +637,8 @@ function indexLines(filePath, cleanLines, blockMap) {
                   firstContentLine = filtered[0].replace(PAT_PROP, '$2').trim();
                   break;
                 }
+                // filtered is empty (only system props like collapsed::) — don't break!
+                // The structured block or content line after it must be the title.
               } else {
                 effectiveTitle = block.lines.join('\n');
                 firstContentLine = block.lines.find(l => l.trim() && !l.match(PAT_PROP)) || '';
