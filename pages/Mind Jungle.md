@@ -4377,6 +4377,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- ``` js
 					  <Src.js
 					  ```
+						- #+BEGIN_SRC js
+						  #+BEGIN_SRC js \n...\n#+END_SRC
+						  #+END_SRC
 					- `<Query`
 					  query-table:: false
 					  #+BEGIN_QUERY
