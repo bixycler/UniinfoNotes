@@ -2,6 +2,14 @@
 
 This document tracks the edge cases and bugs discovered during the development of the `logseqmd2commonmark.js` converter, along with test cases to verify their behavior.
 
+**Executing Tests:** To manually verify all these scenarios quickly on the dedicated unit test suite, run:
+
+```bash
+node assets/HTML/logseqmd2commonmark.js -i index.json -o ~/tmp/logseq/ -b assets/HTML assets/HTML/logseqmd2commonmark-test.md --break br
+```
+
+Verify the output `.cm.md` file visually or via a Markdown AST parser to ensure no syntax leakage occurs across fences.
+
 ## 1. First Heading De-Itemization
 
 *   **Bug Description**: Logseq visually strips the bullet item prefix (`- `) from the first heading of a page (e.g., `# Heading`). Standard list parsing breaks on this deitemized line, and sub-items/continuation content lose their nesting hierarchy. We must recognize a deitemized first line starting with `#` and prepend the list prefix `- ` back to restore block structure.
@@ -191,16 +199,6 @@ This document tracks the edge cases and bugs discovered during the development o
         <a class="logseq-meta" id="77777777-7777-7777-7777-777777777771" ></a>
       - &nbsp; <a class="logseq-meta" id="77777777-7777-7777-7777-777777777772" ></a>
     ```
-
----
-
-### Executing Tests
-To manually verify all these scenarios quickly on the dedicated unit test suite, run:
-
-```bash
-node assets/HTML/logseqmd2commonmark.js -i index.json -o ~/tmp/logseq/ -b assets/HTML assets/HTML/logseqmd2commonmark-test.md --break br
-```
-Verify the output `.cm.md` file visually or via a Markdown AST parser to ensure no syntax leakage occurs across fences.
 
 ## 11. Structured-Block Transclusion for Bare `- id::` Blocks
 

@@ -307,46 +307,102 @@ function getMarkdownFiles(paths) {
 }
 
 /**
- * Preprocess: collapse code blocks into placeholder tokens.
- * Returns { cleanLines: Array<{line: string, originalIndex: number}>, codeBlockMap: Map<string, string[]> }
+ * Preprocess: collapse structured blocks (code fences, blockquotes, Org blocks, props blocks)
+ * into placeholder tokens.
+ *
+ * Priority: code fences > Org blocks > blockquotes (> all non-blank) > props blocks
+ *
+ * Returns { cleanLines: Array<{line: string, originalIndex: number}>, blockMap: object }
+ * where blockMap[token] = { type: string, lines: string[] }
  */
-function preprocessCodeBlocks(lines) {
+function preprocessStructuredBlocks(lines) {
   const cleanLines = [];
-  const codeBlockMap = new Map();
+  const blockMap = {};
   let blockIndex = 0;
-  let inCodeBlock = false;
-  let currentBlock = [];
-  let currentToken = '';
 
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i];
     const testLine = line.trimStart().replace(/^-\s*/, '');
+    const trimmed = line.trim();
+
+    // --- Code fence: ``` ---
     if (testLine.startsWith('```')) {
-      if (!inCodeBlock) {
-        inCodeBlock = true;
-        currentToken = `__CODE_BLOCK_${blockIndex++}__`;
-        currentBlock = [line];
-      } else {
-        currentBlock.push(line);
-        codeBlockMap.set(currentToken, currentBlock);
-        cleanLines.push({ line: currentToken, originalIndex: i });
-        inCodeBlock = false;
-        currentBlock = [];
-        currentToken = '';
+      const currentBlock = [line];
+      const token = `__CODE_BLOCK_${blockIndex++}__`;
+      let closed = false;
+      for (let j = i + 1; j < lines.length; j++) {
+        currentBlock.push(lines[j]);
+        const nextTest = lines[j].trimStart().replace(/^-\s*/, '');
+        if (nextTest.startsWith('```')) {
+          blockMap[token] = { type: 'code', lines: currentBlock };
+          cleanLines.push({ line: token, originalIndex: i });
+          i = j;
+          closed = true;
+          break;
+        }
       }
-    } else if (inCodeBlock) {
-      currentBlock.push(line);
-    } else {
-      cleanLines.push({ line, originalIndex: i });
+      if (!closed) {
+        blockMap[token] = { type: 'code', lines: currentBlock };
+        cleanLines.push({ line: token, originalIndex: lines.length - 1 });
+      }
+      continue;
     }
+
+    // --- Blockquote: > (contiguous non-blank lines) ---
+    if (trimmed.startsWith('>')) {
+      const currentBlock = [line];
+      const token = `__BLOCKQUOTE_${blockIndex++}__`;
+      for (let j = i + 1; j < lines.length; j++) {
+        if (lines[j].trim().length === 0) break;
+        currentBlock.push(lines[j]);
+      }
+      blockMap[token] = { type: 'blockquote', lines: currentBlock };
+      cleanLines.push({ line: token, originalIndex: i });
+      i += currentBlock.length - 1;
+      continue;
+    }
+
+    // --- Org block: #+BEGIN_ ... #+END_ ---
+    if (/^#\+BEGIN_\w+/i.test(trimmed)) {
+      const currentBlock = [line];
+      const token = `__ORG_BLOCK_${blockIndex++}__`;
+      let closed = false;
+      for (let j = i + 1; j < lines.length; j++) {
+        currentBlock.push(lines[j]);
+        if (/^#\+END_\w+/i.test(lines[j].trim())) {
+          blockMap[token] = { type: 'org-block', lines: currentBlock };
+          cleanLines.push({ line: token, originalIndex: i });
+          i = j;
+          closed = true;
+          break;
+        }
+      }
+      if (!closed) {
+        blockMap[token] = { type: 'org-block', lines: currentBlock };
+        cleanLines.push({ line: token, originalIndex: i });
+      }
+      continue;
+    }
+
+    // --- Props block: contiguous PAT_PROP + LOGBOOK lines ---
+    if (line.match(PAT_PROP) || line.match(PAT_LB_START) || line.match(PAT_LB_END)) {
+      const currentBlock = [line];
+      const token = `__PROPS_BLOCK_${blockIndex++}__`;
+      for (let j = i + 1; j < lines.length; j++) {
+        if (!lines[j].match(PAT_PROP) && !lines[j].match(PAT_LB_START) && !lines[j].match(PAT_LB_END)) break;
+        currentBlock.push(lines[j]);
+      }
+      blockMap[token] = { type: 'props', lines: currentBlock };
+      cleanLines.push({ line: token, originalIndex: i });
+      i += currentBlock.length - 1;
+      continue;
+    }
+
+    // --- Regular line ---
+    cleanLines.push({ line, originalIndex: i });
   }
 
-  if (inCodeBlock && currentBlock.length > 0) {
-    codeBlockMap.set(currentToken, currentBlock);
-    cleanLines.push({ line: currentToken, originalIndex: lines.length - 1 });
-  }
-
-  return { cleanLines, codeBlockMap };
+  return { cleanLines, blockMap };
 }
 
 // Function to resolve nested UUID references in titles topologically
@@ -497,7 +553,31 @@ function saveIndex(indexFile, globalIndex) {
   }
 }
 
-function indexLines(filePath, cleanLines) {
+function expandBlockToken(token, blockMap) {
+  if (blockMap && blockMap[token]) {
+    return blockMap[token].lines.join('\n');
+  }
+  return token;
+}
+
+function isStructuredBlockToken(stripped) {
+  return stripped.startsWith('__CODE_BLOCK_') ||
+         stripped.startsWith('__BLOCKQUOTE_') ||
+         stripped.startsWith('__ORG_BLOCK_') ||
+         stripped.startsWith('__PROPS_BLOCK_');
+}
+
+function filterSystemProps(lines) {
+  return lines.filter(line => {
+    const trimmed = line.trim();
+    if (trimmed.match(PAT_LB_START) || trimmed.match(PAT_LB_END)) return false;
+    const propMatch = trimmed.match(PAT_PROP);
+    if (propMatch && (propMatch[1] === 'id' || propMatch[1] === 'collapsed')) return false;
+    return true;
+  });
+}
+
+function indexLines(filePath, cleanLines, blockMap) {
   const results = {};
   let lastContentLine = path.basename(filePath, '.md');
   let lastContentIndent = -1;
@@ -507,20 +587,73 @@ function indexLines(filePath, cleanLines) {
     const curIndent = line.length - line.trimStart().length;
     const stripped = line.trim();
 
-    if (stripped.startsWith('__CODE_BLOCK_')) continue;
+    if (isStructuredBlockToken(stripped)) continue;
 
     if (stripped.startsWith('- ')) {
       let content = stripped.substring(2).trim();
       const idMatch = content.match(PAT_ID_PROP);
       if (idMatch) {
         const uuid = idMatch[1];
-        const title = content.replace(idMatch[0], '').trim();
-        const effectiveTitle = title || (lastContentIndent < curIndent ? lastContentLine : path.basename(filePath, '.md'));
-        results[uuid] = { title: effectiveTitle, sourceLine: originalIndex + 1 };
-        if (title) {
-          lastContentLine = title;
+        const inlineTitle = content.replace(idMatch[0], '').trim();
+        let effectiveTitle;
+        let firstContentLine = '';
+
+        if (inlineTitle) {
+          effectiveTitle = inlineTitle;
+          lastContentLine = inlineTitle;
           lastContentIndent = curIndent;
+        } else {
+          // Bare - id:: → scan forward for first structured block or content line
+          for (let j = i + 1; j < cleanLines.length; j++) {
+            const next = cleanLines[j];
+            const nextStripped = next.line.trim();
+
+            // Skip system-property-only lines (id::, collapsed::) and LOGBOOK
+            const pm = next.line.match(PAT_PROP);
+            if (pm && (pm[1] === 'id' || pm[1] === 'collapsed')) continue;
+            if (next.line.match(PAT_LB_START) || next.line.match(PAT_LB_END)) continue;
+
+            // Stop at sibling bullet
+            if (nextStripped.startsWith('- ') &&
+                next.line.length - next.line.trimStart().length <= curIndent) break;
+
+            // Structured-block token → expand from blockMap
+            if (blockMap && blockMap[nextStripped]) {
+              const block = blockMap[nextStripped];
+              if (block.type === 'props') {
+                const filtered = filterSystemProps(block.lines);
+                if (filtered.length > 0) {
+                  effectiveTitle = filtered.join('\n');
+                  firstContentLine = filtered[0].replace(PAT_PROP, '$2').trim();
+                }
+              } else {
+                effectiveTitle = block.lines.join('\n');
+                firstContentLine = block.lines.find(l => l.trim() && !l.match(PAT_PROP)) || '';
+              }
+              break;
+            }
+
+            // Regular content line
+            if (nextStripped && !nextStripped.startsWith('__')) {
+              effectiveTitle = nextStripped;
+              firstContentLine = nextStripped;
+              break;
+            }
+          }
+
+          if (!effectiveTitle) {
+            effectiveTitle = lastContentIndent < curIndent
+              ? lastContentLine
+              : path.basename(filePath, '.md');
+          }
+
+          if (firstContentLine) {
+            lastContentLine = firstContentLine;
+            lastContentIndent = curIndent;
+          }
         }
+
+        results[uuid] = { title: effectiveTitle, sourceLine: originalIndex + 1 };
       } else {
         lastContentLine = content || lastContentLine;
         lastContentIndent = curIndent;
@@ -554,12 +687,13 @@ if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
     escapeXML,
     slugify,
     getMarkdownFiles,
-    preprocessCodeBlocks,
+    preprocessStructuredBlocks,
     resolveTitleReferences,
     parseArgValue,
     normalizePageHeader,
     loadIndex,
     saveIndex,
+    expandBlockToken,
     indexLines
   };
 }
