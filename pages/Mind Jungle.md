@@ -243,8 +243,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- The [data collection policies](https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html) apply **indiscriminately** to both the [free chatbot](https://chat.deepseek.com/) and the official [paid DeepSeek API](https://platform.deepseek.com/top_up).
 								- So, OpenRouter blocks it by default due to “Paid model training violation”.
 						- 3rd-party providers
-							- GMICloud: in US
-							- Alibaba: in Singapore
+							- GMICloud: in US, no data collection, caching less effective than the official DeepSeek (with 10% price instead of 1%)
+							- Alibaba: in Singapore (and Hangzhou – China), no data collection
 					- [OpenRouter](https://openrouter.ai/)
 						- Automatically routed to various models with a single API key.
 						- For free models, max requests: 50/minute, 250/day
