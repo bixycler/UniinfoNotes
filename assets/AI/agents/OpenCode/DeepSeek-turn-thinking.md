@@ -85,13 +85,15 @@ prompt += content or ""                   # summary text after </think>
 | Thinking mode, no tools, last turn | `<think>` (opened) | Yes |
 | Thinking mode, tools present | `<think>` (opened for ALL turns) | Yes, for every turn |
 
-### What the model "sees"
+### What the model *should* see (but doesn't)
 
-The `reasoning_content` (`<think>` block) is part of the **encoded prompt** that the tokenizer produces for the model's context window. The model sees it if `drop_thinking` allows:
+Per the encoding logic, `reasoning_content` (`<think>` block) should be part of the encoded prompt that the tokenizer produces for the model's context window:
 
 - **No tools, new round**: `<think>` from prior rounds stripped → model starts fresh each round.
-- **With tools, any round**: `<think>` from all prior rounds AND sub-turns is retained → full reasoning continuity.
+- **With tools, any round**: `<think>` from all prior rounds AND sub-turns should be retained → full reasoning continuity.
 
-**Known caveat**: The blog claims "retains the complete reasoning history," but our experiments show the model cannot reproduce prior `reasoning_content` verbatim — it recalls the *gist* but not the exact text. "Retains" means the `<think>` blocks are *present in the context window*, not that the model has perfect recall of them. This is expected behavior (models are not tape recorders), but worth noting as a gap between the marketing claim and practical reality.
+**Empirical finding (2026-05-29)**: Tested by asking the model to recall its own `reasoning_content` from the immediately preceding turn. Result: **complete wipeout** — not even gist survives. The actual reasoning (verified via request logs) and the model's attempted reconstruction shared zero common content.
+
+The `reasoning_content` is correctly passed by the OpenCode client (verified in OpenRouter request logs — otherwise DeepSeek would return a 400 error for tool calls). The root cause is unknown; possible suspects include OpenRouter stripping `reasoning_content` before forwarding, or DeepSeek's own pipeline discarding it despite `drop_thinking=false`. Regardless: **in practice, across-round reasoning persistence does not work with this stack.**
 
 Reference: [DeepSeek API Docs — Thinking Mode](https://api-docs.deepseek.com/guides/thinking_mode), [V4 HuggingFace Blog](https://huggingface.co/blog/deepseekv4), [V4 Tokenizer README](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/raw/main/encoding/README.md), [`encoding_dsv4.py`](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/raw/main/encoding/encoding_dsv4.py)
