@@ -1,3 +1,11 @@
+- [MiniMax teases upcoming M3 model with new sparse attention mechanism and 15.6X long-context response speed boost](https://venturebeat.com/technology/minimax-teases-upcoming-m3-model-with-new-sparse-attention-mechanism-and-15-6x-response-speed-boost)
+    - MiniMax (MSA) introduces sparsity directly into the Attention Mechanism itself.
+    - DeepSeek uses sparsity in its Feed-Forward Networks (FFN) via Mixture of Experts (MoE).
+        - DeepSeek uses 2 different strategies combined: MoE + MLA (Multi-head Latent Attention)
+    - MLA also allows DeepSeek to do KV caching on disk instead of on RAM.
+- [OpenCode error with DeepSeek on OpenRouter](https://github.com/anomalyco/opencode/issues/29618)
+- Try the multi-agent system of Antigravity 2.
+- Change OpenCode's system prompt with agent config in `opencode.json`
 - props block: ((6a16c00c-eb5d-42ee-abe7-e004db727423)) after mirror
 - id:: 6a16c00c-eb5d-42ee-abe7-e004db727423
   collapsed:: true
