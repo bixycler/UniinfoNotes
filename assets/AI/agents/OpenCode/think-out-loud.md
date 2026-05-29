@@ -26,7 +26,6 @@ Final answer here.
 | Reasoning depth | ✅ Full (RL-optimized) | ⚠️ Moderate |
 | Backtracking/exploration | ✅ Trained behavior | ⚠️ Weaker, more linear |
 | Tool call planning | ✅ Multi-turn within reasoning | ⚠️ Tendency to commit early |
-| Token efficiency | ✅ Reasoning not in content budget | ❌ Reasoning counts toward output |
 | Simple tasks | ✅ | ✅ ~Same |
 | Hard multi-step SE tasks | ✅ | ⚠️ Some degradation |
 
@@ -34,7 +33,6 @@ Final answer here.
 
 - **Gemini Flash**: Follows the `[think]` instruction easily, internalizes the pattern naturally.
 - **DeepSeek Flash**: Ignores the `[think]` instruction by default; requires explicit user reminders. The model's default mode is direct output — the thinking wrapper is an unnatural overlay.
-- Both models exhibit a recurring bug: mistyping the closing tag as `[/thought]` instead of `[/think]`.
 
 ## Why Native Thinking Is Better (Architectural)
 
@@ -55,7 +53,6 @@ DeepSeek V4's native thinking mode is not just "the model saying think step by s
 
 - The `[think]` workaround catches things that no-thinking mode misses (e.g., using `bash` instead of `write` when the edit tool is restricted).
 - The main obstacle in complex SE tasks isn't model quality but OpenCode crashing on every other turn in tool-heavy sessions.
-- The closing tag typo `[/thought]` is a recurring artifact — be deliberate about `[/think]`.
 
 ## References
 
