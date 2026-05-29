@@ -1904,14 +1904,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 27-29th, wrestled with the “thinking mode” of DeepSeek.
 			  collapsed:: true
 				- [OpenCode error with DeepSeek on OpenRouter](https://github.com/anomalyco/opencode/issues/29618): workaround by adding `interleaved.field:reasoning_content` to `opencode.json`.
-					- The discrepancy of DeepSeek V4's `reasoning_content`
+					- The ![discrepancy of DeepSeek V4](../assets/AI/agents/OpenCode/DeepSeek-turn-thinking.md)'s `reasoning_content` & `drop_thinking` between the official statement that “retains the complete reasoning history across all rounds, including across user turns” and the reality of complete wipeout after each user turn (each round).
 				- [MiniMax teases upcoming M3 model with new sparse attention mechanism and 15.6X long-context response speed boost](https://venturebeat.com/technology/minimax-teases-upcoming-m3-model-with-new-sparse-attention-mechanism-and-15-6x-response-speed-boost)
 				  collapsed:: true
 					- MiniMax (MSA) introduces sparsity directly into the Attention Mechanism itself.
 					- DeepSeek uses sparsity in its Feed-Forward Networks (FFN) via Mixture of Experts (MoE).
 						- DeepSeek uses 2 different strategies combined: MoE + MLA (Multi-head Latent Attention)
 					- MLA also allows DeepSeek to do KV caching on disk instead of on RAM.
-				- DOING The “think out loud” approach
+				- DOING The ![“think out loud” approach](../assets/AI/agents/OpenCode/think-out-loud.md)
 				  :LOGBOOK:
 				  CLOCK: [2026-05-29 Fri 19:34:24]
 				  CLOCK: [2026-05-29 Fri 19:34:40]
