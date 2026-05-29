@@ -94,6 +94,6 @@ Per the encoding logic, `reasoning_content` (`<think>` block) should be part of 
 
 **Empirical finding (2026-05-29)**: Tested by asking the model to recall its own `reasoning_content` from the immediately preceding turn. Result: **complete wipeout** — not even gist survives. The actual reasoning (verified via request logs) and the model's attempted reconstruction shared zero common content.
 
-The `reasoning_content` is correctly passed by the OpenCode client (verified in OpenRouter request logs — otherwise DeepSeek would return a 400 error for tool calls). The root cause is unknown; possible suspects include OpenRouter stripping `reasoning_content` before forwarding, or DeepSeek's own pipeline discarding it despite `drop_thinking=false`. Regardless: **in practice, across-round reasoning persistence does not work with this stack.**
+The `reasoning_content` is correctly passed by the OpenCode client (verified in OpenRouter request logs — otherwise DeepSeek would return a 400 error for tool calls). The root cause is unknown. Regardless: **in practice, across-round reasoning persistence does not work with this stack.**
 
 Reference: [DeepSeek API Docs — Thinking Mode](https://api-docs.deepseek.com/guides/thinking_mode), [V4 HuggingFace Blog](https://huggingface.co/blog/deepseekv4), [V4 Tokenizer README](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/raw/main/encoding/README.md), [`encoding_dsv4.py`](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/raw/main/encoding/encoding_dsv4.py)
