@@ -40,16 +40,50 @@ When tools are present, `drop_thinking` is **automatically disabled**. From the 
 
 > *"V4 preserves reasoning content across user message boundaries when the conversation contains tool calls. The model retains the complete reasoning history across all rounds, including across user turns."*
 
-This is implemented in [`encoding_dsv4.py`](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/raw/main/encoding/encoding_dsv4.py):
+This is implemented in [`encoding_dsv4.py`](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/raw/main/encoding/encoding_dsv4.py).
+
+**Step 1 — Resolve `drop_thinking`** (in `encode_messages()`):
 
 ```python
-# Resolve drop_thinking: if any message has tools defined, don't drop thinking
 effective_drop_thinking = drop_thinking
 if any(m.get("tools") for m in full_messages):
     effective_drop_thinking = False
 ```
 
-The check scans **all** messages (`full_messages = context + messages`). Once `tools` appears anywhere in the conversation, `drop_thinking` is permanently disabled for all subsequent turns — both sub-turns and across user round boundaries.
+The check scans **all** messages (`full_messages = context + messages`). Once `tools` appears anywhere, `drop_thinking` is permanently disabled for all subsequent turns.
+
+**Step 2 — Render each message** (in `render_message()`):
+
+For assistant messages, the transition token between turns is decided by:
+
+```python
+if not drop_thinking and thinking_mode == "thinking":
+    prompt += thinking_start_token        # <think> → expect reasoning
+elif drop_thinking and thinking_mode == "thinking" and index >= last_user_idx:
+    prompt += thinking_start_token        # <think> → only last assistant before user
+else:
+    prompt += thinking_end_token          # </think> → immediately close, no reasoning
+```
+
+When rendering the assistant's `reasoning_content`, it wraps it in the think block:
+
+```python
+thinking_part = reasoning_content or ""
+if thinking_part:
+    prompt += thinking_start_token        # <think>
+    prompt += thinking_part               # reasoning text
+    prompt += thinking_end_token          # </think>
+prompt += content or ""                   # summary text after </think>
+```
+
+**Summary of `thinking_start_token` / `thinking_end_token` behavior:**
+
+| Scenario | Transition token before assistant | Reasoning rendered? |
+|---|---|---|
+| Chat mode (`thinking_mode="chat"`) | `</think>` (immediately closed) | No |
+| Thinking mode, no tools, old turn | `</think>` (closed) | No |
+| Thinking mode, no tools, last turn | `<think>` (opened) | Yes |
+| Thinking mode, tools present | `<think>` (opened for ALL turns) | Yes, for every turn |
 
 ### What the model "sees"
 
