@@ -1922,10 +1922,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- Watched [ELIZA on YouTube](https://youtu.be/foyljHXJ42s?si=qtfxVMAe7_ZzYlY9) ⇒ [Chat with Gemini](https://g.co/gemini/share/f11b14278c7d) ⇒ ((6a1d2df8-b1b1-40fa-86c6-28495b66f098))
 				- I just saw a light for my [duck-dive problem](((67714850-43c0-4c7f-8b50-838e014b06e0))): beside the ((67445065-15b2-475e-a704-78f140d487af)) that i've trained so far, the communication with other people and other parts of myself is the window opening to the complement world that is worth looking/listening.
-				- Leaving the lavish vesak at home, we headed to a pagoda with a much larger crowd. The monkey minds could not stop chattering. There were many dogs there. While wandering away the noisy crowd, i saw a pavilion with no people but only things left by people. Looking deeper down the floor, i saw a dying dog jerking for its hard passing through the death gate. I couldn't do anything but to join the hard journey with it.
+				- Leaving the lavish vesak at home, we headed to a pagoda with a much larger crowd. The monkey minds could not stop chattering. There were many dogs there. While wandering away from the noisy crowd, i saw a pavilion with no people but only things left by them. Looking deeper down the floor, i saw a dying dog jerking for its hard passing through the death gate.
+					- I couldn't do anything but to join the hard journey with it.
 					- Then i asked my wife to witness it for the truth of life. I asked my wife to have a requiem for it, to see the actual journey is not the illusional final image of “rest in peace”. It's alway the very hard journey of the end where every bit of the trapped energy is fighting against the dissolution ahead.
-					- I reminded my wife that the original teaching of the Buddha was to contemplate this foul body and to witness the truth of death, not to only cover them with flowers and blessing words.
-					- One cannot have a proper requiem without witnessing the true dying process.
+					- I reminded her that the original teaching of the Buddha was to contemplate this foul body and to witness the truth of death, not to only cover them with flowers and blessing words.
+					- *One cannot have a proper requiem without witnessing the true dying process* ― i told her.
+					- *And only when we've fully contemplated both sides of the truth, can we release our attachements.*
 		- Will Lei as an intense-world systems architect: an autobiographical analysis through neuroscience and systems theory
 		  id:: 69fdbffa-dc65-4d72-bbf6-d35bf88a3482
 		  collapsed:: true
