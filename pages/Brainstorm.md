@@ -22,7 +22,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- People unconsciously attribute human-like intelligence, feelings, and deep understanding to simple software operating on superficial rules.
 					- It represents a natural human tendency to project meaning, empathy, and intent onto a flat surface.
 				- The origin lies in the 1966 natural language processing program created by Joseph Weizenbaum.
-					- The [DOCTOR script](https://en.wikipedia.org/wiki/ELIZA#DOCTOR_and_computational_therapy) simulated a Rogerian psychotherapist by reflecting user statements back as questions.
+					- The [DOCTOR script](https://en.wikipedia.org/wiki/ELIZA#DOCTOR_and_computational_therapy) simulated a [Rogerian psychotherapist](https://en.wikipedia.org/wiki/Person-centered_therapy) by reflecting user statements back as questions.
 					- Users became deeply emotionally invested despite the extreme simplicity of the underlying code.
 				- When the user stops feeding the script emotional raw material, the illusion collapses.
 					- Minimal or neutral answers like “No”, “Normal”, or “Nothing” leave the pattern matching with nothing to latch onto.
