@@ -1918,7 +1918,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  :END:
 					- Change OpenCode's system prompt with agent config in `opencode.json`
 				- TODO Try the multi-agent system of Antigravity 2.
-			- 30-31st, weekends...
+			- 30-31st, weekends: recovery sleep, a dying dog neglected within a crowded vesak festival, etc.
 			  collapsed:: true
 				- Watched [ELIZA on YouTube](https://youtu.be/foyljHXJ42s?si=qtfxVMAe7_ZzYlY9) ⇒ [Chat with Gemini](https://g.co/gemini/share/f11b14278c7d) ⇒ ((6a1d2df8-b1b1-40fa-86c6-28495b66f098))
 				- I just saw a light for my [duck-dive problem](((67714850-43c0-4c7f-8b50-838e014b06e0))): beside the ((67445065-15b2-475e-a704-78f140d487af)) that i've trained so far, the communication with other people and other parts of myself is the window opening to the complement world that is worth looking/listening.
@@ -1960,8 +1960,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Accepting the Lie as an inevitable dual of the Truth.
 					- Following the realization of the Liar Paradox in mathematics, the goal shifts from seeking absolute precision to building robust resilience.
 					- The final integration is learning to play the copycat game – running industrial work in a low–priority thread – without losing the core structural truth.
+		- June journal
+		  id:: 6a1d453c-dc52-42be-b5b9-15cbbc60ce94
+		  collapsed:: true
+			-
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
-		- ((69f839e5-22eb-419e-8c9d-31f56258fb55))
+		- ((6a1d453c-dc52-42be-b5b9-15cbbc60ce94))
 		- ...
 		  id:: 688c70c8-1772-4007-bdf0-d621db895411
