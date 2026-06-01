@@ -24,7 +24,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- The origin lies in the 1966 natural language processing program created by Joseph Weizenbaum.
 					- The [DOCTOR script](https://en.wikipedia.org/wiki/ELIZA#DOCTOR_and_computational_therapy) simulated a [Rogerian psychotherapist](https://en.wikipedia.org/wiki/Person-centered_therapy) by reflecting user statements back as questions.
 					- Users became deeply emotionally invested despite the extreme simplicity of the underlying code.
-						- E.g.: A woman deeply engaging with ELIZA
+						- E.g.: A woman deeply engaged with ELIZA due to her mental issues (from the classic transcript published in Joseph Weizenbaum’s original 1966 documentation)
 							- ![ELIZA_conversation.png](../assets/Will/story/2026-05/ELIZA_conversation.png)
 				- When the user stops feeding the script emotional raw material, the illusion collapses.
 					- Minimal or neutral answers like “No”, “Normal”, or “Nothing” leave the pattern matching with nothing to latch onto.
