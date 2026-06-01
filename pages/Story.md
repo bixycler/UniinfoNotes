@@ -1911,13 +1911,18 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- DeepSeek uses sparsity in its Feed-Forward Networks (FFN) via Mixture of Experts (MoE).
 						- DeepSeek uses 2 different strategies combined: MoE + MLA (Multi-head Latent Attention)
 					- MLA also allows DeepSeek to do KV caching on disk instead of on RAM.
-				- DOING The ![“think out loud” approach](../assets/AI/agents/OpenCode/think-out-loud.md)
+				- WAIT The ![“think out loud” approach](../assets/AI/agents/OpenCode/think-out-loud.md)
 				  :LOGBOOK:
 				  CLOCK: [2026-05-29 Fri 19:34:24]
 				  CLOCK: [2026-05-29 Fri 19:34:40]
 				  :END:
 					- Change OpenCode's system prompt with agent config in `opencode.json`
 				- TODO Try the multi-agent system of Antigravity 2.
+			- 30-31st, weekends...
+			  collapsed:: true
+				- [ELIZA](https://g.co/gemini/share/f11b14278c7d)
+					- [YouTube](https://youtu.be/foyljHXJ42s?si=qtfxVMAe7_ZzYlY9)
+				-
 		- Will Lei as an intense-world systems architect: an autobiographical analysis through neuroscience and systems theory
 		  id:: 69fdbffa-dc65-4d72-bbf6-d35bf88a3482
 		  collapsed:: true
