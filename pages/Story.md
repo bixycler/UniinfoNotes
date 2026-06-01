@@ -1922,7 +1922,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- Watched [ELIZA on YouTube](https://youtu.be/foyljHXJ42s?si=qtfxVMAe7_ZzYlY9) ⇒ [Chat with Gemini](https://g.co/gemini/share/f11b14278c7d) ⇒ ((6a1d2df8-b1b1-40fa-86c6-28495b66f098))
 				- I just saw a light for my [duck-dive problem](((67714850-43c0-4c7f-8b50-838e014b06e0))): beside the ((67445065-15b2-475e-a704-78f140d487af)) that i've trained so far, the communication with other people and other parts of myself is the window opening to the complement world that is worth looking/listening.
-				- Leaving the lavish vesak at home, we headed to a pagoda with a much large crowd.
+				- Leaving the lavish vesak at home, we headed to a pagoda with a much larger crowd. The monkey minds could not stop chattering. There were many dogs there. While wandering away the noisy crowd, i
 		- Will Lei as an intense-world systems architect: an autobiographical analysis through neuroscience and systems theory
 		  id:: 69fdbffa-dc65-4d72-bbf6-d35bf88a3482
 		  collapsed:: true
