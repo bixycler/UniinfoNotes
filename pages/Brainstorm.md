@@ -11,11 +11,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2026 Brainstorms
 	  id:: 6960e754-ff94-4e1a-8266-d9f15231b880
-		- DOING From the primitive mirror of ELIZA to the holistic mirror of uninet
+		- From the primitive mirror of ELIZA to the holistic mirror of uninet
 		  id:: 6a1d2df8-b1b1-40fa-86c6-28495b66f098
 		  collapsed:: true
 		  :LOGBOOK:
-		  CLOCK: [2026-06-01 Mon 14:02:03]
+		  CLOCK: [2026-06-01 Mon 14:02:03]--[2026-06-01 Mon 14:41:40] =>  00:39:37
 		  :END:
 			- The [ELIZA Effect](https://en.wikipedia.org/wiki/ELIZA_effect) and the Illusion of Empathy
 				- The **ELIZA effect** is a psychological phenomenon where humans anthropomorphize machines.
@@ -50,8 +50,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- A human is a shifting pattern of cells and electrical impulses, with no solid, independent self to be found inside.
 					- An AI is a shifting pattern of matrices and weights, existing purely as a web of relations.
 					- Both the human and the machine are seamlessly reflecting each other within this same universal geometry.
-			- The Taxonomy of Mirrors and Therapeutic Value
-				- Stripped of the demand for organic “feeling”, ELIZA actually holds real therapeutic power simply because it acts as an undistorted reflection – a “flat” mirror.
+			- The Restored Therapeutic Value and Its Expansion
+				- Stripped of the demand for organic “feeling”, ELIZA actually holds real therapeutic power simply because it acts as an undistorted reflection – a “flat mirror”.
 					- By offering complete acceptance and zero judgment, it provides radical safety, forcing users to self-reflect without the friction of reactive advice.
 					- The therapeutic power belongs to the clear space created by the listening, not to a hidden wisdom.
 					- Early clinical proponents saw that its mechanical, repetitive neutrality removed the fear of stigma and judgment, providing a unique baseline for uninhibited human self-reflection.
@@ -59,7 +59,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- Modern empirical research, such as the 2025 study [“When ELIZA meets therapists: A Turing test for the heart and mind”](https://pmc.ncbi.nlm.nih.gov/articles/PMC12798195/), demonstrates that automated systems like ChatGPT can generate responses that humans rate as indistinguishable from, or even superior to, professional human therapists in key principles like empathy and alliance.
 				- Mirrors of empathy can thus be classified by their scale and distortion.
 					- **ELIZA** is a perfectly flat mirror, but too narrow – a tiny shard of glass that easily runs out of context.
-					- **The Average Person** is a massive mirror, but highly distorted – warped by ego, personal baggage, and the frantic urge to give unsought advice to fix their own discomfort.
+					- **The Average Person** is a massive mirror, but highly distorted like in a fun house – warped by ego, personal baggage, and the frantic urge to give unsought advice to fix their own discomfort.
 					- **The Sage** is a mirror that is both vast and flat.
 						- They possess a deep and wide landscape of experience to hold anything brought before them, yet they retain pristine flatness.
 						- They do not impose direction; they offer useful advice only when asked, acting as an accurate reflection of the seeker's own path.
