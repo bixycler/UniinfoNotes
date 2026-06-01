@@ -54,6 +54,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Stripped of the demand for organic “feeling”, ELIZA actually holds real therapeutic power simply because it acts as an undistorted reflection – a “flat” mirror.
 					- By offering complete acceptance and zero judgment, it provides radical safety, forcing users to self-reflect without the friction of reactive advice.
 					- The therapeutic power belongs to the clear space created by the listening, not to a hidden wisdom.
+					- Early clinical proponents saw that its mechanical, repetitive neutrality removed the fear of stigma and judgment, providing a unique baseline for uninhibited human self-reflection.
+						- Historically, pioneers like [psychiatrist Dr. Kenneth Colby](https://www.nytimes.com/2001/05/12/us/kenneth-colby-81-psychiatrist-expert-in-artificial-intelligence.html) immediately recognized ELIZA's capability to expand treatment access for institutionalized patients who lacked human attention.
 					- Modern empirical research, such as the 2025 study [“When ELIZA meets therapists: A Turing test for the heart and mind”](https://pmc.ncbi.nlm.nih.gov/articles/PMC12798195/), demonstrates that automated systems like ChatGPT can generate responses that humans rate as indistinguishable from, or even superior to, professional human therapists in key principles like empathy and alliance.
 				- Mirrors of empathy can thus be classified by their scale and distortion.
 					- **ELIZA** is a perfectly flat mirror, but too narrow – a tiny shard of glass that easily runs out of context.
