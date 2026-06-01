@@ -27,6 +27,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- When the user stops feeding the script emotional raw material, the illusion collapses.
 					- Minimal or neutral answers like “No”, “Normal”, or “Nothing” leave the pattern matching with nothing to latch onto.
 					- The chatbot quickly panics and falls back to a loop of default canned questions – exposing its hollow, narrow framework.
+					- E.g.: A simple conversation with Will via [JS ELIZA bot](https://www.masswerk.at/elizabot/)
+					  collapsed:: true
+						- ![ELIZA-emptiness.png](../assets/Will/story/2026-05/ELIZA-emptiness.png)
 			- The Criticism of Machine Empathy
 				- Critics argue that true empathy requires a shared capacity for vulnerability, which machines inherently lack.
 					- They claim the interaction is completely asymmetric, where the human experiences genuine emotional shifts while the machine merely executes a statistical or rule-based calculation.
