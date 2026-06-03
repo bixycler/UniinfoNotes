@@ -2661,9 +2661,9 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 				- Neuron: ob viewcone = tree of dendrites; op = activation (action potential passed through axon)
 				- Obop (equal $=$, Hamsa 🪬) = perception (circle $○$, eye 👁️, 🧿) + action (arrow $↑$, hand ✋️)
 				  id:: 6a1f9070-311f-4e51-a88a-39b7dfeb2ca6
-					- The [eye–hand coordination](https://en.wikipedia.org/wiki/Hand%E2%80%93eye_coordination) is the continuous feedback loop between the internal intent (the potential inner world, 能) and the external form (the actual outer world, 所).
+					- The [eye–hand coordination](https://en.wikipedia.org/wiki/Hand%E2%80%93eye_coordination) is the continuous feedback loop between the internal intent (the potential inner world, 能) and the external form (the actual outer world, 所), between [the first cause (intent) and the final cause (observation)](((692d502f-b469-4b1d-9267-1d02e3953590))).
+					- As the “Hand of God”, the [Hamsa amulet](https://en.wikipedia.org/wiki/Hamsa#Religious_interpretations) represents
 					- The [Thousand Hands Thousand Eyes Avalokiteśvara](https://en.wikipedia.org/wiki/Avalokite%C5%9Bvara#Thousand-armed_Avalokite%C5%9Bvara) has an eye in each hand to observe sentient beings and help accordingly.
-					- As “the Hand of God”, the [Hamsa amulet](https://en.wikipedia.org/wiki/Hamsa#Religious_interpretations)
 		-
 	- ## body
 	  id:: 66c810a0-9861-4787-bdcf-1378219332be
@@ -3439,6 +3439,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 				- All forces are caused by the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) to cancel its imbalance, hence **restoring forces**.
 				  id:: 699c0362-5189-4cee-bcb5-84b6ff8574fe
 				- Intentional cause: imbalance is the first cause (op), and balance is the final cause (ob).
+				  id:: 699c0362-d39c-462c-9f21-31a7ad3d26ba
 				- This is the generalized version of the [law of entropy](https://en.wikipedia.org/wiki/Second_law_of_thermodynamics#Direction_of_spontaneous_processes).
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- ((66960ee2-d6dd-404b-a9d0-96340fce3cd2))
