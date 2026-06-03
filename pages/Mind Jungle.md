@@ -558,13 +558,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  id:: 6a1febf3-3ab3-4815-b1cd-6d2b7a703013
 						  A knowledge graph + vector search memory, which can ingest a entire codebase
 							- Features
-								- [Improve](https://docs.cognee.ai/core-concepts/main-operations/improve) operation incorporates short-term [session memory](https://docs.cognee.ai/core-concepts/sessions-and-caching) into the permanent graph and applies feedback-based weighting. It can optionally update the [global index](https://docs.cognee.ai/core-concepts/further-concepts/global-context-index).
+								- The operation [improve](https://docs.cognee.ai/core-concepts/main-operations/improve) incorporates short-term [session memory](https://docs.cognee.ai/core-concepts/sessions-and-caching) into the permanent graph and applies feedback-based weighting. It can optionally update the [global index](https://docs.cognee.ai/core-concepts/further-concepts/global-context-index).
+								- [CLI](https://docs.cognee.ai/cognee-cli/overview) & [web app](https://docs.cognee.ai/cognee-cloud/local-ui)
+								- API: [Python](https://docs.cognee.ai/python-api) & [HTML](https://docs.cognee.ai/api-reference/introduction)
 						- [Letta](https://github.com/letta-ai/letta)
 						  id:: 6a1fec73-498c-42ac-b10f-8c5a5df76ebc
 						  A [self-improved](https://docs.letta.com/letta-code/memory) memory managing agent with [MemFS](https://docs.letta.com/letta-code/memfs) – a Git-tracked Markdown storage – interaction with an [Agent Development Environment (ADE)](https://docs.letta.com/guides/ade/overview/) and a [desktop/web app](https://docs.letta.com/letta-code/remote).
 							- The communication between agents is facilitated by [shared memory blocks](https://docs.letta.com/tutorials/shared-memory-blocks).
-							- Integrations
-								- OpenCode plugin [opencode-agent-memory](https://github.com/joshuadavidthomas/opencode-agent-memory)
+							- Integration to OpenCode plugin [opencode-agent-memory](https://github.com/joshuadavidthomas/opencode-agent-memory)
 						- [ByteRover](https://github.com/campfirein/byterover-cli)
 						  id:: 69d7679b-c11b-41bc-a5c7-88f932f362e5
 						  A local [Markdown-based](https://docs.byterover.dev/context-tree/local-space-structure#knowledge-files) context tree
