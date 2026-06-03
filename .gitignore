@@ -4,6 +4,7 @@
 .idea/
 *.iml
 *.swp
+/.env
 .~lock.*
 .trash/
 .DS_Store
