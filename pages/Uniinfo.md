@@ -2662,7 +2662,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 				- Obop (equal $=$, Hamsa 🪬) = perception (circle $○$, eye 👁️, 🧿) + action (arrow $↑$, hand ✋️)
 				  id:: 6a1f9070-311f-4e51-a88a-39b7dfeb2ca6
 					- The [eye–hand coordination](https://en.wikipedia.org/wiki/Hand%E2%80%93eye_coordination) is the continuous feedback loop between the internal intent (the potential inner world, 能) and the external form (the actual outer world, 所), between [the first cause (intent) and the final cause (observation)](((692d502f-b469-4b1d-9267-1d02e3953590))).
-					- As the “Hand of God”, the [Hamsa amulet](https://en.wikipedia.org/wiki/Hamsa#Religious_interpretations) represents the universal unificaton of the helping hand (operation) and the watching eye (observation).
+					- As the “Hand of God”, the [Hamsa amulet](https://en.wikipedia.org/wiki/Hamsa#Religious_interpretations) represents the universal unificaton of the helping hand (operation) with the watching eye (observation).
 					- The [Thousand Hands Thousand Eyes Avalokiteśvara](https://en.wikipedia.org/wiki/Avalokite%C5%9Bvara#Thousand-armed_Avalokite%C5%9Bvara) has an eye in each hand to observe sentient beings and help accordingly.
 		-
 	- ## body
