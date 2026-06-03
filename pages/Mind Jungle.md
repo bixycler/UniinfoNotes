@@ -553,7 +553,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- memory provider
 					  id:: 69d74732-afcb-4b4a-9b39-5efcf868c8da
 						- [Hindsight](https://github.com/vectorize-io/hindsight)
-						  [self-learning](https://hindsight.vectorize.io/) knowledge graph
+						  [self-learning](https://hindsight.vectorize.io/) knowledge graph with multi-strategy retrieval: semantic search (embeddings), BM25 keyword matching, entity graph traversal, temporal filtering
+						- [Cognee](https://github.com/topoteretes/cognee)
+						  id:: 6a1febf3-3ab3-4815-b1cd-6d2b7a703013
+						- [Letta](https://github.com/letta-ai/letta-code)
+						  id:: 6a1fec73-498c-42ac-b10f-8c5a5df76ebc
 						- [ByteRover](https://github.com/campfirein/byterover-cli)
 						  id:: 69d7679b-c11b-41bc-a5c7-88f932f362e5
 						  local [Markdown-based](https://docs.byterover.dev/context-tree/local-space-structure#knowledge-files) context tree
