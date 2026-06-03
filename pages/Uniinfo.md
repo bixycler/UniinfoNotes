@@ -2659,6 +2659,10 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 				  id:: 699c0362-08e9-4df1-bce1-ec5da386c35e
 				- $f(t) = \exp(t)$: ob viewcone = $f(t) dt$; op = `+=`
 				- Neuron: ob viewcone = tree of dendrites; op = activation (action potential passed through axon)
+				- Obop (equal $=$, Hamsa 🪬) = perception (circle $○$, eye 👁️, 🧿) + action (arrow $↑$, hand ✋️)
+				  id:: 6a1f9070-311f-4e51-a88a-39b7dfeb2ca6
+					- The [eye–hand coordination](https://en.wikipedia.org/wiki/Hand%E2%80%93eye_coordination) is the continuous feedback loop between the internal intent (the potential inner world, 能) and the external form (the actual outer world, 所).
+					- The [Thousand Hands Thousand Eyes Avalokiteśvara](https://en.wikipedia.org/wiki/Avalokite%C5%9Bvara#Thousand-armed_Avalokite%C5%9Bvara) has an eye in each hand to observe sentient beings and help accordingly.
 		-
 	- ## body
 	  id:: 66c810a0-9861-4787-bdcf-1378219332be
