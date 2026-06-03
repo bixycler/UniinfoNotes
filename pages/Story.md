@@ -1970,7 +1970,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  id:: 6a1d453c-dc52-42be-b5b9-15cbbc60ce94
 		  collapsed:: true
 			- 3rd, the obop in traditional culture: Hamsa (🪬) and Thousand Hands Thousand Eyes statue
-				- Obop (equal `=`, Hamsa 🪬) = perception (circle ○, eye 👁️) + action (arrow ↑, hand ✋️)
+				- Obop (equal $=$, Hamsa 🪬) = perception (circle $○$, eye 👁️, 🧿) + action (arrow $↑$, hand ✋️)
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a1d453c-dc52-42be-b5b9-15cbbc60ce94))
