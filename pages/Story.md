@@ -1973,7 +1973,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- Reading these [8 memory systems for agent](https://vectorize.io/articles/best-ai-agent-memory-systems), i see 2 more interesting ones: ((6a1febf3-3ab3-4815-b1cd-6d2b7a703013)) & ((6a1fec73-498c-42ac-b10f-8c5a5df76ebc))
 			- 4th, ...
-				- Digging the disk usage with python
+				- Digging the disk usage of Cognee, `python3`, `uv` and LangFlow
+					- Tried `cognee-cli -ui` but [failed](((6a210a5e-11f5-4e89-8498-566d20a3a425))) (no Node.js found!) with 30GB of Docker image 🙁 So i built & ran from source.
+					- `cognee-cli` always ends with python error due to a bug in python3.10. So i try upgrading to python3.11.
+					- `update-alternatives` of system `python3` to `python3.11` broke ((68357072-2dcb-42b5-a228-15ed904010f8)) in Ubuntu 22. So the system python must be kept untouched.
+					-
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a1d453c-dc52-42be-b5b9-15cbbc60ce94))
