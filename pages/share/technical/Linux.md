@@ -594,6 +594,8 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			  dump network socket statistics: type (TCP, UDP, UNIX), status (listening, established, unconnected), addresses
 			- `nc`/`netcat`
 			  versatile network socket operations: connect, listen, send packets, scan port
+			- `ntopng`
+			  = `ntop`-next-generation = network `top` web app at http://localhost:3000
 	- ### shell
 		- `man [-k]`, `info`, `[run-]help`, `apropos`
 		  collapsed:: true
