@@ -466,6 +466,11 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			  report file system disk space usage
 			- `du`
 			  estimate file space usage
+			- `lsof`
+			  *list open files* for running processes
+			- `baobab`
+			  *Disk Usage Analyzer* showing sunburst/treemap chart of files on disk
+				- Should be run with `sudo` to see system files.
 		- text processing
 		  id:: 6790a3e2-3f65-42d0-9253-35b6672d8b25
 		  collapsed:: true
