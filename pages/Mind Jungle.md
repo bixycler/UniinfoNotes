@@ -569,7 +569,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 										- `~/source/cognee/` contains all: `.env`, `.venv/`, `cognee/` (`database_path`=`~/source/cognee/cognee/.cognee_system/databases`)
 										- Backend: http://localhost:8000
 										  ```sh
-										  cd ~/source/cognee
+										  #cd ~/source/cognee
+										  source ~/source/cognee/.venv/bin/activate
 										  uv run uvicorn cognee.api.client:app --host 127.0.0.1 --port 8000 --reload
 										  ```
 										- Frontend: http://localhost:3000
