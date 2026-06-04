@@ -566,7 +566,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									  id:: 6a210a5e-11f5-4e89-8498-566d20a3a425
 										- Even with the full Doker container, it still fails with “no Node.js found”!
 									- Build & run from source
-										- `~/source/cognee` contains all: `.env`, `.venv/`, `cognee/` (`database_path`=`~/source/cognee/cognee/.cognee_system/databases`)
+										- `~/source/cognee/` contains all: `.env`, `.venv/`, `cognee/` (`database_path`=`~/source/cognee/cognee/.cognee_system/databases`)
 										- Backend: http://localhost:8000
 										  ```sh
 										  cd ~/source/cognee
@@ -575,8 +575,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 										- Frontend: http://localhost:3000
 										  ```sh
 										  cd ~/source/cognee/cognee-frontend
-										  npm install
+										  #npm install
 										  npm run dev
+										  ```
+										- CLI
+										  ```sh
+										  source ~/source/cognee/.venv/bin/activate
+										  cognee-cli --help
 										  ```
 								- API: [Python](https://docs.cognee.ai/python-api) & [HTML](https://docs.cognee.ai/api-reference/introduction)
 						- [Letta](https://github.com/letta-ai/letta)
