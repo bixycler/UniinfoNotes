@@ -556,12 +556,23 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  A [self-learning](https://hindsight.vectorize.io/) knowledge graph with multi-strategy retrieval: semantic search (embeddings), BM25 keyword matching, entity graph traversal, temporal filtering
 						- [Cognee](https://github.com/topoteretes/cognee)
 						  id:: 6a1febf3-3ab3-4815-b1cd-6d2b7a703013
+						  collapsed:: true
 						  A knowledge graph + vector search memory, which can ingest a entire codebase
 							- Features
 								- The operation [improve](https://docs.cognee.ai/core-concepts/main-operations/improve) incorporates short-term [session memory](https://docs.cognee.ai/core-concepts/sessions-and-caching) into the permanent graph and applies feedback-based weighting. It can optionally update the [global index](https://docs.cognee.ai/core-concepts/further-concepts/global-context-index).
 								- [CLI](https://docs.cognee.ai/cognee-cli/overview) & [web app](https://docs.cognee.ai/cognee-cloud/local-ui)
 									- Don't launch web app via `cognee-cli -ui` because it will pull a docker image up to 10GB and eat up 30GB disk space.
-									- Build from source instead
+									- Build from source
+										- Backend: http://localhost:8000
+										  ```sh
+										  uv run uvicorn cognee.api.client:app --host 127.0.0.1 --port 8000 --reload
+										  ```
+										- Frontend: http://localhost:3000
+										  ```sh
+										  cd cognee/cognee-frontend
+										  npm install
+										  npm run dev
+										  ```
 								- API: [Python](https://docs.cognee.ai/python-api) & [HTML](https://docs.cognee.ai/api-reference/introduction)
 						- [Letta](https://github.com/letta-ai/letta)
 						  id:: 6a1fec73-498c-42ac-b10f-8c5a5df76ebc
