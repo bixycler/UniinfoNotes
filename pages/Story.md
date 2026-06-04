@@ -1611,7 +1611,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- ((69ae2041-4076-49c2-90bb-575ffd1eb2b3))
 					- ((69af7d27-1481-46a0-bf18-a995c8cbba7e))
 					- Clean up mind chips
-			- 24th, installed LangFlow
+			- 24th, installed LangFlow with lots of heavy deps (torch, triton, NVIDIA, etc.)
 			  id:: 6a214628-adcc-455d-8ace-e5835d96e9e9
 			- 25-27th, weekends & Hùng Kings' Commemoration Days
 			  collapsed:: true
@@ -1979,8 +1979,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Tried `cognee-cli -ui` but [failed](((6a210a5e-11f5-4e89-8498-566d20a3a425))) (no Node.js found!) with 30GB of Docker image 🙁 So i built & ran from source.
 					- `cognee-cli` always ends with python error due to a bug in python3.10. So i try upgrading to python3.11.
 					- `update-alternatives` of system `python3` to `python3.11` broke ((68357072-2dcb-42b5-a228-15ed904010f8)) in Ubuntu 22. So the system python must be kept untouched.
-					- Both Hermes and LangFlow have been [installed](((6a214628-adcc-455d-8ace-e5835d96e9e9))) with `uv` and local python3.11.
-						- LangFlow was installed in
+					- Both Hermes and LangFlow have been installed with `uv` and local python3.11.
+						- LangFlow was installed in [April 24th](((6a214628-adcc-455d-8ace-e5835d96e9e9))) with 10GB of cache at `~/.cache/uv/` but not tracked anywhere. To day i must trace it back through that huge cache and `zsh` history.
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a1d453c-dc52-42be-b5b9-15cbbc60ce94))
