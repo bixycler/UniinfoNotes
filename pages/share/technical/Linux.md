@@ -2108,3 +2108,4 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- [Command `docker compose`](https://docs.docker.com/compose/)
 			- Desktop app: [Docker Desktop](https://docs.docker.com/desktop/)
 			- Storage: Hidden under `/var/lib/containerd/` or `/var/lib/docker/overlay2`
+				- That means `sudo du -sh /var/lib/docker` will not show the mass, but we must check `sudo du -sh /var/lib/containerd`.
