@@ -1972,6 +1972,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 3rd, the obop in traditional cultures: [Hamsa (🪬) and Thousand Hands Thousand Eyes statue](((6a1f9070-311f-4e51-a88a-39b7dfeb2ca6)))
 			  collapsed:: true
 				- Reading these [8 memory systems for agent](https://vectorize.io/articles/best-ai-agent-memory-systems), i see 2 more interesting ones: ((6a1febf3-3ab3-4815-b1cd-6d2b7a703013)) & ((6a1fec73-498c-42ac-b10f-8c5a5df76ebc))
+			- 4th, ...
+				- Digging the disk usage with python
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a1d453c-dc52-42be-b5b9-15cbbc60ce94))
