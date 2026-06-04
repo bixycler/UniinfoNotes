@@ -134,7 +134,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- ```
 						  surrealdb-1  | 2026-01-26T13:18:55.888657Z ERROR surreal::cli: There was a problem with the database: There was a problem with a datastore transaction: Failed to create RocksDB directory: `Os { code: 13, kind: PermissionDenied, message: "Permission denied" }`.
 						  ```
-					- DONE After 3 months, getting back with Open Notebook version 1.8.5, and i's working. 😁
+					- DONE After 3 months, getting back with Open Notebook version 1.8.5, and it's working. 😁
 					  id:: 69f03316-1301-4b74-a2fe-28ee0eb026bf
 					  collapsed:: true
 					  :LOGBOOK:
