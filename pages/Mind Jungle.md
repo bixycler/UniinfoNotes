@@ -558,6 +558,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  id:: 6a1febf3-3ab3-4815-b1cd-6d2b7a703013
 						  collapsed:: true
 						  A knowledge graph + vector search memory, which can ingest a entire codebase
+							- Logs are stored in `~/.cognee/` for a short window.
 							- Features
 								- The operation [improve](https://docs.cognee.ai/core-concepts/main-operations/improve) incorporates short-term [session memory](https://docs.cognee.ai/core-concepts/sessions-and-caching) into the permanent graph and applies feedback-based weighting. It can optionally update the [global index](https://docs.cognee.ai/core-concepts/further-concepts/global-context-index).
 								- [CLI](https://docs.cognee.ai/cognee-cli/overview) & [web app](https://docs.cognee.ai/cognee-cloud/local-ui)
@@ -565,14 +566,15 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									  id:: 6a210a5e-11f5-4e89-8498-566d20a3a425
 										- Even with the full Doker container, it still fails with “no Node.js found”!
 									- Build & run from source
-										- `~/source/cognee` contains all: `.env`, `.venv` (database_path=~/source/cognee/cognee/.cognee_system/databases)
+										- `~/source/cognee` contains all: `.env`, `.venv/`, `cognee/` (`database_path`=`~/source/cognee/cognee/.cognee_system/databases`)
 										- Backend: http://localhost:8000
 										  ```sh
+										  cd ~/source/cognee
 										  uv run uvicorn cognee.api.client:app --host 127.0.0.1 --port 8000 --reload
 										  ```
 										- Frontend: http://localhost:3000
 										  ```sh
-										  cd cognee/cognee-frontend
+										  cd ~/source/cognee/cognee-frontend
 										  npm install
 										  npm run dev
 										  ```
