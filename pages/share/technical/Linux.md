@@ -15,7 +15,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- Desktop management: ((66b1cfa4-808f-407c-bf5a-b93812604b5d))
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- ((68358033-084f-461c-b470-5311a5127f0c))
-	- ### concepts
+	- ### Concepts
 	  id:: 6735b188-e391-498b-a01b-35797616f7b6
 		- file mode bits
 		  id:: 671f467e-6f1f-4436-a0dd-9a03055e11a9
@@ -97,8 +97,8 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 						- ![last-newline-Notepad++.png](../assets/TextProcessing/last-newline/last-newline-Notepad++.png)
 						- Automatic newline can be added with EditorConfig plugin. [ref](https://github.com/notepad-plus-plus/notepad-plus-plus/issues/1426#issuecomment-578472737)
 						  `insert_final_newline = true`
-	- ### commands
-		- process handling
+	- ### Commands
+		- Process handling
 		  collapsed:: true
 			- pid
 			  := "process ID"
@@ -139,7 +139,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			  collapsed:: true
 			  Manage shell jobs (background processes).
 				- [disown](https://www.cyberciti.biz/faq/unix-linux-disown-command-examples-usage-syntax/)
-		- window handling
+		- Window handling
 		  collapsed:: true
 			- Note that on ((66b1cfa4-f6a5-444d-97fb-e76a1c5fb1c7)), `xkill` & `xprop` cannot chose windows of Gnome Shell like ((66c6bd7d-c9af-4f64-a65b-f4ff075961bb)), ((66c6bd94-76a7-4b80-bf2e-b8af02737af2)), ((66c6bda1-7a64-4832-af2b-906b3beb8927)), etc., because they are not using ((66c6cd8c-5367-4ae4-a76c-970732c2aebb)). Ref: [Nautilus is being ignored](https://github.com/johannesjo/linux-window-session-manager/issues/8#issuecomment-347517969)
 			- `xkill`
@@ -196,7 +196,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				  Dialog window *never* take focus!
 					- While this option resolves the [focus stealing issue of `zenity`](((67d3a821-ed1c-48d5-a935-bfab8a57cd8e))), it makes the dialog a “dump window” receiving no keyboard inputs and cannot be focused, hence all interactions must be done with mouse.
 					- On ((66b1cfa4-f6a5-444d-97fb-e76a1c5fb1c7)), window related features like `--no-focus`, `--center`, `--mouse`, `--skip-taskbar` are ineffective, and can be reactivated with [env.var.](((67f6257e-455e-46f1-8225-8510f60b8b47))) `GDK_BACKEND=x11`
-		- file management
+		- File management
 		  id:: 671f4028-c60f-4791-b716-e5226cdf410e
 		  collapsed:: true
 			- `ls`
@@ -471,7 +471,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- `baobab`
 			  *Disk Usage Analyzer* showing sunburst/treemap chart of files on disk
 				- Should be run with `sudo` to see system files.
-		- text processing
+		- Text processing
 		  id:: 6790a3e2-3f65-42d0-9253-35b6672d8b25
 		  collapsed:: true
 			- `grep`
@@ -497,7 +497,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- `awk`
 			  pattern scanning and processing language
 				-
-		- image processing
+		- Image processing
 		  collapsed:: true
 			- `webp` package: `dwebp`, `cwebp`, `webpinfo`, `webpmux`, ...
 				- `dwebp`
@@ -508,7 +508,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				  print out the chunk level structure of WebP files along with basic integrity checks
 				- `webpmux`
 				  create  animated WebP files from non-animated WebP images, extract frames from animated WebP images, and manage XMP/EXIF metadata and ICC profile.
-		- hex, binary, encoding converting
+		- Hex, binary, encoding converting
 		  id:: 679085ef-facd-4c4a-83f3-f32bdefbaa49
 		  collapsed:: true
 			- Examples
@@ -570,7 +570,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					- `noerror` to continue on any input error
 					- `swab`, `sync` to swap every pair of bytes, or/and pad input block to `ibs`
 					- `lcase`|`ucase`, `block`|`unblock` to convert text to lower/upper case, or/and padding/unpadding spaces to line to reach `cbs`
-		- system handling
+		- System handling
 		  id:: 67f4ffe3-488c-4d61-9622-26ecbed945ac
 		  collapsed:: true
 		  :LOGBOOK:
@@ -587,7 +587,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			  `poweroff`, `reboot`, or `halt` the machine.
 				- Note: ((67f4ffeb-5e02-4fd5-bd33-19abc23f60aa)) could be safer than ((67f500dd-ff43-46ec-b9e0-9dcc097b2bc3)).
 				  id:: 67f4f5e3-e739-41cd-8b95-14c7bbe9eebe
-		- network handling
+		- Network handling
 		  collapsed:: true
 			- `iftop`
 			  id:: 6835b16a-35af-4d69-8b48-17cbb2bf556d
@@ -601,7 +601,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			  versatile network socket operations: connect, listen, send packets, scan port
 			- `ntopng`
 			  = `ntop`-next-generation = network `top` web app at http://localhost:3000
-	- ### shell
+	- ### Shell
 		- `man [-k]`, `info`, `[run-]help`, `apropos`
 		  collapsed:: true
 			- `man` is the traditional UNIX manual pages for specific subjects like commands, functions, configs, etc. `man` pages are viewed with `less` navigation.
@@ -1300,7 +1300,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- Ref: [Install Nu Shell on Ubuntu 20.04](https://www.osradar.com/install-nu-shell-ubuntu/)
 				  collapsed:: true
 					- Note: Don't install ` --all-features` as instructed here, because some "raw" features make `polars-core` compilation error: `raw_table_mut()` method not found.
-	- ### editors
+	- ### Editors
 	  collapsed:: true
 		- #### vim
 		  id:: 6716110f-c747-4dbe-9af4-5ebee764c436
@@ -2102,3 +2102,9 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					- Flatpak sandbox integrates user's `${HOME}` and other parts of the OS so well that it feels like running in the native environment.
 					- Flatpak sandbox can handle SSH well.
 					  id:: 66fb5fd7-b1b0-4e54-96b3-fe6a83e34777
+		- ### Docker
+			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Docker_(software)
+			- Hub: https://hub.docker.com/
+			- [Command `docker compose`](https://docs.docker.com/compose/)
+			- Desktop app: [Docker Desktop](https://docs.docker.com/desktop/)
+			- Storage: Hidden under `/var/lib/containerd/` or `/var/lib/docker/overlay2`
