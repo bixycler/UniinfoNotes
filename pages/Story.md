@@ -1993,15 +1993,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  id:: 6a227a43-5fa1-4718-8cf7-3a57c8121bd5
 		  collapsed:: true
 			- Symptoms
-				- **Cognee frontend glitch**: After some idle time, Cognee backend returns `401 Unauthorized`, after re-login, the webapp is covered by a semi-transparent gray overlay which is **persistent across all subsequent browser navigations** (hard refresh, load new address, etc.).
+				- **Cognee frontend glitch**: After some idle time, Cognee backend returns `401 Unauthorized`, after re-login, the webapp is covered by a semi-transparent gray overlay which is **persistent across all subsequent browser navigations** (hard refresh, loading new address, etc.).
 				  :LOGBOOK:
 				  CLOCK: [2026-06-05 Fri 15:11:28]
 				  :END:
 					- When entering new address, the new page is rendered correctly but still covered by the overlay.
 					- Diabling all extensions doesn't help.
-				- **Restricted to a tab & window**: Closing the zombie tab does resolve the issue.
-				- **DevTools inspector disconnection:** The Element picker tool (`Ctrl+Shift+C`) fails completely – nothing can be selected, while selecting an element in Elements panel does hightlight the corresponding element as normal.
 				- **Ghost process footprint:** The active tab vanishes from the internal Browser Task Manager (`Shift-Esc`) but continues to hold dozens of megabytes in system RAM.
+				- **Restricted to a tab & window**: Closing the zombie tab does resolve the issue. Moving the zombie tab to another window removes the overlay, but the tab **still does not show in Browser Task Manager**.
+				- **DevTools inspector disconnection:** The Element picker tool (`Ctrl+Shift+C`) fails completely – nothing can be selected, while selecting an element in Elements panel does hightlight the corresponding element as normal.
 				- **Visual indicator:** A distinct light blue dot remains stuck on the tab header, signifying a hung background execution or discard routine.
 				- Screenshots
 					- The zombie tab of Cognee after re-login
