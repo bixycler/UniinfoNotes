@@ -1985,6 +1985,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- So `uv tool install cognee --python 3.11` to replace the previous python 3.10 `pip install cognee`.
 			- 5th, ...
 				- ((6a227a43-5fa1-4718-8cf7-3a57c8121bd5))
+					- In the course of debugging this zombie tab, i've found *de facto* max z-index (2³¹ - 1, max 32-bit signed integer)
 		- Chrome tab zombie by Cognee webapp
 		  id:: 6a227a43-5fa1-4718-8cf7-3a57c8121bd5
 		  collapsed:: true
@@ -1994,6 +1995,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  CLOCK: [2026-06-05 Fri 15:11:28]
 				  :END:
 					- When entering new address, the new page is rendered correctly but still covered by the overlay.
+					- Diabling all extensions doesn't help.
 					- Opening new tab does resolve the issue.
 				- **DevTools inspector disconnection:** The Element picker tool (`Ctrl+Shift+C`) fails completely – nothing can be selected, while selecting an element in Elements panel does hightlight the corresponding element as normal.
 				- **Ghost process footprint:** The active tab vanishes from the internal Browser Task Manager (`Shift-Esc`) but continues to hold dozens of megabytes in system RAM.
@@ -2012,7 +2014,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Input `chrome://crash` or `chrome://kill` to the address bar to force a crash.
 						- Note that `chrome://restart` will restart the whole browser (all windows), and `chrome://hang` will freeze the tab by putting it into an infinite loop.
 					- `chrome://discards`: Check tab life cycle status and take action (discard, freeze) if needed.
-						- Checked: manual freeze, proactive/urgent discard
+						- Checked: manual freeze, proactive/urgent discard don't trigger the glitch.
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a1d453c-dc52-42be-b5b9-15cbbc60ce94))
