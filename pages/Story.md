@@ -1997,11 +1997,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  :LOGBOOK:
 				  CLOCK: [2026-06-05 Fri 15:11:28]
 				  :END:
-					- When entering new address, the new page is rendered correctly but still covered by the overlay.
+					- When entering new addresses, the new pages are rendered correctly but still covered by the overlay.
 					- Diabling all extensions doesn't help.
 					- When not glitched, the overlay shows the “Change your password” prompt against the default local password – hardcoded in the open source of Cognee, hence “breached”.
-						- This backdrop has the same properties with the glitched overlay: semi-transparent, the light blue dot shown in the tab title when hidden, DevTools Element picker ineffective. The only difference is that the tab is visible in Browser Task Manager.
-				- **Ghost process footprint:** The active tab vanishes from the internal Browser Task Manager (`Shift-Esc`) but continues to hold dozens of megabytes in system RAM.
+						- This backdrop has the same properties with the glitched overlay: semi-transparent, the light blue dot shown in the tab title when hidden, DevTools Element picker ineffective, disappears when moved to another window. The only difference is that the tab is visible in Browser Task Manager.
+				- **Ghost process footprint:** The zombie tab vanishes from the internal Browser Task Manager (`Shift-Esc`).
 				- **Restricted to a tab & window**: Closing the zombie tab does resolve the issue. Moving the zombie tab to another window removes the overlay, but the tab **still does not show in Browser Task Manager**.
 				- **DevTools inspector disconnection:** The Element picker tool (`Ctrl+Shift+C`) fails completely – nothing can be selected, while selecting an element in Elements panel does hightlight the corresponding element as normal.
 				- **Visual indicator:** A distinct light blue dot remains stuck on the tab header, signifying a hung background execution or discard routine.
