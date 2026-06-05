@@ -2004,6 +2004,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- Resolution steps
 				- **Deactivate Memory Saver:** Toggle off the background tab discard toggle in `chrome://settings/performance` / `Memory Saver` to prevent the browser from forcefully tearing down active execution loops.
 				- **Surgical process termination:** Force a low-level execution crash from the inside using the DevTools console command `chrome://discards` utility to clear the zombie frame allocation.
+					- Input `chrome://crash` or `chrome://kill` to the address bar to force a crash.
+						- Note that `chrome://restart` will restart the whole browser (all windows), and `chrome://hang` will freeze the tab by putting it into an infinite loop.
 					- ```js
 					  chrome.send('crash');
 					  ```
