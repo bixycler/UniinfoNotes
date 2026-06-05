@@ -1974,16 +1974,35 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 3rd, the obop in traditional cultures: [Hamsa (🪬) and Thousand Hands Thousand Eyes statue](((6a1f9070-311f-4e51-a88a-39b7dfeb2ca6)))
 			  collapsed:: true
 				- Reading these [8 memory systems for agent](https://vectorize.io/articles/best-ai-agent-memory-systems), i see 2 more interesting ones: ((6a1febf3-3ab3-4815-b1cd-6d2b7a703013)) & ((6a1fec73-498c-42ac-b10f-8c5a5df76ebc))
-			- 4th, ...
-				- Digging the disk usage of Cognee, `python3`, `uv` and LangFlow
-					- Tried `cognee-cli -ui` but [failed](((6a210a5e-11f5-4e89-8498-566d20a3a425))) (no Node.js found!) with 30GB of Docker image 🙁 So i built & ran from source.
-					- `cognee-cli` always ends with python error due to a bug in python3.10. So i try upgrading to python3.11.
-					- `update-alternatives` of system `python3` to `python3.11` broke ((68357072-2dcb-42b5-a228-15ed904010f8)) in Ubuntu 22. So the system python must be kept untouched.
-					- Both Hermes and LangFlow have been installed with `uv` and local python3.11.
-						- LangFlow was installed in [April 24th](((6a214628-adcc-455d-8ace-e5835d96e9e9))) with 10GB of cache at `~/.cache/uv/` but not tracked anywhere. To day i must trace it back through that huge cache and `zsh` history.
-						- Now, i decide to replace LangFlow with LangGraph Studio. So just `uv cache clean`
-					- So `uv tool install cognee --python 3.11` to replace the previous python 3.10 `pip install cognee`.
-		- Chrome tab zombie by
+			- 4th, digging the disk usage of Cognee, `python3`, `uv` and LangFlow
+			  collapsed:: true
+				- Tried `cognee-cli -ui` but [failed](((6a210a5e-11f5-4e89-8498-566d20a3a425))) (no Node.js found!) with 30GB of Docker image 🙁 So i built & ran from source.
+				- `cognee-cli` always ends with python error due to a bug in python3.10. So i try upgrading to python3.11.
+				- `update-alternatives` of system `python3` to `python3.11` broke ((68357072-2dcb-42b5-a228-15ed904010f8)) in Ubuntu 22. So the system python must be kept untouched.
+				- Both Hermes and LangFlow have been installed with `uv` and local python3.11.
+					- LangFlow was installed in [April 24th](((6a214628-adcc-455d-8ace-e5835d96e9e9))) with 10GB of cache at `~/.cache/uv/` but not tracked anywhere. To day i must trace it back through that huge cache and `zsh` history.
+					- Now, i decide to replace LangFlow with LangGraph Studio. So just `uv cache clean`
+				- So `uv tool install cognee --python 3.11` to replace the previous python 3.10 `pip install cognee`.
+			- 5th, ...
+				- ((6a227a43-5fa1-4718-8cf7-3a57c8121bd5))
+		- Chrome tab zombie by Cognee webapp
+		  id:: 6a227a43-5fa1-4718-8cf7-3a57c8121bd5
+		  collapsed:: true
+			- Symptoms
+				- **Persistent visual canvas:** A static, semi-transparent gray overlay covers the viewport across all sub-navigation attempts.
+				- **DevTools inspector disconnection:** The Element picker tool (`Ctrl+Shift+C`) fails completely due to a lost debugging context bridge.
+				- **Gutted DOM tree:** The Elements tree renders as an empty `<html><head></head><body></body></html>` shell on all loaded files.
+				- **Ghost process footprint:** The active tab tile vanishes from the internal Browser Task Manager but continues to hold dozens of megabytes in system RAM.
+				- **Visual indicator:** A distinct light blue dot remains stuck on the tab header, signifying a hung background execution or discard routine.
+			- Trigger mechanism
+				- **Memory Saver intervention:** The browser attempts to discard or freeze a background tab automatically to optimize resources.
+				- **State transition deadlock:** The tab process gets locked between a hidden state and a frozen state, failing to reconstruct its graphics pipeline upon reactivation.
+				- **Tab-detachment error:** Chromium background performance engine failed during a state transition.
+				- **IPC synchronization breakdown:** The communication channel between the main browser process and the specific tab renderer dropped.
+				- **Resource isolation failure:** The tab frame remained allocated in system memory while disappearing entirely from the browser task manager interface.
+			- Resolution steps
+				- **Deactivate Memory Saver:** Toggle off the background tab discard toggle  in `chrome://settings/performance` to prevent the browser from forcefully tearing down active execution loops.
+				- **Surgical process termination:** Force a low-level execution crash from the inside using the DevTools console command `chrome://discards` utility to clear the zombie frame allocation.
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a1d453c-dc52-42be-b5b9-15cbbc60ce94))
