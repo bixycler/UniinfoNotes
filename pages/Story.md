@@ -1989,8 +1989,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  id:: 6a227a43-5fa1-4718-8cf7-3a57c8121bd5
 		  collapsed:: true
 			- Symptoms
-				- `401 Unauthorized` from Cognee backend
-				- **Persistent visual canvas:** A static, semi-transparent gray overlay covers the viewport across all sub-navigation attempts.
+				- **Cognee frontend glitch**: After some idle time, the webapp is covered by a semi-transparent gray overlay which is **persistent across all subsequent browser navigations** (hard refresh, load new address).
+				  :LOGBOOK:
+				  CLOCK: [2026-06-05 Fri 15:11:28]
+				  :END:
 				- **DevTools inspector disconnection:** The Element picker tool (`Ctrl+Shift+C`) fails completely due to a lost debugging context bridge.
 				- **Gutted DOM tree:** The Elements tree renders as an empty `<html><head></head><body></body></html>` shell on all loaded files.
 				- **Ghost process footprint:** The active tab tile vanishes from the internal Browser Task Manager but continues to hold dozens of megabytes in system RAM.
@@ -2003,16 +2005,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- **Resource isolation failure:** The tab frame remained allocated in system memory while disappearing entirely from the browser task manager interface.
 			- Resolution steps
 				- **Deactivate Memory Saver:** Toggle off the background tab discard toggle in `chrome://settings/performance` / `Memory Saver` to prevent the browser from forcefully tearing down active execution loops.
-				- **Surgical process termination:** Force a low-level execution crash from the inside using the DevTools console command `chrome://discards` utility to clear the zombie frame allocation.
+				- **Surgical process termination:** Force a low-level execution crash to clear the zombie frame allocation.
 					- Input `chrome://crash` or `chrome://kill` to the address bar to force a crash.
 						- Note that `chrome://restart` will restart the whole browser (all windows), and `chrome://hang` will freeze the tab by putting it into an infinite loop.
-					- ```js
-					  chrome.send('crash');
-					  ```
-					  or
-					  ```js
-					  Object.alloc([]);
-					  ```
+					- `chrome://discards`: Check tab life cycle status and take action (discard, freeze) if needed.
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a1d453c-dc52-42be-b5b9-15cbbc60ce94))
