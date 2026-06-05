@@ -1985,7 +1985,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- So `uv tool install cognee --python 3.11` to replace the previous python 3.10 `pip install cognee`.
 			- 5th, ...
 				- ((6a227a43-5fa1-4718-8cf7-3a57c8121bd5))
-					- In the course of debugging this zombie tab, i've found *de facto* max z-index (2³¹ - 1, max 32-bit signed integer)
+					- In the course of debugging this zombie tab, i've found a `div` with the *de facto* max z-index (2³¹ - 1, max 32-bit signed integer) by Passbolt extension.
+						- ```html
+						  <div style="all: initial; position: fixed !important; display: block !important; z-index: 2147483647 !important"></div>
+						  ```
 		- Chrome tab zombie by Cognee webapp
 		  id:: 6a227a43-5fa1-4718-8cf7-3a57c8121bd5
 		  collapsed:: true
