@@ -1989,6 +1989,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  id:: 6a227a43-5fa1-4718-8cf7-3a57c8121bd5
 		  collapsed:: true
 			- Symptoms
+				- `401 Unauthorized` from Cognee backend
 				- **Persistent visual canvas:** A static, semi-transparent gray overlay covers the viewport across all sub-navigation attempts.
 				- **DevTools inspector disconnection:** The Element picker tool (`Ctrl+Shift+C`) fails completely due to a lost debugging context bridge.
 				- **Gutted DOM tree:** The Elements tree renders as an empty `<html><head></head><body></body></html>` shell on all loaded files.
@@ -2001,8 +2002,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- **IPC synchronization breakdown:** The communication channel between the main browser process and the specific tab renderer dropped.
 				- **Resource isolation failure:** The tab frame remained allocated in system memory while disappearing entirely from the browser task manager interface.
 			- Resolution steps
-				- **Deactivate Memory Saver:** Toggle off the background tab discard toggle  in `chrome://settings/performance` to prevent the browser from forcefully tearing down active execution loops.
+				- **Deactivate Memory Saver:** Toggle off the background tab discard toggle in `chrome://settings/performance` / `Memory Saver` to prevent the browser from forcefully tearing down active execution loops.
 				- **Surgical process termination:** Force a low-level execution crash from the inside using the DevTools console command `chrome://discards` utility to clear the zombie frame allocation.
+					- ```js
+					  chrome.send('crash');
+					  ```
+					  or
+					  ```js
+					  Object.alloc([]);
+					  ```
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a1d453c-dc52-42be-b5b9-15cbbc60ce94))
