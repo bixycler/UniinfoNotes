@@ -1998,9 +1998,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- **DevTools inspector disconnection:** The Element picker tool (`Ctrl+Shift+C`) fails completely – nothing can be selected, while selecting an element in Elements panel does hightlight the corresponding element as normal.
 				- **Ghost process footprint:** The active tab vanishes from the internal Browser Task Manager (`Shift-Esc`) but continues to hold dozens of megabytes in system RAM.
 				- **Visual indicator:** A distinct light blue dot remains stuck on the tab header, signifying a hung background execution or discard routine.
-				- Screenshot of the z
-				  ![Chrome-zombie_tab-background_task-indicator.png](../assets/GUI/Chrome/Chrome-zombie_tab-background_task-indicator.png)
-			- Trigger mechanism
+				- Screenshot of the zombie tab with an tempty `test.html` page loaded
+					- ![Chrome-zombie_tab-background_task-indicator.png](../assets/GUI/Chrome/Chrome-zombie_tab-background_task-indicator.png)
+			- Trigger mechanism (suspected)
 				- **Memory Saver intervention:** The browser attempts to discard or freeze a background tab automatically to optimize resources.
 				- **State transition deadlock:** The tab process gets locked between a hidden state and a frozen state, failing to reconstruct its graphics pipeline upon reactivation.
 				- **Tab-detachment error:** Chromium background performance engine failed during a state transition.
