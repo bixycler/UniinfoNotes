@@ -1993,7 +1993,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  id:: 6a227a43-5fa1-4718-8cf7-3a57c8121bd5
 		  collapsed:: true
 			- Symptoms
-				- **Cognee frontend glitch**: After some idle time, Cognee backend returns `401 Unauthorized`, after re-login, the webapp is covered by a semi-transparent gray overlay which is **persistent across all subsequent browser navigations** (hard refresh, loading new address, etc.).
+				- **Cognee frontend glitch**: After some idle time, Cognee backend returns `401 Unauthorized`, after re-login, the webapp is covered by a **semi-transparent gray overlay** which is _**persistent** across all subsequent browser navigations_ (hard refresh, loading new address, etc.).
 				  :LOGBOOK:
 				  CLOCK: [2026-06-05 Fri 15:11:28]
 				  :END:
@@ -2004,6 +2004,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- **DevTools inspector disconnection:** The Element picker tool (`Ctrl+Shift+C`) fails completely – nothing can be selected, while selecting an element in Elements panel does hightlight the corresponding element as normal.
 				- **Visual indicator:** A distinct light blue dot remains stuck on the tab header, signifying a hung background execution or discard routine.
 				- Screenshots
+				  collapsed:: true
 					- The zombie tab of Cognee after re-login
 					  ![Chrome-zombie_tab-Cognee_webapp.png](../assets/Will/story/2026-06/Chrome-zombie_tab-Cognee_webapp.png)
 					- The zombie tab with an empty `test.html` page loaded
