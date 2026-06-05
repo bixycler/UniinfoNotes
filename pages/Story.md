@@ -1983,6 +1983,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- LangFlow was installed in [April 24th](((6a214628-adcc-455d-8ace-e5835d96e9e9))) with 10GB of cache at `~/.cache/uv/` but not tracked anywhere. To day i must trace it back through that huge cache and `zsh` history.
 						- Now, i decide to replace LangFlow with LangGraph Studio. So just `uv cache clean`
 					- So `uv tool install cognee --python 3.11` to replace the previous python 3.10 `pip install cognee`.
+		- Chrome tab zombie by
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a1d453c-dc52-42be-b5b9-15cbbc60ce94))
