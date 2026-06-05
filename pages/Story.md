@@ -2004,11 +2004,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- **DevTools inspector disconnection:** The Element picker tool (`Ctrl+Shift+C`) fails completely – nothing can be selected, while selecting an element in Elements panel does hightlight the corresponding element as normal.
 				- **Visual indicator:** A distinct light blue dot remains stuck on the tab header, signifying a hung background execution or discard routine.
 				- Screenshots
-				  collapsed:: true
 					- The zombie tab of Cognee after re-login
 					  ![Chrome-zombie_tab-Cognee_webapp.png](../assets/Will/story/2026-06/Chrome-zombie_tab-Cognee_webapp.png)
 					- The zombie tab with an empty `test.html` page loaded
 					  ![Chrome-zombie_tab-background_task-indicator.png](../assets/GUI/Chrome/Chrome-zombie_tab-background_task-indicator.png)
+					- The “Change Password” prompt correctly popped up
+					  ![Chrome-change_password_prompt-Cognee.png](../assets/Will/story/2026-06/Chrome-change_password_prompt-Cognee.png)
 			- Trigger mechanism (suspected)
 				- **Memory Saver intervention:** The browser attempts to discard or freeze a background tab automatically to optimize resources.
 				- **State transition deadlock:** The tab process gets locked between a hidden state and a frozen state, failing to reconstruct its graphics pipeline upon reactivation.
