@@ -1983,6 +1983,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- LangFlow was installed in [April 24th](((6a214628-adcc-455d-8ace-e5835d96e9e9))) with 10GB of cache at `~/.cache/uv/` but not tracked anywhere. To day i must trace it back through that huge cache and `zsh` history.
 					- Now, i decide to replace LangFlow with LangGraph Studio. So just `uv cache clean`
 				- So `uv tool install cognee --python 3.11` to replace the previous python 3.10 `pip install cognee`.
+				- System thinking about agentic AI:
+					- The current workaround is binding context (system prompt) to code structure.
+					- [Comprehension Debt: The Hidden Cost of AI-Generated Code](https://www.oreilly.com/radar/comprehension-debt-the-hidden-cost-of-ai-generated-code/)
+					- [Context as Code](https://www.oreilly.com/radar/context-as-code/)
+					- [Why Doesn’t Anyone Teach Developers About Context Management?](https://www.oreilly.com/radar/why-doesnt-anyone-teach-developers-about-context-management/)
 			- 5th, intended to do the pro work, but end up all about Cognee.
 				- ((6a227a43-5fa1-4718-8cf7-3a57c8121bd5))
 					- In the course of debugging this zombie tab, i've found a `div` with the *de facto* max z-index (2³¹ - 1, max 32-bit signed integer) by Passbolt extension.
@@ -1993,6 +1998,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Most of updates are about connections, only a few are about nodes. The nodes are much more stable than the relations between them.
 					- An update should be a **diff of flow** (including both nodes and links) instead of ~~remove-and-readd~~.
 					- I don't know why such a basic operation has been badly designed in Cognee 🤔?!
+			-
 		- Chrome tab zombie by Cognee webapp
 		  id:: 6a227a43-5fa1-4718-8cf7-3a57c8121bd5
 		  collapsed:: true
