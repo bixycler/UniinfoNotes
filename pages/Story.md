@@ -1999,11 +1999,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  :END:
 					- When entering new address, the new page is rendered correctly but still covered by the overlay.
 					- Diabling all extensions doesn't help.
+					- When not glitched, the overlay shows the “Change your password” against the default local password – hardcoded in the open source of Cognee, hence “breached”.
 				- **Ghost process footprint:** The active tab vanishes from the internal Browser Task Manager (`Shift-Esc`) but continues to hold dozens of megabytes in system RAM.
 				- **Restricted to a tab & window**: Closing the zombie tab does resolve the issue. Moving the zombie tab to another window removes the overlay, but the tab **still does not show in Browser Task Manager**.
 				- **DevTools inspector disconnection:** The Element picker tool (`Ctrl+Shift+C`) fails completely – nothing can be selected, while selecting an element in Elements panel does hightlight the corresponding element as normal.
 				- **Visual indicator:** A distinct light blue dot remains stuck on the tab header, signifying a hung background execution or discard routine.
 				- Screenshots
+				  collapsed:: true
 					- The zombie tab of Cognee after re-login
 					  ![Chrome-zombie_tab-Cognee_webapp.png](../assets/Will/story/2026-06/Chrome-zombie_tab-Cognee_webapp.png)
 					- The zombie tab with an empty `test.html` page loaded
