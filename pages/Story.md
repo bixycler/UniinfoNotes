@@ -2013,7 +2013,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  ![Chrome-zombie_tab-background_task-indicator.png](../assets/GUI/Chrome/Chrome-zombie_tab-background_task-indicator.png)
 					- The “Change Password” prompt correctly popped up
 					  ![Chrome-change_password_prompt-Cognee.png](../assets/Will/story/2026-06/Chrome-change_password_prompt-Cognee.png)
-			- Trigger mechanism (suspected)
+			- Suspected trigger mechanism
 				- **Memory Saver intervention:** The browser attempts to discard or freeze a background tab automatically to optimize resources.
 				- **State transition deadlock:** The tab process gets locked between a hidden state and a frozen state, failing to reconstruct its graphics pipeline upon reactivation.
 				- **Tab-detachment error:** Chromium background performance engine failed during a state transition.
