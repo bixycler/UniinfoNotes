@@ -1983,13 +1983,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- LangFlow was installed in [April 24th](((6a214628-adcc-455d-8ace-e5835d96e9e9))) with 10GB of cache at `~/.cache/uv/` but not tracked anywhere. To day i must trace it back through that huge cache and `zsh` history.
 					- Now, i decide to replace LangFlow with LangGraph Studio. So just `uv cache clean`
 				- So `uv tool install cognee --python 3.11` to replace the previous python 3.10 `pip install cognee`.
-			- 5th, ...
+			- 5th, intended to do the pro work, but end up all about Cognee.
 				- ((6a227a43-5fa1-4718-8cf7-3a57c8121bd5))
 					- In the course of debugging this zombie tab, i've found a `div` with the *de facto* max z-index (2³¹ - 1, max 32-bit signed integer) by Passbolt extension.
 						- ```html
 						  <div style="all: initial; position: fixed !important; display: block !important; z-index: 2147483647 !important"></div>
 						  ```
-				- With the first try of Cognee with simp
+				- With the first try of Cognee with simple files (`README.md` & `LICENSE`), a flaw has just popped up right in front of my eyes: `forget` does **not remove connections**, only removes orphan nodes from the graph.
+					- Most of updates are about connections, only a few are about nodes. The nodes are much more stable than the relations between them.
+					- An update should be a **diff of flow** (including both nodes and links) instead of ~~remove-and-readd~~.
+					- I don't know why such a basic operation has been badly designed in Cognee 🤔?!
 		- Chrome tab zombie by Cognee webapp
 		  id:: 6a227a43-5fa1-4718-8cf7-3a57c8121bd5
 		  collapsed:: true
