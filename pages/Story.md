@@ -1993,13 +1993,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  id:: 6a227a43-5fa1-4718-8cf7-3a57c8121bd5
 		  collapsed:: true
 			- Symptoms
-				- **Cognee frontend glitch**: After some idle time, the webapp is covered by a semi-transparent gray overlay which is **persistent across all subsequent browser navigations** (hard refresh, load new address, etc.).
+				- **Cognee frontend glitch**: After some idle time, Cognee backend returns `401 Unauthorized`, after re-login, the webapp is covered by a semi-transparent gray overlay which is **persistent across all subsequent browser navigations** (hard refresh, load new address, etc.).
 				  :LOGBOOK:
 				  CLOCK: [2026-06-05 Fri 15:11:28]
 				  :END:
 					- When entering new address, the new page is rendered correctly but still covered by the overlay.
 					- Diabling all extensions doesn't help.
-					- Opening new tab does resolve the issue.
+				- **Restricted to a tab & window**: Closing the zombie tab does resolve the issue.
 				- **DevTools inspector disconnection:** The Element picker tool (`Ctrl+Shift+C`) fails completely – nothing can be selected, while selecting an element in Elements panel does hightlight the corresponding element as normal.
 				- **Ghost process footprint:** The active tab vanishes from the internal Browser Task Manager (`Shift-Esc`) but continues to hold dozens of megabytes in system RAM.
 				- **Visual indicator:** A distinct light blue dot remains stuck on the tab header, signifying a hung background execution or discard routine.
@@ -2020,7 +2020,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Input `chrome://crash` or `chrome://kill` to the address bar to force a crash.
 						- Note that `chrome://restart` will restart the whole browser (all windows), and `chrome://hang` will freeze the tab by putting it into an infinite loop.
 					- `chrome://discards`: Check tab life cycle status and take action (discard, freeze) if needed.
-						- Checked: manual freeze, proactive/urgent discard don't trigger the glitch.
+						- Checked: only with manual action of freeze or proactive/urgent discard, the glitch is not triggered. But a freeze/discard combined with re-login does.
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a1d453c-dc52-42be-b5b9-15cbbc60ce94))
