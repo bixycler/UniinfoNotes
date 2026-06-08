@@ -2044,7 +2044,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Grandfather Mazay and the Hares
 				  (Ded Mazay i zaytsy)
 					- Old Mazay chattered in the hut:
-					  “In our swampy low-land place
+					  In our swampy low-land place
 					  we would have five times more game
 					  If people would not catch them with nets
 					  and kill them in traps.
@@ -2070,57 +2070,57 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  My hares jumped, no problem!
 					  As soon as they got into the boat
 					  The entire island was covered with water.
-					  I said: ‘Don't even argue with me.
-					  Listen, you hares, to grandpa Mazay.’ 
+					  I said: “Don't even argue with me.
+					  Listen, you hares, to grandpa Mazay.” 
 					  So, jumping around, we are moving in science.
 					  Just like a pole, a hare on a stump
 					  Stands crossing his legs, poor thing.
-					  I took him also--not much weight!
+					  I took him also – not much weight!
 					  Just as I started working with the paddle
 					  I saw a doe-hare in the bushes,
 					  Barely alive but fat like a merchants wife.
 					  I covered her with my jacket.
-					  She was shaking already...it was not early.
+					  She was shaking already... it was not early.
 					  A log floated near the boat.
 					  Standing and laying down
 					  There were a dozen hares on it.
-					  "I'd take you all, but you will sink my boat."
+					  “I'd take you all, but you will sink my boat.” 
 					  Still I felt sorry for them,
 					  so I grabbed the log by the knot
 					  And towed it behind the boat.
-					  It was a lot of fun for women and children
+					- It was a lot of fun for women and children
 					  when Mazay went through the village with his boat full of hares
-					  "Look at what old Mazay is doing."
+					  “Look at what old Mazay is doing.“ 
 					  Ok, you can look but don't bother us.
 					  We appeared behind a village in a river.
 					  There my hares went insane.
 					  They were looking, getting up on two legs
 					  Shaking the boat, and were not letting me paddle.
-					  They saw the shore, the rascals--
+					  They saw the shore, the rascals – 
 					  Bare land, forest and bushes.
 					  I moved the log close to the land
-					  Parked the boat and said "Go with God"
+					  Parked the boat and said “Go with God“
 					- And the hares
 					  started running away
-					  I said to them "Ahh
+					  I said to them “Ahh
 					  Faster, living things
 					  Lookout, save yourself
 					  And stay out of my sight in winter.
 					  I'll point my rifle at you and BOOM
-					  You will be down"
+					  You will be down“ 
 					  My entire team ran away
 					  All but a pair of them.
 					  They were wet and weak: I put them
 					  In a bag and took them home
-					  They warmed up overnight--
+					  They warmed up overnight – 
 					  Dried themselves, slept and ate.
 					  I took them out on a glen
 					  Let them out of the bag.
-					  "Don't get near me in the winter."
+					  “Don't get near me in the winter.“ 
 					  I don't hunt them in spring or summer
 					  Then their fur is bad 'cause it fades.
-					- — Nikolay Nekrasov, 1870
-				- ![Kustodiev069-Ded-Mazay-i-zaycy.jpg](../assets/Will/story/2026-06/Kustodiev069-Ded-Mazay-i-zaycy.jpg)
+					- — [Nikolay Nekrasov, 1870](https://www.alkotagifts.com/fairytales/grandfather-mazay-and-hares-0)
+					- ![Kustodiev069-Ded-Mazay-i-zaycy.jpg](../assets/Will/story/2026-06/Kustodiev069-Ded-Mazay-i-zaycy.jpg)
 		- Chrome tab zombie by Cognee webapp
 		  id:: 6a227a43-5fa1-4718-8cf7-3a57c8121bd5
 		  collapsed:: true
