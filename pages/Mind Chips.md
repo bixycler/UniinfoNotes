@@ -1,3 +1,24 @@
+- global effect circle = wave propagation = Grand Circle = flat torus morphing = matrix change = circle of intent & extent = Omnifold dynamic
+    - sustent = unit hypercube of Omnifold := 1 = $i_0$
+        - extent of a property $p$ := proportion of it in the whole = $1 - ¬p = 1/B$ = a scalar on a dimension of the Omnifold ($B = 2$ for fair binary property)
+        - extension = content = intent × extent = $c_k = i_k × p_k = i_0 × p_{1} × p_{2} ×...× p_{k-1} × p_{k}$
+        - intension = collection of properties = $(p_{1}, p_{2} ,..., p_{k-1}, p_{k})$ = chain of rotary disks 
+        - extensional view: extent $p = {1 \over B} < 1$ => inverse variation between intension and extension: extension decreases exponentially as intension increases ($k↑$):  $$c_k = \prod_{j}^{k}{p_j} = \prod_{j}^{k}{1 \over B_j} ≈ p^k ≈ {1 \over B^k}$$
+        - intensional view: reciprocal relation between intent & extent: the extent of the Omnifold (number of cells = $B^k$) multiplies as the intent (content of each cell = ${1/B^k}$) divides
+        - tree view of the Omnifold in the order $(p_{1} > p_{2} >...> p_{k-1} > p_{k})$ where layer $k$ has branching factor $B_k$
+            - predicative view (top down): divide the constant sustent
+            - constructive view (bottom up): multiply the constant intent
+- Nghịch lý chính là chân lý! 😄
+    - Chuyện phá chấp về "cái lý có chân" 
+    - Chat với Huy, bắt đầu từ mâu thuẫn, kết thúc ở nghịch lý!
+- I'm wondering why the basic operation of updating documents in Cognee seems premature to me 🤔?! 
+    - Most updates change connections, relations, which are much more dynamic than nodes. Only a minor portion of updates changes the nodes themselves. The nodes are naturally much more stable than their properties, relations, connections. 
+    - But the current `forget`/`update` only change the  orphan nodes, leaving the links untouched. 
+    - Each document should keep track of its full subgraph instead of only nodes like now. 
+        - Then, not only nodes but all links are tracked by source docs, so that they will have weight := sum of weight of sources, and will be garbage-collected when weight == 0.
+        - And each source update can be done surgically by updating only the diff of the corresponding subgraph, instead of the current heavy process of "remove and re-add".
+    - Seems that Cognee currently focuses on the static KG which is the majority of what human has made, not paying attention to the dynamic nature agentic KG. 🤔
+    - My current workaround is to turn each link into a node. However this requires many "hacks".
 - –
 - ---
 - openness = porosity = entropy increase = arrow of time = mismatch between form & content =  curvature in distribution

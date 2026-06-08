@@ -1998,7 +1998,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Most of updates are about connections, only a few are about nodes. The nodes are much more stable than the relations between them.
 					- An update should be a **diff of flow** (including both nodes and links) instead of ~~remove-and-readd~~.
 					- I don't know why such a basic operation has been badly designed in Cognee 🤔?!
-			-
+					- I posted
 		- Chrome tab zombie by Cognee webapp
 		  id:: 6a227a43-5fa1-4718-8cf7-3a57c8121bd5
 		  collapsed:: true

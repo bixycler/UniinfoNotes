@@ -587,6 +587,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 										  cognee-cli --help
 										  ```
 								- API: [Python](https://docs.cognee.ai/python-api) & [HTML](https://docs.cognee.ai/api-reference/introduction)
+							- Issues
+								-
 						- [Letta](https://github.com/letta-ai/letta)
 						  id:: 6a1fec73-498c-42ac-b10f-8c5a5df76ebc
 						  A [self-improved](https://docs.letta.com/letta-code/memory) memory managing agent with [MemFS](https://docs.letta.com/letta-code/memfs) – a Git-tracked Markdown storage – interaction with an [Agent Development Environment (ADE)](https://docs.letta.com/guides/ade/overview/) and a [desktop/web app](https://docs.letta.com/letta-code/remote).
