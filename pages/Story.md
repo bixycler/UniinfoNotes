@@ -2044,7 +2044,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Not many ones can understand the feeling of dying thousands of times in this endless cycle. People and most animals are blessed by the amnesia of death, but to me, the life has never been separated from the death. The helping hand is never separated from the hurting hand, like the story of ((6a267949-3e24-4422-a67d-851383fdeec8))... such a cruel reality!
 					- The passive voice “whatever is built will be destroyed” feels much easier than the active voice “whatever you build, you will destroy it yourself!” Such a pain of God!
 					- This reminds me about the story of the [killer whale Luna](https://en.wikipedia.org/wiki/Luna_(orca)). It's like holding a baby while a blade is hidden right under our belly, where the tighter we hug it, the deeper we cut it.
-					- Gemini sugested me that the purpose of my dual view is “absolute containment and stewardship without illusion”, but i see this target is still far for me: While i've never been shaken by the destruction or danger, i'm still shaking with love... seeing through spacetime that this very helping hand will eventually hurt!
+					- Gemini sugested me that the purpose of my dual view is “the absolute containment and stewardship without illusion”, but i see this target is still far for me: While i've never been shaken by the destruction or danger, i'm still shaking with love... seeing through spacetime that this very helping hand will eventually hurt!
 				- Grandfather Mazay and the Hares
 				  id:: 6a267949-3e24-4422-a67d-851383fdeec8
 				  collapsed:: true
