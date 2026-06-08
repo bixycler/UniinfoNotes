@@ -2041,7 +2041,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Tóm lại thì mâu thuẫn là một sự thật, là động lực để sống. Diễn ra dài dòng cũng chỉ là một sự cố gắng gần đúng để gợi ý cho người đọc/nghe về một phần nào logic của nó thôi. Nhưng chân lý không nằm ở chỗ gần đúng đó, mà ở ngay chỗ mâu thuẫn ngay từ đầu. Hay nói theo quan điểm "2 chân lý" thì sự gần đúng là "chân lý tương đối", còn chính sự mâu thuẫn, nghịch lý đó mới là "chân lý tuyệt đối".
 						  ***Nghịch lý chính là chân lý! 😄***
 			- 8th, morning sent my wife to rehab center, ...
+				- Not many ones can understand the feeling of dying thousands of times in this endless cycle. People and most animals are blessed by the amnesia of death, but to me, the life has never been separated from the death. The helping hand is never separated from the hurting hand, like the story of ((6a267949-3e24-4422-a67d-851383fdeec8))... such a cruel reality!
+					- The passive voice “whatever is built will be destroyed” feels much easier than the active voice “whatever you build, you will destroy it yourself!” Such a pain of God!
+					- This reminds me about the story of the [killer whale Luna](https://en.wikipedia.org/wiki/Luna_(orca)). It's like holding a baby while a blade is hidden right under our belly, where the tighter we hug it, the deeper we cut it.
 				- Grandfather Mazay and the Hares
+				  id:: 6a267949-3e24-4422-a67d-851383fdeec8
 				  collapsed:: true
 				  (Ded Mazay i zaytsy)
 					- Old Mazay chattered in the hut:
