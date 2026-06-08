@@ -2009,7 +2009,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- My current workaround is to turn each link into a node. However this requires many "hacks".
 				-
 			- 6-7th, weekends, contemplated the structure of the Omnifold with tree, wave, and matrix
-			  collapsed:: true
 				- global effect circle = wave propagation = Grand Circle = flat torus morphing = matrix change = circle of intent & extent = Omnifold dynamic
 					- sustent = unit hypercube of Omnifold := 1 = $i_0$
 						- extent of a property $p$ := proportion of it in the whole = $1 - ¬p = 1/B$ = a scalar on a dimension of the Omnifold ($B = 2$ for fair binary property)
@@ -2021,7 +2020,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- predicative view (top down): divide the constant sustent
 							- constructive view (bottom up): multiply the constant intent
 				- Nghịch lý chính là chân lý! 😄
-					- [Chuyện phá chấp về "cái lý có chân"](https://creatzynotes.blogspot.com/2012/01/nhung-mau-chuyen-pha-chap.html)
+					- [Chuyện phá chấp về "cái lý có chân"](https://creatzynotes.blogspot.com/2012/01/nhung-mau-chuyen-pha-chap.html#legged-truth)
 					- Chat với Huy, bắt đầu từ mâu thuẫn, kết thúc ở nghịch lý!
 					  collapsed:: true
 						- Hôm nay nhớ lại câu hỏi của ông về việc tui có vẻ mâu thuẫn khi có cả 2 thứ đối lập, vừa đào sâu trong trải nghiệm vừa chỉ đọc tóm tắt, thì tui thấy có hai điểm:
