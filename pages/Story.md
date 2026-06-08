@@ -2041,7 +2041,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Tóm lại thì mâu thuẫn là một sự thật, là động lực để sống. Diễn ra dài dòng cũng chỉ là một sự cố gắng gần đúng để gợi ý cho người đọc/nghe về một phần nào logic của nó thôi. Nhưng chân lý không nằm ở chỗ gần đúng đó, mà ở ngay chỗ mâu thuẫn ngay từ đầu. Hay nói theo quan điểm "2 chân lý" thì sự gần đúng là "chân lý tương đối", còn chính sự mâu thuẫn, nghịch lý đó mới là "chân lý tuyệt đối".
 						  ***Nghịch lý chính là chân lý! 😄***
 			- 8th, morning sent my wife to rehab center, ...
-				-
+				- ![Kustodiev069-Ded-Mazay-i-zaycy.jpg](../assets/Will/story/2026-06/Kustodiev069-Ded-Mazay-i-zaycy.jpg)
 		- Chrome tab zombie by Cognee webapp
 		  id:: 6a227a43-5fa1-4718-8cf7-3a57c8121bd5
 		  collapsed:: true
