@@ -2042,10 +2042,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  ***Nghịch lý chính là chân lý! 😄***
 			- 8th, morning sent my wife to rehab center, ...
 				- Not many ones can understand the feeling of dying thousands of times in this endless cycle. People and most animals are blessed by the amnesia of death, but to me, the life has never been separated from the death. The helping hand is never separated from the hurting hand, like the story of ((6a267949-3e24-4422-a67d-851383fdeec8))... such a cruel reality!
+					- I don't know how grandfather Mazay lived with such a conflict, but my gut just wrenches looking at both sides... how can i save one then kill one in the same hands?! I can't help feeling the pain, so i just got out to let it burst into tears naturally, not to annoy my colleagues working here.
 					- The passive voice “whatever is built will be destroyed” feels much easier than the active voice “whatever you build, you will destroy it yourself!” Such a pain of God!
 					- This reminds me about the story of the [killer whale Luna](https://en.wikipedia.org/wiki/Luna_(orca)). It's like holding a baby while a blade is hidden right under our belly, where the tighter we hug it, the deeper we cut it.
-					- Gemini sugested me that the purpose of my dual view is “the absolute containment and stewardship without illusion”, but i see this target is still far for me: While i've never been shaken by the destruction or danger, i'm still shaking with love... seeing through spacetime that this very helping hand will eventually hurt!
-					- ⇒ Back to my classic word (play): [thương hại](https://en.wiktionary.org/wiki/th%C6%B0%C6%A1ng_h%E1%BA%A1i) (love) = [傷害](https://en.wiktionary.org/wiki/%E5%82%B7%E5%AE%B3) (injury) = [thương](https://en.wiktionary.org/wiki/th%C6%B0%C6%A1ng) (love) + [hại](https://en.wiktionary.org/wiki/h%E1%BA%A1i) (harm)
+					- Gemini sugested me that the purpose of my dual view is “the absolute containment and stewardship without illusion”, but i see this target is still far for me: While i've never been shaken by the destruction or danger, i'm still shaking with love... seeing through spacetime that this very helping hand will eventually hurt! Overcoming such a clinging love is my target... on the horizon!
+					- ⇒ Back to my classic word (play): [thương hại](https://en.wiktionary.org/wiki/th%C6%B0%C6%A1ng_h%E1%BA%A1i) (love) = [傷害](https://en.wiktionary.org/wiki/%E5%82%B7%E5%AE%B3) (injure) = [thương](https://en.wiktionary.org/wiki/th%C6%B0%C6%A1ng) (love) + [hại](https://en.wiktionary.org/wiki/h%E1%BA%A1i) (harm)
 				- Grandfather Mazay and the Hares
 				  id:: 6a267949-3e24-4422-a67d-851383fdeec8
 				  collapsed:: true
