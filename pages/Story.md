@@ -2009,6 +2009,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- My current workaround is to turn each link into a node. However this requires many "hacks".
 				-
 			- 6-7th, weekends, contemplated the structure of the Omnifold with tree, wave, and matrix
+			  collapsed:: true
 				- global effect circle = wave propagation = Grand Circle = flat torus morphing = matrix change = circle of intent & extent = Omnifold dynamic
 					- sustent = unit hypercube of Omnifold := 1 = $i_0$
 						- extent of a property $p$ := proportion of it in the whole = $1 - ¬p = 1/B$ = a scalar on a dimension of the Omnifold ($B = 2$ for fair binary property)
