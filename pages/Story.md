@@ -2009,6 +2009,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- My current workaround is to turn each link into a node. However this requires many "hacks".
 				-
 			- 6-7th, weekends, contemplated the structure of the Omnifold with tree, wave, and matrix
+			  collapsed:: true
 				- global effect circle = wave propagation = Grand Circle = flat torus morphing = matrix change = circle of intent & extent = Omnifold dynamic
 					- sustent = unit hypercube of Omnifold := 1 = $i_0$
 						- extent of a property $p$ := proportion of it in the whole = $1 - ¬p = 1/B$ = a scalar on a dimension of the Omnifold ($B = 2$ for fair binary property)
@@ -2033,7 +2034,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Còn tại sao tui không bỏ luôn những cái form đó? Lý do là đối với tui thì *form là kết tinh của content* và nó có ý nghĩa ở phần abstract chứ không hoàn toàn vô nghĩa. Tui chỉ không tin là form có thể mang lại content như trải nghiệm thực tế thôi.
 						- Và thực tế là tui cũng có đọc rất nhiều, chỉ là đọc những tài liệu khoa học, đọc ngôn ngữ hình thức, như logic, toán học, máy tính, vì sự chính xác của nó khiến tui tin tưởng hơn, khiến tui thấy ở những thế giới đó thì form chính là content. Đó là thế giới abstract, thế giới của form, thì tui có thể thoải mái đọc những form đó. Tuy nhiên, tui không đánh đồng thế giới abstract đó với thế giới concrete này, mà chỉ coi đó là sự kết tinh của thế giới đời thường mà thôi. Nên phần logic hay toán học nào mà đi quá xa khỏi trải nghiệm thực tế của tui thì tui cũng không nuốt nổi như thường.
 						- Đó là quãng đường dài từ differentiation tới unification của tui:
-							-
+							- Từ nhỏ tui đã bị split sâu giữa form & content, nên cái form nào nói "tao là form" (formal language) thì tui tin, còn cái form nào đánh lận con đen, form mà nói là content, nói "tao là chân lý", thì tui thấy là bị lừa dối nên không tin.
+							- Chọn cái form nào trung thực nhứt, đáng tin nhứt, suốt tuổi trẻ tui đã đi trong thế giới formal language đến tận cùng của nó, chạm tới giới hạn của của nó qua những nghịch lý logic & toán học, thì tui mới thỏa mãn và quay lại với thế giới content của đời thường. Thỏa mãn cái gì? Thỏa mãn là "haha, form thì dù có chính xác cỡ nào cũng chỉ được tới đó là cùng – a Liar Paradox!"
+							- Khi về nước, quay lại sống với thế giới content của mình vốn không thể diễn tả ra bằng lời, giống như những trải nghiệm "tự kỷ" của tui hồi nhỏ. Và đem cái Liar Paradox ở tận cùng biên giới của form qua chứng nghiệm trong content thì thấy "à, nó chính là content!" Nghịch lý của form chính là chân lý của content 😜🤣!!! Thế là tui đã tìm ra được **sự thống nhất của form & content**, không phải ở sự gần đúng "form diễn tả content, mô phỏng content" như mọi người vẫn nghĩ về sự thống nhứt giữa chúng, hay như chính những dòng chữ này (đang cố mô tả cái content của tui cho ông), mà ở chỗ "nghịch lý = chân lý" đó 😄.
+							- ⇒ Trinion Equation: form (○) = content (↑)
+						- Tóm lại thì mâu thuẫn là một sự thật, là động lực để sống. Diễn ra dài dòng cũng chỉ là một sự cố gắng gần đúng để gợi ý cho người đọc/nghe về một phần nào logic của nó thôi. Nhưng chân lý không nằm ở chỗ gần đúng đó, mà ở ngay chỗ mâu thuẫn ngay từ đầu. Hay nói theo quan điểm "2 chân lý" thì sự gần đúng là "chân lý tương đối", còn chính sự mâu thuẫn, nghịch lý đó mới là "chân lý tuyệt đối".
+						  ***Nghịch lý chính là chân lý! 😄***
+			- 8th, morning  ...
+				-
 		- Chrome tab zombie by Cognee webapp
 		  id:: 6a227a43-5fa1-4718-8cf7-3a57c8121bd5
 		  collapsed:: true
