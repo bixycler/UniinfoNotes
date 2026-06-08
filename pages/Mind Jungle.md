@@ -588,7 +588,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 										  ```
 								- API: [Python](https://docs.cognee.ai/python-api) & [HTML](https://docs.cognee.ai/api-reference/introduction)
 							- Issues
-								-
+								- `forget`/`update` does **not remove connections**, only removes orphan nodes from the graph.
+								  id:: 6a265949-069e-4dc3-a6f8-19469e741a37
+									- Most of updates are about connections, only a few are about nodes. The nodes are much more stable than the relations between them.
+									- An update should be a **diff of flow** (including both nodes and links) instead of ~~remove-and-readd~~.
+									- Discussion: ((6a26585e-f577-4028-9839-d1a37ac53bf1))
 						- [Letta](https://github.com/letta-ai/letta)
 						  id:: 6a1fec73-498c-42ac-b10f-8c5a5df76ebc
 						  A [self-improved](https://docs.letta.com/letta-code/memory) memory managing agent with [MemFS](https://docs.letta.com/letta-code/memfs) – a Git-tracked Markdown storage – interaction with an [Agent Development Environment (ADE)](https://docs.letta.com/guides/ade/overview/) and a [desktop/web app](https://docs.letta.com/letta-code/remote).

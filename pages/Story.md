@@ -1989,16 +1989,51 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- [Context as Code](https://www.oreilly.com/radar/context-as-code/)
 					- [Why Doesn’t Anyone Teach Developers About Context Management?](https://www.oreilly.com/radar/why-doesnt-anyone-teach-developers-about-context-management/)
 			- 5th, intended to do the pro work, but end up all about Cognee.
+			  collapsed:: true
 				- ((6a227a43-5fa1-4718-8cf7-3a57c8121bd5))
 					- In the course of debugging this zombie tab, i've found a `div` with the *de facto* max z-index (2³¹ - 1, max 32-bit signed integer) by Passbolt extension.
 						- ```html
 						  <div style="all: initial; position: fixed !important; display: block !important; z-index: 2147483647 !important"></div>
 						  ```
-				- With the first try of Cognee with simple files (`README.md` & `LICENSE`), a flaw has just popped up right in front of my eyes: `forget` does **not remove connections**, only removes orphan nodes from the graph.
-					- Most of updates are about connections, only a few are about nodes. The nodes are much more stable than the relations between them.
-					- An update should be a **diff of flow** (including both nodes and links) instead of ~~remove-and-readd~~.
+				- With the first try of Cognee with simple files (`README.md` & `LICENSE`), a flaw has just popped up right in front of my eyes: ((6a265949-069e-4dc3-a6f8-19469e741a37))
 					- I don't know why such a basic operation has been badly designed in Cognee 🤔?!
-					- I posted
+					- I posted this wonder onto the “Deep Discussion” channel on Cognee Discord, but don't get any response:
+					- I'm wondering why the basic operation of updating documents in Cognee seems premature to me 🤔?! 
+					  id:: 6a26585e-f577-4028-9839-d1a37ac53bf1
+						- Most updates change connections, relations, which are much more dynamic than nodes. Only a minor portion of updates changes the nodes themselves. The nodes are naturally much more stable than their properties, relations, connections.
+						- But the current `forget`/`update` only change the  orphan nodes, leaving the links untouched.
+						- Each document should keep track of its full subgraph instead of only nodes like now.
+							- Then, not only nodes but all links are tracked by source docs, so that they will have weight := sum of weight of sources, and will be garbage-collected when weight == 0.
+							- And each source update can be done surgically by updating only the diff of the corresponding subgraph, instead of the current heavy process of "remove and re-add".
+						- Seems that Cognee currently focuses on the static KG which is the majority of what human has made, not paying attention to the dynamic nature agentic KG. 🤔
+						- My current workaround is to turn each link into a node. However this requires many "hacks".
+				-
+			- 6-7th, weekends, contemplated the structure of the Omnifold with tree, wave, and matrix
+				- global effect circle = wave propagation = Grand Circle = flat torus morphing = matrix change = circle of intent & extent = Omnifold dynamic
+					- sustent = unit hypercube of Omnifold := 1 = $i_0$
+						- extent of a property $p$ := proportion of it in the whole = $1 - ¬p = 1/B$ = a scalar on a dimension of the Omnifold ($B = 2$ for fair binary property)
+						- extension = content = intent × extent = $c_k = i_k × p_k = i_0 × p_{1} × p_{2} ×...× p_{k-1} × p_{k}$
+						- intension = collection of properties = $(p_{1}, p_{2} ,..., p_{k-1}, p_{k})$ = chain of rotary disks
+						- extensional view: extent $p = {1 \over B} < 1$ => inverse variation between intension and extension: extension decreases exponentially as intension increases ($k↑$):  $$c_k = \prod_{j}^{k}{p_j} = \prod_{j}^{k}{1 \over B_j} ≈ p^k ≈ {1 \over B^k}$$
+						- intensional view: reciprocal relation between intent & extent: the extent of the Omnifold (number of cells = $B^k$) multiplies as the intent (content of each cell = ${1/B^k}$) divides
+						- tree view of the Omnifold in the order $(p_{1} > p_{2} >...> p_{k-1} > p_{k})$ where layer $k$ has branching factor $B_k$
+							- predicative view (top down): divide the constant sustent
+							- constructive view (bottom up): multiply the constant intent
+				- Nghịch lý chính là chân lý! 😄
+					- Chuyện phá chấp về "cái lý có chân"
+					- Chat với Huy, bắt đầu từ mâu thuẫn, kết thúc ở nghịch lý!
+					  collapsed:: true
+						- Hôm nay nhớ lại câu hỏi của ông về việc tui có vẻ mâu thuẫn khi có cả 2 thứ đối lập, vừa đào sâu trong trải nghiệm vừa chỉ đọc tóm tắt, thì tui thấy có hai điểm:
+						  1 là sự cạnh tranh giữa form và content trong cùng một cái bình thân tâm có giới hạn cứng;
+						  2 là cái nghiệp của tui từ nhỏ đã không tin tưởng vào form.
+						- Trong cái bình 1l đó, người nào thấy thoải mái với form hơn thì sống trong form, và nó chiếm 70%, còn lại 30% content; còn tui thì ngược lại hết 80% content chỉ chừa lại một khoảng hẹp 20% cho form.
+						- Cùng 24h trong ngày thì do tui chìm trong trải nghiệm hết 22h rồi thì chỉ còn lại 2h để đọc, buộc phải đọc phần tóm gọn nhứt, tinh túy nhứt, abstract nhứt, tức là form nhứt. Đối với tui, trước sau gì nó cũng chỉ là "cái form để tham khảo", chỉ có ý nghĩa gợi ý & quảng cáo cho mình thôi, nên tui chỉ đọc đúng phần form nhứt của nó, còn phần nó diễn ra dài dòng để mô tả content thì tui chọn trải nghiệm trực tiếp thay vì đọc thông qua form.
+						- Đối với tui, cái bản đồ chỉ có ý nghĩa gợi ý định hướng cho mình thôi, chứ tui không thể đi trong bản đồ được. Còn sau khi đã nhận được định hướng rồi thì tui phải bước xuống đi trong đời thực bằng trải nghiệm trực tiếp của mình.
+						- Thế nên thấy nhiều người có thể đọc truyện hay xem phim mà sống được trong đó thì tui cũng thấy phục vì tui không làm được điều đó.
+						- Còn tại sao tui không bỏ luôn những cái form đó? Lý do là đối với tui thì *form là kết tinh của content* và nó có ý nghĩa ở phần abstract chứ không hoàn toàn vô nghĩa. Tui chỉ không tin là form có thể mang lại content như trải nghiệm thực tế thôi.
+						- Và thực tế là tui cũng có đọc rất nhiều, chỉ là đọc những tài liệu khoa học, đọc ngôn ngữ hình thức, như logic, toán học, máy tính, vì sự chính xác của nó khiến tui tin tưởng hơn, khiến tui thấy ở những thế giới đó thì form chính là content. Đó là thế giới abstract, thế giới của form, thì tui có thể thoải mái đọc những form đó. Tuy nhiên, tui không đánh đồng thế giới abstract đó với thế giới concrete này, mà chỉ coi đó là sự kết tinh của thế giới đời thường mà thôi. Nên phần logic hay toán học nào mà đi quá xa khỏi trải nghiệm thực tế của tui thì tui cũng không nuốt nổi như thường.
+						- Đó là quãng đường dài từ differentiation tới unification của tui:
+							-
 		- Chrome tab zombie by Cognee webapp
 		  id:: 6a227a43-5fa1-4718-8cf7-3a57c8121bd5
 		  collapsed:: true
