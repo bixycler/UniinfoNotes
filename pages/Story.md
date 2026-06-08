@@ -2042,6 +2042,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  ***Nghịch lý chính là chân lý! 😄***
 			- 8th, morning sent my wife to rehab center, ...
 				- Grandfather Mazay and the Hares
+				  collapsed:: true
 				  (Ded Mazay i zaytsy)
 					- Old Mazay chattered in the hut:
 					  In our swampy low-land place
