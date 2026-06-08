@@ -2021,7 +2021,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- predicative view (top down): divide the constant sustent
 							- constructive view (bottom up): multiply the constant intent
 				- Nghịch lý chính là chân lý! 😄
-					- Chuyện phá chấp về "cái lý có chân"
+					- [Chuyện phá chấp về "cái lý có chân"](https://creatzynotes.blogspot.com/2012/01/nhung-mau-chuyen-pha-chap.html)
 					- Chat với Huy, bắt đầu từ mâu thuẫn, kết thúc ở nghịch lý!
 					  collapsed:: true
 						- Hôm nay nhớ lại câu hỏi của ông về việc tui có vẻ mâu thuẫn khi có cả 2 thứ đối lập, vừa đào sâu trong trải nghiệm vừa chỉ đọc tóm tắt, thì tui thấy có hai điểm:
