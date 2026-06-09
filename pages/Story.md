@@ -2136,13 +2136,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- ![Kustodiev069-Ded-Mazay-i-zaycy.jpg](../assets/Will/story/2026-06/Kustodiev069-Ded-Mazay-i-zaycy.jpg)
 				- Clarify my wish to be imprisoned to my wife
 				  id:: 6a27bbea-7759-40a9-a3c7-3a59e759e6fb
-				  collapsed:: true
 					- Hồi đó anh nói “anh còn 1 tâm nguyện nữa là... đi tù” thì em gạt đi, không hiểu. Nay anh giải thích cho em biết là nó giống như chiêu “trị điên” của cụ Bùi Giáng khi ông đi nhà thương điên:
 						- Nhà thương Biên Hòa trị cái tẩu hỏa hay nhỉ!
 						- Chữa trị quái gì đâu. Chẳng là ở ngoài mình thấy mình điên số một, khi vô nhà thương điên mới hiểu ra mình là đồ bỏ, điên nhí, điên tiểu thủ công nghiệp; trong nhà thương điên nhiều cha điên thượng thừa, điên vĩ đại hơn mình nhiều. Do vậy mà mình tự động thôi điên.
+						- — Theo [lời kể của Cung Tích Biền](https://www.thivien.net/B%C3%B9i-Gi%C3%A1ng-thi-s%C4%A9-k%E1%BB%B3-d%E1%BB%8B-K%E1%BB%B3-10-B%C3%B9i-Gi%C3%A1ng-c%C3%B3-ph%E1%BA%A3i-l%C3%A0-m%E1%BB%99t-ng%C6%B0%E1%BB%9Di-%C4%91i%C3%AAn-kh%C3%B4ng/a-reply-ljHQ-kzYsYiymffuPAiYNg)
 					- Mọi người chỉ biết ông “bớt điên” chứ đâu biết ông học được gì ở nhà thương điên. 😄
 						- > Biên Hoà bệnh viện ghi tên
 						  > Đoạn trường sổ ấy còn nên ghi gì?
+						  
+						  — Bùi Giáng, theo [lời kể của Cung Văn Nguyễn Vạn Hồng](https://www.thivien.net/B%C3%B9i-Gi%C3%A1ng-thi-s%C4%A9-k%E1%BB%B3-d%E1%BB%8B-K%E1%BB%B3-21-B%C3%A0ng-Gi%C3%BAi-ti%C3%AAn-sinh/a-reply-jIMGncncmwvYkoH9JvlV3w)
 		- Chrome tab zombie by Cognee webapp
 		  id:: 6a227a43-5fa1-4718-8cf7-3a57c8121bd5
 		  collapsed:: true
