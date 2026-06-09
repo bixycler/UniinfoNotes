@@ -2051,7 +2051,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Calling my old friend Tiên, her sharing has reminded me about the non-self and the emptiness.
 						- The feeling has arisen in me, is allowed to exist in me, but is not myself.
 					- Returning home early, i fell into a nap after such an emotional load. Then i got back to talk with Gemini to be reminded that it’s just a training for me to *navigate the storm from its eye*.
-					- Diagnosign my own “crazy symptom”, i was remineded about the crazy poet Bùi Giáng and his [lesson from the psychiatric hospital](((6a27bbea-7759-40a9-a3c7-3a59e759e6fb))).
+					- Diagnosing my own “crazy symptom”, i was remineded about the crazy poet Bùi Giáng and his [lesson from the psychiatric hospital](((6a27bbea-7759-40a9-a3c7-3a59e759e6fb))).
+					- Going to bed, i recalled my past traumas of being “thương hại”, from life to life.
 				- Grandfather Mazay and the Hares
 				  id:: 6a267949-3e24-4422-a67d-851383fdeec8
 				  collapsed:: true
@@ -2134,8 +2135,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  Then their fur is bad 'cause it fades.
 					- — [Nikolay Nekrasov, 1870](https://www.alkotagifts.com/fairytales/grandfather-mazay-and-hares-0)
 					- ![Kustodiev069-Ded-Mazay-i-zaycy.jpg](../assets/Will/story/2026-06/Kustodiev069-Ded-Mazay-i-zaycy.jpg)
-				- Clarify my wish to be imprisoned to my wife
+				- Clarify to my wife about my wish to be imprisoned
 				  id:: 6a27bbea-7759-40a9-a3c7-3a59e759e6fb
+				  collapsed:: true
 					- Hồi đó anh nói “anh còn 1 tâm nguyện nữa là... đi tù” thì em gạt đi, không hiểu. Nay anh giải thích cho em biết là nó giống như chiêu “trị điên” của cụ Bùi Giáng khi ông đi nhà thương điên:
 						- Nhà thương Biên Hòa trị cái tẩu hỏa hay nhỉ!
 						- Chữa trị quái gì đâu. Chẳng là ở ngoài mình thấy mình điên số một, khi vô nhà thương điên mới hiểu ra mình là đồ bỏ, điên nhí, điên tiểu thủ công nghiệp; trong nhà thương điên nhiều cha điên thượng thừa, điên vĩ đại hơn mình nhiều. Do vậy mà mình tự động thôi điên.
