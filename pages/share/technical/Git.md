@@ -360,6 +360,17 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 			  ```sh
 			  git merge-base HEAD @{u}
 			  ```
+		- Restore **mod time** of files from their last git commit
+		  id:: 6a2aa0a4-ce23-44a5-9476-b2b30beb89f2
+			- Require independent package
+			  ```sh
+			  sudo apt install git-restore-mtime
+			  ```
+			- Run it
+			  ```sh
+			  git restore-mtime
+			  ```
+			- This is useful for newly clone repo
 	- Git workflows
 	  id:: 666022fc-eeeb-4365-a854-7e14045655be
 	  collapsed:: true
