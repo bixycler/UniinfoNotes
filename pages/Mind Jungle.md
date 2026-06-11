@@ -965,7 +965,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- `${HOME}/.logseq/config/config.edn`: Flatpack & AppImage installations
 					- `${HOME}/snap/logseq/current/.logseq/config/config.edn`: Snap installation
 					- first, check `stat` & `diff`
-					  collapsed:: true
 						- ```sh
 						  stat -c '%i %h' ${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn 
 						  stat -c '%i %h' ${HOME}/.logseq/config/config.edn
