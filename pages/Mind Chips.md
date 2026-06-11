@@ -15,5 +15,5 @@
 - ---
 - ((69af7dbd-0a7c-4d10-a5cd-6de1ab9c3040))
 - 🧵 thread: total amount = 1 = sum of content in each form dimension (extent) = product of intents of all forms
-- 🤔😊😁 😉 😮 😛 😜 🙁 😱 👺 👁️🧿🪬  ⇄ ∞∝α ‘’
+- 🤔😊😁 😉 😮 😛 😜 🤣 🙁 😱 👺 👁️🧿🪬  ⇄ ∞∝α ‘’
 - Ω-thread Unïnfo –
