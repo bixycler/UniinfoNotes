@@ -1032,6 +1032,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- `${HOME}/source/UniinfoNotes/logseq/custom.css`: UniinfoNotes
 					- `${HOME}/opt/personal/logseq-notes/logseq/custom.css`: Linux logseq-notes
 					- first, check `stat` & `diff`
+					  collapsed:: true
 						- ```sh
 						  stat -c '%i %h' ${HOME}/source/UniinfoNotes/assets/logseq/custom.css
 						  stat -c '%i %h' ${HOME}/source/UniinfoNotes/logseq/custom.css
@@ -1135,18 +1136,46 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  collapsed:: true
 						- ```sh
 						  echo "====== Logseq configs ======"
+						  echo "~/.logseq/config/config.edn"
 						  diff ${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn ${HOME}/.logseq/config/config.edn
+						  echo "~/snap/logseq/current/.logseq/config/config.edn"
 						  diff ${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn ${HOME}/snap/logseq/current/.logseq/config/config.edn
+						  echo "~/source/UniinfoNotes/logseq/config.edn"
 						  diff ${HOME}/source/UniinfoNotes/assets/logseq/config.edn ${HOME}/source/UniinfoNotes/logseq/config.edn
+						  echo "~/opt/personal/logseq-notes/logseq/config.edn"
 						  diff ${HOME}/source/UniinfoNotes/assets/logseq/config.edn ${HOME}/opt/personal/logseq-notes/logseq/config.edn
+						  echo "~/source/UniinfoNotes/logseq/custom.css"
 						  diff ${HOME}/source/UniinfoNotes/assets/logseq/custom.css ${HOME}/source/UniinfoNotes/logseq/custom.css
+						  echo "~/opt/personal/logseq-notes/logseq/custom.css"
 						  diff ${HOME}/source/UniinfoNotes/assets/logseq/custom.css ${HOME}/opt/personal/logseq-notes/logseq/custom.css
 						  echo "====== UniinfoNotes ======"
+						  echo "pages/share/technical/Git.md"
 						  diff "${HOME}/source/UniinfoNotes/pages/share/technical/Git.md" "${HOME}/opt/personal/logseq-notes/pages/share/technical/Git.md"
+						  echo "pages/share/technical/Linux.md"
 						  diff "${HOME}/source/UniinfoNotes/pages/share/technical/Linux.md" "${HOME}/opt/personal/logseq-notes/pages/share/technical/Linux.md"
+						  echo "pages/share/technical/JavaScript.md"
 						  diff "${HOME}/source/UniinfoNotes/pages/share/technical/JavaScript.md" "${HOME}/opt/personal/logseq-notes/pages/share/technical/JavaScript.md"
+						  echo "pages/share/technical/Database.md"
 						  diff "${HOME}/source/UniinfoNotes/pages/share/technical/Database.md" "${HOME}/opt/personal/logseq-notes/pages/share/technical/Database.md"
+						  echo "pages/share/technical/Theme Demo.md"
 						  diff "${HOME}/source/UniinfoNotes/pages/share/Theme Demo.md" "${HOME}/opt/personal/logseq-notes/pages/share/Theme Demo.md"
+						  ```
+					- Link
+					  collapsed:: true
+						- ```sh
+						  echo "====== Logseq configs ======"
+						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn ${HOME}/.logseq/config/config.edn
+						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn ${HOME}/snap/logseq/current/.logseq/config/config.edn
+						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/config.edn ${HOME}/source/UniinfoNotes/logseq/config.edn
+						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/config.edn ${HOME}/opt/personal/logseq-notes/logseq/config.edn
+						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/custom.css ${HOME}/source/UniinfoNotes/logseq/custom.css
+						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/custom.css ${HOME}/opt/personal/logseq-notes/logseq/custom.css
+						  echo "====== UniinfoNotes ======"
+						  ln -fv "${HOME}/source/UniinfoNotes/pages/share/technical/Git.md" "${HOME}/opt/personal/logseq-notes/pages/share/technical/Git.md"
+						  ln -fv "${HOME}/source/UniinfoNotes/pages/share/technical/Linux.md" "${HOME}/opt/personal/logseq-notes/pages/share/technical/Linux.md"
+						  ln -fv "${HOME}/source/UniinfoNotes/pages/share/technical/JavaScript.md" "${HOME}/opt/personal/logseq-notes/pages/share/technical/JavaScript.md"
+						  ln -fv "${HOME}/source/UniinfoNotes/pages/share/technical/Database.md" "${HOME}/opt/personal/logseq-notes/pages/share/technical/Database.md"
+						  ln -fv "${HOME}/source/UniinfoNotes/pages/share/Theme Demo.md" "${HOME}/opt/personal/logseq-notes/pages/share/Theme Demo.md"
 						  ```
 				- When a hard-linked file must be updated from remote,
 					- at remote repo, the update contents must be transported via the ((66519638-cf5d-409b-9b98-15acabf2268c)) which is not hard-linked; then
