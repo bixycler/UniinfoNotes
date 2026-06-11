@@ -965,6 +965,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- `${HOME}/.logseq/config/config.edn`: Flatpack & AppImage installations
 					- `${HOME}/snap/logseq/current/.logseq/config/config.edn`: Snap installation
 					- first, check `stat` & `diff`
+					  collapsed:: true
 						- ```sh
 						  stat -c '%i %h' ${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn 
 						  stat -c '%i %h' ${HOME}/.logseq/config/config.edn
@@ -976,6 +977,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ```
 					- then `ln`
 					  id:: 67b541d0-202d-4ccb-8958-cf317bb8083a
+					  collapsed:: true
 						- ```sh
 						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn ${HOME}/.logseq/config/config.edn
 						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn ${HOME}/snap/logseq/current/.logseq/config/config.edn
@@ -1000,7 +1002,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/config.edn ${HOME}/source/UniinfoNotes/logseq/config.edn
 						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/config.edn ${HOME}/opt/personal/logseq-notes/logseq/config.edn
 						  ```
-				- `${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn`: app config: ~~**4 links**~~
+				- ⚠️ (Don't link!) `${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn`: app config: ~~**4 links**~~
+				  collapsed:: true
 					- `${HOME}/.var/app/com.logseq.Logseq/config/Logseq/configs.edn`: Flatpack installation
 					- `${HOME}/.config/Logseq/configs.edn`: AppImage installation
 					- `${HOME}/snap/logseq/current/.config/Logseq/configs.edn`: Snap installation
