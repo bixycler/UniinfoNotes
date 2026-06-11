@@ -19,9 +19,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Autistic processing
 				- An autistic individual can simultaneously experience hypersensitivity (over-responsiveness) and hyposensitivity (under-responsiveness) across different sensory systems.
 				- This creates a paradox where an individual may appear socially distant (hypo) because their internal system is actively shutting down to survive a relentless data deluge (hyper).
-				- Monotropism: The autistic mind naturally funnels processing power into a single, high-fidelity “attention tunnel” to map a system perfectly, prioritizing depth over breadth.
+				- [Monotropism](https://en.wikipedia.org/wiki/Monotropism): The autistic mind naturally funnels processing power into a single, high-fidelity “attention tunnel” to map a system perfectly, prioritizing depth over breadth.
 					- In this state of flow, time tracking ceases because all cognitive bandwidth is dedicated to the deep structural puzzle.
 					- This deep tunneling acts as an acoustic shield, protecting the individual from the overwhelming, unstructured noise of the surface world.
+					- This type of autistic hyperfocus shares many characteristics with the ADHD [hyperfocus](https://en.wikipedia.org/wiki/Hyperfocus), but differs at the exit of the tunnel.
 			- The trade-off: depth vs breadth
 				- A system allocating massive bandwidth to rapid, superficial scanning (breadth) naturally lacks the resolution to map complex internal mechanics (depth).
 				- The autistic profile trades social breadth for structural depth, turning the mind into a high-resolution lens capable of reverse-engineering both physical movements (proprioception) and hidden social architectures.
