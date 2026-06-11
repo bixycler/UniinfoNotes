@@ -18,8 +18,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :END:
 			- Autistic processing
 				- An [autistic](https://en.wikipedia.org/wiki/Autism) individual can simultaneously experience hypersensitivity (over-responsiveness) and hyposensitivity (under-responsiveness) across different sensory systems.
-					- This creates a paradox where an individual may appear socially distant (hypo) because their internal system is actively shutting down to survive a relentless data deluge (hyper).
-				- [Monotropism](https://en.wikipedia.org/wiki/Monotropism): The autistic mind naturally funnels processing power into a single, high-fidelity “attention tunnel” to map a system perfectly, prioritizing depth over breadth.
+					- This creates a paradox where an individual may appear socially distant (hyposensitive), while actually their internal system is actively shutting down to survive a relentless data deluge from the outside due to their hypersensitivity.
+				- [Monotropism](https://en.wikipedia.org/wiki/Monotropism): The autistic mind naturally funnels processing power into a single, high-fidelity “attention tunnel” of the [flow state](https://en.wikipedia.org/wiki/Flow_(psychology)), prioritizing depth over breadth.
 					- This deep tunneling acts as a shield, protecting the hypersensitive individual from being overwhelmed by the noise of the surface world.
 					- In this state of flow, time tracking ceases because all cognitive bandwidth is dedicated to the deep structural puzzle.
 					- This type of autistic hyperfocus shares many characteristics with the ADHD [hyperfocus](https://en.wikipedia.org/wiki/Hyperfocus), but differs at the exit of the tunnel. While the [ADHD](https://en.wikipedia.org/wiki/Attention_deficit_hyperactivity_disorder) instantly drops the focus when the dopamine fades or a shinier object appears, the autistic requires a trained skill of [“decompression”](https://en.wikipedia.org/wiki/Decompression_(diving)) to reset the deeply engaging mind.
