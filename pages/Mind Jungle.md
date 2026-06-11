@@ -976,7 +976,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ```
 					- then `ln`
 					  id:: 67b541d0-202d-4ccb-8958-cf317bb8083a
-					  collapsed:: true
 						- ```sh
 						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn ${HOME}/.logseq/config/config.edn
 						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn ${HOME}/snap/logseq/current/.logseq/config/config.edn
