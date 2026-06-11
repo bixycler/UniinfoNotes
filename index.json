@@ -6034,7 +6034,7 @@
   "69043439-614f-406a-8618-4253406958b8": {
     "title": "1. The formation of a self starts with the closure of its self-circle at the terminal obop, i.e. point equality.",
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Uniinfo.md",
-    "sourceLine": 3613,
+    "sourceLine": 3619,
     "slug": "1-the-formation-of-a-self-starts-with-the-closure-of-its-self-circle-at-the-terminal-obop-i-e-point-equality",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Uniinfo.cm.md",
     "outputLine": 2595
@@ -12242,7 +12242,7 @@
   "66950cea-b55d-4a3e-bf30-2cb38fa24f32": {
     "title": "\t\t\t\t\t\t\t  ```shell\n\t\t\t\t\t\t\t  $(ls -l)\n\t\t\t\t\t\t\t  ```",
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/share/technical/Linux.md",
-    "sourceLine": 957,
+    "sourceLine": 964,
     "slug": "shell-ls-l",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/share/technical/Linux.cm.md",
     "outputLine": 844
@@ -13338,7 +13338,7 @@
   "6880a9a5-b5d3-4542-b378-31cf40ea8476": {
     "outputLine": 1702,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "sourceLine": 2160,
+    "sourceLine": 2204,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
     "title": "\t\t\t  > I'm just a no-one going nowhere to do nothing!",
     "slug": "i-m-just-a-no-one-going-nowhere-to-do-nothing"
@@ -16736,7 +16736,7 @@
   "66950b28-31ab-4bd1-8986-57c6e1ff9d0a": {
     "title": "\t\t\t\t\t\t  ```shell\n\t\t\t\t\t\t  ⮕ multiple_lines=$'first line\\nsecond line\\twith tab and escaped char [\\x21]'\n\t\t\t\t\t\t  ```",
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/share/technical/Linux.md",
-    "sourceLine": 945,
+    "sourceLine": 952,
     "slug": "shell-multiple_lines-first-line-nsecond-line-twith-tab-and-escaped-char-x21",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/share/technical/Linux.cm.md",
     "outputLine": 831
@@ -16952,7 +16952,7 @@
   "67514436-ddef-49ab-b794-f26686b572b2": {
     "title": "\t\t\t\t\t\t  ```scheme\n\t\t\t\t\t\t  ; <<>> DiG 9.18.28-0ubuntu0.22.04.1-Ubuntu <<>> git1.lan.skygate.co.jp\n\t\t\t\t\t\t  ;; global options: +cmd\n\t\t\t\t\t\t  ;; Got answer:\n\t\t\t\t\t\t  ;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 7564\n\t\t\t\t\t\t  ;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n\t\t\t\t\t\t  \n\t\t\t\t\t\t  ;; OPT PSEUDOSECTION:\n\t\t\t\t\t\t  ; EDNS: version: 0, flags:; udp: 1232\n\t\t\t\t\t\t  ; COOKIE: 7f7484304144a3db01000000675140d16726b2ae31a10949 (good)\n\t\t\t\t\t\t  ;; QUESTION SECTION:\n\t\t\t\t\t\t  ;git1.lan.skygate.co.jp.\t\tIN\tA\n\t\t\t\t\t\t  \n\t\t\t\t\t\t  ;; AUTHORITY SECTION:\n\t\t\t\t\t\t  skygate.co.jp.\t\t204\tIN\tSOA\tns-1303.awsdns-34.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 300\n\t\t\t\t\t\t  ```",
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/share/technical/Linux.md",
-    "sourceLine": 1657,
+    "sourceLine": 1664,
     "slug": "scheme-dig-9-18-28-0ubuntu0-22-04-1-ubuntu-git1-lan-skygate-co-jp-global-options-cmd-got-answer-header-opcode-query-status-nxdomain-id-7564-flags-qr-rd-ra-query-1-answer-0-authority-1-additional-1-opt-pseudosection-edns-version-0-flags-udp-1232-cookie-7f7484304144a3db01000000675140d16726b2ae31a10949-good-question-section-git1-lan-skygate-co-jp-in-a-authority-section-skygate-co-jp-204-in-soa-ns-1303-awsdns-34-org-awsdns-hostmaster-amazon-com-1-7200-900-1209600-300",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/share/technical/Linux.cm.md",
     "outputLine": 1474
