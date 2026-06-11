@@ -30,8 +30,9 @@
 		- The quotation dash (`―` U+2015, “horizontal bar”) is used at the beginning of a line to indicate a switch of person in dialogue, instead of quotation marks.
 	- References: [(en, em) dashes](https://en.wikipedia.org/wiki/Dash) and [quotation dash](https://en.wikipedia.org/wiki/Quotation_mark#Quotation_dash)
 - Word connector
-	- Use **en-dash without spaces** for word compounds and number ranges, e.g. “Bose–Einstein condensate”, “1982–2025”, and [figure dash `‒`](https://en.wiktionary.org/wiki/%E2%80%92) for number compounds, e.g. telephone number “012‒345‒678”, hex number “0x1234‒ABCD”.
+	- Use **en-dash without spaces** for relationships and connections between words and for number ranges, e.g. “Bose–Einstein condensate”, “1982–2025”, and [figure dash `‒`](https://en.wiktionary.org/wiki/%E2%80%92) for number compounds, e.g. telephone number “012‒345‒678”, hex number “0x1234‒ABCD”.
 		- Note that in compounds whose elements contain space, the connecting en-dashes must also be spaced, to avoid confusion, e.g. “Australia – New Zealand”, “Độc lập – Tự do – Hạnh phúc”.
+        - Note that the standard compound words, like “trade-off”, “well-dressed”, are linked by the normal hyphen, not en-dash.
 - Examples
 	- For quotation, apotrophe, en-dash, and quotation dash in dialogue: _The Well-Dressed Lie and the Naked Truth – short version_
 	- For em-dash in source attribution:
