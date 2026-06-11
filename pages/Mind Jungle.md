@@ -1032,7 +1032,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- `${HOME}/source/UniinfoNotes/logseq/custom.css`: UniinfoNotes
 					- `${HOME}/opt/personal/logseq-notes/logseq/custom.css`: Linux logseq-notes
 					- first, check `stat` & `diff`
-					  collapsed:: true
 						- ```sh
 						  stat -c '%i %h' ${HOME}/source/UniinfoNotes/assets/logseq/custom.css
 						  stat -c '%i %h' ${HOME}/source/UniinfoNotes/logseq/custom.css
@@ -1132,6 +1131,23 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ```
 			- Workflow
 				- Always update hard-linked files from local repos, after any write operation on hard-linked files, e.g. `pull`, `checkout`, `reset`, etc.
+					- Check diff
+					  collapsed:: true
+						- ```sh
+						  echo "====== Logseq configs ======"
+						  diff ${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn ${HOME}/.logseq/config/config.edn
+						  diff ${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn ${HOME}/snap/logseq/current/.logseq/config/config.edn
+						  diff ${HOME}/source/UniinfoNotes/assets/logseq/config.edn ${HOME}/source/UniinfoNotes/logseq/config.edn
+						  diff ${HOME}/source/UniinfoNotes/assets/logseq/config.edn ${HOME}/opt/personal/logseq-notes/logseq/config.edn
+						  diff ${HOME}/source/UniinfoNotes/assets/logseq/custom.css ${HOME}/source/UniinfoNotes/logseq/custom.css
+						  diff ${HOME}/source/UniinfoNotes/assets/logseq/custom.css ${HOME}/opt/personal/logseq-notes/logseq/custom.css
+						  echo "====== UniinfoNotes ======"
+						  diff "${HOME}/source/UniinfoNotes/pages/share/technical/Git.md" "${HOME}/opt/personal/logseq-notes/pages/share/technical/Git.md"
+						  diff "${HOME}/source/UniinfoNotes/pages/share/technical/Linux.md" "${HOME}/opt/personal/logseq-notes/pages/share/technical/Linux.md"
+						  diff "${HOME}/source/UniinfoNotes/pages/share/technical/JavaScript.md" "${HOME}/opt/personal/logseq-notes/pages/share/technical/JavaScript.md"
+						  diff "${HOME}/source/UniinfoNotes/pages/share/technical/Database.md" "${HOME}/opt/personal/logseq-notes/pages/share/technical/Database.md"
+						  diff "${HOME}/source/UniinfoNotes/pages/share/Theme Demo.md" "${HOME}/opt/personal/logseq-notes/pages/share/Theme Demo.md"
+						  ```
 				- When a hard-linked file must be updated from remote,
 					- at remote repo, the update contents must be transported via the ((66519638-cf5d-409b-9b98-15acabf2268c)) which is not hard-linked; then
 					- at local repo, these contents (blocks) will be moved to the hard-linked files.
