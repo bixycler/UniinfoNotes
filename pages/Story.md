@@ -1904,6 +1904,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- "Hard vs hardly", "invaluable vs not valuable", "terrific vs terrible", "awesome/awful vs negative awful", "the Sublime"
 					- ⇒ ((6a156ca7-8608-4db6-8d9d-ba0ba10dc926))
 			- 27-29th, wrestled with the “thinking mode” of DeepSeek.
+			  id:: 6a1986e3-49d4-4628-8053-94d88716a0e8
 			  collapsed:: true
 				- [OpenCode error with DeepSeek on OpenRouter](https://github.com/anomalyco/opencode/issues/29618): workaround by adding `interleaved.field:reasoning_content` to `opencode.json`.
 					- The ![discrepancy of DeepSeek V4](../assets/AI/agents/OpenCode/DeepSeek-turn-thinking.md)'s `reasoning_content` & `drop_thinking` between the official statement that “retains the complete reasoning history across all rounds, including across user turns” and the reality of complete wipeout after each user turn (each round).
@@ -2148,6 +2149,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  
 						  — Bùi Giáng, theo [lời kể của Cung Văn Nguyễn Vạn Hồng](https://www.thivien.net/B%C3%B9i-Gi%C3%A1ng-thi-s%C4%A9-k%E1%BB%B3-d%E1%BB%8B-K%E1%BB%B3-21-B%C3%A0ng-Gi%C3%BAi-ti%C3%AAn-sinh/a-reply-jIMGncncmwvYkoH9JvlV3w)
 			- 11th, throughout the work hours, discussed with Gemini and wrote ((6a2a728c-3cfc-4287-94d3-da2dfeab09d1))
+				- The whole repo ((666baccf-6be1-4b9a-b186-f883ea04daf1)) was touched at [May 28, 19:34:22](((6a1986e3-49d4-4628-8053-94d88716a0e8))) by OpenCode.
 		- Chrome tab zombie by Cognee webapp
 		  id:: 6a227a43-5fa1-4718-8cf7-3a57c8121bd5
 		  collapsed:: true
