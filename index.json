@@ -11906,7 +11906,7 @@
   "66b1cfa5-1ec8-4313-b635-2b22d705d19f": {
     "title": "\t\t\t\t  ```shell\n\t\t\t\t  downstream> git checkout upstream\n\t\t\t\t  upstream> git pull # make sure it's updated\n\t\t\t\t  upstream> git merge --squash --strategy-option=theirs downstream\n\t\t\t\t  upstream> git stash push -u # save downstream's changes \n\t\t\t\t  upstream> git checkout stash -- .\n\t\t\t\t  #... remove all except changes for the 1st commit (git restore, git checkout HEAD, git rm, git clean)\n\t\t\t\t  upstream> git commit -sm \"1st commit\"\n\t\t\t\t  upstream> git checkout stash -- .\n\t\t\t\t  #... remove all except changes for the 2nd commit (git restore, git checkout HEAD, git rm, git clean)\n\t\t\t\t  upstream> git commit -sm \"2nd commit\"\n\t\t\t\t  #...\n\t\t\t\t  ```",
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/share/technical/Git.md",
-    "sourceLine": 424,
+    "sourceLine": 435,
     "slug": "shell-downstream-git-checkout-upstream-upstream-git-pull-make-sure-it-s-updated-upstream-git-merge-squash-strategy-option-theirs-downstream-upstream-git-stash-push-u-save-downstream-s-changes-upstream-git-checkout-stash-remove-all-except-changes-for-the-1st-commit-git-restore-git-checkout-head-git-rm-git-clean-upstream-git-commit-sm-1st-commit-upstream-git-checkout-stash-remove-all-except-changes-for-the-2nd-commit-git-restore-git-checkout-head-git-rm-git-clean-upstream-git-commit-sm-2nd-commit",
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/share/technical/Git.cm.md",
     "outputLine": 395
@@ -13338,7 +13338,7 @@
   "6880a9a5-b5d3-4542-b378-31cf40ea8476": {
     "outputLine": 1702,
     "outputFile": "/home/dinhlx/tmp/logseq/pages/publish/CommonMark/Mind Jungle.cm.md",
-    "sourceLine": 2204,
+    "sourceLine": 2250,
     "sourceFile": "/home/dinhlx/source/UniinfoNotes/pages/Mind Jungle.md",
     "title": "\t\t\t  > I'm just a no-one going nowhere to do nothing!",
     "slug": "i-m-just-a-no-one-going-nowhere-to-do-nothing"
