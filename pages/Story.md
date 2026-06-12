@@ -2152,7 +2152,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- The whole repo ((666baccf-6be1-4b9a-b186-f883ea04daf1)) was touched at [May 28, 19:34:22](((6a1986e3-49d4-4628-8053-94d88716a0e8))) (changed creation & modification timestamps) by OpenCode, due a context rollback (bug [15391](https://github.com/anomalyco/opencode/issues/15391)).
 					- This incident broke all ((66978876-9378-4059-8783-868d041e8e2e)).
 					- I ((6a2aa0a4-ce23-44a5-9476-b2b30beb89f2)), but the creation time is still `May 28, 19:34:22`.
-				- Advanced Hierarchical Recurrent Models (HRM) like [HRM-Text](https://github.com/sapientinc/HRM-Text) are being [developed by Sapient](https://venturebeat.com/technology/researchers-say-they-trained-a-foundation-model-from-scratch-for-about-1-500) to replace Transformers for reasoning-heavy tasks with much smaller set of weights and
+				- Advanced Hierarchical Recurrent Models (HRM) like [HRM-Text](https://github.com/sapientinc/HRM-Text) are being [developed by Sapient](https://venturebeat.com/technology/researchers-say-they-trained-a-foundation-model-from-scratch-for-about-1-500) to replace Transformers for reasoning-heavy tasks with much smaller set of weights and smaller training dataset.
 		- Chrome tab zombie by Cognee webapp
 		  id:: 6a227a43-5fa1-4718-8cf7-3a57c8121bd5
 		  collapsed:: true
