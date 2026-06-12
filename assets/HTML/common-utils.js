@@ -598,6 +598,16 @@ function indexLines(filePath, cleanLines, blockMap) {
     const curIndent = line.length - line.trimStart().length;
     const stripped = line.trim();
 
+    if (stripped.startsWith('__PROPS_BLOCK_') && blockMap && blockMap[stripped]) {
+      const block = blockMap[stripped];
+      for (const propLine of block.lines) {
+        const idMatch = propLine.trim().match(PAT_ID_PROP);
+        if (idMatch && lastContentLine && !results[idMatch[1]]) {
+          results[idMatch[1]] = { title: lastContentLine, sourceLine: originalIndex + 1 };
+        }
+      }
+      continue;
+    }
     if (isStructuredBlockToken(stripped)) continue;
 
     if (stripped.startsWith('- ')) {
@@ -618,11 +628,6 @@ function indexLines(filePath, cleanLines, blockMap) {
           for (let j = i + 1; j < cleanLines.length; j++) {
             const next = cleanLines[j];
             const nextStripped = next.line.trim();
-
-            // Skip system-property-only lines (id::, collapsed::) and LOGBOOK
-            const pm = next.line.match(PAT_PROP);
-            if (pm && (pm[1] === 'id' || pm[1] === 'collapsed')) continue;
-            if (next.line.match(PAT_LB_START) || next.line.match(PAT_LB_END)) continue;
 
             // Stop at sibling bullet
             if (nextStripped.startsWith('- ') &&
@@ -671,11 +676,6 @@ function indexLines(filePath, cleanLines, blockMap) {
       } else {
         lastContentLine = content || lastContentLine;
         lastContentIndent = curIndent;
-      }
-    } else {
-      const idMatch = stripped.match(PAT_ID_PROP);
-      if (idMatch && lastContentLine) {
-        results[idMatch[1]] = { title: lastContentLine, sourceLine: originalIndex + 1 };
       }
     }
   }
