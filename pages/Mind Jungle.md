@@ -2519,8 +2519,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								  id:: 6a2bc555-8ec8-4b96-b7d6-0a0a8816ecee
 								  collapsed:: true
 									- Contemplating my momentum and issue in the deep dives, i see that both the momentum and the ((6839229d-9eff-49e4-9480-6e2db6f61127)) are caused by the **_clinging_ restoring force** ← attachment to the perfect form (core) + porousness of the body & shell
-									- My core is too deep and my body is too porous, creating such a black hole sucking everything into the abyss.
+									- My core is too deep and my karmic body is too porous, creating such a black hole sucking everything into the abyss.
 									- ⇒ The solution is back to the [perfect imperfection](((6a2a72a5-8707-44d4-9c04-966adb1302b1))): *Don't force the force!*
+									-
 					- The deathtrap of opportunity
 					  id:: 68adb0c5-e979-475e-8432-730d9d8970bc
 					  collapsed:: true
