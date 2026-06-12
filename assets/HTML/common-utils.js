@@ -12,11 +12,11 @@
  * (which are owned by that object only, not inherited)
  */
 Object.defineProperty(Object.prototype, 'clear', {
-  value: function(){
+  value: function () {
     // Object.keys: enumerable own
     // Object.getOwnPropertyNames: all own (enum & non-enum)
     // for in: all enumerables (own & inherited)
-    for(p of Object.keys(this)){ delete this[p]; }
+    for (p of Object.keys(this)) { delete this[p]; }
   },
   //enumerable: false, configurable: false, // default
   writable: true,
@@ -27,7 +27,7 @@ Object.defineProperty(Object.prototype, 'clear', {
  * @return {string} The padded string
  */
 Object.defineProperty(Number.prototype, 'pad', {
-  value: function(places) {
+  value: function (places) {
     return String(this).padStart(places, '0');
   },
   //enumerable: false, configurable: false, // default
@@ -46,15 +46,15 @@ Object.defineProperty(Number.prototype, 'pad', {
     @return {string} The formated string
  */
 Object.defineProperty(Date.prototype, 'toFormatedString', {
-  value: function(format='yyyy-MM-dd HH:mm:ss.SSS') {
+  value: function (format = 'yyyy-MM-dd HH:mm:ss.SSS') {
     return format.
-      replace('yyyy',this.getFullYear().pad(4)).
-      replace('MM',(this.getMonth()+1).pad(2)).
-      replace('dd',this.getDate().pad(2)).
-      replace('HH',this.getHours().pad(2)).
-      replace('mm',this.getMinutes().pad(2)).
-      replace('ss',this.getSeconds().pad(2)).
-      replace('SSS',this.getMilliseconds().pad(3));
+      replace('yyyy', this.getFullYear().pad(4)).
+      replace('MM', (this.getMonth() + 1).pad(2)).
+      replace('dd', this.getDate().pad(2)).
+      replace('HH', this.getHours().pad(2)).
+      replace('mm', this.getMinutes().pad(2)).
+      replace('ss', this.getSeconds().pad(2)).
+      replace('SSS', this.getMilliseconds().pad(3));
   },
   //enumerable: false, configurable: false, // default
   writable: true,
@@ -66,7 +66,7 @@ Object.defineProperty(Date.prototype, 'toFormatedString', {
  * @return {Date} The new Date
  */
 Object.defineProperty(Date.prototype, 'addDays', {
-  value: function(days) {
+  value: function (days) {
     var that = new Date(this);
     that.setDate(this.getDate() + days);
     return that;
@@ -79,55 +79,55 @@ Object.defineProperty(Date.prototype, 'addDays', {
  * @param escjson : string -- The HTML-escaped string of JSON
  * @returns {any} The JSON (Object, Array, string, boolean, etc.)
  */
-function parseEscapedJson(escjson){
-    var parser = new DOMParser;
-    var dom = parser.parseFromString(
-        '<!DOCTYPE html><html><body>' + escjson + '</body></html>',
-        'text/html');
-    return JSON.parse(dom.body.textContent);
+function parseEscapedJson(escjson) {
+  var parser = new DOMParser;
+  var dom = parser.parseFromString(
+    '<!DOCTYPE html><html><body>' + escjson + '</body></html>',
+    'text/html');
+  return JSON.parse(dom.body.textContent);
 }
 
 function eventPromise(dom, eventName) {
-  return new Promise(resolve =>{
-    dom.addEventListener(eventName, event =>{ resolve(event); }, {once:true})
+  return new Promise(resolve => {
+    dom.addEventListener(eventName, event => { resolve(event); }, { once: true })
   })
 }
 
 function equal(blob1, blob2) {
-  if(blob1==blob2){ return true; }
-  if(blob1&&!blob2 || blob2&&!blob1){ return false; }
-  if(blob1.type != blob2.type){ return false; }
-  if(blob1.size != blob2.size){ return false; }
+  if (blob1 == blob2) { return true; }
+  if (blob1 && !blob2 || blob2 && !blob1) { return false; }
+  if (blob1.type != blob2.type) { return false; }
+  if (blob1.size != blob2.size) { return false; }
   let a1 = new Int8Array(blob1);
   let a2 = new Int8Array(blob2);
-  for(let i=0; i<a1.length; i++){
-    if(a1[i] != a2[i]){ return false; }
+  for (let i = 0; i < a1.length; i++) {
+    if (a1[i] != a2[i]) { return false; }
   }
   return true;
 }
 
-function escapeXML(str, quote=false, xml=true){
-  if(xml){
-    str = str.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;');
+function escapeXML(str, quote = false, xml = true) {
+  if (xml) {
+    str = str.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
   }
-  if(quote){
-    str = str.replaceAll('"','&quot;').replaceAll("'",'&apos;').replaceAll('\n','&NewLine;');
+  if (quote) {
+    str = str.replaceAll('"', '&quot;').replaceAll("'", '&apos;').replaceAll('\n', '&NewLine;');
   }
   return str;
 }
 
-function arrayPush(dict, field, value){
-  if(!(field in dict)){ dict[field] = []; }
+function arrayPush(dict, field, value) {
+  if (!(field in dict)) { dict[field] = []; }
   dict[field].push(value);
 }
 
 /** Fetch a file from url then return blob of that file */
-async function fetchFile(url, req, msg='Fetch'){
+async function fetchFile(url, req, msg = 'Fetch') {
   let res = await fetch(url, req);
   //console.debug(`${msg}(${url})`,res);
   if (!res.ok) {
     //console.warn(msg+' error:',res);
-    message.error(res.statusText, msg+' error');
+    message.error(res.statusText, msg + ' error');
     message.removeAttribute('folded');
     return;
   } else {
@@ -163,48 +163,50 @@ async function copyTextToClipboard(text) {
  5. ```foo "code blocks" bar```
  6. <tag id="HTML">
 */
-function replaceQuotesSimple(ln){
-  const curlyQuote = { '"<':'“', '>"':'”',   "'<":"‘", ">'":"’" };
-  let nln = '', li = 0, stack = [], L = ln.length-1, q;
-  for(let i in ln){ i = Number(i);
-    if(!(ln[i] in {"'":0, '"':1})){ continue; }
+function replaceQuotesSimple(ln) {
+  const curlyQuote = { '"<': '“', '>"': '”', "'<": "‘", ">'": "’" };
+  let nln = '', li = 0, stack = [], L = ln.length - 1, q;
+  for (let i in ln) {
+    i = Number(i);
+    if (!(ln[i] in { "'": 0, '"': 1 })) { continue; }
     q = ln[i];
     //console.debug('replaceQuotes:',q,i, stack, [li,ln.slice(li,i)]);
-    let leftSpace  = i > 0 ? ln[i-1].match(/\s/) : true;
-    let rightSpace = i < L ? ln[i+1].match(/\s/) : true;
-    let leftWord   = i > 0 ? ln[i-1].match(/\w/) : false;
-    let rightWord  = i < L ? ln[i+1].match(/\w/) : false;
-    let leftCode   = i > 0 ? ln[i-1].match(/`/) : false;
-    if(leftSpace && rightSpace || leftWord && rightWord || leftCode){ // don't replace (1,2,3)
+    let leftSpace = i > 0 ? ln[i - 1].match(/\s/) : true;
+    let rightSpace = i < L ? ln[i + 1].match(/\s/) : true;
+    let leftWord = i > 0 ? ln[i - 1].match(/\w/) : false;
+    let rightWord = i < L ? ln[i + 1].match(/\w/) : false;
+    let leftCode = i > 0 ? ln[i - 1].match(/`/) : false;
+    if (leftSpace && rightSpace || leftWord && rightWord || leftCode) { // don't replace (1,2,3)
       //console.debug('NOT replaced:',q,i, stack, [li,ln]);
-    }else if(stack.length==0 || stack[0]!=ln[i]){ // open quote
-      stack.unshift(q); q = curlyQuote[q+'<'];
-    }else{ // close quote
-      stack.shift();  q = curlyQuote['>'+q];
+    } else if (stack.length == 0 || stack[0] != ln[i]) { // open quote
+      stack.unshift(q); q = curlyQuote[q + '<'];
+    } else { // close quote
+      stack.shift(); q = curlyQuote['>' + q];
     }
-    nln += ln.slice(li,i) + q;
-    li = i+1;
+    nln += ln.slice(li, i) + q;
+    li = i + 1;
   }
   nln += ln.slice(li);
   return nln;
 }
 
 /** Process quotes outside of inline codes & HTML tags */
-function replaceQuotes(ln){
+function replaceQuotes(ln) {
   const patCI = /`([^`]+)`/; // inline codes
   const patHtml = /<[^>]+>/; // HTML tag
-  const patCIHtmlAll = new RegExp(patCI.source+'|'+patHtml.source, 'g');
+  const patCIHtmlAll = new RegExp(patCI.source + '|' + patHtml.source, 'g');
 
   nln = ''; li = 0;
   m = ln.matchAll(patCIHtmlAll);
   m = m ? Array.from(m) : [];
-  m.push({index:ln.length, 0:''}); // add a "line-end match" for processing the trailing text
-  for(let mi of m){ let l = ln.slice(li,mi.index);
+  m.push({ index: ln.length, 0: '' }); // add a "line-end match" for processing the trailing text
+  for (let mi of m) {
+    let l = ln.slice(li, mi.index);
     l = replaceQuotesSimple(l);
     nln += l + mi[0];
     li = mi.index + mi[0].length;
-    if(mi[0].length > 0){ // retain the last markup char of inline codes & HTML tags for replaceQuotesSimple() to recognize them
-      li--; nln = nln.slice(0,-1);
+    if (mi[0].length > 0) { // retain the last markup char of inline codes & HTML tags for replaceQuotesSimple() to recognize them
+      li--; nln = nln.slice(0, -1);
     }
   }
   return nln;
@@ -218,32 +220,31 @@ function replaceQuotes(ln){
   // 3 levels of () and exclude space & quote of the link tip
   patHref = balancedBracketsRegexPattern('(',')',' "',3,true)
 */
-function balancedBracketsRegexPattern(open='[', close=']', excludes='', depth=1, unrolled=false)
-{
-  let lo = '\\'+open, lc = '\\'+close;  // literals
-  let noBracket = '[^'+lo+lc+excludes+']';
+function balancedBracketsRegexPattern(open = '[', close = ']', excludes = '', depth = 1, unrolled = false) {
+  let lo = '\\' + open, lc = '\\' + close;  // literals
+  let noBracket = '[^' + lo + lc + excludes + ']';
   // Pattern variants:
   let t = unrolled ? 1 : 0;
   let p = [ // [open, close]
     [// simple pattern
       lo
-      + '(?:'+ noBracket  +'|'/*inner level*/,
-        ')*' +
+      + '(?:' + noBracket + '|'/*inner level*/,
+      ')*' +
       lc
     ],
     [// unrolled pattern for efficiency
       lo +
-      noBracket+'*'
+      noBracket + '*'
       + '(?:' /*inner level*/,
-      noBracket+'*'
+      noBracket + '*'
       + ')*' +
       lc
     ]
   ];
 
   // Generate the pattern
-  let innermostPair = lo + noBracket+'*' + lc;
-  let openBrackets  = p[t][0].repeat(depth);
+  let innermostPair = lo + noBracket + '*' + lc;
+  let openBrackets = p[t][0].repeat(depth);
   let closeBrackets = p[t][1].repeat(depth);
 
   // Return the pattern
@@ -280,10 +281,10 @@ function slugify(str) {
 // Recursively find all markdown files in input paths
 function getMarkdownFiles(paths) {
   const mdFiles = [];
-  
+
   function walk(currentPath) {
     if (!fs.existsSync(currentPath)) return;
-    
+
     const stat = fs.statSync(currentPath);
     if (stat.isDirectory()) {
       const base = path.basename(currentPath);
@@ -298,11 +299,11 @@ function getMarkdownFiles(paths) {
       mdFiles.push(currentPath);
     }
   }
-  
+
   for (const p of paths) {
     walk(p);
   }
-  
+
   return mdFiles;
 }
 
@@ -415,45 +416,45 @@ function preprocessStructuredBlocks(lines) {
 // Function to resolve nested UUID references in titles topologically
 function resolveTitleReferences(index, updateSlug = false) {
   const PAT_REF = /(?<!\]\()\(\(([0-9a-fA-F-]{36})\)\)|\[\[([0-9a-fA-F-]{36})\]\]/g;
-  
+
   const g = {};
   for (const id in index) {
     let title = index[id];
     if (typeof title === 'object') title = title.title || '';
     if (!title) continue;
-    
+
     const refs = [];
     const matches = title.matchAll(PAT_REF);
     for (const match of matches) {
       refs.push(match[1] || match[2]);
     }
-    
+
     if (refs.length > 0) {
       g[id] = refs;
     }
   }
-  
+
   let circularRefs = null;
   while (Object.keys(g).length > 0) {
     let resolvedAny = false;
-    
+
     for (const id in g) {
       let resolvable = true;
       for (const t of g[id]) {
-        if (t in g) { 
-          resolvable = false; 
-          break; 
+        if (t in g) {
+          resolvable = false;
+          break;
         }
       }
-      
+
       if (!resolvable) continue;
-      
+
       resolvedAny = true;
-      
+
       let title = index[id];
       let isObj = typeof title === 'object';
       let titleStr = isObj ? title.title : title;
-      
+
       const newTitle = titleStr.replace(PAT_REF, (match, u1, u2) => {
         const targetUuid = u1 || u2;
         let targetTitle = index[targetUuid];
@@ -465,30 +466,30 @@ function resolveTitleReferences(index, updateSlug = false) {
         }
         return match;
       });
-      
+
       if (isObj) {
         index[id].title = newTitle;
         if (updateSlug) index[id].slug = slugify(newTitle);
       } else {
         index[id] = newTitle;
       }
-      
+
       delete g[id];
     }
-    
+
     if (!resolvedAny) {
       console.warn('Warning: Circular refs detected in title resolution for UUIDs:', Object.keys(g));
       circularRefs = g;
       break;
     }
   }
-  
+
   if (circularRefs) {
     for (const id in circularRefs) {
       let title = index[id];
       let isObj = typeof title === 'object';
       let titleStr = isObj ? title.title : title;
-      
+
       const newTitle = titleStr.replace(PAT_REF, (match, u1, u2) => {
         const targetUuid = u1 || u2;
         if (targetUuid in circularRefs) {
@@ -503,7 +504,7 @@ function resolveTitleReferences(index, updateSlug = false) {
         }
         return match;
       });
-      
+
       if (isObj) {
         index[id].title = newTitle;
         if (updateSlug) index[id].slug = slugify(newTitle);
@@ -569,9 +570,9 @@ function expandBlockToken(token, blockMap) {
 
 function isStructuredBlockToken(stripped) {
   return stripped.startsWith('__CODE_BLOCK_') ||
-         stripped.startsWith('__BLOCKQUOTE_') ||
-         stripped.startsWith('__ORG_BLOCK_') ||
-         stripped.startsWith('__PROPS_BLOCK_');
+    stripped.startsWith('__BLOCKQUOTE_') ||
+    stripped.startsWith('__ORG_BLOCK_') ||
+    stripped.startsWith('__PROPS_BLOCK_');
 }
 
 function filterSystemProps(lines) {
@@ -625,7 +626,7 @@ function indexLines(filePath, cleanLines, blockMap) {
 
             // Stop at sibling bullet
             if (nextStripped.startsWith('- ') &&
-                next.line.length - next.line.trimStart().length <= curIndent) break;
+              next.line.length - next.line.trimStart().length <= curIndent) break;
 
             // Structured-block token → expand from blockMap
             if (blockMap && blockMap[nextStripped]) {
@@ -637,8 +638,8 @@ function indexLines(filePath, cleanLines, blockMap) {
                   firstContentLine = filtered[0].replace(PAT_PROP, '$2').trim();
                   break;
                 }
-                // filtered is empty (only system props like collapsed::) — don't break!
-                // The structured block or content line after it must be the title.
+                //`filtered` is empty here (only system props like collapsed::)
+                //Warning: Don't break here! The structured block or content line after it must be the title.
               } else {
                 effectiveTitle = block.lines.join('\n');
                 firstContentLine = block.lines.find(l => l.trim() && !l.match(PAT_PROP)) || '';
