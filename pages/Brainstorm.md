@@ -64,7 +64,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  id:: 6a2bba2c-8168-45e0-9dff-1fefde61d654
 					- Developers use high-level maps for structural navigation, and local text for deep understanding.
 						- _The **raw code** reading provides much better **local context** through **familiar language structures (syntax)**_ than an AST – just mess of nodes and edges.
-						- The graph navigation gives much quicker and precise long-range connections than searching across files.
+						- The **graph** navigation gives much quicker and precise **long-range connections** than searching across files.
 					- This mirrors how humans use maps: we don't stare endlessly at the map, nor do we walk every single route to find a known destination.
 					- The future of AI tools lies in a hybrid model where the AST graph handles the “Ctrl-Click” leaps, and the LLM handles the raw text of the target landing spot.
 		- The architecture of autistic flow
