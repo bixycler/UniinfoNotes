@@ -2152,7 +2152,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- discussed with Gemini and wrote ((6a2a728c-3cfc-4287-94d3-da2dfeab09d1))
 				  id:: 6a2bc1fa-ee1f-4a6c-9c91-3c91da0593cc
-					- Contemplating my momentum and issue in the deep dives, i see that both the momentum and the 3 poisons are caused by the  The porousness
+					- Contemplating my momentum and issue in the deep dives, i see that both the momentum and the 3 poisons are caused by the **_clinging_ restoring force** ← attachment to the perfect form (core) + porousness of the body & shell
+					- My core is too deep and my body is too porous, creating such a black hole sucking everything into the abyss.
+					- ⇒ The solution is back to the ((699e5754-ef30-4571-81fc-caecf7f7d245)): [Don't force the force!](((6a2a8201-d115-45d7-b0ae-05f9cca9c21e)))
 				- The whole repo ((666baccf-6be1-4b9a-b186-f883ea04daf1)) was touched at [May 28, 19:34:22](((6a1986e3-49d4-4628-8053-94d88716a0e8))) (changed creation & modification timestamps) by OpenCode, due a context rollback (bug [15391](https://github.com/anomalyco/opencode/issues/15391)).
 					- This incident broke all ((66978876-9378-4059-8783-868d041e8e2e)).
 					- I ((6a2aa0a4-ce23-44a5-9476-b2b30beb89f2)), but the creation time is still `May 28, 19:34:22`.
