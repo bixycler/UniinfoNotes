@@ -17588,5 +17588,149 @@
     "slug": "restore-mod-time-of-files-from-their-last-git-commit",
     "outputFile": null,
     "outputLine": null
+  },
+  "00000000-0004-0005-0000-000000000000": {
+    "sourceLine": 23,
+    "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
+    "outputLine": 23,
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
+    "title": "4.5 Blockquote with blank line and continuation text:",
+    "slug": "4-5-blockquote-with-blank-line-and-continuation-text"
+  },
+  "00000000-0005-0001-0000-000000000000": {
+    "sourceLine": 30,
+    "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
+    "outputLine": 30,
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
+    "title": "5.1 Code Block:",
+    "slug": "5-1-code-block"
+  },
+  "00000000-0005-0002-0000-000000000000": {
+    "sourceLine": 36,
+    "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
+    "outputLine": 32,
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
+    "title": "5.2 Math Block:",
+    "slug": "5-2-math-block"
+  },
+  "00000000-0006-0001-0000-000000000000": {
+    "sourceLine": 41,
+    "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
+    "outputLine": 40,
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
+    "title": "\t  ```shell\n\t  echo \"testing empty block code block nesting\"\n\t  ```",
+    "slug": "shell-echo-testing-empty-block-code-block-nesting"
+  },
+  "00000000-0006-0002-0000-000000000000": {
+    "sourceLine": 45,
+    "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
+    "outputLine": 42,
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
+    "title": "This is standard continuation text inside an empty title block.",
+    "slug": "this-is-standard-continuation-text-inside-an-empty-title-block"
+  },
+  "00000000-0007-0001-0000-000000000000": {
+    "sourceLine": 49,
+    "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
+    "outputLine": 45,
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
+    "title": "7.1 Target block for local reference",
+    "slug": "7-1-target-block-for-local-reference"
+  },
+  "00000000-0008-0001-0000-000000000000": {
+    "sourceLine": 53,
+    "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
+    "outputLine": 48,
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
+    "title": "8.1 Target A that references B: 00000000-0008-0002-0000-000000000000",
+    "slug": "8-1-target-a-that-references-b-00000000-0008-0002-0000-000000000000"
+  },
+  "00000000-0008-0002-0000-000000000000": {
+    "sourceLine": 55,
+    "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
+    "outputLine": 49,
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
+    "title": "8.2 Target B that references A back: 00000000-0008-0001-0000-000000000000",
+    "slug": "8-2-target-b-that-references-a-back-00000000-0008-0001-0000-000000000000"
+  },
+  "00000000-0009-0001-0000-000000000000": {
+    "sourceLine": 58,
+    "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
+    "outputLine": 51,
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
+    "title": "9.1 Target A that titled-links to B: [see B](((00000000-0009-0002-0000-000000000000)))",
+    "slug": "9-1-target-a-that-titled-links-to-b-see-b-00000000-0009-0002-0000-000000000000"
+  },
+  "00000000-0009-0002-0000-000000000000": {
+    "sourceLine": 60,
+    "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
+    "outputLine": 52,
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
+    "title": "9.2 Target B that references A back: 9.1 Target A that titled-links to B: [see B](((00000000-0009-0002-0000-000000000000)))",
+    "slug": "9-2-target-b-that-references-a-back-9-1-target-a-that-titled-links-to-b-see-b-00000000-0009-0002-0000-000000000000"
+  },
+  "00000000-0010-0001-0000-000000000000": {
+    "sourceLine": 63,
+    "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
+    "outputLine": 54,
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
+    "title": "10.1 First sibling that references §10.2: logseqmd2commonmark-test",
+    "slug": "10-1-first-sibling-that-references-10-2-logseqmd2commonmark-test"
+  },
+  "00000000-0010-0002-0000-000000000000": {
+    "sourceLine": 64,
+    "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
+    "outputLine": 55,
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
+    "title": "logseqmd2commonmark-test",
+    "slug": "logseqmd2commonmark-test"
+  },
+  "00000000-0011-0001-0000-000000000000": {
+    "sourceLine": 66,
+    "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
+    "outputLine": 60,
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
+    "title": "\t  ```shell\n\t  echo \"code block title transclusion\"\n\t  ```",
+    "slug": "shell-echo-code-block-title-transclusion"
+  },
+  "00000000-0011-0002-0000-000000000000": {
+    "sourceLine": 70,
+    "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
+    "outputLine": 64,
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
+    "title": "\t  > blockquote title transclusion\n\t  > with continuation",
+    "slug": "blockquote-title-transclusion-with-continuation"
+  },
+  "00000000-0011-0003-0000-000000000000": {
+    "sourceLine": 73,
+    "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
+    "outputLine": 68,
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
+    "title": "\t  #+BEGIN_CAUTION\n\t  [:b \"Content inside Org block\"]\n\t  #+END_CAUTION",
+    "slug": "begin_caution-b-content-inside-org-block-end_caution"
+  },
+  "00000000-0011-0004-0000-000000000000": {
+    "sourceLine": 77,
+    "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
+    "outputLine": 69,
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
+    "title": "\t  tags:: User Property\n\t  scoping:: [[Some Page]]",
+    "slug": "tags-user-property-scoping-some-page"
+  },
+  "00000000-0011-0005-0000-000000000000": {
+    "sourceLine": 81,
+    "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
+    "outputLine": 73,
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
+    "title": "\t  #+BEGIN_WARNING\n\t  System-props-only then Org block\n\t  #+END_WARNING",
+    "slug": "begin_warning-system-props-only-then-org-block-end_warning"
+  },
+  "00000000-0011-0006-0000-000000000000": {
+    "sourceLine": 86,
+    "sourceFile": "/home/dinhlx/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
+    "outputLine": 74,
+    "outputFile": "/home/dinhlx/tmp/logseq/logseqmd2commonmark-test.cm.md",
+    "title": "\t  prop1:: value 1\n\t  prop2:: value 2",
+    "slug": "prop1-value-1-prop2-value-2"
   }
 }
