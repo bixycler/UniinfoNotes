@@ -11,6 +11,58 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2026 Brainstorms
 	  id:: 6960e754-ff94-4e1a-8266-d9f15231b880
+		- Codebase navigation by coding agents: current limitations and future perspective
+		  id:: 6a2bb96a-8595-4aa8-9b8e-1a70ef6bd091
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2026-06-12 Fri 14:46:52]
+		  CLOCK: [2026-06-12 Fri 14:47:49]--[2026-06-12 Fri 14:54:39] =>  00:06:50
+		  :END:
+			- Current technical limitations in codebase navigation
+				- Traditional codebase indexing is hitting severe scaling and conceptual walls.
+					- Early AI tools relied on simple vector-based retrieval-augmented generation (vector RAG).
+						- This approach ignores code structure entirely, flattening files into arbitrary text chunks.
+					- Recent attempts at graph-based RAG (GraphRAG) try to map relationships but rely on slow, expensive LLM-driven extraction.
+						- Extracting entities and connections via prompts for every code edit is too slow for real-time development.
+					- Detailed limitations and the **contrast with compiler-grade graphs** are covered under the ((6a2bba2c-992c-461c-8fb8-58bb05d5ce51)) and ((6a2bba2c-c32e-4f2a-9fee-8a9da86e68a6)) sections below.
+				- Modern environments are shifting toward raw, runtime context ingestion – a transition with severe structural limits.
+					- Native context windows have exploded to hold entire codebases in memory – up to 2M tokens.
+					- Agentic search has largely replaced static retrieval.
+						- Agents run active reasoning loops – Think–Act–Observe–Repeat – utilizing local terminal utilities.
+						- They traverse directories dynamically using `glob`, find exact patterns using `grep`, and read target files rather than querying a static database.
+					- The cognitive limits of pure raw-text ingestion
+						- **No navigation stack:** Unlike human developers who Ctrl-Click down a call stack and unwind back, raw text readers have no physical tracking of execution depth.
+						- **Context dilution:** Ingesting entire raw files floods the context window with comments, imports, and unrelated logic, drowning out the active dependency signal.
+						- **Attention is not execution:** Raw ingestion forces the model to use slow, sequential Chain of Thought (CoT) reasoning to manually simulate a deterministic compiler, causing token-heavy loops and crashes.
+			- ### vector index
+			  id:: 6a2bba2c-992c-461c-8fb8-58bb05d5ce51
+				- Static index pipeline overheads
+					- Vector databases introduce severe friction for active development.
+						- They struggle with synchronization lag as codebases change second-by-second.
+						- They raise enterprise security concerns by requiring local file hashing or sending code to cloud-cached embedding APIs.
+						- They consume heavy local CPU and RAM, competing directly with compilers, build tools, and Docker environments.
+				- The cognitive scent of flat representation
+					- Reducing high-dimensional, structural code to floating-point distance metrics is the fundamental “bad smell” of early code RAG.
+					- Pure semantic search remains completely blind to code topology.
+						- It matches words of similar meaning but misses the actual execution flows and dependency paths.
+						- Standard transformers depend heavily on proximity bias, meaning they rely on local context clues that are lost when code is shredded into arbitrary vector chunks.
+			- ### graph index
+			  id:: 6a2bba2c-c32e-4f2a-9fee-8a9da86e68a6
+				- Structural indexing overhead compared
+					- LLM-driven GraphRAG introduces catastrophic overhead.
+						- Re-running LLM prompts to extract entities and relations on every minor code change is slow, brittle, and prohibitively expensive.
+					- Compiler-grade graph indexes bypass this overhead completely.
+						- Compilers and Language Server Protocols (LSPs) use highly optimized, incremental parsing engines – such as [Tree-sitter](https://github.com/tree-sitter/tree-sitter) – that update changed code nodes in microseconds.
+						- They run entirely locally with near-zero CPU footprint and require zero external API calls.
+				- Compiler-grade topology as the developer's navigation map
+					- Compilers and LSPs have already mapped codebases with mathematical precision using Abstract Syntax Trees (ASTs).
+					- The ultimate prize of this graph is the network of back-references.
+						- Tracking dataflows, global variable mutations, and def–use chains becomes a simple, instantaneous pointer lookup.
+						- Without this micro-graph, an agent must guess execution flow by reading raw text sequentially – a process requiring massive cognitive energy to simulate a deterministic compiler.
+				- Combining the map and the terrain
+					- Developers use high-level maps for structural navigation, and local text for deep understanding.
+					- This mirrors how humans use maps: we don't stare endlessly at the map, nor do we walk every single route to find a known destination.
+					- The future of AI tools lies in a hybrid model where the AST graph handles the “Ctrl-Click” leaps, and the transformer handles the raw text of the target landing spot.
 		- The architecture of autistic flow
 		  id:: 6a2a728c-3cfc-4287-94d3-da2dfeab09d1
 		  collapsed:: true
