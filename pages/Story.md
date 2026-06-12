@@ -2155,6 +2155,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Advanced Hierarchical Recurrent Models (HRM) like [HRM-Text](https://github.com/sapientinc/HRM-Text) are being [developed by Sapient](https://venturebeat.com/technology/researchers-say-they-trained-a-foundation-model-from-scratch-for-about-1-500) to replace Transformers for reasoning-heavy tasks with much smaller set of weights and smaller training dataset.
 			- 12th, ...
 				- ((6a2bb96a-8595-4aa8-9b8e-1a70ef6bd091))
+					- The KG navigation of uninet should be similar: combining global graph navigation with local context
 		- Chrome tab zombie by Cognee webapp
 		  id:: 6a227a43-5fa1-4718-8cf7-3a57c8121bd5
 		  collapsed:: true

@@ -34,6 +34,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- **No navigation stack:** Unlike human developers who Ctrl-Click down a call stack and unwind back, raw text readers have no physical tracking of execution depth.
 						- **Context dilution:** Ingesting entire raw files floods the context window with comments, imports, and unrelated logic, drowning out the active dependency signal.
 						- **Attention is not execution:** Raw ingestion forces the model to use slow, sequential Chain of Thought (CoT) reasoning to manually simulate a deterministic compiler, causing token-heavy loops and crashes.
+				- The future should [combine](((6a2bba2c-8168-45e0-9dff-1fefde61d654))) the compiler-grade graphs with the raw code reading.
 			- ### vector index
 			  id:: 6a2bba2c-992c-461c-8fb8-58bb05d5ce51
 				- Static index pipeline overheads
@@ -54,15 +55,16 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- Compiler-grade graph indexes bypass this overhead completely.
 						- Compilers and Language Server Protocols (LSPs) use highly optimized, incremental parsing engines – such as [Tree-sitter](https://github.com/tree-sitter/tree-sitter) – that update changed code nodes in microseconds.
 						- They run entirely locally with near-zero CPU footprint and require zero external API calls.
-				- Compiler-grade topology as the developer's navigation map
+				- **Compiler-grade topology** as the developer's **navigation map**
 					- Compilers and LSPs have already mapped codebases with mathematical precision using Abstract Syntax Trees (ASTs).
 					- The ultimate prize of this graph is the network of back-references.
 						- Tracking dataflows, global variable mutations, and def–use chains becomes a simple, instantaneous pointer lookup.
 						- Without this micro-graph, an agent must guess execution flow by reading raw text sequentially – a process requiring massive cognitive energy to simulate a deterministic compiler.
-				- Combining the map and the terrain
+				- **Combining the map and the terrain**
+				  id:: 6a2bba2c-8168-45e0-9dff-1fefde61d654
 					- Developers use high-level maps for structural navigation, and local text for deep understanding.
 					- This mirrors how humans use maps: we don't stare endlessly at the map, nor do we walk every single route to find a known destination.
-					- The future of AI tools lies in a hybrid model where the AST graph handles the “Ctrl-Click” leaps, and the transformer handles the raw text of the target landing spot.
+					- The future of AI tools lies in a hybrid model where the AST graph handles the “Ctrl-Click” leaps, and the LLM handles the raw text of the target landing spot.
 		- The architecture of autistic flow
 		  id:: 6a2a728c-3cfc-4287-94d3-da2dfeab09d1
 		  collapsed:: true
