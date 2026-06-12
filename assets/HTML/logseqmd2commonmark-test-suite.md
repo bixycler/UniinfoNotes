@@ -2,9 +2,16 @@
 
 This document tracks the edge cases and bugs discovered during the development of the `logseqmd2commonmark.js` converter, along with test cases to verify their behavior.
 
-**Executing Tests:** To manually verify all these scenarios quickly on the dedicated unit test suite, run:
+**Executing Tests:** First **purge the fixture's UUIDs from `index.json`** so stale index entries can't mask a regression (a stale `title`/`sourceLine` will make a broken block appear to pass). All fixture UUIDs use the uniform scheme `00000000-00SS-00II-0000-000000000000` (SS=section, II=item), so this one-liner removes exactly them and spares §3's real external UUID:
 
 ```bash
+node -e 'const fs=require("fs");const i=JSON.parse(fs.readFileSync("index.json","utf8"));let n=0;for(const k of Object.keys(i))if(/^0{8}-\d{4}-\d{4}-0000-0{12}$/.test(k)){delete i[k];n++}fs.writeFileSync("index.json",JSON.stringify(i,null,2));console.log("Purged",n,"test UUIDs")'
+```
+
+Then rebuild the index and run the converter:
+
+```bash
+node assets/HTML/build-index.js assets/HTML/logseqmd2commonmark-test.md
 node assets/HTML/logseqmd2commonmark.js -i index.json -o ~/tmp/logseq/ -b assets/HTML assets/HTML/logseqmd2commonmark-test.md --break br
 ```
 
@@ -28,10 +35,10 @@ Verify the output `.cm.md` file visually or via a Markdown AST parser to ensure 
 
 ## 2. Inline `id::` Mistaken for Block ID
 
-*   **Bug Description**: An inline text containing `id::` (e.g., `id:: 12345678-1234-1234-1234-123456789012`) inside a paragraph was mistakenly parsed as the Logseq block ID property.
+*   **Bug Description**: An inline text containing `id::` (e.g., `id:: 00000000-0002-0001-0000-000000000000`) inside a paragraph was mistakenly parsed as the Logseq block ID property.
 *   **Test Case**:
     ```markdown
-    - This is a block discussing the new `id:: 12345678-1234-1234-1234-123456789012` syntax.
+    - This is a block discussing the new `id:: 00000000-0002-0001-0000-000000000000` syntax.
     ```
 *   **Expected Output**: The `id` property should not be populated. The regex should strictly match properties only when they appear as block metadata (at the start of lines, following standard Logseq property block formatting).
 
@@ -73,14 +80,14 @@ Verify the output `.cm.md` file visually or via a Markdown AST parser to ensure 
         ```markdown
         - 4.5 Blockquote with blank line and continuation text:
           collapsed:: true
-          id:: 6880b9b5-b5d3-4542-b378-31cf40ea8476
+          id:: 00000000-0004-0005-0000-000000000000
           > I'm just a no-one going nowhere to do nothing!
           
           This short introduction appears in most of my profiles.
         ```
     *   **Expected Output**:
         ```markdown
-        - 4.5 Blockquote with blank line and continuation text: <a class="logseq-meta" id="6880b9b5-b5d3-4542-b378-31cf40ea8476" data-collapsed="true" ></a>
+        - 4.5 Blockquote with blank line and continuation text: <a class="logseq-meta" id="00000000-0004-0005-0000-000000000000" data-collapsed="true" ></a>
           > I'm just a no-one going nowhere to do nothing!
           
           This short introduction appears in most of my profiles.
@@ -92,7 +99,7 @@ Verify the output `.cm.md` file visually or via a Markdown AST parser to ensure 
 *   **Test Case**:
     ```markdown
     - Block ending with a code block:
-      id:: 12345678-1234-1234-1234-123456789012
+      id:: 00000000-0005-0001-0000-000000000000
       ```shell
       echo "hello"
       ```
@@ -103,7 +110,7 @@ Verify the output `.cm.md` file visually or via a Markdown AST parser to ensure 
       ```shell
       echo "hello"
       ```
-      <a class="logseq-meta" id="12345678-1234-1234-1234-123456789012"></a>
+      <a class="logseq-meta" id="00000000-0005-0001-0000-000000000000"></a>
     ```
 
 ## 6. Blank Bullet Leading to Spaced (Indented) Code Block Misinterpretation
@@ -112,11 +119,11 @@ Verify the output `.cm.md` file visually or via a Markdown AST parser to ensure 
 *   **Test Case**:
     ```markdown
     - Parent item
-      - id:: 66ea4711-1392-4f5c-bea2-badc71a2fb9a
+      - id:: 00000000-0006-0001-0000-000000000000
         ```shell
         echo "testing empty block code block nesting"
         ```
-      - id:: 66ea4711-1392-4f5c-bea2-badc71a2fb9f
+      - id:: 00000000-0006-0002-0000-000000000000
         This is standard continuation text inside an empty title block.
     ```
 *   **Expected Output**:
@@ -126,8 +133,8 @@ Verify the output `.cm.md` file visually or via a Markdown AST parser to ensure 
         ```shell
         echo "testing empty block code block nesting"
         ```
-        <a class="logseq-meta" id="66ea4711-1392-4f5c-bea2-badc71a2fb9a" ></a>
-      - &nbsp; <a class="logseq-meta" id="66ea4711-1392-4f5c-bea2-badc71a2fb9f" ></a>
+        <a class="logseq-meta" id="00000000-0006-0001-0000-000000000000" ></a>
+      - &nbsp; <a class="logseq-meta" id="00000000-0006-0002-0000-000000000000" ></a>
         This is standard continuation text inside an empty title block.
     ```
 
@@ -137,13 +144,13 @@ Verify the output `.cm.md` file visually or via a Markdown AST parser to ensure 
 *   **Test Case**:
     ```markdown
     - Target block for local reference
-      id:: 22222222-2222-2222-2222-222222222222
-    - Reference block: ((22222222-2222-2222-2222-222222222222))
+      id:: 00000000-0007-0001-0000-000000000000
+    - Reference block: ((00000000-0007-0001-0000-000000000000))
     ```
 *   **Expected Output**: A topological resolution algorithm (ported from `markdown-converter.js`) resolves block UUIDs into their corresponding human-readable titles, gracefully handling and warning about circular references:
     ```markdown
-    - Target block for local reference <a class="logseq-meta" id="22222222-2222-2222-2222-222222222222" ></a>
-    - Reference block: [Target block for local reference](#22222222-2222-2222-2222-222222222222)
+    - Target block for local reference <a class="logseq-meta" id="00000000-0007-0001-0000-000000000000" ></a>
+    - Reference block: [Target block for local reference](#00000000-0007-0001-0000-000000000000)
     ```
 
 ## 8. True Positive Circular Reference via Bare Block Ref (Transclusion, Mirror)
@@ -151,17 +158,17 @@ Verify the output `.cm.md` file visually or via a Markdown AST parser to ensure 
 *   **Bug Description**: Two blocks that genuinely reference each other via bare `((uuid))` transclusion in their **titles** create a circular dependency in the title resolution graph (the cycle lives in the title transclusion, not in any link syntax). The resolver must detect this, warn, and break the cycle by replacing circular references with raw UUIDs.
 *   **Test Case**:
     ```markdown
-    - 8.1 Target A that references B: ((55555555-5555-5555-5555-555555555552))
-      id:: 55555555-5555-5555-5555-555555555551
-    - 8.2 Target B that references A back: ((55555555-5555-5555-5555-555555555551))
-      id:: 55555555-5555-5555-5555-555555555552
+    - 8.1 Target A that references B: ((00000000-0008-0002-0000-000000000000))
+      id:: 00000000-0008-0001-0000-000000000000
+    - 8.2 Target B that references A back: ((00000000-0008-0001-0000-000000000000))
+      id:: 00000000-0008-0002-0000-000000000000
     ```
 *   **Expected Output**: The resolver detects the circular ref, warns about UUIDs `5555...5551` and `5555...5552`, and replaces each self-referencing `((...))` with the raw UUID:
     ```markdown
-    - 8.1 Target A that references B: 55555555-5555-5555-5555-555555555552
-      <a class="logseq-meta" id="55555555-5555-5555-5555-555555555551" ></a>
-    - 8.2 Target B that references A back: 55555555-5555-5555-5555-555555555551
-      <a class="logseq-meta" id="55555555-5555-5555-5555-555555555552" ></a>
+    - 8.1 Target A that references B: 00000000-0008-0002-0000-000000000000
+      <a class="logseq-meta" id="00000000-0008-0001-0000-000000000000" ></a>
+    - 8.2 Target B that references A back: 00000000-0008-0001-0000-000000000000
+      <a class="logseq-meta" id="00000000-0008-0002-0000-000000000000" ></a>
     ```
 
 ## 9. False Positive Circular Reference via Titled Link
@@ -169,17 +176,17 @@ Verify the output `.cm.md` file visually or via a Markdown AST parser to ensure 
 *   **Bug Description**: `resolveTitleReferences()` parses `[text](((uuid)))` titled links and treats the `((uuid))` inside the link syntax as an edge in the dependency graph. This creates a phantom dependency from A → B. If B transitively references A (even indirectly), the algorithm falsely detects a cycle. The `PAT_REF` regex must exclude `((uuid))` when preceded by `](` (i.e., inside a markdown link destination).
 *   **Test Case**:
     ```markdown
-    - 9.1 Target A that titled-links to B: [see B](((66666666-6666-6666-6666-666666666662)))
-      id:: 66666666-6666-6666-6666-666666666661
-    - 9.2 Target B that references A back: ((66666666-6666-6666-6666-666666666661))
-      id:: 66666666-6666-6666-6666-666666666662
+    - 9.1 Target A that titled-links to B: [see B](((00000000-0009-0002-0000-000000000000)))
+      id:: 00000000-0009-0001-0000-000000000000
+    - 9.2 Target B that references A back: ((00000000-0009-0001-0000-000000000000))
+      id:: 00000000-0009-0002-0000-000000000000
     ```
 *   **Expected Output**: The negative lookbehind `(?<!\]\() ` in `PAT_REF` excludes the `((uuid))` inside the titled link. A's dependencies are empty (no edge to B), so no cycle is detected. Both titles resolve as normal links:
     ```markdown
-    - 9.1 Target A that titled-links to B: [see B](#66666666-6666-6666-6666-666666666662)
-      <a class="logseq-meta" id="66666666-6666-6666-6666-666666666661" ></a>
-    - 9.2 Target B that references A back: [Target A that titled-links to B](#66666666-6666-6666-6666-666666666661)
-      <a class="logseq-meta" id="66666666-6666-6666-6666-666666666662" ></a>
+    - 9.1 Target A that titled-links to B: [see B](#00000000-0009-0002-0000-000000000000)
+      <a class="logseq-meta" id="00000000-0009-0001-0000-000000000000" ></a>
+    - 9.2 Target B that references A back: [Target A that titled-links to B](#00000000-0009-0001-0000-000000000000)
+      <a class="logseq-meta" id="00000000-0009-0002-0000-000000000000" ></a>
     ```
 
 ## 10. Sibling `id::` Fallback Bug (lastContentLine contamination)
@@ -188,16 +195,16 @@ Verify the output `.cm.md` file visually or via a Markdown AST parser to ensure 
 *   **Test Case**:
     ```markdown
     - 10. Sibling id:: Fallback Bug (lastContentLine sibling contamination):
-      - 10.1 First sibling that references §10.2: ((77777777-7777-7777-7777-777777777772))
-        id:: 77777777-7777-7777-7777-777777777771
-      - id:: 77777777-7777-7777-7777-777777777772
+      - 10.1 First sibling that references §10.2: ((00000000-0010-0002-0000-000000000000))
+        id:: 00000000-0010-0001-0000-000000000000
+      - id:: 00000000-0010-0002-0000-000000000000
     ```
 *   **Expected Output**: The indent-aware fallback (`lastContentIndent < curIndent`) prevents sibling contamination. `7777...7772` inherits the filename (page basename), not "10.1 First sibling that references §10.2: ((7777...7772))". The converted output renders the reference from 10.1 as a link to 10.2 using the filename:
     ```markdown
     - 10. Sibling id:: Fallback Bug (lastContentLine sibling contamination):
-      - 10.1 First sibling that references §10.2: [logseqmd2commonmark-test](#77777777-7777-7777-7777-777777777772)
-        <a class="logseq-meta" id="77777777-7777-7777-7777-777777777771" ></a>
-      - &nbsp; <a class="logseq-meta" id="77777777-7777-7777-7777-777777777772" ></a>
+      - 10.1 First sibling that references §10.2: [logseqmd2commonmark-test](#00000000-0010-0002-0000-000000000000)
+        <a class="logseq-meta" id="00000000-0010-0001-0000-000000000000" ></a>
+      - &nbsp; <a class="logseq-meta" id="00000000-0010-0002-0000-000000000000" ></a>
     ```
 
 ## 11. Structured-Block Transclusion for Bare `- id::` Blocks
@@ -205,27 +212,27 @@ Verify the output `.cm.md` file visually or via a Markdown AST parser to ensure 
 *   **Bug Description**: When a Logseq block has no inline title (e.g. `- id:: uuid` with nothing between `- ` and `id::`), the old `indexLines()` fell back to `lastContentLine` or filename. The preprocessor now collapses four structured constructs into placeholder tokens (`__CODE_BLOCK_`, `__BLOCKQUOTE_`, `__ORG_BLOCK_`, `__PROPS_BLOCK_`), and `indexLines()` expands them as the transcluded title. System properties (`id`, `collapsed`) and LOGBOOK are excluded from the props-block title.
 *   **Test Case**:
     ```markdown
-    - id:: 88888888-8888-8888-8888-888888888881
+    - id:: 00000000-0011-0001-0000-000000000000
       ```shell
       echo "code block title transclusion"
       ```
-    - id:: 88888888-8888-8888-8888-888888888882
+    - id:: 00000000-0011-0002-0000-000000000000
       > blockquote title transclusion
       > with continuation
-    - id:: 88888888-8888-8888-8888-888888888883
+    - id:: 00000000-0011-0003-0000-000000000000
       #+BEGIN_CAUTION
       [:b "Content inside Org block"]
       #+END_CAUTION
-    - id:: 88888888-8888-8888-8888-888888888884
+    - id:: 00000000-0011-0004-0000-000000000000
       tags:: User Property
       scoping:: [[Some Page]]
       collapsed:: true
-    - id:: 99999999-9999-9999-9999-999999999991
+    - id:: 00000000-0011-0005-0000-000000000000
       collapsed:: true
       #+BEGIN_WARNING
       System-props-only then Org block
       #+END_WARNING
-    - id:: 99999999-9999-9999-9999-999999999992
+    - id:: 00000000-0011-0006-0000-000000000000
       collapsed:: true
       :LOGBOOK:
       CLOCK: [2026-01-01 Mon 00:00]--[2026-01-01 Mon 01:00] =>  01:00
@@ -233,12 +240,12 @@ Verify the output `.cm.md` file visually or via a Markdown AST parser to ensure 
       prop1:: value 1
       prop2:: value 2
     - References to each transcluded block:
-      - `__CODE_BLOCK_` transclusion: ((88888888-8888-8888-8888-888888888881))
-      - `__BLOCKQUOTE_` transclusion: ((88888888-8888-8888-8888-888888888882))
-      - `__ORG_BLOCK_` transclusion: ((88888888-8888-8888-8888-888888888883))
-      - `__PROPS_BLOCK_` transclusion (user props only): ((88888888-8888-8888-8888-888888888884))
-      - System-props-only then Org block: ((99999999-9999-9999-9999-999999999991))
-      - LOGBOOK then user props: ((99999999-9999-9999-9999-999999999992))
+      - `__CODE_BLOCK_` transclusion: ((00000000-0011-0001-0000-000000000000))
+      - `__BLOCKQUOTE_` transclusion: ((00000000-0011-0002-0000-000000000000))
+      - `__ORG_BLOCK_` transclusion: ((00000000-0011-0003-0000-000000000000))
+      - `__PROPS_BLOCK_` transclusion (user props only): ((00000000-0011-0004-0000-000000000000))
+      - System-props-only then Org block: ((00000000-0011-0005-0000-000000000000))
+      - LOGBOOK then user props: ((00000000-0011-0006-0000-000000000000))
     ```
 *   **Expected Output**:
     - `8888...8881` title: the code block content (lines inside the fences)

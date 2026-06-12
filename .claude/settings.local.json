@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(node -c assets/HTML/common-utils.js)",
-      "Bash(node assets/HTML/build-index.js assets/HTML/logseqmd2commonmark-test.md -o /tmp/index-verify.json)",
-      "Bash(node -e ' *)"
-    ]
-  }
-}
