@@ -2157,9 +2157,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- This incident broke all ((66978876-9378-4059-8783-868d041e8e2e)).
 					- I ((6a2aa0a4-ce23-44a5-9476-b2b30beb89f2)), but the creation time is still `May 28, 19:34:22`.
 				- Advanced Hierarchical Recurrent Models (HRM) like [HRM-Text](https://github.com/sapientinc/HRM-Text) are being [developed by Sapient](https://venturebeat.com/technology/researchers-say-they-trained-a-foundation-model-from-scratch-for-about-1-500) to replace Transformers for reasoning-heavy tasks with much smaller set of weights and smaller training dataset.
-			- 12th, ...
-				- ((6a2bb96a-8595-4aa8-9b8e-1a70ef6bd091))
-					- The KG navigation of uninet should be similar: combining local context tree (tree view) with the global graph navigation for long-range connections
+			- 12th, intended to do the pro work, but ended up with ((6a2bb96a-8595-4aa8-9b8e-1a70ef6bd091))
+			  collapsed:: true
+				- The KG navigation of uninet should be similar: combining local context tree (tree view) with the global graph navigation for long-range connections
+			- 13-14th, weekends:
+			- 15th,...
+			  collapsed:: true
+				-
 		- Chrome tab zombie by Cognee webapp
 		  id:: 6a227a43-5fa1-4718-8cf7-3a57c8121bd5
 		  collapsed:: true
