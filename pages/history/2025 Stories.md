@@ -953,7 +953,7 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 			- Recalling the godly awake experiences, i saw that such “dead state” is just the [Buddhist Nibbāna](https://en.wikipedia.org/wiki/Nirvana_(Buddhism)).
 			  id:: 684f951a-b5ca-44a7-b9a3-df1538310721
 			  collapsed:: true
-				- Nibbāna ([Niết-bàn](https://vi.wikipedia.org/wiki/Ni%E1%BA%BFt-b%C3%A0n)) = complete death 😁: extinction, diệt tận, tịch diệt, viên tịch, ... hay nói nôm ra cho dễ hiểu là "chết hết" 😂
+				- Nibbāna ([Niết-bàn](https://vi.wikipedia.org/wiki/Ni%E1%BA%BFt-b%C3%A0n)) = complete death 😁: extinction, diệt tận, tịch diệt, viên tịch, ... hay nói nôm ra cho dễ hiểu là “chết hết” 😂
 				- Two times of active “dead state entrance” through meditation in the late Thursday night (early Friday morning) in this “drowning experience”:
 				  id:: 6926be24-7c66-4374-8789-6dc01e02580f
 					- ((67dd1682-6d19-4de4-8b4b-7233d9ea41a3))
