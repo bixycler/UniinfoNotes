@@ -2161,6 +2161,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- The KG navigation of uninet should be similar: combining local context tree (tree view) with the global graph navigation for long-range connections
 			- 13-14th, weekends: Coding agents & sublimate/annihilate the core
+			  collapsed:: true
 				- Throughout the second half (5h) of the recovery sleep, i have been doing a psychonautic trip through my problems... Then at the threshold of sitting up, i recognized the ultimate solution is to **sublimate the holistic core**, making it as porous as the body.
 				  collapsed:: true
 					- ==> Only the empty center is left “whole, complete, perfect” ... The whole = the empty = the perfect, i.e., nothing is absolutely perfect! 🤣
@@ -2179,16 +2180,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Die the separate self,
 						- Awaken the cosmic whole!
 				- In a meditation session, i wondered why [Mahavira](https://en.wikipedia.org/wiki/Mahavira) of Jainism and the Buddha are so similar. Then i had [an interesting journey with Google AI Mode](https://share.google/aimode/nSIt8JFXsRNmVLqp7).
-				- And i accidentally found the book [The Mirror of the Simple Souls](../assets/Philosophy/Ways/The Mirror of the Simple Souls.pdf) (from [archive](https://archive.org/download/mirrorofsimpleso00unse/mirrorofsimpleso00unse.pdf)) whose author – [Marguerite Porete](https://en.wikipedia.org/wiki/Marguerite_Porete) – smiled when she was burnt alive.
-					- The 6th & 7th stages there align with the Buddhist path of the Great Mirror Wisdom and the final Parinibbana.
+				- And i accidentally found the book [The Mirror of the Simple Souls](../assets/Philosophy/Ways/The Mirror of the Simple Souls.pdf) (from [archive](https://archive.org/download/mirrorofsimpleso00unse/mirrorofsimpleso00unse.pdf)) whose author – [Marguerite Porete](https://en.wikipedia.org/wiki/Marguerite_Porete) – smiled away the execution while she was burnt alive.
+					- The 6th & 7th stages there align with the Buddhist path of the [Great Mirror Wisdom](https://www.wisdomlib.org/concept/great-perfect-mirror-wisdom) and the final [Parinibbana](https://en.wikipedia.org/wiki/Parinirvana).
 					- NotebookLM: [The Mirror of Simple Souls — Marguerite Porete](https://notebooklm.google.com/notebook/024f1be0-2453-468f-9db9-6464540229e8)
 				- Agents
 				  collapsed:: true
 					- [MiMo Code](https://github.com/XiaomiMiMo/MiMo-Code) is a Xiaomi's fork of OpenCode which is said to be [better than Claude Code](https://venturebeat.com/technology/xiaomis-new-open-source-agentic-ai-coding-harness-mimo-code-beats-claude-code-at-ultra-long-200-step-tasks), with its own **memory** architecture, workflow modes, model harness, and “Compose” mode for long-horizon tasks.
 					- [Kilo Code](https://github.com/Kilo-Org/kilocode) uses Tree-sitter to find explicit structures like functions, classes, and methods, then converts them into vector DB. This is similar to Cursor.
 					- [Pi](https://github.com/earendil-works/pi): A minimal coding agent with maximal extension ability & observability.
-					- [Amp Code](https://ampcode.com/) uses rigorous graph indexed by tools like tree-sitter instead of just read codes.
-						- The graph spans across repos.
+					- [Amp Code](https://ampcode.com/) uses rigorous graph indexed by tools like tree-sitter instead of just read codes. The graph spans across repos.
 					- [CodeEagle Codebase Intelligence](https://mcpmarket.com/tools/skills/codeeagle-codebase-intelligence) is an MCP that builds a structured knowledge graph of massive monorepos and multi-repo setups, with hybrid retrieval (graph/vector).
 					- [CodeGraph](https://github.com/colbymchenry/codegraph), [CodeGraph Rust](https://github.com/jakedismo/codegraph-rust) / [CodeGraphContext (CGC)](https://github.com/CodeGraphContext/CodeGraphContext): These are open-source tools built explicitly to give standard AI agents a structural map. It scans local repository using Tree-sitter.
 			- 15th, in the godly awake state, i rode my motorbike to the office.

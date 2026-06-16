@@ -552,6 +552,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						-
 					- memory provider
 					  id:: 69d74732-afcb-4b4a-9b39-5efcf868c8da
+					  collapsed:: true
 						- [Hindsight](https://github.com/vectorize-io/hindsight)
 						  A [self-learning](https://hindsight.vectorize.io/) knowledge graph with multi-strategy retrieval: semantic search (embeddings), BM25 keyword matching, entity graph traversal, temporal filtering
 							- Hindsight graph contains [chronological relations and event relations](https://hindsight.vectorize.io/faq#how-is-hindsights-graph-different-from-a-traditional-knowledge-graph), instead of direct links between entities.
@@ -605,7 +606,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  A [“dialectic” reasoning & learning](https://docs.honcho.dev/v3/documentation/core-concepts/reasoning) agent that combines relational data with vector embeddings to perform **social cognition**: apps & sessions > peers & representations > collections of vector embeddings.
 						- [OpenViking](https://github.com/volcengine/OpenViking)
 						  [combines vector index (semantics) & AGFS (content)](https://openviking.ai/docs) for hierarchical context delivery with clear URI `viking://{scope}/{path}`.
-					-
+					- source code graph
+						-
 				- small language model
 				  id:: 69844331-8a59-4aa6-8bbc-df54afb2cde1
 				  collapsed:: true
