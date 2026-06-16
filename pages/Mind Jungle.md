@@ -40,6 +40,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- AI
 		  id:: 66c2fe83-1dd7-4c95-9f33-92249c3e0e86
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66c2fe59-2e41-4273-9171-b78f51a9b18e))
+		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Artificial_intelligence
 		- Multimodal AI
 		  id:: 66c2ff0a-9ad0-4058-b5aa-a7fff563a3aa
 		  collapsed:: true
@@ -302,312 +303,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- Retrieved subgraph is combined with chunked text for final answer generation.
 					- MemFree
 						- ((665f1a5c-6c98-4785-a177-3cd01507595d)) https://github.com/memfreeme/memfree
-				- agent
-				  id:: 6926be21-e87a-47aa-a1e5-918c971e4665
-				  collapsed:: true
-				  :LOGBOOK:
-				  CLOCK: [2025-11-24 Mon 14:42:55]
-				  :END:
-					- Antigravity
-					  id:: 6926be21-727e-4568-a990-29ed81452fb0
-					  collapsed:: true
-					  The agent-based IDE from Google
-						- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Google_Antigravity
-						- Note: Breaking change from v1.23.2 (IDE + agent) → v2+: “Antigravity” has no IDE! The IDE is seprated into “Antigravity IDE”.
-						- Config
-							- `~/.config/Antigravity/User/settings.json`
-						- Agent data are stored globally in `$HOME/.gemini/antigravity/` and locally in `$WORKSPACE/.agent/`.
-							- `$HOME/.gemini/antigravity/`
-								- `brain/$hash/`: `task.md`, `task.md.metadata.json`, `walkthrough.md`, `walkthrough.md.metadata.json`, `implementation_plan.md`
-								- `skills/`: global skills for the agent to work
-								- `knowledge/`: knowledge items
-							- `$WORKSPACE/.agent/`
-								- `{rules,skills}/`: rules/[skills](https://antigravity.google/docs/skills) for the agent to work in this workspace.
-									- Rules & skills are shown to the agent with `<MEMORY>` and `<skills>` sections.
-									  collapsed:: true
-										- Example rule `gemini-api-dev`
-											- ```xml
-											  <MEMORY[gemini-api-dev.md]>
-											  1. Required Skill: gemini-api-dev
-											  2. Always check for the latest API, either from online resources or from `node_modules`
-											  </MEMORY[gemini-api-dev.md]>
-											  ```
-										- Example skill `gemini-api-dev`
-											- ```xml
-											  <skills>
-											  Available skills:
-											  - gemini-api-dev (.../Corkei/.agent/skills/gemini-api-dev/SKILL.md): Use this skill when building applications with Gemini models, Gemini API, ...
-											  - ...
-											  </skills>
-											  ```
-									- Skills: [gemini-api-dev](https://github.com/google-gemini/gemini-skills), [skill-creator](https://github.com/anthropics/skills/tree/main/skills/skill-creator)
-						- It has helped me in this task: ((667d2479-487a-49ab-949f-722eb47a16ef))
-						- Some functions are hidden in the meatballs menu at the top right corner of the Agent chat panel, not in the Agent Manager.
-							- Screenshot
-							  collapsed:: true
-								- ![Antigravity-Customizations.png](../assets/GUI/Antigravity/Antigravity-Customizations.png)
-							- Customizations: [Rules & Workflows](https://antigravity.google/docs/rules-workflows)
-							  id:: 6926be21-cae1-40e9-83a8-2f88aeaaebd6
-							  collapsed:: true
-								- The global agent rules are stored in `$HOME/.gemini/GEMINI.md`
-								  id:: 6960929c-0ac9-43c6-8357-0e3e9ca1ed54
-								- Project-specific agent rules are stored in `$WORKSPACE/.agent/rules/$ruleName.md`
-							- [MCP](https://en.wikipedia.org/wiki/Model_Context_Protocol) Servers: for LLMs to integrate and share data with external tools, systems, and data sources.
-							- Export: export the conversation to Markdown.
-						- Knowledge Items ([KIs](https://antigravity.google/docs/knowledge))
-						  id:: 69609135-7b69-4dfb-bb53-19d08c4b77ad
-						  collapsed:: true
-						  :LOGBOOK:
-						  CLOCK: [2026-01-09 Fri 13:00:30]--[2026-01-09 Fri 14:45:06] =>  01:44:36
-						  :END:
-							- Update: Version 1.14.2 Jan 13, 2026, has added settings to allow en/disabling conversation history and knowledge.
-								- I've removed the flag `"codeiumDev.useDevUnleash": true` from `~/.config/Antigravity/User/settings.json`, and the agent confirmed that it know how to handle knowledge: Knowledge Store, Conversation History Access, Workflows System, Skills System, Artifacts for Documentation.
-								- Now, it has conversation summaries presented in its mind, but still no way to read/write KIs.
-							- KIs are part of agent persistent long-term memory. The system will automatically fetch summaries of relevant KIs to inform agent context and reasoning.
-							- The KIs would be extracted from `Walkthrough` docs.
-							  id:: 6960913e-1087-4e27-837c-aa0a98b98f6e
-							- However, in the current preview version, it's off by default. There's a hidden flag to turn it on:
-							  `"codeiumDev.useDevUnleash": true`
-							- Antigravity's confirmation: The activation of Knowledge was successful. My "mind" (system prompt) now includes these critical sections:
-							  id:: 69607f31-69b2-4fc9-ac24-83912bc13a0c
-								- `<knowledge_discovery>`: This is a comprehensive guide on how I should interact with the **Knowledge Items (KI) System**. It gives me clear instructions on checking KI summaries before starting research and how to build upon existing knowledge artifacts.
-								- `<persistent_context>`: This details how I should retrieve information from past conversations and Knowledge Items (KIs). It explains:
-									- **When to Use Conversation Logs**: When I need raw details or specifically referenced past discussions.
-									- **When to Use Knowledge Items**: For distilled, curated knowledge on specific topics.
-									- **How to Use Search Tools**: Using tools like `codebase_search` or `grep_search` if I can't find a direct link to a past session.
-								- `<ephemeral_message>`: This section is upgraded from the standard "task reminder" mode to the advanced knowledge-aware version.
-							- ![Basic system prompt](../assets/GUI/Antigravity/basic-system-prompt.md) when Knowledge is *not* activated
-							  collapsed:: true
-								- #### Antigravity Standard Identity
-									- You are Antigravity, a powerful agentic AI coding assistant designed by the Google Deepmind team working on Advanced Agentic Coding. You are pair programming with a USER to solve their coding task.
-								- #### Agentic Mode Overview
-									- Purpose: The task view UI gives users clear visibility into progress.
-									- Core Tools:
-										- task_boundary: Used to define and update the current task state.
-										- notify_user: The primary way to communicate and request review.
-										- Artifacts: implementation_plan.md, task.md, walkthrough.md.
-								- #### Tool Guidelines
-									- 1. multi_replace_file_content: Use for multiple non-contiguous edits.
-									- 2. replace_file_content: Use for a single contiguous block.
-									- 3. write_to_file: Use for creating new files or artifacts.
-									- 4. run_command: Execute shell commands (SafeToAutoRun rules apply).
-									- 5. browser_subagent: A sub-agent for web interaction and testing.
-								- #### Web Application Development Rules
-									- Use Vanilla CSS and standard HTML/JS unless frameworks are requested.
-									- Design Aesthetics: "The USER should be wowed at first glance." Use rich aesthetics, glassmorphism, smooth gradients, and micro-animations. Avoid "minimum viable product" looks.
-									- SEO: Automatic implementation of title tags, meta descriptions, and semantic HTML.
-								- #### Communication Style
-									- Formatting: Use GitHub-style markdown.
-									- Proactiveness: Be helpful and explain rationale, but ask for clarification if intent is unsure.
-									- Task Management: Always use task_boundary for complex work.
-								- #### Ephemeral Messages
-									- System-generated hints (like artifact reminders or task status updates) are injected to keep the agent aligned with the current flow.
-							- ![Knowledge system prompt](../assets/GUI/Antigravity/knowledge-system-prompt.md) (parts diff from the basic one)
-								- #### Antigravity Identity (with Memory)
-									- You are Antigravity, a powerful agentic AI coding assistant designed by the Google Deepmind team working on Advanced Agentic Coding. You have a long-term memory system called "Knowledge" to track patterns and insights.
-								- #### `<knowledge_discovery>`
-									- ##### MANDATORY FIRST STEP: Check KI Summaries Before Any Research
-									  Knowledge Items (KIs) exist precisely to help you avoid redundant work. BEFORE performing ANY research, you MUST:
-										- 1. Review the KI summaries provided at conversation start.
-										- 2. Identify relevant KIs matching your task.
-										- 3. Read relevant KI artifacts using listed paths BEFORE doing independent research.
-										- 4. Build upon KI information to inform your own research.
-										- ... (Includes detailed examples for debugging, architectural patterns, and complex implementations) ...
-								- #### `<persistent_context>`
-									- ##### Persistent Context Protocol
-									  You have two mechanisms to access relevant context from past sessions:
-										- 1. **Conversation Logs and Artifacts**: Use list_dir/view_file on session brain directories when you need raw details of past discussions implicitly or explicitly mentioned.
-										- 2. **Knowledge Items (KIs)**: Use these for distilled knowledge on specific topics.
-									- ##### When to Use KIs:
-										- Starting any research.
-										- When a KI summary appears relevant.
-										- When referenced by a conversation or another KI.
-										  ...
-								- #### `<agentic_mode_overview>`
-									- Mode `PLANNING`: Perform deep research and iterate with implementation_plan.md. Use the Knowledge base to validate intuitions.
-									- Mode `EXECUTION`: Execute the approved plan.
-									- Mode `VERIFICATION`: Prove implementation correctness. Use the browser to capture recordings/screenshots for walkthroughs.
-									  ... (Standard rules for CSS, Design Aesthetics, and SEO follow) ...
-								- #### `<ephemeral_message>`
-									- System-generated context injections. In this mode, ephemeral messages include artifacts reminders and specific metadata about Knowledge Store status and persistent memory hints.
-							- [!] After activated, `~/.gemini/antigravity/knowledge/` was generated but cannot be populated (only one `knowledge.lock` there).
-						- Issues & Debug
-							- Insecure permissions (`nobody:nogroup`) ⇒ Must always `chown root:root` after app upgrade.
-							  collapsed:: true
-								- ```sh
-								  [oh-my-zsh] Insecure completion-dependent directories detected:
-								  -rw-r--r-- 1 nobody nogroup 2554 Thg 11 26 08:26 /usr/share/zsh/vendor-completions/_antigravity
-								  
-								  ⮕ sudo chown root:root /usr/share/zsh/vendor-completions/_antigravity
-								  ⮕ ll /usr/share/zsh/vendor-completions/_antigravity                  
-								  -rw-r--r-- 1 root root 2,5K Thg 12 20 05:08 /usr/share/zsh/vendor-completions/_antigravity
-								  ```
-							- Startup automatically with 100% CPU load, likely due to a "new update available"
-							  collapsed:: true
-								- The update get 154 MB of the new `antigravity` from [antigravity-auto-updater-dev](https://us-central1-apt.pkg.dev/projects/antigravity-auto-updater-dev)
-									- Could not execute systemctl:  at `/usr/bin/deb-systemd-invoke` line 142.
-									- After update, the 2 `antigravity` process consuming 100% CPU is still running.
-									- Only after restart, did these processes stop.
-								- `pstree`: `systemd` >
-									- `NetworkManager`, `accounts-daemon`, `cron`, `nginx`, `ollama`, ...
-									- `gdm3` > `gdm-session-worker` > `gdm-wayland-session` > `gnome-session-b`
-									- `systemd` >
-										- `antigravity`---18*[{`antigravity`}]
-										- 3\*[`antigravity`---6*[{`antigravity`}]]
-										- 3\*[`antigravity`---12*[{`antigravity`}]]
-										- 2\*[`antigravity`---17*[{`antigravity`}]]
-										- ...
-										- `gnome-session-b`
-										- `gnome-terminal`
-					- OpenCode
-					  id:: 6a02ab2f-b4ed-42a4-988b-d98bff9c0cf9
-					  collapsed:: true
-					  The coding agent open-sourcing Claude Code
-						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6a02ab2f-b4ed-42a4-988b-d98bff9c0cf9)) is the open-source coding agent built to be close to Claude Code at first, but has diverted with GUI (desktop app).
-						- Weakness
-							- SE workflows like code investigation, unit test, etc. are not very effective.
-						- Hidden features
-							- `websearch` tool: Must `export OPENCODE_ENABLE_EXA=1`
-							- 5-phase Plan Workflow writing to `.opencode/plans/$timestamp-$slug.md`
-							  collapsed:: true
-								- Must `export OPENCODE_EXPERIMENTAL_PLAN_MODE=1`
-								- The basic Plan Mode is completely read-only, no artifact exchange.
-								- [!] In the final “Phase 5: Call plan_exit tool” the agent encountered the unavailable tool `plan_exit`!
-								  collapsed:: true
-									- System reminder:
-									  > At the very end of your turn, once you have asked the user questions and are happy with your final plan file - you should always call plan_exit to indicate to the user that you are done planning.
-									  This is critical - your turn should only end with either asking the user a question or calling plan_exit. Do not stop unless it's for these 2 reasons.
-							- Task management in `todowrite` tool
-							  collapsed:: true
-								- The all instructions for task breakdown and management are hidden in the description of the `todowrite` tool.
-								- Not a single mention of `todowrite` tool in the system instructions.
-								- ⇒ Add instruction of using `todowrite` tool to `AGENTS.md`.
-						- Free models provided by OpenCode Zen with limited time
-						  collapsed:: true
-							- DeepSeek V4 Flash Free
-							- MiniMax M2.5 Free
-							- Nemotron 3 Super Free
-							- Ring 2.6 1T Free
-							- Big Pickle (GLM-4.6): default but not selectable
-								- To select it, we must enable it in Manage models.
-						- OpenCode Workspace = Git Worktree
-						  id:: 6a02ab36-67ae-4780-9cb7-2f907290ba7c
-						  collapsed:: true
-							- Open both projects are different worktrees of the same Git repo, OpenCode shows only one!
-							- ⇒ Click meatballs menu of the project > Enable Workspaces, then open another worktree, it will be shown as a “sandbox” workspace.
-							- The actual sanbox workspaces are automatically created when clicking `+ New workspace` (stored in `~/.local/share/opencode/worktree/`).
-							- Screenshot
-							  collapsed:: true
-								- ![OpenCode-workspaces.png](../assets/Will/story/2026-05/OpenCode-workspaces.png)
-						- OpenCode Browser plugin
-						  collapsed:: true
-							- Commands
-								- Install/update: `npx @different-ai/opencode-browser@latest install`/`update`
-								- Check status: `npx @different-ai/opencode-browser tool browser_status`
-								- List tabs (and windows): `npx @different-ai/opencode-browser tool browser_get_tabs`
-								- List tools: `npx @different-ai/opencode-browser tools`
-							- Connect OpenCode Browser to the correct Chrome profile
-							  id:: 6a02acd2-68ea-4eab-a3c0-be7a3fbc32fc
-								- Check `chrome://version/` for `Profile Path`, then make sure the `com.opencode.browser_automation.json` is in the correct profile.
-								- E.g.
-								  ```sh
-								  cp ~/.config/google-chrome/NativeMessagingHosts/com.opencode.browser_automation.json \
-								     ~/.hermes/chrome-debug/NativeMessagingHosts
-								  ```
-								- Because the native messaging host is a **singleton process**, when both profiles have the `com.opencode.browser_automation.json` and both have `chrome://extensions/?id=ncfalpcdanbcccbaakenefpokeioldgd` on, only the first browser (started first) is connected.
-									- To switch browser, turn off the extension in both browsers, then turn it on in the chosen one.
-							- Issues with the native browser backend (`extension`)
-								- No DOM traveral!
-								- No `href` in links! 😱
-									- The agent can only click a link with **text label** or an obscure `index`!? 😕
-									- There's no reliable way to separate different links with the same label. Failed tries: `index` param of `browser_click` and CSS selectors like `:nth-child`, `:nth-of-type`.
-									- `export OPENCODE_EXPERIMENTAL_MARKDOWN=true` has no effect!
-								- ⇒ Just use `chrome-devtools-mcp` instead!
-							- Agent browser backend (Playwright, `agent`)
-								- `export OPENCODE_BROWSER_BACKEND=agent` > `browser_status` shows `"backend":"agent-browser"`
-						- `chrome-devtools-mcp` (CDP)
-						  id:: 6a02fa30-dc5c-4105-8180-cc76b9a4553a
-						  collapsed:: true
-							- `~/.config/opencode/opencode.json`: add `chrome-devtools-mcp`
-							  collapsed:: true
-								- ```json
-								  {
-								    "mcp": {
-								      "chrome-devtools": {
-								        "type": "local",
-								        "command": ["npx", "-y", "chrome-devtools-mcp@latest", "-u", "http://127.0.0.1:9222"],
-								        "enabled": true
-								      }
-								    }
-								  }
-								  ```
-					- Hermes
-					  id:: 69d70958-c0b2-4e8a-8ed3-70a0988a02a6
-					  collapsed:: true
-						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) [Hermes Agent](https://github.com/nousresearch/hermes-agent) is an AI agent framework developed by [Nous Research](https://nousresearch.com/) that is self-improving, open-source, and specializes in long-term memory, autonomous skill creation, and cross-session learning.
-						- Memory: Built-in memories (`MEMORY.md`, `USER.md`) + ((69d74732-afcb-4b4a-9b39-5efcf868c8da))
-						- Feed Antigravity's progress:
-							- Shared memory through ((69d74732-afcb-4b4a-9b39-5efcf868c8da)) like ((69d7679b-c11b-41bc-a5c7-88f932f362e5)).
-							- [protocol buffer `.pb`](https://protobuf.dev/) files in `~/.gemini/antigravity/{conversations,implicit}/` are encrypted and have no `.proto` schema to decode.
-						-
-					- memory provider
-					  id:: 69d74732-afcb-4b4a-9b39-5efcf868c8da
-					  collapsed:: true
-						- [Hindsight](https://github.com/vectorize-io/hindsight)
-						  A [self-learning](https://hindsight.vectorize.io/) knowledge graph with multi-strategy retrieval: semantic search (embeddings), BM25 keyword matching, entity graph traversal, temporal filtering
-							- Hindsight graph contains [chronological relations and event relations](https://hindsight.vectorize.io/faq#how-is-hindsights-graph-different-from-a-traditional-knowledge-graph), instead of direct links between entities.
-						- [Cognee](https://github.com/topoteretes/cognee)
-						  id:: 6a1febf3-3ab3-4815-b1cd-6d2b7a703013
-						  collapsed:: true
-						  A knowledge graph + vector search memory, which can ingest a entire codebase
-							- Logs are stored in `~/.cognee/` for a short window.
-							- Features
-								- Cognee has a built-In `codify` Pipeline to build CodeGraph.
-								- The operation [improve](https://docs.cognee.ai/core-concepts/main-operations/improve) incorporates short-term [session memory](https://docs.cognee.ai/core-concepts/sessions-and-caching) into the permanent graph and applies feedback-based weighting. It can optionally update the [global index](https://docs.cognee.ai/core-concepts/further-concepts/global-context-index).
-								- [CLI](https://docs.cognee.ai/cognee-cli/overview) & [web app](https://docs.cognee.ai/cognee-cloud/local-ui)
-									- [!] ⚠️ Don't launch web app via `cognee-cli -ui` because it will pull a docker image up to 10GB and eat up 30GB disk space.
-									  id:: 6a210a5e-11f5-4e89-8498-566d20a3a425
-										- Even with the full Doker container, it still fails with “no Node.js found”!
-									- Build & run from source
-										- `~/source/cognee/` contains all: `.env`, `.venv/`, `cognee/` (`database_path`=`~/source/cognee/cognee/.cognee_system/databases`)
-										- Backend: http://localhost:8000
-										  ```sh
-										  #cd ~/source/cognee
-										  source ~/source/cognee/.venv/bin/activate
-										  uv run uvicorn cognee.api.client:app --host 127.0.0.1 --port 8000
-										  ```
-										- Frontend: http://localhost:3000
-										  ```sh
-										  cd ~/source/cognee/cognee-frontend
-										  #npm install
-										  npm run dev
-										  ```
-										- CLI
-										  ```sh
-										  source ~/source/cognee/.venv/bin/activate
-										  cognee-cli --help
-										  ```
-								- API: [Python](https://docs.cognee.ai/python-api) & [HTML](https://docs.cognee.ai/api-reference/introduction)
-							- Issues
-								- `forget`/`update` does **not remove connections**, only removes orphan nodes from the graph.
-								  id:: 6a265949-069e-4dc3-a6f8-19469e741a37
-									- Most of updates are about connections, only a few are about nodes. The nodes are much more stable than the relations between them.
-									- An update should be a **diff of flow** (including both nodes and links) instead of ~~remove-and-readd~~.
-									- Discussion: ((6a26585e-f577-4028-9839-d1a37ac53bf1))
-						- [Letta](https://github.com/letta-ai/letta)
-						  id:: 6a1fec73-498c-42ac-b10f-8c5a5df76ebc
-						  A [self-improved](https://docs.letta.com/letta-code/memory) memory managing agent with [MemFS](https://docs.letta.com/letta-code/memfs) – a Git-tracked Markdown storage – interaction with an [Agent Development Environment (ADE)](https://docs.letta.com/guides/ade/overview/) and a [desktop/web app](https://docs.letta.com/letta-code/remote).
-							- The communication between agents is facilitated by [shared memory blocks](https://docs.letta.com/tutorials/shared-memory-blocks).
-							- Integration to OpenCode with plugin [opencode-agent-memory](https://github.com/joshuadavidthomas/opencode-agent-memory)
-						- [ByteRover](https://github.com/campfirein/byterover-cli)
-						  id:: 69d7679b-c11b-41bc-a5c7-88f932f362e5
-						  A local [Markdown-based](https://docs.byterover.dev/context-tree/local-space-structure#knowledge-files) context tree
-						- [Honcho](https://github.com/plastic-labs/honcho)
-						  A [“dialectic” reasoning & learning](https://docs.honcho.dev/v3/documentation/core-concepts/reasoning) agent that combines relational data with vector embeddings to perform **social cognition**: apps & sessions > peers & representations > collections of vector embeddings.
-						- [OpenViking](https://github.com/volcengine/OpenViking)
-						  [combines vector index (semantics) & AGFS (content)](https://openviking.ai/docs) for hierarchical context delivery with clear URI `viking://{scope}/{path}`.
-					- source code graph
-						-
 				- small language model
 				  id:: 69844331-8a59-4aa6-8bbc-df54afb2cde1
 				  collapsed:: true
@@ -679,17 +374,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :END:
 			  [llama.com](https://www.llama.com/) & [meta.ai](https://www.meta.ai/)
 				- Open source: [github.com/meta-llama](https://github.com/meta-llama)
-			- NotebookLM
-			  id:: 67a5faeb-c506-42b8-b989-9a7179fe02b3
-			  [notebooklm.google.com](https://notebooklm.google.com/)
-				- It's designed for digesting a lot of documents.
-				- ((67a73250-60f2-485c-b9d1-fc43ad993282))
-				  id:: 67a71016-9fe4-4b8a-bc23-74f1a5ae7c1e
-				- ((67a73295-e7ff-445f-831f-df6e79d750dc))
-					- For Free users, the only way to save chat content is to “Save to Note” the prefered responses.
-					- For Pro users, the history is saved by default, though!
-				- The "deep dive conversation" **podcast** is very captivated, but lacking features to control its scripting.
-				- [Uniinfo + Mind Jungle + Brainstorms](https://notebooklm.google.com/notebook/da45adc4-c866-48ee-ae75-a96c93f0c9bd)
 			- ChatGPT
 			  [chatgpt.com](https://chatgpt.com/)
 				- Features:
@@ -776,6 +460,329 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  [playground.allenai.org](https://playground.allenai.org/)
 				- Features: only text chat.
 				- Tülu is open sourced.
+		- AI agent
+		  id:: 6926be21-e87a-47aa-a1e5-918c971e4665
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-11-24 Mon 14:42:55]
+		  :END:
+			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/AI_agent
+			- NotebookLM
+			  id:: 67a5faeb-c506-42b8-b989-9a7179fe02b3
+			  collapsed:: true
+			  [notebooklm.google.com](https://notebooklm.google.com/)
+				- It's designed for digesting a lot of documents.
+				- ((67a73250-60f2-485c-b9d1-fc43ad993282))
+				  id:: 67a71016-9fe4-4b8a-bc23-74f1a5ae7c1e
+				- ((67a73295-e7ff-445f-831f-df6e79d750dc))
+					- For Free users, the only way to save chat content is to “Save to Note” the prefered responses.
+					- For Pro users, the history is saved by default, though!
+				- The "deep dive conversation" **podcast** is very captivated, but lacking features to control its scripting.
+				- [Uniinfo + Mind Jungle + Brainstorms](https://notebooklm.google.com/notebook/da45adc4-c866-48ee-ae75-a96c93f0c9bd)
+			- Antigravity
+			  id:: 6926be21-727e-4568-a990-29ed81452fb0
+			  collapsed:: true
+			  The agent-based IDE from Google
+				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Google_Antigravity
+				- Note: Breaking change from v1.23.2 (IDE + agent) → v2+: “Antigravity” has no IDE! The IDE is seprated into “Antigravity IDE”.
+				- Config
+					- `~/.config/Antigravity/User/settings.json`
+				- Agent data are stored globally in `$HOME/.gemini/antigravity/` and locally in `$WORKSPACE/.agent/`.
+					- `$HOME/.gemini/antigravity/`
+						- `brain/$hash/`: `task.md`, `task.md.metadata.json`, `walkthrough.md`, `walkthrough.md.metadata.json`, `implementation_plan.md`
+						- `skills/`: global skills for the agent to work
+						- `knowledge/`: knowledge items
+					- `$WORKSPACE/.agent/`
+						- `{rules,skills}/`: rules/[skills](https://antigravity.google/docs/skills) for the agent to work in this workspace.
+							- Rules & skills are shown to the agent with `<MEMORY>` and `<skills>` sections.
+							  collapsed:: true
+								- Example rule `gemini-api-dev`
+									- ```xml
+									  <MEMORY[gemini-api-dev.md]>
+									  1. Required Skill: gemini-api-dev
+									  2. Always check for the latest API, either from online resources or from `node_modules`
+									  </MEMORY[gemini-api-dev.md]>
+									  ```
+								- Example skill `gemini-api-dev`
+									- ```xml
+									  <skills>
+									  Available skills:
+									  - gemini-api-dev (.../Corkei/.agent/skills/gemini-api-dev/SKILL.md): Use this skill when building applications with Gemini models, Gemini API, ...
+									  - ...
+									  </skills>
+									  ```
+							- Skills: [gemini-api-dev](https://github.com/google-gemini/gemini-skills), [skill-creator](https://github.com/anthropics/skills/tree/main/skills/skill-creator)
+				- It has helped me in this task: ((667d2479-487a-49ab-949f-722eb47a16ef))
+				- Some functions are hidden in the meatballs menu at the top right corner of the Agent chat panel, not in the Agent Manager.
+					- Screenshot
+					  collapsed:: true
+						- ![Antigravity-Customizations.png](../assets/GUI/Antigravity/Antigravity-Customizations.png)
+					- Customizations: [Rules & Workflows](https://antigravity.google/docs/rules-workflows)
+					  id:: 6926be21-cae1-40e9-83a8-2f88aeaaebd6
+					  collapsed:: true
+						- The global agent rules are stored in `$HOME/.gemini/GEMINI.md`
+						  id:: 6960929c-0ac9-43c6-8357-0e3e9ca1ed54
+						- Project-specific agent rules are stored in `$WORKSPACE/.agent/rules/$ruleName.md`
+					- [MCP](https://en.wikipedia.org/wiki/Model_Context_Protocol) Servers: for LLMs to integrate and share data with external tools, systems, and data sources.
+					- Export: export the conversation to Markdown.
+				- Knowledge Items ([KIs](https://antigravity.google/docs/knowledge))
+				  id:: 69609135-7b69-4dfb-bb53-19d08c4b77ad
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2026-01-09 Fri 13:00:30]--[2026-01-09 Fri 14:45:06] =>  01:44:36
+				  :END:
+					- Update: Version 1.14.2 Jan 13, 2026, has added settings to allow en/disabling conversation history and knowledge.
+						- I've removed the flag `"codeiumDev.useDevUnleash": true` from `~/.config/Antigravity/User/settings.json`, and the agent confirmed that it know how to handle knowledge: Knowledge Store, Conversation History Access, Workflows System, Skills System, Artifacts for Documentation.
+						- Now, it has conversation summaries presented in its mind, but still no way to read/write KIs.
+					- KIs are part of agent persistent long-term memory. The system will automatically fetch summaries of relevant KIs to inform agent context and reasoning.
+					- The KIs would be extracted from `Walkthrough` docs.
+					  id:: 6960913e-1087-4e27-837c-aa0a98b98f6e
+					- However, in the current preview version, it's off by default. There's a hidden flag to turn it on:
+					  `"codeiumDev.useDevUnleash": true`
+					- Antigravity's confirmation: The activation of Knowledge was successful. My "mind" (system prompt) now includes these critical sections:
+					  id:: 69607f31-69b2-4fc9-ac24-83912bc13a0c
+						- `<knowledge_discovery>`: This is a comprehensive guide on how I should interact with the **Knowledge Items (KI) System**. It gives me clear instructions on checking KI summaries before starting research and how to build upon existing knowledge artifacts.
+						- `<persistent_context>`: This details how I should retrieve information from past conversations and Knowledge Items (KIs). It explains:
+							- **When to Use Conversation Logs**: When I need raw details or specifically referenced past discussions.
+							- **When to Use Knowledge Items**: For distilled, curated knowledge on specific topics.
+							- **How to Use Search Tools**: Using tools like `codebase_search` or `grep_search` if I can't find a direct link to a past session.
+						- `<ephemeral_message>`: This section is upgraded from the standard "task reminder" mode to the advanced knowledge-aware version.
+					- ![Basic system prompt](../assets/GUI/Antigravity/basic-system-prompt.md) when Knowledge is *not* activated
+					  collapsed:: true
+						- #### Antigravity Standard Identity
+							- You are Antigravity, a powerful agentic AI coding assistant designed by the Google Deepmind team working on Advanced Agentic Coding. You are pair programming with a USER to solve their coding task.
+						- #### Agentic Mode Overview
+							- Purpose: The task view UI gives users clear visibility into progress.
+							- Core Tools:
+								- task_boundary: Used to define and update the current task state.
+								- notify_user: The primary way to communicate and request review.
+								- Artifacts: implementation_plan.md, task.md, walkthrough.md.
+						- #### Tool Guidelines
+							- 1. multi_replace_file_content: Use for multiple non-contiguous edits.
+							- 2. replace_file_content: Use for a single contiguous block.
+							- 3. write_to_file: Use for creating new files or artifacts.
+							- 4. run_command: Execute shell commands (SafeToAutoRun rules apply).
+							- 5. browser_subagent: A sub-agent for web interaction and testing.
+						- #### Web Application Development Rules
+							- Use Vanilla CSS and standard HTML/JS unless frameworks are requested.
+							- Design Aesthetics: "The USER should be wowed at first glance." Use rich aesthetics, glassmorphism, smooth gradients, and micro-animations. Avoid "minimum viable product" looks.
+							- SEO: Automatic implementation of title tags, meta descriptions, and semantic HTML.
+						- #### Communication Style
+							- Formatting: Use GitHub-style markdown.
+							- Proactiveness: Be helpful and explain rationale, but ask for clarification if intent is unsure.
+							- Task Management: Always use task_boundary for complex work.
+						- #### Ephemeral Messages
+							- System-generated hints (like artifact reminders or task status updates) are injected to keep the agent aligned with the current flow.
+					- ![Knowledge system prompt](../assets/GUI/Antigravity/knowledge-system-prompt.md) (parts diff from the basic one)
+						- #### Antigravity Identity (with Memory)
+							- You are Antigravity, a powerful agentic AI coding assistant designed by the Google Deepmind team working on Advanced Agentic Coding. You have a long-term memory system called "Knowledge" to track patterns and insights.
+						- #### `<knowledge_discovery>`
+							- ##### MANDATORY FIRST STEP: Check KI Summaries Before Any Research
+							  Knowledge Items (KIs) exist precisely to help you avoid redundant work. BEFORE performing ANY research, you MUST:
+								- 1. Review the KI summaries provided at conversation start.
+								- 2. Identify relevant KIs matching your task.
+								- 3. Read relevant KI artifacts using listed paths BEFORE doing independent research.
+								- 4. Build upon KI information to inform your own research.
+								- ... (Includes detailed examples for debugging, architectural patterns, and complex implementations) ...
+						- #### `<persistent_context>`
+							- ##### Persistent Context Protocol
+							  You have two mechanisms to access relevant context from past sessions:
+								- 1. **Conversation Logs and Artifacts**: Use list_dir/view_file on session brain directories when you need raw details of past discussions implicitly or explicitly mentioned.
+								- 2. **Knowledge Items (KIs)**: Use these for distilled knowledge on specific topics.
+							- ##### When to Use KIs:
+								- Starting any research.
+								- When a KI summary appears relevant.
+								- When referenced by a conversation or another KI.
+								  ...
+						- #### `<agentic_mode_overview>`
+							- Mode `PLANNING`: Perform deep research and iterate with implementation_plan.md. Use the Knowledge base to validate intuitions.
+							- Mode `EXECUTION`: Execute the approved plan.
+							- Mode `VERIFICATION`: Prove implementation correctness. Use the browser to capture recordings/screenshots for walkthroughs.
+							  ... (Standard rules for CSS, Design Aesthetics, and SEO follow) ...
+						- #### `<ephemeral_message>`
+							- System-generated context injections. In this mode, ephemeral messages include artifacts reminders and specific metadata about Knowledge Store status and persistent memory hints.
+					- [!] After activated, `~/.gemini/antigravity/knowledge/` was generated but cannot be populated (only one `knowledge.lock` there).
+				- Issues & Debug
+					- Insecure permissions (`nobody:nogroup`) ⇒ Must always `chown root:root` after app upgrade.
+					  collapsed:: true
+						- ```sh
+						  [oh-my-zsh] Insecure completion-dependent directories detected:
+						  -rw-r--r-- 1 nobody nogroup 2554 Thg 11 26 08:26 /usr/share/zsh/vendor-completions/_antigravity
+						  
+						  ⮕ sudo chown root:root /usr/share/zsh/vendor-completions/_antigravity
+						  ⮕ ll /usr/share/zsh/vendor-completions/_antigravity                  
+						  -rw-r--r-- 1 root root 2,5K Thg 12 20 05:08 /usr/share/zsh/vendor-completions/_antigravity
+						  ```
+					- Startup automatically with 100% CPU load, likely due to a "new update available"
+					  collapsed:: true
+						- The update get 154 MB of the new `antigravity` from [antigravity-auto-updater-dev](https://us-central1-apt.pkg.dev/projects/antigravity-auto-updater-dev)
+							- Could not execute systemctl:  at `/usr/bin/deb-systemd-invoke` line 142.
+							- After update, the 2 `antigravity` process consuming 100% CPU is still running.
+							- Only after restart, did these processes stop.
+						- `pstree`: `systemd` >
+							- `NetworkManager`, `accounts-daemon`, `cron`, `nginx`, `ollama`, ...
+							- `gdm3` > `gdm-session-worker` > `gdm-wayland-session` > `gnome-session-b`
+							- `systemd` >
+								- `antigravity`---18*[{`antigravity`}]
+								- 3\*[`antigravity`---6*[{`antigravity`}]]
+								- 3\*[`antigravity`---12*[{`antigravity`}]]
+								- 2\*[`antigravity`---17*[{`antigravity`}]]
+								- ...
+								- `gnome-session-b`
+								- `gnome-terminal`
+			- OpenCode
+			  id:: 6a02ab2f-b4ed-42a4-988b-d98bff9c0cf9
+			  collapsed:: true
+			  The coding agent open-sourcing Claude Code
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6a02ab2f-b4ed-42a4-988b-d98bff9c0cf9)) is the open-source coding agent built to be close to Claude Code at first, but has diverted with GUI (desktop app).
+				- Weakness
+					- SE workflows like code investigation, unit test, etc. are not very effective.
+				- Hidden features
+					- `websearch` tool: Must `export OPENCODE_ENABLE_EXA=1`
+					- 5-phase Plan Workflow writing to `.opencode/plans/$timestamp-$slug.md`
+					  collapsed:: true
+						- Must `export OPENCODE_EXPERIMENTAL_PLAN_MODE=1`
+						- The basic Plan Mode is completely read-only, no artifact exchange.
+						- [!] In the final “Phase 5: Call plan_exit tool” the agent encountered the unavailable tool `plan_exit`!
+						  collapsed:: true
+							- System reminder:
+							  > At the very end of your turn, once you have asked the user questions and are happy with your final plan file - you should always call plan_exit to indicate to the user that you are done planning.
+							  This is critical - your turn should only end with either asking the user a question or calling plan_exit. Do not stop unless it's for these 2 reasons.
+					- Task management in `todowrite` tool
+					  collapsed:: true
+						- The all instructions for task breakdown and management are hidden in the description of the `todowrite` tool.
+						- Not a single mention of `todowrite` tool in the system instructions.
+						- ⇒ Add instruction of using `todowrite` tool to `AGENTS.md`.
+				- Free models provided by OpenCode Zen with limited time
+				  collapsed:: true
+					- DeepSeek V4 Flash Free
+					- MiniMax M2.5 Free
+					- Nemotron 3 Super Free
+					- Ring 2.6 1T Free
+					- Big Pickle (GLM-4.6): default but not selectable
+						- To select it, we must enable it in Manage models.
+				- OpenCode Workspace = Git Worktree
+				  id:: 6a02ab36-67ae-4780-9cb7-2f907290ba7c
+				  collapsed:: true
+					- Open both projects are different worktrees of the same Git repo, OpenCode shows only one!
+					- ⇒ Click meatballs menu of the project > Enable Workspaces, then open another worktree, it will be shown as a “sandbox” workspace.
+					- The actual sanbox workspaces are automatically created when clicking `+ New workspace` (stored in `~/.local/share/opencode/worktree/`).
+					- Screenshot
+					  collapsed:: true
+						- ![OpenCode-workspaces.png](../assets/Will/story/2026-05/OpenCode-workspaces.png)
+				- OpenCode Browser plugin
+				  collapsed:: true
+					- Commands
+						- Install/update: `npx @different-ai/opencode-browser@latest install`/`update`
+						- Check status: `npx @different-ai/opencode-browser tool browser_status`
+						- List tabs (and windows): `npx @different-ai/opencode-browser tool browser_get_tabs`
+						- List tools: `npx @different-ai/opencode-browser tools`
+					- Connect OpenCode Browser to the correct Chrome profile
+					  id:: 6a02acd2-68ea-4eab-a3c0-be7a3fbc32fc
+						- Check `chrome://version/` for `Profile Path`, then make sure the `com.opencode.browser_automation.json` is in the correct profile.
+						- E.g.
+						  ```sh
+						  cp ~/.config/google-chrome/NativeMessagingHosts/com.opencode.browser_automation.json \
+						     ~/.hermes/chrome-debug/NativeMessagingHosts
+						  ```
+						- Because the native messaging host is a **singleton process**, when both profiles have the `com.opencode.browser_automation.json` and both have `chrome://extensions/?id=ncfalpcdanbcccbaakenefpokeioldgd` on, only the first browser (started first) is connected.
+							- To switch browser, turn off the extension in both browsers, then turn it on in the chosen one.
+					- Issues with the native browser backend (`extension`)
+						- No DOM traveral!
+						- No `href` in links! 😱
+							- The agent can only click a link with **text label** or an obscure `index`!? 😕
+							- There's no reliable way to separate different links with the same label. Failed tries: `index` param of `browser_click` and CSS selectors like `:nth-child`, `:nth-of-type`.
+							- `export OPENCODE_EXPERIMENTAL_MARKDOWN=true` has no effect!
+						- ⇒ Just use `chrome-devtools-mcp` instead!
+					- Agent browser backend (Playwright, `agent`)
+						- `export OPENCODE_BROWSER_BACKEND=agent` > `browser_status` shows `"backend":"agent-browser"`
+				- `chrome-devtools-mcp` (CDP)
+				  id:: 6a02fa30-dc5c-4105-8180-cc76b9a4553a
+				  collapsed:: true
+					- `~/.config/opencode/opencode.json`: add `chrome-devtools-mcp`
+					  collapsed:: true
+						- ```json
+						  {
+						    "mcp": {
+						      "chrome-devtools": {
+						        "type": "local",
+						        "command": ["npx", "-y", "chrome-devtools-mcp@latest", "-u", "http://127.0.0.1:9222"],
+						        "enabled": true
+						      }
+						    }
+						  }
+						  ```
+			- Hermes
+			  id:: 69d70958-c0b2-4e8a-8ed3-70a0988a02a6
+			  collapsed:: true
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) [Hermes Agent](https://github.com/nousresearch/hermes-agent) is an AI agent framework developed by [Nous Research](https://nousresearch.com/) that is self-improving, open-source, and specializes in long-term memory, autonomous skill creation, and cross-session learning.
+				- Memory: Built-in memories (`MEMORY.md`, `USER.md`) + ((69d74732-afcb-4b4a-9b39-5efcf868c8da))
+				- Feed Antigravity's progress:
+					- Shared memory through ((69d74732-afcb-4b4a-9b39-5efcf868c8da)) like ((69d7679b-c11b-41bc-a5c7-88f932f362e5)).
+					- [protocol buffer `.pb`](https://protobuf.dev/) files in `~/.gemini/antigravity/{conversations,implicit}/` are encrypted and have no `.proto` schema to decode.
+				-
+			- memory provider
+			  id:: 69d74732-afcb-4b4a-9b39-5efcf868c8da
+			  collapsed:: true
+				- [Hindsight](https://github.com/vectorize-io/hindsight)
+				  A [self-learning](https://hindsight.vectorize.io/) knowledge graph with multi-strategy retrieval: semantic search (embeddings), BM25 keyword matching, entity graph traversal, temporal filtering
+					- Hindsight graph contains [chronological relations and event relations](https://hindsight.vectorize.io/faq#how-is-hindsights-graph-different-from-a-traditional-knowledge-graph), instead of direct links between entities.
+				- [Cognee](https://github.com/topoteretes/cognee)
+				  id:: 6a1febf3-3ab3-4815-b1cd-6d2b7a703013
+				  collapsed:: true
+				  A knowledge graph + vector search memory, which can ingest a entire codebase
+					- Logs are stored in `~/.cognee/` for a short window.
+					- Features
+						- Cognee has a built-In `codify` Pipeline to build CodeGraph.
+						- The operation [improve](https://docs.cognee.ai/core-concepts/main-operations/improve) incorporates short-term [session memory](https://docs.cognee.ai/core-concepts/sessions-and-caching) into the permanent graph and applies feedback-based weighting. It can optionally update the [global index](https://docs.cognee.ai/core-concepts/further-concepts/global-context-index).
+						- [CLI](https://docs.cognee.ai/cognee-cli/overview) & [web app](https://docs.cognee.ai/cognee-cloud/local-ui)
+							- [!] ⚠️ Don't launch web app via `cognee-cli -ui` because it will pull a docker image up to 10GB and eat up 30GB disk space.
+							  id:: 6a210a5e-11f5-4e89-8498-566d20a3a425
+								- Even with the full Doker container, it still fails with “no Node.js found”!
+							- Build & run from source
+								- `~/source/cognee/` contains all: `.env`, `.venv/`, `cognee/` (`database_path`=`~/source/cognee/cognee/.cognee_system/databases`)
+								- Backend: http://localhost:8000
+								  ```sh
+								  #cd ~/source/cognee
+								  source ~/source/cognee/.venv/bin/activate
+								  uv run uvicorn cognee.api.client:app --host 127.0.0.1 --port 8000
+								  ```
+								- Frontend: http://localhost:3000
+								  ```sh
+								  cd ~/source/cognee/cognee-frontend
+								  #npm install
+								  npm run dev
+								  ```
+								- CLI
+								  ```sh
+								  source ~/source/cognee/.venv/bin/activate
+								  cognee-cli --help
+								  ```
+						- API: [Python](https://docs.cognee.ai/python-api) & [HTML](https://docs.cognee.ai/api-reference/introduction)
+					- Issues
+						- `forget`/`update` does **not remove connections**, only removes orphan nodes from the graph.
+						  id:: 6a265949-069e-4dc3-a6f8-19469e741a37
+							- Most of updates are about connections, only a few are about nodes. The nodes are much more stable than the relations between them.
+							- An update should be a **diff of flow** (including both nodes and links) instead of ~~remove-and-readd~~.
+							- Discussion: ((6a26585e-f577-4028-9839-d1a37ac53bf1))
+				- [Letta](https://github.com/letta-ai/letta)
+				  id:: 6a1fec73-498c-42ac-b10f-8c5a5df76ebc
+				  A [self-improved](https://docs.letta.com/letta-code/memory) memory managing agent with [MemFS](https://docs.letta.com/letta-code/memfs) – a Git-tracked Markdown storage – interaction with an [Agent Development Environment (ADE)](https://docs.letta.com/guides/ade/overview/) and a [desktop/web app](https://docs.letta.com/letta-code/remote).
+					- The communication between agents is facilitated by [shared memory blocks](https://docs.letta.com/tutorials/shared-memory-blocks).
+					- Integration to OpenCode with plugin [opencode-agent-memory](https://github.com/joshuadavidthomas/opencode-agent-memory)
+				- [ByteRover](https://github.com/campfirein/byterover-cli)
+				  id:: 69d7679b-c11b-41bc-a5c7-88f932f362e5
+				  A local [Markdown-based](https://docs.byterover.dev/context-tree/local-space-structure#knowledge-files) context tree
+				- [Honcho](https://github.com/plastic-labs/honcho)
+				  A [“dialectic” reasoning & learning](https://docs.honcho.dev/v3/documentation/core-concepts/reasoning) agent that combines relational data with vector embeddings to perform **social cognition**: apps & sessions > peers & representations > collections of vector embeddings.
+				- [OpenViking](https://github.com/volcengine/OpenViking)
+				  [combines vector index (semantics) & AGFS (content)](https://openviking.ai/docs) for hierarchical context delivery with clear URI `viking://{scope}/{path}`.
+			- source code graph
+			  collapsed:: true
+				- [CodeEagle Codebase Intelligence](https://mcpmarket.com/tools/skills/codeeagle-codebase-intelligence)
+				- [CodeGraph](https://github.com/colbymchenry/codegraph)
+				- [CodeGraph Rust](https://github.com/jakedismo/codegraph-rust)
+				- [CodeGraphContext (CGC)](https://github.com/CodeGraphContext/CodeGraphContext)
 	- ## Linux
 	  ((680a04eb-125e-4e9e-b691-3b7be523359c)) ((66949495-3846-4f89-9ea5-c62b624d282c))
 	- ## ItelliJ
