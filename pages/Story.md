@@ -2201,8 +2201,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 16th, ...
 			  collapsed:: true
 				- Last night, in the bathroom, contemplating the force & momentum both in my bodymind and in mechanics, i saw how Unithread unifies them all together.
-					- Dimensions in the Omnifold
-					- The resolution shift of the obop bridges distribution (low res) with dynamic (high res)
+					- The resolution range of the obop bridges the static distribution (low res) with the dynamic (high res).
+					- The obop resolution determines
+					- Higher dimensions are folded inside the quantum (beyond the current resolution) Dimensions in the Omnifold
 				- It's amazing that a single phrase “Last night” above triggered my chat with Google AI Mode about English (time marker, tense, etc.) throughout the morning!
 				- From afternoon to 9 PM, i finished the current office task.
 		- Chrome tab zombie by Cognee webapp
