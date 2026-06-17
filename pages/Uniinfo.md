@@ -2632,7 +2632,11 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 				- The obop yields an inner product $⟨M,W⟩$ whose angle is 
 				  $$θ = cos^{-1}\left({⟨M,W⟩\over |M|⋅|W|}\right) = \frac{M_2M_1}{M_2W_1W_2M_1} = \frac{W_2W_1}{W_2M_1M_2W_1}$$
 				-
-		-
+		- ### obop resolution
+		  :LOGBOOK:
+		  CLOCK: [2026-06-17 Wed 16:05:13]
+		  :END:
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a))
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- In the ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) model of ((94e87dc9-71af-477c-aa70-0f448c2f1e20)), the core of obop is the ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) that observes the content to produce the extent which is used to operate the ((66c810a0-9861-4787-bdcf-1378219332be)). The intent can be composed of many sub-itents in many layers, where the “atomic intent” at the basic layer is the ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)).
 			  id:: 66e79e0c-8be2-49a4-b4d7-5c1fddefeabf
