@@ -813,11 +813,11 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 		  :LOGBOOK:
 		  CLOCK: [2024-07-23 Tue 10:00:53]--[2024-07-23 Tue 10:14:53] =>  00:14:00
 		  :END:
-			- Even the cutting edge of the arrow (of time/content) always cuts all circles open,
+			- Although the cutting edge of the arrow (of time/content) always cuts all circles open,
 			- the self body $i_0$ containing circle $i_k$ sees $i_k$ closes within $i_0$
 				- due to aliasing caused by the resolution $i_ω$
 			- so the effect flow inside $i_0$ is constrained by these close circles,
-			- i.e. the content (effect flow) is forced to conform the form (to follow the map) of these internal circles.
+			- i.e. the content (effect flow) is forced to conform to the form (to follow the map) of these internal circles.
 		- The ignorance of the self $i$ turns the whole self into a point to connect external objects in touch with it.
 		  :LOGBOOK:
 		  CLOCK: [2024-07-23 Tue 10:54:56]
