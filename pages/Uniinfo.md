@@ -2638,6 +2638,19 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 		  CLOCK: [2026-06-17 Wed 16:05:13]
 		  :END:
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) While a composite ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)) has a range of resolution, an atomic obop (qualiton) has a single resolution. ((699c0362-477c-4771-91bd-c91456dae158))
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- About the “resolution”
+				  collapsed:: true
+					- Meaning and evolution
+						- Origin: from Latin *resolvere*, meaning to untie, loosen, or dissolve a complex substance.
+						- Mental transition: it entered the realm of thought as resolving an issue – untying a mental knot or dissecting a complex dispute into simpler, clear components.
+						- Trajectory: it shifted from physical dissolution, to logical problem solving, to the optical separation of stars, and finally to the digital density of pixels.
+						- Core mechanism: the invariant essence across all domains is the refinement from **coarse-grained aggregation** to **fine-grained differentiation**.
+					- Epistemological stances
+						- Analytic approach: resolution is the tool of the **outward senses**, seeking clarity by chopping the continuum into discrete parts.
+						- Synthetic approach: the **inner eye** directly absorbs the whole undifferentiated mass, living the whole content instead of breaking it apart.
+						- Chemical metaphor: extroverted problem solving makes the problem “disappear” like salt in water, but the absorber actually drinks the whole solution.
+						- Social projection: because direct absorption leaves no visible trace, external observers often fill the unreadable void by inventing supernatural forms to discern the absorption.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- In the ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) model of ((94e87dc9-71af-477c-aa70-0f448c2f1e20)), the core of obop is the ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) that observes the content to produce the extent which is used to operate the ((66c810a0-9861-4787-bdcf-1378219332be)). The intent can be composed of many sub-itents in many layers, where the “atomic intent” at the basic layer is the ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)).
 			  id:: 66e79e0c-8be2-49a4-b4d7-5c1fddefeabf
