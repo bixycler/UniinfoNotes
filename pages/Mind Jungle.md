@@ -778,6 +778,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- [OpenViking](https://github.com/volcengine/OpenViking)
 				  [combines vector index (semantics) & AGFS (content)](https://openviking.ai/docs) for hierarchical context delivery with clear URI `viking://{scope}/{path}`.
 			- source code graph
+			  id:: 69e7381e-faaf-403e-92d0-cc5b4714ef04
 			  collapsed:: true
 				- [CodeEagle Codebase Intelligence](https://mcpmarket.com/tools/skills/codeeagle-codebase-intelligence)
 				- [CodeGraph](https://github.com/colbymchenry/codegraph)

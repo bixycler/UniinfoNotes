@@ -57,6 +57,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- They run entirely locally with near-zero CPU footprint and require zero external API calls.
 				- **Compiler-grade topology** as the developer's **navigation map**
 					- Compilers and LSPs have already mapped codebases with mathematical precision using Abstract Syntax Trees (ASTs).
+						- They are wrapped in ((69e7381e-faaf-403e-92d0-cc5b4714ef04))s for AI agents.
 					- The ultimate prize of this graph is the network of back-references.
 						- Tracking dataflows, global variable mutations, and def–use chains becomes a simple, instantaneous pointer lookup.
 						- Without this micro-graph, an agent must guess execution flow by reading raw text sequentially – a process requiring massive cognitive energy to simulate a deterministic compiler.
