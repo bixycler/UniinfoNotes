@@ -2214,7 +2214,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 17th, Gemini just helped me see the illusion, the Maya clearer, not by hallucination nor by the “yes man” attitude, but by its very normal behavior reflecting my own karma.
 			- 18th, ...
 			  collapsed:: true
-				- ((6a339d94-8c98-48cf-baac-71bc6b79c919))
+				- [Chat with Google AI Mode](https://share.google/aimode/2k625oOo0b5iotE9b) for ((6a339d94-8c98-48cf-baac-71bc6b79c919))
 		- Chrome tab zombie by Cognee webapp
 		  id:: 6a227a43-5fa1-4718-8cf7-3a57c8121bd5
 		  collapsed:: true
@@ -2253,13 +2253,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Checked: only with manual action of freeze or proactive/urgent discard, the glitch is not triggered. But a freeze/discard combined with re-login does.
 					- Input `chrome://crash` or `chrome://kill` to the address bar to force a crash.
 						- Note that `chrome://restart` will restart the whole browser (all windows), and `chrome://hang` will freeze the tab by putting it into an infinite loop.
-		- DOING The karmic mirror of Rajneeshpuram – a historical analysis
+		- The karmic mirror of Rajneeshpuram – a historical analysis
 		  id:: 6a339d94-8c98-48cf-baac-71bc6b79c919
 		  collapsed:: true
 		  :LOGBOOK:
-		  CLOCK: [2026-06-18 Thu 14:27:41]
+		  CLOCK: [2026-06-18 Thu 14:27:41]--[2026-06-18 Thu 14:58:11] =>  00:30:30
 		  :END:
-			- Abstract: This report examines the rise and fall of [Rajneeshpuram](https://en.wikipedia.org/wiki/Rajneeshpuram), a spiritual commune built in the Oregon desert during the 1980s under the guidance of [Osho (Bhagwan Shree Rajneesh)](https://en.wikipedia.org/wiki/Rajneesh). Rather than viewing this history purely through a legal or political lens, this analysis explores the event as a grand, collective karmic collision. It outlines how the experiment used America's own cultural strengths – wealth, law, and freedom – to expose the hidden negativity of everyone involved.
+			- Abstract: This note examines the rise and fall of [Rajneeshpuram](https://en.wikipedia.org/wiki/Rajneeshpuram) – a spiritual commune built in the Oregon desert during the 1980s under the guidance of [Osho (Bhagwan Shree Rajneesh)](https://en.wikipedia.org/wiki/Rajneesh) – as an experiment. Rather than viewing this history purely through a legal or political lens, this analysis explores the event as **a grand, collective karmic collision**. It outlines how the experiment used America's own cultural strengths – wealth, law, and freedom – to expose the hidden negativity of everyone involved.
 			- The Catalyst: The Strategy of the Master
 				- Whether planned as a deliberate cosmic trap or reconstructed as a profound lesson after the fact, Osho utilized a unique strategy. He adopted the core values of American society to test the boundaries of Western culture.
 				- **Capitalism as a Mirror:** By accumulating a fleet of 93 Rolls-Royce cars and displaying immense material wealth, Osho spoke the language of American capitalism. This wealth triggered intense public outrage. It exposed a societal double standard: material excess was acceptable for corporate tycoons, but deeply offensive when gathered by an Eastern spiritual movement.
@@ -2307,6 +2307,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- It stripped away the peaceful mask of the **spiritual seekers**, exposing how easily devotion can transform into compliance.
 					- It unmasked the **freedom-loving host nation**, showing how quickly fear of an outsider can turn into state-sponsored intolerance.
 					- It challenged the traditional boundaries of **spiritual leadership**, leaving a historical warning about the real-world dangers of absolute authority and isolation.
+				- The “Divine Play” accomplished its ultimate purpose. It functioned as an absolute mirror, leaving no place for the collective shadow of modern society to hide.
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a1d453c-dc52-42be-b5b9-15cbbc60ce94))
