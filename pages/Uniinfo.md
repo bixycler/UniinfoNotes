@@ -194,7 +194,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 				  collapsed:: true
 					- Diagrams
 					  collapsed:: true
-						- The Triangle of the Grand Circle
+						- Triangle: The ontology of the Grand Circle
 						  ![GrandCircleTriangle](https://docs.google.com/drawings/d/1tVAf16aTCaIdMOOLwqFFA6dChUeUqAF14yav-y81JbE/pub?w=360)
 						- The Grand Circle as the equivalence between the Trinion and the Universe
 						  ![TrinionIntensionExtensionCircle](https://docs.google.com/drawings/d/e/2PACX-1vTx3baZuAGVy3u_8KtGc7x_7wmxL9SzFVB59kLpvow8R-7IG_zLPJ2qIrN4j5u46Sav2b8favocxF_J/pub?w=300)
