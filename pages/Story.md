@@ -2270,8 +2270,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- A. The Community of Disciples (The Seekers)
 					- Thousands of followers traveled to Oregon seeking total freedom, love, and a new way of living. However, their collective journey exposed a severe spiritual blindness.
 					- **The Trap of Blind Surrender:** Disciples handed over their personal power, wealth, and critical thinking to the commune's leadership.
-					- **Willful Ignorance:** To protect their spiritual comfort, followers ignored the aggressive, authoritarian tactics used by Ma Anand Sheela’s management team. Their karmic lesson was a painful wake-up call: spiritual evolution does not exempt an individual from personal conscience or earthly ethics.
-				-
+					- **Willful Ignorance:** To protect their spiritual comfort, followers ignored the aggressive, authoritarian tactics used by Ma Anand Sheela's management team. Their karmic lesson was a painful wake-up call: spiritual evolution does not exempt an individual from personal conscience or earthly ethics.
+				- B. Ma Anand Sheela's Inner Circle (The Actors)
+					- Tasked with running the daily operations of the city, the commune's top leadership succumbed to a fierce desire for power and control.
+					- **[The 1984 Bioterror Attack](https://en.wikipedia.org/wiki/1984_Rajneeshee_bioterror_attack):** Locked in a bitter political battle with Wasco County over land-use laws, Sheela's team attempted to rig a local election. They built a secret laboratory to cultivate *Salmonella* bacteria for food poisoning.
+					- **The Poisonings:** The group poisoned salad bars in 10 restaurants in the town of The Dalles, Oregon, sickening 751 innocent citizens to **prevent them from voting**. This act marked the first and largest bioterrorist attack in United States history.
+				- C. The Local Residents and U.S. Authorities (The Host)
+					- The local Oregonians and federal agencies were not neutral bystanders; they carried their own intense fears and intolerance.
+					- **The Illusion of Freedom**: The United States prides itself on freedom of religion and speech. However, the presence of an aggressive, non-traditional community put these values to the ultimate test.
+					- **Systemic Retaliation**: Driven by panic, local and federal authorities utilized strict zoning laws, intense surveillance, and legal maneuvers to dismantle the commune. This reaction demonstrated that institutional freedom had strict boundaries when challenged by an unfamiliar culture.
+					-
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a1d453c-dc52-42be-b5b9-15cbbc60ce94))
