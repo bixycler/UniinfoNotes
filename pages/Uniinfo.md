@@ -192,23 +192,23 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 			  collapsed:: true
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Through [differentiation](((1a22a090-6786-4114-8aad-35b122783bff))), the Trinion transforms into various ((665ca429-84e3-49ff-921e-c07d19cd99ba))s of all beings in the Universe. Then through [unification](((c96a6d20-a0f6-48bd-9d70-9bc00b6b3c69))), every being, even the Universe, is just the Trinion itself, closing the ((6772a6cd-771f-4f24-9c3a-39c442234be5)). That means the Trinion is equivalent to the Universe in both ways: its *extension is all beings* in the Universe, and its *intension is the whole Universe itself*. While the extensional equivalence through differentiation is the [reductionism](https://en.wikipedia.org/wiki/Reductionism) of the ((667bd93a-cce4-4dbf-9831-725e4dffe463)), the intensional equivalence through unification is the [holism](https://en.wikipedia.org/wiki/Holism) of the ((667bda02-8dc9-488e-ba16-ea75c3d7895c)).
 				  collapsed:: true
-					- Diagrams
-					  collapsed:: true
-						- Triangle: The Grand Circle as the **ontology** of the Trinion
-						  ![GrandCircleTriangle](https://docs.google.com/drawings/d/1tVAf16aTCaIdMOOLwqFFA6dChUeUqAF14yav-y81JbE/pub?w=360)
-						- Circle: The Grand Circle as the **equivalence** between the Trinion and the Universe
-						  ![TrinionIntensionExtensionCircle](https://docs.google.com/drawings/d/e/2PACX-1vTx3baZuAGVy3u_8KtGc7x_7wmxL9SzFVB59kLpvow8R-7IG_zLPJ2qIrN4j5u46Sav2b8favocxF_J/pub?w=300)
-						- Bowtie: The Grand Circle linearized by cutting the Universe into **intension** and **extension** of the Trinion
-						  ![TrinionIntensionExtension](https://docs.google.com/drawings/d/e/2PACX-1vTNkXLQI4ndXxd6gt-5uMygtTStNBakZm50MFN_W9Ikgt4KG5rmofbbZ3OnflW4s9XxJs1LgZ2wQ_F2/pub?w=380)
-						- Diamond: The Grand Circle linearized by cutting the Trinion into **source** and **sink** of the universal ((667bef22-b272-4a7d-b613-3f1ed1a47329)) through the World
-						  ![TrinionIntensionExtension](https://docs.google.com/drawings/d/e/2PACX-1vT6DlMbpmFCrTE6k-Yat1vxO5jjK25qCGkTnmsLYbt-gJ1CsD8Y-_sr_HhmFo0JowGrtPs-RmcrJ6PX/pub?w=360)
-						- [Arc diagram](https://en.wikipedia.org/wiki/Arc_diagram) of cause cones (green) and effect cones (red) of beings
-						  ![arc_diagram_example.png](../assets/Uniinfo/Unithread/arc_diagram_example.png){:width 300}
-							- The intricacy of this diagram reflects the [interconnectedness of all beings](((66eb7dae-2032-434b-9106-756d4aad7cdb))).
-						- [Chord diagram](https://en.wikipedia.org/wiki/Chord_diagram_(information_visualization)) of the cones in the circle of the Universe
-						  ![chord_diagram_example.png](../assets/Uniinfo/Unithread/chord_diagram_example.png){:width 400}
 					- As a [cyclic order](https://en.wikipedia.org/wiki/Cyclic_order), the Grand Circle shows the vacantness of the Trinion that clears the illusion of a linear order from an absolute suppreme being or foundation to all things in the Universe. The Grand Circle has been traditionally symbolized by [the Ouroboros](https://en.wikipedia.org/wiki/Ouroboros), and its paradoxical impression is called “[strange loop](https://en.wikipedia.org/wiki/Strange_loop)” recently by Douglas Hofstadter.
 						- ![Escher - Drawing Hands - 1946.jpg](../assets/Uniinfo/Escher - Drawing Hands - 1946.jpg){:width 200, :height 150}
+				- Diagrams
+				  collapsed:: true
+					- Triangle: The Grand Circle as the **ontology** of the Trinion
+					  ![GrandCircleTriangle](https://docs.google.com/drawings/d/1tVAf16aTCaIdMOOLwqFFA6dChUeUqAF14yav-y81JbE/pub?w=360)
+					- Circle: The Grand Circle as the **equivalence** between the Trinion and the Universe
+					  ![TrinionIntensionExtensionCircle](https://docs.google.com/drawings/d/e/2PACX-1vTx3baZuAGVy3u_8KtGc7x_7wmxL9SzFVB59kLpvow8R-7IG_zLPJ2qIrN4j5u46Sav2b8favocxF_J/pub?w=300)
+					- Bowtie: The Grand Circle linearized by cutting the Universe into **intension** and **extension** of the Trinion
+					  ![TrinionIntensionExtension](https://docs.google.com/drawings/d/e/2PACX-1vTNkXLQI4ndXxd6gt-5uMygtTStNBakZm50MFN_W9Ikgt4KG5rmofbbZ3OnflW4s9XxJs1LgZ2wQ_F2/pub?w=380)
+					- Diamond: The Grand Circle linearized by cutting the Trinion into **source** and **sink** of the universal ((667bef22-b272-4a7d-b613-3f1ed1a47329)) through the World
+					  ![TrinionIntensionExtension](https://docs.google.com/drawings/d/e/2PACX-1vT6DlMbpmFCrTE6k-Yat1vxO5jjK25qCGkTnmsLYbt-gJ1CsD8Y-_sr_HhmFo0JowGrtPs-RmcrJ6PX/pub?w=360)
+					- [Arc diagram](https://en.wikipedia.org/wiki/Arc_diagram) of cause cones (green) and effect cones (red) of beings
+					  ![arc_diagram_example.png](../assets/Uniinfo/Unithread/arc_diagram_example.png){:width 300}
+						- The intricacy of this diagram reflects the [interconnectedness of all beings](((66eb7dae-2032-434b-9106-756d4aad7cdb))).
+					- [Chord diagram](https://en.wikipedia.org/wiki/Chord_diagram_(information_visualization)) of the cones in the circle of the Universe
+					  ![chord_diagram_example.png](../assets/Uniinfo/Unithread/chord_diagram_example.png){:width 400}
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- How the Grand Circle dissolves traditional paradoxes
 					  collapsed:: true
