@@ -202,7 +202,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 						  ![TrinionIntensionExtension](https://docs.google.com/drawings/d/e/2PACX-1vTNkXLQI4ndXxd6gt-5uMygtTStNBakZm50MFN_W9Ikgt4KG5rmofbbZ3OnflW4s9XxJs1LgZ2wQ_F2/pub?w=380)
 						- [Arc diagram](https://en.wikipedia.org/wiki/Arc_diagram) of cause cones (green) and effect cones (red) of beings
 						  ![arc_diagram_example.png](../assets/Uniinfo/Unithread/arc_diagram_example.png){:width 300}
-							- The intricacy of this diagram reflects the interconnectedness of all beings, as shown in the Indra's net.
+							- The intricacy of this diagram reflects the [interconnectedness of all beings](((66eb7dae-2032-434b-9106-756d4aad7cdb))).
 						- [Chord diagram](https://en.wikipedia.org/wiki/Chord_diagram_(information_visualization)) of the cones in the circle of the Universe
 						  ![chord_diagram_example.png](../assets/Uniinfo/Unithread/chord_diagram_example.png){:width 400}
 					- As a [cyclic order](https://en.wikipedia.org/wiki/Cyclic_order), the Grand Circle shows the vacantness of the Trinion that clears the illusion of a linear order from an absolute suppreme being or foundation to all things in the Universe. The Grand Circle has been traditionally symbolized by [the Ouroboros](https://en.wikipedia.org/wiki/Ouroboros), and its paradoxical impression is called “[strange loop](https://en.wikipedia.org/wiki/Strange_loop)” recently by Douglas Hofstadter.
@@ -1007,9 +1007,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					  id:: 66eac7d3-f1e6-420c-a2a5-1424c86d4185
 					  collapsed:: true
 						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) each concept in the ((66ea8d84-c766-4c47-b06c-a0b57a530096)) reflects all other concepts in a [projective geometry](https://en.wikipedia.org/wiki/Projective_geometry). That means the knowledge cone is like the [Indra's Net](https://en.wikipedia.org/wiki/Indra%27s_net).
-						- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-							- [fb note](https://www.facebook.com/share/p/qbfkFvBptBxobMLo) about Indra's Net
-							- Trip inside a 3D fractal (Kleinian) {{video https://youtu.be/XIzScwydxOE}}
+						  id:: 699c0362-0284-422e-9f76-4238c295233d
 				- perception double cone
 				  id:: 68df36a4-6a3e-4fc9-b44a-c8e92f62aee1
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68df36a4-6a3e-4fc9-b44a-c8e92f62aee1)), or simply “perception cone”, is the combination of ((66ea8df3-d2f3-4856-b24a-5095dd285f9b)) & ((66ea8e12-7c30-449b-9139-bfd8d82394d7)) by the ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)).

@@ -497,6 +497,8 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 		- fb posts
 			- [Reflection - Phản tỉnh](https://www.facebook.com/share/p/QnStZPmUqgAxj1ip/)
 			- [The Universe is just a giant distorted kaleidoscope](https://www.facebook.com/share/p/PV7w5qtofEpAwszK/)
+			- [Lưới trời Đế Thích - Indra's Net](https://www.facebook.com/share/p/qbfkFvBptBxobMLo)
+				- Video: [Trip inside a 3D fractal (Kleinian)](https://youtu.be/XIzScwydxOE)
 		- [Indra's net](https://en.wikipedia.org/wiki/Indra%27s_net) in [Avatamsaka Sutra](https://en.wikipedia.org/wiki/Avatamsaka_Sutra), [Hoa Nghiêm Kinh](https://vi.wikipedia.org/wiki/Hoa_nghi%C3%AAm_kinh)
 			- Alan Fox has described the sutra's worldview as "fractal", "holographic", and "psychedelic"
 		- [vivarta-vada](https://en.wikipedia.org/wiki/Vivartavada) & maya: the manifestation of Brahman/Ātman as different individual selves (jivatman) in the non-dual Vedanta, i.e. [Advaita Vedanta](https://en.wikipedia.org/wiki/Advaita_Vedanta)
