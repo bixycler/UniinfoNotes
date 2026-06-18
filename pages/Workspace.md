@@ -55,8 +55,9 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	-
 	- ## Workstack
 	  id:: 6651adea-81d4-40a5-b96d-af6739e572eb
-		- ### Git Tracks
+		- ### CANCELLED Git Tracks
 		  id:: 67139355-ac72-4e4c-b882-00bb3a3ea144
+		  collapsed:: true
 			- #### To be merged
 			  id:: 67164cc1-e500-4889-9b6d-12d8dd7fc029
 			  collapsed:: true

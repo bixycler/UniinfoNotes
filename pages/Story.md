@@ -2253,6 +2253,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Checked: only with manual action of freeze or proactive/urgent discard, the glitch is not triggered. But a freeze/discard combined with re-login does.
 					- Input `chrome://crash` or `chrome://kill` to the address bar to force a crash.
 						- Note that `chrome://restart` will restart the whole browser (all windows), and `chrome://hang` will freeze the tab by putting it into an infinite loop.
+		-
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a1d453c-dc52-42be-b5b9-15cbbc60ce94))
