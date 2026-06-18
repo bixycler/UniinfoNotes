@@ -57,7 +57,6 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	  id:: 6651adea-81d4-40a5-b96d-af6739e572eb
 		- ### Git Tracks
 		  id:: 67139355-ac72-4e4c-b882-00bb3a3ea144
-		  collapsed:: true
 			- #### To be merged
 			  id:: 67164cc1-e500-4889-9b6d-12d8dd7fc029
 			  collapsed:: true
@@ -68,7 +67,6 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			  ---------------
 		- ### Working
 		  id:: 6773d98a-3917-4267-9f8b-7d86b84d3663
-		  {{embed ((67164c57-8f45-46eb-92a9-f00b02dccfc9))}}
 		  {{embed ((db954501-95d0-46e2-b1fc-39b6a966300e))}}
 		  {{embed ((6788f004-d3df-41d4-afc8-c8c5ea52c51c))}}
 		  {{embed ((6773eb97-ec58-4c48-a017-cd0de2d82e08))}}
