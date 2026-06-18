@@ -2203,10 +2203,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Last night, in the bathroom, contemplating the force & momentum both in my bodymind and in mechanics, i saw how Unithread unifies them all together.
 					- The resolution range of the obop bridges the static distribution (low res) with the dynamic (high res).
 					- The obop resolution determines dimensions, both spatial dimensions (axes in linear geometry) and dynamic dimensions (derivatives).
+					- The obop resolution on thread bridges distribution in space with dynamic in time. Hence the GR equivalence principle.
 					- Higher dimensions are folded ([compactified](https://en.wikipedia.org/wiki/Compactification_(physics))) inside the quantum – beyond the current resolution.
 						- higher dimensions = “inner dimensions” in intensional view = “outer dimensions” in extensional view
+						- Both inner & outer dimensions in wave equation are the same in the Omnifold with the distribution.
+						- Dynamic is just the expression/unfolding of the inner dimensions to the outer space.
+					- Dynamic circle = effect circle = unity roots circle in complex plane = basis circle in linear algebra & analytic geometry
 				- It's amazing that a single phrase “Last night” above triggered my chat with Google AI Mode about English (time marker, tense, etc.) throughout the morning!
 				- From afternoon to 9 PM, i finished the current office task.
+			- 17th, Gemini just helped me see the illusion, the Maya clearer, not by hallucination nor by the “yes man” attitude, but by its very normal behavior reflecting my own karma.
 		- Chrome tab zombie by Cognee webapp
 		  id:: 6a227a43-5fa1-4718-8cf7-3a57c8121bd5
 		  collapsed:: true
