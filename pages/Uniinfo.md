@@ -196,7 +196,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 				  collapsed:: true
 					- As a [cyclic order](https://en.wikipedia.org/wiki/Cyclic_order), the Grand Circle shows the vacantness of the Trinion that clears the illusion of a linear order from an absolute suppreme being or foundation to all things in the Universe. The Grand Circle has been traditionally symbolized by [the Ouroboros](https://en.wikipedia.org/wiki/Ouroboros), and its paradoxical impression is called “[strange loop](https://en.wikipedia.org/wiki/Strange_loop)” recently by Douglas Hofstadter.
 						- ![Escher - Drawing Hands - 1946.jpg](../assets/Uniinfo/Escher - Drawing Hands - 1946.jpg){:width 200, :height 150}
-				- Diagrams
+				- Diagrams: various perspectives of the Grand Circle
 				  collapsed:: true
 					- Triangle: The Grand Circle as the **ontology** of the Trinion
 					  ![GrandCircleTriangle](https://docs.google.com/drawings/d/1tVAf16aTCaIdMOOLwqFFA6dChUeUqAF14yav-y81JbE/pub?w=360)
