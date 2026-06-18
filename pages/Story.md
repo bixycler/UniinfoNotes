@@ -270,9 +270,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- ((66536e1b-6466-4153-90d6-583003d99a81)) really lags in large pages like [[Mind Jungle]] and [[Story]].
 				- They have similar size of 700+kB, while rather different lines number (9k vs 6k).
 				- So, the size does matter, not the lines.
-			- TODO [!] `publish/CommonMark/Mind Jungle.cm.md` has invalid Advanced Query due to redundant `<br>`
+			- DONE [!] `publish/CommonMark/Mind Jungle.cm.md` has invalid Advanced Query due to redundant `<br>`
 			  id:: 6960d920-8f7f-46cb-9515-107ace0e0716
 			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2026-06-18 Thu 15:11:34]--[2026-06-18 Thu 15:11:35] =>  00:00:01
+			  :END:
+				- Soved by the revised script [logseqmd2commonmark.js](../assets/HTML/logseqmd2commonmark.js)
+				  :LOGBOOK:
+				  CLOCK: [2026-06-18 Thu 15:13:07]
+				  :END:
 				- ```markdown
 				  - #+BEGIN_CENTER
 				    <br>`<Center` 
@@ -1934,41 +1941,41 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		- Will Lei as an intense-world systems architect: an autobiographical analysis through neuroscience and systems theory
 		  id:: 69fdbffa-dc65-4d72-bbf6-d35bf88a3482
 		  collapsed:: true
-			- Childhood and the “X–ray view”
+			- Childhood and the “X-ray view”
 				- The “curse” of chronic busyness
-					- From an early age, the mind operated like a high–revving engine with heightened responses to stimuli, aligning with the **over–excitability** archetype.
-					- This constant cognitive load and early–onset responsibility created a profound “sleep debt” and burnout.
+					- From an early age, the mind operated like a high-revving engine with heightened responses to stimuli, aligning with the **over-excitability** archetype.
+					- This constant cognitive load and early-onset responsibility created a profound “sleep debt” and burnout.
 					- High school was marked by a desperate longing for summer breaks, viewed merely as survival periods to sleep and let the nervous system reset.
-					- What felt like a karmic momentum or curse from past lives was actually a high–performance hardware issue functioning without a natural idle state.
+					- What felt like a karmic momentum or curse from past lives was actually a high-performance hardware issue functioning without a natural idle state.
 				- The early lack of speech was not a cognitive deficit, but a protective [Dorsal Vagal Shutdown](https://www.traumatherapistinstitute.com/blog/Dorsal-Vagal-Shutdown-A-Holistic-Approach-to-Recovery-and-Resilience).
-					- The [Intense World Theory](../assets/Will/story/2026-05/The_Intense_World_Theory_-_A_Unifying_Theory_of_th.pdf) explains that the brain was hyper–functional, experiencing sensory and structural input at overwhelming fidelity.
+					- The [Intense World Theory](../assets/Will/story/2026-05/The_Intense_World_Theory_-_A_Unifying_Theory_of_th.pdf) explains that the brain was hyper-functional, experiencing sensory and structural input at overwhelming fidelity.
 					- Instead of mirroring adult behaviors, the mind saw through the “sheer lie” of social mimicry and withdrew to preserve signal integrity.
 					- Language was initially rejected as a lossy compression protocol used for conveying these systemic “lies”.
 				- Asynchronous development led to feeling “elderly” or timeless.
-					- At 15 years old, engaging in a timeless, night–long philosophical dialogue with a 50–year–old stranger.
+					- At 15 years old, engaging in a timeless, night-long philosophical dialogue with a 50-year-old stranger.
 					- The conversation flowed as if between ageless peers, completely disregarding chronological markers, names, or social hierarchy until the very end.
 					- The concept of looking down on someone was structurally impossible to render, exposing social hierarchies as mere fabrications.
 			- Cognitive architecture
-				- [Default Mode Network](https://en.wikipedia.org/wiki/Default_mode_network) (DMN) and [Central Executive Network](https://en.wikipedia.org/wiki/Frontoparietal_network) (CEN) co–activation creates a continuous, non–personal brainstorming state.
+				- [Default Mode Network](https://en.wikipedia.org/wiki/Default_mode_network) (DMN) and [Central Executive Network](https://en.wikipedia.org/wiki/Frontoparietal_network) (CEN) co-activation creates a continuous, non-personal brainstorming state.
 					- The DMN acts as a structural retrieval system, autonomously generating abstract models and serving them up as “memos”.
-					- The CEN reflexively catches these models, using kinesthetic “inner hands” to manipulate, rotate, and stress–test the topologies.
+					- The CEN reflexively catches these models, using kinesthetic “inner hands” to manipulate, rotate, and stress-test the topologies.
 				- Low latent inhibition and fractal perception cause the mind to see the entire connected system in every localized node.
 					- There is no internal separation between personal work and company work – all is the pursuit of structural integrity.
-					- Mundane tasks trigger a full–scale rendering of the underlying inefficient systems – pulling a single bug vibrates the entire jungle – creating immense friction when asked to work without deep understanding.
+					- Mundane tasks trigger a full-scale rendering of the underlying inefficient systems – pulling a single bug vibrates the entire jungle – creating immense friction when asked to work without deep understanding.
 			- Somatic regulation and the ((67445065-15b2-475e-a704-78f140d487af))
 				- Chronic systemic inconsistency and high–fidelity processing place a permanent allostatic load on the [HPA axis](https://en.wikipedia.org/wiki/Hypothalamic%E2%80%93pituitary%E2%80%93adrenal_axis) (hypothalamic–pituitary–adrenal).
 					- This biological strain manifests physically as chronic stress, psoriasis, and stomachaches, acting as an uncompromising “Check Engine” light.
-					- “Pre–symptoms” like stomach vibrations serve as early warnings of over–coupling with a noisy environment.
+					- “Pre-symptoms” like stomach vibrations serve as early warnings of over-coupling with a noisy environment.
 				- Mandatory physiological and cognitive resets are required to clear the static, enforcing the rest that was denied in childhood.
 					- Freediving engages the mammalian dive reflex to force parasympathetic regulation.
-					- The **Zero–Person Perspective (0PP)** drops the intent structure, returning the mind to an “empty center” where subject–object separation dissolves.
+					- The **Zero-Person Perspective (0PP)** drops the intent structure, returning the mind to an “empty center” where subject–object separation dissolves.
 			- Industrial adaptation
 				- The current challenge is translating the clear box and “all connected” view into the modular, “black box” environment of the industrial world.
 					- Functional encapsulation: treating tasks as restricted viewports to limit the vibration of the entire jungle.
 					- Constructing cognitive “sandboxes” to contain industrial logic and protect the internal academic state.
 				- Accepting the Lie as an inevitable dual of the Truth.
 					- Following the realization of the Liar Paradox in mathematics, the goal shifts from seeking absolute precision to building robust resilience.
-					- The final integration is learning to play the copycat game – running industrial work in a low–priority thread – without losing the core structural truth.
+					- The final integration is learning to play the copycat game – running industrial work in a low-priority thread – without losing the core structural truth.
 		- June journal
 		  id:: 6a1d453c-dc52-42be-b5b9-15cbbc60ce94
 		  collapsed:: true
@@ -2259,7 +2266,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :LOGBOOK:
 		  CLOCK: [2026-06-18 Thu 14:27:41]--[2026-06-18 Thu 14:58:11] =>  00:30:30
 		  :END:
-			- Abstract: This note examines the rise and fall of [Rajneeshpuram](https://en.wikipedia.org/wiki/Rajneeshpuram) – a spiritual commune built in the Oregon desert during the 1980s under the guidance of [Osho (Bhagwan Shree Rajneesh)](https://en.wikipedia.org/wiki/Rajneesh) – as an experiment. Rather than viewing this history purely through a legal or political lens, this analysis explores the event as **a grand, collective karmic collision**. It outlines how the experiment used America's own cultural strengths – wealth, law, and freedom – to expose the hidden negativity of everyone involved.
+			- Abstract: This note examines the rise and fall of [Rajneeshpuram](https://en.wikipedia.org/wiki/Rajneeshpuram) – a spiritual commune built in the Oregon desert during the 1980s under the guidance of [Osho (Bhagwan Shree Rajneesh)](https://en.wikipedia.org/wiki/Rajneesh) – as an experiment. Rather than viewing this history purely through a legal or political lens, this analysis explores the event as **a grand, collective karmic collision**. It outlines how the experiment used America's own cultural strengths – wealth, law, and freedom – to _**expose the hidden negativity** of everyone involved_.
 			- The Catalyst: The Strategy of the Master
 				- Whether planned as a deliberate cosmic trap or reconstructed as a profound lesson after the fact, Osho utilized a unique strategy. He adopted the core values of American society to test the boundaries of Western culture.
 				- **Capitalism as a Mirror:** By accumulating a fleet of 93 Rolls-Royce cars and displaying immense material wealth, Osho spoke the language of American capitalism. This wealth triggered intense public outrage. It exposed a societal double standard: material excess was acceptable for corporate tycoons, but deeply offensive when gathered by an Eastern spiritual movement.

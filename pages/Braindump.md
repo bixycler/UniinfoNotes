@@ -18,4 +18,3 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  :END:
 			-
 			- TODO Check `npm run build` to publish `assets/` as is and include `.sh`, `.log` files.
-		- ((6960d920-8f7f-46cb-9515-107ace0e0716))
