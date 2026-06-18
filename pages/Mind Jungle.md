@@ -1534,7 +1534,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									- Move from Brain{dump,storm}ing → Year Brain{dump,storm}
 									  id:: 67762e67-bcfc-403b-a314-44213523f905
 								- ((6651adea-81d4-40a5-b96d-af6739e572eb)):
-									- ((67139355-ac72-4e4c-b882-00bb3a3ea144)): _obsoleted by the automatic git commits of [Git plugin](((66f68ec1-9b7d-402f-b77f-fcd1fc36e500)))_
+									- ((67139355-ac72-4e4c-b882-00bb3a3ea144)): _obsoleted by the [Logseq's built-in automatic Git commits](((699c035f-9972-4df3-9bc1-71b992426a93)))_
 										- ((67164cc1-e500-4889-9b6d-12d8dd7fc029)) > ((67164c57-8f45-46eb-92a9-f00b02dccfc9))
 											- Move WIPs from `WIPs` → `To be merged`
 									- ((6773d98a-3917-4267-9f8b-7d86b84d3663)) place:
@@ -4374,6 +4374,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- `Settings` > `Version control`
 				  id:: 66fa4733-114e-4923-80a5-7ac2f5f63ae1
 					- `Enable Git auto commit` is useful for **periodic backup**.
+					  id:: 699c035f-9972-4df3-9bc1-71b992426a93
 						- Later on, the backup commits, titled `Auto saved by Logseq`, can be squashed down to a manual commit with a meaningful message.
 						- `Git auto commit seconds` (`:git/auto-commit-seconds`)
 							- Value: `1` < default `60` (1 minute) < `86400` (24 hours)
