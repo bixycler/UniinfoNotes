@@ -200,8 +200,8 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 						  ![TrinionIntensionExtensionCircle](https://docs.google.com/drawings/d/e/2PACX-1vTx3baZuAGVy3u_8KtGc7x_7wmxL9SzFVB59kLpvow8R-7IG_zLPJ2qIrN4j5u46Sav2b8favocxF_J/pub?w=300)
 						- Bowtie: The Grand Circle linearized by cutting the Universe into **intension** and **extension** of the Trinion
 						  ![TrinionIntensionExtension](https://docs.google.com/drawings/d/e/2PACX-1vTNkXLQI4ndXxd6gt-5uMygtTStNBakZm50MFN_W9Ikgt4KG5rmofbbZ3OnflW4s9XxJs1LgZ2wQ_F2/pub?w=380)
-						- Diamond: The Grand Circle linearized by cutting the Trinion into **source** and **sink** of the universal effect flow through the World
-						  ![TrinionIntensionExtension](https://docs.google.com/drawings/d/e/2PACX-1vTNkXLQI4ndXxd6gt-5uMygtTStNBakZm50MFN_W9Ikgt4KG5rmofbbZ3OnflW4s9XxJs1LgZ2wQ_F2/pub?w=380)
+						- Diamond: The Grand Circle linearized by cutting the Trinion into **source** and **sink** of the universal ((667bef22-b272-4a7d-b613-3f1ed1a47329)) through the World
+						  ![TrinionIntensionExtension](https://docs.google.com/drawings/d/e/2PACX-1vT6DlMbpmFCrTE6k-Yat1vxO5jjK25qCGkTnmsLYbt-gJ1CsD8Y-_sr_HhmFo0JowGrtPs-RmcrJ6PX/pub?w=360)
 						- [Arc diagram](https://en.wikipedia.org/wiki/Arc_diagram) of cause cones (green) and effect cones (red) of beings
 						  ![arc_diagram_example.png](../assets/Uniinfo/Unithread/arc_diagram_example.png){:width 300}
 							- The intricacy of this diagram reflects the [interconnectedness of all beings](((66eb7dae-2032-434b-9106-756d4aad7cdb))).
