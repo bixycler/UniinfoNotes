@@ -2171,8 +2171,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- Throughout the second half (5h) of the recovery sleep, i have been doing a psychonautic trip through my problems... Then at the threshold of sitting up, i recognized the ultimate solution is to **sublimate the holistic core**, making it as porous as the body.
 				  collapsed:: true
-					- ==> Only the empty center is left “whole, complete, perfect” ... The whole = the empty = the perfect, i.e., nothing is absolutely perfect! 🤣
+					- ⇒ Only the empty center is left “whole, complete, perfect” ... The whole = the empty = the perfect, i.e., nothing is absolutely perfect! 🤣
 					- My holistic core is just a crystal form like any other form of beings. Clinging to such a form is the cause of suffering which itself is the cause of all subjective actions, momentum, and accumulation of karma.
+					  id:: 6a2fd5d4-8b93-4b26-8ad1-f9ead9704c65
 						- subjective action := one-way effect flow from the agent to the object
 						- objective action is the reverse effect flow
 						- natural action is the (two-way) circular effect flow
@@ -2224,6 +2225,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- [Chat with Google AI Mode](https://share.google/aimode/2k625oOo0b5iotE9b) for ((6a339d94-8c98-48cf-baac-71bc6b79c919))
 				- Gemini [helped me](https://g.co/gemini/share/52e6bf865a2f) find a new approach to solve my perfectionism: instead of abandoning or dismantling the holistic core, just **rotate** it! 😊
 					- This solution popped up in my mind on the way back home while i was reviewing the chat.
+					- “Rotating the holistic core” is the solid view of the *nonblocking circular effect flow* seen on [last weekends](((6a2fd5d4-8b93-4b26-8ad1-f9ead9704c65))).
 		- Chrome tab zombie by Cognee webapp
 		  id:: 6a227a43-5fa1-4718-8cf7-3a57c8121bd5
 		  collapsed:: true
