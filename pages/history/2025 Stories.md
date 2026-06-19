@@ -7,7 +7,7 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 	  CLOCK: [2025-01-08 Wed 14:20:41]
 	  CLOCK: [2025-01-08 Wed 14:21:01]--[2025-01-08 Wed 15:51:16] =>  01:30:15
 	  :END:
-		- The last weekends of 2025, while working in UTS, i concluded: ((67714850-43c0-4c7f-8b50-838e014b06e0))
+		- The last weekend of 2025, while working in UTS, i concluded: ((67714850-43c0-4c7f-8b50-838e014b06e0))
 			- ⇒ ((67710747-2982-4134-875e-3b715313db87))
 			- ⇒ Design ((67715dbd-5ba6-4fc8-bd3e-5fab97885ae7)) & ((67760c43-58c6-40eb-b874-40afae448966))
 		- Jan 3rd: everything is but a farce 🤣
@@ -2480,7 +2480,7 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 			- [LLM Knowldge Graph Builder](https://github.com/neo4j-labs/llm-graph-builder) is great for my more control over the process than the ((684176d5-ba02-4cf5-ba62-606cc461d2d8))
 				- [Neo4j web app](https://llm-graph-builder.neo4jlabs.com/) provides a nice prebuilt app, but limits to only 10Kb/file, hence useless for my 1Mb Mind Jungle.
 		- 8th, looking for an example of the [edge of chaos](https://en.wikipedia.org/wiki/Edge_of_chaos) to show a friend in a chat, i found ((68469e67-4c54-4c89-9f3c-409af642769d)).
-		- 9th, from the weekends to today, i'm praticing ((68367257-9043-4fd5-8586-2c193d56f077))
+		- 9th, from the weekend to today, i'm praticing ((68367257-9043-4fd5-8586-2c193d56f077))
 		  :LOGBOOK:
 		  CLOCK: [2025-06-09 Mon 18:36:03]
 		  :END:
@@ -3603,7 +3603,7 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 					- [Video with slideshow](https://youtu.be/90VX7DOWsmU)
 					- Posted to fb many times: [Oct 20214](https://www.facebook.com/lexuandinhct/posts/963880876962533), [Dec 2016](https://www.facebook.com/lexuandinhct/posts/pfbid02AFHU5Vpi98GhXMABnbZfDc4uENB1UxsmeWqXR4pofFTMUcTynB1zZemuiF5LXwMGl), [Mar 20218](https://www.facebook.com/lexuandinhct/posts/pfbid029wUyFEALydazMLkXfWWkRQGCqa4tAnPEXALM9edft94763DnZ3gRyPqdi8cf9no2l), [Dec 2018](https://www.facebook.com/lexuandinhct/posts/pfbid0TFLsTNasyqNVfMwDW38PiWLyebU3tqjMdwfGDbhnbaHxBnoqnV69ktAG9tCQL94Tl).
 			- Updated ((684f951b-4f21-4783-a4a6-3fe5d638c64c)).
-		- 9-10th, weekends, focusing on the empty center, i had some well done ((68871d20-c27b-4b0d-8342-b8af093e5849)) in tantric practice.
+		- 9-10th, weekend, focusing on the empty center, i had some well done ((68871d20-c27b-4b0d-8342-b8af093e5849)) in tantric practice.
 		  collapsed:: true
 			- ((68994c7c-335a-4a31-836b-ff7fa9bb3e67))
 			  → ((68994c7c-695a-49db-aae6-e776186f6a85))
@@ -3634,7 +3634,7 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 			  id:: 689c9111-0ca8-4268-911b-79588a4f5e30
 				- Today (Aug 14), the `A` records appear again after `dig`ging `mgmt-gitlab-*.amazonaws.com`. Don't know why!
 			- At lunchtime, i realized that my intent of my involvement in the current work in the company project was “proving the correctness of my idea”, then i release it.
-		- 16-17th weekends, thinking in ((68a2a2b1-4565-401d-80ee-9c412b97da35)): the thought is brought before the (internal) eye, so it loses its control power.
+		- 16-17th weekend, thinking in ((68a2a2b1-4565-401d-80ee-9c412b97da35)): the thought is brought before the (internal) eye, so it loses its control power.
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-08-18 Mon 07:57:59]
@@ -4024,7 +4024,7 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 					  style EastAsia stroke-width:4px,stroke-dasharray: 0
 					  style Vajrayana stroke-width:4px,stroke-dasharray: 0
 					  ```
-		- Sep 6-7th, weekends, ((68be308b-9135-44cd-b2c4-690a267fb8c2))
+		- Sep 6-7th, weekend, ((68be308b-9135-44cd-b2c4-690a267fb8c2))
 		  collapsed:: true
 			- Compromise: from “com-promise” to “breach” 
 			  collapsed:: true
@@ -4290,7 +4290,7 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 				- The holomovement is very similar to the ((675c03d8-3185-41a8-9f98-e869fabec793)) with “enfolding” & “unfolding” as well as the dynamic nature.
 				- The [prehension](https://en.wikipedia.org/wiki/Prehension_(philosophy)) of Whitehead is very similar to cross-level fold-tug of the Omnifold in Ω-thread interaction.
 				- obop’s one-by-one instantiations is similar to [one-electron universe postulate](https://en.wikipedia.org/wiki/One-electron_universe).
-		- 13-14th, weekends, very sleepy... took 3 cycles in a row (normally i take only 2 cycles in weekends)... then got a mild sinus inflammation. I saw a lot about [projective relativity](((68c764d5-17c7-4c1c-af2f-697fa222f729))), ((68c76471-81de-4de9-bdd9-a2ab866a1184)), and [the middle way for uninet](((68c76d9f-0ae4-4e93-b8de-1b79a3400fc8))).
+		- 13-14th, weekend, very sleepy... took 3 cycles in a row (normally i take only 2 cycles in weekend)... then got a mild sinus inflammation. I saw a lot about [projective relativity](((68c764d5-17c7-4c1c-af2f-697fa222f729))), ((68c76471-81de-4de9-bdd9-a2ab866a1184)), and [the middle way for uninet](((68c76d9f-0ae4-4e93-b8de-1b79a3400fc8))).
 		  id:: 68c762da-f037-4237-a934-065371c4b60a
 		  collapsed:: true
 			- I've received a formal education of too much formalism & foundationalism.
@@ -5157,7 +5157,7 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 			- Extreme Learning Machine (ELM) is a single-hidden-layer feedforward neural network (SLFN) that learns instantly by computing the output weights analytically in one shot, leaving the hidden layer random.
 			- The random hidden layer acts like the kennel in Support Vector Machine (SVM) to project the input into a high-dimensional space so that they can be classified simply by linear separation at the output layer.
 		- 16th, ((68f0d8f7-bdb7-492a-b161-83479cce6aa8))
-		- 18-19th, weekends, various brainstorms about 3 levels of equality, temporal circle, effect circle, attention
+		- 18-19th, weekend, various brainstorms about 3 levels of equality, temporal circle, effect circle, attention
 		  collapsed:: true
 			- ((66e3fe46-dc79-472a-a059-f5ccf5afb437)): 1 - 2 - 3 circles folded from the same content thread 🥨
 			  id:: 699c0368-1753-4032-b9d2-52afa7f866d9
@@ -5201,7 +5201,7 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 				- Kinetic engergy: $T = \int {\bf v} ⋅ d{\bf p} ⟹ dT/dv = {\bf p}$
 				- Potential engergy:
 			-
-		- 25-26th, weekends, the flood due to the peak spring tide – highest in the last 6 years – and dike overflow
+		- 25-26th, weekend, the flood due to the peak spring tide – highest in the last 6 years – and dike overflow
 		  collapsed:: true
 			- [Triều cường tràn đê](https://thanhnien.vn/trieu-cuong-dang-cao-o-tphcm-nuoc-tran-bo-de-cuon-cuon-chay-vao-nha-dan-khu-thanh-da-185251024194232344.htm) ở Thanh Đa - Bình Quới, 24/10/2025, đỉnh triều cao nhất trong 6 năm qua.
 			  collapsed:: true
@@ -5287,7 +5287,7 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 	  CLOCK: [2025-11-03 Mon 14:53:11]
 	  CLOCK: [2025-11-03 Mon 14:53:17]--[2026-01-09 Fri 15:25:09] =>  1608:31:52
 	  :END:
-		- 1st-2nd, weekends ((690b3f49-1419-4dc3-b61b-12890b9e04f9))
+		- 1st-2nd, weekend ((690b3f49-1419-4dc3-b61b-12890b9e04f9))
 		  id:: 699c0368-b7dd-4537-bb0d-3a2ddfc86db1
 		  collapsed:: true
 			- Vô Danh thần tăng trong [Thiên Long Bát Bộ 2003 - Tập 34](https://youtu.be/2T_v4UjaABE)
@@ -5396,7 +5396,7 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 					- My close friend once asked me:
 						- Have you done with Uniinfo? Is it ready to save the world?
 						- No, i don't have ability to save the world. I'm saving myself first: anything i've flushed out to Uniinfo is a thing that i release to be lighter; when i can release all of these karma, i'll be free, liberated 😊
-		- 8-9th, weekends, deep reset
+		- 8-9th, weekend, deep reset
 		  collapsed:: true
 			- Saturday sleep all day, Sunday meditate all day.
 				- Paying attention to the breath, i dive deep into the bodymind.
@@ -5444,7 +5444,7 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 			- “Contact first, concept second”
 				- open reception (immediacy) > closed reception (mediation)
 			- ((6916f0bf-dec9-4dff-a8c9-999c63adb522))
-		- 15-16th, weekends with spirals and spirorus!
+		- 15-16th, weekend with spirals and spirorus!
 		  collapsed:: true
 			- why i'm caught up?
 				- cause: full bodymind immersion (deep dive)
@@ -5562,7 +5562,7 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 			- Write this note with the help of Google Search AI Mode: ((692818bf-7a44-4804-b444-1bdb45e3ddb4))
 			- Satyagraha (truth force) by the principle of [means = ends](https://en.wikipedia.org/wiki/Satyagraha#Means_and_ends) by [Mahatma Gandhi](https://en.wikipedia.org/wiki/Mahatma_Gandhi)
 				- This resonates with my approach which avoids abusing means and prefers a direct path toward the end.
-		- 29-30th, weekends
+		- 29-30th, weekend
 			- Contemplated the $\exp()$ in ((69292bbb-c2dc-496d-9a04-bb4529407b25)), ((692cf172-d3fe-4390-80fe-52a8c21bd107))
 			- Proposed to bosses of the company HTV/Airtrip to set up an AI lab for knowledge management.
 	- December journal: Cultivate the Balance
@@ -5604,7 +5604,7 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 			- empty center = zero intent = annihilated point due to full circle uniform ditribution
 			- hardcore center = infinite intent = singularity
 			- Inside a hard core is usualy an empty center, like the storm's eye inside the eyewall.
-		- 6-7th, weekends with brainstorms about attention as an activated state/part of the knowledge
+		- 6-7th, weekend with brainstorms about attention as an activated state/part of the knowledge
 		  collapsed:: true
 			- ((69364644-747f-4995-815f-7ac637e9ea0b))
 			- Chats with Huy
@@ -5658,7 +5658,7 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 					- [志村けん ３本の矢② shimura ken](https://www.youtube.com/watch?v=h8XfnkRjbMA): Type B punchline
 					  collapsed:: true
 						- {{video https://www.youtube.com/watch?v=h8XfnkRjbMA}}
-		- 13-14th, weekends with various brainstorms: the effect circle in dynamic circle (acceleration → velocity → position), round-trip projection in Pythagorean theorem, wave propagation = exploring all possibilities, etc.
+		- 13-14th, weekend with various brainstorms: the effect circle in dynamic circle (acceleration → velocity → position), round-trip projection in Pythagorean theorem, wave propagation = exploring all possibilities, etc.
 		  collapsed:: true
 			- While the order of acceleration → velocity → position is the natural and correct causal chain in physics, abstractions like infinity, infinitesimal leads to the **artificial “independence”** between derivatives, like in [Euler method](https://en.wikipedia.org/wiki/Euler_method) and [phase space](https://en.wikipedia.org/wiki/Phase_space). 
 			  id:: 699c0368-00c8-404f-aa42-004f196194d9
@@ -5736,7 +5736,7 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 			- YEP: This year will be the first time i attend YEP of the Company.
 			  Lab: [15h00 ngày 30/12/2025 (Thứ 3)](https://www.chatwork.com/#!rid97370046-2053412020795215872)
 			  Cty: [Chiều thứ Sáu, ngày 23/01/2026](https://www.chatwork.com/#!rid81746279-2053380260107661312)
-		- 20-21st, weekends with various brainstorms: 4M (micro-meso-macro-mega), backprop-free models, and obop model in various fields
+		- 20-21st, weekend with various brainstorms: 4M (micro-meso-macro-mega), backprop-free models, and obop model in various fields
 		  collapsed:: true
 			- Chat with Google AI Mode [about the Cognitive Mirror](https://share.google/aimode/PidCOT4LaQtBladNi) in digital age.
 			  collapsed:: true

@@ -52,7 +52,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- [Willison’s HTML tools](https://simonwillison.net/2025/Dec/10/html-tools/):
 					- SVG renderers, PyPI package diff viewers, Bluesky thread visualizers, debugging tools (clipboard-viewer, cors-fetch)
 					- Python: Pyodide (Python compiled to WebAssembly) + micropip to run Pandas, matplotlib, and numpy client-side. CORS-enabled APIs from PyPI, GitHub, and others provide data access without proxies.
-			- 10-11 weekends, some awakening insights regarding the ground state
+			- 10-11 weekend, some awakening insights regarding the ground state
 				- Two 10h-sleeps ended with deep awakening insights. 
 				  collapsed:: true
 					- Saturday: breath can unblock the system (threads, vessels, meridians), clear delusion -> fluidify crystal forms -> dissolve self -> resolve greed & aversion
@@ -78,7 +78,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  Let this be my last word, that I trust in thy love!
 				- [opencode-antigravity-auth](https://github.com/NoeFabris/opencode-antigravity-auth): Enable [Opencode](https://opencode.ai/) ([GitHub](https://github.com/anomalyco/opencode)) to authenticate against Antigravity (Google's IDE) via OAuth so you can use Antigravity rate limits and access models like gemini-3-pro and claude-opus-4-5-thinking with your Google credentials.
 			- 16th, On the way to compary, contemplating whether art is a deceptive moonlight (nghệ thuật là ánh trăng lừa dối), i rember a discussion with Mr. Huy about form versus content in art, then this brainstorm rose: ((6969a3a1-27a2-40de-b62f-a29a95964b68))
-			- 17-18 weekends, Ripple = Solid + Svelte, 3-stage revolution of “vessel”
+			- 17-18 weekend, Ripple = Solid + Svelte, 3-stage revolution of “vessel”
 			  collapsed:: true
 				- [Ripple](https://www.ripplejs.com/) = Solid + Svelte
 				  collapsed:: true
@@ -124,7 +124,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  :LOGBOOK:
 				  CLOCK: [2026-01-26 Mon 19:28:57]--[2026-01-26 Mon 19:29:03] =>  00:00:06
 				  :END:
-			- 24-25th weekends, more news
+			- 24-25th weekend, more news
 			  collapsed:: true
 				- [Web search agent](https://ai-sdk.dev/cookbook/node/web-search-agent): many models offer native web-searching capabilities: Perplexity, OpenAI (with Responses API), Gemini (with [Grounding with Google Search](https://ai.google.dev/gemini-api/docs/google-search) for 2.5 Flash with [500 req/day free](https://ai.google.dev/gemini-api/docs/pricing#standard))
 					- `google_search_retrieval` tool in Gemini API.
@@ -195,7 +195,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Pattern matching (System 1) is much "cheaper" for the model's brain (as well as human's) than logical inference (System 2).
 					- Index for global graph: adjacency table
 					- Index for view cone: indented tree with graphing characters like `└─`
-			- 31st, 1st weekends, About system prompt for agent, and the “Omnifold as hypercube”
+			- 31st, 1st weekend, About system prompt for agent, and the “Omnifold as hypercube”
 			  collapsed:: true
 				- About system prompt for agent
 					- Rule of Thumb: Anything that stays constant for at least 5–10 turns should go in the System Prompt.
@@ -335,7 +335,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  :LOGBOOK:
 				  CLOCK: [2026-02-10 Tue 16:53:03]
 				  :END:
-			- 7-8th, weekends, my body (physical health) has broken down after 2 months of hard working.
+			- 7-8th, weekend, my body (physical health) has broken down after 2 months of hard working.
 			  collapsed:: true
 				- This time, it's not a serious illness, just a sinus inflammation.
 				- This time is the noisiest illness in my history until now: instead of the focus on breathing, the thoughts rise endlessly about a wide range of topics right in front of the background pain if my sinus.
@@ -1129,7 +1129,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  ![The_Unïnfo_Theory-NotebookLM.mp4](../assets/Will/story/2026-03/The_Unïnfo_Theory-NotebookLM.mp4)
 					- Published [on YouTube](https://www.youtube.com/watch?v=OjUivFq-aLw)
 					- Note: I just gave NotebookLM a bunch of Mind Jungle, Uniinfo.md, and brainstorms, with no specific instruction, except the explicit reminder of correct pronunciations for Unïnfo terms as the “instructions” for the video overview.
-			- 7-8th, weekends, review UniinfoNotes with NotebookLM
+			- 7-8th, weekend, review UniinfoNotes with NotebookLM
 			  collapsed:: true
 				- FoC: Why arrow is content and circle is form?
 					- The open arrow cannot contain others, hence can only be content.
@@ -1398,7 +1398,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Nên cái "nói dối" mà tui cảm nhận đó sâu hơn nhiều cái "nói dối" thông thường, vì nó xuất phát từ sự vô minh, không thấy biết rõ ràng mà cho rằng mình hiểu biết. Còn cái "nói dối" mà biết là mình đang nói dối (là cái người ta thường nghĩ về "nói dối") thì dễ quá rồi.
 						- Cái lie này hầu hết người đời đều mắc phải không nhiều thì ít, mà càng máy móc lại càng lie! Vì khi tuân theo một lời răn, một quy tắc mà không hiểu, không thấu cảm được ý nghĩa của lời răn đó, lý do của quy tắc đó, thì chắc chắn sẽ gây mâu thuẫn. Như ngay 1 chữ "thương" thôi mà miệng nói "thương" trong khi thái độ là ghét bỏ, hành động là ruồng rẫy, v.v. Đó là chưa nói tới những ẩn ý mà mình vô tình không nhận ra (trong vô thức) là lợi dụng, là bắt làm nô lệ, v.v. đều trên danh nghĩa "tình thương". Hay như Phật nói "tin ta mà không hiểu ta là phỉ báng ta", vì một người tin một cách mù quáng, thiếu trí tuệ thì trước sau gì cũng làm những điều trái ngược với ý gốc của Phật mà cho rằng "tui đang làm theo lời Phật".
 				- The term “bottom-up discipline” was introduced by Huy, and then [discussed with Google AI Mode](https://share.google/aimode/SbjPgyJRbYihVqVKz).
-			- 28-29th, weekends, we went to Phú Túc, Đồng Nai to visit the family of Uncle 3 and shared about the surrendering to God; Returning home, Google fed me an article about that very theme of selflessness through a meditation of Fr. Roberto Pasolini about Saint Francis of Assisi.
+			- 28-29th, weekend, we went to Phú Túc, Đồng Nai to visit the family of Uncle 3 and shared about the surrendering to God; Returning home, Google fed me an article about that very theme of selflessness through a meditation of Fr. Roberto Pasolini about Saint Francis of Assisi.
 				- [Final Lenten meditation: A free life is loving unconditionally](https://www.vaticannews.va/en/vatican-city/news/2026-03/final-lenten-meditation-a-free-life-loving-unconditionally.html)
 				  collapsed:: true
 					- > Perfect joy, then, is not the “absence of wounds,” but “freedom from being defined by them. It is a freedom that does not erase pain, but prevents it from having the final word.”
@@ -1468,7 +1468,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		- April journal
 		  id:: 69ce0ded-193e-4b34-bda5-f53418e34a16
 		  collapsed:: true
-			- 4-5th, weekends, chat about my Tantric practice and the article “Consciousness and Strange Loops”
+			- 4-5th, weekend, chat about my Tantric practice and the article “Consciousness and Strange Loops”
 			  collapsed:: true
 				- I checked NotebookLM again for the levels of awareness to compare with [Chelsea Zou's article](((69d31a20-e33a-4367-85b1-0e0a533e016c))), and see it has completely lost the section of awareness.
 				  collapsed:: true
@@ -1528,7 +1528,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- [[Bug]: PLATFORM_HINTS section is mistaken by the model for user prompt](https://github.com/NousResearch/hermes-agent/issues/7114)
 				- [fix: Rod of Asclepius (⚕) → Caduceus (☤) — correct symbol for Hermes](https://github.com/NousResearch/hermes-agent/pull/7064)
 				-
-			- 11-12th, weekends: a mental tour around the evolution of both biosphere and my obop model.
+			- 11-12th, weekend: a mental tour around the evolution of both biosphere and my obop model.
 			  collapsed:: true
 				- The [chat with AI Mode](https://share.google/aimode/kwHeWOKuqPSsjePPj) about ancient biological internalization (endosymbiosis), i see the obop model.
 					- The [chat with Gemini](https://gemini.google.com/app/a50ff6f4c5d96963) to write [the note](((69dd9adc-3474-4671-9d58-b8de893695a0))) exposed a whole lot of issues with Gemini – a severe hallucination!
@@ -1566,7 +1566,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- The individuality of the particle is nothing more than the intersection of external conditions.
 					- In Unïnfo terms, the choppy environment divides the collection into individual particles.
 			- 17th, wrapped up the first phase of investigation in my official work, then joined the birthday party of my company Hybrid Technologies Vietnam (HTV).
-			- 18-19th, weekends: desire = energy = content arrow
+			- 18-19th, weekend: desire = energy = content arrow
 			  collapsed:: true
 				- Through a chat with Google AI Mode about corruption & desire, i see desire = energy = content arrow = gap = problem in this Desire Realm. => Life = desire management = energy management
 					- Here desire/greed & aversion are just 2 opposite arrows of the same content.
@@ -1620,7 +1620,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Clean up mind chips
 			- 24th, installed LangFlow with lots of heavy deps (torch, triton, NVIDIA, etc.)
 			  id:: 6a214628-adcc-455d-8ace-e5835d96e9e9
-			- 25-27th, weekends & Hùng Kings' Commemoration Days
+			- 25-27th, weekend & Hùng Kings' Commemoration Days
 			  collapsed:: true
 				- The “truth” is just the current state, whatever we see right here now.
 				- [Chat with AI Mode](https://share.google/aimode/VsCGj9gNurfg0ieGh) about the symbiotic crystal growth in the syntropic crystallization, to be added to the mechanism of learning by living.
@@ -1684,7 +1684,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		- May journal
 		  id:: 69f839e5-22eb-419e-8c9d-31f56258fb55
 		  collapsed:: true
-			- April 30th – May 3rd, holidays & weekends
+			- April 30th – May 3rd, holidays & weekend
 			  collapsed:: true
 				- KG access through Logseq CLI
 					- [npm @logseq/cli](https://www.npmjs.com/package/@logseq/cli)
@@ -1759,7 +1759,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Back to the basic issue: how to use it without clinging to it?! 🤔
 						- The middle way of dog leash holding: not a death grip nor a slip/drop, but a skillful hold with close contact to feel the tension and texture of it.
 			- 8th, Chat with Gemini [about my strange condition](https://gemini.google.com/share/4bef2457ed7a) ⇒ ((69fdbffa-dc65-4d72-bbf6-d35bf88a3482))
-			- 9-10th, weekends, ((6a012b04-8e57-4927-a363-14ec798334b3)), ((6a01d7eb-1d13-4d07-bfd3-0dd87f115f54))
+			- 9-10th, weekend, ((6a012b04-8e57-4927-a363-14ec798334b3)), ((6a01d7eb-1d13-4d07-bfd3-0dd87f115f54))
 			  collapsed:: true
 				- 9th, After 10h of recovery sleep, i gradually wake up and see from the inside out => [0PP = Vacantism](https://g.co/gemini/share/f66d0eff043d)
 					- My English corrections:
@@ -1842,7 +1842,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- The conflation (fallacy) of the (object) content with the sustent (total content) is still very strong in me!
 						- It reflects in the definition ((687f322c-2334-46e5-816b-57889e5c6b89)) = ((678e1d31-4874-4df6-bfb4-60822a6b5546))
 						- The tiny intent at the apex is usually ignored due to its invisibility ([behind the eyes](((68898917-e61f-4d23-9124-474efa9a9eee)))) and its tiny size relative to the large content at the base.
-			- 16-17th, weekends, reviewed ((694bc610-c76f-47db-8210-f02b733096f0)), ((6a0a6a2d-2cf0-43e7-bc75-bd74e22683b3)); got ankle pain (at the area of Anterior Talofibular Ligament (ATFL), likely a [psoriatic enthesitis](https://mypsoriaticarthritis.org.au/article/your-psa-ways-psa-affects-you/enthesitis), when warming up the freediving session at the [quarry lake](https://en.wikipedia.org/wiki/Quarry_lake) “Tuyệt Tình Cốc”.
+			- 16-17th, weekend, reviewed ((694bc610-c76f-47db-8210-f02b733096f0)), ((6a0a6a2d-2cf0-43e7-bc75-bd74e22683b3)); got ankle pain (at the area of Anterior Talofibular Ligament (ATFL), likely a [psoriatic enthesitis](https://mypsoriaticarthritis.org.au/article/your-psa-ways-psa-affects-you/enthesitis), when warming up the freediving session at the [quarry lake](https://en.wikipedia.org/wiki/Quarry_lake) “Tuyệt Tình Cốc”.
 			- 19th, about the GUI toggle confusion, and the structure of the Omnifold
 			  collapsed:: true
 				- Contemplated the structure of the Omnifold
@@ -1928,7 +1928,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  :END:
 					- Change OpenCode's system prompt with agent config in `opencode.json`
 				- TODO Try the multi-agent system of Antigravity 2.
-			- 30-31st, weekends: recovery sleep, a dying dog neglected within a crowded vesak festival, etc.
+			- 30-31st, weekend: recovery sleep, a dying dog neglected within a crowded vesak festival, etc.
 			  collapsed:: true
 				- Watched [ELIZA on YouTube](https://youtu.be/foyljHXJ42s?si=qtfxVMAe7_ZzYlY9) ⇒ [Chat with Gemini](https://g.co/gemini/share/f11b14278c7d) ⇒ ((6a1d2df8-b1b1-40fa-86c6-28495b66f098))
 				- I just saw a light for my [duck-dive problem](((67714850-43c0-4c7f-8b50-838e014b06e0))): beside the ((67445065-15b2-475e-a704-78f140d487af)) that i've trained so far, the communication with other people and other parts of myself is the window opening to the complement world that is worth looking/listening.
@@ -2016,7 +2016,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Seems that Cognee currently focuses on the static KG which is the majority of what human has made, not paying attention to the dynamic nature agentic KG. 🤔
 						- My current workaround is to turn each link into a node. However this requires many "hacks".
 				-
-			- 6-7th, weekends, contemplated the structure of the Omnifold with tree, wave, and matrix
+			- 6-7th, weekend, contemplated the structure of the Omnifold with tree, wave, and matrix
 			  collapsed:: true
 				- global effect circle = wave propagation = Grand Circle = flat torus morphing = matrix change = circle of intent & extent = Omnifold dynamic
 					- sustent = unit hypercube of Omnifold := 1 = $i_0$
@@ -2167,7 +2167,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 12th, intended to do the pro work, but ended up with ((6a2bb96a-8595-4aa8-9b8e-1a70ef6bd091))
 			  collapsed:: true
 				- The KG navigation of uninet should be similar: combining local context tree (tree view) with the global graph navigation for long-range connections
-			- 13-14th, weekends: Coding agents & sublimate/annihilate the core
+			- 13-14th, weekend: Coding agents & sublimate/annihilate the core
 			  collapsed:: true
 				- Throughout the second half (5h) of the recovery sleep, i have been doing a psychonautic trip through my problems... Then at the threshold of sitting up, i recognized the ultimate solution is to **sublimate the holistic core**, making it as porous as the body.
 				  collapsed:: true
@@ -2225,7 +2225,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- [Chat with Google AI Mode](https://share.google/aimode/2k625oOo0b5iotE9b) for ((6a339d94-8c98-48cf-baac-71bc6b79c919))
 				- Gemini [helped me](https://g.co/gemini/share/52e6bf865a2f) find a new approach to solve my perfectionism: instead of abandoning or dismantling the holistic core, just **rotate** it! 😊
 					- This solution popped up in my mind on the way back home while i was reviewing the chat.
-					- “Rotating the holistic core” is the solid view of the *nonblocking circular effect flow* seen on [last weekends](((6a2fd5d4-8b93-4b26-8ad1-f9ead9704c65))).
+					- “Rotating the holistic core” is the solid view of the *nonblocking circular effect flow* seen [last weekend](((6a2fd5d4-8b93-4b26-8ad1-f9ead9704c65))).
 		- Chrome tab zombie by Cognee webapp
 		  id:: 6a227a43-5fa1-4718-8cf7-3a57c8121bd5
 		  collapsed:: true

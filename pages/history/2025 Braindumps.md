@@ -489,7 +489,7 @@ id:: 67760c3e-10a7-4621-8623-383f44bdaf3c
 		  CLOCK: [2025-04-01 Tue 11:05:50]
 		  :END:
 			- But first, it's taken a long time for me to update ((67d2ad10-0ca8-4361-94d5-219cf9b737d5)) and [GNOME icons](((67eb7601-ab2c-41df-a42c-84a77a88ec08))). There i installed `Icon Browser` (not GTK+ Icon Browser) to check the current icons used by the system.
-		- Just write down the story last weekends & festival: ((67f4c7e0-7de0-48c4-83fd-4b994960efba))
+		- Just write down the story last weekend & festival: ((67f4c7e0-7de0-48c4-83fd-4b994960efba))
 		  :LOGBOOK:
 		  CLOCK: [2025-04-08 Tue 13:58:12]
 		  CLOCK: [2025-04-08 Tue 13:58:20]
@@ -701,7 +701,7 @@ id:: 67760c3e-10a7-4621-8623-383f44bdaf3c
 		  CLOCK: [2025-05-07 Wed 17:42:22]
 		  :END:
 			- ((681b4678-686a-4d99-9163-6f60e0b30d2c))
-		- Last weekends, 23-25 May, i spent all time for ((6830645a-93b9-4c90-929f-8740f40c2b15))
+		- Last weekend, 23-25 May, i spent all time for ((6830645a-93b9-4c90-929f-8740f40c2b15))
 		  :LOGBOOK:
 		  CLOCK: [2025-05-26 Mon 20:12:45]
 		  :END:
