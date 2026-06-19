@@ -2222,6 +2222,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 18th, ...
 			  collapsed:: true
 				- [Chat with Google AI Mode](https://share.google/aimode/2k625oOo0b5iotE9b) for ((6a339d94-8c98-48cf-baac-71bc6b79c919))
+				- Gemini [helped me](https://g.co/gemini/share/52e6bf865a2f) find a new approach to solve my perfectionism: instead of abandoning or dismantling the holistic core, just **rotate** it! 😊
+					- This solution popped up in my mind on the way back home while i was reviewing the chat.
 		- Chrome tab zombie by Cognee webapp
 		  id:: 6a227a43-5fa1-4718-8cf7-3a57c8121bd5
 		  collapsed:: true
