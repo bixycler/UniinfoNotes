@@ -32,15 +32,14 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- As the self approaches the zero threshold, this immense internal friction causes its psychological clock to tick faster and faster, effectively stretching the zero instant out to a localized infinity – a sinkhole of **despair**.
 					- The ego fixates on the memory of what was lost to maintains its image, turning the despair into a belief system called [nihilism](https://en.wikipedia.org/wiki/Nihilism).
 			- Stage 3: The liberated zero – “0 = everything”
-				- The transition is unlocked by a sudden, quiet remembering – the single-word mantra _“accept”_.
-					- Sustained by the absolute faith that there is no problem crossing the zero threshold, the mind drops its desperate resistance.
+				- The transition is unlocked by a sudden, quiet remembering of the single-word mantra _“accept”_.
+					- Based on the faith that there is no problem crossing the zero threshold, the mind drops its desperate resistance.
 					- The frantic nihilation instantly ceases – releasing the grip that kept the localized eternity of despair locked in place.
 					- The frozen instant passes away in no time – and the arrow of awareness resumes its frictionless, continuous flight.
-				- When viewed through the lens of Zeno's arrow paradox, the word snaps back to its literal, unadorned baseline: “no time at all”.
-				- For the remaining self, the frozen instant of the arrow feels like an endless suspension in nothingness.
-				- For the liberated awareness, the arrow is in continuous flight – making the transition a frictionless, instantaneous non-event.
 					- The “timelessness” stops feeling like a heavy prison sentence of meaninglessness.
-					- The mind drops the grand romance of the eternal for the weightless reality of zero – paying the inner tax in the currency of time itself.
+				- Different from the ignorant zero, this liberated zero is paradoxical like the [Zeno's paradoxes](https://en.wikipedia.org/wiki/Zeno%27s_paradoxes) and the spacetime at [event horizon](https://en.wikipedia.org/wiki/Event_horizon).
+					- For the liberated awareness, the arrow is in continuous flight – making the transition a frictionless, instantaneous non-event.
+					- For the remaining self, the frozen instant of the arrow feels like an endless suspension in nothingness.
 		- Codebase navigation by coding agents: current limitations and future perspective
 		  id:: 6a2bb96a-8595-4aa8-9b8e-1a70ef6bd091
 		  collapsed:: true
