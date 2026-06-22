@@ -11,12 +11,12 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2026 Brainstorms
 	  id:: 6960e754-ff94-4e1a-8266-d9f15231b880
-		- DOING Timeless circle: no time → endless time → pass away in no time
+		- Timeless annihilation's circle: no time → endless time → pass away in no time
 		  id:: 6a38dba9-a2f3-454a-afc9-60e66d76ac69
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2026-06-22 Mon 13:52:27]
-		  CLOCK: [2026-06-22 Mon 13:52:33]
+		  CLOCK: [2026-06-22 Mon 13:52:33]--[2026-06-22 Mon 15:00:48] =>  01:08:15
 		  :END:
 			- The linguistic journey of the word “timeless” perfectly mirrors the topological mechanics of the mind passing over the annihilation threshold of liberation – the “death gate”.
 				- That's a full circle from the ignorant zero, stretching into infinite despair, and collapsing back into the weightless instant.
@@ -38,7 +38,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- The frozen instant passes away in no time – and the arrow of awareness resumes its frictionless, continuous flight.
 					- The “timelessness” stops feeling like a heavy prison sentence of meaninglessness.
 				- Different from the ignorant zero, this liberated zero is paradoxical like the [Zeno's paradoxes](https://en.wikipedia.org/wiki/Zeno%27s_paradoxes) and the spacetime at [event horizon](https://en.wikipedia.org/wiki/Event_horizon).
-					- For the liberated awareness, the arrow is in continuous flight – making the transition a frictionless, instantaneous non-event.
+					- For the liberated awareness, the arrow is in continuous flight, the transition a frictionless, instantaneous.
 					- For the remaining self, the frozen instant of the arrow feels like an endless suspension in nothingness.
 		- Codebase navigation by coding agents: current limitations and future perspective
 		  id:: 6a2bb96a-8595-4aa8-9b8e-1a70ef6bd091
