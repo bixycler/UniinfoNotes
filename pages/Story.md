@@ -2226,9 +2226,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Gemini [helped me](https://g.co/gemini/share/52e6bf865a2f) find a new approach to solve my perfectionism: instead of abandoning or dismantling the holistic core, just **rotate** it! 😊
 					- This solution popped up in my mind on the way back home while i was reviewing the chat.
 					- “Rotating the holistic core” is the solid view of the *nonblocking circular effect flow* seen [last weekend](((6a2fd5d4-8b93-4b26-8ad1-f9ead9704c65))).
-			- 20-21th, weekend:
+			- 20-21th, weekend: no problem despite lots of problems!
 			  collapsed:: true
-				- Reset = sublimation = jump ⇒ gradually release & relax the formal shells to get back to the fluid center (empty center)
+				- From (reset = sublimation = jump) to gradually release & relax the formal shells to get back to the fluid center (empty center)
 					- Then gradually step out layer by layer
 						- Preparation for the step: review the whole circle to reduce the gap, the distortion, the load to the “no problem, no worries” threshold.
 					- Microreset = frequently relax to return to the center ⇒ train to be skillful in going back and forth
@@ -2240,6 +2240,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- The directness makes it district from the work & social connections through a long chain of intents – layers of intentions, concepts, forms, rules, etc.
 				- My unconscious expectation was shattered by the collision with the reality in the visit to my wife.
 					- Such a die-off is a good chance for me to let it go. I'm wondering why my karma is so heaving, dying over and over innumerous times but not yet extinguished! 🤔
+			- 22nd,
+			  collapsed:: true
+				- On the way to the office, i saw that while the dead state (nihilism) is the required, inevitable gate that i must pass through, getting stuck there is just another problem of the clinging mind.
 		- Chrome tab zombie by Cognee webapp
 		  id:: 6a227a43-5fa1-4718-8cf7-3a57c8121bd5
 		  collapsed:: true
