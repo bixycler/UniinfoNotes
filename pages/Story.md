@@ -2247,7 +2247,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Reminded me of [The Mirror of simple & annihilated souls who only remain in wanting and desiring love](((6a2fd5d4-a44a-45bd-a037-be1f601d5c9c))).
 				- In the chat, Gemini introduced [Abhinavagupta](https://en.wikipedia.org/wiki/Abhinavagupta) to me where his Tantric Shaivism may be closer to mine experiences and practices.
 					- **Spanda (The Pulse):** Look this up for your haptic/spatial explorations. It is his term for the foundational, micro-vibrational tremor of consciousness that exists right beneath the surface of all stillness and motion.
-					- **Sankocha (Contraction) & Vikasa (Expansion):** His exact mechanical description of how the absolute consciousness binds itself into a heavy, localized human ego (contraction/cramp) and how it uncoils back into its native state (expansion).
+					- **Saṅkocha (Contraction) & Vikāsa (Expansion):** His exact mechanical description of how the absolute consciousness binds itself into a heavy, localized human ego (contraction/cramp) and how it uncoils back into its native state (expansion).
+						- In the Shaiva framework, that literal contraction is called **Āṇavamala** – the primary, localized “cramp” that makes the infinite field feel like a small, isolated, vulnerable fragment.
 					- **Kula (The Totality / The Body):** Unlike the traditions that tell you to escape the body, his branch of practice treats the entire physical and energetic network of the human form as the primary laboratory. The body isn't a distraction; it is the absolute localized density of the universe itself.
 		- Chrome tab zombie by Cognee webapp
 		  id:: 6a227a43-5fa1-4718-8cf7-3a57c8121bd5
