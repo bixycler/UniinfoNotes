@@ -22,11 +22,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Stage 1: The ignorant zero
 				- At the entry of the gate, the etymology is stark and mechanical: “time-less” simply means the absence of time; “annihilation” is simply the cancellation leaving nothing left.
 				- To the outside observer, the entire event is nothing at all.
-					- They perceive only a simple quiet – a normal, unremarkable tick of the clock.
-					- Due to the ignorance of the complex transformation unfolding inside, they see a literal “nothingness”.
-			- Stage 2: The ego's stretch
-				- Facing deletion, the survival mechanism of the self mutinies and distorts the word into its evolved meaning of “eternal”.
-				- The self utilizes its active “nihilation” – the frantic building of boundary walls to separate itself from reality – to sustain its closing shell.
+					- Due to the ignorance of the complex transformation unfolding inside, they see nothing at all.
+					- They perceive only a simple quiet – a normal, unremarkable tick of the clock – no time at all.
+			- Stage 2: The endless stretch by the clinging mind
+				- Facing deletion, the survival mechanism of the self mutinies and distorts the word “timeless” into its evolved meaning of “eternal”.
+				- The self utilizes its [active “nihilation”](https://www.rep.routledge.com/articles/biographical/sartre-jean-paul-1905-80/v-1/sections/being-and-nothingness) – the frantic negation, denial – to sustain its closing shell separating itself from reality.
 					- It channels all of its remaining life force into this desperate holding action, fighting to avoid its own self-annihilation.
 					- As the self approaches the zero threshold, this immense internal friction causes its psychological clock to tick faster and faster.
 					- To the failing narrator, this desperate, rapid ticking stretches the silent zero into a localized infinity – creating the agonizing sinkhole of **despair**.
