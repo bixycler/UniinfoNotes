@@ -19,13 +19,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :END:
 			- The linguistic journey of the word “timeless” perfectly mirrors the topological mechanics of the mind passing over the annihilation threshold of liberation – the “death gate”.
 				- That's a full circle from the ignorant zero, stretching into infinite despair, and collapsing back into the weightless instant.
-			- Stage 1: The literal zero
-				- At the entry of the gate, the etymology is stark and mechanical: “time-less” strictly means the absence of time.
-				- This is the coordinate of **annihilation** – the zero-crossing where the ego's rendering engine is forced to freeze.
-				- It represents a total absence of duration, a pure mathematical zero where the clock simply stops ticking.
+			- Stage 1: The ignorant zero
+				- At the entry of the gate, the etymology is stark and mechanical: “time-less” simply means the absence of time; “annihilation” is simply the cancellation leaving nothing left.
 				- To the outside observer, the entire event is nothing at all.
 					- They perceive only a simple quiet – a normal, unremarkable tick of the clock.
-					- They remain completely ignorant of the complex transformation unfolding inside – a literal “nothingness”.
+					- Due to the ignorance of the complex transformation unfolding inside, they see a literal “nothingness”.
 			- Stage 2: The ego's stretch
 				- Facing deletion, the survival mechanism of the self mutinies and distorts the word into its evolved meaning of “eternal”.
 				- The self utilizes its active “nihilation” – the frantic building of boundary walls to separate itself from reality – to sustain its closing shell.
@@ -35,7 +33,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- This is the mandatory, terrifying blackout that laymen often conflate with **nihilism**.
 					- The ego uses the memory of what was lost to keep itself heavy, transforming a localized zero into an agonizing infinity.
 					- It falls in love with the view of the abyss – preferring to be the eternal mourner of a lost kingdom rather than face the quiet simplicity of true cessation.
-			- Stage 3: The absolute return
+			- Stage 3: The liberated zero
 				- The transition is unlocked by a sudden, quiet remembering – the single-word mantra “accept”.
 					- Sustained by the absolute faith that there is no problem crossing the zero threshold, the mind drops its desperate resistance.
 					- The frantic nihilation instantly ceases – releasing the grip that kept the localized eternity of despair locked in place.
