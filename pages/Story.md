@@ -2220,12 +2220,23 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- It's amazing that a single phrase “Last night” above triggered my chat with Google AI Mode about English (time marker, tense, etc.) throughout the morning!
 				- From afternoon to 9 PM, i finished the current office task.
 			- 17th, Gemini just helped me see the illusion, the Maya clearer, not by hallucination nor by the “yes man” attitude, but by its very normal behavior reflecting my own karma.
-			- 18th, ...
+			- 18th, micro-rotation = adaptation by fluidly change of form, rotate the micro circles, rotate everything!
 			  collapsed:: true
 				- [Chat with Google AI Mode](https://share.google/aimode/2k625oOo0b5iotE9b) for ((6a339d94-8c98-48cf-baac-71bc6b79c919))
 				- Gemini [helped me](https://g.co/gemini/share/52e6bf865a2f) find a new approach to solve my perfectionism: instead of abandoning or dismantling the holistic core, just **rotate** it! 😊
 					- This solution popped up in my mind on the way back home while i was reviewing the chat.
 					- “Rotating the holistic core” is the solid view of the *nonblocking circular effect flow* seen [last weekend](((6a2fd5d4-8b93-4b26-8ad1-f9ead9704c65))).
+			- 20-21th, weekend:
+			  collapsed:: true
+				- Reset = sublimation = jump > gradually release & relax the formal shells to get back to the fluid center (empty center)
+					- Then gradually step out layer by layer
+						- Preparation for the step: review the whole circle to reduce the gap, the distortion, the load to the “no problem, no worries” threshold.
+					- Microreset = frequently relax to return to the center > train to be skillful in going back and forth
+					- When focusing on a task, the inherent outward direction prevents the inner intents to be seen & change. => So the only way is to do a microreset with the faith that the leaves & branches out there are not lost.
+				- Equality (Bình Đẳng Tánh Trí): ((678e2046-54ac-4284-865d-6f3e38f589a1))
+					- Shared with Huy via phone call > various symptoms when they jump out to talk
+				- Love = direct connection from the surface down to the heart (center)
+					- The directness makes it district from the work & social connections through a long chain of intents -- layers of intentions, concepts, forms, rules, etc.
 		- Chrome tab zombie by Cognee webapp
 		  id:: 6a227a43-5fa1-4718-8cf7-3a57c8121bd5
 		  collapsed:: true
