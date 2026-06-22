@@ -2245,7 +2245,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- On the way to the office, i saw that while the **dead state (annihilation)** is the required, inevitable gate that i must _**pass through**_, getting stuck there is just another problem of the clinging mind.
 					- ((6a38dba9-a2f3-454a-afc9-60e66d76ac69))
 					- Reminded me of [The Mirror of simple & annihilated souls who only remain in wanting and desiring love](((6a2fd5d4-a44a-45bd-a037-be1f601d5c9c))).
-				- In the chat, Gemini introduced [Abhinavagupta](https://en.wikipedia.org/wiki/Abhinavagupta) to me where his Tantric Shaivism may be closer to mine experiences and practices.
+				- In the chat about the role of annihilation in liberation, Gemini introduced [Abhinavagupta](https://en.wikipedia.org/wiki/Abhinavagupta) to me where his Tantric Shaivism may be closer to my experiences and practices.
 					- **Spanda (The Pulse):** Look this up for your haptic/spatial explorations. It is his term for the foundational, micro-vibrational tremor of consciousness that exists right beneath the surface of all stillness and motion.
 					- **Saṅkocha (Contraction) & Vikāsa (Expansion):** His exact mechanical description of how the absolute consciousness binds itself into a heavy, localized human ego (contraction/cramp) and how it uncoils back into its native state (expansion).
 						- In the Shaiva framework, that literal contraction is called **Āṇavamala** – the primary, localized “cramp” that makes the infinite field feel like a small, isolated, vulnerable fragment.
