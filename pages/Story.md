@@ -2244,7 +2244,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- On the way to the office, i saw that while the **dead state (annihilation)** is the required, inevitable gate that i must _**pass through**_, getting stuck there is just another problem of the clinging mind.
 					- ((6a38dba9-a2f3-454a-afc9-60e66d76ac69))
-					- Reminded me of [The Mirror of the Simple Souls](((6a2fd5d4-a44a-45bd-a037-be1f601d5c9c))).
+					- Reminded me of [The Mirror of simple, annihilated souls who only remain in wanting and desiring love](((6a2fd5d4-a44a-45bd-a037-be1f601d5c9c))).
 		- Chrome tab zombie by Cognee webapp
 		  id:: 6a227a43-5fa1-4718-8cf7-3a57c8121bd5
 		  collapsed:: true
