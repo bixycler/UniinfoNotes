@@ -30,11 +30,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- The self utilizes its [active “nihilation”](https://www.rep.routledge.com/articles/biographical/sartre-jean-paul-1905-80/v-1/sections/being-and-nothingness) – the frantic negation and denial – to sustain the shell separating itself from reality.
 					- It channels all of its remaining life force into this desperate holding action, fighting to avoid its own self-annihilation.
 					- As the self approaches the zero threshold, this immense internal friction causes its psychological clock to tick faster and faster, effectively stretching the zero instant out to a localized infinity – a sinkhole of **despair**.
-				- This is the mandatory, terrifying blackout that laymen often conflate with **nihilism**.
-					- The ego uses the memory of what was lost to keep itself heavy, transforming a localized zero into an agonizing infinity.
-					- It falls in love with the view of the abyss – preferring to be the eternal mourner of a lost kingdom rather than facing the quiet simplicity of the true cessation.
+					- The ego fixates on the memory of what was lost to maintains its image, turning the despair into a belief system called [nihilism](https://en.wikipedia.org/wiki/Nihilism).
 			- Stage 3: The liberated zero – “0 = everything”
-				- The transition is unlocked by a sudden, quiet remembering – the single-word mantra “accept”.
+				- The transition is unlocked by a sudden, quiet remembering – the single-word mantra _“accept”_.
 					- Sustained by the absolute faith that there is no problem crossing the zero threshold, the mind drops its desperate resistance.
 					- The frantic nihilation instantly ceases – releasing the grip that kept the localized eternity of despair locked in place.
 					- The frozen instant passes away in no time – and the arrow of awareness resumes its frictionless, continuous flight.
