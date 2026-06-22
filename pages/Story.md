@@ -2233,10 +2233,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Preparation for the step: review the whole circle to reduce the gap, the distortion, the load to the “no problem, no worries” threshold.
 					- Microreset = frequently relax to return to the center > train to be skillful in going back and forth
 					- When focusing on a task, the inherent outward direction prevents the inner intents to be seen & change. => So the only way is to do a microreset with the faith that the leaves & branches out there are not lost.
-				- Equality (Bình Đẳng Tánh Trí): ((678e2046-54ac-4284-865d-6f3e38f589a1))
+				- Wisdom of Equality (Bình Đẳng Tánh Trí): ((678e2046-54ac-4284-865d-6f3e38f589a1)) ⇒ ((669a3da2-1e6c-48bd-950f-af1ea1ceda25))
 					- Shared with Huy via phone call > various symptoms when they jump out to talk
 				- Love = direct connection from the surface down to the heart (center)
 					- The directness makes it district from the work & social connections through a long chain of intents -- layers of intentions, concepts, forms, rules, etc.
+				- My unconscious expectation was shattered by the collision with the reality at the visit
 		- Chrome tab zombie by Cognee webapp
 		  id:: 6a227a43-5fa1-4718-8cf7-3a57c8121bd5
 		  collapsed:: true

@@ -3479,7 +3479,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 				  CLOCK: [2024-07-22 Mon 09:15:21]--[2024-09-13 Fri 15:41:00] =>  1278:25:39
 				  :END:
 				- ((668d0046-6d0f-4af9-8a2a-c446084a5f1f))
-		- equanimity
+		- ### equanimity
 		  id:: 669a3da2-1e6c-48bd-950f-af1ea1ceda25
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Equanimity
 			- Buddhism: [upekṣā](https://en.wikipedia.org/wiki/Upek%E1%B9%A3%C4%81), [xả](https://vi.wikipedia.org/wiki/Bu%C3%B4ng_x%E1%BA%A3)
