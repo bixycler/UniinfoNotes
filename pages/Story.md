@@ -2252,6 +2252,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- In the Shaiva framework, that literal contraction is called **Āṇavamala** – the primary, localized “cramp” that makes the infinite field feel like a small, isolated, vulnerable fragment.
 					- **Kula (The Totality / The Body):** Unlike the traditions that tell you to escape the body, his branch of practice treats the entire physical and energetic network of the human form as the primary laboratory. The body isn't a distraction; it is the absolute localized density of the universe itself.
 					- **Vimarsa** (Self-awareness / Reflexive throb): Abhinavagupta described the Nothingness of Shiva as **Prakasha** – Pure, unmanifest Light or Awareness. But Light, on its own, doesn't know it is shining. Therefore, it must have an inherent, dynamic power to reflect upon itself. That power is **Vimarsa** (Shakti).
+				- Reading [112 meditation techniques](https://tantrasadhana.app/blog/vigyan-bhairav-tantra-kal-bhairav-reveals-112-techniques) in [Vijñāna Bhairava Tantra](https://en.wikipedia.org/wiki/Vij%C3%B1%C4%81na_Bhairava_Tantra), i see the meaning of my name – Samadhi: regardless of location, diving deep enough into any point, we eventually see God through the Grand Circle.
+					- But just like the Buddha, i don't find liberation there, but only the machinery of this world. I'm finding way to surface up!
 		- Chrome tab zombie by Cognee webapp
 		  id:: 6a227a43-5fa1-4718-8cf7-3a57c8121bd5
 		  collapsed:: true
