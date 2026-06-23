@@ -213,6 +213,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 						- The intricacy of this diagram reflects the [interconnectedness of all beings](((66eb7dae-2032-434b-9106-756d4aad7cdb))).
 					- [Chord diagram](https://en.wikipedia.org/wiki/Chord_diagram_(information_visualization)) of the cones in the circle of the Universe
 					  ![chord_diagram_example.png](../assets/Uniinfo/Unithread/chord_diagram_example.png){:width 400}
+					- Tree:
 				- Perspectives of the Grand Circle
 				  id:: 6a3a62f4-15f1-4116-b3f6-6dd409462ec4
 					- The Grand Circle as a tree
