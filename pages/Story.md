@@ -2226,7 +2226,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Gemini [helped me](https://g.co/gemini/share/52e6bf865a2f) find a new approach to solve my perfectionism: instead of abandoning or dismantling the holistic core, just **rotate** it! 😊
 					- This solution popped up in my mind on the way back home while i was reviewing the chat.
 					- “Rotating the holistic core” is the solid view of the *nonblocking circular effect flow* seen [last weekend](((6a2fd5d4-8b93-4b26-8ad1-f9ead9704c65))).
-					- ⇒ ((6a3a6340-296f-49aa-bb88-e523073cc177))
+					- ⇒ ((6a3a6340-296f-49aa-bb88-e523073cc177)), ((6a3a7402-1157-4cac-b074-48cf25b46b23))
 			- 19th, chatted with Huy about the roots of all defintions, and with Gemini about the tree model of the Grand Circle.
 			  collapsed:: true
 				- Huy asked me to check this “fact”: if you keep follow first link on every Wikipedia page, you will end up in... philosophy.
