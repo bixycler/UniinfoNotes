@@ -2226,7 +2226,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Gemini [helped me](https://g.co/gemini/share/52e6bf865a2f) find a new approach to solve my perfectionism: instead of abandoning or dismantling the holistic core, just **rotate** it! 😊
 					- This solution popped up in my mind on the way back home while i was reviewing the chat.
 					- “Rotating the holistic core” is the solid view of the *nonblocking circular effect flow* seen [last weekend](((6a2fd5d4-8b93-4b26-8ad1-f9ead9704c65))).
-			- 20-21th, weekend: no problem despite lots of problems!
+			- 20-21st, weekend: no problem despite lots of problems!
 			  collapsed:: true
 				- From (reset = sublimation = jump) to gradually release & relax the formal shells to get back to the fluid center (empty center)
 					- Then gradually step out layer by layer
@@ -2240,7 +2240,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- The directness makes it district from the work & social connections through a long chain of intents – layers of intentions, concepts, forms, rules, etc.
 				- My unconscious expectation was shattered by the collision with the reality in the visit to my wife.
 					- Such a die-off is a good chance for me to let it go. I'm wondering why my karma is so heaving, dying over and over innumerous times but not yet extinguished! 🤔
-			- 22nd,
+			- 22nd, from annihilation to Tantric Shaivism then 112 meditation techniques of Samadhi
 			  collapsed:: true
 				- On the way to the office, i saw that while the **dead state (annihilation)** is the required, inevitable gate that i must _**pass through**_, getting stuck there is just another problem of the clinging mind.
 					- ((6a38dba9-a2f3-454a-afc9-60e66d76ac69))
@@ -2254,6 +2254,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- **Vimarsa** (Self-awareness / Reflexive throb): Abhinavagupta described the Nothingness of Shiva as **Prakasha** – Pure, unmanifest Light or Awareness. But Light, on its own, doesn't know it is shining. Therefore, it must have an inherent, dynamic power to reflect upon itself. That power is **Vimarsa** (Shakti).
 				- Reading [112 meditation techniques](https://tantrasadhana.app/blog/vigyan-bhairav-tantra-kal-bhairav-reveals-112-techniques) in [Vijñāna Bhairava Tantra](https://en.wikipedia.org/wiki/Vij%C3%B1%C4%81na_Bhairava_Tantra), i see the meaning of my name – Samadhi: regardless of location, diving deep enough into any point, we eventually see God through the Grand Circle.
 					- But just like the Buddha, i don't find liberation there, but only the machinery of this world. I'm finding way to surface up!
+			- 23rd, almost entire work hours chatting with Gemini about religions...
 		- Chrome tab zombie by Cognee webapp
 		  id:: 6a227a43-5fa1-4718-8cf7-3a57c8121bd5
 		  collapsed:: true
