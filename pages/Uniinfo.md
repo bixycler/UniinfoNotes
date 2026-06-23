@@ -213,28 +213,31 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 						- The intricacy of this diagram reflects the [interconnectedness of all beings](((66eb7dae-2032-434b-9106-756d4aad7cdb))).
 					- [Chord diagram](https://en.wikipedia.org/wiki/Chord_diagram_(information_visualization)) of the cones in the circle of the Universe
 					  ![chord_diagram_example.png](../assets/Uniinfo/Unithread/chord_diagram_example.png){:width 400}
-					- Tree:
+					- Tree: The Grand Circle as a ((667bf36a-581a-4abe-b544-2d849608a3e4))
+					  id:: 6a3a6f72-763b-49a6-b0d8-b11c3318b025
+					  ![TreeEffectCircle](https://docs.google.com/drawings/d/e/2PACX-1vR755KsQ0zqFf3Aev06Zwea0KmE87p7LEoQRhdaTH2JPzToVPRrn1VuLWX2e57qgBICdqlPbZcbjmUC/pub?w=640)
 				- Perspectives of the Grand Circle
 				  id:: 6a3a62f4-15f1-4116-b3f6-6dd409462ec4
 					- The Grand Circle as a tree
 					  id:: 6a3a6340-296f-49aa-bb88-e523073cc177
 					  collapsed:: true
+						- {{embed ((6a3a6f72-763b-49a6-b0d8-b11c3318b025))}}
 						- Shoot system – Reductionism
 							- The canopy represents the phenomenal world – the infinite variety, complexity, and distinct forms of beings.
-							- The branches represent pluralism (đa nguyên), simplifying the chaos of the canopy into primary limbs.
+							- The branches represent pluralism (đa nguyên), including dualism, simplifying the chaos of the canopy into primary limbs.
 							- The trunk represents monism (nhất nguyên), the single, localized column anchoring everything above it.
 						- Root system – Vacantism
 							- It is decentralized, fluid, and infinitely branching, proving the bottom is not a dead end but the engine of live content.
 							- It mirrors the shoot system above – reflecting the principle of “as above, so below” – where the [geometric inversion](https://en.wikipedia.org/wiki/Inversive_geometry) transforms the reduction to $0$ into an expansion toward $∞$.
-							- Although completely invisible beneath the soil surface – explaining why emptiness is so easily ignored or misunderstood as a static void – this subterranean network is just as vast as the canopy, acting as the invisible, active ground of the entire structure.
-						- The Living Torus – The circular flow
-							- By bending the tree model until the tips of the canopy curve down to meet the deep root system, it forms a continuous torus, visually representing the circular effect flow through three distinct phases.
-							- Differentiation in the effect cone: The vacantistic ground generates various forms of beings into the canopy through the upward push of the shoot system.
-							- Mixmatching in the world interface: Each being spreads its effect out through the environment to interact with all other beings, forming an $N \times N$ matrix of interaction.
+							- Although completely invisible beneath the soil surface – explaining why emptiness is so easily ignored or misunderstood as a static void – this subterranean network is just as vast as the canopy, acting as the active ground of the entire structure.
+						- The Living Torus – The ((667bf36a-581a-4abe-b544-2d849608a3e4))
+							- By bending the tree model until the tips of the canopy curve down to meet the deep root system, it forms a continuous torus, visually representing the circular effect flow through three phases.
+							- 1. Differentiation in the effect cone: The vacantistic ground generates various forms of beings into the canopy through the upward push of the shoot system.
+							- 2. Mixmatching in the world interface: Each being spreads its effect out through the environment to interact with all other beings, forming an $N \times N$ matrix of interaction.
 								- This continuous exchange – where each being receives effects from all others to mixmatch with its own live content – actively drives the arrow of time.
 								- Finally, these world effects mixmatch with the root system through the ground, echoing the cultural idiom “lá rụng về cội” (葉落歸根, leaves fall back to their roots).
 									- English equivalents like “ashes to ashes, dust to dust” and “in my end is my beginning” capture this dissolution as a graceful natural law.
-							- Unification in the cause cone: The entire phenomenal world is absorbed by the root system to be integrated back into a coherent flow of effect, pumped back up the trunk.
+							- 3. Unification in the cause cone: The entire phenomenal world is absorbed by the root system to be integrated back into a coherent flow of effect, pumped back up the trunk.
 					- The Grand Circle as an effect flow
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- How the Grand Circle dissolves traditional paradoxes
