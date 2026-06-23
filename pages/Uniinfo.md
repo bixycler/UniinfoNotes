@@ -216,8 +216,24 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 				- Perspectives of the Grand Circle
 				  id:: 6a3a62f4-15f1-4116-b3f6-6dd409462ec4
 					- The Grand Circle as a tree
+					  id:: 6a3a6340-296f-49aa-bb88-e523073cc177
 					  collapsed:: true
-						-
+						- Shoot system – Reductionism
+							- The canopy represents the phenomenal world – the infinite variety, complexity, and distinct forms of beings.
+							- The branches represent pluralism (đa nguyên), simplifying the chaos of the canopy into primary limbs.
+							- The trunk represents monism (nhất nguyên), the single, localized column anchoring everything above it.
+						- Root system – Vacantism
+							- It is decentralized, fluid, and infinitely branching, proving the bottom is not a dead end but the engine of live content.
+							- It mirrors the shoot system above – reflecting the principle of “as above, so below” – where the [geometric inversion](https://en.wikipedia.org/wiki/Inversive_geometry) transforms the reduction to $0$ into an expansion toward $∞$.
+							- Although completely invisible beneath the soil surface – explaining why emptiness is so easily ignored or misunderstood as a static void – this subterranean network is just as vast as the canopy, acting as the invisible, active ground of the entire structure.
+						- The Living Torus – The circular flow
+							- By bending the tree model until the tips of the canopy curve down to meet the deep root system, it forms a continuous torus, visually representing the circular effect flow through three distinct phases.
+							- Differentiation in the effect cone: The vacantistic ground generates various forms of beings into the canopy through the upward push of the shoot system.
+							- Mixmatching in the world interface: Each being spreads its effect out through the environment to interact with all other beings, forming an $N \times N$ matrix of interaction.
+								- This continuous exchange – where each being receives effects from all others to mixmatch with its own live content – actively drives the arrow of time.
+								- Finally, these world effects mixmatch with the root system through the ground, echoing the cultural idiom “lá rụng về cội” (葉落歸根, leaves fall back to their roots).
+									- English equivalents like “ashes to ashes, dust to dust” and “in my end is my beginning” capture this dissolution as a graceful natural law.
+							- Unification in the cause cone: The entire phenomenal world is absorbed by the root system to be integrated back into a coherent flow of effect, pumped back up the trunk.
 					- The Grand Circle as an effect flow
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- How the Grand Circle dissolves traditional paradoxes
@@ -338,7 +354,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					- Hence, $⟪0 = ∞⟫$, meaning _foundationless equals ∞-foundational_.
 						- Just like the word “priceless” means “$∞$ price”, not zero value, Vacantism means openness, not nothingness.
 					- Therefore, while the chain $N > \dots > 3 > 2 > 1 > 0$ appears as a continuous numerical reduction, the final step into $0$ completely flips the paradigm from reductionism to [holism](https://en.wikipedia.org/wiki/Holism).
-					- This last step is the **inductive root system** of the [tree of the Grand Circle](), mirroring the **deductive shoot sytem**.
+					- This last step is the **inductive root system** of the [tree of the Grand Circle](((6a3a6340-296f-49aa-bb88-e523073cc177))), mirroring the **deductive shoot sytem**.
 		- Trinion numbering
 		  collapsed:: true
 			- The equation ⟪○ = ↑⟫ is the One that unifies the Two opposites (○, ↑) via the Third (=). This is called ((69367cf5-9894-4fb8-a293-2b1109777fc9)) (☯). Hence, the Unïnfo seems to be [trialistic](https://en.wikipedia.org/wiki/Pluralism_(philosophy)) (due to the Three components), or [dualistic](https://en.wikipedia.org/wiki/Dualism_in_cosmology) (due to the Two opposites), or [monistic](https://en.wikipedia.org/wiki/Monism) (due to the One equation), but actually it's ((68b95b62-9e60-4ef2-9540-f563c76a5d17)) as reflected by the intrinsics of the Zero (the Trinion).

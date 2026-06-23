@@ -2226,10 +2226,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Gemini [helped me](https://g.co/gemini/share/52e6bf865a2f) find a new approach to solve my perfectionism: instead of abandoning or dismantling the holistic core, just **rotate** it! 😊
 					- This solution popped up in my mind on the way back home while i was reviewing the chat.
 					- “Rotating the holistic core” is the solid view of the *nonblocking circular effect flow* seen [last weekend](((6a2fd5d4-8b93-4b26-8ad1-f9ead9704c65))).
-					- ⇒
+					- ⇒ ((6a3a6340-296f-49aa-bb88-e523073cc177))
 			- 19th, chatted with Huy about the roots of all defintions, and with Gemini about the tree model of the Grand Circle.
 			  collapsed:: true
-				- Huy asked me to check this “fact”: if you keep follow first link on every wikipedia page, you will end up in... philosophy.
+				- Huy asked me to check this “fact”: if you keep follow first link on every Wikipedia page, you will end up in... philosophy.
 					- I led me to the philosophical root of all definitions, pluralism, dualism, monism... then non-foundationalism (vacantism).
 					- Then i wondered if the last “reduction” from monism to vacantism fits the “reductionsim”.
 					  ⇒ ((6a3a5f6d-40a6-4457-ad15-9ac0e9a51e5a))
