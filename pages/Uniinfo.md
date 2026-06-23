@@ -196,7 +196,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 				  collapsed:: true
 					- As a [cyclic order](https://en.wikipedia.org/wiki/Cyclic_order), the Grand Circle shows the vacantness of the Trinion that clears the illusion of a linear order from an absolute suppreme being or foundation to all things in the Universe. The Grand Circle has been traditionally symbolized by [the Ouroboros](https://en.wikipedia.org/wiki/Ouroboros), and its paradoxical impression is called “[strange loop](https://en.wikipedia.org/wiki/Strange_loop)” recently by Douglas Hofstadter.
 						- ![Escher - Drawing Hands - 1946.jpg](../assets/Uniinfo/Escher - Drawing Hands - 1946.jpg){:width 200, :height 150}
-				- Diagrams: various perspectives of the Grand Circle
+				- Diagrams: various ((6a3a62f4-15f1-4116-b3f6-6dd409462ec4))
 				  id:: 6a014961-66b5-4a4c-9756-c546eede6fd9
 				  collapsed:: true
 					- Triangle: The Grand Circle as the **ontology** of the Trinion
@@ -213,6 +213,12 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 						- The intricacy of this diagram reflects the [interconnectedness of all beings](((66eb7dae-2032-434b-9106-756d4aad7cdb))).
 					- [Chord diagram](https://en.wikipedia.org/wiki/Chord_diagram_(information_visualization)) of the cones in the circle of the Universe
 					  ![chord_diagram_example.png](../assets/Uniinfo/Unithread/chord_diagram_example.png){:width 400}
+				- Perspectives of the Grand Circle
+				  id:: 6a3a62f4-15f1-4116-b3f6-6dd409462ec4
+					- The Grand Circle as a tree
+					  collapsed:: true
+						-
+					- The Grand Circle as an effect flow
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- How the Grand Circle dissolves traditional paradoxes
 					  collapsed:: true
@@ -332,7 +338,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					- Hence, $⟪0 = ∞⟫$, meaning _foundationless equals ∞-foundational_.
 						- Just like the word “priceless” means “$∞$ price”, not zero value, Vacantism means openness, not nothingness.
 					- Therefore, while the chain $N > \dots > 3 > 2 > 1 > 0$ appears as a continuous numerical reduction, the final step into $0$ completely flips the paradigm from reductionism to [holism](https://en.wikipedia.org/wiki/Holism).
-					- This last step is the inductive root system of the [tree of the Grand Circle](), mirroring the reductive shoot sytem
+					- This last step is the **inductive root system** of the [tree of the Grand Circle](), mirroring the **deductive shoot sytem**.
 		- Trinion numbering
 		  collapsed:: true
 			- The equation ⟪○ = ↑⟫ is the One that unifies the Two opposites (○, ↑) via the Third (=). This is called ((69367cf5-9894-4fb8-a293-2b1109777fc9)) (☯). Hence, the Unïnfo seems to be [trialistic](https://en.wikipedia.org/wiki/Pluralism_(philosophy)) (due to the Three components), or [dualistic](https://en.wikipedia.org/wiki/Dualism_in_cosmology) (due to the Two opposites), or [monistic](https://en.wikipedia.org/wiki/Monism) (due to the One equation), but actually it's ((68b95b62-9e60-4ef2-9540-f563c76a5d17)) as reflected by the intrinsics of the Zero (the Trinion).
