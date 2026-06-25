@@ -308,12 +308,13 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					- The circular logic
 					  id:: 6a3ca168-4296-4d81-8d6d-a93b293a1da2
 					  collapsed:: true
-						- The illusion of linear logic
+						- The limitation of linear logic
+						  id:: 6a3ca19d-b4db-451d-a6c4-48e11c989743
 							- Traditional logic built vertical firewalls to banish circularity – which they treated as a fatal error – seeking safety in hierarchies.
 								- Bertrand Russell's **Type Theory** separated objects and sets to prevent self-inclusion.
 								- Alfred Tarski's **Semantic Hierarchy** separated object languages and metalanguages to prevent self-reference.
 							- These linear systems only prove things by turning the world into a one-way conveyor belt.
-								- They run into the **Agrippan Trilemma**: the absolute starting points – the axioms – are completely unprovable from within the system.
+								- They run into the [Agrippan Trilemma](https://en.wikipedia.org/wiki/M%C3%BCnchhausen_trilemma): the absolute starting points – the axioms – are completely unprovable from within the system.
 								- To start the conveyor belt, logicians must either rely on blind dogmatism, an infinite regress, or a forbidden loop.
 								- Tarski's **Indefinability Theorem** proved that arithmetical truth cannot be defined within the system itself.
 								- The linear system remains a silent engine until an external judge steps in to validate its meaning.
@@ -332,12 +333,11 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 							- The **deductive shoot system** branches upward into the air.
 								- It traces the consequences of axioms – the trunk flare – and splits into distinct leaves and logical parts.
 							- The **inductive root system** taps into the dark soil of direct experience.
-								- It draws up the intuitive nutrients of awareness to feed the trunk flare of axioms, which is also called root flare.
-							- The fruits of the shoot drop, decompose, and sink into the soil to feed the roots.
-								- This forms a perfect, self-sustaining, deductive–inductive circle.
+								- It draws up the intuitive nutrients of awareness to feed the trunk flare of axioms, which is also called root flare of postulates.
+							- The living torus: the fruits of the shoot drop, decompose, and sink into the soil to feed the roots.
+								- This forms a self-sustaining **deductive–inductive circle**.
 								- This loop proves the absolute **mutual necessity** of both systems, and the radical **insufficiency** of any single system in isolation.
-									- Without the roots, the shoot has no nutrient ground to stand on and dies of starvation.
-									- Without the shoot, the roots can produce no fruits to replenish the soil and decay into barrenness.
+								-
 						- The circular effect flow
 							- This is the living engine of reality – a continuous, self-generating current.
 							- It strips away the static illusion of the cause-and-effect timeline.
