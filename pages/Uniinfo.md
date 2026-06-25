@@ -269,7 +269,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 										- When the entire context graph is seen simultaneously, the ego-borders evaporate, and the system freezes in spacetime due to the perfect balance of the circle.
 									- To act and move on the flat stage of the world, a being must execute a skillful rotation – step down their dimensions to cast a specific, partial 2D shadow while keeping the infinite, wide-rooted volume intact within.
 						-
-					- The Grand Circle as an effect flow
+					- The circular effect flow
 					  id:: 6a3a6381-21b1-46ed-9eb6-e7aeff52c874
 					  collapsed:: true
 						- The Tension of the Two Views
@@ -340,15 +340,6 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 								- Different from the [circular reasoning fallacy](https://en.wikipedia.org/wiki/Circular_reasoning) which is a dry dead loop, this living circle is sustained by the wet root system of induction [crystallizing](((66faa5f9-0b7a-49ca-a5f5-62eeba03ab2b))) experiential content into logical forms, not by dry reasoning.
 									- The circle proves itself not by reasoning but by existence: The root system is proven by the life of the subject, and the shoot system is proven by the matching with objective reality.
 								- In Unïnfo, this living circle is called ((667c0031-0a87-44c9-9e98-6d45893b095f)).
-						- The circular effect flow
-							- This is the living engine of reality – a continuous, self-generating current.
-							- It strips away the static illusion of the cause-and-effect timeline.
-							- The effect does not sit as a passive destination, but loops back to become the cause of the next moment.
-								- The shoot feeds the root, which in turn feeds the shoot.
-								- The Subject projects the object, which in turn informs the Subject.
-							- The system achieves total stability and balance without needing to be frozen in stone, and without needing an external judge.
-								- The flow itself is the validation.
-								- The movement itself is the substance.
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- How the Grand Circle dissolves traditional paradoxes
 					  collapsed:: true
