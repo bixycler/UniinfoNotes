@@ -311,19 +311,19 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 						- The limitation of linear logic
 						  id:: 6a3ca19d-b4db-451d-a6c4-48e11c989743
 							- Traditional logic built vertical firewalls to banish circularity – which they treated as a fatal error – seeking safety in hierarchies.
-								- Bertrand Russell's **Type Theory** separated objects and sets to prevent self-inclusion.
-								- Alfred Tarski's **Semantic Hierarchy** separated object languages and metalanguages to prevent self-reference.
+								- Bertrand Russell's [Type Theory](https://en.wikipedia.org/wiki/Type_theory) separated objects and sets to prevent self-inclusion.
+								- Alfred Tarski's [Semantic Hierarchy](https://en.wikipedia.org/wiki/Semantic_theory_of_truth) separated object languages and metalanguages to prevent self-reference.
 							- These linear systems only prove things by turning the world into a one-way conveyor belt.
 								- They run into the [Agrippan Trilemma](https://en.wikipedia.org/wiki/M%C3%BCnchhausen_trilemma): the absolute starting points – the axioms – are completely unprovable from within the system.
 								- To start the conveyor belt, logicians must either rely on blind dogmatism, an infinite regress, or a forbidden loop.
-								- Tarski's **Indefinability Theorem** proved that arithmetical truth cannot be defined within the system itself.
+								- Tarski's [Indefinability Theorem](https://en.wikipedia.org/wiki/Tarski%27s_undefinability_theorem) proved that arithmetical truth cannot be defined within the system itself.
 								- The linear system remains a silent engine until an external judge steps in to validate its meaning.
 							- This linear architecture is modeled after a deep-rooted belief in linear time.
 								- It treats cause and effect as a straight arrow, unaware that life is a dynamic loop.
 						- Exposing the hidden substance
 							- By turning the gaze inward, we discover that the true foundation of any system is the conscious observer.
-							- This reality is preserved in the etymological roots of the word **Subject**:
-								- **Sub-ject** (*sub* + *jacere*): “that which is thrown underneath” – the invisible root system of pure awareness.
+							- This reality is preserved in the etymological roots of the word [subject](https://en.wiktionary.org/wiki/subject):
+								- **Sub-ject** (*sub* + *jacere*): “that which is thrown underneath” – the invisible root system of pure awareness be.
 								- **Sub-stance** (*sub* + *stare*): “that which stands underneath” – the trunk flare holding up the entire visible apparatus.
 							- Materialism flipped the coin to name hundreds of separate “substances” – like atoms, quarks, and biochemical compounds.
 								- It built an incredibly detailed map of the foliage, but treated each leaf as an isolated fragment.
@@ -338,7 +338,8 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 								- This forms a self-sustaining **deductive–inductive circle**.
 								- This loop proves the absolute **mutual necessity** of both systems, and the radical **insufficiency** of any single system in isolation.
 								- Different from the [circular reasoning fallacy](https://en.wikipedia.org/wiki/Circular_reasoning) which is a dry dead loop, this living circle is sustained by the wet root system of induction [crystallizing](((66faa5f9-0b7a-49ca-a5f5-62eeba03ab2b))) experiential content into logical forms, not by dry reasoning.
-									- The circle proves itself not by reasoning but by existence: The root system is proven by the life of the subject, and the shoot system is proven by the match
+									- The circle proves itself not by reasoning but by existence: The root system is proven by the life of the subject, and the shoot system is proven by the matching with objective reality.
+								- In Unïnfo, this living circle is called ((667c0031-0a87-44c9-9e98-6d45893b095f)).
 						- The circular effect flow
 							- This is the living engine of reality – a continuous, self-generating current.
 							- It strips away the static illusion of the cause-and-effect timeline.
