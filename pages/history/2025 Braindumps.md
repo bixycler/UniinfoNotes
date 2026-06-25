@@ -701,7 +701,7 @@ id:: 67760c3e-10a7-4621-8623-383f44bdaf3c
 		  CLOCK: [2025-05-07 Wed 17:42:22]
 		  :END:
 			- ((681b4678-686a-4d99-9163-6f60e0b30d2c))
-		- Last weekend, 23-25 May, i spent all time for ((6830645a-93b9-4c90-929f-8740f40c2b15))
+		- Last weekend, 23-25 May, i spent all my time for the ((6830645a-93b9-4c90-929f-8740f40c2b15))
 		  :LOGBOOK:
 		  CLOCK: [2025-05-26 Mon 20:12:45]
 		  :END:
