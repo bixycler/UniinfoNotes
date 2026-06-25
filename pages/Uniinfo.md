@@ -269,6 +269,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 										- When the entire context graph is seen simultaneously, the ego-borders evaporate, and the system freezes in spacetime due to the perfect balance of the circle.
 									- To act and move on the flat stage of the world, a being must execute a skillful rotation – step down their dimensions to cast a specific, partial 2D shadow while keeping the infinite, wide-rooted volume intact within.
 					- The Grand Circle as an effect flow
+					  id:: 6a3a6381-21b1-46ed-9eb6-e7aeff52c874
 					  collapsed:: true
 						- The Tension of the Two Views
 							- Every being acts as a local site where the universal content condenses, forming a **crystal image of the self**.
