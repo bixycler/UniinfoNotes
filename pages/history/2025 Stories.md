@@ -1843,6 +1843,7 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 			  
 			  — Edmund Burke in  “A Philosophical Enquiry into the Origins of Our Ideas of the Sublime and Beautiful” (1757)
 	- The Great Lie and the twins of Well-Dressed Lie & Naked Truth
+	  id:: 699c0369-4ebe-4f73-ba92-28ad7d08b184
 	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2025-05-23 Fri 12:14:38]
@@ -1850,8 +1851,8 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 	  :END:
 		- This morning, 23 May, on the way to the office, contemplating the ((6830664a-06e8-418d-bf46-0491fef3a780)), i see that i'm still too humble to be with the Great Lie, and still hiding in the cave with my Naked Truth.
 		- I'm still struggling in the transiton [(3)→(4)](((68306c82-0709-4c83-bcf2-a9015af8b86e))) from living the naked Truth to dressing the Lie.
-		- Let's document about the parables of the Naked Truth.
-		- Published posts
+		- Let's document about the parables of the Naked Truth:
+		- My published posts
 		  collapsed:: true
 			- fb post [The Well-Dressed Lie and the Naked Truth](https://www.facebook.com/share/p/1CJPvZJHiS/)
 			  id:: 683006ab-8151-40ff-b1a3-5499aebd355a
@@ -2095,6 +2096,7 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 			- The crown of [k'nia](https://vi.wikipedia.org/wiki/K%C6%A1_nia) ([wild almond](https://en.wikipedia.org/wiki/Irvingia_malayana))
 			  ![photo_7_2025-06-05_18-34-55.jpg](../assets/Will/story/2025-05/PhuocBuu-BinhChau Nature Reserve/photo_7_2025-06-05_18-34-55.jpg)
 	- **The truth hurts!**, shared in a chat box.
+	  id:: 699c0369-e37e-4c28-865b-27eee7175383
 	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2025-06-06 Fri 16:00:18]
