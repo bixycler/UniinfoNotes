@@ -2262,17 +2262,20 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Reading [112 meditation techniques](https://tantrasadhana.app/blog/vigyan-bhairav-tantra-kal-bhairav-reveals-112-techniques) in [Vijñāna Bhairava Tantra](https://en.wikipedia.org/wiki/Vij%C3%B1%C4%81na_Bhairava_Tantra), i see the meaning of my name – Samadhi: regardless of location, diving deep enough into any point, we eventually see God through the Grand Circle.
 					- But just like the Buddha, i don't find liberation there, but only the machinery of this world. I'm finding way to surface up!
 			- 23rd, almost entire work hours chatting with Gemini about religions, where i was remineded that the obop **sampling pattern** defines world.
-			- 24th,
+			- 24th, intrinsic balance by forces, circular logic, my wife's checkout
 			  collapsed:: true
 				- After the first sleep cycle (5h), which had been done early before the night routine, i meditated, took a bath... then the night routine (supposed to do last night) continued with a long session of [brainstorming](((6a3cb863-3a9b-4c3b-a517-501f13ed53bf))) and a chat with Gemini.
-				- cessation of static form = through (unobstructed) flow = continuous learning = acceptance of porosity of intent (inner form) = reduction of requirement = balance & whole by imbalance & parts
+				- cessation of static form = through (unobstructed) flow = continuous learning = acceptance of porosity of intent (inner form) = reduction of requirement = balance & whole by imbalance & parts = intrinsic balance by forces
 				  id:: 6a3cb863-3a9b-4c3b-a517-501f13ed53bf
 					- balance by counterbalance!
 					- > The Truth lies, and the Lie is telling the truth!
 					- _Dynamic **force**_ instead of linear process: force turns into momentum (unfolded) in favorable condition, force is reflected (folded) back in unfavorable condition.
 					- [Chatted with Gemini](https://g.co/gemini/share/35d640d13c81) about ((6a3ca168-4296-4d81-8d6d-a93b293a1da2))
 				- Then i took a short (1h) sleep to prepare for a long day planned for my wife.
-				- The entire day and night then was spent to check my wife out from the rehab center, with many issues and activities.
+				- The entire day and night then was spent to check out my wife from the rehab center, with many issues and activities.
+			- 25th, ...
+			  collapsed:: true
+				-
 		- Chrome tab zombie by Cognee webapp
 		  id:: 6a227a43-5fa1-4718-8cf7-3a57c8121bd5
 		  collapsed:: true
