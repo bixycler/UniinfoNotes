@@ -1464,3 +1464,1364 @@
 					- ((67836d26-c378-4cc2-9b8d-ecf9ee7f57c1))
 			- interunion
 			  id:: 67a9876d-03ee-4f1f-85be-619fb54c8bc6
+	- ## view
+	  id:: 66723642-58f1-4a74-bba3-0108f14c6bac
+	  collapsed:: true
+	  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((66727858-979d-4d95-8a90-7a749218cfba))
+	  ((6699e5f2-7788-46c7-8233-87699a65ca30)) ((66725144-6bc9-4c9f-ba48-2cef02651e52))
+	  ((66c80da7-c0e8-46d2-85e5-71318fd44eff)) ((66c811a1-b48b-4f91-9c47-b60be42ee7f4)), ((66c811a9-e8c7-42c5-bdc9-25fbd023f93a)), ((66c86420-37bf-4267-bd6f-8d683aaa42d8))
+		- view
+		  id:: 66c811a1-b48b-4f91-9c47-b60be42ee7f4
+		  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((66723642-58f1-4a74-bba3-0108f14c6bac))
+		- see
+		  id:: 66c811a9-e8c7-42c5-bdc9-25fbd023f93a
+		  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((66723642-58f1-4a74-bba3-0108f14c6bac))
+		- sense
+		  id:: 66c86420-37bf-4267-bd6f-8d683aaa42d8
+		  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((66723642-58f1-4a74-bba3-0108f14c6bac))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66723642-58f1-4a74-bba3-0108f14c6bac)) is an image of a ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) that is ((66c83149-6ee5-4a8c-b4eb-0308d1a11535))ed by a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) to a screen, a structure, or a mind (internal screen of the subject). There are many different views of the same ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) when being viewed from different ((667272b8-88a8-4928-a22a-35035c9edf05))s. Views can be as simple as a flat image, a single word, or as complicated as a ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)), a ((667259a0-aa2e-49fa-bcbd-b3768a9f30b2)), a ((6731b8c8-0ab1-4c16-8783-408258f67a4a)), etc. In a ((66723642-58f1-4a74-bba3-0108f14c6bac)), each ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) has a specific ((665ca429-84e3-49ff-921e-c07d19cd99ba)). All knowledge of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) about an object is no more than the forms of that object in all views of the subject.
+		  id:: 6672364a-2cc2-4360-a174-1e4432c67a16
+		- ((66725708-3dc4-43f5-a180-6b331c6a160f))
+		  collapsed:: true
+			- A ((66723642-58f1-4a74-bba3-0108f14c6bac)) in philosophy is a [perspective (point of view)](https://en.wikipedia.org/wiki/Perspectivism), which can be a [worldview](https://en.wikipedia.org/wiki/Worldview).
+			  id:: 66b1cfa4-3db2-4d2c-9b9f-478417632c97
+				- Nietzsche's [perspectivism](https://en.wikipedia.org/wiki/Perspectivism) formalized philosophies of [Protagoras](https://en.wikipedia.org/wiki/Protagoras) (pre-Socratic Greek), [Michel de Montaigne](https://en.wikipedia.org/wiki/Michel_de_Montaigne) (French Renaissance), and [Gottfried Leibniz](https://en.wikipedia.org/wiki/Gottfried_Leibniz) (German polymath).
+			- The central doctrine in Jainism is [Anekāntavāda](https://en.wikipedia.org/wiki/Anekantavada) meaning not-one-side emphasizes the nature of many different ((66723642-58f1-4a74-bba3-0108f14c6bac))s of the same thing.
+			- In Buddhism, a [view](https://en.wikipedia.org/wiki/View_(Buddhism)) is a product of [mental conditioning](https://en.wikipedia.org/wiki/Sankhara), and "[Right view](https://en.wikipedia.org/wiki/Noble_Eightfold_Path#Right_view)" is the neutral ((66723642-58f1-4a74-bba3-0108f14c6bac)) detached from all conditioning, escaped from the "jungle of views".
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+		- ### projection
+		  id:: 6653769c-3334-46fa-a1d5-4ce6a7fc23e8
+		  collapsed:: true
+		  ((66c80da7-c0e8-46d2-85e5-71318fd44eff)) ((66c83149-6ee5-4a8c-b4eb-0308d1a11535)), ((66c82fd4-41e3-43b0-b850-b2b68be68ad5))
+		  ((66c80da9-4cfb-4de7-b83d-8b70665207bf)) ((685a9913-6bf4-41e4-89d1-5000a2b2f9d5))
+			- project
+			  id:: 66c83149-6ee5-4a8c-b4eb-0308d1a11535
+			  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8))
+			- look
+			  id:: 66c82fd4-41e3-43b0-b850-b2b68be68ad5
+			  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8))
+			- projectional
+			  id:: 685a9913-6bf4-41e4-89d1-5000a2b2f9d5
+			  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) is a bundle of ((671b6f87-7492-4eab-af49-e3c89bc8c860)) from an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) to a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s image of that object. Projection is a special kind of ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) where the target form (image) is more ((66c8369a-ccb8-4f1f-b12b-bf7054cb79e4)) than the source form (object). This general projection via arrow is called ((670dd4d7-ed37-4954-8379-63138fa072d6)). That arrow can be a cone, hence ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)), or can be implemented by thread winding, hence ((67654ecb-896a-4421-95e5-f72c07fc62a4)), or by wrapping the thread around an axis, hence ((670cdcb4-3c85-45af-8c30-3c3284ed37df)).
+			  id:: 684f9517-449d-454f-a7e3-340fb5a57aa4
+				- Projection is the foundation of all arrows, defining the direction of arrow.
+				- In maths, a [projection](https://en.wikipedia.org/wiki/Projection_(mathematics)) is an [idempotent](https://en.wikipedia.org/wiki/Idempotence) [transformation](https://en.wikipedia.org/wiki/Transformation_(function)).
+			- ((66725725-f76a-4328-b162-f469b87e871b)) [projection (homography)](https://en.wikipedia.org/wiki/Homography) in [projective geometry](https://en.wikipedia.org/wiki/Projective_geometry), [projection](https://en.wikipedia.org/wiki/Projection_(mathematics)) and [mapping](https://en.wikipedia.org/wiki/Function_(mathematics)) in mathematics, [projective object](https://en.wikipedia.org/wiki/Projective_object) in [category theory](https://en.wikipedia.org/wiki/Category_theory)
+			  id:: 66b1cfa4-6de3-4a88-a14f-3265b6fd92e5
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- ((671b6f87-7492-4eab-af49-e3c89bc8c860)) ⇒ ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) ⇒ ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) ⇒ ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) ⇒ ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) ⇒ ((667d0b78-fff6-49bc-90d5-165648ed56d3)) ⇒ ((66c810a0-9861-4787-bdcf-1378219332be))
+				  id:: 671b5598-42a8-421d-a942-3819be212d50
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2024-10-25 Fri 15:23:55]
+				  :END:
+					- The **arrow of light** is directed by a *subject*, becoming a **projection**, in the form of **view cone**.
+					  id:: 671b5623-9f23-447f-b5be-5b87e4f72f83
+					- Each **transformation** is composed of many ((670ce218-a01f-4609-b7f2-beda7cf2ebc3))s, i.e. many ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))s through many eyes.
+					  id:: 67f4eaf0-b935-45ea-b8ba-b06cbfba5d23
+						- ![TransformationByViewcones](https://docs.google.com/drawings/d/e/2PACX-1vQkpgx-mFPxBN8-TEgjmYe3VUhnPDxCoT62R43d3qyz5VzxJoZkZtczBrbMNN3dCEuYSoC9_dpihS0I/pub?w=320)
+						- By the symmetry and complementarity between view cone and effect cone, each transformation is also composed of many ((667bd93a-cce4-4dbf-9831-725e4dffe463))s as well as many ((6851578b-9b1f-4367-878f-79b0b0b9be51))s.
+						  collapsed:: true
+							- ![TransformationByEffectcones](https://docs.google.com/drawings/d/e/2PACX-1vS_NccUxt6l8ZH-w6FLroH0Tdqk13aTgHXISTeqvMzRT_os8uz4LT6qHK6zvAvReD10lIycDQSzrHh5/pub?w=320)
+							- ![TransformationByCauseEffectCones](https://docs.google.com/drawings/d/e/2PACX-1vQ1w2XPdohxPmZUjcx-Yj0-jv5KEayhrBExDLvN9CyTmlTf-rpEf9Qlz_rZP0SZihm0gD_NlS8cG_7z/pub?w=320)
+					- Each **thread** is spun by *transformations of various forms*.
+					- Some threads are *solidified* into **relations** to weave the **body** (memory, knowledge, structure) of the subject itself.
+					- The subject uses the knowledge accumulated in its body to [direct the arrow of light](((671b5623-9f23-447f-b5be-5b87e4f72f83))), and so on.
+				- Arrow of ((66723642-58f1-4a74-bba3-0108f14c6bac))ing is an inverse projection from the current state back to some past instance, i.e. ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) <-> ((667bd931-8759-4008-8a9a-33e78a5cbdf3)).
+				  collapsed:: true
+					- Development of view over time:
+						- First, an `ex` object is mirrored to its `in` image.
+						  id:: 667aa63e-acc6-41b1-b716-f97a8afe41a1
+						  collapsed:: true
+							- In digital world, it's usually done statically with `copy`, or better dynamically with `embed`, `import`, `transclude`, etc.
+						- The `in` image will be modified to adapt to the needs of the subject, via which it's transformed.
+						  collapsed:: true
+							- The embedding/transcluding function of tools like ((66536e1b-6466-4153-90d6-583003d99a81)) lacks this feature.
+							- Revision control systems like `git`, ((66600918-6c84-41c7-afeb-96d30f74850b)) do this good, but lack the [dynamic mirror](((667aa63e-acc6-41b1-b716-f97a8afe41a1))) at the firs step.
+						- The accumulated change over time (and space internally) is the view of the `ex` object, and is expressed as ref arrow `in -> ex`.
+				- WAIT ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)) = ((66537674-6cf9-4459-8bea-7c1858c694a3)) of a view into a ((667d162c-16cf-44d3-81a5-29b1b885164f)) = compression = phase distinction in ((66f40210-cca6-4d81-85e7-d0c54ef20451)) winding
+				  id:: 671b29b6-68f7-47e1-b79c-f4d6284690a2
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2024-10-25 Fri 12:16:46]
+				  CLOCK: [2024-10-25 Fri 12:17:20]
+				  :END:
+					- The size of particle = resolution of the screen
+					- ((670cdcb4-3c85-45af-8c30-3c3284ed37df)) = memory of time by mapping the mixed up particles on screen to the linear order of particles in temporal memory
+			- arrow projection
+			  id:: 670dd4d7-ed37-4954-8379-63138fa072d6
+			  the most general type of projection.
+			- #### conic projection
+			  id:: 670ce218-a01f-4609-b7f2-beda7cf2ebc3
+			  :LOGBOOK:
+			  CLOCK: [2024-10-15 Tue 09:38:46]
+			  :END:
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667251ec-d4f7-4c09-adff-73e04a4b22ed))
+			  ((676545b3-2d9f-43af-8ff0-3543dbe73159))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The most common type of projection is ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)) where projection arrow is a ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)): the high-dimensional world in the cone or on the cone base is projected to a “flat” (low-dimensional) image at the cone apex.
+					- A two-way projection within a double cone is called ((68908fbd-acc3-41a6-8c38-17ee1f014223)).
+			- #### wrapping projection
+			  id:: 670cdcb4-3c85-45af-8c30-3c3284ed37df
+			  :LOGBOOK:
+			  CLOCK: [2024-10-14 Mon 16:04:06]
+			  :END:
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((67ee3a68-db55-49a9-947a-9399b4c3e3fa))
+			  ((676545e8-429c-41e7-97ed-12cc8e8870d4))
+				- pipe wrapping
+				  id:: 67ee3a68-db55-49a9-947a-9399b4c3e3fa
+				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((670cdcb4-3c85-45af-8c30-3c3284ed37df))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) For the world line $x = F(t)$, wrapping $F$ around the t-axis with circumference $dx$, i.e. with radius $dx/2\pi$, we have an image of $F$ projected on $t$ as a coil whose frequency reflects the derivative $dF/dt$ as well as the angle between $F(t_i)$ and $t$. When that frequency is mapped to the orthogonal axis $ν = f(t)$, that graph shows the distribution of the thread [on](((6653769c-3334-46fa-a1d5-4ce6a7fc23e8))) t-axis, whose probability density function is $f$ and cumulative distribution function is $F$. This wrapping projection is the basis for [analysis](https://en.wikipedia.org/wiki/Analysis) in ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) including the [clasical mathematical analysis](https://en.wikipedia.org/wiki/Mathematical_analysis), [vector analysis](https://en.wikipedia.org/wiki/Vector_calculus), and [statistics](https://en.wikipedia.org/wiki/Statistics).
+				  id:: 67f4eaf0-d05b-4e28-9683-524980ee7021
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- wrapping projection = disk projection is the orthogonal version of the diagonal ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)).
+					  id:: 670cdd0c-a423-463e-a816-952884c57f88
+						- wrapping projection is within the space only, while cone projection is the diagonal between space and time.
+					- n-th term in Fourier series = wrapping with $dr_0/n$
+			- #### winding projection
+			  id:: 67654ecb-896a-4421-95e5-f72c07fc62a4
+			  :LOGBOOK:
+			  CLOCK: [2024-12-20 Fri 18:21:59]
+			  :END:
+			  ((67654618-70d2-49cd-88b7-f7c4e161dfd9))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8))
+		- ### observation
+		  id:: 66c835e9-83df-4f36-a133-e5ba5926e4ef
+		  collapsed:: true
+		  ((66c80da7-c0e8-46d2-85e5-71318fd44eff)) ((66c835f1-29a9-4e07-90b8-92bcd89cdb9b)), ((66c835f5-58ee-485f-914c-3d95167feeb3))
+			- observe
+			  id:: 66c835f1-29a9-4e07-90b8-92bcd89cdb9b
+			  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((66c835e9-83df-4f36-a133-e5ba5926e4ef))
+			- watch
+			  id:: 66c835f5-58ee-485f-914c-3d95167feeb3
+			  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((66c835e9-83df-4f36-a133-e5ba5926e4ef))
+		- ### viewpoint
+		  id:: 667272b8-88a8-4928-a22a-35035c9edf05
+		  collapsed:: true
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((68a7d02b-ebf4-4356-a98a-e881ae817f6a)), ((66728236-5b19-425c-bb5f-dfc0dc8b79fd))
+			- center of projection
+			  id:: 66728236-5b19-425c-bb5f-dfc0dc8b79fd
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667272b8-88a8-4928-a22a-35035c9edf05))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667272b8-88a8-4928-a22a-35035c9edf05)) is the position of the sensor (of the subject) where the world is projected to the coresponding ((66723642-58f1-4a74-bba3-0108f14c6bac)).
+			  id:: 66728162-7ad9-4b46-b7ce-dfffc58254bc
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- "Point of view" is an ambiguous term, whose literal meaning is a ((667272b8-88a8-4928-a22a-35035c9edf05)), but its figurative meaning is a ((667259a0-aa2e-49fa-bcbd-b3768a9f30b2)).
+		- ### view scale
+		  id:: 68c763ce-b8e4-4091-b3b8-e188a16ea431
+		  collapsed:: true
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((68c763fb-ca93-4f2d-b20f-ae8cbf5cf8e2))
+			- viewscale
+			  id:: 68c763fb-ca93-4f2d-b20f-ae8cbf5cf8e2
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((68c763ce-b8e4-4091-b3b8-e188a16ea431))
+			- collapsed:: true
+		- ### view cone
+		  id:: 6672513b-c4b0-4c88-8b30-c60a3c6555a7
+		  collapsed:: true
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((667251ec-d4f7-4c09-adff-73e04a4b22ed)), ((667259a0-aa2e-49fa-bcbd-b3768a9f30b2)), ((667bda02-8dc9-488e-ba16-ea75c3d7895c)), ((670ce218-a01f-4609-b7f2-beda7cf2ebc3))
+		  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((667bd931-8759-4008-8a9a-33e78a5cbdf3))
+			- viewcone
+			  id:: 667251ec-d4f7-4c09-adff-73e04a4b22ed
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))
+			- perspective
+			  id:: 667259a0-aa2e-49fa-bcbd-b3768a9f30b2
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))
+			- cause cone
+			  id:: 667bda02-8dc9-488e-ba16-ea75c3d7895c
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When the large world is ((66c83149-6ee5-4a8c-b4eb-0308d1a11535))ed to a little image, it creates a [cone](https://en.wikipedia.org/wiki/Cone) shape called ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)), whose base is the world and apex is the ((66728236-5b19-425c-bb5f-dfc0dc8b79fd)). The ((68875ace-d35f-44c6-9a9f-e7f7fc29f19d)) from the base to the apex is opposite to the ((68875bab-dd31-4bbd-bd31-3a821fc5310c)) from the apex to the base.
+				- view cone of an ((669a2487-054d-4408-ae41-189e34af81a9))
+					- ![ViewCone](https://docs.google.com/drawings/d/e/2PACX-1vTyqULvkXhaHRWBNVjM6jxDCuMnoh-o7n7bAMm7hOSGlRtL42FL59z4Dpey-4Sbo9bzkJVE-AQ9RFj1/pub?w=145&h=125)
+			- ((66725725-f76a-4328-b162-f469b87e871b))
+			  id:: 66725708-3dc4-43f5-a180-6b331c6a160f
+				- The [cone of vision](https://courses.byui.edu/art110_new/art110/week02/cone_of_vision.html) ([visual cone](https://handprint.com/HP/WCL/perspect1.html#fact3)), [visual field](https://en.wikipedia.org/wiki/Visual_field), [field of view](https://en.wikipedia.org/wiki/Field_of_view) in human & computer vision
+				  id:: 673a17a7-0094-4f4d-bd79-525e7f803b50
+				  collapsed:: true
+					- The cone of vision is the closest example of a viewcone.
+					- There are many terms around this cone of vision and perspective projection.
+						- visual rays = lines of sight (sight lines) = rays from eye to (points of) objects
+							- The central visual ray (central sight line) is the [viewing direction](((6739f671-fe51-4f10-ba24-b492b62fe932))) and is also ambiguously called “the sight line”.
+						- ((68875bab-dd31-4bbd-bd31-3a821fc5310c)) (direction of view, viewing ray, principal visual ray) = axis of the visual cone
+						  id:: 6739f671-fe51-4f10-ba24-b492b62fe932
+						- principal (orthogonal) lines = lines parallel to the viewing direction in 3D corresponding to image lines converging to the [principal vanishing point](((673a04c4-6c6a-4b75-b336-45a8f149550d)))
+						  id:: 6739fd3d-066d-46a6-b9f3-3dbab8c9d817
+						- ((68a7d179-b663-42bd-85b9-6c18be6b6c97)) = ((68a7d163-32b3-4903-8f4b-a45f7fac6b51)) is the plane where the world is projected onto.
+						- ((66728236-5b19-425c-bb5f-dfc0dc8b79fd)) = ((68a7d02b-ebf4-4356-a98a-e881ae817f6a)) = apex of the view cone is the point where all light rays converge.
+						- perspective lines = orthogonals = parallel lines in 3D with image lines converging to a [vanishing point](((673a0211-a4ef-4548-acc5-f9141de253cb)))
+						  collapsed:: true
+							- Many ones define “orthogonal lines” as just the parallel lines with converging image lines, like [in Creative Glossary](http://www.creativeglossary.com/art-perspective/orthogonal-lines.html), [in GCELT](https://gcelt.org/what-are-converging-lines-in-art-unveiling-the-power-of-perspective/), [by DonCorgi](https://doncorgi.com/blog/types-of-perspective-drawing/), [in Rapid Fire Art](https://rapidfireart.com/2017/07/18/lesson-6-introduction-to-linear-perspectives/), [by Ms. Chang](http://www.mschangart.com/architecture/perspective-drawing), [by Helen South](https://www.liveabout.com/orthogonals-drawing-definition-1123067), etc.
+								- Here, “orthogonal” can be understood as one in the 3 sets of parallel lines of the the cube which are perpendicular to each other in three-point perspective.
+							- Only [Bruce MacEvoy at Handprint](https://handprint.com/HP/WCL/perspect1.html) defines “orthogonal” as “perpendicular to the image plane”.
+							- The term “orthogonal” seems to originate from the forward lines perpendicular to the image plane in one-point perspective, in constrast with the [transversals](((673ab08d-2389-4306-a7ee-6970e17018c6))). But then, the notion has been generalized to any parallel lines in 2-point & 3-point perspective.
+								- In Live About, [Helen South explains](https://www.liveabout.com/orthogonals-drawing-definition-1123067) the term “orthogonals” in both senses: perpendicular to the image plane and perpendicular to other set of orthogonals.
+						- transversals = parallel lines with image lines don't converge (because they are parallel to the image plane)
+						  id:: 673ab08d-2389-4306-a7ee-6970e17018c6
+						  collapsed:: true
+							- Many ones define “transversal lines” as “lines parallel to the image plane” like [in Rapid Fire Art](https://rapidfireart.com/2017/07/18/lesson-6-introduction-to-linear-perspectives/), [by Helen South](https://www.liveabout.com/orthogonals-drawing-definition-1123067), etc.
+							- Only [Bruce MacEvoy at Handprint](https://handprint.com/HP/WCL/perspect1.html) defines “transversal” as “parallel to the ground line”.
+						- vanishing point = the virtual point only on image plane (not in 3D) [where parallel lines converge](https://en.wikipedia.org/wiki/Vanishing_point)
+						  id:: 673a0211-a4ef-4548-acc5-f9141de253cb
+							- principal (or central vanishing) point = the vanishing point of the [principal lines](((6739fd3d-066d-46a6-b9f3-3dbab8c9d817)))
+							  id:: 673a04c4-6c6a-4b75-b336-45a8f149550d
+						- vanishing line = the virtual line only on image plane (not in 3D) [where parallel planes meet at infinity](https://en.wikipedia.org/wiki/Vanishing_point#Vanishing_line)
+							- “vanishing lines” is also ambiguously used to refer to the image of parallel lines, as shown [in Merriam Webster dictionary](https://www.merriam-webster.com/dictionary/vanishing%20line) and some pages like [this article by Kiyeon Kim](https://www.tomboweurope.com/en/inspiration/perspective-drawing)
+				- The past [light cone](https://en.wikipedia.org/wiki/Light_cone) in physics is a ((667251ec-d4f7-4c09-adff-73e04a4b22ed)).
+				- A ((667251ec-d4f7-4c09-adff-73e04a4b22ed)) in a network is a ((667252dc-e610-4d07-bcd0-9ea6fb4499fd)).
+			- eye point
+			  id:: 68a7d02b-ebf4-4356-a98a-e881ae817f6a
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((667272b8-88a8-4928-a22a-35035c9edf05)), ((66728236-5b19-425c-bb5f-dfc0dc8b79fd))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68a7d02b-ebf4-4356-a98a-e881ae817f6a)) is the apex of the ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) where all ((671b6fee-d1e3-43f0-a5a5-7033e48d6e56))s converge.
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- In biological eye, ((68a7d02b-ebf4-4356-a98a-e881ae817f6a)) is the [nodal point of the eye](https://en.wikipedia.org/wiki/Cardinal_point_(optics)#Nodal_points_and_the_eye).
+			- projecting direction
+			  id:: 68875ace-d35f-44c6-9a9f-e7f7fc29f19d
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68875ace-d35f-44c6-9a9f-e7f7fc29f19d)), denoted by a solid-head arrow, is the ((66e42d39-a296-4ed9-a686-4cb213783830)) of the central ((671b6f87-7492-4eab-af49-e3c89bc8c860)) of the ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) corresponding to the view, i.e. the direction from the world to the eye.
+				- light ray direction
+				  id:: 6887607a-6282-4400-a240-9168b9a3f368
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Each ((671b6f87-7492-4eab-af49-e3c89bc8c860)) has a different ((6887607a-6282-4400-a240-9168b9a3f368)), but all of them converge to the eye. The central light ray direction is the ((68875ace-d35f-44c6-9a9f-e7f7fc29f19d)).
+						- Note: light ray direction is opposite to the [shading](https://en.wikipedia.org/wiki/Shading) “light direction” from the shaded surface to the light source.
+						  id:: 6887625c-db24-4ecf-a154-3aedb390afd3
+			- viewing direction
+			  id:: 68875bab-dd31-4bbd-bd31-3a821fc5310c
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68875bab-dd31-4bbd-bd31-3a821fc5310c)), denoted by a hollow-head arrow, is the ((66e42d39-a296-4ed9-a686-4cb213783830)) from the eye to the observed object.
+					- Note: viewing direction is opposite to the [3D graphics](https://en.wikipedia.org/wiki/3D_computer_graphics) “view direction” from the object to the camera.
+					  id:: 68876434-f1f3-4dda-975f-496594ef762e
+			- image plane
+			  id:: 68a7d163-32b3-4903-8f4b-a45f7fac6b51
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((68a7d179-b663-42bd-85b9-6c18be6b6c97))
+				- projection plane
+				  id:: 68a7d179-b663-42bd-85b9-6c18be6b6c97
+				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((68a7d163-32b3-4903-8f4b-a45f7fac6b51))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68a7d163-32b3-4903-8f4b-a45f7fac6b51)) is the plane where the world is projected onto, i.e. the place where all projected images stay.
+					- In possitive obop, whose all layers share the same ((68a7d02b-ebf4-4356-a98a-e881ae817f6a)), the projection plane is before the projection center;
+					- in negative obop with many distinct eye points, the projection plane is behind the corresponding projection center.
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- In biological eye (a negative obop), ((68a7d163-32b3-4903-8f4b-a45f7fac6b51)) is the [retina](https://en.wikipedia.org/wiki/Retina).
+			- #### tree view
+			  id:: 667252dc-e610-4d07-bcd0-9ea6fb4499fd
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2024-06-21 Fri 15:28:24]
+			  :END:
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((667252dc-e610-4d07-bcd0-9ea6fb4499fd)) is a ((667251ec-d4f7-4c09-adff-73e04a4b22ed)) in a ((667d1a95-b621-49cd-8a72-a074c963c92a)), representing a part of that network in a [tree structure](https://en.wikipedia.org/wiki/Tree_structure). [Its structure](((667530ed-809b-4d38-8522-1ae6c8449e28))) is projected from the [biological tree](((6674066a-aeff-45af-96df-b0c2f278a2ae))) and it's usually represented by ((667500cd-a31d-4828-9dc4-93948e27e534)).
+				- Structure
+				  id:: 667530ed-809b-4d38-8522-1ae6c8449e28
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2024-06-21 Fri 15:32:49]
+				  :END:
+					- branch
+					  id:: 66740680-9724-4a67-a2c3-40f8056eb882
+					  collapsed:: true
+					  [branch](https://en.wikipedia.org/wiki/Branch) = stem node (including branch stalk) + [stem line](https://en.wikipedia.org/wiki/Plant_stem) + sub-branches
+						- bud
+						  collapsed:: true
+						  [bud](https://en.wikipedia.org/wiki/Bud) = collapsed branch
+							- Abuse of language with "node"
+							  collapsed:: true
+								- Bud = collapsed node
+								- Branch = expanded node
+						- [!] In [data structure tree](((66751015-5c34-493e-9663-4f0f5234b66e))), each edge/link is usually called a "branch" which is confused. Actually, each edge is a stalk, and a branch (or a [shoot](https://en.wikipedia.org/wiki/Shoot_(botany))) is the whole subtree.
+						- shoot
+						  id:: 66751bd8-196d-4d66-a1fc-4df9155756ab
+						  [shoot](https://en.wikipedia.org/wiki/Shoot_(botany)) = a branch developing up above the ground
+						  ((691ae2bd-a60f-4db2-8132-bf54e9dee1b0)) ((699c0362-25aa-448b-b280-9076ca0619c8))
+							- While "shoot" can refer to the whole branch, it is usually just the young part that is "shooting" at the tip of a branch.
+					- stem node
+					  id:: 66751b3b-5fd0-4efd-a43c-db2c4930ae4f
+					   = the ((66740a44-3221-41c4-90d6-14068b74b38f)) at the base of the branch = the point where this branch is branched off from its stem.
+						- The stem node corresponds to the the [branch collar](https://en.wikipedia.org/wiki/Branch_collar) in the biological tree.
+					- stem line
+					  id:: 66740af5-032a-4cb1-9c97-0e4d3933ab9b
+					   = internode segments + node branching points
+					- stem circle
+					  id:: 667bebeb-7f20-4d03-b860-1653c3137710
+					   = folded ((66740af5-032a-4cb1-9c97-0e4d3933ab9b)) = boundary of ((66751b3b-5fd0-4efd-a43c-db2c4930ae4f))
+					- node
+					  id:: 66740a44-3221-41c4-90d6-14068b74b38f
+					  collapsed:: true
+					   = node stalk + node body
+						- branch stalk = stalk of (branch) stem node (internal node)
+						- leaf stalk = stalk of leaf node (terminal node)
+						- If stem node is an ((66537674-6cf9-4459-8bea-7c1858c694a3)) of the whole branch, then node stalk is a further abstraction of that node.
+						  collapsed:: true
+							- ((66752164-1227-490c-8182-7949e4eb501d))
+						- No clear distinction between "node stalk" and "node body" [in biological tree](https://en.wikipedia.org/wiki/Branch_attachment).
+						  collapsed:: true
+							- For terminal parts ([bud](https://en.wikipedia.org/wiki/Bud), [leaf](https://en.wikipedia.org/wiki/Leaf), [flower](https://en.wikipedia.org/wiki/Flower), [fruit](https://en.wikipedia.org/wiki/Fruit)), the node stalk is the bud trace internally and the leaf/flower/fruit stalk externally, clearly distinct from the bud/leaf/flower/fruit itself.
+							- In a branch with non-terminal parts, the branch ((66751b3b-5fd0-4efd-a43c-db2c4930ae4f)) is defined as the "node" on the stem where this branch is branched off. But because there's no clear definition of "node" in this case, there's no clear distinction between "node stalk" and "node body".
+								- The "node stalk" can be, internally, a node trace (branch/bud/leaf trace), a nodal cone ([knot](https://en.wikipedia.org/wiki/Wood#Knots)), or externally, a branch bark ridge.
+								- The "node body" can be considered as the base of this branch which can be seen externally as the [branch collar](https://en.wikipedia.org/wiki/Branch_collar).
+					- root
+					  id:: 699c0362-25aa-448b-b280-9076ca0619c8
+					  [root](https://en.wikipedia.org/wiki/Root) = inverse ((66740680-9724-4a67-a2c3-40f8056eb882))
+					  ((691ae2bd-a60f-4db2-8132-bf54e9dee1b0)) ((66751bd8-196d-4d66-a1fc-4df9155756ab))
+						- While a normal/direct/upward branch is a shoot, an inverse/downward branch is a root.
+					- tree
+					  id:: 699c0362-0f54-4ab5-a807-9e1ad3b9d599
+					  [tree](https://en.wikipedia.org/wiki/Tree) = ((66751bd8-196d-4d66-a1fc-4df9155756ab)) system + ((699c0362-25aa-448b-b280-9076ca0619c8)) system = "leaf tree" + "root tree" = ((667bd931-8759-4008-8a9a-33e78a5cbdf3)) + ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) = double cone = ((66725144-6bc9-4c9f-ba48-2cef02651e52))
+						- Diagram of a tree via the [Seal Script of character 木](https://commons.wikimedia.org/wiki/File:%E6%9C%A8-seal.svg)
+						  collapsed:: true
+							- ![木-seal-roots-shoots.png](../assets/ecosystem/木-seal-roots-shoots.png){:width 100}
+							- This form coincides with the letter ⵣ (Yaz) in the [Tifinagh alphabet](https://en.wikipedia.org/wiki/Tifinagh) – the symbol of the Amazigh people.
+							- Ref: [Căn bản, gốc rễ, cội nguồn](https://creatzynotes.blogspot.com/2021/05/can-ban-goc-re.html)
+						- base node
+						  id:: 667bd594-66b8-4c0e-89a0-8088cbe2e1f6
+						  = ((66751b3b-5fd0-4efd-a43c-db2c4930ae4f)) of the whole tree
+						  ((665359e4-4597-4775-b849-f9acbb98960a)) ((699c0362-dcfd-46d8-8140-ba5379c2de0b))
+							- The base node is the **common stem node** of both shoot system and root system. In the biological tree, the base node is the [trunk (bole)](https://en.wikipedia.org/wiki/Trunk_(botany)), or narrowly only the trunk flare (root flare/collar).
+							- root node
+							  id:: 699c0362-dcfd-46d8-8140-ba5379c2de0b
+							  collapsed:: true
+							  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bd594-66b8-4c0e-89a0-8088cbe2e1f6))
+								- Normally, the root system is not expanded but folded into a single "root node" in the tree, because the root branches are usually out of sight.
+								- The figurative meaning of the word “root” is captured by the "root node", which is technically not the whole root system, but can colloquially refer to the whole root in a collapsed view.
+				- Branching styles
+				  collapsed:: true
+					- Refs:
+						- [Introduction to vascular plant structure > Branching](https://www.digitalatlasofancientlife.org/learn/embryophytes/tracheophytes/branching/)
+					- lateral branching
+					  id:: 667bdced-76f1-4023-9352-dee24dcbf415
+						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bdced-76f1-4023-9352-dee24dcbf415)) is the branching [from the main stem to the lower-level branch](https://en.wikipedia.org/wiki/Branch_attachment). This is the primary branching mechanism in ((667252dc-e610-4d07-bcd0-9ea6fb4499fd)) and is used in ((66750135-8c59-477c-8baf-cb3898d54559)) and ((66750416-093a-4042-bb6d-78702c219c36)).
+						- Diagram:
+						  collapsed:: true
+							- ![Lateral-branching.png](../assets/ecosystem/Lateral-branching.png)
+					- apical branching
+					  id:: 667bdf2a-005c-4a19-93bd-bda5d076981a
+					  ((665359e4-4597-4775-b849-f9acbb98960a)) ((699c0362-2ee4-4b14-9485-e9b28c71a497))
+						- dichotomous branching
+						  id:: 6a0ffbed-af7b-4fd3-81e2-9b924204a5a2
+						  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bdf2a-005c-4a19-93bd-bda5d076981a))
+						- folking
+						  id:: 699c0362-2ee4-4b14-9485-e9b28c71a497
+						  collapsed:: true
+						  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bdf2a-005c-4a19-93bd-bda5d076981a))
+							- sympodial branching
+							  id:: 6a0ffc7e-3616-4202-aab1-4f49e5ba5115
+							  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((699c0362-2ee4-4b14-9485-e9b28c71a497))
+								- Sympodial branching is also call [folk branching](https://en.wikipedia.org/wiki/Tree_fork).
+								- Note: In botany, sympodial branching is distinguished from ((6a0ffbed-af7b-4fd3-81e2-9b924204a5a2)) by the internal mechanism.
+									- Dichotomy branching is the actual split of the apical meristem (the tip).
+									- Whereas sympodial branching is the growth of the side buds, like in ((667bdced-76f1-4023-9352-dee24dcbf415)), when the main tip stops growing.
+						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bdf2a-005c-4a19-93bd-bda5d076981a)) is the branching of the stem into N equal branches, instead of the stem/branch discrimination. This is a secondary branching mechanism used in ((66751015-5c34-493e-9663-4f0f5234b66e)).
+							- Forking can be done with ((667bdced-76f1-4023-9352-dee24dcbf415)) by considering the folk point to be a collapsed ((667bebeb-7f20-4d03-b860-1653c3137710)) containing N nodes corresponding to N branches there, i.e. ((6a0ffc7e-3616-4202-aab1-4f49e5ba5115)).
+						- Diagram:
+						  collapsed:: true
+							- Diagram:
+								- ![Dichotomous-branching.png](../assets/ecosystem/Dichotomous-branching.png)
+					- circular branching
+					  id:: 684f9517-f730-4fc8-8162-05b594cd92cd
+						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((684f9517-f730-4fc8-8162-05b594cd92cd)) is the branching into many equal branches around a ((667bebeb-7f20-4d03-b860-1653c3137710)). This is the branching structure of ((66751015-5c34-493e-9663-4f0f5234b66e)).
+							- The stalk connecting to the parent node is considered also a branch branched off from the stem circle, which is called the ((699c0362-22fd-4228-895a-6adf1a1a0497)).
+							- The biological analogies of stem circle are [bulblike stems](((686b8a52-50bf-43bd-a5b3-d2387b8da5ac))) like stem tubers 🥔 or corms.
+						- base branch
+						  id:: 699c0362-22fd-4228-895a-6adf1a1a0497
+						  collapsed:: true
+						   = branch at 0° = stalk of stem node = branch stalk to the parent node
+							- When viewed as a [rooted tree](https://en.wikipedia.org/wiki/Tree_(graph_theory)#Rooted_tree), the base branch is the back-branch to the parent node.
+						- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+							- The ((667bebeb-7f20-4d03-b860-1653c3137710)) integrates the branch equality of ((667bdf2a-005c-4a19-93bd-bda5d076981a)) into the ((66740af5-032a-4cb1-9c97-0e4d3933ab9b)) of ((667bdced-76f1-4023-9352-dee24dcbf415)).
+							  collapsed:: true
+								- The stem circle has more branch equality than ((667bdf2a-005c-4a19-93bd-bda5d076981a)) because the stalk of the stem node is just a branch stalk to the parent node, and the whole tree is just an [unrooted tree](https://en.wikipedia.org/wiki/Unrooted_binary_tree).
+								- The stem circle adds temporal lineage (time) to the branching structure (space) of the data structure tree.
+									- The stem circle says to the pure spatial data structure tree:
+										- The stem line isn't gone.
+										- It just curled into the node,
+											- folded like memory,
+											- condensed like a tuber,
+											- paused like a dormant bud.
+										- The time is just **coiling up in space**!
+				- Representation
+				  :LOGBOOK:
+				  CLOCK: [2024-06-21 Fri 15:32:54]
+				  :END:
+					- Beside [tree diagrams](((667500cd-a31d-4828-9dc4-93948e27e534))), a [tree structure](https://en.wikipedia.org/wiki/Tree_structure) can be represented by a ((66752fbf-a751-4117-ae0d-17d9a19053e4)).
+				- tree diagrams
+				  id:: 667500cd-a31d-4828-9dc4-93948e27e534
+					- 3 tree diagrams of the same tree, showing their [components](((667530ed-809b-4d38-8522-1ae6c8449e28)))
+					  collapsed:: true
+						- ![Tree diagrams](https://docs.google.com/drawings/d/e/2PACX-1vQJx4zwkWxi4NfSgmP_7bQDHRJHOvNC2ogW5AwHTgTAukPOgr28PviR_A-Aoy8QD559WXyKpgrJ3u_Q/pub?w=800)
+						- From Monopodial to Sympodial via Orthogonal
+							- The **Monopodial** drives a continuous spine,
+							  A single-axis backbone of heavy design.
+							  It carries the momentum of river and sap,
+							  An unbroken mainline on nature's raw map.
+							- The **Orthogonal** shifts to a modular grid,
+							  Where the linear axis is measured and split.
+							  Stepping out at right angles with stem and a stalk,
+							  It aligns the GUI view where our interfaces walk.
+							- At last the long highway is folded and spun,
+							  And the **Sympodial** axis collapses to one.
+							  Branching outward together from core to the shore,
+							  It radiates topology, open and pure.
+					- monopodial tree 
+					  id:: 66750135-8c59-477c-8baf-cb3898d54559
+					  collapsed:: true
+						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In ((66750135-8c59-477c-8baf-cb3898d54559)), the nodes are placed right on the ((66740af5-032a-4cb1-9c97-0e4d3933ab9b)), becoming the branching points (or branch points) for the side branches shooting from those nodes. That means there are _no stalks_ in monopodial tree.
+							- ((66725725-f76a-4328-b162-f469b87e871b)) The core (structural axis and main conduit) of a [biological tree](((6674066a-aeff-45af-96df-b0c2f278a2ae))) and [river system](https://en.wikipedia.org/wiki/Drainage_system_(geomorphology)), the syntax tree of language
+					- orthogonal tree
+					  id:: 66750416-093a-4042-bb6d-78702c219c36
+					  collapsed:: true
+						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) An ((66750416-093a-4042-bb6d-78702c219c36)) is similar to a ((66750135-8c59-477c-8baf-cb3898d54559)) but each node are separated from the stem line by a **node stalk**, either branch stalk or leaf stalk. That means the branching point is now separated from the node and becomes the joint between the stem line and the stalk.
+							- The stalk can be represented by a short line, an arrow, an icon, or just a space between the node and its parent stem line.
+							  id:: 66752164-1227-490c-8182-7949e4eb501d
+						- ((66725725-f76a-4328-b162-f469b87e871b)) [GUI tree view](https://en.wikipedia.org/wiki/Tree_view), , the syntax tree of language
+						- There's an artistic style of tree view where stem line is drawn as a long brace `{` and its stem node is placed in the middle.
+						  id:: 6675279b-214e-43e4-81b9-14b43026ec67
+						  collapsed:: true
+							- ![ENC_SYSTEME_FIGURE.jpeg](https://upload.wikimedia.org/wikipedia/commons/5/58/ENC_SYSTEME_FIGURE.jpeg)
+					- sympodial tree
+					  id:: 66751015-5c34-493e-9663-4f0f5234b66e
+					  collapsed:: true
+						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66751015-5c34-493e-9663-4f0f5234b66e)) is constructed from an ((66750416-093a-4042-bb6d-78702c219c36)) by folding the stem line into the boundary of the stem node, which is called ((667bebeb-7f20-4d03-b860-1653c3137710)), forming a ((684f9517-f730-4fc8-8162-05b594cd92cd)) structure where node stalks become branch edges. That means all edges are node stalks, and no stem lines are shown explicitly in sympodial tree.
+						- ((66725725-f76a-4328-b162-f469b87e871b)) [data structure tree](https://en.wikipedia.org/wiki/Tree_(data_structure)), the shore (terminal boundary and diffusing network) of a [biological tree](((6674066a-aeff-45af-96df-b0c2f278a2ae))) and [river system](https://en.wikipedia.org/wiki/Drainage_system_(geomorphology))
+						- There's an artistic style of structure tree, usually used in [mind map](https://en.wikipedia.org/wiki/Mind_map)s, where the node is collapsed into a branching point and its stalk is used to name/describe that node.
+						  collapsed:: true
+							- ![Snag_MindMap.png](../assets/GUI/Snag_MindMap.png)
+							- Another style renders similar to [an artistic style of tree view](((6675279b-214e-43e4-81b9-14b43026ec67)))
+							  ![Cranial_nerves.PNG](https://upload.wikimedia.org/wikipedia/commons/3/39/Cranial_nerves.PNG)
+					- Collection of diagrams with annotation
+					  collapsed:: true
+						- ![Folder_Tree_View.png](../assets/GUI/Folder_Tree_View.png)
+						- ![horizontal-tree-view-blanced.png](../assets/GUI/horizontal-tree-view-blanced.png)
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- Confusions between ((667500cd-a31d-4828-9dc4-93948e27e534))
+					  id:: 6a0ef10f-4d01-4012-81e7-571da3b8c71b
+					  collapsed:: true
+						- Sympodial tree versus monopodial tree: similar shape of nodes and edges, different meaning!
+							- Edge complementarity: While each edge in monopodial tree is an **internode** segment of a stem line, every edge in sympodial tree is a **stalk**. While monopodial tree has no stalks, sympodial tree has no stem lines.
+							- So _don't be confused between a linear stem line with an **exponential series of stalks** (branch edges)_!
+						- Orthogonal tree versus monopodial tree: a little stalk makes a huge difference!
+							- When the stalk is invisible (space), the _**stem line** of a node_ can be easily confused with an _**internode** segment of its parent stem line_, due to the resemblance with the stem line in monopodial tree.
+								- However, the 2 stem lines are distinct, being shown in 2 different directions in monopodial tree and in 2 different layers in orthogonal tree.
+							- In reverse, in the perpendicular layout of the monopodial tree where parent stem and child stem are at right angles to each other, the **first internode** can be confused with the **stalk** of the second node. But actually there's no stalk there.
+					- Discussion with Gemini about [tree-view & DAG-view of graph](https://gemini.google.com/app/aa1f15a6b07a2d26)
+					- [Components](((667530ed-809b-4d38-8522-1ae6c8449e28))) of a tree view from ((667407ee-35ae-4d6f-8b58-89c19c0e0936))
+					  id:: 6674066a-aeff-45af-96df-b0c2f278a2ae
+					  collapsed:: true
+					  :LOGBOOK:
+					  CLOCK: [2024-06-21 Fri 15:33:13]
+					  :END:
+						- Discussion with Gemini about [Name of lines in Tree View](https://gemini.google.com/app/88d6d204c956507b)
+						- The the components of tree view are named with reference from the biological tree anatomy like follows.
+						- tree anatomy
+						  id:: 667407ee-35ae-4d6f-8b58-89c19c0e0936
+						  :LOGBOOK:
+						  CLOCK: [2024-06-21 Fri 15:33:06]
+						  :END:
+							- ![Tree Anatomy: Defining Trees & Forms](../assets/ecosystem/Tree Anatomy.pdf) from University of Geogia hosted by [BugwoodCloud.org](https://bugwoodcloud.org/resource/files/25389.pdf)
+							- ![Tree Anatomy: Branch Attachment](../assets/ecosystem/Tree Anatomy - BRANCH ATTACHMENT.pdf) from University of Geogia hosted by [BugwoodCloud.org](https://bugwoodcloud.org/resource/files/19019.pdf)
+							- [Britannica: Tree: Tree structure and growth](https://www.britannica.com/plant/tree/Tree-structure-and-growth)
+							  id:: 66b1cfa4-7b88-4ef7-a07e-45a2f6409e26
+							- anatomy of a tree branch (shoot)
+							  id:: 667502e5-b83a-4d2a-a801-34e7bcfa6b38
+							  collapsed:: true
+								- ![TreeBranches.png](../assets/ecosystem/TreeBranches.png)
+							- Vietnamese terms:
+							  collapsed:: true
+								- tree: cây
+								- tree base (stump): gốc cây
+								- root: rễ
+								- bole: thân
+								- trunk = stem of tree: sống cây
+								- stem: sống cành
+								- bough (limb): cành
+								- branch: nhánh
+								- twig (branchlet): nhánh con
+								- stalk: cuống
+								- bud: chồi
+									- flower bud: nụ hoa
+								- shoot: lộc
+								- leaf: lá
+								- flower: hoa, bông
+								- fruit: quả, trái
+								- seed: hạt, hột
+							- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+								- Discussion with Gemini about [node vs. internode](https://gemini.google.com/app/0dbc3f1a3b0cff16).
+							- Root system
+							  id:: 66ec16b8-15b6-43f2-bfb1-a2bfbaaf8203
+								- Opposite to shoot system: Not only downward versus upward, the root system has an *endogenous* origin, i.e. they originate and develop from an inner layer of the mother axis, such as [pericycle](https://en.wikipedia.org/wiki/Pericycle), whereas shoot system has an *exogenous* origin, i.e. they start to develop from the cortex, an outer layer.
+								- Types of roots
+								  collapsed:: true
+									- ![root_types-768x349.png](../assets/ecosystem/root_types-768x349.png)
+									- Ref: [3 Types of Tree Root Systems](https://aplustree.com/3-types-of-tree-root-systems/)
+									- **Tap roots:** Every tree starts with a tap root that provides stability and absorption. Over time, other roots outgrow the taproot. Most taproots don't continue to grow ever more deeply because deep soils lack the oxygen and nutrients that roots need to survive.
+									- **Lateral roots**: Lateral roots grow outwards right under the soil surface. They absorb a lot of water and nutrients as well as anchoring the tree.
+									- **Oblique/heart roots:** Oblique roots, also known as heart roots, grow at a diagonal and have the same function as lateral roots.
+									- **Sinker roots:** Sinker roots grow downwards from the lateral roots to a depth of several feet. There, lateral roots take advantage of any water and nutrients deeper in the soil in addition to increasing tree stability.
+									- **Fine roots:** All the root types aforesaid can give rise to fine roots, which is where water and nutrients are directly absorbed. They also house mycorrhizae, which are fungal partnerships that increase root absorption capacity.
+								- Types of root systems
+								  id:: 66ec1a78-f952-4387-8ccd-9a9a3b2abf13
+								  collapsed:: true
+									- Ref: [3 Types of Tree Root Systems](https://aplustree.com/3-types-of-tree-root-systems/)
+									  collapsed:: true
+									- Tap root systems
+										- ![tap_root_system-300x196.png](../assets/ecosystem/tap_root_system-300x196.png)
+										- **Stability:** Tap root systems are very stable, but extremely rare in mature trees.
+										- **Common Species:** Some oaks and pines, hickory, sweet gum, tupelo, walnut.
+									- Heart (Oblique) root systems
+										- ![heart_root_system-300x224.png](../assets/ecosystem/heart_root_system-300x224.png)
+										- **Stability:** Heart root systems obtain their stability from root ball weight and soil resistance. The tree is held up by the weight of its root ball counteracting the weight of its aboveground parts and the strength of the soil around it. Heart root systems are prone to failure in wet soils. Once the soil is wet, wind and gravity can make the tree rotate in the ground, much like a ball-and-socket joint.
+										- **Common Species:** Honey locust, red oak, sycamore. More common in Mediterranean and arid climates.
+									- Lateral root systems
+										- ![lateral_root_system-300x112.png](../assets/ecosystem/lateral_root_system-300x112.png)
+										- **Stability:** Lateral root systems obtain their stability from tree weight and root spread. These root systems don't necessarily have a lot of root mass, but because the roots are so widespread, the tree can be supported without investing so much in roots. About 80% of tree species and most urban trees have lateral root systems.
+										- **Common Species:** Ash, birch, cottonwood, hackberry, maple.
+								- Depth of roots
+								  collapsed:: true
+									- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The depth of roots depends on ((66ec1a78-f952-4387-8ccd-9a9a3b2abf13)) of the tree, water, oxygen, and soil compaction levels. If all these conditions are met, roots can grow to great depths, which can be more than 20 feet (6 meters) at normal soil, and up to 60 metres (200 ft) at deserts. However in urban areas, soil compaction and poor drainage usually limit root depth to within 3 meters (10 ft).
+										- ![tree-roots-mango.jpg](../assets/ecosystem/tree-roots-mango.jpg)
+									- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+										- [How Deep Do Tree Roots Really Grow?](https://www.deeproot.com/blog/blog-entries/how-deep-do-tree-roots-really-grow/)
+									- Roots can go downward on young trees
+										- ![rootgrowthdepthonelg.jpg](../assets/ecosystem/rootgrowthdepthonelg.jpg)
+										- Roots often grow down under the trunk when trees are young. Two tap roots grew vertically under the trunk on this honeylocust three years after planting. Several oblique roots are also visible, growing down at an angle. Despite the deep roots, the largest diameter roots are the main lateral roots close to the soil surface. The ruler in the photo shows the deepest roots are 32 inches (81 cm) below the surface.
+									- When the tree are grown up, most of the roots go outward
+										- Horizontal rooting to about 4 foot (1.2 m) depth in loam soil over river wash till.
+										  ![Deep-tree-roots-4feet.png](../assets/ecosystem/Deep-tree-roots-4feet.png)
+										- When the tree are grown up, the tap roots stop growing while the lateral roots continue to grow as wide as the tree height.
+									- Deep roots in well drained & uncompacted (nursery) soil
+										- ![Deep-tree-roots-2-small.png](../assets/ecosystem/Deep-tree-roots-2-small.png)
+										- Trees in the nursery often have a number of roots growing straight down under the trunk.
+										  ![rootgrowthdepthseventeenlg.jpg](../assets/ecosystem/rootgrowthdepthseventeenlg.jpg)
+										- Early studies of tree roots from the 1930s, often working in easy-to-dig loose soils, presented an image of trees with deep roots and root architecture that mimicked the structure of the canopy.
+										  ![Traditional-Image-of-Tree-Roots-Tampa.jpeg](../assets/ecosystem/Traditional-Image-of-Tree-Roots-Tampa.jpeg)
+										- In their 1991 paper, “[On The Maximum Extent of Tree Roots](http://soilslab.cfr.washington.edu/publications/Stone&Kalicz-1991.pdf),” E.L. Stone and P.J. Kalicz summarized previous root depth studies of 49 genera and 211 species growing in a wide variety of soil types. They found numerous examples of trees reported to be growing roots to over 33 feet (10 meters), and one report of a tree that grew roots to a depth of 174 feet (53 meters).
+										- The mollisols (deep >20 feet [6 meters] **prairie** soil – all O/A soil horizons) have 2 broadleaf tree root depths: 11 feet (Black Walnut) & 15 feet [4.5 meters] deep (White Oak). Both the Walnut & Oak have the least drought stress. The **loams **in the Silva Cell are functionally equivalent to mollisols. So, a 4 foot [1.2 meter] deep rooting space in O/A in Silva Cells will easily be utilized by tree roots.
+										- Orjan Stahl, a tree researcher in Stockholm, made an exhaustive study of over 500 trees that had root and utility conflicts. He regularly found roots at depths of 7 to 9 feet (2.1 to 2.7 meters) and the deepest root he encountered was at 23 feet (7 meters).
+			- nested viewcone
+			  id:: 66752fbf-a751-4117-ae0d-17d9a19053e4
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2024-06-21 Fri 15:28:09]
+			  :END:
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Like ((667252dc-e610-4d07-bcd0-9ea6fb4499fd)), a ((66752fbf-a751-4117-ae0d-17d9a19053e4)) shows internal structure of a ((667251ec-d4f7-4c09-adff-73e04a4b22ed)).
+				- Representation:
+				  id:: 66752fca-96b5-46a0-9b66-c825cc1de9c7
+					- Graphically, ((66752fbf-a751-4117-ae0d-17d9a19053e4)) can be represented by [Euler diagram](https://en.wikipedia.org/wiki/Euler_diagram), [nested set collection](https://en.wikipedia.org/wiki/Nested_set_collection), [treemap](https://en.wikipedia.org/wiki/Treemapping), [radial tree](https://en.wikipedia.org/wiki/Radial_tree), [radial treemap (sunburst chart)](https://en.wikipedia.org/wiki/Pie_chart#Ring).
+					  id:: 66753405-9afe-478e-abd2-f43100e21c33
+					- Textually, ((66752fbf-a751-4117-ae0d-17d9a19053e4)) can be represented by [Dyck word](https://en.wikipedia.org/wiki/Dyck_language) and ((6675369a-1d13-48c5-8a77-d588aa8b59b8)).
+		- ### scope
+		  id:: 685a47e4-21f2-40d6-b80c-d3adf401489b
+		  collapsed:: true
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((685a47e4-21f2-40d6-b80c-d3adf401489b)) is the base of the ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)), defining which objects to be ((66c811a1-b48b-4f91-9c47-b60be42ee7f4))ed, i.e. the content of the view.
+		- ### view frame
+		  id:: 685a47f5-728a-4b34-95c5-d8e3bba5aad1
+		  collapsed:: true
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((685a480b-1739-4057-aaa8-c099dc95142e)), ((685a50e9-6854-42a5-a6cf-5190765881ff))
+			- viewframe
+			  id:: 685a480b-1739-4057-aaa8-c099dc95142e
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((685a47f5-728a-4b34-95c5-d8e3bba5aad1))
+			- lens
+			  id:: 685a50e9-6854-42a5-a6cf-5190765881ff
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((685a47f5-728a-4b34-95c5-d8e3bba5aad1))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((685a47f5-728a-4b34-95c5-d8e3bba5aad1)) is the boundary of the ((685a47e4-21f2-40d6-b80c-d3adf401489b)), i.e. the circumference of the ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))'s base, defining the limit of the ((66723642-58f1-4a74-bba3-0108f14c6bac)) as well as the underlying structure on which the view is created. While ((685a47e4-21f2-40d6-b80c-d3adf401489b)) and ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) are about the content of the view, viewframe is about the structure of the view imposed by the ((66c8613b-ce1a-4263-b24d-fc2172d5b59f)).
+			- ((66725725-f76a-4328-b162-f469b87e871b))
+				- [framing](https://en.wikipedia.org/wiki/Framing_(visual_arts)) and [picture frame](https://en.wikipedia.org/wiki/Picture_frame) in visual arts
+				- [reference frame](https://en.wikipedia.org/wiki/Frame_of_reference) in physics
+				- [framing](https://en.wikipedia.org/wiki/Framing_(social_sciences)) in social sciences, like [metaphorical framing](https://en.wikipedia.org/wiki/Metaphorical_framing)
+				- frameworks in various fields: [conceptual framework](https://en.wikipedia.org/wiki/Conceptual_framework), [logical framework](https://en.wikipedia.org/wiki/Logical_framework), etc.
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- ((685a480b-1739-4057-aaa8-c099dc95142e)) = boundary of ((685a47e4-21f2-40d6-b80c-d3adf401489b)) = determinator of ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), sim, diff
+				  id:: 685a58f3-6393-48df-966b-24b270a92b58
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2025-06-24 Tue 14:51:35]
+				  :END:
+					- (scope, viewframe) = (base, circumference) of viewcone
+					- Whole scope = no diff, no change; partial scope => diff => change
+					- The frame O is the in-form, a part of the self (intent, obop), hence unchanged;
+						- what's seen in the frame at position x is the content O(x), the object, being subject to change;
+						- the position x is the extent, ex-form, image of object.
+						- ⇒ Thus, the frame is a function projecting content to extent.
+					- The self in thread, change, transformation:
+						- change: Change requires a thread of self.
+						- The continuity of a thread is determined by the obop observing that thread. Hence, a thread of subject is intrinsic to itself, while a thread of object is extrinsic.
+		- worldview
+		  id:: 6731b8c8-0ab1-4c16-8783-408258f67a4a
+		  the ((667259a0-aa2e-49fa-bcbd-b3768a9f30b2)) about the ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870))
+			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Worldview
+		- ### eye
+		  id:: 669a2487-054d-4408-ae41-189e34af81a9
+		  collapsed:: true
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66c8613b-ce1a-4263-b24d-fc2172d5b59f)), ((669a2697-56af-445c-9197-24aa498a5d5b)), ((669a2886-9e03-41a4-a790-24bf6b7dcd96)), ((66c85d4d-64de-48d9-b384-eebdc2635ab2))
+		  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((b67b7276-441e-43f2-a5c1-81e3cbe0659e))
+		  ((6699e5f2-7788-46c7-8233-87699a65ca30)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a))
+			- viewer
+			  id:: 66c8613b-ce1a-4263-b24d-fc2172d5b59f
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a2487-054d-4408-ae41-189e34af81a9))
+			  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((669a26cb-50d8-4347-a5c4-7c0c3acf1211))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When calling a body a ((66c8613b-ce1a-4263-b24d-fc2172d5b59f)), we emphasize its **role** of viewing as opposed to the ((669a26cb-50d8-4347-a5c4-7c0c3acf1211)) role of the subject of that body.
+			- observer
+			  id:: 669a2697-56af-445c-9197-24aa498a5d5b
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a2487-054d-4408-ae41-189e34af81a9))
+			- sensor
+			  id:: 669a2886-9e03-41a4-a790-24bf6b7dcd96
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a2487-054d-4408-ae41-189e34af81a9))
+			  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((6889abf7-7c3c-4ef5-80fe-3edca20268bd))
+			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((6731c3c6-aee6-468d-a86c-0d470c4a6706))
+			- projector
+			  id:: 66c85d4d-64de-48d9-b384-eebdc2635ab2
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a2487-054d-4408-ae41-189e34af81a9))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a2487-054d-4408-ae41-189e34af81a9)) is the ((66532bb2-7680-461b-80b2-71fc96c89fb9)) of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) which it uses to ((66c811a9-e8c7-42c5-bdc9-25fbd023f93a)) things. The eye cannot see itself directly, but it can see its ((66c87a15-e49f-4c86-8f31-f21042f4892c)) via reflection on external mirror.
+			- #### eyeball
+			  id:: 66c87a15-e49f-4c86-8f31-f21042f4892c
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66c87a15-e49f-4c86-8f31-f21042f4892c)) is the ((66c810a0-9861-4787-bdcf-1378219332be)) of the ((669a2487-054d-4408-ae41-189e34af81a9)).
+	- ## action
+	  id:: 66727858-979d-4d95-8a90-7a749218cfba
+	  collapsed:: true
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((6672785f-ac9e-42ba-921e-0264d0d83ae2))
+	  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((66723642-58f1-4a74-bba3-0108f14c6bac))
+	  ((6699e5f2-7788-46c7-8233-87699a65ca30)) ((66725144-6bc9-4c9f-ba48-2cef02651e52))
+	  ((66c80da7-c0e8-46d2-85e5-71318fd44eff)) ((66c845ea-635f-4be1-a220-2c7a5049ef83)), ((66c845fe-6e8e-412e-902e-34ae8d728f90))
+		- operation
+		  id:: 6672785f-ac9e-42ba-921e-0264d0d83ae2
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66727858-979d-4d95-8a90-7a749218cfba))
+		- act
+		  id:: 66c845ea-635f-4be1-a220-2c7a5049ef83
+		  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((66727858-979d-4d95-8a90-7a749218cfba))
+		- do
+		  id:: 66c845fe-6e8e-412e-902e-34ae8d728f90
+		  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((66727858-979d-4d95-8a90-7a749218cfba))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) An ((66727858-979d-4d95-8a90-7a749218cfba)) is a ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) that a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) carries through time. Each action is a segment of the ((667bef22-b272-4a7d-b613-3f1ed1a47329)) carried out by the subject.
+		  id:: 66c846f8-eac8-4daf-add8-121d12871c5a
+		  :LOGBOOK:
+		  CLOCK: [2024-08-23 Fri 15:23:23]
+		  :END:
+		- ((66725708-3dc4-43f5-a180-6b331c6a160f))
+			- In Buddhism, ((66727858-979d-4d95-8a90-7a749218cfba)) is called [saṅkhāra](https://en.wikipedia.org/wiki/Sa%E1%B9%85kh%C4%81ra) meaning "formation", "conditioning".
+			- In physics, ((66727858-979d-4d95-8a90-7a749218cfba)) is called "[force](https://en.wikipedia.org/wiki/Force)" and [interaction](https://en.wikipedia.org/wiki/Fundamental_interaction). The "inter" in "interaction" means the duality of action as a ((66725144-6bc9-4c9f-ba48-2cef02651e52)).
+			- Im mathematics, ((66727858-979d-4d95-8a90-7a749218cfba)) has many names: [operation](https://en.wikipedia.org/wiki/Operation_(mathematics)), [transformation](https://en.wikipedia.org/wiki/Transformation_(function)), [group action](https://en.wikipedia.org/wiki/Group_action).
+			- In Chinese philosophy, ((66727858-979d-4d95-8a90-7a749218cfba)) is called [行(hành)](https://en.wikipedia.org/wiki/Wuxing_(Chinese_philosophy)).
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+		  :LOGBOOK:
+		  CLOCK: [2025-05-16 Fri 11:59:11]
+		  :END:
+			- Formation: _emtpy **possibility**_ → _unfulfilled **potential**_ → _fulfilled **action**_
+			  id:: 6835b165-b560-4358-9e46-c4511124c928
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-05-16 Fri 11:59:30]
+			  CLOCK: [2025-05-16 Fri 12:00:30]--[2025-06-10 Tue 19:45:38] =>  607:45:08
+			  :END:
+				- Potential: potential engergy, continuous range of possibilities inside, partial, incomplete, abstract
+				- Action: actual work, discrete instances of actuality, full, complete, concrete
+				- [act](((66c845ea-635f-4be1-a220-2c7a5049ef83))) = [form](((665ca429-84e3-49ff-921e-c07d19cd99ba))): action is the [formation of new form](((6847e7fa-0d57-425c-b035-1a62db7725e6))) (concrete extension) from the combination of old form (intent) and content.
+				  id:: 68481e2b-0144-42e6-bd9b-96d2fd905573
+					- Potential is such a new form in latent state having yet to appear, hence an unfulfilled action.
+					- To act is to make that new form appear. Thus, action is a fulfilled potential.
+					- In a broad sense, action is the whole process of formation from the empty possibility to potential and the final emergence of the new form.
+					- In a narrow sense, action is the visible part of the formation process marked by the emergence of the new form.
+				- The ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) model of action: from _emtpy **possibility**_ to _unfulfilled **potential**_ and _fulfilled **action**_
+				  id:: 6847e7fa-0d57-425c-b035-1a62db7725e6
+					- The **intent** is the internal form, the structure of the obop with the shape of a circle, just like a bottle, denoted by its capacity, usually normalized to $i = 1 = 100\%$.
+					- The **content** is the “water” being poured into the bottle, denoted by its percentage $c$ (%) in the bottle.
+					- The **extent** is the number of bottles, $e = c/i$, measuring the amount of water.
+					- ((66c8369a-ccb8-4f1f-b12b-bf7054cb79e4))ing the actual content, the extent itself shows the *possible number of bottles*, i.e. **possibilities**, called ((69b3e6c8-735f-437d-9a7f-1a2841bfb336))s which are mere natural numbers $0, 1, 2, ...$
+					  collapsed:: true
+						- Each number (extent) has two meanings:
+							- cardinal number, like 3, showing the number of possibilities, the size of possibility space, the extent of the extension set;
+							- ordinal number, like 3rd, identifying the single possibility being referred, i.e. a particular abstract extension.
+						- Abuse of terms:
+							- Extension: The set of all particular (abstract) extensions {1st, 2nd, ...} is also called “(abstract) extension” as a collective noun.
+							- Extent: While “extent” is usually the size of the extension set, i.e. a cardinal number, the ordinal number identifying a particular extension can be also called “extent” in general (better to be called “particular extent” or “identifier” in particular).
+						- The zero(th)
+							- The 0th extension is the intent itself, and it is the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) of all non-zero extensions, via the “element of” operator ($∈$).
+							- The empty extension set (zero extension), while extensionally contains no element, hence 0 extent, intensionally includes the intent (0th element).
+							- The (0th extension = the inent = the form) is extensionally contained in no extensions and intensionally included in all extensions.
+							- The 0th is incomparable to non-zeroth: while the intent defines the amount of content of each extension, the crystalized content of the intent is incomparable to any particular extension.
+					- When a bottle is *partially filled*, e.g. $c = 30\% = 0.3i$, it has the **potential** of being full 100%, but not yet, hence *unfulfilled*.
+					- When a bottle is *fully filled*, i.e. “***fulfilled***”, a new ((69b3e6d4-8fbe-4f08-94e3-a3cfbbb3980a)) is produced which is not an abstract number but an *actual bottle of water*, hence an **action**.
+					- Real life instances of this model are the [water scoop](https://en.wikipedia.org/wiki/Water_scoop_(hydropower)) (monjolo, [cối giã nước](https://baonghean.vn/doc-dao-chiec-coi-gia-gao-bang-suc-nuoc-o-tay-nghe-an-10091303.html)), the [shishi-odoshi](https://en.wikipedia.org/wiki/Shishi-odoshi).
+					  id:: 699c0362-1cb5-483f-ac28-dddd26c54fb1
+					  collapsed:: true
+						- A monjolo in Caldas Novas, Goiás
+						  ![monjolo](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Monjolo.JPG/960px-Monjolo.JPG)
+				- [Action potential](https://en.wikipedia.org/wiki/Action_potential)
+					- (Membrane) Potential: The stored energy or readiness of a cell to perform an action, like a stretched spring. It's defined by the electrical charge difference across the membrane.
+					- Action (Potential): The actual movement or signal (nerve impulse) that the cell sends, like the spring releasing and launching something. It is defined as a series of quick changes in membrane potential.
+				- [Potentiality and actuality](https://en.wikipedia.org/wiki/Potentiality_and_actuality)
+		- light cone
+		  id:: 667bd931-8759-4008-8a9a-33e78a5cbdf3
+		  collapsed:: true
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((667bd93a-cce4-4dbf-9831-725e4dffe463))
+		  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))
+			- effect cone
+			  id:: 667bd93a-cce4-4dbf-9831-725e4dffe463
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bd931-8759-4008-8a9a-33e78a5cbdf3))
+			  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((667bda02-8dc9-488e-ba16-ea75c3d7895c))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bd93a-cce4-4dbf-9831-725e4dffe463)) is the cone of ((677f509b-f2db-47b1-aafb-5a475334b532))s of an ((66727858-979d-4d95-8a90-7a749218cfba)).
+			- ((66725725-f76a-4328-b162-f469b87e871b))
+				- The future [light cone](https://en.wikipedia.org/wiki/Light_cone) in physics is a ((667bd931-8759-4008-8a9a-33e78a5cbdf3)).
+			- ### action cone
+			  id:: 6847e436-9a84-42c5-a853-75f6d626ed63
+			  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((68df36a4-6a3e-4fc9-b44a-c8e92f62aee1))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6847e436-9a84-42c5-a853-75f6d626ed63)) is the part of ((667bd93a-cce4-4dbf-9831-725e4dffe463)) limited within the ((66c810a0-9861-4787-bdcf-1378219332be)) of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)). The cone shape is caused by the [tree structure](((667252dc-e610-4d07-bcd0-9ea6fb4499fd))) of the body which makes the action of the central operator spread out to peripherals. The tree structure of executions, like function calls in computer programs, also makes the the action spread out in time.
+		- ### actor
+		  id:: 669a26cb-50d8-4347-a5c4-7c0c3acf1211
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((6889abf7-7c3c-4ef5-80fe-3edca20268bd)), ((b67b7276-441e-43f2-a5c1-81e3cbe0659e))
+		  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((66c8613b-ce1a-4263-b24d-fc2172d5b59f))
+		  ((6699e5f2-7788-46c7-8233-87699a65ca30)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a))
+			- effector
+			  id:: 6889abf7-7c3c-4ef5-80fe-3edca20268bd
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a26cb-50d8-4347-a5c4-7c0c3acf1211))
+			  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((669a2886-9e03-41a4-a790-24bf6b7dcd96))
+			- hand
+			  id:: b67b7276-441e-43f2-a5c1-81e3cbe0659e
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a26cb-50d8-4347-a5c4-7c0c3acf1211))
+			  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((669a2487-054d-4408-ae41-189e34af81a9))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a26cb-50d8-4347-a5c4-7c0c3acf1211)) of an ((66727858-979d-4d95-8a90-7a749218cfba)) is the ((66c810a0-9861-4787-bdcf-1378219332be)) that performs that action. When calling a body an “actor”, we emphasize its **role** of performing action as opposed to the ((66c8613b-ce1a-4263-b24d-fc2172d5b59f)) role of the subject of that body. For a body specialized in action, we call it ((6889abf7-7c3c-4ef5-80fe-3edca20268bd)) or ((b67b7276-441e-43f2-a5c1-81e3cbe0659e)).
+	- ## view–control
+	  id:: 66725144-6bc9-4c9f-ba48-2cef02651e52
+	  collapsed:: true
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66727388-ed2b-4f62-b8d7-ed70a0ad4ef3))
+		- viewcontrol
+		  id:: 66727388-ed2b-4f62-b8d7-ed70a0ad4ef3
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66725144-6bc9-4c9f-ba48-2cef02651e52))
+		- ((6699eb54-ce9e-4472-a784-c59ffd47f02b)) ((66723642-58f1-4a74-bba3-0108f14c6bac)), ((66727858-979d-4d95-8a90-7a749218cfba))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66725144-6bc9-4c9f-ba48-2cef02651e52)) is the dual view of the ((667bef22-b272-4a7d-b613-3f1ed1a47329)) through any ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) including both inward effect flow ( ((66723642-58f1-4a74-bba3-0108f14c6bac)), observation) and outward effect flow (control, operation, ((66727858-979d-4d95-8a90-7a749218cfba))). The subject of a ((66725144-6bc9-4c9f-ba48-2cef02651e52)) is called an ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)).
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- force = ((67bc1f83-d9c4-4ee0-ac61-0de196425208)) 
+			  id:: 67b5c77d-c42c-4dc5-8d47-fd82f535177a
+			  collapsed:: true
+			  ob = op
+			  ⇒ F_{in} + F_{ex} = 0 
+			  ⇔ my curvature + your curvature = 0 
+			  ⇔ |my distortion| = |your distortion|
+				- Uniform me vs distorted you <=> distorted me vs uniform you.
+				  id:: 67b541d0-9e59-42ec-9199-9e9e114579e8
+				  ```
+				  M:[********|********]
+				  W:[====|------------] F_ex = -->
+				  <=>
+				  M:[------------|====] F_in = <--
+				  W:[********|********]
+				  - F_ex = external force exerting on [M]y body
+				  - F_in = internal force exerting on the [W]orld
+				  + Both forces are to restore the balance
+				  ```
+				- A special case of this equation is the [equivalence principle](https://en.wikipedia.org/wiki/Equivalence_principle) in General Realativity.
+		- ### cause–effect double cone
+		  id:: 6851578b-9b1f-4367-878f-79b0b0b9be51
+		  collapsed:: true
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6851578b-9b1f-4367-878f-79b0b0b9be51)) is the ((667bef22-b272-4a7d-b613-3f1ed1a47329)) through an ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)). Because both nappes extend infinitely out to the external world, two “ends” of the double cone is connected by the ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) to form the ((6889a623-34cd-4b65-8a91-5cfdbb199b71)).
+				- Structure: ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) > ((68df36a4-6a3e-4fc9-b44a-c8e92f62aee1)) > ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) ⟨ ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) > ((66c8772a-9b29-45b0-b169-2fa847333e02)) < ((66727858-979d-4d95-8a90-7a749218cfba)) ⟩ < ((6847e436-9a84-42c5-a853-75f6d626ed63)) < ((667bd93a-cce4-4dbf-9831-725e4dffe463))
+				- Diagram
+				  id:: 68514e8a-899e-4ae3-9164-44058cf139fa
+					- ![CauseEffectCone](https://docs.google.com/drawings/d/e/2PACX-1vT-mk-5M1GkDtoHwER_IkMQAhi6M5N1zzScgIEaQ3BSdEPZdsSgYoSP3URUt0Q0KD0wy--7cDCzXWU8/pub?w=300){:height 459, :width 300}
+			- perception–action double cone
+			  id:: 685156b0-2f3b-4aa9-8b87-636d38a02cd2
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) is the part of the ((6851578b-9b1f-4367-878f-79b0b0b9be51)) limited within the ((66c810a0-9861-4787-bdcf-1378219332be)) of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)), i.e. perception cone > obop < action cone. As both nappes intend infinitely into the internal world of the subject, the double cone has a complex structure: the double cone folds back on itself to be a single cone and is modularized into layers of ((68df2d82-e1d5-49c4-ac40-d45cf26f840c))s.
+					- Note: Unlike the infinite cause–effect double cone, the perception–action double cone has finite bases, which are ((669a2886-9e03-41a4-a790-24bf6b7dcd96))s + ((66ea8d84-c766-4c47-b06c-a0b57a530096)) on the perception side, and ((6889abf7-7c3c-4ef5-80fe-3edca20268bd))s + knowledge cone base on the action side.
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) versus ((66727858-979d-4d95-8a90-7a749218cfba)) in karma
+					  id:: 66e7d7dd-5f88-472c-8694-beb7222929bb
+					  collapsed:: true
+					  :LOGBOOK:
+					  CLOCK: [2024-09-16 Mon 17:47:14]
+					  :END:
+						- The word “karma” originally meant “action”, but has been used [in Buddhism](https://en.wikipedia.org/wiki/Karma_in_Buddhism) mainly as ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)).
+						  {{embed ((684f951b-9d1d-43aa-a533-c122c3113b5b))}}
+							- cetanā: ý định, ý muốn, ý đồ, chủ ý, chủ định, chủ tâm, động cơ, "[Tư/思](https://giacnguyen.com/atydam/ghichu/cetasika/read.php?id=4)", "tư niệm" by Thích Minh Châu
+							  id:: 66f7af1d-e9f3-49c4-a9f6-3b614a413a57
+							  collapsed:: true
+								- Read more
+									- [manasikāra](https://en.wikipedia.org/wiki/Manasik%C4%81ra) (attention, tác ý, chú ý, chú tâm) is related to cetanā.
+									- [Nghiệp & tự do ý chí](https://giacngo.vn/nghiep-tu-do-y-chi-post37265.html)
+						- This narrowing down of “karma” from “action” to “intention” has twofold meaning.
+							- Truthful meaning: _Intention **actively** creates **new** seeds_, whereas old seeds ripen in fruits to be received passively through not only experiences but also actions.
+								- While action looks “active” (obviously!), it's only active externally.
+								- Internally, action is generated automatically by the combination of
+									- the conscious intention (cetanā, current new seed) and
+									- the unconscious tendencies ([anusayā](((66e80666-5f29-4419-8db1-bf8cdce893e4))), old seeds) and
+									- the external condition.
+								- Deep inside, only the intention can be controlled actively by the subject, hence its role in the [ethic](((689eba59-b9e6-401b-9162-90d364911261))).
+								- However, remember that we've [accumulated lots of old seeds](((68a29127-ae47-424a-8197-f34f77b7d7f9))) through past intentions in the past (lives) into our structure of body-mind, so that we can avoid the ((689ed6c2-2071-40c9-ac7d-64858153a391)).
+							- Ethical meaning: *unintentional actions are innocent!*
+							  id:: 689eba59-b9e6-401b-9162-90d364911261
+								- The moral of the innocence of unintentional actions is reflected both in criminal law (lack of [mens rea](https://en.wikipedia.org/wiki/Mens_rea)), and in the Buddhist [story of Cakkhupāla Thera](https://www.wisdomlib.org/buddhism/book/dhammapada-illustrated/d/doc1084241.html) (Guardian of the Eye) which is the explanatory story for the first verse of [Dhammapada](https://suttacentral.net/dhp1-20/en/sujato).
+								- Warning: Don't fall in to the ((689ed9d5-817a-4269-bd02-503f56e32e09)).
+						- **Intent-Only Fallacy**
+						  id:: 689ed6c2-2071-40c9-ac7d-64858153a391
+						  “If I don't intend to do it, I won't face the consequences!”
+						  ((665359e4-4597-4775-b849-f9acbb98960a)) ((689ed9d5-817a-4269-bd02-503f56e32e09))
+							- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Misunderstanding the depth of karmic storage, people usually conflate karma with current intentions, forgetting the past intentions in the [old karmas](((68a29127-ae47-424a-8197-f34f77b7d7f9))), leading to the ((689ed6c2-2071-40c9-ac7d-64858153a391)). This fallacy omits the laten tendencies ([anusayā](((66e80666-5f29-4419-8db1-bf8cdce893e4)))), which are the impression of the past intentions, from the karmic causes.
+							- **Delusion of No-Malice Exemption**
+							  id:: 689ed9d5-817a-4269-bd02-503f56e32e09
+							  “Because i didn't mean to harm, i shouldn't be blamed!” 
+							  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((689ed6c2-2071-40c9-ac7d-64858153a391))
+						- [Anusayā](((66e7e6c2-3856-496b-99b7-75ac46547c86))), the [dormant intent](((686ce608-1a1b-4b57-993a-fe8e943dc916))), the [underlying tendency](https://suttacentral.net/define/anusay%C4%81?lang=en), the **attitude** of the mind in response to stimuli, determines both intention and what karmic fruit to be experienced.
+						  id:: 66e80666-5f29-4419-8db1-bf8cdce893e4
+							- This anusayā·cetanā is the hidden obop at the apex of the ((68df2d82-e1d5-49c4-ac40-d45cf26f840c)), which is the central part of the karmic ((667c0031-0a87-44c9-9e98-6d45893b095f)).
+								- > Give, and it will be given to you.
+								  
+								  -- Luke 6:38
+							- The anusayā is accumulated and works in the unconscious, hence cannot be controlled directly. So, the only way to change karma (fruit) is via intention which is right in our consciousness.
+								- We can indirectly change anusayā by the intention of cleansing it.
+							- > It's not what happens to you, but how you react to it that matters.
+							  
+							  -- Epictetus
+						- Suttas about ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) ([anusayā]cetanā)
+						  collapsed:: true
+							- Numbered Discourses > 6. The Great Chapter > 63. [Penetrative](https://suttacentral.net/an6.63/en/thanissaro#5) > 5. Kamma
+							  id:: 684f951b-9d1d-43aa-a533-c122c3113b5b
+							  > Intention ([cetanā](https://en.wikipedia.org/wiki/Cetanā)), I tell you, is kamma. Intending, one does kamma by way of body, speech, and intellect.
+								- This sutta explains the penetrative analysis of 6 factors of human life and correspondent way of liberation. There, the 5th factor is “karma” which is defined as “intention”.
+							- Minor Discourses > Minor Collection > Sayings of the Dhamma (Dhammapada) > 1. [Pairs](https://suttacentral.net/dhp1-20/en/suddhaso)
+							  > All things are preceded by the mind (mental karma),
+							  surpassed by the mind, created by the mind.
+								- The first 2 verses of the Dhammapada state the leading role of the mind over everything else.
+								- The “mind (mano)” here [refers to its active aspect](https://suttacentral.net/dhp1-20/en/sujato), i.e. mental karma, which is itself preceded by intention (cetanā).
+									- The central role of intention is also stressed by the associated [story of Cakkhupāla Thera](https://www.wisdomlib.org/buddhism/book/dhammapada-illustrated/d/doc1084241.html), given in the comentary Dhammapada-aṭṭhakathā.
+							- Numbered Discourses > 21. The Body Born of Deeds > 10.217. [Intentional (Volitional)](https://suttacentral.net/an10.217/en/bodhi)
+							  > Mendicants, I don't say that intentional deeds that have been performed and accumulated can be eliminated without being experienced (as results)... And I don't say that suffering can be ended without experiencing (the results of) intentional deeds that have been performed and accumulated.
+								- This sutta explains the karmic chain from intentional seed to its fruits by examples.
+							- Linked Discourses on the Six Sense Fields > The First Fifty > Impermanence > 35.146. [The Cessation of Deeds (Karmas)](https://suttacentral.net/sn35.146/en/sujato) (35.145. [Kamma Sutta](https://www.dhammatalks.org/suttas/SN/SN35_145.html))
+							  id:: 68a29127-ae47-424a-8197-f34f77b7d7f9
+							  #+BEGIN_QUOTE
+							  And what is **old deeds** (karmas)? The eye/ear/nose/tongue/body/mind is old deeds. It should be seen as produced by choices and intentions, as something to be felt.
+							  And what is **new deeds** (karmas)? The deeds you currently perform by way of body, speech, and mind.
+							  #+END_QUOTE
+								- This sutta clarifies the old karmas, which have been accumulated into the body-mind, versus the new karmas which are current actions with intention.
+							- Numbered Discourses > 18. Intention > 4.171. [Intention](https://suttacentral.net/an4.171/en/sujato)
+							  > + Mendicants, as long as there's a body, the intention that gives rise to bodily action causes pleasure and pain to arise in oneself. ... But these only apply when conditioned by ignorance.
+							  > + By oneself one *makes the choice* that gives rise to bodily, verbal, and mental action, conditioned by which that pleasure and pain arise in oneself. ...
+							  > + Ignorance is included in all these things. But when ignorance fades away > nothing for pleasure and pain to arise.
+								- This sutta states that the karmic chain can be broken by clearing ignorance.
+							- Linked Discourses > 4. Kaḷāra the Aristocrat > 12.38. [Intention (Volition)](https://suttacentral.net/sn12.38/en/sujato)
+							  id:: 66e7e6c2-3856-496b-99b7-75ac46547c86
+							  > + Mendicants, what you intend or plan, and what you have underlying tendencies toward, this becomes a support for the continuation of consciousness. ... > rebirth > death > suffering.
+							  > + Mendicants, if you don't intend or plan, but still have underlying tendencies toward something, this becomes a support for the continuation of consciousness. ... > rebirth > death > suffering.
+							  > + Mendicants, but if you don't intend or plan, and don't have underlying tendencies toward anything, this doesn't become a support for the continuation of consciousness. ... > no rebirth > no death > no suffering.
+								- This sutta states that the karmic chain cannot be broken if “underlying tendencies” (obsessions, anusayā) remain, and it can only be broken when both intentions and underlying tendencies are eliminated.
+								- Numbered Discourses > 2. Tendencies > 7.12. [Underlying Tendencies (anusayā)](https://suttacentral.net/an7.12/en/sujato)
+								  > When a mendicant has given up the underlying tendencies of sensual desire, repulsion, views, doubt, conceit, desire to be reborn, and ignorance —cut them off at the root, made them like a palm stump, obliterated them, so they are unable to arise in the future— they're called a mendicant who has cut off craving, untied the fetters, and by rightly comprehending conceit has made an end of suffering.
+								- These underlying tendencies are latent [kleśas](https://en.wikipedia.org/wiki/Kleshas_(Buddhism)), the most hidden ones.
+									- Vitikamo-kilesa: *Ngoại phiền não, phiền não vi phạm*: các loại phiền não đã bộc lộ ra ngoài bằng thân hay khẩu, thành những hành động phạm giới. Phiền não loại nầy được chế ngự do sự hành trì giới luật.
+									- Pariyutthana-kilesa: *Nội phiền não, phiền não ám ảnh*: các loại phiền não phát sanh trong tâm ngay lúc nhận biết cảnh, không biểu lộ ra ngoài, người nào có người đó biết, người khác không biết được, nhưng nếu với con mắt tinh tế cũng có thể biết được. Phiền não loại nầy được khắc phục do thiền định, dùng tâm thiền để chế ngự chúng.
+									- __Anusaya-kilesa: *Tàng phiền não, phiền não ngủ ngầm*__: loại phiền não ngủ ngầm nơi tâm, không ai biết được do sự ô nhiễm nhiều đời, nhiều kiếp. Phiền não loại nầy được tiêu diệt bằng tuệ giác, nghĩa là trí tuệ phát sanh ở Đạo tâm siêu thế, khi chứng đắc các tầng thánh Tu Đà Hoàn, Tư Đà Hàm, A Na Hàm, A La Hán.
+								- [KINH CETANA SUTTA: CHỚ DỰNG LẬP Ý NIỆM](https://thuvienhoasen.org/a24172/kinh-cetana-sutta-cho-dung-lap-y-niem)
+						- Nuances about "intention"
+						  collapsed:: true
+						  :LOGBOOK:
+						  CLOCK: [2024-09-17 Tue 19:51:07]
+						  :END:
+							- [The Heart's Intention](https://dharmawisdom.org/the-hearts-intention/)
+							  > Setting intentions is not the same as making goals. Understanding the difference can lead to more skillful living and less suffering.
+							  GOALS VS. INTENTIONS; Misusing Good Intentions; Mixing Motives; Sowing Karmic Seeds; Developing Resolve
+							- [The Power of Intention: Turning Thoughts into Reality](https://www.livinginthegap.org/blog/the-power-of-intention-turning-thoughts-into-reality)
+							- [THOUGHT OR INTENTION?](https://www.linkedin.com/pulse/thought-intention-christine-patton/)
+							  > whenever there is any error or misdeed, the moment of its cause was with the intention... long before the action! If a person would bring correction to his life, he must look beyond the action to the moment when he first created the intention.
+								- > There has been widespread confusion between thought and intention.
+								  Scripture was teaching about the power of intent, and was mistranslated to read as ‘thought’ instead.
+								- [Watch Your Thoughts...](https://quoteinvestigator.com/2013/01/10/watch-your-thoughts/) should be "Watch your intentions..."
+						- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) ((66e97b7e-04be-4a0f-820f-2b2315a803a4))
+						- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) fb post [Let's make an intensive intent!](https://www.facebook.com/lexuandinhct/posts/pfbid02bpWEDyTFoYZ9Vn223Nq56oMF9nkNnUsDcpJChva4v4kvSXWG6TZqc7YtG5APhvSDl)
+						  :LOGBOOK:
+						  CLOCK: [2024-09-20 Fri 19:48:46]
+						  :END:
+						- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) "intensive intent" + commitment -> vow (pranidhāna, a tool usually used in Mahayana)
+							- [Intention is the practice](https://www.lionsroar.com/intention-is-the-practice/)
+							  > On the Buddhist path, our intention deepens into commitment and then into vow. At that point, our intentions and our life become one.
+			- intent double cone
+			  id:: 68df2d82-e1d5-49c4-ac40-d45cf26f840c
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68df2d82-e1d5-49c4-ac40-d45cf26f840c)) is the reflection of the ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) into the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)), hence a structure of active ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))s, usually in the shape of a chain or a tree.
+				- Two nappes:
+					- While in everyday life and classical maths & programming, people normally focus on the **operative intent cone** of ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae))s,
+					- in ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)), ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)) mainly deals with the **formative intent cone** for observation and learning through the ((68df36a4-6a3e-4fc9-b44a-c8e92f62aee1)):
+						- the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)) of qualia, imaginals (mental images), and
+						- the ((66ea8df3-d2f3-4856-b24a-5095dd285f9b)) of concepts, notions, intention.
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- ((68dfc246-ea07-4c54-a0a4-2361f1a9055e))
+					- Logics: inductive logic in the formative intent cone ↔ deductive logic in the operative intent cone
+					  :LOGBOOK:
+					  CLOCK: [2025-11-04 Tue 14:23:12]
+					  :END:
+			- cause–effect mirror circles
+			  id:: 6889a623-34cd-4b65-8a91-5cfdbb199b71
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6889a623-34cd-4b65-8a91-5cfdbb199b71)), or simply “mirror circles”, are interlocking multiple ((667c0031-0a87-44c9-9e98-6d45893b095f))s formed by the folding of ((6851578b-9b1f-4367-878f-79b0b0b9be51)) into a [grand circle](((6772a6cd-771f-4f24-9c3a-39c442234be5))).
+					- external effect circle
+					  id:: 6909a3ff-8c16-4222-967a-f019759ca65c
+					  The base of the effect cone folds back, through the external world, to be the base of the cause cone, forming the external effect circle.
+					- knowledge circle
+					  id:: 6909a541-f4da-48ce-af9e-31f499125b00
+					  As the ((68df2d82-e1d5-49c4-ac40-d45cf26f840c)) reflects the ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) into the obop, the external effect circle is mirrored into the internal effect circle called “knowledge circle”.
+					- The external effect circle and various knowledge circles keep contact together through layers of obops. This is the mirroring mechanism between the external world and internal world (knowledge cone).
+					- Structure: external ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) > ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s ((66c810a0-9861-4787-bdcf-1378219332be)) ( ((669a2886-9e03-41a4-a790-24bf6b7dcd96))s + formative intent cone > ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) > operative intent cone + ((6889abf7-7c3c-4ef5-80fe-3edca20268bd))s ) > external world
+					- Diagram
+					  collapsed:: true
+						- ![CauseEffectMirrorCircles](https://docs.google.com/drawings/d/e/2PACX-1vSq3nYCfegxupQJv3D7nIddp2tKbmf3YvzKeXQqd8kZ5hzTUN8lGNE9i-Tf8hXwSlIShgySaBgtXLRY/pub?w=500)
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- The ((6909a541-f4da-48ce-af9e-31f499125b00)) is to ((6909a3ff-8c16-4222-967a-f019759ca65c)) as ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) is to ((66b1cfa4-3a39-4672-9da2-cd3bcef71702)).
+					  collapsed:: true
+					  :LOGBOOK:
+					  CLOCK: [2025-11-11 Tue 11:10:00]
+					  CLOCK: [2025-11-11 Tue 11:10:08]--[2025-11-11 Tue 11:14:21] =>  00:04:13
+					  :END:
+						- The knowledge circle includes intent cones in the obop, while the effect circle includes the double cones extended from the obop to the body (perception–action) and to the world (cause–effect).
+						- In dimensional view, the knowledge circle is othogonal to the effect circle.
+							- Knowledge circle has the $i$ dimension of *internal, imginary, temporal*, in contrast to the effect circle's dimension $e$ of *external, real, spatial*.
+		- Mutual exclusiveness
+		  collapsed:: true
+		  “thấy không làm, làm không thấy”  
+		  “eyes no hands, hands no eyes”
+			- “Seers don't do, doers don't see.”  
+			  id:: 684f9517-1b11-4022-a2c3-0688975f198a
+			  “Kẻ thấy thì không làm, kẻ làm thì không thấy.”
+				- More pecisely, “doers cannot see what they do; seers cannot do what they see.”
+					- That means this exclusiveness is in regard to the self only.
+				- In the dualistic view of the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), its own seer and doer are exclusive ***by definition***, just like “the right is not wrong, the wrong is not right!”
+					- In essence, the self is the separation between the inside (what belongs to the it) and the outside (what doen't belong to the it).
+					- Based on the in/ex separation, the self separates things into all sort of duals: subject/object, do/see, right/wrong, good/bad, etc.
+				- At the internal extreme, the seer's ((66c810a0-9861-4787-bdcf-1378219332be)) carries the the observation ((667c0031-0a87-44c9-9e98-6d45893b095f)) whose ((669a26cb-50d8-4347-a5c4-7c0c3acf1211)) is the ((669a2487-054d-4408-ae41-189e34af81a9)).
+				  id:: 669a06b6-82cd-4e04-b5bf-ca60b89725d7
+					- Here, the seer withdraws all its energy into the ((669a2487-054d-4408-ae41-189e34af81a9)), the inner circle, to observe, to modify its body (memory) in reflection of the external objects, hence leaving no energy for the doing of the body.
+					- This is the "quantum effect of measurement".
+				- At the external extreme, the ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) of doers carries the the operation ((667c0031-0a87-44c9-9e98-6d45893b095f)) whose each ((669a26cb-50d8-4347-a5c4-7c0c3acf1211)) is the ((66c810a0-9861-4787-bdcf-1378219332be)) of each doer.
+				  id:: 669a0848-a7a2-402f-b704-68cea407e43d
+					- Here, the doer exerts all its power to the working of the body (hands) to rotate the external circle to change the external world, hence leaving no energy for the ((669a2487-054d-4408-ae41-189e34af81a9)).
+					- This is the mechanical extreme.
+			- “Eyes are useless without hands, hands are blind without eyes.”
+			  “Thấy mà không làm là vô dụng, làm mà không thấy là mù quáng.”
+				- This criticizes the weakness of the dualistic view and guides toward the holistic view of ((6699e3b1-754c-4665-b7aa-12cbc833a8d0)) and the ((6699f85b-fe03-4fb6-8b80-915e376954ff)).
+		- Mutual inclusiveness
+		  id:: 6699e3b1-754c-4665-b7aa-12cbc833a8d0
+		  collapsed:: true
+			- ((66c811a9-e8c7-42c5-bdc9-25fbd023f93a))ing is an ((66727858-979d-4d95-8a90-7a749218cfba)) of the ((669a2487-054d-4408-ae41-189e34af81a9)) itself.
+			- Every ((6672785f-ac9e-42ba-921e-0264d0d83ae2)), i.e. change of ((665ca429-84e3-49ff-921e-c07d19cd99ba)) (transform), is a change of ((66723642-58f1-4a74-bba3-0108f14c6bac)) via the change of ((667272b8-88a8-4928-a22a-35035c9edf05)).
+				- ((67a98760-71fa-4033-9c42-f3025d632d04)) = traversal = listing = enumeration = moving the ((667272b8-88a8-4928-a22a-35035c9edf05)) across the object to view it in a linear view, i.e. thread-view.
+				  id:: 6783e3ff-9e8f-43db-a173-5d0c6972deab
+				- Finding = traversal for a target point-view.
+				- Search = traversal for a target ((667251ec-d4f7-4c09-adff-73e04a4b22ed)).
+				- Sort = change from object-view to thread-view.
+				- Organize = change from object-view to target ((667251ec-d4f7-4c09-adff-73e04a4b22ed)).
+				- Classification, categorization = change from object-view to class/property/category view.
+		- Harmony of ((66c811a9-e8c7-42c5-bdc9-25fbd023f93a))ing and ((66c845fe-6e8e-412e-902e-34ae8d728f90))ing
+		  id:: 6699f85b-fe03-4fb6-8b80-915e376954ff
+		  collapsed:: true
+			- All ((66727858-979d-4d95-8a90-7a749218cfba))s are guided and constrained by the ascociated ((66723642-58f1-4a74-bba3-0108f14c6bac))s, thus the view is to action as the ((665ca429-84e3-49ff-921e-c07d19cd99ba)) is to ((6678288e-699b-4325-bdba-bf6349fe0d57)).
+			  :LOGBOOK:
+			  CLOCK: [2024-07-19 Fri 15:50:42]
+			  :END:
+			- Each ((66727858-979d-4d95-8a90-7a749218cfba)) arrow toward an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) has a corresponding ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) arrow backward from that object.
+			  :LOGBOOK:
+			  CLOCK: [2024-08-23 Fri 16:14:01]
+			  :END:
+			- ((66b1cfa4-ec86-433e-b5ea-c52c991717c1))
+	- ## observer–operator
+	  id:: 669a2c12-1dad-42a0-ab31-f03642b4aa8a
+	  collapsed:: true
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((94e87dc9-71af-477c-aa70-0f448c2f1e20)), ((66f3b94d-6cf8-461a-9312-c9973ac739fe)), ((66f3ba0f-ec07-42f2-8ab1-fef0ec30b57d)), ((5d7a0798-907d-46b7-8481-99d3be30de9e)), ((fa0b2bc6-05ac-418f-9a86-17635936a656))
+	  ((6699eb54-ce9e-4472-a784-c59ffd47f02b)) ((669a2487-054d-4408-ae41-189e34af81a9)), ((669a26cb-50d8-4347-a5c4-7c0c3acf1211))
+		- obop
+		  id:: 94e87dc9-71af-477c-aa70-0f448c2f1e20
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a))
+		  ((6699eb54-ce9e-4472-a784-c59ffd47f02b)) ((669a2487-054d-4408-ae41-189e34af81a9)), ((669a26cb-50d8-4347-a5c4-7c0c3acf1211))
+			- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “obop” is pronounced “ob-OP” /əbˈɒp/, like that of “obovate”, _not_ “O-bop” /ˈoʊ.bɒp/. When pronouncing in an unhyphenated style, it may sound /əˈbɒp/, but _never_ /ˈoʊ.bɒp/.
+		- ☉
+		  id:: 66f3b94d-6cf8-461a-9312-c9973ac739fe
+		  collapsed:: true
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f3c5f6-0a79-4730-8eca-4d177c83c560)) 
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a))
+			- abstract obop
+			  id:: 66f3c5f6-0a79-4730-8eca-4d177c83c560
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f3b94d-6cf8-461a-9312-c9973ac739fe))
+		- ◉
+		  id:: 66f3ba0f-ec07-42f2-8ab1-fef0ec30b57d
+		  collapsed:: true
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f3c62a-42f5-47bd-a18a-b40783bc1a05)), ((66f3c6a9-1486-46de-92fe-75aaeaf67834))
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a))
+			- concrete obop
+			  id:: 66f3c62a-42f5-47bd-a18a-b40783bc1a05
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f3ba0f-ec07-42f2-8ab1-fef0ec30b57d))
+			- obop being
+			  id:: 66f3c6a9-1486-46de-92fe-75aaeaf67834
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f3ba0f-ec07-42f2-8ab1-fef0ec30b57d))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66f3c6a9-1486-46de-92fe-75aaeaf67834)) is an instance of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) in the role of an ((66f3d5cc-0d68-47bb-b09a-87cda33c7354)).
+		- seer–doer
+		  id:: 5d7a0798-907d-46b7-8481-99d3be30de9e
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a))
+		- viewer–actor
+		  id:: fa0b2bc6-05ac-418f-9a86-17635936a656
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)) is the dual role of any ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) performing the ((66725144-6bc9-4c9f-ba48-2cef02651e52)). In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), obop is represented by the Equal which operates the Trinion using the ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) equation. The atomic ((66f3c6a9-1486-46de-92fe-75aaeaf67834)) is called “qualiton” which will be annihilated at the ((66ab7477-c060-4d07-ab13-bc3d11246854)) of the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) to be a “selfless obop” called “self-essence”. That means ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) ⤚[((66f3d5cc-0d68-47bb-b09a-87cda33c7354))]→ ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) ⤚[((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9))]→ ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) ⤚[((66ab7477-c060-4d07-ab13-bc3d11246854))]→ ((66c8772a-9b29-45b0-b169-2fa847333e02)). ((6867abcb-4e1c-493e-a38d-c7b8809dd6ad))
+		- Symbols of the ((94e87dc9-71af-477c-aa70-0f448c2f1e20))
+		  id:: 66faa5f9-a3dd-4065-8167-0e49a79e427a
+		  collapsed:: true
+		  There are many symbols representing many roles of the obop.
+			- In ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)), the Equal sign (`=`) is used to emphasize the ((669a1d82-91c8-40fd-81f5-e8ffe56e9e9c)) and unification roles of the obop.
+			- In ((66f3b5e5-496a-4545-be7a-b1df2d94bd11)) , the composition symbols ((66f3b94d-6cf8-461a-9312-c9973ac739fe)) & ((66f3ba0f-ec07-42f2-8ab1-fef0ec30b57d)) are used to show the dualities of the obop as both observer (○) and operator (·), composed of both form (○) and content (●), including both intent (·) and extent (○).
+				- The intent in the ((66f3c5f6-0a79-4730-8eca-4d177c83c560)) (☉) is abstracted into a dimensionless point representing the “point of contact” between the subject and the object, as well as the ((66ab7477-c060-4d07-ab13-bc3d11246854)) point of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)).
+				- The intent in the ((66f3c62a-42f5-47bd-a18a-b40783bc1a05)) (◉) is a concrete being with all of its internal content represented by the filled circle (●).
+			- In maths, the [dot operator (⋅)](https://en.wikipedia.org/wiki/Dot_product) and the [circled dot operator (⊙)](https://en.wikipedia.org/wiki/Hadamard_product_(matrices)) are used to denote the [operation](https://en.wikipedia.org/wiki/Operation_(mathematics)) role of the obop.
+			- In theory of functions and in linguistics, the [composition operator (∘)](https://en.wikipedia.org/wiki/Function_composition), the [interpunct (·)](https://en.wikipedia.org/wiki/Interpunct) and the [hypenation point (‧)](https://en.wikipedia.org/wiki/Hyphen) are used to denote the dual role of connection-separation of the obop.
+			- In astrology, the [symbol of Sun (☉)](https://en.wikipedia.org/wiki/Solar_symbol) shows the role of the obop as a source of light.
+			- In computing, the [fisheye symbol (◉)](https://en.wikipedia.org/wiki/Circled_dot#Computing) shows the role of the obop as an eye, a focal point, a selected choice, the current one.
+			- In archery, the target symbol (🞋, 🎯) shows the role of the obop as the target, the goal of all actions of the subject expressed as its intents. The ((686e630e-0d4d-4584-8c77-f9f0b865e631)) of the [bullseye](https://en.wikipedia.org/wiki/Bullseye_(target)) (◎) represents multiple layers of intents within the obop, whose inner most intent (center) is pinpointed with the [crosshair](https://en.wikipedia.org/wiki/Reticle) (⌖).
+		- ### obop projection
+		  id:: 68908fbd-acc3-41a6-8c38-17ee1f014223
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The obop of a body $M$ in the world $W$ is a double ((667251ec-d4f7-4c09-adff-73e04a4b22ed)) between 2 circles $M$ & $W$. Its double ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)) is called ((68908fbd-acc3-41a6-8c38-17ee1f014223)) with two directions:
+				- observer is the viewcone projecting $W$ to an image in the body $M$;
+					- $\overrightarrow{M_2M_1} ← \overrightarrow{M_2W_1W_2M_1}$
+				- operator is the viewcone projecting $M$ to an effect in the world $W$.
+					- $\overrightarrow{W_2M_1M_2W_1} → \overrightarrow{W_2W_1}$
+				- ![ObopProjection](https://docs.google.com/drawings/d/e/2PACX-1vQA55wTGcMRsbygwBRJI8bhxrphLFalKHVYNWbgcXhIqCzwtIyp7t93dYv37FatAFgU6OEkSb1VKA36/pub?w=320)
+				- The obop yields an inner product $⟨M,W⟩$ whose angle is 
+				  $$θ = cos^{-1}\left({⟨M,W⟩\over |M|⋅|W|}\right) = \frac{M_2M_1}{M_2W_1W_2M_1} = \frac{W_2W_1}{W_2M_1M_2W_1}$$
+				-
+		- ### obop resolution
+		  id:: 699c0362-477c-4771-91bd-c91456dae158
+		  :LOGBOOK:
+		  CLOCK: [2026-06-17 Wed 16:05:13]
+		  :END:
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) While a composite ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)) has a range of resolution, an atomic obop (qualiton) has a single resolution. ((699c0362-477c-4771-91bd-c91456dae158))
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- About the “resolution”
+				  collapsed:: true
+					- Meaning and evolution
+						- Origin: from Latin *resolvere*, meaning to untie, loosen, or dissolve a complex substance.
+						- Mental transition: it entered the realm of thought as resolving an issue – untying a mental knot or dissecting a complex dispute into simpler, clear components.
+						- Trajectory: it shifted from physical dissolution, to logical problem solving, to the optical separation of stars, and finally to the digital density of pixels.
+						- Core mechanism: the invariant essence across all domains is the refinement from **coarse-grained aggregation** to **fine-grained differentiation**.
+					- Epistemological stances
+						- Analytic approach: resolution is the tool of the **outward senses**, seeking clarity by chopping the continuum into discrete parts.
+						- Synthetic approach: the **inner eye** directly absorbs the whole undifferentiated mass, living the whole content instead of breaking it apart.
+						- Chemical metaphor: extroverted problem solving makes the problem “disappear” like salt in water, but the absorber actually drinks the whole solution.
+						- Social projection: because direct absorption leaves no visible trace, external observers often fill the unreadable void by inventing supernatural forms to discern the absorption.
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- In the ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) model of ((94e87dc9-71af-477c-aa70-0f448c2f1e20)), the core of obop is the ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) that observes the content to produce the extent which is used to operate the ((66c810a0-9861-4787-bdcf-1378219332be)). The intent can be composed of many sub-itents in many layers, where the “atomic intent” at the basic layer is the ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)).
+			  id:: 66e79e0c-8be2-49a4-b4d7-5c1fddefeabf
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2024-09-16 Mon 18:54:11]
+			  :END:
+				- At the "operator" side of the obop, the extent is the (mental) ((66727858-979d-4d95-8a90-7a749218cfba)) ([saṅkhāra](https://en.wikipedia.org/wiki/Sa%E1%B9%85kh%C4%81ra)) and its intent is the master of that action, i.e. the volition or [cetanā](https://en.wikipedia.org/wiki/Cetan%C4%81) in Buddhism.
+				- ((66e7d7dd-5f88-472c-8694-beb7222929bb))
+				- At the "observer" side of the obop, the intent itself is the ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) which is driven by the underlying tendency, or attitude, or [anusayā](((66e7e6c2-3856-496b-99b7-75ac46547c86))) in Buddhism.
+			- ((66f29d57-a87f-4370-9f32-722922a7bff1))
+			- ((684f9515-8f95-4004-8aa8-04a10d1ebf11))
+			- Obop model in various fields
+			  id:: 694a8194-3a16-4d52-9d60-d88aeaf125b5
+			  collapsed:: true
+				- Unithread: ob viewcone = input circle; op = output arrow
+					- FoC: ob = division = content -> form; op = multiplication = form -> content
+						- In function: form = parameter; content = variable value
+						- Network: form = connection weight; content = node values (state)
+						- Uninet: no static distinction between form & content. Their roles are relative to position.
+							- In the sequence of sustents, lower intent = higher content
+					- Quantum: only when the whole input circle receives full data, is the op activated to [take action](((6847e7fa-0d57-425c-b035-1a62db7725e6))).
+					- Qualiton: The whole input circle is qualified by matching with its internal image.
+				- [Water scoop](((699c0362-1cb5-483f-ac28-dddd26c54fb1))): ob viewcone = scoop; op = pounding
+				  id:: 699c0362-08e9-4df1-bce1-ec5da386c35e
+				- $f(t) = \exp(t)$: ob viewcone = $f(t) dt$; op = `+=`
+				- Neuron: ob viewcone = tree of dendrites; op = activation (action potential passed through axon)
+				- Obop (equal $=$, Hamsa 🪬) = perception (circle $○$, eye 👁️, 🧿) + action (arrow $↑$, hand ✋️)
+				  id:: 6a1f9070-311f-4e51-a88a-39b7dfeb2ca6
+					- The [eye–hand coordination](https://en.wikipedia.org/wiki/Hand%E2%80%93eye_coordination) is the continuous feedback loop between the internal intent (the potential inner world, 能) and the external form (the actual outer world, 所), between [the first cause (intent) and the final cause (observation)](((692d502f-b469-4b1d-9267-1d02e3953590))).
+					- As the “Hand of God”, the [Hamsa amulet](https://en.wikipedia.org/wiki/Hamsa#Religious_interpretations) represents the universal unificaton of the helping hand (operation) with the watching eye (observation).
+					- The [Thousand Hands Thousand Eyes Avalokiteśvara](https://en.wikipedia.org/wiki/Avalokite%C5%9Bvara#Thousand-armed_Avalokite%C5%9Bvara) has an eye in each hand to observe sentient beings and help accordingly.
+	- ## effect flow
+	  id:: 667bef22-b272-4a7d-b613-3f1ed1a47329
+	  collapsed:: true
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) tác lưu, luồng tác dụng
+	  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((667bef50-a33a-4275-9ca3-e9d801ab5a81))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bef22-b272-4a7d-b613-3f1ed1a47329)) is the ((67fcbbc6-915b-4d28-b9cf-098e916cdc86)) of ((66727858-979d-4d95-8a90-7a749218cfba))s. Because action is defined by its underlying ((669a58b9-eb34-41cd-8605-02e29b07e1b5)), effect flow is just the dynamic aspect of ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)). In microview, each effect flow is drawn by an ((669a26cb-50d8-4347-a5c4-7c0c3acf1211)). In effect flow, each ((677f509b-f2db-47b1-aafb-5a475334b532)) is also the ((677f7108-ffa5-4ea7-9a69-eaa355a7569e)) of next actions. That means there's neither pure effect nor pure cause in ((667bf36a-581a-4abe-b544-2d849608a3e4)), and only non-circular effect flow has such terminals. The effect flow is [interpenetrative](((66eb7dae-2032-434b-9106-756d4aad7cdb))) thanks to its mutual ((677f7100-e650-464a-a835-15a9f28df649))s inside.
+		  id:: 6835b165-492a-4b22-94b1-3d2a3b42ca2a
+			- effect flow is a **dynamic continuum** of ((677f509b-f2db-47b1-aafb-5a475334b532)) = ((677f7108-ffa5-4ea7-9a69-eaa355a7569e)) = [action](((6835b165-75f8-465e-84d4-b7b0f68b4dcb))) = ((677f7100-e650-464a-a835-15a9f28df649)) = ((677f7104-7fc4-4034-bb08-0dabd80a586f)).
+			  id:: 683eac41-53d2-4341-a732-a6a923962629
+			  :LOGBOOK:
+			  CLOCK: [2025-06-03 Tue 15:06:25]
+			  :END:
+				- That means, *effect flow* is also *causal flow*, *action flow*, *flow of changes*, as well as *influential wave* and *condition wave*.
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- “Effect flow” versus causal chain, cause-and-effect chain (CEC), chain of causation
+			  collapsed:: true
+				- In constrast to those “chains” of *separate* causes and effects which are like strings of beads, ((683eac41-53d2-4341-a732-a6a923962629)) This continuum has been well expressed in the [dependent origination](https://en.wikipedia.org/wiki/Prat%C4%ABtyasamutp%C4%81da) principle, a.k.a. twelve-linked chain of conditions (dvādaśa-nidānāni, dvādaśa-hetupratyaya [十二因縁]).
+				- The focus on “effect” instead of “cause” is to show the **observable change** and **emergent** property of the flow. Whereas _the cause is subjective to the obop_.
+					- The term “effect”, with the apparently dynamic effect (change), dispels the illusion of “static & absolute causes”.
+						- Just like in the butterfly effect, the very tiny change at the intial condition leads to the giant change in the result, the **apparent staticness** is due to the small scale of the cause, the seed.
+							- That impression of a static cause/seed is but an illusion due to our limit of resolution (cannot see its tiny change). In ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)), the tiny intent (cause) is the reciprocal of the huge extent (effect): $i = 1/e$.
+						- Whatever observable is just “effect”, the “cause” exists only in the mind of the obop.
+							- The “cause” here meaning causality & causation – the choice of causal direction – which one is causing which one – is subjective.
+								- However, whenever the causal direction is determined, both cause and effect can be either inside or outside of the subject.
+							- [Causality](https://en.wikipedia.org/wiki/Causality_(physics)) is metaphysical & subjective, not physical & objective, due to [time symmetry](https://en.wikipedia.org/wiki/T-symmetry) in classical physics and [unitarity](https://en.wikipedia.org/wiki/Unitarity_(physics)) in QM.
+							- The relativity of causality is shown by the screwing effect or the [barberpole illusion](https://en.wikipedia.org/wiki/Barberpole_illusion) of the [Unitorus](((68594391-f2b0-4501-86ec-af8b67346db9))) and the [twisting double i](((698974b1-d593-4d0a-b57a-41e8e2ac629a))): is the flow caused by the rotation or by the push of the strands along the rope?
+						- While the ((675c03d8-3185-41a8-9f98-e869fabec793)) is [unitary](((67505a68-91b9-4abb-bf92-4dddad8c5803))), out of any time, and causally independent, every obop lives in its own causal world bundled from all the [causal threads](((66ab75a1-f4a0-4bab-a002-8e573546623a))) passing through its body.
+							- That means the effect flow of each obop defines the causal structure of its experience.
+					- Terminology
+					  collapsed:: true
+						- In Vietnamese, tác lưu (作流) = luồng tác dụng (effect flow) = luồng tác nhân (causal flow) = luồng tác động (action flow) = sóng ảnh hưởng (influential wave) = sóng duyên (condition wave).
+						- “Effect” is translated to “tác dụng” (作用) instead of “hiệu ứng (效應), hiệu quả (效果)” to withdraw from the extreme of an end result (kết quả, 結果).
+						- “Cause” is translated to “tác nhân” (作因) instead of “nguyên nhân (原因)” to withdraw from the extreme of a first cause.
+						- In English and Chinese, the general [workflow](https://en.wikipedia.org/wiki/Workflow) = 工作流 (công tác lưu) and its reactive version [action flow](https://support.zendesk.com/hc/en-us/articles/8855601898266-Creating-action-flows-to-automate-processes-across-Zendesk-and-external-systems-EAP) (initiated by triggers) are artificial cases of effect flow.
+				- While those “chains” are linear laminar flows (streamlines), effect flow can contain many kinds of **nonlinearity**: eddies as ((667c0031-0a87-44c9-9e98-6d45893b095f))s, interpenetrative mixing through ((677f7100-e650-464a-a835-15a9f28df649))s, branching in both effect cone and cause cone.
+				  collapsed:: true
+					- ![CauseEffectCone](https://docs.google.com/drawings/d/e/2PACX-1vT-mk-5M1GkDtoHwER_IkMQAhi6M5N1zzScgIEaQ3BSdEPZdsSgYoSP3URUt0Q0KD0wy--7cDCzXWU8/pub?w=278&h=482)
+			- Effect flow = wave propagation in a (highly distorted) field, in a landscape of possibilities
+			  id:: 6780bc09-6c98-42ed-bbd1-ff940c2a1d10
+			  collapsed:: true
+				- conditioning = training = programming = space distortion = field formation = landscape shaping
+					- A circuit is just a field with highly distorted distribution of possibilities, whose landscape contains nearly vertical walls.
+				- mutual influence = interaction in the field; force field = field of influence
+				- influence of condition on the self = program execution to [drive the self particle in the field](((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)))
+					- Self's action is just the result of influence; No action exists apart from influence & condition.
+			- Example: effect flow of a mission via a field agent in the field
+			  id:: 6780bc66-29b3-43f7-b577-698bae51aadf
+			  collapsed:: true
+				- Cause: As the source of the effect flow, the cause of this mission is what the field agent receives in the office: a task to be done, a problem to be solved, etc.
+				- Condition: The condition for this mission includes everything in the field: the configuration of the field, other subjects in the field, etc.
+				- Action: The field agent carries out the mission through the field and deliver the result to the assigned destination.
+				- Influences: As the field agent works in the field, it navigates the terrain, meet and communicate with other subjects in order to accomplish the mission.
+					- Forward influences: In this process, the agent receives influences from the terrain, the objects and the subjects in the field. These factors affect the agent's direction and their influences accumulate in the agent's records, determining the result of the mission.
+					- Backward influences: While working in the field, the agent also removes obstructing objects, makes minor changes to the terrain, and exerts influence on other subjects through communication.
+				- Effect: As the outcome of the effect flow, the effect is whatever the field agent delivers at the destination after completing all the work in the field.
+				- Effect flow: The total effect is not only the outcome (the final effect) but the whole propagation of changes and influences from the initial cause throughout the course of the mission. While the primary and intended effect flows with the field agent from the initial cause to the final effect, various secondary and side effects ripple out through influences back upon the whole field. The primary effect itself not only results from the initial cause but is also accumulated from influences of the whole field.
+				- Relativity of the self: There are many different offices in the field. A field agent can choose one office to work for, which it considers as “*my office* giving *my cause* for me to produce *my effect*”, here called “the office”, “the cause” and “the effect”. Actually, the effect of “the cause” is not only “the effect” but also included in the outcomes of all other missions that have interactions with this field agent. That means the linear relation from “the cause” to “the effect” is just relative to the choice of office, i.e. of the self.
+		- Components of ((667bef22-b272-4a7d-b613-3f1ed1a47329))
+		  id:: 677f9ae2-f7bc-47a7-a7e3-4dda29d9d834
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((66727858-979d-4d95-8a90-7a749218cfba)) arrows from ((677f7108-ffa5-4ea7-9a69-eaa355a7569e))s to ((677f509b-f2db-47b1-aafb-5a475334b532))s represent the direction of the ((667bef22-b272-4a7d-b613-3f1ed1a47329)). Relative to the choice of ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), the **primary action** of the self from the primary cause to the primary effect are specified, and are simply called “the action from the cause to the effect”. Secondary to the “the action”, other actions includes ((677f7100-e650-464a-a835-15a9f28df649))s of the surrounding ((677f7104-7fc4-4034-bb08-0dabd80a586f))s on the self, and ((69267f67-5e59-48d3-a11c-1e794e85dd1e))s from the self back to environment.
+			  collapsed:: true
+				- [EffectFlow-CauseConditionActionEffect](https://docs.google.com/drawings/d/1uS-8u6nr4pyRzJH6fOLm2ggm4TSEqPHWosKTT5OCdzA/)
+				  ![EffectFlow-CauseConditionActionEffect](https://docs.google.com/drawings/d/e/2PACX-1vRuRJyGQru5ZcIAZLcwMqwjv35U5sXAzGX9KEV5SUbsY5H3LPpm5yWAvn0gK9yNrwv4ob3k1XoMe-tb/pub?w=500){:height 304, :width 500}
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- Convective primary flow versus diffusive secondary flows
+				  id:: 6926d573-2c8b-4a9e-941a-269335cf0885
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2025-11-26 Wed 17:24:55]
+				  CLOCK: [2025-11-26 Wed 17:24:58]--[2025-11-26 Wed 18:00:37] =>  00:35:39
+				  :END:
+					- **Primary flow** by the primary action
+						- Carries the main agent of the action.
+						- Maintains identity and continuity of the self.
+						- Longitudinal, axial, convective, direct, progressive, streamline, purposeful, teleological.
+					- **Secondary flows** by influences and effluences
+						- Dispersive effects radiating from the primary.
+						- Spreading influence without carrying the main agent.
+						- Transverse, radial, diffusive, wavefront, side-effects, byproducts, emanations.
+					- The [convection–diffusion equation](https://en.wikipedia.org/wiki/Convection%E2%80%93diffusion_equation) describes both aspects of the flow.
+					- Examples
+						- **Circular wave** with a clean space/time split
+							- In a circular wave propagating in 2D space (or spherical wave in 3D), the effect flow exhibits a clean separation between its convection and diffusion by time and space.
+							- Primary flow in time: The invisible temporal propagation of the wave – the continuous advancement of the whole wave through time. This is the “through-line” carrying the effect forward in the direction orthogonal to the spatial dimensions.
+							- Secondary flow in space: The visible spatial spreading – the radial expansion of the wavefront outward from the source. This is the effluence radiating in all spatial directions perpendicular to the temporal convection.
+						- **Flying bullet** in spacetime
+							- In a bullet flying through air, while the diffusion manifest spatially, the convection is both temporal and spatial.
+							- Primary flow in spacetime: The bullet's trajectory (worldline) through spacetime – the directed transport of the projectile itself from cause (firing) to effect (impact). This flow maintains the agent's identity as a bullet.
+							- Secondary flow in space: The sound wave, shock wave, and turbulent wake left behind in the air – the dispersive spreading of influence radiating from the bullet's path. These are side effects that propagate outward from the primary trajectory without carrying the bullet itself.
+			- ### cause
+			  id:: 677f7108-ffa5-4ea7-9a69-eaa355a7569e
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) tác nhân
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In general, a ((677f7108-ffa5-4ea7-9a69-eaa355a7569e)) is any source of an ((66727858-979d-4d95-8a90-7a749218cfba)). But the term “cause” is usually limited to the primary cause of the primary action of the self, hence the ((67fcbdea-2ade-4264-b8c4-c419c6fc2779)) of the effect flow. Particularly, cause is the ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) of the source body of the action.
+			- ### condition
+			  id:: 677f7104-7fc4-4034-bb08-0dabd80a586f
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) điều kiện, duyên
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Relative to a self, ((677f7104-7fc4-4034-bb08-0dabd80a586f)) is the source of ((677f7100-e650-464a-a835-15a9f28df649)) upon the primary action of the self. In the selfless view, “condition” is any ((677f7108-ffa5-4ea7-9a69-eaa355a7569e)) of any action.
+			- ### influence
+			  id:: 677f7100-e650-464a-a835-15a9f28df649
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) ảnh hưởng
+			  ((691ae2bd-a60f-4db2-8132-bf54e9dee1b0)) ((69267f67-5e59-48d3-a11c-1e794e85dd1e))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Relative to a self, ((677f7100-e650-464a-a835-15a9f28df649)) is the action of the surrounding ((677f7104-7fc4-4034-bb08-0dabd80a586f)) taken on the self. In the common sense, “influence” is any secondary action, including ((69267f67-5e59-48d3-a11c-1e794e85dd1e)). And in the selfless view, “influence” is any ((66727858-979d-4d95-8a90-7a749218cfba)), whatsoever.
+				- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) “Influence” is the “flow into” some body. This inflow is the driving force underlying the [interpenetrative nature](((66eb7dae-2032-434b-9106-756d4aad7cdb))) of the effect flow, as what [dependent origination](https://en.wikipedia.org/wiki/Prat%C4%ABtyasamutp%C4%81da) principle is to causality.
+			- ((66727858-979d-4d95-8a90-7a749218cfba)) of ((667bef22-b272-4a7d-b613-3f1ed1a47329))
+			  id:: 6835b165-75f8-465e-84d4-b7b0f68b4dcb
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) tác động, hành
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In general, ((66727858-979d-4d95-8a90-7a749218cfba)) is any ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) within an effect flow. But the term “action” is usually limited to the primaray action of the subject self.
+			- ### effect
+			  id:: 677f509b-f2db-47b1-aafb-5a475334b532
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) tác dụng
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((677f509b-f2db-47b1-aafb-5a475334b532)) is the target of ((66727858-979d-4d95-8a90-7a749218cfba)) arrow in effect flow. Particularly, effect is the ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) of the target body resulted from the action. That means the effect is just an ((677f7100-e650-464a-a835-15a9f28df649)) on the target body.
+				- #### side effect
+				  ((665359e4-4597-4775-b849-f9acbb98960a)) tác dụng phụ
+			- ### effluence
+			  id:: 69267f67-5e59-48d3-a11c-1e794e85dd1e
+			  ((691ae2bd-a60f-4db2-8132-bf54e9dee1b0)) ((677f7100-e650-464a-a835-15a9f28df649))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Relative to a self, ((69267f67-5e59-48d3-a11c-1e794e85dd1e)) is the outflow of effect from the self affecting its environment. For the common sense of “influence”, “effluence” can be seen as “outbound influence”.
+				- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) “Effluence” is the “flow out” of some body. The term “effluence” is traditionally used to refer to the emanation of a divine source in theology and phylosophy. Here, it's normalized to be the emanation of any self.
+		- ### circular effect flow
+		  id:: 667bf36a-581a-4abe-b544-2d849608a3e4
+		  collapsed:: true
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)), ((667c0031-0a87-44c9-9e98-6d45893b095f))
+		  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((667bf520-a80c-4b6d-98d8-1f71cae6fb56))
+			- effect circle
+			  id:: 667c0031-0a87-44c9-9e98-6d45893b095f
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf36a-581a-4abe-b544-2d849608a3e4))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bf36a-581a-4abe-b544-2d849608a3e4)) is an ((667bef22-b272-4a7d-b613-3f1ed1a47329)) whose sink is viewed as coinciding with its source, and both are represented by the ((677e76ed-b324-4608-b146-90e8fcfa0c32)). In effect circle is the thread expression of the ((6772a6cd-771f-4f24-9c3a-39c442234be5)).
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- The ((667c0031-0a87-44c9-9e98-6d45893b095f)) in space generates the ((667d15b7-6364-49a9-ac58-c64d2a992b63)) in ((68fa164e-ef0e-4010-937d-ad9e0459f5f2)), i.e. ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)). That time arrow extends the space into a meta-space, a.k.a. [spacetime](https://en.wikipedia.org/wiki/Spacetime). This extension can be continued to extend any (meta-)space to infinity.
+				  id:: 667c001e-83b9-4de5-bf81-1c71898340a2
+				- Various ((667c0031-0a87-44c9-9e98-6d45893b095f))s: ((66f40210-cca6-4d81-85e7-d0c54ef20451)) = ((67b183f5-1cca-4473-917e-60c644dd5466)) = [Five Aggregates](https://en.wikipedia.org/wiki/Skandha)
+				  id:: 674ff584-00e3-40d8-9b77-21e9dca899dd
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2024-12-04 Wed 13:24:29]
+				  CLOCK: [2024-12-04 Wed 13:24:51]
+				  CLOCK: [2024-12-04 Wed 13:25:01]--[2024-12-04 Wed 20:29:40] =>  07:04:39
+				  :END:
+					- Diagram
+					  id:: 67b183f5-dba7-4a11-8a72-3c619e3709ea
+						- ![EffectCircle](https://docs.google.com/drawings/d/e/2PACX-1vR9OJ5byY9Gqnzh6djhbbAmP2FMOOrhHjYT8cW9dee3DT-2-PtnffiOmHvmzehNgmMWaPL4lj2butTo/pub?w=800){:height 684, :width 790}
+						  id:: 6835b165-8a07-4156-9440-a4536b5c8be3
+						- Directions and colors
+						  collapsed:: true
+							- Like the [compass rose](https://en.wikipedia.org/wiki/Compass_rose) (for people in the [Northern Hemisphere](https://en.wikipedia.org/wiki/Northern_Hemisphere)), the **West** (position of **Amitabha** buddha) is on the **left**.
+								- Note that this is different from the common configuration where Amitabha buddha at the West is shown on the top.
+							- On the right, water (blue) is falling down to the earth (yellow) at the bottom;
+							- on the left, fire (red) is raising up to the air/wind (green) on the top.
+					- SCIFER with subtract - divide - add - multiply, and exp-log spiral
+					  id:: 6835b165-5071-423a-a17b-80eb9b6278ef
+						- subject-object (nāmarūpa) $(c, i)$
+						  → sensation ⟪ $c_k - i = c_{k+1}$ ⟫ 
+						  → conception ⟪ $c/i = e$ ⟫ 
+						  → action ⟪ $f_k + i = f_{k+1}$ ⟫ 
+						  → form ⟪ $i×e = f$ ⟫ 
+						  → awareness ⟪ $c - f = r = i'$ ⟫ 
+						  → inner subject-object $(c', i') = (i, r)$
+						  → ...
+						- Layers of sustents $s_k$ = layers of awareness = layers of log spiral
+							- $r = c - f < i$ is the distance to target, error, mismatch of the outer layer which is the intent of the inner layer $r = i'$ to look at the outer self $i = c'$.
+					- Five aggregates in ((66f3b5e5-496a-4545-be7a-b1df2d94bd11)) model
+						- Diagram
+							- ![FoC-skandha](https://docs.google.com/drawings/d/e/2PACX-1vQmz0Mb9Ms-L-mfW3ayJIGi1OnNWIMHaTuilZr_I1Zc6DeZ3bq-juzHrwjsQHl294OUoy4PQuv0EsX4/pub?w=300)
+						- Form and concept are external and internal forms, i.e. object and subject.
+						- Sensasion and action are input and output contents of the subject.
+						- Awareness is the opening of the subject's obop.
+					- [5 Families](https://en.wikipedia.org/wiki/Five_Tath%C4%81gatas#Main_aspects_of_the_Five_Families): 5 aggregates, 5 buddhas, [5 wisdoms](https://en.wikipedia.org/wiki/Five_wisdoms), 5 directions, 5 dynamic derivatives $mx, ∂_x m, m\ddot x = F, m\dot x = p, m\ddot x = c^2 ∂_x^2m$
+					  collapsed:: true
+						- 5 buddhas in in [Vajrayana](https://en.wikipedia.org/wiki/Vajrayana)
+							- Image
+								- ![5 buddhas](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/photos/photo_24@07-04-2024_21-19-24.jpg){:width 300}
+								- ![Mandala_of_Vajradhatu.png](../assets/Will/story/2025-07/Mandala_of_Vajradhatu.png)
+								- Note that in these images, as well as most of the images, Virocana & Amitabha (and other buddhas) are facing East, i.e. Amitabha buddha at the **West** is shown on **the top**.
+						- [Akṣobhya](https://en.wikipedia.org/wiki/Akshobhya) buddha (Bất Động phật): east, water, blue, form, Ālaya-vijñāna → Mirror-like wisdom (Ādarśa-jñāna, Đại viên kính trí [大圓鏡智])
+						- [Ratnasambhava](https://en.wikipedia.org/wiki/Ratnasambhava) buddha (Bảo Sanh phật): south, earth, yellow, sense, [Mānas](https://en.wikipedia.org/wiki/Manas-vijnana)-vijñāna → Equality widom (Samatā-jñāna, Bình đẳng tánh trí [平等性智])
+						- [Amitābha](https://en.wikipedia.org/wiki/Amit%C4%81bha) buddha (Vô Lượng Quang phật, A-di-đà phật): west, fire, red, concept, mano-vijñāna → (Pratyavekṣaṇa-jñāna, Diệu quan sát trí [妙觀察智])
+						- [Amoghasiddhi](https://en.wikipedia.org/wiki/Amoghasiddhi) buddha (Bất Không Thành Tựu phật): north, wind, green, act, five sensory awarenesses ({cakṣur,śrotra,ghrāṇa,jihvā,kāya}-vijñāna) → (Kṛty-anuṣṭhāna-jñāna, Thành sở tác trí [成所作智])
+						- [Vairocana](https://en.wikipedia.org/wiki/Vairocana) buddha (Đại Nhật phật): center, space, white, aware, [Dharmadhātu](https://en.wikipedia.org/wiki/Dharmadhatu) → [Suchness](https://en.wikipedia.org/wiki/Suchness) wisdom (Tathātā-jñāna, Chân như trí [真如智], Dharmadhātu-svabhāva-jñāna, Pháp giới thể tánh trí [法界體性智])
+						- References
+							- [五智](https://buddhaspace.org/dict/fk/data/%25E4%25BA%2594%25E6%2599%25BA.html)
+				- The κύκλος (cycle, circle) is the form; the κυβερνήτης ([cybernetics](https://en.wikipedia.org/wiki/Cybernetics), steersman) is the agent of that form.
+				  id:: 67bbde62-70fc-4d3d-9f65-dcea280db516
+				  collapsed:: true
+					- Both are about circular motion & turning, and both have the first syllable transformed to "cy" with a very different pronunciation in English.
+					- AI is the runaway child of Cybernetics, the child that fears the dangerous sea of his father, thus sails only in simulation.
+					- From cybernetics to "cyber", the loop has collapsed into a straight wire:
+						- from self-regulation to remote control;
+						- from living feedback to mechanical command.
+				- circular effect flow = circular causality = circular determinism = interdependency = interfusion = interpenetration = dependent origination
+				  id:: 68f5a6d2-8148-4975-b3cb-799fe37a3d72
+					- This circular dependency is shown by the spirorus which is the structure of spacetime.
+				- ((667bf36a-581a-4abe-b544-2d849608a3e4)) is the characteristic of [cybernetics](https://en.wikipedia.org/wiki/Cybernetics).
+			- ### change
+			  id:: 667c008f-cd1f-4a6b-a9c8-d6efa1d8d342
+			  collapsed:: true
+			  “difference from itself” 
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((667bff0e-d45d-4d41-8683-51c3cf76c0bc))
+				- self-effect
+				  id:: 667bff0e-d45d-4d41-8683-51c3cf76c0bc
+				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342))
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)) is a [turn](https://en.wikipedia.org/wiki/Turn_(angle)) in the ((667bf36a-581a-4abe-b544-2d849608a3e4)).
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) is the being's _difference from its_ ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), hence a ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)), as shown in the ((6858b355-fba9-4e61-9f16-bc993a3df44b)). In particular, the change of an object $O$ (in time, space, spacetime, or configuration space) from position $A$ to position $B$ is the difference between $O$ at $A$ and $O$ at $B$, i.e. $O_B - O_A$. The change of ((665ca429-84e3-49ff-921e-c07d19cd99ba)) is ((669a58b9-eb34-41cd-8605-02e29b07e1b5)).
+				  id:: 684f9517-30d7-40e6-b93f-3386123e381c
+				-
+			- ### intentional cause
+			  id:: 677e76ed-b324-4608-b146-90e8fcfa0c32
+			  collapsed:: true
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((677e76ed-b324-4608-b146-90e8fcfa0c32)) is the ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)) of the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) of the ((667c0031-0a87-44c9-9e98-6d45893b095f)). As the first cause (source), it's the operator driving the effect flow, and as the final cause (sink), it's the observer qualifying the ((669a1bec-3347-4915-83e4-dcffc4d482d1)) of the effect circle.
+					- Diagram
+					  collapsed:: true
+						- ![OuroborosTrinion](https://docs.google.com/drawings/d/e/2PACX-1vRqW5erSVHBkU5Zbt-UntR9Yo-49Dx9C58evxiLUTsdPOYCPLEppLbk6nXsjaPcJvtklBwqHel-5pVw/pub?w=300)
+				- ((66725725-f76a-4328-b162-f469b87e871b))
+					- Physics: Potential gradient: voltage, pressure, mass–energy curvature, chemical potential, temperature gradient
+					- Error signal in control theory & cybernetics, prediction error in neuroscience
+					- Uncertainty & information gap in Information theory & computation, [loss function](https://en.wikipedia.org/wiki/Loss_function) in [machine learning](https://en.wikipedia.org/wiki/Machine_learning)
+					- Conflict in [dialectics](https://en.wikipedia.org/wiki/Dialectic) of [homeostasis](https://en.wikipedia.org/wiki/Homeostasis), personal growth, social and organizational evolution
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- The first cause is also the final cause – unified in the intentional cause
+					  id:: 692d502f-b469-4b1d-9267-1d02e3953590
+					  collapsed:: true
+						- I don't use the term “final cause” like Aristotle because [the goal is the horizon](((67445223-9459-4aa9-b102-70c63943577b))):
+							- 1) _in a single circle_, it's both the first (as the seed), and the last (as the purpose), and
+							- 2) throughout the never ending cycle of effect, it will never be “final”.
+						- At first, as a seed, the intent gives rise to the whole tree, i.e. ((66c810a0-9861-4787-bdcf-1378219332be)) of karma.
+						- At last, the fruits are selected by the intent to satisfy the criteria of the purpose.
+						- The statement that “the first cause is also the final cause” is similar to [Aquinas' 5th Way](https://en.wikipedia.org/wiki/Five_Ways_(Aquinas)#Fifth_way:_Argument_from_Final_Cause_or_Ends), but for the immanent God – the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) – instead of a transcendent God.
+						  id:: 692d69f0-ff24-4d71-a95c-2e27ebb28c7d
+							- ((6667c99a-792f-4230-9fc6-c5fae874daef)) = Return to God (exitus–reditus) = ((c96a6d20-a0f6-48bd-9d70-9bc00b6b3c69))
+					- ((677e76ed-b324-4608-b146-90e8fcfa0c32)) in ((667c0031-0a87-44c9-9e98-6d45893b095f)) – its fixaton & relaxation
+					  id:: 69a502fe-1764-4e4d-85a4-ca0eff9c0754
+					  collapsed:: true
+						- The [first cause](((699c0362-eb81-42c5-843c-2559d2fe7b73))): gap, broken, error, missing, unknown, question, mismatch, problem, pain, suffering, failure, the “negativity” in general
+						  id:: 69a502fe-ccb2-422d-a292-e4854e87fd90
+						- The [final cause](((699c0362-f864-4879-9a07-204b96472cb0))): whole, form, the “positivity” in general
+							- This is usually *fixed* which forms the **self-attachment**.
+						- The clinging self: a fixed form of the whole, a permanent last cause
+							- The fixation: by fixing the self-image, the obop creates a permanent & unchangable “hidden boss” controlling every action from behind, hence the term “subject”.
+							- The nonfunctional: Due to that fixation, whenver there are conflicts unsolvable by the hidden boss, it exessively consumes resources to wrestle, occupying valuable free space with nonfunctional and even dysfunctional energy.
+								- It usually foces the whole bodymind to wrestle in vain, creating destructive energy and actions, and only stops when all available resources are used up.
+									- Its stop is forced by exhaustion, not voluntary.
+								- This is illustrated by the “2nd arrow” in the Buddhist [“2 arrows” parable](https://suttacentral.net/sn36.6/en/sujato).
+						- Selfless, liberated functional effect circle is driven by _**dynamic** intentional causes_ in unlimited dimensions (levels of abstraction).
+							- The ((66600918-9f92-4730-b056-c2cd87a742aa)): There's always another higher dimension where it's free, vacant to escape the conflict by stepping out of the war zone.
+							- The ((6653751a-a1b4-44b0-a81e-0a446eb8918c)): From that free stance, no self (fixation) is [controlling behind the eyes](((68a520bf-adba-4d78-9e3d-5f41de9f8153))), the obop is pure ((66e41e14-6c0c-41d7-9089-92916d47d7e0)), operating with ((669a3da2-1e6c-48bd-950f-af1ea1ceda25)).
+							- The feedback: That equanimous obop makes _the intentional causes **change**_ by absorbing the conflicts of their effect circles.
+							  id:: 69a50c8a-484e-45e0-bb2e-99b168f363e8
+								- The unsolvable conflict is just a meta-error for the intent itself to change (refine).
+								- The normal error (solvable problem) has both ways of effect:
+									- Feedforward from intent to effect circle to solve it
+									- Feedback from the effect flow to update intent's meta like probability.
+					- ((677e76ed-b324-4608-b146-90e8fcfa0c32)) in knowledge circle = intent (know-why) = arrow returning to the root obop = qualifier = verifier = complement of the result/answer of the problem/question (know-where, know-what, formal cause)
+					  id:: 68a7e246-8407-4e89-b393-912db172e4fe
+					  collapsed:: true
+					  :LOGBOOK:
+					  CLOCK: [2025-08-17 Sun 20:22:03]
+					  :END:
+						- First cause: The problem/question is the gap in the circle, the absence of the result/answer.
+						  id:: 699c0362-eb81-42c5-843c-2559d2fe7b73
+							- This absence breaks the circle, leading to the urge to heal it, to make it complete by finding solution/answer.
+						- View cone projects the process of resolution (quest, solving, working out, reasoning, proof, derivation, exploration, etc.), i.e. know-how (efficient cause), to the result/answer (know-where, know-what, formal cause).
+						- Final cause: The verification/qualification of the solution/answer closes the effect circle.
+						  id:: 699c0362-f864-4879-9a07-204b96472cb0
+							- ((6667c99a-792f-4230-9fc6-c5fae874daef)): As long as there's still gaps, mismatch, imbalance, unknown, inequality, and so on, there's still motion – transition of effect circle – toward balance, the final target.
+							- The “final cause” in [4 causes by Aristotle](https://en.wikipedia.org/wiki/Four_causes) corresponds to this half of the intentional cause.
+						- ⇒ The intentional cause is “final” in the ((667bda02-8dc9-488e-ba16-ea75c3d7895c)), but “first” in the ((667bd93a-cce4-4dbf-9831-725e4dffe463)).
+						- The external knowledge circle is the lowest circle in the tower of effect circles, under all active intents.
+		-
+	- ## thread
+	  id:: 667d0d2e-15c7-4989-a183-69a9a5c6bf8a
+	  collapsed:: true
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From the [fabric thread](https://en.wikipedia.org/wiki/Thread_(yarn)), ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) is abstracted as the thing running through the whole course of something. In ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)), a “thread” is the continuous line of ((6678288e-699b-4325-bdba-bf6349fe0d57)) running through its various ((665ca429-84e3-49ff-921e-c07d19cd99ba))s by ((669a58b9-eb34-41cd-8605-02e29b07e1b5))s among them. That means the “thread” in Unithread is just the static aspect of the ((667bef22-b272-4a7d-b613-3f1ed1a47329)), hence the name ((68522d55-b6a4-4f70-853c-4335510de6f7)). The ((678e1d31-4874-4df6-bfb4-60822a6b5546)) of the whole ((66537a0b-d107-4f7e-b01f-bf624a647d8c)) is called the ((66ab75a1-f4a0-4bab-a002-8e573546623a)) whose parts are usually addressed as simply “threads”. [Threads are spun from light](((671b5598-42a8-421d-a942-3819be212d50))) just like yarns are spun from fibers.
+		- ((66725725-f76a-4328-b162-f469b87e871b)) [execution thread](https://en.wikipedia.org/wiki/Thread_(computing)), [conversation thread](https://en.wikipedia.org/wiki/Thread_(online_communication)), [fabric thread](https://en.wikipedia.org/wiki/Thread_(yarn)), [screw thread](https://en.wikipedia.org/wiki/Screw_thread), [Ariadne's thread](https://en.wikipedia.org/wiki/Ariadne%27s_thread_(logic))
+		  id:: 66b1cfa4-6ce7-447b-b637-30d86f0e748e
+		- Vietnamese: sợi, mạch
+		- Chinese: 線(索), 脈(絡)
+		- effect thread
+		  id:: 68522d55-b6a4-4f70-853c-4335510de6f7
+		  collapsed:: true
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a))
+			- mạch tác lưu
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((68522d55-b6a4-4f70-853c-4335510de6f7))
+			- 作流脈
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((68522d55-b6a4-4f70-853c-4335510de6f7))
+		- ### Ω-thread
+		  id:: 66ab75a1-f4a0-4bab-a002-8e573546623a
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((67a17ea8-2d20-45fa-9fe6-e998541aa3a5)), ((68522d55-b6a4-4f70-853c-4335510de6f7)), mạch ôông
+			- omnithread
+			  id:: 67a17ea8-2d20-45fa-9fe6-e998541aa3a5
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66ab75a1-f4a0-4bab-a002-8e573546623a))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ab75a1-f4a0-4bab-a002-8e573546623a)) is the representation of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) in mathematical language as a ((66ab6761-b62d-486b-bd15-44a4ecee8a99)) of ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)), and is the central object of the ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) theory. Each Ω-thread is an ((66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe)) of the Trinion, corresponding to a particular configuration/view of the Universe from a particular ((667272b8-88a8-4928-a22a-35035c9edf05)), as described in the ((678e2046-54ac-4284-865d-6f3e38f589a1)). An Ω-thread can be relaxed into a ((667d15c6-67c4-4998-a549-c8b3f9de3d60)), or can be folded into the ((675c03d8-3185-41a8-9f98-e869fabec793)) (Ω) which includes all possible Ω-threads. In contrast to the whole Ω-thread which is a concrete ((678e1c3f-6202-45aa-8527-f4bdad9927b9)), a part (chunk, segment) of it, simply called a “**thread**”, can capture an abstract concept or information, i.e. ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)).
+			  id:: 681826ac-5a8d-4240-95fd-183e03b9ef66
+				- WAIT Similar to the ((6772a6cd-771f-4f24-9c3a-39c442234be5))
+				  :LOGBOOK:
+				  CLOCK: [2025-01-20 Mon 20:56:58]
+				  :END:
+			- ((665ca48e-f7c1-4541-b5cf-486d86b02997)) Beside the formal names **Ω-thread** [from ((678e23b4-0fbe-4a5d-923f-6252405053df)), pronounced “**ohm**-thread”] & “**omnithread**” [from ((675c03d8-3185-41a8-9f98-e869fabec793))], it can also be called “ōm̐-thread” [from [ॐ](https://en.wikipedia.org/wiki/Om), also “aum-thread”], “one-thread [from ((67505a68-91b9-4abb-bf92-4dddad8c5803))], or “overall thread”, “[Ouroboros](https://en.wikipedia.org/wiki/Ouroboros) thread”, etc.
+			  id:: 66ac48f5-823a-442b-8cc1-7c634b2be4ca
+				- Vietnamese: mạch ôông (ōm̐-thread)
+				- While written as “Ω-thread”, it's called “**ohm**-thread” instead of “omega-thread”.
+				- Ω-thread is the universal ((68522d55-b6a4-4f70-853c-4335510de6f7)).
+					- _The **universal effect thread** weaves up everything._
+					  id:: 683ed4a3-68c7-41a4-aecf-b21561f207df
+					  _**Mạch tác lưu** dệt nên vạn vật._
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- ((66ab75a1-f4a0-4bab-a002-8e573546623a)) corresponds to a closed directed dynamic metrizable refinable [topos](https://en.wikipedia.org/wiki/Pointless_topology) in topology.
+				- “current” = coarse-grained thread, “thread” = fine-grained current, compared to the resolution of the eye.
