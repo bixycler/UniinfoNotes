@@ -2226,7 +2226,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Gemini [helped me](https://g.co/gemini/share/52e6bf865a2f) find a new approach to solve my perfectionism: instead of abandoning or dismantling the holistic core, just **rotate** it! 😊
 					- This solution popped up in my mind on the way back home while i was reviewing the chat.
 					- “Rotating the holistic core” is the solid view of the *nonblocking circular effect flow* seen [last weekend](((6a2fd5d4-8b93-4b26-8ad1-f9ead9704c65))).
-					- ⇒ ((6a3a6340-296f-49aa-bb88-e523073cc177)), ((6a3a7402-1157-4cac-b074-48cf25b46b23)), ((6a3a6381-21b1-46ed-9eb6-e7aeff52c874))
+					- ⇒ ((6a3a6381-21b1-46ed-9eb6-e7aeff52c874)), ((6a3a6340-296f-49aa-bb88-e523073cc177)), ((6a3a7402-1157-4cac-b074-48cf25b46b23))
 			- 19th, chatted with Huy about the roots of all defintions, and with Gemini about the tree model of the Grand Circle.
 			  collapsed:: true
 				- Huy asked me to check this “fact”: if you keep follow first link on every Wikipedia page, you will end up in... philosophy.
@@ -2261,7 +2261,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- **Vimarsa** (Self-awareness / Reflexive throb): Abhinavagupta described the Nothingness of Shiva as **Prakasha** – Pure, unmanifest Light or Awareness. But Light, on its own, doesn't know it is shining. Therefore, it must have an inherent, dynamic power to reflect upon itself. That power is **Vimarsa** (Shakti).
 				- Reading [112 meditation techniques](https://tantrasadhana.app/blog/vigyan-bhairav-tantra-kal-bhairav-reveals-112-techniques) in [Vijñāna Bhairava Tantra](https://en.wikipedia.org/wiki/Vij%C3%B1%C4%81na_Bhairava_Tantra), i see the meaning of my name – Samadhi: regardless of location, diving deep enough into any point, we eventually see God through the Grand Circle.
 					- But just like the Buddha, i don't find liberation there, but only the machinery of this world. I'm finding way to surface up!
-			- 23rd, almost entire work hours chatting with Gemini about religions...
+			- 23rd, almost entire work hours chatting with Gemini about religions.
+			- 24th,
+			  collapsed:: true
+				- ⇒ ((6a3ca168-4296-4d81-8d6d-a93b293a1da2))
 		- Chrome tab zombie by Cognee webapp
 		  id:: 6a227a43-5fa1-4718-8cf7-3a57c8121bd5
 		  collapsed:: true
