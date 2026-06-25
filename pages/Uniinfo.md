@@ -371,7 +371,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 			  collapsed:: true
 			  “The Truth lies, and the Lie is telling the truth!”
 				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Liar_paradox
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6a3cbac0-2c6d-4e76-84de-ebd468284fca)) is... the ((6830645a-93b9-4c90-929f-8740f40c2b15))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6a3cbac0-2c6d-4e76-84de-ebd468284fca)) is the paradox generated an honest liar that “I am lying.” the ((6830645a-93b9-4c90-929f-8740f40c2b15))
 				- ### Coin of Truth
 				  id:: 6830645a-93b9-4c90-929f-8740f40c2b15
 				  collapsed:: true
