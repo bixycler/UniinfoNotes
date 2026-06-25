@@ -323,8 +323,8 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 						- Exposing the hidden substance
 							- By turning the gaze inward, we discover that the true foundation of any system is the conscious observer.
 							- This reality is preserved in the etymological roots of the word [subject](https://en.wiktionary.org/wiki/subject):
-								- **Sub-ject** (*sub* + *jacere*): “that which is thrown underneath” – the invisible root system of pure awareness be.
-								- **Sub-stance** (*sub* + *stare*): “that which stands underneath” – the trunk flare holding up the entire visible apparatus.
+								- **Sub-ject** (*sub* + *jacere*): “that which is thrown underneath” – the invisible root system of pure awareness hidden beneath the surface.
+								- **Sub-stance** (*sub* + *stare*): “that which stands underneath” – the living ground holding up the entire visible apparatus.
 							- Materialism flipped the coin to name hundreds of separate “substances” – like atoms, quarks, and biochemical compounds.
 								- It built an incredibly detailed map of the foliage, but treated each leaf as an isolated fragment.
 								- It completely forgot the one true substance standing underneath: the experiencing Subject.
@@ -2347,7 +2347,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 			- effect circle
 			  id:: 667c0031-0a87-44c9-9e98-6d45893b095f
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf36a-581a-4abe-b544-2d849608a3e4))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bf36a-581a-4abe-b544-2d849608a3e4)) is an ((667bef22-b272-4a7d-b613-3f1ed1a47329)) whose sink is viewed as coinciding with its source, and both are represented by the ((677e76ed-b324-4608-b146-90e8fcfa0c32)).
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bf36a-581a-4abe-b544-2d849608a3e4)) is an ((667bef22-b272-4a7d-b613-3f1ed1a47329)) whose sink is viewed as coinciding with its source, and both are represented by the ((677e76ed-b324-4608-b146-90e8fcfa0c32)). In effect circle is the thread expression of the ((6772a6cd-771f-4f24-9c3a-39c442234be5)).
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- The ((667c0031-0a87-44c9-9e98-6d45893b095f)) in space generates the ((667d15b7-6364-49a9-ac58-c64d2a992b63)) in ((68fa164e-ef0e-4010-937d-ad9e0459f5f2)), i.e. ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)). That time arrow extends the space into a meta-space, a.k.a. [spacetime](https://en.wikipedia.org/wiki/Spacetime). This extension can be continued to extend any (meta-)space to infinity.
 				  id:: 667c001e-83b9-4de5-bf81-1c71898340a2
