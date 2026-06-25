@@ -2276,7 +2276,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 25th, ...
 			  collapsed:: true
 				- Write ((6a3cbac0-2c6d-4e76-84de-ebd468284fca))
-				- Split [[Uniinfo]] to [[Uniinfo Theory]] & [[Uniinfo Concepts]].
+				- Split `[[Uniinfo]]` to `[[Uniinfo Theory]]` & `[[Uniinfo Concepts]]`.
 				- Update ((6a3a6381-21b1-46ed-9eb6-e7aeff52c874))
 		- Chrome tab zombie by Cognee webapp
 		  id:: 6a227a43-5fa1-4718-8cf7-3a57c8121bd5
