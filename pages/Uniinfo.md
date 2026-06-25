@@ -334,10 +334,10 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 								- It traces the consequences of axioms – the trunk flare – and splits into distinct leaves and logical parts.
 							- The **inductive root system** taps into the dark soil of direct experience.
 								- It draws up the intuitive nutrients of awareness to feed the trunk flare of axioms, which is also called root flare of postulates.
-							- The living torus: the fruits of the shoot drop, decompose, and sink into the soil to feed the roots.
+							- The **living circle**: the fruits of the shoot drop, decompose, and sink into the soil to feed the roots. closing the circle of the tree.
 								- This forms a self-sustaining **deductive–inductive circle**.
 								- This loop proves the absolute **mutual necessity** of both systems, and the radical **insufficiency** of any single system in isolation.
-								-
+								- Different from the [circular reasoning fallacy](https://en.wikipedia.org/wiki/Circular_reasoning) which is a dry dead loop, this living circle is sustained by the wet root system of experiential induction instead of dry reasoning. The
 						- The circular effect flow
 							- This is the living engine of reality – a continuous, self-generating current.
 							- It strips away the static illusion of the cause-and-effect timeline.
