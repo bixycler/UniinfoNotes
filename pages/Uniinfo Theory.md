@@ -222,23 +222,23 @@
 					- The Grand Circle as a tree
 					  id:: 6a3a6340-296f-49aa-bb88-e523073cc177
 					  collapsed:: true
-						- The Grand Circle – from the Trinion to its extension as all beings, through the world interface, back to its intension as the whole Universe – can be seen as a living tree whose canopy of the phenomenal world is supported by the reductionistic shoot system the vacantistic root system.
+						- The Grand Circle – from the Trinion to its extension as all beings, through the world interface, back to its intension as the whole Universe – can be seen as a living tree, whose canopy of the phenomenal world is supported by the reductionistic shoot system which is nurtured by the vacantistic root system.
 						  {{embed ((6a3a6f72-763b-49a6-b0d8-b11c3318b025))}}
 						- Shoot system – Reductionism
-							- The shoot system is the ((667bd93a-cce4-4dbf-9831-725e4dffe463)) representing the visible extension of the Trinion, containing the dynamic, outward effects.
+							- The shoot system is the ((667bd93a-cce4-4dbf-9831-725e4dffe463)) representing the visible extension of the Trinion, containing the dynamic, outward effects, manifesting as individual beings.
 							- The canopy represents the phenomenal world – the infinite variety, complexity, and distinct forms of beings.
 							- The branches represent pluralism (đa nguyên), including dualism, simplifying the chaos of the canopy into primary limbs.
 							- The trunk represents monism (nhất nguyên), the single, localized column anchoring everything above it.
 						- Root system – Vacantism
 							- The root system is the ((667bda02-8dc9-488e-ba16-ea75c3d7895c)) representing the deep intension of the Trinion, containing the ancestral, universal causes.
-							- It is decentralized, fluid, and infinitely branching, proving the bottom is not a dead end but the engine of live content.
+							- It taps into the .
 							- It mirrors the shoot system above – reflecting the principle of “as above, so below” – where the [geometric inversion](https://en.wikipedia.org/wiki/Inversive_geometry) transforms the reduction to 0 into an expansion toward ∞.
 							- Although completely invisible beneath the soil surface of the world interface, this subterranean network is just as vast as the canopy, acting as the active ground of the entire structure.
 								- This invisibility explains why emptiness is so easily ignored or misunderstood as nothingness or a static void.
 						- The Living Torus – ((6a3a6381-21b1-46ed-9eb6-e7aeff52c874))
 						  id:: 6a3cef74-d545-4677-a62e-a579ebc452e5
 							- By bending the tree model until the tips of the canopy curve down to meet the deep root system, it forms a continuous torus, visually representing the circular effect flow through three phases.
-								- {{embed ((6a014f61-c9e8-4189-80e4-2beaa0414313))}}
+							  {{embed ((6a014f61-c9e8-4189-80e4-2beaa0414313))}}
 							- 1. **Differentiation** in the **effect cone**: The vacantistic ground generates various forms of beings into the canopy through the upward push of the shoot system.
 							- 2. **Mixmatching** in the **world interface**: Each being spreads its effect out through the environment to interact with all other beings, forming an $N×N$ matrix of interaction.
 								- This continuous exchange – where each being receives effects from all others to mixmatch with its own live content – actively drives the arrow of time.
@@ -272,7 +272,6 @@
 									- Total exposure to the wide root forces the observer into a zero-person perspective (0PP), locking them into absolute observation and stillness.
 										- When the entire context graph is seen simultaneously, the ego-borders evaporate, and the system freezes in spacetime due to the perfect balance of the circle.
 									- To act and move on the flat stage of the world, a being must execute a skillful rotation – step down their dimensions to cast a specific, partial 2D shadow while keeping the infinite, wide-rooted volume intact within.
-						-
 					- The circular effect flow
 					  id:: 6a3a6381-21b1-46ed-9eb6-e7aeff52c874
 					  collapsed:: true
