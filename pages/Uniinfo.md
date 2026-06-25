@@ -337,7 +337,8 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 							- The **living circle**: the fruits of the shoot drop, decompose, and sink into the soil to feed the roots. closing the circle of the tree.
 								- This forms a self-sustaining **deductive–inductive circle**.
 								- This loop proves the absolute **mutual necessity** of both systems, and the radical **insufficiency** of any single system in isolation.
-								- Different from the [circular reasoning fallacy](https://en.wikipedia.org/wiki/Circular_reasoning) which is a dry dead loop, this living circle is sustained by the wet root system of experiential induction instead of dry reasoning. The
+								- Different from the [circular reasoning fallacy](https://en.wikipedia.org/wiki/Circular_reasoning) which is a dry dead loop, this living circle is sustained by the wet root system of induction [crystallizing](((66faa5f9-0b7a-49ca-a5f5-62eeba03ab2b))) experiential content into logical forms, not by dry reasoning.
+									- The circle proves itself not by reasoning but by existence: The root system is proven by the life of the subject, and the shoot system is proven by the match
 						- The circular effect flow
 							- This is the living engine of reality – a continuous, self-generating current.
 							- It strips away the static illusion of the cause-and-effect timeline.
