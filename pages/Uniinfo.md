@@ -339,7 +339,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 								- This loop proves the absolute **mutual necessity** of both systems, and the radical **insufficiency** of any single system in isolation.
 								- Different from the [circular reasoning fallacy](https://en.wikipedia.org/wiki/Circular_reasoning) which is a dry dead loop, this living circle is sustained by the wet root system of induction [crystallizing](((66faa5f9-0b7a-49ca-a5f5-62eeba03ab2b))) experiential content into logical forms, not by dry reasoning.
 									- The circle proves itself not by reasoning but by existence: The root system is proven by the life of the subject, and the shoot system is proven by the matching with objective reality.
-								- In Unïnfo, this living circle is called ((667c0031-0a87-44c9-9e98-6d45893b095f)).
+								- In Unïnfo, this living circle is the ((667c0031-0a87-44c9-9e98-6d45893b095f)) expressed as the ((6a3cbac0-2c6d-4e76-84de-ebd468284fca)).
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- How the Grand Circle dissolves traditional paradoxes
 					  collapsed:: true
@@ -366,6 +366,11 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 					- Interaction of directions: Top-down view provides knowledge for bottom-up action; the whole universe acts upon every single point.
 					- Nature of memory: Memory is an image yet to be updated because nothing has yet caused it to change at that spacetime coordinate.
 					- Graduation of images: A continuous spectrum from fleeting data to lasting knowledge, but with absolutely no permanent form.
+			- Liar Paradox
+			  id:: 6a3cbac0-2c6d-4e76-84de-ebd468284fca
+			  collapsed:: true
+			  “The Truth lies, and the Lie is telling the truth!”
+				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Liar_paradox
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- About the term “vacantism”
 				  id:: 6852b33f-a694-442e-a599-0110163e4ac8
@@ -3074,10 +3079,10 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 				  the closing of ((6678288e-699b-4325-bdba-bf6349fe0d57)) into a ((66ab675b-2778-4f51-80ad-20a8f6988691)), i.e. conceived form, ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f))
 				- formation
 				  id:: 66faa5f9-0b7a-49ca-a5f5-62eeba03ab2b
-				  crystallization of ((6678288e-699b-4325-bdba-bf6349fe0d57)) into ((665ca429-84e3-49ff-921e-c07d19cd99ba))
+				  ((6a3cb95d-99ea-4428-8f09-35a7878596de)) of ((6678288e-699b-4325-bdba-bf6349fe0d57)) into ((665ca429-84e3-49ff-921e-c07d19cd99ba))
 				- crystal form
 				  id:: 670de601-3ca8-4489-8b75-75ca0d9a74bc
-					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) At birth, the ((670de601-3ca8-4489-8b75-75ca0d9a74bc)) is a ((670e14c0-70c6-49ff-9bde-89db60b610c2)), perfect, full, has a [crystal structure](https://en.wikipedia.org/wiki/Crystal_structure) of [complete graph](https://en.wikipedia.org/wiki/Complete_graph). The content of a crystal form is called ((670de73b-6fe0-4366-9d81-2d631a3f3ca3)). In its lifetime, the crystal form usually loses its roundness when it crytallizes more content from the outside, but it still keeps its ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f)) and always try to return to the round form.
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) At birth, the ((670de601-3ca8-4489-8b75-75ca0d9a74bc)) is a ((670e14c0-70c6-49ff-9bde-89db60b610c2)), perfect, full, has a [crystal](((66537bdd-6c99-4d7b-905a-e2a487cae5ce))) structure of [complete graph](https://en.wikipedia.org/wiki/Complete_graph). The content of a crystal form is called ((670de73b-6fe0-4366-9d81-2d631a3f3ca3)). In its lifetime, the crystal form usually loses its roundness when it crytallizes more content from the outside, but it still keeps its ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f)) and always try to return to the round form.
 				- deformation
 				  id:: 670dd83a-3b33-4f1c-bce2-b6ab3783a1dd
 				  ((66c80da7-c0e8-46d2-85e5-71318fd44eff)) ((670e1e36-8929-4a91-8f29-95775c21988e))
@@ -3102,7 +3107,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 			  id:: 670de73b-6fe0-4366-9d81-2d631a3f3ca3
 			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((670df155-ba22-48b9-b7b5-5eb25c78b310)), ((670e363d-c1eb-402a-8283-b4a3a2e65a59)), ((68552508-c073-4456-84c8-9b3c39f26a7e))
 			  c-content = ((670df1e8-93ee-4d2d-8f6c-74b7aeec2b30)) × ((670df1ef-8f69-420e-ab1e-9c9844396704))
-			  the content crystallized into a ((670de601-3ca8-4489-8b75-75ca0d9a74bc))
+			  the content ((671e35d5-231a-4ed4-8c4a-6b200f6ccf20))d into a ((670de601-3ca8-4489-8b75-75ca0d9a74bc))
 				- c-content
 				  id:: 670df155-ba22-48b9-b7b5-5eb25c78b310
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((670de73b-6fe0-4366-9d81-2d631a3f3ca3))
@@ -4857,6 +4862,7 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 		- crystallize
 		  id:: 671e35d5-231a-4ed4-8c4a-6b200f6ccf20
 		  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((66537bdd-6c99-4d7b-905a-e2a487cae5ce))
+		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((6a3cb95d-99ea-4428-8f09-35a7878596de))
 			- crystallization
 			  id:: 6a3cb95d-99ea-4428-8f09-35a7878596de
 			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((671e35d5-231a-4ed4-8c4a-6b200f6ccf20))
