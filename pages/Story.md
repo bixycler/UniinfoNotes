@@ -2264,11 +2264,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 23rd, almost entire work hours chatting with Gemini about religions, where i was remineded that the obop **sampling pattern** defines world.
 			- 24th,
 			  collapsed:: true
+				- After the first sleep cycle (5h) which was done early before the night routine, i meditated, took a bath,
 				- cessation of static form = through (unobstructed) flow = continuous learning = acceptance of porosity of intent (inner form) = reduction of requirement = balance & whole by imbalance & parts
 					- balance by counterbalance!
 					- > The Truth lies, and the Lie is telling the truth!
 					- _Dynamic **force**_ instead of linear process: force turns into momentum (unfolded) in favorable condition, force is reflected (folded) back in unfavorable condition.
 					- [Chatted with Gemini](https://g.co/gemini/share/35d640d13c81) about ((6a3ca168-4296-4d81-8d6d-a93b293a1da2))
+				- After
 		- Chrome tab zombie by Cognee webapp
 		  id:: 6a227a43-5fa1-4718-8cf7-3a57c8121bd5
 		  collapsed:: true
