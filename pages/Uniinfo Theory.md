@@ -222,14 +222,15 @@
 					- The Grand Circle as a tree
 					  id:: 6a3a6340-296f-49aa-bb88-e523073cc177
 					  collapsed:: true
-						- {{embed ((6a3a6f72-763b-49a6-b0d8-b11c3318b025))}}
+						- The Grand Circle from the Trinion to 
+						  {{embed ((6a3a6f72-763b-49a6-b0d8-b11c3318b025))}}
 						- Shoot system – Reductionism
-							- The shoot system is the ((667bd93a-cce4-4dbf-9831-725e4dffe463)) representing the visible extension, containing the dynamic, outward effects.
+							- The shoot system is the ((667bd93a-cce4-4dbf-9831-725e4dffe463)) representing the visible extension of the Trinion, containing the dynamic, outward effects.
 							- The canopy represents the phenomenal world – the infinite variety, complexity, and distinct forms of beings.
 							- The branches represent pluralism (đa nguyên), including dualism, simplifying the chaos of the canopy into primary limbs.
 							- The trunk represents monism (nhất nguyên), the single, localized column anchoring everything above it.
 						- Root system – Vacantism
-							- The root system is the ((667bda02-8dc9-488e-ba16-ea75c3d7895c)) representing the deep intension, containing the ancestral, universal causes.
+							- The root system is the ((667bda02-8dc9-488e-ba16-ea75c3d7895c)) representing the deep intension of the Trinion, containing the ancestral, universal causes.
 							- It is decentralized, fluid, and infinitely branching, proving the bottom is not a dead end but the engine of live content.
 							- It mirrors the shoot system above – reflecting the principle of “as above, so below” – where the [geometric inversion](https://en.wikipedia.org/wiki/Inversive_geometry) transforms the reduction to 0 into an expansion toward ∞.
 							- Although completely invisible beneath the soil surface of the world interface, this subterranean network is just as vast as the canopy, acting as the active ground of the entire structure.
@@ -278,8 +279,6 @@
 						- The ((667bf36a-581a-4abe-b544-2d849608a3e4))
 						- The Tension of the Two Views
 							- Every being acts as a local site where the universal content condenses, forming a **crystal image of the self**.
-							- This architecture can be mapped to the biological division of a plant – the root system and the shoot system.
-								- The Surface Boundary: Because the world interface acts as the ground level, the vast root system remains completely hidden under the surface, making the intension invisible to ordinary observation.
 							- Depending on the viewpoint, this crystallization is perceived in two opposing directions – the extensional and the intensional.
 							- Extensional view: This perspective focuses on the surface effects where global, new vectors arrive to disrupt and modify a static, local anchor.
 								- Operating only above the surface, it observes only the shoot system and mistakes the visible leaf for an isolated, independent entity.
