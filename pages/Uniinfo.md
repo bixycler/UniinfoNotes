@@ -330,15 +330,13 @@ id:: 69844753-5970-4e97-805b-6c29d9547d54
 						- The living tree of logic
 							- The logical flow can be modeled as a tree where the above and the below feed each other.
 							- The **deductive shoot system** branches upward into the air.
-								- It traces the consequences of axioms linearly.
-								- It splits into distinct leaves and logical parts.
-							- The **inductive root system** digs into the dark soil of direct experience.
-								- It draws up the intuitive nutrients of awareness.
-								- It feeds the trunk flare.
+								- It traces the consequences of axioms – the trunk flare – and splits into distinct leaves and logical parts.
+							- The **inductive root system** taps into the dark soil of direct experience.
+								- It draws up the intuitive nutrients of awareness to feed the trunk flare of axioms, which is also called root flare.
 							- The fruits of the shoot drop, decompose, and sink into the soil to feed the roots.
 								- This forms a perfect, self-sustaining, deductive–inductive circle.
 								- This loop proves the absolute **mutual necessity** of both systems, and the radical **insufficiency** of any single system in isolation.
-									- Without the roots, the shoot has no nutrient ground to stand on.
+									- Without the roots, the shoot has no nutrient ground to stand on and dies of starvation.
 									- Without the shoot, the roots can produce no fruits to replenish the soil and decay into barrenness.
 						- The circular effect flow
 							- This is the living engine of reality – a continuous, self-generating current.
