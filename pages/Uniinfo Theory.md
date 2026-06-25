@@ -232,7 +232,7 @@
 							- It mirrors the shoot system above – reflecting the principle of “as above, so below” – where the [geometric inversion](https://en.wikipedia.org/wiki/Inversive_geometry) transforms the reduction to 0 into an expansion toward ∞.
 							- Although completely invisible beneath the soil surface of the world interface, this subterranean network is just as vast as the canopy, acting as the active ground of the entire structure.
 								- This invisibility explains why emptiness is so easily ignored or misunderstood as nothingness or a static void.
-						- The Living Torus – The ((667bf36a-581a-4abe-b544-2d849608a3e4))
+						- The Living Torus – ((6a3a6381-21b1-46ed-9eb6-e7aeff52c874))
 							- By bending the tree model until the tips of the canopy curve down to meet the deep root system, it forms a continuous torus, visually representing the circular effect flow through three phases.
 								- {{embed ((6a014f61-c9e8-4189-80e4-2beaa0414313))}}
 							- 1. **Differentiation** in the **effect cone**: The vacantistic ground generates various forms of beings into the canopy through the upward push of the shoot system.
@@ -272,6 +272,7 @@
 					- The circular effect flow
 					  id:: 6a3a6381-21b1-46ed-9eb6-e7aeff52c874
 					  collapsed:: true
+						- The ((667bf36a-581a-4abe-b544-2d849608a3e4))
 						- The Tension of the Two Views
 							- Every being acts as a local site where the universal content condenses, forming a **crystal image of the self**.
 							- This architecture can be mapped to the biological division of a plant – the root system and the shoot system.
