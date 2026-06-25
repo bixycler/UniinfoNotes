@@ -222,7 +222,7 @@
 					- The Grand Circle as a tree
 					  id:: 6a3a6340-296f-49aa-bb88-e523073cc177
 					  collapsed:: true
-						- The Grand Circle from the Trinion to 
+						- The Grand Circle – from the Trinion to its extension as all beings, through the world interface, back to its intension as the whole Universe – can be seen as a living tree whose canopy of the phenomenal world is supported by the reductionistic shoot system the vacantistic root system.
 						  {{embed ((6a3a6f72-763b-49a6-b0d8-b11c3318b025))}}
 						- Shoot system – Reductionism
 							- The shoot system is the ((667bd93a-cce4-4dbf-9831-725e4dffe463)) representing the visible extension of the Trinion, containing the dynamic, outward effects.
