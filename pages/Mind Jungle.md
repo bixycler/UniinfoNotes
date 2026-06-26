@@ -795,8 +795,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- The state of the art of the codebase knowledge graph engines
 						- Dynamic Behavior Limitations: Static parsers cannot track runtime dynamic behaviors, such as reflection (in Java, etc.), dynamic imports (for interpreted languages like Python and JavaScript), or runtime dependency injection.
-							- Runtime Resolution: Tools like Understand Anything run the project's unit test suite in an instrumented environment. This maps the actual paths traversed at runtime, revealing dynamic dependencies that a purely static AST analysis would have missed.
+							- Test-Coverage and Dynamic Execution Map Overlays: Tools like Understand Anything run the project's unit test suite in an instrumented environment. This maps the actual paths traversed at runtime, revealing dynamic dependencies that a purely static AST analysis would have missed.
 							- Hybrid Resolution Cascades: Tools like Codebase-Memory and CodeGraphContext use hybrid LSP type resolution and prioritized "confidence cascades". For example, when encountering a dynamic method call, the engine evaluates enclosing class scopes, method receiver definitions, and suffix-based import distance to determine the most statistically probable target definition with an associated confidence score.
+							- Agentic Runtime Debugging and Dynamic Call Graphs: Agent-centric Debugging Interface (ADI) is a specialized, function-level interaction paradigm designed to make dynamic analysis highly cost-efficient for autonomous AI agents. Unlike traditional software debugging that relies on line-by-line execution, ADI provides AI agents with high-level structural overviews and function-level controls. The core components include: Frame Lifetime Trace (FLT), Dynamic Call Graphs, Conditional Breakpoints
 						- Parsing Edge Cases: Unhandled syntax structures or complex macros can lead to unresolved references in the index.
 	- ## Linux
 	  ((680a04eb-125e-4e9e-b691-3b7be523359c)) ((66949495-3846-4f89-9ea5-c62b624d282c))
