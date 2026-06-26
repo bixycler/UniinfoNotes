@@ -801,6 +801,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  collapsed:: true
 						- Layers
 							- Parsing and Extraction Layer: Incremental syntax trees via Tree-Sitter or Compiler-precise type indexing via Source Code Intelligence Protocol (SCIP) or Language Server Protocol (LSP)
+								- Ref: [Compare Tree-Sitter, LSP, SCIP, with details on Glean & Kythe](https://share.google/aimode/SyC1VqTdIMlaeKX37)
 							- Persistence and Database Storage Backends: Relational-to-graph SQLite, embedded native graph DB, stacked immutable key-value stores
 						- Local-First Performance-Critical Engines: Codebase-Memory (C Binary), CodeGraph-Rust (Rust Binary), CodeGraphContext (Python / KùzuDB)
 							- These tools prioritize fast parsing, minimal memory use, and zero-dependency local execution.
