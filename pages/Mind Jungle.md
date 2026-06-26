@@ -777,7 +777,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  A [“dialectic” reasoning & learning](https://docs.honcho.dev/v3/documentation/core-concepts/reasoning) agent that combines relational data with vector embeddings to perform **social cognition**: apps & sessions > peers & representations > collections of vector embeddings.
 				- [OpenViking](https://github.com/volcengine/OpenViking)
 				  [combines vector index (semantics) & AGFS (content)](https://openviking.ai/docs) for hierarchical context delivery with clear URI `viking://{scope}/{path}`.
-			- source code graph
+			- codebase knowledge graph
 			  id:: 69e7381e-faaf-403e-92d0-cc5b4714ef04
 			  collapsed:: true
 				- [CodeGraph](https://github.com/colbymchenry/codegraph)
@@ -793,8 +793,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- [Glean](https://github.com/facebookincubator/glean)
 				  is an open-source code indexing system that stores typed, schema-defined facts about source code in a queryable database. Facts can be queried with Angle, a Datalog-style query language.
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-					- The state of the art of the souce code graph engines
-						- Dynamic Behavior Limitations: Static parsers cannot track runtime dynamic behaviors, such as reflection, dynamic imports, or runtime dependency injection.
+					- The state of the art of the codebase knowledge graph engines
+						- Dynamic Behavior Limitations: Static parsers cannot track runtime dynamic behaviors, such as reflection (Java), dynamic imports, or runtime dependency injection.
 						- Parsing Edge Cases: Unhandled syntax structures or complex macros can lead to unresolved references in the index.
 	- ## Linux
 	  ((680a04eb-125e-4e9e-b691-3b7be523359c)) ((66949495-3846-4f89-9ea5-c62b624d282c))
