@@ -783,7 +783,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- [CodeEagle Codebase Intelligence](https://mcpmarket.com/tools/skills/codeeagle-codebase-intelligence)
 				- [CodeGraph](https://github.com/colbymchenry/codegraph)
 				- [CodeGraph Rust](https://github.com/jakedismo/codegraph-rust)
+				  Tree-sitter + Embeddings (vector search) + LSP Resolution
 				- [CodeGraphContext (CGC)](https://github.com/CodeGraphContext/CodeGraphContext)
+				  Tree-sitter + Live File Watching + MCP & CLI Dual Mode + Flexible Graph Database Backend + (optional) SCIP
 				- [Graphify](https://github.com/safishamsi/graphify): Combines deterministic parsing by tree-sitter with multimodal AI inference. It will tag connections as either EXTRACTED (explicitly found in code) or INFERRED (a confidence-scored guess by an AI about how a service connects to a database or feature).
 				- [Understand Anything](https://github.com/Egonex-AI/Understand-Anything): is built to help human developers quickly onboard onto massive legacy projects with zero documentation. It is highly token-intensive by Tree-sitter + LLM hybrid during its initialization phase, because multi-agent workflows evaluate code intent rather than just structural connections.
 				- [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp): High-performance code intelligence MCP server with tree-sitter enhanced with Hybrid LSP semantic type resolution and graph GUI.
