@@ -794,10 +794,18 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  is an open-source code indexing system by Meta (Facebook) that stores typed, schema-defined facts about source code in a queryable database (enterprise-scale fact store). Facts can be queried with Angle, a Datalog-style query language.
 				- [Axon](https://github.com/harshkedia177/axon)
 				  Hybrid Search (BM25 full-text + Vector + Fuzzy).
-				  Builds its code knowledge graph using a localized 11-phase analysis pipeline, with Tree-sitter in phase 4 "AST Parsing", [Leiden algorithm](https://www.nature.com/articles/s41598-019-41695-z) (igraph + leidenalg) to automatically discover functional clusters in phase 8 "Community Detection", and the final step 11 "Git History Coupling".
-				  Everything runs locally — parsing, graph storage, embeddings, search. No API keys, no data leaving your machine.
+				  Builds its code knowledge graph using a localized 11-phase analysis pipeline, with Tree-sitter in phase 4 "AST Parsing", use [Leiden algorithm](https://www.nature.com/articles/s41598-019-41695-z) (igraph + leidenalg) to automatically discover functional clusters in phase 8 "Community Detection", and detect files that are frequently modified together in the same commits in step 11 "Git History Coupling".
+				  Everything runs locally: parsing, graph storage, embeddings, search.
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- The state of the art of the codebase knowledge graph engines
+						- Local-First Performance-Critical Engines: Codebase-Memory (C Binary), CodeGraph-Rust (Rust Binary), CodeGraphContext (Python / KùzuDB)
+							- These tools prioritize fast parsing, minimal memory use, and zero-dependency local execution.
+						- Enterprise-Scale Distributed Fact Stores: Glean (Meta), Kythe (Google)
+							- Designed for massive monorepos and cross-repository search, these systems act as centralized metadata stores for distributed development workflows.
+						- Cognitive and Multi-Agent Reasoning Graphs: Understand Anything (TypeScript / Agentic), Axon (Python / Sigma.js), Cognee (Python / Hybrid Memory)
+							- These tools construct business domain models and conceptual clusters alongside the codebase AST, making them highly effective for developer onboarding and complex RAG workflows.
+						- Programmatic Manipulation and Refactoring Platforms: Graph-sitter (codegen-sh), Hypermod
+							- These libraries expose scriptable APIs, enabling developers or autonomous agents to execute complex, multi-file refactoring workflows programmatically.
 						- Dynamic Behavior Limitations: Static parsers cannot track runtime dynamic behaviors, such as reflection (in Java, etc.), dynamic imports (for interpreted languages like Python and JavaScript), or runtime dependency injection.
 							- Test-Coverage and Dynamic Execution Map Overlays: Tools like *Understand Anything* run the project's unit test suite in an instrumented environment. This maps the actual paths traversed at runtime, revealing dynamic dependencies that a purely static AST analysis would have missed.
 							- Hybrid Resolution Cascades: Tools like *Codebase-Memory* and *CodeGraphContext* use hybrid LSP type resolution and prioritized "confidence cascades". For example, when encountering a dynamic method call, the engine evaluates enclosing class scopes, method receiver definitions, and suffix-based import distance to determine the most statistically probable target definition with an associated confidence score.
