@@ -790,6 +790,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- [Understand Anything](https://github.com/Egonex-AI/Understand-Anything): is built to help human developers quickly onboard onto massive legacy projects with zero documentation. It is highly token-intensive by Tree-sitter + LLM hybrid during its initialization phase, because multi-agent workflows evaluate code intent rather than just structural connections.
 				- [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp): High-performance code intelligence MCP server with tree-sitter enhanced with Hybrid LSP semantic type resolution and graph GUI.
 				- [Graph-Sitter](https://github.com/codegen-sh/graph-sitter): turns code graph into a scriptable write-and-refactor engine. Instead of just querying dependencies, developers can write Python/TypeScript scripts to target specific Tree-sitter nodes and programmatically refactor or enforce architectural patterns across thousands of instances safely.
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					-
 	- ## Linux
 	  ((680a04eb-125e-4e9e-b691-3b7be523359c)) ((66949495-3846-4f89-9ea5-c62b624d282c))
 	- ## ItelliJ
