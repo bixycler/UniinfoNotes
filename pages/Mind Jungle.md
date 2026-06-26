@@ -793,8 +793,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- [Glean](https://github.com/facebookincubator/glean)
 				  is an open-source code indexing system by Meta (Facebook) that stores typed, schema-defined facts about source code in a queryable database (enterprise-scale fact store). Facts can be queried with Angle, a Datalog-style query language.
 				- [Axon](https://github.com/harshkedia177/axon)
-				  Hybrid Search (BM25 full-text + Vector + Fuzzy); Uses the [Leiden algorithm](https://www.nature.com/articles/s41598-019-41695-z) (igraph + leidenalg) to automatically discover functional clusters.
-				  Builds its code knowledge graph using a localized 11-phase analysis pipeline, with Tree-sitter in phase 4 "".
+				  Hybrid Search (BM25 full-text + Vector + Fuzzy).
+				  Builds its code knowledge graph using a localized 11-phase analysis pipeline, with Tree-sitter in phase 4 "AST Parsing", [Leiden algorithm](https://www.nature.com/articles/s41598-019-41695-z) (igraph + leidenalg) to automatically discover functional clusters in phase 8 "Community Detection", and the final step 11 "Git History Coupling".
 				  Everything runs locally — parsing, graph storage, embeddings, search. No API keys, no data leaving your machine.
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- The state of the art of the codebase knowledge graph engines
