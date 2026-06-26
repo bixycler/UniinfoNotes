@@ -807,7 +807,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- Ref: [Compare Tree-Sitter, LSP, SCIP, with details on Glean & Kythe](https://share.google/aimode/SyC1VqTdIMlaeKX37)
 								- Static engines (such as Codebase-Memory) rely on prioritized cascade symbol resolution (statistic heuristic on raw source files) as a fallback for compiler-driven approaches like LSP and SCIP.
 							- Persistence and Database Storage Backends: Relational-to-graph SQLite, embedded native graph DB, stacked immutable key-value stores
-						- Local-First Performance-Critical Engines: **Codebase-Memory** (C Binary), **CodeGraph-Rust** (Rust Binary), CodeGraphContext (Python / KùzuDB)
+						- Local-First Performance-Critical Engines: **Codebase-Memory** (C Binary), **CodeGraph-Rust** (Rust Binary), CodeGraphContext (Python / KùzuDB), **Axon** (Python / Sigma.js)
 							- These tools prioritize fast parsing, minimal memory use, and zero-dependency local execution.
 						- Enterprise-Scale Distributed Fact Stores: **Glean** (Meta), **Kythe** (Google)
 							- Designed for massive monorepos and cross-repository search, these systems act as centralized metadata stores for distributed development workflows.
