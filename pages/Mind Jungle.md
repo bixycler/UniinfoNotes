@@ -804,16 +804,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- Ref: [Compare Tree-Sitter, LSP, SCIP, with details on Glean & Kythe](https://share.google/aimode/SyC1VqTdIMlaeKX37)
 								- Static engines (such as Codebase-Memory) rely on prioritized cascade symbol resolution (statistic heuristic on raw source files) as a fallback for compiler-driven approaches like LSP and SCIP.
 							- Persistence and Database Storage Backends: Relational-to-graph SQLite, embedded native graph DB, stacked immutable key-value stores
-						- Local-First Performance-Critical Engines: Codebase-Memory (C Binary), CodeGraph-Rust (Rust Binary), CodeGraphContext (Python / KùzuDB)
+						- Local-First Performance-Critical Engines: **Codebase-Memory** (C Binary), **CodeGraph-Rust** (Rust Binary), CodeGraphContext (Python / KùzuDB)
 							- These tools prioritize fast parsing, minimal memory use, and zero-dependency local execution.
-						- Enterprise-Scale Distributed Fact Stores: Glean (Meta), Kythe (Google)
+						- Enterprise-Scale Distributed Fact Stores: **Glean** (Meta), **Kythe** (Google)
 							- Designed for massive monorepos and cross-repository search, these systems act as centralized metadata stores for distributed development workflows.
-						- Cognitive and Multi-Agent Reasoning Graphs: Understand Anything (TypeScript / Agentic), Axon (Python / Sigma.js), Cognee (Python / Hybrid Memory)
+						- Cognitive and Multi-Agent Reasoning Graphs: **Understand Anything** (TypeScript / Agentic), **Axon** (Python / Sigma.js), **Cognee** (Python / Hybrid Memory)
 							- These tools construct business domain models and conceptual clusters alongside the codebase AST, making them highly effective for developer onboarding and complex RAG workflows.
-						- Programmatic Manipulation and Refactoring Platforms: Graph-sitter (codegen-sh), Hypermod
+						- Programmatic Manipulation and Refactoring Platforms: **Graph-sitter** (codegen-sh), **Hypermod**
 							- These libraries expose scriptable APIs, enabling developers or autonomous agents to execute complex, multi-file refactoring workflows programmatically.
-						- Integrated Graph Testing and Merge Drivers: Graphify
-							- Its primary engineering focus is solving the issue of structural conflicts or outdated nodes that happen when multiple developers merge parallel branches.
+						- Integrated Graph Testing and Merge Drivers: **Graphify**
+							- They solve the issue of structural conflicts or outdated nodes that happen when multiple developers merge parallel branches.
 						- Dynamic Behavior Limitations: Static parsers cannot track runtime dynamic behaviors, such as reflection (in Java, etc.), dynamic imports (for interpreted languages like Python and JavaScript), or runtime dependency injection.
 							- Test-Coverage and Dynamic Execution Map Overlays: Tools like *Understand Anything* run the project's unit test suite in an instrumented environment. This maps the actual paths traversed at runtime, revealing dynamic dependencies that a purely static AST analysis would have missed.
 							- Hybrid Resolution Cascades: Tools like *Codebase-Memory* and *CodeGraphContext* use hybrid LSP type resolution and prioritized "confidence cascades". For example, when encountering a dynamic method call, the engine evaluates enclosing class scopes, method receiver definitions, and suffix-based import distance to determine the most statistically probable target definition with an associated confidence score.
