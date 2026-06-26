@@ -231,7 +231,7 @@
 							- The trunk represents monism (nhất nguyên), the single, localized column anchoring everything above it.
 						- Root system – Vacantism
 							- The root system is the ((667bda02-8dc9-488e-ba16-ea75c3d7895c)) representing the deep intension of the Trinion, containing the ancestral, universal causes.
-							- It branches out to tap into all sources of the Universe, extracting their essences to nuture the shoot system above.
+							- It branches out to tap into all sources of the Universe, extracting their essence to nuture the shoot system above.
 							- It mirrors the shoot system – reflecting the principle of “as above, so below” – where the [geometric inversion](https://en.wikipedia.org/wiki/Inversive_geometry) transforms the reduction to 0 into an expansion toward ∞.
 							- Although completely invisible beneath the soil surface of the world interface, this subterranean network is just as vast as the canopy, acting as the active ground of the entire structure.
 								- This invisibility explains why emptiness is so easily ignored or misunderstood as nothingness or a static void.
