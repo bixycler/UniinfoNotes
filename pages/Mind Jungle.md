@@ -800,6 +800,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  Everything runs locally: parsing, graph storage, embeddings, search.
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- The state of the art of the codebase knowledge graph engines
+					  id:: 6a3debd8-3920-48fc-ba14-8d09d80db0bc
 					  collapsed:: true
 						- Architectural Layers
 							- Parsing and Extraction Layer: Incremental syntax trees via Tree-Sitter or Compiler-precise type indexing via Source Code Intelligence Protocol (SCIP) or Language Server Protocol (LSP)

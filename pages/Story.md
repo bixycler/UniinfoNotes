@@ -2273,14 +2273,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- [Chatted with Gemini](https://g.co/gemini/share/35d640d13c81) about ((6a3ca168-4296-4d81-8d6d-a93b293a1da2))
 				- Then i took a short (1h) sleep to prepare for a long day planned for my wife.
 				- The entire day and night then was spent to check out my wife from the rehab center, with many issues and activities.
-			- 25th, ...
+			- 25th, tried to wrap up my personal stuff, but only the Liar Paradox was done.
 			  collapsed:: true
 				- Write ((6a3cbac0-2c6d-4e76-84de-ebd468284fca))
 				- DONE Split `[[Uniinfo]]` to `[[Uniinfo Theory]]` & `[[Uniinfo Concepts]]`.
 				  :LOGBOOK:
 				  CLOCK: [2026-06-25 Thu 16:42:15]--[2026-06-25 Thu 16:42:17] =>  00:00:02
 				  :END:
-				- Update ((6a3a6381-21b1-46ed-9eb6-e7aeff52c874))
+				- TODO Update ((6a3a6381-21b1-46ed-9eb6-e7aeff52c874))
+			- 26th, the whole day researching ((6a3debd8-3920-48fc-ba14-8d09d80db0bc)).
 		- Chrome tab zombie by Cognee webapp
 		  id:: 6a227a43-5fa1-4718-8cf7-3a57c8121bd5
 		  collapsed:: true
