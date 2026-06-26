@@ -799,10 +799,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- The state of the art of the codebase knowledge graph engines
 					  collapsed:: true
-						- Layers
+						- Architectural Layers
 							- Parsing and Extraction Layer: Incremental syntax trees via Tree-Sitter or Compiler-precise type indexing via Source Code Intelligence Protocol (SCIP) or Language Server Protocol (LSP)
 								- Ref: [Compare Tree-Sitter, LSP, SCIP, with details on Glean & Kythe](https://share.google/aimode/SyC1VqTdIMlaeKX37)
-								- alternative to compiler-based approaches like LSP and SCIP
+								- Static engines (such as Codebase-Memory) rely on prioritized cascade symbol resolution (statistic heuristic on raw source files) as a fallback for compiler-driven approaches like LSP and SCIP.
 							- Persistence and Database Storage Backends: Relational-to-graph SQLite, embedded native graph DB, stacked immutable key-value stores
 						- Local-First Performance-Critical Engines: Codebase-Memory (C Binary), CodeGraph-Rust (Rust Binary), CodeGraphContext (Python / KùzuDB)
 							- These tools prioritize fast parsing, minimal memory use, and zero-dependency local execution.
