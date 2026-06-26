@@ -780,7 +780,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- source code graph
 			  id:: 69e7381e-faaf-403e-92d0-cc5b4714ef04
 			  collapsed:: true
-				- [CodeEagle Codebase Intelligence](https://mcpmarket.com/tools/skills/codeeagle-codebase-intelligence)
 				- [CodeGraph](https://github.com/colbymchenry/codegraph)
 				  Tree-sitter + Auto-sync + FTS5 Full-Text Search + web-framework detection + MCP & CLI
 				- [CodeGraph Rust](https://github.com/jakedismo/codegraph-rust)
