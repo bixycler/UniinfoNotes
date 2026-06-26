@@ -783,6 +783,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- [CodeGraph](https://github.com/colbymchenry/codegraph)
 				  Tree-sitter + Auto-sync + FTS5 Full-Text Search + web-framework detection + MCP & CLI
 				- [Cognee's Universal CodeGraph](https://docs.cognee.ai/examples/code-assistants)
+				  Cognee installed with `codegraph` component (`pip install cognee[codegraph]`)
 				- [CodeGraph Rust](https://github.com/jakedismo/codegraph-rust)
 				  Tree-sitter (AST) + FastML + Embeddings (vector search) + LSP Resolution + reasoning agent for query result synthesis
 				- [CodeGraphContext (CGC)](https://github.com/CodeGraphContext/CodeGraphContext)
