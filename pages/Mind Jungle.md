@@ -783,7 +783,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- [CodeEagle Codebase Intelligence](https://mcpmarket.com/tools/skills/codeeagle-codebase-intelligence)
 				- [CodeGraph](https://github.com/colbymchenry/codegraph)
 				- [CodeGraph Rust](https://github.com/jakedismo/codegraph-rust)
-				  Tree-sitter + Embeddings (vector search) + LSP Resolution
+				  Tree-sitter + Embeddings (vector search) + LSP Resolution + reasoning agent for query result synthesis
 				- [CodeGraphContext (CGC)](https://github.com/CodeGraphContext/CodeGraphContext)
 				  Tree-sitter + Live File Watching + MCP & CLI Dual Mode + Flexible Graph Database Backend + (optional) SCIP
 				- [Graphify](https://github.com/safishamsi/graphify): Combines deterministic parsing by tree-sitter with multimodal AI inference. It will tag connections as either EXTRACTED (explicitly found in code) or INFERRED (a confidence-scored guess by an AI about how a service connects to a database or feature).
