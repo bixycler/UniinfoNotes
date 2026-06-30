@@ -2282,6 +2282,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  :END:
 				- TODO Update ((6a3a6381-21b1-46ed-9eb6-e7aeff52c874))
 			- 26th, the whole day researching ((6a3debd8-3920-48fc-ba14-8d09d80db0bc)).
+			- 27-29th, weekend,
+				- Distribution: particle's time -[solidify]-> wave's mass
 		- Chrome tab zombie by Cognee webapp
 		  id:: 6a227a43-5fa1-4718-8cf7-3a57c8121bd5
 		  collapsed:: true
