@@ -733,7 +733,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  A knowledge graph + vector search memory, which can ingest a entire codebase
 					- Logs are stored in `~/.cognee/` for a short window.
 					- Features
-						- Cognee has a built-In `codify` Pipeline to build CodeGraph.
+						- Cognee has a built-In `codify` Pipeline for [Universal CodeGraph](((6a3e60d2-9f79-4006-bf94-eca5ff3758e0))).
 						- The operation [improve](https://docs.cognee.ai/core-concepts/main-operations/improve) incorporates short-term [session memory](https://docs.cognee.ai/core-concepts/sessions-and-caching) into the permanent graph and applies feedback-based weighting. It can optionally update the [global index](https://docs.cognee.ai/core-concepts/further-concepts/global-context-index).
 						- [CLI](https://docs.cognee.ai/cognee-cli/overview) & [web app](https://docs.cognee.ai/cognee-cloud/local-ui)
 							- [!] ⚠️ Don't launch web app via `cognee-cli -ui` because it will pull a docker image up to 10GB and eat up 30GB disk space.
@@ -783,6 +783,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- [CodeGraph](https://github.com/colbymchenry/codegraph)
 				  Tree-sitter + Auto-sync + FTS5 Full-Text Search + web-framework detection + MCP & CLI
 				- [Cognee's Universal CodeGraph](https://docs.cognee.ai/examples/code-assistants)
+				  id:: 6a3e60d2-9f79-4006-bf94-eca5ff3758e0
 				  Cognee installed with `codegraph` component (`pip install cognee[codegraph]`)
 				- [CodeGraph Rust](https://github.com/jakedismo/codegraph-rust)
 				  Tree-sitter (AST) + FastML + Embeddings (vector search) + LSP Resolution + reasoning agent for query result synthesis
