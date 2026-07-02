@@ -1424,10 +1424,12 @@
 			  CLOCK: [2026-07-02 Thu 13:36:14]
 			  :END:
 				- While we treat a manifold as a “ground surface” to define things upon, hence almost always “on a manifold”, the Omnifold encompasses all possibilities, forms, and definitions, hence always “in the Omnifold”.
-				- Manifold as a Base Space
+				- “On manifold” – Manifold as a Base Space
 					- From the traditional definition of structures over a domain (set) to the modern [fiber bundle](https://en.wikipedia.org/wiki/Fiber_bundle), a manifold is considered a base space upon which “fiber” structures, like functions, propositions, distributions, etc., are defined to extend the base space up to higher dimensions of the total space of the bundle.
 					- This is the bottom-up view in reductionism and constructivism, where things are seen as extensions from some foundation.
-				-
+				- “In manifold” – Manifold as an Enclosure
+					- In some rare cases, we can say something “in a manifold” to mean it stay in the interior space enclosed by the manifold (provided it is closed), i.e., not on the manifold itself but in the higher dimensions where the manifold is embedded in.
+					- So, even in this case, the higher dimension “above” the manifold is inferred.
 		- WAIT ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) structure of the ((675c03d8-3185-41a8-9f98-e869fabec793))
 		  id:: 69a5068c-df84-4f76-92ca-9131897c80df
 		  collapsed:: true
