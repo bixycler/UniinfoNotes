@@ -2284,7 +2284,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 26th, the whole day researching ((6a3debd8-3920-48fc-ba14-8d09d80db0bc)).
 			- 27-29th, weekend, from a wrestle to a liberation trip with my wife
 			  collapsed:: true
-				- She asked for a weekend at Bảo–Lụa's site.
+				- She asked for a weekend at Bảo–Lụa's site. The morning before returning home, she was sucked into a hiding mode where she eventually recognized her avoidance of the unfamiliar feelings.
+				- Back home, we had an LSD trip to pull her out from the narrow view of the hiding pit ⇒ The first time she got a liberated experience through psychedelics (previously only through meditation).
 				- Distribution: particle's time ⤚[thread solidification]→ wave's mass
 		- Chrome tab zombie by Cognee webapp
 		  id:: 6a227a43-5fa1-4718-8cf7-3a57c8121bd5
@@ -2383,6 +2384,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  id:: 6a46244d-2376-4549-b716-19538d7042fd
 		  collapsed:: true
 			- 2nd, after 2 days of professional work, today i break for Unithread
+			  collapsed:: true
 				- When preparing to chat with Gemini about ((6a46262a-ac46-4e8e-a45e-9078a132dbde)), i arrived on ((6a4606cd-7071-431e-a603-20573215cf4f)).
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
