@@ -1431,7 +1431,7 @@
 					- In some rare cases, we can say something “in a manifold” to mean it stays in the interior space enclosed by the manifold (provided it is closed), i.e., not on the manifold itself but in the higher dimensions where the manifold is embedded in.
 					- So, even in this case, the higher dimensions “above” the manifold is inferred.
 				- “In the Omnifold” – Omnifold as a Primordial Medium – the Ocean
-					-
+					- Neither a passive container like the [Universal Set](https://en.wikipedia.org/wiki/Universal_set), nor a static foundation like a base space, the Omnifold is living medium mediating through
 		- WAIT ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) structure of the ((675c03d8-3185-41a8-9f98-e869fabec793))
 		  id:: 69a5068c-df84-4f76-92ca-9131897c80df
 		  collapsed:: true
