@@ -86,10 +86,10 @@
 			  `=`
 			  ((6653751a-a1b4-44b0-a81e-0a446eb8918c)) in ((669dfc7d-5355-41db-93a1-8d590e8ec9d8))
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-				  collapsed:: true
 					- About the name “Equal”
 					  collapsed:: true
 						- The name “Equal” of the third component is an adjective noun meaning “equality”, “equilibrium”, “equivalence”, “balance”.
+						  id:: 6a3cef74-0020-46ec-b88b-09f5dfc50099
 							- Note that this is an [obsolete meaning](https://en.wiktionary.org/wiki/equal#Noun) different from the modern meaning “equal parts” or “peers” used in everyday English.
 						- Its symbol “`=`” is called “[equal sign](https://en.wikipedia.org/wiki/Equals_sign)” in American English or “equals sign” by Unicode Consortium in British English.
 					- About the equation ⟪○ = ↑⟫
@@ -1431,7 +1431,9 @@
 					- In some rare cases, we can say something “in a manifold” to mean it stays in the interior space enclosed by the manifold (provided it is closed), i.e., not on the manifold itself but in the higher dimensions where the manifold is embedded in.
 					- So, even in this case, the higher dimensions “above” the manifold is inferred.
 				- “In the Omnifold” – Omnifold as a Primordial Medium – the Ocean
-					- Neither a passive container like the [Universal Set](https://en.wikipedia.org/wiki/Universal_set), nor a static foundation like a base space, the Omnifold is living medium mediating through
+					- Neither a passive container like the [Universal Set](https://en.wikipedia.org/wiki/Universal_set), nor a static foundation like a base space, the Omnifold is the **living medium** through all things and from which all things emerge, like waves emerging from water.
+					- This is the holistic view reflecting the **inclusive logic** where the middle, [the Third](((66f3d5cc-0d68-47bb-b09a-87cda33c7354))), is the heart of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)), in contrast to the exclusive logic with the [Law of Excluded Middle](https://en.wikipedia.org/wiki/Law_of_excluded_middle).
+						- While
 		- WAIT ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) structure of the ((675c03d8-3185-41a8-9f98-e869fabec793))
 		  id:: 69a5068c-df84-4f76-92ca-9131897c80df
 		  collapsed:: true
