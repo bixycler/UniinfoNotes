@@ -1417,11 +1417,11 @@
 				- Bulk universe: 4D spacetime is just a [brane](https://en.wikipedia.org/wiki/Brane_cosmology) within this bulk.
 				- Multiverse, parallel worlds
 				- Holomovement
-			- DOING “On a manifold” versus “in the Omnifold”
+			- “On a manifold” versus “in the Omnifold”
 			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2026-07-02 Thu 13:36:04]
-			  CLOCK: [2026-07-02 Thu 13:36:14]
+			  CLOCK: [2026-07-02 Thu 13:36:14]--[2026-07-02 Thu 15:20:38] =>  01:44:24
 			  :END:
 				- While manifold is usually treated as a “ground surface” to define things upon, hence almost always “on a manifold”, the Omnifold encompasses all possibilities, forms, and definitions, hence always “in the Omnifold”.
 				- “On manifold” – Manifold as a Base Space – the Floor
@@ -1431,9 +1431,9 @@
 					- In some rare cases, we can say something “in a manifold” to mean it stays in the interior space enclosed by the manifold (provided it is closed), i.e., not on the manifold itself but in the higher dimensions where the manifold is embedded in.
 					- So, even in this case, the higher dimensions “above” the manifold is inferred.
 				- “In the Omnifold” – Omnifold as a Primordial Medium – the Ocean
-					- Neither a passive container like the [Universal Set](https://en.wikipedia.org/wiki/Universal_set), nor a static foundation like a base space, the Omnifold is the **living medium** through all things and from which all things emerge, like waves emerging from water.
-					- This is the holistic view reflecting the **inclusive logic** where the middle, [the Third](((66f3d5cc-0d68-47bb-b09a-87cda33c7354))), is the heart of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)), in contrast to the [exclusive logic](https://en.wikipedia.org/wiki/Classical_logic) with the [Law of Excluded Middle](https://en.wikipedia.org/wiki/Law_of_excluded_middle).
-						- While similar to the Universal Set – a flaw, a fallacy in classical logic – the Omnifold is not a flaw but a feature in ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) thanks to the mutual inclusiveness
+					- Neither a passive container like the Universal Set, nor a static foundation like a base space, the Omnifold is the **living medium** through all things and from which all things emerge, like water and waves.
+					- This is the holistic view reflecting the **inclusive logic** where the Middle, [the Third](((66f3d5cc-0d68-47bb-b09a-87cda33c7354))), is the heart of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)), in contrast to the [exclusive logic](https://en.wikipedia.org/wiki/Classical_logic) with the [Law of Excluded Middle](https://en.wikipedia.org/wiki/Law_of_excluded_middle).
+						- While similar to the [Universal Set](https://en.wikipedia.org/wiki/Universal_set) – a flaw, a fallacy in classical logic & [naïve set theory](https://en.wikipedia.org/wiki/Naive_set_theory) – the Omnifold is not a flaw but a feature in ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) reflecting the mutual inclusivity of the world: _all in one, one in all_.
 		- WAIT ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) structure of the ((675c03d8-3185-41a8-9f98-e869fabec793))
 		  id:: 69a5068c-df84-4f76-92ca-9131897c80df
 		  collapsed:: true
