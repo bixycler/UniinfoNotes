@@ -1423,7 +1423,9 @@
 			  CLOCK: [2026-07-02 Thu 13:36:04]
 			  CLOCK: [2026-07-02 Thu 13:36:14]
 			  :END:
-				- While we treat a manifold as a “ground surface” to define things upon, hence almost always “on a manifold”, the Omnifold is the all-encompassing environment  versus “in the Omnifold”
+				- While we treat a manifold as a “ground surface” to define things upon, hence almost always “on a manifold”, the Omnifold encompasses all possibilities, forms, and definitions, hence always “in the Omnifold”.
+				- Manifold as a Base Space
+					- From the traditional definition of structures over a domain (set) to the modern [fiber bundle](https://en.wikipedia.org/wiki/Fiber_bundle),
 		- WAIT ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) structure of the ((675c03d8-3185-41a8-9f98-e869fabec793))
 		  id:: 69a5068c-df84-4f76-92ca-9131897c80df
 		  collapsed:: true
