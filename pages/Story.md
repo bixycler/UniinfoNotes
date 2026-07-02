@@ -2282,10 +2282,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  :END:
 				- TODO Update ((6a3a6381-21b1-46ed-9eb6-e7aeff52c874))
 			- 26th, the whole day researching ((6a3debd8-3920-48fc-ba14-8d09d80db0bc)).
-			- 27-29th, weekend,
+			- 27-29th, weekend, from a wrestle to a liberation trip with my wife
 			  collapsed:: true
+				- She asked for a weekend at Bảo–Lụa's site.
 				- Distribution: particle's time ⤚[thread solidification]→ wave's mass
-				-
 		- Chrome tab zombie by Cognee webapp
 		  id:: 6a227a43-5fa1-4718-8cf7-3a57c8121bd5
 		  collapsed:: true
@@ -2380,10 +2380,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- It challenged the traditional boundaries of **spiritual leadership**, leaving a historical warning about the real-world dangers of absolute authority and isolation.
 				- The “Divine Play” accomplished its ultimate purpose. It functioned as an absolute mirror, leaving no place for the collective shadow of modern society to hide.
 		- July journal
+		  id:: 6a46244d-2376-4549-b716-19538d7042fd
 		  collapsed:: true
-			- 2nd, after 2 days of professional work, today
+			- 2nd, after 2 days of professional work, today i break for Unithread
+				- When preparing to chat with Gemini about ((6a46262a-ac46-4e8e-a45e-9078a132dbde)), i arrived on ((6a4606cd-7071-431e-a603-20573215cf4f)).
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
-		- ((6a1d453c-dc52-42be-b5b9-15cbbc60ce94))
+		- ((6a46244d-2376-4549-b716-19538d7042fd))
 		- ...
 		  id:: 688c70c8-1772-4007-bdf0-d621db895411
