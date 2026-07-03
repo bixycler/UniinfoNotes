@@ -1428,7 +1428,8 @@
 				- “On a manifold” – Manifold as a Base Space – the Floor
 					- This is the classical, reductionist, bottom-up construction: things are built *on top of* a presupposed foundation.
 					- The Bundle View (Point-Bound Reductionism): From the traditional definition of structures _over_ a domain (set) to the modern [fiber bundle](https://en.wikipedia.org/wiki/Fiber_bundle), the manifold $M$ is treated as a **base space** _upon_ which structures (functions, vectors, propositions, distributions, etc.) are defined by _erecting_ a “fiber” $F_x$ from each point $x∈M$ up to higher dimensions orthogonal to $M$, yielding the total space of the bundle.
-						- Such an erection is a convenient abstraction to keep the fibers from messing with the base space
+						- Such an erection is a convenient abstraction to keep the fiber from messing with the base space, but sometimes confuses the reader/viewer by obscuring the nature of the underlying structure represented by the fiber.
+							- E.g.: An abstract representation of a [tangent bundle](https://en.wikipedia.org/wiki/Tangent_bundle) shows the tangent fiber $F_x$ perpendicular to $M_x$. However, this fiber $F_x$ is _not_ the tangent vector itself, but the collection of all tangent vectors on the tangent space
 					- The Sheaf View (Localized Data): If we move from the bundle to the [sheaf of sections](https://en.wikipedia.org/wiki/Section_(fiber_bundle)#Local_and_global_sections), we look at the local assignment of data _over_ open sets of the manifold. The bundle view can be recovered through the [étalé space](https://en.wikipedia.org/wiki/Sheaf_(mathematics)#The_%C3%A9tal%C3%A9_space_of_a_sheaf) of the sheaf.
 						- Even here, classical sheaves on a manifold assume a rigid, pre-existing spatial substrate. The topology of the base manifold dictates what can exist “on” it.
 				- “In a manifold” – Manifold as an Enclosure – the Wall
