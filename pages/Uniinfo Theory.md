@@ -1435,7 +1435,7 @@
 					- Even in this case, the higher dimensions “above” the manifold are inferred.
 				- “In the Omnifold” – Omnifold as a Primordial Medium – the Ocean
 					- Neither a passive container like the Universal Set, nor a static foundation like a base space, the Omnifold is the **living medium** through all things and from which all things emerge – like water and waves.
-					- This is the holistic view reflecting the **inclusive logic** where the Middle – [the Third](((66f3d5cc-0d68-47bb-b09a-87cda33c7354))) – is the heart of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)), in contrast to the [exclusive logic](https://en.wikipedia.org/wiki/Classical_logic) with the [Law of Excluded Middle](https://en.wikipedia.org/wiki/Law_of_excluded_middle).
+					- This is the holistic view reflecting the **inclusive logic** where the Middle – [the Third](((66f3d5cc-0d68-47bb-b09a-87cda33c7354))) – is the heart of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)), in contrast to the classical [exclusive logic](https://en.wikipedia.org/wiki/Classical_logic) with the [Law of Excluded Middle](https://en.wikipedia.org/wiki/Law_of_excluded_middle).
 						- While similar to the [Universal Set](https://en.wikipedia.org/wiki/Universal_set) – a flaw in [naïve set theory](https://en.wikipedia.org/wiki/Naive_set_theory) and a fallacy in classical logic – the Omnifold is not a flaw but a feature in ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) reflecting the **mutual immanence** of the world: _all in one, one in all_.
 		- WAIT ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) structure of the ((675c03d8-3185-41a8-9f98-e869fabec793))
 		  id:: 69a5068c-df84-4f76-92ca-9131897c80df
