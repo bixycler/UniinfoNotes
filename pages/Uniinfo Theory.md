@@ -1432,7 +1432,7 @@
 						- Even here, classical sheaves on a manifold assume a rigid, pre-existing spatial substrate. The topology of the base manifold dictates what can exist “on” it.
 				- “In a manifold” – Manifold as an Enclosure – the Wall
 					- In some rare cases, we can say something is “in a manifold” to mean it stays in the interior space enclosed by the manifold (provided it is closed), i.e., not on the manifold itself but in the higher dimensions of the ambient space where the manifold is embedded.
-					- Even in this case, the higher dimensions “above” the manifold are inferred.
+					- Even in this case, the manifold is separate from the higher dimensions of its ambient space.
 				- “In the Omnifold” – Omnifold as a Primordial Medium – the Ocean
 					- Neither a passive container like the Universal Set, nor a static foundation like a base space, the Omnifold is the **living medium** through all things and from which all things emerge – like water and waves.
 					- This is the holistic view reflecting the **inclusive logic** where the Middle – [the Third](((66f3d5cc-0d68-47bb-b09a-87cda33c7354))) – is the heart of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)), in contrast to the classical [exclusive logic](https://en.wikipedia.org/wiki/Classical_logic) with the [Law of Excluded Middle](https://en.wikipedia.org/wiki/Law_of_excluded_middle).
