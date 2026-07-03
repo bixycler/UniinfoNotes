@@ -1426,8 +1426,9 @@
 			  :END:
 				- While manifold is usually treated as a “ground surface” to define things upon, hence almost always “on a manifold”, the Omnifold encompasses all possibilities, forms, and definitions, hence always “in the Omnifold”.
 				- “On a manifold” – Manifold as a Base Space – the Floor
-					- The Bundle View (Point-Bound Reductionism): From the traditional definition of structures over a domain (set) to the modern [fiber bundle](https://en.wikipedia.org/wiki/Fiber_bundle), the manifold is treated as a **base space** upon which higher-dimensional “fiber” structures (functions, propositions, distributions, etc.), are defined to extend the base space up to higher dimensions of the total space of the bundle.
-					- This is the classical, reductionist, bottom-up construction: things are built *on top of* a presupposed foundation.
+					- The Bundle View (Point-Bound Reductionism): From the traditional definition of structures over a domain (set) to the modern [fiber bundle](https://en.wikipedia.org/wiki/Fiber_bundle), the manifold is treated as a **base space** upon which structures (functions, vectors, propositions, distributions, etc.) are defined by erecting a “fiber” from each point into higher dimensions, yielding the total space of the bundle.
+						- This is the classical, reductionist, bottom-up construction: things are built *on top of* a presupposed foundation.
+					- The Sheaf View (Localized Data): If we move from the bundle to the [sheaf of sections](https://en.wikipedia.org/wiki/Section_(fiber_bundle)#Local_and_global_sections), we look at the local assignment of data over open sets. Even here, classical sheaves on a manifold assume a rigid, pre-existing spatial substrate. The topology of the base manifold dictates what can exist "on" it.
 				- “In a manifold” – Manifold as an Enclosure – the Wall
 					- In some rare cases, we can say something “in a manifold” to mean it stays in the interior space enclosed by the manifold (provided it is closed), i.e., not on the manifold itself but in the higher dimensions where the manifold is embedded in.
 					- So, even in this case, the higher dimensions “above” the manifold is inferred.
