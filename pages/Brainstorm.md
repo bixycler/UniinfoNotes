@@ -11,12 +11,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2026 Brainstorms
 	  id:: 6960e754-ff94-4e1a-8266-d9f15231b880
-		- DOING dimensions in linear space = orders in ((684796ee-1bc9-4828-882b-612c67ba48f3)) = layers in intent chain = obops in effect flow
+		- TODO dimensions in linear space = orders in ((684796ee-1bc9-4828-882b-612c67ba48f3)) = layers in intent chain = obops in effect flow & dynamical system
 		  id:: 6a46262a-ac46-4e8e-a45e-9078a132dbde
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2026-07-02 Thu 15:49:56]
-		  CLOCK: [2026-07-02 Thu 15:49:57]
 		  :END:
 			-
 		- Timeless annihilation's circle: no time → endless time → pass away in no time
