@@ -1425,10 +1425,10 @@
 			  CLOCK: [2026-07-02 Thu 13:36:14]--[2026-07-02 Thu 15:20:38] =>  01:44:24
 			  :END:
 				- While manifold is usually treated as a “ground surface” to define things upon, hence almost always “on a manifold”, the Omnifold encompasses all possibilities, forms, and definitions, hence always “in the Omnifold”.
-				- “On manifold” – Manifold as a Base Space – the Floor
-					- From the traditional definition of structures over a domain (set) to the modern [fiber bundle](https://en.wikipedia.org/wiki/Fiber_bundle), a manifold is considered a base space upon which “fiber” structures, like functions, propositions, distributions, etc., are defined to extend the base space up to higher dimensions of the total space of the bundle.
-					- This is the reductionist view of the bottom-up construction of things from some foundation.
-				- “In manifold” – Manifold as an Enclosure – the Wall
+				- “On a manifold” – Manifold as a Base Space – the Floor
+					- The Bundle View (Point-Bound Reductionism): From the traditional definition of structures over a domain (set) to the modern [fiber bundle](https://en.wikipedia.org/wiki/Fiber_bundle), the manifold is treated as a **base space** upon which higher-dimensional “fiber” structures (functions, propositions, distributions, etc.), are defined to extend the base space up to higher dimensions of the total space of the bundle.
+					- This is the classical, reductionist, bottom-up construction: things are built *on top of* a presupposed foundation.
+				- “In a manifold” – Manifold as an Enclosure – the Wall
 					- In some rare cases, we can say something “in a manifold” to mean it stays in the interior space enclosed by the manifold (provided it is closed), i.e., not on the manifold itself but in the higher dimensions where the manifold is embedded in.
 					- So, even in this case, the higher dimensions “above” the manifold is inferred.
 				- “In the Omnifold” – Omnifold as a Primordial Medium – the Ocean
