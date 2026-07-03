@@ -1431,7 +1431,7 @@
 						- Such an erection is a convenient abstraction to keep the fiber from messing with the base space, but usually confuses the reader/viewer by obscuring the nature of the underlying structure represented by the fiber.
 							- E.g.: An abstract representation of a [tangent bundle](https://en.wikipedia.org/wiki/Tangent_bundle) shows the tangent fiber $F_x$ perpendicular to $B$. However, this fiber $F_x$ is _not the tangent vector_ itself, but represents the whole tangent space (the straight space/plane tangent to $B$ at $x$) containing all tangent vectors, where each vector is represented as a point in $F_x$.
 						- This artificial erection & abstraction and its inherent confusion are avoided in the immanent view of the Omnifold.
-					- The Sheaf View: If we move from the bundle to the [sheaf of sections](https://en.wikipedia.org/wiki/Section_(fiber_bundle)#Local_and_global_sections), we look at the local assignment of data _over_ open sets of the manifold. The bundle view can be recovered through the [étalé space](https://en.wikipedia.org/wiki/Sheaf_(mathematics)#The_%C3%A9tal%C3%A9_space_of_a_sheaf) of the sheaf.
+					- The Dead Sheaf View: If we move from the bundle to the [sheaf of sections](https://en.wikipedia.org/wiki/Section_(fiber_bundle)#Local_and_global_sections), we look at the local assignment of data _over_ open sets of the manifold. The bundle view can be recovered through the [étalé space](https://en.wikipedia.org/wiki/Sheaf_(mathematics)#The_%C3%A9tal%C3%A9_space_of_a_sheaf) of the sheaf.
 						- Even here, classical sheaves on a manifold assume a rigid, pre-existing spatial substrate. The topology of the base manifold dictates what can exist “on” it.
 				- “In a manifold” – Manifold as an Enclosure – the Wall
 					- In some rare cases, we can say something is “in a manifold” to mean it stays in the interior space enclosed by the manifold (provided it is closed), i.e., not on the manifold itself but in the higher dimensions of the ambient space where the manifold is embedded.
@@ -1440,6 +1440,7 @@
 					- Neither a passive container like the Universal Set, nor a static foundation like a base space, the Omnifold is the **living medium** through all things and from which all things emerge – like water and waves.
 					- This is the holistic view reflecting the **inclusive logic** where the Middle – [the Third](((66f3d5cc-0d68-47bb-b09a-87cda33c7354))) – is the heart of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)), in contrast to the classical [exclusive logic](https://en.wikipedia.org/wiki/Classical_logic) with the [Law of Excluded Middle](https://en.wikipedia.org/wiki/Law_of_excluded_middle).
 						- While similar to the [Universal Set](https://en.wikipedia.org/wiki/Universal_set) – a flaw in [naïve set theory](https://en.wikipedia.org/wiki/Naive_set_theory) and a fallacy in classical logic – the Omnifold is not a flaw but a feature in ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) reflecting the **mutual immanence** of the world: _all in one, one in all_.
+					- The Living Sheaf View:
 		- WAIT ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) structure of the ((675c03d8-3185-41a8-9f98-e869fabec793))
 		  id:: 69a5068c-df84-4f76-92ca-9131897c80df
 		  collapsed:: true
