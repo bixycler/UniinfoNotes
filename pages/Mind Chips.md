@@ -1,4 +1,3 @@
-- The Living Sheaf View: looking at the Omnifold as a topos, ...
 -
 - collapsed:: true
   ---
