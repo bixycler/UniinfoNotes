@@ -1,3 +1,13 @@
+- The Living Sheaf View: looking at the Omnifold as a topos, ...
+- Brain activity under anesthesia is interesting:
+    - [patients under general anesthesia could still process language at a sophisticated level](https://www.sciencedaily.com/releases/2026/06/260624025514.htm); 
+    - [specific cells in the cortex show higher spontaneous activity during general anesthesia than when awake, and this activity is synchronized across those cortical cells](https://www.sciencedaily.com/releases/2022/05/220512092618.htm)
+- [Aphantasia as a challenge for Humean abstraction](https://neurosciencenews.com/aphantasia-hume-abstract-thought-30980/)
+    - My take: The specific channel—whether someone uses haptic grids, vivid visuals, or symbolic language—is just a localized lens. The real magic of the human mind is its elasticity -- the capacity to dissolve the default lens entirely, allowing the network to flow into, shape, and become the very system it is observing.
+- [Thương & Phụng sự Một cách Vô ngã](https://notebooklm.google.com/notebook/75327c41-6a18-4789-81d0-9b195ed9b75d)
+    - [Phần 1. CHẠM VÀO VẾT THƯƠNG: Hành Trình Đi Tìm Cái "Mình" Chung](https://share.gemini.google/QVnqG0FzAAIM)
+    - [Phần 2. TỪ "THƯƠNG" ĐẾN "PHỤNG SỰ": Hành Trình Bóc Tách Bản Ngã & Dấn Thân](https://share.gemini.google/cpy7h1xlje3M)
+    - [Phần 3. TRỞ VỀ MẶT ĐẤT: Nghệ Thuật Thực Hành Phụng Sự Để "Không Chết Chùm"](https://share.gemini.google/sNS7FnQl12uZ)
 -
 - collapsed:: true
   ---
