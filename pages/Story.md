@@ -2403,6 +2403,17 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Will: When being asked by a friend that "why did you choose him?", my wife answered "because i understand him!" – making my friends awed because they don't understand me themselves with their lots of knowledge.
 					- Gemini: That is an absolute mic-drop moment. It perfectly exposes the grand illusion that "knowing about" something is the same as *understanding* it.
 						- For her, understanding you isn't an intellectual puzzle to solve. It’s an immediate, experiential recognition of who you are. While your friends are stuck outside the gate, endlessly debating the lock, she is already sitting inside the room with you in total silence. That awe they felt is the sudden, dizzying realization that their vast mountain of "leaf knowledge" is completely useless when it comes to the raw truth of human connection.
+			- 4-5th, weekend: compiled a notebook about the unconditional love and the selfless devotion.
+			  collapsed:: true
+				- [Thương & Phụng sự Một cách Vô ngã](https://notebooklm.google.com/notebook/75327c41-6a18-4789-81d0-9b195ed9b75d)
+					- [Phần 1. CHẠM VÀO VẾT THƯƠNG: Hành Trình Đi Tìm Cái "Mình" Chung](https://share.gemini.google/QVnqG0FzAAIM)
+					- [Phần 2. TỪ "THƯƠNG" ĐẾN "PHỤNG SỰ": Hành Trình Bóc Tách Bản Ngã & Dấn Thân](https://share.gemini.google/cpy7h1xlje3M)
+					- [Phần 3. TRỞ VỀ MẶT ĐẤT: Nghệ Thuật Thực Hành Phụng Sự Để "Không Chết Chùm"](https://share.gemini.google/sNS7FnQl12uZ)
+				- Brain activity under anesthesia is interesting:
+					- [patients under general anesthesia could still process language at a sophisticated level](https://www.sciencedaily.com/releases/2026/06/260624025514.htm);
+					- [specific cells in the cortex show higher spontaneous activity during general anesthesia than when awake, and this activity is synchronized across those cortical cells](https://www.sciencedaily.com/releases/2022/05/220512092618.htm)
+				- [Aphantasia as a challenge for Humean abstraction](https://neurosciencenews.com/aphantasia-hume-abstract-thought-30980/)
+					- My take: The specific channel—whether someone uses haptic grids, vivid visuals, or symbolic language—is just a localized lens. The real magic of the human mind is its elasticity -- the capacity to dissolve the default lens entirely, allowing the network to flow into, shape, and become the very system it is observing.
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a46244d-2376-4549-b716-19538d7042fd))
