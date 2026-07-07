@@ -2406,8 +2406,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 4-6th, weekend: compiled a notebook about the unconditional love and the selfless devotion.
 			  collapsed:: true
 				- [Thương & Phụng sự Một cách Vô ngã](https://notebooklm.google.com/notebook/f9d75be4-2f70-4044-a004-cce59adec96f)
-					-
+					- [Phần 1. CHẠM VÀO VẾT THƯƠNG: Hành Trình Đi Tìm Cái "Mình" Chung](https://creatzynotes.blogspot.com/2026/07/phan-1-cham-vao-vet-thuong-hanh-trinh-i.html)
+					- [Phần 2. TỪ "THƯƠNG" ĐẾN "PHỤNG SỰ": Hành Trình Bóc Tách Bản Ngã & Dấn Thân](https://creatzynotes.blogspot.com/2026/07/phan-2-tu-thuong-en-phung-su-hanh-trinh.html)
+					- [Phần 3. TRỞ VỀ MẶT ĐẤT: Nghệ Thuật Thực Hành Phụng Sự Để "Không Chết Chùm"](https://creatzynotes.blogspot.com/2026/07/phan-3-tro-ve-mat-at-nghe-thuat-thuc.html)
 					- [Thương & Phụng sự Một cách Vô ngã (Private)](https://notebooklm.google.com/notebook/75327c41-6a18-4789-81d0-9b195ed9b75d)
+					  collapsed:: true
 						- [Phần 1. CHẠM VÀO VẾT THƯƠNG: Hành Trình Đi Tìm Cái "Mình" Chung](https://share.gemini.google/QVnqG0FzAAIM)
 						- [Phần 2. TỪ "THƯƠNG" ĐẾN "PHỤNG SỰ": Hành Trình Bóc Tách Bản Ngã & Dấn Thân](https://share.gemini.google/cpy7h1xlje3M)
 						- [Phần 3. TRỞ VỀ MẶT ĐẤT: Nghệ Thuật Thực Hành Phụng Sự Để "Không Chết Chùm"](https://share.gemini.google/sNS7FnQl12uZ)
