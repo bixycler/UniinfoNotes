@@ -2414,7 +2414,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- [Phần 1. CHẠM VÀO VẾT THƯƠNG: Hành Trình Đi Tìm Cái "Mình" Chung](https://share.gemini.google/QVnqG0FzAAIM)
 						- [Phần 2. TỪ "THƯƠNG" ĐẾN "PHỤNG SỰ": Hành Trình Bóc Tách Bản Ngã & Dấn Thân](https://share.gemini.google/cpy7h1xlje3M)
 						- [Phần 3. TRỞ VỀ MẶT ĐẤT: Nghệ Thuật Thực Hành Phụng Sự Để "Không Chết Chùm"](https://share.gemini.google/sNS7FnQl12uZ)
-				- Through sharing the NotebookLM on fb, i got acknowledged that it was blocked by Google sign-in page on in-app browser.
+				- Through sharing NotebookLM on fb, i got acknowledged that it was blocked by Google sign-in page on in-app browser.
 				  :LOGBOOK:
 				  CLOCK: [2026-07-07 Tue 14:01:10]--[2026-07-07 Tue 14:01:13] =>  00:00:03
 				  :END:
