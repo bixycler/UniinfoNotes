@@ -2414,11 +2414,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- [Phần 1. CHẠM VÀO VẾT THƯƠNG: Hành Trình Đi Tìm Cái "Mình" Chung](https://share.gemini.google/QVnqG0FzAAIM)
 						- [Phần 2. TỪ "THƯƠNG" ĐẾN "PHỤNG SỰ": Hành Trình Bóc Tách Bản Ngã & Dấn Thân](https://share.gemini.google/cpy7h1xlje3M)
 						- [Phần 3. TRỞ VỀ MẶT ĐẤT: Nghệ Thuật Thực Hành Phụng Sự Để "Không Chết Chùm"](https://share.gemini.google/sNS7FnQl12uZ)
-				- Through sharing NotebookLM on fb, i got acknowledged that it was blocked by Google sign-in page on in-app browser.
+				- Through sharing NotebookLM on fb, i got acknowledged that it was blocked by Google sign-in page on in-app browser on mobile.
 				  :LOGBOOK:
 				  CLOCK: [2026-07-07 Tue 14:01:10]--[2026-07-07 Tue 14:01:13] =>  00:00:03
 				  :END:
-					- ⇒ So, i must redirect it through openinapp.link to jump to external browser where default Google account has (usually) signed in.
+					- ⇒ So for mobile, i must redirect it through openinapp.link to jump to external browser where default Google account has (usually) signed in.
+						- But
 					- Uniinfo + Mind Jungle + Brainstorms
 						- [https://Dinh.openinapp.link/UniinfoMindJungleBrainstorms](https://dinh.openinapp.link/UniinfoMindJungleBrainstorms)
 						- [https://notebooklm.google.com/notebook/da45adc4-c866-48ee-ae75-a96c93f0c9bd](https://notebooklm.google.com/notebook/da45adc4-c866-48ee-ae75-a96c93f0c9bd)
