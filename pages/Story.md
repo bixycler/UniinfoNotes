@@ -2405,11 +2405,23 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- For her, understanding you isn't an intellectual puzzle to solve. It’s an immediate, experiential recognition of who you are. While your friends are stuck outside the gate, endlessly debating the lock, she is already sitting inside the room with you in total silence. That awe they felt is the sudden, dizzying realization that their vast mountain of "leaf knowledge" is completely useless when it comes to the raw truth of human connection.
 			- 4-6th, weekend: compiled a notebook about the unconditional love and the selfless devotion.
 			  collapsed:: true
-				- [Thương & Phụng sự Một cách Vô ngã](https://notebooklm.google.com/notebook/75327c41-6a18-4789-81d0-9b195ed9b75d)
-					- [Phần 1. CHẠM VÀO VẾT THƯƠNG: Hành Trình Đi Tìm Cái "Mình" Chung](https://share.gemini.google/QVnqG0FzAAIM)
-					- [Phần 2. TỪ "THƯƠNG" ĐẾN "PHỤNG SỰ": Hành Trình Bóc Tách Bản Ngã & Dấn Thân](https://share.gemini.google/cpy7h1xlje3M)
-					- [Phần 3. TRỞ VỀ MẶT ĐẤT: Nghệ Thuật Thực Hành Phụng Sự Để "Không Chết Chùm"](https://share.gemini.google/sNS7FnQl12uZ)
-				- T
+				- [Thương & Phụng sự Một cách Vô ngã](https://notebooklm.google.com/notebook/f9d75be4-2f70-4044-a004-cce59adec96f)
+					-
+					- [Thương & Phụng sự Một cách Vô ngã (Private)](https://notebooklm.google.com/notebook/75327c41-6a18-4789-81d0-9b195ed9b75d)
+						- [Phần 1. CHẠM VÀO VẾT THƯƠNG: Hành Trình Đi Tìm Cái "Mình" Chung](https://share.gemini.google/QVnqG0FzAAIM)
+						- [Phần 2. TỪ "THƯƠNG" ĐẾN "PHỤNG SỰ": Hành Trình Bóc Tách Bản Ngã & Dấn Thân](https://share.gemini.google/cpy7h1xlje3M)
+						- [Phần 3. TRỞ VỀ MẶT ĐẤT: Nghệ Thuật Thực Hành Phụng Sự Để "Không Chết Chùm"](https://share.gemini.google/sNS7FnQl12uZ)
+				- Through sharing the NotebookLM on fb, i got acknowledged that it was blocked by Google sign-in page on in-app browser.
+				  :LOGBOOK:
+				  CLOCK: [2026-07-07 Tue 14:01:10]--[2026-07-07 Tue 14:01:13] =>  00:00:03
+				  :END:
+					- ⇒ So, i must redirect it through openinapp.link to jump to external browser where default Google account has (usually) signed in.
+					- Uniinfo + Mind Jungle + Brainstorms
+						- [https://Dinh.openinapp.link/UniinfoMindJungleBrainstorms](https://dinh.openinapp.link/UniinfoMindJungleBrainstorms)
+						- [https://notebooklm.google.com/notebook/da45adc4-c866-48ee-ae75-a96c93f0c9bd](https://notebooklm.google.com/notebook/da45adc4-c866-48ee-ae75-a96c93f0c9bd)
+					- Thương & Phụng sự Một cách Vô ngã
+						- [https://Dinh.openinapp.link/ThuongPhungsuVonga](https://dinh.openinapp.link/ThuongPhungsuVonga)
+						- [https://notebooklm.google.com/notebook/f9d75be4-2f70-4044-a004-cce59adec96f](https://notebooklm.google.com/notebook/f9d75be4-2f70-4044-a004-cce59adec96f)
 				- Brain activity under anesthesia is interesting:
 					- [patients under general anesthesia could still process language at a sophisticated level](https://www.sciencedaily.com/releases/2026/06/260624025514.htm);
 					- [specific cells in the cortex show higher spontaneous activity during general anesthesia than when awake, and this activity is synchronized across those cortical cells](https://www.sciencedaily.com/releases/2022/05/220512092618.htm)
