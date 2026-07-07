@@ -472,6 +472,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  collapsed:: true
 			  [notebooklm.google.com](https://notebooklm.google.com/)
 				- It's designed for digesting a lot of documents.
+					- ⚠️ To update sources, we must **remove the old version first**, or else the RAG index may keeps the stale sources.
 				- ((67a73250-60f2-485c-b9d1-fc43ad993282))
 				  id:: 67a71016-9fe4-4b8a-bc23-74f1a5ae7c1e
 				- ((67a73295-e7ff-445f-831f-df6e79d750dc))
