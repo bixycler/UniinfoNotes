@@ -2432,6 +2432,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- [specific cells in the cortex show higher spontaneous activity during general anesthesia than when awake, and this activity is synchronized across those cortical cells](https://www.sciencedaily.com/releases/2022/05/220512092618.htm)
 				- [Aphantasia as a challenge for Humean abstraction](https://neurosciencenews.com/aphantasia-hume-abstract-thought-30980/)
 					- My take: The specific channel—whether someone uses haptic grids, vivid visuals, or symbolic language—is just a localized lens. The real magic of the human mind is its elasticity -- the capacity to dissolve the default lens entirely, allowing the network to flow into, shape, and become the very system it is observing.
+			- 7th,
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a46244d-2376-4549-b716-19538d7042fd))
