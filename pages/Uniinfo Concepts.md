@@ -435,9 +435,9 @@
 						- The illusion of personal continuity
 							- Human language and institutions demand a personal noun – a “whole person” – to maintain moral accounting and satisfy the ego's fear of annihilation.
 								- This insistence on individual accountability is a direct reflection of the individual karma framework explored in ((6a4e1955-b497-4d69-850d-771daf19c0af)).
-							- Throughout history, four main Buddhist frameworks emerged to resolve this tension between selfless cause and effect (*anatta*) and moral accountability:
+							- Throughout history, four main Buddhist frameworks emerged to resolve this tension between selfless causality (*anatta*) and moral accountability:
 								- **The early suttas** bypass this narrative wrapper entirely, stating that when a being lays down the body, “the wind itself is its fuel” – meaning craving and immanent intents carry the wave.
-									- > ...when a being has laid down this body and has not yet been reborn in another body, I declare that it is fueled by craving.
+									- > “When someone who is attached has laid down this body, and has not been reborn in one of the realms, I say they’re fueled by craving. For craving is their fuel then.”
 									  
 									  — [Kutūhalasālā Sutta](https://suttacentral.net/sn44.9) (SN 44.9)
 								- **The Personalist school (Pudgalavāda)** invented an indescribable “person” (*pudgala*) that is neither identical to nor different from the aggregates, satisfying the public need for a direct moral actor and clear moral tracking across lives.
