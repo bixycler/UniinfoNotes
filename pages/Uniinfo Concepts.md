@@ -384,7 +384,7 @@
 				  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((6a4def37-eef3-466b-83ba-ae7faf2b3d89))
 			- rebirth
 			  id:: 6a4ded28-f053-45a4-9c31-d32b3c55f54f
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6a4ded28-f053-45a4-9c31-d32b3c55f54f)) is the recycling of components after the ((6a4def37-eef3-466b-83ba-ae7faf2b3d89)) of their composits, in order to ((6a4df059-3234-44f5-9cc3-cb9bc10eef60)) a new composit ((665ca429-84e3-49ff-921e-c07d19cd99ba)) in the event of ((670de10a-74a7-49e7-856f-b77b50f8e3c6)).
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6a4ded28-f053-45a4-9c31-d32b3c55f54f)) is the recycling of components after the ((6a4def37-eef3-466b-83ba-ae7faf2b3d89)) of their composites, in order to ((6a4df059-3234-44f5-9cc3-cb9bc10eef60)) a new composite ((665ca429-84e3-49ff-921e-c07d19cd99ba)) in the event of ((670de10a-74a7-49e7-856f-b77b50f8e3c6)).
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				-
 		- transform
