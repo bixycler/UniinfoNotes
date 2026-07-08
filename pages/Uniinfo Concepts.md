@@ -370,6 +370,7 @@
 					- deform
 					  id:: 670e1e36-8929-4a91-8f29-95775c21988e
 					  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((670dd83a-3b33-4f1c-bce2-b6ab3783a1dd))
+				- rebirth
 		- transform
 		  id:: 669dd16c-1836-40ec-86e5-772f8f4774ce
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669dd16c-1836-40ec-86e5-772f8f4774ce)), as a noun, includes not only the ((669a58b9-eb34-41cd-8605-02e29b07e1b5)), as "trans-", but also the source and target ((665ca429-84e3-49ff-921e-c07d19cd99ba))s of that transformation, as "-form".
