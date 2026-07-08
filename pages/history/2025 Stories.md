@@ -3174,7 +3174,7 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 			  collapsed:: true
 				- “No one can digest it except the Tathagata.”
 				  — [Maha-parinibbana Sutta](https://www.accesstoinsight.org/tipitaka/dn/dn.16.1-6.vaji.html#fnt-38)
-				- It's neither contaminated pork, nor poisonous mushroom, but the karmic substance that cannot be disgeted without death and rebirth in the [saṃsāra](https://en.wikipedia.org/wiki/Sa%E1%B9%83s%C4%81ra). Only the Tathagata can digest it while remaining free from saṃsāra.
+				- It's neither contaminated pork, nor poisonous mushroom, but the karmic substance that cannot be disgeted without death and ((6a4ded28-f053-45a4-9c31-d32b3c55f54f)) in the [saṃsāra](https://en.wikipedia.org/wiki/Sa%E1%B9%83s%C4%81ra). Only the Tathagata can digest it while remaining free from saṃsāra.
 					- This is because the Buddha metioned not only human but all beings in the Three Realms, including devas, māras, and brahmās, who could digest it.
 			- FoC (circle) [dynamics](((6858b355-fba9-4e61-9f16-bc993a3df44b))) (arrow) toward the perfect (equal): round circle (the whole), straight arrow (through, even, uniform), absolute equal (perfect match, absolute balance, absolute zero intent, absolute infinite extent)
 			  collapsed:: true

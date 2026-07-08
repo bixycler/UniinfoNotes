@@ -353,7 +353,7 @@
 					- From some messy content, the first insight of form apears when that content closes into a ((66ab675b-2778-4f51-80ad-20a8f6988691)) which is the conceived form, and this event is called ((670de10a-74a7-49e7-856f-b77b50f8e3c6)). That closed loop receives more content from its source (mother) and organizes its content into a ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) circle which is the crystal form ready to be separated from its source. This process of crystallization is called ((66faa5f9-0b7a-49ca-a5f5-62eeba03ab2b)), and the separation from its source is the birth of the ((670de601-3ca8-4489-8b75-75ca0d9a74bc)).
 					- After birth, the form learns and adapts to the environment by ((670e1e36-8929-4a91-8f29-95775c21988e))ing its crystal structure, i.e. pruning its structure of complete graph, and by [loading more contents](((670dee3b-4d37-4852-993c-bdb9cdd2c3bc))) from the outside onto its crystal form. Throughout its lifetime, the crystal form deforms more and more in interaction with other forms. This deformation is the deviatation from the roundness, the imbalance that makes its ((66c8772a-9b29-45b0-b169-2fa847333e02)) to rebalance by restoring force that pulls it back to the original roundness.
 					- A multi-layered crystal form can bear distortion to the extent that an outer layer of ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f)) is broken (sick). The inner layers will try to heal the the broken layer by closing it. Each healing crystallizes some content deeper into the core of the this crystal form as well as its components (gene). When the innermost layer is broken, the crystal form is dead, and its contents (components, children) are released to the world.
-					- A death of a crystal form does end the form of the composite but does not end the forms of its components nor its children. The released components with their own crystal forms will continue to participate in the formation of new composites in the process of rebirth.
+					- A ((6a4def37-eef3-466b-83ba-ae7faf2b3d89)) of a crystal form does end the form of the composite but does not end the forms of its components nor its children. The released components with their own crystal forms will continue to participate in the formation of new composites in the process of ((6a4ded28-f053-45a4-9c31-d32b3c55f54f)).
 					- The crystal form of a composite is thus a ((667d16f8-206e-4a85-80f3-24c2aa1bf4ad)) to carry components of other kinds, to help them transform and crystallize content. It's also a producer to produce children of its own kind.
 				- conception
 				  id:: 670de10a-74a7-49e7-856f-b77b50f8e3c6
@@ -370,7 +370,15 @@
 					- deform
 					  id:: 670e1e36-8929-4a91-8f29-95775c21988e
 					  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((670dd83a-3b33-4f1c-bce2-b6ab3783a1dd))
+				- death
+				  id:: 6a4def37-eef3-466b-83ba-ae7faf2b3d89
+				  ((66c80da7-c0e8-46d2-85e5-71318fd44eff)) ((6a4def44-87e0-463d-bc01-bb7cb25cf5f2))
+					- die
+					  id:: 6a4def44-87e0-463d-bc01-bb7cb25cf5f2
+					  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((6a4def37-eef3-466b-83ba-ae7faf2b3d89))
 				- rebirth
+				  id:: 6a4ded28-f053-45a4-9c31-d32b3c55f54f
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6a4ded28-f053-45a4-9c31-d32b3c55f54f)) is the process of in the ((670de10a-74a7-49e7-856f-b77b50f8e3c6)).
 		- transform
 		  id:: 669dd16c-1836-40ec-86e5-772f8f4774ce
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669dd16c-1836-40ec-86e5-772f8f4774ce)), as a noun, includes not only the ((669a58b9-eb34-41cd-8605-02e29b07e1b5)), as "trans-", but also the source and target ((665ca429-84e3-49ff-921e-c07d19cd99ba))s of that transformation, as "-form".
