@@ -360,7 +360,8 @@
 			- conception
 			  id:: 670de10a-74a7-49e7-856f-b77b50f8e3c6
 			  the closing of ((6678288e-699b-4325-bdba-bf6349fe0d57)) into a ((66ab675b-2778-4f51-80ad-20a8f6988691)), i.e. conceived form, ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f))
-				- ((6a4e1955-3290-4613-8c35-0a3f0523a8eb))
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- ((6a4e1955-3290-4613-8c35-0a3f0523a8eb))
 			- formation
 			  id:: 66faa5f9-0b7a-49ca-a5f5-62eeba03ab2b
 			  ((6a3cb95d-99ea-4428-8f09-35a7878596de)) of ((6678288e-699b-4325-bdba-bf6349fe0d57)) into ((665ca429-84e3-49ff-921e-c07d19cd99ba))
@@ -390,6 +391,7 @@
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6a4ded28-f053-45a4-9c31-d32b3c55f54f)) is the recycling of components after the ((6a4def37-eef3-466b-83ba-ae7faf2b3d89)) of their composites, in order to ((6a4df059-3234-44f5-9cc3-cb9bc10eef60)) a new composite ((665ca429-84e3-49ff-921e-c07d19cd99ba)) in the event of ((670de10a-74a7-49e7-856f-b77b50f8e3c6)).
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- ((6a4ded28-f053-45a4-9c31-d32b3c55f54f)) – the closing link of the life cycle (saṃsāra)
+					  id:: 6a4df11c-cd3e-4f61-928d-a04fb85f4b23
 					  collapsed:: true
 						- Overview of the system
 							- Rebirth is not [reincarnation](https://en.wikipedia.org/wiki/Reincarnation) – the migration of an immortal, personal soul (*atman*) down a linear track.
