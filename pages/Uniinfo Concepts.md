@@ -350,6 +350,7 @@
 			  CLOCK: [2024-10-15 Tue 10:31:35]
 			  :END:
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8))
+				  id:: 6a3cef73-4a04-43b7-b11f-c6ff12a85ef4
 					- From some messy content, the first insight of form apears when that content closes into a ((66ab675b-2778-4f51-80ad-20a8f6988691)) which is the conceived form, and this event is called ((670de10a-74a7-49e7-856f-b77b50f8e3c6)). That closed loop receives more content from its source (mother) and organizes its content into a ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) circle which is the crystal form ready to be separated from its source. This process of crystallization is called ((66faa5f9-0b7a-49ca-a5f5-62eeba03ab2b)), and the separation from its source is the birth of the ((670de601-3ca8-4489-8b75-75ca0d9a74bc)).
 					- After birth, the form learns and adapts to the environment by ((670e1e36-8929-4a91-8f29-95775c21988e))ing its crystal structure, i.e. pruning its structure of complete graph, and by [loading more contents](((670dee3b-4d37-4852-993c-bdb9cdd2c3bc))) from the outside onto its crystal form. Throughout its lifetime, the crystal form deforms more and more in interaction with other forms. This deformation is the deviatation from the roundness, the imbalance that makes its ((66c8772a-9b29-45b0-b169-2fa847333e02)) to rebalance by restoring force that pulls it back to the original roundness.
 					- A multi-layered crystal form can bear distortion to the extent that an outer layer of ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f)) is broken (sick). The inner layers will try to heal the the broken layer by closing it. Each healing crystallizes some content deeper into the core of the this crystal form as well as its components (gene). When the innermost layer is broken, the crystal form is dead, and its contents (components, children) are released to the world.
@@ -361,6 +362,10 @@
 				- formation
 				  id:: 66faa5f9-0b7a-49ca-a5f5-62eeba03ab2b
 				  ((6a3cb95d-99ea-4428-8f09-35a7878596de)) of ((6678288e-699b-4325-bdba-bf6349fe0d57)) into ((665ca429-84e3-49ff-921e-c07d19cd99ba))
+				  ((66c80da7-c0e8-46d2-85e5-71318fd44eff)) ((6a4df059-3234-44f5-9cc3-cb9bc10eef60))
+					- form
+					  id:: 6a4df059-3234-44f5-9cc3-cb9bc10eef60
+					  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((66faa5f9-0b7a-49ca-a5f5-62eeba03ab2b))
 				- crystal form
 				  id:: 670de601-3ca8-4489-8b75-75ca0d9a74bc
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) At birth, the ((670de601-3ca8-4489-8b75-75ca0d9a74bc)) is a ((670e14c0-70c6-49ff-9bde-89db60b610c2)), perfect, full, has a [crystal](((66537bdd-6c99-4d7b-905a-e2a487cae5ce))) structure of [complete graph](https://en.wikipedia.org/wiki/Complete_graph). The content of a crystal form is called ((670de73b-6fe0-4366-9d81-2d631a3f3ca3)). In its lifetime, the crystal form usually loses its roundness when it crytallizes more content from the outside, but it still keeps its ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f)) and always try to return to the round form.
@@ -378,7 +383,9 @@
 					  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((6a4def37-eef3-466b-83ba-ae7faf2b3d89))
 				- rebirth
 				  id:: 6a4ded28-f053-45a4-9c31-d32b3c55f54f
-					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6a4ded28-f053-45a4-9c31-d32b3c55f54f)) is the process of in the ((670de10a-74a7-49e7-856f-b77b50f8e3c6)).
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6a4ded28-f053-45a4-9c31-d32b3c55f54f)) is the recycling of components after the ((6a4def37-eef3-466b-83ba-ae7faf2b3d89)) of their composits, in order to ((6a4df059-3234-44f5-9cc3-cb9bc10eef60)) a new ((665ca429-84e3-49ff-921e-c07d19cd99ba)) in the event of ((670de10a-74a7-49e7-856f-b77b50f8e3c6)).
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					-
 		- transform
 		  id:: 669dd16c-1836-40ec-86e5-772f8f4774ce
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669dd16c-1836-40ec-86e5-772f8f4774ce)), as a noun, includes not only the ((669a58b9-eb34-41cd-8605-02e29b07e1b5)), as "trans-", but also the source and target ((665ca429-84e3-49ff-921e-c07d19cd99ba))s of that transformation, as "-form".
