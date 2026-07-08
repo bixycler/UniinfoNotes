@@ -360,6 +360,7 @@
 			- conception
 			  id:: 670de10a-74a7-49e7-856f-b77b50f8e3c6
 			  the closing of ((6678288e-699b-4325-bdba-bf6349fe0d57)) into a ((66ab675b-2778-4f51-80ad-20a8f6988691)), i.e. conceived form, ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f))
+				- ((6a4e1955-3290-4613-8c35-0a3f0523a8eb))
 			- formation
 			  id:: 66faa5f9-0b7a-49ca-a5f5-62eeba03ab2b
 			  ((6a3cb95d-99ea-4428-8f09-35a7878596de)) of ((6678288e-699b-4325-bdba-bf6349fe0d57)) into ((665ca429-84e3-49ff-921e-c07d19cd99ba))
@@ -382,76 +383,80 @@
 				- die
 				  id:: 6a4def44-87e0-463d-bc01-bb7cb25cf5f2
 				  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((6a4def37-eef3-466b-83ba-ae7faf2b3d89))
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- ((6a4e1955-f24d-420d-92fd-ada470026f76))
 			- rebirth
 			  id:: 6a4ded28-f053-45a4-9c31-d32b3c55f54f
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6a4ded28-f053-45a4-9c31-d32b3c55f54f)) is the recycling of components after the ((6a4def37-eef3-466b-83ba-ae7faf2b3d89)) of their composites, in order to ((6a4df059-3234-44f5-9cc3-cb9bc10eef60)) a new composite ((665ca429-84e3-49ff-921e-c07d19cd99ba)) in the event of ((670de10a-74a7-49e7-856f-b77b50f8e3c6)).
-			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-				- Rebirth – the closing link of the life cycle (saṃsāra)
-				  collapsed:: true
-					- Overview of the system
-						- Rebirth is not reincarnation – the migration of an immortal, personal soul (*atman*) down a linear track.
-						- It is the self-referential conservation of unreleased structural tension – the **quantumness of intents** – operating through a live, distributed network.
-						- What is completely accepted is released and resolved; what is unaccepted remains as a vector of force carrying forward into the field of existence.
-					- The quantum of intent (*saṅkhāra*)
-						- Every intentional action, attachment, or resistance leaves a structural trace in the field.
-						- When an experience is met with total, radical acceptance, the friction drops to zero – achieving an **“unbound”** state where the energy is fully released and has no momentum left to carry forward.
-						- When an experience is unaccepted – carrying resistance, craving, or trauma – it remains bound as a high-density **packet** of potential energy.
-						- This packet survives the collapse of the temporary, macroscopic identity (the ego) at the death gate.
-					- The living storehouse (*ālayavijñāna*)
-						- The storehouse is not a mystical cloud or an invisible substance hovering in the air.
-						- It is the very living web of interacting karma – a real-time mesh network of minds continuously synchronizing their intents.
-						- This network interfaces a hidden, distributed layer of software with a highly visible physical and cultural infrastructure.
-							- The software layer consists of invisible latent currents (*anusaya*) sleeping under active mind-streams, retaining the hidden geometry of unresolved frictions.
-							- The hardware layer consists of literature, art, laws, taboos, and material culture acting as the physical hard drives and fiber-optic cables of karma.
-							- These materializations of intent continuously “perfume” the environment, feeding back into the latent currents (*anusaya*) of living beings.
-					- The component unpacking (death)
-						- Death is not destruction, but a systemic de-localization and unpacking of components.
-							- These components, which were captured and enhanced throughout the life of the composite form (a particle, a sentient being), are released back into the world.
-							- The transition phase from death to the next conception behaves like a [quantum path integral](https://en.wikipedia.org/wiki/Path-integral_formulation).
-								- The un-localized components sample all available paths simultaneously through the underlying field.
-								- The underworld is literally the quantum field itself – the quiet, unmanifested ground state underlying all particle excitations.
-						- The quality of the released components depends entirely on the node's level of cultivation.
-							- **Layman's death**: Small bodily death releases coarse particles.
-								- These heavy, localized tensions and cravings remain highly bound, behaving like sluggish, near-classical particles.
-								- They quickly snap back into another dense, localized physical wrapper.
-							- **Practitioner's death**: Greater death releases finer particles.
-								- Unraveling the rigid ego-crystal releases these components as high-frequency informational packets.
-								- Their broader wave function samples a wider, cleaner range of paths across the field before re-crystallizing.
-							- **Liberated one's extinction (****nibbāna****)**: Absolute release of the system's constraints dissolves all packets into a pure, unconstrained wave.
-								- With zero friction left to hold any component in place, the wave diffuses infinitely across the field.
-								- “No rebirth” is therefore not the destruction of a personal soul – which never existed – but the total absence of any localized, high-density packet of tension to act as a “key” that could magnetically lock into a conception event.
-					- The conception fusion (*gandhabba*)
-						- During lovemaking, the parent nodes open their respective fields and mix their immediate and latent intents.
-						- This mixture is a highly sensitive combinatorial engine, varying dynamically with their moods, relationships, and environment.
-						- The *gandhabba* is not a third-party ghost waiting in the air to enter the womb, but the emergent structural resonance of the accumulated intents already present in the parents, the lineage, and the immediate environment.
-						- This localized compound acts as a key, magnetically drawing matching frequencies of unresolved worldly intents from the *ālayavijñāna* to crystallize into a new biological node.
-					- The illusion of personal continuity
-						- Human language and institutions demand a personal noun – a “whole person” – to maintain moral accounting and satisfy the ego's fear of annihilation.
-							- This insistence on individual accountability is a direct reflection of the individual karma framework explored in ((6a4e1955-b497-4d69-850d-771daf19c0af)).
-						- Throughout history, four main Buddhist frameworks emerged to resolve this tension between selfless cause and effect (*anatta*) and moral accountability:
-							- **The early suttas** bypass this narrative wrapper entirely, stating that when a being lays down the body, “the wind itself is its fuel” – meaning craving and immanent intents carry the wave.
-								- > ...when a being has laid down this body and has not yet been reborn in another body, I declare that it is fueled by craving.
-								  
-								  — [Kutūhalasālā Sutta](https://suttacentral.net/sn44.9) (SN 44.9)
-							- **The Personalist school (Pudgalavāda)** invented an indescribable “person” (*pudgala*) that is neither identical to nor different from the aggregates, satisfying the public need for a direct moral actor and clear moral tracking across lives.
-							- **The Theravāda Abhidhamma** constructed a hyper-linear, frame-by-frame cognitive model where a dying mind-moment (*cuticitta*) instantaneously ignites a re-linking consciousness (*paṭisandhi-viññāṇa*) in the next body, maintaining an unbroken but impersonal causal circuit to preserve strict moral accounting.
-							- **The Yogācāra school** originally postulated multiple distinct storehouse consciousnesses (*ālayavijñāna*) – a separate one for each individual person in the imagined state (*parikalpita*) – to preserve individual causal pathways. Later East Asian developments (such as Faxiang and Huayan metaphysics) eliminated this multiplicity, establishing a single, universal, and eternal *ālayavijñāna* representing primordial unity.
-						- Just as the raw suttas declare the wind itself to be the fuel, the universe conserves anonymous vectors of intent rather than personal biographies.
-						- In the light of Huayan's primordial unity, no human being is reborn in whole; rather, these unresolved frictions temporarily crystallize as localized wrappers before dissolving back into the single, universal storehouse.
-					- The dependent origination of the karma doctrine
-					  id:: 6a4e1955-b497-4d69-850d-771daf19c0af
-						- The doctrine of individual karma is not an unchanging absolute truth.
-						- It arose as a highly specific, contextual rebellion against the hereditary Vedic caste system in ancient India.
-						- In that traditional Vedic structure, spiritual duty (*dharma*) and moral identity were entirely collective and hereditary.
-							- Beings were bound by their lineage and class – a state of existential collective entrapment.
-						- By declaring karma to be purely individual intent (*cetanā*), the Buddha severed this collective social guilt.
-							- He granted the individual node complete existential sovereignty.
-							- He provided an immediate, executable escape route that did not require waiting for the entire network to be purified.
-						- This extreme individual focus created a historical bottleneck – treating mind-streams as closed, sandboxed virtual machines in order to focus on the individual morality.
-							- It neglected the **“collective morality”** – the prosocial collective responsibility inherent in civil laws and public regulations.
-							- This limitation eventually drove the Mahayana shift.
-								- The **Bodhisattva ideal** upgraded the model from private escape to collective processing, where a node stays in the network to actively absorb collective friction.
-								- The **Huayan metaphysics** recognized the universal interpenetration of Indra's Net, where clearing one's own node contributes to the frequency of the entire web.
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- ((6a4ded28-f053-45a4-9c31-d32b3c55f54f)) – the closing link of the life cycle (saṃsāra)
+					  collapsed:: true
+						- Overview of the system
+							- Rebirth is not [reincarnation](https://en.wikipedia.org/wiki/Reincarnation) – the migration of an immortal, personal soul (*atman*) down a linear track.
+							- It is the self-referential conservation of unreleased structural tension – the **quantumness of intents** – operating through a live, distributed network.
+							- What is completely accepted is released and resolved – not reborn; what is unaccepted remains as a tension carrying forward into the field of existence to be reborn.
+						- The quantum of intent (*saṅkhāra*)
+							- Every intentional action, attachment, or resistance leaves a structural trace in the field.
+							- When an experience is met with total, radical acceptance, the friction drops to zero – achieving an **“unbound”** state where the energy is fully released and has no momentum left to carry forward.
+							- When an experience is unaccepted – carrying resistance, craving, or trauma – it remains bound as a high-density **packet** of potential energy.
+							- This packet survives the collapse of the temporary, macroscopic identity (the ego) at the death gate.
+						- The living storehouse (*ālayavijñāna*)
+							- The storehouse is not a mystical cloud or an invisible substance hovering in the air.
+							- It is the very living web of interacting karma – a real-time mesh network of minds continuously synchronizing their intents.
+							- This network interfaces a hidden, distributed layer of software with a highly visible physical and cultural infrastructure.
+								- The software layer consists of invisible latent currents (*anusaya*) sleeping under active mind-streams, retaining the hidden geometry of unresolved frictions.
+								- The hardware layer consists of literature, art, laws, taboos, and material culture acting as the physical hard drives and fiber-optic cables of karma.
+								- These materializations of intent continuously “perfume” the environment, feeding back into the latent currents (*anusaya*) of living beings.
+						- The component unpacking at ((6a4def37-eef3-466b-83ba-ae7faf2b3d89))
+						  id:: 6a4e1955-f24d-420d-92fd-ada470026f76
+							- Death is not destruction, but a systemic de-localization and unpacking of components.
+								- These components, which were captured and enhanced throughout the life of the composite form (a particle, a sentient being), are released back into the world.
+								- The transition phase from death to the next conception behaves like a [quantum path integral](https://en.wikipedia.org/wiki/Path-integral_formulation).
+									- The un-localized components sample all available paths simultaneously through the underlying field.
+									- The underworld is literally the quantum field itself – the quiet, unmanifested ground state underlying all particle excitations.
+							- The quality of the released components depends entirely on the node's level of cultivation.
+								- **Layman's death**: Small bodily death releases coarse particles.
+									- These heavy, localized tensions and cravings remain highly bound, behaving like sluggish, near-classical particles.
+									- They quickly snap back into another dense, localized physical wrapper.
+								- **Practitioner's death**: Greater death releases finer particles.
+									- Unraveling the rigid ego-crystal releases these components as high-frequency informational packets.
+									- Their broader wave function samples a wider, cleaner range of paths across the field before re-crystallizing.
+								- **Liberated one's extinction (****nibbāna****)**: Absolute release of the system's constraints dissolves all packets into a pure, unconstrained wave.
+									- With zero friction left to hold any component in place, the wave diffuses infinitely across the field.
+									- “No rebirth” is therefore not the destruction of a personal soul – which never existed – but the total absence of any localized, high-density packet of tension to act as a “key” that could magnetically lock into a conception event.
+						- The fusion at ((670de10a-74a7-49e7-856f-b77b50f8e3c6)) (*gandhabba*)
+						  id:: 6a4e1955-3290-4613-8c35-0a3f0523a8eb
+							- During lovemaking, the parent nodes open their respective fields and mix their immediate and latent intents.
+							- This mixture is a highly sensitive combinatorial engine, varying dynamically with their moods, relationships, and environment.
+							- The *gandhabba* is not a third-party ghost waiting in the air to enter the womb, but the emergent structural resonance of the accumulated intents already present in the parents, the lineage, and the immediate environment.
+							- This localized compound acts as a key, magnetically drawing matching frequencies of unresolved worldly intents from the *ālayavijñāna* to crystallize into a new biological node.
+						- The illusion of personal continuity
+							- Human language and institutions demand a personal noun – a “whole person” – to maintain moral accounting and satisfy the ego's fear of annihilation.
+								- This insistence on individual accountability is a direct reflection of the individual karma framework explored in ((6a4e1955-b497-4d69-850d-771daf19c0af)).
+							- Throughout history, four main Buddhist frameworks emerged to resolve this tension between selfless cause and effect (*anatta*) and moral accountability:
+								- **The early suttas** bypass this narrative wrapper entirely, stating that when a being lays down the body, “the wind itself is its fuel” – meaning craving and immanent intents carry the wave.
+									- > ...when a being has laid down this body and has not yet been reborn in another body, I declare that it is fueled by craving.
+									  
+									  — [Kutūhalasālā Sutta](https://suttacentral.net/sn44.9) (SN 44.9)
+								- **The Personalist school (Pudgalavāda)** invented an indescribable “person” (*pudgala*) that is neither identical to nor different from the aggregates, satisfying the public need for a direct moral actor and clear moral tracking across lives.
+								- **The Theravāda Abhidhamma** constructed a hyper-linear, frame-by-frame cognitive model where a dying mind-moment (*cuticitta*) instantaneously ignites a re-linking consciousness (*paṭisandhi-viññāṇa*) in the next body, maintaining an unbroken but impersonal causal circuit to preserve strict moral accounting.
+								- **The Yogācāra school** originally postulated multiple distinct storehouse consciousnesses (*ālayavijñāna*) – a separate one for each individual person in the imagined state (*parikalpita*) – to preserve individual causal pathways. Later East Asian developments (such as Faxiang and Huayan metaphysics) eliminated this multiplicity, establishing a single, universal, and eternal *ālayavijñāna* representing primordial unity.
+							- Just as the raw suttas declare the wind itself to be the fuel, the universe conserves anonymous vectors of intent rather than personal biographies.
+							- In the light of Huayan's primordial unity, no human being is reborn in whole; rather, these unresolved frictions temporarily crystallize as localized wrappers before dissolving back into the single, universal storehouse.
+						- The dependent origination of the karma doctrine
+						  id:: 6a4e1955-b497-4d69-850d-771daf19c0af
+							- The doctrine of **individual karma** is not an unchanging absolute truth.
+							- It arose as a highly specific, contextual rebellion against the hereditary Vedic caste system in ancient India.
+							- In that traditional Vedic structure, spiritual duty (*dharma*) and moral identity were entirely collective and hereditary.
+								- Beings were bound by their lineage and class – a state of existential collective entrapment.
+							- By declaring karma to be purely individual intent (*cetanā*), the Buddha severed this collective social guilt.
+								- He granted the individual node complete existential sovereignty.
+								- He provided an immediate, executable escape route that did not require waiting for the entire network to be purified.
+							- This extreme individual focus created a historical bottleneck – treating mind-streams as closed, sandboxed virtual machines in order to focus on the **individual morality**.
+								- It neglected the **collective morality** – the prosocial collective responsibility inherent in civil laws and public regulations.
+								- This limitation eventually drove the Mahayana shift.
+									- The **Bodhisattva ideal** upgraded the model from private escape to collective processing, where a node stays in the network to actively absorb collective friction.
+									- The **Huayan metaphysics** recognized the universal interpenetration of Indra's Net, where clearing one's own node contributes to the frequency of the entire web.
 		- transform
 		  id:: 669dd16c-1836-40ec-86e5-772f8f4774ce
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669dd16c-1836-40ec-86e5-772f8f4774ce)), as a noun, includes not only the ((669a58b9-eb34-41cd-8605-02e29b07e1b5)), as "trans-", but also the source and target ((665ca429-84e3-49ff-921e-c07d19cd99ba))s of that transformation, as "-form".
