@@ -410,7 +410,7 @@
 							- The transition phase from death to the next conception behaves like a [quantum path integral](https://en.wikipedia.org/wiki/Path-integral_formulation).
 								- The un-localized components sample all available paths simultaneously through the underlying field.
 								- The underworld is literally the quantum field itself – the quiet, unmanifested ground state underlying all particle excitations.
-						- The quality of the released components depends entirely on the node's level of cultivation:
+						- The quality of the released components depends entirely on the node's level of cultivation.
 							- **Layman's death**: Small bodily death releases coarse particles.
 								- These heavy, localized tensions and cravings remain highly bound, behaving like sluggish, near-classical particles.
 								- They quickly snap back into another dense, localized physical wrapper.
@@ -427,18 +427,19 @@
 						- This localized compound acts as a key, magnetically drawing matching frequencies of unresolved worldly intents from the *ālayavijñāna* to crystallize into a new biological node.
 					- The illusion of personal continuity
 						- Human language and institutions demand a personal noun – a “whole person” – to maintain moral accounting and satisfy the ego's fear of annihilation.
-							- This insistence on individual accountability is a direct reflection of the framework explored in **The dependent origination of the karma doctrine**.
+							- This insistence on individual accountability is a direct reflection of the individual karma framework explored in ((6a4e1955-b497-4d69-850d-771daf19c0af)).
 						- Throughout history, four main Buddhist frameworks emerged to resolve this tension between selfless cause and effect (*anatta*) and moral accountability:
 							- **The early suttas** bypass this narrative wrapper entirely, stating that when a being lays down the body, “the wind itself is its fuel” – meaning craving and immanent intents carry the wave.
 								- > ...when a being has laid down this body and has not yet been reborn in another body, I declare that it is fueled by craving.
 								  
-								  — [Kutūhalasālā Sutta](https://suttacentral.net/sn44.9), SN 44.9
+								  — [Kutūhalasālā Sutta](https://suttacentral.net/sn44.9) (SN 44.9)
 							- **The Personalist school (Pudgalavāda)** invented an indescribable “person” (*pudgala*) that is neither identical to nor different from the aggregates, satisfying the public need for a direct moral actor and clear moral tracking across lives.
 							- **The Theravāda Abhidhamma** constructed a hyper-linear, frame-by-frame cognitive model where a dying mind-moment (*cuticitta*) instantaneously ignites a re-linking consciousness (*paṭisandhi-viññāṇa*) in the next body, maintaining an unbroken but impersonal causal circuit to preserve strict moral accounting.
 							- **The Yogācāra school** originally postulated multiple distinct storehouse consciousnesses (*ālayavijñāna*) – a separate one for each individual person in the imagined state (*parikalpita*) – to preserve individual causal pathways. Later East Asian developments (such as Faxiang and Huayan metaphysics) eliminated this multiplicity, establishing a single, universal, and eternal *ālayavijñāna* representing primordial unity.
 						- Just as the raw suttas declare the wind itself to be the fuel, the universe conserves anonymous vectors of intent rather than personal biographies.
 						- In the light of Huayan's primordial unity, no human being is reborn in whole; rather, these unresolved frictions temporarily crystallize as localized wrappers before dissolving back into the single, universal storehouse.
 					- The dependent origination of the karma doctrine
+					  id:: 6a4e1955-b497-4d69-850d-771daf19c0af
 						- The doctrine of individual karma is not an unchanging absolute truth.
 						- It arose as a highly specific, contextual rebellion against the hereditary Vedic caste system in ancient India.
 						- In that traditional Vedic structure, spiritual duty (*dharma*) and moral identity were entirely collective and hereditary.
