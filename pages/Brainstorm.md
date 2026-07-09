@@ -11,11 +11,16 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2026 Brainstorms
 	  id:: 6960e754-ff94-4e1a-8266-d9f15231b880
-		- TODO Contend arrows (attent, intent, extent) ⇋ Content circles (content, sustent)
+		- Contend arrows (attent, intent, extent) ⇋ Content circles (content, sustent)
 		  id:: 6a4f17a2-8a3d-4df1-996d-4d43268d33c7
 		  collapsed:: true
-			- Forward: ((6667c99a-792f-4230-9fc6-c5fae874daef)): The tendency of all contend arrows is tending toward the content circle.
-			-
+		  :LOGBOOK:
+		  CLOCK: [2026-07-09 Thu 11:02:00]
+		  :END:
+			- Feedforward flow: circle drives arrow via the ((6667c99a-792f-4230-9fc6-c5fae874daef)): The tendency of all contend arrows is tending toward the content circle.
+				- This is the ethereality of the circle.
+			- Feedback flow: arrow cuts circle via the ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)): The content circle is composed of arrows of constant change.
+				- This is the cutting edge of the arrow.
 		- TODO dimensions in linear space = orders in ((684796ee-1bc9-4828-882b-612c67ba48f3)) = layers in intent chain = obops in effect flow & dynamical system
 		  id:: 6a46262a-ac46-4e8e-a45e-9078a132dbde
 		  :LOGBOOK:
