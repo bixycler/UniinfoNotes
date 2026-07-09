@@ -21,6 +21,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- This is the ethereality of the circle.
 			- Feedback flow: arrow cuts circle via the ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)): The content circle is composed of arrows of constant change.
 				- This is the cutting edge of the arrow.
+				- The **constant change** is the unity of both opposites – constant (unchange) + change – as Heraclitus stated “”
 		- TODO dimensions in linear space = orders in ((684796ee-1bc9-4828-882b-612c67ba48f3)) = layers in intent chain = obops in effect flow & dynamical system
 		  id:: 6a46262a-ac46-4e8e-a45e-9078a132dbde
 		  :LOGBOOK:
