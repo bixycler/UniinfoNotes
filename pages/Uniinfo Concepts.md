@@ -970,18 +970,19 @@
 				  equilibrium in dynamic
 				- optimum
 				  equilibrium in progress
-			- Law of ((669a1d82-91c8-40fd-81f5-e8ffe56e9e9c)) restoration
+			- Law of balance restoration
 			  id:: 6667c99a-792f-4230-9fc6-c5fae874daef
 			  :LOGBOOK:
 			  CLOCK: [2024-06-11 Tue 10:50:54]
 			  CLOCK: [2024-09-13 Fri 15:34:45]
 			  :END:
-			  “(Im)Balance is the ((677e76ed-b324-4608-b146-90e8fcfa0c32)) of all forces.”
-				- All forces are caused by the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) to cancel its imbalance, hence **restoring forces**.
-				  id:: 699c0362-5189-4cee-bcb5-84b6ff8574fe
-				- Intentional cause: imbalance is the first cause (op), and balance is the final cause (ob).
-				  id:: 699c0362-d39c-462c-9f21-31a7ad3d26ba
-				- This is the generalized version of the [law of entropy](https://en.wikipedia.org/wiki/Second_law_of_thermodynamics#Direction_of_spontaneous_processes).
+			  “(Im) ((669a1d82-91c8-40fd-81f5-e8ffe56e9e9c)) is the ((677e76ed-b324-4608-b146-90e8fcfa0c32)) of all forces.”
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8))
+					- All forces are caused by the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) to cancel its imbalance, hence **restoring forces**.
+					  id:: 699c0362-5189-4cee-bcb5-84b6ff8574fe
+					- Intentional cause: imbalance is the first cause (op), and balance is the final cause (ob).
+					  id:: 699c0362-d39c-462c-9f21-31a7ad3d26ba
+					- This is the generalized version of the [law of entropy](https://en.wikipedia.org/wiki/Second_law_of_thermodynamics#Direction_of_spontaneous_processes).
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- ((66960ee2-d6dd-404b-a9d0-96340fce3cd2))
 				- WAIT round = divisible = reached GCD (unit) = distributed content (change) to all digits = equilibrium = reached Mecha/Turing machine (from bio, uninet)
