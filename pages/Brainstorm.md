@@ -17,15 +17,16 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :LOGBOOK:
 		  CLOCK: [2026-07-09 Thu 11:02:00]
 		  :END:
-			- Feedforward flow: circle drives arrow via the ((6667c99a-792f-4230-9fc6-c5fae874daef)) & matching: The tendency of all contend arrows is tending toward the content circle.
+			- Feedforward/efferent flow: circle drives arrow via the ((6667c99a-792f-4230-9fc6-c5fae874daef)) & matching: The tendency of all contend arrows is tending toward the content circle (contentment).
 				- This is the ethereality of the circle.
 				- The action cone (the whip): In the sequence of intents, the inner/higher intent drives the outer/lower intent, then continue down to the outward action.
 					- In human, it's the chain: impulsion > impetus > intention > action
-			- Feedback flow: arrow cuts circle via the ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) & mixing: The content circle is composed of arrows of constant change.
+			- Feedback/afferent flow: arrow cuts circle via the ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) & mixing: The content circle is composed of arrows of constant change.
 				- This is the cutting edge of the arrow.
 				- The **constant change** is the unity of both opposites – constant (unchanged) + change – as Heraclitus stated “everything changes”.
-				- The perception cone (the eye): the reality reflected back to change the intents.
-					- It's usually the
+				- The perception cone (the eye): the reality is reflected back to change the intents.
+					- This afferent flow is usually in a route different from the efferent flow, to change passive intents.
+					- Sometimes, for simple intents, the afferent flow is in the same route with the efferent flow to directly change the active intents upstream.
 			- Contention = contend arrows with different content circles = conflict between arrow with different tendencies
 				- The contention mixes different content circles into a common circle.
 		- TODO dimensions in linear space = orders in ((684796ee-1bc9-4828-882b-612c67ba48f3)) = layers in intent chain = obops in effect flow & dynamical system
