@@ -2403,7 +2403,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Will: When being asked by a friend that "why did you choose him?", my wife answered "because i understand him!" – making my friends awed because they don't understand me themselves with their lots of knowledge.
 					- Gemini: That is an absolute mic-drop moment. It perfectly exposes the grand illusion that "knowing about" something is the same as *understanding* it.
 						- For her, understanding you isn't an intellectual puzzle to solve. It’s an immediate, experiential recognition of who you are. While your friends are stuck outside the gate, endlessly debating the lock, she is already sitting inside the room with you in total silence. That awe they felt is the sudden, dizzying realization that their vast mountain of "leaf knowledge" is completely useless when it comes to the raw truth of human connection.
-			- 4-6th, weekend: compiled a notebook about the unconditional love and the selfless devotion.
+			- 4-7th, weekend+2: compiled a notebook about the unconditional love and the selfless devotion.
 			  collapsed:: true
 				- [Thương & Phụng sự Một cách Vô ngã](https://notebooklm.google.com/notebook/f9d75be4-2f70-4044-a004-cce59adec96f)
 					- [Phần 1. CHẠM VÀO VẾT THƯƠNG: Hành Trình Đi Tìm Cái "Mình" Chung](https://creatzynotes.blogspot.com/2026/07/phan-1-cham-vao-vet-thuong-hanh-trinh-i.html)
@@ -2432,11 +2432,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- [specific cells in the cortex show higher spontaneous activity during general anesthesia than when awake, and this activity is synchronized across those cortical cells](https://www.sciencedaily.com/releases/2022/05/220512092618.htm)
 				- [Aphantasia as a challenge for Humean abstraction](https://neurosciencenews.com/aphantasia-hume-abstract-thought-30980/)
 					- My take: The specific channel—whether someone uses haptic grids, vivid visuals, or symbolic language—is just a localized lens. The real magic of the human mind is its elasticity -- the capacity to dissolve the default lens entirely, allowing the network to flow into, shape, and become the very system it is observing.
-			- 7th, laid out what i see about ((6a4df11c-cd3e-4f61-928d-a04fb85f4b23))
+			- 8th, laid out what i see about ((6a4df11c-cd3e-4f61-928d-a04fb85f4b23))
 			  id:: 6a4dae8a-9533-4a7d-80c6-bf6fb68ac80f
 			  collapsed:: true
 				- Last night, in meditation, i contemplated my urge to write things down, then [chat with Gemini](https://share.gemini.google/LCoFzBQvJuWl) to see if that urge is linked to rebirth.
-			-
+			- 9th, ...
+			  collapsed:: true
+				- ((6a4f17a2-8a3d-4df1-996d-4d43268d33c7))
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a46244d-2376-4549-b716-19538d7042fd))
