@@ -2436,6 +2436,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  id:: 6a4dae8a-9533-4a7d-80c6-bf6fb68ac80f
 			  collapsed:: true
 				- Last night, in meditation, i contemplated my urge to write things down, then [chat with Gemini](https://share.gemini.google/LCoFzBQvJuWl) to see if that urge is linked to rebirth.
+			-
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a46244d-2376-4549-b716-19538d7042fd))
