@@ -421,8 +421,8 @@
 									- These heavy, localized tensions and cravings remain highly bound, behaving like sluggish, near-classical particles.
 									- They quickly snap back into another dense, localized physical wrapper.
 								- **Practitioner's death**: Greater death releases finer particles.
-									- Unraveling the rigid ego-crystal releases these components as high-frequency informational packets.
-									- Their broader wave function samples a wider, cleaner range of paths across the field before re-crystallizing.
+									- Unraveling the rigid ego-crystal releases these components as a wave of micro-packets.
+									- Their wave spreads broader and covers a wider range of paths across the field before re-crystallizing.
 								- **Liberated one's extinction (****nibbāna****)**: Absolute release of the system's constraints dissolves all packets into a pure, unconstrained wave.
 									- With zero friction left to hold any component in place, the wave diffuses infinitely across the field.
 									- “No rebirth” is therefore not the destruction of a personal soul – which never existed – but the total absence of any localized, high-density packet of tension to act as a “key” that could magnetically lock into a conception event.
@@ -437,7 +437,7 @@
 								- This insistence on individual accountability is a direct reflection of the individual karma framework explored in ((6a4e1955-b497-4d69-850d-771daf19c0af)).
 							- Throughout history, four main Buddhist frameworks emerged to resolve this tension between selfless causality (*anatta*) and moral accountability:
 								- **The early suttas** bypass this narrative wrapper entirely, stating that when a being lays down the body, “the wind itself is its fuel” – meaning craving and immanent intents carry the wave.
-									- > “When someone who is attached has laid down this body, and has not been reborn in one of the realms, I say they’re fueled by craving. For craving is their fuel then.”
+									- > “When someone, who is attached, has laid down this body, and has not been reborn in one of the realms, I say they're fueled by craving. For craving is their fuel then.”
 									  
 									  — [Kutūhalasālā Sutta](https://suttacentral.net/sn44.9) (SN 44.9)
 								- **The Personalist school (Pudgalavāda)** invented an indescribable “person” (*pudgala*) that is neither identical to nor different from the aggregates, satisfying the public need for a direct moral actor and clear moral tracking across lives.

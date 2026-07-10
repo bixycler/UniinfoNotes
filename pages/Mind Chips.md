@@ -1,6 +1,3 @@
-- Practitioner's death:
-	- Unraveling the rigid ego-crystal releases these components as a wave of micro-packets.
-	- Their wave spreads broader and covers a wider range of paths across the field before re-crystallizing.
 -
 - collapsed:: true
   ---
@@ -16,7 +13,6 @@
 		- entropy increase by effect cone
 	- bottom-up building means taking a micro form to be the first brick, discarding its underlying content.
 	- Unithread takes a projection of the whole Omnifold as the infinite underlying content.
-- ---
 - ((69af7dbd-0a7c-4d10-a5cd-6de1ab9c3040))
 - 🧵 thread: total amount = 1 = sum of content in each form dimension (extent) = product of intents of all forms
 - 🤔😊😁 😉 😮 😛 😜 🤣 🙁 😱 👺 👁️🧿🪬  ⇄ ∞∝α ‘’
