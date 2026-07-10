@@ -292,10 +292,94 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 								- `hcolor`: `5;n` or `2;r;g;b` where `n` in [16, 255] is a [8-bit color code](https://en.wikipedia.org/wiki/ANSI_escape_code#8-bit), and `r;g;b` is red-green-blue code of [24-bit color](https://en.wikipedia.org/wiki/ANSI_escape_code#24-bit).
 								  id:: 67ada493-aea8-4646-92c6-029719d0be8f
 								- `show-256colors.sh`: Shell script to show entire palette of 256 colors
-									-
+								  collapsed:: true
 									- One-liner code
 									  ```sh
 									  for i in {0..255}; do printf "\x1b[38;5;${i}mcolour${i}\n" ; done | column
+									  ```
+									- ```sh
+									  #!/bin/bash
+									  
+									  echo -e "\e[1m================================="
+									  echo -e "   TERMINAL 256-COLOR PALETTE "
+									  echo -e "=================================\e[0m"
+									  
+									  # Print one row: column 1 shows the code as foreground color, column 2 shows
+									  # the label as background color. Both are drawn over a fixed contrast color
+									  # ($3): white (15) in the first half of a block, black (0) in the second half.
+									  print_row() {
+									      local i="$1" label="$2" contrast="$3"
+									      local code
+									      code=$(printf "cterm=%-3d" "$i")
+									      label=$(printf "%-9s" "$label")
+									      echo -e "\e[38;5;${i};48;5;${contrast}m ${code} \e[0m \e[38;5;${contrast};48;5;${i}m ${label} \e[0m"
+									  }
+									  
+									  # ---------------------------------------------------------
+									  # BLOCK 1: Standard & High-Intensity ANSI Colors (0-15)
+									  # ---------------------------------------------------------
+									  echo -e "\n\e[34;1m[ BLOCK 1: Standard & Bright ANSI Colors ]\e[0m"
+									  printf "%-11s %s\n" "Color Code " " Type      "
+									  printf "%-11s %s\n" "-----------" "-----------"
+									  
+									  for i in {0..15}; do
+									      type="Standard"
+									      [[ $i -gt 7 ]] && type="Bright"
+									      # First half (0-7) over white, second half (8-15) over black
+									      [[ $i -lt 8 ]] && contrast=15 || contrast=0
+									      print_row "$i" "$type" "$contrast"
+									  done
+									  
+									  # ---------------------------------------------------------
+									  # BLOCK 2: 6x6x6 RGB Color Cube (16-231)
+									  # ---------------------------------------------------------
+									  echo -e "\n\e[34;1m[ BLOCK 2: 6x6x6 RGB Color Cube (R,G,B Coordinates 0-5) ]\e[0m"
+									  printf "%-11s %s\n" "Color Code " " [R,G,B]   "
+									  printf "%-11s %s\n" "-----------" "-----------"
+									  
+									  # Tile the rows into as many grid columns as fit the terminal. We can't pipe to
+									  # `column` because it measures byte length and the ANSI escape codes make each
+									  # row look ~55 bytes wide (vs. 23 visible), so it packs far too few columns.
+									  row_width=23          # visible width of one print_row (no trailing gap)
+									  gap=2                 # spaces between grid columns
+									  ncols=$(( ($(tput cols) + gap) / (row_width + gap) ))
+									  [[ $ncols -lt 1 ]] && ncols=1
+									  
+									  col=0
+									  for i in {16..231}; do
+									      # Calculate RGB coordinates from 256-color index formula: index = 16 + 36R + 6G + B
+									      idx=$((i - 16))
+									      r=$((idx / 36))
+									      g=$(((idx % 36) / 6))
+									      b=$((idx % 6))
+									      # First half (108 colors) over white, second half over black
+									      [[ $idx -lt 108 ]] && contrast=15 || contrast=0
+									      printf '%s' "$(print_row "$i" "[$r,$g,$b]" "$contrast")"
+									      col=$((col + 1))
+									      if [[ $col -eq $ncols ]]; then
+									          echo
+									          col=0
+									      else
+									          printf '%*s' "$gap" ""
+									      fi
+									  done
+									  [[ $col -ne 0 ]] && echo
+									  
+									  # ---------------------------------------------------------
+									  # BLOCK 3: Grayscale Ramp (232-255)
+									  # ---------------------------------------------------------
+									  echo -e "\n\e[34;1m[ BLOCK 3: Grayscale Ramp (24 Levels) ]\e[0m"
+									  printf "%-11s %s\n" "Color Code " " Intensity "
+									  printf "%-11s %s\n" "-----------" "-----------"
+									  
+									  for i in {232..255}; do
+									      # Calculate grayscale intensity layer (0 to 23)
+									      level=$((i - 232))
+									      # First half (levels 0-11) over white, second half over black
+									      [[ $level -lt 12 ]] && contrast=15 || contrast=0
+									      print_row "$i" "Level $level" "$contrast"
+									  done
+									  
 									  ```
 						- Effects are [ANSI Select Graphic Rendition codes](https://en.wikipedia.org/wiki/ANSI_escape_code#Select_Graphic_Rendition_parameters).
 							- ```sh
