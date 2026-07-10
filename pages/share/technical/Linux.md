@@ -306,72 +306,72 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 						  export LS_COLORS="${LS_COLORS}mi=37;41:" # MISSING: nonexistent target of symlink: white (37) on redbackground (41)
 						  ```
 						- Highlight for multiple hard links has [once been turned on for only some months between 2008-2009](https://askubuntu.com/a/251450).
-						- A shell script to show all colors in `LS_COLORS`, ref: [AskUbuntu](https://askubuntu.com/a/884513)
-						  collapsed:: true
-							- ```sh
-							  #!/bin/bash
-							  # For each entry in LS_COLORS, print the type, and description if available, in the relevant color.
-							  # All dot-types are printed in one line.
-							  
-							  types=( no rs fi di ex ca ln or mi mh pi so bd cd do su sg st ow tw lc rc ec )
-							  dottypes=()
-							  declare -A descriptions=(
-							      [no]="NORMAL: Non-filename columns of each file"
-							      [rs]="RESET: Color to be (re)set after ls"
-							      [fi]="FILE: Regular file"
-							      [di]="DIR: Directory"
-							      [ex]="EXEC: Executable file"
-							      [ca]="CAPABILITY: Executable file with capabilities"
-							      [ln]="SYMLINK: Symbolic link"
-							      [or]="ORPHAN: Broken symlink"
-							      [mi]="MISSING: Missing target of broken symlink"
-							      [mh]="MULTIHARDLINK: File with multiple hardlinks"
-							      [pi]="PIPE, FIFO: Named FIFO pipe"
-							      [so]="SOCK: Socket"
-							      [bd]="BLOCK: Block device"
-							      [cd]="CHAR: Character device"
-							      [do]="DOOR: Solaris door"
-							      [su]="SETUID: File that is setuid"
-							      [sg]="SETGID: File that is setgid"
-							      [st]="STICKY: Sticky directory"
-							      [ow]="OTHER_WRITABLE: Other-writable directory"
-							      [tw]="STICKY_OTHER_WRITABLE: Sticky and other-writable directory"
-							      [lc]="LEFTCODE, LEFT: Opening terminal code"
-							      [rc]="RIGHTCODE, RIGHT: Closing terminal code"
-							      [ec]="ENDCODE, END: Terminal code after filename"
-							  )
-							  declare -A colors
-							  declare -A dotcolors
-							  
-							  ls_colors=$LS_COLORS
-							  dir_colors=$(dircolors |head -1)
-							  dir_colors=${dir_colors#*\'}
-							  dir_colors=${dir_colors%\'*}
-							  ls_colors=${dir_colors}${ls_colors}
-							  IFS=:
-							  for ls_color in $ls_colors; do
-							      type="${ls_color%=*}"
-							      color="${ls_color#*=}"
-							      [[ -z $type ]] && continue
-							      if [[ "${IFS}${types[*]}${IFS}" =~ "${IFS}${type}${IFS}" ]]; then colors[$type]=$color
-							      else dotcolors["$type"]=$color;  dottypes+=("$type"); fi
-							  done
-							  
-							  # Print descriptions styled by colors
-							  for type in "${types[@]}"; do
-							      color="${colors[$type]}"
-							      desc="${descriptions[$type]}"
-							      printf "\e[%sm%s%s\e[m \n" "$color" "$type" "${desc:+ = $desc}"
-							  done
-							  
-							  # Print dotcolors of dottypes
-							  for type in "${dottypes[@]}"; do
-							      color="${dotcolors[$type]}"
-							      printf "\e[%sm%s\e[m " "$color" "$type"
-							  done
-							  echo
-							  
-							  ```
+					- `show-LS_COLORS.sh`: shell script to show all colors in `LS_COLORS`, ref: [AskUbuntu](https://askubuntu.com/a/884513)
+					  collapsed:: true
+						- ```sh
+						  #!/bin/bash
+						  # For each entry in LS_COLORS, print the type, and description if available, in the relevant color.
+						  # All dot-types are printed in one line.
+						  
+						  types=( no rs fi di ex ca ln or mi mh pi so bd cd do su sg st ow tw lc rc ec )
+						  dottypes=()
+						  declare -A descriptions=(
+						      [no]="NORMAL: Non-filename columns of each file"
+						      [rs]="RESET: Color to be (re)set after ls"
+						      [fi]="FILE: Regular file"
+						      [di]="DIR: Directory"
+						      [ex]="EXEC: Executable file"
+						      [ca]="CAPABILITY: Executable file with capabilities"
+						      [ln]="SYMLINK: Symbolic link"
+						      [or]="ORPHAN: Broken symlink"
+						      [mi]="MISSING: Missing target of broken symlink"
+						      [mh]="MULTIHARDLINK: File with multiple hardlinks"
+						      [pi]="PIPE, FIFO: Named FIFO pipe"
+						      [so]="SOCK: Socket"
+						      [bd]="BLOCK: Block device"
+						      [cd]="CHAR: Character device"
+						      [do]="DOOR: Solaris door"
+						      [su]="SETUID: File that is setuid"
+						      [sg]="SETGID: File that is setgid"
+						      [st]="STICKY: Sticky directory"
+						      [ow]="OTHER_WRITABLE: Other-writable directory"
+						      [tw]="STICKY_OTHER_WRITABLE: Sticky and other-writable directory"
+						      [lc]="LEFTCODE, LEFT: Opening terminal code"
+						      [rc]="RIGHTCODE, RIGHT: Closing terminal code"
+						      [ec]="ENDCODE, END: Terminal code after filename"
+						  )
+						  declare -A colors
+						  declare -A dotcolors
+						  
+						  ls_colors=$LS_COLORS
+						  dir_colors=$(dircolors |head -1)
+						  dir_colors=${dir_colors#*\'}
+						  dir_colors=${dir_colors%\'*}
+						  ls_colors=${dir_colors}${ls_colors}
+						  IFS=:
+						  for ls_color in $ls_colors; do
+						      type="${ls_color%=*}"
+						      color="${ls_color#*=}"
+						      [[ -z $type ]] && continue
+						      if [[ "${IFS}${types[*]}${IFS}" =~ "${IFS}${type}${IFS}" ]]; then colors[$type]=$color
+						      else dotcolors["$type"]=$color;  dottypes+=("$type"); fi
+						  done
+						  
+						  # Print descriptions styled by colors
+						  for type in "${types[@]}"; do
+						      color="${colors[$type]}"
+						      desc="${descriptions[$type]}"
+						      printf "\e[%sm%s%s\e[m \n" "$color" "$type" "${desc:+ = $desc}"
+						  done
+						  
+						  # Print dotcolors of dottypes
+						  for type in "${dottypes[@]}"; do
+						      color="${dotcolors[$type]}"
+						      printf "\e[%sm%s\e[m " "$color" "$type"
+						  done
+						  echo
+						  
+						  ```
 					- Refs: [trapd00r/LS_COLORS](https://github.com/trapd00r/LS_COLORS/blob/master/LS_COLORS), [ls-color-output](https://itsfoss.com/ls-color-output/), [HowtoGeek](https://www.howtogeek.com/307899/how-to-change-the-colors-of-directories-and-files-in-the-ls-command/), [bigsoft](https://www.bigsoft.co.uk/blog/2008/04/11/configuring-ls_colors), [AskUbuntu](https://askubuntu.com/a/884513)
 			- `stat`
 			  id:: 671f50a5-2987-4e65-b28d-7b08bdcf0a06
