@@ -11,7 +11,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2026 Brainstorms
 	  id:: 6960e754-ff94-4e1a-8266-d9f15231b880
-		- Contend arrows (attent, intent, extent) ⇋ Content circles (content, sustent) = mixmatch
+		- Contend arrows (contend, attent, intent, extent) ⇋ Content circles (content, sustent) = mixmatch
 		  id:: 6a4f17a2-8a3d-4df1-996d-4d43268d33c7
 		  collapsed:: true
 		  :LOGBOOK:
