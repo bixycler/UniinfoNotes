@@ -291,7 +291,12 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 								  id:: 67ada479-c1b4-40b5-ba31-73e012b19915
 								- `hcolor`: `5;n` or `2;r;g;b` where `n` in [16, 255] is a [8-bit color code](https://en.wikipedia.org/wiki/ANSI_escape_code#8-bit), and `r;g;b` is red-green-blue code of [24-bit color](https://en.wikipedia.org/wiki/ANSI_escape_code#24-bit).
 								  id:: 67ada493-aea8-4646-92c6-029719d0be8f
-								- `show-256colors.sh`: Shell script to show entire palete
+								- `show-256colors.sh`: Shell script to show entire palette of 256 colors
+									-
+									- One-liner code
+									  ```sh
+									  for i in {0..255}; do printf "\x1b[38;5;${i}mcolour${i}\n" ; done | column
+									  ```
 						- Effects are [ANSI Select Graphic Rendition codes](https://en.wikipedia.org/wiki/ANSI_escape_code#Select_Graphic_Rendition_parameters).
 							- ```sh
 							  0=none 1=bold 4=underscore 5=blink 7=reverse 8=concealed
