@@ -1,3 +1,6 @@
+- Practitioner's death:
+	- Unraveling the rigid ego-crystal releases these components as a wave of micro-packets.
+	- Their wave spreads broader and covers a wider range of paths across the field before re-crystallizing.
 -
 - collapsed:: true
   ---
