@@ -212,7 +212,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- [Google AI Studio](https://aistudio.google.com/)
 							- [API keys](https://aistudio.google.com/api-keys)
 							- [API usage](https://aistudio.google.com/usage)
-							- Linked to Google One AI with [Developer Program](https://developers.google.com/program)
+							- Linked to **Google One AI** with [Developer Program](https://developers.google.com/program)
 								- For \$20/month of Google (One) AI Pro, get *\$10 monthly Gen AI & Cloud credits* for API
 							- Check available models: https://generativelanguage.googleapis.com/v1beta/models?key=${GeminiAPIKey}
 						- [Free plan limit](https://ai.google.dev/gemini-api/docs/rate-limits): changing rapidly!
@@ -235,6 +235,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Genrerative model API: `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent` & Header `X-goog-api-key:`
 						- Cloud Console > [Service Usage > Generative Language API](https://console.cloud.google.com/apis/api/generativelanguage.googleapis.com/metrics?project=gen-lang-client-0007872100)
 							- My usage of [gemini-2.5-flash-lite](https://console.cloud.google.com/apis/api/generativelanguage.googleapis.com/quotas?project=gen-lang-client-0007872100&pageState=(%22allQuotasTable%22:(%22s%22:%5B(%22i%22:%22currentPercent%22,%22s%22:%221%22),(%22i%22:%22displayDimensions%22,%22s%22:%221%22),(%22i%22:%22sevenDayPeakPercent%22,%22s%22:%220%22),(%22i%22:%22currentUsage%22,%22s%22:%221%22),(%22i%22:%22sevenDayPeakUsage%22,%22s%22:%220%22),(%22i%22:%22serviceTitle%22,%22s%22:%220%22),(%22i%22:%22displayName%22,%22s%22:%220%22)%5D,%22f%22:%22%255B%257B_22k_22_3A_22Dimensions%2520%2528e.g.%2520location%2529_22_2C_22t_22_3A10_2C_22v_22_3A_22_5C_22model_3Agemini-2.5-flash-lite_5C_22_22_2C_22s_22_3Atrue_2C_22i_22_3A_22displayDimensions_22%257D%255D%22)))
+					- [Google Agent Platform](https://console.cloud.google.com/agent-platform/) (from Vertex AI)
+						-
 					- [DeepSeek](https://platform.deepseek.com/)
 						- Pros
 							- Very effective [caching on disk](https://api-docs.deepseek.com/news/news0802)
