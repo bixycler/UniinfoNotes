@@ -748,9 +748,9 @@
 		  :LOGBOOK:
 		  CLOCK: [2024-08-12 Mon 08:38:11]
 		  :END:
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667d162c-16cf-44d3-81a5-29b1b885164f)) = “packed source” is the accumulation of continuous ((67fcbdea-2ade-4264-b8c4-c419c6fc2779))s into packages (forms, circles) so that they can be transported to remote places and stored for later uses, hence “circle source”, “source around” and “source again”.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6a3cef73-348b-41a2-9425-a191710c59c0)) = “packed source” is the accumulation of continuous ((67fcbdea-2ade-4264-b8c4-c419c6fc2779))s into packages (forms, circles, ((667d162c-16cf-44d3-81a5-29b1b885164f))s) so that they can be transported to remote places and stored for later uses, hence “circle source”, “source around” and “source again”.
 				- Spatial circle: “transportation” is the circulation of the original source around in space.
-				- Temporal circle: “storage” is the compact circle in space to be transported through time to be “source again” at later time for later uses.
+				- Temporal circle: “storage” is the compact circle in space to be transported through time to be “sourced again” at later time for later uses.
 			- ((66725725-f76a-4328-b162-f469b87e871b)) charge particles (batteries), massive bodies, [thermal batteries](https://en.wikipedia.org/wiki/Thermal_energy_storage)
 			- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) “re-source” = “source again” = “rise again” = “flow up again”
 				- “source” ← Latin “surgere” = “sub” + “regere” = “flow[regere] (up) from below[sub]” = “rise up”
@@ -763,7 +763,7 @@
 					- resource energy = content
 				- equilibrium = balance = optimum = least resource consumption = least action (S min) = max entropy = perfect circle **within a view**, not absolutely!!!
 				- all balance will be broken spontaneously = radioactive decay = all circles will be open = intrinsic dynamic
-				- black hole distortion: inside intrinsic static <> outside intrinsic dynamic <=> Zeno arrow paradox
+				- black hole distortion: inside intrinsic static <> outside intrinsic dynamic ⇔ Zeno arrow paradox
 		- ### circular flow
 		  id:: 67fcbee7-da00-45d8-bb21-deefb95d164e
 		  :LOGBOOK:
