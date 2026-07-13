@@ -210,11 +210,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Free tier: 30 requests/minute, 1k requests/month
 					- [Gemini Developer API](https://ai.google.dev/gemini-api/) ([API reference](https://ai.google.dev/api/))
 						- [Google AI Studio](https://aistudio.google.com/)
+						  collapsed:: true
 							- [API keys](https://aistudio.google.com/api-keys)
 							- [API usage](https://aistudio.google.com/usage)
-							- Linked to **Google One AI** with [Developer Program](https://developers.google.com/program)
-								- For \$20/month of Google (One) AI Pro, get *\$10 monthly Gen AI & Cloud credits* for API
+							- ~~Linked to **Google One AI**~~ with [Developer Program > Benefits](https://me.developers.google.com/benefits)
+							  (Moved to ((6a54c798-becc-4879-80f9-bb35731f4e44)) from April 2026)
+								- For \$20/month of Google (One) AI Pro, get *\$10 monthly Gen AI & Cloud credits* for API.
 							- Check available models: https://generativelanguage.googleapis.com/v1beta/models?key=${GeminiAPIKey}
+							  id:: 69f20a6a-a25b-4028-9577-6eed42feac09
 						- [Free plan limit](https://ai.google.dev/gemini-api/docs/rate-limits): changing rapidly!
 						  collapsed:: true
 							- Jan 2026: restricted to nearly unusable! ⇒ I'm forced to switch to paid tier for ((697b4547-9b65-4a96-b3d1-55245377c796)) 
@@ -236,7 +239,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Cloud Console > [Service Usage > Generative Language API](https://console.cloud.google.com/apis/api/generativelanguage.googleapis.com/metrics?project=gen-lang-client-0007872100)
 							- My usage of [gemini-2.5-flash-lite](https://console.cloud.google.com/apis/api/generativelanguage.googleapis.com/quotas?project=gen-lang-client-0007872100&pageState=(%22allQuotasTable%22:(%22s%22:%5B(%22i%22:%22currentPercent%22,%22s%22:%221%22),(%22i%22:%22displayDimensions%22,%22s%22:%221%22),(%22i%22:%22sevenDayPeakPercent%22,%22s%22:%220%22),(%22i%22:%22currentUsage%22,%22s%22:%221%22),(%22i%22:%22sevenDayPeakUsage%22,%22s%22:%220%22),(%22i%22:%22serviceTitle%22,%22s%22:%220%22),(%22i%22:%22displayName%22,%22s%22:%220%22)%5D,%22f%22:%22%255B%257B_22k_22_3A_22Dimensions%2520%2528e.g.%2520location%2529_22_2C_22t_22_3A10_2C_22v_22_3A_22_5C_22model_3Agemini-2.5-flash-lite_5C_22_22_2C_22s_22_3Atrue_2C_22i_22_3A_22displayDimensions_22%257D%255D%22)))
 					- [Google Agent Platform](https://console.cloud.google.com/agent-platform/) (from Vertex AI)
-						- [Billing > Credits](https://console.cloud.google.com/billing/019C81-F0447B-EEDE51/credits/all) to check for `Google Developer Program premium benefit`
+					  id:: 6a54c798-becc-4879-80f9-bb35731f4e44
+						- Linked to **Google One AI** with [Developer Program > Benefits](https://me.developers.google.com/benefits)
+							- For \$20/month of Google (One) AI Pro, get *\$10 monthly Gen AI & Cloud credits* for API.
+							- [Billing > Credits](https://console.cloud.google.com/billing/019C81-F0447B-EEDE51/credits/all) to check for `Google Developer Program premium benefit`
+						- Check available models: https://generativelanguage.googleapis.com/v1beta/models?key=${GeminiAPIKey}
+						- Cloud Console > [Service Usage > Generative Language API](https://console.cloud.google.com/apis/api/generativelanguage.googleapis.com/metrics?project=)
+							- My usage of [gemini-2.5-flash-lite](https://console.cloud.google.com/apis/api/generativelanguage.googleapis.com/quotas?project=gen-lang-client-0007872100&pageState=(%22allQuotasTable%22:(%22s%22:%5B(%22i%22:%22currentPercent%22,%22s%22:%221%22),(%22i%22:%22displayDimensions%22,%22s%22:%221%22),(%22i%22:%22sevenDayPeakPercent%22,%22s%22:%220%22),(%22i%22:%22currentUsage%22,%22s%22:%221%22),(%22i%22:%22sevenDayPeakUsage%22,%22s%22:%220%22),(%22i%22:%22serviceTitle%22,%22s%22:%220%22),(%22i%22:%22displayName%22,%22s%22:%220%22)%5D,%22f%22:%22%255B%257B_22k_22_3A_22Dimensions%2520%2528e.g.%2520location%2529_22_2C_22t_22_3A10_2C_22v_22_3A_22_5C_22model_3Agemini-2.5-flash-lite_5C_22_22_2C_22s_22_3Atrue_2C_22i_22_3A_22displayDimensions_22%257D%255D%22)))
 					- [DeepSeek](https://platform.deepseek.com/)
 						- Pros
 							- Very effective [caching on disk](https://api-docs.deepseek.com/news/news0802)
