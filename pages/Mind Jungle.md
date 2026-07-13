@@ -424,6 +424,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Features
 				  id:: 69c12af1-8e11-41d5-8945-f0966f20d1fe
 					- **Integration with Google Apps**: Gmail & Drive, Maps, YouTube, Calendar & Tasks
+					- **Integrated** ((67a5faeb-c506-42b8-b989-9a7179fe02b3))
 					- **Deep Research**: Automatically sifts through websites to create research reports.
 					- **Canvas**: Interactive workspace for ~~real-time collaboration~~ on writing and coding projects.
 						- March 2026, collaboration is not available due to ![an open bug]([[Gemini-canvas-collaboration-bugs]]).
