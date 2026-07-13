@@ -743,11 +743,12 @@
 			  :END:
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67fe1736-f1b6-4289-8b89-43e5387d4f3e)) is a dense ((67fdda4a-dfc1-42d7-846a-ba64252e11c1)) where a large amount (or all) of the flow passes through. In ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)), ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) is the portal of ((667bef22-b272-4a7d-b613-3f1ed1a47329)).
 		- ### resource
+		  id:: 6a3cef73-348b-41a2-9425-a191710c59c0
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2024-08-12 Mon 08:38:11]
 		  :END:
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669f3107-a33a-4b26-a636-6da62fa5520e)) = “packed source” is the accumulation of continuous ((67fcbdea-2ade-4264-b8c4-c419c6fc2779))s into packages (forms, circles) so that they can be transported to remote places and stored for later uses, hence “circle source”, “source around” and “source again”.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667d162c-16cf-44d3-81a5-29b1b885164f)) = “packed source” is the accumulation of continuous ((67fcbdea-2ade-4264-b8c4-c419c6fc2779))s into packages (forms, circles) so that they can be transported to remote places and stored for later uses, hence “circle source”, “source around” and “source again”.
 				- Spatial circle: “transportation” is the circulation of the original source around in space.
 				- Temporal circle: “storage” is the compact circle in space to be transported through time to be “source again” at later time for later uses.
 			- ((66725725-f76a-4328-b162-f469b87e871b)) charge particles (batteries), massive bodies, [thermal batteries](https://en.wikipedia.org/wiki/Thermal_energy_storage)

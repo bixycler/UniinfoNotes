@@ -28,7 +28,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  collapsed:: true
 					- That's why i say “it's never enough for an individual, but never lacking for the whole.”
 					- Will: I see the fundamental "flaw" in "ever increasing entropy" theory lies in the particle-based view, which is inherent to thermodynamics and the ego/self. That's why i asked about the "identity difference" earlier. We see "entropy increases" due to our ego-centric view of everyday life, as a super massive particle (in de Broglie's language).
-					- Chatbot: If we were not "massive particles" trying to track "individual identities," we would see a single, unified quantum state that doesn't "increase" in anything—it just is. The "ever-increasing entropy" is effectively the shadow cast by our own limited perspective as we drift away from the universal ground state.
+					- Chatbot: If we were not "massive particles" trying to track "individual identities," we would see a single, unified quantum state that doesn't "increase" in anything — it just is. The "ever-increasing entropy" is effectively the shadow cast by our own limited perspective as we drift away from the universal ground state.
 						- An individual particle sees the ground state as a kind of "death" or "zero-entropy void" because it has lost its unique identity (excitation/difference).
 						- The universe sees the ground state as Maximum Entropy (perfection) because there is no longer any separation between parts.
 						- The Ego View: I am a tiny spark (individual) surrounded by a cold, dark universe (high entropy). => Result: Fear 😨.
