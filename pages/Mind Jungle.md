@@ -212,7 +212,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- [Google AI Studio](https://aistudio.google.com/)
 							- [API keys](https://aistudio.google.com/api-keys)
 							- [API usage](https://aistudio.google.com/usage)
-							- Link to Google One AI with [Developer Program](https://developers.google.com/program)
+							- Linked to Google One AI with [Developer Program](https://developers.google.com/program)
 								- For \$20/month of Google (One) AI Pro, get *\$10 monthly Gen AI & Cloud credits* for API
 							- Check available models: https://generativelanguage.googleapis.com/v1beta/models?key=${GeminiAPIKey}
 						- [Free plan limit](https://ai.google.dev/gemini-api/docs/rate-limits): changing rapidly!
@@ -426,12 +426,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- **Integration with Google Apps**: Gmail & Drive, Maps, YouTube, Calendar & Tasks
 					- **Integrated** ((67a5faeb-c506-42b8-b989-9a7179fe02b3))
 					- **Deep Research**: Automatically sifts through websites to create research reports.
-					- **Canvas**: Interactive workspace for ~~real-time collaboration~~ on writing and coding projects.
+					- **Canvas**: Interactive workspace for real-time collaboration on writing and coding projects.
 						- March 2026, collaboration is not available due to ![an open bug]([[Gemini-canvas-collaboration-bugs]]).
 						  :LOGBOOK:
 						  CLOCK: [2026-03-23 Mon 19:08:15]
 						  CLOCK: [2026-03-23 Mon 19:08:29]--[2026-03-23 Mon 19:16:17] =>  00:07:48
 						  :END:
+						- May 2026, the collaboration works now, but sometimes still out of sync.
 					- **Personal Intelligence**: Offers personalized recommendations based on user history.
 					  id:: 69c12c15-d611-4469-8454-75c501b5d706
 					- **Gems**: Isolated persona with custom “system instructions” and “knowledge files”.
