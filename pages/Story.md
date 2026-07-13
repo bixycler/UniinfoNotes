@@ -2448,6 +2448,19 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- ⇒ The root resolution is not to engineer superficial friction to block the stimuli, but to train my machine to accept the naked truth: the [imperfection](((699e56cd-b1d4-41fb-8e30-ec393a5db8e9))) & [porosity](((6926be23-4a65-4138-8864-3e293fd37119))) of the world.
 			- 10th, ...
 				-
+			- 11-12th, weekend, ...
+				- [Chat with Gemini](https://share.gemini.google/hx9lQbjX6aWh) about the hidden agreement between Christ's “not seen yet believe” and Buddha's come to see yourself (Ehipassiko).
+					- Published a post: [Khi Chúa Giê-su và Phật Thích Ca “Gặp Nhau” Ở Tận Cùng Thực Tại](https://creatzynotes.blogspot.com/2026/07/khi-gie-su-va-phat-thich-ca-gap-nhau-o.html)
+				- [AlphaEvolve](https://docs.cloud.google.com/gemini/enterprise/docs/alphaevolve/developer-guide/overview) to optimize codebase, provided a deterministic client-side evaluation script for performance criteria, [now available to everyone on Google Cloud](https://cloud.google.com/blog/products/ai-machine-learning/alphaevolve-is-available-for-everyone).
+				- [Comparing thermodynamics to marbles and their shadows](https://carbonchemist.com/mathematics-of-thermodynamics-is-being-rewritten-after-200-years/), separating the internal heat from the observable work, putting heat up to the bundle space of gauge theory, we can eventually show that entropy is conserved instead of ever increasing.
+					- => A [heated chat with Gemini](https://gemini.google.com/app/94f26f6565b3da93) about entropy & life
+				- Descartes' full statement should be [“I doubt, therefore I think, therefore I am.”](https://www.psychologytoday.com/us/blog/the-digital-self/202607/before-i-think-therefore-i-am)
+					- The universal root is the liar paradox “i doubt myself”, whereas ”I think“ is just a trunk in infinitely many trunks:  ”I believe“, ”I feel“,  ”I predict“, etc.
+						- Every single one of these trunks – whether it is believing, predicting, feeling, or acting – eventually decays or hits a limit.
+						- When a belief fails, when a prediction is wildly wrong, or when an action hits a wall, the system collapses back down into the paradoxical root:  “i doubt myself”. The loop resets, the generator fires up, and a new trunk grows.
+					- That universal root is Vacancy in Uniinfo, Shunyata in Buddhism, dialectical cycle of Hegel, Socratic ignorance, Dirac Sea with quantum vacuum fluctuations, the Ungrund (groundless) of Jacob Boehme, etc.
+						- A system incapable of self-doubt is a one-way engine, like classical logic. It can grow, and it can optimize, but it cannot evolve.
+					- The cell of uninet is autonoton (self-knowledge). While differentiated/specialized cells do know something positively (trunks), the stem cell knows nothing but its ignorance, just like Socrates, hence self-doubt.
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a46244d-2376-4549-b716-19538d7042fd))
