@@ -2446,9 +2446,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- For years, i applied this exact hunter's instinct to debugging, operating under the idealist's illusion that a codebase is a finite, ordered universe where every “impossible” bug has a deterministic bottom. But reality in production environment shattered that mindset.
 						- Systems are not static proofs; they are open, entropic ecosystems. The bugs are themselves an infinite feed. Closing one simply allows others to emerge from the noise.
 					- ⇒ The root resolution is not to engineer superficial friction to block the stimuli, but to train my machine to accept the naked truth: the [imperfection](((699e56cd-b1d4-41fb-8e30-ec393a5db8e9))) & [porosity](((6926be23-4a65-4138-8864-3e293fd37119))) of the world.
-			- 10th, ...
-				-
-			- 11-12th, weekend, ...
+			- 10th, professional work
+			- 11-12th, weekend: entropy, life, self-doubt and believe the unseen
 				- [Chat with Gemini](https://share.gemini.google/hx9lQbjX6aWh) about the hidden agreement between Christ's “not seen yet believe” and Buddha's come to see yourself (Ehipassiko).
 					- Published a post: [Khi Chúa Giê-su và Phật Thích Ca “Gặp Nhau” Ở Tận Cùng Thực Tại](https://creatzynotes.blogspot.com/2026/07/khi-gie-su-va-phat-thich-ca-gap-nhau-o.html)
 				- [AlphaEvolve](https://docs.cloud.google.com/gemini/enterprise/docs/alphaevolve/developer-guide/overview) to optimize codebase, provided a deterministic client-side evaluation script for performance criteria, [now available to everyone on Google Cloud](https://cloud.google.com/blog/products/ai-machine-learning/alphaevolve-is-available-for-everyone).

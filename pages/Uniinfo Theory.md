@@ -1432,6 +1432,7 @@
 							- E.g.: An abstract representation of a [tangent bundle](https://en.wikipedia.org/wiki/Tangent_bundle) shows the tangent fiber $F_x$ perpendicular to $B$. However, this fiber $F_x$ is _not the tangent vector_ itself, but represents the whole tangent space (the straight space/plane tangent to $B$ at $x$) containing all tangent vectors, where each vector is represented as a point in $F_x$.
 						- This artificial erection & abstraction and its inherent confusion are avoided in the immanent view of the Omnifold.
 					- The Dead Sheaf View: If we move from the bundle to the [sheaf of sections](https://en.wikipedia.org/wiki/Section_(fiber_bundle)#Local_and_global_sections), we look at the local assignment of data _over_ open sets of the manifold. The bundle view can be recovered through the [étalé space](https://en.wikipedia.org/wiki/Sheaf_(mathematics)#The_%C3%A9tal%C3%A9_space_of_a_sheaf) of the sheaf.
+					  id:: 6a472f3f-317e-4bf6-b216-bf08121b1e1f
 						- Even here, the classical sheaf theory assumes a rigid, pre-existing spatial substrate – a [point-set topological space](https://en.wikipedia.org/wiki/General_topology) like a manifold – upon which it builds the whole sheaf above which is frozen dead.
 				- “In a manifold” – Manifold as an Enclosure – the Wall
 					- In some rare cases, we can say something is “in a manifold” to mean it stays in the interior space enclosed by the manifold (provided it is closed), i.e., not on the manifold itself but in the higher dimensions of the ambient space where the manifold is embedded.
