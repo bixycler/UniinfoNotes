@@ -250,7 +250,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									- Permission: `Vertex AI User`
 								- [JSON Keys](https://console.cloud.google.com/iam-admin/serviceaccounts/details/110834434229891063644/keys?project=vertex-ai-agent-499213): `3aeeae4b313feba30791be7aa6dd5096b9911ffa` downloaded as `vertex-ai-agent-499213-3aeeae4b313f.json` (if lost, it won't be retrieved, must re-create a new key)
 							- Opencode: ((6a55b373-9225-49a9-ac23-95a9cc0478e0))
-						- Region: At use, a specific region of server must be specified, default is `us-central1`.
+						- Region: Upon use, a specific server region must be specified (default: `us-central1`).
 							- A `global` alias can be used but will not be shown in [Model Monitoring](https://console.cloud.google.com/agent-platform/model-monitoring/model-monitors). The Global region does show up in the Overview dashboard, though!
 						- Check available models: https://generativelanguage.googleapis.com/v1beta/models?key=${GeminiAPIKey}
 						- Cloud Console > [Service Usage > Generative Language API](https://console.cloud.google.com/apis/api/generativelanguage.googleapis.com/metrics?project=vertex-ai-agent-499213)
