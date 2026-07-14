@@ -701,6 +701,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- For Vertex AI via Cloudflare: encode all options into the `baseURL`
 							- Vertex AI uses its own `@ai-sdk/google-vertex` with special settings, incompatible with `cloudflare-ai-gateway`'s `@ai-sdk/openai-compatible`.
 							- So, we must create a new provider `cloudflare-vertex-ai`.
+								- Note: While both `cloudflare-vertex-ai` & `cloudflare-ai-gateway` don't support reasoning, DeepSeek models can think with no problem
 							- All options are encoded directly in the `baseURL`:
 								- Cloudflare: `CF_ACCOUNT_ID`, `CF_GATEWAY_ID` (usually in `auth.json`:`metadata`)
 								- Google Cloud: `GOOGLE_CLOUD_PROJECT`, `VERTEX_LOCATION` (region) (usually in `opencode.json`:`options`)
