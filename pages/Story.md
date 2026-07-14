@@ -1916,6 +1916,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  id:: 6a1986e3-49d4-4628-8053-94d88716a0e8
 			  collapsed:: true
 				- [OpenCode error with DeepSeek on OpenRouter](https://github.com/anomalyco/opencode/issues/29618): workaround by adding `interleaved.field:reasoning_content` to `opencode.json`.
+				  id:: 6a18f533-8363-41ee-ad39-367c8fdeb543
 					- The ![discrepancy of DeepSeek V4](../assets/AI/agents/OpenCode/DeepSeek-turn-thinking.md)'s `reasoning_content` & `drop_thinking` between the official statement that “retains the complete reasoning history across all rounds, including across user turns” and the reality of complete wipeout after each user turn (each round).
 				- [MiniMax teases upcoming M3 model with new sparse attention mechanism and 15.6X long-context response speed boost](https://venturebeat.com/technology/minimax-teases-upcoming-m3-model-with-new-sparse-attention-mechanism-and-15-6x-response-speed-boost)
 				  collapsed:: true
@@ -2668,7 +2669,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Story:
 					- In Feburary, i subscribed to Google One Pro for a share between Antigravity and (a half to) ((699c0360-af75-41a2-a58a-f7875f453ff9)) via Google Developer Program premium benefit.
 					- But from April, the benefit was moved to Google Cloud / ((6a54c798-becc-4879-80f9-bb35731f4e44)), which is much more complicated than the AI Studio.
-					-
+					- In May, [HTV started to block all AI sites](((6a151374-b325-4339-9152-2e2b7a6304e0))), forcing me to work around... first [with OpenRouter](((6a18f533-8363-41ee-ad39-367c8fdeb543))).
+					- This week, OpenRouter is also blocked, so i switch to Cloudflare AI Gateway.
 					- Until now, can i migrate to Vertex AI after passing many hurdles.
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
