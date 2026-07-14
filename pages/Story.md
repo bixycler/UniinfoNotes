@@ -2065,83 +2065,87 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  id:: 6a267949-3e24-4422-a67d-851383fdeec8
 				  collapsed:: true
 				  Дедушка Мазай и зайцы (Dedushka Mazay i zaytsy)
-					- Old Mazay chattered in the hut:
-					  In our swampy low-land place
-					  we would have five times more game
-					  If people would not catch them with nets
-					  and kill them in traps.
-					  And hares, I feel sorry for them to tears
-					  when the spring waters come – 
-					  Hundreds of them die.
-					  That is not enough! men run
-					  Catch them, drown them, and beat them with sticks.
-					  Where is their conscience?
-					- Once I went for fire wood.
-					  I took a boat – there are many of those
-					  floating around here during the spring.
-					  I catch hares as I go, the waters are rising.
-					  I see a small island – 
-					  With hares gathered together on it.
-					  With every minute the water was getting
-					  closer to the poor animals, there was only
-					  Less than an arshin of land wide
-					  and a sazhen long under them.
-					- Here I come: they are shaking their ears,
-					  But they were not moving. I took one
-					  And commanded to the others: Jump yourself!
-					  My hares jumped, no problem!
-					  As soon as they got into the boat
-					  The entire island was covered with water.
-					  I said: “Don't even argue with me.
-					  Listen, you hares, to grandpa Mazay.” 
-					  So, jumping around, we are moving in science.
-					  Just like a pole, a hare on a stump
-					  Stands crossing his legs, poor thing.
-					  I took him also – not much weight!
-					  Just as I started working with the paddle
-					  I saw a doe-hare in the bushes,
-					  Barely alive but fat like a merchants wife.
-					  I covered her with my jacket.
-					  She was shaking already... it was not early.
-					  A log floated near the boat.
-					  Standing and laying down
-					  There were a dozen hares on it.
-					  “I'd take you all, but you will sink my boat.” 
-					  Still I felt sorry for them,
-					  so I grabbed the log by the knot
-					  And towed it behind the boat.
-					- It was a lot of fun for women and children
-					  when Mazay went through the village with his boat full of hares
-					  “Look at what old Mazay is doing.“ 
-					  Ok, you can look but don't bother us.
-					  We appeared behind a village in a river.
-					  There my hares went insane.
-					  They were looking, getting up on two legs
-					  Shaking the boat, and were not letting me paddle.
-					  They saw the shore, the rascals – 
-					  Bare land, forest and bushes.
-					  I moved the log close to the land
-					  Parked the boat and said “Go with God“
-					- And the hares
-					  started running away
-					  I said to them “Ahh
-					  Faster, living things
-					  Lookout, save yourself
-					  And stay out of my sight in winter.
-					  I'll point my rifle at you and BOOM
-					  You will be down“ 
-					  My entire team ran away
-					  All but a pair of them.
-					  They were wet and weak: I put them
-					  In a bag and took them home
-					  They warmed up overnight – 
-					  Dried themselves, slept and ate.
-					  I took them out on a glen
-					  Let them out of the bag.
-					  “Don't get near me in the winter.“ 
-					  I don't hunt them in spring or summer
-					  Then their fur is bad 'cause it fades.
-					- — [Nikolay Nekrasov, 1870](https://www.alkotagifts.com/fairytales/grandfather-mazay-and-hares-0)
+					- Translation at [Alkota  Russian Treasures site](https://www.alkotagifts.com/fairytales/grandfather-mazay-and-hares-0)
+					  collapsed:: true
+						- Old Mazay chattered in the hut:
+						  In our swampy low-land place
+						  we would have five times more game
+						  If people would not catch them with nets
+						  and kill them in traps.
+						  And hares, I feel sorry for them to tears
+						  when the spring waters come – 
+						  Hundreds of them die.
+						  That is not enough! men run
+						  Catch them, drown them, and beat them with sticks.
+						  Where is their conscience?
+						- Once I went for fire wood.
+						  I took a boat – there are many of those
+						  floating around here during the spring.
+						  I catch hares as I go, the waters are rising.
+						  I see a small island – 
+						  With hares gathered together on it.
+						  With every minute the water was getting
+						  closer to the poor animals, there was only
+						  Less than an arshin of land wide
+						  and a sazhen long under them.
+						- Here I come: they are shaking their ears,
+						  But they were not moving. I took one
+						  And commanded to the others: Jump yourself!
+						  My hares jumped, no problem!
+						  As soon as they got into the boat
+						  The entire island was covered with water.
+						  I said: “Don't even argue with me.
+						  Listen, you hares, to grandpa Mazay.” 
+						  So, jumping around, we are moving in science.
+						  Just like a pole, a hare on a stump
+						  Stands crossing his legs, poor thing.
+						  I took him also – not much weight!
+						  Just as I started working with the paddle
+						  I saw a doe-hare in the bushes,
+						  Barely alive but fat like a merchants wife.
+						  I covered her with my jacket.
+						  She was shaking already... it was not early.
+						  A log floated near the boat.
+						  Standing and laying down
+						  There were a dozen hares on it.
+						  “I'd take you all, but you will sink my boat.” 
+						  Still I felt sorry for them,
+						  so I grabbed the log by the knot
+						  And towed it behind the boat.
+						- It was a lot of fun for women and children
+						  when Mazay went through the village with his boat full of hares
+						  “Look at what old Mazay is doing.“ 
+						  Ok, you can look but don't bother us.
+						  We appeared behind a village in a river.
+						  There my hares went insane.
+						  They were looking, getting up on two legs
+						  Shaking the boat, and were not letting me paddle.
+						  They saw the shore, the rascals – 
+						  Bare land, forest and bushes.
+						  I moved the log close to the land
+						  Parked the boat and said “Go with God“
+						- And the hares
+						  started running away
+						  I said to them “Ahh
+						  Faster, living things
+						  Lookout, save yourself
+						  And stay out of my sight in winter.
+						  I'll point my rifle at you and BOOM
+						  You will be down“ 
+						  My entire team ran away
+						  All but a pair of them.
+						  They were wet and weak: I put them
+						  In a bag and took them home
+						  They warmed up overnight – 
+						  Dried themselves, slept and ate.
+						  I took them out on a glen
+						  Let them out of the bag.
+						  “Don't get near me in the winter.“ 
+						  I don't hunt them in spring or summer
+						  Then their fur is bad 'cause it fades.
+						- — Nikolay Nekrasov, 1870
+					- Translation at [«Skazki Dereva» («Tree tales») site](https://skazkidereva.ru/en/tales/grandfather-mazai-and-the-hares/)
+						- a
 					- ![Kustodiev069-Ded-Mazay-i-zaycy.jpg](../assets/Will/story/2026-06/Kustodiev069-Ded-Mazay-i-zaycy.jpg)
 				- Clarify to my wife about my wish to be imprisoned
 				  id:: 6a27bbea-7759-40a9-a3c7-3a59e759e6fb
