@@ -245,7 +245,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- [Billing > Credits](https://console.cloud.google.com/billing/019C81-F0447B-EEDE51/credits/all) to check for `Google Developer Program premium benefit`
 						- Setup
 							- Project [Vertex AI Agent](https://console.cloud.google.com/welcome?project=vertex-ai-agent-499213)
-							- [Service Account](https://console.cloud.google.com/iam-admin/serviceaccounts?project=vertex-ai-agent-499213) for the project
+							- [IAM & Admin > Service Account](https://console.cloud.google.com/iam-admin/serviceaccounts?project=vertex-ai-agent-499213) for the project
 								- Account [vertex-ai-agent@vertex-ai-agent-499213.iam.gserviceaccount.com](https://console.cloud.google.com/iam-admin/serviceaccounts/details/110834434229891063644?project=vertex-ai-agent-499213)
 									- Permission: `Vertex AI User`
 								- [JSON Keys](https://console.cloud.google.com/iam-admin/serviceaccounts/details/110834434229891063644/keys?project=vertex-ai-agent-499213): `3aeeae4b313feba30791be7aa6dd5096b9911ffa` downloaded as `vertex-ai-agent-499213-3aeeae4b313f.json` (if lost, it won't be retrieved, must re-create a new key)
@@ -673,6 +673,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- The all instructions for task breakdown and management are hidden in the description of the `todowrite` tool.
 						- Not a single mention of `todowrite` tool in the system instructions.
 						- ⇒ Add instruction of using `todowrite` tool to `AGENTS.md`.
+				- Settings
+					- `${HOME}/.local/share/opencode/`
+					- `${HOME}/.config/opencode/`
 				- Free models provided by OpenCode Zen with limited time
 				  collapsed:: true
 					- DeepSeek V4 Flash Free
