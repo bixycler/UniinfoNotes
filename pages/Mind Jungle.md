@@ -252,7 +252,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- Opencode: ((6a55b373-9225-49a9-ac23-95a9cc0478e0))
 						- Region: Upon use, a specific server region must be specified. Check “supported regions” in [Cloud Models](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/google-models).
 							- The default `us-central1` region does not include many models, e.g. Gemini 3.5 Flash, Gemini 3.1 Flash-Lite, Gemini 3.1 Pro.
-							- A `global` gegion does show up in the Overview dashboard, but not in [Model Monitoring](https://console.cloud.google.com/agent-platform/model-monitoring/model-monitors).
+							- The `global` gegion does show up in the Agent Overview dashboard and in [Cloud Logging > Dashboards](https://console.cloud.google.com/monitoring/dashboards/integration/vertex_ai.vertex-ai-model-garden), but not in [Model Monitoring](https://console.cloud.google.com/agent-platform/model-monitoring/model-monitors).
 					- [DeepSeek](https://platform.deepseek.com/)
 						- Pros
 							- Very effective [caching on disk](https://api-docs.deepseek.com/news/news0802)
