@@ -208,7 +208,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- [Hugging Face](https://huggingface.co/)
 						- Server of open-source models.
 						- Free tier: 30 requests/minute, 1k requests/month
-					- [Gemini Developer API](https://ai.google.dev/gemini-api/) ([API reference](https://ai.google.dev/api/))
+					- [Gemini Developer API](https://ai.google.dev/gemini-api/) (AI Studio)
+					  id:: 699c0360-af75-41a2-a58a-f7875f453ff9
+						- [API reference](https://ai.google.dev/api/)
 						- [Google AI Studio](https://aistudio.google.com/)
 						  collapsed:: true
 							- [API keys](https://aistudio.google.com/api-keys)
