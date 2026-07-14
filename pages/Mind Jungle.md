@@ -684,8 +684,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- For JSON key of Google Vertex AI
 					  id:: 6a55b373-9225-49a9-ac23-95a9cc0478e0
 					  collapsed:: true
-						- [!] Cannot use the UI “Connect provider”, because `Vertex` provider there only support API key, not JSON key file.
-						- ⇒ Manually add `google-vertex` to `opencode.json`.
+						- [!] Cannot use the UI “Connect provider”, because `Vertex` provider there only supports API key, not JSON key file.
+						- ⇒ Manually add `google-vertex` with `googleAuthOptions`:`keyFilename` to `opencode.json`.
 							- `opencode.json`
 							  ```json
 							  "google-vertex": {
@@ -698,13 +698,35 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							    }
 							  }
 							  ```
-						- For Vertex AI via Cloudflare: encoding all options into the baseURL
+						- For Vertex AI via Cloudflare: encode all options into the `baseURL`
 							- Vertex AI uses its own `@ai-sdk/google-vertex` with special settings, incompatible with `cloudflare-ai-gateway`'s `@ai-sdk/openai-compatible`.
 							- So, we must create a new provider `cloudflare-vertex-ai`.
 							- All options are encoded directly in the `baseURL`:
-								- Cloudflare: `CF_ACCOUNT_ID`, `CF_GATEWAY_ID` (Usually in `auth.json`:`metadata`)
-								- Google Cloud: project, location (region) (Usually in `opencode.json`:`options`)
-							- Complete URL: ``
+								- Cloudflare: `CF_ACCOUNT_ID`, `CF_GATEWAY_ID` (usually in `auth.json`:`metadata`)
+								- Google Cloud: `GOOGLE_CLOUD_PROJECT`, `VERTEX_LOCATION` (region) (usually in `opencode.json`:`options`)
+							- Complete URL: `https://gateway.ai.cloudflare.com/v1/$CF_ACCOUNT_ID/$CF_GATEWAY_ID/google-vertex-ai/v1/projects/$GOOGLE_CLOUD_PROJECT/locations/$VERTEX_LOCATION/publishers/google/models/gemini-3.1-flash-lite:generateContent`
+							- `opencode.json`
+							  ```json
+							  "cloudflare-vertex-ai": {
+							    "name": "Cloudflare Vertex AI",
+							    "npm": "@ai-sdk/google-vertex",
+							    "options": {
+							      "baseURL": "https://gateway.ai.cloudflare.com/v1/0aeb7365d576088492b5b2760cc47b12/ai-gateway/google-vertex-ai/v1/projects/vertex-ai-agent-499213/locations/global/publishers/google"
+							    },
+							    "models": {
+							      "gemini-3.1-flash-lite": {
+							        "name": "Gemini 3.1 Flash-Lite (BYOK)"
+							      },...
+							    }
+							  }
+							  ```
+							- `auth.json`
+							  ```json
+							    "cloudflare-vertex-ai": {
+							      "type": "api",
+							      "key": "cfut_..."
+							    }
+							  ```
 				- Free models provided by OpenCode Zen with limited time
 				  collapsed:: true
 					- DeepSeek V4 Flash Free
