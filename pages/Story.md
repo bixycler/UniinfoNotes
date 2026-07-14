@@ -2145,7 +2145,84 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  Then their fur is bad 'cause it fades.
 						- — Nikolay Nekrasov, 1870
 					- Translation at [«Skazki Dereva» («Tree tales») site](https://skazkidereva.ru/en/tales/grandfather-mazai-and-the-hares/)
-						- a
+					  collapsed:: true
+						- Old Mazai was loose in the barn:
+						  In our swampy, low-lying land
+						  Five times more game would be fought,
+						  If they didn't catch her with nets,
+						  If only they hadn't crushed her with a snare;
+						  Hares, too – sorry for them to tears!
+						  Only spring waters will rush
+						  And without that they are hundreds of ginut, –
+						  No! still a little! men are running
+						  They catch, and drown, and beat them with hooks.
+						  Where is their conscience? .. I’m just for the wood
+						  I went in a boat – there are many of them from the river
+						  It catches up to us in spring floods, –
+						  I go, I catch them. The water is coming.
+						  I see one small island –
+						  Hares gathered on it in a crowd.
+						  With every minute the water was getting closer
+						  To the poor animals; already under them
+						  Less than an yard in width,
+						  Less fathoms in length.
+						  Then I drove up: they were buzzing with their ears,
+						  Themselves from a place; I took one,
+						  He commanded the others: jump yourself!
+						  My hares jumped – nothing!
+						  Only the team sat down,
+						  The whole island disappeared under water.
+						  “That's it! – I said, – don't argue with me!
+						  Obey, bunnies, grandfather Mazai! "
+						  That way, we sail in silence.
+						  A column is not a column, a hare on a stump,
+						  Legs crossed, stands, poor wretch,
+						  I took it too – the burden is not great!
+						  I just started to paddle
+						  Look, a hare is swarming by the bush –
+						  Barely alive, but as fat as a merchant's wife!
+						  I covered her, fool, with a zipun –
+						  I was trembling violently ... It was not too early.
+						  A gnarled log swam past,
+						  Zaitsev escaped with a dozen of them.
+						  "I would have taken you – but sink the boat!"
+						  It is a pity for them, however, but a pity for the find –
+						  I got hooked on a twig
+						  And dragged the log behind him ...
+						- It was fun for women, children,
+						  How I gave a ride to the village of hares:
+						  "Look at what old Mazai is doing!"
+						  Okay! admire, but don't bother us!
+						  We found ourselves in the river beyond the village.
+						  Here my bunnies have gone crazy:
+						  They look, stand on their hind legs,
+						  The boat is shaken, they are not allowed to row:
+						  The coast was seen by the slanting rogues,
+						  Winter, and a grove, and thick bushes! ..
+						  I drove a log tightly to the shore,
+						  The boat moored – and "God bless you!" said ...
+						- And in full spirit
+						  Let's go bunnies.
+						  And I told them: "Wow!"
+						  Live, animals!
+						  Look, oblique,
+						  Now save yourself
+						  And mind you in winter
+						  Don't get caught!
+						  I'll take aim – boo!
+						  And you will lie down ... Oooh! ..
+						  In an instant my team scattered,
+						  Only two couples left on the boat –
+						  Strongly wet, weak; in the bag
+						  I paid them – and brought them home,
+						  During the night my sick warmed up,
+						  Dried up, slept well, ate well;
+						  I took them out to the meadow; out of the bag
+						  Shook it out, hooted – and gave a stretch!
+						  I followed them with the same advice:
+						  "Don't get caught in winter!"
+						  I don't hit them either in spring or summer,
+						  The skin is bad, – it sheds sideways ...
 					- ![Kustodiev069-Ded-Mazay-i-zaycy.jpg](../assets/Will/story/2026-06/Kustodiev069-Ded-Mazay-i-zaycy.jpg)
 				- Clarify to my wife about my wish to be imprisoned
 				  id:: 6a27bbea-7759-40a9-a3c7-3a59e759e6fb
