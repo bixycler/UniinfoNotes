@@ -249,6 +249,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- Account [vertex-ai-agent@vertex-ai-agent-499213.iam.gserviceaccount.com](https://console.cloud.google.com/iam-admin/serviceaccounts/details/110834434229891063644?project=vertex-ai-agent-499213)
 									- Permission: `Vertex AI User`
 								- [JSON Keys](https://console.cloud.google.com/iam-admin/serviceaccounts/details/110834434229891063644/keys?project=vertex-ai-agent-499213): `3aeeae4b313feba30791be7aa6dd5096b9911ffa` downloaded as `vertex-ai-agent-499213-3aeeae4b313f.json` (if lost, it won't be retrieved, must re-create a new key)
+							- Opencode: ((6a55b373-9225-49a9-ac23-95a9cc0478e0))
 						- Check available models: https://generativelanguage.googleapis.com/v1beta/models?key=${GeminiAPIKey}
 						- Cloud Console > [Service Usage > Generative Language API](https://console.cloud.google.com/apis/api/generativelanguage.googleapis.com/metrics?project=vertex-ai-agent-499213)
 							- My usage of [gemini-2.5-flash-lite](https://console.cloud.google.com/apis/api/generativelanguage.googleapis.com/quotas?project=vertex-ai-agent-499213&pageState=(%22allQuotasTable%22:(%22s%22:%5B(%22i%22:%22currentPercent%22,%22s%22:%221%22),(%22i%22:%22displayDimensions%22,%22s%22:%221%22),(%22i%22:%22sevenDayPeakPercent%22,%22s%22:%220%22),(%22i%22:%22currentUsage%22,%22s%22:%221%22),(%22i%22:%22sevenDayPeakUsage%22,%22s%22:%220%22),(%22i%22:%22serviceTitle%22,%22s%22:%220%22),(%22i%22:%22displayName%22,%22s%22:%220%22)%5D,%22f%22:%22%255B%257B_22k_22_3A_22Dimensions%2520%2528e.g.%2520location%2529_22_2C_22t_22_3A10_2C_22v_22_3A_22_5C_22model_3Agemini-2.5-flash-lite_5C_22_22_2C_22s_22_3Atrue_2C_22i_22_3A_22displayDimensions_22%257D%255D%22)))
@@ -674,8 +675,27 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Not a single mention of `todowrite` tool in the system instructions.
 						- ⇒ Add instruction of using `todowrite` tool to `AGENTS.md`.
 				- Settings
-					- `${HOME}/.local/share/opencode/`
 					- `${HOME}/.config/opencode/`
+						- `opencode.json`: the main config
+					- `${HOME}/.local/share/opencode/`
+						- `auth.json`: API keys of providers
+					- For JSON key of Google Vertex AI
+					  id:: 6a55b373-9225-49a9-ac23-95a9cc0478e0
+					  collapsed:: true
+						- Must add `Vertex` provider first, empty its entry in `auth.json`, then add `google-vertex` to `opencode.json`.
+						- `auth.json`: `"google-vertex": {}`
+						- `opencode.json`
+						  ```json
+						  "google-vertex": {
+						    "options": {
+						      "project": "vertex-ai-agent-499213",
+						      "location": "global",
+						      "googleAuthOptions": {
+						        "keyFilename": "/home/dinhlx/.local/share/opencode/vertex-ai-agent-499213-3aeeae4b313f.json"
+						      }
+						    }
+						  }
+						  ```
 				- Free models provided by OpenCode Zen with limited time
 				  collapsed:: true
 					- DeepSeek V4 Flash Free
