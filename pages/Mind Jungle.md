@@ -244,8 +244,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- [Google Agent Platform](https://console.cloud.google.com/agent-platform/) (Vertex AI)
 					  id:: 6a54c798-becc-4879-80f9-bb35731f4e44
 						- Linked to **Google One AI** with [Developer Program > Benefits](https://me.developers.google.com/benefits)
-							- For \$20/month of Google (One) AI Pro, get *\$10 monthly Gen AI & Cloud credits* for API.
+							- For \$20/month of Google (One) AI Pro, get *\$10 monthly ~~Gen AI &~~ Cloud credits* for API.
 							- [Billing > Credits](https://console.cloud.google.com/billing/019C81-F0447B-EEDE51/credits/all) to check for `Google Developer Program premium benefit`
+							- Although Vertex AI supports all sorts of models, only Gemini models are provided in this benefit.
 							- ⚠️ Warning: _**Cost information may take up to 24 hours to update.**_
 						- Setup
 							- Project [Vertex AI Agent](https://console.cloud.google.com/welcome?project=vertex-ai-agent-499213)
