@@ -2053,6 +2053,29 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Not many ones can understand the feeling of dying thousands of times in this endless cycle. People and most animals are blessed by the amnesia of death, but to me, the life has never been separated from the death. The helping hand is never separated from the hurting hand, like the story of ((6a267949-3e24-4422-a67d-851383fdeec8))... such a cruel reality!
 					- I don't know how grandfather Mazay lived with such a conflict, but my gut just wrenches looking at both sides... how can i save one then kill one in the same hands?! I can't help feeling the pain, so i just got out to let it burst into tears naturally, not to annoy my colleagues working here.
 					- The passive voice “whatever is built will be destroyed” feels much easier than the active voice “whatever you build, you will destroy it yourself!” Such a pain of God!
+						- Comparing the 3 versions:
+							- ((6a559e96-303e-449f-81e7-73c01f9cd956))
+								- And the hares
+								  started running away
+								  I said to them “Ahh
+								  Faster, living things
+								  Lookout, save yourself
+								  And stay out of my sight in winter.
+								  I'll point my rifle at you and BOOM
+								  You will be down“
+							- ((6a559f73-8cd5-4ffc-acce-6674e422569d))
+								- And in full spirit
+								  Let's go bunnies.
+								  And I told them: "Wow!"
+								  Live, animals!
+								  Look, oblique,
+								  Now save yourself
+								  And mind you in winter
+								  Don't get caught!
+								  I'll take aim – boo!
+								  And you will lie down ... Oooh! ..
+							- ((6a55a41c-8ae0-4b53-a38f-2f7978f759b9))
+								-
 					- This reminds me about the story of the [killer whale Luna](https://en.wikipedia.org/wiki/Luna_(orca)). It's like holding a baby while a blade is hidden right under our belly, where the tighter we hug it, the deeper we cut it.
 					- Gemini sugested me that the purpose of my dual view is “the absolute containment and stewardship without illusion”, but i see this target is still far for me: While i've never been shaken by the destruction or danger, i'm still shaking with love... seeing through spacetime that this very helping hand will eventually hurt! Overcoming such a clinging love is my target... on the horizon!
 					- ⇒ Back to my classic word (play): [thương hại](https://en.wiktionary.org/wiki/th%C6%B0%C6%A1ng_h%E1%BA%A1i) (love) = [傷害](https://en.wiktionary.org/wiki/%E5%82%B7%E5%AE%B3) (injure) = [thương](https://en.wiktionary.org/wiki/th%C6%B0%C6%A1ng) (love) + [hại](https://en.wiktionary.org/wiki/h%E1%BA%A1i) (harm)
@@ -2065,7 +2088,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  id:: 6a267949-3e24-4422-a67d-851383fdeec8
 				  collapsed:: true
 				  Дедушка Мазай и зайцы (Dedushka Mazay i zaytsy)
-					- Original Russian poem [...](https://azbyka.ru/fiction/dedushka-mazaj-i-zajcy/)
+					- Original Russian poem at [Азбука веры site](https://azbyka.ru/fiction/dedushka-mazaj-i-zajcy/)
+					  id:: 6a55a41c-8ae0-4b53-a38f-2f7978f759b9
 					  collapsed:: true
 						- Старый Мазай разболтался в сарае:
 						  «В нашем болотистом, низменном крае
@@ -2077,7 +2101,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  И без того они сотнями гинут, —
 						  Нет! еще мало! бегут мужики,
 						  Ловят, и топят, и бьют их баграми.
-						  Где у них совесть?.. Я раз за дровами
+						  Где у них совесть?..
+						- Я раз за дровами
 						  В лодке поехал — их много с реки
 						  К нам в половодье весной нагоняет, —
 						  Еду, ловлю их. Вода прибывает.
@@ -2087,7 +2112,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  К бедным зверькам; уж под ними осталось
 						  Меньше аршина земли в ширину,
 						  Меньше сажени в длину.
-						  Тут я подъехал: лопочут ушами,
+						- Тут я подъехал: лопочут ушами,
 						  Сами ни с места; я взял одного,
 						  Прочим скомандовал: прыгайте сами!
 						  Прыгнули зайцы мои, — ничего!
@@ -2146,6 +2171,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  Шкура плохая, — линяет косой… »
 						- (1870)
 					- Translation at [Alkota  Russian Treasures site](https://www.alkotagifts.com/fairytales/grandfather-mazay-and-hares-0)
+					  id:: 6a559e96-303e-449f-81e7-73c01f9cd956
 					  collapsed:: true
 						- Old Mazay chattered in the hut:
 						  In our swampy low-land place
@@ -2211,8 +2237,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  Lookout, save yourself
 						  And stay out of my sight in winter.
 						  I'll point my rifle at you and BOOM
-						  You will be down“ 
-						  My entire team ran away
+						  You will be down“
+						- My entire team ran away
 						  All but a pair of them.
 						  They were wet and weak: I put them
 						  In a bag and took them home
@@ -2225,6 +2251,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  Then their fur is bad 'cause it fades.
 						- — Nikolay Nekrasov, 1870
 					- Translation at [«Skazki Dereva» («Tree tales») site](https://skazkidereva.ru/en/tales/grandfather-mazai-and-the-hares/)
+					  id:: 6a559f73-8cd5-4ffc-acce-6674e422569d
 					  collapsed:: true
 						- Old Mazai was loose in the barn:
 						  In our swampy, low-lying land
@@ -2292,7 +2319,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  Don't get caught!
 						  I'll take aim – boo!
 						  And you will lie down ... Oooh! ..
-						  In an instant my team scattered,
+						- In an instant my team scattered,
 						  Only two couples left on the boat –
 						  Strongly wet, weak; in the bag
 						  I paid them – and brought them home,
