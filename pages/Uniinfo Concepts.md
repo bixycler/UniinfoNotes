@@ -1756,7 +1756,7 @@
 		- ### arrow of time
 		  id:: 69a502fe-47e2-4629-a40c-78964d9e0396
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Arrow_of_time
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((69a502fe-47e2-4629-a40c-78964d9e0396)) is the generator of ((68fa164e-ef0e-4010-937d-ad9e0459f5f2)) by mixmatching ((6a143a19-64d1-437e-8c86-dfb30ed534d2)) together to generate ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342))s as the ((6a13f972-4d5a-4d84-9a84-61ea7576bbb5))s of time. While a change and its flow – time – are selful – relative to the ((6a143ebe-7312-4df6-85c1-7a93b86d4b00)) of a being, the arrow of time is the **selfless mixmatching** of all threads at the point of contact between those selves.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((69a502fe-47e2-4629-a40c-78964d9e0396)) is the generator of ((68fa164e-ef0e-4010-937d-ad9e0459f5f2)) by mixmatching ((6a143a19-64d1-437e-8c86-dfb30ed534d2)) together to generate ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342))s as the ((6a13f972-4d5a-4d84-9a84-61ea7576bbb5))s of time. While a change and its flow – time – are selful, i.e., relative to the ((6a143ebe-7312-4df6-85c1-7a93b86d4b00)) of a being, the arrow of time is the **selfless mixmatching** of all threads at the point of contact between those selves.
 				- concrete arrow of time
 				  is the ((669de102-8f98-4d96-bf00-4f4e602cb689)) including all participating change arrows and their selves, represented by the whole ((69b9470c-40e4-49ca-84df-1cb6a3379987)).
 				- abstract arrow of time
@@ -1812,6 +1812,106 @@
 				- Actually, the further one look into the future, the more diverse it is, the more its image resolution reduces – exponentially below 1 – hence much higher entropy.
 				- Note that the expression “the future” is incorrect because there are various futures to come.
 			- Note: Looking further into the past, the image also reduces resolution but linearly, hence the impression of the “fixed past”.
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- DOING Thermodynamical entropy and life
+				  id:: 6a562439-0ace-4f34-b134-0d7b712bea8a
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2026-07-14 Tue 18:57:53]
+				  CLOCK: [2026-07-14 Tue 18:59:22]
+				  :END:
+					- Gauge thermodynamics
+						- The thermodynamic geometry
+							- The classical thermodynamic framework treats work and heat as equivalent contributors to internal energy changes.
+							- The gauge-theoretic framework separates them, mapping thermodynamics onto the complex geometry of quantum fields.
+							- Observable space: This represents the accessible level of thermodynamics, such as physical work and volume, akin to the position of rolling marbles.
+							- Bundle space: This represents the less accessible internal energy states, such as heat, akin to hidden colors inside the marbles.
+							- Shadows: Because internal states cannot be observed directly, they are inferred by how the bundle space projects into the observable space.
+						- Emergence of temperature and entropy
+							- Temperature and entropy are not fundamental axioms but emergent geometric properties under specific mathematical conditions.
+							- Zero curvature: When the gauge connection is flat, it corresponds to local thermodynamic equilibrium, allowing temperature and entropy to mathematically materialize.
+							- Non-zero curvature: In dynamic, turbulent states, the global functions of temperature and entropy break down because coordinates cannot be smoothly drawn in a curved space.
+						- Holonomy and information conservation
+							- Path-dependent shift: Driving a system through a closed cycle in a curved thermodynamic space creates a geometric phase, or holonomy.
+							- Returning the observable parameters to their starting origin leaves the internal heat state permanently shifted.
+							- Unlike classical entropy which increases monotonically, this geometric shift tracks spatial curvature and can interfere or balance out.
+							- Conservation limits: Liouville's theorem of information conservation maps onto this structure through the symplectic form of the fiber bundle, but strictly assumes infinite resolution.
+							- Quantum floor: The Von Neumann equation upgrades this by replacing the continuous fluid with a pixelated density matrix $⟪\hat{\rho}⟫$, bounded by Planck's constant, yet still proving information is conserved in perfectly isolated systems.
+							- Open boundaries: When non-equilibrium turbulence constricts observable phase space, the conserved global information is squeezed into the hidden fibers rather than being destroyed.
+						- Recovery of the 2nd law through observer ignorance
+							- For systems far from equilibrium, the first recovery of the 2nd law was thanks to the Stosszahlansatz in Boltzmann's H-theorem, which requires an absolute randomness that is merely the ignorance of the observer.
+							- Considering the full correlation, the fine-grained view dictated by Liouville and Von Neumann shows that entropy is conserved and information is invariant.
+							- For highly correlated systems, the second recovery of the 2nd law relies on phase space blurring in the Coarse-Grained H-theorem.
+							- The coarse-grained necessity: Science identifies strict limits forcing the observer to coarse-grain reality – the bounded capacity of the observer, the quantum floor of phase space, the amplification of deterministic chaos, and environmental decoherence.
+							- Decoherence mechanics: The Lindblad Master Equation formalizes this decoherence, showing exactly how precise internal structure leaks into the environment, forcing the transition from fine-grained conservation to macroscopic decay.
+							- The Fluctuation–Dissipation Theorem confirms that macroscopic loss (dissipation) is perfectly balanced by microscopic structural dynamics (fluctuations), proving the macroscopic entropy pump relies on fine-grained internal preservation.
+					- Mixmatch
+						- The dual-engine nature of cognitive architectures
+							- The Mixmatch operator balances low-friction operation with high-energy structural updates in a continuous loop.
+							- Match state: Incoming sensory information aligns cleanly with existing internal wireframes.
+								- This corresponds to a flat gauge connection with zero curvature, $⟪F = 0⟫$.
+								- The system routes signals efficiently along a geodesic, triggering smooth, predictive actions with near-zero shadow loss.
+							- Mix state: New information contradicts old knowledge, forcing the system to twist and adapt.
+								- This generates sharp geometric curvature, representing the physical stress and thermodynamic cost of learning, $⟪F \neq 0⟫$.
+								- The living being resolves this curvature through either avoidance or acceptance.
+						- The two modes of life
+							- Avoidance as dissipation: The default mode of mature organisms is to refuse to alter internal geometry and actively pump the structural tension out.
+								- Because mature systems cling rigidly to old images, they experience reality's impermanence as a threat.
+								- Under Lindblad dynamics, this exothermic resistance creates high internal entropy production $⟪\sigma > 0⟫$ and forces a massive entropy flux $⟪\Phi > 0⟫$, aggressively dumping heat to survive.
+								- This rejection of alien information into the environment is a real, physical dump recorded classically as dissipated heat and a rise in global entropy.
+							- Acceptance as the learning sink: The organism, typically a child or a “strange adult”, absorbs the mismatch and sucks the external noise inside.
+								- By folding the curvature into a permanent internal loop, the organism upgrades its internal resolution to keep its mental image sharp against the constant change outside.
+								- This transforms chaotic external tension into a stable, higher-dimensional concept without radiating waste heat, proving learning is a localized entropy sink.
+							- The stationary flow: Reaching the steady state of the Lindblad Master Equation, the perfect learning sink operates near equilibrium where the rate of internal quantum chaos generation $⟪\sigma⟫$ is exactly balanced by the entropy flux piped out $⟪\Phi⟫$ ($⟪\sigma = \Phi⟫$), creating a clean, frictionless channel of least resistance.
+							- The outside view of the sink: Even in the learning sink where no physical heat is dumped, a crude outside observer still calculates an entropy increase.
+								- This increase is not a material dump but a mathematical penalty for the outside observer's own ignorance.
+								- Because the observer refuses to update their knowledge – remaining stuck to their old image – their rigid template cannot resolve the organism's newly folded, highly correlated internal geometry.
+								- The observer's outdated grid lines fail to track the fine-grained shift, perceiving the learning being's transformation as a rise in random noise.
+						- The thermodynamic mapping of emotion
+							- Modern cognitive thermodynamics maps these dynamics onto classic physical cycles, framing the brain as a specialized thermodynamic engine.
+							- Exothermic Carnot cycle: This models negative, aversive reactions (the Pump).
+								- The system operates as a forward heat engine, compressing its internal state and shedding synaptic complexity.
+								- This forces a rigid focus on the past (regret, defense of old templates) and dissipates mental energy as physical and behavioral waste heat into the environment.
+							- Endothermic reversed Carnot cycle: This models positive, adaptive learning (the Sink).
+								- The system operates as a heat pump, consuming metabolic energy to actively extract and absorb chaotic variance from the environment.
+								- This expands internal degrees of freedom, creating a “high entropy brain” characterized by high complexity, creativity, and future-oriented action.
+						- The aversion resolution experiment
+							- Objective: Verify the physical distinction between the entropy pump and the entropy sink by measuring boundary fluxes.
+							- Setup: Expose advanced contemplative practitioners (the sink) and laymen (the pump) to highly aversive, chaotic sensory environments.
+							- The layman signature (The Pump):
+								- Micro-calorimetric sensors record a sharp spike in dissipated thermal waste $⟪Q_{\text{out}}⟫$ escaping the system boundary.
+								- Biometric indicators show high physiological turbulence, showing the metabolic friction of active resistance against the stimulus.
+							- The practitioner signature (The Sink):
+								- Thermal output remains nearly flat, indicating minimal metabolic friction despite the intense external sensory stress.
+								- Physical heat remains flat, yet a crude outside observer calculates a sudden drop in behavioral predictability of the practitioner.
+								- The apparent entropy rise is shifted entirely from a physical heat dump to the observer's informational ignorance penalty – confirming the external noise was silently sucked in and folded into internal geodesics.
+					- Sheaf theory
+						- Formalizing cognitive topology
+							- Sheaf theory formalizes the Mixmatch process by tracking how local pieces of information glue together globally.
+							- Local section: A piece of internal knowledge that matches a specific patch of the world smoothly.
+							- Compatibility failure: Overlapping data contradicts the existing local sections, creating a hole in the structure where things cannot be glued.
+							- Sheaf extension: True learning adds a higher dimension to the sheaf, allowing contradictory pieces to smoothly bypass each other.
+							- Wrapping a new topological boundary around this contradiction creates a sheaf cohomology class, crystallizing structure on the inside.
+						- Relativity of entropy and mixing
+							- Entropy and the 2nd law are not objective properties of the material, but are entirely dependent on the subject: to either update and learn, or to let the image blur away.
+							- The word “mixing” carries opposite meanings depending on the scale and granularity of the observer's mind.
+							- Thermal mixing: Acts as dissolution, breaking down local structures into a flat, noisy soup that maximizes classical entropy.
+							- Cognitive mixing: Acts as complexification, binding differences into highly indexed knowledge that opposes entropy by sucking it into the structure.
+							- The Gibbs paradox proves that entropy is not an absolute property of matter but a relative metric of the observer's ability to differentiate particles.
+						- The subjective continuum of scale
+							- Crude mind: To a crude cosmic mind, a living being is a transient speck of noise maximizing entropy – a literal Boltzmann brain flashing in the void.
+							- Fine mind: To a fine human mind, the exact same process is a marvelous, deterministic integration of structure, just like ink dissolving in a cup.
+							- The cosmic projection: The grand scientific narrative of the “Heat Death of the Universe” is the ultimate psychological projection.
+								- It is the fragile, dying human subject pumping out the fear of their own impermanence and mapping it onto an infinite, invariant cosmic mix.
+						- The living vortex
+							- Isolating a living system in a closed box to measure its thermodynamics only captures its dying process.
+							- Life is an open, continuous loop in connection with the environment, structurally akin to a whirlpool.
+							- A whirlpool is a topological form sustained purely by a dynamic flow, using exponential stretching and folding to maximize boundary interfaces.
+							- This efficient turbulent advection produces high entropy externally while maintaining perfect, invariant topological order internally.
+							- The universe is a continuous mixing machine where the outside physical mix and the inside cognitive mix are equivalent in nature.
+					- References
+						- [How the Brain Becomes the Mind: Can Thermodynamics Explain the Emergence and Nature of Emotions?](https://doi.org/10.3390/e24101498) — Deli, J. F., Peters, J. F., & Kisvárday, Z. (2022). Entropy, 24(10), 1498.
+						- [The thermodynamics of cognition: A Mathematical Treatment](https://www.researchgate.net/publication/348427571_The_thermodynamics_of_cognition_A_Mathematical_Treatment) — Deli, J. F., Peters, J. F., & Kisvárday, Z. (2021). ResearchGate preprint.
 	- ## space
 	  id:: 68fa1647-2d46-433e-b1ca-29f757b5ef62
 	  collapsed:: true
