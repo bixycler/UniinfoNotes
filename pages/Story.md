@@ -1858,13 +1858,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- Following chatbot's suggestion that maybe this is a bug, i did all sorts of cleanup, revoking account connection, without effect. The only effect is my entire settings and history are wiped out.
 				- DONE I topped up $10 to https://platform.deepseek.com/top_up at home, then the next morning i discovered that my company has blocked deepseek.com (together with other AI sites) 🙁
+				  id:: 6a151374-b325-4339-9152-2e2b7a6304e0
 				  :LOGBOOK:
 				  CLOCK: [2026-05-26 Tue 10:28:56]
 				  CLOCK: [2026-05-26 Tue 10:29:08]--[2026-05-26 Tue 10:33:27] =>  00:04:19
 				  :END:
 					- Then i requested for a "usage outside whitelist" for both Claude.ai and DeepSeek.com, but got reply for Claude.ai only 🤔
-					- However, DeepSeek.com has also been released for me together with Claude.ai.
-					- But seems that DeepSeek.com is only released in work time. 🤔
+					- However, DeepSeek.com has also been (accidentally) released for me together with Claude.ai.
+						- But seems that DeepSeek.com is only released in work time. 🤔 ... in the first days.
+						- Then it was completely blocked away!
 				- DONE With effective caching (all history stored for 1-2 hours with 1% price) and cheap prices, DeepSeek has reduced my cost more than 10 times (up to 25 times) compared to Gemini (cache hit costs 10% price and **hardly hit**).
 				  :LOGBOOK:
 				  CLOCK: [2026-05-26 Tue 15:25:42]--[2026-05-26 Tue 15:25:44] =>  00:00:02
@@ -2661,11 +2663,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- A system incapable of self-doubt is a one-way engine, like classical logic. It can grow, and it can optimize, but it cannot evolve.
 					- The cell of uninet is autonoton (self-knowledge). While differentiated/specialized cells do know something positively (trunks), the stem cell knows nothing but its ignorance, just like Socrates, hence self-doubt.
 			- 13-14th, set up [Vertex AI + Cloudflare + Opencode](((6a55b373-9225-49a9-ac23-95a9cc0478e0)))
+			  collapsed:: true
 				- This was triggered by the harsh & irrational blocking of all AI sites by HTV.
 				- Story:
 					- In Feburary, i subscribed to Google One Pro for a share between Antigravity and (a half to) ((699c0360-af75-41a2-a58a-f7875f453ff9)) via Google Developer Program premium benefit.
 					- But from April, the benefit was moved to Google Cloud / ((6a54c798-becc-4879-80f9-bb35731f4e44)), which is much more complicated than the AI Studio.
 					-
+					- Until now, can i migrate to Vertex AI after passing many hurdles.
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a46244d-2376-4549-b716-19538d7042fd))
