@@ -2660,6 +2660,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- That universal root is Vacancy in Uniinfo, Shunyata in Buddhism, dialectical cycle of Hegel, Socratic ignorance, Dirac Sea with quantum vacuum fluctuations, the Ungrund (groundless) of Jacob Boehme, etc.
 						- A system incapable of self-doubt is a one-way engine, like classical logic. It can grow, and it can optimize, but it cannot evolve.
 					- The cell of uninet is autonoton (self-knowledge). While differentiated/specialized cells do know something positively (trunks), the stem cell knows nothing but its ignorance, just like Socrates, hence self-doubt.
+			- 13-14th, set up
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a46244d-2376-4549-b716-19538d7042fd))
