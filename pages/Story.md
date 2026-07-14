@@ -2064,7 +2064,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Grandfather Mazay and the Hares
 				  id:: 6a267949-3e24-4422-a67d-851383fdeec8
 				  collapsed:: true
-				  (Ded Mazay i zaytsy)
+				  Дедушка Мазай и зайцы (Dedushka Mazay i zaytsy)
 					- Old Mazay chattered in the hut:
 					  In our swampy low-land place
 					  we would have five times more game
@@ -2411,7 +2411,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- [Phần 3. TRỞ VỀ MẶT ĐẤT: Nghệ Thuật Thực Hành Phụng Sự Để "Không Chết Chùm"](https://creatzynotes.blogspot.com/2026/07/phan-3-tro-ve-mat-at-nghe-thuat-thuc.html)
 					- [Thương & Phụng sự Một cách Vô ngã (Private)](https://notebooklm.google.com/notebook/75327c41-6a18-4789-81d0-9b195ed9b75d)
 					  collapsed:: true
-						- [Phần 1. CHẠM VÀO VẾT THƯƠNG: Hành Trình Đi Tìm Cái "Mình" Chung](https://share.gemini.google/QVnqG0FzAAIM)
+						- [Phần 1. CẢM NHẬN VẾT THƯƠNG: Hành Trình Đi Tìm Cái “Mình” Chung](https://share.gemini.google/l2QaBSBB7DMa)
 						- [Phần 2. TỪ "THƯƠNG" ĐẾN "PHỤNG SỰ": Hành Trình Bóc Tách Bản Ngã & Dấn Thân](https://share.gemini.google/cpy7h1xlje3M)
 						- [Phần 3. TRỞ VỀ MẶT ĐẤT: Nghệ Thuật Thực Hành Phụng Sự Để "Không Chết Chùm"](https://share.gemini.google/sNS7FnQl12uZ)
 				- Through sharing NotebookLM on fb, i got acknowledged that it was blocked by Google sign-in page on in-app browser on mobile.
@@ -2448,6 +2448,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- ⇒ The root resolution is not to engineer superficial friction to block the stimuli, but to train my machine to accept the naked truth: the [imperfection](((699e56cd-b1d4-41fb-8e30-ec393a5db8e9))) & [porosity](((6926be23-4a65-4138-8864-3e293fd37119))) of the world.
 			- 10th, professional work
 			- 11-12th, weekend: entropy, life, self-doubt and believe the unseen
+			  collapsed:: true
 				- [Chat with Gemini](https://share.gemini.google/hx9lQbjX6aWh) about the hidden agreement between Christ's “not seen yet believe” and Buddha's come to see yourself (Ehipassiko).
 					- Published a post: [Khi Chúa Giê-su và Phật Thích Ca “Gặp Nhau” Ở Tận Cùng Thực Tại](https://creatzynotes.blogspot.com/2026/07/khi-gie-su-va-phat-thich-ca-gap-nhau-o.html)
 				- [AlphaEvolve](https://docs.cloud.google.com/gemini/enterprise/docs/alphaevolve/developer-guide/overview) to optimize codebase, provided a deterministic client-side evaluation script for performance criteria, [now available to everyone on Google Cloud](https://cloud.google.com/blog/products/ai-machine-learning/alphaevolve-is-available-for-everyone).
