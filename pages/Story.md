@@ -2053,7 +2053,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Not many ones can understand the feeling of dying thousands of times in this endless cycle. People and most animals are blessed by the amnesia of death, but to me, the life has never been separated from the death. The helping hand is never separated from the hurting hand, like the story of ((6a267949-3e24-4422-a67d-851383fdeec8))... such a cruel reality!
 					- I don't know how grandfather Mazay lived with such a conflict, but my gut just wrenches looking at both sides... how can i save one then kill one in the same hands?! I can't help feeling the pain, so i just got out to let it burst into tears naturally, not to annoy my colleagues working here.
 					- The passive voice “whatever is built will be destroyed” feels much easier than the active voice “whatever you build, you will destroy it yourself!” Such a pain of God!
-						- Comparing the 3 versions:
+						- Compare the 3 versions:
+						  collapsed:: true
 							- ((6a559e96-303e-449f-81e7-73c01f9cd956))
 								- And the hares
 								  started running away
@@ -2066,16 +2067,25 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- ((6a559f73-8cd5-4ffc-acce-6674e422569d))
 								- And in full spirit
 								  Let's go bunnies.
-								  And I told them: "Wow!"
+								  And I told them: “Wow!
 								  Live, animals!
 								  Look, oblique,
 								  Now save yourself
 								  And mind you in winter
 								  Don't get caught!
-								  I'll take aim – boo!
-								  And you will lie down ... Oooh! ..
+								  I'll take aim - boo!
+								  And you will lie down ... Oooh! ...”
 							- ((6a55a41c-8ae0-4b53-a38f-2f7978f759b9))
-								-
+								- И во весь дух
+								  Пошли зайчишки.
+								  А я им: „У-х!
+								  Живей, зверишки!
+								  Смотри, косой,
+								  Теперь спасайся,
+								  А чур зимой
+								  Не попадайся!
+								  Прицелюсь — бух!
+								  И ляжешь... У-у-у-х!..“
 					- This reminds me about the story of the [killer whale Luna](https://en.wikipedia.org/wiki/Luna_(orca)). It's like holding a baby while a blade is hidden right under our belly, where the tighter we hug it, the deeper we cut it.
 					- Gemini sugested me that the purpose of my dual view is “the absolute containment and stewardship without illusion”, but i see this target is still far for me: While i've never been shaken by the destruction or danger, i'm still shaking with love... seeing through spacetime that this very helping hand will eventually hurt! Overcoming such a clinging love is my target... on the horizon!
 					- ⇒ Back to my classic word (play): [thương hại](https://en.wiktionary.org/wiki/th%C6%B0%C6%A1ng_h%E1%BA%A1i) (love) = [傷害](https://en.wiktionary.org/wiki/%E5%82%B7%E5%AE%B3) (injure) = [thương](https://en.wiktionary.org/wiki/th%C6%B0%C6%A1ng) (love) + [hại](https://en.wiktionary.org/wiki/h%E1%BA%A1i) (harm)
@@ -2088,88 +2098,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  id:: 6a267949-3e24-4422-a67d-851383fdeec8
 				  collapsed:: true
 				  Дедушка Мазай и зайцы (Dedushka Mazay i zaytsy)
-					- Original Russian poem at [Азбука веры site](https://azbyka.ru/fiction/dedushka-mazaj-i-zajcy/)
-					  id:: 6a55a41c-8ae0-4b53-a38f-2f7978f759b9
-					  collapsed:: true
-						- Старый Мазай разболтался в сарае:
-						  «В нашем болотистом, низменном крае
-						  Впятеро больше бы дичи велось,
-						  Кабы сетями ее не ловили,
-						  Кабы силками ее не давили;
-						  Зайцы вот тоже, — их жалко до слез!
-						  Только весенние воды нахлынут,
-						  И без того они сотнями гинут, —
-						  Нет! еще мало! бегут мужики,
-						  Ловят, и топят, и бьют их баграми.
-						  Где у них совесть?..
-						- Я раз за дровами
-						  В лодке поехал — их много с реки
-						  К нам в половодье весной нагоняет, —
-						  Еду, ловлю их. Вода прибывает.
-						  Вижу один островок небольшой —
-						  Зайцы на нем собралися гурьбой.
-						  С каждой минутой вода подбиралась
-						  К бедным зверькам; уж под ними осталось
-						  Меньше аршина земли в ширину,
-						  Меньше сажени в длину.
-						- Тут я подъехал: лопочут ушами,
-						  Сами ни с места; я взял одного,
-						  Прочим скомандовал: прыгайте сами!
-						  Прыгнули зайцы мои, — ничего!
-						  Только уселась команда косая,
-						  Весь островочек пропал под водой.
-						  «То-то! — сказал я, — не спорьте со мной!
-						  Слушайтесь, зайчики, деда Мазая!»
-						  Этак гуторя, плывем в тишине.
-						  Столбик не столбик, зайчишко на пне,
-						  Лапки скрестивши, стоит, горемыка,
-						  Взял и его — тягота невелика!
-						  Только что начал работать веслом,
-						  Глядь, у куста копошится зайчиха —
-						  Еле жива, а толста как купчиха!
-						  Я ее, дуру, накрыл зипуном —
-						  Сильно дрожала… Не рано уж было.
-						  Мимо бревно суковатое плыло,
-						  Зайцев с десяток спасалось на нем.
-						  «Взял бы я вас — да потопите лодку!»
-						  Жаль их, однако, да жаль и находку —
-						  Я зацепился багром за сучок
-						  И за собою бревно поволок…
-						- Было потехи у баб, ребятишек,
-						  Как прокатил я деревней зайчишек:
-						  «Глянь-ко: что делает старый Мазай!»
-						  Ладно! любуйся, а нам не мешай!
-						  Мы за деревней в реке очутились.
-						  Тут мои зайчики точно сбесились:
-						  Смотрят, на задние лапы встают,
-						  Лодку качают, грести не дают:
-						  Берег завидели плуты косые,
-						  Озимь, и рощу, и кусты густые!..
-						  К берегу плотно бревно я пригнал,
-						  Лодку причалил — и «с богом!» сказал…
-						- И во весь дух
-						  Пошли зайчишки.
-						  А я им: «У-х!»
-						  Живей, зверишки!
-						  Смотри, косой,
-						  Теперь спасайся,
-						  А чур зимой
-						  Не попадайся!
-						  Прицелюсь — бух!
-						  И ляжешь… Ууу-х!..»
-						  Мигом команда моя разбежалась,
-						  Только на лодке две пары осталось —
-						  Сильно измокли, ослабли; в мешок
-						  Я их поклал — и домой приволок,
-						  За ночь больные мои отогрелись,
-						  Высохли, выспались, плотно наелись;
-						  Вынес я их на лужок; из мешка
-						  Вытряхнул, ухнул — и дали стречка!
-						  Я проводил их всё тем же советом:
-						  «Не попадайся зимой!»
-						  Я их не бью ни весною, ни летом,
-						  Шкура плохая, — линяет косой… »
-						- (1870)
 					- Translation at [Alkota  Russian Treasures site](https://www.alkotagifts.com/fairytales/grandfather-mazay-and-hares-0)
 					  id:: 6a559e96-303e-449f-81e7-73c01f9cd956
 					  collapsed:: true
@@ -2331,6 +2259,88 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  "Don't get caught in winter!"
 						  I don't hit them either in spring or summer,
 						  The skin is bad, – it sheds sideways ...
+					- Original Russian poem at [Азбука веры site](https://azbyka.ru/fiction/dedushka-mazaj-i-zajcy/)
+					  id:: 6a55a41c-8ae0-4b53-a38f-2f7978f759b9
+					  collapsed:: true
+						- Старый Мазай разболтался в сарае:
+						  «В нашем болотистом, низменном крае
+						  Впятеро больше бы дичи велось,
+						  Кабы сетями ее не ловили,
+						  Кабы силками ее не давили;
+						  Зайцы вот тоже, — их жалко до слез!
+						  Только весенние воды нахлынут,
+						  И без того они сотнями гинут, —
+						  Нет! еще мало! бегут мужики,
+						  Ловят, и топят, и бьют их баграми.
+						  Где у них совесть?..
+						- Я раз за дровами
+						  В лодке поехал — их много с реки
+						  К нам в половодье весной нагоняет, —
+						  Еду, ловлю их. Вода прибывает.
+						  Вижу один островок небольшой —
+						  Зайцы на нем собралися гурьбой.
+						  С каждой минутой вода подбиралась
+						  К бедным зверькам; уж под ними осталось
+						  Меньше аршина земли в ширину,
+						  Меньше сажени в длину.
+						- Тут я подъехал: лопочут ушами,
+						  Сами ни с места; я взял одного,
+						  Прочим скомандовал: прыгайте сами!
+						  Прыгнули зайцы мои, — ничего!
+						  Только уселась команда косая,
+						  Весь островочек пропал под водой.
+						  «То-то! — сказал я, — не спорьте со мной!
+						  Слушайтесь, зайчики, деда Мазая!»
+						  Этак гуторя, плывем в тишине.
+						  Столбик не столбик, зайчишко на пне,
+						  Лапки скрестивши, стоит, горемыка,
+						  Взял и его — тягота невелика!
+						  Только что начал работать веслом,
+						  Глядь, у куста копошится зайчиха —
+						  Еле жива, а толста как купчиха!
+						  Я ее, дуру, накрыл зипуном —
+						  Сильно дрожала… Не рано уж было.
+						  Мимо бревно суковатое плыло,
+						  Зайцев с десяток спасалось на нем.
+						  «Взял бы я вас — да потопите лодку!»
+						  Жаль их, однако, да жаль и находку —
+						  Я зацепился багром за сучок
+						  И за собою бревно поволок…
+						- Было потехи у баб, ребятишек,
+						  Как прокатил я деревней зайчишек:
+						  «Глянь-ко: что делает старый Мазай!»
+						  Ладно! любуйся, а нам не мешай!
+						  Мы за деревней в реке очутились.
+						  Тут мои зайчики точно сбесились:
+						  Смотрят, на задние лапы встают,
+						  Лодку качают, грести не дают:
+						  Берег завидели плуты косые,
+						  Озимь, и рощу, и кусты густые!..
+						  К берегу плотно бревно я пригнал,
+						  Лодку причалил — и «с богом!» сказал…
+						- И во весь дух
+						  Пошли зайчишки.
+						  А я им: «У-х!»
+						  Живей, зверишки!
+						  Смотри, косой,
+						  Теперь спасайся,
+						  А чур зимой
+						  Не попадайся!
+						  Прицелюсь — бух!
+						  И ляжешь… Ууу-х!..»
+						- Мигом команда моя разбежалась,
+						  Только на лодке две пары осталось —
+						  Сильно измокли, ослабли; в мешок
+						  Я их поклал — и домой приволок,
+						  За ночь больные мои отогрелись,
+						  Высохли, выспались, плотно наелись;
+						  Вынес я их на лужок; из мешка
+						  Вытряхнул, ухнул — и дали стречка!
+						  Я проводил их всё тем же советом:
+						  «Не попадайся зимой!»
+						  Я их не бью ни весною, ни летом,
+						  Шкура плохая, — линяет косой… »
+						- (1870)
 					- ![Kustodiev069-Ded-Mazay-i-zaycy.jpg](../assets/Will/story/2026-06/Kustodiev069-Ded-Mazay-i-zaycy.jpg)
 				- Clarify to my wife about my wish to be imprisoned
 				  id:: 6a27bbea-7759-40a9-a3c7-3a59e759e6fb
