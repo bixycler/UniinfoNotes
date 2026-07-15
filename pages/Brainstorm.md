@@ -11,6 +11,44 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2026 Brainstorms
 	  id:: 6960e754-ff94-4e1a-8266-d9f15231b880
+		- DOING The hidden agreement between Christ's “not seen yet believe” and Buddha's _come to see yourself (Ehipassiko)_
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2026-07-15 Wed 08:16:20]
+		  CLOCK: [2026-07-15 Wed 08:16:22]
+		  :END:
+			- The superficial contradiction of two spiritual pathways
+				- Christ's message to Thomas demands an unconditional trust:
+				  > “Because you have seen me, you have believed. Blessed are those who have not seen and yet have believed.”
+				  
+				  — [John 20:29](https://biblehub.com/niv/john/20.htm)
+				- The Buddha's [instruction to the Kalamas](https://suttacentral.net/an3.65/en/sujato) demands rigorous empiricism: do not believe merely out of habit, tradition, or authority.
+				- On the surface, they seem to point in opposite directions – one toward transcendent trust, the other toward radical investigation.
+			- The core agreement: rejecting the middleman and the form
+				- At their core, both statements represent **an absolute rejection of indirect reality**.
+				- Human minds tend to cling to conceptual proxies to avoid deep internal transformation.
+					- Thomas demanded physical evidence – the wounds – to delay facing the reality of resurrection directly.
+					- Seekers cling to scripture and lineages to feel secure instead of putting out the fire of suffering themselves.
+				- Both teachers declare that the map is not the territory and that all forms must eventually be transcended.
+			- Digesting raw data: from “the seen” to “the unseen” mapping to Śūnyatā
+				- True spiritual growth is the process of converting sensory inputs into internal reality.
+				- The seen – raw data
+					- Sensory inputs, external forms, or “the pipe” that carries the water.
+					- Corresponds directly to **Form** (Rūpa) – the physical world of isolated objects, which minds falsely perceive as static and independent.
+					- Staying at this level leaves the mind immature, constantly begging for external miracles and signs to hold onto.
+				- The unseen – digested content
+					- Experiences that have been fully contemplated, processed, and integrated into one's being.
+					- Corresponds directly to **Emptiness** (Śūnyatā) – the lack of inherent, independent existence in all phenomena.
+					- It is not a void of nothingness, but a dynamic, boundaryless state where the illusion of separation dissolves.
+					- It becomes **an immovable internal constant** – the water flowing endlessly – rather than an object to be analyzed from afar.
+				- The realization of “Form is Emptiness, Emptiness is Form”
+					- Once raw data is digested through deep contemplation, the boundary between the external object and the internal observer collapses.
+					- The seen (Form) and the unseen (Emptiness) are realized as a non-dual unity.
+			- The deconstruction of miracles and limited forms
+				- Christ's compliance with Thomas's demand was not an endorsement of sensory validation.
+				- It was an act of profound compassion – offering a pacifier to a crying child who was still attached to the teacher's physical body.
+				- The blessing for those who “have not seen and yet have believed” is a call to spiritual maturity.
+				- Death and resurrection serve as the ultimate format-breaking event, shattering the physical container (Form) to release the content (the Holy Spirit, or the rỗng lặng nature of reality) everywhere.
 		- Contend arrows (contend, attent, intent, extent) ⇋ Content circles (content, sustent) = mixmatch
 		  id:: 6a4f17a2-8a3d-4df1-996d-4d43268d33c7
 		  collapsed:: true
