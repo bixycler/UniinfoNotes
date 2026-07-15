@@ -1912,6 +1912,60 @@
 					- References
 						- [How the Brain Becomes the Mind: Can Thermodynamics Explain the Emergence and Nature of Emotions?](https://doi.org/10.3390/e24101498) — Deli, J. F., Peters, J. F., & Kisvárday, Z. (2022). Entropy, 24(10), 1498.
 						- [The thermodynamics of cognition: A Mathematical Treatment](https://www.researchgate.net/publication/348427571_The_thermodynamics_of_cognition_A_Mathematical_Treatment) — Deli, J. F., Peters, J. F., & Kisvárday, Z. (2021). ResearchGate preprint.
+				- DOING The cyclic arrow of time
+				  id:: 6a56e24e-b699-4f9d-b41d-1adfff51051d
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2026-07-15 Wed 08:28:48]
+				  CLOCK: [2026-07-15 Wed 08:28:50]
+				  :END:
+					- The sleep–wake diffusion cycle
+						- The classical Second Law only tracks the first half of a complete topological arc.
+						- Forward diffusion: Falling asleep drops the system's resolution, decoupling it from external boundaries.
+							- The low-entropy content blurs into a high-entropy context, mimicking the cosmic arrow of decay.
+						- Inverse diffusion: Waking up initiates an arrow of inference.
+							- The mind uses a latent topological seed to run diffusion backward, pulling the phase space back into a crisp, low-entropy manifold.
+						- The perceived continuous increase of external entropy is a macroscopic illusion – born of a mind that forgets it must go to sleep to close the loop.
+					- Poincaré recurrence and the geometric loop
+						- The Poincaré Recurrence Theorem guarantees that a closed, conservative system will eventually return arbitrarily close to its initial microstate.
+						- The full circle is not a random fluctuation – in a fine-grained universe, it is an absolute mathematical certainty.
+						- Zermelo's Paradox highlights the historical clash between the straight, dissipating arrow of Boltzmann's entropy and the cyclic wheel of Poincaré's geometry.
+					- The subject's timeline
+						- The resolution of Zermelo's paradox hinges entirely on the observer's scale.
+						- To the crude outside mind, the recurrence time is too vast. The image blurs away permanently, creating the dogma that entropy “always increases”.
+						- To the fine inside mind, the recurrence timescale is compressed biologically to complete the cycle.
+							- The living subject actively drops its resolution into sleep and uses its intent to actively pull the trajectories back into alignment upon waking.
+					- Emergence as the second half
+						- Localizing the return
+							- Emergence is the universe's method of localizing order right now, without waiting for the grand cosmic recurrence.
+							- The local internal drop in entropy during crystallization, a growing tree, or a learning mind is a real-time preview of the second half of the circle.
+							- Emergence proves that the universe knows how to execute the return by folding its internal phase space to increase resolution and bind environmental noise.
+						- Channels of least resistance
+							- Growing crystals and living trees do not break the Second Law – they optimize it through the Minimum Entropy Production Principle.
+							- They tame turbulence by acting as inertial brakes on the chaotic mixing of the universe, converting explosive bursts of chaos into efficient, laminar flows.
+						- The death of the external observer
+							- The total entropy ledger relies on a “dead view” – the fiction of an isolated, non-participating observer standing outside a sterile box.
+							- Life is topologically invasive. As the living sink grows and learns, it reorganizes the chaotic background, pushing the dead zone outward.
+							- The external observer is eventually swallowed by the expanding boundary of the living system – forcibly upgraded from a crude accountant of external friction into a correlated node within the internal sheaf.
+					- The thermodynamics of liberation
+						- Mapping the contemplative physics
+							- Impermanence: The one-way arrow of classical entropy.
+								- The un-halting breakdown of macrostates and the source of friction for a mind clinging to a static image.
+							- Samsara: The coarse-grained full circle guaranteed by Poincaré.
+								- The structural wheel where dissolved phase space inevitably loops and re-manifests.
+							- Rebirth: The literal emergence of the local entropy sink.
+								- The exact moment latent information folds back into a crisp new node to compress the phase space.
+						- The perfect sink
+							- Historical escapism treats liberation (Moksha / Nirvana) as the ultimate “Pump” – building a rigid wall to run away into a cold, static, zero-entropy void.
+							- True liberation is the exact opposite: realizing the state of the ultimate Sink at the calm, near-equilibrium center of the wheel.
+							- Operating as a near-equilibrium flow stepping closer to the calm center of the wheel, the living node acts as a geometric vacuum, sucking in high-energy gradients and passing them through flawlessly.
+							- By operating near equilibrium at this exact center, the subject drops its boundary friction to absolute zero, becoming a perfectly transparent lattice.
+							- It does not fight the external variance but completely yields to it, allowing the chaos and impermanence of the universe to pass right through the internal sheaf without snagging on a static identity – turning the most violent turbulence into an effortless, highly conductive presence.
+						- The engine of the wheel
+							- If the perfect Sink sits at the calm, near-equilibrium center, the unliberated “Pumps” populate the violent outer rim, operating far from equilibrium.
+							- By actively resisting impermanence, these rigid nodes generate massive thermodynamic friction, dumping explosive heat and chaos into the surrounding environment.
+							- Driven by the Maximum Entropy Production Principle, these highly stressed nodes act as far-from-equilibrium dissipative engines, shattering symmetries to aggressively maximize the dissipation of energy.
+							- This exothermic resistance is not just an error – it is the literal thermodynamic engine of Samsara. The unliberated masses drive the macroscopic spin of the wheel with the sheer kinetic energy of their own friction and suffering.
 	- ## space
 	  id:: 68fa1647-2d46-433e-b1ca-29f757b5ef62
 	  collapsed:: true

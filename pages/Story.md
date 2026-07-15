@@ -2651,11 +2651,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 10th, professional work
 			- 11-12th, weekend: entropy, life, self-doubt and believe the unseen
 			  collapsed:: true
-				- [Chat with Gemini](https://share.gemini.google/hx9lQbjX6aWh) about the hidden agreement between Christ's “not seen yet believe” and Buddha's come to see yourself (Ehipassiko).
+				- [Chat with Gemini](https://share.gemini.google/hx9lQbjX6aWh) about ((6a56df62-9cd3-4fda-8408-3d5cacb1ebe8)).
 					- Published a post: [Khi Chúa Giê-su và Phật Thích Ca “Gặp Nhau” Ở Tận Cùng Thực Tại](https://creatzynotes.blogspot.com/2026/07/khi-gie-su-va-phat-thich-ca-gap-nhau-o.html)
 				- [AlphaEvolve](https://docs.cloud.google.com/gemini/enterprise/docs/alphaevolve/developer-guide/overview) to optimize codebase, provided a deterministic client-side evaluation script for performance criteria, [now available to everyone on Google Cloud](https://cloud.google.com/blog/products/ai-machine-learning/alphaevolve-is-available-for-everyone).
 				- [Comparing thermodynamics to marbles and their shadows](https://carbonchemist.com/mathematics-of-thermodynamics-is-being-rewritten-after-200-years/), separating the internal heat from the observable work, putting heat up to the bundle space of gauge theory, we can eventually show that entropy is conserved instead of ever increasing.
-					- => A [heated chat with Gemini](https://gemini.google.com/app/94f26f6565b3da93) about ((6a562439-0ace-4f34-b134-0d7b712bea8a))
+					- => A [heated chat with Gemini](https://gemini.google.com/app/94f26f6565b3da93) about ((6a562439-0ace-4f34-b134-0d7b712bea8a)) and ((6a56e24e-b699-4f9d-b41d-1adfff51051d))
 				- Descartes' full statement should be [“I doubt, therefore I think, therefore I am.”](https://www.psychologytoday.com/us/blog/the-digital-self/202607/before-i-think-therefore-i-am)
 					- The universal root is the liar paradox “i doubt myself”, whereas ”I think“ is just a trunk in infinitely many trunks:  ”I believe“, ”I feel“,  ”I predict“, etc.
 						- Every single one of these trunks – whether it is believing, predicting, feeling, or acting – eventually decays or hits a limit.

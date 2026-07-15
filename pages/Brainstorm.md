@@ -11,11 +11,12 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2026 Brainstorms
 	  id:: 6960e754-ff94-4e1a-8266-d9f15231b880
-		- DOING The hidden agreement between Christ's “not seen yet believe” and Buddha's _come to see yourself (Ehipassiko)_
+		- The hidden agreement between Christ's “not seen yet believe” and Buddha's _come to see yourself (Ehipassiko)_
+		  id:: 6a56df62-9cd3-4fda-8408-3d5cacb1ebe8
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2026-07-15 Wed 08:16:20]
-		  CLOCK: [2026-07-15 Wed 08:16:22]
+		  CLOCK: [2026-07-15 Wed 08:16:22]--[2026-07-15 Wed 08:26:27] =>  00:10:05
 		  :END:
 			- The superficial contradiction of two spiritual pathways
 				- Christ's message to Thomas demands an unconditional trust:
@@ -48,7 +49,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Christ's compliance with Thomas's demand was not an endorsement of sensory validation.
 				- It was an act of profound compassion – offering a pacifier to a crying child who was still attached to the teacher's physical body.
 				- The blessing for those who “have not seen and yet have believed” is a call to spiritual maturity.
-				- Death and resurrection serve as the ultimate format-breaking event, shattering the physical container (Form) to release the content (the Holy Spirit, or the rỗng lặng nature of reality) everywhere.
+				- Death and resurrection serve as the ultimate format-breaking event, shattering the physical container (Form) to release the content (the Holy Spirit, or the empty nature of reality) everywhere.
 		- Contend arrows (contend, attent, intent, extent) ⇋ Content circles (content, sustent) = mixmatch
 		  id:: 6a4f17a2-8a3d-4df1-996d-4d43268d33c7
 		  collapsed:: true
