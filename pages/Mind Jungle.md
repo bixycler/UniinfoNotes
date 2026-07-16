@@ -1586,16 +1586,22 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- **Keep flowing** _on the river of life_ toward the ocean is the way of liberation, as guided by the Buddha.
 					  collapsed:: true
 						- In [SN 35.241. The Simile of the Floating Log](https://suttacentral.net/sn35.241/en/bodhi), the Buddha showed 8 traps for a practitioner on the way to the ocean of Nibbāna: caught up in a whirlpool > caught on the near bank or the far bank > stranded on high ground > rot inside > taken by humans or non-humans > sink mid-stream.
-						- Here, the traps are sorted in the order of liberation, which is different from the pairing order in the sutta.
-							- Liberation order
-								- Worldly regime
-								- Otherworldly regime
-									-
-							- Pairing order in the sutta
-								- Near Bank – Far Bank
-								- Sink Mid-stream – Stranded on High Ground
-								- Humans – Non-humans
-								- Rotate Around – Rot Inside
+						- Liberation order
+							- Worldly regime
+								- Caught up in the whirlpool of 5 senses
+								- Caught on the near bank of 6 sense bases
+								- Caught on the far bank of 6 sense objects
+								- Stranded on high ground of self
+								- Rot inside a fake polished shell
+								- Taken by humans to  the world
+							- Otherworldly regime:
+								- Taken by non-humans to the “heavens”
+								- Sink mid-stream down internal bliss like samadhi
+						- Different from the order of liberation here, in the sutta, the traps are sorted in the pairing order.
+							- Near Bank – Far Bank
+							- Sink Mid-stream – Stranded on High Ground
+							- Humans – Non-humans
+							- Rotate Around – Rot Inside
 			- ### reset
 			  id:: 67445065-15b2-475e-a704-78f140d487af
 			  collapsed:: true
