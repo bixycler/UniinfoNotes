@@ -1585,7 +1585,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- **Keep flowing** _on the river of life_ toward the ocean is the way of liberation, as guided by the Buddha.
 					  collapsed:: true
-						- In [SN 35.241. The Simile of the Floating Log](https://suttacentral.net/sn35.241/en/bodhi), the Buddha showed 6 traps for a practitioner on the way to the ocean of Nibbāna: caught up in a whirlpool > caught on the near bank or the far bank > rot inside
+						- In [SN 35.241. The Simile of the Floating Log](https://suttacentral.net/sn35.241/en/bodhi), the Buddha showed 8 traps for a practitioner on the way to the ocean of Nibbāna: caught up in a whirlpool > caught on the near bank or the far bank > stranded on high ground > rot inside > taken by humans or non-humans > sink mid-stream.
+						- Here, the traps are sorted in the order of liberation, which is different from the pairing order in the sutta.
+							- Pairing order in the sutta
+								- Near Bank – Far Bank
+								-
 			- ### reset
 			  id:: 67445065-15b2-475e-a704-78f140d487af
 			  collapsed:: true
