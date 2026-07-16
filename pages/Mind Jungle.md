@@ -1583,9 +1583,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- Không sao hết! Mọi thứ rồi sẽ qua, không sao hết!
 							- Không tham đắm! Hay mấy rồi cũng qua, không tham đắm!
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-					- **Keep flowing** in the river of life toward the ocean is the way of liberation, as guided by the Buddha.
+					- **Keep flowing** _on the river of life_ toward the ocean is the way of liberation, as guided by the Buddha.
 					  collapsed:: true
-						- In [SN 35.241. The Simile of the Floating Log](https://suttacentral.net/sn35.241/en/bodhi), the Buddha showed 6 traps for a practitioner on the way to the ocean of
+						- In [SN 35.241. The Simile of the Floating Log](https://suttacentral.net/sn35.241/en/bodhi), the Buddha showed 6 traps for a practitioner on the way to the ocean of Nibbāna: caught up in a whirlpool > caught on the near bank or the far bank > rot inside
 			- ### reset
 			  id:: 67445065-15b2-475e-a704-78f140d487af
 			  collapsed:: true
