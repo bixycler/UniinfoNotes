@@ -1586,23 +1586,35 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- **Keep flowing** _on the river of life_ toward the ocean is the way of liberation, as guided by the Buddha.
 					  id:: 6a58b4bc-7fa1-45d3-a1cc-1bf666dca4cd
 					  collapsed:: true
-						- In [SN 35.241. The Simile of the Floating Log](https://suttacentral.net/sn35.241/en/bodhi), the Buddha showed 8 traps for a practitioner on the way to the ocean of Nibbāna: caught up in a whirlpool > caught on the near bank or the far bank > stranded on high ground > rot inside > taken by humans or non-humans > sink mid-stream.
-						- Liberation order
-							- Worldly regime
-								- Caught up in the whirlpool of 5 senses and samsara
-								- Caught on the near bank of 6 sense bases
-								- Caught on the far bank of 6 sense objects
-								- Stranded on the high ground of self
-								- Rot inside a fake polished shell
-								- Taken by humans to keep in the worldly regime
-							- Otherworldly regime:
-								- Taken by non-humans to the “heavens”
-								- Sink mid-stream down internal bliss like samadhi
-						- Different from the order of liberation here, in the sutta, the traps are sorted in the pairing order.
-							- Near Bank – Far Bank
-							- Sink Mid-stream – Stranded on High Ground
-							- Humans – Non-humans
-							- Rotate Around – Rot Inside
+						- Introduction
+							- The Buddha uses [SN 35.241. The Simile of the Floating Log](https://suttacentral.net/sn35.241/en/bodhi) to illustrate the journey of a practitioner toward the ocean of Nibbāna.
+							- A log floating down the Ganges will successfully reach the ocean only if it avoids eight specific traps along the way.
+							- These eight traps represent developmental blockages – some worldly, some otherworldly – that prevent complete spiritual liberation.
+						- Two regimes of traps
+							- The traps can be mapped into two distinct progressive developmental phases: the **worldly regime** and the **otherworldly regime**.
+							- The worldly regime
+								- **Caught up in the whirlpool**: This represents being trapped in the **whirlpool of the five senses** and the endless cycle of samsara.
+									- Practitioner's expression: Being overwhelmed by the restless energy of general desires – constantly bouncing between hungers or feeling swept away by the chaotic pull of worldly gratification.
+								- **Caught on the near bank**: This is attachment to the internal **six sense bases** – eye, ear, nose, tongue, body, and mind.
+									- Practitioner's expression: Over-identifying with the internal faculties of perception – clinging to one's own intellect, claiming ownership over thoughts, or retreating into the comfort zone of familiar mental and sensory habits.
+								- **Caught on the far bank**: This is attraction to the external **six sense objects** – forms, sounds, odors, flavors, tactiles, and ideas.
+									- Practitioner's expression: Becoming fixated on the specific traits of external stimuli – obsessing over the aesthetics of a practice space or getting glued to the pleasantness or annoyance of specific sounds and forms.
+								- **Stranded on high ground**: This represents being stranded on the **high ground of self** – the conceit of “I am”.
+									- Practitioner's expression: Comparing spiritual progress with others, feeling superior due to knowledge, and harboring subtle pride in meditative accomplishments.
+								- **Rotting inside**: This represents **spiritual hypocrisy** – maintaining an outer facade of virtue or attainment while being hollow and impure within.
+									- Practitioner's expression: Performing rituals purely for public validation, hiding internal doubts or ethical lapses, and prioritizing reputation over mental purity.
+									- Relationship with previous traps: Being caught up on the banks or stranded on high ground, the log will rot bit by bit inside while keeping the perfect shell facing the world.
+								- **Taken by humans**: This occurs when the practitioner gets **entangled with lay society** – socializing, seeking fame, or becoming trapped by worldly relationships and duties.
+									- Practitioner's expression: Spending excessive time in social chit-chat, getting overly involved in administrative tasks, and compromising spiritual discipline to please laypeople.
+							- The otherworldly regime
+								- **Taken by non-humans**: This represents being waylaid by the desire for rebirth in the **“heavens” or celestial realms**.
+								- **Sinking mid-stream**: This represents sinking down into the **internal bliss** of samadhi – becoming attached to the deep peace of meditative absorptions.
+						- The structural pairings in the Sutta
+							- Unlike the progressive order of liberation, the Buddha lists the traps in functional pairs.
+							- **Near Bank – Far Bank**: This pair represents the internal-to-external sensory attachment – the interface where contact occurs.
+							- **Sink Mid-stream – Stranded on High Ground**: This pair links the deep internal quietude of absorption with the elevated, proud structure of egoic conceit.
+							- **Humans – Non-humans**: This pair represents being captured by gross physical society versus subtle spiritual realms.
+							- **Whirlpool – Rot Inside**: This pair connects the active external spinning of worldly life with the stagnant internal rot of spiritual hypocrisy.
 			- ### reset
 			  id:: 67445065-15b2-475e-a704-78f140d487af
 			  collapsed:: true
