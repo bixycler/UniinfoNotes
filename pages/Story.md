@@ -2672,6 +2672,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- In May, [HTV started to block all AI sites](((6a151374-b325-4339-9152-2e2b7a6304e0))), forcing me to work around... first [with OpenRouter](((6a18f533-8363-41ee-ad39-367c8fdeb543))).
 					- This week, OpenRouter is also blocked, so i switch to Cloudflare AI Gateway.
 					- Until now, can i migrate to Vertex AI after passing many hurdles.
+			- 15-16th, ...
+				- ((6a58b4bc-7fa1-45d3-a1cc-1bf666dca4cd))
+					- This reminded me of Dory's song [Just Keep Swimming!](https://youtu.be/y9FGsJ3PYVw).
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a46244d-2376-4549-b716-19538d7042fd))

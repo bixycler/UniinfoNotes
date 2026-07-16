@@ -1584,16 +1584,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- Không tham đắm! Hay mấy rồi cũng qua, không tham đắm!
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- **Keep flowing** _on the river of life_ toward the ocean is the way of liberation, as guided by the Buddha.
+					  id:: 6a58b4bc-7fa1-45d3-a1cc-1bf666dca4cd
 					  collapsed:: true
 						- In [SN 35.241. The Simile of the Floating Log](https://suttacentral.net/sn35.241/en/bodhi), the Buddha showed 8 traps for a practitioner on the way to the ocean of Nibbāna: caught up in a whirlpool > caught on the near bank or the far bank > stranded on high ground > rot inside > taken by humans or non-humans > sink mid-stream.
 						- Liberation order
 							- Worldly regime
-								- Caught up in the whirlpool of 5 senses
+								- Caught up in the whirlpool of 5 senses and samsara
 								- Caught on the near bank of 6 sense bases
 								- Caught on the far bank of 6 sense objects
-								- Stranded on high ground of self
+								- Stranded on the high ground of self
 								- Rot inside a fake polished shell
-								- Taken by humans to  the world
+								- Taken by humans to keep in the worldly regime
 							- Otherworldly regime:
 								- Taken by non-humans to the “heavens”
 								- Sink mid-stream down internal bliss like samadhi
