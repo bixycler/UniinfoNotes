@@ -2680,7 +2680,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- The story of the Buddha defeating Mara in Mahayana's Lalitavistara Sutra has been developed from the Pali Canon's [Padhāna Sutta](https://suttacentral.net/snp3.2/en/sujato), which is included in full right at the start of Chapter 18 of the Lalitavistara Sutra.
 					- ⇒ Found my treasure: ((6a58b4bc-7fa1-45d3-a1cc-1bf666dca4cd))
 						- This reminded me of Dory's song [Just Keep Swimming!](https://youtu.be/y9FGsJ3PYVw).
-				- Contemplating the piling stack of personal TODOs and DOINGs, i decide to let them unfinished then [empty the stack](((699e702a-2eac-4fcf-8356-dbfbc8c54279))), shifting from synchronous to asynchronous processing.
+				- Contemplating the piling stack of personal TODOs and DOINGs, i decide to let them unfinished then [empty the stack](((699e702a-2eac-4fcf-8356-dbfbc8c54279))), shifting from linear/synchronous to nonlinear/asynchronous processing.
 					- This shift is my first move toward the ((699e56cd-b1d4-41fb-8e30-ec393a5db8e9)).
 					- ((6a599e55-4b6b-405d-aa43-e494bc86b7b2))
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
