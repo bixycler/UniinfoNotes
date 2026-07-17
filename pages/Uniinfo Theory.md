@@ -1365,6 +1365,15 @@
 							- Project-specific knowledges like lessons, workflows, designs are tightly coupled with the codes.
 			- Applets
 				- `gc-log-graph`
+				  collapsed:: true
+					- DOING Upgrade `gc-log-graph` to Solid to improve performance
+					  id:: 699c035e-c811-43ad-95e5-79ca991a611b
+					  collapsed:: true
+					  :LOGBOOK:
+					  CLOCK: [2026-01-14 Wed 20:27:56]
+					  CLOCK: [2026-03-11 Wed 14:13:56]
+					  :END:
+						- TODO Check `npm run build` to publish `assets/` as is and include `.sh`, `.log` files.
 					- Add docs to `gc-log-graph` → [!] Vite issues to be solved
 					  id:: 69c51a3e-cabd-4b3a-846e-858e8233a404
 					  collapsed:: true
@@ -1377,7 +1386,6 @@
 							  :LOGBOOK:
 							  CLOCK: [2026-03-25 Wed 18:31:33]
 							  :END:
-					-
 	- ## Omnifold
 	  id:: 675c03d8-3185-41a8-9f98-e869fabec793
 	  collapsed:: true
