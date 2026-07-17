@@ -2674,12 +2674,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Until now, can i migrate to Vertex AI after passing many hurdles.
 			- 15-16th, two other days... intended to do office work but ended up with personal work, due to my inner chaos.
 			  collapsed:: true
-				- I decided to buy a new laptop, instead of repairing the old one, to be a private proxy around the HTV's firewall.
+				- I decided to buy a new laptop, instead of repairing the old one, to be a private proxy through the HTV's firewall.
 					- I also chose models with NPU, instead of GPU, for running local AI models.
 				- [Chatted with Google AI Mode](https://share.google/aimode/YVByraZVXZ2VQRpOd), from the earth witness to the floating log simile.
 					- The story of the Buddha defeating Mara in Mahayana's Lalitavistara Sutra has been developed from the Pali Canon's [Padhāna Sutta](https://suttacentral.net/snp3.2/en/sujato), which is included in full right at the start of Chapter 18 of the Lalitavistara Sutra.
 					- ⇒ Found my treasure: ((6a58b4bc-7fa1-45d3-a1cc-1bf666dca4cd))
 						- This reminded me of Dory's song [Just Keep Swimming!](https://youtu.be/y9FGsJ3PYVw).
+				- Contemplating the piling stack of personal TODOs and DOINGs, i decide to let them be unfinished and empty the stack, shifting from synchronous to asynchronous processing.
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a46244d-2376-4549-b716-19538d7042fd))
