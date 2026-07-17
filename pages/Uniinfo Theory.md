@@ -2808,10 +2808,10 @@
 					- ((677e76ed-b324-4608-b146-90e8fcfa0c32)) in ((667c0031-0a87-44c9-9e98-6d45893b095f)) – its fixaton & relaxation
 					  id:: 69a502fe-1764-4e4d-85a4-ca0eff9c0754
 					  collapsed:: true
-						- The [first cause](((699c0362-eb81-42c5-843c-2559d2fe7b73))): gap, broken, error, missing, unknown, question, mismatch, problem, pain, suffering, failure, the “negativity” in general
+						- The [first cause](((699c0362-eb81-42c5-843c-2559d2fe7b73))): gap, broken, error, missing, unknown, question, mismatch, problem, pain, suffering, failure, the “negativity” (yin, 陰/阴) in general
 						  id:: 69a502fe-ccb2-422d-a292-e4854e87fd90
-						- The [final cause](((699c0362-f864-4879-9a07-204b96472cb0))): whole, form, the “positivity” in general
-							- This is usually *fixed* which forms the **self-attachment**.
+						- The [final cause](((699c0362-f864-4879-9a07-204b96472cb0))): whole, form, the “positivity” (yang, 陽/阳) in general
+							- This is usually *fixed*, whose fixation forms the **self-attachment**.
 						- The clinging self: a fixed form of the whole, a permanent last cause
 							- The fixation: by fixing the self-image, the obop creates a permanent & unchangable “hidden boss” controlling every action from behind, hence the term “subject”.
 							- The nonfunctional: Due to that fixation, whenver there are conflicts unsolvable by the hidden boss, it exessively consumes resources to wrestle, occupying valuable free space with nonfunctional and even dysfunctional energy.
