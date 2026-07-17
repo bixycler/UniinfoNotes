@@ -1966,6 +1966,15 @@
 							- By actively resisting impermanence, these rigid nodes generate massive thermodynamic friction, dumping explosive heat and chaos into the surrounding environment.
 							- Driven by the Maximum Entropy Production Principle, these highly stressed nodes act as far-from-equilibrium dissipative engines, shattering symmetries to aggressively maximize the dissipation of energy.
 							- This exothermic resistance is not just an error – it is the literal thermodynamic engine of Samsara. The unliberated masses drive the macroscopic spin of the wheel with the sheer kinetic energy of their own friction and suffering.
+				- past form = copy of present form = mixture of present content
+				  collapsed:: true
+					- the the root confusion is between form and content.
+					- the past content has gone (to present content), only the past form remains.
+					- The actual past is the **reconstructed** events by pouring live content in the present to dead forms (segments) of history.
+					- the block universe model records the past micro form to conflate/confuse it with past content relative to the past macro form.
+					- entropy is the measure of mismatch between forms (micro over macro) = $\log(e = c/i)$
+					- many-to-one mapping is the view cone => abstract  content to external form, mix with intent (inner form) to produce new form via action
+					- entropy increase by effect cone
 	- ## space
 	  id:: 68fa1647-2d46-433e-b1ca-29f757b5ef62
 	  collapsed:: true

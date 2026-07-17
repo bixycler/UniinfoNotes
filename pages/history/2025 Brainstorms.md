@@ -615,7 +615,7 @@ id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
 	  collapsed:: true
 		- uninet is a kind of [complex adaptive system (CAS)](https://en.wikipedia.org/wiki/Complex_adaptive_system).
 		- Newtonian mechanics = reductionism = bottom-up determinism = Turing machine = foundationalism = closed linear system
-			- Bottom-up building means taking a micro form to be the first brick, discarding its underlying content which is the whole root system in .
+			- Bottom-up building means taking a micro form to be the first brick, discarding its underlying content which is the whole ((6a3cef74-b7cd-4cb6-b4eb-00ca70f74f22)).
 			- Quantum mechanics = nondeterminism = opposite of Newtonian = ANN & LLM = open linear system
 				- ANN is top-down determined (trained), so its capability cannot exceed its source (training data).
 			- Both Turing machine & LLM are linear worker, no branching of alternatives (possibilities).
