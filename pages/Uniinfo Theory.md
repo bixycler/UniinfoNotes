@@ -2800,7 +2800,7 @@
 						- I don't use the term “final cause” like Aristotle because [the goal is the horizon](((67445223-9459-4aa9-b102-70c63943577b))):
 							- 1) _in a single circle_, it's both the first (as the seed), and the last (as the purpose), and
 							- 2) throughout the never ending cycle of effect, it will never be “final”.
-						- At first, the , as a seed, the intent gives rise to the whole tree, i.e. ((66c810a0-9861-4787-bdcf-1378219332be)) of karma, the yang (visible, positive) arrow folding into the circle.
+						- At first, as a seed, the intention of [resolving the yin arrow](((699c0362-eb81-42c5-843c-2559d2fe7b73))) gives rise to the whole tree, i.e. ((66c810a0-9861-4787-bdcf-1378219332be)) of karma, [the yang arrow](((6a5a17e9-a977-4884-a73d-49ede5ef4b11))) folding into the circle.
 						- At last, the fruits of the body are selected by the intent to satisfy the criteria of the purpose.
 						- The statement that “the first cause is also the final cause” is similar to [Aquinas' 5th Way](https://en.wikipedia.org/wiki/Five_Ways_(Aquinas)#Fifth_way:_Argument_from_Final_Cause_or_Ends), but for the immanent God – the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) – instead of a transcendent God.
 						  id:: 692d69f0-ff24-4d71-a95c-2e27ebb28c7d
@@ -2831,12 +2831,16 @@
 					  id:: 68a7e246-8407-4e89-b393-912db172e4fe
 					  collapsed:: true
 					  = openness = porosity = entropy increase = arrow of time = mismatch between form & content =  curvature in distribution
-						- First cause: The problem/question is the gap in the circle, the absence of the result/answer.
+						- First cause – the Yin (invisible, negative) arrow
 						  id:: 699c0362-eb81-42c5-843c-2559d2fe7b73
+							- The problem/question is the gap in the circle, the absence of the result/answer.
 							- This absence breaks the circle, leading to the urge to heal it, to make it complete by finding solution/answer.
-						- View cone projects the process of resolution (quest, solving, working out, reasoning, proof, derivation, exploration, etc.), i.e. know-how (efficient cause), to the result/answer (know-where, know-what, formal cause).
-						- Final cause: The verification/qualification of the solution/answer closes the effect circle.
+						- Efficient cause – the Yang (visible, positive) arrow body
+						  id:: 6a5a17e9-a977-4884-a73d-49ede5ef4b11
+							- The view cone projects the process of resolution (quest, solving, working out, reasoning, proof, derivation, exploration, etc.), i.e. know-how (efficient cause), to the result/answer (know-where, know-what, formal cause).
+						- Final cause – the Yang (visible, positive) arrowhead
 						  id:: 699c0362-f864-4879-9a07-204b96472cb0
+							- The verification/qualification of the solution/answer closes the effect circle.
 							- ((6667c99a-792f-4230-9fc6-c5fae874daef)): As long as there's still gaps, mismatch, imbalance, unknown, inequality, and so on, there's still motion – transition of effect circle – toward balance, the final target.
 							- The “final cause” in [4 causes by Aristotle](https://en.wikipedia.org/wiki/Four_causes) corresponds to this half of the intentional cause.
 						- ⇒ The intentional cause is “final” in the ((667bda02-8dc9-488e-ba16-ea75c3d7895c)), but “first” in the ((667bd93a-cce4-4dbf-9831-725e4dffe463)).
