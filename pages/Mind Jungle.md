@@ -2744,8 +2744,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Shift from task management → incompleteness management:
 						  id:: 6a599e55-4b6b-405d-aa43-e494bc86b7b2
 							- The tags `TODO`, `DOING`, `WAIT` are left there to mark their status.
-							- Even unfinished, these items are placed in the position fitting their content and/or referenced by relating nodes.
-							- They will be revisited when relating nodes are touched later on.
+							- Even unfinished, these items are placed in the position fitting their content and/or referenced by related nodes.
+							- They will be revisited when related nodes are touched later on.
 				- [!] The issue of love, i.e. emotional attachment
 				  id:: 67b541cf-323e-4efd-8d6e-ccb2c9d017ff
 				  collapsed:: true
