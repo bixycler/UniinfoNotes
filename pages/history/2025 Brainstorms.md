@@ -610,15 +610,16 @@ id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
 			- question = issue = problem = target = root intent $i_0$
 			- answer = solution = stable trajectory (Newtonian, least action) = image of the world protected onto the root intent
 			- solving process = all possible trajectories (quantumic) = traversing the world by known vehicles (intents) = raw world (source of projection)
-	- Compare uninet with other systems
+	- Compare ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)) with other systems
 	  id:: 68c76d9f-0ae4-4e93-b8de-1b79a3400fc8
 	  collapsed:: true
 		- uninet is a kind of [complex adaptive system (CAS)](https://en.wikipedia.org/wiki/Complex_adaptive_system).
 		- Newtonian mechanics = reductionism = bottom-up determinism = Turing machine = foundationalism = closed linear system
+			- Bottom-up building means taking a micro form to be the first brick, discarding its underlying content which is the whole root system in .
 			- Quantum mechanics = nondeterminism = opposite of Newtonian = ANN & LLM = open linear system
 				- ANN is top-down determined (trained), so its capability cannot exceed its source (training data).
 			- Both Turing machine & LLM are linear worker, no branching of alternatives (possibilities).
-		- Unithread = middle out determinism = circular determinism = superdeterminism = vacantism = open circular system
+		- Unithread = middle-out determinism = circular determinism = superdeterminism = vacantism = open circular system
 		  id:: 6926be1c-d482-4601-a32c-91f18e6c8e03
 			- Start from the herenow and ripple out.
 			- Uninet continuously learns from life, hence unlimited capacity.
