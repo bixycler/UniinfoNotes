@@ -2674,7 +2674,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Until now, can i migrate to Vertex AI after passing many hurdles.
 			- 15-16th, two other days... intended to do office work but ended up with personal work, due to my inner chaos.
 			  collapsed:: true
-				- I decided to buy a new laptop, insteading repairing the old one, with NPU for local AI models.
+				- I decided to buy a new laptop, instead of repairing the old one, to be a private proxy around the HTV's firewall.
+					- I also chose models with NPU, instead of GPU, for running local AI models.
 				- [Chatted with Google AI Mode](https://share.google/aimode/YVByraZVXZ2VQRpOd), from the earth witness to the floating log simile.
 					- The story of the Buddha defeating Mara in Mahayana's Lalitavistara Sutra has been developed from the Pali Canon's [Padhāna Sutta](https://suttacentral.net/snp3.2/en/sujato), which is included in full right at the start of Chapter 18 of the Lalitavistara Sutra.
 					- ⇒ Found my treasure: ((6a58b4bc-7fa1-45d3-a1cc-1bf666dca4cd))
