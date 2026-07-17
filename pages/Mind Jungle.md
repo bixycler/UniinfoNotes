@@ -2469,12 +2469,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- #### Problems
 			  id:: 6651adea-46e0-40ea-8fc4-3ef394068b0f
 				- ...
-				- [!] My expression of "arrogance"
+				- [!] My expression of “arrogance”
 				  collapsed:: true
 					- Even i've never thought that i'm better/higher than anyone else, my expression does show some trace of arrogance which has been fed back by my (close) friends. Is shows something is hidden deep inside my unconsciousness. Here i list some causes that i can reflect on this problem.
 					- 1st, the **illusion of** ((66537674-6cf9-4459-8bea-7c1858c694a3))
 					  id:: 669a58b9-422a-40d9-adcf-b2aade86c170
-					  The (holistic) view from above shows me the way and makes me feel that "i've known the way already, it's just a piece of cake" and forget that it's just a "map" and the actual walking the way is much much harder with much more efforts.
+					  The (holistic) view from above shows me the way and makes me feel that “i've known the way already, it's just a piece of cake” and forget that it's just a "map" and the actual walking the way is much much harder with much more efforts.
 						- I've called it by many names: the karma of theorist (theorist karma), the sickness of talent (talent sickness).
 						- My karma of theorist also corrodes others' trust on me.
 						  id:: 668f4faf-db30-497a-a271-b2bbf5264413
@@ -2741,6 +2741,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- So, the true [returning](((699c0362-5189-4cee-bcb5-84b6ff8574fe))) is not to stop at the holistic core, but to penetrate it through its pores to enter the ((69086748-b6e9-47c0-810b-4a92f882d6bc)).
 							- In the [cyclone model](((673312a3-e94e-478f-9e21-bad72ef29d1b))), the holistic core is just the eyewall, and the empty center is the eye.
 						- That empty center frees the intents from the strict order of the stack, making them equal together.
+						- Shift from task management → incompleteness management:
+						  id:: 6a599e55-4b6b-405d-aa43-e494bc86b7b2
+							- The tags `TODO`, `DOING`, `WAIT` are left there to mark their status.
+							- Even unfinished, these items are placed in the position fitting their content and/or referenced by relating nodes.
+							- They will be revisited when relating nodes are touched later on.
 				- [!] The issue of love, i.e. emotional attachment
 				  id:: 67b541cf-323e-4efd-8d6e-ccb2c9d017ff
 				  collapsed:: true
