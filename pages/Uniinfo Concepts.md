@@ -1463,7 +1463,7 @@
 			  id:: 67315ec8-cbe8-467c-81c4-d4d0e8750824
 			  is the current internal condition for awareness.
 				- For some object to be aware of, it must be projected through a ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) into a single quantum.
-			- **qualification**: qualiton matching the [object's quantum](((67315ec8-cbe8-467c-81c4-d4d0e8750824))) with the [subject's quantum](((672ad2fd-ce09-4831-a9f6-67d95a2654a3)))
+			- **qualification**: ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) matching the [object's quantum](((67315ec8-cbe8-467c-81c4-d4d0e8750824))) with the [subject's quantum](((672ad2fd-ce09-4831-a9f6-67d95a2654a3)))
 			  id:: 681826ac-f5f2-4a84-a5f5-c110937ec85f
 			  is the current direct condition for awareness.
 				- To be aware of a form, the qualiton correspondent to that form must be alive (active) in the subject. This qualiton matches the object's quantum projected from sensation with the subject's quantum recorded in the past. While the object's quantum relates to object's content and the world, i.e. the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)), the subject's quatum relates to the state and other contents of the subject, i.e. the ((66ea8df3-d2f3-4856-b24a-5095dd285f9b)).
