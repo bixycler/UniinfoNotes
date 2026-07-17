@@ -2503,9 +2503,9 @@
 		  :LOGBOOK:
 		  CLOCK: [2026-06-17 Wed 16:05:13]
 		  :END:
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) While a composite ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)) has a range of resolution, an atomic obop (qualiton) has a single resolution. ((699c0362-477c-4771-91bd-c91456dae158))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) While a composite ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)) has a range of resolution, an atomic obop (qualiton) has a single resolution. ((699c0362-477c-4771-91bd-c91456dae158))...
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-				- About the “resolution”
+				- About the term “resolution”
 				  collapsed:: true
 					- Meaning and evolution
 						- Origin: from Latin *resolvere*, meaning to untie, loosen, or dissolve a complex substance.
