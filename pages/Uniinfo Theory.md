@@ -2784,7 +2784,7 @@
 			- ### intentional cause
 			  id:: 677e76ed-b324-4608-b146-90e8fcfa0c32
 			  collapsed:: true
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((677e76ed-b324-4608-b146-90e8fcfa0c32)) is the ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)) of the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) of the ((667c0031-0a87-44c9-9e98-6d45893b095f)). As the first cause (source), it's the operator driving the effect flow, and as the final cause (sink), it's the observer [qualifying](((681826ac-f5f2-4a84-a5f5-c110937ec85f))) the ((669a1bec-3347-4915-83e4-dcffc4d482d1)) of the effect circle. In Unïnfo, its the ((66f3d5cc-0d68-47bb-b09a-87cda33c7354)) in the Trinion, the mixmatch of the threads, the arrowhead and the circle's opening. In life, it's the question, the problem, the mismatch, and generally the yin (negative & hidden) part of the world.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((677e76ed-b324-4608-b146-90e8fcfa0c32)) is the ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)) of the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) of the ((667c0031-0a87-44c9-9e98-6d45893b095f)) which keeps the circle whole and alive. As the first cause (source), it's the operator driving the effect flow, and as the final cause (sink), it's the observer [qualifying](((681826ac-f5f2-4a84-a5f5-c110937ec85f))) the ((669a1bec-3347-4915-83e4-dcffc4d482d1)) of the effect circle. In Unïnfo, its the ((66f3d5cc-0d68-47bb-b09a-87cda33c7354)) in the Trinion, the mixmatch of the threads, the arrowhead and the circle's opening. In life, it's the question, the problem, the mismatch, and generally the yin (negative & hidden) part of the world.
 					- Diagram
 					  collapsed:: true
 						- ![OuroborosTrinion](https://docs.google.com/drawings/d/e/2PACX-1vRqW5erSVHBkU5Zbt-UntR9Yo-49Dx9C58evxiLUTsdPOYCPLEppLbk6nXsjaPcJvtklBwqHel-5pVw/pub?w=300)
@@ -2841,6 +2841,7 @@
 							- The “final cause” in [4 causes by Aristotle](https://en.wikipedia.org/wiki/Four_causes) corresponds to this half of the intentional cause.
 						- ⇒ The intentional cause is “final” in the ((667bda02-8dc9-488e-ba16-ea75c3d7895c)), but “first” in the ((667bd93a-cce4-4dbf-9831-725e4dffe463)).
 						- The external knowledge circle is the lowest circle in the tower of effect circles, under all active intents.
+					- The circle is sustained by its ((677e76ed-b324-4608-b146-90e8fcfa0c32)), i.e. its very existence is a dynamic process caused by its own
 		-
 	- ## thread
 	  id:: 667d0d2e-15c7-4989-a183-69a9a5c6bf8a
