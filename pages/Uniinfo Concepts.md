@@ -2442,12 +2442,12 @@
 			- solidification
 			  id:: 671b4d84-1187-4b5c-8592-3d0db462069b
 			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((671b4d62-4337-4557-809c-8693593f1260))
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((671b4d84-1187-4b5c-8592-3d0db462069b)) is the process that
-					- The obop solidifies the whole self-circle tracing the moving qualiton into a solid circle, and effectively solidifies all other traces into solid thread arrows.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((671b4d84-1187-4b5c-8592-3d0db462069b)) is the process that the obop solidifies the whole self-circle tracing the moving qualiton into a solid circle, and effectively solidifies all other traces into solid thread arrows. The size of the self-circle defines the granularity (resolution) of the image of the world. The coarser the granularity, the more solid the world is seen.
+					- This is similar to
 			- freeze
 			  id:: 671e25e5-1cf2-467f-bac5-a9901c3c265f
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((671b4d62-4337-4557-809c-8693593f1260))
-		- Etymology of `solid`: “Solid” is from the the Proto-Indo-European root [*sol](https://www.etymonline.com/word/*sol-) ([solh₂-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/solh%E2%82%82-)) meaning ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)).
+		- Etymology of `solid`: “Solid” is from the the Proto-Indo-European root [*sol](https://www.etymonline.com/word/*sol-) ([solh₂-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/solh%E2%82%82-)) meaning ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)), which is aligned with the ((671b4d84-1187-4b5c-8592-3d0db462069b)).
 	- ## fluid
 	  id:: 671e2794-7edd-4840-8b5d-d2def6df7666
 	  collapsed:: true
