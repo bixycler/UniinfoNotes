@@ -1280,18 +1280,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- The voice mode of Gemini is far dumber than the text mode, and the barrier of TTS & STT is still far from real voice communication.
 			- 25th, contemplation of [balance = mixmatch = arrow of time](((69c51a39-97cb-4cf1-a6e1-ca29817def79))) initiatiated by the dilemma in Git branch handling of `gc-log-graph`.
 			  id:: 69c51a3e-383d-42f5-b1ba-114fa24e8d6a
-				- Add docs to `gc-log-graph` → [!] Vite issues to be solved
-				  id:: 69c51a3e-cabd-4b3a-846e-858e8233a404
-				  collapsed:: true
-					- Live server serves text files (`.md`, `.sh`) without `Content-Type`.
-					- Distribution doesn't include text files (`.md`, `.sh`).
-					- Vite changes should be committed to branch `work` instead of `work-gc-log-graph`.
-						- These tasks are not only in different branches, but also in different projects: `Corkei` vs `Corkei.applets`.
-						- It's difficult to deal, because the addition of `.md` files are in `Corkei.applets` while Vite changes to support them are to be added in `Corkei`.
-						- DOING Anyway, switch to `Corkei:work`, ask Antigravity to add support for text files in general, referencing the text file type `.sh` alreay in `Corkei`.
-						  :LOGBOOK:
-						  CLOCK: [2026-03-25 Wed 18:31:33]
-						  :END:
 			- 26th, chatted with Huy about discipline and adaptivity; overviewed new official task; debugged domain resolution failure on Chrome caused by Passbolt.
 				- My Chrome on Ubuntu now persistently fails to resolve `git1` domain.
 				  collapsed:: true
@@ -2683,8 +2671,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Contemplating the piling stack of personal TODOs and DOINGs, i decide to let them unfinished then [empty the stack](((699e702a-2eac-4fcf-8356-dbfbc8c54279))), shifting from linear/synchronous to nonlinear/asynchronous processing.
 					- This shift is my first move toward the ((699e56cd-b1d4-41fb-8e30-ec393a5db8e9)).
 					- ((6a599e55-4b6b-405d-aa43-e494bc86b7b2))
-						- In a chat with Gemini about this shift, it's interesting that Gemini did spell out the ((671b4d84-1187-4b5c-8592-3d0db462069b)) and the open gap in the ((667c0031-0a87-44c9-9e98-6d45893b095f)).
-							- So, i put down some text I've been
+						- In a chat with Gemini about this shift, it's interesting that Gemini did spell out the ((671b4d84-1187-4b5c-8592-3d0db462069b)) and the open gap in the ((667c0031-0a87-44c9-9e98-6d45893b095f)) perfectly.
+							- So, i put down some text to the solidification which has been delayed for years.
+					- DOING Clear all stacks! Finally, today, also the final work day of the week, they are gone.
+					  :LOGBOOK:
+					  CLOCK: [2026-07-17 Fri 17:57:50]
+					  CLOCK: [2026-07-17 Fri 17:57:53]
+					  :END:
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a46244d-2376-4549-b716-19538d7042fd))

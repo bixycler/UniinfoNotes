@@ -1363,6 +1363,21 @@
 						- The "Git-backed" knowledge base
 							- The knowledge graph in `docs/` and its indices in `.agent/rules/` are updated with the source code. So, we have different knowledge in different times, in different branches.
 							- Project-specific knowledges like lessons, workflows, designs are tightly coupled with the codes.
+			- Applets
+				- `gc-log-graph`
+					- Add docs to `gc-log-graph` → [!] Vite issues to be solved
+					  id:: 69c51a3e-cabd-4b3a-846e-858e8233a404
+					  collapsed:: true
+						- Live server serves text files (`.md`, `.sh`) without `Content-Type`.
+						- Distribution doesn't include text files (`.md`, `.sh`).
+						- Vite changes should be committed to branch `work` instead of `work-gc-log-graph`.
+							- These tasks are not only in different branches, but also in different projects: `Corkei` vs `Corkei.applets`.
+							- It's difficult to deal, because the addition of `.md` files are in `Corkei.applets` while Vite changes to support them are to be added in `Corkei`.
+							- DOING Anyway, switch to `Corkei:work`, ask Antigravity to add support for text files in general, referencing the text file type `.sh` alreay in `Corkei`.
+							  :LOGBOOK:
+							  CLOCK: [2026-03-25 Wed 18:31:33]
+							  :END:
+					-
 	- ## Omnifold
 	  id:: 675c03d8-3185-41a8-9f98-e869fabec793
 	  collapsed:: true
