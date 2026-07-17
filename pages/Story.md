@@ -2682,6 +2682,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- This reminded me of Dory's song [Just Keep Swimming!](https://youtu.be/y9FGsJ3PYVw).
 				- Contemplating the piling stack of personal TODOs and DOINGs, i decide to let them be unfinished and empty the stack, shifting from synchronous to asynchronous processing.
 					- This shift is my first move toward the ((699e56cd-b1d4-41fb-8e30-ec393a5db8e9)).
+					- Task management → incompleteness management:
+						- The tags `TODO`, `DOING`, `WAIT` are left there to mark their status.
+						- Even unfinished, these items are placed in the position fitting their content and/or referenced by relating nodes.
+						- They will be revisited when relating nodes are touched later on.
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a46244d-2376-4549-b716-19538d7042fd))
