@@ -2800,8 +2800,8 @@
 						- I don't use the term “final cause” like Aristotle because [the goal is the horizon](((67445223-9459-4aa9-b102-70c63943577b))):
 							- 1) _in a single circle_, it's both the first (as the seed), and the last (as the purpose), and
 							- 2) throughout the never ending cycle of effect, it will never be “final”.
-						- At first, as a seed, the intent gives rise to the whole tree, i.e. ((66c810a0-9861-4787-bdcf-1378219332be)) of karma.
-						- At last, the fruits are selected by the intent to satisfy the criteria of the purpose.
+						- At first, the , as a seed, the intent gives rise to the whole tree, i.e. ((66c810a0-9861-4787-bdcf-1378219332be)) of karma, the yang (visible, positive) arrow folding into the circle.
+						- At last, the fruits of the body are selected by the intent to satisfy the criteria of the purpose.
 						- The statement that “the first cause is also the final cause” is similar to [Aquinas' 5th Way](https://en.wikipedia.org/wiki/Five_Ways_(Aquinas)#Fifth_way:_Argument_from_Final_Cause_or_Ends), but for the immanent God – the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) – instead of a transcendent God.
 						  id:: 692d69f0-ff24-4d71-a95c-2e27ebb28c7d
 							- ((6667c99a-792f-4230-9fc6-c5fae874daef)) = Return to God (exitus–reditus) = ((c96a6d20-a0f6-48bd-9d70-9bc00b6b3c69))
@@ -2810,7 +2810,7 @@
 					  collapsed:: true
 						- The [first cause](((699c0362-eb81-42c5-843c-2559d2fe7b73))): gap, broken, error, missing, unknown, question, mismatch, problem, pain, suffering, failure, the “negativity” (yin, 陰/阴) in general
 						  id:: 69a502fe-ccb2-422d-a292-e4854e87fd90
-						- The [final cause](((699c0362-f864-4879-9a07-204b96472cb0))): whole, form, the “positivity” (yang, 陽/阳) in general
+						- The [final cause](((699c0362-f864-4879-9a07-204b96472cb0))): whole, form, goal, target, ideal, the “positivity” (yang, 陽/阳) in general
 							- This is usually *fixed*, whose fixation forms the **self-attachment**.
 						- The clinging self: a fixed form of the whole, a permanent last cause
 							- The fixation: by fixing the self-image, the obop creates a permanent & unchangable “hidden boss” controlling every action from behind, hence the term “subject”.
@@ -2841,7 +2841,7 @@
 							- The “final cause” in [4 causes by Aristotle](https://en.wikipedia.org/wiki/Four_causes) corresponds to this half of the intentional cause.
 						- ⇒ The intentional cause is “final” in the ((667bda02-8dc9-488e-ba16-ea75c3d7895c)), but “first” in the ((667bd93a-cce4-4dbf-9831-725e4dffe463)).
 						- The external knowledge circle is the lowest circle in the tower of effect circles, under all active intents.
-					- The circle is sustained by its ((677e76ed-b324-4608-b146-90e8fcfa0c32)), i.e. its very existence is a dynamic process caused by its own
+					- The circle is sustained by its ((677e76ed-b324-4608-b146-90e8fcfa0c32)), i.e., its very existence is a dynamic process caused by its own incompleteness.
 		-
 	- ## thread
 	  id:: 667d0d2e-15c7-4989-a183-69a9a5c6bf8a
