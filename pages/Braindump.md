@@ -16,5 +16,4 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  CLOCK: [2026-01-14 Wed 20:27:56]
 		  CLOCK: [2026-03-11 Wed 14:13:56]
 		  :END:
-			-
 			- TODO Check `npm run build` to publish `assets/` as is and include `.sh`, `.log` files.

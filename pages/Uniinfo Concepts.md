@@ -1813,7 +1813,7 @@
 				- Note that the expression “the future” is incorrect because there are various futures to come.
 			- Note: Looking further into the past, the image also reduces resolution but linearly, hence the impression of the “fixed past”.
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-				- DOING Thermodynamical entropy and life
+				- Thermodynamical entropy and life
 				  id:: 6a562439-0ace-4f34-b134-0d7b712bea8a
 				  collapsed:: true
 				  :LOGBOOK:
@@ -1912,7 +1912,7 @@
 					- References
 						- [How the Brain Becomes the Mind: Can Thermodynamics Explain the Emergence and Nature of Emotions?](https://doi.org/10.3390/e24101498) — Deli, J. F., Peters, J. F., & Kisvárday, Z. (2022). Entropy, 24(10), 1498.
 						- [The thermodynamics of cognition: A Mathematical Treatment](https://www.researchgate.net/publication/348427571_The_thermodynamics_of_cognition_A_Mathematical_Treatment) — Deli, J. F., Peters, J. F., & Kisvárday, Z. (2021). ResearchGate preprint.
-				- DOING The cyclic arrow of time
+				- The cyclic arrow of time
 				  id:: 6a56e24e-b699-4f9d-b41d-1adfff51051d
 				  collapsed:: true
 				  :LOGBOOK:

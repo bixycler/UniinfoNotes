@@ -272,7 +272,7 @@
 									- Total exposure to the wide root forces the observer into a zero-person perspective (0PP), locking them into absolute observation and stillness.
 										- When the entire context graph is seen simultaneously, the ego-borders evaporate, and the system freezes in spacetime due to the perfect balance of the circle.
 									- To act and move on the flat stage of the world, a being must execute a skillful rotation – step down their dimensions to cast a specific, partial 2D shadow while keeping the infinite, wide-rooted volume intact within.
-					- The circular effect flow
+					- WAIT The circular effect flow
 					  id:: 6a3a6381-21b1-46ed-9eb6-e7aeff52c874
 					  collapsed:: true
 						- The ((667bf36a-581a-4abe-b544-2d849608a3e4))
@@ -1318,7 +1318,7 @@
 						- Past cone: Located within working memory, representing the immediate history of the state (reflection).
 						- Short-term memory cone: The intermediate projection layer for integration.
 						- Long-term memory cone: The static storage of the entire pyramid.
-			- DOING mechanism of natural learning
+			- WAIT mechanism of natural learning
 			  id:: 69dce3dc-55d3-4079-8bfe-ae913ef62ac3
 			  collapsed:: true
 			  :LOGBOOK:

@@ -2681,6 +2681,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- ⇒ Found my treasure: ((6a58b4bc-7fa1-45d3-a1cc-1bf666dca4cd))
 						- This reminded me of Dory's song [Just Keep Swimming!](https://youtu.be/y9FGsJ3PYVw).
 				- Contemplating the piling stack of personal TODOs and DOINGs, i decide to let them be unfinished and empty the stack, shifting from synchronous to asynchronous processing.
+					- This shift is my first move toward the ((699e56cd-b1d4-41fb-8e30-ec393a5db8e9)).
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a46244d-2376-4549-b716-19538d7042fd))
