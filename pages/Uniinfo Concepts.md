@@ -2442,7 +2442,7 @@
 			- solidification
 			  id:: 671b4d84-1187-4b5c-8592-3d0db462069b
 			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((671b4d62-4337-4557-809c-8693593f1260))
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((671b4d84-1187-4b5c-8592-3d0db462069b)) is the process that the obop solidifies the whole self-circle tracing the moving qualiton into a solid circle, and effectively solidifies all other traces into solid thread arrows. The size of the self-circle defines the granularity (resolution) of the image of the world. The coarser the granularity, the more solid the world is seen.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((671b4d84-1187-4b5c-8592-3d0db462069b)) is the process that the obop solidifies the whole ((669a5387-2a97-4311-a295-aa0afd9c4d76)) – trace of the moving ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) – into a solid circle, and effectively solidifies all other traces into solid ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) arrows.
 				- ((66725725-f76a-4328-b162-f469b87e871b))
 					- The oscilloscope solidifies the moving dot at high-res tempo into a solid curve at low-res tempo.
 					- [Renormalization](https://en.wikipedia.org/wiki/Renormalization) in quantum field theory solidifies (averages) quantum fluctuations and virtual particles into physical quantities like particle mass and charge.

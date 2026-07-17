@@ -2503,7 +2503,8 @@
 		  :LOGBOOK:
 		  CLOCK: [2026-06-17 Wed 16:05:13]
 		  :END:
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) While a composite ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)) has a range of resolution, an atomic obop (qualiton) has a single resolution. ((699c0362-477c-4771-91bd-c91456dae158))...
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((699c0362-477c-4771-91bd-c91456dae158)) is defined to be the reciprocal of the ((67bc2fc9-8389-4455-ace9-4aac8de73e1d)) of the ((669a5387-2a97-4311-a295-aa0afd9c4d76)) of the obop. The resolution defines the granularity ([resolution](((699c0362-477c-4771-91bd-c91456dae158)))) of the image of the world. The coarser the granularity, the more solid the world is seen.
+				- While a composite ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)) has a range of resolution, an atomic obop –  ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) – has a single resolution.
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- About the term “resolution”
 				  collapsed:: true
