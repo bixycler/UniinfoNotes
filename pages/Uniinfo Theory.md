@@ -2784,7 +2784,7 @@
 			- ### intentional cause
 			  id:: 677e76ed-b324-4608-b146-90e8fcfa0c32
 			  collapsed:: true
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((677e76ed-b324-4608-b146-90e8fcfa0c32)) is the ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)) of the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) of the ((667c0031-0a87-44c9-9e98-6d45893b095f)) which keeps the circle whole and alive. As the [first cause (source)](((699c0362-eb81-42c5-843c-2559d2fe7b73))), it's the operator driving the effect flow, and as the final cause (sink), it's the observer [qualifying](((681826ac-f5f2-4a84-a5f5-c110937ec85f))) the ((669a1bec-3347-4915-83e4-dcffc4d482d1)) of the effect circle. In Unïnfo, its the ((66f3d5cc-0d68-47bb-b09a-87cda33c7354)) in the Trinion, the mixmatch of the threads, the arrowhead and the circle's opening. In life, it's the question, the problem, the mismatch, and generally the yin (negative & hidden) part of the world.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((677e76ed-b324-4608-b146-90e8fcfa0c32)) is the ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)) of the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) of the ((667c0031-0a87-44c9-9e98-6d45893b095f)) which keeps the circle whole and alive. As the [first cause (source)](((699c0362-eb81-42c5-843c-2559d2fe7b73))), it's the operator [driving](((6a5d8eb5-6989-42d1-9419-57db76aaa871))) the effect flow, and as the [final cause (sink)](((6a5a17e9-a977-4884-a73d-49ede5ef4b11))), it's the observer [qualifying](((681826ac-f5f2-4a84-a5f5-c110937ec85f))) the ((669a1bec-3347-4915-83e4-dcffc4d482d1)) of the effect circle. In Unïnfo, its the ((66f3d5cc-0d68-47bb-b09a-87cda33c7354)) in the Trinion, the mixmatch of the threads, the arrowhead and the circle's opening. In life, it's the question, the problem, the mismatch, and generally the yin (negative & hidden) part of the world.
 					- Diagram
 					  collapsed:: true
 						- ![OuroborosTrinion](https://docs.google.com/drawings/d/e/2PACX-1vRqW5erSVHBkU5Zbt-UntR9Yo-49Dx9C58evxiLUTsdPOYCPLEppLbk6nXsjaPcJvtklBwqHel-5pVw/pub?w=300)
@@ -2834,20 +2834,21 @@
 			- Effect circle Dynamic caused by Intentional cause
 			  id:: 6a5d8eb5-6989-42d1-9419-57db76aaa871
 			  collapsed:: true
-				- First cause – the Yin circle generating the Yin arrow
+				- First cause – the yin circle generating the yin arrow
 				  id:: 699c0362-eb81-42c5-843c-2559d2fe7b73
-					- The problem/question is the gap in the circle, the absence of the result/answer, which is represented by the tail of the Yang arrow, also called the Yin arrow.
-					- ((6667c99a-792f-4230-9fc6-c5fae874daef)): The Yin arrow (gap, mismatch, imbalance, unknown, inequality, etc.) is the seed urging the Yang arrow to grow toward balance, completeness.
-				- Efficient & Formal causes – the Yang arrow body
+					- The yin circle (prior knowledge, inner intent)
+					- The problem/question is the gap in the circle, the absence of the result/answer, which is represented by the tail of the Yang arrow, also called the yin arrow.
+					- ((6667c99a-792f-4230-9fc6-c5fae874daef)): The tin arrow (gap, mismatch, imbalance, unknown, inequality, etc.) is the seed urging the Yang arrow to grow toward balance, completeness.
+				- Efficient & Formal causes – the yang arrow
 				  id:: 6a5a17e9-a977-4884-a73d-49ede5ef4b11
 					- The view cone projects the process of resolution (quest, solving, working out, reasoning, proof, derivation, exploration, etc.), i.e. know-how (efficient cause), to the result/answer (know-where, know-what, formal cause).
-				- Final cause – the Yang arrowhead matching the Yin arrow
+				- Final cause – the yang arrowhead matching the yin arrow
 				  id:: 699c0362-f864-4879-9a07-204b96472cb0
 					- The verification/qualification of the solution/answer closes the effect circle.
 					- The “final cause” in [4 causes by Aristotle](https://en.wikipedia.org/wiki/Four_causes) corresponds to this half of the intentional cause.
 				- ⇒ The intentional cause is “final” in the ((667bda02-8dc9-488e-ba16-ea75c3d7895c)), but “first” in the ((667bd93a-cce4-4dbf-9831-725e4dffe463)).
 				- Yin (陰/阴, invisible, negative) vs Yang (陽/阳, visible, positive)
-					- The inner/higher intent in the onion/tower of intents is the Yin circle generating the Yin arrow to drive the Yang arrow to form the Yang circle – the outer/lower intent.
+					- The inner/higher intent in the onion/tower of intents is the yin circle generating the yin arrow to drive the yang arrow to form the yang circle – the outer/lower intent.
 					- The external knowledge circle is the lowest circle in the tower of effect circles, under all active intents.
 		-
 	- ## thread
