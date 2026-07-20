@@ -2777,7 +2777,12 @@
 						- In effect circle, the tail is actually the opening (negative arrow) where the arrowhead (positive arrow) fits in, the target for the arrowhead to reach, the pearl for the arrowhead to chase.
 						- The obop between the tail and the arrowhead: Like , _the obop bases at the arrow tail_ to operate the whole effect circle.
 							- Examples:
-								- The reflex arc depicted in Descartes' _Treatise of Man_ (Figure 63).
+								- The reflex arc depicted in Descartes' _Treatise of Man_ ([Figure 63](https://commons.wikimedia.org/wiki/File:Descartes_mind_and_body.gif)).
+								  id:: 6a5dd85a-10b5-430d-9ceb-9f7e3c16da3c
+								  collapsed:: true
+									- The pineal gland inside the head corresponds to the obop between the arrow tail and arrowhead.
+									- Here, the circle is cut into 2 halves – observing arrow from the eyes and operating arrow from the hand – both point to the target (ABC).
+									- ![Descartes_figure63.gif](../assets/Uniinfo/Metaphysics/Descartes_figure63.gif)
 								- The bowman placing the arrow tail right at his head.
 							- The circle is like .
 							-
@@ -2788,6 +2793,9 @@
 						  ![Ouroboros-Alchemy.png](../assets/Uniinfo/Metaphysics/Ouroboros-Alchemy.png){:width 200}
 						- Effect circle
 						  ![OuroborosTrinion](https://docs.google.com/drawings/d/e/2PACX-1vRqW5erSVHBkU5Zbt-UntR9Yo-49Dx9C58evxiLUTsdPOYCPLEppLbk6nXsjaPcJvtklBwqHel-5pVw/pub?w=200)
+						- Human's effect circle
+						  ![Human-EffectCircle.jpeg](../assets/Uniinfo/Metaphysics/Human-EffectCircle.jpeg){:width 300}
+							- This is adapted from [Descartes' diagram of reflex arc](((6a5dd85a-10b5-430d-9ceb-9f7e3c16da3c))).
 			- ### change
 			  id:: 667c008f-cd1f-4a6b-a9c8-d6efa1d8d342
 			  collapsed:: true
