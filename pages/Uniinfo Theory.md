@@ -2837,7 +2837,8 @@
 				- First cause – the yin circle generating the yin arrow
 				  id:: 699c0362-eb81-42c5-843c-2559d2fe7b73
 					- When the **yin circle** (inner intent, prior knowledge) meets a new condition, there arise problem, question, gap, mismatch, conflict, imbalance, unknown, inequality, incompleteness, etc., which are represented by the **yin arrow**.
-					- ((6667c99a-792f-4230-9fc6-c5fae874daef)): Because the yin arrow is the imbalance (gap in the circle, absence of the result/answer), it is the seed urging the yang arrow to grow toward balance, completeness. That means the yin arrow is the tail of the yang arrow.
+					- ((6667c99a-792f-4230-9fc6-c5fae874daef)): Because the yin arrow is the imbalance (gap in the circle, absence of the result/answer), it is the seed urging the body to grow, driving the effect flow toward balance, completeness.
+					- That growth and flow is called the **yang arrow** whose _tail is the yin arrow_.
 				- Efficient & Formal causes – the yang arrow
 				  id:: 6a5a17e9-a977-4884-a73d-49ede5ef4b11
 					- The view cone projects the process of resolution (quest, solving, working out, reasoning, proof, derivation, exploration, etc.), i.e. know-how (efficient cause), to the result/answer (know-where, know-what, formal cause).
