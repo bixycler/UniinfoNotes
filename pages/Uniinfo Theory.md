@@ -2770,8 +2770,10 @@
 				  id:: 68f5a6d2-8148-4975-b3cb-799fe37a3d72
 					- This circular dependency is shown by the spirorus which is the structure of spacetime.
 				- ((667bf36a-581a-4abe-b544-2d849608a3e4)) is the characteristic of [cybernetics](https://en.wikipedia.org/wiki/Cybernetics).
-				- The [Ouroboros](https://en.wikipedia.org/wiki/Ouroboros) is a great symbol of effect circle but a misnomer.
+				- The [Ouroboros](https://en.wikipedia.org/wiki/Ouroboros) is a great symbol of effect circle but a misnomer with a misleading image.
+				  collapsed:: true
 					- The snake is not eating but **chasing** its own tail, just like the dragon chasing its pearl of ((677e76ed-b324-4608-b146-90e8fcfa0c32)). The moment the tail/pearl is catched, the entire circle collapses into thin air, wave, light, pure energy.
+					- The image of the opening mouth swallowing the tail resembles the [match](((699c0362-f864-4879-9a07-204b96472cb0))) between head and tail, but in reverse order: In effect circle, the tail is actually the opening (negative arrow) where the arrowhead (positive arrow) fits in.
 			- ### change
 			  id:: 667c008f-cd1f-4a6b-a9c8-d6efa1d8d342
 			  collapsed:: true
