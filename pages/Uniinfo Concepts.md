@@ -1014,6 +1014,7 @@
 	  collapsed:: true
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From the [physical arrow](https://en.wikipedia.org/wiki/Arrow) [projectile](https://en.wikipedia.org/wiki/Projectile), ((667d15b7-6364-49a9-ac58-c64d2a992b63)) is abstracted into a [symbol (→)](https://en.wikipedia.org/wiki/Arrow_(symbol)) representing many aspects of meaning, including ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) & ((66e42d39-a296-4ed9-a686-4cb213783830)) "from A to B" (A → B), [differentiation](((1a22a090-6786-4114-8aad-35b122783bff))) "B is different from A" (B ← A), relation "A is related to B" (A → B), projection, mapping, etc.
 		- ((66532ccc-ae21-4940-8714-715060d6bd90)) tail ⤚[body]→ head
+		  id:: 6a3cef73-e171-47ae-bcdb-7580e11d5d3f
 		  collapsed:: true
 			- concrete body
 			  id:: 669de102-8f98-4d96-bf00-4f4e602cb689
