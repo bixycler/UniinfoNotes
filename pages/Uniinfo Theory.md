@@ -2775,7 +2775,9 @@
 					- The snake is not eating but **chasing** its own tail, just like a dog chasing tail, or the dragon chasing its pearl of ((677e76ed-b324-4608-b146-90e8fcfa0c32)). The moment the tail/pearl is catched, the entire circle collapses into thin air, wave, light, pure energy.
 					- The image of the open mouth swallowing the tail resembles the [match](((699c0362-f864-4879-9a07-204b96472cb0))) between head and tail, but in reverse order:
 						- In effect circle, the tail is actually the opening (negative arrow) where the arrowhead (positive arrow) fits in, the target for the arrowhead to reach, the pearl for the arrowhead to chase.
-						- The tail is the subject with an eye looking at the head as its object, and with an open mouth consuming the fruit effect at the head.
+						- The arrow tail is more like a human head:
+							- The eye is there to observe the head.
+							- The open mouth is there to consume the fruit effect at the head.
 					- Ouroboros versus Effect circle
 						- Ouroboros
 						  ![Ouroboros-Alchemy.png](../assets/Uniinfo/Metaphysics/Ouroboros-Alchemy.png){:width 200}
