@@ -2829,19 +2829,17 @@
 									- Feedback from the effect flow to update intent's meta like probability.
 					- ((677e76ed-b324-4608-b146-90e8fcfa0c32)) in knowledge circle = intent (know-why) = arrow returning to the root obop = qualifier = verifier = complement of the result/answer of the problem/question (know-where, know-what, formal cause)
 					  id:: 68a7e246-8407-4e89-b393-912db172e4fe
-					  collapsed:: true
 					  = openness = porosity = entropy increase = arrow of time = mismatch between form & content =  curvature in distribution
 						- First cause – the Yin circle generating the Yin arrow
 						  id:: 699c0362-eb81-42c5-843c-2559d2fe7b73
-							- The problem/question is the gap in the circle, the absence of the result/answer, which is represented by the Yin arrow and the tail of the Yang arrow.
-							- This absence breaks the circle, leading to the urge to heal it, to make it complete by finding solution/answer.
+							- The problem/question is the gap in the circle, the absence of the result/answer, which is represented by the tail of the Yang arrow, also called the Yin arrow.
+							- ((6667c99a-792f-4230-9fc6-c5fae874daef)): The Yin arrow (gap, mismatch, imbalance, unknown, inequality, etc.) is the seed urging the Yang arrow to grow toward balance, completeness.
 						- Efficient & Formal causes – the Yang arrow body
 						  id:: 6a5a17e9-a977-4884-a73d-49ede5ef4b11
 							- The view cone projects the process of resolution (quest, solving, working out, reasoning, proof, derivation, exploration, etc.), i.e. know-how (efficient cause), to the result/answer (know-where, know-what, formal cause).
 						- Final cause – the Yang arrowhead matching the Yin arrow
 						  id:: 699c0362-f864-4879-9a07-204b96472cb0
 							- The verification/qualification of the solution/answer closes the effect circle.
-							- ((6667c99a-792f-4230-9fc6-c5fae874daef)): As long as there's still gaps, mismatch, imbalance, unknown, inequality, and so on, there's still motion – transition of effect circle – toward balance, the final target.
 							- The “final cause” in [4 causes by Aristotle](https://en.wikipedia.org/wiki/Four_causes) corresponds to this half of the intentional cause.
 						- ⇒ The intentional cause is “final” in the ((667bda02-8dc9-488e-ba16-ea75c3d7895c)), but “first” in the ((667bd93a-cce4-4dbf-9831-725e4dffe463)).
 						- Yin (陰/阴, invisible, negative) vs Yang (陽/阳, visible, positive)
