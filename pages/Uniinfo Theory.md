@@ -2835,7 +2835,7 @@
 						  id:: 699c0362-eb81-42c5-843c-2559d2fe7b73
 							- The problem/question is the gap in the circle, the absence of the result/answer.
 							- This absence breaks the circle, leading to the urge to heal it, to make it complete by finding solution/answer.
-						- Efficient cause – the Yang (陽/阳, visible, positive) arrow body
+						- Efficient & Formal causes – the Yang (陽/阳, visible, positive) arrow body
 						  id:: 6a5a17e9-a977-4884-a73d-49ede5ef4b11
 							- The view cone projects the process of resolution (quest, solving, working out, reasoning, proof, derivation, exploration, etc.), i.e. know-how (efficient cause), to the result/answer (know-where, know-what, formal cause).
 						- Final cause – the Yang (陽/阳, visible, positive) arrowhead

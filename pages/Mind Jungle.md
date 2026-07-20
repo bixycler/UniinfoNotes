@@ -1761,12 +1761,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- #### target reaching machinary
 				  id:: 684f9517-db29-4079-8674-09e0ffaff6ba
 					- Most of us are goal/target reaching machines with a built-in motivation to complete the circle.
-					- The **inner target** of the ((667bef22-b272-4a7d-b613-3f1ed1a47329)) is the driver, operator, controller of the whole ((667c0031-0a87-44c9-9e98-6d45893b095f)).
+					- The **inner target** of the effect flow is the driver, operator, controller of the whole ((667c0031-0a87-44c9-9e98-6d45893b095f)), which is called the ((677e76ed-b324-4608-b146-90e8fcfa0c32)).
 					- *The target is the __hidden boss__*, the inner ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) wall, the underlying driving force. My boss is the ((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0)).
 					  id:: 684f9517-d0a4-43f7-bfb2-766340b63655
 					- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) ((674c11d4-894a-46d1-b653-5e8148773d7a))
 					- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) ((6a599e55-4b6b-405d-aa43-e494bc86b7b2))
-					- The [computer programs](https://en.wikipedia.org/wiki/Computer_program) reflect this target reaching machinary on computers with [call stack](https://en.wikipedia.org/wiki/Call_stack) resembling human's .
+					- The [computer programs](https://en.wikipedia.org/wiki/Computer_program) reflect this target reaching machinary on computers with [call stack](https://en.wikipedia.org/wiki/Call_stack) resembling human's stack of intents.
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- “[The Goal is the Horizon](https://creatzynotes.blogspot.com/2024/12/the-goal-is-horizon.html)” parable/koan
 					  id:: 67445223-9459-4aa9-b102-70c63943577b
