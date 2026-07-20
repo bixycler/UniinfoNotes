@@ -2679,6 +2679,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  CLOCK: [2026-07-17 Fri 17:57:50]
 					  CLOCK: [2026-07-17 Fri 17:57:53]--[2026-07-17 Fri 18:06:09] =>  00:08:16
 					  :END:
+			- 18-29th, weekend: Entropy, Information & Physics
+			  collapsed:: true
+				- [Thermodynamics of the gravity from entropy theory (GfE)](https://journals.aps.org/prd/abstract/10.1103/26kn-thgp)
+					- In an expanding universe (Friedmann-Robertson-Walker cosmologies), its expansion is faster than the increase is total entropy
+						- => Local entropy/volume decreases!
+					- Geometric Quantum Relative Entropy (GQRE) as the entropy per volume unit: This measures the difference or "distance" between two metrics:
+						- The "true" physical metric of spacetime.
+						- The metric induced by the presence of matter and curvature.
+					- => Notebook [Entropy, Information & Physics](https://notebooklm.google.com/notebook/6f86359c-da8b-4a4a-baca-decde557f4e7)
+				- effect circle: first cause = lack of fruit; fruit = arrowhead, final cause = arrow tail = match of fruit
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a46244d-2376-4549-b716-19538d7042fd))
