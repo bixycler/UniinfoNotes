@@ -2775,10 +2775,10 @@
 					- The snake is not eating but **chasing** its own tail, just like a dog chasing tail, or the dragon chasing its pearl of ((677e76ed-b324-4608-b146-90e8fcfa0c32)). The moment the tail/pearl is catched, the entire circle collapses into thin air, wave, light, pure energy.
 					- The image of the open mouth swallowing the tail resembles the [match](((699c0362-f864-4879-9a07-204b96472cb0))) between head and tail, but in reverse order:
 						- In effect circle, the tail is actually the opening (negative arrow) where the arrowhead (positive arrow) fits in, the target for the arrowhead to reach, the pearl for the arrowhead to chase.
-						- The obop between the tail and the arrowhead: Like , _the obop is at the arrow tail_ to operate the whole effect circle.
+						- The obop between the tail and the arrowhead: Like , _the obop bases at the arrow tail_ to operate the whole effect circle.
 							- Examples:
 								- The reflex arc depicted in Descartes' _Treatise of Man_ (Figure 63).
-								- A bowman placing the arrow tail right at his head.
+								- The bowman placing the arrow tail right at his head.
 							- The circle is like .
 							-
 							- The eye is there to observe the head.
