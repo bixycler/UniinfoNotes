@@ -2703,6 +2703,7 @@
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf36a-581a-4abe-b544-2d849608a3e4))
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bf36a-581a-4abe-b544-2d849608a3e4)) is an ((667bef22-b272-4a7d-b613-3f1ed1a47329)) whose both sink and source are viewed as a single ((677e76ed-b324-4608-b146-90e8fcfa0c32)) which [drives](((6a5d8eb5-6989-42d1-9419-57db76aaa871))) the flow of the whole circle. This effect circle is the thread expression of the ((6772a6cd-771f-4f24-9c3a-39c442234be5)).
 			- Diagram
+			  collapsed:: true
 				- Effect circle as an Ouroboros
 				  ![OuroborosTrinion](https://docs.google.com/drawings/d/e/2PACX-1vRqW5erSVHBkU5Zbt-UntR9Yo-49Dx9C58evxiLUTsdPOYCPLEppLbk6nXsjaPcJvtklBwqHel-5pVw/pub?w=200)
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
@@ -2791,9 +2792,10 @@
 								  collapsed:: true
 									- The **effect flow** is the the _arrows shot out_ from there.
 									- ![ArrowShooting.jpg](../assets/Uniinfo/Metaphysics/ArrowShooting.jpg)
-						- So, the head of the Ouroboros (with eyes and mouth) is actually of the obop, not of the effect circle.
+						- So, the head of the Ouroboros (with eyes and mouth) is actually the obop's head, not the arrowhead of the effect circle.
 							- The attachment of the arrow tail to the obop (head) is the source of confusion.
 					- Ouroboros versus Effect circle
+					  collapsed:: true
 						- Ouroboros
 						  ![Ouroboros-Alchemy.png](../assets/Uniinfo/Metaphysics/Ouroboros-Alchemy.png){:width 200}
 						- Human's effect circle

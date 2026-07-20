@@ -2692,6 +2692,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- first cause = lack of fruit = yin arrow = yang arrow tail
 					- fruit = arrowhead
 					- final cause = match of fruit with target, head with tail
+			- 20th, intended to do the office work, but ended with updating the effect circle all the day.
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a46244d-2376-4549-b716-19538d7042fd))
