@@ -2688,7 +2688,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- The "true" physical metric of spacetime.
 						- The metric induced by the presence of matter and curvature.
 					- => Notebook [Entropy, Information & Physics](https://notebooklm.google.com/notebook/6f86359c-da8b-4a4a-baca-decde557f4e7)
-				- effect circle: first cause = lack of fruit; fruit = arrowhead, final cause = arrow tail = match of fruit
+				- Refine effect circle:
+					- first cause = lack of fruit = yin arrow = yang arrow tail
+					- fruit = arrowhead,
+					- final cause = arrow tail = match of fruit
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a46244d-2376-4549-b716-19538d7042fd))
