@@ -2774,8 +2774,8 @@
 				  collapsed:: true
 					- The snake is not eating but **chasing** its own tail, just like a dog chasing tail, or the dragon chasing its pearl of ((677e76ed-b324-4608-b146-90e8fcfa0c32)). The moment the tail/pearl is catched, the entire circle collapses into thin air, wave, light, pure energy.
 					- The image of the open mouth swallowing the tail resembles the [match](((699c0362-f864-4879-9a07-204b96472cb0))) between head and tail, but in reverse order:
-						- In effect circle, the tail is actually the opening (negative arrow) where the arrowhead (positive arrow) fits in, the target for the arrowhead to reach, the pearl for the arrowhead to chase.
-						- The obop between the tail and the arrowhead: Like , _the obop bases at the arrow tail_ to operate the whole effect circle.
+						- In effect circle, the tail is actually the opening (negative arrow) to swallow the arrowhead (positive arrow), the target/pearl for the arrowhead to reach/chase.
+						- The obop between the tail and the arrowhead: Like [a man putting a fruit to his mouth](((6a5de20d-489d-4cc5-aade-88e9df2315ac))), _the obop bases at the arrow tail_ to operate the whole effect circle.
 							- Examples:
 								- The reflex arc depicted in Descartes' _Treatise of Man_ ([Figure 63](https://commons.wikimedia.org/wiki/File:Descartes_mind_and_body.gif)).
 								  id:: 6a5dd85a-10b5-430d-9ceb-9f7e3c16da3c
@@ -2784,9 +2784,10 @@
 									- Here, the circle is cut into 2 halves – observing arrow from the eyes and operating arrow from the hand – both point to the target (ABC).
 									- ![Descartes_figure63.gif](../assets/Uniinfo/Metaphysics/Descartes_figure63.gif)
 								- The bowman placing the arrow tail right at his head.
-							- The circle is like .
-							-
-							- The eye is there to observe the head.
+									- The effect flow is the the arrows shooting out from the
+									- ![ArrowShooting.jpg](../assets/Uniinfo/Metaphysics/ArrowShooting.jpg)
+							- The hand/body is the arrow shaft reaching out from there to operate the whole circle.
+							- The eye is there to observe the arrow head.
 							- The open mouth is there to consume the fruit effect of the circle which is the arrow head.
 					- Ouroboros versus Effect circle
 						- Ouroboros
@@ -2794,6 +2795,7 @@
 						- Effect circle
 						  ![OuroborosTrinion](https://docs.google.com/drawings/d/e/2PACX-1vRqW5erSVHBkU5Zbt-UntR9Yo-49Dx9C58evxiLUTsdPOYCPLEppLbk6nXsjaPcJvtklBwqHel-5pVw/pub?w=200)
 						- Human's effect circle
+						  id:: 6a5de20d-489d-4cc5-aade-88e9df2315ac
 						  ![Human-EffectCircle.jpeg](../assets/Uniinfo/Metaphysics/Human-EffectCircle.jpeg){:width 300}
 							- This is adapted from [Descartes' diagram of reflex arc](((6a5dd85a-10b5-430d-9ceb-9f7e3c16da3c))).
 			- ### change
