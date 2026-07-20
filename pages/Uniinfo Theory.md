@@ -2776,7 +2776,7 @@
 					- The image of the open mouth swallowing the tail resembles the [match](((699c0362-f864-4879-9a07-204b96472cb0))) between head and tail, but in reverse order:
 						- In effect circle, the tail is actually the opening (negative arrow) where the arrowhead (positive arrow) fits in, the target for the arrowhead to reach, the pearl for the arrowhead to chase.
 						- The obop between the tail and the arrowhead: Like a bowman placing the arrow tail right at his head, _the obop is at the arrow tail_ to operate the whole effect circle.
-							- Due to the circular nature of the flow, the obop faces in the opposite direction of the bowman.
+							- The circle is like .
 							-
 							- The eye is there to observe the head.
 							- The open mouth is there to consume the fruit effect of the circle which is the arrow head.
