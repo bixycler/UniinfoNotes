@@ -2796,12 +2796,14 @@
 					- Ouroboros versus Effect circle
 						- Ouroboros
 						  ![Ouroboros-Alchemy.png](../assets/Uniinfo/Metaphysics/Ouroboros-Alchemy.png){:width 200}
-						- Effect circle
-						  ![OuroborosTrinion](https://docs.google.com/drawings/d/e/2PACX-1vRqW5erSVHBkU5Zbt-UntR9Yo-49Dx9C58evxiLUTsdPOYCPLEppLbk6nXsjaPcJvtklBwqHel-5pVw/pub?w=200)
 						- Human's effect circle
 						  id:: 6a5de20d-489d-4cc5-aade-88e9df2315ac
 						  ![Human-EffectCircle.png](../assets/Uniinfo/Metaphysics/Human-EffectCircle.png){:width 300}
 							- This is adapted from [Descartes' diagram of reflex arc](((6a5dd85a-10b5-430d-9ceb-9f7e3c16da3c))).
+						- Effect circle with obop between arrowhead and tail
+						  ![OuroborosTrinion](https://docs.google.com/drawings/d/e/2PACX-1vRqW5erSVHBkU5Zbt-UntR9Yo-49Dx9C58evxiLUTsdPOYCPLEppLbk6nXsjaPcJvtklBwqHel-5pVw/pub?w=200)
+						- Effect circle (yang circle bellow) with its inner intent (yin circle above)
+						  ![](https://docs.google.com/drawings/d/e/2PACX-1vRVxKAf7aYd7pLrCWCtz0HGNcJubQ-B6ne2iCTNfKN4UNskoHipw2e1KPQV5ZDIXjlBl76xR4_SFqkj/pub?w=200)
 			- ### change
 			  id:: 667c008f-cd1f-4a6b-a9c8-d6efa1d8d342
 			  collapsed:: true
