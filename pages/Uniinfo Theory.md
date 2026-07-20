@@ -2703,8 +2703,8 @@
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf36a-581a-4abe-b544-2d849608a3e4))
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bf36a-581a-4abe-b544-2d849608a3e4)) is an ((667bef22-b272-4a7d-b613-3f1ed1a47329)) whose both sink and source are viewed as a single ((677e76ed-b324-4608-b146-90e8fcfa0c32)) which [drives](((6a5d8eb5-6989-42d1-9419-57db76aaa871))) the flow of the whole circle. This effect circle is the thread expression of the ((6772a6cd-771f-4f24-9c3a-39c442234be5)).
 			- Diagram
-			  collapsed:: true
-				- ![OuroborosTrinion](https://docs.google.com/drawings/d/e/2PACX-1vRqW5erSVHBkU5Zbt-UntR9Yo-49Dx9C58evxiLUTsdPOYCPLEppLbk6nXsjaPcJvtklBwqHel-5pVw/pub?w=300)
+				- Effect circle as an Ouroboros
+				  ![OuroborosTrinion](https://docs.google.com/drawings/d/e/2PACX-1vRqW5erSVHBkU5Zbt-UntR9Yo-49Dx9C58evxiLUTsdPOYCPLEppLbk6nXsjaPcJvtklBwqHel-5pVw/pub?w=200)
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- The ((667c0031-0a87-44c9-9e98-6d45893b095f)) in space generates the ((667d15b7-6364-49a9-ac58-c64d2a992b63)) in ((68fa164e-ef0e-4010-937d-ad9e0459f5f2)), i.e. ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)). That time arrow extends the space into a meta-space, a.k.a. [spacetime](https://en.wikipedia.org/wiki/Spacetime). This extension can be continued to extend any (meta-)space to infinity.
 				  id:: 667c001e-83b9-4de5-bf81-1c71898340a2
@@ -2835,7 +2835,7 @@
 			  collapsed:: true
 				- First cause – the yin circle generating the yin arrow
 				  id:: 699c0362-eb81-42c5-843c-2559d2fe7b73
-					- When the **yin circle** (inner intent, prior knowledge) meets a new condition, there arise problem, question, gap, mismatch, conflict, imbalance, unknown, inequality, incompleteness, etc., which are represented by the **yin arrow**.
+					- When the **yin circle** (inner intent, prior knowledge of the obop) meets a new condition, there arise problem, question, gap, mismatch, conflict, imbalance, unknown, inequality, incompleteness, etc., which are represented by the **yin arrow**.
 					- ((6667c99a-792f-4230-9fc6-c5fae874daef)): Because the yin arrow is the imbalance (gap in the circle, absence of the result/answer), it is the seed urging the body to grow, driving the effect flow toward balance, completeness.
 					- That growth and flow is called the **yang arrow** whose _tail is the yin arrow_.
 				- Efficient & Formal causes – the yang arrow
