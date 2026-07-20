@@ -2791,6 +2791,8 @@
 								  collapsed:: true
 									- The **effect flow** is the the _arrows shot out_ from there.
 									- ![ArrowShooting.jpg](../assets/Uniinfo/Metaphysics/ArrowShooting.jpg)
+						- So, the head of the Ouroboros (with eyes and mouth) is actually of the obop, not of the effect circle.
+							- The attachment of the arrow tail to the obop (head) is the source of confusion.
 					- Ouroboros versus Effect circle
 						- Ouroboros
 						  ![Ouroboros-Alchemy.png](../assets/Uniinfo/Metaphysics/Ouroboros-Alchemy.png){:width 200}
@@ -2798,7 +2800,7 @@
 						  ![OuroborosTrinion](https://docs.google.com/drawings/d/e/2PACX-1vRqW5erSVHBkU5Zbt-UntR9Yo-49Dx9C58evxiLUTsdPOYCPLEppLbk6nXsjaPcJvtklBwqHel-5pVw/pub?w=200)
 						- Human's effect circle
 						  id:: 6a5de20d-489d-4cc5-aade-88e9df2315ac
-						  ![Human-EffectCircle.jpeg](../assets/Uniinfo/Metaphysics/Human-EffectCircle.jpeg){:width 300}
+						  ![Human-EffectCircle.png](../assets/Uniinfo/Metaphysics/Human-EffectCircle.png){:width 300}
 							- This is adapted from [Descartes' diagram of reflex arc](((6a5dd85a-10b5-430d-9ceb-9f7e3c16da3c))).
 			- ### change
 			  id:: 667c008f-cd1f-4a6b-a9c8-d6efa1d8d342
