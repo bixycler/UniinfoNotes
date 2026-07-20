@@ -2779,7 +2779,7 @@
 							- The obop sets the base (tail) of the effect arrow to its expectation.
 							- The obop's hand/body is the arrow shaft reaching out to operate the whole circle.
 							- The obop's eye is there observing the arrowhead to evaluate its effect against the target image at the base (tail).
-							- The obop's open mouth is there to consume the fruit effect (arrowhead) at the end (when matched), in order to collapse the whole circle.
+							- The obop's open mouth is there to consume the karmic fruit (arrowhead) at the end (when matched), in order to collapse the whole circle.
 							- Examples:
 								- The reflex arc depicted in Descartes' _Treatise of Man_ ([Figure 63](https://commons.wikimedia.org/wiki/File:Descartes_mind_and_body.gif)).
 								  id:: 6a5dd85a-10b5-430d-9ceb-9f7e3c16da3c
