@@ -2841,7 +2841,7 @@
 					- That growth and flow is called the **yang arrow** whose _tail is the yin arrow_.
 				- Efficient & Formal causes – the yang arrow
 				  id:: 6a5a17e9-a977-4884-a73d-49ede5ef4b11
-					- The view cone projects the process of resolution (quest, solving, working out, reasoning, proof, derivation, exploration, etc.), i.e. know-how (efficient cause), to the result/answer (know-where, know-what, formal cause).
+					- The view cone projects the process of resolution (quest, solving, working out, reasoning, proof, derivation, exploration, etc.), which is the yang arrow body (know-how, efficient cause), to the result/answer which is the **yang arrowhead** (know-where, know-what, formal cause).
 				- Final cause – the yang arrowhead matching the yin arrow
 				  id:: 699c0362-f864-4879-9a07-204b96472cb0
 					- The verification/qualification of the solution/answer closes the effect circle.
