@@ -2702,6 +2702,9 @@
 			  id:: 667c0031-0a87-44c9-9e98-6d45893b095f
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf36a-581a-4abe-b544-2d849608a3e4))
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bf36a-581a-4abe-b544-2d849608a3e4)) is an ((667bef22-b272-4a7d-b613-3f1ed1a47329)) whose both sink and source are viewed as a single ((677e76ed-b324-4608-b146-90e8fcfa0c32)) which [drives](((6a5d8eb5-6989-42d1-9419-57db76aaa871))) the flow of the whole circle. This effect circle is the thread expression of the ((6772a6cd-771f-4f24-9c3a-39c442234be5)).
+			- Diagram
+			  collapsed:: true
+				- ![OuroborosTrinion](https://docs.google.com/drawings/d/e/2PACX-1vRqW5erSVHBkU5Zbt-UntR9Yo-49Dx9C58evxiLUTsdPOYCPLEppLbk6nXsjaPcJvtklBwqHel-5pVw/pub?w=300)
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- The ((667c0031-0a87-44c9-9e98-6d45893b095f)) in space generates the ((667d15b7-6364-49a9-ac58-c64d2a992b63)) in ((68fa164e-ef0e-4010-937d-ad9e0459f5f2)), i.e. ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)). That time arrow extends the space into a meta-space, a.k.a. [spacetime](https://en.wikipedia.org/wiki/Spacetime). This extension can be continued to extend any (meta-)space to infinity.
 				  id:: 667c001e-83b9-4de5-bf81-1c71898340a2
@@ -2780,14 +2783,10 @@
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)) is a [turn](https://en.wikipedia.org/wiki/Turn_(angle)) in the ((667bf36a-581a-4abe-b544-2d849608a3e4)).
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) is the being's _difference from its_ ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), hence a ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)), as shown in the ((6858b355-fba9-4e61-9f16-bc993a3df44b)). In particular, the change of an object $O$ (in time, space, spacetime, or configuration space) from position $A$ to position $B$ is the difference between $O$ at $A$ and $O$ at $B$, i.e. $O_B - O_A$. The change of ((665ca429-84e3-49ff-921e-c07d19cd99ba)) is ((669a58b9-eb34-41cd-8605-02e29b07e1b5)).
 				  id:: 684f9517-30d7-40e6-b93f-3386123e381c
-				-
 			- ### intentional cause
 			  id:: 677e76ed-b324-4608-b146-90e8fcfa0c32
 			  collapsed:: true
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((677e76ed-b324-4608-b146-90e8fcfa0c32)) is the ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)) of the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) of the ((667c0031-0a87-44c9-9e98-6d45893b095f)) which keeps the circle whole and alive. As the [first cause (source)](((699c0362-eb81-42c5-843c-2559d2fe7b73))), it's the operator [driving](((6a5d8eb5-6989-42d1-9419-57db76aaa871))) the effect flow, and as the [final cause (sink)](((6a5a17e9-a977-4884-a73d-49ede5ef4b11))), it's the observer [qualifying](((681826ac-f5f2-4a84-a5f5-c110937ec85f))) the ((669a1bec-3347-4915-83e4-dcffc4d482d1)) of the effect circle. In Unïnfo, its the ((66f3d5cc-0d68-47bb-b09a-87cda33c7354)) in the Trinion, the mixmatch of the threads, the arrowhead and the circle's opening. In life, it's the question, the problem, the mismatch, and generally the yin (negative & hidden) part of the world.
-					- Diagram
-					  collapsed:: true
-						- ![OuroborosTrinion](https://docs.google.com/drawings/d/e/2PACX-1vRqW5erSVHBkU5Zbt-UntR9Yo-49Dx9C58evxiLUTsdPOYCPLEppLbk6nXsjaPcJvtklBwqHel-5pVw/pub?w=300)
 				- ((66725725-f76a-4328-b162-f469b87e871b))
 					- Physics: Potential gradient: voltage, pressure, mass–energy curvature, chemical potential, temperature gradient
 					- Error signal in control theory & cybernetics, prediction error in neuroscience
@@ -2841,7 +2840,7 @@
 					- That growth and flow is called the **yang arrow** whose _tail is the yin arrow_.
 				- Efficient & Formal causes – the yang arrow
 				  id:: 6a5a17e9-a977-4884-a73d-49ede5ef4b11
-					- The view cone projects the process of growth, progress, quest, solving, working out, reasoning, proof, derivation, exploration, etc.), which is the yang arrow body (know-how, efficient cause), to the result/answer which is the **yang arrowhead** (know-where, know-what, formal cause).
+					- The view cone projects the process of growth, progress, quest, solving, working out, reasoning, proof, derivation, exploration, etc., which is the yang arrow body (know-how, efficient cause), to its result, answer, fruit, which are the **yang arrowhead** (know-where, know-what, formal cause).
 				- Final cause – the yang arrowhead matching the yin arrow
 				  id:: 699c0362-f864-4879-9a07-204b96472cb0
 					- The verification/qualification of the solution/answer (yang arrowhead) by the yin circle closes the effect circle – the yang arrowhead matching its tail (yin arrow).
