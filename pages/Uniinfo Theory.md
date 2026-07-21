@@ -2820,7 +2820,7 @@
 			- ### intentional cause
 			  id:: 677e76ed-b324-4608-b146-90e8fcfa0c32
 			  collapsed:: true
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((677e76ed-b324-4608-b146-90e8fcfa0c32)) is the ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)) of the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) of the ((667c0031-0a87-44c9-9e98-6d45893b095f)) which keeps the circle whole and alive. As the [first cause (source)](((699c0362-eb81-42c5-843c-2559d2fe7b73))), it's the operator [driving](((6a5d8eb5-6989-42d1-9419-57db76aaa871))) the effect flow, and as the [final cause (sink)](((6a5a17e9-a977-4884-a73d-49ede5ef4b11))), it's the observer [qualifying](((681826ac-f5f2-4a84-a5f5-c110937ec85f))) the ((669a1bec-3347-4915-83e4-dcffc4d482d1)) of the effect circle. In Unïnfo, its the ((66f3d5cc-0d68-47bb-b09a-87cda33c7354)) in the Trinion, the mixmatch of the threads, the arrowhead and the circle's opening. In life, it's the question, the problem, the mismatch, and generally the yin (negative & hidden) part of the world.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((677e76ed-b324-4608-b146-90e8fcfa0c32)) is the ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)) of the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) of the ((667c0031-0a87-44c9-9e98-6d45893b095f)) which keeps the circle whole and alive. As the [first cause (source)](((699c0362-eb81-42c5-843c-2559d2fe7b73))), it's the operator [driving](((6a5d8eb5-6989-42d1-9419-57db76aaa871))) the effect flow, and as the [final cause (sink)](((699c0362-f864-4879-9a07-204b96472cb0))), it's the observer [qualifying](((681826ac-f5f2-4a84-a5f5-c110937ec85f))) the ((669a1bec-3347-4915-83e4-dcffc4d482d1)) of the effect circle. In Unïnfo, its the ((66f3d5cc-0d68-47bb-b09a-87cda33c7354)) in the Trinion, the mixmatch of the threads, the arrowhead and the circle's opening. In life, it's the question, the problem, the mismatch, and generally the yin (negative & hidden) part of the world.
 				- ((66725725-f76a-4328-b162-f469b87e871b))
 					- Physics: Potential gradient: voltage, pressure, mass–energy curvature, chemical potential, temperature gradient
 					- Error signal in control theory & cybernetics, prediction error in neuroscience
@@ -2830,10 +2830,11 @@
 					- The first cause is also the final cause – unified in the intentional cause
 					  id:: 692d502f-b469-4b1d-9267-1d02e3953590
 					  collapsed:: true
-						- I don't use the term “final cause” like Aristotle because [the goal is the horizon](((67445223-9459-4aa9-b102-70c63943577b))):
+						- We don't use the term “final cause” like Aristotle because [the goal is the horizon](((67445223-9459-4aa9-b102-70c63943577b))):
 							- 1) _in a single circle_, it's both the first (as the seed), and the last (as the purpose), and
 							- 2) throughout the never ending cycle of effect, it will never be “final”.
-						- At first, as a seed, the intention of [resolving the yin arrow](((699c0362-eb81-42c5-843c-2559d2fe7b73))) gives rise to the whole tree, i.e. ((66c810a0-9861-4787-bdcf-1378219332be)) of karma, [the yang arrow](((6a5a17e9-a977-4884-a73d-49ede5ef4b11))) folding into the circle.
+						- At first, as a seed, the intention of [resolving the yin arrow](((699c0362-eb81-42c5-843c-2559d2fe7b73))) gives rise to the whole tree, i.e., the ((66c810a0-9861-4787-bdcf-1378219332be)) of karma called [yang arrow](((6a5a17e9-a977-4884-a73d-49ede5ef4b11))), which then folds into the circle.
+						  id:: 6a3cef73-13b6-422c-a169-aedb0cc5ac82
 						- At last, the fruits of the body are [selected by the intent](((699c0362-f864-4879-9a07-204b96472cb0))) to satisfy the criteria of the purpose.
 						- The statement that “the first cause is also the final cause” is similar to [Aquinas' 5th Way](https://en.wikipedia.org/wiki/Five_Ways_(Aquinas)#Fifth_way:_Argument_from_Final_Cause_or_Ends), but for the immanent God – the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) – instead of a transcendent God.
 						  id:: 692d69f0-ff24-4d71-a95c-2e27ebb28c7d
@@ -2847,7 +2848,7 @@
 							- This is usually *fixed*, whose fixation forms the **self-attachment**.
 						- The clinging self: a fixed form of the whole, a permanent final cause
 							- The fixation: by fixing the self-image, the obop creates a permanent & unchangable “hidden boss” controlling every action from behind, hence the term “subject”.
-							- The nonfunctional: Due to that fixation, whenver there are conflicts unsolvable by the hidden boss, it exessively consumes resources to wrestle, occupying valuable free space with nonfunctional and even dysfunctional energy.
+							- The nonfunctional: Due to that fixation, whenever there are conflicts unsolvable by the hidden boss, it excessively consumes resources to wrestle, occupying valuable free space with nonfunctional and even dysfunctional energy.
 								- It usually foces the whole bodymind to wrestle in vain, creating destructive energy and actions, and only stops when all available resources are used up.
 									- Its stop is forced by exhaustion, not voluntary.
 								- This is illustrated by the “2nd arrow” in the Buddhist [“2 arrows” parable](https://suttacentral.net/sn36.6/en/sujato).
