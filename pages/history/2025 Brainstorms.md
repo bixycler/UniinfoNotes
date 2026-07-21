@@ -55,8 +55,10 @@ id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
 		- Circles: ((667c0031-0a87-44c9-9e98-6d45893b095f)), knowledge circle
 		- ![Arcs and chord.png](../assets/Will/story/2025-12/Arcs and chord.png){:width 200}
 		- The **final result** is the straight chord $AZ$, the formula “$A = Z$”, the abstract, the means, the cable transport directly from the base to the mountaintop, the external form, the yang arrowhead (know-where, know-what, formal cause) of effect circle.
-		- The [proof](https://en.wikipedia.org/wiki/Mathematical_proof) is the minor arc $⌒AZ$, the program, the machinery of the means, the paved road, the road on map, the internal form, the yin circle (inner intent) of effect circle.
-		- The **whole process** of discovery is the major arc $⌒ABC...Z$, the wave, the content, the every path through the forest, the yang arrow body ().
+		- The [proof](https://en.wikipedia.org/wiki/Mathematical_proof) is the minor arc $⌒AZ$, the program, the machinery of the means, the paved road, the road on map, the internal form, the yin circle (inner intent, know-why) of effect circle.
+		- The **whole process** of discovery is the major arc $⌒ABC...Z$, the wave, the content, the every path through the forest, the yang arrow body (know-how, efficient cause) of effect circle.
+		- The chord usually contracts $AZ$, and the minor/major arc folds into the yin/yang circle in effect circle.
+		  {{embed ((6a5e104f-0113-47bb-a47c-485e5fc084b2))}}
 	- Round-trip projection determines norm, roundness, orthogonality
 	  id:: 693f644f-a884-4ea5-8ae4-775ae7bb6e43
 	  collapsed:: true

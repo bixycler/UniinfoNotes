@@ -2806,6 +2806,7 @@
 						- Effect circle with obop between arrowhead and tail
 						  ![OuroborosTrinion](https://docs.google.com/drawings/d/e/2PACX-1vRqW5erSVHBkU5Zbt-UntR9Yo-49Dx9C58evxiLUTsdPOYCPLEppLbk6nXsjaPcJvtklBwqHel-5pVw/pub?w=200)
 						- Effect circle (yang circle bellow) with its inner intent (yin circle above)
+						  id:: 6a5e104f-0113-47bb-a47c-485e5fc084b2
 						  ![](https://docs.google.com/drawings/d/e/2PACX-1vRVxKAf7aYd7pLrCWCtz0HGNcJubQ-B6ne2iCTNfKN4UNskoHipw2e1KPQV5ZDIXjlBl76xR4_SFqkj/pub?w=200)
 			- ### change
 			  id:: 667c008f-cd1f-4a6b-a9c8-d6efa1d8d342
