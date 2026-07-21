@@ -1497,6 +1497,7 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 	- Let's complete the circle of knowledge
 	  id:: 6773d7f2-be44-43f0-b4f0-31d910b12982
 	  collapsed:: true
+	  which is related to but different from the ((6909a541-f4da-48ce-af9e-31f499125b00)) in the ((6851578b-9b1f-4367-878f-79b0b0b9be51)).
 		- [Knowledge circle](https://www.facebook.com/share/p/ELxP71XMikbJGPPK/)
 		- [Vòng tròn tri thức](https://www.facebook.com/share/p/3brw3UhstMGzAYsC/)
 		- ![KnowledgeCircle.jpg](../assets/Will/story/2023-12/KnowledgeCircle.jpg)
