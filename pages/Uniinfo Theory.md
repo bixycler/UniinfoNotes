@@ -2845,7 +2845,7 @@
 						  id:: 69a502fe-ccb2-422d-a292-e4854e87fd90
 						- The [final cause](((699c0362-f864-4879-9a07-204b96472cb0))): whole, form, goal, target, ideal, the “positivity” (yang, 陽/阳) in general
 							- This is usually *fixed*, whose fixation forms the **self-attachment**.
-						- The clinging self: a fixed form of the whole, a permanent last cause
+						- The clinging self: a fixed form of the whole, a permanent final cause
 							- The fixation: by fixing the self-image, the obop creates a permanent & unchangable “hidden boss” controlling every action from behind, hence the term “subject”.
 							- The nonfunctional: Due to that fixation, whenver there are conflicts unsolvable by the hidden boss, it exessively consumes resources to wrestle, occupying valuable free space with nonfunctional and even dysfunctional energy.
 								- It usually foces the whole bodymind to wrestle in vain, creating destructive energy and actions, and only stops when all available resources are used up.
