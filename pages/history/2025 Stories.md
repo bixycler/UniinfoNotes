@@ -3211,11 +3211,11 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 							- ![little-devil-clipart-lg.png](../assets/Will/story/2025-07/little-devil-clipart-lg.png)
 			- ~~Trinion~~ ((6858b355-fba9-4e61-9f16-bc993a3df44b)) via effect flow torus
 			  id:: 6878561a-42bb-404b-b1aa-9e0545b1cc69
-				- self-circle is the form transcycling the content arrows of the world circle through the obop equal.
-				- distribution of the effect threads is determined by the knowledge cone of the self => 3 directions
-				- the center of the self-circle is the apex of the knowledge cone = intent cone = representative of the whole, the perfect, the target, the root of restoring force
-				- the self-circle is driven by the force field of distortion created by its knowledge, to go toward the the intent, to optimize itself toward the perfect form (round circle)
-					- the perfection is the meta form at infinity (zero intent), driving the self to change & learn
+				- Self-circle is the form transcycling the content arrows of the world circle through the obop equal.
+				- Distribution of the effect threads is determined by the knowledge cone of the self => 3 directions
+				- The center of the self-circle is the apex of the knowledge cone = intent cone = representative of the whole, the perfect, the target, the root of restoring force
+				- The self-circle is driven by the force field of distortion created by its knowledge, to go toward the intent, to optimize itself toward the perfect form (round circle)
+					- The perfection is the meta form at infinity (zero intent), driving the self to change & learn.
 		- 21st, FoC dynamics again
 		  collapsed:: true
 			- revise [ReciprocalCIE](https://www.geogebra.org/m/pxbusb4r) applet: 2 reciprocal view cones

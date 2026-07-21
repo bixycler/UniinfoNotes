@@ -1494,7 +1494,7 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 		  Hello Noise, my old friend! 
 		  Hello Silence, my old friend! 
 		  ...
-	- Let's complete the knowledge circle
+	- Let's complete the circle of knowledge
 	  id:: 6773d7f2-be44-43f0-b4f0-31d910b12982
 	  collapsed:: true
 		- [Knowledge circle](https://www.facebook.com/share/p/ELxP71XMikbJGPPK/)

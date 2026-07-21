@@ -2770,6 +2770,7 @@
 				- circular effect flow = circular causality = circular determinism = interdependency = interfusion = interpenetration = dependent origination
 				  id:: 68f5a6d2-8148-4975-b3cb-799fe37a3d72
 					- This circular dependency is shown by the spirorus which is the structure of spacetime.
+				- ((667c0031-0a87-44c9-9e98-6d45893b095f)) ≈ ((67b183f5-1cca-4473-917e-60c644dd5466)) ≈  [circle of knowledge](((6773d7f2-be44-43f0-b4f0-31d910b12982))) ≈ ((6772a6cd-771f-4f24-9c3a-39c442234be5))
 				- ((667bf36a-581a-4abe-b544-2d849608a3e4)) is the characteristic of [cybernetics](https://en.wikipedia.org/wiki/Cybernetics).
 				- The [Ouroboros](https://en.wikipedia.org/wiki/Ouroboros) is a great symbol of effect circle but a misnomer with reverse meaning.
 				  collapsed:: true
