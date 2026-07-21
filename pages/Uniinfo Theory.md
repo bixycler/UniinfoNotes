@@ -2885,6 +2885,8 @@
 				- Yin (陰/阴, invisible, negative) vs Yang (陽/阳, visible, positive)
 					- The inner/higher intent in the onion/tower of intents is the yin circle generating the yin arrow to drive the yang arrow to form the yang circle – the outer/lower intent.
 					- The external knowledge circle is the lowest circle in the tower of effect circles, under all active intents.
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- ((694a8194-d9e6-4d75-9079-26442a8aa375))
 		-
 	- ## thread
 	  id:: 667d0d2e-15c7-4989-a183-69a9a5c6bf8a
