@@ -5373,7 +5373,7 @@ id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 			- For each object, i read it again and again, to view it in different aspects.
 				- Each pass with a different attention, shows a different angle of the object, viewed from a different intent set.
 				- Changing attention = changing view angle = turning = object rotation = mixmatching object content with different subject intents
-				- At each angle, a set/chain of intents is activated to observe the object _concurrently_.
+				- At each angle, a [set/chain of intents](((68df2d82-e1d5-49c4-ac40-d45cf26f840c))) is activated to observe the object _concurrently_.
 					- ⇒ Formation: project the object into this specific set of operative intents, to update them, and generate new formative intents.
 					- The object content thread is folded by these intents, creating a view := a circle of folded subcircles & unfolded arrows.
 				- Different passes pull different threads of the object, then mixmatch together (old pass with new pass).

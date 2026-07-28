@@ -55,7 +55,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :END:
 			- Feedforward/efferent flow: circle drives arrow via the ((6667c99a-792f-4230-9fc6-c5fae874daef)) & matching: The tendency of all contend arrows is tending toward the content circle (contentment).
 				- This is the ethereality of the circle.
-				- The action cone (the whip): In the sequence of intents, the inner/higher intent drives the outer/lower intent, then continue down to the outward action.
+				- The action cone (the whip): In the [sequence of intents](((68df2d82-e1d5-49c4-ac40-d45cf26f840c))), the inner/higher intent drives the outer/lower intent, then continue down to the outward action.
 					- In human, it's the chain: impulsion > impetus > intention > action
 			- Feedback/afferent flow: arrow cuts circle via the ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) & mixing: The content circle is composed of arrows of constant change.
 				- This is the cutting edge of the arrow.
