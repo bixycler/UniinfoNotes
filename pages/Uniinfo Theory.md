@@ -2702,12 +2702,12 @@
 			  id:: 667c0031-0a87-44c9-9e98-6d45893b095f
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf36a-581a-4abe-b544-2d849608a3e4))
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bf36a-581a-4abe-b544-2d849608a3e4)) is an ((667bef22-b272-4a7d-b613-3f1ed1a47329)) whose both sink and source are viewed as a single ((677e76ed-b324-4608-b146-90e8fcfa0c32)) which [drives](((6a5d8eb5-6989-42d1-9419-57db76aaa871))) the flow of the whole circle. This effect circle is the thread expression of the ((6772a6cd-771f-4f24-9c3a-39c442234be5)).
-			- Diagram
+			- Diagrams
 			  collapsed:: true
 				- Effect circle (yang circle bellow) with its inner intent (yin circle above)
 				  id:: 6a5e104f-0113-47bb-a47c-485e5fc084b2
 				  ![](https://docs.google.com/drawings/d/e/2PACX-1vRVxKAf7aYd7pLrCWCtz0HGNcJubQ-B6ne2iCTNfKN4UNskoHipw2e1KPQV5ZDIXjlBl76xR4_SFqkj/pub?w=200)
-					- This is [yin-yang relationship](((6a684e7e-c9d4-45f3-80ed-158e20b3ab24))) is relative in the tower of intents.
+					- This is [yin–yang relationship](((6a684e7e-c9d4-45f3-80ed-158e20b3ab24))) is relative in the tower of intents.
 				- Effect circle with its obop between arrowhead and tail
 				  ![OuroborosTrinion](https://docs.google.com/drawings/d/e/2PACX-1vRqW5erSVHBkU5Zbt-UntR9Yo-49Dx9C58evxiLUTsdPOYCPLEppLbk6nXsjaPcJvtklBwqHel-5pVw/pub?w=200)
 				- Human's effect circle
@@ -2807,7 +2807,8 @@
 					- So, the head of the Ouroboros (with eyes and mouth) is actually the obop's head, not the arrowhead of the effect circle.
 						- The attachment of the arrow tail to the obop (head) is the source of confusion.
 					- The image of a man bringing a fruit to his mouth bridges the Ouroboros to the effect circle.
-						-
+					  {{embed ((6a5de20d-489d-4cc5-aade-88e9df2315ac))}}
+						- The man's head is the Ouroboros' head where the tail of the effect circle is based on, and the fruit is the arrowhead to be put into his mouth when matched.
 			- ### change
 			  id:: 667c008f-cd1f-4a6b-a9c8-d6efa1d8d342
 			  collapsed:: true
