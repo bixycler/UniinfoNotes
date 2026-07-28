@@ -2704,8 +2704,17 @@
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bf36a-581a-4abe-b544-2d849608a3e4)) is an ((667bef22-b272-4a7d-b613-3f1ed1a47329)) whose both sink and source are viewed as a single ((677e76ed-b324-4608-b146-90e8fcfa0c32)) which [drives](((6a5d8eb5-6989-42d1-9419-57db76aaa871))) the flow of the whole circle. This effect circle is the thread expression of the ((6772a6cd-771f-4f24-9c3a-39c442234be5)).
 			- Diagram
 			  collapsed:: true
-				- Effect circle as an Ouroboros
+				- Effect circle (yang circle bellow) with its inner intent (yin circle above)
+				  id:: 6a5e104f-0113-47bb-a47c-485e5fc084b2
+				  ![](https://docs.google.com/drawings/d/e/2PACX-1vRVxKAf7aYd7pLrCWCtz0HGNcJubQ-B6ne2iCTNfKN4UNskoHipw2e1KPQV5ZDIXjlBl76xR4_SFqkj/pub?w=200)
+				- Effect circle with its obop between arrowhead and tail
 				  ![OuroborosTrinion](https://docs.google.com/drawings/d/e/2PACX-1vRqW5erSVHBkU5Zbt-UntR9Yo-49Dx9C58evxiLUTsdPOYCPLEppLbk6nXsjaPcJvtklBwqHel-5pVw/pub?w=200)
+				- Human's effect circle
+				  id:: 6a5de20d-489d-4cc5-aade-88e9df2315ac
+				  ![Human-EffectCircle.png](../assets/Uniinfo/Metaphysics/Human-EffectCircle.png){:width 300}
+					- This is adapted from [Descartes' diagram of reflex arc](((6a5dd85a-10b5-430d-9ceb-9f7e3c16da3c))).
+				- Effect circle as a [misnomered Ouroboros](((6a5a00fd-2879-43de-89b6-49a836c4fcbc)))
+				  ![Ouroboros-Alchemy.png](../assets/Uniinfo/Metaphysics/Ouroboros-Alchemy.png){:width 200}
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- The ((667c0031-0a87-44c9-9e98-6d45893b095f)) in space generates the ((667d15b7-6364-49a9-ac58-c64d2a992b63)) in ((68fa164e-ef0e-4010-937d-ad9e0459f5f2)), i.e. ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)). That time arrow extends the space into a meta-space, a.k.a. [spacetime](https://en.wikipedia.org/wiki/Spacetime). This extension can be continued to extend any (meta-)space to infinity.
 				  id:: 667c001e-83b9-4de5-bf81-1c71898340a2
@@ -2773,6 +2782,7 @@
 				- ((667c0031-0a87-44c9-9e98-6d45893b095f)) ≈ ((67b183f5-1cca-4473-917e-60c644dd5466)) ≈  [circle of knowledge](((6773d7f2-be44-43f0-b4f0-31d910b12982))) ≈ ((6772a6cd-771f-4f24-9c3a-39c442234be5))
 				- ((667bf36a-581a-4abe-b544-2d849608a3e4)) is the characteristic of [cybernetics](https://en.wikipedia.org/wiki/Cybernetics).
 				- The [Ouroboros](https://en.wikipedia.org/wiki/Ouroboros) is a great symbol of effect circle but a misnomer with reverse meaning.
+				  id:: 6a5a00fd-2879-43de-89b6-49a836c4fcbc
 				  collapsed:: true
 					- The snake is not eating but **chasing** its own tail, just like a dog chasing tail, or the dragon chasing its pearl of ((677e76ed-b324-4608-b146-90e8fcfa0c32)). The moment the tail/pearl is catched, the entire circle collapses into thin air, wave, light, pure energy.
 					- The image of the open mouth swallowing the tail resembles the [match](((699c0362-f864-4879-9a07-204b96472cb0))) between head and tail, but in reverse order:
@@ -2796,18 +2806,6 @@
 						- So, the head of the Ouroboros (with eyes and mouth) is actually the obop's head, not the arrowhead of the effect circle.
 							- The attachment of the arrow tail to the obop (head) is the source of confusion.
 					- Ouroboros versus Effect circle
-					  collapsed:: true
-						- Ouroboros
-						  ![Ouroboros-Alchemy.png](../assets/Uniinfo/Metaphysics/Ouroboros-Alchemy.png){:width 200}
-						- Human's effect circle
-						  id:: 6a5de20d-489d-4cc5-aade-88e9df2315ac
-						  ![Human-EffectCircle.png](../assets/Uniinfo/Metaphysics/Human-EffectCircle.png){:width 300}
-							- This is adapted from [Descartes' diagram of reflex arc](((6a5dd85a-10b5-430d-9ceb-9f7e3c16da3c))).
-						- Effect circle with obop between arrowhead and tail
-						  ![OuroborosTrinion](https://docs.google.com/drawings/d/e/2PACX-1vRqW5erSVHBkU5Zbt-UntR9Yo-49Dx9C58evxiLUTsdPOYCPLEppLbk6nXsjaPcJvtklBwqHel-5pVw/pub?w=200)
-						- Effect circle (yang circle bellow) with its inner intent (yin circle above)
-						  id:: 6a5e104f-0113-47bb-a47c-485e5fc084b2
-						  ![](https://docs.google.com/drawings/d/e/2PACX-1vRVxKAf7aYd7pLrCWCtz0HGNcJubQ-B6ne2iCTNfKN4UNskoHipw2e1KPQV5ZDIXjlBl76xR4_SFqkj/pub?w=200)
 			- ### change
 			  id:: 667c008f-cd1f-4a6b-a9c8-d6efa1d8d342
 			  collapsed:: true
