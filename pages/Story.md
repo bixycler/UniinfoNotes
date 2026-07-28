@@ -2679,7 +2679,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  CLOCK: [2026-07-17 Fri 17:57:50]
 					  CLOCK: [2026-07-17 Fri 17:57:53]--[2026-07-17 Fri 18:06:09] =>  00:08:16
 					  :END:
-			- 18-29th, weekend: Entropy, Information & Physics
+			- 18-19th, weekend: Entropy, Information & Physics
 			  collapsed:: true
 				- [Thermodynamics of the gravity from entropy theory (GfE)](https://journals.aps.org/prd/abstract/10.1103/26kn-thgp)
 					- In an expanding universe (Friedmann-Robertson-Walker cosmologies), its expansion is faster than the increase is total entropy
