@@ -2713,7 +2713,7 @@
 				  id:: 6a5de20d-489d-4cc5-aade-88e9df2315ac
 				  ![Human-EffectCircle.png](../assets/Uniinfo/Metaphysics/Human-EffectCircle.png){:width 300}
 					- This is adapted from [Descartes' diagram of reflex arc](((6a5dd85a-10b5-430d-9ceb-9f7e3c16da3c))).
-				- Effect circle as a [misnomered Ouroboros](((6a5a00fd-2879-43de-89b6-49a836c4fcbc)))
+				- Ouroboros as a [misnomer of effect circle](((6a5a00fd-2879-43de-89b6-49a836c4fcbc)))
 				  ![Ouroboros-Alchemy.png](../assets/Uniinfo/Metaphysics/Ouroboros-Alchemy.png){:width 200}
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- The ((667c0031-0a87-44c9-9e98-6d45893b095f)) in space generates the ((667d15b7-6364-49a9-ac58-c64d2a992b63)) in ((68fa164e-ef0e-4010-937d-ad9e0459f5f2)), i.e. ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)). That time arrow extends the space into a meta-space, a.k.a. [spacetime](https://en.wikipedia.org/wiki/Spacetime). This extension can be continued to extend any (meta-)space to infinity.
@@ -2882,6 +2882,7 @@
 					- The “final cause” (know-why) in [4 causes by Aristotle](https://en.wikipedia.org/wiki/Four_causes) corresponds to this half of the intentional cause.
 				- ⇒ The intentional cause is “final” in the ((667bda02-8dc9-488e-ba16-ea75c3d7895c)), but “first” in the ((667bd93a-cce4-4dbf-9831-725e4dffe463)).
 				- Yin (陰/阴, invisible, negative) vs Yang (陽/阳, visible, positive)
+				  id:: 6a684e7e-c9d4-45f3-80ed-158e20b3ab24
 					- The inner/higher intent in the onion/tower of intents is the yin circle generating the yin arrow to drive the yang arrow to form the yang circle – the outer/lower intent.
 					- The external knowledge circle is the lowest circle in the tower of effect circles, under all active intents.
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
