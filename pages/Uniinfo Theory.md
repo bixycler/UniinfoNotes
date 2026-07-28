@@ -2788,7 +2788,7 @@
 				  collapsed:: true
 					- The snake is not eating but **chasing** its own tail, just like a dog chasing tail, or the dragon chasing its pearl of ((677e76ed-b324-4608-b146-90e8fcfa0c32)). The moment the tail/pearl is catched, the entire circle collapses into thin air, wave, light, pure energy.
 					- The image of the open mouth swallowing the tail resembles the [match](((699c0362-f864-4879-9a07-204b96472cb0))) between head and tail, but in reverse order: In effect circle, the tail is actually the opening (negative arrow) to swallow the arrowhead (positive arrow).
-					- The ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) of the effect circle gives meaning to the Ouroboros: The obop bases its effect flow on the arrow tail.
+					- The ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) of the effect circle gives meaning to the Ouroboros: The obop bases its effect flow on the arrow tail to drive the arrowhead until it matches the tail.
 						- The obop sets the base (tail) of the effect arrow to its expectation.
 						- The obop's hand/body is the arrow shaft reaching out to operate the whole circle.
 						- The obop's eye is there observing the arrowhead to evaluate its effect against the target image at the base (tail).
@@ -2806,6 +2806,8 @@
 								- ![ArrowShooting.jpg](../assets/Uniinfo/Metaphysics/ArrowShooting.jpg)
 					- So, the head of the Ouroboros (with eyes and mouth) is actually the obop's head, not the arrowhead of the effect circle.
 						- The attachment of the arrow tail to the obop (head) is the source of confusion.
+					- The image of a man bringing a fruit to his mouth bridges the Ouroboros to the effect circle.
+						-
 			- ### change
 			  id:: 667c008f-cd1f-4a6b-a9c8-d6efa1d8d342
 			  collapsed:: true
