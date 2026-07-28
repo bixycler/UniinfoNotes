@@ -2787,27 +2787,25 @@
 				  id:: 6a5a00fd-2879-43de-89b6-49a836c4fcbc
 				  collapsed:: true
 					- The snake is not eating but **chasing** its own tail, just like a dog chasing tail, or the dragon chasing its pearl of ((677e76ed-b324-4608-b146-90e8fcfa0c32)). The moment the tail/pearl is catched, the entire circle collapses into thin air, wave, light, pure energy.
-					- The image of the open mouth swallowing the tail resembles the [match](((699c0362-f864-4879-9a07-204b96472cb0))) between head and tail, but in reverse order:
-						- In effect circle, the tail is actually the opening (negative arrow) to swallow the arrowhead (positive arrow), the target/pearl for the arrowhead to reach/chase.
-						- The obop between the tail and the arrowhead: Like [a man putting a fruit to his mouth](((6a5de20d-489d-4cc5-aade-88e9df2315ac))), the obop bases its effect flow on the arrow tail.
-							- The obop sets the base (tail) of the effect arrow to its expectation.
-							- The obop's hand/body is the arrow shaft reaching out to operate the whole circle.
-							- The obop's eye is there observing the arrowhead to evaluate its effect against the target image at the base (tail).
-							- The obop's open mouth is there to consume the karmic fruit (arrowhead) at the end (when matched), in order to collapse the whole circle.
-							- Examples:
-								- The reflex arc depicted in Descartes' _Treatise of Man_ ([Figure 63](https://commons.wikimedia.org/wiki/File:Descartes_mind_and_body.gif)).
-								  id:: 6a5dd85a-10b5-430d-9ceb-9f7e3c16da3c
-								  collapsed:: true
-									- The pineal gland inside the head corresponds to the obop between the arrow tail and arrowhead.
-									- Here, the circle is cut into 2 halves – **observing arrow** from the eyes and **operating arrow** from the hand – both point to the target (ABC).
-									- ![Descartes_figure63.gif](../assets/Uniinfo/Metaphysics/Descartes_figure63.gif)
-								- The bowman places the arrow tail right at his head.
-								  collapsed:: true
-									- The **effect flow** is the the _arrows shot out_ from there.
-									- ![ArrowShooting.jpg](../assets/Uniinfo/Metaphysics/ArrowShooting.jpg)
-						- So, the head of the Ouroboros (with eyes and mouth) is actually the obop's head, not the arrowhead of the effect circle.
-							- The attachment of the arrow tail to the obop (head) is the source of confusion.
-					- To see the relationship between the Ouroboros and the effect circle, we should
+					- The image of the open mouth swallowing the tail resembles the [match](((699c0362-f864-4879-9a07-204b96472cb0))) between head and tail, but in reverse order: In effect circle, the tail is actually the opening (negative arrow) to swallow the arrowhead (positive arrow).
+					- The ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) of the effect circle gives meaning to the Ouroboros: The obop bases its effect flow on the arrow tail.
+						- The obop sets the base (tail) of the effect arrow to its expectation.
+						- The obop's hand/body is the arrow shaft reaching out to operate the whole circle.
+						- The obop's eye is there observing the arrowhead to evaluate its effect against the target image at the base (tail).
+						- The obop's open mouth is there to consume the karmic fruit (arrowhead) at the end (when matched), in order to collapse the whole circle.
+						- Examples:
+							- The reflex arc depicted in Descartes' _Treatise of Man_ ([Figure 63](https://commons.wikimedia.org/wiki/File:Descartes_mind_and_body.gif)).
+							  id:: 6a5dd85a-10b5-430d-9ceb-9f7e3c16da3c
+							  collapsed:: true
+								- The pineal gland inside the head corresponds to the obop between the arrow tail and arrowhead.
+								- Here, the circle is cut into 2 halves – **observing arrow** from the eyes and **operating arrow** from the hand – both point to the target (ABC).
+								- ![Descartes_figure63.gif](../assets/Uniinfo/Metaphysics/Descartes_figure63.gif)
+							- The bowman places the arrow tail right at his head.
+							  collapsed:: true
+								- The **effect flow** is the the _arrows shot out_ from there.
+								- ![ArrowShooting.jpg](../assets/Uniinfo/Metaphysics/ArrowShooting.jpg)
+					- So, the head of the Ouroboros (with eyes and mouth) is actually the obop's head, not the arrowhead of the effect circle.
+						- The attachment of the arrow tail to the obop (head) is the source of confusion.
 			- ### change
 			  id:: 667c008f-cd1f-4a6b-a9c8-d6efa1d8d342
 			  collapsed:: true
