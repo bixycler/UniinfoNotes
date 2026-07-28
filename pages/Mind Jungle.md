@@ -1766,7 +1766,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  id:: 684f9517-d0a4-43f7-bfb2-766340b63655
 					- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) ((674c11d4-894a-46d1-b653-5e8148773d7a))
 					- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) ((6a599e55-4b6b-405d-aa43-e494bc86b7b2))
-					- The [computer programs](https://en.wikipedia.org/wiki/Computer_program) reflect this target reaching machinary on computers with [call stack](https://en.wikipedia.org/wiki/Call_stack) resembling human's stack of intents.
+					- The [computer programs](https://en.wikipedia.org/wiki/Computer_program) reflect this target reaching machinary on computers with [call stack](https://en.wikipedia.org/wiki/Call_stack) resembling human's [stack of intents](((690b3f49-1419-4dc3-b61b-12890b9e04f9))).
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- “[The Goal is the Horizon](https://creatzynotes.blogspot.com/2024/12/the-goal-is-horizon.html)” parable/koan
 					  id:: 67445223-9459-4aa9-b102-70c63943577b
@@ -2232,7 +2232,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  id:: 6846e19d-1af1-413a-b225-c9d48b4dd308
 					- spring doll mind
 					  id:: 6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00
-						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00)) is a model of my mind on work: the consciousness is just the head mounted on a very long spring of intents which connects to the root of the bodymind.
+					  collapsed:: true
+						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00)) is a model of my mind on work: the consciousness is just the head mounted on a very _long **spring of intents**_ which connects to the root of the bodymind.
 						- The famous spring smiley heads are a good example for this model, and were used in this [fb post](https://www.facebook.com/lexuandinhct/videos/3643573735885398) to mark the first time i saw the model around the end of 2023.
 						  ![spring-head-grin-tears.jpg](../assets/Will/story/2025-06/spring-head-grin-tears.jpg){:width 30}
 						- These bouncy spring dolls not only model my mind on work, but also the general minds of laymen in life.
