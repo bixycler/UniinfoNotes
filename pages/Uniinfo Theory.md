@@ -2714,7 +2714,7 @@
 				  id:: 6a5de20d-489d-4cc5-aade-88e9df2315ac
 				  ![Human-EffectCircle.png](../assets/Uniinfo/Metaphysics/Human-EffectCircle.png){:width 300}
 					- This is adapted from [Descartes' diagram of reflex arc](((6a5dd85a-10b5-430d-9ceb-9f7e3c16da3c))).
-				- Ouroboros as a [misnomer of effect circle](((6a5a00fd-2879-43de-89b6-49a836c4fcbc)))
+				- Ouroboros as a [subjective view of effect circle](((6a5a00fd-2879-43de-89b6-49a836c4fcbc)))
 				  id:: 6a684e7e-bbdf-4df9-a3b5-c75b224083bc
 				  ![Ouroboros-Alchemy.png](../assets/Uniinfo/Metaphysics/Ouroboros-Alchemy.png){:width 200}
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
@@ -2783,7 +2783,7 @@
 					- This circular dependency is shown by the spirorus which is the structure of spacetime.
 				- ((667c0031-0a87-44c9-9e98-6d45893b095f)) ≈ ((67b183f5-1cca-4473-917e-60c644dd5466)) ≈  [circle of knowledge](((6773d7f2-be44-43f0-b4f0-31d910b12982))) ≈ ((6772a6cd-771f-4f24-9c3a-39c442234be5))
 				- ((667bf36a-581a-4abe-b544-2d849608a3e4)) is the characteristic of [cybernetics](https://en.wikipedia.org/wiki/Cybernetics).
-				- The [Ouroboros](https://en.wikipedia.org/wiki/Ouroboros) is a great symbol of effect circle but a misnomer with reverse meaning.
+				- The [Ouroboros](https://en.wikipedia.org/wiki/Ouroboros) is a great symbol of effect circle but.
 				  id:: 6a5a00fd-2879-43de-89b6-49a836c4fcbc
 				  collapsed:: true
 					- The snake is not eating but **chasing** its own tail, just like a dog chasing tail, or the dragon chasing its pearl of ((677e76ed-b324-4608-b146-90e8fcfa0c32)). The moment the tail/pearl is catched, the entire circle collapses into thin air, wave, light, pure energy.
