@@ -1731,9 +1731,14 @@
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68875ace-d35f-44c6-9a9f-e7f7fc29f19d)), denoted by a solid-head arrow, is the ((66e42d39-a296-4ed9-a686-4cb213783830)) of the central ((671b6f87-7492-4eab-af49-e3c89bc8c860)) of the ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) corresponding to the view, i.e. the direction from the world to the eye.
 				- light ray direction
 				  id:: 6887607a-6282-4400-a240-9168b9a3f368
+				  ((665359e4-4597-4775-b849-f9acbb98960a)) ((6a686dd0-ce84-4e5c-97da-eb0e532144ff))
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Each ((671b6f87-7492-4eab-af49-e3c89bc8c860)) has a different ((6887607a-6282-4400-a240-9168b9a3f368)), but all of them converge to the eye. The central light ray direction is the ((68875ace-d35f-44c6-9a9f-e7f7fc29f19d)).
 						- Note: light ray direction is opposite to the [shading](https://en.wikipedia.org/wiki/Shading) “light direction” from the shaded surface to the light source.
 						  id:: 6887625c-db24-4ecf-a154-3aedb390afd3
+					- effect flow direction
+					  id:: 6a686dd0-ce84-4e5c-97da-eb0e532144ff
+					  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6887607a-6282-4400-a240-9168b9a3f368))
+						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6a686dd0-ce84-4e5c-97da-eb0e532144ff)) is the ((66e42d39-a296-4ed9-a686-4cb213783830)) of the ((667bef22-b272-4a7d-b613-3f1ed1a47329)) from the light source to the effect target.
 			- viewing direction
 			  id:: 68875bab-dd31-4bbd-bd31-3a821fc5310c
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68875bab-dd31-4bbd-bd31-3a821fc5310c)), denoted by a hollow-head arrow, is the ((66e42d39-a296-4ed9-a686-4cb213783830)) from the eye to the observed object.
@@ -2805,7 +2810,7 @@
 								- ![ArrowShooting.jpg](../assets/Uniinfo/Metaphysics/ArrowShooting.jpg)
 					- So, the head of the Ouroboros (with eyes and mouth) is actually the obop's head, not the arrowhead of the effect circle.
 						- The attachment of the arrow tail to the obop (head) is the source of confusion.
-						- The opposite directions of the two heads (obop head and effect arrowhead) are the opposition between the ((68875bab-dd31-4bbd-bd31-3a821fc5310c)) and the ((68875ace-d35f-44c6-9a9f-e7f7fc29f19d)).
+						- The opposite directions of the two heads (obop head versus effect arrowhead) are the ((68875bab-dd31-4bbd-bd31-3a821fc5310c)) versus the ((6a686dd0-ce84-4e5c-97da-eb0e532144ff)).
 						- The snake is not eating but **chasing** its own tail, just like a dog chasing tail, or the dragon chasing its pearl of ((677e76ed-b324-4608-b146-90e8fcfa0c32)). The moment the tail/pearl is catched, the entire circle collapses into thin air, wave, light, pure energy.
 					- The image of a man bringing a fruit to his mouth bridges the Ouroboros to the effect circle.
 					  {{embed ((6a5de20d-489d-4cc5-aade-88e9df2315ac))}}
