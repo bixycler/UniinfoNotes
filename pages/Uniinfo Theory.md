@@ -2707,6 +2707,7 @@
 				- Effect circle (yang circle bellow) with its inner intent (yin circle above)
 				  id:: 6a5e104f-0113-47bb-a47c-485e5fc084b2
 				  ![](https://docs.google.com/drawings/d/e/2PACX-1vRVxKAf7aYd7pLrCWCtz0HGNcJubQ-B6ne2iCTNfKN4UNskoHipw2e1KPQV5ZDIXjlBl76xR4_SFqkj/pub?w=200)
+					- This is [yin-yang relationship](((6a684e7e-c9d4-45f3-80ed-158e20b3ab24))) is relative in the tower of intents.
 				- Effect circle with its obop between arrowhead and tail
 				  ![OuroborosTrinion](https://docs.google.com/drawings/d/e/2PACX-1vRqW5erSVHBkU5Zbt-UntR9Yo-49Dx9C58evxiLUTsdPOYCPLEppLbk6nXsjaPcJvtklBwqHel-5pVw/pub?w=200)
 				- Human's effect circle
@@ -2714,6 +2715,7 @@
 				  ![Human-EffectCircle.png](../assets/Uniinfo/Metaphysics/Human-EffectCircle.png){:width 300}
 					- This is adapted from [Descartes' diagram of reflex arc](((6a5dd85a-10b5-430d-9ceb-9f7e3c16da3c))).
 				- Ouroboros as a [misnomer of effect circle](((6a5a00fd-2879-43de-89b6-49a836c4fcbc)))
+				  id:: 6a684e7e-bbdf-4df9-a3b5-c75b224083bc
 				  ![Ouroboros-Alchemy.png](../assets/Uniinfo/Metaphysics/Ouroboros-Alchemy.png){:width 200}
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- The ((667c0031-0a87-44c9-9e98-6d45893b095f)) in space generates the ((667d15b7-6364-49a9-ac58-c64d2a992b63)) in ((68fa164e-ef0e-4010-937d-ad9e0459f5f2)), i.e. ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)). That time arrow extends the space into a meta-space, a.k.a. [spacetime](https://en.wikipedia.org/wiki/Spacetime). This extension can be continued to extend any (meta-)space to infinity.
@@ -2805,7 +2807,7 @@
 									- ![ArrowShooting.jpg](../assets/Uniinfo/Metaphysics/ArrowShooting.jpg)
 						- So, the head of the Ouroboros (with eyes and mouth) is actually the obop's head, not the arrowhead of the effect circle.
 							- The attachment of the arrow tail to the obop (head) is the source of confusion.
-					- Ouroboros versus Effect circle
+					- To see the relationship between the Ouroboros and the effect circle, we should
 			- ### change
 			  id:: 667c008f-cd1f-4a6b-a9c8-d6efa1d8d342
 			  collapsed:: true
