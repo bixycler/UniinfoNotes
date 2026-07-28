@@ -2886,7 +2886,7 @@
 				- ⇒ The intentional cause is “final” in the ((667bda02-8dc9-488e-ba16-ea75c3d7895c)), but “first” in the ((667bd93a-cce4-4dbf-9831-725e4dffe463)).
 				- Yin (陰/阴, invisible, negative) vs Yang (陽/阳, visible, positive)
 				  id:: 6a684e7e-c9d4-45f3-80ed-158e20b3ab24
-					- The inner/higher intent in the onion/tower of intents is the yin circle generating the yin arrow to drive the yang arrow to form the yang circle – the outer/lower intent.
+					- The inner/higher intent in the [onion/tower of intents](((68df2d82-e1d5-49c4-ac40-d45cf26f840c))) is the yin circle generating the yin arrow to drive the yang arrow to form the yang circle – the outer/lower intent.
 					- The external knowledge circle is the lowest circle in the tower of effect circles, under all active intents.
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- The **yang arrowhead** (know-where, know-what, formal cause) is normally prefered over yang arrow body (know-how, efficient cause) and yin circle, because it's the shortest (chord) in ((694a8194-d9e6-4d75-9079-26442a8aa375))

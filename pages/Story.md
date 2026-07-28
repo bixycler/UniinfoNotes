@@ -970,8 +970,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- I walked out of the room, but then got to the balcony to stand instead.
 					- Finding the cause of such aversion without success, i got back to the room to sit down and meditate.
 					- In meditation, i see that while people live on the surface, i live deep down the root.
-						- So, to reach the surface, i usually load a long stack of intents underneath.
-						- The “normal interaction” of my interface is just a mask hiding a tree of intents beneath.
+						- So, to reach the surface, i usually load a long [stack of intents](((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))) underneath.
+						- The “normal interaction” of my interface is just a mask hiding a [tree of intents](((68df2d82-e1d5-49c4-ac40-d45cf26f840c))) beneath.
 					- Right in that meditative space, i caught the intent to discuss this with chatbot which is prefered over diving into the official project, then let it go.
 					- Opened the eyes, i see everything clearer, no more restlessness.
 				- Now, let's dive into the project.
@@ -2434,7 +2434,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Wisdom of Equality (Bình Đẳng Tánh Trí): ((678e2046-54ac-4284-865d-6f3e38f589a1)) ⇒ ((669a3da2-1e6c-48bd-950f-af1ea1ceda25))
 					- Shared with Huy via phone call ⇒ various symptoms when they jump out to talk
 				- Love = direct connection from the surface down to the heart (center)
-					- The directness makes it district from the work & social connections through a long chain of intents – layers of intentions, concepts, forms, rules, etc.
+					- The directness makes it district from the work & social connections through a long [chain of intents](((68df2d82-e1d5-49c4-ac40-d45cf26f840c))) – layers of intentions, concepts, forms, rules, etc.
 				- My unconscious expectation was shattered by the collision with the reality in the visit to my wife.
 					- Such a die-off is a good chance for me to let it go. I'm wondering why my karma is so heaving, dying over and over innumerous times but not yet extinguished! 🤔
 			- 22nd, from annihilation to Tantric Shaivism then 112 meditation techniques of Samadhi
