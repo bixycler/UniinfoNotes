@@ -1475,7 +1475,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- Unbound conflicts with `systemd-resolved`, so just `sudo systemctl disable systemd-resolved`.
 		- Cloudflare WARP
 			- `warp-cli`
-			- WARP takes controls of ((6a6afc1d-907a-4de0-b9ba-2d47434bcb0c)) to set its `nameserver` to `127.0.0.2` & `127.0.0.3`.
+			- WARP takes controls of ((6a6afc1d-907a-4de0-b9ba-2d47434bcb0c)) to set its `nameserver` to `127.0.2.2` & `127.0.2.3`.
 		- `tailscale`
 			- Tailscale takes control of ((6a6afc1d-907a-4de0-b9ba-2d47434bcb0c))
 				- `nameserver`: `100.100.100.100`
@@ -1486,7 +1486,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- `nameserver`
 				- Ubuntu Default (`systemd-resolved`): `127.0.0.53`
 				- [Unbound](((69ccc311-5990-41bc-ad29-050e48ebd987))) Default: `127.0.0.1:53`
-				- Cloudflare WARP: `127.0.0.2` & `127.0.0.3`
+				- Cloudflare WARP: `127.0.2.2` & `127.0.2.3`
 				- Tailscale Default: `100.100.100.100`
 		- [DNS records](https://en.wikipedia.org/wiki/List_of_DNS_record_types) in [`.zone` file](https://en.wikipedia.org/wiki/Zone_file)
 		  collapsed:: true
