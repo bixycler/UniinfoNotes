@@ -1472,8 +1472,12 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 		  a recursive domain resolver (DNS recursor).
 			- Services: `unbound.service`, `unbound-resolvconf.service`
 			- `unbound-checkconf` to check for errors in `/etc/unbound/unbound.conf`
+			- Unbound conflicts with `systemd-resolved`, so just `sudo systemctl disable systemd-resolved`.
 		- Cloudflare WARP
 			- `warp-cli`
+		- `tailscale`
+			- `tailscale web` to open Web app at http://100.*.*.*:5252/ with server at http://localhost:8088/
+			-
 		- `/etc/resolv.conf`
 			- `nameserver`
 				- Ubuntu Default (`systemd-resolved`): `127.0.0.53`
