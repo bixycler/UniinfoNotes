@@ -1474,8 +1474,22 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- `unbound-checkconf` to check for errors in `/etc/unbound/unbound.conf`
 			- Check log with `sudo journalctl -ru unbound`.
 			- [!] Unbound conflicts with `systemd-resolved` for port `53`.
-				- Simplest solution: just `sudo systemctl disable systemd-resolved`.
-				- Fallback solution: Change Unbound port to `5335` and set
+			  collapsed:: true
+				- Simplest solution: Just `sudo systemctl disable systemd-resolved`.
+				- Fallback solution: Change Unbound port to `5335` and set `FallbackDNS` to `systemd-resolved`.
+					- `/etc/unbound/unbound.conf`
+					  ```ini
+					  server:
+					  	interface: 127.0.0.1 # Default
+					      port: 5335 # Avoid port 53 not to conflict with systemd-resolved
+					  ```
+					- `/etc/systemd/resolved.conf`
+					  ```ini
+					  [Resolve]
+					  DNS=127.0.0.1:5335
+					  FallbackDNS=1.1.1.1 8.8.8.8 9.9.9.9
+					  DNSStubListener=yes
+					  ```
 		- Cloudflare WARP
 			- `warp-cli`
 			- WARP takes controls of ((6a6afc1d-907a-4de0-b9ba-2d47434bcb0c)) to set its `nameserver` to `127.0.2.2` & `127.0.2.3`.
@@ -1491,7 +1505,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- `search`: `tail${hash}.ts.net`: MagicDNS intercepts queries ending in `*.ts.net` (or short names like `Will-Ubuntu`) and resolve them locally using its internal DNS engine embedded inside `tailscaled`.
 			- `tailscale web` to open Web app at http://100.*.*.*:5252/ with server at http://localhost:8088/
 		- `systemd-resolved`
-			- `systemd-resolved` manages ((6a6afc1d-907a-4de0-b9ba-2d47434bcb0c)) through symlink, and will leave it untouched (unmanaged) if it's not a symlink.
+			- `systemd-resolved` manages ((6a6afc1d-907a-4de0-b9ba-2d47434bcb0c)) through symlink to `/run/systemd/resolve/stub-resolv.conf`, and will leave it untouched (unmanaged) if it's not a symlink.
 		- `/etc/resolv.conf`
 		  id:: 6a6afc1d-907a-4de0-b9ba-2d47434bcb0c
 			- `nameserver`
