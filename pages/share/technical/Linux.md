@@ -1477,8 +1477,9 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- `warp-cli`
 		- `tailscale`
 			- `tailscale web` to open Web app at http://100.*.*.*:5252/ with server at http://localhost:8088/
-			-
+			- WARP takes controls of ((6a6afc1d-907a-4de0-b9ba-2d47434bcb0c)) to set its
 		- `/etc/resolv.conf`
+		  id:: 6a6afc1d-907a-4de0-b9ba-2d47434bcb0c
 			- `nameserver`
 				- Ubuntu Default (`systemd-resolved`): `127.0.0.53`
 				- [Unbound](((69ccc311-5990-41bc-ad29-050e48ebd987))) Default: `127.0.0.1:53`
