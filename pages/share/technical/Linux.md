@@ -1468,9 +1468,17 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 		  id:: 67864319-c2d5-4ba3-98a2-958f1e07cf53
 		  a lightweight DNS, TFTP, PXE, router advertisement and DHCP server.
 		- `unbound`
+		  id:: 69ccc311-5990-41bc-ad29-050e48ebd987
 		  a recursive domain resolver (DNS recursor).
 			- Services: `unbound.service`, `unbound-resolvconf.service`
 			- `unbound-checkconf` to check for errors in `/etc/unbound/unbound.conf`
+		- Cloudflare WARP
+			- `warp-cli`
+		- `/etc/resolv.conf`
+			- `nameserver`
+				- Ubuntu Default (`systemd-resolved`): `127.0.0.53`
+				- [Unbound](((69ccc311-5990-41bc-ad29-050e48ebd987))) Default: `127.0.0.1:53`
+				- Cloudflare WARP: `127.0.0.2` & `127.0.0.3`
 		- [DNS records](https://en.wikipedia.org/wiki/List_of_DNS_record_types) in [`.zone` file](https://en.wikipedia.org/wiki/Zone_file)
 		  collapsed:: true
 			- `A`
