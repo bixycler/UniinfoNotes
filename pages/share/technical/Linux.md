@@ -1469,6 +1469,8 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 		  a lightweight DNS, TFTP, PXE, router advertisement and DHCP server.
 		- `unbound`
 		  a recursive domain resolver (DNS recursor).
+			- Services: `unbound.service`, `unbound-resolvconf.service`
+			- `unbound-checkconf` to check for errors in `/etc/unbound/unbound.conf`
 		- [DNS records](https://en.wikipedia.org/wiki/List_of_DNS_record_types) in [`.zone` file](https://en.wikipedia.org/wiki/Zone_file)
 		  collapsed:: true
 			- `A`
