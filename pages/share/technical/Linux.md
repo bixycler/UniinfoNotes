@@ -1472,7 +1472,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 		  a recursive domain resolver (DNS recursor).
 			- Services: `unbound.service`, `unbound-resolvconf.service`
 			- `unbound-checkconf` to check for errors in `/etc/unbound/unbound.conf`
-			- Check log with `sudo journalctl -ru unbound`.
+			- Check log with `sudo journalctl -ru unbound`, provided `verbosity: 2`+ in `unbound.conf`.
 			- [!] Unbound conflicts with `systemd-resolved` for port `53`.
 			  collapsed:: true
 				- Simplest solution: Just `sudo systemctl disable systemd-resolved`.
