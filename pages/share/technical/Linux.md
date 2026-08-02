@@ -1945,6 +1945,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) `gnome-browser-connector` is required for managing ((66c6ae6d-c722-43fa-888c-9b914387294f)).
 			- #### Smart Auto Move
 			  id:: 66c6aef1-998a-45fb-8ad8-8550a008859d
+			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2024-08-22 Thu 10:46:49]--[2024-08-22 Thu 18:03:09] =>  07:16:20
 			  :END:
@@ -1985,9 +1986,26 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					- `sequence` in ((66c70945-3ce5-4f95-8cce-1b8a3f2bd464))
 					  id:: 66c70166-889c-419e-8fd0-79d404e63e00
 					  the order of launching determines which terminal to be placed where.
-			- Deja Window
+			- #### Deja Window
 			  `deja-window@mcast.gnomext.com`
 			  Similar to ((66c6aef1-998a-45fb-8ad8-8550a008859d)) but simpler.
+			- #### Astra Monitor
+			  collapsed:: true
+			  A cutting-edge system monitor on top bar. It can track CPU, GPU, RAM, disks, network, sensors.
+				- RAM: `Total` = `Used` + `Available` (`Free` + `Allocatable`)
+					- ![Memory:Astra-GNOME-free.png](../assets/GUI/Astra Monitor/Memory:Astra-GNOME-free.png)
+					- This "Used" is shown by `free` & GNOME Resources
+					- Astra's "Used" is default to a smaller value: `Total` - `Free` - `Buffers` - `Cached` < `Total` - `Available`
+					- `Allocated` = `Total` - `Free` is shown as a shadow above Used.
+					- The gap between them is `Allocatable` = `Allocated` - `Used` (`Total` - `Available`) = `Available` - `Free`.
+						- This is the part reclaimable from OS to allocate for apps, including a portion of `Buffers` and `Cached`, excluding shared, dirty and other complicated stuff.
+						- It's name should be "Reclaimable" or "Reallocatable" instead, because it's already in `Allocated`.
+					- Active is slightly different from `Used` (`Total` - `Available`), due to the complication of various contributors: `Inactive(anon)` in `Used`, unshared part of `Active(file)` is not in `Used`, locked memory & core kernel structures are in `Used` but `Inactive`, etc.
+					- Mapping to `/proc/meminfo`:
+						- `Used` = `MemTotal` - `MemAvailable`
+						- `Allocatable` = `MemAvailable` - `MemFree`
+						- (`Active`, `Buffers`, `Cached`) = (`Active`, `Buffers`, `Cached`)
+					- For more details, see the [chat with Gemini](https://share.gemini.google/2Frv3zr7UAf1).
 		- `/usr/share/icons/`
 		  id:: 67eb7601-ab2c-41df-a42c-84a77a88ec08
 		  collapsed:: true
@@ -2024,6 +2042,8 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 	  id:: 66b1cfa4-f6a5-444d-97fb-e76a1c5fb1c7
 		- [XWayland](https://wayland.freedesktop.org/xserver.html)
 		  id:: 66c6cd8c-5367-4ae4-a76c-970732c2aebb
+		- X11's legacy [Primary selection](https://wiki.gnome.org/Initiatives/Wayland/PrimarySelection) feature: Automatically copy the last selection to the second clipboard (distinct from the primary) to be pasted by middle-click and Shift-Insert.
+			- `gsettings set org.gnome.desktop.interface gtk-enable-primary-paste false/true` to dis/enable it.
 	- Software management
 		- ### APT
 		  id:: 68357072-2dcb-42b5-a228-15ed904010f8
