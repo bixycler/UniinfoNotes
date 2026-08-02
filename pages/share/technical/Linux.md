@@ -2007,6 +2007,8 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 						- `Allocatable` = `MemAvailable` - `MemFree`
 						- (`Active`, `Buffers`, `Cached`) = (`Active`, `Buffers`, `Cached`)
 					- For more details, see the [chat with Gemini](https://share.gemini.google/2Frv3zr7UAf1).
+			- Window Calls
+			  id:: 6a6edb3b-7a16-46dd-9334-d225fc94e7e7
 		- `/usr/share/icons/`
 		  id:: 67eb7601-ab2c-41df-a42c-84a77a88ec08
 		  collapsed:: true

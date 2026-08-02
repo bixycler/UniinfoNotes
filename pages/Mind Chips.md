@@ -1,5 +1,5 @@
 - TODO Install ((6a6ea132-6e05-496b-afa9-30a8fabc41e6)) extension and set Mem "Used" = Active
-	- Check the Clock at startup to see if it's closed.
+	- Install extension ((6a6edb3b-7a16-46dd-9334-d225fc94e7e7)) for Clock startup.
 - ---
 - 🤔😊😁 😉 😮 😛 😜 🤣 🙁 😱 👺 👁️🧿🪬  – × → ⇒ ⇋ ⇄ ∞∝α ‘’ ≥
 - Ω-thread Unïnfo
