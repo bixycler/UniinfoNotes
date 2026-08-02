@@ -2,6 +2,7 @@
 	- Install extension ((6a6edb3b-7a16-46dd-9334-d225fc94e7e7)) for Clock startup.
 - TODO Check Phat-Phe Google account vs Passbolt
 - TODO Sign in to Claude Code CLI
+- TODO Check `.agent(s)/` in Corkei to see if OpenCode & Antigravity & Claude recognize which.
 - ---
 - 🤔😊😁 😉 😮 😛 😜 🤣 🙁 😱 👺 👁️🧿🪬  – × → ⇒ ⇋ ⇄ ∞∝α ‘’ ≥
 - Ω-thread Unïnfo
