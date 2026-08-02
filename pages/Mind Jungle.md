@@ -1175,6 +1175,26 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/custom.css ${HOME}/source/UniinfoNotes/logseq/custom.css
 						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/custom.css ${HOME}/opt/personal/logseq-notes/logseq/custom.css
 						  ```
+				- `${HOME}/source/UniinfoNotes/assets/logseq/settings/logseq-custom-workflows.json`: settings for [Custom Workflow plugin](((66b1cfa4-31a0-4954-b75e-e0d5c6d1aa72))): **3 links**
+					- `${HOME}/.logseq/settings/logseq-custom-workflows.json`: Flatpack & AppImage installations
+					- `${HOME}/snap/logseq/current/.logseq/settings/logseq-custom-workflows.json`: Snap installation
+					- first, check `stat` & `diff`
+					  collapsed:: true
+						- ```sh
+						  stat -c '%i %h' ${HOME}/source/UniinfoNotes/assets/logseq/settings/logseq-custom-workflows.json
+						  stat -c '%i %h' ${HOME}/.logseq/settings/logseq-custom-workflows.json
+						  stat -c '%i %h' ${HOME}/snap/logseq/current/.logseq/settings/logseq-custom-workflows.json
+						  ```
+						- ```sh
+						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/settings/logseq-custom-workflows.json ${HOME}/.logseq/settings/logseq-custom-workflows.json
+						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/settings/logseq-custom-workflows.json ${HOME}/snap/logseq/current/.logseq/settings/logseq-custom-workflows.json
+						  ```
+					- then `ln`
+					  collapsed:: true
+						- ```sh
+						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/settings/logseq-custom-workflows.json ${HOME}/.logseq/settings/logseq-custom-workflows.json
+						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/settings/logseq-custom-workflows.json ${HOME}/snap/logseq/current/.logseq/settings/logseq-custom-workflows.json
+						  ```
 			- `pages/share/**` are hard-linked to other projects (graphs)
 				- [technical/Git]([[Git]]): **2 links**
 				  collapsed:: true
