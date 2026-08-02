@@ -1990,6 +1990,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			  `deja-window@mcast.gnomext.com`
 			  Similar to ((66c6aef1-998a-45fb-8ad8-8550a008859d)) but simpler.
 			- #### Astra Monitor
+			  id:: 6a6ea132-6e05-496b-afa9-30a8fabc41e6
 			  collapsed:: true
 			  A cutting-edge system monitor on top bar. It can track CPU, GPU, RAM, disks, network, sensors.
 				- RAM: `Total` = `Used` + `Available` (`Free` + `Allocatable`)
