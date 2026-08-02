@@ -3072,7 +3072,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Linux: There are many choices.
 					- The `.AppImage` file at [Downloads page](https://logseq.com/downloads) can be run right away, just after making it executable (`chmod +x`).
 					  id:: 66faa5f9-d333-47df-88cf-7c6fab827842
-						- App location: `/tmp/.mount_LogseqFUWusr/` mounted from app image just in runtime.
+						- App location: `/tmp/.mount_Logseq$hash/` mounted from app image just in runtime.
+							- Or `./Logseq.AppImage --appimage-extract` to install it to a permanent folder instead.
 						- ((66faaa5c-6a8a-42d9-a1bc-410531dbaf81)): `${HOME}/{.logseq,.config/Logseq}/`
 					- The Flatpack app [on FlatHub](https://flathub.org/apps/com.logseq.Logseq) requires additional dependencies and run in ((66fb5dcd-e20c-4e18-b03c-e52a5bb76425)) with `flatpak run com.logseq.Logseq`. ((66fb5fd7-b1b0-4e54-96b3-fe6a83e34777))
 					  id:: 66faa5f9-96d5-4d40-a118-0adcedfc016a
