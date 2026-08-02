@@ -4994,7 +4994,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :END:
 			- [AI Assistant (`logseq-plugin-ai-assistant`)](https://github.com/ahonn/logseq-plugin-ai-assistant) to ask **OpenAI (paid!) models** to do something about current text (block): summarize, explain, etc.
 			  id:: 68be4a6e-f672-4892-b072-732eb034fac9
-			- [Feched Code Plus (`logseq-fenced-code-plus`)](https://github.com/xyhp915/logseq-fenced-code-plus) to render additional types of fenced code: [mermaid](https://mermaid.js.org/), [echarts](https://echarts.apache.org/en/index.html), [TikZJax](https://tikzjax.com/).
+			- [Fenced Code Plus (`logseq-fenced-code-plus`)](https://github.com/xyhp915/logseq-fenced-code-plus) to render additional types of fenced code: [mermaid](https://mermaid.js.org/), [echarts](https://echarts.apache.org/en/index.html), [TikZJax](https://tikzjax.com/).
 			  id:: 68ad8f51-795d-4f17-ad90-f8b97968e478
 			  collapsed:: true
 				- For ECharts, only support `option` as the only content in **JSON** format. The dark theme is supported well for ECharts.
