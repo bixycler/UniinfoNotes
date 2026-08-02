@@ -1930,9 +1930,10 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66c6ae6d-c722-43fa-888c-9b914387294f)) extend ((66c6b316-ef58-4b86-a6ca-fbf9125dad92)). They are managed on the website https://extensions.gnome.org which requires a ((66c6b15d-bbf8-42bd-93c4-fb19c0490264)) to work. The installed extensions can also be configured via ((66c6e677-d0b2-48f7-92da-8a38d8e9bd9c)).
 				- `Extensions` desktop app
 				  id:: 66c6e677-d0b2-48f7-92da-8a38d8e9bd9c
-				  collapsed:: true
-				  `gnome-extensions-app`
-					- app drawer search (`gnome`, `shell`, `extensions`, `app`) > `Extensions` > `Manually Installed` > e.g.(`Smart Auto Move`) > `Settings`
+					- `extension-manager` is the modern app, including extensions browser for browsing and installing directly without requirement of ((66c6b15d-bbf8-42bd-93c4-fb19c0490264)).
+						- App drawer search (`gnome`, `shell`, `extensions`) > `Installed` > `User-Installed Extensions` > e.g.(`Deja Window`) > Cog icon (Preferences)
+					- `gnome-extensions-app` is the legacy
+						- App drawer search (`gnome`, `shell`, `extensions`, `app`) > `Extensions` > `Manually Installed` > e.g.(`Smart Auto Move`) > `Settings`
 			- Browser integration
 			  id:: 66c6b15d-bbf8-42bd-93c4-fb19c0490264
 			  collapsed:: true
