@@ -1491,7 +1491,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					  DNSStubListener=yes
 					  ```
 		- Cloudflare WARP
-			- `warp-cli`
+			- `warp-cli`, `warp-taskbar` desktop app
 			- WARP takes controls of ((6a6afc1d-907a-4de0-b9ba-2d47434bcb0c)) to set its `nameserver` to `127.0.2.2` & `127.0.2.3`.
 			- Modes
 				- WARP: Tunnel all traffics to Cloudflare edge servers through inteface `CloudflareWARP`, and control DNS through `/etc/resolv.conf` for its UDP-based DNS proxy.
@@ -1499,6 +1499,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- DoH/DoT: Only proxy DNS over HTTPS/TLS, no tunneling (or with tunneling for WARP+DoH/DoT).
 					- These are needed only when traditional UDP-based DNS requests are blocked/tampered, because DoH/DoT masks DNS traffic inside standard HTTPS/TLS web traffic.
 				- Proxy: Establish a tunnel in a SOCKS5 proxy (requiring per-app SOCKS5 settings), instead of UDP proxy (so, no DNS).
+			-
 		- `tailscale`
 			- Tailscale takes control of ((6a6afc1d-907a-4de0-b9ba-2d47434bcb0c))
 				- `nameserver`: `100.100.100.100`
