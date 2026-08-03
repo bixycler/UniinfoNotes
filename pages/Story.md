@@ -2696,7 +2696,27 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		- August journal
 		  id:: 6a708225-3b28-49ca-b93d-c9982588375c
 		  collapsed:: true
-			- 3rd, intended to pay the office work debt, but ended up with fixing issues of workstation due to
+			- 3rd, intended to pay the office work debt, but ended up with fixing issues of workstation due to ((6a6c6fec-3535-4cab-a2e2-f64c0cd5c5ff)).
+			  collapsed:: true
+				- DONE Install ((6a6ff9d1-5a5e-44fd-ad86-628095ca5761)) extension and set Mem "Used" = Active
+					- Install extension ((6a6edb3b-7a16-46dd-9334-d225fc94e7e7)) for Clock startup.
+				- DONE Check Phat-Phe Google account vs Passbolt: they are diff; one simple one complex!
+				  :LOGBOOK:
+				  CLOCK: [2026-08-03 Mon 11:11:33]--[2026-08-03 Mon 11:12:01] =>  00:00:28
+				  :END:
+				- DONE Sign in to Claude Code CLI: The signin is unstable, get kicked out upon re-login! 🙁
+				  :LOGBOOK:
+				  CLOCK: [2026-08-03 Mon 18:16:44]--[2026-08-03 Mon 18:56:53] =>  00:40:09
+				  :END:
+					- DONE Solution: add `dig claude.com` to `warp-fix.sh`.
+				- TODO Check `.agent(s)/` in Corkei to see if OpenCode & Antigravity & Claude recognize which.
+					- DONE Gemini: `.agents`
+					  :LOGBOOK:
+					  CLOCK: [2026-08-02 Sun 23:13:37]
+					  CLOCK: [2026-08-02 Sun 23:13:38]--[2026-08-02 Sun 23:13:50] =>  00:00:12
+					  :END:
+				- TODO Check if enterprise GitHub allow personal private repos.
+				-
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a708225-3b28-49ca-b93d-c9982588375c))

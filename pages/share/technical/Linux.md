@@ -1491,6 +1491,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					  DNSStubListener=yes
 					  ```
 		- Cloudflare WARP
+		  id:: 6a6c6fec-3535-4cab-a2e2-f64c0cd5c5ff
 			- `warp-cli`, `warp-taskbar` desktop app
 			- WARP takes controls of ((6a6afc1d-907a-4de0-b9ba-2d47434bcb0c)) to set its `nameserver` to `127.0.2.2` & `127.0.2.3`.
 			- Client Types
