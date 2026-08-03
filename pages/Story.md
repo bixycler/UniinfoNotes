@@ -2709,12 +2709,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  CLOCK: [2026-08-03 Mon 18:16:44]--[2026-08-03 Mon 18:56:53] =>  00:40:09
 				  :END:
 					- DONE Solution: add `dig claude.com` to `warp-fix.sh`.
-				- TODO Check `.agent(s)/` in Corkei to see if OpenCode & Antigravity & Claude recognize which.
+				- DONE Check `.agent(s)/` & `AGENTS.md` in Corkei to see if OpenCode & Antigravity & Claude recognize which.
 					- DONE Gemini: moved from `.agent` to `.agents`! ⇐ The legacy `.agent` folder is from the old AG 😁.
 					  :LOGBOOK:
 					  CLOCK: [2026-08-02 Sun 23:13:37]
 					  CLOCK: [2026-08-02 Sun 23:13:38]--[2026-08-02 Sun 23:13:50] =>  00:00:12
 					  :END:
+						- But still sticks with `GEMINI.md`, not `AGENTS.md`.
+					- Claude: sticks all of its (ass) with `.claude/` and `CLAUDE.md`.
+					- OpenCode: Uses `AGENTS.md`, supports `.agents/` together with its default `.opencode/`.
+					- Codex: `AGENTS.md` & `.agents/` by default.
 				- TODO Check if enterprise GitHub allow personal private repos.
 				-
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
