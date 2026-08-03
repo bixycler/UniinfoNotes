@@ -1508,12 +1508,13 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- Exclude-Only (Default): Tunnel all trafics, except the hosts/IPs listed here.
 				- Include-Only: Only hosts/IPs listed are tunneled.
 					- [!] This mode is only available in [Cloudflare One Client](((6a700b14-08aa-41dd-828c-2c801bf54c8b))), not in Consumer WARP Client.
-				- A [single leading wildcard of full label](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-mesh/routes/#add-a-hostname-route) is supported in host name, e.g., `*.my.domain.me` matches `sub.my.domain.me` but not `sub2.sub.my.domain.me`.
+				- A [single leading wildcard of full label](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-mesh/routes/#add-a-hostname-route) is supported in host name. E.g.: `*.my.domain.me` matches `sub.my.domain.me` but not `sub2.sub.my.domain.me`.
 			- Local DNS
 			  id:: 6a7004f0-6063-4bf7-b8c6-cc0bec3ef607
 				- Local DNS Fallback (`warp-cli dns default-fallbacks`): Default to DHCP DNS.
 				- Local Domain Fallback (`warp-cli dns fallback`): Local domains that must be resolved by local DNS. These local domains must be added here to be correctly resolved, because the public DNS servers don't know them.
-				- [!] The fallbacks usually fail after re-login. So an automatic WARP restart should be put to ((66b1cfa4-1438-4699-9f02-b84075f2a167)).
+				- [!] The fallbacks usually fail after re-login. So an automatic WARP reconnect should be put to ((66b1cfa4-1438-4699-9f02-b84075f2a167)).
+				  `warp-cli disconnect && sleep 3 && warp-cli connect`
 		- `tailscale`
 			- Tailscale takes control of ((6a6afc1d-907a-4de0-b9ba-2d47434bcb0c))
 				- `nameserver`: `100.100.100.100`
