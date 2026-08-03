@@ -1509,6 +1509,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- Include-Only: Only hosts/IPs listed are tunneled.
 					- [!] This mode is only available in [Cloudflare One Client](((6a700b14-08aa-41dd-828c-2c801bf54c8b))), not in Consumer WARP Client.
 				- A [single leading wildcard of full label](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-mesh/routes/#add-a-hostname-route) is supported in host name. E.g.: `*.my.domain.me` matches `sub.my.domain.me` but not `sub2.sub.my.domain.me`.
+					- Deep subdomains can be matched if the registrar implements wildcard DNS records. E.g. `*.amazonaws.com` matches `mysql8040.c1wbmxxj2vu5.ap-northeast-1.rds.amazonaws.com`.
 			- Local DNS
 			  id:: 6a7004f0-6063-4bf7-b8c6-cc0bec3ef607
 				- Local DNS Fallback (`warp-cli dns default-fallbacks`): Default to DHCP DNS.
