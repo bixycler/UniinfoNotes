@@ -1520,7 +1520,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- The failed exclusion of hosts only needs a DNS query (`dig`, `nslookup`, `ping`) to update the CloudflareWARP table.
 				- But the failed local DNS requires a reconnection of WARP.
 				- So an automatic WARP reconnection & DNS resolution should be put to ((66b1cfa4-1438-4699-9f02-b84075f2a167)).
-				  `warp-cli disconnect && sleep 3 && warp-cli connect`
+				  `warp-cli disconnect && sleep 3 && warp-cli connect && sleep 3 && dig ...`
 		- `tailscale`
 			- Tailscale takes control of ((6a6afc1d-907a-4de0-b9ba-2d47434bcb0c))
 				- `nameserver`: `100.100.100.100`
