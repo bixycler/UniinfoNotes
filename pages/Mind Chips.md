@@ -1,6 +1,9 @@
 - DONE Install ((6a6ff9d1-5a5e-44fd-ad86-628095ca5761)) extension and set Mem "Used" = Active
 	- Install extension ((6a6edb3b-7a16-46dd-9334-d225fc94e7e7)) for Clock startup.
-- TODO Check Phat-Phe Google account vs Passbolt
+- DONE Check Phat-Phe Google account vs Passbolt: they are diff; one simple one complex!
+  :LOGBOOK:
+  CLOCK: [2026-08-03 Mon 11:11:33]--[2026-08-03 Mon 11:12:01] =>  00:00:28
+  :END:
 - TODO Sign in to Claude Code CLI
 - TODO Check `.agent(s)/` in Corkei to see if OpenCode & Antigravity & Claude recognize which.
 	- DONE Gemini: `.agents`

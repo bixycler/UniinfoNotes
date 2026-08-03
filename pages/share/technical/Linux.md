@@ -1513,7 +1513,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			  id:: 6a7004f0-6063-4bf7-b8c6-cc0bec3ef607
 				- Local DNS Fallback (`warp-cli dns default-fallbacks`): Default to DHCP DNS.
 				- Local Domain Fallback (`warp-cli dns fallback`): Local domains that must be resolved by local DNS. These local domains must be added here to be correctly resolved, because the public DNS servers don't know them.
-				- [!] The fallbacks usually fail after re-login. So an automatic WARP reconnect should be put to ((66b1cfa4-1438-4699-9f02-b84075f2a167)).
+				- [!] The fallbacks usually fail after re-login. So an automatic WARP reconnection should be put to ((66b1cfa4-1438-4699-9f02-b84075f2a167)).
 				  `warp-cli disconnect && sleep 3 && warp-cli connect`
 		- `tailscale`
 			- Tailscale takes control of ((6a6afc1d-907a-4de0-b9ba-2d47434bcb0c))
