@@ -2719,7 +2719,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Claude: sticks all of its (ass) with `.claude/` and `CLAUDE.md`.
 					- OpenCode: Uses `AGENTS.md`, supports `.agents/` together with its default `.opencode/`.
 					- Codex: `AGENTS.md` & `.agents/` by default.
-				- TODO Check if enterprise GitHub allow personal private repos.
+				- DOING Check if enterprise GitHub allow personal private repos.
+				  :LOGBOOK:
+				  CLOCK: [2026-08-03 Mon 20:55:49]
+				  :END:
 				-
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
