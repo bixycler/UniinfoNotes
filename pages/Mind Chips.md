@@ -11,6 +11,7 @@
 	  CLOCK: [2026-08-02 Sun 23:13:37]
 	  CLOCK: [2026-08-02 Sun 23:13:38]--[2026-08-02 Sun 23:13:50] =>  00:00:12
 	  :END:
+- TODO Check if enterprise GitHub allow personal private repos.
 - ---
 - 🤔😊😁 😉 😮 😛 😜 🤣 🙁 😱 👺 👁️🧿🪬  – × → ⇒ ⇋ ⇄ ∞∝α ‘’ ≥
 - Ω-thread Unïnfo
