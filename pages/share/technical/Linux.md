@@ -1508,6 +1508,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- Exclude-Only (Default): Tunnel all trafics, except the hosts/IPs listed here.
 				- Include-Only: Only hosts/IPs listed are tunneled.
 					- [!] This mode is only available in [Cloudflare One Client](((6a700b14-08aa-41dd-828c-2c801bf54c8b))), not in Consumer WARP Client.
+				- A [single leading wildcard of full label](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-mesh/routes/#add-a-hostname-route) is supported in host name, e.g., `*.my.domain.me` matches `sub.my.domain.me` but not `sub2.sub.my.domain.me`.
 			- Local DNS
 			  id:: 6a7004f0-6063-4bf7-b8c6-cc0bec3ef607
 				- Local DNS Fallback (`warp-cli dns default-fallbacks`): Default to DHCP DNS.
