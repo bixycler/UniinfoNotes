@@ -2710,7 +2710,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  :END:
 					- DONE Solution: add `dig claude.com` to `warp-fix.sh`.
 				- TODO Check `.agent(s)/` in Corkei to see if OpenCode & Antigravity & Claude recognize which.
-					- DONE Gemini: moved from `.agent` to `.agents`! ⇐ The legacy ``
+					- DONE Gemini: moved from `.agent` to `.agents`! ⇐ The legacy `.agent` folder is from the old AG 😁.
 					  :LOGBOOK:
 					  CLOCK: [2026-08-02 Sun 23:13:37]
 					  CLOCK: [2026-08-02 Sun 23:13:38]--[2026-08-02 Sun 23:13:50] =>  00:00:12
