@@ -4,7 +4,7 @@
   :LOGBOOK:
   CLOCK: [2026-08-03 Mon 11:11:33]--[2026-08-03 Mon 11:12:01] =>  00:00:28
   :END:
-- TODO Sign in to Claude Code CLI
+- DONE Sign in to Claude Code CLI: The signin is unstable, got kicked out sometimes! 🙁
 - TODO Check `.agent(s)/` in Corkei to see if OpenCode & Antigravity & Claude recognize which.
 	- DONE Gemini: `.agents`
 	  :LOGBOOK:
