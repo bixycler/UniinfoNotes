@@ -2009,6 +2009,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 						- (`Active`, `Buffers`, `Cached`) = (`Active`, `Buffers`, `Cached`)
 					- For more details, see the [chat with Gemini](https://share.gemini.google/2Frv3zr7UAf1).
 			- #### Resource Monitor
+			  id:: 6a6ff9d1-5a5e-44fd-ad86-628095ca5761
 			  `Resource_Monitor@Ory0n`
 			  A legacy resource monitor on top bar for the good old GNOME 42- (Ubuntu 22-).
 			- #### Window Calls
