@@ -1933,7 +1933,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			  id:: 66c6e677-d0b2-48f7-92da-8a38d8e9bd9c
 			  collapsed:: true
 				- `extension-manager` is the modern app, including extensions browser for browsing and installing directly without requirement of ((66c6b15d-bbf8-42bd-93c4-fb19c0490264)).
-					- Install via `gnome-shell-extension-manager` package. The early distributions in , for GNOME 42- (Ubuntu 22-)
+					- Install via `gnome-shell-extension-manager` package. The early distributions in GNOME 42- (Ubuntu 22-) didn't support full feature of extensions browser.
 					- Access: App drawer search (`gnome`, `shell`, `extensions`) > `Installed` > `User-Installed Extensions` > e.g.(`Deja Window`) > Cog icon (Preferences)
 				- `gnome-extensions-app` is the legacy app available through `gnome-shell-extension-prefs` package.
 					- Extensions are managed on https://extensions.gnome.org which requires a ((66c6b15d-bbf8-42bd-93c4-fb19c0490264)) to install.
@@ -1993,7 +1993,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			  id:: 6a6ea132-6e05-496b-afa9-30a8fabc41e6
 			  collapsed:: true
 			  `monitor@astraext.github.io`
-			  A cutting-edge system monitor on top bar. It can track CPU, GPU, RAM, disks, network, sensors.
+			  A cutting-edge system monitor on top bar, for GNOME 46+ (Ubuntu 24+). It can track CPU, GPU, RAM, disks, network, sensors.
 				- RAM: `Total` = `Used` + `Available` (`Free` + `Allocatable`)
 					- ![Memory:Astra-GNOME-free.png](../assets/GUI/Astra Monitor/Memory:Astra-GNOME-free.png)
 					- This "Used" is shown by `free` & GNOME Resources
