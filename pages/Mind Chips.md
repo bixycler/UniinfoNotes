@@ -4,7 +4,11 @@
   :LOGBOOK:
   CLOCK: [2026-08-03 Mon 11:11:33]--[2026-08-03 Mon 11:12:01] =>  00:00:28
   :END:
-- DONE Sign in to Claude Code CLI: The signin is unstable, got kicked out sometimes! 🙁
+- DOING Sign in to Claude Code CLI: The signin is unstable, get kicked out upon re-login! 🙁
+  :LOGBOOK:
+  CLOCK: [2026-08-03 Mon 18:16:44]
+  :END:
+	- Solution:
 - TODO Check `.agent(s)/` in Corkei to see if OpenCode & Antigravity & Claude recognize which.
 	- DONE Gemini: `.agents`
 	  :LOGBOOK:
