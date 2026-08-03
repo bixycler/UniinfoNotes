@@ -1495,16 +1495,19 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- WARP takes controls of ((6a6afc1d-907a-4de0-b9ba-2d47434bcb0c)) to set its `nameserver` to `127.0.2.2` & `127.0.2.3`.
 			- Client Types
 				- Consumer WARP Client: Designed for individual **personal use**, identified by a **red** WARP UI icon.
-				- Cloudflare One Client: Built for organizations and enterprises, integrating directly with Cloudflare Zero Trust and Gateway, to apply the same IT security rules, device postures, and web filtering **to all devices**. Identified by a **blue** Zero Trust UI banner.
+				- Cloudflare One Client: Built for organizations and enterprises, integrating directly with Cloudflare Zero Trust and Gateway, to apply the same IT security rules, device postures, and web filtering **to all devices in a profile**. Identified by a **blue** Zero Trust UI banner.
+				  id:: 6a700b14-08aa-41dd-828c-2c801bf54c8b
 			- Modes
-				- [!] Mode
+				- [!] Mode change per-device is disabled by default for [Cloudflare One Client](((6a700b14-08aa-41dd-828c-2c801bf54c8b))), but can be enabled by the upstream profile.
 				- WARP: Tunnel all traffics to Cloudflare edge servers through inteface `CloudflareWARP`, and control DNS through `/etc/resolv.conf` for its UDP-based DNS proxy.
 				- Tunnel Only: Tunnel all traffics to Cloudflare edge servers through inteface `CloudflareWARP`, but leave DNS untouched.
 				- DoH/DoT: Only proxy DNS over HTTPS/TLS, no tunneling (or with tunneling for WARP+DoH/DoT).
 					- These are needed only when traditional UDP-based DNS requests are blocked/tampered, because DoH/DoT masks DNS traffic inside standard HTTPS/TLS web traffic.
 				- Proxy: Establish a tunnel in a SOCKS5 proxy (requiring per-app SOCKS5 settings), instead of UDP proxy (so, no DNS).
 			- Split Tunnel
-				-
+				- Exclude-Only (Default): Tunnel all trafics, except the hosts/IPs listed here.
+				- Include-Only: Only hosts/IPs listed are tunneled.
+					- [!] This mode is only available in [Cloudflare One Client](((6a700b14-08aa-41dd-828c-2c801bf54c8b))), not in Consumer WARP Client.
 			- Local DNS
 			  id:: 6a7004f0-6063-4bf7-b8c6-cc0bec3ef607
 				- Local DNS Fallback (`warp-cli dns default-fallbacks`): Default to DHCP DNS.
