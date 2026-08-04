@@ -102,7 +102,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- System-wide `PATH` initialized at boot: `/etc/environment`
 			- Login session: usually defined in `${HOME}/.profile` as `export PATH=$HOME/bin:$HOME/.local/bin:$PATH`
 			- `secure_path` for `sudo` defined in `/etc/sudoers`: For security reasons, the `sudo` command intentionally resets the `$PATH` variable, regardless of `/etc/environment` and `/root/.profile`.
-			- For a single-user box, adding the main user's bin paths to `/etc/environment` keeps from the hassle of absolute paths in `crontab`, `.desktop`, etc.
+			- For a single-user box, adding the main user's bin paths to `/etc/environment` & `secure_path` keeps from the hassle of absolute paths in `crontab`, `.desktop`, etc.
 	- ### Commands
 		- Process handling
 		  collapsed:: true
