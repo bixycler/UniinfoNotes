@@ -97,6 +97,11 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 						- ![last-newline-Notepad++.png](../assets/TextProcessing/last-newline/last-newline-Notepad++.png)
 						- Automatic newline can be added with EditorConfig plugin. [ref](https://github.com/notepad-plus-plus/notepad-plus-plus/issues/1426#issuecomment-578472737)
 						  `insert_final_newline = true`
+		- `PATH`
+		  collapsed:: true
+			- System-wide `PATH` initialized at boot: `/etc/environment`
+			- Login session: usually defined in `${HOME}/.profile` as `export PATH=$HOME/bin:$HOME/.local/bin:$PATH`
+			- For a single-user box, adding the main user's bin paths to `/etc/environment` keeps from the hassle of absolute paths in `crontab`, `.desktop`, etc.
 	- ### Commands
 		- Process handling
 		  collapsed:: true
