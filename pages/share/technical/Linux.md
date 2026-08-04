@@ -1498,6 +1498,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					  ```
 		- Cloudflare WARP
 		  id:: 6a6c6fec-3535-4cab-a2e2-f64c0cd5c5ff
+		  collapsed:: true
 			- `warp-cli`, `warp-taskbar` desktop app
 			- WARP takes controls of ((6a6afc1d-907a-4de0-b9ba-2d47434bcb0c)) to set its `nameserver` to `127.0.2.2` & `127.0.2.3`.
 			- Client Types
@@ -1529,10 +1530,14 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- ⇒ So an automatic WARP reconnection & DNS resolution should be put to ((66b1cfa4-1438-4699-9f02-b84075f2a167)).
 					- `warp-fix.sh`: `warp-cli disconnect && sleep 1 && warp-cli connect && sleep 10 && dig ...`
 		- `tailscale`
+		  collapsed:: true
 			- Tailscale takes control of ((6a6afc1d-907a-4de0-b9ba-2d47434bcb0c))
 				- `nameserver`: `100.100.100.100`
 				- `search`: `tail${hash}.ts.net`: MagicDNS intercepts queries ending in `*.ts.net` (or short names like `Will-Ubuntu`) and resolve them locally using its internal DNS engine embedded inside `tailscaled`.
 			- `tailscale web` to open Web app at http://100.*.*.*:5252/ with server at http://localhost:8088/
+			- [!] Behind firewalls like Fortigate, Tailscale requires hole punchers like ((6a6c6fec-3535-4cab-a2e2-f64c0cd5c5ff)) to stay online (connecting to Tailscale coordination server).
+				- Without such a hole, a set up `tailscaled` can still connect to the tailnet, allowing outbound connections but not inbound.
+				- Note that, even when being blocked by firewall, `tailscale ping` still gets pong both ways (outbound & inboud).
 		- `systemd-resolved`
 			- `systemd-resolved` manages ((6a6afc1d-907a-4de0-b9ba-2d47434bcb0c)) through symlink to `/run/systemd/resolve/stub-resolv.conf`, and will leave it untouched (unmanaged) if it's not a symlink.
 		- `/etc/resolv.conf`
