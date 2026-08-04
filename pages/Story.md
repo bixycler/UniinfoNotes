@@ -2725,7 +2725,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  :END:
 			- 4th, ...
 			  collapsed:: true
-				-
+				- Just throw away the sucking `gnome-clocks` which require to be opened just for its alarms to work.
+					- I wrote the whole `clock-service.sh` intended to open then close it (using GNOME extension ((6a6edb3b-7a16-46dd-9334-d225fc94e7e7))), but it turned out to be destroyed instead of hidden like the GUI `x` button.
+					- I've used `crontab` for simple events, already.
+					- Now, for more complicated ones, let's use Sytemd Timers!
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a708225-3b28-49ca-b93d-c9982588375c))
