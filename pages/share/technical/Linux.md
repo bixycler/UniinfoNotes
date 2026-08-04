@@ -1536,6 +1536,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- `search`: `tail${hash}.ts.net`: MagicDNS intercepts queries ending in `*.ts.net` (or short names like `Will-Ubuntu`) and resolve them locally using its internal DNS engine embedded inside `tailscaled`.
 			- `tailscale web` to open Web app at http://100.*.*.*:5252/ with server at http://localhost:8088/
 			- [!] Behind firewalls like Fortigate, Tailscale requires hole punchers like ((6a6c6fec-3535-4cab-a2e2-f64c0cd5c5ff)) to stay online (connecting to Tailscale coordination server).
+			  collapsed:: true
 				- Without such a hole, a set up `tailscaled` can still connect to the tailnet, allowing outbound connections but not inbound.
 				- Note that, even when being blocked by firewall, `tailscale ping` still gets pong both ways (outbound & inboud).
 		- `systemd-resolved`
