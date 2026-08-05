@@ -2679,7 +2679,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  CLOCK: [2026-07-17 Fri 17:57:50]
 					  CLOCK: [2026-07-17 Fri 17:57:53]--[2026-07-17 Fri 18:06:09] =>  00:08:16
 					  :END:
-			- 18-19th, weekend: Entropy, Information & Physics
+			- 18-19th, weekend: Entropy, Information & Physics, and bought a new laptop at home (`Will-Ubuntu`) to cope with the irrational blocking by the Fortigate firewall in the office.
 			  collapsed:: true
 				- [Thermodynamics of the gravity from entropy theory (GfE)](https://journals.aps.org/prd/abstract/10.1103/26kn-thgp)
 					- In an expanding universe (Friedmann-Robertson-Walker cosmologies), its expansion is faster than the increase is total entropy
@@ -2692,9 +2692,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- first cause = lack of fruit = yin arrow = yang arrow tail
 					- fruit = arrowhead
 					- final cause = match of fruit with target, head with tail
+				- Laptop: Acer Aspire Go 15 AI AG15-52P-52WT from [FPT Shop](https://fptshop.com.vn/may-tinh-xach-tay/acer-aspire-go-15-ai-ag15-52p-52wt)
+					- Windows 11 runs OK, but the body is so hot
 			- 20-21th, intended to do the office work, but ended with updating the **effect circle** all the day.
 				- ((6a5d8eb5-6989-42d1-9419-57db76aaa871))
-			- 23-27th, paid office work debt, and bought a new laptop at home (`Will-Ubuntu`) to cope with the irrational blocking by the Fortigate firewall in the office.
+			- 23-27th, paid office work debt.
 			- 28th, re-organized the node of *effect circle*, esp. its ((6a6c6ff5-55d9-455b-ae45-cc83d6af2c4e)).
 		- August journal
 		  id:: 6a708225-3b28-49ca-b93d-c9982588375c
