@@ -1529,6 +1529,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- But the failed local DNS requires a reconnection of WARP.
 				- ⇒ So an automatic WARP reconnection & DNS resolution should be put to ((66b1cfa4-1438-4699-9f02-b84075f2a167)).
 					- `warp-fix.sh`: `warp-cli disconnect && sleep 1 && warp-cli connect && sleep 10 && dig ...`
+			- [!]
 		- `tailscale`
 		  collapsed:: true
 			- Tailscale takes control of ((6a6afc1d-907a-4de0-b9ba-2d47434bcb0c))
