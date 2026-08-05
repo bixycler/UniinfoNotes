@@ -1,4 +1,4 @@
-- TODO Check sshd and check if ["offline connection" behind firewall](((6a71cbc7-20e1-4406-88fd-176f1a67359d))) can receive inbound connections.
+- DONE Check sshd and check if ["offline connection" behind firewall](((6a71cbc7-20e1-4406-88fd-176f1a67359d))) can receive inbound connections: Yep.
 - ---
 - 🤔😊😁 😉 😮 😛 😜 🤣 🙁 😱 👺 👁️🧿🪬  – × → ⇒ ⇋ ⇄ ∞∝α ‘’ ≥
 - Ω-thread Unïnfo
