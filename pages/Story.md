@@ -2748,6 +2748,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- We began by attempting the traditional remote access method – assigning a fixed static IP `192.168.100.100` to `Will-Ubuntu` on the home Access Point LAN and setting up port forwarding with DDNS.
 						- Experimental result: Checking the home router WAN status page showed an IPv6 address without a dedicated public IPv4 address, whereas external IP lookup services (`curl ifconfig.me`) reported a completely different public IPv4 address.
 						- Technical cause: Vietnamese ISPs universally deploy Carrier-Grade NAT (**CGNAT**), assigning shared WAN IP pools (RFC 6598 `100.64.0.0/10` or RFC 1918 private subnets) and IPv6 to home routers, making traditional inbound IPv4 port forwarding impossible.
+							- The given “WAN IP” `2001:4860:4860::8888` is actually Google's Public IPv6 DNS Server (the IPv6 counterpart to `8.8.8.8`)! So, it's the router's **Upstream DNS Server settings**, not the router's actual WAN IP address.
 						- Meanwhile, `CPU000375` resided inside an enterprise office network locked down behind a strict **Fortigate firewall** that blocked inbound traffic and inspected outbound TLS handshakes.
 					- Transition to a peer-to-peer mesh
 						- We shifted our strategy to an encrypted overlay network using ((6a6c6fec-fae0-4af3-9cea-97522eff1c05)) to create a virtual adapter (`tailscale0`) on both nodes.
