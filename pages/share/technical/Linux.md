@@ -1560,6 +1560,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					- As long as the DERP relays (`derp-sin`, `derp-hkg` in the example bellow) remain reachable over raw UDP and the machine public keys don't change, we can keep reconnecting.
 					- That's because the WireGuard keys and DERP server routes have already been **cached** on local machines, so the **data plane** (WireGuard / DERP relays) can work, despite the **blocked control plane** (`controlplane.tailscale.com`, https://console.tailscale.com/admin/machines).
 				- E.g.:
+				  collapsed:: true
 					- SSH
 					  ```sh
 					  ✔ dinhlx@CPU000375 [~] 
@@ -1591,6 +1592,12 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					  ⮕ tailscale ping --tsmp CPU000375
 					  pong from cpu000375 (100.65.243.46, 33108) via TSMP in 195ms
 					  ```
+				- Cases that reconnection fails wile offline:
+					-
+					- **Reboot / Daemon Restart**: Hard fail (lost WireGuard RAM keys)
+					- **Key Expiry (180 days)**: Hard fail (auth revoked) when the authentication key expires.
+					- Both peers change external IP/network: Soft fail (unless DERP reconnects)
+					-
 		- `systemd-resolved`
 			- `systemd-resolved` manages ((6a6afc1d-907a-4de0-b9ba-2d47434bcb0c)) through symlink to `/run/systemd/resolve/stub-resolv.conf`, and will leave it untouched (unmanaged) if it's not a symlink.
 		- `/etc/resolv.conf`
