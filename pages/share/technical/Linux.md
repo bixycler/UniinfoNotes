@@ -1557,6 +1557,8 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			  collapsed:: true
 				- Without such a hole, a set up `tailscaled` can still connect to the tailnet **within a dozen of minutes**, allowing connections to other peers there, with both outbound & inbound traffics.
 				- After some period, the connection may be broken, but we can manually reconnect (with some patience!)
+					- As long as the DERP relays (`derp-sin`, `derp-hkg` in the example bellow) remain reachable over raw UDP and the machine public keys don't change, we can keep reconnecting.
+					- That's because the WireGuard keys and DERP server routes have already been **cached** on local machines, so the **data plane** (WireGuard / DERP relays) can work, despite the **blocked control plane** (`controlplane.tailscale.com`, https://console.tailscale.com/admin/machines).
 				- E.g.:
 					- SSH
 					  ```sh
