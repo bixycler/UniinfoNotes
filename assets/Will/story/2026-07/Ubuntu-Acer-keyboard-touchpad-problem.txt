@@ -1,0 +1,157 @@
+Debug & Solution for the Problem of Unbound I2C Keyboard
+==========
+
+# 1: Rebind i2c_designware.2 which is bound to the I2C keyboard 
+sudo sh -c 'echo "i2c_designware.2" > /sys/bus/platform/drivers/i2c_designware/unbind && sleep 1 && echo "i2c_designware.2" > /sys/bus/platform/drivers/i2c_designware/bind'
+# I2C keyboard: 	i2c_designware.2@ -> /sys/devices/pci0000:00/0000:00:15.3/i2c_designware.2
+# I2C touchpad/mouse: 	i2c_designware.0@ -> /sys/devices/pci0000:00/0000:00:15.0/i2c_designware.0
+# I2C unknown(?!): 	i2c_designware.1@ -> /sys/devices/pci0000:00/0000:00:15.1/i2c_designware.1
+
+# 2: Re-add modules (doesn't work!)
+sudo modprobe -r i2c_hid_acpi  
+# i2c_hid_acpi: I2C devices (touch pad, keyboard)
+sudo modprobe -r i2c_hid  
+# modprobe: FATAL: Module i2c_hid is in use.
+# i2c_hid is used by i2c_hid_acpi
+sudo modprobe -r hid_generic 
+# hid_generic: external devices (mouse, keyboard)
+# hid is used by: hid_generic,i2c_hid,hid_multitouch,usbhid,snd_soc_sdca
+
+sudo modprobe i2c_hid_acpi
+# Does not fix the binding of the I2C keyboard if bound wrongly before 
+
+# 3: Unbind serio1 which was wrongly bound (doesn't work!)
+sudo sh -c 'echo -n "serio1" > /sys/bus/serio/drivers/atkbd/unbind'
+# sh: 1: echo: echo: I/O error
+# No device bound in atkbd
+
+--------
+Solution
+-----------------------
+/etc/systemd/system/fix-keyboard.service
+```ini
+[Unit]
+Description=Fix Acer I2C Keyboard Recognition
+After=multi-user.target
+
+[Service]
+Type=oneshot
+# Rebind i2c_designware.2 which is bound to the I2C keyboard
+ExecStart=/bin/sh -c 'echo "i2c_designware.2" > /sys/bus/platform/drivers/i2c_designware/unbind && sleep 1 && echo "i2c_designware.2" > /sys/bus/platform/drivers/i2c_designware/bind'
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
+```
+
+systemd-analyze verify /etc/systemd/system/fix-keyboard.service
+sudo systemctl daemon-reload
+sudo systemctl enable fix-keyboard.service
+sudo systemctl start fix-keyboard.service
+
+--------------
+Detect devices
+------------------
+less /proc/bus/input/devices 
+ll /sys/class/input/
+for dev in /sys/class/input/input*; do printf "$dev:\t"; cat "$dev/name"; realpath "$dev"; done
+
+Example (changed after boot)
+/sys/class/input/input0:	Lid Switch
+/sys/devices/pci0000:00/0000:00:1f.0/PNP0C09:00/PNP0C0D:00/input/input0
+/sys/class/input/input1:	Power Button
+/sys/devices/platform/PNP0C0C:00/input/input1
+/sys/class/input/input11:	PIXA3808:00 093A:3808 Mouse
+/sys/devices/pci0000:00/0000:00:15.0/i2c_designware.0/i2c-0/i2c-PIXA3808:00/0018:093A:3808.0001/input/input11
+/sys/class/input/input12:	PIXA3808:00 093A:3808 Touchpad
+/sys/devices/pci0000:00/0000:00:15.0/i2c_designware.0/i2c-0/i2c-PIXA3808:00/0018:093A:3808.0001/input/input12
+/sys/class/input/input13:	YSPRINGTECH USB OPTICAL MOUSE
+/sys/devices/pci0000:00/0000:00:14.0/usb3/3-3/3-3:1.0/0003:10C4:8105.0004/input/input13
+/sys/class/input/input22:	1025174B:01 1025:174B Keyboard
+/sys/devices/pci0000:00/0000:00:15.3/i2c_designware.2/i2c-2/i2c-1025174B:01/0018:1025:174B.0005/input/input22
+/sys/class/input/input3:	AT Translated Set 2 keyboard
+/sys/devices/platform/i8042/serio0/input/input3
+
+
+---------
+Touchpad
+------------------ 
+Note: Lower number has higher precedence in disabling touchpad.
+0. Hardware: fn F9
+   Persist across boots and takes effect across OS switch.
+1. OS-level: echo 1 | sudo tee /sys/class/input/input?/inhibited
+   + Enable: echo 0 | sudo tee /sys/class/input/input?/inhibited
+   + Note: This takes effect at boot, so at login screen, but does NOT PERSIST across boots.
+2. GUI: GNOME Settings > Mouse & Touchpad > Touchpad tab > toggle it!
+   Persist across boots.
+   This takes effect only after logged in, not at login screen.
+2'. Session-level: gsettings set org.gnome.desktop.peripherals.touchpad send-events 'disabled'
+   This is the underlying mechanism of number 2, and its change will be reflected live to the GUI.
+
+
+===========================
+sudo dmesg | grep -i keyboard
+
+Failed case:
+[    0.668459] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input3
+[    1.716706] atkbd serio1: keyboard reset failed on isa0060/serio1
+[    2.745075] systemd[1]: Starting keyboard-setup.service - Set the console keyboard layout...
+
+Successful case:
+[    0.616745] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input3
+[    1.662440] atkbd serio1: keyboard reset failed on isa0060/serio1
+[    1.682596] input: 1025174B:01 1025:174B Keyboard as /devices/pci0000:00/0000:00:15.3/i2c_designware.2/i2c-2/i2c-1025174B:01/0018:1025:174B.0002/input/input7
+[    1.682813] hid-generic 0018:1025:174B.0002: input,hidraw1: I2C HID v1.00 Keyboard [1025174B:01 1025:174B] on i2c-1025174B:01
+[   62.763890] systemd[1]: Starting keyboard-setup.service - Set the console keyboard layout...
+
+Fixed (rebind i2c_designware.2) after failed case:
+[    0.591718] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input3
+[    1.652273] atkbd serio1: keyboard reset failed on isa0060/serio1
+[   32.782959] systemd[1]: Starting keyboard-setup.service - Set the console keyboard layout...
+[   41.126074] input: 1025174B:01 1025:174B Keyboard as /devices/pci0000:00/0000:00:15.3/i2c_designware.2/i2c-2/i2c-1025174B:01/0018:1025:174B.0004/input/input18
+[   41.126481] hid-generic 0018:1025:174B.0004: input,hidraw3: I2C HID v1.00 Keyboard [1025174B:01 1025:174B] on i2c-1025174B:01
+[  222.007832] input: 1025174B:01 1025:174B Keyboard as /devices/pci0000:00/0000:00:15.3/i2c_designware.2/i2c-2/i2c-1025174B:01/0018:1025:174B.0006/input/input24
+[  222.028647] hid-generic 0018:1025:174B.0006: input,hidraw1: I2C HID v1.00 Keyboard [1025174B:01 1025:174B] on i2c-1025174B:01
+
+
+==========================
+
+sudoedit /etc/initramfs-tools/modules
+sudo update-initramfs -u
+=======================
+
+
+sudo journalctl -b 0 
+Jul 19 17:54:31 Will-Ubuntu kernel: input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input3
+Jul 19 17:56:34 Will-Ubuntu systemd[1]: Starting keyboard-setup.service - Set the console keyboard layout...
+Jul 19 17:56:34 Will-Ubuntu systemd[1]: Finished keyboard-setup.service - Set the console keyboard layout.
+
+Jul 19 17:56:35 Will-Ubuntu kernel: input: Intel HID events as /devices/platform/INTC1077:00/input/input14
+Jul 19 17:56:35 Will-Ubuntu kernel: intel-hid INTC1077:00: failed to enable HID power button
+Jul 19 17:56:35 Will-Ubuntu kernel: ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PC00.LPCB.HEC.DPTF.FCHG], AE_NOT_FOUND (20251212/psargs-332)
+Jul 19 17:56:35 Will-Ubuntu kernel: fbcon: Taking over console
+Jul 19 17:56:35 Will-Ubuntu kernel: 
+Jul 19 17:56:35 Will-Ubuntu kernel: No Local Variables are initialized for Method [PPSS]
+Jul 19 17:56:35 Will-Ubuntu kernel: 
+Jul 19 17:56:35 Will-Ubuntu kernel: No Arguments are initialized for method [PPSS]
+Jul 19 17:56:35 Will-Ubuntu kernel: 
+Jul 19 17:56:35 Will-Ubuntu kernel: ACPI Error: Aborting method \_SB.IETM.CHRG.PPSS due to previous error (AE_NOT_FOUND) (20251212/psparse-529)
+Jul 19 17:56:35 Will-Ubuntu kernel: acer_wmi: Acer Laptop ACPI-WMI Extras
+Jul 19 17:56:35 Will-Ubuntu kernel: acer_wmi: Function bitmap for Communication Button: 0x0
+Jul 19 17:56:35 Will-Ubuntu kernel: [drm] Initialized intel_vpu 1.0.0 for 0000:00:0b.0 on minor 0
+Jul 19 17:56:35 Will-Ubuntu kernel: input: Acer WMI hotkeys as /devices/virtual/input/input15
+
+Jul 19 17:57:00 Will-Ubuntu gsd-keyboard[4425]: g_variant_unref: assertion 'value != NULL' failed
+
+Jul 19 17:57:02 Will-Ubuntu systemd[2107]: Stopped target gnome-session.target - GNOME Session.
+Jul 19 17:57:02 Will-Ubuntu systemd[2107]: Stopped target gnome-session-basic-services.target - GNOME basic session services.
+Jul 19 17:57:02 Will-Ubuntu systemd[2107]: Stopped target org.gnome.SettingsDaemon.A11ySettings.target - GNOME accessibility target.
+Jul 19 17:57:02 Will-Ubuntu systemd[2107]: Stopped target org.gnome.SettingsDaemon.Keyboard.target - GNOME keyboard configuration target.
+Jul 19 17:57:02 Will-Ubuntu systemd[2107]: Stopped target org.gnome.SettingsDaemon.MediaKeys.target - GNOME keyboard shortcuts target.
+Jul 19 17:57:02 Will-Ubuntu systemd[2107]: Stopped target org.gnome.SettingsDaemon.Power.target - GNOME power management target.
+Jul 19 17:57:02 Will-Ubuntu systemd[2107]: Stopped target org.gnome.SettingsDaemon.Rfkill.target - GNOME RFKill support target.
+Jul 19 17:57:02 Will-Ubuntu systemd[2107]: Stopped target org.gnome.SettingsDaemon.Sharing.target - GNOME file sharing target.
+Jul 19 17:57:02 Will-Ubuntu systemd[2107]: Stopped target org.gnome.SettingsDaemon.Smartcard.target - GNOME smartcard target.
+Jul 19 17:57:02 Will-Ubuntu systemd[2107]: Stopped target org.gnome.SettingsDaemon.UsbProtection.target - GNOME USB protection target.
+
+

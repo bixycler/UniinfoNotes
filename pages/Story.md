@@ -2727,7 +2727,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- `/etc/modprobe.d/blacklist-intel_vbtn.conf` & `/etc/modprobe.d/blacklist.conf`: Blacklist the suspects of incorrectly putting the keyboard into tablet mode.
 								- UEFI Trusted Executable: Entered the BIOS and added `HDD0 > EFI > ubuntu > grubx64.efi` as a “Trusted for executing” file.
 									- BIOS Supervisor Password: Set a supervisor password in the BIOS to unlock the security and advanced boot settings.
-						- On-site notes: []
+						- On-site notes: ![Ubuntu-Acer-keyboard-touchpad-problem.txt](../assets/Will/story/2026-07/Ubuntu-Acer-keyboard-touchpad-problem.txt)
 						- [!] Remaining issue: When something breaks the boot process and require keyboard input, e.g. “insecure boot warning”, we cannot proceed.
 			- 20-21th, intended to do the office work, but ended with updating the **effect circle** all the day.
 			  collapsed:: true
