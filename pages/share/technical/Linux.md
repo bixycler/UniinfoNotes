@@ -1593,15 +1593,19 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					  pong from cpu000375 (100.65.243.46, 33108) via TSMP in 195ms
 					  ```
 				- Cases that reconnection fails while offline:
-					- **Mistakenly switch to `direct` route**: Hard fail (wrong hole! )
+					- **Mistakenly switch to `direct` route**: Hard fail (wrong hole! 😅)
 						- Reason: Without correct info from control plane, Tailscale client will attempt to “upgrade” the peer routes from `relay` to `direct` which is dead wrong – directly connect to the DERP server!
 						- Wrong status
-						  ```sh
-						  ⮕ tailscale status
-						  100.65.243.46  cpu000375    lexuandinhct@  linux  offline
-						  100.69.32.58   will-ubuntu  lexuandinhct@  linux  active; direct 104.28.156.151:41641, tx 772768 rx 707368  
-						  ```
+						  collapsed:: true
+							- ```sh
+							  ⮕ tailscale status
+							  100.65.243.46  cpu000375    lexuandinhct@  linux  offline
+							  100.69.32.58   will-ubuntu  lexuandinhct@  linux  active; direct 104.28.156.151:41641, tx 772768 rx 707368  
+							  ```
 							- Here, `104.28.156.151` is `derp-sin` (Singapore DERP), not `will-ubuntu`!
+						- Solution: Disable direct socket dialing for Tailscale, and block Inbound UDP on Port `41641`.
+							- `TS_DEBUG_DIAL_DIRECT=false` in `/etc/default/tailscaled`: Disable direct socket dialing
+							- `sudo ufw deny 41641/udp`
 					- **Reboot / Daemon Restart**: Hard fail (lost WireGuard RAM keys)
 					- **Key Expiry (180 days)**: Hard fail (auth revoked) when the authentication key expires.
 					- Both peers change external IP/network: Soft fail (unless DERP reconnects)
