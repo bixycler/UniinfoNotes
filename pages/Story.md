@@ -2692,7 +2692,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- first cause = lack of fruit = yin arrow = yang arrow tail
 					- fruit = arrowhead
 					- final cause = match of fruit with target, head with tail
-			- 20th, intended to do the office work, but ended with updating the effect circle all the day.
+			- 20-21th, intended to do the office work, but ended with updating the effect circle all the day.
 		- August journal
 		  id:: 6a708225-3b28-49ca-b93d-c9982588375c
 		  collapsed:: true
@@ -2723,7 +2723,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  :LOGBOOK:
 				  CLOCK: [2026-08-03 Mon 20:55:49]--[2026-08-04 Tue 16:14:03] =>  19:18:14
 				  :END:
-			- 4th, still messing with
+			- 4th, still messing with WARP & ((6a6c6fec-fae0-4af3-9cea-97522eff1c05))
 			  collapsed:: true
 				- Just throw away the sucking `gnome-clocks` which require to be opened just for its alarms to work.
 					- I wrote the whole `clock-service.sh` intended to open then close it (using GNOME extension ((6a6edb3b-7a16-46dd-9334-d225fc94e7e7))), but it turned out to be destroyed instead of hidden like the GUI `x` button.
@@ -2733,6 +2733,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  id:: 6a731540-ec1a-4c00-9483-67e4c005e346
 					- Reason: I set explicit `ListenAddress` in `/etc/ssh/sshd_config` to avoid conflict with the shadow IPs like `127.0.3.1` (NGINX stream forwarding for `git1`).
 					- ⇒ Solution: Add `ListenAddress 100.65.243.46` for `will-ubuntu`@tailnet.
+				- Returning home, i made time to do the office work: ask Gemini & Claude to cross check their results.
 			- 5th, ...
 				- Solved ((6a731540-ec1a-4c00-9483-67e4c005e346))
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))

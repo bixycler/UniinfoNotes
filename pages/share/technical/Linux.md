@@ -1547,6 +1547,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					  URL: https://creatzynotes.blogspot.com/
 					  ```
 		- `tailscale`
+		  id:: 6a6c6fec-fae0-4af3-9cea-97522eff1c05
 		  collapsed:: true
 			- Tailscale takes control of ((6a6afc1d-907a-4de0-b9ba-2d47434bcb0c))
 				- `nameserver`: `100.100.100.100`
