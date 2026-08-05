@@ -2697,8 +2697,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- The installed Ubuntu 26 has severe problem with the I2C keyboard, so i must write & run `fix-keyboard.service` to fix it... after boot.
 						- Cause: The legacy PS/2 driver is bound via i8042 controller (`isa0060/serio1`), instead of the modern I2C of Acer (`i2c-1025174B`).
 							- Note that the I2C touchpad is bound correctly, however!
-						- Solution:
-							- Failed attempts: patch `grub`, `/etc/modprobe.d/blacklist.conf`
+						- Solution: Write & run `fix-keyboard.service` to automate the `i2c_designware.2` unbind/bind command at every boot.
+							- `/etc/systemd/system/fix-keyboard.service`:
+							- [Failed attempts](https://share.google/aimode/An1mNkHhQiu2OVGU7):
+								- `/etc/default/grub`: Add kernel parameters to `GRUB_CMDLINE_LINUX_DEFAULT`.
+								- `/etc/initramfs-tools/modules`: Add I2C and HID drivers.
+								- `/etc/modprobe.d/blacklist-intel_vbtn.conf` & `/etc/modprobe.d/blacklist.conf`: Blacklist the suspects of incorrectly putting the keyboard into tablet mode.
+								- **UEFI Trusted Executable<!--TgQPHd|||[]-->**: You entered the BIOS and added `HDD0 > EFI > ubuntu > grubx64.efi<!--TgQPHd|||[]-->` as a "Trusted for executing" file.
 						- [!] When something breaks the boot process and require keyboard input, e.g. “insecure boot warning”, we cannot proceed.
 			- 20-21th, intended to do the office work, but ended with updating the **effect circle** all the day.
 				- ((6a5d8eb5-6989-42d1-9419-57db76aaa871))
