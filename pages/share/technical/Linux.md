@@ -1530,14 +1530,21 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- ⇒ So an automatic WARP reconnection & DNS resolution should be put to ((66b1cfa4-1438-4699-9f02-b84075f2a167)).
 					- `warp-fix.sh`: `warp-cli disconnect && sleep 1 && warp-cli connect && sleep 10 && dig ...`
 			- [!] Google and many large systems detect access from WARP tunnels as “spam”, due to the shared IP addresses of Cloudlare edge servers and the highly dynamic routing nature of WARP.
-				- E.g. Google message
+				- E.g. Google messages
 				  collapsed:: true
 					- ```
 					  Our systems have detected unusual traffic from your computer network. 
 					  Please try your request again later. 
-					  IP address: 14.161.28.176 ≠ 2a09:bac1:31c0:8::246:da
+					  IP address: 2a09:bac5:3989:263c::3cf:56 ≠ 2a09:bac1:31c0:8::246:da
 					  Time: 2026-08-05T06:50:38Z
 					  URL: https://creatzynotes.blogspot.com/2026/07/khi-gie-su-va-phat-thich-ca-gap-nhau-o.html
+					  ```
+					- ```
+					  Our systems have detected unusual traffic from your computer network. 
+					  This page checks to see if it's really you sending the requests, and not a robot.
+					  IP address: 2a09:bac5:3989:263c::3cf:56
+					  Time: 2026-08-05T06:56:36Z
+					  URL: https://creatzynotes.blogspot.com/
 					  ```
 		- `tailscale`
 		  collapsed:: true
