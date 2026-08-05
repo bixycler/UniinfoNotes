@@ -2745,7 +2745,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  id:: 6a73285b-1c24-4893-b062-6c05ec720066
 				  collapsed:: true
 					- Initial architecture and port forwarding failure
-						- We began by attempting the traditional remote access method – assigning a fixed static IP to `Will-Ubuntu` on the home Access Point LAN and setting up port forwarding with DDNS.
+						- We began by attempting the traditional remote access method – assigning a fixed static IP `192.168.100.100` to `Will-Ubuntu` on the home Access Point LAN and setting up port forwarding with DDNS.
 						- Experimental result: Checking the home router WAN status page showed an IPv6 address without a dedicated public IPv4 address, whereas external IP lookup services (`curl ifconfig.me`) reported a completely different public IPv4 address.
 						- Technical cause: Vietnamese ISPs universally deploy Carrier-Grade NAT (**CGNAT**), assigning shared WAN IP pools (RFC 6598 `100.64.0.0/10` or RFC 1918 private subnets) and IPv6 to home routers, making traditional inbound IPv4 port forwarding impossible.
 						- Meanwhile, `CPU000375` resided inside an enterprise office network locked down behind a strict **Fortigate firewall** that blocked inbound traffic and inspected outbound TLS handshakes.
