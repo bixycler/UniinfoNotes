@@ -1564,6 +1564,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					  ⮕ tailscale status
 					  100.65.243.46  cpu000375    lexuandinhct@  linux  offline                                   
 					  100.69.32.58   will-ubuntu  lexuandinhct@  linux  active; relay "sin", tx 491480 rx 482576  
+					  # Health check: Unable to connect to the Tailscale coordination server to synchronize the state of your tailnet. Peer reachability might degrade over time.
 					  ⮕ ssh will@will-ubuntu hostname    
 					  Will-Ubuntu
 					  
