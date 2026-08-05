@@ -2740,6 +2740,41 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Returning home, i made time to do the office work: ask Gemini & Claude to cross check their results.
 			- 5th, ...
 				- Solved the problem yesterday: ((6a731540-ec1a-4c00-9483-67e4c005e346))
+				- Recap these 3 weeks for the ((6a73285b-1c24-4893-b062-6c05ec720066))
+				- Journey to a stable mesh network
+				  id:: 6a73285b-1c24-4893-b062-6c05ec720066
+				  collapsed:: true
+					- Initial architecture and port forwarding failure
+						- We began by attempting the traditional remote access method – assigning a fixed static IP to `Will-Ubuntu` on the home Access Point LAN and setting up port forwarding with DDNS.
+						- Experimental result: Checking the home router WAN status page showed an IPv6 address without a dedicated public IPv4 address, whereas external IP lookup services (`curl ifconfig.me`) reported a completely different public IPv4 address.
+						- Technical cause: Vietnamese ISPs universally deploy Carrier-Grade NAT (**CGNAT**), assigning shared WAN IP pools (RFC 6598 `100.64.0.0/10` or RFC 1918 private subnets) and IPv6 to home routers, making traditional inbound IPv4 port forwarding impossible.
+						- Meanwhile, `CPU000375` resided inside an enterprise office network locked down behind a strict **Fortigate firewall** that blocked inbound traffic and inspected outbound TLS handshakes.
+					- Transition to a peer-to-peer mesh
+						- We shifted our strategy to an encrypted overlay network using ((6a6c6fec-fae0-4af3-9cea-97522eff1c05)) to create a virtual adapter (`tailscale0`) on both nodes.
+						- The goal was to establish an absolute peer-to-peer link (`100.65.243.46` $\leftrightarrow$ `100.69.32.58`) between `CPU000375` and `Will-Ubuntu`.
+						- However, we immediately hit an obstacle at the office – the Fortigate firewall likely performed deep packet inspection (DPI) and blocked the Server Name Indication (SNI) for Tailscale's coordination server (`controlplane.tailscale.com`).
+						- Because `tailscaled` on `CPU000375` could not reach the control plane to complete its TLS handshake, it failed to authenticate or fetch the initial network map (`NetMap`).
+					- Deploying Cloudflare WARP as an outbound tunnel
+						- To bypass the Fortigate SNI block on `CPU000375`, we deployed ((6a6c6fec-3535-4cab-a2e2-f64c0cd5c5ff)) as a full-tunnel WireGuard outbound proxy (`172.16.0.2`).
+						- Running WARP encrypted all outbound IP traffic from `CPU000375` and routed it through Cloudflare's edge network (terminating at their Hong Kong & Singapore data centers).
+						- Because the Fortigate firewall only saw encrypted UDP traffic to Cloudflare, `tailscaled` was able to reach `controlplane.tailscale.com` through WARP, complete authentication, and sync its WireGuard keys.
+						- The round-trip connection (`CPU000375` $\leftrightarrow$ `Will-Ubuntu`) was successfully established, but running three virtual networking daemons simultaneously caused interface collisions.
+					- Resolving routing and DNS conflicts
+						- WARP's `0.0.0.0/0` default route hijacked all outbound traffic, rendering local office LAN subnets (`10.11.11.0/24`) and specific company AWS endpoints (`18.178.207.20`) inaccessible.
+						- We resolved the routing conflicts by configuring WARP's split tunneling (`warp-cli add-excluded-route`), explicitly excluding local office subnets, work IPs, and Tailscale's `100.64.0.0/10` range.
+						- A deeper conflict occurred at the DNS layer between Unbound, Cloudflare WARP proxies (`127.0.0.2`/`.3`), and `systemd-resolved` fighting over port 53.
+						- We elegantly resolved this by replacing Unbound's recursive queries with NGINX TCP/UDP stream modules for custom AWS forwarding, restoring `systemd-resolved` as the primary OS fallback resolver.
+					- Discovering offline resilience and the direct-mode trap
+						- We observed that even when WARP was toggled off on `CPU000375` – causing Tailscale to report an `offline` health warning – data plane traffic still flowed.
+						- Tailscale's daemon successfully relied on cached WireGuard keys and static relay servers (**DERP relays**, such as `derp-sin` and `derp-hkg`) to route SSH and ping packets.
+						- However, a critical failure mode emerged when Tailscale tried to upgrade the connection from DERP relay to “direct” mode via background STUN hole-punching.
+						- `tailscaled` selected `104.28.156.151:41641` as `Will-Ubuntu`'s direct candidate – which was actually `derp-sin`'s Cloudflare egress IP.
+						- Because `104.28.156.151` is a relay IP and drops unsolicited incoming WireGuard handshakes, SSH sessions froze indefinitely during key exchange (`SSH2_MSG_KEX_ECDH_INIT`).
+					- Hardening into permanent relay mode
+						- To eliminate the direct-mode trap while offline behind the Fortigate firewall, we implemented a dual-layer defense to permanently lock the mesh into DERP relay mode.
+						- On the client side, we set `TS_DEBUG_DIAL_DIRECT=false` in `/etc/default/tailscaled` to prevent outbound direct dialing to external STUN candidates.
+						- On the kernel side, we blocked inbound UDP traffic on the listening port (`ufw deny 41641/udp`) on `Will-Ubuntu` to force immediate fallback if probed.
+						- This combination yielded a rock-solid, offline-resilient mesh that maintains stable SSH and TCP connections without freezing or degrading over time.
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a708225-3b28-49ca-b93d-c9982588375c))

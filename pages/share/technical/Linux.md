@@ -1546,9 +1546,10 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					  Time: 2026-08-05T06:56:36Z
 					  URL: https://creatzynotes.blogspot.com/
 					  ```
-		- `tailscale`
+		- Tailscale
 		  id:: 6a6c6fec-fae0-4af3-9cea-97522eff1c05
 		  collapsed:: true
+		  `tailscale`
 			- Tailscale takes control of ((6a6afc1d-907a-4de0-b9ba-2d47434bcb0c))
 				- `nameserver`: `100.100.100.100`
 				- `search`: `tail${hash}.ts.net`: MagicDNS intercepts queries ending in `*.ts.net` (or short names like `Will-Ubuntu`) and resolve them locally using its internal DNS engine embedded inside `tailscaled`.
