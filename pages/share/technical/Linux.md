@@ -1529,7 +1529,16 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- But the failed local DNS requires a reconnection of WARP.
 				- ⇒ So an automatic WARP reconnection & DNS resolution should be put to ((66b1cfa4-1438-4699-9f02-b84075f2a167)).
 					- `warp-fix.sh`: `warp-cli disconnect && sleep 1 && warp-cli connect && sleep 10 && dig ...`
-			- [!]
+			- [!] Google and many large systems detect access from WARP tunnels as “spam”, due to the shared IP addresses of Cloudlare edge servers and the highly dynamic routing nature of WARP.
+				- E.g. Google message
+				  collapsed:: true
+					- ```
+					  Our systems have detected unusual traffic from your computer network. 
+					  Please try your request again later. 
+					  IP address: 14.161.28.176 ≠ 2a09:bac5:398d:16d2::246:da
+					  Time: 2026-08-05T05:39:57Z
+					  URL: https://creatzynotes.blogspot.com/2026/07/phan-2-tu-thuong-en-phung-su-hanh-trinh.html
+					  ```
 		- `tailscale`
 		  collapsed:: true
 			- Tailscale takes control of ((6a6afc1d-907a-4de0-b9ba-2d47434bcb0c))
