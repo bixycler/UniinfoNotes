@@ -2652,6 +2652,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- A system incapable of self-doubt is a one-way engine, like classical logic. It can grow, and it can optimize, but it cannot evolve.
 					- The cell of uninet is autonoton (self-knowledge). While differentiated/specialized cells do know something positively (trunks), the stem cell knows nothing but its ignorance, just like Socrates, hence self-doubt.
 			- 13-14th, set up [Vertex AI + Cloudflare + Opencode](((6a55b373-9225-49a9-ac23-95a9cc0478e0)))
+			  id:: 6a6e8d35-af9d-486e-8e6e-ade2219ccc9b
 			  collapsed:: true
 				- This was triggered by the harsh & irrational blocking of all AI sites by HTV.
 				- Story:
@@ -2679,7 +2680,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  CLOCK: [2026-07-17 Fri 17:57:50]
 					  CLOCK: [2026-07-17 Fri 17:57:53]--[2026-07-17 Fri 18:06:09] =>  00:08:16
 					  :END:
-			- 18-19th, weekend: Entropy, Information & Physics, and **bought a new laptop** at home (`Will-Ubuntu`) to cope with the irrational blocking by the Fortigate firewall in the office.
+			- 18-19th, weekend: Entropy, Information & Physics, and [bought a new laptop](((6a734a74-8436-4070-81a9-5390131ae925))) at home (`Will-Ubuntu`) to cope with the [irrational blocking](((6a6e8d35-af9d-486e-8e6e-ade2219ccc9b))) by the Fortigate firewall in the office.
 			  collapsed:: true
 				- [Thermodynamics of the gravity from entropy theory (GfE)](https://journals.aps.org/prd/abstract/10.1103/26kn-thgp)
 					- In an expanding universe (Friedmann-Robertson-Walker cosmologies), its expansion is faster than the increase is total entropy
@@ -2693,6 +2694,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- fruit = arrowhead
 					- final cause = match of fruit with target, head with tail
 				- Laptop: Acer Aspire Go 15 AI AG15-52P-52WT from [FPT Shop](https://fptshop.com.vn/may-tinh-xach-tay/acer-aspire-go-15-ai-ag15-52p-52wt)
+				  id:: 6a734a74-8436-4070-81a9-5390131ae925
 				  collapsed:: true
 					- Windows 11 runs OK, but the body is so hot even in idle. So i must buy a mini-fan for it.
 					- The NPU 115U integrated in Intel Core Ultra 5 is nearly useless: slower than CPU and much slower than the integrated GPU.
@@ -2725,9 +2727,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- `/etc/modprobe.d/blacklist-intel_vbtn.conf` & `/etc/modprobe.d/blacklist.conf`: Blacklist the suspects of incorrectly putting the keyboard into tablet mode.
 								- UEFI Trusted Executable: Entered the BIOS and added `HDD0 > EFI > ubuntu > grubx64.efi` as a “Trusted for executing” file.
 									- BIOS Supervisor Password: Set a supervisor password in the BIOS to unlock the security and advanced boot settings.
-						- [!] When something breaks the boot process and require keyboard input, e.g. “insecure boot warning”, we cannot proceed.
+						- On-site notes: []
+						- [!] Remaining issue: When something breaks the boot process and require keyboard input, e.g. “insecure boot warning”, we cannot proceed.
 			- 20-21th, intended to do the office work, but ended with updating the **effect circle** all the day.
+			  collapsed:: true
 				- ((6a5d8eb5-6989-42d1-9419-57db76aaa871))
+				- The company has just relaxed its firewall to be more rational... but still harsh to me.
 			- 23-27th, paid office work debt.
 			- 28th, re-organized the node of *effect circle*, esp. its ((6a6c6ff5-55d9-455b-ae45-cc83d6af2c4e)).
 		- August journal
@@ -2773,6 +2778,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- ⇒ Solution: Add `ListenAddress 100.65.243.46` for `will-ubuntu`@tailnet.
 				- Returning home, i made time to do the office work: ask Gemini & Claude to cross check their results.
 			- 5th, wrapped up the 3 weeks setting up the connection between home and office.
+			  collapsed:: true
 				- Solved the problem yesterday: ((6a731540-ec1a-4c00-9483-67e4c005e346))
 				- Recap these 3 weeks for the ((6a73285b-1c24-4893-b062-6c05ec720066))
 				- Journey to a stable mesh network
@@ -2813,6 +2819,5 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a708225-3b28-49ca-b93d-c9982588375c))
-		- ((6a46244d-2376-4549-b716-19538d7042fd))
 		- ...
 		  id:: 688c70c8-1772-4007-bdf0-d621db895411
