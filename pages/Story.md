@@ -2679,7 +2679,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  CLOCK: [2026-07-17 Fri 17:57:50]
 					  CLOCK: [2026-07-17 Fri 17:57:53]--[2026-07-17 Fri 18:06:09] =>  00:08:16
 					  :END:
-			- 18-19th, weekend: Entropy, Information & Physics, and bought a new laptop at home (`Will-Ubuntu`) to cope with the irrational blocking by the Fortigate firewall in the office.
+			- 18-19th, weekend: Entropy, Information & Physics, and **bought a new laptop** at home (`Will-Ubuntu`) to cope with the irrational blocking by the Fortigate firewall in the office.
 			  collapsed:: true
 				- [Thermodynamics of the gravity from entropy theory (GfE)](https://journals.aps.org/prd/abstract/10.1103/26kn-thgp)
 					- In an expanding universe (Friedmann-Robertson-Walker cosmologies), its expansion is faster than the increase is total entropy
@@ -2693,17 +2693,38 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- fruit = arrowhead
 					- final cause = match of fruit with target, head with tail
 				- Laptop: Acer Aspire Go 15 AI AG15-52P-52WT from [FPT Shop](https://fptshop.com.vn/may-tinh-xach-tay/acer-aspire-go-15-ai-ag15-52p-52wt)
+				  collapsed:: true
 					- Windows 11 runs OK, but the body is so hot even in idle. So i must buy a mini-fan for it.
-					- The installed Ubuntu 26 has severe problem with the I2C keyboard, so i must write & run `fix-keyboard.service` to fix it... after boot.
+					- The NPU 115U integrated in Intel Core Ultra 5 is nearly useless: slower than CPU and much slower than the integrated GPU.
+					- The installed Ubuntu 26 has **severe problem with the I2C keyboard**, so i must write & run `fix-keyboard.service` to fix it... *after boot*.
 						- Cause: The legacy PS/2 driver is bound via i8042 controller (`isa0060/serio1`), instead of the modern I2C of Acer (`i2c-1025174B`).
 							- Note that the I2C touchpad is bound correctly, however!
 						- Solution: Write & run `fix-keyboard.service` to automate the `i2c_designware.2` unbind/bind command at every boot.
-							- `/etc/systemd/system/fix-keyboard.service`:
+							- `/etc/systemd/system/fix-keyboard.service`
+							  collapsed:: true
+								- ```ini
+								  [Unit]
+								  Description=Fix Acer I2C Keyboard Recognition
+								  After=multi-user.target
+								  
+								  [Service]
+								  Type=oneshot
+								  # Rebind i2c_designware.2 which is bound to the I2C keyboard
+								  ExecStart=/bin/sh -c 'echo "i2c_designware.2" > /sys/bus/platform/drivers/i2c_designware/unbind && sleep 1 && echo "i2c_designware.2" > /sys/bus/platform/drivers/i2c_designware/bind'
+								  RemainAfterExit=yes
+								  
+								  [Install]
+								  WantedBy=multi-user.target
+								  ```
+								  
+								  ```
 							- [Failed attempts](https://share.google/aimode/An1mNkHhQiu2OVGU7):
+							  collapsed:: true
 								- `/etc/default/grub`: Add kernel parameters to `GRUB_CMDLINE_LINUX_DEFAULT`.
 								- `/etc/initramfs-tools/modules`: Add I2C and HID drivers.
 								- `/etc/modprobe.d/blacklist-intel_vbtn.conf` & `/etc/modprobe.d/blacklist.conf`: Blacklist the suspects of incorrectly putting the keyboard into tablet mode.
-								- **UEFI Trusted Executable<!--TgQPHd|||[]-->**: You entered the BIOS and added `HDD0 > EFI > ubuntu > grubx64.efi<!--TgQPHd|||[]-->` as a "Trusted for executing" file.
+								- UEFI Trusted Executable: Entered the BIOS and added `HDD0 > EFI > ubuntu > grubx64.efi` as a “Trusted for executing” file.
+									- BIOS Supervisor Password: Set a supervisor password in the BIOS to unlock the security and advanced boot settings.
 						- [!] When something breaks the boot process and require keyboard input, e.g. “insecure boot warning”, we cannot proceed.
 			- 20-21th, intended to do the office work, but ended with updating the **effect circle** all the day.
 				- ((6a5d8eb5-6989-42d1-9419-57db76aaa871))
