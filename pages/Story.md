@@ -2695,10 +2695,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 20-21th, intended to do the office work, but ended with updating the **effect circle** all the day.
 				- ((6a5d8eb5-6989-42d1-9419-57db76aaa871))
 			- 23-27th, caught up in the setup of my new laptop at home (`Will-Ubuntu`) to cope with the irrational blocking by the Fortigate firewall in the office.
-			- 28th, re-organized the node of
+			- 28th, re-organized the node of *effect circle*, esp. its ((6a6c6ff5-55d9-455b-ae45-cc83d6af2c4e)).
 		- August journal
 		  id:: 6a708225-3b28-49ca-b93d-c9982588375c
 		  collapsed:: true
+			- July 30 ‑ August 2nd, cought up in setting up the connection between `Will-Ubuntu` at home and `CPU000375` at the office.
 			- 3rd, intended to pay the office work debt, but ended up with fixing issues of workstation due to ((6a6c6fec-3535-4cab-a2e2-f64c0cd5c5ff)).
 			  collapsed:: true
 				- DONE Install ((6a6ff9d1-5a5e-44fd-ad86-628095ca5761)) extension and set Mem "Used" = Active
@@ -2738,7 +2739,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- ⇒ Solution: Add `ListenAddress 100.65.243.46` for `will-ubuntu`@tailnet.
 				- Returning home, i made time to do the office work: ask Gemini & Claude to cross check their results.
 			- 5th, ...
-				- Solved ((6a731540-ec1a-4c00-9483-67e4c005e346))
+				- Solved the problem yesterday: ((6a731540-ec1a-4c00-9483-67e4c005e346))
+				-
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a708225-3b28-49ca-b93d-c9982588375c))
