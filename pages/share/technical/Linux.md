@@ -1552,11 +1552,26 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- `nameserver`: `100.100.100.100`
 				- `search`: `tail${hash}.ts.net`: MagicDNS intercepts queries ending in `*.ts.net` (or short names like `Will-Ubuntu`) and resolve them locally using its internal DNS engine embedded inside `tailscaled`.
 			- `tailscale web` to open Web app at http://100.*.*.*:5252/ with server at http://localhost:8088/
-			- [!] Behind firewalls like Fortigate, Tailscale requires hole punchers like ((6a6c6fec-3535-4cab-a2e2-f64c0cd5c5ff)) to stay online (connecting to Tailscale coordination server).
+			- [!] Behind firewalls like Fortigate, Tailscale requires hole punchers like ((6a6c6fec-3535-4cab-a2e2-f64c0cd5c5ff)) to stay “online” (connecting to Tailscale coordination server). However that **“online” status is not required for connection**!
 			  id:: 6a71cbc7-20e1-4406-88fd-176f1a67359d
 			  collapsed:: true
-				- Without such a hole, a `tailscaled` set up properly can still connect to the tailnet, allowing outbound connections but not inbound.
-				- Note that, even when being blocked by firewall, `tailscale ping` still gets pong both ways (outbound & inboud).
+				- Without such a hole, a set up `tailscaled` can still connect to the tailnet, allowing connections to other peers there, with both outbound & inbound traffics.
+				- E.g.:
+					- SSH
+					  ```sh
+					  ✔ dinhlx@CPU000375 [~] 
+					  ⮕ tailscale status
+					  100.65.243.46  cpu000375    lexuandinhct@  linux  offline                                   
+					  100.69.32.58   will-ubuntu  lexuandinhct@  linux  active; relay "sin", tx 491480 rx 482576  
+					  ⮕ ssh will@will-ubuntu hostname    
+					  Will-Ubuntu
+					  
+					  ✔ will@Will-Ubuntu [~] 
+					  ⮕ tailscale status
+					  100.69.32.58   will-ubuntu  lexuandinhct@  linux  -                                                                    
+					  100.65.243.46  cpu000375    lexuandinhct@  linux  active; relay "hkg"; offline, last seen 3m ago, tx 407288 rx 302168  
+					  
+					  ```
 		- `systemd-resolved`
 			- `systemd-resolved` manages ((6a6afc1d-907a-4de0-b9ba-2d47434bcb0c)) through symlink to `/run/systemd/resolve/stub-resolv.conf`, and will leave it untouched (unmanaged) if it's not a symlink.
 		- `/etc/resolv.conf`
