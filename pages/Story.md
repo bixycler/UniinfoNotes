@@ -2692,7 +2692,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- first cause = lack of fruit = yin arrow = yang arrow tail
 					- fruit = arrowhead
 					- final cause = match of fruit with target, head with tail
-			- 20-21th, intended to do the office work, but ended with updating the effect circle all the day.
+			- 20-21th, intended to do the office work, but ended with updating the **effect circle** all the day.
+				- ((6a5d8eb5-6989-42d1-9419-57db76aaa871))
+			- 23-27th, caught up in the setup of my new laptop at home (`Will-Ubuntu`) to cope with the irrational blocking by the Fortigate firewall in the office.
+			- 28th, re-organized the node of
 		- August journal
 		  id:: 6a708225-3b28-49ca-b93d-c9982588375c
 		  collapsed:: true

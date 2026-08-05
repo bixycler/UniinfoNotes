@@ -2708,6 +2708,7 @@
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf36a-581a-4abe-b544-2d849608a3e4))
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bf36a-581a-4abe-b544-2d849608a3e4)) is an ((667bef22-b272-4a7d-b613-3f1ed1a47329)) whose both sink and source are viewed as a single ((677e76ed-b324-4608-b146-90e8fcfa0c32)) which [drives](((6a5d8eb5-6989-42d1-9419-57db76aaa871))) the flow of the whole circle. This effect circle is the thread expression of the ((6772a6cd-771f-4f24-9c3a-39c442234be5)).
 			- Diagrams
+			  id:: 6a6c6ff5-55d9-455b-ae45-cc83d6af2c4e
 			  collapsed:: true
 				- Effect circle (yang circle bellow) with its inner intent (yin circle above)
 				  id:: 6a5e104f-0113-47bb-a47c-485e5fc084b2
@@ -2872,6 +2873,7 @@
 									- Feedback from the effect flow to update intent's meta like probability.
 					- ((677e76ed-b324-4608-b146-90e8fcfa0c32)) in knowledge circle = intent (know-why) = arrow returning to the root obop = qualifier = verifier = complement of the result/answer of the problem/question (know-where, know-what, formal cause)
 					  id:: 68a7e246-8407-4e89-b393-912db172e4fe
+					  collapsed:: true
 					  = openness = porosity = entropy increase = arrow of time = mismatch between form & content =  curvature in distribution
 					- The ((66f3d561-424a-4e1d-be55-98ac39c48502))  is kept alive by its ((677e76ed-b324-4608-b146-90e8fcfa0c32)), i.e., its very existence is a dynamic process caused by its own incompleteness.
 			- Effect circle Dynamic caused by Intentional cause
