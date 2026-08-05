@@ -2695,8 +2695,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Laptop: Acer Aspire Go 15 AI AG15-52P-52WT from [FPT Shop](https://fptshop.com.vn/may-tinh-xach-tay/acer-aspire-go-15-ai-ag15-52p-52wt)
 					- Windows 11 runs OK, but the body is so hot even in idle. So i must buy a mini-fan for it.
 					- The installed Ubuntu 26 has severe problem with the I2C keyboard, so i must write & run `fix-keyboard.service` to fix it... after boot.
-						-
-						- When something breaks the boot process and require keyboard input, e.g. “insecure boot warning”, we cannot proceed.
+						- Cause: The legacy PS/2 driver is bound via i8042 controller (`isa0060/serio1`), instead of the modern I2C of Acer (`i2c-1025174B`).
+							- Note that the I2C touchpad is bound correctly, however!
+						- Solution:
+							- Failed attempts: patch `grub`, `/etc/modprobe.d/blacklist.conf`
+						- [!] When something breaks the boot process and require keyboard input, e.g. “insecure boot warning”, we cannot proceed.
 			- 20-21th, intended to do the office work, but ended with updating the **effect circle** all the day.
 				- ((6a5d8eb5-6989-42d1-9419-57db76aaa871))
 			- 23-27th, paid office work debt.
