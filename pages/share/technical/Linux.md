@@ -1570,7 +1570,22 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					  ⮕ tailscale status
 					  100.69.32.58   will-ubuntu  lexuandinhct@  linux  -                                                                    
 					  100.65.243.46  cpu000375    lexuandinhct@  linux  active; relay "hkg"; offline, last seen 3m ago, tx 407288 rx 302168  
+					  ⮕ ssh dinhlx@cpu000375 hostname
+					  CPU000375
+					  ```
+					- `ping`
+					  ```sh
+					  ✔ dinhlx@CPU000375 [~] 
+					  ⮕ tailscale ping will-ubuntu        
+					  pong from will-ubuntu (100.69.32.58) via DERP(sin) in 121ms
+					  ⮕ tailscale ping --tsmp will-ubuntu 
+					  pong from will-ubuntu (100.69.32.58, 60201) via TSMP in 173ms
 					  
+					  ✔ will@Will-Ubuntu [~] 
+					  ⮕ tailscale ping CPU000375       
+					  pong from cpu000375 (100.65.243.46) via DERP(hkg) in 301ms
+					  ⮕ tailscale ping --tsmp CPU000375
+					  pong from cpu000375 (100.65.243.46, 33108) via TSMP in 195ms
 					  ```
 		- `systemd-resolved`
 			- `systemd-resolved` manages ((6a6afc1d-907a-4de0-b9ba-2d47434bcb0c)) through symlink to `/run/systemd/resolve/stub-resolv.conf`, and will leave it untouched (unmanaged) if it's not a symlink.
