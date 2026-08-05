@@ -2738,7 +2738,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Reason: I set explicit `ListenAddress` in `/etc/ssh/sshd_config` to avoid conflict with the shadow IPs like `127.0.3.1` (NGINX stream forwarding for `git1`).
 					- ⇒ Solution: Add `ListenAddress 100.65.243.46` for `will-ubuntu`@tailnet.
 				- Returning home, i made time to do the office work: ask Gemini & Claude to cross check their results.
-			- 5th, ...
+			- 5th, wrapped up the 3 weeks setting up the connection between home and office.
 				- Solved the problem yesterday: ((6a731540-ec1a-4c00-9483-67e4c005e346))
 				- Recap these 3 weeks for the ((6a73285b-1c24-4893-b062-6c05ec720066))
 				- Journey to a stable mesh network
@@ -2760,17 +2760,17 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Because the Fortigate firewall only saw encrypted UDP traffic to Cloudflare, `tailscaled` was able to reach `controlplane.tailscale.com` through WARP, complete authentication, and sync its WireGuard keys.
 						- The round-trip connection (`CPU000375` $\leftrightarrow$ `Will-Ubuntu`) was successfully established, but running three virtual networking daemons simultaneously caused interface collisions.
 					- Resolving routing and DNS conflicts
-						- WARP's `0.0.0.0/0` default route hijacked all outbound traffic, rendering local office LAN subnets (`10.11.11.0/24`) and specific company AWS endpoints (`18.178.207.20`) inaccessible.
-						- We resolved the routing conflicts by configuring WARP's split tunneling (`warp-cli add-excluded-route`), explicitly excluding local office subnets, work IPs, and Tailscale's `100.64.0.0/10` range.
-						- A deeper conflict occurred at the DNS layer between Unbound, Cloudflare WARP proxies (`127.0.0.2`/`.3`), and `systemd-resolved` fighting over port 53.
-						- We elegantly resolved this by replacing Unbound's recursive queries with NGINX TCP/UDP stream modules for custom AWS forwarding, restoring `systemd-resolved` as the primary OS fallback resolver.
+						- WARP's `0.0.0.0/0` default route hijacked all outbound traffic, rendering local office LAN subnets (`10.11.11.0/24`) and specific company AWS endpoints (`git1` CNAME `mgmt-gitlab-...elb.amazonaws.com`) inaccessible.
+							- We resolved the routing conflicts by configuring WARP's split tunneling (`warp-cli add-excluded-route`), explicitly excluding local office subnets, work IPs, and Tailscale's `100.64.0.0/10` range.
+						- A deeper conflict occurred at the DNS layer between ((69ccc311-5990-41bc-ad29-050e48ebd987)), Cloudflare WARP proxies (`127.0.0.2`/`.3`), and `systemd-resolved` fighting over port 53.
+							- We elegantly resolved this by replacing Unbound's recursive queries for CNAMEs with NGINX TCP/UDP stream modules for custom AWS forwarding, restoring `systemd-resolved` as the primary OS fallback resolver.
 					- Discovering offline resilience and the direct-mode trap
-						- We observed that even when WARP was toggled off on `CPU000375` – causing Tailscale to report an `offline` health warning – data plane traffic still flowed.
-						- Tailscale's daemon successfully relied on cached WireGuard keys and static relay servers (**DERP relays**, such as `derp-sin` and `derp-hkg`) to route SSH and ping packets.
-						- However, a critical failure mode emerged when Tailscale tried to upgrade the connection from DERP relay to “direct” mode via background STUN hole-punching.
-						- `tailscaled` selected `104.28.156.151:41641` as `Will-Ubuntu`'s direct candidate – which was actually `derp-sin`'s Cloudflare egress IP.
-						- Because `104.28.156.151` is a relay IP and drops unsolicited incoming WireGuard handshakes, SSH sessions froze indefinitely during key exchange (`SSH2_MSG_KEX_ECDH_INIT`).
-					- Hardening into permanent relay mode
+						- We observed that even when WARP was toggled off on `CPU000375` – causing Tailscale to report an `offline` health warning – [data plane traffic still flowed](((6a71cbc7-20e1-4406-88fd-176f1a67359d))).
+							- Tailscale's daemon successfully relied on cached WireGuard keys and static relay servers (**DERP relays**, such as `derp-sin` and `derp-hkg`) to route SSH and ping packets.
+						- However, a critical failure mode emerged when Tailscale tried to upgrade the connection from DERP relay to **“direct” mode** via background STUN hole-punching.
+							- `tailscaled` selected `104.28.156.151:41641` as `Will-Ubuntu`'s direct candidate – which was actually `derp-sin`'s Cloudflare egress IP.
+							- Because `104.28.156.151` is a relay IP and drops unsolicited incoming WireGuard handshakes, SSH sessions froze indefinitely during key exchange (`SSH2_MSG_KEX_ECDH_INIT`).
+					- Hardening into [permanent relay mode](((6a730b1a-2b5c-4e58-9427-69000982eb57)))
 						- To eliminate the direct-mode trap while offline behind the Fortigate firewall, we implemented a dual-layer defense to permanently lock the mesh into DERP relay mode.
 						- On the client side, we set `TS_DEBUG_DIAL_DIRECT=false` in `/etc/default/tailscaled` to prevent outbound direct dialing to external STUN candidates.
 						- On the kernel side, we blocked inbound UDP traffic on the listening port (`ufw deny 41641/udp`) on `Will-Ubuntu` to force immediate fallback if probed.

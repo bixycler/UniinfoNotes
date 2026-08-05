@@ -1473,8 +1473,9 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 		- `dnsmasq`
 		  id:: 67864319-c2d5-4ba3-98a2-958f1e07cf53
 		  a lightweight DNS, TFTP, PXE, router advertisement and DHCP server.
-		- `unbound`
+		- Unbound
 		  id:: 69ccc311-5990-41bc-ad29-050e48ebd987
+		  `unbound`
 		  a recursive domain resolver (DNS recursor).
 			- Services: `unbound.service`, `unbound-resolvconf.service`
 			- `unbound-checkconf` to check for errors in `/etc/unbound/unbound.conf`
@@ -1606,6 +1607,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 							  ```
 							- Here, `104.28.156.151` is `derp-sin` (Singapore DERP), not `will-ubuntu`!
 						- Solution: Disable direct socket dialing for Tailscale, and block Inbound UDP on Port `41641`.
+						  id:: 6a730b1a-2b5c-4e58-9427-69000982eb57
 							- `TS_DEBUG_DIAL_DIRECT=false` in `/etc/default/tailscaled`: Disable direct socket dialing
 							- `sudo ufw deny 41641/udp`
 					- **Reboot / Daemon Restart**: Hard fail (lost WireGuard RAM keys)
