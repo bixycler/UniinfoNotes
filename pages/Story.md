@@ -2778,6 +2778,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- ⇒ Solution: Add `ListenAddress 100.65.243.46` for `will-ubuntu`@tailnet.
 				- Returning home, i made time to do the office work: ask Gemini & Claude to cross check their results.
 			- 5th, wrapped up the 3 weeks setting up the connection between home and office.
+			  id:: 6a7531bf-f6ee-4888-b98a-cbec3cbe6aa2
 			  collapsed:: true
 				- Solved the problem yesterday: ((6a731540-ec1a-4c00-9483-67e4c005e346))
 				- Recap these 3 weeks for the ((6a73285b-1c24-4893-b062-6c05ec720066))
