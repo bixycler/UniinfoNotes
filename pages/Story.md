@@ -2819,44 +2819,24 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- This combination yielded a rock-solid, offline-resilient mesh that maintains stable SSH and TCP connections without freezing or degrading over time.
 			- 6-7th, did office work to catch up with the plan.
 			- 8th, ...
-				- The evolution from “lot” → “lottery” → “a lot of” → “”
+				- The evolution from casting “lots” → “lottery” → auction “lots” → “a lot of”
 				  collapsed:: true
-					- 🏛️ Phase 1: The Sacred Objects (Ancient History)
+					- 🏛️ Phase 1: **The Sacred Objects** (Ancient History)
 					  It all started with small, physical items like pebbles, twigs, or sticks.
 						- People used these tools to make unbiased decisions or divine the will of the gods.
-						- The physical object pulled out of the container was called the "lot" (from Germanic roots).
+						- The physical object pulled out of the container was called the **“lot”** (from Germanic roots).
 						- Whatever land or fate that object assigned to you became your allotted share.
-					- 🎰 Phase 2: The Glamorous "Pile of Prizes" (1500s)
-					  Governments and organizers realized they could monetize this concept by creating the lottery.
+					- 🎰 Phase 2: **The Glamorous “Pile of Prizes”** (1500s)
+					  Governments and organizers realized they could monetize this concept by creating the **lottery**.
 						- To attract ticket buyers, they piled up extravagant, high-value jackpot packages in town squares (silver, tapestries, gold).
-						- These grand prize packages were called "lots."
-						- At this point, the word "lot" carried an immense psychological aura of extreme wealth, luxury, and incredible luck.
-					- 🔨 Phase 3: The Merchant Exploitation (1700s)
-					  Wholesale merchants and auctioneers pulled off a brilliant marketing heist by borrowing this prestigious word.
-						- Instead of selling boring, individual bulk items, they grouped cargo into defined piles and called them auction "lots."
-						- The Psychology: They weaponized the lottery mindset. Calling a pile of goods a "lot" made it feel like a premium prize package, shifting the consumer's brain from "buying a commodity" to "playing a high-stakes game."
-						- The Competition: Because it was a game, the buyers weren't just purchasing; they had to win the auction to claim the lot.
-					- 🗣️ Phase 4: The Casual Oversaturation (1800s–Present)
-					  The marketing trick worked too well, leading to the casual slang we use today.
-						- Because those auction "lots" were always massive physical piles of items, people began associating the word "lot" purely with sheer volume.
-						- Over decades, the connection to auctions, lotteries, and wooden sticks faded away.
-						- The phrase naturally eroded into everyday slang: "a lot of money" or "lots of food" simply means a big pile of anything.
-					- 🏛️ Phase 1: The Sacred Objects (Ancient History)
-					  It all started with small, physical items like pebbles, twigs, or sticks.
-						- People used these tools to make unbiased decisions or divine the will of the gods.
-						- The physical object pulled out of the container was called the “lot” (from Germanic roots).
-						- Whatever land or fate that object assigned to you became your allotted share.
-					- 🎰 Phase 2: The Glamorous “Pile of Prizes” (1500s)
-					  Governments and organizers realized they could monetize this concept by creating the lottery.
-						- To attract ticket buyers, they piled up extravagant, high-value jackpot packages in town squares (silver, tapestries, gold).
-						- These grand prize packages were called “lots.”
+						- These grand prize packages were called “lots”.
 						- At this point, the word “lot” carried an immense psychological aura of extreme wealth, luxury, and incredible luck.
-					- 🔨 Phase 3: The Merchant Exploitation (1700s)
+					- 🔨 Phase 3: **The Merchant Exploitation** (1700s)
 					  Wholesale merchants and auctioneers pulled off a brilliant marketing heist by borrowing this prestigious word.
-						- Instead of selling boring, individual bulk items, they grouped cargo into defined piles and called them auction “lots.”
-						- The Psychology: They weaponized the lottery mindset. Calling a pile of goods a “lot” made it feel like a premium prize package, shifting the consumer's brain from “buying a commodity” to “playing a high-stakes game.”
+						- Instead of selling boring, individual bulk items, they grouped cargo into defined piles and called them **auction “lots”**.
+						- The Psychology: They weaponized the lottery mindset. Calling a pile of goods a “lot” made it feel like a premium prize package, shifting the consumer's brain from “buying a commodity” to “playing a high-stakes game”.
 						- The Competition: Because it was a game, the buyers weren't just purchasing; they had to win the auction to claim the lot.
-					- 🗣️ Phase 4: The Casual Oversaturation (1800s–Present)
+					- 🗣️ Phase 4: **The Casual Oversaturation** (1800s–Present)
 					  The marketing trick worked too well, leading to the casual slang we use today.
 						- Because those auction “lots” were always massive physical piles of items, people began associating the word “lot” purely with sheer volume.
 						- Over decades, the connection to auctions, lotteries, and wooden sticks faded away.
