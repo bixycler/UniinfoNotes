@@ -2817,6 +2817,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- On the client side, we set `TS_DEBUG_DIAL_DIRECT=false` in `/etc/default/tailscaled` to prevent outbound direct dialing to external STUN candidates.
 						- On the kernel side, we blocked inbound UDP traffic on the listening port (`ufw deny 41641/udp`) on `Will-Ubuntu` to force immediate fallback if probed.
 						- This combination yielded a rock-solid, offline-resilient mesh that maintains stable SSH and TCP connections without freezing or degrading over time.
+			- 6-7th, did office work to
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a708225-3b28-49ca-b93d-c9982588375c))
