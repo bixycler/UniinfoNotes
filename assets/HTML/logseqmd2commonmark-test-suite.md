@@ -181,11 +181,11 @@ Verify the output `.cm.md` file visually or via a Markdown AST parser to ensure 
     - 9.2 Target B that references A back: ((00000000-0009-0001-0000-000000000000))
       id:: 00000000-0009-0002-0000-000000000000
     ```
-*   **Expected Output**: The negative lookbehind `(?<!\]\() ` in `PAT_REF` excludes the `((uuid))` inside the titled link. A's dependencies are empty (no edge to B), so no cycle is detected. Both titles resolve as normal links:
+*   **Expected Output**: The negative lookbehind `(?<!\]\() ` in `PAT_REF` excludes the `((uuid))` inside the titled link from graph dependency building. Title expansion resolves titled links inside titles as `<span class="block-ref" data-target="#uuid" title="#uuid">text</span>`. When transcluded into an outer link, `formatDisplayTitle` injects an inline `onclick` handler to allow clicking the inner reference without breaking CommonMark link syntax:
     ```markdown
     - 9.1 Target A that titled-links to B: [see B](#00000000-0009-0002-0000-000000000000)
       <a class="logseq-meta" id="00000000-0009-0001-0000-000000000000" ></a>
-    - 9.2 Target B that references A back: [Target A that titled-links to B](#00000000-0009-0001-0000-000000000000)
+    - 9.2 Target B that references A back: [9.1 Target A that titled-links to B: <span class="block-ref" data-target="#00000000-0009-0002-0000-000000000000" title="#00000000-0009-0002-0000-000000000000" onclick="event.preventDefault(); event.stopPropagation(); window.location.href=this.dataset.target;">see B</span>](#00000000-0009-0001-0000-000000000000)
       <a class="logseq-meta" id="00000000-0009-0002-0000-000000000000" ></a>
     ```
 

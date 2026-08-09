@@ -299,41 +299,42 @@ function convertFile(inputPath, outputPath, uuidMap, sourceLineMap, cleanLines, 
         inHtml = false;
       }
 
-      // Link processing (standard markdown style [text](((uuid))) or [text]([[uuid]]))
-      ln = ln.replace(PAT_LINK_REF, (match, text, uuid, title) => {
-        let displayTitle = text || title || uuidMap[uuid] || uuid;
-        const headerMatch = displayTitle.match(/^(#+)\s+(.*)$/);
+      // Helper to format display titles and dynamically inject click handlers for inner block-ref spans
+      const formatDisplayTitle = (rawTitle, uuid) => {
+        let title = rawTitle || uuid;
+        title = title.replace(
+          /<span class="block-ref" data-target="#([0-9a-fA-F-]{36})" title="#\1">/g,
+          (match, innerUuid) => {
+            const fullTarget = buildLinkTarget(innerUuid, inputPath, outputPath, sourceLineMap);
+            return `<span class="block-ref" data-target="${fullTarget}" title="${fullTarget}" onclick="event.preventDefault(); event.stopPropagation(); window.location.href=this.dataset.target;">`;
+          }
+        );
+        const headerMatch = title.match(/^(#+)\s+(.*)$/);
         if (headerMatch) {
           const level = headerMatch[1].length;
           const content = headerMatch[2];
-          displayTitle = `<span class=\"link-h${level}\">${content}</span>`;
+          title = `<span class=\"link-h${level}\">${content}</span>`;
         }
+        return title;
+      };
+
+      // Link processing (standard markdown style [text](((uuid))) or [text]([[uuid]]))
+      ln = ln.replace(PAT_LINK_REF, (match, text, uuid, title) => {
+        let displayTitle = formatDisplayTitle(text || title || uuidMap[uuid], uuid);
         let target = buildLinkTarget(uuid, inputPath, outputPath, sourceLineMap);
         return `[${displayTitle}](${target})`;
       });
 
       // Legacy link syntax support: ((UUID))
       ln = ln.replace(PAT_UUID_REF, (match, uuid) => {
-        let title = uuidMap[uuid] || uuid;
-        const headerMatch = title.match(/^(#+)\s+(.*)$/);
-        if (headerMatch) {
-          const level = headerMatch[1].length;
-          const content = headerMatch[2];
-          title = `<span class=\"link-h${level}\">${content}</span>`;
-        }
+        let title = formatDisplayTitle(uuidMap[uuid], uuid);
         let target = buildLinkTarget(uuid, inputPath, outputPath, sourceLineMap);
         return `[${title}](${target})`;
       });
 
       // New link syntax support: [[UUID]]
       ln = ln.replace(PAT_BRACKET_UUID_REF, (match, uuid) => {
-        let title = uuidMap[uuid] || uuid;
-        const headerMatch = title.match(/^(#+)\s+(.*)$/);
-        if (headerMatch) {
-          const level = headerMatch[1].length;
-          const content = headerMatch[2];
-          title = `<span class=\"link-h${level}\">${content}</span>`;
-        }
+        let title = formatDisplayTitle(uuidMap[uuid], uuid);
         let target = buildLinkTarget(uuid, inputPath, outputPath, sourceLineMap);
         return `[${title}](${target})`;
       });

@@ -18294,18 +18294,18 @@
     "outputLine": 47
   },
   "00000000-0009-0001-0000-000000000000": {
-    "title": "9.1 Target A that titled-links to B: [see B](((00000000-0009-0002-0000-000000000000)))",
+    "title": "9.1 Target A that titled-links to B: <span class=\"block-ref\" data-target=\"#00000000-0009-0002-0000-000000000000\" title=\"#00000000-0009-0002-0000-000000000000\">see B</span>",
     "sourceFile": "/home/will/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
     "sourceLine": 58,
-    "slug": "9-1-target-a-that-titled-links-to-b-see-b-00000000-0009-0002-0000-000000000000",
+    "slug": "9-1-target-a-that-titled-links-to-b-span-class-block-ref-data-target-00000000-0009-0002-0000-000000000000-title-00000000-0009-0002-0000-000000000000-see-b-span",
     "outputFile": "/home/will/tmp/logseq/logseqmd2commonmark-test.cm.md",
     "outputLine": 49
   },
   "00000000-0009-0002-0000-000000000000": {
-    "title": "9.2 Target B that references A back: 9.1 Target A that titled-links to B: [see B](((00000000-0009-0002-0000-000000000000)))",
+    "title": "9.2 Target B that references A back: 9.1 Target A that titled-links to B: <span class=\"block-ref\" data-target=\"#00000000-0009-0002-0000-000000000000\" title=\"#00000000-0009-0002-0000-000000000000\">see B</span>",
     "sourceFile": "/home/will/source/UniinfoNotes/assets/HTML/logseqmd2commonmark-test.md",
     "sourceLine": 60,
-    "slug": "9-2-target-b-that-references-a-back-9-1-target-a-that-titled-links-to-b-see-b-00000000-0009-0002-0000-000000000000",
+    "slug": "9-2-target-b-that-references-a-back-9-1-target-a-that-titled-links-to-b-span-class-block-ref-data-target-00000000-0009-0002-0000-000000000000-title-00000000-0009-0002-0000-000000000000-see-b-span",
     "outputFile": "/home/will/tmp/logseq/logseqmd2commonmark-test.cm.md",
     "outputLine": 50
   },

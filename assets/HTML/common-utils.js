@@ -513,6 +513,28 @@ function resolveTitleReferences(index, updateSlug = false) {
       }
     }
   }
+
+  // Resolve titled link references [text](((uuid))) in all index entries as clean span.block-ref
+  for (const id in index) {
+    let title = index[id];
+    let isObj = typeof title === 'object';
+    let titleStr = isObj ? title.title : title;
+    if (!titleStr) continue;
+
+    const resolved = titleStr.replace(PAT_LINK_REF, (match, text, uuid, t) => {
+      const display = text || t || uuid;
+      return `<span class="block-ref" data-target="#${uuid}" title="#${uuid}">${display}</span>`;
+    });
+
+    if (resolved !== titleStr) {
+      if (isObj) {
+        index[id].title = resolved;
+        if (updateSlug) index[id].slug = slugify(resolved);
+      } else {
+        index[id] = resolved;
+      }
+    }
+  }
 }
 
 // Shared helpers for build-index.js and logseqmd2commonmark.js
