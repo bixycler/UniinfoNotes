@@ -129,11 +129,10 @@ Verify the output `.cm.md` file visually or via a Markdown AST parser to ensure 
 *   **Expected Output**:
     ```markdown
     - Parent item
-      - &nbsp;
+      - &nbsp; <a class="logseq-meta" id="00000000-0006-0001-0000-000000000000" ></a>
         ```shell
         echo "testing empty block code block nesting"
         ```
-        <a class="logseq-meta" id="00000000-0006-0001-0000-000000000000" ></a>
       - &nbsp; <a class="logseq-meta" id="00000000-0006-0002-0000-000000000000" ></a>
         This is standard continuation text inside an empty title block.
     ```
@@ -199,11 +198,10 @@ Verify the output `.cm.md` file visually or via a Markdown AST parser to ensure 
         id:: 00000000-0010-0001-0000-000000000000
       - id:: 00000000-0010-0002-0000-000000000000
     ```
-*   **Expected Output**: The indent-aware fallback (`lastContentIndent < curIndent`) prevents sibling contamination. `7777...7772` inherits the filename (page basename), not "10.1 First sibling that references §10.2: ((7777...7772))". The converted output renders the reference from 10.1 as a link to 10.2 using the filename:
+*   **Expected Output**: The indent-aware fallback (`lastContentIndent < curIndent`) prevents sibling contamination. `00000000-0010-0002-...` inherits the filename (page basename), not "10.1 First sibling that references §10.2: ((00000000-0010-0002-...))". The converted output renders the reference from 10.1 as a link to 10.2 using the filename:
     ```markdown
     - 10. Sibling id:: Fallback Bug (lastContentLine sibling contamination):
-      - 10.1 First sibling that references §10.2: [logseqmd2commonmark-test](#00000000-0010-0002-0000-000000000000)
-        <a class="logseq-meta" id="00000000-0010-0001-0000-000000000000" ></a>
+      - 10.1 First sibling that references §10.2: [logseqmd2commonmark-test](#00000000-0010-0002-0000-000000000000) <a class="logseq-meta" id="00000000-0010-0001-0000-000000000000" ></a>
       - &nbsp; <a class="logseq-meta" id="00000000-0010-0002-0000-000000000000" ></a>
     ```
 
@@ -248,10 +246,10 @@ Verify the output `.cm.md` file visually or via a Markdown AST parser to ensure 
       - LOGBOOK then user props: ((00000000-0011-0006-0000-000000000000))
     ```
 *   **Expected Output**:
-    - `8888...8881` title: the code block content (lines inside the fences)
-    - `8888...8882` title: the blockquote content including lazy continuations
-    - `8888...8883` title: the full Org block content (`#+BEGIN_CAUTION` … `#+END_CAUTION`)
-    - `8888...8884` title: user properties only — `tags:: User Property\nscoping:: [[Some Page]]` (without `collapsed:: true`)
-    - `9999...9991` title: the Org block content after `collapsed::` (scan continued past empty-filtered props block) — `#+BEGIN_WARNING\nSystem-props-only then Org block\n#+END_WARNING`
-    - `9999...9992` title: user properties only — `prop1:: value 1\nprop2:: value 2` (LOGBOOK and `collapsed::` excluded)
+    - `00000000-0011-0001-...` title: the code block content (lines inside the fences)
+    - `00000000-0011-0002-...` title: the blockquote content including lazy continuations
+    - `00000000-0011-0003-...` title: the full Org block content (`#+BEGIN_CAUTION` … `#+END_CAUTION`)
+    - `00000000-0011-0004-...` title: user properties only — `tags:: User Property\nscoping:: [[Some Page]]` (without `collapsed:: true`)
+    - `00000000-0011-0005-...` title: the Org block content after `collapsed::` (scan continued past empty-filtered props block) — `#+BEGIN_WARNING\nSystem-props-only then Org block\n#+END_WARNING`
+    - `00000000-0011-0006-...` title: user properties only — `prop1:: value 1\nprop2:: value 2` (LOGBOOK and `collapsed::` excluded)
     - Reference lines in `.cm.md` output render as titled links using transcluded content, with no raw placeholder tokens leaking into output
