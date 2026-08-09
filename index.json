@@ -18235,7 +18235,7 @@
     "sourceLine": 23,
     "slug": "4-5-blockquote-with-blank-line-and-continuation-text",
     "outputFile": "/home/will/tmp/logseq/logseqmd2commonmark-test.cm.md",
-    "outputLine": 23
+    "outputLine": 22
   },
   "00000000-0005-0001-0000-000000000000": {
     "title": "5.1 Code Block:",
@@ -18243,7 +18243,7 @@
     "sourceLine": 30,
     "slug": "5-1-code-block",
     "outputFile": "/home/will/tmp/logseq/logseqmd2commonmark-test.cm.md",
-    "outputLine": 30
+    "outputLine": 27
   },
   "00000000-0005-0002-0000-000000000000": {
     "title": "5.2 Math Block:",
@@ -18251,7 +18251,7 @@
     "sourceLine": 36,
     "slug": "5-2-math-block",
     "outputFile": "/home/will/tmp/logseq/logseqmd2commonmark-test.cm.md",
-    "outputLine": 32
+    "outputLine": 31
   },
   "00000000-0006-0001-0000-000000000000": {
     "title": "\t  ```shell\n\t  echo \"testing empty block code block nesting\"\n\t  ```",
@@ -18259,7 +18259,7 @@
     "sourceLine": 41,
     "slug": "shell-echo-testing-empty-block-code-block-nesting",
     "outputFile": "/home/will/tmp/logseq/logseqmd2commonmark-test.cm.md",
-    "outputLine": 40
+    "outputLine": 36
   },
   "00000000-0006-0002-0000-000000000000": {
     "title": "This is standard continuation text inside an empty title block.",
@@ -18267,7 +18267,7 @@
     "sourceLine": 45,
     "slug": "this-is-standard-continuation-text-inside-an-empty-title-block",
     "outputFile": "/home/will/tmp/logseq/logseqmd2commonmark-test.cm.md",
-    "outputLine": 42
+    "outputLine": 40
   },
   "00000000-0007-0001-0000-000000000000": {
     "title": "7.1 Target block for local reference",
@@ -18275,7 +18275,7 @@
     "sourceLine": 49,
     "slug": "7-1-target-block-for-local-reference",
     "outputFile": "/home/will/tmp/logseq/logseqmd2commonmark-test.cm.md",
-    "outputLine": 45
+    "outputLine": 43
   },
   "00000000-0008-0001-0000-000000000000": {
     "title": "8.1 Target A that references B: 00000000-0008-0002-0000-000000000000",
@@ -18283,7 +18283,7 @@
     "sourceLine": 53,
     "slug": "8-1-target-a-that-references-b-00000000-0008-0002-0000-000000000000",
     "outputFile": "/home/will/tmp/logseq/logseqmd2commonmark-test.cm.md",
-    "outputLine": 48
+    "outputLine": 46
   },
   "00000000-0008-0002-0000-000000000000": {
     "title": "8.2 Target B that references A back: 00000000-0008-0001-0000-000000000000",
@@ -18291,7 +18291,7 @@
     "sourceLine": 55,
     "slug": "8-2-target-b-that-references-a-back-00000000-0008-0001-0000-000000000000",
     "outputFile": "/home/will/tmp/logseq/logseqmd2commonmark-test.cm.md",
-    "outputLine": 49
+    "outputLine": 47
   },
   "00000000-0009-0001-0000-000000000000": {
     "title": "9.1 Target A that titled-links to B: [see B](((00000000-0009-0002-0000-000000000000)))",
@@ -18299,7 +18299,7 @@
     "sourceLine": 58,
     "slug": "9-1-target-a-that-titled-links-to-b-see-b-00000000-0009-0002-0000-000000000000",
     "outputFile": "/home/will/tmp/logseq/logseqmd2commonmark-test.cm.md",
-    "outputLine": 51
+    "outputLine": 49
   },
   "00000000-0009-0002-0000-000000000000": {
     "title": "9.2 Target B that references A back: 9.1 Target A that titled-links to B: [see B](((00000000-0009-0002-0000-000000000000)))",
@@ -18307,7 +18307,7 @@
     "sourceLine": 60,
     "slug": "9-2-target-b-that-references-a-back-9-1-target-a-that-titled-links-to-b-see-b-00000000-0009-0002-0000-000000000000",
     "outputFile": "/home/will/tmp/logseq/logseqmd2commonmark-test.cm.md",
-    "outputLine": 52
+    "outputLine": 50
   },
   "00000000-0010-0001-0000-000000000000": {
     "title": "10.1 First sibling that references §10.2: logseqmd2commonmark-test",
@@ -18315,7 +18315,7 @@
     "sourceLine": 63,
     "slug": "10-1-first-sibling-that-references-10-2-logseqmd2commonmark-test",
     "outputFile": "/home/will/tmp/logseq/logseqmd2commonmark-test.cm.md",
-    "outputLine": 54
+    "outputLine": 52
   },
   "00000000-0010-0002-0000-000000000000": {
     "title": "logseqmd2commonmark-test",
@@ -18323,7 +18323,7 @@
     "sourceLine": 64,
     "slug": "logseqmd2commonmark-test",
     "outputFile": "/home/will/tmp/logseq/logseqmd2commonmark-test.cm.md",
-    "outputLine": 55
+    "outputLine": 53
   },
   "00000000-0011-0001-0000-000000000000": {
     "title": "\t  ```shell\n\t  echo \"code block title transclusion\"\n\t  ```",
@@ -18331,7 +18331,7 @@
     "sourceLine": 66,
     "slug": "shell-echo-code-block-title-transclusion",
     "outputFile": "/home/will/tmp/logseq/logseqmd2commonmark-test.cm.md",
-    "outputLine": 60
+    "outputLine": 55
   },
   "00000000-0011-0002-0000-000000000000": {
     "title": "\t  > blockquote title transclusion\n\t  > with continuation",
@@ -18339,7 +18339,7 @@
     "sourceLine": 70,
     "slug": "blockquote-title-transclusion-with-continuation",
     "outputFile": "/home/will/tmp/logseq/logseqmd2commonmark-test.cm.md",
-    "outputLine": 64
+    "outputLine": 59
   },
   "00000000-0011-0003-0000-000000000000": {
     "title": "\t  #+BEGIN_CAUTION\n\t  [:b \"Content inside Org block\"]\n\t  #+END_CAUTION",
@@ -18347,7 +18347,7 @@
     "sourceLine": 73,
     "slug": "begin_caution-b-content-inside-org-block-end_caution",
     "outputFile": "/home/will/tmp/logseq/logseqmd2commonmark-test.cm.md",
-    "outputLine": 68
+    "outputLine": 62
   },
   "00000000-0011-0004-0000-000000000000": {
     "title": "\t  tags:: User Property\n\t  scoping:: [[Some Page]]",
@@ -18355,7 +18355,7 @@
     "sourceLine": 77,
     "slug": "tags-user-property-scoping-some-page",
     "outputFile": "/home/will/tmp/logseq/logseqmd2commonmark-test.cm.md",
-    "outputLine": 69
+    "outputLine": 66
   },
   "00000000-0011-0005-0000-000000000000": {
     "title": "\t  #+BEGIN_WARNING\n\t  System-props-only then Org block\n\t  #+END_WARNING",
@@ -18363,7 +18363,7 @@
     "sourceLine": 81,
     "slug": "begin_warning-system-props-only-then-org-block-end_warning",
     "outputFile": "/home/will/tmp/logseq/logseqmd2commonmark-test.cm.md",
-    "outputLine": 73
+    "outputLine": 67
   },
   "00000000-0011-0006-0000-000000000000": {
     "title": "\t  prop1:: value 1\n\t  prop2:: value 2",
@@ -18371,6 +18371,6 @@
     "sourceLine": 86,
     "slug": "prop1-value-1-prop2-value-2",
     "outputFile": "/home/will/tmp/logseq/logseqmd2commonmark-test.cm.md",
-    "outputLine": 74
+    "outputLine": 71
   }
 }

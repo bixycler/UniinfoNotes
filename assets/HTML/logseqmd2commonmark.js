@@ -117,59 +117,15 @@ function convertFile(inputPath, outputPath, uuidMap, sourceLineMap, cleanLines, 
     let logbook = '';
     let inLogbook = false;
     let inMath = false;
+    let inHtml = false;
     let meta = '';
 
     let currentBlockIsHeader = false;
     let currentBlockIsEmptyTitle = false;
     let hasAddedContinuationContent = false;
 
-    for (let i = 0; i < cleanLines.length; i++) {
-      let ln = cleanLines[i].line;
-
-      if (ln.startsWith('__CODE_BLOCK_') && blockMap && blockMap[ln]) {
-        for (const codeLine of blockMap[ln].lines) {
-          nmd += codeLine + '\n';
-          outputLine++;
-        }
-        continue;
-      }
-
-      // Expand blockquote and Org block tokens back to original lines
-      if ((ln.startsWith('__BLOCKQUOTE_') || ln.startsWith('__ORG_BLOCK_')) && blockMap && blockMap[ln]) {
-        for (const origLine of blockMap[ln].lines) {
-          nmd += origLine + '\n';
-          outputLine++;
-        }
-        continue;
-      }
-
-      // Expand props block: feed through existing property/logbook detection
-      if (ln.startsWith('__PROPS_BLOCK_') && blockMap && blockMap[ln]) {
-        for (const origLine of blockMap[ln].lines) {
-          if (origLine.match(PAT_LB_START)) { inLogbook = true; continue; }
-          if (origLine.match(PAT_LB_END)) { inLogbook = false; continue; }
-          if (inLogbook) { logbook += escapeXML(origLine.trim()) + '\u0026#10;'; continue; }
-          const pm = origLine.match(PAT_PROP);
-          if (pm) { props[pm[1]] = escapeXML(pm[2], true); }
-        }
-        continue;
-      }
-
-      // Handle Metadata Block
-      if (ln.match(PAT_LB_START)) { inLogbook = true; continue; }
-      if (ln.match(PAT_LB_END)) { inLogbook = false; continue; }
-      if (inLogbook) { logbook += escapeXML(ln.trim()) + '\u0026#10;'; continue; }
-
-      const propMatch = ln.match(PAT_PROP);
-      if (propMatch) { props[propMatch[1]] = escapeXML(propMatch[2], true); continue; }
-
-      // Math block tracking
-      const trimmed = ln.trim();
-      if (trimmed === '$$') {
-        inMath = !inMath;
-      }
-
-      // End of metadata block (encountered non-metadata line)
+    // Helper to flush accumulated metadata properties (props/logbook) as logseq-meta HTML anchor
+    const flushMetadata = () => {
       if ((Object.keys(props).length > 0 || logbook) && meta === '') {
         let anchor = '<a class="logseq-meta" ';
         if (props.id) {
@@ -205,6 +161,67 @@ function convertFile(inputPath, outputPath, uuidMap, sourceLineMap, cleanLines, 
         props = {};
         logbook = '';
       }
+    };
+
+    for (let i = 0; i < cleanLines.length; i++) {
+      let ln = cleanLines[i].line;
+
+      if (ln.startsWith('__CODE_BLOCK_') && blockMap && blockMap[ln]) {
+        // Flush pending metadata before expanding code block lines
+        flushMetadata();
+        for (const codeLine of blockMap[ln].lines) {
+          nmd += codeLine + '\n';
+          outputLine++;
+        }
+        continue;
+      }
+
+      // Expand blockquote and Org block tokens back to original lines
+      if ((ln.startsWith('__BLOCKQUOTE_') || ln.startsWith('__ORG_BLOCK_')) && blockMap && blockMap[ln]) {
+        // Flush pending metadata before expanding blockquote/Org block lines
+        flushMetadata();
+        for (const origLine of blockMap[ln].lines) {
+          nmd += origLine + '\n';
+          outputLine++;
+        }
+        continue;
+      }
+
+      // Expand props block: feed through existing property/logbook detection
+      if (ln.startsWith('__PROPS_BLOCK_') && blockMap && blockMap[ln]) {
+        for (const origLine of blockMap[ln].lines) {
+          if (origLine.match(PAT_LB_START)) { inLogbook = true; continue; }
+          if (origLine.match(PAT_LB_END)) { inLogbook = false; continue; }
+          if (inLogbook) { logbook += escapeXML(origLine.trim()) + '\u0026#10;'; continue; }
+          const pm = origLine.match(PAT_PROP);
+          if (pm) { props[pm[1]] = escapeXML(pm[2], true); }
+        }
+        continue;
+      }
+
+      // Handle Metadata Block
+      if (ln.match(PAT_LB_START)) { inLogbook = true; continue; }
+      if (ln.match(PAT_LB_END)) { inLogbook = false; continue; }
+      if (inLogbook) { logbook += escapeXML(ln.trim()) + '\u0026#10;'; continue; }
+
+      const propMatch = ln.match(PAT_PROP);
+      if (propMatch) { props[propMatch[1]] = escapeXML(propMatch[2], true); continue; }
+
+      // Math & HTML block tracking
+      const trimmed = ln.trim();
+      if (trimmed === '$$') {
+        inMath = !inMath;
+      }
+
+      // Track multi-line HTML block elements to exclude inner lines from break insertion
+      if (trimmed.startsWith('<') && !trimmed.startsWith('<!--') && !trimmed.startsWith('<a class="logseq-meta"')) {
+        if (!trimmed.includes('</') && !trimmed.endsWith('/>')) {
+          inHtml = true;
+        }
+      }
+
+      // End of metadata block (encountered non-metadata line)
+      flushMetadata();
 
       // Bullet+Property (Empty Title Block) special case:
       // Match any property on the bullet line (e.g. - id:: uuid, - collapsed:: true).
@@ -258,7 +275,7 @@ function convertFile(inputPath, outputPath, uuidMap, sourceLineMap, cleanLines, 
 
           // Exclude block-level elements (tables, blockquotes, HTML tags, math blocks) from break insertion
           const trimmedLn = ln.trim();
-          if (trimmedLn.startsWith('|') || trimmedLn.startsWith('>') || trimmedLn.startsWith('<') || trimmedLn.startsWith('$$') || inMath) { needBr = false; }
+          if (trimmedLn.startsWith('|') || trimmedLn.startsWith('>') || trimmedLn.startsWith('<') || trimmedLn.startsWith('$$') || inMath || inHtml) { needBr = false; }
 
           // Suppress break insertion if the preceding line in nmd was blank/whitespace (starts a new paragraph)
           let lastLineMatch = nmd.match(/(?:^|\n)([ \t]*)(.*)\n$/);
@@ -275,6 +292,11 @@ function convertFile(inputPath, outputPath, uuidMap, sourceLineMap, cleanLines, 
           }
           hasAddedContinuationContent = true;
         }
+      }
+
+      // Reset inHtml state after processing closing tag
+      if (inHtml && trimmed.includes('</')) {
+        inHtml = false;
       }
 
       // Link processing (standard markdown style [text](((uuid))) or [text]([[uuid]]))
