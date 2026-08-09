@@ -2818,7 +2818,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- On the kernel side, we blocked inbound UDP traffic on the listening port (`ufw deny 41641/udp`) on `Will-Ubuntu` to force immediate fallback if probed.
 						- This combination yielded a rock-solid, offline-resilient mesh that maintains stable SSH and TCP connections without freezing or degrading over time.
 			- 6-7th, did office work to catch up with the plan.
-			- 8-9th, weekend: paid office work debt and update [logseqmd2commonmark.js](../assets/HTML/logseqmd2commonmark.js)
+			- 8-9th, weekend: paid office work debt and update [logseqmd2commonmark.js](../assets/HTML/logseqmd2commonmark.js).
 				- The evolution from casting “lots” → “lottery” → auction “lots” → “a lot of”
 				  collapsed:: true
 					- 🏛️ Phase 1: **The Sacred Objects** (Ancient History)
@@ -2841,6 +2841,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Because those auction “lots” were always massive physical piles of items, people began associating the word “lot” purely with sheer volume.
 						- Over decades, the connection to auctions, lotteries, and wooden sticks faded away.
 						- The phrase naturally eroded into everyday slang: “a lot of money” or “lots of food” simply means a big pile of anything.
+				- ((6a788d55-9e9d-4e2c-9bc4-bcc7048e0b74))
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a708225-3b28-49ca-b93d-c9982588375c))

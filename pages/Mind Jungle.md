@@ -3388,6 +3388,64 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  id:: 66626356-0ad9-4219-9b33-8ab7c6cd0508
 				  When the first line is too long, a brief title with ellipsis `...` should be automatically generated.
 				- [Discussion to standardize page and block terms](https://discuss.logseq.com/t/discussion-to-standardize-page-and-block-terms/343)
+				- The whole structured block is considered a title. Ref: ((6a787ee7-12e3-49c4-9c73-1208d444bb24))
+			- Nested links
+			  collapsed:: true
+				- Nested links are allowed in Logseq, ((6a788f64-a272-4301-acfc-fffa02151f9c)), unlike CommonMark and HTML.
+				  id:: 6a788f32-c62b-46f1-8749-205be8fd2b44
+				- like this [circular link](((6a788f32-c62b-46f1-8749-205be8fd2b44)))
+				  id:: 6a788f64-a272-4301-acfc-fffa02151f9c
+				- Ref: ((6a788de1-c901-4f4e-8520-24b966737414))
+			- Ref: test cases in ![logseqmd2commonmark-test-suite.md](../assets/HTML/logseqmd2commonmark-test-suite.md)
+			  id:: 6a788d55-9e9d-4e2c-9bc4-bcc7048e0b74
+				- id:: 6a788de1-c901-4f4e-8520-24b966737414
+				  collapsed:: true
+				  9. False Positive Circular Reference via Titled Link
+					- 9.1 Target A that titled-links to B: [see B](((6a789085-dd04-490a-a816-698c3b88c136)))
+					  id:: 6a788e00-0d3e-4605-80e6-f39690e15065
+					- 9.2 Target B that references A back: ((6a788e00-0d3e-4605-80e6-f39690e15065))
+					  id:: 6a789085-dd04-490a-a816-698c3b88c136
+				- id:: 6a787ee7-12e3-49c4-9c73-1208d444bb24
+				  collapsed:: true
+				  11. Structured-Block Transclusion for Bare `- id::` Blocks:
+					- id:: 6a787eeb-31a0-4fc3-b30e-aaad90165d26
+					  ```shell
+					  echo "code block title transclusion"
+					  ```
+					- id:: 6a787f6f-4f91-484c-be4b-8db4bf9889ba
+					  > blockquote title transclusion
+					  > with continuation
+					- id:: 6a787fa3-77ae-4c53-b3ff-11210b236194
+					  #+BEGIN_CAUTION
+					  [:b "Content inside Org block"]
+					  #+END_CAUTION
+					- tags:: User Property
+					  scoping:: [[Some Page]]
+					  id:: 6a787ff7-f347-43b9-aec8-fb82fd971a4e
+					  collapsed:: true
+						- Subitem
+					- id:: 6a78805e-8935-4f1d-a06a-01f9d965b690
+					  collapsed:: true
+					  #+BEGIN_WARNING
+					  System-props-only then Org block
+					  #+END_WARNING
+						- Subitem
+					- id:: 6a7880ff-6b14-47e5-90c8-e4c203d1a656
+					  collapsed:: true
+					  :LOGBOOK:
+					  CLOCK: [2026-08-09 Sun 20:39:28]--[2026-08-09 Sun 20:40:08] =>  00:00:40
+					  :END:
+					  prop1:: value 1
+					  prop2:: value 2
+					  collapsed:: true
+						- Subitem
+					- References to each transcluded block:
+						- `__CODE_BLOCK_` transclusion: ((6a787eeb-31a0-4fc3-b30e-aaad90165d26))
+						- `__BLOCKQUOTE_` transclusion: ((6a787f6f-4f91-484c-be4b-8db4bf9889ba))
+						- `__ORG_BLOCK_` transclusion: ((6a787fa3-77ae-4c53-b3ff-11210b236194))
+						- `__PROPS_BLOCK_` transclusion (user props only): ((6a787ff7-f347-43b9-aec8-fb82fd971a4e))
+						- System-props-only then Org block: ((6a78805e-8935-4f1d-a06a-01f9d965b690))
+						- LOGBOOK then user props: ((6a7880ff-6b14-47e5-90c8-e4c203d1a656))
 			- Block handling
 			  id:: 6716110e-a71e-4a39-8770-18286c41d0fa
 				- **Safety** procedure for block **moving**:
