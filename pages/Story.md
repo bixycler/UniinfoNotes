@@ -2818,7 +2818,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- On the kernel side, we blocked inbound UDP traffic on the listening port (`ufw deny 41641/udp`) on `Will-Ubuntu` to force immediate fallback if probed.
 						- This combination yielded a rock-solid, offline-resilient mesh that maintains stable SSH and TCP connections without freezing or degrading over time.
 			- 6-7th, did office work to catch up with the plan.
-			- 8th, ...
+			- 8-9th, weekend: paid office work debt and update [logseqmd2commonmark.js](../assets/HTML/logseqmd2commonmark.js)
 				- The evolution from casting “lots” → “lottery” → auction “lots” → “a lot of”
 				  collapsed:: true
 					- 🏛️ Phase 1: **The Sacred Objects** (Ancient History)
