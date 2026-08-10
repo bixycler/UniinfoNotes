@@ -1,3 +1,5 @@
+- TODO Check Claude Code extension for "*" usage in status bar
+- TODO Check Git hooks for hard links maintentance
 -
 - ---
 - 🤔😊😁 😉 😮 😛 😜 🤣 🙁 😱 👺 👁️🧿🪬  – × → ⇒ ⇋ ⇄ ∞∝α ‘’ ≥
