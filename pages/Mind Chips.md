@@ -1,4 +1,5 @@
-- TODO Check Claude Code extension for "*" usage in status bar
+- DONE Check Claude Code extension for "*" usage in status bar
+	- It's Claude Context Bar extension!
 - TODO Check Git hooks for hard links maintentance
 -
 - ---
