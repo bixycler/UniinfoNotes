@@ -1277,7 +1277,19 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- ```sh
 						  ln -fv "${HOME}/source/UniinfoNotes/pages/share/Theme Demo.md" "${HOME}/opt/personal/logseq-notes/pages/share/Theme Demo.md"
 						  ```
-			- Workflow
+			- Git hooks to update links automatically `post-{checkout,index-change}` ← [maintain-links.sh](../assets/Linux/scripts/maintain-links.sh)
+			  id:: 6a79e1f2-34e0-4b8e-9704-3493ba64a7a6
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2026-08-10 Mon 22:18:44]--[2026-08-10 Mon 22:52:40] =>  00:33:56
+			  :END:
+				- ```sh
+				  cd .git/hooks
+				  ln -s ../../assets/Linux/scripts/maintain-links.sh post-checkout
+				  ln -s ../../assets/Linux/scripts/maintain-links.sh post-index-change
+				  ```
+			- Manual workflow
+			  collapsed:: true
 				- Always update hard-linked files from local repos, after any write operation on hard-linked files, e.g. `pull`, `checkout`, `reset`, etc.
 					- Check diff
 					  collapsed:: true
