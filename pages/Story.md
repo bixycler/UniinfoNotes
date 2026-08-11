@@ -2843,6 +2843,50 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Over decades, the connection to auctions, lotteries, and wooden sticks faded away.
 						- The phrase naturally eroded into everyday slang: “a lot of money” or “lots of food” simply means a big pile of anything.
 				- ((6a788d55-9e9d-4e2c-9bc4-bcc7048e0b74))
+			- 10th, a day stressed out by the office pressure.
+			- 11th, slept to afternoon, then had no mood to do anything.
+				- 倉橋ヨエコの「楯」歌詞
+				  collapsed:: true
+					- 戻れるなら もっと
+					  もっと
+					  賢く生きてただろう
+					- 戻れるなら もっと
+					  もっと
+					  大事に愛しただろう
+					- 今は何にもできない何にもできない
+					  何にもできない この背を恥じる
+					- 空に向かって
+					  手を広げる事しかできないの
+					  ごめんね ごめんね
+					  いつか楯になる
+					- あなたの楯になる
+					  ああ そこで待っててくれますか
+					- 戻れるなら てくてく
+					  てくてく
+					  風吹く線路歩こう
+					- 戻れるなら てくてく
+					  てくてく
+					  私が荷物を持とう
+					- だけど本当は知ってる本当は知ってる
+					  本当は知ってる この灯はもう消える
+					- 夜に向かって
+					  手を重ねる事しかできないの
+					  ごめんね ごめんね
+					- いつか声になる あなたの声になる
+					  ああ ここで待っててくれますか
+					- 私など裂けてもいいの
+					  ああ お願いします
+					- 夜に向かって
+					  手を重ねる事しかできないの
+					  ごめんね ごめんね
+					  私 声になる あなたの声になる
+					  私など裂けてもいいの
+					  裂けてもいいの裂けてもいい
+					- 空に向かって
+					  手を広げる事しかできないの
+					  ごめんね ごめんね
+					  私 楯になる あなたの楯になる
+					- ああ そこで待っててくれますか
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a708225-3b28-49ca-b93d-c9982588375c))
