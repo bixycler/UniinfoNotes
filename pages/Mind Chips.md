@@ -1,6 +1,4 @@
-- DONE Check Claude Code extension for "*" usage in status bar
-	- It's Claude Context Bar extension!
-- ((6a79e1f2-34e0-4b8e-9704-3493ba64a7a6))
+-
 - ---
 - 🤔😊😁 😉 😮 😛 😜 🤣 🙁 😱 👺 👁️🧿🪬  – × → ← ↓ ⇒ ⇋ ⇄ ∞∝α ‘’ ≥
 - Ω-thread Unïnfo
