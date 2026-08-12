@@ -1531,6 +1531,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- ⇒ So an automatic WARP reconnection & DNS resolution should be put to ((66b1cfa4-1438-4699-9f02-b84075f2a167)).
 					- `warp-fix.sh`: `warp-cli disconnect && sleep 1 && warp-cli connect && sleep 10 && dig ...`
 			- [!] Google and many large systems detect access from WARP tunnels as “spam”, due to the shared IP addresses of Cloudlare edge servers and the highly dynamic routing nature of WARP.
+			  collapsed:: true
 				- E.g. Google messages
 				  collapsed:: true
 					- ```
