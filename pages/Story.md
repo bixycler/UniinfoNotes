@@ -2888,6 +2888,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  私 楯になる あなたの楯になる
 					- ああ そこで待っててくれますか
 			- 12th, i was listed to be laid off next time.
+			- 13th, a whole day with office work, then some personal dicoveries at the end.
+			  collapsed:: true
+				- At night, after a short message to my dear leader Quân, i realized that my conflict is between my communist mind and the capitalist world.
+				  collapsed:: true
+					- Nhắn em xong hồi nãy anh ngẫm lại thấy conflict của anh với thế giới này là giữa một tâm hồn cộng sản với thế giới tư bản. Trong cộng đồng bạn đạo, anh hay nói "tất cả đều là Mình cả mà!" Anh tưởng chỉ thể hiện nó trong cộng đồng tu tập giải thoát, không ngờ em cũng bảo anh sao anh quan tâm việc của leader, của khách hàng chi vậy. Quả thực anh không thể sống kiểu tách biệt "phần ai nấy lo" như vậy được. Anh không thể làm một việc mà mình thấy rõ nó vô nghĩa, và chỉ làm vì khách hàng hay cấp trên yêu cầu (để rồi chửi sau lưng, như Học thì lúc nào cũng "cái của nợ này", còn anh Phương thì lúc nào cũng "tụi nó ngu lắm không hiểu đâu!")
+					- Thế giới của anh là sự mở lòng ra để chia sẻ, còn thế giới tư bản là phải đóng lại để kiếm lợi cho cá nhân mình bằng cách xấu che tốt khoe. Ngay trong lập trình, anh cũng theo Open Source, sản phẩm trí tuệ thì Creative Commons, và làm vườn kiểu Permaculture (thay buôn bán bằng trao đổi trực tiếp, chia sẻ, và tự nguyện giữa các vườn với nhau). Các công ty thì tìm mọi cách để giữ bản quyền cho sản phẩm của mình, còn mọi source code của anh đươc đóng dấu bản quyền.... Không Bản Quyền (The Unlicense license) và mọi tài liệu nghiên cứu hay tác phẩm của anh đều được cấp bản quyền Creative Commons Zero (CC0).
+				- And at the end of that share, i accidentally dicovered that the new domain name `creatzy.cc` revives the initials of my coined name “CreatZy”:
+				  >CC: Creative Crazy, Creative Commons, Cocos Islands
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a708225-3b28-49ca-b93d-c9982588375c))
