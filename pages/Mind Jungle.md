@@ -492,10 +492,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  CLOCK: [2025-11-24 Mon 14:42:55]
 		  :END:
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/AI_agent
-			- NotebookLM
+			- Gemini Notebook
 			  id:: 67a5faeb-c506-42b8-b989-9a7179fe02b3
 			  collapsed:: true
-			  [notebooklm.google.com](https://notebooklm.google.com/)
+			  [notebook.google.com](https://notebook.google.com/)
+				- Old name: NotebookLM
+				  [notebooklm.google.com](https://notebooklm.google.com/)
 				- It's designed for digesting a lot of documents.
 					- ⚠️ To update sources, we must **remove the old version first**, or else the RAG index may keeps the stale sources.
 				- ((67a73250-60f2-485c-b9d1-fc43ad993282))
