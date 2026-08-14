@@ -2003,7 +2003,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- installed in `/usr/share/applications/` and `~/.local/share/applications/`
 		- Autostart
 		  id:: 66b1cfa4-1438-4699-9f02-b84075f2a167
-			- `.desktop` files in `~/.config/autostart/` and `/etc/xdg/autostart/`
+			- `.desktop` files in `~/.config/autostart/` and `/etc/xdg/autostart/` and `${snap}/.config/autostart/`.
 			- Startup Applications Preference
 			  collapsed:: true
 				- For GNOME 42- (Ubuntu 22-), the bundled app is `gnome-session-properties`, can be accessed via app drawer search (`startup`, `applications`).
