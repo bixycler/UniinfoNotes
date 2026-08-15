@@ -2812,7 +2812,7 @@
 					- So, the head of the Ouroboros (with eyes and mouth) is actually the obop's head, not the arrowhead of the effect circle.
 						- The attachment of the arrow tail to the obop (head) is the source of confusion.
 						- The opposite directions of the two heads (obop head versus effect arrowhead) are the ((68875bab-dd31-4bbd-bd31-3a821fc5310c)) versus the ((6a686dd0-ce84-4e5c-97da-eb0e532144ff)).
-						- The snake is not eating but **chasing** its own tail creating the yang circle of self, just like a dog chasing tail, or the dragon chasing its pearl of ((677e76ed-b324-4608-b146-90e8fcfa0c32)).
+						- The snake is not eating but **chasing** its own tail creating the yang circle of ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), just like a dog chasing tail, or the dragon chasing its pearl of ((677e76ed-b324-4608-b146-90e8fcfa0c32)).
 							- The yang circle exist only thanks to the gap between the head and tail.
 							- The moment the tail/pearl is catched, the entire circle collapses into thin air, wave, light, pure energy.
 							- That means the perfect circle of self without any gap is a mere illusion.
@@ -2897,7 +2897,7 @@
 				- ⇒ The intentional cause is “final” in the ((667bda02-8dc9-488e-ba16-ea75c3d7895c)), but “first” in the ((667bd93a-cce4-4dbf-9831-725e4dffe463)).
 				- Yin (陰/阴, invisible, negative) vs Yang (陽/阳, visible, positive)
 				  id:: 6a684e7e-c9d4-45f3-80ed-158e20b3ab24
-					- The inner/higher intent in the [onion/tower of intents](((68df2d82-e1d5-49c4-ac40-d45cf26f840c))) is the yin circle generating the yin arrow to drive the yang arrow to form the yang circle – the outer/lower intent.
+					- In the onion structure of ((669a5387-2a97-4311-a295-aa0afd9c4d76))s and in the [tower of intents](((68df2d82-e1d5-49c4-ac40-d45cf26f840c))), the inner self or the higher intent is the yin circle generating the yin arrow to drive the yang arrow to form the yang circle – the outer self or the lower intent.
 					- The external knowledge circle is the lowest circle in the tower of effect circles, under all active intents.
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- The **yang arrowhead** (know-where, know-what, formal cause) is normally prefered over yang arrow body (know-how, efficient cause) and yin circle, because it's the shortest (chord) in ((694a8194-d9e6-4d75-9079-26442a8aa375))
