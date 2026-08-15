@@ -2815,6 +2815,7 @@
 						- The snake is not eating but **chasing** its own tail creating the yang circle of self, just like a dog chasing tail, or the dragon chasing its pearl of ((677e76ed-b324-4608-b146-90e8fcfa0c32)).
 							- The yang circle exist only thanks to the gap between the head and tail.
 							- The moment the tail/pearl is catched, the entire circle collapses into thin air, wave, light, pure energy.
+							- That means the perfect circle of self without any gap is a mere illusion.
 					- The image of a man bringing a fruit to his mouth bridges the Ouroboros to the effect circle.
 					  {{embed ((6a5de20d-489d-4cc5-aade-88e9df2315ac))}}
 						- The man's head is the Ouroboros' head where the tail of the effect circle is based on, and the fruit is the arrowhead to be put into his mouth when matched.
