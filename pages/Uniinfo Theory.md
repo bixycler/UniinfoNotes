@@ -2889,7 +2889,7 @@
 					- The view cone projects the process of growth, progress, quest, solving, working out, reasoning, proof, derivation, exploration, etc., which is the yang arrow body (know-how, efficient cause), to its result, answer, fruit, which are the **yang arrowhead** (know-where, know-what, formal cause).
 				- Final cause – the yang arrowhead matching the yin arrow
 				  id:: 699c0362-f864-4879-9a07-204b96472cb0
-					- The verification/qualification of the solution/answer (yang arrowhead) by the yin circle closes the effect circle – the yang arrowhead matching its tail (yin arrow).
+					- The verification/qualification of the solution/answer (yang arrowhead) by the yin circle closes the effect circle. In other words, the yang arrowhead matching its tail (yin arrow) closing the **yang circle**.
 					- The “final cause” (know-why) in [4 causes by Aristotle](https://en.wikipedia.org/wiki/Four_causes) corresponds to this half of the intentional cause.
 				- ⇒ The intentional cause is “final” in the ((667bda02-8dc9-488e-ba16-ea75c3d7895c)), but “first” in the ((667bd93a-cce4-4dbf-9831-725e4dffe463)).
 				- Yin (陰/阴, invisible, negative) vs Yang (陽/阳, visible, positive)
