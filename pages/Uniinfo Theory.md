@@ -2899,7 +2899,7 @@
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- The **yang arrowhead** (know-where, know-what, formal cause) is normally prefered over yang arrow body (know-how, efficient cause) and yin circle, because it's the shortest (chord) in ((694a8194-d9e6-4d75-9079-26442a8aa375))
 					  id:: 6a6e8d36-d112-4976-bcd3-1deeccd211f3
-					- In Buddhism, the **yin arrow** corresponds to [impermanence (anicca)](https://en.wikipedia.org/wiki/Impermanence_(Buddhism)), the _**urge** of the **yang arrow** to close the gap_ corresponds to the [craving (taṇhā)](https://en.wikipedia.org/wiki/Ta%E1%B9%87h%C4%81), and the vicious circle of .
+					- In Buddhism, the **yin arrow** corresponds to [impermanence (anicca)](https://en.wikipedia.org/wiki/Impermanence_(Buddhism)), the _**urge** of the **yang arrow** to close the gap_ corresponds to [craving (taṇhā)](https://en.wikipedia.org/wiki/Ta%E1%B9%87h%C4%81), and the endless cycle of the yang arrow chasing its own tail but can never close the gap completely is the [suffering (duḥkha)](https://en.wikipedia.org/wiki/Du%E1%B8%A5kha) in [Saṃsāra](https://en.wikipedia.org/wiki/Sa%E1%B9%83s%C4%81ra).
 		-
 	- ## thread
 	  id:: 667d0d2e-15c7-4989-a183-69a9a5c6bf8a
