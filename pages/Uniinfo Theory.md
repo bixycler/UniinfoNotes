@@ -2812,7 +2812,9 @@
 					- So, the head of the Ouroboros (with eyes and mouth) is actually the obop's head, not the arrowhead of the effect circle.
 						- The attachment of the arrow tail to the obop (head) is the source of confusion.
 						- The opposite directions of the two heads (obop head versus effect arrowhead) are the ((68875bab-dd31-4bbd-bd31-3a821fc5310c)) versus the ((6a686dd0-ce84-4e5c-97da-eb0e532144ff)).
-						- The snake is not eating but **chasing** its own tail, just like a dog chasing tail, or the dragon chasing its pearl of ((677e76ed-b324-4608-b146-90e8fcfa0c32)). The moment the tail/pearl is catched, the entire circle collapses into thin air, wave, light, pure energy.
+						- The snake is not eating but **chasing** its own tail creating the yang circle of self, just like a dog chasing tail, or the dragon chasing its pearl of ((677e76ed-b324-4608-b146-90e8fcfa0c32)).
+							- The yang circle exist only thanks to the gap between the head and tail.
+							- The moment the tail/pearl is catched, the entire circle collapses into thin air, wave, light, pure energy.
 					- The image of a man bringing a fruit to his mouth bridges the Ouroboros to the effect circle.
 					  {{embed ((6a5de20d-489d-4cc5-aade-88e9df2315ac))}}
 						- The man's head is the Ouroboros' head where the tail of the effect circle is based on, and the fruit is the arrowhead to be put into his mouth when matched.
@@ -2889,7 +2891,7 @@
 					- The view cone projects the process of growth, progress, quest, solving, working out, reasoning, proof, derivation, exploration, etc., which is the yang arrow body (know-how, efficient cause), to its result, answer, fruit, which are the **yang arrowhead** (know-where, know-what, formal cause).
 				- Final cause – the yang arrowhead matching the yin arrow
 				  id:: 699c0362-f864-4879-9a07-204b96472cb0
-					- The verification/qualification of the solution/answer (yang arrowhead) by the yin circle closes the effect circle. In other words, the yang arrowhead matching its tail (yin arrow) closing the **yang circle**.
+					- The verification/qualification of the solution/answer (yang arrowhead) by the yin circle closes the effect circle. In other words, the yang arrowhead matching its tail (yin arrow) closes the **yang circle**.
 					- The “final cause” (know-why) in [4 causes by Aristotle](https://en.wikipedia.org/wiki/Four_causes) corresponds to this half of the intentional cause.
 				- ⇒ The intentional cause is “final” in the ((667bda02-8dc9-488e-ba16-ea75c3d7895c)), but “first” in the ((667bd93a-cce4-4dbf-9831-725e4dffe463)).
 				- Yin (陰/阴, invisible, negative) vs Yang (陽/阳, visible, positive)
