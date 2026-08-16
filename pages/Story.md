@@ -2896,8 +2896,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Thế giới của anh là sự mở lòng ra để chia sẻ, còn thế giới tư bản là phải đóng lại để kiếm lợi cho cá nhân mình bằng cách xấu che tốt khoe. Ngay trong lập trình, anh cũng theo Open Source, sản phẩm trí tuệ thì Creative Commons, và làm vườn kiểu Permaculture (thay buôn bán bằng trao đổi trực tiếp, chia sẻ, và tự nguyện giữa các vườn với nhau). Các công ty thì tìm mọi cách để giữ bản quyền cho sản phẩm của mình, còn mọi source code của anh đươc đóng dấu bản quyền.... Không Bản Quyền (The Unlicense license) và mọi tài liệu nghiên cứu hay tác phẩm của anh đều được cấp bản quyền Creative Commons Zero (CC0).
 				- And at the end of that share, i accidentally dicovered that the new domain name `creatzy.cc` revives the initials of my coined name “CreatZy”:
 				  >CC: Creative Crazy, Creative Commons, Cocos Islands
-			- 15-16th, weekend:
-				- Updated the effect circle with [Buddhist concepts](((6a80e807-eeb3-4b75-835d-c80008b3d9ac))) and ((6a80fa52-a1b0-43cd-90e3-7e77abe1138c)).
+			- 14th, another whole day with office work.
+			- 15-16th, weekend: Talk with my old boss Đạt and got his acceptance for my AI buddy/mate project. Updated the effect circle with [Buddhist concepts](((6a80e807-eeb3-4b75-835d-c80008b3d9ac))) and ((6a80fa52-a1b0-43cd-90e3-7e77abe1138c)).
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a708225-3b28-49ca-b93d-c9982588375c))
