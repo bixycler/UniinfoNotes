@@ -2815,7 +2815,7 @@
 						- The snake is not eating but **chasing** its own tail creating the yang circle of ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), just like a dog chasing tail, or the dragon chasing its pearl of ((677e76ed-b324-4608-b146-90e8fcfa0c32)).
 							- The yang circle exist only thanks to the gap between the head and tail.
 							- The moment the tail/pearl is catched, the entire circle collapses into thin air, wave, light, pure energy.
-							- That means the perfect circle of self without any gap is a mere illusion.
+							- That means the perfect circle of self without any gap is a mere illusion in the ((6a80fa52-a1b0-43cd-90e3-7e77abe1138c)).
 					- The image of a man bringing a fruit to his mouth bridges the Ouroboros to the effect circle.
 					  {{embed ((6a5de20d-489d-4cc5-aade-88e9df2315ac))}}
 						- The man's head is the Ouroboros' head where the tail of the effect circle is based on, and the fruit is the arrowhead to be put into his mouth when matched.
@@ -2858,7 +2858,7 @@
 						- The [first cause](((699c0362-eb81-42c5-843c-2559d2fe7b73))): gap, broken, error, missing, unknown, question, mismatch, problem, pain, suffering, failure, the “negativity” (yin, 陰/阴) in general
 						  id:: 69a502fe-ccb2-422d-a292-e4854e87fd90
 						- The [final cause](((699c0362-f864-4879-9a07-204b96472cb0))): whole, form, goal, target, ideal, the “positivity” (yang, 陽/阳) in general
-							- This is usually *fixed*, whose fixation forms the **self-attachment**.
+							- This is usually *fixed*, whose fixation forms the **self-attachment** in the ((6a80fa52-a1b0-43cd-90e3-7e77abe1138c)).
 						- The clinging self: a fixed form of the whole, a permanent final cause
 							- The fixation: by fixing the self-image, the obop creates a permanent & unchangable “hidden boss” controlling every action from behind, hence the term “subject”.
 							- The nonfunctional: Due to that fixation, whenever there are conflicts unsolvable by the hidden boss, it excessively consumes resources to wrestle, occupying valuable free space with nonfunctional and even dysfunctional energy.
@@ -2894,6 +2894,7 @@
 				  id:: 699c0362-f864-4879-9a07-204b96472cb0
 					- The verification/qualification of the solution/answer (yang arrowhead) by the yin circle closes the effect circle. In other words, the yang arrowhead matching its tail (yin arrow) closes the **yang circle**.
 					- The “final cause” (know-why) in [4 causes by Aristotle](https://en.wikipedia.org/wiki/Four_causes) corresponds to this half of the intentional cause.
+					- **Relativity**: The match/close/final is only relative to the ((699c0362-477c-4771-91bd-c91456dae158)) and never the absolute match/close/final. That's the ((6a80fa52-a1b0-43cd-90e3-7e77abe1138c)).
 				- ⇒ The intentional cause is “final” in the ((667bda02-8dc9-488e-ba16-ea75c3d7895c)), but “first” in the ((667bd93a-cce4-4dbf-9831-725e4dffe463)).
 				- Yin (陰/阴, invisible, negative) vs Yang (陽/阳, visible, positive)
 				  id:: 6a684e7e-c9d4-45f3-80ed-158e20b3ab24
