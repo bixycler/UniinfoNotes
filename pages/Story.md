@@ -2739,6 +2739,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  id:: 6a708225-3b28-49ca-b93d-c9982588375c
 		  collapsed:: true
 			- July 30 ‑ August 2nd, cought up in setting up the connection between `Will-Ubuntu` at home and `CPU000375` at the office.
+			  collapsed:: true
 			- 3rd, intended to pay the office work debt, but ended up with fixing issues of workstation due to ((6a6c6fec-3535-4cab-a2e2-f64c0cd5c5ff)).
 			  collapsed:: true
 				- DONE Install ((6a6ff9d1-5a5e-44fd-ad86-628095ca5761)) extension and set Mem "Used" = Active
@@ -2898,7 +2899,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  >CC: Creative Crazy, Creative Commons, Cocos Islands
 			- 14th, another whole day with office work.
 			- 15-16th, weekend: Talk with my old boss Đạt and got his acceptance for my AI buddy/mate project. Updated the effect circle with [Buddhist concepts](((6a80e807-eeb3-4b75-835d-c80008b3d9ac))) and ((6a80fa52-a1b0-43cd-90e3-7e77abe1138c)).
-			- 17th, another day of office work.
+			- 17-18th, days for office work & office discussions.
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a708225-3b28-49ca-b93d-c9982588375c))
