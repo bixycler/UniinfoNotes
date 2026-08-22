@@ -115,7 +115,7 @@ lưu loát trong lời nói...
 ...và không hề thiếu đi phản xạ của con người.
 
 26
-00:41:07,077 --> 00:02:44,246
+00:02:41,077 --> 00:02:44,246
 Và thậm chí là phản xạ ghi nhớ nỗi đau.
 
 27
@@ -297,7 +297,7 @@ người cha hoặc người mẹ đã in dấu ký ức lên nó...
 
 67
 00:05:33,666 --> 00:05:35,584
-Một Mecha thay thế con người ư?
+Một Mecha thay thế cho một đứa trẻ ư?
 
 68
 00:05:35,793 --> 00:05:39,671
@@ -1040,7 +1040,7 @@ Con yêu mẹ, mẹ ơi.
 Con mong mẹ không bao giờ chết.
 
 234
-00:26:49,441 --> 00:26:40,816
+00:26:49,441 --> 00:26:50,816
 Không bao giờ.
 
 235
@@ -1491,7 +1491,7 @@ khi nhìn thấy...
 337
 00:35:50,940 --> 00:35:53,733
 Josephine, rõ ràng là,
-đã, ừm, xin nghỉ phép một thời gian rồi.
+đã, ừm, được "cho nghỉ phép dài hạn" rồi.
 
 338
 00:35:53,901 --> 00:35:55,735
@@ -1787,7 +1787,7 @@ Em nghĩ nó đang chảy máu.
 Đi nào, cẩn thận.
 
 405
-00:42:16,166 --> 00:41:45,502
+00:41:42,166 --> 00:41:45,502
 Những đứa bé trai cảm thấy ghen tị và cạnh tranh là chuyện bình thường mà.
 
 406
@@ -3163,7 +3163,7 @@ Trong giới giải trí biểu diễn.
 Thật là may mắn cho tôi, khi đụng phải anh đấy!
 
 724
-01:23:20,800 --> 01:14:25,048
+01:14:23,208 --> 01:14:25,048
 - Buông nó ra.
 - Buông tôi ra.
 
@@ -4574,11 +4574,11 @@ của tôi đến các quý cô khi cậu lớn lên nhé.
 
 1042
 01:50:00,719 --> 01:50:02,511
-Tôi đang tồn tại.
+Đúng vậy.
 
 1043
 01:50:04,806 --> 01:50:06,849
-Tôi đã từng tồn tại!
+Từng là vậy!
 
 1044
 01:50:48,892 --> 01:50:52,394
@@ -4842,7 +4842,7 @@ cháu không lưu giữ để chúng ta có thể tái hiện lại.</i>
 <i>Cháu vô cùng quan trọng đối với chúng ta, David.</i>
 
 1105
-02:04:54,236 --> 02:04:48,072
+02:04:54,236 --> 02:04:58,072
 <i>Cháu là duy nhất trên toàn thế giới này.</i>
 
 1106
