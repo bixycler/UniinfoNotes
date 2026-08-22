@@ -460,6 +460,12 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- **Inhibition** (The release): When encountering a blockage, the prefrontal cortex sends an explicit inhibitory signal to release unconscious muscle contractions.
 					- **Activation** (The drive): In active cultivation, attention drives precise, sequential recruitment of motor units to move an “orb” of smooth tension across the body. This controlled co-contraction of agonist and antagonist muscles creates a stable, pressurized tensegrity that conducts mechanical force without rigidity.
 				- Localized vasodilation: Directing intense focus to a specific area commands blood vessels to dilate, surging oxygenated blood to support both the release of restrictions and the high energy demand of active, smooth muscle driving.
+			- Emergent somatic movement
+				- Restorative movements like Tai Chi are not arbitrary external forms, but natural motor solutions emerging directly from the underlying myofascial matrix (Western) and nadi system (Eastern).
+				- Strain vectors: A blockage acts like a snag in a continuous fabric, creating **tension vectors** felt across the whole kinetic chain via fascial mechanoreceptors.
+				- Spontaneous resolution: High interoceptive awareness allows the subcortical motor systems to intuitively trace these vectors, executing soft, spiraling micro-movements to address the restriction.
+				- Viscoelastic thixotropy: The gentle, continuous **shearing forces** of these movements warm and liquefy the viscous hyaluronic acid between fascial planes, dissolving adhesions and restoring tissue glide.
+				- Reflex loop reset: Slow, soft movement bypasses defensive stretch reflexes, allowing the Golgi tendon organs to signal safe inhibition of chronic muscle guarding.
 			- The anatomy of “qi”
 				- The sensation of “qi” flow is a highly measurable phenomenon driven by **neurovascular coupling** and myofascial mechanics, rather than a mystical vapor.
 				- Neural spark: Focused attention fires specific neural pathways down to the targeted tissue.
