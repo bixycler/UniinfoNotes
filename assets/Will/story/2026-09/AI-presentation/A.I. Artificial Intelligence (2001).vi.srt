@@ -1445,7 +1445,7 @@ Và thay vì đan tám chiếc giỏ,
 cậu đã đan được 16 chiếc.
 
 327
-00:34:04,727 --> 00:35:08,438
+00:35:04,727 --> 00:35:08,438
 Sau đó cậu lên giường và chìm vào giấc ngủ.
 
 328
@@ -1845,7 +1845,7 @@ hợp lý để giả định rằng nó biết cách căm ghét.
 Và nếu bị đẩy đến những giới hạn tột cùng đó,
 nó thực sự có khả năng làm những gì?
 
-428
+418
 00:42:41,141 --> 00:42:46,187
 Chúc mừng sinh nhật, Martin.
 Tớ đã làm cái này cho cậu.
@@ -2780,7 +2780,7 @@ Cậu đang đưa tôi đến chỗ David à?
 01:07:25,583 --> 01:07:27,383
 Cũng giống như một cuộc gọi cuối cùng khác.
 
-637
+638
 01:07:27,460 --> 01:07:28,626
 Nó chẳng có ý nghĩa gì cả.
 
@@ -2917,7 +2917,7 @@ con bé đang nói về cái gì.
 01:09:58,360 --> 01:09:59,694
 Tôi nói với cô bé đấy.
 
-670
+669
 01:10:09,079 --> 01:10:13,625
 Anh có thể làm ơn
 tắt bộ nhận cảm giác đau của tôi đi được không?
@@ -5009,7 +5009,7 @@ về mọi sự kiện...</i>
 <i>...từng xảy ra trong quá khứ.</i>
 
 1144
-02:11:01,201 --> 02:09:15,371
+02:09:11,201 --> 02:09:15,371
 <i>Nhưng thí nghiệm đã thất bại.</i>
 
 1145
