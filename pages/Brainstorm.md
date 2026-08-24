@@ -9,6 +9,13 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	- ## 2026 Brainstorms
 	  id:: 6960e754-ff94-4e1a-8266-d9f15231b880
 		- “Fold up” vs “wrap up” vs “fold into”
+		  collapsed:: true
+			- > “Great perfection seems flawed; great skill appears clumsy.”
+			  「大成若缺，大巧若拙。」
+			  
+			  — [Chapter 45](https://en.wikisource.org/wiki/Translation:Tao_Te_Ching#Chapter_45_(%E7%AC%AC%E5%9B%9B%E5%8D%81%E4%BA%94%E7%AB%A0)), Tao Te Ching
+			- In ordinary discourse, language carries accumulated external bias – terms like “fold up” carry connotations of failure or surrender, while “wrap up” is celebrated as completion.
+			- In **Unïnfo**, we strip away superficial semantics to restore words to their literal, physical mechanics – the behavior of ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a))s under continuous topological transformation.
 		- The hidden agreement between Christ's “not seen yet believe” and Buddha's _come to see yourself (Ehipassiko)_
 		  id:: 6a56df62-9cd3-4fda-8408-3d5cacb1ebe8
 		  collapsed:: true
