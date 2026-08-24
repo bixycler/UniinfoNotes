@@ -16,6 +16,40 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			  — [Chapter 45](https://en.wikisource.org/wiki/Translation:Tao_Te_Ching#Chapter_45_(%E7%AC%AC%E5%9B%9B%E5%8D%81%E4%BA%94%E7%AB%A0)), Tao Te Ching
 			- In ordinary discourse, language carries accumulated external bias – terms like “fold up” carry connotations of failure or surrender, while “wrap up” is celebrated as completion.
 			- In **Unïnfo**, we strip away superficial semantics to restore words to their literal, physical mechanics – the behavior of ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a))s under continuous topological transformation.
+			- Fold Into
+				- The Layman's Fallacy
+					- In common usage, to fold into implies either a gentle culinary action or institutional absorption.
+					- In both cases, the original identity is assumed to be lost or diluted.
+				- The Unïnfo Reality: Continuous Phase-Space Mapping
+					- In thread dynamics, folding into is the fundamental mechanism of deterministic mixing.
+					- It is not a chaotic, destructive blending, but a precise iterative sequence – stretching and folding, analogous to the mathematical [Baker's Map](https://en.wikipedia.org/wiki/Baker%27s_map) or [Smale Horseshoe](https://en.wikipedia.org/wiki/Horseshoe_map).
+					- Information is never obliterated or randomly scrambled – through repeated topological iterations, distinct threads are interwoven across phase space.
+					- Even when a system appears visually complex or chaotic, it remains strictly deterministic – each thread maintains its path and structural integrity within the folded continuum.
+					- $⟪\text{Phase State } S_{n+1} = \text{Fold}(\text{Stretch}(S_n))⟫$
+			- Fold-Up vs. Wrap-Up
+				- ((66f4e208-37c7-4749-a448-0722f7f7af20)) vs. ((670e0d9a-a926-49ca-951c-7013b2b29e8c))
+					- The distinction between a wrap-up and a fold-up marks the divide between dualistic surface-thinking and monistic structural truth.
+				- Wrap-Up: The Extrinsic Shell
+					- Mechanism: Enclosing a payload within an external boundary or container.
+					- Ontology: Dualistic – it treats form as an empty, abstract shell distinct from the content hidden inside.
+					- Session paradigm: Closing a session with a wrap-up is like placing a cover over the conversation – an external summary shell slapped onto the discourse without altering or integrating the internal threads.
+				- Fold-Up: The Crystallized Boundary
+					- Mechanism: The substance reorganizes its own geometry until its outer surface is simply its outermost layer.
+					- Ontology: Monistic and concrete – there is no external wrapper; the **form is the crystallization of the threads**, continuous with the core.
+					- Session paradigm: Closing a session with a fold-up is an **integrative compaction** – the active threads of dialogue systematically fold back into their core structure, condensing all insights into a minimal, **self-contained** state ready for future unfolding.
+			- Lexicon Matrix
+				- Term: Fold-up
+					- Surface view: Failure, collapse, closure.
+					- Unïnfo view: Self-completion into maximal compact density.
+					- Underlying principle: **Conservation** – internal structure preserved; external footprint minimized.
+				- Term: Fold into
+					- Surface view: Loss of identity through absorption or mixing.
+					- Unïnfo view: Continuous, deterministic transformation through stretching and folding.
+					- Underlying principle: **Iteration** – topological complexity without loss of information.
+				- Term: Wrap-up
+					- Surface view: Enclosing content inside a separate summary or shell.
+					- Unïnfo view: Dualistic container–content abstraction.
+					- Underlying principle: **Separation** – the boundary is distinct from the substance.
 		- The hidden agreement between Christ's “not seen yet believe” and Buddha's _come to see yourself (Ehipassiko)_
 		  id:: 6a56df62-9cd3-4fda-8408-3d5cacb1ebe8
 		  collapsed:: true
