@@ -8,6 +8,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2026 Brainstorms
 	  id:: 6960e754-ff94-4e1a-8266-d9f15231b880
+		- “Fold up” vs “wrap up” vs “fold into”
 		- The hidden agreement between Christ's “not seen yet believe” and Buddha's _come to see yourself (Ehipassiko)_
 		  id:: 6a56df62-9cd3-4fda-8408-3d5cacb1ebe8
 		  collapsed:: true
