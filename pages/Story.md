@@ -2900,7 +2900,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 14th, another whole day with office work.
 			- 15-16th, weekend: Talk with my old boss Đạt and got his acceptance for my AI buddy/mate project. Updated the effect circle with [Buddhist concepts](((6a80e807-eeb3-4b75-835d-c80008b3d9ac))) and ((6a80fa52-a1b0-43cd-90e3-7e77abe1138c)).
 			- 17-21th, the whole week for office work & office discussions.
-			- 22-23th, weekend: prepared the [opening clip of “A.I.” movie](https://drive.google.com/file/d/1Ezzbl9ayYlXJ_46gEYEKwBrOW2X-vtQk/view?usp=sharing) for [the presentation next month](https://gemini.google.com/app/36d8823af3cb616a) gifted to my team at HTV.
+			- 22-23th, weekend: prepared the [clip of “A.I.” movie](https://drive.google.com/file/d/1Ezzbl9ayYlXJ_46gEYEKwBrOW2X-vtQk/view?usp=sharing) as the opening for [the presentation next month](https://gemini.google.com/app/36d8823af3cb616a) gifted to my team at HTV.
 			- 24th,
 				- ((6a8c07a5-208d-47f5-8704-0ccc487967be))
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
