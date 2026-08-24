@@ -9,6 +9,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	- ## 2026 Brainstorms
 	  id:: 6960e754-ff94-4e1a-8266-d9f15231b880
 		- “Fold up” vs “wrap up” vs “fold into”
+		  id:: 6a8c07a5-208d-47f5-8704-0ccc487967be
 		  collapsed:: true
 			- > “Great perfection seems flawed; great skill appears clumsy.”
 			  「大成若缺，大巧若拙。」
@@ -36,7 +37,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Fold-Up: The Crystallized Boundary
 					- Mechanism: The substance reorganizes its own geometry until its outer surface is simply its outermost layer.
 					- Ontology: Monistic and concrete – there is no external wrapper; the **form is the crystallization of the threads**, continuous with the core.
-					- Session paradigm: Closing a session with a fold-up is an **integrative compaction** – the active threads of dialogue systematically fold back into their core structure, condensing all insights into a minimal, **self-contained** state ready for future unfolding.
+					- Session paradigm: Closing a session with a fold-up is an **integrative compaction** – the active threads of dialogue systematically fold back into their core structure, condensing all insights into a minimal, _**self-contained** state ready for future unfolding_.
 			- Lexicon Matrix
 				- Term: Fold-up
 					- Surface view: Failure, collapse, closure.
