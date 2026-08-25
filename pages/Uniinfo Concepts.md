@@ -2788,9 +2788,8 @@
 				- Elimination of persistent protocol middleware
 					- Replaces permanently running RPC servers with direct service calls (GraphQL / REST endpoints) to system service agents.
 					- Maintains a clean service boundary between procedural guidance (skills) and backend execution (service endpoints).
-		- collapsed:: true
-		  
-		  Multi-Agent Division of Labor on a Knowledge Graph
+		- Multi-Agent Division of Labor on a Knowledge Graph
+		  collapsed:: true
 			- Historical precedent and human wetware substrate
 				- Multi-faceted reference model: Inspired by long-standing collaborative systems like Wikipedia (Article, Talk, History, Source), human knowledge work has always relied on multi-perspective nodes rather than monolithic text blobs.
 				- Software engineering and science operate as a distributed graph running across human mental models and neural networks.
