@@ -2552,22 +2552,23 @@
 				- Aperas is an architecture for agentic knowledge systems operating over a fluid, unconditioned semantic core and crystallizing typed boundaries on demand.
 				- To maintain modularity and deep clarity, the specification is decomposed into three focused documents.
 			- Core Architecture Suite
-				- Epistemology and Metaphysics: `aperas_philosophy_and_ontology.md`
+				- ((6a8cfdf7-e32c-4eff-882d-6cd987a2f630))
 					- Metaphysical foundation: Apeiron (macrocosm), Aperas (microcosm), and Peras (interface).
 					- Conceptual triad: Unbounded – Unbound – Bound.
 					- Flatbread metaphor and linguistic emergence.
 					- Multi-faceted node epistemology: Wikipedia reference model (Article, Source, Talk, History).
-				- System Architecture and Mechanics: `aperas_system_architecture.md`
+				- ((6a8cfecf-be4a-4c5d-847e-12138545a6ed))
 					- Architectural philosophy: Fluid core vs. crystallized interfaces.
 					- Multi-Agent Projection Pattern and dynamic read–write transducers.
 					- System taxonomy and component boundaries.
 					- Async execution model, command dispatch, and self-healing boundary validation.
-				- Node, AST, and Storage Design: `aperas_node_and_ast_design.md`
+				- ((6a8cff05-555e-46eb-88f8-fd872af4c1c7))
 					- On-demand reification and lazy atomization mechanics.
 					- Three parallel planes: Rendered plane, Stored plane, and Graph plane.
 					- Universal inline boundary: `<span>` tag addressability and offset tracking.
 					- Unified.js AST mapping to TerminusDB storage substrate.
 		- Philosophy and Ontology of Aperas
+		  id:: 6a8cfdf7-e32c-4eff-882d-6cd987a2f630
 		  collapsed:: true
 			- Metaphysics of Form and Freedom (Unbounded – Unbound – Bound)
 				- Apeiron – Unbounded (Macrocosm – Objective Infinite)
@@ -2599,6 +2600,7 @@
 					- Projections, skills, and tools (Perata) crystallize organically on demand only as concrete human–agent coordination points emerge.
 					- The platform builds itself using the exact principles it uses to manage knowledge: fluid at rest, bound and structured when touched.
 		- System Architecture and Mechanics of Aperas
+		  id:: 6a8cfecf-be4a-4c5d-847e-12138545a6ed
 		  collapsed:: true
 			- Architectural Philosophy: Fluid Core vs. Crystallized Interfaces
 				- Fluid core substrate (Apeiron – formless content)
@@ -2641,6 +2643,7 @@
 				- Self-healing boundary validation
 					- If a command payload violates boundary schema rules (Peras), type validation tracebacks are fed back to the boundary agent for immediate, localized repair without polluting the fluid core (Apeiron).
 		- Node, AST, and Storage Design in Aperas
+		  id:: 6a8cff05-555e-46eb-88f8-fd872af4c1c7
 		  collapsed:: true
 			- On-demand reification (lazy atomization)
 				- Coarse by default, fine when touched
@@ -2818,9 +2821,8 @@
 				- Idempotent round-tripping requires updating only the modified delta when an agent parses human edits on rendered Markdown without clobbering unrendered graph metadata.
 				- Granularity of nodes requires balancing atomic entities to avoid noise and coarse documents to preserve deep read benefits.
 				- Loose coupling of agent roles keeps agents stateless and lets the graph own canonical state so any agent can crash or be swapped out seamlessly.
-		- collapsed:: true
-		  
-		  State of the Art in Agentic Knowledge Graphs
+		- State of the Art in Agentic Knowledge Graphs
+		  collapsed:: true
 			- Convergence of paradigm
 				- Current frontier systems combine neurosymbolic AI, dynamic GraphRAG, and bidirectional knowledge maintenance.
 				- Knowledge graphs are treated as living, canonical state machines rather than static retrieval databases, with multi-agent swarms acting as read–write transducers.
@@ -2850,4 +2852,3 @@
 				- Lossless round-trip synchronization struggles to parse human edits on high-level summaries back into exact graph diffs without dropping unrendered metadata.
 				- Granularity calibration frequently pulls too much AST-level noise or too little contextual rationale during subgraph extraction.
 				- Human–agent advisory loops shift away from autonomous destructive overwrites toward advisory invalidation, generating visual diffs and triage queues for human verification.
-		-
