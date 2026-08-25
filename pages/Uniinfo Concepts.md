@@ -2547,6 +2547,7 @@
 	  id:: 6a8cfb17-47c3-49b7-bc4b-02c020e62ef7
 	  collapsed:: true
 		- Aperas Master Architectural Index
+		  collapsed:: true
 			- Overview
 				- Aperas is an architecture for agentic knowledge systems operating over a fluid, unconditioned semantic core and crystallizing typed boundaries on demand.
 				- To maintain modularity and deep clarity, the specification is decomposed into three focused documents.
@@ -2566,3 +2567,137 @@
 					- Three parallel planes: Rendered plane, Stored plane, and Graph plane.
 					- Universal inline boundary: `<span>` tag addressability and offset tracking.
 					- Unified.js AST mapping to TerminusDB storage substrate.
+		- Philosophy and Ontology of Aperas
+		  collapsed:: true
+			- Metaphysics of Form and Freedom (Unbounded – Unbound – Bound)
+				- Apeiron – Unbounded (Macrocosm – Objective Infinite)
+					- The outer universe existing in a state of infinite, unmanifested potential.
+					- Represents the unconditioned, boundless origin – an inexhaustible, schema–free field holding all possibilities without being trapped by any single form.
+				- Aperas – Unbound (Microcosm – Subjective Liberation)
+					- The inner human spirit achieving freedom through the liberation of the soul.
+					- Etymologically layered:
+						- *A-* (without) + *Peras* (limit) = **Unbound**: Not merely “unlimited” in size, but intrinsically free from rigid constraints.
+						- *Aperas* in Esperanto = “Appears / Emerges”: The active manifestation where structured forms materialize out of the fluid core on demand.
+						- Appam / Flatbread: The warm, versatile, round flatbread – simple, wholesome, and adaptable to any filling or shape.
+					- While daily interaction imposes limits and fixed roles, the liberated soul breaks through the illusion of rigid division, realizing its inner ground is identical in essence to the boundless Apeiron.
+				- Peras – Bound (The Interface – Transient Boundary)
+					- The limit, boundary, or transient interface where interaction occurs.
+					- Form is not a rigid cage, but a temporary, playful instrument. Content remains formless (Apeiron), while the interface solidifies temporarily into defined structures (Peras) to accelerate interaction, then dissolves effortlessly back into the origin.
+			- Multi–Faceted Node Epistemology (The Wikipedia Reference Model)
+				- Historical precedent in collaborative knowledge work
+					- Systems like Wikipedia demonstrate that knowledge nodes are multi–perspective entities rather than flat text blobs.
+					- Aperas adopts this multi–tab structure as an illustrative reference model for node projections.
+				- Projection faces of a node
+					- Surface view (Article – Peras projection): Markdown and HTML outliner blocks rendered for human reading and fast LLM context window ingestion.
+					- Graph view (Source – Canonical triples): Semantic graph triples, explicit parent–child hierarchies, typed predicates (`impacts`, `verifies`, `derived_from`), and IRI references.
+					- Discourse view (Talk – Agent trails): Agent trails, deliberations, conflicting perspectives, and reasoning traces behind decision states.
+					- Provenance view (History – Audit deltas): Immutable commit logs, author signatures (human or agent ID), and atomic revision deltas.
+			- Meta–Aperas / Self–Aperas (Recursive Methodology)
+				- System evolution as ontological practice
+					- The engineering roadmap of Aperas is itself a self–instantiation of its underlying philosophy.
+					- Phase 0 begins in the uncarved, schema–free substrate (Apeiron), avoiding premature interfaces or heavy abstractions.
+					- Projections, skills, and tools (Perata) crystallize organically on demand only as concrete human–agent coordination points emerge.
+					- The platform builds itself using the exact principles it uses to manage knowledge: fluid at rest, bound and structured when touched.
+		- System Architecture and Mechanics of Aperas
+		  collapsed:: true
+			- Architectural Philosophy: Fluid Core vs. Crystallized Interfaces
+				- Fluid core substrate (Apeiron – formless content)
+					- The canonical state substrate remains a continuous, unconditioned semantic field – a rich graph of associations, atomic assertions, decisions, and raw evidence without rigid schema impedance.
+					- Avoids premature schema–on–write constraints that destroy nuance or cause friction during exploratory thought and multi–agent reasoning.
+				- Schema–as–projection (Peras – crystallized interfaces)
+					- Schemas, types, enums, and unique identifiers are not intrinsic properties of the data substrate; they are temporary, disposable crystallizations generated on demand.
+					- Interfaces represent agreed–upon, lossy compressions between two parties (agents, APIs, UI engines) designed to minimize interaction friction and maximize transaction speed.
+				- Perimeter boundary transducers
+					- Type systems (e.g., Pydantic in Python, Zod/TypeBox in TypeScript) live strictly at the system perimeter (boundary transducers) rather than polluting the core graph engine.
+					- Boundary agents sample the fluid core (Apeiron) and project it into rigid, type–safe structures (Peras) strictly when interacting with deterministic runtimes (databases, AST compilers, UI outliners, or structured LLM tool endpoints).
+			- Multi–Agent Projection Pattern
+				- Pattern definition
+					- An architectural paradigm where a high–dimensional, fluid state graph (Apeiron) acts as the single source of truth, while specialized agents act as bidirectional transducers (lenses) mediating human and machine interactions.
+				- Read–side projection lenses (deep read)
+					- Specialized projection agents extract subgraphs and crystallize them into low–dimensional, context–specific interfaces (Peras) like Markdown outliners, source code ASTs, or sequence diagrams.
+					- Enables deep read capabilities where every rendered element retains provenance anchors and backlinks, allowing readers to drill down into the supporting evidence subgraph.
+				- Write–side control and delta ingestion (deep write)
+					- Intake and impact agents parse view–level edits, calculate semantic diffs, and commit reified assertion nodes or validity updates back to the substrate.
+					- Enables deep write capabilities where edits trigger impact traversals along `affects` or `constrains` edges, calculating downstream ripple effects and queuing advisory invalidations.
+			- System Taxonomy and Vocabulary
+				- System / Platform: **Aperas** – The unbound environment where structure emerges (“appears”).
+				- Fluid Core Substrate: **Apeiron** (`aperas-apeiron` / `core`) – The unconditioned, schema–free continuum where thoughts and semantic links flow without artificial boundaries.
+				- Boundary Projections / Interfaces: **Peras** (`aperas-peras` / `projections`) – The transient, typed structures (JSON Schema, Zod/Pydantic models, AST trees, DB mutations).
+				- Transduction Process: **Aperas** (*to appear / materialize*) – The active emergence of structured Peras out of the unconditioned Apeiron.
+			- Coding Agent Interface Continuum
+				- Manual skill mode (procedural recipes)
+					- Direct execution of `SKILL.md` procedures and local scripts without external service layers or extra API token costs.
+				- Active tool mode (on–demand query)
+					- Explicit tool calling (via MCP or service APIs) where the coding agent queries or mutates perata as needed.
+				- Automatic hook mode (context engineering)
+					- Event–driven injection where relevant perata projections are automatically synthesized and placed directly into the coding agent’s prompt/context window.
+			- Async Execution and Command Dispatch Mechanics
+				- Unconstrained reasoning to batch command emission
+					- Reasoner agents operate with free–flow, unconstrained thinking to analyze context and draft mutations without suffering from structured output reasoning constraints.
+					- At turn termination, the agent emits a single batch tool call or tagged payload containing array–based command intents (e.g., `list[CommandIntent]`).
+				- Event–driven async fan–out
+					- Emitted command batches are pushed to an event–driven dispatcher and executed concurrently across worker coroutines and service endpoints.
+					- Agents remain non–blocking and decoupled from slow, synchronous tool–calling loops.
+				- Self–healing boundary validation
+					- If a command payload violates boundary schema rules (Peras), type validation tracebacks are fed back to the boundary agent for immediate, localized repair without polluting the fluid core (Apeiron).
+		- Node, AST, and Storage Design in Aperas
+		  collapsed:: true
+			- On–Demand Reification (Lazy Atomization)
+				- Coarse by default, fine when touched
+					- Content is preserved at coarse granularity (full paragraph, list item, or document block) without forcing upfront micro–fragmentation into tokens or words.
+					- The moment a sub–clause, phrase, word, or punctuation mark is addressed, linked, commented on in the Talk view, or bound to a predicate, that specific slice **crystallizes into an addressed node** with its own identity (URI/UUID).
+					- Untouched surrounding text remains unfragmented text chunks.
+			- Three Parallel Planes of Architecture
+				- Rendered plane (Artifact / Surface Peras)
+					- The continuous, readable Markdown/HTML text flow where prose reads naturally without visual disruption.
+				- Stored plane (Substrate Apeiron)
+					- The backing store in TerminusDB preserving content as coarse or fine AST nodes and character offset ranges.
+				- Graph plane (Relational Peras)
+					- The explicit network of nodes and edges connecting addressed entities (documents, blocks, clauses, words, punctuation) to the rest of the knowledge graph.
+			- Universal Inline Addressability (`<span>` Tag Pattern)
+				- Zero layout interference
+					- Unlike `<div>` or `<p>`, `<span>` elements introduce no visual breaks or line collapses in the rendered plane.
+				- Attribute anchoring
+					- Acts as an inline hook for unique node identifiers (`id="node-123"`), graph attributes (`data-predicate="refutes"`), and event listeners directly over any target character range.
+				- Arbitrary granularity
+					- Can wrap a sentence, phrase, single word, or punctuation mark without disrupting document layout or styling.
+			- Unified.js AST Mapping to TerminusDB Substrate
+				- Granularity mapping
+					- Document level (`root` in mdast): Corresponds to the page/section document container node.
+					- Block level (`listItem` / `paragraph` in mdast): Corresponds to individual outliner blocks with parent–child graph edges.
+					- Phrase / Entity level (`link` / `span` in hast): Corresponds to on–demand reified nodes for addressed inline spans.
+					- Word / Token level (`nlcst`): Ephemeral parser nodes used strictly during transduction passes, reified into graph nodes only when explicitly touched.
+				- Offset tracking and synchronization
+					- Unified tracks exact source offsets (`position: {start, end}`) across all AST nodes.
+					- When an inline span is addressed, the transducer uses offsets to split the parent AST text node and assign an ID to the newly created span node without disturbing surrounding text.
+		- Development Roadmap of Aperas
+		  collapsed:: true
+			- Meta–Aperas Ontological Alignment
+				- The engineering roadmap is itself a self–instantiation of the Aperas ontology: starting in the unconditioned substrate (Apeiron) and crystallizing typed interfaces (Perata) on demand as human–agent coordination needs emerge.
+			- Phase 0: Substrate and core skills (Apeiron direct)
+				- Direct database integration
+					- The primary coding agent connects directly to the **TerminusDB** substrate without any intermediate UI layer.
+					- System provides baseline skill definitions (`SKILL.md`) covering schema initialization, document CRUD, WOQL and GraphQL query execution, and temporal commit management.
+				- Verification without UI overhead
+					- Validates core graph operations, transaction safety, and agent reasoning loops directly against the canonical store.
+			- Phase 1: First Peras (Human–agent co–navigation)
+				- SolidJS read projection
+					- Constructs the initial **SolidJS + Unified.js** projection interface for deep–read human inspection.
+					- Renders continuous Markdown outliner trees directly from TerminusDB AST nodes.
+				- Multi–faceted node interface
+					- Surface projections reveal the multi–tab reference model (Article, Source, Talk, History) so humans and agents navigate the exact same operational state.
+			- Phase 2: Skill expansion and perata maturation
+				- Incremental capability growth
+					- Develops specialized procedural skills including ingestion (parsing external text into AST nodes), graph search (structural traversals and WOQL/GraphQL pattern matching, with vector support evaluated later), and refactoring (lazy atomization of spans and node merging).
+				- Co–evolution of tools and perata
+					- Each new skill definition naturally introduces corresponding tooling and new **perata** (specialized view projections).
+			- Phase 3: Multi–agent specialization and Aperas Agent interfaces
+				- Sub–agent spawning for coding agents without background API access
+					- Equips primary coding agents with specialized `SKILL.md` definitions that allow them to spawn local sub–agents via headless CLI calls, native sub–agent tools, or local execution scripts.
+					- Preserves the direct Phase 0/2 skill set so local coding agents perform deep structural graph operations, AST transductions, and multi–node updates using existing lab harnesses without secondary API costs.
+				- Dedicated agent swarms (API–enabled environments)
+					- For environments with secondary API access, specialized multi–agent subgraphs (built with **LangGraph**) run on dedicated model endpoints for complex background tasks.
+				- Triple interface continuum for user coding agents
+					- **Manual skill mode (procedural / CLI execution):** The coding agent executes raw procedural skills (`SKILL.md`) directly against the substrate, preserving full operational autonomy without API dependencies.
+					- **Tool mode (active query):** Exposes high-level perata tools and service endpoints for the coding agent to interact directly with the Aperas Agent on demand.
+					- **Hook mode (automatic context engineering):** Injects perata and context projections directly into the context window of the coding agent via background events and triggers.
