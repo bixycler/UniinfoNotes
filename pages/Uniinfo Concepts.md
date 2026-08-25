@@ -2543,3 +2543,7 @@
 		  CLOCK: [2025-04-11 Fri 19:36:03]
 		  :END:
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ālāya-vijñāna
+	- ## Aperas
+	  id:: 6a8cfb17-47c3-49b7-bc4b-02c020e62ef7
+	  collapsed:: true
+		-
