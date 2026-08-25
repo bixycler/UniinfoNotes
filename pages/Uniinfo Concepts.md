@@ -2547,7 +2547,6 @@
 	  id:: 6a8cfb17-47c3-49b7-bc4b-02c020e62ef7
 	  collapsed:: true
 		- Aperas Master Architectural Index
-		  collapsed:: true
 			- Overview
 				- Aperas is an architecture for agentic knowledge systems operating over a fluid, unconditioned semantic core and crystallizing typed boundaries on demand.
 				- To maintain modularity and deep clarity, the specification is decomposed into three focused documents.
@@ -2568,7 +2567,6 @@
 					- Universal inline boundary: `<span>` tag addressability and offset tracking.
 					- Unified.js AST mapping to TerminusDB storage substrate.
 		- Philosophy and Ontology of Aperas
-		  collapsed:: true
 			- Metaphysics of Form and Freedom (Unbounded – Unbound – Bound)
 				- Apeiron – Unbounded (Macrocosm – Objective Infinite)
 					- The outer universe existing in a state of infinite, unmanifested potential.
@@ -2599,7 +2597,6 @@
 					- Projections, skills, and tools (Perata) crystallize organically on demand only as concrete human–agent coordination points emerge.
 					- The platform builds itself using the exact principles it uses to manage knowledge: fluid at rest, bound and structured when touched.
 		- System Architecture and Mechanics of Aperas
-		  collapsed:: true
 			- Architectural Philosophy: Fluid Core vs. Crystallized Interfaces
 				- Fluid core substrate (Apeiron – formless content)
 					- The canonical state substrate remains a continuous, unconditioned semantic field – a rich graph of associations, atomic assertions, decisions, and raw evidence without rigid schema impedance.
@@ -2641,7 +2638,6 @@
 				- Self–healing boundary validation
 					- If a command payload violates boundary schema rules (Peras), type validation tracebacks are fed back to the boundary agent for immediate, localized repair without polluting the fluid core (Apeiron).
 		- Node, AST, and Storage Design in Aperas
-		  collapsed:: true
 			- On–Demand Reification (Lazy Atomization)
 				- Coarse by default, fine when touched
 					- Content is preserved at coarse granularity (full paragraph, list item, or document block) without forcing upfront micro–fragmentation into tokens or words.
@@ -2671,7 +2667,6 @@
 					- Unified tracks exact source offsets (`position: {start, end}`) across all AST nodes.
 					- When an inline span is addressed, the transducer uses offsets to split the parent AST text node and assign an ID to the newly created span node without disturbing surrounding text.
 		- Development Roadmap of Aperas
-		  collapsed:: true
 			- Meta–Aperas Ontological Alignment
 				- The engineering roadmap is itself a self–instantiation of the Aperas ontology: starting in the unconditioned substrate (Apeiron) and crystallizing typed interfaces (Perata) on demand as human–agent coordination needs emerge.
 			- Phase 0: Substrate and core skills (Apeiron direct)
