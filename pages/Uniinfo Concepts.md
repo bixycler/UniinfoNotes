@@ -2546,4 +2546,23 @@
 	- ## Aperas
 	  id:: 6a8cfb17-47c3-49b7-bc4b-02c020e62ef7
 	  collapsed:: true
-		-
+		- Aperas Master Architectural Index
+			- Overview
+				- Aperas is an architecture for agentic knowledge systems operating over a fluid, unconditioned semantic core and crystallizing typed boundaries on demand.
+				- To maintain modularity and deep clarity, the specification is decomposed into three focused documents.
+			- Core Architecture Suite
+				- Epistemology and Metaphysics: `aperas_philosophy_and_ontology.md`
+					- Metaphysical foundation: Apeiron (macrocosm), Aperas (microcosm), and Peras (interface).
+					- Conceptual triad: Unbounded – Unbound – Bound.
+					- Flatbread metaphor and linguistic emergence.
+					- Multi–faceted node epistemology: Wikipedia reference model (Article, Source, Talk, History).
+				- System Architecture and Mechanics: `aperas_system_architecture.md`
+					- Architectural philosophy: Fluid core vs. crystallized interfaces.
+					- Multi–Agent Projection Pattern and dynamic read/write transducers.
+					- System taxonomy and component boundaries.
+					- Async execution model, command dispatch, and self–healing boundary validation.
+				- Node, AST, and Storage Design: `aperas_node_and_ast_design.md`
+					- On–demand reification and lazy atomization mechanics.
+					- Three parallel planes: Rendered plane, Stored plane, and Graph plane.
+					- Universal inline boundary: `<span>` tag addressability and offset tracking.
+					- Unified.js AST mapping to TerminusDB storage substrate.
