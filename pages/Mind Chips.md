@@ -1,6 +1,6 @@
-- TODO
-	- Register AL
-	- Checkout: `linux-config`, Aperas[KG]
+- TODO ...
+	- DONE Register AL
+	- TODO Checkout: `linux-config`, Aperas[KG]
 - ---
 - 🤔😊😁 😉 😮 😛 😜 🤣 🙁 😱 👺 👁️🧿🪬  – × → ← ↓ ⇒ ⇋ ⇄ ∞∝α ‘’ ≈ ≥
 - Ω-thread Unïnfo
