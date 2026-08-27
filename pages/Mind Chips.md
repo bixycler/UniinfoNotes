@@ -1,6 +1,4 @@
-- DONE ...
-	- DONE Register AL
-	- DONE Checkout: `linux-config`, Aperas[KG]
+-
 - ---
 - 🤔😊😁 😉 😮 😛 😜 🤣 🙁 😱 👺 👁️🧿🪬  – × → ← ↓ ⇒ ⇋ ⇄ ∞∝α ‘’ ≈ ≥
 - Ω-thread Unïnfo
