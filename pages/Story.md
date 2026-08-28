@@ -2901,11 +2901,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 15-16th, weekend: Talk with my old boss Đạt and got his acceptance for my AI buddy/mate project. Updated the effect circle with [Buddhist concepts](((6a80e807-eeb3-4b75-835d-c80008b3d9ac))) and ((6a80fa52-a1b0-43cd-90e3-7e77abe1138c)).
 			- 17-21th, the whole week for office work & office discussions.
 			- 22-23th, weekend: prepared the [clip of “A.I.” movie](https://drive.google.com/file/d/1Ezzbl9ayYlXJ_46gEYEKwBrOW2X-vtQk/view?usp=sharing) as the opening for [the presentation next month](https://gemini.google.com/app/36d8823af3cb616a) gifted to my team at HTV.
-			- 24th, ...
+			- 24th, finished the prep for next month presentation and the design for ((6a8cfb17-47c3-49b7-bc4b-02c020e62ef7)).
+			  collapsed:: true
 				- ((6a8c07a5-208d-47f5-8704-0ccc487967be))
 				- ((6a8c2fa0-e3a4-4254-afe6-05a146ee0ade))
 				  id:: 6a8c3e7d-2c76-4624-80ff-49f11fe100fa
-			- 25th, start developing ((6a8cfb17-47c3-49b7-bc4b-02c020e62ef7)) after a rough design with Gemini.
+			- 25-28th, start developing ((6a8cfb17-47c3-49b7-bc4b-02c020e62ef7)) after a rough design with Gemini.
 		- Imprinting protocol in “A.I. Artificial Intelligence” movie
 		  id:: 6a8c2fa0-e3a4-4254-afe6-05a146ee0ade
 		  collapsed:: true
