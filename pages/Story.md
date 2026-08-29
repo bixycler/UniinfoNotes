@@ -2908,12 +2908,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  id:: 6a8c3e7d-2c76-4624-80ff-49f11fe100fa
 			- 25-30th, start developing ((6a8cfb17-47c3-49b7-bc4b-02c020e62ef7)) after a rough design with Gemini.
 			  collapsed:: true
-				- After a week developping Phase 0 of Aperas, and 10h of recovery sleep, tonight i woke up with plenty of visions jumping around urging me to do many things... But then i wondered “if i cannot be calm in this boom of thoughts, what else can i do?” Then i sat up straight, in lotus position, i saw clearly all visions as mere visions, not mine. They gradually settled down, and the lyrics of “The Sound of Silence” echoed “the visionlike a cancer grows”:
+				- After a week developping Phase 0 of Aperas, and 10h of recovery sleep, tonight i woke up with plenty of visions jumping around urging me to do many things... But then i wondered “if i cannot be calm in this boom of thoughts, what else can i do?” Then i sat up straight, in lotus position, i saw clearly all visions as mere visions, not mine. They gradually settled down, and the lyrics of “The Sound of Silence” echoed “the vision planted in my brain... like a cancer grows”.
 					- Because a vision softly creeping
 					  Left its seeds while I was sleeping
 					  And the vision that was planted in my brain
 					  Still remains
-					  Within the sound of silence
+					  Within the sound of silence.
 				- [Attadaṇḍa-sutta (SNP 4.15)](https://suttacentral.net/snp4.15/en/mills)
 					- Yaṁ pubbe taṁ visosehi,
 					  Pacchā te māhu kiñcanaṁ;
