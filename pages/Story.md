@@ -2907,7 +2907,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- ((6a8c2fa0-e3a4-4254-afe6-05a146ee0ade))
 				  id:: 6a8c3e7d-2c76-4624-80ff-49f11fe100fa
 			- 25-30th, start developing ((6a8cfb17-47c3-49b7-bc4b-02c020e62ef7)) after a rough design with Gemini.
+			  collapsed:: true
 				- After a week of
+				- Yodha kāme accatari,
+				  Saṅgaṁ loke duraccayaṁ;
+				  Na so socati nājjheti,
+				  Chinnasoto abandhano.
+				-
 		- Imprinting protocol in “A.I. Artificial Intelligence” movie
 		  id:: 6a8c2fa0-e3a4-4254-afe6-05a146ee0ade
 		  collapsed:: true
