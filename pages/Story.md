@@ -2906,7 +2906,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- ((6a8c07a5-208d-47f5-8704-0ccc487967be))
 				- ((6a8c2fa0-e3a4-4254-afe6-05a146ee0ade))
 				  id:: 6a8c3e7d-2c76-4624-80ff-49f11fe100fa
-			- 25-28th, start developing ((6a8cfb17-47c3-49b7-bc4b-02c020e62ef7)) after a rough design with Gemini.
+			- 25-30th, start developing ((6a8cfb17-47c3-49b7-bc4b-02c020e62ef7)) after a rough design with Gemini.
+				- After a week of
 		- Imprinting protocol in “A.I. Artificial Intelligence” movie
 		  id:: 6a8c2fa0-e3a4-4254-afe6-05a146ee0ade
 		  collapsed:: true

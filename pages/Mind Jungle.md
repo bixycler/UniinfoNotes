@@ -2122,6 +2122,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- Act IV: The retrospective diagnosis – [Māgaṇḍiya Sutta (MN 75)](https://suttacentral.net/mn75/en/sujato)
 								- Having fully metabolized the suffering, he looked back at the societal clinging to sensual pleasures.
 								- He diagnosed that closed-loop defense as a disease – like a leper roasting his own festering wounds over a fire pit for temporary relief.
+								  id:: 6a6e8d34-ef7e-4475-b0d4-44f6370e7bfb
 						- Navigating the flood
 							- The mechanics of processing this systemic friction is mapped in the [Oghataraṇa Sutta (SN 1.1)](https://suttacentral.net/sn1.1/en/bodhi) and echoes the extraction of the invisible arrow in the *Attadaṇḍa Sutta* (Snp 4.15).
 							- In SN 1.1, the Buddha states:
