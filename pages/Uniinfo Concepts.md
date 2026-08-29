@@ -2579,7 +2579,7 @@
 					- Etymologically layered:
 						- *A-* (without) + *Peras* (limit) = **Unbound**: Not merely “unlimited” in size, but intrinsically free from rigid constraints.
 						- *Aperas* in Esperanto = “Appears / Emerges”: The active manifestation where structured forms materialize out of the fluid core on demand.
-						- *Aperio* (Latin verb meaning “open, uncover”): The open-source act of laying knowledge bare, mirroring its legal fluidity under [The Unlicense](https://unlicense.org/) by refusing rigid cages or ownership.
+						- *Aperis* (Latin verb meaning “open, uncover”): The open-source act of laying knowledge bare, mirroring its legal fluidity under [The Unlicense](https://unlicense.org/) by refusing rigid cages or ownership.
 						- Appam / Flatbread: The warm, versatile, round flatbread – simple, wholesome, and adaptable to any filling or shape.
 					- While daily interaction imposes limits and fixed roles, the liberated soul breaks through the illusion of rigid division, realizing its inner ground is identical in essence to the boundless Apeiron.
 				- Peras – Bound (The Interface – Transient Boundary)
