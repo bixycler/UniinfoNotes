@@ -2928,7 +2928,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  Tương lai chẳng bận lòng;
 					  Hiện tại không nắm giữ,
 					  Tịch tịnh bước thong dong.
-			- 31st,
+			- 31st, closing Phase 0, starting Phase 1 of Aperas dev.
 			  collapsed:: true
 				- Review of the emergence of Unïnfo's ((66f3d561-424a-4e1d-be55-98ac39c48502)) & ((66f3d5ca-a982-4d12-b307-fd4812adeb3b)) from my background, in a chat with Huy.
 				  collapsed:: true
