@@ -2924,9 +2924,28 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  If not grasp the present,
 					  You will walk in peace.
 					- Quá khứ không tích trữ,
+					  id:: 6a94c328-dd71-4fba-9f01-5458a49c810e
 					  Tương lai chẳng bận lòng;
 					  Hiện tại không nắm giữ,
 					  Tịch tịnh bước thong dong.
+			- 31st,
+			  collapsed:: true
+				- Review of Unïnfo's ((66f3d561-424a-4e1d-be55-98ac39c48502)) & ((66f3d5ca-a982-4d12-b307-fd4812adeb3b)) from my background, in a chat with Huy.
+				  collapsed:: true
+					- {{embed ((6a94c328-dd71-4fba-9f01-5458a49c810e))}}
+					  — trích Kinh Tiểu Bộ SNP 4.15
+					- Huy: Functional program, không có state.
+					- Gần đúng nhưng chưa chính xác. "Functional" ở chỗ "mọi thứ tới rồi đi không níu kéo, không giữ lại", nhưng chỗ "không xua đuổi" thì ông so với cái gì?
+						- Cái sướng đó đã khởi lên nơi ta, được tồn tại trong ta (không xua đuổi), nhưng không làm chi phối tâm ta (không bám giữ).
+						- Cái khổ đó đã khởi lên nơi ta, được tồn tại trong ta (không xua đuổi), nhưng không làm chi phối tâm ta (không bám giữ).
+					- Function như cái ống luôn trôi chảy, còn thân tâm này là cả một hệ sinh thái, có luồng lạch trôi chảy nhưng cũng có đầm phá, hồ chứa tự nhiên. Chỉ là không xây đập để chặn dòng chảy và làm căng đầy mở rộng các hồ (thủy điện) mà thôi.
+					- "Functional program không có state" là một lý thuyết xạo láo 😝
+					- Hồi năm 1 ĐH Ôsaka, tui làm thí nghiệm với mấy con chip, lắp từng cổng AND, NOT, OR, NAND, NOR, tuy chưa biết gì về Turing Machine, nhưng đến lúc lắp cái **vòng tròn** 2 cổng NAND lại thành một mạch flip-flop (1 bit nhớ) là tui vỡ lẽ "à, đây là bước đột phá, biến những thứ không thể làm được thời xưa thành máy tính hiện đại, nhờ có bit nhớ này!" (Khai ngộ đầu tiên của tui về vòng tròn). Sau này học lý thuyết automat, tui mới có ngôn ngữ để giải thích cái "khai ngộ" năm 1 của mình: pure functional circuit = 0-state automaton —> càng nhiều state thì càng biểu diễn được bài toán phức tạp hơn —> Turing Machine là có state không giới hạn.
+					- Nói FP là "stateless" là xạo láo, vì nó là Turing-complete. Đố ông nó ***cheat*** chỗ nào 😉 (Dạo này có AI rồi nên tui ko muốn giải thích nhiều, tránh làm ông bị hoa mắt bởi đống chữ của tui)
+					- Huy: Program stack?
+					- Uh, mà nó còn ngốn bộ nhớ gấp nhiều lần procedural programming nữa, nếu không optimize đủ kiểu.
+					  VD: for (i = 0; i<10; i++) s += i; // chỉ có 2 biến s & i, được tái sử dụng 10 lần
+					  series(i) = series(i-1) + i; series(10)  //  10 stack frame, mỗi frame 2 slot (i, return value) ==> gấp 10 lần bộ nhớ
 		- Imprinting protocol in “A.I. Artificial Intelligence” movie
 		  id:: 6a8c2fa0-e3a4-4254-afe6-05a146ee0ade
 		  collapsed:: true
