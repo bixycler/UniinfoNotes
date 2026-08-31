@@ -2569,7 +2569,6 @@
 					- Unified.js AST mapping to TerminusDB storage substrate.
 		- Philosophy and Ontology of Aperas
 		  id:: 6a8cfdf7-e32c-4eff-882d-6cd987a2f630
-		  collapsed:: true
 			- Metaphysics of Form and Freedom (Unbounded – Unbound – Bound)
 				- Apeiron – Unbounded (Macrocosm – Objective Infinite)
 					- The outer universe existing in a state of infinite, unmanifested potential.
