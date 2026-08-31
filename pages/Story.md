@@ -2930,7 +2930,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  Tịch tịnh bước thong dong.
 			- 31st,
 			  collapsed:: true
-				- Review of Unïnfo's ((66f3d561-424a-4e1d-be55-98ac39c48502)) & ((66f3d5ca-a982-4d12-b307-fd4812adeb3b)) from my background, in a chat with Huy.
+				- Review of the emergence of Unïnfo's ((66f3d561-424a-4e1d-be55-98ac39c48502)) & ((66f3d5ca-a982-4d12-b307-fd4812adeb3b)) from my background, in a chat with Huy.
 				  collapsed:: true
 					- {{embed ((6a94c328-dd71-4fba-9f01-5458a49c810e))}}
 					  — trích Kinh Tiểu Bộ SNP 4.15
@@ -2944,8 +2944,20 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Nói FP là "stateless" là xạo láo, vì nó là Turing-complete. Đố ông nó ***cheat*** chỗ nào 😉 (Dạo này có AI rồi nên tui ko muốn giải thích nhiều, tránh làm ông bị hoa mắt bởi đống chữ của tui)
 					- Huy: Program stack?
 					- Uh, mà nó còn ngốn bộ nhớ gấp nhiều lần procedural programming nữa, nếu không optimize đủ kiểu.
-					  VD: for (i = 0; i<10; i++) s += i; // chỉ có 2 biến s & i, được tái sử dụng 10 lần
-					  series(i) = series(i-1) + i; series(10)  //  10 stack frame, mỗi frame 2 slot (i, return value) ==> gấp 10 lần bộ nhớ
+					  VD: `for (i = 0; i<10; i++) s += i;` // chỉ có 2 biến `s` & `i`, được tái sử dụng 10 lần
+					  `series(i) = series(i-1) + i; series(10)`  //  10 stack frame, mỗi frame 2 slot (`i`, return value) ==> gấp 10 lần bộ nhớ
+					- Recursion là vòng tròn, đồng dạng topo với vòng feedback 2 cổng của 1 bit nhớ (flip-flop), nên cùng 1 bản chất, chỉ thể hiện ra interface khác nhau thôi.
+					- FP là thái cực mũi tên, mô phỏng vòng tròn bằng cách uốn mũi tên quay vòng lại chính nó (đệ quy) ⟳
+					  Procedure programming trung dung hơn, có cả vòng tròn (struct) và mũi tên (hàm), nên gần với cuộc sống con người hơn, nên dễ học hơn, phổ biến hơn.
+					  Còn OOP thì gom 2 cái đó lại thành 1 cục, phát triển theo hướng vòng tròn, dùng vòng tròn để tóm các mũi tên lại, tạo ra cấu trúc Bản ngã, self (`this` in C, Java; `self` in Objective-C, Ruby, Python, Rust). Đó là sự phát triển của cái tôi, đóng gói những thứ "của tôi" lại không cho kẻ khác đụng vào.
+					  ==> Nhà Phật không bảo qua thái cực FP mà chỉ bảo đừng phát triển kiểu OOP thôi 😆
+					- Lúc nghiên cứu FP, tui thấy hay ở cái nhìn "flow", mọi thứ đều trôi chảy, ngay cả vòng tròn có vẻ tĩnh thực ra cũng là đang chảy... lòng vòng! ==> Data flow.
+					  Và lúc tui thấy 2 biểu tượng vòng tròn & mũi tên trong Uniinfo thì... phần lớn nó xuất phát từ chính background IT của tui, gần nhứt là state diagram: state = circle, transition = arrow. Chỉ khác là qua khai ngộ flip-flop hồi đầu ĐH, tui không thấy 2 món đó là 2 type tách biệt mà là cùng bản chất, lưỡng tính sóng hạt.
+					- Tóm lại, FP chỉ cho thấy bản chất lưỡng tính của state, nhìn theo mũi tên thì state = circular flow. Sông có khúc người có lúc, có đoạn chảy thẳng đuột thì chảy ào ào thể hiện ra rõ là mũi tên, nhưng cũng có chỗ uốn lượn rồi cuộn lại thành đầm, hồ, thể hiện ra là vòng tròn.
+					- **Vô thường** là luôn thay đổi, nhắc nhở bản chất flow trong những cái hồ có vẻ tĩnh lặng kia, để đừng chấp vào nó... kẻo dồn nén quá có ngày bể đập thì tất cả những thứ tích trữ trong đó bung ra thành mũi tên hung hãng huỷ diệt hết những vòng tròn khác.
+					- À, trong lúc ghi cho ông, ôn lại thời trẻ, tui mới nhớ là ấn tượng vòng tròn & mũi tên của tui đã có từ thời phổ thông, khi tui học lập trình... Tui thắc mắc "ủa, sao hay vậy kà, chỉ có vòng lặp và rẽ nhánh mà có thể biểu diễn được hết mọi thứ phức tạp trong cuộc sống này sao!?"
+					  Và trước cả FP lẫn procedural, thì thời Assembly cũng đã bắt đầu bằng thuần mũi tên, chỉ khác là mũi tên control (jump) chứ ko phải mũi tên data.
+					- Đến Uniinfo thì tui gom 2 mũi tên đó lại thành ((667bef22-b272-4a7d-b613-3f1ed1a47329)), gọi là "thread", gồm cả thảy các flow từ control, data, đến type, side effect, v.v. Và cấu trúc cơ bản là "effect circle" (circular effect flow) hay "self-effect".
 		- Imprinting protocol in “A.I. Artificial Intelligence” movie
 		  id:: 6a8c2fa0-e3a4-4254-afe6-05a146ee0ade
 		  collapsed:: true
