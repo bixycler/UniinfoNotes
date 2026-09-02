@@ -1,4 +1,16 @@
--
+- Let's start Phase 1.1 (Apeiron operating skills) by trying the following workflow: (Update dev status first)
+	- Turn all cross-references written in artifacts into wikilinks in the form `[title]([[target]])` with target is a path of folder/artifact/slug.
+	- Ingest the artifacts one by one.
+	- After each ingestion, set title for untitled blocks.
+	- Beside wikilinks, check the semantics to create `references` links to other referees.
+- Meta Nodes
+	- Profile > TreeView -[Link]-> TreeNode{title,text,@key}
+	- Link{@subdocument}
+- i: imagine, internal, idea, intel, intermediate, index
+- 3 tiers of perata
+	- Artifact projection
+	- i view (TreeView, ...): the intermediate between 2 other tiers
+	- UI projection
 - ---
 - 🤔😊😁 😉 😮 😛 🤪 😜 🤣 🙁 😱 👺 👁️🧿🪬  – × → ← ↓ ⇒ ⇋ ⇄ ∞∝α ‘’ ≈ ≥
 - Ω-thread Unïnfo
