@@ -3000,9 +3000,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Holographic collapse from macrocosm to microcosm
 					- The sequence funnels the entire expanse of physical and intellectual reality – atmosphere, philosophy, subatomic matter, sound, storms, oceans, and flora – down into a singular intimate relation.
 					- It mirrors a holographic view of reality: the vast machinery of the universe is fully encoded within a single, mundane moment of human attachment.
-		-
+		- September journal
+		  id:: 6a931d8b-b8ec-4a32-b421-762f8bb609cd
+		  collapsed:: true
+			- 1-2nd, i thought Aperas Phase 0 was over, but Phase 0.1 came to migrate from TerminusDB to Oxigraph.
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
+		- ((6a931d8b-b8ec-4a32-b421-762f8bb609cd))
 		- ((6a708225-3b28-49ca-b93d-c9982588375c))
 		- ...
 		  id:: 688c70c8-1772-4007-bdf0-d621db895411
