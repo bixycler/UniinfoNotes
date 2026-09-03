@@ -3,7 +3,6 @@
 	- Ingest the artifacts one by one.
 	- After each ingestion, set title for untitled blocks.
 	- Beside wikilinks, check the semantics to create `references` links to other referees.
-- TODO Remove `RemoteTerminusDB` in `.profile`
 - ---
 - 🤔😊😁 😉 😮 😛 🤪 😜 🤣 🙁 😱 👺 👁️🧿🪬  – × → ← ↓ ⇒ ⇋ ⇄ ∞∝α ‘’ ≈ ≥
 - Ω-thread Unïnfo
