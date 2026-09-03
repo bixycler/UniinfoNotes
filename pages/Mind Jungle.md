@@ -442,6 +442,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Features: Web search, read documents and images in various formats, generate images and videos.
 				- Qwen is open sourced by Chinese Alibaba.
 			- Gemini App
+			  id:: 699c0360-18bd-4738-9edb-c31ba4aef6a3
 			  [gemini.google.com/app](https://gemini.google.com/app)
 				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Google_Gemini
 				- Features
