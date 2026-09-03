@@ -3,13 +3,13 @@
 	- Ingest the artifacts one by one.
 	- After each ingestion, set title for untitled blocks.
 	- Beside wikilinks, check the semantics to create `references` links to other referees.
-- Meta Nodes
-	- Profile > TreeView -[Link]-> TreeNode{title,text,@key}
-	- Link{@subdocument}
 - 3 tiers of perata
 	- Artifact projection
 	- i view (TreeView, ...): the intermediate between 2 other tiers
 	- UI projection
+- TreeView: both children & links
+	- Profile > TreeView -[Link, children]-> TreeNode
+	-
 - TODO Remove `RemoteTerminusDB` in `.profile`
 - ---
 - 🤔😊😁 😉 😮 😛 🤪 😜 🤣 🙁 😱 👺 👁️🧿🪬  – × → ← ↓ ⇒ ⇋ ⇄ ∞∝α ‘’ ≈ ≥
