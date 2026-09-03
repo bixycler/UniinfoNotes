@@ -3004,9 +3004,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  id:: 6a931d8b-b8ec-4a32-b421-762f8bb609cd
 		  collapsed:: true
 			- 1-2nd, i thought Aperas Phase 0 was over, but Phase 0.1 came to migrate from TerminusDB to Oxigraph.
-			- 3rdh,...
+			- 3rd,...
 				- i: imagine, inner/internal, idea, intel, intermediate, index, independent, intimate
-				- Thanks to coding agents, now i can have intermittent mindful periods instead of being caught up in the flow.
+				- Thanks to coding agents, now i can have mindful periods while waiting, instead of being caught up in the flow.
 			-
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
