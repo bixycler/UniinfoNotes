@@ -10,6 +10,7 @@
 	- Artifact projection
 	- i view (TreeView, ...): the intermediate between 2 other tiers
 	- UI projection
+- TODO Remove `RemoteTerminusDB` in `.profile`
 - ---
 - 🤔😊😁 😉 😮 😛 🤪 😜 🤣 🙁 😱 👺 👁️🧿🪬  – × → ← ↓ ⇒ ⇋ ⇄ ∞∝α ‘’ ≈ ≥
 - Ω-thread Unïnfo
