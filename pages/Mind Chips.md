@@ -7,8 +7,9 @@
 	- Link = BaseLink + `[positions]`
 		- text (order or pos) -> Link (pos) -> text
 	- `parent` (breadcrumb) as a special link, counted as link.
-	- Rebase (zoom): recursive 2-pass algorithm for viewcone at base (default = root)
-		- For each link target out of viewcone
+	- Viewcone Zoom: recursive 2-pass algorithm for viewcone whose apex = target node (default = root)
+		- For each link target T out of viewcone, zoom to T, then apply the 2-pass algorithm.
+		- The typical usage is to view the zoomed out links for broader context.
 - ---
 - 🤔😊😁 😉 😮 😛 🤪 😜 🤣 🙁 😱 👺 👁️🧿🪬  – × → ← ↓ ⇒ ⇋ ⇄ ∞∝α ‘’ ≈ ≥
 - Ω-thread Unïnfo
