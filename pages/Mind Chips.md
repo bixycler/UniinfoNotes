@@ -3,6 +3,12 @@
 	- Ingest the artifacts one by one.
 	- After each ingestion, set title for untitled blocks.
 	- Beside wikilinks, check the semantics to create `references` links to other referees.
+- TreeView
+	- Link = BaseLink + `[positions]`
+		- text (order or pos) -> Link (pos) -> text
+	- `parent` (breadcrumb) as a special link, counted as link.
+	- Rebase (zoom): recursive 2-pass algorithm for viewcone at base (default = root)
+		- For each link target out of viewcone
 - ---
 - 🤔😊😁 😉 😮 😛 🤪 😜 🤣 🙁 😱 👺 👁️🧿🪬  – × → ← ↓ ⇒ ⇋ ⇄ ∞∝α ‘’ ≈ ≥
 - Ω-thread Unïnfo
