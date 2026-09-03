@@ -6,7 +6,6 @@
 - Meta Nodes
 	- Profile > TreeView -[Link]-> TreeNode{title,text,@key}
 	- Link{@subdocument}
-- i: imagine, internal, idea, intel, intermediate, index
 - 3 tiers of perata
 	- Artifact projection
 	- i view (TreeView, ...): the intermediate between 2 other tiers
