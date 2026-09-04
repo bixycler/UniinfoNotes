@@ -7,7 +7,6 @@
 	- Link = BaseLink + `[positions]`
 		- text (order or pos) -> Link (pos) -> text
 		- Bug: `[[wikilink]]` gets littered all over the place!
-	- `resolve`: bug: not prefix-matched
 	- `parent` (breadcrumb) as a special link, counted as link.
 	- Viewcone Zoom: recursive 2-pass algorithm for viewcone whose apex = target node (default = root)
 		- For each link target T out of viewcone, zoom to T, then apply the 2-pass algorithm.
