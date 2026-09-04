@@ -4,8 +4,6 @@
 	- After each ingestion, set title for untitled blocks.
 	- Beside wikilinks, check the semantics to create `references` links to other referees.
 - TreeView
-	- Link = BaseLink + `[positions]`
-		- text (order or pos) -> Link (pos) -> text
 	- `parent` (breadcrumb) as a special link, counted as link.
 	- Viewcone Zoom: recursive 2-pass algorithm for viewcone whose apex = target node (default = root)
 		- For each link target T out of viewcone, zoom to T, then apply the 2-pass algorithm.
