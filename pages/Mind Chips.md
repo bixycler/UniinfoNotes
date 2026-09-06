@@ -3,6 +3,14 @@
 	- Ingest the artifacts one by one.
 	- After each ingestion, set title for untitled blocks.
 	- Beside wikilinks, check the semantics to create `references` links to other referees.
+- CRUD
+	- Insert node before/after node & promote placeholder to concrete node
+	- Delete node recursively
+	- Set title
+	- Update text = ingest
+		- All blocks other than the first paragraph will be prepended to the children, with a merge of list.
+		- The first child must be added via parent text update, cannot be inserted.
+	- Reconcile node = ingest
 - ---
 - 🤔😊😁 😉 😮 😛 🤪 😜 🤣 🙁 😱 👺 👁️🧿🪬  – × → ← ↓ ⇒ ⇋ ⇄ ∞∝α ‘’ ≈ ≥
 - Ω-thread Unïnfo
