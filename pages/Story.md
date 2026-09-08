@@ -3009,6 +3009,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- “i”: imagine, inner/internal, idea, intel, intermediate, index, independent, intimate
 				- Thanks to coding agents, now i can have mindful periods while waiting, instead of being caught up in the flow.
 			- 4-7th, implemented and fixed a lot in order to close Phase 0.
+			- 8th, start Phase 1.1 with the first hurdle of markdown link ⇒ still developing tools for link.
+				- “ApeironNgn” is built to replace TerminusDB in Aperas. It is pronounced “uh-π-ron-engine”, with “Apeiron” accidentally opposite to “Terminus”. 😁
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a931d8b-b8ec-4a32-b421-762f8bb609cd))
