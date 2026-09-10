@@ -5,7 +5,6 @@
 	- Beside wikilinks, check the semantics to create `references` links to other referees.
 - Linking
 	- What's the conversion of address for? What's the form of address in Apeiron?
-	- Workflow: pre-ingestion linking is optional. Just ingest all and work directly with ID-links.
 - ---
 - 🤔😊😁 😉 😮 😛 🤪 😜 🤣 🙁 😱 👺 👁️🧿🪬  – × → ← ↓ ⇒ ⇋ ⇄ ∞∝α ‘’ ≈ ≥
 - Ω-thread Unïnfo
