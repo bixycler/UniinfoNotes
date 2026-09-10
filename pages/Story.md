@@ -3024,6 +3024,5 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a931d8b-b8ec-4a32-b421-762f8bb609cd))
-		- ((6a708225-3b28-49ca-b93d-c9982588375c))
 		- ...
 		  id:: 688c70c8-1772-4007-bdf0-d621db895411

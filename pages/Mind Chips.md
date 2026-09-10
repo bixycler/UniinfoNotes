@@ -5,7 +5,6 @@
 	- Beside wikilinks, check the semantics to create `references` links to other referees.
 - Linking
 	- What's the conversion of address for? What's the form of address in Apeiron?
-	- How to recognize wikilink? Match target with `a.aperas-anchor`?
 	- Workflow: pre-ingestion linking is optional. Just ingest all and work directly with ID-links.
 - ---
 - 🤔😊😁 😉 😮 😛 🤪 😜 🤣 🙁 😱 👺 👁️🧿🪬  – × → ← ↓ ⇒ ⇋ ⇄ ∞∝α ‘’ ≈ ≥
