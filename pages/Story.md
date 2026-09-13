@@ -3027,7 +3027,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- This is the symmetry that Claude Opus derived from my hint “top-down design & bottom-up emergence” on the Aperas skill development.
 				- This news confirms the rumor about OpenAI's huge loses: [Why OpenAI’s IPO Is a Disaster Waiting to Happen](https://youtu.be/mdwhTca-G_w)
 			- 12-13th, ...
-				- My coding agent dogfooded not only the Aperas toolset to develop Aperas but also the philosophy “think in graph instead of in words” right in the chat with me: It lifted the `SKILL.md` to the KG and ran a thread through the sections to validate it.
+				- My coding agent dogfooded not only the Aperas toolset to develop Aperas but also the philosophy “think in graph instead of in words” right in the chat with me: It lifted the `SKILL.md` to the KG and ran a thread through the sections to audit it.
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a931d8b-b8ec-4a32-b421-762f8bb609cd))
