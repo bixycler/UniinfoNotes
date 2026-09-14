@@ -1,10 +1,6 @@
-- Let's start Phase 1.1 (Apeiron operating skills) by trying the following workflow: (Update dev status first)
-	- Turn all cross-references written in artifacts into wikilinks in the form `[title]([[target]])` with target is a path of folder/artifact/slug.
-	- Ingest the artifacts one by one.
-	- After each ingestion, set title for untitled blocks.
-	- Beside wikilinks, check the semantics to create `references` links to other referees.
 - Linking
 	- What's the conversion of address for? What's the form of address in Apeiron?
+- ĐK AL 14/9
 - ---
 - 🤔😊😁 😉 😮 😛 🤪 😜 🤣 🙁 😱 👺 👁️🧿🪬  – × → ← ↓ ⇒ ⇋ ⇄ ∞∝α ‘’ ≈ ≥
 - Ω-thread Unïnfo
