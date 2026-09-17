@@ -7,7 +7,6 @@
 		  It's obviously not this one.
 	- Linking
 		- What's the conversion of address for? What's the form of address in Apeiron?
-- ĐK AL 14/9
 - ---
 - 🤔😊😁 😉 😮 😛 🤪 😜 🤣 🙁 😱 👺 👁️🧿🪬  – × → ← ↓ ⇒ ⇋ ⇄ ∞∝α ‘’ ≈ ≥
 - Ω-thread Unïnfo —
