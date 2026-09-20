@@ -1,10 +1,23 @@
 - Aperas dev
   collapsed:: true
+	- `SKILL.md` Style
+		- Lead-in term then colon, not bold sentence then period.
+		- Any later part with lead-in term should be a sub-item, not to be burried in the long paragraph.
+		- Outside the Freeflow, either written from scratch or promoted from a freeflow item, each paragraph should not be longer than 3 sentences. Break them into sub-items for clarity. Don't nest many things (multiple ideas, em-dashes, nested explanations, etc.) into a single sentence. 
+		  collapsed:: true
+			- Example 1:
+				- From a long-running sentence: "This option, which is proposed in the discussion as the first candidate — the most valuable choice we can make — to implement, must be reconsidered now, due to its problematic behavior (unstable performance, high resource consumption, etc.) at runtime."
+				- Break down into sentences: "We must reconsider this option due to its unstable performance and high resource consumption at runtime. It was originally proposed as our top candidate because it was the most valuable choice we can make."
+			- Example 2:
+				- From a run-on sentence: "`packages/web` renders the live corpus via a Solid `FolderDiv`, driven entirely by real graph state through a dev-only bridge to the ApeironNgn service (talking to it directly over its unix socket — the same request/ensureServiceRunning every `kg*.ts` entrypoint already uses — rather than shelling out a CLI subcommand per click, which the first version of this bridge did and which made fold/unfold feel like seconds-per-click; a `flush: true` inherited from that first version separately forced a full content-mirror dehydrate on every `fold`/`unfold` too, since service.ts's own cases set the content-dirty flag unconditionally)."
+				- Refactor to a list: "`packages/web` renders the live corpus via a Solid `FolderDiv`, driven by real graph state through a dev-only bridge to ApeironNgn.
+					- Communication: Talks directly to the service over its Unix socket. It uses the standard request/ensureServiceRunning entrypoint pattern found in `kg*.ts`.
+					- Performance Fix: Replaces the legacy CLI subcommand approach, which was causing severe multi-second lags on `fold`/`unfold`.
+					- State Management: Fixed a legacy `flush: true` inheritance that was unconditionally setting the content-dirty flag and forcing an aggressive full content-mirror dehydrate on every toggle."
 	- etc
-		- The issue of checkbox: Let's use this case to gauge how many steps you do to find it and its complicated history of back and forth. 
-		  > content landing on a tombstoned id, invisible, while the summary reports a clean match
-		  
-		  It's obviously not this one.
+		- Let's add `--format:{short|long}` to `tree`. Default: `long` for `--view`, `short` otherwise.
+		- Add breadcrumbs path to `unfold` output, just like that of `tree`.
+		-
 	- Linking
 		- What's the conversion of address for? What's the form of address in Apeiron?
 - ---
