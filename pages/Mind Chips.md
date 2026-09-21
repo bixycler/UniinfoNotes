@@ -19,7 +19,6 @@
 		- 3-level folding
 		- state machine tool
 	- etc
-		- Replace the nearly invisible `✎` with emoji `✏️`
 		- Let's add `--format:{short|long}` to `tree`. Default: `long` for `--view`, `short` otherwise.
 		- Add breadcrumbs path to `unfold` output, just like that of `tree`.
 		-
