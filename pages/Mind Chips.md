@@ -14,6 +14,10 @@
 					- Communication: Talks directly to the service over its Unix socket. It uses the standard request/ensureServiceRunning entrypoint pattern found in `kg*.ts`.
 					- Performance Fix: Replaces the legacy CLI subcommand approach, which was causing severe multi-second lags on `fold`/`unfold`.
 					- State Management: Fixed a legacy `flush: true` inheritance that was unconditionally setting the content-dirty flag and forcing an aggressive full content-mirror dehydrate on every toggle."
+	- Core
+		- Add service log
+		- 3-level folding
+		- state machine tool
 	- etc
 		- Let's add `--format:{short|long}` to `tree`. Default: `long` for `--view`, `short` otherwise.
 		- Add breadcrumbs path to `unfold` output, just like that of `tree`.
