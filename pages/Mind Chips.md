@@ -16,11 +16,10 @@
 					- State Management: Fixed a legacy `flush: true` inheritance that was unconditionally setting the content-dirty flag and forcing an aggressive full content-mirror dehydrate on every toggle."
 	- Core
 		- Add service log
-		- 3-level folding
 		- state machine tool
 	- etc
 		- Let's add `--format:{short|long}` to `tree`. Default: `long` for `--view`, `short` otherwise.
-		- Add breadcrumbs path to `unfold` output, just like that of `tree`.
+		-
 		-
 	- Linking
 		- What's the conversion of address for? What's the form of address in Apeiron?
