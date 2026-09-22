@@ -371,6 +371,10 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 			  git restore-mtime
 			  ```
 			- This is useful for newly cloned repos and some accident caused by a mass Git reset/checkout.
+		- Stash-save tracked changes without touching the work dir
+			- ```sh
+			  git stash store $(git stash create)
+			  ```
 	- Git workflows
 	  id:: 666022fc-eeeb-4365-a854-7e14045655be
 	  collapsed:: true
