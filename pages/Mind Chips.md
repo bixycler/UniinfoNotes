@@ -16,12 +16,13 @@
 					- State Management: Fixed a legacy `flush: true` inheritance that was unconditionally setting the content-dirty flag and forcing an aggressive full content-mirror dehydrate on every toggle."
 	- Core
 		- Add service log
-		- state machine tool
+		- state-machine subagents, state machine tool, subagent thread + treeview
 	- etc
 		- Let's add `--format:{short|long}` to `tree`. Default: `long` for `--view`, `short` otherwise.
 		-
 		-
 	- Linking
+		- Dense linking with links & tags as fields, and `concepts.md`
 		- What's the conversion of address for? What's the form of address in Apeiron?
 - ---
 - 🤔😊😁 😉 😮 😛 🤪 😜 🤣 🙁 😱 👺 👁️🧿🪬  – × → ← ↓ ⇒ ⇋ ⇄ ∞∝α ‘’ ≈ ≥
