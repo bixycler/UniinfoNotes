@@ -1,0 +1,145 @@
+Each screensaver is an executive, called "hack", in
+/usr/libexec/xscreensaver/${hack}
+and has its own man page, eg `man klein`.
+
+
+- Apollonian: Apollonian Gasket 
+    A fractal packing of circles with smaller circles, demonstrating Descartes's theorem.
+    Written by Allan R. Wilks and David Bagley; 2002.
+- Beats: Pendulum Wave
+    Draws figures that move around at a slightly different rate from each other, creating interesting chaotic and ordered patterns.
+    Written by David Eccles; 2020.
+- Boxed: Particles in a box (potential well)
+    A box full of 3D bouncing balls that explode.
+    Written by Sander van Grieken; 2002.
+- Cage: Escher's "Impossible Cage", a 3d analog of a moebius strip, and rotates it in three dimensions.
+    Written by Marcelo Vianna; 1998.
+- CCurve: "Lévy C curve" fractal by L-system construction
+    Generates self-similar linear fractals, including the classic "C Curve".
+    Written by Rick Campbell; 1999.
+- Celtic: Celtic_knot
+    Repeatedly draws random Celtic cross-stitch patterns.
+    Written by Max Froumentin; 2005.
+- CloudLife: Variation of Conway's Game of Life
+    Generates cloud-like formations based on a variant of Conway's Game of Life. The difference is that cells have a maximum age, after which they count as 3 for populating the next generation. This makes long-lived formations explode instead of just sitting there.
+    Written by Don Marti; 2003.
+- Coral: Simulates coral growth, albeit somewhat slowly.
+    Written by Frederick Roeber; 1997.
+- CubicGrid: Linear alignment & alias
+    A rotating lattice of colored points.
+    Written by Vasek Potocek; 2007.
+- Discrete: Discrete map fractal systems, including variants of Hopalong, Julia, and others.
+    Written by Tim Auckland; 1998.
+- Epicycle: This draws the path traced out by a point on the edge of a circle. That circle rotates around a point on the rim of another circle, and so on, several times.
+    Written by James Youngman; 1998.
+- EtruscanVenus: Klein bottle transformation
+    A 3D immersion of of a Klein bottle that smoothly deforms between the Etruscan Venus surface, the Roman surface, the Boy surface, and the Ida surface. Topologically, all surfaces are Klein bottles, even the Roman and Boy surfaces, which are doubly covered and therefore appear to be an immersed real projective plane.
+    Inspired by George K. Francis's book "A Topological Picturebook", Springer, 1987, George K. Francis's paper "The Etruscan Venus" in P. Concus, R. Finn, and D. A. Hoffman: "Geometric Analysis and Computer Graphics", Springer, 1991, and a video entitled "The Etruscan Venus" by Donna J. Cox, George K. Francis, and Raymond L. Idaszak, presented at SIGGRAPH 1989.
+    Written by Carsten Steger; 2020.
+  238 = id:
+  GL:               etruscanvenus -root -view-mode turn       \
+                    -speed-x 0.2 -speed-y 0.4 -speed-z 0.0 -deformation-speed 2.0 \
+                  -orientation-marks -mode surface        \
+                  -appearance distance-bands -colors twosided-colors          \
+                   -no-change-colors -projection  orthographic    \
+                   -delay 0             \n\
+- Euler2D: Euler Equation for inviscid fluid
+    Simulates two dimensional incompressible inviscid fluid flow.
+    Written by Stephen Montgomery-Smith; 2002.
+- Flow: Strange Attractors in a cube
+    Strange attractors formed of flows in a 3D differential equation phase space. Features the popular attractors described by Lorentz, Roessler, Birkhoff and Duffing, and can discover entirely new attractors by itself.
+    Written by Tim Auckland; 1998.
+                flow -root -delay 15000 -count 5000       \
+                  -cycles 800000 -ncolors 255 -size -20       \
+                  -no-rotate -no-ride -no-box             \
+                  -no-periodic                  \n\
+- Galaxy: Spinning galaxies collide.
+    Written by Uli Siegmund, Harald Backert, and Hubert Feyrer; 1997.
+- GLHanoi: Solves the Towers of Hanoi puzzle. Move N disks from one pole to another, one disk at a time, with no disk ever resting on a disk smaller than itself.
+    Written by Dave Atkinson; 2005.
+- GLSnake: The "Rubik's Snake" puzzle. See also the "Rubik" and "Cube21" screen savers.
+    Written by Jamie Wilkinson, Andrew Bennetts, and Peter Aylett; 2002.
+- Hypertorus: Clifford Torus 
+    A torus lying on the "surface" of a 4D hypersphere. Inspired by Thomas Banchoff's book "Beyond the Third Dimension: Geometry, Computer Graphics, and Higher Dimensions", Scientific American Library, 1990.
+    Written by Carsten Steger; 2003.
+- IFS: Iterated Function System of fractal
+    Clouds of iterated function systems spin and collide.
+    Written by Chris Le Sueur and Robby Griffin; 1997.
+- Interaggregate, Intermomentary
+    A surface is filled with a hundred medium to small sized circles. Each circle has a different size and direction, but moves at the same slow rate. Displays the instantaneous intersections of the circles as well as the aggregate intersections of the circles.
+    Written by Casey Reas, William Ngan, Robert Hodgin, and Jamie Zawinski; 2004.
+- Julia: The Julia set is a close relative of the Mandelbrot set. The small moving dot indicates the control point from which the rest of the image was generated. See also the "Discrete" screen saver.
+    Written by Sean McCullough; 1997.
+- Klein: A Klein bottle is the 4D analog of a Möbius strip.
+    You can walk on the surface of the bottle or rotate it in 4D or walk on it while it rotates in 4D. Inspired by Thomas Banchoff's book "Beyond the Third Dimension: Geometry, Computer Graphics, and Higher Dimensions", Scientific American Library, 1990.
+    Written by Carsten Steger; 2008.
+  GL:               klein -root -view-mode turn -mode surface -appearance bands \
+                    -projection-3d perspective -projection-4d perspective \
+                    -speed-wx 0.5 -speed-wy 0.0 -speed-wz 0.0 -speed-xy 0.0 -speed-xz 0.0 -speed-yz 0.5 \n\
+- Moire: Moiré Patterns
+     When the lines on the screen
+     Make more lines in between,
+     That's a moire'!
+    Written by Jamie Zawinski and Michael Bayne; 1997.
+- Penrose: Penrose Tilings
+    Quasiperiodic tilings.
+    In April 1997, Sir Roger Penrose, a British math professor who has worked with Stephen Hawking on such topics as relativity, black holes, and whether time has a beginning, filed a copyright-infringement lawsuit against the Kimberly-Clark Corporation, which Penrose said copied a pattern he created (a pattern demonstrating that "a nonrepeating pattern could exist in nature") for its Kleenex quilted toilet paper. Penrose said he doesn't like litigation but, "When it comes to the population of Great Britain being invited by a multinational to wipe their bottoms on what appears to be the work of a Knight of the Realm, then a last stand must be taken."
+    As reported by News of the Weird #491, 4-Jul-1997.
+    Written by Timo Korvola; 1997.
+- Petri: Colonies of mold grow in a Petri dish. Growing colored circles overlap and leave spiral interference in their wake.
+    Written by Dan Bornstein; 1999.
+- ProjectivePlane: A 4D embedding of the real projective plane.
+    You can walk on the surface of the real projective plane or rotate it in 4D or walk on it while it rotates in 4D. Inspired by Thomas Banchoff's book "Beyond the Third Dimension: Geometry, Computer Graphics, and Higher Dimensions", Scientific American Library, 1990.
+    Written by Carsten Steger; 2014.
+- RDbomb: A Reaction-diffusion system
+    draws a grid of growing square-like shapes that, once they overtake each other, react in unpredictable ways.
+    Written by Scott Draves; 1997.
+- SphereInversion: Turns a sphere inside out
+    a smooth deformation (homotopy). During the eversion, the deformed sphere is allowed to intersect itself transversally, however, no creases or pinch points occur.
+    Inspired by the following paper: Adam Bednorz, Witold Bednorz: "Analytic sphere eversion using ruled surfaces", Differential Geometry and its Applications 64:59-79, 2019.
+    Written by Carsten Steger; 2020.
+- Spheremonics: Spherical Harmonics
+    These closed objects are commonly called spherical harmonics, although they are only remotely related to the mathematical definition found in the solution to certain wave functions, most notably the eigenfunctions of angular momentum operators.
+    Written by Paul Bourke and Jamie Zawinski; 2002.
+- Stairs: Escher's infinite staircase.
+    Written by Marcelo Vianna and Jamie Zawinski; 1998.
+- Strange: Strange attractors
+    a swarm of dots swoops and twists around.
+    Written by Massimino Pascal; 1997.
+- Substrate: Perpendicular partition fractal
+    Crystalline lines grow on a computational substrate. A simple perpendicular growth rule creates intricate city-like structures.
+    Written by J. Tarbell and Mike Kershaw; 2004.
+- Voronoi: Voronoi tessellation. 
+    Periodically zooms in and adds new points. The existing points also wander around.
+    There are a set of control points on the plane, each at the center of a colored cell. Every pixel within that cell is closer to that cell's control point than to any other control point. That is what determines the cell's shapes.
+    Written by Jamie Zawinski; 2007.
+- Wander: A colorful random-walk.
+    Written by Rick Campbell; 1999.
+- XLap: The Lyapunov Exponent makes pretty fractal pictures.
+    Written by Ron Record; 1997.
+- XSpirograph: Simulates that pen-in-nested-plastic-gears toy from your childhood.
+    Written by Rohit Singh; 2000.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
