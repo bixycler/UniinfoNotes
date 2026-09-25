@@ -19,8 +19,26 @@
 		- state-machine subagents, state machine tool, subagent thread + treeview
 	- etc
 		- Let's add `--format:{short|long}` to `tree`. Default: `long` for `--view`, `short` otherwise.
-		-
-		-
+		- Usage instruction (in Vietnamese)
+			- Đây là bản Aperas hôm trước mình demo: mới v0.2 còn sơ khai, nên mọi người vọc chơi thảm khảo nhé, còn phát triển thêm nhiều ;)
+			  Source: https://github.com/bixycler/Aperas (Cấp phép "Vô Phép": Unlicense license!)
+			  Release: https://www.npmjs.com/package/aperas
+			  Repo `${docs}` dùng trong VD này: `skygate-architecture-aperas`
+			  Install globally: `npm install -g aperas`
+			  or install to the docs repo: `cd ${docs} && npm install aperas`
+			    + Add `${docs}/node_modules/.bin`  to `$PATH`
+			- ```sh
+			  cd ${docs}
+			  aperas init
+			  aperas skill install
+			  # Update aperas.config.json: "apeiron": "./Apeiron" (graph store); "artifacts": "./skygate_architecture" (documents)
+			  # add .gitignore: node_modules, Apeiron/.state 
+			  aperas serve # start service
+			  aperas ingest --track # ingest all markdown files in artifacts/
+			  ```
+			- ==> Webview: http://localhost:2736/
+			- Open coding agent (Claude Code) in  ${docs} ==> It will ask to use Aperas skill.
+			-
 	- Linking
 		- Dense linking with links & tags as fields, and `concepts.md`
 		- What's the conversion of address for? What's the form of address in Apeiron?
