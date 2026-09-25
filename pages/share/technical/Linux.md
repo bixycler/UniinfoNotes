@@ -1396,8 +1396,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- Ref: [Install Nu Shell on Ubuntu 20.04](https://www.osradar.com/install-nu-shell-ubuntu/)
 				  collapsed:: true
 					- Note: Don't install ` --all-features` as instructed here, because some "raw" features make `polars-core` compilation error: `raw_table_mut()` method not found.
-	- ### Editors
-	  collapsed:: true
+	- ### Editors & input methods
 		- #### vim
 		  id:: 6716110f-c747-4dbe-9af4-5ebee764c436
 		  collapsed:: true
@@ -1456,6 +1455,180 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 		- #### nano
 		  collapsed:: true
 			-
+		- #### Ibus Bamboo
+		  id:: 6ab64d35-3776-4290-a804-cba747c9f4a9
+		  collapsed:: true
+		  The *de facto* input method for Vietnamese
+			- Issues
+				- No char appears: No visible char appears, and some times backward deleted. Control combinations are still OK.
+				- Messy mix: Type this char but appears other chars!
+				- Ctrl error: Ctrl-key crashes Telegram, but Vietnamese input is still OK.
+				- (**) In IntelliJ, some syntaxes like bracket completion interfere with the underlined word.
+				- (*) Notepad++ puts the underlined (editing) word outside the window which is very difficult to follow. But sometime, the under-line of Vietnamese in Notepad++ just disappears, and the input looks nice (while the under-line of Japanese is still outside the window).
+			- Current status of input methods: "Pre-edit (underlined)" is the most OK now. Previously "Forward key event 1" was OK, but now it causes Ctrl error in Telegram.
+			- Details: 6 methods (Pre-edit, Surrounding text, Forward key event 1/2, Forward as commit, Fake key event) in 6 environments (Chrome, Notepad++, IntelliJ, GEdit, Telegram, Terminal).
+			  collapsed:: true
+				- Pre-edit (underlined): NVG on IntelliJ
+					- Chome : OK
+					- Notepad++ : OK(*)
+					- IntelliJ : OK(**)
+					- GEdit : OK
+					- Telegram : OK
+					- Terminal : OK
+				- Surrounding text: NG on IntelliJ, Terminal
+					- Chome : OK
+					- Notepad++ : OK
+					- IntelliJ : Vietnamese char dupe
+					- GEdit : OK
+					- Telegram : OK
+					- Terminal : Vietnamese char dupe
+				- Forward key event 1: NG on Telegram
+					- Chome : OK
+					- Notepad++ : OK
+					- IntelliJ : OK
+					- GEdit : OK
+					- Telegram : Ctrl error (Vietnamese char OK)
+					- Terminal : OK
+				- Forward key event 2: NG on GEdit, Telegram, Terminal. Others OK but backward selection and modification of Vietnamese chars is clearly visible.
+					- Chome : OK
+					- Notepad++ : OK
+					- IntelliJ : OK
+					- GEdit : Vietnamese char dupe
+					- Telegram : Ctrl error (Vietnamese char OK)
+					- Terminal : Vietnamese char dupe
+				- Forward as commit: NG on Chrome, IntelliJ, GEdit, Telegram, Terminal
+					- Chome : Messy mix
+					- Notepad++ : OK
+					- IntelliJ : No char appears
+					- GEdit : No char appears
+					- Telegram : Ctrl error (Vietnamese char OK)
+					- Terminal : No char appears
+				- [XTest] Fake key event: NG on IntelliJ, GEdit, Telegram, Terminal
+					- Chome : OK
+					- Notepad++ : OK
+					- IntelliJ : Vietnamese char not/dis-appear
+					- GEdit : Vietnamese char dupe
+					- Telegram : Vietnamese char dupe (no Ctrl error)
+					- Terminal : Vietnamese char dupe
+			- Input Macros `~/.config/ibus-bamboo/ibus-bamboo.macro.text`
+				- quotation-marks--brackets) Quotation marks & brackets
+				  collapsed:: true
+					- ```
+					  #U+2018 ‘ (&lsquo;) left single quotation mark
+					  `<':‘
+					  #U+2019 ’ (&rsquo;) right single quotation mark
+					  `>':’
+					  #U+201C “ (&ldquo;) left double quotation mark
+					  `<":“
+					  #U+201D ” (&rdquo;) right double quotation mark
+					  `>":”
+					  #U+2039 ‹ (&lsaquo;) single left-pointing angle quotation mark
+					  `.<:‹
+					  #U+203A › (&rsaquo;) single right-pointing angle quotation mark
+					  `.>:›
+					  #U+00AB « (&laquo;) left-pointing double angle quotation mark
+					  `<<:«
+					  #U+00BB » (&raquo;) right-pointing double angle quotation mark
+					  `>>:»
+					  - #U+27E8 ⟨ (&lang;) Mathematical left angle bracket
+					  `<[:⟨
+					  #U+27E9 ⟩ (&rang;) Mathematical right angle bracket
+					  `>]:⟩
+					  #U+27EA ⟪ Mathematical left double angle bracket
+					  `<{:⟪
+					  #U+27EB ⟫ Mathematical right double angle bracket
+					  `>}:⟫
+					  #U+2E28 ⸨ Left double parenthesis
+					  `<(:⸨
+					  #U+2E29 ⸩ Right double parenthesis
+					  `>):⸩
+					  - #U+27C5 ⟅ Left s-shaped bag delimiter
+					  `>s:⟅
+					  #U+27C6 ⟆ Right s-shaped bag delimiter
+					  `>s:⟆
+					  ```
+				- Arrows
+					- ```
+					  #U+2190 ← Leftwards Arrow
+					  `\<-\`:←
+					  #U+2191 ↑ Upwards Arrow
+					  `\|^\`:↑
+					  #U+2192 → Rightwards Arrow
+					  `\->\`:→
+					  #U+2193 ↓ Downwards Arrow
+					  `\|v\`:↓
+					  ```
+				- circle-like-symbolsletters) Circle-like symbols/letters
+				  collapsed:: true
+					- ```
+					  #U+25EF ◯ LARGE CIRCLE
+					  `\O\`:◯
+					  #U+25CB ○ WHITE CIRCLE
+					  `\o\`:○
+					  #U+25CF ● BLACK CIRCLE
+					  `\o*\`:●
+					  #U+25CE ◎ BULLSEYE
+					  `\OO\`:◎
+					  #U+229A ⊚ CIRCLED RING OPERATOR
+					  `\oo\`:⊚
+					  #U+25C9 ◉ FISHEYE
+					  `\O*\`:◉
+					  #U+29BF ⦿ (&ofcir;) CIRCLED BULLET
+					  `\O+\`:⦿
+					  #U+2609 ☉ SUN
+					  `\O.\`:☉
+					  #U+2299 ⊙ CIRCLED DOT OPERATOR
+					  `\o.\`:⊙
+					  #U+29BE ⦾ (&olcir;) CIRCLED WHITE BULLET
+					  `\Oo\`:⦾
+					  - #U+2022 • BULLET (&bull;, &bullet;)
+					  `\*\`:•
+					  #U+25E6 ◦ WHITE BULLET
+					  `\+\`:◦
+					  #U+2218 ∘ (&compfn;) ring operator
+					  `\*f\`:∘
+					  #U+00B0 ° (&deg;) DEGREE SIGN
+					  `\deg\`:°
+					  - #U+00B7 · middle dot (middot;, &centerdot;, &CenterDot;)
+					  `\.\`:·
+					  #U+22C5 ⋅ (&sdot;) dot operator
+					  `\.o\`:⋅
+					  #U+2219 ∙ bullet operator
+					  `\.b\`:∙
+					  - #U+2505 ∅ EMPTY SET (&empty;, &emptyset;, &emptyv;, &varnothing;)
+					  `\0\`:∅
+					  #U+2300 ⌀ DIAMETER SIGN
+					  `\diameter\`:⌀
+					  - #U+00F8 Ø (&oslash;) LATIN SMALL LETTER O WITH STROKE
+					  `\oslash\`:ø
+					  #U+00D8 Ø (&Oslash;) LATIN CAPITAL LETTER O WITH STROKE
+					  `\Oslash\`:Ø
+					  #U+03C6 φ (&phi;) GREEK SMALL LETTER PHI
+					  `\phi\`:φ
+					  #U+03A6 Φ (&Phi;) GREEK CAPITAL LETTER PHI
+					  `\Phi\`:Φ
+					  #U+03D5 ϕ GREEK PHI SYMBOL
+					  `\phis\`:ϕ
+					  ```
+		- #### Keyboard Shortcuts
+		  id:: 6ab64fb4-4941-4121-b67d-cf8fc7d02726
+		  collapsed:: true
+			- Terminal
+				- Copy: `Ctrl-Shift-C`
+				- Paste: `Shift-Insert` = `Ctrl-Shift-V`
+				- Delete word forward: `Ctrl-Del`= `Alt-D` = `Esc-D`
+				- Delete word backward: `Alt-BackSpace` = `Ctrl-W`
+				- Delete all forward: `Ctrl-K`
+				- Delete all backward: `Ctrl-U`
+					- ZSh: default `bindkey '^U' kill-whole-line`
+					  ⇒ Add `bindkey '^U' backward-kill-line` to `~/.zshrc`
+			- Conflicts-between-terminal--browser) Conflicts between terminal & browser
+				- `Ctrl-W` for deleting word backward <> `Ctrl-W` for *closing tab ← DANGEROUS!!!*
+				- Use `Alt-BackSpace` for backward deleting, instead of `Ctrl-W`.
+				- Chrome: Map `Ctrl-W` to an extension, eg. Markdown Viewer, via [chrome://extensions/shortcuts](chrome://extensions/shortcuts)
+					- Some extension like [Better Ctrl-W](https://chrome.google.com/webstore/detail/better-ctrl-w/jfknaapblnppeflfamkegnnonlfgokhp) does disable `Ctrl-W` but... also disable it outside Chrome!
+				- `Ctrl-Shift-C` for copying <> `Ctrl-Shift-C` for *opening DevTools*
+					- On browser, use `RightClick + C` to select the `Copy (Ctrl+C)` command in the context menu.
 	- ### DNS, `hosts`, NAT
 	  id:: 675141bb-5c74-4906-b6ee-63ac3a237ef0
 	  collapsed:: true
