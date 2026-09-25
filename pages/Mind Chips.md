@@ -20,6 +20,7 @@
 	- etc
 		- Let's add `--format:{short|long}` to `tree`. Default: `long` for `--view`, `short` otherwise.
 		- Usage instruction (in Vietnamese)
+		  collapsed:: true
 			- Đây là bản Aperas hôm trước mình demo: mới v0.2 còn sơ khai, nên mọi người vọc chơi thảm khảo nhé, còn phát triển thêm nhiều ;)
 			  Source: https://github.com/bixycler/Aperas (Cấp phép "Vô Phép": Unlicense license!)
 			  Release: https://www.npmjs.com/package/aperas
@@ -38,7 +39,20 @@
 			  ```
 			- ==> Webview: http://localhost:2736/
 			- Open coding agent (Claude Code) in  ${docs} ==> It will ask to use Aperas skill.
-			-
+			- Lưu ý là service sẽ tự stop sau 20 phút không có hoạt động. Nên nếu để lâu thì cần phải `aperas service start` lại.
+			- Trong VD trên thì cả `artifacts` là 1 symlink tới skygate_architecture,  vì skygate_architecture là 1 repo có sẵn nên không để thẳng trong repo `skygate-architecture-aperas` được.
+			  Nhưng nếu viết docs từ đầu thì có thể để thẳng các file `.md` đó trong thư mục artifacts.
+			    + Và khi cần quản lý docs của nhiều module khác nhau, thì chúng ta tạo symlink (trong thư mục artifacts) tới các module khác nhau.
+				- VD:
+				  ```
+				  artifacts
+				  ├── README.md
+				  ├── mydocs
+				  │   ├── discussion.md
+				  │   └── mydesign.md
+				  ├── aal_gw -> ../java17/aal_gw
+				  └── sgapi -> ../api/sgapi
+				  ```
 	- Linking
 		- Dense linking with links & tags as fields, and `concepts.md`
 		- What's the conversion of address for? What's the form of address in Apeiron?
