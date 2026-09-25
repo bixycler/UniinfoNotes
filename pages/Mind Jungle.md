@@ -2485,7 +2485,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						     ~/source/linux-commands/home-bin/
 						  ```
 					- [linux-config](https://github.com/bixycler/linux-config)
-						- ```sh
+						- id:: 699c0360-14b9-4e9c-ac36-79d320721a86
+						  ```sh
 						  cd ~
 						  ln .bash_history .bash_logout .bash_profile .bashrc .chzsh .gitconfig .ishrc  .profile .viminfo .vimrc .vimrc.vim .zprofile .zsh_history .zshrc \
 						     ~/source/linux-config/
