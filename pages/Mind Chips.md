@@ -1,4 +1,5 @@
 - Aperas dev
+  id:: 6a986297-7a2f-4be1-b440-caf79deefc9b
   collapsed:: true
 	- `SKILL.md` Style
 		- Lead-in term then colon, not bold sentence then period.
