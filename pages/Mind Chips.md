@@ -17,7 +17,7 @@
 					- State Management: Fixed a legacy `flush: true` inheritance that was unconditionally setting the content-dirty flag and forcing an aggressive full content-mirror dehydrate on every toggle."
 	- Core
 		- Add service log
-		- state-machine subagents, state machine tool, subagent thread + treeview
+		- state-machine subagents, state machine tool
 	- etc
 		- Let's add `--format:{short|long}` to `tree`. Default: `long` for `--view`, `short` otherwise.
 		- Usage instruction (in Vietnamese)
