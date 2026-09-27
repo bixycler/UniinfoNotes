@@ -19,7 +19,6 @@
 		- Add service log
 		- state-machine subagents, state machine tool
 	- etc
-		- Let's add `--format:{short|long}` to `tree`. Default: `long` for `--view`, `short` otherwise.
 		- Usage instruction (in Vietnamese)
 		  collapsed:: true
 			- Đây là bản Aperas hôm trước mình demo: mới v0.2 còn sơ khai, nên mọi người vọc chơi thảm khảo nhé, còn phát triển thêm nhiều ;)
