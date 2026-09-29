@@ -3062,7 +3062,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- [Xuyun (虛雲)](https://en.wikipedia.org/wiki/Xuyun) (1840–1959)
 							- He enlightened after a series of severe troubles: falling into the rushing water for a whole day, being beaten with a [keisaku](https://en.wikipedia.org/wiki/Keisaku) while being ill and injured, continuous meditating in 20 days to wipe out illness, then enlightenment when a cup of tea fell and shattered.
 							- In his autobiography, he noted that after this experience, he struggled immensely to reconcile the boundless state of meditation with human form. He spent years wandering in isolation, testing his realization against the elements. He had to learn how to actively drop his attachment to the “quietude” of the monastery so he could survive the chaos of war and political upheaval that later surrounded him.
-						- [Ajahn Chah (อาจารย์ชา)](https://en.wikipedia.org/wiki/Ajahn_Chah) (1918–1992)
+						- [Jiddu Krishnamurti](https://en.wikipedia.org/wiki/Jiddu_Krishnamurti) (1895–1986)
+							- He underwent a massive spiritual breakthrough in Ojai, California, but his personal journals reveal that bringing that boundless presence into a physical human body caused him intense, lifelong physical suffering which is called “The Process”.
+							- In his private notebooks, he recorded how he had to actively learn to let the human body scream and burn while the underlying awareness remained completely untouched. He could not find an easy, smooth path; he had to let the physical structure break down and reset itself over and over again to bear the weight of what he had realized.
+						- [Dipa Ma](https://en.wikipedia.org/wiki/Dipa_Ma) (1911–1989)
+							- She was an Indian housewife who achieved profound stages of liberation through intense insight meditation (vipassana). After her initial deep breakthroughs, she did not hide in a forest monastery. She lived in a tiny, noisy, cramped apartment in Kolkata, raising her daughter alone.
 							-
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
