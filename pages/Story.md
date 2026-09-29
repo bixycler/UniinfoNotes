@@ -3058,10 +3058,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Modern-day masters having similar post-enlightenment challenge:
 						- [Hakuin Ekaku (白隠 慧鶴)](https://en.wikipedia.org/wiki/Hakuin_Ekaku) (1686–1769)
 							- Having several [satori](https://en.wikipedia.org/wiki/Satori) experiences from the young age, but the intense mental friction of trying to hold onto his satori while facing day-to-day rejection caused Hakuin to collapse into episodes of severe psychosomatic Zen sickness. Only with his final awakening, at age 42, did he fully realize what *bodhi-mind* means, namely working for the good of others.
-							- Hakuin has a well-known story of [*Is that so?* 「ああ、そうか」](https://en.wikipedia.org/wiki/Hakuin_Ekaku#Is_that_so?) where he accepted the false accusation of fatherhood with unconditionally.
+							- Hakuin has a well-known story of [Is that so? 「ああ、そうか」](https://en.wikipedia.org/wiki/Hakuin_Ekaku#Is_that_so?) where he accepted the false accusation of fatherhood unconditionally.
 						- [Xuyun (虛雲)](https://en.wikipedia.org/wiki/Xuyun) (1840–1959)
 							- He enlightened after a series of severe troubles: falling into the rushing water for a whole day, being beaten with a [keisaku](https://en.wikipedia.org/wiki/Keisaku) while being ill and injured, continuous meditating in 20 days to wipe out illness, then enlightenment when a cup of tea fell and shattered.
 							- In his autobiography, he noted that after this experience, he struggled immensely to reconcile the boundless state of meditation with human form. He spent years wandering in isolation, testing his realization against the elements. He had to learn how to actively drop his attachment to the “quietude” of the monastery so he could survive the chaos of war and political upheaval that later surrounded him.
+						- [Ajahn Chah (อาจารย์ชา)](https://en.wikipedia.org/wiki/Ajahn_Chah) (1918–1992)
+							-
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a931d8b-b8ec-4a32-b421-762f8bb609cd))
