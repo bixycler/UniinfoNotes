@@ -3056,6 +3056,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- The polished narrative of the Buddha's enlightenment under the Bodhi tree makes a wrong impression about “the end of challenge after enlightenment”. But these accounts in the Pali canon hide the deeper truth that the challenge – in the name of Māra – will never end! 🤪
 					- My self-challenge to keep mindfulness in daily life, esp. in deeply engaging work, had nearly failed me years ago. Only after my practice of ((67445065-15b2-475e-a704-78f140d487af)) has turned into a new habit, can i experience more liberation in work.
 					- Modern-day masters having similar post-enlightenment challenge:
+					  collapsed:: true
 						- [Hakuin Ekaku (白隠 慧鶴)](https://en.wikipedia.org/wiki/Hakuin_Ekaku) (1686–1769)
 							- Having several [satori](https://en.wikipedia.org/wiki/Satori) experiences from the young age, but the intense mental friction of trying to hold onto his satori while facing day-to-day rejection caused Hakuin to collapse into episodes of severe psychosomatic Zen sickness. Only with his final awakening, at age 42, did he fully realize what *bodhi-mind* means, namely working for the good of others.
 							- Hakuin has a well-known story of [Is that so? 「ああ、そうか」](https://en.wikipedia.org/wiki/Hakuin_Ekaku#Is_that_so?) where he accepted the false accusation of fatherhood unconditionally.
