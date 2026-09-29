@@ -3027,7 +3027,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- This is the symmetry that Claude Opus derived from my hint “top-down design & bottom-up emergence” on the Aperas skill development.
 				- This news confirms the rumor about OpenAI's huge loses: [Why OpenAI’s IPO Is a Disaster Waiting to Happen](https://youtu.be/mdwhTca-G_w)
 			- 12-13th, my coding agent dogfooded not only the Aperas toolset to develop Aperas but also the philosophy “think in graph instead of in words” right in the chat with me: It lifted the `SKILL.md` to the KG and ran a thread through the sections to audit it.
-			- 18th, presented my dedicated present to my team at Airtrip Intl. (in [Vietnamese](https://docs.google.com/presentation/d/148ePN-laFycdqN8ZggG7imm6muj2IidBoRinsOaxUlw) translated from [English](https://docs.google.com/presentation/d/1shBcCBEpX74ggL-fLvdA2Dc85eLoruTBHD_lYNTiYkY)), after a week of deadline run.
+			- 18th, presented my dedicated present to my team at Airtrip Intl. (in [Vietnamese](https://docs.google.com/presentation/d/148ePN-laFycdqN8ZggG7imm6muj2IidBoRinsOaxUlw) translated from [English](https://docs.google.com/presentation/d/1shBcCBEpX74ggL-fLvdA2Dc85eLoruTBHD_lYNTiYkY)), after a week of Aperas deadline run.
 			- 25th, my last working day at HTV, with the farewell party last night. Aperas got the first contribution from my next seat AnDT ([#2 Render Markdown blocks in web tree](https://github.com/bixycler/Aperas/pull/2)).
 			  collapsed:: true
 				- Collect docs from my work machine: [xScreenserver](../assets/Linux/xScreenserver/), ((6ab6479a-27fa-46d8-8219-51f21fda16f6)), ((6ab64d35-3776-4290-a804-cba747c9f4a9)), ((6ab64fb4-4941-4121-b67d-cf8fc7d02726))
@@ -3046,6 +3046,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Ở đây mình muốn bàn và nhận được chia sẻ của mọi người về kỹ thuật quán Thức, chứ không phải các mô hình của Thức như trong Duy Thức tông hay Vi Diệu Pháp. Mong các thầy cô cùng các đạo hữu chia sẻ về kinh nghiệm thực hành quán chính cái con mắt Thức này.
 						- Trên đây mình đã trình bày những kỹ thuật chính yếu mà mình đã sử dụng trong thiền quán. Tuy nhiên, thiền quán, tức tu Tuệ, là phải dựa trên căn bản của Định và Giới, được hỗ trợ bởi các kỹ thuật thở, xả tâm, v.v. là những thứ vượt ra khỏi khuôn khổ bài này. Mong được sự góp ý và thảo luận từ mọi người!
 						  Thân ái!
+			- 29th,
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a931d8b-b8ec-4a32-b421-762f8bb609cd))
