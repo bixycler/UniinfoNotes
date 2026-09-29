@@ -3029,7 +3029,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- This news confirms the rumor about OpenAI's huge loses: [Why OpenAI’s IPO Is a Disaster Waiting to Happen](https://youtu.be/mdwhTca-G_w)
 			- 12-13th, my coding agent dogfooded not only the Aperas toolset to develop Aperas but also the philosophy “think in graph instead of in words” right in the chat with me: It lifted the `SKILL.md` to the KG and ran a thread through the sections to audit it.
 			- 18th, presented my dedicated present to my team at Airtrip Intl. (in [Vietnamese](https://docs.google.com/presentation/d/148ePN-laFycdqN8ZggG7imm6muj2IidBoRinsOaxUlw) translated from [English](https://docs.google.com/presentation/d/1shBcCBEpX74ggL-fLvdA2Dc85eLoruTBHD_lYNTiYkY)), after a week of deadline run for the [presentation set from last month](((6a931d8b-f765-48b6-a6aa-9e90e14593f3))) and Aperas UI.
-			- 25th, my last working day at HTV, with the farewell party last night. Aperas got the first contribution from my next seat AnDT ([#2 Render Markdown blocks in web tree](https://github.com/bixycler/Aperas/pull/2)).
+			- 25th, my last working day at HTV (also renamed to Hybrid One!), with the farewell party last night. Aperas got the first contribution from my next seat AnDT ([#2 Render Markdown blocks in web tree](https://github.com/bixycler/Aperas/pull/2)).
 			  collapsed:: true
 				- Collect docs from my work machine: [xScreenserver](../assets/Linux/xScreenserver/), ((6ab6479a-27fa-46d8-8219-51f21fda16f6)), ((6ab64d35-3776-4290-a804-cba747c9f4a9)), ((6ab64fb4-4941-4121-b67d-cf8fc7d02726))
 				- Quán Ngũ Uẩn (fb post)
