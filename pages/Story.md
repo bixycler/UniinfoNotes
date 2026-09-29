@@ -3052,7 +3052,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- 7 years of Māra haunting the Buddha.
 				  id:: 6abbd111-5787-450e-a38f-7199c09b3e73
 					- In the Pali canon, that period of “7 years” was recorded in [Satta Vassānubandha Sutta (Seven Years of Pursuit)](https://suttacentral.net/sn4.24) and [Padhāna Sutta (Striving)](https://suttacentral.net/snp3.2), and in commetaries, it spanned from six years of intense ascetic striving before the enlightenment and one full year immediately following it.
-					- From the first weeks after enlightenment, as in [Tapokamma Sutta (Mortification)](https://suttacentral.net/sn4.1), to the
+					- From the first weeks after enlightenment, as in [Tapokamma Sutta (Mortification)](https://suttacentral.net/sn4.1), to the last 3 months before the nirvana, as in [Mahāpari-nibbāna Sutta > The Appeal of Māra](https://suttacentral.net/dn16/en/sujato?lang=en&layout=plain&reference=none&notes=asterisk&highlight=false&script=latin#dn16:3.7.0)
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a931d8b-b8ec-4a32-b421-762f8bb609cd))
