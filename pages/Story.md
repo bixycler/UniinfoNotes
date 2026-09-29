@@ -3067,7 +3067,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- In his private notebooks, he recorded how he had to actively learn to let the human body scream and burn while the underlying awareness remained completely untouched. He could not find an easy, smooth path; he had to let the physical structure break down and reset itself over and over again to bear the weight of what he had realized.
 						- [Dipa Ma](https://en.wikipedia.org/wiki/Dipa_Ma) (1911–1989)
 							- She was an Indian housewife who achieved profound stages of liberation through intense insight meditation (vipassana). After her initial deep breakthroughs, she did not hide in a forest monastery. She lived in a tiny, noisy, cramped apartment in Kolkata, raising her daughter alone.
-							-
+							- During her very first retreat, she experienced initial flashes of insight, but the urgency of her home life pulled her back. Her young daughter insisted she return home.
+								- When she left the pristine environment of the monastery and went back to her house, the sheer weight of her family responsibilities and grief initially overwhelmed the insight.
+								- She had to learn, through trial and error, that she could not protect a monastery state while cooking meals and raising a child. She realized the practice had to change shapes to survive the mundane world.
+							- Once she achieved full, stabilized realization, she chose not to remain in a monastery. Instead, she lived for nearly three decades in a tiny, intensely noisy, cramped, one-room apartment in a poor district of Kolkata, India.
+								- She explicitly told her householder students: “If you are busy, then business is the meditation.”
+								- Mindfulness in the Mundane: She taught that if you are rushing to a mundane job, your meditation is the physical act of rushing. When you put on your shoes, your mind must be entirely inside the leather and the laces. Even when cutting your nails, the unconditioned presence must be right there at the fingertip.
+								- When asked how she kept her mind completely clear of residual friction amidst constant interruptions, she remarked that trouble only exists because the mind automatically thinks, “This is mine... there is something for me to solve.” By dropping the “mine” instantly, she reset to zero mid-conversation.
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a931d8b-b8ec-4a32-b421-762f8bb609cd))
