@@ -3055,6 +3055,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- From the first weeks after enlightenment, as in [Tapokamma Sutta (Mortification)](https://suttacentral.net/sn4.1), to the last 3 months before the [parinirvana](https://en.wikipedia.org/wiki/Parinirvana), as in [Mahā-parinibbāna Sutta > The Appeal of Māra](https://suttacentral.net/dn16/en/sujato?lang=en&layout=plain&reference=none&notes=asterisk&highlight=false&script=latin#dn16:3.7.0), the Māra had followed the Buddha throughout his life, not leaving him just because he was englightened but only “shied away” due to its own impatience.
 					- The polished narrative of the Buddha's enlightenment under the Bodhi tree makes a wrong impression about “the end of challenge after enlightenment”. But these accounts in the Pali canon hide the deeper truth that the challenge – in the name of Māra – will never end! 🤪
 					- My self-challenge to keep mindfulness in daily life, esp. in deeply engaging work, had nearly failed me years ago. Only after my practice of ((67445065-15b2-475e-a704-78f140d487af)) has turned into a new habit, can i experience more liberation in work.
+					- Modern-day masters having similar post-enlightenment challenge:
+						- [Hakuin Ekaku](https://en.wikipedia.org/wiki/Hakuin_Ekaku) (1686–1769): The intense mental friction of trying to hold onto his [satori](https://en.wikipedia.org/wiki/Satori) while facing day-to-day rejection caused Hakuin to collapse into episodes of severe psychosomatic Zen sickness.
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a931d8b-b8ec-4a32-b421-762f8bb609cd))
