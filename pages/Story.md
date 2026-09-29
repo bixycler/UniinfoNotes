@@ -3048,8 +3048,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Trên đây mình đã trình bày những kỹ thuật chính yếu mà mình đã sử dụng trong thiền quán. Tuy nhiên, thiền quán, tức tu Tuệ, là phải dựa trên căn bản của Định và Giới, được hỗ trợ bởi các kỹ thuật thở, xả tâm, v.v. là những thứ vượt ra khỏi khuôn khổ bài này. Mong được sự góp ý và thảo luận từ mọi người!
 						  Thân ái!
 			- 29th, These days, working with Antigravity/Gemini, i'm refactoring the Aperas skills for multi-agent workflows and rewriting in a clearer form. Working with AI agents leaves me time to do ((67445065-15b2-475e-a704-78f140d487af)) more frequently and confirms the ((6abbd111-5787-450e-a38f-7199c09b3e73))
+			  collapsed:: true
 				- 7 years of Māra haunting the Buddha.
 				  id:: 6abbd111-5787-450e-a38f-7199c09b3e73
+					- In the Pali canon, that period of “7 years” was recorded in [Satta Vassānubandha Sutta (Seven Years of Pursuit)](https://suttacentral.net/sn4.24) and [Padhāna Sutta (Striving)](https://suttacentral.net/snp3.2), and in commetaries, it spanned from six years of intense ascetic striving before the enlightenment and one full year immediately following it.
+					-
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6a931d8b-b8ec-4a32-b421-762f8bb609cd))
