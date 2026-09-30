@@ -57,13 +57,18 @@
 		- Dense linking with links & tags as fields, and `concepts.md`
 		- What's the conversion of address for? What's the form of address in Apeiron?
 	- Subjective Conception vs. Objective Hierarchy
+	  collapsed:: true
 		- The Objective Hierarchy
 			- **Strict Hierarchy & Traceability**: $\text{Design} \leftarrow \{\text{Issues, Plans, History}\} \leftarrow \text{Discussions} \leftarrow \text{Threads}$ (lower layers cite upper layers for justification and ground truth).
 			- **Ephemeral Base**: Threads live beneath the pyramid as ephemeral runtime or working traces (git-ignored, volatile, stream-like).
 			- **System Objectivity**: Represents the agreed-upon source of truth for the codebase/product.
 		- The Subjective Conception
 			- **Cross-cutting Projection (Image 1)**: P1's concepts and P2's concepts cast different perspectives onto the same pyramid. Each person/agent maintains an internal model that references canonical components at different depths without altering the canonical core.
+			  collapsed:: true
+				- ![Aperas: Views on a system](https://docs.google.com/drawings/d/e/2PACX-1vQxGlS6LSlUKv3eoFAD0xCfGtlUCxxtxnWZdxtKhca9m6VtlZbq0L9lMArHOKAXeSUPd7jU7NC6hL4Y/pub?w=960)
 			- **Multi-System Synthesis (Image 2)**: A single person/agent ($P$) holds contiguous viewcones extending across multiple distinct systems (Aperas, Another System, etc.), allowing personal concepts to bridge, compare, and integrate otherwise isolated architectural silos.
+			  collapsed:: true
+				- ![Aperas: Views on different systems](https://docs.google.com/drawings/d/e/2PACX-1vQ5OzoCVxxtYuLpB0gbcy3zEXvKKZiJ-A4zBUP9ju_HSaA7bV_mUBFpFD8wh91CN1PmMhWiKOX_5WEv/pub?w=550){:height 431, :width 548}
 - ---
 - 🤔😊😁 😉 😮 😛 🤪 😜 🤣 🙁 😱 👺 👁️🧿🪬  – × → ← ↓ ⇒ ⇋ ⇄ ∞∝α ‘’ ≈ ≥
 - Ω-thread Unïnfo —
