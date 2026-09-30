@@ -3075,8 +3075,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- She explicitly told her householder students: “If you are busy, then business is the meditation.”
 								- Mindfulness in the Mundane: She taught that if you are rushing to a mundane job, your meditation is the physical act of rushing. When you put on your shoes, your mind must be entirely inside the leather and the laces. Even when cutting your nails, the unconditioned presence must be right there at the fingertip.
 								- When asked how she kept her mind completely clear of residual friction amidst constant interruptions, she remarked that trouble only exists because the mind automatically thinks, “This is mine... there is something for me to solve.” By dropping the “mine” instantly, she reset to zero mid-conversation.
+		- October journal
+		  id:: 6abd18dd-8ba5-4962-939c-722ea6341aaa
+		  collapsed:: true
+			-
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
+		- ((6abd18dd-8ba5-4962-939c-722ea6341aaa))
 		- ((6a931d8b-b8ec-4a32-b421-762f8bb609cd))
 		- ...
 		  id:: 688c70c8-1772-4007-bdf0-d621db895411
