@@ -57,13 +57,13 @@
 		- Dense linking with links & tags as fields, and `concepts.md`
 		- What's the conversion of address for? What's the form of address in Apeiron?
 	- Subjective Conception vs. Objective Hierarchy
-		- **The Canonical System Pyramid (`Aperas`)**:
+		- The Objective Hierarchy
 			- **Strict Hierarchy & Traceability**: $\text{Design} \leftarrow \{\text{Issues, Plans, History}\} \leftarrow \text{Discussions} \leftarrow \text{Threads}$ (lower layers cite upper layers for justification and ground truth).
-			- **Ephemeral Base**: `Threads` live beneath the pyramid as ephemeral runtime or working traces (git-ignored, volatile, stream-like).
+			- **Ephemeral Base**: Threads live beneath the pyramid as ephemeral runtime or working traces (git-ignored, volatile, stream-like).
 			- **System Objectivity**: Represents the agreed-upon source of truth for the codebase/product.
-		- **The Subjective/Personal Layer (`Concepts` / `Viewcones`)**:
-			- **Cross-cutting Projection (Image 1)**: `P1.concepts` and `P2.concepts` cast independent perspectives onto the same pyramid. Each person maintains an internal model that references canonical components at different depths without altering the canonical core.
-			- **Multi-System Synthesis (Image 2)**: A single agent or person ($P$) holds contiguous viewcones extending across multiple distinct systems (`Aperas`, `Another System`), allowing personal concepts to bridge, compare, and integrate otherwise isolated architectural silos.
+		- The Subjective Conception
+			- **Cross-cutting Projection (Image 1)**: P1's concepts and P2's concepts cast different perspectives onto the same pyramid. Each person/agent maintains an internal model that references canonical components at different depths without altering the canonical core.
+			- **Multi-System Synthesis (Image 2)**: A single person/agent ($P$) holds contiguous viewcones extending across multiple distinct systems (Aperas, Another System, etc.), allowing personal concepts to bridge, compare, and integrate otherwise isolated architectural silos.
 - ---
 - 🤔😊😁 😉 😮 😛 🤪 😜 🤣 🙁 😱 👺 👁️🧿🪬  – × → ← ↓ ⇒ ⇋ ⇄ ∞∝α ‘’ ≈ ≥
 - Ω-thread Unïnfo —
