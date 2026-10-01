@@ -55,7 +55,11 @@
 				  ```
 	- Linking
 		- Dense linking with links & tags as fields, and `concepts.md`
-		- What's the conversion of address for? What's the form of address in Apeiron?
+		- What's the conversion of address for?
+			- Address in Apeiron is converted to ID form `aperas://id/...` at ingestion.
+			- Address in artifact is converted to compatible form `../folder/doc.md#id/BlockNode:...` at projection.
+			- `ingest` must be aware of the stored ID to create node with matched ID.
+		- URL: `aperas://sub.graph/folder/artifact.md/BlockNode:${snowflake}`
 	- Subjective Conception vs. Objective Hierarchy
 	  collapsed:: true
 		- The Objective Hierarchy
