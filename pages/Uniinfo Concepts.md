@@ -1218,6 +1218,7 @@
 							- Particle versus wave interpretation of action
 								- The particle view isolates a moving crest, interpreting internal field evolution as an object traversing external spatial coordinates.
 								- The wave view recognizes the undivided continuum as fundamentally motionless, expressing all events as internal field modulations without spatial departure.
+								- These two views are unified in the [spirorus model of effect circle](((68f5a6d2-8148-4975-b3cb-799fe37a3d72))): *Your particles move forward or my waves spread outward or we just turn around, there's **no difference**!*
 							- Geometric **dilution** versus **departure**
 								- Enacting an action functions like dropping a stone into the lake of the universal field, creating an ((667c0031-0a87-44c9-9e98-6d45893b095f)) that never leaves the medium.
 								- The impression that an effect travels outward into an external object is an optical trick of geometric dilution.
