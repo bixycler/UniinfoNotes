@@ -1165,7 +1165,7 @@
 				  id:: 6ac0ee40-fd11-493f-9d94-19bfeac7d1e8
 				  collapsed:: true
 					- Nature of the self
-						- Dual faces of the center
+						- **Dual faces** of the center
 							- Māra face
 								- **Zooming in** reveals an ((69086748-b6e9-47c0-810b-4a92f882d6bc)) comprised of continuous flux.
 								- Deconstruction uncovers sensory signals, chemical cascades, and passing thoughts without an autonomous owner.
@@ -1173,13 +1173,14 @@
 							- God face
 								- **Zooming out** reveals the empty center as an _indispensable organizing **hub**_.
 								- Just as an axle hole allows a wheel to turn, the empty center unifies decentralized parts into operational coherence.
-									- > Thirty spokes put together into one hub,
-									  > The original empty space makes the use of the wheel.
-									  > 「三十輻共一轂，當其無，有車之用。」
-									  
-									  — [Chapter 48. Forget the knowledge](https://en.wikisource.org/wiki/Translation:Tao_Te_Ching#Chapter_48_(%E7%AC%AC%E5%9B%9B%E5%8D%81%E5%85%AB%E7%AB%A0)), Tao Te Ching
+									- #+BEGIN_QUOTE
+									  Thirty spokes put together into one hub,
+									  The original empty space makes the use of the wheel.
+									  「三十輻共一轂，當其無，有車之用。」
+									  #+END_QUOTE
+									  — [Chapter 11. The usage of the vacancy](https://en.wikisource.org/wiki/Translation:Tao_Te_Ching#Chapter_11_(%E7%AC%AC%E5%8D%81%E4%B8%80%E7%AB%A0)), Tao Te Ching
 								- It functions as the necessary locus for deliberate action, ethical accountability, and unified navigation.
-						- Projection center of the universe
+						- **Projection center** of the universe
 							- Universal scope
 								- The extension of each self encompasses the entire accessible universe.
 								- Lived experience integrates cosmic history, inherited ancestral syntax, and physical horizons into a single vantage point.
