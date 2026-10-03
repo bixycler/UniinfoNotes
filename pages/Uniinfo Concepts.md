@@ -1196,7 +1196,7 @@
 							- Ancient navigators perceived constellations as an immutable crystal sphere of “fixed stars”.
 							- In reality, stellar bodies travel at hundreds of kilometers per second in turbulent orbits.
 							- Astronomical distance flattens hyper-speed velocities into apparent stillness over a human lifetime.
-					- Intricate mirror effect and reciprocal unity
+					- Intricate [mirror effect](((6889a623-34cd-4b65-8a91-5cfdbb199b71))) and reciprocal unity
 						- Direct mechanical reciprocity
 							- Newton's third law as simultaneity
 								- Action and reaction constitute a single, inseparable stress tensor at the boundary rather than a chronological sequence of cause followed by effect.
@@ -1223,7 +1223,7 @@
 								- Retribution or return is not a novel arrival, but the original inscription condensing back into macroscopic visibility.
 						- Dissolution at the death threshold
 							- Ignorance as biological filtering
-								- The classical concept of ignorance (**avidyā**) operates structurally as literal *ignoring*.
+								- The classical concept of ignorance ([avidyā](https://en.wikipedia.org/wiki/Avidy%C4%81_(Buddhism))) operates structurally as literal *ignoring*.
 								- Survival mandates sensory gating, efference copies, and coarse-graining filters to shield the organism from sensory overload.
 							- Life review and collapsed dipole
 								- At the death gate, biological shielding and default-mode partitions dissolve.
