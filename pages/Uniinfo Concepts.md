@@ -1160,6 +1160,77 @@
 		- ### self-paradox
 		  id:: 6a80fa52-a1b0-43cd-90e3-7e77abe1138c
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) exists only thanks to its [dynamic effect circle](((6a5d8eb5-6989-42d1-9419-57db76aaa871))) which is kept alive by the yin arrow of incompleteness, while it spends its entire life trying to reach the completeness of its ((669a5387-2a97-4311-a295-aa0afd9c4d76)). The moment the self-circle completes, it ceases to exist and returns its content to the ground. This is the ((6a80fa52-a1b0-43cd-90e3-7e77abe1138c)) of life caused by the [self-attachment to its ideal form](((69a502fe-1764-4e4d-85a4-ca0eff9c0754))). That's why the ideal image of a perfectly complete self-circle – a separate self – is a mere illusion.
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- Dual faces of the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), and the illusion of permanence induced by the perceptual resolution and scale gaps.
+				  collapsed:: true
+					- Nature of the self
+						- Dual faces of the center
+							- Mara face
+								- Zooming in reveals an **empty center** comprised of continuous flux.
+								- Deconstruction uncovers sensory signals, chemical cascades, and passing thoughts without an autonomous owner.
+								- The cognitive trap stems from clinging to dynamic aggregates as an immutable, sovereign entity.
+							- God face
+								- Zooming out reveals the empty center as an indispensable organizing hub.
+								- Just as an axle hole allows a wheel to turn, the empty center unifies decentralized parts into operational coherence.
+								- It functions as the necessary locus for deliberate action, ethical accountability, and unified navigation.
+						- Projection center of the universe
+							- Universal scope
+								- The extension of each self encompasses the entire accessible universe.
+								- Lived experience integrates cosmic history, inherited ancestral syntax, and physical horizons into a single vantage point.
+							- Coordinate of perspective
+								- Each self represents a localized projection of the whole cosmos at a distinct point.
+								- Individual uniqueness arises from the positional difference of that point, mirroring **monads** reflecting the same reality from distinct angles.
+					- Mechanism of the static illusion
+						- Optical compression across vast scale
+							- Projecting an infinite domain into a finite image compresses internal variations toward zero.
+							- The mathematical relation $⟪\lim_{N \to \infty} \frac{\Delta x}{N} = 0⟫$ renders local change infinitesimal against the total horizon.
+							- Apparent permanence is the zeroth-order term – a low-frequency running average across immense spatial and temporal windows.
+						- Celestial analogy
+							- Ancient navigators perceived constellations as an immutable crystal sphere of “fixed stars”.
+							- In reality, stellar bodies travel at hundreds of kilometers per second in turbulent orbits.
+							- Astronomical distance flattens hyper-speed velocities into apparent stillness over a human lifetime.
+					- Physical scale gaps and fundamental constants
+						- Fundamental constants as perceptual boundaries
+							- Classical stability is an asymptotic byproduct of extreme scale gaps governed by fundamental constants.
+							- Constants like $c$ and $\hbar$ define the operational borders of the macroscopic zoom lens.
+						- Quantum decoherence and the action threshold
+							- The classical world emerges formally at the asymptotic limit $⟪\lim_{\hbar \to 0} [\hat{A}, \hat{B}] = 0⟫$.
+							- Because Planck's constant is minute relative to macroscopic action, environmental **decoherence** suppresses phase interference almost instantaneously.
+							- Solid objects and definite trajectories are coarse-grained optical blurs of trillions of underlying quantum interactions.
+						- Relativity and causal horizons
+							- Common-sense intuition of absolute simultaneity corresponds to the mathematical limit $⟪\lim_{c \to \infty} \sqrt{1 - \frac{v^2}{c^2}} = 1⟫$.
+							- Everyday biological velocities remain negligible compared to the speed of light, making light propagation feel instantaneous.
+							- Observers perceive a shared, universal present rather than a dynamic, relativistic spacetime continuum.
+						- Effective field theories and renormalization
+							- The **Renormalization Group** demonstrates that microscopic, high-energy turbulence integrates out at macroscopic observation scales.
+							- Microscopic degrees of freedom become mathematically irrelevant operators in low-energy effective descriptions.
+						- Thermodynamic limit
+							- Macroscopic properties like temperature, pressure, and phase transitions exist strictly when $⟪N \to \infty⟫$.
+							- An isolated particle cannot freeze or exhibit temperature – solid states emerge purely from vast statistical scale disparities.
+						- Bronstein–Zelmanov–Okun framework
+							- Classical mechanics occupies the idealized coordinate $(0, 0, 0)$ across the parameter axes of $1/c$, $\hbar$, and $G$.
+							- Everyday cognition mistakes this low-velocity, weak-gravity limit for fundamental ontology.
+					- Philosophical convergence on scale and resolution
+						- Leibniz and infinitesimal summation
+							- The continuous roar of ocean waves arises from billions of imperceptible droplet collisions – the **petites perceptions**.
+							- Human sensory integration blurs discrete microscopic noise into a smooth macroscopic texture.
+							- Extended matter and static bodies are well-founded phenomena (*phaenomena bene fundata*) projected from dynamic monadological networks.
+						- Buddhist epistemology and temporal integration
+							- Experiential reality is analyzed as a rapid continuum (*citta-santāna*) of momentary events (*dharmas*).
+							- The whirling torch analogy (**alātacakra**) illustrates how a spinning ember creates the optical illusion of an unbroken ring of fire.
+							- The enduring self is an optical blur produced when rapid arising and ceasing exceed temporal cognitive resolution.
+						- Spinoza and perspectival slicing
+							- A single, infinite Substance exists eternally *sub specie aeternitatis*.
+							- Finite intellects slice this undivided continuum into isolated objects and separate egos *sub specie temporis*.
+							- Mistaking the localized, low-resolution slice for an autonomous entity generates the illusion of an independent self.
+						- Bergson and the cinematic intellect
+							- Fundamental reality is continuous, indivisible duration (**durée**).
+							- The intellect acts like a cinematograph, freezing fluid motion into static snapshots and nouns for practical bodily action.
+							- Structural permanence is a biological lens engineered to stabilize the river of flux.
+						- Zhuangzi and horizon relativity
+							- The opening of the *Zhuangzi* contrasts the morning mushroom's brief lifespan with the multi-millennial cycles of the great tree.
+							- Boundaries dividing the ten thousand things (*wanwu*) are relative constructs dictated by the observer's temporal lens.
+							- Fixed identities dissolve into fluid eddies within the undivided transformation of the Dao.
 		- ### life cycle of self
 		  id:: 690827cf-c19e-4fc4-ba25-5d225afe06ae
 		  collapsed:: true
@@ -2569,6 +2640,7 @@
 					- Unified.js AST mapping to TerminusDB storage substrate.
 		- Philosophy and Ontology of Aperas
 		  id:: 6a8cfdf7-e32c-4eff-882d-6cd987a2f630
+		  collapsed:: true
 			- Metaphysics of Form and Freedom (Unbounded – Unbound – Bound)
 				- Apeiron – Unbounded (Macrocosm – Objective Infinite)
 					- The outer universe existing in a state of infinite, unmanifested potential.
