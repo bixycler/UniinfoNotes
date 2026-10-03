@@ -1218,17 +1218,17 @@
 							- Particle versus wave interpretation of action
 								- The particle view isolates a moving crest, interpreting internal field evolution as an object traversing external spatial coordinates.
 								- The wave view recognizes the undivided continuum as fundamentally motionless, expressing all events as internal field modulations without spatial departure.
-							- Geometric dilution versus departure
+							- Geometric **dilution** versus **departure**
 								- Enacting an action functions like dropping a stone into the lake of the universal field, creating an ((667c0031-0a87-44c9-9e98-6d45893b095f)) that never leaves the medium.
 								- The impression that an effect travels outward into an external object is an optical trick of geometric dilution.
-								- As the circular wavefront expands, its local amplitude thins across an ever-widening perimeter, fading below the conscious threshold while remaining fully present in the field.
+								- As the wavefront expands, its local amplitude thins across an ever-widening perimeter, fading below the conscious threshold while remaining fully present in the field.
 							- Dispersion across cosmic degrees of freedom
 								- Immediate energy inputs disperse across trillions of environmental and social microstates.
 								- The event is already completely recorded at $⟪t = 0⟫$, but its traces remain diffuse across the cosmic heat bath.
 							- Reconvergence and the macroscopic detection threshold
-								- What is perceived as an effect returning from the outside world is merely the dispersed interference pattern refocusing back into a focal node.
+								- What is perceived as an effect “returning from the outside world” is merely the dispersed _**interference pattern** refocusing back into a focal node_.
 								- Apparent delay represents the phase time required for diffuse ripples to reconverge above the signal-to-noise threshold.
-								- Retribution or return is not a novel arrival, but the original, unbroken circle condensing back into macroscopic visibility.
+								- Retribution or return is not a novel arrival, but the original effect (called “cause”) condensing back into macroscopic visibility.
 						- Dissolution at the death threshold
 							- Ignorance as biological filtering
 								- The classical concept of ignorance ([avidyā](https://en.wikipedia.org/wiki/Avidy%C4%81_(Buddhism))) operates structurally as literal *ignoring*.
