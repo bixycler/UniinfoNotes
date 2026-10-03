@@ -1159,19 +1159,25 @@
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) of a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) is a ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) of ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) from that subject to itself, i.e. the ((667c0031-0a87-44c9-9e98-6d45893b095f)) of that subject. Each subject may have many selves expressed as different ((669a5387-2a97-4311-a295-aa0afd9c4d76))s, but we ususally call the master self at the current moment “the self” and “the self-circle”. This circle can be seen as an [objective concept](https://en.wikipedia.org/wiki/Philosophy_of_self) of ((6810ceeb-6af6-442b-9910-baae2c315c46)), or as a subjective ((67f9100a-b749-4354-ae16-92dc74ff27da)).
 		- ### self-paradox
 		  id:: 6a80fa52-a1b0-43cd-90e3-7e77abe1138c
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) exists only thanks to its [dynamic effect circle](((6a5d8eb5-6989-42d1-9419-57db76aaa871))) which is kept alive by the yin arrow of incompleteness, while it spends its entire life trying to reach the completeness of its ((669a5387-2a97-4311-a295-aa0afd9c4d76)). The moment the self-circle completes, it ceases to exist and returns its content to the ground. This is the ((6a80fa52-a1b0-43cd-90e3-7e77abe1138c)) of life caused by the [self-attachment to its ideal form](((69a502fe-1764-4e4d-85a4-ca0eff9c0754))). That's why the ideal image of a perfectly complete self-circle – a separate self – is a mere illusion.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) exists only thanks to its [dynamic effect circle](((6a5d8eb5-6989-42d1-9419-57db76aaa871))) which is kept alive by the yin arrow of incompleteness, while it spends its entire life trying to reach the completeness of its ((669a5387-2a97-4311-a295-aa0afd9c4d76)). The moment the self-circle completes, it ceases to exist and returns its content to the ground. This is the ((6a80fa52-a1b0-43cd-90e3-7e77abe1138c)) of life caused by the [dual faces of the self](((6ac0ee40-fd11-493f-9d94-19bfeac7d1e8))) and the [self-attachment to its ideal form](((69a502fe-1764-4e4d-85a4-ca0eff9c0754))). That's why the ideal image of a perfectly complete self-circle – a separate self – is a mere illusion.
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-				- Dual faces of the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), and the illusion of permanence induced by the perceptual resolution and scale gaps.
+				- Dual faces of the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), and the illusion of permanence induced by the perceptual resolution and scale gaps
+				  id:: 6ac0ee40-fd11-493f-9d94-19bfeac7d1e8
 				  collapsed:: true
 					- Nature of the self
 						- Dual faces of the center
-							- Mara face
-								- Zooming in reveals an **empty center** comprised of continuous flux.
+							- Māra face
+								- **Zooming in** reveals an ((69086748-b6e9-47c0-810b-4a92f882d6bc)) comprised of continuous flux.
 								- Deconstruction uncovers sensory signals, chemical cascades, and passing thoughts without an autonomous owner.
 								- The cognitive trap stems from clinging to dynamic aggregates as an immutable, sovereign entity.
 							- God face
-								- Zooming out reveals the empty center as an indispensable organizing hub.
+								- **Zooming out** reveals the empty center as an _indispensable organizing **hub**_.
 								- Just as an axle hole allows a wheel to turn, the empty center unifies decentralized parts into operational coherence.
+									- > Thirty spokes put together into one hub,
+									  > The original empty space makes the use of the wheel.
+									  > 「三十輻共一轂，當其無，有車之用。」
+									  
+									  — [Chapter 48. Forget the knowledge](https://en.wikisource.org/wiki/Translation:Tao_Te_Ching#Chapter_48_(%E7%AC%AC%E5%9B%9B%E5%8D%81%E5%85%AB%E7%AB%A0)), Tao Te Ching
 								- It functions as the necessary locus for deliberate action, ethical accountability, and unified navigation.
 						- Projection center of the universe
 							- Universal scope
@@ -1189,28 +1195,9 @@
 							- Ancient navigators perceived constellations as an immutable crystal sphere of “fixed stars”.
 							- In reality, stellar bodies travel at hundreds of kilometers per second in turbulent orbits.
 							- Astronomical distance flattens hyper-speed velocities into apparent stillness over a human lifetime.
-					- Physical scale gaps and fundamental constants
-						- Fundamental constants as perceptual boundaries
-							- Classical stability is an asymptotic byproduct of extreme scale gaps governed by fundamental constants.
-							- Constants like $c$ and $\hbar$ define the operational borders of the macroscopic zoom lens.
-						- Quantum decoherence and the action threshold
-							- The classical world emerges formally at the asymptotic limit $⟪\lim_{\hbar \to 0} [\hat{A}, \hat{B}] = 0⟫$.
-							- Because Planck's constant is minute relative to macroscopic action, environmental **decoherence** suppresses phase interference almost instantaneously.
-							- Solid objects and definite trajectories are coarse-grained optical blurs of trillions of underlying quantum interactions.
-						- Relativity and causal horizons
-							- Common-sense intuition of absolute simultaneity corresponds to the mathematical limit $⟪\lim_{c \to \infty} \sqrt{1 - \frac{v^2}{c^2}} = 1⟫$.
-							- Everyday biological velocities remain negligible compared to the speed of light, making light propagation feel instantaneous.
-							- Observers perceive a shared, universal present rather than a dynamic, relativistic spacetime continuum.
-						- Effective field theories and renormalization
-							- The **Renormalization Group** demonstrates that microscopic, high-energy turbulence integrates out at macroscopic observation scales.
-							- Microscopic degrees of freedom become mathematically irrelevant operators in low-energy effective descriptions.
-						- Thermodynamic limit
-							- Macroscopic properties like temperature, pressure, and phase transitions exist strictly when $⟪N \to \infty⟫$.
-							- An isolated particle cannot freeze or exhibit temperature – solid states emerge purely from vast statistical scale disparities.
-						- Bronstein–Zelmanov–Okun framework
-							- Classical mechanics occupies the idealized coordinate $(0, 0, 0)$ across the parameter axes of $1/c$, $\hbar$, and $G$.
-							- Everyday cognition mistakes this low-velocity, weak-gravity limit for fundamental ontology.
-					- Philosophical convergence on scale and resolution
+					- collapsed:: true
+					  
+					  Philosophical convergence on scale and resolution
 						- Leibniz and infinitesimal summation
 							- The continuous roar of ocean waves arises from billions of imperceptible droplet collisions – the **petites perceptions**.
 							- Human sensory integration blurs discrete microscopic noise into a smooth macroscopic texture.
@@ -1231,6 +1218,29 @@
 							- The opening of the *Zhuangzi* contrasts the morning mushroom's brief lifespan with the multi-millennial cycles of the great tree.
 							- Boundaries dividing the ten thousand things (*wanwu*) are relative constructs dictated by the observer's temporal lens.
 							- Fixed identities dissolve into fluid eddies within the undivided transformation of the Dao.
+					- collapsed:: true
+					  
+					  Physical scale gaps and fundamental constants
+						- Fundamental constants as perceptual boundaries
+							- Classical stability is an asymptotic byproduct of extreme scale gaps governed by fundamental constants.
+							- Constants like $c$ and $\hbar$ define the operational borders of the macroscopic zoom lens.
+						- Quantum decoherence and the action threshold
+							- The classical world emerges formally at the asymptotic limit $⟪\lim_{\hbar \to 0} [\hat{A}, \hat{B}] = 0⟫$.
+							- Because Planck's constant is minute relative to macroscopic action, environmental **decoherence** suppresses phase interference almost instantaneously.
+							- Solid objects and definite trajectories are coarse-grained optical blurs of trillions of underlying quantum interactions.
+						- Relativity and causal horizons
+							- Common-sense intuition of absolute simultaneity corresponds to the mathematical limit $⟪\lim_{c \to \infty} \sqrt{1 - \frac{v^2}{c^2}} = 1⟫$.
+							- Everyday biological velocities remain negligible compared to the speed of light, making light propagation feel instantaneous.
+							- Observers perceive a shared, universal present rather than a dynamic, relativistic spacetime continuum.
+						- Effective field theories and renormalization
+							- The **Renormalization Group** demonstrates that microscopic, high-energy turbulence integrates out at macroscopic observation scales.
+							- Microscopic degrees of freedom become mathematically irrelevant operators in low-energy effective descriptions.
+						- Thermodynamic limit
+							- Macroscopic properties like temperature, pressure, and phase transitions exist strictly when $⟪N \to \infty⟫$.
+							- An isolated particle cannot freeze or exhibit temperature – solid states emerge purely from vast statistical scale disparities.
+						- Bronstein–Zelmanov–Okun framework
+							- Classical mechanics occupies the idealized coordinate $(0, 0, 0)$ across the parameter axes of $1/c$, $\hbar$, and $G$.
+							- Everyday cognition mistakes this low-velocity, weak-gravity limit for fundamental ontology.
 		- ### life cycle of self
 		  id:: 690827cf-c19e-4fc4-ba25-5d225afe06ae
 		  collapsed:: true
