@@ -498,6 +498,7 @@
 							- The ignorance of the self about itself
 								- While the pattern-matching engine is constantly fabricating the selfhood in the unconscious, the conscious mind is nearly ignorant about such a giant engine. That leaves only a deep-rooted impression that “this is me” on the consciousness without seeing clearly why.
 								- The conscious takes for granted that “this is mine, i must be like this, i cannot be like that, i wan't to do this, i don't wan't that, etc.” without knowing why, where they are from.
+								- While the underlying pattern-matching doesn't care about distance in spacetime, the conscious mind is affected strongly by distance so that it sees two similar but separate objects in space as distinct.
 								- the ego's conscious usually disclaims that “I am not that stranger in the past or future” due to its ignorance about the underlying mechanism.
 								- .
 						- Triadic circuit of personal rebirth
