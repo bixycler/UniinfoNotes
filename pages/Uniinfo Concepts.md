@@ -465,9 +465,11 @@
 						  
 						  Core mechanics
 							- Conservation of karma – the continuous field
+							  id:: 6aca066b-99a5-404a-a3e0-2e314533dbe4
 								- Volition and intentional action propagate continuously as an informational wave across interpersonal networks.
 								- Momentum does not suspend itself to await biological death; transmission occurs in real-time interaction.
 							- Clinging dynamics and pattern capture – the particle of self
+							  id:: 6aca066b-affb-42ca-b6cb-ebc695ae70ca
 								- Clinging as a soliton
 									- Clinging (*upādāna*) behaves like a **soliton** – a self-reinforcing wave packet holding its shape and resisting dispersion against entropy.
 									- During physical life, grasping actively defends identity boundaries.
@@ -475,7 +477,7 @@
 								- Rebirth as pattern matching
 									- Rebirth is not spatial translocation across distances; it is resonance and **pattern matching**.
 									- When an emerging nervous system provides compatible conditions, the latent grasping template ignites.
-									- The cognitive I-maker (*ahaṃkāra*) executes its routine, claiming “this is me”, and fabricates an illusory continuum of personal identity.
+									- The cognitive I-maker ([ahaṃkāra](https://en.wikipedia.org/wiki/Ahamkara)) executes its routine, claiming “this is me”, and fabricates an illusory continuum of personal identity.
 									- The pattern-matching engine operates autonomically at the subconscious level, firing on raw resonance long before conscious evaluation can assess “this is an unrelated stranger”.
 								- The identification equation
 									- Selfhood is not an underlying substance but an active cognitive assignment: **self-pattern-matching = identification**.
@@ -489,11 +491,11 @@
 							- Category mismatch between realization and delusion
 								- **No-self** ([anattā](https://en.wikipedia.org/wiki/Anatt%C4%81)) is the operational realization of the liberated, in which identification has ceased; hence, no personal rebirth occurs. No contradiction.
 								- For the unliberated, **selfhood** is an intensely felt, heavy gravity well that demands an origin and an ongoing trajectory. Here, the psychological insistence that identity “must” persist before birth and after death is a demand of the ego-construct, not an imperative of physical law.
-							- Clinging as the carrier requirement
+							- Clinging as the carrier requirement for selfhood
 								- Only intentional action bound with grasping ([upādāna](https://en.wikipedia.org/wiki/Up%C4%81d%C4%81na)) transports personal baggage across boundaries.
 								- Neutral or unattached kinetic actions disperse cleanly into the environment without generating an unresolved personal trajectory.
-							- Temporal disclaimers as fundamental ignorance
-								- The ego's conscious disclaimer “I am not that stranger in the past or future” is a post-hoc intellectual rationalization.
+							- Temporal disclaimers due to ignorance
+								- While the pattern-matching engine is constantly   The ego's conscious disclaimer “I am not that stranger in the past or future” is a post-hoc intellectual rationalization.
 								- By the standard of autonomic subconscious pattern matching, this artificial boundary constitutes the operational definition of **ignorance** (*avijjā*).
 								- The analytical intellect attempts to disown karmic accountability while the visceral, subconscious substrate remains fully entangled in its tension field.
 						- Triadic circuit of personal rebirth
@@ -519,16 +521,18 @@
 									- Positive clinging maintains the cycle of *saṃsāra* as tightly as negative clinging, binding distributed parties to recursive relational obligations.
 						- Personal versus impersonal selfhood
 							- Impersonal self through karma conservation
-								- Grounded in the **conservation of karma**, intentional momentum cannot be destroyed, only transformed across interpersonal networks.
+								- Grounded in the [conservation of karma](((6aca066b-99a5-404a-a3e0-2e314533dbe4))), intentional momentum cannot be destroyed, only transformed across interpersonal networks.
 								- The impersonal self is therefore **always reborn** in continuous and manifold forms – rippling through living disciples, cultural memory, language, and physical artifacts.
 								- Gautama systematically replicated his cognitive architecture into thousands of living minds, creating an extended organism where the Dharma serves as animating coherence and the Sangha as its distributed body.
 								- Because causal momentum never ceases, this impersonal broadcast propagates perpetually regardless of biological death.
 							- Personal self through clinging dynamics
-								- Grounded in **clinging dynamics**, the personal self is a localized, fuel-dependent whirlpool that is **only reborn when unliberated**.
+								- Grounded in [clinging dynamics](((6aca066b-affb-42ca-b6cb-ebc695ae70ca))), the personal self is a localized, fuel-dependent whirlpool that is **only reborn when unliberated**.
 								- In the unliberated state, the soliton of unresolved grasping (*upādāna*) preserves its boundary template until it triggers $⟪\text{self-pattern-matching} = \text{identification}⟫$ in a compatible substrate.
 								- The illusion of an enduring traveler arises solely because the cognitive I-maker (*ahaṃkāra*) re-appropriates the recurring pattern as personal property.
 								- Upon liberation, clinging is extinguished and the identification routine dissolves ($⟪\text{no-self} = \text{no-identification}⟫$); the personal whirlpool flattens entirely, leaving only the unowned impersonal wave in the medium.
-						- Contemplative lineages and structural convergence
+						- collapsed:: true
+						  
+						  Contemplative lineages and structural convergence
 							- Buddhadasa Bhikkhu – high-frequency ego boot-up
 								- Deconstructed the commentarial three-lifetime model of Dependent Origination into moment-to-moment arising of “I” and “Mine” (*ahaṃkāra-māmakāra*).
 								- High-frequency rebirth avoids random static through **saṅkhāra** acting as an attractor basin with decisive causal inertia (*upanissaya-paccaya*).
@@ -545,7 +549,9 @@
 								- Dismantled linear transmigration through the firewood and ash analogy in *Genjōkōan*, severing the substantial rope of chronological time.
 								- Each moment is a self-contained Dharma-position (*hōi*) and time-being (*uji*) exerting total situational conditioning.
 								- Dependent origination persists without an internal ghost because each discontinuous state intrinsically embodies its conditional field.
-						- Resolution of classical paradoxes
+						- collapsed:: true
+						  
+						  Resolution of classical paradoxes
 							- Silence on post-mortem existence
 								- The undeclared points (*avyākata*) exposed a fundamental category mistake.
 								- Inquiring where an awakened being goes after death is analogous to asking which direction an extinguished flame travelled.
