@@ -565,7 +565,7 @@
 							- Spectrum of rebirth claims
 								- Deluded claimants run both pattern matching and identification, where active conceit (*asmi-māna*) appropriates the archetype to declare “I am the reborn Buddha”.
 								- Folk attribution represents collective pattern-matching that projects an external hero persona onto realized individuals.
-								- Liberated replicas run the awakened blueprint with high fidelity, yet embody $⟪\text{no-self} = \text{no-identification}⟫$, lacking the routine required to claim ownership.
+								- Liberated replicas run the awakened blueprint with high fidelity, yet without identification, no ownership is claimed.
 							- Institutionalized continuity in the Tulku system
 								- Tibetan monasticism developed a **samsaric engine** to maintain institutional, political, and landholding stability under vows of celibacy.
 								- Young children are systematically recognized and conditioned into pre-existing persona templates.
