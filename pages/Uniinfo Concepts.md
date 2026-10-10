@@ -460,6 +460,7 @@
 									- The **Bodhisattva ideal** upgraded the model from private escape to collective processing, where a node stays in the network to actively absorb collective friction.
 									- The **Huayan metaphysics** recognized the universal interpenetration of Indra's Net, where clearing one's own node contributes to the frequency of the entire web.
 					- Impersonal rebirth of all beings verus Buddhist personal rebirth of the unliberated
+					  id:: 6aca066b-0280-44d5-9a14-3674d9f6c811
 					  collapsed:: true
 						- collapsed:: true
 						  

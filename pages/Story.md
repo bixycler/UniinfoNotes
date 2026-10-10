@@ -3081,11 +3081,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 3rd, wrote down my long-standing model of the universal viewcone of the self: ((6ac0ee40-fd11-493f-9d94-19bfeac7d1e8))
 			- A week of sickness (Sunday 4th – Saturday 10th)
 				- 1st & 2nd day: high fever, likely viral. This is the first time a fever caused my whole body to be like beatened like this.
-				- 3rd day: soar throat then cough. Watch YouTube with a lot of tear.
-				  
-				    - 4th, 5th: sleep & meditate
-				  
-				    - 6th: chat about No-self & selful rebirth, then sleep
+				- 3rd day: soar throat then cough. Watched YouTube with a lot of tear.
+				- 4th, 5th day: sleeps & meditation. The condition forced me to keep meditating, because the symptomes would jump right in any little gap: trobbing from my right ear, cough from my chest (carina).
+					- I've confirmed with chatbot that my discovered “key point”
+				- 6th day: chat with Gemini about ((6aca066b-0280-44d5-9a14-3674d9f6c811)).
+				- 7th day: after sleeps and meditation, the symptoms have been settled down enough for me to go to the office... to log them down.
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6abd18dd-8ba5-4962-939c-722ea6341aaa))
