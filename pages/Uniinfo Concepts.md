@@ -491,6 +491,7 @@
 							- Category mismatch between realization and delusion
 								- **No-self** ([anattā](https://en.wikipedia.org/wiki/Anatt%C4%81)) is the operational realization of the liberated, in which identification has ceased; hence, no personal rebirth occurs. No contradiction.
 								- For the unliberated, **selfhood** is an intensely felt, heavy gravity well that demands an origin and an ongoing trajectory. Here, the psychological insistence that identity “must” persist before birth and after death is a demand of the ego-construct, not an imperative of physical law.
+								- People meet contradiction because they confuse the **ultimate truth of no-self** with the **conventional truth of personal rebirth**. Here, the personal rebirth is only a byproduct of the selfhood and has nothing to do with the.
 							- Clinging as the carrier requirement for selfhood
 								- Only intentional action bound with grasping ([upādāna](https://en.wikipedia.org/wiki/Up%C4%81d%C4%81na)) transports personal baggage across boundaries.
 								- Neutral or unattached kinetic actions disperse cleanly into the environment without generating an unresolved personal trajectory.
