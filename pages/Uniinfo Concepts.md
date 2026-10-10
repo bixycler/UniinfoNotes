@@ -487,6 +487,17 @@
 								- Non-linear instantiation
 									- Pattern matching is unconstrained by one-to-one linear trajectories or geographic proximity.
 									- The same unresolved blueprint can instantiate simultaneously across multiple independent human substrates.
+						- Personal versus impersonal selfhood
+							- **Impersonal self** through karma conservation
+								- Grounded in the [conservation of karma](((6aca066b-99a5-404a-a3e0-2e314533dbe4))), intentional momentum cannot be destroyed, only transformed across interpersonal networks.
+								- The impersonal self is therefore **always reborn** in continuous and manifold forms – rippling through living disciples, cultural memory, language, and physical artifacts.
+								- Gautama systematically replicated his cognitive architecture into thousands of living minds, creating an extended organism where the Dharma serves as animating coherence and the Sangha as its distributed body.
+								- Because causal momentum never ceases, this impersonal broadcast propagates perpetually regardless of biological death.
+							- **Personal self** through clinging dynamics
+								- Grounded in [clinging dynamics](((6aca066b-affb-42ca-b6cb-ebc695ae70ca))), the personal self is a localized, fuel-dependent whirlpool that is **only reborn when unliberated**.
+								- In the unliberated state, the soliton of unresolved grasping (*upādāna*) preserves its boundary template until it triggers $⟪\text{self-pattern-matching} = \text{identification}⟫$ in a compatible substrate.
+								- The illusion of an enduring traveler arises solely because the cognitive I-maker (*ahaṃkāra*) re-appropriates the recurring pattern as personal property.
+								- Upon liberation, clinging is extinguished and the identification routine dissolves ($⟪\text{no-self} = \text{no-identification}⟫$); the personal whirlpool flattens entirely, leaving only the unowned impersonal wave in the medium.
 						- Epistemological reference frames
 							- Category mismatch between the [two levels of truth](https://en.wikipedia.org/wiki/Two_truths_doctrine)
 								- **Non-self** ([anattā](https://en.wikipedia.org/wiki/Anatt%C4%81)) is the operational realization of the liberated, in which identification has ceased; hence, no personal rebirth occurs. No contradiction.
@@ -521,17 +532,6 @@
 									- An individual offers help laden with covert expectation, establishing an active psychological and social debt.
 									- If the debtor dies before repayment, the creditor’s unresolved grasping seeks recovery from the debtor’s extended self – family, heirs, or affiliated group – using pattern matching.
 									- Positive clinging maintains the cycle of *saṃsāra* as tightly as negative clinging, binding distributed parties to recursive relational obligations.
-						- Personal versus impersonal selfhood
-							- Impersonal self through karma conservation
-								- Grounded in the [conservation of karma](((6aca066b-99a5-404a-a3e0-2e314533dbe4))), intentional momentum cannot be destroyed, only transformed across interpersonal networks.
-								- The impersonal self is therefore **always reborn** in continuous and manifold forms – rippling through living disciples, cultural memory, language, and physical artifacts.
-								- Gautama systematically replicated his cognitive architecture into thousands of living minds, creating an extended organism where the Dharma serves as animating coherence and the Sangha as its distributed body.
-								- Because causal momentum never ceases, this impersonal broadcast propagates perpetually regardless of biological death.
-							- Personal self through clinging dynamics
-								- Grounded in [clinging dynamics](((6aca066b-affb-42ca-b6cb-ebc695ae70ca))), the personal self is a localized, fuel-dependent whirlpool that is **only reborn when unliberated**.
-								- In the unliberated state, the soliton of unresolved grasping (*upādāna*) preserves its boundary template until it triggers $⟪\text{self-pattern-matching} = \text{identification}⟫$ in a compatible substrate.
-								- The illusion of an enduring traveler arises solely because the cognitive I-maker (*ahaṃkāra*) re-appropriates the recurring pattern as personal property.
-								- Upon liberation, clinging is extinguished and the identification routine dissolves ($⟪\text{no-self} = \text{no-identification}⟫$); the personal whirlpool flattens entirely, leaving only the unowned impersonal wave in the medium.
 						- collapsed:: true
 						  
 						  Contemplative lineages and structural convergence
