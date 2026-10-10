@@ -532,9 +532,8 @@
 									- An individual offers help laden with covert expectation, establishing an active psychological and social debt.
 									- If the debtor dies before repayment, the creditor’s unresolved grasping seeks recovery from the debtor’s extended self – family, heirs, or affiliated group – using pattern matching.
 									- Positive clinging maintains the cycle of *saṃsāra* as tightly as negative clinging, binding distributed parties to recursive relational obligations.
-						- collapsed:: true
-						  
-						  Contemplative lineages and structural convergence
+						- Contemplative lineages departing from the classical model of personal rebirth
+						  collapsed:: true
 							- [Buddhadasa Bhikkhu](https://en.wikipedia.org/wiki/Ajahn_Buddhadasa) – high-frequency ego boot-up
 								- Deconstructed the commentarial three-lifetime model of Dependent Origination into moment-to-moment arising of “I” and “Mine” (*ahaṃkāra-māmakāra*).
 								- High-frequency rebirth avoids random static through **saṅkhāra** acting as an attractor basin with decisive causal inertia (*upanissaya-paccaya*).
@@ -1349,9 +1348,8 @@
 								- At the death gate, biological shielding and default-mode partitions dissolve.
 								- The life review reveals the full dipole simultaneously, rendering actions inflicted upon others directly through the recipient's vantage point.
 								- Objective judgment emerges organically because the boundary between actor and field was an operational fiction of the zoom lens.
-					- collapsed:: true
-					  
-					  Philosophical convergence on scale and resolution
+					- Philosophical convergence on scale and resolution
+					  collapsed:: true
 						- Leibniz and infinitesimal summation
 							- The continuous roar of ocean waves arises from billions of imperceptible droplet collisions – the **petites perceptions**.
 							- Human sensory integration blurs discrete microscopic noise into a smooth macroscopic texture.
@@ -1372,9 +1370,8 @@
 							- The opening of the *Zhuangzi* contrasts the morning mushroom's brief lifespan with the multi-millennial cycles of the great tree.
 							- Boundaries dividing the ten thousand things (*wanwu*) are relative constructs dictated by the observer's temporal lens.
 							- Fixed identities dissolve into fluid eddies within the undivided transformation of the Dao.
-					- collapsed:: true
-					  
-					  Physical scale gaps and fundamental constants
+					- Physical scale gaps and fundamental constants
+					  collapsed:: true
 						- Fundamental constants as perceptual boundaries
 							- Classical stability is an asymptotic byproduct of extreme scale gaps governed by fundamental constants.
 							- Constants like $c$ and $\hbar$ define the operational borders of the macroscopic zoom lens.
