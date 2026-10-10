@@ -2082,6 +2082,7 @@
 							- Samsara: The coarse-grained full circle guaranteed by Poincaré.
 								- The structural wheel where dissolved phase space inevitably loops and re-manifests.
 							- Rebirth: The literal emergence of the local entropy sink.
+							  id:: 6a6e8d36-895b-4b92-b7ad-861324f05988
 								- The exact moment latent information folds back into a crisp new node to compress the phase space.
 						- The perfect sink
 							- Historical escapism treats liberation (Moksha / Nirvana) as the ultimate “Pump” – building a rigid wall to run away into a cold, static, zero-entropy void.
