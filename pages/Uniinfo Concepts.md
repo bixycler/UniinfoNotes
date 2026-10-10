@@ -545,7 +545,7 @@
 								- Awakened continuation replaces the fantasy of post-mortem escape with distributed presence across the relational field.
 							- [Ñāṇavīra Thera](https://en.wikipedia.org/wiki/%C3%91%C4%81%E1%B9%87av%C4%ABra_Thera) – vertical structural dependence
 								- Rejected horizontal, chronological Abhidhamma models in favor of instantaneous, vertical structural conditions (*paṭiccasamuppāda*).
-								- Instances of self across spacetime are linked by **structural isomorphism** rather than a traveling substance, executing identical phenomenological code.
+								- He emphasized that the Buddha did not offer a scientific “explanation” of how rebirth mechanically happens, and maintained that rebirth must simply be accepted through unshaken **faith** in the Buddha's words.
 								- Existential tension is resolved here and now by dismantling the subject–object structure of delusion, making temporal migration irrelevant.
 							- [Dōgen](https://en.wikipedia.org/wiki/D%C5%8Dgen) – continuity of discontinuity
 								- Dismantled linear transmigration through the firewood and ash analogy in *Genjōkōan*, severing the substantial rope of chronological time.
