@@ -495,9 +495,8 @@
 								- Only intentional action bound with grasping ([upādāna](https://en.wikipedia.org/wiki/Up%C4%81d%C4%81na)) transports personal baggage across boundaries.
 								- Neutral or unattached kinetic actions disperse cleanly into the environment without generating an unresolved personal trajectory.
 							- Temporal disclaimers due to ignorance
-								- While the pattern-matching engine is constantly   The ego's conscious disclaimer “I am not that stranger in the past or future” is a post-hoc intellectual rationalization.
-								- By the standard of autonomic subconscious pattern matching, this artificial boundary constitutes the operational definition of **ignorance** (*avijjā*).
-								- The analytical intellect attempts to disown karmic accountability while the visceral, subconscious substrate remains fully entangled in its tension field.
+								- While the pattern-matching engine is constantly fabricating the selfhood in the unconscious, the ego's conscious usually disclaims that “I am not that stranger in the past or future” due to its ignorance about the underlying mechanism.
+								- .
 						- Triadic circuit of personal rebirth
 							- The three required conditions
 								- Condition 1 – personal self
