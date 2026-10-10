@@ -459,6 +459,111 @@
 								- This limitation eventually drove the Mahayana shift.
 									- The **Bodhisattva ideal** upgraded the model from private escape to collective processing, where a node stays in the network to actively absorb collective friction.
 									- The **Huayan metaphysics** recognized the universal interpenetration of Indra's Net, where clearing one's own node contributes to the frequency of the entire web.
+					- Impersonal rebirth of all beings verus Buddhist personal rebirth of unliberated
+					  collapsed:: true
+						- Core mechanics
+							- Conservation of karma
+								- Volition and intentional action propagate continuously as an informational wave across interpersonal networks.
+								- Momentum does not suspend itself to await biological death; transmission occurs in real-time interaction.
+							- Critique of the particle model
+								- Traditional folk rebirth relies on an illicit **particle model**, smuggling the soul (*atman*) back through concepts like intermediate spirits or relinking consciousness.
+								- Postulating a discrete carrier particle creates unnecessary scholastic paradoxes and speculative mythology.
+						- Clinging dynamics and pattern capture
+							- Clinging as a soliton
+								- Clinging (*upādāna*) behaves like a **soliton** – a self-reinforcing wave packet holding its shape and resisting dispersion against entropy.
+								- During physical life, grasping actively defends identity boundaries.
+								- At biological death, bodily cohesion dissolves, but the informational tension of unresolved grasping radiates outward into the cultural medium.
+							- Rebirth as pattern matching
+								- Rebirth is not spatial translocation across distances; it is resonance and **pattern matching**.
+								- When an emerging nervous system provides compatible conditions, the latent grasping template ignites.
+								- The cognitive I-maker (*ahaṃkāra*) executes its routine, claiming “this is me”, and fabricates an illusory continuum of personal identity.
+								- The pattern-matching engine operates autonomically at the subconscious level, firing on raw resonance long before conscious evaluation can assess “this is an unrelated stranger”.
+							- The identification equation
+								- Selfhood is not an underlying substance but an active cognitive assignment: self-pattern-matching = identification.
+								- An identity coalesces only when the matching routine seizes a recurring pattern and stamps it as “mine”.
+								- Conversely, the core operational realization of **anatta** is defined by dissolution: $⟪\text{no-self} = \text{no-identification}⟫$.
+								- Informational waves and behavioral structures may continue to ripple across the medium, but without the identification subroutine, no personal entity is instantiated.
+							- Non-linear instantiation
+								- Pattern matching is unconstrained by one-to-one linear trajectories or geographic proximity.
+								- The same unresolved blueprint can instantiate simultaneously across multiple independent human substrates.
+						- Epistemological reference frames
+							- Category mismatch between realization and delusion
+								- No-self is the operational realization of the liberated, in which identification has ceased; hence, no personal rebirth occurs without contradiction.
+								- For the unliberated, selfhood is an intensely felt, heavy gravity well that demands an origin and an ongoing trajectory.
+								- The psychological insistence that identity “must” persist before birth and after death is a demand of the ego-construct, not an imperative of physical law.
+							- Temporal disclaimers as fundamental ignorance
+								- The ego's conscious disclaimer “I am not that stranger in the past or future” is a post-hoc intellectual rationalization.
+								- By the standard of autonomic subconscious pattern matching, this artificial boundary constitutes the operational definition of **ignorance** (*avijjā*).
+								- The analytical intellect attempts to disown karmic accountability while the visceral, subconscious substrate remains fully entangled in its tension field.
+							- Clinging as the carrier requirement
+								- Only intentional action bound with grasping (*upādāna*) transports personal baggage across boundaries.
+								- Neutral or unattached kinetic actions disperse cleanly into the environment without generating an unresolved personal trajectory.
+						- Triadic circuit of personal rebirth
+							- The three required conditions
+								- Condition 1 – personal self
+									- Active **identification** operates as a localized receiving antenna through the cognitive routine “this is me”.
+									- Without this active receiver, incoming karmic tension passes through without triggering personal attribution or retribution.
+								- Condition 2 – clinging karma
+									- Intentional volition directed toward others must be magnetized by unresolved clinging, hatred, trauma, or expectation.
+									- This unresolved charge constitutes an open, incomplete circuit in the relational field.
+								- Condition 3 – relational medium
+									- The transport medium is the distributed relational matrix – cultural memory, language, family lineages, societal trauma, and material institutions.
+									- Because this vast interpersonal field is imperceptible to concrete observation, naive folklore hallucinated a “floating soul” or mystical particle to bridge generational gaps.
+							- Concrete circuit illustrations
+								- Negative clinging karma – retaliation across collective trauma
+									- An invading soldier inflicts violence during wartime, embedding deep clinging karma stored as visceral hatred within a surviving civilian population.
+									- Decades later, a new person socialized into aggressive nationalistic pride visits that culture, loudly celebrating their nation's past military conquests.
+									- The alignment of that prideful identification with the preserved communal trauma closes the circuit, resulting in hostility or retaliation.
+									- If the same visitor instead arrives with relaxed identification – humble, aware, and without national chauvinism – the stored charge finds no matching hook, and the circuit fails to fire.
+								- Positive clinging karma – conditional reciprocity and extended self
+									- An individual offers help laden with covert expectation, establishing an active psychological and social debt.
+									- If the debtor dies before repayment, the creditor’s unresolved grasping seeks recovery from the debtor’s extended self – family, heirs, or affiliated group – using pattern matching.
+									- Positive clinging maintains the cycle of *saṃsāra* as tightly as negative clinging, binding distributed parties to recursive relational obligations.
+						- Personal versus impersonal selfhood
+							- Impersonal self through karma conservation
+								- Grounded in the **conservation of karma**, intentional momentum cannot be destroyed, only transformed across interpersonal networks.
+								- The impersonal self is therefore **always reborn** in continuous and manifold forms – rippling through living disciples, cultural memory, language, and physical artifacts.
+								- Gautama systematically replicated his cognitive architecture into thousands of living minds, creating an extended organism where the Dharma serves as animating coherence and the Sangha as its distributed body.
+								- Because causal momentum never ceases, this impersonal broadcast propagates perpetually regardless of biological death.
+							- Personal self through clinging dynamics
+								- Grounded in **clinging dynamics**, the personal self is a localized, fuel-dependent whirlpool that is **only reborn when unliberated**.
+								- In the unliberated state, the soliton of unresolved grasping (*upādāna*) preserves its boundary template until it triggers $⟪\text{self-pattern-matching} = \text{identification}⟫$ in a compatible substrate.
+								- The illusion of an enduring traveler arises solely because the cognitive I-maker (*ahaṃkāra*) re-appropriates the recurring pattern as personal property.
+								- Upon liberation, clinging is extinguished and the identification routine dissolves ($⟪\text{no-self} = \text{no-identification}⟫$); the personal whirlpool flattens entirely, leaving only the unowned impersonal wave in the medium.
+						- Contemplative lineages and structural convergence
+							- Buddhadasa Bhikkhu – high-frequency ego boot-up
+								- Deconstructed the commentarial three-lifetime model of Dependent Origination into moment-to-moment arising of “I” and “Mine” (*ahaṃkāra-māmakāra*).
+								- High-frequency rebirth avoids random static through **saṅkhāra** acting as an attractor basin with decisive causal inertia (*upanissaya-paccaya*).
+								- Rebirth occurs dozens of times daily whenever sensory contact sparks personal appropriation.
+							- Thích Nhất Hạnh – interbeing and informational conservation
+								- Formulated karma as an unceasing wave moving through living **continuation bodies**, community, and the physical world rather than an isolated soul-particle.
+								- Physical death does not mark an abrupt transition; intentional momentum propagates continually in real-time as **interbeing**.
+								- Awakened continuation replaces the fantasy of post-mortem escape with distributed presence across the relational field.
+							- Ñāṇavīra Thera – vertical structural dependence
+								- Rejected horizontal, chronological Abhidhamma models in favor of instantaneous, vertical structural conditions (*paṭiccasamuppāda*).
+								- Instances of self across spacetime are linked by **structural isomorphism** rather than a traveling substance, executing identical phenomenological code.
+								- Existential tension is resolved here and now by dismantling the subject–object structure of delusion, making temporal migration irrelevant.
+							- Eihei Dogen – continuity of discontinuity
+								- Dismantled linear transmigration through the firewood and ash analogy in *Genjōkōan*, severing the substantial rope of chronological time.
+								- Each moment is a self-contained Dharma-position (*hōi*) and time-being (*uji*) exerting total situational conditioning.
+								- Dependent origination persists without an internal ghost because each discontinuous state intrinsically embodies its conditional field.
+						- Resolution of classical paradoxes
+							- Silence on post-mortem existence
+								- The undeclared points (*avyākata*) exposed a fundamental category mistake.
+								- Inquiring where an awakened being goes after death is analogous to asking which direction an extinguished flame travelled.
+								- The personal container never existed as a permanent entity, while the impersonal field cannot be confined to localized coordinates.
+							- The ego's copyright paradox
+								- The ego demands an enduring ledger: “Why should I care about actions if the future experiencer is someone else?”
+								- Because any future substrate caught in the pattern runs the identical identification subroutine ($⟪\text{self-pattern-matching} = \text{identification}⟫$), subjective ownership is computationally 100% preserved.
+								- The present personal self is itself nothing other than past karmic tension caught by today's matching receiver; the creator and inheritor are functional equivalents.
+							- Spectrum of rebirth claims
+								- Deluded claimants run both pattern matching and identification, where active conceit (*asmi-māna*) appropriates the archetype to declare “I am the reborn Buddha”.
+								- Folk attribution represents collective pattern-matching that projects an external hero persona onto realized individuals.
+								- Liberated replicas run the awakened blueprint with high fidelity, yet embody $⟪\text{no-self} = \text{no-identification}⟫$, lacking the routine required to claim ownership.
+							- Institutionalized continuity in the Tulku system
+								- Tibetan monasticism developed a **samsaric engine** to maintain institutional, political, and landholding stability under vows of celibacy.
+								- Young children are systematically recognized and conditioned into pre-existing persona templates.
+								- The framework mobilizes worldly structures – identity, property, and lineage – to preserve spiritual continuity within a feudal society.
 		- transform
 		  id:: 669dd16c-1836-40ec-86e5-772f8f4774ce
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669dd16c-1836-40ec-86e5-772f8f4774ce)), as a noun, includes not only the ((669a58b9-eb34-41cd-8605-02e29b07e1b5)), as "trans-", but also the source and target ((665ca429-84e3-49ff-921e-c07d19cd99ba))s of that transformation, as "-form".
