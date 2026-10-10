@@ -495,9 +495,9 @@
 								- Because causal momentum never ceases, this impersonal broadcast propagates perpetually regardless of biological death.
 							- **Personal self** through clinging dynamics
 								- Grounded in [clinging dynamics](((6aca066b-affb-42ca-b6cb-ebc695ae70ca))), the personal self is a localized, fuel-dependent whirlpool that is **only reborn when unliberated**.
-								- In the unliberated state, the soliton of unresolved grasping (*upādāna*) preserves its boundary template until it triggers $⟪\text{self-pattern-matching} = \text{identification}⟫$ in a compatible substrate.
+								- In the unliberated state, the soliton of unresolved grasping (*upādāna*) preserves its boundary template via self-pattern-matching (identification) across spacetime.
 								- The illusion of an enduring traveler arises solely because the cognitive I-maker (*ahaṃkāra*) re-appropriates the recurring pattern as personal property.
-								- Upon liberation, clinging is extinguished and the identification routine dissolves ($⟪\text{no-self} = \text{no-identification}⟫$); the personal whirlpool flattens entirely, leaving only the unowned impersonal wave in the medium.
+								- Upon liberation, clinging is extinguished and the identification routine dissolves; the personal whirlpool flattens entirely, leaving only the unowned impersonal wave in the medium.
 						- Epistemological reference frames
 							- Category mismatch between the [two levels of truth](https://en.wikipedia.org/wiki/Two_truths_doctrine)
 								- **Non-self** ([anattā](https://en.wikipedia.org/wiki/Anatt%C4%81)) is the operational realization of the liberated, in which identification has ceased; hence, no personal rebirth occurs. No contradiction.
@@ -535,19 +535,19 @@
 						- collapsed:: true
 						  
 						  Contemplative lineages and structural convergence
-							- Buddhadasa Bhikkhu – high-frequency ego boot-up
+							- [Buddhadasa Bhikkhu](https://en.wikipedia.org/wiki/Ajahn_Buddhadasa) – high-frequency ego boot-up
 								- Deconstructed the commentarial three-lifetime model of Dependent Origination into moment-to-moment arising of “I” and “Mine” (*ahaṃkāra-māmakāra*).
 								- High-frequency rebirth avoids random static through **saṅkhāra** acting as an attractor basin with decisive causal inertia (*upanissaya-paccaya*).
 								- Rebirth occurs dozens of times daily whenever sensory contact sparks personal appropriation.
-							- Thích Nhất Hạnh – interbeing and informational conservation
+							- [Thích Nhất Hạnh](https://en.wikipedia.org/wiki/Th%C3%ADch_Nh%E1%BA%A5t_H%E1%BA%A1nh) – interbeing and informational conservation
 								- Formulated karma as an unceasing wave moving through living **continuation bodies**, community, and the physical world rather than an isolated soul-particle.
 								- Physical death does not mark an abrupt transition; intentional momentum propagates continually in real-time as **interbeing**.
 								- Awakened continuation replaces the fantasy of post-mortem escape with distributed presence across the relational field.
-							- Ñāṇavīra Thera – vertical structural dependence
+							- [Ñāṇavīra Thera](https://en.wikipedia.org/wiki/%C3%91%C4%81%E1%B9%87av%C4%ABra_Thera) – vertical structural dependence
 								- Rejected horizontal, chronological Abhidhamma models in favor of instantaneous, vertical structural conditions (*paṭiccasamuppāda*).
 								- Instances of self across spacetime are linked by **structural isomorphism** rather than a traveling substance, executing identical phenomenological code.
 								- Existential tension is resolved here and now by dismantling the subject–object structure of delusion, making temporal migration irrelevant.
-							- Eihei Dogen – continuity of discontinuity
+							- [Dōgen](https://en.wikipedia.org/wiki/D%C5%8Dgen) – continuity of discontinuity
 								- Dismantled linear transmigration through the firewood and ash analogy in *Genjōkōan*, severing the substantial rope of chronological time.
 								- Each moment is a self-contained Dharma-position (*hōi*) and time-being (*uji*) exerting total situational conditioning.
 								- Dependent origination persists without an internal ghost because each discontinuous state intrinsically embodies its conditional field.
@@ -560,7 +560,7 @@
 								- The personal container never existed as a permanent entity, while the impersonal field cannot be confined to localized coordinates.
 							- The ego's copyright paradox
 								- The ego demands an enduring ledger: “Why should I care about actions if the future experiencer is someone else?”
-								- Because any future substrate caught in the pattern runs the identical identification subroutine ($⟪\text{self-pattern-matching} = \text{identification}⟫$), subjective ownership is computationally 100% preserved.
+								- Because any future substrate caught in the pattern runs the identical identification subroutine, subjective ownership is computationally 100% preserved.
 								- The present personal self is itself nothing other than past karmic tension caught by today's matching receiver; the creator and inheritor are functional equivalents.
 							- Spectrum of rebirth claims
 								- Deluded claimants run both pattern matching and identification, where active conceit (*asmi-māna*) appropriates the archetype to declare “I am the reborn Buddha”.
