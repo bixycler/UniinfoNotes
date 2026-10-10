@@ -488,15 +488,14 @@
 						- Epistemological reference frames
 							- Category mismatch between realization and delusion
 								- **No-self** ([anattā](https://en.wikipedia.org/wiki/Anatt%C4%81)) is the operational realization of the liberated, in which identification has ceased; hence, no personal rebirth occurs. No contradiction.
-								- For the unliberated, selfhood is an intensely felt, heavy gravity well that demands an origin and an ongoing trajectory.
-								- The psychological insistence that identity “must” persist before birth and after death is a demand of the ego-construct, not an imperative of physical law.
+								- For the unliberated, **selfhood** is an intensely felt, heavy gravity well that demands an origin and an ongoing trajectory. Here, the psychological insistence that identity “must” persist before birth and after death is a demand of the ego-construct, not an imperative of physical law.
+							- Clinging as the carrier requirement
+								- Only intentional action bound with grasping ([upādāna](https://en.wikipedia.org/wiki/Up%C4%81d%C4%81na)) transports personal baggage across boundaries.
+								- Neutral or unattached kinetic actions disperse cleanly into the environment without generating an unresolved personal trajectory.
 							- Temporal disclaimers as fundamental ignorance
 								- The ego's conscious disclaimer “I am not that stranger in the past or future” is a post-hoc intellectual rationalization.
 								- By the standard of autonomic subconscious pattern matching, this artificial boundary constitutes the operational definition of **ignorance** (*avijjā*).
 								- The analytical intellect attempts to disown karmic accountability while the visceral, subconscious substrate remains fully entangled in its tension field.
-							- Clinging as the carrier requirement
-								- Only intentional action bound with grasping (*upādāna*) transports personal baggage across boundaries.
-								- Neutral or unattached kinetic actions disperse cleanly into the environment without generating an unresolved personal trajectory.
 						- Triadic circuit of personal rebirth
 							- The three required conditions
 								- Condition 1 – personal self
