@@ -459,36 +459,35 @@
 								- This limitation eventually drove the Mahayana shift.
 									- The **Bodhisattva ideal** upgraded the model from private escape to collective processing, where a node stays in the network to actively absorb collective friction.
 									- The **Huayan metaphysics** recognized the universal interpenetration of Indra's Net, where clearing one's own node contributes to the frequency of the entire web.
-					- Impersonal rebirth of all beings verus Buddhist personal rebirth of unliberated
+					- Impersonal rebirth of all beings verus Buddhist personal rebirth of the unliberated
 					  collapsed:: true
-						- Core mechanics
-							- Conservation of karma
+						- collapsed:: true
+						  
+						  Core mechanics
+							- Conservation of karma – the continuous field
 								- Volition and intentional action propagate continuously as an informational wave across interpersonal networks.
 								- Momentum does not suspend itself to await biological death; transmission occurs in real-time interaction.
-							- Critique of the particle model
-								- Traditional folk rebirth relies on an illicit **particle model**, smuggling the soul (*atman*) back through concepts like intermediate spirits or relinking consciousness.
-								- Postulating a discrete carrier particle creates unnecessary scholastic paradoxes and speculative mythology.
-						- Clinging dynamics and pattern capture
-							- Clinging as a soliton
-								- Clinging (*upādāna*) behaves like a **soliton** – a self-reinforcing wave packet holding its shape and resisting dispersion against entropy.
-								- During physical life, grasping actively defends identity boundaries.
-								- At biological death, bodily cohesion dissolves, but the informational tension of unresolved grasping radiates outward into the cultural medium.
-							- Rebirth as pattern matching
-								- Rebirth is not spatial translocation across distances; it is resonance and **pattern matching**.
-								- When an emerging nervous system provides compatible conditions, the latent grasping template ignites.
-								- The cognitive I-maker (*ahaṃkāra*) executes its routine, claiming “this is me”, and fabricates an illusory continuum of personal identity.
-								- The pattern-matching engine operates autonomically at the subconscious level, firing on raw resonance long before conscious evaluation can assess “this is an unrelated stranger”.
-							- The identification equation
-								- Selfhood is not an underlying substance but an active cognitive assignment: self-pattern-matching = identification.
-								- An identity coalesces only when the matching routine seizes a recurring pattern and stamps it as “mine”.
-								- Conversely, the core operational realization of **anatta** is defined by dissolution: $⟪\text{no-self} = \text{no-identification}⟫$.
-								- Informational waves and behavioral structures may continue to ripple across the medium, but without the identification subroutine, no personal entity is instantiated.
-							- Non-linear instantiation
-								- Pattern matching is unconstrained by one-to-one linear trajectories or geographic proximity.
-								- The same unresolved blueprint can instantiate simultaneously across multiple independent human substrates.
+							- Clinging dynamics and pattern capture – the particle of self
+								- Clinging as a soliton
+									- Clinging (*upādāna*) behaves like a **soliton** – a self-reinforcing wave packet holding its shape and resisting dispersion against entropy.
+									- During physical life, grasping actively defends identity boundaries.
+									- At biological death, bodily cohesion dissolves, but the informational tension of unresolved grasping radiates outward into the cultural medium.
+								- Rebirth as pattern matching
+									- Rebirth is not spatial translocation across distances; it is resonance and **pattern matching**.
+									- When an emerging nervous system provides compatible conditions, the latent grasping template ignites.
+									- The cognitive I-maker (*ahaṃkāra*) executes its routine, claiming “this is me”, and fabricates an illusory continuum of personal identity.
+									- The pattern-matching engine operates autonomically at the subconscious level, firing on raw resonance long before conscious evaluation can assess “this is an unrelated stranger”.
+								- The identification equation
+									- Selfhood is not an underlying substance but an active cognitive assignment: **self-pattern-matching = identification**.
+									- An identity coalesces only when the matching routine seizes a recurring pattern and stamps it as “mine”.
+									- Conversely, the core operational realization of **anatta** is defined by dissolution: **no-self = no-identification**.
+									- Informational waves and behavioral structures may continue to ripple across the medium, but without the identification subroutine, no personal entity is instantiated.
+								- Non-linear instantiation
+									- Pattern matching is unconstrained by one-to-one linear trajectories or geographic proximity.
+									- The same unresolved blueprint can instantiate simultaneously across multiple independent human substrates.
 						- Epistemological reference frames
 							- Category mismatch between realization and delusion
-								- No-self is the operational realization of the liberated, in which identification has ceased; hence, no personal rebirth occurs without contradiction.
+								- **No-self** ([anattā](https://en.wikipedia.org/wiki/Anatt%C4%81)) is the operational realization of the liberated, in which identification has ceased; hence, no personal rebirth occurs. No contradiction.
 								- For the unliberated, selfhood is an intensely felt, heavy gravity well that demands an origin and an ongoing trajectory.
 								- The psychological insistence that identity “must” persist before birth and after death is a demand of the ego-construct, not an imperative of physical law.
 							- Temporal disclaimers as fundamental ignorance
