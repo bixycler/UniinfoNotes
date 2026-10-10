@@ -496,7 +496,8 @@
 								- Only intentional action bound with grasping ([upādāna](https://en.wikipedia.org/wiki/Up%C4%81d%C4%81na)) transports personal baggage across boundaries.
 								- Neutral or unattached kinetic actions disperse cleanly into the environment without generating an unresolved personal trajectory.
 							- The ignorance of the self about itself
-								- While the pattern-matching engine is constantly fabricating the selfhood in the unconscious, the conscious mind is nearly ignorant about such a giant engine. That leaves only a deep-rooted but va the conscious mind
+								- While the pattern-matching engine is constantly fabricating the selfhood in the unconscious, the conscious mind is nearly ignorant about such a giant engine. That leaves only a deep-rooted impression that “this is me” on the consciousness without seeing clearly why.
+								- The conscious takes for granted that “this is mine, i must be like this, i cannot be like that, i wan't to do this, i don't wan't that, etc.” without knowing why, where they are from.
 								- the ego's conscious usually disclaims that “I am not that stranger in the past or future” due to its ignorance about the underlying mechanism.
 								- .
 						- Triadic circuit of personal rebirth
