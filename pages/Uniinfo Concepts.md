@@ -1802,6 +1802,85 @@
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) While the ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)) defines the objective ((68186996-419d-4370-bc26-60e56869f3d0)), the subjective ((67f9100a-b749-4354-ae16-92dc74ff27da)) is created by the ((672a0c61-ae93-440a-84e6-13778c8e91ca)). It also maintains the ((6731b8c8-0ab1-4c16-8783-408258f67a4a)) integrated from the subject's experiences. All actions of the subject are to keep this worldview integrative.
 			  id:: 681826ac-495a-4eee-8b78-101b95b5a28f
 			- Ref: [human self-awareness](https://en.wikipedia.org/wiki/Self-awareness)
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- Centripetal Resonance Framework of Consciousness
+				  collapsed:: true
+					- Core thesis
+						- Consciousness operates not as an autonomous central executive or sovereign computer processor, but as an empty topological nexus driven by the convergence of peripheral, self-sustaining dynamical processes.
+						- The model resolves the mind–agency paradox by distinguishing between two distinct frames of reference: an objective laboratory frame and a subjective rotating frame.
+						- In the objective physical frame, causality is entirely inward and bottom-up, with distributed worker threads funnelling momentum toward a shared axis.
+						- In the subjective phenomenological frame, awareness anchored at the rotating axis experiences an apparent centrifugal force, creating the experiential conviction of top-down command and sovereign willpower.
+					- Structural pillars
+						- Intent spiral as an inertial worker thread
+							- An **intent** is not an uncaused act of creation ex nihilo.
+							- Every mental routine is an active limit-cycle oscillator possessing rotational momentum carrying over from historical habit and conditioning.
+							- Phenomenologically, this maps to early Buddhist psychology: **saṅkhāra** (habit-grooves and karmic imprints) activated into **cetanā** (directional torque or volition).
+							- Deep-seated conditioning acts as a **moment of inertia** ($I$), where entrenched behavioral trajectories strongly resist deflection or braking.
+							- Firing salience and real-time excitation correspond to **angular velocity** ($\omega$).
+							- Total persistence without active reinforcement represents **angular momentum** ($L = I\omega$).
+							- External sensory stimuli do not assemble thoughts from scratch; they supply **external torque** ($\tau = \frac{dL}{dt}$) that accelerates, brakes, or shifts the precession of existing rotors.
+						- Intent structure as a coupled gyroscopic field
+							- The mind forms a dense topological vector field of mutually engaging intent spirals.
+							- Individual threads execute concurrently in background processes, functioning analogously to an asynchronous **Actor Model**.
+							- Threads exchange kinetic energy through lateral coupling, phase-locking, and competitive inhibition.
+							- Conflicting intents exert dynamic friction and shear stress upon one another, as when an impulsive desire gear meshes against a long-term goal gear.
+						- Null axis
+							- The geometric center contains zero intrinsic mass, zero independent drive, and zero self-nature (**svabhāva**).
+							- Its nature is ontological emptiness (**śūnyatā**) and **anattā** (no-self).
+							- The center acts as an analog integrator and mathematical sink:
+							  
+							  $$\text{State}_t = \oint_{\partial \Omega} \vec{\tau}_{\text{workers}} \, dt$$
+							- In [Chapter 11](((684f9517-afac-49ba-97e3-b88529d74b24))) of the *Daodejing*, Laozi observes that the wheel moves because the center hole of the hub is empty.
+							- If the central axis possessed an independent motor, its fixed spin would continuously strip the teeth of incoming sensory threads.
+							- Because the nexus is completely empty of its own spin, it receives, translates, and balances all peripheral vectors without binding the system.
+							- Like the keystone in an arch, the empty hub possesses no sovereign hovering force on its own; its structural integrity is entirely sustained by the inward thrust of the components leaning against it.
+						- Resonant coherence
+							- Consciousness is not a material substrate, but the instantaneous resonant vector produced at the null axis.
+							- When peripheral threads achieve constructive phase-locking, the central experience exhibits clarity, flow, and single-pointed stillness (**samādhi**).
+							- When opposing threads deliver conflicting torques, the nexus undergoes high-frequency shear stress, manifesting as cognitive dissonance, anxiety, and decision paralysis.
+					- Mechanics of agency
+						- Reference frame transformation
+							- In an objective inertial frame, sensory inputs and karmic momentums apply **centripetal force** ($F_c$), pulling inward to sustain systemic rotation.
+							- In the subjective non-inertial frame seated directly at the rotating axis, awareness registers a **centrifugal force** ($F_{\text{cf}}$).
+							- The apparent outward push is an inertial artifact of internal rotation, yet phenomenology interprets it as personal authorship – “I am willing this action. I am commanding my body”.
+						- Philosophical and empirical validation
+							- Baruch Spinoza identified this mechanism in 1674, noting that a stone propelled through the air, if granted consciousness, would believe it flies solely because it wills to do so.
+							- Daniel Wegner confirmed this empirically in modern psychology: the sensation of conscious will is an authorship emotion retrospectively attributed after unconscious readiness potentials have already fired.
+						- Coriolis deflection in intentionality
+							- As volition projects outward from the center through the concentric strata of the psyche – habits, subconscious biases, and visceral fatigue – it experiences an apparent deflection analogous to the **Coriolis force**:
+							  
+							  $$\mathbf{F}_{\text{Coriolis}} = -2m(\boldsymbol{\omega} \times \mathbf{v})$$
+							- This explains why abstract intentions rarely produce straight-line actions.
+							- The conscious impulse is deflected by the high-velocity rotation of pre-existing systemic habits before reaching physical execution.
+							- Straying from an initial resolve reflects dynamic deflection across an active rotational field rather than a moral failure.
+					- Cross-disciplinary convergence
+						- Neuroscience
+							- Traveling cortical spiral waves sweep across the human cortex around phase singularities, coordinating distributed communication across distinct functional networks.
+							- The **Kuramoto model** formalizes how distributed neural assemblies achieve mutual synchronization through phase-locking and entrainment.
+							- Thalamic dynamic core networks and rich-club hubs serve not as command centers, but as high-degree convergence nexuses integrating peripheral sensory streams into a single-threaded temporal moment.
+						- Systems theory
+							- Hermann Haken's **Synergetics** demonstrates that microscopic interactions collectively produce a macroscopic **order parameter**.
+							- The order parameter is entirely constituted and driven bottom-up by the microscopic components, yet its topological emergence governs the global state description of the system.
+							- Mechanical differentials translate unequal peripheral wheel velocities into smooth unified motion without possessing an internal power source.
+						- Buddhist psychology
+							- In the *Nibbedhika Sutta*, the Buddha identifies intention as karma: *“Cetanāhaṃ, bhikkhave, kammaṃ vadāmi”*.
+							- In the Abhidharma, **cetanā** functions as directional coordination, gathering concurrent mental factors and orienting them toward an object.
+							- Under **pratītyasamutpāda** (dependent origination), every gear exists strictly in relation to what turns it; no thread possesses an isolated origin.
+							- Nāgārjuna established that emptiness (**śūnyatā**) is identical to dependent origination: only a system empty of fixed self-nature can dynamically adapt, learn, and maintain relational integrity.
+						- Software engineering
+							- In concurrent computing, the **Actor Model** manages distributed worker threads that communicate exclusively through asynchronous message passing.
+							- In distributed architectures, the conscious state behaves as a pure **fold or reducer function**, accumulating worker delta events into a unified temporal commit log without authoring events independently.
+							- **Blackboard architectures** and **Global Workspace Theory** coordinate specialized background modules by broadcasting salient states across a shared central bus.
+					- Dynamics of pathology and liberation
+						- Dukkha as mechanical binding
+							- Suffering (**dukkha**) arises when awareness rigidly identifies with spinning intent spirals or attempts to freeze their rotation.
+							- Conventional willpower attempts to use one reactive gear to violently block another, stripping gear teeth and generating severe systemic friction.
+							- Vector opposition between mutually exclusive spirals – such as identity defense versus reality acceptance – causes destructive interference that drains energy without producing useful work.
+						- Nibbāna as momentum dissipation
+							- Mindfulness (**sati**) functions as passive systemic friction and phase-damping.
+							- By maintaining clear, non-reactive awareness at the null axis without adopting the centrifugal spin, awareness stops feeding fresh centripetal torque to reactive habits.
+							- Deprived of incoming acceleration, existing karmic momentums gradually exhaust their kinetic energy against natural damping and come to rest (**nirodha**).
+							- As rotational velocity ($\omega$) approaches zero, the fictitious centrifugal illusion dissolves, leaving the unperturbed stillness of the empty center.
 	- ## light
 	  id:: 671b6c19-7dee-4548-9154-a5eddbe870fc
 	  collapsed:: true
