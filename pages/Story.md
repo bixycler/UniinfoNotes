@@ -3091,7 +3091,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- My laptop (Acer Aspire AG15-52P) suddenly became sluggish.
 				  id:: 6ad0d2c1-e4ad-4920-beab-3256c3229880
 					- The fan has been quiet th whole time.
-					- The CPU clock is pinned down to its bottom: 400 MHz (see `grep "cpu MHz" /proc/cpuinfo`)
+					- The CPU clock is pinned down to its bottom: 400 MHz (watch `grep "cpu MHz" /proc/cpuinfo`, and `cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_cur_freq`)
 					- Smoking gun: “current CPU frequency: Unable to call hardware”
 					  id:: 6ad0e519-c955-4883-bc6e-229ff6456471
 					  collapsed:: true
