@@ -3087,6 +3087,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- 6th day: chat with Gemini about ((6aca066b-0280-44d5-9a14-3674d9f6c811)).
 				- 7th day: after sleeps and meditation, the symptoms have been settled down enough for me to go to the office... to log them down.
 			- 11th, ...
+			- 15th, today, i finished designing the pure JS ApeironNgn, but right at the start of implementation, ((6ad0d2c1-e4ad-4920-beab-3256c3229880))
+			  collapsed:: true
+				- My laptop () suddenly became sluggish.
+				  id:: 6ad0d2c1-e4ad-4920-beab-3256c3229880
+					- The fan has been quiet th whole time.
+					-
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6abd18dd-8ba5-4962-939c-722ea6341aaa))
