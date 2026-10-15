@@ -3087,6 +3087,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 11th, ...
 			- 15th, today, i finished designing the pure JS ApeironNgn, but right at the start of implementation, ((6ad0d2c1-e4ad-4920-beab-3256c3229880))
 			  collapsed:: true
+				- Just a stray code fence in commit `8912470d` did consume all
 				- My laptop () suddenly became sluggish.
 				  id:: 6ad0d2c1-e4ad-4920-beab-3256c3229880
 					- The fan has been quiet th whole time.
