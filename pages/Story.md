@@ -3092,7 +3092,34 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- My laptop () suddenly became sluggish.
 				  id:: 6ad0d2c1-e4ad-4920-beab-3256c3229880
 					- The fan has been quiet th whole time.
-					-
+					- The CPU clock is pinned down to its bottom: 400 MHz (see `grep "cpu MHz" /proc/cpuinfo`)
+					- Smoking gun: “current CPU frequency: Unable to call hardware”
+					  collapsed:: true
+						- ⮕ `sudo cpupower frequency-info`
+						  ```
+						  analyzing CPU 0:
+						    driver: intel_pstate
+						    CPUs which run at the same hardware frequency: 0
+						    CPUs which need to have their frequency coordinated by software: 0
+						    energy performance preference: performance
+						    hardware limits: 400 MHz - 4.20 GHz
+						    available cpufreq governors: performance powersave
+						    current policy: frequency should be within 400 MHz and 4.20 GHz.
+						                    The governor "powersave" may decide which speed to use
+						                    within this range.
+						    current CPU frequency: Unable to call hardware
+						    current CPU frequency: 400 MHz (asserted by call to kernel)
+						    boost state support:
+						      Supported: yes
+						      Active: yes
+						  ```
+					- It's likely that the `intel_pstate` driver cannot communicate directly with the processor's hardware feedback mechanisms (Intel Hardware P-States), forcing the kernel to fall back to a safe, hardcoded 400 MHz minimum profile.
+					- Trial 1: Bypass intel_pstate and Force ACPI Scaling
+						- Add `intel_pstate=disable` to `/etc/default/grub`:
+						  `GRUB_CMDLINE_LINUX_DEFAULT="verbose intel_pstate=disable"`
+						- `sudo update-grub`
+						- Append the driver to your kernel modules file: 
+						  `echo "acpi-cpufreq" | sudo tee /etc/modules-load.d/acpi-cpufreq.conf`
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6abd18dd-8ba5-4962-939c-722ea6341aaa))
