@@ -2718,8 +2718,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								  [Install]
 								  WantedBy=multi-user.target
 								  ```
-								  
-								  ```
 							- [Failed attempts](https://share.google/aimode/An1mNkHhQiu2OVGU7):
 							  collapsed:: true
 								- `/etc/default/grub`: Add kernel parameters to `GRUB_CMDLINE_LINUX_DEFAULT`.
