@@ -3087,12 +3087,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 11th, ...
 			- 15th, today, i finished designing the pure JS ApeironNgn, but right at the start of implementation, ((6ad0d2c1-e4ad-4920-beab-3256c3229880))
 			  collapsed:: true
-				- Just a stray code fence in commit `8912470d` did consume all
-				- My laptop () suddenly became sluggish.
+				- Just a stray code fence in commit `8912470d` did consume all content from [the day i bought the laptop](((6a734a74-8436-4070-81a9-5390131ae925))) up to today. But that error has been hidden by Logseq the whole time, due to its mismatch between the markdown files and its internal graph.
+				- My laptop (Acer Aspire AG15-52P) suddenly became sluggish.
 				  id:: 6ad0d2c1-e4ad-4920-beab-3256c3229880
 					- The fan has been quiet th whole time.
 					- The CPU clock is pinned down to its bottom: 400 MHz (see `grep "cpu MHz" /proc/cpuinfo`)
 					- Smoking gun: “current CPU frequency: Unable to call hardware”
+					  id:: 6ad0e519-c955-4883-bc6e-229ff6456471
 					  collapsed:: true
 						- ⮕ `sudo cpupower frequency-info`
 						  ```
@@ -3119,6 +3120,25 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- `sudo update-grub`
 						- Append the driver to your kernel modules file: 
 						  `echo "acpi-cpufreq" | sudo tee /etc/modules-load.d/acpi-cpufreq.conf`
+						- ⇒ Result: The CPU frequency is updated
+							- ⮕ `sudo cpupower frequency-info`
+							  ```
+							  analyzing CPU 0:
+							    driver: acpi-cpufreq
+							    CPUs which run at the same hardware frequency: 0
+							    CPUs which need to have their frequency coordinated by software: 0
+							    maximum transition latency: 10.0 us
+							    hardware limits: 400 MHz - 2.70 GHz
+							    available frequency steps:  2.70 GHz, 2.70 GHz, 2.60 GHz, 2.50 GHz, 2.40 GHz, 2.30 GHz, 2.20 GHz, 2.10 GHz, 2.00 GHz, 1.90 GHz, 1.80 GHz, 1.70 GHz, 1.60 GHz, 1.50 GHz, 1.40 GHz, 1.30 GHz, 1.20 GHz, 1.10 GHz, 1000 MHz, 900 MHz, 800 MHz, 700 MHz, 600 MHz, 500 MHz, 400 MHz
+							    available cpufreq governors: conservative ondemand userspace powersave performance schedutil
+							    current policy: frequency should be within 400 MHz and 2.00 GHz.
+							                    The governor "schedutil" may decide which speed to use
+							                    within this range.
+							    current CPU frequency: 1.90 GHz (asserted by call to hardware)
+							    boost state support:
+							      Supported: yes
+							      Active: yes
+							  ```
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6abd18dd-8ba5-4962-939c-722ea6341aaa))
