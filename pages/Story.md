@@ -3084,8 +3084,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- I've confirmed with chatbot that my discovered “key point of cough” is actually the carina at the 2nd rib join.
 				- 6th day: chat with Gemini about ((6aca066b-0280-44d5-9a14-3674d9f6c811)).
 				- 7th day: after sleeps and meditation, the symptoms have been settled down enough for me to go to the office... to log them down.
-			- 11th, ...
-			- 15th, today, i finished designing the pure JS ApeironNgn, but right at the start of implementation, ((6ad0d2c1-e4ad-4920-beab-3256c3229880))
+			- 11-14th, getting back to work with Aperas while my boss has not assigned tak, i got somehow caught up these days. Even mild, the airway irritation has not ceased, leading to cough all the time.
+			- 15th, today, i finished designing the pure JS ApeironNgn, but right at the start of implementation, ((6ad0d2c1-e4ad-4920-beab-3256c3229880)) And my boss also just assigned a task to apply an “instant noodle” solution to his “AI Twin”: i proposed ((6a1febf3-3ab3-4815-b1cd-6d2b7a703013)) but then found ((6ad1d8da-e162-4d31-8295-59ff1a19623a)) to be more interesting.
 			  collapsed:: true
 				- Just a stray code fence in commit `8912470d` did consume all content from [the day i bought the laptop](((6a734a74-8436-4070-81a9-5390131ae925))) up to today. But that error has been hidden by Logseq the whole time, due to its mismatch between the markdown files and its internal graph.
 				- My laptop (Acer Aspire AG15-52P) suddenly became sluggish.
