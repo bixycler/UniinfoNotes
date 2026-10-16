@@ -805,6 +805,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- memory provider
 			  id:: 69d74732-afcb-4b4a-9b39-5efcf868c8da
 			  collapsed:: true
+				- [Neo4j Agent Memory](https://github.com/neo4j-labs/agent-memory)
+				  A
 				- [Hindsight](https://github.com/vectorize-io/hindsight)
 				  A [self-learning](https://hindsight.vectorize.io/) knowledge graph with multi-strategy retrieval: semantic search (embeddings), BM25 keyword matching, entity graph traversal, temporal filtering
 					- Hindsight graph contains [chronological relations and event relations](https://hindsight.vectorize.io/faq#how-is-hindsights-graph-different-from-a-traditional-knowledge-graph), instead of direct links between entities.
