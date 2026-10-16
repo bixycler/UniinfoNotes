@@ -806,7 +806,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 69d74732-afcb-4b4a-9b39-5efcf868c8da
 			  collapsed:: true
 				- [Neo4j Agent Memory](https://github.com/neo4j-labs/agent-memory)
-				  A
+				  A context graph built progressively from conversation history, developed by the community [Neo4j Labs](https://neo4j.com/labs/agent-memory/)
+					- Neo4j Labs also provides an [Interactive CLI scaffolding tool](https://github.com/neo4j-labs/create-context-graph) to generates fully-functional, domain-specific context graph applications.
 				- [Hindsight](https://github.com/vectorize-io/hindsight)
 				  A [self-learning](https://hindsight.vectorize.io/) knowledge graph with multi-strategy retrieval: semantic search (embeddings), BM25 keyword matching, entity graph traversal, temporal filtering
 					- Hindsight graph contains [chronological relations and event relations](https://hindsight.vectorize.io/faq#how-is-hindsights-graph-different-from-a-traditional-knowledge-graph), instead of direct links between entities.
