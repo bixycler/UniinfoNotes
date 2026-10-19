@@ -3208,7 +3208,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Getting home, i just discovered the newcomer ((6ad1d8da-e162-4d31-8295-59ff1a19623a)) having the graph structure closer to my image.
 			- 18th, went to 2 weddings of the 2 nephews (Nhi daughter of brother Nguyên, and Linh daughter of sister Hiền).
 			- 19th,
-				- Antigravity (Agents) suddenly fails to show its window. Hacking around under the instruction of Google AI Mode,
+				- Antigravity (Agents) suddenly fails to show its window.
+					- Hacking around under the instruction of Google AI Mode, nothing works, except the installation of `intel-media-va-driver-non-free` resolved the error “vaInitialize failed: unknown libva error” of both Antigravity and `vainfo`.
+					  collapsed:: true
+						- Tried `echo "blacklist i915" > /etc/modprobe.d/blacklist-i915.conf`
+						  and add `i915.force_probe=!7d45 xe.force_probe=7d45` to `GRUB_CMDLINE_LINUX_DEFAULT` in `/etc/default/grub`.
+							- The driver `i915` is removed from `lsmod` and the used driver changes from `i915` ot `xe`.
+							- But no effect on the invisible window of Antigravity!
+					-
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6abd18dd-8ba5-4962-939c-722ea6341aaa))
