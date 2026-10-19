@@ -3207,9 +3207,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- ⇒ So, i just restore the `intel_pstate` driver; then just restart the machine whenever the thermal throttle occurs.
 				- Getting home, i just discovered the newcomer ((6ad1d8da-e162-4d31-8295-59ff1a19623a)) having the graph structure closer to my image.
 			- 18th, went to 2 weddings of the 2 nephews (Nhi daughter of brother Nguyên, and Linh daughter of sister Hiền).
-			- 19th,
+			- 19th, a hard debugging session against a mysterious [stalling Antigravity process](((6ad64071-0d7c-430a-ad5e-6fea9da728bb))), with a [pleasing result](((6ad640fb-2817-4bbc-ab0c-ced7045e0a4f))).
 			  collapsed:: true
 				- Antigravity (Agents) suddenly fails to show its window, stalling before loading language server.
+				  id:: 6ad64071-0d7c-430a-ad5e-6fea9da728bb
 					- Hacking around under the instruction of Google AI Mode, nothing works, except the installation of `intel-media-va-driver-non-free` resolved the error “vaInitialize failed: unknown libva error” of both Antigravity and `vainfo`.
 					  collapsed:: true
 						- Tried `echo "blacklist i915" > /etc/modprobe.d/blacklist-i915.conf`
@@ -3270,6 +3271,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  ```
 					- Today, both the old `v2.19.1` and the new `v2.24.0` have the same symptom.
 					- Finally, with `strace -f ./antigravity --no-sandbox 2>&1 |tee ~/tmp/Antigravity.trace`, the local coding agent immediately pointed out the root cause to be the `cpulog.sh` in `.profile` 😊!
+					  id:: 6ad640fb-2817-4bbc-ab0c-ced7045e0a4f
 						- It has found dozens of `cpulog.sh` processes, each was left by a killed process of Antigravity.
 						- Not only Antigravity, many IDEs and coding agents do source `.profile` to get environment settings. So, any startup script/setting there must be guarded.
 						- It has shown _the importance of **observation**_ over guessing. Without local info, Google AI Mode couldn't help guessing round and round... without any clue, and completely helpless.
