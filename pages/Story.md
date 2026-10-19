@@ -3115,6 +3115,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  ```
 					- It's likely that the `intel_pstate` driver cannot communicate directly with the processor's hardware feedback mechanisms (Intel Hardware P-States), forcing the kernel to fall back to a safe, hardcoded 400 MHz minimum profile.
 					- Trial 1: Bypass `intel_pstate` and Force ACPI Scaling
+					  collapsed:: true
 					  ⇒ The ceiling has fallen from 4.2 GHz to 2 GHz.
 						- Add `intel_pstate=disable` to `/etc/default/grub`:
 						  `GRUB_CMDLINE_LINUX_DEFAULT="verbose intel_pstate=disable"`
@@ -3145,7 +3146,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  id:: 6ad5fabc-09ff-4dbf-858e-d4f9c160571b
 						  collapsed:: true
 							- Set the CPU mode to to `performance`: 
+							  id:: 6ad5fabc-df52-4828-81e0-099bc7bf86a8
 							  `sudo cpupower frequency-set -g performance`
+								- Add `cpufreq.default_governor=performance` to `/etc/default/grub`:
+								  `GRUB_CMDLINE_LINUX_DEFAULT="verbose intel_pstate=disable cpufreq.default_governor=performance"`
 							- Unlock the policy range up to maximum frequency step:
 							  collapsed:: true
 							  `sudo cpupower frequency-set --min 400MHz --max 2.70GHz`
@@ -3161,14 +3165,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								     for example because of hardware which cannot be set to a specific frequency
 								     or because the userspace governor isn't loaded?
 								  ```
-							- Add `cpufreq.default_governor=performance` to `/etc/default/grub`:
-							  `GRUB_CMDLINE_LINUX_DEFAULT="verbose intel_pstate=disable cpufreq.default_governor=performance"`
 							- Check Intel Power Limit configuration register state:
 								- ⮕ `sudo modprobe msr`
 								- ⮕ `sudo rdmsr 0x1FC`
 								  `e4005f`
 								- ⇒ Because the value ends in an odd number (`f` in hexadecimal), my laptop's firmware has explicitly tripped the hardware BD PROCHOT (Bi-Directional Processor Hot) throttling lock. 🙁
-						- The `performance` governor setting does take effect
+						- The [`performance` governor setting](((6ad5fabc-df52-4828-81e0-099bc7bf86a8))) does take effect, likely thanks to the “boost state” support (turbo mode).
+							- Despite the note “frequency should be within 400 MHz and 2.00 GHz”, `grep "cpu MHz" /proc/cpuinfo` shows the max 4.2 GHz frequency can be reached as normal.
 							- ⮕ `sudo cpupower frequency-info`
 							  ```
 							  analyzing CPU 3:
@@ -3187,7 +3190,20 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							      Supported: yes
 							      Active: yes
 							  ```
-						- Despite the note “frequency should be within 400 MHz and 2.00 GHz”,
+							- ⮕ `cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_cur_freq`
+							  ```
+							  3988635
+							  4200000
+							  4200000
+							  2000000
+							  ```
+							- ⮕ `grep "cpu MHz" /proc/cpuinfo`
+							  ```
+							  cpu MHz         : 4100.210
+							  cpu MHz         : 4199.943
+							  cpu MHz         : 2000.000
+							  cpu MHz         : 4200.000
+							  ```
 					- ⇒ So, i just restore the `intel_pstate` driver; then just restart the machine whenever the thermal throttle occurs.
 				- Getting home, i just discovered the newcomer ((6ad1d8da-e162-4d31-8295-59ff1a19623a)) having the graph structure closer to my image.
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
