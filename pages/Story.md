@@ -3120,7 +3120,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Add `intel_pstate=disable` to `/etc/default/grub`:
 						  `GRUB_CMDLINE_LINUX_DEFAULT="verbose intel_pstate=disable"`
 						- `sudo update-grub`
-						- Append the driver to your kernel modules file: 
+						- Append the driver to kernel modules file: 
 						  `echo "acpi-cpufreq" | sudo tee /etc/modules-load.d/acpi-cpufreq.conf`
 						- ⇒ Result: The CPU frequency is updated, but the ceiling falls from 2.70 GHz to 2.70 GHz, and available only up to 2 GHz.
 						  collapsed:: true
