@@ -3208,14 +3208,66 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Getting home, i just discovered the newcomer ((6ad1d8da-e162-4d31-8295-59ff1a19623a)) having the graph structure closer to my image.
 			- 18th, went to 2 weddings of the 2 nephews (Nhi daughter of brother Nguyên, and Linh daughter of sister Hiền).
 			- 19th,
-				- Antigravity (Agents) suddenly fails to show its window.
+				- Antigravity (Agents) suddenly fails to show its window, stalling before loading language server.
 					- Hacking around under the instruction of Google AI Mode, nothing works, except the installation of `intel-media-va-driver-non-free` resolved the error “vaInitialize failed: unknown libva error” of both Antigravity and `vainfo`.
 					  collapsed:: true
 						- Tried `echo "blacklist i915" > /etc/modprobe.d/blacklist-i915.conf`
 						  and add `i915.force_probe=!7d45 xe.force_probe=7d45` to `GRUB_CMDLINE_LINUX_DEFAULT` in `/etc/default/grub`.
 							- The driver `i915` is removed from `lsmod` and the used driver changes from `i915` ot `xe`.
 							- But no effect on the invisible window of Antigravity!
-					-
+					- The Electron log `~/.config/Antigravity/logs/main.log` shows that it stops before reaching the language server, and `language_server.log` was from the last time it worked on Oct 3rd.
+					  collapsed:: true
+						- `~/.config/Antigravity/logs/main.log`
+						  ```log
+						  ...
+						  [2026-10-02 15:35:50.773] [info]  [IDE Wizard] Already shown, skipping.
+						  [2026-10-02 15:35:50.775] [info]  Starting app (v2.17.0) with dynamic port…
+						  [2026-10-02 15:35:50.778] [info]  Host bridge server listening on http://127.0.0.1:37475
+						  [2026-10-02 15:35:50.934] [info]  [Auto-Restart] Port changed! Reloading all windows with URL: https://127.0.0.1:42349/
+						  [2026-10-02 15:35:50.934] [info]  
+						  ============================================================
+						  [2026-10-02 15:35:50.934] [info]    Local:       https://127.0.0.1:42349/
+						  [2026-10-02 15:35:50.934] [info]    LS Logs:     /home/will/.config/Antigravity/logs/language_server.log
+						  [2026-10-02 15:35:50.935] [info]    Electron Logs: /home/will/.config/Antigravity/logs/main.log
+						  [2026-10-02 15:35:50.935] [info]  ============================================================
+						  
+						  [2026-10-02 15:36:00.972] [info]  [AutoUpdater] Starting auto update checks
+						  [2026-10-03 13:19:40.716] [info]  Shutting down language server…
+						  [2026-10-03 13:23:55.356] [info]  [IDE Wizard] Already shown, skipping.
+						  [2026-10-03 13:23:55.357] [info]  Starting app (v2.19.1) with dynamic port…
+						  [2026-10-03 13:23:55.361] [info]  Host bridge server listening on http://127.0.0.1:43851
+						  [2026-10-03 13:23:55.542] [info]  [Auto-Restart] Port changed! Reloading all windows with URL: https://127.0.0.1:36131/
+						  [2026-10-03 13:23:55.543] [info]  
+						  ============================================================
+						  [2026-10-03 13:23:55.543] [info]    Local:       https://127.0.0.1:36131/
+						  [2026-10-03 13:23:55.543] [info]    LS Logs:     /home/will/.config/Antigravity/logs/language_server.log
+						  [2026-10-03 13:23:55.543] [info]    Electron Logs: /home/will/.config/Antigravity/logs/main.log
+						  [2026-10-03 13:23:55.544] [info]  ============================================================
+						  
+						  [2026-10-03 13:24:05.587] [info]  [AutoUpdater] Starting auto update checks
+						  [2026-10-03 13:24:05.587] [warn]  APPIMAGE env is not defined, current application is not an AppImage
+						  [2026-10-03 13:26:58.417] [info]  Shutting down language server…
+						  [2026-10-19 18:49:08.667] [info]  [IDE Wizard] Already shown, skipping.
+						  [2026-10-19 18:49:08.669] [info]  Starting app (v2.19.1) with dynamic port…
+						  [2026-10-19 18:49:08.673] [info]  Host bridge server listening on http://127.0.0.1:45687
+						  [2026-10-19 18:54:12.310] [info]  [IDE Wizard] Already shown, skipping.
+						  [2026-10-19 18:54:12.311] [info]  Starting app (v2.19.1) with dynamic port…
+						  [2026-10-19 18:54:12.315] [info]  Host bridge server listening on http://127.0.0.1:40571
+						  [2026-10-19 18:56:18.731] [info]  [IDE Wizard] Already shown, skipping.
+						  [2026-10-19 18:56:18.734] [info]  Starting app (v2.19.1) with dynamic port…
+						  [2026-10-19 18:56:18.737] [info]  Host bridge server listening on http://127.0.0.1:35429
+						  [2026-10-19 18:58:00.374] [info]  [IDE Wizard] Already shown, skipping.
+						  [2026-10-19 18:58:00.376] [info]  Starting app (v2.19.1) with dynamic port…
+						  [2026-10-19 18:58:00.379] [info]  Host bridge server listening on http://127.0.0.1:41897
+						  [2026-10-19 19:03:05.863] [info]  [IDE Wizard] Already shown, skipping.
+						  [2026-10-19 19:03:05.865] [info]  Starting app (v2.24.0) with dynamic port…
+						  [2026-10-19 19:03:05.868] [info]  Host bridge server listening on http://127.0.0.1:44527
+						  [2026-10-19 19:04:13.419] [info]  [IDE Wizard] Already shown, skipping.
+						  [2026-10-19 19:04:13.421] [info]  Starting app (v2.24.0) with dynamic port…
+						  [2026-10-19 19:04:13.424] [info]  Host bridge server listening on http://127.0.0.1:45945
+						  ...
+						  ```
+					- Today, both the old `v2.19.1` and the new `v2.24.0` have the same symptom.
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6abd18dd-8ba5-4962-939c-722ea6341aaa))
