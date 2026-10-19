@@ -3115,7 +3115,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  ```
 					- It's likely that the `intel_pstate` driver cannot communicate directly with the processor's hardware feedback mechanisms (Intel Hardware P-States), forcing the kernel to fall back to a safe, hardcoded 400 MHz minimum profile.
 					- Trial 1: Bypass `intel_pstate` and Force ACPI Scaling
-					  collapsed:: true
 					  ⇒ The ceiling has fallen from 4.2 GHz to 2 GHz.
 						- Add `intel_pstate=disable` to `/etc/default/grub`:
 						  `GRUB_CMDLINE_LINUX_DEFAULT="verbose intel_pstate=disable"`
@@ -3123,6 +3122,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Append the driver to your kernel modules file: 
 						  `echo "acpi-cpufreq" | sudo tee /etc/modules-load.d/acpi-cpufreq.conf`
 						- ⇒ Result: The CPU frequency is updated, but the ceiling falls from 2.70 GHz to 2.70 GHz, and available only up to 2 GHz.
+						  collapsed:: true
 							- ⮕ `sudo cpupower frequency-info`
 							  ```
 							  analyzing CPU 0:
@@ -3142,6 +3142,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							      Active: yes
 							  ```
 						- ⇒ Upgrade the max to 2.7 GHz:
+						  id:: 6ad5fabc-09ff-4dbf-858e-d4f9c160571b
+						  collapsed:: true
 							- Set the CPU mode to to `performance`: 
 							  `sudo cpupower frequency-set -g performance`
 							- Unlock the policy range up to maximum frequency step:
@@ -3166,6 +3168,26 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- ⮕ `sudo rdmsr 0x1FC`
 								  `e4005f`
 								- ⇒ Because the value ends in an odd number (`f` in hexadecimal), my laptop's firmware has explicitly tripped the hardware BD PROCHOT (Bi-Directional Processor Hot) throttling lock. 🙁
+						- The `performance` governor setting does take effect
+							- ⮕ `sudo cpupower frequency-info`
+							  ```
+							  analyzing CPU 3:
+							    driver: acpi-cpufreq
+							    CPUs which run at the same hardware frequency: 3
+							    CPUs which need to have their frequency coordinated by software: 3
+							    maximum transition latency: 10.0 us
+							    hardware limits: 400 MHz - 2.70 GHz
+							    available frequency steps:  2.70 GHz, 2.70 GHz, 2.60 GHz, 2.50 GHz, 2.40 GHz, 2.30 GHz, 2.20 GHz, 2.10 GHz, 2.00 GHz, 1.90 GHz, 1.80 GHz, 1.70 GHz, 1.60 GHz, 1.50 GHz, 1.40 GHz, 1.30 GHz, 1.20 GHz, 1.10 GHz, 1000 MHz, 900 MHz, 800 MHz, 700 MHz, 600 MHz, 500 MHz, 400 MHz
+							    available cpufreq governors: conservative ondemand userspace powersave performance schedutil
+							    current policy: frequency should be within 400 MHz and 2.00 GHz.
+							                    The governor "performance" may decide which speed to use
+							                    within this range.
+							    current CPU frequency: 2.00 GHz (asserted by call to hardware)
+							    boost state support:
+							      Supported: yes
+							      Active: yes
+							  ```
+						- Despite the note “frequency should be within 400 MHz and 2.00 GHz”,
 					- ⇒ So, i just restore the `intel_pstate` driver; then just restart the machine whenever the thermal throttle occurs.
 				- Getting home, i just discovered the newcomer ((6ad1d8da-e162-4d31-8295-59ff1a19623a)) having the graph structure closer to my image.
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
