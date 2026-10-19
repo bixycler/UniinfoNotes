@@ -3208,6 +3208,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Getting home, i just discovered the newcomer ((6ad1d8da-e162-4d31-8295-59ff1a19623a)) having the graph structure closer to my image.
 			- 18th, went to 2 weddings of the 2 nephews (Nhi daughter of brother Nguyên, and Linh daughter of sister Hiền).
 			- 19th,
+			  collapsed:: true
 				- Antigravity (Agents) suddenly fails to show its window, stalling before loading language server.
 					- Hacking around under the instruction of Google AI Mode, nothing works, except the installation of `intel-media-va-driver-non-free` resolved the error “vaInitialize failed: unknown libva error” of both Antigravity and `vainfo`.
 					  collapsed:: true
@@ -3268,6 +3269,17 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  ...
 						  ```
 					- Today, both the old `v2.19.1` and the new `v2.24.0` have the same symptom.
+					- Finally, with `strace -f ./antigravity --no-sandbox 2>&1 |tee ~/tmp/Antigravity.trace`, the local coding agent immediately pointed out the root cause to be the `cpulog.sh` in `.profile` 😊!
+						- It has found dozens of `cpulog.sh` processes, each was left by a killed process of Antigravity.
+						- Not only Antigravity, many IDEs and coding agents do source `.profile` to get environment settings. So, any startup script/setting there must be guarded.
+						- It has shown _the importance of **observation**_ over guessing. Without local info, Google AI Mode couldn't help guessing round and round... without any clue, and completely helpless.
+					- ⇒ Adding guard to the startup `cpulog.sh`, the issue is resolved righ away.
+					  ```sh
+					  # CPU logging (once per boot/session, fully detached)
+					  if ! pgrep -u "$USER" -f '[c]pulog.sh' >/dev/null; then
+					      setsid ~/.local/bin/cpulog.sh </dev/null >/dev/null 2>&1 &
+					  fi
+					  ```
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6abd18dd-8ba5-4962-939c-722ea6341aaa))
