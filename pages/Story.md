@@ -3092,7 +3092,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  id:: 6ad0d2c1-e4ad-4920-beab-3256c3229880
 					- The fan has been quiet the whole time, temperature is held at around 60°C.
 					- The CPU clock is pinned down to its bottom: 400 MHz (watch `grep "cpu MHz" /proc/cpuinfo`, and `cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_cur_freq`)
-						- This is likely a thermal throttling of the CPU fequency due to a failure.
+						- This is likely a thermal throttling of the CPU fequency due to the fan failure.
 					- Smoking gun: “current CPU frequency: Unable to call hardware”
 					  id:: 6ad0e519-c955-4883-bc6e-229ff6456471
 					  collapsed:: true
@@ -3283,7 +3283,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					      setsid ~/.local/bin/cpulog.sh </dev/null >/dev/null 2>&1 &
 					  fi
 					  ```
-			- 20th,...
+			- 20th, Vietnamese Woman's Day, my wife's selling flowers, i got ((6ad74940-cc3a-4b20-8170-0aef51fdd44b)), and my company's moving to the new office.
+			  collapsed:: true
+				- Insights about ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)) & ((671e1608-1350-4e87-99b6-5492cc6fb449))
+				  id:: 6ad74940-cc3a-4b20-8170-0aef51fdd44b
 				- Today, the laptop's fan goes silent again, the temperature keeps at 70+°C and reaches 100°C at high load, but thankfully the CPU requency is not throttled like [the last time](((6ad0d2c1-e4ad-4920-beab-3256c3229880))).
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
