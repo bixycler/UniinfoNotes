@@ -3090,8 +3090,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Just a stray code fence in commit `8912470d` did consume all content from [the day i bought the laptop](((6a734a74-8436-4070-81a9-5390131ae925))) up to today. But that error has been hidden by Logseq the whole time, due to its mismatch between the markdown files and its internal graph.
 				- My laptop (Acer Aspire AG15-52P) suddenly became sluggish.
 				  id:: 6ad0d2c1-e4ad-4920-beab-3256c3229880
-					- The fan has been quiet th whole time.
+					- The fan has been quiet the whole time, temperature is held at around 60°C.
 					- The CPU clock is pinned down to its bottom: 400 MHz (watch `grep "cpu MHz" /proc/cpuinfo`, and `cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_cur_freq`)
+						- This is likely a thermal throttling of the CPU fequency due to a failure.
 					- Smoking gun: “current CPU frequency: Unable to call hardware”
 					  id:: 6ad0e519-c955-4883-bc6e-229ff6456471
 					  collapsed:: true
@@ -3204,7 +3205,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  cpu MHz         : 2000.000
 							  cpu MHz         : 4200.000
 							  ```
-					- ⇒ So, i just restore the `intel_pstate` driver; then just restart the machine whenever the thermal throttle occurs.
+					- ⇒ So, i just restore the `intel_pstate` driver; then just restart the machine whenever the thermal throttling occurs.
 				- Getting home, i just discovered the newcomer ((6ad1d8da-e162-4d31-8295-59ff1a19623a)) having the graph structure closer to my image.
 			- 18th, went to 2 weddings of the 2 nephews (Nhi daughter of brother Nguyên, and Linh daughter of sister Hiền).
 			- 19th, a hard debugging session against a mysterious [stalling Antigravity process](((6ad64071-0d7c-430a-ad5e-6fea9da728bb))), with a [pleasing result](((6ad640fb-2817-4bbc-ab0c-ced7045e0a4f))).
@@ -3282,6 +3283,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					      setsid ~/.local/bin/cpulog.sh </dev/null >/dev/null 2>&1 &
 					  fi
 					  ```
+			- 20th,...
+				- Today, the laptop's fan goes silent again, the temperature keeps at 70+°C and reaches 100°C at high load, but thankfully the CPU requency is not throttled like [the last time](((6ad0d2c1-e4ad-4920-beab-3256c3229880))).
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6abd18dd-8ba5-4962-939c-722ea6341aaa))
