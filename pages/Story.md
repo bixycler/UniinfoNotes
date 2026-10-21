@@ -3288,6 +3288,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Insights about ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)) & ((671e1608-1350-4e87-99b6-5492cc6fb449))
 				  id:: 6ad74940-cc3a-4b20-8170-0aef51fdd44b
 				- Today, the laptop's fan goes silent again, the temperature keeps at 70+°C and reaches 100°C at high load, but thankfully the CPU requency is not throttled like [the last time](((6ad0d2c1-e4ad-4920-beab-3256c3229880))).
+			- 21st, ...
+				- Both desktop apps of Antigravity and Paseo spend a constant 30-50% CPU just for the eye-catching animation! Either minimizing the window or switching to a static tab without animation, the CPU usage drops immediately.
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6abd18dd-8ba5-4962-939c-722ea6341aaa))
