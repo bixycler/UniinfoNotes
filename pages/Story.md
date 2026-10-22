@@ -3289,12 +3289,86 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  id:: 6ad74940-cc3a-4b20-8170-0aef51fdd44b
 					-
 				- Today, the laptop's fan goes silent again, the temperature keeps at 70+°C and reaches 100°C at high load, but thankfully the CPU requency is not throttled like [the last time](((6ad0d2c1-e4ad-4920-beab-3256c3229880))).
-			- 21st, [roamed the area of the new office](((6ad8ca55-9390-40e9-9970-60f06d3a8830))) and checked the [wasteful animation in both coding agent apps](((6ad8c209-ee5b-40fe-a2b3-134c831f2ffb))).
+			- 21st, [roamed the area of the new office](((6ad8ca55-9390-40e9-9970-60f06d3a8830))), checked the [wasteful animation in both coding agent apps](((6ad8c209-ee5b-40fe-a2b3-134c831f2ffb))), and [read about Next-Concept Modeling](((6ad9e661-e232-4c31-a90f-79b535a71684))).
 			  collapsed:: true
 				- Roamed around the streets at the new office to find facilities like shops, ATM, convient stores,... I must walk accross 2 blocks to reach streets like Ngô Thời Nhiệm & Hồ Xuân Hương to see them.
 				  id:: 6ad8ca55-9390-40e9-9970-60f06d3a8830
 				- Both desktop apps of Antigravity and Paseo spend a constant 30-50% CPU just for the eye-catching animation! Either minimizing the window or switching to a static tab without animation, the CPU usage drops immediately.
 				  id:: 6ad8c209-ee5b-40fe-a2b3-134c831f2ffb
+				- Back to home, reading news, i saw [Next-Concept Modeling (NCM)](https://arxiv.org/abs/2610.14162) which matches my vision closely.
+				  id:: 6ad9e661-e232-4c31-a90f-79b535a71684
+				  collapsed:: true
+					- Core architecture and principles
+						- High-level mechanism
+							- Replaces sequential **next-token prediction** with a hierarchical, coarse-to-fine generative process.
+							- Operates outside-in rather than left-to-right, planning global semantic trajectory before detailing surface syntax.
+							- Generates sequences in $K$ discrete hierarchy levels where intra-level elements are decoded in parallel.
+						- Multiscale residual vector quantization
+							- Encodes input text into discrete multiscale latent tiers ($r_1, \dots, r_K$) using a learned encoder.
+							- Early tiers pool tokens heavily to produce compressed sequence lengths $\ell_1 \ll L$, stripping local syntax to retain macro concepts.
+							- Subsequent tiers progressively capture residual features until the final tier reaches full sequence resolution $\ell_K = L$.
+							- Maps continuous representations to nearest vectors in discrete codebooks $\mathcal{C}_1, \dots, \mathcal{C}_K$, bounding intermediate states against continuous representation drift.
+						- Generative transformer and decoding
+							- Employs a transformer prior that generates resolution level $k$ conditioned on cumulative reconstructions of prior levels $\hat{z}^{(k-1)}$.
+							- Predicts all latent indices across sequence length $\ell_k$ simultaneously in a single forward pass.
+							- Projects final quantized representations back to surface vocabulary via a lightweight non-autoregressive decoder.
+					- Comparative landscape
+						- Next-token prediction
+							- Enforces strict causal autoregression across sequence length $L$, incurring $\mathcal{O}(L)$ sequential forward passes.
+							- Sits within memory-bandwidth bottlenecks due to continuous key-value cache querying at every step.
+							- Suffers from error propagation where an early suboptimal token cascades into subsequent latent states.
+							- Provides unmatched open-domain scaling and simple cross-entropy optimization.
+						- Diffusion language models
+							- Generate text through iterative non-autoregressive denoising steps across the entire sequence length.
+							- Require $S$ full-sequence forward passes (typically 32–256 steps), producing high computational redundancy.
+							- Excel at arbitrary infilling, non-monotonic sentence editing, and continuous trajectory exploration.
+							- Next-concept modeling achieves a 10–31× speedup over diffusion baselines by cutting required evaluation steps to $K$.
+						- Continuous concept models
+							- Predict continuous sentence-level embeddings autoregressively using encoders like **SONAR** before local token decoding.
+							- Abstract away surface tokenization and language dependencies completely into sentence coordinates.
+							- Suffer from compounding error drift and potential dimensional collapse during long unrolled generations in continuous space.
+							- Next-concept modeling prevents continuous drift through discrete vector quantization bottlenecks.
+						- Discrete concept-guided models
+							- Interleave discrete concept planning tokens with surface token generation inside standard causal streams.
+							- Guide generation with high-level intent but remain bound to $\mathcal{O}(L)$ sequential token passes.
+					- Nature and definition of concepts
+						- Mathematical formulation in machine learning
+							- Concepts lack human dictionary labels and emerge through operational constraints in objective functions.
+							- Represent invariant semantic structures that survive when surface syntax is stripped away by compression bottlenecks.
+						- Information-theoretic compression
+							- Defined in **next-concept modeling** as minimal discrete information required to reconstruct complete text passages under rate-distortion constraints.
+							- Enforces temporal pooling over token groups, preventing local function words and punctuation from fitting in the latent budget.
+							- Assigns highest-variance communicative features – topic, argument structure, and core entities – to primary codebook indices.
+						- Semantic invariance
+							- Defined in continuous models as geometric proximity across disparate linguistic surfaces.
+							- Maps identical propositions across multiple natural languages into shared spatial neighborhoods.
+							- Discards syntactic alternations such as active versus passive voice to isolate core predicates.
+						- Latent features in standard models
+							- Middle layers of standard **next-token prediction** transformers naturally form abstract conceptual world models.
+							- Exist as linear directions discoverable through **sparse autoencoders** and representation probing.
+							- Remain implicit and distributed within activation streams rather than explicit planning targets.
+							- Next-concept modeling elevates these implicit latent states into addressable, first-class generative units.
+					- Training methodology and data requirements
+						- Unsupervised training data
+							- Uses standard unannotated text corpora including web crawls, books, code repositories, and technical papers.
+							- Requires no human concept taxonomies, ontology trees, or hand-labeled annotations.
+						- Two-stage training pipeline
+							- Stage 1 trains the multiscale residual autoencoder using token reconstruction loss combined with vector quantization commitment loss.
+							- Autoencoder discovers discrete concepts purely through self-supervised reconstruction across billions of tokens.
+							- Stage 2 discretizes raw training text into hierarchical concept indices using the frozen encoder.
+							- Main transformer prior trains on discrete concept indices using standard categorical cross-entropy loss.
+					- System performance and engineering trade-offs
+						- Latency and throughput
+							- Decouples total generation latency from surface sequence length $L$.
+							- Total forward passes equal hierarchy depth $K$, where typically $4 \le K \le 8$.
+							- Initial passes operate on heavily downsampled lengths $\ell_1 \ll L$, sharply cutting self-attention quadratic overhead.
+						- Reconstruction fidelity
+							- Model output quality is strictly bounded by the discrete tokenizer's capacity.
+							- Compression artifacts may risk dropping rare proper nouns, exact numbers, or precise syntactic formatting.
+						- Codebook optimization challenges
+							- Multiscale residual training requires careful codebook commitment losses and decay restarts to prevent dead codebook vectors.
+						- Interactive streaming differences
+							- Shifts user experience from continuous single-token streaming to block-based hierarchical materialization.
 			- 22nd, ...
 			  collapsed:: true
 				- My laptop got thermal throttled again (from 2026-10-22T15:05:30+0700 in `cpulog-20261022.tsv`).
