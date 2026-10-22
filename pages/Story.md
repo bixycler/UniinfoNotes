@@ -3304,7 +3304,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Right after stopping the `cpustress.sh`, the CPU frequency got up to 4.2 GHz and the system restored its normal reactivity.
 					- When launching Paseo (without any work), the CPU was throttled down to 400 MHz, and it was restored when Paseo was closed. Opening Antigravity (no work) also had similar effect but milder.
 					- At the restart (at 15:54), right after logout and before shutdown, the fan spun up as normal.
-					- Stress test resulted OK: Paseo + Antigravity + `cpustress.sh` ⇒ Paseo/Claude Code still works normally while all the 4 CPUs are 100% by
+					- Stress test resulted OK: Paseo + Antigravity + `cpustress.sh` ⇒ Paseo/Claude Code still works normally while all the 4 CPUs are 100% by `cpustress.sh`.
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6abd18dd-8ba5-4962-939c-722ea6341aaa))
