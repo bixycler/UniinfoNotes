@@ -3300,6 +3300,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- The symptom is the same as [before](((6ad0d2c1-e4ad-4920-beab-3256c3229880))): quiet fan, temperature held around 60°C, the whole system sluggish, CPU requency held down to 400 MHz (baseline).
 					- When i closed Paseo (running Aperas) to run `cpustress.sh` (running `sha256sum`), the CPU requency restored, but the fan was still silent.
 					- With a longer run of `cpustress.sh`, the CPU was throttled down to 400-900 MHz, and the whole system became sluggish, as expected.
+					- Right after stopping the `cpustress.sh`, the CPU frequency got up to 4.2 GHz and the system restored its normal reactivity.
+					- When launching Paseo, the CPU was throttled down to 400 MHz.
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6abd18dd-8ba5-4962-939c-722ea6341aaa))
