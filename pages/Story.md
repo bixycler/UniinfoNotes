@@ -3296,12 +3296,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Both desktop apps of Antigravity and Paseo spend a constant 30-50% CPU just for the eye-catching animation! Either minimizing the window or switching to a static tab without animation, the CPU usage drops immediately.
 				  id:: 6ad8c209-ee5b-40fe-a2b3-134c831f2ffb
 			- 22nd, ...
+			  collapsed:: true
 				- My laptop got thermal throttled again (from 2026-10-22T15:05:30+0700 in `cpulog-20261022.tsv`).
 					- The symptom is the same as [before](((6ad0d2c1-e4ad-4920-beab-3256c3229880))): quiet fan, temperature held around 60°C, the whole system sluggish, CPU requency held down to 400 MHz (baseline).
 					- When i closed Paseo (running Aperas) to run `cpustress.sh` (running `sha256sum`), the CPU requency restored, but the fan was still silent.
 					- With a longer run of `cpustress.sh`, the CPU was throttled down to 400-900 MHz, and the whole system became sluggish, as expected.
 					- Right after stopping the `cpustress.sh`, the CPU frequency got up to 4.2 GHz and the system restored its normal reactivity.
 					- When launching Paseo (without any work), the CPU was throttled down to 400 MHz, and it was restored when Paseo was closed. Opening Antigravity (no work) also had similar effect but milder.
+					- At the restart (at 15:54), right after logout and before shutdown, the fan spun up as normal.
+					- Stress test resulted OK: Paseo + Antigravity + `cpustress.sh` ⇒ Paseo/Claude Code still works normally while all the 4 CPUs are 100% by
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6abd18dd-8ba5-4962-939c-722ea6341aaa))
