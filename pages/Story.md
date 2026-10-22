@@ -3380,7 +3380,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- When launching Paseo (without any work), the CPU was throttled down to 400 MHz, and it was restored when Paseo was closed. Opening Antigravity (no work) also had similar effect but milder.
 					- At the restart (at 15:54), right after logout and before shutdown, the fan spun up as normal.
 					- Stress test resulted OK: Paseo + Antigravity + `cpustress.sh` ⇒ Paseo/Claude Code still works normally while all the 4 CPUs are 100% by `cpustress.sh`.
-					- Switching from `~/.profile:cpulog.sh` to `cpulog.service`, the snapshot by `cpulog.sh` demystified the [“current CPU frequency: Unable to call hardware”](((6ad0e519-c955-4883-bc6e-229ff6456471))) earlier: On `intel_pstate` with HWP the file `cpuinfo_cur_freq` doesn't exist (`No such file or directory` in the snapshot), while under `acpi-cpufreq`.
+					- Switching from `~/.profile:cpulog.sh` to `cpulog.service`, the snapshot by `cpulog.sh` demystified the [“current CPU frequency: Unable to call hardware”](((6ad0e519-c955-4883-bc6e-229ff6456471))) earlier: On `intel_pstate` with HWP (Hardware P-states) the file `cpuinfo_cur_freq` doesn't exist (`No such file or directory` in the snapshot).
+						- Under `acpi-cpufreq`, `cpuinfo_cur_freq` shows `2000000` (2 GHz) which is not the real clock but the requested P-state, capped by `scaling_max_freq=2000000`, while the CPUs actually ran at 4.2 GHz.
+						- So, the driver is clearly not the cause of the throttling.
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6abd18dd-8ba5-4962-939c-722ea6341aaa))
