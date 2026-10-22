@@ -3295,6 +3295,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  id:: 6ad8ca55-9390-40e9-9970-60f06d3a8830
 				- Both desktop apps of Antigravity and Paseo spend a constant 30-50% CPU just for the eye-catching animation! Either minimizing the window or switching to a static tab without animation, the CPU usage drops immediately.
 				  id:: 6ad8c209-ee5b-40fe-a2b3-134c831f2ffb
+			- 22nd, my laptop gets thermal throttled again.
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6abd18dd-8ba5-4962-939c-722ea6341aaa))
