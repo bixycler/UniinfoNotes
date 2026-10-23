@@ -3369,9 +3369,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Multiscale residual training requires careful codebook commitment losses and decay restarts to prevent dead codebook vectors.
 						- Interactive streaming differences
 							- Shifts user experience from continuous single-token streaming to block-based hierarchical materialization.
-			- 22nd, ...
+			- 22nd, ... and [my laptop got thermal throttled again](((6ad9c74a-95e3-4584-bbce-54e24f86cf77))).
 			  collapsed:: true
 				- My laptop got thermal throttled again (from 2026-10-22T15:05:30+0700 in `cpulog-20261022.tsv`).
+				  id:: 6ad9c74a-95e3-4584-bbce-54e24f86cf77
 				  collapsed:: true
 					- The symptom is the same as [before](((6ad0d2c1-e4ad-4920-beab-3256c3229880))): quiet fan, temperature held around 60°C, the whole system sluggish, CPU requency held down to 400 MHz (baseline).
 					- When i closed Paseo (running Aperas) to run `cpustress.sh` (running `sha256sum`), the CPU requency restored, but the fan was still silent.
