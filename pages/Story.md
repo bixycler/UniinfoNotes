@@ -3369,7 +3369,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Multiscale residual training requires careful codebook commitment losses and decay restarts to prevent dead codebook vectors.
 						- Interactive streaming differences
 							- Shifts user experience from continuous single-token streaming to block-based hierarchical materialization.
-			- 22nd, ... and [my laptop got thermal throttled again](((6ad9c74a-95e3-4584-bbce-54e24f86cf77))).
+			- 22nd, still migrating Aperas from Oxigraph-based engine to pure JS ApeironNgn, and [my laptop got thermal throttled again](((6ad9c74a-95e3-4584-bbce-54e24f86cf77))).
 			  collapsed:: true
 				- My laptop got thermal throttled again (from 2026-10-22T15:05:30+0700 in `cpulog-20261022.tsv`).
 				  id:: 6ad9c74a-95e3-4584-bbce-54e24f86cf77
@@ -3385,6 +3385,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Under `acpi-cpufreq`, `cpuinfo_cur_freq` shows `2000000` (2 GHz) which is not the real clock but the requested P-state, capped by `scaling_max_freq=2000000`, while the CPUs actually ran at 4.2 GHz.
 						- So, the driver is clearly not the cause of the throttling.
 					- The cpulog and snapshots show the first pattern: the CPU freq dips came at around 40+h up time.
+			- 23rd, ...
+				-
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6abd18dd-8ba5-4962-939c-722ea6341aaa))
