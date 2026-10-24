@@ -3385,15 +3385,18 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Under `acpi-cpufreq`, `cpuinfo_cur_freq` shows `2000000` (2 GHz) which is not the real clock but the requested P-state, capped by `scaling_max_freq=2000000`, while the CPUs actually ran at 4.2 GHz.
 						- So, the driver is clearly not the cause of the throttling.
 					- The cpulog and snapshots show the first pattern: the CPU freq dips came at around 40+h up time.
-			- 23rd, tried using Argon (Gemini 4) to run the Aperas skills to set up AI Twin Brain, to see the same old attitude with a UI quirk in Antigravity app.
+			- 23rd, tried using Argon (Gemini 4) to run the Aperas skills to set up AI Twin Brain, to see the same old attitude, with a UI quirk in Antigravity app.
+			  collapsed:: true
 				- It's obviously better than Gemini 3.8 Flash (much less missing steps & broken rules) but still the same attitude of _doing things as fast as possible with things in hand_ instead of checking reality to be grounded.
 					- So, the Claude models (mostly Sonnet, sometimes Opus) are still better for coding, skill practice, and rule alignment.
 				- Meanwhile, i caught a glitch of quota UI in Antigravity app:
-					- While the Argon quota is officially separate from other Gemini models, when hovering on “View Usage”, ...
+					- While the Argon quota is officially separate from other Gemini models, when hovering on “View Usage” at the bottom of the model selection dropdown menu, ...
 						- it first showed a view merging Argon into the general quota of all Gemini models, with even the time window of Argon replacing the others;
 						- then after a second or so, it automatically switched to the normal view splitting Argon quota from other Gemini models.
 					- Screenshots
 						- ![Antigravity different views of quotas](../assets/GUI/Antigravity/Antigravity different views of quotas - Screenshot From 2026-10-23 19-04-54 19-05-05.png)
+			- 24th, ...
+				-
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6abd18dd-8ba5-4962-939c-722ea6341aaa))
