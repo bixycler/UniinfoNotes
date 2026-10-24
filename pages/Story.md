@@ -3086,6 +3086,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- 7th day: after sleeps and meditation, the symptoms have been settled down enough for me to go to the office... to log them down.
 			- 11-14th, getting back to work with Aperas while my boss has not assigned tak, i got somehow caught up these days. Even mild, the airway irritation has not ceased, leading to cough all the time.
 			- 15th, today, i finished designing the pure JS ApeironNgn, but right at the start of implementation, ((6ad0d2c1-e4ad-4920-beab-3256c3229880)) And my boss also just assigned a task to apply an “instant noodle” solution to his “AI Twin”: i proposed ((6a1febf3-3ab3-4815-b1cd-6d2b7a703013)) but then found ((6ad1d8da-e162-4d31-8295-59ff1a19623a)) to be more interesting.
+			  id:: 6ad753eb-0412-44a0-b749-157fbc58368f
 			  collapsed:: true
 				- Just a stray code fence in commit `8912470d` did consume all content from [the day i bought the laptop](((6a734a74-8436-4070-81a9-5390131ae925))) up to today. But that error has been hidden by Logseq the whole time, due to its mismatch between the markdown files and its internal graph.
 				- My laptop (Acer Aspire AG15-52P) suddenly became sluggish.
@@ -3395,8 +3396,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- then after a second or so, it automatically switched to the normal view splitting Argon quota from other Gemini models.
 					- Screenshots
 						- ![Antigravity different views of quotas](../assets/GUI/Antigravity/Antigravity different views of quotas - Screenshot From 2026-10-23 19-04-54 19-05-05.png)
-			- 24th, ...
-				-
+			- 24th, after a week+, the migration of Aperas to the pure JS ApeironNgn just completed successfully. The AI Twin Brain, assigned by my boss, is being designed. Both are from the [last Thursday](((6ad753eb-0412-44a0-b749-157fbc58368f))).
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6abd18dd-8ba5-4962-939c-722ea6341aaa))
