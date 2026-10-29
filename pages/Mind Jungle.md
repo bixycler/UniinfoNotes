@@ -255,9 +255,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									- Permission: `Vertex AI User`
 								- [JSON Keys](https://console.cloud.google.com/iam-admin/serviceaccounts/details/110834434229891063644/keys?project=vertex-ai-agent-499213): `3aeeae4b313feba30791be7aa6dd5096b9911ffa` downloaded as `vertex-ai-agent-499213-3aeeae4b313f.json` (if lost, it won't be retrieved, must re-create a new key)
 							- Opencode: ((6a55b373-9225-49a9-ac23-95a9cc0478e0))
-						- Region: Upon use, a specific server region must be specified. Check “supported regions” in [Cloud Models](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/google-models).
-							- The default `us-central1` region does not include many models, e.g. Gemini 3.5 Flash, Gemini 3.1 Flash-Lite, Gemini 3.1 Pro.
-							- The `global` gegion does show up in the Agent Overview dashboard and in [Cloud Logging > Dashboards](https://console.cloud.google.com/monitoring/dashboards/integration/vertex_ai.vertex-ai-model-garden), but not in [Model Monitoring](https://console.cloud.google.com/agent-platform/model-monitoring/model-monitors).
+						- Region & usage: Upon use, a specific server region must be specified. Check “supported regions” in [Cloud Models](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/google-models).
+							- Region: The default `us-central1` region does not include many models, e.g. Gemini 3.5 Flash, Gemini 3.1 Flash-Lite, Gemini 3.1 Pro. So we must set `global` region.
+							- Usage: The `global` gegion does show up in the [Agent Overview dashboard](https://console.cloud.google.com/agent-platform/overview?project=vertex-ai-agent-499213) and in [Cloud Logging > Dashboards](https://console.cloud.google.com/monitoring/dashboards/integration/vertex_ai.vertex-ai-model-garden), but not in [Model Monitoring](https://console.cloud.google.com/agent-platform/model-monitoring/model-monitors).
 					- [DeepSeek](https://platform.deepseek.com/)
 						- Pros
 							- Very effective [caching on disk](https://api-docs.deepseek.com/news/news0802)
