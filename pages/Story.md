@@ -2658,6 +2658,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Story:
 					- In Feburary, i subscribed to Google One Pro for a share between Antigravity and (a half to) ((699c0360-af75-41a2-a58a-f7875f453ff9)) via Google Developer Program premium benefit.
 					- But from April, the benefit was moved to Google Cloud / ((6a54c798-becc-4879-80f9-bb35731f4e44)), which is much more complicated than the AI Studio.
+					  id:: 6ad0e2eb-d654-4088-b183-c083f7446164
 					- In May, [HTV started to block all AI sites](((6a151374-b325-4339-9152-2e2b7a6304e0))), forcing me to work around... first [with OpenRouter](((6a18f533-8363-41ee-ad39-367c8fdeb543))).
 					- This week, OpenRouter is also blocked, so i switch to Cloudflare AI Gateway.
 					- Until now, can i migrate to Vertex AI after passing many hurdles.
@@ -3407,6 +3408,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  > If your Google One subscription is cancelled, any unused AI credits will be forfeited.
 					- Google Cloud: The Google AI Mode [reasoned](https://share.google/aimode/rlhQ7TeKBKabtaUnG) that Google Cloud has different rules separate from Google One's, so the top-ups in Google Cloud and the redeemed coupons should not be affect by the cancellation of Google One.
 						- It's reasonable, because my [“AI credits activity”](https://one.google.com/u/0/ai/activity) on Google One is nearly empty.
+							- The only 3 spendings to Gemini in May: I don't know what they are but they seem to match the [switch of the Google Developer Program premium benefit](((6ad0e2eb-d654-4088-b183-c083f7446164))) from AI Studio to Vertex AI.
 						- AI credits on Google One are [used for](https://support.google.com/googleone/answer/14534406) Antigravity, Gemini app (including Gemini notebook), etc. So, it's clearly separate from Google Cloud credits.
 				- Today, my laptop hit [a complete freeze](((6ae3001a-a610-40f5-9f6d-ba3efd7cd81a))).
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
