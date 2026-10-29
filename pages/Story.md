@@ -3405,7 +3405,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Google One: all AI credits (given and top-ups) will be wiped out at the end of the month (billing cycle).
 					  [Q&A](https://support.google.com/googleone/thread/413563307/question-on-ai-credits?hl=en):
 					  > If your Google One subscription is cancelled, any unused AI credits will be forfeited.
-					- Google Cloud: The Google AI Mode [reasoned](https://share.google/aimode/rlhQ7TeKBKabtaUnG) that it's
+					- Google Cloud: The Google AI Mode [reasoned](https://share.google/aimode/rlhQ7TeKBKabtaUnG) that Google Cloud has different rules separate from Google One's, so the top-ups in Google Cloud and the redeemed coupons will not be affect by the cancelation of Google One.
+						- It's reasonable, because my
 				- Today, my laptop hit [a complete freeze](((6ae3001a-a610-40f5-9f6d-ba3efd7cd81a))).
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
