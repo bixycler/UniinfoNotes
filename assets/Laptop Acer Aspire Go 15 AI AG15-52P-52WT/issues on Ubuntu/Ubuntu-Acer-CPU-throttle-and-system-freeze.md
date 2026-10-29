@@ -31,7 +31,12 @@ Status: **open**. Last updated 2026-10-29.
 - The load itself was never logged: the last surviving `cpulog` sample is from before the agent started.
 - Last good `cpulog` sample 14:26:51 (53 °C, 3.3 GHz, load 0.17). Last journal entries 14:27:04 (`sysstat-collect` timer ticks).
 - Nothing was logged afterwards: no oops, MCE, hung-task, thermal, NVMe or PCIe error. Timers stopped too, so the whole machine stalled, not just an application.
-- Both records go through the page cache and were not synced, so 14:27 is the last surviving record, not the exact freeze time.
+- Both records go through the page cache and were not synced, so the journal's 14:27:04 is the last surviving entry, not the freeze time.
+- **Freeze time from file damage.** Two files being appended at the time have a run of NUL bytes (`^@`) at the end of the data that was lost:
+  - `cpulog-20261029.tsv`: one run of 796 bytes, exactly one sample line (795 bytes plus newline), the 14:27:21 sample. The 14:26:51 sample survived; no 14:27:51 sample exists.
+  - The Paseo session transcript (`a2cc753f-....jsonl` under `~/.claude/projects/-home-will-opt-projects-AI-Twin-Brain/`): the file ends with 3271 NUL bytes, the agent turn of the session being resumed. Its last valid entry is from 2026-10-28 23:02 (+07). The file's modification time is 14:27:48.9, so the first write of the resumed agent turn reached the file at that moment.
+  - Both runs sit inside a block that was already allocated. On ext4 the new file size can be committed to the journal while the data page is still waiting in memory (writeback happens after about 30 s), which gives exactly this pattern after an unclean stop. So the NULs fit an ordinary hard stop and are not evidence of a disk fault.
+  - The new size and time stamp were committed, so the kernel was still running at that commit (within about 5 s of 14:27:48.9). The freeze therefore began **within a few seconds after the agent's first write, about 14:27:49 to 14:27:55**, which matches the observed trigger.
 - `/sys/fs/pstore` is empty, so no kernel dump was saved.
 - Problems A and B may be unrelated. The freeze happened with the CPU cool and the clock normal.
 
@@ -69,7 +74,7 @@ Both problems were triggered by Paseo (an Electron app whose GPU process uses `/
 1. **Xe GPU driver.** `xe 0000:00:02.0: [drm] *ERROR* TLB invalidation fence timeout` was logged 9 times in the boot before the freeze: Oct 23 (2×), Oct 24 (3×), Oct 25 (2×), Oct 28 (1×), Oct 29 01:16 (1×). The same error appears in reports of freezes and GPU resets on Meteor Lake. Circumstantial: earlier occurrences did not freeze the machine, and no root cause or fix for this kernel was found.
 2. **Run-time power limit (problem A).** The MMIO PL1 (healthy 28 W) could be lowered by firmware or `thermald`; never observed during an episode. Also possible: external PROCHOT (`BD_PROCHOT` is on) or an embedded-controller state.
 3. **Wi-Fi DMA fault (low rank).** The IOMMU logged 33 DMA read faults from `01:00.0` (RTL8851BE, address 0x0) in that boot, every few hours, the last on Oct 28 20:54.
-4. **Storage stall (freeze, unconfirmed).** Not checked; `nvme-cli` is not installed.
+4. **Storage stall (freeze, unconfirmed).** Not checked; `nvme-cli` is not installed. The NUL runs do not point to it (see above).
 
 ## Tooling set up for this investigation
 
@@ -108,4 +113,4 @@ Antigravity (v2.19.1 and v2.24.0) failed to show its window on 2026-10-19. The c
 | 2026-10-22 | Throttle episodes from about 14:57. Tried `acpi-cpufreq` (no change). `cpulog` made a root service; extended logging; reboot at 15:54 and again at 17:16 back to `intel_pstate` |
 | 2026-10-23 | Heavy thermal load from about 16:26 (85-102 °C). Xe TLB timeouts begin |
 | 2026-10-24..28 | No sustained throttle; more Xe TLB timeouts |
-| 2026-10-29 | A brief 1-2 s pointer stall a few minutes earlier; then, about 14:27, full system freeze when Paseo's agent started working. Forced power-off. pstore empty; `nvme-cli` missing |
+| 2026-10-29 | A brief 1-2 s pointer stall a few minutes earlier; then a full system freeze within seconds after 14:27:48.9, when Paseo's resumed agent wrote its first turn. Forced power-off. pstore empty; `nvme-cli` missing |
