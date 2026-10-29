@@ -3410,6 +3410,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- It's reasonable, because my [“AI credits activity”](https://one.google.com/u/0/ai/activity) on Google One is nearly empty.
 							- The only 3 spendings to Gemini in May: I don't know what they are but they seem to match the [switch of the Google Developer Program premium benefit](((6ad0e2eb-d654-4088-b183-c083f7446164))) from AI Studio to Vertex AI.
 						- AI credits on Google One are [used for](https://support.google.com/googleone/answer/14534406) Antigravity, Gemini app (including Gemini notebook), etc. So, it's clearly separate from Google Cloud credits.
+					- So, i post a [question to Google One Help](https://support.google.com/googleone/thread/475261999) and choose the safe procedure: just down grade to Lite plan with 19kđ/mo
 				- Today, my laptop hit [a complete freeze](((6ae3001a-a610-40f5-9f6d-ba3efd7cd81a))).
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
