@@ -29,6 +29,10 @@ Status: **open**. Last updated 2026-10-29.
 - Mouse pointer frozen, Ctrl-Alt-F1..F7 did nothing, for minutes. Needed a forced power-off.
 - **Trigger observed:** a few minutes earlier there was a brief stall (pointer stuck for about 1-2 s) that recovered, with nothing heavy running. The full freeze came right when Paseo was opened to resume a session and the agent started working. No log entry corresponds to the brief stall.
 - The load itself was never logged: the last surviving `cpulog` sample is from before the agent started.
+- **Replay, 2026-10-29 16:04** (Paseo restarted 15:59, same session opened 16:00, same prompt sent 16:04:03; `turbostat` logging once per second): no freeze. The agent answered differently (one shell read, then clarifying questions in about 29 s). The transcript wrote its first burst (about 5.7 KB: queue entries, the user message, attachments) within 0.15 s of sending, and the API request line at 0.4 s. The first model output arrived at about 12 s.
+  - Machine during the replay: package power peaked at 17.2 W (average about 10 W), package 63-72 °C, iGPU asleep at least 83 % of the time (`GFX%rc6` minimum 83.5 %) and under 0.15 W. `cpulog` showed no limit reasons beyond the normal baseline and no `gtThrottle`.
+  - The original freeze left the transcript's modification time at 14:27:48.9, the first-burst moment, with nothing written afterwards. In the replay the next writes came 12 s later. If the same had happened in the original, the file's time stamp would have been later, so the freeze most likely began **within the first seconds after the prompt was submitted, before any model output**, i.e. while the app was resuming and building the request. This is an inference from file times, not an observation.
+  - Because the model's answer differed and the freeze did not recur, the agent's work is unlikely to be the trigger. The suspect moment is the resume and submit step of a large (23 MB, 5845-line) transcript.
 - Last good `cpulog` sample 14:26:51 (53 °C, 3.3 GHz, load 0.17). Last journal entries 14:27:04 (`sysstat-collect` timer ticks).
 - Nothing was logged afterwards: no oops, MCE, hung-task, thermal, NVMe or PCIe error. Timers stopped too, so the whole machine stalled, not just an application.
 - Both records go through the page cache and were not synced, so the journal's 14:27:04 is the last surviving entry, not the freeze time.
@@ -91,6 +95,7 @@ Both problems were triggered by Paseo (an Electron app whose GPU process uses `/
 
 ## Open next steps
 
+- [ ] Add memory, swap and pressure-stall readings (`/proc/pressure/{memory,io,cpu}`) to `cpulog` samples, to test whether resuming a large transcript causes a memory or disk stall. At the time of the freeze nothing recorded memory use. Note also that the file indexer `localsearch-3` was among the top CPU users in the minutes before (it indexes `node_modules` trees under the project directories).
 - [ ] When problem A recurs: after the snapshot, log out and back in (no reboot) and see whether the clock and fan recover. Then try closing only Paseo's processes.
 - [ ] Add iGPU power and residency columns to the `cpulog` snapshot's `turbostat` call (GPU frequency, GPU power, GPU sleep-state residency, package sleep states), to see whether the iGPU is consuming the package power budget during an episode.
 - [ ] Make evidence survive a freeze: `sync` after each `cpulog` sample, and set journald `SyncIntervalSec` to about 5 s (default 5 min).
@@ -114,3 +119,4 @@ Antigravity (v2.19.1 and v2.24.0) failed to show its window on 2026-10-19. The c
 | 2026-10-23 | Heavy thermal load from about 16:26 (85-102 °C). Xe TLB timeouts begin |
 | 2026-10-24..28 | No sustained throttle; more Xe TLB timeouts |
 | 2026-10-29 | A brief 1-2 s pointer stall a few minutes earlier; then a full system freeze within seconds after 14:27:48.9, when Paseo's resumed agent wrote its first turn. Forced power-off. pstore empty; `nvme-cli` missing |
+| 2026-10-29 | Transcript NUL tail truncated (backup kept). 16:04 replay of the same session and prompt: no freeze, light load, different agent answer |
