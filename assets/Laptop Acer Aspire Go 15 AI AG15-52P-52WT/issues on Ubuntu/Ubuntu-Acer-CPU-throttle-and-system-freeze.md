@@ -20,12 +20,15 @@ Status: **open**. Last updated 2026-10-29.
 - Seen 2026-10-17 (about 46 h after boot) and 2026-10-22 (from about 14:57, about 44 h after boot).
 - The whole system becomes sluggish, the fan stays quiet, and the package temperature sits at only about 64-67 °C.
 - Opening an Electron app such as Paseo or Antigravity (even idle) could tip it into the state. Closing it restored the clock, which suggests a state that follows load, not a plain thermal limit.
-- Cleared only by a reboot. After the reboot the same workload ran at 4.2 GHz and 84-87 °C with four `sha256sum` workers.
+- **Clears when the user session ends:** the fan spins up again right after logging out, before any shutdown or reboot. So the stuck state belongs to something running in the user session, not to the platform firmware. (Not yet tested whether log out and back in, without a reboot, is enough to restore full speed.)
+- After the reboot the same workload ran at 4.2 GHz and 84-87 °C with four `sha256sum` workers. A CPU-only load did not trigger it: Paseo, Antigravity and `cpustress.sh` on all four CPUs ran together without throttling.
 - **Not seen again** during the 6 d 21 h that followed (2026-10-22 17:16 to 2026-10-29 14:27). The log has three isolated single samples under 900 MHz (Oct 24 04:39, Oct 25 06:47, Oct 28 13:33) that were not examined.
 
 ### B. Whole-system freeze, 2026-10-29 about 14:27
 
 - Mouse pointer frozen, Ctrl-Alt-F1..F7 did nothing, for minutes. Needed a forced power-off.
+- **Trigger observed:** a few minutes earlier there was a brief stall (pointer stuck for about 1-2 s) that recovered, with nothing heavy running. The full freeze came right when Paseo was opened to resume a session and the agent started working. No log entry corresponds to the brief stall.
+- The load itself was never logged: the last surviving `cpulog` sample is from before the agent started.
 - Last good `cpulog` sample 14:26:51 (53 °C, 3.3 GHz, load 0.17). Last journal entries 14:27:04 (`sysstat-collect` timer ticks).
 - Nothing was logged afterwards: no oops, MCE, hung-task, thermal, NVMe or PCIe error. Timers stopped too, so the whole machine stalled, not just an application.
 - Both records go through the page cache and were not synced, so 14:27 is the last surviving record, not the exact freeze time.
@@ -57,6 +60,10 @@ Status: **open**. Last updated 2026-10-29.
 | `package_throttle_count` at idle | a few per half hour |
 | `HWP_STATUS` (`0x777`) | `EXCURSION_TO_MIN` (bit 2) is sticky and sets again easily; not a reliable onset marker |
 
+## Common factor
+
+Both problems were triggered by Paseo (an Electron app whose GPU process uses `/dev/dri/renderD128` on Wayland): problem A tipped over when Paseo was opened, and problem B happened when its agent started working. Antigravity (also Electron) had a milder effect on problem A. A pure CPU load (`cpustress.sh`) did not trigger either. Together with the clue that ending the user session clears problem A, this points at the user-session GPU path (Xe driver, compositor, Electron GPU process) more than at the CPU power limits. Unproven: no snapshot taken during an episode contained GPU power or residency data.
+
 ## Suspects
 
 1. **Xe GPU driver.** `xe 0000:00:02.0: [drm] *ERROR* TLB invalidation fence timeout` was logged 9 times in the boot before the freeze: Oct 23 (2×), Oct 24 (3×), Oct 25 (2×), Oct 28 (1×), Oct 29 01:16 (1×). The same error appears in reports of freezes and GPU resets on Meteor Lake. Circumstantial: earlier occurrences did not freeze the machine, and no root cause or fix for this kernel was found.
@@ -79,6 +86,8 @@ Status: **open**. Last updated 2026-10-29.
 
 ## Open next steps
 
+- [ ] When problem A recurs: after the snapshot, log out and back in (no reboot) and see whether the clock and fan recover. Then try closing only Paseo's processes.
+- [ ] Add iGPU power and residency columns to the `cpulog` snapshot's `turbostat` call (GPU frequency, GPU power, GPU sleep-state residency, package sleep states), to see whether the iGPU is consuming the package power budget during an episode.
 - [ ] Make evidence survive a freeze: `sync` after each `cpulog` sample, and set journald `SyncIntervalSec` to about 5 s (default 5 min).
 - [ ] Add a count of `xe ... ERROR` lines to each `cpulog` sample.
 - [ ] A/B test the GPU driver for about a week: boot with `i915` instead of `xe` (reverse the two `force_probe` options) and see if freezes stop. Not yet checked that `i915` works on kernel 7.0.
@@ -99,4 +108,4 @@ Antigravity (v2.19.1 and v2.24.0) failed to show its window on 2026-10-19. The c
 | 2026-10-22 | Throttle episodes from about 14:57. Tried `acpi-cpufreq` (no change). `cpulog` made a root service; extended logging; reboot at 15:54 and again at 17:16 back to `intel_pstate` |
 | 2026-10-23 | Heavy thermal load from about 16:26 (85-102 °C). Xe TLB timeouts begin |
 | 2026-10-24..28 | No sustained throttle; more Xe TLB timeouts |
-| 2026-10-29 | About 14:27 full system freeze, forced power-off. pstore empty; `nvme-cli` missing |
+| 2026-10-29 | A brief 1-2 s pointer stall a few minutes earlier; then, about 14:27, full system freeze when Paseo's agent started working. Forced power-off. pstore empty; `nvme-cli` missing |
