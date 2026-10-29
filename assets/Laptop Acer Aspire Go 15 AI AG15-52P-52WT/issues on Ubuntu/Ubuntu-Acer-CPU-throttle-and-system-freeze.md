@@ -97,6 +97,19 @@ Both problems were triggered by Paseo (an Electron app whose GPU process uses `/
   - At start it clears the sticky HWP excursion bit (`wrmsr -a 0x777 0`).
 - `~/.local/bin/cpustress.sh`, a load generator: `-n` workers, `-t` seconds, `-c` CPU list.
 - Manual notes can be added to the TSV as lines starting with `#`.
+- Both scripts are hard-linked into the `linux-commands` repo (`others/cpulog.sh`, `others/cpustress.sh`). Edit them in place; an editor that saves by replacing the file breaks the link.
+- `cpulog.service` is installed in `/etc/systemd/system/`; a copy of the unit is in `~/.local/share/cpulog/cpulog.service`. `Restart` after editing `cpulog.sh`: `sudo systemctl restart cpulog`.
+- A one-line-per-second capture of CPU, package and iGPU power and sleep states, flushed to disk each line, for use during a risky action such as resuming a big session:
+  ```bash
+  out=~/tmp/turbostat-$(date +%H%M%S).txt
+  sudo turbostat -S --quiet -i 1 \
+    --show Busy%,Bzy_MHz,Totl%C0,Pkg%pc6,PkgTmp,PkgWatt,CorWatt,GFXWatt,GFX%rc6,GFXMHz,GFXAMHz,GFX%C0 \
+   | while IFS= read -r l; do
+       printf '%s %s\n' "$(date +%T)" "$l" | tee -a "$out"
+       sync -d "$out"
+     done
+  ```
+- The damaged session transcript was repaired by truncating the trailing NUL bytes at byte 23282489. The original, with the NULs, is kept next to it as `a2cc753f-....jsonl.bak` and can be deleted once it is no longer needed.
 
 ## What to do when problem A recurs
 
