@@ -3401,11 +3401,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- ![Antigravity different views of quotas](../assets/GUI/Antigravity/Antigravity different views of quotas - Screenshot From 2026-10-23 19-04-54 19-05-05.png)
 			- 24th, after a week+, the migration of Aperas to the pure JS ApeironNgn just completed successfully. The AI Twin Brain, assigned by my boss, is being designed. Both are from the [last Thursday](((6ad753eb-0412-44a0-b749-157fbc58368f))).
 			- 29th,
-				- I switched to Claude Pro ($20/mo), but canceling Google AI Pro ($20/mo via Google One) is tricky.
+				- I switched to Claude Pro ($20/mo), but cancelling Google AI Pro ($20/mo via Google One) is tricky.
 					- Google One: all AI credits (given and top-ups) will be wiped out at the end of the month (billing cycle).
 					  [Q&A](https://support.google.com/googleone/thread/413563307/question-on-ai-credits?hl=en):
 					  > If your Google One subscription is cancelled, any unused AI credits will be forfeited.
-					- Google Cloud: The Google AI Mode [reasoned](https://share.google/aimode/rlhQ7TeKBKabtaUnG) that Google Cloud has different rules separate from Google One's, so the top-ups in Google Cloud and the redeemed coupons will not be affect by the cancelation of Google One.
+					- Google Cloud: The Google AI Mode [reasoned](https://share.google/aimode/rlhQ7TeKBKabtaUnG) that Google Cloud has different rules separate from Google One's, so the top-ups in Google Cloud and the redeemed coupons should not be affect by the cancellation of Google One.
 						- It's reasonable, because my [“AI credits activity”](https://one.google.com/u/0/ai/activity) on Google One is nearly empty.
 						- AI credits on Google One are [used for](https://support.google.com/googleone/answer/14534406) Antigravity, Gemini app (including Gemini notebook), etc. So, it's clearly separate from Google Cloud credits.
 				- Today, my laptop hit [a complete freeze](((6ae3001a-a610-40f5-9f6d-ba3efd7cd81a))).
