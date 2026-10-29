@@ -2728,8 +2728,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- On-site notes: ![Ubuntu-Acer-keyboard-touchpad-problem.txt](../assets/Laptop Acer Aspire Go 15 AI AG15-52P-52WT/issues on Ubuntu/Ubuntu-Acer-keyboard-touchpad-problem.txt)
 						- [!] Remaining issue: When something breaks the boot process and require keyboard input, e.g. “insecure boot warning”, we cannot proceed.
 					- Another problem is the ![slow-down and hang after a long uptime](../assets/Laptop Acer Aspire Go 15 AI AG15-52P-52WT/issues on Ubuntu/Ubuntu-Acer-CPU-throttle-and-system-freeze.md).
+					  id:: 6ae3001a-a610-40f5-9f6d-ba3efd7cd81a
 						- It appears after dozens of hours uptime on Ubuntu (no such long session run on Windows yet).
-						-
 			- 20-21th, intended to do the office work, but ended with updating the **effect circle** all the day.
 			  collapsed:: true
 				- ((6a5d8eb5-6989-42d1-9419-57db76aaa871))
@@ -3400,7 +3400,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Screenshots
 						- ![Antigravity different views of quotas](../assets/GUI/Antigravity/Antigravity different views of quotas - Screenshot From 2026-10-23 19-04-54 19-05-05.png)
 			- 24th, after a week+, the migration of Aperas to the pure JS ApeironNgn just completed successfully. The AI Twin Brain, assigned by my boss, is being designed. Both are from the [last Thursday](((6ad753eb-0412-44a0-b749-157fbc58368f))).
-			-
+			- 29th,
+				- I switched to Claude Pro ($20/mo), but canceling Google AI Pro ($20/mo via Google One) is tricky.
+					- Google One: all AI credits (given and top-ups) will be wiped out at the end of the month (billing cycle).
+					  [Q&A](https://support.google.com/googleone/thread/413563307/question-on-ai-credits?hl=en):
+					  > If your Google One subscription is cancelled, any unused AI credits will be forfeited.
+					- Google Cloud: The Google AI Mode [reasoned](https://share.google/aimode/rlhQ7TeKBKabtaUnG) that it's
+				- Today, my laptop hit [a complete freeze](((6ae3001a-a610-40f5-9f6d-ba3efd7cd81a))).
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6abd18dd-8ba5-4962-939c-722ea6341aaa))
