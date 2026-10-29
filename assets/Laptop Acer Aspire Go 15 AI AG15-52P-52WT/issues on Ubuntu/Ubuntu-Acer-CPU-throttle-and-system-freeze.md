@@ -27,12 +27,12 @@ Status: **open**. Last updated 2026-10-29.
 ### B. Whole-system freeze, 2026-10-29 about 14:27
 
 - Mouse pointer frozen, Ctrl-Alt-F1..F7 did nothing, for minutes. Needed a forced power-off.
-- **Trigger observed:** a few minutes earlier there was a brief stall (pointer stuck for about 1-2 s) that recovered, with nothing heavy running. The full freeze came right when Paseo was opened to resume a session and the agent started working. No log entry corresponds to the brief stall.
+- **Trigger observed:** a few minutes earlier there was a brief stall (pointer stuck for about 1-2 s) that recovered, with nothing heavy running. The full freeze came right when Paseo was opened to resume a session and the agent started working. No log entry corresponds to the brief stall. Before the freeze the agent made 2-3 tool calls, wrote that the API key must be kept out of all documents, made 1-2 more tool calls, and then the machine froze.
 - The load itself was never logged: the last surviving `cpulog` sample is from before the agent started.
 - **Replay, 2026-10-29 16:04** (Paseo restarted 15:59, same session opened 16:00, same prompt sent 16:04:03; `turbostat` logging once per second): no freeze. The agent answered differently (one shell read, then clarifying questions in about 29 s). The transcript wrote its first burst (about 5.7 KB: queue entries, the user message, attachments) within 0.15 s of sending, and the API request line at 0.4 s. The first model output arrived at about 12 s.
   - Machine during the replay: package power peaked at 17.2 W (average about 10 W), package 63-72 °C, iGPU asleep at least 83 % of the time (`GFX%rc6` minimum 83.5 %) and under 0.15 W. `cpulog` showed no limit reasons beyond the normal baseline and no `gtThrottle`.
-  - The original freeze left the transcript's modification time at 14:27:48.9, the first-burst moment, with nothing written afterwards. In the replay the next writes came 12 s later. If the same had happened in the original, the file's time stamp would have been later, so the freeze most likely began **within the first seconds after the prompt was submitted, before any model output**, i.e. while the app was resuming and building the request. This is an inference from file times, not an observation.
-  - Because the model's answer differed and the freeze did not recur, the agent's work is unlikely to be the trigger. The suspect moment is the resume and submit step of a large (23 MB, 5845-line) transcript.
+  - Timing of the original: the agent had been working for a while (2-3 tool calls, a message, 1-2 more tool calls). In the replay the same stages took about 29 s. So the freeze came roughly 30 s or more after the prompt (about 14:28:20 or later). The last file times on disk are from 14:27:49 to 14:27:54, so files kept growing in memory while no ext4 journal commit completed, which points to a stall in the storage or filesystem path (or in memory reclaim) that began first and then spread, not an instant total freeze. This is an inference from file times and the observed behaviour.
+  - The agent was running when it froze, so its activity (file reads, transcript writes, API traffic) is not ruled out as the trigger. The replay with a different answer did not freeze, so one run of the same prompt is not enough to blame the prompt itself.
 - Last good `cpulog` sample 14:26:51 (53 °C, 3.3 GHz, load 0.17). Last journal entries 14:27:04 (`sysstat-collect` timer ticks).
 - Nothing was logged afterwards: no oops, MCE, hung-task, thermal, NVMe or PCIe error. Timers stopped too, so the whole machine stalled, not just an application.
 - Both records go through the page cache and were not synced, so the journal's 14:27:04 is the last surviving entry, not the freeze time.
@@ -40,7 +40,7 @@ Status: **open**. Last updated 2026-10-29.
   - `cpulog-20261029.tsv`: one run of 796 bytes, exactly one sample line (795 bytes plus newline), the 14:27:21 sample. The 14:26:51 sample survived; no 14:27:51 sample exists.
   - The Paseo session transcript (`a2cc753f-....jsonl` under `~/.claude/projects/-home-will-opt-projects-AI-Twin-Brain/`): the file ends with 3271 NUL bytes, the agent turn of the session being resumed. Its last valid entry is from 2026-10-28 23:02 (+07). The file's modification time is 14:27:48.9, so the first write of the resumed agent turn reached the file at that moment.
   - Both runs sit inside a block that was already allocated. On ext4 the new file size can be committed to the journal while the data page is still waiting in memory (writeback happens after about 30 s), which gives exactly this pattern after an unclean stop. So the NULs fit an ordinary hard stop and are not evidence of a disk fault.
-  - The new size and time stamp were committed, so the kernel was still running at that commit (within about 5 s of 14:27:48.9). The freeze therefore began **within a few seconds after the agent's first write, about 14:27:49 to 14:27:55**, which matches the observed trigger.
+  - The on-disk size and time stamp come from the last ext4 journal commit that completed (commits happen about every 5 s). That commit happened between 14:27:49 and 14:27:54. It is a lower bound for when the machine was alive, not the freeze time: the agent kept working for tens of seconds afterwards (see below), so later commits did not complete.
 - `/sys/fs/pstore` is empty, so no kernel dump was saved.
 - Problems A and B may be unrelated. The freeze happened with the CPU cool and the clock normal.
 
@@ -78,7 +78,7 @@ Both problems were triggered by Paseo (an Electron app whose GPU process uses `/
 1. **Xe GPU driver.** `xe 0000:00:02.0: [drm] *ERROR* TLB invalidation fence timeout` was logged 9 times in the boot before the freeze: Oct 23 (2×), Oct 24 (3×), Oct 25 (2×), Oct 28 (1×), Oct 29 01:16 (1×). The same error appears in reports of freezes and GPU resets on Meteor Lake. Circumstantial: earlier occurrences did not freeze the machine, and no root cause or fix for this kernel was found.
 2. **Run-time power limit (problem A).** The MMIO PL1 (healthy 28 W) could be lowered by firmware or `thermald`; never observed during an episode. Also possible: external PROCHOT (`BD_PROCHOT` is on) or an embedded-controller state.
 3. **Wi-Fi DMA fault (low rank).** The IOMMU logged 33 DMA read faults from `01:00.0` (RTL8851BE, address 0x0) in that boot, every few hours, the last on Oct 28 20:54.
-4. **Storage stall (freeze, unconfirmed).** Not checked; `nvme-cli` is not installed. The NUL runs do not point to it (see above).
+4. **Storage or filesystem stall, or a memory-reclaim stall (freeze).** Raised again by the file times: commits stopped about 30 s or more before the freeze became visible. Not yet checked; `nvme-cli` is not installed, and `cpulog` did not record memory or I/O pressure. The NUL runs themselves are ordinary for an unclean stop.
 
 ## Tooling set up for this investigation
 
@@ -118,5 +118,5 @@ Antigravity (v2.19.1 and v2.24.0) failed to show its window on 2026-10-19. The c
 | 2026-10-22 | Throttle episodes from about 14:57. Tried `acpi-cpufreq` (no change). `cpulog` made a root service; extended logging; reboot at 15:54 and again at 17:16 back to `intel_pstate` |
 | 2026-10-23 | Heavy thermal load from about 16:26 (85-102 °C). Xe TLB timeouts begin |
 | 2026-10-24..28 | No sustained throttle; more Xe TLB timeouts |
-| 2026-10-29 | A brief 1-2 s pointer stall a few minutes earlier; then a full system freeze within seconds after 14:27:48.9, when Paseo's resumed agent wrote its first turn. Forced power-off. pstore empty; `nvme-cli` missing |
+| 2026-10-29 | A brief 1-2 s pointer stall a few minutes earlier; then a full system freeze, roughly 30 s or more after the prompt was sent to Paseo's resumed agent (after 2-3 tool calls, a message and 1-2 more tool calls). The last ext4 commit was at 14:27:49-54. Forced power-off. pstore empty; `nvme-cli` missing |
 | 2026-10-29 | Transcript NUL tail truncated (backup kept). 16:04 replay of the same session and prompt: no freeze, light load, different agent answer |
