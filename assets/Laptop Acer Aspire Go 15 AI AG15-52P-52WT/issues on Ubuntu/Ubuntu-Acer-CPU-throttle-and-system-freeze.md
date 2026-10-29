@@ -91,6 +91,8 @@ Both problems were triggered by Paseo (an Electron app whose GPU process uses `/
   - Logs clocks, temperatures, the decoded MSRs (`0x64F`, `0x19C`, `0x1B1`, `0x774`, `0x777`, `0x1FC`), the iGPU throttle reasons, both RAPL limit views, throttle counters, and the top processes.
   - Also logs memory (`mem=`: available, swap used, dirty, writeback), pressure-stall readings (`psi_mem=`, `psi_io=`, `psi_cpu=`: avg10 some/full plus the running total in microseconds) and NVMe block counters (`nvme=`: reads, writes, requests in flight, busy ms; no command is sent to the drive).
   - The log is flushed to disk after every sample and snapshot (`SYNC_EACH=1`, default; `SYNC_EACH=0` turns it off), so a freeze loses at most the sample being written.
+  - `xeErrors=` is the number of `xe ... *ERROR*` kernel lines logged this boot, read from the journal (0.04 s even over a week-long boot). A jump between two samples dates an error to within 30 s.
+  - The snapshot's `turbostat` call also reports package sleep-state share and the iGPU power, sleep-state share, clocks and busy share.
   - Snapshots also hold memory, the biggest processes, the pressure files, blocked (D-state) tasks with the kernel function they wait in, the NVMe block counters and a trimmed `nvme smart-log` (5 s limit). A snapshot takes about 3.6 s (2 s of it the `turbostat` sample, 1.2 s the second `top` sample).
   - At start it clears the sticky HWP excursion bit (`wrmsr -a 0x777 0`).
 - `~/.local/bin/cpustress.sh`, a load generator: `-n` workers, `-t` seconds, `-c` CPU list.
@@ -106,10 +108,10 @@ Both problems were triggered by Paseo (an Electron app whose GPU process uses `/
 
 - [x] Add memory, swap and pressure-stall readings and NVMe counters to `cpulog` (done 2026-10-29). Note also that the file indexer `localsearch-3` was among the top CPU users in the minutes before the freeze (it indexes `node_modules` trees under the project directories).
 - [ ] When problem A recurs: after the snapshot, log out and back in (no reboot) and see whether the clock and fan recover. Then try closing only Paseo's processes.
-- [ ] Add iGPU power and residency columns to the `cpulog` snapshot's `turbostat` call (GPU frequency, GPU power, GPU sleep-state residency, package sleep states), to see whether the iGPU is consuming the package power budget during an episode.
+- [x] Add iGPU power and residency columns to the `cpulog` snapshot's `turbostat` call (done 2026-10-29: `Pkg%pc6`, `GFXWatt`, `GFX%rc6`, `GFXMHz`, `GFXAMHz`, `GFX%C0`), to see whether the iGPU is consuming the package power budget during an episode.
 - [x] Flush the `cpulog` log to disk after every sample (done 2026-10-29).
-- [ ] Set journald `SyncIntervalSec` to about 5 s (default 5 min), so the system journal keeps more of the last seconds before a freeze.
-- [ ] Add a count of `xe ... ERROR` lines to each `cpulog` sample.
+- [x] Set journald `SyncIntervalSec=5s` (done 2026-10-29, `/etc/systemd/journald.conf.d/sync.conf`, journald restarted), so the system journal keeps more of the last seconds before a freeze. A copy of the file is in `~/.local/share/cpulog/journald-sync.conf`.
+- [x] Add a count of `xe ... ERROR` lines to each `cpulog` sample (done 2026-10-29, field `xeErrors=`).
 - [ ] A/B test the GPU driver for about a week: boot with `i915` instead of `xe` (reverse the two `force_probe` options) and see if freezes stop. Not yet checked that `i915` works on kernel 7.0.
 - [ ] Check for a newer kernel or `linux-firmware`.
 - [x] NVMe health: `nvme-cli` installed and the SMART log read (clean, see Baseline).
@@ -131,3 +133,4 @@ Antigravity (v2.19.1 and v2.24.0) failed to show its window on 2026-10-19. The c
 | 2026-10-29 | A brief 1-2 s pointer stall a few minutes earlier; then a full system freeze, roughly 30 s or more after the prompt was sent to Paseo's resumed agent (after 2-3 tool calls, a message and 1-2 more tool calls). The last ext4 commit was at 14:27:49-54. Forced power-off. pstore empty; `nvme-cli` missing |
 | 2026-10-29 | Transcript NUL tail truncated (backup kept). 16:04 replay of the same session and prompt: no freeze, light load, different agent answer |
 | 2026-10-29 | NVMe SMART log clean (`unsafe_shutdowns` 46). `cpulog` extended with memory, pressure-stall and NVMe counters, per-sample flush and new snapshot sections |
+| 2026-10-29 | `cpulog` gained the `xeErrors=` field and iGPU columns in the snapshot; journald flush interval set to 5 s |
