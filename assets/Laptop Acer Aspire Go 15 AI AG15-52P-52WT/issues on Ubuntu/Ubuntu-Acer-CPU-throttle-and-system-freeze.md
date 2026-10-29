@@ -68,6 +68,11 @@ Status: **open**. Last updated 2026-10-29.
 | Four-core full load | about 15.9 W, 72 °C, 4.17 GHz |
 | `package_throttle_count` at idle | a few per half hour |
 | `HWP_STATUS` (`0x777`) | `EXCURSION_TO_MIN` (bit 2) is sticky and sets again easily; not a reliable onset marker |
+| Normal desktop use (turbostat, 1 s samples) | package about 9-10 W average, up to 18 W; 46-84 °C; iGPU asleep at least 82 % of the time and under 0.15 W |
+| Memory | `MemAvailable` about 8 GB of 15 GB, swap unused, dirty pages under 4 MB |
+| Pressure stall (`/proc/pressure`) | memory about 0; I/O stays near 0 except about 5 % over five minutes during package installs; CPU under 1 % |
+| Blocked (D-state) tasks / NVMe in flight | none / 0 |
+| NVMe `smart-log` (2026-10-29) | `critical_warning` 0, `available_spare` 100 %, `percentage_used` 0 %, `media_errors` 0, `num_err_log_entries` 0, no thermal-management events, 35-36 °C. `unsafe_shutdowns` **46** (`power_cycles` 337); `power_on_hours` reads 98, less than one boot lasted, so it is not a reliable age |
 
 ## Common factor
 
@@ -78,12 +83,15 @@ Both problems were triggered by Paseo (an Electron app whose GPU process uses `/
 1. **Xe GPU driver.** `xe 0000:00:02.0: [drm] *ERROR* TLB invalidation fence timeout` was logged 9 times in the boot before the freeze: Oct 23 (2×), Oct 24 (3×), Oct 25 (2×), Oct 28 (1×), Oct 29 01:16 (1×). The same error appears in reports of freezes and GPU resets on Meteor Lake. Circumstantial: earlier occurrences did not freeze the machine, and no root cause or fix for this kernel was found.
 2. **Run-time power limit (problem A).** The MMIO PL1 (healthy 28 W) could be lowered by firmware or `thermald`; never observed during an episode. Also possible: external PROCHOT (`BD_PROCHOT` is on) or an embedded-controller state.
 3. **Wi-Fi DMA fault (low rank).** The IOMMU logged 33 DMA read faults from `01:00.0` (RTL8851BE, address 0x0) in that boot, every few hours, the last on Oct 28 20:54.
-4. **Storage or filesystem stall, or a memory-reclaim stall (freeze).** Raised again by the file times: commits stopped about 30 s or more before the freeze became visible. Not yet checked; `nvme-cli` is not installed, and `cpulog` did not record memory or I/O pressure. The NUL runs themselves are ordinary for an unclean stop.
+4. **Storage or filesystem stall, or a memory-reclaim stall (freeze).** Raised by the file times: journal commits stopped about 30 s or more before the freeze became visible. The NVMe health log is clean (no media errors, no error-log entries, no thermal events), so a failing drive is unlikely; a transient stall in the drive, the filesystem or memory reclaim is not ruled out. `cpulog` now records memory, pressure-stall and NVMe counters, so a repeat should show which one stalled first. The NUL runs themselves are ordinary for an unclean stop.
 
 ## Tooling set up for this investigation
 
 - `~/.local/bin/cpulog.sh`, run as the root service `cpulog.service`. It samples every 30 s into `~/tmp/cpulog/cpulog-YYYYmmdd.tsv`. It writes `snapshot-*.txt` when the average clock is under 900 MHz with load above 0.3. Manual snapshot: `sudo ~/.local/bin/cpulog.sh --snapshot`.
   - Logs clocks, temperatures, the decoded MSRs (`0x64F`, `0x19C`, `0x1B1`, `0x774`, `0x777`, `0x1FC`), the iGPU throttle reasons, both RAPL limit views, throttle counters, and the top processes.
+  - Also logs memory (`mem=`: available, swap used, dirty, writeback), pressure-stall readings (`psi_mem=`, `psi_io=`, `psi_cpu=`: avg10 some/full plus the running total in microseconds) and NVMe block counters (`nvme=`: reads, writes, requests in flight, busy ms; no command is sent to the drive).
+  - The log is flushed to disk after every sample and snapshot (`SYNC_EACH=1`, default; `SYNC_EACH=0` turns it off), so a freeze loses at most the sample being written.
+  - Snapshots also hold memory, the biggest processes, the pressure files, blocked (D-state) tasks with the kernel function they wait in, the NVMe block counters and a trimmed `nvme smart-log` (5 s limit). A snapshot takes about 3.6 s (2 s of it the `turbostat` sample, 1.2 s the second `top` sample).
   - At start it clears the sticky HWP excursion bit (`wrmsr -a 0x777 0`).
 - `~/.local/bin/cpustress.sh`, a load generator: `-n` workers, `-t` seconds, `-c` CPU list.
 - Manual notes can be added to the TSV as lines starting with `#`.
@@ -92,17 +100,19 @@ Both problems were triggered by Paseo (an Electron app whose GPU process uses `/
 
 1. Do not close anything. Run `sudo ~/.local/bin/cpulog.sh --snapshot`.
 2. Read `limit64F` / `now=[...]` (names the limiter), `rapl=` (MMIO PL1 below 28 W means a lowered limit), `hwpst`, `gtThrottle`, and how fast `pkgThrottleCount` climbs.
+3. For a freeze or stall, read the last samples before it: `psi_io=` / `psi_mem=` totals jumping, `nvme=` with `inflight` above 0 while the counters stand still, and `mem=` dirty pages growing without writeback. After a forced power-off, `unsafe_shutdowns` in the NVMe log should rise from 46 to 47.
 
 ## Open next steps
 
-- [ ] Add memory, swap and pressure-stall readings (`/proc/pressure/{memory,io,cpu}`) to `cpulog` samples, to test whether resuming a large transcript causes a memory or disk stall. At the time of the freeze nothing recorded memory use. Note also that the file indexer `localsearch-3` was among the top CPU users in the minutes before (it indexes `node_modules` trees under the project directories).
+- [x] Add memory, swap and pressure-stall readings and NVMe counters to `cpulog` (done 2026-10-29). Note also that the file indexer `localsearch-3` was among the top CPU users in the minutes before the freeze (it indexes `node_modules` trees under the project directories).
 - [ ] When problem A recurs: after the snapshot, log out and back in (no reboot) and see whether the clock and fan recover. Then try closing only Paseo's processes.
 - [ ] Add iGPU power and residency columns to the `cpulog` snapshot's `turbostat` call (GPU frequency, GPU power, GPU sleep-state residency, package sleep states), to see whether the iGPU is consuming the package power budget during an episode.
-- [ ] Make evidence survive a freeze: `sync` after each `cpulog` sample, and set journald `SyncIntervalSec` to about 5 s (default 5 min).
+- [x] Flush the `cpulog` log to disk after every sample (done 2026-10-29).
+- [ ] Set journald `SyncIntervalSec` to about 5 s (default 5 min), so the system journal keeps more of the last seconds before a freeze.
 - [ ] Add a count of `xe ... ERROR` lines to each `cpulog` sample.
 - [ ] A/B test the GPU driver for about a week: boot with `i915` instead of `xe` (reverse the two `force_probe` options) and see if freezes stop. Not yet checked that `i915` works on kernel 7.0.
 - [ ] Check for a newer kernel or `linux-firmware`.
-- [ ] NVMe health: install `nvme-cli` (or `smartmontools`) and read the SMART log.
+- [x] NVMe health: `nvme-cli` installed and the SMART log read (clean, see Baseline).
 - [ ] Look at the three isolated low-clock samples (Oct 24 04:39, Oct 25 06:47, Oct 28 13:33) and Oct 23 at 16:26 to see what was running.
 
 ## Related problem, resolved
@@ -120,3 +130,4 @@ Antigravity (v2.19.1 and v2.24.0) failed to show its window on 2026-10-19. The c
 | 2026-10-24..28 | No sustained throttle; more Xe TLB timeouts |
 | 2026-10-29 | A brief 1-2 s pointer stall a few minutes earlier; then a full system freeze, roughly 30 s or more after the prompt was sent to Paseo's resumed agent (after 2-3 tool calls, a message and 1-2 more tool calls). The last ext4 commit was at 14:27:49-54. Forced power-off. pstore empty; `nvme-cli` missing |
 | 2026-10-29 | Transcript NUL tail truncated (backup kept). 16:04 replay of the same session and prompt: no freeze, light load, different agent answer |
+| 2026-10-29 | NVMe SMART log clean (`unsafe_shutdowns` 46). `cpulog` extended with memory, pressure-stall and NVMe counters, per-sample flush and new snapshot sections |
