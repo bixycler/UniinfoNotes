@@ -1,6 +1,6 @@
 # Ubuntu on Acer Aspire Go 15 AI (AG15-52P-52WT): CPU stuck at 400 MHz, and a full system freeze
 
-Status: **open**. Last updated 2026-10-29.
+Status: **open**. Last updated 2026-10-30.
 
 ## Environment
 
@@ -87,8 +87,8 @@ Both problems were triggered by Paseo (an Electron app whose GPU process uses `/
 
 ## Tooling set up for this investigation
 
-- `~/.local/bin/cpulog.sh`, run as the root service `cpulog.service`. It samples every 30 s into `~/tmp/cpulog/cpulog-YYYYmmdd.tsv`. It writes `snapshot-*.txt` when the average clock is under 900 MHz with load above 0.3. Manual snapshot: `sudo ~/.local/bin/cpulog.sh --snapshot`.
-  - Logs clocks, temperatures, the decoded MSRs (`0x64F`, `0x19C`, `0x1B1`, `0x774`, `0x777`, `0x1FC`), the iGPU throttle reasons, both RAPL limit views, throttle counters, and the top processes.
+- `~/.local/bin/cpulog.sh`, run as the root service `cpulog.service`. It samples every 30 s into `~/tmp/cpulog/cpulog-YYYYmmdd.tsv`. It writes `snapshot-*.txt` when the average clock is under 900 MHz while the CPUs were at least 25 % busy over the interval (`BUSY_MIN`), in two consecutive samples (`LOW_RUNS`). Manual snapshot: `sudo ~/.local/bin/cpulog.sh --snapshot`.
+  - Logs clocks, the busy share of CPU time over the interval (`busy=`), temperatures, the decoded MSRs (`0x64F`, `0x19C`, `0x1B1`, `0x774`, `0x777`, `0x1FC`), the iGPU throttle reasons, both RAPL limit views, throttle counters, and the top processes.
   - Also logs memory (`mem=`: available, swap used, dirty, writeback), pressure-stall readings (`psi_mem=`, `psi_io=`, `psi_cpu=`: avg10 some/full plus the running total in microseconds) and NVMe block counters (`nvme=`: reads, writes, requests in flight, busy ms; no command is sent to the drive).
   - The log is flushed to disk after every sample and snapshot (`SYNC_EACH=1`, default; `SYNC_EACH=0` turns it off), so a freeze loses at most the sample being written.
   - `xeErrors=` is the number of `xe ... *ERROR*` kernel lines logged this boot, read from the journal (0.04 s even over a week-long boot). A jump between two samples dates an error to within 30 s.
@@ -110,6 +110,10 @@ Both problems were triggered by Paseo (an Electron app whose GPU process uses `/
      done
   ```
 - The damaged session transcript was repaired by truncating the trailing NUL bytes at byte 23282489. The original, with the NULs, is kept next to it as `a2cc753f-....jsonl.bak` and can be deleted once it is no longer needed.
+
+## False alarm, 2026-10-30 11:40
+
+`snapshot-20261030-114019.txt` was taken for an idle machine: the four `/proc/cpuinfo` clocks were 599-686 MHz, but `turbostat` over the next 2 s showed 2.5 % busy at a 3.3 GHz busy clock, 47 °C, no limiter beyond a momentary `PL2`, iGPU asleep, no pressure stall. The old trigger (instantaneous average clock under 900 MHz and 1-minute load above 0.3) fired because an idle CPU parks at 400-600 MHz and `load1` still carried a brief spike (0.02 to 0.39 in one minute). That rule matched 14299 low-clock samples in the logs, only 34 of them with load above 0.3 and 26 above 1. The genuine 2026-10-22 episode had the clock at 399-400 MHz in every sample for several minutes while `load1` rose from 1.4 to 8.
 
 ## What to do when problem A recurs
 
@@ -147,3 +151,4 @@ Antigravity (v2.19.1 and v2.24.0) failed to show its window on 2026-10-19. The c
 | 2026-10-29 | Transcript NUL tail truncated (backup kept). 16:04 replay of the same session and prompt: no freeze, light load, different agent answer |
 | 2026-10-29 | NVMe SMART log clean (`unsafe_shutdowns` 46). `cpulog` extended with memory, pressure-stall and NVMe counters, per-sample flush and new snapshot sections |
 | 2026-10-29 | `cpulog` gained the `xeErrors=` field and iGPU columns in the snapshot; journald flush interval set to 5 s |
+| 2026-10-30 | `snapshot-20261030-114019.txt` was a false alarm (see below). The snapshot trigger now needs real CPU load, not just a low instantaneous clock; new `busy=` field |
