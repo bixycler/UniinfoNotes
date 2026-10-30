@@ -1,0 +1,110 @@
+- ## Daily Log 2026
+	- October
+		- **2026-10-28**: The day went mostly to design work on the AI Twin Brain, where he worked out why Cognee's graph retrieval adds little over plain vector RAG, followed by a new OpenAI-compatible API. Before that, in the early afternoon, he spent about two hours testing Claude Desktop, Claude Code on the web and Remote Control between the CLI and the desktop app. Late at night he set up a Paseo watcher session on a second account to nudge agents after quota hits. The AI Twin Brain design work was by far the biggest block at roughly 6 h, then the Remote Control tests at about 2 h and the Paseo/quota-watcher setup at about 1.5 h.
+			- **Analysis**: Recorded activity ran from 13:34 to 01:47 (next day), with a gap of about 1 h 20 min between 23:03 and 00:24 and nothing recorded before 13:34.
+				- 1. AI Twin Brain design (Cognee vs vector RAG, graph retrieval spike, session memory, contextual query), 15:49-22:00 (~6.2 h, 58% of recorded time)
+				- 2. Claude Desktop / Remote Control testing (install, sessions, CLI vs desktop), 13:34-15:40 (~2.1 h, 20%)
+				- 3. Paseo session monitoring and quota-watcher script (~1.5 h, 14%)
+				- Trend: not enough days yet (needs at least 3)
+			- **Summary**: The day began with installing Claude Desktop on Ubuntu and testing Claude sessions, in particular Remote Control. The long middle block was a design conversation about the AI Twin Brain's use of Cognee. It ended with the Cognee prototype judged to be pure vector RAG, an OpenAI-compatible API specified and built, and a Paseo-based quota watcher.
+				- Remote Control testing: he compared the CLI and the desktop app and found that switching between them is exclusive, so the same session can't be viewed from both. He hit "Remote Control disconnected" (code 4090) and "not started here" messages, and noticed the desktop app gives the session an additional tool set. He also searched "what's Claude dispatch?" repeatedly and opened GitHub issue #60356 on the remote-control default toggle.
+				- Cognee spike: he worked through the difference between chunk search, graph (triplet) search and sentence-based matching, and noted that the extraction loses the "because" and "then" links between entities. He concluded the prototype is effectively pure vector RAG, so Cognee is overkill. Its main value was confirming that a flat graph of facts doesn't help, which supports Aperas's graph of structured blocks, where each block is already a natural chunk. Two ideas were marked for later Aperas design: dumping chunk nodes straight from graph search results, and back-traversal from entities via `contains` edges.
+				- Ingestion vision: he wants an LLM to turn an unstructured corpus into a structured, provenance-tracked corpus, with the graph as a mechanical extraction from it. He said this matches Neo4j Agent Memory better than Cognee, and he raised Cognee's lack of deletion.
+				- Session memory: he questioned `completeTrace` and `cognee.rememberEntry`, and found that the query passed to Cognee was a pass-through of the last turn ("garbage in, garbage out"). He approved a proposal for a contextual query, and said he is waiting for the implementation and a test comparison against the old query. The answer should be included in remembered entries, and feedback is just a special kind of user turn.
+				- OpenAI-compatible API: after a commit at 22:07 he asked for an OpenAI-compatible API with streaming. He decided that `graphId:sessionId` comes from the `user` field and that the dev server may serve the LAN without auth. In the evening he asked how to update `ufw` for LAN clients, health-checked the server and asked for a `curl` command to test chat/completions. He also asked for the Playbook port to be elaborated and for `listPlaybooks()` to be added.
+				- Paseo and quota handling: from `~/opt` he checked a running session on Paseo (a2cc753f-…), then intercepted and inspected Paseo sessions (`paseo ls`, `paseo inspect <id>`). Paseo and Claude CLI are on different accounts (Max 5x vs Pro), so quota limits rarely hit at the same time. He had a script written in `~/.local/bin` and added to autostart to nudge stalled sessions. He also moved a session that had been started in the wrong folder.
+			- **Details**
+			  collapsed:: true
+				- 08:00-13:34 no recorded activity
+				- 13:34 SEARCH: playbook là gì
+				- 13:35-13:37 Claude web: new chat, downloads page, Download Claude
+				- 13:37 SEARCH: install claude desktop ubuntu
+				- 13:40-13:41 Claude login via Google auth
+				- 13:44 Read Claude Code Docs: Remote Control
+				- 13:54 Claude OAuth authorize / sign-in successful (localhost callback)
+				- 13:57 Claude new chat
+				- 14:04-14:07 Claude Code on the web: onboarding, sessions list, session_01ESTJBG95…
+				- 14:08-14:11 Sign in again via Google auth
+				- 14:09 Claude (~/source/Aperas): "What can i do here?", Aperas skills loaded
+				- 14:14 Asked how a separate remote-control session in Aperas differs from other sessions' remote-control option
+				- 14:18-14:19 Session test "Hi!" (Aperas skills loaded)
+				- 14:24 Asked whether the session has remote control
+				- 14:30 Another "Hi!" session test
+				- 14:32-14:55 Switching between Claude Code web sessions (…FbhjCusCjc71n, …HnNxsvhgFAbNoC2nM, …G95…) and sessions list
+				- 14:33 Asked "What is 'claude profile'?"
+				- 14:36 "Hi from CLI!", 14:38 "CLI session test", 14:45 "Are you still there?"
+				- 14:48-14:56 SEARCH: what's Claude dispatch? (repeated at 14:52, 14:56)
+				- 14:51 Told Claude there was no real work, just testing sessions
+				- 14:57-15:11 Testing Remote Control: tricky between CLI and desktop; hit code 4090 disconnect and "not started here" messages; renamed session; found CLI/desktop switch is exclusive
+				- 15:12 Noticed the desktop app gives an additional tool set
+				- 15:21 Claude Code web session …HnNxsvhgFAbNoC2nM
+				- 15:27 New session test "Hi, just a test of Claude session."
+				- 15:32-15:33 SEARCH: what's Claude dispatch?; GitHub issue #60356 (enable remote control by default toggle does not apply to new Claude Code sessions)
+				- 15:35 Session: "config"
+				- 15:40 Claude new chat
+				- 15:49-15:51 AI Twin Brain session: check whether subagents were interrupted by quota hit; stop calling findSimilarTraces; is graph-unboundness in findSimilarTraces; tutor answer restricted to material
+				- 15:52 SEARCH: resumable
+				- 15:54 SEARCH: what's Claude dispatch?
+				- 16:11-16:19 Subagent hand-backs; asked what cognee-graph.html means in the workflow if only vector completion is used
+				- 16:30 Fees redirect wording, enforcing clarification in code, graph-retrieval spike performance (graph completion vs pure vector)
+				- 16:40 Subagent hand-back
+				- 17:01 Decided on plain fees redirect; argued graph supports abstract reasoning; asked whether graph search for context only is what Cognee does
+				- 17:06 SEARCH: why is a performance test called "spike"?
+				- 17:21-17:29 Subagent hand-backs
+				- 17:30 Summarised options (a) RAG, (b) vector search on graph via triplet sentences, (c) coherent answer generation; judged (c) redundant
+				- 17:31 Claude new chat
+				- 17:41 Asked about difference between (b) and (d) (triplets not converted to sentences)
+				- 17:47-17:53 Subagent hand-backs
+				- 18:00 AI Twin Brain | Aperas on localhost:48946
+				- 18:08 Concluded (b) matches by graph parts, (d) by sentence; a > b > c is a linear progression, (d) unavailable now
+				- 18:35 Discussed ingestion edge density (loses "because"/"then"); asked about combined (a+b) search time
+				- 19:02-19:09 Asked about using the graph to pick chunks and about following `contains` edges backwards
+				- 19:13 Decided to record chunk-node dump and back-traversal ideas for later Aperas design
+				- 19:18 Subagent hand-back
+				- 19:21 Asked where those ideas were recorded
+				- 19:27 Concluded the Cognee prototype is pure vector RAG and Cognee is overkill
+				- 19:45 Cognee's value is the spike result; Aperas is a graph of structured blocks that are natural chunks
+				- 19:51 Asked about chunking algorithms in vector RAG and natural chunks like Aperas blocks
+				- 20:00 Described ingestion vision (LLM builds a structured corpus, graph is mechanical extraction); Neo4j Agent Memory matches better
+				- 20:11 Provenance as core Aperas principle (blocks pointing to source spans)
+				- 20:16-20:22 Subagent hand-backs
+				- 20:18 DeepSeek Platform: usage page
+				- 20:27 Cognee deletion handling; posted analysis in Cognee's "Deep discussion" room; decisions
+				- 20:29 Asked for a one-line commit message
+				- 20:30 Subagent hand-back
+				- 20:31 Session memory: asked whether Cognee's session is used
+				- 20:42 Asked for concrete examples, where `completeTrace` stores, Cognee's Q&A history, and how the query to Cognee is constructed
+				- 20:55 Asked what `cognee.rememberEntry` does and when it is recalled; pass-through query gives garbage in garbage out; wants debug view of Cognee output
+				- 21:07-21:14 Questioned whether `traces` read `ai-twin-index.json`; answers should be included in remembered entries; approved proposal
+				- 21:18 Asked who gives feedback
+				- 21:21 Feedback is a special kind of user turn; waiting for contextual-query implementation and test vs garbage query
+				- 21:33-21:41 Subagent hand-backs
+				- 21:45 Asked for the time comparison
+				- 21:54 SEARCH: intermittent
+				- 21:55 Session continued from summary after context ran out
+				- 22:03 Claude OAuth authorize
+				- 22:07 Committed; asked for an OpenAI-compatible API including streaming
+				- 22:21-22:27 Decided: graphId and sessionId from `user` field as `graphId:sessionId`; dev server serves LAN without auth; streaming approved; "Let's go."
+				- 22:30 Heading home; use the night-shift rule from the skill
+				- 22:32 Subagent hand-back
+				- 22:36 New session in ~/opt: "Hi!"
+				- 22:37 Subagent hand-back (Brain session)
+				- 22:38 Asked to check the status of running Paseo session a2cc753f-… (not visible in the Claude app)
+				- 22:42 Background agent task notification (stopped); remarked on "Stuck Things" and that the task was finishing soon
+				- 22:45-22:48 Playbook port: elaborate; add `listPlaybooks()` to the port
+				- 22:50 Subagent hand-back
+				- 22:56 Asked how to update `ufw` to serve LAN clients; subagent hand-back
+				- 23:02 Health check OK; asked for a `curl` command for chat/completions
+				- 23:03-00:24 no recorded activity
+				- 00:24 Session in ~/opt: "Continue"
+				- 00:28 Remarked the night shift finished before he got home; asked whether that exchange was visible
+				- 00:48 Confirmed it worked
+				- 00:51-00:54 Asked whether Claude can intercept a running Paseo session; noted it helps when a session hangs for hours (the 15m rule)
+				- 00:57 Tried detection: `paseo ls` and `paseo inspect <id>`
+				- 01:11-01:23 Quota-limit problem across Paseo and Claude CLI accounts (Max 5x vs Pro); checked usage visible there
+				- 01:27 Asked for a script in ~/.local/bin added to autostart
+				- 01:36-01:37 Session had been started in the wrong folder (should be ~/opt); asked for the current folder and moved it
+				- 01:43 Remarked the script plus separate-account session is very useful for stalled night shifts
+				- 01:45 SEARCH: claude pro vs max
+				- 01:45 Read New Scientist: AI refutes 30-year-old mathematical assumption in computer science
+				- 01:47 ifconfig.co (What is my IP address?)
