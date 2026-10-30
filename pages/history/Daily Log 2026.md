@@ -1,5 +1,72 @@
 - ## Daily Log 2026
 	- October
+		- **2026-10-29**: The day was split between a Google AI billing and credits investigation, a freeze of the Acer laptop, and design work on the AI Twin Brain. He spent the early afternoon on Google AI Studio and Cloud billing pages and on what happens to AI credits if he cancels Google AI Pro. After the system hung around 14:30, he spent about two hours on a freeze report in his notes. From 17:00 on the AI Twin Brain design (adding Gemini and Vertex AI, then the "Planned Next Architecture") took the most time, and the Google One cancellation research ran alongside it from 20:32 to 23:04. The day ended with some reading after midnight.
+			- **Analysis**: Recorded activity ran from 13:09 to 00:57 (next day). Nothing was recorded from 08:00 to 13:09 or from 23:25 to 00:42 (about 1 h 15 min). The evening Google research and the AI Twin Brain sessions overlapped, with agents working while he browsed, so the split between them is approximate.
+				- 1. AI Twin Brain design (Gemini and Vertex AI clients, standard API, thinking and tools, cones, Planned Next Architecture), 17:02-23:25 (~4.5 h, 43% of recorded time)
+				- 2. Google billing / credits / Google One cancellation research, 13:09-14:01 and 20:32-23:04 (~3.4 h, 32%)
+				- 3. Acer freeze diagnosis and report writing, 14:46-16:58 (~2.2 h, 21%)
+				- Trend: not enough days yet (needs at least 3)
+			- **Summary**: The day started with questions about Google AI billing: whether AI development credits survive cancelling a Google AI Pro subscription. The system hang around 14:30 turned the afternoon into a diagnosis and a written report in UniinfoNotes. In the evening the AI Twin Brain design moved from adding Gemini suppliers to a broader refactor of its loop and next architecture, while the Google credit question stayed unresolved.
+				- Google credits: he repeated the search "When i cancel Google Pro submission, will my accumulated AI dev tokens still be available?" many times from 13:10 to 22:15. He went through AI Studio billing, Google Cloud billing credits and transactions, Google One membership and credit history, and the Google Developer Program benefits. In the evening he also opened Vertex AI Agent console pages, quotas and monitoring. Around 22:46 he opened a new Google One Community thread, "AI credits on Google One vs AI credits on Google Cloud". No result is recorded, and the question seems still open.
+				- Freeze: the whole system hung for minutes before 14:30 and he force-shut it down. He had the agent check the logs and write a report, `Ubuntu-Acer-CPU-throttle-and-system-freeze.md`, under the Acer Aspire Go 15 "issues on Ubuntu" folder. He found NUL bytes in `cpulog-20261029.tsv` and in the Paseo session transcript, and truncated them. He then ran `turbostat` snapshots and `nvme smart-log` (36 °C, 0% used), and tried replaying the freezing prompt, but the agent responded differently. He kept four open next steps: one for himself, and three for the agent (iGPU power and residency columns, evidence capture, and `xe ... ERROR` logging).
+				- AI Twin Brain: he added the Gemini Developer API (AI Studio) and Google Agent Platform (Vertex AI) as suppliers. He insisted on the standard `generateContent` API, because OpenAI-compatible APIs tend to drop thoughts, and chose `gemini-embedding-2`. Model names are required settings with no defaults. He questioned what tools and thoughts mean in the design, since he had spent a lot of time designing both. He decided that mid-flight user turns should be queued and flagged in the trace with an arrival time, not resent. He worked through whether the face should hold one stream open, and through the cone as separate storage next to Cognee.
+				- Decisions: in the end only the Gemini suppliers were added, with the Cognee contract and ViewConePort left as they were, and ViewConePort to be designed with the "Planned Next Architecture". The agent's subagent setting was changed from "inherit" to Sonnet, and the old memo about it dropped. At 23:25 he asked to refine the design with the Planned Next Architecture.
+				- Notes: Logseq auto-saves touched `Workspace.md`, `Story.md`, the Acer reports and, late, `Mind Jungle.md`.
+			- **Details**
+			  collapsed:: true
+				- 08:00-13:09 no recorded activity
+				- 13:09-13:11 Google searches: "claude pro vs max", "what's Claude dispatch?", "When i cancel Google Pro submission, will my accumulated AI dev tokens still be available?"; opened Google AI Studio billing, Google Developer Program benefits, Gemini API billing docs
+				- 13:25-13:50 Google billing pages: AI Studio billing, payments.google.com prepaid credits, Cloud console billing account (management, transactions, budgets & caps, prepaid transactions, credits); repeated the cancel-Pro credits search at 13:44, 13:49 and 13:55
+				- 13:57 Logseq auto-save: `pages/Workspace.md`
+				- 13:58 Cloud console Credits page
+				- 13:59-14:01 Google Drive: folders "id", "Private", "recordings", "tax", and the "2FA recovery codes" doc; then Cloud IAM service account key page
+				- 14:07 Logseq auto-save: `pages/Workspace.md`
+				- 14:09-14:10 Cloudflare dashboard and Cloudflare Status; ifconfig.co (IP check)
+				- 14:13 "2FA recovery codes" doc again
+				- 14:22 Search: "http port 3000"
+				- 14:38 Burst of revisited pages: Claude download, Drive Private folder, AI Studio billing, "http port 3000" and credits searches, ifconfig.co
+				- before 14:30 The whole system hung for minutes (pointer frozen, Ctrl-Alt-F{1..7} unresponsive); he force-shut it down
+				- 14:46-16:58 Freeze investigation in `~/opt`:
+					- 14:46 Asked the agent to check the logs
+					- 14:51 Read CachyOS forum thread "Small freezes after updating to the new kernel 6.19.2-2 … Ultra 5 235 (Xe driver)"
+					- 15:08 Moved `Ubuntu-Acer-keyboard-touchpad-problem.txt` into the Acer "issues on Ubuntu" folder; edited `Story.md` and `Workspace.md`
+					- 15:11 Ran `sudo ls -l /sys/fs/pstore`; `nvme` command not found; asked for a report under the Acer notes folder
+					- 15:18 Created `Ubuntu-Acer-CPU-throttle-and-system-freeze.md` and edited `Story.md`
+					- 15:26 Added that the fan spins again right after log-out, and a 1-2 s pointer stall earlier
+					- 15:35 Plan: try re-login instead of reboot next time; found NUL bytes in `cpulog-20261029.tsv` and in the Paseo transcript
+					- 15:40 Search: "tái hiện bug trong tiếng anh"
+					- 15:43-15:52 Asked about replaying the prompt and removing the NUL bytes first, then for truncation and `turbostat` commands; results: transcript 5845 lines OK with no NUL bytes, `turbostat` at 4.18% busy and 3438 MHz
+					- 15:54 Judged the freeze not reproducible, wanted only a glimpse of what the agent did
+					- 15:58 Noted all columns stopping at the same instant, which would be a freeze
+					- 15:59-16:05 Restarted Paseo, opened the target session and entered the exact prompt that caused the freeze; the agent responded differently
+					- 16:12 Described the hanging turn (2-3 tool calls, a remark about keeping the key out of all documents, 1-2 more tool calls, then the freeze); Search: "froze"
+					- 16:19 `sudo nvme smart-log /dev/nvme0`: 36 °C, 100% spare, 0% used
+					- 16:24 Noted the snapshot took 1-2 s to record this time
+					- 16:27 Asked the agent to update the report
+					- 16:28-16:58 Further edits to the report file (auto-saves at 16:28, 16:48, 16:58)
+					- 16:31-16:36 Went through the open next steps (2: iGPU power and residency columns in the cpulog `turbostat` call; 3: evidence capture; 4: `xe ... ERROR`); agreed that 1 is his and 2-4 are the agent's
+					- 16:46 Asked about the sync after doing his two points
+					- 16:49-16:54 Compacted the session, checked that all info is in the reports, and continued working from the report
+				- 16:04 In the Brain project: asked to add the Gemini Developer API (AI Studio) and Google Agent Platform (Vertex AI) and gave the key locations
+				- 17:02-17:55 AI Twin Brain design: Google clients use the standard API (not OpenAI-compatible); needs `generateContent` for thinking; each graph has a fixed embedding model; Vertex auth mechanism; the name `exit-check` was unclear; embedding model `gemini-embedding-2`; model names are required settings with no defaults; asked what tools and thoughts mean in the design; subagent hand-backs at 17:17 and 17:31; opened Gemini API reference (17:04), the cloud-platform OAuth scope (17:20) and the AI Twin Brain web UI (17:46)
+				- 18:08-19:05 Explained that the tool/thought design is in his head, since agents in Aperas projects call tools all the time; session continued after compaction (18:14); at 18:56 said to focus on discussion, the 10-step loop must be refactored; Search: "mustn't"
+				- 19:17-20:14 Design discussion: AI Twin Brain UI (19:17); push channel vs polling, the face follows the brain, the OpenAI-compatible API is only a convenience layer (19:27); Search: "coalesce" (19:47); cones as storage separate from Cognee (19:52); queue mid-flight user turns, flag them and record arrival time (20:04); questioned holding one stream open (20:14)
+				- 20:18-20:29 Asked to update the graph and the Google clients (string contract C), with Sonnet for subagents; loaded the aperas and aperas-orchestrator skills (20:19); resumed work in `~/source/Aperas` (20:23); changed subagent setting from "inherit" to Sonnet (20:25), then dropped the memo about it (20:29)
+				- 20:32-20:56 Google One: membership settings, Play billing page, Developer Program benefits and FAQ, plans, manage-membership, help article "Cancel your Google One membership"; searches "how to cancel google one pro subscription" (20:34-20:52) and "forfeit" (20:41); opened AperasKG UI (20:46); read community threads on downgrade after cancelling AI Pro and "Question on AI Credits", and Google One Terms of Service
+				- 21:01-21:17 More Google research: Gemini Apps Community thread on quota tier, Credit History (21:09), Google Cloud Free Trial FAQs; repeated the credits search
+				- 21:23-21:47 Google consoles: AI Studio billing, spend and usage; Cloud credits, reports, transactions; Gemini API metrics; Vertex AI Agent APIs, credentials, service account, quotas; Monitoring dashboards; Agent Platform studio and model monitoring; credits again at 21:47
+				- 21:48 Logseq auto-save: `pages/Mind Jungle.md`
+				- 21:49-21:57 Searches: "hit past tense", "canceling or cancelling", and the credits question (Google AI Mode result shared at 21:57)
+				- 21:58-23:08 Logseq auto-saves of `pages/Story.md` (every 10 minutes except 22:48)
+				- 22:01-22:26 Google One Help articles "Manage your AI credits", "Use Google AI Pro benefits", "Purchase Google AI credits"; Antigravity support; Credit History; AI Studio billing; Google payments timeline; Cloud billing overview and transactions; AI Twin Brain UI (22:17)
+				- 22:20 Asked whether the design had been updated, what "Cognee contract stage trim" is, and what the earlier four items were
+				- 22:35-22:59 Searched "how to cancel google one pro subscription" and "forfeit"; Cloud credits; Google One Help search; Photos thread on cancelling; Google One benefits; Google One Community; opened a new thread "AI credits on Google One vs AI credits on Google Cloud" (22:46) and thread 475261999 (22:52)
+				- 22:59-23:04 Google One settings and manage-membership, Gemini, Google Account, Cloud credits, AI Studio logs and usage
+				- 23:15 Answered the earlier questions: the earlier four fade away, the Cognee contract stays as is, ViewConePort to be designed with the "Planned Next Architecture"; only the Gemini suppliers added
+				- 23:21 Subagent hand-back received
+				- 23:25 Asked to refine the design with the "Planned Next Architecture"; skills reloaded
+				- 23:25-00:42 no recorded activity
+				- 00:42-00:57 Reading: ifconfig.co; MarkTechPost article on LEANN vector index (60M-chunk RAG index from 201 GB to 6 GB); R&D World article "Software factories: AI agents write code, people ship it" (Claude Code bills of $252 a month per developer); phys.org article on Chornobyl dog genetics
 		- **2026-10-28**: The day went mostly to design work on the AI Twin Brain, where he worked out why Cognee's graph retrieval adds little over plain vector RAG, followed by a new OpenAI-compatible API. Before that, in the early afternoon, he spent about two hours testing Claude Desktop, Claude Code on the web and Remote Control between the CLI and the desktop app. Late at night he set up a Paseo watcher session on a second account to nudge agents after quota hits. The AI Twin Brain design work was by far the biggest block at roughly 6 h, then the Remote Control tests at about 2 h and the Paseo/quota-watcher setup at about 1.5 h.
 			- **Analysis**: Recorded activity ran from 13:34 to 01:47 (next day), with a gap of about 1 h 20 min between 23:03 and 00:24 and nothing recorded before 13:34.
 				- 1. AI Twin Brain design (Cognee vs vector RAG, graph retrieval spike, session memory, contextual query), 15:49-22:00 (~6.2 h, 58% of recorded time)
