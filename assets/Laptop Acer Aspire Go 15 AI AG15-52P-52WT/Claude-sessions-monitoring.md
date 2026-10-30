@@ -30,7 +30,7 @@ Paseo is installed in `~/opt/Paseo`. Its daemon listens on `127.0.0.1:6767`, and
 | Send a message (changes state) | `paseo send <id> "<text>" [--no-wait]` |
 | Quota windows and reset times | `paseo usage ls`, `paseo usage inspect <report-id>` (`--refresh` bypasses the cache) |
 
-A hang shows as `Status: running` with an `UpdatedAt` that stops advancing, so detection needs `inspect`, because `ls` does not show `UpdatedAt`. `paseo usage inspect` reports the five-hour session window and the weekly windows with their reset times, for the CLI account only. The desktop app's own quota is visible only through its `/usage` command.
+A hang shows as `Status: running` with an `UpdatedAt` that stops advancing, so detection needs `inspect`, because `ls` does not show `UpdatedAt`. `paseo usage inspect` reports the five-hour session window and the weekly windows with their reset times, for the CLI account only. The desktop app's quota is covered under [Desktop app session (Pro)](#desktop-app-session-pro).
 
 ### Quota nudge watcher
 
@@ -44,6 +44,19 @@ A hang shows as `Status: running` with an `UpdatedAt` that stops advancing, so d
 - **State and log:** `~/.local/state/paseo-quota-nudge/` holds `log`, `nudged` (live) and `nudged.dry` (dry-run). A lock file keeps one instance running.
 - **Autostart:** `~/.config/autostart/paseo-quota-nudge.desktop`, with a 20 s delay.
 - **Limits:** it covers Paseo agents only and has no allow-list, so any agent meeting the conditions can be nudged once live. The Pro desktop session cannot be polled.
+
+### Desktop app session (Pro)
+
+The Claude desktop app (Code tab) runs on the Pro login, separate from the Paseo agents' Max 5x quota. Its tools are slash commands you run yourself in the session; they cannot be polled from outside.
+
+| Goal | Command |
+|---|---|
+| Session and weekly quota, with reset times | `/usage` |
+| How full the conversation is | `/context` |
+
+- **Recovery for Paseo agents:** a desktop session can step in from outside with `paseo logs <id>` and `paseo send <id> "<text>"`. Its Pro quota is independent of the agents' Max 5x quota, so a stalled agent does not stall the session that rescues it.
+- **Gap:** nothing watches the desktop session itself. If it stalls on its own limit, you resume it by hand after the reset shown by `/usage`.
+- **Working directory:** a general-purpose session belongs in `~/opt`, not in an Aperas-managed project folder. A session started in the wrong folder can be moved from inside the session.
 
 ## Status (2026-10-30)
 
