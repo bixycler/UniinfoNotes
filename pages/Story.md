@@ -3401,9 +3401,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Screenshots
 						- ![Antigravity different views of quotas](../assets/GUI/Antigravity/Antigravity different views of quotas - Screenshot From 2026-10-23 19-04-54 19-05-05.png)
 			- 24th, after a week+, the migration of Aperas to the pure JS ApeironNgn just completed successfully. The AI Twin Brain, assigned by my boss, is being designed. Both are from the [last Thursday](((6ad753eb-0412-44a0-b749-157fbc58368f))).
-			- 29th,
+			- 29th, [switched from Google AI Pro to Claude Pro](((6ae35d42-d985-4a34-b192-02ae7710e425))).
 			  collapsed:: true
 				- I switched to Claude Pro ($20/mo), but cancelling Google AI Pro ($20/mo via Google One) is tricky.
+				  id:: 6ae35d42-d985-4a34-b192-02ae7710e425
 					- Google One: all AI credits (given and top-ups) will be wiped out at the end of the month (billing cycle).
 						- [Q&A](https://support.google.com/googleone/thread/413563307/question-on-ai-credits?hl=en):
 						  > If your Google One subscription is cancelled, any unused AI credits will be forfeited.
@@ -3415,11 +3416,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Today, my laptop hit [a complete freeze](((6ae3001a-a610-40f5-9f6d-ba3efd7cd81a))).
 			- 30th,
 				- Google AI Studio: ((6ae4581c-38b2-4391-b666-90022035c5ac))
+				  collapsed:: true
 					- Google Cloud Billing confirms that the coupon covers both.
 					  ![GoogleCloudBilling 2026-10-30.png](../assets/Will/story/2026-10/GoogleCloudBilling 2026-10-30.png)
 					- AI Studio Billings shows that my top-up of 150kđ stays intact.
 					  ![GoogleAIStudioBilling 2026-10-30.png](../assets/Will/story/2026-10/GoogleAIStudioBilling 2026-10-30.png){:height 407, :width 637}
-						- The “Prepayment for Google Cloud” item is obcure:
+						- The “Prepayment for Google Cloud” item is obcure: This is Google moving my money out of the top-up bucket and *allocating* it into usable Google Cloud prepaid core balance.
+						- The actual spending and its saving from the coupon are not shown here. The're shown in a separate pane “Billing Account Cost for Gemini API”.
+						  ![GoogleAIStudioSaving 2026-10-30.png](../assets/Will/story/2026-10/GoogleAIStudioSaving 2026-10-30.png){:height 214, :width 591}
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6abd18dd-8ba5-4962-939c-722ea6341aaa))
