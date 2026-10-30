@@ -218,7 +218,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- ~~Linked to **Google One AI**~~ with [Developer Program > Benefits](https://me.developers.google.com/benefits)
 							  (Moved to ((6a54c798-becc-4879-80f9-bb35731f4e44)) from April 2026)
 								- For \$20/month of Google (One) AI Pro, get *\$10 monthly Gen AI & Cloud credits* for API.
-								- Finally they've fixed the system (checked in Oct).
+								- Finally they've fixed the billing system (checked in Oct).
 								  id:: 6ae4581c-38b2-4391-b666-90022035c5ac
 									- Dev Program coupons get back to cover AI Studio API, together with Vertex AI, and
 									- AI Studio has been made to be prepaid, not to make user lose money accidentally due to their 24h-delay in cost display.
