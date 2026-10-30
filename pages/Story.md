@@ -3415,7 +3415,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Today, my laptop hit [a complete freeze](((6ae3001a-a610-40f5-9f6d-ba3efd7cd81a))).
 			- 30th,
 				- Google AI Studio: ((6ae4581c-38b2-4391-b666-90022035c5ac))
-					-
+					- Google Cloud Billing confirms that the coupon covers both.
+					  ![GoogleCloudBilling 2026-10-30.png](../assets/Will/story/2026-10/GoogleCloudBilling 2026-10-30.png)
+					- AI Studio Billings shows that my top-up of 150kđ stays intact.
+					  ![GoogleAIStudioBilling 2026-10-30.png](../assets/Will/story/2026-10/GoogleAIStudioBilling 2026-10-30.png){:height 407, :width 637}
+						- The “Prepayment for Google Cloud” item is obcure:
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6abd18dd-8ba5-4962-939c-722ea6341aaa))
