@@ -505,7 +505,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- However, che desktop app seems to hardcode its config dir to `~/.claude`.
 				- Claude Code Remote Control
 				  id:: 6ae6300b-4242-446a-985a-38520eefd004
-					- CLI `claude rc` (or `claude remote-control`) launch a headless
+					- CLI `claude rc` (or `claude remote-control`) launch a headless session for the remote to use.
+					- Command `/rc` (or `/remote-control`) toggle the remote control of the current session.
+					- Each folder is remote controlled exclusively by either CLI or desktop app.
+					- Issue: Each restart of the app makes all old sessions' remote control off.
+						- The `remoteControlAtStartup` setting only turns remote control on for the newly opened sessions.
+						- ⇒ Solution: For persistent remote control, a session must be **initialized by the remote**, not by the local.
 			- Gemini Notebook
 			  id:: 67a5faeb-c506-42b8-b989-9a7179fe02b3
 			  collapsed:: true
