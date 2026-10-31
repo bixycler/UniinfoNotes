@@ -3414,7 +3414,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- AI credits on Google One are [used for](https://support.google.com/googleone/answer/14534406) Antigravity, Gemini app (including Gemini notebook), etc. So, it's clearly separate from Google Cloud credits.
 					- So, i post a [question to Google One Help](https://support.google.com/googleone/thread/475261999) and choose the safe procedure: just down grade to Lite plan with 20kđ/mo; if the question is answered that the AI credits in Google Cloud are not affect then cancel Google One.
 				- Today, my laptop hit [a complete freeze](((6ae3001a-a610-40f5-9f6d-ba3efd7cd81a))).
-			- 30th, set up [automatic daily logging system](((6ae606e9-44c6-413b-ac80-21e4ce857919))), remote control from home
+			- 30th, set up [automatic daily logging system](((6ae606e9-44c6-413b-ac80-21e4ce857919))), remote control from home to monitor coding agents in office, and refactored the workflow of AI Twin Brain from a single loop of single agent to MAS which implements the vision i saw last night.
 			  collapsed:: true
 				- The automatic daily logging system has been set up after years of trials and errors.
 				  id:: 6ae606e9-44c6-413b-ac80-21e4ce857919
