@@ -1,5 +1,82 @@
 - ## Daily Log 2026
 	- October
+		- **2026-10-30**: The day was split between a Google AI Studio and Cloud billing check, design work on the AI Twin Brain, remote supervision of Claude and Aperas agents through the night, and the first build of his own daily-log system. After a billing and monitoring session in the early afternoon, he set up a Claude session-monitoring note. From 16:31 he moved Brain development to a separate dev worktree and spent about five hours on the "Planned Next Architecture". From 21:34 he supervised agents remotely from home until about 04:10, then spent the early morning designing and deploying the daily log. Compared with the previous days, AI Twin Brain design fell from first place to second, and agent supervision became the largest block.
+			- **Analysis**: Recorded activity ran from 13:56 to 07:58 (next day). Nothing was recorded from 08:00 to 13:56 (about 6 h), and there were no other long gaps. The overnight supervision overlapped with news reading, DeepSeek checks and searches, so the split between activities is approximate.
+				- 1. Claude/Aperas agent supervision and session monitoring (14:11-15:16 and 21:34-04:11, ~7.7 h, 43% of recorded time)
+				- 2. AI Twin Brain design ("Planned Next Architecture", viewcone as state, dev worktree), 16:31-21:30 (~5 h, 28%)
+				- 3. Daily-log design and deployment, 04:11-07:28 (~3.3 h, 18%)
+				- Trend: AI Twin Brain design was first on 10-28 (~6.2 h, 58%) and 10-29 (~4.5 h, 43%) and fell to ~5 h (28%) today. Agent supervision rose from a minor block (Paseo monitoring ~1.5 h, 14% on 10-28) to the largest, because the overnight pass was run from the monitoring session. Google billing research shrank from ~3.4 h (32%) on 10-29 to about 1 h (~6%). Daily-log design is a new activity, and Remote Control and session monitoring continue the theme of 10-28.
+			- **Summary**: The day began, as far as it is recorded, with Google AI Studio and Cloud billing and monitoring pages, then turned to monitoring Claude sessions and wrote a note about them. The main design work was the AI Twin Brain, where the "Planned Next Architecture" was refined until he approved a rewrite of `design/architecture.md` and a refactor. That refactor was then run by agents overnight while he supervised from home. Late at night the focus shifted to building the daily-log system itself.
+				- Billing: at 13:59-14:08 he looked at Google Cloud billing credits, Vertex AI Model Garden monitoring and AI Studio usage and billing. From 15:18 to 16:10 he searched "This bill is absurd. Can you decipher it?" several times, went through AI Studio spend, billing and usage and the Cloud billing report, and saved three screenshots into his Story assets (`GoogleAIStudioBilling`, `GoogleCloudBilling`, `GoogleAIStudioSaving`). No conclusion is recorded.
+				- Session monitoring: from `~/opt` he had an agent write a note on the tools and status of a Claude session, which he renamed to `Claude-sessions-monitoring.md` in the Acer Aspire Go 15 folder. An early snapshot was judged a false alarm, and he had the monitoring script updated to reduce such alarms. He decided that this session is for monitoring only, mostly from remote, and that the artifacts in that folder are shared between sessions. A Paseo session still showed `~/opt/Antigravity`, which turned out to be a path in his own prompt, not the thread's location.
+				- Brain dev worktree: at 16:31 he decided that dev work moves to `~/opt/projects/AI-Twin-Brain.dev`, so the main worktree stays stable to serve the face. He had the environment checked for dev and docs.
+				- Planned Next Architecture: he defined the OpenAI-compatible shim as polling and the dedicated API as push. The interface agent works as a simple orchestrator and always gives a quick response. Phase 1 uses a minimal protocol with no interruption. The session trace has to cover parallel and async threads because the design became a multi-agent system. He questioned whether LangGraph is needed and found it is function-based rather than interaction-based; Aperas stays a single-threaded service. He asked whether the vector-search result could fork into the interface agent and the reasoning agents instead of being duplicated. He then asked what it takes to make the planned architecture the current one, and asked the agent to give its own take first, because he had approved the hexagon port designs without deep understanding.
+				- Viewcone as state: he said the session object is the state of the state machine, that a state is a viewcone whose tree can hold history, inbox, trace, plan and working nodes, and that the crucial difference from linear contexts is the fold. Unfolded branches would be worse than linear context. He accepted the open details, approved the rewrite of `design/architecture.md` and had it written for clarity.
+				- Overnight supervision: at 21:49 he sent the Brain agent a "going home, 15-minute rule" message. At 21:56 the monitoring session found the old Aperas service orphaned and spinning at about 100% CPU, and he told the agent to wait 15 minutes only after checking the service. He had the two service hangs filed in `docs/artifacts/issues/aperas-cli.md` of the Brain project, not in the upstream Aperas repos. He checked quota and asked whether the model could be switched. He decided Fable is only for design and planning, with Sonnet for execution. Around midnight he answered the viewcone commit questions (the reasoning agent edits its draft, synced at the end of the run). At 00:24 he had a new Sonnet high-effort Auto session started in the old Paseo workspace for the refactor (S1-3 done). Later questions covered the store structure and the `subtree?` field, and he told the agent to proceed and add a note to redesign the node shape later. He also committed once himself while the agent was told not to launch the Coder. The monitoring session was kept alive through the night with "Check it" prompts, and quota estimates were made with the pace of his last prompt.
+				- Typo aside: at 02:21-02:27 he found that his double "and" came from his Android Gboard, and asked for corrected versions of his prompts.
+				- Daily log design: at 04:11 he asked whether the agent could see his Chrome history, and at 04:20 described a daily activity log built from Claude prompts, Chrome history and UniinfoNotes commits, with off-device activity logged manually. Decisions: committed with the agent's signature, rolled over at 8am, a tree with one subtree per day, split per year per file and per month, "Details" folded, and a fixed Chrome history copy at `~/tmp/Chrome-history`. He wanted "he" instead of "they", with the analysis kept inside `**Summary**:`, applied one of the fixes and deployed it. He asked how the timer and `enable-linger` work and concluded lingering is unnecessary. He saved the manual logging prompt as the `activity-log` skill in `~/source/.claude`. His first manual line (Bath at 07:13) was logged at 07:18.
+				- Reading and side activities: news and science pieces were read at 00:14-00:18, 01:53-02:35, 04:09 and 07:53 (altermagnetism, Google data-center satellite, psychedelic nasal spray, Sam Altman on DRAM). At 03:56-04:06 he checked DeepSeek (platform usage, profile, chat), apparently from his phone.
+			- **Details**
+			  collapsed:: true
+				- 08:00-13:56 no recorded activity
+				- 13:56 Checked his IP on ifconfig.co
+				- 13:59-14:04 Google Cloud console: Billing credits, Vertex AI Model Garden monitoring dashboard, Monitoring overview, application monitoring and dashboards; AI Studio usage; searched "forfeit"; opened a new Claude chat
+				- 14:07-14:08 AI Studio billing and Google payments timeline
+				- 14:11-14:19 Claude Code on the web: session list, two sessions, Skills, Artifacts, Remote Control docs
+				- 14:28-15:13 Claude session in `~/opt`: wrote a tools and status note for the session in the Acer Aspire Go 15 folder; renamed it to `Claude-sessions-monitoring.md` (14:38 commit, 14:48 rename); checked the snapshot, judged one alert a false alarm and had the script updated; restarted the service; clarified the Paseo `~/opt/Antigravity` display; added a `/usage` section; added a memo at 15:13
+				- 14:32-15:16 Claude Code web sessions revisited several times (sessions `…VxNxMvCXPFQrFK55`, `…G95ritjyWgDjPWkAL`, `…DRB9jSZiYDwQUvYSE`)
+				- 14:58 Notes: `Ubuntu-Acer-CPU-throttle-and-system-freeze.md` modified
+				- 15:08 Notes: `Claude-sessions-monitoring.md` modified
+				- 15:18-15:20 Searches: "tái hiện bug trong tiếng anh", "absurd", "This bill is absurd. Can you decipher it?"
+				- 15:26-15:49 AI Studio spend, billing and usage, Google payments timeline, Google Cloud billing report; repeated the search "This bill is absurd. Can you decipher it?" (15:27, 15:29, 15:38)
+				- 15:48 Notes: `Mind Jungle.md` and `Story.md` modified
+				- 15:57 Search: "obcure"
+				- 15:58-16:18 Notes: three Google AI Studio and Cloud billing screenshots added to `assets/Will/story/2026-10/`; `Story.md` and `Mind Jungle.md` modified
+				- 16:08-16:10 AI Studio usage and Vertex AI Model Garden monitoring
+				- 16:31-16:52 Brain: dev work moved to `~/opt/projects/AI-Twin-Brain.dev`; checked the dev environment for dev and docs; loaded the aperas and aperas-orchestrator skills; project to artifacts (16:41); searches "Coalesce" (16:38) and "git merge using theirs" (16:44); opened the AI Twin Brain page (16:48)
+				- 17:24 Search: "moot"
+				- 17:37-18:41 Refined the design with the "Planned Next Architecture": polling shim vs push API, interface agent as orchestrator, phase 1 without interruption, turn and trace for a MAS, LangGraph question, fork of the vector-search result
+				- 18:44-18:54 Subagent hand-backs from the design pass (five)
+				- 19:00-19:10 LangGraph is function-based, not interaction-based; Aperas is a single-threaded service; corrected Dashboard and Freeflow wording; `concepts.md` removed in favour of a separate concept graph
+				- 19:13-19:20 Search: "how to update the last commit message without adding indexed content?" (twice)
+				- 19:25 AI Twin Brain page
+				- 19:33 Session continued after the context ran out
+				- 19:38-19:49 Asked what is needed to turn the Planned Next Architecture into the current one; asked the agent for its own take first
+				- 19:51-20:23 Searches: "a take on", "ephemeral", "plumbing"
+				- 20:34-21:30 Session object as state and viewcone with fold; three open details; accepted all; asked about the disposition table; approved the rewrite of `design/architecture.md` (20:53 AI Twin Brain page)
+				- 21:31-21:39 Claude Code web sessions checked; AI Twin Brain page (21:35)
+				- 21:34-21:58 Monitoring session: checked running sessions and the Fable session; sent the "going home" 15-minute-rule message at 21:49; at 21:56 found the orphaned service; told the agent to wait 15 minutes only after checking the service
+				- 22:00 Checked his IP on ifconfig.co
+				- 22:43-23:39 Monitoring: checked the agent, its quota and the time estimate; asked whether its model can be switched; Fable only for design and planning; asked it to file the 2 service hangs in the Brain project's `docs/artifacts/issues/aperas-cli.md`; asked for its message verbatim
+				- 23:52-00:11 Elaborated the viewcone commit questions; asked about the command that launches a new agent; answered with the Option 2 decision
+				- 00:14-00:18 Read news: PC Gamer (Sam Altman and DRAM), MedicalXpress (psychedelic nasal spray), Forbes (European Wildlife Photographer of the Year), TechCrunch (Google data-center satellite), phys.org (altermagnetism)
+				- 00:24-00:35 Started a new Sonnet high-effort Auto session for the refactor; discussed `paseo run agent` vs a new workspace; started the session in the old workspace
+				- 00:38-00:57 Loose-ends message; asked whether it is ready to implement; told it to start; at 00:56 he was committing and told it not to launch the Coder
+				- 00:59-01:03 Agent to poll on the grapher and commit; he committed and resumed
+				- 01:08 Search: "What are current antidepressants made of?"
+				- 01:15-01:47 S4 loop; asked what is in the store (structure, root, node id) and what the `subtree?` field means
+				- 01:53-01:54 Reread TechCrunch on the Google satellite; read about Starship launches needed for space data centers
+				- 01:53-02:17 Asked for concrete examples; agreed with the recommendation; told it to proceed with implementation and add a note to redesign the node shape later
+				- 02:21-02:27 Gboard typo (double "and") discussed; corrected versions of two prompts
+				- 02:32-02:45 Session continued after context ran out; checked the session; estimated quota; Fable for orchestrator only, subagents on Sonnet
+				- 02:35 phys.org: electrical signals in altermagnets
+				- 02:25-04:43 Subagent hand-backs from the S4 pass (about a dozen)
+				- 03:54 Checked the session
+				- 03:57-04:09 DeepSeek (via phone sync): platform usage, Google sign-in, profile, chat; reread the phys.org altermagnet article
+				- 04:11-04:57 Daily-log design: asked about seeing Chrome history; described the three places (Claude, Chrome, UniinfoNotes) and manual off-device logging; asked how the history was copied; decisions on committing, 8am rollover, tree layout, year and month split, "Details" folded
+				- 05:17-05:39 Fresh-session litter question; history subfolder; no block ids; Chrome history at `~/tmp/Chrome-history`; fixed the "Daily Log" file name
+				- 05:29 Search: "review vs reflection"
+				- 05:57-06:14 Use of "he" for him; analysis kept in the summary; showed the last day without details; applied the third fix and deployed
+				- 06:24-06:43 Timer, `enable-linger` and commit questions; manual logging syntax; let the agent commit
+				- 06:54-06:57 Claude web: new chat and Claude Code
+				- 07:01-07:11 Saved the logging prompt as the `activity-log` skill in `~/source/.claude`; fixed typos; loaded the skill
+				- 07:12 Search: "caught-up in"
+				- 07:13 Bath: so late, due to his being caught up in the remote Claude sessions
+				- 07:17-07:28 Discussed the noun "caught-up", fixed it and made "session" plural; the raw log file `2026-10-30.md` was created at 07:18 and edited at 07:28
+				- 07:20-07:25 Said the first line was logged; checked the Claude session; session continued after context ran out
+				- 07:23 DeepSeek platform usage
+				- 07:53 phys.org altermagnet article again
+				- 07:58 Opened Pornhub
 		- **2026-10-29**: The day was split between a Google AI billing and credits investigation, a freeze of the Acer laptop, and design work on the AI Twin Brain. He spent the early afternoon on Google AI Studio and Cloud billing pages and on what happens to AI credits if he cancels Google AI Pro. After the system hung around 14:30, he spent about two hours on a freeze report in his notes. From 17:00 on the AI Twin Brain design (adding Gemini and Vertex AI, then the "Planned Next Architecture") took the most time, and the Google One cancellation research ran alongside it from 20:32 to 23:04. The day ended with some reading after midnight.
 			- **Analysis**: Recorded activity ran from 13:09 to 00:57 (next day). Nothing was recorded from 08:00 to 13:09 or from 23:25 to 00:42 (about 1 h 15 min). The evening Google research and the AI Twin Brain sessions overlapped, with agents working while he browsed, so the split between them is approximate.
 				- 1. AI Twin Brain design (Gemini and Vertex AI clients, standard API, thinking and tools, cones, Planned Next Architecture), 17:02-23:25 (~4.5 h, 43% of recorded time)
