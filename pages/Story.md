@@ -3416,7 +3416,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Today, my laptop hit [a complete freeze](((6ae3001a-a610-40f5-9f6d-ba3efd7cd81a))).
 			- 30th, set up [automatic daily logging system](((6ae606e9-44c6-413b-ac80-21e4ce857919))), remote control from home to monitor coding agents in office, and refactored the workflow of AI Twin Brain from a single loop of single agent to MAS which implements the vision i saw last night.
 			  collapsed:: true
-				- The automatic daily logging system has been set up after years of trials and errors.
+				- The [automatic daily logging system](((6ae60ec8-88be-4e6c-876c-ed391a6e3d4a))) has been set up after years of trials and errors.
 				  id:: 6ae606e9-44c6-413b-ac80-21e4ce857919
 					- I need a mirror to reflect on myself, so i write diary in the youth, and then journal like this, but they are subjective and time consuming.
 					- I've dreamt of an iBuddy to follow an record my activities thoughout the day from a decade ago, but only since the LLMs emerged has it become realistic.
