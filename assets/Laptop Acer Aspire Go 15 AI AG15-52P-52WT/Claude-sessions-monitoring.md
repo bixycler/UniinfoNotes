@@ -43,7 +43,7 @@ A hang shows as `Status: running` with an `UpdatedAt` that stops advancing, so d
 - **Mode:** dry-run unless the file `~/.config/paseo-quota-nudge/live` exists. `touch` it to go live and `rm` it to return to dry-run, with no restart. In dry-run it only logs what it would send.
 - **State and log:** `~/.local/state/paseo-quota-nudge/` holds `log`, `nudged` (live) and `nudged.dry` (dry-run). A lock file keeps one instance running.
 - **Autostart:** `~/.config/autostart/paseo-quota-nudge.desktop`, with a 20 s delay.
-- **Limits:** it covers Paseo agents only and has no allow-list, so any agent meeting the conditions can be nudged once live. The Pro desktop session cannot be polled.
+- **Limits:** it covers Paseo agents only. It has no allow-list, and none is planned (decided 2026-11-01): any idle or errored agent meeting the conditions is nudged once live, including one stopped on purpose. The Pro desktop session cannot be polled.
 
 ### Desktop app session (Pro)
 
@@ -58,15 +58,18 @@ The Claude desktop app (Code tab) runs on the Pro login, separate from the Paseo
 - **Gap:** nothing watches the desktop session itself. If it stalls on its own limit, you resume it by hand after the reset shown by `/usage`.
 - **Working directory:** a general-purpose session belongs in `~/opt`, not in an Aperas-managed project folder. A session started in the wrong folder can be moved from inside the session.
 
-## Status (2026-10-30)
+## Status (2026-11-01)
 
-- **Watcher:** running (autostart brought it up after the 2026-10-29 reboot; last start 14:37 on 10-29), in **dry-run** mode. The live flag is not set.
-- **Log:** only `started` lines so far, so the watcher has never seen a stalled agent.
+- **Watcher:** running (autostart brought it up after the reboot at 00:17 on 2026-11-01; last start 00:18), in **dry-run** mode. The live flag is not set.
+- **Paseo daemon:** not running. The reboot did not bring it back, and it stays off until it is started by hand. While it is down every watcher pass skips silently, because `paseo ls` and `paseo logs` fail, and the passes resume once it is back.
+- **Log:** only `started` lines so far (2026-10-29 twice, 2026-11-01 once), so the watcher has never seen a stalled agent and has never logged a would-nudge.
 - **Tested:** reset-time parsing for `12:40am`, `5:10pm` and `Oct 29, 5:19am`, plus the dry-run and live paths against a stub `paseo` binary. Not tested against a real stalled agent.
 - **Assumption to confirm:** the watcher assumes the limit message shows up in `paseo logs --tail 3`. If an agent stays stalled after its reset, check the log first, then how Paseo words the message.
 - **Quota snapshot (2026-10-28):** the CLI account was at 7% of its five-hour window and 9% weekly (weekly reset 2026-11-03). The desktop account was at 2% session and 13% weekly (weekly reset 2026-11-04).
 
 ## Open to-dos
 
-- Watch for the first real quota stall and confirm detection; then enable `live`.
-- Decide whether to add an allow-list of agent IDs before going live.
+- Wait for the first real quota stall while in dry-run. Before enabling `live`, check that:
+  - the log shows a `DRY-RUN would nudge` line for that agent;
+  - its reset time matches the time in the agent's limit message;
+  - `paseo-quota-nudge.sh --once` runs without errors against the current Paseo version.
