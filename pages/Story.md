@@ -3434,7 +3434,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- The “Prepayment for Google Cloud” item is obcure: This is Google moving my money out of the top-up bucket and *allocating* it into usable Google Cloud prepaid core balance.
 						- The actual spending and its saving from the coupon are not shown here. The're shown in a separate pane “Billing Account Cost for Gemini API”.
 						  ![GoogleAIStudioSaving 2026-10-30.png](../assets/Will/story/2026-10/GoogleAIStudioSaving 2026-10-30.png){:height 214, :width 591}
-			- 31st, recovery sleep and ((6ae6300b-4242-446a-985a-38520eefd004))...
+			- 31st, recovery sleep and document ((6ae6300b-4242-446a-985a-38520eefd004))...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6abd18dd-8ba5-4962-939c-722ea6341aaa))

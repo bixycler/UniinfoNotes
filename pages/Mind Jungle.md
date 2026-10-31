@@ -500,9 +500,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Claude
 			  collapsed:: true
 			  The (coding) agent from Anthropic
+				- Separate account with separate `CLAUDE_CONFIG_DIR`
+					- With env.var. `CLAUDE_CONFIG_DIR=$HOME/.claude_sep`, the CLI can run in an environment separate from `~/.claude`: account, settings, projects, skills, etc.
+					- However, che desktop app seems to hardcode its config dir to `~/.claude`.
 				- Claude Code Remote Control
 				  id:: 6ae6300b-4242-446a-985a-38520eefd004
-					-
+					- CLI `claude rc` (or `claude remote-control`) launch a headless
 			- Gemini Notebook
 			  id:: 67a5faeb-c506-42b8-b989-9a7179fe02b3
 			  collapsed:: true
