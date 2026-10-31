@@ -497,6 +497,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  CLOCK: [2025-11-24 Mon 14:42:55]
 		  :END:
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/AI_agent
+			- Claude
+			  collapsed:: true
+			  The (coding) agent from Anthropic
+				- Claude Code Remote Control
+				  id:: 6ae6300b-4242-446a-985a-38520eefd004
+					-
 			- Gemini Notebook
 			  id:: 67a5faeb-c506-42b8-b989-9a7179fe02b3
 			  collapsed:: true
@@ -515,7 +521,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Antigravity
 			  id:: 6926be21-727e-4568-a990-29ed81452fb0
 			  collapsed:: true
-			  The agent-based IDE from Google
+			  The (coding) agent from Google
 				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Google_Antigravity
 				- Note: Breaking change from v1.23.2 (IDE + agent) → v2+: “Antigravity” has no IDE! The IDE is seprated into “Antigravity IDE”.
 				- Config

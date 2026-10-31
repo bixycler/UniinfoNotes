@@ -3422,7 +3422,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- I've dreamt of an iBuddy to follow an record my activities thoughout the day from a decade ago, but only since the LLMs emerged has it become realistic.
 					- I've tried schedualed task on Gemini app, but it was useless due to its lack of connection to my activities: i asked it to sumarize my activities on Google Search, GMail, and Gemini, but i just kept hallucinating. I've retried 2 other times after some update of the app, but still doesn't work.
 					- From the first day [migrating to Claude](((6ae35d42-d985-4a34-b192-02ae7710e425))), i also asked its schedualed task and Cowork but still the same uselessness as that of Gemini. The key is the connectivity which all cloud-based agents lack.
-					- Then with the success of remote control on Claude Code, i realized that a **local agent + remote control** is the answer 😊, not an agent on cloud! And the [first try](((6ae60ec8-88be-4e6c-876c-ed391a6e3d4a))) gives a satisfactory result.
+					- Then with the success of remote control on Claude Code, i realized that a **local agent + remote control** ([rc](((6ae6300b-4242-446a-985a-38520eefd004)))) is the answer 😊, not an agent on cloud! And the [first try](((6ae60ec8-88be-4e6c-876c-ed391a6e3d4a))) gives a satisfactory result.
 						- The local agent has the full access to the machine which stores traces of most of my activities ([vibe] coding, UniinfoNotes, web browsing, etc.). And the sync feature of Chrome also helps connecting browsing activities across devices.
 						- The remote control helps logging off-device activities from anywhere.
 				- Google AI Studio: ((6ae4581c-38b2-4391-b666-90022035c5ac))
@@ -3434,6 +3434,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- The “Prepayment for Google Cloud” item is obcure: This is Google moving my money out of the top-up bucket and *allocating* it into usable Google Cloud prepaid core balance.
 						- The actual spending and its saving from the coupon are not shown here. The're shown in a separate pane “Billing Account Cost for Gemini API”.
 						  ![GoogleAIStudioSaving 2026-10-30.png](../assets/Will/story/2026-10/GoogleAIStudioSaving 2026-10-30.png){:height 214, :width 591}
+			- 31st, recovery sleep and ((6ae6300b-4242-446a-985a-38520eefd004))...
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6abd18dd-8ba5-4962-939c-722ea6341aaa))
