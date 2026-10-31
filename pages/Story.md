@@ -3415,9 +3415,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- So, i post a [question to Google One Help](https://support.google.com/googleone/thread/475261999) and choose the safe procedure: just down grade to Lite plan with 20kđ/mo; if the question is answered that the AI credits in Google Cloud are not affect then cancel Google One.
 				- Today, my laptop hit [a complete freeze](((6ae3001a-a610-40f5-9f6d-ba3efd7cd81a))).
 			- 30th,
+			  collapsed:: true
 				- The automatic daily logging system has been set up after years of trials and errors.
 					- I need a mirror to reflect on myself, so i write diary in the youth, and then journal like this, but they are subjective and time consuming.
-					- I've dreamt of an iBuddy to follow an record my activities thoughout the day from a decade ago, but only when the LLMs emerged
+					- I've dreamt of an iBuddy to follow an record my activities thoughout the day from a decade ago, but only since the LLMs emerged has it become realistic.
+					- I've tried schedualed task on Gemini app, but it was useless due to its lack of connection to my activities: i asked it to sumarize my activities on Google Search, GMail, and Gemini, but i just kept hallucinating. I've retried 2 other times after some update of the app, but still doesn't work.
+					- From the first day [migrating to Claude](((6ae35d42-d985-4a34-b192-02ae7710e425))), i also asked its schedualed task and Cowork but still the same uselessness as that of Gemini. The key is the connectivity which all cloud-based agents lack.
+					- Then with the success of remote control on Claude Code,
 				- Google AI Studio: ((6ae4581c-38b2-4391-b666-90022035c5ac))
 				  collapsed:: true
 					- Google Cloud Billing confirms that the coupon covers both.
