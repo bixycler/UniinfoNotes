@@ -80,6 +80,7 @@
 				- 07:53 phys.org altermagnet article again
 				- 07:58 Opened Pornhub
 		- **2026-10-29**: The day was split between a Google AI billing and credits investigation, a freeze of the Acer laptop, and design work on the AI Twin Brain. He spent the early afternoon on Google AI Studio and Cloud billing pages and on what happens to AI credits if he cancels Google AI Pro. After the system hung around 14:30, he spent about two hours on a freeze report in his notes. From 17:00 on the AI Twin Brain design (adding Gemini and Vertex AI, then the "Planned Next Architecture") took the most time, and the Google One cancellation research ran alongside it from 20:32 to 23:04. The day ended with some reading after midnight.
+		  collapsed:: true
 			- **Analysis**: Recorded activity ran from 13:09 to 00:57 (next day). Nothing was recorded from 08:00 to 13:09 or from 23:25 to 00:42 (about 1 h 15 min). The evening Google research and the AI Twin Brain sessions overlapped, with agents working while he browsed, so the split between them is approximate.
 				- 1. AI Twin Brain design (Gemini and Vertex AI clients, standard API, thinking and tools, cones, Planned Next Architecture), 17:02-23:25 (~4.5 h, 43% of recorded time)
 				- 2. Google billing / credits / Google One cancellation research, 13:09-14:01 and 20:32-23:04 (~3.4 h, 32%)
@@ -147,6 +148,7 @@
 				- 23:25-00:42 no recorded activity
 				- 00:42-00:57 Reading: ifconfig.co; MarkTechPost article on LEANN vector index (60M-chunk RAG index from 201 GB to 6 GB); R&D World article "Software factories: AI agents write code, people ship it" (Claude Code bills of $252 a month per developer); phys.org article on Chornobyl dog genetics
 		- **2026-10-28**: The day went mostly to design work on the AI Twin Brain, where he worked out why Cognee's graph retrieval adds little over plain vector RAG, followed by a new OpenAI-compatible API. Before that, in the early afternoon, he spent about two hours testing Claude Desktop, Claude Code on the web and Remote Control between the CLI and the desktop app. Late at night he set up a Paseo watcher session on a second account to nudge agents after quota hits. The AI Twin Brain design work was by far the biggest block at roughly 6 h, then the Remote Control tests at about 2 h and the Paseo/quota-watcher setup at about 1.5 h.
+		  collapsed:: true
 			- **Analysis**: Recorded activity ran from 13:34 to 01:47 (next day), with a gap of about 1 h 20 min between 23:03 and 00:24 and nothing recorded before 13:34.
 				- 1. AI Twin Brain design (Cognee vs vector RAG, graph retrieval spike, session memory, contextual query), 15:49-22:00 (~6.2 h, 58% of recorded time)
 				- 2. Claude Desktop / Remote Control testing (install, sessions, CLI vs desktop), 13:34-15:40 (~2.1 h, 20%)
