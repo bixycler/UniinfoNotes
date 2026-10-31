@@ -1,6 +1,7 @@
-- ## Daily Log 2026
+## Daily Log 2026
 	- October
 		- **2026-10-30**: The day was split between a Google AI Studio and Cloud billing check, design work on the AI Twin Brain, remote supervision of Claude and Aperas agents through the night, and the first build of his own daily-log system. After a billing and monitoring session in the early afternoon, he set up a Claude session-monitoring note. From 16:31 he moved Brain development to a separate dev worktree and spent about five hours on the "Planned Next Architecture". From 21:34 he supervised agents remotely from home until about 04:10, then spent the early morning designing and deploying the daily log. Compared with the previous days, AI Twin Brain design fell from first place to second, and agent supervision became the largest block.
+		  collapsed:: true
 			- **Analysis**: Recorded activity ran from 13:56 to 07:58 (next day). Nothing was recorded from 08:00 to 13:56 (about 6 h), and there were no other long gaps. The overnight supervision overlapped with news reading, DeepSeek checks and searches, so the split between activities is approximate.
 				- 1. Claude/Aperas agent supervision and session monitoring (14:11-15:16 and 21:34-04:11, ~7.7 h, 43% of recorded time)
 				- 2. AI Twin Brain design ("Planned Next Architecture", viewcone as state, dev worktree), 16:31-21:30 (~5 h, 28%)
