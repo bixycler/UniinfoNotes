@@ -3415,6 +3415,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- So, i post a [question to Google One Help](https://support.google.com/googleone/thread/475261999) and choose the safe procedure: just down grade to Lite plan with 20kđ/mo; if the question is answered that the AI credits in Google Cloud are not affect then cancel Google One.
 				- Today, my laptop hit [a complete freeze](((6ae3001a-a610-40f5-9f6d-ba3efd7cd81a))).
 			- 30th,
+				- The automatic daily logging system has been set up after years of trials and errors.
+					- I need a mirror to reflect on myself, so i write diary in the youth, and then journal like this, but they are subjective and time consuming.
+					- I've dreamt of an iBuddy to follow an record my activities thoughout the day from a decade ago, but only when the LLMs emerged
 				- Google AI Studio: ((6ae4581c-38b2-4391-b666-90022035c5ac))
 				  collapsed:: true
 					- Google Cloud Billing confirms that the coupon covers both.
