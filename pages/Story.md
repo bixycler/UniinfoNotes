@@ -3414,14 +3414,17 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- AI credits on Google One are [used for](https://support.google.com/googleone/answer/14534406) Antigravity, Gemini app (including Gemini notebook), etc. So, it's clearly separate from Google Cloud credits.
 					- So, i post a [question to Google One Help](https://support.google.com/googleone/thread/475261999) and choose the safe procedure: just down grade to Lite plan with 20kđ/mo; if the question is answered that the AI credits in Google Cloud are not affect then cancel Google One.
 				- Today, my laptop hit [a complete freeze](((6ae3001a-a610-40f5-9f6d-ba3efd7cd81a))).
-			- 30th,
+			- 30th, set up [automatic daily logging system](((6ae606e9-44c6-413b-ac80-21e4ce857919))), remote control from home
 			  collapsed:: true
 				- The automatic daily logging system has been set up after years of trials and errors.
+				  id:: 6ae606e9-44c6-413b-ac80-21e4ce857919
 					- I need a mirror to reflect on myself, so i write diary in the youth, and then journal like this, but they are subjective and time consuming.
 					- I've dreamt of an iBuddy to follow an record my activities thoughout the day from a decade ago, but only since the LLMs emerged has it become realistic.
 					- I've tried schedualed task on Gemini app, but it was useless due to its lack of connection to my activities: i asked it to sumarize my activities on Google Search, GMail, and Gemini, but i just kept hallucinating. I've retried 2 other times after some update of the app, but still doesn't work.
 					- From the first day [migrating to Claude](((6ae35d42-d985-4a34-b192-02ae7710e425))), i also asked its schedualed task and Cowork but still the same uselessness as that of Gemini. The key is the connectivity which all cloud-based agents lack.
-					- Then with the success of remote control on Claude Code,
+					- Then with the success of remote control on Claude Code, i realized that a **local agent + remote control** is the answer 😊, not an agent on cloud!
+						- The local agent has the full access to the machine which stores traces of most of my activities ([vibe] coding, UniinfoNotes, web browsing, etc.). And the sync feature of Chrome also helps connecting browsing activities across devices.
+						- The remote control helps logging off-device activities from anywhere.
 				- Google AI Studio: ((6ae4581c-38b2-4391-b666-90022035c5ac))
 				  collapsed:: true
 					- Google Cloud Billing confirms that the coupon covers both.
