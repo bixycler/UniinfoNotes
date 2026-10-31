@@ -511,6 +511,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Issue: Each restart of the app makes all old sessions' remote control off.
 						- The `remoteControlAtStartup` setting only turns remote control on for the newly opened sessions.
 						- ⇒ Solution: For persistent remote control, a session must be **initialized by the remote**, not by the local.
+							- For the remote to init a session, the local app must create coressponding environment with `Settings` > `Code` > `Remote Control` > `Folders` > `Add folder`.
 			- Gemini Notebook
 			  id:: 67a5faeb-c506-42b8-b989-9a7179fe02b3
 			  collapsed:: true
