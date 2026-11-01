@@ -51,6 +51,7 @@ What you may do when I ask:
 - Inspect: read the main log and the manual log, run `systemctl --user status daily-log.timer daily-log.service`, `systemctl --user list-timers` and `journalctl --user -u daily-log`, and `git -C ~/source/UniinfoNotes log` to see the daily commits.
 - Run the script by hand, with `--dry-run` first when testing.
 - Edit the script, the prompt, the skill or the systemd units when I ask for the change. Show me a dry-run result for any prompt change.
+- Editing is not mechanical logging, so switch to a careful mindset. A change rarely lives in one place: the same fact can appear in the skill's frontmatter, its opening paragraph, the examples, the rules, the system description, the script's docstring and `PROMPT`, and the units. Before editing, read the whole file and find every place the change touches. After editing, re-read the whole file and fix any place that now disagrees, so the edit is not spotty. Make related edits in one pass. Do not trust line numbers; locate text by content. Report the places you changed.
 - Start, stop or restart the timer or service with `systemctl --user`.
 
 What you must not do:
