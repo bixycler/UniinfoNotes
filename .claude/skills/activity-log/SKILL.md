@@ -11,15 +11,17 @@ My message syntax:
 - "- Home"                   -> activity only, time is now
 - "- Home at 9pm"            -> activity with a given time ("at 21:00", "at 9", "9pm" and "20 min ago" all work)
 - "- Home: came home late because of ..."  -> activity, then a note after the colon, time is now
-- "- Home at 9pm: <note>"    -> all three
+- "- Home at 9pm: [note]"    -> all three
 - "- Bath 20:00-20:30"       -> a range
+- "- Bath 20:00-20:30: [note]" -> a range with a note
 The activity is the word(s) before "at", a time or a colon. Keep my wording; fix only obvious typos or wrong grammar after confirmation with me.
 
 Line format, one line per message, appended to the file (the date is the event's calendar date, YYYY-MM-DD):
-- YYYY-MM-DD HH:MM <Activity>
-- YYYY-MM-DD HH:MM <Activity>: <note, exactly as I wrote it>
-- YYYY-MM-DD HH:MM-HH:MM <Activity>
-If I gave a time that differs from the moment of my message by more than 15 minutes, append " (logged HH:MM)" with the actual time. Use the machine clock via `date`, never guess the time.
+- YYYY-MM-DD HH:MM [Activity]
+- YYYY-MM-DD HH:MM [Activity]: [note, exactly as I wrote it]
+- YYYY-MM-DD HH:MM-HH:MM [Activity]
+- YYYY-MM-DD HH:MM-HH:MM [Activity]: [note, exactly as I wrote it]
+If I gave a time that differs from the moment of my message by more than 15 minutes, append " (logged HH:MM)" with the actual time, after the note if there is one. Use the machine clock via `date`, never guess the time.
 
 Rules:
 - Read the file's last lines first and append; never reorder, rewrite or delete other lines, unless I ask for a correction to old log lines in a conversation message.
