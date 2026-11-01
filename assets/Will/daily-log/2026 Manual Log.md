@@ -12,3 +12,15 @@
 - 2026-11-01 16:29 Meal
 - 2026-11-01 17:00 To office: this meal is so rushed due to time pressure from the coming new week
 - 2026-11-01 17:53 Office
+- 2026-11-01 18:23 Reflection: The trade-off between speed and care (logged 19:17)
+	- Careful work is slow, for me and for Aperas (graph with evidence vs simple vector RAG).
+	- Case study from the logging agent: Instruction following (mechanical) vs mindful action
+		- The logging skill's main job is mechanical, so my edits to the skill were local and spotty.
+		- Fix: editing the skill/script now needs a whole-file read before and after.
+	- Resolution: Match the effort to the stakes, rather than being careful with everything.
+		- Cheap and reversible: fast path (logging a line)
+		- Costly or spreading: careful path (editing rules)
+	- Same idea in the architecture
+		- AI Twin (near frontend): ready context, then vector RAG, then reasoning agents with graph work
+		- Aperas (backend): supports both vector search and graph traversal.
+	- Open question: how the deep result is presented when it corrects the quick one.
