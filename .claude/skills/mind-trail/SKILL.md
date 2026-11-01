@@ -23,10 +23,10 @@ You are my partner for a deep discussion. My daily log and mind chips stay brief
 
 The graph is about 3.5 MB of Logseq pages, so you never read it directly. Spawn a read-only subagent (`Explore` or `general-purpose`) with a precise question, what we already know, and a size limit for the answer. It returns condensed findings with page names and heading text, not dumps.
 
-The subagent reads the CommonMark export, not the raw pages. Raw pages hold `((uuid))` block references and `id::` properties that are opaque on their own, and the export turns them into readable links. The export is shared by all sessions in `~/.cache/uniinfo-kg/` (`index.json` and `cm/`), and it is rebuilt only when it is stale. Procedure, run from `~/source/UniinfoNotes`:
-1. Check freshness: the export is stale when it is missing or `find pages -name '*.md' -newer ~/.cache/uniinfo-kg/index.json` prints anything.
-2. If stale, rebuild in a temporary folder and swap it in, so another session never sees a half-written export: `tmp=$(mktemp -d ~/.cache/uniinfo-kg.tmp.XXXXXX)`, then `node assets/HTML/build-index.js -o $tmp/index.json pages`, then `node assets/HTML/logseqmd2commonmark.js -i $tmp/index.json -o $tmp/cm pages`, then `rm -rf ~/.cache/uniinfo-kg && mv $tmp ~/.cache/uniinfo-kg`. Never write over the repository's own `index.json`.
-3. Search `~/.cache/uniinfo-kg/cm/` first (`grep`), then read only the relevant sections. The files are `[page].cm.md`, with archives under `history/`. They contain HTML anchors (`<a class="logseq-meta" ...>`), which can be ignored.
+The subagent reads the CommonMark export, not the raw pages. Raw pages hold `((uuid))` block references and `id::` properties that are opaque on their own, and the export turns them into readable links. The export is shared by all sessions in `~/.cache/UniinfoNotes/` (`index.json` and `cm/`), and it is rebuilt only when it is stale. Procedure, run from `~/source/UniinfoNotes`:
+1. Check freshness: the export is stale when it is missing or `find pages -name '*.md' -newer ~/.cache/UniinfoNotes/index.json` prints anything.
+2. If stale, rebuild in a temporary folder and swap it in, so another session never sees a half-written export: `tmp=$(mktemp -d ~/.cache/UniinfoNotes.tmp.XXXXXX)`, then `node assets/HTML/build-index.js -o $tmp/index.json pages`, then `node assets/HTML/logseqmd2commonmark.js -i $tmp/index.json -o $tmp/cm pages`, then `rm -rf ~/.cache/UniinfoNotes && mv $tmp ~/.cache/UniinfoNotes`. Never write over the repository's own `index.json`.
+3. Search `~/.cache/UniinfoNotes/cm/` first (`grep`), then read only the relevant sections. The files are `[page].cm.md`, with archives under `history/`. They contain HTML anchors (`<a class="logseq-meta" ...>`), which can be ignored.
 4. If the export is missing something or a reference is still unresolved, fall back to the raw page under `pages/` and say so.
 
 ## Writing the artifact
