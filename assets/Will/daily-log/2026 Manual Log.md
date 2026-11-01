@@ -24,3 +24,4 @@
 		- AI Twin (near frontend): ready context, then vector RAG, then reasoning agents with graph work
 		- Aperas (backend): supports both vector search and graph traversal.
 	- Open question: how the deep result is presented when it corrects the quick one.
+- 2026-11-01 21:48-22:03 Meditate: With the help of AI agents, now i can hand longer threads like that of "tâm bất biến" over to ongoing sessions and push my **reset** button. But when closing my eyes, i see it's still lingering there stubbornly. At last, i have put it down to get back to the AI Twin Brain.
