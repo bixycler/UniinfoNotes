@@ -26,3 +26,4 @@
 	- Open question: how the deep result is presented when it corrects the quick one.
 - 2026-11-01 21:48-22:03 Meditate: With the help of AI agents, now i can hand longer threads like that of "tâm bất biến" over to ongoing sessions and push my **reset** button. But when closing my eyes, i see it's still lingering there stubbornly. At last, i have put it down to get back to the AI Twin Brain.
 - 2026-11-01 23:18 To home
+- 2026-11-01 23:57 Home: on the way home i observed the excitement of working with agentic AI like having wings attached, and see that it is dangerous if i cling to it.
