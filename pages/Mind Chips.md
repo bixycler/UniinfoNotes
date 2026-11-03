@@ -74,5 +74,5 @@
 			  collapsed:: true
 				- ![Aperas: Views on different systems](https://docs.google.com/drawings/d/e/2PACX-1vQ5OzoCVxxtYuLpB0gbcy3zEXvKKZiJ-A4zBUP9ju_HSaA7bV_mUBFpFD8wh91CN1PmMhWiKOX_5WEv/pub?w=550){:height 431, :width 548}
 - ---
-- 🤔😊😁 😉 😮 😛 🤪 😜 🤣 🙁 😱 👺 👁️🧿🪬  – × → ← ↓ ⇒ ⇋ ⇄ ∞∝α ‘’ ≈ ≥
+- 🤔😊😁 😉 😮 😛 🤪 😜 🤣 🙁 😱 👺 👁️🧿🪬 👍 – × → ← ↓ ⇒ ⇋ ⇄ ∞∝α ‘’ ≈ ≥
 - Ω-thread Unïnfo —
