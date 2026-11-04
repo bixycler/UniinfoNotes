@@ -1,5 +1,86 @@
 ## 2026 Daily Log
 	- November
+		- **2026-11-03**: A day that began with a wake-up at 12:34, a meal, and the office from 14:16 (arrived 14:58). The office hours went mostly to the AI Twin Brain dev session: how to reach the Cognee graph (Cypher versus the Python package), a self-built HYBRID_COMPLETION, and the plan for a full product test of the i-agent and r-agent flow. A walk at 19:00-19:32 led into about 1.4 h of English-language talk with the log agent (countable and uncountable nouns, "begin" versus "start"). He left the office at 21:53, supervised the Brain agent from home through the `~/opt` session, and slept at 03:38, noting that a little poodle had joined the household that day. Brain supervision (~5 h) was first, far below the 13 h of 11-02, with routine second and the language talk third.
+		  collapsed:: true
+			- **Analysis**: Recorded activity ran from 10:44 (phone ad pages) to 03:47 (next day). Nothing was recorded from 08:00 to 10:44, and from 11:04 to 12:34 only an ad page appeared. After 23:20 there was a gap until 01:30 (about 2.2 h, only the meal and bath lines) and another from 01:48 to 03:38 (about 1.8 h). The Brain agents often ran while he walked, ate or talked about English, so the split is approximate (about 11 h of attributable time).
+				- 1. AI Twin Brain dev supervision (Cognee graph access, HYBRID_COMPLETION, store root per graph, product test design, i-agent prompt and fold tool, remote checks from home), 15:12-18:59, 21:20-21:57 and 22:38-23:20 (~5.1 h, 47% of recorded time)
+				- 2. Routine and manual log (wake-up, meal, commute, walk, home, meal, bath, sleep and the poodle), 12:34-14:58, 19:00-19:32, 21:53-22:38 and the night entries (~3.7 h, 34%)
+				- 3. English-language talk with the log agent (range wording, countable nouns, begin/start, evasive/evade, disrupt/interrupt), 19:33-20:54 (~1.4 h, 13%)
+				- Trend: Brain supervision was ~7.7 h (43%) on 10-30, ~1.8 h (22%) on 10-31, ~3.2 h (36%) on 11-01 and ~13 h (about 74%) on 11-02. Today it fell to ~5.1 h (47%) but stayed first, now about Cognee graph access and hybrid retrieval and the design of a product test, not r11 chain debugging. Routine was ~2.4 h (14%) on 11-02 and is larger today at ~3.7 h. The English-language talk is a new activity. Daily-log work stayed limited to manual lines, and Google billing checks were small (Google One credit history at 15:16 and AI Studio billing and usage at 17:09).
+			- **Summary**: He woke at 12:34, had a meal and reached the office at 14:58. From 15:12 he returned to the Cognee question: how the graph is read, and whether to use Cypher or the Python package. The work grew into a decision to build the hybrid retrieval himself, and into a plan for a full product test of the i-agent and r-agent flow. After a walk he spent a long stretch talking English with the log agent. In the evening he fixed the i-agent's follow-up behaviour, went home, and kept steering the Brain agent from the `~/opt` session. Results of the HYBRID_COMPLETION spike and of the product test are not recorded.
+				- Cognee graph access: at 15:31 he asked how the Cognee graph was traversed, whether Cognee has a graph API in Python or JS, and what search types exist for chunks (CHUNKS, RAG_COMPLETION, TRIPLET_COMPLETION, GRAPH_COMPLETION and others). At 15:46 he asked why Cypher without a dataset scope reads across graphs, since a Cognee dataset should correspond to one of his graphs. At 15:58 he said the Python package is wanted because the graph is updated over time and should not be extracted whole through Cypher each time. At 16:14 he explained that "updated" means by ingestion, that cognify and graph queries should not run concurrently, and that a graph-scope relation plus Cypher traversal is acceptable.
+				- Decisions on Cognee: at 16:18 he chose `belongs_to_set` and `is_part_of` and a second-dataset test. At 16:21-16:28 he said they implement HYBRID_COMPLETION themselves with their own search and traversal workflow, and that only the idea of combining the two is the same. He found `onlyContext` a good try. At 16:42-16:43 he decided Cognee is built to add, not remove, documents, so only ingestion continues, with one Cognee store root per graph. At 17:18 he asked for a one-line commit message and at 17:23 for a service restart. At 17:34-17:54 he asked for the implementation plan for the store root per graph, had the work started, and asked what Slice 2 needs. His answer: steps 1-3 are the agent's, only 4 and 5 need him.
+				- Product test design: at 17:57 he asked whether `onlyContext` in HYBRID_COMPLETION had been tested and whether to use it in the first retrieval. At 18:12 he said the next test should run on the real brain, comparing HYBRID_COMPLETION with `onlyContext` against the spike's 2b and 2c. At 18:18 he agreed it is not planned yet and proposed a separate spike. At 18:21 he asked to queue it, noting that the judge has changed since the old results. At 18:24 he asked for a full flow in the product test (the i-agent's first bridge response, the first integrated response from the first retrieval, and the follow-up after the r-agent). At 18:32 he chose one question per type to test first, gpt-4.1-mini for the i-agent and gpt-5 minimal for the r-agent. At 18:43 he confirmed that the first product test runs the current loop without graph work, with the graph work designed after the HYBRID_COMPLETION spike. At 18:51-18:53 he asked whether the push channel can be tested with `curl` and said he would run it himself in real time after the product test.
+				- Walk and the English talk: the walk at 19:00-19:32 was logged with the note that the working task was still lingering halfway. The wording of the range led to a long talk in the UniinfoNotes session, from 19:33 to 20:54. It covered "since" versus "19:00-now" (he chose to try the latter), his wish for the agent to guess rather than for cold rules, and his remark that since this year, with AI agents, he feels more human and has no smartphone. He mixed up "present" and "presence" and asked the agent to correct him in chat like an English tutor. He wanted to keep a lowercase "i" and short phrases such as "since this year". The talk went on to countable and uncountable nouns (code and codes, habit, "machine" in general, plurals for the general case), the nuance of "begin" and "start" for his slowing fingers, the meaning of "eel-like" and why "evasive" relates to "slippery" ("evade" versus "invade"), and "disrupt" versus "interrupt". At 20:39 he asked to pause the English session so that correcting everything would not weigh down the flow, and at 20:53 he chose "language mode".
+				- Brain agent follow-ups: at 21:20 he asked to update the prompt so the i-agent does not say a follow-up when there is no update, and to move the Vietnamese from code into the playbook. At 21:35 he decided on updating both the fold tool's description and the run prompt, with new sub-turns shown without brackets, to test the language and fold tool first and the silent follow-up second. At 21:40 he asked what Vietnamese is in `acceptance/disclaimer.ts` and at 21:47 agreed to clean it up, and asked why the r11 bridge cost about 4 s against the usual 2 s. At 21:51 he concluded it was probably server jitter.
+				- Remote steering from home: at 22:38 he continued from a compacted summary in the `~/opt` session and used it to check the Brain session. At 22:46-22:48 he noticed the agent was reading the archived session and asked for the current one. At 22:53 he sent: "Let's record this interesting behavior of such a multilingual model. Then go ahead with what you said." A further "Check it" followed at 23:20. In total 18 subagent hand-backs arrived during the day.
+				- Routine and the poodle: wake-up 12:34, meal 13:13, to office 14:16, office 14:58, walk 19:00-19:32, to home 21:53, home 22:30. The 23:00 meal was logged at 01:34 together with a bath. At 03:38 he logged sleep with the note about the new poodle, then asked why the agent had elided it. His dog-related question was how "by", "beside" and "next to" differ. He concluded that "by" is correct, since the dog is under the hammock and his wife on it, and "under" would need the hammock added.
+				- Side items: at 12:37 and 01:46 he searched "true negative meaning", at 12:40 and 23:13 "Luật mới về cai nghiện ma túy", at 18:53 "in real time", at 21:51 "jitter" (with the Cambridge Dictionary page), at 01:40 "poodle" (Wikipedia pages for Poodle, Water dog and Goldendoodle), and at 03:39 "ellipsis". He read a New Stack piece on Claude Code message threads at 01:48 and checked his IP at 01:46. At 15:16-15:23 he opened Gemini, Google One credit history and storage management, a Gemini chat "Exploring Unïnfo and Mind Jungle", and Gemini usage. At 17:09 he opened AI Studio billing and usage. He opened Claude Code web sessions at 19:26-19:29 and 01:30-01:32.
+				- Notes: Logseq auto-saves touched `2026 Manual Log.md` many times, `pages/Mind Jungle.md` at 19:28 and 19:38, and `pages/Mind Chips.md` at 20:58.
+			- **Details**
+			  collapsed:: true
+				- 08:00-10:44 no recorded activity
+				- 10:44 Google ad redirect to a RiseGuide quiz (phone sync)
+				- 11:04 Google ad redirect to a CaloSure milk page
+				- 11:04-12:34 no recorded activity
+				- 12:34 Manual: Wake up
+				- 12:37 Search: "true negative meaning"
+				- 12:40 Search: "Luật mới về cai nghiện ma túy"
+				- 13:13 Manual: Meal
+				- 14:16 Manual: To office
+				- 14:58 Manual: Office
+				- 15:12 Search: "can cognee combine vector completion with graph completion?"
+				- 15:16-15:18 Google Gemini, Google One credit history and storage management pages
+				- 15:18-15:23 Gemini notebook and chat "Exploring Unïnfo and Mind Jungle", Gemini usage, searches "What can you do?" (twice) and the Cognee search again
+				- 15:31-16:28 Brain dev session: Cognee graph traversal, search types, Cypher scope, Python access, belongs_to_set and is_part_of, second-dataset test, own HYBRID_COMPLETION, `onlyContext`
+				- 16:02 Subagent hand-back
+				- 16:33 Subagent hand-back
+				- 16:42-16:46 Cognee only adds documents, one store root per graph, "Yes, let's go."
+				- 16:54 Subagent hand-back
+				- 17:01 Subagent hand-back
+				- 17:07 Subagent hand-back
+				- 17:09 Google AI Studio billing and usage
+				- 17:18 Asked for a one-line commit message
+				- 17:23 Restarted the service
+				- 17:29 Subagent hand-back
+				- 17:31 Session continued from a compacted summary
+				- 17:34-17:54 Implementation plan for the store root per graph, Aperas skills loaded, Slice 2 needs (1-3 the agent, 4 and 5 him)
+				- 17:57-18:24 `onlyContext` test status, plan to test on the real brain, HYBRID_COMPLETION spike against 2b and 2c, judge changed, full product flow design
+				- 18:03 Subagent hand-back
+				- 18:16 Subagent hand-back
+				- 18:28 Subagent hand-back
+				- 18:32-18:53 Question set (one per type), models gpt-4.1-mini and gpt-5 minimal, first product test without graph work, push channel with `curl`, search "in real time"
+				- 18:41 Subagent hand-back
+				- 18:46 Subagent hand-back
+				- 18:59 Subagent hand-back
+				- 19:00-19:32 Walk: A break by walking outside is so relaxed. The working task was still lingering half of the way, though.
+				- 19:26-19:29 Claude Code web sessions
+				- 19:28 Subagent hand-back; Logseq auto-saved `pages/Mind Jungle.md`
+				- 19:33-20:54 English-language talk with the log agent (range wording, "19:00-now", guessing, "I"/"i", countable and uncountable nouns, begin/start, evasive/evade, disrupt/interrupt, "language mode"); paused at 20:39
+				- 20:55 Session continued from a compacted summary
+				- 20:58 Logseq auto-saved `pages/Mind Chips.md`
+				- 21:20-21:51 Brain dev session: silent follow-up for the i-agent, Vietnamese moved to the playbook, fold tool, `disclaimer.ts`, r11 bridge cost, "jitter"
+				- 21:41 Subagent hand-back
+				- 21:51-21:52 Search: "jitter" and Cambridge Dictionary page
+				- 21:53 Manual: To home
+				- 21:53 Subagent hand-back
+				- 21:57 Subagent hand-back
+				- 22:30 Manual: Home
+				- 22:38-22:53 `~/opt` session: continued from a compacted summary, checked the Brain session, archived-session mix-up, sent message about recording the multilingual model behaviour
+				- 23:00 Manual: Meal (logged 01:34)
+				- 23:05 Subagent hand-back
+				- 23:13 Subagent hand-back; search "Luật mới về cai nghiện ma túy"
+				- 23:20 `~/opt` session: "Check it"
+				- 23:20-01:30 no recorded activity
+				- 01:30-01:32 Claude web, new chat and Claude Code sessions
+				- 01:34 Manual: Bath
+				- 01:40-01:45 Search: "poodle", Wikipedia pages Poodle, Water dog and Goldendoodle
+				- 01:46 Search: "true negative meaning"; checked IP (ifconfig.co)
+				- 01:48 Read The New Stack on Claude Code message threads
+				- 01:48-03:38 no recorded activity
+				- 03:38 Manual: Sleep: Today my home gets a new member -- a little poodle 🐩! She's sleeping by my wife.
+				- 03:39 Search: "ellipsis"
+				- 03:41-03:47 Talk with the log agent about why the poodle line was elided, "by" versus "beside" versus "next to", and the hammock
 		- **2026-11-02**: A day that started at 13:00 with a meal and the office from 14:39, and ended with sleep at 06:20. Almost all of it went into one thread: the AI Twin Brain spike on relational questions, where the r-agent has to find the intermediate nodes between two endpoints. He supervised it in the dev session for about 9 h at the office, then from home through the night, and about 30 subagent hand-backs came in. He came home at 00:51 and remarked that he had worked 10 h without a single break. Brain supervision (~13 h in total) was far larger than on 11-01 (~3.2 h), while daily-log and mind-trail work almost disappeared.
 		  collapsed:: true
 			- **Analysis**: Recorded activity ran from 13:00 to 06:28 (next day). Nothing was recorded from 08:00 to 13:00 (5 h), and there were no other long gaps. The Brain supervision continued through the commute and the home hours, and the remote "Check it" prompts overlapped with waiting, so the split is approximate (about 17.5 h of recorded span).
