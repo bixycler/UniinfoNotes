@@ -69,9 +69,14 @@ The Claude desktop app (Code tab) runs on the Pro login, separate from the Paseo
 - **Assumption to confirm:** the watcher assumes the limit message shows up in `paseo logs --tail 3`. If an agent stays stalled after its reset, check the log first, then how Paseo words the message.
 - **Quota snapshot (2026-10-28):** the CLI account was at 7% of its five-hour window and 9% weekly (weekly reset 2026-11-03). The desktop account was at 2% session and 13% weekly (weekly reset 2026-11-04).
 
+### 2026-11-05, 05:00 check (run at 04:37)
+
+The watcher logged `DRY-RUN would nudge (limit reset at 2026-11-05T04:30:00+07:00)` for agent 875594e at 04:33:45, on its first pass after the reset. The reset time matches the agent's limit message ("resets 4:30am (Asia/Ho_Chi_Minh)"). `nudged.dry` holds the entry, `nudged` is empty, and the `live` flag does not exist, so nothing was sent.
+
+`paseo-quota-nudge.sh --once` ran with the watcher stopped: it printed nothing, exited 0 and added no log line. The watcher had to be stopped first, together with its orphaned `sleep 300`, which holds the lock file. It was restarted afterwards (pid 2235052, `started` line at 04:37:50, dry-run).
+
+Agent 875594e is idle and still stopped at the limit message. Quota readings: session 0% (the window has not started again), weekly 46% and weekly Fable 10%, both resetting 2026-11-10 at 08:59.
+
 ## Open to-dos
 
-- Wait for the first real quota stall while in dry-run. It began on 2026-11-05: the Fable agent 875594e hit its limit (resets 04:30 ICT), and the watcher logged `limit hit, resets 2026-11-05T04:30:00+07:00, waiting` at 04:03, so the reset time was parsed correctly. Before enabling `live`, check that:
-  - the log shows a `DRY-RUN would nudge` line for that agent;
-  - its reset time matches the time in the agent's limit message;
-  - `paseo-quota-nudge.sh --once` runs without errors against the current Paseo version.
+- The dry-run checks passed on 2026-11-05: the `DRY-RUN would nudge` line appeared for agent 875594e, its reset time (04:30 ICT) matched the agent's limit message, and `--once` ran without errors. Going live is the user's decision: `touch ~/.config/paseo-quota-nudge/live`. One caution remains: it nudges any idle agent stopped at a limit, including one stopped on purpose, and a nudge to 875594e would resume it.
