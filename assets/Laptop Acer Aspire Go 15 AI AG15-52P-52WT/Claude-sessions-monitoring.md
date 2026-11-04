@@ -41,7 +41,9 @@ A hang shows as `Status: running` with an `UpdatedAt` that stops advancing, so d
 - **Nudge conditions:** it sends only if the reset has passed, the agent has not been updated since the reset, and it has not already been nudged for that reset.
 - **Message:** `The usage limit has reset. Please continue where you left off.` (`NUDGE_MESSAGE` overrides it).
 - **Mode:** dry-run unless the file `~/.config/paseo-quota-nudge/live` exists. `touch` it to go live and `rm` it to return to dry-run, with no restart. In dry-run it only logs what it would send.
-- **State and log:** `~/.local/state/paseo-quota-nudge/` holds `log`, `nudged` (live) and `nudged.dry` (dry-run). A lock file keeps one instance running.
+- **State and log:** `~/.local/state/paseo-quota-nudge/` holds `log`, `seen` (stalls already logged), `nudged` (live) and `nudged.dry` (dry-run). A lock file keeps one instance running.
+- **Log lines:** each stall gives two lines, written once per agent and reset time: `limit hit, resets <time>, waiting` when it first sees the limit message, then `DRY-RUN would nudge` (or `nudged` when live) after the reset. The first line was added on 2026-11-05, because the watcher was silent between the stall and the reset.
+- **Restarting it:** the `sleep 300` child keeps the lock file open, so killing the watcher by pid leaves the lock held. Kill that `sleep` too, or the new instance exits with "already running". `--once` also exits that way while the watcher runs.
 - **Autostart:** `~/.config/autostart/paseo-quota-nudge.desktop`, with a 20 s delay.
 - **Limits:** it covers Paseo agents only. It has no allow-list, and none is planned (decided 2026-11-01): any idle or errored agent meeting the conditions is nudged once live, including one stopped on purpose. The Pro desktop session cannot be polled.
 
@@ -69,7 +71,7 @@ The Claude desktop app (Code tab) runs on the Pro login, separate from the Paseo
 
 ## Open to-dos
 
-- Wait for the first real quota stall while in dry-run. Before enabling `live`, check that:
+- Wait for the first real quota stall while in dry-run. It began on 2026-11-05: the Fable agent 875594e hit its limit (resets 04:30 ICT), and the watcher logged `limit hit, resets 2026-11-05T04:30:00+07:00, waiting` at 04:03, so the reset time was parsed correctly. Before enabling `live`, check that:
   - the log shows a `DRY-RUN would nudge` line for that agent;
   - its reset time matches the time in the agent's limit message;
   - `paseo-quota-nudge.sh --once` runs without errors against the current Paseo version.
