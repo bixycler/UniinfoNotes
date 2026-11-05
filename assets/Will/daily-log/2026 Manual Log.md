@@ -69,3 +69,4 @@
 	- It's a pattern: while absorbed, i see "nothing at all" until hours or days have passed. I only see the cost when i review the traces.
 	- The log works as that review. It showed what "evaporated" this afternoon.
 - 2026-11-06 01:34 To home
+- 2026-11-06 02:06 Home
