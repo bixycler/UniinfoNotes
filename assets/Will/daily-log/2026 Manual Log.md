@@ -63,4 +63,4 @@
 - 2026-11-05 12:27 Meal
 - 2026-11-05 13:48 To office
 - 2026-11-05 14:23 Office
-- 2026-11-05 19:24 Walk
+- 2026-11-05 19:24-19:52 Walk: I wondered what i had done before resuming the Brain session this afternoon. Then i reviewed the project and see that i should add model-specific instructions to the base prompt.
