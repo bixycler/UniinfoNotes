@@ -32,6 +32,23 @@ Paseo is installed in `~/opt/Paseo`. Its daemon listens on `127.0.0.1:6767`, and
 
 A hang shows as `Status: running` with an `UpdatedAt` that stops advancing, so detection needs `inspect`, because `ls` does not show `UpdatedAt`. `paseo usage inspect` reports the five-hour session window and the weekly windows with their reset times, for the CLI account only. The desktop app's quota is covered under [Desktop app session (Pro)](#desktop-app-session-pro).
 
+### Slash commands sent through Paseo
+
+`paseo send <id> "<command>"` passes a slash command to the agent's Claude session, which runs it like a typed command. This gives what the CLI alone does not show: the context window and the model actually in use.
+
+| Goal | Send | What comes back |
+|---|---|---|
+| Context window usage | `/context` | Tokens used of the window (for example 93.4k of 1m), split by category. `paseo inspect` does not show this. |
+| Shrink the context | `/compact` | The log shows `[Compacted]`. Run `/context` afterwards to see the new size. |
+| Current model | `/model` | `Current model: <name> (effort: <level>)`. |
+| Temporary model override | `/model <model-id>` | `Set model to <name> for this session only`. |
+
+- **Waiting:** `paseo send` waits for the agent's turn and often times out after 60 to 120 s, but the message is still delivered. Check with `paseo logs <id> --tail <n> | grep "^\[User\]"` rather than sending again. `--no-wait` returns at once.
+- **Paseo may show a different model:** `paseo ls` and `paseo inspect` report the model from Paseo's stored session, while `/model` reports what the running session uses. After `/model <model-id>` the two disagree. A model switched in the Paseo UI persists, even across a Paseo restart, and `/model` then agrees with it. Use the Paseo selector to change the model for good, and `/model <model-id>` only as a temporary override.
+- **Cost:** `/compact` reads the whole context, so on a large context it uses a noticeable share of the session window.
+- **Busy agents:** all of these have so far been sent to idle agents only. What happens when one reaches a running agent (run at once or queued until the turn ends) is untested.
+- **Text starting with a hyphen:** use `paseo send <id> -- "<text>"`.
+
 ### Quota nudge watcher
 
 `~/.local/bin/paseo-quota-nudge.sh` restarts agents that stopped on a Claude quota limit.
