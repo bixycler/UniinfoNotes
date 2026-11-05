@@ -64,3 +64,7 @@
 - 2026-11-05 13:48 To office
 - 2026-11-05 14:23 Office
 - 2026-11-05 19:24-19:52 Walk: I wondered what i had done before resuming the Brain session this afternoon. Then i reviewed the project and see that i should add model-specific instructions to the base prompt.
+- 2026-11-05 20:11 Reflection: time blindness
+	- This afternoon i thought the Paseo/credentials fix was a quick one, but the traces say about 2.5h (14:23-16:51), spread over three parallel Claude sessions together with many screenshots and web checks.
+	- It's a pattern: while absorbed, i see "nothing at all" until hours or days have passed. I only see the cost when i review the traces.
+	- The log works as that review. It showed what "evaporated" this afternoon.
