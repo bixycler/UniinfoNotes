@@ -68,3 +68,4 @@
 	- This afternoon i thought the Paseo/credentials fix was a quick one, but the traces say about 2.5h (14:23-16:51), spread over three parallel Claude sessions together with many screenshots and web checks.
 	- It's a pattern: while absorbed, i see "nothing at all" until hours or days have passed. I only see the cost when i review the traces.
 	- The log works as that review. It showed what "evaporated" this afternoon.
+- 2026-11-06 01:34 To home
