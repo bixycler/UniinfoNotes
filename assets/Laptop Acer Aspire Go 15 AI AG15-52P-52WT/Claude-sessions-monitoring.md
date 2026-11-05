@@ -45,8 +45,8 @@ A hang shows as `Status: running` with an `UpdatedAt` that stops advancing, so d
 
 - **Waiting:** `paseo send` waits for the agent's turn and often times out after 60 to 120 s, but the message is still delivered. Check with `paseo logs <id> --tail <n> | grep "^\[User\]"` rather than sending again. `--no-wait` returns at once.
 - **Paseo may show a different model:** `paseo ls` and `paseo inspect` report the model from Paseo's stored session, while `/model` reports what the running session uses. After `/model <model-id>` the two disagree. A model switched in the Paseo UI persists, even across a Paseo restart, and `/model` then agrees with it. Use the Paseo selector to change the model for good, and `/model <model-id>` only as a temporary override.
-- **Cost:** `/compact` reads the whole context, so on a large context it uses a noticeable share of the session window.
-- **Busy agents:** all of these have so far been sent to idle agents only. What happens when one reaches a running agent (run at once or queued until the turn ends) is untested.
+- **Saving quota:** every turn re-reads the whole context, so a large context makes each later turn more expensive. Check the size with `/context`. When it is large, suggest `/compact` to the user instead of running it: it is a major decision, so the user decides and sends it. The compaction itself is a single pass, and the turns after it are cheaper.
+- **Busy agents:** `/compact` goes only to an idle agent, because compaction needs a stable context, and only when the user asks for it. `/context` and `/model` can be sent while the agent is working (tried in flight, no problem).
 - **Text starting with a hyphen:** use `paseo send <id> -- "<text>"`.
 
 ### Quota nudge watcher
