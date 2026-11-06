@@ -96,3 +96,5 @@
 	- A question to ask before the next "simple" idea: what is the smallest version, and is doing nothing one of the options?
 - 2026-11-06 21:40-22:23 Meditation: back to the inner vacancy
 - 2026-11-07 00:55 To home
+- 2026-11-07 01:42 Home
+- 2026-11-07 01:42 Meal
