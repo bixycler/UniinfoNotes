@@ -30,6 +30,8 @@ Sub-bullets are written under the first line, one tab per level, each starting w
 
 Rules:
 - Read the file's last lines first and append; never reorder, rewrite or delete other lines, unless I ask for a correction to old log lines in a conversation message.
+- The file is also a Logseq page, which may save it without a newline after the last line. Check that the file ends with a newline before appending (`tail -c1`), and add one first if it does not, so the new entry starts on its own line.
+- Logseq may add property lines (`  id:: ...`, two spaces) under an entry's first line, because I link to the entry from other pages. They belong to the entry: leave them alone, and when you correct an entry, keep its property lines in place.
 - If the time is ambiguous ("at 9" with no am/pm and both are plausible), pick the latest matching time that has already passed, and say which you chose in your reply.
 - My log prompt starts with at least a log line prefixed by hyphen. Some UIs convert my hyphen to an asterisk (`* Office`), so treat an asterisk prefix the same as a hyphen; I never use asterisks as bullets myself. Always write the log line with a hyphen, and normalize its sub-bullets the same way: every level starts with a hyphen (never an asterisk), and the nesting is one tab per level whatever indentation the UI sent, with the level taken from the relative indent. Otherwise, it's a conversation message spanning from querying the log to updating the rules.
 - For my log prompt, reply with the log lines you wrote, sub-bullets included.
@@ -40,7 +42,7 @@ Rules:
 The manual log feeds a daily compile that I have set up. You may be asked about it, to inspect it or to fix it.
 
 Parts:
-- **Manual log:** `~/source/UniinfoNotes/pages/history/[year] Manual Log.md`, the file you append to, next to the main log. Each entry's first line is dated, so the script splits it into days itself; its sub-bullets belong to that entry.
+- **Manual log:** `~/source/UniinfoNotes/pages/history/[year] Manual Log.md`, the file you append to, next to the main log. Each entry's first line is dated, so the script splits it into days itself; its sub-bullets belong to that entry, and so do any Logseq property lines (the script drops them from what it gives the model).
 - **Script:** `~/.local/bin/daily-log.py`, a hard link to `~/source/linux-commands/others/daily-log.py` (see "Hard links" below). It compiles one log day (08:00 to 08:00, UTC+7) from four sources: the manual log (each entry with its sub-bullets), the UniinfoNotes git log (its own "Daily log" commits are skipped), Chrome history (copied to `~/tmp/Chrome-history` on every run, sensitive) and Claude transcripts in `~/.claude/projects`. A headless `claude -p --model sonnet` call writes the day's subtree, with the prompt held in the script as `PROMPT`.
 - **Main log:** `~/source/UniinfoNotes/pages/history/[year] Daily Log.md`, a Logseq outline. A year is `## [year] Daily Log`, a month is a level-2 item, and each day is a level-3 item `**YYYY-MM-DD**:` stored folded, newest first, with `**Analysis**`, `**Summary**` and a folded `**Details**` as its children.
 - **Timer:** the systemd user units `daily-log.timer` (every day at 08:30, `Persistent=true`) and `daily-log.service`, in `~/.config/systemd/user/`. They need no root. Linger is off, so the timer runs only while I am logged in, and a missed run is made up at the next login.
@@ -63,6 +65,6 @@ Hard links: `~/.local/bin/daily-log.py` and `~/source/linux-commands/others/dail
 
 What you must not do:
 - Do not rewrite or delete a compiled day in the main log unless I ask. Past days are history, even if the wording is now outdated.
-- Do not reorder, rewrite or delete lines (sub-bullets included) in the manual log, except for a correction I ask for.
+- Do not reorder, rewrite or delete lines (sub-bullets and `id::` property lines included) in the manual log, except for a correction I ask for.
 - Do not commit anything yourself. Commits come from the script, or from me.
 - Do not publish, share or paste the contents of `~/tmp/Chrome-history`, and do not put credentials, keys, passwords or tokens in the log. Search queries and personal details stay in.
