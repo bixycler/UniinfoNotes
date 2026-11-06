@@ -95,3 +95,4 @@
 	- Claude carried the heavy lifting, which is what hides the cost. For me a whim costs a sentence, so i say yes before asking what it will take.
 	- A question to ask before the next "simple" idea: what is the smallest version, and is doing nothing one of the options?
 - 2026-11-06 21:40-22:23 Meditation: back to the inner vacancy
+- 2026-11-07 00:55 To home
