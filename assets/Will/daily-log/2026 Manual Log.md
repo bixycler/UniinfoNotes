@@ -78,8 +78,9 @@
 - 2026-11-06 15:19 To office: My wife is away from home, so i may take some cake instead of a meal.
 - 2026-11-06 16:09 Office: I'm going around to find some food.
 - 2026-11-06 16:41 Meal: sesame bread, onigiri, yogurt
-- 2026-11-06 17:26-18:25 Discussion: roots, gốc and the single-origin illusion
+- 2026-11-06 17:26-19:15 Discussion: roots, gốc and vacantism
 	- Started from the etymology of "etymology" (étymon + logos, "the true meaning of a word"), then from the original sense of "root": a branching system, not a single point.
-	- Vietnamese separates "gốc", "rễ" and "thân"; English has no plain word for "gốc", only technical descriptions (trunk flare, root collar, root neck, stump), so "root" got stretched to cover both.
+	- Vietnamese separates "gốc", "rễ" and "thân"; English has no plain word for "gốc", only technical descriptions (trunk flare, root collar, root neck, stump), so "root" got stretched to cover both. Vietnamese compounds (gốc rễ, nền móng, cội nguồn) also pair a visible point with a hidden system.
 	- "Root", "source" and "origin" all collapse a network into one point. Rivers and ancestries have many streams, and the "one source" is a convenient choice.
-	- The hardest ignorance is about the self: the ego is the shell that keeps the single-origin picture, and it hides what one dislikes in one's self. The daily log is a means of helping me trace back those hidden roots.
+	- In the Grand Circle of Uniinfo, the monism point (gốc) sits above a root network -- vacantism (vô nguyên), and the effect flow loops back, so there is no first. Materialism and idealism are two picks of the same monism point. English had no word for it, so i coined "vacantism" (vacancy as room, avoiding the negativity of "emptiness"). Nearest terms: [nonfoundationalism](https://en.wikipedia.org/wiki/Anti-foundationalism), [coherentism](https://en.wikipedia.org/wiki/Coherentism).
+	- The hardest ignorance is about the self: the ego is the shell that keeps the single-origin picture, and it hides what one dislikes in one's self. Coherentism is the mechanism of the self, but the self may cling to its own coherence and break the connection with the world outside. The daily log is a means of helping me trace back those hidden roots.
