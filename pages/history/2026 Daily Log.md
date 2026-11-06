@@ -1,5 +1,6 @@
 ## 2026 Daily Log
 	- November
+	  id:: 6ae7e7ef-2ed2-4732-a7f9-4f4215bfdbd0
 		- **2026-11-05**: He woke at 12:13, had a meal, and went to the office at 13:48, arriving at 14:23. The first office hours went to a Paseo problem: its model display and rate limits did not match the CLI. A re-login fixed that after his account was upgraded from Max 5x to Max 20x. From 16:51 he spent the rest of the day and night supervising the AI Twin Brain dev agent on model comparison, a provider adapter, the reasoning-effort mapping, and prompt boundaries and stop sequences. He ended with a hard lesson about remote control and a reflection on time blindness. Brain supervision (~12 h) was first again, followed by routine and reflections (~3.2 h) and the Paseo troubleshooting (~2.4 h).
 		  collapsed:: true
 			- **Analysis**: Recorded activity ran from 12:13 (wake-up) to 07:12 (next day). Nothing was recorded from 08:00 to 12:13 (about 4 h), and from 12:36 to 13:48 there were no entries after the meal (about 1.2 h). There were no other long gaps. The Brain agents kept running during the walk, the commute, the meal and the remote-control hours, so the split is approximate (about 17.6 h of attributable time).
@@ -327,7 +328,6 @@
 				- 05:12 Bath (auto-save at 05:18)
 				- 05:54-06:13 Brain dev via `~/opt`: asked whether a Cognee graph for UniinfoNotes exists, then to check its reachability for relational questions against reachability by chunks
 				- 06:20 Sleep (auto-save at 06:28; a last subagent hand-back arrived at 06:28)
-	  id:: 6ae7e7ef-2ed2-4732-a7f9-4f4215bfdbd0
 		- **2026-11-01**: A day that began with sleep at 08:14 and a wake-up at 16:10, then an evening and night split between three threads. They were refining the activity-log skill (with a reflection on speed versus care), creating a new `mind-trail` skill for deep discussions, and supervising the AI Twin Brain dev agent as it tested vector plus graph retrieval on his UniinfoNotes corpus. He went to the office at 17:00, came home at 23:18 and slept at 04:40. By time, Brain dev supervision (~3.2 h) was first, then the activity-log skill (~2.1 h), then mind-trail and a short meditation (~1.7 h). Compared with 10-31, Brain work returned to first place, while daily-log work fell from first to second.
 		  collapsed:: true
 			- **Analysis**: Recorded activity ran from 08:14 to 04:48 (next day). Nothing was recorded from 08:18 to 16:10 (about 7.9 h, he was asleep) or after 04:48 until 08:00 (about 3 h). Between 00:31 and 02:23 there were only a meal, a few word searches and the Brain agent working alone. The skill editing, the reflection and the mind-trail work overlapped with agents running in the background, so the split is approximate (about 9 h of attributable time).
