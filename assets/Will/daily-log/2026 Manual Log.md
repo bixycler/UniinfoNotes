@@ -78,3 +78,8 @@
 - 2026-11-06 15:19 To office: My wife is away from home, so i may take some cake instead of a meal.
 - 2026-11-06 16:09 Office: I'm going around to find some food.
 - 2026-11-06 16:41 Meal: sesame bread, onigiri, yogurt
+- 2026-11-06 17:26-18:25 Discussion: roots, gốc and the single-origin illusion
+	- Started from the etymology of "etymology" (étymon + logos, "the true meaning of a word"), then from the original sense of "root": a branching system, not a single point.
+	- Vietnamese separates "gốc", "rễ" and "thân"; English has no plain word for "gốc", only technical descriptions (trunk flare, root collar, root neck, stump), so "root" got stretched to cover both.
+	- "Root", "source" and "origin" all collapse a network into one point. Rivers and ancestries have many streams, and the "one source" is a convenient choice.
+	- The hardest ignorance is about the self: the ego is the shell that keeps the single-origin picture, and it hides what one dislikes in one's self. The daily log is a means of helping me trace back those hidden roots.
