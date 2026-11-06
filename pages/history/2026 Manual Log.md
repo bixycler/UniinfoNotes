@@ -87,3 +87,8 @@
 		- Nearest terms: [nonfoundationalism](https://en.wikipedia.org/wiki/Anti-foundationalism), [coherentism](https://en.wikipedia.org/wiki/Coherentism).
 		- [The Grand Circle as a tree](((6a3a6340-296f-49aa-bb88-e523073cc177)))
 	- The hardest ignorance is about the self: the ego is the shell that keeps the single-origin picture, and it hides what one dislikes in one's self. Coherentism is the mechanism of the self, but the self may cling to its own coherence and break the connection with the world outside. The daily log is a means of helping me trace back those hidden roots.
+- 2026-11-06 19:38-21:05 Reflection: the "simple whim" trap
+  id:: 6aede1e7-44aa-49fe-9ff5-eb9be4d9e07e
+	- Tonight a one-line idea, "the manual log can have links now", grew into a chain of changes: a moved file, a drifting block id, a missing newline, property lines, an index lookup, a placeholder uuid and a prompt rule. Every step was small and worth doing, so none of them looked like a big task until i added them up.
+	- Claude carried the heavy lifting, which is what hides the cost. For me a whim costs a sentence, so i say yes before asking what it will take.
+	- A question to ask before the next "simple" idea: what is the smallest version, and is doing nothing one of the options?
