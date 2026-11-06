@@ -3438,9 +3438,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		- November journal
 		  id:: 6ae74d3b-2804-4427-8f5e-8a06337c48f1
 		  collapsed:: true
-			- 6th,
-				- [from meta-etymology to vacantism](((6aedd030-f684-43a9-a26f-001cd2b29304))).
-				- ((6aede1e7-44aa-49fe-9ff5-eb9be4d9e07e))
+			- 6th, from the [hard lesson last night](((6aedd030-bc52-4064-8285-77b921b56ffd))) with [its reflection](((6aedd030-d1f9-4c77-bbf6-abfbdfd4b2f7))), [from meta-etymology to vacantism](((6aedd030-f684-43a9-a26f-001cd2b29304))), [from a simple whim to a chain of updates and corrections](((6aede1e7-44aa-49fe-9ff5-eb9be4d9e07e))), i've set up a mirror house so i cannot escape my own reflection anymore!
 	- ## Current Stories < ((6960e36c-4d9a-42cb-8d78-3f41ad3ff419))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((6ae74d3b-2804-4427-8f5e-8a06337c48f1)), ((6ae7e7ef-2ed2-4732-a7f9-4f4215bfdbd0)) log

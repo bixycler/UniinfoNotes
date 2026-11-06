@@ -72,7 +72,9 @@
 - 2026-11-06 02:06 Home
 - 2026-11-06 02:12 Meal
 - 2026-11-06 06:45 Bath: A hard lesson about remote control tonight: it's not for a dense discussion!
+  id:: 6aedd030-bc52-4064-8285-77b921b56ffd
 - 2026-11-06 06:55 Reflection: This is the first price I pay for my attachment to such a "high" on "agentic wings". Knowing beforehand doesn't keep me from being caught up in the flow by the 3 poisons.
+  id:: 6aedd030-d1f9-4c77-bbf6-abfbdfd4b2f7
 - 2026-11-06 08:58 Sleep
 - 2026-11-06 14:50 Wake up
 - 2026-11-06 15:19 To office: My wife is away from home, so i may take some cake instead of a meal.
